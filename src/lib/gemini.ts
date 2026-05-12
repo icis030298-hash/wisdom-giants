@@ -8,6 +8,7 @@ export async function getGiantResponse(persona: string, userMessage: string, gia
       body: JSON.stringify({
         prompt: userMessage,
         giantName,
+        persona,
       }),
     });
 
