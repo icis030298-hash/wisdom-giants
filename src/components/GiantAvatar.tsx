@@ -2,7 +2,7 @@ import React from 'react';
 
 interface GiantAvatarProps {
   slug: string;
-  category?: '성취' | '역경' | '지혜' | '창의';
+  category: string;
   className?: string;
   size?: number;
 }
@@ -21,6 +21,9 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="82" cy="100" r="12" fill="none" stroke="#334155" strokeWidth="2" />
           <circle cx="118" cy="100" r="12" fill="none" stroke="#334155" strokeWidth="2" />
           <line x1="94" y1="100" x2="106" y2="100" stroke="#334155" strokeWidth="2" />
+          <circle cx="82" cy="100" r="2" fill="#334155" /> {/* Eyes */}
+          <circle cx="118" cy="100" r="2" fill="#334155" />
+          <path d="M98 115 L102 115" stroke="#334155" strokeWidth="1" /> {/* Nose */}
         </svg>
       );
     }
@@ -32,8 +35,11 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#1e3a8a" />
           <rect x="65" y="60" width="70" height="90" rx="30" fill="#fef3c7" />
-          <path d="M30 80 L170 80 L100 30 Z" fill="#000" /> {/* Bicorne Hat */}
+          <path d="M30 80 L170 80 L100 30 Z" fill="#000" />
           <rect x="95" y="30" width="10" height="50" fill="#d4af37" />
+          <circle cx="85" cy="105" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="105" r="3" fill="#334155" />
+          <path d="M98 115 L102 115" stroke="#334155" strokeWidth="2" /> {/* Nose */}
         </svg>
       );
     }
@@ -45,8 +51,11 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#991b1b" />
           <rect x="65" y="60" width="70" height="90" rx="30" fill="#fef3c7" />
-          <path d="M70 65 L130 65 L130 45 L115 35 L85 35 L70 45 Z" fill="#000" /> {/* Ikseongwan */}
-          <path d="M85 130 Q100 150 115 130" fill="none" stroke="#475569" strokeWidth="2" /> {/* Beard */}
+          <path d="M70 65 L130 65 L130 45 L115 35 L85 35 L70 45 Z" fill="#000" />
+          <circle cx="85" cy="100" r="2.5" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="2.5" fill="#334155" />
+          <path d="M100 110 L100 118" stroke="#334155" strokeWidth="1.5" /> {/* Nose */}
+          <path d="M85 130 Q100 150 115 130" fill="none" stroke="#475569" strokeWidth="2" />
         </svg>
       );
     }
@@ -59,7 +68,10 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <path d="M40 190 Q100 150 160 190" fill="#334155" />
           <rect x="65" y="55" width="70" height="95" rx="32" fill="#fce7f3" />
           <path d="M65 80 Q65 50 100 50 Q135 50 135 80" fill="#1e293b" />
-          <path d="M150 60 L160 40 L170 60 Z" fill="#f59e0b" /> {/* Rocket Symbol */}
+          <circle cx="85" cy="95" r="3" fill="#1e293b" /> {/* Eyes */}
+          <circle cx="115" cy="95" r="3" fill="#1e293b" />
+          <path d="M98 105 L102 105" stroke="#1e293b" strokeWidth="2" /> {/* Nose */}
+          <path d="M150 60 L160 40 L170 60 Z" fill="#f59e0b" />
         </svg>
       );
     }
@@ -71,7 +83,10 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#78350f" />
           <rect x="65" y="65" width="70" height="85" rx="25" fill="#fde68a" />
-          <path d="M55 70 Q100 30 145 70" fill="#451a03" /> {/* Fur Hat */}
+          <path d="M55 70 Q100 30 145 70" fill="#451a03" />
+          <circle cx="85" cy="100" r="3.5" fill="#451a03" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="3.5" fill="#451a03" />
+          <path d="M97 110 L103 110" stroke="#451a03" strokeWidth="2.5" /> {/* Nose */}
           <path d="M80 135 L100 150 L120 135" fill="none" stroke="#451a03" strokeWidth="3" />
         </svg>
       );
@@ -84,7 +99,9 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#94a3b8" />
           <rect x="65" y="70" width="70" height="80" rx="20" fill="#fde68a" />
-          <path d="M60 80 Q100 10 140 80" fill="#d4af37" /> {/* Helmet */}
+          <path d="M60 80 Q100 10 140 80" fill="#d4af37" />
+          <circle cx="85" cy="110" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="110" r="3" fill="#334155" />
           <path d="M100 10 L100 50" stroke="#b91c1c" strokeWidth="8" />
         </svg>
       );
@@ -97,9 +114,12 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#1e293b" />
           <rect x="68" y="60" width="64" height="90" rx="32" fill="#fce7f3" />
-          <circle cx="75" cy="50" r="20" fill="#000" fillOpacity="0.5" /> {/* Mickey Ear L */}
-          <circle cx="125" cy="50" r="20" fill="#000" fillOpacity="0.5" /> {/* Mickey Ear R */}
-          <rect x="105" y="120" width="4" height="30" fill="#d4af37" transform="rotate(45 105 120)" /> {/* Pencil */}
+          <circle cx="85" cy="100" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="3" fill="#334155" />
+          <path d="M98 110 L102 110" stroke="#334155" strokeWidth="1.5" /> {/* Nose */}
+          <circle cx="75" cy="50" r="20" fill="#000" fillOpacity="0.5" />
+          <circle cx="125" cy="50" r="20" fill="#000" fillOpacity="0.5" />
+          <rect x="105" y="120" width="4" height="30" fill="#d4af37" transform="rotate(45 105 120)" />
         </svg>
       );
     }
@@ -111,7 +131,10 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#334155" />
           <rect x="65" y="65" width="70" height="85" rx="30" fill="#fef3c7" />
-          <circle cx="100" cy="40" r="15" fill="#fbbf24" className="animate-pulse" /> {/* Light Bulb */}
+          <circle cx="85" cy="105" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="105" r="3" fill="#334155" />
+          <path d="M98 115 L102 115" stroke="#334155" strokeWidth="2" /> {/* Nose */}
+          <circle cx="100" cy="40" r="15" fill="#fbbf24" className="animate-pulse" />
           <path d="M95 55 L105 55 L100 65 Z" fill="#94a3b8" />
         </svg>
       );
@@ -124,7 +147,9 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#f8fafc" />
           <rect x="65" y="65" width="70" height="85" rx="30" fill="#fde68a" />
-          <path d="M60 80 Q100 60 140 80" fill="none" stroke="#10b981" strokeWidth="4" /> {/* Laurel Wreath */}
+          <circle cx="85" cy="100" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="3" fill="#334155" />
+          <path d="M60 80 Q100 60 140 80" fill="none" stroke="#10b981" strokeWidth="4" />
           <circle cx="65" cy="80" r="3" fill="#10b981" />
           <circle cx="135" cy="80" r="3" fill="#10b981" />
         </svg>
@@ -138,8 +163,10 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#1e293b" />
           <rect x="68" y="60" width="64" height="90" rx="32" fill="#fce7f3" />
-          <path d="M65 65 L135 65 L130 50 L70 50 Z" fill="#334155" /> {/* Cap */}
-          <circle cx="100" cy="120" r="20" fill="none" stroke="#d4af37" strokeWidth="3" /> {/* Steering Wheel */}
+          <circle cx="85" cy="100" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="3" fill="#334155" />
+          <path d="M65 65 L135 65 L130 50 L70 50 Z" fill="#334155" />
+          <circle cx="100" cy="120" r="20" fill="none" stroke="#d4af37" strokeWidth="3" />
         </svg>
       );
     }
@@ -151,10 +178,12 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#b91c1c" />
           <rect x="65" y="65" width="70" height="85" rx="30" fill="#fde68a" />
-          <path d="M60 70 Q100 55 140 70" fill="#000" stroke="#000" strokeWidth="3" /> {/* Unibrow */}
-          <circle cx="80" cy="50" r="10" fill="#ef4444" /> {/* Flower L */}
-          <circle cx="100" cy="45" r="10" fill="#f59e0b" /> {/* Flower C */}
-          <circle cx="120" cy="50" r="10" fill="#ec4899" /> {/* Flower R */}
+          <circle cx="85" cy="105" r="3" fill="#000" /> {/* Eyes */}
+          <circle cx="115" cy="105" r="3" fill="#000" />
+          <path d="M60 70 Q100 55 140 70" fill="#000" stroke="#000" strokeWidth="3" />
+          <circle cx="80" cy="50" r="10" fill="#ef4444" />
+          <circle cx="100" cy="45" r="10" fill="#f59e0b" />
+          <circle cx="120" cy="50" r="10" fill="#ec4899" />
         </svg>
       );
     }
@@ -166,9 +195,11 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#475569" />
           <rect x="65" y="60" width="70" height="90" rx="30" fill="#fef3c7" />
-          <rect x="75" y="90" width="20" height="15" rx="2" fill="none" stroke="#334155" strokeWidth="2" /> {/* Glasses */}
+          <circle cx="85" cy="100" r="2.5" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="2.5" fill="#334155" />
+          <rect x="75" y="90" width="20" height="15" rx="2" fill="none" stroke="#334155" strokeWidth="2" />
           <rect x="105" y="90" width="20" height="15" rx="2" fill="none" stroke="#334155" strokeWidth="2" />
-          <circle cx="100" cy="100" r="40" fill="none" stroke="#d4af37" strokeWidth="1" strokeDasharray="4" /> {/* Halo of Meaning */}
+          <circle cx="100" cy="100" r="40" fill="none" stroke="#d4af37" strokeWidth="1" strokeDasharray="4" />
         </svg>
       );
     }
@@ -180,8 +211,10 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#4c1d95" />
           <rect x="65" y="60" width="70" height="90" rx="35" fill="#78350f" />
-          <path d="M60 80 Q100 50 140 80" fill="#2d1303" /> {/* Hair */}
-          <rect x="110" y="120" width="10" height="30" rx="5" fill="#94a3b8" /> {/* Mic */}
+          <circle cx="85" cy="100" r="4" fill="#2d1303" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="4" fill="#2d1303" />
+          <path d="M60 80 Q100 50 140 80" fill="#2d1303" />
+          <rect x="110" y="120" width="10" height="30" rx="5" fill="#94a3b8" />
           <circle cx="115" cy="120" r="8" fill="#334155" />
         </svg>
       );
@@ -194,9 +227,11 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#1e40af" />
           <rect x="65" y="60" width="70" height="95" rx="35" fill="#fef3c7" />
-          <path d="M65 80 Q65 50 100 50 Q135 50 135 80" fill="#fde68a" /> {/* Blonde Hair */}
-          <line x1="120" y1="110" x2="160" y2="80" stroke="#78350f" strokeWidth="4" /> {/* Wand */}
-          <path d="M155 75 L165 65 L160 85" fill="#fbbf24" /> {/* Spark */}
+          <circle cx="85" cy="100" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="3" fill="#334155" />
+          <path d="M65 80 Q65 50 100 50 Q135 50 135 80" fill="#fde68a" />
+          <line x1="120" y1="110" x2="160" y2="80" stroke="#78350f" strokeWidth="4" />
+          <path d="M155 75 L165 65 L160 85" fill="#fbbf24" />
         </svg>
       );
     }
@@ -208,8 +243,10 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#f59e0b" />
           <rect x="68" y="65" width="64" height="85" rx="32" fill="#451a03" />
-          <path d="M68 85 Q100 65 132 85" fill="#64748b" /> {/* Gray Hair */}
-          <circle cx="150" cy="60" r="15" fill="#fff" /> {/* Peace Dove Symbol */}
+          <circle cx="85" cy="105" r="3" fill="#fef3c7" /> {/* Eyes */}
+          <circle cx="115" cy="105" r="3" fill="#fef3c7" />
+          <path d="M68 85 Q100 65 132 85" fill="#64748b" />
+          <circle cx="150" cy="60" r="15" fill="#fff" />
           <path d="M140 60 L160 60 L150 70 Z" fill="#fff" />
         </svg>
       );
@@ -222,8 +259,10 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#065f46" />
           <rect x="68" y="60" width="64" height="90" rx="32" fill="#fef3c7" />
+          <circle cx="85" cy="100" r="3" fill="#334155" fillOpacity="0.5" /> {/* Closed Eyes Effect */}
+          <circle cx="115" cy="100" r="3" fill="#334155" fillOpacity="0.5" />
           <path d="M68 85 Q100 60 132 85" fill="#451a03" />
-          <rect x="90" y="130" width="20" height="25" rx="2" fill="#fff" /> {/* Book */}
+          <rect x="90" y="130" width="20" height="25" rx="2" fill="#fff" />
           <line x1="90" y1="140" x2="110" y2="140" stroke="#94a3b8" strokeWidth="1" />
         </svg>
       );
@@ -236,8 +275,10 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#000" />
           <rect x="65" y="70" width="70" height="85" rx="30" fill="#fef3c7" />
-          <path d="M50 80 Q100 10 150 80 Q160 110 140 120 Q100 100 60 120 Q40 110 50 80" fill="#e2e8f0" /> {/* Wild Hair */}
-          <circle cx="150" cy="130" r="5" fill="#d4af37" /> {/* Note */}
+          <circle cx="85" cy="110" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="110" r="3" fill="#334155" />
+          <path d="M50 80 Q100 10 150 80 Q160 110 140 120 Q100 100 60 120 Q40 110 50 80" fill="#e2e8f0" />
+          <circle cx="150" cy="130" r="5" fill="#d4af37" />
           <line x1="155" y1="130" x2="155" y2="115" stroke="#d4af37" strokeWidth="2" />
         </svg>
       );
@@ -248,10 +289,12 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
       return (
         <svg viewBox="0 0 200 200" className="w-full h-full">
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
-          <path d="M30 190 L170 190 L170 140 L30 140 Z" fill="#334155" /> {/* Wheelchair Base */}
+          <path d="M30 190 L170 190 L170 140 L30 140 Z" fill="#334155" />
           <rect x="70" y="60" width="60" height="80" rx="10" fill="#fce7f3" />
+          <circle cx="88" cy="100" r="2.5" fill="#334155" /> {/* Eyes */}
+          <circle cx="112" cy="100" r="2.5" fill="#334155" />
           <path d="M70 80 Q100 60 130 80" fill="#451a03" />
-          <rect x="140" y="140" width="30" height="20" rx="5" fill="#000" /> {/* Computer Screen */}
+          <rect x="140" y="140" width="30" height="20" rx="5" fill="#000" />
           <circle cx="155" cy="150" r="5" fill="#10b981" />
         </svg>
       );
@@ -264,8 +307,10 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#1d4ed8" />
           <rect x="70" y="70" width="60" height="80" rx="30" fill="#78350f" />
-          <path d="M55 70 Q100 40 145 70 L130 140 L70 140 Z" fill="#ef4444" fillOpacity="0.8" /> {/* Scarf */}
-          <rect x="110" y="120" width="4" height="25" fill="#d4af37" /> {/* Pen */}
+          <circle cx="88" cy="110" r="3" fill="#2d1303" /> {/* Eyes */}
+          <circle cx="112" cy="110" r="3" fill="#2d1303" />
+          <path d="M55 70 Q100 40 145 70 L130 140 L70 140 Z" fill="#ef4444" fillOpacity="0.8" />
+          <rect x="110" y="120" width="4" height="25" fill="#d4af37" />
         </svg>
       );
     }
@@ -277,9 +322,162 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
           <path d="M40 190 Q100 150 160 190" fill="#1e293b" />
           <rect x="68" y="65" width="64" height="85" rx="32" fill="#fef3c7" />
+          <circle cx="85" cy="105" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="105" r="3" fill="#334155" />
           <path d="M68 85 Q100 65 132 85" fill="#94a3b8" />
-          <circle cx="100" cy="130" r="10" fill="#334155" /> {/* Radio Mic */}
+          <circle cx="100" cy="130" r="10" fill="#334155" />
           <line x1="100" y1="140" x2="100" y2="160" stroke="#334155" strokeWidth="4" />
+        </svg>
+      );
+    }
+
+    // 21. Marcus Aurelius
+    if (slug === 'marcus-aurelius') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#94a3b8" />
+          <rect x="65" y="60" width="70" height="90" rx="30" fill="#fef3c7" />
+          <path d="M65 75 Q100 55 135 75" fill="#475569" /> {/* Curly Hair */}
+          <circle cx="85" cy="100" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="3" fill="#334155" />
+          <path d="M98 110 L102 110" stroke="#334155" strokeWidth="1.5" /> {/* Nose */}
+          <path d="M80 130 Q100 150 120 130" fill="none" stroke="#64748b" strokeWidth="3" /> {/* Beard */}
+        </svg>
+      );
+    }
+
+    // 22. Seneca
+    if (slug === 'seneca') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#94a3b8" />
+          <rect x="70" y="65" width="60" height="85" rx="30" fill="#fef3c7" />
+          <circle cx="88" cy="105" r="2.5" fill="#334155" /> {/* Eyes */}
+          <circle cx="112" cy="105" r="2.5" fill="#334155" />
+          <path d="M70 80 Q100 70 130 80" fill="#94a3b8" fillOpacity="0.5" /> {/* Thin Hair */}
+          <rect x="90" y="130" width="20" height="25" rx="2" fill="#fff" /> {/* Scroll */}
+        </svg>
+      );
+    }
+
+    // 23. Confucius
+    if (slug === 'confucius') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#1e293b" />
+          <rect x="68" y="65" width="64" height="85" rx="32" fill="#fde68a" />
+          <circle cx="88" cy="100" r="2.5" fill="#451a03" /> {/* Eyes */}
+          <circle cx="112" cy="100" r="2.5" fill="#451a03" />
+          <path d="M70 65 L130 65 L120 50 L80 50 Z" fill="#334155" /> {/* Scholar Cap */}
+          <path d="M100 115 L100 160" stroke="#451a03" strokeWidth="4" strokeLinecap="round" /> {/* Long Beard */}
+        </svg>
+      );
+    }
+
+    // 24. Socrates
+    if (slug === 'socrates') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#94a3b8" />
+          <rect x="65" y="70" width="70" height="80" rx="35" fill="#fef3c7" />
+          <circle cx="85" cy="105" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="105" r="3" fill="#334155" />
+          <path d="M60 120 Q100 160 140 120 Q140 100 60 100 Z" fill="#e2e8f0" /> {/* Big Beard */}
+          <path d="M65 85 Q100 65 135 85" fill="#e2e8f0" /> {/* Bald with hair on sides */}
+        </svg>
+      );
+    }
+
+    // 25. Lao Tzu
+    if (slug === 'lao-tzu') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#065f46" />
+          <rect x="70" y="70" width="60" height="80" rx="30" fill="#fde68a" />
+          <circle cx="88" cy="105" r="2" fill="#451a03" /> {/* Eyes */}
+          <circle cx="112" cy="105" r="2" fill="#451a03" />
+          <path d="M100 115 L100 155" stroke="#fff" strokeWidth="3" strokeLinecap="round" /> {/* White Beard */}
+          <path d="M70 85 Q100 65 130 85" fill="#fff" /> {/* White Hair */}
+        </svg>
+      );
+    }
+
+    // 26. Aristotle
+    if (slug === 'aristotle') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#1e40af" />
+          <rect x="68" y="65" width="64" height="85" rx="32" fill="#fef3c7" />
+          <circle cx="85" cy="100" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="3" fill="#334155" />
+          <path d="M68 85 Q100 65 132 85" fill="#451a03" /> {/* Brown Hair/Beard */}
+          <rect x="90" y="130" width="20" height="30" rx="2" fill="#fff" /> {/* Logic Book */}
+        </svg>
+      );
+    }
+
+    // 27. Plato
+    if (slug === 'plato') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#7c3aed" />
+          <rect x="68" y="65" width="64" height="85" rx="32" fill="#fef3c7" />
+          <circle cx="85" cy="100" r="3" fill="#334155" /> {/* Eyes */}
+          <circle cx="115" cy="100" r="3" fill="#334155" />
+          <path d="M68 85 Q100 60 132 85" fill="#64748b" /> {/* Gray Beard */}
+          <path d="M100 40 L100 60" stroke="#fbbf24" strokeWidth="2" /> {/* Idea Spark */}
+        </svg>
+      );
+    }
+
+    // 28. Mahatma Gandhi
+    if (slug === 'mahatma-gandhi') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#f8fafc" />
+          <rect x="70" y="70" width="60" height="80" rx="30" fill="#78350f" />
+          <circle cx="88" cy="105" r="2" fill="#2d1303" /> {/* Eyes */}
+          <circle cx="112" cy="105" r="2" fill="#2d1303" />
+          <circle cx="88" cy="105" r="10" fill="none" stroke="#94a3b8" strokeWidth="1.5" /> {/* Glasses */}
+          <circle cx="112" cy="105" r="10" fill="none" stroke="#94a3b8" strokeWidth="1.5" />
+          <path d="M70 85 Q100 75 130 85" fill="none" /> {/* Bald head */}
+        </svg>
+      );
+    }
+
+    // 29. Martin Luther King
+    if (slug === 'martin-luther-king') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#1e293b" />
+          <rect x="70" y="65" width="60" height="85" rx="30" fill="#451a03" />
+          <circle cx="88" cy="100" r="3" fill="#2d1303" /> {/* Eyes */}
+          <circle cx="112" cy="100" r="3" fill="#2d1303" />
+          <path d="M70 85 Q100 70 130 85" fill="#000" /> {/* Hair */}
+          <path d="M90 120 L110 120" stroke="#d4af37" strokeWidth="2" /> {/* Peace Symbol */}
+        </svg>
+      );
+    }
+
+    // 30. Mother Teresa
+    if (slug === 'mother-teresa') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#f8fafc" />
+          <rect x="75" y="75" width="50" height="70" rx="25" fill="#fef3c7" />
+          <circle cx="90" cy="105" r="2" fill="#334155" /> {/* Eyes */}
+          <circle cx="110" cy="105" r="2" fill="#334155" />
+          <path d="M60 70 Q100 40 140 70 L130 150 L70 150 Z" fill="#fff" stroke="#1e40af" strokeWidth="4" /> {/* White/Blue Veil */}
         </svg>
       );
     }
@@ -287,30 +485,22 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
     // Generic Category-based Silhouette
     const themeColor = {
       '성취': '#f59e0b', // Amber
-      '역경': '#10b981', // Emerald
-      '지혜': '#3b82f6', // Blue
-      '창의': '#a855f7', // Purple
-    }[category || '지혜'];
+      '역경': '#ef4444', // Red
+      '지혜': '#10b981', // Emerald
+      '창의': '#8b5cf6', // Violet
+    }[category as keyof typeof themeColor] || '#d4af37';
 
     return (
-      <svg viewBox="0 0 200 200" className="w-full h-full">
-        <circle cx="100" cy="100" r="95" fill="#1e293b" />
-        <circle cx="100" cy="100" r="90" fill="#0f172a" stroke={themeColor} strokeWidth="1" strokeOpacity="0.3" />
-        
-        {/* Silhouette Body */}
-        <path d="M50 190 Q100 130 150 190" fill={themeColor} fillOpacity="0.2" />
-        
-        {/* Silhouette Head */}
-        <circle cx="100" cy="85" r="40" fill={themeColor} fillOpacity="0.3" />
-        
-        {/* Identity Mark */}
-        <path d="M90 85 L110 85 L100 70 Z" fill={themeColor} />
+      <svg viewBox="0 0 200 200" className="w-full h-full opacity-40">
+        <circle cx="100" cy="100" r="95" fill={themeColor} fillOpacity="0.1" stroke={themeColor} strokeWidth="2" />
+        <path d="M40 190 Q100 140 160 190" fill={themeColor} />
+        <circle cx="100" cy="90" r="50" fill={themeColor} />
       </svg>
     );
   };
 
   return (
-    <div className={`relative inline-block overflow-hidden rounded-full border-2 border-gold-antique/20 bg-navy-dark shadow-2xl ${className}`} style={{ width: size, height: size }}>
+    <div className={`relative flex items-center justify-center ${className}`} style={{ width: size, height: size }}>
       {renderAvatar()}
     </div>
   );
