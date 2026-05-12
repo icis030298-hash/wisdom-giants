@@ -154,11 +154,6 @@ export default async function GiantPage({ params }: GiantPageProps) {
         </div>
       </section>
 
-      {/* Footer Branding */}
-      <footer className="py-20 border-t border-white/5 text-center bg-navy-dark">
-        <Link href="/" className="font-serif text-2xl gold-text-gradient mb-4 inline-block">Shoulders of Giants</Link>
-        <p className="text-[10px] text-slate-600 uppercase tracking-[0.5em] font-bold mt-4">WISDOM MUSEUM • PREMIUM EXPERIENCE</p>
-      </footer>
     </main>
   );
 }

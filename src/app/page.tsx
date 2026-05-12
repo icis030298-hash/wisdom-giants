@@ -146,11 +146,6 @@ export default function Home() {
 
       <AdSpace slot="bottom-grid" className="container mx-auto px-6 mb-24" />
 
-      {/* Footer */}
-      <footer className="py-24 border-t border-white/5 text-center">
-        <h4 className="font-serif text-2xl gold-text-gradient mb-4">Shoulders of Giants</h4>
-        <p className="text-slate-600 text-xs uppercase tracking-[0.4em] font-bold">wisdom museum platform</p>
-      </footer>
     </main>
   );
 }

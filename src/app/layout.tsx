@@ -23,15 +23,18 @@ export const metadata: Metadata = {
   }
 };
 
+import Footer from "@/components/Footer";
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className={`${inter.variable} ${playfair.variable}`}>
-      <body className="antialiased selection:bg-gold-antique/30 selection:text-gold-antique">
+    <html lang="ko" className={`${inter.variable} ${playfair.variable} scroll-smooth`}>
+      <body className="antialiased selection:bg-gold-antique/30 selection:text-gold-antique bg-navy-dark">
         {children}
+        <Footer />
       </body>
     </html>
   );
