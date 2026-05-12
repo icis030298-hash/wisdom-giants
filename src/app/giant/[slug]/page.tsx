@@ -6,8 +6,6 @@ import AdSpace from '@/components/AdSpace';
 import { BookOpen, Award, ShieldCheck, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 
-export const runtime = 'edge';
-
 export async function generateStaticParams() {
   const { data: giants } = await supabase.from('giants').select('slug');
   return giants?.map((giant) => ({

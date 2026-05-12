@@ -3,8 +3,6 @@ import { supabase } from "@/lib/supabase";
 import { ArrowRight, BookOpen, Quote, MessageSquare, Sparkles } from "lucide-react";
 import AdSpace from "@/components/AdSpace";
 
-export const runtime = 'edge';
-
 export default async function Home() {
   const { data: giants } = await supabase
     .from('giants')
