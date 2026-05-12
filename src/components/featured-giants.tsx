@@ -1,7 +1,7 @@
 "use client"
 
 import { Sparkles, ArrowRight, Clock, Quote } from "lucide-react"
-import Image from "next/image"
+import { GiantImage } from "./ui/giant-image"
 import type { Giant } from "@/lib/giants-data"
 
 interface FeaturedGiantsProps {
@@ -52,19 +52,15 @@ export function FeaturedGiants({ giants, onSelectGiant }: FeaturedGiantsProps) {
           >
             {/* Image background layer */}
             <div className="absolute inset-0 z-0 bg-muted">
-              {featured[0].imageUrl ? (
-                <Image 
-                  src={featured[0].imageUrl} 
-                  alt={featured[0].name}
-                  fill
-                  className="object-cover opacity-30 group-hover:opacity-50 transition-all duration-700 group-hover:scale-110"
-                  priority
-                />
-              ) : (
-                <div className="absolute inset-0 flex items-center justify-center text-6xl font-serif font-bold text-amber-100 opacity-20">
-                  {featured[0].name.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                </div>
-              )}
+              <GiantImage 
+                src={featured[0].imageUrl} 
+                alt={featured[0].name}
+                fill
+                className="object-cover opacity-30 group-hover:opacity-50 transition-all duration-700 group-hover:scale-110"
+                priority
+                fallbackText={featured[0].name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                containerClassName="absolute inset-0 text-6xl opacity-20"
+              />
               <div className={`absolute inset-0 bg-gradient-to-br ${featured[0].color} mix-blend-multiply opacity-40`} />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
             </div>
@@ -115,18 +111,14 @@ export function FeaturedGiants({ giants, onSelectGiant }: FeaturedGiantsProps) {
               
               <div className="relative z-10 h-full flex flex-col justify-between">
                 <div className="relative w-12 h-12 rounded-xl overflow-hidden mb-4 ring-2 ring-amber-500/20 group-hover:ring-amber-500/40 transition-all bg-muted flex items-center justify-center">
-                  {giant.imageUrl ? (
-                    <Image 
-                      src={giant.imageUrl} 
-                      alt={giant.name}
-                      fill
-                      className="object-cover"
-                    />
-                  ) : (
-                    <span className="text-sm font-serif font-bold text-amber-100">
-                      {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                    </span>
-                  )}
+                  <GiantImage 
+                    src={giant.imageUrl} 
+                    alt={giant.name}
+                    fill
+                    className="object-cover"
+                    fallbackText={giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                    containerClassName="absolute inset-0 text-sm"
+                  />
                 </div>
                 
                 <div>
@@ -152,18 +144,14 @@ export function FeaturedGiants({ giants, onSelectGiant }: FeaturedGiantsProps) {
               <div className="relative z-10 h-full flex flex-col">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="relative w-10 h-10 rounded-lg overflow-hidden shrink-0 ring-1 ring-amber-500/20 bg-muted flex items-center justify-center">
-                    {giant.imageUrl ? (
-                      <Image 
-                        src={giant.imageUrl} 
-                        alt={giant.name}
-                        fill
-                        className="object-cover"
-                      />
-                    ) : (
-                      <span className="text-xs font-serif font-bold text-amber-100">
-                        {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                      </span>
-                    )}
+                    <GiantImage 
+                      src={giant.imageUrl} 
+                      alt={giant.name}
+                      fill
+                      className="object-cover"
+                      fallbackText={giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                      containerClassName="absolute inset-0 text-xs"
+                    />
                   </div>
                   <div>
                     <h3 className="font-serif text-base font-semibold text-foreground group-hover:text-amber-200 transition-colors leading-tight">

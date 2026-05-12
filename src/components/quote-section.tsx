@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react"
 import { Quote, RefreshCw, Download } from "lucide-react"
-import Image from "next/image"
+import { GiantImage } from "./ui/giant-image"
 import { giants } from "@/lib/giants-data"
 import { toPng } from "html-to-image"
 import { useRef } from "react"
@@ -98,18 +98,14 @@ export function QuoteSection() {
               
               <div className="flex items-center gap-4">
                 <div className="relative w-12 h-12 rounded-xl overflow-hidden bg-muted flex items-center justify-center">
-                  {quote.imageUrl ? (
-                    <Image 
-                      src={quote.imageUrl} 
-                      alt={quote.author}
-                      fill
-                      className="object-cover"
-                    />
-                  ) : (
-                    <span className="text-lg font-serif font-bold text-amber-100">
-                      {quote.author.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                    </span>
-                  )}
+                  <GiantImage 
+                    src={quote.imageUrl} 
+                    alt={quote.author}
+                    fill
+                    className="object-cover"
+                    fallbackText={quote.author.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                    containerClassName="absolute inset-0 text-lg"
+                  />
                 </div>
                 <div>
                   <div className="font-serif text-lg font-semibold text-foreground">{quote.author}</div>

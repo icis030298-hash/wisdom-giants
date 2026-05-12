@@ -130,18 +130,14 @@ export function GiantsGrid({ onSelectGiant }: GiantsGridProps) {
               >
                 {/* Avatar */}
                 <div className="relative w-14 h-14 rounded-xl overflow-hidden shrink-0 ring-2 ring-amber-500/10 bg-muted flex items-center justify-center">
-                  {giant.imageUrl ? (
-                    <Image 
-                      src={giant.imageUrl} 
-                      alt={giant.name}
-                      fill
-                      className="object-cover"
-                    />
-                  ) : (
-                    <span className="text-lg font-serif font-bold text-amber-100">
-                      {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                    </span>
-                  )}
+                  <GiantImage 
+                    src={giant.imageUrl} 
+                    alt={giant.name}
+                    fill
+                    className="object-cover"
+                    fallbackText={giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                    containerClassName="absolute inset-0 text-lg"
+                  />
                 </div>
                 
                 {/* Info */}

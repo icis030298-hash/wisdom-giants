@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { MessageCircle, Clock, Sparkles } from "lucide-react"
-import Image from "next/image"
+import { GiantImage } from "./ui/giant-image"
 import type { Giant } from "@/lib/giants-data"
 
 interface GiantCardProps {
@@ -49,21 +49,15 @@ export function GiantCard({ giant, index, onSelect }: GiantCardProps) {
       
       {/* Header Image */}
       <div className="relative w-full h-48 overflow-hidden bg-muted">
-        {giant.imageUrl ? (
-          <Image 
-            src={giant.imageUrl} 
-            alt={giant.name}
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
-          />
-        ) : (
-          <div 
-            className="absolute inset-0 flex items-center justify-center text-3xl font-serif font-bold text-amber-100"
-            style={getPatternStyle(giant.name)}
-          >
-            {getInitials(giant.name)}
-          </div>
-        )}
+        <GiantImage 
+          src={giant.imageUrl} 
+          alt={giant.name}
+          fill
+          className="object-cover transition-transform duration-700 group-hover:scale-110"
+          fallbackText={getInitials(giant.name)}
+          containerClassName="absolute inset-0 text-3xl"
+          style={!giant.imageUrl ? getPatternStyle(giant.name) : undefined}
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         
         {/* Field badge on image */}

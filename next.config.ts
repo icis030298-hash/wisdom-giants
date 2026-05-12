@@ -3,15 +3,11 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
     remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.supabase.co',
+      },
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
@@ -25,6 +21,12 @@ const nextConfig: NextConfig = {
         hostname: 'api.dicebear.com',
       },
     ],
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 };
 
