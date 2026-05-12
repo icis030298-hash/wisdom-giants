@@ -1,0 +1,135 @@
+"use client"
+
+import { useState, useEffect } from "react"
+import { Quote, RefreshCw, Download, Share2 } from "lucide-react"
+import { giants } from "@/lib/giants-data"
+import { toPng } from "html-to-image"
+import { useRef } from "react"
+
+export function QuoteSection() {
+  const [currentQuote, setCurrentQuote] = useState(0)
+  const [isAnimating, setIsAnimating] = useState(false)
+  const cardRef = useRef<HTMLDivElement>(null)
+  
+  const quotes = giants.map(g => ({ quote: g.quote, author: g.name, title: g.title }))
+  
+  const nextQuote = () => {
+    setIsAnimating(true)
+    setTimeout(() => {
+      setCurrentQuote((prev) => (prev + 1) % quotes.length)
+      setIsAnimating(false)
+    }, 300)
+  }
+
+  const downloadImage = async () => {
+    if (cardRef.current === null) return;
+    
+    try {
+      const dataUrl = await toPng(cardRef.current, { 
+        cacheBust: true, 
+        pixelRatio: 4,
+        backgroundColor: '#020617'
+      });
+      
+      const link = document.createElement('a');
+      link.download = `wisdom-quote-${quotes[currentQuote].author.toLowerCase().replace(/\s+/g, '-')}.png`;
+      link.href = dataUrl;
+      link.click();
+    } catch (err) {
+      console.error('Error downloading image:', err);
+    }
+  };
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextQuote()
+    }, 10000)
+    
+    return () => clearInterval(interval)
+  }, [])
+  
+  const quote = quotes[currentQuote]
+  
+  return (
+    <section className="relative py-24 px-4 overflow-hidden">
+      {/* Background elements */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-amber-500/5 blur-3xl" />
+      </div>
+      
+      <div className="max-w-4xl mx-auto relative z-10">
+        <div className="glass-card rounded-3xl p-8 md:p-12 relative overflow-hidden" ref={cardRef}>
+          {/* Decorative elements */}
+          <div className="absolute top-0 left-0 w-32 h-32 bg-gradient-to-br from-amber-500/10 to-transparent rounded-full -translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 right-0 w-48 h-48 bg-gradient-to-tl from-amber-500/10 to-transparent rounded-full translate-x-1/4 translate-y-1/4" />
+          
+          <div className="relative z-10">
+            {/* Label */}
+            <div className="flex items-center justify-between mb-8">
+              <div className="flex items-center gap-2">
+                <Quote className="w-5 h-5 text-amber-400" />
+                <span className="text-sm text-amber-400/80 font-medium tracking-wide uppercase">Wisdom of the Day</span>
+              </div>
+              
+              <div className="flex items-center gap-2">
+                <button 
+                  onClick={nextQuote}
+                  className="p-2 rounded-lg glass hover:bg-amber-500/10 text-muted-foreground hover:text-amber-400 transition-all"
+                  aria-label="Next quote"
+                >
+                  <RefreshCw className="w-4 h-4" />
+                </button>
+                <button 
+                  onClick={downloadImage}
+                  className="p-2 rounded-lg glass hover:bg-amber-500/10 text-muted-foreground hover:text-amber-400 transition-all"
+                  aria-label="Download quote"
+                >
+                  <Download className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+            
+            {/* Quote */}
+            <div className={`transition-all duration-300 ${isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'}`}>
+              <blockquote className="font-serif text-2xl md:text-3xl lg:text-4xl text-foreground leading-relaxed mb-8 text-balance">
+                &ldquo;{quote.quote}&rdquo;
+              </blockquote>
+              
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/30 to-amber-600/20 flex items-center justify-center text-lg font-serif font-bold text-amber-100">
+                  {quote.author.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                </div>
+                <div>
+                  <div className="font-serif text-lg font-semibold text-foreground">{quote.author}</div>
+                  <div className="text-sm text-amber-400/80">{quote.title}</div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Progress dots */}
+            <div className="flex items-center justify-center gap-1.5 mt-8">
+              {[0, 1, 2, 3, 4].map((i) => (
+                <button
+                  key={i}
+                  onClick={() => {
+                    setIsAnimating(true)
+                    setTimeout(() => {
+                      setCurrentQuote(i)
+                      setIsAnimating(false)
+                    }, 300)
+                  }}
+                  className={`w-2 h-2 rounded-full transition-all ${
+                    currentQuote % 5 === i 
+                      ? 'bg-amber-400 w-6' 
+                      : 'bg-amber-500/20 hover:bg-amber-500/40'
+                  }`}
+                  aria-label={`Go to quote ${i + 1}`}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

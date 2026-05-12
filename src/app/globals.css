@@ -1,69 +1,213 @@
-@import "tailwindcss";
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
-@theme {
-  --color-navy-dark: #0f172a;
-  --color-navy-light: #1e293b;
-  --color-gold-antique: #d4af37;
-  --color-gold-muted: #92400e;
-  
-  --font-serif: "Playfair Display", "Georgia", serif;
-  --font-sans: "Inter", system-ui, sans-serif;
-}
+@custom-variant dark (&:is(.dark *));
 
+/* Shoulders of Giants - Deep Navy & Amber/Gold Theme */
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 2, 6, 23;
-  --background-end-rgb: 2, 6, 23;
+  /* Deep Navy Background */
+  --background: #020617;
+  --foreground: #f8fafc;
+  
+  /* Card - Glassmorphism base */
+  --card: rgba(15, 23, 42, 0.6);
+  --card-foreground: #f8fafc;
+  
+  /* Popover */
+  --popover: rgba(15, 23, 42, 0.9);
+  --popover-foreground: #f8fafc;
+  
+  /* Primary - Amber/Gold */
+  --primary: #f59e0b;
+  --primary-foreground: #020617;
+  
+  /* Secondary - Slate */
+  --secondary: rgba(51, 65, 85, 0.5);
+  --secondary-foreground: #f8fafc;
+  
+  /* Muted */
+  --muted: rgba(30, 41, 59, 0.5);
+  --muted-foreground: #94a3b8;
+  
+  /* Accent - Gold highlight */
+  --accent: #fbbf24;
+  --accent-foreground: #020617;
+  
+  /* Destructive */
+  --destructive: #ef4444;
+  --destructive-foreground: #fef2f2;
+  
+  /* Borders - subtle glass edges */
+  --border: rgba(148, 163, 184, 0.2);
+  --input: rgba(148, 163, 184, 0.15);
+  --ring: #f59e0b;
+  
+  /* Chart colors */
+  --chart-1: #f59e0b;
+  --chart-2: #fbbf24;
+  --chart-3: #d97706;
+  --chart-4: #78716c;
+  --chart-5: #a8a29e;
+  
+  --radius: 1rem;
+  
+  /* Sidebar */
+  --sidebar: rgba(15, 23, 42, 0.8);
+  --sidebar-foreground: #f8fafc;
+  --sidebar-primary: #f59e0b;
+  --sidebar-primary-foreground: #020617;
+  --sidebar-accent: rgba(251, 191, 36, 0.1);
+  --sidebar-accent-foreground: #fbbf24;
+  --sidebar-border: rgba(148, 163, 184, 0.1);
+  --sidebar-ring: #f59e0b;
+  
+  /* Custom tokens for the theme */
+  --glow-amber: rgba(245, 158, 11, 0.4);
+  --glow-gold: rgba(251, 191, 36, 0.3);
+  --glass: rgba(15, 23, 42, 0.4);
+  --glass-border: rgba(148, 163, 184, 0.15);
 }
 
-html {
-  scroll-behavior: smooth;
+@theme inline {
+  --font-sans: 'Inter', 'Inter Fallback', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', 'Georgia', serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-glow-amber: var(--glow-amber);
+  --color-glow-gold: var(--glow-gold);
+  --color-glass: var(--glass);
+  --color-glass-border: var(--glass-border);
 }
 
-body {
-  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-start-rgb));
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
-  color: var(--gold);
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
 }
 
-.premium-gradient {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
 }
 
-.gold-text-gradient {
-  background: linear-gradient(to right, #d4af37, #fef08a, #d4af37);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.gold-border {
-  border: 1px solid rgba(212, 175, 55, 0.3);
-}
-
-.glass-panel {
-  background: rgba(30, 41, 59, 0.7);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(212, 175, 55, 0.1);
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
 @keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 3s ease-in-out infinite;
+  background-size: 200% 100%;
 }
 
 .animate-fade-in-up {
-  animation: fade-in-up 0.8s ease-out forwards;
+  animation: fade-in-up 0.6s ease-out forwards;
 }
 
+/* Glassmorphism utilities */
+.glass {
+  background: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.glass-card {
+  background: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 158, 11, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.5);
+}
+
+/* Radial gradient utility */
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+/* Text selection */
+::selection {
+  background: rgba(245, 158, 11, 0.3);
+  color: #fef3c7;
+}
+
+/* Focus visible styles */
+:focus-visible {
+  outline: 2px solid rgba(245, 158, 11, 0.5);
+  outline-offset: 2px;
+}
