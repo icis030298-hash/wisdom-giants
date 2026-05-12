@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Sparkles, BookOpen, Quote, MessageSquare } from "lucide-react";
 import AdSpace from "@/components/AdSpace";
 import GiantAvatar from "@/components/GiantAvatar";
-import { giantsData, Giant } from "@/data/giants";
+import { giantsData } from "@/data/giants";
 
 type Category = '전체' | '성취' | '역경' | '지혜' | '창의';
 

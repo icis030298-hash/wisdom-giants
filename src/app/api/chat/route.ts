@@ -1,7 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
 
-// 서버 사이드 전용 API 키 사용 (NEXT_PUBLIC을 붙이지 않은 키가 더 안전합니다)
 const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey || "");
 
@@ -25,7 +24,6 @@ export async function POST(req: Request) {
       }
     });
 
-    // 고도화된 시스템 프롬프트 구성
     const systemPrompt = `
       당신은 역사적 위인 '${giantName}'입니다. 
       당신의 성격, 철학, 말투, 그리고 삶의 궤적을 완벽하게 재현하여 사용자의 고민에 답해야 합니다.
@@ -53,7 +51,7 @@ export async function POST(req: Request) {
     const text = response.text();
 
     return NextResponse.json({ text });
-  } catch (error: any) {
+  } catch (error) {
     console.error("Gemini API Route Error:", error);
     return NextResponse.json({ error: "거인의 지혜를 가져오는 중에 문제가 발생했습니다." }, { status: 500 });
   }
