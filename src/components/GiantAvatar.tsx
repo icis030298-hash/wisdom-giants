@@ -144,6 +144,146 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
       );
     }
 
+    // 11. Frida Kahlo
+    if (slug === 'frida-kahlo') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#b91c1c" />
+          <rect x="65" y="65" width="70" height="85" rx="30" fill="#fde68a" />
+          <path d="M60 70 Q100 55 140 70" fill="#000" stroke="#000" strokeWidth="3" /> {/* Unibrow */}
+          <circle cx="80" cy="50" r="10" fill="#ef4444" /> {/* Flower L */}
+          <circle cx="100" cy="45" r="10" fill="#f59e0b" /> {/* Flower C */}
+          <circle cx="120" cy="50" r="10" fill="#ec4899" /> {/* Flower R */}
+        </svg>
+      );
+    }
+
+    // 12. Viktor Frankl
+    if (slug === 'viktor-frankl') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#475569" />
+          <rect x="65" y="60" width="70" height="90" rx="30" fill="#fef3c7" />
+          <rect x="75" y="90" width="20" height="15" rx="2" fill="none" stroke="#334155" strokeWidth="2" /> {/* Glasses */}
+          <rect x="105" y="90" width="20" height="15" rx="2" fill="none" stroke="#334155" strokeWidth="2" />
+          <circle cx="100" cy="100" r="40" fill="none" stroke="#d4af37" strokeWidth="1" strokeDasharray="4" /> {/* Halo of Meaning */}
+        </svg>
+      );
+    }
+
+    // 13. Oprah Winfrey
+    if (slug === 'oprah-winfrey') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#4c1d95" />
+          <rect x="65" y="60" width="70" height="90" rx="35" fill="#78350f" />
+          <path d="M60 80 Q100 50 140 80" fill="#2d1303" /> {/* Hair */}
+          <rect x="110" y="120" width="10" height="30" rx="5" fill="#94a3b8" /> {/* Mic */}
+          <circle cx="115" cy="120" r="8" fill="#334155" />
+        </svg>
+      );
+    }
+
+    // 14. J.K. Rowling
+    if (slug === 'jk-rowling') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#1e40af" />
+          <rect x="65" y="60" width="70" height="95" rx="35" fill="#fef3c7" />
+          <path d="M65 80 Q65 50 100 50 Q135 50 135 80" fill="#fde68a" /> {/* Blonde Hair */}
+          <line x1="120" y1="110" x2="160" y2="80" stroke="#78350f" strokeWidth="4" /> {/* Wand */}
+          <path d="M155 75 L165 65 L160 85" fill="#fbbf24" /> {/* Spark */}
+        </svg>
+      );
+    }
+
+    // 15. Nelson Mandela
+    if (slug === 'nelson-mandela') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#f59e0b" />
+          <rect x="68" y="65" width="64" height="85" rx="32" fill="#451a03" />
+          <path d="M68 85 Q100 65 132 85" fill="#64748b" /> {/* Gray Hair */}
+          <circle cx="150" cy="60" r="15" fill="#fff" /> {/* Peace Dove Symbol */}
+          <path d="M140 60 L160 60 L150 70 Z" fill="#fff" />
+        </svg>
+      );
+    }
+
+    // 16. Helen Keller
+    if (slug === 'helen-keller') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#065f46" />
+          <rect x="68" y="60" width="64" height="90" rx="32" fill="#fef3c7" />
+          <path d="M68 85 Q100 60 132 85" fill="#451a03" />
+          <rect x="90" y="130" width="20" height="25" rx="2" fill="#fff" /> {/* Book */}
+          <line x1="90" y1="140" x2="110" y2="140" stroke="#94a3b8" strokeWidth="1" />
+        </svg>
+      );
+    }
+
+    // 17. Beethoven
+    if (slug === 'beethoven') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#000" />
+          <rect x="65" y="70" width="70" height="85" rx="30" fill="#fef3c7" />
+          <path d="M50 80 Q100 10 150 80 Q160 110 140 120 Q100 100 60 120 Q40 110 50 80" fill="#e2e8f0" /> {/* Wild Hair */}
+          <circle cx="150" cy="130" r="5" fill="#d4af37" /> {/* Note */}
+          <line x1="155" y1="130" x2="155" y2="115" stroke="#d4af37" strokeWidth="2" />
+        </svg>
+      );
+    }
+
+    // 18. Stephen Hawking
+    if (slug === 'stephen-hawking') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M30 190 L170 190 L170 140 L30 140 Z" fill="#334155" /> {/* Wheelchair Base */}
+          <rect x="70" y="60" width="60" height="80" rx="10" fill="#fce7f3" />
+          <path d="M70 80 Q100 60 130 80" fill="#451a03" />
+          <rect x="140" y="140" width="30" height="20" rx="5" fill="#000" /> {/* Computer Screen */}
+          <circle cx="155" cy="150" r="5" fill="#10b981" />
+        </svg>
+      );
+    }
+
+    // 19. Malala
+    if (slug === 'malala') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#1d4ed8" />
+          <rect x="70" y="70" width="60" height="80" rx="30" fill="#78350f" />
+          <path d="M55 70 Q100 40 145 70 L130 140 L70 140 Z" fill="#ef4444" fillOpacity="0.8" /> {/* Scarf */}
+          <rect x="110" y="120" width="4" height="25" fill="#d4af37" /> {/* Pen */}
+        </svg>
+      );
+    }
+
+    // 20. Franklin D. Roosevelt
+    if (slug === 'franklin-roosevelt') {
+      return (
+        <svg viewBox="0 0 200 200" className="w-full h-full">
+          <circle cx="100" cy="100" r="95" fill="#1e293b" />
+          <path d="M40 190 Q100 150 160 190" fill="#1e293b" />
+          <rect x="68" y="65" width="64" height="85" rx="32" fill="#fef3c7" />
+          <path d="M68 85 Q100 65 132 85" fill="#94a3b8" />
+          <circle cx="100" cy="130" r="10" fill="#334155" /> {/* Radio Mic */}
+          <line x1="100" y1="140" x2="100" y2="160" stroke="#334155" strokeWidth="4" />
+        </svg>
+      );
+    }
+
     // Generic Category-based Silhouette
     const themeColor = {
       '성취': '#f59e0b', // Amber
