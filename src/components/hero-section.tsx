@@ -24,7 +24,9 @@ export function HeroSection() {
   const particles = useMemo(() => generateParticles(20), [])
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsVisible(true), 100)
+    const timer = setTimeout(() => {
+      setIsVisible(true)
+    }, 100)
     return () => clearTimeout(timer)
   }, [])
 

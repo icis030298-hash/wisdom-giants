@@ -10,6 +10,7 @@ export interface Giant {
   quote: string;
   color: string;
   slug: string; // Keep slug for detail links
+  imageUrl: string;
 }
 
 const colorMap: Record<string, string> = {
@@ -28,7 +29,8 @@ export const giants: Giant[] = giantsData.map(g => ({
   description: g.shortDescription,
   quote: g.quote,
   color: colorMap[g.category] || 'from-slate-500/20 to-zinc-500/20',
-  slug: g.slug
+  slug: g.slug,
+  imageUrl: g.imageUrl
 }));
 
 export const categories = [

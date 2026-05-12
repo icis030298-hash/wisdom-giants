@@ -1,7 +1,8 @@
 "use client"
 
-import { useState, useEffect } from "react"
-import { Quote, RefreshCw, Download, Share2 } from "lucide-react"
+import { useState, useEffect, useCallback } from "react"
+import { Quote, RefreshCw, Download } from "lucide-react"
+import Image from "next/image"
 import { giants } from "@/lib/giants-data"
 import { toPng } from "html-to-image"
 import { useRef } from "react"
@@ -11,15 +12,15 @@ export function QuoteSection() {
   const [isAnimating, setIsAnimating] = useState(false)
   const cardRef = useRef<HTMLDivElement>(null)
   
-  const quotes = giants.map(g => ({ quote: g.quote, author: g.name, title: g.title }))
+  const quotes = giants.map(g => ({ quote: g.quote, author: g.name, title: g.title, imageUrl: g.imageUrl }))
   
-  const nextQuote = () => {
+  const nextQuote = useCallback(() => {
     setIsAnimating(true)
     setTimeout(() => {
-      setCurrentQuote((prev) => (prev + 1) % quotes.length)
+      setCurrentQuote((prev) => (prev + 1) % (quotes?.length || 1))
       setIsAnimating(false)
     }, 300)
-  }
+  }, [quotes?.length])
 
   const downloadImage = async () => {
     if (cardRef.current === null) return;
@@ -46,7 +47,7 @@ export function QuoteSection() {
     }, 10000)
     
     return () => clearInterval(interval)
-  }, [])
+  }, [nextQuote])
   
   const quote = quotes[currentQuote]
   
@@ -96,8 +97,19 @@ export function QuoteSection() {
               </blockquote>
               
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500/30 to-amber-600/20 flex items-center justify-center text-lg font-serif font-bold text-amber-100">
-                  {quote.author.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                <div className="relative w-12 h-12 rounded-xl overflow-hidden bg-muted flex items-center justify-center">
+                  {quote.imageUrl ? (
+                    <Image 
+                      src={quote.imageUrl} 
+                      alt={quote.author}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <span className="text-lg font-serif font-bold text-amber-100">
+                      {quote.author.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                    </span>
+                  )}
                 </div>
                 <div>
                   <div className="font-serif text-lg font-semibold text-foreground">{quote.author}</div>

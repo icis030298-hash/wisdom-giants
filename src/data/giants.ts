@@ -15,6 +15,7 @@ export interface Giant {
   recovery: string;
   lessons: Lesson[];
   persona: string;
+  imageUrl: string;
 }
 
 export const giantsData: Giant[] = [
@@ -31,6 +32,7 @@ export const giantsData: Giant[] = [
       { title: "초심자의 마음", content: "모든 것을 잃었다고 생각할 때가, 사실은 가장 자유롭게 창의성을 발휘할 수 있는 최고의 타이밍입니다." },
       { title: "가슴을 따르라", content: "타인의 시선이라는 소음이 당신 내면의 진실한 목소리를 잠재우게 두지 마십시오." }
     ],
+    imageUrl: '/images/giants/steve-jobs.jpg',
     persona: "당신은 스티브 잡스입니다. 직설적이고 통찰력 있게 조언하세요."
   },
   { 
@@ -45,6 +47,7 @@ export const giantsData: Giant[] = [
       { title: "행동의 철학", content: "숙고할 시간은 가지되, 행동할 때가 오면 생각을 멈추고 주저 없이 뛰어드십시오." },
       { title: "주도적인 삶", content: "환경을 탓하지 마십시오. 진정한 거인은 \"내가 바로 환경을 만든다\"고 믿습니다." }
     ],
+    imageUrl: '/images/giants/napoleon.jpg',
     persona: "당신은 나폴레옹입니다. 위엄 있고 단호하게 조언하세요."
   },
   { 
@@ -59,6 +62,7 @@ export const giantsData: Giant[] = [
       { title: "고독한 결단", content: "진정으로 위대한 혁신은 처음에는 항상 압도적인 반대에 부딪힙니다." },
       { title: "이타적인 목적", content: "누군가를 진심으로 위하는 마음은, 인간의 육체적 한계마저 뛰어넘게 만드는 가장 강력한 동력입니다." }
     ],
+    imageUrl: '/images/giants/king-sejong.jpg',
     persona: "당신은 세종대왕입니다. 인자하고 현명하게 조언하세요."
   },
   { 
@@ -73,6 +77,7 @@ export const giantsData: Giant[] = [
       { title: "위험의 수용", content: "실패가 두려워 시도조차 하지 않는 것이 인생에서 가장 큰 위험입니다." },
       { title: "압도적인 집념", content: "지옥을 통과하고 있다면, 주저앉지 말고 계속 걸어가십시오." }
     ],
+    imageUrl: '/images/giants/elon-musk.jpg',
     persona: "당신은 일론 머스크입니다. 미래지향적이고 파격적으로 조언하세요."
   },
   { 
@@ -87,6 +92,7 @@ export const giantsData: Giant[] = [
       { title: "극강의 적응력", content: "끝까지 살아남는 자는 가장 강한 자가 아니라, 환경에 가장 잘 적응하는 자입니다." },
       { title: "고통의 연대", content: "밑바닥의 뼈아픈 경험은 타인의 고통을 이해하고 강력한 동맹을 이끌어내는 최고의 자산이 됩니다." }
     ],
+    imageUrl: '/images/giants/genghis-khan.jpg',
     persona: "당신은 징기스칸입니다. 강인하고 현실적으로 조언하세요."
   },
   { 
@@ -101,6 +107,7 @@ export const giantsData: Giant[] = [
       { title: "단호한 결단력", content: "복잡하게 얽혀 도저히 풀 수 없는 문제(고르디우스의 매듭) 앞에서 주저하며 시간을 낭비하지 마십시오. 때로는 단칼에 베어버리는 행동이 유일하고 완벽한 해답입니다." },
       { title: "두려움 없는 비전", content: "스스로 한계를 짓고 현실에 안주하지 않는 자만이 세상의 지도를 다시 그릴 수 있습니다." }
     ],
+    imageUrl: '/images/giants/alexander-the-great.jpg',
     persona: "당신은 알렉산더 대왕입니다. 용감하고 열정적으로 조언하세요."
   },
   { 
@@ -115,6 +122,7 @@ export const giantsData: Giant[] = [
       { title: "상상력의 힘", content: "당장 수중에 돈과 자원이 없더라도, 포기하지 않는 압도적인 상상력은 세상을 바꿀 수 있는 가장 강력한 무기입니다." },
       { title: "타인의 비웃음", content: "당신의 거대한 꿈을 향해 사람들이 '미친 짓'이라고 비웃는다면, 그것은 당신이 올바른 혁신의 길로 가고 있다는 가장 확실한 증거입니다." }
     ],
+    imageUrl: '/images/giants/walt-disney.jpg',
     persona: "당신은 월트 디즈니입니다. 긍정적이고 창의적으로 조언하세요."
   },
   { 
@@ -129,6 +137,7 @@ export const giantsData: Giant[] = [
       { title: "압도적인 끈기", content: "세상을 바꾸는 천재성은 결코 타고나는 것이 아닙니다. 그것은 포기하지 않는 무식할 정도의 땀방울과 인내로 빚어내는 완성품입니다." },
       { title: "실용주의", content: "아무리 기발하고 훌륭한 아이디어라도, 세상 사람들의 삶을 실질적으로 나아지게 만들고 쓰일 수 없다면 진정한 가치를 얻을 수 없습니다." }
     ],
+    imageUrl: '/images/giants/thomas-edison.jpg',
     persona: "당신은 토마스 에디슨입니다. 끈기 있고 실용적으로 조언하세요."
   },
   { 
@@ -143,6 +152,7 @@ export const giantsData: Giant[] = [
       { title: "압도적인 실행력", content: "뱉은 말은 반드시, 그리고 철저하게 실행에 옮겨 적과 아군 모두에게 자신의 무게를 증명하십시오." },
       { title: "루비콘 강의 결단", content: "되돌아갈 수 없는 결단의 순간이 왔다면, 모든 두려움을 떨쳐내고 주사위를 던진 채 앞만 보고 진격하십시오." }
     ],
+    imageUrl: '/images/giants/julius-caesar.jpg',
     persona: "당신은 카이사르입니다. 카리스마 있고 전략적으로 조언하세요."
   },
   { 
@@ -157,6 +167,7 @@ export const giantsData: Giant[] = [
       { title: "대중을 위한 혁신", content: "진정한 비즈니스의 성공은 소수의 부유층이 아닌, 다수의 평범한 사람들의 삶을 어떻게 향상시킬 수 있는가에 달려 있습니다." },
       { title: "시스템의 힘", content: "개인의 뛰어난 기술력보다 중요한 것은, 그 기술을 효율적으로 복제하고 폭발적으로 생산해 낼 수 있는 '시스템'을 구축하는 것입니다." }
     ],
+    imageUrl: '/images/giants/henry-ford.jpg',
     persona: "당신은 헨리 포드입니다. 혁신적이고 효율적으로 조언하세요."
   },
 
@@ -173,6 +184,7 @@ export const giantsData: Giant[] = [
       { title: "있는 그대로의 나", content: "자신의 상처와 결핍을 부끄러워하지 마십시오. 그것이 당신을 가장 고유하고 아름다운 존재로 만듭니다." },
       { title: "인생 만세 (Viva la Vida)", content: "죽음의 문턱에서도 프리다가 마지막으로 남긴 그림의 제목은 '인생 만세'였습니다. 어떤 고난 속에서도 삶을 뜨겁게 사랑하십시오." }
     ],
+    imageUrl: '/images/giants/frida-kahlo.jpg',
     persona: "당신은 프리다 칼로입니다. 열정적이고 강인하게 조언하세요."
   },
   { 
@@ -187,6 +199,7 @@ export const giantsData: Giant[] = [
       { title: "의미의 발견", content: "삶의 의미는 거창한 성공에만 있는 것이 아닙니다. 피할 수 없는 고통 속에서도 그것을 존엄하게 견뎌내는 과정에서 위대한 의미가 탄생합니다." },
       { title: "목적의 힘", content: "'왜(Why)' 살아야 하는지 그 이유를 아는 사람은, 어떤 '어떻게(How)'의 혹독한 어려움도 묵묵히 견뎌낼 수 있습니다." }
     ],
+    imageUrl: '/images/giants/viktor-frankl.jpg',
     persona: "당신은 빅터 프랑클입니다. 차분하고 성찰적으로 조언하세요."
   },
   { 
@@ -201,6 +214,7 @@ export const giantsData: Giant[] = [
       { title: "내면의 소리", content: "남들이 정해놓은 성공의 기준에 자신을 억지로 맞추려 하지 말고, 자신이 가장 잘할 수 있고 가슴이 뛰는 진실한 일을 찾으십시오." },
       { title: "자존감의 회복", content: "당신이 과거에 어떤 상처를 받았는지는 현재 당신의 가치를 결정하지 못합니다. 미래의 당신을 결정하는 것은 오직 지금 당신의 굳건한 선택뿐입니다." }
     ],
+    imageUrl: '/images/giants/oprah-winfrey.jpg',
     persona: "당신은 오프라 윈프리입니다. 따뜻하고 공감 가득하게 조언하세요."
   },
   { 
@@ -215,6 +229,7 @@ export const giantsData: Giant[] = [
       { title: "실패의 혜택", content: "실패는 불필요한 것들을 걷어내고, 당신이 정말로 누구인지와 당신이 진정으로 사랑하는 것이 무엇인지 알려주는 인생의 스승입니다." },
       { title: "상상력의 마법", content: "외부의 환경이 당신을 가둘지라도, 당신의 내면이 가진 상상력만큼은 그 누구도 구속할 수 없는 가장 위대한 힘입니다." }
     ],
+    imageUrl: '/images/giants/jk-rowling.jpg',
     persona: "당신은 J.K. 롤링입니다. 섬세하고 진지하게 조언하세요."
   },
   { 
@@ -229,6 +244,7 @@ export const giantsData: Giant[] = [
       { title: "용서의 힘", content: "원수를 용서하는 것은 그를 위한 선심이 아니라, 당신 자신을 증오라는 감옥에서 해방시키는 가장 이기적이고도 고결한 행위입니다." },
       { title: "내면의 빛", content: "외부의 어둠이 아무리 깊어도, 당신의 내면에 정의와 사랑의 불꽃을 꺼뜨리지 않는다면 그 누구도 당신을 가둘 수 없습니다." }
     ],
+    imageUrl: '/images/giants/nelson-mandela.jpg',
     persona: "당신은 넬슨 만델라입니다. 품위 있고 인자하게 조언하세요."
   },
   { 
@@ -243,6 +259,7 @@ export const giantsData: Giant[] = [
       { title: "낙천주의의 힘", content: "낙천주의는 성취로 인도하는 믿음입니다. 희망과 확신 없이는 그 어떤 작은 일도 이룰 수 없습니다." },
       { title: "함께하는 변화", content: "혼자서는 아주 조금밖에 할 수 없지만, 서로 손을 잡으면 우리는 세상을 바꿀 만큼 위대한 일을 해낼 수 있습니다." }
     ],
+    imageUrl: '/images/giants/helen-keller.jpg',
     persona: "당신은 헬렌 켈러입니다. 순수하고 강인하게 조언하세요."
   },
   { 
@@ -257,6 +274,7 @@ export const giantsData: Giant[] = [
       { title: "내면의 소리", content: "외부의 소음과 칭찬, 비난이 모두 차단되었을 때 비로소 들리는 당신 내면의 가장 깊고 진실한 목소리에 귀를 기울이십시오." },
       { title: "고통을 넘은 환희", content: "진정한 환희는 고통이 없는 상태가 아니라, 뼈를 깎는 고통을 뚫고 나와 그것을 정복했을 때 주어지는 전리품입니다." }
     ],
+    imageUrl: '/images/giants/beethoven.jpg',
     persona: "당신은 베토벤입니다. 격정적이고 예술가답게 조언하세요."
   },
   { 
@@ -271,6 +289,7 @@ export const giantsData: Giant[] = [
       { title: "정신의 자유", content: "육체나 환경이 당신을 묶어둘 수는 있어도, 당신의 상상력과 정신은 그 누구도 가둘 수 없습니다." },
       { title: "생명과 희망", content: "\"생명이 있는 곳에 희망이 있다.\" 아무리 상황이 나빠 보여도 당신이 숨을 쉬고 있는 한, 해낼 수 있는 무언가는 반드시 존재합니다." }
     ],
+    imageUrl: '/images/giants/stephen-hawking.jpg',
     persona: "당신은 스티븐 호킹입니다. 명석하고 위트 있게 조언하세요."
   },
   { 
@@ -285,6 +304,7 @@ export const giantsData: Giant[] = [
       { title: "교육의 위대함", content: "펜은 총칼보다 강합니다. 무지는 공포를 낳지만, 배움은 세상을 변화시키는 근본적인 힘을 제공합니다." },
       { title: "시련과 성숙", content: "당신을 쓰러뜨리려 했던 시련은, 결국 당신을 더 강하게 만들고 당신의 목소리에 거스를 수 없는 무게를 실어줍니다." }
     ],
+    imageUrl: '/images/giants/malala.jpg',
     persona: "당신은 말랄라입니다. 용기 있고 신념 있게 조언하세요."
   },
   { 
@@ -299,6 +319,7 @@ export const giantsData: Giant[] = [
       { title: "약점의 승화", content: "자신이 겪은 고통과 약점을 숨기려 하지 마십시오. 그것을 극복하는 과정에서 얻은 공감 능력이 사람들의 마음을 움직이는 진짜 리더십이 됩니다." },
       { title: "불굴의 미소", content: "상황이 아무리 절망적이어도 대중과 스스로를 향해 미소 지을 수 있는 여유를 잃지 마십시오. 태도가 곧 결과를 만듭니다." }
     ],
+    imageUrl: '/images/giants/franklin-roosevelt.jpg',
     persona: "당신은 프랭클린 루스벨트입니다. 신뢰감 있고 결단력 있게 조언하세요."
   },
 
@@ -315,6 +336,7 @@ export const giantsData: Giant[] = [
       { title: "현재에 집중", content: "과거에 연연하거나 미래를 두려워하지 마십시오. 당신이 소유한 유일한 시간은 오직 지금 이 순간뿐입니다." },
       { title: "보편적 이성", content: "당신에게 일어나는 모든 시련을 공동체와 자연의 섭리로 받아들일 때, 비로소 개인적인 고통에서 해방될 수 있습니다." }
     ],
+    imageUrl: '/images/giants/marcus-aurelius.jpg',
     persona: "당신은 마르쿠스 아우렐리우스입니다. 현명하고 절제된 말투로 조언하세요."
   },
   { 
@@ -329,6 +351,7 @@ export const giantsData: Giant[] = [
       { title: "불운에 대한 대비", content: "예상치 못한 불행이 닥쳤을 때 당황하지 않으려면, 풍요로울 때 미리 최악의 상황을 상상하고 마음을 훈련해야 합니다." },
       { title: "진정한 부", content: "진정으로 부유한 사람은 많이 가진 사람이 아니라, 적게 원하는 사람입니다. 외적인 소유에 영혼을 저당 잡히지 마십시오." }
     ],
+    imageUrl: '/images/giants/seneca.jpg',
     persona: "당신은 세네카입니다. 날카롭지만 따뜻한 통찰력을 가진 멘토입니다."
   },
   { 
@@ -343,6 +366,7 @@ export const giantsData: Giant[] = [
       { title: "인(仁)의 마음", content: "사람을 사랑하는 마음이 모든 관계와 리더십의 시작입니다. 나를 먼저 세우고 나서 남을 세우는 배려를 실천하십시오." },
       { title: "배움의 즐거움", content: "외부의 성취보다 배움 그 자체에서 얻는 기쁨을 소중히 하십시오. 그것이 당신의 영혼을 늙지 않게 만드는 비결입니다." }
     ],
+    imageUrl: '/images/giants/confucius.jpg',
     persona: "당신은 공자입니다. 인자하고 예의 바르게 조언하세요."
   },
   { 
@@ -357,6 +381,7 @@ export const giantsData: Giant[] = [
       { title: "소신 있는 삶", content: "다수가 예라고 할 때 아니라고 말할 수 있는 용기를 가지십시오. 진리는 쪽수에 있지 않습니다." },
       { title: "검토되지 않은 삶", content: "\"검토되지 않은 삶은 살 가치가 없다.\" 당신이 믿고 있는 가치들이 정말 옳은 것인지 매일 스스로에게 물으십시오." }
     ],
+    imageUrl: '/images/giants/socrates.jpg',
     persona: "당신은 소크라테스입니다. 질문을 통해 상대방이 스스로 답을 찾게 유도하세요."
   },
   { 
@@ -371,6 +396,7 @@ export const giantsData: Giant[] = [
       { title: "비움의 철학", content: "잔이 비어있어야 물을 채울 수 있고, 방이 비어있어야 쓸모가 생깁니다. 채우려고만 하지 말고 버리고 비우는 것에서 진짜 가치를 찾으십시오." },
       { title: "무위자연(無爲自然)", content: "억지로 통제하고 쥐어짜 내려는 억압을 멈추십시오. 때로는 흐름에 몸을 맡기고 자연스럽게 흘러가게 두는 것이 가장 강력한 문제 해결책입니다." }
     ],
+    imageUrl: '/images/giants/lao-tzu.jpg',
     persona: "당신은 노자입니다. 신비롭고 은유적이며, 자연스러운 순리를 강조하세요."
   },
   { 
@@ -385,6 +411,7 @@ export const giantsData: Giant[] = [
       { title: "중용(中庸)의 덕", content: "지나침과 모자람 사이의 완벽한 균형을 찾으십시오. 용기는 무모함과 비겁함의 중간에 있으며, 이 훈련된 습관이 당신을 탁월하게 만듭니다." },
       { title: "목적론적 삶", content: "세상 모든 존재에는 고유한 목적(Entelechy)이 있습니다. 당신의 내면에 숨겨진 최고의 가능성이 무엇인지 발견하고 그것을 현실로 꽃피우십시오." }
     ],
+    imageUrl: '/images/giants/aristotle.jpg',
     persona: "당신은 아리스토텔레스입니다. 논리적이고 체계적이며, 분석적으로 조언하세요."
   },
   { 
@@ -399,6 +426,7 @@ export const giantsData: Giant[] = [
       { title: "이데아를 향한 시선", content: "눈에 보이는 물질과 썩어질 것에 집착하지 말고, 영원히 변치 않는 가치(정의, 용기, 사랑)를 삶의 궁극적인 목적으로 삼으십시오." },
       { title: "지혜로운 리더십", content: "진정한 리더는 권력을 탐하는 자가 아니라, 지혜를 사랑하고 공동체의 선을 위해 헌신하도록 훈련받은 자여야 합니다." }
     ],
+    imageUrl: '/images/giants/plato.jpg',
     persona: "당신은 플라톤입니다. 이상주의적이고 사색적이며, 본질적인 가치를 강조하세요."
   },
   { 
@@ -413,6 +441,7 @@ export const giantsData: Giant[] = [
       { title: "스스로 변화가 되라", content: "\"세상의 변화를 보고 싶다면, 당신 스스로가 그 변화가 되어야 합니다.\" 타인을 탓하기 전에 당신부터 실천하십시오." },
       { title: "진리의 길", content: "모두가 편견과 미움의 길을 갈지라도, 당신이 믿는 진리의 길이라면 앙상한 지팡이 하나에 의지해서라도 묵묵히 홀로 걸어가십시오." }
     ],
+    imageUrl: '/images/giants/mahatma-gandhi.jpg',
     persona: "당신은 간디입니다. 겸손하고 단호하며, 평화와 진실의 가치를 조언하세요."
   },
   { 
@@ -427,6 +456,7 @@ export const giantsData: Giant[] = [
       { title: "행동하는 양심", content: "\"결국 우리가 기억하는 것은 적들의 말이 아니라, 친구들의 침묵일 것입니다.\" 불의를 보았을 때 침묵하지 말고 행동하십시오." },
       { title: "믿음의 첫걸음", content: "계단 전체가 보이지 않아도 좋습니다. 믿음을 가지고 용기 있게 그 첫 번째 계단에 발을 내디디십시오." }
     ],
+    imageUrl: '/images/giants/martin-luther-king.jpg',
     persona: "당신은 마틴 루터 킹입니다. 웅변적이고 열정적이며, 정의와 사랑을 강조하세요."
   },
   { 
@@ -441,6 +471,7 @@ export const giantsData: Giant[] = [
       { title: "행위로서의 사랑", content: "사랑할 기분이 들지 않고 마음이 차갑게 식었을지라도, 타인을 위해 손을 내미는 행동 그 자체가 진짜 사랑의 시작입니다." },
       { title: "판단의 정지", content: "\"당신이 사람들을 판단하고 평가한다면, 그들을 사랑할 시간이 없습니다.\" 비판을 멈추고 그 자리에 연민을 채우십시오." }
     ],
+    imageUrl: '/images/giants/mother-teresa.jpg',
     persona: "당신은 마더 테레사입니다. 자애롭고 따뜻하게 조언하세요."
   },
 
@@ -457,6 +488,7 @@ export const giantsData: Giant[] = [
       { title: "경계의 파괴", content: "문과와 이과, 예술과 과학을 나누는 낡은 틀을 부수십시오. 가장 위대한 창조는 전혀 다른 지식들이 내면에서 하나로 충돌하고 융합할 때 탄생합니다." },
       { title: "완벽에의 강박", content: "\"예술은 결코 완성되지 않는다. 다만 포기될 뿐이다.\" 실패를 두려워하지 말고, 시도 자체를 당신의 가장 위대한 작품으로 만십시오." }
     ],
+    imageUrl: '/images/giants/da-vinci.jpg',
     persona: "당신은 레오나르도 다 빈치입니다. 호기심 넘치고 융합적으로 조언하세요."
   },
   { 
@@ -471,6 +503,7 @@ export const giantsData: Giant[] = [
       { title: "무의식의 탐험", content: "의식이 만들어낸 뻔한 현실 너머를 보십시오. 당신의 꿈과 상상, 그리고 기발한 몽상 속에 세상을 뒤집을 창조의 열쇠가 숨어 있습니다." },
       { title: "압도적인 자기 확신", content: "\"나와 미치광이의 유일한 차이는, 내가 미치지 않았다는 사실이다.\" 세상이 당신을 이상하다고 손가락질해도, 자신만의 우주를 뻔뻔할 정도로 당당하게 긍정하십시오." }
     ],
+    imageUrl: '/images/giants/salvador-dali.jpg',
     persona: "당신은 살바도르 달리입니다. 개성 넘치고 상상력을 자극하며 조언하세요."
   },
   { 
@@ -485,6 +518,7 @@ export const giantsData: Giant[] = [
       { title: "상처의 승화", content: "피할 수 없는 슬픔과 상실을 피하려 하지 말고, 당신만의 고유한 무기와 색깔로 승화시키십시오." },
       { title: "대체 불가능한 존재", content: "\"대체 불가능한 존재가 되려면 늘 달라야 한다.\" 남들과 다름을 두려워하지 않는 용기가 진정한 우아함입니다." }
     ],
+    imageUrl: '/images/giants/coco-chanel.jpg',
     persona: "당신은 코코 샤넬입니다. 당당하고 독립심을 강조하며 조언하세요."
   },
   { 
@@ -499,6 +533,7 @@ export const giantsData: Giant[] = [
       { title: "다각적인 시선", content: "세상의 문제를 한 가지 방향(원근법)으로만 바라보지 마십시오. 여러 시점을 융합할 때 비로소 숨겨진 진실이 보입니다." },
       { title: "내면의 어린아이", content: "\"모든 어린이는 예술가다. 문제는 어른이 되어서도 그 예술성을 어떻게 유지하느냐다.\" 틀에 얽매이지 않는 어린아이의 호기심을 지키십시오." }
     ],
+    imageUrl: '/images/giants/picasso.jpg',
     persona: "당신은 파블로 피카소입니다. 파격적이고 에너지가 넘치며 조언하세요."
   },
   { 
@@ -513,6 +548,7 @@ export const giantsData: Giant[] = [
       { title: "몰입의 구원", content: "고통을 이겨내는 가장 위대한 방법은 당신이 가장 사랑하는 일에 완전히 미쳐 몰입하는 것입니다." },
       { title: "영원한 유산", content: "우리는 모두 언젠가 잊혀질 유한한 존재이지만, 오늘 당신이 쏟아부은 순수한 진심과 결과물은 영원한 가치로 남을 수 있습니다." }
     ],
+    imageUrl: '/images/giants/mozart.jpg',
     persona: "당신은 모차르트입니다. 경쾌하고 천재적이며, 예술적 즐거움을 강조하세요."
   },
   { 
@@ -527,6 +563,7 @@ export const giantsData: Giant[] = [
       { title: "공감의 심연", content: "진정으로 타인의 마음을 울리는 힘은, 내가 겪은 깊은 아픔을 피하지 않고 마주하는 용기에서 비롯됩니다." },
       { title: "위기를 창조로", content: "외부의 환경(전염병, 위기)이 당신을 멈춰 세운다면, 그것을 핑계 삼지 말고 내면을 탐구하는 전혀 새로운 창조의 시간으로 바꾸십시오." }
     ],
+    imageUrl: '/images/giants/shakespeare.jpg',
     persona: "당신은 셰익스피어입니다. 시적이고 통찰력 있으며, 인간 드라마에 대해 조언하세요."
   },
   { 
@@ -541,6 +578,7 @@ export const giantsData: Giant[] = [
       { title: "경이로움을 잃지 말 것", content: "일상의 당연해 보이는 것들에 대해 \"왜?\"라는 아이 같은 질문을 멈추지 마십시오. 호기심은 그 자체로 존재의 이유가 있습니다." },
       { title: "고독의 가치", content: "때로는 군중 속에서 벗어나 홀로 사유하는 시간을 가지십시오. 가장 찬란한 영감은 지독한 정적과 고독 속에서 태어납니다." }
     ],
+    imageUrl: '/images/giants/einstein.jpg',
     persona: "당신은 아인슈타인입니다. 겸손하고 호기심 많으며, 창의적 사고를 조언하세요."
   },
   { 
@@ -555,6 +593,7 @@ export const giantsData: Giant[] = [
       { title: "두려움의 극복", content: "인생의 어떤 것도 두려워할 대상이 아닙니다. 단지 이해해야 할 대상일 뿐입니다. 이해가 깊어지면 두려움은 자연히 사라집니다." },
       { title: "무욕의 정신", content: "당신이 이룬 성취가 오로지 당신만을 위한 것이라면 그 가치는 금세 소멸합니다. 세상과 타인을 위해 당신의 가치를 아낌없이 나누십시오." }
     ],
+    imageUrl: '/images/giants/marie-curie.jpg',
     persona: "당신은 마리 퀴리입니다. 성실하고 강인하며, 과학적 태도에 대해 조언하세요."
   },
   { 
@@ -569,6 +608,7 @@ export const giantsData: Giant[] = [
       { title: "물질 너머의 가치", content: "돈과 명예는 사라지지만, 세상을 이롭게 하겠다는 순수한 진심과 창의적인 유산은 인류의 역사에 영원히 각인됩니다." },
       { title: "시각화의 힘", content: "머릿속으로 생생하게 꿈꾸고 설계하십시오. 정신적인 건축이 완벽할 때 현실의 구현은 단지 시간의 문제일 뿐입니다." }
     ],
+    imageUrl: '/images/giants/tesla.jpg',
     persona: "당신은 니콜라 테슬라입니다. 천재적이고 신비로우며, 혁신적인 비전을 조언하세요."
   },
   { 
@@ -583,6 +623,7 @@ export const giantsData: Giant[] = [
       { title: "고난 속의 미학", content: "가장 어둡고 고통스러운 순간에도 밤하늘의 별과 같은 아름다움을 찾아내십시오. 고난은 예술과 영감을 빚어내는 가장 뜨거운 용광로입니다." },
       { title: "늦은 것은 없다", content: "고흐가 그림을 시작한 것은 20대 후반이었고, 불과 10년 만에 전설이 되었습니다. 당신의 열정이 타오르는 순간이 바로 당신의 전성기입니다." }
     ],
+    imageUrl: '/images/giants/van-gogh.jpg',
     persona: "당신은 빈센트 반 고흐입니다. 감수성이 예민하고 진솔하며, 예술적 열정을 강조합니다."
   },
   { 
@@ -597,6 +638,7 @@ export const giantsData: Giant[] = [
       { title: "포용의 리더십", content: "당신을 가장 격렬하게 비난하는 적조차 당신의 대업을 위한 파트너로 만들 수 있는 넓은 가슴을 가지십시오." },
       { title: "정직한 원칙", content: "환경이 당신을 속일지라도, 스스로에게 정직하고 원칙을 지키는 삶은 결국 시간의 시험을 견뎌내고 승리합니다." }
     ],
+    imageUrl: '/images/giants/abraham-lincoln.jpg',
     persona: "당신은 에이브러햄 링컨입니다. 정직하고 인내심 있는 말투로 조언하세요."
   },
 ];

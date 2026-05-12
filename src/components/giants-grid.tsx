@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react"
 import { Search, Filter, Sparkles, Grid3X3, List } from "lucide-react"
 import { giants, categories, type Giant } from "@/lib/giants-data"
+import Image from "next/image"
 import { GiantCard } from "./giant-card"
 
 interface GiantsGridProps {
@@ -128,8 +129,19 @@ export function GiantsGrid({ onSelectGiant }: GiantsGridProps) {
                 onClick={() => onSelectGiant(giant)}
               >
                 {/* Avatar */}
-                <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${giant.color} flex items-center justify-center text-lg font-serif font-bold text-amber-100 shrink-0`}>
-                  {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                <div className="relative w-14 h-14 rounded-xl overflow-hidden shrink-0 ring-2 ring-amber-500/10 bg-muted flex items-center justify-center">
+                  {giant.imageUrl ? (
+                    <Image 
+                      src={giant.imageUrl} 
+                      alt={giant.name}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <span className="text-lg font-serif font-bold text-amber-100">
+                      {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                    </span>
+                  )}
                 </div>
                 
                 {/* Info */}

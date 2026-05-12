@@ -1,6 +1,7 @@
 "use client"
 
 import { Sparkles, ArrowRight, Clock, Quote } from "lucide-react"
+import Image from "next/image"
 import type { Giant } from "@/lib/giants-data"
 
 interface FeaturedGiantsProps {
@@ -49,8 +50,24 @@ export function FeaturedGiants({ giants, onSelectGiant }: FeaturedGiantsProps) {
             className="md:col-span-2 md:row-span-2 group relative glass-card rounded-3xl p-8 cursor-pointer overflow-hidden hover:border-amber-500/30 transition-all"
             onClick={() => onSelectGiant(featured[0])}
           >
-            <div className={`absolute inset-0 bg-gradient-to-br ${featured[0].color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/50 to-transparent" />
+            {/* Image background layer */}
+            <div className="absolute inset-0 z-0 bg-muted">
+              {featured[0].imageUrl ? (
+                <Image 
+                  src={featured[0].imageUrl} 
+                  alt={featured[0].name}
+                  fill
+                  className="object-cover opacity-30 group-hover:opacity-50 transition-all duration-700 group-hover:scale-110"
+                  priority
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center text-6xl font-serif font-bold text-amber-100 opacity-20">
+                  {featured[0].name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                </div>
+              )}
+              <div className={`absolute inset-0 bg-gradient-to-br ${featured[0].color} mix-blend-multiply opacity-40`} />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+            </div>
             
             <div className="relative z-10 h-full flex flex-col justify-between">
               <div>
@@ -87,7 +104,7 @@ export function FeaturedGiants({ giants, onSelectGiant }: FeaturedGiantsProps) {
           </div>
           
           {/* Medium cards */}
-          {featured.slice(1, 3).map((giant, i) => (
+          {featured.slice(1, 3).map((giant) => (
             <div
               key={giant.id}
               className="group relative glass-card rounded-2xl p-6 cursor-pointer overflow-hidden hover:border-amber-500/30 transition-all"
@@ -97,8 +114,19 @@ export function FeaturedGiants({ giants, onSelectGiant }: FeaturedGiantsProps) {
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
               
               <div className="relative z-10 h-full flex flex-col justify-between">
-                <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${giant.color} flex items-center justify-center text-lg font-serif font-bold text-amber-100 mb-4`}>
-                  {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                <div className="relative w-12 h-12 rounded-xl overflow-hidden mb-4 ring-2 ring-amber-500/20 group-hover:ring-amber-500/40 transition-all bg-muted flex items-center justify-center">
+                  {giant.imageUrl ? (
+                    <Image 
+                      src={giant.imageUrl} 
+                      alt={giant.name}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <span className="text-sm font-serif font-bold text-amber-100">
+                      {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                    </span>
+                  )}
                 </div>
                 
                 <div>
@@ -123,8 +151,19 @@ export function FeaturedGiants({ giants, onSelectGiant }: FeaturedGiantsProps) {
               
               <div className="relative z-10 h-full flex flex-col">
                 <div className="flex items-center gap-3 mb-3">
-                  <div className={`w-10 h-10 rounded-lg bg-gradient-to-br ${giant.color} flex items-center justify-center text-sm font-serif font-bold text-amber-100`}>
-                    {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                  <div className="relative w-10 h-10 rounded-lg overflow-hidden shrink-0 ring-1 ring-amber-500/20 bg-muted flex items-center justify-center">
+                    {giant.imageUrl ? (
+                      <Image 
+                        src={giant.imageUrl} 
+                        alt={giant.name}
+                        fill
+                        className="object-cover"
+                      />
+                    ) : (
+                      <span className="text-xs font-serif font-bold text-amber-100">
+                        {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
+                      </span>
+                    )}
                   </div>
                   <div>
                     <h3 className="font-serif text-base font-semibold text-foreground group-hover:text-amber-200 transition-colors leading-tight">
