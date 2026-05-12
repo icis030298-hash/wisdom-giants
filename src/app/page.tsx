@@ -3,6 +3,8 @@ import { supabase } from "@/lib/supabase";
 import { ArrowRight, BookOpen, Quote, MessageSquare, Sparkles } from "lucide-react";
 import AdSpace from "@/components/AdSpace";
 
+export const runtime = 'edge';
+
 export default async function Home() {
   const { data: giants } = await supabase
     .from('giants')
@@ -26,13 +28,13 @@ export default async function Home() {
         </div>
 
         <div className="container mx-auto px-6 text-center relative z-10">
-          <h1 className="text-5xl md:text-7xl font-serif mb-6 leading-tight">
-            거인의 어깨에 <br />
-            <span className="gold-text-gradient">지혜의 뿌리를 내리다</span>
+          <h1 className="text-5xl md:text-8xl font-serif mb-6 leading-tight tracking-tighter">
+            Shoulders of <br />
+            <span className="gold-text-gradient italic">Giants</span>
           </h1>
           <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-sans leading-relaxed">
             역사적 위인들의 가장 어두웠던 순간과 극적인 극복의 서사. <br />
-            이제 그들의 페르소나와 직접 대화하며 당신의 고민을 해결하세요.
+            거인들의 어깨 위에서 당신의 삶을 새롭게 정의하세요.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <button className="px-8 py-4 bg-gold-antique text-navy-dark font-bold rounded-full hover:scale-105 transition-all shadow-xl">
