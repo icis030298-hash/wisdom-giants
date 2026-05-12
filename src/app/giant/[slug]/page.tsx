@@ -3,7 +3,8 @@ import QuoteCard from '@/components/QuoteCard';
 import AIGiantChat from '@/components/AIGiantChat';
 import AdSpace from '@/components/AdSpace';
 import GiantAvatar from '@/components/GiantAvatar';
-import { BookOpen, Award, ShieldCheck, ArrowLeft, Sparkles } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
+import { BookOpen, Award, ShieldCheck, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import { giantsData } from '@/data/giants';
 
