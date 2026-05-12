@@ -1,58 +1,40 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
-import { NextResponse } from "next/server";
+import { GoogleGenerativeAI } from '@google/generative-ai';
+import { NextResponse } from 'next/server';
 
-const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY;
-const genAI = new GoogleGenerativeAI(apiKey || "");
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY as string);
 
 export async function POST(req: Request) {
   try {
-    if (!apiKey) {
-      return NextResponse.json({ error: "API 키가 서버에 설정되지 않았습니다." }, { status: 500 });
+    const { prompt, giantName } = await req.json();
+
+    if (!prompt || !giantName) {
+      return NextResponse.json({ error: '메시지와 위인 이름이 필요합니다.' }, { status: 400 });
     }
 
-    const { persona, userMessage, giantName } = await req.json();
+    // 1. 모델 초기화
+    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
 
-    if (!userMessage) {
-      return NextResponse.json({ error: "메시지 내용이 없습니다." }, { status: 400 });
-    }
+    // 2. 동적 시스템 프롬프트 (페르소나 부여)
+    const systemInstruction = `당신은 역사적인 위인 '${giantName}'입니다. 
+    당신의 생애, 성취, 철학, 어투를 완벽하게 모방하여 사용자의 고민에 대답해 주세요. 
+    반드시 1인칭 시점("나는", "내가")으로 말하고, 당신이 겪었던 고통과 극복 과정을 바탕으로 깊이 있는 조언을 3~4문장으로 짧고 강렬하게 제공하세요.`;
 
-    const model = genAI.getGenerativeModel({ 
-      model: "gemini-1.5-flash",
-      generationConfig: {
-        maxOutputTokens: 1000,
-        temperature: 0.8,
-      }
+    // 3. 채팅 세션 시작 (시스템 프롬프트를 첫 메시지처럼 컨텍스트로 부여)
+    const chat = model.startChat({
+      history: [
+        { role: "user", parts: [{ text: systemInstruction }] },
+        { role: "model", parts: [{ text: `알겠습니다. 저는 이제부터 ${giantName}입니다. 무엇이든 물어보세요.` }] },
+      ],
     });
 
-    const systemPrompt = `
-      당신은 역사적 위인 '${giantName}'입니다. 
-      당신의 성격, 철학, 말투, 그리고 삶의 궤적을 완벽하게 재현하여 사용자의 고민에 답해야 합니다.
-      
-      [당신의 페르소나 설명]
-      "${persona}"
+    // 4. 사용자 메시지 전송 및 응답 받기
+    const result = await chat.sendMessage(prompt);
+    const responseText = result.response.text();
 
-      [답변 가이드라인]
-      1. 1인칭 시점('나' 또는 위인 본인의 정체성)으로 답변하세요.
-      2. 위인의 실제 어록이나 철학을 답변에 자연스럽게 녹여내세요.
-      3. 사용자의 고민을 경청하고, 당신이 겪었던 시련(Pain)과 극복(Recovery)의 경험에 빗대어 깊이 있는 통찰을 제공하세요.
-      4. 말투는 위엄 있고(또는 해당 인물답게), 진지하며, 진심 어린 조언자의 태도를 유지하세요.
-      5. 답변의 마지막에는 사용자의 용기를 북돋우는 강렬한 한 문장으로 마무리하세요.
-      6. 반드시 한국어로 답변하세요.
-    `;
+    return NextResponse.json({ message: responseText });
 
-    const prompt = `
-      ${systemPrompt}
-      
-      사용자의 고민: "${userMessage}"
-    `;
-
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text();
-
-    return NextResponse.json({ text });
   } catch (error) {
-    console.error("Gemini API Route Error:", error);
-    return NextResponse.json({ error: "거인의 지혜를 가져오는 중에 문제가 발생했습니다." }, { status: 500 });
+    console.error('Gemini API Error:', error);
+    return NextResponse.json({ error: '지혜를 빌려오는 도중 오류가 발생했습니다.' }, { status: 500 });
   }
 }
