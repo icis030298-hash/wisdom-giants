@@ -1,9 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Send, Bot, Loader2 } from 'lucide-react';
+import { Send, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getGiantResponse } from '@/lib/gemini';
+import GiantAvatar from '@/components/GiantAvatar';
 
 interface Message {
   role: 'user' | 'assistant';
@@ -13,9 +14,11 @@ interface Message {
 interface AIGiantChatProps {
   giantName: string;
   persona: string;
+  slug: string;
+  category: string;
 }
 
-const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, persona }) => {
+const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, slug, category }) => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -30,7 +33,7 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, persona }) => {
     setIsLoading(true);
 
     try {
-      const response = await getGiantResponse(persona, input, giantName);
+      const response = await getGiantResponse('', input, giantName);
       const aiMsg: Message = { role: 'assistant', content: response };
       setMessages(prev => [...prev, aiMsg]);
     } catch (error) {
@@ -42,13 +45,12 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, persona }) => {
 
   return (
     <div className="w-full max-w-2xl mx-auto my-16 glass-panel rounded-2xl overflow-hidden shadow-2xl flex flex-col h-[600px]">
-      <div className="p-6 border-b border-gold-antique/20 bg-navy-light/50 flex items-center gap-3">
-        <div className="w-10 h-10 rounded-full bg-gold-antique/20 flex items-center justify-center border border-gold-antique/30">
-          <Bot className="text-gold-antique" size={24} />
+      <div className="p-6 border-b border-gold-antique/20 bg-navy-light/50 flex items-center gap-4">
+        <div className="w-12 h-12 rounded-full overflow-hidden border border-gold-antique/30 bg-navy-dark flex-shrink-0">
+          <GiantAvatar slug={slug} category={category} size={48} />
         </div>
         <div>
-          <h3 className="font-serif text-gold-antique text-lg">{giantName} 멘토</h3>
-          <p className="text-[10px] text-slate-400 uppercase tracking-widest">AI Wisdom Mentoring</p>
+          <h3 className="font-serif text-gold-antique text-xl">{giantName}</h3>
         </div>
       </div>
 
@@ -68,12 +70,17 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, persona }) => {
               key={i}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
+              className={`flex items-start gap-3 ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
             >
-              <div className={`max-w-[85%] p-4 rounded-2xl ${
+              {msg.role === 'assistant' && (
+                <div className="w-8 h-8 rounded-full overflow-hidden border border-gold-antique/20 bg-navy-dark flex-shrink-0 mt-1">
+                  <GiantAvatar slug={slug} category={category} size={32} />
+                </div>
+              )}
+              <div className={`max-w-[80%] p-4 rounded-2xl ${
                 msg.role === 'user' 
-                ? 'bg-gold-antique text-navy-dark font-medium' 
-                : 'bg-navy-light/80 text-slate-100 border border-gold-antique/10'
+                ? 'bg-gold-antique text-navy-dark font-medium rounded-tr-none' 
+                : 'bg-navy-light/80 text-slate-100 border border-gold-antique/10 rounded-tl-none'
               }`}>
                 <p className="text-sm leading-relaxed whitespace-pre-wrap">{msg.content}</p>
               </div>
@@ -82,8 +89,11 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, persona }) => {
         </AnimatePresence>
 
         {isLoading && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex justify-start">
-            <div className="bg-navy-light/80 p-4 rounded-2xl flex items-center gap-2">
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex justify-start items-start gap-3">
+            <div className="w-8 h-8 rounded-full overflow-hidden border border-gold-antique/20 bg-navy-dark flex-shrink-0 mt-1">
+              <GiantAvatar slug={slug} category={category} size={32} />
+            </div>
+            <div className="bg-navy-light/80 p-4 rounded-2xl rounded-tl-none flex items-center gap-2 border border-gold-antique/10">
               <Loader2 className="animate-spin text-gold-antique" size={18} />
               <span className="text-xs text-slate-400 font-serif italic">거인이 생각하는 중입니다...</span>
             </div>

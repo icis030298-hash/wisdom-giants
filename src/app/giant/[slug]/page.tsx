@@ -148,7 +148,7 @@ export default async function GiantPage({ params }: GiantPageProps) {
             </div>
             
             <div className="glass-panel rounded-[3rem] p-4 border-white/10 shadow-2xl">
-              <AIGiantChat giantName={giant.name} persona={giant.persona} />
+              <AIGiantChat giantName={giant.name} persona={giant.persona} slug={giant.slug} category={giant.category} />
             </div>
           </div>
         </div>
