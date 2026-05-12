@@ -1,11 +1,11 @@
 import { notFound } from 'next/navigation';
-import { supabase } from '@/lib/supabase';
 import QuoteCard from '@/components/QuoteCard';
 import AIGiantChat from '@/components/AIGiantChat';
 import AdSpace from '@/components/AdSpace';
 import GiantAvatar from '@/components/GiantAvatar';
 import { BookOpen, Award, ShieldCheck, ArrowLeft, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+import { giantsData } from '@/data/giants';
 
 interface GiantPageProps {
   params: Promise<{ slug: string }>;
@@ -14,11 +14,8 @@ interface GiantPageProps {
 export default async function GiantPage({ params }: GiantPageProps) {
   const { slug } = await params;
   
-  const { data: giant } = await supabase
-    .from('giants')
-    .select('*')
-    .eq('slug', slug)
-    .single();
+  // Find giant from local data instead of Supabase
+  const giant = giantsData.find(g => g.slug === slug);
 
   if (!giant) {
     notFound();
@@ -47,7 +44,7 @@ export default async function GiantPage({ params }: GiantPageProps) {
         <div className="container mx-auto px-6 relative z-10 text-center">
           <div className="mb-12 inline-block relative">
             <div className="absolute inset-0 bg-gold-antique blur-3xl opacity-20 animate-pulse" />
-            <GiantAvatar slug={giant.slug} size={240} className="relative z-10 border-4 border-gold-antique/30" />
+            <GiantAvatar slug={giant.slug} category={giant.category} size={240} className="relative z-10 border-4 border-gold-antique/30" />
           </div>
           
           <div className="max-w-4xl mx-auto">
@@ -100,7 +97,7 @@ export default async function GiantPage({ params }: GiantPageProps) {
                   <h2 className="text-3xl font-serif">현대인에게 주는 지혜</h2>
                 </div>
                 <div className="grid gap-10">
-                  {giant.lessons.map((lesson: { title: string; content: string }, i: number) => (
+                  {giant.lessons.map((lesson, i) => (
                     <div key={i} className="group/lesson">
                       <h3 className="text-2xl font-serif text-gold-antique mb-4 flex items-center gap-4">
                         <span className="text-sm font-sans font-bold opacity-30 group-hover/lesson:opacity-100 transition-opacity">0{i + 1}</span>
@@ -164,4 +161,3 @@ export default async function GiantPage({ params }: GiantPageProps) {
     </main>
   );
 }
-
