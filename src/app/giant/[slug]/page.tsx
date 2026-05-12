@@ -6,6 +6,8 @@ import AdSpace from '@/components/AdSpace';
 import { BookOpen, Award, ShieldCheck, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 
+export const runtime = 'edge';
+
 interface GiantPageProps {
   params: Promise<{ slug: string }>;
 }
