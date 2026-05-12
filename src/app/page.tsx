@@ -43,7 +43,7 @@ export default function Home() {
           
           <h1 className="text-6xl md:text-9xl font-serif mb-6 leading-tight tracking-tighter">
             Shoulders of <br />
-            <span className="gold-text-gradient italic font-normal drop-shadow-[0_0_30px_rgba(212,175,55,0.2)]">Giants</span>
+            <span className="gold-text-gradient italic font-normal drop-shadow-[0_0_30px_rgba(212,175,55,0.2)] pr-4">Giants</span>
           </h1>
 
           {/* Isaac Newton Quote */}
@@ -55,23 +55,26 @@ export default function Home() {
             <div className="w-px h-6 bg-gold-antique/20 mt-4" />
           </div>
 
-          <p className="text-slate-500 text-base md:text-lg max-w-2xl mx-auto mb-12 font-sans leading-relaxed font-light">
+          <p className="text-slate-500 text-base md:text-lg max-w-2xl mx-auto mb-16 font-sans leading-relaxed font-light">
             역사의 거인들이 남긴 발자취를 따라 당신의 답을 찾아보세요. <br />
             <span className="text-slate-300 font-medium">40인의 위대한 멘토</span>가 당신의 질문을 기다립니다.
           </p>
 
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-            <span className="text-[10px] uppercase tracking-[0.3em] text-slate-600 font-bold">Discover</span>
-            <div className="animate-bounce p-2 rounded-full border border-white/10 bg-white/5">
+          {/* Scroll Indicator: Now in flex flow to prevent overlap */}
+          <Link 
+            href="#giants-grid"
+            className="inline-flex flex-col items-center gap-2 group cursor-pointer transition-transform hover:translate-y-1"
+          >
+            <span className="text-[10px] uppercase tracking-[0.3em] text-slate-600 font-bold group-hover:text-gold-antique transition-colors">Discover</span>
+            <div className="animate-bounce p-2 rounded-full border border-white/10 bg-white/5 group-hover:border-gold-antique/30 transition-colors">
               <ChevronDown size={20} className="text-gold-antique" />
             </div>
-          </div>
+          </Link>
         </div>
       </section>
 
       {/* Filter Tabs */}
-      <section className="sticky top-0 z-50 bg-navy-dark/80 backdrop-blur-xl border-y border-white/5">
+      <section id="giants-grid" className="sticky top-0 z-50 bg-navy-dark/80 backdrop-blur-xl border-y border-white/5">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-center gap-2 md:gap-4 flex-wrap">
             {filterTabs.map((tab) => (
