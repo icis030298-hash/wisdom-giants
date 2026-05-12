@@ -1,7 +1,14 @@
 "use client"
 
 import { useEffect, useState, useMemo } from "react"
-import { Sparkles, ChevronDown } from "lucide-react"
+import { Sparkles } from "lucide-react"
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
 // Generate stable particle positions
 const generateParticles = (count: number) => {
@@ -22,6 +29,7 @@ const generateParticles = (count: number) => {
 export function HeroSection() {
   const [isVisible, setIsVisible] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
+  const [isModalOpen, setIsModalOpen] = useState(false)
   const particles = useMemo(() => generateParticles(20), [])
 
   useEffect(() => {
@@ -84,21 +92,74 @@ export function HeroSection() {
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground leading-relaxed font-light italic px-8">
             내가 더 멀리 보았다면, 그것은 거인들의 어깨 위에 올라섰기 때문이다.
           </p>
-          <p className="text-amber-400/80 mt-4 text-sm tracking-widest uppercase">— 아이작 뉴턴</p>
+          <p className="text-amber-400/80 mt-4 text-sm tracking-widest uppercase">- 아이작 뉴턴 -</p>
           <div className="absolute -right-4 -bottom-4 text-6xl text-amber-500/20 font-serif">&rdquo;</div>
         </div>
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
-          <a href="#giants" className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground rounded-xl font-medium text-lg overflow-hidden transition-all hover:shadow-lg hover:shadow-amber-500/25 hover:scale-105">
-            <span className="relative z-10 flex items-center gap-2">
-              <Sparkles className="w-5 h-5" />
-              여정 시작하기
-            </span>
-            <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity" />
-          </a>
+          <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
+            <DialogTrigger asChild>
+              <button className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground rounded-xl font-medium text-lg overflow-hidden transition-all hover:shadow-lg hover:shadow-amber-500/25 hover:scale-105">
+                <span className="relative z-10 flex items-center gap-2">
+                  <Sparkles className="w-5 h-5" />
+                  여정 시작하기
+                </span>
+                <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+              </button>
+            </DialogTrigger>
+            <DialogContent className="glass border-amber-500/20 sm:max-w-[425px]">
+              <DialogHeader>
+                <DialogTitle className="font-serif text-2xl text-foreground text-center mb-4 pt-2">
+                  지혜의 전당 여정 가이드
+                </DialogTitle>
+              </DialogHeader>
+              <div className="grid gap-6 py-4">
+                <div className="flex items-start gap-4">
+                  <span className="text-2xl">🏛️</span>
+                  <div>
+                    <h4 className="font-semibold text-amber-400 mb-1">거인 선택</h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      40여 명의 위인 중 영감을 주는 인물을 찾아보세요.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <span className="text-2xl">📖</span>
+                  <div>
+                    <h4 className="font-semibold text-amber-400 mb-1">대서사시</h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      위인이 직접 들려주는 듯한 삶의 기록을 읽어보세요.
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <span className="text-2xl">💬</span>
+                  <div>
+                    <h4 className="font-semibold text-amber-400 mb-1">실시간 대화</h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      최신 AI로 재탄생한 거인에게 당신의 고민을 털어놓으세요.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-6">
+                <button 
+                  onClick={() => {
+                    setIsModalOpen(false);
+                    setTimeout(() => {
+                      document.getElementById('featured-giants')?.scrollIntoView({ behavior: 'smooth' });
+                    }, 300);
+                  }}
+                  className="w-full py-4 bg-amber-500 text-primary-foreground rounded-xl font-medium hover:bg-amber-600 transition-colors"
+                >
+                  지금 바로 시작하기
+                </button>
+              </div>
+            </DialogContent>
+          </Dialog>
           
-          <a href="#giants" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
+          <a href="#featured-giants" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
             전당 둘러보기
           </a>
         </div>
@@ -116,12 +177,6 @@ export function HeroSection() {
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-        <span className="text-xs text-muted-foreground tracking-widest uppercase font-medium">Discover</span>
-        <ChevronDown className="w-5 h-5 text-amber-400/60" />
       </div>
     </section>
   )

@@ -11,16 +11,6 @@ import { QuoteSection } from "@/components/quote-section"
 import { giants, type Giant } from "@/lib/giants-data"
 
 export default function Home() {
-  const [selectedGiant, setSelectedGiant] = useState<Giant | null>(null)
-  
-  const handleSelectGiant = (giant: Giant) => {
-    setSelectedGiant(giant)
-  }
-  
-  const handleCloseChat = () => {
-    setSelectedGiant(null)
-  }
-  
   return (
     <main className="min-h-screen bg-background">
       {/* Navigation */}
@@ -30,7 +20,7 @@ export default function Home() {
       <HeroSection />
       
       {/* Featured Giants - Bento Grid */}
-      <FeaturedGiants giants={giants} onSelectGiant={handleSelectGiant} />
+      <FeaturedGiants giants={giants} />
       
       {/* Stats & Features */}
       <StatsSection />
@@ -40,14 +30,8 @@ export default function Home() {
       
       {/* All Giants Grid */}
       <div id="giants">
-        <GiantsGrid onSelectGiant={handleSelectGiant} />
+        <GiantsGrid />
       </div>
-      
-      
-      {/* Chat Interface Modal */}
-      {selectedGiant && (
-        <ChatInterface giant={selectedGiant} onClose={handleCloseChat} />
-      )}
     </main>
   )
 }

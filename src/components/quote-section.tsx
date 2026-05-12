@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react"
 import { Quote, RefreshCw, Download } from "lucide-react"
-import { GiantImage } from "./ui/giant-image"
+import Image from "next/image"
 import { giants } from "@/lib/giants-data"
 import { toPng } from "html-to-image"
 import { useRef } from "react"
@@ -69,7 +69,7 @@ export function QuoteSection() {
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center gap-2">
                 <Quote className="w-5 h-5 text-amber-400" />
-                <span className="text-sm text-amber-400/80 font-medium tracking-wide uppercase">Wisdom of the Day</span>
+                <span className="text-sm text-amber-400/80 font-medium tracking-wide uppercase">오늘의 지혜</span>
               </div>
               
               <div className="flex items-center gap-2">

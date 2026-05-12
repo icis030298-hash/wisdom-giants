@@ -6,11 +6,11 @@ import { giants, categories, type Giant } from "@/lib/giants-data"
 import Image from "next/image"
 import { GiantCard } from "./giant-card"
 
-interface GiantsGridProps {
-  onSelectGiant: (giant: Giant) => void
-}
+import Link from "next/link"
 
-export function GiantsGrid({ onSelectGiant }: GiantsGridProps) {
+interface GiantsGridProps {}
+
+export function GiantsGrid({}: GiantsGridProps) {
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All Giants")
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid")
@@ -42,11 +42,11 @@ export function GiantsGrid({ onSelectGiant }: GiantsGridProps) {
         
         <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-400">
-            위대한 지성들
+            역사의 위인들
           </span>
         </h2>
-        <p className="text-muted-foreground max-w-2xl text-lg">
-          역사를 바꾼 사상가들의 지혜를 탐험해보세요. 위인을 선택하여 시공간을 초월한 대화를 시작할 수 있습니다.
+        <p className="text-muted-foreground max-w-2xl text-lg leading-relaxed font-light">
+          인류의 흐름을 바꾼 위인들의 지혜를 탐험해 보세요. 거인을 선택하여 시공간을 초월한 대화를 시작할 수 있습니다.
         </p>
       </div>
       
@@ -115,18 +115,17 @@ export function GiantsGrid({ onSelectGiant }: GiantsGridProps) {
                 key={giant.id}
                 giant={giant}
                 index={index}
-                onSelect={onSelectGiant}
               />
             ))}
           </div>
         ) : (
           <div className="flex flex-col gap-4">
             {filteredGiants.map((giant, index) => (
-              <div
+              <Link
                 key={giant.id}
-                className="glass-card rounded-xl p-4 flex items-center gap-6 cursor-pointer hover:border-amber-500/30 transition-all animate-fade-in-up"
+                href={`/giant/${giant.slug}`}
+                className="glass-card rounded-xl p-4 flex items-center gap-6 cursor-pointer hover:border-amber-500/30 transition-all animate-fade-in-up block"
                 style={{ animationDelay: `${index * 30}ms` }}
-                onClick={() => onSelectGiant(giant)}
               >
                 {/* Avatar */}
                 <div className="relative w-14 h-14 rounded-xl overflow-hidden shrink-0 ring-2 ring-amber-500/10 bg-muted flex items-center justify-center">
@@ -134,7 +133,7 @@ export function GiantsGrid({ onSelectGiant }: GiantsGridProps) {
                     src={giant.imageUrl} 
                     alt={giant.name}
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
                     unoptimized={true}
                   />
                 </div>
@@ -155,10 +154,10 @@ export function GiantsGrid({ onSelectGiant }: GiantsGridProps) {
                 </span>
                 
                 {/* Action */}
-                <button className="px-4 py-2 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 text-sm font-medium transition-all border border-amber-500/20 shrink-0">
-                  대화하기
-                </button>
-              </div>
+                <div className="px-4 py-2 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 text-sm font-medium transition-all border border-amber-500/20 shrink-0">
+                  대서사시 읽기
+                </div>
+              </Link>
             ))}
           </div>
         )}
@@ -176,3 +175,4 @@ export function GiantsGrid({ onSelectGiant }: GiantsGridProps) {
     </section>
   )
 }
+

@@ -3,68 +3,37 @@
 import { useState } from "react"
 import { MessageCircle, Clock, Sparkles } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
 import type { Giant } from "@/lib/giants-data"
 
 interface GiantCardProps {
   giant: Giant
   index: number
-  onSelect: (giant: Giant) => void
 }
 
-// Generate initials for avatar
-function getInitials(name: string): string {
-  return name
-    .split(" ")
-    .map((n) => n[0])
-    .slice(0, 2)
-    .join("")
-}
-
-// Generate a unique pattern based on the giant's name
-function getPatternStyle(name: string): { background: string } {
-  const hash = name.split("").reduce((acc, char) => acc + char.charCodeAt(0), 0)
-  const hue = (hash * 137) % 60 + 25 // Amber/gold range (25-85)
-  
-  return {
-    background: `linear-gradient(135deg, 
-      hsla(${hue}, 80%, 50%, 0.3) 0%, 
-      hsla(${hue + 20}, 70%, 40%, 0.2) 50%,
-      hsla(${hue}, 60%, 30%, 0.1) 100%)`
-  }
-}
-
-export function GiantCard({ giant, index, onSelect }: GiantCardProps) {
+export function GiantCard({ giant, index }: GiantCardProps) {
   const [isHovered, setIsHovered] = useState(false)
   
   return (
-    <div
-      className={`group relative glass-card rounded-2xl cursor-pointer transition-all duration-500 hover:scale-[1.02] hover:border-amber-500/30 animate-fade-in-up overflow-hidden`}
+    <Link
+      href={`/giant/${giant.slug}`}
+      className={`group relative glass-card rounded-2xl cursor-pointer transition-all duration-500 hover:scale-[1.02] hover:border-amber-500/30 animate-fade-in-up overflow-hidden flex flex-col h-full`}
       style={{ animationDelay: `${index * 50}ms` }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      onClick={() => onSelect(giant)}
     >
       {/* Glow effect on hover */}
       <div className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${giant.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl -z-10`} />
       
       {/* Header Image */}
-      <div className="relative w-full h-48 overflow-hidden bg-muted">
-        {giant.imageUrl ? (
-          <Image 
-            src={giant.imageUrl} 
-            alt={giant.name}
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
-            unoptimized={true}
-          />
-        ) : (
-          <div 
-            className="absolute inset-0 flex items-center justify-center text-3xl text-amber-100 font-serif font-bold"
-            style={getPatternStyle(giant.name)}
-          >
-            {getInitials(giant.name)}
-          </div>
-        )}
+      <div className="relative w-full h-48 overflow-hidden bg-muted shrink-0">
+        <Image 
+          src={giant.imageUrl} 
+          alt={giant.name}
+          fill
+          className="object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
+          unoptimized={true}
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         
         {/* Field badge on image */}
@@ -76,7 +45,7 @@ export function GiantCard({ giant, index, onSelect }: GiantCardProps) {
       </div>
 
       {/* Content */}
-      <div className="p-6">
+      <div className="p-6 flex flex-col flex-1">
         <div className="flex items-start justify-between gap-4 mb-2">
           <div className="flex-1 min-w-0">
             <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-200 transition-colors truncate">
@@ -91,30 +60,27 @@ export function GiantCard({ giant, index, onSelect }: GiantCardProps) {
         </div>
         
         {/* Description */}
-        <p className="mt-4 text-sm text-muted-foreground line-clamp-2 leading-relaxed h-10">
+        <p className="mt-4 text-sm text-muted-foreground line-clamp-2 leading-relaxed min-h-[40px]">
           {giant.description}
         </p>
         
         {/* Quote preview */}
-        <div className="mt-4 pt-4 border-t border-border/50">
+        <div className="mt-4 pt-4 border-t border-border/50 min-h-[70px]">
           <p className="text-xs italic text-foreground/60 line-clamp-2">
             &ldquo;{giant.quote}&rdquo;
           </p>
         </div>
         
         {/* Action button */}
-        <button 
-          className="mt-6 w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 text-sm font-semibold transition-all border border-amber-500/20 hover:border-amber-500/40"
-          onClick={(e) => {
-            e.stopPropagation()
-            onSelect(giant)
-          }}
-        >
-          <MessageCircle className="w-4 h-4" />
-          <span>{giant.name.split(" ")[0]}와 대화하기</span>
-          <Sparkles className="w-3 h-3 opacity-60" />
-        </button>
+        <div className="mt-auto pt-6">
+          <div className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 text-sm font-semibold transition-all border border-amber-500/20 hover:border-amber-500/40">
+            <MessageCircle className="w-4 h-4" />
+            <span>대서사시 읽어보기</span>
+            <Sparkles className="w-3 h-3 opacity-60" />
+          </div>
+        </div>
       </div>
-    </div>
+    </Link>
   )
 }
+

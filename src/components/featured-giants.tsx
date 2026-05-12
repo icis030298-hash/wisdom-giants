@@ -2,199 +2,178 @@
 
 import { Sparkles, ArrowRight, Clock, Quote } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
+import { useMemo } from "react"
 import type { Giant } from "@/lib/giants-data"
 
 interface FeaturedGiantsProps {
   giants: Giant[]
-  onSelectGiant: (giant: Giant) => void
 }
 
-export function FeaturedGiants({ giants, onSelectGiant }: FeaturedGiantsProps) {
-  // Take first 6 for featured section
-  const featured = giants.slice(0, 6)
+export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
+  // Daily rotating logic
+  const featured = useMemo(() => {
+    const today = new Date()
+    // Create a stable seed for the current day
+    const dateSeed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate()
+    
+    // Select 4 giants based on the daily seed
+    const shuffled = [...giants].sort((a, b) => {
+      const hashA = (a.slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) * dateSeed) % giants.length
+      const hashB = (b.slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) * dateSeed) % giants.length
+      return hashA - hashB
+    })
+    
+    return shuffled.slice(0, 4)
+  }, [giants])
   
   return (
-    <section className="relative py-20 px-4">
+    <section id="featured-giants" className="relative py-24 px-6">
       {/* Section header */}
-      <div className="max-w-7xl mx-auto mb-12">
-        <div className="flex items-center gap-3 mb-4">
-          <div className="w-12 h-px bg-gradient-to-r from-transparent via-amber-500 to-transparent" />
+      <div className="max-w-7xl mx-auto mb-16">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-12 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
           <Sparkles className="w-5 h-5 text-amber-400" />
-          <div className="w-12 h-px bg-gradient-to-r from-transparent via-amber-500 to-transparent" />
+          <div className="w-12 h-px bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
         </div>
         
-        <div className="flex items-end justify-between">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
-            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-400">
-                오늘의 위인
+            <h2 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-6">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500">
+                위대한 거인들의 전당
               </span>
             </h2>
-            <p className="text-muted-foreground max-w-xl text-lg">
-              인류 지식의 토대를 닦은 위대한 선구자들과의 대화를 시작해보세요.
+            <p className="text-muted-foreground/80 max-w-[850px] text-lg font-light leading-relaxed tracking-tight" style={{ letterSpacing: '-0.02em' }}>
+              역사를 바꾼 위인들의 지혜를 탐험해 보세요. 인물을 선택하여 시공간을 초월한 대화를 시작할 수 있습니다.
             </p>
           </div>
           
-          <a href="#giants" className="hidden md:flex items-center gap-2 text-amber-400 hover:text-amber-300 transition-colors group">
+          <a href="#giants" className="flex items-center gap-2 text-amber-400/80 hover:text-amber-400 transition-all group text-sm font-medium tracking-wide uppercase">
             <span>전체 위인 보기</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>
         </div>
       </div>
       
-      {/* Bento Grid */}
+      {/* Redesigned Bento Grid */}
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[200px]">
-          {/* Large featured card - Newton */}
-          <div 
-            className="md:col-span-2 md:row-span-2 group relative glass-card rounded-3xl p-8 cursor-pointer overflow-hidden hover:border-amber-500/30 transition-all"
-            onClick={() => onSelectGiant(featured[0])}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 auto-rows-[240px]">
+          {/* Main Featured Card (2x2) */}
+          <Link 
+            href={`/giant/${featured[0].slug}`}
+            className="md:col-span-2 md:row-span-2 group relative glass-card rounded-[2rem] p-10 cursor-pointer overflow-hidden hover:border-amber-500/40 transition-all duration-500 block shadow-2xl shadow-amber-500/5"
           >
-            {/* Image background layer */}
             <div className="absolute inset-0 z-0 bg-muted">
-              {featured[0].imageUrl ? (
-                <Image 
-                  src={featured[0].imageUrl} 
-                  alt={featured[0].name}
-                  fill
-                  className="object-cover opacity-30 group-hover:opacity-50 transition-all duration-700 group-hover:scale-110"
-                  priority
-                  unoptimized={true}
-                />
-              ) : (
-                <div className="absolute inset-0 flex items-center justify-center text-6xl opacity-20 text-amber-100 font-serif font-bold">
-                  {featured[0].name.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                </div>
-              )}
-              <div className={`absolute inset-0 bg-gradient-to-br ${featured[0].color} mix-blend-multiply opacity-40`} />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
+              <Image 
+                src={featured[0].imageUrl} 
+                alt={featured[0].name}
+                fill
+                className="object-cover object-top opacity-20 group-hover:opacity-40 transition-all duration-1000 group-hover:scale-105"
+                priority
+                unoptimized={true}
+              />
+              <div className={`absolute inset-0 bg-gradient-to-br ${featured[0].color} mix-blend-soft-light opacity-30`} />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
             </div>
             
             <div className="relative z-10 h-full flex flex-col justify-between">
               <div>
-                <span className="inline-block px-3 py-1 text-xs rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 mb-4">
-                  추천
+                <span className="inline-flex items-center gap-1.5 px-3 py-1 text-[10px] font-bold uppercase tracking-widest rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 mb-6">
+                  <Sparkles className="w-3 h-3" />
+                  최고의 추천
                 </span>
-                <h3 className="font-serif text-3xl md:text-4xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-2">
+                <h3 className="font-serif text-4xl md:text-5xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-3 leading-tight">
                   {featured[0].name}
                 </h3>
-                <p className="text-amber-400/80 text-lg">{featured[0].title}</p>
+                <p className="text-amber-400/90 text-xl font-medium tracking-tight italic">{featured[0].title}</p>
               </div>
               
-              <div>
-                <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
-                  <span className="flex items-center gap-1">
-                    <Clock className="w-4 h-4" />
+              <div className="max-w-md">
+                <div className="flex items-center gap-4 text-xs text-muted-foreground/60 mb-6 font-medium">
+                  <span className="flex items-center gap-1.5">
+                    <Clock className="w-3.5 h-3.5" />
                     {featured[0].era}
                   </span>
-                  <span className="px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-300/80 text-xs">
+                  <span className="w-1 h-1 rounded-full bg-muted-foreground/30" />
+                  <span className="uppercase tracking-wider">
                     {featured[0].field}
                   </span>
                 </div>
                 
-                <p className="text-muted-foreground leading-relaxed mb-4">
-                  {featured[0].description}
-                </p>
-                
-                <div className="flex items-start gap-2 p-4 rounded-xl bg-amber-500/5 border border-amber-500/10">
-                  <Quote className="w-4 h-4 text-amber-400/60 shrink-0 mt-0.5" />
-                  <p className="text-sm italic text-foreground/80">&ldquo;{featured[0].quote}&rdquo;</p>
+                <div className="flex items-start gap-3 p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
+                  <Quote className="w-5 h-5 text-amber-400/40 shrink-0 mt-1" />
+                  <p className="text-base leading-relaxed text-foreground/90 font-light italic">
+                    &ldquo;{featured[0].quote}&rdquo;
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           
-          {/* Medium cards */}
-          {featured.slice(1, 3).map((giant) => (
-            <div
-              key={giant.id}
-              className="group relative glass-card rounded-2xl p-6 cursor-pointer overflow-hidden hover:border-amber-500/30 transition-all"
-              onClick={() => onSelectGiant(giant)}
-            >
-              <div className={`absolute inset-0 bg-gradient-to-br ${giant.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-              
-              <div className="relative z-10 h-full flex flex-col justify-between">
-                <div className="relative w-12 h-12 rounded-xl overflow-hidden mb-4 ring-2 ring-amber-500/20 group-hover:ring-amber-500/40 transition-all bg-muted flex items-center justify-center">
-                  {giant.imageUrl ? (
-                    <Image 
-                      src={giant.imageUrl} 
-                      alt={giant.name}
-                      fill
-                      className="object-cover"
-                      unoptimized={true}
-                    />
-                  ) : (
-                    <div className="text-sm text-amber-100 font-serif font-bold">
-                      {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                    </div>
-                  )}
-                </div>
-                
-                <div>
-                  <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-200 transition-colors">
-                    {giant.name}
-                  </h3>
-                  <p className="text-sm text-amber-400/80 mt-1">{giant.title}</p>
-                  <p className="text-xs text-muted-foreground mt-2">{giant.era}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-          
-          {/* Small cards */}
-          {featured.slice(3, 6).map((giant) => (
-            <div
-              key={giant.id}
-              className="group relative glass-card rounded-2xl p-5 cursor-pointer overflow-hidden hover:border-amber-500/30 transition-all"
-              onClick={() => onSelectGiant(giant)}
-            >
-              <div className={`absolute inset-0 bg-gradient-to-br ${giant.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
-              
-              <div className="relative z-10 h-full flex flex-col">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="relative w-10 h-10 rounded-lg overflow-hidden shrink-0 ring-1 ring-amber-500/20 bg-muted flex items-center justify-center">
-                    {giant.imageUrl ? (
-                      <Image 
-                        src={giant.imageUrl} 
-                        alt={giant.name}
-                        fill
-                        className="object-cover"
-                        unoptimized={true}
-                      />
-                    ) : (
-                      <div className="text-xs text-amber-100 font-serif font-bold">
-                        {giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                      </div>
-                    )}
-                  </div>
-                  <div>
-                    <h3 className="font-serif text-base font-semibold text-foreground group-hover:text-amber-200 transition-colors leading-tight">
-                      {giant.name}
-                    </h3>
-                    <p className="text-xs text-muted-foreground">{giant.era}</p>
-                  </div>
-                </div>
-                
-                <p className="text-xs text-muted-foreground line-clamp-2 flex-1">
-                  {giant.description}
+          {/* Secondary Wide Card (2x1) */}
+          <Link
+            href={`/giant/${featured[1].slug}`}
+            className="lg:col-span-2 group relative glass-card rounded-[1.5rem] p-8 cursor-pointer overflow-hidden hover:border-amber-500/40 transition-all duration-500 block"
+          >
+            <div className={`absolute inset-0 bg-gradient-to-r ${featured[1].color} opacity-0 group-hover:opacity-20 transition-opacity duration-700`} />
+            <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
+            
+            <div className="relative z-10 h-full flex items-center justify-between gap-8">
+              <div className="flex-1">
+                <div className="text-[10px] font-bold text-amber-400/60 uppercase tracking-[0.2em] mb-3">Today's Pick</div>
+                <h3 className="font-serif text-2xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-2">
+                  {featured[1].name}
+                </h3>
+                <p className="text-sm text-muted-foreground/80 line-clamp-2 font-light leading-relaxed">
+                  {featured[1].description}
                 </p>
-                
-                <span className="inline-block mt-3 px-2 py-1 text-xs rounded-full bg-amber-500/10 text-amber-300/80 w-fit">
-                  {giant.field.split("&")[0].trim()}
-                </span>
+              </div>
+              <div className="relative w-28 h-28 rounded-2xl overflow-hidden shrink-0 ring-4 ring-amber-500/5 group-hover:ring-amber-500/20 transition-all duration-500 bg-muted">
+                <Image 
+                  src={featured[1].imageUrl} 
+                  alt={featured[1].name}
+                  fill
+                  className="object-cover object-top group-hover:scale-110 transition-transform duration-700"
+                  unoptimized={true}
+                />
               </div>
             </div>
+          </Link>
+          
+          {/* Small Cards (1x1 each) */}
+          {featured.slice(2, 4).map((giant) => (
+            <Link
+              key={giant.id}
+              href={`/giant/${giant.slug}`}
+              className="group relative glass-card rounded-[1.5rem] p-8 cursor-pointer overflow-hidden hover:border-amber-500/40 transition-all duration-500 block"
+            >
+              <div className={`absolute inset-0 bg-gradient-to-br ${giant.color} opacity-0 group-hover:opacity-10 transition-opacity duration-700`} />
+              
+              <div className="relative z-10 h-full flex flex-col items-center text-center">
+                <div className="relative w-16 h-16 rounded-2xl overflow-hidden mb-6 ring-2 ring-amber-500/10 group-hover:ring-amber-500/30 transition-all duration-500 bg-muted">
+                  <Image 
+                    src={giant.imageUrl} 
+                    alt={giant.name}
+                    fill
+                    className="object-cover object-top"
+                    unoptimized={true}
+                  />
+                </div>
+                
+                <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-1">
+                  {giant.name}
+                </h3>
+                <p className="text-xs text-muted-foreground/60 font-medium tracking-tight">{giant.era}</p>
+                
+                <div className="mt-auto pt-4 flex items-center gap-1.5 text-amber-400/70 text-[10px] font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0">
+                  <span>대화하기</span>
+                  <ArrowRight className="w-3 h-3" />
+                </div>
+              </div>
+            </Link>
           ))}
         </div>
-      </div>
-      
-      {/* Mobile view all link */}
-      <div className="md:hidden text-center mt-8">
-        <a href="#giants" className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 transition-colors">
-          <span>전체 위인 보기</span>
-          <ArrowRight className="w-4 h-4" />
-        </a>
       </div>
     </section>
   )

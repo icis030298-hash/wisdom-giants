@@ -1,13 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
-
-const inter = Inter({ 
-  subsets: ["latin"],
-  variable: '--font-inter',
-  display: 'swap',
-});
 
 const playfair = Playfair_Display({ 
   subsets: ["latin"],
@@ -31,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className={`${inter.variable} ${playfair.variable} bg-background scroll-smooth`}>
+    <html lang="ko" className={`${playfair.variable} bg-background scroll-smooth`}>
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         {children}
         <Footer />

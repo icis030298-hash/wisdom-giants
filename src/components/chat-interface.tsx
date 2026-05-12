@@ -124,7 +124,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
               src={giant.imageUrl} 
               alt={giant.name}
               fill
-              className="object-cover"
+              className="object-cover object-top"
               unoptimized={true}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
@@ -171,7 +171,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                   src={giant.imageUrl} 
                   alt={giant.name}
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   unoptimized={true}
                 />
               </div>
@@ -210,7 +210,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                           src={giant.imageUrl} 
                           alt={giant.name}
                           fill
-                          className="object-cover"
+                          className="object-cover object-top"
                           unoptimized={true}
                         />
                       </div>
