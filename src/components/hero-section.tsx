@@ -21,9 +21,11 @@ const generateParticles = (count: number) => {
 
 export function HeroSection() {
   const [isVisible, setIsVisible] = useState(false)
+  const [isMounted, setIsMounted] = useState(false)
   const particles = useMemo(() => generateParticles(20), [])
 
   useEffect(() => {
+    setIsMounted(true)
     const timer = setTimeout(() => {
       setIsVisible(true)
     }, 100)
@@ -42,7 +44,7 @@ export function HeroSection() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full border border-amber-500/5 animate-[spin_90s_linear_infinite_reverse]" />
         
         {/* Floating particles */}
-        {particles.map((particle) => (
+        {isMounted && particles.map((particle) => (
           <div
             key={particle.id}
             className="absolute w-1 h-1 bg-amber-400/40 rounded-full animate-float"

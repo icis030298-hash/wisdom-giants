@@ -98,13 +98,12 @@ export function QuoteSection() {
               
               <div className="flex items-center gap-4">
                 <div className="relative w-12 h-12 rounded-xl overflow-hidden bg-muted flex items-center justify-center">
-                  <GiantImage 
+                  <Image 
                     src={quote.imageUrl} 
                     alt={quote.author}
                     fill
                     className="object-cover"
-                    fallbackText={quote.author.split(" ").map(n => n[0]).slice(0, 2).join("")}
-                    containerClassName="absolute inset-0 text-lg"
+                    unoptimized={true}
                   />
                 </div>
                 <div>
