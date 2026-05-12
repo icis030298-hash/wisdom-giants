@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Sparkles, BookOpen, Quote, MessageSquare } from "lucide-react";
+import { ArrowRight, Sparkles, BookOpen, Quote, MessageSquare, ChevronDown } from "lucide-react";
 import AdSpace from "@/components/AdSpace";
 import GiantAvatar from "@/components/GiantAvatar";
 import { giantsData } from "@/data/giants";
@@ -27,24 +27,46 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-navy-dark text-slate-200 selection:bg-gold-antique/30 selection:text-gold-antique">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden border-b border-white/5">
+        {/* Visual Effects: Glow Background */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] rounded-full bg-gold-antique/5 blur-[120px]" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-gold-antique/10 blur-[120px] rounded-full opacity-30" />
+          <div className="absolute top-1/3 left-1/4 w-[400px] h-[400px] bg-navy-light/20 blur-[100px] rounded-full opacity-20" />
+          <div className="absolute bottom-1/3 right-1/4 w-[500px] h-[500px] bg-gold-muted/10 blur-[100px] rounded-full opacity-10" />
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-[0.03]" />
         </div>
 
-        <div className="container mx-auto px-6 text-center relative z-10">
+        <div className="container mx-auto px-6 text-center relative z-10 animate-fade-in-up">
           <span className="inline-block px-4 py-1.5 border border-gold-antique/30 text-gold-antique text-[10px] rounded-full uppercase tracking-[0.4em] font-bold mb-8">
-            The Museum of wisdom
+            THE MUSEUM OF WISDOM
           </span>
-          <h1 className="text-6xl md:text-8xl font-serif mb-8 leading-tight tracking-tighter">
+          
+          <h1 className="text-6xl md:text-9xl font-serif mb-6 leading-tight tracking-tighter">
             Shoulders of <br />
-            <span className="gold-text-gradient italic font-normal">Giants</span>
+            <span className="gold-text-gradient italic font-normal drop-shadow-[0_0_30px_rgba(212,175,55,0.2)]">Giants</span>
           </h1>
-          <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-sans leading-relaxed font-light">
+
+          {/* Isaac Newton Quote */}
+          <div className="flex flex-col items-center mb-10">
+            <div className="w-px h-10 bg-gradient-to-b from-transparent to-gold-antique/40 mb-4" />
+            <p className="text-slate-400 italic text-lg md:text-xl font-light tracking-wide max-w-2xl">
+              "내가 더 멀리 보았다면, 그것은 거인들의 어깨 위에 올라섰기 때문이다."
+            </p>
+            <div className="w-px h-6 bg-gold-antique/20 mt-4" />
+          </div>
+
+          <p className="text-slate-500 text-base md:text-lg max-w-2xl mx-auto mb-12 font-sans leading-relaxed font-light">
             역사의 거인들이 남긴 발자취를 따라 당신의 답을 찾아보세요. <br />
-            10명의 위대한 멘토가 당신을 기다리고 있습니다.
+            <span className="text-slate-300 font-medium">40인의 위대한 멘토</span>가 당신의 질문을 기다립니다.
           </p>
+
+          {/* Scroll Indicator */}
+          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
+            <span className="text-[10px] uppercase tracking-[0.3em] text-slate-600 font-bold">Discover</span>
+            <div className="animate-bounce p-2 rounded-full border border-white/10 bg-white/5">
+              <ChevronDown size={20} className="text-gold-antique" />
+            </div>
+          </div>
         </div>
       </section>
 
