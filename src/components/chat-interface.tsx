@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
+import Image from "next/image"
 import { GiantImage } from "./ui/giant-image"
 import { X, Send, Sparkles, Clock, BookOpen, Quote, Lightbulb, RefreshCw } from "lucide-react"
 import type { Giant } from "@/lib/giants-data"
@@ -113,13 +114,12 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
         <div className="relative px-6 py-4 border-b border-border/50 flex items-center gap-4">
           {/* Avatar */}
           <div className="relative w-14 h-14 rounded-xl overflow-hidden bg-muted flex items-center justify-center shrink-0 ring-2 ring-amber-500/20">
-            <GiantImage 
-              src={giant.imageUrl} 
+            <Image 
+              src={giant.imageUrl || "/placeholder.svg"} 
               alt={giant.name}
               fill
               className="object-cover"
-              fallbackText={giant.name.split(" ").map(n => n[0]).slice(0, 2).join("")}
-              containerClassName="absolute inset-0 text-lg"
+              unoptimized={true}
             />
           </div>
           
@@ -173,13 +173,12 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                 {message.role === "giant" && (
                   <div className="flex items-center gap-2 mb-2">
                     <div className="relative w-8 h-8 rounded-lg overflow-hidden bg-muted flex items-center justify-center ring-1 ring-amber-500/20">
-                      <GiantImage 
-                        src={giant.imageUrl} 
+                      <Image 
+                        src={giant.imageUrl || "/placeholder.svg"} 
                         alt={giant.name}
                         fill
                         className="object-cover"
-                        fallbackText={giant.name[0]}
-                        containerClassName="absolute inset-0 text-[10px]"
+                        unoptimized={true}
                       />
                     </div>
                     <span className="text-xs text-muted-foreground">
