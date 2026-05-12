@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 
+export const runtime = 'edge';
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin", "latin-ext"],
