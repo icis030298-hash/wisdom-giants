@@ -30,7 +30,9 @@ export const giants: Giant[] = giantsData.map(g => ({
   quote: g.quote,
   color: colorMap[g.category] || 'from-slate-500/20 to-zinc-500/20',
   slug: g.slug,
-  imageUrl: g.imageUrl
+  imageUrl: g.imageUrl.startsWith('/') 
+    ? `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/giants/${g.slug}.jpg` 
+    : g.imageUrl
 }));
 
 export const categories = [

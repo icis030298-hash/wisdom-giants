@@ -75,7 +75,14 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
     try {
       const ourGiant = giantsData.find(g => g.slug === giant.id);
       const persona = ourGiant?.persona || "";
-      const response = await getGiantResponse(persona, input, giant.name);
+      
+      // 이전 메시지들을 API 형식으로 변환 (현재 유저 메시지 제외)
+      const history = messages.map(msg => ({
+        role: msg.role === "user" ? "user" : "assistant",
+        content: msg.content
+      }));
+      
+      const response = await getGiantResponse(persona, input, giant.name, history);
       
       const giantMessage: Message = {
         id: (Date.now() + 1).toString(),

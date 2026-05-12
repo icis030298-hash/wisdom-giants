@@ -1,4 +1,4 @@
-export async function getGiantResponse(persona: string, userMessage: string, giantName: string) {
+export async function getGiantResponse(persona: string, userMessage: string, giantName: string, history: { role: string, content: string }[] = []) {
   try {
     const response = await fetch('/api/chat', {
       method: 'POST',
@@ -9,6 +9,7 @@ export async function getGiantResponse(persona: string, userMessage: string, gia
         prompt: userMessage,
         giantName,
         persona,
+        messages: history, // 전체 대화 내역 전달
       }),
     });
 
@@ -21,6 +22,6 @@ export async function getGiantResponse(persona: string, userMessage: string, gia
     return data.message;
   } catch (error) {
     console.error("Gemini Client Error:", error);
-    return `오류 발생: ${error instanceof Error ? error.message : '알 수 없는 오류'}`;
+    throw error; // 에러를 상위로 던져서 컴포넌트에서 처리하게 함
   }
 }
