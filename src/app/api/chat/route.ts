@@ -1,6 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { NextResponse } from 'next/server';
 
+console.log("API Key exists:", !!process.env.GEMINI_API_KEY);
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY as string);
 
 export async function POST(req: Request) {
@@ -35,6 +36,8 @@ export async function POST(req: Request) {
 
   } catch (error) {
     console.error('Gemini API Error:', error);
-    return NextResponse.json({ error: '지혜를 빌려오는 도중 오류가 발생했습니다.' }, { status: 500 });
+    return NextResponse.json({ 
+      error: error instanceof Error ? error.message : '알 수 없는 오류' 
+    }, { status: 500 });
   }
 }

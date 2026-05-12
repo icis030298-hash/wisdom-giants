@@ -20,6 +20,6 @@ export async function getGiantResponse(persona: string, userMessage: string, gia
     return data.message;
   } catch (error) {
     console.error("Gemini Client Error:", error);
-    return "죄송합니다. 거인의 지혜를 빌려오는 도중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.";
+    return `오류 발생: ${error instanceof Error ? error.message : '알 수 없는 오류'}`;
   }
 }
