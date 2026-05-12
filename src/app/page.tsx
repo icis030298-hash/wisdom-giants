@@ -26,28 +26,33 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-navy-dark text-slate-200 selection:bg-gold-antique/30 selection:text-gold-antique">
-      {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden border-b border-white/5">
-        {/* Visual Effects: Glow Background */}
-        <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-gold-antique/10 blur-[120px] rounded-full opacity-30" />
-          <div className="absolute top-1/3 left-1/4 w-[400px] h-[400px] bg-navy-light/20 blur-[100px] rounded-full opacity-20" />
-          <div className="absolute bottom-1/3 right-1/4 w-[500px] h-[500px] bg-gold-muted/10 blur-[100px] rounded-full opacity-10" />
+        {/* Visual Effects: Mystical Abyss/Fog Background */}
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          {/* Deep Nebula Glows */}
+          <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-gold-antique/10 blur-[140px] rounded-full animate-pulse opacity-40" />
+          <div className="absolute bottom-1/4 right-1/4 w-[700px] h-[700px] bg-amber-600/10 blur-[150px] rounded-full animate-pulse opacity-30 delay-700" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[600px] bg-navy-light/30 blur-[120px] rounded-full opacity-20" />
+          
+          {/* Subtle Fog/Light Rays */}
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gold-antique/5 to-transparent opacity-20" />
+          
+          {/* Carbon Fiber Pattern Overlay */}
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-[0.03]" />
         </div>
 
         <div className="container mx-auto px-6 text-center relative z-10 animate-fade-in-up">
-          <span className="inline-block px-4 py-1.5 border border-gold-antique/30 text-gold-antique text-[10px] rounded-full uppercase tracking-[0.4em] font-bold mb-8">
-            THE MUSEUM OF WISDOM
+          <span className="inline-block px-6 py-2 border border-gold-antique/30 text-gold-antique text-[10px] rounded-full uppercase tracking-[0.6em] font-bold mb-8 bg-navy-dark/40 backdrop-blur-sm">
+            HALL OF GREAT MINDS
           </span>
           
-          <h1 className="text-6xl md:text-9xl font-serif mb-6 leading-tight tracking-tighter">
+          <h1 className="text-6xl md:text-9xl font-serif mb-6 leading-tight tracking-tighter drop-shadow-2xl">
             Shoulders of <br />
-            <span className="gold-text-gradient italic font-normal drop-shadow-[0_0_30px_rgba(212,175,55,0.2)] pr-4">Giants</span>
+            <span className="gold-text-gradient italic font-normal drop-shadow-[0_0_30px_rgba(212,175,55,0.3)] pr-4">Giants</span>
           </h1>
 
           {/* Isaac Newton Quote */}
-          <div className="flex flex-col items-center mb-10">
+          <div className="flex flex-col items-center mb-10 drop-shadow-xl">
             <div className="w-px h-10 bg-gradient-to-b from-transparent to-gold-antique/40 mb-4" />
             <p className="text-slate-400 italic text-lg md:text-xl font-light tracking-wide max-w-2xl">
               &quot;내가 더 멀리 보았다면, 그것은 거인들의 어깨 위에 올라섰기 때문이다.&quot;
@@ -55,17 +60,17 @@ export default function Home() {
             <div className="w-px h-6 bg-gold-antique/20 mt-4" />
           </div>
 
-          <p className="text-slate-500 text-base md:text-lg max-w-2xl mx-auto mb-16 font-sans leading-relaxed font-light">
+          <p className="text-slate-500 text-base md:text-lg max-w-2xl mx-auto mb-16 font-sans leading-relaxed font-light drop-shadow-md">
             역사의 거인들이 남긴 발자취를 따라 당신의 답을 찾아보세요. <br />
             <span className="text-slate-300 font-medium">40인의 위대한 멘토</span>가 당신의 질문을 기다립니다.
           </p>
 
-          {/* Scroll Indicator: Now in flex flow to prevent overlap */}
+          {/* Scroll Indicator */}
           <Link 
             href="#giants-grid"
             className="inline-flex flex-col items-center gap-2 group cursor-pointer transition-transform hover:translate-y-1"
           >
-            <span className="text-[10px] uppercase tracking-[0.3em] text-slate-600 font-bold group-hover:text-gold-antique transition-colors">Discover</span>
+            <span className="text-[10px] uppercase tracking-[0.4em] text-slate-600 font-bold group-hover:text-gold-antique transition-colors">Discover</span>
             <div className="animate-bounce p-2 rounded-full border border-white/10 bg-white/5 group-hover:border-gold-antique/30 transition-colors">
               <ChevronDown size={20} className="text-gold-antique" />
             </div>
