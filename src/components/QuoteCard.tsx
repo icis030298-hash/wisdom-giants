@@ -3,7 +3,6 @@
 import React, { useRef } from 'react';
 import { toPng } from 'html-to-image';
 import { Download, Share2 } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 interface QuoteCardProps {
   quote: string;
@@ -11,7 +10,7 @@ interface QuoteCardProps {
   backgroundImage?: string;
 }
 
-const QuoteCard: React.FC<QuoteCardProps> = ({ quote, author, backgroundImage }) => {
+const QuoteCard: React.FC<QuoteCardProps> = ({ quote, author }) => {
   const cardRef = useRef<HTMLDivElement>(null);
 
   const downloadImage = async () => {
@@ -41,7 +40,7 @@ const QuoteCard: React.FC<QuoteCardProps> = ({ quote, author, backgroundImage })
         </div>
 
         <div className="relative z-10">
-          <span className="text-6xl text-gold-antique opacity-50 font-serif mb-8 block">"</span>
+          <span className="text-6xl text-gold-antique opacity-50 font-serif mb-8 block">&quot;</span>
           <p className="text-2xl font-serif text-slate-100 leading-relaxed mb-12 italic">
             {quote}
           </p>

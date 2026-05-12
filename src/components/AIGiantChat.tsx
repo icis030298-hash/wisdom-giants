@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Send, User, Bot, Loader2 } from 'lucide-react';
+import { Send, Bot, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getGiantResponse } from '@/lib/gemini';
 
@@ -56,7 +56,7 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, persona }) => {
         {messages.length === 0 && (
           <div className="h-full flex flex-col items-center justify-center text-center opacity-50 space-y-4">
             <p className="font-serif italic text-lg text-slate-300">
-              "{giantName}에게 당신의 고민을 털어놓으세요."
+              &quot;{giantName}에게 당신의 고민을 털어놓으세요.&quot;
             </p>
             <p className="text-xs text-slate-500">위인의 철학이 담긴 특별한 조언이 기다립니다.</p>
           </div>

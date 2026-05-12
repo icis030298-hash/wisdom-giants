@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { ArrowRight, BookOpen, Quote, MessageSquare, Sparkles } from "lucide-react";

@@ -91,7 +91,7 @@ export default async function GiantPage({ params }: GiantPageProps) {
               <h2 className="text-2xl font-serif">현대인에게 주는 3가지 시사점</h2>
             </div>
             <div className="space-y-8">
-              {giant.lessons.map((lesson: any, i: number) => (
+              {giant.lessons.map((lesson: { title: string; content: string }, i: number) => (
                 <div key={i} className="space-y-2">
                   <h3 className="text-xl font-serif text-gold-antique">{i + 1}. {lesson.title}</h3>
                   <p className="text-slate-400 leading-relaxed">{lesson.content}</p>

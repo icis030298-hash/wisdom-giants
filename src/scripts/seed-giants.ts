@@ -13,7 +13,7 @@ async function seed() {
   console.log('Seeding giants...');
 
   for (const giant of GIANTS) {
-    const { data, error } = await supabase
+    const { error } = await supabase
       .from('giants')
       .upsert({
         name: giant.name,
