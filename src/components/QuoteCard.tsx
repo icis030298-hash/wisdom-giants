@@ -70,14 +70,6 @@ const QuoteCard: React.FC<QuoteCardProps> = ({ quote, author }) => {
           </div>
         </div>
 
-        {/* Branding Footer */}
-        <div className="absolute bottom-16 left-0 w-full text-center">
-          <div className="inline-block px-4 py-1 border border-gold-antique/10 rounded-full">
-            <p className="text-[9px] tracking-[0.5em] text-slate-500 uppercase font-bold">
-              Wisdom Giants • Series 01
-            </p>
-          </div>
-        </div>
       </div>
 
       <div className="flex flex-col items-center gap-4">
@@ -93,7 +85,6 @@ const QuoteCard: React.FC<QuoteCardProps> = ({ quote, author }) => {
             <Share2 size={24} />
           </button>
         </div>
-        <p className="text-xs text-slate-500 font-light tracking-wide">인스타그램 스토리 공유에 최적화된 고해상도 이미지입니다.</p>
       </div>
     </div>
   );
