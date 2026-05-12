@@ -13,7 +13,7 @@ export async function POST(req: Request) {
     }
 
     // 1. 모델 초기화
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
 
     // 2. 동적 시스템 프롬프트 (페르소나 부여)
     const systemInstruction = `당신은 역사적인 위인 '${giantName}'입니다. 
