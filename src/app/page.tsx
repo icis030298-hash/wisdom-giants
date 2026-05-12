@@ -50,7 +50,7 @@ export default function Home() {
           <div className="flex flex-col items-center mb-10">
             <div className="w-px h-10 bg-gradient-to-b from-transparent to-gold-antique/40 mb-4" />
             <p className="text-slate-400 italic text-lg md:text-xl font-light tracking-wide max-w-2xl">
-              "내가 더 멀리 보았다면, 그것은 거인들의 어깨 위에 올라섰기 때문이다."
+              &quot;내가 더 멀리 보았다면, 그것은 거인들의 어깨 위에 올라섰기 때문이다.&quot;
             </p>
             <div className="w-px h-6 bg-gold-antique/20 mt-4" />
           </div>

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 
 @theme {
   --color-navy-dark: #0f172a;
@@ -9,8 +10,6 @@
   --font-serif: "Playfair Display", "Georgia", serif;
   --font-sans: "Inter", system-ui, sans-serif;
 }
-
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
 
 :root {
   --foreground-rgb: 255, 255, 255;
