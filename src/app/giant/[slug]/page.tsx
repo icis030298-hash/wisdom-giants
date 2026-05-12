@@ -8,6 +8,13 @@ import Link from 'next/link';
 
 export const runtime = 'edge';
 
+export async function generateStaticParams() {
+  const { data: giants } = await supabase.from('giants').select('slug');
+  return giants?.map((giant) => ({
+    slug: giant.slug,
+  })) || [];
+}
+
 interface GiantPageProps {
   params: Promise<{ slug: string }>;
 }
