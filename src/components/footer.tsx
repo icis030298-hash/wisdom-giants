@@ -1,6 +1,6 @@
 "use client"
 
-import { Sparkles, Github, Twitter, Linkedin, Mail } from "lucide-react"
+import { Sparkles, Globe, Code, Briefcase, Mail } from "lucide-react"
 
 const footerLinks = {
   explore: [
@@ -24,13 +24,13 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Globe, href: "#", label: "Twitter" },
+  { icon: Code, href: "#", label: "GitHub" },
+  { icon: Briefcase, href: "#", label: "LinkedIn" },
   { icon: Mail, href: "#", label: "Email" },
 ]
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="relative py-20 px-4 border-t border-border/50">
       {/* Ambient glow */}

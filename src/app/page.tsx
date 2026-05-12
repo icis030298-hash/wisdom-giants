@@ -7,7 +7,7 @@ import { FeaturedGiants } from "@/components/featured-giants"
 import { StatsSection } from "@/components/stats-section"
 import { GiantsGrid } from "@/components/giants-grid"
 import { ChatInterface } from "@/components/chat-interface"
-import { Footer } from "@/components/footer"
+import Footer from "@/components/footer"
 import { QuoteSection } from "@/components/quote-section"
 import { giants, type Giant } from "@/lib/giants-data"
 
