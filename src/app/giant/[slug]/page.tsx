@@ -5,15 +5,7 @@ import AIGiantChat from '@/components/AIGiantChat';
 import AdSpace from '@/components/AdSpace';
 import { BookOpen, Award, ShieldCheck, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
-export const dynamic = 'force-static';
-
-export async function generateStaticParams() {
-  const { data: giants } = await supabase.from('giants').select('slug');
-  if (!giants) return [];
-  return giants.map((giant) => ({
-    slug: giant.slug,
-  }));
-}
+export const dynamic = 'force-dynamic';
 
 interface GiantPageProps {
   params: Promise<{ slug: string }>;
