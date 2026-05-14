@@ -16,6 +16,21 @@ export function GiantCard({ giant, index }: GiantCardProps) {
   const t = useTranslations("Giants")
   const gt = useTranslations("GiantsGrid")
   const [isHovered, setIsHovered] = useState(false)
+
+  // Helper to get translated text with fallback to raw data
+  const getTranslation = (key: string, fallback: string) => {
+    const translated = t(key)
+    // If next-intl returns the key itself (e.g. "Giants.slug.name"), use fallback
+    if (translated.includes(`${giant.id}.`) || translated === `Giants.${giant.id}.${key.split('.').pop()}`) {
+      return fallback
+    }
+    return translated
+  }
+  
+  const name = getTranslation(`${giant.id}.name`, giant.name)
+  const headline = getTranslation(`${giant.id}.headline`, giant.title)
+  const shortDescription = getTranslation(`${giant.id}.shortDescription`, giant.description)
+  const quote = getTranslation(`${giant.id}.quote`, giant.quote)
   
   return (
     <Link
@@ -32,7 +47,7 @@ export function GiantCard({ giant, index }: GiantCardProps) {
       <div className="relative w-full h-48 overflow-hidden bg-muted shrink-0">
         <Image 
           src={giant.imageUrl} 
-          alt={t(`${giant.id}.name`)}
+          alt={name}
           fill
           className="object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
         />
@@ -51,9 +66,9 @@ export function GiantCard({ giant, index }: GiantCardProps) {
         <div className="flex items-start justify-between gap-4 mb-2">
           <div className="flex-1 min-w-0">
             <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-200 transition-colors truncate">
-              {t(`${giant.id}.name`)}
+              {name}
             </h3>
-            <p className="text-sm text-amber-400/80 truncate">{t(`${giant.id}.headline`)}</p>
+            <p className="text-sm text-amber-400/80 truncate">{headline}</p>
           </div>
           <div className="flex items-center gap-1.5 px-2 py-1 rounded-md bg-white/5 border border-white/10 shrink-0">
             <Clock className="w-3 h-3 text-muted-foreground" />
@@ -63,13 +78,13 @@ export function GiantCard({ giant, index }: GiantCardProps) {
         
         {/* Description */}
         <p className="mt-4 text-sm text-muted-foreground line-clamp-2 leading-relaxed min-h-[40px]">
-          {t(`${giant.id}.shortDescription`)}
+          {shortDescription}
         </p>
         
         {/* Quote preview */}
         <div className="mt-4 pt-4 border-t border-border/50 min-h-[70px]">
           <p className="text-xs italic text-foreground/60 line-clamp-2">
-            &ldquo;{t(`${giant.id}.quote`)}&rdquo;
+            &ldquo;{quote}&rdquo;
           </p>
         </div>
         
@@ -85,3 +100,4 @@ export function GiantCard({ giant, index }: GiantCardProps) {
     </Link>
   )
 }
+

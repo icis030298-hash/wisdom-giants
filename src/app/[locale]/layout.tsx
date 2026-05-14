@@ -63,6 +63,7 @@ export default async function RootLayout({
     <html lang={locale} className={`${playfair.variable} bg-background scroll-smooth`}>
       <head>
         <link rel="stylesheet" as="style" crossOrigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet" />
       </head>
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages}>

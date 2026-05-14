@@ -32,7 +32,7 @@ export const giants: Giant[] = giantsData.map(g => ({
   id: g.slug,
   name: g.name,
   title: g.headline,
-  era: 'era',
+  era: g.era,
   field: categoryMap[g.category] || 'other',
   description: g.shortDescription,
   quote: g.quote,

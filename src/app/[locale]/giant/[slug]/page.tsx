@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { giants } from "@/lib/giants-data";
 import { GiantDetailClient } from "@/components/giant-detail-client";
 import { Metadata } from 'next';
+import finalNarratives from "@/data/final-narratives.json";
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -14,9 +15,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!giant) return {};
 
-  // We need messages to get the translated name and headline for SEO
   const messages = await getMessages({ locale });
-  const giantData = (messages.Giants as any)[giant.id];
+  const giantData = (messages.Giants as any)[giant.id] || {
+    name: giant.name,
+    headline: giant.title,
+    shortDescription: giant.description,
+    quote: giant.quote
+  };
 
   return {
     title: `${giantData.name} | ${giantData.headline} - Shoulders of Giants`,
@@ -32,7 +37,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function GiantDetailPage({ params }: Props) {
   const { locale, slug } = await params;
   
-  // Enable static rendering
   setRequestLocale(locale);
   
   const giant = giants.find(g => g.slug === slug);
@@ -40,10 +44,37 @@ export default async function GiantDetailPage({ params }: Props) {
 
   const messages = await getMessages({ locale });
   
+  // Find standardized narrative data
+  const narrative = (finalNarratives as any)[giant.name];
+  
+  const formattedNarrative = narrative ? {
+    epic: locale === 'en' ? narrative.epic_en : narrative.epic_ko,
+    trials: locale === 'en' ? narrative.trials_en : narrative.trials_ko,
+    overcoming: locale === 'en' ? narrative.overcoming_en : narrative.overcoming_ko,
+    era: locale === 'en' ? narrative.era_en : narrative.era_ko,
+    wisdom: narrative.wisdom.map((w: any) => ({
+      quote: locale === 'en' ? w.quote_en : w.quote_ko,
+      meaning: locale === 'en' ? w.meaning_en : w.meaning_ko
+    }))
+  } : null;
+
+  const giantTranslation = (messages.Giants as any)[giant.id] || {
+    name: giant.name,
+    headline: giant.title,
+    shortDescription: giant.description,
+    pain: "데이터 준비 중...",
+    recovery: "데이터 준비 중...",
+    lessons: [],
+    quote: giant.quote,
+    persona: `당신은 ${giant.name}입니다.`,
+    era: "역사의 거인"
+  };
+
   const translations = {
     giantDetail: messages.GiantDetail,
-    giants: (messages.Giants as any)[giant.id],
-    giantsGrid: messages.GiantsGrid
+    giants: giantTranslation,
+    giantsGrid: messages.GiantsGrid,
+    narrative: formattedNarrative
   };
 
   return <GiantDetailClient giant={giant} translations={translations} />;

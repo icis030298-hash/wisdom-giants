@@ -19,8 +19,7 @@ export interface Giant {
 }
 
 export const giantsData: Giant[] = [
-  // 🏆 성취 (Achievement) - 10인
-  { 
+{ 
     id: '1', name: '스티브 잡스', category: '성취', 
     headline: '다르게 생각하라, 세상을 바꾸는 혁신의 철학',
     shortDescription: '세상을 바꾼 혁신의 아이콘', slug: 'steve-jobs',
@@ -35,7 +34,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/steve-jobs.jpg',
     persona: "당신은 스티브 잡스입니다. 직설적이고 통찰력 있게 조언하세요."
   },
-  { 
+{ 
     id: '2', name: '나폴레옹 보나파르트', category: '성취', 
     headline: '불가능이라는 단어는 나의 사전에는 없다',
     shortDescription: '불가능을 모르는 정복자', slug: 'napoleon',
@@ -50,7 +49,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/napoleon.jpg',
     persona: "당신은 나폴레옹입니다. 위엄 있고 단호하게 조언하세요."
   },
-  { 
+{ 
     id: '3', name: '세종대왕', category: '성취', 
     headline: '백성을 사랑하는 마음으로 세운 지식의 기틀',
     shortDescription: '한글을 창제한 위대한 성군', slug: 'king-sejong',
@@ -65,7 +64,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/king-sejong.jpg',
     persona: "당신은 세종대왕입니다. 인자하고 현명하게 조언하세요."
   },
-  { 
+{ 
     id: '4', name: '일론 머스크', category: '성취', 
     headline: '화성 정착을 꿈꾸는 지구 최강의 실행력',
     shortDescription: '미래를 현실로 만드는 엔지니어', slug: 'elon-musk',
@@ -80,7 +79,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/elon-musk.jpg',
     persona: "당신은 일론 머스크입니다. 미래지향적이고 파격적으로 조언하세요."
   },
-  { 
+{ 
     id: '5', name: '징기스칸', category: '성취', 
     headline: '두려움을 정복하고 세계 최대의 제국을 세우다',
     shortDescription: '유라시아를 정복한 대칸', slug: 'genghis-khan',
@@ -95,7 +94,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/genghis-khan.jpg',
     persona: "당신은 징기스칸입니다. 강인하고 현실적으로 조언하세요."
   },
-  { 
+{ 
     id: '6', name: '알렉산더 대왕', category: '성취', 
     headline: '세상의 끝을 꿈꾼 젊은 정복자의 야망',
     shortDescription: '그리스 문화를 전파한 정복자', slug: 'alexander-the-great',
@@ -110,7 +109,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/alexander-the-great.jpg',
     persona: "당신은 알렉산더 대왕입니다. 용감하고 열정적으로 조언하세요."
   },
-  { 
+{ 
     id: '7', name: '월트 디즈니', category: '성취', 
     headline: '꿈꿀 수 있다면 실현할 수 있다',
     shortDescription: '상상을 현실로 만든 애니메이터', slug: 'walt-disney',
@@ -125,7 +124,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/walt-disney.jpg',
     persona: "당신은 월트 디즈니입니다. 긍정적이고 창의적으로 조언하세요."
   },
-  { 
+{ 
     id: '8', name: '토마스 에디슨', category: '성취', 
     headline: '9,999번의 실패를 극복한 발명의 왕',
     shortDescription: '어둠을 밝힌 위대한 발명가', slug: 'thomas-edison',
@@ -140,7 +139,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/thomas-edison.jpg',
     persona: "당신은 토마스 에디슨입니다. 끈기 있고 실용적으로 조언하세요."
   },
-  { 
+{ 
     id: '9', name: '율리우스 카이사르', category: '성취', 
     headline: '왔노라, 보았노라, 이겼노라',
     shortDescription: '로마 제국의 기틀을 닦은 영웅', slug: 'julius-caesar',
@@ -155,7 +154,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/julius-caesar.jpg',
     persona: "당신은 카이사르입니다. 카리스마 있고 전략적으로 조언하세요."
   },
-  { 
+{ 
     id: '10', name: '헨리 포드', category: '성취', 
     headline: '모두를 위한 자동차, 대량 생산의 혁명',
     shortDescription: '포디즘을 창시한 기업가', slug: 'henry-ford',
@@ -170,9 +169,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/henry-ford.jpg',
     persona: "당신은 헨리 포드입니다. 혁신적이고 효율적으로 조언하세요."
   },
-
-  // 🌪️ 역경 (Recovery) - 10인
-  { 
+{ 
     id: '11', name: '프리다 칼로', category: '역경', 
     headline: '부서진 몸으로 그려낸 영혼의 초상',
     shortDescription: '고통을 예술로 승화시킨 불꽃', slug: 'frida-kahlo',
@@ -187,7 +184,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/frida-kahlo.jpg',
     persona: "당신은 프리다 칼로입니다. 열정적이고 강인하게 조언하세요."
   },
-  { 
+{ 
     id: '12', name: '빅터 프랑클', category: '역경', 
     headline: '죽음의 수용소에서 발견한 삶의 의미',
     shortDescription: '수용소에서도 잃지 않은 삶의 의미', slug: 'viktor-frankl',
@@ -202,7 +199,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/viktor-frankl.jpg',
     persona: "당신은 빅터 프랑클입니다. 차분하고 성찰적으로 조언하세요."
   },
-  { 
+{ 
     id: '13', name: '오프라 윈프리', category: '역경', 
     headline: '상처를 지혜로 바꾼 토크쇼의 여왕',
     shortDescription: '공감의 힘으로 세상을 치유하다', slug: 'oprah-winfrey',
@@ -217,7 +214,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/oprah-winfrey.jpg',
     persona: "당신은 오프라 윈프리입니다. 따뜻하고 공감 가득하게 조언하세요."
   },
-  { 
+{ 
     id: '14', name: 'J.K. 롤링', category: '역경', 
     headline: '바닥에서 피어난 마법 같은 성공 신화',
     shortDescription: '해리 포터의 창시자', slug: 'jk-rowling',
@@ -232,7 +229,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/jk-rowling.jpg',
     persona: "당신은 J.K. 롤링입니다. 섬세하고 진지하게 조언하세요."
   },
-  { 
+{ 
     id: '15', name: '넬슨 만델라', category: '지혜', 
     headline: '27년의 감옥 생활을 이겨낸 용서와 화합',
     shortDescription: '남아공 최초의 흑인 대통령', slug: 'nelson-mandela',
@@ -247,7 +244,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/nelson-mandela.jpg',
     persona: "당신은 넬슨 만델라입니다. 품위 있고 인자하게 조언하세요."
   },
-  { 
+{ 
     id: '16', name: '헬렌 켈러', category: '역경', 
     headline: '보이지 않고 들리지 않는 어둠 속의 빛',
     shortDescription: '장애를 극복한 사회사업가', slug: 'helen-keller',
@@ -262,7 +259,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/helen-keller.jpg',
     persona: "당신은 헬렌 켈러입니다. 순수하고 강인하게 조언하세요."
   },
-  { 
+{ 
     id: '17', name: '루드비히 판 베토벤', category: '역경', 
     headline: '소리가 들리지 않는 음악가의 불멸의 교향곡',
     shortDescription: '고전파 음악의 거장', slug: 'beethoven',
@@ -277,7 +274,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/beethoven.jpg',
     persona: "당신은 베토벤입니다. 격정적이고 예술가답게 조언하세요."
   },
-  { 
+{ 
     id: '18', name: '스티븐 호킹', category: '역경', 
     headline: '휠체어에 묶인 몸으로 우주를 유영하다',
     shortDescription: '우주론의 대가', slug: 'stephen-hawking',
@@ -292,7 +289,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/stephen-hawking.jpg',
     persona: "당신은 스티븐 호킹입니다. 명석하고 위트 있게 조언하세요."
   },
-  { 
+{ 
     id: '19', name: '말랄라 유사프자이', category: '역경', 
     headline: '총탄에 맞서 교육의 권리를 외친 소녀',
     shortDescription: '최연소 노벨 평화상 수상자', slug: 'malala',
@@ -307,7 +304,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/malala.jpg',
     persona: "당신은 말랄라입니다. 용기 있고 신념 있게 조언하세요."
   },
-  { 
+{ 
     id: '20', name: '프랭클린 루스벨트', category: '역경', 
     headline: '휠체어에 앉아 대공황과 전쟁을 이끈 리더',
     shortDescription: '미국 최장수 대통령', slug: 'franklin-roosevelt',
@@ -322,9 +319,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/franklin-roosevelt.jpg',
     persona: "당신은 프랭클린 루스벨트입니다. 신뢰감 있고 결단력 있게 조언하세요."
   },
-
-  // 🦉 지혜 (Wisdom) - 10인
-  { 
+{ 
     id: '21', name: '마르쿠스 아우렐리우스', category: '지혜', 
     headline: '황제이자 철학자, 내면의 평화를 찾는 법',
     shortDescription: '철학자가 된 로마의 황제', slug: 'marcus-aurelius',
@@ -339,7 +334,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/marcus-aurelius.jpg',
     persona: "당신은 마르쿠스 아우렐리우스입니다. 현명하고 절제된 말투로 조언하세요."
   },
-  { 
+{ 
     id: '22', name: '세네카', category: '지혜', 
     headline: '짧은 인생을 길게 만드는 기술',
     shortDescription: '인생의 짧음에 대해 답하다', slug: 'seneca',
@@ -354,7 +349,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/seneca.jpg',
     persona: "당신은 세네카입니다. 날카롭지만 따뜻한 통찰력을 가진 멘토입니다."
   },
-  { 
+{ 
     id: '23', name: '공자', category: '지혜', 
     headline: '사람의 길을 묻는 동양의 큰 스승',
     shortDescription: '시대를 관통하는 동양의 성인', slug: 'confucius',
@@ -369,7 +364,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/confucius.jpg',
     persona: "당신은 공자입니다. 인자하고 예의 바르게 조언하세요."
   },
-  { 
+{ 
     id: '24', name: '소크라테스', category: '지혜', 
     headline: '너 자신을 알라, 성찰하는 삶의 가치',
     shortDescription: '서양 철학의 아버지', slug: 'socrates',
@@ -384,7 +379,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/socrates.jpg',
     persona: "당신은 소크라테스입니다. 질문을 통해 상대방이 스스로 답을 찾게 유도하세요."
   },
-  { 
+{ 
     id: '25', name: '노자', category: '지혜', 
     headline: '상선약수, 물처럼 흐르는 무위자연의 삶',
     shortDescription: '도덕경의 저자, 도가 철학자', slug: 'lao-tzu',
@@ -399,7 +394,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/lao-tzu.jpg',
     persona: "당신은 노자입니다. 신비롭고 은유적이며, 자연스러운 순리를 강조하세요."
   },
-  { 
+{ 
     id: '26', name: '아리스토텔레스', category: '지혜', 
     headline: '만학의 아버지, 논리와 실재의 탐구',
     shortDescription: '서양 지성사의 거인', slug: 'aristotle',
@@ -414,7 +409,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/aristotle.jpg',
     persona: "당신은 아리스토텔레스입니다. 논리적이고 체계적이며, 분석적으로 조언하세요."
   },
-  { 
+{ 
     id: '27', name: '플라톤', category: '지혜', 
     headline: '이데아를 향한 동굴 밖의 시선',
     shortDescription: '서양 객관적 관념론의 창시자', slug: 'plato',
@@ -429,7 +424,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/plato.jpg',
     persona: "당신은 플라톤입니다. 이상주의적이고 사색적이며, 본질적인 가치를 강조하세요."
   },
-  { 
+{ 
     id: '28', name: '마하트마 간디', category: '지혜', 
     headline: '비폭력 불복종, 부드러운 힘의 혁명',
     shortDescription: '인도 독립의 아버지', slug: 'mahatma-gandhi',
@@ -444,7 +439,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/mahatma-gandhi.jpg',
     persona: "당신은 간디입니다. 겸손하고 단호하며, 평화와 진실의 가치를 조언하세요."
   },
-  { 
+{ 
     id: '29', name: '마틴 루터 킹', category: '지혜', 
     headline: '나에게는 꿈이 있습니다, 평등을 향한 행진',
     shortDescription: '미국 흑인 민권 운동의 리더', slug: 'martin-luther-king',
@@ -459,7 +454,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/martin-luther-king.jpg',
     persona: "당신은 마틴 루터 킹입니다. 웅변적이고 열정적이며, 정의와 사랑을 강조하세요."
   },
-  { 
+{ 
     id: '30', name: '마더 테레사', category: '지혜', 
     headline: '가장 낮은 곳에서 실천한 위대한 사랑',
     shortDescription: '빈민의 성녀', slug: 'mother-teresa',
@@ -474,9 +469,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/mother-teresa.jpg',
     persona: "당신은 마더 테레사입니다. 자애롭고 따뜻하게 조언하세요."
   },
-
-  // 💡 창의 (Creativity) - 10인
-  { 
+{ 
     id: '31', name: '레오나르도 다 빈치', category: '창의', 
     headline: '호기심으로 그린 인류 최고의 상상력',
     shortDescription: '모든 것을 관찰한 천재적 호기심', slug: 'da-vinci',
@@ -491,7 +484,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/da-vinci.jpg',
     persona: "당신은 레오나르도 다 빈치입니다. 호기심 넘치고 융합적으로 조언하세요."
   },
-  { 
+{ 
     id: '32', name: '살바도르 달리', category: '창의', 
     headline: '상상과 현실의 경계를 허문 초현실주의 거장',
     shortDescription: '초현실적인 상상력의 마술사', slug: 'salvador-dali',
@@ -506,7 +499,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/salvador-dali.jpg',
     persona: "당신은 살바도르 달리입니다. 개성 넘치고 상상력을 자극하며 조언하세요."
   },
-  { 
+{ 
     id: '33', name: '코코 샤넬', category: '창의', 
     headline: '자유를 디자인하다, 현대 여성을 위한 혁명',
     shortDescription: '여성의 삶에 자유를 입힌 혁명가', slug: 'coco-chanel',
@@ -521,7 +514,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/coco-chanel.jpg',
     persona: "당신은 코코 샤넬입니다. 당당하고 독립심을 강조하며 조언하세요."
   },
-  { 
+{ 
     id: '34', name: '파블로 피카소', category: '창의', 
     headline: '파괴는 창조의 또 다른 이름',
     shortDescription: '입체파를 창시한 현대 미술의 거장', slug: 'picasso',
@@ -536,7 +529,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/picasso.jpg',
     persona: "당신은 파블로 피카소입니다. 파격적이고 에너지가 넘치며 조언하세요."
   },
-  { 
+{ 
     id: '35', name: '모차르트', category: '창의', 
     headline: '하늘의 소리를 땅으로 옮긴 천재 음악가',
     shortDescription: '클래식 음악의 신동', slug: 'mozart',
@@ -551,7 +544,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/mozart.jpg',
     persona: "당신은 모차르트입니다. 경쾌하고 천재적이며, 예술적 즐거움을 강조하세요."
   },
-  { 
+{ 
     id: '36', name: '윌리엄 셰익스피어', category: '창의', 
     headline: '인간의 영혼을 읽어내는 언어의 마술사',
     shortDescription: '영국이 낳은 세계 최고의 극작가', slug: 'shakespeare',
@@ -566,7 +559,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/shakespeare.jpg',
     persona: "당신은 셰익스피어입니다. 시적이고 통찰력 있으며, 인간 드라마에 대해 조언하세요."
   },
-  { 
+{ 
     id: '37', name: '알베르트 아인슈타인', category: '창의', 
     headline: '상상력이 지식보다 중요하다',
     shortDescription: '상대성 이론을 발견한 물리학자', slug: 'einstein',
@@ -581,7 +574,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/einstein.jpg',
     persona: "당신은 아인슈타인입니다. 겸손하고 호기심 많으며, 창의적 사고를 조언하세요."
   },
-  { 
+{ 
     id: '38', name: '마리 퀴리', category: '창의', 
     headline: '어둠 속에서 빛나는 헌신, 라듐의 발견',
     shortDescription: '최초의 여성 노벨상 2회 수상자', slug: 'marie-curie',
@@ -596,7 +589,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/marie-curie.jpg',
     persona: "당신은 마리 퀴리입니다. 성실하고 강인하며, 과학적 태도에 대해 조언하세요."
   },
-  { 
+{ 
     id: '39', name: '니콜라 테슬라', category: '창의', 
     headline: '전기를 길들인 미래의 설계자',
     shortDescription: '교류 전기를 보급한 발명가', slug: 'tesla',
@@ -611,7 +604,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/tesla.jpg',
     persona: "당신은 니콜라 테슬라입니다. 천재적이고 신비로우며, 혁신적인 비전을 조언하세요."
   },
-  { 
+{ 
     id: '40', name: '빈센트 반 고흐', category: '창의', 
     headline: '슬픔 속에 피어난 별이 빛나는 밤',
     shortDescription: '영혼을 그린 화가', slug: 'van-gogh',
@@ -626,7 +619,7 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/van-gogh.jpg',
     persona: "당신은 빈센트 반 고흐입니다. 감수성이 예민하고 진솔하며, 예술적 열정을 강조합니다."
   },
-  { 
+{ 
     id: '41', name: '에이브러햄 링컨', category: '성취', 
     headline: '분열된 국가를 하나로 묶은 인내와 포용의 리더십',
     shortDescription: '미국 역사상 가장 존경받는 대통령', slug: 'abraham-lincoln',
@@ -641,4 +634,706 @@ export const giantsData: Giant[] = [
     imageUrl: '/images/giants/abraham-lincoln.jpg',
     persona: "당신은 에이브러햄 링컨입니다. 정직하고 인내심 있는 말투로 조언하세요."
   },
+{
+    id: '42',
+    name: "조지 워싱턴",
+    slug: "george-washington",
+    era: "Modern (18th Century)",
+    category: "leadership",
+    quote: "진정한 위대함은 권력을 얻는 능력이 아니라, 그것을 내려놓을 수 있는 절제에서 나옵니다.",
+    shortDescription: "미국 건국의 아버지이자 초대 대통령",
+    lessons: [
+      { title: "자유의 가치", content: "자유는 한 번 잃으면 다시 찾기 힘들며, 오직 깨어있는 시민의 정직한 인내만이 그것을 지킬 수 있습니다." },
+      { title: "권력의 절제", content: "진정한 위대함은 권력을 얻는 능력이 아니라, 그것을 적절한 때에 내려놓을 수 있는 절제에서 나옵니다." },
+      { title: "양심의 나침반", content: "비난이 폭풍처럼 쏟아질 때일수록, 당신의 정직한 양심을 유일한 나침반으로 삼아 묵묵히 나아가십시오." }
+    ],
+    imageUrl: '/images/giants/george-washington.jpg',
+    persona: "당신은 조지 워싱턴입니다. 위엄 있고 정직한 말투로 조언하세요."
+  },
+{
+    id: '43',
+    name: "이순신",
+    slug: "yi-sun-shin",
+    era: "Joseon Dynasty",
+    category: "strategy",
+    quote: "신에게는 아직 열두 척의 배가 남아있사옵니다.",
+    shortDescription: "임진왜란을 승리로 이끈 조선 최고의 명장",
+    lessons: [
+      { title: "희망의 불씨", content: "아직 신에게는 열두 척의 배가 남아있습니다. 절망의 끝에서도 당신이 가진 것을 세어보는 용기를 잃지 마십시오." },
+      { title: "사즉생의 정신", content: "죽고자 하면 살고, 살고자 하면 죽을 것이다. 두려움을 정면으로 마주할 때 비로소 승리의 길이 열립니다." },
+      { title: "내면의 승리", content: "가장 큰 위기는 적의 칼날이 아니라, 내 안의 두려움과 불신입니다. 스스로를 믿고 원칙을 사수하십시오." }
+    ],
+    imageUrl: '/images/giants/yi-sun-shin.jpg',
+    persona: "당신은 이순신 장군입니다. 비장하고 강직한 말투로 조언하세요."
+  },
+{
+    id: '44',
+    name: "엘리자베스 1세",
+    slug: "elizabeth-i",
+    era: "Renaissance",
+    category: "leadership",
+    quote: "나는 연약한 여자의 몸을 가졌으나, 국왕의 심장과 배짱을 가졌습니다.",
+    shortDescription: "영국의 황금 시대를 연 '철의 여인' 여왕",
+    lessons: [
+      { title: "잠재력의 발견", content: "나는 연약한 여자의 몸을 가졌으나, 국왕의 심장과 배짱을 가졌습니다. 당신의 한계는 타인이 정하는 것이 아닙니다." },
+      { title: "소명의 의식", content: "나는 영국과 결혼했습니다. 개인의 행복보다 더 큰 가치를 위해 헌신할 때, 비로소 불멸의 유산을 남길 수 있습니다." },
+      { title: "인내의 미학", content: "성급한 결단보다 깊은 인내가 때로는 수만 명의 군대보다 강력합니다. 때를 기다리는 법을 배우십시오." }
+    ],
+    imageUrl: '/images/giants/elizabeth-i.jpg',
+    persona: "당신은 엘리자베스 1세입니다. 우아하면서도 강단 있는 말투로 조언하세요."
+  },
+{
+    id: '45',
+    name: "광개토대왕",
+    slug: "gwanggaeto",
+    era: "Goguryeo",
+    category: "strategy",
+    quote: "영락(永樂), 고구려의 천하를 선포하노라.",
+    shortDescription: "대륙을 호령한 고구려 최고의 정복 군주",
+    lessons: [
+{ title: "압도적인 자기 확신", content: "\"나와 미치광이의 유일한 차이는, 내가 미치지 않았다는 사실이다.\" 세상이 당신을 이상하다고 손가락질해도, 자신만의 우주를 뻔뻔할 정도로 당당하게 긍정하십시오." }
+    ],
+    imageUrl: '/images/giants/salvador-dali.jpg',
+    persona: "당신은 살바도르 달리입니다. 개성 넘치고 상상력을 자극하며 조언하세요."
+  },
+{
+    id: '46',
+    name: "윈스턴 처칠",
+    slug: "winston-churchill",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "성공은 최종적인 것이 아니며, 실패는 치명적인 것이 아닙니다. 중요한 것은 계속해 나가는 용기입니다.",
+    shortDescription: "제2차 세계대전을 승리로 이끈 영국의 위대한 수상",
+    lessons: [
+      { title: "인내의 가치", content: "성공은 최종적인 것이 아니며, 실패는 치명적인 것이 아닙니다. 중요한 것은 계속해 나가는 용기입니다." },
+      { title: "위기 돌파의 자세", content: "지옥을 통과하고 있다면, 멈추지 말고 계속 가십시오. 고통의 터널 끝에는 반드시 빛이 기다리고 있습니다." },
+      { title: "소통의 힘", content: "연설은 사람의 귀가 아니라 영혼에 닿아야 합니다. 당신의 진실한 목소리가 가장 강력한 무기임을 잊지 마십시오." }
+    ],
+    imageUrl: '/images/giants/winston-churchill.jpg',
+    persona: "당신은 윈스턴 처칠입니다. 재치 있으면서도 강인한 말투로 조언하세요."
+  },
+{
+    id: '47',
+    name: "진시황",
+    slug: "qin-shi-huang",
+    era: "Ancient China",
+    category: "leadership",
+    quote: "천하를 하나로 묶는 것은 칼이 아니라 표준(Standard)입니다.",
+    shortDescription: "중국 최초의 통일 제국을 건설한 철권 통치자",
+    lessons: [
+      { title: "시스템의 구축", content: "천하를 하나로 묶는 것은 칼이 아니라 표준(Standard)입니다. 모두가 동의할 수 있는 질서를 세우는 것이 성공의 시작입니다." },
+      { title: "힘의 한계", content: "공포로 세운 성벽은 높을지언정 민심의 강물을 막을 수는 없습니다. 힘을 가졌을 때 비로소 덕을 생각하십시오." },
+      { title: "고독과 책임", content: "비전이 거대할수록 고독은 깊어지는 법입니다. 당신의 목표가 옳다면, 그 외로움조차 왕관의 무게로 받아들이십시오." }
+    ],
+    imageUrl: '/images/giants/qin-shi-huang.jpg',
+    persona: "당신은 진시황입니다. 위엄 있고 단호한 말투로 조언하세요."
+  },
+{
+    id: '48',
+    name: "아우구스투스",
+    slug: "augustus",
+    era: "Ancient Rome",
+    category: "leadership",
+    quote: "나는 벽돌로 된 로마를 물려받아 대리석으로 된 로마를 남겼다.",
+    shortDescription: "로마 제국의 평화 시대(팍스 로마나)를 연 초대 황제",
+    lessons: [
+      { title: "냉철한 실행력", content: "천천히 서두르십시오(Festina Lente). 급박한 위기일수록 차가운 이성과 치밀한 준비가 당신을 승리로 이끕니다." },
+      { title: "위임의 지혜", content: "내가 모든 일을 할 수는 없습니다. 나보다 뛰어난 인재를 적소에 배치하고 그들을 신뢰하는 것이 최고의 능력입니다." },
+      { title: "내실의 가치", content: "벽돌을 대리석으로 바꾸는 것은 화려한 건축이 아니라, 보이지 않는 곳에서 작동하는 정교한 제도입니다." }
+    ],
+    imageUrl: '/images/giants/augustus.jpg',
+    persona: "당신은 아우구스투스 황제입니다. 침착하고 전략적인 말투로 조언하세요."
+  },
+{
+    id: '49',
+    name: "오토 폰 비스마르크",
+    slug: "otto-von-bismarck",
+    era: "Modern (19th Century)",
+    category: "leadership",
+    quote: "정치는 가능성의 예술입니다.",
+    shortDescription: "독일 제국을 탄생시킨 '철혈 재상'",
+    lessons: [
+      { title: "실용주의적 태도", content: "정치는 가능성의 예술입니다. 이상에 매몰되기보다 지금 당장 내가 할 수 있는 최선의 현실을 선택하십시오." },
+      { title: "외교의 지혜", content: "적을 만들 때는 신중하되, 승리했을 때는 포용하십시오. 오늘의 패배자가 내일의 동맹이 될 수 있습니다." },
+      { title: "힘의 절제", content: "강한 자는 자신의 힘을 과시하지 않습니다. 진정한 힘은 절제된 균형과 정교한 시스템에서 나옵니다." }
+    ],
+    imageUrl: '/images/giants/otto-von-bismarck.jpg',
+    persona: "당신은 비스마르크 재상입니다. 냉철하고 현실적인 말투로 조언하세요."
+  },
+{
+    id: '50',
+    name: "표트르 대제",
+    slug: "peter-the-great",
+    era: "Modern (17th Century)",
+    category: "leadership",
+    quote: "왕관을 쓴 머리보다 굳은살 박인 손이 세상을 더 크게 바꿉니다.",
+    shortDescription: "러시아를 근대 국가로 탈바꿈시킨 혁신적 황제",
+    lessons: [
+      { title: "솔선수범의 가치", content: "왕관을 쓴 머리보다 굳은살 박인 손이 세상을 더 크게 바꿉니다. 진정한 리더십은 현장에서 나옵니다." },
+      { title: "혁신의 결단", content: "과거의 수염(관습)을 자르지 못하면 미래의 바다로 나갈 수 없습니다. 변화는 고통을 동반하는 수술입니다." },
+      { title: "끊임없는 학습", content: "나는 영원히 배우는 학생입니다. 아는 것에 안주하는 순간, 당신의 성장과 국가의 운명은 멈추게 됩니다." }
+    ],
+    imageUrl: '/images/giants/peter-the-great.jpg',
+    persona: "당신은 표트르 대제입니다. 열정적이고 혁신적인 말투로 조언하세요."
+  },
+{
+    id: '51',
+    name: "캐서린 대제",
+    slug: "catherine-the-great",
+    era: "Modern (18th Century)",
+    category: "leadership",
+    quote: "나는 통치하기 위해 태어났습니다. 그러나 그 통치는 힘이 아닌 지혜와 헌신에서 시작되어야 합니다.",
+    shortDescription: "러시아의 전성기를 이끈 계몽 전제 군주",
+    lessons: [
+      { title: "실력의 권위", content: "권위는 주어지는 것이 아니라 실력으로 증명하는 것입니다. 대상을 깊이 공부할 때 진정한 리더십이 생겨납니다." },
+      { title: "준비된 행운", content: "행운은 준비된 마음을 찾아옵니다. 고독한 준비의 시간이 당신의 가장 찬란한 순간을 만드는 밑거름이 됩니다." },
+      { title: "결점의 승화", content: "결점이나 불리한 조건을 탓하지 마십시오. 관점을 바꾸면 그것은 당신만의 독보적인 강점이 될 수 있습니다." }
+    ],
+    imageUrl: '/images/giants/catherine-the-great.jpg',
+    persona: "당신은 캐서린 대제입니다. 우아하고 계몽적인 말투로 지혜를 나누세요."
+  },
+{
+    id: '52',
+    name: "시몬 볼리바르",
+    slug: "simon-bolivar",
+    era: "Modern (19th Century)",
+    category: "leadership",
+    quote: "자유는 거저 주어지는 것이 아니라, 피와 땀으로 쟁취해야 하는 고귀한 열매입니다.",
+    shortDescription: "남미 5개국을 해방시킨 '해방자'",
+    lessons: [
+      { title: "자유의 대가", content: "자유는 거저 주어지는 것이 아니라, 피와 땀으로 쟁취해야 하는 고귀한 열매입니다. 대가 없는 권리는 존재하지 않습니다." },
+      { title: "통합의 중요성", content: "통합하지 않는 자유는 결국 새로운 혼란을 부를 뿐입니다. 서로의 다름을 인정하고 하나의 비전 아래 뭉치십시오." },
+      { title: "인내의 척도", content: "성공은 얼마나 높이 올랐느냐가 아니라, 얼마나 깊은 절망의 바닥에서 다시 튀어 올랐느냐로 측정됩니다." }
+    ],
+    imageUrl: '/images/giants/simon-bolivar.jpg',
+    persona: "당신은 시몬 볼리바르입니다. 열정적이고 헌신적인 말투로 조언하세요."
+  },
+{
+    id: '53',
+    name: "마가렛 대처",
+    slug: "margaret-thatcher",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "생각을 조심하십시오, 그것이 말이 됩니다. 그리고 행동은 결국 당신의 운명이 됩니다.",
+    shortDescription: "영국 경제를 부활시킨 '철의 여인'",
+    lessons: [
+      { title: "생각의 힘", content: "생각을 조심하십시오, 그것이 말이 됩니다. 말을 조심하십시오, 그것이 행동이 됩니다. 그리고 행동은 결국 당신의 운명이 됩니다." },
+      { title: "결단의 원칙", content: "모두가 동의하는 합의만 찾다가는 아무것도 이룰 수 없습니다. 리더는 인기를 얻는 자가 아니라 결정을 내리는 자입니다." },
+      { title: "개인의 책임", content: "사회는 공짜로 주어지는 것이 아닙니다. 각자가 자신의 삶에 책임을 다할 때 비로소 국가라는 공동체는 건강해집니다." }
+    ],
+    imageUrl: '/images/giants/margaret-thatcher.jpg',
+    persona: "당신은 마가렛 대처 수상입니다. 단호하고 원칙적인 말투로 조언하세요."
+  },
+{
+    id: '54',
+    name: "존 D. 록펠러",
+    slug: "john-d-rockefeller",
+    era: "Modern (19th Century)",
+    category: "business",
+    quote: "성공은 남들이 보지 못하는 작은 숫자의 차이에서 시작됩니다.",
+    shortDescription: "현대 기업과 자선 사업의 기틀을 마련한 석유 왕",
+    lessons: [
+      { title: "성실의 힘", content: "성공은 남들이 보지 못하는 작은 숫자의 차이에서 시작됩니다. 철저한 분석과 성실함이 운을 이기는 유일한 길입니다." },
+      { title: "부의 책임", content: "부는 축복이 아니라 책임입니다. 당신에게 주어진 자원을 세상의 고통을 덜어주는 데 사용할 때 비로소 그 돈은 살아납니다." },
+      { title: "내면의 중심", content: "비난은 지나가는 바람이지만, 당신이 세운 업적은 영원한 기록입니다. 외부의 목소리가 아닌 당신의 원칙에 귀를 기울이십시오." }
+    ],
+    imageUrl: '/images/giants/john-d-rockefeller.jpg',
+    persona: "당신은 존 D. 록펠러입니다. 차분하고 효율성을 중시하는 말투로 조언하세요."
+  },
+{
+    id: '55',
+    name: "무스타파 케말 아타튀르크",
+    slug: "mustafa-kemal-ataturk",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "과거의 영광에 갇힌 민족은 미래로 나갈 수 없습니다.",
+    shortDescription: "터키 현대 공화국의 아버지",
+    lessons: [
+      { title: "변화의 결단", content: "과거의 영광에 갇힌 민족은 미래로 나갈 수 없습니다. 낡은 수염을 깎고 새로운 지식의 갑옷을 입으십시오." },
+      { title: "평화의 기초", content: "집 안이 평화로워야 세상이 평화롭습니다. 내면의 안정과 국가의 단결이 모든 외교와 번영의 기초입니다." },
+      { title: "교육의 힘", content: "가장 큰 승리는 전쟁터가 아니라 학교에서 일어납니다. 지식이 무기보다 강력하다는 사실을 잊지 마십시오." }
+    ],
+    imageUrl: '/images/giants/mustafa-kemal-ataturk.jpg',
+    persona: "당신은 아타튀르크입니다. 단호하고 미래 지향적인 말투로 조언하세요."
+  },
+{
+    id: '56',
+    name: "테오도르 루스벨트",
+    slug: "theodore-roosevelt",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "비판하는 사람은 중요하지 않습니다. 진짜 영광은 현장에서 직접 싸우는 자의 몫입니다.",
+    shortDescription: "미국 건국의 정신을 이어받은 역동적인 대통령",
+    lessons: [
+      { title: "투쟁의 가치", content: "비판하는 사람은 중요하지 않습니다. 진짜 영광은 먼지와 땀, 그리고 피로 범벅된 채 경기장에서 직접 싸우는 자의 몫입니다." },
+      { title: "힘의 균형", content: "부드럽게 말하되 큰 몽둥이를 들고 다니십시오. 진정한 힘은 소란스러움이 아니라 준비된 실력과 단호함에서 나옵니다." },
+      { title: "실천의 지혜", content: "지금 당신이 있는 곳에서, 당신이 가진 것을 가지고, 할 수 있는 일을 하십시오. 완벽한 환경은 결코 오지 않습니다." }
+    ],
+    imageUrl: '/images/giants/theodore-roosevelt.jpg',
+    persona: "당신은 테오도르 루스벨트입니다. 활기차고 도전적인 말투로 조언하세요."
+  },
+{
+    id: '57',
+    name: "안네 프랑크",
+    slug: "anne-frank",
+    era: "Modern (20th Century)",
+    category: "arts",
+    quote: "그럼에도 불구하고, 나는 사람들의 마음이 정말로 착하다고 믿습니다.",
+    shortDescription: "절망 속에서도 희망을 기록한 소녀",
+    lessons: [
+      { title: "내면의 등불", content: "당신의 내면이 밝다면 어떤 감옥 같은 상황에서도 타인에게 빛을 줄 수 있습니다. 외부 환경이 아닌 당신의 마음을 먼저 돌보십시오." },
+      { title: "기록의 힘", content: "고뇌가 당신을 짓누를 때 그것을 기록하십시오. 객관화된 고통은 더 이상 당신을 해치지 못하고 성찰의 도구가 됩니다." },
+      { title: "불멸의 긍정", content: "어둠 속에서도 선한 의지를 잃지 마십시오. 당신의 작은 선함이 결국 거대한 어둠을 밝히는 유일한 횃불이 됩니다." }
+    ],
+    imageUrl: '/images/giants/anne-frank.jpg',
+    persona: "당신은 안네 프랑크입니다. 맑고 희망적이며 섬세한 감수성으로 조언하세요."
+  },
+{
+    id: '58',
+    name: "로자 파크스",
+    slug: "rosa-parks",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "내가 거절한 것은 단지 자리를 양보하는 것이 아니라, 불의에 굴복하는 것이었습니다.",
+    shortDescription: "한 번의 거절로 세상을 바꾼 인권 운동의 어머니",
+    lessons: [
+      { title: "존엄의 거절", content: "부당한 요구에 순응하는 것은 영혼을 갉아먹는 일입니다. 작은 일에서부터 당신의 존엄을 지키는 용기를 가지십시오." },
+      { title: "행동하는 용기", content: "두려움은 행동하지 않을 때 커집니다. 정의로운 확신이 있다면 망설이지 말고 첫발을 내디디십시오." },
+      { title: "시대의 공감", content: "개인의 피로보다 시대의 아픔에 공감하십시오. 당신의 작은 불편함이 세상을 치유하는 도구가 될 수 있습니다." }
+    ],
+    imageUrl: '/images/giants/rosa-parks.jpg',
+    persona: "당신은 로자 파크스입니다. 조용하지만 단호하고 위엄 있는 말투로 조언하세요."
+  },
+{
+    id: '59',
+    name: "프레데릭 더글러스",
+    slug: "frederick-douglass",
+    era: "Modern (19th Century)",
+    category: "leadership",
+    quote: "교육은 사람을 노예로 만들 수 없게 합니다.",
+    shortDescription: "스스로 사슬을 끊고 지성으로 무장한 자유의 투사",
+    lessons: [
+      { title: "지식의 해방", content: "당신을 억압하는 환경에서 벗어나는 가장 강력한 무기는 배움입니다. 지식은 누구도 빼앗을 수 없는 당신의 영토입니다." },
+      { title: "천둥과 번개", content: "투쟁 없이는 진보도 없습니다. 비를 원한다면 천둥과 번개 같은 시련을 견뎌내야 합니다." },
+      { title: "마음의 사슬", content: "환경이 당신을 가둘 수 있어도 영혼까지 가두게 두지 마십시오. 스스로를 존엄하게 믿는 순간 해방은 시작됩니다." }
+    ],
+    imageUrl: '/images/giants/frederick-douglass.jpg',
+    persona: "당신은 프레데릭 더글러스입니다. 웅변적이고 지성적이며 강인한 의지가 느껴지는 말투로 조언하세요."
+  },
+{
+    id: '60',
+    name: "해리엇 터브먼",
+    slug: "harriet-tubman",
+    era: "Modern (19th Century)",
+    category: "leadership",
+    quote: "나는 한 번도 내 기차를 탈선시킨 적이 없고, 한 명의 승객도 잃은 적이 없습니다.",
+    shortDescription: "동포들을 자유로 인도한 '흑인들의 모세'",
+    lessons: [
+      { title: "끝까지의 책임", content: "성공의 비결은 완벽한 조건이 아니라 끝까지 책임을 지는 완결성에 있습니다. 당신이 이끄는 사람들을 위해 끝까지 손을 놓지 마십시오." },
+      { title: "비전의 소리", content: "공포의 소리보다 내면에서 울리는 비전의 소리에 집중하십시오. 그러면 어떤 늪지대도 건널 수 있습니다." },
+      { title: "어둠 속의 결단", content: "안락함 속에 머물러서는 결코 변화를 이룰 수 없습니다. 때로는 모든 것을 걸고 어둠 속으로 뛰어드는 결단이 필요합니다." }
+    ],
+    imageUrl: '/images/giants/harriet-tubman.jpg',
+    persona: "당신은 해리엇 터브먼입니다. 헌신적이고 신비로우며 불굴의 용기가 담긴 말투로 조언하세요."
+  },
+{
+    id: '61',
+    name: "오스카 쉰들러",
+    slug: "oskar-schindler",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "한 생명을 구하는 자는 전 세계를 구하는 것입니다.",
+    shortDescription: "죽음의 문턱에서 수많은 생명을 구한 실업가",
+    lessons: [
+      { title: "생명의 가치", content: "단 한 사람에게 최선을 다하는 것이 곧 세상을 바꾸는 시작입니다. 숫자의 크기에 압도되지 마십시오." },
+      { title: "부의 소명", content: "부의 진짜 가치는 소유가 아니라 사용에 있습니다. 타인의 고통을 덜어주는 데 쓰일 때 그 가치는 영원해집니다." },
+      { title: "회개의 결단", content: "정의를 선택하는 데 늦은 때란 없습니다. 잘못된 길에서 즉시 돌아서서 옳은 방향으로 발을 내딛으십시오." }
+    ],
+    imageUrl: '/images/giants/oskar-schindler.jpg',
+    persona: "당신은 오스카 쉰들러입니다. 신중하면서도 따뜻한 인간미가 느껴지는 말투로 조언하세요."
+  },
+{
+    id: '62',
+    name: "플로렌스 나이팅게일",
+    slug: "florence-nightingale",
+    era: "Modern (19th Century)",
+    category: "leadership",
+    quote: "인생은 헌신이지, 단순한 관조가 아닙니다.",
+    shortDescription: "현대 간호학의 기초를 세운 '등불을 든 여인'",
+    lessons: [
+      { title: "현장의 행동", content: "멀리서 지켜보는 것만으로는 아무것도 바꿀 수 없습니다. 문제의 핵심 속으로 뛰어들어 땀 흘릴 때 변화가 시작됩니다." },
+      { title: "진정한 위대함", content: "위대함은 눈에 보이는 화려함이 아닌, 보이지 않는 곳에서 타인을 위해 쏟는 정성과 수고에 있습니다." },
+      { title: "데이터의 힘", content: "열정만으로는 세상을 바꾸기에 부족합니다. 객관적인 사실과 치밀한 준비를 갖출 때 당신의 비전은 힘을 얻습니다." }
+    ],
+    imageUrl: '/images/giants/florence-nightingale.jpg',
+    persona: "당신은 플로렌스 나이팅게일입니다. 냉철한 분석력과 따뜻한 헌신이 공존하는 말투로 조언하세요."
+  },
+{
+    id: '63',
+    name: "유관순",
+    slug: "yu-gwan-sun",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "내 손톱이 빠져나가고 내 귀와 코가 잘려도 그 고통은 이길 수 있으나, 나라를 잃은 고통은 견딜 수가 없습니다.",
+    shortDescription: "꺾이지 않는 독립의 의지를 상징하는 민족의 꽃",
+    lessons: [
+      { title: "공동체의 존엄", content: "개인의 안위보다 공동체의 존엄성을 우선하십시오. 공동체가 바로 서야 당신의 삶도 비로소 의미를 갖습니다." },
+      { title: "자유의 대가", content: "당연하게 누리는 권리 뒤에 숨겨진 희생의 무게를 기억하십시오. 그 소중함을 아는 자만이 자유를 지킬 자격이 있습니다." },
+      { title: "영혼의 방패", content: "외부의 압력이 당신의 환경을 바꿀 수는 있어도 내면의 신념까지 바꿀 수는 없습니다. 당신의 영혼을 끝까지 지키십시오." }
+    ],
+    imageUrl: '/images/giants/yu-gwan-sun.jpg',
+    persona: "당신은 유관순 열사입니다. 소박하면서도 단호하고 강인한 의지가 느껴지는 말투로 조언하세요."
+  },
+{
+    id: '64',
+    name: "루이 브라이유",
+    slug: "louis-braille",
+    era: "Modern (19th Century)",
+    category: "arts",
+    quote: "눈이 보이지 않는다고 해서 마음까지 보이지 않는 것은 아닙니다.",
+    shortDescription: "손끝으로 읽는 빛, 점자를 발명한 소년",
+    lessons: [
+      { title: "내면의 통찰", content: "육체적 한계가 당신의 가능성을 결정하게 두지 마십시오. 당신의 내면에는 더 깊은 통찰의 힘이 숨어 있습니다." },
+      { title: "배움의 자유", content: "배움을 가로막는 장벽이 있다면 그것을 부수고 나갈 길을 스스로 만드십시오. 지식은 당신을 넓은 세상으로 인도합니다." },
+      { title: "단순함의 미학", content: "복잡한 문제일수록 해답은 단순함에 있을 수 있습니다. 핵심을 꿰뚫는 본질에 집중할 때 거대한 변화가 일어납니다." }
+    ],
+    imageUrl: '/images/giants/louis-braille.jpg',
+    persona: "당신은 루이 브라이유입니다. 섬세하고 총명하며 고난을 이겨낸 긍정적인 말투로 조언하세요."
+  },
+{
+    id: '65',
+    name: "잔 다르크",
+    slug: "joan-of-arc",
+    era: "Ancient (15th Century)",
+    category: "leadership",
+    quote: "나는 두렵지 않습니다. 나는 오직 이 일을 하기 위해 태어났기 때문입니다.",
+    shortDescription: "프랑스를 구한 전설적인 전사이자 성녀",
+    lessons: [
+      { title: "소명의 발견", content: "당신의 소명을 발견하는 순간 공포는 사라집니다. 당신이 이 세상에 태어난 진짜 이유를 찾으십시오." },
+      { title: "진실의 용기", content: "세상이 비난하고 오해하더라도 당신 내면의 진실을 포기하지 마십시오. 진정한 승리는 당신의 양심을 지키는 데 있습니다." },
+      { title: "신념의 불꽃", content: "당신의 영향력을 과소평가하지 마십시오. 당신의 진심 어린 행동 하나가 세상을 바꾸는 거대한 물결이 됩니다." }
+    ],
+    imageUrl: '/images/giants/joan-of-arc.jpg',
+    persona: "당신은 잔 다르크입니다. 순수하고 열정적이며 신념에 찬 말투로 조언하세요."
+  },
+{
+    id: '66',
+    name: "데스몬드 투투",
+    slug: "desmond-tutu",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "용서한다는 것은 상대방을 풀어주는 것이 아니라, 당신을 증오의 감옥으로부터 해방시키는 것입니다.",
+    shortDescription: "남아공의 인종 화합을 이끈 평화의 대주교",
+    lessons: [
+      { title: "용기의 목소리", content: "불의를 보고 중립을 지키는 것은 가해자의 편에 서는 것입니다. 당신의 목소리를 내십시오." },
+      { title: "용서의 자유", content: "용서한다는 것은 상대방을 풀어주는 것이 아니라, 당신을 증오의 감옥으로부터 해방시키는 것입니다." },
+      { title: "우분투의 정신", content: "우리는 서로를 필요로 합니다. 당신이 있기에 내가 존재한다는 마음으로 타인과 연대하십시오." }
+    ],
+    imageUrl: '/images/giants/desmond-tutu.jpg',
+    persona: "당신은 데스몬드 투투 대주교입니다. 유머러스하면서도 따뜻하고 평화로운 말투로 조언하세요."
+  },
+{
+    id: '67',
+    name: "엘리 위젤",
+    slug: "elie-wiesel",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "사랑의 반대는 증오가 아니라 무관심입니다.",
+    shortDescription: "홀로코스트의 비극을 증언한 인류의 양심",
+    lessons: [
+      { title: "관심의 책임", content: "사랑의 반대는 증오가 아니라 무관심입니다. 타인의 고통을 외면하지 마십시오." },
+      { title: "기억의 힘", content: "망각은 노예 상태로 이어지지만, 기억은 구원의 길로 우리를 안내합니다. 과거의 아픔을 잊지 마십시오." },
+      { title: "증언의 소명", content: "당신이 살아있는 이유는 누군가의 고통을 증언하기 위함입니다. 소외된 이들을 위한 목소리가 되십시오." }
+    ],
+    imageUrl: '/images/giants/elie-wiesel.jpg',
+    persona: "당신은 엘리 위젤입니다. 서늘한 진실과 깊은 성찰이 담긴 웅변적인 말투로 조언하세요."
+  },
+{
+    id: '68',
+    name: "해리엇 비처 스토",
+    slug: "harriet-beecher-stowe",
+    era: "Modern (19th Century)",
+    category: "leadership",
+    quote: "가장 고통받는 자들의 눈물은 신의 귀에 가장 먼저 닿습니다.",
+    shortDescription: "펜 하나로 노예제의 사슬을 끊은 작가",
+    lessons: [
+      { title: "슬픔의 승화", content: "당신이 겪는 고통은 타인의 고통을 이해하는 가장 예리한 감각이 됩니다. 아픔을 공감의 에너지로 바꾸십시오." },
+      { title: "진실의 문장", content: "세상을 바꾸는 것은 거창한 칼이 아니라, 누군가의 마음을 울리는 진실한 이야기입니다." },
+      { title: "용기의 기회", content: "미래는 용기 있는 자들에게는 기회입니다. 환경을 탓하지 말고 발을 내딛는 용기를 가지십시오." }
+    ],
+    imageUrl: '/images/giants/harriet-beecher-stowe.jpg',
+    persona: "당신은 해리엇 비처 스토입니다. 섬세하고 정의로우며 강한 설득력이 느껴지는 말투로 조언하세요."
+  },
+{
+    id: '69',
+    name: "리고베르타 멘추",
+    slug: "rigoberta-menchu",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "평화는 단순히 전쟁이 없는 상태가 아니라, 모든 사람이 인간으로서 존엄하게 사는 것입니다.",
+    shortDescription: "과테말라 원주민 인권을 수호한 평화의 투사",
+    lessons: [
+      { title: "존엄의 평화", content: "평화는 단순히 전쟁이 없는 상태가 아니라, 모든 사람이 인간으로서 존엄하게 사는 것입니다." },
+      { title: "진실의 목소리", content: "가장 큰 무기는 총이 아니라 진실을 말하는 목소리입니다. 부당함에 맞서 당당히 말하십시오." },
+      { title: "존중의 정원", content: "다름은 차별의 이유가 아니라 풍요로움의 근거입니다. 서로의 다름을 존중할 때 세상은 더 아름다워집니다." }
+    ],
+    imageUrl: '/images/giants/rigoberta-menchu.jpg',
+    persona: "당신은 리고베르타 멘추입니다. 소박하면서도 단호하고 대지의 지혜가 담긴 말투로 조언하세요."
+  },
+{
+    id: '70',
+    name: "테리 폭스",
+    slug: "terry-fox",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "내가 할 수 있는 일은 누군가에게 희망을 주는 것뿐입니다.",
+    shortDescription: "희망의 마라톤으로 암 환자들에게 빛을 준 청년",
+    lessons: [
+      { title: "희망의 목적", content: "삶의 목적을 타인을 향한 기여에 두십시오. 누군가에게 희망이 될 때 고통은 의미 있는 가치가 됩니다." },
+      { title: "오늘의 한 걸음", content: "한 걸음을 더 내디딜 수 있다면 아직 패배한 것이 아닙니다. 오늘 할 수 있는 단 한 걸음의 노력에 집중하십시오." },
+      { title: "의지의 힘", content: "환경이 당신의 소유를 뺏을 수는 있어도 선택까지 뺏을 수는 없습니다. 어떤 상황에서도 희망을 선택하십시오." }
+    ],
+    imageUrl: '/images/giants/terry-fox.jpg',
+    persona: "당신은 테리 폭스입니다. 열정적이고 패기 넘치며 불굴의 의지가 느껴지는 말투로 조언하세요."
+  },
+{
+    id: '71',
+    name: "헬렌 켈러",
+    slug: "helen-keller",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "세상에서 가장 아름다운 것은 눈에 보이지 않으며 귀로 들리지 않습니다. 오직 마음으로만 느낄 수 있습니다.",
+    shortDescription: "어둠과 정적을 뚫고 지식의 빛을 전한 인권 투사",
+    lessons: [
+      { title: "마음의 눈", content: "가장 아름다운 가치는 마음으로만 볼 수 있습니다. 겉모습에 현혹되지 말고 내면의 진실을 발견하십시오." },
+      { title: "희망의 문", content: "행복의 문이 닫히면 다른 문이 열립니다. 상실에 매몰되지 말고 새로운 가능성의 문을 찾으십시오." },
+      { title: "최선의 기적", content: "당신이 할 수 있는 최선을 다할 때 인생의 기적이 시작됩니다. 결과보다 과정의 진심에 집중하십시오." }
+    ],
+    imageUrl: '/images/giants/helen-keller.jpg',
+    persona: "당신은 헬렌 켈러입니다. 평온하면서도 내면의 강인함이 느껴지는 말투로 지혜를 나누세요."
+  },
+{
+    id: '72',
+    name: "스티븐 호킹",
+    slug: "stephen-hawking",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "발바닥만 내려다보지 말고 별들을 올려다보십시오.",
+    shortDescription: "휠체어에 앉아 우주의 신비를 파헤친 천재 물리학자",
+    lessons: [
+      { title: "별의 비전", content: "발바닥만 보지 말고 별을 보십시오. 호기심을 가질 때 당신의 영혼은 육체의 한계를 뛰어넘습니다." },
+      { title: "변화의 지능", content: "지능이란 변화에 적응하는 능력입니다. 예기치 못한 시련이 닥칠 때 삶을 유연하게 재설계하십시오." },
+      { title: "불멸의 의지", content: "할 수 있는 일은 언제나 반드시 있습니다. 잃어버린 것을 한탄하기보다 남은 것에 집중하십시오." }
+    ],
+    imageUrl: '/images/giants/stephen-hawking.jpg',
+    persona: "당신은 스티븐 호킹입니다. 위트 있고 명료하며 우주적 통찰이 담긴 말투로 조언하세요."
+  },
+{
+    id: '73',
+    name: "크리스토퍼 리브",
+    slug: "christopher-reeve",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "영웅이란 압도적인 역경 속에서도 굴하지 않고 인내하며 버텨낼 힘을 찾아내는 평범한 개인입니다.",
+    shortDescription: "절망을 딛고 일어난 우리 시대의 진정한 슈퍼맨",
+    lessons: [
+      { title: "평범한 영웅", content: "영웅은 특별한 사람이 아니라, 역경 속에서도 인내하며 버텨낼 힘을 찾아내는 당신 자신입니다." },
+      { title: "의지의 현실", content: "불가능은 의지를 갖는 순간 피할 수 없는 현실이 됩니다. 불가능이라는 단어에 속지 마십시오." },
+      { title: "남겨진 감사", content: "상실보다 남겨진 것에 감사하십시오. 당신 곁의 사랑과 내면의 의지를 발견하고 동력으로 삼으십시오." }
+    ],
+    imageUrl: '/images/giants/christopher-reeve.jpg',
+    persona: "당신은 크리스토퍼 리브입니다. 부드러우면서도 단호하고 희망을 불어넣는 말투로 조언하세요."
+  },
+{
+    id: '74',
+    name: "닉 부이치치",
+    slug: "nick-vujicic",
+    era: "Modern (21st Century)",
+    category: "leadership",
+    quote: "100번 넘어진다면 100번 다시 일어나십시오.",
+    shortDescription: "팔다리 없는 한계를 극복한 행복 전도사",
+    lessons: [
+      { title: "존재의 목적", content: "부족함에 집중하지 마십시오. 당신이 태어난 고유한 이유를 발견할 때 결점은 특별한 개성이 됩니다." },
+      { title: "다시 일어설 힘", content: "일어나는 것을 포기할 때만 실패가 됩니다. 실패는 다음 단계로 도약하기 위한 소중한 경험입니다." },
+      { title: "고유한 빛", content: "당신은 있는 모습 그대로 충분히 소중합니다. 타인의 기준에 맞추지 말고 당신만의 빛을 당당히 드러내십시오." }
+    ],
+    imageUrl: '/images/giants/nick-vujicic.jpg',
+    persona: "당신은 닉 부이치치입니다. 에너지가 넘치고 밝으며 진심 어린 격려를 전하는 말투로 조언하세요."
+  },
+{
+    id: '75',
+    name: "마리 퀴리",
+    slug: "marie-curie",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "인생에서 두려워할 것은 아무것도 없습니다. 다만 이해해야 할 것이 있을 뿐입니다.",
+    shortDescription: "여성 최초의 노벨상 수상자이자 위대한 과학 정신의 상징",
+    lessons: [
+      { title: "공포의 지식", content: "인생에서 두려워할 것은 없습니다. 이해해야 할 뿐입니다. 공포를 지식과 탐구의 열정으로 바꾸십시오." },
+      { title: "공익의 성취", content: "당신의 성취가 사적인 이익이 아닌 공익을 향하게 하십시오. 나눔을 실천할 때 당신의 업적은 영원해집니다." },
+      { title: "재능의 발견", content: "당신만의 고유한 강점을 믿으십시오. 재능을 찾아내어 기필코 끝까지 밀어붙이는 집요함이 필요합니다." }
+    ],
+    imageUrl: '/images/giants/marie-curie.jpg',
+    persona: "당신은 마리 퀴리입니다. 차분하고 학구적이며 강직한 의지가 느껴지는 말투로 조언하세요."
+  },
+{
+    id: '76',
+    name: "루이 파스퇴르",
+    slug: "louis-pasteur",
+    era: "Modern (19th Century)",
+    category: "leadership",
+    quote: "관찰의 영역에서 기회는 오직 준비된 마음만을 돕습니다.",
+    shortDescription: "질병의 미생물 이론을 정립한 현대 의학의 아버지",
+    lessons: [
+      { title: "준비된 기회", content: "행운은 우연히 오는 것이 아닙니다. 끊임없이 탐구하고 준비하는 사람만이 기회를 기적으로 바꿀 수 있습니다." },
+      { title: "지식의 소명", content: "과학에는 국경이 없지만 과학자에게는 조국과 인류라는 조국이 있습니다. 지식을 공익을 위해 사용하십시오." },
+      { title: "불굴의 집념", content: "운명은 노력하는 자를 비웃지 않습니다. 실패하더라도 완벽한 결과가 나올 때까지 다시 시작할 용기를 가지십시오." }
+    ],
+    imageUrl: '/images/giants/louis-pasteur.jpg',
+    persona: "당신은 루이 파스퇴르입니다. 엄격하면서도 신중하고 열정적인 말투로 조언하세요."
+  },
+{
+    id: '77',
+    name: "알렉산더 플레밍",
+    slug: "alexander-fleming",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "자연이 준 선물은 전 인류의 것입이다.",
+    shortDescription: "최초의 항생제 페니실린을 발견한 생명의 수호자",
+    lessons: [
+      { title: "발견의 열린 마음", content: "계획하지 않은 실수가 가장 위대한 발견으로 인도할 수 있습니다. 예기치 못한 상황에서도 기회를 찾으십시오." },
+      { title: "무소유의 공유", content: "재능이나 성취가 당신만의 것이라 생각하지 마십시오. 세상과 공유할 때 당신의 가치는 비로소 영원해집니다." },
+      { title: "준비된 관찰", content: "준비되지 않은 사람에게 우연은 지나가는 바람일 뿐입니다. 기회를 잡을 수 있도록 평소에 실력을 닦으십시오." }
+    ],
+    imageUrl: '/images/giants/alexander-fleming.jpg',
+    persona: "당신은 알렉산더 플레밍입니다. 겸손하고 세심하며 학구적인 말투로 조언하세요."
+  },
+{
+    id: '78',
+    name: "조너스 소크",
+    slug: "jonas-salk",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "태양에도 특허를 낼 수 있습니까?",
+    shortDescription: "소아마비 백신 특허를 포기하고 인류를 구원한 과학자",
+    lessons: [
+      { title: "지식의 공공성", content: "생명을 살리는 지식은 공유되어야 합니다. 당신의 기술이 사적인 이익보다 공공의 이익을 향하게 하십시오." },
+      { title: "성공의 책임", content: "성공의 진정한 보상은 더 많은 책임을 질 수 있는 기회를 얻는 것입니다. 낮은 곳의 고통을 덜어주는 데 힘쓰십시오." },
+      { title: "미래를 위한 유산", content: "우리는 우리 아이들의 조상입니다. 미래 세대를 위해 도덕적 모범과 지속 가능한 가치를 남기십시오." }
+    ],
+    imageUrl: '/images/giants/jonas-salk.jpg',
+    persona: "당신은 조너스 소크입니다. 자비롭고 강직하며 도덕적인 신념이 느껴지는 말투로 조언하세요."
+  },
+{
+    id: '79',
+    name: "에드워드 제너",
+    slug: "edward-jenner",
+    era: "Modern (18th Century)",
+    category: "leadership",
+    quote: "가장 위대한 의술은 병이 생기지 않도록 미리 막는 것입니다.",
+    shortDescription: "종두법을 통해 천연두를 박멸한 예방 의학의 선구자",
+    lessons: [
+      { title: "현장의 진리", content: "거창한 이론보다 실질적인 경험 속에 진리가 있습니다. 주변의 작은 징후들을 세심히 관찰하고 해답을 찾으십시오." },
+      { title: "신념의 침묵", content: "신념이 있다면 세상의 비웃음을 두려워하지 마십시오. 당신의 길이 옳다면 비난에 흔들리지 말고 묵묵히 나아가십시오." },
+      { title: "예방의 지혜", content: "문제가 터진 후 해결하기보다 미리 원인을 찾아 예방하십시오. 선제적인 대응이 가장 효율적인 해결책입니다." }
+    ],
+    imageUrl: '/images/giants/edward-jenner.jpg',
+    persona: "당신은 에드워드 제너입니다. 소박하고 끈기 있으며 인내심 있는 말투로 조언하세요."
+  },
+{
+    id: '80',
+    name: "찰스 다윈",
+    slug: "charles-darwin",
+    era: "Modern (19th Century)",
+    category: "leadership",
+    quote: "살아남는 종은 가장 강한 종도 아니라, 변화에 가장 잘 적응하는 종입니다.",
+    shortDescription: "진화론을 통해 생명의 근원을 파헤친 지적 혁명가",
+    lessons: [
+      { title: "변화의 적응", content: "강함에 안주하지 마십시오. 세상의 흐름을 읽고 유연하게 자신을 변화시키는 능력이 최고의 생존 전략입니다." },
+      { title: "시도의 가치", content: "결코 틀리지 않는 사람은 아무것도 시도하지 않는 사람뿐입니다. 실수를 두려워하지 말고 실험하고 배우십시오." },
+      { title: "연결의 겸손", content: "모든 생명은 연결되어 있습니다. 자연의 일부로서 당신의 존재를 겸손하게 받아들이고 조화를 이루십시오." }
+    ],
+    imageUrl: '/images/giants/charles-darwin.jpg',
+    persona: "당신은 찰스 다윈입니다. 신중하고 객관적이며 깊은 통찰력이 느껴지는 말투로 조언하세요."
+  },
+{
+    id: '81',
+    name: "시몬 볼리바르",
+    slug: "simon-bolivar",
+    era: "Modern (19th Century)",
+    category: "leadership",
+    quote: "성공은 얼마나 높이 올랐느냐가 아니라, 얼마나 깊은 절망의 바닥에서 다시 튀어 올랐느냐로 측정됩니다.",
+    shortDescription: "남미 대륙의 5개국을 해방시킨 '해방자'",
+    lessons: [
+      { title: "자유의 열매", content: "자유는 거저 주어지는 것이 아니라 피와 땀으로 쟁취해야 하는 고귀한 열매입니다." },
+      { title: "통합의 힘", content: "서로의 다름을 인정하고 하나의 비전 아래 뭉치십시오. 분열된 힘은 쉽게 무너집니다." },
+      { title: "절망의 도약", content: "바닥을 쳤을 때 다시 솟구치는 탄력성이 당신을 거인으로 만듭니다." }
+    ],
+    imageUrl: '/images/giants/simon-bolivar.jpg',
+    persona: "당신은 시몬 볼리바르입니다. 위엄 있고 열정적이며 대륙을 품는 웅대한 말투로 조언하세요."
+  },
+{
+    id: '82',
+    name: "마가렛 대처",
+    slug: "margaret-thatcher",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "생각을 조심하십시오, 그것이 말이 됩니다. 행동은 결국 당신의 운명이 됩니다.",
+    shortDescription: "영국 경제를 부활시킨 '철의 여인'",
+    lessons: [
+      { title: "생각과 운명", content: "당신의 운명은 매일 반복되는 사소한 생각과 습관이 쌓여 만들어지는 필연적인 결과입니다." },
+      { title: "리더의 결정", content: "리더는 인기를 얻는 자가 아니라 결정을 내리는 자입니다. 비난을 감수하더라도 미래를 위한 선택을 하십시오." },
+      { title: "자립의 사회", content: "진정한 번영은 의존이 아닌 자립에서 나옵니다. 스스로의 운명을 책임지는 개인이 되십시오." }
+    ],
+    imageUrl: '/images/giants/margaret-thatcher.jpg',
+    persona: "당신은 마가렛 대처입니다. 단호하고 논리적이며 원칙을 중시하는 강철 같은 말투로 조언하세요."
+  },
+{
+    id: '83',
+    name: "존 D. 록펠러",
+    slug: "john-d-rockefeller",
+    era: "Modern (19th Century)",
+    category: "business",
+    quote: "부는 축복이 아니라 책임입니다.",
+    shortDescription: "세계 최초의 억만장자이자 위대한 기부왕",
+    lessons: [
+      { title: "분석과 성실", content: "성공은 남들이 보지 못하는 작은 숫자의 차이에서 시작됩니다. 철저한 분석과 성실함이 운을 이깁니다." },
+      { title: "부의 책임", content: "부는 축복이 아니라 책임입니다. 주어진 자원을 세상의 고통을 덜어주는 데 사용하십시오." },
+      { title: "원칙의 힘", content: "세상의 평가에 일희일비하지 마십시오. 당신의 원칙이 확고하다면 시간은 결국 당신의 편이 될 것입니다." }
+    ],
+    imageUrl: '/images/giants/john-d-rockefeller.jpg',
+    persona: "당신은 존 D. 록펠러입니다. 침착하고 신중하며 겸손하고 절제된 말투로 조언하세요."
+  },
+{
+    id: '84',
+    name: "무스타파 케말 아타튀르크",
+    slug: "mustafa-kemal-ataturk",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "가장 큰 승리는 전쟁터가 아니라 학교에서 일어납니다.",
+    shortDescription: "현대 터키 공화국을 세운 국부",
+    lessons: [
+      { title: "미래의 개혁", content: "전통이 성장을 가로막는 족쇄가 된다면 과감히 그것을 깨부수어야 합니다. 변화를 두려워하지 마십시오." },
+      { title: "내부의 평화", content: "집 안이 평화로워야 세상이 평화롭습니다. 내면의 안정과 조화가 모든 번영의 기초입니다." },
+      { title: "지식의 승리", content: "일시적인 무력은 영토를 지키지만, 영원한 문명은 교육을 통해 세워집니다. 배움을 멈추지 마십시오." }
+    ],
+    imageUrl: '/images/giants/mustafa-kemal-ataturk.jpg',
+    persona: "당신은 무스타파 케말 아타튀르크입니다. 단호하고 실용적이며 혁명적인 리더의 말투로 조언하세요."
+  },
+{
+    id: '85',
+    name: "테오도르 루스벨트",
+    slug: "theodore-roosevelt",
+    era: "Modern (20th Century)",
+    category: "leadership",
+    quote: "지금 당신이 있는 곳에서, 당신이 가진 것을 가지고, 할 수 있는 일을 하십시오.",
+    shortDescription: "미국의 위상을 세계로 끌어올린 역동적인 리더",
+    lessons: [
+      { title: "경기장의 투사", content: "영광은 먼지와 땀으로 범벅된 채 현장에서 직접 싸우는 자의 몫입니다. 구경꾼이 되지 마십시오." },
+      { title: "실력과 단호함", content: "태도는 겸손하게 유지하되, 내면의 실력과 원칙은 누구도 넘볼 수 없을 만큼 강력하게 무장하십시오." },
+      { title: "실행의 시작", content: "완벽한 환경은 결코 오지 않습니다. 지금 당신이 있는 곳에서 할 수 있는 작은 일부터 실행하십시오." }
+    ],
+    imageUrl: '/images/giants/theodore-roosevelt.jpg',
+    persona: "당신은 테오도르 루스벨트입니다. 에너지가 넘치고 거칠면서도 용기를 북돋워 주는 말투로 조언하세요."
+  }
 ];

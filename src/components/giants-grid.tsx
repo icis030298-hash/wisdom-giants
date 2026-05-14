@@ -30,10 +30,19 @@ export function GiantsGrid({}: GiantsGridProps) {
       if (!searchQuery) return true
 
       const query = searchQuery.toLowerCase()
-      // Use translation hook only once per field
-      const name = tg(`${giant.id}.name`).toLowerCase()
-      const headline = tg(`${giant.id}.headline`).toLowerCase()
-      const desc = tg(`${giant.id}.shortDescription`).toLowerCase()
+
+      // Helper for search with fallback
+      const getT = (key: string, fallback: string) => {
+        const translated = tg(key)
+        if (translated.includes(`${giant.id}.`) || translated === `Giants.${giant.id}.${key.split('.').pop()}`) {
+          return fallback
+        }
+        return translated
+      }
+
+      const name = getT(`${giant.id}.name`, giant.name).toLowerCase()
+      const headline = getT(`${giant.id}.headline`, giant.title).toLowerCase()
+      const desc = getT(`${giant.id}.shortDescription`, giant.description).toLowerCase()
 
       return (
         name.includes(query) ||
@@ -156,11 +165,17 @@ export function GiantsGrid({}: GiantsGridProps) {
                 
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-3">
-                    <h3 className="font-serif text-lg font-semibold text-foreground">{tg(`${giant.id}.name`)}</h3>
+                    <h3 className="font-serif text-lg font-semibold text-foreground">
+                      {tg(`${giant.id}.name`).includes(`${giant.id}.`) ? giant.name : tg(`${giant.id}.name`)}
+                    </h3>
                     <span className="text-xs text-muted-foreground">{giant.era}</span>
                   </div>
-                  <p className="text-sm text-amber-400/80">{tg(`${giant.id}.headline`)}</p>
-                  <p className="text-sm text-muted-foreground mt-1 line-clamp-1">{tg(`${giant.id}.shortDescription`)}</p>
+                  <p className="text-sm text-amber-400/80">
+                    {tg(`${giant.id}.headline`).includes(`${giant.id}.`) ? giant.title : tg(`${giant.id}.headline`)}
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-1 line-clamp-1">
+                    {tg(`${giant.id}.shortDescription`).includes(`${giant.id}.`) ? giant.description : tg(`${giant.id}.shortDescription`)}
+                  </p>
                 </div>
                 
                 <span className="hidden md:inline-block px-3 py-1 text-xs rounded-full bg-amber-500/10 text-amber-300/80 border border-amber-500/20 shrink-0">

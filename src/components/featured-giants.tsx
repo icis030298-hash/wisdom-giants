@@ -15,6 +15,15 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
   const t = useTranslations("Featured")
   const tg = useTranslations("Giants")
   const tc = useTranslations("GiantsGrid")
+
+  // Helper to get translated text with fallback
+  const getT = (giant: Giant, key: string, fallback: string) => {
+    const translated = tg(`${giant.id}.${key}`)
+    if (translated.includes(`${giant.id}.`) || translated === `Giants.${giant.id}.${key}`) {
+      return fallback
+    }
+    return translated
+  }
   
   // Daily rotating logic
   const featured = useMemo(() => {
@@ -72,7 +81,7 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
             <div className="absolute inset-0 z-0 bg-muted">
               <Image 
                 src={featured[0].imageUrl} 
-                alt={tg(`${featured[0].id}.name`)}
+                alt={getT(featured[0], "name", featured[0].name)}
                 fill
                 className="object-cover object-top opacity-20 group-hover:opacity-40 transition-all duration-1000 group-hover:scale-105"
                 priority
@@ -88,9 +97,9 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
                   {t("bestPick")}
                 </span>
                 <h3 className="font-serif text-4xl md:text-5xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-3 leading-tight">
-                  {tg(`${featured[0].id}.name`)}
+                  {getT(featured[0], "name", featured[0].name)}
                 </h3>
-                <p className="text-amber-400/90 text-xl font-medium tracking-tight italic">{tg(`${featured[0].id}.headline`)}</p>
+                <p className="text-amber-400/90 text-xl font-medium tracking-tight italic">{getT(featured[0], "headline", featured[0].title)}</p>
               </div>
               
               <div className="max-w-md">
@@ -108,7 +117,7 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
                 <div className="flex items-start gap-3 p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
                   <Quote className="w-5 h-5 text-amber-400/40 shrink-0 mt-1" />
                   <p className="text-base leading-relaxed text-foreground/90 font-light italic">
-                    &ldquo;{tg(`${featured[0].id}.quote`)}&rdquo;
+                    &ldquo;{getT(featured[0], "quote", featured[0].quote)}&rdquo;
                   </p>
                 </div>
               </div>
@@ -127,16 +136,16 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
               <div className="flex-1">
                 <div className="text-[10px] font-bold text-amber-400/60 uppercase tracking-[0.2em] mb-3">{t("todaysPick")}</div>
                 <h3 className="font-serif text-2xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-2">
-                  {tg(`${featured[1].id}.name`)}
+                  {getT(featured[1], "name", featured[1].name)}
                 </h3>
                 <p className="text-sm text-muted-foreground/80 line-clamp-2 font-light leading-relaxed">
-                  {tg(`${featured[1].id}.shortDescription`)}
+                  {getT(featured[1], "shortDescription", featured[1].description)}
                 </p>
               </div>
               <div className="relative w-28 h-28 rounded-2xl overflow-hidden shrink-0 ring-4 ring-amber-500/5 group-hover:ring-amber-500/20 transition-all duration-500 bg-muted">
                 <Image 
                   src={featured[1].imageUrl} 
-                  alt={tg(`${featured[1].id}.name`)}
+                  alt={getT(featured[1], "name", featured[1].name)}
                   fill
                   className="object-cover object-top group-hover:scale-110 transition-transform duration-700"
                 />
@@ -157,7 +166,7 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
                 <div className="relative w-16 h-16 rounded-2xl overflow-hidden mb-6 ring-2 ring-amber-500/10 group-hover:ring-amber-500/30 transition-all duration-500 bg-muted">
                   <Image 
                     src={giant.imageUrl} 
-                    alt={tg(`${giant.id}.name`)}
+                    alt={getT(giant, "name", giant.name)}
                     fill
                     className="object-cover object-top"
                     unoptimized={true}
@@ -165,7 +174,7 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
                 </div>
                 
                 <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-1">
-                  {tg(`${giant.id}.name`)}
+                  {getT(giant, "name", giant.name)}
                 </h3>
                 <p className="text-xs text-muted-foreground/60 font-medium tracking-tight">{tc("era")}</p>
                 
@@ -181,3 +190,4 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
     </section>
   )
 }
+

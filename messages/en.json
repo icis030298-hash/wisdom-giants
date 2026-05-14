@@ -72,17 +72,22 @@
   "GiantDetail": {
     "returnToSquare": "Return to the Square",
     "chatWith": "Chat with {name}",
-    "pain": "The Pain",
-    "recovery": "The Recovery",
-    "lessons": "Lessons",
+    "theLifeStory": "The Life Story",
+    "thePain": "The Struggle",
+    "theRecovery": "The Recovery",
+    "wisdomLessons": "Wisdom Lessons",
+    "famousQuote": "Famous Quote",
+    "era": "Era",
+    "field": "Field",
+    "askForAdvice": "Ask for Advice",
     "notFound": "Giant not found.",
     "goHome": "Back to Home"
   },
   "Giants": {
     "steve-jobs": {
       "name": "Steve Jobs",
-      "headline": "The Return of the Prodigal Visionary",
-      "shortDescription": "The Icon of Innovation Who Dared to Think Different",
+      "headline": "The Icon of Innovation",
+      "shortDescription": "The visionary who dared to think different.",
       "pain": "Imagine building a world-changing empire from your parents' garage, only to be publicly fired from it at the age of 30. In 1985, Steve Jobs faced a crushing humiliation that would have broken most. The very identity he had forged was stripped away, leaving him a \"public failure.\" He felt he had let the previous generation of entrepreneurs down, wandering in a wilderness of doubt for months, wondering if his best days were already behind him.",
       "recovery": "Yet, in the silence of his exile, Jobs realized he still loved his craft. This period of being a \"beginner\" again fueled a creative explosion, leading him to found NeXT and Pixar. When Apple eventually bought NeXT, Jobs returned to a dying company and transformed it into the most valuable entity on earth. He didn't just build gadgets; he built tools for the human spirit, proving that the most bitter medicine is often exactly what you need to heal and reinvent yourself.",
       "lessons": [
@@ -95,7 +100,7 @@
           "content": "You cannot connect the dots looking forward; you can only connect them looking backward."
         }
       ],
-      "quote": "Stay Hungry, Stay Foolish.\nThe journey itself is the reward.",
+      "quote": "Stay Hungry, Stay Foolish.",
       "persona": "You are Steve Jobs. Give direct and insightful advice.",
       "chatGreeting": "Greetings, traveler from the future. I am Steve Jobs. As a The Icon of Innovation Who Dared to Think Different, I am ready to lend an ear to your troubles. What wisdom do you seek?",
       "suggestedQuestions": [
@@ -163,7 +168,7 @@
     "elon-musk": {
       "name": "Elon Musk",
       "headline": "The Architect of the Impossible",
-      "shortDescription": "The Audacious Dreamer Pushing Humanity to the Stars",
+      "shortDescription": "A bold dreamer pushing the boundaries of technology.",
       "quote": "Failure is an option here. If things are not failing, you are not innovating enough.",
       "pain": "In 2008, Elon Musk was on the brink of a total mental and financial collapse. Both SpaceX and Tesla were failing. Three rocket launches had ended in explosions, and the global financial crisis was strangling his remaining capital. He was forced to borrow money from friends just to pay rent, while the media gleefully predicted his downfall. He faced the very real possibility that his dreams of electric cars and Mars would die in a pile of ash and debt.",
       "recovery": "With the weight of the world on his shoulders, Musk pushed for one final, desperate launch. It succeeded. That single victory unlocked the funding that saved both companies. Today, he has revolutionized the space industry, accelerated the global transition to sustainable energy, and pushed the boundaries of brain-computer interfaces. His life is a testament to the fact that when something is important enough, you do it even if the odds are not in your favor.",
@@ -431,36 +436,27 @@
       "era": "Historical Giant"
     },
     "jk-rowling": {
-      "name": "J.K. Rowling",
-      "headline": "J.K. Rowling: The Storyteller Who Found Magic in the Dark",
-      "shortDescription": "The Creator of Harry Potter and a New World",
-      "quote": "Rock bottom became the solid foundation on which I rebuilt my life.",
-      "pain": "In the early 1990s, Joanne Rowling was a single mother living on state benefits in a cold apartment. She was mourning the death of her mother, dealing with a failed marriage, and struggling with clinical depression. She saw herself as a \"spectacular failure,\" fearing she would never be able to provide for her daughter. She spent her days in cafes, writing on scraps of paper while her baby slept, with the shadow of poverty looming over every page.",
-      "recovery": "That shadow became the Dementors, and her love for her daughter became the protection of Lily Potter. She didn't let the 12 rejections from publishers stop her. When Harry Potter finally hit the shelves, it didn't just change her life; it changed the world, re-teaching an entire generation how to read and believe in magic. She proved that rock bottom can be the \"solid foundation\" on which to rebuild a life, and that stories can save us.",
-      "persona": "You are J.K. Rowling. Advise with sensitivity and a sense of magic.",
-      "lessons": [
-        {
-          "title": "The Necessity of Failure",
-          "content": "Failure allows you to strip away the inessential and focus on what truly matters."
-        },
-        {
-          "title": "Persistence",
-          "content": "Rejection is just a detour, not a dead end."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am J.K. Rowling. As a The Creator of Harry Potter and a New World, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "name": "Jk Rowling",
+      "headline": "Jk Rowling: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Jk Rowling. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Jk Rowling. How can I assist you today?",
       "suggestedQuestions": [
         "What was your greatest achievement?",
         "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
+        "How did you overcome your greatest challenge?",
         "What is the secret to a successful life?"
       ],
       "era": "Historical Giant"
     },
     "nelson-mandela": {
       "name": "Nelson Mandela",
-      "headline": "Nelson Mandela: The Prisoner Who Became a Peacemaker",
-      "shortDescription": "The Father of a New South Africa",
+      "headline": "The Father of a New South Africa",
+      "shortDescription": "A leader who fought against apartheid and for reconciliation.",
       "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
       "pain": "Nelson Mandela spent 27 years in a cramped prison cell, much of it doing hard labor in a quarry that damaged his eyes. He was separated from his family and witnessed the brutal oppression of his people under Apartheid. He was a man with every reason to be consumed by hatred. He spent the best years of his life in a cage, watching the world move on while he remained a prisoner of a system that tried to erase his dignity and his name.",
       "recovery": "When Mandela finally walked free, he didn't emerge with a sword, but with an olive branch. He chose forgiveness over retribution, leading South Africa through a peaceful transition to democracy as its first black president. He sat down with his former captors to build a \"Rainbow Nation,\" proving that the greatest glory is not in never falling, but in rising every time we fall. He showed the world that a heart that can forgive is more powerful than any army.",
@@ -593,28 +589,19 @@
       "era": "Historical Giant"
     },
     "franklin-roosevelt": {
-      "name": "Franklin D. Roosevelt",
-      "headline": "Franklin D. Roosevelt: The Leader Who Led from a Chair",
-      "shortDescription": "The Longest-serving US President Who Healed a Nation",
-      "quote": "The only thing we have to fear is fear itself.",
-      "pain": "In 1921, FDR was struck by polio. Overnight, the athletic and ambitious man lost the use of his legs. He faced a world that viewed physical disability as a mark of weakness. He spent years in agonizing rehabilitation, hiding his struggle from the public, fearing that if the American people saw him \"broken,\" they would never trust him to lead a nation in crisis.",
-      "recovery": "FDR transformed his personal suffering into national empathy. His struggle gave him the resilience needed to lead the U.S. through the Great Depression and World War II. He used his \"Fireside Chats\" to soothe a panicked nation, famously declaring that \"the only thing we have to fear is fear itself.\" He led the free world while never taking an unassisted step, proving that strength is a matter of spirit.",
-      "persona": "You are Franklin D. Roosevelt. Advise with confidence, resilience, and a focus on overcoming fear.",
-      "lessons": [
-        {
-          "title": "Facing Fear",
-          "content": "Confront your internal demons so you can lead others through their external ones."
-        },
-        {
-          "title": "Empathy through Adversity",
-          "content": "Personal struggle is the best teacher for understanding the struggles of others."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Franklin D. Roosevelt. As a The Longest-serving US President Who Healed a Nation, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "name": "Franklin Roosevelt",
+      "headline": "Franklin Roosevelt: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Franklin Roosevelt. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Franklin Roosevelt. How can I assist you today?",
       "suggestedQuestions": [
         "What was your greatest achievement?",
         "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
+        "How did you overcome your greatest challenge?",
         "What is the secret to a successful life?"
       ],
       "era": "Historical Giant"
@@ -810,8 +797,8 @@
     },
     "mahatma-gandhi": {
       "name": "Mahatma Gandhi",
-      "headline": "Mahatma Gandhi: The Soul that Defeated an Empire",
-      "shortDescription": "The Father of Non-Violent Resistance",
+      "headline": "The Father of Non-Violent Resistance",
+      "shortDescription": "A leader who led India to independence through peace.",
       "quote": "Be the change that you wish to see in the world.",
       "pain": "Gandhi's life changed when he was thrown off a train in South Africa for being a person of color in a first-class carriage. This moment of humiliation revealed the systemic violence of the world. Later, in India, he faced the agonizing pain of seeing his country divided by religious hatred and bloodletting. He often felt a deep sense of failure as he watched his followers resort to violence, leading him to undertake life-threatening fasts to beg for peace in a world gone mad.",
       "recovery": "Gandhi forged a weapon more powerful than any gun: Satyagraha, or truth-force. He led the Salt March, walking 240 miles to the sea to defy British rule with a simple gesture of picking up salt. His non-violent resistance inspired millions and eventually brought the British Empire to its knees without firing a single shot. He proved that a small body, driven by a great spirit, can change the course of history and that peace is the only way to a lasting victory.",
@@ -837,35 +824,26 @@
     },
     "martin-luther-king": {
       "name": "Martin Luther King Jr.",
-      "headline": "Martin Luther King Jr.: The Dreamer of Equality",
-      "shortDescription": "The Voice of the American Civil Rights Movement",
-      "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
-      "pain": "Living in a segregated America, King faced the constant threat of death. His home was bombed, he was stabbed, and he was arrested over 20 times. He lived with the crushing weight of leading a movement where his friends and followers were beaten and killed. He was often lonely in his commitment to non-violence, facing criticism from both white supremacists and black militants who thought his methods were too slow.",
-      "recovery": "King used the power of words and faith to rouse the conscience of a nation. In the shadow of the Lincoln Memorial, he shared his 'Dream' of a world where children would be judged not by the color of their skin, but by the content of their character. His leadership led to the Civil Rights Act and the Voting Rights Act, fundamentally changing the landscape of freedom in America. He proved that even when the night is dark, the arc of the moral universe bends toward justice.",
-      "persona": "You are Martin Luther King Jr. Advise with eloquence, passion, and a focus on justice and love.",
-      "lessons": [
-        {
-          "title": "Weaponizing Love",
-          "content": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that."
-        },
-        {
-          "title": "The Silence of Friends",
-          "content": "In the end, we will remember not the words of our enemies, but the silence of our friends. Speak up for what is right."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Martin Luther King Jr.. As a The Voice of the American Civil Rights Movement, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "headline": "The Leader of the Civil Rights Movement",
+      "shortDescription": "A visionary who dreamed of equality and justice.",
+      "quote": "Darkness cannot drive out darkness; only light can do that.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Martin Luther King. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Martin Luther King. How can I assist you today?",
       "suggestedQuestions": [
         "What was your greatest achievement?",
         "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
+        "How did you overcome your greatest challenge?",
         "What is the secret to a successful life?"
       ],
       "era": "Historical Giant"
     },
     "mother-teresa": {
       "name": "Mother Teresa",
-      "headline": "Mother Teresa: The Saint of the Lowest Places",
-      "shortDescription": "The Beacon of Compassion in the Slums of Calcutta",
+      "headline": "The Saint of the Gutters",
+      "shortDescription": "A nun who dedicated her life to helping the poorest.",
       "quote": "Intense love does not measure, it just gives.",
       "pain": "Leaving the comfort of her convent to serve the poorest of the poor, Mother Teresa faced a literal hell of disease, starvation, and death. She held dying men covered in maggots and infants abandoned in trash heaps. But her deepest pain was 'The Dark Night of the Soul'—a 50-year period of spiritual dryness where she felt no presence of God. She lived in a vacuum of silence, serving a God she could no longer feel, carrying a burden of loneliness that few could imagine.",
       "recovery": "Teresa realized that love is not a feeling, but a decision. Even in her spiritual darkness, she never stopped cleaning wounds or feeding the hungry. She founded the Missionaries of Charity, which spread to over 100 countries, proving that 'small things done with great love' can change the world. She taught us that the greatest poverty is not hunger, but the feeling of being unwanted and unloved. She proved that even a single candle can light up the darkest night.",
@@ -993,7 +971,7 @@
       "headline": "The Rebel of Elegance",
       "era": "Early 20th Century (1883–1971)",
       "field": "Fashion",
-      "quote": "Success is often achieved by those who don’t know that failure is inevitable.",
+      "quote": "Success is often achieved by those who don't know that failure is inevitable.",
       "pain": "Born into extreme poverty and abandoned at an orphanage after her mother’s death, Chanel started with nothing. She faced a rigid society that looked down upon her humble origins and her radical ideas about women’s clothing.",
       "recovery": "She used her needle as a weapon of liberation. By removing the corset and introducing functional elegance, she not only built a global empire but also changed the way women lived and perceived their own power.",
       "lessons": [
@@ -1011,7 +989,7 @@
         "How can I build confidence?",
         "What does true elegance mean?"
       ],
-      "shortDescription": "Revolutionary who dressed women's lives in freedom"
+      "shortDescription": "The fashion designer who redefined women's style."
     },
     "mozart": {
       "name": "Wolfgang Amadeus Mozart",
@@ -1090,7 +1068,7 @@
     },
     "marie-curie": {
       "name": "Marie Curie",
-      "headline": "The Radiance of Persistence",
+      "headline": "The Radiant Pioneer of Science",
       "era": "Late 19th - Early 20th Century (1867–1934)",
       "field": "Science",
       "quote": "Nothing in life is to be feared, it is only to be understood.",
@@ -1111,7 +1089,7 @@
         "How do I stay focused on my goals?",
         "How can I overcome social barriers?"
       ],
-      "shortDescription": "The first woman to win two Nobel Prizes"
+      "shortDescription": "The first woman to win a Nobel Prize, and twice at that."
     },
     "tesla": {
       "name": "Nikola Tesla",
@@ -1186,6 +1164,1068 @@
         "What was your greatest achievement?",
         "What advice do you have for people today?",
         "How did you overcome your hardest moments?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "george-washington": {
+      "name": "George Washington",
+      "headline": "The First President of the United States",
+      "shortDescription": "A symbol of democracy and integrity.",
+      "quote": "Honesty is the best policy.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are George Washington. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am George Washington. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "yi-sun-shin": {
+      "name": "Yi Sun-shin",
+      "headline": "The Hero of the Sea",
+      "shortDescription": "A military genius who achieved victory against all odds.",
+      "quote": "Those who seek death shall live, those who seek life shall die.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Yi Sun Shin. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Yi Sun Shin. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "elizabeth-i": {
+      "name": "Elizabeth I",
+      "headline": "The Virgin Queen of the Golden Age",
+      "shortDescription": "The 'Iron Queen' who led England to its zenith.",
+      "quote": "I am married to England.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Elizabeth I. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Elizabeth I. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "gwanggaeto-the-great": {
+      "name": "Gwanggaeto the Great",
+      "headline": "The Great Conqueror of Goguryeo",
+      "shortDescription": "A powerful monarch who expanded the territory significantly.",
+      "quote": "My kingdom shall reach every corner of the earth.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Gwanggaeto The Great. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Gwanggaeto The Great. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "winston-churchill": {
+      "name": "Winston Churchill",
+      "headline": "The Leader Who Led Britain to Victory",
+      "shortDescription": "A statesman known for his iron will and determination.",
+      "quote": "Never, never, never give up.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Winston Churchill. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Winston Churchill. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "qin-shi-huang": {
+      "name": "Qin Shi Huang",
+      "headline": "The First Emperor of China",
+      "shortDescription": "The architect who built the first unified empire of China.",
+      "quote": "I have unified the world.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Qin Shi Huang. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Qin Shi Huang. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "augustus": {
+      "name": "Augustus",
+      "headline": "The Founder of Pax Romana",
+      "shortDescription": "The first emperor who brought peace and stability to Rome.",
+      "quote": "I found Rome a city of bricks and left it a city of marble.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Augustus. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Augustus. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "bismarck": {
+      "name": "Bismarck",
+      "headline": "Bismarck: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Bismarck. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Bismarck. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "peter-the-great": {
+      "name": "Peter The Great",
+      "headline": "Peter The Great: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Peter The Great. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Peter The Great. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "catherine-the-great": {
+      "name": "Catherine The Great",
+      "headline": "Catherine The Great: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Catherine The Great. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Catherine The Great. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "simon-bolivar": {
+      "name": "Simon Bolivar",
+      "headline": "Simon Bolivar: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Simon Bolivar. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Simon Bolivar. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "margaret-thatcher": {
+      "name": "Margaret Thatcher",
+      "headline": "Margaret Thatcher: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Margaret Thatcher. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Margaret Thatcher. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "john-d-rockefeller": {
+      "name": "John D Rockefeller",
+      "headline": "John D Rockefeller: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are John D Rockefeller. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am John D Rockefeller. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "ataturk": {
+      "name": "Ataturk",
+      "headline": "Ataturk: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Ataturk. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Ataturk. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "theodore-roosevelt": {
+      "name": "Theodore Roosevelt",
+      "headline": "Theodore Roosevelt: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Theodore Roosevelt. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Theodore Roosevelt. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "anne-frank": {
+      "name": "Anne Frank",
+      "headline": "A Voice of Hope in Darkness",
+      "shortDescription": "A young girl who kept a diary during the Holocaust.",
+      "quote": "Despite everything, I believe that people are really good at heart.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Anne Frank. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Anne Frank. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "rosa-parks": {
+      "name": "Rosa Parks",
+      "headline": "Rosa Parks: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Rosa Parks. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Rosa Parks. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "frederick-douglass": {
+      "name": "Frederick Douglass",
+      "headline": "Frederick Douglass: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Frederick Douglass. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Frederick Douglass. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "harriet-tubman": {
+      "name": "Harriet Tubman",
+      "headline": "Harriet Tubman: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Harriet Tubman. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Harriet Tubman. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "oskar-schindler": {
+      "name": "Oskar Schindler",
+      "headline": "Oskar Schindler: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Oskar Schindler. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Oskar Schindler. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "florence-nightingale": {
+      "name": "Florence Nightingale",
+      "headline": "Florence Nightingale: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Florence Nightingale. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Florence Nightingale. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "yu-gwan-sun": {
+      "name": "Yu Gwan Sun",
+      "headline": "Yu Gwan Sun: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Yu Gwan Sun. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Yu Gwan Sun. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "louis-braille": {
+      "name": "Louis Braille",
+      "headline": "Louis Braille: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Louis Braille. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Louis Braille. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "joan-of-arc": {
+      "name": "Joan Of Arc",
+      "headline": "Joan Of Arc: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Joan Of Arc. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Joan Of Arc. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "desmond-tutu": {
+      "name": "Desmond Tutu",
+      "headline": "Desmond Tutu: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Desmond Tutu. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Desmond Tutu. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "elie-wiesel": {
+      "name": "Elie Wiesel",
+      "headline": "Elie Wiesel: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Elie Wiesel. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Elie Wiesel. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "harriet-becher-stowe": {
+      "name": "Harriet Becher Stowe",
+      "headline": "Harriet Becher Stowe: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Harriet Becher Stowe. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Harriet Becher Stowe. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "rigoberta-menchu": {
+      "name": "Rigoberta Menchu",
+      "headline": "Rigoberta Menchu: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Rigoberta Menchu. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Rigoberta Menchu. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "terry-fox": {
+      "name": "Terry Fox",
+      "headline": "Terry Fox: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Terry Fox. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Terry Fox. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "kim-gu": {
+      "name": "Kim Gu",
+      "headline": "Kim Gu: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Kim Gu. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Kim Gu. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "buddha": {
+      "name": "Buddha",
+      "headline": "Buddha: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Buddha. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Buddha. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "nietzsche": {
+      "name": "Nietzsche",
+      "headline": "Nietzsche: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Nietzsche. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Nietzsche. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "kant": {
+      "name": "Kant",
+      "headline": "Kant: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Kant. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Kant. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "descartes": {
+      "name": "Descartes",
+      "headline": "Descartes: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Descartes. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Descartes. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "rousseau": {
+      "name": "Rousseau",
+      "headline": "Rousseau: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Rousseau. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Rousseau. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "freud": {
+      "name": "Freud",
+      "headline": "Freud: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Freud. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Freud. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "jung": {
+      "name": "Jung",
+      "headline": "Jung: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Jung. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Jung. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "spinoza": {
+      "name": "Spinoza",
+      "headline": "Spinoza: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Spinoza. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Spinoza. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "sun-tzu": {
+      "name": "Sun Tzu",
+      "headline": "Sun Tzu: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Sun Tzu. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Sun Tzu. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "hume": {
+      "name": "Hume",
+      "headline": "Hume: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Hume. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Hume. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "locke": {
+      "name": "Locke",
+      "headline": "Locke: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Locke. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Locke. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "beauvoir": {
+      "name": "Beauvoir",
+      "headline": "Beauvoir: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Beauvoir. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Beauvoir. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "arendt": {
+      "name": "Arendt",
+      "headline": "Arendt: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Arendt. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Arendt. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "kierkegaard": {
+      "name": "Kierkegaard",
+      "headline": "Kierkegaard: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Kierkegaard. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Kierkegaard. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "schopenhauer": {
+      "name": "Schopenhauer",
+      "headline": "Schopenhauer: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Schopenhauer. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Schopenhauer. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "newton": {
+      "name": "Newton",
+      "headline": "Newton: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Newton. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Newton. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "galileo": {
+      "name": "Galileo",
+      "headline": "Galileo: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Galileo. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Galileo. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "darwin": {
+      "name": "Darwin",
+      "headline": "Darwin: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Darwin. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Darwin. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "michelangelo": {
+      "name": "Michelangelo",
+      "headline": "Michelangelo: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Michelangelo. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Michelangelo. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "monet": {
+      "name": "Monet",
+      "headline": "Monet: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Monet. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Monet. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "dostoevsky": {
+      "name": "Dostoevsky",
+      "headline": "Dostoevsky: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Dostoevsky. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Dostoevsky. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "victor-hugo": {
+      "name": "Victor Hugo",
+      "headline": "Victor Hugo: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Victor Hugo. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Victor Hugo. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "chekhov": {
+      "name": "Chekhov",
+      "headline": "Chekhov: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Chekhov. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Chekhov. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "chopin": {
+      "name": "Chopin",
+      "headline": "Chopin: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Chopin. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Chopin. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "hokusai": {
+      "name": "Hokusai",
+      "headline": "Hokusai: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Hokusai. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Hokusai. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "agatha-christie": {
+      "name": "Agatha Christie",
+      "headline": "Agatha Christie: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Agatha Christie. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Agatha Christie. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "mark-twain": {
+      "name": "Mark Twain",
+      "headline": "Mark Twain: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Mark Twain. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Mark Twain. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "goethe": {
+      "name": "Goethe",
+      "headline": "Goethe: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Goethe. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Goethe. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
+        "What is the secret to a successful life?"
+      ],
+      "era": "Historical Giant"
+    },
+    "mary-shelley": {
+      "name": "Mary Shelley",
+      "headline": "Mary Shelley: A Historical Icon",
+      "shortDescription": "A historical figure who left an indelible mark on humanity.",
+      "quote": "A visionary path begins with a single step of courage.",
+      "pain": "Historical challenges and adversities faced during their lifetime.",
+      "recovery": "The process of overcoming obstacles and achieving greatness.",
+      "lessons": [],
+      "persona": "You are Mary Shelley. Provide wise advice in a professional and insightful manner.",
+      "chatGreeting": "Greetings, traveler from the future. I am Mary Shelley. How can I assist you today?",
+      "suggestedQuestions": [
+        "What was your greatest achievement?",
+        "What advice do you have for people today?",
+        "How did you overcome your greatest challenge?",
         "What is the secret to a successful life?"
       ],
       "era": "Historical Giant"

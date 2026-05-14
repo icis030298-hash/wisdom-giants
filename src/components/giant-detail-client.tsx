@@ -28,10 +28,30 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const [isChatOpen, setIsChatOpen] = useState(false)
   const router = useRouter()
   
-  const { giantDetail: t, giants: tg, giantsGrid: tc } = translations;
+  const { giantDetail: t, giants: tg, giantsGrid: tc, narrative } = translations;
 
-  // Get lessons as raw array from translations
-  const lessons = tg.lessons;
+  // Use standardized narrative if available, otherwise fallback to basic translations
+  const epicContent = narrative?.epic;
+  const trialsContent = narrative?.trials || tg.pain;
+  const overcomingContent = narrative?.overcoming || tg.recovery;
+  const wisdomList = narrative?.wisdom || (giant.lessons || []).map((l: any) => ({ quote: l.title, meaning: l.content }));
+  
+  const eraContent = narrative?.era || narrative?.era_ko || giant.era || tg.era;
+
+  // Helper to render text (simplified, as we'll use CSS pre-wrap)
+  const formatContent = (text: string) => {
+    if (!text) return null;
+    return text.replace(/\\n/g, '\n');
+  };
+
+  const categoryLabel = tc.categories?.[giant.category] || 
+    (typeof giant.category === 'string' ? 
+      ({
+        'achievement': '성취',
+        'adversity': '역경',
+        'wisdom': '지혜',
+        'creativity': '창의'
+      } as any)[giant.category.toLowerCase()] : null) || giant.category;
 
   return (
     <main className="min-h-screen bg-background">
@@ -60,7 +80,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
             <div className="space-y-4">
               <span className="px-4 py-1.5 rounded-full bg-amber-500 text-black text-xs font-bold uppercase tracking-widest border border-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
-                {tc.categories[giant.category]}
+                {categoryLabel}
               </span>
               <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground leading-tight">
                 {tg.name}
@@ -85,81 +105,161 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       {/* Content Section */}
       <div className="max-w-6xl mx-auto px-8 py-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
         {/* Left Column: Sagas */}
-        <div className="lg:col-span-2 space-y-16">
-          <section className="space-y-6">
-            <div className="flex items-center gap-3 text-amber-400">
-              <History className="w-6 h-6" />
-              <h2 className="text-2xl font-serif font-bold uppercase tracking-widest">{t.thePain}</h2>
-            </div>
-            <div className="glass-card p-8 rounded-3xl border-l-4 border-l-red-500/50">
-              <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-wrap italic">
-                {tg.pain}
-              </p>
-            </div>
-          </section>
-
-          <section className="space-y-6">
-            <div className="flex items-center gap-3 text-amber-400">
-              <HeartPulse className="w-6 h-6" />
-              <h2 className="text-2xl font-serif font-bold uppercase tracking-widest">{t.theRecovery}</h2>
-            </div>
-            <div className="glass-card p-8 rounded-3xl border-l-4 border-l-emerald-500/50">
-              <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-wrap">
-                {tg.recovery}
-              </p>
-            </div>
-          </section>
-
-          <section className="space-y-8">
-            <div className="flex items-center gap-3 text-amber-400">
-              <Lightbulb className="w-6 h-6" />
-              <h2 className="text-2xl font-serif font-bold uppercase tracking-widest">{t.wisdomLessons}</h2>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {lessons.map((lesson: any, index: number) => (
-                <div key={index} className="glass-card p-6 rounded-2xl border border-white/5 hover:border-amber-500/30 transition-all group">
-                  <div className="w-10 h-10 rounded-lg bg-amber-500/10 flex items-center justify-center mb-4 group-hover:bg-amber-500/20 transition-colors">
-                    <span className="text-amber-400 font-bold">{index + 1}</span>
-                  </div>
-                  <h3 className="text-xl font-bold text-foreground mb-2">{lesson.title}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {lesson.content}
-                  </p>
+        <div className="lg:col-span-2 space-y-20">
+          {/* 1. Epic Narrative Section */}
+          {epicContent && (
+            <section className="space-y-10 animate-in fade-in slide-in-from-bottom-4 duration-700">
+              <div className="flex items-center gap-4 text-amber-500/80">
+                <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center border border-amber-500/20">
+                  <Sparkles className="w-5 h-5" />
                 </div>
-              ))}
+                <h2 className="text-xl font-bold uppercase tracking-[0.2em]">{t.theLifeStory}</h2>
+              </div>
+              
+              <div className="glass-card p-12 md:p-16 rounded-[3rem] border border-white/[0.08] bg-gradient-to-br from-white/[0.05] to-transparent shadow-2xl relative overflow-hidden group">
+                <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-500/[0.02] rounded-full blur-[100px]" />
+                
+                <div className="relative z-10 space-y-10">
+                  {epicContent.split(/\n\n|\\n\\n/).map((paragraph, idx) => (
+                    <p 
+                      key={idx} 
+                      className={`text-lg md:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-justify
+                        ${idx === 0 ? 'first-letter:text-6xl first-letter:font-serif first-letter:mr-4 first-letter:float-left first-letter:text-amber-400 first-letter:font-black first-letter:leading-none first-letter:mt-2' : ''}`}
+                    >
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            </section>
+          )}
+
+          {/* 2. Trials & Overcoming Combined into a sophisticated layout */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Trials */}
+            <section className="space-y-6">
+              <div className="flex items-center gap-3 text-red-400/80">
+                <History className="w-5 h-5" />
+                <h2 className="text-sm font-bold uppercase tracking-widest">{t.thePain}</h2>
+              </div>
+              <div className="glass-card p-8 rounded-[2rem] border border-red-500/10 bg-red-500/[0.02] relative group overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-red-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="relative z-10 space-y-4">
+                  {trialsContent.split(/\n\n|\\n\\n/).map((p, i) => (
+                    <p key={i} className="text-slate-200 leading-relaxed font-normal">
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            </section>
+
+            {/* Overcoming */}
+            <section className="space-y-6">
+              <div className="flex items-center gap-3 text-emerald-400/80">
+                <HeartPulse className="w-5 h-5" />
+                <h2 className="text-sm font-bold uppercase tracking-widest">{t.theRecovery}</h2>
+              </div>
+              <div className="glass-card p-8 rounded-[2rem] border border-emerald-500/10 bg-emerald-500/[0.02] relative group overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="relative z-10 space-y-4">
+                  {overcomingContent.split(/\n\n|\\n\\n/).map((p, i) => (
+                    <p key={i} className="text-slate-200 leading-relaxed font-normal">
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            </section>
+          </div>
+
+          {/* 4. Wisdom (Quotes) Section */}
+          <section className="space-y-12">
+            <div className="flex flex-col items-center gap-4 text-center">
+              <div className="w-16 h-16 rounded-full bg-amber-500/10 flex items-center justify-center border border-amber-500/20 shadow-[0_0_20px_rgba(245,158,11,0.1)]">
+                <Lightbulb className="w-8 h-8 text-amber-400" />
+              </div>
+              <h2 className="text-3xl font-serif font-bold text-foreground">{t.wisdomLessons}</h2>
+              <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+            </div>
+
+            <div className="grid grid-cols-1 gap-10">
+              {wisdomList.length > 0 ? (
+                wisdomList.map((item: any, index: number) => (
+                  <div key={index} className="glass-card p-12 rounded-[3rem] border border-white/[0.05] hover:border-amber-500/30 transition-all duration-500 group relative overflow-hidden">
+                    <div className="absolute -top-10 -left-10 w-40 h-40 bg-amber-500/[0.03] rounded-full blur-3xl group-hover:bg-amber-500/[0.07] transition-colors" />
+                    
+                    <div className="relative z-10">
+                      <div className="flex items-center gap-6 mb-10">
+                        <span className="text-5xl font-black text-amber-500/10 select-none">
+                          0{index + 1}
+                        </span>
+                        <div className="h-px flex-1 bg-gradient-to-r from-amber-500/20 to-transparent" />
+                      </div>
+                      
+                      <blockquote className="text-2xl md:text-3xl font-serif italic text-amber-400/90 mb-10 leading-[1.4] tracking-tight whitespace-pre-wrap">
+                        &ldquo;{formatContent(item.quote)}&rdquo;
+                      </blockquote>
+                      
+                      <div className="relative pl-8">
+                        <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-amber-500/40 to-transparent rounded-full" />
+                        <p className="text-lg text-slate-200 leading-relaxed font-normal whitespace-pre-wrap">
+                          {formatContent(item.meaning)}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))
+              ) : (
+                tg.lessons.map((lesson: any, index: number) => (
+                  <div key={index} className="glass-card p-8 rounded-2xl border border-white/5 hover:border-amber-500/30 transition-all group">
+                    <h3 className="text-xl font-bold text-foreground mb-2">{lesson.title}</h3>
+                    <p className="text-muted-foreground leading-relaxed">
+                      {lesson.content}
+                    </p>
+                  </div>
+                ))
+              )}
             </div>
           </section>
         </div>
 
         {/* Right Column: Profile & Quote */}
         <div className="space-y-8">
-          <div className="glass-card p-8 rounded-3xl sticky top-24">
-            <div className="flex items-center gap-3 text-amber-400 mb-6">
-              <Quote className="w-6 h-6" />
-              <h2 className="text-xl font-serif font-bold uppercase tracking-widest">{t.famousQuote}</h2>
+          <div className="glass-card p-10 rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-white/[0.05] to-transparent sticky top-24 space-y-10">
+            {/* Header with Quote Icon */}
+            <div className="relative">
+              <Quote className="w-12 h-12 text-amber-500/20 absolute -top-6 -left-6" />
+              <blockquote className="text-2xl font-serif italic text-foreground leading-tight relative z-10 whitespace-pre-wrap">
+                &ldquo;{formatContent(tg.quote)}&rdquo;
+              </blockquote>
             </div>
-            <blockquote className="text-2xl font-serif italic text-foreground leading-snug mb-8">
-              &ldquo;{tg.quote}&rdquo;
-            </blockquote>
             
-            <div className="space-y-6 pt-8 border-t border-white/10">
-              <div>
-                <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-2">{t.era}</h4>
-                <p className="text-foreground">{tg.era}</p>
+            {/* Metadata with better styling */}
+            <div className="grid grid-cols-2 gap-6 py-8 border-y border-white/5">
+              <div className="space-y-1">
+                <h4 className="text-[10px] font-bold text-amber-500/60 uppercase tracking-[0.2em]">{t.era}</h4>
+                <p className="text-sm font-medium text-foreground/80">{eraContent}</p>
               </div>
-              <div>
-                <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-2">{t.field}</h4>
-                <p className="text-foreground">{giant.field}</p>
+              <div className="space-y-1">
+                <h4 className="text-[10px] font-bold text-amber-500/60 uppercase tracking-[0.2em]">{t.field}</h4>
+                <p className="text-sm font-medium text-foreground/80">{categoryLabel}</p>
               </div>
             </div>
 
+            {/* Action Button: Glowing & Premium */}
             <button 
               onClick={() => setIsChatOpen(true)}
-              className="w-full mt-10 py-4 rounded-xl bg-white/5 border border-white/10 text-foreground font-bold hover:bg-amber-500 hover:text-black transition-all flex items-center justify-center gap-2"
+              className="w-full py-5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-black font-black text-lg transition-all shadow-[0_0_30px_rgba(245,158,11,0.2)] hover:shadow-[0_0_40px_rgba(245,158,11,0.4)] flex items-center justify-center gap-3 group active:scale-95"
             >
-              <MessageCircle className="w-5 h-5" />
+              <MessageCircle className="w-6 h-6 group-hover:rotate-12 transition-transform" />
               {t.askForAdvice}
             </button>
+
+            {/* Subtle subtext */}
+            <p className="text-[10px] text-center text-muted-foreground/50 leading-relaxed px-4">
+              {tg.headline}
+            </p>
           </div>
         </div>
       </div>
