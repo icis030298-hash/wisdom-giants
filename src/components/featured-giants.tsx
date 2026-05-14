@@ -18,28 +18,42 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
 
   // Helper to get translated text with fallback
   const getT = (giant: Giant, key: string, fallback: string) => {
-    const translated = tg(`${giant.id}.${key}`)
-    if (translated.includes(`${giant.id}.`) || translated === `Giants.${giant.id}.${key}`) {
-      return fallback
+    if (!giant || !giant.id) {
+      console.error(`[FeaturedGiants] MISSING ID for giant:`, giant);
+      return fallback;
     }
-    return translated
+    try {
+      const translated = tg(`${giant.slug}.${key}`)
+      if (translated.includes(`${giant.slug}.`) || translated === `Giants.${giant.slug}.${key}`) {
+        return fallback
+      }
+      return translated
+    } catch (e) {
+      return fallback;
+    }
   }
   
   // Daily rotating logic
   const featured = useMemo(() => {
+    // Defense: filter out invalid giants
+    const validGiants = giants.filter(g => g && g.id && g.slug);
+    if (validGiants.length === 0) return [];
+
     const today = new Date()
     // Create a stable seed for the current day
     const dateSeed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate()
     
     // Select 4 giants based on the daily seed
-    const shuffled = [...giants].sort((a, b) => {
-      const hashA = (a.slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) * dateSeed) % giants.length
-      const hashB = (b.slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) * dateSeed) % giants.length
+    const shuffled = [...validGiants].sort((a, b) => {
+      const hashA = (a.slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) * dateSeed) % validGiants.length
+      const hashB = (b.slug.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0) * dateSeed) % validGiants.length
       return hashA - hashB
     })
     
     return shuffled.slice(0, 4)
   }, [giants])
+
+  if (!featured || featured.length === 0) return null;
   
   return (
     <section id="featured-giants" className="relative py-24 px-6">

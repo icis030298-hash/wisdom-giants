@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { useState, useMemo, useEffect } from "react"
 import { Search, Filter, Sparkles, Grid3X3, List } from "lucide-react"
 import { giants, categories, type Giant } from "@/lib/giants-data"
 import Image from "next/image"
@@ -18,12 +18,17 @@ export function GiantsGrid({}: GiantsGridProps) {
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid")
   const [currentPage, setCurrentPage] = useState(1)
   const ITEMS_PER_PAGE = 12
-  
-  const filteredGiants = useMemo(() => {
-    // Reset to page 1 when filters change
+
+  // Reset to page 1 when filters change
+  useEffect(() => {
     setCurrentPage(1)
+  }, [searchQuery, selectedCategory])
+
+  const filteredGiants = useMemo(() => {
+    // Filter out invalid giants first
+    const validGiants = giants.filter(g => g && g.id && g.slug);
     
-    return giants.filter((giant) => {
+    return validGiants.filter((giant) => {
       // Use raw category ID for category filter (faster)
       const matchesCategory = 
         selectedCategory === "All Giants" ||
@@ -37,16 +42,21 @@ export function GiantsGrid({}: GiantsGridProps) {
 
       // Helper for search with fallback
       const getT = (key: string, fallback: string) => {
-        const translated = tg(key)
-        if (translated.includes(`${giant.id}.`) || translated === `Giants.${giant.id}.${key.split('.').pop()}`) {
-          return fallback
+        if (!giant.slug) return fallback;
+        try {
+          const translated = tg(key)
+          if (translated.includes(`${giant.slug}.`) || translated === `Giants.${giant.slug}.${key.split('.').pop()}`) {
+            return fallback
+          }
+          return translated
+        } catch (e) {
+          return fallback;
         }
-        return translated
       }
 
-      const name = getT(`${giant.id}.name`, giant.name).toLowerCase()
-      const headline = getT(`${giant.id}.headline`, giant.title).toLowerCase()
-      const desc = getT(`${giant.id}.shortDescription`, giant.description).toLowerCase()
+      const name = getT(`${giant.slug}.name`, giant.name).toLowerCase()
+      const headline = getT(`${giant.slug}.headline`, giant.title).toLowerCase()
+      const desc = getT(`${giant.slug}.shortDescription`, giant.description).toLowerCase()
 
       return (
         name.includes(query) ||
@@ -174,7 +184,7 @@ export function GiantsGrid({}: GiantsGridProps) {
                 <div className="relative w-14 h-14 rounded-xl overflow-hidden shrink-0 ring-2 ring-amber-500/10 bg-muted flex items-center justify-center">
                   <Image 
                     src={giant.imageUrl} 
-                    alt={tg(`${giant.id}.name`)}
+                    alt={tg(`${giant.slug}.name`)}
                     fill
                     className="object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
                   />
@@ -183,15 +193,15 @@ export function GiantsGrid({}: GiantsGridProps) {
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-3">
                     <h3 className="font-serif text-lg font-semibold text-foreground">
-                      {tg(`${giant.id}.name`).includes(`${giant.id}.`) ? giant.name : tg(`${giant.id}.name`)}
+                      {tg(`${giant.slug}.name`).includes(`${giant.slug}.`) ? giant.name : tg(`${giant.slug}.name`)}
                     </h3>
                     <span className="text-xs text-muted-foreground">{giant.era}</span>
                   </div>
                   <p className="text-sm text-amber-400/80">
-                    {tg(`${giant.id}.headline`).includes(`${giant.id}.`) ? giant.title : tg(`${giant.id}.headline`)}
+                    {tg(`${giant.slug}.headline`).includes(`${giant.slug}.`) ? giant.title : tg(`${giant.slug}.headline`)}
                   </p>
                   <p className="text-sm text-muted-foreground mt-1 line-clamp-1">
-                    {tg(`${giant.id}.shortDescription`).includes(`${giant.id}.`) ? giant.description : tg(`${giant.id}.shortDescription`)}
+                    {tg(`${giant.slug}.shortDescription`).includes(`${giant.slug}.`) ? giant.description : tg(`${giant.slug}.shortDescription`)}
                   </p>
                 </div>
                 

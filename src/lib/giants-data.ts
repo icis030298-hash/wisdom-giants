@@ -28,23 +28,25 @@ const categoryMap: Record<string, string> = {
   '창의': 'creativity',
 };
 
-export const giants: Giant[] = giantsData.map(g => ({
-  id: g.slug,
-  name: g.name,
-  title: g.headline,
-  era: g.era,
-  field: categoryMap[g.category] || 'other',
-  description: g.shortDescription,
-  quote: g.quote,
-  color: colorMap[categoryMap[g.category]] || 'from-slate-500/20 to-zinc-500/20',
-  slug: g.slug,
-  imageUrl: g.imageUrl.startsWith('/images/')
-    ? g.imageUrl
-    : g.imageUrl.startsWith('/') 
-      ? `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/giants/${g.slug}.jpg` 
-      : g.imageUrl,
-  category: categoryMap[g.category] || 'other'
-}));
+export const giants: Giant[] = giantsData
+  .map((g, index) => ({
+    id: (index + 1).toString(),
+    name: g.name,
+    title: g.headline,
+    era: g.era,
+    field: categoryMap[g.category] || 'other',
+    description: g.shortDescription,
+    quote: g.quote,
+    color: colorMap[categoryMap[g.category]] || 'from-slate-500/20 to-zinc-500/20',
+    slug: g.slug,
+    imageUrl: g.imageUrl.startsWith('/images/')
+      ? g.imageUrl
+      : g.imageUrl.startsWith('/') 
+        ? `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/giants/${g.slug}.jpg` 
+        : g.imageUrl,
+    category: categoryMap[g.category] || 'other'
+  }))
+  .filter(g => g.id && g.id.trim().length > 0);
 
 export const categories = [
   "All Giants",

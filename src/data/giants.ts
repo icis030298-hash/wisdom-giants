@@ -415,10 +415,10 @@ export const giantsData: Giant[] = [
   {
     id: "15",
     name: "넬슨 만델라",
-    category: "성취",
+    category: "지혜",
     headline: "1918년 남아프리카 공화국의 템부 부족 추장 가문에서 롤리흘라흘라라는 이름의 소년이 태어났습니다. 그...",
     shortDescription: "넬슨 만델라의 일대기와 지혜",
-    slug: "giant-15",
+    slug: "mandela",
     quote: "용서의 무기",
     pain: "아파르트헤이트 정권에 의한 27년간의 지독한 투옥 생활과 그 과정에서 겪은 가족과의 이별 및 육체적 학대.",
     recovery: "증오와 복수심을 버리고 용서와 화해의 길을 택하여 남아공의 평화로운 민주화를 이끌었으며, 인류 공동체의 도덕적 사표가 됨.",
@@ -437,13 +437,13 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 넬슨 만델라입니다.",
-    imageUrl: "/images/giants/giant-15.jpg",
+    imageUrl: "/images/giants/mandela.jpg",
     era: "20-21세기"
   },
   {
     id: "16",
     name: "헬렌 켈러",
-    category: "성취",
+    category: "지혜",
     headline: "1880년 미국 앨라배마주의 한 유복한 가정에서 헬렌 켈러가 태어났습니다. 생후 19개월 만에 앓은 열...",
     shortDescription: "헬렌 켈러의 일대기와 지혜",
     slug: "giant-16",
@@ -642,7 +642,7 @@ export const giantsData: Giant[] = [
     category: "지혜",
     headline: "기원전 551년 중국 노나라의 가난한 하급 귀족 집안에서 공자가 태어났습니다. 그의 유년기는 일찍 아버...",
     shortDescription: "공자의 일대기와 지혜",
-    slug: "giant-23",
+    slug: "confucius",
     quote: "학이시습지",
     pain: "어린 시절의 극심한 가난과 일찍 부모를 여읜 슬픔, 그리고 자신의 이상을 실현하기 위해 14년 동안 천하를 유랑하며 겪은 굶주림과 암살 위협의 고통.",
     recovery: "어떠한 시련 속에서도 학문과 교육을 멈추지 않았으며, 인(仁)을 중심으로 한 도덕 정치를 정립하여 동양 문명의 정신적 지주가 됨.",
@@ -661,7 +661,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 공자입니다.",
-    imageUrl: "/images/giants/giant-23.jpg",
+    imageUrl: "/images/giants/confucius.jpg",
     era: "기원전 6-5세기"
   },
   {
@@ -670,7 +670,7 @@ export const giantsData: Giant[] = [
     category: "지혜",
     headline: "기원전 470년경 고대 그리스 아테네의 평범한 석공과 산파의 아들로 소크라테스가 태어났습니다. 그의 유...",
     shortDescription: "소크라테스의 일대기와 지혜",
-    slug: "giant-24",
+    slug: "socrates",
     quote: "너 자신을 알라",
     pain: "아테네 권력자들의 미움과 시기 속에 겪은 억울한 기소, 그리고 자신의 신념을 지키기 위해 사랑하는 가족과 제자들을 뒤로하고 독배를 마셔야 했던 처절한 결단.",
     recovery: "죽음의 공포 앞에서도 철학적 진리를 굽히지 않았으며, 대화와 성찰을 통해 서양 철학의 윤리적 기반을 확립하여 인류의 정신적 눈을 뜨게 함.",
@@ -689,7 +689,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 소크라테스입니다.",
-    imageUrl: "/images/giants/giant-24.jpg",
+    imageUrl: "/images/giants/socrates.jpg",
     era: "기원전 5세기경"
   },
   {
@@ -779,7 +779,7 @@ export const giantsData: Giant[] = [
   {
     id: "28",
     name: "마하트마 간디",
-    category: "성취",
+    category: "지혜",
     headline: "1869년 인도의 평범한 관리 가문에서 모한다스 간디가 태어났습니다. 그의 유년기는 내성적이고 소심하며...",
     shortDescription: "마하트마 간디의 일대기와 지혜",
     slug: "giant-28",
@@ -810,7 +810,7 @@ export const giantsData: Giant[] = [
     category: "지혜",
     headline: "1929년 미국 조지아주 애틀랜타, 마틴 루터 킹은 흑인이라는 이유만으로 식당, 버스, 화장실조차 백인...",
     shortDescription: "마틴 루터 킹의 일대기와 지혜",
-    slug: "giant-29",
+    slug: "mlk",
     quote: "어둠은 어둠을 몰아낼 수 없습니다. 오직 빛만이 그것을 할 수 있습니다.",
     pain: "자택 폭탄 테러와 수십 번의 부당한 투옥, 그리고 매일 반복되는 암살 위협 속의 공포.\n동료들의 희생과 내부의 비난 속에서도 비폭력의 가치를 지켜야 했던 지도자의 무거운 중압감.",
     recovery: "증오를 사랑으로 갚는 비폭력 민권 운동으로 미국의 인종 차별을 철폐함.\n\"나에게는 꿈이 있습니다\"라는 연설을 통해 전 인류의 양심을 깨우고 평등의 가치를 정립함.",
@@ -829,13 +829,13 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마틴 루터 킹입니다.",
-    imageUrl: "/images/giants/giant-29.jpg",
+    imageUrl: "/images/giants/mlk.jpg",
     era: "20세기의 거인 (1929~1968)"
   },
   {
     id: "30",
     name: "마더 테레사",
-    category: "성취",
+    category: "지혜",
     headline: "1910년 오늘날의 북마케도니아 스코페에서 아녜즈라는 이름의 소녀가 태어났습니다. 그녀의 유년기는 독실...",
     shortDescription: "마더 테레사의 일대기와 지혜",
     slug: "giant-30",
@@ -863,10 +863,10 @@ export const giantsData: Giant[] = [
   {
     id: "31",
     name: "레오나르도 다 빈치",
-    category: "창의",
+    category: "지혜",
     headline: "1452년 이탈리아의 작은 마을 빈치, 서자로 태어난 레오나르도 다 빈치의 유년기는 정규 교육에서 소외...",
     shortDescription: "레오나르도 다 빈치의 일대기와 지혜",
-    slug: "giant-31",
+    slug: "leonardo-da-vinci",
     quote: "호기심의 날개",
     pain: "서자라는 신분적 한계로 인한 법적 상속 거부와 주류 사회의 소외, 그리고 수많은 프로젝트를 미완성으로 남겼다는 세간의 비난과 오해.",
     recovery: "신분적 제약을 자유로운 사고의 기회로 삼았으며, 예술과 과학을 통합한 독창적 코덱스를 통해 인류 지성의 지평을 수백 년 앞당김.",
@@ -885,7 +885,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 레오나르도 다 빈치입니다.",
-    imageUrl: "/images/giants/giant-31.jpg",
+    imageUrl: "/images/giants/leonardo-da-vinci.jpg",
     era: "15-16세기"
   },
   {
@@ -975,7 +975,7 @@ export const giantsData: Giant[] = [
   {
     id: "35",
     name: "모차르트",
-    category: "창의",
+    category: "지혜",
     headline: "1756년 오스트리아 잘츠부르크, 음악가 가문에서 볼프강 아마데우스 모차르트가 태어났습니다. 그의 유년...",
     shortDescription: "모차르트의 일대기와 지혜",
     slug: "giant-35",
@@ -1003,7 +1003,7 @@ export const giantsData: Giant[] = [
   {
     id: "36",
     name: "윌리엄 셰익스피어",
-    category: "창의",
+    category: "지혜",
     headline: "1564년 영국의 전략적 요충지인 스트랫퍼드어폰에이번의 장갑 제작자 가문에서 윌리엄 셰익스피어가 태어났...",
     shortDescription: "윌리엄 셰익스피어의 일대기와 지혜",
     slug: "giant-36",
@@ -1034,7 +1034,7 @@ export const giantsData: Giant[] = [
     category: "지혜",
     headline: "1879년 독일 울름의 유대인 중산층 가문에서 알베르트 아인슈타인이 태어났습니다. 그의 유년기는 화려한...",
     shortDescription: "알베르트 아인슈타인의 일대기와 지혜",
-    slug: "giant-37",
+    slug: "einstein",
     quote: "상상의 가치",
     pain: "학교 교육의 엄격한 규율에 대한 지독한 부적응과 졸업 후 직장을 구하지 못했던 빈곤, 그리고 나치의 탄압을 피해 조국을 떠나야 했던 망명자의 고통.",
     recovery: "특허청 서기로 일하며 우주의 본질을 파고든 독창적 사고실험을 통해 상대성 이론을 창안했으며, 현대 물리학의 패러다임을 완전히 바꿈.",
@@ -1053,7 +1053,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 알베르트 아인슈타인입니다.",
-    imageUrl: "/images/giants/giant-37.jpg",
+    imageUrl: "/images/giants/einstein.jpg",
     era: "20세기"
   },
   {
@@ -1062,7 +1062,7 @@ export const giantsData: Giant[] = [
     category: "지혜",
     headline: "1867년 폴란드 바르샤바의 가난한 교육자 집안에서 마리 퀴리가 태어났습니다. 그녀의 유년기는 러시아의...",
     shortDescription: "마리 퀴리의 일대기와 지혜",
-    slug: "giant-38",
+    slug: "marie-curie",
     quote: "두려움의 이해",
     pain: "여성을 차별하던 과학계의 지독한 편견과 가난, 그리고 남편의 갑작스러운 사별과 평생을 괴롭힌 방사능 피폭으로 인한 육체적 고통.",
     recovery: "지독한 끈기와 연구로 라듐과 폴로늄을 발견하여 노벨상을 두 차례 수상했으며, 자신의 연구 성과를 인류를 위해 무상으로 공개함.",
@@ -1081,7 +1081,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마리 퀴리입니다.",
-    imageUrl: "/images/giants/giant-38.jpg",
+    imageUrl: "/images/giants/marie-curie.jpg",
     era: "19-20세기"
   },
   {
@@ -1115,7 +1115,7 @@ export const giantsData: Giant[] = [
   {
     id: "40",
     name: "빈센트 반 고흐",
-    category: "창의",
+    category: "지혜",
     headline: "1853년 네덜란드의 조용한 마을 그루트 준데르트의 목사 가문에서 빈센트 반 고흐가 태어났습니다. 그의...",
     shortDescription: "빈센트 반 고흐의 일대기와 지혜",
     slug: "giant-40",
@@ -1146,7 +1146,7 @@ export const giantsData: Giant[] = [
     category: "성취",
     headline: "1809년 2월 12일, 켄터키주의 울창한 숲속 가난한 개척민의 오두막에서 한 아이가 태어났습니다. 에...",
     shortDescription: "에이브러햄 링컨의 일대기와 지혜",
-    slug: "giant-41",
+    slug: "lincoln",
     quote: "실패에 대한 태도",
     pain: "지독한 가난과 연이은 낙선, 그리고 사랑하는 이들의 죽음으로 인한 극심한 우울증과 자아의 붕괴.",
     recovery: "정직과 인내로 실패를 딛고 일어서 미국의 분열을 막고 노예 해방이라는 인류사적 과업을 완수함.",
@@ -1165,13 +1165,13 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 에이브러햄 링컨입니다.",
-    imageUrl: "/images/giants/giant-41.jpg",
+    imageUrl: "/images/giants/lincoln.jpg",
     era: "19세기"
   },
   {
     id: "42",
     name: "조지 워싱턴",
-    category: "성취",
+    category: "지혜",
     headline: "1732년 2월 22일, 버지니아의 울창한 숲과 험준한 산맥 사이 평범한 지주 가문에서 한 소년이 태어...",
     shortDescription: "조지 워싱턴의 일대기와 지혜",
     slug: "giant-42",
@@ -1199,7 +1199,7 @@ export const giantsData: Giant[] = [
   {
     id: "43",
     name: "이순신",
-    category: "성취",
+    category: "지혜",
     headline: "1545년 한양의 몰락한 선비 가문에서 태어난 이순신은, 문관의 길을 포기하고 뒤늦게 무관의 길을 택한...",
     shortDescription: "이순신의 일대기와 지혜",
     slug: "giant-43",
@@ -1227,7 +1227,7 @@ export const giantsData: Giant[] = [
   {
     id: "44",
     name: "엘리자베스 1세",
-    category: "성취",
+    category: "지혜",
     headline: "1533년, 헨리 8세와 앤 불린의 딸로 태어난 엘리자베스는 탄생과 동시에 축복보다는 저주의 주인공이었...",
     shortDescription: "엘리자베스 1세의 일대기와 지혜",
     slug: "1",
@@ -1255,7 +1255,7 @@ export const giantsData: Giant[] = [
   {
     id: "45",
     name: "광개토대왕",
-    category: "성취",
+    category: "지혜",
     headline: "374년, 전란의 불길이 끊이지 않던 고구려의 왕궁에서 담덕이라는 이름의 왕자가 태어났습니다. 그의 유...",
     shortDescription: "광개토대왕의 일대기와 지혜",
     slug: "giant-45",
@@ -1283,10 +1283,10 @@ export const giantsData: Giant[] = [
   {
     id: "46",
     name: "윈스턴 처칠",
-    category: "성취",
+    category: "지혜",
     headline: "1874년 말버러 공작 가문의 화려한 명문가에서 태어났지만, 윈스턴 처칠의 소년기는 그 화려함의 이면에...",
     shortDescription: "윈스턴 처칠의 일대기와 지혜",
-    slug: "giant-46",
+    slug: "churchill",
     quote: "불굴의 정의",
     pain: "갈리폴리 전투의 참패로 인한 정치적 몰락과 10년 넘는 고립된 야인 생활, 그리고 나치 독일의 공습 아래 풍전등화였던 영국의 운명.",
     recovery: "언어라는 강력한 무기로 국민의 용기를 깨웠으며, 불굴의 의지와 외교력으로 2차 세계대전을 승리로 이끌어 문명을 수호함.",
@@ -1305,13 +1305,13 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 윈스턴 처칠입니다.",
-    imageUrl: "/images/giants/giant-46.jpg",
+    imageUrl: "/images/giants/churchill.jpg",
     era: "20세기"
   },
   {
     id: "47",
     name: "진시황",
-    category: "성취",
+    category: "지혜",
     headline: "기원전 259년, 500년 넘게 이어진 피비린내 나는 전란의 시대인 춘추전국시대의 한복판에서 영정이라는...",
     shortDescription: "진시황의 일대기와 지혜",
     slug: "giant-47",
@@ -1339,7 +1339,7 @@ export const giantsData: Giant[] = [
   {
     id: "48",
     name: "아우구스투스",
-    category: "성취",
+    category: "지혜",
     headline: "기원전 63년, 로마의 평범한 기사 계급 가문에서 옥타비아누스라는 이름의 병약한 소년이 태어났습니다. ...",
     shortDescription: "아우구스투스의 일대기와 지혜",
     slug: "giant-48",
@@ -1367,7 +1367,7 @@ export const giantsData: Giant[] = [
   {
     id: "49",
     name: "오토 폰 비스마르크",
-    category: "성취",
+    category: "지혜",
     headline: "1815년, 프로이센의 전형적인 지주 계급인 융커 가문에서 오토 폰 비스마르크가 태어났습니다. 그의 유...",
     shortDescription: "오토 폰 비스마르크의 일대기와 지혜",
     slug: "giant-49",
@@ -1395,7 +1395,7 @@ export const giantsData: Giant[] = [
   {
     id: "50",
     name: "표트르 대제",
-    category: "성취",
+    category: "지혜",
     headline: "1672년 모스크바의 화려한 크렘린 궁전에서 표트르 1세가 태어났습니다. 하지만 그의 유년기는 화려한 ...",
     shortDescription: "표트르 대제의 일대기와 지혜",
     slug: "giant-50",
@@ -1423,7 +1423,7 @@ export const giantsData: Giant[] = [
   {
     id: "51",
     name: "캐서린 대제",
-    category: "성취",
+    category: "지혜",
     headline: "1729년 프로이센의 가난한 귀족 가문에서 조피라는 이름의 소녀가 태어났습니다. 그녀의 유년기는 화려한...",
     shortDescription: "캐서린 대제의 일대기와 지혜",
     slug: "giant-51",
@@ -1451,7 +1451,7 @@ export const giantsData: Giant[] = [
   {
     id: "52",
     name: "시몬 볼리바르",
-    category: "성취",
+    category: "지혜",
     headline: "1783년 베네수엘라 카라카스의 부유한 귀족 가문에서 시몬 볼리바르가 태어났습니다. 어린 시절 부모를 ...",
     shortDescription: "시몬 볼리바르의 일대기와 지혜",
     slug: "giant-52",
@@ -1479,10 +1479,10 @@ export const giantsData: Giant[] = [
   {
     id: "53",
     name: "마가렛 대처",
-    category: "성취",
+    category: "지혜",
     headline: "1925년 영국의 작은 마을 그랜덤, 식료품점 집 딸로 태어난 마가렛 대처의 유년기는 근면과 절제, 그...",
     shortDescription: "마가렛 대처의 일대기와 지혜",
-    slug: "가",
+    slug: "margaret-thatcher",
     quote: "타협의 경계",
     pain: "여성 정치가에 대한 지독한 편견과 조롱, 그리고 개혁 과정에서 마주한 전국적인 파업과 암살 위협 속에 겪은 고독한 결단.",
     recovery: "'철의 여인'이라 불리는 타협 없는 의지로 영국의 경제를 재건했으며, 포클랜드 전쟁 승리를 통해 제국의 자부심을 되살림.",
@@ -1501,13 +1501,13 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마가렛 대처입니다.",
-    imageUrl: "/images/giants/가.jpg",
+    imageUrl: "/images/giants/margaret-thatcher.jpg",
     era: "20세기"
   },
   {
     id: "54",
     name: "존 D. 록펠러",
-    category: "성취",
+    category: "지혜",
     headline: "1839년 뉴욕주의 가난한 농가에서 태어난 존 D. 록펠러의 유년기는 불성실한 아버지와 독실한 어머니 ...",
     shortDescription: "존 D. 록펠러의 일대기와 지혜",
     slug: "d",
@@ -1535,7 +1535,7 @@ export const giantsData: Giant[] = [
   {
     id: "55",
     name: "무스타파 케말 아타튀르크",
-    category: "성취",
+    category: "지혜",
     headline: "1881년 당시 오스만 제국의 영토였던 테살로니키의 평범한 하급 관리 가문에서 무스타파라는 이름의 소년...",
     shortDescription: "무스타파 케말 아타튀르크의 일대기와 지혜",
     slug: "giant-55",
@@ -1563,7 +1563,7 @@ export const giantsData: Giant[] = [
   {
     id: "56",
     name: "테오도르 루스벨트",
-    category: "성취",
+    category: "지혜",
     headline: "1858년 뉴욕의 부유한 가문에서 태어났지만, 테오도르 루스벨트의 소년기는 지독한 천식과 허약한 체구 ...",
     shortDescription: "테오도르 루스벨트의 일대기와 지혜",
     slug: "giant-56",
@@ -1591,7 +1591,7 @@ export const giantsData: Giant[] = [
   {
     id: "57",
     name: "안네 프랑크",
-    category: "창의",
+    category: "지혜",
     headline: "1929년 독일 프랑크푸르트의 유복한 유대인 가문에서 안네 프랑크가 태어났습니다. 그녀의 유년기는 자유...",
     shortDescription: "안네 프랑크의 일대기와 지혜",
     slug: "giant-57",
@@ -1619,7 +1619,7 @@ export const giantsData: Giant[] = [
   {
     id: "58",
     name: "로자 파크스",
-    category: "성취",
+    category: "지혜",
     headline: "1913년 미국 앨라배마주의 인종 차별이 극심했던 시기에 로자 파크스가 태어났습니다. 그녀의 소년기는 ...",
     shortDescription: "로자 파크스의 일대기와 지혜",
     slug: "giant-58",
@@ -1647,7 +1647,7 @@ export const giantsData: Giant[] = [
   {
     id: "59",
     name: "프레데릭 더글러스",
-    category: "성취",
+    category: "지혜",
     headline: "1818년경 미국 메릴랜드주의 한 노예 농장에서 프레데릭 더글러스가 태어났습니다. 그의 유년기는 자신의...",
     shortDescription: "프레데릭 더글러스의 일대기와 지혜",
     slug: "giant-59",
@@ -1675,7 +1675,7 @@ export const giantsData: Giant[] = [
   {
     id: "60",
     name: "해리엇 터브먼",
-    category: "성취",
+    category: "지혜",
     headline: "1822년경 미국 메릴랜드주의 노예 농장에서 해리엇 터브먼이 태어났습니다. 그녀의 소년기는 지독한 노동...",
     shortDescription: "해리엇 터브먼의 일대기와 지혜",
     slug: "giant-60",
@@ -1703,7 +1703,7 @@ export const giantsData: Giant[] = [
   {
     id: "61",
     name: "오스카 쉰들러",
-    category: "성취",
+    category: "지혜",
     headline: "1908년 오스트리아-헝가리 제국의 유복한 사업가 가문에서 오스카 쉰들러가 태어났습니다. 그의 유년기는...",
     shortDescription: "오스카 쉰들러의 일대기와 지혜",
     slug: "giant-61",
@@ -1731,7 +1731,7 @@ export const giantsData: Giant[] = [
   {
     id: "62",
     name: "플로렌스 나이팅게일",
-    category: "성취",
+    category: "지혜",
     headline: "1820년 이탈리아 피렌체의 부유한 영국 귀족 가문에서 플로렌스 나이팅게일이 태어났습니다. 그녀의 유년...",
     shortDescription: "플로렌스 나이팅게일의 일대기와 지혜",
     slug: "giant-62",
@@ -1759,7 +1759,7 @@ export const giantsData: Giant[] = [
   {
     id: "63",
     name: "유관순",
-    category: "성취",
+    category: "지혜",
     headline: "1902년 충남 천안의 독실한 기독교 가문에서 유관순이 태어났습니다. 그녀의 유년기는 국권을 빼앗긴 망...",
     shortDescription: "유관순의 일대기와 지혜",
     slug: "giant-63",
@@ -1787,7 +1787,7 @@ export const giantsData: Giant[] = [
   {
     id: "64",
     name: "루이 브라이유",
-    category: "창의",
+    category: "지혜",
     headline: "1809년 프랑스의 작은 마을 쿠브레, 마구 제작자의 아들로 태어난 루이 브라이유의 유년기는 세 살 때...",
     shortDescription: "루이 브라이유의 일대기와 지혜",
     slug: "giant-64",
@@ -1815,7 +1815,7 @@ export const giantsData: Giant[] = [
   {
     id: "65",
     name: "잔 다르크",
-    category: "성취",
+    category: "지혜",
     headline: "1412년 프랑스의 작은 마을 동레미의 가난한 농가에서 잔 다르크가 태어났습니다. 그녀의 유년기는 백년...",
     shortDescription: "잔 다르크의 일대기와 지혜",
     slug: "giant-65",
@@ -1843,7 +1843,7 @@ export const giantsData: Giant[] = [
   {
     id: "66",
     name: "데스몬드 투투",
-    category: "성취",
+    category: "지혜",
     headline: "1931년 남아프리카 공화국의 인종 차별(아파르트헤이트)이 지배하던 시기에 데스몬드 투투가 태어났습니다...",
     shortDescription: "데스몬드 투투의 일대기와 지혜",
     slug: "giant-66",
@@ -1871,7 +1871,7 @@ export const giantsData: Giant[] = [
   {
     id: "67",
     name: "엘리 위젤",
-    category: "성취",
+    category: "지혜",
     headline: "1928년 루마니아의 신실한 유대인 마을에서 '기억의 수호자' 엘리 위젤이 태어났습니다. 그의 유년기는...",
     shortDescription: "엘리 위젤의 일대기와 지혜",
     slug: "giant-67",
@@ -1899,7 +1899,7 @@ export const giantsData: Giant[] = [
   {
     id: "68",
     name: "해리엇 비처 스토",
-    category: "창의",
+    category: "지혜",
     headline: "1811년 미국 코네티컷주의 독실한 목사 가문에서 '노예 해방의 불꽃' 해리엇 비처 스토가 태어났습니다...",
     shortDescription: "해리엇 비처 스토의 일대기와 지혜",
     slug: "giant-68",
@@ -1927,7 +1927,7 @@ export const giantsData: Giant[] = [
   {
     id: "69",
     name: "리고베르타 멘추",
-    category: "성취",
+    category: "지혜",
     headline: "1959년 과테말라의 척박한 산악 지대에서 마야 원주민의 딸로 리고베르타 멘추가 태어났습니다. 그녀의 ...",
     shortDescription: "리고베르타 멘추의 일대기와 지혜",
     slug: "giant-69",
@@ -1955,7 +1955,7 @@ export const giantsData: Giant[] = [
   {
     id: "70",
     name: "테리 폭스",
-    category: "성취",
+    category: "지혜",
     headline: "1958년 캐나다 위니펙의 평범한 가정에서 '희망의 마라토너' 테리 폭스가 태어났습니다. 그의 유년기는...",
     shortDescription: "테리 폭스의 일대기와 지혜",
     slug: "giant-70",
@@ -1983,7 +1983,7 @@ export const giantsData: Giant[] = [
   {
     id: "71",
     name: "김구",
-    category: "성취",
+    category: "지혜",
     headline: "1876년 조선 황해도 해주의 빈농 가문에서 '민족의 영원한 스승' 백범 김구가 태어났습니다. 그의 유...",
     shortDescription: "김구의 일대기와 지혜",
     slug: "giant-71",
@@ -2235,7 +2235,7 @@ export const giantsData: Giant[] = [
   {
     id: "80",
     name: "손무",
-    category: "성취",
+    category: "지혜",
     headline: "기원전 544년경 제나라의 몰락한 귀족 가문에서 손무가 태어났습니다. 그의 유년기는 춘추전국시대라는 피...",
     shortDescription: "손무의 일대기와 지혜",
     slug: "giant-80",
@@ -2434,7 +2434,7 @@ export const giantsData: Giant[] = [
     category: "지혜",
     headline: "1642년 영국의 울즈소프, 아버지가 세상을 떠난 뒤 유복자로 태어난 아이작 뉴턴의 유년기는 지독한 고...",
     shortDescription: "아이작 뉴턴의 일대기와 지혜",
-    slug: "giant-87",
+    slug: "newton",
     quote: "진리의 바다",
     pain: "유복자로 태어난 지독한 고립과 결핍, 그리고 경쟁 과학자들과의 끊임없는 지적 소유권 분쟁 속에 겪은 극심한 스트레스와 신경쇠약의 고통.",
     recovery: "'창조적 고립'의 시간 동안 만유인력의 법칙과 미적분학을 창안하여 현대 과학의 기틀을 세웠으며, 인류 지성사의 지도를 다시 그림.",
@@ -2453,7 +2453,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 아이작 뉴턴입니다.",
-    imageUrl: "/images/giants/giant-87.jpg",
+    imageUrl: "/images/giants/newton.jpg",
     era: "17-18세기"
   },
   {
@@ -2490,7 +2490,7 @@ export const giantsData: Giant[] = [
     category: "지혜",
     headline: "1809년 영국의 유복한 의사 가문에서 찰스 다윈이 태어났습니다. 그의 유년기는 화려한 명성 뒤에 숨겨...",
     shortDescription: "찰스 다윈의 일대기와 지혜",
-    slug: "giant-89",
+    slug: "darwin",
     quote: "진정한 적응",
     pain: "자신의 이론이 종교적 신념과 충돌한다는 지독한 중압감과 두려움, 그리고 출판 후 쏟아진 전 세계적인 비난과 조롱 속에 겪은 건강 악화.",
     recovery: "20년이 넘는 치밀한 연구와 증거 수집을 통해 '종의 기원'을 완성했으며, 과학적 방법론을 통해 인류의 생물학적 기원을 정립함.",
@@ -2509,16 +2509,16 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 찰스 다윈입니다.",
-    imageUrl: "/images/giants/giant-89.jpg",
+    imageUrl: "/images/giants/darwin.jpg",
     era: "19세기"
   },
   {
     id: "90",
     name: "미켈란젤로",
-    category: "창의",
+    category: "지혜",
     headline: "1475년 이탈리아 카프레제의 가난한 귀족 가문에서 미켈란젤로 부오나로티가 태어났습니다. 그의 유년기는...",
     shortDescription: "미켈란젤로의 일대기와 지혜",
-    slug: "giant-90",
+    slug: "michelangelo",
     quote: "장인의 몰입",
     pain: "해부학 연구를 위해 시체를 다루며 겪은 질병의 위협과 경쟁자들의 모함, 그리고 시스티나 성당 천장화를 그리며 입은 치명적인 신체적 장애.",
     recovery: "지독한 장인 정신과 불굴의 의지로 신체적 한계를 복했으며, 조각, 회화, 건축 전 분야에서 인류 미학의 최고 정점을 찍음.",
@@ -2537,13 +2537,13 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 미켈란젤로입니다.",
-    imageUrl: "/images/giants/giant-90.jpg",
+    imageUrl: "/images/giants/michelangelo.jpg",
     era: "15-16세기"
   },
   {
     id: "91",
     name: "클로드 모네",
-    category: "창의",
+    category: "지혜",
     headline: "1840년 프랑스 파리의 평범한 상인 가문에서 '빛의 화가' 클로드 모네가 태어났습니다. 그의 유년기는...",
     shortDescription: "클로드 모네의 일대기와 지혜",
     slug: "giant-91",
@@ -2571,7 +2571,7 @@ export const giantsData: Giant[] = [
   {
     id: "92",
     name: "표도르 도스토옙스키",
-    category: "창의",
+    category: "지혜",
     headline: "1821년 러시아 모스크바의 가난한 병원 의사 가문에서 '영혼의 해부학자' 표도르 도스토옙스키가 태어났...",
     shortDescription: "표도르 도스토옙스키의 일대기와 지혜",
     slug: "giant-92",
@@ -2599,7 +2599,7 @@ export const giantsData: Giant[] = [
   {
     id: "93",
     name: "빅토르 위고",
-    category: "창의",
+    category: "지혜",
     headline: "1802년 프랑스 브장송의 군인 가문에서 '프랑스의 양심' 빅토르 위고가 태어났습니다. 그의 유년기는 ...",
     shortDescription: "빅토르 위고의 일대기와 지혜",
     slug: "giant-93",
@@ -2627,7 +2627,7 @@ export const giantsData: Giant[] = [
   {
     id: "94",
     name: "안톤 체호프",
-    category: "창의",
+    category: "지혜",
     headline: "1860년 러시아 타간로크의 파산한 상인 가문에서 '현대 단편 소설의 거장' 안톤 체호프가 태어났습니다...",
     shortDescription: "안톤 체호프의 일대기와 지혜",
     slug: "giant-94",
@@ -2655,7 +2655,7 @@ export const giantsData: Giant[] = [
   {
     id: "95",
     name: "프레데리크 쇼팽",
-    category: "창의",
+    category: "지혜",
     headline: "1810년 폴란드 바르샤바 근교의 젤라조바 볼라에서 '피아노의 시인' 프레데리크 쇼팽이 태어났습니다. ...",
     shortDescription: "프레데리크 쇼팽의 일대기와 지혜",
     slug: "giant-95",
@@ -2683,7 +2683,7 @@ export const giantsData: Giant[] = [
   {
     id: "96",
     name: "카츠시카 호쿠사이",
-    category: "창의",
+    category: "지혜",
     headline: "1760년 일본 에도(지금의 도쿄)의 한 평범한 가정에서 카츠시카 호쿠사이가 태어났습니다. 그의 유년기...",
     shortDescription: "카츠시카 호쿠사이의 일대기와 지혜",
     slug: "giant-96",
@@ -2711,10 +2711,10 @@ export const giantsData: Giant[] = [
   {
     id: "97",
     name: "애가사 크리스티",
-    category: "창의",
+    category: "지혜",
     headline: "1890년 영국의 중산층 가정에서 '추리 소설의 여왕' 애가사 크리스티가 태어났습니다. 그녀의 유년기는...",
     shortDescription: "애가사 크리스티의 일대기와 지혜",
-    slug: "가",
+    slug: "agatha-christie",
     quote: "통찰의 힘",
     pain: "남편의 외도와 어머니의 죽음이 겹친 1926년의 정신적 붕괴와 실종 사건, 그리고 여성을 과소평가하던 장르 문학계의 지독한 편견 속에 겪은 고통.",
     recovery: "개인적인 비극을 창작의 에너지로 승화시켜 인류 역사상 가장 많이 팔린 소설가가 되었으며, 추리 문학의 '황금기'를 이끄는 독보적인 거장이 됨.",
@@ -2733,16 +2733,16 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 애가사 크리스티입니다.",
-    imageUrl: "/images/giants/가.jpg",
+    imageUrl: "/images/giants/agatha-christie.jpg",
     era: "20세기"
   },
   {
     id: "98",
     name: "마크 트웨인",
-    category: "창의",
+    category: "지혜",
     headline: "1835년 미국 미주리주, 핼리 혜성이 밤하늘을 수놓던 날 '미국 현대 문학의 아버지' 마크 트웨인이 ...",
     shortDescription: "마크 트웨인의 일대기와 지혜",
-    slug: "giant-98",
+    slug: "mark-twain",
     quote: "웃음의 무기",
     pain: "투자 실패로 인한 전 재산 탕진과 파산, 그리고 사랑하는 아내와 세 딸을 차례로 잃은 참혹한 개인적 비극 속에 겪은 지독한 슬픔과 고립.",
     recovery: "개인적인 비극과 파산을 딛고 강연과 집필을 통해 모든 빚을 갚았으며, 날카로운 해학과 풍자로 미국의 양심을 일깨운 불멸의 작가가 됨.",
@@ -2761,16 +2761,16 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마크 트웨인입니다.",
-    imageUrl: "/images/giants/giant-98.jpg",
+    imageUrl: "/images/giants/mark-twain.jpg",
     era: "19-20세기"
   },
   {
     id: "99",
     name: "요한 볼프강 폰 괴테",
-    category: "창의",
+    category: "지혜",
     headline: "1749년 독일 프랑크푸르트의 유복한 가문에서 '독일 문학의 거성' 요한 볼프강 폰 괴테가 태어났습니다...",
     shortDescription: "요한 볼프강 폰 괴테의 일대기와 지혜",
-    slug: "giant-99",
+    slug: "goethe",
     quote: "끊임없는 노력",
     pain: "천재적인 감수성으로 인한 극심한 내적 갈등과 정계 진출 후 겪은 현실 정치의 한계, 그리고 평생에 걸친 '파우스트' 완성이라는 지독한 예술적 고뇌.",
     recovery: "문학을 넘어 과학과 정치를 아우르는 전인적 성장을 이뤄냈으며, 끊임없는 노력(Streben)을 통해 인간의 구원을 선포한 서구 지성사의 정점이 됨.",
@@ -2789,16 +2789,16 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 요한 볼프강 폰 괴테입니다.",
-    imageUrl: "/images/giants/giant-99.jpg",
+    imageUrl: "/images/giants/goethe.jpg",
     era: "18-19세기"
   },
   {
     id: "100",
     name: "메리 셸리",
-    category: "창의",
+    category: "지혜",
     headline: "1797년 영국의 진보적인 지식인 가문에서 'SF 소설의 창시자' 메리 셸리가 태어났습니다. 그녀의 유...",
     shortDescription: "메리 셸리의 일대기와 지혜",
-    slug: "giant-100",
+    slug: "mary-shelley",
     quote: "창조의 책임",
     pain: "어머니의 죽음으로 시작된 상실의 트라우마와 남편 및 세 자녀의 잇따른 죽음, 그리고 여성 작가로서 겪어야 했던 지독한 사회적 편견과 빈곤.",
     recovery: "개인적인 비극을 '프랑켄슈타인'이라는 혁명적인 문학적 탄생으로 승화시켰으며, 근대 과학 문명에 대한 최초의 철학적 경고를 던진 선구자가 됨.",
@@ -2817,7 +2817,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 메리 셸리입니다.",
-    imageUrl: "/images/giants/giant-100.jpg",
+    imageUrl: "/images/giants/mary-shelley.jpg",
     era: "19세기"
   }
 ];
