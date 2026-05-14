@@ -6,7 +6,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import { AuthProvider } from "@/components/auth-provider";
 
 const playfair = Playfair_Display({ 
   subsets: ["latin"],
@@ -63,10 +62,8 @@ export default async function RootLayout({
       </head>
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages}>
-          <AuthProvider>
-            {children}
-            <Footer />
-          </AuthProvider>
+          {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
