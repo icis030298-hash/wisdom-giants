@@ -1,42 +1,45 @@
 "use client"
 
 import { Brain, Clock, MessageCircle, Sparkles, BookOpen, Users } from "lucide-react"
-
-const features = [
-  {
-    icon: Brain,
-    title: "역사적 거인과의 실시간 대화",
-    description: "첨단 AI 기술을 통해 역사 속 인물들과 시공간을 초월한 깊이 있는 대화를 나눠보세요.",
-    color: "from-amber-500/20 to-orange-500/20"
-  },
-  {
-    icon: Clock,
-    title: "2,500년 인류 지혜의 집약",
-    description: "인류가 쌓아온 2,500년의 역사와 업적, 그 속에 담긴 통찰을 한곳에서 만나보실 수 있습니다.",
-    color: "from-blue-500/20 to-cyan-500/20"
-  },
-  {
-    icon: BookOpen,
-    title: "거장에게 직접 배우는 지식",
-    description: "철학, 과학, 예술 등 각 분야의 거장들에게 직접 듣는 듯한 생생한 배움의 가치를 전합니다.",
-    color: "from-emerald-500/20 to-teal-500/20"
-  },
-  {
-    icon: MessageCircle,
-    title: "나만을 위한 맞춤형 통찰",
-    description: "질문을 던지고 아이디어를 탐구하며, 당신의 삶에 필요한 개인화된 가이드를 얻으세요.",
-    color: "from-purple-500/20 to-pink-500/20"
-  },
-]
-
-const stats = [
-  { value: "40+", label: "위대한 지성", icon: Users },
-  { value: "2,500+", label: "지혜의 역사", icon: Clock },
-  { value: "12", label: "탐구 분야", icon: BookOpen },
-  { value: "∞", label: "영감의 대화", icon: MessageCircle },
-]
+import { useTranslations } from "next-intl"
 
 export function StatsSection() {
+  const t = useTranslations("Stats")
+  
+  const features = [
+    {
+      icon: Brain,
+      title: t("features.0.title"),
+      description: t("features.0.description"),
+      color: "from-amber-500/20 to-orange-500/20"
+    },
+    {
+      icon: Clock,
+      title: t("features.1.title"),
+      description: t("features.1.description"),
+      color: "from-blue-500/20 to-cyan-500/20"
+    },
+    {
+      icon: BookOpen,
+      title: t("features.2.title"),
+      description: t("features.2.description"),
+      color: "from-emerald-500/20 to-teal-500/20"
+    },
+    {
+      icon: MessageCircle,
+      title: t("features.3.title"),
+      description: t("features.3.description"),
+      color: "from-purple-500/20 to-pink-500/20"
+    },
+  ]
+
+  const stats = [
+    { value: "40+", label: t("stats.minds"), icon: Users },
+    { value: "2,500+", label: t("stats.history"), icon: Clock },
+    { value: "12", label: t("stats.fields"), icon: BookOpen },
+    { value: "∞", label: t("stats.inspiration"), icon: MessageCircle },
+  ]
+
   return (
     <section className="relative py-20 px-4">
       {/* Background elements */}
@@ -72,11 +75,11 @@ export function StatsSection() {
           
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-400">
-              거인의 어깨와 함께해야 하는 이유
+              {t("title")}
             </span>
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed font-light">
-            수천 년의 시간을 넘어 인류의 지혜를 마주하는 혁신적인 여정을 경험해 보세요.
+            {t("description")}
           </p>
         </div>
         

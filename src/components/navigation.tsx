@@ -1,18 +1,37 @@
 "use client"
 
-import { useState, useEffect } from "react"
-import { Menu, X, Sparkles, BookOpen, Users, MessageCircle, Info } from "lucide-react"
-
-const navLinks = [
-  { label: "지성들의 전당", href: "#giants", icon: Users },
-  { label: "지혜의 보관소", href: "#library", icon: BookOpen },
-  { label: "대화 목록", href: "#chat", icon: MessageCircle },
-  { label: "소개", href: "#about", icon: Info },
-]
+import { useState, useEffect, useTransition } from "react"
+import { Menu, X, Sparkles, BookOpen, Users, MessageCircle, Info, Languages, ChevronDown } from "lucide-react"
+import { useTranslations, useLocale } from "next-intl"
+import { usePathname, useRouter } from "@/i18n/routing"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 export function Navigation() {
+  const t = useTranslations("Navigation")
+  const locale = useLocale()
+  const router = useRouter()
+  const pathname = usePathname()
+  const [isPending, startTransition] = useTransition()
+  
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  
+  const navLinks = [
+    { label: t("hallOfGems"), href: "#giants", icon: Users },
+    { label: t("wisdomArchive"), href: "#library", icon: BookOpen },
+    { label: t("chatList"), href: "#chat", icon: MessageCircle },
+    { label: t("about"), href: "#about", icon: Info },
+  ]
+
+  const locales = [
+    { code: 'ko', label: '한국어' },
+    { code: 'en', label: 'English' },
+  ]
   
   useEffect(() => {
     const handleScroll = () => {
@@ -22,6 +41,12 @@ export function Navigation() {
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
+
+  function onLocaleChange(nextLocale: string) {
+    startTransition(() => {
+      router.replace(pathname, {locale: nextLocale as any})
+    })
+  }
   
   return (
     <>
@@ -34,9 +59,9 @@ export function Navigation() {
             </div>
             <div className="hidden sm:block">
               <span className="font-serif text-lg font-semibold text-foreground group-hover:text-amber-200 transition-colors">
-                Shoulders of Giants
+                {t("title")}
               </span>
-              <p className="text-xs text-muted-foreground -mt-0.5">위대한 지성들의 전당</p>
+              <p className="text-xs text-muted-foreground -mt-0.5">{t("subtitle")}</p>
             </div>
           </a>
           
@@ -54,20 +79,62 @@ export function Navigation() {
             ))}
           </div>
           
-          {/* CTA Button */}
-          <div className="hidden md:flex items-center gap-3">
+          {/* CTA & Language Switcher */}
+          <div className="hidden md:flex items-center gap-4">
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button className="flex items-center gap-2 px-3 py-2 rounded-xl glass border border-white/10 text-sm text-foreground hover:bg-white/5 transition-all outline-none">
+                  <Languages className="w-4 h-4 text-amber-400" />
+                  <span className="uppercase">{locale}</span>
+                  <ChevronDown className="w-3 h-3 text-muted-foreground" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="glass border-white/10 min-w-[120px]">
+                {locales.map((l) => (
+                  <DropdownMenuItem
+                    key={l.code}
+                    onClick={() => onLocaleChange(l.code)}
+                    className={`cursor-pointer focus:bg-amber-500/10 focus:text-amber-200 ${locale === l.code ? "bg-amber-500/10 text-amber-200" : "text-muted-foreground"}`}
+                  >
+                    {l.label}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+
             <button className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground font-medium text-sm hover:shadow-lg hover:shadow-amber-500/25 transition-all">
-              탐험 시작하기
+              {t("startExploring")}
             </button>
           </div>
           
-          {/* Mobile menu button */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg glass text-foreground"
-          >
-            {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-          </button>
+          {/* Mobile actions */}
+          <div className="flex items-center gap-2 md:hidden">
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button className="p-2 rounded-lg glass text-foreground outline-none">
+                  <Languages className="w-5 h-5" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="glass border-white/10 min-w-[120px]">
+                {locales.map((l) => (
+                  <DropdownMenuItem
+                    key={l.code}
+                    onClick={() => onLocaleChange(l.code)}
+                    className={`cursor-pointer focus:bg-amber-500/10 focus:text-amber-200 ${locale === l.code ? "bg-amber-500/10 text-amber-200" : "text-muted-foreground"}`}
+                  >
+                    {l.label}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="p-2 rounded-lg glass text-foreground"
+            >
+              {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
+          </div>
         </div>
       </nav>
       
@@ -91,7 +158,7 @@ export function Navigation() {
             </div>
             <div className="mt-4 pt-4 border-t border-border/50">
               <button className="w-full px-5 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground font-medium hover:shadow-lg hover:shadow-amber-500/25 transition-all">
-                탐험 시작하기
+                {t("startExploring")}
               </button>
             </div>
           </div>

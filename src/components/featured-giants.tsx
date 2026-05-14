@@ -2,15 +2,20 @@
 
 import { Sparkles, ArrowRight, Clock, Quote } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link"
 import { useMemo } from "react"
 import type { Giant } from "@/lib/giants-data"
+import { useTranslations } from "next-intl"
+import { Link } from "@/i18n/routing"
 
 interface FeaturedGiantsProps {
   giants: Giant[]
 }
 
 export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
+  const t = useTranslations("Featured")
+  const tg = useTranslations("Giants")
+  const tc = useTranslations("GiantsGrid")
+  
   // Daily rotating logic
   const featured = useMemo(() => {
     const today = new Date()
@@ -41,18 +46,18 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
           <div>
             <h2 className="font-serif text-4xl sm:text-5xl font-bold text-foreground mb-6">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500">
-                위대한 거인들의 전당
+                {t("title")}
               </span>
             </h2>
             <p className="text-muted-foreground/80 max-w-[850px] text-lg font-light leading-relaxed tracking-tight" style={{ letterSpacing: '-0.02em' }}>
-              역사를 바꾼 위인들의 지혜를 탐험해 보세요. 인물을 선택하여 시공간을 초월한 대화를 시작할 수 있습니다.
+              {t("description")}
             </p>
           </div>
           
-          <a href="#giants" className="flex items-center gap-2 text-amber-400/80 hover:text-amber-400 transition-all group text-sm font-medium tracking-wide uppercase">
-            <span>전체 위인 보기</span>
+          <Link href="#giants" className="flex items-center gap-2 text-amber-400/80 hover:text-amber-400 transition-all group text-sm font-medium tracking-wide uppercase">
+            <span>{t("viewAll")}</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </a>
+          </Link>
         </div>
       </div>
       
@@ -67,7 +72,7 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
             <div className="absolute inset-0 z-0 bg-muted">
               <Image 
                 src={featured[0].imageUrl} 
-                alt={featured[0].name}
+                alt={tg(`${featured[0].id}.name`)}
                 fill
                 className="object-cover object-top opacity-20 group-hover:opacity-40 transition-all duration-1000 group-hover:scale-105"
                 priority
@@ -81,30 +86,30 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
               <div>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 text-[10px] font-bold uppercase tracking-widest rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 mb-6">
                   <Sparkles className="w-3 h-3" />
-                  최고의 추천
+                  {t("bestPick")}
                 </span>
                 <h3 className="font-serif text-4xl md:text-5xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-3 leading-tight">
-                  {featured[0].name}
+                  {tg(`${featured[0].id}.name`)}
                 </h3>
-                <p className="text-amber-400/90 text-xl font-medium tracking-tight italic">{featured[0].title}</p>
+                <p className="text-amber-400/90 text-xl font-medium tracking-tight italic">{tg(`${featured[0].id}.headline`)}</p>
               </div>
               
               <div className="max-w-md">
                 <div className="flex items-center gap-4 text-xs text-muted-foreground/60 mb-6 font-medium">
                   <span className="flex items-center gap-1.5">
                     <Clock className="w-3.5 h-3.5" />
-                    {featured[0].era}
+                    {tc("era")}
                   </span>
                   <span className="w-1 h-1 rounded-full bg-muted-foreground/30" />
                   <span className="uppercase tracking-wider">
-                    {featured[0].field}
+                    {tc(`categories.${featured[0].category}`)}
                   </span>
                 </div>
                 
                 <div className="flex items-start gap-3 p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
                   <Quote className="w-5 h-5 text-amber-400/40 shrink-0 mt-1" />
                   <p className="text-base leading-relaxed text-foreground/90 font-light italic">
-                    &ldquo;{featured[0].quote}&rdquo;
+                    &ldquo;{tg(`${featured[0].id}.quote`)}&rdquo;
                   </p>
                 </div>
               </div>
@@ -121,18 +126,18 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
             
             <div className="relative z-10 h-full flex items-center justify-between gap-8">
               <div className="flex-1">
-                <div className="text-[10px] font-bold text-amber-400/60 uppercase tracking-[0.2em] mb-3">Today's Pick</div>
+                <div className="text-[10px] font-bold text-amber-400/60 uppercase tracking-[0.2em] mb-3">{t("todaysPick")}</div>
                 <h3 className="font-serif text-2xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-2">
-                  {featured[1].name}
+                  {tg(`${featured[1].id}.name`)}
                 </h3>
                 <p className="text-sm text-muted-foreground/80 line-clamp-2 font-light leading-relaxed">
-                  {featured[1].description}
+                  {tg(`${featured[1].id}.shortDescription`)}
                 </p>
               </div>
               <div className="relative w-28 h-28 rounded-2xl overflow-hidden shrink-0 ring-4 ring-amber-500/5 group-hover:ring-amber-500/20 transition-all duration-500 bg-muted">
                 <Image 
                   src={featured[1].imageUrl} 
-                  alt={featured[1].name}
+                  alt={tg(`${featured[1].id}.name`)}
                   fill
                   className="object-cover object-top group-hover:scale-110 transition-transform duration-700"
                   unoptimized={true}
@@ -154,7 +159,7 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
                 <div className="relative w-16 h-16 rounded-2xl overflow-hidden mb-6 ring-2 ring-amber-500/10 group-hover:ring-amber-500/30 transition-all duration-500 bg-muted">
                   <Image 
                     src={giant.imageUrl} 
-                    alt={giant.name}
+                    alt={tg(`${giant.id}.name`)}
                     fill
                     className="object-cover object-top"
                     unoptimized={true}
@@ -162,12 +167,12 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
                 </div>
                 
                 <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-1">
-                  {giant.name}
+                  {tg(`${giant.id}.name`)}
                 </h3>
-                <p className="text-xs text-muted-foreground/60 font-medium tracking-tight">{giant.era}</p>
+                <p className="text-xs text-muted-foreground/60 font-medium tracking-tight">{tc("era")}</p>
                 
                 <div className="mt-auto pt-4 flex items-center gap-1.5 text-amber-400/70 text-[10px] font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0">
-                  <span>대화하기</span>
+                  <span>{t("chatNow")}</span>
                   <ArrowRight className="w-3 h-3" />
                 </div>
               </div>

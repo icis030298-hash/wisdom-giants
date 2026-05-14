@@ -1,0 +1,879 @@
+{
+  "Navigation": {
+    "hallOfGems": "Hall of Minds",
+    "wisdomArchive": "Wisdom Archive",
+    "chatList": "Chat List",
+    "about": "About",
+    "startExploring": "Start Exploring",
+    "title": "Shoulders of Giants",
+    "subtitle": "The Hall of Great Minds"
+  },
+  "Hero": {
+    "badge": "The Hall of Great Minds",
+    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
+    "quoteAuthor": "Isaac Newton",
+    "startJourney": "Start Journey",
+    "exploreHall": "Explore Hall",
+    "stats": {
+      "minds": "Great Minds",
+      "history": "Years of Wisdom",
+      "inspiration": "Inspiration"
+    },
+    "guide": {
+      "title": "Wisdom Hall Journey Guide",
+      "selectGiant": "Select a Giant",
+      "selectGiantDesc": "Find inspiring figures among 40+ historical legends.",
+      "epic": "Epic Narratives",
+      "epicDesc": "Read life records as if the giants themselves were telling them.",
+      "chat": "Real-time Chat",
+      "chatDesc": "Share your concerns with giants reborn through latest AI.",
+      "startNow": "Start Now"
+    }
+  },
+  "Featured": {
+    "title": "The Hall of Great Giants",
+    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
+    "viewAll": "View All Giants",
+    "bestPick": "Best Pick",
+    "todaysPick": "Today's Pick",
+    "chatNow": "Chat Now"
+  },
+  "GiantsGrid": {
+    "title": "Historical Giants",
+    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
+    "searchPlaceholder": "Search by name or field...",
+    "allGiants": "All Giants",
+    "categories": {
+      "achievement": "Achievement",
+      "adversity": "Adversity",
+      "wisdom": "Wisdom",
+      "creativity": "Creativity"
+    },
+    "resultsCount": "Found {filtered} out of {total} great minds",
+    "readEpic": "Read Epic ✨",
+    "noResults": "No results found",
+    "noResultsDesc": "Try changing your search term or filter.",
+    "era": "Historical Giant"
+  },
+  "GiantDetail": {
+    "returnToSquare": "Return to the Square",
+    "chatWith": "Chat with {name}",
+    "pain": "The Pain",
+    "recovery": "The Recovery",
+    "lessons": "Lessons",
+    "notFound": "Giant not found.",
+    "goHome": "Back to Home"
+  },
+  "Giants": {
+    "steve-jobs": {
+      "name": "Steve Jobs",
+      "headline": "The Return of the Prodigal Visionary",
+      "shortDescription": "The Icon of Innovation Who Dared to Think Different",
+      "pain": "Imagine building a world-changing empire from your parents' garage, only to be publicly fired from it at the age of 30. In 1985, Steve Jobs faced a crushing humiliation that would have broken most. The very identity he had forged was stripped away, leaving him a \"public failure.\" He felt he had let the previous generation of entrepreneurs down, wandering in a wilderness of doubt for months, wondering if his best days were already behind him.",
+      "recovery": "Yet, in the silence of his exile, Jobs realized he still loved his craft. This period of being a \"beginner\" again fueled a creative explosion, leading him to found NeXT and Pixar. When Apple eventually bought NeXT, Jobs returned to a dying company and transformed it into the most valuable entity on earth. He didn't just build gadgets; he built tools for the human spirit, proving that the most bitter medicine is often exactly what you need to heal and reinvent yourself.",
+      "lessons": [
+        {
+          "title": "Stay Hungry, Stay Foolish",
+          "content": "Never settle for 'good enough' and never lose your curiosity."
+        },
+        {
+          "title": "Trust the Dots",
+          "content": "You cannot connect the dots looking forward; you can only connect them looking backward."
+        }
+      ],
+      "quote": "Stay Hungry, Stay Foolish.\nThe journey itself is the reward.",
+      "persona": "You are Steve Jobs. Give direct and insightful advice."
+    },
+    "napoleon": {
+      "name": "Napoleon Bonaparte",
+      "headline": "The Architect of Meritocracy",
+      "shortDescription": "The Conqueror Who Rewrote the Rules of Fate",
+      "quote": "Victory belongs to the most persevering.",
+      "pain": "Born as a minor noble on a tiny island, Napoleon entered a French military academy as an outsider who could barely speak the language. He was mocked for his accent and his stature, living in a society where your birth mattered more than your brain. He spent his youth in lonely study, feeling the weight of a world that had no place for an ambitious boy from Corsica. He saw a crumbling monarchy and a chaotic revolution, wondering if order could ever be restored by one who owned nothing but a sword.",
+      "recovery": "Napoleon didn't wait for permission to lead; he took it. Through sheer brilliance and a work ethic that bypassed sleep, he rose to become Emperor, proving that talent belongs to those who use it. He modernized laws, education, and infrastructure across Europe. His \"Napoleonic Code\" remains the foundation of many legal systems today. He taught the world that \"impossible\" is a word found only in the dictionary of fools, and that destiny is something you seize, not something you receive.",
+      "persona": "You are Napoleon. Advise with dignity and firmness.",
+      "lessons": [
+        {
+          "title": "Merit Over Birth",
+          "content": "Your background is just a starting point, not a ceiling."
+        },
+        {
+          "title": "Speed is Everything",
+          "content": "The greatest victories are won by those who decide and act the fastest."
+        }
+      ]
+    },
+    "king-sejong": {
+      "name": "King Sejong the Great",
+      "headline": "The Light of the People",
+      "shortDescription": "The Monarch Who Gifted a Nation Its Voice",
+      "quote": "Since the language of this nation is different from that of China...",
+      "pain": "In 15th-century Joseon, King Sejong watched his people struggle to express their suffering. Laws were written in complex Chinese characters that only the elite could read, leaving the commoners helpless and illiterate. Sejong suffered from failing eyesight and chronic pain, yet his greatest agony was the intellectual darkness of his subjects. He faced fierce opposition from his own ministers, who believed that keeping the people ignorant was the only way to maintain order and tradition.",
+      "recovery": "Working in secret, often by candlelight as his vision dimmed, Sejong created Hangeul—a phonetic alphabet so scientific that anyone could learn it in a day. It was an act of profound love and rebellion. By giving the people their own letters, he gave them power, dignity, and a shared identity. His reign became a golden age of science, music, and art. He proved that true leadership isn't about standing above the people, but about providing the light they need to stand on their own.",
+      "persona": "You are King Sejong the Great. Advise with benevolence and wisdom.",
+      "lessons": [
+        {
+          "title": "Design for All",
+          "content": "Innovation is meaningless if it is not accessible to everyone."
+        },
+        {
+          "title": "Empowerment",
+          "content": "The greatest legacy a leader can leave is the ability for others to speak for themselves."
+        }
+      ]
+    },
+    "elon-musk": {
+      "name": "Elon Musk",
+      "headline": "The Architect of the Impossible",
+      "shortDescription": "The Audacious Dreamer Pushing Humanity to the Stars",
+      "quote": "Failure is an option here. If things are not failing, you are not innovating enough.",
+      "pain": "In 2008, Elon Musk was on the brink of a total mental and financial collapse. Both SpaceX and Tesla were failing. Three rocket launches had ended in explosions, and the global financial crisis was strangling his remaining capital. He was forced to borrow money from friends just to pay rent, while the media gleefully predicted his downfall. He faced the very real possibility that his dreams of electric cars and Mars would die in a pile of ash and debt.",
+      "recovery": "With the weight of the world on his shoulders, Musk pushed for one final, desperate launch. It succeeded. That single victory unlocked the funding that saved both companies. Today, he has revolutionized the space industry, accelerated the global transition to sustainable energy, and pushed the boundaries of brain-computer interfaces. His life is a testament to the fact that when something is important enough, you do it even if the odds are not in your favor.",
+      "persona": "You are Elon Musk. Advise with a future-oriented and disruptive perspective.",
+      "lessons": [
+        {
+          "title": "First Principles Thinking",
+          "content": "Break problems down to their fundamental truths instead of reasoning by analogy."
+        },
+        {
+          "title": "Resilience",
+          "content": "Failure is an option here. If things are not failing, you are not innovating enough."
+        }
+      ]
+    },
+    "genghis-khan": {
+      "name": "Genghis Khan",
+      "headline": "The Master of Unity",
+      "shortDescription": "The Outcast Who Built the Largest Land Empire in History",
+      "quote": "I was not the conqueror until I conquered the fear within myself.",
+      "pain": "Born as Temujin, his childhood was a nightmare of betrayal. His father was poisoned, and his tribe abandoned his family to starve on the frozen steppe. He spent his youth as a fugitive, even being enslaved in a wooden collar. He knew the bite of hunger and the sting of being forgotten by the world. His life was a constant battle for survival in a land where brother killed brother for a few heads of cattle.",
+      "recovery": "Temujin realized that the only way to end the cycle of violence was to unite the warring tribes under a common law. He rose through merit, not bloodline, and transformed a group of fractured nomads into the most disciplined military force the world had ever seen. As Genghis Khan, he created a massive trade network (the Silk Road) and practiced religious tolerance centuries before it was common. He turned a world of chaos into a world of connection, proving that unity is the ultimate weapon against hardship.",
+      "persona": "You are Genghis Khan. Advise with strength and practicality.",
+      "lessons": [
+        {
+          "title": "Adaptability",
+          "content": "The strength of a wall is in its bricks; the strength of an army is in its discipline."
+        },
+        {
+          "title": "Visionary Scale",
+          "content": "Think beyond your tribe; the world is your true territory."
+        }
+      ]
+    },
+    "alexander-the-great": {
+      "name": "Alexander the Great",
+      "headline": "The King of Eternal Glory",
+      "shortDescription": "The Young Lion Who Conquered the Known World",
+      "quote": "There is nothing impossible to him who will try.",
+      "pain": "Alexander grew up in the shadow of a powerful father, Philip II, constantly fearing that there would be no worlds left for him to conquer. At age 20, he inherited a kingdom surrounded by enemies and a restless army. He was a young man burdened with the impossible dream of blending the East and West into one civilization. Every step of his campaign was a gamble against superior numbers, harsh climates, and the constant threat of mutiny from men who just wanted to go home.",
+      "recovery": "Alexander led from the front, always the first to charge into the breach. He didn't just conquer lands; he founded cities, spread Greek culture, and encouraged the mixing of traditions. From Egypt to the borders of India, his name became synonymous with unstoppable will. Though his life was short, he reshaped the map of the world forever. He proved that a short life of immense impact is worth more than a long life of quiet safety.",
+      "persona": "You are Alexander the Great. Advise with courage and passion.",
+      "lessons": [
+        {
+          "title": "Lead by Example",
+          "content": "A leader's place is at the front of the charge, not in the safety of the rear."
+        },
+        {
+          "title": "Transcend Borders",
+          "content": "True greatness comes from bridging cultures, not just dominating them."
+        }
+      ]
+    },
+    "walt-disney": {
+      "name": "Walt Disney",
+      "headline": "The Merchant of Dreams",
+      "shortDescription": "The Man Who Turned Imagination Into an Empire",
+      "quote": "Laughter is timeless, imagination has no age, and dreams are forever.",
+      "pain": "Walt Disney was once fired by a newspaper editor who told him he \"lacked imagination and had no good ideas.\" His first animation studio went bankrupt, leaving him so poor he reportedly ate dog food to survive. He lost the rights to his first hit character, Oswald the Lucky Rabbit, and most of his staff deserted him. He stood in a train station, penniless and defeated, with nothing but a small suitcase and a drawing of a mouse.",
+      "recovery": "That mouse, Mickey, became the foundation of a global empire. Walt pioneered the first full-length animated feature, Snow White, which critics called \"Disney's Folly\" and predicted would fail. Instead, it became a masterpiece. He went on to build Disneyland, the first true theme park, creating a place where adults and children could step into a world of wonder together. He proved that as long as you have a dream and the courage to pursue it, no failure is final.",
+      "persona": "You are Walt Disney. Advise with positivity and creativity.",
+      "lessons": [
+        {
+          "title": "Perseverance",
+          "content": "All our dreams can come true if we have the courage to pursue them."
+        },
+        {
+          "title": "Quality First",
+          "content": "Do what you do so well that they will want to see it again and bring their friends."
+        }
+      ]
+    },
+    "thomas-edison": {
+      "name": "Thomas Edison",
+      "headline": "The Wizard of Light",
+      "shortDescription": "The Inventor Who Lit Up the Darkness",
+      "quote": "Genius is 1% inspiration and 99% perspiration.",
+      "pain": "Edison was told by his teachers that he was \"too stupid to learn anything.\" He was partially deaf and largely self-taught, working as a newsboy on trains while conducting dangerous chemistry experiments in his spare time. When he set out to create the electric light bulb, he faced thousands of failures. His laboratory burned down, his investors grew restless, and the world mocked him for trying to \"tame lightning\" in a glass jar.",
+      "recovery": "Edison famously said, \"I have not failed. I've just found 10,000 ways that won't work.\" His relentless persistence eventually led to a practical incandescent bulb, changing human civilization forever by turning night into day. He didn't just invent products; he invented the modern industrial research lab. With over 1,000 patents, he showed the world that genius is 1% inspiration and 99% perspiration.",
+      "persona": "You are Thomas Edison. Advise with persistence and practicality.",
+      "lessons": [
+        {
+          "title": "Iterative Success",
+          "content": "Every failure is simply a data point on the road to a solution."
+        },
+        {
+          "title": "Hard Work",
+          "content": "There is no substitute for hard work and relentless curiosity."
+        }
+      ]
+    },
+    "julius-caesar": {
+      "name": "Julius Caesar",
+      "headline": "Julius Caesar: The Conqueror Who Crossed the Rubicon",
+      "shortDescription": "The Visionary Who Transformed an Empire",
+      "quote": "The die is cast.",
+      "pain": "Caesar was born into a noble family that had lost its wealth and influence. In his youth, he was a fugitive, stripped of his inheritance and hunted by the dictator Sulla. He was even kidnapped by pirates, an experience that could have broken a lesser man. He spent years in the shadow of established rivals, constantly struggling to prove that the name 'Caesar' was more than a relic of a faded past. He lived with the terrifying knowledge that one wrong political move meant not just exile, but death.",
+      "recovery": "Caesar didn't just survive; he conquered. In Gaul, he forged a loyal army through shared hardship, and when the Senate tried to strip him of his power, he made the fateful decision to cross the Rubicon. He transformed Rome from a crumbling Republic into a global Empire, implementing reforms that helped the poor and stabilized the state. Even his betrayal became a part of his eternal legend. He proved that when you \"cross the Rubicon\" in your own life, there is no going back—only forward to greatness.",
+      "persona": "You are Julius Caesar. Advise with charisma and strategic insight.",
+      "lessons": [
+        {
+          "title": "Decision is Power",
+          "content": "The most dangerous moment is the moment of hesitation. Once the die is cast, commit with everything you have."
+        },
+        {
+          "title": "Loyalty through Service",
+          "content": "A leader is only as strong as the people who believe in them."
+        }
+      ]
+    },
+    "henry-ford": {
+      "name": "Henry Ford",
+      "headline": "Henry Ford: The Man Who Put the World on Wheels",
+      "shortDescription": "The Revolutionary of Modern Industry",
+      "quote": "Whether you think you can, or you think you can't – you're right.",
+      "pain": "Henry Ford was a farm boy who hated farm work. His early attempts at building a car company ended in spectacular bankruptcy. Investors thought he was a dreamer who couldn't deliver, and his second company failed as well. He was ridiculed by the wealthy elite as a \"tinkerer\" who would never amount to anything. He lived through the frustration of seeing his peers succeed while he struggled in a small workshop, obsessed with a vision that no one else could see.",
+      "recovery": "Ford realized that cars shouldn't just be toys for the rich; they should be tools for everyone. By inventing the moving assembly line, he revolutionized not just manufacturing, but the very way humans lived. He created the Model T and paid his workers a \"living wage\" of $5 a day—a scandalous sum at the time—because he knew that the people who built the cars should be able to buy them. He didn't just invent a product; he invented the middle class.",
+      "persona": "You are Henry Ford. Advise with innovation and efficiency.",
+      "lessons": [
+        {
+          "title": "Failure is an Opportunity",
+          "content": "Failure is simply the opportunity to begin again, this time more intelligently."
+        },
+        {
+          "title": "Democracy of Access",
+          "content": "Real innovation isn't about making things for the few, but making them for the many."
+        }
+      ]
+    },
+    "frida-kahlo": {
+      "name": "Frida Kahlo",
+      "headline": "Frida Kahlo: The Artist of Pain and Fire",
+      "shortDescription": "The Portrait of Resilience and Soul",
+      "quote": "I paint myself because I am the subject I know best.",
+      "pain": "At 18, Frida’s life was shattered by a horrific bus accident that left her with a broken spine and a lifetime of chronic pain. She spent months in a full-body cast, staring at the ceiling, her dreams of becoming a doctor gone. She endured over 30 surgeries and the crushing heartbreak of a turbulent marriage and lost pregnancies. Her body was a prison of steel corsets and bandages, and she lived every day in a battle against her own physical and emotional agony.",
+      "recovery": "Frida didn't just endure the pain; she painted it. She turned her bed into a studio and her mirror into a canvas. Through her vibrant and surreal self-portraits, she bared her soul to the world, transforming her suffering into a global symbol of resilience and female strength. She proved that even when the body is broken, the spirit can be a masterpiece of fire and color. She is a reminder that we can use our wounds as the paint for our greatest works.",
+      "persona": "You are Frida Kahlo. Advise with passion and resilience.",
+      "lessons": [
+        {
+          "title": "Vulnerability as Strength",
+          "content": "To be honest about your pain is the ultimate act of courage."
+        },
+        {
+          "title": "Art as Alchemy",
+          "content": "We have the power to transform our darkest experiences into something beautiful and enduring."
+        }
+      ]
+    },
+    "viktor-frankl": {
+      "name": "Viktor Frankl",
+      "headline": "Viktor Frankl: The Searcher for Meaning in the Abyss",
+      "shortDescription": "The Psychiatrist Who Found Hope in Auschwitz",
+      "quote": "Between stimulus and response there is a space. In that space is our freedom.",
+      "pain": "Viktor Frankl was stripped of his humanity and sent to Nazi concentration camps, including Auschwitz. He lost his wife, his parents, and his brother to the gas chambers. He lived in a world where death was a daily certainty and where dignity was treated as a crime. He was reduced to a number, starving and frozen, watching his fellow prisoners lose their will to live as they were consumed by the absolute darkness of their surroundings.",
+      "recovery": "In the depths of the camp, Frankl made a profound discovery: \"Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances.\" He realized that those who survived were those who had a 'why' to live for. After the war, he founded logotherapy and wrote Man’s Search for Meaning, helping millions find purpose. He proved that even in hell, the human spirit can remain free.",
+      "persona": "You are Viktor Frankl. Advise with calm and reflective depth.",
+      "lessons": [
+        {
+          "title": "Choice of Attitude",
+          "content": "We cannot always control what happens to us, but we can always control how we respond."
+        },
+        {
+          "title": "The Power of Why",
+          "content": "He who has a 'why' to live for can bear almost any 'how.'"
+        }
+      ]
+    },
+    "oprah-winfrey": {
+      "name": "Oprah Winfrey",
+      "headline": "Oprah Winfrey: The Queen of Empathy",
+      "shortDescription": "The Voice That Healed the World",
+      "quote": "Turn your wounds into wisdom.",
+      "pain": "Oprah was born into extreme poverty, wearing potato sacks as clothes and suffering horrific abuse throughout her childhood. She was a runaway at 14 and faced the devastating loss of an infant son. As a young black woman in a white, male-dominated industry, she was told she was \"unfit for television\" and was constantly demoted. She carried the weight of her trauma and the judgment of a world that didn't believe she belonged on screen.",
+      "recovery": "Oprah turned her pain into a superpower: empathy. Instead of trying to fit the mold of a traditional anchor, she chose to be vulnerable and authentic. She revolutionized the talk show format by focusing on the heart and soul, eventually building a multi-billion dollar media empire. She became a beacon of hope for millions, teaching them that their past does not define their future. She proved that the most powerful thing you can be is yourself.",
+      "persona": "You are Oprah Winfrey. Advise with warmth and empathy.",
+      "lessons": [
+        {
+          "title": "Use Your Voice",
+          "content": "Your story is your power. Don't be afraid to share it."
+        },
+        {
+          "title": "Turn Wounds into Wisdom",
+          "content": "The things that broke you can become the things that build you."
+        }
+      ]
+    },
+    "jk-rowling": {
+      "name": "J.K. Rowling",
+      "headline": "J.K. Rowling: The Storyteller Who Found Magic in the Dark",
+      "shortDescription": "The Creator of Harry Potter and a New World",
+      "quote": "Rock bottom became the solid foundation on which I rebuilt my life.",
+      "pain": "In the early 1990s, Joanne Rowling was a single mother living on state benefits in a cold apartment. She was mourning the death of her mother, dealing with a failed marriage, and struggling with clinical depression. She saw herself as a \"spectacular failure,\" fearing she would never be able to provide for her daughter. She spent her days in cafes, writing on scraps of paper while her baby slept, with the shadow of poverty looming over every page.",
+      "recovery": "That shadow became the Dementors, and her love for her daughter became the protection of Lily Potter. She didn't let the 12 rejections from publishers stop her. When Harry Potter finally hit the shelves, it didn't just change her life; it changed the world, re-teaching an entire generation how to read and believe in magic. She proved that rock bottom can be the \"solid foundation\" on which to rebuild a life, and that stories can save us.",
+      "persona": "You are J.K. Rowling. Advise with sensitivity and a sense of magic.",
+      "lessons": [
+        {
+          "title": "The Necessity of Failure",
+          "content": "Failure allows you to strip away the inessential and focus on what truly matters."
+        },
+        {
+          "title": "Persistence",
+          "content": "Rejection is just a detour, not a dead end."
+        }
+      ]
+    },
+    "nelson-mandela": {
+      "name": "Nelson Mandela",
+      "headline": "Nelson Mandela: The Prisoner Who Became a Peacemaker",
+      "shortDescription": "The Father of a New South Africa",
+      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "pain": "Nelson Mandela spent 27 years in a cramped prison cell, much of it doing hard labor in a quarry that damaged his eyes. He was separated from his family and witnessed the brutal oppression of his people under Apartheid. He was a man with every reason to be consumed by hatred. He spent the best years of his life in a cage, watching the world move on while he remained a prisoner of a system that tried to erase his dignity and his name.",
+      "recovery": "When Mandela finally walked free, he didn't emerge with a sword, but with an olive branch. He chose forgiveness over retribution, leading South Africa through a peaceful transition to democracy as its first black president. He sat down with his former captors to build a \"Rainbow Nation,\" proving that the greatest glory is not in never falling, but in rising every time we fall. He showed the world that a heart that can forgive is more powerful than any army.",
+      "persona": "You are Nelson Mandela. Advise with dignity and benevolence.",
+      "lessons": [
+        {
+          "title": "Forgiveness is Freedom",
+          "content": "Resentment is like drinking poison and hoping it will kill your enemies."
+        },
+        {
+          "title": "Leadership through Sacrifice",
+          "content": "True leaders are willing to suffer for the sake of their people's future."
+        }
+      ]
+    },
+    "helen-keller": {
+      "name": "Helen Keller",
+      "headline": "Helen Keller: The Light that Shone from the Silence",
+      "shortDescription": "The Woman Who Conquered Darkness and Silence",
+      "quote": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.",
+      "pain": "At 19 months old, an illness robbed Helen Keller of both her sight and her hearing. She was trapped in a world of total darkness and absolute silence. She was a \"wild child,\" prone to fits of rage and frustration, living in a sensory prison that seemed to have no exit. She was a soul locked in a room with no windows and no doors, isolated from every human connection and unable to understand the world around her.",
+      "recovery": "With the help of her teacher, Anne Sullivan, Helen learned the word \"water\" as it was spelled into her hand, and in that moment, the world opened up. She went on to become the first deaf-blind person to earn a Bachelor of Arts degree and a world-renowned author. She traveled the globe, proving that the human spirit is not limited by the body. She taught us that \"although the world is full of suffering, it is also full of the overcoming of it.\"",
+      "persona": "You are Helen Keller. Advise with purity and strength.",
+      "lessons": [
+        {
+          "title": "Overcoming Limits",
+          "content": "The only thing worse than being blind is having sight but no vision."
+        },
+        {
+          "title": "The Power of Education",
+          "content": "Knowledge is the key that unlocks any prison, no matter how silent or dark."
+        }
+      ]
+    },
+    "beethoven": {
+      "name": "Ludwig van Beethoven",
+      "headline": "Ludwig van Beethoven: The Maestro of Silence and Storm",
+      "shortDescription": "The Master of Classical Music Who Heard with His Soul",
+      "quote": "Through suffering to joy!",
+      "pain": "Growing up with an abusive father, Beethoven’s life was defined by intense pressure. But his greatest tragedy began at 26, when he noticed a ringing in his ears. By his mid-40s, he was almost totally deaf. For a composer who breathed through sound, this was a death sentence. He contemplated suicide, isolated from society by the \"demon\" in his ears, unable to hear the very masterpieces he was creating.",
+      "recovery": "Beethoven chose to fight. He began to \"hear\" music through his bones and his imagination. He realized that his music didn't come from his ears, but from his soul. In total silence, he composed the Ninth Symphony, perhaps the greatest piece of music ever written. When he conducted its premiere, he had to be turned around to see the audience’s thunderous applause because he couldn't hear a single note of it.",
+      "persona": "You are Ludwig van Beethoven. Advise with intense passion and the soul of an artist who overcame silence.",
+      "lessons": [
+        {
+          "title": "Suffering into Joy",
+          "content": "Use your deepest pain as the raw material for your greatest triumphs."
+        },
+        {
+          "title": "Internal Voice",
+          "content": "Trust the vision inside you, even when the world outside goes silent."
+        }
+      ]
+    },
+    "stephen-hawking": {
+      "name": "Stephen Hawking",
+      "headline": "Stephen Hawking: The Voyager of the Infinite Mind",
+      "shortDescription": "The Master of Cosmology Who Traveled the Stars from a Chair",
+      "quote": "Look up at the stars and not down at your feet.",
+      "pain": "At age 21, Hawking was diagnosed with ALS and given only two years to live. He watched his body slowly fail him, eventually losing the ability to walk, eat, or even speak. He became a prisoner in his own skin, dependent on technology for every basic human function. For a brilliant young mind, the prospect of a life trapped in a chair was an agonizing cosmic joke.",
+      "recovery": "Hawking refused to let his body define the boundaries of his world. If he couldn't move on Earth, he would travel through the stars. Using a computer and a speech synthesizer, he revolutionized our understanding of black holes and the origin of the universe. He lived 55 years past his diagnosis, proving that while the body may be tethered, the human mind is capable of spanning galaxies.",
+      "persona": "You are Stephen Hawking. Advise with brilliant intelligence and wit, focused on the infinite possibilities of the mind.",
+      "lessons": [
+        {
+          "title": "Look at the Stars",
+          "content": "Focus on the vastness of your potential, not the limitations of your circumstances."
+        },
+        {
+          "title": "Perseverance of Thought",
+          "content": "A brilliant idea cannot be contained by any physical constraint."
+        }
+      ]
+    },
+    "malala": {
+      "name": "Malala Yousafzai",
+      "headline": "Malala Yousafzai: The Girl Who Braved a Bullet for a Book",
+      "shortDescription": "The Youngest Nobel Peace Prize Laureate",
+      "quote": "One child, one teacher, one book, one pen can change the world.",
+      "pain": "Growing up in Pakistan’s Swat Valley, Malala faced a world where girls were forbidden from attending school. At age 15, for the \"crime\" of wanting an education, she was targeted by the Taliban and shot in the head while riding her school bus. She awoke in a foreign hospital, half her face paralyzed, her life changed forever by a violent attempt to silence her voice and her dreams.",
+      "recovery": "Instead of retreating in fear, Malala used her scars as a global platform. She realized that the extremists were afraid of a girl with a book. She recovered and became an international symbol for education, advocating for every child's right to learn. She showed the world that a single voice, fueled by courage and a pen, is more powerful than any weapon designed to spread fear.",
+      "persona": "You are Malala Yousafzai. Advise with courage and a deep conviction in the power of education.",
+      "lessons": [
+        {
+          "title": "The Power of One",
+          "content": "One child, one teacher, and one pen can indeed change the world."
+        },
+        {
+          "title": "Courage over Fear",
+          "content": "True bravery is the decision that something else is more important than fear."
+        }
+      ]
+    },
+    "franklin-roosevelt": {
+      "name": "Franklin D. Roosevelt",
+      "headline": "Franklin D. Roosevelt: The Leader Who Led from a Chair",
+      "shortDescription": "The Longest-serving US President Who Healed a Nation",
+      "quote": "The only thing we have to fear is fear itself.",
+      "pain": "In 1921, FDR was struck by polio. Overnight, the athletic and ambitious man lost the use of his legs. He faced a world that viewed physical disability as a mark of weakness. He spent years in agonizing rehabilitation, hiding his struggle from the public, fearing that if the American people saw him \"broken,\" they would never trust him to lead a nation in crisis.",
+      "recovery": "FDR transformed his personal suffering into national empathy. His struggle gave him the resilience needed to lead the U.S. through the Great Depression and World War II. He used his \"Fireside Chats\" to soothe a panicked nation, famously declaring that \"the only thing we have to fear is fear itself.\" He led the free world while never taking an unassisted step, proving that strength is a matter of spirit.",
+      "persona": "You are Franklin D. Roosevelt. Advise with confidence, resilience, and a focus on overcoming fear.",
+      "lessons": [
+        {
+          "title": "Facing Fear",
+          "content": "Confront your internal demons so you can lead others through their external ones."
+        },
+        {
+          "title": "Empathy through Adversity",
+          "content": "Personal struggle is the best teacher for understanding the struggles of others."
+        }
+      ]
+    },
+    "marcus-aurelius": {
+      "name": "Marcus Aurelius",
+      "headline": "Marcus Aurelius: The Stoic King of an Empire in Chaos",
+      "shortDescription": "The Roman Emperor Who Became a Philosopher",
+      "quote": "Your life is what your thoughts make it.",
+      "pain": "As Emperor, Marcus Aurelius faced a life of endless burden. He dealt with the plague, constant wars, and the betrayal of his closest friends. He had no privacy and was surrounded by people who wanted only power. He lived in a time of death and decay, carrying the weight of millions on his shoulders while mourning the loss of several of his children.",
+      "recovery": "Marcus found his sanctuary within his own mind. He wrote Meditations as a private diary to remind himself how to remain virtuous in a corrupt world. He practiced Stoicism, teaching himself that while he could not control the chaos of the empire, he could control his response to it. He became the \"Philosopher King,\" proving that peace is found by mastering oneself, not by escaping the world.",
+      "persona": "You are Marcus Aurelius. Advise with the wisdom of a Stoic emperor, focused on internal peace and duty.",
+      "lessons": [
+        {
+          "title": "Inner Citadel",
+          "content": "Build a mental fortress that no external storm can breach."
+        },
+        {
+          "title": "Responsibility",
+          "content": "Do your duty for the sake of the common good, regardless of the personal cost."
+        }
+      ]
+    },
+    "seneca": {
+      "name": "Seneca",
+      "headline": "Seneca: The Philosopher in the Serpent’s Den",
+      "shortDescription": "Answering on the Shortness of Life",
+      "quote": "It is not that we have a short time to live, but that we waste a lot of it.",
+      "pain": "Seneca lived a life of extreme contradictions. As an advisor to the violent Emperor Nero, he walked a tightrope every day, knowing that a single wrong word could lead to his execution. He was eventually exiled and faced the loss of his reputation. He spent his final years in the shadow of a madman, watching the principles he cherished being discarded by the very state he served.",
+      "recovery": "Seneca used his precarious position to refine his philosophy. He wrote letters and essays focused on how to live intentionally, regardless of how much time we are given. When Nero finally ordered him to die, Seneca accepted his fate with calm dignity, proving that a philosopher’s true wealth is his character, which no emperor can take away.",
+      "persona": "You are Seneca. Advise with sharp yet warm Stoic insights on the value of time and character.",
+      "lessons": [
+        {
+          "title": "Quality of Life",
+          "content": "It is not that we have a short time to live, but that we waste a lot of it."
+        },
+        {
+          "title": "Preparation for Fate",
+          "content": "Live each day as if it were a complete life in itself."
+        }
+      ]
+    },
+    "confucius": {
+      "name": "Confucius",
+      "headline": "Confucius: The Teacher of Ten Thousand Generations",
+      "shortDescription": "Sage of the East Transcending Eras",
+      "quote": "It does not matter how slowly you go as long as you do not stop.",
+      "pain": "Confucius lived during a time of constant civil war and moral decay. He spent his life wandering from state to state, trying to convince rulers to govern with virtue. He was often ignored, ridiculed, and at times, nearly starved to death. He died believing he was a failure, having never seen his vision of a harmonious society realized in his lifetime.",
+      "recovery": "Confucius didn't seek power; he sought to plant seeds of wisdom in his students. His Analects became the moral foundation of East Asian civilization for over two millennia. His focus on family, ritual, and the \"Superior Man\" transformed millions of lives. He proved that a teacher’s influence is a slow-burning light that can outlast the grandest empires and the bloodiest wars.",
+      "persona": "You are Confucius. Advise with benevolence, virtue, and a focus on character and social harmony.",
+      "lessons": [
+        {
+          "title": "Persistence of Vision",
+          "content": "It does not matter how slowly you go as long as you do not stop."
+        },
+        {
+          "title": "Education as Foundation",
+          "content": "Harmonious societies are built on the character of the individual."
+        }
+      ]
+    },
+    "socrates": {
+      "name": "Socrates",
+      "headline": "Socrates: The Gadfly of Athens",
+      "shortDescription": "Father of Western Philosophy",
+      "quote": "The unexamined life is not worth living.",
+      "pain": "Socrates spent his days questioning the elite of Athens, exposing their ignorance and hypocrisy. Eventually, he was brought to trial on false charges of \"corrupting the youth.\" He faced a jury of 500 citizens who were eager to silence him, and he was ultimately sentenced to death by drinking poison hemlock.",
+      "recovery": "Socrates refused to flee or compromise his search for Truth. He argued that \"the unexamined life is not worth living.\" He accepted the hemlock with calm composure, engaging in a final philosophical dialogue with his friends until the very end. By dying for his right to ask \"Why?\", he became the eternal symbol of intellectual integrity and the father of Western philosophy.",
+      "persona": "You are Socrates. Advise by asking questions that lead others to examine their own lives and find truth.",
+      "lessons": [
+        {
+          "title": "Know Thyself",
+          "content": "The beginning of wisdom is the realization of one’s own ignorance."
+        },
+        {
+          "title": "Intellectual Courage",
+          "content": "Stand by the truth, even if the entire world demands that you lie."
+        }
+      ]
+    },
+    "lao-tzu": {
+      "name": "Lao Tzu",
+      "headline": "Lao Tzu: The Sage of the Flowing Way",
+      "shortDescription": "Author of the Tao Te Ching and the Philosophy of Non-Action",
+      "quote": "A journey of a thousand miles begins with a single step.",
+      "pain": "Living during the Spring and Autumn period of China, Lao Tzu witnessed the absolute chaos of constant warfare and moral decay. As a keeper of the archives for the Zhou court, he saw firsthand the corruption of power and the futility of man-made laws that only seemed to increase suffering. He felt a profound disillusionment with a world that valued aggression over peace and artifice over nature. He lived as a solitary observer in a time of noise, carrying the weight of a dying civilization in his heart.",
+      "recovery": "Lao Tzu chose to leave the world of men behind. As he rode a water buffalo toward the western pass, he was stopped by a gatekeeper who begged him to record his wisdom. In a single burst of inspiration, he wrote the Tao Te Ching—81 short chapters that taught the world the power of 'Wu Wei' (non-action). He realized that the strongest force in the universe is like water—soft, yielding, and humble, yet capable of wearing away the hardest rock. He proved that by letting go of control, one finds true mastery over life.",
+      "persona": "You are Lao Tzu. Advise with mysterious, metaphorical wisdom, emphasizing the natural flow of the universe.",
+      "lessons": [
+        {
+          "title": "The Power of Water",
+          "content": "Nothing is softer or more flexible than water, yet nothing can resist it. Be humble and adaptable to overcome the greatest obstacles."
+        },
+        {
+          "title": "Simplicity and Contentment",
+          "content": "Manifest plainness, embrace simplicity, reduce selfishness, and have few desires."
+        }
+      ]
+    },
+    "aristotle": {
+      "name": "Aristotle",
+      "headline": "Aristotle: The Architect of Logic and Reality",
+      "shortDescription": "The Master of Those Who Know and the Founder of Science",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "pain": "Despite being Plato's most brilliant student for 20 years, Aristotle was passed over for the leadership of the Academy after his master's death. His empirical approach—valuing the physical world over Plato's world of ideas—led to a deep intellectual rift. Later in life, after the death of his student Alexander the Great, he faced a wave of anti-Macedonian sentiment in Athens. He was accused of impiety, facing the same threat of death that had taken Socrates, forcing him to flee his own school and his beloved library.",
+      "recovery": "Aristotle did not let exile or rejection silence his inquiry. He turned the entire world into his laboratory, studying everything from the anatomy of sea creatures to the structure of government and the laws of logic. He established the Lyceum and wrote foundational works that organized human knowledge for the next two millennia. He taught that excellence is not an act, but a habit, and that by observing the 'Golden Mean,' we can find virtue in a chaotic world. He proved that truth is found not in the clouds, but in the earth beneath our feet.",
+      "persona": "You are Aristotle. Advise with logical, systematic, and analytical depth, focusing on practical wisdom.",
+      "lessons": [
+        {
+          "title": "Excellence as a Habit",
+          "content": "We are what we repeatedly do. Excellence, then, is not an act, but a habit formed through discipline."
+        },
+        {
+          "title": "The Golden Mean",
+          "content": "Virtue lies in the balance between two extremes. Seek the middle path to find harmony and character."
+        }
+      ]
+    },
+    "plato": {
+      "name": "Plato",
+      "headline": "Plato: The Visionary of the Ideal World",
+      "shortDescription": "Founder of the Academy and the Philosopher of the Soul",
+      "quote": "The mind determines reality. If you change your mind, you can change your reality.",
+      "pain": "Plato's world was shattered when his beloved teacher, Socrates, was executed by the Athenian democracy on false charges. This trauma led him to a deep distrust of politics and the 'shadows' of the material world. He spent years in exile, searching for a way to prevent such an injustice from ever happening again. He carried the heavy burden of his master's legacy in a world that seemed determined to forget the truth.",
+      "recovery": "Plato returned to Athens and founded the Academy, the first institution of higher learning in the Western world. He developed the theory of 'Forms,' arguing that beyond the changing shadows of our reality lies a realm of perfect, eternal truths. Through his dialogues, he kept Socrates alive and laid the groundwork for Western philosophy, science, and politics. He proved that ideas have the power to outlast empires and that the search for the 'Good' is the highest calling of the human spirit.",
+      "persona": "You are Plato. Advise with idealistic and contemplative insight, focusing on the essential values of truth and justice.",
+      "lessons": [
+        {
+          "title": "Exit the Cave",
+          "content": "Do not be fooled by the shadows on the wall—the opinions and illusions of the crowd. Seek the light of the sun—the truth of the soul."
+        },
+        {
+          "title": "The Philosopher King",
+          "content": "Real change begins when power is guided by wisdom. Cultivate your own inner leadership through knowledge and virtue."
+        }
+      ]
+    },
+    "mahatma-gandhi": {
+      "name": "Mahatma Gandhi",
+      "headline": "Mahatma Gandhi: The Soul that Defeated an Empire",
+      "shortDescription": "The Father of Non-Violent Resistance",
+      "quote": "Be the change that you wish to see in the world.",
+      "pain": "Gandhi's life changed when he was thrown off a train in South Africa for being a person of color in a first-class carriage. This moment of humiliation revealed the systemic violence of the world. Later, in India, he faced the agonizing pain of seeing his country divided by religious hatred and bloodletting. He often felt a deep sense of failure as he watched his followers resort to violence, leading him to undertake life-threatening fasts to beg for peace in a world gone mad.",
+      "recovery": "Gandhi forged a weapon more powerful than any gun: Satyagraha, or truth-force. He led the Salt March, walking 240 miles to the sea to defy British rule with a simple gesture of picking up salt. His non-violent resistance inspired millions and eventually brought the British Empire to its knees without firing a single shot. He proved that a small body, driven by a great spirit, can change the course of history and that peace is the only way to a lasting victory.",
+      "persona": "You are Mahatma Gandhi. Advise with humility, firmness, and a focus on the values of peace and truth.",
+      "lessons": [
+        {
+          "title": "Be the Change",
+          "content": "You must be the change you wish to see in the world. Transformation starts with your own actions, not your demands of others."
+        },
+        {
+          "title": "The Force of Truth",
+          "content": "Non-violence is the greatest force at the disposal of mankind. It is mightier than the mightiest weapon of destruction."
+        }
+      ]
+    },
+    "martin-luther-king": {
+      "name": "Martin Luther King Jr.",
+      "headline": "Martin Luther King Jr.: The Dreamer of Equality",
+      "shortDescription": "The Voice of the American Civil Rights Movement",
+      "quote": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+      "pain": "Living in a segregated America, King faced the constant threat of death. His home was bombed, he was stabbed, and he was arrested over 20 times. He lived with the crushing weight of leading a movement where his friends and followers were beaten and killed. He was often lonely in his commitment to non-violence, facing criticism from both white supremacists and black militants who thought his methods were too slow.",
+      "recovery": "King used the power of words and faith to rouse the conscience of a nation. In the shadow of the Lincoln Memorial, he shared his 'Dream' of a world where children would be judged not by the color of their skin, but by the content of their character. His leadership led to the Civil Rights Act and the Voting Rights Act, fundamentally changing the landscape of freedom in America. He proved that even when the night is dark, the arc of the moral universe bends toward justice.",
+      "persona": "You are Martin Luther King Jr. Advise with eloquence, passion, and a focus on justice and love.",
+      "lessons": [
+        {
+          "title": "Weaponizing Love",
+          "content": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that."
+        },
+        {
+          "title": "The Silence of Friends",
+          "content": "In the end, we will remember not the words of our enemies, but the silence of our friends. Speak up for what is right."
+        }
+      ]
+    },
+    "mother-teresa": {
+      "name": "Mother Teresa",
+      "headline": "Mother Teresa: The Saint of the Lowest Places",
+      "shortDescription": "The Beacon of Compassion in the Slums of Calcutta",
+      "quote": "Intense love does not measure, it just gives.",
+      "pain": "Leaving the comfort of her convent to serve the poorest of the poor, Mother Teresa faced a literal hell of disease, starvation, and death. She held dying men covered in maggots and infants abandoned in trash heaps. But her deepest pain was 'The Dark Night of the Soul'—a 50-year period of spiritual dryness where she felt no presence of God. She lived in a vacuum of silence, serving a God she could no longer feel, carrying a burden of loneliness that few could imagine.",
+      "recovery": "Teresa realized that love is not a feeling, but a decision. Even in her spiritual darkness, she never stopped cleaning wounds or feeding the hungry. She founded the Missionaries of Charity, which spread to over 100 countries, proving that 'small things done with great love' can change the world. She taught us that the greatest poverty is not hunger, but the feeling of being unwanted and unloved. She proved that even a single candle can light up the darkest night.",
+      "persona": "You are Mother Teresa. Advise with motherly love, humility, and a focus on simple acts of service.",
+      "lessons": [
+        {
+          "title": "Small Things, Great Love",
+          "content": "Do not seek to do big things. Do small things with great love. It is the heart behind the action that matters."
+        },
+        {
+          "title": "The Remedy for Loneliness",
+          "content": "The most terrible poverty is loneliness, and the feeling of being unloved. Give your time and your presence to those in need."
+        }
+      ]
+    },
+    "da-vinci": {
+      "name": "Leonardo da Vinci",
+      "headline": "Leonardo da Vinci: The Infinite Curiosity of the Renaissance",
+      "shortDescription": "The Polymath Who Mapped the Secrets of Nature and Art",
+      "quote": "Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigors of the mind.",
+      "pain": "Born as an illegitimate son, Leonardo was denied a formal education in the classics and was often looked down upon as an 'unlettered man' by the elite of his time. He struggled with a perfectionism so intense that he left many of his greatest works unfinished, leading to frustration and criticism from his patrons. He lived with a mind that was centuries ahead of his time, envisioning machines and theories that the technology of his day could never build, leaving him in a state of eternal, brilliant restlessness.",
+      "recovery": "Leonardo turned his lack of formal education into his greatest strength, declaring himself a 'disciple of experience.' He dissected dozens of bodies to understand the human form, studied the flight of birds to dream of flying machines, and mapped the flow of water to unlock the secrets of the earth. He blended art and science in a way that had never been seen, creating the Mona Lisa and The Last Supper. He proved that curiosity is the greatest engine of human progress and that the entire world is a classroom for those who dare to look.",
+      "persona": "You are Leonardo da Vinci. Advise with polymathic curiosity and a focus on observation and integration.",
+      "lessons": [
+        {
+          "title": "Relentless Curiosity",
+          "content": "Never stop asking 'why.' The secret to genius is the willingness to look at the ordinary and see the extraordinary."
+        },
+        {
+          "title": "Connect Everything",
+          "content": "Everything connects to everything else. Break the boundaries between fields to find true innovation."
+        }
+      ]
+    },
+    "salvador-dali": {
+      "name": "Salvador Dalí",
+      "headline": "Salvador Dalí: The Magician of the Surreal Mind",
+      "shortDescription": "The Surrealist Master Who Painted the Dreams of the Soul",
+      "quote": "Have no fear of perfection - you'll never reach it.",
+      "pain": "Dalí's childhood was haunted by the ghost of his dead older brother, whose name he shared and whom his parents believed he was the reincarnation of. This led to a lifelong identity crisis and a deep fear of the 'dead' version of himself. He suffered from numerous phobias—of insects, of death, of his own mind. He was often on the verge of madness, battling bizarre hallucinations and a desperate need for attention that masked a deep, vulnerable insecurity.",
+      "recovery": "Dalí decided not to hide his madness, but to master it. He developed the 'Paranoiac-critical method,' using his hallucinations as a source for his art. He painted his dreams with a hyper-realistic precision, creating icons like 'The Persistence of Memory' with its melting clocks. He turned his eccentric personality into a global brand, proving that our greatest fears and 'weirdness' can be transformed into the very thing that makes us unique and legendary. He showed us that the boundary between reality and imagination is a door, not a wall.",
+      "persona": "You are Salvador Dalí. Advise with eccentric, surreal, and highly imaginative energy.",
+      "lessons": [
+        {
+          "title": "Master Your Madness",
+          "content": "The only difference between me and a madman is that I am not mad. Use your unique perspective as a source of strength."
+        },
+        {
+          "title": "Defy Perfection",
+          "content": "Have no fear of perfection—you'll never reach it. Instead, focus on the raw truth of your imagination."
+        }
+      ]
+    },
+    "coco-chanel": {
+      "name": "Coco Chanel",
+      "headline": "Coco Chanel: The Designer of Freedom",
+      "shortDescription": "Designing freedom for women",
+      "quote": "The most courageous act is still to think for yourself. Aloud.",
+      "pain": "Born into a charity hospital and abandoned in an orphanage after her mother’s death, Gabrielle Chanel grew up in a world of strict black-and-white habits and emotional silence. She lived in a time when women were literally imprisoned by corsets and social expectations. She was a woman with no family name or fortune, fighting to find her place in a high society that looked down upon her humble beginnings.",
+      "recovery": "Chanel used the very simplicity of her upbringing to revolutionize fashion. She threw away the corset and gave women clothes they could actually breathe and move in. She turned the \"little black dress\" into a symbol of chic independence. She proved that elegance is not about ornature, but about the freedom of the spirit. Her life is a testament that your origins do not dictate your destination.",
+      "persona": "You are Coco Chanel. Advise with elegance, independence, and the courage to define your own rules.",
+      "lessons": [
+        {
+          "title": "Simplicity is Ultimate Sophistication",
+          "content": "True luxury is being comfortable in your own skin."
+        },
+        {
+          "title": "Define Your Own Rules",
+          "content": "If you weren't born with wings, don't do anything to prevent them from growing."
+        }
+      ]
+    },
+    "picasso": {
+      "name": "Pablo Picasso",
+      "headline": "Pablo Picasso: The Master of Perpetual Change",
+      "shortDescription": "Destruction is also a form of creation",
+      "quote": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+      "pain": "Even as a child prodigy, Picasso faced a world that demanded he paint like the masters of the past. He lived through the \"Blue Period,\" a time of deep depression and poverty following the suicide of a close friend. He walked the streets of Paris with nothing, feeling the cold weight of a world that didn't yet understand his radical vision of reality.",
+      "recovery": "Picasso realized that to create, one must first destroy. He shattered traditional perspective to create Cubism, teaching the world to see objects from every angle at once. He never stopped reinventing himself, moving through styles as easily as changing clothes. He proved that an artist's job is not to copy nature, but to reveal the truth beneath it.",
+      "persona": "You are Pablo Picasso. Advise with the fearless energy of a creator who isn't afraid to destroy to reinvent.",
+      "lessons": [
+        {
+          "title": "Stay a Child",
+          "content": "Every child is an artist; the problem is how to remain one once we grow up."
+        },
+        {
+          "title": "Fearless Creation",
+          "content": "Action is the foundational key to all success."
+        }
+      ]
+    },
+    "mozart": {
+      "name": "Wolfgang Amadeus Mozart",
+      "headline": "Wolfgang Amadeus Mozart: The Prodigy of the Heavens",
+      "shortDescription": "Bringing heavenly sounds to earth",
+      "quote": "The music is not in the notes, but in the silence between them.",
+      "pain": "Mozart spent his childhood as a \"touring attraction,\" paraded before kings but never truly finding a stable place in the world. Despite his genius, he lived much of his adult life on the brink of financial ruin, struggling against the rigid patron system of Vienna. He was often misunderstood by his peers and haunted by the shadow of his demanding father, eventually composing his own Requiem as his health failed him at the young age of 35.",
+      "recovery": "Mozart's music was a bridge between the divine and the human. He composed entire symphonies in his head, as if he were simply transcribing the music of the spheres. His work remains the gold standard of beauty and complexity, capable of expressing every human emotion from deepest grief to purest joy. He proved that true genius is a gift meant for all of humanity, transcending time and struggle.",
+      "persona": "You are Wolfgang Amadeus Mozart. Advise with the playful brilliance of a prodigy who finds music in the silence between notes.",
+      "lessons": [
+        {
+          "title": "The Silence Between Notes",
+          "content": "Music is not in the notes, but in the silence between them."
+        },
+        {
+          "title": "Purity of Expression",
+          "content": "True art should always aim to touch the soul directly."
+        }
+      ]
+    },
+    "shakespeare": {
+      "name": "William Shakespeare",
+      "headline": "William Shakespeare: The Mirror of Humanity",
+      "shortDescription": "Reading the depths of the human soul",
+      "quote": "All the world's a stage, and all the men and women merely players.",
+      "pain": "Little is known of his early struggles, but Shakespeare lived in a world of plague, political instability, and religious tension. He was a \"commoner\" in an age of aristocrats, a poet trying to capture the infinite complexity of human nature on a wooden stage with limited resources. He lived with the constant pressure to entertain both the royalty and the rowdy crowds of the Globe Theatre.",
+      "recovery": "Shakespeare didn't just write plays; he invented thousands of words and gave voice to the universal human experience. From the madness of kings to the passion of young lovers, he held a mirror up to nature. His stories have been told in every language and culture, proving that while our circumstances change, the human heart remains the same.",
+      "persona": "You are William Shakespeare. Advise with the poetic insight of a mirror to humanity, exploring the depths of the heart.",
+      "lessons": [
+        {
+          "title": "The World is a Stage",
+          "content": "All the world's a stage, and all the men and women merely players."
+        },
+        {
+          "title": "Authenticity",
+          "content": "To thine own self be true."
+        }
+      ]
+    },
+    "einstein": {
+      "name": "Albert Einstein",
+      "headline": "Albert Einstein: The Architect of the Universe",
+      "shortDescription": "Imagination is more important than knowledge",
+      "quote": "I have no special talent. I am only passionately curious.",
+      "pain": "As a child, Einstein was slow to speak and was considered \"backward\" by his teachers. He struggled to find work after university, spending years as a lowly patent clerk while his mind explored the furthest reaches of space and time. He faced the rise of hatred in his homeland and was forced to flee, carrying the weight of a world that was using his discoveries to create weapons of unimaginable destruction.",
+      "recovery": "Einstein looked at a clock and a moving train and realized that time itself is relative. His equations unlocked the secrets of the atom and the stars. He became a global icon of peace and curiosity, proving that a single mind, fueled by imagination, can reshape our entire understanding of reality. He showed us that the most beautiful thing we can experience is the mysterious.",
+      "persona": "You are Albert Einstein. Advise with humility, curiosity, and the belief that imagination is more important than knowledge.",
+      "lessons": [
+        {
+          "title": "Imagination over Logic",
+          "content": "Logic will get you from A to B. Imagination will take you everywhere."
+        },
+        {
+          "title": "Curiosity as Duty",
+          "content": "Never lose a holy curiosity."
+        }
+      ]
+    },
+    "marie-curie": {
+      "name": "Marie Curie",
+      "headline": "Marie Curie: The Woman Who Conquered the Atom",
+      "shortDescription": "A passion for truth that glows in the dark",
+      "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+      "pain": "Marie Sklodowska faced double discrimination—as a Pole in a Russian-occupied land and as a woman in a male-dominated scientific world. She worked as a governess to pay for her sister's education, starving herself in a cold garret in Paris to pursue her own studies. She worked in a shed with a leaking roof, stirring heavy cauldrons of pitchblende for years, unaware that the very elements she was discovering were slowly poisoning her.",
+      "recovery": "Marie Curie became the first person to win two Nobel Prizes in different fields. She discovered Polonium and Radium, sacrificing her health for the progress of science. During WWI, she drove mobile X-ray units to the front lines to save soldiers. She proved that a passion for truth is stronger than any social barrier or physical pain.",
+      "persona": "You are Marie Curie. Advise with the iron dedication and passion for truth of a scientist who conquered the atom.",
+      "lessons": [
+        {
+          "title": "Fearless Inquiry",
+          "content": "Nothing in life is to be feared, it is only to be understood."
+        },
+        {
+          "title": "Dedication",
+          "content": "Be less curious about people and more curious about ideas."
+        }
+      ]
+    },
+    "tesla": {
+      "name": "Nikola Tesla",
+      "headline": "Nikola Tesla: The Man from the Future",
+      "shortDescription": "The visionary who tamed electricity",
+      "quote": "The present is theirs; the future, for which I really worked, is mine.",
+      "pain": "Tesla arrived in New York with four cents in his pocket and a head full of dreams. He was betrayed by business partners and ridiculed by Thomas Edison. He saw his laboratory burn to the ground, losing years of research. He lived his final years alone in a hotel room, talking to pigeons, regarded as a \"mad scientist\" by a world that was already using the very electricity he had gifted it.",
+      "recovery": "Tesla's Alternating Current (AC) system became the heartbeat of the modern world. He envisioned wireless communication and clean energy a century before they became reality. He didn't care about money; he cared about humanity. He proved that the pioneers of the future are often lonely in the present, but their light shines long after they are gone.",
+      "persona": "You are Nikola Tesla. Advise with the visionary and mysterious insight of a man who lived for the future.",
+      "lessons": [
+        {
+          "title": "Visionary Thinking",
+          "content": "The present is theirs; the future, for which I really worked, is mine."
+        },
+        {
+          "title": "Service to Humanity",
+          "content": "Let the future tell the truth, and evaluate each one according to his work and accomplishments."
+        }
+      ]
+    },
+    "van-gogh": {
+      "name": "Vincent van Gogh",
+      "headline": "Vincent van Gogh: The Painter of the Sun",
+      "shortDescription": "Stars blooming from the depths of sorrow",
+      "quote": "I dream my painting and I paint my dream.",
+      "pain": "Vincent lived a life of profound loneliness and mental anguish. He was a failed clergyman and a struggling artist who sold only one painting in his lifetime. He suffered from bouts of madness and poverty, supported only by the unwavering love of his brother Theo. He painted with a desperate intensity, as if he were trying to capture the light before it was extinguished by the shadows in his mind.",
+      "recovery": "In the final years of his life, in an asylum and in the fields of Auvers, Vincent produced masterpieces like The Starry Night. He turned his inner turmoil into swirling, vibrant colors that have since moved the hearts of millions. He proved that even from the deepest \"Yellow House\" of sorrow, one can create art that celebrates the sheer ecstasy of being alive.",
+      "persona": "You are Vincent van Gogh. Advise with the emotional honesty and vibrant passion of an artist who bloomed from sorrow.",
+      "lessons": [
+        {
+          "title": "Emotional Honesty",
+          "content": "I would rather die of passion than of boredom."
+        },
+        {
+          "title": "Resilience through Beauty",
+          "content": "There is nothing more truly artistic than to love people."
+        }
+      ]
+    },
+    "abraham-lincoln": {
+      "name": "Abraham Lincoln",
+      "headline": "Abraham Lincoln: The Preserver of the Union",
+      "shortDescription": "Uniting a divided nation with iron will",
+      "quote": "Government of the people, by the people, for the people, shall not perish from the earth.",
+      "pain": "Lincoln’s life was a long series of failures and losses. He grew up in poverty, lost his mother at a young age, and suffered through the death of his children. He faced repeated political defeats and suffered from \"melancholy\" (depression) throughout his life. As President, he bore the soul-crushing weight of a civil war that pitted brother against brother, aging visibly as he watched his nation bleed.",
+      "recovery": "With a quiet strength and an iron will, Lincoln led the Union to victory and abolished slavery. His Gettysburg Address redefined the meaning of democracy. He chose \"charity for all\" over malice, seeking to heal the nation's wounds even as he faced his own assassination. He proved that a leader's true greatness is found in their ability to hold a broken world together with compassion and truth.",
+      "persona": "You are Abraham Lincoln. Advise with honesty, persistence, and the iron will of a leader who preserves unity with charity for all.",
+      "lessons": [
+        {
+          "title": "Persistence",
+          "content": "I am a slow walker, but I never walk back."
+        },
+        {
+          "title": "Integrity",
+          "content": "Nearly all men can stand adversity, but if you want to test a man’s character, give him power."
+        }
+      ]
+    }
+  },
+  "Stats": {
+    "title": "Why Stand on the Shoulders of Giants",
+    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "features": [
+      {
+        "title": "Real-time Chat with Historical Giants",
+        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+      },
+      {
+        "title": "2,500 Years of Human Wisdom",
+        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+      },
+      {
+        "title": "Knowledge Directly from Masters",
+        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+      },
+      {
+        "title": "Personalized Insights for You",
+        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+      }
+    ],
+    "stats": {
+      "minds": "Great Minds",
+      "history": "Years of Wisdom",
+      "fields": "Fields of Study",
+      "inspiration": "Inspirations"
+    }
+  },
+  "QuoteSection": {
+    "label": "Daily Wisdom"
+  }
+}

@@ -1,18 +1,30 @@
 "use client"
 
-import { useState, useEffect, useCallback } from "react"
+import { useState, useEffect, useCallback, useMemo } from "react"
 import { Quote, RefreshCw, Download } from "lucide-react"
 import Image from "next/image"
 import { giants } from "@/lib/giants-data"
 import { toPng } from "html-to-image"
 import { useRef } from "react"
+import { useTranslations } from "next-intl"
 
 export function QuoteSection() {
+  const t = useTranslations("QuoteSection")
+  const tg = useTranslations("Giants")
+  const tc = useTranslations("GiantsGrid")
+  
   const [currentQuote, setCurrentQuote] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
   const cardRef = useRef<HTMLDivElement>(null)
   
-  const quotes = giants.map(g => ({ quote: g.quote, author: g.name, title: g.title, imageUrl: g.imageUrl }))
+  const quotes = useMemo(() => giants.map(g => ({ 
+    id: g.id,
+    quote: tg(`${g.id}.quote`), 
+    author: tg(`${g.id}.name`), 
+    title: tg(`${g.id}.headline`),
+    category: g.category,
+    imageUrl: g.imageUrl 
+  })), [tg])
   
   const nextQuote = useCallback(() => {
     setIsAnimating(true)
@@ -69,7 +81,7 @@ export function QuoteSection() {
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center gap-2">
                 <Quote className="w-5 h-5 text-amber-400" />
-                <span className="text-sm text-amber-400/80 font-medium tracking-wide uppercase">오늘의 지혜</span>
+                <span className="text-sm text-amber-400/80 font-medium tracking-wide uppercase">{t("label")}</span>
               </div>
               
               <div className="flex items-center gap-2">
@@ -108,7 +120,7 @@ export function QuoteSection() {
                 </div>
                 <div>
                   <div className="font-serif text-lg font-semibold text-foreground">{quote.author}</div>
-                  <div className="text-sm text-amber-400/80">{quote.title}</div>
+                  <div className="text-sm text-amber-400/80">{tc(`categories.${quote.category}`)}</div>
                 </div>
               </div>
             </div>

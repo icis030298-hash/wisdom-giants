@@ -3,7 +3,8 @@
 import { useState } from "react"
 import { MessageCircle, Clock, Sparkles } from "lucide-react"
 import Image from "next/image"
-import Link from "next/link"
+import { useTranslations } from "next-intl"
+import { Link } from "@/i18n/routing"
 import type { Giant } from "@/lib/giants-data"
 
 interface GiantCardProps {
@@ -12,6 +13,8 @@ interface GiantCardProps {
 }
 
 export function GiantCard({ giant, index }: GiantCardProps) {
+  const t = useTranslations("Giants")
+  const gt = useTranslations("GiantsGrid")
   const [isHovered, setIsHovered] = useState(false)
   
   return (
@@ -29,7 +32,7 @@ export function GiantCard({ giant, index }: GiantCardProps) {
       <div className="relative w-full h-48 overflow-hidden bg-muted shrink-0">
         <Image 
           src={giant.imageUrl} 
-          alt={giant.name}
+          alt={t(`${giant.id}.name`)}
           fill
           className="object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
           unoptimized={true}
@@ -39,7 +42,7 @@ export function GiantCard({ giant, index }: GiantCardProps) {
         {/* Field badge on image */}
         <div className="absolute bottom-4 left-4">
           <span className="px-3 py-1 text-[10px] uppercase tracking-wider rounded-full bg-amber-500 text-black font-bold border border-amber-400">
-            {giant.field}
+            {gt(`categories.${giant.category}`)}
           </span>
         </div>
       </div>
@@ -49,25 +52,25 @@ export function GiantCard({ giant, index }: GiantCardProps) {
         <div className="flex items-start justify-between gap-4 mb-2">
           <div className="flex-1 min-w-0">
             <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-200 transition-colors truncate">
-              {giant.name}
+              {t(`${giant.id}.name`)}
             </h3>
-            <p className="text-sm text-amber-400/80 truncate">{giant.title}</p>
+            <p className="text-sm text-amber-400/80 truncate">{t(`${giant.id}.headline`)}</p>
           </div>
           <div className="flex items-center gap-1.5 px-2 py-1 rounded-md bg-white/5 border border-white/10 shrink-0">
             <Clock className="w-3 h-3 text-muted-foreground" />
-            <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-tighter">{giant.era}</span>
+            <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-tighter">{gt("era")}</span>
           </div>
         </div>
         
         {/* Description */}
         <p className="mt-4 text-sm text-muted-foreground line-clamp-2 leading-relaxed min-h-[40px]">
-          {giant.description}
+          {t(`${giant.id}.shortDescription`)}
         </p>
         
         {/* Quote preview */}
         <div className="mt-4 pt-4 border-t border-border/50 min-h-[70px]">
           <p className="text-xs italic text-foreground/60 line-clamp-2">
-            &ldquo;{giant.quote}&rdquo;
+            &ldquo;{t(`${giant.id}.quote`)}&rdquo;
           </p>
         </div>
         
@@ -75,7 +78,7 @@ export function GiantCard({ giant, index }: GiantCardProps) {
         <div className="mt-auto pt-6">
           <div className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 text-sm font-semibold transition-all border border-amber-500/20 hover:border-amber-500/40">
             <MessageCircle className="w-4 h-4" />
-            <span>대서사시 읽어보기</span>
+            <span>{gt("readEpic")}</span>
             <Sparkles className="w-3 h-3 opacity-60" />
           </div>
         </div>
@@ -83,4 +86,3 @@ export function GiantCard({ giant, index }: GiantCardProps) {
     </Link>
   )
 }
-

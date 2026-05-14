@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useMemo } from "react"
 import { Sparkles } from "lucide-react"
+import { useTranslations } from "next-intl"
 import {
   Dialog,
   DialogContent,
@@ -27,6 +28,7 @@ const generateParticles = (count: number) => {
 }
 
 export function HeroSection() {
+  const t = useTranslations("Hero")
   const [isVisible, setIsVisible] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -75,7 +77,7 @@ export function HeroSection() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 border border-amber-500/20">
           <Sparkles className="w-4 h-4 text-amber-400" />
-          <span className="text-sm text-amber-200/80 font-medium tracking-wide">위대한 지성들의 전당</span>
+          <span className="text-sm text-amber-200/80 font-medium tracking-wide">{t("badge")}</span>
         </div>
 
         {/* Main title */}
@@ -90,9 +92,9 @@ export function HeroSection() {
         <div className="relative max-w-3xl mx-auto mt-8 mb-12">
           <div className="absolute -left-4 -top-4 text-6xl text-amber-500/20 font-serif">&ldquo;</div>
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground leading-relaxed font-light italic px-8">
-            내가 더 멀리 보았다면, 그것은 거인들의 어깨 위에 올라섰기 때문이다.
+            {t("quote")}
           </p>
-          <p className="text-amber-400/80 mt-4 text-sm tracking-widest uppercase">- 아이작 뉴턴 -</p>
+          <p className="text-amber-400/80 mt-4 text-sm tracking-widest uppercase">- {t("quoteAuthor")} -</p>
           <div className="absolute -right-4 -bottom-4 text-6xl text-amber-500/20 font-serif">&rdquo;</div>
         </div>
 
@@ -103,7 +105,7 @@ export function HeroSection() {
               <button className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground rounded-xl font-medium text-lg overflow-hidden transition-all hover:shadow-lg hover:shadow-amber-500/25 hover:scale-105">
                 <span className="relative z-10 flex items-center gap-2">
                   <Sparkles className="w-5 h-5" />
-                  여정 시작하기
+                  {t("startJourney")}
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity" />
               </button>
@@ -111,34 +113,34 @@ export function HeroSection() {
             <DialogContent className="glass border-amber-500/20 sm:max-w-[425px]">
               <DialogHeader>
                 <DialogTitle className="font-serif text-2xl text-foreground text-center mb-4 pt-2">
-                  지혜의 전당 여정 가이드
+                  {t("guide.title")}
                 </DialogTitle>
               </DialogHeader>
               <div className="grid gap-6 py-4">
                 <div className="flex items-start gap-4">
                   <span className="text-2xl">🏛️</span>
                   <div>
-                    <h4 className="font-semibold text-amber-400 mb-1">거인 선택</h4>
+                    <h4 className="font-semibold text-amber-400 mb-1">{t("guide.selectGiant")}</h4>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      40여 명의 위인 중 영감을 주는 인물을 찾아보세요.
+                      {t("guide.selectGiantDesc")}
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <span className="text-2xl">📖</span>
                   <div>
-                    <h4 className="font-semibold text-amber-400 mb-1">대서사시</h4>
+                    <h4 className="font-semibold text-amber-400 mb-1">{t("guide.epic")}</h4>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      위인이 직접 들려주는 듯한 삶의 기록을 읽어보세요.
+                      {t("guide.epicDesc")}
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <span className="text-2xl">💬</span>
                   <div>
-                    <h4 className="font-semibold text-amber-400 mb-1">실시간 대화</h4>
+                    <h4 className="font-semibold text-amber-400 mb-1">{t("guide.chat")}</h4>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                      최신 AI로 재탄생한 거인에게 당신의 고민을 털어놓으세요.
+                      {t("guide.chatDesc")}
                     </p>
                   </div>
                 </div>
@@ -153,23 +155,23 @@ export function HeroSection() {
                   }}
                   className="w-full py-4 bg-amber-500 text-primary-foreground rounded-xl font-medium hover:bg-amber-600 transition-colors"
                 >
-                  지금 바로 시작하기
+                  {t("guide.startNow")}
                 </button>
               </div>
             </DialogContent>
           </Dialog>
           
           <a href="#featured-giants" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
-            전당 둘러보기
+            {t("exploreHall")}
           </a>
         </div>
 
         {/* Stats */}
         <div className="flex items-center justify-center gap-8 sm:gap-12 mt-16">
           {[
-            { value: "40+", label: "위대한 지성" },
-            { value: "2500+", label: "지혜의 역사" },
-            { value: "∞", label: "영감" },
+            { value: "40+", label: t("stats.minds") },
+            { value: "2500+", label: t("stats.history") },
+            { value: "∞", label: t("stats.inspiration") },
           ].map((stat, i) => (
             <div key={i} className="text-center">
               <div className="text-2xl sm:text-3xl font-bold text-amber-400">{stat.value}</div>
