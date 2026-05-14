@@ -30,7 +30,6 @@ export function GiantImage({ src, alt, fallbackText, containerClassName, classNa
       alt={alt}
       className={className}
       onError={() => setImgError(true)}
-      unoptimized={true}
       {...props}
     />
   )

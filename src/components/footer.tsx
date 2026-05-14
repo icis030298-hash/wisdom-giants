@@ -1,24 +1,28 @@
-"use client"
-
-import { Sparkles, Globe, Code, Briefcase, Mail } from "lucide-react"
-
-const footerLinks = {
-  explore: [
-    { label: "전체 위인", href: "#giants" },
-    { label: "지혜의 보관소", href: "#archive" },
-  ],
-  info: [
-    { label: "서비스 소개", href: "#about" },
-    { label: "문의하기", href: "mailto:contact@wisdomgiants.com" },
-  ],
-}
-
-const socialLinks = [
-  { icon: Code, href: "https://github.com", label: "GitHub" },
-  { icon: Mail, href: "mailto:contact@wisdomgiants.com", label: "Email" },
-]
+import { Sparkles, Code, Mail } from "lucide-react"
+import { useTranslations } from "next-intl"
+import { Link } from "@/i18n/routing"
 
 export default function Footer() {
+  const t = useTranslations("Footer")
+  
+  const footerLinks = {
+    explore: [
+      { label: t("links.allGiants"), href: "/#giants" },
+      { label: t("links.wisdomArchive"), href: "/#archive" },
+    ],
+    info: [
+      { label: t("links.about"), href: "/about" },
+      { label: t("links.privacy"), href: "/privacy" },
+      { label: t("links.terms"), href: "/terms" },
+      { label: t("links.contact"), href: "mailto:contact@wisdomgiants.com" },
+    ],
+  }
+
+  const socialLinks = [
+    { icon: Code, href: "https://github.com", label: "GitHub" },
+    { icon: Mail, href: "mailto:contact@wisdomgiants.com", label: "Email" },
+  ]
+
   return (
     <footer className="relative py-24 px-6 border-t border-border/30">
       {/* Ambient glow */}
@@ -28,7 +32,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <a href="#" className="flex items-center gap-3 mb-6 group">
+            <Link href="/" className="flex items-center gap-3 mb-6 group">
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-500/80 to-amber-600/80 flex items-center justify-center transition-transform group-hover:scale-105">
                 <Sparkles className="w-5 h-5 text-primary-foreground" />
               </div>
@@ -36,11 +40,11 @@ export default function Footer() {
                 <span className="font-serif text-lg font-medium text-foreground/90">
                   Shoulders of Giants
                 </span>
-                <p className="text-[10px] text-muted-foreground/60 tracking-wider uppercase">위대한 지성들의 전당</p>
+                <p className="text-[10px] text-muted-foreground/60 tracking-wider uppercase">{t("brand.subtitle")}</p>
               </div>
-            </a>
+            </Link>
             <p className="text-muted-foreground/70 text-sm leading-relaxed mb-8 max-w-sm">
-              역사를 바꾼 위대한 지성들의 여정에 동참하세요. 시공간을 초월한 지혜를 경험할 수 있습니다.
+              {t("brand.description")}
             </p>
             <div className="flex items-center gap-4">
               {socialLinks.map((social) => (
@@ -58,26 +62,32 @@ export default function Footer() {
           
           {/* Links */}
           <div>
-            <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">탐색</h4>
+            <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">{t("sections.explore")}</h4>
             <ul className="space-y-4">
               {footerLinks.explore.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} className="text-muted-foreground/60 hover:text-amber-400/80 transition-colors text-sm font-light">
+                  <Link href={link.href as any} className="text-muted-foreground/60 hover:text-amber-400/80 transition-colors text-sm font-light">
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
           
           <div>
-            <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">정보</h4>
+            <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">{t("sections.info")}</h4>
             <ul className="space-y-4">
               {footerLinks.info.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} className="text-muted-foreground/60 hover:text-amber-400/80 transition-colors text-sm font-light">
-                    {link.label}
-                  </a>
+                  {link.href.startsWith("mailto") ? (
+                    <a href={link.href} className="text-muted-foreground/60 hover:text-amber-400/80 transition-colors text-sm font-light">
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link href={link.href as any} className="text-muted-foreground/60 hover:text-amber-400/80 transition-colors text-sm font-light">
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
@@ -90,8 +100,8 @@ export default function Footer() {
             &copy; 2026 Shoulders of Giants. All rights reserved.
           </p>
           <div className="flex items-center gap-8 text-[11px] text-muted-foreground/40 font-light tracking-wide">
-            <a href="#" className="hover:text-amber-400/60 transition-colors">개인정보처리방침</a>
-            <a href="#" className="hover:text-amber-400/60 transition-colors">이용약관</a>
+            <Link href="/privacy" className="hover:text-amber-400/60 transition-colors">{t("links.privacy")}</Link>
+            <Link href="/terms" className="hover:text-amber-400/60 transition-colors">{t("links.terms")}</Link>
           </div>
         </div>
       </div>

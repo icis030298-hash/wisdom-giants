@@ -145,14 +145,12 @@ export function GiantsGrid({}: GiantsGridProps) {
                 className="glass-card rounded-xl p-4 flex items-center gap-6 cursor-pointer hover:border-amber-500/30 transition-all animate-fade-in-up block"
                 style={{ animationDelay: `${index * 30}ms` }}
               >
-                {/* ... existing content ... */}
                 <div className="relative w-14 h-14 rounded-xl overflow-hidden shrink-0 ring-2 ring-amber-500/10 bg-muted flex items-center justify-center">
                   <Image 
                     src={giant.imageUrl} 
                     alt={tg(`${giant.id}.name`)}
                     fill
-                    className="object-cover object-top"
-                    unoptimized={true}
+                    className="object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
                   />
                 </div>
                 

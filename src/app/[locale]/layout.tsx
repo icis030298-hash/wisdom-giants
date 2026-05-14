@@ -14,8 +14,15 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Shoulders of Giants | The Hall of Great Minds',
-  description: 'A mystical journey through history. Converse with the greatest minds who shaped our world.',
+  title: 'Shoulders of Giants | AI Historical Mentors & Wisdom Archive',
+  description: 'Converse with history\'s greatest minds. Get AI-powered advice from 40+ historical figures including Steve Jobs, Napoleon, and King Sejong. Explore their life stories and timeless wisdom.',
+  keywords: 'AI Chat, Historical Figures, Wisdom, Mentorship, History, Philosophy, Education, Steve Jobs, Napoleon, King Sejong',
+  authors: [{ name: 'Shoulders of Giants Team' }],
+  openGraph: {
+    title: 'Shoulders of Giants | AI Historical Mentors',
+    description: 'A mystical journey through history. Converse with the greatest minds who shaped our world.',
+    type: 'website',
+  },
 };
 
 export const viewport: Viewport = {

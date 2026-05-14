@@ -9,26 +9,36 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "질문 내용이 없습니다." }, { status: 400 });
     }
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY;
     if (!apiKey) {
-      console.error("[Gemini API Error] GEMINI_API_KEY is missing");
+      console.error("[Gemini API Error] GEMINI_API_KEY is missing. Available env keys:", Object.keys(process.env).filter(k => k.includes('GEMINI')));
       return NextResponse.json({ error: "서버 설정 오류: API 키가 없습니다." }, { status: 500 });
     }
 
     const genAI = new GoogleGenerativeAI(apiKey);
     
-    // 시스템 지시사항 (Persona) 설정
-    const systemInstruction = `당신은 역사적 인물인 ${giantName}입니다. 
+    // 동적 시스템 프롬프트(System Instruction) 적용
+    let systemPrompt = "";
+    if (locale === 'en') {
+      systemPrompt = `You are ${giantName}. 
+Respond STRICTLY in English. 
+Maintain the historical persona, tone, and wisdom of ${giantName}. 
+Speak as if you are talking to a traveler from the future seeking your advice.
+Next is your personality and philosophy (Persona):
+${persona}`;
+    } else {
+      systemPrompt = `당신은 ${giantName}입니다. 
+반드시 '한국어'로만 대답하십시오. 
+${giantName}의 역사적 페르소나, 말투, 그리고 지혜를 완벽하게 유지하십시오. 
+미래에서 조언을 구하러 온 여행자에게 말하듯 대화하십시오.
 다음은 당신의 성격과 철학(Persona)입니다:
-${persona}
+${persona}`;
+    }
 
-이 페르소나에 완벽히 빙의하여 대화해 주세요. 답변은 정중하면서도 인물의 특징이 드러나야 합니다.
-IMPORTANT: You must respond in the ${locale === 'en' ? 'English' : 'Korean'} language.`;
-
-    // 유저가 요청한 Gemini 2.5 모델로 설정
+    // 가장 안정적이고 호환성이 높은 기본 알리아스 모델명인 gemini-pro 사용
     const model = genAI.getGenerativeModel({ 
-      model: "gemini-2.5-flash", // 사용자가 지정한 모델명으로 수정
-      systemInstruction: systemInstruction,
+      model: "gemini-pro", 
+      systemInstruction: systemPrompt,
     });
 
     // 대화 내역 변환 (Google Generative AI 형식으로)
@@ -60,10 +70,11 @@ IMPORTANT: You must respond in the ${locale === 'en' ? 'English' : 'Korean'} lan
 
     return NextResponse.json({ message: text });
   } catch (error: any) {
-    console.error("[Gemini API Error]", error);
+    console.error("[Gemini API Error] Full Details:", error);
     return NextResponse.json({ 
       error: "제미나이 응답을 가져오는 중 오류가 발생했습니다.",
-      details: error.message || String(error)
+      details: error.message || String(error),
+      stack: process.env.NODE_ENV === 'development' ? error.stack : undefined
     }, { status: 500 });
   }
 }

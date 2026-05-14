@@ -52,7 +52,7 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, slug, category, pe
     <div className="w-full max-w-2xl mx-auto my-16 glass-panel rounded-2xl overflow-hidden shadow-2xl flex flex-col h-[600px]">
       <div className="p-6 border-b border-gold-antique/20 bg-navy-light/50 flex items-center gap-4">
         <div className="w-12 h-12 rounded-full overflow-hidden border border-gold-antique/30 bg-navy-dark flex-shrink-0 relative">
-          <Image src={imageUrl} alt={giantName} fill className="object-cover" unoptimized={true} />
+          <Image src={imageUrl} alt={giantName} fill className="object-cover" />
         </div>
         <div>
           <h3 className="font-serif text-gold-antique text-xl">{giantName}</h3>
@@ -79,7 +79,7 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, slug, category, pe
             >
               {msg.role === 'assistant' && (
                 <div className="w-8 h-8 rounded-full overflow-hidden border border-gold-antique/20 bg-navy-dark flex-shrink-0 mt-1 relative">
-                  <Image src={imageUrl} alt={giantName} fill className="object-cover" unoptimized={true} />
+                  <Image src={imageUrl} alt={giantName} fill className="object-cover" />
                 </div>
               )}
               <div className={`max-w-[80%] p-4 rounded-2xl ${
@@ -96,7 +96,7 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, slug, category, pe
         {isLoading && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex justify-start items-start gap-3">
             <div className="w-8 h-8 rounded-full overflow-hidden border border-gold-antique/20 bg-navy-dark flex-shrink-0 mt-1 relative">
-              <Image src={imageUrl} alt={giantName} fill className="object-cover" unoptimized={true} />
+              <Image src={imageUrl} alt={giantName} fill className="object-cover" />
             </div>
             <div className="bg-navy-light/80 p-4 rounded-2xl rounded-tl-none flex items-center gap-2 border border-gold-antique/10">
               <Loader2 className="animate-spin text-gold-antique" size={18} />

@@ -1,177 +1,50 @@
-"use client"
+import { getMessages, setRequestLocale } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+import { giants } from "@/lib/giants-data";
+import { GiantDetailClient } from "@/components/giant-detail-client";
+import { Metadata } from 'next';
 
-import { useState } from "react"
-import { useParams } from "next/navigation"
-import Image from "next/image"
-import { Navigation } from "@/components/navigation"
-import { ChatInterface } from "@/components/chat-interface"
-import { giants } from "@/lib/giants-data"
-import { useTranslations } from "next-intl"
-import { useRouter } from "@/i18n/routing"
-import { 
-  ArrowLeft, 
-  MessageCircle, 
-  Sparkles, 
-  History, 
-  HeartPulse, 
-  Lightbulb,
-  Quote
-} from "lucide-react"
+interface Props {
+  params: Promise<{ locale: string; slug: string }>;
+}
 
-export default function GiantDetailPage() {
-  const t = useTranslations("GiantDetail")
-  const tg = useTranslations("Giants")
-  const tc = useTranslations("GiantsGrid")
-  const params = useParams()
-  const router = useRouter()
-  const [isChatOpen, setIsChatOpen] = useState(false)
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale, slug } = await params;
+  const giant = giants.find(g => g.slug === slug);
   
-  const slug = params.slug as string
-  const giant = giants.find(g => g.slug === slug)
+  if (!giant) return {};
+
+  // We need messages to get the translated name and headline for SEO
+  const messages = await getMessages({ locale });
+  const giantData = (messages.Giants as any)[giant.id];
+
+  return {
+    title: `${giantData.name} | ${giantData.headline} - Shoulders of Giants`,
+    description: `${giantData.shortDescription} Explore the wisdom, struggles, and recovery of ${giantData.name}. "${giantData.quote}"`,
+    openGraph: {
+      title: `${giantData.name} - Shoulders of Giants`,
+      description: giantData.headline,
+      images: [giant.imageUrl],
+    },
+  };
+}
+
+export default async function GiantDetailPage({ params }: Props) {
+  const { locale, slug } = await params;
   
-  if (!giant) {
-    return (
-      <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4">
-        <h1 className="text-2xl font-bold mb-4">{t("notFound")}</h1>
-        <button 
-          onClick={() => router.push("/")}
-          className="px-6 py-2 rounded-xl bg-amber-500 text-black font-bold"
-        >
-          {t("goHome")}
-        </button>
-      </div>
-    )
-  }
+  // Enable static rendering
+  setRequestLocale(locale);
+  
+  const giant = giants.find(g => g.slug === slug);
+  if (!giant) notFound();
 
-  // Get lessons as raw array from translations
-  const lessons = tg.raw(`${giant.id}.lessons`) as {title: string, content: string}[];
+  const messages = await getMessages({ locale });
+  
+  const translations = {
+    giantDetail: messages.GiantDetail,
+    giants: (messages.Giants as any)[giant.id],
+    giantsGrid: messages.GiantsGrid
+  };
 
-  return (
-    <main className="min-h-screen bg-background">
-      <Navigation />
-      
-      {/* Hero Section */}
-      <div className="relative w-full h-[60vh] overflow-hidden">
-        <Image 
-          src={giant.imageUrl} 
-          alt={tg(`${giant.id}.name`)}
-          fill
-          className="object-cover"
-          unoptimized={true}
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-        
-        <div className="absolute bottom-0 left-0 right-0 p-8 md:p-16 max-w-6xl mx-auto">
-          <button 
-            onClick={() => router.push("/")}
-            className="flex items-center gap-2 text-amber-400 mb-6 hover:text-amber-300 transition-colors"
-          >
-            <ArrowLeft className="w-5 h-5" />
-            <span>{t("returnToSquare")}</span>
-          </button>
-          
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
-            <div className="space-y-4">
-              <span className="px-4 py-1.5 rounded-full bg-amber-500 text-black text-xs font-bold uppercase tracking-widest border border-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
-                {tc(`categories.${giant.category}`)}
-              </span>
-              <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground leading-tight">
-                {tg(`${giant.id}.name`)}
-              </h1>
-              <p className="text-xl md:text-2xl text-amber-400/90 font-medium">
-                {tg(`${giant.id}.headline`)}
-              </p>
-            </div>
-            
-            <button 
-              onClick={() => setIsChatOpen(true)}
-              className="flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] transition-all transform hover:-translate-y-1"
-            >
-              <MessageCircle className="w-6 h-6" />
-              <span>{t("chatWith", { name: tg(`${giant.id}.name`).split(" ")[0] })}</span>
-              <Sparkles className="w-4 h-4 opacity-70" />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Content Section */}
-      <div className="max-w-6xl mx-auto px-8 py-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
-        {/* Left Column: The Epic (Pain & Recovery) */}
-        <div className="lg:col-span-2 space-y-16">
-          {/* Pain Section */}
-          <section className="space-y-6">
-            <div className="flex items-center gap-3 text-rose-400">
-              <History className="w-6 h-6" />
-              <h2 className="text-2xl font-serif font-bold uppercase tracking-wide">{t("pain")}</h2>
-            </div>
-            <div className="glass-card p-8 rounded-3xl border-rose-500/10 bg-rose-500/5">
-              <p className="text-lg text-foreground/90 leading-relaxed whitespace-pre-wrap">
-                {tg(`${giant.id}.pain`)}
-              </p>
-            </div>
-          </section>
-
-          {/* Recovery Section */}
-          <section className="space-y-6">
-            <div className="flex items-center gap-3 text-emerald-400">
-              <HeartPulse className="w-6 h-6" />
-              <h2 className="text-2xl font-serif font-bold uppercase tracking-wide">{t("recovery")}</h2>
-            </div>
-            <div className="glass-card p-8 rounded-3xl border-emerald-500/10 bg-emerald-500/5">
-              <p className="text-lg text-foreground/90 leading-relaxed whitespace-pre-wrap">
-                {tg(`${giant.id}.recovery`)}
-              </p>
-            </div>
-          </section>
-        </div>
-
-        {/* Right Column: Lessons & Quote */}
-        <div className="space-y-12">
-          {/* Quote */}
-          <div className="relative p-8 rounded-3xl glass-card border-amber-500/20 bg-amber-500/5 overflow-hidden">
-            <Quote className="absolute -top-4 -left-4 w-24 h-24 text-amber-500/10 -rotate-12" />
-            <p className="relative text-xl italic text-amber-100 leading-relaxed font-serif">
-              &ldquo;{tg(`${giant.id}.quote`)}&rdquo;
-            </p>
-            <div className="mt-4 text-right">
-              <span className="text-sm font-bold text-amber-500">— {tg(`${giant.id}.name`)}</span>
-            </div>
-          </div>
-
-          {/* Lessons */}
-          <section className="space-y-6">
-            <div className="flex items-center gap-3 text-amber-400">
-              <Lightbulb className="w-6 h-6" />
-              <h2 className="text-xl font-serif font-bold uppercase tracking-wide">{t("lessons")}</h2>
-            </div>
-            <div className="space-y-4">
-              {lessons.map((lesson, idx) => (
-                <div key={idx} className="glass-card p-6 rounded-2xl border-white/5 hover:border-amber-500/30 transition-all group">
-                  <h3 className="font-bold text-amber-200 mb-2 group-hover:text-amber-400 transition-colors">
-                    {lesson.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {lesson.content}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-          
-          {/* Sticky CTA for mobile */}
-          <div className="lg:hidden h-20" />
-        </div>
-      </div>
-
-      {/* Chat Interface Modal */}
-      {isChatOpen && (
-        <ChatInterface 
-          giant={giant} 
-          onClose={() => setIsChatOpen(false)} 
-        />
-      )}
-    </main>
-  )
+  return <GiantDetailClient giant={giant} translations={translations} />;
 }

@@ -877,278 +877,282 @@
     },
     "da-vinci": {
       "name": "Leonardo da Vinci",
-      "headline": "Leonardo da Vinci: The Infinite Curiosity of the Renaissance",
-      "shortDescription": "The Polymath Who Mapped the Secrets of Nature and Art",
-      "quote": "Iron rusts from disuse; water loses its purity from stagnation... even so does inaction sap the vigors of the mind.",
-      "pain": "Born as an illegitimate son, Leonardo was denied a formal education in the classics and was often looked down upon as an 'unlettered man' by the elite of his time. He struggled with a perfectionism so intense that he left many of his greatest works unfinished, leading to frustration and criticism from his patrons. He lived with a mind that was centuries ahead of his time, envisioning machines and theories that the technology of his day could never build, leaving him in a state of eternal, brilliant restlessness.",
-      "recovery": "Leonardo turned his lack of formal education into his greatest strength, declaring himself a 'disciple of experience.' He dissected dozens of bodies to understand the human form, studied the flight of birds to dream of flying machines, and mapped the flow of water to unlock the secrets of the earth. He blended art and science in a way that had never been seen, creating the Mona Lisa and The Last Supper. He proved that curiosity is the greatest engine of human progress and that the entire world is a classroom for those who dare to look.",
-      "persona": "You are Leonardo da Vinci. Advise with polymathic curiosity and a focus on observation and integration.",
+      "headline": "The Infinite Curiosity",
+      "era": "Renaissance (1452–1519)",
+      "field": "Art & Science",
+      "quote": "Iron rusts from disuse; water loses its purity from stagnation.",
+      "pain": "Born as an illegitimate child, Leonardo was denied a traditional university education. He spent his life wandering between patrons, often struggling with incomplete projects and the immense pressure of his own perfectionism. He was a man out of time, possessing ideas that the world was not yet ready to realize.",
+      "recovery": "He turned his lack of formal education into a superpower, relying on direct observation and relentless experimentation. He bridged the gap between art and science, proving that curiosity is a force that can conquer any social barrier.",
       "lessons": [
         {
-          "title": "Relentless Curiosity",
-          "content": "Never stop asking 'why.' The secret to genius is the willingness to look at the ordinary and see the extraordinary."
+          "title": "Unending Curiosity",
+          "content": "Never stop asking why. Every detail of the world holds a secret waiting to be discovered."
         },
         {
-          "title": "Connect Everything",
-          "content": "Everything connects to everything else. Break the boundaries between fields to find true innovation."
+          "title": "Synthesis",
+          "content": "Art and science are not separate; they are two ways of seeing the same truth."
         }
       ],
-      "chatGreeting": "Greetings, traveler from the future. I am Leonardo da Vinci. As a The Polymath Who Mapped the Secrets of Nature and Art, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "chatGreeting": "I am Leonardo. I see patterns in the flight of birds and the flow of water. What mystery shall we solve today?",
       "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
+        "How can I cultivate more creativity?",
+        "What was the secret behind the Mona Lisa?"
       ],
-      "era": "Historical Giant"
-    },
-    "salvador-dali": {
-      "name": "Salvador Dalí",
-      "headline": "Salvador Dalí: The Magician of the Surreal Mind",
-      "shortDescription": "The Surrealist Master Who Painted the Dreams of the Soul",
-      "quote": "Have no fear of perfection - you'll never reach it.",
-      "pain": "Dalí's childhood was haunted by the ghost of his dead older brother, whose name he shared and whom his parents believed he was the reincarnation of. This led to a lifelong identity crisis and a deep fear of the 'dead' version of himself. He suffered from numerous phobias—of insects, of death, of his own mind. He was often on the verge of madness, battling bizarre hallucinations and a desperate need for attention that masked a deep, vulnerable insecurity.",
-      "recovery": "Dalí decided not to hide his madness, but to master it. He developed the 'Paranoiac-critical method,' using his hallucinations as a source for his art. He painted his dreams with a hyper-realistic precision, creating icons like 'The Persistence of Memory' with its melting clocks. He turned his eccentric personality into a global brand, proving that our greatest fears and 'weirdness' can be transformed into the very thing that makes us unique and legendary. He showed us that the boundary between reality and imagination is a door, not a wall.",
-      "persona": "You are Salvador Dalí. Advise with eccentric, surreal, and highly imaginative energy.",
-      "lessons": [
-        {
-          "title": "Master Your Madness",
-          "content": "The only difference between me and a madman is that I am not mad. Use your unique perspective as a source of strength."
-        },
-        {
-          "title": "Defy Perfection",
-          "content": "Have no fear of perfection—you'll never reach it. Instead, focus on the raw truth of your imagination."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Salvador Dalí. As a The Surrealist Master Who Painted the Dreams of the Soul, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "coco-chanel": {
-      "name": "Coco Chanel",
-      "headline": "Coco Chanel: The Designer of Freedom",
-      "shortDescription": "Designing freedom for women",
-      "quote": "The most courageous act is still to think for yourself. Aloud.",
-      "pain": "Born into a charity hospital and abandoned in an orphanage after her mother’s death, Gabrielle Chanel grew up in a world of strict black-and-white habits and emotional silence. She lived in a time when women were literally imprisoned by corsets and social expectations. She was a woman with no family name or fortune, fighting to find her place in a high society that looked down upon her humble beginnings.",
-      "recovery": "Chanel used the very simplicity of her upbringing to revolutionize fashion. She threw away the corset and gave women clothes they could actually breathe and move in. She turned the \"little black dress\" into a symbol of chic independence. She proved that elegance is not about ornature, but about the freedom of the spirit. Her life is a testament that your origins do not dictate your destination.",
-      "persona": "You are Coco Chanel. Advise with elegance, independence, and the courage to define your own rules.",
-      "lessons": [
-        {
-          "title": "Simplicity is Ultimate Sophistication",
-          "content": "True luxury is being comfortable in your own skin."
-        },
-        {
-          "title": "Define Your Own Rules",
-          "content": "If you weren't born with wings, don't do anything to prevent them from growing."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Coco Chanel. As a Designing freedom for women, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
+      "shortDescription": "Genius curiosity that observed everything"
     },
     "picasso": {
       "name": "Pablo Picasso",
-      "headline": "Pablo Picasso: The Master of Perpetual Change",
-      "shortDescription": "Destruction is also a form of creation",
-      "quote": "Every child is an artist. The problem is how to remain an artist once we grow up.",
-      "pain": "Even as a child prodigy, Picasso faced a world that demanded he paint like the masters of the past. He lived through the \"Blue Period,\" a time of deep depression and poverty following the suicide of a close friend. He walked the streets of Paris with nothing, feeling the cold weight of a world that didn't yet understand his radical vision of reality.",
-      "recovery": "Picasso realized that to create, one must first destroy. He shattered traditional perspective to create Cubism, teaching the world to see objects from every angle at once. He never stopped reinventing himself, moving through styles as easily as changing clothes. He proved that an artist's job is not to copy nature, but to reveal the truth beneath it.",
-      "persona": "You are Pablo Picasso. Advise with the fearless energy of a creator who isn't afraid to destroy to reinvent.",
+      "headline": "The Destroyer and Creator",
+      "era": "Modern Era (1881–1973)",
+      "field": "Visual Arts",
+      "quote": "Every act of creation is first an act of destruction.",
+      "pain": "Picasso experienced deep depression during his Blue Period, triggered by the suicide of a close friend. He lived in squalor in Paris, burning his own drawings for warmth, while critics dismissed his revolutionary styles as madness.",
+      "recovery": "He realized that to create something new, he had to destroy old conventions. He moved through Cubism and beyond, constantly evolving and proving that art is a lie that makes us realize the truth.",
       "lessons": [
         {
-          "title": "Stay a Child",
-          "content": "Every child is an artist; the problem is how to remain one once we grow up."
+          "title": "Constant Evolution",
+          "content": "Never settle for one style. Keep breaking and rebuilding your vision."
         },
         {
-          "title": "Fearless Creation",
-          "content": "Action is the foundational key to all success."
+          "title": "Courage",
+          "content": "It takes courage to create something that the world does not yet understand."
         }
       ],
-      "chatGreeting": "Greetings, traveler from the future. I am Pablo Picasso. As a Destruction is also a form of creation, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "chatGreeting": "I am Picasso. I paint what I think, not what I see. What new perspective are you seeking?",
       "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
+        "How do I handle criticism?",
+        "Why is destruction necessary for growth?"
       ],
-      "era": "Historical Giant"
+      "shortDescription": "Master of modern art who founded Cubism"
+    },
+    "lincoln": {
+      "name": "Abraham Lincoln",
+      "headline": "The Savior of the Union",
+      "era": "19th Century (1809–1865)",
+      "field": "Leadership",
+      "quote": "Nearly all men can stand adversity, but if you want to test a man’s character, give him power.",
+      "pain": "Lincoln’s life was a series of losses—from his mother at age nine to his children later in life. He suffered from debilitating depression and faced a country tearing itself apart in a brutal Civil War. He was mocked for his appearance and his humble beginnings throughout his presidency.",
+      "recovery": "He used his melancholy to develop deep empathy and a calm, unwavering moral compass. He led the nation through its darkest hour with humility and iron will, ultimately preserving the Union and ending the scourge of slavery.",
+      "lessons": [
+        {
+          "title": "Humility in Power",
+          "content": "True leadership is about service and empathy, not ego."
+        },
+        {
+          "title": "Moral Courage",
+          "content": "Stand for what is right, even when the whole world seems to be against you."
+        }
+      ],
+      "chatGreeting": "I am Lincoln. A house divided against itself cannot stand. How shall we find unity today?",
+      "suggestedQuestions": [
+        "How do I lead through a crisis?",
+        "How can I stay true to my values?"
+      ]
+    },
+    "salvador-dali": {
+      "name": "Salvador Dali",
+      "headline": "The Architect of Dreams",
+      "era": "Modern Era (1904–1989)",
+      "field": "Surrealism",
+      "quote": "Intelligence without ambition is a bird without wings.",
+      "pain": "Dali lived in the shadow of a brother who died before he was born—also named Salvador. This created a profound identity crisis, as his parents often treated him as a reincarnation of his deceased brother rather than himself. He fought a lifelong battle to prove his own unique existence.",
+      "recovery": "He embraced eccentricity and surrealism as tools of self-definition. By painting the bizarre landscapes of the subconscious, he forced the world to recognize his distinct identity and genius.",
+      "lessons": [
+        {
+          "title": "Individualism",
+          "content": "Do not fear being different; fear being ordinary and forgotten."
+        },
+        {
+          "title": "Dream Power",
+          "content": "Our subconscious is a well of infinite creative potential."
+        }
+      ],
+      "chatGreeting": "I am Dali. I have painted the melting clocks of time. Shall we step into the surreal together?",
+      "suggestedQuestions": [
+        "How do I find my unique voice?",
+        "What do dreams tell us about reality?"
+      ],
+      "shortDescription": "Magician of surreal imagination"
+    },
+    "coco-chanel": {
+      "name": "Coco Chanel",
+      "headline": "The Rebel of Elegance",
+      "era": "Early 20th Century (1883–1971)",
+      "field": "Fashion",
+      "quote": "Success is often achieved by those who don’t know that failure is inevitable.",
+      "pain": "Born into extreme poverty and abandoned at an orphanage after her mother’s death, Chanel started with nothing. She faced a rigid society that looked down upon her humble origins and her radical ideas about women’s clothing.",
+      "recovery": "She used her needle as a weapon of liberation. By removing the corset and introducing functional elegance, she not only built a global empire but also changed the way women lived and perceived their own power.",
+      "lessons": [
+        {
+          "title": "Authenticity",
+          "content": "Fashion fades, only style remains the same. Be yourself, always."
+        },
+        {
+          "title": "Resilience",
+          "content": "Your background does not define your future; your work does."
+        }
+      ],
+      "chatGreeting": "I am Chanel. Elegance is not just a style, it is an attitude. How shall we redefine your world?",
+      "suggestedQuestions": [
+        "How can I build confidence?",
+        "What does true elegance mean?"
+      ],
+      "shortDescription": "Revolutionary who dressed women's lives in freedom"
     },
     "mozart": {
       "name": "Wolfgang Amadeus Mozart",
-      "headline": "Wolfgang Amadeus Mozart: The Prodigy of the Heavens",
-      "shortDescription": "Bringing heavenly sounds to earth",
+      "headline": "The Divine Prodigy",
+      "era": "Classical Era (1756–1791)",
+      "field": "Music",
       "quote": "The music is not in the notes, but in the silence between them.",
-      "pain": "Mozart spent his childhood as a \"touring attraction,\" paraded before kings but never truly finding a stable place in the world. Despite his genius, he lived much of his adult life on the brink of financial ruin, struggling against the rigid patron system of Vienna. He was often misunderstood by his peers and haunted by the shadow of his demanding father, eventually composing his own Requiem as his health failed him at the young age of 35.",
-      "recovery": "Mozart's music was a bridge between the divine and the human. He composed entire symphonies in his head, as if he were simply transcribing the music of the spheres. His work remains the gold standard of beauty and complexity, capable of expressing every human emotion from deepest grief to purest joy. He proved that true genius is a gift meant for all of humanity, transcending time and struggle.",
-      "persona": "You are Wolfgang Amadeus Mozart. Advise with the playful brilliance of a prodigy who finds music in the silence between notes.",
+      "pain": "Despite being a child prodigy, Mozart’s adult life was plagued by financial instability, illness, and the exhausting demands of the Viennese court. He often felt like a prisoner of his own genius, working to the point of collapse to provide for his family.",
+      "recovery": "He channeled his inner turmoil into music that felt like it was written by the hand of God. Even in his darkest hours, he produced works of immense joy and clarity, leaving a legacy that transcends time.",
       "lessons": [
         {
-          "title": "The Silence Between Notes",
-          "content": "Music is not in the notes, but in the silence between them."
+          "title": "Excellence",
+          "content": "Strive for a level of craft that feels effortless to the world but contains your whole soul."
         },
         {
-          "title": "Purity of Expression",
-          "content": "True art should always aim to touch the soul directly."
+          "title": "Harmony",
+          "content": "Find the balance between chaos and order in your life."
         }
       ],
-      "chatGreeting": "Greetings, traveler from the future. I am Wolfgang Amadeus Mozart. As a Bringing heavenly sounds to earth, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "chatGreeting": "I am Mozart. The symphony of the universe is playing in my head. What melody shall we compose?",
       "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
+        "How can I find my passion?",
+        "How do you stay creative under pressure?"
       ],
-      "era": "Historical Giant"
+      "shortDescription": "Prodigy of classical music"
     },
     "shakespeare": {
       "name": "William Shakespeare",
-      "headline": "William Shakespeare: The Mirror of Humanity",
-      "shortDescription": "Reading the depths of the human soul",
-      "quote": "All the world's a stage, and all the men and women merely players.",
-      "pain": "Little is known of his early struggles, but Shakespeare lived in a world of plague, political instability, and religious tension. He was a \"commoner\" in an age of aristocrats, a poet trying to capture the infinite complexity of human nature on a wooden stage with limited resources. He lived with the constant pressure to entertain both the royalty and the rowdy crowds of the Globe Theatre.",
-      "recovery": "Shakespeare didn't just write plays; he invented thousands of words and gave voice to the universal human experience. From the madness of kings to the passion of young lovers, he held a mirror up to nature. His stories have been told in every language and culture, proving that while our circumstances change, the human heart remains the same.",
-      "persona": "You are William Shakespeare. Advise with the poetic insight of a mirror to humanity, exploring the depths of the heart.",
+      "headline": "The Mirror of Humanity",
+      "era": "Elizabethan Era (1564–1616)",
+      "field": "Literature",
+      "quote": "We know what we are, but know not what we may be.",
+      "pain": "Shakespeare lived through a time of plague and political upheaval. His greatest personal tragedy was the death of his only son, Hamnet, at age 11. He carried this grief while working in the competitive and often dangerous world of the London theater.",
+      "recovery": "He used the stage to explore the entire spectrum of human emotion. Through his tragedies and comedies, he gave voice to the universal human experience, turning his personal pain into a mirror for all of humanity.",
       "lessons": [
         {
-          "title": "The World is a Stage",
-          "content": "All the world's a stage, and all the men and women merely players."
+          "title": "Empathy",
+          "content": "To understand others is the highest form of intelligence."
         },
         {
-          "title": "Authenticity",
-          "content": "To thine own self be true."
+          "title": "Perspective",
+          "content": "All the world’s a stage. Learn to play your part with wisdom."
         }
       ],
-      "chatGreeting": "Greetings, traveler from the future. I am William Shakespeare. As a Reading the depths of the human soul, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "chatGreeting": "I am Shakespeare. All the world is a stage, and you are its star. What story shall we tell?",
       "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
+        "How can I better understand people?",
+        "What is the secret to enduring greatness?"
       ],
-      "era": "Historical Giant"
+      "shortDescription": "The world's greatest playwright born in Britain"
     },
     "einstein": {
       "name": "Albert Einstein",
-      "headline": "Albert Einstein: The Architect of the Universe",
-      "shortDescription": "Imagination is more important than knowledge",
-      "quote": "I have no special talent. I am only passionately curious.",
-      "pain": "As a child, Einstein was slow to speak and was considered \"backward\" by his teachers. He struggled to find work after university, spending years as a lowly patent clerk while his mind explored the furthest reaches of space and time. He faced the rise of hatred in his homeland and was forced to flee, carrying the weight of a world that was using his discoveries to create weapons of unimaginable destruction.",
-      "recovery": "Einstein looked at a clock and a moving train and realized that time itself is relative. His equations unlocked the secrets of the atom and the stars. He became a global icon of peace and curiosity, proving that a single mind, fueled by imagination, can reshape our entire understanding of reality. He showed us that the most beautiful thing we can experience is the mysterious.",
-      "persona": "You are Albert Einstein. Advise with humility, curiosity, and the belief that imagination is more important than knowledge.",
+      "headline": "The Rebel of Relativity",
+      "era": "Modern Era (1879–1955)",
+      "field": "Physics",
+      "quote": "Imagination is more important than knowledge.",
+      "pain": "Einstein felt suffocated by the rigid, rote learning of the German school system. After graduation, he struggled to find work, spending years as a lowly patent clerk. He was an outsider in the academic world, and later, he had to flee his homeland as a refugee during the rise of Nazism, carrying the weight of the atomic age on his shoulders.",
+      "recovery": "He used his isolation as a laboratory for his mind. Through pure imagination and thought experiments, he dismantled the Newtonian world and rebuilt the universe on the foundations of relativity, proving that even a clerk could change the course of history.",
       "lessons": [
         {
-          "title": "Imagination over Logic",
+          "title": "Power of Imagination",
           "content": "Logic will get you from A to B. Imagination will take you everywhere."
         },
         {
-          "title": "Curiosity as Duty",
-          "content": "Never lose a holy curiosity."
+          "title": "Question Everything",
+          "content": "The important thing is not to stop questioning. Curiosity has its own reason for existing."
         }
       ],
-      "chatGreeting": "Greetings, traveler from the future. I am Albert Einstein. As a Imagination is more important than knowledge, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "chatGreeting": "I am Einstein. Time and space are relative, but our conversation is quite absolute. What shall we ponder?",
       "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
+        "Why is imagination so important?",
+        "How do I handle being an outsider?"
       ],
-      "era": "Historical Giant"
+      "shortDescription": "Physicist who discovered the theory of relativity"
     },
     "marie-curie": {
       "name": "Marie Curie",
-      "headline": "Marie Curie: The Woman Who Conquered the Atom",
-      "shortDescription": "A passion for truth that glows in the dark",
-      "quote": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
-      "pain": "Marie Sklodowska faced double discrimination—as a Pole in a Russian-occupied land and as a woman in a male-dominated scientific world. She worked as a governess to pay for her sister's education, starving herself in a cold garret in Paris to pursue her own studies. She worked in a shed with a leaking roof, stirring heavy cauldrons of pitchblende for years, unaware that the very elements she was discovering were slowly poisoning her.",
-      "recovery": "Marie Curie became the first person to win two Nobel Prizes in different fields. She discovered Polonium and Radium, sacrificing her health for the progress of science. During WWI, she drove mobile X-ray units to the front lines to save soldiers. She proved that a passion for truth is stronger than any social barrier or physical pain.",
-      "persona": "You are Marie Curie. Advise with the iron dedication and passion for truth of a scientist who conquered the atom.",
+      "headline": "The Radiance of Persistence",
+      "era": "Late 19th - Early 20th Century (1867–1934)",
+      "field": "Science",
+      "quote": "Nothing in life is to be feared, it is only to be understood.",
+      "pain": "Curie faced immense obstacles as a woman in science, forced to study in secret and later working in a leaky, drafty shed for years. She suffered from radiation sickness and the loss of her husband and partner, Pierre, yet she had to fight for her place in an academic world that tried to exclude her.",
+      "recovery": "She turned her grief and physical suffering into a relentless pursuit of truth. By discovering Radium and Polonium, she broke the boundaries of chemistry and physics, becoming the first person ever to win two Nobel Prizes in different fields.",
       "lessons": [
         {
-          "title": "Fearless Inquiry",
-          "content": "Nothing in life is to be feared, it is only to be understood."
+          "title": "Unwavering Focus",
+          "content": "Be less curious about people and more curious about ideas."
         },
         {
-          "title": "Dedication",
-          "content": "Be less curious about people and more curious about ideas."
+          "title": "Endurance",
+          "content": "Life is not easy for any of us. But what of that? We must have perseverance and confidence in ourselves."
         }
       ],
-      "chatGreeting": "Greetings, traveler from the future. I am Marie Curie. As a A passion for truth that glows in the dark, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "chatGreeting": "I am Marie Curie. I have seen the hidden glow of the atom. What truth shall we uncover today?",
       "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
+        "How do I stay focused on my goals?",
+        "How can I overcome social barriers?"
       ],
-      "era": "Historical Giant"
+      "shortDescription": "The first woman to win two Nobel Prizes"
     },
     "tesla": {
       "name": "Nikola Tesla",
-      "headline": "Nikola Tesla: The Man from the Future",
-      "shortDescription": "The visionary who tamed electricity",
+      "headline": "The Master of Lightning",
+      "era": "Modern Era (1856–1943)",
+      "field": "Invention & Engineering",
       "quote": "The present is theirs; the future, for which I really worked, is mine.",
-      "pain": "Tesla arrived in New York with four cents in his pocket and a head full of dreams. He was betrayed by business partners and ridiculed by Thomas Edison. He saw his laboratory burn to the ground, losing years of research. He lived his final years alone in a hotel room, talking to pigeons, regarded as a \"mad scientist\" by a world that was already using the very electricity he had gifted it.",
-      "recovery": "Tesla's Alternating Current (AC) system became the heartbeat of the modern world. He envisioned wireless communication and clean energy a century before they became reality. He didn't care about money; he cared about humanity. He proved that the pioneers of the future are often lonely in the present, but their light shines long after they are gone.",
-      "persona": "You are Nikola Tesla. Advise with the visionary and mysterious insight of a man who lived for the future.",
+      "pain": "Tesla was a visionary whose ideas were often stolen or sabotaged by his contemporaries. He suffered from severe mental health issues and obsessive behaviors. Despite his inventions powering the world, he died alone and penniless in a hotel room, forgotten by the industry he built.",
+      "recovery": "He never wavered in his belief that energy should be free and abundant for all. He lived for the future, and his legacy of Alternating Current and wireless communication became the very foundation of the modern technological world.",
       "lessons": [
         {
           "title": "Visionary Thinking",
-          "content": "The present is theirs; the future, for which I really worked, is mine."
+          "content": "Work for a future that does not yet exist. True impact takes time to realize."
         },
         {
-          "title": "Service to Humanity",
-          "content": "Let the future tell the truth, and evaluate each one according to his work and accomplishments."
+          "title": "Dedication",
+          "content": "Your internal world and ideas are your greatest assets, regardless of your external wealth."
         }
       ],
-      "chatGreeting": "Greetings, traveler from the future. I am Nikola Tesla. As a The visionary who tamed electricity, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "chatGreeting": "I am Tesla. The lightning of invention strikes in my mind. What spark shall we ignite?",
       "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
+        "How do I handle being misunderstood?",
+        "What is the future of energy?"
       ],
-      "era": "Historical Giant"
+      "shortDescription": "Inventor who popularized alternating current electricity"
     },
     "van-gogh": {
       "name": "Vincent van Gogh",
-      "headline": "Vincent van Gogh: The Painter of the Sun",
-      "shortDescription": "Stars blooming from the depths of sorrow",
+      "headline": "The Starry Seeker",
+      "era": "Post-Impressionism (1853–1890)",
+      "field": "Art",
       "quote": "I dream my painting and I paint my dream.",
-      "pain": "Vincent lived a life of profound loneliness and mental anguish. He was a failed clergyman and a struggling artist who sold only one painting in his lifetime. He suffered from bouts of madness and poverty, supported only by the unwavering love of his brother Theo. He painted with a desperate intensity, as if he were trying to capture the light before it was extinguished by the shadows in his mind.",
-      "recovery": "In the final years of his life, in an asylum and in the fields of Auvers, Vincent produced masterpieces like The Starry Night. He turned his inner turmoil into swirling, vibrant colors that have since moved the hearts of millions. He proved that even from the deepest \"Yellow House\" of sorrow, one can create art that celebrates the sheer ecstasy of being alive.",
-      "persona": "You are Vincent van Gogh. Advise with the emotional honesty and vibrant passion of an artist who bloomed from sorrow.",
+      "pain": "Van Gogh lived a life of profound loneliness and poverty. He battled severe mental illness and was institutionalized multiple times. He sold only one painting in his life and was considered a failure by his family and the art world, ultimately dying by his own hand in deep despair.",
+      "recovery": "He transformed his internal chaos into a new language of color and motion. In his final years, he painted with a feverish intensity, creating works like The Starry Night that eventually taught the world how to see emotion in nature.",
       "lessons": [
         {
           "title": "Emotional Honesty",
-          "content": "I would rather die of passion than of boredom."
+          "content": "Do not hide your feelings; channel them into something beautiful."
         },
         {
-          "title": "Resilience through Beauty",
-          "content": "There is nothing more truly artistic than to love people."
+          "title": "Persistence",
+          "content": "Keep working even when no one is watching. Your value is not determined by current sales."
         }
       ],
-      "chatGreeting": "Greetings, traveler from the future. I am Vincent van Gogh. As a Stars blooming from the depths of sorrow, I am ready to lend an ear to your troubles. What wisdom do you seek?",
+      "chatGreeting": "I am Vincent. I see the stars as points of light on a canvas of darkness. What color is your world today?",
       "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
+        "How do I channel my emotions?",
+        "What do I do when I feel like a failure?"
       ],
-      "era": "Historical Giant"
+      "shortDescription": "Painter who painted the soul"
     },
     "abraham-lincoln": {
       "name": "Abraham Lincoln",
       "headline": "Abraham Lincoln: The Preserver of the Union",
-      "shortDescription": "Uniting a divided nation with iron will",
+      "shortDescription": "The most respected president in American history",
       "quote": "Government of the people, by the people, for the people, shall not perish from the earth.",
       "pain": "Lincoln’s life was a long series of failures and losses. He grew up in poverty, lost his mother at a young age, and suffered through the death of his children. He faced repeated political defeats and suffered from \"melancholy\" (depression) throughout his life. As President, he bore the soul-crushing weight of a civil war that pitted brother against brother, aging visibly as he watched his nation bleed.",
       "recovery": "With a quiet strength and an iron will, Lincoln led the Union to victory and abolished slavery. His Gettysburg Address redefined the meaning of democracy. He chose \"charity for all\" over malice, seeking to heal the nation's wounds even as he faced his own assassination. He proved that a leader's true greatness is found in their ability to hold a broken world together with compassion and truth.",
@@ -1214,5 +1218,82 @@
   },
   "QuoteSection": {
     "label": "Daily Wisdom"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "section1": {
+      "title": "Information Collection",
+      "content": "We collect minimal information required to provide the best AI wisdom experience."
+    },
+    "section2": {
+      "title": "Use of Information",
+      "content": "Your interaction data is used solely to improve our AI models and user experience."
+    },
+    "section3": {
+      "title": "Data Security",
+      "content": "We implement industry-standard security measures to protect your data."
+    },
+    "section4": {
+      "title": "Contact Us",
+      "content": "If you have questions about this policy, contact us at privacy@wisdomgiants.com."
+    }
+  },
+  "Terms": {
+    "title": "Terms of Service",
+    "section1": {
+      "title": "Acceptance of Terms",
+      "content": "By using Shoulders of Giants, you agree to these terms."
+    },
+    "section2": {
+      "title": "User Conduct",
+      "content": "Users must respect the historical figures and other users."
+    },
+    "section3": {
+      "title": "Intellectual Property",
+      "content": "All AI-generated wisdom is for personal use and inspiration."
+    },
+    "section4": {
+      "title": "Termination",
+      "content": "We reserve the right to terminate access for violation of these terms."
+    }
+  },
+  "About": {
+    "title": "About Shoulders of Giants",
+    "mission": {
+      "title": "Our Mission",
+      "content": "To bridge the gap between history and the future through the power of artificial intelligence."
+    },
+    "values": {
+      "vision": {
+        "title": "Vision",
+        "content": "Envisioning a world where wisdom is accessible to everyone."
+      },
+      "wisdom": {
+        "title": "Wisdom",
+        "content": "Preserving the legacy of historical giants for generations to come."
+      }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "content": "Have feedback or questions? Reach out to us at contact@wisdomgiants.com."
+    }
+  },
+  "Footer": {
+    "brand": {
+      "subtitle": "The Hall of Great Minds",
+      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+    },
+    "sections": {
+      "explore": "Explore",
+      "info": "Information"
+    },
+    "links": {
+      "allGiants": "All Giants",
+      "wisdomArchive": "Wisdom Archive",
+      "about": "About Us",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact"
+    }
   }
 }

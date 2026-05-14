@@ -115,7 +115,6 @@ export function QuoteSection() {
                     alt={quote.author}
                     fill
                     className="object-cover"
-                    unoptimized={true}
                   />
                 </div>
                 <div>

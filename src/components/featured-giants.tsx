@@ -76,7 +76,6 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
                 fill
                 className="object-cover object-top opacity-20 group-hover:opacity-40 transition-all duration-1000 group-hover:scale-105"
                 priority
-                unoptimized={true}
               />
               <div className={`absolute inset-0 bg-gradient-to-br ${featured[0].color} mix-blend-soft-light opacity-30`} />
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
@@ -140,7 +139,6 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
                   alt={tg(`${featured[1].id}.name`)}
                   fill
                   className="object-cover object-top group-hover:scale-110 transition-transform duration-700"
-                  unoptimized={true}
                 />
               </div>
             </div>

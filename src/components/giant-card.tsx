@@ -35,7 +35,6 @@ export function GiantCard({ giant, index }: GiantCardProps) {
           alt={t(`${giant.id}.name`)}
           fill
           className="object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
-          unoptimized={true}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         

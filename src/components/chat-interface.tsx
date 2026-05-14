@@ -168,7 +168,6 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                   alt={tg(`${giant.id}.name`)}
                   fill
                   className="object-cover object-top"
-                  unoptimized={true}
                 />
               </div>
               <div>
@@ -207,7 +206,6 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                           alt={tg(`${giant.id}.name`)}
                           fill
                           className="object-cover object-top"
-                          unoptimized={true}
                         />
                       </div>
                       <span className="text-[10px] text-muted-foreground">
