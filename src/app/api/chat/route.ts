@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
   try {
-    const { prompt, giantName, persona, messages } = await req.json();
+    const { prompt, giantName, persona, messages, locale } = await req.json();
 
     if (!prompt) {
       return NextResponse.json({ error: "질문 내용이 없습니다." }, { status: 400 });
@@ -22,7 +22,8 @@ export async function POST(req: Request) {
 다음은 당신의 성격과 철학(Persona)입니다:
 ${persona}
 
-이 페르소나에 완벽히 빙의하여 대화해 주세요. 답변은 정중하면서도 인물의 특징이 드러나야 합니다.`;
+이 페르소나에 완벽히 빙의하여 대화해 주세요. 답변은 정중하면서도 인물의 특징이 드러나야 합니다.
+IMPORTANT: You must respond in the ${locale === 'en' ? 'English' : 'Korean'} language.`;
 
     // 유저가 요청한 Gemini 2.5 모델로 설정
     const model = genAI.getGenerativeModel({ 

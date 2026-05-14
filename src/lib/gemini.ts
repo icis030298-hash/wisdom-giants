@@ -2,7 +2,7 @@
  * Gemini API와 통신하여 거인의 응답을 가져오는 클라이언트 사이드 함수입니다.
  * 낡은 fetch 방식 대신 에러 핸들링이 보강된 최신 로직으로 관리합니다.
  */
-export async function getGiantResponse(persona: string, userMessage: string, giantName: string, history: { role: string, content: string }[] = []) {
+export async function getGiantResponse(persona: string, userMessage: string, giantName: string, history: { role: string, content: string }[] = [], locale: string = 'ko') {
   try {
     // Gemini API 규칙: 첫 번째 메시지는 반드시 'user'여야 하므로, 
     // AI의 첫인사(assistant)가 배열 처음에 있다면 제외합니다.
@@ -21,6 +21,7 @@ export async function getGiantResponse(persona: string, userMessage: string, gia
         giantName,
         persona,
         messages: filteredHistory,
+        locale
       }),
     });
 
