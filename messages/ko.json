@@ -6,7 +6,21 @@
     "about": "소개",
     "startExploring": "탐험 시작하기",
     "title": "Shoulders of Giants",
-    "subtitle": "위대한 지성들의 전당"
+    "subtitle": "위대한 지성들의 전당",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "myProfile": "내 프로필",
+    "signInRequired": "대화 목록을 보려면 로그인이 필요합니다."
+  },
+  "Chats": {
+    "title": "내 대화 기록",
+    "subtitle": "위대한 지성들과의 대화",
+    "description": "과거 거인들과 나누었던 깊은 통찰과 조언들을 한눈에 확인해 보세요. 언제든 대화를 이어나갈 수 있습니다.",
+    "emptyTitle": "아직 나눈 대화가 없습니다",
+    "emptyDescription": "위대한 지성들이 당신의 고민을 들어줄 준비가 되어 있습니다. 지금 첫 대화를 시작해 보세요!",
+    "startFirstChat": "첫 대화 시작하기",
+    "messages": "개의 메시지",
+    "lastChat": "마지막 대화"
   },
   "Hero": {
     "badge": "위대한 지성들의 전당",

@@ -1,9 +1,10 @@
 "use client"
 
 import { useState, useEffect, useTransition } from "react"
-import { Menu, X, Sparkles, BookOpen, Users, MessageCircle, Info, Languages, ChevronDown } from "lucide-react"
+import { Menu, X, Sparkles, BookOpen, Users, MessageCircle, Info, Languages, ChevronDown, LogOut, LayoutDashboard } from "lucide-react"
 import { useTranslations, useLocale } from "next-intl"
 import { usePathname, useRouter, Link } from "@/i18n/routing"
+import { AuthButton } from "@/components/auth-button"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -22,10 +23,14 @@ export function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   
   const navLinks = [
-    { label: t("hallOfGems"), href: "#giants", icon: Users },
-    { label: t("wisdomArchive"), href: "#library", icon: BookOpen },
-    { label: t("chatList"), href: "#chat", icon: MessageCircle },
-    { label: t("about"), href: "#about", icon: Info },
+    { label: t("hallOfGems"), href: "/#giants", icon: Users },
+    { label: t("wisdomArchive"), href: "/#library", icon: BookOpen },
+    { 
+      label: t("chatList"), 
+      href: "/chats", 
+      icon: MessageCircle,
+    },
+    { label: t("about"), href: "/about", icon: Info },
   ]
 
   const locales = [
@@ -67,19 +72,27 @@ export function Navigation() {
           
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-1">
-            {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm text-muted-foreground hover:text-foreground hover:bg-amber-500/10 transition-all"
-              >
-                <link.icon className="w-4 h-4" />
-                {link.label}
-              </a>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = pathname === link.href;
+              
+              return (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm transition-all ${
+                    isActive 
+                      ? "text-amber-300 bg-amber-500/10 border border-amber-500/20" 
+                      : "text-muted-foreground hover:text-foreground hover:bg-amber-500/10"
+                  }`}
+                >
+                  <link.icon className="w-4 h-4" />
+                  {link.label}
+                </Link>
+              );
+            })}
           </div>
           
-          {/* CTA & Language Switcher */}
+          {/* CTA & Language Switcher & Auth */}
           <div className="hidden md:flex items-center gap-4">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -102,9 +115,7 @@ export function Navigation() {
               </DropdownMenuContent>
             </DropdownMenu>
 
-            <button className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground font-medium text-sm hover:shadow-lg hover:shadow-amber-500/25 transition-all">
-              {t("startExploring")}
-            </button>
+            <AuthButton />
           </div>
           
           {/* Mobile actions */}

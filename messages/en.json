@@ -6,7 +6,21 @@
     "about": "About",
     "startExploring": "Start Exploring",
     "title": "Shoulders of Giants",
-    "subtitle": "The Hall of Great Minds"
+    "subtitle": "The Hall of Great Minds",
+    "login": "Login",
+    "logout": "Logout",
+    "myProfile": "My Profile",
+    "signInRequired": "Login required to view chat history."
+  },
+  "Chats": {
+    "title": "My Conversations",
+    "subtitle": "Dialogues with Great Minds",
+    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
+    "emptyTitle": "No conversations yet",
+    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
+    "startFirstChat": "Start First Chat",
+    "messages": "messages",
+    "lastChat": "Last chat"
   },
   "Hero": {
     "badge": "The Hall of Great Minds",
