@@ -29,8 +29,8 @@ const categoryMap: Record<string, string> = {
 };
 
 export const giants: Giant[] = giantsData
-  .map((g, index) => ({
-    id: (index + 1).toString(),
+  .map(g => ({
+    id: g.slug,
     name: g.name,
     title: g.headline,
     era: g.era,

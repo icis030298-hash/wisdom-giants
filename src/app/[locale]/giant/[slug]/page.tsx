@@ -16,10 +16,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!giant) return {};
 
   const messages = await getMessages({ locale });
-  const giantData = (messages.Giants as any)[giant.id] || {
+  const giantData = (messages.Giants as any)[giant.slug] || {
     name: giant.name,
-    headline: giant.title,
-    shortDescription: giant.description,
+    headline: giant.headline,
+    shortDescription: giant.shortDescription,
     quote: giant.quote
   };
 
@@ -45,23 +45,23 @@ export default async function GiantDetailPage({ params }: Props) {
   const messages = await getMessages({ locale });
   
   // Find standardized narrative data
-  const narrative = (finalNarratives as any)[giant.name];
+  const narrative = (finalNarratives as any)[giant.slug];
   
   const formattedNarrative = narrative ? {
     epic: locale === 'en' ? narrative.epic_en : narrative.epic_ko,
     trials: locale === 'en' ? narrative.trials_en : narrative.trials_ko,
     overcoming: locale === 'en' ? narrative.overcoming_en : narrative.overcoming_ko,
     era: locale === 'en' ? narrative.era_en : narrative.era_ko,
-    wisdom: narrative.wisdom.map((w: any) => ({
+    wisdom: (narrative.wisdom || []).map((w: any) => ({
       quote: locale === 'en' ? w.quote_en : w.quote_ko,
       meaning: locale === 'en' ? w.meaning_en : w.meaning_ko
     }))
   } : null;
 
-  const giantTranslation = (messages.Giants as any)[giant.id] || {
+  const giantTranslation = (messages.Giants as any)[giant.slug] || {
     name: giant.name,
-    headline: giant.title,
-    shortDescription: giant.description,
+    headline: giant.headline,
+    shortDescription: giant.shortDescription,
     pain: "데이터 준비 중...",
     recovery: "데이터 준비 중...",
     lessons: [],

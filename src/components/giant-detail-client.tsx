@@ -95,7 +95,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               className="flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] transition-all transform hover:-translate-y-1"
             >
               <MessageCircle className="w-6 h-6" />
-              <span>{t.chatWith.replace("{name}", tg.name.split(" ")[0])}</span>
+              <span>{t.chatWith.replace("{name}", (tg.name || "").split(" ")[0])}</span>
               <Sparkles className="w-4 h-4 opacity-70" />
             </button>
           </div>
@@ -120,14 +120,16 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-500/[0.02] rounded-full blur-[100px]" />
                 
                 <div className="relative z-10 space-y-10">
-                  {epicContent.split(/\n\n|\\n\\n/).map((paragraph, idx) => (
-                    <p 
-                      key={idx} 
-                      className={`text-lg md:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-justify
-                        ${idx === 0 ? 'first-letter:text-6xl first-letter:font-serif first-letter:mr-4 first-letter:float-left first-letter:text-amber-400 first-letter:font-black first-letter:leading-none first-letter:mt-2' : ''}`}
-                    >
-                      {paragraph}
-                    </p>
+                  {(epicContent || "").split(/\n\n|\\n\\n/).map((paragraph, idx) => (
+                    paragraph ? (
+                      <p 
+                        key={idx} 
+                        className={`text-lg md:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-justify
+                          ${idx === 0 ? 'first-letter:text-6xl first-letter:font-serif first-letter:mr-4 first-letter:float-left first-letter:text-amber-400 first-letter:font-black first-letter:leading-none first-letter:mt-2' : ''}`}
+                      >
+                        {paragraph}
+                      </p>
+                    ) : null
                   ))}
                 </div>
               </div>
@@ -145,10 +147,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="glass-card p-8 rounded-[2rem] border border-red-500/10 bg-red-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-red-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-4">
-                  {trialsContent.split(/\n\n|\\n\\n/).map((p, i) => (
-                    <p key={i} className="text-slate-200 leading-relaxed font-normal">
-                      {p}
-                    </p>
+                  {(trialsContent || "").split(/\n\n|\\n\\n/).map((p, i) => (
+                    p ? (
+                      <p key={i} className="text-slate-200 leading-relaxed font-normal">
+                        {p}
+                      </p>
+                    ) : null
                   ))}
                 </div>
               </div>
@@ -163,10 +167,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="glass-card p-8 rounded-[2rem] border border-emerald-500/10 bg-emerald-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-4">
-                  {overcomingContent.split(/\n\n|\\n\\n/).map((p, i) => (
-                    <p key={i} className="text-slate-200 leading-relaxed font-normal">
-                      {p}
-                    </p>
+                  {(overcomingContent || "").split(/\n\n|\\n\\n/).map((p, i) => (
+                    p ? (
+                      <p key={i} className="text-slate-200 leading-relaxed font-normal">
+                        {p}
+                      </p>
+                    ) : null
                   ))}
                 </div>
               </div>

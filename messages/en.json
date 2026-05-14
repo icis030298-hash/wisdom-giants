@@ -84,705 +84,707 @@
     "goHome": "Back to Home"
   },
   "Giants": {
-    "1": {
-      "name": "엘리자베스 1세",
-      "headline": "1533년, 헨리 8세와 앤 불린의 딸로 태어난 엘리자베스는 탄생과 동시에 축복보다는 저주의 주인공이었...",
-      "shortDescription": "엘리자베스 1세의 일대기와 지혜",
-      "quote": "고독의 결단",
-      "era": "Historical Giant"
-    },
     "steve-jobs": {
-      "name": "스티브 잡스",
-      "headline": "1955년 2월 24일, 샌프란시스코의 차가운 겨울 끝자락에서 한 아이가 세상에 첫 숨을 내뱉었습니다....",
-      "shortDescription": "스티브 잡스의 일대기와 지혜",
-      "quote": "당신의 시간은 한정되어 있습니다. 그러니 다른 사람의 삶을 사느라 시간을 낭비하지 마세요. 타인의 소음이 내면의 목소리를 가로막지 않도록 본인의 마음을 따르십시오.",
-      "era": "Historical Giant"
-    },
-    "napoleon": {
-      "name": "나폴레옹 보나파르트",
-      "headline": "1769년, 지중해의 작은 섬 코르시카에서 한 아이가 세상에 첫 발을 내디뎠습니다. 프랑스의 지배에 저...",
-      "shortDescription": "나폴레옹 보나파르트의 일대기와 지혜",
-      "quote": "나의 사전에 불가능이란 단어는 존재하지 않습니다. 당신이 마주한 벽 또한 도약을 위한 발판일 뿐이니, 스스로 한계를 짓지 마십시오.",
-      "era": "Historical Giant"
+      "name": "Steve Jobs",
+      "headline": "The visionary architect who married technology with the human soul.",
+      "shortDescription": "The epic journey of Steve Jobs and his timeless wisdom.",
+      "quote": "Stay Hungry, Stay Foolish.",
+      "era": "20th Century"
     },
     "king-sejong": {
-      "name": "세종대왕",
-      "headline": "1397년, 한양의 한 귀퉁이에서 훗날 조선의 가장 찬란한 태양이 될 아이, 이도가 태어났습니다. 태종...",
-      "shortDescription": "세종대왕의 일대기와 지혜",
-      "quote": "백성이 나를 비판한다면, 그것은 내가 그들을 충분히 사랑하지 않았기 때문입니다. 리더의 책임은 오직 본인에게 있습니다.",
-      "era": "Historical Giant"
+      "name": "King Sejong the Great",
+      "headline": "The sage monarch who created Hangul to gift his people a voice and enlightened a nation.",
+      "shortDescription": "The profound life and wisdom of King Sejong.",
+      "quote": "If the people criticize me, it is because I have not loved them enough.",
+      "era": "15th Century Giant"
     },
     "elon-musk": {
-      "name": "일론 머스크",
-      "headline": "1971년, 남아프리카 공화국의 프리토리아에서 한 소년이 태어났습니다. 일론 머스크는 어린 시절부터 책...",
-      "shortDescription": "일론 머스크의 일대기와 지혜",
-      "quote": "실패는 하나의 옵션입니다. 실패하지 않았다면 당신은 충분히 혁신하지 않은 것입니다.",
-      "era": "Historical Giant"
+      "name": "Elon Musk",
+      "headline": "The visionary entrepreneur who aims to make humanity a multi-planetary species.",
+      "shortDescription": "The epic journey of Elon Musk and his futuristic wisdom.",
+      "quote": "Failure is an option here. If things are not failing, you are not innovating enough.",
+      "era": "21st Century Giant",
+      "pain": "Three consecutive rocket explosions and financial collapse on the brink of bankruptcy.",
+      "recovery": "A final bet with his entire fortune and breaking through the crisis with first-principles thinking."
     },
     "genghis-khan": {
-      "name": "징기스칸",
-      "headline": "1162년경, 몽골 초원의 오논강 유역에서 한 아이가 손에 핏덩이를 쥐고 태어났습니다. 훗날 징기스칸이...",
-      "shortDescription": "징기스칸의 일대기와 지혜",
-      "quote": "내 안에 있는 두려움을 정복했을 때, 비로소 나는 진정한 정복자가 되었습니다.",
-      "era": "Historical Giant"
+      "name": "Genghis Khan",
+      "headline": "The conqueror who rose from the desolate steppes to build the largest empire in history.",
+      "shortDescription": "The legendary saga of Temujin and his iron will.",
+      "quote": "When I conquered the fear within me, I became a true conqueror.",
+      "era": "13th Century Giant"
     },
     "alexander-the-great": {
-      "name": "알렉산더 대왕",
-      "headline": "기원전 356년, 마케도니아의 수도 펠라에서 훗날 온 세상을 발아래 두게 될 사자, 알렉산더가 태어났습...",
-      "shortDescription": "알렉산더 대왕의 일대기와 지혜",
-      "quote": "두려움에 맞서는 자에게 불가능이란 존재하지 않습니다. 당신이 마주한 벽은 단지 당신의 용기를 시험하는 관문일 뿐입니다.",
-      "era": "Historical Giant"
+      "name": "Alexander the Great",
+      "headline": "The young king who ventured to the ends of the known world to unite civilizations.",
+      "shortDescription": "The glorious campaign of Alexander and his eternal legacy.",
+      "quote": "There is nothing impossible to him who will try.",
+      "era": "4th Century BC Giant"
     },
     "walt-disney": {
-      "name": "월트 디즈니",
-      "headline": "1901년 시카고의 가난한 집안에서 태어난 월트 디즈니의 어린 시절은 상처와 결핍으로 가득했습니다. 엄...",
-      "shortDescription": "월트 디즈니의 일대기와 지혜",
-      "quote": "상상할 수 있다면, 실현할 수도 있습니다. 당신의 꿈을 비웃는 사람들의 말에 귀 기울이지 마십시오.",
-      "era": "Historical Giant"
+      "name": "Walt Disney",
+      "headline": "The pioneer of imagination who turned dreams into reality and enchanted the world.",
+      "shortDescription": "The magical journey of Walt Disney and his creative soul.",
+      "quote": "If you can dream it, you can do it.",
+      "era": "20th Century Giant"
     },
-    "giant-8": {
-      "name": "토마스 에디슨",
-      "headline": "1847년 오하이오주의 작은 마을에서 태어난 토마스 에디슨은 '문제아'였습니다. 학교생활에 적응하지 못...",
-      "shortDescription": "토마스 에디슨의 일대기와 지혜",
-      "quote": "천재는 1%의 영감과 99%의 노력으로 만들어집니다. 당신이 흘린 땀방울은 결코 당신을 배신하지 않습니다.",
-      "era": "Historical Giant"
+    "thomas-edison": {
+      "name": "Thomas Edison",
+      "headline": "The wizard of Menlo Park who illuminated the darkness with relentless innovation.",
+      "shortDescription": "The industrious life of Thomas Edison and his inventions.",
+      "quote": "Genius is 1% inspiration and 99% perspiration.",
+      "era": "19th Century Giant"
     },
-    "giant-9": {
-      "name": "율리우스 카이사르",
-      "headline": "기원전 100년, 로마의 몰락해가는 귀족 가문에서 태어난 가이우스 율리우스 카이사르에게 세상은 거대한 ...",
-      "shortDescription": "율리우스 카이사르의 일대기와 지혜",
-      "quote": "주사위는 던져졌습니다. 망설임은 당신의 적을 키울 뿐이니, 일단 결단했다면 앞만 보고 진격하십시오.",
-      "era": "Historical Giant"
+    "julius-caesar": {
+      "name": "Julius Caesar",
+      "headline": "The Roman statesman who crossed the Rubicon to forge a legacy that outlived an empire.",
+      "shortDescription": "The political and military saga of Julius Caesar.",
+      "quote": "The die is cast.",
+      "era": "1st Century BC Giant"
     },
-    "giant-10": {
-      "name": "헨리 포드",
-      "headline": "1863년 미시간주의 평범한 농가에서 태어난 헨리 포드는 흙을 만지는 일보다 기계의 태엽을 만지는 일을...",
-      "shortDescription": "헨리 포드의 일대기와 지혜",
-      "quote": "당신이 할 수 있다고 믿든 할 수 없다고 믿든, 당신의 믿음은 항상 옳습니다.",
-      "era": "Historical Giant"
+    "henry-ford": {
+      "name": "Henry Ford",
+      "headline": "The industrial visionary who revolutionized transportation and the modern workplace.",
+      "shortDescription": "The story of Henry Ford and the birth of mass production.",
+      "quote": "Whether you think you can, or you think you can't—you're right.",
+      "era": "20th Century Giant"
     },
-    "giant-11": {
-      "name": "프리다 칼로",
-      "headline": "1907년 멕시코시티의 '푸른 집', 그곳에서 훗날 전 세계인의 영혼을 뒤흔들 불꽃 같은 예술가 프리다...",
-      "shortDescription": "프리다 칼로의 일대기와 지혜",
-      "quote": "피할 수 없는 끔찍한 고통이라면, 그것을 당신만의 독창적인 무기이자 창작의 원천으로 바꾸십시오.",
-      "era": "Historical Giant"
+    "frida-kahlo": {
+      "name": "Frida Kahlo",
+      "headline": "The resilient artist who transformed physical and emotional pain into immortal masterpieces.",
+      "shortDescription": "The fierce life of Frida Kahlo and her artistic soul.",
+      "quote": "Feet, what do I need them for if I have wings to fly?",
+      "era": "20th Century Giant"
     },
-    "giant-12": {
-      "name": "빅터 프랑클",
-      "headline": "1905년 오스트리아 빈, 정신의학의 황금기를 구가하던 그곳에서 빅터 프랑클이라는 한 천재적인 청년이 ...",
-      "shortDescription": "빅터 프랑클의 일대기와 지혜",
-      "quote": "자극과 반응 사이에는 공간이 있고, 그 공간에 우리의 자유가 있습니다.",
-      "era": "Historical Giant"
+    "viktor-frankl": {
+      "name": "Viktor Frankl",
+      "headline": "The psychiatrist who found the meaning of life in the depths of suffering and healed humanity.",
+      "shortDescription": "The spiritual journey of Viktor Frankl and Logotherapy.",
+      "quote": "He who has a why to live can bear almost any how.",
+      "era": "20th Century Giant"
     },
-    "giant-13": {
-      "name": "오프라 윈프리",
-      "headline": "1954년 미국 미시시피주의 가난한 농가, 미혼모의 품에서 한 아이가 세상에 나왔습니다. 오프라 윈프리...",
-      "shortDescription": "오프라 윈프리의 일대기와 지혜",
-      "quote": "당신이 입은 상처를 지혜로 바꾸십시오. 그것이 당신의 가장 강력한 무기가 될 것입니다.",
-      "era": "Historical Giant"
+    "oprah-winfrey": {
+      "name": "Oprah Winfrey",
+      "headline": "The media queen who turned her trauma into a bridge of empathy for the world.",
+      "shortDescription": "The inspiring success story of Oprah Winfrey.",
+      "quote": "Turn your wounds into wisdom.",
+      "era": "Modern Giant"
     },
-    "jk": {
-      "name": "J.K. 롤링",
-      "headline": "1990년 영국, 맨체스터에서 런던으로 향하던 기차 안에서 한 여인의 머릿속에 마법 같은 이야기가 번뜩...",
-      "shortDescription": "J.K. 롤링의 일대기와 지혜",
-      "quote": "인생의 밑바닥에 도달했을 때, 그곳은 비로소 당신의 인생을 다시 견고하게 세울 수 있는 가장 단단한 토대가 됩니다.",
-      "era": "Historical Giant"
+    "jk-rowling": {
+      "name": "J.K. Rowling",
+      "headline": "The author who rose from the rock bottom of failure to create a magical world for millions.",
+      "shortDescription": "The magical life of J.K. Rowling and the boy who lived.",
+      "quote": "Rock bottom became the solid foundation on which I rebuilt my life.",
+      "era": "Modern Giant"
     },
-    "mandela": {
-      "name": "넬슨 만델라",
-      "headline": "1918년 남아프리카 공화국의 템부 부족 추장 가문에서 롤리흘라흘라라는 이름의 소년이 태어났습니다. 그...",
-      "shortDescription": "넬슨 만델라의 일대기와 지혜",
-      "quote": "용서의 무기",
-      "era": "Historical Giant"
+    "nelson-mandela": {
+      "name": "Nelson Mandela",
+      "headline": "The leader who spent 27 years in prison to liberate a nation and heal it with forgiveness.",
+      "shortDescription": "The long walk to freedom of Nelson Mandela.",
+      "quote": "Forgiveness is a powerful weapon.",
+      "era": "20th Century Giant"
     },
-    "giant-16": {
-      "name": "헬렌 켈러",
-      "headline": "1880년 미국 앨라배마주의 한 유복한 가정에서 헬렌 켈러가 태어났습니다. 생후 19개월 만에 앓은 열...",
-      "shortDescription": "헬렌 켈러의 일대기와 지혜",
-      "quote": "마음의 눈",
-      "era": "Historical Giant"
+    "helen-keller": {
+      "name": "Helen Keller",
+      "headline": "The scholar who triumphed over silence and darkness to become a beacon of human will.",
+      "shortDescription": "The incredible triumph of Helen Keller.",
+      "quote": "The best and most beautiful things in the world cannot be seen or even touched.",
+      "era": "19th-20th Century Giant"
     },
-    "giant-17": {
-      "name": "루드비히 판 베토벤",
-      "headline": "1770년 독일 본, 음악의 명가에서 한 아이가 세상에 태어났습니다. 루드비히 판 베토벤이라는 이름의 ...",
-      "shortDescription": "루드비히 판 베토벤의 일대기와 지혜",
-      "quote": "고뇌를 뚫고 환희로! (Durch Leiden zum Freude)",
-      "era": "Historical Giant"
+    "beethoven": {
+      "name": "Ludwig van Beethoven",
+      "headline": "The composer who conquered silence to create the most divine harmonies in history.",
+      "shortDescription": "The passionate struggle of Beethoven and his music.",
+      "quote": "Through suffering to joy!",
+      "era": "18th-19th Century Giant"
     },
-    "giant-18": {
-      "name": "스티븐 호킹",
-      "headline": "1942년 영국 옥스퍼드, 인류 역사상 가장 위대한 과학자 갈릴레이가 서거한 지 꼭 300년이 되는 날...",
-      "shortDescription": "스티븐 호킹의 일대기와 지혜",
-      "quote": "정신의 자유",
-      "era": "Historical Giant"
+    "stephen-hawking": {
+      "name": "Stephen Hawking",
+      "headline": "The physicist whose mind soared through the universe while his body was confined to a chair.",
+      "shortDescription": "The celestial journey of Stephen Hawking.",
+      "quote": "Look up at the stars and not down at your feet.",
+      "era": "Modern Giant"
     },
-    "giant-19": {
-      "name": "말랄라 유사프자이",
-      "headline": "1997년 파키스탄의 스와트 계곡, 험준한 산맥 아래에서 한 소녀가 태어났습니다. 말랄라 유사프자이의 ...",
-      "shortDescription": "말랄라 유사프자이의 일대기와 지혜",
-      "quote": "한 명의 아이, 한 명의 교사, 한 권의 책, 한 자루의 펜이 세상을 바꿀 수 있습니다.",
-      "era": "Historical Giant"
+    "franklin-d-roosevelt": {
+      "name": "Franklin D. Roosevelt",
+      "headline": "The president who led a nation through the Great Depression and World War II from a wheelchair.",
+      "shortDescription": "The resilient leadership of FDR.",
+      "quote": "The only thing we have to fear is fear itself.",
+      "era": "20th Century Giant"
     },
-    "giant-20": {
-      "name": "프랭클린 루스벨트",
-      "headline": "1882년 미국 뉴욕의 명문가에서 태어난 프랭클린 루스벨트(FDR)는 탄탄대로의 엘리트 코스를 밟으며 ...",
-      "shortDescription": "프랭클린 루스벨트의 일대기와 지혜",
-      "quote": "우리가 두려워해야 할 유일한 것은 두려움 그 자체입니다.",
-      "era": "Historical Giant"
+    "marcus-aurelius": {
+      "name": "Marcus Aurelius",
+      "headline": "The philosopher-king who maintained his soul's tranquility amidst the storms of empire.",
+      "shortDescription": "The stoic wisdom of Marcus Aurelius.",
+      "quote": "Your life is what your thoughts make of it.",
+      "era": "2nd Century Giant"
     },
-    "giant-21": {
-      "name": "마르쿠스 아우렐리우스",
-      "headline": "서기 121년, 로마 제국의 가장 강력한 권좌 근처에서 한 아이가 태어났습니다. 마르쿠스 아우렐리우스라...",
-      "shortDescription": "마르쿠스 아우렐리우스의 일대기와 지혜",
-      "quote": "당신의 생각이 당신의 인생을 만듭니다. 외부의 사건이 아니라 그것을 바라보는 당신의 마음이 고통의 실체입니다.",
-      "era": "Historical Giant"
-    },
-    "giant-22": {
-      "name": "세네카",
-      "headline": "기원전 4년경, 스페인의 코르도바에서 태어난 루키우스 안나이우스 세네카는 로마 제국의 가장 화려하면서도...",
-      "shortDescription": "세네카의 일대기와 지혜",
-      "quote": "인생은 짧은 것이 아니라, 우리가 인생을 낭비하고 있는 것입니다.",
-      "era": "Historical Giant"
+    "seneca": {
+      "name": "Seneca",
+      "headline": "The stoic philosopher whose letters on life and death have guided humanity for millennia.",
+      "shortDescription": "The timeless letters of Seneca.",
+      "quote": "It is not that we have a short time to live, but that we waste a lot of it.",
+      "era": "1st Century Giant"
     },
     "confucius": {
-      "name": "공자",
-      "headline": "기원전 551년 중국 노나라의 가난한 하급 귀족 집안에서 공자가 태어났습니다. 그의 유년기는 일찍 아버...",
-      "shortDescription": "공자의 일대기와 지혜",
-      "quote": "학이시습지",
-      "era": "Historical Giant"
+      "name": "Confucius",
+      "headline": "The philosopher who established the foundations of Eastern ethics and the harmony of humanity.",
+      "shortDescription": "The timeless wisdom of Confucius.",
+      "quote": "It does not matter how slowly you go as long as you do not stop.",
+      "era": "6th Century BC Giant"
     },
     "socrates": {
-      "name": "소크라테스",
-      "headline": "기원전 470년경 고대 그리스 아테네의 평범한 석공과 산파의 아들로 소크라테스가 태어났습니다. 그의 유...",
-      "shortDescription": "소크라테스의 일대기와 지혜",
-      "quote": "너 자신을 알라",
-      "era": "Historical Giant"
+      "name": "Socrates",
+      "headline": "The father of Western philosophy who taught humanity the art of questioning and self-awareness.",
+      "shortDescription": "The Socratic method and the search for truth.",
+      "quote": "The unexamined life is not worth living.",
+      "era": "5th Century BC Giant"
     },
-    "giant-25": {
-      "name": "노자",
-      "headline": "기원전 6세기경 중국 초나라의 신비로운 전설 속에서 노자가 태어났습니다. 그의 유년기는 세상의 떠들썩한...",
-      "shortDescription": "노자의 일대기와 지혜",
-      "quote": "상선약수",
-      "era": "Historical Giant"
+    "lao-tzu": {
+      "name": "Laozi",
+      "headline": "The sage of Taoism who taught the profound power of yielding and the natural order of the universe.",
+      "shortDescription": "The Tao Te Ching and the wisdom of non-action.",
+      "quote": "The journey of a thousand miles begins with one step.",
+      "era": "6th Century BC Giant"
     },
-    "giant-26": {
-      "name": "아리스토텔레스",
-      "headline": "기원전 384년경 마케도니아의 스타기라에서 왕실 의사의 아들로 아리스토텔레스가 태어났습니다. 그의 유년...",
-      "shortDescription": "아리스토텔레스의 일대기와 지혜",
-      "quote": "중용의 미덕",
-      "era": "Historical Giant"
+    "aristotle": {
+      "name": "Aristotle",
+      "headline": "The polymath who categorized human knowledge and defined the virtue of the golden mean.",
+      "shortDescription": "The analytical mind of Aristotle.",
+      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "era": "4th Century BC Giant"
     },
-    "giant-27": {
-      "name": "플라톤",
-      "headline": "기원전 427년경 고대 그리스 아테네의 명문 귀족 가문에서 플라톤이 태어났습니다. 그의 유년기는 정치적...",
-      "shortDescription": "플라톤의 일대기와 지혜",
-      "quote": "동굴의 비유",
-      "era": "Historical Giant"
+    "plato": {
+      "name": "Plato",
+      "headline": "The visionary philosopher who explored the world of ideas and the blueprint for an ideal state.",
+      "shortDescription": "The Republic and the Allegory of the Cave.",
+      "quote": "Wise men speak because they have something to say; fools because they have to say something.",
+      "era": "4th Century BC Giant"
     },
-    "giant-28": {
-      "name": "마하트마 간디",
-      "headline": "1869년 인도의 평범한 관리 가문에서 모한다스 간디가 태어났습니다. 그의 유년기는 내성적이고 소심하며...",
-      "shortDescription": "마하트마 간디의 일대기와 지혜",
-      "quote": "비폭력의 힘",
-      "era": "Historical Giant"
+    "mahatma-gandhi": {
+      "name": "Mahatma Gandhi",
+      "headline": "The apostle of non-violence who liberated a nation through the power of truth and peace.",
+      "shortDescription": "The satyagraha movement of Gandhi.",
+      "quote": "Be the change that you wish to see in the world.",
+      "era": "20th Century Giant"
     },
-    "mlk": {
-      "name": "마틴 루터 킹",
-      "headline": "1929년 미국 조지아주 애틀랜타, 마틴 루터 킹은 흑인이라는 이유만으로 식당, 버스, 화장실조차 백인...",
-      "shortDescription": "마틴 루터 킹의 일대기와 지혜",
-      "quote": "어둠은 어둠을 몰아낼 수 없습니다. 오직 빛만이 그것을 할 수 있습니다.",
-      "era": "Historical Giant"
-    },
-    "giant-30": {
-      "name": "마더 테레사",
-      "headline": "1910년 오늘날의 북마케도니아 스코페에서 아녜즈라는 이름의 소녀가 태어났습니다. 그녀의 유년기는 독실...",
-      "shortDescription": "마더 테레사의 일대기와 지혜",
-      "quote": "작은 일의 위대함",
-      "era": "Historical Giant"
+    "mother-teresa": {
+      "name": "Mother Teresa",
+      "headline": "The saint of the gutters who saw the face of the divine in the suffering of the poorest.",
+      "shortDescription": "The humble service of Mother Teresa.",
+      "quote": "Not all of us can do great things. But we can do small things with great love.",
+      "era": "20th Century Giant"
     },
     "leonardo-da-vinci": {
-      "name": "레오나르도 다 빈치",
-      "headline": "1452년 이탈리아의 작은 마을 빈치, 서자로 태어난 레오나르도 다 빈치의 유년기는 정규 교육에서 소외...",
-      "shortDescription": "레오나르도 다 빈치의 일대기와 지혜",
-      "quote": "호기심의 날개",
-      "era": "Historical Giant"
+      "name": "Leonardo da Vinci",
+      "headline": "The universal genius who merged art and science to capture the divine symmetry of the world.",
+      "shortDescription": "The boundless curiosity of Da Vinci.",
+      "quote": "Simplicity is the ultimate sophistication.",
+      "era": "Renaissance Giant"
     },
-    "giant-32": {
-      "name": "살바도르 달리",
-      "headline": "1904년 스페인의 피게레스, 기괴하고도 매혹적인 상상력을 지닌 아이 살바도르 달리가 태어났습니다. 하...",
-      "shortDescription": "살바도르 달리의 일대기와 지혜",
-      "quote": "완벽을 두려워하지 마십시오. 당신은 결코 완벽에 도달할 수 없을 것입니다.",
-      "era": "Historical Giant"
+    "salvador-dali": {
+      "name": "Salvador Dalí",
+      "headline": "The surrealist master who painted the landscapes of the subconscious and defied logic.",
+      "shortDescription": "The eccentric world of Salvador Dalí.",
+      "quote": "Have no fear of perfection - you'll never reach it.",
+      "era": "20th Century Giant"
     },
-    "giant-33": {
-      "name": "코코 샤넬",
-      "headline": "1883년 프랑스의 가난한 시장 통에서 태어난 가브리엘 샤넬의 진짜 과거는 패션 제국의 화려함과는 거리...",
-      "shortDescription": "코코 샤넬의 일대기와 지혜",
-      "quote": "가장 용기 있는 행동은 스스로 생각하고, 그것을 큰 소리로 외치는 것입니다.",
-      "era": "Historical Giant"
+    "coco-chanel": {
+      "name": "Coco Chanel",
+      "headline": "The fashion icon who liberated women from corsets and redefined modern elegance.",
+      "shortDescription": "The revolutionary style of Coco Chanel.",
+      "quote": "The most courageous act is still to think for yourself. Aloud.",
+      "era": "20th Century Giant"
     },
-    "giant-34": {
-      "name": "파블로 피카소",
-      "headline": "1881년 스페인의 말라가, 예술의 피가 흐르는 가문에서 태어난 파블로 피카소는 어린 시절부터 \"그림을...",
-      "shortDescription": "파블로 피카소의 일대기와 지혜",
-      "quote": "모든 아이는 예술가입니다. 문제는 어른이 되어서도 예술가로 남는 방법입니다.",
-      "era": "Historical Giant"
+    "pablo-picasso": {
+      "name": "Pablo Picasso",
+      "headline": "The titan of modern art who dismantled the visible world to reveal its hidden truths.",
+      "shortDescription": "The transformative vision of Picasso.",
+      "quote": "Every child is an artist. The problem is how to remain an artist once we grow up.",
+      "era": "20th Century Giant"
     },
-    "giant-35": {
-      "name": "모차르트",
-      "headline": "1756년 오스트리아 잘츠부르크, 음악가 가문에서 볼프강 아마데우스 모차르트가 태어났습니다. 그의 유년...",
-      "shortDescription": "모차르트의 일대기와 지혜",
-      "quote": "천상의 화음",
-      "era": "Historical Giant"
+    "mozart": {
+      "name": "Wolfgang Amadeus Mozart",
+      "headline": "The musical prodigy whose divine compositions whispered of the eternal and the sublime.",
+      "shortDescription": "The tragic brilliance of Mozart.",
+      "quote": "Music is not in the notes, but in the silence between.",
+      "era": "18th Century Giant"
     },
-    "giant-36": {
-      "name": "윌리엄 셰익스피어",
-      "headline": "1564년 영국의 전략적 요충지인 스트랫퍼드어폰에이번의 장갑 제작자 가문에서 윌리엄 셰익스피어가 태어났...",
-      "shortDescription": "윌리엄 셰익스피어의 일대기와 지혜",
-      "quote": "인생이라는 무대",
-      "era": "Historical Giant"
-    },
-    "einstein": {
-      "name": "알베르트 아인슈타인",
-      "headline": "1879년 독일 울름의 유대인 중산층 가문에서 알베르트 아인슈타인이 태어났습니다. 그의 유년기는 화려한...",
-      "shortDescription": "알베르트 아인슈타인의 일대기와 지혜",
-      "quote": "상상의 가치",
-      "era": "Historical Giant"
+    "william-shakespeare": {
+      "name": "William Shakespeare",
+      "headline": "The bard of Avon who mapped the human soul and the complexity of existence through the power of language.",
+      "shortDescription": "The eternal stage of Shakespeare.",
+      "quote": "All the world's a stage, and all the men and women merely players.",
+      "era": "16th-17th Century Giant"
     },
     "marie-curie": {
-      "name": "마리 퀴리",
-      "headline": "1867년 폴란드 바르샤바의 가난한 교육자 집안에서 마리 퀴리가 태어났습니다. 그녀의 유년기는 러시아의...",
-      "shortDescription": "마리 퀴리의 일대기와 지혜",
-      "quote": "두려움의 이해",
-      "era": "Historical Giant"
+      "name": "Marie Curie",
+      "headline": "The pioneer of radioactivity who broke scientific barriers and sacrificed her life for discovery.",
+      "shortDescription": "The radiant sacrifice of Marie Curie.",
+      "quote": "Nothing in life is to be feared, it is only to be understood.",
+      "era": "19th-20th Century Giant"
     },
-    "giant-39": {
-      "name": "니콜라 테슬라",
-      "headline": "1856년 지금의 크로아티아 땅에서 태어난 니콜라 테슬라는 인류의 미래를 100년 앞서 설계했던 고독한...",
-      "shortDescription": "니콜라 테슬라의 일대기와 지혜",
-      "quote": "미래는 진실을 말할 것이며, 각자의 성과와 업적에 따라 평가할 것입니다.",
-      "era": "Historical Giant"
+    "nikola-tesla": {
+      "name": "Nikola Tesla",
+      "headline": "The visionary engineer who dreamed of a wireless world and illuminated the modern age.",
+      "shortDescription": "The alternating currents of Tesla's mind.",
+      "quote": "The present is theirs; the future, for which I really worked, is mine.",
+      "era": "19th-20th Century Giant"
     },
-    "giant-40": {
-      "name": "빈센트 반 고흐",
-      "headline": "1853년 네덜란드의 조용한 마을 그루트 준데르트의 목사 가문에서 빈센트 반 고흐가 태어났습니다. 그의...",
-      "shortDescription": "빈센트 반 고흐의 일대기와 지혜",
-      "quote": "영혼의 색채",
-      "era": "Historical Giant"
+    "vincent-van-gogh": {
+      "name": "Vincent van Gogh",
+      "headline": "The post-impressionist painter who captured the swirling colors of the soul amidst poverty and madness.",
+      "shortDescription": "The starry nights and internal storms of Van Gogh.",
+      "quote": "I would rather die of passion than of boredom.",
+      "era": "19th Century Giant"
     },
-    "lincoln": {
-      "name": "에이브러햄 링컨",
-      "headline": "1809년 2월 12일, 켄터키주의 울창한 숲속 가난한 개척민의 오두막에서 한 아이가 태어났습니다. 에...",
-      "shortDescription": "에이브러햄 링컨의 일대기와 지혜",
-      "quote": "실패에 대한 태도",
-      "era": "Historical Giant"
+    "george-washington": {
+      "name": "George Washington",
+      "headline": "The founding father who led a revolution and defined the character of a new republic.",
+      "shortDescription": "The revolutionary service of Washington.",
+      "quote": "Labor to keep alive in your breast that little spark of celestial fire called conscience.",
+      "era": "18th Century Giant"
     },
-    "giant-42": {
-      "name": "조지 워싱턴",
-      "headline": "1732년 2월 22일, 버지니아의 울창한 숲과 험준한 산맥 사이 평범한 지주 가문에서 한 소년이 태어...",
-      "shortDescription": "조지 워싱턴의 일대기와 지혜",
-      "quote": "자유의 수호",
-      "era": "Historical Giant"
+    "yi-sun-shin": {
+      "name": "Yi Sun-sin",
+      "headline": "The legendary admiral who saved his nation from the brink of collapse with 12 ships and absolute loyalty.",
+      "shortDescription": "The naval brilliance and sacrifice of Admiral Yi.",
+      "quote": "Those who seek death shall live; those who seek life shall die.",
+      "era": "16th Century Giant"
     },
-    "giant-43": {
-      "name": "이순신",
-      "headline": "1545년 한양의 몰락한 선비 가문에서 태어난 이순신은, 문관의 길을 포기하고 뒤늦게 무관의 길을 택한...",
-      "shortDescription": "이순신의 일대기와 지혜",
-      "quote": "용기의 본질",
-      "era": "Historical Giant"
+    "elizabeth-i": {
+      "name": "Elizabeth I",
+      "headline": "The Virgin Queen who navigated a sea of enemies to forge England's Golden Age.",
+      "shortDescription": "The sovereign will of Elizabeth I.",
+      "quote": "I have the heart and stomach of a king, and of a king of England too.",
+      "era": "16th Century Giant"
     },
-    "giant-45": {
-      "name": "광개토대왕",
-      "headline": "374년, 전란의 불길이 끊이지 않던 고구려의 왕궁에서 담덕이라는 이름의 왕자가 태어났습니다. 그의 유...",
-      "shortDescription": "광개토대왕의 일대기와 지혜",
-      "quote": "제국의 기상",
-      "era": "Historical Giant"
+    "gwanggaeto-the-great": {
+      "name": "Gwanggaeto the Great",
+      "headline": "The conqueror king who expanded Goguryeo into a massive empire and restored national pride.",
+      "shortDescription": "The territorial expansion and legacy of Gwanggaeto.",
+      "quote": "The spirit of a great empire lives in the vastness of its vision.",
+      "era": "4th-5th Century Giant"
     },
-    "churchill": {
-      "name": "윈스턴 처칠",
-      "headline": "1874년 말버러 공작 가문의 화려한 명문가에서 태어났지만, 윈스턴 처칠의 소년기는 그 화려함의 이면에...",
-      "shortDescription": "윈스턴 처칠의 일대기와 지혜",
-      "quote": "불굴의 정의",
-      "era": "Historical Giant"
+    "qin-shi-huang": {
+      "name": "Qin Shi Huang",
+      "headline": "The first emperor who unified warring states and built the foundations of a unified China.",
+      "shortDescription": "The absolute power and order of Qin Shi Huang.",
+      "quote": "I have unified the world and established an order that will last ten thousand generations.",
+      "era": "3rd Century BC Giant"
     },
-    "giant-47": {
-      "name": "진시황",
-      "headline": "기원전 259년, 500년 넘게 이어진 피비린내 나는 전란의 시대인 춘추전국시대의 한복판에서 영정이라는...",
-      "shortDescription": "진시황의 일대기와 지혜",
-      "quote": "질서의 가치",
-      "era": "Historical Giant"
+    "augustus": {
+      "name": "Augustus",
+      "headline": "The architect of the Pax Romana who transformed a city of brick into a city of marble.",
+      "shortDescription": "The political genius of Augustus.",
+      "quote": "I found Rome a city of bricks and left it a city of marble.",
+      "era": "1st Century BC - 1st Century Giant"
     },
-    "giant-48": {
-      "name": "아우구스투스",
-      "headline": "기원전 63년, 로마의 평범한 기사 계급 가문에서 옥타비아누스라는 이름의 병약한 소년이 태어났습니다. ...",
-      "shortDescription": "아우구스투스의 일대기와 지혜",
-      "quote": "완성된 평화",
-      "era": "Historical Giant"
+    "otto-von-bismarck": {
+      "name": "Otto von Bismarck",
+      "headline": "The Iron Chancellor who unified Germany through blood, iron, and master-class diplomacy.",
+      "shortDescription": "The realpolitik of Bismarck.",
+      "quote": "The great questions of the day will not be settled by means of speeches and majority decisions... but by iron and blood.",
+      "era": "19th Century Giant"
     },
-    "giant-49": {
-      "name": "오토 폰 비스마르크",
-      "headline": "1815년, 프로이센의 전형적인 지주 계급인 융커 가문에서 오토 폰 비스마르크가 태어났습니다. 그의 유...",
-      "shortDescription": "오토 폰 비스마르크의 일대기와 지혜",
-      "quote": "현실의 직시",
-      "era": "Historical Giant"
+    "peter-the-great": {
+      "name": "Peter the Great",
+      "headline": "The reformist tsar who dragged Russia into the modern age by looking toward the West.",
+      "shortDescription": "The transformation of Russia under Peter.",
+      "quote": "I have seen the future, and it is in the hands of the educated.",
+      "era": "17th-18th Century Giant"
     },
-    "giant-50": {
-      "name": "표트르 대제",
-      "headline": "1672년 모스크바의 화려한 크렘린 궁전에서 표트르 1세가 태어났습니다. 하지만 그의 유년기는 화려한 ...",
-      "shortDescription": "표트르 대제의 일대기와 지혜",
-      "quote": "배움의 태도",
-      "era": "Historical Giant"
+    "catherine-the-great": {
+      "name": "Catherine The Great",
+      "headline": "In 1729, in a small Prussian principality, Sophie of Anhalt-Zerbst—the future Catherine the Great—was born into a family of minor nobility and monumental insignificance.",
+      "shortDescription": "The epic journey and wisdom of Catherine The Great.",
+      "quote": "I learn, I think, I work, and I never stop. Intelligence is your most potent weapon; keep it sharp through constant use.",
+      "era": "18th Century Giant (1729~1796)"
     },
-    "giant-51": {
-      "name": "캐서린 대제",
-      "headline": "1729년 프로이센의 가난한 귀족 가문에서 조피라는 이름의 소녀가 태어났습니다. 그녀의 유년기는 화려한...",
-      "shortDescription": "캐서린 대제의 일대기와 지혜",
-      "quote": "준비된 우연",
-      "era": "Historical Giant"
-    },
-    "giant-52": {
-      "name": "시몬 볼리바르",
-      "headline": "1783년 베네수엘라 카라카스의 부유한 귀족 가문에서 시몬 볼리바르가 태어났습니다. 어린 시절 부모를 ...",
-      "shortDescription": "시몬 볼리바르의 일대기와 지혜",
-      "quote": "자유의 대가",
-      "era": "Historical Giant"
+    "simon-bolivar": {
+      "name": "Simon Bolivar",
+      "headline": "In 1783, in the colonial city of Caracas, Simón Bolívar was born into one of the wealthiest and most powerful families in Venezuela.",
+      "shortDescription": "The epic journey and wisdom of Simon Bolivar.",
+      "quote": "The art of victory is learned in defeat. Do not fear the fall; it is the ground from which your monumental strength will grow. Rise again.",
+      "era": "18th-19th Century Giant (1783~1830)"
     },
     "margaret-thatcher": {
-      "name": "마가렛 대처",
-      "headline": "1925년 영국의 작은 마을 그랜덤, 식료품점 집 딸로 태어난 마가렛 대처의 유년기는 근면과 절제, 그...",
-      "shortDescription": "마가렛 대처의 일대기와 지혜",
-      "quote": "타협의 경계",
-      "era": "Historical Giant"
+      "name": "Margaret Thatcher",
+      "headline": "In 1925, above a grocery shop in the town of Grantham, Margaret Roberts was born.",
+      "shortDescription": "The epic journey and wisdom of Margaret Thatcher.",
+      "quote": "Watch your thoughts, for they become words. Watch your words, for they become actions. Watch your actions, for they become habits. Watch your habits, for they become character. Watch your character, for it becomes your destiny.",
+      "era": "20th Century Giant (1925~2013)"
     },
-    "d": {
-      "name": "존 D. 록펠러",
-      "headline": "1839년 뉴욕주의 가난한 농가에서 태어난 존 D. 록펠러의 유년기는 불성실한 아버지와 독실한 어머니 ...",
-      "shortDescription": "존 D. 록펠러의 일대기와 지혜",
-      "quote": "돈의 노예가 되지 마라",
-      "era": "Historical Giant"
+    "john-d-rockefeller": {
+      "name": "John D Rockefeller",
+      "headline": "In 1839, in the rural landscape of upstate New York, John Davison Rockefeller was born into a household of monumental contradictions.",
+      "shortDescription": "The epic journey and wisdom of John D Rockefeller.",
+      "quote": "The secret of success is to do common things uncommonly well. Mastery is found in the perfection of the mundane. Do not overlook the small steps.",
+      "era": "19th-20th Century Giant (1839~1937)"
     },
-    "giant-55": {
-      "name": "무스타파 케말 아타튀르크",
-      "headline": "1881년 당시 오스만 제국의 영토였던 테살로니키의 평범한 하급 관리 가문에서 무스타파라는 이름의 소년...",
-      "shortDescription": "무스타파 케말 아타튀르크의 일대기와 지혜",
-      "quote": "평화와 나라",
-      "era": "Historical Giant"
+    "ataturk": {
+      "name": "Ataturk",
+      "headline": "In 1881, in the Ottoman port city of Salonica, Mustafa was born into a world of crumbling borders and imperial decay.",
+      "shortDescription": "The epic journey and wisdom of Ataturk.",
+      "quote": "The truest guide in life is science. Reason is the only monumental light that can dispel the darkness of ignorance. Seek the truth in facts.",
+      "era": "19th-20th Century Giant (1881~1938)"
     },
-    "giant-56": {
-      "name": "테오도르 루스벨트",
-      "headline": "1858년 뉴욕의 부유한 가문에서 태어났지만, 테오도르 루스벨트의 소년기는 지독한 천식과 허약한 체구 ...",
-      "shortDescription": "테오도르 루스벨트의 일대기와 지혜",
-      "quote": "한계의 극복",
-      "era": "Historical Giant"
+    "theodore-roosevelt": {
+      "name": "Theodore Roosevelt",
+      "headline": "In 1858, in the brownstone elegance of New York City, Theodore Roosevelt was born into a life of monumental privilege and physical fragility.",
+      "shortDescription": "The epic journey and wisdom of Theodore Roosevelt.",
+      "quote": "Do what you can, with what you have, where you are. Perfection is not a prerequisite for action. The arena is waiting for you.",
+      "era": "19th-20th Century Giant (1858~1919)"
     },
-    "giant-57": {
-      "name": "안네 프랑크",
-      "headline": "1929년 독일 프랑크푸르트의 유복한 유대인 가문에서 안네 프랑크가 태어났습니다. 그녀의 유년기는 자유...",
-      "shortDescription": "안네 프랑크의 일대기와 지혜",
-      "quote": "희망의 기록",
-      "era": "Historical Giant"
+    "anne-frank": {
+      "name": "Anne Frank",
+      "headline": "In 1929, in the city of Frankfurt, Anne Frank was born into a Jewish family during the gathering storm of Nazi Germany.",
+      "shortDescription": "The epic journey and wisdom of Anne Frank.",
+      "quote": "In spite of everything, I still believe that people are really good at heart. Love is a monumental choice; hatred is an easy weakness. Hold on to your ideals.",
+      "era": "20th Century Giant (1929~1945)"
     },
-    "giant-58": {
-      "name": "로자 파크스",
-      "headline": "1913년 미국 앨라배마주의 인종 차별이 극심했던 시기에 로자 파크스가 태어났습니다. 그녀의 소년기는 ...",
-      "shortDescription": "로자 파크스의 일대기와 지혜",
-      "quote": "작은 거부의 힘",
-      "era": "Historical Giant"
+    "rosa-parks": {
+      "name": "Rosa Parks",
+      "headline": "In 1913, in the segregated landscape of Tuskegee, Alabama, Rosa McCauley was born into a world designed to diminish her humanity.",
+      "shortDescription": "The epic journey and wisdom of Rosa Parks.",
+      "quote": "Knowing what must be done does away with fear. When you are certain of your monumental cause, the world cannot intimidate you. Stand your ground.",
+      "era": "20th Century Giant (1913~2005)"
     },
-    "giant-59": {
-      "name": "프레데릭 더글러스",
-      "headline": "1818년경 미국 메릴랜드주의 한 노예 농장에서 프레데릭 더글러스가 태어났습니다. 그의 유년기는 자신의...",
-      "shortDescription": "프레데릭 더글러스의 일대기와 지혜",
-      "quote": "지식의 해방",
-      "era": "Historical Giant"
+    "frederick-douglass": {
+      "name": "Frederick Douglass",
+      "headline": "In 1818, on a plantation in Talbot County, Maryland, Frederick Bailey was born into the monumental crime of chattel slavery.",
+      "shortDescription": "The epic journey and wisdom of Frederick Douglass.",
+      "quote": "Knowledge makes a man unfit to be a slave. Education is the monumental bridge between bondage and liberty. Arm your mind.",
+      "era": "19th Century Giant (1818~1895)"
     },
-    "giant-60": {
-      "name": "해리엇 터브먼",
-      "headline": "1822년경 미국 메릴랜드주의 노예 농장에서 해리엇 터브먼이 태어났습니다. 그녀의 소년기는 지독한 노동...",
-      "shortDescription": "해리엇 터브먼의 일대기와 지혜",
-      "quote": "뒤돌아보지 마라",
-      "era": "Historical Giant"
+    "harriet-tubman": {
+      "name": "Harriet Tubman",
+      "headline": "In 1822, on a plantation in Dorchester County, Maryland, Araminta Ross—the woman who would be known as Harriet Tubman—was born into the monumental darkness of slavery.",
+      "shortDescription": "The epic journey and wisdom of Harriet Tubman.",
+      "quote": "If you hear the dogs, keep going. If you see the torches in the woods, keep going. If they're shouting after you, keep going. Never stop. Keep going to the North Star.",
+      "era": "19th Century Giant (1822~1913)"
     },
-    "giant-61": {
-      "name": "오스카 쉰들러",
-      "headline": "1908년 오스트리아-헝가리 제국의 유복한 사업가 가문에서 오스카 쉰들러가 태어났습니다. 그의 유년기는...",
-      "shortDescription": "오스카 쉰들러의 일대기와 지혜",
-      "quote": "생명의 가치",
-      "era": "Historical Giant"
+    "oskar-schindler": {
+      "name": "Oskar Schindler",
+      "headline": "In 1908, in the industrial landscape of Zwittau, Oskar Schindler was born into a life of monumental appetites and moral ambiguity.",
+      "shortDescription": "The epic journey and wisdom of Oskar Schindler.",
+      "quote": "He who saves one life saves the world entire. Do not underestimate the monumental impact of a single act of kindness. You are the architect of a world.",
+      "era": "20th Century Giant (1908~1974)"
     },
-    "giant-62": {
-      "name": "플로렌스 나이팅게일",
-      "headline": "1820년 이탈리아 피렌체의 부유한 영국 귀족 가문에서 플로렌스 나이팅게일이 태어났습니다. 그녀의 유년...",
-      "shortDescription": "플로렌스 나이팅게일의 일대기와 지혜",
-      "quote": "소명의 발견",
-      "era": "Historical Giant"
+    "florence-nightingale": {
+      "name": "Florence Nightingale",
+      "headline": "In 1820, in the Renaissance elegance of Florence, Italy, Florence Nightingale was born into a life of monumental luxury and social expectation.",
+      "shortDescription": "The epic journey and wisdom of Florence Nightingale.",
+      "quote": "I attribute my success to this: I never gave or took an excuse. Results are the only monumental metric of a life. Do the work.",
+      "era": "19th-20th Century Giant (1820~1910)"
     },
-    "giant-63": {
-      "name": "유관순",
-      "headline": "1902년 충남 천안의 독실한 기독교 가문에서 유관순이 태어났습니다. 그녀의 유년기는 국권을 빼앗긴 망...",
-      "shortDescription": "유관순의 일대기와 지혜",
-      "quote": "나라 사랑의 마음",
-      "era": "Historical Giant"
+    "yu-gwan-sun": {
+      "name": "Yu Gwan Sun",
+      "headline": "In 1902, in the rural village of Cheonan, Yu Gwan-sun was born into a devout Christian family during the dark dawn of Japanese colonial rule.",
+      "shortDescription": "The epic journey and wisdom of Yu Gwan Sun.",
+      "quote": "My only sorrow is that I have only one life to give for my country. A monumental sacrifice is the ultimate expression of love. Give your all.",
+      "era": "20th Century Giant (1902~1920)"
     },
-    "giant-64": {
-      "name": "루이 브라이유",
-      "headline": "1809년 프랑스의 작은 마을 쿠브레, 마구 제작자의 아들로 태어난 루이 브라이유의 유년기는 세 살 때...",
-      "shortDescription": "루이 브라이유의 일대기와 지혜",
-      "quote": "보이지 않는 지혜",
-      "era": "Historical Giant"
+    "louis-braille": {
+      "name": "Louis Braille",
+      "headline": "In 1809, in the small French village of Coupvray, Louis Braille was born into a life of light and color that would soon vanish.",
+      "shortDescription": "The epic journey and wisdom of Louis Braille.",
+      "quote": "Access to communication in the widest sense is access to knowledge. Do not let your physical limitations define the boundaries of your monumental spirit. Seek the light of thought.",
+      "era": "19th Century Giant (1809~1852)"
     },
-    "giant-65": {
-      "name": "잔 다르크",
-      "headline": "1412년 프랑스의 작은 마을 동레미의 가난한 농가에서 잔 다르크가 태어났습니다. 그녀의 유년기는 백년...",
-      "shortDescription": "잔 다르크의 일대기와 지혜",
-      "quote": "신념의 깃발",
-      "era": "Historical Giant"
+    "joan-of-arc": {
+      "name": "Joan Of Arc",
+      "headline": "In 1412, in the village of Domrémy, a peasant girl named Jeanne d'Arc was born into a France torn apart by the Hundred Years' War.",
+      "shortDescription": "The epic journey and wisdom of Joan Of Arc.",
+      "quote": "I am not afraid; I was born to do this. My purpose is my shield, and my faith is my sword. The giant acts despite fear, not in its absence.",
+      "era": "15th Century Giant (1412~1431)"
     },
-    "giant-66": {
-      "name": "데스몬드 투투",
-      "headline": "1931년 남아프리카 공화국의 인종 차별(아파르트헤이트)이 지배하던 시기에 데스몬드 투투가 태어났습니다...",
-      "shortDescription": "데스몬드 투투의 일대기와 지혜",
-      "quote": "용서의 역설",
-      "era": "Historical Giant"
+    "desmond-tutu": {
+      "name": "Desmond Tutu",
+      "headline": "In 1931, in the gold-mining town of Klerksdorp, Desmond Mpilo Tutu was born into a world of monumental racial division and systemic cruelty.",
+      "shortDescription": "The epic journey and wisdom of Desmond Tutu.",
+      "quote": "If you are neutral in situations of injustice, you have chosen the side of the oppressor. Silence is a monumental betrayal of your own humanity. Speak up.",
+      "era": "20th-21st Century Giant (1931~2021)"
     },
-    "giant-67": {
-      "name": "엘리 위젤",
-      "headline": "1928년 루마니아의 신실한 유대인 마을에서 '기억의 수호자' 엘리 위젤이 태어났습니다. 그의 유년기는...",
-      "shortDescription": "엘리 위젤의 일대기와 지혜",
-      "quote": "기억의 의무",
-      "era": "Historical Giant"
+    "elie-wiesel": {
+      "name": "Elie Wiesel",
+      "headline": "In 1928, in the Transylvanian town of Sighet, Elie Wiesel was born into a life of monumental faith and quiet study.",
+      "shortDescription": "The epic journey and wisdom of Elie Wiesel.",
+      "quote": "The opposite of love is not hate, it's indifference. Indifference is a monumental crime. Engage with the world. Do not look away.",
+      "era": "20th-21st Century Giant (1928~2016)"
     },
-    "giant-68": {
-      "name": "해리엇 비처 스토",
-      "headline": "1811년 미국 코네티컷주의 독실한 목사 가문에서 '노예 해방의 불꽃' 해리엇 비처 스토가 태어났습니다...",
-      "shortDescription": "해리엇 비처 스토의 일대기와 지혜",
-      "quote": "이야기의 힘",
-      "era": "Historical Giant"
+    "harriet-beecher-stowe": {
+      "name": "Harriet Beecher Stowe",
+      "headline": "In 1811, in the intellectual ferment of Litchfield, Connecticut, Harriet Beecher was born into a family of monumental religious and social influence.",
+      "shortDescription": "The epic journey and wisdom of Harriet Beecher Stowe.",
+      "quote": "Never give up, for that is just the place and time that the tide will turn. Persistence is a monumental force of nature. Wait for your moment.",
+      "era": "19th Century Giant (1811~1896)"
     },
-    "giant-69": {
-      "name": "리고베르타 멘추",
-      "headline": "1959년 과테말라의 척박한 산악 지대에서 마야 원주민의 딸로 리고베르타 멘추가 태어났습니다. 그녀의 ...",
-      "shortDescription": "리고베르타 멘추의 일대기와 지혜",
-      "quote": "대지의 목소리",
-      "era": "Historical Giant"
+    "rigoberta-menchu": {
+      "name": "Rigoberta Menchu",
+      "headline": "In 1959, in the mountainous highlands of Guatemala, Rigoberta Menchú Tum was born into a life of monumental hardship and indigenous pride.",
+      "shortDescription": "The epic journey and wisdom of Rigoberta Menchu.",
+      "quote": "Peace is not only the absence of war. As long as there is poverty, racism, isolation and exclusion, we will have difficulty in achieving a peace of spirit. Dignity is monumental.",
+      "era": "20th-21st Century Giant (1959~Present)"
     },
-    "giant-70": {
-      "name": "테리 폭스",
-      "headline": "1958년 캐나다 위니펙의 평범한 가정에서 '희망의 마라토너' 테리 폭스가 태어났습니다. 그의 유년기는...",
-      "shortDescription": "테리 폭스의 일대기와 지혜",
-      "quote": "한 걸음의 희망",
-      "era": "Historical Giant"
+    "terry-fox": {
+      "name": "Terry Fox",
+      "headline": "In 1958, in the windy city of Winnipeg, Canada, Terry Fox was born into a life of monumental energy and athletic passion.",
+      "shortDescription": "The epic journey and wisdom of Terry Fox.",
+      "quote": "I'm not a dreamer, but I believe in miracles. I have to. Even if I don't finish, we need others to continue. It's got to keep going. Be part of the monumental effort.",
+      "era": "20th Century Giant (1853~1890)"
     },
-    "giant-71": {
-      "name": "김구",
-      "headline": "1876년 조선 황해도 해주의 빈농 가문에서 '민족의 영원한 스승' 백범 김구가 태어났습니다. 그의 유...",
-      "shortDescription": "김구의 일대기와 지혜",
-      "quote": "나의 소원",
-      "era": "Historical Giant"
+    "kim-gu": {
+      "name": "Kim Gu",
+      "headline": "In 1876, in the rural poverty of Hwanghae Province, Kim Chang-am—later known as Baekbeom Kim Gu—was born into a Korea that was beginning to buckle under the weight of foreign imperialism.",
+      "shortDescription": "The epic journey and wisdom of Kim Gu.",
+      "quote": "My wish is the independent sovereignty of my nation. My second wish is the same. My third wish is the same. A monumental focus is the only way to move a mountain. Never deviate.",
+      "era": "19th-20th Century Giant (1876~1949)"
     },
-    "giant-72": {
-      "name": "붓다",
-      "headline": "기원전 6세기경 고대 인도의 카필라 성에서 샤카족의 왕자로 고타마 싯다르타가 태어났습니다. 그의 유년기...",
-      "shortDescription": "붓다의 일대기와 지혜",
-      "quote": "무소의 뿔처럼",
-      "era": "Historical Giant"
+    "buddha": {
+      "name": "Buddha",
+      "headline": "In 563 BC, in the lush gardens of Lumbini, Siddhartha Gautama was born a prince of the Shakya clan, into a life of monumental luxury and absolute protection.",
+      "shortDescription": "The epic journey and wisdom of Buddha.",
+      "quote": "The mind is everything. What you think, you become. Your thoughts are the monumental seeds of your reality. Choose them with care.",
+      "era": "6th-5th Century BC (BC 563~483)"
     },
-    "giant-73": {
-      "name": "프리드리히 니체",
-      "headline": "1844년 독일의 조용한 마을 뢰켄의 독실한 목사 가문에서 프리드리히 니체가 태어났습니다. 그의 유년기...",
-      "shortDescription": "프리드리히 니체의 일대기와 지혜",
-      "quote": "초인의 의지",
-      "era": "Historical Giant"
+    "friedrich-nietzsche": {
+      "name": "Friedrich Nietzsche",
+      "headline": "In 1844, in the Prussian village of Röcken, Friedrich Nietzsche was born into a long line of Lutheran pastors.",
+      "shortDescription": "The epic journey and wisdom of Friedrich Nietzsche.",
+      "quote": "What does not kill me makes me stronger. Adversity is the monumental gym of the soul. Embrace the struggle as your greatest teacher.",
+      "era": "19th Century Giant (1844~1900)"
     },
-    "giant-74": {
-      "name": "이마누엘 칸트",
-      "headline": "1724년 독일 쾨니히스베르크의 가난한 마구 제작자 가문에서 이마누엘 칸트가 태어났습니다. 그의 유년기...",
-      "shortDescription": "이마누엘 칸트의 일대기와 지혜",
-      "quote": "인식의 한계",
-      "era": "Historical Giant"
+    "immanuel-kant": {
+      "name": "Immanuel Kant",
+      "headline": "In 1724, in the Baltic port city of Königsberg, Immanuel Kant was born into a family of monumental modesty and deep Lutheran piety.",
+      "shortDescription": "The epic journey and wisdom of Immanuel Kant.",
+      "quote": "Sapere Aude! Dare to know! Have the courage to use your own understanding. Do not let others think for you. Liberty begins in the mind.",
+      "era": "18th Century Giant (1724~1804)"
     },
-    "giant-75": {
-      "name": "르네 데카르트",
-      "headline": "1596년 프랑스 라에의 유복한 법관 가문에서 르네 데카르트가 태어났습니다. 그의 유년기는 허약한 체질...",
-      "shortDescription": "르네 데카르트의 일대기와 지혜",
-      "quote": "코기토 에르고 숨",
-      "era": "Historical Giant"
+    "rene-descartes": {
+      "name": "Rene Descartes",
+      "headline": "In 1596, in the small French town of La Haye, René Descartes was born into a life of monumental fragility and intellectual intensity.",
+      "shortDescription": "The epic journey and wisdom of Rene Descartes.",
+      "quote": "Cogito, ergo sum. I think, therefore I am. Your consciousness is the monumental foundation of your reality. Do not let it sleep. Exercise your thought.",
+      "era": "17th Century Giant (1596~1650)"
     },
-    "giant-76": {
-      "name": "장 자크 루소",
-      "headline": "1712년 스위스 제네바의 가난한 시계공 가문에서 장 자크 루소가 태어났습니다. 그의 유년기는 태어나자...",
-      "shortDescription": "장 자크 루소의 일대기와 지혜",
-      "quote": "자연으로 돌아가라",
-      "era": "Historical Giant"
+    "jean-jacques-rousseau": {
+      "name": "Jean Jacques Rousseau",
+      "headline": "In 1712, in the independent city of Geneva, Jean-Jacques Rousseau was born into a life of monumental instability and loss.",
+      "shortDescription": "The epic journey and wisdom of Jean Jacques Rousseau.",
+      "quote": "Return to nature. Man is born free, but everywhere he is in chains. Break the monumental artificiality of your life. Find your original soul.",
+      "era": "18th Century Giant (1712~1778)"
     },
-    "giant-77": {
-      "name": "지그문트 프로이트",
-      "headline": "1856년 오늘날의 체코인 프라이베르크의 가난한 유대인 모직 상인 가문에서 지그문트 프로이트가 태어났습...",
-      "shortDescription": "지그문트 프로이트의 일대기와 지혜",
-      "quote": "무의식의 발견",
-      "era": "Historical Giant"
+    "sigmund-freud": {
+      "name": "Sigmund Freud",
+      "headline": "In 1856, in the Moravian town of Freiberg, Sigismund Freud was born into a life of monumental intellectual curiosity and Jewish identity.",
+      "shortDescription": "The epic journey and wisdom of Sigmund Freud.",
+      "quote": "The unconscious is the true psychical reality. Your dreams are the royal road to the monumental truth of your soul. Do not ignore the whispers of your mind.",
+      "era": "19th-20th Century Giant (1856~1939)"
     },
-    "giant-78": {
-      "name": "칼 융",
-      "headline": "1875년 스위스 케스빌의 목사 가문에서 분석심리학의 거장 칼 구스타프 융이 태어났습니다. 그의 유년기...",
-      "shortDescription": "칼 융의 일대기와 지혜",
-      "quote": "개성화의 길",
-      "era": "Historical Giant"
+    "carl-jung": {
+      "name": "Carl Jung",
+      "headline": "In 1875, on the shores of Lake Constance in Switzerland, Carl Gustav Jung was born into a life of monumental mystery and spiritual inquiry.",
+      "shortDescription": "The epic journey and wisdom of Carl Jung.",
+      "quote": "Until you make the unconscious conscious, it will direct your life and you will call it fate. Ownership of your shadow is a monumental duty. Wake up.",
+      "era": "19th-20th Century Giant (1875~1961)"
     },
-    "giant-79": {
-      "name": "바뤼흐 스피노자",
-      "headline": "1632년 네덜란드 암스테르담의 유대인 공동체에서 '철학자들의 철학자' 바뤼흐 스피노자가 태어났습니다....",
-      "shortDescription": "바뤼흐 스피노자의 일대기와 지혜",
-      "quote": "신과 자연",
-      "era": "Historical Giant"
+    "baruch-spinoza": {
+      "name": "Baruch Spinoza",
+      "headline": "In 1632, in the thriving Jewish community of Amsterdam, Baruch Spinoza was born into a life of monumental promise and spiritual fervor.",
+      "shortDescription": "The epic journey and wisdom of Baruch Spinoza.",
+      "quote": "God and Nature are one. Everything follows the monumental and eternal laws of necessity. Find your place in the infinite structure. Understand the whole.",
+      "era": "17th Century Giant (1632~1677)"
     },
-    "giant-80": {
-      "name": "손무",
-      "headline": "기원전 544년경 제나라의 몰락한 귀족 가문에서 손무가 태어났습니다. 그의 유년기는 춘추전국시대라는 피...",
-      "shortDescription": "손무의 일대기와 지혜",
-      "quote": "지피지기",
-      "era": "Historical Giant"
+    "sun-tzu": {
+      "name": "Sun Tzu",
+      "headline": "In the 6th century BC, during the blood-soaked chaos of the Spring and Autumn period in China, Sun Wu—the man known as Sun Tzu—was born into a world of endless betrayal and monumental warfare.",
+      "shortDescription": "The epic journey and wisdom of Sun Tzu.",
+      "quote": "If you know the enemy and know yourself, you need not fear the result of a hundred battles. Self-awareness is the monumental foundation of all strategy. Look in the mirror first.",
+      "era": "6th-5th Century BC (Spring and Autumn Period)"
     },
-    "giant-81": {
-      "name": "데이비드 흄",
-      "headline": "1711년 스코틀랜드 에든버러의 귀족 가문에서 '회의론의 거장' 데이비드 흄이 태어났습니다. 그의 유년...",
-      "shortDescription": "데이비드 흄의 일대기와 지혜",
-      "quote": "경험의 한계",
-      "era": "Historical Giant"
+    "david-hume": {
+      "name": "David Hume",
+      "headline": "In 1711, in the intellectual hub of Edinburgh, David Hume was born into a life of monumental skepticism and modest means.",
+      "shortDescription": "The epic journey and wisdom of David Hume.",
+      "quote": "Reason is, and ought only to be the slave of the passions. Logic is a tool, but desire is the monumental engine of life. Align your heart with your head.",
+      "era": "18th Century Giant (1711~1776)"
     },
-    "giant-82": {
-      "name": "존 로크",
-      "headline": "1632년 영국의 평범한 법관 가문에서 존 로크가 태어났습니다. 그의 유년기는 영국의 청교도 혁명이라는...",
-      "shortDescription": "존 로크의 일대기와 지혜",
-      "quote": "백지설",
-      "era": "Historical Giant"
+    "john-locke": {
+      "name": "John Locke",
+      "headline": "In 1632, in the English village of Wrington, John Locke was born into a life of monumental political shifts and intellectual awakening.",
+      "shortDescription": "The epic journey and wisdom of John Locke.",
+      "quote": "The mind is a Tabula Rasa, a blank slate. Experience is the monumental architect of your soul. Fill your pages with the truth of the senses.",
+      "era": "17th Century Giant (1632~1704)"
     },
-    "giant-83": {
-      "name": "시몬 드 보부아르",
-      "headline": "1908년 프랑스 파리의 유복한 부르주아 가정에서 '여성 해방의 선구자' 시몬 드 보부아르가 태어났습니...",
-      "shortDescription": "시몬 드 보부아르의 일대기와 지혜",
-      "quote": "제2의 성",
-      "era": "Historical Giant"
+    "simone-de-beauvoir": {
+      "name": "Simone De Beauvoir",
+      "headline": "In 1908, in the bourgeois heart of Paris, Simone de Beauvoir was born into a life of monumental discipline and intellectual hunger.",
+      "shortDescription": "The epic journey and wisdom of Simone De Beauvoir.",
+      "quote": "One is not born, but rather becomes, a woman. Identity is a monumental construction. Peel away the layers of social expectation. Define yourself.",
+      "era": "20th Century Giant (1908~1986)"
     },
-    "giant-84": {
-      "name": "한나 아렌트",
-      "headline": "1906년 독일 하노버의 유대인 가정에서 '악의 평범성'을 파헤친 정치철학자 한나 아렌트가 태어났습니다...",
-      "shortDescription": "한나 아렌트의 일대기와 지혜",
-      "quote": "사유의 의무",
-      "era": "Historical Giant"
+    "hannah-arendt": {
+      "name": "Hannah Arendt",
+      "headline": "In 1906, in the German city of Hanover, Hannah Arendt was born into a life of monumental intellectual intensity and Jewish identity.",
+      "shortDescription": "The epic journey and wisdom of Hannah Arendt.",
+      "quote": "The sad truth is that most evil is done by people who never make up their minds to be good or evil. Thoughtlessness is a monumental danger. Question your orders. Think for yourself.",
+      "era": "20th Century Giant (1906~1975)"
     },
-    "giant-85": {
-      "name": "쇠렌 키에르케고르",
-      "headline": "1813년 덴마크 코펜하겐의 부유한 상인 가문에서 '실존주의의 아버지' 쇠렌 키에르케고르가 태어났습니다...",
-      "shortDescription": "쇠렌 키에르케고르의 일대기와 지혜",
-      "quote": "단독자로서의 삶",
-      "era": "Historical Giant"
+    "soren-kierkegaard": {
+      "name": "Soren Kierkegaard",
+      "headline": "In 1813, in the fog-drenched streets of Copenhagen, Søren Kierkegaard was born into a life of monumental wealth and inherited melancholy.",
+      "shortDescription": "The epic journey and wisdom of Soren Kierkegaard.",
+      "quote": "To dare is to lose one's footing momentarily. Not to dare is to lose oneself. Courage is a monumental and necessary leap. Do not stay on the safe shore.",
+      "era": "19th Century Giant (1813~1855)"
     },
-    "giant-86": {
-      "name": "아르투어 쇼펜하우어",
-      "headline": "1788년 독일 단치히의 부유한 상인 가문에서 '염세주의의 거장' 아르투어 쇼펜하우어가 태어났습니다. ...",
-      "shortDescription": "아르투어 쇼펜하우어의 일대기와 지혜",
-      "quote": "고통의 원인",
-      "era": "Historical Giant"
+    "arthur-schopenhauer": {
+      "name": "Arthur Schopenhauer",
+      "headline": "In 1788, in the Free City of Danzig, Arthur Schopenhauer was born into a life of monumental wealth and internal shadow.",
+      "shortDescription": "The epic journey and wisdom of Arthur Schopenhauer.",
+      "quote": "Life swings like a pendulum backward and forward between pain and boredom. Desire is a monumental hunger. Find the stillness in the middle of the swing.",
+      "era": "19th Century Giant (1788~1860)"
     },
-    "newton": {
-      "name": "아이작 뉴턴",
-      "headline": "1642년 영국의 울즈소프, 아버지가 세상을 떠난 뒤 유복자로 태어난 아이작 뉴턴의 유년기는 지독한 고...",
-      "shortDescription": "아이작 뉴턴의 일대기와 지혜",
-      "quote": "진리의 바다",
-      "era": "Historical Giant"
+    "isaac-newton": {
+      "name": "Isaac Newton",
+      "headline": "In 1643, in the isolated manor of Woolsthorpe, England, Isaac Newton was born into a life of monumental solitude and intellectual intensity.",
+      "shortDescription": "The epic journey and wisdom of Isaac Newton.",
+      "quote": "If I have seen further, it is by standing on the shoulders of giants. Gratitude to your predecessors is a monumental strength. Build on the foundation of the past.",
+      "era": "17th-18th Century Giant (1643~1727)"
     },
-    "giant-88": {
-      "name": "갈릴레오 갈릴레이",
-      "headline": "1564년 이탈리아 피사의 가난한 귀족 가문에서 갈릴레오 갈릴레이가 태어났습니다. 그의 유년기는 아버지...",
-      "shortDescription": "갈릴레오 갈릴레이의 일대기와 지혜",
-      "quote": "진리의 증명",
-      "era": "Historical Giant"
+    "galileo-galilei": {
+      "name": "Galileo Galilei",
+      "headline": "In 1564, in the Italian city of Pisa, Galileo Galilei was born into a life of monumental curiosity and artistic flair.",
+      "shortDescription": "The epic journey and wisdom of Galileo Galilei.",
+      "quote": "E pur si muove. And yet it moves. Truth is a monumental and unshakeable fact. Do not let the pressure of the crowd bend your reason. Stay firm.",
+      "era": "16th-17th Century Giant (1564~1642)"
     },
-    "darwin": {
-      "name": "찰스 다윈",
-      "headline": "1809년 영국의 유복한 의사 가문에서 찰스 다윈이 태어났습니다. 그의 유년기는 화려한 명성 뒤에 숨겨...",
-      "shortDescription": "찰스 다윈의 일대기와 지혜",
-      "quote": "진정한 적응",
-      "era": "Historical Giant"
+    "charles-darwin": {
+      "name": "Charles Darwin",
+      "headline": "In 1809, on the same day as Abraham Lincoln, Charles Darwin was born in Shrewsbury, England, into a life of monumental scholarly privilege and natural curiosity.",
+      "shortDescription": "The epic journey and wisdom of Charles Darwin.",
+      "quote": "It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is most adaptable to change. Flexibility is a monumental asset. Evolve or perish.",
+      "era": "19th Century Giant (1809~1882)"
     },
     "michelangelo": {
-      "name": "미켈란젤로",
-      "headline": "1475년 이탈리아 카프레제의 가난한 귀족 가문에서 미켈란젤로 부오나로티가 태어났습니다. 그의 유년기는...",
-      "shortDescription": "미켈란젤로의 일대기와 지혜",
-      "quote": "장인의 몰입",
-      "era": "Historical Giant"
+      "name": "Michelangelo",
+      "headline": "In 1475, in the rugged hills of Caprese, Michelangelo Buonarroti was born into a family of declining nobility who viewed manual labor as a disgrace.",
+      "shortDescription": "The epic journey and wisdom of Michelangelo.",
+      "quote": "I saw the angel in the marble and carved until I set him free. Every block of stone has a statue inside it and it is the task of the sculptor to discover it.",
+      "era": "Renaissance Giant (1475~1564)"
     },
-    "giant-91": {
-      "name": "클로드 모네",
-      "headline": "1840년 프랑스 파리의 평범한 상인 가문에서 '빛의 화가' 클로드 모네가 태어났습니다. 그의 유년기는...",
-      "shortDescription": "클로드 모네의 일대기와 지혜",
-      "quote": "빛의 눈",
-      "era": "Historical Giant"
+    "claude-monet": {
+      "name": "Claude Monet",
+      "headline": "In 1840, in the heart of Paris, Claude Monet was born into a life of monumental visual intensity and economic struggle.",
+      "shortDescription": "The epic journey and wisdom of Claude Monet.",
+      "quote": "I perhaps owe having become a painter to flowers. Nature is a monumental and eternal source. Do not paint the thing; paint the light that falls upon it. Trust your senses.",
+      "era": "19th-20th Century Giant (1840~1926)"
     },
-    "giant-92": {
-      "name": "표도르 도스토옙스키",
-      "headline": "1821년 러시아 모스크바의 가난한 병원 의사 가문에서 '영혼의 해부학자' 표도르 도스토옙스키가 태어났...",
-      "shortDescription": "표도르 도스토옙스키의 일대기와 지혜",
-      "quote": "고통을 통한 구원",
-      "era": "Historical Giant"
+    "fyodor-dostoevsky": {
+      "name": "Fyodor Dostoevsky",
+      "headline": "In 1821, in a hospital for the poor in Moscow, Fyodor Dostoevsky was born into a life of monumental psychological depth and physical trauma.",
+      "shortDescription": "The epic journey and wisdom of Fyodor Dostoevsky.",
+      "quote": "Hell is the suffering of being unable to love. Love is a monumental act of redemption. Do not let your heart harden against the world. Keep caring.",
+      "era": "19th Century Giant (1821~1881)"
     },
-    "giant-93": {
-      "name": "빅토르 위고",
-      "headline": "1802년 프랑스 브장송의 군인 가문에서 '프랑스의 양심' 빅토르 위고가 태어났습니다. 그의 유년기는 ...",
-      "shortDescription": "빅토르 위고의 일대기와 지혜",
-      "quote": "사랑의 등불",
-      "era": "Historical Giant"
+    "victor-hugo": {
+      "name": "Victor Hugo",
+      "headline": "In 1802, in the city of Besançon, Victor Hugo was born into a life of monumental scale and historical upheaval.",
+      "shortDescription": "The epic journey and wisdom of Victor Hugo.",
+      "quote": "The future has several names. For the weak, it is impossible; for the fainthearted, it is unknown; but for the valiant, it is ideal. Seize your monumental opportunity.",
+      "era": "19th Century Giant (1802~1885)"
     },
-    "giant-94": {
-      "name": "안톤 체호프",
-      "headline": "1860년 러시아 타간로크의 파산한 상인 가문에서 '현대 단편 소설의 거장' 안톤 체호프가 태어났습니다...",
-      "shortDescription": "안톤 체호프의 일대기와 지혜",
-      "quote": "일상의 진실",
-      "era": "Historical Giant"
+    "anton-chekhov": {
+      "name": "Anton Chekhov",
+      "headline": "In 1860, in the dusty port town of Taganrog, Russia, Anton Chekhov was born into a life of monumental responsibility and modest means.",
+      "shortDescription": "The epic journey and wisdom of Anton Chekhov.",
+      "quote": "Brevity is the sister of talent. Conciseness is a monumental and difficult virtue. Do not use a thousand words when ten will suffice. Be precise.",
+      "era": "19th-20th Century Giant (1860~1904)"
     },
-    "giant-95": {
-      "name": "프레데리크 쇼팽",
-      "headline": "1810년 폴란드 바르샤바 근교의 젤라조바 볼라에서 '피아노의 시인' 프레데리크 쇼팽이 태어났습니다. ...",
-      "shortDescription": "프레데리크 쇼팽의 일대기와 지혜",
-      "quote": "건반 위의 시",
-      "era": "Historical Giant"
+    "frederic-chopin": {
+      "name": "Frederic Chopin",
+      "headline": "In 1810, in the heart of the Polish countryside, Fryderyk Chopin was born into a life of monumental lyricism and fragile health.",
+      "shortDescription": "The epic journey and wisdom of Frederic Chopin.",
+      "quote": "Simplicity is the ultimate sophistication. A monumental impact is often found in the most direct and unadorned expression. Strip away the noise.",
+      "era": "19th Century Giant (1810~1849)"
     },
-    "giant-96": {
-      "name": "카츠시카 호쿠사이",
-      "headline": "1760년 일본 에도(지금의 도쿄)의 한 평범한 가정에서 카츠시카 호쿠사이가 태어났습니다. 그의 유년기...",
-      "shortDescription": "카츠시카 호쿠사이의 일대기와 지혜",
-      "quote": "그림에 미친 노인",
-      "era": "Historical Giant"
+    "katsushika-hokusai": {
+      "name": "Katsushika Hokusai",
+      "headline": "In 1760, in the Katsushika district of Edo (modern Tokyo), Katsushika Hokusai was born into a life of monumental visual curiosity and relentless change.",
+      "shortDescription": "The epic journey and wisdom of Katsushika Hokusai.",
+      "quote": "At the age of seventy, I have caught a glimpse of the structure of nature. Learning is a monumental and lifelong process. Do not be in a hurry to be a master. Be a student.",
+      "era": "18th-19th Century Giant (1760~1849)"
     },
     "agatha-christie": {
-      "name": "애가사 크리스티",
-      "headline": "1890년 영국의 중산층 가정에서 '추리 소설의 여왕' 애가사 크리스티가 태어났습니다. 그녀의 유년기는...",
-      "shortDescription": "애가사 크리스티의 일대기와 지혜",
-      "quote": "통찰의 힘",
-      "era": "Historical Giant"
+      "name": "Agatha Christie",
+      "headline": "In 1890, in the coastal town of Torquay, England, Agatha Mary Clarissa Miller—the future Agatha Christie—was born into a life of monumental imagination and Victorian comfort.",
+      "shortDescription": "The epic journey and wisdom of Agatha Christie.",
+      "quote": "Very few of us are what we seem to be. Appearance is a monumental illusion. Look for the hidden motive. Trust your observation, not the mask.",
+      "era": "20th Century Giant (1890~1976)"
     },
     "mark-twain": {
-      "name": "마크 트웨인",
-      "headline": "1835년 미국 미주리주, 핼리 혜성이 밤하늘을 수놓던 날 '미국 현대 문학의 아버지' 마크 트웨인이 ...",
-      "shortDescription": "마크 트웨인의 일대기와 지혜",
-      "quote": "웃음의 무기",
-      "era": "Historical Giant"
+      "name": "Mark Twain",
+      "headline": "In 1835, as Halley’s Comet streaked across the sky, Samuel Langhorne Clemens—the man who would be Mark Twain—was born into a life of monumental movement and sharp-witted observation.",
+      "shortDescription": "The epic journey and wisdom of Mark Twain.",
+      "quote": "Whenever you find yourself on the side of the majority, it is time to pause and reflect. Independent thought is a monumental achievement. Do not join the herd blindly.",
+      "era": "19th-20th Century Giant (1835~1910)"
     },
     "goethe": {
-      "name": "요한 볼프강 폰 괴테",
-      "headline": "1749년 독일 프랑크푸르트의 유복한 가문에서 '독일 문학의 거성' 요한 볼프강 폰 괴테가 태어났습니다...",
-      "shortDescription": "요한 볼프강 폰 괴테의 일대기와 지혜",
-      "quote": "끊임없는 노력",
-      "era": "Historical Giant"
+      "name": "Goethe",
+      "headline": "In 1749, in the free imperial city of Frankfurt, Johann Wolfgang von Goethe was born into a life of monumental privilege and intellectual hunger.",
+      "shortDescription": "The epic journey and wisdom of Goethe.",
+      "quote": "Whatever you can do, or dream you can, begin it. Boldness has genius, power, and magic in it. Initiating is a monumental and sacred act. Do not wait.",
+      "era": "18th-19th Century Giant (1749~1832)"
     },
     "mary-shelley": {
-      "name": "메리 셸리",
-      "headline": "1797년 영국의 진보적인 지식인 가문에서 'SF 소설의 창시자' 메리 셸리가 태어났습니다. 그녀의 유...",
-      "shortDescription": "메리 셸리의 일대기와 지혜",
-      "quote": "창조의 책임",
-      "era": "Historical Giant"
+      "name": "Mary Shelley",
+      "headline": "In 1797, in the intellectual heart of London, Mary Wollstonecraft Godwin—the future Mary Shelley—was born into a life of monumental expectations and profound loss.",
+      "shortDescription": "The epic journey and wisdom of Mary Shelley.",
+      "quote": "Invention, it must be admitted, does not consist in creating out of void, but out of chaos. Transformation is a monumental struggle. Do not fear the mess of creation.",
+      "era": "19th Century Giant (1797~1851)"
+    },
+    "napoleon-bonaparte": {
+      "name": "Napoleon Bonaparte",
+      "headline": "The military genius who redrew the map of Europe and established the foundations of modern law.",
+      "shortDescription": "The epic saga of Napoleon and his grand ambition.",
+      "quote": "Impossible is a word to be found only in the dictionary of fools.",
+      "era": "19th Century Giant"
+    },
+    "malala-yousafzai": {
+      "name": "Malala Yousafzai",
+      "headline": "The young activist who survived an assassin's bullet to champion education for every child.",
+      "shortDescription": "The courageous voice of Malala Yousafzai.",
+      "quote": "One child, one teacher, one book, one pen can change the world.",
+      "era": "Modern Giant"
+    },
+    "martin-luther-king": {
+      "name": "Martin Luther King Jr.",
+      "headline": "The dream-driven leader who marched for equality and justice with the weapon of love.",
+      "shortDescription": "The civil rights crusade of MLK.",
+      "quote": "I have a dream.",
+      "era": "20th Century Giant"
+    },
+    "albert-einstein": {
+      "name": "Albert Einstein",
+      "headline": "The revolutionary physicist who unlocked the secrets of time and space with a single equation.",
+      "shortDescription": "The relativity of genius and Einstein.",
+      "quote": "Imagination is more important than knowledge.",
+      "era": "20th Century Giant"
+    },
+    "abraham-lincoln": {
+      "name": "Abraham Lincoln",
+      "headline": "The Great Emancipator who preserved a nation and ended the scourge of slavery with unyielding integrity.",
+      "shortDescription": "The log cabin roots and leadership of Lincoln.",
+      "quote": "A house divided against itself cannot stand.",
+      "era": "19th Century Giant"
+    },
+    "winston-churchill": {
+      "name": "Winston Churchill",
+      "headline": "The British bulldog who stood against tyranny with the power of oratory and unshakeable resolve.",
+      "shortDescription": "The wartime leadership of Churchill.",
+      "quote": "Never, never, never give up.",
+      "era": "20th Century Giant"
     }
   },
   "Chat": {

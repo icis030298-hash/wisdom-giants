@@ -26,8 +26,8 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
   const tg = useTranslations("Giants")
   const locale = useLocale()
   
-  const initialGreeting = tg(`${giant.id}.chatGreeting`)
-  const suggestedQuestions = tg.raw(`${giant.id}.suggestedQuestions`) as string[]
+  const initialGreeting = tg(`${giant.slug}.chatGreeting`)
+  const suggestedQuestions = (tg.raw(`${giant.slug}.suggestedQuestions`) || []) as string[]
 
   const [messages, setMessages] = useState<Message[]>([
     {
@@ -69,7 +69,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
     setIsTyping(true)
     
     try {
-      const ourGiant = giantsData.find(g => g.slug === giant.id);
+      const ourGiant = giantsData.find(g => g.slug === giant.slug);
       const persona = ourGiant?.persona || "";
       
       // 이전 메시지들을 API 형식으로 변환 (현재 유저 메시지 제외)
@@ -118,41 +118,41 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
           <div className="relative aspect-[4/5] w-full overflow-hidden">
             <Image 
               src={giant.imageUrl} 
-              alt={tg(`${giant.id}.name`)}
+              alt={tg(`${giant.slug}.name`)}
               fill
               className="object-cover object-top"
               unoptimized={true}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">
-              <h2 className="font-serif text-3xl font-bold text-foreground mb-1">{tg(`${giant.id}.name`)}</h2>
-              <p className="text-amber-400 font-medium">{tg(`${giant.id}.headline`)}</p>
+              <h2 className="font-serif text-3xl font-bold text-foreground mb-1">{tg(`${giant.slug}.name`)}</h2>
+              <p className="text-amber-400 font-medium">{tg(`${giant.slug}.headline`)}</p>
             </div>
           </div>
           
           <div className="p-6 space-y-6 overflow-y-auto flex-1">
             <div>
               <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2">{t("historyEra")}</h4>
-              <p className="text-sm text-foreground leading-relaxed">{tg(`${giant.id}.era`)}</p>
+              <p className="text-sm text-foreground leading-relaxed">{tg(`${giant.slug}.era`)}</p>
             </div>
             
             <div>
               <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2">{t("fieldOfWisdom")}</h4>
               <span className="px-2 py-1 rounded-md bg-amber-500/10 text-amber-300 text-xs border border-amber-500/20 inline-block">
-                {giant.field}
+                {giant.field || giant.category}
               </span>
             </div>
             
             <div>
               <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2">{t("famousQuote")}</h4>
               <blockquote className="text-sm italic text-muted-foreground border-l-2 border-amber-500/30 pl-4 py-1">
-                &ldquo;{tg(`${giant.id}.quote`)}&rdquo;
+                &ldquo;{tg(`${giant.slug}.quote`)}&rdquo;
               </blockquote>
             </div>
             
             <div>
               <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2">{t("description")}</h4>
-              <p className="text-xs text-muted-foreground/80 leading-relaxed">{tg(`${giant.id}.shortDescription`)}</p>
+              <p className="text-xs text-muted-foreground/80 leading-relaxed">{tg(`${giant.slug}.shortDescription`)}</p>
             </div>
           </div>
         </div>
@@ -165,13 +165,13 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
               <div className="relative w-10 h-10 rounded-full overflow-hidden bg-muted flex items-center justify-center shrink-0 ring-2 ring-amber-500/20">
                 <Image 
                   src={giant.imageUrl} 
-                  alt={tg(`${giant.id}.name`)}
+                  alt={tg(`${giant.slug}.name`)}
                   fill
                   className="object-cover object-top"
                 />
               </div>
               <div>
-                <h3 className="font-serif text-lg font-semibold text-foreground leading-tight">{tg(`${giant.id}.name`)}</h3>
+                <h3 className="font-serif text-lg font-semibold text-foreground leading-tight">{tg(`${giant.slug}.name`)}</h3>
                 <div className="flex items-center gap-1.5 mt-0.5">
                   <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
                   <span className="text-[10px] text-muted-foreground uppercase tracking-tighter">{t("wisdomActive")}</span>
@@ -203,13 +203,13 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                       <div className="relative w-6 h-6 rounded-md overflow-hidden bg-muted flex items-center justify-center ring-1 ring-amber-500/20">
                         <Image 
                           src={giant.imageUrl} 
-                          alt={tg(`${giant.id}.name`)}
+                          alt={tg(`${giant.slug}.name`)}
                           fill
                           className="object-cover object-top"
                         />
                       </div>
                       <span className="text-[10px] text-muted-foreground">
-                        {tg(`${giant.id}.name`).split(" ")[0]}
+                        {(tg(`${giant.slug}.name`) || "").split(" ")[0]}
                       </span>
                     </div>
                   )}
@@ -246,7 +246,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                       <span className="w-2 h-2 bg-amber-400/60 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
                     </div>
                     <span className="text-xs text-muted-foreground ml-2">
-                      {t("contemplating", { name: tg(`${giant.id}.name`).split(" ")[0] })}
+                      {t("contemplating", { name: (tg(`${giant.slug}.name`) || "").split(" ")[0] })}
                     </span>
                   </div>
                 </div>
@@ -291,7 +291,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && handleSend()}
-                  placeholder={t("inputPlaceholder", { name: tg(`${giant.id}.name`).split(" ")[0] })}
+                  placeholder={t("inputPlaceholder", { name: (tg(`${giant.slug}.name`) || "").split(" ")[0] })}
                   className="w-full px-5 py-3 rounded-xl glass-card bg-transparent border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all pr-12"
                 />
                 <Sparkles className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-amber-400/40" />
