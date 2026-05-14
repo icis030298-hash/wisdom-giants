@@ -16,9 +16,13 @@ export function GiantsGrid({}: GiantsGridProps) {
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All Giants")
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid")
-  const [displayCount, setDisplayCount] = useState(12)
+  const [currentPage, setCurrentPage] = useState(1)
+  const ITEMS_PER_PAGE = 12
   
   const filteredGiants = useMemo(() => {
+    // Reset to page 1 when filters change
+    setCurrentPage(1)
+    
     return giants.filter((giant) => {
       // Use raw category ID for category filter (faster)
       const matchesCategory = 
@@ -53,14 +57,27 @@ export function GiantsGrid({}: GiantsGridProps) {
     })
   }, [searchQuery, selectedCategory, tg])
 
+  const totalPages = Math.ceil(filteredGiants.length / ITEMS_PER_PAGE)
+  
   const visibleGiants = useMemo(() => {
-    return filteredGiants.slice(0, displayCount)
-  }, [filteredGiants, displayCount])
+    const start = (currentPage - 1) * ITEMS_PER_PAGE
+    return filteredGiants.slice(start, start + ITEMS_PER_PAGE)
+  }, [filteredGiants, currentPage])
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page)
+    const element = document.getElementById('giants-header')
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    } else {
+      window.scrollTo({ top: 400, behavior: 'smooth' })
+    }
+  }
 
   return (
     <section id="giants" className="relative py-20 px-4">
       {/* Section header */}
-      <div className="max-w-7xl mx-auto mb-12">
+      <div id="giants-header" className="max-w-7xl mx-auto mb-12">
         <div className="flex items-center gap-3 mb-4">
           <div className="w-12 h-px bg-gradient-to-r from-transparent via-amber-500 to-transparent" />
           <Sparkles className="w-5 h-5 text-amber-400" />
@@ -190,14 +207,68 @@ export function GiantsGrid({}: GiantsGridProps) {
           </div>
         )}
         
-        {/* Load More Button */}
-        {filteredGiants.length > displayCount && (
-          <div className="mt-12 text-center">
+        {/* Pagination Navigation */}
+        {totalPages > 1 && (
+          <div className="mt-16 flex flex-wrap items-center justify-center gap-2">
             <button
-              onClick={() => setDisplayCount(prev => prev + 12)}
-              className="px-8 py-3 rounded-xl glass border border-amber-500/20 text-amber-400 font-medium hover:bg-amber-500/10 transition-all"
+              onClick={() => handlePageChange(1)}
+              disabled={currentPage === 1}
+              className="px-3 py-2 rounded-lg glass border border-white/5 text-xs font-medium disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/10 transition-all"
             >
-              Show More
+              First
+            </button>
+            <button
+              onClick={() => handlePageChange(currentPage - 1)}
+              disabled={currentPage === 1}
+              className="px-3 py-2 rounded-lg glass border border-white/5 text-xs font-medium disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/10 transition-all"
+            >
+              Prev
+            </button>
+            
+            <div className="flex items-center gap-1 mx-2">
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                // Show limited page numbers if too many
+                if (
+                  page === 1 || 
+                  page === totalPages || 
+                  (page >= currentPage - 1 && page <= currentPage + 1)
+                ) {
+                  return (
+                    <button
+                      key={page}
+                      onClick={() => handlePageChange(page)}
+                      className={`w-10 h-10 rounded-lg flex items-center justify-center text-sm font-medium transition-all ${
+                        currentPage === page
+                          ? "bg-amber-500 text-black shadow-lg shadow-amber-500/20"
+                          : "glass border border-white/5 text-muted-foreground hover:text-foreground hover:bg-white/10"
+                      }`}
+                    >
+                      {page}
+                    </button>
+                  )
+                } else if (
+                  page === currentPage - 2 || 
+                  page === currentPage + 2
+                ) {
+                  return <span key={page} className="text-muted-foreground px-1">...</span>
+                }
+                return null
+              })}
+            </div>
+
+            <button
+              onClick={() => handlePageChange(currentPage + 1)}
+              disabled={currentPage === totalPages}
+              className="px-3 py-2 rounded-lg glass border border-white/5 text-xs font-medium disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/10 transition-all"
+            >
+              Next
+            </button>
+            <button
+              onClick={() => handlePageChange(totalPages)}
+              disabled={currentPage === totalPages}
+              className="px-3 py-2 rounded-lg glass border border-white/5 text-xs font-medium disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/10 transition-all"
+            >
+              Last
             </button>
           </div>
         )}

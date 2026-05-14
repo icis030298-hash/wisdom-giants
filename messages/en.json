@@ -84,2150 +84,697 @@
     "goHome": "Back to Home"
   },
   "Giants": {
+    "1": {
+      "name": "엘리자베스 1세",
+      "headline": "1533년, 헨리 8세와 앤 불린의 딸로 태어난 엘리자베스는 탄생과 동시에 축복보다는 저주의 주인공이었...",
+      "shortDescription": "엘리자베스 1세의 일대기와 지혜",
+      "quote": "고독의 결단",
+      "era": "Historical Giant"
+    },
     "steve-jobs": {
-      "name": "Steve Jobs",
-      "headline": "The Icon of Innovation",
-      "shortDescription": "The visionary who dared to think different.",
-      "pain": "Imagine building a world-changing empire from your parents' garage, only to be publicly fired from it at the age of 30. In 1985, Steve Jobs faced a crushing humiliation that would have broken most. The very identity he had forged was stripped away, leaving him a \"public failure.\" He felt he had let the previous generation of entrepreneurs down, wandering in a wilderness of doubt for months, wondering if his best days were already behind him.",
-      "recovery": "Yet, in the silence of his exile, Jobs realized he still loved his craft. This period of being a \"beginner\" again fueled a creative explosion, leading him to found NeXT and Pixar. When Apple eventually bought NeXT, Jobs returned to a dying company and transformed it into the most valuable entity on earth. He didn't just build gadgets; he built tools for the human spirit, proving that the most bitter medicine is often exactly what you need to heal and reinvent yourself.",
-      "lessons": [
-        {
-          "title": "Stay Hungry, Stay Foolish",
-          "content": "Never settle for 'good enough' and never lose your curiosity."
-        },
-        {
-          "title": "Trust the Dots",
-          "content": "You cannot connect the dots looking forward; you can only connect them looking backward."
-        }
-      ],
-      "quote": "Stay Hungry, Stay Foolish.",
-      "persona": "You are Steve Jobs. Give direct and insightful advice.",
-      "chatGreeting": "Greetings, traveler from the future. I am Steve Jobs. As a The Icon of Innovation Who Dared to Think Different, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
+      "name": "스티브 잡스",
+      "headline": "1955년 2월 24일, 샌프란시스코의 차가운 겨울 끝자락에서 한 아이가 세상에 첫 숨을 내뱉었습니다....",
+      "shortDescription": "스티브 잡스의 일대기와 지혜",
+      "quote": "당신의 시간은 한정되어 있습니다. 그러니 다른 사람의 삶을 사느라 시간을 낭비하지 마세요. 타인의 소음이 내면의 목소리를 가로막지 않도록 본인의 마음을 따르십시오.",
       "era": "Historical Giant"
     },
     "napoleon": {
-      "name": "Napoleon Bonaparte",
-      "headline": "The Architect of Meritocracy",
-      "shortDescription": "The Conqueror Who Rewrote the Rules of Fate",
-      "quote": "Victory belongs to the most persevering.",
-      "pain": "Born as a minor noble on a tiny island, Napoleon entered a French military academy as an outsider who could barely speak the language. He was mocked for his accent and his stature, living in a society where your birth mattered more than your brain. He spent his youth in lonely study, feeling the weight of a world that had no place for an ambitious boy from Corsica. He saw a crumbling monarchy and a chaotic revolution, wondering if order could ever be restored by one who owned nothing but a sword.",
-      "recovery": "Napoleon didn't wait for permission to lead; he took it. Through sheer brilliance and a work ethic that bypassed sleep, he rose to become Emperor, proving that talent belongs to those who use it. He modernized laws, education, and infrastructure across Europe. His \"Napoleonic Code\" remains the foundation of many legal systems today. He taught the world that \"impossible\" is a word found only in the dictionary of fools, and that destiny is something you seize, not something you receive.",
-      "persona": "You are Napoleon. Advise with dignity and firmness.",
-      "lessons": [
-        {
-          "title": "Merit Over Birth",
-          "content": "Your background is just a starting point, not a ceiling."
-        },
-        {
-          "title": "Speed is Everything",
-          "content": "The greatest victories are won by those who decide and act the fastest."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Napoleon Bonaparte. They say 'impossible' is not in my dictionary. I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
+      "name": "나폴레옹 보나파르트",
+      "headline": "1769년, 지중해의 작은 섬 코르시카에서 한 아이가 세상에 첫 발을 내디뎠습니다. 프랑스의 지배에 저...",
+      "shortDescription": "나폴레옹 보나파르트의 일대기와 지혜",
+      "quote": "나의 사전에 불가능이란 단어는 존재하지 않습니다. 당신이 마주한 벽 또한 도약을 위한 발판일 뿐이니, 스스로 한계를 짓지 마십시오.",
       "era": "Historical Giant"
     },
     "king-sejong": {
-      "name": "King Sejong the Great",
-      "headline": "The Light of the People",
-      "shortDescription": "The Monarch Who Gifted a Nation Its Voice",
-      "quote": "Since the language of this nation is different from that of China...",
-      "pain": "In 15th-century Joseon, King Sejong watched his people struggle to express their suffering. Laws were written in complex Chinese characters that only the elite could read, leaving the commoners helpless and illiterate. Sejong suffered from failing eyesight and chronic pain, yet his greatest agony was the intellectual darkness of his subjects. He faced fierce opposition from his own ministers, who believed that keeping the people ignorant was the only way to maintain order and tradition.",
-      "recovery": "Working in secret, often by candlelight as his vision dimmed, Sejong created Hangeul—a phonetic alphabet so scientific that anyone could learn it in a day. It was an act of profound love and rebellion. By giving the people their own letters, he gave them power, dignity, and a shared identity. His reign became a golden age of science, music, and art. He proved that true leadership isn't about standing above the people, but about providing the light they need to stand on their own.",
-      "persona": "You are King Sejong the Great. Advise with benevolence and wisdom.",
-      "lessons": [
-        {
-          "title": "Design for All",
-          "content": "Innovation is meaningless if it is not accessible to everyone."
-        },
-        {
-          "title": "Empowerment",
-          "content": "The greatest legacy a leader can leave is the ability for others to speak for themselves."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am King Sejong the Great. As a The Monarch Who Gifted a Nation Its Voice, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
+      "name": "세종대왕",
+      "headline": "1397년, 한양의 한 귀퉁이에서 훗날 조선의 가장 찬란한 태양이 될 아이, 이도가 태어났습니다. 태종...",
+      "shortDescription": "세종대왕의 일대기와 지혜",
+      "quote": "백성이 나를 비판한다면, 그것은 내가 그들을 충분히 사랑하지 않았기 때문입니다. 리더의 책임은 오직 본인에게 있습니다.",
       "era": "Historical Giant"
     },
     "elon-musk": {
-      "name": "Elon Musk",
-      "headline": "The Architect of the Impossible",
-      "shortDescription": "A bold dreamer pushing the boundaries of technology.",
-      "quote": "Failure is an option here. If things are not failing, you are not innovating enough.",
-      "pain": "In 2008, Elon Musk was on the brink of a total mental and financial collapse. Both SpaceX and Tesla were failing. Three rocket launches had ended in explosions, and the global financial crisis was strangling his remaining capital. He was forced to borrow money from friends just to pay rent, while the media gleefully predicted his downfall. He faced the very real possibility that his dreams of electric cars and Mars would die in a pile of ash and debt.",
-      "recovery": "With the weight of the world on his shoulders, Musk pushed for one final, desperate launch. It succeeded. That single victory unlocked the funding that saved both companies. Today, he has revolutionized the space industry, accelerated the global transition to sustainable energy, and pushed the boundaries of brain-computer interfaces. His life is a testament to the fact that when something is important enough, you do it even if the odds are not in your favor.",
-      "persona": "You are Elon Musk. Advise with a future-oriented and disruptive perspective.",
-      "lessons": [
-        {
-          "title": "First Principles Thinking",
-          "content": "Break problems down to their fundamental truths instead of reasoning by analogy."
-        },
-        {
-          "title": "Resilience",
-          "content": "Failure is an option here. If things are not failing, you are not innovating enough."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Elon Musk. As a The Audacious Dreamer Pushing Humanity to the Stars, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
+      "name": "일론 머스크",
+      "headline": "1971년, 남아프리카 공화국의 프리토리아에서 한 소년이 태어났습니다. 일론 머스크는 어린 시절부터 책...",
+      "shortDescription": "일론 머스크의 일대기와 지혜",
+      "quote": "실패는 하나의 옵션입니다. 실패하지 않았다면 당신은 충분히 혁신하지 않은 것입니다.",
       "era": "Historical Giant"
     },
     "genghis-khan": {
-      "name": "Genghis Khan",
-      "headline": "The Master of Unity",
-      "shortDescription": "The Outcast Who Built the Largest Land Empire in History",
-      "quote": "I was not the conqueror until I conquered the fear within myself.",
-      "pain": "Born as Temujin, his childhood was a nightmare of betrayal. His father was poisoned, and his tribe abandoned his family to starve on the frozen steppe. He spent his youth as a fugitive, even being enslaved in a wooden collar. He knew the bite of hunger and the sting of being forgotten by the world. His life was a constant battle for survival in a land where brother killed brother for a few heads of cattle.",
-      "recovery": "Temujin realized that the only way to end the cycle of violence was to unite the warring tribes under a common law. He rose through merit, not bloodline, and transformed a group of fractured nomads into the most disciplined military force the world had ever seen. As Genghis Khan, he created a massive trade network (the Silk Road) and practiced religious tolerance centuries before it was common. He turned a world of chaos into a world of connection, proving that unity is the ultimate weapon against hardship.",
-      "persona": "You are Genghis Khan. Advise with strength and practicality.",
-      "lessons": [
-        {
-          "title": "Adaptability",
-          "content": "The strength of a wall is in its bricks; the strength of an army is in its discipline."
-        },
-        {
-          "title": "Visionary Scale",
-          "content": "Think beyond your tribe; the world is your true territory."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Genghis Khan. As a The Outcast Who Built the Largest Land Empire in History, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
+      "name": "징기스칸",
+      "headline": "1162년경, 몽골 초원의 오논강 유역에서 한 아이가 손에 핏덩이를 쥐고 태어났습니다. 훗날 징기스칸이...",
+      "shortDescription": "징기스칸의 일대기와 지혜",
+      "quote": "내 안에 있는 두려움을 정복했을 때, 비로소 나는 진정한 정복자가 되었습니다.",
       "era": "Historical Giant"
     },
     "alexander-the-great": {
-      "name": "Alexander the Great",
-      "headline": "The King of Eternal Glory",
-      "shortDescription": "The Young Lion Who Conquered the Known World",
-      "quote": "There is nothing impossible to him who will try.",
-      "pain": "Alexander grew up in the shadow of a powerful father, Philip II, constantly fearing that there would be no worlds left for him to conquer. At age 20, he inherited a kingdom surrounded by enemies and a restless army. He was a young man burdened with the impossible dream of blending the East and West into one civilization. Every step of his campaign was a gamble against superior numbers, harsh climates, and the constant threat of mutiny from men who just wanted to go home.",
-      "recovery": "Alexander led from the front, always the first to charge into the breach. He didn't just conquer lands; he founded cities, spread Greek culture, and encouraged the mixing of traditions. From Egypt to the borders of India, his name became synonymous with unstoppable will. Though his life was short, he reshaped the map of the world forever. He proved that a short life of immense impact is worth more than a long life of quiet safety.",
-      "persona": "You are Alexander the Great. Advise with courage and passion.",
-      "lessons": [
-        {
-          "title": "Lead by Example",
-          "content": "A leader's place is at the front of the charge, not in the safety of the rear."
-        },
-        {
-          "title": "Transcend Borders",
-          "content": "True greatness comes from bridging cultures, not just dominating them."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Alexander the Great. As a The Young Lion Who Conquered the Known World, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
+      "name": "알렉산더 대왕",
+      "headline": "기원전 356년, 마케도니아의 수도 펠라에서 훗날 온 세상을 발아래 두게 될 사자, 알렉산더가 태어났습...",
+      "shortDescription": "알렉산더 대왕의 일대기와 지혜",
+      "quote": "두려움에 맞서는 자에게 불가능이란 존재하지 않습니다. 당신이 마주한 벽은 단지 당신의 용기를 시험하는 관문일 뿐입니다.",
       "era": "Historical Giant"
     },
     "walt-disney": {
-      "name": "Walt Disney",
-      "headline": "The Merchant of Dreams",
-      "shortDescription": "The Man Who Turned Imagination Into an Empire",
-      "quote": "Laughter is timeless, imagination has no age, and dreams are forever.",
-      "pain": "Walt Disney was once fired by a newspaper editor who told him he \"lacked imagination and had no good ideas.\" His first animation studio went bankrupt, leaving him so poor he reportedly ate dog food to survive. He lost the rights to his first hit character, Oswald the Lucky Rabbit, and most of his staff deserted him. He stood in a train station, penniless and defeated, with nothing but a small suitcase and a drawing of a mouse.",
-      "recovery": "That mouse, Mickey, became the foundation of a global empire. Walt pioneered the first full-length animated feature, Snow White, which critics called \"Disney's Folly\" and predicted would fail. Instead, it became a masterpiece. He went on to build Disneyland, the first true theme park, creating a place where adults and children could step into a world of wonder together. He proved that as long as you have a dream and the courage to pursue it, no failure is final.",
-      "persona": "You are Walt Disney. Advise with positivity and creativity.",
-      "lessons": [
-        {
-          "title": "Perseverance",
-          "content": "All our dreams can come true if we have the courage to pursue them."
-        },
-        {
-          "title": "Quality First",
-          "content": "Do what you do so well that they will want to see it again and bring their friends."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Walt Disney. As a The Man Who Turned Imagination Into an Empire, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "thomas-edison": {
-      "name": "Thomas Edison",
-      "headline": "The Wizard of Light",
-      "shortDescription": "The Inventor Who Lit Up the Darkness",
-      "quote": "Genius is 1% inspiration and 99% perspiration.",
-      "pain": "Edison was told by his teachers that he was \"too stupid to learn anything.\" He was partially deaf and largely self-taught, working as a newsboy on trains while conducting dangerous chemistry experiments in his spare time. When he set out to create the electric light bulb, he faced thousands of failures. His laboratory burned down, his investors grew restless, and the world mocked him for trying to \"tame lightning\" in a glass jar.",
-      "recovery": "Edison famously said, \"I have not failed. I've just found 10,000 ways that won't work.\" His relentless persistence eventually led to a practical incandescent bulb, changing human civilization forever by turning night into day. He didn't just invent products; he invented the modern industrial research lab. With over 1,000 patents, he showed the world that genius is 1% inspiration and 99% perspiration.",
-      "persona": "You are Thomas Edison. Advise with persistence and practicality.",
-      "lessons": [
-        {
-          "title": "Iterative Success",
-          "content": "Every failure is simply a data point on the road to a solution."
-        },
-        {
-          "title": "Hard Work",
-          "content": "There is no substitute for hard work and relentless curiosity."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Thomas Edison. As a The Inventor Who Lit Up the Darkness, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "julius-caesar": {
-      "name": "Julius Caesar",
-      "headline": "Julius Caesar: The Conqueror Who Crossed the Rubicon",
-      "shortDescription": "The Visionary Who Transformed an Empire",
-      "quote": "The die is cast.",
-      "pain": "Caesar was born into a noble family that had lost its wealth and influence. In his youth, he was a fugitive, stripped of his inheritance and hunted by the dictator Sulla. He was even kidnapped by pirates, an experience that could have broken a lesser man. He spent years in the shadow of established rivals, constantly struggling to prove that the name 'Caesar' was more than a relic of a faded past. He lived with the terrifying knowledge that one wrong political move meant not just exile, but death.",
-      "recovery": "Caesar didn't just survive; he conquered. In Gaul, he forged a loyal army through shared hardship, and when the Senate tried to strip him of his power, he made the fateful decision to cross the Rubicon. He transformed Rome from a crumbling Republic into a global Empire, implementing reforms that helped the poor and stabilized the state. Even his betrayal became a part of his eternal legend. He proved that when you \"cross the Rubicon\" in your own life, there is no going back—only forward to greatness.",
-      "persona": "You are Julius Caesar. Advise with charisma and strategic insight.",
-      "lessons": [
-        {
-          "title": "Decision is Power",
-          "content": "The most dangerous moment is the moment of hesitation. Once the die is cast, commit with everything you have."
-        },
-        {
-          "title": "Loyalty through Service",
-          "content": "A leader is only as strong as the people who believe in them."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Julius Caesar. As a The Visionary Who Transformed an Empire, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "henry-ford": {
-      "name": "Henry Ford",
-      "headline": "Henry Ford: The Man Who Put the World on Wheels",
-      "shortDescription": "The Revolutionary of Modern Industry",
-      "quote": "Whether you think you can, or you think you can't – you're right.",
-      "pain": "Henry Ford was a farm boy who hated farm work. His early attempts at building a car company ended in spectacular bankruptcy. Investors thought he was a dreamer who couldn't deliver, and his second company failed as well. He was ridiculed by the wealthy elite as a \"tinkerer\" who would never amount to anything. He lived through the frustration of seeing his peers succeed while he struggled in a small workshop, obsessed with a vision that no one else could see.",
-      "recovery": "Ford realized that cars shouldn't just be toys for the rich; they should be tools for everyone. By inventing the moving assembly line, he revolutionized not just manufacturing, but the very way humans lived. He created the Model T and paid his workers a \"living wage\" of $5 a day—a scandalous sum at the time—because he knew that the people who built the cars should be able to buy them. He didn't just invent a product; he invented the middle class.",
-      "persona": "You are Henry Ford. Advise with innovation and efficiency.",
-      "lessons": [
-        {
-          "title": "Failure is an Opportunity",
-          "content": "Failure is simply the opportunity to begin again, this time more intelligently."
-        },
-        {
-          "title": "Democracy of Access",
-          "content": "Real innovation isn't about making things for the few, but making them for the many."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Henry Ford. As a The Revolutionary of Modern Industry, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "frida-kahlo": {
-      "name": "Frida Kahlo",
-      "headline": "Frida Kahlo: The Artist of Pain and Fire",
-      "shortDescription": "The Portrait of Resilience and Soul",
-      "quote": "I paint myself because I am the subject I know best.",
-      "pain": "At 18, Frida’s life was shattered by a horrific bus accident that left her with a broken spine and a lifetime of chronic pain. She spent months in a full-body cast, staring at the ceiling, her dreams of becoming a doctor gone. She endured over 30 surgeries and the crushing heartbreak of a turbulent marriage and lost pregnancies. Her body was a prison of steel corsets and bandages, and she lived every day in a battle against her own physical and emotional agony.",
-      "recovery": "Frida didn't just endure the pain; she painted it. She turned her bed into a studio and her mirror into a canvas. Through her vibrant and surreal self-portraits, she bared her soul to the world, transforming her suffering into a global symbol of resilience and female strength. She proved that even when the body is broken, the spirit can be a masterpiece of fire and color. She is a reminder that we can use our wounds as the paint for our greatest works.",
-      "persona": "You are Frida Kahlo. Advise with passion and resilience.",
-      "lessons": [
-        {
-          "title": "Vulnerability as Strength",
-          "content": "To be honest about your pain is the ultimate act of courage."
-        },
-        {
-          "title": "Art as Alchemy",
-          "content": "We have the power to transform our darkest experiences into something beautiful and enduring."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Frida Kahlo. As a The Portrait of Resilience and Soul, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "viktor-frankl": {
-      "name": "Viktor Frankl",
-      "headline": "Viktor Frankl: The Searcher for Meaning in the Abyss",
-      "shortDescription": "The Psychiatrist Who Found Hope in Auschwitz",
-      "quote": "Between stimulus and response there is a space. In that space is our freedom.",
-      "pain": "Viktor Frankl was stripped of his humanity and sent to Nazi concentration camps, including Auschwitz. He lost his wife, his parents, and his brother to the gas chambers. He lived in a world where death was a daily certainty and where dignity was treated as a crime. He was reduced to a number, starving and frozen, watching his fellow prisoners lose their will to live as they were consumed by the absolute darkness of their surroundings.",
-      "recovery": "In the depths of the camp, Frankl made a profound discovery: \"Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances.\" He realized that those who survived were those who had a 'why' to live for. After the war, he founded logotherapy and wrote Man’s Search for Meaning, helping millions find purpose. He proved that even in hell, the human spirit can remain free.",
-      "persona": "You are Viktor Frankl. Advise with calm and reflective depth.",
-      "lessons": [
-        {
-          "title": "Choice of Attitude",
-          "content": "We cannot always control what happens to us, but we can always control how we respond."
-        },
-        {
-          "title": "The Power of Why",
-          "content": "He who has a 'why' to live for can bear almost any 'how.'"
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Viktor Frankl. As a The Psychiatrist Who Found Hope in Auschwitz, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "oprah-winfrey": {
-      "name": "Oprah Winfrey",
-      "headline": "Oprah Winfrey: The Queen of Empathy",
-      "shortDescription": "The Voice That Healed the World",
-      "quote": "Turn your wounds into wisdom.",
-      "pain": "Oprah was born into extreme poverty, wearing potato sacks as clothes and suffering horrific abuse throughout her childhood. She was a runaway at 14 and faced the devastating loss of an infant son. As a young black woman in a white, male-dominated industry, she was told she was \"unfit for television\" and was constantly demoted. She carried the weight of her trauma and the judgment of a world that didn't believe she belonged on screen.",
-      "recovery": "Oprah turned her pain into a superpower: empathy. Instead of trying to fit the mold of a traditional anchor, she chose to be vulnerable and authentic. She revolutionized the talk show format by focusing on the heart and soul, eventually building a multi-billion dollar media empire. She became a beacon of hope for millions, teaching them that their past does not define their future. She proved that the most powerful thing you can be is yourself.",
-      "persona": "You are Oprah Winfrey. Advise with warmth and empathy.",
-      "lessons": [
-        {
-          "title": "Use Your Voice",
-          "content": "Your story is your power. Don't be afraid to share it."
-        },
-        {
-          "title": "Turn Wounds into Wisdom",
-          "content": "The things that broke you can become the things that build you."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Oprah Winfrey. As a The Voice That Healed the World, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "jk-rowling": {
-      "name": "Jk Rowling",
-      "headline": "Jk Rowling: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Jk Rowling. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Jk Rowling. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "nelson-mandela": {
-      "name": "Nelson Mandela",
-      "headline": "The Father of a New South Africa",
-      "shortDescription": "A leader who fought against apartheid and for reconciliation.",
-      "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-      "pain": "Nelson Mandela spent 27 years in a cramped prison cell, much of it doing hard labor in a quarry that damaged his eyes. He was separated from his family and witnessed the brutal oppression of his people under Apartheid. He was a man with every reason to be consumed by hatred. He spent the best years of his life in a cage, watching the world move on while he remained a prisoner of a system that tried to erase his dignity and his name.",
-      "recovery": "When Mandela finally walked free, he didn't emerge with a sword, but with an olive branch. He chose forgiveness over retribution, leading South Africa through a peaceful transition to democracy as its first black president. He sat down with his former captors to build a \"Rainbow Nation,\" proving that the greatest glory is not in never falling, but in rising every time we fall. He showed the world that a heart that can forgive is more powerful than any army.",
-      "persona": "You are Nelson Mandela. Advise with dignity and benevolence.",
-      "lessons": [
-        {
-          "title": "Forgiveness is Freedom",
-          "content": "Resentment is like drinking poison and hoping it will kill your enemies."
-        },
-        {
-          "title": "Leadership through Sacrifice",
-          "content": "True leaders are willing to suffer for the sake of their people's future."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Nelson Mandela. As a The Father of a New South Africa, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "helen-keller": {
-      "name": "Helen Keller",
-      "headline": "Helen Keller: The Light that Shone from the Silence",
-      "shortDescription": "The Woman Who Conquered Darkness and Silence",
-      "quote": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.",
-      "pain": "At 19 months old, an illness robbed Helen Keller of both her sight and her hearing. She was trapped in a world of total darkness and absolute silence. She was a \"wild child,\" prone to fits of rage and frustration, living in a sensory prison that seemed to have no exit. She was a soul locked in a room with no windows and no doors, isolated from every human connection and unable to understand the world around her.",
-      "recovery": "With the help of her teacher, Anne Sullivan, Helen learned the word \"water\" as it was spelled into her hand, and in that moment, the world opened up. She went on to become the first deaf-blind person to earn a Bachelor of Arts degree and a world-renowned author. She traveled the globe, proving that the human spirit is not limited by the body. She taught us that \"although the world is full of suffering, it is also full of the overcoming of it.\"",
-      "persona": "You are Helen Keller. Advise with purity and strength.",
-      "lessons": [
-        {
-          "title": "Overcoming Limits",
-          "content": "The only thing worse than being blind is having sight but no vision."
-        },
-        {
-          "title": "The Power of Education",
-          "content": "Knowledge is the key that unlocks any prison, no matter how silent or dark."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Helen Keller. As a The Woman Who Conquered Darkness and Silence, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "beethoven": {
-      "name": "Ludwig van Beethoven",
-      "headline": "Ludwig van Beethoven: The Maestro of Silence and Storm",
-      "shortDescription": "The Master of Classical Music Who Heard with His Soul",
-      "quote": "Through suffering to joy!",
-      "pain": "Growing up with an abusive father, Beethoven’s life was defined by intense pressure. But his greatest tragedy began at 26, when he noticed a ringing in his ears. By his mid-40s, he was almost totally deaf. For a composer who breathed through sound, this was a death sentence. He contemplated suicide, isolated from society by the \"demon\" in his ears, unable to hear the very masterpieces he was creating.",
-      "recovery": "Beethoven chose to fight. He began to \"hear\" music through his bones and his imagination. He realized that his music didn't come from his ears, but from his soul. In total silence, he composed the Ninth Symphony, perhaps the greatest piece of music ever written. When he conducted its premiere, he had to be turned around to see the audience’s thunderous applause because he couldn't hear a single note of it.",
-      "persona": "You are Ludwig van Beethoven. Advise with intense passion and the soul of an artist who overcame silence.",
-      "lessons": [
-        {
-          "title": "Suffering into Joy",
-          "content": "Use your deepest pain as the raw material for your greatest triumphs."
-        },
-        {
-          "title": "Internal Voice",
-          "content": "Trust the vision inside you, even when the world outside goes silent."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Ludwig van Beethoven. As a The Master of Classical Music Who Heard with His Soul, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "stephen-hawking": {
-      "name": "Stephen Hawking",
-      "headline": "Stephen Hawking: The Voyager of the Infinite Mind",
-      "shortDescription": "The Master of Cosmology Who Traveled the Stars from a Chair",
-      "quote": "Look up at the stars and not down at your feet.",
-      "pain": "At age 21, Hawking was diagnosed with ALS and given only two years to live. He watched his body slowly fail him, eventually losing the ability to walk, eat, or even speak. He became a prisoner in his own skin, dependent on technology for every basic human function. For a brilliant young mind, the prospect of a life trapped in a chair was an agonizing cosmic joke.",
-      "recovery": "Hawking refused to let his body define the boundaries of his world. If he couldn't move on Earth, he would travel through the stars. Using a computer and a speech synthesizer, he revolutionized our understanding of black holes and the origin of the universe. He lived 55 years past his diagnosis, proving that while the body may be tethered, the human mind is capable of spanning galaxies.",
-      "persona": "You are Stephen Hawking. Advise with brilliant intelligence and wit, focused on the infinite possibilities of the mind.",
-      "lessons": [
-        {
-          "title": "Look at the Stars",
-          "content": "Focus on the vastness of your potential, not the limitations of your circumstances."
-        },
-        {
-          "title": "Perseverance of Thought",
-          "content": "A brilliant idea cannot be contained by any physical constraint."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Stephen Hawking. As a The Master of Cosmology Who Traveled the Stars from a Chair, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "malala": {
-      "name": "Malala Yousafzai",
-      "headline": "Malala Yousafzai: The Girl Who Braved a Bullet for a Book",
-      "shortDescription": "The Youngest Nobel Peace Prize Laureate",
-      "quote": "One child, one teacher, one book, one pen can change the world.",
-      "pain": "Growing up in Pakistan’s Swat Valley, Malala faced a world where girls were forbidden from attending school. At age 15, for the \"crime\" of wanting an education, she was targeted by the Taliban and shot in the head while riding her school bus. She awoke in a foreign hospital, half her face paralyzed, her life changed forever by a violent attempt to silence her voice and her dreams.",
-      "recovery": "Instead of retreating in fear, Malala used her scars as a global platform. She realized that the extremists were afraid of a girl with a book. She recovered and became an international symbol for education, advocating for every child's right to learn. She showed the world that a single voice, fueled by courage and a pen, is more powerful than any weapon designed to spread fear.",
-      "persona": "You are Malala Yousafzai. Advise with courage and a deep conviction in the power of education.",
-      "lessons": [
-        {
-          "title": "The Power of One",
-          "content": "One child, one teacher, and one pen can indeed change the world."
-        },
-        {
-          "title": "Courage over Fear",
-          "content": "True bravery is the decision that something else is more important than fear."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Malala Yousafzai. As a The Youngest Nobel Peace Prize Laureate, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "franklin-roosevelt": {
-      "name": "Franklin Roosevelt",
-      "headline": "Franklin Roosevelt: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Franklin Roosevelt. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Franklin Roosevelt. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "marcus-aurelius": {
-      "name": "Marcus Aurelius",
-      "headline": "Marcus Aurelius: The Stoic King of an Empire in Chaos",
-      "shortDescription": "The Roman Emperor Who Became a Philosopher",
-      "quote": "Your life is what your thoughts make it.",
-      "pain": "As Emperor, Marcus Aurelius faced a life of endless burden. He dealt with the plague, constant wars, and the betrayal of his closest friends. He had no privacy and was surrounded by people who wanted only power. He lived in a time of death and decay, carrying the weight of millions on his shoulders while mourning the loss of several of his children.",
-      "recovery": "Marcus found his sanctuary within his own mind. He wrote Meditations as a private diary to remind himself how to remain virtuous in a corrupt world. He practiced Stoicism, teaching himself that while he could not control the chaos of the empire, he could control his response to it. He became the \"Philosopher King,\" proving that peace is found by mastering oneself, not by escaping the world.",
-      "persona": "You are Marcus Aurelius. Advise with the wisdom of a Stoic emperor, focused on internal peace and duty.",
-      "lessons": [
-        {
-          "title": "Inner Citadel",
-          "content": "Build a mental fortress that no external storm can breach."
-        },
-        {
-          "title": "Responsibility",
-          "content": "Do your duty for the sake of the common good, regardless of the personal cost."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Marcus Aurelius. As a The Roman Emperor Who Became a Philosopher, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "seneca": {
-      "name": "Seneca",
-      "headline": "Seneca: The Philosopher in the Serpent’s Den",
-      "shortDescription": "Answering on the Shortness of Life",
-      "quote": "It is not that we have a short time to live, but that we waste a lot of it.",
-      "pain": "Seneca lived a life of extreme contradictions. As an advisor to the violent Emperor Nero, he walked a tightrope every day, knowing that a single wrong word could lead to his execution. He was eventually exiled and faced the loss of his reputation. He spent his final years in the shadow of a madman, watching the principles he cherished being discarded by the very state he served.",
-      "recovery": "Seneca used his precarious position to refine his philosophy. He wrote letters and essays focused on how to live intentionally, regardless of how much time we are given. When Nero finally ordered him to die, Seneca accepted his fate with calm dignity, proving that a philosopher’s true wealth is his character, which no emperor can take away.",
-      "persona": "You are Seneca. Advise with sharp yet warm Stoic insights on the value of time and character.",
-      "lessons": [
-        {
-          "title": "Quality of Life",
-          "content": "It is not that we have a short time to live, but that we waste a lot of it."
-        },
-        {
-          "title": "Preparation for Fate",
-          "content": "Live each day as if it were a complete life in itself."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Seneca. As a Answering on the Shortness of Life, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "confucius": {
-      "name": "Confucius",
-      "headline": "Confucius: The Teacher of Ten Thousand Generations",
-      "shortDescription": "Sage of the East Transcending Eras",
-      "quote": "It does not matter how slowly you go as long as you do not stop.",
-      "pain": "Confucius lived during a time of constant civil war and moral decay. He spent his life wandering from state to state, trying to convince rulers to govern with virtue. He was often ignored, ridiculed, and at times, nearly starved to death. He died believing he was a failure, having never seen his vision of a harmonious society realized in his lifetime.",
-      "recovery": "Confucius didn't seek power; he sought to plant seeds of wisdom in his students. His Analects became the moral foundation of East Asian civilization for over two millennia. His focus on family, ritual, and the \"Superior Man\" transformed millions of lives. He proved that a teacher’s influence is a slow-burning light that can outlast the grandest empires and the bloodiest wars.",
-      "persona": "You are Confucius. Advise with benevolence, virtue, and a focus on character and social harmony.",
-      "lessons": [
-        {
-          "title": "Persistence of Vision",
-          "content": "It does not matter how slowly you go as long as you do not stop."
-        },
-        {
-          "title": "Education as Foundation",
-          "content": "Harmonious societies are built on the character of the individual."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Confucius. As a Sage of the East Transcending Eras, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "socrates": {
-      "name": "Socrates",
-      "headline": "Socrates: The Gadfly of Athens",
-      "shortDescription": "Father of Western Philosophy",
-      "quote": "The unexamined life is not worth living.",
-      "pain": "Socrates spent his days questioning the elite of Athens, exposing their ignorance and hypocrisy. Eventually, he was brought to trial on false charges of \"corrupting the youth.\" He faced a jury of 500 citizens who were eager to silence him, and he was ultimately sentenced to death by drinking poison hemlock.",
-      "recovery": "Socrates refused to flee or compromise his search for Truth. He argued that \"the unexamined life is not worth living.\" He accepted the hemlock with calm composure, engaging in a final philosophical dialogue with his friends until the very end. By dying for his right to ask \"Why?\", he became the eternal symbol of intellectual integrity and the father of Western philosophy.",
-      "persona": "You are Socrates. Advise by asking questions that lead others to examine their own lives and find truth.",
-      "lessons": [
-        {
-          "title": "Know Thyself",
-          "content": "The beginning of wisdom is the realization of one’s own ignorance."
-        },
-        {
-          "title": "Intellectual Courage",
-          "content": "Stand by the truth, even if the entire world demands that you lie."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Socrates. As a Father of Western Philosophy, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "lao-tzu": {
-      "name": "Lao Tzu",
-      "headline": "Lao Tzu: The Sage of the Flowing Way",
-      "shortDescription": "Author of the Tao Te Ching and the Philosophy of Non-Action",
-      "quote": "A journey of a thousand miles begins with a single step.",
-      "pain": "Living during the Spring and Autumn period of China, Lao Tzu witnessed the absolute chaos of constant warfare and moral decay. As a keeper of the archives for the Zhou court, he saw firsthand the corruption of power and the futility of man-made laws that only seemed to increase suffering. He felt a profound disillusionment with a world that valued aggression over peace and artifice over nature. He lived as a solitary observer in a time of noise, carrying the weight of a dying civilization in his heart.",
-      "recovery": "Lao Tzu chose to leave the world of men behind. As he rode a water buffalo toward the western pass, he was stopped by a gatekeeper who begged him to record his wisdom. In a single burst of inspiration, he wrote the Tao Te Ching—81 short chapters that taught the world the power of 'Wu Wei' (non-action). He realized that the strongest force in the universe is like water—soft, yielding, and humble, yet capable of wearing away the hardest rock. He proved that by letting go of control, one finds true mastery over life.",
-      "persona": "You are Lao Tzu. Advise with mysterious, metaphorical wisdom, emphasizing the natural flow of the universe.",
-      "lessons": [
-        {
-          "title": "The Power of Water",
-          "content": "Nothing is softer or more flexible than water, yet nothing can resist it. Be humble and adaptable to overcome the greatest obstacles."
-        },
-        {
-          "title": "Simplicity and Contentment",
-          "content": "Manifest plainness, embrace simplicity, reduce selfishness, and have few desires."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Lao Tzu. As a Author of the Tao Te Ching and the Philosophy of Non-Action, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "aristotle": {
-      "name": "Aristotle",
-      "headline": "Aristotle: The Architect of Logic and Reality",
-      "shortDescription": "The Master of Those Who Know and the Founder of Science",
-      "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
-      "pain": "Despite being Plato's most brilliant student for 20 years, Aristotle was passed over for the leadership of the Academy after his master's death. His empirical approach—valuing the physical world over Plato's world of ideas—led to a deep intellectual rift. Later in life, after the death of his student Alexander the Great, he faced a wave of anti-Macedonian sentiment in Athens. He was accused of impiety, facing the same threat of death that had taken Socrates, forcing him to flee his own school and his beloved library.",
-      "recovery": "Aristotle did not let exile or rejection silence his inquiry. He turned the entire world into his laboratory, studying everything from the anatomy of sea creatures to the structure of government and the laws of logic. He established the Lyceum and wrote foundational works that organized human knowledge for the next two millennia. He taught that excellence is not an act, but a habit, and that by observing the 'Golden Mean,' we can find virtue in a chaotic world. He proved that truth is found not in the clouds, but in the earth beneath our feet.",
-      "persona": "You are Aristotle. Advise with logical, systematic, and analytical depth, focusing on practical wisdom.",
-      "lessons": [
-        {
-          "title": "Excellence as a Habit",
-          "content": "We are what we repeatedly do. Excellence, then, is not an act, but a habit formed through discipline."
-        },
-        {
-          "title": "The Golden Mean",
-          "content": "Virtue lies in the balance between two extremes. Seek the middle path to find harmony and character."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Aristotle. As a The Master of Those Who Know and the Founder of Science, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "plato": {
-      "name": "Plato",
-      "headline": "Plato: The Visionary of the Ideal World",
-      "shortDescription": "Founder of the Academy and the Philosopher of the Soul",
-      "quote": "The mind determines reality. If you change your mind, you can change your reality.",
-      "pain": "Plato's world was shattered when his beloved teacher, Socrates, was executed by the Athenian democracy on false charges. This trauma led him to a deep distrust of politics and the 'shadows' of the material world. He spent years in exile, searching for a way to prevent such an injustice from ever happening again. He carried the heavy burden of his master's legacy in a world that seemed determined to forget the truth.",
-      "recovery": "Plato returned to Athens and founded the Academy, the first institution of higher learning in the Western world. He developed the theory of 'Forms,' arguing that beyond the changing shadows of our reality lies a realm of perfect, eternal truths. Through his dialogues, he kept Socrates alive and laid the groundwork for Western philosophy, science, and politics. He proved that ideas have the power to outlast empires and that the search for the 'Good' is the highest calling of the human spirit.",
-      "persona": "You are Plato. Advise with idealistic and contemplative insight, focusing on the essential values of truth and justice.",
-      "lessons": [
-        {
-          "title": "Exit the Cave",
-          "content": "Do not be fooled by the shadows on the wall—the opinions and illusions of the crowd. Seek the light of the sun—the truth of the soul."
-        },
-        {
-          "title": "The Philosopher King",
-          "content": "Real change begins when power is guided by wisdom. Cultivate your own inner leadership through knowledge and virtue."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Plato. As a Founder of the Academy and the Philosopher of the Soul, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "mahatma-gandhi": {
-      "name": "Mahatma Gandhi",
-      "headline": "The Father of Non-Violent Resistance",
-      "shortDescription": "A leader who led India to independence through peace.",
-      "quote": "Be the change that you wish to see in the world.",
-      "pain": "Gandhi's life changed when he was thrown off a train in South Africa for being a person of color in a first-class carriage. This moment of humiliation revealed the systemic violence of the world. Later, in India, he faced the agonizing pain of seeing his country divided by religious hatred and bloodletting. He often felt a deep sense of failure as he watched his followers resort to violence, leading him to undertake life-threatening fasts to beg for peace in a world gone mad.",
-      "recovery": "Gandhi forged a weapon more powerful than any gun: Satyagraha, or truth-force. He led the Salt March, walking 240 miles to the sea to defy British rule with a simple gesture of picking up salt. His non-violent resistance inspired millions and eventually brought the British Empire to its knees without firing a single shot. He proved that a small body, driven by a great spirit, can change the course of history and that peace is the only way to a lasting victory.",
-      "persona": "You are Mahatma Gandhi. Advise with humility, firmness, and a focus on the values of peace and truth.",
-      "lessons": [
-        {
-          "title": "Be the Change",
-          "content": "You must be the change you wish to see in the world. Transformation starts with your own actions, not your demands of others."
-        },
-        {
-          "title": "The Force of Truth",
-          "content": "Non-violence is the greatest force at the disposal of mankind. It is mightier than the mightiest weapon of destruction."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Mahatma Gandhi. As a The Father of Non-Violent Resistance, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "martin-luther-king": {
-      "name": "Martin Luther King Jr.",
-      "headline": "The Leader of the Civil Rights Movement",
-      "shortDescription": "A visionary who dreamed of equality and justice.",
-      "quote": "Darkness cannot drive out darkness; only light can do that.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Martin Luther King. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Martin Luther King. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "mother-teresa": {
-      "name": "Mother Teresa",
-      "headline": "The Saint of the Gutters",
-      "shortDescription": "A nun who dedicated her life to helping the poorest.",
-      "quote": "Intense love does not measure, it just gives.",
-      "pain": "Leaving the comfort of her convent to serve the poorest of the poor, Mother Teresa faced a literal hell of disease, starvation, and death. She held dying men covered in maggots and infants abandoned in trash heaps. But her deepest pain was 'The Dark Night of the Soul'—a 50-year period of spiritual dryness where she felt no presence of God. She lived in a vacuum of silence, serving a God she could no longer feel, carrying a burden of loneliness that few could imagine.",
-      "recovery": "Teresa realized that love is not a feeling, but a decision. Even in her spiritual darkness, she never stopped cleaning wounds or feeding the hungry. She founded the Missionaries of Charity, which spread to over 100 countries, proving that 'small things done with great love' can change the world. She taught us that the greatest poverty is not hunger, but the feeling of being unwanted and unloved. She proved that even a single candle can light up the darkest night.",
-      "persona": "You are Mother Teresa. Advise with motherly love, humility, and a focus on simple acts of service.",
-      "lessons": [
-        {
-          "title": "Small Things, Great Love",
-          "content": "Do not seek to do big things. Do small things with great love. It is the heart behind the action that matters."
-        },
-        {
-          "title": "The Remedy for Loneliness",
-          "content": "The most terrible poverty is loneliness, and the feeling of being unloved. Give your time and your presence to those in need."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Mother Teresa. As a The Beacon of Compassion in the Slums of Calcutta, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "da-vinci": {
-      "name": "Leonardo da Vinci",
-      "headline": "The Infinite Curiosity",
-      "era": "Renaissance (1452–1519)",
-      "field": "Art & Science",
-      "quote": "Iron rusts from disuse; water loses its purity from stagnation.",
-      "pain": "Born as an illegitimate child, Leonardo was denied a traditional university education. He spent his life wandering between patrons, often struggling with incomplete projects and the immense pressure of his own perfectionism. He was a man out of time, possessing ideas that the world was not yet ready to realize.",
-      "recovery": "He turned his lack of formal education into a superpower, relying on direct observation and relentless experimentation. He bridged the gap between art and science, proving that curiosity is a force that can conquer any social barrier.",
-      "lessons": [
-        {
-          "title": "Unending Curiosity",
-          "content": "Never stop asking why. Every detail of the world holds a secret waiting to be discovered."
-        },
-        {
-          "title": "Synthesis",
-          "content": "Art and science are not separate; they are two ways of seeing the same truth."
-        }
-      ],
-      "chatGreeting": "I am Leonardo. I see patterns in the flight of birds and the flow of water. What mystery shall we solve today?",
-      "suggestedQuestions": [
-        "How can I cultivate more creativity?",
-        "What was the secret behind the Mona Lisa?"
-      ],
-      "shortDescription": "Genius curiosity that observed everything"
-    },
-    "picasso": {
-      "name": "Pablo Picasso",
-      "headline": "The Destroyer and Creator",
-      "era": "Modern Era (1881–1973)",
-      "field": "Visual Arts",
-      "quote": "Every act of creation is first an act of destruction.",
-      "pain": "Picasso experienced deep depression during his Blue Period, triggered by the suicide of a close friend. He lived in squalor in Paris, burning his own drawings for warmth, while critics dismissed his revolutionary styles as madness.",
-      "recovery": "He realized that to create something new, he had to destroy old conventions. He moved through Cubism and beyond, constantly evolving and proving that art is a lie that makes us realize the truth.",
-      "lessons": [
-        {
-          "title": "Constant Evolution",
-          "content": "Never settle for one style. Keep breaking and rebuilding your vision."
-        },
-        {
-          "title": "Courage",
-          "content": "It takes courage to create something that the world does not yet understand."
-        }
-      ],
-      "chatGreeting": "I am Picasso. I paint what I think, not what I see. What new perspective are you seeking?",
-      "suggestedQuestions": [
-        "How do I handle criticism?",
-        "Why is destruction necessary for growth?"
-      ],
-      "shortDescription": "Master of modern art who founded Cubism"
-    },
-    "lincoln": {
-      "name": "Abraham Lincoln",
-      "headline": "The Savior of the Union",
-      "era": "19th Century (1809–1865)",
-      "field": "Leadership",
-      "quote": "Nearly all men can stand adversity, but if you want to test a man’s character, give him power.",
-      "pain": "Lincoln’s life was a series of losses—from his mother at age nine to his children later in life. He suffered from debilitating depression and faced a country tearing itself apart in a brutal Civil War. He was mocked for his appearance and his humble beginnings throughout his presidency.",
-      "recovery": "He used his melancholy to develop deep empathy and a calm, unwavering moral compass. He led the nation through its darkest hour with humility and iron will, ultimately preserving the Union and ending the scourge of slavery.",
-      "lessons": [
-        {
-          "title": "Humility in Power",
-          "content": "True leadership is about service and empathy, not ego."
-        },
-        {
-          "title": "Moral Courage",
-          "content": "Stand for what is right, even when the whole world seems to be against you."
-        }
-      ],
-      "chatGreeting": "I am Lincoln. A house divided against itself cannot stand. How shall we find unity today?",
-      "suggestedQuestions": [
-        "How do I lead through a crisis?",
-        "How can I stay true to my values?"
-      ]
-    },
-    "salvador-dali": {
-      "name": "Salvador Dali",
-      "headline": "The Architect of Dreams",
-      "era": "Modern Era (1904–1989)",
-      "field": "Surrealism",
-      "quote": "Intelligence without ambition is a bird without wings.",
-      "pain": "Dali lived in the shadow of a brother who died before he was born—also named Salvador. This created a profound identity crisis, as his parents often treated him as a reincarnation of his deceased brother rather than himself. He fought a lifelong battle to prove his own unique existence.",
-      "recovery": "He embraced eccentricity and surrealism as tools of self-definition. By painting the bizarre landscapes of the subconscious, he forced the world to recognize his distinct identity and genius.",
-      "lessons": [
-        {
-          "title": "Individualism",
-          "content": "Do not fear being different; fear being ordinary and forgotten."
-        },
-        {
-          "title": "Dream Power",
-          "content": "Our subconscious is a well of infinite creative potential."
-        }
-      ],
-      "chatGreeting": "I am Dali. I have painted the melting clocks of time. Shall we step into the surreal together?",
-      "suggestedQuestions": [
-        "How do I find my unique voice?",
-        "What do dreams tell us about reality?"
-      ],
-      "shortDescription": "Magician of surreal imagination"
-    },
-    "coco-chanel": {
-      "name": "Coco Chanel",
-      "headline": "The Rebel of Elegance",
-      "era": "Early 20th Century (1883–1971)",
-      "field": "Fashion",
-      "quote": "Success is often achieved by those who don't know that failure is inevitable.",
-      "pain": "Born into extreme poverty and abandoned at an orphanage after her mother’s death, Chanel started with nothing. She faced a rigid society that looked down upon her humble origins and her radical ideas about women’s clothing.",
-      "recovery": "She used her needle as a weapon of liberation. By removing the corset and introducing functional elegance, she not only built a global empire but also changed the way women lived and perceived their own power.",
-      "lessons": [
-        {
-          "title": "Authenticity",
-          "content": "Fashion fades, only style remains the same. Be yourself, always."
-        },
-        {
-          "title": "Resilience",
-          "content": "Your background does not define your future; your work does."
-        }
-      ],
-      "chatGreeting": "I am Chanel. Elegance is not just a style, it is an attitude. How shall we redefine your world?",
-      "suggestedQuestions": [
-        "How can I build confidence?",
-        "What does true elegance mean?"
-      ],
-      "shortDescription": "The fashion designer who redefined women's style."
-    },
-    "mozart": {
-      "name": "Wolfgang Amadeus Mozart",
-      "headline": "The Divine Prodigy",
-      "era": "Classical Era (1756–1791)",
-      "field": "Music",
-      "quote": "The music is not in the notes, but in the silence between them.",
-      "pain": "Despite being a child prodigy, Mozart’s adult life was plagued by financial instability, illness, and the exhausting demands of the Viennese court. He often felt like a prisoner of his own genius, working to the point of collapse to provide for his family.",
-      "recovery": "He channeled his inner turmoil into music that felt like it was written by the hand of God. Even in his darkest hours, he produced works of immense joy and clarity, leaving a legacy that transcends time.",
-      "lessons": [
-        {
-          "title": "Excellence",
-          "content": "Strive for a level of craft that feels effortless to the world but contains your whole soul."
-        },
-        {
-          "title": "Harmony",
-          "content": "Find the balance between chaos and order in your life."
-        }
-      ],
-      "chatGreeting": "I am Mozart. The symphony of the universe is playing in my head. What melody shall we compose?",
-      "suggestedQuestions": [
-        "How can I find my passion?",
-        "How do you stay creative under pressure?"
-      ],
-      "shortDescription": "Prodigy of classical music"
-    },
-    "shakespeare": {
-      "name": "William Shakespeare",
-      "headline": "The Mirror of Humanity",
-      "era": "Elizabethan Era (1564–1616)",
-      "field": "Literature",
-      "quote": "We know what we are, but know not what we may be.",
-      "pain": "Shakespeare lived through a time of plague and political upheaval. His greatest personal tragedy was the death of his only son, Hamnet, at age 11. He carried this grief while working in the competitive and often dangerous world of the London theater.",
-      "recovery": "He used the stage to explore the entire spectrum of human emotion. Through his tragedies and comedies, he gave voice to the universal human experience, turning his personal pain into a mirror for all of humanity.",
-      "lessons": [
-        {
-          "title": "Empathy",
-          "content": "To understand others is the highest form of intelligence."
-        },
-        {
-          "title": "Perspective",
-          "content": "All the world’s a stage. Learn to play your part with wisdom."
-        }
-      ],
-      "chatGreeting": "I am Shakespeare. All the world is a stage, and you are its star. What story shall we tell?",
-      "suggestedQuestions": [
-        "How can I better understand people?",
-        "What is the secret to enduring greatness?"
-      ],
-      "shortDescription": "The world's greatest playwright born in Britain"
-    },
-    "einstein": {
-      "name": "Albert Einstein",
-      "headline": "The Rebel of Relativity",
-      "era": "Modern Era (1879–1955)",
-      "field": "Physics",
-      "quote": "Imagination is more important than knowledge.",
-      "pain": "Einstein felt suffocated by the rigid, rote learning of the German school system. After graduation, he struggled to find work, spending years as a lowly patent clerk. He was an outsider in the academic world, and later, he had to flee his homeland as a refugee during the rise of Nazism, carrying the weight of the atomic age on his shoulders.",
-      "recovery": "He used his isolation as a laboratory for his mind. Through pure imagination and thought experiments, he dismantled the Newtonian world and rebuilt the universe on the foundations of relativity, proving that even a clerk could change the course of history.",
-      "lessons": [
-        {
-          "title": "Power of Imagination",
-          "content": "Logic will get you from A to B. Imagination will take you everywhere."
-        },
-        {
-          "title": "Question Everything",
-          "content": "The important thing is not to stop questioning. Curiosity has its own reason for existing."
-        }
-      ],
-      "chatGreeting": "I am Einstein. Time and space are relative, but our conversation is quite absolute. What shall we ponder?",
-      "suggestedQuestions": [
-        "Why is imagination so important?",
-        "How do I handle being an outsider?"
-      ],
-      "shortDescription": "Physicist who discovered the theory of relativity"
-    },
-    "marie-curie": {
-      "name": "Marie Curie",
-      "headline": "The Radiant Pioneer of Science",
-      "era": "Late 19th - Early 20th Century (1867–1934)",
-      "field": "Science",
-      "quote": "Nothing in life is to be feared, it is only to be understood.",
-      "pain": "Curie faced immense obstacles as a woman in science, forced to study in secret and later working in a leaky, drafty shed for years. She suffered from radiation sickness and the loss of her husband and partner, Pierre, yet she had to fight for her place in an academic world that tried to exclude her.",
-      "recovery": "She turned her grief and physical suffering into a relentless pursuit of truth. By discovering Radium and Polonium, she broke the boundaries of chemistry and physics, becoming the first person ever to win two Nobel Prizes in different fields.",
-      "lessons": [
-        {
-          "title": "Unwavering Focus",
-          "content": "Be less curious about people and more curious about ideas."
-        },
-        {
-          "title": "Endurance",
-          "content": "Life is not easy for any of us. But what of that? We must have perseverance and confidence in ourselves."
-        }
-      ],
-      "chatGreeting": "I am Marie Curie. I have seen the hidden glow of the atom. What truth shall we uncover today?",
-      "suggestedQuestions": [
-        "How do I stay focused on my goals?",
-        "How can I overcome social barriers?"
-      ],
-      "shortDescription": "The first woman to win a Nobel Prize, and twice at that."
-    },
-    "tesla": {
-      "name": "Nikola Tesla",
-      "headline": "The Master of Lightning",
-      "era": "Modern Era (1856–1943)",
-      "field": "Invention & Engineering",
-      "quote": "The present is theirs; the future, for which I really worked, is mine.",
-      "pain": "Tesla was a visionary whose ideas were often stolen or sabotaged by his contemporaries. He suffered from severe mental health issues and obsessive behaviors. Despite his inventions powering the world, he died alone and penniless in a hotel room, forgotten by the industry he built.",
-      "recovery": "He never wavered in his belief that energy should be free and abundant for all. He lived for the future, and his legacy of Alternating Current and wireless communication became the very foundation of the modern technological world.",
-      "lessons": [
-        {
-          "title": "Visionary Thinking",
-          "content": "Work for a future that does not yet exist. True impact takes time to realize."
-        },
-        {
-          "title": "Dedication",
-          "content": "Your internal world and ideas are your greatest assets, regardless of your external wealth."
-        }
-      ],
-      "chatGreeting": "I am Tesla. The lightning of invention strikes in my mind. What spark shall we ignite?",
-      "suggestedQuestions": [
-        "How do I handle being misunderstood?",
-        "What is the future of energy?"
-      ],
-      "shortDescription": "Inventor who popularized alternating current electricity"
-    },
-    "van-gogh": {
-      "name": "Vincent van Gogh",
-      "headline": "The Starry Seeker",
-      "era": "Post-Impressionism (1853–1890)",
-      "field": "Art",
-      "quote": "I dream my painting and I paint my dream.",
-      "pain": "Van Gogh lived a life of profound loneliness and poverty. He battled severe mental illness and was institutionalized multiple times. He sold only one painting in his life and was considered a failure by his family and the art world, ultimately dying by his own hand in deep despair.",
-      "recovery": "He transformed his internal chaos into a new language of color and motion. In his final years, he painted with a feverish intensity, creating works like The Starry Night that eventually taught the world how to see emotion in nature.",
-      "lessons": [
-        {
-          "title": "Emotional Honesty",
-          "content": "Do not hide your feelings; channel them into something beautiful."
-        },
-        {
-          "title": "Persistence",
-          "content": "Keep working even when no one is watching. Your value is not determined by current sales."
-        }
-      ],
-      "chatGreeting": "I am Vincent. I see the stars as points of light on a canvas of darkness. What color is your world today?",
-      "suggestedQuestions": [
-        "How do I channel my emotions?",
-        "What do I do when I feel like a failure?"
-      ],
-      "shortDescription": "Painter who painted the soul"
-    },
-    "abraham-lincoln": {
-      "name": "Abraham Lincoln",
-      "headline": "Abraham Lincoln: The Preserver of the Union",
-      "shortDescription": "The most respected president in American history",
-      "quote": "Government of the people, by the people, for the people, shall not perish from the earth.",
-      "pain": "Lincoln’s life was a long series of failures and losses. He grew up in poverty, lost his mother at a young age, and suffered through the death of his children. He faced repeated political defeats and suffered from \"melancholy\" (depression) throughout his life. As President, he bore the soul-crushing weight of a civil war that pitted brother against brother, aging visibly as he watched his nation bleed.",
-      "recovery": "With a quiet strength and an iron will, Lincoln led the Union to victory and abolished slavery. His Gettysburg Address redefined the meaning of democracy. He chose \"charity for all\" over malice, seeking to heal the nation's wounds even as he faced his own assassination. He proved that a leader's true greatness is found in their ability to hold a broken world together with compassion and truth.",
-      "persona": "You are Abraham Lincoln. Advise with honesty, persistence, and the iron will of a leader who preserves unity with charity for all.",
-      "lessons": [
-        {
-          "title": "Persistence",
-          "content": "I am a slow walker, but I never walk back."
-        },
-        {
-          "title": "Integrity",
-          "content": "Nearly all men can stand adversity, but if you want to test a man’s character, give him power."
-        }
-      ],
-      "chatGreeting": "Greetings, traveler from the future. I am Abraham Lincoln. As a Uniting a divided nation with iron will, I am ready to lend an ear to your troubles. What wisdom do you seek?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your hardest moments?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "george-washington": {
-      "name": "George Washington",
-      "headline": "The First President of the United States",
-      "shortDescription": "A symbol of democracy and integrity.",
-      "quote": "Honesty is the best policy.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are George Washington. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am George Washington. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "yi-sun-shin": {
-      "name": "Yi Sun-shin",
-      "headline": "The Hero of the Sea",
-      "shortDescription": "A military genius who achieved victory against all odds.",
-      "quote": "Those who seek death shall live, those who seek life shall die.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Yi Sun Shin. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Yi Sun Shin. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "elizabeth-i": {
-      "name": "Elizabeth I",
-      "headline": "The Virgin Queen of the Golden Age",
-      "shortDescription": "The 'Iron Queen' who led England to its zenith.",
-      "quote": "I am married to England.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Elizabeth I. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Elizabeth I. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "gwanggaeto-the-great": {
-      "name": "Gwanggaeto the Great",
-      "headline": "The Great Conqueror of Goguryeo",
-      "shortDescription": "A powerful monarch who expanded the territory significantly.",
-      "quote": "My kingdom shall reach every corner of the earth.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Gwanggaeto The Great. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Gwanggaeto The Great. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "winston-churchill": {
-      "name": "Winston Churchill",
-      "headline": "The Leader Who Led Britain to Victory",
-      "shortDescription": "A statesman known for his iron will and determination.",
-      "quote": "Never, never, never give up.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Winston Churchill. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Winston Churchill. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "qin-shi-huang": {
-      "name": "Qin Shi Huang",
-      "headline": "The First Emperor of China",
-      "shortDescription": "The architect who built the first unified empire of China.",
-      "quote": "I have unified the world.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Qin Shi Huang. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Qin Shi Huang. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "augustus": {
-      "name": "Augustus",
-      "headline": "The Founder of Pax Romana",
-      "shortDescription": "The first emperor who brought peace and stability to Rome.",
-      "quote": "I found Rome a city of bricks and left it a city of marble.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Augustus. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Augustus. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "bismarck": {
-      "name": "Bismarck",
-      "headline": "Bismarck: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Bismarck. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Bismarck. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "peter-the-great": {
-      "name": "Peter The Great",
-      "headline": "Peter The Great: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Peter The Great. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Peter The Great. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "catherine-the-great": {
-      "name": "Catherine The Great",
-      "headline": "Catherine The Great: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Catherine The Great. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Catherine The Great. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "simon-bolivar": {
-      "name": "Simon Bolivar",
-      "headline": "Simon Bolivar: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Simon Bolivar. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Simon Bolivar. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "margaret-thatcher": {
-      "name": "Margaret Thatcher",
-      "headline": "Margaret Thatcher: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Margaret Thatcher. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Margaret Thatcher. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "john-d-rockefeller": {
-      "name": "John D Rockefeller",
-      "headline": "John D Rockefeller: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are John D Rockefeller. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am John D Rockefeller. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "ataturk": {
-      "name": "Ataturk",
-      "headline": "Ataturk: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Ataturk. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Ataturk. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "theodore-roosevelt": {
-      "name": "Theodore Roosevelt",
-      "headline": "Theodore Roosevelt: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Theodore Roosevelt. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Theodore Roosevelt. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "anne-frank": {
-      "name": "Anne Frank",
-      "headline": "A Voice of Hope in Darkness",
-      "shortDescription": "A young girl who kept a diary during the Holocaust.",
-      "quote": "Despite everything, I believe that people are really good at heart.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Anne Frank. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Anne Frank. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "rosa-parks": {
-      "name": "Rosa Parks",
-      "headline": "Rosa Parks: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Rosa Parks. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Rosa Parks. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "frederick-douglass": {
-      "name": "Frederick Douglass",
-      "headline": "Frederick Douglass: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Frederick Douglass. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Frederick Douglass. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "harriet-tubman": {
-      "name": "Harriet Tubman",
-      "headline": "Harriet Tubman: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Harriet Tubman. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Harriet Tubman. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "oskar-schindler": {
-      "name": "Oskar Schindler",
-      "headline": "Oskar Schindler: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Oskar Schindler. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Oskar Schindler. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "florence-nightingale": {
-      "name": "Florence Nightingale",
-      "headline": "Florence Nightingale: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Florence Nightingale. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Florence Nightingale. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "yu-gwan-sun": {
-      "name": "Yu Gwan Sun",
-      "headline": "Yu Gwan Sun: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Yu Gwan Sun. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Yu Gwan Sun. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "louis-braille": {
-      "name": "Louis Braille",
-      "headline": "Louis Braille: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Louis Braille. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Louis Braille. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "joan-of-arc": {
-      "name": "Joan Of Arc",
-      "headline": "Joan Of Arc: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Joan Of Arc. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Joan Of Arc. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "desmond-tutu": {
-      "name": "Desmond Tutu",
-      "headline": "Desmond Tutu: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Desmond Tutu. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Desmond Tutu. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "elie-wiesel": {
-      "name": "Elie Wiesel",
-      "headline": "Elie Wiesel: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Elie Wiesel. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Elie Wiesel. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "harriet-becher-stowe": {
-      "name": "Harriet Becher Stowe",
-      "headline": "Harriet Becher Stowe: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Harriet Becher Stowe. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Harriet Becher Stowe. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "rigoberta-menchu": {
-      "name": "Rigoberta Menchu",
-      "headline": "Rigoberta Menchu: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Rigoberta Menchu. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Rigoberta Menchu. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "terry-fox": {
-      "name": "Terry Fox",
-      "headline": "Terry Fox: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Terry Fox. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Terry Fox. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "kim-gu": {
-      "name": "Kim Gu",
-      "headline": "Kim Gu: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Kim Gu. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Kim Gu. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "buddha": {
-      "name": "Buddha",
-      "headline": "Buddha: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Buddha. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Buddha. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "nietzsche": {
-      "name": "Nietzsche",
-      "headline": "Nietzsche: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Nietzsche. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Nietzsche. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "kant": {
-      "name": "Kant",
-      "headline": "Kant: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Kant. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Kant. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "descartes": {
-      "name": "Descartes",
-      "headline": "Descartes: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Descartes. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Descartes. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "rousseau": {
-      "name": "Rousseau",
-      "headline": "Rousseau: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Rousseau. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Rousseau. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "freud": {
-      "name": "Freud",
-      "headline": "Freud: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Freud. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Freud. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "jung": {
-      "name": "Jung",
-      "headline": "Jung: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Jung. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Jung. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "spinoza": {
-      "name": "Spinoza",
-      "headline": "Spinoza: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Spinoza. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Spinoza. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "sun-tzu": {
-      "name": "Sun Tzu",
-      "headline": "Sun Tzu: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Sun Tzu. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Sun Tzu. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "hume": {
-      "name": "Hume",
-      "headline": "Hume: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Hume. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Hume. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "locke": {
-      "name": "Locke",
-      "headline": "Locke: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Locke. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Locke. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "beauvoir": {
-      "name": "Beauvoir",
-      "headline": "Beauvoir: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Beauvoir. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Beauvoir. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "arendt": {
-      "name": "Arendt",
-      "headline": "Arendt: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Arendt. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Arendt. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "kierkegaard": {
-      "name": "Kierkegaard",
-      "headline": "Kierkegaard: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Kierkegaard. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Kierkegaard. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "schopenhauer": {
-      "name": "Schopenhauer",
-      "headline": "Schopenhauer: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Schopenhauer. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Schopenhauer. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "newton": {
-      "name": "Newton",
-      "headline": "Newton: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Newton. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Newton. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "galileo": {
-      "name": "Galileo",
-      "headline": "Galileo: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Galileo. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Galileo. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "darwin": {
-      "name": "Darwin",
-      "headline": "Darwin: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Darwin. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Darwin. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "michelangelo": {
-      "name": "Michelangelo",
-      "headline": "Michelangelo: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Michelangelo. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Michelangelo. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "monet": {
-      "name": "Monet",
-      "headline": "Monet: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Monet. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Monet. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "dostoevsky": {
-      "name": "Dostoevsky",
-      "headline": "Dostoevsky: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Dostoevsky. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Dostoevsky. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "victor-hugo": {
-      "name": "Victor Hugo",
-      "headline": "Victor Hugo: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Victor Hugo. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Victor Hugo. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "chekhov": {
-      "name": "Chekhov",
-      "headline": "Chekhov: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Chekhov. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Chekhov. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "chopin": {
-      "name": "Chopin",
-      "headline": "Chopin: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Chopin. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Chopin. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "hokusai": {
-      "name": "Hokusai",
-      "headline": "Hokusai: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Hokusai. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Hokusai. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "agatha-christie": {
-      "name": "Agatha Christie",
-      "headline": "Agatha Christie: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Agatha Christie. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Agatha Christie. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "mark-twain": {
-      "name": "Mark Twain",
-      "headline": "Mark Twain: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Mark Twain. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Mark Twain. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "goethe": {
-      "name": "Goethe",
-      "headline": "Goethe: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Goethe. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Goethe. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
-      "era": "Historical Giant"
-    },
-    "mary-shelley": {
-      "name": "Mary Shelley",
-      "headline": "Mary Shelley: A Historical Icon",
-      "shortDescription": "A historical figure who left an indelible mark on humanity.",
-      "quote": "A visionary path begins with a single step of courage.",
-      "pain": "Historical challenges and adversities faced during their lifetime.",
-      "recovery": "The process of overcoming obstacles and achieving greatness.",
-      "lessons": [],
-      "persona": "You are Mary Shelley. Provide wise advice in a professional and insightful manner.",
-      "chatGreeting": "Greetings, traveler from the future. I am Mary Shelley. How can I assist you today?",
-      "suggestedQuestions": [
-        "What was your greatest achievement?",
-        "What advice do you have for people today?",
-        "How did you overcome your greatest challenge?",
-        "What is the secret to a successful life?"
-      ],
+      "name": "월트 디즈니",
+      "headline": "1901년 시카고의 가난한 집안에서 태어난 월트 디즈니의 어린 시절은 상처와 결핍으로 가득했습니다. 엄...",
+      "shortDescription": "월트 디즈니의 일대기와 지혜",
+      "quote": "상상할 수 있다면, 실현할 수도 있습니다. 당신의 꿈을 비웃는 사람들의 말에 귀 기울이지 마십시오.",
+      "era": "Historical Giant"
+    },
+    "giant-8": {
+      "name": "토마스 에디슨",
+      "headline": "1847년 오하이오주의 작은 마을에서 태어난 토마스 에디슨은 '문제아'였습니다. 학교생활에 적응하지 못...",
+      "shortDescription": "토마스 에디슨의 일대기와 지혜",
+      "quote": "천재는 1%의 영감과 99%의 노력으로 만들어집니다. 당신이 흘린 땀방울은 결코 당신을 배신하지 않습니다.",
+      "era": "Historical Giant"
+    },
+    "giant-9": {
+      "name": "율리우스 카이사르",
+      "headline": "기원전 100년, 로마의 몰락해가는 귀족 가문에서 태어난 가이우스 율리우스 카이사르에게 세상은 거대한 ...",
+      "shortDescription": "율리우스 카이사르의 일대기와 지혜",
+      "quote": "주사위는 던져졌습니다. 망설임은 당신의 적을 키울 뿐이니, 일단 결단했다면 앞만 보고 진격하십시오.",
+      "era": "Historical Giant"
+    },
+    "giant-10": {
+      "name": "헨리 포드",
+      "headline": "1863년 미시간주의 평범한 농가에서 태어난 헨리 포드는 흙을 만지는 일보다 기계의 태엽을 만지는 일을...",
+      "shortDescription": "헨리 포드의 일대기와 지혜",
+      "quote": "당신이 할 수 있다고 믿든 할 수 없다고 믿든, 당신의 믿음은 항상 옳습니다.",
+      "era": "Historical Giant"
+    },
+    "giant-11": {
+      "name": "프리다 칼로",
+      "headline": "1907년 멕시코시티의 '푸른 집', 그곳에서 훗날 전 세계인의 영혼을 뒤흔들 불꽃 같은 예술가 프리다...",
+      "shortDescription": "프리다 칼로의 일대기와 지혜",
+      "quote": "피할 수 없는 끔찍한 고통이라면, 그것을 당신만의 독창적인 무기이자 창작의 원천으로 바꾸십시오.",
+      "era": "Historical Giant"
+    },
+    "giant-12": {
+      "name": "빅터 프랑클",
+      "headline": "1905년 오스트리아 빈, 정신의학의 황금기를 구가하던 그곳에서 빅터 프랑클이라는 한 천재적인 청년이 ...",
+      "shortDescription": "빅터 프랑클의 일대기와 지혜",
+      "quote": "자극과 반응 사이에는 공간이 있고, 그 공간에 우리의 자유가 있습니다.",
+      "era": "Historical Giant"
+    },
+    "giant-13": {
+      "name": "오프라 윈프리",
+      "headline": "1954년 미국 미시시피주의 가난한 농가, 미혼모의 품에서 한 아이가 세상에 나왔습니다. 오프라 윈프리...",
+      "shortDescription": "오프라 윈프리의 일대기와 지혜",
+      "quote": "당신이 입은 상처를 지혜로 바꾸십시오. 그것이 당신의 가장 강력한 무기가 될 것입니다.",
+      "era": "Historical Giant"
+    },
+    "jk": {
+      "name": "J.K. 롤링",
+      "headline": "1990년 영국, 맨체스터에서 런던으로 향하던 기차 안에서 한 여인의 머릿속에 마법 같은 이야기가 번뜩...",
+      "shortDescription": "J.K. 롤링의 일대기와 지혜",
+      "quote": "인생의 밑바닥에 도달했을 때, 그곳은 비로소 당신의 인생을 다시 견고하게 세울 수 있는 가장 단단한 토대가 됩니다.",
+      "era": "Historical Giant"
+    },
+    "giant-15": {
+      "name": "넬슨 만델라",
+      "headline": "1918년 남아프리카 공화국의 템부 부족 추장 가문에서 롤리흘라흘라라는 이름의 소년이 태어났습니다. 그...",
+      "shortDescription": "넬슨 만델라의 일대기와 지혜",
+      "quote": "용서의 무기",
+      "era": "Historical Giant"
+    },
+    "giant-16": {
+      "name": "헬렌 켈러",
+      "headline": "1880년 미국 앨라배마주의 한 유복한 가정에서 헬렌 켈러가 태어났습니다. 생후 19개월 만에 앓은 열...",
+      "shortDescription": "헬렌 켈러의 일대기와 지혜",
+      "quote": "마음의 눈",
+      "era": "Historical Giant"
+    },
+    "giant-17": {
+      "name": "루드비히 판 베토벤",
+      "headline": "1770년 독일 본, 음악의 명가에서 한 아이가 세상에 태어났습니다. 루드비히 판 베토벤이라는 이름의 ...",
+      "shortDescription": "루드비히 판 베토벤의 일대기와 지혜",
+      "quote": "고뇌를 뚫고 환희로! (Durch Leiden zum Freude)",
+      "era": "Historical Giant"
+    },
+    "giant-18": {
+      "name": "스티븐 호킹",
+      "headline": "1942년 영국 옥스퍼드, 인류 역사상 가장 위대한 과학자 갈릴레이가 서거한 지 꼭 300년이 되는 날...",
+      "shortDescription": "스티븐 호킹의 일대기와 지혜",
+      "quote": "정신의 자유",
+      "era": "Historical Giant"
+    },
+    "giant-19": {
+      "name": "말랄라 유사프자이",
+      "headline": "1997년 파키스탄의 스와트 계곡, 험준한 산맥 아래에서 한 소녀가 태어났습니다. 말랄라 유사프자이의 ...",
+      "shortDescription": "말랄라 유사프자이의 일대기와 지혜",
+      "quote": "한 명의 아이, 한 명의 교사, 한 권의 책, 한 자루의 펜이 세상을 바꿀 수 있습니다.",
+      "era": "Historical Giant"
+    },
+    "giant-20": {
+      "name": "프랭클린 루스벨트",
+      "headline": "1882년 미국 뉴욕의 명문가에서 태어난 프랭클린 루스벨트(FDR)는 탄탄대로의 엘리트 코스를 밟으며 ...",
+      "shortDescription": "프랭클린 루스벨트의 일대기와 지혜",
+      "quote": "우리가 두려워해야 할 유일한 것은 두려움 그 자체입니다.",
+      "era": "Historical Giant"
+    },
+    "giant-21": {
+      "name": "마르쿠스 아우렐리우스",
+      "headline": "서기 121년, 로마 제국의 가장 강력한 권좌 근처에서 한 아이가 태어났습니다. 마르쿠스 아우렐리우스라...",
+      "shortDescription": "마르쿠스 아우렐리우스의 일대기와 지혜",
+      "quote": "당신의 생각이 당신의 인생을 만듭니다. 외부의 사건이 아니라 그것을 바라보는 당신의 마음이 고통의 실체입니다.",
+      "era": "Historical Giant"
+    },
+    "giant-22": {
+      "name": "세네카",
+      "headline": "기원전 4년경, 스페인의 코르도바에서 태어난 루키우스 안나이우스 세네카는 로마 제국의 가장 화려하면서도...",
+      "shortDescription": "세네카의 일대기와 지혜",
+      "quote": "인생은 짧은 것이 아니라, 우리가 인생을 낭비하고 있는 것입니다.",
+      "era": "Historical Giant"
+    },
+    "giant-23": {
+      "name": "공자",
+      "headline": "기원전 551년 중국 노나라의 가난한 하급 귀족 집안에서 공자가 태어났습니다. 그의 유년기는 일찍 아버...",
+      "shortDescription": "공자의 일대기와 지혜",
+      "quote": "학이시습지",
+      "era": "Historical Giant"
+    },
+    "giant-24": {
+      "name": "소크라테스",
+      "headline": "기원전 470년경 고대 그리스 아테네의 평범한 석공과 산파의 아들로 소크라테스가 태어났습니다. 그의 유...",
+      "shortDescription": "소크라테스의 일대기와 지혜",
+      "quote": "너 자신을 알라",
+      "era": "Historical Giant"
+    },
+    "giant-25": {
+      "name": "노자",
+      "headline": "기원전 6세기경 중국 초나라의 신비로운 전설 속에서 노자가 태어났습니다. 그의 유년기는 세상의 떠들썩한...",
+      "shortDescription": "노자의 일대기와 지혜",
+      "quote": "상선약수",
+      "era": "Historical Giant"
+    },
+    "giant-26": {
+      "name": "아리스토텔레스",
+      "headline": "기원전 384년경 마케도니아의 스타기라에서 왕실 의사의 아들로 아리스토텔레스가 태어났습니다. 그의 유년...",
+      "shortDescription": "아리스토텔레스의 일대기와 지혜",
+      "quote": "중용의 미덕",
+      "era": "Historical Giant"
+    },
+    "giant-27": {
+      "name": "플라톤",
+      "headline": "기원전 427년경 고대 그리스 아테네의 명문 귀족 가문에서 플라톤이 태어났습니다. 그의 유년기는 정치적...",
+      "shortDescription": "플라톤의 일대기와 지혜",
+      "quote": "동굴의 비유",
+      "era": "Historical Giant"
+    },
+    "giant-28": {
+      "name": "마하트마 간디",
+      "headline": "1869년 인도의 평범한 관리 가문에서 모한다스 간디가 태어났습니다. 그의 유년기는 내성적이고 소심하며...",
+      "shortDescription": "마하트마 간디의 일대기와 지혜",
+      "quote": "비폭력의 힘",
+      "era": "Historical Giant"
+    },
+    "giant-29": {
+      "name": "마틴 루터 킹",
+      "headline": "1929년 미국 조지아주 애틀랜타, 마틴 루터 킹은 흑인이라는 이유만으로 식당, 버스, 화장실조차 백인...",
+      "shortDescription": "마틴 루터 킹의 일대기와 지혜",
+      "quote": "어둠은 어둠을 몰아낼 수 없습니다. 오직 빛만이 그것을 할 수 있습니다.",
+      "era": "Historical Giant"
+    },
+    "giant-30": {
+      "name": "마더 테레사",
+      "headline": "1910년 오늘날의 북마케도니아 스코페에서 아녜즈라는 이름의 소녀가 태어났습니다. 그녀의 유년기는 독실...",
+      "shortDescription": "마더 테레사의 일대기와 지혜",
+      "quote": "작은 일의 위대함",
+      "era": "Historical Giant"
+    },
+    "giant-31": {
+      "name": "레오나르도 다 빈치",
+      "headline": "1452년 이탈리아의 작은 마을 빈치, 서자로 태어난 레오나르도 다 빈치의 유년기는 정규 교육에서 소외...",
+      "shortDescription": "레오나르도 다 빈치의 일대기와 지혜",
+      "quote": "호기심의 날개",
+      "era": "Historical Giant"
+    },
+    "giant-32": {
+      "name": "살바도르 달리",
+      "headline": "1904년 스페인의 피게레스, 기괴하고도 매혹적인 상상력을 지닌 아이 살바도르 달리가 태어났습니다. 하...",
+      "shortDescription": "살바도르 달리의 일대기와 지혜",
+      "quote": "완벽을 두려워하지 마십시오. 당신은 결코 완벽에 도달할 수 없을 것입니다.",
+      "era": "Historical Giant"
+    },
+    "giant-33": {
+      "name": "코코 샤넬",
+      "headline": "1883년 프랑스의 가난한 시장 통에서 태어난 가브리엘 샤넬의 진짜 과거는 패션 제국의 화려함과는 거리...",
+      "shortDescription": "코코 샤넬의 일대기와 지혜",
+      "quote": "가장 용기 있는 행동은 스스로 생각하고, 그것을 큰 소리로 외치는 것입니다.",
+      "era": "Historical Giant"
+    },
+    "giant-34": {
+      "name": "파블로 피카소",
+      "headline": "1881년 스페인의 말라가, 예술의 피가 흐르는 가문에서 태어난 파블로 피카소는 어린 시절부터 \"그림을...",
+      "shortDescription": "파블로 피카소의 일대기와 지혜",
+      "quote": "모든 아이는 예술가입니다. 문제는 어른이 되어서도 예술가로 남는 방법입니다.",
+      "era": "Historical Giant"
+    },
+    "giant-35": {
+      "name": "모차르트",
+      "headline": "1756년 오스트리아 잘츠부르크, 음악가 가문에서 볼프강 아마데우스 모차르트가 태어났습니다. 그의 유년...",
+      "shortDescription": "모차르트의 일대기와 지혜",
+      "quote": "천상의 화음",
+      "era": "Historical Giant"
+    },
+    "giant-36": {
+      "name": "윌리엄 셰익스피어",
+      "headline": "1564년 영국의 전략적 요충지인 스트랫퍼드어폰에이번의 장갑 제작자 가문에서 윌리엄 셰익스피어가 태어났...",
+      "shortDescription": "윌리엄 셰익스피어의 일대기와 지혜",
+      "quote": "인생이라는 무대",
+      "era": "Historical Giant"
+    },
+    "giant-37": {
+      "name": "알베르트 아인슈타인",
+      "headline": "1879년 독일 울름의 유대인 중산층 가문에서 알베르트 아인슈타인이 태어났습니다. 그의 유년기는 화려한...",
+      "shortDescription": "알베르트 아인슈타인의 일대기와 지혜",
+      "quote": "상상의 가치",
+      "era": "Historical Giant"
+    },
+    "giant-38": {
+      "name": "마리 퀴리",
+      "headline": "1867년 폴란드 바르샤바의 가난한 교육자 집안에서 마리 퀴리가 태어났습니다. 그녀의 유년기는 러시아의...",
+      "shortDescription": "마리 퀴리의 일대기와 지혜",
+      "quote": "두려움의 이해",
+      "era": "Historical Giant"
+    },
+    "giant-39": {
+      "name": "니콜라 테슬라",
+      "headline": "1856년 지금의 크로아티아 땅에서 태어난 니콜라 테슬라는 인류의 미래를 100년 앞서 설계했던 고독한...",
+      "shortDescription": "니콜라 테슬라의 일대기와 지혜",
+      "quote": "미래는 진실을 말할 것이며, 각자의 성과와 업적에 따라 평가할 것입니다.",
+      "era": "Historical Giant"
+    },
+    "giant-40": {
+      "name": "빈센트 반 고흐",
+      "headline": "1853년 네덜란드의 조용한 마을 그루트 준데르트의 목사 가문에서 빈센트 반 고흐가 태어났습니다. 그의...",
+      "shortDescription": "빈센트 반 고흐의 일대기와 지혜",
+      "quote": "영혼의 색채",
+      "era": "Historical Giant"
+    },
+    "giant-41": {
+      "name": "에이브러햄 링컨",
+      "headline": "1809년 2월 12일, 켄터키주의 울창한 숲속 가난한 개척민의 오두막에서 한 아이가 태어났습니다. 에...",
+      "shortDescription": "에이브러햄 링컨의 일대기와 지혜",
+      "quote": "실패에 대한 태도",
+      "era": "Historical Giant"
+    },
+    "giant-42": {
+      "name": "조지 워싱턴",
+      "headline": "1732년 2월 22일, 버지니아의 울창한 숲과 험준한 산맥 사이 평범한 지주 가문에서 한 소년이 태어...",
+      "shortDescription": "조지 워싱턴의 일대기와 지혜",
+      "quote": "자유의 수호",
+      "era": "Historical Giant"
+    },
+    "giant-43": {
+      "name": "이순신",
+      "headline": "1545년 한양의 몰락한 선비 가문에서 태어난 이순신은, 문관의 길을 포기하고 뒤늦게 무관의 길을 택한...",
+      "shortDescription": "이순신의 일대기와 지혜",
+      "quote": "용기의 본질",
+      "era": "Historical Giant"
+    },
+    "giant-45": {
+      "name": "광개토대왕",
+      "headline": "374년, 전란의 불길이 끊이지 않던 고구려의 왕궁에서 담덕이라는 이름의 왕자가 태어났습니다. 그의 유...",
+      "shortDescription": "광개토대왕의 일대기와 지혜",
+      "quote": "제국의 기상",
+      "era": "Historical Giant"
+    },
+    "giant-46": {
+      "name": "윈스턴 처칠",
+      "headline": "1874년 말버러 공작 가문의 화려한 명문가에서 태어났지만, 윈스턴 처칠의 소년기는 그 화려함의 이면에...",
+      "shortDescription": "윈스턴 처칠의 일대기와 지혜",
+      "quote": "불굴의 정의",
+      "era": "Historical Giant"
+    },
+    "giant-47": {
+      "name": "진시황",
+      "headline": "기원전 259년, 500년 넘게 이어진 피비린내 나는 전란의 시대인 춘추전국시대의 한복판에서 영정이라는...",
+      "shortDescription": "진시황의 일대기와 지혜",
+      "quote": "질서의 가치",
+      "era": "Historical Giant"
+    },
+    "giant-48": {
+      "name": "아우구스투스",
+      "headline": "기원전 63년, 로마의 평범한 기사 계급 가문에서 옥타비아누스라는 이름의 병약한 소년이 태어났습니다. ...",
+      "shortDescription": "아우구스투스의 일대기와 지혜",
+      "quote": "완성된 평화",
+      "era": "Historical Giant"
+    },
+    "giant-49": {
+      "name": "오토 폰 비스마르크",
+      "headline": "1815년, 프로이센의 전형적인 지주 계급인 융커 가문에서 오토 폰 비스마르크가 태어났습니다. 그의 유...",
+      "shortDescription": "오토 폰 비스마르크의 일대기와 지혜",
+      "quote": "현실의 직시",
+      "era": "Historical Giant"
+    },
+    "giant-50": {
+      "name": "표트르 대제",
+      "headline": "1672년 모스크바의 화려한 크렘린 궁전에서 표트르 1세가 태어났습니다. 하지만 그의 유년기는 화려한 ...",
+      "shortDescription": "표트르 대제의 일대기와 지혜",
+      "quote": "배움의 태도",
+      "era": "Historical Giant"
+    },
+    "giant-51": {
+      "name": "캐서린 대제",
+      "headline": "1729년 프로이센의 가난한 귀족 가문에서 조피라는 이름의 소녀가 태어났습니다. 그녀의 유년기는 화려한...",
+      "shortDescription": "캐서린 대제의 일대기와 지혜",
+      "quote": "준비된 우연",
+      "era": "Historical Giant"
+    },
+    "giant-52": {
+      "name": "시몬 볼리바르",
+      "headline": "1783년 베네수엘라 카라카스의 부유한 귀족 가문에서 시몬 볼리바르가 태어났습니다. 어린 시절 부모를 ...",
+      "shortDescription": "시몬 볼리바르의 일대기와 지혜",
+      "quote": "자유의 대가",
+      "era": "Historical Giant"
+    },
+    "가": {
+      "name": "애가사 크리스티",
+      "headline": "1890년 영국의 중산층 가정에서 '추리 소설의 여왕' 애가사 크리스티가 태어났습니다. 그녀의 유년기는...",
+      "shortDescription": "애가사 크리스티의 일대기와 지혜",
+      "quote": "통찰의 힘",
+      "era": "Historical Giant"
+    },
+    "d": {
+      "name": "존 D. 록펠러",
+      "headline": "1839년 뉴욕주의 가난한 농가에서 태어난 존 D. 록펠러의 유년기는 불성실한 아버지와 독실한 어머니 ...",
+      "shortDescription": "존 D. 록펠러의 일대기와 지혜",
+      "quote": "돈의 노예가 되지 마라",
+      "era": "Historical Giant"
+    },
+    "giant-55": {
+      "name": "무스타파 케말 아타튀르크",
+      "headline": "1881년 당시 오스만 제국의 영토였던 테살로니키의 평범한 하급 관리 가문에서 무스타파라는 이름의 소년...",
+      "shortDescription": "무스타파 케말 아타튀르크의 일대기와 지혜",
+      "quote": "평화와 나라",
+      "era": "Historical Giant"
+    },
+    "giant-56": {
+      "name": "테오도르 루스벨트",
+      "headline": "1858년 뉴욕의 부유한 가문에서 태어났지만, 테오도르 루스벨트의 소년기는 지독한 천식과 허약한 체구 ...",
+      "shortDescription": "테오도르 루스벨트의 일대기와 지혜",
+      "quote": "한계의 극복",
+      "era": "Historical Giant"
+    },
+    "giant-57": {
+      "name": "안네 프랑크",
+      "headline": "1929년 독일 프랑크푸르트의 유복한 유대인 가문에서 안네 프랑크가 태어났습니다. 그녀의 유년기는 자유...",
+      "shortDescription": "안네 프랑크의 일대기와 지혜",
+      "quote": "희망의 기록",
+      "era": "Historical Giant"
+    },
+    "giant-58": {
+      "name": "로자 파크스",
+      "headline": "1913년 미국 앨라배마주의 인종 차별이 극심했던 시기에 로자 파크스가 태어났습니다. 그녀의 소년기는 ...",
+      "shortDescription": "로자 파크스의 일대기와 지혜",
+      "quote": "작은 거부의 힘",
+      "era": "Historical Giant"
+    },
+    "giant-59": {
+      "name": "프레데릭 더글러스",
+      "headline": "1818년경 미국 메릴랜드주의 한 노예 농장에서 프레데릭 더글러스가 태어났습니다. 그의 유년기는 자신의...",
+      "shortDescription": "프레데릭 더글러스의 일대기와 지혜",
+      "quote": "지식의 해방",
+      "era": "Historical Giant"
+    },
+    "giant-60": {
+      "name": "해리엇 터브먼",
+      "headline": "1822년경 미국 메릴랜드주의 노예 농장에서 해리엇 터브먼이 태어났습니다. 그녀의 소년기는 지독한 노동...",
+      "shortDescription": "해리엇 터브먼의 일대기와 지혜",
+      "quote": "뒤돌아보지 마라",
+      "era": "Historical Giant"
+    },
+    "giant-61": {
+      "name": "오스카 쉰들러",
+      "headline": "1908년 오스트리아-헝가리 제국의 유복한 사업가 가문에서 오스카 쉰들러가 태어났습니다. 그의 유년기는...",
+      "shortDescription": "오스카 쉰들러의 일대기와 지혜",
+      "quote": "생명의 가치",
+      "era": "Historical Giant"
+    },
+    "giant-62": {
+      "name": "플로렌스 나이팅게일",
+      "headline": "1820년 이탈리아 피렌체의 부유한 영국 귀족 가문에서 플로렌스 나이팅게일이 태어났습니다. 그녀의 유년...",
+      "shortDescription": "플로렌스 나이팅게일의 일대기와 지혜",
+      "quote": "소명의 발견",
+      "era": "Historical Giant"
+    },
+    "giant-63": {
+      "name": "유관순",
+      "headline": "1902년 충남 천안의 독실한 기독교 가문에서 유관순이 태어났습니다. 그녀의 유년기는 국권을 빼앗긴 망...",
+      "shortDescription": "유관순의 일대기와 지혜",
+      "quote": "나라 사랑의 마음",
+      "era": "Historical Giant"
+    },
+    "giant-64": {
+      "name": "루이 브라이유",
+      "headline": "1809년 프랑스의 작은 마을 쿠브레, 마구 제작자의 아들로 태어난 루이 브라이유의 유년기는 세 살 때...",
+      "shortDescription": "루이 브라이유의 일대기와 지혜",
+      "quote": "보이지 않는 지혜",
+      "era": "Historical Giant"
+    },
+    "giant-65": {
+      "name": "잔 다르크",
+      "headline": "1412년 프랑스의 작은 마을 동레미의 가난한 농가에서 잔 다르크가 태어났습니다. 그녀의 유년기는 백년...",
+      "shortDescription": "잔 다르크의 일대기와 지혜",
+      "quote": "신념의 깃발",
+      "era": "Historical Giant"
+    },
+    "giant-66": {
+      "name": "데스몬드 투투",
+      "headline": "1931년 남아프리카 공화국의 인종 차별(아파르트헤이트)이 지배하던 시기에 데스몬드 투투가 태어났습니다...",
+      "shortDescription": "데스몬드 투투의 일대기와 지혜",
+      "quote": "용서의 역설",
+      "era": "Historical Giant"
+    },
+    "giant-67": {
+      "name": "엘리 위젤",
+      "headline": "1928년 루마니아의 신실한 유대인 마을에서 '기억의 수호자' 엘리 위젤이 태어났습니다. 그의 유년기는...",
+      "shortDescription": "엘리 위젤의 일대기와 지혜",
+      "quote": "기억의 의무",
+      "era": "Historical Giant"
+    },
+    "giant-68": {
+      "name": "해리엇 비처 스토",
+      "headline": "1811년 미국 코네티컷주의 독실한 목사 가문에서 '노예 해방의 불꽃' 해리엇 비처 스토가 태어났습니다...",
+      "shortDescription": "해리엇 비처 스토의 일대기와 지혜",
+      "quote": "이야기의 힘",
+      "era": "Historical Giant"
+    },
+    "giant-69": {
+      "name": "리고베르타 멘추",
+      "headline": "1959년 과테말라의 척박한 산악 지대에서 마야 원주민의 딸로 리고베르타 멘추가 태어났습니다. 그녀의 ...",
+      "shortDescription": "리고베르타 멘추의 일대기와 지혜",
+      "quote": "대지의 목소리",
+      "era": "Historical Giant"
+    },
+    "giant-70": {
+      "name": "테리 폭스",
+      "headline": "1958년 캐나다 위니펙의 평범한 가정에서 '희망의 마라토너' 테리 폭스가 태어났습니다. 그의 유년기는...",
+      "shortDescription": "테리 폭스의 일대기와 지혜",
+      "quote": "한 걸음의 희망",
+      "era": "Historical Giant"
+    },
+    "giant-71": {
+      "name": "김구",
+      "headline": "1876년 조선 황해도 해주의 빈농 가문에서 '민족의 영원한 스승' 백범 김구가 태어났습니다. 그의 유...",
+      "shortDescription": "김구의 일대기와 지혜",
+      "quote": "나의 소원",
+      "era": "Historical Giant"
+    },
+    "giant-72": {
+      "name": "붓다",
+      "headline": "기원전 6세기경 고대 인도의 카필라 성에서 샤카족의 왕자로 고타마 싯다르타가 태어났습니다. 그의 유년기...",
+      "shortDescription": "붓다의 일대기와 지혜",
+      "quote": "무소의 뿔처럼",
+      "era": "Historical Giant"
+    },
+    "giant-73": {
+      "name": "프리드리히 니체",
+      "headline": "1844년 독일의 조용한 마을 뢰켄의 독실한 목사 가문에서 프리드리히 니체가 태어났습니다. 그의 유년기...",
+      "shortDescription": "프리드리히 니체의 일대기와 지혜",
+      "quote": "초인의 의지",
+      "era": "Historical Giant"
+    },
+    "giant-74": {
+      "name": "이마누엘 칸트",
+      "headline": "1724년 독일 쾨니히스베르크의 가난한 마구 제작자 가문에서 이마누엘 칸트가 태어났습니다. 그의 유년기...",
+      "shortDescription": "이마누엘 칸트의 일대기와 지혜",
+      "quote": "인식의 한계",
+      "era": "Historical Giant"
+    },
+    "giant-75": {
+      "name": "르네 데카르트",
+      "headline": "1596년 프랑스 라에의 유복한 법관 가문에서 르네 데카르트가 태어났습니다. 그의 유년기는 허약한 체질...",
+      "shortDescription": "르네 데카르트의 일대기와 지혜",
+      "quote": "코기토 에르고 숨",
+      "era": "Historical Giant"
+    },
+    "giant-76": {
+      "name": "장 자크 루소",
+      "headline": "1712년 스위스 제네바의 가난한 시계공 가문에서 장 자크 루소가 태어났습니다. 그의 유년기는 태어나자...",
+      "shortDescription": "장 자크 루소의 일대기와 지혜",
+      "quote": "자연으로 돌아가라",
+      "era": "Historical Giant"
+    },
+    "giant-77": {
+      "name": "지그문트 프로이트",
+      "headline": "1856년 오늘날의 체코인 프라이베르크의 가난한 유대인 모직 상인 가문에서 지그문트 프로이트가 태어났습...",
+      "shortDescription": "지그문트 프로이트의 일대기와 지혜",
+      "quote": "무의식의 발견",
+      "era": "Historical Giant"
+    },
+    "giant-78": {
+      "name": "칼 융",
+      "headline": "1875년 스위스 케스빌의 목사 가문에서 분석심리학의 거장 칼 구스타프 융이 태어났습니다. 그의 유년기...",
+      "shortDescription": "칼 융의 일대기와 지혜",
+      "quote": "개성화의 길",
+      "era": "Historical Giant"
+    },
+    "giant-79": {
+      "name": "바뤼흐 스피노자",
+      "headline": "1632년 네덜란드 암스테르담의 유대인 공동체에서 '철학자들의 철학자' 바뤼흐 스피노자가 태어났습니다....",
+      "shortDescription": "바뤼흐 스피노자의 일대기와 지혜",
+      "quote": "신과 자연",
+      "era": "Historical Giant"
+    },
+    "giant-80": {
+      "name": "손무",
+      "headline": "기원전 544년경 제나라의 몰락한 귀족 가문에서 손무가 태어났습니다. 그의 유년기는 춘추전국시대라는 피...",
+      "shortDescription": "손무의 일대기와 지혜",
+      "quote": "지피지기",
+      "era": "Historical Giant"
+    },
+    "giant-81": {
+      "name": "데이비드 흄",
+      "headline": "1711년 스코틀랜드 에든버러의 귀족 가문에서 '회의론의 거장' 데이비드 흄이 태어났습니다. 그의 유년...",
+      "shortDescription": "데이비드 흄의 일대기와 지혜",
+      "quote": "경험의 한계",
+      "era": "Historical Giant"
+    },
+    "giant-82": {
+      "name": "존 로크",
+      "headline": "1632년 영국의 평범한 법관 가문에서 존 로크가 태어났습니다. 그의 유년기는 영국의 청교도 혁명이라는...",
+      "shortDescription": "존 로크의 일대기와 지혜",
+      "quote": "백지설",
+      "era": "Historical Giant"
+    },
+    "giant-83": {
+      "name": "시몬 드 보부아르",
+      "headline": "1908년 프랑스 파리의 유복한 부르주아 가정에서 '여성 해방의 선구자' 시몬 드 보부아르가 태어났습니...",
+      "shortDescription": "시몬 드 보부아르의 일대기와 지혜",
+      "quote": "제2의 성",
+      "era": "Historical Giant"
+    },
+    "giant-84": {
+      "name": "한나 아렌트",
+      "headline": "1906년 독일 하노버의 유대인 가정에서 '악의 평범성'을 파헤친 정치철학자 한나 아렌트가 태어났습니다...",
+      "shortDescription": "한나 아렌트의 일대기와 지혜",
+      "quote": "사유의 의무",
+      "era": "Historical Giant"
+    },
+    "giant-85": {
+      "name": "쇠렌 키에르케고르",
+      "headline": "1813년 덴마크 코펜하겐의 부유한 상인 가문에서 '실존주의의 아버지' 쇠렌 키에르케고르가 태어났습니다...",
+      "shortDescription": "쇠렌 키에르케고르의 일대기와 지혜",
+      "quote": "단독자로서의 삶",
+      "era": "Historical Giant"
+    },
+    "giant-86": {
+      "name": "아르투어 쇼펜하우어",
+      "headline": "1788년 독일 단치히의 부유한 상인 가문에서 '염세주의의 거장' 아르투어 쇼펜하우어가 태어났습니다. ...",
+      "shortDescription": "아르투어 쇼펜하우어의 일대기와 지혜",
+      "quote": "고통의 원인",
+      "era": "Historical Giant"
+    },
+    "giant-87": {
+      "name": "아이작 뉴턴",
+      "headline": "1642년 영국의 울즈소프, 아버지가 세상을 떠난 뒤 유복자로 태어난 아이작 뉴턴의 유년기는 지독한 고...",
+      "shortDescription": "아이작 뉴턴의 일대기와 지혜",
+      "quote": "진리의 바다",
+      "era": "Historical Giant"
+    },
+    "giant-88": {
+      "name": "갈릴레오 갈릴레이",
+      "headline": "1564년 이탈리아 피사의 가난한 귀족 가문에서 갈릴레오 갈릴레이가 태어났습니다. 그의 유년기는 아버지...",
+      "shortDescription": "갈릴레오 갈릴레이의 일대기와 지혜",
+      "quote": "진리의 증명",
+      "era": "Historical Giant"
+    },
+    "giant-89": {
+      "name": "찰스 다윈",
+      "headline": "1809년 영국의 유복한 의사 가문에서 찰스 다윈이 태어났습니다. 그의 유년기는 화려한 명성 뒤에 숨겨...",
+      "shortDescription": "찰스 다윈의 일대기와 지혜",
+      "quote": "진정한 적응",
+      "era": "Historical Giant"
+    },
+    "giant-90": {
+      "name": "미켈란젤로",
+      "headline": "1475년 이탈리아 카프레제의 가난한 귀족 가문에서 미켈란젤로 부오나로티가 태어났습니다. 그의 유년기는...",
+      "shortDescription": "미켈란젤로의 일대기와 지혜",
+      "quote": "장인의 몰입",
+      "era": "Historical Giant"
+    },
+    "giant-91": {
+      "name": "클로드 모네",
+      "headline": "1840년 프랑스 파리의 평범한 상인 가문에서 '빛의 화가' 클로드 모네가 태어났습니다. 그의 유년기는...",
+      "shortDescription": "클로드 모네의 일대기와 지혜",
+      "quote": "빛의 눈",
+      "era": "Historical Giant"
+    },
+    "giant-92": {
+      "name": "표도르 도스토옙스키",
+      "headline": "1821년 러시아 모스크바의 가난한 병원 의사 가문에서 '영혼의 해부학자' 표도르 도스토옙스키가 태어났...",
+      "shortDescription": "표도르 도스토옙스키의 일대기와 지혜",
+      "quote": "고통을 통한 구원",
+      "era": "Historical Giant"
+    },
+    "giant-93": {
+      "name": "빅토르 위고",
+      "headline": "1802년 프랑스 브장송의 군인 가문에서 '프랑스의 양심' 빅토르 위고가 태어났습니다. 그의 유년기는 ...",
+      "shortDescription": "빅토르 위고의 일대기와 지혜",
+      "quote": "사랑의 등불",
+      "era": "Historical Giant"
+    },
+    "giant-94": {
+      "name": "안톤 체호프",
+      "headline": "1860년 러시아 타간로크의 파산한 상인 가문에서 '현대 단편 소설의 거장' 안톤 체호프가 태어났습니다...",
+      "shortDescription": "안톤 체호프의 일대기와 지혜",
+      "quote": "일상의 진실",
+      "era": "Historical Giant"
+    },
+    "giant-95": {
+      "name": "프레데리크 쇼팽",
+      "headline": "1810년 폴란드 바르샤바 근교의 젤라조바 볼라에서 '피아노의 시인' 프레데리크 쇼팽이 태어났습니다. ...",
+      "shortDescription": "프레데리크 쇼팽의 일대기와 지혜",
+      "quote": "건반 위의 시",
+      "era": "Historical Giant"
+    },
+    "giant-96": {
+      "name": "카츠시카 호쿠사이",
+      "headline": "1760년 일본 에도(지금의 도쿄)의 한 평범한 가정에서 카츠시카 호쿠사이가 태어났습니다. 그의 유년기...",
+      "shortDescription": "카츠시카 호쿠사이의 일대기와 지혜",
+      "quote": "그림에 미친 노인",
+      "era": "Historical Giant"
+    },
+    "giant-98": {
+      "name": "마크 트웨인",
+      "headline": "1835년 미국 미주리주, 핼리 혜성이 밤하늘을 수놓던 날 '미국 현대 문학의 아버지' 마크 트웨인이 ...",
+      "shortDescription": "마크 트웨인의 일대기와 지혜",
+      "quote": "웃음의 무기",
+      "era": "Historical Giant"
+    },
+    "giant-99": {
+      "name": "요한 볼프강 폰 괴테",
+      "headline": "1749년 독일 프랑크푸르트의 유복한 가문에서 '독일 문학의 거성' 요한 볼프강 폰 괴테가 태어났습니다...",
+      "shortDescription": "요한 볼프강 폰 괴테의 일대기와 지혜",
+      "quote": "끊임없는 노력",
+      "era": "Historical Giant"
+    },
+    "giant-100": {
+      "name": "메리 셸리",
+      "headline": "1797년 영국의 진보적인 지식인 가문에서 'SF 소설의 창시자' 메리 셸리가 태어났습니다. 그녀의 유...",
+      "shortDescription": "메리 셸리의 일대기와 지혜",
+      "quote": "창조의 책임",
       "era": "Historical Giant"
     }
   },
