@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display } from "next/font/google";
+import Script from "next/script";
 import "../globals.css";
 import Footer from "@/components/footer";
 import { NextIntlClientProvider } from 'next-intl';
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
     title: 'Shoulders of Giants | AI Historical Mentors',
     description: 'A mystical journey through history. Converse with the greatest minds who shaped our world.',
     type: 'website',
+  },
+  other: {
+    "google-adsense-account": "ca-pub-2081809442345110",
   },
 };
 
@@ -62,6 +66,14 @@ export default async function RootLayout({
       </head>
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages}>
+          {process.env.NODE_ENV === 'production' && (
+            <Script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2081809442345110"
+              crossOrigin="anonymous"
+              strategy="afterInteractive"
+            />
+          )}
           {children}
           <Footer />
         </NextIntlClientProvider>
