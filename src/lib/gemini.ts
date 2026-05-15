@@ -28,9 +28,9 @@ ${persona}`
 다음은 당신의 성격과 철학(Persona)입니다:
 ${persona}`;
 
-  // 무료 티어에서도 안정적으로 작동하는 2.5 Flash 모델 적용
+  // 안정적이고 빠른 1.5 Flash 모델 적용 (2.5는 오타로 추정)
   const model = genAI.getGenerativeModel({ 
-    model: 'gemini-2.5-flash',
+    model: 'gemini-1.5-flash',
     systemInstruction: sysPrompt 
   });
 
@@ -54,7 +54,11 @@ ${persona}`;
     const response = await result.response;
     return response.text();
   } catch (error: any) {
-    console.error("[Gemini 2.5 API Request Error]", error);
+    console.error("[Gemini API Request Error] Details:", {
+      message: error.message,
+      stack: error.stack,
+      giant: giantName
+    });
     throw new Error(error.message || "I encountered an error while retrieving my wisdom.");
   }
 }

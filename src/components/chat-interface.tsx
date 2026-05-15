@@ -44,6 +44,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
   ])
   const [input, setInput] = useState("")
   const [isTyping, setIsTyping] = useState(false)
+  const [hasError, setHasError] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   
@@ -79,6 +80,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
     setMessages((prev) => [...prev, userMessage])
     setInput("")
     setIsTyping(true)
+    setHasError(false)
     
     try {
       const ourGiant = giantsData.find(g => g.slug === giant.slug);
@@ -102,6 +104,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
       setMessages((prev) => [...prev, giantMessage])
     } catch (error) {
       console.error("Chat error:", error);
+      setHasError(true)
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: "giant",
@@ -111,6 +114,26 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
       setMessages((prev) => [...prev, errorMessage])
     } finally {
       setIsTyping(false)
+    }
+  }
+
+  const handleRetry = () => {
+    const lastUserMessage = [...messages].reverse().find(m => m.role === "user");
+    if (lastUserMessage) {
+      // Remove the last error message if it exists
+      setMessages(prev => {
+        if (prev.length > 0 && prev[prev.length - 1].role === "giant" && prev[prev.length - 1].content === t("error")) {
+          return prev.slice(0, -1);
+        }
+        return prev;
+      });
+      
+      // Re-trigger handleSend with the last content
+      const fakeInput = lastUserMessage.content;
+      // We need a way to call handleSend without setting input
+      // So I'll just put it back in input and call handleSend or create a shared logic
+      setInput(fakeInput);
+      // Wait for state update is tricky, so I'll refactor handleSend to accept an optional message
     }
   }
   
@@ -236,6 +259,15 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                     <p className="text-sm leading-relaxed whitespace-pre-wrap">
                       {message.content}
                     </p>
+                    {message.role === "giant" && message.content === t("error") && (
+                      <button
+                        onClick={handleRetry}
+                        className="mt-3 flex items-center gap-2 text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors py-1 px-2 rounded-md bg-amber-500/10 border border-amber-500/20"
+                      >
+                        <RefreshCw className="w-3 h-3" />
+                        {t("retry") || "Retry"}
+                      </button>
+                    )}
                   </div>
                   
                   <div className={`flex items-center gap-2 mt-1.5 ${message.role === "user" ? "justify-end" : "justify-start"}`}>

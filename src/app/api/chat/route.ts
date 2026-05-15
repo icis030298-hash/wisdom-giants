@@ -35,9 +35,9 @@ ${giantName}의 역사적 페르소나, 말투, 그리고 지혜를 완벽하게
 ${persona}`;
     }
 
-    // 가장 안정적이고 호환성이 높은 기본 알리아스 모델명인 gemini-pro 사용
+    // 최신 gemini-1.5-flash 모델 사용
     const model = genAI.getGenerativeModel({ 
-      model: "gemini-pro", 
+      model: "gemini-1.5-flash", 
       systemInstruction: systemPrompt,
     });
 
