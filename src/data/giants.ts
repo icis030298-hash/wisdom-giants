@@ -1642,7 +1642,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 테오도르 루스벨트입니다.",
-    imageUrl: "/images/giants/theodore-roosevelt.jpg",
+    imageUrl: "/images/giants/theodore-roosevelt.png",
     era: "19-20세기"
   },
   {
@@ -1671,7 +1671,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 안네 프랑크입니다.",
-    imageUrl: "/images/giants/anne-frank.jpg",
+    imageUrl: "/images/giants/anne-frank.png",
     era: "20세기"
   },
   {
@@ -1700,7 +1700,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 로자 파크스입니다.",
-    imageUrl: "/images/giants/rosa-parks.jpg",
+    imageUrl: "/images/giants/rosa-parks.png",
     era: "20세기"
   },
   {
