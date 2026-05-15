@@ -93,7 +93,7 @@ export default function HeritageTestPage() {
         <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-orange-500/10 blur-[120px]" />
       </div>
 
-      <div className="max-w-2xl w-full">
+      <div className="max-w-4xl w-full">
         <AnimatePresence mode="wait">
           {step === 'intro' && (
             <motion.div
@@ -185,18 +185,18 @@ export default function HeritageTestPage() {
                   {questions[currentQuestionIndex].text[locale as 'ko' | 'en']}
                 </h2>
 
-                <div className="grid grid-cols-1 gap-4">
-                  {(['A', 'B'] as const).map((opt) => (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {(['A', 'B', 'C', 'D'] as const).map((opt) => (
                     <button
                       key={opt}
                       onClick={() => handleAnswer(questions[currentQuestionIndex].options[opt].value)}
-                      className="group relative w-full p-6 text-left glass-card rounded-2xl border border-white/10 hover:border-amber-500/50 transition-all hover:bg-amber-500/5"
+                      className="group relative w-full p-6 text-left glass-card rounded-2xl border border-white/10 hover:border-amber-500/50 transition-all hover:bg-amber-500/5 h-full flex flex-col justify-center"
                     >
                       <div className="flex items-center gap-4">
                         <div className="w-10 h-10 rounded-xl bg-muted flex items-center justify-center group-hover:bg-amber-500/20 group-hover:text-amber-400 transition-colors shrink-0">
                           {opt}
                         </div>
-                        <span className="text-lg text-foreground group-hover:text-amber-100 transition-colors leading-snug">
+                        <span className="text-sm md:text-base text-foreground group-hover:text-amber-100 transition-colors leading-snug">
                           {questions[currentQuestionIndex].options[opt].text[locale as 'ko' | 'en']}
                         </span>
                       </div>

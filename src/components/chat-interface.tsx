@@ -47,16 +47,23 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
   
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+  const scrollToBottom = (behavior: ScrollBehavior = "smooth") => {
+    if (messagesEndRef.current) {
+      messagesEndRef.current.scrollIntoView({ behavior, block: "end" })
+    }
   }
   
   useEffect(() => {
-    scrollToBottom()
-  }, [messages])
+    // Small delay to ensure DOM is updated
+    const timer = setTimeout(() => {
+      scrollToBottom()
+    }, 100)
+    return () => clearTimeout(timer)
+  }, [messages, isTyping])
   
   useEffect(() => {
     inputRef.current?.focus()
+    scrollToBottom("auto")
   }, [])
   
   const handleSend = async () => {
@@ -195,7 +202,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
           </div>
           
           {/* Messages area */}
-          <div className="flex-1 overflow-y-auto p-6 space-y-6">
+          <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar">
             {messages.map((message) => (
               <div
                 key={message.id}
