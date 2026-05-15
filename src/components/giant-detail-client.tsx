@@ -1,9 +1,12 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Image from "next/image"
+import { useSearchParams } from "next/navigation"
+import { motion, AnimatePresence } from "framer-motion"
 import { Navigation } from "@/components/navigation"
 import { ChatInterface } from "@/components/chat-interface"
+import { useTranslations, useLocale } from "next-intl"
 import { useRouter } from "@/i18n/routing"
 import { 
   ArrowLeft, 
@@ -12,8 +15,12 @@ import {
   History, 
   HeartPulse, 
   Lightbulb,
-  Quote
+  Quote,
+  CheckCircle2,
+  X,
+  Dna
 } from "lucide-react"
+import { archetypes } from "@/data/heritage-test"
 
 interface GiantDetailClientProps {
   giant: any;
@@ -26,7 +33,19 @@ interface GiantDetailClientProps {
 
 export function GiantDetailClient({ giant, translations }: GiantDetailClientProps) {
   const [isChatOpen, setIsChatOpen] = useState(false)
+  const [showMatchOverlay, setShowMatchOverlay] = useState(false)
   const router = useRouter()
+  const locale = useLocale()
+  const tt = useTranslations("Test")
+  const searchParams = useSearchParams()
+  const mode = searchParams.get('mode')
+  const dna = searchParams.get('dna')
+
+  useEffect(() => {
+    if (mode === 'match') {
+      setShowMatchOverlay(true)
+    }
+  }, [mode])
   
   const { giantDetail: t, giants: tg, giantsGrid: tc, narrative } = translations;
 
@@ -277,6 +296,102 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           onClose={() => setIsChatOpen(false)} 
         />
       )}
+
+      {/* Match Found Overlay */}
+      <AnimatePresence>
+        {showMatchOverlay && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-background/95 backdrop-blur-2xl"
+          >
+            {/* Background Effects */}
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+              <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-br ${giant.color} opacity-20 blur-[120px]`} />
+            </div>
+
+            <motion.div
+              initial={{ scale: 0.9, y: 20 }}
+              animate={{ scale: 1, y: 0 }}
+              exit={{ scale: 0.9, y: 20 }}
+              className="relative w-full max-w-2xl glass-card rounded-[3rem] p-8 md:p-12 border border-amber-500/30 text-center shadow-[0_0_50px_rgba(245,158,11,0.2)]"
+            >
+              <button 
+                onClick={() => setShowMatchOverlay(false)}
+                className="absolute top-6 right-6 p-2 rounded-full hover:bg-white/5 transition-colors"
+              >
+                <X className="w-6 h-6 text-muted-foreground" />
+              </button>
+
+              <div className="space-y-8">
+                <motion.div
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={{ type: "spring", delay: 0.2 }}
+                  className="w-20 h-20 rounded-2xl bg-amber-500/20 flex items-center justify-center border border-amber-500/40 mx-auto"
+                >
+                  <Dna className="w-10 h-10 text-amber-400" />
+                </motion.div>
+
+                <div className="space-y-2">
+                  <h2 className="text-sm font-bold text-amber-500 uppercase tracking-[0.3em]">Perfect Match Found</h2>
+                  <h1 className="text-4xl md:text-5xl font-serif font-bold text-foreground">{tt("result.matchFound")}</h1>
+                </div>
+
+                {/* Archetype Card */}
+                <div className="p-8 rounded-[2rem] bg-white/5 border border-white/10 space-y-4">
+                  <div className="flex flex-col items-center gap-2">
+                    <span className="text-[10px] text-muted-foreground uppercase tracking-widest font-bold">{tt("result.archetype")}</span>
+                    <h3 className="text-2xl font-serif font-bold text-amber-300">
+                      {dna && archetypes[dna]?.name[locale as 'ko' | 'en']}
+                    </h3>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {dna && archetypes[dna]?.description[locale as 'ko' | 'en']}
+                  </p>
+                </div>
+
+                <div className="flex flex-col items-center gap-6">
+                  <div className="flex items-center gap-4">
+                    <div className="relative w-16 h-16 rounded-full overflow-hidden ring-4 ring-amber-500/20 shadow-xl">
+                      <Image 
+                        src={giant.imageUrl} 
+                        alt={tg.name}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <div className="text-left">
+                      <p className="text-xs text-muted-foreground">{tt("result.matchedGiant")}</p>
+                      <p className="text-xl font-bold text-foreground">{tg.name}</p>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+                    <button
+                      onClick={() => setShowMatchOverlay(false)}
+                      className="py-4 px-6 rounded-2xl glass hover:bg-white/5 text-foreground font-bold transition-all border border-white/10"
+                    >
+                      {tt("result.readEpic")}
+                    </button>
+                    <button
+                      onClick={() => {
+                        setShowMatchOverlay(false)
+                        setIsChatOpen(true)
+                      }}
+                      className="py-4 px-6 rounded-2xl bg-amber-500 hover:bg-amber-400 text-black font-bold transition-all flex items-center justify-center gap-2 shadow-lg shadow-amber-500/20"
+                    >
+                      <MessageCircle className="w-5 h-5" />
+                      {tt("result.chatNow")}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </main>
   )
 }

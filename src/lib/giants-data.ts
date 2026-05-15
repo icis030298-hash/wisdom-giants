@@ -11,6 +11,7 @@ export interface Giant {
   color: string;
   slug: string; // Keep slug for detail links
   imageUrl: string;
+  dnaCode: string;
   category: string; // Add category ID
 }
 
@@ -39,6 +40,7 @@ export const giants: Giant[] = giantsData
     quote: g.quote,
     color: colorMap[categoryMap[g.category]] || 'from-slate-500/20 to-zinc-500/20',
     slug: g.slug,
+    dnaCode: g.dnaCode,
     imageUrl: g.imageUrl.startsWith('/images/')
       ? g.imageUrl
       : g.imageUrl.startsWith('/') 

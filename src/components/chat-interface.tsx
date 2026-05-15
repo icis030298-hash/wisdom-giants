@@ -26,8 +26,13 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
   const tg = useTranslations("Giants")
   const locale = useLocale()
   
-  const initialGreeting = tg(`${giant.slug}.chatGreeting`)
-  const suggestedQuestions = (tg.raw(`${giant.slug}.suggestedQuestions`) || []) as string[]
+  const initialGreeting = tg(`${giant.slug}.chatGreeting`) || "";
+  
+  // Robustly handle suggested questions - ensure it's always an array
+  const rawSuggestedQuestions = tg.raw(`${giant.slug}.suggestedQuestions`);
+  const suggestedQuestions = Array.isArray(rawSuggestedQuestions) 
+    ? rawSuggestedQuestions 
+    : [];
 
   const [messages, setMessages] = useState<Message[]>([
     {
@@ -264,7 +269,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                 <span className="text-[10px] text-muted-foreground uppercase font-bold tracking-tight">{t("suggestedQuestions")}</span>
               </div>
               <div className="flex gap-2 pb-1">
-                {suggestedQuestions.map((question, i) => (
+                {Array.isArray(suggestedQuestions) && suggestedQuestions.map((question, i) => (
                   <button
                     key={i}
                     onClick={() => handleSuggestedQuestion(question)}

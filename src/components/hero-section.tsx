@@ -82,10 +82,10 @@ export function HeroSection() {
 
         {/* Main title */}
         <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-foreground mb-6 tracking-tight">
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200">
-            Shoulders of
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 uppercase">
+            Giants
           </span>
-          <span className="block mt-2 italic">Giants</span>
+          <span className="block mt-2 italic">Wisdom</span>
         </h1>
 
         {/* Quote */}
@@ -169,8 +169,8 @@ export function HeroSection() {
         {/* Stats */}
         <div className="flex items-center justify-center gap-8 sm:gap-12 mt-16">
           {[
-            { value: "40+", label: t("stats.minds") },
-            { value: "2500+", label: t("stats.history") },
+            { value: "100+", label: t("stats.minds") },
+            { value: "5,000+", label: t("stats.history") },
             { value: "∞", label: t("stats.inspiration") },
           ].map((stat, i) => (
             <div key={i} className="text-center">
