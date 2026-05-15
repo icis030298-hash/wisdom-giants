@@ -453,7 +453,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 넬슨 만델라입니다.",
-    imageUrl: "/images/giants/nelson-mandela.jpg",
+    imageUrl: "/images/giants/nelson-mandela.png",
     era: "20-21세기"
   },
   {
@@ -830,7 +830,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마하트마 간디입니다.",
-    imageUrl: "/images/giants/mahatma-gandhi.jpg",
+    imageUrl: "/images/giants/mahatma-gandhi.png",
     era: "19-20세기"
   },
   {
@@ -859,7 +859,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마틴 루터 킹입니다.",
-    imageUrl: "/images/giants/martin-luther-king.jpg",
+    imageUrl: "/images/giants/martin-luther-king.png",
     era: "20세기의 거인 (1929~1968)"
   },
   {
@@ -888,7 +888,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마더 테레사입니다.",
-    imageUrl: "/images/giants/mother-teresa.jpg",
+    imageUrl: "/images/giants/mother-teresa.png",
     era: "20세기"
   },
   {
@@ -1729,7 +1729,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 프레데릭 더글러스입니다.",
-    imageUrl: "/images/giants/frederick-douglass.jpg",
+    imageUrl: "/images/giants/frederick-douglass.png",
     era: "19세기"
   },
   {
