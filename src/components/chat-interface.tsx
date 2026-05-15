@@ -120,13 +120,13 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
   }
   
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-background/80 backdrop-blur-xl">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-0 md:p-4 bg-background/80 backdrop-blur-xl">
       {/* Ambient glow */}
       <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-gradient-to-br ${giant.color} opacity-30 blur-3xl pointer-events-none`} />
       
-      <div className="relative w-full max-w-5xl h-[90vh] max-h-[800px] glass-card rounded-3xl overflow-hidden flex flex-col md:flex-row animate-fade-in-up">
+      <div className="relative w-full max-w-5xl h-[100dvh] md:h-[90vh] md:max-h-[800px] glass-card rounded-none md:rounded-3xl overflow-hidden flex flex-col md:flex-row animate-fade-in-up">
         {/* Detail View (Left on desktop) */}
-        <div className="w-full md:w-80 lg:w-96 border-b md:border-b-0 md:border-r border-border/50 flex flex-col bg-muted/30">
+        <div className="hidden md:flex w-80 lg:w-96 border-r border-border/50 flex-col bg-muted/30">
           <div className="relative aspect-[4/5] w-full overflow-hidden">
             <Image 
               src={giant.imageUrl} 
@@ -290,7 +290,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
           )}
           
           {/* Input area */}
-          <div className="px-6 py-4 border-t border-border/50">
+          <div className="px-6 py-4 border-t border-border/50 bg-background/95 backdrop-blur-md relative z-10">
             <div className="flex items-center gap-3">
               <button className="p-2.5 rounded-xl glass hover:bg-amber-500/10 text-muted-foreground hover:text-amber-400 transition-all">
                 <RefreshCw className="w-5 h-5" />
