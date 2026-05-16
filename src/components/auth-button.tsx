@@ -28,6 +28,11 @@ export function AuthButton() {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false)
 
   useEffect(() => {
+    if (!auth) {
+      setStatus("unauthenticated")
+      return
+    }
+
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser)
       setStatus(currentUser ? "authenticated" : "unauthenticated")
@@ -37,6 +42,8 @@ export function AuthButton() {
   }, [])
 
   const handleSignOut = async () => {
+    if (!auth) return
+
     try {
       await signOut(auth)
       toast.success("Logged out successfully")

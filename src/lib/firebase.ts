@@ -11,14 +11,18 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-// Initialize Firebase with safeguard
-const isConfigValid = !!firebaseConfig.apiKey;
-
-if (!isConfigValid && typeof window !== 'undefined') {
-  console.warn("Firebase API key is missing. Please check your .env.local file.");
+// Diagnostic Log
+if (typeof window !== 'undefined') {
+  console.log("[Firebase Debug]: Is API Key defined?", !!firebaseConfig.apiKey);
 }
 
+// Strict runtime condition to avoid crashing the whole Next.js page loop
+const isConfigValid = !!firebaseConfig.apiKey;
+
+// Initialize app only if config is potentially valid to avoid Firebase internal errors
+// or initialize with empty strings to allow the app to boot (but Auth will fail)
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
-export const auth = getAuth(app);
-export const db = getFirestore(app);
+
+export const auth = isConfigValid ? getAuth(app) : null;
+export const db = isConfigValid ? getFirestore(app) : null;
 export const googleProvider = new GoogleAuthProvider();

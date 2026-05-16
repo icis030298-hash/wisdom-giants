@@ -16,6 +16,10 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const t = useTranslations("Auth")
 
   const handleGoogleLogin = async () => {
+    if (!auth) {
+      toast.error("Firebase Authentication is not configured. Please check .env.local")
+      return
+    }
     try {
       await signInWithPopup(auth, googleProvider)
       toast.success(t("loginSuccess"))
