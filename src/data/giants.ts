@@ -2309,7 +2309,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 바뤼흐 스피노자입니다.",
-    imageUrl: "/images/giants/spinoza.jpg",
+    imageUrl: "/images/giants/spinoza.png",
     era: "17세기"
   },
   {
