@@ -76,7 +76,7 @@ export function HeroSection() {
 
         {/* Main title */}
         <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-foreground mb-6 tracking-tight">
-          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200 uppercase">
+          <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200">
             Giants
           </span>
           <span className="block mt-2 italic">Wisdom</span>
