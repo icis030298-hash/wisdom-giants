@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { auth, db } from "@/lib/firebase"
+import Image from "next/image"
 import { collection, query, where, orderBy, getDocs, Timestamp } from "firebase/firestore"
 import { useTranslations, useLocale } from "next-intl"
 import { useRouter } from "@/i18n/routing"
@@ -57,16 +58,23 @@ export default function ChatsPage() {
     setLoading(true);
 
     try {
+      // Temporarily remove orderBy to bypass silent deadlock on empty/new collections
       const q = query(
         collection(db, "chats"),
-        where("userId", "==", userId),
-        orderBy("updatedAt", "desc")
+        where("userId", "==", userId)
       );
       
       const querySnapshot = await getDocs(q);
       const chatData: ChatHistory[] = [];
       querySnapshot.forEach((doc) => {
         chatData.push({ id: doc.id, ...doc.data() } as ChatHistory);
+      });
+
+      // Client-side sorting for better performance and reliability
+      chatData.sort((a, b) => {
+        const timeA = a.updatedAt?.toMillis() || 0;
+        const timeB = b.updatedAt?.toMillis() || 0;
+        return timeB - timeA;
       });
       
       console.log(`[Firestore]: Successfully fetched ${chatData.length} chats.`);
@@ -150,8 +158,14 @@ export default function ChatsPage() {
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 via-amber-500/0 to-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
                 
-                <Avatar className="w-14 h-14 border border-white/10 shadow-lg">
-                  <AvatarImage src={`/images/giants/${chat.giantId}.png`} />
+                <Avatar className="w-14 h-14 border border-white/10 shadow-lg overflow-hidden relative">
+                  <Image 
+                    src={`/images/giants/${chat.giantId}.png`} 
+                    alt={chat.giantName}
+                    fill
+                    sizes="56px"
+                    className="object-cover"
+                  />
                   <AvatarFallback className="bg-amber-500/10 text-amber-500 font-serif">
                     {chat.giantName.charAt(0)}
                   </AvatarFallback>

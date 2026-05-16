@@ -82,6 +82,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           src={giant.imageUrl} 
           alt={tg.name}
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />
@@ -359,6 +360,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                         src={giant.imageUrl} 
                         alt={tg.name}
                         fill
+                        sizes="64px"
                         className="object-cover"
                       />
                     </div>

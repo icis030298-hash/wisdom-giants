@@ -198,6 +198,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
               src={giant.imageUrl} 
               alt={tg(`${giant.slug}.name`)}
               fill
+              sizes="(max-width: 768px) 100vw, 384px"
               className="object-cover object-top"
               unoptimized={true}
             />
@@ -245,6 +246,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                   src={giant.imageUrl} 
                   alt={tg(`${giant.slug}.name`)}
                   fill
+                  sizes="40px"
                   className="object-cover object-top"
                 />
               </div>
@@ -283,6 +285,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                           src={giant.imageUrl} 
                           alt={tg(`${giant.slug}.name`)}
                           fill
+                          sizes="24px"
                           className="object-cover object-top"
                         />
                       </div>
