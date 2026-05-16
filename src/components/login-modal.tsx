@@ -16,17 +16,22 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
   const t = useTranslations("Auth")
 
   const handleGoogleLogin = async () => {
+    // 1. Check if our firebase safeguard blocked the auth instance
     if (!auth) {
-      toast.error("Firebase Authentication is not configured. Please check .env.local")
-      return
+      alert("🚨 [Configuration Error]: Firebase Auth instance is null. Please ensure your '.env.local' file is in the root directory and keys start with 'NEXT_PUBLIC_'.");
+      return;
     }
+
     try {
-      await signInWithPopup(auth, googleProvider)
-      toast.success(t("loginSuccess"))
+      console.log("[Auth]: Attempting Google Popup Login...");
+      const result = await signInWithPopup(auth, googleProvider);
+      console.log("[Auth]: Login Success!", result.user.displayName);
+      alert(`🎉 Welcome, ${result.user.displayName}!`);
       onClose()
     } catch (error: any) {
-      console.error("Login Error:", error)
-      toast.error(error.message || "Login failed")
+      console.error("[Auth Error]:", error);
+      // 2. Alert the exact firebase error (e.g., unauthorized domain, popup blocked)
+      alert(`❌ [Firebase Auth Error]: ${error.message} (Code: ${error.code})`);
     }
   }
 
