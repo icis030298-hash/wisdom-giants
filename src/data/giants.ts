@@ -2280,7 +2280,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 칼 융입니다.",
-    imageUrl: "/images/giants/jung.jpg",
+    imageUrl: "/images/giants/jung.png",
     era: "19-20세기"
   },
   {
