@@ -104,6 +104,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
       }
       
       setMessages((prev) => [...prev, giantMessage])
+      setIsTyping(false)
 
       // -------------------------------------------------------------
       // FIRESTORE AUTO-SAVE LOGIC
@@ -154,6 +155,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
       }
       setMessages((prev) => [...prev, errorMessage])
     } finally {
+      // Ensure typing indicator is off in case of error
       setIsTyping(false)
     }
   }
