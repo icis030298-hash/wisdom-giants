@@ -12,6 +12,29 @@
     "myProfile": "My Profile",
     "signInRequired": "Login required to view chat history."
   },
+  "About": {
+    "title": "About",
+    "intro": "To those lost in the overflow of endless information.",
+    "visionTitle": "Standing on the Shoulders of Giants",
+    "visionQuote": "If I have seen further, it is by standing on the shoulders of giants. - Isaac Newton",
+    "visionDesc": "We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants. Through wisdom proven by history, we will be the lamp that lights your future.",
+    "experience": {
+      "title": "The Experience",
+      "feature1": {
+        "title": "The Grand Epics",
+        "desc": "Beyond simple lists of achievements, experience the full life stories of giants as they overcome hardship, presented as epic narratives."
+      },
+      "feature2": {
+        "title": "Wisdom Chat",
+        "desc": "Engage in real-time conversations with reconstructed personas of giants using state-of-the-art AI (Gemini 2.5 Flash), and seek sharp advice for the problems you face today."
+      },
+      "feature3": {
+        "title": "Heritage DNA Test",
+        "desc": "Discover the giant's DNA flowing deep within your soul through a 3-stage survey set against decisive historical moments."
+      }
+    },
+    "closing": "Now, step away from the noise of the world and enter the Hall of Giants. On their shoulders, you will finally see further."
+  },
   "Test": {
     "title": "Find the Great Legacy Flowing in Your Soul",
     "subtitle": "Historical Temperament Analysis Test",
