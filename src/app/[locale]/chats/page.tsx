@@ -50,41 +50,33 @@ export default function ChatsPage() {
     return () => unsubscribe();
   }, []);
 
-  const fetchChats = async (userId: string) => {
+  const fetchChats = async (uid: string) => {
     if (!db) return;
     
-    console.time("chats-fetch-perf");
-    console.log("[Firestore]: Starting chat history fetch for user:", userId);
-    setLoading(true);
-
     try {
-      // Temporarily remove orderBy to bypass silent deadlock on empty/new collections
-      const q = query(
-        collection(db, "chats"),
-        where("userId", "==", userId)
-      );
+      console.time("chats-fetch-perf");
+      console.log("[Firestore]: Starting fast one-time chat history fetch...");
+      setLoading(true);
       
-      const querySnapshot = await getDocs(q);
-      const chatData: ChatHistory[] = [];
-      querySnapshot.forEach((doc) => {
-        chatData.push({ id: doc.id, ...doc.data() } as ChatHistory);
-      });
+      const q = query(collection(db, "chats"), where("userId", "==", uid));
+      const querySnapshot = await getDocs(q); // Pure one-time call
+      
+      const fetchedChats = querySnapshot.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data()
+      })) as ChatHistory[];
 
-      // Client-side sorting for better performance and reliability
-      chatData.sort((a, b) => {
-        const timeA = a.updatedAt?.toMillis() || 0;
-        const timeB = b.updatedAt?.toMillis() || 0;
+      // Client-side sort for absolute safety against server-side index latency
+      const sortedChats = fetchedChats.sort((a, b) => {
+        const timeA = a.updatedAt?.toMillis?.() || 0;
+        const timeB = b.updatedAt?.toMillis?.() || 0;
         return timeB - timeA;
       });
-      
-      console.log(`[Firestore]: Successfully fetched ${chatData.length} chats.`);
-      setChats(chatData);
-    } catch (error: any) {
-      console.error("🚨 [FIRESTORE FETCH ERROR]:", error);
-      // Log index creation link if present in the error message
-      if (error.message && error.message.includes("https://console.firebase.google.com")) {
-        console.error("❌ [MISSING INDEX]: Click the link above to create the required composite index.");
-      }
+
+      setChats(sortedChats);
+      console.log(`[Firestore]: Successfully fetched ${sortedChats.length} chats.`);
+    } catch (error) {
+      console.error("🚨 [Firestore Fetch Error]:", error);
     } finally {
       console.timeEnd("chats-fetch-perf");
       setLoading(false);
