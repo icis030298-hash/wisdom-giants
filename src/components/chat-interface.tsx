@@ -8,6 +8,8 @@ import type { Giant } from "@/lib/giants-data"
 import { getGiantResponse } from "@/lib/gemini"
 import { giantsData } from "@/data/giants"
 import { useTranslations, useLocale } from "next-intl"
+import { auth, db } from "@/lib/firebase"
+import { doc, setDoc, serverTimestamp, arrayUnion } from "firebase/firestore"
 
 interface Message {
   id: string
@@ -102,6 +104,45 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
       }
       
       setMessages((prev) => [...prev, giantMessage])
+
+      // -------------------------------------------------------------
+      // FIRESTORE AUTO-SAVE LOGIC
+      // -------------------------------------------------------------
+      if (auth?.currentUser && db) {
+        const userId = auth.currentUser.uid;
+        const chatDocId = `${userId}_${giant.slug}`;
+        const chatRef = doc(db, "chats", chatDocId);
+
+        try {
+          await setDoc(chatRef, {
+            userId: userId,
+            giantId: giant.slug, // Using slug as ID for consistency
+            giantSlug: giant.slug,
+            giantName: tg(`${giant.slug}.name`),
+            lastMessage: response,
+            updatedAt: serverTimestamp(),
+            messageCount: messages.length + 2, // Current + User + Giant
+            messages: arrayUnion(
+              {
+                id: userMessage.id,
+                role: "user",
+                text: userMessage.content,
+                createdAt: userMessage.timestamp.toISOString()
+              },
+              {
+                id: giantMessage.id,
+                role: "model",
+                text: giantMessage.content,
+                createdAt: giantMessage.timestamp.toISOString()
+              }
+            )
+          }, { merge: true });
+          console.log("[Firestore]: Conversation successfully synced.");
+        } catch (fsError) {
+          console.error("[Firestore Sync Error]:", fsError);
+        }
+      }
+      // -------------------------------------------------------------
     } catch (error) {
       console.error("Chat error:", error);
       setHasError(true)
