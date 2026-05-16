@@ -23,6 +23,14 @@
       "desc": "30가지 상황 질문을 통해 당신의 '유산 DNA'를 분석하고 영혼의 단짝 위인을 찾아보세요.",
       "button": "테스트 시작하기"
     },
+    "stages": {
+      "stage1": "Stage 1: 기원과 성향 (Awakening)",
+      "stage2": "Stage 2: 선택과 시련 (The Trial)",
+      "stage3": "Stage 3: 역사적 운명 (The Destiny)",
+      "cleared": "Stage {stage} 완료!",
+      "ready": "다음 단계로 나아갈 준비가 되셨습니까?",
+      "next": "다음 단계로 계속하기"
+    },
     "analysis": {
       "loading": "영혼의 메아리를 분석 중입니다...",
       "sub": "역사의 거대한 흐름 속에서 당신의 기둥을 찾고 있습니다."
@@ -50,7 +58,8 @@
     "quote": "내가 더 멀리 보았다면, 그것은 거인들의 어깨 위에 올라섰기 때문이다.",
     "quoteAuthor": "아이작 뉴턴",
     "startJourney": "여정 시작하기",
-    "exploreHall": "전당 둘러보기",
+    "startTest": "🧬 내 유산 DNA 테스트 시작",
+    "exploreHall": "🏛️ 거인들의 전당 둘러보기",
     "stats": {
       "minds": "위대한 거인",
       "history": "지혜의 역사",

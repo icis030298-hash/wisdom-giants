@@ -23,6 +23,14 @@
       "desc": "Analyze your 'Heritage DNA' through 30 situational questions and find your soul's perfect match.",
       "button": "Start Test"
     },
+    "stages": {
+      "stage1": "Stage 1: Awakening",
+      "stage2": "Stage 2: The Trial",
+      "stage3": "Stage 3: The Destiny",
+      "cleared": "Stage {stage} Cleared!",
+      "ready": "Ready to move to the next stage?",
+      "next": "Continue to Next Stage"
+    },
     "analysis": {
       "loading": "Analyzing your soul's echoes...",
       "sub": "Searching for your pillars in the great flow of history."
@@ -50,7 +58,8 @@
     "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Start Journey",
-    "exploreHall": "Explore Hall",
+    "startTest": "🧬 Start Heritage DNA Test",
+    "exploreHall": "🏛️ Explore the Hall",
     "stats": {
       "minds": "Great Minds",
       "history": "Years of Wisdom",

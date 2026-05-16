@@ -3,13 +3,7 @@
 import { useEffect, useState, useMemo } from "react"
 import { Sparkles } from "lucide-react"
 import { useTranslations } from "next-intl"
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog"
+import { Link } from "@/i18n/routing"
 
 // Generate stable particle positions
 const generateParticles = (count: number) => {
@@ -100,66 +94,16 @@ export function HeroSection() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
-          <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
-            <DialogTrigger asChild>
-              <button className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground rounded-xl font-medium text-lg overflow-hidden transition-all hover:shadow-lg hover:shadow-amber-500/25 hover:scale-105">
-                <span className="relative z-10 flex items-center gap-2">
-                  <Sparkles className="w-5 h-5" />
-                  {t("startJourney")}
-                </span>
-                <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity" />
-              </button>
-            </DialogTrigger>
-            <DialogContent className="glass border-amber-500/20 sm:max-w-[425px]">
-              <DialogHeader>
-                <DialogTitle className="font-serif text-2xl text-foreground text-center mb-4 pt-2">
-                  {t("guide.title")}
-                </DialogTitle>
-              </DialogHeader>
-              <div className="grid gap-6 py-4">
-                <div className="flex items-start gap-4">
-                  <span className="text-2xl">🏛️</span>
-                  <div>
-                    <h4 className="font-semibold text-amber-400 mb-1">{t("guide.selectGiant")}</h4>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      {t("guide.selectGiantDesc")}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <span className="text-2xl">📖</span>
-                  <div>
-                    <h4 className="font-semibold text-amber-400 mb-1">{t("guide.epic")}</h4>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      {t("guide.epicDesc")}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <span className="text-2xl">💬</span>
-                  <div>
-                    <h4 className="font-semibold text-amber-400 mb-1">{t("guide.chat")}</h4>
-                    <p className="text-sm text-muted-foreground leading-relaxed">
-                      {t("guide.chatDesc")}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="mt-6">
-                <button 
-                  onClick={() => {
-                    setIsModalOpen(false);
-                    setTimeout(() => {
-                      document.getElementById('featured-giants')?.scrollIntoView({ behavior: 'smooth' });
-                    }, 300);
-                  }}
-                  className="w-full py-4 bg-amber-500 text-primary-foreground rounded-xl font-medium hover:bg-amber-600 transition-colors"
-                >
-                  {t("guide.startNow")}
-                </button>
-              </div>
-            </DialogContent>
-          </Dialog>
+          <Link 
+            href="/test"
+            className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground rounded-xl font-medium text-lg overflow-hidden transition-all hover:shadow-lg hover:shadow-amber-500/25 hover:scale-105"
+          >
+            <span className="relative z-10 flex items-center gap-2">
+              <Sparkles className="w-5 h-5" />
+              {t("startTest")}
+            </span>
+            <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+          </Link>
           
           <a href="#featured-giants" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
             {t("exploreHall")}

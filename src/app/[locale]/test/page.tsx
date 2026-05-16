@@ -8,19 +8,25 @@ import { useTranslations, useLocale } from "next-intl"
 import { useRouter } from "next/navigation"
 import { questions, archetypes, type Dimension, type Pillar } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
+import AdSpace from "@/components/AdSpace"
 
 export default function HeritageTestPage() {
   const t = useTranslations("Test")
   const locale = useLocale()
   const router = useRouter()
   
-  const [step, setStep] = useState<'intro' | 'questions' | 'analyzing'>('intro')
+  const [step, setStep] = useState<'intro' | 'questions' | 'analyzing' | 'adBreak'>('intro')
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [answers, setAnswers] = useState<Record<number, Dimension>>({})
   const [progress, setProgress] = useState(0)
 
+  // Current stage logic (10 questions per stage)
+  const currentStage = Math.floor(currentQuestionIndex / 10) + 1
+
   useEffect(() => {
-    setProgress(((currentQuestionIndex) / questions.length) * 100)
+    // Progress within the current stage (0-100%)
+    const stageProgress = ((currentQuestionIndex % 10) / 10) * 100
+    setProgress(stageProgress)
   }, [currentQuestionIndex])
 
   const handleStart = () => {
@@ -31,12 +37,19 @@ export default function HeritageTestPage() {
     const newAnswers = { ...answers, [questions[currentQuestionIndex].id]: value }
     setAnswers(newAnswers)
 
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex === 9 || currentQuestionIndex === 19) {
+      setStep('adBreak')
+    } else if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1)
     } else {
       setStep('analyzing')
       calculateAndRedirect(newAnswers)
     }
+  }
+
+  const handleNextStage = () => {
+    setCurrentQuestionIndex(prev => prev + 1)
+    setStep('questions')
   }
 
   const handleBack = () => {
@@ -166,7 +179,7 @@ export default function HeritageTestPage() {
                     {t("back")}
                   </button>
                   <span className="text-sm font-medium text-amber-500/80">
-                    Question {currentQuestionIndex + 1} / {questions.length}
+                    {t(`stages.stage${currentStage}`)} | {(currentQuestionIndex % 10) + 1} / 10
                   </span>
                 </div>
                 <div className="h-1.5 w-full bg-muted rounded-full overflow-hidden">
@@ -204,6 +217,38 @@ export default function HeritageTestPage() {
                   ))}
                 </div>
               </div>
+            </motion.div>
+          )}
+
+          {step === 'adBreak' && (
+            <motion.div
+              key="adBreak"
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.95 }}
+              className="text-center space-y-8 py-12"
+            >
+              <div className="space-y-4">
+                <div className="w-20 h-20 bg-amber-500/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <ShieldCheck className="w-10 h-10 text-amber-500" />
+                </div>
+                <h2 className="text-3xl font-serif font-bold text-foreground">
+                  {t("stages.cleared", { stage: currentStage })}
+                </h2>
+                <p className="text-muted-foreground text-lg">
+                  {t("stages.ready")}
+                </p>
+              </div>
+
+              <AdSpace slot="mid-test-banner" label="SPONSORED CONTENT" />
+
+              <button
+                onClick={handleNextStage}
+                className="group relative px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 text-primary-foreground font-bold text-lg shadow-xl shadow-amber-500/20 hover:scale-105 transition-all flex items-center gap-3 mx-auto"
+              >
+                {t("stages.next")}
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              </button>
             </motion.div>
           )}
 
