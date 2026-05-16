@@ -2512,7 +2512,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 아르투어 쇼펜하우어입니다.",
-    imageUrl: "/images/giants/schopenhauer.jpg",
+    imageUrl: "/images/giants/schopenhauer.png",
     era: "19세기"
   },
   {
@@ -2541,7 +2541,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 아이작 뉴턴입니다.",
-    imageUrl: "/images/giants/newton.jpg",
+    imageUrl: "/images/giants/newton.png",
     era: "17-18세기"
   },
   {
@@ -2570,7 +2570,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 갈릴레오 갈릴레이입니다.",
-    imageUrl: "/images/giants/galileo.jpg",
+    imageUrl: "/images/giants/galileo.png",
     era: "16-17세기"
   },
   {
@@ -2599,7 +2599,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 찰스 다윈입니다.",
-    imageUrl: "/images/giants/darwin.jpg",
+    imageUrl: "/images/giants/darwin.png",
     era: "19세기"
   },
   {
@@ -2628,7 +2628,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 미켈란젤로입니다.",
-    imageUrl: "/images/giants/michelangelo.jpg",
+    imageUrl: "/images/giants/michelangelo.png",
     era: "15-16세기"
   },
   {
