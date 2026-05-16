@@ -11,7 +11,13 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-// Initialize Firebase
+// Initialize Firebase with safeguard
+const isConfigValid = !!firebaseConfig.apiKey;
+
+if (!isConfigValid && typeof window !== 'undefined') {
+  console.warn("Firebase API key is missing. Please check your .env.local file.");
+}
+
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getFirestore(app);
