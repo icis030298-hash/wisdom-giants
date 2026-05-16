@@ -33,12 +33,12 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-6 group">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-500/80 to-amber-600/80 flex items-center justify-center transition-transform group-hover:scale-105">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center transition-transform group-hover:scale-110 shadow-lg shadow-amber-500/20">
                 <Sparkles className="w-5 h-5 text-primary-foreground" />
               </div>
               <div>
-                <span className="font-serif text-lg font-medium text-foreground/90">
-                  Shoulders of Giants
+                <span className="font-serif text-xl font-bold text-foreground/90 tracking-tight">
+                  Giants Wisdom
                 </span>
                 <p className="text-[10px] text-muted-foreground/60 tracking-wider uppercase">{t("brand.subtitle")}</p>
               </div>
@@ -97,15 +97,10 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-10 border-t border-border/20 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-xs text-muted-foreground/40 font-light tracking-wide">
-            &copy; 2026 Shoulders of Giants. All rights reserved.
+            &copy; 2026 Giants Wisdom. All rights reserved.
           </p>
-          <div className="flex items-center gap-8 text-[11px] text-muted-foreground/40 font-light tracking-wide">
-            <Link href="/privacy" className="hover:text-amber-400/60 transition-colors">{t("links.privacy")}</Link>
-            <Link href="/terms" className="hover:text-amber-400/60 transition-colors">{t("links.terms")}</Link>
-          </div>
         </div>
       </div>
     </footer>
   )
 }
-
