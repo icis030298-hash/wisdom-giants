@@ -11,6 +11,10 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Test" });
 
+  console.log("==========================================");
+  console.log("[Server environment check]: Is Firebase API Key loaded?", !!process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
+  console.log("==========================================");
+
   return (
     <main className="min-h-screen bg-background">
       {/* Navigation */}
