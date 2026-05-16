@@ -1,6 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { Navigation } from "@/components/navigation"
-import Footer from "@/components/footer"
 import { Scale, Info, Megaphone, UserCheck } from "lucide-react"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -77,7 +76,7 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
         </div>
       </div>
 
-      <Footer />
+      </div>
     </main>
   )
 }

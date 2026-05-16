@@ -1,6 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { Navigation } from "@/components/navigation"
-import Footer from "@/components/footer"
 import { ShieldCheck, Lock, Globe, Database } from "lucide-react"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -108,7 +107,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
         </div>
       </div>
 
-      <Footer />
+      </div>
     </main>
   )
 }
