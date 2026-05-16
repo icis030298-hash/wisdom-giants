@@ -32,43 +32,56 @@ export default function ChatsPage() {
   const [user, setUser] = useState(auth?.currentUser || null)
 
   useEffect(() => {
-    if (!auth) return
+    if (!auth) {
+      setLoading(false);
+      return;
+    }
 
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
-      setUser(currentUser)
+      setUser(currentUser);
       if (currentUser) {
-        fetchChats(currentUser.uid)
+        fetchChats(currentUser.uid);
       } else {
-        setLoading(false)
+        setLoading(false);
       }
-    })
+    });
 
-    return () => unsubscribe()
-  }, [])
+    return () => unsubscribe();
+  }, []);
 
   const fetchChats = async (userId: string) => {
-    if (!db) return
+    if (!db) return;
     
+    console.time("chats-fetch-perf");
+    console.log("[Firestore]: Starting chat history fetch for user:", userId);
+    setLoading(true);
+
     try {
       const q = query(
         collection(db, "chats"),
         where("userId", "==", userId),
         orderBy("updatedAt", "desc")
-      )
+      );
       
-      const querySnapshot = await getDocs(q)
-      const chatData: ChatHistory[] = []
+      const querySnapshot = await getDocs(q);
+      const chatData: ChatHistory[] = [];
       querySnapshot.forEach((doc) => {
-        chatData.push({ id: doc.id, ...doc.data() } as ChatHistory)
-      })
+        chatData.push({ id: doc.id, ...doc.data() } as ChatHistory);
+      });
       
-      setChats(chatData)
-    } catch (error) {
-      console.error("Error fetching chats:", error)
+      console.log(`[Firestore]: Successfully fetched ${chatData.length} chats.`);
+      setChats(chatData);
+    } catch (error: any) {
+      console.error("🚨 [FIRESTORE FETCH ERROR]:", error);
+      // Log index creation link if present in the error message
+      if (error.message && error.message.includes("https://console.firebase.google.com")) {
+        console.error("❌ [MISSING INDEX]: Click the link above to create the required composite index.");
+      }
     } finally {
-      setLoading(false)
+      console.timeEnd("chats-fetch-perf");
+      setLoading(false);
     }
-  }
+  };
 
   const dateLocale = locale === "ko" ? ko : enUS
 
