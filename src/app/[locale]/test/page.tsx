@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Sparkles, ArrowRight, ChevronLeft, History, Dna, BrainCircuit, ShieldCheck } from "lucide-react"
 import { useTranslations, useLocale } from "next-intl"
-import { useRouter } from "next/navigation"
+import { useRouter } from "@/i18n/routing"
 import { questions, archetypes, type Dimension, type Pillar } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
 import AdSpace from "@/components/AdSpace"
@@ -61,41 +61,67 @@ export default function HeritageTestPage() {
   }
 
   const calculateAndRedirect = (finalAnswers: Record<number, Dimension>) => {
-    // Count dimensions for each pillar
-    const scores: Record<Pillar, Record<string, number>> = {
-      Scope: { L: 0, S: 0 },
-      Drive: { R: 0, P: 0 },
-      Method: { D: 0, H: 0 },
-      Origin: { I: 0, T: 0 }
-    }
-
-    questions.forEach(q => {
-      const val = finalAnswers[q.id]
-      if (val) {
-        scores[q.pillar][val]++
+    try {
+      console.log("[Test] Starting calculation with answers:", finalAnswers);
+      
+      // Count dimensions for each pillar with explicit initialization
+      const scores: Record<Pillar, Record<string, number>> = {
+        Scope: { L: 0, S: 0 },
+        Drive: { R: 0, P: 0 },
+        Method: { D: 0, H: 0 },
+        Origin: { I: 0, T: 0 }
       }
-    })
 
-    // Determine DNA Code
-    const dna = [
-      scores.Scope.L >= scores.Scope.S ? 'L' : 'S',
-      scores.Drive.R >= scores.Drive.P ? 'R' : 'P',
-      scores.Method.D >= scores.Method.H ? 'D' : 'H',
-      scores.Origin.I >= scores.Origin.T ? 'I' : 'T'
-    ].join('')
+      questions.forEach(q => {
+        const val = finalAnswers[q.id]
+        if (val) {
+          // Robust check: Ensure the value exists in the pillar's score map
+          if (scores[q.pillar] && typeof scores[q.pillar][val] !== 'undefined') {
+            scores[q.pillar][val]++
+          } else {
+            console.warn(`[Test] Invalid dimension ${val} for pillar ${q.pillar} in question ${q.id}`);
+          }
+        }
+      })
 
-    // Find all giants with this DNA
-    const matchingGiants = giants.filter(g => g.dnaCode === dna)
-    
-    // Pick a random giant from the matching ones (or fallback to any if none, which shouldn't happen)
-    const matchedGiant = matchingGiants.length > 0 
-      ? matchingGiants[Math.floor(Math.random() * matchingGiants.length)]
-      : giants[Math.floor(Math.random() * giants.length)]
+      // Determine DNA Code
+      const dna = [
+        scores.Scope.L >= scores.Scope.S ? 'L' : 'S',
+        scores.Drive.R >= scores.Drive.P ? 'R' : 'P',
+        scores.Method.D >= scores.Method.H ? 'D' : 'H',
+        scores.Origin.I >= scores.Origin.T ? 'I' : 'T'
+      ].join('')
 
-    // Artificial delay for "analyzing" feel
-    setTimeout(() => {
-      router.push(`/${locale}/giant/${matchedGiant.slug}?mode=match&dna=${dna}`)
-    }, 3000)
+      console.log("[Test] Calculated DNA:", dna);
+
+      // Find matching giants
+      const matchingGiants = giants.filter(g => g.dnaCode === dna)
+      
+      // Pick a random giant from the matching ones (or fallback)
+      const matchedGiant = matchingGiants.length > 0 
+        ? matchingGiants[Math.floor(Math.random() * matchingGiants.length)]
+        : giants[Math.floor(Math.random() * giants.length)]
+
+      if (!matchedGiant) {
+        throw new Error("No giants found in the database");
+      }
+
+      console.log("[Test] Matched Giant:", matchedGiant.name, matchedGiant.slug);
+
+      // Artificial delay for "analyzing" feel
+      setTimeout(() => {
+        const targetPath = `/giant/${matchedGiant.slug}?mode=match&dna=${dna}`;
+        console.log("[Test] Redirecting to:", targetPath);
+        router.push(targetPath as any);
+      }, 3000)
+
+    } catch (err) {
+      console.error("[Test Calculation Error]:", err);
+      // Fallback: if everything fails, at least redirect to a default or show error
+      setTimeout(() => {
+        router.push(`/${locale}/about`); // Safe fallback
+      }, 3000)
+    }
   }
 
   return (
