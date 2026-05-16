@@ -11,19 +11,19 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
-// Diagnostic Log
-if (typeof window !== 'undefined') {
-  console.log("[Firebase Debug]: Is API Key defined?", !!firebaseConfig.apiKey);
-}
-
-// Strict runtime condition to avoid crashing the whole Next.js page loop
-const isConfigValid = !!firebaseConfig.apiKey;
-
-// Initialize app only if config is potentially valid to avoid Firebase internal errors
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 
-export const auth = isConfigValid ? getAuth(app) : null;
-export const db = isConfigValid 
-  ? initializeFirestore(app, { experimentalForceLongPolling: true }) 
-  : null;
+export const auth = firebaseConfig.apiKey ? getAuth(app) : null;
 export const googleProvider = new GoogleAuthProvider();
+
+// FORCE LONG POLLING AND SHUT DOWN ALL STREAM HANDSHAKES PERMANENTLY
+export const db = firebaseConfig.apiKey
+  ? initializeFirestore(app, {
+      experimentalForceLongPolling: true,
+      useFetchStreams: false // Bypasses HTTP/2 stream buffering blocks
+    })
+  : null;
+
+if (typeof window !== 'undefined') {
+  console.log("🔥 [Firebase Core]: Overwritten with strict long-polling & fetchStreams=false attributes.");
+}
