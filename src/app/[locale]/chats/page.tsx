@@ -81,7 +81,7 @@ export default function ChatsPage() {
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">
             {t("title")}
           </h1>
-          <p className="text-muted-foreground text-lg max-w-2xl">
+          <p className="text-muted-foreground text-lg max-w-3xl break-keep">
             {t("description")}
           </p>
         </div>
@@ -151,7 +151,9 @@ export default function ChatsPage() {
                     </h3>
                     <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
                       <Clock className="w-3 h-3" />
-                      {formatDistanceToNow(chat.updatedAt.toDate(), { addSuffix: true, locale: dateLocale })}
+                      {chat.updatedAt 
+                        ? formatDistanceToNow(chat.updatedAt.toDate(), { addSuffix: true, locale: dateLocale }) 
+                        : (locale === "ko" ? "방금 전" : "just now")}
                     </div>
                   </div>
                   <p className="text-sm text-muted-foreground line-clamp-1 group-hover:text-zinc-300 transition-colors">
