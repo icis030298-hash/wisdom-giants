@@ -2367,7 +2367,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 데이비드 흄입니다.",
-    imageUrl: "/images/giants/hume.jpg",
+    imageUrl: "/images/giants/hume.png",
     era: "18세기"
   },
   {
@@ -2396,7 +2396,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 존 로크입니다.",
-    imageUrl: "/images/giants/locke.jpg",
+    imageUrl: "/images/giants/locke.png",
     era: "17-18세기"
   },
   {
@@ -2425,7 +2425,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 시몬 드 보부아르입니다.",
-    imageUrl: "/images/giants/beauvoir.jpg",
+    imageUrl: "/images/giants/beauvoir.png",
     era: "20세기"
   },
   {
@@ -2454,7 +2454,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 한나 아렌트입니다.",
-    imageUrl: "/images/giants/arendt.jpg",
+    imageUrl: "/images/giants/arendt.png",
     era: "20세기"
   },
   {
@@ -2483,7 +2483,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 쇠렌 키에르케고르입니다.",
-    imageUrl: "/images/giants/kierkegaard.jpg",
+    imageUrl: "/images/giants/kierkegaard.png",
     era: "19세기"
   },
   {
