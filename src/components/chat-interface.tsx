@@ -120,6 +120,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
             giantId: giant.slug, // Using slug as ID for consistency
             giantSlug: giant.slug,
             giantName: tg(`${giant.slug}.name`),
+            giantImage: giant.imageUrl, // Save the image URL for thumbnails
             lastMessage: response,
             updatedAt: serverTimestamp(),
             messageCount: messages.length + 2, // Current + User + Giant

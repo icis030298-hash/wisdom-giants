@@ -38,6 +38,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const locale = useLocale()
   const tt = useTranslations("Test")
   const searchParams = useSearchParams()
+  const chatParam = searchParams.get('chat')
   const mode = searchParams.get('mode')
   const dna = searchParams.get('dna')
 
@@ -46,6 +47,13 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       setShowMatchOverlay(true)
     }
   }, [mode])
+
+  // Automatically open chat if redirected from chat history
+  useEffect(() => {
+    if (chatParam === 'true') {
+      setIsChatOpen(true)
+    }
+  }, [chatParam])
   
   const { giantDetail: t, giants: tg, giantsGrid: tc, narrative } = translations;
 

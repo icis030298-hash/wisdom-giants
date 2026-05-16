@@ -16,7 +16,9 @@ import { Link } from "@/i18n/routing"
 interface ChatHistory {
   id: string
   giantId: string
+  giantSlug: string
   giantName: string
+  giantImage?: string
   lastMessage: string
   updatedAt: Timestamp
   messageCount: number
@@ -143,21 +145,21 @@ export default function ChatsPage() {
         ) : (
           <div className="grid gap-4">
             {chats.map((chat) => (
-              <Link
-                key={chat.id}
-                href={`/giant/${chat.giantId}`}
-                className="group relative overflow-hidden rounded-2xl glass border border-white/5 hover:border-amber-500/30 transition-all p-5 flex items-center gap-5"
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 via-amber-500/0 to-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                
-                <Avatar className="w-14 h-14 border border-white/10 shadow-lg overflow-hidden relative">
-                  <Image 
-                    src={`/images/giants/${chat.giantId}.png`} 
-                    alt={chat.giantName}
-                    fill
-                    sizes="56px"
-                    className="object-cover"
-                  />
+                <Link
+                  key={chat.id}
+                  href={`/giant/${chat.giantSlug || chat.giantId}?chat=true`}
+                  className="group relative overflow-hidden rounded-2xl glass border border-white/5 hover:border-amber-500/30 transition-all p-5 flex items-center gap-5"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 via-amber-500/0 to-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  
+                  <Avatar className="w-14 h-14 border border-white/10 shadow-lg overflow-hidden relative">
+                    <Image 
+                      src={chat.giantImage || `/images/giants/${chat.giantSlug || chat.giantId}.jpg`} 
+                      alt={chat.giantName}
+                      fill
+                      sizes="56px"
+                      className="object-cover"
+                    />
                   <AvatarFallback className="bg-amber-500/10 text-amber-500 font-serif">
                     {chat.giantName.charAt(0)}
                   </AvatarFallback>
