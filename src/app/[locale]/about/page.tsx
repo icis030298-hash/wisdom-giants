@@ -30,7 +30,7 @@ export default function AboutPage() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-sm font-medium"
           >
             <Sparkles className="w-4 h-4" />
-            <span>{t("title")}</span>
+            <span>ABOUT</span>
           </motion.div>
 
           <motion.h1 
@@ -41,6 +41,14 @@ export default function AboutPage() {
           >
             {t("intro")}
           </motion.h1>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.7, delay: 0.4 }}
+            className="text-xl text-muted-foreground font-light tracking-wide"
+          >
+            {t("subIntro")}
+          </motion.p>
         </div>
       </section>
 
@@ -57,15 +65,12 @@ export default function AboutPage() {
             <div className="relative z-10 space-y-10">
               <div className="space-y-4">
                 <h2 className="text-amber-400 font-serif text-2xl md:text-3xl italic">
-                  &ldquo;{t("visionQuote")}&rdquo;
+                  {t("visionTitle")}
                 </h2>
                 <div className="w-12 h-1 bg-amber-500/50 rounded-full" />
               </div>
 
               <div className="space-y-6">
-                <h3 className="text-2xl md:text-4xl font-serif font-bold text-foreground">
-                  {t("visionTitle")}
-                </h3>
                 <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-light">
                   {t("visionDesc")}
                 </p>
@@ -79,30 +84,33 @@ export default function AboutPage() {
       <section className="py-24 px-4 bg-gradient-to-b from-transparent via-amber-500/5 to-transparent">
         <div className="max-w-6xl mx-auto space-y-16">
           <motion.div {...fadeInUp} className="text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-serif font-bold">{t("experience.title")}</h2>
+            <h2 className="text-3xl md:text-5xl font-serif font-bold">The Pillars of Wisdom</h2>
             <div className="w-20 h-1 bg-amber-500 mx-auto rounded-full" />
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { 
-                key: "feature1", 
+                title: t("epicTitle"),
+                desc: t("epicDesc"),
                 icon: BookOpen, 
                 color: "text-amber-400" 
               },
               { 
-                key: "feature2", 
+                title: t("chatTitle"),
+                desc: t("chatDesc"),
                 icon: MessageCircle, 
                 color: "text-amber-400" 
               },
               { 
-                key: "feature3", 
+                title: t("testTitle"),
+                desc: t("testDesc"),
                 icon: Dna, 
                 color: "text-amber-400" 
               }
             ].map((feature, i) => (
               <motion.div
-                key={feature.key}
+                key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -114,10 +122,10 @@ export default function AboutPage() {
                 </div>
                 <div className="text-amber-500/60 font-serif text-2xl font-bold mb-4">0{i + 1}</div>
                 <h4 className="text-xl font-bold mb-4 text-foreground group-hover:text-amber-200 transition-colors">
-                  {t(`experience.${feature.key}.title`)}
+                  {feature.title}
                 </h4>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                  {t(`experience.${feature.key}.desc`)}
+                  {feature.desc}
                 </p>
               </motion.div>
             ))}
@@ -129,8 +137,11 @@ export default function AboutPage() {
       <section className="py-32 px-4">
         <div className="max-w-4xl mx-auto text-center space-y-12">
           <motion.div {...fadeInUp} className="space-y-8">
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground">
+              {t("outroTitle")}
+            </h3>
             <p className="text-2xl md:text-3xl font-serif font-medium leading-relaxed italic text-muted-foreground px-4">
-              &ldquo;{t("closing")}&rdquo;
+              &ldquo;{t("outroDesc")}&rdquo;
             </p>
             
             <div className="pt-8">
@@ -139,7 +150,7 @@ export default function AboutPage() {
                 className="inline-flex items-center gap-2 px-10 py-5 bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-amber-500/40 hover:scale-105 transition-all"
               >
                 <Sparkles className="w-5 h-5" />
-                {t("title")}
+                START JOURNEY
               </a>
             </div>
           </motion.div>
