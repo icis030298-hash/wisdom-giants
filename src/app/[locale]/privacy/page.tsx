@@ -106,8 +106,6 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
           </section>
         </div>
       </div>
-
-      </div>
     </main>
   )
 }

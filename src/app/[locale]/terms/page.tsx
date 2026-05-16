@@ -75,8 +75,6 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
           </div>
         </div>
       </div>
-
-      </div>
     </main>
   )
 }
