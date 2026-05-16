@@ -1,6 +1,6 @@
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { initializeFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -20,9 +20,10 @@ if (typeof window !== 'undefined') {
 const isConfigValid = !!firebaseConfig.apiKey;
 
 // Initialize app only if config is potentially valid to avoid Firebase internal errors
-// or initialize with empty strings to allow the app to boot (but Auth will fail)
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 
 export const auth = isConfigValid ? getAuth(app) : null;
-export const db = isConfigValid ? getFirestore(app) : null;
+export const db = isConfigValid 
+  ? initializeFirestore(app, { experimentalForceLongPolling: true }) 
+  : null;
 export const googleProvider = new GoogleAuthProvider();
