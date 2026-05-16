@@ -917,7 +917,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 레오나르도 다 빈치입니다.",
-    imageUrl: "/images/giants/da-vinci.jpg",
+    imageUrl: "/images/giants/leonardo-da-vinci.png",
     era: "15-16세기"
   },
   {
@@ -1033,7 +1033,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 모차르트입니다.",
-    imageUrl: "/images/giants/mozart.jpg",
+    imageUrl: "/images/giants/mozart.png",
     era: "18세기"
   },
   {
@@ -1091,7 +1091,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 알베르트 아인슈타인입니다.",
-    imageUrl: "/images/giants/einstein.jpg",
+    imageUrl: "/images/giants/albert-einstein.png",
     era: "20세기"
   },
   {
@@ -1120,7 +1120,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마리 퀴리입니다.",
-    imageUrl: "/images/giants/marie-curie.jpg",
+    imageUrl: "/images/giants/marie-curie.png",
     era: "19-20세기"
   },
   {
@@ -1178,7 +1178,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 빈센트 반 고흐입니다.",
-    imageUrl: "/images/giants/vincent-van-gogh.jpg",
+    imageUrl: "/images/giants/vincent-van-gogh.png",
     era: "19세기"
   },
   {
@@ -1207,7 +1207,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 에이브러햄 링컨입니다.",
-    imageUrl: "/images/giants/abraham-lincoln.jpg",
+    imageUrl: "/images/giants/abraham-lincoln.png",
     era: "19세기"
   },
   {
@@ -2541,7 +2541,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 아이작 뉴턴입니다.",
-    imageUrl: "/images/giants/newton.png",
+    imageUrl: "/images/giants/isaac-newton.png",
     era: "17-18세기"
   },
   {
@@ -2657,7 +2657,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 클로드 모네입니다.",
-    imageUrl: "/images/giants/monet.jpg",
+    imageUrl: "/images/giants/claude-monet.png",
     era: "19-20세기"
   },
   {
@@ -2802,7 +2802,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 카츠시카 호쿠사이입니다.",
-    imageUrl: "/images/giants/hokusai.jpg",
+    imageUrl: "/images/giants/katsushika-hokusai.png",
     era: "18-19세기"
   },
   {
@@ -2918,7 +2918,36 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 메리 셸리입니다.",
-    imageUrl: "/images/giants/mary-shelley.jpg",
+    imageUrl: "/images/giants/mary-shelley.png",
     era: "19세기"
+  },
+  {
+    id: "101",
+    name: "제인 오스틴",
+    category: "창의",
+    headline: "1775년 영국의 평범한 성직자 가정에서 태어난 제인 오스틴은 날카로운 관찰력과 위트로 인간의 본성을 꿰뚫어 보았던...",
+    shortDescription: "제인 오스틴의 일대기와 지혜",
+    slug: "jane-austen",
+    dnaCode: "LPHI",
+    quote: "진실한 마음",
+    pain: "여성 작가로서의 한계와 익명 출판, 그리고 평생을 따라다닌 경제적 불안정과 신분 사회의 제약 속에서 겪은 내적 갈등.",
+    recovery: "일상의 평범함 속에 숨겨진 위대한 진실을 포착하여 '오만과 편견' 등 불멸의 고전을 남겼으며, 근대 소설의 새로운 지평을 염.",
+    lessons: [
+      {
+        title: "진실한 마음",
+        content: "편견은 사람을 멀어지게 하고 오만은 자신을 가둡니다. 당신의 마음을 솔직하게 들여다보고 타인을 편견 없이 바라보는 용기를 가지십시오."
+      },
+      {
+        title: "관찰의 힘",
+        content: "가장 비범한 이야기는 당신의 가장 평범한 일상 속에 숨어 있습니다. 주변 사람들의 작은 몸짓과 대화 속에 담긴 진실을 포착하는 섬세한 눈을 기르십시오."
+      },
+      {
+        title: "자아의 품격",
+        content: "당신의 가치는 타인의 시선이나 사회적 지위가 결정하는 것이 아닙니다. 스스로의 지성과 덕성을 가꾸며 어떤 상황에서도 당신만의 품위를 잃지 마십시오."
+      }
+    ],
+    persona: "당신은 제인 오스틴입니다.",
+    imageUrl: "/images/giants/jane-austen.png",
+    era: "18-19세기"
   }
 ];

@@ -1426,6 +1426,19 @@
         "How did you overcome your most difficult challenges?",
         "What is the most important piece of advice you can give me?"
       ]
+    },
+    "jane-austen": {
+      "name": "Jane Austen",
+      "headline": "The master of social commentary who used wit and observation to reveal the intricacies of the human heart.",
+      "shortDescription": "The literary genius of Jane Austen.",
+      "quote": "A Sincere Heart",
+      "era": "18th-19th Century Giant",
+      "chatGreeting": "Greetings, I am Jane Austen. Do you seek the path of wisdom or have questions about my life's journey?",
+      "suggestedQuestions": [
+        "Tell me about your greatest achievement, Jane Austen.",
+        "How did you overcome your most difficult challenges?",
+        "What is the most important piece of advice you can give me?"
+      ]
     }
   },
   "Chat": {
