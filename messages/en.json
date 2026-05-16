@@ -1535,42 +1535,28 @@
   "Privacy": {
     "title": "Privacy Policy",
     "lastUpdated": "Last Updated: May 16, 2026",
-    "sections": {
-      "intro": "Giants Wisdom ('we', 'our', or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website.",
-      "googleAdSense": {
-        "title": "Google AdSense and Cookies",
-        "content": "We use Google AdSense to serve advertisements on our site. Google, as a third-party vendor, uses cookies to serve ads on our site. Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our site and/or other sites on the Internet. Users may opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads)."
-      },
-      "aiProcessing": {
-        "title": "AI Processing and Data Collection",
-        "content": "Our service uses the Google Gemini 2.5 API to provide AI-powered chat simulations with historical figures. While we process your inputs to generate responses, we do not store personally identifiable information (PII) for the purpose of selling it to third parties. Please avoid sharing sensitive personal information in the chat interface."
-      },
-      "cookies": {
-        "title": "Cookies and Tracking",
-        "content": "We use cookies to enhance your browsing experience, analyze site traffic, and understand where our audience is coming from. By using our site, you consent to our use of cookies."
-      }
-    }
+    "summaryTitle": "1. Key Summary",
+    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
+    "collectionTitle": "2. Data We Collect and How We Collect It",
+    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
+    "purposeTitle": "3. How We Use the Information",
+    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 30-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
+    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
+    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. You can easily opt out of personalized tracking at any time by configuring your preferences directly at Google Ads Settings ([https://www.google.com/settings/ads](https://www.google.com/settings/ads)).",
+    "retentionTitle": "5. Data Retention and Destruction",
+    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
+    "rightsTitle": "6. Your Rights and Contact Information",
+    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
   },
   "Terms": {
     "title": "Terms of Service",
     "lastUpdated": "Last Updated: May 16, 2026",
-    "sections": {
-      "service": {
-        "title": "Service Description",
-        "content": "Giants Wisdom provides an interactive platform for historical persona dialogue simulations and personality tests for educational and inspirational purposes."
-      },
-      "disclaimer": {
-        "title": "AI and Accuracy Disclaimer",
-        "content": "The AI-generated responses from historical figures are simulations based on large language models (Gemini 2.5). These responses do not represent flawless historical facts, nor should they be considered as professional medical, legal, or financial advice. We are not liable for any inaccuracies, hallucinations, or actions taken based on AI output."
-      },
-      "advertisements": {
-        "title": "Advertisements",
-        "content": "By using our service, you acknowledge and agree that Giants Wisdom may display advertisements provided by Google AdSense and other third-party partners."
-      },
-      "conduct": {
-        "title": "User Conduct",
-        "content": "Users are prohibited from using the service to generate harmful, illegal, or offensive content. We reserve the right to terminate access for any user who violates these terms."
-      }
-    }
+    "intro": "Welcome to Giants Wisdom. These terms govern your engagement with our original personality metrics and conversational historical simulations.",
+    "aiTitle": "1. AI Core Infrastructure & Medical/Legal Disclaimer",
+    "aiDesc": "All dialogues with figures displayed across this service are interactive simulations powered entirely by generative AI architectures (Gemini 2.5). The outputs and advice provided are intended strictly for educational and entertainment purposes. They absolutely do not constitute flawless historical records, professional psychological assessment, medical diagnoses, legal counsel, or financial advice. Giants Wisdom holds no liability for AI hallucinations or choices made based on system feedback.",
+    "intellectualTitle": "2. Intellectual Property Rights",
+    "intellectualDesc": "All layouts, brand trademarks, the '4 Pillars of Greatness' testing framework, 30 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom. Unsanctioned copying, commercial syndication, or malicious scraping is heavily prohibited.",
+    "userDutyTitle": "3. User Responsibilities & Ad Presentation Consent",
+    "userDutyDesc": "Users agree to navigate our nodes in a safe, non-destructive manner. By engaging with our free access tier, you explicitly grant consent for third-party networks, including Google AdSense, to display automated banner advertisements across the user interface."
   }
 }
