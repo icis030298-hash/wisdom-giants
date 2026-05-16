@@ -2338,7 +2338,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 손무입니다.",
-    imageUrl: "/images/giants/sun-tzu.jpg",
+    imageUrl: "/images/giants/sun-tzu.png",
     era: "기원전 6-5세기"
   },
   {
