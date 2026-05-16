@@ -1,7 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { createClient } from "@/utils/supabase/client"
+import { auth } from "@/lib/firebase"
+import { onAuthStateChanged, signOut, User } from "firebase/auth"
 import { toast } from "sonner"
 import { useRouter } from "@/i18n/routing"
 import { useTranslations } from "next-intl"
@@ -14,50 +15,35 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { ChevronDown, LayoutDashboard, LogOut, Loader2 } from "lucide-react"
+import { ChevronDown, MessageCircle, LogOut, Loader2 } from "lucide-react"
 import { Link } from "@/i18n/routing"
+import { LoginModal } from "./login-modal"
 
 export function AuthButton() {
-  const t = useTranslations("Navigation")
+  const t = useTranslations("Auth")
+  const navT = useTranslations("Navigation")
   const router = useRouter()
-  const supabase = createClient()
-  const [user, setUser] = useState<any>(null)
+  const [user, setUser] = useState<User | null>(null)
   const [status, setStatus] = useState<"loading" | "authenticated" | "unauthenticated">("loading")
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false)
 
   useEffect(() => {
-    const getUser = async () => {
-      try {
-        const { data: { user } } = await supabase.auth.getUser()
-        setUser(user)
-        setStatus(user ? "authenticated" : "unauthenticated")
-      } catch (error) {
-        setStatus("unauthenticated")
-      }
-    }
-    getUser()
-
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-      setUser(session?.user ?? null)
-      setStatus(session?.user ? "authenticated" : "unauthenticated")
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+      setUser(currentUser)
+      setStatus(currentUser ? "authenticated" : "unauthenticated")
     })
 
-    return () => subscription.unsubscribe()
-  }, [supabase])
-
-  const handleSignIn = async () => {
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
-      },
-    })
-    if (error) toast.error(error.message)
-  }
+    return () => unsubscribe()
+  }, [])
 
   const handleSignOut = async () => {
-    const { error } = await supabase.auth.signOut()
-    if (error) toast.error(error.message)
-    else router.push("/")
+    try {
+      await signOut(auth)
+      toast.success("Logged out successfully")
+      router.push("/")
+    } catch (error: any) {
+      toast.error(error.message)
+    }
   }
 
   if (status === "loading") {
@@ -73,37 +59,38 @@ export function AuthButton() {
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <button className="flex items-center gap-3 pl-1 pr-3 py-1 rounded-full glass border border-white/10 hover:bg-white/5 transition-all outline-none group">
-            <Avatar className="w-8 h-8 border border-white/10">
-              <AvatarImage src={user.user_metadata?.avatar_url || ""} />
+            <Avatar className="w-8 h-8 border border-white/10 shadow-[0_0_10px_rgba(245,158,11,0.2)]">
+              <AvatarImage src={user.photoURL || ""} />
               <AvatarFallback className="bg-amber-500/20 text-amber-200 text-[10px]">
-                {user.user_metadata?.full_name?.charAt(0)}
+                {user.displayName?.charAt(0)}
               </AvatarFallback>
             </Avatar>
             <span className="hidden sm:inline text-sm font-medium text-foreground group-hover:text-amber-200 transition-colors">
-              {user.user_metadata?.full_name?.split(" ")[0]}
+              {user.displayName?.split(" ")[0]}
             </span>
             <ChevronDown className="w-3 h-3 text-muted-foreground" />
           </button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent align="end" className="w-64 glass border-white/10 p-2 mt-2">
+        <DropdownMenuContent align="end" className="w-64 glass border-white/10 p-2 mt-2 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
           <DropdownMenuLabel className="font-normal">
-            <div className="flex flex-col space-y-1">
-              <p className="text-sm font-medium leading-none text-foreground">{user.user_metadata?.full_name}</p>
+            <div className="flex flex-col space-y-1 p-1">
+              <p className="text-sm font-medium leading-none text-foreground">{user.displayName}</p>
               <p className="text-xs leading-none text-muted-foreground">{user.email}</p>
             </div>
           </DropdownMenuLabel>
           <DropdownMenuSeparator className="bg-white/10" />
           <DropdownMenuItem asChild>
-            <Link href="/chats" className="cursor-pointer flex items-center gap-2 text-muted-foreground focus:text-amber-200 focus:bg-amber-500/10">
-              <LayoutDashboard className="w-4 h-4" />
+            <Link href="/chats" className="cursor-pointer flex items-center gap-3 p-3 rounded-lg text-muted-foreground hover:text-amber-200 hover:bg-amber-500/10 transition-colors group">
+              <MessageCircle className="w-4 h-4 text-amber-500/50 group-hover:text-amber-400" />
               <span>{t("chatList")}</span>
             </Link>
           </DropdownMenuItem>
+          <DropdownMenuSeparator className="bg-white/10" />
           <DropdownMenuItem 
             onClick={handleSignOut}
-            className="cursor-pointer flex items-center gap-2 text-rose-400 focus:text-rose-300 focus:bg-rose-500/10"
+            className="cursor-pointer flex items-center gap-3 p-3 rounded-lg text-rose-400 focus:text-rose-300 focus:bg-rose-500/10 transition-colors group"
           >
-            <LogOut className="w-4 h-4" />
+            <LogOut className="w-4 h-4 text-rose-500/50 group-hover:text-rose-400" />
             <span>{t("logout")}</span>
           </DropdownMenuItem>
         </DropdownMenuContent>
@@ -112,11 +99,14 @@ export function AuthButton() {
   }
 
   return (
-    <button 
-      onClick={handleSignIn}
-      className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-sm hover:shadow-[0_0_20px_rgba(245,158,11,0.3)] transition-all transform hover:-translate-y-0.5 active:translate-y-0"
-    >
-      {t("login")}
-    </button>
+    <>
+      <button 
+        onClick={() => setIsLoginModalOpen(true)}
+        className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-sm hover:shadow-[0_0_20px_rgba(245,158,11,0.3)] transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+      >
+        {navT("login")}
+      </button>
+      <LoginModal isOpen={isLoginModalOpen} onClose={() => setIsLoginModalOpen(false)} />
+    </>
   )
 }
