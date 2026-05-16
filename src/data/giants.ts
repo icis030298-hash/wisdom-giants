@@ -1764,7 +1764,7 @@ export const giantsData: Giant[] = [
   {
     id: "61",
     name: "오스카 쉰들러",
-    category: "지혜",
+    category: "역경",
     headline: "1908년 오스트리아-헝가리 제국의 유복한 사업가 가문에서 오스카 쉰들러가 태어났습니다. 그의 유년기는...",
     shortDescription: "오스카 쉰들러의 일대기와 지혜",
     slug: "oskar-schindler",
@@ -1787,7 +1787,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 오스카 쉰들러입니다.",
-    imageUrl: "/images/giants/oskar-schindler.jpg",
+    imageUrl: "/images/giants/oskar-schindler.png",
     era: "20세기"
   },
   {
@@ -1816,13 +1816,13 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 플로렌스 나이팅게일입니다.",
-    imageUrl: "/images/giants/florence-nightingale.jpg",
+    imageUrl: "/images/giants/florence-nightingale.png",
     era: "19세기"
   },
   {
     id: "63",
     name: "유관순",
-    category: "지혜",
+    category: "역경",
     headline: "1902년 충남 천안의 독실한 기독교 가문에서 유관순이 태어났습니다. 그녀의 유년기는 국권을 빼앗긴 망...",
     shortDescription: "유관순의 일대기와 지혜",
     slug: "yu-gwan-sun",
@@ -1874,13 +1874,13 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 루이 브라이유입니다.",
-    imageUrl: "/images/giants/louis-braille.jpg",
+    imageUrl: "/images/giants/louis-braille.png",
     era: "19세기"
   },
   {
     id: "65",
     name: "잔 다르크",
-    category: "지혜",
+    category: "역경",
     headline: "1412년 프랑스의 작은 마을 동레미의 가난한 농가에서 잔 다르크가 태어났습니다. 그녀의 유년기는 백년...",
     shortDescription: "잔 다르크의 일대기와 지혜",
     slug: "joan-of-arc",
@@ -1903,7 +1903,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 잔 다르크입니다.",
-    imageUrl: "/images/giants/joan-of-arc.jpg",
+    imageUrl: "/images/giants/joan-of-arc.png",
     era: "15세기"
   },
   {
@@ -1932,13 +1932,13 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 데스몬드 투투입니다.",
-    imageUrl: "/images/giants/desmond-tutu.jpg",
+    imageUrl: "/images/giants/desmond-tutu.png",
     era: "20-21세기"
   },
   {
     id: "67",
     name: "엘리 위젤",
-    category: "지혜",
+    category: "역경",
     headline: "1928년 루마니아의 신실한 유대인 마을에서 '기억의 수호자' 엘리 위젤이 태어났습니다. 그의 유년기는...",
     shortDescription: "엘리 위젤의 일대기와 지혜",
     slug: "elie-wiesel",
@@ -1961,7 +1961,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 엘리 위젤입니다.",
-    imageUrl: "/images/giants/elie-wiesel.jpg",
+    imageUrl: "/images/giants/elie-wiesel.png",
     era: "20-21세기"
   },
   {
@@ -1990,7 +1990,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 해리엇 비처 스토입니다.",
-    imageUrl: "/images/giants/harriet-beecher-stowe.jpg",
+    imageUrl: "/images/giants/harriet-beecher-stowe.png",
     era: "19세기"
   },
   {
@@ -2019,7 +2019,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 리고베르타 멘추입니다.",
-    imageUrl: "/images/giants/rigoberta-menchu.jpg",
+    imageUrl: "/images/giants/rigoberta-menchu.png",
     era: "20-21세기"
   },
   {
@@ -2048,7 +2048,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 테리 폭스입니다.",
-    imageUrl: "/images/giants/terry-fox.jpg",
+    imageUrl: "/images/giants/terry-fox.png",
     era: "20세기"
   },
   {
@@ -2106,7 +2106,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 붓다입니다.",
-    imageUrl: "/images/giants/buddha.jpg",
+    imageUrl: "/images/giants/buddha.png",
     era: "기원전 6-5세기"
   },
   {
@@ -2135,7 +2135,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 프리드리히 니체입니다.",
-    imageUrl: "/images/giants/nietzsche.jpg",
+    imageUrl: "/images/giants/friedrich-nietzsche.png",
     era: "19세기"
   },
   {
@@ -2164,7 +2164,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 이마누엘 칸트입니다.",
-    imageUrl: "/images/giants/kant.jpg",
+    imageUrl: "/images/giants/immanuel-kant.png",
     era: "18-19세기"
   },
   {
@@ -2193,7 +2193,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 르네 데카르트입니다.",
-    imageUrl: "/images/giants/descartes.jpg",
+    imageUrl: "/images/giants/rene-descartes.png",
     era: "17세기"
   },
   {
@@ -2222,7 +2222,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 장 자크 루소입니다.",
-    imageUrl: "/images/giants/rousseau.jpg",
+    imageUrl: "/images/giants/jean-jacques-rousseau.png",
     era: "18세기"
   },
   {
@@ -2251,7 +2251,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 지그문트 프로이트입니다.",
-    imageUrl: "/images/giants/freud.jpg",
+    imageUrl: "/images/giants/sigmund-freud.png",
     era: "19-20세기"
   },
   {
