@@ -917,7 +917,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 레오나르도 다 빈치입니다.",
-    imageUrl: "/images/giants/leonardo-da-vinci.png",
+    imageUrl: "/images/giants/leonardo-da-vinci-sticker.png",
     era: "15-16세기"
   },
   {
@@ -1033,7 +1033,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 모차르트입니다.",
-    imageUrl: "/images/giants/mozart.png",
+    imageUrl: "/images/giants/mozart-sticker.png",
     era: "18세기"
   },
   {
@@ -1062,7 +1062,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 윌리엄 셰익스피어입니다.",
-    imageUrl: "/images/giants/william-shakespeare.png",
+    imageUrl: "/images/giants/william-shakespeare-sticker.png",
     era: "16-17세기"
   },
   {
@@ -1091,7 +1091,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 알베르트 아인슈타인입니다.",
-    imageUrl: "/images/giants/albert-einstein.png",
+    imageUrl: "/images/giants/albert-einstein-sticker.png",
     era: "20세기"
   },
   {
@@ -1120,7 +1120,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마리 퀴리입니다.",
-    imageUrl: "/images/giants/marie-curie.png",
+    imageUrl: "/images/giants/marie-curie-sticker.png",
     era: "19-20세기"
   },
   {
@@ -1178,7 +1178,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 빈센트 반 고흐입니다.",
-    imageUrl: "/images/giants/vincent-van-gogh.png",
+    imageUrl: "/images/giants/vincent-van-gogh-sticker.png",
     era: "19세기"
   },
   {
@@ -1207,7 +1207,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 에이브러햄 링컨입니다.",
-    imageUrl: "/images/giants/abraham-lincoln.png",
+    imageUrl: "/images/giants/abraham-lincoln-sticker.png",
     era: "19세기"
   },
   {
@@ -2541,7 +2541,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 아이작 뉴턴입니다.",
-    imageUrl: "/images/giants/isaac-newton.png",
+    imageUrl: "/images/giants/isaac-newton-sticker.png",
     era: "17-18세기"
   },
   {
@@ -2657,7 +2657,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 클로드 모네입니다.",
-    imageUrl: "/images/giants/claude-monet.png",
+    imageUrl: "/images/giants/claude-monet-sticker.png",
     era: "19-20세기"
   },
   {
@@ -2918,7 +2918,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 메리 셸리입니다.",
-    imageUrl: "/images/giants/mary-shelley.png",
+    imageUrl: "/images/giants/mary-shelley-sticker.png",
     era: "19세기"
   },
   {
@@ -2947,7 +2947,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 제인 오스틴입니다.",
-    imageUrl: "/images/giants/jane-austen.png",
+    imageUrl: "/images/giants/jane-austen-sticker.png",
     era: "18-19세기"
   }
 ];
