@@ -42,11 +42,18 @@ export default function ChatsPage() {
       return;
     }
 
-    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
-      setUser(currentUser);
+    const unsubscribe = auth.onAuthStateChanged(async (currentUser) => {
       if (currentUser) {
+        setUser(currentUser);
+        try {
+          // Pre-warm token cache to bypass the 40-second Firestore authentication stall
+          await currentUser.getIdToken();
+        } catch (e) {
+          console.warn("Token pre-fetch failed:", e);
+        }
         fetchChats(currentUser.uid);
       } else {
+        setUser(null);
         setChats([]);
         setLoading(false);
       }
@@ -67,12 +74,18 @@ export default function ChatsPage() {
     
     try {
       fetchingRef.current = true;
-      console.time("chats-fetch-perf");
-      console.log("[Firestore]: Starting fast one-time chat history fetch...");
       setLoading(true);
-      
+
+      // 1. Measure Token Latency
+      console.time("① token-wait");
+      await auth?.currentUser?.getIdToken();
+      console.timeEnd("① token-wait");
+
+      // 2. Measure Firestore Query Latency
+      console.time("② firestore-query");
       const q = query(collection(db, "chats"), where("userId", "==", uid));
       const querySnapshot = await getDocs(q); // Pure one-time call
+      console.timeEnd("② firestore-query");
       
       const fetchedChats = querySnapshot.docs.map(doc => ({
         id: doc.id,
@@ -91,7 +104,6 @@ export default function ChatsPage() {
     } catch (error) {
       console.error("🚨 [Firestore Fetch Error]:", error);
     } finally {
-      console.timeEnd("chats-fetch-perf");
       setLoading(false);
       fetchingRef.current = false;
     }
