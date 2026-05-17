@@ -41,20 +41,10 @@ export default function ChatsPage() {
       return;
     }
 
-    const unsubscribe = auth.onAuthStateChanged(async (currentUser) => {
+    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
       setUser(currentUser);
       if (currentUser) {
-        // Enforce strict token readiness and block duplicate concurrent fetches
-        if (!fetchingRef.current) {
-          fetchingRef.current = true;
-          try {
-            await fetchChats(currentUser.uid);
-          } catch (err) {
-            console.error("[Auth Guard Fetch Error]:", err);
-          } finally {
-            fetchingRef.current = false;
-          }
-        }
+        fetchChats(currentUser.uid);
       } else {
         setChats([]);
         setLoading(false);
@@ -67,7 +57,14 @@ export default function ChatsPage() {
   const fetchChats = async (uid: string) => {
     if (!db) return;
     
+    // Explicitly abort redundant fetches to avoid HTTP/2 socket bottlenecks
+    if (fetchingRef.current) {
+      console.log("🛑 [Guard]: Duplicate execution aborted to prevent server socket deadlock.");
+      return;
+    }
+    
     try {
+      fetchingRef.current = true;
       console.time("chats-fetch-perf");
       console.log("[Firestore]: Starting fast one-time chat history fetch...");
       setLoading(true);
@@ -94,6 +91,7 @@ export default function ChatsPage() {
     } finally {
       console.timeEnd("chats-fetch-perf");
       setLoading(false);
+      fetchingRef.current = false;
     }
   };
 
