@@ -125,6 +125,13 @@ export default async function RootLayout({
                 });
               `}
             </Script>
+            {/* Kakao SDK Setup */}
+            <Script 
+              src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" 
+              integrity="sha384-TiCmbV0XfT/N4YsqK1w0k2z52fG9nJbH2vK1L2/gRzpbhGlsXet0yGk5ZpP2mD0B" 
+              crossOrigin="anonymous" 
+              strategy="afterInteractive" 
+            />
             <div className="flex-grow">
               {children}
             </div>
