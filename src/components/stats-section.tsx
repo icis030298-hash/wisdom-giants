@@ -2,6 +2,7 @@
 
 import { Brain, Clock, MessageCircle, Sparkles, BookOpen, Users } from "lucide-react"
 import { useTranslations } from "next-intl"
+import { giants } from "@/lib/giants-data"
 
 export function StatsSection() {
   const t = useTranslations("Stats")
@@ -34,7 +35,7 @@ export function StatsSection() {
   ]
 
   const stats = [
-    { value: "95+", label: t("stats.minds"), icon: Users },
+    { value: `${giants.length}+`, label: t("stats.minds"), icon: Users },
     { value: "2,500+", label: t("stats.history"), icon: Clock },
     { value: "12", label: t("stats.fields"), icon: BookOpen },
     { value: "∞", label: t("stats.inspiration"), icon: MessageCircle },
