@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react"
 import { auth, db } from "@/lib/firebase"
 import Image from "next/image"
-import { collection, query, where, orderBy, getDocs, Timestamp } from "firebase/firestore"
+import { Timestamp } from "firebase/firestore"
 import { useTranslations, useLocale } from "next-intl"
 import { useRouter } from "@/i18n/routing"
 import { Navigation } from "@/components/navigation"
@@ -64,45 +64,81 @@ export default function ChatsPage() {
 
   const fetchChats = async (uid: string) => {
     if (typeof window === "undefined") return;
-    if (!db) return;
+    if (fetchingRef.current) return;
+    if (!auth?.currentUser) return;
     
-    // Explicitly abort redundant fetches to avoid HTTP/2 socket bottlenecks
-    if (fetchingRef.current) {
-      console.log("🛑 [Guard]: Duplicate execution aborted to prevent server socket deadlock.");
-      return;
-    }
-    
+    fetchingRef.current = true;
+    setLoading(true);
+
     try {
-      fetchingRef.current = true;
-      setLoading(true);
-
-      // 1. Measure Token Latency
       console.time("① token-wait");
-      await auth?.currentUser?.getIdToken();
+      const token = await auth.currentUser.getIdToken();
       console.timeEnd("① token-wait");
-
-      // 2. Measure Firestore Query Latency
-      console.time("② firestore-query");
-      const q = query(collection(db, "chats"), where("userId", "==", uid));
-      const querySnapshot = await getDocs(q); // Pure one-time call
-      console.timeEnd("② firestore-query");
       
-      const fetchedChats = querySnapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      })) as ChatHistory[];
+      const projectId = process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID;
 
-      // Client-side sort for absolute safety against server-side index latency
-      const sortedChats = fetchedChats.sort((a, b) => {
-        const timeA = a.updatedAt?.toMillis?.() || 0;
-        const timeB = b.updatedAt?.toMillis?.() || 0;
-        return timeB - timeA;
-      });
+      console.time("② REST-query");
+      const response = await fetch(
+        `https://firestore.googleapis.com/v1/projects/${projectId}/databases/(default)/documents:runQuery`,
+        {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${token}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            structuredQuery: {
+              from: [{ collectionId: "chats" }],
+              where: {
+                fieldFilter: {
+                  field: { fieldPath: "userId" },
+                  op: "EQUAL",
+                  value: { stringValue: uid },
+                },
+              },
+              orderBy: [
+                { field: { fieldPath: "updatedAt" }, direction: "DESCENDING" }
+              ],
+            },
+          }),
+        }
+      );
+      console.timeEnd("② REST-query");
 
-      setChats(sortedChats);
-      console.log(`[Firestore]: Successfully fetched ${sortedChats.length} chats.`);
+      const results = await response.json();
+
+      if (!Array.isArray(results)) {
+        console.warn("[REST Warning]: Expected array from Firestore query, got:", results);
+        setChats([]);
+        return;
+      }
+
+      const fetchedChats = results
+        .filter((r: any) => r.document)
+        .map((r: any) => {
+          const fields = r.document.fields;
+          const docId = r.document.name.split("/").pop();
+          return {
+            id: docId,
+            giantId: fields.giantId?.stringValue || "",
+            giantSlug: fields.giantSlug?.stringValue || "",
+            giantName: fields.giantName?.stringValue || "",
+            giantImage: fields.giantImage?.stringValue || undefined,
+            lastMessage: fields.lastMessage?.stringValue || "",
+            updatedAt: fields.updatedAt?.timestampValue
+              ? Timestamp.fromDate(new Date(fields.updatedAt.timestampValue))
+              : null,
+            messageCount: Number(
+              fields.messageCount?.integerValue ||
+              fields.messageCount?.doubleValue || 0
+            ),
+          } as ChatHistory;
+        });
+
+      setChats(fetchedChats);
+      console.log(`[REST]: Successfully fetched ${fetchedChats.length} chats.`);
     } catch (error) {
-      console.error("🚨 [Firestore Fetch Error]:", error);
+      console.error("🚨 [REST Fetch Error]:", error);
     } finally {
       setLoading(false);
       fetchingRef.current = false;
