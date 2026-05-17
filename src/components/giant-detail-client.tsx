@@ -214,7 +214,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       </div>
 
       {/* Content Section */}
-      <div className="max-w-6xl mx-auto px-8 py-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <div className="max-w-6xl mx-auto px-4 md:px-8 py-10 md:py-16 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
         {/* Left Column: Sagas */}
         <div className="lg:col-span-2 space-y-20">
           {/* 1. Epic Narrative Section */}
@@ -227,16 +227,16 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 <h2 className="text-xl font-bold uppercase tracking-[0.2em]">{t.theLifeStory}</h2>
               </div>
               
-              <div className="glass-card p-12 md:p-16 rounded-[3rem] border border-white/[0.08] bg-gradient-to-br from-white/[0.05] to-transparent shadow-2xl relative overflow-hidden group">
+              <div className="glass-card p-6 md:p-12 lg:p-16 rounded-2xl md:rounded-[3rem] border border-white/[0.08] bg-gradient-to-br from-white/[0.05] to-transparent shadow-2xl relative overflow-hidden group">
                 <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-500/[0.02] rounded-full blur-[100px]" />
                 
-                <div className="relative z-10 space-y-10">
+                <div className="relative z-10 space-y-6 md:space-y-10">
                   {(epicContent || "").split(/\n\n|\\n\\n/).map((paragraph, idx) => (
                     paragraph ? (
                       <p 
                         key={idx} 
-                        className={`text-lg md:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-justify
-                          ${idx === 0 ? 'first-letter:text-6xl first-letter:font-serif first-letter:mr-4 first-letter:float-left first-letter:text-amber-400 first-letter:font-black first-letter:leading-none first-letter:mt-2' : ''}`}
+                        className={`text-base md:text-lg lg:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-left md:text-justify
+                          ${idx === 0 ? 'first-letter:text-5xl md:first-letter:text-6xl first-letter:font-serif first-letter:mr-3 md:first-letter:mr-4 first-letter:float-left first-letter:text-amber-400 first-letter:font-black first-letter:leading-none first-letter:mt-1 md:first-letter:mt-2' : ''}`}
                       >
                         {paragraph}
                       </p>
@@ -248,19 +248,19 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           )}
 
           {/* 2. Trials & Overcoming Combined into a sophisticated layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {/* Trials */}
-            <section className="space-y-6">
+            <section className="space-y-4 md:space-y-6">
               <div className="flex items-center gap-3 text-red-400/80">
                 <History className="w-5 h-5" />
                 <h2 className="text-sm font-bold uppercase tracking-widest">{t.thePain}</h2>
               </div>
-              <div className="glass-card p-8 rounded-[2rem] border border-red-500/10 bg-red-500/[0.02] relative group overflow-hidden">
+              <div className="glass-card p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-red-500/10 bg-red-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-red-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <div className="relative z-10 space-y-4">
+                <div className="relative z-10 space-y-3 md:space-y-4">
                   {(trialsContent || "").split(/\n\n|\\n\\n/).map((p, i) => (
                     p ? (
-                      <p key={i} className="text-slate-200 leading-relaxed font-normal">
+                      <p key={i} className="text-sm md:text-base text-slate-200 leading-relaxed font-normal">
                         {p}
                       </p>
                     ) : null
@@ -270,17 +270,17 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
             </section>
 
             {/* Overcoming */}
-            <section className="space-y-6">
+            <section className="space-y-4 md:space-y-6">
               <div className="flex items-center gap-3 text-emerald-400/80">
                 <HeartPulse className="w-5 h-5" />
                 <h2 className="text-sm font-bold uppercase tracking-widest">{t.theRecovery}</h2>
               </div>
-              <div className="glass-card p-8 rounded-[2rem] border border-emerald-500/10 bg-emerald-500/[0.02] relative group overflow-hidden">
+              <div className="glass-card p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-emerald-500/10 bg-emerald-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <div className="relative z-10 space-y-4">
+                <div className="relative z-10 space-y-3 md:space-y-4">
                   {(overcomingContent || "").split(/\n\n|\\n\\n/).map((p, i) => (
                     p ? (
-                      <p key={i} className="text-slate-200 leading-relaxed font-normal">
+                      <p key={i} className="text-sm md:text-base text-slate-200 leading-relaxed font-normal">
                         {p}
                       </p>
                     ) : null
@@ -300,27 +300,27 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
             </div>
 
-            <div className="grid grid-cols-1 gap-10">
+            <div className="grid grid-cols-1 gap-6 md:gap-10">
               {wisdomList.length > 0 ? (
                 wisdomList.map((item: any, index: number) => (
-                  <div key={index} className="glass-card p-12 rounded-[3rem] border border-white/[0.05] hover:border-amber-500/30 transition-all duration-500 group relative overflow-hidden">
+                  <div key={index} className="glass-card p-6 md:p-12 rounded-2xl md:rounded-[3rem] border border-white/[0.05] hover:border-amber-500/30 transition-all duration-500 group relative overflow-hidden">
                     <div className="absolute -top-10 -left-10 w-40 h-40 bg-amber-500/[0.03] rounded-full blur-3xl group-hover:bg-amber-500/[0.07] transition-colors" />
                     
                     <div className="relative z-10">
-                      <div className="flex items-center gap-6 mb-10">
-                        <span className="text-5xl font-black text-amber-500/10 select-none">
+                      <div className="flex items-center gap-6 mb-6 md:mb-10">
+                        <span className="text-4xl md:text-5xl font-black text-amber-500/10 select-none">
                           0{index + 1}
                         </span>
                         <div className="h-px flex-1 bg-gradient-to-r from-amber-500/20 to-transparent" />
                       </div>
                       
-                      <blockquote className="text-2xl md:text-3xl font-serif italic text-amber-400/90 mb-10 leading-[1.4] tracking-tight whitespace-pre-wrap">
+                      <blockquote className="text-lg md:text-2xl lg:text-3xl font-serif italic text-amber-400/90 mb-6 md:mb-10 leading-[1.4] tracking-tight whitespace-pre-wrap">
                         &ldquo;{formatContent(item.quote)}&rdquo;
                       </blockquote>
                       
-                      <div className="relative pl-8">
+                      <div className="relative pl-5 md:pl-8">
                         <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-amber-500/40 to-transparent rounded-full" />
-                        <p className="text-lg text-slate-200 leading-relaxed font-normal whitespace-pre-wrap">
+                        <p className="text-sm md:text-base lg:text-lg text-slate-200 leading-relaxed font-normal whitespace-pre-wrap">
                           {formatContent(item.meaning)}
                         </p>
                       </div>
@@ -329,9 +329,9 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 ))
               ) : (
                 tg.lessons.map((lesson: any, index: number) => (
-                  <div key={index} className="glass-card p-8 rounded-2xl border border-white/5 hover:border-amber-500/30 transition-all group">
-                    <h3 className="text-xl font-bold text-foreground mb-2">{lesson.title}</h3>
-                    <p className="text-muted-foreground leading-relaxed">
+                  <div key={index} className="glass-card p-6 md:p-8 rounded-xl md:rounded-2xl border border-white/5 hover:border-amber-500/30 transition-all group">
+                    <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">{lesson.title}</h3>
+                    <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                       {lesson.content}
                     </p>
                   </div>
@@ -343,11 +343,11 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
 
         {/* Right Column: Profile & Quote */}
         <div className="space-y-8">
-          <div className="glass-card p-10 rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-white/[0.05] to-transparent sticky top-24 space-y-10">
+          <div className="glass-card p-6 md:p-10 rounded-2xl md:rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-white/[0.05] to-transparent sticky top-24 space-y-6 md:space-y-10">
             {/* Header with Quote Icon */}
             <div className="relative">
-              <Quote className="w-12 h-12 text-amber-500/20 absolute -top-6 -left-6" />
-              <blockquote className="text-2xl font-serif italic text-foreground leading-tight relative z-10 whitespace-pre-wrap">
+              <Quote className="w-8 h-8 md:w-12 md:h-12 text-amber-500/20 absolute -top-4 -left-4 md:-top-6 md:-left-6" />
+              <blockquote className="text-lg md:text-2xl font-serif italic text-foreground leading-tight relative z-10 whitespace-pre-wrap pl-2">
                 &ldquo;{formatContent(tg.quote)}&rdquo;
               </blockquote>
             </div>
