@@ -1758,7 +1758,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 해리엇 터브먼입니다.",
-    imageUrl: "/images/giants/harriet-tubman.jpg",
+    imageUrl: "/images/giants/harriet-tubman-sticker.png",
     era: "19-20세기"
   },
   {
@@ -2686,7 +2686,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 표도르 도스토옙스키입니다.",
-    imageUrl: "/images/giants/dostoevsky.jpg",
+    imageUrl: "/images/giants/dostoevsky-sticker.png",
     era: "19세기"
   },
   {
@@ -2715,7 +2715,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 빅토르 위고입니다.",
-    imageUrl: "/images/giants/hugo.jpg",
+    imageUrl: "/images/giants/hugo-sticker.png",
     era: "19세기"
   },
   {
@@ -2744,7 +2744,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 안톤 체호프입니다.",
-    imageUrl: "/images/giants/chekhov.jpg",
+    imageUrl: "/images/giants/chekhov-sticker.png",
     era: "19-20세기"
   },
   {
@@ -2773,7 +2773,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 프레데리크 쇼팽입니다.",
-    imageUrl: "/images/giants/chopin.jpg",
+    imageUrl: "/images/giants/chopin-sticker.png",
     era: "19세기"
   },
   {
@@ -2802,7 +2802,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 카츠시카 호쿠사이입니다.",
-    imageUrl: "/images/giants/katsushika-hokusai.png",
+    imageUrl: "/images/giants/katsushika-hokusai-sticker.png",
     era: "18-19세기"
   },
   {
