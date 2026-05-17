@@ -1,29 +1,35 @@
-import { MetadataRoute } from 'next';
-import { giants } from '@/lib/giants-data';
+import { MetadataRoute } from 'next'
+import { giants } from '@/lib/giants-data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://wisdomgiants.com';
-  const locales = ['en', 'ko'];
-  
-  const routes = ['', '/about', '/privacy', '/terms'];
-  
-  const staticPages = locales.flatMap(locale => 
-    routes.map(route => ({
-      url: `${baseUrl}/${locale}${route}`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: route === '' ? 1 : 0.8,
-    }))
-  );
+  const baseUrl = 'https://www.giantswisdom.com'
+  const locales = ['ko', 'en']
 
-  const giantPages = locales.flatMap(locale =>
-    giants.map(giant => ({
+  // 1. Static Pages (Home, About, Test)
+  const staticPages = [
+    { path: '', changeFrequency: 'daily' as const, priority: 1.0 },
+    { path: '/test', changeFrequency: 'weekly' as const, priority: 0.9 },
+    { path: '/about', changeFrequency: 'monthly' as const, priority: 0.5 },
+  ]
+
+  const staticEntries = locales.flatMap((locale) =>
+    staticPages.map((page) => ({
+      url: `${baseUrl}/${locale}${page.path}`,
+      lastModified: new Date(),
+      changeFrequency: page.changeFrequency,
+      priority: page.priority,
+    }))
+  )
+
+  // 2. Dynamic Giant Pages
+  const giantEntries = locales.flatMap((locale) =>
+    giants.map((giant) => ({
       url: `${baseUrl}/${locale}/giant/${giant.slug}`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
-      priority: 0.6,
+      priority: 0.8,
     }))
-  );
+  )
 
-  return [...staticPages, ...giantPages];
+  return [...staticEntries, ...giantEntries]
 }

@@ -77,7 +77,7 @@
     "guide": {
       "title": "Wisdom Hall Journey Guide",
       "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 100+ historical legends.",
+      "selectGiantDesc": "Find inspiring figures among 95+ historical legends.",
       "epic": "Epic Narratives",
       "epicDesc": "Read life records as if the giants themselves were telling them.",
       "chat": "Real-time Chat",
@@ -1545,7 +1545,7 @@
     "subIntro": "A space to step away from the noise and face true wisdom.",
     "visionTitle": "Standing on the Shoulders of Giants",
     "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 100 Giants",
+    "epicTitle": "The Grand Epics of 95 Giants",
     "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
     "chatTitle": "Dialogue Across Eras",
     "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
@@ -1584,5 +1584,19 @@
     "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
     "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
     "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+  },
+  "Cookie": {
+    "title": "Cookie Consent Settings",
+    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "customize": "Customize",
+    "savePreferences": "Save Preferences",
+    "necessary": "Necessary Cookies",
+    "necessaryDesc": "Required for the website to function properly. (Always Active)",
+    "analytics": "Analytics Cookies",
+    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
+    "advertising": "Advertising Cookies",
+    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
   }
-}
+}

@@ -22,16 +22,38 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: 'Giants Wisdom | AI Historical Mentors & Wisdom Archive',
     description: isKorean
-      ? '역사를 바꾼 100인의 위인들과 AI로 대화하세요. 30가지 상황 질문으로 나의 유산 DNA를 분석하고 영혼의 단짝 위인을 찾아보세요.'
-      : "Chat with 100+ history's greatest minds using AI. Discover your Heritage DNA through 30 situational questions and find your soul-matched historical giant.",
+      ? '역사를 바꾼 95인의 위인들과 AI로 대화하세요. 30가지 상황 질문으로 나의 유산 DNA를 분석하고 영혼의 단짝 위인을 찾아보세요.'
+      : "Chat with 95+ history's greatest minds using AI. Discover your Heritage DNA through 30 situational questions and find your soul-matched historical giant.",
     keywords: 'AI Chat, Historical Figures, Wisdom, Mentorship, History, Philosophy, Education, Giants Wisdom',
     authors: [{ name: 'Giants Wisdom Team' }],
+    alternates: {
+      canonical: `https://www.giantswisdom.com/${locale}`,
+      languages: {
+        'ko': 'https://www.giantswisdom.com/ko',
+        'en': 'https://www.giantswisdom.com/en',
+        'x-default': 'https://www.giantswisdom.com/ko'
+      }
+    },
     openGraph: {
       title: 'Giants Wisdom | AI Historical Mentors',
       description: isKorean
-        ? '역사를 바꾼 100인의 위인들과 AI로 대화하세요.'
-        : "Chat with 100+ history's greatest minds using AI.",
+        ? '역사를 바꾼 95인의 위인들과 AI로 대화하세요.'
+        : "Chat with 95+ history's greatest minds using AI.",
       type: 'website',
+      images: [{
+        url: 'https://www.giantswisdom.com/og-default.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Giants Wisdom - AI Historical Mentors & Wisdom Archive'
+      }]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      images: ['https://www.giantswisdom.com/og-default.jpg'],
+      title: 'Giants Wisdom | AI Historical Mentors & Wisdom Archive',
+      description: isKorean
+        ? '역사를 바꾼 95인의 위인들과 AI로 대화하세요. 30가지 상황 질문으로 나의 유산 DNA를 분석하고 영혼의 단짝 위인을 찾아보세요.'
+        : "Chat with 95+ history's greatest minds using AI. Discover your Heritage DNA through 30 situational questions and find your soul-matched historical giant.",
     },
     other: {
       "google-adsense-account": "ca-pub-2081809442345110",

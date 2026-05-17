@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Navigation } from "@/components/navigation"
 import { ChatInterface } from "@/components/chat-interface"
 import { useTranslations, useLocale } from "next-intl"
-import { useRouter } from "@/i18n/routing"
+import { useRouter, Link } from "@/i18n/routing"
 import { 
   ArrowLeft,
   MessageCircle,
@@ -23,6 +23,7 @@ import {
   Link2
 } from "lucide-react"
 import { archetypes } from "@/data/heritage-test"
+import { giants } from "@/lib/giants-data"
 
 interface GiantDetailClientProps {
   giant: any;
@@ -42,8 +43,25 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const searchParams = useSearchParams()
   const chatParam = searchParams.get('chat')
   const chatId = searchParams.get('chatId')
-  const mode = searchParams.get('mode')
   const dna = searchParams.get('dna')
+
+  // Related Giants Logic: filter by same category, exclude current giant, show 3 random
+  const currentCategory = giant.category;
+  const filteredGiants = giants.filter((g: any) => g.category === currentCategory && g.slug !== giant.slug);
+  
+  // Deterministic stable shuffle based on giant name length to prevent jumping around on render
+  const getRelatedGiants = () => {
+    if (filteredGiants.length <= 3) return filteredGiants;
+    const seed = giant.name.length;
+    const shuffled = [...filteredGiants].sort((a, b) => {
+      const valA = (a.slug.length * seed) % 10;
+      const valB = (b.slug.length * seed) % 10;
+      return valA - valB;
+    });
+    return shuffled.slice(0, 3);
+  };
+  const relatedGiants = getRelatedGiants();
+
 
   const shareCardRef = useRef<HTMLDivElement>(null)
   const [showToast, setShowToast] = useState(false)
@@ -140,6 +158,27 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
         
         <div className="absolute bottom-0 left-0 right-0 p-8 md:p-16 max-w-6xl mx-auto">
+          {/* Breadcrumb Navigation */}
+          <nav aria-label="breadcrumb" className="mb-6 flex items-center">
+            <ol className="flex items-center space-x-2 text-xs md:text-sm text-zinc-400 font-sans">
+              <li>
+                <Link href="/" className="hover:text-amber-400 transition-colors">
+                  {locale === 'ko' ? '홈' : 'Home'}
+                </Link>
+              </li>
+              <li className="text-zinc-600">/</li>
+              <li>
+                <Link href="/#giants" className="hover:text-amber-400 transition-colors">
+                  {locale === 'ko' ? '거인들의 전당' : 'Hall of Giants'}
+                </Link>
+              </li>
+              <li className="text-zinc-600">/</li>
+              <li className="text-amber-400 font-semibold truncate max-w-[150px] md:max-w-none" aria-current="page">
+                {tg.name}
+              </li>
+            </ol>
+          </nav>
+
           <button 
             onClick={() => router.push("/")}
             className="flex items-center gap-2 text-amber-400 mb-6 hover:text-amber-300 transition-colors"
@@ -341,7 +380,67 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
         </div>
       </div>
 
+      {/* Related Giants Recommendation */}
+      {relatedGiants.length > 0 && (
+        <div className="max-w-6xl mx-auto px-8 pb-24 space-y-12">
+          <div className="flex flex-col items-center gap-4 text-center">
+            <div className="w-12 h-12 rounded-full bg-amber-500/10 flex items-center justify-center border border-amber-500/20 shadow-[0_0_20px_rgba(245,158,11,0.1)]">
+              <Sparkles className="w-6 h-6 text-amber-400" />
+            </div>
+            <h2 className="text-3xl font-serif font-bold text-foreground">
+              {locale === 'ko' ? '관련 거인 추천' : 'Recommended Giants'}
+            </h2>
+            <p className="text-sm text-muted-foreground max-w-lg">
+              {locale === 'ko' 
+                ? '동일한 분야에서 뜻을 품고 역경을 이겨내며 인류에 기여한 거인들을 만나보세요.' 
+                : 'Explore the legacy of other giants who walked a similar path in this field.'}
+            </p>
+            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {relatedGiants.map((related: any) => {
+              return (
+                <Link
+                  key={related.slug}
+                  href={`/giant/${related.slug}`}
+                  className="group relative glass-card rounded-3xl p-6 border border-white/5 hover:border-amber-500/30 transition-all duration-500 flex flex-col h-full hover:scale-[1.02] bg-gradient-to-br from-white/[0.02] to-transparent overflow-hidden animate-fade-in-up"
+                >
+                  <div className="absolute inset-0 bg-gradient-to-br from-amber-500/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  
+                  <div className="relative w-full h-44 rounded-2xl overflow-hidden mb-6 bg-muted">
+                    <Image
+                      src={related.imageUrl}
+                      alt={`${related.name} - Giants Wisdom`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+                  </div>
+                  
+                  <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-300 transition-colors mb-1">
+                    {related.name}
+                  </h3>
+                  <p className="text-xs text-amber-400/80 mb-4 font-medium">{related.title || related.headline}</p>
+                  
+                  <p className="text-sm text-muted-foreground line-clamp-3 leading-relaxed mb-6 flex-1">
+                    {related.description}
+                  </p>
+                  
+                  <div className="mt-auto w-full py-3.5 rounded-xl bg-amber-500/10 group-hover:bg-amber-500/20 text-amber-300 text-xs font-semibold transition-all border border-amber-500/20 group-hover:border-amber-500/40 text-center flex items-center justify-center gap-1">
+                    <span>{locale === 'ko' ? '대서사시 읽기' : 'Read Epic'}</span>
+                    <span className="group-hover:translate-x-1 transition-transform">→</span>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
       {/* Chat Modal */}
+
       {isChatOpen && (
         <ChatInterface
           giant={giant}

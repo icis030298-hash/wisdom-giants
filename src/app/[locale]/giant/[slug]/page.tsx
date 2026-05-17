@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!giant) return {};
 
+  const isKorean = locale === 'ko';
   const messages = await getMessages({ locale });
   const giantData = (messages.Giants as any)[giant.slug] || {
     name: giant.name,
@@ -23,16 +24,60 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     quote: giant.quote
   };
 
+  const baseDesc = giantData.shortDescription || '';
+  const slicedDesc = baseDesc.length > 120 ? baseDesc.slice(0, 120) + '...' : baseDesc;
+  const description = isKorean
+    ? `${slicedDesc} ${giantData.name}와 AI로 직접 대화하고 지혜를 얻어보세요.`
+    : `${slicedDesc} Chat directly with ${giantData.name} via AI to gain wisdom.`;
+
+  const absoluteImageUrl = giant.imageUrl.startsWith('http')
+    ? giant.imageUrl
+    : `https://www.giantswisdom.com${giant.imageUrl}`;
+
   return {
-    title: `${giantData.name} | ${giantData.headline} - Giants Wisdom`,
-    description: `${giantData.shortDescription} Explore the wisdom, struggles, and recovery of ${giantData.name}. "${giantData.quote}"`,
+    title: isKorean
+      ? `${giantData.name} | AI 대화 - Giants Wisdom`
+      : `${giantData.name} | AI Chat - Giants Wisdom`,
+    description,
+    keywords: [
+      giantData.name,
+      giant.era,
+      giant.field,
+      isKorean ? "AI 대화" : "AI Chat",
+      isKorean ? "역사 위인" : "Historical Figure",
+      "Giants Wisdom"
+    ],
+    alternates: {
+      canonical: `https://www.giantswisdom.com/${locale}/giant/${slug}`,
+      languages: {
+        'ko': `https://www.giantswisdom.com/ko/giant/${slug}`,
+        'en': `https://www.giantswisdom.com/en/giant/${slug}`,
+        'x-default': `https://www.giantswisdom.com/ko/giant/${slug}`
+      }
+    },
     openGraph: {
       title: `${giantData.name} - Giants Wisdom`,
       description: giantData.headline,
-      images: [giant.imageUrl],
+      url: `https://www.giantswisdom.com/${locale}/giant/${slug}`,
+      type: 'website',
+      images: [{
+        url: absoluteImageUrl,
+        width: 800,
+        height: 800,
+        alt: `${giantData.name} - Giants Wisdom`
+      }],
     },
+    twitter: {
+      card: 'summary_large_image',
+      images: [absoluteImageUrl],
+      title: isKorean
+        ? `${giantData.name} | AI 대화 - Giants Wisdom`
+        : `${giantData.name} | AI Chat - Giants Wisdom`,
+      description,
+    }
   };
 }
+
 
 export default async function GiantDetailPage({ params }: Props) {
   const { locale, slug } = await params;

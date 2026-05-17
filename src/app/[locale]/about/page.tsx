@@ -15,13 +15,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: 'About | Giants Wisdom',
     description: isKorean
-      ? '역사를 바꾼 100인의 위인들과 AI로 대화하세요.'
-      : "Chat with 100+ of history's greatest minds using AI.",
+      ? '역사를 바꾼 95인의 위인들과 AI로 대화하세요.'
+      : "Chat with 95+ of history's greatest minds using AI.",
     openGraph: {
       title: 'About | Giants Wisdom',
       description: isKorean
-        ? '역사를 바꾼 100인의 위인들과 AI로 대화하세요.'
-        : "Chat with 100+ of history's greatest minds using AI.",
+        ? '역사를 바꾼 95인의 위인들과 AI로 대화하세요.'
+        : "Chat with 95+ of history's greatest minds using AI.",
       type: 'website',
     },
   }
