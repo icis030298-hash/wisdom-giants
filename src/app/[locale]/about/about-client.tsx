@@ -1,5 +1,6 @@
 "use client"
 
+// Force fresh build to clear cached static HTML
 import { motion } from "framer-motion"
 import { useTranslations } from "next-intl"
 import { Sparkles, Quote, BookOpen, MessageCircle, Dna } from "lucide-react"
