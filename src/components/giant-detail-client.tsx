@@ -43,6 +43,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const searchParams = useSearchParams()
   const chatParam = searchParams.get('chat')
   const chatId = searchParams.get('chatId')
+  const mode = searchParams.get('mode')
   const dna = searchParams.get('dna')
 
   // Related Giants Logic: filter by same category, exclude current giant, show 3 random
