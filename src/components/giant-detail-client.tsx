@@ -41,6 +41,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const tt = useTranslations("Test")
   const searchParams = useSearchParams()
   const chatParam = searchParams.get('chat')
+  const chatId = searchParams.get('chatId')
   const mode = searchParams.get('mode')
   const dna = searchParams.get('dna')
 
@@ -342,9 +343,10 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
 
       {/* Chat Modal */}
       {isChatOpen && (
-        <ChatInterface 
-          giant={giant} 
-          onClose={() => setIsChatOpen(false)} 
+        <ChatInterface
+          giant={giant}
+          onClose={() => setIsChatOpen(false)}
+          initialChatId={chatId || undefined}
         />
       )}
 

@@ -3,13 +3,13 @@
 import { useState, useRef, useEffect } from "react"
 import Image from "next/image"
 import { GiantImage } from "./ui/giant-image"
-import { X, Send, Sparkles, RefreshCw, Lightbulb } from "lucide-react"
+import { X, Send, Sparkles, RefreshCw, Lightbulb, History } from "lucide-react"
 import type { Giant } from "@/lib/giants-data"
 import { getGiantResponse } from "@/lib/gemini"
 import { giantsData } from "@/data/giants"
 import { useTranslations, useLocale } from "next-intl"
 import { auth, db } from "@/lib/firebase"
-import { doc, setDoc, serverTimestamp, arrayUnion } from "firebase/firestore"
+import { doc, getDoc, setDoc, serverTimestamp, arrayUnion } from "firebase/firestore"
 
 interface Message {
   id: string
@@ -21,9 +21,10 @@ interface Message {
 interface ChatInterfaceProps {
   giant: Giant
   onClose: () => void
+  initialChatId?: string
 }
 
-export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
+export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfaceProps) {
   const t = useTranslations("Chat")
   const tg = useTranslations("Giants")
   const locale = useLocale()
@@ -36,19 +37,50 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
     ? rawSuggestedQuestions 
     : [];
 
-  const [messages, setMessages] = useState<Message[]>([
-    {
-      id: "1",
-      role: "giant",
-      content: initialGreeting,
-      timestamp: new Date()
-    }
-  ])
+  const [messages, setMessages] = useState<Message[]>(
+    initialChatId ? [] : [{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }]
+  )
   const [input, setInput] = useState("")
   const [isTyping, setIsTyping] = useState(false)
   const [hasError, setHasError] = useState(false)
+  const [isLoadingHistory, setIsLoadingHistory] = useState(!!initialChatId)
+  const [isRestoredChat, setIsRestoredChat] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    if (!initialChatId || !db) {
+      setIsLoadingHistory(false)
+      return
+    }
+    const loadHistory = async () => {
+      try {
+        const chatDoc = await getDoc(doc(db, "chats", initialChatId))
+        if (chatDoc.exists()) {
+          const stored: any[] = chatDoc.data().messages || []
+          if (stored.length > 0) {
+            setMessages(stored.map(m => ({
+              id: m.id,
+              role: (m.role === "model" ? "giant" : "user") as "user" | "giant",
+              content: m.text,
+              timestamp: new Date(m.createdAt),
+            })))
+            setIsRestoredChat(true)
+          } else {
+            setMessages([{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }])
+          }
+        } else {
+          setMessages([{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }])
+        }
+      } catch (err) {
+        console.error("Failed to load chat history:", err)
+        setMessages([{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }])
+      } finally {
+        setIsLoadingHistory(false)
+      }
+    }
+    loadHistory()
+  }, [initialChatId])
   
   const scrollToBottom = (behavior: ScrollBehavior = "smooth") => {
     if (messagesEndRef.current) {
@@ -270,9 +302,22 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
             </div>
           </div>
           
+          {/* Restored chat badge */}
+          {isRestoredChat && (
+            <div className="px-5 py-2 bg-amber-500/10 border-b border-amber-500/20 flex items-center justify-center gap-2 text-xs text-amber-400 font-medium">
+              <History className="w-3 h-3" />
+              이전 대화 이어가기
+            </div>
+          )}
+
           {/* Messages area */}
           <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar">
-            {messages.map((message) => (
+            {isLoadingHistory ? (
+              <div className="flex flex-col items-center justify-center h-full gap-3 text-muted-foreground">
+                <div className="w-6 h-6 border-2 border-amber-500/40 border-t-amber-500 rounded-full animate-spin" />
+                <span className="text-xs">대화 기록을 불러오는 중...</span>
+              </div>
+            ) : messages.map((message) => (
               <div
                 key={message.id}
                 className={`flex ${message.role === "user" ? "justify-end" : "justify-start"}`}
@@ -325,7 +370,7 @@ export function ChatInterface({ giant, onClose }: ChatInterfaceProps) {
                 </div>
               </div>
             ))}
-            
+
             {/* Typing indicator */}
             {isTyping && (
               <div className="flex justify-start">

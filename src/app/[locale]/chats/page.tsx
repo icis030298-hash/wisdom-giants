@@ -217,7 +217,7 @@ export default function ChatsPage() {
             {chats.map((chat) => (
               <div key={chat.id} className="relative group/row">
                 <Link
-                  href={`/giant/${chat.giantSlug || chat.giantId}?chat=true`}
+                  href={`/giant/${chat.giantSlug || chat.giantId}?chat=true&chatId=${chat.id}`}
                   className="group relative overflow-hidden rounded-2xl glass border border-white/5 hover:border-amber-500/30 transition-all p-5 flex items-center gap-5 pr-14"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 via-amber-500/0 to-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
