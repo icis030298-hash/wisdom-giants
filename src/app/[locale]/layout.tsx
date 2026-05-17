@@ -106,6 +106,21 @@ export default async function RootLayout({
               crossOrigin="anonymous"
               strategy="afterInteractive"
             />
+            {/* Google Analytics 4 Setup */}
+            <Script
+              src="https://www.googletagmanager.com/gtag/js?id=G-MKP0G1YD64"
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-MKP0G1YD64', {
+                  page_path: window.location.pathname,
+                });
+              `}
+            </Script>
             <div className="flex-grow">
               {children}
             </div>
