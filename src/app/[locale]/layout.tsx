@@ -15,20 +15,29 @@ const playfair = Playfair_Display({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
-  title: 'Shoulders of Giants | AI Historical Mentors & Wisdom Archive',
-  description: 'Converse with history\'s greatest minds. Get AI-powered advice from 40+ historical figures including Steve Jobs, Napoleon, and King Sejong. Explore their life stories and timeless wisdom.',
-  keywords: 'AI Chat, Historical Figures, Wisdom, Mentorship, History, Philosophy, Education, Steve Jobs, Napoleon, King Sejong',
-  authors: [{ name: 'Shoulders of Giants Team' }],
-  openGraph: {
-    title: 'Shoulders of Giants | AI Historical Mentors',
-    description: 'A mystical journey through history. Converse with the greatest minds who shaped our world.',
-    type: 'website',
-  },
-  other: {
-    "google-adsense-account": "ca-pub-2081809442345110",
-  },
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const isKorean = locale === 'ko';
+
+  return {
+    title: 'Giants Wisdom | AI Historical Mentors & Wisdom Archive',
+    description: isKorean
+      ? '역사를 바꾼 100인의 위인들과 AI로 대화하세요. 30가지 상황 질문으로 나의 유산 DNA를 분석하고 영혼의 단짝 위인을 찾아보세요.'
+      : "Chat with 100+ history's greatest minds using AI. Discover your Heritage DNA through 30 situational questions and find your soul-matched historical giant.",
+    keywords: 'AI Chat, Historical Figures, Wisdom, Mentorship, History, Philosophy, Education, Giants Wisdom',
+    authors: [{ name: 'Giants Wisdom Team' }],
+    openGraph: {
+      title: 'Giants Wisdom | AI Historical Mentors',
+      description: isKorean
+        ? '역사를 바꾼 100인의 위인들과 AI로 대화하세요.'
+        : "Chat with 100+ history's greatest minds using AI.",
+      type: 'website',
+    },
+    other: {
+      "google-adsense-account": "ca-pub-2081809442345110",
+    },
+  };
+}
 
 export const viewport: Viewport = {
   themeColor: '#020617',

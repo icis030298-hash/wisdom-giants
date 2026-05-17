@@ -4,6 +4,17 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    const removedSlugs = ['elon-musk', 'oprah-winfrey', 'jk-rowling', 'malala-yousafzai', 'rigoberta-menchu'];
+    const locales = ['ko', 'en'];
+    return removedSlugs.flatMap(slug =>
+      locales.map(locale => ({
+        source: `/${locale}/giant/${slug}`,
+        destination: `/${locale}#giants`,
+        permanent: false,
+      }))
+    );
+  },
   images: {
     remotePatterns: [
       {

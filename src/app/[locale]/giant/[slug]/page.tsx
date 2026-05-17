@@ -24,10 +24,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 
   return {
-    title: `${giantData.name} | ${giantData.headline} - Shoulders of Giants`,
+    title: `${giantData.name} | ${giantData.headline} - Giants Wisdom`,
     description: `${giantData.shortDescription} Explore the wisdom, struggles, and recovery of ${giantData.name}. "${giantData.quote}"`,
     openGraph: {
-      title: `${giantData.name} - Shoulders of Giants`,
+      title: `${giantData.name} - Giants Wisdom`,
       description: giantData.headline,
       images: [giant.imageUrl],
     },

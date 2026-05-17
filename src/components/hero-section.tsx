@@ -114,8 +114,8 @@ export function HeroSection() {
         <div className="flex items-center justify-center gap-8 sm:gap-12 mt-16">
           {[
             { value: "100+", label: t("stats.minds") },
-            { value: "5,000+", label: t("stats.history") },
-            { value: "∞", label: t("stats.inspiration") },
+            { value: "30+", label: t("stats.questions") },
+            { value: "무료", label: t("stats.free") },
           ].map((stat, i) => (
             <div key={i} className="text-center">
               <div className="text-2xl sm:text-3xl font-bold text-amber-400">{stat.value}</div>

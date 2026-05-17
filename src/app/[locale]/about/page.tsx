@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { useTranslations } from "next-intl"
 import { Sparkles, Quote, BookOpen, MessageCircle, Dna } from "lucide-react"
-import AdSpace from "@/components/AdSpace"
 
 export default function AboutPage() {
   const t = useTranslations("About")
@@ -157,10 +156,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Footer Ad Space */}
-      <section className="max-w-5xl mx-auto px-4 pb-20">
-        <AdSpace slot="about-bottom" label="SPONSORED" />
-      </section>
     </div>
   )
 }
