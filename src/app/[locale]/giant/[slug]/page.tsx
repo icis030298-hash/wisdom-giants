@@ -77,5 +77,42 @@ export default async function GiantDetailPage({ params }: Props) {
     narrative: formattedNarrative
   };
 
-  return <GiantDetailClient giant={giant} translations={translations} />;
+  const BASE_URL = 'https://www.giantswisdom.com';
+  const categoryTopics: Record<string, string[]> = {
+    'achievement': ['Leadership', 'Achievement', 'Strategy'],
+    'adversity': ['Resilience', 'Courage', 'Perseverance'],
+    'wisdom': ['Philosophy', 'Wisdom', 'Ethics'],
+    'creativity': ['Creativity', 'Art', 'Innovation'],
+  };
+  const eraYearMatch = (giant.era || '').match(/\((\d{4})[~\-–](\d{4})\)/);
+  const birthDate = eraYearMatch?.[1];
+  const deathDate = eraYearMatch?.[2];
+  const personSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: giantTranslation.name || giant.name,
+    description: (giantTranslation.shortDescription || giantTranslation.headline || '').slice(0, 150),
+    ...(birthDate && { birthDate }),
+    ...(deathDate && { deathDate }),
+    knowsAbout: categoryTopics[giant.category] || ['History', 'Wisdom'],
+    url: `${BASE_URL}/${locale}/giant/${giant.slug}`,
+    image: giant.imageUrl.startsWith('http') ? giant.imageUrl : `${BASE_URL}${giant.imageUrl}`,
+  };
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: locale === 'ko' ? '홈' : 'Home', item: `${BASE_URL}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: locale === 'ko' ? '거인들의 전당' : 'Hall of Giants', item: `${BASE_URL}/${locale}#giants` },
+      { '@type': 'ListItem', position: 3, name: giantTranslation.name || giant.name, item: `${BASE_URL}/${locale}/giant/${giant.slug}` },
+    ],
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <GiantDetailClient giant={giant} translations={translations} />
+    </>
+  );
 }

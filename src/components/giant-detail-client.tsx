@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
 import { useSearchParams } from "next/navigation"
 import { motion, AnimatePresence } from "framer-motion"
@@ -9,16 +9,18 @@ import { ChatInterface } from "@/components/chat-interface"
 import { useTranslations, useLocale } from "next-intl"
 import { useRouter } from "@/i18n/routing"
 import { 
-  ArrowLeft, 
-  MessageCircle, 
-  Sparkles, 
-  History, 
-  HeartPulse, 
+  ArrowLeft,
+  MessageCircle,
+  Sparkles,
+  History,
+  HeartPulse,
   Lightbulb,
   Quote,
   CheckCircle2,
   X,
-  Dna
+  Dna,
+  Download,
+  Link2
 } from "lucide-react"
 import { archetypes } from "@/data/heritage-test"
 
@@ -41,6 +43,9 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const chatParam = searchParams.get('chat')
   const mode = searchParams.get('mode')
   const dna = searchParams.get('dna')
+
+  const shareCardRef = useRef<HTMLDivElement>(null)
+  const [showToast, setShowToast] = useState(false)
 
   useEffect(() => {
     if (mode === 'match') {
@@ -79,6 +84,43 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
         'wisdom': '지혜',
         'creativity': '창의'
       } as any)[giant.category.toLowerCase()] : null) || giant.category;
+
+  const handleSaveImage = async () => {
+    if (!shareCardRef.current) return
+    try {
+      const html2canvas = (await import('html2canvas')).default
+      const canvas = await html2canvas(shareCardRef.current, {
+        backgroundColor: '#0B0F1A',
+        scale: 2,
+        useCORS: true,
+        allowTaint: true,
+        logging: false,
+      })
+      const link = document.createElement('a')
+      link.download = `나의유산DNA_${tg.name || giant.name}.png`
+      link.href = canvas.toDataURL('image/png')
+      link.click()
+    } catch (err) {
+      console.error('Share card capture failed:', err)
+    }
+  }
+
+  const handleCopyLink = async () => {
+    const archetypeName = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name
+    const text = `나의 유산 DNA는 ${archetypeName} 유형! 당신은 어떤 위인과 닮았나요? 👉 www.giantswisdom.com/ko/test`
+    try {
+      await navigator.clipboard.writeText(text)
+    } catch {
+      const ta = document.createElement('textarea')
+      ta.value = text
+      document.body.appendChild(ta)
+      ta.select()
+      document.execCommand('copy')
+      document.body.removeChild(ta)
+    }
+    setShowToast(true)
+    setTimeout(() => setShowToast(false), 2000)
+  }
 
   return (
     <main className="min-h-screen bg-background">
@@ -324,7 +366,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               initial={{ scale: 0.9, y: 20 }}
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.9, y: 20 }}
-              className="relative w-full max-w-2xl glass-card rounded-[3rem] p-8 md:p-12 border border-amber-500/30 text-center shadow-[0_0_50px_rgba(245,158,11,0.2)]"
+              className="relative w-full max-w-2xl glass-card rounded-[3rem] p-8 md:p-12 border border-amber-500/30 text-center shadow-[0_0_50px_rgba(245,158,11,0.2)] overflow-y-auto max-h-[90vh]"
             >
               <button 
                 onClick={() => setShowMatchOverlay(false)}
@@ -398,10 +440,72 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                   </div>
                 </div>
               </div>
+
+              {/* 결과 공유하기 */}
+              <div className="border-t border-white/10 pt-6 space-y-4">
+                <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold">결과 공유하기</p>
+
+                {/* Share Card — captured by html2canvas */}
+                <div
+                  ref={shareCardRef}
+                  style={{
+                    background: 'linear-gradient(135deg, #0B0F1A 0%, #111827 100%)',
+                    border: '1px solid rgba(245,158,11,0.3)',
+                    borderRadius: '20px',
+                    padding: '28px 24px',
+                    maxWidth: '360px',
+                    margin: '0 auto',
+                    textAlign: 'center',
+                  }}
+                >
+                  <div style={{ width: '72px', height: '72px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 14px', border: '2px solid rgba(245,158,11,0.5)' }}>
+                    <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
+                  </div>
+                  <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>나의 유산 DNA</p>
+                  <p style={{ color: '#FEF3C7', fontSize: '18px', fontWeight: '700', marginBottom: '4px', fontFamily: 'Georgia, serif' }}>
+                    {dna ? archetypes[dna]?.name[locale as 'ko' | 'en'] : ''}
+                  </p>
+                  <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name} 유형</p>
+                  <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 0', marginBottom: '18px' }}>
+                    <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: 'keep-all' }}>
+                      &ldquo;{(tg.quote || '').slice(0, 70)}{(tg.quote || '').length > 70 ? '...' : ''}&rdquo;
+                    </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+                    <span style={{ color: '#F59E0B', fontWeight: '700', fontSize: '13px' }}>Giants Wisdom</span>
+                    <span style={{ color: '#475569', fontSize: '11px' }}>giantswisdom.com</span>
+                  </div>
+                </div>
+
+                {/* Share Buttons */}
+                <div className="grid grid-cols-2 gap-3 max-w-[360px] mx-auto">
+                  <button
+                    onClick={handleSaveImage}
+                    className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-bold text-foreground transition-all active:scale-95"
+                  >
+                    <Download className="w-4 h-4" />
+                    이미지로 저장
+                  </button>
+                  <button
+                    onClick={handleCopyLink}
+                    className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/20 text-sm font-bold text-amber-400 transition-all active:scale-95"
+                  >
+                    <Link2 className="w-4 h-4" />
+                    링크 복사
+                  </button>
+                </div>
+              </div>
             </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Copy-link toast */}
+      {showToast && (
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[200] px-6 py-3 rounded-full bg-amber-500 text-black font-bold text-sm shadow-xl shadow-amber-500/30 animate-in fade-in slide-in-from-bottom-2 duration-200">
+          복사 완료!
+        </div>
+      )}
     </main>
   )
 }
