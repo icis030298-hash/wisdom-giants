@@ -58,6 +58,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     other: {
       "google-adsense-account": "ca-pub-2081809442345110",
     },
+    icons: {
+      icon: '/icon.svg',
+      apple: '/icon.svg',
+    },
   };
 }
 
