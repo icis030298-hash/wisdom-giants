@@ -100,14 +100,12 @@ export default async function RootLayout({
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages} locale={locale}>
           <div className="flex flex-col min-h-screen">
-            {process.env.NODE_ENV === 'production' && (
-              <Script
-                async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2081809442345110"
-                crossOrigin="anonymous"
-                strategy="afterInteractive"
-              />
-            )}
+            <Script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2081809442345110"
+              crossOrigin="anonymous"
+              strategy="afterInteractive"
+            />
             <div className="flex-grow">
               {children}
             </div>
