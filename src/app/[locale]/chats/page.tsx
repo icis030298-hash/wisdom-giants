@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { auth, db } from "@/lib/firebase"
 import Image from "next/image"
 import { collection, query, where, orderBy, getDocs, Timestamp } from "firebase/firestore"
@@ -33,6 +33,7 @@ export default function ChatsPage() {
   const [chats, setChats] = useState<ChatHistory[]>([])
   const [loading, setLoading] = useState(true)
   const [user, setUser] = useState(auth?.currentUser || null)
+  const fetchingRef = useRef(false)
 
   useEffect(() => {
     if (!auth) {
@@ -40,11 +41,22 @@ export default function ChatsPage() {
       return;
     }
 
-    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
+    const unsubscribe = auth.onAuthStateChanged(async (currentUser) => {
       setUser(currentUser);
       if (currentUser) {
-        fetchChats(currentUser.uid);
+        // Enforce strict token readiness and block duplicate concurrent fetches
+        if (!fetchingRef.current) {
+          fetchingRef.current = true;
+          try {
+            await fetchChats(currentUser.uid);
+          } catch (err) {
+            console.error("[Auth Guard Fetch Error]:", err);
+          } finally {
+            fetchingRef.current = false;
+          }
+        }
       } else {
+        setChats([]);
         setLoading(false);
       }
     });

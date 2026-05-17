@@ -1,6 +1,6 @@
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
-import { initializeFirestore } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -15,15 +15,4 @@ const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 
 export const auth = firebaseConfig.apiKey ? getAuth(app) : null;
 export const googleProvider = new GoogleAuthProvider();
-
-// FORCE LONG POLLING AND SHUT DOWN ALL STREAM HANDSHAKES PERMANENTLY
-export const db = firebaseConfig.apiKey
-  ? initializeFirestore(app, {
-      experimentalForceLongPolling: true,
-      useFetchStreams: false // Bypasses HTTP/2 stream buffering blocks
-    })
-  : null;
-
-if (typeof window !== 'undefined') {
-  console.log("🔥 [Firebase Core]: Overwritten with strict long-polling & fetchStreams=false attributes.");
-}
+export const db = firebaseConfig.apiKey ? getFirestore(app) : null;
