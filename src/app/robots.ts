@@ -5,8 +5,9 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: '/api/',
+      disallow: ['/api/', '/*/chats'],
     },
-    sitemap: 'https://wisdomgiants.com/sitemap.xml',
+    sitemap: 'https://giantswisdom.com/sitemap.xml',
   };
 }
+
