@@ -1,6 +1,6 @@
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
-import { initializeFirestore, memoryLocalCache, enableNetwork } from "firebase/firestore";
+import { initializeFirestore, memoryLocalCache } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -16,16 +16,9 @@ const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 export const auth = firebaseConfig.apiKey ? getAuth(app) : null;
 export const googleProvider = new GoogleAuthProvider();
 
+// USE NATIVE WEBSOCKETS TO BYPASS NEXT.JS FETCH PATCHES
 export const db = firebaseConfig.apiKey
   ? initializeFirestore(app, {
-      localCache: memoryLocalCache(),
-      experimentalForceLongPolling: true
+      localCache: memoryLocalCache()
     })
   : null;
-
-// PRE-WARM NETWORK CONNECTION IMMEDIATELY ON CLIENT SIDE
-if (typeof window !== "undefined" && db) {
-  enableNetwork(db).catch((e) => console.warn("Network warming skipped:", e));
-}
-
-console.log("🔥 [Firebase Core]: Token-ready engine and network warming initialized.");
