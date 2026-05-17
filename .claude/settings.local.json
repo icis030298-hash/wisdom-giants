@@ -18,7 +18,16 @@
       "Bash(node -e \"const d=require\\('./src/data/final-narratives.json'\\); console.log\\(Object.keys\\(d\\).slice\\(0,5\\)\\); console.log\\('elon-musk' in d\\);\")",
       "Bash(node -e ' *)",
       "Bash(rm src/components/AdSpace.tsx)",
-      "Bash(grep -rn \"AD SPACE\\\\|SPONSORED\\\\|AdSpace\" src/)"
+      "Bash(grep -rn \"AD SPACE\\\\|SPONSORED\\\\|AdSpace\" src/)",
+      "Bash(curl -s \"http://localhost:3000/ko/about\")",
+      "Bash(curl -s -L \"http://localhost:3000/ko/about\")",
+      "Bash(python3 -c \"import sys; data=sys.stdin.read\\(\\); print\\(data[data.find\\('og:title'\\):data.find\\('og:title'\\)+200] if 'og:title' in data else 'not found'\\)\")",
+      "Bash(node -e \"let d=''; process.stdin.on\\('data',c=>d+=c\\).on\\('end',\\(\\)=>{ let m=d.match\\(/og:title[^>]*content=\\\\\"\\([^\\\\\"]+\\)\\\\\"/\\); console.log\\(m?m[1]:'not found'\\); }\\)\")",
+      "Bash(curl -s -w \"%{http_code}\" \"http://localhost:3000/ko/about\")",
+      "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\\\\|AdSpace\\\\|ad_space\\\\|adSpace\" src/)",
+      "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\\\\|AdSpace\\\\|ad_space\\\\|adSpace\" messages/)",
+      "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\\\\|AdSpace\\\\|ad_space\\\\|adSpace\" public/)",
+      "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\" *.json)"
     ]
   }
 }
