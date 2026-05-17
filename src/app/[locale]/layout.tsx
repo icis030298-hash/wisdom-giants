@@ -3,6 +3,7 @@ import { Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import "../globals.css";
 import Footer from "@/components/footer";
+import { CookieBanner } from "@/components/cookie-banner";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -80,6 +81,7 @@ export default async function RootLayout({
               {children}
             </div>
             <Footer />
+            <CookieBanner />
           </div>
         </NextIntlClientProvider>
       </body>
