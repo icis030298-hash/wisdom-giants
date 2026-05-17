@@ -170,15 +170,36 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   }
 
   const shareToKakao = () => {
-    const Kakao = (window as any).Kakao
-    if (Kakao && Kakao.isInitialized()) {
-      const archetypeName = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name
-      const shareText = locale === 'ko'
-        ? `나의 유산 DNA는 ${archetypeName} 유형! 당신은 어떤 위인과 닮았나요?`
-        : `My Heritage DNA is ${archetypeName}! Which historical giant do you resemble?`
-      const shareUrl = `${window.location.origin}/${locale}/test`
-      const ogImage = `https://giantswisdom.com/images/og-main.png`
+    if (typeof window === 'undefined') return
 
+    const Kakao = (window as any).Kakao
+
+    // 1. Check if Kakao script actually loaded into the window
+    if (!Kakao) {
+      alert(locale === 'ko' 
+        ? "카카오톡 공유 기능을 불러오는 중입니다. 1~2초 후 다시 시도해주세요!" 
+        : "Loading KakaoTalk Share... Please retry in 1-2 seconds!")
+      return
+    }
+
+    // 2. Dual check initialization guard
+    if (!Kakao.isInitialized()) {
+      try {
+        Kakao.init('b175da0c630ebd18d18862f12fc1cb09')
+      } catch (e) {
+        console.error("Kakao init failed:", e)
+      }
+    }
+
+    const archetypeName = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name
+    const shareText = locale === 'ko'
+      ? `나의 유산 DNA는 ${archetypeName} 유형! 당신은 어떤 위인과 닮았나요?`
+      : `My Heritage DNA is ${archetypeName}! Which historical giant do you resemble?`
+    const shareUrl = `${window.location.origin}/${locale}/test`
+    const ogImage = `https://giantswisdom.com/images/og-main.png`
+
+    // 3. Execute with safe fallback
+    try {
       Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
@@ -200,6 +221,21 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           },
         ],
       })
+    } catch (error) {
+      console.error("Kakao Share execution error:", error)
+      try {
+        navigator.clipboard.writeText(`${shareText} 👉 ${shareUrl}`)
+      } catch {
+        const ta = document.createElement('textarea')
+        ta.value = `${shareText} 👉 ${shareUrl}`
+        document.body.appendChild(ta)
+        ta.select()
+        document.execCommand('copy')
+        document.body.removeChild(ta)
+      }
+      alert(locale === 'ko' 
+        ? "카카오톡 연결에 실패했습니다. 대신 공유 링크가 복사되었습니다!" 
+        : "Failed to connect to KakaoTalk. Share link has been copied to your clipboard instead!")
     }
   }
 
