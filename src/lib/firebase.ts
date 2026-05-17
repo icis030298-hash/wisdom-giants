@@ -1,6 +1,6 @@
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { initializeFirestore, memoryLocalCache } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -15,4 +15,11 @@ const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 
 export const auth = firebaseConfig.apiKey ? getAuth(app) : null;
 export const googleProvider = new GoogleAuthProvider();
-export const db = firebaseConfig.apiKey ? getFirestore(app) : null;
+
+// FORCE IN-MEMORY CACHE AND LONG POLLING FOR ZERO 40-SECOND LEASE LOCK DEADLOCKS OR WEBSOCKET BLOCKS
+export const db = firebaseConfig.apiKey
+  ? initializeFirestore(app, {
+      localCache: memoryLocalCache(),
+      experimentalForceLongPolling: true
+    })
+  : null;

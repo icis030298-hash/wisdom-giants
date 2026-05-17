@@ -36,6 +36,7 @@ export default function ChatsPage() {
   const fetchingRef = useRef(false)
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
     if (!auth) {
       setLoading(false);
       return;
@@ -55,6 +56,7 @@ export default function ChatsPage() {
   }, []);
 
   const fetchChats = async (uid: string) => {
+    if (typeof window === "undefined") return;
     if (!db) return;
     
     // Explicitly abort redundant fetches to avoid HTTP/2 socket bottlenecks
