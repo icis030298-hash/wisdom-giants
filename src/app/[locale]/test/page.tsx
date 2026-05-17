@@ -8,7 +8,6 @@ import { useTranslations, useLocale } from "next-intl"
 import { useRouter } from "@/i18n/routing"
 import { questions, archetypes, type Dimension, type Pillar } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
-import AdSpace from "@/components/AdSpace"
 
 export default function HeritageTestPage() {
   const t = useTranslations("Test")
@@ -265,8 +264,6 @@ export default function HeritageTestPage() {
                   {t("stages.ready")}
                 </p>
               </div>
-
-              <AdSpace slot="mid-test-banner" label="SPONSORED CONTENT" />
 
               <button
                 onClick={handleNextStage}

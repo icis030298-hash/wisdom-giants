@@ -113,7 +113,7 @@ export function HeroSection() {
         {/* Stats */}
         <div className="flex items-center justify-center gap-8 sm:gap-12 mt-16">
           {[
-            { value: "100+", label: t("stats.minds") },
+            { value: "95+", label: t("stats.minds") },
             { value: "30+", label: t("stats.questions") },
             { value: "무료", label: t("stats.free") },
           ].map((stat, i) => (

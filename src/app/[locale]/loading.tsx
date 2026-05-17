@@ -25,7 +25,7 @@ export default function Loading() {
       
       <div className="text-center space-y-4">
         <h2 className="text-2xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500 animate-pulse">
-          Shoulders of Giants
+          Giants Wisdom
         </h2>
         <p className="text-muted-foreground text-sm tracking-widest uppercase animate-pulse delay-75">
           Summoning Timeless Wisdom...

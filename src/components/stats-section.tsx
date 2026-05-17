@@ -34,7 +34,7 @@ export function StatsSection() {
   ]
 
   const stats = [
-    { value: "40+", label: t("stats.minds"), icon: Users },
+    { value: "95+", label: t("stats.minds"), icon: Users },
     { value: "2,500+", label: t("stats.history"), icon: Clock },
     { value: "12", label: t("stats.fields"), icon: BookOpen },
     { value: "∞", label: t("stats.inspiration"), icon: MessageCircle },

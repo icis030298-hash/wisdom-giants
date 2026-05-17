@@ -1,4 +1,4 @@
-import { Sparkles, Code, Mail } from "lucide-react"
+import { Sparkles, Mail } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
 
@@ -19,7 +19,6 @@ export default function Footer() {
   }
 
   const socialLinks = [
-    { icon: Code, href: "https://github.com", label: "GitHub" },
     { icon: Mail, href: "mailto:contact@wisdomgiants.com", label: "Email" },
   ]
 
