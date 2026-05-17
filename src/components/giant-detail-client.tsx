@@ -20,7 +20,8 @@ import {
   X,
   Dna,
   Download,
-  Link2
+  Link2,
+  Share2
 } from "lucide-react"
 import { archetypes } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
@@ -125,21 +126,37 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     }
   }
 
-  const handleCopyLink = async () => {
+  const handleNativeShare = async () => {
     const archetypeName = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name
-    const text = `나의 유산 DNA는 ${archetypeName} 유형! 당신은 어떤 위인과 닮았나요? 👉 www.giantswisdom.com/ko/test`
-    try {
-      await navigator.clipboard.writeText(text)
-    } catch {
-      const ta = document.createElement('textarea')
-      ta.value = text
-      document.body.appendChild(ta)
-      ta.select()
-      document.execCommand('copy')
-      document.body.removeChild(ta)
+    const shareText = locale === 'ko'
+      ? `나의 유산 DNA는 ${archetypeName} 유형! 당신은 어떤 위인과 닮았나요?`
+      : `My Heritage DNA is ${archetypeName}! Which historical giant do you resemble?`
+    const shareUrl = `${window.location.origin}/${locale}/test`
+    
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: 'Giants Wisdom',
+          text: shareText,
+          url: shareUrl,
+        })
+      } catch (error) {
+        console.error('Error sharing:', error)
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(`${shareText} 👉 ${shareUrl}`)
+      } catch {
+        const ta = document.createElement('textarea')
+        ta.value = `${shareText} 👉 ${shareUrl}`
+        document.body.appendChild(ta)
+        ta.select()
+        document.execCommand('copy')
+        document.body.removeChild(ta)
+      }
+      setShowToast(true)
+      setTimeout(() => setShowToast(false), 2000)
     }
-    setShowToast(true)
-    setTimeout(() => setShowToast(false), 2000)
   }
 
   return (
@@ -589,11 +606,11 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                     이미지로 저장
                   </button>
                   <button
-                    onClick={handleCopyLink}
+                    onClick={handleNativeShare}
                     className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/20 text-sm font-bold text-amber-400 transition-all active:scale-95"
                   >
-                    <Link2 className="w-4 h-4" />
-                    링크 복사
+                    <Share2 className="w-4 h-4" />
+                    {locale === 'ko' ? '공유하기' : 'Share'}
                   </button>
                 </div>
               </div>
