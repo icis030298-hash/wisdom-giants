@@ -23,7 +23,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="relative py-24 px-6 border-t border-border/30">
+    <footer className="relative py-24 px-6 border-t border-border/30 overflow-hidden">
       {/* Ambient glow */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-gradient-to-t from-amber-500/5 to-transparent blur-3xl pointer-events-none" />
       
