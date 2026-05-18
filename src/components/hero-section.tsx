@@ -114,7 +114,7 @@ export function HeroSection() {
         <div className="flex items-center justify-center gap-8 sm:gap-12 mt-16">
           {[
             { value: "95+", label: t("stats.minds") },
-            { value: "30+", label: t("stats.questions") },
+            { value: "15+", label: t("stats.questions") },
             { value: t("stats.freeValue"), label: t("stats.free") },
           ].map((stat, i) => (
             <div key={i} className="text-center">
