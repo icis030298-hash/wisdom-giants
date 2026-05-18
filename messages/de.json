@@ -1,22 +1,22 @@
 {
   "Navigation": {
-    "hallOfGems": "Halle der Geister",
+    "hallOfGems": "Halle der Denker",
     "wisdomArchive": "Weisheitsarchiv",
     "chatList": "Gesprächsliste",
     "about": "Über uns",
     "startExploring": "Reise beginnen",
     "title": "Giants Wisdom",
-    "subtitle": "Die Halle der großen Geister",
+    "subtitle": "Die Halle der großen Denker",
     "login": "Anmelden",
     "logout": "Abmelden",
     "myProfile": "Mein Profil",
     "signInRequired": "Anmeldung erforderlich, um den Gesprächsverlauf anzuzeigen."
   },
   "Auth": {
-    "loginModalTitle": "Willkommen in der Halle der Riesen",
-    "loginModalDescription": "Bewahre deine Dialoge mit den Riesen und verwalte das Erbe der Weisheit, das in deine Seele eingraviert ist.",
+    "loginModalTitle": "Willkommen in der Halle der großen Persönlichkeiten",
+    "loginModalDescription": "Bewahre deine Dialoge mit den großen Persönlichkeiten und verwalte das Erbe der Weisheit, das in deine Seele eingraviert ist.",
     "continueWithGoogle": "Mit Google fortfahren",
-    "loginSuccess": "Willkommen in der Halle der großen Geister.",
+    "loginSuccess": "Willkommen in der Halle der großen Denker.",
     "logout": "Abmelden",
     "chatList": "Meine Gespräche",
     "signInRequired": "Anmeldung erforderlich"
@@ -28,7 +28,7 @@
     "back": "Zurück",
     "banner": {
       "new": "NEUER INHALT",
-      "title": "Welcher historische Riese\nähnelt dir am meisten?",
+      "title": "Welche historische Persönlichkeit\nähnelt dir am meisten?",
       "desc": "Analysiere deine 'Heritage-DNA' durch 30 Situationsfragen und finde den perfekten Partner für deine Seele.",
       "button": "Test starten"
     },
@@ -47,69 +47,69 @@
     "result": {
       "matchFound": "Du hast dein historisches Schicksal getroffen",
       "archetype": "Deine Heritage-Persona",
-      "matchedGiant": "Der Riese, der dir am ähnlichsten ist",
-      "readEpic": "Epos lesen",
+      "matchedGiant": "Die Persönlichkeit, die dir am ähnlichsten ist",
+      "readEpic": "Biografie lesen",
       "chatNow": "Jetzt chatten"
     }
   },
   "Chats": {
     "title": "Meine Gespräche",
-    "subtitle": "Dialoge mit großen Geistern",
-    "description": "Erlebe tiefe Einblicke und Ratschläge von den größten Riesen der Geschichte. Du kannst jedes Gespräch jederzeit fortsetzen.",
+    "subtitle": "Dialoge mit großen Denkern",
+    "description": "Erlebe tiefe Einblicke und Ratschläge von den größten Persönlichkeiten der Geschichte. Du kannst jedes Gespräch jederzeit fortsetzen.",
     "emptyTitle": "Noch keine Gespräche",
-    "emptyDescription": "Die Riesen sind bereit, dir zuzuhören. Starte jetzt deinen ersten Dialog!",
+    "emptyDescription": "Die Persönlichkeiten sind bereit, dir zuzuhören. Starte jetzt deinen ersten Dialog!",
     "startFirstChat": "Erstes Gespräch starten",
     "messages": "Nachrichten",
     "lastChat": "Letzter Chat"
   },
   "Hero": {
-    "badge": "Die Halle der großen Geister",
+    "badge": "Die Halle der großen Denker",
     "quote": "Wenn ich weitergesehen habe, so deshalb, weil ich auf den Schultern von Riesen stand.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Reise beginnen",
     "startTest": "🧬 Heritage-DNA-Test starten",
     "exploreHall": "🏛️ Die Halle erkunden",
     "stats": {
-      "minds": "Große Geister",
+      "minds": "Große Denker",
       "questions": "Testfragen",
       "free": "Völlig kostenlos",
       "freeValue": "Kostenlos"
     },
     "guide": {
       "title": "Reiseführer durch die Halle der Weisheit",
-      "selectGiant": "Wähle einen Riesen",
+      "selectGiant": "Wähle eine Persönlichkeit",
       "selectGiantDesc": "Finde inspirierende Persönlichkeiten unter 95+ historischen Legenden.",
       "epic": "Epische Erzählungen",
-      "epicDesc": "Lese Lebensberichte, als ob die Riesen sie selbst erzählen würden.",
+      "epicDesc": "Lese Lebensberichte, als ob die Persönlichkeiten sie selbst erzählen würden.",
       "chat": "Echtzeit-Chat",
-      "chatDesc": "Teile deine Sorgen mit Riesen, die durch modernste KI wiedergeboren wurden.",
+      "chatDesc": "Teile deine Sorgen mit den Denkern, die durch modernste KI wiedergeboren wurden.",
       "startNow": "Jetzt starten"
     }
   },
   "Featured": {
-    "title": "Die Halle der großen Riesen",
+    "title": "Die Halle der großen Persönlichkeiten",
     "description": "Erforsche die Weisheit von Persönlichkeiten, die die Geschichte verändert haben. Wähle eine Person aus, um ein Gespräch zu beginnen, das Zeit und Raum überschreitet.",
-    "viewAll": "Alle Riesen anzeigen",
+    "viewAll": "Alle Persönlichkeiten anzeigen",
     "bestPick": "Beste Wahl",
     "todaysPick": "Empfehlung des Tages",
     "chatNow": "Jetzt chatten"
   },
   "GiantsGrid": {
-    "title": "Historische Riesen",
-    "description": "Erforsche die Weisheit von Persönlichkeiten, die den Lauf der Menschheit verändert haben. Wähle einen Riesen aus, um ein Gespräch zu beginnen, das Zeit und Raum überschreitet.",
+    "title": "Historische Persönlichkeiten",
+    "description": "Erforsche die Weisheit von Persönlichkeiten, die den Lauf der Menschheit verändert haben. Wähle eine Persönlichkeit aus, um ein Gespräch zu beginnen, das Zeit und Raum überschreitet.",
     "searchPlaceholder": "Suche nach Name oder Bereich...",
-    "allGiants": "Alle Riesen",
+    "allGiants": "Alle Persönlichkeiten",
     "categories": {
       "achievement": "Leistung",
       "adversity": "Widrigkeiten",
       "wisdom": "Weisheit",
       "creativity": "Kreativität"
     },
-    "resultsCount": "{filtered} von {total} großen Geistern gefunden",
-    "readEpic": "Epos lesen ✨",
+    "resultsCount": "{filtered} von {total} großen Denkern gefunden",
+    "readEpic": "Biografie lesen ✨",
     "noResults": "Keine Ergebnisse gefunden",
     "noResultsDesc": "Versuche deinen Suchbegriff oder Filter zu ändern.",
-    "era": "Historischer Riese"
+    "era": "Historische Persönlichkeit"
   },
   "GiantDetail": {
     "returnToSquare": "Zurück zum Platz",
@@ -122,7 +122,7 @@
     "era": "Epoche",
     "field": "Bereich",
     "askForAdvice": "Um Rat fragen",
-    "notFound": "Riese nicht gefunden.",
+    "notFound": "Persönlichkeit nicht gefunden.",
     "goHome": "Zurück zur Startseite"
   },
   "Chat": {
@@ -174,42 +174,35 @@
   "Terms": {
     "title": "Nutzungsbedingungen",
     "lastUpdated": "Zuletzt aktualisiert: 18. Mai 2026",
-    "acceptanceTitle": "1. Zustimmung zu den Bedingungen",
-    "acceptanceDesc": "Durch den Zugriff auf und die Nutzung von Giants Wisdom erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie nicht mit allen Bedingungen einverstanden sind, ist Ihnen die Nutzung des Dienstes untersagt.",
-    "conductTitle": "2. Nutzerverhalten",
-    "conductDesc": "Sie verpflichten sich, die Plattform nur für rechtmäßige Zwecke zu nutzen. Sie dürfen keine anstößigen, schädlichen oder beleidigenden Nachrichten an die KI-Mentoren senden oder versuchen, die Sicherheitsvorkehrungen des Dienstes zu umgehen.",
-    "intellectualTitle": "3. Geistiges Eigentum",
-    "intellectualDesc": "Alle KI-generierten Antworten, Lebensgeschichten und das Design von Giants Wisdom sind für Ihre persönliche Inspiration und Ihren Bildungsgebrauch bestimmt. Die kommerzielle Verbreitung oder Vervielfältigung der Inhalte ist ohne vorherige Genehmigung untersagt.",
-    "limitationTitle": "4. Haftungsbeschränkung",
-    "limitationDesc": "Giants Wisdom stellt KI-generierte historische Simulationen zu Bildungs- und Unterhaltungszwecken zur Verfügung. Die Ratschläge der KI-Mentoren stellen keine professionelle, medizinische, finanzielle oder rechtliche Beratung dar. Wir haften nicht für Entscheidungen, die auf Basis dieser Dialoge getroffen werden.",
-    "terminationTitle": "5. Kündigung",
-    "terminationDesc": "Wir behalten uns das Recht vor, Ihren Zugriff auf den Dienst jederzeit und ohne Vorankündigung zu sperren oder zu kündigen, wenn Sie gegen diese Nutzungsbedingungen verstoßen.",
-    "contactTitle": "6. Kontakt",
-    "contactDesc": "Bei Fragen zu diesen Bedingungen kontaktieren Sie uns bitte unter support@wisdomgiants.com."
+    "intro": "Willkommen bei Giants Wisdom. Diese Nutzungsbedingungen regeln die rechtliche Vereinbarung und die Nutzergrenzen zwischen Ihnen und unserer Plattform bezüglich Ihrer Interaktion mit unseren Persönlichkeitsanalysen und Konversationssimulationen.",
+    "eligibilityTitle": "Artikel 1 (Teilnahmeberechtigung & Jugendschutz)",
+    "eligibilityDesc": "Dieser Dienst ist ausschließlich für Nutzer bestimmt, die mindestens 13 Jahre alt sind. Nutzer unter 13 Jahren, die mit unseren Plattformen interagieren, erklären, dass sie eine verifizierte Zustimmung der Eltern gemäß den globalen Datenschutzbestimmungen für Kinder eingeholt haben. Die Plattform lehnt jede Haftung ab, die sich aus unbefugtem Zugriff von Minderjährigen ergibt.",
+    "aiTitle": "Artikel 2 (KI-Infrastruktur & Umfassende Haftungsausschlüsse)",
+    "aiDesc": "1. Alle auf dieser Plattform angezeigten Dialoge mit historischen Persönlichkeiten sind interaktive Simulationen, die durch fortschrittliche KI-Modelle (Gemini 2.5 Suite) generiert werden.\n2. Die bereitgestellten Ergebnisse dienen ausschließlich Bildungs- und Unterhaltungszwecken. Sie stellen keinesfalls zertifizierte historische Aufzeichnungen, professionelle psychologische Gutachten, medizinische Beratung oder Rechtsberatung dar.\n3. Giants Wisdom übernimmt keine Haftung für KI-Halluzinationen oder Entscheidungen, die von Nutzern basierend auf Systemdaten getroffen werden.",
+    "intellectualTitle": "Artikel 3 (Geistiges Eigentum & Schutz vor Data-Scraping)",
+    "intellectualDesc": "1. Alle Layout-Architekturen, Marken, die Testmetriken der '4 Säulen der Größe', die 30 Situationsfragen und die hochwertigen Vektorillustrationen bleiben das ausschließliche Eigentum von Giants Wisdom.\n2. Den Nutzern ist es strengstens untersagt, unbefugte Kopien zu erstellen, kommerzielle Syndikate zu betreiben oder systematisches Data-Scraping über automatisierte Bots, Skripte oder Crawler-Netzwerke durchzuführen.",
+    "userDutyTitle": "Artikel 4 (Nutzerpflichten & Zustimmung zur Anzeigenpräsentation)",
+    "userDutyDesc": "1. Die Nutzer erklären sich damit einverstanden, unsere Anwendung zu nutzen, ohne Reverse-Engineering-Sequenzen einzuführen oder die Server böswillig zu überlasten.\n2. Als Gegenleistung für den kostenlosen Zugang stimmen die Nutzer ausdrücklich zu, dass Google AdSense und Drittanbieter von Werbung automatisierte Werbebanner im Anwendungsbereich präsentieren dürfen.",
+    "disputeTitle": "Artikel 5 (Anwendbares Recht & Gerichtsstand)",
+    "disputeDesc": "Diese Bedingungen und alle rechtlichen Schritte, die sich aus der Systemnutzung ergeben, unterliegen den Gesetzen der Republik Korea und werden in Übereinstimmung mit diesen ausgelegt. Alle Streitigkeiten werden ausschließlich dem zuständigen Gericht vorgelegt, das für den Standort des Plattformbetreibers zuständig ist."
   },
   "Footer": {
     "brand": {
-      "subtitle": "Die Halle der großen Geister",
+      "subtitle": "Die Halle der großen Denker",
       "description": "Ein KI-gestütztes Tor, um die Weisheit, Kämpfe und Triumphe der größten Persönlichkeiten der Geschichte noch einmal zu erleben."
     },
-    "navigation": {
-      "title": "Navigation",
-      "hall": "Die Halle",
-      "test": "Heritage-DNA-Test",
-      "chats": "Meine Gespräche",
-      "about": "Über uns"
+    "sections": {
+      "explore": "Erkunden",
+      "info": "Informationen"
     },
-    "legal": {
-      "title": "Rechtliches",
+    "links": {
+      "allGiants": "Alle Persönlichkeiten",
+      "wisdomArchive": "Weisheitsarchiv",
+      "about": "Über uns",
       "privacy": "Datenschutzerklärung",
-      "terms": "Nutzungsbedingungen"
-    },
-    "contact": {
-      "title": "Kontakt",
-      "email": "support@wisdomgiants.com",
-      "github": "Giants Wisdom Team"
-    },
-    "copyright": "© {year} Giants Wisdom. Alle Rechte vorbehalten."
+      "terms": "Nutzungsbedingungen",
+      "contact": "Kontakt"
+    }
   },
   "Giants": {
     "walt-disney": {
@@ -879,15 +872,15 @@
     },
     "rosa-parks": {
       "name": "Rosa Parks",
-      "headline": "In 1913, in the segregated landscape of Tuskegee, Alabama, Rosa McCauley was born into a world designed to diminish her humanity.",
-      "shortDescription": "The epic journey and wisdom of Rosa Parks.",
-      "quote": "Knowing what must be done does away with fear. When you are certain of your monumental cause, the world cannot intimidate you. Stand your ground.",
-      "era": "20th Century Giant (1913~2005)",
-      "chatGreeting": "Greetings, I am Rosa Parks. Do you seek the path of wisdom or have questions about my life's journey?",
+      "headline": "Die mutige Frau, deren Weigerung aufzustehen eine ganze Nation zum Aufstehen brachte.",
+      "shortDescription": "Die mutige Reise und unerschütterliche Weisheit von Rosa Parks.",
+      "quote": "Zu wissen, was getan werden muss, nimmt die Angst. Wenn du dir deiner großen Sache sicher bist, kann die Welt dich nicht einschüchtern. Bleib standhaft.",
+      "era": "Gigantin des 20. Jahrhunderts (1913~2005)",
+      "chatGreeting": "Seid gegrüßt, ich bin Rosa Parks. Suchst du den Pfad der Weisheit oder hast du Fragen zu meiner Lebensreise?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Rosa Parks.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
+        "Erzählen Sie mir von Ihrem größten Erfolg, Rosa Parks.",
+        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
+        "Was ist der wichtigste Ratschlag, den Sie mir geben können?"
       ]
     },
     "harriet-tubman": {
@@ -1451,15 +1444,15 @@
     },
     "napoleon-bonaparte": {
       "name": "Napoleon Bonaparte",
-      "headline": "The military genius who redrew the map of Europe and established the foundations of modern law.",
-      "shortDescription": "The epic saga of Napoleon and his grand ambition.",
-      "quote": "Impossible is a word to be found only in the dictionary of fools.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Napoleon Bonaparte. Do you seek the path of wisdom or have questions about my life's journey?",
+      "headline": "Das militärische Genie, das die Karte Europas neu zeichnete und die Grundlagen des modernen Rechts legte.",
+      "shortDescription": "Das epische Lebenswerk Napoleons und sein großer Ehrgeiz.",
+      "quote": "Das Wort 'unmöglich' gibt es nur im Wörterbuch von Narren.",
+      "era": "Gigant des 19. Jahrhunderts",
+      "chatGreeting": "Seid gegrüßt, ich bin Napoleon Bonaparte. Suchst du den Pfad der Weisheit oder hast du Fragen zu meiner Lebensreise?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Napoleon Bonaparte.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
+        "Erzählen Sie mir von Ihrem größten Erfolg, Napoleon Bonaparte.",
+        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
+        "Was ist der wichtigste Ratschlag, den Sie mir geben können?"
       ]
     },
     "abraham-lincoln": {
