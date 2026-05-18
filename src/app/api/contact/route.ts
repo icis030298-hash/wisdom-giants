@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
     const localeName = locale === 'ko' ? '한국어' : locale === 'de' ? 'Deutsch' : 'English';
 
     await resend.emails.send({
-      from: 'Giants Wisdom <onboarding@resend.dev>',
+      from: 'Giants Wisdom <contact@giantswisdom.com>',
       to: 'contact@giantswisdom.com',
       replyTo: email,
       subject: subject || `[Giants Wisdom] Contact from ${name}`,
