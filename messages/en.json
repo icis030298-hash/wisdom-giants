@@ -1487,22 +1487,19 @@
   },
   "Privacy": {
     "title": "Privacy Policy",
-    "section1": {
-      "title": "Information Collection",
-      "content": "We collect minimal information required to provide the best AI wisdom experience."
-    },
-    "section2": {
-      "title": "Use of Information",
-      "content": "Your interaction data is used solely to improve our AI models and user experience."
-    },
-    "section3": {
-      "title": "Data Security",
-      "content": "We implement industry-standard security measures to protect your data."
-    },
-    "section4": {
-      "title": "Contact Us",
-      "content": "If you have questions about this policy, contact us at privacy@wisdomgiants.com."
-    }
+    "lastUpdated": "Last Updated: May 16, 2026",
+    "summaryTitle": "1. Key Summary",
+    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
+    "collectionTitle": "2. Data We Collect and How We Collect It",
+    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
+    "purposeTitle": "3. How We Use the Information",
+    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
+    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
+    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. You can easily opt out of personalized tracking at any time by configuring your preferences directly at Google Ads Settings ([https://www.google.com/settings/ads](https://www.google.com/settings/ads)).",
+    "retentionTitle": "5. Data Retention and Destruction",
+    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
+    "rightsTitle": "6. Your Rights and Contact Information",
+    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
   },
   "Footer": {
     "brand": {
@@ -1519,7 +1516,8 @@
       "about": "About Us",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
-      "contact": "Contact"
+      "contact": "Contact",
+      "dnaTest": "Heritage DNA Test"
     }
   },
   "About": {
@@ -1535,22 +1533,6 @@
     "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
     "outroTitle": "Welcome to the Hall of Giants",
     "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today."
-  },
-  "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. You can easily opt out of personalized tracking at any time by configuring your preferences directly at Google Ads Settings ([https://www.google.com/settings/ads](https://www.google.com/settings/ads)).",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
   },
   "Terms": {
     "title": "Terms of Service",
@@ -1581,4 +1563,4 @@
     "advertising": "Advertising Cookies",
     "advertisingDesc": "Used to serve personalized ads through Google AdSense."
   }
-}
+}

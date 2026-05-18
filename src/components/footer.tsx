@@ -8,7 +8,7 @@ export default function Footer() {
   const footerLinks = {
     explore: [
       { label: t("links.allGiants"), href: "/#giants" },
-      { label: t("links.wisdomArchive"), href: "/#archive" },
+      { label: t("links.dnaTest"), href: "/test" },
     ],
     info: [
       { label: t("links.about"), href: "/about" },

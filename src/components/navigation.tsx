@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useTransition } from "react"
-import { Menu, X, Sparkles, BookOpen, Users, MessageCircle, Info, Languages, ChevronDown, LogOut, LayoutDashboard } from "lucide-react"
+import { Menu, X, Sparkles, Users, MessageCircle, Info, Languages, ChevronDown, LogOut, LayoutDashboard } from "lucide-react"
 import { useTranslations, useLocale } from "next-intl"
 import { usePathname, useRouter, Link } from "@/i18n/routing"
 import { AuthButton } from "@/components/auth-button"
@@ -24,7 +24,6 @@ export function Navigation() {
   
   const navLinks = [
     { label: t("hallOfGems"), href: "/#giants", icon: Users },
-    { label: t("wisdomArchive"), href: "/", icon: BookOpen },
     { 
       label: t("chatList"), 
       href: "/chats", 
