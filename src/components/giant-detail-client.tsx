@@ -69,6 +69,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const storyCardRef = useRef<HTMLDivElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
   const [showToast, setShowToast] = useState(false)
+  const [copied, setCopied] = useState(false)
   const [shareCardType, setShareCardType] = useState<'story' | 'square'>('story')
   const [cardScale, setCardScale] = useState(0.25)
 
@@ -212,6 +213,30 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       setTimeout(() => setShowToast(false), 2000)
     }
   }
+
+  const handleCopyLink = async () => {
+    const dnaType = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name;
+    const giantName = tg.name;
+    const text = locale === 'ko' 
+      ? `나의 유산 DNA는 '${dnaType}' 유형! 역사 속 ${giantName}과 닮은 나, 당신은 어떤 위인과 닮았나요? 👉 https://www.giantswisdom.com/ko/test`
+      : `My Heritage DNA is '${dnaType}' type! I match with historical ${giantName}. Who's your historical match? 👉 https://www.giantswisdom.com/en/test`;
+    
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      // Fallback for older browsers
+      const textArea = document.createElement('textarea');
+      textArea.value = text;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  };
 
   const shareToKakao = async () => {
     if (typeof window === 'undefined') return
@@ -901,16 +926,31 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 <div className="space-y-3 max-w-[360px] mx-auto">
                   <button
                     onClick={handleSaveImage}
-                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-bold text-foreground transition-all active:scale-95"
+                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-bold text-foreground transition-all active:scale-95 min-h-[48px]"
                   >
                     <Download className="w-4 h-4" />
                     {locale === 'ko' ? '이미지로 저장' : 'Save as Image'}
+                  </button>
+
+                  <button
+                    onClick={handleCopyLink}
+                    className={`w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold transition-all active:scale-95 min-h-[48px] border cursor-pointer ${
+                      copied 
+                        ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' 
+                        : 'bg-white/5 hover:bg-white/10 border-white/10 text-foreground'
+                    }`}
+                  >
+                    <Link2 className="w-4 h-4" />
+                    {copied 
+                      ? (locale === 'ko' ? '복사됨! ✓' : 'Copied! ✓') 
+                      : (locale === 'ko' ? '링크 복사' : 'Copy Link')
+                    }
                   </button>
                   
                   <div className="grid grid-cols-2 gap-3">
                     <button
                       onClick={shareToKakao}
-                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#FEE500] hover:bg-[#FEE500]/90 text-[#191919] text-sm font-bold transition-all active:scale-95"
+                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#FEE500] hover:bg-[#FEE500]/90 text-[#191919] text-sm font-bold transition-all active:scale-95 min-h-[48px] cursor-pointer"
                     >
                       <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                         <path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.557 1.707 4.8 4.27 6.007-.188.688-.68 2.48-.778 2.875-.158.625.228.618.48.45 1.97-1.312 2.72-1.848 3.823-2.583.4.056.802.088 1.205.088 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/>
@@ -920,7 +960,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                     
                     <button
                       onClick={handleNativeShare}
-                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/20 text-sm font-bold text-amber-400 transition-all active:scale-95"
+                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/20 text-sm font-bold text-amber-400 transition-all active:scale-95 min-h-[48px] cursor-pointer"
                     >
                       <Share2 className="w-4 h-4" />
                       {locale === 'ko' ? '공유하기' : 'Share'}
