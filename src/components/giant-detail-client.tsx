@@ -66,7 +66,27 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
 
 
   const shareCardRef = useRef<HTMLDivElement>(null)
+  const storyCardRef = useRef<HTMLDivElement>(null)
+  const containerRef = useRef<HTMLDivElement>(null)
   const [showToast, setShowToast] = useState(false)
+  const [shareCardType, setShareCardType] = useState<'story' | 'square'>('story')
+  const [cardScale, setCardScale] = useState(0.25)
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    const handleResize = () => {
+      if (containerRef.current) {
+        const containerWidth = containerRef.current.clientWidth
+        setCardScale(containerWidth / 1080)
+      }
+    }
+    const timer = setTimeout(handleResize, 100)
+    window.addEventListener('resize', handleResize)
+    return () => {
+      clearTimeout(timer)
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [shareCardType])
 
   useEffect(() => {
     if (mode === 'match') {
@@ -117,18 +137,42 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       } as any)[giant.category.toLowerCase()] : null) || giant.category;
 
   const handleSaveImage = async () => {
-    if (!shareCardRef.current) return
+    const isStory = shareCardType === 'story'
+    const targetRef = isStory ? storyCardRef : shareCardRef
+    if (!targetRef.current) return
+
     try {
       const html2canvas = (await import('html2canvas')).default
-      const canvas = await html2canvas(shareCardRef.current, {
+      
+      const options = isStory ? {
+        backgroundColor: '#020617',
+        scale: 2,
+        useCORS: true,
+        allowTaint: true,
+        logging: false,
+        width: 1080,
+        height: 1920,
+      } : {
         backgroundColor: '#0B0F1A',
         scale: 2,
         useCORS: true,
         allowTaint: true,
         logging: false,
-      })
+      }
+
+      const canvas = await html2canvas(targetRef.current, options)
       const link = document.createElement('a')
-      link.download = locale === 'ko' ? `나의유산DNA_${tg.name || giant.name}.png` : `HerittageDNA_${tg.name || giant.name}.png`
+      
+      if (isStory) {
+        link.download = locale === 'ko' 
+          ? `나의유산DNA_스토리_${tg.name || giant.name}.png` 
+          : `HeritageDNA_Story_${tg.name || giant.name}.png`
+      } else {
+        link.download = locale === 'ko' 
+          ? `나의유산DNA_${tg.name || giant.name}.png` 
+          : `HeritageDNA_${tg.name || giant.name}.png`
+      }
+      
       link.href = canvas.toDataURL('image/png')
       link.click()
     } catch (err) {
@@ -364,7 +408,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="glass-card p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-red-500/10 bg-red-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-red-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-3 md:space-y-4">
-                  {(trialsContent || "").split(/\n\n|\\n\\n/).map((p, i) => (
+                  {(trialsContent || "").split(/\n\n|\\n\\n/).map((p: string, i: number) => (
                     p ? (
                       <p key={i} className="text-sm md:text-base text-slate-200 leading-relaxed font-normal">
                         {p}
@@ -384,7 +428,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="glass-card p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-emerald-500/10 bg-emerald-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-3 md:space-y-4">
-                  {(overcomingContent || "").split(/\n\n|\\n\\n/).map((p, i) => (
+                  {(overcomingContent || "").split(/\n\n|\\n\\n/).map((p: string, i: number) => (
                     p ? (
                       <p key={i} className="text-sm md:text-base text-slate-200 leading-relaxed font-normal">
                         {p}
@@ -653,37 +697,205 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="border-t border-white/10 pt-6 space-y-4">
                 <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold">{locale === 'ko' ? '결과 공유하기' : 'Share Results'}</p>
 
-                {/* Share Card — captured by html2canvas */}
-                <div
-                  ref={shareCardRef}
-                  style={{
-                    background: 'linear-gradient(135deg, #0B0F1A 0%, #111827 100%)',
-                    border: '1px solid rgba(245,158,11,0.3)',
-                    borderRadius: '20px',
-                    padding: '28px 24px',
-                    maxWidth: '360px',
-                    margin: '0 auto',
-                    textAlign: 'center',
-                  }}
-                >
-                  <div style={{ width: '72px', height: '72px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 14px', border: '2px solid rgba(245,158,11,0.5)' }}>
-                    <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
-                  </div>
-                  <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : 'My Heritage DNA'}</p>
-                  <p style={{ color: '#FEF3C7', fontSize: '18px', fontWeight: '700', marginBottom: '4px', fontFamily: 'Georgia, serif' }}>
-                    {dna ? archetypes[dna]?.name[locale as 'ko' | 'en'] : ''}
-                  </p>
-                  <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{locale === 'ko' ? ' 유형' : ' Type'}</p>
-                  <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 0', marginBottom: '18px' }}>
-                    <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: 'keep-all' }}>
-                      &ldquo;{(tg.quote || '').slice(0, 70)}{(tg.quote || '').length > 70 ? '...' : ''}&rdquo;
-                    </p>
-                  </div>
-                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
-                    <span style={{ color: '#F59E0B', fontWeight: '700', fontSize: '13px' }}>Giants Wisdom</span>
-                    <span style={{ color: '#475569', fontSize: '11px' }}>giantswisdom.com</span>
-                  </div>
+                {/* Card Type Toggle */}
+                <div className="flex justify-center gap-4 mb-4">
+                  <button
+                    onClick={() => setShareCardType('story')}
+                    className={`flex-1 max-w-[170px] min-h-[48px] px-4 py-2.5 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
+                      shareCardType === 'story'
+                        ? 'bg-amber-500 text-black border-amber-500 shadow-md shadow-amber-500/20'
+                        : 'bg-white/5 text-muted-foreground border-white/10 hover:bg-white/10 hover:text-foreground'
+                    }`}
+                  >
+                    <span>📱</span>
+                    <span>{locale === 'ko' ? '스토리형 (9:16)' : 'Story (9:16)'}</span>
+                  </button>
+                  <button
+                    onClick={() => setShareCardType('square')}
+                    className={`flex-1 max-w-[170px] min-h-[48px] px-4 py-2.5 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
+                      shareCardType === 'square'
+                        ? 'bg-amber-500 text-black border-amber-500 shadow-md shadow-amber-500/20'
+                        : 'bg-white/5 text-muted-foreground border-white/10 hover:bg-white/10 hover:text-foreground'
+                    }`}
+                  >
+                    <span>⬜</span>
+                    <span>{locale === 'ko' ? '정방형 (1:1)' : 'Square (1:1)'}</span>
+                  </button>
                 </div>
+
+                {/* Share Cards */}
+                {shareCardType === 'story' ? (
+                  /* Story card container & preview scale wrapper */
+                  <div 
+                    ref={containerRef} 
+                    className="w-full max-w-[340px] aspect-[9/16] relative overflow-hidden mx-auto rounded-3xl border border-amber-500/30 bg-[#020617] shadow-2xl"
+                    style={{ height: `${340 * 16 / 9}px` }}
+                  >
+                    <div 
+                      ref={storyCardRef}
+                      style={{ 
+                        transform: `scale(${cardScale})`, 
+                        transformOrigin: 'top left', 
+                        width: '1080px', 
+                        height: '1920px',
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                      }}
+                    >
+                      {/* Background Ambient and Stars */}
+                      <div style={{
+                        position: 'absolute',
+                        inset: 0,
+                        background: 'linear-gradient(to bottom, #020617 0%, #0f172a 100%)',
+                        overflow: 'hidden',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'space-between',
+                        padding: '120px 80px',
+                        color: '#ffffff',
+                        fontFamily: 'sans-serif',
+                      }}>
+                        {/* Gradient Ambient Blob */}
+                        <div style={{
+                          position: 'absolute',
+                          top: '30%',
+                          left: '50%',
+                          transform: 'translate(-50%, -50%)',
+                          width: '800px',
+                          height: '800px',
+                          borderRadius: '50%',
+                          background: 'radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, transparent 70%)',
+                          pointerEvents: 'none',
+                        }} />
+                        
+                        {/* Delicate Particle Stars */}
+                        {[
+                          { top: '15%', left: '20%', size: '8px', opacity: 0.4 },
+                          { top: '25%', left: '80%', size: '10px', opacity: 0.6 },
+                          { top: '45%', left: '15%', size: '6px', opacity: 0.3 },
+                          { top: '60%', left: '85%', size: '12px', opacity: 0.5 },
+                          { top: '75%', left: '25%', size: '8px', opacity: 0.4 },
+                          { top: '85%', left: '70%', size: '10px', opacity: 0.5 },
+                        ].map((star, idx) => (
+                          <div key={idx} style={{
+                            position: 'absolute',
+                            top: star.top,
+                            left: star.left,
+                            width: star.size,
+                            height: star.size,
+                            borderRadius: '50%',
+                            backgroundColor: '#f59e0b',
+                            boxShadow: '0 0 12px #f59e0b',
+                            opacity: star.opacity,
+                          }} />
+                        ))}
+
+                        {/* Top: Logo & URL */}
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px', zIndex: 10 }}>
+                          <span style={{ color: '#f59e0b', fontSize: '38px', fontWeight: '900', letterSpacing: '0.15em', fontFamily: 'Georgia, serif' }}>GIANTS WISDOM</span>
+                          <span style={{ color: '#475569', fontSize: '24px', letterSpacing: '0.05em' }}>giantswisdom.com</span>
+                        </div>
+
+                        {/* Divider 1 */}
+                        <div style={{ width: '100%', height: '2px', background: 'linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent)', zIndex: 10 }} />
+
+                        {/* Middle: Giant's circular image (300px) */}
+                        <div style={{ display: 'flex', justifyContent: 'center', zIndex: 10 }}>
+                          <div style={{ 
+                            width: '300px', 
+                            height: '300px', 
+                            borderRadius: '50%', 
+                            overflow: 'hidden', 
+                            border: '6px solid #f59e0b',
+                            boxShadow: '0 0 40px rgba(245, 158, 11, 0.25)' 
+                          }}>
+                            <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
+                          </div>
+                        </div>
+
+                        {/* Middle: DNA label & Type */}
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', textAlign: 'center', zIndex: 10 }}>
+                          <span style={{ color: '#f59e0b', fontSize: '22px', letterSpacing: '0.3em', fontWeight: 'bold' }}>
+                            {locale === 'ko' ? '나의 유산 DNA' : 'MY HERITAGE DNA'}
+                          </span>
+                          <h1 style={{ color: '#FEF3C7', fontSize: '54px', fontWeight: '800', fontFamily: 'Georgia, serif', lineHeight: '1.2', margin: '10px 0' }}>
+                            {dna ? archetypes[dna]?.name[locale as 'ko' | 'en'] : ''}
+                          </h1>
+                          <p style={{ color: '#94A3B8', fontSize: '32px', fontWeight: '500' }}>
+                            {tg.name}{locale === 'ko' ? ' 유형' : ' Type'}
+                          </p>
+                        </div>
+
+                        {/* Divider 2 */}
+                        <div style={{ width: '100%', height: '2px', background: 'linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent)', zIndex: 10 }} />
+
+                        {/* Middle: Italic Quote */}
+                        <div style={{ padding: '0 20px', textAlign: 'center', zIndex: 10 }}>
+                          <p style={{ 
+                            color: '#E2E8F0', 
+                            fontSize: '32px', 
+                            fontStyle: 'italic', 
+                            fontFamily: 'Georgia, serif', 
+                            lineHeight: '1.6', 
+                            wordBreak: 'keep-all',
+                          }}>
+                            &ldquo;{tg.quote}&rdquo;
+                          </p>
+                        </div>
+
+                        {/* Divider 3 */}
+                        <div style={{ width: '100%', height: '2px', background: 'linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent)', zIndex: 10 }} />
+
+                        {/* Bottom: CTA */}
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px', textAlign: 'center', zIndex: 10 }}>
+                          <span style={{ color: '#94A3B8', fontSize: '24px', letterSpacing: '0.1em' }}>
+                            {locale === 'ko' ? '나와 닮은 위인은?' : 'Who is your soul giant?'}
+                          </span>
+                          <span style={{ color: '#f59e0b', fontSize: '36px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            {locale === 'ko' ? '지금 테스트하기' : 'Test Now'} <span style={{ fontSize: '30px' }}>→</span>
+                          </span>
+                          <span style={{ color: '#475569', fontSize: '24px', marginTop: '4px' }}>
+                            giantswisdom.com/test
+                          </span>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  /* Square card — captured by html2canvas */
+                  <div
+                    ref={shareCardRef}
+                    style={{
+                      background: 'linear-gradient(135deg, #0B0F1A 0%, #111827 100%)',
+                      border: '1px solid rgba(245,158,11,0.3)',
+                      borderRadius: '20px',
+                      padding: '28px 24px',
+                      maxWidth: '360px',
+                      margin: '0 auto',
+                      textAlign: 'center',
+                    }}
+                  >
+                    <div style={{ width: '72px', height: '72px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 14px', border: '2px solid rgba(245,158,11,0.5)' }}>
+                      <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
+                    </div>
+                    <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : 'My Heritage DNA'}</p>
+                    <p style={{ color: '#FEF3C7', fontSize: '18px', fontWeight: '700', marginBottom: '4px', fontFamily: 'Georgia, serif' }}>
+                      {dna ? archetypes[dna]?.name[locale as 'ko' | 'en'] : ''}
+                    </p>
+                    <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{locale === 'ko' ? ' 유형' : ' Type'}</p>
+                    <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 0', marginBottom: '18px' }}>
+                      <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: 'keep-all' }}>
+                        &ldquo;{(tg.quote || '').slice(0, 70)}{(tg.quote || '').length > 70 ? '...' : ''}&rdquo;
+                      </p>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+                      <span style={{ color: '#F59E0B', fontWeight: '700', fontSize: '13px' }}>Giants Wisdom</span>
+                      <span style={{ color: '#475569', fontSize: '11px' }}>giantswisdom.com</span>
+                    </div>
+                  </div>
+                )}
 
                 {/* Share Buttons */}
                 <div className="space-y-3 max-w-[360px] mx-auto">
