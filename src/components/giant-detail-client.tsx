@@ -238,6 +238,24 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     }
   };
 
+  const handleTwitterShare = () => {
+    const dnaType = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name;
+    const giantName = tg.name;
+    const text = locale === 'ko'
+      ? `나의 유산 DNA는 '${dnaType}' 유형!\n역사 속 ${giantName}과 닮은 나 🏛️\n당신은 어떤 위인과 닮았나요?\n#GiantsWisdom #유산DNA #역사위인`
+      : `My Heritage DNA is '${dnaType}' type!\nI match with historical ${giantName} 🏛️\nWho's your historical match?\n#GiantsWisdom #HeritageDNA`;
+    
+    const url = locale === 'ko'
+      ? 'https://www.giantswisdom.com/ko/test'
+      : 'https://www.giantswisdom.com/en/test';
+    
+    window.open(
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
+      '_blank',
+      'width=550,height=450'
+    );
+  };
+
   const shareToKakao = async () => {
     if (typeof window === 'undefined') return
 
@@ -945,6 +963,16 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                       ? (locale === 'ko' ? '복사됨! ✓' : 'Copied! ✓') 
                       : (locale === 'ko' ? '링크 복사' : 'Copy Link')
                     }
+                  </button>
+
+                  <button
+                    onClick={handleTwitterShare}
+                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-black hover:bg-[#1a1a1a] border border-[#222222] text-sm font-bold text-white transition-all active:scale-95 min-h-[48px] cursor-pointer"
+                  >
+                    <svg className="w-4 h-4 fill-white" viewBox="0 0 24 24">
+                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                    {locale === 'ko' ? 'X 공유' : 'Share on X'}
                   </button>
                   
                   <div className="grid grid-cols-2 gap-3">
