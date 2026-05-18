@@ -294,11 +294,11 @@ const esUiData = {
   }
 };
 
-// Function to call Gemini API for translating whole giant payload
-function translateGiant(slug, original) {
+// Function to call Gemini API for translating a batch of giants
+function translateBatch(batch) {
   return new Promise((resolve, reject) => {
-    const prompt = `You are an expert translator. Translate the following JSON object fields into professional, inspiring Spanish (Latin American).
-Fields to translate:
+    const prompt = `You are an expert translator. Translate the following JSON object containing multiple historical figure definitions into professional, inspiring Spanish (Latin American).
+For each figure in the object, translate these fields:
 - name: Keep historical name in standard Spanish format (e.g. use 'Sejong el Grande' for Sejong the Great, 'Alejandro Magno' for Alexander the Great, 'Juana de Arco' for Joan of Arc, 'Confucio' for Confucius, 'Aristóteles' for Aristotle, 'Platón' for Plato, 'Sócrates' for Socrates, 'Buda' for Buddha, 'Lao Tsé' for Lao Tzu, 'Julio César' for Julius Caesar, etc., otherwise keep original like Steve Jobs).
 - headline: Inspiring Spanish headline.
 - shortDescription: Inspiring Spanish description.
@@ -306,10 +306,10 @@ Fields to translate:
 - chatGreeting: An inspiring greeting in Spanish, keeping the style.
 - suggestedQuestions: Translate the 3 questions into natural Spanish.
 
-Input JSON:
-${JSON.stringify(original, null, 2)}
+Input JSON of figures:
+${JSON.stringify(batch, null, 2)}
 
-Return ONLY the valid translated JSON block. Do not wrap in markdown \`\`\`json block. Just the raw JSON content:`;
+Return ONLY the valid translated JSON block matching the input structure with identical keys. Do not wrap in markdown \`\`\`json block. Just the raw JSON content:`;
 
     const requestData = JSON.stringify({
       contents: [{
@@ -356,20 +356,19 @@ Return ONLY the valid translated JSON block. Do not wrap in markdown \`\`\`json 
   });
 }
 
-// Helper to run with retries and backoff
-async function translateWithRetry(slug, original, retries = 5, delay = 5000) {
+// Helper to run batch translation with retries and backoff
+async function translateBatchWithRetry(batch, retries = 5, delay = 5000) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
-      const result = await translateGiant(slug, original);
+      const result = await translateBatch(batch);
       return result;
     } catch (err) {
-      console.warn(`[${slug}] Attempt ${attempt}/${retries} failed: ${err.message}`);
+      console.warn(`[Batch of ${Object.keys(batch).length}] Attempt ${attempt}/${retries} failed: ${err.message}`);
       
       // Auto-recovery for Rate Limits (429 Quota Exceeded)
       if (err.message.includes('429') || err.message.includes('quota') || err.message.includes('Quota exceeded')) {
         console.warn(`⚠️ Rate limit hit! Sleeping for 65 seconds to fully cool down and clear the quota...`);
         await new Promise(r => setTimeout(r, 65000));
-        // Reset the loop index to retry the same attempt after cooling down
         attempt--;
         continue;
       }
@@ -382,7 +381,7 @@ async function translateWithRetry(slug, original, retries = 5, delay = 5000) {
 
 // Main execution block
 async function run() {
-  console.log("Starting Incremental Spanish Translations Generation...");
+  console.log("Starting Incremental Spanish Translations Generation (Batch Mode)...");
   
   // Read existing es.json if it exists to preserve already translated giants
   let existingEsData = null;
@@ -422,30 +421,48 @@ async function run() {
 
   console.log(`Of these, ${giantsToTranslate.length} giants need translation/healing.`);
 
-  // Process completely sequentially with generous delay to avoid rate limits
-  for (let i = 0; i < giantsToTranslate.length; i++) {
-    const slug = giantsToTranslate[i];
-    console.log(`[${i + 1}/${giantsToTranslate.length}] Healing translation for: ${slug}`);
+  if (giantsToTranslate.length === 0) {
+    console.log("🎉 All giants are already translated successfully!");
+    process.exit(0);
+  }
+
+  // Batch translate in groups of 10
+  const batchSize = 10;
+  for (let i = 0; i < giantsToTranslate.length; i += batchSize) {
+    const batchSlugs = giantsToTranslate.slice(i, i + batchSize);
+    console.log(`[Batch ${Math.floor(i / batchSize) + 1}/${Math.ceil(giantsToTranslate.length / batchSize)}] Translating ${batchSlugs.length} giants: ${batchSlugs.join(', ')}`);
     
-    const original = enData.Giants[slug];
-    try {
-      const translated = await translateWithRetry(slug, original);
-      esData.Giants[slug] = translated;
-      console.log(`✓ Successfully translated and healed: ${slug}`);
-      
-      // Periodically save progress in case script gets interrupted
-      if ((i + 1) % 5 === 0 || i === giantsToTranslate.length - 1) {
-        fs.writeFileSync(esPath, JSON.stringify(esData, null, 2), 'utf8');
-        console.log(`[Progress Saved] Generated es.json with ${Object.keys(esData.Giants).length} translated giants.`);
-      }
-    } catch (err) {
-      console.error(`✗ CRITICAL FAIL: Could not translate [${slug}] after all retries. Kept fallback.`);
-      esData.Giants[slug] = original; // Fallback
+    const batchToTranslate = {};
+    for (const slug of batchSlugs) {
+      batchToTranslate[slug] = enData.Giants[slug];
     }
 
-    // Add a 4.5 second delay between requests to stay safely under the 15 RPM limit
-    if (i < giantsToTranslate.length - 1) {
-      await new Promise(r => setTimeout(r, 4500));
+    try {
+      const translatedBatch = await translateBatchWithRetry(batchToTranslate);
+      for (const slug of batchSlugs) {
+        if (translatedBatch[slug]) {
+          esData.Giants[slug] = translatedBatch[slug];
+          console.log(`  ✓ Translated: ${slug}`);
+        } else {
+          console.warn(`  ⚠️ Missing translation in response for: ${slug}. Keeping English fallback.`);
+          esData.Giants[slug] = enData.Giants[slug];
+        }
+      }
+
+      // Save progress after each batch
+      fs.writeFileSync(esPath, JSON.stringify(esData, null, 2), 'utf8');
+      console.log(`[Progress Saved] Generated es.json with ${Object.keys(esData.Giants).length} translated giants.`);
+
+    } catch (err) {
+      console.error(`✗ CRITICAL BATCH FAIL: Could not translate batch [${batchSlugs.join(', ')}]. Kept fallback.`);
+      for (const slug of batchSlugs) {
+        esData.Giants[slug] = enData.Giants[slug];
+      }
+    }
+
+    // Add a 6-second delay between batches to stay safely under 15 RPM
+    if (i + batchSize < giantsToTranslate.length) {
+      await new Promise(r => setTimeout(r, 6000));
     }
   }
 
