@@ -12,7 +12,7 @@ export default function Loading() {
   } else if (locale === 'ko') {
     loadingText = '시대를 초월한 지혜를 불러오는 중...'
   } else if (locale === 'de') {
-    loadingText = 'Zeitlose Weisheit beschwören...'
+    loadingText = 'Erwecke zeitlose Weisheit...'
   }
   return (
     <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background">
