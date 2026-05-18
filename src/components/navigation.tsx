@@ -56,17 +56,17 @@ export function Navigation() {
   return (
     <>
       <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${isScrolled ? "glass py-2 md:py-3" : "py-3 md:py-6"}`}>
-        <div className="max-w-7xl mx-auto px-3 md:px-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-3 md:px-4 flex items-center justify-between w-full max-w-full overflow-hidden">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 md:gap-3 group">
-            <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center">
+          <Link href="/" className="flex items-center gap-2 md:gap-3 group flex-shrink min-w-0 max-w-[60%]">
+            <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center flex-shrink-0">
               <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-primary-foreground" />
             </div>
-            <div className="hidden sm:block">
-              <span className="font-serif text-lg font-semibold text-foreground group-hover:text-amber-200 transition-colors">
+            <div className="hidden sm:block min-w-0 truncate">
+              <span className="font-serif text-lg font-semibold text-foreground group-hover:text-amber-200 transition-colors block truncate">
                 {t("title")}
               </span>
-              <p className="text-xs text-muted-foreground -mt-0.5">{t("subtitle")}</p>
+              <p className="text-xs text-muted-foreground -mt-0.5 truncate">{t("subtitle")}</p>
             </div>
           </Link>
           
@@ -119,10 +119,10 @@ export function Navigation() {
           </div>
           
           {/* Mobile actions */}
-          <div className="flex items-center gap-1.5 md:hidden max-w-[80px]">
+          <div className="flex-shrink-0 flex items-center gap-1.5 ml-auto md:hidden">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <button className="w-8 h-8 flex items-center justify-center p-1 rounded-lg glass text-foreground outline-none cursor-pointer">
+                <button className="w-8 h-8 flex items-center justify-center p-1 rounded-lg glass text-foreground outline-none cursor-pointer flex-shrink-0">
                   <Languages className="w-4 h-4" />
                 </button>
               </DropdownMenuTrigger>
@@ -141,7 +141,7 @@ export function Navigation() {
 
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="w-8 h-8 flex items-center justify-center p-1 rounded-lg glass text-foreground cursor-pointer"
+              className="w-8 h-8 flex items-center justify-center p-1 rounded-lg glass text-foreground cursor-pointer flex-shrink-0"
             >
               {isMobileMenuOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
             </button>
