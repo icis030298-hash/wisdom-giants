@@ -20,12 +20,12 @@ export default function HeritageTestPage() {
   const [answers, setAnswers] = useState<Record<number, Dimension>>({})
   const [progress, setProgress] = useState(0)
 
-  // Current stage logic (10 questions per stage)
-  const currentStage = Math.floor(currentQuestionIndex / 10) + 1
+  // Current stage logic (5 questions per stage)
+  const currentStage = Math.floor(currentQuestionIndex / 5) + 1
 
   useEffect(() => {
     // Progress within the current stage (0-100%)
-    const stageProgress = ((currentQuestionIndex % 10) / 10) * 100
+    const stageProgress = ((currentQuestionIndex % 5) / 5) * 100
     setProgress(stageProgress)
   }, [currentQuestionIndex])
 
@@ -37,7 +37,7 @@ export default function HeritageTestPage() {
     const newAnswers = { ...answers, [questions[currentQuestionIndex].id]: value }
     setAnswers(newAnswers)
 
-    if (currentQuestionIndex === 9 || currentQuestionIndex === 19) {
+    if (currentQuestionIndex === 4 || currentQuestionIndex === 9) {
       setStep('adBreak')
     } else if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1)
@@ -164,7 +164,7 @@ export default function HeritageTestPage() {
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-8">
                 {[
-                  { icon: History, label: "30 Situations" },
+                  { icon: History, label: "15 Situations" },
                   { icon: Dna, label: "Heritage DNA" },
                   { icon: BrainCircuit, label: "Soul Analysis" },
                   { icon: ShieldCheck, label: "100 Giants" }
@@ -205,7 +205,7 @@ export default function HeritageTestPage() {
                     {t("back")}
                   </button>
                   <span className="text-sm font-medium text-amber-500/80">
-                    {t(`stages.stage${currentStage}`)} | {(currentQuestionIndex % 10) + 1} / 10
+                    {t(`stages.stage${currentStage}`)} | {(currentQuestionIndex % 5) + 1} / 5
                   </span>
                 </div>
                 <div className="h-1.5 w-full bg-muted rounded-full overflow-hidden">

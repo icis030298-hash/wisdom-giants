@@ -1,4 +1,3 @@
-
 export type Pillar = 'Scope' | 'Drive' | 'Method' | 'Origin';
 export type Dimension = 'L' | 'S' | 'R' | 'P' | 'D' | 'H' | 'I' | 'T';
 
@@ -30,7 +29,7 @@ export interface Question {
 }
 
 export const questions: Question[] = [
-  // SCOPE (Macro 'L' vs Micro 'S') - 8 Questions
+  // SCOPE (Macro 'L' vs Micro 'S') - 4 Questions
   {
     id: 1,
     pillar: 'Scope',
@@ -63,20 +62,6 @@ export const questions: Question[] = [
     id: 3,
     pillar: 'Scope',
     text: {
-      ko: "당신이 책을 쓴다면, 어떤 주제를 선택하시겠습니까?",
-      en: "If you were to write a book, what topic would you choose?"
-    },
-    options: {
-      A: { text: { ko: "인류 역사의 흐름과 미래의 방향에 대한 거대 담론", en: "A grand discourse on the flow of human history and the direction of the future." }, value: 'L' },
-      B: { text: { ko: "일상 속에서 발견하는 작은 행복과 삶의 지혜", en: "Small happiness and wisdom of life discovered in everyday life." }, value: 'S' },
-      C: { text: { ko: "우주와 생명의 기원에 관한 과학적 고찰", en: "Scientific considerations on the origin of the universe and life." }, value: 'L' },
-      D: { text: { ko: "가족과 친구들 사이의 깊은 유대와 사랑의 기록", en: "A record of deep bonds and love among family and friends." }, value: 'S' }
-    }
-  },
-  {
-    id: 4,
-    pillar: 'Scope',
-    text: {
       ko: "당신은 리더로서 어떤 성과를 더 중요하게 생각합니까?",
       en: "As a leader, which outcome do you value more?"
     },
@@ -88,7 +73,7 @@ export const questions: Question[] = [
     }
   },
   {
-    id: 5,
+    id: 4,
     pillar: 'Scope',
     text: {
       ko: "문제를 해결할 때 당신의 접근 방식은?",
@@ -101,52 +86,10 @@ export const questions: Question[] = [
       D: { text: { ko: "관련된 사람들의 불편함을 먼저 해소하는 임시 조치를 취한다.", en: "Take temporary measures to first alleviate the discomfort of the people involved." }, value: 'S' }
     }
   },
-  {
-    id: 6,
-    pillar: 'Scope',
-    text: {
-      ko: "당신은 도시를 건설한다면 어떤 부분에 가장 힘을 쏟겠습니까?",
-      en: "If you were to build a city, which part would you focus on most?"
-    },
-    options: {
-      A: { text: { ko: "수백 년 뒤에도 영감을 줄 웅장한 기념물과 도시 설계", en: "Grand monuments and urban designs that will inspire hundreds of years later." }, value: 'L' },
-      B: { text: { ko: "주민들이 매일 이용하는 편리한 교통과 생활 편의 시설", en: "Convenient transportation and living facilities that residents use every day." }, value: 'S' },
-      C: { text: { ko: "지성인들이 모여 토론하고 연구할 수 있는 거대 도서관과 광장", en: "A massive library and plaza where intellectuals can gather, discuss, and research." }, value: 'L' },
-      D: { text: { ko: "아이들이 안전하게 뛰어놀 수 있는 공원과 교육 환경", en: "Parks and educational environments where children can play safely." }, value: 'S' }
-    }
-  },
-  {
-    id: 7,
-    pillar: 'Scope',
-    text: {
-      ko: "과학 기술의 발전이 인류에게 주는 가장 큰 혜택은?",
-      en: "What is the greatest benefit of scientific and technological progress for humanity?"
-    },
-    options: {
-      A: { text: { ko: "지구라는 한계를 넘어 우주로 나아갈 수 있는 가능성", en: "The possibility of going beyond the limits of Earth into space." }, value: 'L' },
-      B: { text: { ko: "질병을 정복하고 인간의 고통을 획기적으로 줄여주는 것", en: "Conquering diseases and significantly reducing human suffering." }, value: 'S' },
-      C: { text: { ko: "에너지 문제를 해결하여 인류 문명의 지속 가능성을 확보하는 것", en: "Securing the sustainability of human civilization by solving energy problems." }, value: 'L' },
-      D: { text: { ko: "노동 시간을 단축하여 사람들에게 더 많은 자유 시간을 주는 것", en: "Providing more free time to people by shortening labor hours." }, value: 'S' }
-    }
-  },
-  {
-    id: 8,
-    pillar: 'Scope',
-    text: {
-      ko: "당신은 예술가로서 어떤 작품을 남기고 싶습니까?",
-      en: "As an artist, what kind of work do you want to leave behind?"
-    },
-    options: {
-      A: { text: { ko: "시대의 정신을 관통하고 인류의 가치관을 뒤흔드는 대작", en: "A masterpiece that pierces the spirit of the age and shakes human values." }, value: 'L' },
-      B: { text: { ko: "지친 영혼을 달래주고 위로해주는 작고 따뜻한 소품", en: "A small, warm piece that soothes and comforts tired souls." }, value: 'S' },
-      C: { text: { ko: "미지의 세계에 대한 경외심을 불러일으키는 거대한 조형물", en: "A massive sculpture that inspires awe for the unknown world." }, value: 'L' },
-      D: { text: { ko: "일상의 아름다움을 세밀하게 포착한 사실적인 그림", en: "A realistic painting that finely captures the beauty of everyday life." }, value: 'S' }
-    }
-  },
 
-  // DRIVE (Reason 'R' vs Passion 'P') - 8 Questions
+  // DRIVE (Reason 'R' vs Passion 'P') - 4 Questions
   {
-    id: 9,
+    id: 5,
     pillar: 'Drive',
     text: {
       ko: "중요한 결정을 내려야 할 때, 당신은 무엇에 더 의지합니까?",
@@ -160,7 +103,7 @@ export const questions: Question[] = [
     }
   },
   {
-    id: 10,
+    id: 6,
     pillar: 'Drive',
     text: {
       ko: "실패했을 때 당신의 반응은?",
@@ -174,7 +117,7 @@ export const questions: Question[] = [
     }
   },
   {
-    id: 11,
+    id: 7,
     pillar: 'Drive',
     text: {
       ko: "사람들을 설득할 때 당신이 주로 사용하는 방법은?",
@@ -188,7 +131,7 @@ export const questions: Question[] = [
     }
   },
   {
-    id: 12,
+    id: 8,
     pillar: 'Drive',
     text: {
       ko: "당신이 생각하는 이상적인 리더의 모습은?",
@@ -201,66 +144,10 @@ export const questions: Question[] = [
       D: { text: { ko: "팀원들을 위해 기꺼이 자신을 희생하는 헌신적인 리더", en: "A devoted leader who is willing to sacrifice themselves for team members." }, value: 'P' }
     }
   },
-  {
-    id: 13,
-    pillar: 'Drive',
-    text: {
-      ko: "갈등 상황에서 당신은 어떻게 행동합니까?",
-      en: "How do you act in a conflict situation?"
-    },
-    options: {
-      A: { text: { ko: "감정을 배제하고 상황의 시시비비를 명확히 가린다.", en: "Exclude emotions and clearly judge the rights and wrongs of the situation." }, value: 'R' },
-      B: { text: { ko: "서로의 마음을 어루만지고 진정성을 확인하려 노력한다.", en: "Try to comfort each other's hearts and verify sincerity." }, value: 'P' },
-      C: { text: { ko: "제3자의 입장에서 객관적인 중재안을 도출한다.", en: "Derive an objective mediation plan from a third party perspective." }, value: 'R' },
-      D: { text: { ko: "자신의 잘못을 먼저 인정하고 솔직하게 감정을 표현한다.", en: "Acknowledge one's own faults first and express emotions honestly." }, value: 'P' }
-    }
-  },
-  {
-    id: 14,
-    pillar: 'Drive',
-    text: {
-      ko: "지식 습득을 위해 당신이 더 선호하는 방법은?",
-      en: "Which method do you prefer for acquiring knowledge?"
-    },
-    options: {
-      A: { text: { ko: "검증된 논문과 서적을 통한 체계적인 공부", en: "Systematic study through verified papers and books." }, value: 'R' },
-      B: { text: { ko: "직접 현장을 발로 뛰며 몸으로 느끼는 체험", en: "Experiencing it personally by running to the field." }, value: 'P' },
-      C: { text: { ko: "다양한 전문가들의 토론을 듣고 비판적으로 수용", en: "Listening to discussions of various experts and accepting them critically." }, value: 'R' },
-      D: { text: { ko: "자신의 영감이 닿는 대로 다양한 분야를 탐험", en: "Exploring various fields as your inspiration leads." }, value: 'P' }
-    }
-  },
-  {
-    id: 15,
-    pillar: 'Drive',
-    text: {
-      ko: "인간관계에서 당신이 더 중요하게 생각하는 가치는?",
-      en: "In relationships, which value do you consider more important?"
-    },
-    options: {
-      A: { text: { ko: "서로의 경계를 존중하고 합리적으로 행동하는 것", en: "Respecting each other's boundaries and acting rationally." }, value: 'R' },
-      B: { text: { ko: "조건 없는 신뢰와 뜨거운 의리를 지키는 것", en: "Keeping unconditional trust and burning loyalty." }, value: 'P' },
-      C: { text: { ko: "공통의 지적인 관심사를 공유하고 대화하는 것", en: "Sharing and talking about common intellectual interests." }, value: 'R' },
-      D: { text: { ko: "기쁠 때나 슬플 때나 언제나 곁을 지켜주는 것", en: "Always being by the side in happy or sad times." }, value: 'P' }
-    }
-  },
-  {
-    id: 16,
-    pillar: 'Drive',
-    text: {
-      ko: "당신을 가장 행동하게 만드는 동기는?",
-      en: "What motivation drives you most to action?"
-    },
-    options: {
-      A: { text: { ko: "세상의 원리를 이해하고 문제를 해결하려는 호기심", en: "Curiosity to understand the principles of the world and solve problems." }, value: 'R' },
-      B: { text: { ko: "나의 한계를 시험하고 꿈을 이루려는 뜨거운 야망", en: "Burning ambition to test my limits and achieve my dreams." }, value: 'P' },
-      C: { text: { ko: "더 효율적이고 질서 있는 세상을 만들고 싶은 의지", en: "Will to make a more efficient and orderly world." }, value: 'R' },
-      D: { text: { ko: "사람들을 돕고 세상에 선한 영향력을 끼치고 싶은 마음", en: "Heart that wants to help people and exert good influence on the world." }, value: 'P' }
-    }
-  },
 
-  // METHOD (Disruption 'D' vs Harmony 'H') - 7 Questions
+  // METHOD (Disruption 'D' vs Harmony 'H') - 4 Questions
   {
-    id: 17,
+    id: 9,
     pillar: 'Method',
     text: {
       ko: "오래된 관습이 비효율적일 때, 당신은 어떻게 하시겠습니까?",
@@ -274,7 +161,7 @@ export const questions: Question[] = [
     }
   },
   {
-    id: 18,
+    id: 10,
     pillar: 'Method',
     text: {
       ko: "새로운 팀에 합류했을 때 당신의 스타일은?",
@@ -288,7 +175,7 @@ export const questions: Question[] = [
     }
   },
   {
-    id: 19,
+    id: 11,
     pillar: 'Method',
     text: {
       ko: "어떤 변화가 더 가치 있다고 생각합니까?",
@@ -302,7 +189,7 @@ export const questions: Question[] = [
     }
   },
   {
-    id: 20,
+    id: 12,
     pillar: 'Method',
     text: {
       ko: "당신은 경쟁 상황에서 어떤 태도를 취합니까?",
@@ -315,52 +202,10 @@ export const questions: Question[] = [
       D: { text: { ko: "경쟁보다는 상생할 수 있는 파트너십을 제안한다.", en: "Suggest a partnership that can coexist rather than compete." }, value: 'H' }
     }
   },
-  {
-    id: 21,
-    pillar: 'Method',
-    text: {
-      ko: "사회 문제를 해결할 때 필요한 것은?",
-      en: "What is needed when solving social problems?"
-    },
-    options: {
-      A: { text: { ko: "기득권을 타파할 수 있는 강력한 개혁 의지", en: "Strong will for reform to break down the establishment." }, value: 'D' },
-      B: { text: { ko: "서로 다른 계층 간의 이해와 사회적 대타협", en: "Understanding and social grand compromise between different classes." }, value: 'H' },
-      C: { text: { ko: "기술적인 혁신을 통해 문제의 근본 구조를 제거", en: "Eliminating the root structure of the problem through technological innovation." }, value: 'D' },
-      D: { text: { ko: "공동체 정신을 회복하고 도덕적인 연대를 강화", en: "Restoring community spirit and strengthening moral solidarity." }, value: 'H' }
-    }
-  },
-  {
-    id: 22,
-    pillar: 'Method',
-    text: {
-      ko: "당신의 업무 스타일을 가장 잘 설명하는 단어는?",
-      en: "Which word best describes your work style?"
-    },
-    options: {
-      A: { text: { ko: "도전적인, 파격적인, 주도적인", en: "Challenging, unconventional, proactive." }, value: 'D' },
-      B: { text: { ko: "안정적인, 협력적인, 세심한", en: "Stable, cooperative, meticulous." }, value: 'H' },
-      C: { text: { ko: "직설적인, 효율적인, 결과 중심의", en: "Straightforward, efficient, result-oriented." }, value: 'D' },
-      D: { text: { ko: "포용적인, 중재하는, 관계 중심의", en: "Inclusive, mediating, relationship-oriented." }, value: 'H' }
-    }
-  },
-  {
-    id: 23,
-    pillar: 'Method',
-    text: {
-      ko: "새로운 기술을 도입할 때 당신의 입장은?",
-      en: "What is your position when introducing new technology?"
-    },
-    options: {
-      A: { text: { ko: "리스크가 있더라도 업계에서 가장 먼저 도입한다.", en: "Be the first in the industry to introduce it even if there are risks." }, value: 'D' },
-      B: { text: { ko: "기술의 안정성이 완벽히 검증된 후에 도입한다.", en: "Introduce it after the stability of the technology is perfectly verified." }, value: 'H' },
-      C: { text: { ko: "기존 방식을 완전히 대체할 수 있는 기술만 선호한다.", en: "Prefer only technology that can completely replace the existing method." }, value: 'D' },
-      D: { text: { ko: "기존 시스템과 잘 융합될 수 있는 보조적 기술을 찾는다.", en: "Find auxiliary technology that can blend well with existing systems." }, value: 'H' }
-    }
-  },
 
-  // ORIGIN (Innovation 'I' vs Tradition 'T') - 7 Questions
+  // ORIGIN (Innovation 'I' vs Tradition 'T') - 3 Questions
   {
-    id: 24,
+    id: 13,
     pillar: 'Origin',
     text: {
       ko: "당신은 새로운 아이디어를 어디서 주로 얻습니까?",
@@ -374,7 +219,7 @@ export const questions: Question[] = [
     }
   },
   {
-    id: 25,
+    id: 14,
     pillar: 'Origin',
     text: {
       ko: "당신이 선호하는 작업 환경은?",
@@ -388,21 +233,7 @@ export const questions: Question[] = [
     }
   },
   {
-    id: 26,
-    pillar: 'Origin',
-    text: {
-      ko: "새로운 제품을 살 때 당신의 기준은?",
-      en: "What is your criteria when buying a new product?"
-    },
-    options: {
-      A: { text: { ko: "이전에 없던 혁신적인 기능과 세련된 디자인", en: "Innovative features and sophisticated design that never existed before." }, value: 'I' },
-      B: { text: { ko: "오랜 시간 검증된 내구성과 클래식한 가치", en: "Durability verified over a long time and classic value." }, value: 'T' },
-      C: { text: { ko: "가장 트렌디하고 화제가 되는 '얼리어답터' 제품", en: "The trendiest and most talked about 'early adopter' product." }, value: 'I' },
-      D: { text: { ko: "명성이 높고 시간이 흘러도 가치가 변치 않는 명품", en: "Luxury goods with high reputation whose value does not change over time." }, value: 'T' }
-    }
-  },
-  {
-    id: 27,
+    id: 15,
     pillar: 'Origin',
     text: {
       ko: "후세에 어떤 사람으로 기억되고 싶습니까?",
@@ -413,48 +244,6 @@ export const questions: Question[] = [
       B: { text: { ko: "고결한 정신과 전통을 지켜낸 존경받는 스승", en: "A respected mentor who preserved noble spirit and traditions." }, value: 'T' },
       C: { text: { ko: "인류 문명의 도약을 이끈 위대한 발명가", en: "A great inventor who led the leap of human civilization." }, value: 'I' },
       D: { text: { ko: "한 나라의 기틀을 다지고 질서를 세운 통치자", en: "A ruler who laid the foundation and established the order of a nation." }, value: 'T' }
-    }
-  },
-  {
-    id: 28,
-    pillar: 'Origin',
-    text: {
-      ko: "당신에게 '지혜'란 무엇입니까?",
-      en: "What is 'wisdom' to you?"
-    },
-    options: {
-      A: { text: { ko: "기존의 한계를 뛰어넘는 새로운 통찰", en: "New insights that transcend existing limitations." }, value: 'I' },
-      B: { text: { ko: "시간의 풍파를 견뎌낸 변하지 않는 진리", en: "Unchanging truth that has endured the storms of time." }, value: 'T' },
-      C: { text: { ko: "복잡한 세상을 단순하게 꿰뚫는 직관", en: "Intuition that pierces through a complex world simply." }, value: 'I' },
-      D: { text: { ko: "조상들의 삶에서 배우는 지혜의 정수", en: "The essence of wisdom learned from the lives of ancestors." }, value: 'T' }
-    }
-  },
-  {
-    id: 29,
-    pillar: 'Origin',
-    text: {
-      ko: "교육에서 가장 중요한 가치는 무엇이라고 생각합니까?",
-      en: "What do you think is the most important value in education?"
-    },
-    options: {
-      A: { text: { ko: "비판적 사고와 창의적인 문제 해결 능력 배양", en: "Cultivating critical thinking and creative problem solving skills." }, value: 'I' },
-      B: { text: { ko: "올바른 인성과 전통적인 가치관의 계승", en: "Inheritance of correct personality and traditional values." }, value: 'T' },
-      C: { text: { ko: "스스로 자신의 길을 개척하는 독립심 기르기", en: "Cultivating independence to pioneer one's own path." }, value: 'I' },
-      D: { text: { ko: "공동체의 규범을 익히고 예의를 갖추는 법", en: "Learning community norms and how to be polite." }, value: 'T' }
-    }
-  },
-  {
-    id: 30,
-    pillar: 'Origin',
-    text: {
-      ko: "당신은 어떤 휴식을 선호합니까?",
-      en: "What kind of rest do you prefer?"
-    },
-    options: {
-      A: { text: { ko: "낯선 도심에서 즐기는 힙하고 트렌디한 스테이", en: "Hip and trendy stay enjoyed in an unfamiliar city." }, value: 'I' },
-      B: { text: { ko: "자연 속 오래된 사찰이나 고택에서의 명상", en: "Meditation in an old temple or traditional house in nature." }, value: 'T' },
-      C: { text: { ko: "디지털 기기를 활용한 가상 현실 속의 새로운 경험", en: "New experiences in virtual reality using digital devices." }, value: 'I' },
-      D: { text: { ko: "가문 대대로 내려오는 별장에서의 가족 모임", en: "Family gathering at a villa passed down through generations." }, value: 'T' }
     }
   }
 ];
@@ -514,7 +303,7 @@ export const archetypes: Record<string, { name: { ko: string; en: string; de: st
   },
   'SPDT': {
     name: { ko: "행동하는 양심의 투사", en: "The Passionate Activist", de: "Der leidenschaftliche Aktivist" },
-    description: { ko: "당신은 불의를 참지 못하는 열정으로 우리 주변의 소중한 가치들을 끝까지 지켜냅니다.", en: "You protect the precious values around us to the end with a passion that cannot tolerate injustice.", de: "Sie schützen die kostbaren Werte um uns herum bis zum Ende mit einer Leidenschaft, die Ungerechtigkeit nicht dulden kann." }
+    description: { ko: "당신은 불의를 참지 못하는 열정으로 우리 주변의 소중한 가치들을 끝까지 지켜냅니다.", en: "You protect the precious values around us to the end with a passion that cannot tolerate injustice.", de: "Sie schützen die kostbaren Werte um uns herum bis zum Ende mit einer Leidenschaft, die Ungerechtigkeit nicht jodeln kann." }
   },
   'SRHT': {
     name: { ko: "겸손한 삶의 관찰자", en: "The Humble Protector", de: "Der bescheidene Beschützer" },
