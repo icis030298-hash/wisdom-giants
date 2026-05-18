@@ -12,6 +12,7 @@ import { giants } from "@/lib/giants-data"
 export default function HeritageTestPage() {
   const t = useTranslations("Test")
   const locale = useLocale()
+  const activeLocale = (locale === 'ko' ? 'ko' : 'en') as 'ko' | 'en';
   const router = useRouter()
   
   const [step, setStep] = useState<'intro' | 'questions' | 'analyzing' | 'adBreak'>('intro')
@@ -220,7 +221,7 @@ export default function HeritageTestPage() {
               {/* Question Content */}
               <div className="space-y-8">
                 <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground leading-snug">
-                  {questions[currentQuestionIndex].text[locale as 'ko' | 'en']}
+                  {questions[currentQuestionIndex].text[activeLocale]}
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -235,7 +236,7 @@ export default function HeritageTestPage() {
                           {opt}
                         </div>
                         <span className="text-sm md:text-base text-foreground group-hover:text-amber-100 transition-colors leading-snug">
-                          {questions[currentQuestionIndex].options[opt].text[locale as 'ko' | 'en']}
+                          {questions[currentQuestionIndex].options[opt].text[activeLocale]}
                         </span>
                       </div>
                     </button>

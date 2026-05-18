@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
   async redirects() {
     const removedSlugs = ['elon-musk', 'oprah-winfrey', 'jk-rowling', 'malala-yousafzai', 'rigoberta-menchu'];
-    const locales = ['ko', 'en'];
+    const locales = ['ko', 'en', 'de'];
     return removedSlugs.flatMap(slug =>
       locales.map(locale => ({
         source: `/${locale}/giant/${slug}`,

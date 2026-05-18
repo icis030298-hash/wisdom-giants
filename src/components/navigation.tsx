@@ -36,6 +36,7 @@ export function Navigation() {
   const locales = [
     { code: 'ko', label: '한국어' },
     { code: 'en', label: 'English' },
+    { code: 'de', label: 'Deutsch' },
   ]
   
   useEffect(() => {

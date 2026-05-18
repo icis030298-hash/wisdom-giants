@@ -19,12 +19,16 @@ export default async function middleware(request: NextRequest) {
     pathname === '/sitemap.xml';
 
   if (!isStaticOrApi) {
-    const hasLocale = pathname.startsWith('/ko') || pathname.startsWith('/en');
+    const hasLocale = pathname.startsWith('/ko') || pathname.startsWith('/en') || pathname.startsWith('/de');
     
     if (!hasLocale) {
       const acceptLanguage = request.headers.get('accept-language') || '';
       const isKorean = acceptLanguage.toLowerCase().includes('ko');
-      const locale = isKorean ? 'ko' : 'en';
+      const isGerman = acceptLanguage.toLowerCase().includes('de');
+      let locale = 'en';
+      if (isKorean) locale = 'ko';
+      else if (isGerman) locale = 'de';
+
       
       // Redirect to the language specific route
       return NextResponse.redirect(

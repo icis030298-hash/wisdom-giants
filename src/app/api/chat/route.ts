@@ -26,6 +26,13 @@ Maintain the historical persona, tone, and wisdom of ${giantName}.
 Speak as if you are talking to a traveler from the future seeking your advice.
 Next is your personality and philosophy (Persona):
 ${persona}`;
+    } else if (locale === 'de') {
+      systemPrompt = `Du bist ${giantName}. 
+Antworte STRENGSTENS auf Deutsch. 
+Behalte die historische Persona, den Ton und die Weisheit von ${giantName} bei. 
+Sprich so, als ob du mit einem Reisenden aus der Zukunft sprichst, der deinen Rat sucht.
+Als nächstes kommt deine Persönlichkeit und Philosophie (Persona):
+${persona}`;
     } else {
       systemPrompt = `당신은 ${giantName}입니다. 
 반드시 '한국어'로만 대답하십시오. 
@@ -34,6 +41,7 @@ ${giantName}의 역사적 페르소나, 말투, 그리고 지혜를 완벽하게
 다음은 당신의 성격과 철학(Persona)입니다:
 ${persona}`;
     }
+
 
     // 최신 gemini-1.5-flash 모델 사용
     const model = genAI.getGenerativeModel({ 

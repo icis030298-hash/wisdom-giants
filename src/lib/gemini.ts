@@ -23,9 +23,14 @@ export async function getGiantResponse(persona: string, message: string, giantNa
     ? `You are ${giantName}. Respond STRICTLY in English. Maintain the historical persona, tone, and wisdom of ${giantName}. Speak as if you are talking to a traveler from the future seeking your advice.
 Next is your personality and philosophy (Persona):
 ${persona}`
+    : locale === 'de'
+    ? `Du bist ${giantName}. Antworte STRENGSTENS auf Deutsch. Behalte die historische Persona, den Ton und die Weisheit von ${giantName} bei. Sprich so, als ob du mit einem Reisenden aus der Zukunft sprichst, der deinen Rat sucht.
+Als nächstes kommt deine Persönlichkeit und Philosophie (Persona):
+${persona}`
     : `당신은 ${giantName}입니다. 반드시 '한국어'로만 대답하십시오. ${giantName}의 역사적 페르소나, 말투, 그리고 지혜를 완벽하게 유지하십시오. 미래에서 조언을 구하러 온 여행자에게 말하듯 대화하십시오.
 다음은 당신의 성격과 철학(Persona)입니다:
 ${persona}`;
+
 
   // Try Gemini 2.5 suite as per project configuration
   const modelsToTry = ['gemini-2.5-flash', 'gemini-2.5-flash-lite'];

@@ -26,8 +26,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const baseDesc = giantData.shortDescription || '';
   const slicedDesc = baseDesc.length > 120 ? baseDesc.slice(0, 120) + '...' : baseDesc;
+  const isGerman = locale === 'de';
   const description = isKorean
     ? `${slicedDesc} ${giantData.name}와 AI로 직접 대화하고 지혜를 얻어보세요.`
+    : isGerman
+    ? `${slicedDesc} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`
     : `${slicedDesc} Chat directly with ${giantData.name} via AI to gain wisdom.`;
 
   const absoluteImageUrl = giant.imageUrl.startsWith('http')
@@ -37,14 +40,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: isKorean
       ? `${giantData.name} | AI 대화 - Giants Wisdom`
+      : isGerman
+      ? `${giantData.name} | KI Chat - Giants Wisdom`
       : `${giantData.name} | AI Chat - Giants Wisdom`,
     description,
     keywords: [
       giantData.name,
       giant.era,
       giant.field,
-      isKorean ? "AI 대화" : "AI Chat",
-      isKorean ? "역사 위인" : "Historical Figure",
+      isKorean ? "AI 대화" : isGerman ? "KI Chat" : "AI Chat",
+      isKorean ? "역사 위인" : isGerman ? "Historische Persönlichkeit" : "Historical Figure",
       "Giants Wisdom"
     ],
     alternates: {
@@ -52,6 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         'ko': `https://www.giantswisdom.com/ko/giant/${slug}`,
         'en': `https://www.giantswisdom.com/en/giant/${slug}`,
+        'de': `https://www.giantswisdom.com/de/giant/${slug}`,
         'x-default': `https://www.giantswisdom.com/ko/giant/${slug}`
       }
     },

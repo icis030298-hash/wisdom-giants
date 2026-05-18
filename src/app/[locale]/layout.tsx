@@ -18,27 +18,39 @@ const playfair = Playfair_Display({
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const isKorean = locale === 'ko';
+  const isGerman = locale === 'de';
+
+  let title = 'Giants Wisdom | AI Historical Mentors & Wisdom Archive';
+  let description = "Chat with 95+ history's greatest minds using AI. Discover your Heritage DNA through 30 situational questions and find your soul-matched historical giant.";
+  let keywords = 'AI Chat, Historical Figures, Wisdom, Mentorship, History, Philosophy, Education, Giants Wisdom';
+
+  if (isKorean) {
+    title = 'Giants Wisdom | AI 역사 위인 멘토 & 지혜 아카이브';
+    description = '역사를 바꾼 95인의 위인들과 AI로 대화하세요. 30가지 상황 질문으로 나의 유산 DNA를 분석하고 영혼의 단짝 위인을 찾아보세요.';
+    keywords = 'AI 챗, 역사 위인, 지혜, 멘토십, 역사, 철학, 교육, 거인들의 지혜, 유산 DNA';
+  } else if (isGerman) {
+    title = 'Giants Wisdom | KI Historische Mentoren & Weisheitsarchiv';
+    description = 'Chatte mit 95+ der größten Köpfe der Geschichte per KI. Entdecke deine Heritage-DNA durch 30 Situationsfragen und finde deinen historischen Seelenpartner.';
+    keywords = 'KI Chat, Historische Persönlichkeiten, Weisheit, Geschichte, Philosophie, Giants Wisdom';
+  }
 
   return {
-    title: 'Giants Wisdom | AI Historical Mentors & Wisdom Archive',
-    description: isKorean
-      ? '역사를 바꾼 95인의 위인들과 AI로 대화하세요. 30가지 상황 질문으로 나의 유산 DNA를 분석하고 영혼의 단짝 위인을 찾아보세요.'
-      : "Chat with 95+ history's greatest minds using AI. Discover your Heritage DNA through 30 situational questions and find your soul-matched historical giant.",
-    keywords: 'AI Chat, Historical Figures, Wisdom, Mentorship, History, Philosophy, Education, Giants Wisdom',
+    title,
+    description,
+    keywords,
     authors: [{ name: 'Giants Wisdom Team' }],
     alternates: {
       canonical: `https://www.giantswisdom.com/${locale}`,
       languages: {
         'ko': 'https://www.giantswisdom.com/ko',
         'en': 'https://www.giantswisdom.com/en',
+        'de': 'https://www.giantswisdom.com/de',
         'x-default': 'https://www.giantswisdom.com/ko'
       }
     },
     openGraph: {
-      title: 'Giants Wisdom | AI Historical Mentors',
-      description: isKorean
-        ? '역사를 바꾼 95인의 위인들과 AI로 대화하세요.'
-        : "Chat with 95+ history's greatest minds using AI.",
+      title,
+      description,
       type: 'website',
       images: [{
         url: 'https://www.giantswisdom.com/og-default.jpg',
@@ -50,11 +62,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     twitter: {
       card: 'summary_large_image',
       images: ['https://www.giantswisdom.com/og-default.jpg'],
-      title: 'Giants Wisdom | AI Historical Mentors & Wisdom Archive',
-      description: isKorean
-        ? '역사를 바꾼 95인의 위인들과 AI로 대화하세요. 30가지 상황 질문으로 나의 유산 DNA를 분석하고 영혼의 단짝 위인을 찾아보세요.'
-        : "Chat with 95+ history's greatest minds using AI. Discover your Heritage DNA through 30 situational questions and find your soul-matched historical giant.",
+      title,
+      description,
     },
+
     other: {
       "google-adsense-account": "ca-pub-2081809442345110",
     },

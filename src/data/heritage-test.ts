@@ -459,69 +459,69 @@ export const questions: Question[] = [
   }
 ];
 
-export const archetypes: Record<string, { name: { ko: string; en: string }; description: { ko: string; en: string } }> = {
+export const archetypes: Record<string, { name: { ko: string; en: string; de: string }; description: { ko: string; en: string; de: string } }> = {
   'LRDI': {
-    name: { ko: "대륙을 재설계하는 설계자", en: "The Universal Architect" },
-    description: { ko: "당신은 거대한 시야와 차가운 이성을 바탕으로 세상을 혁명적으로 바꾸는 전략가입니다.", en: "You are a strategist who revolutionizes the world based on a grand vision and cool reason." }
+    name: { ko: "대륙을 재설계하는 설계자", en: "The Universal Architect", de: "Der universelle Architekt" },
+    description: { ko: "당신은 거대한 시야와 차가운 이성을 바탕으로 세상을 혁명적으로 바꾸는 전략가입니다.", en: "You are a strategist who revolutionizes the world based on a grand vision and cool reason.", de: "Sie sind ein Stratege, der die Welt auf der Grundlage einer großen Vision und kühler Vernunft revolutioniert." }
   },
   'LPDI': {
-    name: { ko: "멈추지 않는 시대의 개척자", en: "The Eternal Pioneer" },
-    description: { ko: "당신은 불가능에 도전하는 뜨거운 심장과 혁신적인 아이디어로 인류의 한계를 넓힙니다.", en: "You expand the limits of humanity with a burning heart that challenges the impossible and innovative ideas." }
+    name: { ko: "멈추지 않는 시대의 개척자", en: "The Eternal Pioneer", de: "Der ewige Pionier" },
+    description: { ko: "당신은 불가능에 도전하는 뜨거운 심장과 혁신적인 아이디어로 인류의 한계를 넓힙니다.", en: "You expand the limits of humanity with a burning heart that challenges the impossible and innovative ideas.", de: "Sie erweitern die Grenzen der Menschheit mit einem brennenden Herzen, das das Unmögliche herausfordert, und innovativen Ideen." }
   },
   'LRHI': {
-    name: { ko: "깨어있는 지혜의 개혁가", en: "The Enlightened Reformer" },
-    description: { ko: "당신은 전체 시스템의 안정을 유지하면서도 더 나은 미래를 위해 지혜롭게 변화를 이끕니다.", en: "You wisely lead change for a better future while maintaining the stability of the entire system." }
+    name: { ko: "깨어있는 지혜의 개혁가", en: "The Enlightened Reformer", de: "Der aufgeklärte Reformer" },
+    description: { ko: "당신은 전체 시스템의 안정을 유지하면서도 더 나은 미래를 위해 지혜롭게 변화를 이끕니다.", en: "You wisely lead change for a better future while maintaining the stability of the entire system.", de: "Sie führen klug Veränderungen für eine bessere Zukunft herbei, während Sie die Stabilität des Gesamtsystems wahren." }
   },
   'LPHI': {
-    name: { ko: "영감을 불어넣는 시대의 리더", en: "The Inspirational Leader" },
-    description: { ko: "당신은 원대한 꿈을 향해 모두의 마음을 하나로 모으고 큰 변화를 일구어내는 리더입니다.", en: "You are a leader who gathers everyone's hearts toward a grand dream and achieves great change." }
+    name: { ko: "영감을 불어넣는 시대의 리더", en: "The Inspirational Leader", de: "Der inspirierende Anführer" },
+    description: { ko: "당신은 원대한 꿈을 향해 모두의 마음을 하나로 모으고 큰 변화를 일구어내는 리더입니다.", en: "You are a leader who gathers everyone's hearts toward a grand dream and achieves great change.", de: "Sie sind eine Führungspersönlichkeit, die die Herzen aller für einen großen Traum gewinnt und bedeutende Veränderungen bewirkt." }
   },
   'LRDT': {
-    name: { ko: "질서를 수호하는 결단가", en: "The Traditional Decider" },
-    description: { ko: "당신은 고전적인 가치와 이성적인 판단을 바탕으로 혼란 속에서 질서를 바로잡는 힘이 있습니다.", en: "You have the power to restore order amidst chaos based on classic values and rational judgment." }
+    name: { ko: "질서를 수호하는 결단가", en: "The Traditional Decider", de: "Der traditionelle Entscheider" },
+    description: { ko: "당신은 고전적인 가치와 이성적인 판단을 바탕으로 혼란 속에서 질서를 바로잡는 힘이 있습니다.", en: "You have the power to restore order amidst chaos based on classic values and rational judgment.", de: "Sie haben die Macht, inmitten des Chaos Ordnung auf der Grundlage klassischer Werte und rationaler Urteile wiederherzustellen." }
   },
   'LPDT': {
-    name: { ko: "신념을 지키는 강철의 혁명가", en: "The Charismatic Rebel" },
-    description: { ko: "당신은 자신이 옳다고 믿는 전통적 가치를 위해 뜨겁게 투쟁하고 세상을 움직입니다.", en: "You fight passionately for the traditional values you believe are right and move the world." }
+    name: { ko: "신념을 지키는 강철의 혁명가", en: "The Charismatic Rebel", de: "Der charismatische Rebell" },
+    description: { ko: "당신은 자신이 옳다고 믿는 전통적 가치를 위해 뜨겁게 투쟁하고 세상을 움직입니다.", en: "You fight passionately for the traditional values you believe are right and move the world.", de: "Sie kämpfen leidenschaftlich für die traditionellen Werte, an die Sie glauben, und bewegen die Welt." }
   },
   'LRHT': {
-    name: { ko: "품격 있는 시대의 중재자", en: "The Gracious Sovereign" },
-    description: { ko: "당신은 거시적인 안목과 조화로운 소통으로 역사적인 평화와 합의를 이끌어냅니다.", en: "You lead historical peace and consensus through a macro perspective and harmonious communication." }
+    name: { ko: "품격 있는 시대의 중재자", en: "The Gracious Sovereign", de: "Der gnädige Souverän" },
+    description: { ko: "당신은 거시적인 안목과 조화로운 소통으로 역사적인 평화와 합의를 이끌어냅니다.", en: "You lead historical peace and consensus through a macro perspective and harmonious communication.", de: "Sie führen historischen Frieden und Konsens durch eine Makroperspektive und harmonische Kommunikation herbei." }
   },
   'LPHT': {
-    name: { ko: "모두를 품는 역사의 수호자", en: "The Devoted Unifier" },
-    description: { ko: "당신은 따뜻한 인류애와 헌신적인 자세로 공동체의 전통을 지키고 화합을 이룹니다.", en: "You preserve community traditions and achieve harmony through warm humanity and a devoted attitude." }
+    name: { ko: "모두를 품는 역사의 수호자", en: "The Devoted Unifier", de: "Der hingebungsvolle Vereiner" },
+    description: { ko: "당신은 따뜻한 인류애와 헌신적인 자세로 공동체의 전통을 지키고 화합을 이룹니다.", en: "You preserve community traditions and achieve harmony through warm humanity and a devoted attitude.", de: "Sie bewahren Gemeinschaftstraditionen und erreichen Harmonie durch herzliche Menschlichkeit und eine hingebungsvolle Haltung." }
   },
   'SRDI': {
-    name: { ko: "정교한 미래의 발명가", en: "The Precise Inventor" },
-    description: { ko: "당신은 날카로운 논리와 창의적인 발상으로 우리 삶의 구체적인 부분을 혁신적으로 바꿉니다.", en: "You innovatively change specific parts of our lives with sharp logic and creative ideas." }
+    name: { ko: "정교한 미래의 발명가", en: "The Precise Inventor", de: "Der präzise Erfinder" },
+    description: { ko: "당신은 날카로운 논리와 창의적인 발상으로 우리 삶의 구체적인 부분을 혁신적으로 바꿉니다.", en: "You innovatively change specific parts of our lives with sharp logic and creative ideas.", de: "Sie verändern bestimmte Bereiche unseres Lebens innovativ mit scharfer Logik und kreativen Ideen." }
   },
   'SPDI': {
-    name: { ko: "불꽃 같은 영혼의 예술가", en: "The Radical Creator" },
-    description: { ko: "당신은 타협하지 않는 열정과 파격적인 감각으로 세상에 유일무이한 작품을 남깁니다.", en: "You leave unique works in the world with uncompromising passion and unconventional sense." }
+    name: { ko: "불꽃 같은 영혼의 예술가", en: "The Radical Creator", de: "Der radikale Schöpfer" },
+    description: { ko: "당신은 타협하지 않는 열정과 파격적인 감각으로 세상에 유일무이한 작품을 남깁니다.", en: "You leave unique works in the world with uncompromising passion and unconventional sense.", de: "Sie hinterlassen einzigartige Werke in der Welt mit kompromissloser Leidenschaft und unkonventionellem Gespür." }
   },
   'SRHI': {
-    name: { ko: "실천하는 지혜의 현자", en: "The Practical Sage" },
-    description: { ko: "당신은 조용하지만 명확한 지혜로 일상의 문제를 해결하고 조화로운 발전을 꾀합니다.", en: "You solve everyday problems and seek harmonious development with quiet but clear wisdom." }
+    name: { ko: "실천하는 지혜의 현자", en: "The Practical Sage", de: "Der praktische Weise" },
+    description: { ko: "당신은 조용하지만 명확한 지혜로 일상의 문제를 해결하고 조화로운 발전을 꾀합니다.", en: "You solve everyday problems and seek harmonious development with quiet but clear wisdom.", de: "Sie lösen alltägliche Probleme und streben nach einer harmonischen Entwicklung mit stiller, aber klarer Weisheit." }
   },
   'SPHI': {
-    name: { ko: "아름다움을 빚는 조화의 거장", en: "The Compassionate Artist" },
-    description: { ko: "당신은 인간에 대한 깊은 이해와 따뜻한 시선으로 세상의 상처를 치유하고 변화시킵니다.", en: "You heal and change the world's wounds with deep understanding and a warm perspective on humans." }
+    name: { ko: "아름다움을 빚는 조화의 거장", en: "The Compassionate Artist", de: "Der mitfühlende Künstler" },
+    description: { ko: "당신은 인간에 대한 깊은 이해와 따뜻한 시선으로 세상의 상처를 치유하고 변화시킵니다.", en: "You heal and change the world's wounds with deep understanding and a warm perspective on humans.", de: "Sie heilen und verändern die Wunden der Welt mit tiefem Verständnis und einer warmen Perspektive auf den Menschen." }
   },
   'SRDT': {
-    name: { ko: "냉철한 일상의 수호자", en: "The Stoic Guardian" },
-    description: { ko: "당신은 현실적인 판단과 전통적인 원칙을 고수하며 묵묵히 자신의 소임을 완수합니다.", en: "You silently fulfill your duties while adhering to realistic judgments and traditional principles." }
+    name: { ko: "냉철한 일상의 수호자", en: "The Stoic Guardian", de: "Der stoische Wächter" },
+    description: { ko: "당신은 현실적인 판단과 전통적인 원칙을 고수하며 묵묵히 자신의 소임을 완수합니다.", en: "You silently fulfill your duties while adhering to realistic judgments and traditional principles.", de: "Sie erfüllen schweigend Ihre Pflichten, während Sie sich an realistische Urteile und traditionelle Prinzipien halten." }
   },
   'SPDT': {
-    name: { ko: "행동하는 양심의 투사", en: "The Passionate Activist" },
-    description: { ko: "당신은 불의를 참지 못하는 열정으로 우리 주변의 소중한 가치들을 끝까지 지켜냅니다.", en: "You protect the precious values around us to the end with a passion that cannot tolerate injustice." }
+    name: { ko: "행동하는 양심의 투사", en: "The Passionate Activist", de: "Der leidenschaftliche Aktivist" },
+    description: { ko: "당신은 불의를 참지 못하는 열정으로 우리 주변의 소중한 가치들을 끝까지 지켜냅니다.", en: "You protect the precious values around us to the end with a passion that cannot tolerate injustice.", de: "Sie schützen die kostbaren Werte um uns herum bis zum Ende mit einer Leidenschaft, die Ungerechtigkeit nicht dulden kann." }
   },
   'SRHT': {
-    name: { ko: "겸손한 삶의 관찰자", en: "The Humble Protector" },
-    description: { ko: "당신은 전통과 질서를 존중하며 조화로운 삶을 통해 주변에 안정과 평화를 전파합니다.", en: "You spread stability and peace around you through a harmonious life while respecting tradition and order." }
+    name: { ko: "겸손한 삶의 관찰자", en: "The Humble Protector", de: "Der bescheidene Beschützer" },
+    description: { ko: "당신은 전통과 질서를 존중하며 조화로운 삶을 통해 주변에 안정과 평화를 전파합니다.", en: "You spread stability and peace around you through a harmonious life while respecting tradition and order.", de: "Sie verbreiten Stabilität und Frieden um sich herum durch ein harmonisches Leben, während Sie Tradition und Ordnung respektieren." }
   },
   'SPHT': {
-    name: { ko: "평화를 사랑하는 영혼", en: "The Gentle Soul" },
-    description: { ko: "당신은 따뜻한 감성과 조화로운 태도로 사람들의 마음을 하나로 묶는 특별한 힘이 있습니다.", en: "You have a special power to tie people's hearts together with warm sensitivity and a harmonious attitude." }
+    name: { ko: "평화를 사랑하는 영혼", en: "The Gentle Soul", de: "Die sanfte Seele" },
+    description: { ko: "당신은 따뜻한 감성과 조화로운 태도로 사람들의 마음을 하나로 묶는 특별한 힘이 있습니다.", en: "You have a special power to tie people's hearts together with warm sensitivity and a harmonious attitude.", de: "Sie haben eine besondere Kraft, die Herzen der Menschen mit warmer Sensibilität und einer harmonischen Haltung zu verbinden." }
   }
 };

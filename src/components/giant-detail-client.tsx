@@ -40,6 +40,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const [showMatchOverlay, setShowMatchOverlay] = useState(false)
   const router = useRouter()
   const locale = useLocale()
+  const activeLocale = (locale === 'ko' ? 'ko' : locale === 'de' ? 'de' : 'en') as 'ko' | 'en' | 'de';
   const tt = useTranslations("Test")
   const searchParams = useSearchParams()
   const chatParam = searchParams.get('chat')
@@ -182,9 +183,11 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   }
 
   const handleNativeShare = async () => {
-    const archetypeName = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name
+    const archetypeName = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name
     const shareText = locale === 'ko'
       ? `나의 유산 DNA는 ${archetypeName} 유형! 당신은 어떤 위인과 닮았나요?`
+      : locale === 'de'
+      ? `Mein Heritage-DNA ist vom Typ '${archetypeName}'! Welchem historischen Riesen ähneln Sie?`
       : `My Heritage DNA is ${archetypeName}! Which historical giant do you resemble?`
     const shareUrl = `${window.location.origin}/${locale}/test`
     
@@ -215,10 +218,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   }
 
   const handleCopyLink = async () => {
-    const dnaType = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name;
+    const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
     const text = locale === 'ko' 
       ? `나의 유산 DNA는 '${dnaType}' 유형! 역사 속 ${giantName}과 닮은 나, 당신은 어떤 위인과 닮았나요? 👉 https://www.giantswisdom.com/ko/test`
+      : locale === 'de'
+      ? `Mein Heritage-DNA ist vom Typ '${dnaType}'! Ich ähnele ${giantName} aus der Geschichte. Welchem Riesen ähneln Sie? 👉 https://www.giantswisdom.com/de/test`
       : `My Heritage DNA is '${dnaType}' type! I match with historical ${giantName}. Who's your historical match? 👉 https://www.giantswisdom.com/en/test`;
     
     try {
@@ -239,14 +244,18 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   };
 
   const handleTwitterShare = () => {
-    const dnaType = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name;
+    const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
     const text = locale === 'ko'
       ? `나의 유산 DNA는 '${dnaType}' 유형!\n역사 속 ${giantName}과 닮은 나 🏛️\n당신은 어떤 위인과 닮았나요?\n#GiantsWisdom #유산DNA #역사위인`
+      : locale === 'de'
+      ? `Mein Heritage-DNA ist vom Typ '${dnaType}'!\nIch ähnele ${giantName} aus der Geschichte 🏛️\nWelchem Riesen ähneln Sie?\n#GiantsWisdom #HeritageDNA`
       : `My Heritage DNA is '${dnaType}' type!\nI match with historical ${giantName} 🏛️\nWho's your historical match?\n#GiantsWisdom #HeritageDNA`;
     
     const url = locale === 'ko'
       ? 'https://www.giantswisdom.com/ko/test'
+      : locale === 'de'
+      ? 'https://www.giantswisdom.com/de/test'
       : 'https://www.giantswisdom.com/en/test';
     
     window.open(
@@ -257,16 +266,20 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   };
 
   const handleFacebookShare = () => {
-    const dnaType = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name;
+    const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
     const url = locale === 'ko'
       ? 'https://www.giantswisdom.com/ko/test'
+      : locale === 'de'
+      ? 'https://www.giantswisdom.com/de/test'
       : 'https://www.giantswisdom.com/en/test';
     
     window.open(
       `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(
         locale === 'ko'
           ? `나의 유산 DNA는 '${dnaType}' 유형! 역사 속 ${giantName}과 닮은 나, 당신은 어떤 위인과 닮았나요?`
+          : locale === 'de'
+          ? `Mein Heritage-DNA ist vom Typ '${dnaType}'! Ich ähnele ${giantName} aus der Geschichte. Welchem Riesen ähneln Sie?`
           : `My Heritage DNA is '${dnaType}' type! I match with ${giantName}. Who's your historical match?`
       )}`,
       '_blank',
@@ -301,7 +314,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       }
     }
 
-    const dnaType = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name
+    const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name
     const giantName = tg.name
     const giantSlug = giant.slug
     const ext = giant.imageUrl.split('.').pop() || 'jpg'
@@ -716,11 +729,11 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                   <div className="flex flex-col items-center gap-2">
                     <span className="text-[10px] text-muted-foreground uppercase tracking-widest font-bold">{tt("result.archetype")}</span>
                     <h3 className="text-2xl font-serif font-bold text-amber-300">
-                      {dna && archetypes[dna]?.name[locale as 'ko' | 'en']}
+                      {dna && archetypes[dna]?.name[activeLocale]}
                     </h3>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                    {dna && archetypes[dna]?.description[locale as 'ko' | 'en']}
+                    {dna && archetypes[dna]?.description[activeLocale]}
                   </p>
                 </div>
 
@@ -886,13 +899,13 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                         {/* Middle: DNA label & Type */}
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', textAlign: 'center', zIndex: 10 }}>
                           <span style={{ color: '#f59e0b', fontSize: '22px', letterSpacing: '0.3em', fontWeight: 'bold' }}>
-                            {locale === 'ko' ? '나의 유산 DNA' : 'MY HERITAGE DNA'}
+                            {locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : 'MY HERITAGE DNA'}
                           </span>
                           <h1 style={{ color: '#FEF3C7', fontSize: '54px', fontWeight: '800', fontFamily: 'Georgia, serif', lineHeight: '1.2', margin: '10px 0' }}>
-                            {dna ? archetypes[dna]?.name[locale as 'ko' | 'en'] : ''}
+                            {dna ? archetypes[dna]?.name[activeLocale] : ''}
                           </h1>
                           <p style={{ color: '#94A3B8', fontSize: '32px', fontWeight: '500' }}>
-                            {tg.name}{locale === 'ko' ? ' 유형' : ' Type'}
+                            {tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}
                           </p>
                         </div>
 
@@ -919,10 +932,10 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                         {/* Bottom: CTA */}
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px', textAlign: 'center', zIndex: 10 }}>
                           <span style={{ color: '#94A3B8', fontSize: '24px', letterSpacing: '0.1em' }}>
-                            {locale === 'ko' ? '나와 닮은 위인은?' : 'Who is your soul giant?'}
+                            {locale === 'ko' ? '나와 닮은 위인은?' : locale === 'de' ? 'Welcher Riese ähnelt dir?' : 'Who is your soul giant?'}
                           </span>
                           <span style={{ color: '#f59e0b', fontSize: '36px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            {locale === 'ko' ? '지금 테스트하기' : 'Test Now'} <span style={{ fontSize: '30px' }}>→</span>
+                            {locale === 'ko' ? '지금 테스트하기' : locale === 'de' ? 'Jetzt testen' : 'Test Now'} <span style={{ fontSize: '30px' }}>→</span>
                           </span>
                           <span style={{ color: '#475569', fontSize: '24px', marginTop: '4px' }}>
                             giantswisdom.com/test
@@ -949,11 +962,11 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                     <div style={{ width: '72px', height: '72px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 14px', border: '2px solid rgba(245,158,11,0.5)' }}>
                       <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
                     </div>
-                    <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : 'My Heritage DNA'}</p>
+                    <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : 'My Heritage DNA'}</p>
                     <p style={{ color: '#FEF3C7', fontSize: '18px', fontWeight: '700', marginBottom: '4px', fontFamily: 'Georgia, serif' }}>
-                      {dna ? archetypes[dna]?.name[locale as 'ko' | 'en'] : ''}
+                      {dna ? archetypes[dna]?.name[activeLocale] : ''}
                     </p>
-                    <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{locale === 'ko' ? ' 유형' : ' Type'}</p>
+                    <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}</p>
                     <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 0', marginBottom: '18px' }}>
                       <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: 'keep-all' }}>
                         &ldquo;{(tg.quote || '').slice(0, 70)}{(tg.quote || '').length > 70 ? '...' : ''}&rdquo;
