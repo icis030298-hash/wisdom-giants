@@ -115,13 +115,26 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   
   const { giantDetail: t, giants: tg, giantsGrid: tc, narrative } = translations;
 
+  const tGiants = useTranslations("Giants");
+  const getRelatedTranslation = (slug: string, key: string, fallback: string) => {
+    try {
+      const translated = tGiants(`${slug}.${key}`);
+      if (translated.includes(`${slug}.`) || translated === `Giants.${slug}.${key}`) {
+        return fallback;
+      }
+      return translated;
+    } catch {
+      return fallback;
+    }
+  };
+
   // Use standardized narrative if available, otherwise fallback to basic translations
   const epicContent = narrative?.epic;
   const trialsContent = narrative?.trials || tg.pain;
   const overcomingContent = narrative?.overcoming || tg.recovery;
   const wisdomList = narrative?.wisdom || (giant.lessons || []).map((l: any) => ({ quote: l.title, meaning: l.content }));
   
-  const eraContent = narrative?.era || narrative?.era_ko || giant.era || tg.era;
+  const eraContent = tg.era || narrative?.era || narrative?.era_ko || giant.era;
 
   // Helper to render text (simplified, as we'll use CSS pre-wrap)
   const formatContent = (text: string) => {
@@ -655,12 +668,14 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                   </div>
                   
                   <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-300 transition-colors mb-1">
-                    {related.name}
+                    {getRelatedTranslation(related.slug, 'name', related.name)}
                   </h3>
-                  <p className="text-xs text-amber-400/80 mb-4 font-medium">{related.title || related.headline}</p>
+                  <p className="text-xs text-amber-400/80 mb-4 font-medium">
+                    {getRelatedTranslation(related.slug, 'headline', related.title || related.headline)}
+                  </p>
                   
                   <p className="text-sm text-muted-foreground line-clamp-3 leading-relaxed mb-6 flex-1">
-                    {related.description}
+                    {getRelatedTranslation(related.slug, 'shortDescription', related.description)}
                   </p>
                   
                   <div className="mt-auto w-full py-3.5 rounded-xl bg-amber-500/10 group-hover:bg-amber-500/20 text-amber-300 text-xs font-semibold transition-all border border-amber-500/20 group-hover:border-amber-500/40 text-center flex items-center justify-center gap-1">

@@ -99,7 +99,7 @@ export function Navigation() {
               <DropdownMenuTrigger asChild>
                 <button className="flex items-center gap-2 px-3 py-2 rounded-xl glass border border-white/10 text-sm text-foreground hover:bg-white/5 transition-all outline-none">
                   <Languages className="w-4 h-4 text-amber-400" />
-                  <span className="uppercase">{locale}</span>
+                  <span className={locale === 'ja' ? '' : 'uppercase'}>{locale === 'ja' ? '日本語' : locale}</span>
                   <ChevronDown className="w-3 h-3 text-muted-foreground" />
                 </button>
               </DropdownMenuTrigger>
