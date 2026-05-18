@@ -4,7 +4,7 @@ import { Sparkles, ArrowLeft, HelpCircle } from 'lucide-react';
 
 export default function NotFound() {
   return (
-    <html lang="ko" className="dark">
+    <html lang="en" className="dark">
       <head>
         <link rel="stylesheet" as="style" crossOrigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet" />
@@ -29,13 +29,13 @@ export default function NotFound() {
           </h1>
 
           <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-4">
-            거인을 찾을 수 없습니다.
+            Page Not Found
           </h2>
 
           <p className="text-sm md:text-base text-muted-foreground/80 mb-10 max-w-md leading-relaxed font-normal">
-            요청하신 페이지가 역사 속으로 사라졌거나, 잘못된 주소입니다.
+            The page you requested has vanished into history, or the address is incorrect.
             <br />
-            다시 지혜의 전당으로 돌아가 위대한 거인들을 만나보세요.
+            Return to the Hall of Wisdom and meet the great giants.
           </p>
 
           <Link
@@ -43,7 +43,7 @@ export default function NotFound() {
             className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] transition-all transform hover:-translate-y-1 active:scale-95 group"
           >
             <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
-            <span>전당 로비로 돌아가기</span>
+            <span>Back to Hall of Giants</span>
             <Sparkles className="w-4 h-4 opacity-70" />
           </Link>
         </div>

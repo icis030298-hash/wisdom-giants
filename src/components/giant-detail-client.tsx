@@ -128,7 +128,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
         logging: false,
       })
       const link = document.createElement('a')
-      link.download = `나의유산DNA_${tg.name || giant.name}.png`
+      link.download = locale === 'ko' ? `나의유산DNA_${tg.name || giant.name}.png` : `HerittageDNA_${tg.name || giant.name}.png`
       link.href = canvas.toDataURL('image/png')
       link.click()
     } catch (err) {
@@ -642,7 +642,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
 
               {/* 결과 공유하기 */}
               <div className="border-t border-white/10 pt-6 space-y-4">
-                <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold">결과 공유하기</p>
+                <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold">{locale === 'ko' ? '결과 공유하기' : 'Share Results'}</p>
 
                 {/* Share Card — captured by html2canvas */}
                 <div
@@ -660,11 +660,11 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                   <div style={{ width: '72px', height: '72px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 14px', border: '2px solid rgba(245,158,11,0.5)' }}>
                     <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
                   </div>
-                  <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>나의 유산 DNA</p>
+                  <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : 'My Heritage DNA'}</p>
                   <p style={{ color: '#FEF3C7', fontSize: '18px', fontWeight: '700', marginBottom: '4px', fontFamily: 'Georgia, serif' }}>
                     {dna ? archetypes[dna]?.name[locale as 'ko' | 'en'] : ''}
                   </p>
-                  <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name} 유형</p>
+                  <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{locale === 'ko' ? ' 유형' : ' Type'}</p>
                   <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 0', marginBottom: '18px' }}>
                     <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: 'keep-all' }}>
                       &ldquo;{(tg.quote || '').slice(0, 70)}{(tg.quote || '').length > 70 ? '...' : ''}&rdquo;
@@ -683,7 +683,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                     className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-bold text-foreground transition-all active:scale-95"
                   >
                     <Download className="w-4 h-4" />
-                    이미지로 저장
+                    {locale === 'ko' ? '이미지로 저장' : 'Save as Image'}
                   </button>
                   
                   <div className="grid grid-cols-2 gap-3">
@@ -715,7 +715,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       {/* Copy-link toast */}
       {showToast && (
         <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[200] px-6 py-3 rounded-full bg-amber-500 text-black font-bold text-sm shadow-xl shadow-amber-500/30 animate-in fade-in slide-in-from-bottom-2 duration-200">
-          복사 완료!
+          {locale === 'ko' ? '복사 완료!' : 'Copied!'}
         </div>
       )}
     </main>

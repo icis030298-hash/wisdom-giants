@@ -306,7 +306,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
           {isRestoredChat && (
             <div className="px-5 py-2 bg-amber-500/10 border-b border-amber-500/20 flex items-center justify-center gap-2 text-xs text-amber-400 font-medium">
               <History className="w-3 h-3" />
-              이전 대화 이어가기
+              {locale === 'ko' ? '이전 대화 이어가기' : 'Continue Previous Chat'}
             </div>
           )}
 
@@ -315,7 +315,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
             {isLoadingHistory ? (
               <div className="flex flex-col items-center justify-center h-full gap-3 text-muted-foreground">
                 <div className="w-6 h-6 border-2 border-amber-500/40 border-t-amber-500 rounded-full animate-spin" />
-                <span className="text-xs">대화 기록을 불러오는 중...</span>
+                <span className="text-xs">{locale === 'ko' ? '대화 기록을 불러오는 중...' : 'Loading chat history...'}</span>
               </div>
             ) : messages.map((message) => (
               <div

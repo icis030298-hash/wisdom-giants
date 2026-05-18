@@ -115,7 +115,7 @@ export function HeroSection() {
           {[
             { value: "95+", label: t("stats.minds") },
             { value: "30+", label: t("stats.questions") },
-            { value: "무료", label: t("stats.free") },
+            { value: t("stats.freeValue"), label: t("stats.free") },
           ].map((stat, i) => (
             <div key={i} className="text-center">
               <div className="text-2xl sm:text-3xl font-bold text-amber-400">{stat.value}</div>

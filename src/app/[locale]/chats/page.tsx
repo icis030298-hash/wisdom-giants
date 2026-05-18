@@ -146,7 +146,7 @@ export default function ChatsPage() {
   };
 
   const handleDelete = async (chatId: string) => {
-    if (!confirm("이 대화를 삭제하시겠습니까? 복구할 수 없습니다.")) return
+    if (!confirm(locale === 'ko' ? "이 대화를 삭제하시겠습니까? 복구할 수 없습니다." : "Delete this conversation? This cannot be undone.")) return
     setChats(prev => prev.filter(c => c.id !== chatId))
     try {
       await deleteDoc(doc(db, "chats", chatId))
@@ -263,7 +263,7 @@ export default function ChatsPage() {
                 <button
                   onClick={() => handleDelete(chat.id)}
                   className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-lg opacity-0 group-hover/row:opacity-100 text-red-400 hover:text-red-600 hover:bg-red-500/10 transition-all z-10"
-                  aria-label="대화 삭제"
+                  aria-label={locale === 'ko' ? '대화 삭제' : 'Delete conversation'}
                 >
                   <Trash2 className="w-4 h-4" />
                 </button>
