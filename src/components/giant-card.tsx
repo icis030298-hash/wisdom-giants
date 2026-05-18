@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { MessageCircle, Clock, Sparkles } from "lucide-react"
+import { MessageCircle, Sparkles } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
@@ -72,17 +72,11 @@ export function GiantCard({ giant, index }: GiantCardProps) {
 
       {/* Content */}
       <div className="p-6 flex flex-col flex-1">
-        <div className="flex items-start justify-between gap-4 mb-2">
-          <div className="flex-1 min-w-0">
-            <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-200 transition-colors truncate">
-              {name}
-            </h3>
-            <p className="text-sm text-amber-400/80 truncate">{headline}</p>
-          </div>
-          <div className="flex items-center gap-1.5 px-2 py-1 rounded-md bg-white/5 border border-white/10 shrink-0">
-            <Clock className="w-3 h-3 text-muted-foreground" />
-            <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-tighter">{gt("era")}</span>
-          </div>
+        <div className="mb-2">
+          <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-200 transition-colors leading-snug">
+            {name}
+          </h3>
+          <p className="text-sm text-amber-400/80 mt-0.5 line-clamp-2">{headline}</p>
         </div>
         
         {/* Description */}
