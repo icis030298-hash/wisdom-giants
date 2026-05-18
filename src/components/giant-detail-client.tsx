@@ -21,7 +21,8 @@ import {
   Dna,
   Download,
   Link2,
-  Share2
+  Share2,
+  Facebook
 } from "lucide-react"
 import { archetypes } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
@@ -251,6 +252,24 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
+      '_blank',
+      'width=550,height=450'
+    );
+  };
+
+  const handleFacebookShare = () => {
+    const dnaType = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name;
+    const giantName = tg.name;
+    const url = locale === 'ko'
+      ? 'https://www.giantswisdom.com/ko/test'
+      : 'https://www.giantswisdom.com/en/test';
+    
+    window.open(
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(
+        locale === 'ko'
+          ? `나의 유산 DNA는 '${dnaType}' 유형! 역사 속 ${giantName}과 닮은 나, 당신은 어떤 위인과 닮았나요?`
+          : `My Heritage DNA is '${dnaType}' type! I match with ${giantName}. Who's your historical match?`
+      )}`,
       '_blank',
       'width=550,height=450'
     );
@@ -942,6 +961,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
 
                 {/* Share Buttons */}
                 <div className="space-y-3 max-w-[360px] mx-auto">
+                  {/* Save as Image */}
                   <button
                     onClick={handleSaveImage}
                     className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-bold text-foreground transition-all active:scale-95 min-h-[48px]"
@@ -950,31 +970,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                     {locale === 'ko' ? '이미지로 저장' : 'Save as Image'}
                   </button>
 
-                  <button
-                    onClick={handleCopyLink}
-                    className={`w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold transition-all active:scale-95 min-h-[48px] border cursor-pointer ${
-                      copied 
-                        ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' 
-                        : 'bg-white/5 hover:bg-white/10 border-white/10 text-foreground'
-                    }`}
-                  >
-                    <Link2 className="w-4 h-4" />
-                    {copied 
-                      ? (locale === 'ko' ? '복사됨! ✓' : 'Copied! ✓') 
-                      : (locale === 'ko' ? '링크 복사' : 'Copy Link')
-                    }
-                  </button>
-
-                  <button
-                    onClick={handleTwitterShare}
-                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-black hover:bg-[#1a1a1a] border border-[#222222] text-sm font-bold text-white transition-all active:scale-95 min-h-[48px] cursor-pointer"
-                  >
-                    <svg className="w-4 h-4 fill-white" viewBox="0 0 24 24">
-                      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                    </svg>
-                    {locale === 'ko' ? 'X 공유' : 'Share on X'}
-                  </button>
-                  
+                  {/* Kakao & Copy Link */}
                   <div className="grid grid-cols-2 gap-3">
                     <button
                       onClick={shareToKakao}
@@ -983,17 +979,54 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                       <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                         <path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.557 1.707 4.8 4.27 6.007-.188.688-.68 2.48-.778 2.875-.158.625.228.618.48.45 1.97-1.312 2.72-1.848 3.823-2.583.4.056.802.088 1.205.088 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/>
                       </svg>
-                      {locale === 'ko' ? '카카오톡 공유' : 'Kakao Share'}
+                      {locale === 'ko' ? '카카오톡' : 'Kakao Share'}
                     </button>
-                    
+
                     <button
-                      onClick={handleNativeShare}
-                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/20 text-sm font-bold text-amber-400 transition-all active:scale-95 min-h-[48px] cursor-pointer"
+                      onClick={handleCopyLink}
+                      className={`flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold transition-all active:scale-95 min-h-[48px] border cursor-pointer ${
+                        copied 
+                          ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' 
+                          : 'bg-white/5 hover:bg-white/10 border-white/10 text-foreground'
+                      }`}
                     >
-                      <Share2 className="w-4 h-4" />
-                      {locale === 'ko' ? '공유하기' : 'Share'}
+                      <Link2 className="w-4 h-4" />
+                      {copied 
+                        ? (locale === 'ko' ? '복사됨! ✓' : 'Copied! ✓') 
+                        : (locale === 'ko' ? '링크 복사' : 'Copy Link')
+                      }
                     </button>
                   </div>
+
+                  {/* X (Twitter) & Facebook */}
+                  <div className="grid grid-cols-2 gap-3">
+                    <button
+                      onClick={handleTwitterShare}
+                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-black hover:bg-[#1a1a1a] border border-[#222222] text-sm font-bold text-white transition-all active:scale-95 min-h-[48px] cursor-pointer"
+                    >
+                      <svg className="w-4 h-4 fill-white" viewBox="0 0 24 24">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                      </svg>
+                      {locale === 'ko' ? 'X 공유' : 'Share on X'}
+                    </button>
+
+                    <button
+                      onClick={handleFacebookShare}
+                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#1877F2] hover:bg-[#1877F2]/90 text-white text-sm font-bold transition-all active:scale-95 min-h-[48px] cursor-pointer"
+                    >
+                      <Facebook className="w-4 h-4" />
+                      {locale === 'ko' ? 'Facebook 공유' : 'Share on Facebook'}
+                    </button>
+                  </div>
+
+                  {/* Native Share */}
+                  <button
+                    onClick={handleNativeShare}
+                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/20 text-sm font-bold text-amber-400 transition-all active:scale-95 min-h-[48px] cursor-pointer"
+                  >
+                    <Share2 className="w-4 h-4" />
+                    {locale === 'ko' ? '공유하기' : 'Share'}
+                  </button>
                 </div>
               </div>
             </motion.div>
