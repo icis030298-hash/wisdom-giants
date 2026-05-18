@@ -185,10 +185,10 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const handleNativeShare = async () => {
     const archetypeName = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name
     const shareText = locale === 'ko'
-      ? `나의 유산 DNA는 ${archetypeName} 유형! 당신은 어떤 위인과 닮았나요?`
+      ? `나와 닮은 역사 속 위인은 ${archetypeName}! 당신은 어떤 위인과 닮았나요?`
       : locale === 'de'
-      ? `Mein Heritage-DNA ist vom Typ '${archetypeName}'! Welchem historischen Riesen ähneln Sie?`
-      : `My Heritage DNA is ${archetypeName}! Which historical giant do you resemble?`
+      ? `Mein historischer Zwilling ist '${archetypeName}'! Welchem historischen Riesen ähneln Sie?`
+      : `My historical match is ${archetypeName}! Which historical giant do you resemble?`
     const shareUrl = `${window.location.origin}/${locale}/test`
     
     if (navigator.share) {
@@ -221,10 +221,10 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
     const text = locale === 'ko' 
-      ? `나의 유산 DNA는 '${dnaType}' 유형! 역사 속 ${giantName}과 닮은 나, 당신은 어떤 위인과 닮았나요? 👉 https://www.giantswisdom.com/ko/test`
+      ? `나와 닮은 역사 속 위인은 ${giantName}! 당신은 어떤 위인과 닮았나요? 👉 https://www.giantswisdom.com/ko/test`
       : locale === 'de'
-      ? `Mein Heritage-DNA ist vom Typ '${dnaType}'! Ich ähnele ${giantName} aus der Geschichte. Welchem Riesen ähneln Sie? 👉 https://www.giantswisdom.com/de/test`
-      : `My Heritage DNA is '${dnaType}' type! I match with historical ${giantName}. Who's your historical match? 👉 https://www.giantswisdom.com/en/test`;
+      ? `Mein historischer Zwilling ist ${giantName}! Welchem Riesen ähneln Sie? 👉 https://www.giantswisdom.com/de/test`
+      : `My historical match is ${giantName}! Who's your historical match? 👉 https://www.giantswisdom.com/en/test`;
     
     try {
       await navigator.clipboard.writeText(text);
@@ -247,10 +247,10 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
     const text = locale === 'ko'
-      ? `나의 유산 DNA는 '${dnaType}' 유형!\n역사 속 ${giantName}과 닮은 나 🏛️\n당신은 어떤 위인과 닮았나요?\n#GiantsWisdom #유산DNA #역사위인`
+      ? `나와 닮은 역사 속 위인은 ${giantName} 🏛️\n당신은 어떤 위인과 닮았나요?\n#GiantsWisdom #역사위인 #위인찾기`
       : locale === 'de'
-      ? `Mein Heritage-DNA ist vom Typ '${dnaType}'!\nIch ähnele ${giantName} aus der Geschichte 🏛️\nWelchem Riesen ähneln Sie?\n#GiantsWisdom #HeritageDNA`
-      : `My Heritage DNA is '${dnaType}' type!\nI match with historical ${giantName} 🏛️\nWho's your historical match?\n#GiantsWisdom #HeritageDNA`;
+      ? `Mein historischer Zwilling ist ${giantName} 🏛️\nWelchem Riesen ähneln Sie?\n#GiantsWisdom #HistorischerZwilling`
+      : `My historical match is ${giantName} 🏛️\nWho's your historical match?\n#GiantsWisdom #HistoricalMatch`;
     
     const url = locale === 'ko'
       ? 'https://www.giantswisdom.com/ko/test'
@@ -277,10 +277,10 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     window.open(
       `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(
         locale === 'ko'
-          ? `나의 유산 DNA는 '${dnaType}' 유형! 역사 속 ${giantName}과 닮은 나, 당신은 어떤 위인과 닮았나요?`
+          ? `나와 닮은 역사 속 위인은 ${giantName}! 당신은 어떤 위인과 닮았나요?`
           : locale === 'de'
-          ? `Mein Heritage-DNA ist vom Typ '${dnaType}'! Ich ähnele ${giantName} aus der Geschichte. Welchem Riesen ähneln Sie?`
-          : `My Heritage DNA is '${dnaType}' type! I match with ${giantName}. Who's your historical match?`
+          ? `Mein historischer Zwilling ist ${giantName}! Welchem Riesen ähneln Sie?`
+          : `My historical match is ${giantName}! Who's your historical match?`
       )}`,
       '_blank',
       'width=550,height=450'
@@ -324,7 +324,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
-          title: locale === 'ko' ? `나의 유산 DNA: ${dnaType}` : `My Heritage DNA: ${dnaType}`,
+          title: locale === 'ko' ? `나와 닮은 위인: ${giantName}` : `My historical match: ${giantName}`,
           description: locale === 'ko' ? `${giantName} 유형 - Giants Wisdom` : `${giantName} Type - Giants Wisdom`,
           imageUrl: imageUrl,
           link: {
@@ -346,13 +346,13 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       console.error("Kakao Share execution error:", error)
       try {
         const shareText = locale === 'ko'
-          ? `나의 유산 DNA는 ${dnaType} 유형! 당신은 어떤 위인과 닮았나요?`
-          : `My Heritage DNA is ${dnaType}! Which historical giant do you resemble?`
+          ? `나와 닮은 역사 속 위인은 ${dnaType}! 당신은 어떤 위인과 닮았나요?`
+          : `My historical match is ${dnaType}! Which historical giant do you resemble?`
         navigator.clipboard.writeText(`${shareText} 👉 ${window.location.href}`)
       } catch {
         const shareText = locale === 'ko'
-          ? `나의 유산 DNA는 ${dnaType} 유형! 당신은 어떤 위인과 닮았나요?`
-          : `My Heritage DNA is ${dnaType}! Which historical giant do you resemble?`
+          ? `나와 닮은 역사 속 위인은 ${dnaType}! 당신은 어떤 위인과 닮았나요?`
+          : `My historical match is ${dnaType}! Which historical giant do you resemble?`
         const ta = document.createElement('textarea')
         ta.value = `${shareText} 👉 ${window.location.href}`
         document.body.appendChild(ta)

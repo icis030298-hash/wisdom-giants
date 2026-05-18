@@ -21,16 +21,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isGerman = locale === 'de';
 
   let title = 'Giants Wisdom | AI Historical Mentors & Wisdom Archive';
-  let description = "Chat with 95+ history's greatest minds using AI. Discover your Heritage DNA through 30 situational questions and find your soul-matched historical giant.";
+  let description = "Chat with 95+ history's greatest minds using AI. Answer 15 questions and find the historical giant you most resemble.";
   let keywords = 'AI Chat, Historical Figures, Wisdom, Mentorship, History, Philosophy, Education, Giants Wisdom';
 
   if (isKorean) {
     title = 'Giants Wisdom | AI 역사 위인 멘토 & 지혜 아카이브';
-    description = '역사를 바꾼 95인의 위인들과 AI로 대화하세요. 30가지 상황 질문으로 나의 유산 DNA를 분석하고 영혼의 단짝 위인을 찾아보세요.';
-    keywords = 'AI 챗, 역사 위인, 지혜, 멘토십, 역사, 철학, 교육, 거인들의 지혜, 유산 DNA';
+    description = '역사를 바꾼 95인의 위인들과 AI로 대화하세요. 15가지 질문으로 나와 가장 닮은 역사 속 위인을 찾아보세요.';
+    keywords = 'AI 챗, 역사 위인, 지혜, 멘토십, 역사, 철학, 교육, 거인들의 지혜, 위인 찾기';
   } else if (isGerman) {
     title = 'Giants Wisdom | KI Historische Mentoren & Weisheitsarchiv';
-    description = 'Chatte mit 95+ der größten Köpfe der Geschichte per KI. Entdecke deine Heritage-DNA durch 30 Situationsfragen und finde deinen historischen Seelenpartner.';
+    description = 'Chatte mit 95+ der größten Köpfe der Geschichte per KI. Beantworte 15 Fragen und finde deinen historischen Zwilling.';
     keywords = 'KI Chat, Historische Persönlichkeiten, Weisheit, Geschichte, Philosophie, Giants Wisdom';
   }
 
