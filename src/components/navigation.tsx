@@ -55,12 +55,12 @@ export function Navigation() {
   
   return (
     <>
-      <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${isScrolled ? "glass py-3" : "py-6"}`}>
-        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
+      <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${isScrolled ? "glass py-2 md:py-3" : "py-3 md:py-6"}`}>
+        <div className="max-w-7xl mx-auto px-3 md:px-4 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center">
-              <Sparkles className="w-5 h-5 text-primary-foreground" />
+          <Link href="/" className="flex items-center gap-2 md:gap-3 group">
+            <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center">
+              <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-primary-foreground" />
             </div>
             <div className="hidden sm:block">
               <span className="font-serif text-lg font-semibold text-foreground group-hover:text-amber-200 transition-colors">
@@ -119,11 +119,11 @@ export function Navigation() {
           </div>
           
           {/* Mobile actions */}
-          <div className="flex items-center gap-2 md:hidden">
+          <div className="flex items-center gap-1.5 md:hidden max-w-[80px]">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <button className="p-2 rounded-lg glass text-foreground outline-none">
-                  <Languages className="w-5 h-5" />
+                <button className="w-8 h-8 flex items-center justify-center p-1 rounded-lg glass text-foreground outline-none cursor-pointer">
+                  <Languages className="w-4 h-4" />
                 </button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="glass border-white/10 min-w-[120px]">
@@ -141,9 +141,9 @@ export function Navigation() {
 
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 rounded-lg glass text-foreground"
+              className="w-8 h-8 flex items-center justify-center p-1 rounded-lg glass text-foreground cursor-pointer"
             >
-              {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+              {isMobileMenuOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
             </button>
           </div>
         </div>

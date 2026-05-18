@@ -177,7 +177,7 @@ export default function HeritageTestPage() {
 
               <button
                 onClick={handleStart}
-                className="group relative px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 text-primary-foreground font-bold text-lg shadow-xl shadow-amber-500/20 hover:scale-105 transition-all flex items-center gap-3 mx-auto"
+                className="group relative px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground font-bold text-lg shadow-xl shadow-amber-500/20 hover:scale-105 transition-all flex items-center gap-3 mx-auto"
               >
                 {t("start")}
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -209,7 +209,7 @@ export default function HeritageTestPage() {
                 </div>
                 <div className="h-1.5 w-full bg-muted rounded-full overflow-hidden">
                   <motion.div 
-                    className="h-full bg-gradient-to-r from-amber-500 to-orange-500"
+                    className="h-full bg-gradient-to-r from-amber-500 to-amber-600"
                     initial={{ width: 0 }}
                     animate={{ width: `${progress}%` }}
                     transition={{ type: "spring", stiffness: 50 }}
@@ -267,7 +267,7 @@ export default function HeritageTestPage() {
 
               <button
                 onClick={handleNextStage}
-                className="group relative px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 text-primary-foreground font-bold text-lg shadow-xl shadow-amber-500/20 hover:scale-105 transition-all flex items-center gap-3 mx-auto"
+                className="group relative px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground font-bold text-lg shadow-xl shadow-amber-500/20 hover:scale-105 transition-all flex items-center gap-3 mx-auto"
               >
                 {t("stages.next")}
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

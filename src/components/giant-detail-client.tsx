@@ -21,8 +21,7 @@ import {
   Dna,
   Download,
   Link2,
-  Share2,
-  Facebook
+  Share2
 } from "lucide-react"
 import { archetypes } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
@@ -1014,7 +1013,9 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                       onClick={handleFacebookShare}
                       className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#1877F2] hover:bg-[#1877F2]/90 text-white text-sm font-bold transition-all active:scale-95 min-h-[48px] cursor-pointer"
                     >
-                      <Facebook className="w-4 h-4" />
+                      <svg className="w-4 h-4 fill-white" viewBox="0 0 24 24">
+                        <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
+                      </svg>
                       {locale === 'ko' ? 'Facebook 공유' : 'Share on Facebook'}
                     </button>
                   </div>
