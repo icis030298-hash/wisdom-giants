@@ -1560,5 +1560,20 @@
     "analyticsDesc": "서비스 개선을 위해 방문 통계 및 패턴을 분석하는 데 사용됩니다.",
     "advertising": "광고 쿠키",
     "advertisingDesc": "Google AdSense 맞춤형 광고를 제공하는 데 사용됩니다."
+  },
+  "Contact": {
+    "title": "문의하기",
+    "name": "이름",
+    "email": "이메일",
+    "subject": "제목 (선택)",
+    "message": "문의 내용",
+    "send": "전송하기",
+    "sending": "전송 중...",
+    "success": "메시지가 전송되었습니다! 감사합니다.",
+    "error": "전송에 실패했습니다. 다시 시도해주세요.",
+    "namePlaceholder": "이름을 입력하세요",
+    "emailPlaceholder": "이메일을 입력하세요",
+    "subjectPlaceholder": "제목을 입력하세요",
+    "messagePlaceholder": "문의 내용을 입력하세요"
   }
 }

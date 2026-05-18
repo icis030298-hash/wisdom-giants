@@ -1521,5 +1521,20 @@
         "What is the most important piece of advice you can give me?"
       ]
     }
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff (optional)",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht erfolgreich gesendet! Danke.",
+    "error": "Senden fehlgeschlagen. Bitte erneut versuchen.",
+    "namePlaceholder": "Namen eingeben",
+    "emailPlaceholder": "E-Mail eingeben",
+    "subjectPlaceholder": "Betreff eingeben",
+    "messagePlaceholder": "Nachricht eingeben"
   }
 }

@@ -1562,5 +1562,20 @@
     "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
     "advertising": "Advertising Cookies",
     "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject (optional)",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! Thank you.",
+    "error": "Failed to send. Please try again.",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "subjectPlaceholder": "Enter subject",
+    "messagePlaceholder": "Enter your message"
   }
 }
