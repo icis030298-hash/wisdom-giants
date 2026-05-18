@@ -19,17 +19,19 @@ export default async function middleware(request: NextRequest) {
     pathname === '/sitemap.xml';
 
   if (!isStaticOrApi) {
-    const hasLocale = pathname.startsWith('/ko') || pathname.startsWith('/en') || pathname.startsWith('/de') || pathname.startsWith('/ja');
+    const hasLocale = pathname.startsWith('/ko') || pathname.startsWith('/en') || pathname.startsWith('/de') || pathname.startsWith('/ja') || pathname.startsWith('/es');
     
     if (!hasLocale) {
       const acceptLanguage = request.headers.get('accept-language') || '';
       const isKorean = acceptLanguage.toLowerCase().includes('ko');
       const isJapanese = acceptLanguage.toLowerCase().includes('ja');
       const isGerman = acceptLanguage.toLowerCase().includes('de');
+      const isSpanish = acceptLanguage.toLowerCase().includes('es');
       let locale = 'en';
       if (isKorean) locale = 'ko';
       else if (isJapanese) locale = 'ja';
       else if (isGerman) locale = 'de';
+      else if (isSpanish) locale = 'es';
 
       
       // Redirect to the language specific route

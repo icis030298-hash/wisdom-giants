@@ -1,0 +1,339 @@
+{
+  "Navigation": {
+    "hallOfGems": "Salón de Mentes",
+    "wisdomArchive": "Archivo de Sabiduría",
+    "chatList": "Mis Conversaciones",
+    "about": "Acerca de",
+    "startExploring": "Comenzar Viaje",
+    "title": "Giants Wisdom",
+    "subtitle": "El Salón de las Grandes Mentes",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "myProfile": "Mi Perfil",
+    "signInRequired": "Iniciar sesión para ver tus conversaciones."
+  },
+  "Auth": {
+    "loginModalTitle": "Bienvenido al Salón de los Gigantes",
+    "loginModalDescription": "Conserva tus diálogos con los gigantes y administra el legado de sabiduría grabado en tu alma.",
+    "continueWithGoogle": "Continuar con Google",
+    "loginSuccess": "Bienvenido al Salón de las Grandes Mentes.",
+    "logout": "Cerrar sesión",
+    "chatList": "Mis Conversaciones",
+    "signInRequired": "Iniciar sesión requerido"
+  },
+  "Test": {
+    "title": "Descubre el gran legado que fluye en tu alma",
+    "subtitle": "Prueba de Análisis del Temperamento Histórico",
+    "start": "Comenzar Test",
+    "back": "Atrás",
+    "banner": {
+      "new": "NUEVO CONTENIDO",
+      "title": "¿Qué gigante histórico\nse parece más a ti?",
+      "desc": "Descubre tu doble histórico con 15 preguntas",
+      "button": "Comenzar Test"
+    },
+    "stages": {
+      "stage1": "Etapa 1: Despertar",
+      "stage2": "Etapa 2: La Prueba",
+      "stage3": "Etapa 3: El Destino",
+      "cleared": "¡Etapa {stage} completada!",
+      "ready": "¿Listo para la siguiente etapa?",
+      "next": "Avanzar a la siguiente etapa"
+    },
+    "analysis": {
+      "loading": "Analizando los ecos de tu alma...",
+      "sub": "Buscando tus pilares en el gran flujo de la historia."
+    },
+    "result": {
+      "matchFound": "Has encontrado tu destino histórico",
+      "archetype": "Tu Persona de Legado",
+      "matchedGiant": "El gigante más parecido a ti",
+      "readEpic": "Leer Epos",
+      "chatNow": "Conversar Ahora"
+    }
+  },
+  "Chats": {
+    "title": "Mis Conversaciones",
+    "subtitle": "Diálogos con Grandes Mentes",
+    "description": "Experimenta reflexiones y consejos de los más grandes gigantes de la historia. Puedes continuar cualquier conversación en cualquier momento.",
+    "emptyTitle": "Aún no hay conversaciones",
+    "emptyDescription": "Los gigantes están listos para escucharte. ¡Comienza tu primer diálogo ahora!",
+    "startFirstChat": "Iniciar primera conversación",
+    "messages": "mensajes",
+    "lastChat": "Último chat"
+  },
+  "Hero": {
+    "badge": "El Salón de las Grandes Mentes",
+    "quote": "Si he visto más lejos, es porque estaba sobre los hombros de gigantes.",
+    "quoteAuthor": "Isaac Newton",
+    "startJourney": "Comenzar Viaje",
+    "startTest": "🧬 Iniciar Test de ADN Histórico",
+    "exploreHall": "🏛️ Explorar el Salón",
+    "stats": {
+      "minds": "Grandes Mentes",
+      "questions": "Test de 15 Preguntas",
+      "free": "Completamente Gratis",
+      "freeValue": "Gratis"
+    },
+    "guide": {
+      "title": "Guía del Salón de la Sabiduría",
+      "selectGiant": "Elige un Gigante",
+      "selectGiantDesc": "Encuentra figuras inspiradoras entre más de 95 leyendas históricas.",
+      "epic": "Narrativas Épicas",
+      "epicDesc": "Lee relatos de vida como si los gigantes los contaran ellos mismos.",
+      "chat": "Chat en Tiempo Real",
+      "chatDesc": "Comparte tus inquietudes con gigantes renacidos mediante IA avanzada.",
+      "startNow": "Comenzar Ahora"
+    }
+  },
+  "Featured": {
+    "title": "El Salón de las Grandes Mentes",
+    "description": "Explora la sabiduría de figuras que cambiaron la historia. Selecciona una persona para iniciar una conversación que trasciende el tiempo y el espacio.",
+    "viewAll": "Ver Todos los Gigantes",
+    "bestPick": "Mejor Opción",
+    "todaysPick": "Recomendación del Día",
+    "chatNow": "Conversar Ahora"
+  },
+  "GiantsGrid": {
+    "title": "Gigantes Históricos",
+    "description": "Explora la sabiduría de las figuras que cambiaron el curso de la humanidad. Elige un gigante para iniciar un diálogo que trasciende el tiempo y el espacio.",
+    "searchPlaceholder": "Buscar por nombre o campo de estudio...",
+    "allGiants": "Todos los Gigantes",
+    "categories": {
+      "achievement": "Logro",
+      "adversity": "Adversidad",
+      "wisdom": "Sabiduría",
+      "creativity": "Creatividad"
+    },
+    "resultsCount": "Encontradas {filtered} de {total} grandes mentes",
+    "readEpic": "Leer Epos ✨",
+    "noResults": "No se encontraron resultados",
+    "noResultsDesc": "Intenta cambiar tu palabra de búsqueda o tus filtros.",
+    "era": "Gigante Histórico",
+    "pagination": {
+      "first": "Primero",
+      "prev": "Anterior",
+      "next": "Siguiente",
+      "last": "Último"
+    }
+  },
+  "GiantDetail": {
+    "returnToSquare": "Volver al Salón",
+    "chatWith": "Conversar con {name}",
+    "theLifeStory": "La Historia de Vida",
+    "thePain": "La Lucha",
+    "theRecovery": "La Recuperación",
+    "wisdomLessons": "Lecciones de Sabiduría",
+    "famousQuote": "Frase Célebre",
+    "era": "Época",
+    "field": "Área",
+    "askForAdvice": "Pedir Consejo",
+    "notFound": "Gigante no encontrado.",
+    "goHome": "Volver al Inicio"
+  },
+  "Chat": {
+    "famousQuote": "Frase Célebre",
+    "description": "Descripción",
+    "suggestedQuestions": "Preguntas Sugeridas",
+    "inputPlaceholder": "Pregúntale a {name} lo que quieras...",
+    "contemplating": "{name} está contemplando...",
+    "wisdomActive": "Sabiduría Activa",
+    "historyEra": "Historia y Época",
+    "fieldOfWisdom": "Campo de Sabiduría",
+    "error": "Lo siento, ocurrió un error al recuperar mi sabiduría. ¿Podrías intentarlo de nuevo en un momento?",
+    "retry": "Recuperar Sabiduría de Nuevo"
+  },
+  "Stats": {
+    "title": "Por qué Giants Wisdom",
+    "description": "Experimenta un viaje innovador a través de miles de años para encontrarte con la sabiduría humana.",
+    "features": [
+      {
+        "title": "Chat en Tiempo Real con Gigantes Históricos",
+        "description": "Entabla conversaciones profundas que trascienden el tiempo y el espacio con figuras históricas mediante IA avanzada."
+      },
+      {
+        "title": "2,500 Años de Sabiduría Humana",
+        "description": "Encuentra en un solo lugar los 2,500 años de historia, logros y perspectivas construidos por la humanidad."
+      },
+      {
+        "title": "Conocimiento Directo de los Maestros",
+        "description": "Entregamos el valor del aprendizaje vívido como si escucharas directamente a los maestros de la filosofía, la ciencia y el arte."
+      },
+      {
+        "title": "Perspectivas Personalizadas para Ti",
+        "description": "Haz preguntas, explora ideas y recibe la orientación personalizada que necesitas para tu vida."
+      }
+    ],
+    "stats": {
+      "minds": "Grandes Mentes",
+      "history": "Años de Sabiduría",
+      "fields": "Campos de Estudio",
+      "inspiration": "Inspiraciones"
+    }
+  },
+  "QuoteSection": {
+    "label": "Sabiduría Diaria"
+  },
+  "Privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 18 de mayo de 2026",
+    "summaryTitle": "1. Resumen Clave",
+    "summaryDesc": "En Giants Wisdom, nunca vendemos ni compartimos inapropiadamente tus datos personales. Esta política detalla cómo protegemos y procesamos los datos recopilados mientras realizas pruebas de personalidad y conversas con gigantes históricos.",
+    "collectionTitle": "2. Datos que Recopilamos y Cómo los Recopilamos",
+    "collectionDesc": "Nuestro sitio web puede explorarse de forma completamente anónima sin crear una cuenta. Sin embargo, durante tus interacciones, se pueden procesar los siguientes datos:\n- Datos proporcionados voluntariamente: Respuestas del Test de ADN de Legado, textos de entrada ingresados en los chats de IA y direcciones de correo electrónico (solo al suscribirte a nuestro boletín).\n- Datos registrados automáticamente: Tipo de dispositivo, especificaciones del navegador, dirección IP e historial de interacción registrados de forma segura mediante Cookies.",
+    "purposeTitle": "3. Cómo Utilizamos la Información",
+    "purposeDesc": "Los datos recopilados se utilizan estrictamente para los siguientes objetivos:\n- Compilar los resultados del test de 15 preguntas para determinar tu arquetipo de gigante histórico más cercano.\n- Generar respuestas de chat históricas dinámicas en tiempo real impulsadas limpiamente por la API Gemini 2.5 Flash.\n- Análisis estadísticos no identificables para mejorar nuestras métricas de arquetipos de personalidad.\n- Mostrar banners personalizados seguros a través de Google AdSense.",
+    "adsenseTitle": "4. Google AdSense y Política de Cookies de Terceros",
+    "adsenseDesc": "Este sitio web muestra anuncios integrados a través de Google AdSense. Google y proveedores externos utilizan cookies para publicar anuncios dirigidos según tus visitas a este y otros sitios web en Internet. Puedes optar por no recibir seguimiento personalizado en cualquier momento configurando tus preferencias directamente en la Configuración de Anuncios de Google ([https://www.google.com/settings/ads](https://www.google.com/settings/ads)).",
+    "retentionTitle": "5. Retención y Destrucción de Datos",
+    "retentionDesc": "Los resultados de pruebas anónimas y las entradas de chat se eliminan al cerrar la sesión o se desvinculan completamente de marcadores de identidad (anonimizados) para estudios globales permanentes. Cualquier dato personal como correos electrónicos se elimina permanentemente a petición tuya.",
+    "rightsTitle": "6. Tus Derechos e Información de Contacto",
+    "rightsDesc": "Reservas la total autoridad para ver, modificar o eliminar permanentemente cualquier fragmento de datos vinculado a tu identidad. Para cualquier consulta sobre privacidad, ponte en contacto con nuestro equipo oficial."
+  },
+  "Footer": {
+    "brand": {
+      "subtitle": "El Salón de las Grandes Mentes",
+      "description": "Únete al viaje de las grandes mentes que cambiaron la historia. Experimenta la sabiduría más allá del tiempo y el espacio."
+    },
+    "sections": {
+      "explore": "Explorar",
+      "info": "Información"
+    },
+    "links": {
+      "allGiants": "Todos los Gigantes",
+      "wisdomArchive": "Archivo de Sabiduría",
+      "about": "Acerca de Nosotros",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "contact": "Contacto",
+      "dnaTest": "Test de ADN Histórico"
+    }
+  },
+  "About": {
+    "intro": "A todos aquellos perdidos en el\nflujo de información interminable.",
+    "subIntro": "Un espacio para alejarse del ruido y encontrarse con la verdadera sabiduría.",
+    "visionTitle": "Sobre Hombros de Gigantes",
+    "visionDesc": "“Si he visto más lejos, es porque he estado sobre los hombros de gigantes.” - Isaac Newton. Comenzamos con la creencia de que las respuestas a nuestros complejos problemas modernos ya podrían estar entretejidas en la vida de los más grandes gigantes de la historia.",
+    "epicTitle": "Las Grandes Epopeyas de 95 Gigantes",
+    "epicDesc": "Ve más allá de los simples datos históricos. Experimenta la gran saga de gigantes que superaron la adversidad para remodelar la historia humana.",
+    "chatTitle": "Diálogo entre Épocas",
+    "chatDesc": "Entabla conversaciones en tiempo real con firmas restauradas de gigantes impulsadas por IA avanzada (Gemini 2.5 Flash) para buscar ideas agudas ante tus dilemas modernos.",
+    "testTitle": "Encuentra tu Gemelo Histórico",
+    "testDesc": "Descubre el ADN del gigante que fluye en lo profundo de tu alma a través de un cuestionario de situación inmersivo de 3 etapas establecido en momentos históricos clave.",
+    "outroTitle": "Bienvenido al Salón de los Gigantes",
+    "outroDesc": "Sobre sus hombros, finalmente verás más lejos. Comienza tu viaje hoy."
+  },
+  "Terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: 18 de mayo de 2026",
+    "intro": "Bienvenido a Giants Wisdom. Estos Términos de Servicio rigen el acuerdo legal y los límites de usuario entre tú y nuestra plataforma con respecto a tu participación en nuestras métricas de personalidad y simulaciones conversacionales originales.",
+    "eligibilityTitle": "Artículo 1 (Elegibilidad y Protección de Menores)",
+    "eligibilityDesc": "Este servicio está destinado estrictamente a usuarios que tengan al menos 13 años de edad. Los usuarios menores de 13 años que interactúen con nuestras plataformas declaran que han obtenido el consentimiento verificado de sus padres de acuerdo con los mandatos globales de privacidad infantil. La plataforma se exime de cualquier responsabilidad derivada del acceso no autorizado de menores.",
+    "aiTitle": "Artículo 2 (Infraestructura de IA y Descargo de Responsabilidad)",
+    "aiDesc": "1. Todos los diálogos con figuras históricas que se muestran en esta plataforma son simulaciones interactivas generadas limpiamente por modelos avanzados de IA (Gemini 2.5 suite).\n2. Los resultados proporcionados se diseñan estrictamente con fines educativos y de entretenimiento. No constituyen registros históricos certificados, evaluaciones psicológicas profesionales, asesoramiento médico ni asesoría legal.\n3. Giants Wisdom no asume ninguna responsabilidad por alucinaciones de IA o decisiones tomadas por los usuarios basadas en las respuestas del sistema.",
+    "intellectualTitle": "Artículo 3 (Propiedad Intelectual y Protección Antirrascado)",
+    "intellectualDesc": "1. Todas las arquitecturas de diseño, marcas registradas, métricas del 'Test de 4 Pilares de la Grandeza', 15 preguntas situacionales e ilustraciones vectoriales premium siguen siendo propiedad exclusiva de Giants Wisdom.\n2. Los usuarios tienen estrictamente prohibido realizar copias no autorizadas, sindicación comercial o extracción maliciosa de datos (scraping) a través de bots automatizados, scripts o rastreadores de red.",
+    "userDutyTitle": "Artículo 4 (Deberes del Usuario y Consentimiento de Monetización)",
+    "userDutyDesc": "1. Los usuarios aceptan navegar por nuestra aplicación sin introducir secuencias de ingeniería inversa o vectores maliciosos de sobrecarga del servidor.\n2. En consideración al acceso gratuito, los usuarios otorgan expresamente su consentimiento irrevocable para que Google AdSense y los intermediarios publicitarios presenten diseños de banners automatizados en la aplicación.",
+    "disputeTitle": "Artículo 5 (Ley Aplicable y Jurisdicción Competente)",
+    "disputeDesc": "Estos Términos y cualquier acción legal derivada del uso del sistema se regirán e interpretarán de acuerdo con las leyes de la República de Corea. Cualquier disputa se someterá exclusivamente al tribunal competente que rija la ubicación del operador de la plataforma."
+  },
+  "Cookie": {
+    "title": "Configuración de Cookies",
+    "description": "Utilizamos cookies para personalizar anuncios (Google AdSense) y analizar el tráfico. Al aceptar, consientes nuestro uso de cookies.",
+    "acceptAll": "Aceptar Todo",
+    "rejectAll": "Rechazar Todo",
+    "customize": "Personalizar",
+    "savePreferences": "Guardar Preferencias",
+    "necessary": "Cookies Necesarias",
+    "necessaryDesc": "Requeridas para que el sitio web funcione correctamente. (Siempre Activas)",
+    "analytics": "Cookies de Análisis",
+    "analyticsDesc": "Utilizadas para analizar las visitas y patrones de uso para mejorar nuestro servicio.",
+    "advertising": "Cookies de Publicidad",
+    "advertisingDesc": "Utilizadas para servir anuncios personalizados a través de Google AdSense."
+  },
+  "Contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "subject": "Asunto (opcional)",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito! Gracias.",
+    "error": "Error al enviar. Inténtalo de nuevo.",
+    "namePlaceholder": "Ingresa tu nombre",
+    "emailPlaceholder": "Ingresa tu correo",
+    "subjectPlaceholder": "Ingresa el asunto",
+    "messagePlaceholder": "Ingresa tu mensaje"
+  },
+  "Giants": {
+    "steve-jobs": {
+      "name": "Steve Jobs",
+      "headline": "El arquitecto visionario que fusionó la tecnología con el alma humana.",
+      "shortDescription": "La travesía épica de Steve Jobs y su sabiduría perdurable.",
+      "quote": "Mantente hambriento, mantente insensato.",
+      "era": "20th Century",
+      "chatGreeting": "Saludos, soy Steve Jobs. ¿Buscas la senda de la sabiduría o tienes preguntas sobre mi travesía vital?",
+      "suggestedQuestions": [
+        "Cuéntame sobre tu mayor logro, Steve Jobs.",
+        "¿Cómo lograste superar tus desafíos más difíciles?",
+        "¿Cuál es el consejo más valioso que podrías ofrecerme?"
+      ]
+    },
+    "king-sejong": {
+      "name": "Sejong el Grande",
+      "headline": "El sabio monarca que creó el Hangul para dotar a su pueblo de una voz e iluminar a una nación.",
+      "shortDescription": "La profunda vida y sabiduría del Rey Sejong.",
+      "quote": "Si el pueblo me critica, es porque no los he amado lo suficiente.",
+      "era": "Gigante del Siglo XV",
+      "chatGreeting": "Saludos, soy Sejong el Grande. ¿Buscas el camino de la sabiduría o tienes preguntas sobre el viaje de mi vida?",
+      "suggestedQuestions": [
+        "Háblame de tu mayor logro, Sejong el Grande.",
+        "¿Cómo superaste tus desafíos más difíciles?",
+        "¿Cuál es el consejo más importante que puedes darme?"
+      ]
+    },
+    "elon-musk": {
+      "name": "Elon Musk",
+      "headline": "El emprendedor visionario que se propone convertir a la humanidad en una especie multi-planetaria.",
+      "shortDescription": "La épica odisea de Elon Musk y su sabiduría pionera que moldea el futuro.",
+      "quote": "El fracaso es una opción. Si las cosas no están fallando, es que no estás innovando lo suficiente.",
+      "era": "21st Century Giant",
+      "pain": "Three consecutive rocket explosions and financial collapse on the brink of bankruptcy.",
+      "recovery": "A final bet with his entire fortune and breaking through the crisis with first-principles thinking.",
+      "chatGreeting": "¡Saludos! Soy Elon Musk. ¿Buscas el sendero de la sabiduría o tienes preguntas sobre mi travesía vital?",
+      "suggestedQuestions": [
+        "Elon Musk, ¿cuál consideras tu mayor logro?",
+        "¿Cómo lograste superar tus desafíos más difíciles?",
+        "¿Cuál es el consejo más valioso que podrías darme?"
+      ]
+    },
+    "genghis-khan": {
+      "name": "Gengis Kan",
+      "headline": "El conquistador que emergió de las desoladas estepas para forjar el imperio más vasto de la historia.",
+      "shortDescription": "La legendaria saga de Temuyín y su inquebrantable voluntad.",
+      "quote": "Cuando conquisté el miedo dentro de mí, me convertí en un verdadero conquistador.",
+      "era": "Gigante del Siglo XIII",
+      "chatGreeting": "Saludos, soy Gengis Kan. ¿Buscas el sendero de la sabiduría o tienes interrogantes sobre la travesía de mi vida?",
+      "suggestedQuestions": [
+        "Háblame de tu mayor logro, Gengis Kan.",
+        "¿Cómo superaste tus desafíos más difíciles?",
+        "¿Cuál es el consejo más importante que puedes darme?"
+      ]
+    },
+    "alexander-the-great": {
+      "name": "Alejandro Magno",
+      "headline": "El joven rey que se aventuró a los confines del mundo conocido para unir civilizaciones.",
+      "shortDescription": "La gloriosa campaña de Alejandro y su legado eterno.",
+      "quote": "No hay nada imposible para quien lo intenta.",
+      "era": "4th Century BC Giant",
+      "chatGreeting": "Saludos, soy Alejandro Magno. ¿Buscas el camino de la sabiduría o tienes preguntas sobre el periplo de mi vida?",
+      "suggestedQuestions": [
+        "Háblame de tu mayor logro, Alejandro Magno.",
+        "¿Cómo superaste tus desafíos más difíciles?",
+        "¿Cuál es el consejo más importante que puedes darme?"
+      ]
+    }
+  }
+}
