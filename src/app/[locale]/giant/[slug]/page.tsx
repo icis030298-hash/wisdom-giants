@@ -99,17 +99,20 @@ export default async function GiantDetailPage({ params }: Props) {
   const narrative = (finalNarratives as any)[giant.slug];
   
   // For non-KO locales without a dedicated narrative, fall back to English
-  const getNarrativeText = (enVal: string, koVal: string) =>
-    locale === 'ko' ? koVal : enVal;
+  const getNarrativeText = (enVal: string, koVal: string, esVal?: string) => {
+    if (locale === 'ko') return koVal;
+    if (locale === 'es' && esVal) return esVal;
+    return enVal;
+  };
 
   const formattedNarrative = narrative ? {
-    epic: getNarrativeText(narrative.epic_en, narrative.epic_ko),
-    trials: getNarrativeText(narrative.trials_en, narrative.trials_ko),
-    overcoming: getNarrativeText(narrative.overcoming_en, narrative.overcoming_ko),
-    era: getNarrativeText(narrative.era_en, narrative.era_ko),
+    epic: getNarrativeText(narrative.epic_en, narrative.epic_ko, narrative.epic_es),
+    trials: getNarrativeText(narrative.trials_en, narrative.trials_ko, narrative.trials_es),
+    overcoming: getNarrativeText(narrative.overcoming_en, narrative.overcoming_ko, narrative.overcoming_es),
+    era: getNarrativeText(narrative.era_en, narrative.era_ko, narrative.era_es),
     wisdom: (narrative.wisdom || []).map((w: any) => ({
-      quote: getNarrativeText(w.quote_en, w.quote_ko),
-      meaning: getNarrativeText(w.meaning_en, w.meaning_ko)
+      quote: getNarrativeText(w.quote_en, w.quote_ko, w.quote_es),
+      meaning: getNarrativeText(w.meaning_en, w.meaning_ko, w.meaning_es)
     }))
   } : null;
 
