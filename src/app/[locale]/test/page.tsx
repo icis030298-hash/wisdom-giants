@@ -167,7 +167,7 @@ export default function HeritageTestPage() {
                   { icon: History, label: "15 Situations" },
                   { icon: Dna, label: "Heritage DNA" },
                   { icon: BrainCircuit, label: "Soul Analysis" },
-                  { icon: ShieldCheck, label: "100 Giants" }
+                  { icon: ShieldCheck, label: "95+ Giants" }
                 ].map((item, i) => (
                   <div key={i} className="flex flex-col items-center gap-2 p-4 glass rounded-2xl border border-white/5">
                     <item.icon className="w-6 h-6 text-amber-500/60" />
