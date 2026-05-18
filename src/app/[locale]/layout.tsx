@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const isKorean = locale === 'ko';
   const isGerman = locale === 'de';
+  const isJapanese = locale === 'ja';
 
   let title = 'Giants Wisdom | AI Historical Mentors & Wisdom Archive';
   let description = "Chat with 95+ history's greatest minds using AI. Answer 15 questions and find the historical giant you most resemble.";
@@ -32,6 +33,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title = 'Giants Wisdom | KI Historische Mentoren & Weisheitsarchiv';
     description = 'Chatte mit 95+ der größten Köpfe der Geschichte per KI. Beantworte 15 Fragen und finde deinen historischen Zwilling.';
     keywords = 'KI Chat, Historische Persönlichkeiten, Weisheit, Geschichte, Philosophie, Giants Wisdom';
+  } else if (isJapanese) {
+    title = 'Giants Wisdom | AI歴史偉人メンター＆知恵アーカイブ';
+    description = 'AIで歴史上の偉大な先人95人以上と対話しましょう。15の質問に答えて、あなたに最も似ている歴史上の偉人を見つけてください。';
+    keywords = 'AIチャット, 歴史的人物, 知恵, メンターシップ, 歴史, 哲学, 教育, Giants Wisdom, 歴史の偉人';
   }
 
   return {
@@ -45,6 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         'ko': 'https://www.giantswisdom.com/ko',
         'en': 'https://www.giantswisdom.com/en',
         'de': 'https://www.giantswisdom.com/de',
+        'ja': 'https://www.giantswisdom.com/ja',
         'x-default': 'https://www.giantswisdom.com/ko'
       }
     },

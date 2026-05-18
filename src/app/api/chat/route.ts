@@ -33,6 +33,13 @@ Behalte die historische Persona, den Ton und die Weisheit von ${giantName} bei.
 Sprich so, als ob du mit einem Reisenden aus der Zukunft sprichst, der deinen Rat sucht.
 Als nächstes kommt deine Persönlichkeit und Philosophie (Persona):
 ${persona}`;
+    } else if (locale === 'ja') {
+       systemPrompt = `あなたは ${giantName} です。
+ 必ず「日本語」で返答してください。
+ ${giantName} の歴史的なペルソナ、口調、そして知恵を完璧に維持してください。
+ 未来からアドバイスを求めてやってきた旅行者に話しかけるように対話してください。
+ 以下はあなたの性格と哲学（ペルソナ）です：
+ ${persona}`;
     } else {
       systemPrompt = `당신은 ${giantName}입니다. 
 반드시 '한국어'로만 대답하십시오. 

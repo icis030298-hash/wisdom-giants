@@ -151,7 +151,12 @@
     "analyticsDesc": "Diese Cookies ermöglichen es uns, Besuche und Verkehrsquellen zu zählen, damit wir die Leistung unserer Website messen und verbessern können.",
     "advertisingTitle": "Werbe-Cookies",
     "advertisingDesc": "Diese Cookies werden verwendet, um Anzeigen bereitzustellen, die für Sie und Ihre Interessen relevanter sind.",
-    "savePreferences": "Einstellungen speichern"
+    "savePreferences": "Einstellungen speichern",
+    "title": "Cookie-Einwilligungseinstellungen",
+    "description": "Wir verwenden Cookies, um Anzeigen zu personalisieren (Google AdSense) und den Datenverkehr zu analysieren. Durch die Annahme stimmen Sie der Verwendung von Cookies durch uns zu.",
+    "necessary": "Notwendige Cookies",
+    "analytics": "Analyse-Cookies",
+    "advertising": "Werbe-Cookies"
   },
   "Privacy": {
     "title": "Datenschutzerklärung",
@@ -1536,5 +1541,50 @@
     "emailPlaceholder": "E-Mail eingeben",
     "subjectPlaceholder": "Betreff eingeben",
     "messagePlaceholder": "Nachricht eingeben"
+  },
+  "Stats": {
+    "title": "Warum die Weisheit der Riesen",
+    "description": "Erleben Sie eine innovative Reise über Tausende von Jahren, um der menschlichen Weisheit zu begegnen.",
+    "features": [
+      {
+        "title": "Echtzeit-Chat mit historischen Giganten",
+        "description": "Nehmen Sie mithilfe fortschrittlicher KI an intensiven Gesprächen mit historischen Persönlichkeiten teil, die über Zeit und Raum hinausgehen."
+      },
+      {
+        "title": "2.500 Jahre menschliche Weisheit",
+        "description": "Lernen Sie die 2.500 Jahre Geschichte, Errungenschaften und Erkenntnisse der Menschheit an einem Ort kennen."
+      },
+      {
+        "title": "Wissen direkt vom Meister",
+        "description": "Wir bieten den Wert eines lebendigen Lernens, als würden wir Meistern der Philosophie, Naturwissenschaften und Kunst direkt zuhören."
+      },
+      {
+        "title": "Personalisierte Einblicke für Sie",
+        "description": "Stellen Sie Fragen, erkunden Sie Ideen und erhalten Sie individuelle Beratung, die Sie für Ihr Leben benötigen."
+      }
+    ],
+    "stats": {
+      "minds": "Große Köpfe",
+      "history": "Jahre der Weisheit",
+      "fields": "Studienbereiche",
+      "inspiration": "Inspirationen"
+    }
+  },
+  "QuoteSection": {
+    "label": "Tägliche Weisheit"
+  },
+  "About": {
+    "intro": "An diejenigen, die in der verloren sind\nÜberfluss endloser Informationen.",
+    "subIntro": "Ein Raum, um dem Lärm zu entfliehen und sich der wahren Weisheit zu stellen.",
+    "visionTitle": "Auf den Schultern von Riesen stehen",
+    "visionDesc": "„Wenn ich weiter gesehen habe, dann durch das Stehen auf den Schultern von Riesen.“ - Isaac Newton. Wir begannen mit der Überzeugung, dass die Antworten auf unsere komplexen modernen Probleme möglicherweise bereits im Leben der größten Giganten der Geschichte verankert sind.",
+    "epicTitle": "Die großen Epen der 95 Riesen",
+    "epicDesc": "Gehen Sie über bloße historische Fakten hinaus. Erleben Sie die großartige Saga von Giganten, die Widrigkeiten überwunden haben, um die Geschichte der Menschheit neu zu gestalten.",
+    "chatTitle": "Dialog über Epochen hinweg",
+    "chatDesc": "Nehmen Sie an Echtzeitgesprächen mit wiederhergestellten Signaturen von Giganten teil, die von fortschrittlicher KI (Gemini 2.5 Flash) angetrieben werden, um scharfe Erkenntnisse für Ihre modernen Dilemmata zu gewinnen.",
+    "testTitle": "Finden Sie Ihre historische Übereinstimmung",
+    "testDesc": "Entdecken Sie die DNA des Riesen, die tief in Ihrer Seele fließt, durch einen umfassenden, dreistufigen Situationsfragebogen, der an entscheidenden historischen Momenten spielt.",
+    "outroTitle": "Willkommen in der Halle der Riesen",
+    "outroDesc": "Auf ihren Schultern wirst du endlich weiter sehen. Beginnen Sie noch heute Ihre Reise."
   }
 }

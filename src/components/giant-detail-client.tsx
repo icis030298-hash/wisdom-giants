@@ -40,7 +40,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const [showMatchOverlay, setShowMatchOverlay] = useState(false)
   const router = useRouter()
   const locale = useLocale()
-  const activeLocale = (locale === 'ko' ? 'ko' : locale === 'de' ? 'de' : 'en') as 'ko' | 'en' | 'de';
+  const activeLocale = (locale === 'ko' ? 'ko' : locale === 'de' ? 'de' : locale === 'ja' ? 'ja' : 'en') as 'ko' | 'en' | 'de' | 'ja';
   const tt = useTranslations("Test")
   const searchParams = useSearchParams()
   const chatParam = searchParams.get('chat')
@@ -188,6 +188,8 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       ? `나와 닮은 역사 속 위인은 ${archetypeName}! 당신은 어떤 위인과 닮았나요?`
       : locale === 'de'
       ? `Mein historischer Zwilling ist '${archetypeName}'! Welchem historischen Riesen ähneln Sie?`
+      : locale === 'ja'
+      ? `私に最も似ている歴史上の偉人は「${archetypeName}」です！あなたはどの偉人に似ていますか？`
       : `My historical match is ${archetypeName}! Which historical giant do you resemble?`
     const shareUrl = `${window.location.origin}/${locale}/test`
     

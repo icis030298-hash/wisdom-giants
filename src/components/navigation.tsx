@@ -36,6 +36,7 @@ export function Navigation() {
     { code: 'ko', label: '한국어' },
     { code: 'en', label: 'English' },
     { code: 'de', label: 'Deutsch' },
+    { code: 'ja', label: '🇯🇵 JA' },
   ]
   
   useEffect(() => {
