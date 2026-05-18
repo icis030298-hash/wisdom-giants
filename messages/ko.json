@@ -108,8 +108,13 @@
     "resultsCount": "총 {total}명 중 {filtered}명의 거인을 찾았습니다",
     "readEpic": "대서사시 읽기 ✨",
     "noResults": "검색 결과가 없습니다",
-    "noResultsDesc": "검색어나 필터를 변경해 보세요.",
-    "era": "역사의 거인"
+    "era": "역사의 거인",
+    "pagination": {
+      "first": "처음",
+      "prev": "이전",
+      "next": "다음",
+      "last": "마지막"
+    }
   },
   "GiantDetail": {
     "returnToSquare": "거인들의 광장으로",

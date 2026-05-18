@@ -108,8 +108,13 @@
     "resultsCount": "{filtered} von {total} großen Denkern gefunden",
     "readEpic": "Biografie lesen ✨",
     "noResults": "Keine Ergebnisse gefunden",
-    "noResultsDesc": "Versuche deinen Suchbegriff oder Filter zu ändern.",
-    "era": "Historische Persönlichkeit"
+    "era": "Historische Persönlichkeit",
+    "pagination": {
+      "first": "Erste",
+      "prev": "Zurück",
+      "next": "Weiter",
+      "last": "Letzte"
+    }
   },
   "GiantDetail": {
     "returnToSquare": "Zurück zum Platz",

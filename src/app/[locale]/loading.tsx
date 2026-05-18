@@ -1,4 +1,19 @@
+"use client"
+
+import { useParams } from 'next/navigation'
+
 export default function Loading() {
+  const params = useParams()
+  const locale = params?.locale as string || 'en'
+
+  let loadingText = 'Summoning Timeless Wisdom...'
+  if (locale === 'ja') {
+    loadingText = '時を超えた知恵を呼び覚ます...'
+  } else if (locale === 'ko') {
+    loadingText = '시대를 초월한 지혜를 불러오는 중...'
+  } else if (locale === 'de') {
+    loadingText = 'Zeitlose Weisheit beschwören...'
+  }
   return (
     <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background">
       <div className="relative w-24 h-24 mb-8">
@@ -28,7 +43,7 @@ export default function Loading() {
           Giants Wisdom
         </h2>
         <p className="text-muted-foreground text-sm tracking-widest uppercase animate-pulse delay-75">
-          Summoning Timeless Wisdom...
+          {loadingText}
         </p>
       </div>
       

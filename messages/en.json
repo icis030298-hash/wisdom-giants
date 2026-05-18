@@ -108,8 +108,13 @@
     "resultsCount": "Found {filtered} out of {total} great minds",
     "readEpic": "Read Epic ✨",
     "noResults": "No results found",
-    "noResultsDesc": "Try changing your search term or filter.",
-    "era": "Historical Giant"
+    "era": "Historical Giant",
+    "pagination": {
+      "first": "First",
+      "prev": "Prev",
+      "next": "Next",
+      "last": "Last"
+    }
   },
   "GiantDetail": {
     "returnToSquare": "Return to the Square",

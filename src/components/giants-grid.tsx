@@ -226,14 +226,14 @@ export function GiantsGrid({}: GiantsGridProps) {
               disabled={currentPage === 1}
               className="px-3 py-2 rounded-lg glass border border-white/5 text-xs font-medium disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/10 transition-all"
             >
-              First
+              {t("pagination.first")}
             </button>
             <button
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
               className="px-3 py-2 rounded-lg glass border border-white/5 text-xs font-medium disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/10 transition-all"
             >
-              Prev
+              {t("pagination.prev")}
             </button>
             
             <div className="flex items-center gap-1 mx-2">
@@ -272,14 +272,14 @@ export function GiantsGrid({}: GiantsGridProps) {
               disabled={currentPage === totalPages}
               className="px-3 py-2 rounded-lg glass border border-white/5 text-xs font-medium disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/10 transition-all"
             >
-              Next
+              {t("pagination.next")}
             </button>
             <button
               onClick={() => handlePageChange(totalPages)}
               disabled={currentPage === totalPages}
               className="px-3 py-2 rounded-lg glass border border-white/5 text-xs font-medium disabled:opacity-30 disabled:cursor-not-allowed hover:bg-white/10 transition-all"
             >
-              Last
+              {t("pagination.last")}
             </button>
           </div>
         )}
