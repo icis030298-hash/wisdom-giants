@@ -417,7 +417,15 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               className="flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] transition-all transform hover:-translate-y-1"
             >
               <MessageCircle className="w-6 h-6" />
-              <span>{t.chatWith.replace("{name}", (tg.name || "").split(" ")[0])}</span>
+              <span>
+                {locale === 'ko' ? (() => {
+                  const name = (tg.name || "").split(" ")[0];
+                  const lastChar = name.charCodeAt(name.length - 1);
+                  const hasBatchim = lastChar >= 0xAC00 && lastChar <= 0xD7A3 && (lastChar - 0xAC00) % 28 > 0;
+                  const particle = hasBatchim ? '과' : '와';
+                  return `${name}${particle} 대화하기`;
+                })() : t.chatWith.replace("{name}", (tg.name || "").split(" ")[0])}
+              </span>
               <Sparkles className="w-4 h-4 opacity-70" />
             </button>
           </div>
