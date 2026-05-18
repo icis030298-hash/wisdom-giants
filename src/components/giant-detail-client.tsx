@@ -169,20 +169,25 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     }
   }
 
-  const shareToKakao = () => {
+  const shareToKakao = async () => {
     if (typeof window === 'undefined') return
+
+    // Wait up to 3 seconds for Kakao to load
+    let attempts = 0
+    while (typeof (window as any).Kakao === 'undefined' && attempts < 30) {
+      await new Promise(resolve => setTimeout(resolve, 100))
+      attempts++
+    }
 
     const Kakao = (window as any).Kakao
 
-    // 1. Check if Kakao script actually loaded into the window
-    if (!Kakao) {
-      alert(locale === 'ko' 
-        ? "카카오톡 공유 기능을 불러오는 중입니다. 1~2초 후 다시 시도해주세요!" 
-        : "Loading KakaoTalk Share... Please retry in 1-2 seconds!")
+    if (typeof Kakao === 'undefined') {
+      alert(locale === 'ko'
+        ? '카카오 공유를 불러올 수 없습니다. 페이지를 새로고침해주세요.'
+        : 'Cannot load Kakao Share. Please refresh the page.')
       return
     }
 
-    // 2. Dual check initialization guard
     if (!Kakao.isInitialized()) {
       try {
         Kakao.init('b175da0c630ebd18d18862f12fc1cb09')
@@ -191,32 +196,30 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       }
     }
 
-    const archetypeName = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name
-    const shareText = locale === 'ko'
-      ? `나의 유산 DNA는 ${archetypeName} 유형! 당신은 어떤 위인과 닮았나요?`
-      : `My Heritage DNA is ${archetypeName}! Which historical giant do you resemble?`
-    const shareUrl = `${window.location.origin}/${locale}/test`
-    const ogImage = `https://giantswisdom.com/images/og-main.png`
+    const dnaType = dna ? (archetypes[dna]?.name[locale as 'ko' | 'en'] || tg.name) : tg.name
+    const giantName = tg.name
+    const giantSlug = giant.slug
+    const ext = giant.imageUrl.split('.').pop() || 'jpg'
+    const imageUrl = `https://www.giantswisdom.com/images/giants/${giantSlug}.${ext}`
 
-    // 3. Execute with safe fallback
     try {
       Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
-          title: '나의 유산 페르소나 | Giants Wisdom',
-          description: shareText,
-          imageUrl: ogImage,
+          title: locale === 'ko' ? `나의 유산 DNA: ${dnaType}` : `My Heritage DNA: ${dnaType}`,
+          description: locale === 'ko' ? `${giantName} 유형 - Giants Wisdom` : `${giantName} Type - Giants Wisdom`,
+          imageUrl: imageUrl,
           link: {
-            mobileWebUrl: shareUrl,
-            webUrl: shareUrl,
+            mobileWebUrl: window.location.href,
+            webUrl: window.location.href,
           },
         },
         buttons: [
           {
-            title: locale === 'ko' ? '테스트 하러 가기' : 'Start Test',
+            title: locale === 'ko' ? '나도 테스트하기' : 'Try Test Too',
             link: {
-              mobileWebUrl: shareUrl,
-              webUrl: shareUrl,
+              mobileWebUrl: `https://www.giantswisdom.com/${locale}/test`,
+              webUrl: `https://www.giantswisdom.com/${locale}/test`,
             },
           },
         ],
@@ -224,10 +227,16 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     } catch (error) {
       console.error("Kakao Share execution error:", error)
       try {
-        navigator.clipboard.writeText(`${shareText} 👉 ${shareUrl}`)
+        const shareText = locale === 'ko'
+          ? `나의 유산 DNA는 ${dnaType} 유형! 당신은 어떤 위인과 닮았나요?`
+          : `My Heritage DNA is ${dnaType}! Which historical giant do you resemble?`
+        navigator.clipboard.writeText(`${shareText} 👉 ${window.location.href}`)
       } catch {
+        const shareText = locale === 'ko'
+          ? `나의 유산 DNA는 ${dnaType} 유형! 당신은 어떤 위인과 닮았나요?`
+          : `My Heritage DNA is ${dnaType}! Which historical giant do you resemble?`
         const ta = document.createElement('textarea')
-        ta.value = `${shareText} 👉 ${shareUrl}`
+        ta.value = `${shareText} 👉 ${window.location.href}`
         document.body.appendChild(ta)
         ta.select()
         document.execCommand('copy')
