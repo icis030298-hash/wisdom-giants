@@ -24,7 +24,7 @@ export function Navigation() {
   
   const navLinks = [
     { label: t("hallOfGems"), href: "/#giants", icon: Users },
-    { label: t("wisdomArchive"), href: "/#library", icon: BookOpen },
+    { label: t("wisdomArchive"), href: "/", icon: BookOpen },
     { 
       label: t("chatList"), 
       href: "/chats", 
