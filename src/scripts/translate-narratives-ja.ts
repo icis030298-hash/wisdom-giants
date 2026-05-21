@@ -76,7 +76,8 @@ ${JSON.stringify(batch, null, 2)}`;
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: { 
         responseMimeType: "application/json",
-        temperature: 0.1
+        temperature: 0.1,
+        maxOutputTokens: 8192
       }
     });
 
@@ -157,7 +158,7 @@ async function run() {
     process.exit(0);
   }
 
-  const batchSize = 3; 
+  const batchSize = 1; 
   for (let i = 0; i < giantsToTranslate.length; i += batchSize) {
     const batchSlugs = giantsToTranslate.slice(i, i + batchSize);
     console.log(`[Batch ${Math.floor(i / batchSize) + 1}/${Math.ceil(giantsToTranslate.length / batchSize)}] Translating ${batchSlugs.length} giants...`);
