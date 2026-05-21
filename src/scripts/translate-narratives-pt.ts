@@ -54,6 +54,7 @@ IMPORTANT POLICING RULES:
 2. Keep the narrative tone monumental, inspiring, and appropriate for legendary figures (e.g. "Em 1769, na ilha rochosa da Córsega, nasceu um menino num mundo que em breve tremeria ao ouvir seu nome...").
 3. Make sure the translated biographies flow naturally and read like a high-quality historical chronicle.
 4. Keep core quotes historically recognized in Portuguese if applicable (e.g., Julius Caesar: "A sorte está lançada", Napoleon: "A palavra impossível não está no meu dicionário").
+5. IMPORTANT: Keep the translation dense, beautifully concise, and compact. Avoid overly wordy or bloated sentences to prevent API truncation (Max Output Token Limit). Ensure the entire story is fully conveyed but tightly packed.
 
 Do NOT include the original _en or _ko or _es fields in your output. Return ONLY the newly translated _pt fields for each giant, matching this structure exactly:
 {

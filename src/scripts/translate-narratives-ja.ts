@@ -53,6 +53,7 @@ IMPORTANT POLICING RULES:
 1. Use an elegant, formal, polite, yet narrative literary Japanese style (文語的・文芸的表現).
 2. Keep the narrative tone monumental, inspiring, and appropriate for historical figures (e.g. "1769年、地中海の荒々しい島コルシカで、やがて世界を震撼させる少年が生まれた...").
 3. Keep core quotes historically recognized in Japanese if applicable (e.g., Julius Caesar: "賽は投げられた").
+4. IMPORTANT: Keep the translation dense, beautifully concise, and compact. Avoid overly wordy or bloated sentences to prevent API truncation (Max Output Token Limit). Ensure the entire story is fully conveyed but tightly packed.
 
 Do NOT include the original _en or _ko or _es fields in your output. Return ONLY the newly translated _ja fields for each giant, matching this structure exactly:
 {
