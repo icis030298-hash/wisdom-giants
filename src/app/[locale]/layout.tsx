@@ -99,6 +99,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description,
     },
 
+    verification: {
+      other: {
+        'naver-site-verification': '967c249957c0ad91791c0e80631c8bc40ced1ed7',
+      }
+    },
     other: {
       "google-adsense-account": "ca-pub-2081809442345110",
     },
