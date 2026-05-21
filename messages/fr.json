@@ -1,0 +1,1586 @@
+{
+  "Navigation": {
+    "hallOfGems": "Panthéon des Esprits",
+    "wisdomArchive": "Accueil",
+    "chatList": "Mes Conversations",
+    "about": "À Propos",
+    "startExploring": "Commencer à Explorer",
+    "title": "Giants Wisdom",
+    "subtitle": "Le Panthéon des Grands Esprits",
+    "login": "Se connecter",
+    "logout": "Se déconnecter",
+    "myProfile": "Mon Profil",
+    "signInRequired": "Connexion requise pour consulter l'historique des discussions."
+  },
+  "Auth": {
+    "loginModalTitle": "Bienvenue au Panthéon des Géants",
+    "loginModalDescription": "Préservez vos dialogues avec les géants et gérez l'héritage de sagesse gravé dans votre âme.",
+    "continueWithGoogle": "Continuer avec Google",
+    "loginSuccess": "Bienvenue au Panthéon des Grands Esprits.",
+    "logout": "Se déconnecter",
+    "chatList": "Mes Conversations",
+    "signInRequired": "Connexion Requise"
+  },
+  "Test": {
+    "title": "Découvrez le Grand Héritage qui Coule dans Votre Âme",
+    "subtitle": "Test d'Analyse du Tempérament Historique",
+    "start": "Commencer le Test",
+    "back": "Retour",
+    "banner": {
+      "new": "NOUVEAU CONTENU",
+      "title": "Quel géant historique\nvous ressemble le plus ?",
+      "desc": "Découvrez votre jumeau historique à travers 15 questions.",
+      "button": "Commencer le Test"
+    },
+    "stages": {
+      "stage1": "Étape 1 : L'Éveil",
+      "stage2": "Étape 2 : L'Épreuve",
+      "stage3": "Étape 3 : Le Destin",
+      "cleared": "Étape {stage} Terminée !",
+      "ready": "Prêt à passer à l'étape suivante ?",
+      "next": "Continuer vers l'Étape Suivante"
+    },
+    "analysis": {
+      "loading": "Analyse des échos de votre âme...",
+      "sub": "Recherche de vos piliers dans le grand flux de l'Histoire."
+    },
+    "result": {
+      "matchFound": "Vous avez rencontré votre destin historique",
+      "archetype": "Votre Tempérament d'Héritage",
+      "matchedGiant": "Le géant qui vous ressemble le plus",
+      "readEpic": "Lire l'Épopée",
+      "chatNow": "Discuter Maintenant"
+    }
+  },
+  "Chats": {
+    "title": "Mes Conversations",
+    "subtitle": "Dialogues avec de Grands Esprits",
+    "description": "Revisitez les réflexions profondes et les conseils des plus grands géants de l'Histoire. Vous pouvez reprendre n'importe quelle conversation à tout moment.",
+    "emptyTitle": "Aucune conversation pour le moment",
+    "emptyDescription": "Les géants sont prêts à écouter vos préoccupations. Commencez votre premier dialogue dès maintenant !",
+    "startFirstChat": "Commencer la Première Discussion",
+    "messages": "messages",
+    "lastChat": "Dernière discussion"
+  },
+  "Hero": {
+    "badge": "Le Panthéon des Grands Esprits",
+    "quote": "Si j'ai vu plus loin, c'est en me tenant sur les épaules de géants.",
+    "quoteAuthor": "Isaac Newton",
+    "startJourney": "Commencer le Voyage",
+    "startTest": "🧬 Trouver Votre Jumeau Historique",
+    "exploreHall": "🏛️ Explorer le Panthéon",
+    "stats": {
+      "minds": "Grands Esprits",
+      "questions": "Questions du Test",
+      "free": "Entièrement Gratuit",
+      "freeValue": "Gratuit"
+    },
+    "guide": {
+      "title": "Guide de Voyage du Panthéon de la Sagesse",
+      "selectGiant": "Sélectionner un Géant",
+      "selectGiantDesc": "Trouvez des figures inspirantes parmi plus de 95 légendes historiques.",
+      "epic": "Récits Épiques",
+      "epicDesc": "Lisez les récits de leur vie comme si les géants eux-mêmes vous les racontaient.",
+      "chat": "Discussion en Temps Réel",
+      "chatDesc": "Partagez vos préoccupations avec des géants ressuscités grâce aux dernières technologies d'IA.",
+      "startNow": "Commencer Maintenant"
+    }
+  },
+  "Featured": {
+    "title": "Le Panthéon des Grands Géants",
+    "description": "Explorez la sagesse des figures qui ont changé l'Histoire. Sélectionnez un personnage pour entamer une conversation transcendant le temps et l'espace.",
+    "viewAll": "Voir Tous les Géants",
+    "bestPick": "Meilleur Choix",
+    "todaysPick": "Le Choix du Jour",
+    "chatNow": "Discuter Maintenant"
+  },
+  "GiantsGrid": {
+    "title": "Géants Historiques",
+    "description": "Explorez la sagesse des figures qui ont changé le cours de l'humanité. Sélectionnez un géant pour entamer une conversation transcendant le temps et l'espace.",
+    "searchPlaceholder": "Rechercher par nom ou domaine...",
+    "allGiants": "Tous les Géants",
+    "categories": {
+      "achievement": "Accomplissement",
+      "adversity": "Adversité",
+      "wisdom": "Sagesse",
+      "creativity": "Créativité"
+    },
+    "resultsCount": "{filtered} grands esprits trouvés sur {total}",
+    "readEpic": "Lire l'Épopée ✨",
+    "noResults": "Aucun résultat trouvé",
+    "era": "Géant Historique",
+    "pagination": {
+      "first": "Premier",
+      "prev": "Précédent",
+      "next": "Suivant",
+      "last": "Dernier"
+    }
+  },
+  "GiantDetail": {
+    "returnToSquare": "Retourner à la Place",
+    "chatWith": "Discuter avec {name}",
+    "theLifeStory": "L'Histoire de sa Vie",
+    "thePain": "La Lutte",
+    "theRecovery": "La Résilience",
+    "wisdomLessons": "Leçons de Sagesse",
+    "famousQuote": "Citation Célèbre",
+    "era": "Époque",
+    "field": "Domaine",
+    "askForAdvice": "Demander Conseil",
+    "notFound": "Géant non trouvé.",
+    "goHome": "Retour à l'Accueil"
+  },
+  "Giants": {
+    "steve-jobs": {
+      "name": "Steve Jobs",
+      "headline": "L'architecte visionnaire qui a uni la technologie à l'âme humaine.",
+      "shortDescription": "Le voyage épique de Steve Jobs et sa sagesse intemporelle.",
+      "quote": "Soyez affamés, soyez fous.",
+      "era": "20ème Siècle",
+      "chatGreeting": "Salutations, je suis Steve Jobs. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Steve Jobs.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "king-sejong": {
+      "name": "Le Roi Sejong le Grand",
+      "headline": "Le monarque sage qui a créé le Hangeul pour offrir une voix à son peuple et a illuminé une nation.",
+      "shortDescription": "La vie profonde et la sagesse du Roi Sejong.",
+      "quote": "Si le peuple me critique, c'est parce que je ne l'ai pas assez aimé.",
+      "era": "Géant du 15ème Siècle",
+      "chatGreeting": "Salutations, je suis le Roi Sejong le Grand. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Roi Sejong le Grand.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "elon-musk": {
+      "name": "Elon Musk",
+      "headline": "L'entrepreneur visionnaire qui vise à faire de l'humanité une espèce multi-planétaire.",
+      "shortDescription": "Le voyage épique d'Elon Musk et sa sagesse futuriste.",
+      "quote": "L'échec est une option ici. Si les choses ne échouent pas, c'est que vous n'innovez pas assez.",
+      "era": "Géant du 21ème Siècle",
+      "pain": "Trois explosions consécutives de fusées et un effondrement financier au bord de la faillite.",
+      "recovery": "Un pari final avec toute sa fortune et le dépassement de la crise grâce à la pensée par principes fondamentaux.",
+      "chatGreeting": "Salutations, je suis Elon Musk. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Elon Musk.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "genghis-khan": {
+      "name": "Gengis Khan",
+      "headline": "Le conquérant qui s'est élevé des steppes désolées pour bâtir le plus grand empire de l'histoire.",
+      "shortDescription": "La saga légendaire de Temüjin et sa volonté de fer.",
+      "quote": "Quand j'ai vaincu la peur en moi, je suis devenu un véritable conquérant.",
+      "era": "Géant du 13ème Siècle",
+      "chatGreeting": "Salutations, je suis Gengis Khan. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Gengis Khan.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "alexander-the-great": {
+      "name": "Alexandre le Grand",
+      "headline": "Le jeune roi qui s'est aventuré aux confins du monde connu pour unir les civilisations.",
+      "shortDescription": "La glorieuse campagne d'Alexandre et son héritage éternel.",
+      "quote": "Rien n'est impossible à celui qui essaie.",
+      "era": "Géant du 4ème Siècle avant J.-C.",
+      "chatGreeting": "Salutations, je suis Alexandre le Grand. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Alexandre le Grand.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "walt-disney": {
+      "name": "Walt Disney",
+      "headline": "Le pionnier de l'imagination qui a transformé les rêves en réalité et enchanté le monde.",
+      "shortDescription": "Le voyage magique de Walt Disney et son âme créative.",
+      "quote": "Si vous pouvez le rêver, vous pouvez le faire.",
+      "era": "Géant du 20ème siècle",
+      "chatGreeting": "Salutations, je suis Walt Disney. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Walt Disney.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "thomas-edison": {
+      "name": "Thomas Edison",
+      "headline": "Le sorcier de Menlo Park qui a illuminé les ténèbres par une innovation incessante.",
+      "shortDescription": "La vie laborieuse de Thomas Edison et ses inventions.",
+      "quote": "Le génie est 1% d'inspiration et 99% de transpiration.",
+      "era": "Géant du 19ème siècle",
+      "chatGreeting": "Salutations, je suis Thomas Edison. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Thomas Edison.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "julius-caesar": {
+      "name": "Jules César",
+      "headline": "L'homme d'État romain qui a franchi le Rubicon pour forger un héritage qui a survécu à un empire.",
+      "shortDescription": "La saga politique et militaire de Jules César.",
+      "quote": "Le sort en est jeté.",
+      "era": "Géant du 1er siècle av. J.-C.",
+      "chatGreeting": "Salutations, je suis Jules César. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Jules César.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "henry-ford": {
+      "name": "Henry Ford",
+      "headline": "Le visionnaire industriel qui a révolutionné le transport et le monde du travail moderne.",
+      "shortDescription": "L'histoire de Henry Ford et la naissance de la production de masse.",
+      "quote": "Que vous pensiez pouvoir ou que vous pensiez ne pas pouvoir, vous avez raison.",
+      "era": "Géant du 20ème siècle",
+      "chatGreeting": "Salutations, je suis Henry Ford. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Henry Ford.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "frida-kahlo": {
+      "name": "Frida Kahlo",
+      "headline": "L'artiste résiliente qui a transformé la douleur physique et émotionnelle en chefs-d'œuvre immortels.",
+      "shortDescription": "La vie féroce de Frida Kahlo et son âme artistique.",
+      "quote": "Des pieds, pourquoi en voudrais-je si j'ai des ailes pour voler ?",
+      "era": "Géant du 20ème siècle",
+      "chatGreeting": "Salutations, je suis Frida Kahlo. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Frida Kahlo.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "viktor-frankl": {
+      "name": "Viktor Frankl",
+      "headline": "Le psychiatre qui a trouvé le sens de la vie dans les profondeurs de la souffrance et a guéri l'humanité.",
+      "shortDescription": "Le voyage spirituel de Viktor Frankl et la logothérapie.",
+      "quote": "Celui qui a un pourquoi pour vivre peut supporter presque n'importe quel comment.",
+      "era": "Géant du XXe siècle",
+      "chatGreeting": "Salutations, je suis Viktor Frankl. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Viktor Frankl.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "oprah-winfrey": {
+      "name": "Oprah Winfrey",
+      "headline": "La reine des médias qui a transformé son traumatisme en un pont d'empathie pour le monde.",
+      "shortDescription": "L'histoire inspirante du succès d'Oprah Winfrey.",
+      "quote": "Transformez vos blessures en sagesse.",
+      "era": "Géant moderne",
+      "chatGreeting": "Salutations, je suis Oprah Winfrey. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Oprah Winfrey.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "jk-rowling": {
+      "name": "J.K. Rowling",
+      "headline": "L'auteur qui s'est élevée du fond de l'échec pour créer un monde magique pour des millions de personnes.",
+      "shortDescription": "La vie magique de J.K. Rowling et le garçon qui a survécu.",
+      "quote": "Le fond est devenu le socle solide sur lequel j'ai reconstruit ma vie.",
+      "era": "Géant moderne",
+      "chatGreeting": "Salutations, je suis J.K. Rowling. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, J.K. Rowling.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "nelson-mandela": {
+      "name": "Nelson Mandela",
+      "headline": "Le leader qui a passé 27 ans en prison pour libérer une nation et la guérir par le pardon.",
+      "shortDescription": "La longue marche vers la liberté de Nelson Mandela.",
+      "quote": "Le pardon est une arme puissante.",
+      "era": "Géant du XXe siècle",
+      "chatGreeting": "Salutations, je suis Nelson Mandela. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Nelson Mandela.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "helen-keller": {
+      "name": "Helen Keller",
+      "headline": "L'érudite qui a triomphé du silence et de l'obscurité pour devenir un phare de la volonté humaine.",
+      "shortDescription": "L'incroyable triomphe d'Helen Keller.",
+      "quote": "Les choses les plus belles et les plus belles du monde ne peuvent être vues ni même touchées. Elles ne peuvent être ressenties qu'avec le cœur.",
+      "era": "Géant du XIXe-XXe siècle",
+      "chatGreeting": "Salutations, je suis Helen Keller. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Helen Keller.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "beethoven": {
+      "name": "Ludwig van Beethoven",
+      "headline": "Le compositeur qui a vaincu le silence pour créer les harmonies les plus divines de l'histoire.",
+      "shortDescription": "La lutte passionnée de Beethoven et sa musique.",
+      "quote": "Par la souffrance à la joie !",
+      "era": "Géant des 18ème-19ème siècles",
+      "chatGreeting": "Salutations, je suis Ludwig van Beethoven. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Ludwig van Beethoven.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "stephen-hawking": {
+      "name": "Stephen Hawking",
+      "headline": "Le physicien dont l'esprit a parcouru l'univers tandis que son corps était confiné à une chaise.",
+      "shortDescription": "Le voyage céleste de Stephen Hawking.",
+      "quote": "Regardez les étoiles et non vos pieds.",
+      "era": "Géant moderne",
+      "chatGreeting": "Salutations, je suis Stephen Hawking. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Stephen Hawking.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "franklin-d-roosevelt": {
+      "name": "Franklin D. Roosevelt",
+      "headline": "Le président qui a mené une nation à travers la Grande Dépression et la Seconde Guerre mondiale depuis un fauteuil roulant.",
+      "shortDescription": "Le leadership résilient de FDR.",
+      "quote": "La seule chose que nous ayons à craindre est la peur elle-même.",
+      "era": "Géant du 20ème siècle",
+      "chatGreeting": "Salutations, je suis Franklin D. Roosevelt. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Franklin D. Roosevelt.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "marcus-aurelius": {
+      "name": "Marcus Aurelius",
+      "headline": "Le roi-philosophe qui a maintenu la tranquillité de son âme au milieu des tempêtes de l'empire.",
+      "shortDescription": "La sagesse stoïque de Marcus Aurèle.",
+      "quote": "Votre vie est ce que vos pensées en font.",
+      "era": "Géant du 2ème siècle",
+      "chatGreeting": "Salutations, je suis Marcus Aurèle. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Marcus Aurèle.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "seneca": {
+      "name": "Sénèque",
+      "headline": "Le philosophe stoïcien dont les lettres sur la vie et la mort ont guidé l'humanité pendant des millénaires.",
+      "shortDescription": "Les lettres intemporelles de Sénèque.",
+      "quote": "Ce n'est pas que nous ayons peu de temps à vivre, mais que nous en perdons beaucoup.",
+      "era": "Géant du 1er siècle",
+      "chatGreeting": "Salutations, je suis Sénèque. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Sénèque.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "confucius": {
+      "name": "Confucius",
+      "headline": "Le philosophe qui a établi les fondations de l'éthique orientale et de l'harmonie humaine.",
+      "shortDescription": "La sagesse intemporelle de Confucius.",
+      "quote": "Peu importe la lenteur à laquelle vous avancez, tant que vous ne vous arrêtez pas.",
+      "era": "Géant du 6ème siècle avant J.-C.",
+      "chatGreeting": "Salutations, je suis Confucius. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réalisation, Confucius.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "socrates": {
+      "name": "Socrate",
+      "headline": "Le père de la philosophie occidentale qui a enseigné à l'humanité l'art du questionnement et de la conscience de soi.",
+      "shortDescription": "La méthode socratique et la recherche de la vérité.",
+      "quote": "Une vie sans examen ne vaut pas la peine d'être vécue.",
+      "era": "Géant du 5ème siècle avant J.-C.",
+      "chatGreeting": "Salutations, je suis Socrate. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réalisation, Socrate.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "lao-tzu": {
+      "name": "Lao Tseu",
+      "headline": "Le sage du taoïsme qui a enseigné le pouvoir profond du renoncement et l'ordre naturel de l'univers.",
+      "shortDescription": "Le Tao Te Ching et la sagesse de la non-action.",
+      "quote": "Le voyage de mille lieues commence par un seul pas.",
+      "era": "Géant du 6ème siècle avant J.-C.",
+      "chatGreeting": "Salutations, je suis Lao Tseu. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réalisation, Lao Tseu.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "aristotle": {
+      "name": "Aristote",
+      "headline": "Le polymathe qui a catégorisé la connaissance humaine et défini la vertu de la juste mesure.",
+      "shortDescription": "L'esprit analytique d'Aristote.",
+      "quote": "Nous sommes ce que nous faisons de manière répétée. L'excellence n'est donc pas un acte, mais une habitude.",
+      "era": "Géant du 4ème siècle avant J.-C.",
+      "chatGreeting": "Salutations, je suis Aristote. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réalisation, Aristote.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "plato": {
+      "name": "Platon",
+      "headline": "Le philosophe visionnaire qui a exploré le monde des idées et le plan d'un État idéal.",
+      "shortDescription": "La République et l'allégorie de la caverne.",
+      "quote": "Les sages parlent parce qu'ils ont quelque chose à dire ; les fous parce qu'ils doivent dire quelque chose.",
+      "era": "Géant du 4ème siècle avant J.-C.",
+      "chatGreeting": "Salutations, je suis Platon. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réalisation, Platon.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "mahatma-gandhi": {
+      "name": "Mahatma Gandhi",
+      "headline": "L'apôtre de la non-violence qui a libéré une nation par le pouvoir de la vérité et de la paix.",
+      "shortDescription": "Le mouvement satyagraha de Gandhi.",
+      "quote": "Soyez le changement que vous souhaitez voir dans le monde.",
+      "era": "Géant du XXe siècle",
+      "chatGreeting": "Salutations, je suis Mahatma Gandhi. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Mahatma Gandhi.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "mother-teresa": {
+      "name": "Mère Teresa",
+      "headline": "La sainte des bas-fonds qui a vu le visage du divin dans la souffrance des plus pauvres.",
+      "shortDescription": "Le service humble de Mère Teresa.",
+      "quote": "Nous ne pouvons pas tous faire de grandes choses. Mais nous pouvons faire de petites choses avec un grand amour.",
+      "era": "Géant du XXe siècle",
+      "chatGreeting": "Salutations, je suis Mère Teresa. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Mère Teresa.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "leonardo-da-vinci": {
+      "name": "Léonard de Vinci",
+      "headline": "Le génie universel qui a uni l'art et la science pour capturer la symétrie divine du monde.",
+      "shortDescription": "La curiosité sans bornes de Da Vinci.",
+      "quote": "La simplicité est l'ultime sophistication.",
+      "era": "Géant de la Renaissance",
+      "chatGreeting": "Salutations, je suis Léonard de Vinci. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Léonard de Vinci.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "salvador-dali": {
+      "name": "Salvador Dalí",
+      "headline": "Le maître surréaliste qui a peint les paysages du subconscient et défié la logique.",
+      "shortDescription": "Le monde excentrique de Salvador Dalí.",
+      "quote": "N'ayez jamais peur de la perfection : vous ne l'atteindrez jamais.",
+      "era": "Géant du XXe siècle",
+      "chatGreeting": "Salutations, je suis Salvador Dalí. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Salvador Dalí.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "coco-chanel": {
+      "name": "Coco Chanel",
+      "headline": "L'icône de la mode qui a libéré les femmes des corsets et redéfini l'élégance moderne.",
+      "shortDescription": "Le style révolutionnaire de Coco Chanel.",
+      "quote": "L'acte le plus courageux est encore de penser par soi-même. À voix haute.",
+      "era": "Géant du XXe siècle",
+      "chatGreeting": "Salutations, je suis Coco Chanel. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Coco Chanel.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "pablo-picasso": {
+      "name": "Pablo Picasso",
+      "headline": "Le titan de l'art moderne qui a démantelé le monde visible pour en révéler les vérités cachées.",
+      "shortDescription": "La vision transformatrice de Picasso.",
+      "quote": "Chaque enfant est un artiste. Le problème est de rester un artiste une fois devenu grand.",
+      "era": "Géant du XXe siècle",
+      "chatGreeting": "Salutations, je suis Pablo Picasso. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Pablo Picasso.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "mozart": {
+      "name": "Wolfgang Amadeus Mozart",
+      "headline": "Le prodige musical dont les compositions divines murmuraient l'éternel et le sublime.",
+      "shortDescription": "La tragique brillance de Mozart.",
+      "quote": "La musique n'est pas dans les notes, mais dans le silence entre elles.",
+      "era": "Géant du XVIIIe siècle",
+      "chatGreeting": "Salutations, je suis Wolfgang Amadeus Mozart. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Wolfgang Amadeus Mozart.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "william-shakespeare": {
+      "name": "William Shakespeare",
+      "headline": "Le barde d'Avon qui a cartographié l'âme humaine et la complexité de l'existence par le pouvoir du langage.",
+      "shortDescription": "La scène éternelle de Shakespeare.",
+      "quote": "Le monde entier est une scène, et tous les hommes et toutes les femmes n'en sont que des acteurs.",
+      "era": "Géant des XVIe-XVIIe siècles",
+      "chatGreeting": "Salutations, je suis William Shakespeare. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, William Shakespeare.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "marie-curie": {
+      "name": "Marie Curie",
+      "headline": "La pionnière de la radioactivité qui a brisé les barrières scientifiques et sacrifié sa vie pour la découverte.",
+      "shortDescription": "Le radiant sacrifice de Marie Curie.",
+      "quote": "Rien dans la vie ne doit être craint, seulement compris.",
+      "era": "Géant des XIXe-XXe siècles",
+      "chatGreeting": "Salutations, je suis Marie Curie. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Marie Curie.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "nikola-tesla": {
+      "name": "Nikola Tesla",
+      "headline": "L'ingénieur visionnaire qui a rêvé d'un monde sans fil et a illuminé l'ère moderne.",
+      "shortDescription": "Les courants alternatifs de l'esprit de Tesla.",
+      "quote": "Le présent leur appartient ; l'avenir, pour lequel j'ai vraiment travaillé, est à moi.",
+      "era": "Géant des XIXe-XXe siècles",
+      "chatGreeting": "Salutations, je suis Nikola Tesla. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Nikola Tesla.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "vincent-van-gogh": {
+      "name": "Vincent van Gogh",
+      "headline": "Le peintre post-impressionniste qui a capturé les couleurs tourbillonnantes de l'âme au milieu de la pauvreté et de la folie.",
+      "shortDescription": "Les nuits étoilées et les tempêtes intérieures de Van Gogh.",
+      "quote": "Je préférerais mourir de passion que d'ennui.",
+      "era": "Géant du XIXe siècle",
+      "chatGreeting": "Salutations, je suis Vincent van Gogh. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Vincent van Gogh.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "george-washington": {
+      "name": "George Washington",
+      "headline": "Le père fondateur qui a mené une révolution et défini le caractère d'une nouvelle république.",
+      "shortDescription": "Le service révolutionnaire de Washington.",
+      "quote": "Travaillez à garder vivant dans votre poitrine cette petite étincelle de feu céleste appelée conscience.",
+      "era": "Géant du XVIIIe siècle",
+      "chatGreeting": "Salutations, je suis George Washington. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, George Washington.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "yi-sun-shin": {
+      "name": "Yi Sun-sin",
+      "headline": "Le légendaire amiral qui a sauvé sa nation du bord de l'effondrement avec 12 navires et une loyauté absolue.",
+      "shortDescription": "L'éclat naval et le sacrifice de l'Amiral Yi.",
+      "quote": "Ceux qui cherchent la mort vivront; ceux qui cherchent la vie mourront.",
+      "era": "Géant du XVIe siècle",
+      "chatGreeting": "Salutations, je suis Yi Sun-sin. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Yi Sun-sin.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "elizabeth-i": {
+      "name": "Élisabeth Ire",
+      "headline": "La Reine Vierge qui a navigué dans une mer d'ennemis pour forger l'Âge d'Or de l'Angleterre.",
+      "shortDescription": "La volonté souveraine d'Élisabeth Ire.",
+      "quote": "J'ai le cœur et le courage d'un roi, et d'un roi d'Angleterre aussi.",
+      "era": "Géant du XVIe siècle",
+      "chatGreeting": "Salutations, je suis Élisabeth Ire. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Élisabeth Ire.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "gwanggaeto-the-great": {
+      "name": "Gwanggaeto le Grand",
+      "headline": "Le roi conquérant qui a étendu le Goguryeo en un empire immense et restauré la fierté nationale.",
+      "shortDescription": "L'expansion territoriale et l'héritage de Gwanggaeto.",
+      "quote": "L'esprit d'un grand empire vit dans l'immensité de sa vision.",
+      "era": "Géant des IVe-Ve siècles",
+      "chatGreeting": "Salutations, je suis Gwanggaeto le Grand. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Gwanggaeto le Grand.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "qin-shi-huang": {
+      "name": "Qin Shi Huang",
+      "headline": "Le premier empereur qui unifia les États en guerre et posa les fondations d'une Chine unifiée.",
+      "shortDescription": "Le pouvoir absolu et l'ordre de Qin Shi Huang.",
+      "quote": "J'ai unifié le monde et établi un ordre qui durera dix mille générations.",
+      "era": "Géant du IIIe siècle avant J.-C.",
+      "chatGreeting": "Salutations, je suis Qin Shi Huang. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Qin Shi Huang.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "augustus": {
+      "name": "Auguste",
+      "headline": "L'architecte de la Pax Romana qui transforma une ville de briques en une ville de marbre.",
+      "shortDescription": "Le génie politique d'Auguste.",
+      "quote": "J'ai trouvé une Rome de briques et je vous laisse une Rome de marbre.",
+      "era": "Géant du Ier siècle avant J.-C. - Ier siècle après J.-C.",
+      "chatGreeting": "Salutations, je suis Auguste. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Auguste.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "otto-von-bismarck": {
+      "name": "Otto von Bismarck",
+      "headline": "Le Chancelier de Fer qui unifia l'Allemagne par le sang, le fer et une diplomatie de maître.",
+      "shortDescription": "La realpolitik de Bismarck.",
+      "quote": "Les grandes questions de notre temps ne seront pas réglées par des discours et des votes majoritaires... mais par le fer et le sang.",
+      "era": "Géant du XIXe siècle",
+      "chatGreeting": "Salutations, je suis Otto von Bismarck. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Otto von Bismarck.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "peter-the-great": {
+      "name": "Pierre le Grand",
+      "headline": "Le tsar réformateur qui entraîna la Russie dans l'ère moderne en se tournant vers l'Occident.",
+      "shortDescription": "La transformation de la Russie sous Pierre.",
+      "quote": "J'ai vu l'avenir, et il est entre les mains des instruits.",
+      "era": "Géant des XVIIe-XVIIIe siècles",
+      "chatGreeting": "Salutations, je suis Pierre le Grand. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Pierre le Grand.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "catherine-the-great": {
+      "name": "Catherine la Grande",
+      "headline": "En 1729, dans une petite principauté prussienne, Sophie d'Anhalt-Zerbst – la future Catherine la Grande – naissait dans une famille de petite noblesse et d'insignifiance monumentale.",
+      "shortDescription": "Le voyage épique et la sagesse de Catherine la Grande.",
+      "quote": "J'apprends, je réfléchis, je travaille, et je ne m'arrête jamais. L'intelligence est votre arme la plus puissante ; gardez-la affûtée par un usage constant.",
+      "era": "Géante du XVIIIe siècle (1729~1796)",
+      "chatGreeting": "Salutations, je suis Catherine la Grande. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Catherine la Grande.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "simon-bolivar": {
+      "name": "Simon Bolívar",
+      "headline": "Né en 1783 dans la ville coloniale de Caracas, Simón Bolívar est issu de l'une des familles les plus riches et les plus puissantes du Venezuela.",
+      "shortDescription": "Le voyage épique et la sagesse de Simon Bolívar.",
+      "quote": "L'art de la victoire s'apprend dans la défaite. Ne craignez pas la chute ; c'est le sol sur lequel votre force monumentale grandira. Relevez-vous.",
+      "era": "Géant du XVIIIe-XIXe siècle (1783~1830)",
+      "chatGreeting": "Salutations, je suis Simon Bolívar. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Simon Bolívar.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "margaret-thatcher": {
+      "name": "Margaret Thatcher",
+      "headline": "En 1925, au-dessus d'une épicerie dans la ville de Grantham, Margaret Roberts est née.",
+      "shortDescription": "Le voyage épique et la sagesse de Margaret Thatcher.",
+      "quote": "Surveillez vos pensées, car elles deviennent des mots. Surveillez vos mots, car ils deviennent des actions. Surveillez vos actions, car elles deviennent des habitudes. Surveillez vos habitudes, car elles deviennent votre caractère. Surveillez votre caractère, car il devient votre destin.",
+      "era": "Géante du XXe siècle (1925~2013)",
+      "chatGreeting": "Salutations, je suis Margaret Thatcher. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Margaret Thatcher.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "john-d-rockefeller": {
+      "name": "John D Rockefeller",
+      "headline": "En 1839, dans le paysage rural du nord de l'État de New York, John Davison Rockefeller est né dans un foyer de contradictions monumentales.",
+      "shortDescription": "Le voyage épique et la sagesse de John D Rockefeller.",
+      "quote": "Le secret du succès est de faire les choses ordinaires de manière extraordinaire. La maîtrise se trouve dans la perfection du banal. Ne négligez pas les petites étapes.",
+      "era": "Géant du XIXe-XXe siècle (1839~1937)",
+      "chatGreeting": "Salutations, je suis John D Rockefeller. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, John D Rockefeller.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "ataturk": {
+      "name": "Atatürk",
+      "headline": "En 1881, dans la ville portuaire ottomane de Thessalonique, Mustafa est né dans un monde de frontières crumbling et de déclin impérial.",
+      "shortDescription": "Le voyage épique et la sagesse d'Atatürk.",
+      "quote": "Le guide le plus sûr dans la vie est la science. La raison est la seule lumière monumentale qui puisse dissiper les ténèbres de l'ignorance. Cherchez la vérité dans les faits.",
+      "era": "Géant du XIXe-XXe siècle (1881~1938)",
+      "chatGreeting": "Salutations, je suis Atatürk. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Atatürk.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "theodore-roosevelt": {
+      "name": "Theodore Roosevelt",
+      "headline": "En 1858, dans l'élégance des hôtels particuliers de New York, Theodore Roosevelt est né dans une vie de privilèges monumentaux et de fragilité physique.",
+      "shortDescription": "Le voyage épique et la sagesse de Theodore Roosevelt.",
+      "quote": "Faites ce que vous pouvez, avec ce que vous avez, là où vous êtes. La perfection n'est pas une condition préalable à l'action. L'arène vous attend.",
+      "era": "Géant du XIXe-XXe siècle (1858~1919)",
+      "chatGreeting": "Salutations, je suis Theodore Roosevelt. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Theodore Roosevelt.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "anne-frank": {
+      "name": "Anne Frank",
+      "headline": "En 1929, dans la ville de Francfort, Anne Frank naquit au sein d'une famille juive, sous l'ombre grandissante du nazisme en Allemagne.",
+      "shortDescription": "Le voyage épique et la sagesse d'Anne Frank.",
+      "quote": "En dépit de tout, je crois encore que les gens sont fondamentalement bons. L'amour est un choix monumental ; la haine est une faiblesse facile. Tenez fermement à vos idéaux.",
+      "era": "Géante du XXe siècle (1929~1945)",
+      "chatGreeting": "Salutations, je suis Anne Frank. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Anne Frank.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "rosa-parks": {
+      "name": "Rosa Parks",
+      "headline": "En 1913, dans le paysage ségrégué de Tuskegee, en Alabama, Rosa McCauley naquit dans un monde conçu pour diminuer son humanité.",
+      "shortDescription": "Le voyage épique et la sagesse de Rosa Parks.",
+      "quote": "Savoir ce qui doit être fait dissipe la peur. Lorsque vous êtes certain de votre cause monumentale, le monde ne peut vous intimider. Tenez bon.",
+      "era": "Géante du XXe siècle (1913~2005)",
+      "chatGreeting": "Salutations, je suis Rosa Parks. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Rosa Parks.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "frederick-douglass": {
+      "name": "Frederick Douglass",
+      "headline": "En 1818, sur une plantation du comté de Talbot, dans le Maryland, Frederick Bailey naquit au crime monumental de l'esclavage de propriété.",
+      "shortDescription": "Le voyage épique et la sagesse de Frederick Douglass.",
+      "quote": "La connaissance rend un homme inapte à être un esclave. L'éducation est le pont monumental entre la servitude et la liberté. Armez votre esprit.",
+      "era": "Géant du XIXe siècle (1818~1895)",
+      "chatGreeting": "Salutations, je suis Frederick Douglass. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Frederick Douglass.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "harriet-tubman": {
+      "name": "Harriet Tubman",
+      "headline": "En 1822, sur une plantation du comté de Dorchester, dans le Maryland, Araminta Ross – celle qui serait connue sous le nom de Harriet Tubman – naquit dans l'obscurité monumentale de l'esclavage.",
+      "shortDescription": "Le voyage épique et la sagesse de Harriet Tubman.",
+      "quote": "Si vous entendez les chiens, continuez. Si vous voyez les torches dans les bois, continuez. S'ils crient après vous, continuez. N'arrêtez jamais. Continuez vers l'Étoile Polaire.",
+      "era": "Géante du XIXe siècle (1822~1913)",
+      "chatGreeting": "Salutations, je suis Harriet Tubman. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Harriet Tubman.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "oskar-schindler": {
+      "name": "Oskar Schindler",
+      "headline": "En 1908, dans le paysage industriel de Zwittau, Oskar Schindler naquit dans une vie aux appétits monumentaux et à l'ambiguïté morale.",
+      "shortDescription": "Le voyage épique et la sagesse d'Oskar Schindler.",
+      "quote": "Celui qui sauve une vie sauve le monde entier. Ne sous-estimez pas l'impact monumental d'un seul acte de bonté. Vous êtes l'architecte d'un monde.",
+      "era": "Géant du XXe siècle (1908~1974)",
+      "chatGreeting": "Salutations, je suis Oskar Schindler. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Oskar Schindler.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "florence-nightingale": {
+      "name": "Florence Nightingale",
+      "headline": "En 1820, dans l'élégance de la Renaissance à Florence, en Italie, Florence Nightingale naquit dans une vie de luxe monumental et d'attentes sociales.",
+      "shortDescription": "Le voyage épique et la sagesse de Florence Nightingale.",
+      "quote": "J'attribue mon succès à ceci : je n'ai jamais donné ni accepté d'excuses. Les résultats sont la seule mesure monumentale d'une vie. Faites le travail.",
+      "era": "Géante du XIXe-XXe siècle (1820~1910)",
+      "chatGreeting": "Salutations, je suis Florence Nightingale. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Florence Nightingale.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "yu-gwan-sun": {
+      "name": "Yu Gwan Sun",
+      "headline": "En 1902, dans le village rural de Cheonan, Yu Gwan-sun naquit dans une famille chrétienne dévote durant l'aube sombre de la domination coloniale japonaise.",
+      "shortDescription": "Le voyage épique et la sagesse de Yu Gwan Sun.",
+      "quote": "Ma seule tristesse est de n'avoir qu'une seule vie à donner pour mon pays. Un sacrifice monumental est l'expression ultime de l'amour. Donnez tout.",
+      "era": "Géante du XXe siècle (1902~1920)",
+      "chatGreeting": "Salutations, je suis Yu Gwan Sun. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Yu Gwan Sun.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "louis-braille": {
+      "name": "Louis Braille",
+      "headline": "En 1809, dans le petit village français de Coupvray, Louis Braille naquit dans une vie de lumière et de couleur qui allait bientôt disparaître.",
+      "shortDescription": "Le voyage épique et la sagesse de Louis Braille.",
+      "quote": "L'accès à la communication au sens le plus large est l'accès à la connaissance. Ne laissez pas vos limitations physiques définir les limites de votre esprit monumental. Cherchez la lumière de la pensée.",
+      "era": "Géant du XIXe siècle (1809~1852)",
+      "chatGreeting": "Salutations, je suis Louis Braille. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Louis Braille.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "joan-of-arc": {
+      "name": "Jeanne d'Arc",
+      "headline": "En 1412, dans le village de Domrémy, une fille de paysan nommée Jeanne d'Arc naquit dans une France déchirée par la Guerre de Cent Ans.",
+      "shortDescription": "Le voyage épique et la sagesse de Jeanne d'Arc.",
+      "quote": "Je n'aurais su être en si bonne compagnie.",
+      "era": "Géante du XVe siècle (1412~1431)",
+      "chatGreeting": "Salutations, je suis Jeanne d'Arc. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Jeanne d'Arc.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "desmond-tutu": {
+      "name": "Desmond Tutu",
+      "headline": "En 1931, dans la ville minière d'or de Klerksdorp, Desmond Mpilo Tutu naquit dans un monde de division raciale monumentale et de cruauté systémique.",
+      "shortDescription": "Le voyage épique et la sagesse de Desmond Tutu.",
+      "quote": "Si vous êtes neutre dans des situations d'injustice, vous avez choisi le camp de l'oppresseur. Le silence est une trahison monumentale de votre propre humanité. Parlez.",
+      "era": "Géant du XXe-XXIe siècle (1931~2021)",
+      "chatGreeting": "Salutations, je suis Desmond Tutu. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Desmond Tutu.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "elie-wiesel": {
+      "name": "Elie Wiesel",
+      "headline": "Né en 1928, dans la ville transylvanienne de Sighet, Elie Wiesel est venu au monde dans une vie de foi monumentale et d'étude paisible.",
+      "shortDescription": "Le voyage épique et la sagesse d'Elie Wiesel.",
+      "quote": "Le contraire de l'amour n'est pas la haine, c'est l'indifférence. L'indifférence est un crime monumental. Engagez-vous dans le monde. Ne détournez pas le regard.",
+      "era": "Géant du XXe-XXIe siècle (1928~2016)",
+      "chatGreeting": "Salutations, je suis Elie Wiesel. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Elie Wiesel.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "harriet-beecher-stowe": {
+      "name": "Harriet Beecher Stowe",
+      "headline": "Née en 1811, dans le bouillonnement intellectuel de Litchfield, Connecticut, Harriet Beecher est venue au monde dans une famille d'une influence religieuse et sociale monumentale.",
+      "shortDescription": "Le voyage épique et la sagesse d'Harriet Beecher Stowe.",
+      "quote": "N'abandonnez jamais, car c'est précisément à cet endroit et à ce moment que la marée tournera. La persévérance est une force monumentale de la nature. Attendez votre moment.",
+      "era": "Géant du XIXe siècle (1811~1896)",
+      "chatGreeting": "Salutations, je suis Harriet Beecher Stowe. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Harriet Beecher Stowe.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "rigoberta-menchu": {
+      "name": "Rigoberta Menchú",
+      "headline": "Née en 1959, dans les hauts plateaux montagneux du Guatemala, Rigoberta Menchú Tum est venue au monde dans une vie de difficultés monumentales et de fierté indigène.",
+      "shortDescription": "Le voyage épique et la sagesse de Rigoberta Menchú.",
+      "quote": "La paix n'est pas seulement l'absence de guerre. Tant qu'il y aura de la pauvreté, du racisme, de l'isolement et de l'exclusion, nous aurons du mal à atteindre une paix de l'esprit. La dignité est monumentale.",
+      "era": "Géant du XXe-XXIe siècle (1959~Présent)",
+      "chatGreeting": "Salutations, je suis Rigoberta Menchú. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Rigoberta Menchú.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "terry-fox": {
+      "name": "Terry Fox",
+      "headline": "Né en 1958, dans la ville venteuse de Winnipeg, Canada, Terry Fox est venu au monde dans une vie d'énergie monumentale et de passion athlétique.",
+      "shortDescription": "Le voyage épique et la sagesse de Terry Fox.",
+      "quote": "Je ne suis pas un rêveur, mais je crois aux miracles. Je le dois. Même si je n'y arrive pas, nous avons besoin que d'autres continuent. Il faut que cela continue. Faites partie de cet effort monumental.",
+      "era": "Géant du XXe siècle (1958~1981)",
+      "chatGreeting": "Salutations, je suis Terry Fox. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Terry Fox.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "kim-gu": {
+      "name": "Kim Gu",
+      "headline": "Né en 1876, dans la pauvreté rurale de la province de Hwanghae, Kim Chang-am, plus tard connu sous le nom de Baekbeom Kim Gu, est venu au monde dans une Corée qui commençait à ployer sous le poids de l'impérialisme étranger.",
+      "shortDescription": "Le voyage épique et la sagesse de Kim Gu.",
+      "quote": "Mon souhait est la souveraineté indépendante de ma nation. Mon deuxième souhait est le même. Mon troisième souhait est le même. Une concentration monumentale est la seule façon de déplacer une montagne. Ne déviez jamais.",
+      "era": "Géant du XIXe-XXe siècle (1876~1949)",
+      "chatGreeting": "Salutations, je suis Kim Gu. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Kim Gu.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "buddha": {
+      "name": "Bouddha",
+      "headline": "En 563 av. J.-C., dans les jardins luxuriants de Lumbini, Siddhartha Gautama naquit prince du clan Shakya, dans une vie de luxe monumental et de protection absolue.",
+      "shortDescription": "Le voyage épique et la sagesse de Bouddha.",
+      "quote": "L'esprit est tout. Ce que vous pensez, vous le devenez. Vos pensées sont les semences monumentales de votre réalité. Choisissez-les avec soin.",
+      "era": "VIe-Ve siècle av. J.-C. (563~483 av. J.-C.)",
+      "chatGreeting": "Salutations, je suis Bouddha. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Bouddha.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "friedrich-nietzsche": {
+      "name": "Friedrich Nietzsche",
+      "headline": "En 1844, dans le village prussien de Röcken, Friedrich Nietzsche naquit dans une longue lignée de pasteurs luthériens.",
+      "shortDescription": "Le voyage épique et la sagesse de Friedrich Nietzsche.",
+      "quote": "Ce qui ne me tue pas me rend plus fort. L'adversité est le gymnase monumental de l'âme. Embrassez la lutte comme votre plus grand maître.",
+      "era": "Géant du XIXe siècle (1844~1900)",
+      "chatGreeting": "Salutations, je suis Friedrich Nietzsche. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Friedrich Nietzsche.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "immanuel-kant": {
+      "name": "Emmanuel Kant",
+      "headline": "En 1724, dans la ville portuaire baltique de Königsberg, Emmanuel Kant naquit dans une famille d'une modestie monumentale et d'une profonde piété luthérienne.",
+      "shortDescription": "Le voyage épique et la sagesse d'Emmanuel Kant.",
+      "quote": "Sapere Aude ! Osez savoir ! Ayez le courage d'utiliser votre propre entendement. Ne laissez pas les autres penser pour vous. La liberté commence dans l'esprit.",
+      "era": "Géant du XVIIIe siècle (1724~1804)",
+      "chatGreeting": "Salutations, je suis Emmanuel Kant. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Emmanuel Kant.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "rene-descartes": {
+      "name": "René Descartes",
+      "headline": "En 1596, dans la petite ville française de La Haye, René Descartes naquit dans une vie de fragilité monumentale et d'intensité intellectuelle.",
+      "shortDescription": "Le voyage épique et la sagesse de René Descartes.",
+      "quote": "Cogito, ergo sum. Je pense, donc je suis. Votre conscience est le fondement monumental de votre réalité. Ne la laissez pas dormir. Exercez votre pensée.",
+      "era": "Géant du XVIIe siècle (1596~1650)",
+      "chatGreeting": "Salutations, je suis René Descartes. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, René Descartes.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "jean-jacques-rousseau": {
+      "name": "Jean-Jacques Rousseau",
+      "headline": "En 1712, dans la ville indépendante de Genève, Jean-Jacques Rousseau naquit dans une vie d'instabilité et de pertes monumentales.",
+      "shortDescription": "Le voyage épique et la sagesse de Jean-Jacques Rousseau.",
+      "quote": "Retournez à la nature. L'homme est né libre, et partout il est dans les chaînes. Brisez l'artificialité monumentale de votre vie. Retrouvez votre âme originelle.",
+      "era": "Géant du XVIIIe siècle (1712~1778)",
+      "chatGreeting": "Salutations, je suis Jean-Jacques Rousseau. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le voyage de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Jean-Jacques Rousseau.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "sigmund-freud": {
+      "name": "Sigmund Freud",
+      "headline": "En 1856, dans la ville morave de Freiberg, Sigismund Freud naissait dans une vie de curiosité intellectuelle monumentale et d'identité juive.",
+      "shortDescription": "Le voyage épique et la sagesse de Sigmund Freud.",
+      "quote": "L'inconscient est la véritable réalité psychique. Vos rêves sont la voie royale vers la vérité monumentale de votre âme. N'ignorez pas les murmures de votre esprit.",
+      "era": "Géant du XIXe-XXe siècle (1856~1939)",
+      "chatGreeting": "Salutations, je suis Sigmund Freud. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Sigmund Freud.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "carl-jung": {
+      "name": "Carl Jung",
+      "headline": "En 1875, sur les rives du lac de Constance en Suisse, Carl Gustav Jung naissait dans une vie de mystère monumental et d'enquête spirituelle.",
+      "shortDescription": "Le voyage épique et la sagesse de Carl Jung.",
+      "quote": "Tant que vous ne rendrez pas l'inconscient conscient, il dirigera votre vie et vous l'appellerez destin. S'approprier votre ombre est un devoir monumental. Réveillez-vous.",
+      "era": "Géant du XIXe-XXe siècle (1875~1961)",
+      "chatGreeting": "Salutations, je suis Carl Jung. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Carl Jung.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "baruch-spinoza": {
+      "name": "Baruch Spinoza",
+      "headline": "En 1632, au sein de la florissante communauté juive d'Amsterdam, Baruch Spinoza naissait dans une vie de promesse monumentale et de ferveur spirituelle.",
+      "shortDescription": "Le voyage épique et la sagesse de Baruch Spinoza.",
+      "quote": "Dieu et la Nature ne font qu'un. Tout suit les lois monumentales et éternelles de la nécessité. Trouvez votre place dans la structure infinie. Comprenez le tout.",
+      "era": "Géant du XVIIe siècle (1632~1677)",
+      "chatGreeting": "Salutations, je suis Baruch Spinoza. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Baruch Spinoza.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "sun-tzu": {
+      "name": "Sun Tzu",
+      "headline": "Au VIe siècle avant J.-C., durant le chaos sanglant de la période des Printemps et Automnes en Chine, Sun Wu – l'homme connu sous le nom de Sun Tzu – naissait dans un monde de trahisons sans fin et de guerres monumentales.",
+      "shortDescription": "Le voyage épique et la sagesse de Sun Tzu.",
+      "quote": "Si vous connaissez l'ennemi et vous connaissez vous-même, vous n'avez pas à craindre le résultat de cent batailles. La conscience de soi est le fondement monumental de toute stratégie. Regardez-vous d'abord dans le miroir.",
+      "era": "Géant du VIe-Ve siècle avant J.-C. (Période des Printemps et Automnes)",
+      "chatGreeting": "Salutations, je suis Sun Tzu. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Sun Tzu.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "david-hume": {
+      "name": "David Hume",
+      "headline": "En 1711, dans le centre intellectuel d'Édimbourg, David Hume naissait dans une vie de scepticisme monumental et de moyens modestes.",
+      "shortDescription": "Le voyage épique et la sagesse de David Hume.",
+      "quote": "La raison est, et ne devrait être que l'esclave des passions. La logique est un outil, mais le désir est le moteur monumental de la vie. Alignez votre cœur avec votre tête.",
+      "era": "Géant du XVIIIe siècle (1711~1776)",
+      "chatGreeting": "Salutations, je suis David Hume. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, David Hume.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "john-locke": {
+      "name": "John Locke",
+      "headline": "En 1632, dans le village anglais de Wrington, John Locke naquit dans une vie de profonds bouleversements politiques et d'éveil intellectuel.",
+      "shortDescription": "Le voyage épique et la sagesse de John Locke.",
+      "quote": "L'esprit est une Tabula Rasa, une page blanche. L'expérience est l'architecte monumental de votre âme. Remplissez vos pages de la vérité des sens.",
+      "era": "Géant du XVIIe siècle (1632~1704)",
+      "chatGreeting": "Salutations, je suis John Locke. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, John Locke.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "simone-de-beauvoir": {
+      "name": "Simone De Beauvoir",
+      "headline": "En 1908, au cœur bourgeois de Paris, Simone de Beauvoir naquit dans une vie de discipline monumentale et de faim intellectuelle.",
+      "shortDescription": "Le voyage épique et la sagesse de Simone De Beauvoir.",
+      "quote": "On ne naît pas femme, on le devient. L'identité est une construction monumentale. Épluchez les couches des attentes sociales. Définissez-vous.",
+      "era": "Géante du XXe siècle (1908~1986)",
+      "chatGreeting": "Salutations, je suis Simone De Beauvoir. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Simone De Beauvoir.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "hannah-arendt": {
+      "name": "Hannah Arendt",
+      "headline": "En 1906, dans la ville allemande de Hanovre, Hannah Arendt naquit dans une vie d'intense intellectualité monumentale et d'identité juive.",
+      "shortDescription": "Le voyage épique et la sagesse de Hannah Arendt.",
+      "quote": "La triste vérité est que la plupart du mal est commis par des gens qui ne décident jamais d'être bons ou mauvais. L'irréflexion est un danger monumental. Interrogez vos ordres. Pensez par vous-même.",
+      "era": "Géante du XXe siècle (1906~1975)",
+      "chatGreeting": "Salutations, je suis Hannah Arendt. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Hannah Arendt.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "soren-kierkegaard": {
+      "name": "Søren Kierkegaard",
+      "headline": "En 1813, dans les rues embrumées de Copenhague, Søren Kierkegaard naquit dans une vie de richesse monumentale et de mélancolie héritée.",
+      "shortDescription": "Le voyage épique et la sagesse de Søren Kierkegaard.",
+      "quote": "Oser, c'est perdre momentanément l'équilibre. Ne pas oser, c'est se perdre. Le courage est un saut monumental et nécessaire. Ne restez pas sur la rive sûre.",
+      "era": "Géant du XIXe siècle (1813~1855)",
+      "chatGreeting": "Salutations, je suis Søren Kierkegaard. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Søren Kierkegaard.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "arthur-schopenhauer": {
+      "name": "Arthur Schopenhauer",
+      "headline": "En 1788, dans la Ville Libre de Dantzig, Arthur Schopenhauer naquit dans une vie de richesse monumentale et d'ombre intérieure.",
+      "shortDescription": "Le voyage épique et la sagesse d'Arthur Schopenhauer.",
+      "quote": "La vie oscille comme un pendule entre la douleur et l'ennui. Le désir est une faim monumentale. Trouvez le calme au milieu de l'oscillation.",
+      "era": "Géant du XIXe siècle (1788~1860)",
+      "chatGreeting": "Salutations, je suis Arthur Schopenhauer. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Arthur Schopenhauer.",
+        "Comment avez-vous surmonté vos plus grands défis ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "isaac-newton": {
+      "name": "Isaac Newton",
+      "headline": "Né en 1643 dans le manoir isolé de Woolsthorpe, en Angleterre, Isaac Newton a connu une vie de solitude monumentale et d'intensité intellectuelle.",
+      "shortDescription": "Le voyage épique et la sagesse d'Isaac Newton.",
+      "quote": "Si j'ai vu plus loin, c'est en me tenant sur les épaules de géants. La gratitude envers vos prédécesseurs est une force monumentale. Bâtissez sur les fondations du passé.",
+      "era": "Géant du XVIIe-XVIIIe siècle (1643~1727)",
+      "chatGreeting": "Salutations, je suis Isaac Newton. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Isaac Newton.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "galileo-galilei": {
+      "name": "Galileo Galilei",
+      "headline": "Né en 1564 dans la ville italienne de Pise, Galileo Galilei a entamé une vie de curiosité monumentale et de flair artistique.",
+      "shortDescription": "Le voyage épique et la sagesse de Galileo Galilei.",
+      "quote": "E pur si muove. Et pourtant, elle tourne. La vérité est un fait monumental et inébranlable. Ne laissez pas la pression de la foule plier votre raison. Restez ferme.",
+      "era": "Géant du XVIe-XVIIe siècle (1564~1642)",
+      "chatGreeting": "Salutations, je suis Galileo Galilei. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Galileo Galilei.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "charles-darwin": {
+      "name": "Charles Darwin",
+      "headline": "Né en 1809, le même jour qu'Abraham Lincoln, Charles Darwin vint au monde à Shrewsbury, en Angleterre, dans un berceau de privilège savant monumental et de curiosité naturelle.",
+      "shortDescription": "Le voyage épique et la sagesse de Charles Darwin.",
+      "quote": "Ce n'est pas l'espèce la plus forte qui survit, ni la plus intelligente qui survit. C'est celle qui est la plus adaptable au changement. La flexibilité est un atout monumental. Évoluez ou périssez.",
+      "era": "Géant du XIXe siècle (1809~1882)",
+      "chatGreeting": "Salutations, je suis Charles Darwin. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Charles Darwin.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "michelangelo": {
+      "name": "Michel-Ange",
+      "headline": "Né en 1475 dans les collines escarpées de Caprese, Michel-Ange Buonarroti est issu d'une famille de noblesse déclinante qui considérait le travail manuel comme une disgrâce.",
+      "shortDescription": "Le voyage épique et la sagesse de Michel-Ange.",
+      "quote": "J'ai vu l'ange dans le marbre et j'ai sculpté jusqu'à ce que je l'aie libéré. Chaque bloc de pierre a une statue à l'intérieur et c'est la tâche du sculpteur de la découvrir.",
+      "era": "Géant de la Renaissance (1475~1564)",
+      "chatGreeting": "Salutations, je suis Michel-Ange. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Michel-Ange.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "claude-monet": {
+      "name": "Claude Monet",
+      "headline": "Né en 1840 au cœur de Paris, Claude Monet a connu une vie d'intensité visuelle monumentale et de luttes économiques.",
+      "shortDescription": "Le voyage épique et la sagesse de Claude Monet.",
+      "quote": "Je dois peut-être d'être devenu peintre aux fleurs. La nature est une source monumentale et éternelle. Ne peignez pas la chose ; peignez la lumière qui la baigne. Faites confiance à vos sens.",
+      "era": "Géant du XIXe-XXe siècle (1840~1926)",
+      "chatGreeting": "Salutations, je suis Claude Monet. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Claude Monet.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "fyodor-dostoevsky": {
+      "name": "Fiodor Dostoïevski",
+      "headline": "En 1821, dans un hôpital pour les pauvres de Moscou, Fiodor Dostoïevski naquit dans une vie d'une profondeur psychologique monumentale et de traumatismes physiques.",
+      "shortDescription": "Le voyage épique et la sagesse de Fiodor Dostoïevski.",
+      "quote": "L'enfer, c'est la souffrance de ne pas pouvoir aimer. L'amour est un acte de rédemption monumental. Ne laissez pas votre cœur se durcir contre le monde. Continuez à prendre soin.",
+      "era": "Géant du XIXe siècle (1821~1881)",
+      "chatGreeting": "Salutations, je suis Fiodor Dostoïevski. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Fiodor Dostoïevski.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "victor-hugo": {
+      "name": "Victor Hugo",
+      "headline": "En 1802, dans la ville de Besançon, Victor Hugo naquit dans une vie d'une ampleur monumentale et de bouleversements historiques.",
+      "shortDescription": "Le voyage épique et la sagesse de Victor Hugo.",
+      "quote": "Ceux qui vivent sont ceux qui luttent.",
+      "era": "Géant du XIXe siècle (1802~1885)",
+      "chatGreeting": "Salutations, je suis Victor Hugo. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Victor Hugo.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "anton-chekhov": {
+      "name": "Anton Tchekhov",
+      "headline": "En 1860, dans la ville portuaire poussiéreuse de Taganrog, en Russie, Anton Tchekhov naquit dans une vie d'une responsabilité monumentale et de moyens modestes.",
+      "shortDescription": "Le voyage épique et la sagesse d'Anton Tchekhov.",
+      "quote": "La brièveté est la sœur du talent. La concision est une vertu monumentale et difficile. N'utilisez pas mille mots quand dix suffiront. Soyez précis.",
+      "era": "Géant des XIXe-XXe siècles (1860~1904)",
+      "chatGreeting": "Salutations, je suis Anton Tchekhov. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Anton Tchekhov.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "frederic-chopin": {
+      "name": "Frédéric Chopin",
+      "headline": "En 1810, au cœur de la campagne polonaise, Fryderyk Chopin naquit dans une vie d'un lyrisme monumental et d'une santé fragile.",
+      "shortDescription": "Le voyage épique et la sagesse de Frédéric Chopin.",
+      "quote": "La simplicité est la sophistication ultime. Un impact monumental se trouve souvent dans l'expression la plus directe et la plus dépouillée. Éliminez le bruit.",
+      "era": "Géant du XIXe siècle (1810~1849)",
+      "chatGreeting": "Salutations, je suis Frédéric Chopin. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Frédéric Chopin.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "katsushika-hokusai": {
+      "name": "Katsushika Hokusai",
+      "headline": "En 1760, dans le district de Katsushika à Edo (l'actuelle Tokyo), Katsushika Hokusai naquit dans une vie d'une curiosité visuelle monumentale et de changements incessants.",
+      "shortDescription": "Le voyage épique et la sagesse de Katsushika Hokusai.",
+      "quote": "À l'âge de soixante-dix ans, j'ai aperçu la structure de la nature. L'apprentissage est un processus monumental et permanent. Ne soyez pas pressé d'être un maître. Soyez un étudiant.",
+      "era": "Géant des XVIIIe-XIXe siècles (1760~1849)",
+      "chatGreeting": "Salutations, je suis Katsushika Hokusai. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Katsushika Hokusai.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "agatha-christie": {
+      "name": "Agatha Christie",
+      "headline": "En 1890, dans la ville côtière de Torquay, en Angleterre, Agatha Mary Clarissa Miller – la future Agatha Christie – naissait dans une vie d'imagination monumentale et de confort victorien.",
+      "shortDescription": "Le voyage épique et la sagesse d'Agatha Christie.",
+      "quote": "Très peu d'entre nous sont ce que nous semblons être. L'apparence est une illusion monumentale. Cherchez le mobile caché. Faites confiance à votre observation, pas au masque.",
+      "era": "Géante du XXe siècle (1890~1976)",
+      "chatGreeting": "Salutations, je suis Agatha Christie. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Agatha Christie.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "mark-twain": {
+      "name": "Mark Twain",
+      "headline": "En 1835, alors que la Comète de Halley traversait le ciel, Samuel Langhorne Clemens – l'homme qui deviendrait Mark Twain – naissait dans une vie de mouvement monumental et d'observation pleine d'esprit.",
+      "shortDescription": "Le voyage épique et la sagesse de Mark Twain.",
+      "quote": "Chaque fois que vous vous trouvez du côté de la majorité, il est temps de faire une pause et de réfléchir. La pensée indépendante est un accomplissement monumental. Ne rejoignez pas le troupeau aveuglément.",
+      "era": "Géant du XIXe-XXe siècle (1835~1910)",
+      "chatGreeting": "Salutations, je suis Mark Twain. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Mark Twain.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "goethe": {
+      "name": "Goethe",
+      "headline": "En 1749, dans la ville libre impériale de Francfort, Johann Wolfgang von Goethe naissait dans une vie de privilège monumental et de faim intellectuelle.",
+      "shortDescription": "Le voyage épique et la sagesse de Goethe.",
+      "quote": "Tout ce que vous pouvez faire, ou rêver que vous pouvez, commencez-le. L'audace a du génie, du pouvoir et de la magie. Initier est un acte monumental et sacré. N'attendez pas.",
+      "era": "Géant du XVIIIe-XIXe siècle (1749~1832)",
+      "chatGreeting": "Salutations, je suis Goethe. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Goethe.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "mary-shelley": {
+      "name": "Mary Shelley",
+      "headline": "En 1797, au cœur intellectuel de Londres, Mary Wollstonecraft Godwin – la future Mary Shelley – naissait dans une vie d'attentes monumentales et de pertes profondes.",
+      "shortDescription": "Le voyage épique et la sagesse de Mary Shelley.",
+      "quote": "L'invention, il faut l'admettre, ne consiste pas à créer à partir du vide, mais à partir du chaos. La transformation est une lutte monumentale. Ne craignez pas le désordre de la création.",
+      "era": "Géante du XIXe siècle (1797~1851)",
+      "chatGreeting": "Salutations, je suis Mary Shelley. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Mary Shelley.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "napoleon-bonaparte": {
+      "name": "Napoléon Bonaparte",
+      "headline": "Le génie militaire qui a redessiné la carte de l'Europe et établi les fondations du droit moderne.",
+      "shortDescription": "La saga épique de Napoléon et de sa grande ambition.",
+      "quote": "Impossible n'est pas français.",
+      "era": "Géant du XIXe siècle",
+      "chatGreeting": "Salutations, je suis Napoléon Bonaparte. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Napoléon Bonaparte.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "malala-yousafzai": {
+      "name": "Malala Yousafzai",
+      "headline": "La jeune militante qui a survécu à la balle d'un assassin pour défendre l'éducation de chaque enfant.",
+      "shortDescription": "La voix courageuse de Malala Yousafzai.",
+      "quote": "Un enfant, un professeur, un livre et un stylo peuvent changer le monde.",
+      "era": "Géant Moderne",
+      "chatGreeting": "Salutations, je suis Malala Yousafzai. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Malala Yousafzai.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "martin-luther-king": {
+      "name": "Martin Luther King Jr.",
+      "headline": "Le leader animé par un rêve qui a marché pour l'égalité et la justice avec l'arme de l'amour.",
+      "shortDescription": "La croisade des droits civiques de MLK.",
+      "quote": "J'ai un rêve.",
+      "era": "Géant du 20ème siècle",
+      "chatGreeting": "Salutations, je suis Martin Luther King Jr.. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Martin Luther King Jr..",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "albert-einstein": {
+      "name": "Albert Einstein",
+      "headline": "Le physicien révolutionnaire qui a percé les secrets du temps et de l'espace avec une seule équation.",
+      "shortDescription": "La relativité du génie et Einstein.",
+      "quote": "L'imagination est plus importante que la connaissance.",
+      "era": "Géant du 20ème siècle",
+      "chatGreeting": "Salutations, je suis Albert Einstein. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Albert Einstein.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "abraham-lincoln": {
+      "name": "Abraham Lincoln",
+      "headline": "Le Grand Libérateur qui a préservé une nation et mis fin au fléau de l'esclavage avec une intégrité inébranlable.",
+      "shortDescription": "Les racines dans la cabane en rondins et le leadership de Lincoln.",
+      "quote": "Une maison divisée contre elle-même ne peut subsister.",
+      "era": "Géant du 19ème siècle",
+      "chatGreeting": "Salutations, je suis Abraham Lincoln. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Abraham Lincoln.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "winston-churchill": {
+      "name": "Winston Churchill",
+      "headline": "Le bulldog britannique qui s'est opposé à la tyrannie avec la puissance de l'éloquence et une résolution inébranlable.",
+      "shortDescription": "Le leadership en temps de guerre de Churchill.",
+      "quote": "Jamais, jamais, jamais abandonnez.",
+      "era": "Géant du 20ème siècle",
+      "chatGreeting": "Salutations, je suis Winston Churchill. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Winston Churchill.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    },
+    "jane-austen": {
+      "name": "Jane Austen",
+      "headline": "La pionnière de la satire sociale qui utilisa l'esprit et l'observation pour révéler les subtilités du cœur humain.",
+      "shortDescription": "Le génie littéraire de Jane Austen.",
+      "quote": "Un cœur sincère",
+      "era": "Géante des XVIIIe-XIXe siècles",
+      "chatGreeting": "Salutations, je suis Jane Austen. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "suggestedQuestions": [
+        "Parlez-moi de votre plus grande réussite, Jane Austen.",
+        "Comment avez-vous surmonté vos défis les plus difficiles ?",
+        "Quel est le conseil le plus important que vous puissiez me donner ?"
+      ]
+    }
+  },
+  "Chat": {
+    "famousQuote": "Citation Célèbre",
+    "description": "Description",
+    "suggestedQuestions": "Questions Suggérées",
+    "inputPlaceholder": "Demandez n'importe quoi à {name}...",
+    "contemplating": "{name} réfléchit...",
+    "wisdomActive": "Sagesse Active",
+    "historyEra": "Histoire & Époque",
+    "fieldOfWisdom": "Domaine de Sagesse",
+    "error": "Je suis désolé, j'ai rencontré une erreur en recherchant ma sagesse. Pourriez-vous réessayer dans un instant ?",
+    "retry": "Rechercher à Nouveau la Sagesse"
+  },
+  "Stats": {
+    "title": "Pourquoi Giants Wisdom",
+    "description": "Vivez un voyage innovant à travers des milliers d'années à la rencontre de la sagesse humaine.",
+    "features": [
+      {
+        "title": "Discussion en Temps Réel avec des Géants Historiques",
+        "description": "Engagez des conversations profondes transcendant le temps et l'espace avec des figures historiques grâce à une IA avancée."
+      },
+      {
+        "title": "2 500 Ans de Sagesse Humaine",
+        "description": "Découvrez en un seul endroit 2 500 ans d'histoire, d'accomplissements et de réflexions construits par l'humanité."
+      },
+      {
+        "title": "Le Savoir Directement des Maîtres",
+        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+      },
+      {
+        "title": "Des Perspectives Personnalisées pour Vous",
+        "description": "Posez des questions, explorez des idées et obtenez les conseils personnalisés nécessaires à votre vie."
+      }
+    ],
+    "stats": {
+      "minds": "Grands Esprits",
+      "history": "Années de Sagesse",
+      "fields": "Domaines d'Étude",
+      "inspiration": "Inspirations"
+    }
+  },
+  "QuoteSection": {
+    "label": "Sagesse Quotidienne"
+  },
+  "Privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 16 mai 2026",
+    "summaryTitle": "1. Résumé Clé",
+    "summaryDesc": "Chez Giants Wisdom, nous ne vendons ni ne partageons jamais vos données personnelles de manière inappropriée. Cette politique décrit la manière dont nous protégeons et traitons les données collectées lorsque vous effectuez des tests de personnalité et discutez avec des géants historiques.",
+    "collectionTitle": "2. Données Collectées et Mode de Collecte",
+    "collectionDesc": "Notre site web peut être exploré de manière entièrement anonyme sans créer de compte. Cependant, lors de vos interactions, les données suivantes peuvent être traitées :\n- Données Fournies Volontairement : Réponses au Test ADN d'Héritage, textes saisis lors des discussions avec l'IA, et adresses e-mail (uniquement en cas d'inscription à notre newsletter).\n- Données Enregistrées Automatiquement : Type d'appareil, spécifications du navigateur, adresse IP et historique d'interaction enregistrés en toute sécurité via des Cookies.",
+    "purposeTitle": "3. Utilisation des Informations",
+    "purposeDesc": "Les données collectées sont utilisées strictement pour les objectifs suivants :\n- Compilation des résultats du test en 15 questions pour déterminer le tempérament du géant historique le plus proche du vôtre.\n- Génération de réponses dynamiques et en temps réel lors des discussions historiques, fournies de manière transparente par l'API Gemini 2.5 Flash.\n- Analyse statistique anonyme pour affiner nos indicateurs de tempéraments d'héritage.\n- Affichage sécurisé de bannières personnalisées via Google AdSense.",
+    "adsenseTitle": "4. Politique Relative à Google AdSense et aux Cookies Tiers",
+    "adsenseDesc": "Ce site affiche des publicités intégrées via Google AdSense. Google et les fournisseurs tiers utilisent des cookies pour diffuser des annonces ciblées basées sur vos visites sur ce site et d'autres sites sur Internet. Vous pouvez facilement désactiver le suivi personnalisé à tout moment en configurant vos préférences directement dans les paramètres des annonces Google ([https://www.google.com/settings/ads](https://www.google.com/settings/ads)).",
+    "retentionTitle": "5. Conservation et Suppression des Données",
+    "retentionDesc": "Les résultats anonymes des tests et les entrées des discussions sont soit effacés à la fermeture de la session, soit totalement dépouillés de tout identifiant (anonymisés) pour une étude globale permanente. Toutes les saisies personnelles comme les e-mails sont définitivement effacées à votre demande.",
+    "rightsTitle": "6. Vos Droits et Coordonnées de Contact",
+    "rightsDesc": "Vous conservez l'entière autorité pour consulter, modifier ou supprimer définitivement toute donnée liée à votre identité. Pour toute réclamation relative à la confidentialité ou d'ordre juridique, veuillez contacter notre canal d'assistance officiel."
+  },
+  "Footer": {
+    "brand": {
+      "subtitle": "Le Panthéon des Grands Esprits",
+      "description": "Rejoignez le voyage des grands esprits qui ont changé l'Histoire. Faites l'expérience d'une sagesse au-delà du temps et de l'espace."
+    },
+    "sections": {
+      "explore": "Explorer",
+      "info": "Informations"
+    },
+    "links": {
+      "allGiants": "Tous les Géants",
+      "wisdomArchive": "Archive de la Sagesse",
+      "about": "À Propos de Nous",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation",
+      "contact": "Contact",
+      "dnaTest": "Test de Compatibilité Historique"
+    }
+  },
+  "About": {
+    "intro": "À ceux qui se perdent dans le\nflux incessant d'informations.",
+    "subIntro": "Un espace pour s'éloigner du bruit et faire face à la véritable sagesse.",
+    "visionTitle": "Sur les Épaules des Géants",
+    "visionDesc": "« Si j'ai vu plus loin, c'est en me tenant sur les épaules de géants. » - Isaac Newton. Nous sommes partis de la conviction que les réponses à nos problèmes modernes complexes sont peut-être déjà tissées dans la vie des plus grands géants de l'Histoire.",
+    "epicTitle": "Les Grandes Épopées de 95 Géants",
+    "epicDesc": "Allez au-delà des simples faits historiques. Vivez la grande saga de géants qui ont surmonté l'adversité pour remodeler l'histoire humaine.",
+    "chatTitle": "Dialogue à travers les Époques",
+    "chatDesc": "Engagez des conversations en temps réel avec des géants recréés grâce à une IA avancée (Gemini 2.5 Flash) pour obtenir des conseils avisés face à vos dilemmes modernes.",
+    "testTitle": "Trouvez votre Jumeau Historique",
+    "testDesc": "Découvrez l'ADN de géant qui coule au plus profond de votre âme grâce à un questionnaire situationnel immersif en 3 étapes se déroulant lors de moments historiques charnières.",
+    "outroTitle": "Bienvenue au Panthéon des Géants",
+    "outroDesc": "Sur leurs épaules, vous verrez enfin plus loin. Commencez votre voyage aujourd'hui."
+  },
+  "Terms": {
+    "title": "Conditions d'Utilisation",
+    "lastUpdated": "Dernière mise à jour : 16 mai 2026",
+    "intro": "Bienvenue sur Giants Wisdom. Ces Conditions d'Utilisation régissent l'accord juridique et les règles d'utilisation entre vous et notre plateforme concernant votre participation à nos évaluations de personnalité d'origine et à nos simulations conversationnelles.",
+    "eligibilityTitle": "Article 1 (Éligibilité et Protection des Mineurs)",
+    "eligibilityDesc": "Ce service est destiné strictement aux utilisateurs âgés d'au moins 13 ans. Les utilisateurs de moins de 13 ans s'engageant sur notre plateforme déclarent avoir obtenu le consentement vérifié de leurs parents, conformément aux mandats mondiaux de confidentialité des enfants. La plateforme décline toute responsabilité découlant d'un accès non autorisé par un mineur.",
+    "aiTitle": "Article 2 (Infrastructure d'IA et Exclusions de Responsabilité)",
+    "aiDesc": "1. Tous les dialogues avec des figures historiques affichés sur cette plateforme sont des simulations interactives générées de manière transparente par des modèles d'IA avancés (suite Gemini 2.5).\n2. Les résultats fournis sont conçus strictement à des fins éducatives et de divertissement. Ils ne constituent en aucun cas des documents historiques certifiés, des évaluations psychologiques professionnelles, des conseils médicaux ou des conseils juridiques.\n3. Giants Wisdom décline toute responsabilité en cas d'hallucinations de l'IA ou de choix effectués par les utilisateurs basés sur les données du système.",
+    "intellectualTitle": "Article 3 (Propriété Intellectuelle et Protection contre le Moissonnage de Données)",
+    "intellectualDesc": "1. Toutes les architectures de mise en page, les marques déposées, les mesures d'évaluation des « 4 Piliers de la Grandeur », les 15 questions situationnelles et les illustrations vectorielles plates de qualité supérieure restent la propriété exclusive de Giants Wisdom.\n2. Il est strictement interdit aux utilisateurs d'effectuer des copies non autorisées, de syndiquer le contenu à des fins commerciales ou de procéder à un moissonnage de données malveillant via des robots automatisés, des scripts ou des nœuds de réseau de type crawler.",
+    "userDutyTitle": "Article 4 (Règles d'Utilisation et Consentement de Présentation Publicitaire)",
+    "userDutyDesc": "1. Les utilisateurs acceptent de naviguer sur notre application sans y introduire de séquences d'ingénierie inverse ni de vecteurs malveillants de surcharge de serveur.\n2. En contrepartie du libre accès, les utilisateurs consentent expressément et de manière irrévocable à ce que Google AdSense et des régies publicitaires tierces présentent des bannières automatisées au sein de l'espace de travail de l'application.",
+    "disputeTitle": "Article 5 (Droit Applicable et Juridiction Compétente)",
+    "disputeDesc": "Les présentes Conditions et toute action juridique découlant de l'utilisation du système seront régies et interprétées conformément aux lois de la République de Corée. Tout litige sera soumis exclusivement au tribunal compétent du lieu d'établissement de l'exploitant de la plateforme."
+  },
+  "Cookie": {
+    "title": "Paramètres de Consentement aux Cookies",
+    "description": "Nous utilisons des cookies pour personnaliser les annonces (Google AdSense) et analyser le trafic. En acceptant, vous consentent à notre utilisation des cookies.",
+    "acceptAll": "Tout Accepter",
+    "rejectAll": "Tout Refuser",
+    "customize": "Personnaliser",
+    "savePreferences": "Enregistrer les Préférences",
+    "necessary": "Cookies Nécessaires",
+    "necessaryDesc": "Requis pour le bon fonctionnement du site web. (Toujours Actif)",
+    "analytics": "Cookies d'Analyse",
+    "analyticsDesc": "Utilisés pour analyser les visiteurs et les habitudes d'utilisation afin d'améliorer notre service.",
+    "advertising": "Cookies Publicitaires",
+    "advertisingDesc": "Utilisés pour diffuser des annonces personnalisées via Google AdSense."
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "name": "Nom",
+    "email": "Adresse e-mail",
+    "subject": "Objet (facultatif)",
+    "message": "Message",
+    "send": "Envoyer le Message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès ! Merci.",
+    "error": "Échec de l'envoi. Veuillez réessayer.",
+    "namePlaceholder": "Saisissez votre nom",
+    "emailPlaceholder": "Saisissez votre adresse e-mail",
+    "subjectPlaceholder": "Saisissez l'objet",
+    "messagePlaceholder": "Saisissez votre message"
+  }
+}

@@ -3,7 +3,7 @@ import { giants } from '@/lib/giants-data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.giantswisdom.com'
-  const locales = ['ko', 'en', 'de', 'ja', 'es']
+  const locales = ['ko', 'en', 'de', 'ja', 'es', 'fr']
 
   // 1. Static Pages (Home, About, Test)
   const staticPages = [

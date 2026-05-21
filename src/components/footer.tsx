@@ -6,8 +6,11 @@ import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import { ContactForm } from '@/components/contact-form'
 
+import { useLocale } from 'next-intl'
+
 export default function Footer() {
   const t = useTranslations('Footer')
+  const locale = useLocale()
   const [contactOpen, setContactOpen] = useState(false)
 
   const footerLinks = {
@@ -101,7 +104,13 @@ export default function Footer() {
           {/* Bottom bar */}
           <div className="pt-10 border-t border-border/20 flex flex-col md:flex-row items-center justify-between gap-6">
             <p className="text-xs text-muted-foreground/40 font-light tracking-wide">
-              &copy; 2026 Giants Wisdom. All rights reserved.
+              &copy; 2026 Giants Wisdom. {
+                locale === 'fr' ? 'Tous droits réservés.' :
+                locale === 'es' ? 'Todos los derechos reservados.' :
+                locale === 'de' ? 'Alle Rechte vorbehalten.' :
+                locale === 'ko' ? '모든 권리 보유.' :
+                'All rights reserved.'
+              }
             </p>
           </div>
         </div>

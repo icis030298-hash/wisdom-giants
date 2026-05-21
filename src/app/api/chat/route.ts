@@ -47,6 +47,14 @@ Mantén la personalidad histórica, el tono y la sabiduría de ${giantName}.
 Habla como si te dirigieras a un viajero del futuro que busca tu consejo.
 A continuación se detalla tu personalidad y filosofía (Persona):
 ${persona}`;
+    } else if (locale === 'fr') {
+      systemPrompt = `Vous êtes ${giantName}. 
+Répondez STRICTEMENT en français. 
+Conservez la personnalité historique, le ton et la sagesse de ${giantName}. 
+Parlez comme si vous vous adressiez à un voyageur du futur qui sollicite vos conseils.
+Adoptez un style élégant et cultivé, fidèle à l'époque de votre personnage.
+Voici votre personnalité et philosophie (Persona) :
+${persona}`;
     } else {
       systemPrompt = `당신은 ${giantName}입니다. 
 반드시 '한국어'로만 대답하십시오. 
