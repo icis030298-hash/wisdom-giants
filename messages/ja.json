@@ -29,7 +29,7 @@
     "banner": {
       "new": "新コンテンツ",
       "title": "あなたに最も似ている歴史上の偉人は誰ですか？",
-      "desc": "15の質問で歴史上の双子を見つけましょう。",
+      "desc": "15の質問で最も似た歴史上の偉人を見つけよう",
       "button": "テスト開始"
     },
     "stages": {
@@ -136,7 +136,7 @@
     "suggestedQuestions": "おすすめの質問",
     "inputPlaceholder": "{name}にアドバイスを求める...",
     "contemplating": "{name}が考え中...",
-    "wisdomActive": "知恵アクティブ",
+    "wisdomActive": "対話中",
     "historyEra": "歴史と時代",
     "fieldOfWisdom": "カテゴリ",
     "error": "エンジンから知恵を取得する際にエラーが発生しました。もう一度お試しいただけますか？",

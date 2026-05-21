@@ -14,7 +14,7 @@
   },
   "Auth": {
     "loginModalTitle": "Willkommen in der Halle der großen Persönlichkeiten",
-    "loginModalDescription": "Bewahre deine Dialoge mit den großen Persönlichkeiten und verwalte das Erbe der Weisheit, das in deine Seele eingraviert ist.",
+    "loginModalDescription": "Bewahren Sie Ihre Dialoge mit den großen Persönlichkeiten und verwalten Sie das Erbe der Weisheit, das in Ihre Seele eingraviert ist.",
     "continueWithGoogle": "Mit Google fortfahren",
     "loginSuccess": "Willkommen in der Halle der großen Denker.",
     "logout": "Abmelden",
@@ -22,14 +22,14 @@
     "signInRequired": "Anmeldung erforderlich"
   },
   "Test": {
-    "title": "Finde das große Erbe, das in deiner Seele fließt",
+    "title": "Finden Sie das große Erbe, das in Ihrer Seele fließt",
     "subtitle": "Historischer Temperament-Analyse-Test",
     "start": "Test starten",
     "back": "Zurück",
     "banner": {
       "new": "NEUER INHALT",
-      "title": "Welche historische Persönlichkeit\nähnelt dir am meisten?",
-      "desc": "Finde deinen historischen Zwilling durch 15 Fragen.",
+      "title": "Welche historische Persönlichkeit ähnelt Ihnen am meisten?",
+      "desc": "Finden Sie Ihren historischen Zwilling durch 15 Fragen.",
       "button": "Test starten"
     },
     "stages": {
@@ -41,13 +41,13 @@
       "next": "Weiter zur nächsten Stufe"
     },
     "analysis": {
-      "loading": "Die Echos deiner Seele werden analysiert...",
-      "sub": "Suche nach deinen Säulen im großen Fluss der Geschichte."
+      "loading": "Die Echos Ihrer Seele werden analysiert...",
+      "sub": "Suche nach Ihren Säulen im großen Fluss der Geschichte."
     },
     "result": {
-      "matchFound": "Du hast dein historisches Schicksal getroffen",
-      "archetype": "Deine Heritage-Persona",
-      "matchedGiant": "Die Persönlichkeit, die dir am ähnlichsten ist",
+      "matchFound": "Sie haben Ihr historisches Schicksal getroffen",
+      "archetype": "Ihre Heritage-Persona",
+      "matchedGiant": "Die Persönlichkeit, die Ihnen am ähnlichsten ist",
       "readEpic": "Biografie lesen",
       "chatNow": "Jetzt chatten"
     }
@@ -55,9 +55,9 @@
   "Chats": {
     "title": "Meine Gespräche",
     "subtitle": "Dialoge mit großen Denkern",
-    "description": "Erlebe tiefe Einblicke und Ratschläge von den größten Persönlichkeiten der Geschichte. Du kannst jedes Gespräch jederzeit fortsetzen.",
+    "description": "Erleben Sie tiefe Einblicke und Ratschläge von den größten Persönlichkeiten der Geschichte. Sie können jedes Gespräch jederzeit fortsetzen.",
     "emptyTitle": "Noch keine Gespräche",
-    "emptyDescription": "Die Persönlichkeiten sind bereit, dir zuzuhören. Starte jetzt deinen ersten Dialog!",
+    "emptyDescription": "Die Persönlichkeiten sind bereit, Ihnen zuzuhören. Starten Sie jetzt Ihren ersten Dialog!",
     "startFirstChat": "Erstes Gespräch starten",
     "messages": "Nachrichten",
     "lastChat": "Letzter Chat"
@@ -67,7 +67,7 @@
     "quote": "Wenn ich weitergesehen habe, so deshalb, weil ich auf den Schultern von Riesen stand.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Reise beginnen",
-    "startTest": "🧬 Deinen historischen Zwilling finden",
+    "startTest": "🧬 Ihren historischen Zwilling finden",
     "exploreHall": "🏛️ Die Halle erkunden",
     "stats": {
       "minds": "Große Denker",
@@ -77,12 +77,12 @@
     },
     "guide": {
       "title": "Reiseführer durch die Halle der Weisheit",
-      "selectGiant": "Wähle eine Persönlichkeit",
-      "selectGiantDesc": "Finde inspirierende Persönlichkeiten unter 95+ historischen Legenden.",
+      "selectGiant": "Wählen Sie eine Persönlichkeit",
+      "selectGiantDesc": "Finden Sie inspirierende Persönlichkeiten unter 95+ historischen Legenden.",
       "epic": "Epische Erzählungen",
       "epicDesc": "Lese Lebensberichte, als ob die Persönlichkeiten sie selbst erzählen würden.",
       "chat": "Echtzeit-Chat",
-      "chatDesc": "Teile deine Sorgen mit den Denkern, die durch modernste KI wiedergeboren wurden.",
+      "chatDesc": "Teilen Sie Ihre Sorgen mit den Denkern, die durch modernste KI wiedergeboren wurden.",
       "startNow": "Jetzt starten"
     }
   },
@@ -622,7 +622,7 @@
       ]
     },
     "plato": {
-      "name": "Plato",
+      "name": "Platon",
       "headline": "The visionary philosopher who explored the world of ideas and the blueprint for an ideal state.",
       "shortDescription": "The Republic and the Allegory of the Cave.",
       "quote": "Wise men speak because they have something to say; fools because they have to say something.",
@@ -947,7 +947,7 @@
       ]
     },
     "joan-of-arc": {
-      "name": "Joan Of Arc",
+      "name": "Johanna von Orléans",
       "headline": "In 1412, in the village of Domrémy, a peasant girl named Jeanne d'Arc was born into a France torn apart by the Hundred Years' War.",
       "shortDescription": "The epic journey and wisdom of Joan Of Arc.",
       "quote": "I am not afraid; I was born to do this. My purpose is my shield, and my faith is my sword. The giant acts despite fear, not in its absence.",
@@ -1548,7 +1548,7 @@
     "messagePlaceholder": "Nachricht eingeben"
   },
   "Stats": {
-    "title": "Warum die Weisheit der Riesen",
+    "title": "Warum Giants Wisdom",
     "description": "Erleben Sie eine innovative Reise über Tausende von Jahren, um der menschlichen Weisheit zu begegnen.",
     "features": [
       {
@@ -1579,7 +1579,7 @@
     "label": "Tägliche Weisheit"
   },
   "About": {
-    "intro": "An diejenigen, die in der verloren sind\nÜberfluss endloser Informationen.",
+    "intro": "An all jene, die sich im endlosen Informationsüberfluss verloren fühlen.",
     "subIntro": "Ein Raum, um dem Lärm zu entfliehen und sich der wahren Weisheit zu stellen.",
     "visionTitle": "Auf den Schultern von Riesen stehen",
     "visionDesc": "„Wenn ich weiter gesehen habe, dann durch das Stehen auf den Schultern von Riesen.“ - Isaac Newton. Wir begannen mit der Überzeugung, dass die Antworten auf unsere komplexen modernen Probleme möglicherweise bereits im Leben der größten Giganten der Geschichte verankert sind.",
@@ -1589,7 +1589,7 @@
     "chatDesc": "Nehmen Sie an Echtzeitgesprächen mit wiederhergestellten Signaturen von Giganten teil, die von fortschrittlicher KI (Gemini 2.5 Flash) angetrieben werden, um scharfe Erkenntnisse für Ihre modernen Dilemmata zu gewinnen.",
     "testTitle": "Finden Sie Ihre historische Übereinstimmung",
     "testDesc": "Entdecken Sie die DNA des Riesen, die tief in Ihrer Seele fließt, durch einen umfassenden, dreistufigen Situationsfragebogen, der an entscheidenden historischen Momenten spielt.",
-    "outroTitle": "Willkommen in der Halle der Riesen",
-    "outroDesc": "Auf ihren Schultern wirst du endlich weiter sehen. Beginnen Sie noch heute Ihre Reise."
+    "outroTitle": "Willkommen in der Halle der Denker",
+    "outroDesc": "Auf ihren Schultern werden Sie endlich weiter sehen. Beginnen Sie noch heute Ihre Reise."
   }
 }
