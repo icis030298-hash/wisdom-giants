@@ -1,33 +1,56 @@
 import { MetadataRoute } from 'next'
 import { giants } from '@/lib/giants-data'
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.giantswisdom.com'
-  const locales = ['ko', 'en', 'de', 'ja', 'es', 'fr']
+const BASE_URL = 'https://www.giantswisdom.com'
+const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr'] as const
+type Locale = typeof LOCALES[number]
 
-  // 1. Static Pages (Home, About, Test)
+// Locale → ISO 639-1 hreflang tag mapping
+const HREFLANG: Record<Locale, string> = {
+  ko: 'ko',
+  en: 'en',
+  de: 'de',
+  ja: 'ja',
+  es: 'es',
+  fr: 'fr',
+}
+
+/** Build alternates object for a given path (e.g. '' | '/test' | '/giant/steve-jobs') */
+function buildAlternates(path: string) {
+  const languages: Record<string, string> = { 'x-default': `${BASE_URL}/ko${path}` }
+  for (const locale of LOCALES) {
+    languages[HREFLANG[locale]] = `${BASE_URL}/${locale}${path}`
+  }
+  return { languages }
+}
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  // 1. Static pages — one canonical per locale, each carrying all alternates
   const staticPages = [
     { path: '', changeFrequency: 'daily' as const, priority: 1.0 },
     { path: '/test', changeFrequency: 'weekly' as const, priority: 0.9 },
     { path: '/about', changeFrequency: 'monthly' as const, priority: 0.5 },
+    { path: '/chats', changeFrequency: 'weekly' as const, priority: 0.7 },
   ]
 
-  const staticEntries = locales.flatMap((locale) =>
+  const staticEntries = LOCALES.flatMap((locale) =>
     staticPages.map((page) => ({
-      url: `${baseUrl}/${locale}${page.path}`,
+      url: `${BASE_URL}/${locale}${page.path}`,
       lastModified: new Date(),
       changeFrequency: page.changeFrequency,
       priority: page.priority,
+      alternates: buildAlternates(page.path),
     }))
   )
 
-  // 2. Dynamic Giant Pages
-  const giantEntries = locales.flatMap((locale) =>
+  // 2. Dynamic giant pages — 99 giants × 6 locales = 594 entries
+  const giantEntries = LOCALES.flatMap((locale) =>
     giants.map((giant) => ({
-      url: `${baseUrl}/${locale}/giant/${giant.slug}`,
+      url: `${BASE_URL}/${locale}/giant/${giant.slug}`,
       lastModified: new Date(),
       changeFrequency: 'monthly' as const,
       priority: 0.8,
+      alternates: buildAlternates(`/giant/${giant.slug}`),
     }))
   )
 

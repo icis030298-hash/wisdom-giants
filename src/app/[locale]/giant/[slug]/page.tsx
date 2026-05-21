@@ -15,7 +15,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!giant) return {};
 
-  const isKorean = locale === 'ko';
   const messages = await getMessages({ locale });
   const giantData = (messages.Giants as any)[giant.slug] || {
     name: giant.name,
@@ -24,47 +23,63 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     quote: giant.quote
   };
 
+  const BASE_URL = 'https://www.giantswisdom.com';
+  const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr'] as const;
+
   const baseDesc = giantData.shortDescription || '';
   const slicedDesc = baseDesc.length > 120 ? baseDesc.slice(0, 120) + '...' : baseDesc;
-  const isGerman = locale === 'de';
-  const description = isKorean
-    ? `${slicedDesc} ${giantData.name}와 AI로 직접 대화하고 지혜를 얻어보세요.`
-    : isGerman
-    ? `${slicedDesc} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`
-    : `${slicedDesc} Chat directly with ${giantData.name} via AI to gain wisdom.`;
+
+  // Full multilingual title & description
+  const titleMap: Record<string, string> = {
+    ko: `${giantData.name} | AI 대화 - Giants Wisdom`,
+    de: `${giantData.name} | KI Chat - Giants Wisdom`,
+    ja: `${giantData.name} | AIチャット - Giants Wisdom`,
+    es: `${giantData.name} | Chat IA - Giants Wisdom`,
+    fr: `${giantData.name} | Chat IA - Giants Wisdom`,
+    en: `${giantData.name} | AI Chat - Giants Wisdom`,
+  };
+  const descMap: Record<string, string> = {
+    ko: `${slicedDesc} ${giantData.name}와 AI로 직접 대화하고 지혜를 얻어보세요.`,
+    de: `${slicedDesc} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`,
+    ja: `${slicedDesc} AIで${giantData.name}と直接対話し、知恵を得てください。`,
+    es: `${slicedDesc} Chatea directamente con ${giantData.name} a través de IA para ganar sabiduría.`,
+    fr: `${slicedDesc} Chattez directement avec ${giantData.name} via l'IA pour acquérir de la sagesse.`,
+    en: `${slicedDesc} Chat directly with ${giantData.name} via AI to gain wisdom.`,
+  };
+  const title = titleMap[locale] ?? titleMap['en'];
+  const description = descMap[locale] ?? descMap['en'];
 
   const absoluteImageUrl = giant.imageUrl.startsWith('http')
     ? giant.imageUrl
-    : `https://www.giantswisdom.com${giant.imageUrl}`;
+    : `${BASE_URL}${giant.imageUrl}`;
+
+  // Build full hreflang alternates for all 6 locales
+  const hreflangLanguages: Record<string, string> = {
+    'x-default': `${BASE_URL}/ko/giant/${slug}`,
+  };
+  for (const loc of LOCALES) {
+    hreflangLanguages[loc] = `${BASE_URL}/${loc}/giant/${slug}`;
+  }
 
   return {
-    title: isKorean
-      ? `${giantData.name} | AI 대화 - Giants Wisdom`
-      : isGerman
-      ? `${giantData.name} | KI Chat - Giants Wisdom`
-      : `${giantData.name} | AI Chat - Giants Wisdom`,
+    title,
     description,
     keywords: [
       giantData.name,
       giant.era,
       giant.field,
-      isKorean ? "AI 대화" : isGerman ? "KI Chat" : "AI Chat",
-      isKorean ? "역사 위인" : isGerman ? "Historische Persönlichkeit" : "Historical Figure",
+      locale === 'ko' ? "AI 대화" : locale === 'de' ? "KI Chat" : locale === 'ja' ? "AIチャット" : "AI Chat",
+      locale === 'ko' ? "역사 위인" : locale === 'de' ? "Historische Persönlichkeit" : locale === 'ja' ? "歴史上の偉人" : "Historical Figure",
       "Giants Wisdom"
     ],
     alternates: {
-      canonical: `https://www.giantswisdom.com/${locale}/giant/${slug}`,
-      languages: {
-        'ko': `https://www.giantswisdom.com/ko/giant/${slug}`,
-        'en': `https://www.giantswisdom.com/en/giant/${slug}`,
-        'de': `https://www.giantswisdom.com/de/giant/${slug}`,
-        'x-default': `https://www.giantswisdom.com/ko/giant/${slug}`
-      }
+      canonical: `${BASE_URL}/${locale}/giant/${slug}`,
+      languages: hreflangLanguages,
     },
     openGraph: {
       title: `${giantData.name} - Giants Wisdom`,
-      description: giantData.headline,
-      url: `https://www.giantswisdom.com/${locale}/giant/${slug}`,
+      description: giantData.headline || description,
+      url: `${BASE_URL}/${locale}/giant/${slug}`,
       type: 'website',
       images: [{
         url: absoluteImageUrl,
@@ -76,9 +91,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: 'summary_large_image',
       images: [absoluteImageUrl],
-      title: isKorean
-        ? `${giantData.name} | AI 대화 - Giants Wisdom`
-        : `${giantData.name} | AI Chat - Giants Wisdom`,
+      title,
       description,
     }
   };
