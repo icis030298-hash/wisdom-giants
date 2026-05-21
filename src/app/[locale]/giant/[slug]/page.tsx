@@ -178,9 +178,16 @@ export default async function GiantDetailPage({ params }: Props) {
     'wisdom': ['Philosophy', 'Wisdom', 'Ethics'],
     'creativity': ['Creativity', 'Art', 'Innovation'],
   };
-  const eraYearMatch = (giant.era || '').match(/\((\d{4})[~\-–](\d{4})\)/);
-  const birthDate = eraYearMatch?.[1];
-  const deathDate = eraYearMatch?.[2];
+  const localizedEra = giantTranslation.era || giant.era || '';
+  const eraYearMatch = localizedEra.match(/\((\d{1,4})(?:[^~\-–]*)?[~\-–]\s*(\d{1,4})/);
+  const isBC = localizedEra.toLowerCase().includes('a.c.') || localizedEra.toLowerCase().includes('bc');
+  
+  let birthDate = eraYearMatch?.[1];
+  let deathDate = eraYearMatch?.[2];
+  
+  if (isBC && birthDate) birthDate = `-${birthDate.padStart(4, '0')}`;
+  if (isBC && deathDate) deathDate = `-${deathDate.padStart(4, '0')}`;
+
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',

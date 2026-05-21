@@ -60,22 +60,25 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   }
 
   return {
-    title,
+    metadataBase: new URL('https://www.giantswisdom.com'),
+    title: {
+      default: title,
+      template: `%s | Giants Wisdom`
+    },
     description,
     keywords,
     authors: [{ name: 'Giants Wisdom Team' }],
     alternates: {
-      canonical: `https://www.giantswisdom.com/${locale}`,
       languages: {
-        'ko': 'https://www.giantswisdom.com/ko',
-        'en': 'https://www.giantswisdom.com/en',
-        'de': 'https://www.giantswisdom.com/de',
-        'ja': 'https://www.giantswisdom.com/ja',
-        'es': 'https://www.giantswisdom.com/es',
-        'fr': 'https://www.giantswisdom.com/fr',
-        'it': 'https://www.giantswisdom.com/it',
-        'pt': 'https://www.giantswisdom.com/pt',
-        'x-default': 'https://www.giantswisdom.com/ko'
+        'ko': '/ko',
+        'en': '/en',
+        'de': '/de',
+        'ja': '/ja',
+        'es': '/es',
+        'fr': '/fr',
+        'it': '/it',
+        'pt': '/pt',
+        'x-default': '/ko'
       }
     },
     openGraph: {
