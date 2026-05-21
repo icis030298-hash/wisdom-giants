@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 
   const BASE_URL = 'https://www.giantswisdom.com';
-  const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr'] as const;
+  const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt'] as const;
 
   const baseDesc = giantData.shortDescription || '';
   const slicedDesc = baseDesc.length > 120 ? baseDesc.slice(0, 120) + '...' : baseDesc;
@@ -36,6 +36,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ja: `${giantData.name} | AIチャット - Giants Wisdom`,
     es: `${giantData.name} | Chat IA - Giants Wisdom`,
     fr: `${giantData.name} | Chat IA - Giants Wisdom`,
+    it: `${giantData.name} | Chat IA - Giants Wisdom`,
+    pt: `${giantData.name} | Chat IA - Giants Wisdom`,
     en: `${giantData.name} | AI Chat - Giants Wisdom`,
   };
   const descMap: Record<string, string> = {
@@ -44,6 +46,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ja: `${slicedDesc} AIで${giantData.name}と直接対話し、知恵を得てください。`,
     es: `${slicedDesc} Chatea directamente con ${giantData.name} a través de IA para ganar sabiduría.`,
     fr: `${slicedDesc} Chattez directement avec ${giantData.name} via l'IA pour acquérir de la sagesse.`,
+    it: `${slicedDesc} Chatta direttamente con ${giantData.name} tramite IA per acquisire saggezza.`,
+    pt: `${slicedDesc} Converse diretamente com ${giantData.name} via IA para obter sabedoria.`,
     en: `${slicedDesc} Chat directly with ${giantData.name} via AI to gain wisdom.`,
   };
   const title = titleMap[locale] ?? titleMap['en'];
@@ -68,8 +72,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       giantData.name,
       giant.era,
       giant.field,
-      locale === 'ko' ? "AI 대화" : locale === 'de' ? "KI Chat" : locale === 'ja' ? "AIチャット" : "AI Chat",
-      locale === 'ko' ? "역사 위인" : locale === 'de' ? "Historische Persönlichkeit" : locale === 'ja' ? "歴史上の偉人" : "Historical Figure",
+      locale === 'ko' ? "AI 대화" : locale === 'de' ? "KI Chat" : locale === 'ja' ? "AIチャット" : locale === 'it' ? "Chat IA" : locale === 'pt' ? "Chat IA" : "AI Chat",
+      locale === 'ko' ? "역사 위인" : locale === 'de' ? "Historische Persönlichkeit" : locale === 'ja' ? "歴史上の偉人" : locale === 'it' ? "Figura Storica" : locale === 'pt' ? "Figura Histórica" : "Historical Figure",
       "Giants Wisdom"
     ],
     alternates: {
@@ -113,13 +117,14 @@ export default async function GiantDetailPage({ params }: Props) {
   
   // For locales without a dedicated narrative, fall back to English
   const getNarrativeText = (
-    enVal: string, 
-    koVal: string, 
+    enVal: string,
+    koVal: string,
     esVal?: string,
     deVal?: string,
     jaVal?: string,
     frVal?: string,
-    ptVal?: string
+    ptVal?: string,
+    itVal?: string
   ) => {
     if (locale === 'ko') return koVal;
     if (locale === 'es' && esVal) return esVal;
@@ -127,17 +132,18 @@ export default async function GiantDetailPage({ params }: Props) {
     if (locale === 'ja' && jaVal) return jaVal;
     if (locale === 'fr' && frVal) return frVal;
     if (locale === 'pt' && ptVal) return ptVal;
+    if (locale === 'it' && itVal) return itVal;
     return enVal;
   };
 
   const formattedNarrative = narrative ? {
-    epic: getNarrativeText(narrative.epic_en, narrative.epic_ko, narrative.epic_es, narrative.epic_de, narrative.epic_ja, narrative.epic_fr, narrative.epic_pt),
-    trials: getNarrativeText(narrative.trials_en, narrative.trials_ko, narrative.trials_es, narrative.trials_de, narrative.trials_ja, narrative.trials_fr, narrative.trials_pt),
-    overcoming: getNarrativeText(narrative.overcoming_en, narrative.overcoming_ko, narrative.overcoming_es, narrative.overcoming_de, narrative.overcoming_ja, narrative.overcoming_fr, narrative.overcoming_pt),
-    era: getNarrativeText(narrative.era_en, narrative.era_ko, narrative.era_es, narrative.era_de, narrative.era_ja, narrative.era_fr, narrative.era_pt),
+    epic: getNarrativeText(narrative.epic_en, narrative.epic_ko, narrative.epic_es, narrative.epic_de, narrative.epic_ja, narrative.epic_fr, narrative.epic_pt, narrative.epic_it),
+    trials: getNarrativeText(narrative.trials_en, narrative.trials_ko, narrative.trials_es, narrative.trials_de, narrative.trials_ja, narrative.trials_fr, narrative.trials_pt, narrative.trials_it),
+    overcoming: getNarrativeText(narrative.overcoming_en, narrative.overcoming_ko, narrative.overcoming_es, narrative.overcoming_de, narrative.overcoming_ja, narrative.overcoming_fr, narrative.overcoming_pt, narrative.overcoming_it),
+    era: getNarrativeText(narrative.era_en, narrative.era_ko, narrative.era_es, narrative.era_de, narrative.era_ja, narrative.era_fr, narrative.era_pt, narrative.era_it),
     wisdom: (narrative.wisdom || []).map((w: any) => ({
-      quote: getNarrativeText(w.quote_en, w.quote_ko, w.quote_es, w.quote_de, w.quote_ja, w.quote_fr, w.quote_pt),
-      meaning: getNarrativeText(w.meaning_en, w.meaning_ko, w.meaning_es, w.meaning_de, w.meaning_ja, w.meaning_fr, w.meaning_pt)
+      quote: getNarrativeText(w.quote_en, w.quote_ko, w.quote_es, w.quote_de, w.quote_ja, w.quote_fr, w.quote_pt, w.quote_it),
+      meaning: getNarrativeText(w.meaning_en, w.meaning_ko, w.meaning_es, w.meaning_de, w.meaning_ja, w.meaning_fr, w.meaning_pt, w.meaning_it)
     }))
   } : null;
 
@@ -185,8 +191,8 @@ export default async function GiantDetailPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: locale === 'ko' ? '홈' : 'Home', item: `${BASE_URL}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: locale === 'ko' ? '거인들의 전당' : 'Hall of Giants', item: `${BASE_URL}/${locale}#giants` },
+      { '@type': 'ListItem', position: 1, name: locale === 'ko' ? '홈' : locale === 'it' ? 'Home' : locale === 'pt' ? 'Início' : 'Home', item: `${BASE_URL}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: locale === 'ko' ? '거인들의 전당' : locale === 'it' ? 'Sala delle Grandi Menti' : locale === 'pt' ? 'Salão das Grandes Mentes' : 'Hall of Giants', item: `${BASE_URL}/${locale}#giants` },
       { '@type': 'ListItem', position: 3, name: giantTranslation.name || giant.name, item: `${BASE_URL}/${locale}/giant/${giant.slug}` },
     ],
   };
