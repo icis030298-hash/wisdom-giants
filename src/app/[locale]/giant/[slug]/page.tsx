@@ -136,11 +136,16 @@ export default async function GiantDetailPage({ params }: Props) {
     return enVal;
   };
 
+  // Locales with full narrative translations in final-narratives.json
+  const NARRATIVE_LOCALES = ['ko', 'en', 'es', 'de', 'ja', 'fr'];
+  const hasNarrativeLocale = NARRATIVE_LOCALES.includes(locale);
+
   const formattedNarrative = narrative ? {
     epic: getNarrativeText(narrative.epic_en, narrative.epic_ko, narrative.epic_es, narrative.epic_de, narrative.epic_ja, narrative.epic_fr, narrative.epic_pt, narrative.epic_it),
-    trials: getNarrativeText(narrative.trials_en, narrative.trials_ko, narrative.trials_es, narrative.trials_de, narrative.trials_ja, narrative.trials_fr, narrative.trials_pt, narrative.trials_it),
-    overcoming: getNarrativeText(narrative.overcoming_en, narrative.overcoming_ko, narrative.overcoming_es, narrative.overcoming_de, narrative.overcoming_ja, narrative.overcoming_fr, narrative.overcoming_pt, narrative.overcoming_it),
-    era: getNarrativeText(narrative.era_en, narrative.era_ko, narrative.era_es, narrative.era_de, narrative.era_ja, narrative.era_fr, narrative.era_pt, narrative.era_it),
+    // For IT/PT without dedicated translations, return undefined so page falls back to messages.json pain/recovery/era
+    trials: hasNarrativeLocale ? getNarrativeText(narrative.trials_en, narrative.trials_ko, narrative.trials_es, narrative.trials_de, narrative.trials_ja, narrative.trials_fr, narrative.trials_pt, narrative.trials_it) : undefined,
+    overcoming: hasNarrativeLocale ? getNarrativeText(narrative.overcoming_en, narrative.overcoming_ko, narrative.overcoming_es, narrative.overcoming_de, narrative.overcoming_ja, narrative.overcoming_fr, narrative.overcoming_pt, narrative.overcoming_it) : undefined,
+    era: hasNarrativeLocale ? getNarrativeText(narrative.era_en, narrative.era_ko, narrative.era_es, narrative.era_de, narrative.era_ja, narrative.era_fr, narrative.era_pt, narrative.era_it) : undefined,
     wisdom: (narrative.wisdom || []).map((w: any) => ({
       quote: getNarrativeText(w.quote_en, w.quote_ko, w.quote_es, w.quote_de, w.quote_ja, w.quote_fr, w.quote_pt, w.quote_it),
       meaning: getNarrativeText(w.meaning_en, w.meaning_ko, w.meaning_es, w.meaning_de, w.meaning_ja, w.meaning_fr, w.meaning_pt, w.meaning_it)
