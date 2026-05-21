@@ -134,7 +134,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const overcomingContent = narrative?.overcoming || tg.recovery;
   const wisdomList = narrative?.wisdom || (giant.lessons || []).map((l: any) => ({ quote: l.title, meaning: l.content }));
   
-  const eraContent = tg.era || narrative?.era || narrative?.era_ko || giant.era;
+  const eraContent = narrative?.era || tg.era || giant.era;
 
   // Helper to render text (simplified, as we'll use CSS pre-wrap)
   const formatContent = (text: string) => {
