@@ -248,69 +248,69 @@ export const questions: Question[] = [
   }
 ];
 
-export const archetypes: Record<string, { name: { ko: string; en: string; de: string; ja: string; es?: string; fr?: string }; description: { ko: string; en: string; de: string; ja: string; es?: string; fr?: string } }> = {
+export const archetypes: Record<string, { name: { ko: string; en: string; de: string; ja: string; pt?: string; it?: string; es?: string; fr?: string }; description: { ko: string; en: string; de: string; ja: string; pt?: string; it?: string; es?: string; fr?: string } }> = {
   'LRDI': {
-    name: {ko: "대륙을 재설계하는 설계자", en: "The Universal Architect", de: "Der universelle Architekt", ja: "世界を再設計する設計者" , es: "El Arquitecto Universal", fr: "L'Architecte Universel"},
+    name: {ko: "대륙을 재설계하는 설계자", en: "The Universal Architect", de: "Der universelle Architekt", ja: "世界を再設計する設計者" , pt: "O Arquiteto Universal", es: "El Arquitecto Universal", fr: "L'Architecte Universel", it: "L'Architetto Universale" },
     description: {ko: "당신은 거대한 시야와 차가운 이성을 바탕으로 세상을 혁명적으로 바꾸는 전략가입니다.", en: "You are a strategist who revolutionizes the world based on a grand vision and cool reason.", de: "Sie sind ein Stratege, der die Welt auf der Grundlage einer großen Vision und kühler Vernunft revolutioniert.", ja: "あなたは壮大な視野と冷静な理性に基づいて世界に革命をもたらす戦略家です。" , es: "Eres un estratega que revoluciona el mundo basándote en una gran visión y una razón fría.", fr: "Vous êtes un stratège qui révolutionne le monde grâce à une vision grandiose et une raison froide."}
   },
   'LPDI': {
-    name: {ko: "멈추지 않는 시대의 개척자", en: "The Eternal Pioneer", de: "Der ewige Pionier", ja: "立ち止まらない時代の開拓者" , es: "El Pionero Eterno", fr: "Le Pionnier Audacieux"},
+    name: {ko: "멈추지 않는 시대의 개척자", en: "The Eternal Pioneer", de: "Der ewige Pionier", ja: "立ち止まらない時代の開拓者" , pt: "O Pioneiro Audacioso", es: "El Pionero Eterno", fr: "Le Pionnier Audacieux", it: "Il Pioniere Audace" },
     description: {ko: "당신은 불가능에 도전하는 뜨거운 심장과 혁신적인 아이디어로 인류의 한계를 넓힙니다.", en: "You expand the limits of humanity with a burning heart that challenges the impossible and innovative ideas.", de: "Sie erweitern die Grenzen der Menschheit mit einem brennenden Herzen, das das Unmögliche herausfordert, und innovativen Ideen.", ja: "あなたは不可能に挑戦する熱き心と革新的なアイデアで、人類の限界を広げる人物です。" , es: "Expandes los límites de la humanidad con un corazón ardiente que desafía lo imposible e ideas innovadoras.", fr: "Vous repoussez les limites de l'humanité avec un cœur ardent qui défie l'impossible et des idées novatrices."}
   },
   'LRHI': {
-    name: {ko: "깨어있는 지혜의 개혁가", en: "The Enlightened Reformer", de: "Der aufgeklärte Reformer", ja: "目覚めた知恵の改革者" , es: "El Reformador Iluminado", fr: "Le Réformateur Éclairé"},
+    name: {ko: "깨어있는 지혜의 개혁가", en: "The Enlightened Reformer", de: "Der aufgeklärte Reformer", ja: "目覚めた知恵の改革者" , pt: "O Reformador Iluminado", es: "El Reformador Iluminado", fr: "Le Réformateur Éclairé", it: "Il Riformatore Illuminato" },
     description: {ko: "당신은 전체 시스템의 안정을 유지하면서도 더 나은 미래를 위해 지혜롭게 변화를 이끕니다.", en: "You wisely lead change for a better future while maintaining the stability of the entire system.", de: "Sie führen klug Veränderungen für eine bessere Zukunft herbei, während Sie die Stabilität des Gesamtsystems wahren.", ja: "あなたは全体のシステムの安定を維持しながらも、より良い未来のために賢明に変化を導きます。" , es: "Lideras sabiamente el cambio hacia un futuro mejor mientras mantienes la estabilidad de todo el sistema.", fr: "Vous menez sagement le changement pour un avenir meilleur tout en maintenant la stabilité de l'ensemble du système."}
   },
   'LPHI': {
-    name: {ko: "영감을 불어넣는 시대의 리더", en: "The Inspirational Leader", de: "Der inspirierende Anführer", ja: "インスピレーションを与える時代のリーダー" , es: "El Líder Inspirador", fr: "Le Leader Inspirateur"},
+    name: {ko: "영감을 불어넣는 시대의 리더", en: "The Inspirational Leader", de: "Der inspirierende Anführer", ja: "インスピレーションを与える時代のリーダー" , pt: "O Líder Inspirador", es: "El Líder Inspirador", fr: "Le Leader Inspirateur", it: "Il Leader Ispiratore" },
     description: {ko: "당신은 원대한 꿈을 향해 모두의 마음을 하나로 모으고 큰 변화를 일구어내는 리더입니다.", en: "You are a leader who gathers everyone's hearts toward a grand dream and achieves great change.", de: "Sie sind eine Führungspersönlichkeit, die die Herzen aller für einen großen Traum gewinnt und bedeutende Veränderungen bewirkt.", ja: "あなたは壮大な夢に向かって皆の心を一つに集め、大きな変化を成し遂げるリーダーです。" , es: "Eres un líder que reúne los corazones de todos hacia un gran sueño y logra un gran cambio.", fr: "Vous êtes un leader qui rassemble tous les cœurs vers un rêve grandiose et réalise de grands changements."}
   },
   'LRDT': {
-    name: {ko: "질서를 수호하는 결단가", en: "The Traditional Decider", de: "Der traditionelle Entscheider", ja: "秩序を守護する決断家" , es: "El Decisor Tradicional", fr: "Le Décideur Traditionnel"},
+    name: {ko: "질서를 수호하는 결단가", en: "The Traditional Decider", de: "Der traditionelle Entscheider", ja: "秩序を守護する決断家" , pt: "O Decisor Tradicional", es: "El Decisor Tradicional", fr: "Le Décideur Traditionnel", it: "Il Decisore Tradizionale" },
     description: {ko: "당신은 고전적인 가치와 이성적인 판단을 바탕으로 혼란 속에서 질서를 바로잡는 힘이 있습니다.", en: "You have the power to restore order amidst chaos based on classic values and rational judgment.", de: "Sie haben die Macht, inmitten des Chaos Ordnung auf der Grundlage klassischer Werte und rationaler Urteile wiederherzustellen.", ja: "あなたは古典的な価値観と理性的な判断に基づき、混乱の中で秩序を正す力を持っています。" , es: "Tienes el poder de restaurar el orden en medio del caos basándote en valores clásicos y juicios racionales.", fr: "Vous avez le pouvoir de restaurer l'ordre au milieu du chaos en vous basant sur des valeurs classiques et un jugement rationnel."}
   },
   'LPDT': {
-    name: {ko: "신념을 지키는 강철의 혁명가", en: "The Charismatic Rebel", de: "Der charismatische Rebell", ja: "信念を貫く鋼の革命家" , es: "El Rebelde Carismático", fr: "Le Rebelle Charismatique"},
+    name: {ko: "신념을 지키는 강철의 혁명가", en: "The Charismatic Rebel", de: "Der charismatische Rebell", ja: "信念を貫く鋼の革命家" , pt: "O Rebelde Carismático", es: "El Rebelde Carismático", fr: "Le Rebelle Charismatique", it: "Il Ribelle Carismatico" },
     description: {ko: "당신은 자신이 옳다고 믿는 전통적 가치를 위해 뜨겁게 투쟁하고 세상을 움직입니다.", en: "You fight passionately for the traditional values you believe are right and move the world.", de: "Sie kämpfen leidenschaftlich für die traditionellen Werte, an die Sie glauben, und bewegen die Welt.", ja: "あなたは自分が正しいと信じる伝統的な価値観のために熱く闘い、世界を動かします。" , es: "Luchas apasionadamente por los valores tradicionales que crees correctos y mueves al mundo.", fr: "Vous vous battez avec passion pour les valeurs traditionnelles que vous croyez justes et faites bouger le monde."}
   },
   'LRHT': {
-    name: {ko: "품격 있는 시대의 중재자", en: "The Gracious Sovereign", de: "Der gnädige Souverän", ja: "品格ある時代の調停者" , es: "El Soberano Benevolente", fr: "Le Souverain Bienveillant"},
+    name: {ko: "품격 있는 시대의 중재자", en: "The Gracious Sovereign", de: "Der gnädige Souverän", ja: "品格ある時代の調停者" , pt: "O Soberano Benevolente", es: "El Soberano Benevolente", fr: "Le Souverain Bienveillant", it: "Il Sovrano Benevolo" },
     description: {ko: "당신은 거시적인 안목과 조화로운 소통으로 역사적인 평화와 합의를 이끌어냅니다.", en: "You lead historical peace and consensus through a macro perspective and harmonious communication.", de: "Sie führen historischen Frieden und Konsens durch eine Makroperspektive und harmonische Kommunikation herbei.", ja: "あなたはマクロな視野と調和のとれた対話によって、歴史的な平和と合意を導き出します。" , es: "Lideras la paz y el consenso histórico a través de una perspectiva macro y una comunicación armoniosa.", fr: "Vous menez la paix et le consensus historiques grâce à une perspective globale et une communication harmonieuse."}
   },
   'LPHT': {
-    name: {ko: "모두를 품는 역사의 수호자", en: "The Devoted Unifier", de: "Der hingebungsvolle Vereiner", ja: "すべてを包み込む歴史の守護者" , es: "El Unificador Dedicado", fr: "L'Unificateur Dévoué"},
+    name: {ko: "모두를 품는 역사의 수호자", en: "The Devoted Unifier", de: "Der hingebungsvolle Vereiner", ja: "すべてを包み込む歴史の守護者" , pt: "O Unificador Dedicado", es: "El Unificador Dedicado", fr: "L'Unificateur Dévoué", it: "L'Unificatore Devoto" },
     description: {ko: "당신은 따뜻한 인류애와 헌신적인 자세로 공동체의 전통을 지키고 화합을 이룹니다.", en: "You preserve community traditions and achieve harmony through warm humanity and a devoted attitude.", de: "Sie bewahren Gemeinschaftstraditionen und erreichen Harmonie durch herzliche Menschlichkeit und eine hingebungsvolle Haltung.", ja: "あなたは温かい人間愛と献身的な姿勢で共同体の伝統を守り、調和をもたらします。" , es: "Preservas las tradiciones comunitarias y logras la armonía a través de una cálida humanidad y una actitud dedicada.", fr: "Vous préservez les traditions communautaires et réalisez l'harmonie grâce à une humanité chaleureuse et une attitude dévouée."}
   },
   'SRDI': {
-    name: {ko: "정교한 미래의 발명가", en: "The Precise Inventor", de: "Der präzise Erfinder", ja: "精巧な未来の発明家" , es: "El Inventor Preciso", fr: "L'Inventeur Précis"},
+    name: {ko: "정교한 미래의 발명가", en: "The Precise Inventor", de: "Der präzise Erfinder", ja: "精巧な未来の発明家" , pt: "O Inventor Preciso", es: "El Inventor Preciso", fr: "L'Inventeur Précis", it: "L'Inventore Preciso" },
     description: {ko: "당신은 날카로운 논리와 창의적인 발상으로 우리 삶의 구체적인 부분을 혁신적으로 바꿉니다.", en: "You innovatively change specific parts of our lives with sharp logic and creative ideas.", de: "Sie verändern bestimmte Bereiche unseres Lebens innovativ mit scharfer Logik und kreativen Ideen.", ja: "あなたは鋭い論理とクリエイティブな発想で、私たちの生活の具体的な部分を革新的に変えます。" , es: "Cambias de manera innovadora partes específicas de nuestras vidas con una lógica aguda e ideas creativas.", fr: "Vous changez de manière innovante des aspects précis de nos vies avec une logique acérée et des idées créatives."}
   },
   'SPDI': {
-    name: {ko: "불꽃 같은 영혼의 예술가", en: "The Radical Creator", de: "Der radikale Schöpfer", ja: "炎のような魂の芸術家" , es: "El Creador Radical", fr: "Le Créateur Radical"},
+    name: {ko: "불꽃 같은 영혼의 예술가", en: "The Radical Creator", de: "Der radikale Schöpfer", ja: "炎のような魂の芸術家" , pt: "O Criador Radical", es: "El Creador Radical", fr: "Le Créateur Radical", it: "Il Creatore Radicale" },
     description: {ko: "당신은 타협하지 않는 열정과 파격적인 감각으로 세상에 유일무이한 작품을 남깁니다.", en: "You leave unique works in the world with uncompromising passion and unconventional sense.", de: "Sie hinterlassen einzigartige Werke in der Welt mit kompromissloser Leidenschaft und unkonventionellem Gespür.", ja: "あなたは妥協のない情熱と型破りなセンスで、世界に唯一無二作品を残します。" , es: "Dejas obras únicas en el mundo con una pasión inquebrantable y un sentido poco convencional.", fr: "Vous laissez des œuvres uniques dans le monde avec une passion sans compromis et un sens non conventionnel."}
   },
   'SRHI': {
-    name: {ko: "실천하는 지혜의 현자", en: "The Practical Sage", de: "Der praktische Weise", ja: "実践する知恵の賢者" , es: "El Sabio Práctico", fr: "Le Sage Visionnaire"},
+    name: {ko: "실천하는 지혜의 현자", en: "The Practical Sage", de: "Der praktische Weise", ja: "実践する知恵の賢者" , pt: "O Sábio Visionário", es: "El Sabio Práctico", fr: "Le Sage Visionnaire", it: "Il Saggio Visionario" },
     description: {ko: "당신은 조용하지만 명확한 지혜로 일상의 문제를 해결하고 조화로운 발전을 꾀합니다.", en: "You solve everyday problems and seek harmonious development with quiet but clear wisdom.", de: "Sie lösen alltägliche Probleme und streben nach einer harmonischen Entwicklung mit stiller, aber klarer Weisheit.", ja: "あなたは静かですが明確な知恵で日常の課題を解決し、調和のとれた発展を図ります。" , es: "Resuelves problemas cotidianos y buscas un desarrollo armonioso con una sabiduría silenciosa pero clara.", fr: "Vous résolvez les problèmes du quotidien et recherchez un développement harmonieux avec une sagesse silencieuse mais claire."}
   },
   'SPHI': {
-    name: {ko: "아름다움을 빚는 조화의 거장", en: "The Compassionate Artist", de: "Der mitfühlende Künstler", ja: "美を紡ぐ調和の巨匠" , es: "El Artista Compasivo", fr: "L'Artiste Compatissant"},
+    name: {ko: "아름다움을 빚는 조화의 거장", en: "The Compassionate Artist", de: "Der mitfühlende Künstler", ja: "美を紡ぐ調和の巨匠" , pt: "O Artista Compassivo", es: "El Artista Compasivo", fr: "L'Artiste Compatissant", it: "L'Artista Compassionevole" },
     description: {ko: "당신은 인간에 대한 깊은 이해와 따뜻한 시선으로 세상의 상처를 치유하고 변화시킵니다.", en: "You heal and change the world's wounds with deep understanding and a warm perspective on humans.", de: "Sie heilen und verändern die Wunden der Welt mit tiefem Verständnis und einer warmen Perspektive auf den Menschen.", ja: "あなたは人間に対する深い理解と温かい眼差しで、世界の傷を癒し、変化をもたらします。" , es: "Sanas y cambias las heridas del mundo con una comprensión profunda y una perspectiva cálida de los seres humanos.", fr: "Vous guérissez et changez les blessures du monde avec une compréhension profonde et un regard chaleureux sur l'être humain."}
   },
   'SRDT': {
-    name: {ko: "냉철한 일상의 수호자", en: "The Stoic Guardian", de: "Der stoische Wächter", ja: "冷静沈着な日常の守護者" , es: "El Guardián Estoico", fr: "Le Gardien Stoïque"},
+    name: {ko: "냉철한 일상의 수호자", en: "The Stoic Guardian", de: "Der stoische Wächter", ja: "冷静沈着な日常の守護者" , pt: "O Guardião Estoico", es: "El Guardián Estoico", fr: "Le Gardien Stoïque", it: "Il Guardiano Stoico" },
     description: {ko: "당신은 현실적인 판단과 전통적인 원칙을 고수하며 묵묵히 자신의 소임을 완수합니다.", en: "You silently fulfill your duties while adhering to realistic judgments and traditional principles.", de: "Sie erfüllen schweigend Ihre Pflichten, während Sie sich an realistische Urteile und traditionelle Prinzipien halten.", ja: "あなたは現実的な判断と伝統的な原則を堅持し、黙々と自らの任務を果たします。" , es: "Cumples silenciosamente tus deberes mientras te adhieres a juicios realistas y principios tradicionales.", fr: "Vous accomplissez silencieusement vos devoirs tout en adhérant à des jugements réalistes et à des principes traditionnels."}
   },
   'SPDT': {
-    name: {ko: "행동하는 양심의 투사", en: "The Passionate Activist", de: "Der leidenschaftliche Aktivist", ja: "行動する良心の闘士" , es: "El Activista Apasionado", fr: "L'Activiste Passionné"},
+    name: {ko: "행동하는 양심의 투사", en: "The Passionate Activist", de: "Der leidenschaftliche Aktivist", ja: "行動する良心の闘士" , pt: "O Ativista Apaixonado", es: "El Activista Apasionado", fr: "L'Activiste Passionné", it: "L'Attivista Appassionato" },
     description: {ko: "당신은 불의를 참지 못하는 열정으로 우리 주변의 소중한 가치들을 끝까지 지켜냅니다.", en: "You protect the precious values around us to the end with a passion that cannot tolerate injustice.", de: "Sie schützen die kostbaren Werte um uns herum bis zum Ende mit einer Leidenschaft, die Ungerechtigkeit nicht jodeln kann.", ja: "あなたは不正を許さない情熱で、私たちの周りの大切な価値観を最後まで守り抜きます。" , es: "Proteges los valores preciosos que nos rodean hasta el final con una pasión que no tolera la injusticia.", fr: "Vous protégez les valeurs précieuses qui nous entourent jusqu'au bout avec une passion qui ne peut tolérer l'injustice."}
   },
   'SRHT': {
-    name: {ko: "겸손한 삶의 관찰자", en: "The Humble Protector", de: "Der bescheidene Beschützer", ja: "謙虚な生活の観察者" , es: "El Protector Humilde", fr: "Le Protecteur Humble"},
+    name: {ko: "겸손한 삶의 관찰자", en: "The Humble Protector", de: "Der bescheidene Beschützer", ja: "謙虚な生活の観察者" , pt: "O Protetor Humilde", es: "El Protector Humilde", fr: "Le Protecteur Humble", it: "Il Protettore Umile" },
     description: {ko: "당신은 전통과 질서를 존중하며 조화로운 삶을 통해 주변에 안정과 평화를 전파합니다.", en: "You spread stability and peace around you through a harmonious life while respecting tradition and order.", de: "Sie verbreiten Stabilität und Frieden um sich herum durch ein harmonisches Leben, während Sie Tradition und Ordnung respektieren.", ja: "あなたは伝統と秩序を尊重し、調和のとれた生活を通じて周囲に安定と平和を広めます。" , es: "Difundes estabilidad y paz a tu alrededor a través de una vida armoniosa mientras respetas la tradición y el orden.", fr: "Vous propagez la stabilité et la paix autour de vous à travers une vie harmonieuse tout en respectant la tradition et l'ordre."}
   },
   'SPHT': {
-    name: {ko: "평화를 사랑하는 영혼", en: "The Gentle Soul", de: "Die sanfte Seele", ja: "平和を愛する温和な魂" , es: "El Alma Gentil", fr: "L'Âme Douce"},
+    name: {ko: "평화를 사랑하는 영혼", en: "The Gentle Soul", de: "Die sanfte Seele", ja: "平和を愛する温和な魂" , pt: "A Alma Gentil", es: "El Alma Gentil", fr: "L'Âme Douce", it: "L'Anima Gentile" },
     description: {ko: "당신은 따뜻한 감성과 조화로운 태도로 사람들의 마음을 하나로 묶는 특별한 힘이 있습니다.", en: "You have a special power to tie people's hearts together with warm sensitivity and a harmonious attitude.", de: "Sie haben eine besondere Kraft, die Herzen der Menschen mit warmer Sensibilität und einer harmonischen Haltung zu verbinden.", ja: "あなたは温かい感性と調和のとれた態度で、人々の心を一つに結びつける特別な力を持っています。" , es: "Tienes un poder especial para unir los corazones de las personas con una cálida sensibilidad y una actitud armoniosa.", fr: "Vous avez le pouvoir spécial d'unir les cœurs des gens avec une sensibilité chaleureuse et une attitude harmonieuse."}
   }
 };

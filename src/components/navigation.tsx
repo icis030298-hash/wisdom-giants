@@ -39,6 +39,8 @@ export function Navigation() {
     { code: 'ja', label: '日本語' },
     { code: 'es', label: 'Español' },
     { code: 'fr', label: 'Français' },
+    { code: 'it', label: 'Italiano' },
+    { code: 'pt', label: 'Português' },
   ]
   
   useEffect(() => {
@@ -101,8 +103,8 @@ export function Navigation() {
               <DropdownMenuTrigger asChild>
                 <button className="flex items-center gap-2 px-3 py-2 rounded-xl glass border border-white/10 text-sm text-foreground hover:bg-white/5 transition-all outline-none">
                   <Languages className="w-4 h-4 text-amber-400" />
-                  <span className={(locale === 'ja' || locale === 'es' || locale === 'fr') ? '' : 'uppercase'}>
-                    {locale === 'ja' ? '日本語' : locale === 'es' ? 'Español' : locale === 'fr' ? 'Français' : locale}
+                  <span className={(locale === 'ja' || locale === 'es' || locale === 'fr' || locale === 'it' || locale === 'pt') ? '' : 'uppercase'}>
+                    {locale === 'ja' ? '日本語' : locale === 'es' ? 'Español' : locale === 'fr' ? 'Français' : locale === 'it' ? 'Italiano' : locale === 'pt' ? 'Português' : locale}
                   </span>
                   <ChevronDown className="w-3 h-3 text-muted-foreground" />
                 </button>

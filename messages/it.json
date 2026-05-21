@@ -1,0 +1,1586 @@
+{
+  "Navigation": {
+    "hallOfGems": "Sala delle Grandi Menti",
+    "wisdomArchive": "Home",
+    "chatList": "Le Mie Conversazioni",
+    "about": "Chi Siamo",
+    "startExploring": "Esplora la Sala",
+    "title": "Giants Wisdom",
+    "subtitle": "La Sala delle Grandi Menti",
+    "login": "Accedi",
+    "logout": "Esci",
+    "myProfile": "Il Mio Profilo",
+    "signInRequired": "Accesso richiesto per visualizzare la cronologia."
+  },
+  "Auth": {
+    "loginModalTitle": "Benvenuto nella Sala delle Grandi Menti",
+    "loginModalDescription": "Conserva i tuoi dialoghi con le grandi figure storiche e gestisci l'eredità di saggezza incisa nella tua anima.",
+    "continueWithGoogle": "Continua con Google",
+    "loginSuccess": "Benvenuto nella Sala delle Grandi Menti.",
+    "logout": "Esci",
+    "chatList": "Le Mie Conversazioni",
+    "signInRequired": "Accesso Richiesto"
+  },
+  "Test": {
+    "title": "Trova la Grande Eredità che Scorre nella Tua Anima",
+    "subtitle": "Test di Analisi del Temperamento Storico",
+    "start": "Inizia il Test",
+    "back": "Indietro",
+    "banner": {
+      "new": "NUOVO CONTENUTO",
+      "title": "Quale grande figura storica\nti somiglia di più?",
+      "desc": "Scopri il tuo gemello storico in 15 domande.",
+      "button": "Inizia il Test"
+    },
+    "stages": {
+      "stage1": "Fase 1: Il Risveglio",
+      "stage2": "Fase 2: La Prova",
+      "stage3": "Fase 3: Il Destino",
+      "cleared": "Fase {stage} Superata!",
+      "ready": "Pronto per passare alla prossima fase?",
+      "next": "Continua alla Prossima Fase"
+    },
+    "analysis": {
+      "loading": "Analizzando gli echi della tua anima...",
+      "sub": "Cercando i tuoi pilastri nel grande flusso della storia."
+    },
+    "result": {
+      "matchFound": "Hai incontrato il tuo destino storico",
+      "archetype": "Il Tuo Profilo di Eredità",
+      "matchedGiant": "La figura storica più simile a te",
+      "readEpic": "Leggi la Biografia",
+      "chatNow": "Chatta Ora"
+    }
+  },
+  "Chats": {
+    "title": "Le Mie Conversazioni",
+    "subtitle": "Dialoghi con Grandi Menti",
+    "description": "Rivisita profonde intuizioni e consigli dalle più grandi figure della storia. Puoi riprendere qualsiasi conversazione in ogni momento.",
+    "emptyTitle": "Nessuna conversazione ancora",
+    "emptyDescription": "Le grandi menti sono pronte ad ascoltare le tue preoccupazioni. Inizia la tua prima conversazione ora!",
+    "startFirstChat": "Inizia la tua prima conversazione",
+    "messages": "messaggi",
+    "lastChat": "Ultima chat"
+  },
+  "Hero": {
+    "badge": "La Sala delle Grandi Menti",
+    "quote": "Se ho visto più lontano, è perché stavo sulle spalle di giganti.",
+    "quoteAuthor": "Isaac Newton",
+    "startJourney": "Inizia il Viaggio",
+    "startTest": "🧬 Trova il Tuo Gemello Storico",
+    "exploreHall": "🏛️ Esplora la Sala",
+    "stats": {
+      "minds": "Grandi Menti",
+      "questions": "Domande",
+      "free": "Completamente Gratuito",
+      "freeValue": "Gratuito"
+    },
+    "guide": {
+      "title": "Guida alla Sala della Saggezza",
+      "selectGiant": "Seleziona una Figura",
+      "selectGiantDesc": "Trova figure ispiratrici tra oltre 95 leggende storiche.",
+      "epic": "Racconti Epici",
+      "epicDesc": "Leggi storie di vita come se fossero le stesse grandi figure a raccontarle.",
+      "chat": "Chat in Tempo Reale",
+      "chatDesc": "Condividi le tue preoccupazioni con figure storiche rinate attraverso l'IA più recente.",
+      "startNow": "Inizia Ora"
+    }
+  },
+  "Featured": {
+    "title": "La Sala delle Grandi Menti",
+    "description": "Esplora la saggezza delle figure che hanno cambiato la storia. Seleziona un personaggio per iniziare una conversazione che trascende il tempo e lo spazio.",
+    "viewAll": "Tutte le Figure",
+    "bestPick": "Scelta Migliore",
+    "todaysPick": "Scelta di Oggi",
+    "chatNow": "Chatta Ora"
+  },
+  "GiantsGrid": {
+    "title": "Grandi Menti della Storia",
+    "description": "Esplora la saggezza delle figure che hanno cambiato il corso dell'umanità. Seleziona una figura storica per iniziare una conversazione che trascende il tempo e lo spazio.",
+    "searchPlaceholder": "Cerca per nome o campo...",
+    "allGiants": "Tutti",
+    "categories": {
+      "achievement": "Conquiste",
+      "adversity": "Avversità",
+      "wisdom": "Saggezza",
+      "creativity": "Creatività"
+    },
+    "resultsCount": "Trovate {filtered} figure storiche su {total}",
+    "readEpic": "Leggi la Biografia ✨",
+    "noResults": "Nessun risultato trovato",
+    "era": "Figura Storica",
+    "pagination": {
+      "first": "Primo",
+      "prev": "Prec",
+      "next": "Succ",
+      "last": "Ultimo"
+    }
+  },
+  "GiantDetail": {
+    "returnToSquare": "Torna alla Sala",
+    "chatWith": "Chatta con {name}",
+    "theLifeStory": "Storia di Vita",
+    "thePain": "La Sofferenza",
+    "theRecovery": "La Rinascita",
+    "wisdomLessons": "Lezioni di Saggezza",
+    "famousQuote": "Citazione Celebre",
+    "era": "Epoca",
+    "field": "Categoria",
+    "askForAdvice": "Chiedi un Consiglio",
+    "notFound": "Figura non trovata.",
+    "goHome": "Home"
+  },
+  "Giants": {
+    "steve-jobs": {
+      "name": "Steve Jobs",
+      "headline": "L'architetto visionario che ha unito la tecnologia all'anima umana.",
+      "shortDescription": "Il viaggio epico di Steve Jobs e la sua saggezza senza tempo.",
+      "quote": "Siate affamati, siate folli.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Steve Jobs. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Steve Jobs.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "king-sejong": {
+      "name": "Re Sejong il Grande",
+      "headline": "Il saggio monarca che creò l'Hangul per donare una voce al suo popolo e illuminare una nazione.",
+      "shortDescription": "La profonda vita e saggezza di Re Sejong il Grande.",
+      "quote": "Se il popolo mi critica, è perché non l'ho amato abbastanza.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Re Sejong il Grande. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Re Sejong il Grande.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "elon-musk": {
+      "name": "Elon Musk",
+      "headline": "Il pioniere indomabile che spinge i confini dell'umanità verso le stelle.",
+      "shortDescription": "Il viaggio epico di Elon Musk e la sua visione orientata al futuro.",
+      "quote": "Quando qualcosa è abbastanza importante, lo fai anche se le probabilità non sono a tuo favore.",
+      "era": "XXI Secolo",
+      "pain": "Three consecutive rocket explosions and financial collapse on the brink of bankruptcy.",
+      "recovery": "A final bet with his entire fortune and breaking through the crisis with first-principles thinking.",
+      "chatGreeting": "Saluti, sono Elon Musk. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Elon Musk.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "genghis-khan": {
+      "name": "Gengis Khan",
+      "headline": "Il conquistatore inarrestabile che ha forgiato il più grande impero della storia da umili origini.",
+      "shortDescription": "La saga leggendaria di Gengis Khan e la sua volontà di ferro.",
+      "quote": "Avere una sola mente e una sola fede, così potrai conquistare il mondo.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Gengis Khan. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Gengis Khan.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "alexander-the-great": {
+      "name": "Alessandro Magno",
+      "headline": "Il giovane re che unì Oriente e Occidente con la sua insaziabile sete di grandezza.",
+      "shortDescription": "La gloriosa campagna di Alessandro Magno e la sua eredità eterna.",
+      "quote": "Non c'è nulla di impossibile per colui che oserà.",
+      "era": "XIX Secolo a.C.",
+      "chatGreeting": "Saluti, sono Alessandro Magno. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Alessandro Magno.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "walt-disney": {
+      "name": "Walt Disney",
+      "headline": "L'immaginatore che trasformò i sogni in realtà e donò magia al mondo.",
+      "shortDescription": "Il viaggio magico di Walt Disney e la sua anima creativa.",
+      "quote": "Tutti i nostri sogni possono avverarsi, se abbiamo il coraggio di inseguirli.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Walt Disney. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Walt Disney.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "thomas-edison": {
+      "name": "Thomas Edison",
+      "headline": "L'inventore instancabile che illuminò il mondo con la sua persistenza.",
+      "shortDescription": "La vita industriosa di Thomas Edison e le sue invenzioni.",
+      "quote": "Il genio è l'uno percento di ispirazione e il novantanove percento di traspirazione.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Thomas Edison. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Thomas Edison.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "julius-caesar": {
+      "name": "Giulio Cesare",
+      "headline": "Il geniale stratega e leader che ha gettato le basi per l'Impero Romano.",
+      "shortDescription": "La saga politica e militare di Giulio Cesare.",
+      "quote": "Veni, vidi, vici.",
+      "era": "I Secolo a.C.",
+      "chatGreeting": "Saluti, sono Giulio Cesare. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Giulio Cesare.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "henry-ford": {
+      "name": "Henry Ford",
+      "headline": "L'industriale pioniere che mise il mondo su ruote.",
+      "shortDescription": "La storia di Henry Ford e la nascita della produzione di massa.",
+      "quote": "Sia che tu pensi di potercela fare o di non potercela fare, hai ragione.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Henry Ford. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Henry Ford.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "frida-kahlo": {
+      "name": "Frida Kahlo",
+      "headline": "L'artista vibrante che dipinse il suo dolore trasformandolo in un capolavoro.",
+      "shortDescription": "La vita intensa di Frida Kahlo e la sua anima artistica.",
+      "quote": "Piedi, a cosa mi servite se ho ali per volare?",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Frida Kahlo. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Frida Kahlo.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "viktor-frankl": {
+      "name": "Viktor Frankl",
+      "headline": "Lo psichiatra che trovò il significato della vita anche nelle tenebre più fitte.",
+      "shortDescription": "Il viaggio spirituale di Viktor Frankl e la Logoterapia.",
+      "quote": "Quando non siamo più in grado di cambiare una situazione, siamo sfidati a cambiare noi stessi.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Viktor Frankl. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Viktor Frankl.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "oprah-winfrey": {
+      "name": "Oprah Winfrey",
+      "headline": "La regina dei media che trasformò l'empatia e l'autenticità in un impero globale.",
+      "shortDescription": "L'ispiratrice storia di successo di Oprah Winfrey.",
+      "quote": "Il più grande segreto della vita è che non ci sono grandi segreti. Qualunque sia il tuo obiettivo, puoi arrivarci se sei disposto a lavorare.",
+      "era": "Età Moderna",
+      "chatGreeting": "Saluti, sono Oprah Winfrey. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Oprah Winfrey.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "jk-rowling": {
+      "name": "J.K. Rowling",
+      "headline": "L'autrice che ha portato la magia nel mondo attraverso il potere della perseveranza.",
+      "shortDescription": "La magica vita di J.K. Rowling e del bambino sopravvissuto.",
+      "quote": "Non abbiamo bisogno della magia per cambiare il mondo, abbiamo già dentro di noi tutto il potere di cui abbiamo bisogno.",
+      "era": "Età Moderna",
+      "chatGreeting": "Saluti, sono J.K. Rowling. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, J.K. Rowling.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "nelson-mandela": {
+      "name": "Nelson Mandela",
+      "headline": "L'icona indomabile che demolì l'apartheid con il potere del perdono.",
+      "shortDescription": "Il lungo cammino verso la libertà di Nelson Mandela.",
+      "quote": "Sembra sempre impossibile finché non viene fatto.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Nelson Mandela. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Nelson Mandela.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "helen-keller": {
+      "name": "Helen Keller",
+      "headline": "Il faro di speranza che superò un mondo di silenzio e oscurità.",
+      "shortDescription": "L'incredibile trionfo di Helen Keller.",
+      "quote": "Sebbene il mondo sia pieno di sofferenza, è anche pieno della vittoria su di essa.",
+      "era": "19th-XIX Secolo",
+      "chatGreeting": "Saluti, sono Helen Keller. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Helen Keller.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "beethoven": {
+      "name": "Ludwig van Beethoven",
+      "headline": "Il colosso musicale che compose sinfonie di trionfo pur essendo sordo.",
+      "shortDescription": "La lotta appassionata di Beethoven e la sua musica.",
+      "quote": "La musica è una rivelazione più alta di ogni saggezza e filosofia.",
+      "era": "18th-XIX Secolo",
+      "chatGreeting": "Saluti, sono Ludwig van Beethoven. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Ludwig van Beethoven.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "stephen-hawking": {
+      "name": "Stephen Hawking",
+      "headline": "La mente brillante che esplorò l'universo da una sedia a rotelle.",
+      "shortDescription": "Il viaggio celestiale di Stephen Hawking.",
+      "quote": "Per quanto difficile possa sembrare la vita, c'è sempre qualcosa che puoi fare e in cui puoi avere successo.",
+      "era": "Età Moderna",
+      "chatGreeting": "Saluti, sono Stephen Hawking. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Stephen Hawking.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "franklin-d-roosevelt": {
+      "name": "Franklin D. Roosevelt",
+      "headline": "Il leader risoluto che guidò una nazione attraverso la depressione e la guerra globale.",
+      "shortDescription": "La leadership resiliente di Franklin D. Roosevelt.",
+      "quote": "L'unica cosa di cui dobbiamo avere paura è la paura stessa.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Franklin D. Roosevelt. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Franklin D. Roosevelt.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "marcus-aurelius": {
+      "name": "Marco Aurelio",
+      "headline": "Il re filosofo che governò un impero guidato dai principi dello Stoicismo.",
+      "shortDescription": "La saggezza stoica di Marco Aurelio.",
+      "quote": "Hai potere sulla tua mente - non sugli eventi esterni. Comprendi questo, e troverai la forza.",
+      "era": "II Secolo",
+      "chatGreeting": "Saluti, sono Marco Aurelio. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Marco Aurelio.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "seneca": {
+      "name": "Seneca",
+      "headline": "Il filosofo stoico che ha insegnato come trovare la pace in mezzo al caos.",
+      "shortDescription": "Le lettere senza tempo di Seneca.",
+      "quote": "Non è che abbiamo poco tempo da vivere, ma che ne sprechiamo molto.",
+      "era": "I Secolo",
+      "chatGreeting": "Saluti, sono Seneca. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Seneca.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "confucius": {
+      "name": "Confucio",
+      "headline": "Il grande saggio i cui insegnamenti sull'armonia continuano a plasmare intere civiltà.",
+      "shortDescription": "La saggezza senza tempo di Confucio.",
+      "quote": "Non importa quanto vai piano, purché non ti fermi.",
+      "era": "XIX Secolo a.C.",
+      "chatGreeting": "Saluti, sono Confucio. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Confucio.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "socrates": {
+      "name": "Socrate",
+      "headline": "Il filosofo fondatore che cercò la verità attraverso il dubbio e l'interrogazione costanti.",
+      "shortDescription": "Il metodo socratico e la ricerca della verità.",
+      "quote": "L'unica vera saggezza sta nel sapere di non sapere nulla.",
+      "era": "XIX Secolo a.C.",
+      "chatGreeting": "Saluti, sono Socrate. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Socrate.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "lao-tzu": {
+      "name": "Laozi",
+      "headline": "Il misterioso saggio che ha rivelato il potere della semplicità e del seguire il flusso della natura.",
+      "shortDescription": "Il Tao Te Ching e la saggezza del non agire.",
+      "quote": "Un viaggio di mille miglia inizia con un solo passo.",
+      "era": "XIX Secolo a.C.",
+      "chatGreeting": "Saluti, sono Laozi. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Laozi.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "aristotle": {
+      "name": "Aristotele",
+      "headline": "Il polimata la cui mente logica ha gettato le basi della scienza e della filosofia occidentali.",
+      "shortDescription": "La mente analitica di Aristotele.",
+      "quote": "L'eccellenza non è un atto, ma un'abitudine.",
+      "era": "XIX Secolo a.C.",
+      "chatGreeting": "Saluti, sono Aristotele. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Aristotele.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "plato": {
+      "name": "Platone",
+      "headline": "L'idealista che ha immaginato una società perfetta governata da re filosofi.",
+      "shortDescription": "La Repubblica e l'Allegoria della Caverna.",
+      "quote": "La più grande ricchezza è vivere contenti del poco.",
+      "era": "XIX Secolo a.C.",
+      "chatGreeting": "Saluti, sono Platone. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Platone.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "mahatma-gandhi": {
+      "name": "Mahatma Gandhi",
+      "headline": "L'anima grande che condusse una nazione all'indipendenza attraverso la non-violenza.",
+      "shortDescription": "Il movimento del satyagraha di Gandhi.",
+      "quote": "Sii il cambiamento che vuoi vedere nel mondo.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Mahatma Gandhi. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Mahatma Gandhi.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "mother-teresa": {
+      "name": "Mother Teresa",
+      "headline": "Il simbolo vivente della compassione che ha dedicato la sua vita ai più poveri tra i poveri.",
+      "shortDescription": "L'umile servizio di Madre Teresa.",
+      "quote": "Non tutti possiamo fare grandi cose. Ma possiamo fare piccole cose con grande amore.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Mother Teresa. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Mother Teresa.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "leonardo-da-vinci": {
+      "name": "Leonardo da Vinci",
+      "headline": "L'uomo universale la cui infinita curiosità ha unito arte e scienza.",
+      "shortDescription": "La curiosità sconfinata di Leonardo Da Vinci.",
+      "quote": "Imparare non stanca mai la mente.",
+      "era": "Rinascimento",
+      "chatGreeting": "Saluti, sono Leonardo da Vinci. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Leonardo da Vinci.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "salvador-dali": {
+      "name": "Salvador Dalí",
+      "headline": "Il genio eccentrico che dipinse i paesaggi dell'inconscio.",
+      "shortDescription": "Il mondo eccentrico di Salvador Dalí.",
+      "quote": "L'unica differenza tra me e un pazzo è che io non sono pazzo.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Salvador Dalí. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Salvador Dalí.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "coco-chanel": {
+      "name": "Coco Chanel",
+      "headline": "La visionaria che ha rivoluzionato la moda liberando le donne dai corsetti.",
+      "shortDescription": "Lo stile rivoluzionario di Coco Chanel.",
+      "quote": "Per essere insostituibili bisogna essere sempre diversi.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Coco Chanel. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Coco Chanel.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "pablo-picasso": {
+      "name": "Pablo Picasso",
+      "headline": "Il pioniere artistico che ha frantumato e ricostruito il modo in cui vediamo il mondo.",
+      "shortDescription": "La visione trasformativa di Pablo Picasso.",
+      "quote": "Ogni bambino è un artista. Il problema è come rimanere un artista una volta cresciuti.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Pablo Picasso. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Pablo Picasso.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "mozart": {
+      "name": "Wolfgang Amadeus Mozart",
+      "headline": "Il bambino prodigio che ha composto le melodie più celestiali del mondo classico.",
+      "shortDescription": "La brillantezza tragica di Mozart.",
+      "quote": "La musica non è nelle note, ma nel silenzio tra di esse.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Wolfgang Amadeus Mozart. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Wolfgang Amadeus Mozart.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "william-shakespeare": {
+      "name": "William Shakespeare",
+      "headline": "Il drammaturgo che ha compreso e catturato ogni sfumatura dell'esperienza umana.",
+      "shortDescription": "Il palcoscenico eterno di William Shakespeare.",
+      "quote": "Siamo fatti della stessa sostanza di cui sono fatti i sogni.",
+      "era": "16th-XIX Secolo",
+      "chatGreeting": "Saluti, sono William Shakespeare. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, William Shakespeare.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "marie-curie": {
+      "name": "Marie Curie",
+      "headline": "La scienziata implacabile che ha sacrificato la sua vita per scoprire i segreti della radioattività.",
+      "shortDescription": "Il radioso sacrificio di Marie Curie.",
+      "quote": "Nella vita non c'è nulla da temere, solo da comprendere.",
+      "era": "19th-XIX Secolo",
+      "chatGreeting": "Saluti, sono Marie Curie. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Marie Curie.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "nikola-tesla": {
+      "name": "Nikola Tesla",
+      "headline": "L'inventore elettrizzante la cui mente ha illuminato il mondo intero.",
+      "shortDescription": "Le correnti alternate della mente di Tesla.",
+      "quote": "Il presente è loro; il futuro, per il quale ho davvero lavorato, è mio.",
+      "era": "19th-XIX Secolo",
+      "chatGreeting": "Saluti, sono Nikola Tesla. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Nikola Tesla.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "vincent-van-gogh": {
+      "name": "Vincent van Gogh",
+      "headline": "L'artista tormentato che dipinse la bellezza del cosmo attraverso il suo dolore.",
+      "shortDescription": "Le notti stellate e le tempeste interiori di Van Gogh.",
+      "quote": "Sogno il mio dipinto, e poi dipingo il mio sogno.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Vincent van Gogh. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Vincent van Gogh.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "george-washington": {
+      "name": "George Washington",
+      "headline": "Il padre fondatore che rifiutò il potere assoluto per far nascere una democrazia.",
+      "shortDescription": "Il servizio rivoluzionario di Washington.",
+      "quote": "È meglio non dare scuse piuttosto che darne di cattive.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono George Washington. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, George Washington.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "yi-sun-shin": {
+      "name": "Yi Sun-sin",
+      "headline": "L'ammiraglio marziale che salvò una nazione con le navi tartaruga e l'assoluta lealtà.",
+      "shortDescription": "La brillantezza navale e il sacrificio dell'Ammiraglio Yi.",
+      "quote": "Coloro che cercano la morte vivranno; coloro che cercano la vita moriranno.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Yi Sun-sin. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Yi Sun-sin.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "elizabeth-i": {
+      "name": "Elisabetta I",
+      "headline": "La Regina Vergine che sposò la sua nazione e inaugurò un'età dell'oro.",
+      "shortDescription": "La volontà sovrana della Regina Elisabetta I.",
+      "quote": "Ho il cuore e lo stomaco di un re, e di un re d'Inghilterra.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Elisabetta I. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Elisabetta I.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "gwanggaeto-the-great": {
+      "name": "Gwanggaeto il Grande",
+      "headline": "Il monarca espansionista che estese il regno ai suoi massimi confini.",
+      "shortDescription": "L'espansione territoriale e l'eredità di Gwanggaeto.",
+      "quote": "Un paese forte si protegge attaccando.",
+      "era": "4th-XIX Secolo",
+      "chatGreeting": "Saluti, sono Gwanggaeto il Grande. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Gwanggaeto il Grande.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "qin-shi-huang": {
+      "name": "Qin Shi Huang",
+      "headline": "Il primo imperatore che unificò una nazione attraverso la forza spietata e la standardizzazione.",
+      "shortDescription": "Il potere assoluto e l'ordine di Qin Shi Huang.",
+      "quote": "Non mi interessa se un gatto è bianco o nero, purché catturi i topi. (Attribuita a Deng, in realtà per Qin: La legge deve essere severa e spietata per garantire l'ordine).",
+      "era": "III Secolo a.C.",
+      "chatGreeting": "Saluti, sono Qin Shi Huang. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Qin Shi Huang.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "augustus": {
+      "name": "Augustus",
+      "headline": "Il genio politico che trasformò Roma da una repubblica di mattoni in un impero di marmo.",
+      "shortDescription": "Il genio politico di Augusto.",
+      "quote": "Ho trovato Roma una città di mattoni e ve l'ho lasciata di marmo.",
+      "era": "I Secolo a.C. - I Secolo",
+      "chatGreeting": "Saluti, sono Augustus. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Augustus.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "otto-von-bismarck": {
+      "name": "Otto von Bismarck",
+      "headline": "Il Cancelliere di Ferro che unificò la Germania con sangue e ferro.",
+      "shortDescription": "La realpolitik di Bismarck.",
+      "quote": "Le grandi questioni del tempo non si decideranno con discorsi e risoluzioni... ma col sangue e col ferro.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Otto von Bismarck. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Otto von Bismarck.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "peter-the-great": {
+      "name": "Pietro il Grande",
+      "headline": "Lo zar modernizzatore che trascinò con la forza una nazione feudale nel mondo moderno.",
+      "shortDescription": "La trasformazione della Russia sotto Pietro il Grande.",
+      "quote": "Non ho imparato a sottomettermi, ma a comandare.",
+      "era": "17th-XIX Secolo",
+      "chatGreeting": "Saluti, sono Pietro il Grande. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Pietro il Grande.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "catherine-the-great": {
+      "name": "Catherine The Great",
+      "headline": "L'imperatrice illuminata che ha trasformato il suo regno in una potenza europea.",
+      "shortDescription": "Il viaggio epico e la saggezza di Caterina la Grande.",
+      "quote": "Elogia a voce alta, biasima a bassa voce.",
+      "era": "XIX Secolo (1729~1796)",
+      "chatGreeting": "Saluti, sono Catherine The Great. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Catherine The Great.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "simon-bolivar": {
+      "name": "Simon Bolivar",
+      "headline": "Il Liberatore che sognava un continente unito, libero dal dominio straniero.",
+      "shortDescription": "Il viaggio epico di Simón Bolívar.",
+      "quote": "L'arte della vittoria si impara nelle sconfitte.",
+      "era": "18th-XIX Secolo (1783~1830)",
+      "chatGreeting": "Saluti, sono Simon Bolivar. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Simon Bolivar.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "margaret-thatcher": {
+      "name": "Margaret Thatcher",
+      "headline": "La Lady di Ferro che ha rimodellato l'economia di una nazione con ferma determinazione.",
+      "shortDescription": "Il viaggio epico di Margaret Thatcher.",
+      "quote": "Non conosco nessuno che sia arrivato in cima senza duro lavoro.",
+      "era": "XIX Secolo (1925~2013)",
+      "chatGreeting": "Saluti, sono Margaret Thatcher. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Margaret Thatcher.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "john-d-rockefeller": {
+      "name": "John D Rockefeller",
+      "headline": "Il titano degli affari che ha costruito l'impero petrolifero globale.",
+      "shortDescription": "Il viaggio epico di John D. Rockefeller.",
+      "quote": "Non abbiate paura di rinunciare al buono per inseguire il grande.",
+      "era": "19th-XIX Secolo (1839~1937)",
+      "chatGreeting": "Saluti, sono John D Rockefeller. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, John D Rockefeller.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "ataturk": {
+      "name": "Ataturk",
+      "headline": "Il leader visionario che ha forgiato una repubblica moderna dalle rovine di un impero.",
+      "shortDescription": "Il viaggio epico di Mustafa Kemal Atatürk.",
+      "quote": "La pace in patria, la pace nel mondo.",
+      "era": "19th-XIX Secolo (1881~1938)",
+      "chatGreeting": "Saluti, sono Ataturk. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Ataturk.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "theodore-roosevelt": {
+      "name": "Theodore Roosevelt",
+      "headline": "Il conservazionista ed esploratore che ha portato l'energia nel governo.",
+      "shortDescription": "Il viaggio epico di Theodore Roosevelt.",
+      "quote": "Fai quello che puoi, con quello che hai, dove sei.",
+      "era": "19th-XIX Secolo (1858~1919)",
+      "chatGreeting": "Saluti, sono Theodore Roosevelt. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Theodore Roosevelt.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "anne-frank": {
+      "name": "Anne Frank",
+      "headline": "La giovane scrittrice che ha documentato lo spirito umano nei tempi più bui.",
+      "shortDescription": "Il viaggio epico di Anna Frank.",
+      "quote": "Nonostante tutto, continuo a credere che le persone siano veramente buone in fondo al cuore.",
+      "era": "XIX Secolo (1929~1945)",
+      "chatGreeting": "Saluti, sono Anne Frank. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Anne Frank.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "rosa-parks": {
+      "name": "Rosa Parks",
+      "headline": "La madre del movimento per i diritti civili il cui rifiuto ha scatenato una rivoluzione.",
+      "shortDescription": "Il viaggio epico di Rosa Parks.",
+      "quote": "Sapevo che qualcuno doveva fare il primo passo e decisi di non muovermi.",
+      "era": "XIX Secolo (1913~2005)",
+      "chatGreeting": "Saluti, sono Rosa Parks. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Rosa Parks.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "frederick-douglass": {
+      "name": "Frederick Douglass",
+      "headline": "L'abolizionista che ha trasformato la sua fuga dalla schiavitù in una potente voce per la libertà.",
+      "shortDescription": "Il viaggio epico di Frederick Douglass.",
+      "quote": "Senza lotta, non c'è progresso.",
+      "era": "XIX Secolo (1818~1895)",
+      "chatGreeting": "Saluti, sono Frederick Douglass. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Frederick Douglass.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "harriet-tubman": {
+      "name": "Harriet Tubman",
+      "headline": "L'eroina senza paura che ha condotto innumerevoli schiavi verso la libertà attraverso la Underground Railroad.",
+      "shortDescription": "Il viaggio epico di Harriet Tubman.",
+      "quote": "Ogni grande sogno inizia con un sognatore.",
+      "era": "XIX Secolo (1822~1913)",
+      "chatGreeting": "Saluti, sono Harriet Tubman. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Harriet Tubman.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "oskar-schindler": {
+      "name": "Oskar Schindler",
+      "headline": "L'industriale che ha rischiato tutto per salvare centinaia di vite durante l'Olocausto.",
+      "shortDescription": "Il viaggio epico di Oskar Schindler.",
+      "quote": "Chi salva una vita, salva il mondo intero.",
+      "era": "XIX Secolo (1908~1974)",
+      "chatGreeting": "Saluti, sono Oskar Schindler. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Oskar Schindler.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "florence-nightingale": {
+      "name": "Florence Nightingale",
+      "headline": "La pioniera dell'infermieristica moderna che ha portato luce e compassione nelle cure mediche.",
+      "shortDescription": "Il viaggio epico di Florence Nightingale.",
+      "quote": "Attibuisco il mio successo a questo: non ho mai dato né accettato scuse.",
+      "era": "19th-XIX Secolo (1820~1910)",
+      "chatGreeting": "Saluti, sono Florence Nightingale. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Florence Nightingale.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "yu-gwan-sun": {
+      "name": "Yu Gwan Sun",
+      "headline": "La giovane martire la cui determinazione accese il movimento di indipendenza.",
+      "shortDescription": "Il viaggio epico di Yu Gwan-sun.",
+      "quote": "Anche se mi strappate le unghie e mi mozzate le orecchie, il dolore di perdere il mio paese è molto più grande.",
+      "era": "XIX Secolo (1902~1920)",
+      "chatGreeting": "Saluti, sono Yu Gwan Sun. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Yu Gwan Sun.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "louis-braille": {
+      "name": "Louis Braille",
+      "headline": "L'inventore che ha portato il dono della lettura ai ciechi attraverso il tatto.",
+      "shortDescription": "Il viaggio epico di Louis Braille.",
+      "quote": "L'accesso alla comunicazione in senso più ampio è l'accesso alla conoscenza.",
+      "era": "XIX Secolo (1809~1852)",
+      "chatGreeting": "Saluti, sono Louis Braille. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Louis Braille.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "joan-of-arc": {
+      "name": "Joan Of Arc",
+      "headline": "La guerriera divinamente ispirata che guidò l'esercito francese alla vittoria a diciassette anni.",
+      "shortDescription": "Il viaggio epico di Giovanna d'Arco.",
+      "quote": "Non ho paura... Sono nata per fare questo.",
+      "era": "XIX Secolo (1412~1431)",
+      "chatGreeting": "Saluti, sono Joan Of Arc. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Joan Of Arc.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "desmond-tutu": {
+      "name": "Desmond Tutu",
+      "headline": "L'arcivescovo della pace che ha combattuto l'apartheid con amore e riconciliazione.",
+      "shortDescription": "Il viaggio epico di Desmond Tutu.",
+      "quote": "Fai il tuo piccolo pezzo di bene dove ti trovi; sono quei piccoli pezzi di bene messi insieme che travolgono il mondo.",
+      "era": "20th-XXI Secolo (1931~2021)",
+      "chatGreeting": "Saluti, sono Desmond Tutu. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Desmond Tutu.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "elie-wiesel": {
+      "name": "Elie Wiesel",
+      "headline": "Il sopravvissuto e autore che ha trasformato il suo dolore in un monito per l'umanità.",
+      "shortDescription": "Il viaggio epico di Elie Wiesel.",
+      "quote": "L'opposto dell'amore non è l'odio, è l'indifferenza.",
+      "era": "20th-XXI Secolo (1928~2016)",
+      "chatGreeting": "Saluti, sono Elie Wiesel. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Elie Wiesel.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "harriet-beecher-stowe": {
+      "name": "Harriet Beecher Stowe",
+      "headline": "L'autrice le cui parole appassionate contribuirono ad accendere la lotta contro la schiavitù.",
+      "shortDescription": "Il viaggio epico di Harriet Beecher Stowe.",
+      "quote": "Mai arrendersi, perché quello è esattamente il luogo e il tempo in cui la marea cambierà.",
+      "era": "XIX Secolo (1811~1896)",
+      "chatGreeting": "Saluti, sono Harriet Beecher Stowe. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Harriet Beecher Stowe.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "rigoberta-menchu": {
+      "name": "Rigoberta Menchu",
+      "headline": "La difensora dei diritti indigeni che ha alzato la voce contro l'oppressione in Guatemala.",
+      "shortDescription": "Il viaggio epico di Rigoberta Menchú.",
+      "quote": "La pace non è solo assenza di guerra, è la presenza della giustizia.",
+      "era": "20th-XXI Secolo (1959~Present)",
+      "chatGreeting": "Saluti, sono Rigoberta Menchu. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Rigoberta Menchu.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "terry-fox": {
+      "name": "Terry Fox",
+      "headline": "L'eroe canadese che ha unito una nazione con la sua Maratona della Speranza.",
+      "shortDescription": "Il viaggio epico di Terry Fox.",
+      "quote": "Voglio provare, per mostrare agli altri che si può fare.",
+      "era": "XIX Secolo (1853~1890)",
+      "chatGreeting": "Saluti, sono Terry Fox. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Terry Fox.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "kim-gu": {
+      "name": "Kim Gu",
+      "headline": "Il leader dell'indipendenza che dedicò la sua vita a una Corea libera.",
+      "shortDescription": "Il viaggio epico di Kim Gu.",
+      "quote": "Il mio primo desiderio è l'indipendenza della Corea. Il mio secondo desiderio è la piena indipendenza.",
+      "era": "19th-XIX Secolo (1876~1949)",
+      "chatGreeting": "Saluti, sono Kim Gu. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Kim Gu.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "buddha": {
+      "name": "Buddha",
+      "headline": "Il saggio illuminato che insegnò la via di mezzo e la liberazione dalla sofferenza.",
+      "shortDescription": "La saggezza senza tempo del Buddha.",
+      "quote": "La pace viene da dentro. Non cercarla fuori.",
+      "era": "6th-XIX Secolo a.C. (BC 563~483)",
+      "chatGreeting": "Saluti, sono Buddha. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Buddha.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "friedrich-nietzsche": {
+      "name": "Friedrich Nietzsche",
+      "headline": "Il filosofo iconoclasta che sfidò la moralità convenzionale ed esaltò la volontà di potenza.",
+      "shortDescription": "Il viaggio epico di Friedrich Nietzsche.",
+      "quote": "Quello che non mi uccide, mi rende più forte.",
+      "era": "XIX Secolo (1844~1900)",
+      "chatGreeting": "Saluti, sono Friedrich Nietzsche. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Friedrich Nietzsche.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "immanuel-kant": {
+      "name": "Immanuel Kant",
+      "headline": "Il pensatore sistematico che ha rivoluzionato la filosofia con la sua critica della ragione.",
+      "shortDescription": "Il viaggio epico di Immanuel Kant.",
+      "quote": "Il cielo stellato sopra di me, la legge morale dentro di me.",
+      "era": "XIX Secolo (1724~1804)",
+      "chatGreeting": "Saluti, sono Immanuel Kant. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Immanuel Kant.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "rene-descartes": {
+      "name": "Rene Descartes",
+      "headline": "Il filosofo razionalista che ha fondato la filosofia moderna sul dubbio e sulla certezza.",
+      "shortDescription": "Il viaggio epico di René Descartes.",
+      "quote": "Penso, dunque sono.",
+      "era": "XIX Secolo (1596~1650)",
+      "chatGreeting": "Saluti, sono Rene Descartes. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Rene Descartes.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "jean-jacques-rousseau": {
+      "name": "Jean Jacques Rousseau",
+      "headline": "Il filosofo romantico che affermava che l'umanità è naturalmente buona ma corrotta dalla società.",
+      "shortDescription": "Il viaggio epico di Jean-Jacques Rousseau.",
+      "quote": "L'uomo è nato libero, e ovunque è in catene.",
+      "era": "XIX Secolo (1712~1778)",
+      "chatGreeting": "Saluti, sono Jean Jacques Rousseau. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Jean Jacques Rousseau.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "sigmund-freud": {
+      "name": "Sigmund Freud",
+      "headline": "Il padre della psicoanalisi che ha svelato i segreti dell'inconscio.",
+      "shortDescription": "Il viaggio epico di Sigmund Freud.",
+      "quote": "Dall'errore all'errore si scopre l'intera verità.",
+      "era": "19th-XIX Secolo (1856~1939)",
+      "chatGreeting": "Saluti, sono Sigmund Freud. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Sigmund Freud.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "carl-jung": {
+      "name": "Carl Jung",
+      "headline": "Lo psichiatra pioniere che ha esplorato l'inconscio collettivo e gli archetipi.",
+      "shortDescription": "Il viaggio epico di Carl Jung.",
+      "quote": "La tua visione diventerà chiara solo quando potrai guardare nel tuo cuore.",
+      "era": "19th-XIX Secolo (1875~1961)",
+      "chatGreeting": "Saluti, sono Carl Jung. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Carl Jung.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "baruch-spinoza": {
+      "name": "Baruch Spinoza",
+      "headline": "Il filosofo razionalista che ha trovato Dio nella natura e nell'ordine dell'universo.",
+      "shortDescription": "Il viaggio epico di Baruch Spinoza.",
+      "quote": "Non piangere, non indignarti, ma comprendi.",
+      "era": "XIX Secolo (1632~1677)",
+      "chatGreeting": "Saluti, sono Baruch Spinoza. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Baruch Spinoza.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "sun-tzu": {
+      "name": "Sun Tzu",
+      "headline": "L'antico stratega militare le cui saggezze guidano ancor oggi leader e generali.",
+      "shortDescription": "Il viaggio epico di Sun Tzu.",
+      "quote": "La più grande vittoria è quella che non richiede alcuna battaglia.",
+      "era": "6th-XIX Secolo a.C. (Spring and Autumn Period)",
+      "chatGreeting": "Saluti, sono Sun Tzu. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Sun Tzu.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "david-hume": {
+      "name": "David Hume",
+      "headline": "L'empirista scozzese che ha messo in dubbio le fondamenta stesse della conoscenza umana.",
+      "shortDescription": "Il viaggio epico di David Hume.",
+      "quote": "La ragione è, e deve solo essere, schiava delle passioni.",
+      "era": "XIX Secolo (1711~1776)",
+      "chatGreeting": "Saluti, sono David Hume. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, David Hume.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "john-locke": {
+      "name": "John Locke",
+      "headline": "Il padre del liberalismo la cui filosofia ha ispirato le rivoluzioni democratiche.",
+      "shortDescription": "Il viaggio epico di John Locke.",
+      "quote": "Tutta l'umanità... essendo tutti uguali e indipendenti, nessuno dovrebbe nuocere all'altro.",
+      "era": "XIX Secolo (1632~1704)",
+      "chatGreeting": "Saluti, sono John Locke. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, John Locke.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "simone-de-beauvoir": {
+      "name": "Simone De Beauvoir",
+      "headline": "La filosofa esistenzialista che ha tracciato il percorso per il femminismo moderno.",
+      "shortDescription": "Il viaggio epico di Simone de Beauvoir.",
+      "quote": "Donne non si nasce, lo si diventa.",
+      "era": "XIX Secolo (1908~1986)",
+      "chatGreeting": "Saluti, sono Simone De Beauvoir. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Simone De Beauvoir.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "hannah-arendt": {
+      "name": "Hannah Arendt",
+      "headline": "La teorica politica che ha svelato la natura del potere e della banalità del male.",
+      "shortDescription": "Il viaggio epico di Hannah Arendt.",
+      "quote": "Non ci sono pensieri pericolosi; pensare è di per sé pericoloso.",
+      "era": "XIX Secolo (1906~1975)",
+      "chatGreeting": "Saluti, sono Hannah Arendt. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Hannah Arendt.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "soren-kierkegaard": {
+      "name": "Soren Kierkegaard",
+      "headline": "Il padre dell'esistenzialismo che ha esplorato il significato della fede e dell'individualità.",
+      "shortDescription": "Il viaggio epico di Søren Kierkegaard.",
+      "quote": "La vita può essere compresa solo all'indietro; ma deve essere vissuta in avanti.",
+      "era": "XIX Secolo (1813~1855)",
+      "chatGreeting": "Saluti, sono Soren Kierkegaard. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Soren Kierkegaard.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "arthur-schopenhauer": {
+      "name": "Arthur Schopenhauer",
+      "headline": "Il filosofo pessimista che ha visto la volontà come la forza trainante dell'esistenza.",
+      "shortDescription": "Il viaggio epico di Arthur Schopenhauer.",
+      "quote": "La compassione è la base della moralità.",
+      "era": "XIX Secolo (1788~1860)",
+      "chatGreeting": "Saluti, sono Arthur Schopenhauer. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Arthur Schopenhauer.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "isaac-newton": {
+      "name": "Isaac Newton",
+      "headline": "Il gigante della scienza che ha decifrato le leggi universali del movimento e della gravità.",
+      "shortDescription": "Il viaggio epico di Isaac Newton.",
+      "quote": "Ciò che sappiamo è una goccia, ciò che ignoriamo è un oceano.",
+      "era": "17th-XIX Secolo (1643~1727)",
+      "chatGreeting": "Saluti, sono Isaac Newton. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Isaac Newton.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "galileo-galilei": {
+      "name": "Galileo Galilei",
+      "headline": "L'astronomo coraggioso che difese la verità scientifica contro il dogma.",
+      "shortDescription": "Il viaggio epico di Galileo Galilei.",
+      "quote": "Non puoi insegnare nulla a un uomo; puoi solo aiutarlo a scoprirlo dentro di sé.",
+      "era": "16th-XIX Secolo (1564~1642)",
+      "chatGreeting": "Saluti, sono Galileo Galilei. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Galileo Galilei.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "charles-darwin": {
+      "name": "Charles Darwin",
+      "headline": "Il naturalista visionario che svelò il meccanismo dell'evoluzione.",
+      "shortDescription": "Il viaggio epico di Charles Darwin.",
+      "quote": "Non è la più forte delle specie che sopravvive, né la più intelligente, ma quella più reattiva ai cambiamenti.",
+      "era": "XIX Secolo (1809~1882)",
+      "chatGreeting": "Saluti, sono Charles Darwin. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Charles Darwin.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "michelangelo": {
+      "name": "Michelangelo",
+      "headline": "Il genio universale del Rinascimento che diede forma al divino attraverso il marmo.",
+      "shortDescription": "Il viaggio epico di Michelangelo.",
+      "quote": "Il pericolo più grande per la maggior parte di noi non è che il nostro obiettivo sia troppo alto e lo manchiamo, ma che sia troppo basso e lo raggiungiamo.",
+      "era": "Rinascimento (1475~1564)",
+      "chatGreeting": "Saluti, sono Michelangelo. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Michelangelo.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "claude-monet": {
+      "name": "Claude Monet",
+      "headline": "Il fondatore dell'Impressionismo che ha catturato la luce sfuggente della natura.",
+      "shortDescription": "Il viaggio epico di Claude Monet.",
+      "quote": "Tutti discutono la mia arte e fingono di capire, come se fosse necessario capire, quando è semplicemente necessario amare.",
+      "era": "19th-XIX Secolo (1840~1926)",
+      "chatGreeting": "Saluti, sono Claude Monet. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Claude Monet.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "fyodor-dostoevsky": {
+      "name": "Fyodor Dostoevsky",
+      "headline": "Il gigante letterario che ha scandagliato le profondità abissali dell'anima umana.",
+      "shortDescription": "Il viaggio epico di Fëdor Dostoevskij.",
+      "quote": "Il segreto dell'esistenza umana non sta nel solo restare vivi, ma nel trovare qualcosa per cui vivere.",
+      "era": "XIX Secolo (1821~1881)",
+      "chatGreeting": "Saluti, sono Fyodor Dostoevsky. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Fyodor Dostoevsky.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "victor-hugo": {
+      "name": "Victor Hugo",
+      "headline": "Il romanziere romantico che ha dato voce agli emarginati della società.",
+      "shortDescription": "Il viaggio epico di Victor Hugo.",
+      "quote": "Niente è più potente di un'idea il cui tempo è giunto.",
+      "era": "XIX Secolo (1802~1885)",
+      "chatGreeting": "Saluti, sono Victor Hugo. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Victor Hugo.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "anton-chekhov": {
+      "name": "Anton Chekhov",
+      "headline": "Il maestro del racconto breve che ha catturato la tragica bellezza della vita ordinaria.",
+      "shortDescription": "Il viaggio epico di Anton Čechov.",
+      "quote": "La conoscenza non ha alcun valore a meno che non la metti in pratica.",
+      "era": "19th-XIX Secolo (1860~1904)",
+      "chatGreeting": "Saluti, sono Anton Chekhov. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Anton Chekhov.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "frederic-chopin": {
+      "name": "Frederic Chopin",
+      "headline": "Il poeta del pianoforte che ha tradotto l'emozione umana in pura melodia.",
+      "shortDescription": "Il viaggio epico di Fryderyk Chopin.",
+      "quote": "La semplicità è l'ultima conquista.",
+      "era": "XIX Secolo (1810~1849)",
+      "chatGreeting": "Saluti, sono Frederic Chopin. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Frederic Chopin.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "katsushika-hokusai": {
+      "name": "Katsushika Hokusai",
+      "headline": "L'artista ukiyo-e che ha immortalato il mondo fluttuante con i suoi capolavori.",
+      "shortDescription": "Il viaggio epico di Katsushika Hokusai.",
+      "quote": "Dall'età di sei anni ho avuto la mania di copiare la forma delle cose.",
+      "era": "18th-XIX Secolo (1760~1849)",
+      "chatGreeting": "Saluti, sono Katsushika Hokusai. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Katsushika Hokusai.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "agatha-christie": {
+      "name": "Agatha Christie",
+      "headline": "La Regina del Crimine che ha tessuto misteri intramontabili.",
+      "shortDescription": "Il viaggio epico di Agatha Christie.",
+      "quote": "Il segreto per andare avanti è iniziare.",
+      "era": "XIX Secolo (1890~1976)",
+      "chatGreeting": "Saluti, sono Agatha Christie. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Agatha Christie.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "mark-twain": {
+      "name": "Mark Twain",
+      "headline": "L'umorista americano che ha svelato le verità della società attraverso la satira pungente.",
+      "shortDescription": "Il viaggio epico di Mark Twain.",
+      "quote": "Il segreto per andare avanti è iniziare.",
+      "era": "19th-XIX Secolo (1835~1910)",
+      "chatGreeting": "Saluti, sono Mark Twain. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Mark Twain.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "goethe": {
+      "name": "Goethe",
+      "headline": "Il gigante letterario tedesco che ha esplorato le vette e le profondità dell'esperienza umana.",
+      "shortDescription": "Il viaggio epico di Johann Wolfgang von Goethe.",
+      "quote": "Siamo plasmati e modellati da ciò che amiamo.",
+      "era": "18th-XIX Secolo (1749~1832)",
+      "chatGreeting": "Saluti, sono Goethe. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Goethe.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "mary-shelley": {
+      "name": "Mary Shelley",
+      "headline": "La pioniera letteraria che ha dato vita alla fantascienza e al romanzo gotico moderno.",
+      "shortDescription": "Il viaggio epico di Mary Shelley.",
+      "quote": "Non c'è niente che calmi tanto la mente quanto uno scopo stabile.",
+      "era": "XIX Secolo (1797~1851)",
+      "chatGreeting": "Saluti, sono Mary Shelley. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Mary Shelley.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "napoleon-bonaparte": {
+      "name": "Napoleone Bonaparte",
+      "headline": "Il generale ambizioso che ha rimodellato l'Europa e fondato un impero.",
+      "shortDescription": "L'epica saga di Napoleone e la sua grande ambizione.",
+      "quote": "La parola 'impossibile' si trova solo nel dizionario degli stolti.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Napoleone Bonaparte. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Napoleone Bonaparte.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "malala-yousafzai": {
+      "name": "Malala Yousafzai",
+      "headline": "L'attivista senza paura che ha sfidato i talebani per il diritto all'istruzione delle ragazze.",
+      "shortDescription": "Il viaggio epico di Malala Yousafzai.",
+      "quote": "Un bambino, un insegnante, un libro e una penna possono cambiare il mondo.",
+      "era": "Età Moderna",
+      "chatGreeting": "Saluti, sono Malala Yousafzai. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Malala Yousafzai.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "martin-luther-king": {
+      "name": "Martin Luther King Jr.",
+      "headline": "Il leader visionario che ha combattuto per l'uguaglianza con il potere della non violenza e dei sogni.",
+      "shortDescription": "La crociata per i diritti civili di Martin Luther King Jr.",
+      "quote": "L'oscurità non può scacciare l'oscurità; solo la luce può farlo. L'odio non può scacciare l'odio; solo l'amore può farlo.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Martin Luther King Jr.. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Martin Luther King Jr..",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "albert-einstein": {
+      "name": "Albert Einstein",
+      "headline": "Il fisico geniale che ha reimmaginato il cosmo attraverso la relatività.",
+      "shortDescription": "La relatività del genio e Albert Einstein.",
+      "quote": "L'immaginazione è più importante della conoscenza.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Albert Einstein. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Albert Einstein.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "abraham-lincoln": {
+      "name": "Abraham Lincoln",
+      "headline": "Il presidente emancipatore che ha tenuto unita una nazione divisa.",
+      "shortDescription": "Le radici umili e la leadership di Lincoln.",
+      "quote": "Alla fine, non sono gli anni della tua vita che contano. È la vita nei tuoi anni.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Abraham Lincoln. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Abraham Lincoln.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "winston-churchill": {
+      "name": "Winston Churchill",
+      "headline": "Il leader risoluto la cui voce portò una nazione attraverso la sua ora più buia.",
+      "shortDescription": "La leadership in tempo di guerra di Churchill.",
+      "quote": "Il successo non è definitivo, il fallimento non è fatale: è il coraggio di continuare che conta.",
+      "era": "XIX Secolo",
+      "chatGreeting": "Saluti, sono Winston Churchill. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Winston Churchill.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    },
+    "jane-austen": {
+      "name": "Jane Austen",
+      "headline": "L'osservatrice acuta che ha catturato il cuore umano in narrazioni ironiche ed eleganti.",
+      "shortDescription": "Il genio letterario di Jane Austen.",
+      "quote": "Non c'è fascino pari alla tenerezza del cuore.",
+      "era": "18th-XIX Secolo",
+      "chatGreeting": "Saluti, sono Jane Austen. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
+      "suggestedQuestions": [
+        "Parlami della tua più grande conquista, Jane Austen.",
+        "Come hai superato le tue sfide più difficili?",
+        "Qual è il consiglio più importante che puoi darmi?"
+      ]
+    }
+  },
+  "Chat": {
+    "famousQuote": "Citazione Celebre",
+    "description": "Descrizione",
+    "suggestedQuestions": "Domande Suggerite",
+    "inputPlaceholder": "Chiedi qualsiasi cosa a {name}...",
+    "contemplating": "{name} sta riflettendo...",
+    "wisdomActive": "Saggezza Attiva",
+    "historyEra": "Storia ed Epoca",
+    "fieldOfWisdom": "Campo di Saggezza",
+    "error": "Mi scuso, ho riscontrato un errore nel recuperare la mia saggezza. Potresti riprovare tra un momento?",
+    "retry": "Recupera la Saggezza di Nuovo"
+  },
+  "Stats": {
+    "title": "Perché Giants Wisdom",
+    "description": "Vivi un viaggio innovativo attraverso migliaia di anni per incontrare la saggezza umana.",
+    "features": [
+      {
+        "title": "Chat in Tempo Reale con le Grandi Menti",
+        "description": "Impegnati in conversazioni profonde che trascendono il tempo e lo spazio con figure storiche attraverso un'IA avanzata."
+      },
+      {
+        "title": "2.500 Anni di Saggezza Umana",
+        "description": "Incontra 2.500 anni di storia, conquiste e intuizioni costruite dall'umanità, tutto in un unico luogo."
+      },
+      {
+        "title": "Conoscenza Direttamente dai Maestri",
+        "description": "Offriamo il valore di un apprendimento vivido, come se si ascoltassero direttamente i maestri di filosofia, scienza e arte."
+      },
+      {
+        "title": "Intuizioni Personalizzate per Te",
+        "description": "Fai domande, esplora idee e ottieni una guida personalizzata necessaria per la tua vita."
+      }
+    ],
+    "stats": {
+      "minds": "Grandi Menti",
+      "history": "Anni di Saggezza",
+      "fields": "Campi di Studio",
+      "inspiration": "Ispirazioni"
+    }
+  },
+  "QuoteSection": {
+    "label": "Saggezza Quotidiana"
+  },
+  "Privacy": {
+    "title": "Informativa sulla Privacy",
+    "lastUpdated": "Ultimo Aggiornamento: 16 Maggio 2026",
+    "summaryTitle": "1. Riepilogo Principale",
+    "summaryDesc": "Su Giants Wisdom non vendiamo né condividiamo in modo inappropriato i tuoi dati personali. Questa informativa delinea come proteggiamo e trattiamo i dati raccolti durante i test di personalità e le conversazioni.",
+    "collectionTitle": "2. Quali Dati Raccogliamo e Come Li Raccogliamo",
+    "collectionDesc": "Il nostro sito può essere esplorato completamente in modo anonimo. Tuttavia, potrebbero essere trattati: Dati Forniti Volontariamente (risposte al Test, testi nelle chat) e Dati Registrati Automaticamente (dispositivo, browser, IP).",
+    "purposeTitle": "3. Come Utilizziamo le Informazioni",
+    "purposeDesc": "I dati raccolti vengono utilizzati per compilare i risultati del test in 15 domande, fornire risposte dinamiche storiche via IA (Gemini 2.5 Flash), analisi statistiche e mostrare annunci sicuri tramite Google AdSense.",
+    "adsenseTitle": "4. Google AdSense e Cookie di Terze Parti",
+    "adsenseDesc": "Questo sito web mostra annunci tramite Google AdSense. Google e fornitori terzi utilizzano cookie per mostrare annunci mirati. Puoi disattivare il tracciamento su Google Ads Settings.",
+    "retentionTitle": "5. Conservazione e Distruzione dei Dati",
+    "retentionDesc": "I risultati anonimi dei test e le chat vengono cancellati alla chiusura della sessione o resi anonimi per studi aggregati.",
+    "rightsTitle": "6. I Tuoi Diritti e Informazioni di Contatto",
+    "rightsDesc": "Ti riservi l'autorità completa per visualizzare, modificare o eliminare permanentemente qualsiasi dato legato alla tua identità. Per reclami, contatta il nostro canale di supporto ufficiale."
+  },
+  "Footer": {
+    "brand": {
+      "subtitle": "La Sala delle Grandi Menti",
+      "description": "Unisciti al viaggio delle grandi menti che hanno cambiato la storia. Vivi una saggezza oltre il tempo e lo spazio."
+    },
+    "sections": {
+      "explore": "ESPLORA",
+      "info": "INFORMAZIONI"
+    },
+    "links": {
+      "allGiants": "Tutte le Figure",
+      "wisdomArchive": "Home",
+      "about": "Chi Siamo",
+      "privacy": "Informativa sulla Privacy",
+      "terms": "Termini di Servizio",
+      "contact": "Contatto",
+      "dnaTest": "Test DNA Storico"
+    }
+  },
+  "About": {
+    "intro": "A coloro che si sentono persi nel\nflusso infinito di informazioni.",
+    "subIntro": "Uno spazio per allontanarsi dal rumore e incontrare la vera saggezza.",
+    "visionTitle": "Sulle Spalle dei Giganti",
+    "visionDesc": "“Se ho visto più lontano, è perché stavo sulle spalle di giganti.” - Isaac Newton. Abbiamo iniziato con la convinzione che le risposte ai nostri complessi problemi moderni potrebbero già essere intessute nelle vite delle più grandi figure della storia.",
+    "epicTitle": "Le Grandi Epopee di 95 Figure Storiche",
+    "epicDesc": "Vai oltre i meri fatti storici. Vivi la grande saga di figure che hanno superato le avversità per rimodellare la storia umana.",
+    "chatTitle": "Dialogo Attraverso le Epoche",
+    "chatDesc": "Impegnati in conversazioni in tempo reale con firme restaurate di figure storiche, alimentate da IA avanzata (Gemini 2.5 Flash), per cercare intuizioni affilate per i tuoi dilemmi moderni.",
+    "testTitle": "Trova il Tuo Gemello Storico",
+    "testDesc": "Scopri il DNA della figura storica che scorre in profondità nella tua anima attraverso un coinvolgente questionario situazionale in 3 fasi, ambientato in momenti storici cruciali.",
+    "outroTitle": "Benvenuto nella Sala delle Grandi Menti",
+    "outroDesc": "Sulle loro spalle, finalmente vedrai più lontano. Inizia il tuo viaggio oggi."
+  },
+  "Terms": {
+    "title": "Termini di Servizio",
+    "lastUpdated": "Ultimo Aggiornamento: 16 Maggio 2026",
+    "intro": "Benvenuto su Giants Wisdom. Questi Termini di Servizio regolano l'accordo legale tra te e la nostra piattaforma riguardo all'uso delle nostre metriche di personalità e simulazioni conversazionali.",
+    "eligibilityTitle": "Articolo 1 (Idoneità e Tutela dei Minori)",
+    "eligibilityDesc": "Questo servizio è destinato rigorosamente agli utenti di età pari o superiore a 13 anni.",
+    "aiTitle": "Articolo 2 (Infrastruttura IA e Disclaimer Completo)",
+    "aiDesc": "1. Tutti i dialoghi con le figure storiche sono simulazioni interattive generate in modo pulito da modelli IA avanzati (suite Gemini 2.5). 2. Gli output forniti sono strutturati esclusivamente per valore educativo e di intrattenimento. 3. Giants Wisdom non si assume alcuna responsabilità per le allucinazioni dell'IA.",
+    "intellectualTitle": "Articolo 3 (Proprietà Intellettuale e Protezione Anti-Scraping)",
+    "intellectualDesc": "1. Tutte le architetture di layout, i marchi, le metriche del test e le illustrazioni vettoriali premium rimangono di proprietà esclusiva di Giants Wisdom. 2. È severamente vietato agli utenti eseguire copie non autorizzate o scraping di dati.",
+    "userDutyTitle": "Articolo 4 (Standard per gli Utenti e Consenso alla Presentazione di Monetizzazione)",
+    "userDutyDesc": "Gli utenti acconsentono esplicitamente affinché Google AdSense e altri broker pubblicitari presentino banner automatizzati sulla piattaforma.",
+    "disputeTitle": "Articolo 5 (Legge Applicabile e Foro Competente)",
+    "disputeDesc": "Questi Termini saranno governati e interpretati in conformità con le leggi della Repubblica di Corea."
+  },
+  "Cookie": {
+    "title": "Impostazioni Cookie",
+    "description": "Utilizziamo i cookie per personalizzare gli annunci e analizzare il traffico. Accettando, acconsenti al nostro uso dei cookie.",
+    "acceptAll": "Accetta Tutto",
+    "rejectAll": "Rifiuta Tutto",
+    "customize": "Personalizza",
+    "savePreferences": "Salva Preferenze",
+    "necessary": "Cookie Necessari",
+    "necessaryDesc": "Richiesti affinché il sito web funzioni correttamente. (Sempre Attivi)",
+    "analytics": "Cookie di Analisi",
+    "analyticsDesc": "Utilizzati per analizzare i visitatori e i pattern di utilizzo per migliorare il nostro servizio.",
+    "advertising": "Cookie Pubblicitari",
+    "advertisingDesc": "Utilizzati per mostrare annunci personalizzati tramite Google AdSense."
+  },
+  "Contact": {
+    "title": "Contattaci",
+    "name": "Nome",
+    "email": "Email",
+    "subject": "Oggetto (facoltativo)",
+    "message": "Messaggio",
+    "send": "Invia Messaggio",
+    "sending": "Invio in corso...",
+    "success": "Messaggio inviato con successo! Grazie.",
+    "error": "Invio fallito. Per favore riprova.",
+    "namePlaceholder": "Inserisci il tuo nome",
+    "emailPlaceholder": "Inserisci la tua email",
+    "subjectPlaceholder": "Inserisci l'oggetto",
+    "messagePlaceholder": "Inserisci il tuo messaggio"
+  }
+}

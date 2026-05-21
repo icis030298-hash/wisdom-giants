@@ -27,7 +27,9 @@
       "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\\\\|AdSpace\\\\|ad_space\\\\|adSpace\" src/)",
       "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\\\\|AdSpace\\\\|ad_space\\\\|adSpace\" messages/)",
       "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\\\\|AdSpace\\\\|ad_space\\\\|adSpace\" public/)",
-      "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\" *.json)"
+      "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\" *.json)",
+      "Bash(git commit -m 'fix: remaining minor language pack improvements \\(JA/ES\\) *)",
+      "Bash(git commit -m 'chore: add translation batch processing scripts and data files *)"
     ]
   }
 }

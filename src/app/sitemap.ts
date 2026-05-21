@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { giants } from '@/lib/giants-data'
 
 const BASE_URL = 'https://www.giantswisdom.com'
-const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr'] as const
+const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt'] as const
 type Locale = typeof LOCALES[number]
 
 // Locale → ISO 639-1 hreflang tag mapping
@@ -13,6 +13,8 @@ const HREFLANG: Record<Locale, string> = {
   ja: 'ja',
   es: 'es',
   fr: 'fr',
+  it: 'it',
+  pt: 'pt',
 }
 
 /** Build alternates object for a given path (e.g. '' | '/test' | '/giant/steve-jobs') */

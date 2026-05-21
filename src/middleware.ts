@@ -25,7 +25,7 @@ export default async function middleware(request: NextRequest) {
     pathname === '/sitemap.xml';
 
   if (!isStaticOrApi) {
-    const hasLocale = pathname.startsWith('/ko') || pathname.startsWith('/en') || pathname.startsWith('/de') || pathname.startsWith('/ja') || pathname.startsWith('/es') || pathname.startsWith('/fr');
+    const hasLocale = pathname.startsWith('/ko') || pathname.startsWith('/en') || pathname.startsWith('/de') || pathname.startsWith('/ja') || pathname.startsWith('/es') || pathname.startsWith('/fr') || pathname.startsWith('/it') || pathname.startsWith('/pt');
     
     if (!hasLocale) {
       const acceptLanguage = request.headers.get('accept-language') || '';
@@ -34,12 +34,17 @@ export default async function middleware(request: NextRequest) {
       const isGerman = acceptLanguage.toLowerCase().includes('de');
       const isSpanish = acceptLanguage.toLowerCase().includes('es');
       const isFrench = acceptLanguage.toLowerCase().includes('fr');
+      const isItalian = acceptLanguage.toLowerCase().includes('it');
+      const isPortuguese = acceptLanguage.toLowerCase().includes('pt');
+      
       let locale = 'en';
       if (isKorean) locale = 'ko';
       else if (isJapanese) locale = 'ja';
       else if (isGerman) locale = 'de';
       else if (isSpanish) locale = 'es';
       else if (isFrench) locale = 'fr';
+      else if (isItalian) locale = 'it';
+      else if (isPortuguese) locale = 'pt';
 
       
       // Redirect to the language specific route

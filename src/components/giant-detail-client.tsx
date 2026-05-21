@@ -203,7 +203,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       ? `Mein historischer Zwilling ist '${archetypeName}'! Welchem historischen Riesen ähneln Sie?`
       : locale === 'ja'
       ? `私に最も似ている歴史上の偉人は「${archetypeName}」です！あなたはどの偉人に似ていますか？`
-      : `My historical match is ${archetypeName}! Which historical giant do you resemble?`
+      : locale === 'pt' ? `Minha figura histórica é ${archetypeName}! Com qual personagem histórico você se parece?` : `My historical match is ${archetypeName}! Which historical giant do you resemble?`
     const shareUrl = `${window.location.origin}/${locale}/test`
     
     if (navigator.share) {
@@ -239,7 +239,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       ? `나와 닮은 역사 속 위인은 ${giantName}! 당신은 어떤 위인과 닮았나요? 👉 https://www.giantswisdom.com/ko/test`
       : locale === 'de'
       ? `Mein historischer Zwilling ist ${giantName}! Welchem Riesen ähneln Sie? 👉 https://www.giantswisdom.com/de/test`
-      : `My historical match is ${giantName}! Who's your historical match? 👉 https://www.giantswisdom.com/en/test`;
+      : locale === 'pt' ? `Minha figura histórica é ${giantName}! Com qual personagem histórico você se parece? 👉 https://www.giantswisdom.com/pt/test` : `My historical match is ${giantName}! Who's your historical match? 👉 https://www.giantswisdom.com/en/test`;
     
     try {
       await navigator.clipboard.writeText(text);
@@ -265,7 +265,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       ? `나와 닮은 역사 속 위인은 ${giantName} 🏛️\n당신은 어떤 위인과 닮았나요?\n#GiantsWisdom #역사위인 #위인찾기`
       : locale === 'de'
       ? `Mein historischer Zwilling ist ${giantName} 🏛️\nWelchem Riesen ähneln Sie?\n#GiantsWisdom #HistorischerZwilling`
-      : `My historical match is ${giantName} 🏛️\nWho's your historical match?\n#GiantsWisdom #HistoricalMatch`;
+      : locale === 'pt' ? `Meu DNA histórico é do tipo ${giantName}! 🏛️\nCom qual figura histórica você se parece?\n#GiantsWisdom #História #Sabedoria` : `My historical match is ${giantName} 🏛️\nWho's your historical match?\n#GiantsWisdom #HistoricalMatch`;
     
     const url = locale === 'ko'
       ? 'https://www.giantswisdom.com/ko/test'
@@ -295,7 +295,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           ? `나와 닮은 역사 속 위인은 ${giantName}! 당신은 어떤 위인과 닮았나요?`
           : locale === 'de'
           ? `Mein historischer Zwilling ist ${giantName}! Welchem Riesen ähneln Sie?`
-          : `My historical match is ${giantName}! Who's your historical match?`
+          : locale === 'pt' ? `Minha figura histórica é ${giantName}! Com qual personagem histórico você se parece?` : `My historical match is ${giantName}! Who's your historical match?`
       )}`,
       '_blank',
       'width=550,height=450'
@@ -362,12 +362,14 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       try {
         const shareText = locale === 'ko'
           ? `나와 닮은 역사 속 위인은 ${dnaType}! 당신은 어떤 위인과 닮았나요?`
-          : `My historical match is ${dnaType}! Which historical giant do you resemble?`
+          : locale === 'pt' ? `Minha figura histórica é ${dnaType}! Com qual personagem histórico você se parece?` : `My historical match is ${dnaType}! Which historical giant do you resemble?`
         navigator.clipboard.writeText(`${shareText} 👉 ${window.location.href}`)
       } catch {
         const shareText = locale === 'ko'
           ? `나와 닮은 역사 속 위인은 ${dnaType}! 당신은 어떤 위인과 닮았나요?`
-          : `My historical match is ${dnaType}! Which historical giant do you resemble?`
+          : locale === 'pt'
+          ? `Meu DNA histórico é do tipo ${dnaType}! 🏛️ Com qual figura histórica você se parece? #GiantsWisdom #História #Sabedoria`
+          : locale === 'pt' ? `Minha figura histórica é ${dnaType}! Com qual personagem histórico você se parece?` : `My historical match is ${dnaType}! Which historical giant do you resemble?`
         const ta = document.createElement('textarea')
         ta.value = `${shareText} 👉 ${window.location.href}`
         document.body.appendChild(ta)
@@ -979,7 +981,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                     <div style={{ width: '72px', height: '72px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 14px', border: '2px solid rgba(245,158,11,0.5)' }}>
                       <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
                     </div>
-                    <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : 'My Heritage DNA'}</p>
+                    <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : locale === 'pt' ? 'MEU DNA DE HERANÇA' : 'My Heritage DNA'}</p>
                     <p style={{ color: '#FEF3C7', fontSize: '18px', fontWeight: '700', marginBottom: '4px', fontFamily: 'Georgia, serif' }}>
                       {dna ? archetypes[dna]?.name[activeLocale] : ''}
                     </p>

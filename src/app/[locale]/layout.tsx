@@ -22,6 +22,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isJapanese = locale === 'ja';
   const isSpanish = locale === 'es';
   const isFrench = locale === 'fr';
+  const isItalian = locale === 'it';
+  const isPortuguese = locale === 'pt';
 
   let title = 'Giants Wisdom | AI Historical Mentors & Wisdom Archive';
   let description = "Chat with 95+ history's greatest minds using AI. Answer 15 questions and find the historical giant you most resemble.";
@@ -47,6 +49,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title = 'Giants Wisdom | Mentors Historiques IA';
     description = "Conversez avec plus de 95 grandes figures de l'histoire grâce à l'IA. Découvrez votre jumeau historique en 15 questions.";
     keywords = 'Chat IA, Figures Historiques, Sagesse, Histoire, Philosophie, Giants Wisdom';
+  } else if (isItalian) {
+    title = 'Giants Wisdom | Mentori Storici con IA';
+    description = "Conversa con oltre 95 grandi figure della storia grazie all'IA. Scopri il tuo gemello storico in 15 domande.";
+    keywords = 'Chat IA, Figure Storiche, Saggezza, Storia, Filosofia, Giants Wisdom, Italia';
+  } else if (isPortuguese) {
+    title = 'Giants Wisdom | Mentores Históricos com IA';
+    description = 'Converse com mais de 95 grandes figuras da história com IA. Descubra seu gêmeo histórico em 15 perguntas.';
+    keywords = 'Chat IA, Figuras Históricas, Sabedoria, História, Filosofia, Giants Wisdom, Brasil';
   }
 
   return {
@@ -63,6 +73,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         'ja': 'https://www.giantswisdom.com/ja',
         'es': 'https://www.giantswisdom.com/es',
         'fr': 'https://www.giantswisdom.com/fr',
+        'it': 'https://www.giantswisdom.com/it',
+        'pt': 'https://www.giantswisdom.com/pt',
         'x-default': 'https://www.giantswisdom.com/ko'
       }
     },

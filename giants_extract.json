@@ -1,0 +1,406 @@
+{
+  "steve-jobs": {
+    "headline": "The visionary architect who married technology with the human soul.",
+    "quote": "Stay Hungry, Stay Foolish."
+  },
+  "king-sejong": {
+    "headline": "The sage monarch who created Hangul to gift his people a voice and enlightened a nation.",
+    "quote": "If the people criticize me, it is because I have not loved them enough."
+  },
+  "elon-musk": {
+    "headline": "The visionary entrepreneur who aims to make humanity a multi-planetary species.",
+    "quote": "Failure is an option here. If things are not failing, you are not innovating enough."
+  },
+  "genghis-khan": {
+    "headline": "The conqueror who rose from the desolate steppes to build the largest empire in history.",
+    "quote": "When I conquered the fear within me, I became a true conqueror."
+  },
+  "alexander-the-great": {
+    "headline": "The young king who ventured to the ends of the known world to unite civilizations.",
+    "quote": "There is nothing impossible to him who will try."
+  },
+  "walt-disney": {
+    "headline": "The pioneer of imagination who turned dreams into reality and enchanted the world.",
+    "quote": "If you can dream it, you can do it."
+  },
+  "thomas-edison": {
+    "headline": "The wizard of Menlo Park who illuminated the darkness with relentless innovation.",
+    "quote": "Genius is 1% inspiration and 99% perspiration."
+  },
+  "julius-caesar": {
+    "headline": "The Roman statesman who crossed the Rubicon to forge a legacy that outlived an empire.",
+    "quote": "The die is cast."
+  },
+  "henry-ford": {
+    "headline": "The industrial visionary who revolutionized transportation and the modern workplace.",
+    "quote": "Whether you think you can, or you think you can't—you're right."
+  },
+  "frida-kahlo": {
+    "headline": "The resilient artist who transformed physical and emotional pain into immortal masterpieces.",
+    "quote": "Feet, what do I need them for if I have wings to fly?"
+  },
+  "viktor-frankl": {
+    "headline": "The psychiatrist who found the meaning of life in the depths of suffering and healed humanity.",
+    "quote": "He who has a why to live can bear almost any how."
+  },
+  "oprah-winfrey": {
+    "headline": "The media queen who turned her trauma into a bridge of empathy for the world.",
+    "quote": "Turn your wounds into wisdom."
+  },
+  "jk-rowling": {
+    "headline": "The author who rose from the rock bottom of failure to create a magical world for millions.",
+    "quote": "Rock bottom became the solid foundation on which I rebuilt my life."
+  },
+  "nelson-mandela": {
+    "headline": "The leader who spent 27 years in prison to liberate a nation and heal it with forgiveness.",
+    "quote": "Forgiveness is a powerful weapon."
+  },
+  "helen-keller": {
+    "headline": "The scholar who triumphed over silence and darkness to become a beacon of human will.",
+    "quote": "The best and most beautiful things in the world cannot be seen or even touched."
+  },
+  "beethoven": {
+    "headline": "The composer who conquered silence to create the most divine harmonies in history.",
+    "quote": "Through suffering to joy!"
+  },
+  "stephen-hawking": {
+    "headline": "The physicist whose mind soared through the universe while his body was confined to a chair.",
+    "quote": "Look up at the stars and not down at your feet."
+  },
+  "franklin-d-roosevelt": {
+    "headline": "The president who led a nation through the Great Depression and World War II from a wheelchair.",
+    "quote": "The only thing we have to fear is fear itself."
+  },
+  "marcus-aurelius": {
+    "headline": "The philosopher-king who maintained his soul's tranquility amidst the storms of empire.",
+    "quote": "Your life is what your thoughts make of it."
+  },
+  "seneca": {
+    "headline": "The stoic philosopher whose letters on life and death have guided humanity for millennia.",
+    "quote": "It is not that we have a short time to live, but that we waste a lot of it."
+  },
+  "confucius": {
+    "headline": "The philosopher who established the foundations of Eastern ethics and the harmony of humanity.",
+    "quote": "It does not matter how slowly you go as long as you do not stop."
+  },
+  "socrates": {
+    "headline": "The father of Western philosophy who taught humanity the art of questioning and self-awareness.",
+    "quote": "The unexamined life is not worth living."
+  },
+  "lao-tzu": {
+    "headline": "The sage of Taoism who taught the profound power of yielding and the natural order of the universe.",
+    "quote": "The journey of a thousand miles begins with one step."
+  },
+  "aristotle": {
+    "headline": "The polymath who categorized human knowledge and defined the virtue of the golden mean.",
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+  },
+  "plato": {
+    "headline": "The visionary philosopher who explored the world of ideas and the blueprint for an ideal state.",
+    "quote": "Wise men speak because they have something to say; fools because they have to say something."
+  },
+  "mahatma-gandhi": {
+    "headline": "The apostle of non-violence who liberated a nation through the power of truth and peace.",
+    "quote": "Be the change that you wish to see in the world."
+  },
+  "mother-teresa": {
+    "headline": "The saint of the gutters who saw the face of the divine in the suffering of the poorest.",
+    "quote": "Not all of us can do great things. But we can do small things with great love."
+  },
+  "leonardo-da-vinci": {
+    "headline": "The universal genius who merged art and science to capture the divine symmetry of the world.",
+    "quote": "Simplicity is the ultimate sophistication."
+  },
+  "salvador-dali": {
+    "headline": "The surrealist master who painted the landscapes of the subconscious and defied logic.",
+    "quote": "Have no fear of perfection - you'll never reach it."
+  },
+  "coco-chanel": {
+    "headline": "The fashion icon who liberated women from corsets and redefined modern elegance.",
+    "quote": "The most courageous act is still to think for yourself. Aloud."
+  },
+  "pablo-picasso": {
+    "headline": "The titan of modern art who dismantled the visible world to reveal its hidden truths.",
+    "quote": "Every child is an artist. The problem is how to remain an artist once we grow up."
+  },
+  "mozart": {
+    "headline": "The musical prodigy whose divine compositions whispered of the eternal and the sublime.",
+    "quote": "Music is not in the notes, but in the silence between."
+  },
+  "william-shakespeare": {
+    "headline": "The bard of Avon who mapped the human soul and the complexity of existence through the power of language.",
+    "quote": "All the world's a stage, and all the men and women merely players."
+  },
+  "marie-curie": {
+    "headline": "The pioneer of radioactivity who broke scientific barriers and sacrificed her life for discovery.",
+    "quote": "Nothing in life is to be feared, it is only to be understood."
+  },
+  "nikola-tesla": {
+    "headline": "The visionary engineer who dreamed of a wireless world and illuminated the modern age.",
+    "quote": "The present is theirs; the future, for which I really worked, is mine."
+  },
+  "vincent-van-gogh": {
+    "headline": "The post-impressionist painter who captured the swirling colors of the soul amidst poverty and madness.",
+    "quote": "I would rather die of passion than of boredom."
+  },
+  "george-washington": {
+    "headline": "The founding father who led a revolution and defined the character of a new republic.",
+    "quote": "Labor to keep alive in your breast that little spark of celestial fire called conscience."
+  },
+  "yi-sun-shin": {
+    "headline": "The legendary admiral who saved his nation from the brink of collapse with 12 ships and absolute loyalty.",
+    "quote": "Those who seek death shall live; those who seek life shall die."
+  },
+  "elizabeth-i": {
+    "headline": "The Virgin Queen who navigated a sea of enemies to forge England's Golden Age.",
+    "quote": "I have the heart and stomach of a king, and of a king of England too."
+  },
+  "gwanggaeto-the-great": {
+    "headline": "The conqueror king who expanded Goguryeo into a massive empire and restored national pride.",
+    "quote": "The spirit of a great empire lives in the vastness of its vision."
+  },
+  "qin-shi-huang": {
+    "headline": "The first emperor who unified warring states and built the foundations of a unified China.",
+    "quote": "I have unified the world and established an order that will last ten thousand generations."
+  },
+  "augustus": {
+    "headline": "The architect of the Pax Romana who transformed a city of brick into a city of marble.",
+    "quote": "I found Rome a city of bricks and left it a city of marble."
+  },
+  "otto-von-bismarck": {
+    "headline": "The Iron Chancellor who unified Germany through blood, iron, and master-class diplomacy.",
+    "quote": "The great questions of the day will not be settled by means of speeches and majority decisions... but by iron and blood."
+  },
+  "peter-the-great": {
+    "headline": "The reformist tsar who dragged Russia into the modern age by looking toward the West.",
+    "quote": "I have seen the future, and it is in the hands of the educated."
+  },
+  "catherine-the-great": {
+    "headline": "In 1729, in a small Prussian principality, Sophie of Anhalt-Zerbst—the future Catherine the Great—was born into a family of minor nobility and monumental insignificance.",
+    "quote": "I learn, I think, I work, and I never stop. Intelligence is your most potent weapon; keep it sharp through constant use."
+  },
+  "simon-bolivar": {
+    "headline": "In 1783, in the colonial city of Caracas, Simón Bolívar was born into one of the wealthiest and most powerful families in Venezuela.",
+    "quote": "The art of victory is learned in defeat. Do not fear the fall; it is the ground from which your monumental strength will grow. Rise again."
+  },
+  "margaret-thatcher": {
+    "headline": "In 1925, above a grocery shop in the town of Grantham, Margaret Roberts was born.",
+    "quote": "Watch your thoughts, for they become words. Watch your words, for they become actions. Watch your actions, for they become habits. Watch your habits, for they become character. Watch your character, for it becomes your destiny."
+  },
+  "john-d-rockefeller": {
+    "headline": "In 1839, in the rural landscape of upstate New York, John Davison Rockefeller was born into a household of monumental contradictions.",
+    "quote": "The secret of success is to do common things uncommonly well. Mastery is found in the perfection of the mundane. Do not overlook the small steps."
+  },
+  "ataturk": {
+    "headline": "In 1881, in the Ottoman port city of Salonica, Mustafa was born into a world of crumbling borders and imperial decay.",
+    "quote": "The truest guide in life is science. Reason is the only monumental light that can dispel the darkness of ignorance. Seek the truth in facts."
+  },
+  "theodore-roosevelt": {
+    "headline": "In 1858, in the brownstone elegance of New York City, Theodore Roosevelt was born into a life of monumental privilege and physical fragility.",
+    "quote": "Do what you can, with what you have, where you are. Perfection is not a prerequisite for action. The arena is waiting for you."
+  },
+  "anne-frank": {
+    "headline": "In 1929, in the city of Frankfurt, Anne Frank was born into a Jewish family during the gathering storm of Nazi Germany.",
+    "quote": "In spite of everything, I still believe that people are really good at heart. Love is a monumental choice; hatred is an easy weakness. Hold on to your ideals."
+  },
+  "rosa-parks": {
+    "headline": "In 1913, in the segregated landscape of Tuskegee, Alabama, Rosa McCauley was born into a world designed to diminish her humanity.",
+    "quote": "Knowing what must be done does away with fear. When you are certain of your monumental cause, the world cannot intimidate you. Stand your ground."
+  },
+  "frederick-douglass": {
+    "headline": "In 1818, on a plantation in Talbot County, Maryland, Frederick Bailey was born into the monumental crime of chattel slavery.",
+    "quote": "Knowledge makes a man unfit to be a slave. Education is the monumental bridge between bondage and liberty. Arm your mind."
+  },
+  "harriet-tubman": {
+    "headline": "In 1822, on a plantation in Dorchester County, Maryland, Araminta Ross—the woman who would be known as Harriet Tubman—was born into the monumental darkness of slavery.",
+    "quote": "If you hear the dogs, keep going. If you see the torches in the woods, keep going. If they're shouting after you, keep going. Never stop. Keep going to the North Star."
+  },
+  "oskar-schindler": {
+    "headline": "In 1908, in the industrial landscape of Zwittau, Oskar Schindler was born into a life of monumental appetites and moral ambiguity.",
+    "quote": "He who saves one life saves the world entire. Do not underestimate the monumental impact of a single act of kindness. You are the architect of a world."
+  },
+  "florence-nightingale": {
+    "headline": "In 1820, in the Renaissance elegance of Florence, Italy, Florence Nightingale was born into a life of monumental luxury and social expectation.",
+    "quote": "I attribute my success to this: I never gave or took an excuse. Results are the only monumental metric of a life. Do the work."
+  },
+  "yu-gwan-sun": {
+    "headline": "In 1902, in the rural village of Cheonan, Yu Gwan-sun was born into a devout Christian family during the dark dawn of Japanese colonial rule.",
+    "quote": "My only sorrow is that I have only one life to give for my country. A monumental sacrifice is the ultimate expression of love. Give your all."
+  },
+  "louis-braille": {
+    "headline": "In 1809, in the small French village of Coupvray, Louis Braille was born into a life of light and color that would soon vanish.",
+    "quote": "Access to communication in the widest sense is access to knowledge. Do not let your physical limitations define the boundaries of your monumental spirit. Seek the light of thought."
+  },
+  "joan-of-arc": {
+    "headline": "In 1412, in the village of Domrémy, a peasant girl named Jeanne d'Arc was born into a France torn apart by the Hundred Years' War.",
+    "quote": "I am not afraid; I was born to do this. My purpose is my shield, and my faith is my sword. The giant acts despite fear, not in its absence."
+  },
+  "desmond-tutu": {
+    "headline": "In 1931, in the gold-mining town of Klerksdorp, Desmond Mpilo Tutu was born into a world of monumental racial division and systemic cruelty.",
+    "quote": "If you are neutral in situations of injustice, you have chosen the side of the oppressor. Silence is a monumental betrayal of your own humanity. Speak up."
+  },
+  "elie-wiesel": {
+    "headline": "In 1928, in the Transylvanian town of Sighet, Elie Wiesel was born into a life of monumental faith and quiet study.",
+    "quote": "The opposite of love is not hate, it's indifference. Indifference is a monumental crime. Engage with the world. Do not look away."
+  },
+  "harriet-beecher-stowe": {
+    "headline": "In 1811, in the intellectual ferment of Litchfield, Connecticut, Harriet Beecher was born into a family of monumental religious and social influence.",
+    "quote": "Never give up, for that is just the place and time that the tide will turn. Persistence is a monumental force of nature. Wait for your moment."
+  },
+  "rigoberta-menchu": {
+    "headline": "In 1959, in the mountainous highlands of Guatemala, Rigoberta Menchú Tum was born into a life of monumental hardship and indigenous pride.",
+    "quote": "Peace is not only the absence of war. As long as there is poverty, racism, isolation and exclusion, we will have difficulty in achieving a peace of spirit. Dignity is monumental."
+  },
+  "terry-fox": {
+    "headline": "In 1958, in the windy city of Winnipeg, Canada, Terry Fox was born into a life of monumental energy and athletic passion.",
+    "quote": "I'm not a dreamer, but I believe in miracles. I have to. Even if I don't finish, we need others to continue. It's got to keep going. Be part of the monumental effort."
+  },
+  "kim-gu": {
+    "headline": "In 1876, in the rural poverty of Hwanghae Province, Kim Chang-am—later known as Baekbeom Kim Gu—was born into a Korea that was beginning to buckle under the weight of foreign imperialism.",
+    "quote": "My wish is the independent sovereignty of my nation. My second wish is the same. My third wish is the same. A monumental focus is the only way to move a mountain. Never deviate."
+  },
+  "buddha": {
+    "headline": "In 563 BC, in the lush gardens of Lumbini, Siddhartha Gautama was born a prince of the Shakya clan, into a life of monumental luxury and absolute protection.",
+    "quote": "The mind is everything. What you think, you become. Your thoughts are the monumental seeds of your reality. Choose them with care."
+  },
+  "friedrich-nietzsche": {
+    "headline": "In 1844, in the Prussian village of Röcken, Friedrich Nietzsche was born into a long line of Lutheran pastors.",
+    "quote": "What does not kill me makes me stronger. Adversity is the monumental gym of the soul. Embrace the struggle as your greatest teacher."
+  },
+  "immanuel-kant": {
+    "headline": "In 1724, in the Baltic port city of Königsberg, Immanuel Kant was born into a family of monumental modesty and deep Lutheran piety.",
+    "quote": "Sapere Aude! Dare to know! Have the courage to use your own understanding. Do not let others think for you. Liberty begins in the mind."
+  },
+  "rene-descartes": {
+    "headline": "In 1596, in the small French town of La Haye, René Descartes was born into a life of monumental fragility and intellectual intensity.",
+    "quote": "Cogito, ergo sum. I think, therefore I am. Your consciousness is the monumental foundation of your reality. Do not let it sleep. Exercise your thought."
+  },
+  "jean-jacques-rousseau": {
+    "headline": "In 1712, in the independent city of Geneva, Jean-Jacques Rousseau was born into a life of monumental instability and loss.",
+    "quote": "Return to nature. Man is born free, but everywhere he is in chains. Break the monumental artificiality of your life. Find your original soul."
+  },
+  "sigmund-freud": {
+    "headline": "In 1856, in the Moravian town of Freiberg, Sigismund Freud was born into a life of monumental intellectual curiosity and Jewish identity.",
+    "quote": "The unconscious is the true psychical reality. Your dreams are the royal road to the monumental truth of your soul. Do not ignore the whispers of your mind."
+  },
+  "carl-jung": {
+    "headline": "In 1875, on the shores of Lake Constance in Switzerland, Carl Gustav Jung was born into a life of monumental mystery and spiritual inquiry.",
+    "quote": "Until you make the unconscious conscious, it will direct your life and you will call it fate. Ownership of your shadow is a monumental duty. Wake up."
+  },
+  "baruch-spinoza": {
+    "headline": "In 1632, in the thriving Jewish community of Amsterdam, Baruch Spinoza was born into a life of monumental promise and spiritual fervor.",
+    "quote": "God and Nature are one. Everything follows the monumental and eternal laws of necessity. Find your place in the infinite structure. Understand the whole."
+  },
+  "sun-tzu": {
+    "headline": "In the 6th century BC, during the blood-soaked chaos of the Spring and Autumn period in China, Sun Wu—the man known as Sun Tzu—was born into a world of endless betrayal and monumental warfare.",
+    "quote": "If you know the enemy and know yourself, you need not fear the result of a hundred battles. Self-awareness is the monumental foundation of all strategy. Look in the mirror first."
+  },
+  "david-hume": {
+    "headline": "In 1711, in the intellectual hub of Edinburgh, David Hume was born into a life of monumental skepticism and modest means.",
+    "quote": "Reason is, and ought only to be the slave of the passions. Logic is a tool, but desire is the monumental engine of life. Align your heart with your head."
+  },
+  "john-locke": {
+    "headline": "In 1632, in the English village of Wrington, John Locke was born into a life of monumental political shifts and intellectual awakening.",
+    "quote": "The mind is a Tabula Rasa, a blank slate. Experience is the monumental architect of your soul. Fill your pages with the truth of the senses."
+  },
+  "simone-de-beauvoir": {
+    "headline": "In 1908, in the bourgeois heart of Paris, Simone de Beauvoir was born into a life of monumental discipline and intellectual hunger.",
+    "quote": "One is not born, but rather becomes, a woman. Identity is a monumental construction. Peel away the layers of social expectation. Define yourself."
+  },
+  "hannah-arendt": {
+    "headline": "In 1906, in the German city of Hanover, Hannah Arendt was born into a life of monumental intellectual intensity and Jewish identity.",
+    "quote": "The sad truth is that most evil is done by people who never make up their minds to be good or evil. Thoughtlessness is a monumental danger. Question your orders. Think for yourself."
+  },
+  "soren-kierkegaard": {
+    "headline": "In 1813, in the fog-drenched streets of Copenhagen, Søren Kierkegaard was born into a life of monumental wealth and inherited melancholy.",
+    "quote": "To dare is to lose one's footing momentarily. Not to dare is to lose oneself. Courage is a monumental and necessary leap. Do not stay on the safe shore."
+  },
+  "arthur-schopenhauer": {
+    "headline": "In 1788, in the Free City of Danzig, Arthur Schopenhauer was born into a life of monumental wealth and internal shadow.",
+    "quote": "Life swings like a pendulum backward and forward between pain and boredom. Desire is a monumental hunger. Find the stillness in the middle of the swing."
+  },
+  "isaac-newton": {
+    "headline": "In 1643, in the isolated manor of Woolsthorpe, England, Isaac Newton was born into a life of monumental solitude and intellectual intensity.",
+    "quote": "If I have seen further, it is by standing on the shoulders of giants. Gratitude to your predecessors is a monumental strength. Build on the foundation of the past."
+  },
+  "galileo-galilei": {
+    "headline": "In 1564, in the Italian city of Pisa, Galileo Galilei was born into a life of monumental curiosity and artistic flair.",
+    "quote": "E pur si muove. And yet it moves. Truth is a monumental and unshakeable fact. Do not let the pressure of the crowd bend your reason. Stay firm."
+  },
+  "charles-darwin": {
+    "headline": "In 1809, on the same day as Abraham Lincoln, Charles Darwin was born in Shrewsbury, England, into a life of monumental scholarly privilege and natural curiosity.",
+    "quote": "It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is most adaptable to change. Flexibility is a monumental asset. Evolve or perish."
+  },
+  "michelangelo": {
+    "headline": "In 1475, in the rugged hills of Caprese, Michelangelo Buonarroti was born into a family of declining nobility who viewed manual labor as a disgrace.",
+    "quote": "I saw the angel in the marble and carved until I set him free. Every block of stone has a statue inside it and it is the task of the sculptor to discover it."
+  },
+  "claude-monet": {
+    "headline": "In 1840, in the heart of Paris, Claude Monet was born into a life of monumental visual intensity and economic struggle.",
+    "quote": "I perhaps owe having become a painter to flowers. Nature is a monumental and eternal source. Do not paint the thing; paint the light that falls upon it. Trust your senses."
+  },
+  "fyodor-dostoevsky": {
+    "headline": "In 1821, in a hospital for the poor in Moscow, Fyodor Dostoevsky was born into a life of monumental psychological depth and physical trauma.",
+    "quote": "Hell is the suffering of being unable to love. Love is a monumental act of redemption. Do not let your heart harden against the world. Keep caring."
+  },
+  "victor-hugo": {
+    "headline": "In 1802, in the city of Besançon, Victor Hugo was born into a life of monumental scale and historical upheaval.",
+    "quote": "The future has several names. For the weak, it is impossible; for the fainthearted, it is unknown; but for the valiant, it is ideal. Seize your monumental opportunity."
+  },
+  "anton-chekhov": {
+    "headline": "In 1860, in the dusty port town of Taganrog, Russia, Anton Chekhov was born into a life of monumental responsibility and modest means.",
+    "quote": "Brevity is the sister of talent. Conciseness is a monumental and difficult virtue. Do not use a thousand words when ten will suffice. Be precise."
+  },
+  "frederic-chopin": {
+    "headline": "In 1810, in the heart of the Polish countryside, Fryderyk Chopin was born into a life of monumental lyricism and fragile health.",
+    "quote": "Simplicity is the ultimate sophistication. A monumental impact is often found in the most direct and unadorned expression. Strip away the noise."
+  },
+  "katsushika-hokusai": {
+    "headline": "In 1760, in the Katsushika district of Edo (modern Tokyo), Katsushika Hokusai was born into a life of monumental visual curiosity and relentless change.",
+    "quote": "At the age of seventy, I have caught a glimpse of the structure of nature. Learning is a monumental and lifelong process. Do not be in a hurry to be a master. Be a student."
+  },
+  "agatha-christie": {
+    "headline": "In 1890, in the coastal town of Torquay, England, Agatha Mary Clarissa Miller—the future Agatha Christie—was born into a life of monumental imagination and Victorian comfort.",
+    "quote": "Very few of us are what we seem to be. Appearance is a monumental illusion. Look for the hidden motive. Trust your observation, not the mask."
+  },
+  "mark-twain": {
+    "headline": "In 1835, as Halley’s Comet streaked across the sky, Samuel Langhorne Clemens—the man who would be Mark Twain—was born into a life of monumental movement and sharp-witted observation.",
+    "quote": "Whenever you find yourself on the side of the majority, it is time to pause and reflect. Independent thought is a monumental achievement. Do not join the herd blindly."
+  },
+  "goethe": {
+    "headline": "In 1749, in the free imperial city of Frankfurt, Johann Wolfgang von Goethe was born into a life of monumental privilege and intellectual hunger.",
+    "quote": "Whatever you can do, or dream you can, begin it. Boldness has genius, power, and magic in it. Initiating is a monumental and sacred act. Do not wait."
+  },
+  "mary-shelley": {
+    "headline": "In 1797, in the intellectual heart of London, Mary Wollstonecraft Godwin—the future Mary Shelley—was born into a life of monumental expectations and profound loss.",
+    "quote": "Invention, it must be admitted, does not consist in creating out of void, but out of chaos. Transformation is a monumental struggle. Do not fear the mess of creation."
+  },
+  "napoleon-bonaparte": {
+    "headline": "The military genius who redrew the map of Europe and established the foundations of modern law.",
+    "quote": "Impossible is a word to be found only in the dictionary of fools."
+  },
+  "malala-yousafzai": {
+    "headline": "The young activist who survived an assassin's bullet to champion education for every child.",
+    "quote": "One child, one teacher, one book, one pen can change the world."
+  },
+  "martin-luther-king": {
+    "headline": "The dream-driven leader who marched for equality and justice with the weapon of love.",
+    "quote": "I have a dream."
+  },
+  "albert-einstein": {
+    "headline": "The revolutionary physicist who unlocked the secrets of time and space with a single equation.",
+    "quote": "Imagination is more important than knowledge."
+  },
+  "abraham-lincoln": {
+    "headline": "The Great Emancipator who preserved a nation and ended the scourge of slavery with unyielding integrity.",
+    "quote": "A house divided against itself cannot stand."
+  },
+  "winston-churchill": {
+    "headline": "The British bulldog who stood against tyranny with the power of oratory and unshakeable resolve.",
+    "quote": "Never, never, never give up."
+  },
+  "jane-austen": {
+    "headline": "The master of social commentary who used wit and observation to reveal the intricacies of the human heart.",
+    "quote": "A Sincere Heart"
+  }
+}

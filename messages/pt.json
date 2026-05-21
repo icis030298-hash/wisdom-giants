@@ -1,0 +1,1586 @@
+{
+  "Navigation": {
+    "hallOfGems": "Salão das Grandes Mentes",
+    "wisdomArchive": "Início",
+    "chatList": "Minhas Conversas",
+    "about": "Sobre",
+    "startExploring": "Explorar",
+    "title": "Giants Wisdom",
+    "subtitle": "O Salão das Grandes Mentes",
+    "login": "Entrar",
+    "logout": "Sair",
+    "myProfile": "Meu Perfil",
+    "signInRequired": "Login necessário para ver o histórico de conversas."
+  },
+  "Auth": {
+    "loginModalTitle": "Bem-vindo ao Salão das Grandes Mentes",
+    "loginModalDescription": "Preserve seus diálogos com os gigantes e gerencie o legado de sabedoria gravado em sua alma.",
+    "continueWithGoogle": "Continuar com o Google",
+    "loginSuccess": "Bem-vindo ao Salão das Grandes Mentes.",
+    "logout": "Sair",
+    "chatList": "Minhas Conversas",
+    "signInRequired": "Login Necessário"
+  },
+  "Test": {
+    "title": "Encontre o Grande Legado que Flui em Sua Alma",
+    "subtitle": "Teste de Análise de Temperamento Histórico",
+    "start": "Começar o Teste",
+    "back": "Voltar",
+    "banner": {
+      "new": "NOVO CONTEÚDO",
+      "title": "Qual figura histórica\nmais se parece com você?",
+      "desc": "Descubra seu gêmeo histórico em 15 perguntas.",
+      "button": "Começar o Teste"
+    },
+    "stages": {
+      "stage1": "Fase 1: Despertar",
+      "stage2": "Fase 2: A Provação",
+      "stage3": "Fase 3: O Destino",
+      "cleared": "Fase {stage} Concluída!",
+      "ready": "Pronto para ir para a próxima fase?",
+      "next": "Continuar para a Próxima Fase"
+    },
+    "analysis": {
+      "loading": "Analisando os ecos de sua alma...",
+      "sub": "Buscando seus pilares no grande fluxo da história."
+    },
+    "result": {
+      "matchFound": "Você encontrou seu destino histórico",
+      "archetype": "Seu Perfil de Herança",
+      "matchedGiant": "A figura histórica mais parecida com você",
+      "readEpic": "Ler Biografia",
+      "chatNow": "Conversar Agora"
+    }
+  },
+  "Chats": {
+    "title": "Minhas Conversas",
+    "subtitle": "Diálogos com Grandes Mentes",
+    "description": "Revisite percepções profundas e conselhos dos maiores gigantes da história. Você pode continuar qualquer conversa a qualquer momento.",
+    "emptyTitle": "Nenhuma conversa ainda",
+    "emptyDescription": "Os gigantes estão prontos para ouvir suas inquietações. Comece sua primeira conversa agora!",
+    "startFirstChat": "Comece sua primeira conversa",
+    "messages": "mensagens",
+    "lastChat": "Última conversa"
+  },
+  "Hero": {
+    "badge": "O Salão das Grandes Mentes",
+    "quote": "Se vi mais longe, foi por estar de pé sobre ombros de gigantes.",
+    "quoteAuthor": "Isaac Newton",
+    "startJourney": "Iniciar Jornada",
+    "startTest": "🧬 Encontre Seu Gêmeo Histórico",
+    "exploreHall": "🏛️ Explorar o Salão",
+    "stats": {
+      "minds": "Grandes Mentes",
+      "questions": "Perguntas",
+      "free": "Completamente Grátis",
+      "freeValue": "Grátis"
+    },
+    "guide": {
+      "title": "Guia da Jornada no Salão da Sabedoria",
+      "selectGiant": "Selecione um Gigante",
+      "selectGiantDesc": "Encontre figuras inspiradoras entre mais de 95 lendas históricas.",
+      "epic": "Narrativas Épicas",
+      "epicDesc": "Leia registros de vida como se os próprios gigantes os contassem.",
+      "chat": "Bate-papo em Tempo Real",
+      "chatDesc": "Compartilhe suas inquietações com gigantes renascidos pela IA mais recente.",
+      "startNow": "Começar Agora"
+    }
+  },
+  "Featured": {
+    "title": "O Salão dos Grandes Gigantes",
+    "description": "Explore a sabedoria de figuras que mudaram a história. Selecione uma pessoa para iniciar uma conversa que transcende o tempo e o espaço.",
+    "viewAll": "Ver Todas as Figuras",
+    "bestPick": "Melhor Escolha",
+    "todaysPick": "Escolha de Hoje",
+    "chatNow": "Conversar Agora"
+  },
+  "GiantsGrid": {
+    "title": "Figuras Históricas",
+    "description": "Explore a sabedoria de figuras que mudaram o curso da humanidade. Selecione um gigante para iniciar uma conversa que transcende o tempo e o espaço.",
+    "searchPlaceholder": "Buscar por nome ou área...",
+    "allGiants": "Todos",
+    "categories": {
+      "achievement": "Conquistas",
+      "adversity": "Adversidade",
+      "wisdom": "Sabedoria",
+      "creativity": "Criatividade"
+    },
+    "resultsCount": "{filtered} figuras encontradas de {total} grandes mentes",
+    "readEpic": "Ler Biografia ✨",
+    "noResults": "Nenhum resultado encontrado",
+    "era": "Personalidade Histórica",
+    "pagination": {
+      "first": "Primeira",
+      "prev": "Anterior",
+      "next": "Próxima",
+      "last": "Última"
+    }
+  },
+  "GiantDetail": {
+    "returnToSquare": "Voltar ao Salão",
+    "chatWith": "Conversar com {name}",
+    "theLifeStory": "História de Vida",
+    "thePain": "A Luta",
+    "theRecovery": "A Recuperação",
+    "wisdomLessons": "Lições de Sabedoria",
+    "famousQuote": "Citação Famosa",
+    "era": "Época",
+    "field": "Categoria",
+    "askForAdvice": "Pedir Conselho",
+    "notFound": "Gigante não encontrado.",
+    "goHome": "Voltar ao Início"
+  },
+  "Chat": {
+    "famousQuote": "Citação Famosa",
+    "description": "Descrição",
+    "suggestedQuestions": "Perguntas Sugeridas",
+    "inputPlaceholder": "Pergunte qualquer coisa a {name}...",
+    "contemplating": "{name} está refletindo...",
+    "wisdomActive": "Sabedoria Ativa",
+    "historyEra": "História e Época",
+    "fieldOfWisdom": "Campo de Sabedoria",
+    "error": "Sinto muito, encontrei um erro ao acessar minha sabedoria. Você poderia tentar novamente em um momento?",
+    "retry": "Recuperar Sabedoria Novamente"
+  },
+  "Stats": {
+    "title": "Por que Giants Wisdom",
+    "description": "Experimente uma jornada inovadora através de milhares de anos para conhecer a sabedoria humana.",
+    "features": [
+      {
+        "title": "Bate-papo em Tempo Real com Gigantes Históricos",
+        "description": "Participe de conversas profundas que transcendem tempo e espaço com figuras históricas através de IA avançada."
+      },
+      {
+        "title": "2.500 Anos de Sabedoria Humana",
+        "description": "Conheça os 2.500 anos de história, conquistas e percepções construídos pela humanidade em um só lugar."
+      },
+      {
+        "title": "Conhecimento Direto dos Mestres",
+        "description": "Entregamos o valor do aprendizado vívido como se estivesse ouvindo diretamente os mestres em filosofia, ciência e arte."
+      },
+      {
+        "title": "Reflexões Personalizadas para Você",
+        "description": "Faça perguntas, explore ideias e obtenha orientações personalizadas necessárias para a sua vida."
+      }
+    ],
+    "stats": {
+      "minds": "Grandes Mentes",
+      "history": "Anos de Sabedoria",
+      "fields": "Campos de Estudo",
+      "inspiration": "Inspirações"
+    }
+  },
+  "QuoteSection": {
+    "label": "Sabedoria Diária"
+  },
+  "Privacy": {
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última Atualização: 16 de maio de 2026",
+    "summaryTitle": "1. Resumo Principal",
+    "summaryDesc": "Na Giants Wisdom, nunca vendemos ou compartilhamos indevidamente seus dados pessoais. Esta política descreve como protegemos e processamos os dados coletados enquanto você realiza testes de personalidade e conversa com figuras históricas.",
+    "collectionTitle": "2. Dados que Coletamos e Como Coletamos",
+    "collectionDesc": "Nosso site pode ser explorado de forma totalmente anônima, sem a criação de uma conta. No entanto, durante suas interações, os seguintes dados podem ser processados:\n- Dados Fornecidos Voluntariamente: Respostas do Teste de DNA de Herança, textos inseridos durante conversas com IA e endereços de e-mail (apenas se assinar nossa newsletter).\n- Dados Registrados Automaticamente: Tipo de dispositivo, especificações do navegador, endereço IP e histórico de interações registrados de forma segura por meio de Cookies.",
+    "purposeTitle": "3. Como Usamos as Informações",
+    "purposeDesc": "Os dados coletados são usados estritamente para os seguintes objetivos:\n- Compilar resultados do teste de 15 perguntas para determinar sua persona histórica mais próxima.\n- Renderizar respostas dinâmicas e em tempo real em conversas históricas impulsionadas de forma segura pela API Gemini 2.5 Flash.\n- Análise estatística e não identificável para refinar nossas métricas de arquétipos de personalidade.\n- Exibição de banners personalizados e seguros por meio do Google AdSense.",
+    "adsenseTitle": "4. Google AdSense e Política de Cookies de Terceiros",
+    "adsenseDesc": "Este site exibe anúncios integrados através do Google AdSense. O Google e fornecedores terceirizados usam cookies para veicular anúncios direcionados com base em suas visitas a este e outros sites na internet. Você pode optar por sair do rastreamento personalizado a qualquer momento, configurando suas preferências diretamente nas Configurações de Anúncios do Google ([https://www.google.com/settings/ads](https://www.google.com/settings/ads)).",
+    "retentionTitle": "5. Retenção e Destruição de Dados",
+    "retentionDesc": "Os resultados de testes anônimos e as interações de bate-papo são apagados ao fechar a sessão ou totalmente despojados de marcadores de identificação (anonimizados) para estudos agregados permanentes. Quaisquer entradas pessoais, como e-mails, são permanentemente apagadas mediante sua solicitação.",
+    "rightsTitle": "6. Seus Direitos e Informações de Contato",
+    "rightsDesc": "Você reserva total autoridade para visualizar, modificar ou excluir permanentemente quaisquer fragmentos de dados vinculados à sua identidade. Para quaisquer reclamações legais ou de privacidade, entre em contato com nosso canal de suporte oficial."
+  },
+  "Footer": {
+    "brand": {
+      "subtitle": "O Salão das Grandes Mentes",
+      "description": "Junte-se à jornada das grandes mentes que mudaram a história. Experimente uma sabedoria além do tempo e do espaço."
+    },
+    "sections": {
+      "explore": "Explorar",
+      "info": "Informações"
+    },
+    "links": {
+      "allGiants": "Todas as Figuras",
+      "wisdomArchive": "Arquivo de Sabedoria",
+      "about": "Sobre",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço",
+      "contact": "Contato",
+      "dnaTest": "Teste de DNA Histórico"
+    }
+  },
+  "About": {
+    "intro": "Para aqueles perdidos no\nexcesso de informações intermináveis.",
+    "subIntro": "Um espaço para se afastar do ruído e encarar a verdadeira sabedoria.",
+    "visionTitle": "De Pé Sobre Ombros de Gigantes",
+    "visionDesc": "“Se vi mais longe, foi por estar de pé sobre ombros de gigantes.” — Isaac Newton. Começamos com a crença de que as respostas para nossos problemas modernos complexos podem já estar entrelaçadas nas vidas dos maiores gigantes da história.",
+    "epicTitle": "As Grandes Epopeias de 95 Gigantes",
+    "epicDesc": "Vá além dos meros fatos históricos. Vivencie a grande saga de gigantes que superaram adversidades para remodelar a história humana.",
+    "chatTitle": "Diálogo Através das Eras",
+    "chatDesc": "Envolva-se em conversas em tempo real com assinaturas restauradas de gigantes impulsionadas por IA avançada (Gemini 2.5 Flash) para buscar percepções aguçadas para seus dilemas modernos.",
+    "testTitle": "Encontre Seu Gêmeo Histórico",
+    "testDesc": "Descubra o DNA do gigante que flui profundamente em sua alma por meio de um questionário situacional imersivo de 3 fases, ambientado em momentos históricos cruciais.",
+    "outroTitle": "Bem-vindo ao Salão dos Gigantes",
+    "outroDesc": "Sobre os ombros deles, você finalmente verá mais longe. Comece sua jornada hoje."
+  },
+  "Terms": {
+    "title": "Termos de Serviço",
+    "lastUpdated": "Última Atualização: 16 de maio de 2026",
+    "intro": "Bem-vindo ao Giants Wisdom. Estes Termos de Serviço regem o acordo legal e os limites de uso entre você e nossa plataforma em relação ao seu envolvimento com nossas métricas de personalidade originais e simulações conversacionais.",
+    "eligibilityTitle": "Artigo 1 (Elegibilidade e Proteção a Menores)",
+    "eligibilityDesc": "Este serviço destina-se estritamente a usuários que tenham pelo menos 13 anos de idade. Os usuários menores de 13 anos que interagem com nossos nós declaram que obtiveram consentimento verificável dos pais de acordo com as leis globais de privacidade infantil. A plataforma se isenta de todas as responsabilidades decorrentes de acesso não autorizado por menores.",
+    "aiTitle": "Artigo 2 (Infraestrutura de IA e Isenções de Responsabilidade)",
+    "aiDesc": "1. Todos os diálogos com figuras históricas exibidas nesta plataforma são simulações interativas geradas de forma segura por modelos avançados de IA (suíte Gemini 2.5).\n2. As saídas fornecidas são projetadas estritamente para valor educacional e de entretenimento. Elas absolutamente não constituem registros históricos certificados, avaliações psicológicas profissionais, conselhos médicos ou jurídicos.\n3. O Giants Wisdom não se responsabiliza por alucinações da IA ou escolhas executadas pelos usuários com base na telemetria do sistema.",
+    "intellectualTitle": "Artigo 3 (Propriedade Intelectual e Proteção Anti-Raspagem)",
+    "intellectualDesc": "1. Todas as arquiteturas de layout, marcas registradas, as métricas de teste dos '4 Pilares da Grandeza', as 15 perguntas situacionais e as ilustrações vetoriais planas premium continuam sendo propriedade exclusiva da Giants Wisdom.\n2. É estritamente proibido aos usuários executar cópias não autorizadas, distribuição comercial ou raspagem maliciosa de dados por meio de bots automatizados, scripts ou nós de rede de rastreadores.",
+    "userDutyTitle": "Artigo 4 (Padrão do Usuário e Consentimento de Monetização)",
+    "userDutyDesc": "1. Os usuários concordam em navegar em nosso aplicativo sem introduzir sequências de engenharia reversa ou vetores maliciosos de sobrecarga de servidor.\n2. Em consideração ao acesso gratuito, os usuários concedem consentimento explícito e irrevogável para que o Google AdSense e corretores de publicidade terceirizados apresentem layouts de banner automatizados no espaço de trabalho do aplicativo.",
+    "disputeTitle": "Artigo 5 (Legislação Aplicável e Foro Competente)",
+    "disputeDesc": "Estes Termos e quaisquer ações legais decorrentes do uso do sistema serão regidos e interpretados de acordo com as leis da República da Coreia. Quaisquer disputas serão submetidas exclusivamente ao tribunal competente da localização do operador da plataforma."
+  },
+  "Cookie": {
+    "title": "Configurações de Cookies",
+    "description": "Usamos cookies para personalizar anúncios (Google AdSense) e analisar o tráfego. Ao aceitar, você concorda com o uso de cookies.",
+    "acceptAll": "Aceitar Tudo",
+    "rejectAll": "Rejeitar Tudo",
+    "customize": "Personalizar",
+    "savePreferences": "Salvar Preferências",
+    "necessary": "Cookies Necessários",
+    "necessaryDesc": "Obrigatórios para o funcionamento correto do site. (Sempre Ativos)",
+    "analytics": "Cookies Analíticos",
+    "analyticsDesc": "Usados para analisar visitantes e padrões de uso para melhorar nosso serviço.",
+    "advertising": "Cookies de Publicidade",
+    "advertisingDesc": "Usados para veicular anúncios personalizados através do Google AdSense."
+  },
+  "Contact": {
+    "title": "Fale Conosco",
+    "name": "Nome",
+    "email": "E-mail",
+    "subject": "Assunto (opcional)",
+    "message": "Mensagem",
+    "send": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada com sucesso! Obrigado.",
+    "error": "Falha ao enviar. Por favor, tente novamente.",
+    "namePlaceholder": "Digite seu nome",
+    "emailPlaceholder": "Digite seu e-mail",
+    "subjectPlaceholder": "Digite o assunto",
+    "messagePlaceholder": "Digite sua mensagem"
+  },
+  "Giants": {
+    "steve-jobs": {
+      "name": "Steve Jobs",
+      "headline": "O arquiteto visionário que uniu a tecnologia à alma humana.",
+      "shortDescription": "A jornada épica de Steve Jobs e sua sabedoria atemporal.",
+      "quote": "Continue faminto, continue tolo.",
+      "era": "Século XX",
+      "chatGreeting": "Saudações, eu sou Steve Jobs. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Steve Jobs.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "king-sejong": {
+      "name": "Rei Sejong, o Grande",
+      "headline": "O monarca sábio que criou o Hangul para dar voz ao seu povo e iluminar uma nação.",
+      "shortDescription": "A vida profunda e a sabedoria do Rei Sejong.",
+      "quote": "Se o povo me critica, é porque não os amei o suficiente.",
+      "era": "Gigante do Século XV",
+      "chatGreeting": "Saudações, eu sou Rei Sejong, o Grande. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Rei Sejong, o Grande.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "elon-musk": {
+      "name": "Elon Musk",
+      "headline": "O empreendedor visionário cujo objetivo é tornar a humanidade uma espécie multiplanetária.",
+      "shortDescription": "A jornada épica de Elon Musk e sua sabedoria futurista.",
+      "quote": "O fracasso é uma opção aqui. Se as coisas não estão fracassando, você não está inovando o suficiente.",
+      "era": "Gigante do Século XXI",
+      "chatGreeting": "Saudações, eu sou Elon Musk. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Elon Musk.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ],
+      "pain": "Três explosões consecutivas de foguetes e colapso financeiro à beira da falência.",
+      "recovery": "Uma aposta final com toda a sua fortuna e a superação da crise com o pensamento de primeiros princípios."
+    },
+    "genghis-khan": {
+      "name": "Gengis Cã",
+      "headline": "O conquistador que emergiu das estepes desoladas para construir o maior império da história.",
+      "shortDescription": "A saga lendária de Temujin e sua vontade de ferro.",
+      "quote": "Quando conquistei o medo dentro de mim, me tornei um verdadeiro conquistador.",
+      "era": "Gigante do Século XIII",
+      "chatGreeting": "Saudações, eu sou Gengis Cã. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Gengis Cã.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "alexander-the-great": {
+      "name": "Alexandre, o Grande",
+      "headline": "O jovem rei que se aventurou até os confins do mundo conhecido para unir civilizações.",
+      "shortDescription": "A gloriosa campanha de Alexandre e seu legado eterno.",
+      "quote": "Não há nada impossível para aquele que tenta.",
+      "era": "Gigante do Século IV a.C.",
+      "chatGreeting": "Saudações, eu sou Alexandre, o Grande. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Alexandre, o Grande.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "walt-disney": {
+      "name": "Walt Disney",
+      "headline": "O pioneiro da imaginação que transformou sonhos em realidade e encantou o mundo.",
+      "shortDescription": "A jornada mágica de Walt Disney e sua alma criativa.",
+      "quote": "Se você pode sonhar, você pode fazer.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Walt Disney. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Walt Disney.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "thomas-edison": {
+      "name": "Thomas Edison",
+      "headline": "O mago de Menlo Park que iluminou a escuridão com inovação implacável.",
+      "shortDescription": "A vida industriosa de Thomas Edison e suas invenções.",
+      "quote": "Genialidade é 1% inspiração e 99% transpiração.",
+      "era": "Gigante do Século XIX",
+      "chatGreeting": "Saudações, eu sou Thomas Edison. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Thomas Edison.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "julius-caesar": {
+      "name": "Júlio César",
+      "headline": "O estadista romano que cruzou o Rubicão para forjar um legado que sobreviveu a um império.",
+      "shortDescription": "A saga política e militar de Júlio César.",
+      "quote": "Os dados estão lançados.",
+      "era": "Gigante do Século I a.C.",
+      "chatGreeting": "Saudações, eu sou Júlio César. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Júlio César.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "henry-ford": {
+      "name": "Henry Ford",
+      "headline": "O visionário industrial que revolucionou o transporte e o local de trabalho moderno.",
+      "shortDescription": "A história de Henry Ford e o nascimento da produção em massa.",
+      "quote": "Quer você pense que pode, ou que não pode—você está certo.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Henry Ford. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Henry Ford.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "frida-kahlo": {
+      "name": "Frida Kahlo",
+      "headline": "A artista resiliente que transformou a dor física e emocional em obras-primas imortais.",
+      "shortDescription": "A vida feroz de Frida Kahlo e sua alma artística.",
+      "quote": "Pés, para que os quero, se tenho asas para voar?",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Frida Kahlo. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Frida Kahlo.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "viktor-frankl": {
+      "name": "Viktor Frankl",
+      "headline": "O psiquiatra que encontrou o sentido da vida nas profundezas do sofrimento e curou a humanidade.",
+      "shortDescription": "A jornada espiritual de Viktor Frankl e a Logoterapia.",
+      "quote": "Quem tem um porquê de viver pode suportar quase qualquer como.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Viktor Frankl. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Viktor Frankl.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "oprah-winfrey": {
+      "name": "Oprah Winfrey",
+      "headline": "A rainha da mídia que transformou seu trauma em uma ponte de empatia para o mundo.",
+      "shortDescription": "A inspiradora história de sucesso de Oprah Winfrey.",
+      "quote": "Transforme suas feridas em sabedoria.",
+      "era": "Gigante Moderno",
+      "chatGreeting": "Saudações, eu sou Oprah Winfrey. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Oprah Winfrey.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "jk-rowling": {
+      "name": "J.K. Rowling",
+      "headline": "A autora que se reergueu do fundo do poço do fracasso para criar um mundo mágico para milhões.",
+      "shortDescription": "A vida mágica de J.K. Rowling e o menino que sobreviveu.",
+      "quote": "O fundo do poço tornou-se a base sólida sobre a qual reconstruí minha vida.",
+      "era": "Gigante Moderno",
+      "chatGreeting": "Saudações, eu sou J.K. Rowling. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, J.K. Rowling.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "nelson-mandela": {
+      "name": "Nelson Mandela",
+      "headline": "O líder que passou 27 anos na prisão para libertar uma nação e curá-la com o perdão.",
+      "shortDescription": "A longa caminhada de Nelson Mandela rumo à liberdade.",
+      "quote": "O perdão é uma arma poderosa.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Nelson Mandela. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Nelson Mandela.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "helen-keller": {
+      "name": "Helen Keller",
+      "headline": "A estudiosa que triunfou sobre o silêncio e a escuridão para se tornar um farol da vontade humana.",
+      "shortDescription": "O incrível triunfo de Helen Keller.",
+      "quote": "As melhores e mais belas coisas do mundo não podem ser vistas nem tocadas.",
+      "era": "Gigante do Século XIX-XX",
+      "chatGreeting": "Saudações, eu sou Helen Keller. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Helen Keller.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "beethoven": {
+      "name": "Ludwig van Beethoven",
+      "headline": "O compositor que conquistou o silêncio para criar as harmonias mais divinas da história.",
+      "shortDescription": "A luta apaixonada de Beethoven e sua música.",
+      "quote": "Através do sofrimento à alegria!",
+      "era": "Gigante do Século XVIII-XIX",
+      "chatGreeting": "Saudações, eu sou Ludwig van Beethoven. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Ludwig van Beethoven.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "stephen-hawking": {
+      "name": "Stephen Hawking",
+      "headline": "O físico cuja mente voava pelo universo enquanto seu corpo estava confinado a uma cadeira.",
+      "shortDescription": "A jornada celestial de Stephen Hawking.",
+      "quote": "Olhe para as estrelas e não para os seus pés.",
+      "era": "Gigante Moderno",
+      "chatGreeting": "Saudações, eu sou Stephen Hawking. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Stephen Hawking.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "franklin-d-roosevelt": {
+      "name": "Franklin D. Roosevelt",
+      "headline": "O presidente que liderou uma nação durante a Grande Depressão e a Segunda Guerra Mundial a partir de uma cadeira de rodas.",
+      "shortDescription": "A liderança resiliente de FDR.",
+      "quote": "A única coisa que temos a temer é o próprio medo.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Franklin D. Roosevelt. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Franklin D. Roosevelt.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "marcus-aurelius": {
+      "name": "Marcus Aurelius",
+      "headline": "O rei filósofo que manteve a tranquilidade de sua alma em meio às tempestades de um império.",
+      "shortDescription": "A sabedoria estoica de Marco Aurélio.",
+      "quote": "Sua vida é o que seus pensamentos fazem dela.",
+      "era": "Gigante do Século II",
+      "chatGreeting": "Saudações, eu sou Marcus Aurelius. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Marcus Aurelius.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "seneca": {
+      "name": "Seneca",
+      "headline": "O filósofo estoico cujas cartas sobre a vida e a morte guiaram a humanidade por milênios.",
+      "shortDescription": "As cartas atemporais de Sêneca.",
+      "quote": "Não é que temos pouco tempo de vida, mas que desperdiçamos muito.",
+      "era": "Gigante do Século I",
+      "chatGreeting": "Saudações, eu sou Seneca. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Seneca.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "confucius": {
+      "name": "Confúcio",
+      "headline": "O filósofo que estabeleceu as fundações da ética oriental e a harmonia da humanidade.",
+      "shortDescription": "A sabedoria atemporal de Confúcio.",
+      "quote": "Não importa o quão devagar você vá, desde que você não pare.",
+      "era": "Gigante do Século VI a.C.",
+      "chatGreeting": "Saudações, eu sou Confúcio. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Confúcio.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "socrates": {
+      "name": "Sócrates",
+      "headline": "O pai da filosofia ocidental que ensinou à humanidade a arte de questionar e do autoconhecimento.",
+      "shortDescription": "O método socrático e a busca pela verdade.",
+      "quote": "A vida não examinada não vale a pena ser vivida.",
+      "era": "Gigante do Século V a.C.",
+      "chatGreeting": "Saudações, eu sou Sócrates. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Sócrates.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "lao-tzu": {
+      "name": "Lao Tsé",
+      "headline": "O sábio do Taoísmo que ensinou o poder profundo de ceder e a ordem natural do universo.",
+      "shortDescription": "O Tao Te Ching e a sabedoria da não-ação.",
+      "quote": "A jornada de mil milhas começa com um único passo.",
+      "era": "Gigante do Século VI a.C.",
+      "chatGreeting": "Saudações, eu sou Lao Tsé. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Lao Tsé.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "aristotle": {
+      "name": "Aristóteles",
+      "headline": "O polímata que categorizou o conhecimento humano e definiu a virtude do meio-termo.",
+      "shortDescription": "A mente analítica de Aristóteles.",
+      "quote": "Nós somos o que fazemos repetidamente. A excelência, portanto, não é um ato, mas um hábito.",
+      "era": "Gigante do Século IV a.C.",
+      "chatGreeting": "Saudações, eu sou Aristóteles. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Aristóteles.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "plato": {
+      "name": "Platão",
+      "headline": "O filósofo visionário que explorou o mundo das ideias e o projeto para um estado ideal.",
+      "shortDescription": "A República e o Mito da Caverna.",
+      "quote": "Homens sábios falam porque têm algo a dizer; tolos, porque têm que dizer algo.",
+      "era": "Gigante do Século IV a.C.",
+      "chatGreeting": "Saudações, eu sou Platão. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Platão.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "mahatma-gandhi": {
+      "name": "Mahatma Gandhi",
+      "headline": "O apóstolo da não-violência que libertou uma nação através do poder da verdade e da paz.",
+      "shortDescription": "O movimento de satyagraha de Gandhi.",
+      "quote": "Seja a mudança que você deseja ver no mundo.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Mahatma Gandhi. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Mahatma Gandhi.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "mother-teresa": {
+      "name": "Mother Teresa",
+      "headline": "A santa das sarjetas que viu a face do divino no sofrimento dos mais pobres.",
+      "shortDescription": "O serviço humilde de Madre Teresa.",
+      "quote": "Nem todos nós podemos fazer grandes coisas. Mas podemos fazer pequenas coisas com grande amor.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Mother Teresa. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Mother Teresa.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "leonardo-da-vinci": {
+      "name": "Leonardo da Vinci",
+      "headline": "O gênio universal que mesclou arte e ciência para capturar a simetria divina do mundo.",
+      "shortDescription": "A curiosidade sem limites de Da Vinci.",
+      "quote": "A simplicidade é a sofisticação suprema.",
+      "era": "Gigante da Renascença",
+      "chatGreeting": "Saudações, eu sou Leonardo da Vinci. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Leonardo da Vinci.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "salvador-dali": {
+      "name": "Salvador Dalí",
+      "headline": "O mestre surrealista que pintou as paisagens do subconsciente e desafiou a lógica.",
+      "shortDescription": "O mundo excêntrico de Salvador Dalí.",
+      "quote": "Não tenha medo da perfeição - você nunca a alcançará.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Salvador Dalí. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Salvador Dalí.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "coco-chanel": {
+      "name": "Coco Chanel",
+      "headline": "O ícone da moda que libertou as mulheres dos espartilhos e redefiniu a elegância moderna.",
+      "shortDescription": "O estilo revolucionário de Coco Chanel.",
+      "quote": "O ato mais corajoso ainda é pensar por si mesmo. Em voz alta.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Coco Chanel. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Coco Chanel.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "pablo-picasso": {
+      "name": "Pablo Picasso",
+      "headline": "O titã da arte moderna que desmontou o mundo visível para revelar suas verdades ocultas.",
+      "shortDescription": "A visão transformadora de Picasso.",
+      "quote": "Toda criança é um artista. O problema é como continuar sendo um artista depois que crescemos.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Pablo Picasso. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Pablo Picasso.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "mozart": {
+      "name": "Wolfgang Amadeus Mozart",
+      "headline": "O prodígio musical cujas composições divinas sussurravam sobre o eterno e o sublime.",
+      "shortDescription": "A trágica genialidade de Mozart.",
+      "quote": "A música não está nas notas, mas no silêncio entre elas.",
+      "era": "Gigante do Século XVIII",
+      "chatGreeting": "Saudações, eu sou Wolfgang Amadeus Mozart. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Wolfgang Amadeus Mozart.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "william-shakespeare": {
+      "name": "William Shakespeare",
+      "headline": "O bardo de Avon que mapeou a alma humana e a complexidade da existência através do poder da linguagem.",
+      "shortDescription": "O palco eterno de Shakespeare.",
+      "quote": "O mundo inteiro é um palco, e todos os homens e mulheres não passam de meros atores.",
+      "era": "Gigante do Século XVI-XVII",
+      "chatGreeting": "Saudações, eu sou William Shakespeare. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, William Shakespeare.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "marie-curie": {
+      "name": "Marie Curie",
+      "headline": "A pioneira da radioatividade que quebrou barreiras científicas e sacrificou sua vida pela descoberta.",
+      "shortDescription": "O sacrifício radiante de Marie Curie.",
+      "quote": "Nada na vida deve ser temido, apenas compreendido.",
+      "era": "Gigante do Século XIX-XX",
+      "chatGreeting": "Saudações, eu sou Marie Curie. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Marie Curie.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "nikola-tesla": {
+      "name": "Nikola Tesla",
+      "headline": "O engenheiro visionário que sonhou com um mundo sem fios e iluminou a era moderna.",
+      "shortDescription": "As correntes alternadas da mente de Tesla.",
+      "quote": "O presente é deles; o futuro, pelo qual eu realmente trabalhei, é meu.",
+      "era": "Gigante do Século XIX-XX",
+      "chatGreeting": "Saudações, eu sou Nikola Tesla. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Nikola Tesla.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "vincent-van-gogh": {
+      "name": "Vincent van Gogh",
+      "headline": "O pintor pós-impressionista que capturou as cores rodopiantes da alma em meio à pobreza e à loucura.",
+      "shortDescription": "As noites estreladas e tempestades internas de Van Gogh.",
+      "quote": "Prefiro morrer de paixão a morrer de tédio.",
+      "era": "Gigante do Século XIX",
+      "chatGreeting": "Saudações, eu sou Vincent van Gogh. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Vincent van Gogh.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "george-washington": {
+      "name": "George Washington",
+      "headline": "O pai fundador que liderou uma revolução e definiu o caráter de uma nova república.",
+      "shortDescription": "O serviço revolucionário de Washington.",
+      "quote": "Esforce-se para manter viva em seu peito aquela pequena centelha de fogo celestial chamada consciência.",
+      "era": "Gigante do Século XVIII",
+      "chatGreeting": "Saudações, eu sou George Washington. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, George Washington.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "yi-sun-shin": {
+      "name": "Yi Sun-sin",
+      "headline": "O almirante lendário que salvou sua nação à beira do colapso com 12 navios e lealdade absoluta.",
+      "shortDescription": "O brilhantismo naval e sacrifício do Almirante Yi.",
+      "quote": "Aqueles que buscam a morte viverão; aqueles que buscam a vida morrerão.",
+      "era": "Gigante do Século XVI",
+      "chatGreeting": "Saudações, eu sou Yi Sun-sin. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Yi Sun-sin.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "elizabeth-i": {
+      "name": "Elizabeth I",
+      "headline": "A Rainha Virgem que navegou por um mar de inimigos para forjar a Era de Ouro da Inglaterra.",
+      "shortDescription": "A vontade soberana de Elizabeth I.",
+      "quote": "Tenho o coração e o estômago de um rei, e de um rei da Inglaterra também.",
+      "era": "Gigante do Século XVI",
+      "chatGreeting": "Saudações, eu sou Elizabeth I. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Elizabeth I.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "gwanggaeto-the-great": {
+      "name": "Gwanggaeto the Great",
+      "headline": "O rei conquistador que expandiu Goguryeo para um império massivo e restaurou o orgulho nacional.",
+      "shortDescription": "A expansão territorial e o legado de Gwanggaeto.",
+      "quote": "O espírito de um grande império vive na vastidão de sua visão.",
+      "era": "Gigante do Século IV-V",
+      "chatGreeting": "Saudações, eu sou Gwanggaeto the Great. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Gwanggaeto the Great.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "qin-shi-huang": {
+      "name": "Qin Shi Huang",
+      "headline": "O primeiro imperador que unificou estados em guerra e construiu as fundações de uma China unificada.",
+      "shortDescription": "O poder absoluto e a ordem de Qin Shi Huang.",
+      "quote": "Unifiquei o mundo e estabeleci uma ordem que durará dez mil gerações.",
+      "era": "Gigante do Século III a.C.",
+      "chatGreeting": "Saudações, eu sou Qin Shi Huang. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Qin Shi Huang.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "augustus": {
+      "name": "Augustus",
+      "headline": "O arquiteto da Pax Romana que transformou uma cidade de tijolos em uma cidade de mármore.",
+      "shortDescription": "A genialidade política de Augusto.",
+      "quote": "Encontrei Roma, uma cidade de tijolos, e a deixei uma cidade de mármore.",
+      "era": "Século I a.C. - Gigante do Século I",
+      "chatGreeting": "Saudações, eu sou Augustus. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Augustus.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "otto-von-bismarck": {
+      "name": "Otto von Bismarck",
+      "headline": "O Chanceler de Ferro que unificou a Alemanha através de sangue, ferro e diplomacia de mestre.",
+      "shortDescription": "A realpolitik de Bismarck.",
+      "quote": "As grandes questões da época não serão resolvidas por discursos e decisões da maioria... mas por ferro e sangue.",
+      "era": "Gigante do Século XIX",
+      "chatGreeting": "Saudações, eu sou Otto von Bismarck. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Otto von Bismarck.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "peter-the-great": {
+      "name": "Peter the Great",
+      "headline": "O czar reformista que arrastou a Rússia para a era moderna ao olhar para o Ocidente.",
+      "shortDescription": "A transformação da Rússia sob Pedro.",
+      "quote": "Eu vi o futuro, e ele está nas mãos dos educados.",
+      "era": "Gigante do Século XVII-XVIII",
+      "chatGreeting": "Saudações, eu sou Peter the Great. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Peter the Great.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "catherine-the-great": {
+      "name": "Catherine The Great",
+      "headline": "Em 1729, em um pequeno principado prussiano, Sophie de Anhalt-Zerbst—a futura Catarina, a Grande—nasceu em uma família de pequena nobreza e insignificância monumental.",
+      "shortDescription": "A jornada épica e a sabedoria de Catarina, a Grande.",
+      "quote": "Eu aprendo, eu penso, eu trabalho, e nunca paro. A inteligência é sua arma mais potente; mantenha-a afiada através do uso constante.",
+      "era": "Gigante do Século XVIII (1729~1796)",
+      "chatGreeting": "Saudações, eu sou Catherine The Great. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Catherine The Great.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "simon-bolivar": {
+      "name": "Simon Bolivar",
+      "headline": "Em 1783, na cidade colonial de Caracas, Simón Bolívar nasceu em uma das famílias mais ricas e poderosas da Venezuela.",
+      "shortDescription": "A jornada épica e a sabedoria de Simón Bolívar.",
+      "quote": "A arte da vitória se aprende na derrota. Não tema a queda; é o solo de onde sua força monumental crescerá. Levante-se novamente.",
+      "era": "Gigante do Século XVIII-XIX (1783~1830)",
+      "chatGreeting": "Saudações, eu sou Simon Bolivar. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Simon Bolivar.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "margaret-thatcher": {
+      "name": "Margaret Thatcher",
+      "headline": "Em 1925, acima de uma mercearia na cidade de Grantham, nasceu Margaret Roberts.",
+      "shortDescription": "A jornada épica e a sabedoria de Margaret Thatcher.",
+      "quote": "Observe seus pensamentos, pois eles se tornam palavras. Observe suas palavras, pois elas se tornam ações. Observe suas ações, pois elas se tornam hábitos. Observe seus hábitos, pois eles se tornam caráter. Observe seu caráter, pois ele se torna seu destino.",
+      "era": "Gigante do Século XX (1925~2013)",
+      "chatGreeting": "Saudações, eu sou Margaret Thatcher. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Margaret Thatcher.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "john-d-rockefeller": {
+      "name": "John D Rockefeller",
+      "headline": "Em 1839, na paisagem rural do norte de Nova York, John Davison Rockefeller nasceu em uma casa de contradições monumentais.",
+      "shortDescription": "A jornada épica e a sabedoria de John D. Rockefeller.",
+      "quote": "O segredo do sucesso é fazer coisas comuns de forma incomum. A maestria é encontrada na perfeição do mundano. Não ignore os pequenos passos.",
+      "era": "Gigante do Século XIX-XX (1839~1937)",
+      "chatGreeting": "Saudações, eu sou John D Rockefeller. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, John D Rockefeller.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "ataturk": {
+      "name": "Ataturk",
+      "headline": "Em 1881, na cidade portuária otomana de Salonica, Mustafa nasceu em um mundo de fronteiras em desintegração e decadência imperial.",
+      "shortDescription": "A jornada épica e a sabedoria de Atatürk.",
+      "quote": "O guia mais verdadeiro na vida é a ciência. A razão é a única luz monumental que pode dissipar a escuridão da ignorância. Busque a verdade nos fatos.",
+      "era": "Gigante do Século XIX-XX (1881~1938)",
+      "chatGreeting": "Saudações, eu sou Ataturk. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Ataturk.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "theodore-roosevelt": {
+      "name": "Theodore Roosevelt",
+      "headline": "Em 1858, na elegância de arenito da cidade de Nova York, Theodore Roosevelt nasceu em uma vida de privilégio monumental e fragilidade física.",
+      "shortDescription": "A jornada épica e a sabedoria de Theodore Roosevelt.",
+      "quote": "Faça o que pode, com o que tem, onde está. A perfeição não é um pré-requisito para a ação. A arena está esperando por você.",
+      "era": "Gigante do Século XIX-XX (1858~1919)",
+      "chatGreeting": "Saudações, eu sou Theodore Roosevelt. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Theodore Roosevelt.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "anne-frank": {
+      "name": "Anne Frank",
+      "headline": "Em 1929, na cidade de Frankfurt, Anne Frank nasceu em uma família judaica durante a tempestade crescente da Alemanha nazista.",
+      "shortDescription": "A jornada épica e a sabedoria de Anne Frank.",
+      "quote": "Apesar de tudo, ainda acredito que as pessoas são realmente boas de coração. O amor é uma escolha monumental; o ódio é uma fraqueza fácil. Apegue-se aos seus ideais.",
+      "era": "Gigante do Século XX (1929~1945)",
+      "chatGreeting": "Saudações, eu sou Anne Frank. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Anne Frank.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "rosa-parks": {
+      "name": "Rosa Parks",
+      "headline": "Em 1913, na paisagem segregada de Tuskegee, Alabama, Rosa McCauley nasceu em um mundo projetado para diminuir sua humanidade.",
+      "shortDescription": "A jornada épica e a sabedoria de Rosa Parks.",
+      "quote": "Saber o que deve ser feito acaba com o medo. Quando você tem certeza de sua causa monumental, o mundo não pode intimidá-lo. Mantenha sua posição.",
+      "era": "Gigante do Século XX (1913~2005)",
+      "chatGreeting": "Saudações, eu sou Rosa Parks. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Rosa Parks.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "frederick-douglass": {
+      "name": "Frederick Douglass",
+      "headline": "Em 1818, em uma plantação no condado de Talbot, Maryland, Frederick Bailey nasceu no crime monumental da escravidão.",
+      "shortDescription": "A jornada épica e a sabedoria de Frederick Douglass.",
+      "quote": "O conhecimento torna um homem incapaz de ser escravo. A educação é a ponte monumental entre o cativeiro e a liberdade. Arme sua mente.",
+      "era": "Gigante do Século XIX (1818~1895)",
+      "chatGreeting": "Saudações, eu sou Frederick Douglass. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Frederick Douglass.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "harriet-tubman": {
+      "name": "Harriet Tubman",
+      "headline": "Em 1822, em uma plantação no condado de Dorchester, Maryland, Araminta Ross — a mulher que ficaria conhecida como Harriet Tubman — nasceu na escuridão monumental da escravidão.",
+      "shortDescription": "A jornada épica e a sabedoria de Harriet Tubman.",
+      "quote": "Se ouvir os cães, continue. Se vir as tochas na floresta, continue. Se estiverem gritando atrás de você, continue. Nunca pare. Continue em direção à Estrela do Norte.",
+      "era": "Gigante do Século XIX (1822~1913)",
+      "chatGreeting": "Saudações, eu sou Harriet Tubman. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Harriet Tubman.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "oskar-schindler": {
+      "name": "Oskar Schindler",
+      "headline": "Em 1908, na paisagem industrial de Zwittau, Oskar Schindler nasceu em uma vida de apetites monumentais e ambiguidade moral.",
+      "shortDescription": "A jornada épica e a sabedoria de Oskar Schindler.",
+      "quote": "Aquele que salva uma vida salva o mundo inteiro. Não subestime o impacto monumental de um único ato de bondade. Você é o arquiteto de um mundo.",
+      "era": "Gigante do Século XX (1908~1974)",
+      "chatGreeting": "Saudações, eu sou Oskar Schindler. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Oskar Schindler.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "florence-nightingale": {
+      "name": "Florence Nightingale",
+      "headline": "Em 1820, na elegância renascentista de Florença, Itália, Florence Nightingale nasceu em uma vida de luxo monumental e expectativa social.",
+      "shortDescription": "A jornada épica e a sabedoria de Florence Nightingale.",
+      "quote": "Atribuo meu sucesso a isto: nunca dei ou aceitei uma desculpa. Resultados são a única métrica monumental de uma vida. Faça o trabalho.",
+      "era": "Gigante do Século XIX-XX (1820~1910)",
+      "chatGreeting": "Saudações, eu sou Florence Nightingale. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Florence Nightingale.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "yu-gwan-sun": {
+      "name": "Yu Gwan Sun",
+      "headline": "Em 1902, na vila rural de Cheonan, Yu Gwan-sun nasceu em uma família cristã devota durante o alvorecer sombrio do domínio colonial japonês.",
+      "shortDescription": "A jornada épica e a sabedoria de Yu Gwan-sun.",
+      "quote": "Minha única tristeza é ter apenas uma vida para dar pelo meu país. Um sacrifício monumental é a expressão máxima do amor. Dê tudo de si.",
+      "era": "Gigante do Século XX (1902~1920)",
+      "chatGreeting": "Saudações, eu sou Yu Gwan Sun. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Yu Gwan Sun.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "louis-braille": {
+      "name": "Louis Braille",
+      "headline": "Em 1809, na pequena vila francesa de Coupvray, Louis Braille nasceu em uma vida de luz e cores que logo desapareceria.",
+      "shortDescription": "A jornada épica e a sabedoria de Louis Braille.",
+      "quote": "O acesso à comunicação no sentido mais amplo é o acesso ao conhecimento. Não deixe que suas limitações físicas definam os limites do seu espírito monumental. Busque a luz do pensamento.",
+      "era": "Gigante do Século XIX (1809~1852)",
+      "chatGreeting": "Saudações, eu sou Louis Braille. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Louis Braille.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "joan-of-arc": {
+      "name": "Joana d'Arc",
+      "headline": "Em 1412, na vila de Domrémy, uma camponesa chamada Jeanne d'Arc nasceu em uma França dilacerada pela Guerra dos Cem Anos.",
+      "shortDescription": "A jornada épica e a sabedoria de Joana d'Arc.",
+      "quote": "Eu não tenho medo; eu nasci para fazer isso. Meu propósito é meu escudo, e minha fé é minha espada. O gigante age apesar do medo, não na sua ausência.",
+      "era": "Gigante do Século XV (1412~1431)",
+      "chatGreeting": "Saudações, eu sou Joana d'Arc. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Joana d'Arc.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "desmond-tutu": {
+      "name": "Desmond Tutu",
+      "headline": "Em 1931, na cidade de mineração de ouro de Klerksdorp, Desmond Mpilo Tutu nasceu em um mundo de divisão racial monumental e crueldade sistêmica.",
+      "shortDescription": "A jornada épica e a sabedoria de Desmond Tutu.",
+      "quote": "Se você é neutro em situações de injustiça, você escolheu o lado do opressor. O silêncio é uma traição monumental da sua própria humanidade. Fale.",
+      "era": "Gigante do Século XX-XXI (1931~2021)",
+      "chatGreeting": "Saudações, eu sou Desmond Tutu. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Desmond Tutu.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "elie-wiesel": {
+      "name": "Elie Wiesel",
+      "headline": "Em 1928, na cidade da Transilvânia de Sighet, Elie Wiesel nasceu em uma vida de fé monumental e estudo silencioso.",
+      "shortDescription": "A jornada épica e a sabedoria de Elie Wiesel.",
+      "quote": "O oposto do amor não é o ódio, é a indiferença. A indiferença é um crime monumental. Envolva-se com o mundo. Não desvie o olhar.",
+      "era": "Gigante do Século XX-XXI (1928~2016)",
+      "chatGreeting": "Saudações, eu sou Elie Wiesel. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Elie Wiesel.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "harriet-beecher-stowe": {
+      "name": "Harriet Beecher Stowe",
+      "headline": "Em 1811, no fermento intelectual de Litchfield, Connecticut, Harriet Beecher nasceu em uma família de influência religiosa e social monumental.",
+      "shortDescription": "A jornada épica e a sabedoria de Harriet Beecher Stowe.",
+      "quote": "Nunca desista, pois é justamente o lugar e o momento em que a maré vai virar. A persistência é uma força monumental da natureza. Espere o seu momento.",
+      "era": "Gigante do Século XIX (1811~1896)",
+      "chatGreeting": "Saudações, eu sou Harriet Beecher Stowe. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Harriet Beecher Stowe.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "rigoberta-menchu": {
+      "name": "Rigoberta Menchu",
+      "headline": "Em 1959, nas terras altas e montanhosas da Guatemala, Rigoberta Menchú Tum nasceu em uma vida de dificuldades monumentais e orgulho indígena.",
+      "shortDescription": "A jornada épica e a sabedoria de Rigoberta Menchú.",
+      "quote": "A paz não é apenas a ausência de guerra. Enquanto houver pobreza, racismo, isolamento e exclusão, teremos dificuldade em alcançar uma paz de espírito. A dignidade é monumental.",
+      "era": "Gigante do Século XX-XXI (1959~Present)",
+      "chatGreeting": "Saudações, eu sou Rigoberta Menchu. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Rigoberta Menchu.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "terry-fox": {
+      "name": "Terry Fox",
+      "headline": "Em 1958, na cidade dos ventos de Winnipeg, Canadá, Terry Fox nasceu em uma vida de energia monumental e paixão atlética.",
+      "shortDescription": "A jornada épica e a sabedoria de Terry Fox.",
+      "quote": "Eu não sou um sonhador, mas acredito em milagres. Eu tenho que acreditar. Mesmo se eu não terminar, precisamos de outros para continuar. Tem que continuar. Faça parte do esforço monumental.",
+      "era": "Gigante do Século XX (1853~1890)",
+      "chatGreeting": "Saudações, eu sou Terry Fox. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Terry Fox.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "kim-gu": {
+      "name": "Kim Gu",
+      "headline": "Em 1876, na pobreza rural da província de Hwanghae, Kim Chang-am — mais tarde conhecido como Baekbeom Kim Gu — nasceu em uma Coreia que começava a ceder sob o peso do imperialismo estrangeiro.",
+      "shortDescription": "A jornada épica e a sabedoria de Kim Gu.",
+      "quote": "Meu desejo é a soberania independente da minha nação. Meu segundo desejo é o mesmo. Meu terceiro desejo é o mesmo. Um foco monumental é a única maneira de mover uma montanha. Nunca se desvie.",
+      "era": "Gigante do Século XIX-XX (1876~1949)",
+      "chatGreeting": "Saudações, eu sou Kim Gu. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Kim Gu.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "buddha": {
+      "name": "Buda",
+      "headline": "Em 563 a.C., nos exuberantes jardins de Lumbini, Siddhartha Gautama nasceu como um príncipe do clã Shakya, em uma vida de luxo monumental e proteção absoluta.",
+      "shortDescription": "A jornada épica e a sabedoria de Buda.",
+      "quote": "A mente é tudo. O que você pensa, você se torna. Seus pensamentos são as sementes monumentais de sua realidade. Escolha-os com cuidado.",
+      "era": "Século VI-V a.C. (563~483 a.C.)",
+      "chatGreeting": "Saudações, eu sou Buda. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Buda.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "friedrich-nietzsche": {
+      "name": "Friedrich Nietzsche",
+      "headline": "Em 1844, na vila prussiana de Röcken, Friedrich Nietzsche nasceu em uma longa linhagem de pastores luteranos.",
+      "shortDescription": "A jornada épica e a sabedoria de Friedrich Nietzsche.",
+      "quote": "O que não me mata me fortalece. A adversidade é a academia monumental da alma. Abrace a luta como seu maior professor.",
+      "era": "Gigante do Século XIX (1844~1900)",
+      "chatGreeting": "Saudações, eu sou Friedrich Nietzsche. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Friedrich Nietzsche.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "immanuel-kant": {
+      "name": "Immanuel Kant",
+      "headline": "Em 1724, na cidade portuária báltica de Königsberg, Immanuel Kant nasceu em uma família de modéstia monumental e profunda devoção luterana.",
+      "shortDescription": "A jornada épica e a sabedoria de Immanuel Kant.",
+      "quote": "Sapere Aude! Ouse saber! Tenha a coragem de usar seu próprio entendimento. Não deixe que os outros pensem por você. A liberdade começa na mente.",
+      "era": "Gigante do Século XVIII (1724~1804)",
+      "chatGreeting": "Saudações, eu sou Immanuel Kant. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Immanuel Kant.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "rene-descartes": {
+      "name": "Rene Descartes",
+      "headline": "Em 1596, na pequena cidade francesa de La Haye, René Descartes nasceu em uma vida de fragilidade monumental e intensidade intelectual.",
+      "shortDescription": "A jornada épica e a sabedoria de René Descartes.",
+      "quote": "Cogito, ergo sum. Penso, logo existo. Sua consciência é o fundamento monumental de sua realidade. Não a deixe dormir. Exercite seu pensamento.",
+      "era": "Gigante do Século XVII (1596~1650)",
+      "chatGreeting": "Saudações, eu sou Rene Descartes. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Rene Descartes.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "jean-jacques-rousseau": {
+      "name": "Jean Jacques Rousseau",
+      "headline": "Em 1712, na cidade independente de Genebra, Jean-Jacques Rousseau nasceu em uma vida de instabilidade e perda monumentais.",
+      "shortDescription": "A jornada épica e a sabedoria de Jean-Jacques Rousseau.",
+      "quote": "Retorne à natureza. O homem nasce livre, mas por toda parte está acorrentado. Quebre a artificialidade monumental de sua vida. Encontre sua alma original.",
+      "era": "Gigante do Século XVIII (1712~1778)",
+      "chatGreeting": "Saudações, eu sou Jean Jacques Rousseau. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Jean Jacques Rousseau.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "sigmund-freud": {
+      "name": "Sigmund Freud",
+      "headline": "Em 1856, na cidade moraviana de Freiberg, Sigismund Freud nasceu em uma vida de curiosidade intelectual monumental e identidade judaica.",
+      "shortDescription": "A jornada épica e a sabedoria de Sigmund Freud.",
+      "quote": "O inconsciente é a verdadeira realidade psíquica. Seus sonhos são a estrada real para a verdade monumental de sua alma. Não ignore os sussurros de sua mente.",
+      "era": "Gigante do Século XIX-XX (1856~1939)",
+      "chatGreeting": "Saudações, eu sou Sigmund Freud. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Sigmund Freud.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "carl-jung": {
+      "name": "Carl Jung",
+      "headline": "Em 1875, nas margens do Lago Constança, na Suíça, Carl Gustav Jung nasceu em uma vida de mistério monumental e investigação espiritual.",
+      "shortDescription": "A jornada épica e a sabedoria de Carl Jung.",
+      "quote": "Até que você torne o inconsciente consciente, ele direcionará sua vida e você o chamará de destino. Assumir o controle de sua sombra é um dever monumental. Acorde.",
+      "era": "Gigante do Século XIX-XX (1875~1961)",
+      "chatGreeting": "Saudações, eu sou Carl Jung. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Carl Jung.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "baruch-spinoza": {
+      "name": "Baruch Spinoza",
+      "headline": "Em 1632, na próspera comunidade judaica de Amsterdã, Baruch Spinoza nasceu em uma vida de promessa monumental e fervor espiritual.",
+      "shortDescription": "A jornada épica e a sabedoria de Baruch Spinoza.",
+      "quote": "Deus e a Natureza são um só. Tudo segue as leis monumentais e eternas da necessidade. Encontre o seu lugar na estrutura infinita. Compreenda o todo.",
+      "era": "Gigante do Século XVII (1632~1677)",
+      "chatGreeting": "Saudações, eu sou Baruch Spinoza. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Baruch Spinoza.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "sun-tzu": {
+      "name": "Sun Tzu",
+      "headline": "No século VI a.C., durante o caos sangrento do período das Primaveras e Outonos na China, Sun Wu — o homem conhecido como Sun Tzu — nasceu em um mundo de traições intermináveis e guerras monumentais.",
+      "shortDescription": "A jornada épica e a sabedoria de Sun Tzu.",
+      "quote": "Se você conhece o inimigo e conhece a si mesmo, não precisa temer o resultado de cem batalhas. O autoconhecimento é a base monumental de toda estratégia. Olhe no espelho primeiro.",
+      "era": "Século VI-V a.C. (Período de Primaveras e Outonos)",
+      "chatGreeting": "Saudações, eu sou Sun Tzu. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Sun Tzu.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "david-hume": {
+      "name": "David Hume",
+      "headline": "Em 1711, no centro intelectual de Edimburgo, David Hume nasceu em uma vida de ceticismo monumental e recursos modestos.",
+      "shortDescription": "A jornada épica e a sabedoria de David Hume.",
+      "quote": "A razão é, e deve ser apenas, escrava das paixões. A lógica é uma ferramenta, mas o desejo é o motor monumental da vida. Alinhe seu coração com sua cabeça.",
+      "era": "Gigante do Século XVIII (1711~1776)",
+      "chatGreeting": "Saudações, eu sou David Hume. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, David Hume.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "john-locke": {
+      "name": "John Locke",
+      "headline": "Em 1632, na vila inglesa de Wrington, John Locke nasceu em uma vida de mudanças políticas monumentais e despertar intelectual.",
+      "shortDescription": "A jornada épica e a sabedoria de John Locke.",
+      "quote": "A mente é uma Tabula Rasa, uma folha em branco. A experiência é o arquiteto monumental de sua alma. Preencha suas páginas com a verdade dos sentidos.",
+      "era": "Gigante do Século XVII (1632~1704)",
+      "chatGreeting": "Saudações, eu sou John Locke. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, John Locke.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "simone-de-beauvoir": {
+      "name": "Simone De Beauvoir",
+      "headline": "Em 1908, no coração burguês de Paris, Simone de Beauvoir nasceu em uma vida de disciplina monumental e fome intelectual.",
+      "shortDescription": "A jornada épica e a sabedoria de Simone de Beauvoir.",
+      "quote": "Não se nasce mulher, torna-se mulher. A identidade é uma construção monumental. Retire as camadas de expectativa social. Defina a si mesmo.",
+      "era": "Gigante do Século XX (1908~1986)",
+      "chatGreeting": "Saudações, eu sou Simone De Beauvoir. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Simone De Beauvoir.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "hannah-arendt": {
+      "name": "Hannah Arendt",
+      "headline": "Em 1906, na cidade alemã de Hanôver, Hannah Arendt nasceu em uma vida de intensidade intelectual monumental e identidade judaica.",
+      "shortDescription": "A jornada épica e a sabedoria de Hannah Arendt.",
+      "quote": "A triste verdade é que a maior parte do mal é feita por pessoas que nunca se decidem ser boas ou más. A irreflexão é um perigo monumental. Questione suas ordens. Pense por si mesmo.",
+      "era": "Gigante do Século XX (1906~1975)",
+      "chatGreeting": "Saudações, eu sou Hannah Arendt. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Hannah Arendt.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "soren-kierkegaard": {
+      "name": "Soren Kierkegaard",
+      "headline": "Em 1813, nas ruas enevoadas de Copenhague, Søren Kierkegaard nasceu em uma vida de riqueza monumental e melancolia hereditária.",
+      "shortDescription": "A jornada épica e a sabedoria de Søren Kierkegaard.",
+      "quote": "Ousar é perder o equilíbrio momentaneamente. Não ousar é perder-se a si mesmo. A coragem é um salto monumental e necessário. Não fique na margem segura.",
+      "era": "Gigante do Século XIX (1813~1855)",
+      "chatGreeting": "Saudações, eu sou Soren Kierkegaard. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Soren Kierkegaard.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "arthur-schopenhauer": {
+      "name": "Arthur Schopenhauer",
+      "headline": "Em 1788, na Cidade Livre de Danzig, Arthur Schopenhauer nasceu em uma vida de riqueza monumental e sombra interna.",
+      "shortDescription": "A jornada épica e a sabedoria de Arthur Schopenhauer.",
+      "quote": "A vida oscila como um pêndulo para trás e para frente entre a dor e o tédio. O desejo é uma fome monumental. Encontre a quietude no meio da oscilação.",
+      "era": "Gigante do Século XIX (1788~1860)",
+      "chatGreeting": "Saudações, eu sou Arthur Schopenhauer. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Arthur Schopenhauer.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "isaac-newton": {
+      "name": "Isaac Newton",
+      "headline": "Em 1643, na isolada mansão de Woolsthorpe, Inglaterra, Isaac Newton nasceu em uma vida de solidão monumental e intensidade intelectual.",
+      "shortDescription": "A jornada épica e a sabedoria de Isaac Newton.",
+      "quote": "Se vi mais longe, foi por estar de pé sobre ombros de gigantes. A gratidão aos seus predecessores é uma força monumental. Construa sobre a fundação do passado.",
+      "era": "Gigante do Século XVII-XVIII (1643~1727)",
+      "chatGreeting": "Saudações, eu sou Isaac Newton. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Isaac Newton.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "galileo-galilei": {
+      "name": "Galileo Galilei",
+      "headline": "Em 1564, na cidade italiana de Pisa, Galileu Galilei nasceu em uma vida de curiosidade monumental e talento artístico.",
+      "shortDescription": "A jornada épica e a sabedoria de Galileu Galilei.",
+      "quote": "E pur si muove. E no entanto, ela se move. A verdade é um fato monumental e inabalável. Não deixe a pressão da multidão dobrar sua razão. Permaneça firme.",
+      "era": "Gigante do Século XVI-XVII (1564~1642)",
+      "chatGreeting": "Saudações, eu sou Galileo Galilei. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Galileo Galilei.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "charles-darwin": {
+      "name": "Charles Darwin",
+      "headline": "Em 1809, no mesmo dia que Abraham Lincoln, Charles Darwin nasceu em Shrewsbury, Inglaterra, em uma vida de privilégio acadêmico monumental e curiosidade natural.",
+      "shortDescription": "A jornada épica e a sabedoria de Charles Darwin.",
+      "quote": "Não é a mais forte das espécies que sobrevive, nem a mais inteligente que sobrevive. É a que mais se adapta à mudança. A flexibilidade é um trunfo monumental. Evolua ou pereça.",
+      "era": "Gigante do Século XIX (1809~1882)",
+      "chatGreeting": "Saudações, eu sou Charles Darwin. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Charles Darwin.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "michelangelo": {
+      "name": "Michelangelo",
+      "headline": "Em 1475, nas colinas acidentadas de Caprese, Michelangelo Buonarroti nasceu em uma família da nobreza em declínio que via o trabalho manual como uma desgraça.",
+      "shortDescription": "A jornada épica e a sabedoria de Michelangelo.",
+      "quote": "Eu vi o anjo no mármore e esculpi até libertá-lo. Cada bloco de pedra tem uma estátua dentro de si e é tarefa do escultor descobri-la.",
+      "era": "Renaissance Giant (1475~1564)",
+      "chatGreeting": "Saudações, eu sou Michelangelo. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Michelangelo.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "claude-monet": {
+      "name": "Claude Monet",
+      "headline": "Em 1840, no coração de Paris, Claude Monet nasceu em uma vida de intensidade visual monumental e luta econômica.",
+      "shortDescription": "A jornada épica e a sabedoria de Claude Monet.",
+      "quote": "Talvez eu deva às flores o fato de ter me tornado pintor. A natureza é uma fonte monumental e eterna. Não pinte a coisa; pinte a luz que incide sobre ela. Confie em seus sentidos.",
+      "era": "Gigante do Século XIX-XX (1840~1926)",
+      "chatGreeting": "Saudações, eu sou Claude Monet. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Claude Monet.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "fyodor-dostoevsky": {
+      "name": "Fyodor Dostoevsky",
+      "headline": "Em 1821, em um hospital para pobres em Moscou, Fiódor Dostoiévski nasceu em uma vida de profundidade psicológica monumental e trauma físico.",
+      "shortDescription": "A jornada épica e a sabedoria de Fiódor Dostoiévski.",
+      "quote": "O inferno é o sofrimento de não ser capaz de amar. O amor é um ato monumental de redenção. Não deixe seu coração endurecer contra o mundo. Continue se importando.",
+      "era": "Gigante do Século XIX (1821~1881)",
+      "chatGreeting": "Saudações, eu sou Fyodor Dostoevsky. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Fyodor Dostoevsky.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "victor-hugo": {
+      "name": "Victor Hugo",
+      "headline": "Em 1802, na cidade de Besançon, Victor Hugo nasceu em uma vida de escala monumental e reviravolta histórica.",
+      "shortDescription": "A jornada épica e a sabedoria de Victor Hugo.",
+      "quote": "O futuro tem muitos nomes. Para os fracos, é o inatingível; para os temerosos, o desconhecido; para os valentes, a oportunidade. Aproveite sua oportunidade monumental.",
+      "era": "Gigante do Século XIX (1802~1885)",
+      "chatGreeting": "Saudações, eu sou Victor Hugo. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Victor Hugo.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "anton-chekhov": {
+      "name": "Anton Chekhov",
+      "headline": "Em 1860, na poeirenta cidade portuária de Taganrog, Rússia, Anton Tchekhov nasceu em uma vida de responsabilidade monumental e meios modestos.",
+      "shortDescription": "A jornada épica e a sabedoria de Anton Tchekhov.",
+      "quote": "A brevidade é irmã do talento. A concisão é uma virtude monumental e difícil. Não use mil palavras quando dez forem suficientes. Seja preciso.",
+      "era": "Gigante do Século XIX-XX (1860~1904)",
+      "chatGreeting": "Saudações, eu sou Anton Chekhov. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Anton Chekhov.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "frederic-chopin": {
+      "name": "Frederic Chopin",
+      "headline": "Em 1810, no coração do interior polonês, Frédéric Chopin nasceu em uma vida de lirismo monumental e saúde frágil.",
+      "shortDescription": "A jornada épica e a sabedoria de Frédéric Chopin.",
+      "quote": "A simplicidade é a sofisticação suprema. Um impacto monumental é frequentemente encontrado na expressão mais direta e sem adornos. Remova o ruído.",
+      "era": "Gigante do Século XIX (1810~1849)",
+      "chatGreeting": "Saudações, eu sou Frederic Chopin. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Frederic Chopin.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "katsushika-hokusai": {
+      "name": "Katsushika Hokusai",
+      "headline": "Em 1760, no distrito de Katsushika em Edo (atual Tóquio), Katsushika Hokusai nasceu em uma vida de curiosidade visual monumental e mudança implacável.",
+      "shortDescription": "A jornada épica e a sabedoria de Katsushika Hokusai.",
+      "quote": "Aos setenta anos, tive um vislumbre da estrutura da natureza. O aprendizado é um processo monumental e para toda a vida. Não tenha pressa em ser um mestre. Seja um aprendiz.",
+      "era": "Gigante do Século XVIII-XIX (1760~1849)",
+      "chatGreeting": "Saudações, eu sou Katsushika Hokusai. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Katsushika Hokusai.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "agatha-christie": {
+      "name": "Agatha Christie",
+      "headline": "Em 1890, na cidade costeira de Torquay, Inglaterra, Agatha Mary Clarissa Miller — a futura Agatha Christie — nasceu em uma vida de imaginação monumental e conforto vitoriano.",
+      "shortDescription": "A jornada épica e a sabedoria de Agatha Christie.",
+      "quote": "Muito poucos de nós somos o que parecemos ser. A aparência é uma ilusão monumental. Procure o motivo oculto. Confie em sua observação, não na máscara.",
+      "era": "Gigante do Século XX (1890~1976)",
+      "chatGreeting": "Saudações, eu sou Agatha Christie. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Agatha Christie.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "mark-twain": {
+      "name": "Mark Twain",
+      "headline": "Em 1835, enquanto o Cometa Halley cortava o céu, Samuel Langhorne Clemens — o homem que seria Mark Twain — nasceu em uma vida de movimento monumental e observação perspicaz.",
+      "shortDescription": "A jornada épica e a sabedoria de Mark Twain.",
+      "quote": "Sempre que você se encontrar do lado da maioria, é hora de fazer uma pausa e refletir. O pensamento independente é uma conquista monumental. Não siga o rebanho cegamente.",
+      "era": "Gigante do Século XIX-XX (1835~1910)",
+      "chatGreeting": "Saudações, eu sou Mark Twain. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Mark Twain.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "goethe": {
+      "name": "Goethe",
+      "headline": "Em 1749, na cidade imperial livre de Frankfurt, Johann Wolfgang von Goethe nasceu em uma vida de privilégio monumental e fome intelectual.",
+      "shortDescription": "A jornada épica e a sabedoria de Goethe.",
+      "quote": "O que quer que você possa fazer, ou sonhe que pode, comece. A audácia contém genialidade, poder e magia. Iniciar é um ato monumental e sagrado. Não espere.",
+      "era": "Gigante do Século XVIII-XIX (1749~1832)",
+      "chatGreeting": "Saudações, eu sou Goethe. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Goethe.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "mary-shelley": {
+      "name": "Mary Shelley",
+      "headline": "Em 1797, no coração intelectual de Londres, Mary Wollstonecraft Godwin — a futura Mary Shelley — nasceu em uma vida de expectativas monumentais e perda profunda.",
+      "shortDescription": "A jornada épica e a sabedoria de Mary Shelley.",
+      "quote": "A invenção, deve-se admitir, não consiste em criar a partir do vazio, mas do caos. A transformação é uma luta monumental. Não tema a desordem da criação.",
+      "era": "Gigante do Século XIX (1797~1851)",
+      "chatGreeting": "Saudações, eu sou Mary Shelley. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Mary Shelley.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "napoleon-bonaparte": {
+      "name": "Napoleão Bonaparte",
+      "headline": "O gênio militar que redesenhou o mapa da Europa e estabeleceu os fundamentos do direito moderno.",
+      "shortDescription": "A saga épica de Napoleão e sua grande ambição.",
+      "quote": "Impossível é uma palavra a ser encontrada apenas no dicionário dos tolos.",
+      "era": "Gigante do Século XIX",
+      "chatGreeting": "Saudações, eu sou Napoleão Bonaparte. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Napoleão Bonaparte.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "malala-yousafzai": {
+      "name": "Malala Yousafzai",
+      "headline": "A jovem ativista que sobreviveu à bala de um assassino para defender a educação de cada criança.",
+      "shortDescription": "A voz corajosa de Malala Yousafzai.",
+      "quote": "Uma criança, um professor, um livro, uma caneta podem mudar o mundo.",
+      "era": "Gigante Moderno",
+      "chatGreeting": "Saudações, eu sou Malala Yousafzai. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Malala Yousafzai.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "martin-luther-king": {
+      "name": "Martin Luther King Jr.",
+      "headline": "O líder movido a sonhos que marchou pela igualdade e justiça com a arma do amor.",
+      "shortDescription": "A cruzada pelos direitos civis de MLK.",
+      "quote": "Eu tenho um sonho.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Martin Luther King Jr.. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Martin Luther King Jr..",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "albert-einstein": {
+      "name": "Albert Einstein",
+      "headline": "O físico revolucionário que desvendou os segredos do tempo e do espaço com uma única equação.",
+      "shortDescription": "A relatividade da genialidade e de Einstein.",
+      "quote": "A imaginação é mais importante que o conhecimento.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Albert Einstein. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Albert Einstein.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "abraham-lincoln": {
+      "name": "Abraham Lincoln",
+      "headline": "O Grande Emancipador que preservou uma nação e acabou com o flagelo da escravidão com integridade inabalável.",
+      "shortDescription": "As raízes da cabana de troncos e a liderança de Lincoln.",
+      "quote": "Uma casa dividida contra si mesma não pode subsistir.",
+      "era": "Gigante do Século XIX",
+      "chatGreeting": "Saudações, eu sou Abraham Lincoln. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Abraham Lincoln.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "winston-churchill": {
+      "name": "Winston Churchill",
+      "headline": "O buldogue britânico que se opôs à tirania com o poder da oratória e determinação inabalável.",
+      "shortDescription": "A liderança em tempos de guerra de Churchill.",
+      "quote": "Nunca, nunca, nunca desista.",
+      "era": "Gigante do Século XX",
+      "chatGreeting": "Saudações, eu sou Winston Churchill. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Winston Churchill.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    },
+    "jane-austen": {
+      "name": "Jane Austen",
+      "headline": "A mestre do comentário social que usou perspicácia e observação para revelar as complexidades do coração humano.",
+      "shortDescription": "O gênio literário de Jane Austen.",
+      "quote": "Um Coração Sincero",
+      "era": "Gigante do Século XVIII-XIX",
+      "chatGreeting": "Saudações, eu sou Jane Austen. Você busca o caminho da sabedoria ou tem perguntas sobre a jornada da minha vida?",
+      "suggestedQuestions": [
+        "Conte-me sobre sua maior conquista, Jane Austen.",
+        "Como você superou seus desafios mais difíceis?",
+        "Qual é o conselho mais importante que você pode me dar?"
+      ]
+    }
+  }
+}
