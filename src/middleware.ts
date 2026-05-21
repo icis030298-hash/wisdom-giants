@@ -8,6 +8,12 @@ const intlMiddleware = createIntlMiddleware(routing);
 export default async function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
+  if (request.nextUrl.hostname === 'giantswisdom.com') {
+    const newUrl = request.nextUrl.clone();
+    newUrl.hostname = 'www.giantswisdom.com';
+    return NextResponse.redirect(newUrl);
+  }
+  
   // Skip static files, API routes, and vercel speed insights/analytics
   const isStaticOrApi = 
     pathname.startsWith('/_next') || 

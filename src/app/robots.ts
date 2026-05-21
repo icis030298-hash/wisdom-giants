@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/*/chats'],
     },
-    sitemap: 'https://giantswisdom.com/sitemap.xml',
+    sitemap: 'https://www.giantswisdom.com/sitemap.xml',
   };
 }
 
