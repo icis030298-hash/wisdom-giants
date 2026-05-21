@@ -45,7 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   )
 
-  // 2. Dynamic giant pages — 99 giants × 6 locales = 594 entries
+  // 2. Dynamic giant pages — 99 giants × 8 locales (ko, en, de, ja, es, fr, it, pt) = 792 entries
   const giantEntries = LOCALES.flatMap((locale) =>
     giants.map((giant) => ({
       url: `${BASE_URL}/${locale}/giant/${giant.slug}`,

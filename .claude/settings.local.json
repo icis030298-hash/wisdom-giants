@@ -29,7 +29,10 @@
       "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\\\\|AdSpace\\\\|ad_space\\\\|adSpace\" public/)",
       "Bash(grep -rn \"SPONSORED\\\\|AD SPACE\" *.json)",
       "Bash(git commit -m 'fix: remaining minor language pack improvements \\(JA/ES\\) *)",
-      "Bash(git commit -m 'chore: add translation batch processing scripts and data files *)"
+      "Bash(git commit -m 'chore: add translation batch processing scripts and data files *)",
+      "Bash(git commit -m 'fix: Italian & Portuguese locale quality improvements *)",
+      "Bash(git commit -m 'feat: add IT/PT locale support to giant detail page *)",
+      "Bash(git commit -m 'feat: IT/PT users now see translated content from messages.json *)"
     ]
   }
 }

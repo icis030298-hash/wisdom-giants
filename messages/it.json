@@ -142,7 +142,9 @@
         "Parlami della tua più grande conquista, Steve Jobs.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "È stato estromesso dall'azienda che aveva fondato, subendo una profonda umiliazione pubblica e personale.",
+      "recovery": "Ha fondato nuove imprese rivoluzionarie e ha fatto un trionfale ritorno, portando Apple a un successo senza precedenti."
     },
     "king-sejong": {
       "name": "Re Sejong il Grande",
@@ -155,7 +157,9 @@
         "Parlami della tua più grande conquista, Re Sejong il Grande.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha dovuto fronteggiare continue opposizioni da parte della nobiltà conservatrice e problemi di salute durante il suo regno.",
+      "recovery": "Ha perseverato con saggezza e dedizione, creando l'alfabeto Hangul per emancipare il suo popolo."
     },
     "elon-musk": {
       "name": "Elon Musk",
@@ -163,8 +167,8 @@
       "shortDescription": "Il viaggio epico di Elon Musk e la sua visione orientata al futuro.",
       "quote": "Quando qualcosa è abbastanza importante, lo fai anche se le probabilità non sono a tuo favore.",
       "era": "XXI Secolo",
-      "pain": "Three consecutive rocket explosions and financial collapse on the brink of bankruptcy.",
-      "recovery": "A final bet with his entire fortune and breaking through the crisis with first-principles thinking.",
+      "pain": "Ha affrontato il rischio di fallimento simultaneo di Tesla e SpaceX durante la crisi finanziaria, portandolo sull'orlo del collasso.",
+      "recovery": "Ha investito i suoi ultimi fondi personali e ha continuato a innovare, garantendo contratti cruciali che hanno salvato le sue aziende.",
       "chatGreeting": "Saluti, sono Elon Musk. Cerchi la via della saggezza o hai domande sul viaggio della mia vita?",
       "suggestedQuestions": [
         "Parlami della tua più grande conquista, Elon Musk.",
@@ -183,7 +187,9 @@
         "Parlami della tua più grande conquista, Gengis Khan.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "È stato abbandonato e ridotto in schiavitù durante l'infanzia, lottando per la sopravvivenza nelle dure steppe.",
+      "recovery": "Ha forgiato alleanze strategiche e unito le tribù nomadi, costruendo il più vasto impero contiguo della storia."
     },
     "alexander-the-great": {
       "name": "Alessandro Magno",
@@ -196,7 +202,9 @@
         "Parlami della tua più grande conquista, Alessandro Magno.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha dovuto sedare costanti ribellioni e affrontare ammutinamenti all'interno del suo stesso esercito durante estenuanti campagne.",
+      "recovery": "Ha guidato i suoi uomini con carisma ineguagliabile e coraggio in prima linea, creando un impero che univa Oriente e Occidente."
     },
     "walt-disney": {
       "name": "Walt Disney",
@@ -209,7 +217,9 @@
         "Parlami della tua più grande conquista, Walt Disney.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha affrontato innumerevoli rifiuti, bancarotte e la perdita dei diritti del suo primo personaggio di successo.",
+      "recovery": "Ha risposto creando Topolino e rivoluzionando l'animazione con una visione artistica che ha incantato il mondo intero."
     },
     "thomas-edison": {
       "name": "Thomas Edison",
@@ -222,7 +232,9 @@
         "Parlami della tua più grande conquista, Thomas Edison.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha vissuto innumerevoli fallimenti sperimentali e la distruzione del suo laboratorio a causa di un incendio.",
+      "recovery": "Ha considerato ogni fallimento come un passo verso il successo, ricostruendo tutto e depositando migliaia di brevetti innovativi."
     },
     "julius-caesar": {
       "name": "Giulio Cesare",
@@ -235,7 +247,9 @@
         "Parlami della tua più grande conquista, Giulio Cesare.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "È stato esiliato e catturato dai pirati, perdendo la sua ricchezza e la sua posizione sociale iniziale.",
+      "recovery": "Ha dimostrato una determinazione ferrea e genio militare, conquistando la Gallia e rimodellando per sempre la Repubblica Romana."
     },
     "henry-ford": {
       "name": "Henry Ford",
@@ -248,7 +262,9 @@
         "Parlami della tua più grande conquista, Henry Ford.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha sperimentato il fallimento di diverse aziende automobilistiche iniziali prima di trovare la formula vincente.",
+      "recovery": "Ha perfezionato la catena di montaggio e ha reso le automobili accessibili a tutti, trasformando per sempre l'industria moderna."
     },
     "frida-kahlo": {
       "name": "Frida Kahlo",
@@ -261,7 +277,9 @@
         "Parlami della tua più grande conquista, Frida Kahlo.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha sopportato un dolore fisico inimmaginabile a causa di un grave incidente e le sofferenze di un matrimonio tumultuoso.",
+      "recovery": "Ha trasmutato il suo dolore in un'arte intensamente personale e iconica che continua ad affascinare il mondo."
     },
     "viktor-frankl": {
       "name": "Viktor Frankl",
@@ -274,7 +292,9 @@
         "Parlami della tua più grande conquista, Viktor Frankl.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha vissuto l'orrore indicibile dei campi di concentramento nazisti, perdendo la sua intera famiglia.",
+      "recovery": "Ha trovato significato persino nella sofferenza estrema, sviluppando la logoterapia per aiutare gli altri a ritrovare la speranza."
     },
     "oprah-winfrey": {
       "name": "Oprah Winfrey",
@@ -287,7 +307,9 @@
         "Parlami della tua più grande conquista, Oprah Winfrey.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha affrontato una povertà estrema, abusi infantili e discriminazione razziale nei suoi primi anni di vita.",
+      "recovery": "Ha usato la sua innata empatia per costruire un impero mediatico basato sulla connessione umana e sull'ispirazione positiva."
     },
     "jk-rowling": {
       "name": "J.K. Rowling",
@@ -300,7 +322,9 @@
         "Parlami della tua più grande conquista, J.K. Rowling.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha vissuto in condizioni di povertà come madre single, affrontando la depressione clinica e numerosi rifiuti editoriali.",
+      "recovery": "Ha incanalato le sue lotte interiori in un mondo magico straordinario, diventando l'autrice di maggiore successo della sua generazione."
     },
     "nelson-mandela": {
       "name": "Nelson Mandela",
@@ -313,7 +337,9 @@
         "Parlami della tua più grande conquista, Nelson Mandela.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha sacrificato decenni della sua vita in prigione, isolato dal mondo e separato dalla sua famiglia per i suoi ideali.",
+      "recovery": "Ha scelto il perdono invece della vendetta, guidando il Sudafrica verso la democrazia e diventando un simbolo di pace globale."
     },
     "helen-keller": {
       "name": "Helen Keller",
@@ -326,7 +352,9 @@
         "Parlami della tua più grande conquista, Helen Keller.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "È rimasta sorda e cieca da bambina, trovandosi confinata in un mondo oscuro e silenzioso, privo di comunicazione.",
+      "recovery": "Ha superato ogni barriera imparando a comunicare e ha dedicato la sua vita a difendere i diritti delle persone con disabilità."
     },
     "beethoven": {
       "name": "Ludwig van Beethoven",
@@ -339,7 +367,9 @@
         "Parlami della tua più grande conquista, Ludwig van Beethoven.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha sofferto la tragedia della progressiva sordità, la più grande afflizione possibile per un musicista di genio.",
+      "recovery": "Ha continuato a comporre i suoi capolavori più sublimi ascoltando la musica unicamente con l'orecchio della mente."
     },
     "stephen-hawking": {
       "name": "Stephen Hawking",
@@ -352,7 +382,9 @@
         "Parlami della tua più grande conquista, Stephen Hawking.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "È stato colpito da una malattia paralizzante in giovane età, che lo ha gradualmente privato di ogni movimento fisico.",
+      "recovery": "Ha liberato il suo intelletto dai limiti del corpo, rivoluzionando la nostra comprensione dell'universo e dei buchi neri."
     },
     "franklin-d-roosevelt": {
       "name": "Franklin D. Roosevelt",
@@ -365,7 +397,9 @@
         "Parlami della tua più grande conquista, Franklin D. Roosevelt.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "È stato colpito dalla poliomielite, perdendo l'uso delle gambe nel bel mezzo di una promettente carriera politica.",
+      "recovery": "Ha dimostrato una resilienza straordinaria, guidando la sua nazione attraverso la Grande Depressione e la Seconda Guerra Mondiale dalla sua sedia a rotelle."
     },
     "marcus-aurelius": {
       "name": "Marco Aurelio",
@@ -378,7 +412,9 @@
         "Parlami della tua più grande conquista, Marco Aurelio.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha sopportato il peso immenso di governare un impero assediato da guerre infinite, pestilenze e tradimenti continui.",
+      "recovery": "Ha trovato rifugio e forza nella filosofia stoica, lasciando riflessioni di profonda saggezza che ispirano ancora oggi."
     },
     "seneca": {
       "name": "Seneca",
@@ -391,7 +427,9 @@
         "Parlami della tua più grande conquista, Seneca.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ha patito un esilio doloroso e successivamente è stato costretto al suicidio da un imperatore tirannico e instabile.",
+      "recovery": "Ha affrontato il suo destino con dignità e calma invincibile, trasformando la sua morte in un capolavoro di coerenza stoica."
     },
     "confucius": {
       "name": "Confucio",
@@ -404,7 +442,9 @@
         "Parlami della tua più grande conquista, Confucio.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "I suoi profondi insegnamenti sull'etica e sul governo furono ampiamente respinti dai sovrani del suo tempo, costringendolo a vagare in esilio e povertà.",
+      "recovery": "Dedicò la sua vita all'educazione dei discepoli, assicurandosi che la sua filosofia plasmasse le fondamenta morali della civiltà orientale molto tempo dopo la sua scomparsa."
     },
     "socrates": {
       "name": "Socrate",
@@ -417,7 +457,9 @@
         "Parlami della tua più grande conquista, Socrate.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Affrontò una feroce opposizione e un tragico processo per aver corrotto i giovani e sfidato gli dei di Atene, culminando in una condanna a morte mediante cicuta.",
+      "recovery": "Accettò il suo destino con incrollabile coraggio intellettuale, trasformando la sua ingiusta esecuzione nella testimonianza suprema della sua integrità filosofica."
     },
     "lao-tzu": {
       "name": "Laozi",
@@ -430,7 +472,9 @@
         "Parlami della tua più grande conquista, Laozi.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Scoraggiato dal decadimento politico e dal declino morale della dinastia Zhou, cercò di abbandonare del tutto la società e di scomparire verso la frontiera occidentale.",
+      "recovery": "Prima di partire per sempre, incanalò la sua profonda saggezza nel Tao Te Ching, lasciando dietro di sé una guida senza tempo per vivere in armonia con l'universo."
     },
     "aristotle": {
       "name": "Aristotele",
@@ -443,7 +487,9 @@
         "Parlami della tua più grande conquista, Aristotele.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Dopo la morte del suo mecenate Alessandro Magno, affrontò il crescente sentimento antimacedone ad Atene, che lo costrinse a fuggire per evitare il destino di Socrate.",
+      "recovery": "Si ritirò in Eubea, lasciando dietro di sé il suo celebre Liceo e un'imponente e ineguagliabile opera che avrebbe dominato il pensiero scientifico e filosofico occidentale per millenni."
     },
     "plato": {
       "name": "Platone",
@@ -456,7 +502,9 @@
         "Parlami della tua più grande conquista, Platone.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "L'esecuzione del suo amato mentore, Socrate, frantumò la sua fede nella democrazia ateniese e lo gettò in una profonda disillusione esistenziale.",
+      "recovery": "Trasformò il suo dolore in genio creativo fondando l'Accademia e scrivendo dialoghi profondi che preservarono l'eredità di Socrate e fondarono la filosofia occidentale."
     },
     "mahatma-gandhi": {
       "name": "Mahatma Gandhi",
@@ -469,7 +517,9 @@
         "Parlami della tua più grande conquista, Mahatma Gandhi.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sopportò un'implacabile discriminazione razziale, brutali prigionie e fu testimone di orribili violenze mentre lottava contro l'oppressivo dominio coloniale britannico in India.",
+      "recovery": "Diede vita alla filosofia della Satyagraha, guidando milioni di persone in una pacifica disobbedienza civile per ottenere infine l'indipendenza dell'India senza ricorrere al conflitto armato."
     },
     "mother-teresa": {
       "name": "Mother Teresa",
@@ -482,7 +532,9 @@
         "Parlami della tua più grande conquista, Mother Teresa.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Affrontò periodi strazianti di profonda oscurità spirituale e dubbio, sentendosi completamente abbandonata da Dio mentre viveva tra la povertà più straziante di Calcutta.",
+      "recovery": "Scelse di servire i più poveri tra i poveri con implacabile compassione nonostante il suo vuoto interiore, trasformando la sua sofferenza personale in un'eredità globale duratura di amore incondizionato."
     },
     "leonardo-da-vinci": {
       "name": "Leonardo da Vinci",
@@ -495,7 +547,9 @@
         "Parlami della tua più grande conquista, Leonardo da Vinci.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Fu tormentato da una lotta durata tutta la vita per portare a termine i suoi ambiziosi capolavori, spesso distratto dalla sua insaziabile curiosità in innumerevoli discipline scientifiche e artistiche.",
+      "recovery": "Alla fine superò i confini della sua epoca, riempiendo migliaia di pagine di taccuini con invenzioni visionarie e studi anatomici che secoli dopo lo avrebbero consacrato come un vero genio universale."
     },
     "salvador-dali": {
       "name": "Salvador Dalí",
@@ -508,7 +562,9 @@
         "Parlami della tua più grande conquista, Salvador Dalí.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Lottò con fobie radicate, un'intensa insicurezza e il trauma psicologico di essere trattato come la reincarnazione del fratello maggiore deceduto.",
+      "recovery": "Utilizzò le sue eccentricità e la sua paranoia come armi, forgiando il metodo paranoico-critico per incanalare le sue paure subconsce in iconici capolavori surrealisti."
     },
     "coco-chanel": {
       "name": "Coco Chanel",
@@ -521,7 +577,9 @@
         "Parlami della tua più grande conquista, Coco Chanel.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Cresciuta in un austero orfanotrofio dopo la morte della madre e l'abbandono del padre, portò le profonde cicatrici della povertà infantile e dell'esclusione sociale.",
+      "recovery": "Rivoluzionò la moda femminile smantellando completamente i corsetti restrittivi del suo tempo, sostituendoli con design liberatori ed eleganti che ridefinirono la femminilità moderna."
     },
     "pablo-picasso": {
       "name": "Pablo Picasso",
@@ -534,7 +592,9 @@
         "Parlami della tua più grande conquista, Pablo Picasso.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Il suicidio del suo caro amico Carles Casagemas lo fece precipitare in un periodo di profonda depressione e povertà, noto come il suo cupo Periodo Blu.",
+      "recovery": "Incanalò il suo immenso dolore in una sperimentazione artistica rivoluzionaria, co-fondando infine il Cubismo e ridisegnando la traiettoria stessa dell'arte moderna."
     },
     "mozart": {
       "name": "Wolfgang Amadeus Mozart",
@@ -547,7 +607,9 @@
         "Parlami della tua più grande conquista, Wolfgang Amadeus Mozart.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Nonostante il suo ineguagliabile genio musicale, lottò incessantemente contro la rovina finanziaria, i mutevoli favori dell'aristocrazia e una salute precaria durante la sua breve vita.",
+      "recovery": "Compose con un fervore ininterrotto e quasi divino, donando al mondo uno straordinario catalogo di sinfonie e opere prima di spegnersi tragicamente a trentacinque anni."
     },
     "william-shakespeare": {
       "name": "William Shakespeare",
@@ -560,7 +622,9 @@
         "Parlami della tua più grande conquista, William Shakespeare.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Affrontò le immense pressioni dell'instabile scena teatrale elisabettiana, misurandosi con ricorrenti epidemie di peste che costrinsero alla chiusura dei teatri e minacciarono il suo sostentamento.",
+      "recovery": "Si adattò scrivendo poesie affascinanti e creando opere teatrali senza tempo che esploravano le profondità della natura umana, assicurandosi l'eredità di più grande drammaturgo della lingua inglese."
     },
     "marie-curie": {
       "name": "Marie Curie",
@@ -573,7 +637,9 @@
         "Parlami della tua più grande conquista, Marie Curie.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Affrontò un sessismo profondamente radicato nella comunità scientifica e sopportò la devastante e tragica perdita del marito, Pierre, il tutto mentre soffriva per l'esposizione alle radiazioni.",
+      "recovery": "Perseverò con incrollabile determinazione fino a diventare la prima persona a vincere due premi Nobel, aprendo la strada nel campo della radioattività e rivoluzionando la medicina."
     },
     "nikola-tesla": {
       "name": "Nikola Tesla",
@@ -586,7 +652,9 @@
         "Parlami della tua più grande conquista, Nikola Tesla.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Fu spietatamente sfruttato dai magnati degli affari, privato delle ricompense finanziarie delle sue stesse invenzioni e trascorse i suoi ultimi anni in un'oscurità impoverita.",
+      "recovery": "Rimase saldo nella sua visionaria ricerca della verità, concettualizzando la corrente alternata e le tecnologie wireless che sarebbero divenute, in silenzio, le fondamenta elettriche del mondo moderno."
     },
     "vincent-van-gogh": {
       "name": "Vincent van Gogh",
@@ -599,7 +667,9 @@
         "Parlami della tua più grande conquista, Vincent van Gogh.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sopportò una vita straziante fatta di povertà schiacciante, profonda solitudine e gravi malattie mentali, vendendo un solo dipinto mentre era in vita.",
+      "recovery": "Riversò il suo intenso tumulto interiore sulla tela con pennellate vibranti ed emozionanti, lasciando dietro di sé un'opera che alla fine ha ridefinito la bellezza e ispirato intere generazioni."
     },
     "george-washington": {
       "name": "George Washington",
@@ -612,7 +682,9 @@
         "Parlami della tua più grande conquista, George Washington.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Portò il fardello straziante di guidare un Esercito Continentale sottofinanziato, affamato e scarsamente addestrato contro il più formidabile impero militare del suo tempo.",
+      "recovery": "Attraverso pura resilienza e un colpo di genio di ritirate tattiche e sorprese, mantenne vivo lo spirito rivoluzionario, dando infine alla luce una nuova repubblica indipendente."
     },
     "yi-sun-shin": {
       "name": "Yi Sun-sin",
@@ -625,7 +697,9 @@
         "Parlami della tua più grande conquista, Yi Sun-sin.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Nonostante le sue ineguagliabili vittorie navali, fu falsamente accusato di tradimento da rivali gelosi, privato del suo grado e brutalmente torturato.",
+      "recovery": "Reintegrato nell'ora più buia della nazione, guidò solo tredici navi per annientare un'enorme flotta giapponese a Myeongnyang, salvando il suo paese con brillante genio strategico."
     },
     "elizabeth-i": {
       "name": "Elisabetta I",
@@ -638,7 +712,9 @@
         "Parlami della tua più grande conquista, Elisabetta I.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sopravvisse a un'infanzia precaria, segnata dall'esecuzione di sua madre e da molteplici complotti contro la sua vita, salendo al trono di una nazione profondamente divisa e impoverita.",
+      "recovery": "Impiegò un'astuta diplomazia e brillanti manovre politiche per forgiare l'Età dell'Oro, trasformando l'Inghilterra in una potenza globale unificata, ricca e culturalmente splendente."
     },
     "gwanggaeto-the-great": {
       "name": "Gwanggaeto il Grande",
@@ -651,7 +727,9 @@
         "Parlami della tua più grande conquista, Gwanggaeto il Grande.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Salì al trono in un periodo di grave minaccia esistenziale, con Goguryeo schiacciata tra aggressive tribù nomadi e ambiziosi regni confinanti che cercavano la sua distruzione.",
+      "recovery": "Lanciò implacabili e brillanti campagne militari che espansero massicciamente i confini dell'impero, inaugurando un'era di potere e prosperità senza precedenti per Goguryeo."
     },
     "qin-shi-huang": {
       "name": "Qin Shi Huang",
@@ -664,7 +742,9 @@
         "Parlami della tua più grande conquista, Qin Shi Huang.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Egli dovette fronteggiare continui tentativi di assassinio e l'ardua impresa di unificare regni in perenne conflitto sotto un unico, assoluto dominio.",
+      "recovery": "Attraverso una brutale ma efficace standardizzazione delle leggi, della moneta e della scrittura, egli annientò spietatamente ogni opposizione, forgiando così il primo impero cinese."
     },
     "augustus": {
       "name": "Augustus",
@@ -677,7 +757,9 @@
         "Parlami della tua più grande conquista, Augustus.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ereditò una repubblica lacerata dalla guerra civile e segnata dall'assassinio del padre adottivo, Giulio Cesare.",
+      "recovery": "Con astuta diplomazia e decisive vittorie militari, instaurò il Principato, inaugurando una lunga era di pace nota come Pax Romana."
     },
     "otto-von-bismarck": {
       "name": "Otto von Bismarck",
@@ -690,7 +772,9 @@
         "Parlami della tua più grande conquista, Otto von Bismarck.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Si trovò a guidare una Confederazione germanica frammentata e circondata da potenze ostili, con l'intento di unificare la nazione senza scatenare un disastroso conflitto continentale.",
+      "recovery": "Avvalendosi di una magistrale 'Realpolitik', orchestrò guerre e alleanze strategiche, riuscendo infine a unire la Germania sotto l'egemonia prussiana."
     },
     "peter-the-great": {
       "name": "Pietro il Grande",
@@ -703,7 +787,9 @@
         "Parlami della tua più grande conquista, Pietro il Grande.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Ereditò una Russia isolata, tecnologicamente arretrata e fortemente ancorata a tradizioni arcaiche.",
+      "recovery": "Attraverso un'inesorabile modernizzazione, un'autorità assoluta e lunghi viaggi in Europa occidentale, trascinò con la forza il suo impero nell'era moderna."
     },
     "catherine-the-great": {
       "name": "Catherine The Great",
@@ -716,7 +802,9 @@
         "Parlami della tua più grande conquista, Catherine The Great.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Giunse in una corte straniera, unita in matrimonio a un erede mentalmente instabile, e visse sotto la costante minaccia di essere deposta o assassinata.",
+      "recovery": "Coltivando potenti alleanze e abbracciando gli ideali dell'Illuminismo, orchestrò un colpo di stato per impadronirsi del trono, divenendo la sovrana più longeva e celebre della Russia."
     },
     "simon-bolivar": {
       "name": "Simon Bolivar",
@@ -729,7 +817,9 @@
         "Parlami della tua più grande conquista, Simon Bolivar.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Patì devastanti sconfitte militari e tradimenti mentre combatteva contro l'immensamente superiore impero spagnolo per l'indipendenza del Sud America.",
+      "recovery": "Rifiutandosi di cedere, mobilitò popolazioni eterogenee attraverso le Ande, guidando campagne brillanti che portarono infine alla liberazione di sei nazioni moderne."
     },
     "margaret-thatcher": {
       "name": "Margaret Thatcher",
@@ -742,7 +832,9 @@
         "Parlami della tua più grande conquista, Margaret Thatcher.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Assunse la guida di una nazione paralizzata dalla stagnazione economica, da scioperi dilaganti e da un profondo senso di declino.",
+      "recovery": "Attraverso riforme economiche intransigenti e un'incrollabile forza di volontà, spezzò il potere dei sindacati e rivitalizzò l'economia britannica."
     },
     "john-d-rockefeller": {
       "name": "John D Rockefeller",
@@ -755,7 +847,9 @@
         "Parlami della tua più grande conquista, John D Rockefeller.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Operò in un'industria petrolifera primordiale, caotica, ferocemente competitiva e imprevedibile, dove la rovina economica era una minaccia costante.",
+      "recovery": "Inseguendo spietatamente l'efficienza, consolidando le raffinerie e negoziando accordi segreti, trasformò la Standard Oil in un monopolio stabile e senza precedenti."
     },
     "ataturk": {
       "name": "Ataturk",
@@ -768,7 +862,9 @@
         "Parlami della tua più grande conquista, Ataturk.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Fronteggiò il collasso totale e lo smembramento dell'Impero Ottomano in seguito alla Prima Guerra Mondiale, con potenze straniere che occupavano la sua terra natale.",
+      "recovery": "Guidando una fiera guerra d'indipendenza, abolì il sultanato e promosse con vigore la laicizzazione e la modernizzazione della neonata Repubblica di Turchia."
     },
     "theodore-roosevelt": {
       "name": "Theodore Roosevelt",
@@ -781,7 +877,9 @@
         "Parlami della tua più grande conquista, Theodore Roosevelt.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Soffrì di un'asma grave e debilitante durante l'infanzia e, in seguito, dovette affrontare la devastante perdita simultanea della moglie e della madre.",
+      "recovery": "Abbracciando la 'vita strenua', forgiò la propria forza fisica con pura determinazione, tornando dalle Badlands per diventare un presidente progressista e immensamente popolare."
     },
     "anne-frank": {
       "name": "Anne Frank",
@@ -794,7 +892,9 @@
         "Parlami della tua più grande conquista, Anne Frank.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Trascorse i cruciali anni dell'adolescenza costretta a un nascondiglio silenzioso e terrificante per sfuggire agli orrori dell'Olocausto.",
+      "recovery": "Sebbene non sia sopravvissuta, trovò conforto e una voce potente attraverso il suo diario, lasciando ai posteri un testamento immortale dello spirito umano."
     },
     "rosa-parks": {
       "name": "Rosa Parks",
@@ -807,7 +907,9 @@
         "Parlami della tua più grande conquista, Rosa Parks.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Visse subendo la quotidiana umiliazione e l'oppressivo razzismo sistemico del Sud americano governato dalle leggi Jim Crow.",
+      "recovery": "Rifiutandosi con calma e fermezza di cedere il proprio posto sull'autobus, innescò il boicottaggio dei bus di Montgomery, dando nuova linfa al moderno Movimento per i Diritti Civili."
     },
     "frederick-douglass": {
       "name": "Frederick Douglass",
@@ -820,7 +922,9 @@
         "Parlami della tua più grande conquista, Frederick Douglass.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Nacque tra i brutali e disumanizzanti orrori della schiavitù americana, privato dell'istruzione e trattato come mera proprietà.",
+      "recovery": "Imparò segretamente a leggere e scrivere, fuggì verso la libertà e utilizzò la sua brillante oratoria per divenire il più illustre abolizionista della sua epoca."
     },
     "harriet-tubman": {
       "name": "Harriet Tubman",
@@ -833,7 +937,9 @@
         "Parlami della tua più grande conquista, Harriet Tubman.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sopportò orribili abusi fisici e il terrore costante della schiavitù in una piantagione del Maryland.",
+      "recovery": "Dopo aver conquistato la propria libertà, tornò coraggiosamente nel Sud a più riprese come 'conduttrice' della Underground Railroad, guidando centinaia di persone verso la salvezza."
     },
     "oskar-schindler": {
       "name": "Oskar Schindler",
@@ -846,7 +952,9 @@
         "Parlami della tua più grande conquista, Oskar Schindler.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Iniziò come uno speculatore di guerra opportunista, operando all'interno del regime nazista, moralmente corrotto e omicida.",
+      "recovery": "Testimone in prima persona delle atrocità, rischiò la vita e spese l'intera sua fortuna per sabotare attivamente il sistema e salvare oltre mille vite ebree."
     },
     "florence-nightingale": {
       "name": "Florence Nightingale",
@@ -859,7 +967,9 @@
         "Parlami della tua più grande conquista, Florence Nightingale.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Affrontò condizioni igieniche spaventose e immense sofferenze negli ospedali militari durante la Guerra di Crimea, scontrandosi con il profondo risentimento dei medici uomini.",
+      "recovery": "Applicando rigidi protocolli di igiene e una rigorosa analisi statistica, rivoluzionò l'assistenza infermieristica e ridusse drasticamente i tassi di mortalità."
     },
     "yu-gwan-sun": {
       "name": "Yu Gwan Sun",
@@ -872,7 +982,9 @@
         "Parlami della tua più grande conquista, Yu Gwan Sun.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Visse sotto il brutale dominio coloniale giapponese in Corea, subendo una severa repressione della propria identità nazionale.",
+      "recovery": "A soli sedici anni, organizzò con coraggio imponenti proteste pacifiche per il Movimento del 1° Marzo, divenendo una martire immortale per l'indipendenza coreana, pur spegnendosi in prigione."
     },
     "louis-braille": {
       "name": "Louis Braille",
@@ -885,7 +997,9 @@
         "Parlami della tua più grande conquista, Louis Braille.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Rimase tragicamente cieco in seguito a un incidente infantile, prospettandosi una vita con possibilità educative e professionali gravemente limitate.",
+      "recovery": "Traendo ispirazione dalla crittografia militare, inventò un brillante sistema di lettura e scrittura tattile che ha rivoluzionato l'istruzione per i non vedenti in tutto il mondo."
     },
     "joan-of-arc": {
       "name": "Giovanna d'Arco",
@@ -898,7 +1012,9 @@
         "Parlami della tua più grande conquista, Joan Of Arc.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "In quanto giovane contadina, fu ignorata e derisa quando affermò di avere visioni divine che le imponevano di salvare una Francia divisa.",
+      "recovery": "Con una convinzione assoluta e incrollabile, persuase il Delfino a lasciarle guidare il suo esercito, rompendo miracolosamente l'assedio di Orléans e capovolgendo le sorti della Guerra dei Cent'Anni."
     },
     "desmond-tutu": {
       "name": "Desmond Tutu",
@@ -911,7 +1027,9 @@
         "Parlami della tua più grande conquista, Desmond Tutu.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Fu testimone e vittima della brutale segregazione razziale istituzionalizzata e delle violenze dell'apartheid in Sudafrica.",
+      "recovery": "Utilizzando la sua posizione di leader religioso, condusse una fervente campagna non violenta contro il regime, guidando in seguito la Commissione per la Verità e la Riconciliazione per sanare le ferite della nazione."
     },
     "elie-wiesel": {
       "name": "Elie Wiesel",
@@ -924,7 +1042,9 @@
         "Parlami della tua più grande conquista, Elie Wiesel.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Elie Wiesel ha sopportato gli inimmaginabili orrori dell'Olocausto, perdendo la propria famiglia e sopravvivendo alle brutali condizioni di Auschwitz e Buchenwald.",
+      "recovery": "Egli ha trasformato il suo profondo trauma in un'opera di scrittura e difesa dei diritti, dedicando la vita intera a farsi testimone e a combattere il silenzio e l'indifferenza."
     },
     "harriet-beecher-stowe": {
       "name": "Harriet Beecher Stowe",
@@ -937,7 +1057,9 @@
         "Parlami della tua più grande conquista, Harriet Beecher Stowe.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Harriet Beecher Stowe ha provato un dolore immenso per la morte del figlio e ha assistito in prima persona alle spietate crudeltà dell'istituzione della schiavitù.",
+      "recovery": "Ha canalizzato il proprio dolore e la propria indignazione morale nella stesura de 'La capanna dello zio Tom', un'opera che ha scosso le coscienze e galvanizzato il movimento abolizionista."
     },
     "rigoberta-menchu": {
       "name": "Rigoberta Menchu",
@@ -950,7 +1072,9 @@
         "Parlami della tua più grande conquista, Rigoberta Menchu.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Rigoberta Menchú ha vissuto la tragica perdita di gran parte della sua famiglia a causa della brutale violenza perpetrata durante la guerra civile in Guatemala.",
+      "recovery": "È emersa da questa immensa tragedia diventando una fervente e incrollabile sostenitrice dei diritti degli indigeni, guadagnandosi il rispetto internazionale e il Premio Nobel per la Pace."
     },
     "terry-fox": {
       "name": "Terry Fox",
@@ -963,7 +1087,9 @@
         "Parlami della tua più grande conquista, Terry Fox.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "A Terry Fox è stato diagnosticato un osteosarcoma in giovane età, che ha portato alla devastante amputazione della gamba destra.",
+      "recovery": "Ha affrontato questa immensa avversità intraprendendo la 'Maratona della Speranza', correndo attraverso il Canada con una gamba artificiale per raccogliere fondi e consapevolezza per la ricerca sul cancro."
     },
     "kim-gu": {
       "name": "Kim Gu",
@@ -976,7 +1102,9 @@
         "Parlami della tua più grande conquista, Kim Gu.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Kim Gu ha trascorso decenni in esilio e prigionia, lottando instancabilmente e subendo immense privazioni sotto il duro dominio coloniale giapponese in Corea.",
+      "recovery": "Ha perseverato con incrollabile determinazione, unificando le fazioni della resistenza e guidando il governo provvisorio per mantenere viva la speranza dell'indipendenza coreana."
     },
     "buddha": {
       "name": "Buddha",
@@ -989,7 +1117,9 @@
         "Parlami della tua più grande conquista, Buddha.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Siddhartha Gautama fu profondamente tormentato dall'inevitabilità della vecchiaia, della malattia e della morte, che affliggevano l'umanità intera.",
+      "recovery": "Attraverso una profonda meditazione e la rinuncia al mondo materiale, raggiunse l'illuminazione e condivise il cammino verso la liberazione dalla sofferenza con tutti gli esseri senzienti."
     },
     "friedrich-nietzsche": {
       "name": "Friedrich Nietzsche",
@@ -1002,7 +1132,9 @@
         "Parlami della tua più grande conquista, Friedrich Nietzsche.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Friedrich Nietzsche ha sofferto per tutta la vita di gravi problemi di salute, isolamento intellettuale e un profondo senso di incomprensione da parte dei suoi contemporanei.",
+      "recovery": "Ha trasceso il suo dolore fisico ed emotivo forgiando una filosofia radicale di affermazione della vita, sfidando i valori tradizionali e celebrando il potenziale umano."
     },
     "immanuel-kant": {
       "name": "Immanuel Kant",
@@ -1015,7 +1147,9 @@
         "Parlami della tua più grande conquista, Immanuel Kant.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Immanuel Kant affrontò la limitatezza dei sistemi filosofici del suo tempo e lottò per conciliare il rigore della scienza con la necessità della moralità umana.",
+      "recovery": "Ha rivoluzionato il pensiero occidentale sviluppando il suo sistema critico, stabilendo i confini della ragione e fondando l'etica sul dovere e sull'imperativo categorico."
     },
     "rene-descartes": {
       "name": "Rene Descartes",
@@ -1028,7 +1162,9 @@
         "Parlami della tua più grande conquista, Rene Descartes.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "René Descartes era paralizzato da un profondo dubbio scettico, temendo che ogni sua convinzione potesse essere fondata su illusioni o falsità.",
+      "recovery": "Trovò un fondamento indubitabile nel proprio stesso atto di dubitare, formulando il celebre 'Cogito, ergo sum', e ricostruì l'edificio della conoscenza sulla razionalità."
     },
     "jean-jacques-rousseau": {
       "name": "Jean Jacques Rousseau",
@@ -1041,7 +1177,9 @@
         "Parlami della tua più grande conquista, Jean Jacques Rousseau.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Jean-Jacques Rousseau ha vissuto una vita di sradicamento, paranoia ed esilio, sentendosi profondamente alienato dalla società artificiale e corrotta del suo tempo.",
+      "recovery": "Ha trasformato la sua alienazione in opere geniali, sostenendo il ritorno all'autenticità naturale e gettando le basi filosofiche per la democrazia moderna e l'educazione."
     },
     "sigmund-freud": {
       "name": "Sigmund Freud",
@@ -1054,7 +1192,9 @@
         "Parlami della tua più grande conquista, Sigmund Freud.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sigmund Freud ha dovuto affrontare un intenso ostracismo professionale e un forte dolore fisico a causa di un grave cancro alla mascella negli ultimi decenni della sua vita.",
+      "recovery": "Nonostante le opposizioni e la sofferenza, ha continuato a sviluppare pionieristicamente la psicoanalisi, rivoluzionando per sempre la nostra comprensione della mente umana."
     },
     "carl-jung": {
       "name": "Carl Jung",
@@ -1067,7 +1207,9 @@
         "Parlami della tua più grande conquista, Carl Jung.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Carl Jung ha attraversato un periodo di profonda crisi psicologica e disorientamento in seguito alla dolorosa rottura con il suo mentore, Sigmund Freud.",
+      "recovery": "Ha intrapreso una coraggiosa esplorazione del proprio inconscio, da cui è emersa la fondazione della psicologia analitica e concetti fondamentali come l'inconscio collettivo."
     },
     "baruch-spinoza": {
       "name": "Baruch Spinoza",
@@ -1080,7 +1222,9 @@
         "Parlami della tua più grande conquista, Baruch Spinoza.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Baruch Spinoza ha patito la dolorosa scomunica e l'allontanamento dalla sua comunità religiosa, trovandosi isolato e perseguitato per le sue idee radicali.",
+      "recovery": "Ha trovato serenità nel perseguimento intellettuale della verità, forgiando un'etica razionale che identificava Dio con la natura, senza mai cedere ai compromessi."
     },
     "sun-tzu": {
       "name": "Sun Tzu",
@@ -1093,7 +1237,9 @@
         "Parlami della tua più grande conquista, Sun Tzu.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sun Tzu visse durante il turbolento e sanguinoso periodo delle Primavere e degli Autunni, circondato da conflitti costanti e dal caos politico.",
+      "recovery": "Ha distillato la brutale realtà del suo tempo nel trattato intitolato 'L'arte della guerra', offrendo una profonda saggezza su come ottenere la vittoria attraverso la strategia anziché lo spargimento di sangue."
     },
     "david-hume": {
       "name": "David Hume",
@@ -1106,7 +1252,9 @@
         "Parlami della tua più grande conquista, David Hume.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "David Hume ha lottato con un grave esaurimento nervoso in gioventù e ha dovuto affrontare il continuo rifiuto accademico a causa del suo scetticismo religioso.",
+      "recovery": "Ha superato i suoi demoni personali dedicandosi con serenità all'indagine filosofica, lasciando un'eredità indelebile nell'empirismo e nello studio della natura umana."
     },
     "john-locke": {
       "name": "John Locke",
@@ -1119,7 +1267,9 @@
         "Parlami della tua più grande conquista, John Locke.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "John Locke ha vissuto nel pericolo durante un periodo di forti tumulti politici, che lo ha costretto a fuggire in esilio nei Paesi Bassi per salvarsi la vita.",
+      "recovery": "Durante il suo esilio ha perfezionato le sue opere più influenti, gettando le basi per l'Illuminismo, la tolleranza religiosa e la teoria dei diritti naturali."
     },
     "simone-de-beauvoir": {
       "name": "Simone De Beauvoir",
@@ -1132,7 +1282,9 @@
         "Parlami della tua più grande conquista, Simone De Beauvoir.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Simone de Beauvoir ha dovuto confrontarsi con i soffocanti vincoli della società patriarcale e con lo scetticismo rivolto al suo intelletto in quanto donna.",
+      "recovery": "Ha smantellato le nozioni oppressive sulla femminilità scrivendo 'Il secondo sesso', divenendo una figura chiave per il movimento femminista moderno e la filosofia esistenzialista."
     },
     "hannah-arendt": {
       "name": "Hannah Arendt",
@@ -1145,7 +1297,9 @@
         "Parlami della tua più grande conquista, Hannah Arendt.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Hannah Arendt fu costretta a fuggire dalla Germania nazista in quanto ebrea, vivendo come apolide e assistendo al terribile crollo della civiltà europea.",
+      "recovery": "Ha elaborato la natura del totalitarismo e della condizione umana attraverso opere monumentali, offrendo al mondo strumenti indispensabili per comprendere e resistere al male politico."
     },
     "soren-kierkegaard": {
       "name": "Soren Kierkegaard",
@@ -1158,7 +1312,9 @@
         "Parlami della tua più grande conquista, Soren Kierkegaard.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Søren Kierkegaard fu tormentato per tutta la vita da una profonda malinconia, da amori infranti e dal senso opprimente del peso della fede e del peccato.",
+      "recovery": "Ha trasformato la sua profonda angoscia interiore in una brillante indagine filosofica sull'autenticità, l'ansia e la scelta, diventando il padre dell'esistenzialismo."
     },
     "arthur-schopenhauer": {
       "name": "Arthur Schopenhauer",
@@ -1171,7 +1327,9 @@
         "Parlami della tua più grande conquista, Arthur Schopenhauer.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Arthur Schopenhauer visse una vita segnata da amarezza, profondo pessimismo e da una grave mancanza di riconoscimento accademico e personale per la maggior parte dei suoi anni.",
+      "recovery": "Ha forgiato un'imponente filosofia della Volontà e della Rappresentazione, trovando conforto nell'arte, nella musica e nella saggezza orientale, che alla fine gli hanno valso una fama postuma."
     },
     "isaac-newton": {
       "name": "Isaac Newton",
@@ -1184,7 +1342,9 @@
         "Parlami della tua più grande conquista, Isaac Newton.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Il suo più grande tormento fu affrontare un intenso isolamento e aspre rivalità intellettuali che lo spinsero sull'orlo del collasso psicologico.",
+      "recovery": "Egli trovò rifugio e trionfo immergendosi in modo ossessivo nelle sue rivoluzionarie indagini scientifiche, lasciando che il suo innegabile genio mettesse a tacere ogni critico."
     },
     "galileo-galilei": {
       "name": "Galileo Galilei",
@@ -1197,7 +1357,9 @@
         "Parlami della tua più grande conquista, Galileo Galilei.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Egli affrontò immense persecuzioni e gli arresti domiciliari imposti dall'Inquisizione per aver osato difendere il modello eliocentrico del sistema solare.",
+      "recovery": "Tollerò la prigionia continuando a scrivere e a far circolare clandestinamente le sue opere scientifiche rivoluzionarie, assicurandosi che le sue idee sopravvivessero ai suoi carcerieri."
     },
     "charles-darwin": {
       "name": "Charles Darwin",
@@ -1210,7 +1372,9 @@
         "Parlami della tua più grande conquista, Charles Darwin.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Fu tormentato da una malattia cronica non diagnosticata e dalla straziante paura del tumulto sociale che la sua teoria dell'evoluzione avrebbe scatenato.",
+      "recovery": "Raccolse meticolosamente una montagna inconfutabile di prove nel corso dei decenni, trovando forza nell'innegabile verità delle sue osservazioni scientifiche."
     },
     "michelangelo": {
       "name": "Michelangelo",
@@ -1223,7 +1387,9 @@
         "Parlami della tua più grande conquista, Michelangelo.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sopportò un dolore fisico lancinante e uno sfinimento estremo mentre dipingeva la Cappella Sistina, lottando costantemente contro le irragionevoli pretese dei suoi mecenati.",
+      "recovery": "Egli incanalò la sua immensa frustrazione e sofferenza nella propria arte, lasciando ai posteri capolavori che hanno immortalato la sua passione e la sua resilienza."
     },
     "claude-monet": {
       "name": "Claude Monet",
@@ -1236,7 +1402,9 @@
         "Parlami della tua più grande conquista, Claude Monet.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Lottò contro una povertà opprimente, la quasi cecità nei suoi ultimi anni e il duro rifiuto dell'establishment artistico tradizionale.",
+      "recovery": "Perseverò ritirandosi nel suo giardino a Giverny, dipingendo la luce e le ninfee che amava fino a quando la sua visione radicale trasformò il mondo dell'arte."
     },
     "fyodor-dostoevsky": {
       "name": "Fyodor Dostoevsky",
@@ -1249,7 +1417,9 @@
         "Parlami della tua più grande conquista, Fyodor Dostoevsky.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Subì una finta esecuzione, anni di brutale esilio in un campo di lavoro siberiano e una battaglia per tutta la vita contro la dipendenza dal gioco e l'epilessia.",
+      "recovery": "Trasformò il suo profondo trauma psicologico e la sua disperazione spirituale nelle esplorazioni più intime dell'animo umano mai scritte in letteratura."
     },
     "victor-hugo": {
       "name": "Victor Hugo",
@@ -1262,7 +1432,9 @@
         "Parlami della tua più grande conquista, Victor Hugo.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sopportò la straziante perdita dell'amata figlia e decenni di esilio politico dalla sua adorata Francia.",
+      "recovery": "Riversò il suo dolore e la sua giusta indignazione in opere letterarie monumentali come I Miserabili, diventando l'indiscussa voce letteraria del popolo."
     },
     "anton-chekhov": {
       "name": "Anton Chekhov",
@@ -1275,7 +1447,9 @@
         "Parlami della tua più grande conquista, Anton Chekhov.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Trascorse la sua vita adulta lentamente consumato dalla tubercolosi, lottando per sostenere economicamente la sua numerosa e esigente famiglia attraverso la scrittura e la professione medica.",
+      "recovery": "Celò il suo declino fisico con una grazia silenziosa e persistente, rivoluzionando il teatro moderno catturando la profonda tragedia e commedia della vita ordinaria."
     },
     "frederic-chopin": {
       "name": "Frederic Chopin",
@@ -1288,7 +1462,9 @@
         "Parlami della tua più grande conquista, Frederic Chopin.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Visse l'intera vita adulta in esilio dalla sua amata Polonia, devastata dalla guerra, combattendo contro una costituzione fragile e una malattia cronica che lo consumò lentamente.",
+      "recovery": "Distillò la sua immensa nostalgia e il suo dolore in composizioni pianistiche di squisita bellezza, trasformando la sua malinconia personale in poesia universale."
     },
     "katsushika-hokusai": {
       "name": "Katsushika Hokusai",
@@ -1301,7 +1477,9 @@
         "Parlami della tua più grande conquista, Katsushika Hokusai.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Affrontò una povertà estrema, un devastante incendio che distrusse il suo studio e la pressione incessante di dover mantenere la famiglia fino in tarda età.",
+      "recovery": "Rispose a ogni avversità con un bisogno maniacale e irrefrenabile di disegnare, reinventando il suo stile a settant'anni per produrre i suoi capolavori più iconici."
     },
     "agatha-christie": {
       "name": "Agatha Christie",
@@ -1314,7 +1492,9 @@
         "Parlami della tua più grande conquista, Agatha Christie.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Patì un devastante tradimento pubblico e un divorzio che la condussero a una profonda crisi psicologica e a una misteriosa scomparsa che scioccò la nazione.",
+      "recovery": "Ricostruì la sua vita attraverso lunghi viaggi e l'archeologia, incanalando le sue astute osservazioni sull'inganno umano per diventare la romanziera di maggior successo di tutti i tempi."
     },
     "mark-twain": {
       "name": "Mark Twain",
@@ -1327,7 +1507,9 @@
         "Parlami della tua più grande conquista, Mark Twain.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sopportò la morte straziante della moglie e di tre dei suoi figli, insieme a disastrosi fallimenti finanziari che minacciarono di rovinare la sua eredità.",
+      "recovery": "Intraprese un estenuante tour mondiale di conferenze per ripagare ogni debito, avvalendosi della sua arguzia tagliente e del suo umorismo cinico per sopravvivere alle sue immense tragedie personali."
     },
     "goethe": {
       "name": "Goethe",
@@ -1340,7 +1522,9 @@
         "Parlami della tua più grande conquista, Goethe.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Soffrì di intensi attacchi di malinconia, amori non corrisposti e dell'immensa pressione di dover essere all'altezza della sua stessa imponente reputazione letteraria.",
+      "recovery": "Superò i suoi turbamenti emotivi espandendo incessantemente i suoi orizzonti intellettuali tra scienza, poesia e filosofia, creando un'eredità da genio universale."
     },
     "mary-shelley": {
       "name": "Mary Shelley",
@@ -1353,7 +1537,9 @@
         "Parlami della tua più grande conquista, Mary Shelley.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sopportò la tragica morte di tre dei suoi figli e l'improvviso, devastante annegamento del marito, rimanendo senza un soldo e socialmente ostracizzata.",
+      "recovery": "Sostenne valorosamente se stessa e il figlio sopravvissuto attraverso la scrittura, garantendo la propria sopravvivenza e l'eredità eterna del suo capolavoro, Frankenstein."
     },
     "napoleon-bonaparte": {
       "name": "Napoleone Bonaparte",
@@ -1366,7 +1552,9 @@
         "Parlami della tua più grande conquista, Napoleone Bonaparte.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Subì l'umiliazione straziante della totale sconfitta militare, la perdita del suo impero e lo schiacciante isolamento del suo ultimo esilio a Sant'Elena.",
+      "recovery": "Trascorse i suoi ultimi anni dettando meticolosamente le sue memorie, assicurandosi che la sua leggenda e la sua eredità amministrativa conquistassero la storia anche dopo la sua caduta politica."
     },
     "malala-yousafzai": {
       "name": "Malala Yousafzai",
@@ -1379,7 +1567,9 @@
         "Parlami della tua più grande conquista, Malala Yousafzai.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Fu presa di mira e colpita alla testa dai talebani semplicemente per aver difeso il diritto fondamentale delle ragazze a ricevere un'istruzione.",
+      "recovery": "Sopravvisse al tentativo di assassinio per diventare una voce ancora più forte e globalmente riconosciuta, vincendo il Premio Nobel per la Pace grazie al suo incrollabile coraggio."
     },
     "martin-luther-king": {
       "name": "Martin Luther King Jr.",
@@ -1392,7 +1582,9 @@
         "Parlami della tua più grande conquista, Martin Luther King Jr..",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Affrontò costanti minacce di morte, ingiuste prigionie e l'immenso, estenuante fardello di guidare un movimento frammentato contro un violento razzismo sistemico.",
+      "recovery": "Attinse a una fede incrollabile e a un profondo impegno per la non violenza, usando la sua impareggiabile eloquenza per piegare per sempre l'arco dell'universo morale verso la giustizia."
     },
     "albert-einstein": {
       "name": "Albert Einstein",
@@ -1405,7 +1597,9 @@
         "Parlami della tua più grande conquista, Albert Einstein.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Fu costretto a fuggire dalla sua terra natale per scampare all'ascesa del fascismo nazista, lasciandosi alle spalle il lavoro di una vita e affrontando la terrificante realtà di un mondo in guerra.",
+      "recovery": "Trovò rifugio in un nuovo paese e utilizzò la sua immensa piattaforma globale per difendere strenuamente la pace, i diritti civili e l'uso responsabile della scienza."
     },
     "abraham-lincoln": {
       "name": "Abraham Lincoln",
@@ -1418,7 +1612,9 @@
         "Parlami della tua più grande conquista, Abraham Lincoln.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Lottò contro una grave depressione clinica e il peso schiacciante e senza precedenti di dover tenere unita una nazione violentemente spaccata durante la sua guerra più sanguinosa.",
+      "recovery": "Navigò attraverso la sua disperazione servendosi di un umorismo autoironico e di una ferrea convinzione morale, riuscendo infine ad abolire la schiavitù e a salvare l'unione americana."
     },
     "winston-churchill": {
       "name": "Winston Churchill",
@@ -1431,7 +1627,9 @@
         "Parlami della tua più grande conquista, Winston Churchill.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Sopportò il 'cane nero' di una depressione paralizzante e anni di emarginazione politica prima di affrontare il compito apparentemente impossibile di fermare la macchina da guerra nazista.",
+      "recovery": "Rinvigorì una nazione terrorizzata armato solo della sua imponente retorica e di una pura, ostinata sfida, offrendo sangue, fatica, lacrime e sudore per assicurare la vittoria."
     },
     "jane-austen": {
       "name": "Jane Austen",
@@ -1444,7 +1642,9 @@
         "Parlami della tua più grande conquista, Jane Austen.",
         "Come hai superato le tue sfide più difficili?",
         "Qual è il consiglio più importante che puoi darmi?"
-      ]
+      ],
+      "pain": "Visse una vita limitata dall'insicurezza finanziaria e dalle restrizioni sociali imposte alle donne, affrontando il dolore di un amore perduto e di una malattia tragicamente precoce.",
+      "recovery": "Sovvertì i limiti del suo mondo scrivendo satire sociali brillanti e senza tempo, conquistando nella letteratura quell'indipendenza che le fu negata nella vita."
     }
   },
   "Chat": {
