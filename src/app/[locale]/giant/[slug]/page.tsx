@@ -98,21 +98,33 @@ export default async function GiantDetailPage({ params }: Props) {
   // Find standardized narrative data
   const narrative = (finalNarratives as any)[giant.slug];
   
-  // For non-KO locales without a dedicated narrative, fall back to English
-  const getNarrativeText = (enVal: string, koVal: string, esVal?: string) => {
+  // For locales without a dedicated narrative, fall back to English
+  const getNarrativeText = (
+    enVal: string, 
+    koVal: string, 
+    esVal?: string,
+    deVal?: string,
+    jaVal?: string,
+    frVal?: string,
+    ptVal?: string
+  ) => {
     if (locale === 'ko') return koVal;
     if (locale === 'es' && esVal) return esVal;
+    if (locale === 'de' && deVal) return deVal;
+    if (locale === 'ja' && jaVal) return jaVal;
+    if (locale === 'fr' && frVal) return frVal;
+    if (locale === 'pt' && ptVal) return ptVal;
     return enVal;
   };
 
   const formattedNarrative = narrative ? {
-    epic: getNarrativeText(narrative.epic_en, narrative.epic_ko, narrative.epic_es),
-    trials: getNarrativeText(narrative.trials_en, narrative.trials_ko, narrative.trials_es),
-    overcoming: getNarrativeText(narrative.overcoming_en, narrative.overcoming_ko, narrative.overcoming_es),
-    era: getNarrativeText(narrative.era_en, narrative.era_ko, narrative.era_es),
+    epic: getNarrativeText(narrative.epic_en, narrative.epic_ko, narrative.epic_es, narrative.epic_de, narrative.epic_ja, narrative.epic_fr, narrative.epic_pt),
+    trials: getNarrativeText(narrative.trials_en, narrative.trials_ko, narrative.trials_es, narrative.trials_de, narrative.trials_ja, narrative.trials_fr, narrative.trials_pt),
+    overcoming: getNarrativeText(narrative.overcoming_en, narrative.overcoming_ko, narrative.overcoming_es, narrative.overcoming_de, narrative.overcoming_ja, narrative.overcoming_fr, narrative.overcoming_pt),
+    era: getNarrativeText(narrative.era_en, narrative.era_ko, narrative.era_es, narrative.era_de, narrative.era_ja, narrative.era_fr, narrative.era_pt),
     wisdom: (narrative.wisdom || []).map((w: any) => ({
-      quote: getNarrativeText(w.quote_en, w.quote_ko, w.quote_es),
-      meaning: getNarrativeText(w.meaning_en, w.meaning_ko, w.meaning_es)
+      quote: getNarrativeText(w.quote_en, w.quote_ko, w.quote_es, w.quote_de, w.quote_ja, w.quote_fr, w.quote_pt),
+      meaning: getNarrativeText(w.meaning_en, w.meaning_ko, w.meaning_es, w.meaning_de, w.meaning_ja, w.meaning_fr, w.meaning_pt)
     }))
   } : null;
 
