@@ -7,6 +7,26 @@ import { Dna, ArrowRight } from "lucide-react"
 import { Link } from "@/i18n/routing"
 import { getTranslations } from "next-intl/server"
 
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return {
+    alternates: {
+      canonical: locale === 'ko' ? '/' : `/${locale}`,
+      languages: {
+        'ko': '/',
+        'en': '/en',
+        'de': '/de',
+        'ja': '/ja',
+        'es': '/es',
+        'fr': '/fr',
+        'it': '/it',
+        'pt': '/pt',
+        'x-default': '/'
+      },
+    },
+  };
+}
+
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Test" });

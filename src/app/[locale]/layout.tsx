@@ -68,19 +68,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description,
     keywords,
     authors: [{ name: 'Giants Wisdom Team' }],
-    alternates: {
-      languages: {
-        'ko': '/ko',
-        'en': '/en',
-        'de': '/de',
-        'ja': '/ja',
-        'es': '/es',
-        'fr': '/fr',
-        'it': '/it',
-        'pt': '/pt',
-        'x-default': '/ko'
-      }
-    },
+
     openGraph: {
       title,
       description,
