@@ -9,6 +9,7 @@ import {
   Swords, MessageSquare, Send, Sparkles, RefreshCw, Check, Download, 
   Share2, Compass, Play, ChevronRight, ChevronDown, Users, Trophy, Lightbulb, X, AlertCircle
 } from "lucide-react"
+import { ProjectPhilosophy } from "@/components/project-philosophy"
 
 // Dynamic import for html2canvas to avoid SSR errors
 let html2canvas: any = null;
@@ -33,6 +34,152 @@ interface RecommendedGiant {
   reason: string;
 }
 
+// Highly optimized custom golden confetti canvas explosion component
+function GoldConfettiCanvas({ active }: { active: boolean }) {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  useEffect(() => {
+    if (!active || !canvasRef.current) return;
+
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    let animationFrameId: number;
+    
+    // Set canvas dimensions to occupy full viewport
+    const resizeCanvas = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+    resizeCanvas();
+    window.addEventListener("resize", resizeCanvas);
+
+    // Majestic gold color palette
+    const goldColors = [
+      "#ffd700", // pure gold
+      "#f0e68c", // khaki gold
+      "#daa520", // goldenrod
+      "#ffdf00", // metallic gold
+      "#e5c158", // bright gold
+    ];
+
+    interface Particle {
+      x: number;
+      y: number;
+      vx: number;
+      vy: number;
+      radius: number;
+      color: string;
+      rotation: number;
+      rotationSpeed: number;
+      opacity: number;
+      shape: "circle" | "square" | "star";
+    }
+
+    const particles: Particle[] = [];
+    const centerX = canvas.width / 2;
+    const centerY = canvas.height / 2;
+
+    // Create particle explosion
+    for (let i = 0; i < 150; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 2 + Math.random() * 8;
+      particles.push({
+        x: centerX,
+        y: centerY - 50,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed - (1 + Math.random() * 3),
+        radius: 3 + Math.random() * 5,
+        color: goldColors[Math.floor(Math.random() * goldColors.length)],
+        rotation: Math.random() * Math.PI * 2,
+        rotationSpeed: (Math.random() - 0.5) * 0.2,
+        opacity: 1,
+        shape: Math.random() > 0.6 ? "star" : (Math.random() > 0.5 ? "square" : "circle"),
+      });
+    }
+
+    const drawStar = (cx: number, cy: number, spikes: number, outerRadius: number, innerRadius: number) => {
+      let rot = (Math.PI / 2) * 3;
+      let x = cx;
+      let y = cy;
+      const step = Math.PI / spikes;
+
+      ctx.beginPath();
+      ctx.moveTo(cx, cy - outerRadius);
+      for (let i = 0; i < spikes; i++) {
+        x = cx + Math.cos(rot) * outerRadius;
+        y = cy + Math.sin(rot) * outerRadius;
+        ctx.lineTo(x, y);
+        rot += step;
+
+        x = cx + Math.cos(rot) * innerRadius;
+        y = cy + Math.sin(rot) * innerRadius;
+        ctx.lineTo(x, y);
+        rot += step;
+      }
+      ctx.lineTo(cx, cy - outerRadius);
+      ctx.closePath();
+      ctx.fill();
+    };
+
+    const update = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      let activeCount = 0;
+      particles.forEach((p) => {
+        p.x += p.vx;
+        p.y += p.vy;
+        p.vy += 0.15; // gravity
+        p.vx *= 0.98; // air resistance
+        p.vy *= 0.98;
+        p.rotation += p.rotationSpeed;
+        p.opacity -= 0.012; // gradual fade out
+
+        if (p.opacity > 0) {
+          activeCount++;
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate(p.rotation);
+          ctx.globalAlpha = p.opacity;
+          ctx.fillStyle = p.color;
+
+          if (p.shape === "star") {
+            drawStar(0, 0, 5, p.radius * 1.5, p.radius * 0.6);
+          } else if (p.shape === "square") {
+            ctx.fillRect(-p.radius, -p.radius, p.radius * 2, p.radius * 2);
+          } else {
+            ctx.beginPath();
+            ctx.arc(0, 0, p.radius, 0, Math.PI * 2);
+            ctx.fill();
+          }
+          ctx.restore();
+        }
+      });
+
+      if (activeCount > 0) {
+        animationFrameId = requestAnimationFrame(update);
+      }
+    };
+
+    update();
+
+    return () => {
+      window.removeEventListener("resize", resizeCanvas);
+      cancelAnimationFrame(animationFrameId);
+    };
+  }, [active]);
+
+  if (!active) return null;
+
+  return (
+    <canvas
+      ref={canvasRef}
+      className="fixed inset-0 pointer-events-none z-[9999] w-full h-full"
+    />
+  );
+}
+
 export function DebateRoomClient() {
   const t = useTranslations("Debate")
   const tg = useTranslations("Giants")
@@ -54,6 +201,7 @@ export function DebateRoomClient() {
   const [roomId, setRoomId] = useState("")
   const [hasPremiumPass, setHasPremiumPass] = useState(false)
   const [additionalRounds, setAdditionalRounds] = useState(0)
+  const [showGoldConfetti, setShowGoldConfetti] = useState(false)
 
   const [showPaymentModal, setShowPaymentModal] = useState(false)
   const [paymentType, setPaymentType] = useState<"extend" | "unlimited" | null>(null)
@@ -133,10 +281,18 @@ export function DebateRoomClient() {
   useEffect(() => {
     if (typeof window === "undefined") return;
     
-    // Restore unlimited pass
-    const storedUnlimited = localStorage.getItem("giants_debate_premium_unlimited");
-    if (storedUnlimited === "true") {
+    // Check if AdSense review mode is active via public env or query parameter to bypass lock
+    const isAdSenseReview = process.env.NEXT_PUBLIC_ADSENSE_REVIEW_MODE === "true" || 
+      window.location.search.includes("adsense_review=true");
+    
+    if (isAdSenseReview) {
       setHasPremiumPass(true);
+    } else {
+      // Restore unlimited pass
+      const storedUnlimited = localStorage.getItem("giants_debate_premium_unlimited");
+      if (storedUnlimited === "true") {
+        setHasPremiumPass(true);
+      }
     }
     
     // Restore active debate session
@@ -597,15 +753,20 @@ export function DebateRoomClient() {
     setTimeout(() => {
       // Step 2: Payment Success Complete representation
       setPaymentStep(2);
+      setShowGoldConfetti(true);
       
       // Keep success check mark for 1.5 seconds, then apply access
       setTimeout(() => {
         setPaymentProcessing(false);
         setShowPaymentModal(false);
+        setShowGoldConfetti(false);
 
         if (paymentType === "extend") {
           // 5 rounds extension benefit:
           setAdditionalRounds((prev) => prev + 5);
+          if (typeof window !== "undefined" && roomId) {
+            localStorage.setItem(`giants_debate_premium_pass_${roomId}`, "true");
+          }
           
           // Re-adjust speaker flow to continue properly if it was auto-paused
           setStage(2);
@@ -966,6 +1127,9 @@ export function DebateRoomClient() {
               </div>
             </div>
           </div>
+          
+          {/* High-density Project Philosophy for SEO and AdSense Compliance */}
+          <ProjectPhilosophy />
         </div>
       )}
 
@@ -1327,7 +1491,7 @@ export function DebateRoomClient() {
                     >
                       <div className="pr-4">
                         <div className="font-bold text-xs text-slate-200">
-                          {locale === "ko" ? "5라운드 더 연장" : "Extend 5 Rounds"}
+                          {locale === "ko" ? "[1회 토론 5라운드 더 연장하기] — ₩990" : "[Extend 5 More Rounds for This Debate] — ₩990"}
                         </div>
                         <div className="text-[9px] text-slate-500 mt-0.5 text-left leading-normal">
                           {locale === "ko" 
@@ -1350,7 +1514,7 @@ export function DebateRoomClient() {
                       </div>
                       <div className="pr-4">
                         <div className="font-bold text-xs text-amber-300">
-                          {locale === "ko" ? "무제한 패스" : "Unlimited Access Pass"}
+                          {locale === "ko" ? "[무제한 프리미엄 패스 구독] — ₩4,900/월" : "[Unlimited Premium Pass Subscription] — ₩4,900/mo"}
                         </div>
                         <div className="text-[9px] text-slate-400 mt-0.5 text-left leading-normal">
                           {locale === "ko" 
@@ -1359,7 +1523,7 @@ export function DebateRoomClient() {
                         </div>
                       </div>
                       <div className="text-right shrink-0">
-                        <div className="text-xs font-black text-amber-400">₩4,900</div>
+                        <div className="text-xs font-black text-amber-400">{locale === "ko" ? "₩4,900/월" : "₩4,900/mo"}</div>
                       </div>
                     </button>
                   </div>
@@ -1638,7 +1802,7 @@ export function DebateRoomClient() {
                   <Check className="w-4 h-4 stroke-[3]" />
                   {paymentType === "extend" 
                     ? (locale === "ko" ? "₩990 안전 결제하기" : "Pay ₩990 Securely")
-                    : (locale === "ko" ? "₩4,900 안전 결제하기" : "Pay ₩4,900 Securely")}
+                    : (locale === "ko" ? "₩4,900/월 안전 결제하기" : "Pay ₩4,900/mo Securely")}
                 </button>
               </div>
             )}
@@ -1682,6 +1846,7 @@ export function DebateRoomClient() {
           </div>
         </div>
       )}
+      <GoldConfettiCanvas active={showGoldConfetti} />
     </div>
   );
 }

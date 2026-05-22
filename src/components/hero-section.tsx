@@ -107,7 +107,7 @@ export function HeroSection() {
 
           <Link
             href="/debate"
-            className="group relative px-8 py-4 bg-slate-950 border-2 border-amber-500/50 text-amber-400 rounded-xl font-bold text-lg overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] hover:scale-105 hover:bg-amber-500/10 hover:border-amber-400 flex items-center gap-2"
+            className="group relative px-8 py-4 bg-slate-950 border-2 border-amber-500/40 text-amber-400 rounded-xl font-bold text-lg overflow-hidden transition-all hover:shadow-[0_0_40px_rgba(245,158,11,0.35)] hover:scale-105 hover:bg-amber-500/10 hover:border-amber-400 flex items-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.15)] ring-1 ring-amber-500/15"
           >
             <span className="text-xl">🔥</span>
             <span>거인들의 끝장 토론방 입장</span>

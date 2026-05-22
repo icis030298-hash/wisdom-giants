@@ -61,6 +61,20 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   return {
     metadataBase: new URL('https://www.giantswisdom.com'),
+    alternates: {
+      canonical: locale === 'ko' ? '/' : `/${locale}`,
+      languages: {
+        'ko-KR': '/ko',
+        'en-US': '/en',
+        'de-DE': '/de',
+        'ja-JP': '/ja',
+        'es-ES': '/es',
+        'fr-FR': '/fr',
+        'it-IT': '/it',
+        'pt-BR': '/pt',
+        'x-default': '/'
+      }
+    },
     title: {
       default: title,
       template: `%s | Giants Wisdom`
