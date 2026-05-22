@@ -54,11 +54,32 @@ export default async function middleware(request: NextRequest) {
     }
   }
 
+  const userAgent = request.headers.get('user-agent') || '';
+  const isRobot = /bot|crawler|spider|google|naver|daum|bing|yahoo|lighthouse|yandex|applebot/i.test(userAgent);
+
+  if (isRobot) {
+    // Skip Supabase session check for crawlers to avoid 500 API errors
+    return intlMiddleware(request);
+  }
+
   // First, handle Supabase session update
   const supabaseResponse = await updateSession(request);
   
   // Then, handle i18n
   const intlResponse = intlMiddleware(request);
+  
+  // Merge Supabase cookies into the i18n response
+  supabaseResponse.cookies.getAll().forEach(cookie => {
+    intlResponse.cookies.set(cookie.name, cookie.value, {
+      path: cookie.path,
+      domain: cookie.domain,
+      maxAge: cookie.maxAge,
+      secure: cookie.secure,
+      sameSite: cookie.sameSite,
+      expires: cookie.expires,
+      httpOnly: cookie.httpOnly,
+    });
+  });
   
   return intlResponse;
 }
