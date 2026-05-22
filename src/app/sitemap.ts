@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/test', changeFrequency: 'weekly' as const, priority: 0.9 },
     { path: '/about', changeFrequency: 'monthly' as const, priority: 0.5 },
     { path: '/chats', changeFrequency: 'weekly' as const, priority: 0.7 },
+    { path: '/debate', changeFrequency: 'daily' as const, priority: 0.9 },
   ]
 
   const staticEntries = LOCALES.flatMap((locale) =>
