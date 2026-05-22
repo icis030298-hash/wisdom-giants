@@ -125,7 +125,10 @@ export function DebateRoomClient() {
     } else {
       // 메시지가 새로 추가되거나 상태가 끝났을 때는 부드럽게 스크롤
       isAutoScrollingRef.current = true;
-      debateEndRef.current?.scrollIntoView({ behavior: "smooth" });
+      container.scrollTo({
+        top: container.scrollHeight,
+        behavior: "smooth"
+      });
       
       const timer = setTimeout(() => {
         isAutoScrollingRef.current = false;
@@ -496,7 +499,7 @@ export function DebateRoomClient() {
                   }`}
                 >
                   <Sparkles className="w-4 h-4" />
-                  {locale === "ko" ? "AI가 위인 엄선" : t("aiRecommend")}
+                  {locale === "ko" ? "AI 위인 추천" : t("aiRecommend")}
                 </button>
               </div>
 
@@ -643,7 +646,7 @@ export function DebateRoomClient() {
                   {aiLoading ? (
                     <div className="flex flex-col items-center justify-center py-12 gap-3 text-slate-400">
                       <div className="w-8 h-8 border-4 border-amber-500/30 border-t-amber-500 rounded-full animate-spin" />
-                      <span className="text-xs font-semibold">{locale === "ko" ? "최고의 토론 패널을 엄선하는 중..." : "Selecting the best debate panel..."}</span>
+                      <span className="text-xs font-semibold">{locale === "ko" ? "최고의 토론 패널을 구성하는 중..." : "Selecting the best debate panel..."}</span>
                     </div>
                   ) : aiError ? (
                     <div className="flex items-center gap-2 p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-xs">
@@ -921,7 +924,10 @@ export function DebateRoomClient() {
                 onClick={() => {
                   isAutoScrollingRef.current = true;
                   setUserScrolledUp(false);
-                  debateEndRef.current?.scrollIntoView({ behavior: "smooth" });
+                  scrollContainerRef.current?.scrollTo({
+                    top: scrollContainerRef.current.scrollHeight,
+                    behavior: "smooth"
+                  });
                   setTimeout(() => {
                     isAutoScrollingRef.current = false;
                   }, 500);
