@@ -77,6 +77,8 @@ export function DebateRoomClient() {
   const scrollContainerRef = useRef<HTMLDivElement>(null)
   const [userScrolledUp, setUserScrolledUp] = useState(false)
   const isAutoScrollingRef = useRef(false)
+  const typewriterIntervalRef = useRef<NodeJS.Timeout | null>(null)
+  const typewriterSkipRef = useRef<(() => void) | null>(null)
 
   // Categories translation mapping
   const categoryNames: Record<string, string> = {
@@ -186,6 +188,16 @@ export function DebateRoomClient() {
       container.removeEventListener("touchmove", handleTouchMove);
     };
   }, [stage]);
+
+  // 상태 변경 시 레이아웃 리플로우(Reflow)로 인한 스크롤 오판 방지용 잠금 훅
+  useEffect(() => {
+    isAutoScrollingRef.current = true;
+    const timer = setTimeout(() => {
+      isAutoScrollingRef.current = false;
+    }, 150); // 레이아웃 재배치가 완전히 끝날 때까지 150ms 동안 스크롤 감지 잠금
+    
+    return () => clearTimeout(timer);
+  }, [history, isTypewriting, isAiContemplating]);
 
   // Auto-Debate Loop Engine
   useEffect(() => {
@@ -322,50 +334,69 @@ export function DebateRoomClient() {
     const speed = 25; // ms per char
 
     const interval = setInterval(() => {
-      setDisplayedText((prev) => prev + fullText.charAt(index));
+      // slice 방식을 사용하여 리액트 비동기 batching에 의한 첫 글자 잘림 현상을 완벽 차단합니다.
+      setDisplayedText(fullText.slice(0, index + 1));
       index++;
 
       if (index >= fullText.length) {
         clearInterval(interval);
-        
-        // Finalize message and add to history log
-        const newMsg: DebateMessage = {
-          id: Date.now().toString(),
-          speaker: speaker.slug,
-          speakerName: tg(`${speaker.slug}.name`) || speaker.name,
-          speakerImage: speaker.imageUrl,
-          speakerColor: speaker.color,
-          content: fullText,
-          timestamp: new Date()
-        };
-
-        setHistory((prev) => {
-          const nextHistory = [...prev, newMsg];
-          const giantRounds = nextHistory.filter(h => h.speaker !== "user").length;
-          
-          if (giantRounds >= 10) {
-            // Auto end debate if maximum 10 rounds reached
-            setTimeout(() => {
-              setAutoDebateActive(false);
-              setStage(3);
-            }, 1000);
-          }
-          
-          return nextHistory;
-        });
-        setDisplayedText("");
-        setIsTypewriting(false);
-        setActiveSpeaker(null);
-
-        // Move to the next speaker index in round-robin cycle
-        setCurrentSpeakerIndex((prevIndex) => (prevIndex + 1) % selectedGiants.length);
+        finalizeSpeech(fullText, speaker);
       }
     }, speed);
+
+    // 즉시 스킵 핸들러를 바인딩하여 유저가 탭하면 전체 텍스트가 완성되도록 돕습니다.
+    typewriterIntervalRef.current = interval;
+    typewriterSkipRef.current = () => {
+      clearInterval(interval);
+      finalizeSpeech(fullText, speaker);
+    };
+  }
+
+  // 대화 완료 및 히스토리 정식 등록 공통 처리 함수
+  const finalizeSpeech = (fullText: string, speaker: Giant) => {
+    const newMsg: DebateMessage = {
+      id: Date.now().toString(),
+      speaker: speaker.slug,
+      speakerName: tg(`${speaker.slug}.name`) || speaker.name,
+      speakerImage: speaker.imageUrl,
+      speakerColor: speaker.color,
+      content: fullText,
+      timestamp: new Date()
+    };
+
+    setHistory((prev) => {
+      const nextHistory = [...prev, newMsg];
+      const giantRounds = nextHistory.filter(h => h.speaker !== "user").length;
+      
+      if (giantRounds >= 10) {
+        // Auto end debate if maximum 10 rounds reached
+        setTimeout(() => {
+          setAutoDebateActive(false);
+          setStage(3);
+        }, 1000);
+      }
+      
+      return nextHistory;
+    });
+    setDisplayedText("");
+    setIsTypewriting(false);
+    setActiveSpeaker(null);
+    typewriterIntervalRef.current = null;
+    typewriterSkipRef.current = null;
+
+    // Move to the next speaker index in round-robin cycle
+    setCurrentSpeakerIndex((prevIndex) => (prevIndex + 1) % selectedGiants.length);
   }
 
   // Handle User Interjection Submission
   const handleSendInterjection = () => {
-    if (!interjectInput.trim() || isTypewriting || isAiContemplating) return;
+    if (!interjectInput.trim() || isAiContemplating) return;
+
+    // 만약 현재 다른 위인이 타이핑 중(isTypewriting)이라면, 
+    // 하던 말을 즉시 완료(Skip) 처리하고 유저 개입 대화를 그 아래에 즉각 주입합니다.
+    if (isTypewriting && typewriterSkipRef.current) {
+      typewriterSkipRef.current();
+    }
 
     // Create audience message in the log
     const userMessage: DebateMessage = {
@@ -454,7 +485,7 @@ export function DebateRoomClient() {
                   }`}
                 >
                   <Users className="w-4 h-4" />
-                  {t("selfSelect")}
+                  {locale === "ko" ? "위인 직접 선택" : t("selfSelect")}
                 </button>
                 <button
                   onClick={() => setSetupMode("ai")}
@@ -465,7 +496,7 @@ export function DebateRoomClient() {
                   }`}
                 >
                   <Sparkles className="w-4 h-4" />
-                  {t("aiRecommend")}
+                  {locale === "ko" ? "AI가 위인 엄선" : t("aiRecommend")}
                 </button>
               </div>
 
@@ -487,7 +518,7 @@ export function DebateRoomClient() {
                       ) : (
                         <Sparkles className="w-3.5 h-3.5" />
                       )}
-                      {t("aiRecommend")}
+                      {locale === "ko" ? "토론 패널 구성하기" : t("aiRecommend")}
                     </button>
                   )}
                 </div>
@@ -502,7 +533,7 @@ export function DebateRoomClient() {
                 {/* Sample Topics Chip list */}
                 <div className="space-y-2">
                   <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    {locale === "ko" ? "추천 토론 주제" : "Suggested Topics"}
+                    {locale === "ko" ? "💡 이런 주제로 토론해 보세요" : "💡 Suggested Topics"}
                   </span>
                   <div className="flex flex-wrap gap-2">
                     {sampleTopics.map((item: string, i: number) => (
@@ -696,8 +727,10 @@ export function DebateRoomClient() {
                         ))}
                       </div>
                     ) : (
-                      <div className="p-4 rounded-xl border border-dashed border-white/10 text-center text-xs text-slate-500">
-                        {t("minRequired")}
+                      <div className="p-4 rounded-xl border border-dashed border-white/10 text-center text-xs text-slate-300 leading-relaxed bg-slate-950/20">
+                        {setupMode === "ai" 
+                          ? (locale === "ko" ? "💡 토론 주제를 입력하고 [토론 패널 구성하기]를 누르면 AI가 완벽한 위인들을 매칭해 줍니다!" : "💡 Enter a topic and click [Match Debate Panel] to let AI select the giants!") 
+                          : t("minRequired")}
                       </div>
                     )}
                   </div>
@@ -845,11 +878,16 @@ export function DebateRoomClient() {
 
                   {/* Typing content */}
                   <div 
-                    className={`px-5 py-4 rounded-3xl shadow-lg leading-relaxed border border-amber-500/30 text-slate-100 text-sm bg-slate-900/60 ${
+                    onClick={() => typewriterSkipRef.current?.()}
+                    className={`px-5 py-4 rounded-3xl shadow-lg leading-relaxed border border-amber-500/30 text-slate-100 text-sm bg-slate-900/60 cursor-pointer hover:border-amber-400 transition-colors relative group ${
                       history.length % 2 === 0 ? "rounded-tl-none" : "rounded-tr-none"
                     }`}
+                    title={locale === "ko" ? "클릭 시 즉시 전체 보기" : "Click to view full text immediately"}
                   >
                     <p className="whitespace-pre-wrap">{displayedText}</p>
+                    <span className="absolute bottom-1.5 right-3 text-[9px] text-amber-500/40 opacity-0 group-hover:opacity-100 transition-opacity">
+                      {locale === "ko" ? "클릭 시 건너뛰기 ⚡" : "Click to Skip ⚡"}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -919,7 +957,7 @@ export function DebateRoomClient() {
                   onChange={(e) => setInterjectInput(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && handleSendInterjection()}
                   placeholder={t("interject")}
-                  disabled={isTypewriting || isAiContemplating}
+                  disabled={isAiContemplating}
                   className="w-full px-5 py-3 rounded-xl glass-card bg-slate-950/60 border border-white/10 text-slate-100 placeholder:text-slate-500 text-xs focus:outline-none focus:border-amber-500/50 pr-12 disabled:opacity-50"
                 />
                 <Sparkles className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-amber-400/30" />
@@ -927,7 +965,7 @@ export function DebateRoomClient() {
 
               <button
                 onClick={handleSendInterjection}
-                disabled={!interjectInput.trim() || isTypewriting || isAiContemplating}
+                disabled={!interjectInput.trim() || isAiContemplating}
                 className="p-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 hover:shadow-lg disabled:opacity-50 transition-all cursor-pointer shrink-0"
               >
                 <Send className="w-4 h-4 shrink-0" />
