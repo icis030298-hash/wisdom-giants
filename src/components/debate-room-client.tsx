@@ -7,7 +7,7 @@ import { useRouter } from "@/i18n/routing"
 import { giants, Giant } from "@/lib/giants-data"
 import { 
   Swords, MessageSquare, Send, Sparkles, RefreshCw, Check, Download, 
-  Share2, Compass, Play, ChevronRight, Users, Trophy, Lightbulb, X, AlertCircle
+  Share2, Compass, Play, ChevronRight, ChevronDown, Users, Trophy, Lightbulb, X, AlertCircle
 } from "lucide-react"
 
 // Dynamic import for html2canvas to avoid SSR errors
@@ -74,6 +74,9 @@ export function DebateRoomClient() {
   // Sharing Card Ref for html2canvas
   const cardRef = useRef<HTMLDivElement>(null)
   const debateEndRef = useRef<HTMLDivElement>(null)
+  const scrollContainerRef = useRef<HTMLDivElement>(null)
+  const [userScrolledUp, setUserScrolledUp] = useState(false)
+  const isAutoScrollingRef = useRef(false)
 
   // Categories translation mapping
   const categoryNames: Record<string, string> = {
@@ -102,12 +105,87 @@ export function DebateRoomClient() {
     }
   }, [setupMode])
 
-  // Automatic scrolling to bottom of debate log
+  // Automatic scrolling to bottom of debate log (only if user hasn't manually scrolled up)
   useEffect(() => {
-    if (stage === 2 && debateEndRef.current) {
-      debateEndRef.current.scrollIntoView({ behavior: "smooth" });
+    if (stage !== 2 || !scrollContainerRef.current || userScrolledUp) return;
+
+    const container = scrollContainerRef.current;
+
+    if (isTypewriting) {
+      // 타이핑 중(스트리밍)일 때는 behavior: "auto" 로 부드러운 애니메이션 없이 즉시 스크롤하여
+      // 브라우저의 스크롤 스레드가 과부하 걸리지 않게 하고 사용자 휠 조작을 방해하지 않습니다.
+      isAutoScrollingRef.current = true;
+      container.scrollTop = container.scrollHeight;
+      
+      requestAnimationFrame(() => {
+        isAutoScrollingRef.current = false;
+      });
+    } else {
+      // 메시지가 새로 추가되거나 상태가 끝났을 때는 부드럽게 스크롤
+      isAutoScrollingRef.current = true;
+      debateEndRef.current?.scrollIntoView({ behavior: "smooth" });
+      
+      const timer = setTimeout(() => {
+        isAutoScrollingRef.current = false;
+      }, 500);
+      
+      return () => clearTimeout(timer);
     }
-  }, [history, isAiContemplating, displayedText, stage])
+  }, [history, isAiContemplating, displayedText, stage, userScrolledUp, isTypewriting])
+
+  // Scroll listener to check if user has manually scrolled up
+  const handleScrollEvent = () => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+
+    // 프로그램이 자동으로 스크롤을 처리하는 동안은 감지 무시
+    if (isAutoScrollingRef.current) return;
+
+    // If the distance from bottom is less than 60px, consider the user to be at the bottom
+    const isAtBottom = container.scrollHeight - container.scrollTop - container.clientHeight < 60;
+    
+    if (isAtBottom) {
+      setUserScrolledUp(false);
+    } else {
+      setUserScrolledUp(true);
+    }
+  }
+
+  // 사용자의 명시적인 마우스 휠 및 모바일 터치 이벤트 감지
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (!container || stage !== 2) return;
+
+    const handleWheel = (e: WheelEvent) => {
+      if (e.deltaY < 0) {
+        // 위로 휠을 굴렸을 때 즉시 감지하여 자동 스크롤 일시 정지
+        setUserScrolledUp(true);
+      }
+    };
+
+    let touchStartY = 0;
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartY = e.touches[0].clientY;
+    };
+
+    const handleTouchMove = (e: TouchEvent) => {
+      const touchEndY = e.touches[0].clientY;
+      // 손가락을 아래로 쓸어내려 화면을 위로 올린 경우 (과거 메시지 스크롤 업)
+      if (touchEndY > touchStartY + 5) {
+        setUserScrolledUp(true);
+      }
+    };
+
+    container.addEventListener("wheel", handleWheel, { passive: true });
+    container.addEventListener("touchstart", handleTouchStart, { passive: true });
+    container.addEventListener("touchmove", handleTouchMove, { passive: true });
+
+    return () => {
+      container.removeEventListener("wheel", handleWheel);
+      container.removeEventListener("touchstart", handleTouchStart);
+      container.removeEventListener("touchmove", handleTouchMove);
+    };
+  }, [stage]);
 
   // Auto-Debate Loop Engine
   useEffect(() => {
@@ -642,7 +720,7 @@ export function DebateRoomClient() {
 
       {/* STAGE 2: LIVE DEBATING SCREEN */}
       {stage === 2 && (
-        <div className="max-w-4xl mx-auto flex flex-col h-[calc(100vh-140px)] animate-fade-in-up">
+        <div className="max-w-4xl mx-auto flex flex-col h-[calc(100vh-140px)] animate-fade-in-up relative">
           {/* Header topic banner */}
           <div className="glass-card p-4 md:p-6 rounded-3xl border border-white/10 bg-slate-900/80 backdrop-blur-xl mb-4 relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-xl">
             <div className="space-y-1">
@@ -683,7 +761,11 @@ export function DebateRoomClient() {
           </div>
 
           {/* Core messages scroll container */}
-          <div className="flex-1 overflow-y-auto p-4 md:p-6 space-y-6 glass-card border border-white/5 rounded-3xl bg-slate-900/20 backdrop-blur-md mb-4 custom-scrollbar">
+          <div 
+            ref={scrollContainerRef}
+            onScroll={handleScrollEvent}
+            className="flex-1 overflow-y-auto p-4 md:p-6 space-y-6 glass-card border border-white/5 rounded-3xl bg-slate-900/20 backdrop-blur-md mb-4 custom-scrollbar"
+          >
             {history.length === 0 && !isAiContemplating && !isTypewriting && (
               <div className="flex flex-col items-center justify-center h-full gap-4 text-slate-500 text-center">
                 <div className="w-12 h-12 rounded-2xl bg-amber-500/10 flex items-center justify-center border border-amber-500/20">
@@ -793,6 +875,26 @@ export function DebateRoomClient() {
 
             <div ref={debateEndRef} />
           </div>
+
+          {/* Floating scroll-to-bottom badge when scrolled up */}
+          {userScrolledUp && history.length > 0 && (
+            <div className="absolute bottom-[108px] left-1/2 -translate-x-1/2 z-20 animate-bounce">
+              <button
+                onClick={() => {
+                  isAutoScrollingRef.current = true;
+                  setUserScrolledUp(false);
+                  debateEndRef.current?.scrollIntoView({ behavior: "smooth" });
+                  setTimeout(() => {
+                    isAutoScrollingRef.current = false;
+                  }, 500);
+                }}
+                className="px-4 py-2 rounded-full bg-amber-500 text-slate-950 font-black text-xs shadow-xl shadow-amber-500/20 border border-amber-400/50 hover:bg-amber-400 active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer"
+              >
+                <ChevronDown className="w-3.5 h-3.5" />
+                {locale === "ko" ? "최근 토론 내용으로 가기" : "Scroll to Bottom"}
+              </button>
+            </div>
+          )}
 
           {/* User Interjection Panel */}
           <div className="glass-card p-4 rounded-3xl border border-white/10 bg-slate-900/80 backdrop-blur-xl space-y-4 shadow-xl z-10">
