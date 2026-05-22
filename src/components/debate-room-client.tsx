@@ -49,6 +49,23 @@ export function DebateRoomClient() {
   const [topic, setTopic] = useState("")
   const [activeCategory, setActiveCategory] = useState<string>("All Giants")
   const [searchQuery, setSearchQuery] = useState("")
+
+  // PREMIUM & PAYMENT STATE
+  const [roomId, setRoomId] = useState("")
+  const [hasPremiumPass, setHasPremiumPass] = useState(false)
+  const [additionalRounds, setAdditionalRounds] = useState(0)
+
+  const [showPaymentModal, setShowPaymentModal] = useState(false)
+  const [paymentType, setPaymentType] = useState<"extend" | "unlimited" | null>(null)
+  const [paymentMethod, setPaymentMethod] = useState<"card" | "phone">("card")
+  const [cardNumber, setCardNumber] = useState("")
+  const [cardExpiry, setCardExpiry] = useState("")
+  const [cardCvc, setCardCvc] = useState("")
+  const [phoneCarrier, setPhoneCarrier] = useState("SKT")
+  const [phoneNumber, setPhoneNumber] = useState("")
+  const [paymentProcessing, setPaymentProcessing] = useState(false)
+  const [paymentStep, setPaymentStep] = useState(0) // 0: 입력 폼, 1: 2초 지연 로딩 연출, 2: 성공 완료
+  const [paymentStepText, setPaymentStepText] = useState("")
   
   // AI Recommendation state
   const [aiLoading, setAiLoading] = useState(false)
@@ -83,6 +100,9 @@ export function DebateRoomClient() {
   const typewriterIntervalRef = useRef<NodeJS.Timeout | null>(null)
   const typewriterSkipRef = useRef<(() => void) | null>(null)
 
+  const baseMaxRounds = selectedGiants.length === 2 ? 8 : (selectedGiants.length === 3 ? 9 : 8);
+  const maxRounds = baseMaxRounds + additionalRounds;
+
   // Categories translation mapping
   const categoryNames: Record<string, string> = {
     "All Giants": locale === "ko" ? "전체 위인" : "All Giants",
@@ -99,7 +119,6 @@ export function DebateRoomClient() {
     "전쟁은 때로 정당화될 수 있는가?",
     "개인의 자유와 사회의 질서, 무엇이 우선인가?"
   ]
-
   // Setup default giants for sample quickstart
   useEffect(() => {
     // When setupMode switches to AI, we reset custom selected list to keep it clean
@@ -110,6 +129,76 @@ export function DebateRoomClient() {
     }
   }, [setupMode])
 
+  // Load premium pass state and active debate session on mount
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    
+    // Restore unlimited pass
+    const storedUnlimited = localStorage.getItem("giants_debate_premium_unlimited");
+    if (storedUnlimited === "true") {
+      setHasPremiumPass(true);
+    }
+    
+    // Restore active debate session
+    try {
+      const activeSession = localStorage.getItem("giants_debate_active_session");
+      if (activeSession) {
+        const session = JSON.parse(activeSession);
+        if (session.stage && session.selectedGiants && session.topic) {
+          setRoomId(session.roomId || "room_" + Math.random().toString(36).substring(2, 15));
+          setStage(session.stage);
+          setSelectedGiants(session.selectedGiants);
+          setTopic(session.topic);
+          setHistory(session.history || []);
+          setCurrentSpeakerIndex(session.currentSpeakerIndex || 0);
+          setAdditionalRounds(session.additionalRounds || 0);
+          
+          // Pause auto-debate so it doesn't run wild on refresh
+          setAutoDebateActive(false);
+        }
+      }
+    } catch (e) {
+      console.error("Failed to restore debate session:", e);
+    }
+  }, []);
+
+  // Save active debate session to localStorage
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    
+    if (stage === 1) {
+      localStorage.removeItem("giants_debate_active_session");
+      return;
+    }
+
+    try {
+      const session = {
+        roomId,
+        stage,
+        selectedGiants,
+        topic,
+        history,
+        currentSpeakerIndex,
+        additionalRounds
+      };
+      localStorage.setItem("giants_debate_active_session", JSON.stringify(session));
+    } catch (e) {
+      console.error("Failed to save debate session:", e);
+    }
+  }, [roomId, stage, selectedGiants, topic, history, currentSpeakerIndex, additionalRounds]);
+
+  // Check premium lock for the current roomId
+  useEffect(() => {
+    if (typeof window === "undefined" || !roomId) return;
+    
+    const isRoomPremium = localStorage.getItem(`giants_debate_premium_pass_${roomId}`) === "true";
+    const isGlobalPremium = localStorage.getItem("giants_debate_premium_unlimited") === "true";
+    if (isRoomPremium || isGlobalPremium) {
+      setHasPremiumPass(true);
+    } else {
+      setHasPremiumPass(false);
+    }
+  }, [roomId]);
   // Automatic scrolling to bottom of debate log (only if user hasn't manually scrolled up)
   useEffect(() => {
     if (stage !== 2 || !scrollContainerRef.current || userScrolledUp) return;
@@ -270,6 +359,8 @@ export function DebateRoomClient() {
   // Start the debate!
   const handleStartDebate = () => {
     if (selectedGiants.length < 2 || !topic.trim()) return;
+    const newRoomId = "room_" + Math.random().toString(36).substring(2, 15);
+    setRoomId(newRoomId);
     setStage(2);
     setHistory([]);
     setCurrentSpeakerIndex(0);
@@ -374,8 +465,8 @@ export function DebateRoomClient() {
       const nextHistory = [...prev, newMsg];
       const giantRounds = nextHistory.filter(h => h.speaker !== "moderator" && h.speaker !== "user").length;
       
-      if (giantRounds >= 10) {
-        // Auto end debate if maximum 10 rounds reached
+      if (giantRounds >= maxRounds) {
+        // Auto end debate if maximum dynamic rounds reached
         setTimeout(() => {
           setAutoDebateActive(false);
           setStage(3);
@@ -466,6 +557,105 @@ export function DebateRoomClient() {
       link.href = canvas.toDataURL("image/png");
       link.click();
     });
+  }
+
+  // Open Checkout Simulation Modal
+  const handleOpenCheckout = (type: "extend" | "unlimited") => {
+    setPaymentType(type);
+    setPaymentMethod("card");
+    setCardNumber("");
+    setCardExpiry("");
+    setCardCvc("");
+    setPhoneCarrier("SKT");
+    setPhoneNumber("");
+    setPaymentProcessing(false);
+    setPaymentStep(0);
+    setShowPaymentModal(true);
+  }
+
+  // Handle Virtual Payment Processing Simulator
+  const handleProcessPayment = () => {
+    setPaymentProcessing(true);
+    setPaymentStep(1);
+    setPaymentStepText(locale === "ko" ? "🔒 안전한 결제 게이트웨이 연결 중..." : "🔒 Connecting to secure gateway...");
+
+    // Step 1.1: 700ms 후 카드사/통신사 승인 단계 노출
+    setTimeout(() => {
+      setPaymentStepText(
+        paymentMethod === "card"
+          ? (locale === "ko" ? "💳 카드사 거래 승인 요청 중..." : "💳 Requesting card issuer approval...")
+          : (locale === "ko" ? "📱 통신사 한도 조회 및 인증 확인 중..." : "📱 Verifying carrier authentication...")
+      );
+    }, 700);
+
+    // Step 1.2: 1400ms 후 락 해제 단계 노출
+    setTimeout(() => {
+      setPaymentStepText(locale === "ko" ? "✨ 최종 토론 데이터 락 해제 중..." : "✨ Unlocking debate data...");
+    }, 1400);
+
+    // Simulate multi-step secure payment server verification delay (2000ms total)
+    setTimeout(() => {
+      // Step 2: Payment Success Complete representation
+      setPaymentStep(2);
+      
+      // Keep success check mark for 1.5 seconds, then apply access
+      setTimeout(() => {
+        setPaymentProcessing(false);
+        setShowPaymentModal(false);
+
+        if (paymentType === "extend") {
+          // 5 rounds extension benefit:
+          setAdditionalRounds((prev) => prev + 5);
+          
+          // Re-adjust speaker flow to continue properly if it was auto-paused
+          setStage(2);
+          setAutoDebateActive(true);
+          setUserScrolledUp(false);
+        } else if (paymentType === "unlimited") {
+          // Lifetime access pass benefit:
+          setHasPremiumPass(true);
+          if (typeof window !== "undefined") {
+            localStorage.setItem("giants_debate_premium_unlimited", "true");
+            if (roomId) {
+              localStorage.setItem(`giants_debate_premium_pass_${roomId}`, "true");
+            }
+          }
+        }
+      }, 1500);
+    }, 2000);
+  }
+
+  // Card formatting helpers
+  const handleCardNumberChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const val = e.target.value.replace(/\D/g, "");
+    const formatted = val.match(/.{1,4}/g)?.join("-") || val;
+    setCardNumber(formatted.slice(0, 19));
+  }
+
+  const handleCardExpiryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const val = e.target.value.replace(/\D/g, "");
+    if (val.length <= 2) {
+      setCardExpiry(val);
+    } else {
+      setCardExpiry(`${val.slice(0, 2)}/${val.slice(2, 4)}`);
+    }
+  }
+
+  const handleCardCvcChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const val = e.target.value.replace(/\D/g, "");
+    setCardCvc(val.slice(0, 3));
+  }
+
+  // Phone formatting helper
+  const handlePhoneNumberChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const val = e.target.value.replace(/\D/g, "");
+    let formatted = val;
+    if (val.length > 3 && val.length <= 7) {
+      formatted = `${val.slice(0, 3)}-${val.slice(3)}`;
+    } else if (val.length > 7) {
+      formatted = `${val.slice(0, 3)}-${val.slice(3, 7)}-${val.slice(7, 11)}`;
+    }
+    setPhoneNumber(formatted);
   }
 
   // Filter and search logic for setup screen
@@ -791,7 +981,7 @@ export function DebateRoomClient() {
                   {t("title")}
                 </span>
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400">
-                  {locale === "ko" ? `토론 라운드: ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / 10` : `Round: ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / 10`}
+                  {locale === "ko" ? `토론 라운드: ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / ${maxRounds}` : `Round: ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / ${maxRounds}`}
                 </span>
               </div>
               <h2 className="font-serif font-black text-slate-200 text-base md:text-lg leading-tight line-clamp-2">
@@ -1107,7 +1297,83 @@ export function DebateRoomClient() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+          <div className="relative rounded-[2.5rem] overflow-hidden">
+            {/* 1. 프리미엄 잠금 화면 */}
+            {!hasPremiumPass && (
+              <div className="absolute inset-0 z-30 flex items-center justify-center p-4 bg-slate-950/45 backdrop-blur-[6px] rounded-[2.5rem] animate-fade-in transition-all duration-700">
+                <div className="max-w-md w-full glass-card p-8 rounded-[2rem] border border-amber-500/30 bg-slate-950/95 shadow-2xl text-center space-y-6 animate-slide-up">
+                  {/* 자물쇠 골드 아이콘 */}
+                  <div className="mx-auto w-14 h-14 rounded-full bg-gradient-to-tr from-amber-500 to-yellow-400 flex items-center justify-center shadow-lg shadow-amber-500/20 animate-pulse">
+                    <span className="text-xl">🔒</span>
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <h3 className="text-lg font-serif font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-400">
+                      {locale === "ko" ? "토론 분석 및 카드 다운로드 잠김" : "Debate Analysis & Card Locked"}
+                    </h3>
+                    <p className="text-slate-400 text-[11px] leading-relaxed">
+                      {locale === "ko" 
+                        ? "위인들의 심도 깊은 통찰이 집약된 최종 분석 리포트와 소셜 공유용 고화질 카드를 이용해 보세요." 
+                        : "Unlock key summary reports of historical giants and premium sharing card download features."}
+                    </p>
+                  </div>
+
+                  {/* 상품 카드 구성 */}
+                  <div className="space-y-3">
+                    {/* 상품 A: 5라운드 연장 */}
+                    <button 
+                      onClick={() => handleOpenCheckout("extend")}
+                      className="w-full p-4 rounded-2xl border border-white/10 hover:border-amber-500/40 bg-white/5 hover:bg-amber-500/5 transition-all text-left flex justify-between items-center group cursor-pointer"
+                    >
+                      <div className="pr-4">
+                        <div className="font-bold text-xs text-slate-200">
+                          {locale === "ko" ? "5라운드 더 연장" : "Extend 5 Rounds"}
+                        </div>
+                        <div className="text-[9px] text-slate-500 mt-0.5 text-left leading-normal">
+                          {locale === "ko" 
+                            ? "현재 토론을 5라운드 더 추가하여 대화를 이어갑니다." 
+                            : "Add 5 more rounds to the current debate and resume discussion."}
+                        </div>
+                      </div>
+                      <div className="text-right shrink-0">
+                        <div className="text-xs font-black text-amber-400">₩990</div>
+                      </div>
+                    </button>
+
+                    {/* 상품 B: 무제한 패스 */}
+                    <button 
+                      onClick={() => handleOpenCheckout("unlimited")}
+                      className="w-full p-4 rounded-2xl border-2 border-amber-500/20 hover:border-amber-500/50 bg-gradient-to-r from-amber-500/5 to-orange-500/5 hover:from-amber-500/10 hover:to-orange-500/10 transition-all text-left flex justify-between items-center group cursor-pointer relative overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-10 px-2 py-0.5 bg-amber-500 text-slate-950 font-black text-[7px] rounded-b uppercase tracking-widest">
+                        BEST 🔥
+                      </div>
+                      <div className="pr-4">
+                        <div className="font-bold text-xs text-amber-300">
+                          {locale === "ko" ? "무제한 패스" : "Unlimited Access Pass"}
+                        </div>
+                        <div className="text-[9px] text-slate-400 mt-0.5 text-left leading-normal">
+                          {locale === "ko" 
+                            ? "평생 모든 토론 요약 해제 및 무제한 이미지 다운로드" 
+                            : "Permanently unlock all debate summaries and unlimited card downloads."}
+                        </div>
+                      </div>
+                      <div className="text-right shrink-0">
+                        <div className="text-xs font-black text-amber-400">₩4,900</div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* 2. 블러 처리될 기존 결과 콘텐츠 */}
+            <div 
+              style={{ transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)" }}
+              className={`grid grid-cols-1 md:grid-cols-12 gap-8 items-start transition-all duration-1000 ${
+                !hasPremiumPass ? "blur-md pointer-events-none select-none opacity-30 scale-[0.98]" : ""
+              }`}
+            >
             {/* Left: Beautiful Social Card Display (For capture) */}
             <div className="md:col-span-7 space-y-4">
               <div 
@@ -1224,6 +1490,195 @@ export function DebateRoomClient() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    )}
+
+      {/* 5. SECURE CHECKOUT SIMULATOR MODAL */}
+      {showPaymentModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md animate-fade-in">
+          <div className="w-full max-w-md bg-slate-900 border border-amber-500/20 rounded-[2.5rem] p-6 shadow-2xl space-y-6 relative overflow-hidden animate-scale-up">
+            {/* Background effects */}
+            <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/5 rounded-full blur-2xl pointer-events-none" />
+
+            {/* Header */}
+            <div className="flex items-center justify-between pb-3 border-b border-white/5 relative z-10">
+              <div className="space-y-1">
+                <span className="text-[9px] font-extrabold uppercase tracking-widest text-amber-500 flex items-center gap-1.5">
+                  🛡️ Secure Checkout
+                </span>
+                <h3 className="font-serif font-black text-slate-200 text-base">
+                  {paymentType === "extend" 
+                    ? (locale === "ko" ? "5라운드 토론 더 연장" : "Extend 5 Debate Rounds")
+                    : (locale === "ko" ? "무제한 토론 패스 개방" : "Unlimited Debate Pass")}
+                </h3>
+              </div>
+              <button 
+                onClick={() => !paymentProcessing && setShowPaymentModal(false)}
+                disabled={paymentProcessing}
+                className="p-1.5 rounded-xl hover:bg-white/5 text-slate-400 hover:text-slate-200 transition-colors disabled:opacity-30 cursor-pointer"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Content Switch */}
+            {paymentStep === 0 && (
+              <div className="space-y-5 relative z-10">
+                {/* Method Tabs */}
+                <div className="flex p-1 rounded-xl bg-slate-950 border border-white/5">
+                  <button
+                    onClick={() => setPaymentMethod("card")}
+                    className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all ${
+                      paymentMethod === "card"
+                        ? "bg-amber-500 text-slate-950 shadow-md"
+                        : "text-slate-400 hover:text-slate-200"
+                    }`}
+                  >
+                    {locale === "ko" ? "신용/체크카드" : "Credit Card"}
+                  </button>
+                  <button
+                    onClick={() => setPaymentMethod("phone")}
+                    className={`flex-1 py-2 px-3 rounded-lg text-xs font-bold transition-all ${
+                      paymentMethod === "phone"
+                        ? "bg-amber-500 text-slate-950 shadow-md"
+                        : "text-slate-400 hover:text-slate-200"
+                    }`}
+                  >
+                    {locale === "ko" ? "휴대폰 소액결제" : "Mobile Payment"}
+                  </button>
+                </div>
+
+                {/* Card Fields */}
+                {paymentMethod === "card" ? (
+                  <div className="space-y-4">
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
+                        {locale === "ko" ? "카드 번호" : "Card Number"}
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="1234-5678-1234-5678"
+                        value={cardNumber}
+                        onChange={handleCardNumberChange}
+                        className="w-full px-4 py-2.5 rounded-xl glass bg-slate-950/60 border border-white/10 text-xs focus:outline-none focus:border-amber-500/40 text-center tracking-widest font-mono text-slate-200"
+                      />
+                    </div>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="space-y-1.5">
+                        <label className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
+                          {locale === "ko" ? "유효기간" : "Expiry Date"}
+                        </label>
+                        <input
+                          type="text"
+                          placeholder="MM/YY"
+                          value={cardExpiry}
+                          onChange={handleCardExpiryChange}
+                          className="w-full px-4 py-2.5 rounded-xl glass bg-slate-950/60 border border-white/10 text-xs focus:outline-none focus:border-amber-500/40 text-center font-mono text-slate-200"
+                        />
+                      </div>
+                      <div className="space-y-1.5">
+                        <label className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
+                          CVC
+                        </label>
+                        <input
+                          type="password"
+                          placeholder="***"
+                          value={cardCvc}
+                          onChange={handleCardCvcChange}
+                          className="w-full px-4 py-2.5 rounded-xl glass bg-slate-950/60 border border-white/10 text-xs focus:outline-none focus:border-amber-500/40 text-center font-mono text-slate-200"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  // Mobile Carrier Fields
+                  <div className="space-y-4">
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
+                        {locale === "ko" ? "통신사" : "Carrier"}
+                      </label>
+                      <select
+                        value={phoneCarrier}
+                        onChange={(e) => setPhoneCarrier(e.target.value)}
+                        className="w-full px-4 py-2.5 rounded-xl glass bg-slate-950 border border-white/10 text-xs focus:outline-none focus:border-amber-500/40 text-slate-200 cursor-pointer"
+                      >
+                        <option value="SKT">SKT</option>
+                        <option value="KT">KT</option>
+                        <option value="LGU+">LG U+</option>
+                        <option value="HELLOMOBILE">{locale === "ko" ? "알뜰폰" : "MVNO"}</option>
+                      </select>
+                    </div>
+                    <div className="space-y-1.5">
+                      <label className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
+                        {locale === "ko" ? "휴대폰 번호" : "Phone Number"}
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="010-1234-5678"
+                        value={phoneNumber}
+                        onChange={handlePhoneNumberChange}
+                        className="w-full px-4 py-2.5 rounded-xl glass bg-slate-950/60 border border-white/10 text-xs focus:outline-none focus:border-amber-500/40 text-center font-mono text-slate-200"
+                      />
+                    </div>
+                  </div>
+                )}
+
+                {/* Submit button */}
+                <button
+                  onClick={handleProcessPayment}
+                  disabled={
+                    paymentMethod === "card"
+                      ? cardNumber.length < 19 || cardExpiry.length < 5 || cardCvc.length < 3
+                      : phoneNumber.length < 12
+                  }
+                  className="w-full py-3.5 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black text-xs uppercase tracking-wider shadow-lg shadow-amber-500/10 hover:shadow-amber-500/25 transition-all disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer flex items-center justify-center gap-1.5 animate-pulse"
+                >
+                  <Check className="w-4 h-4 stroke-[3]" />
+                  {paymentType === "extend" 
+                    ? (locale === "ko" ? "₩990 안전 결제하기" : "Pay ₩990 Securely")
+                    : (locale === "ko" ? "₩4,900 안전 결제하기" : "Pay ₩4,900 Securely")}
+                </button>
+              </div>
+            )}
+
+            {/* Processing state */}
+            {paymentStep === 1 && (
+              <div className="py-8 flex flex-col items-center justify-center gap-4 text-center relative z-10 animate-fade-in">
+                <div className="relative w-12 h-12">
+                  <div className="absolute inset-0 border-4 border-amber-500/20 rounded-full" />
+                  <div className="absolute inset-0 border-4 border-amber-500 border-t-transparent rounded-full animate-spin" />
+                </div>
+                <div className="space-y-1">
+                  <h4 className="font-bold text-xs text-slate-300">
+                    {locale === "ko" ? "결제 승인 중..." : "Processing Payment..."}
+                  </h4>
+                  <p className="text-[10px] text-slate-500 animate-pulse">
+                    {paymentStepText}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {/* Success state */}
+            {paymentStep === 2 && (
+              <div className="py-8 flex flex-col items-center justify-center gap-4 text-center relative z-10 animate-scale-up">
+                <div className="w-14 h-14 rounded-full bg-emerald-500/20 border border-emerald-500 flex items-center justify-center text-emerald-400 shadow-lg shadow-emerald-500/15 animate-bounce">
+                  <Check className="w-8 h-8 stroke-[3]" />
+                </div>
+                <div className="space-y-1">
+                  <h4 className="font-serif font-black text-emerald-400 text-sm">
+                    {locale === "ko" ? "결제 성공! 🎉" : "Payment Successful! 🎉"}
+                  </h4>
+                  <p className="text-[10px] text-slate-400">
+                    {paymentType === "extend"
+                      ? (locale === "ko" ? "5라운드가 연장되어 토론이 곧 재개됩니다." : "5 rounds extended. Debate will resume shortly.")
+                      : (locale === "ko" ? "위인들의 모든 요약 보고서 락이 해제되었습니다." : "All premium features successfully unlocked.")}
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       )}

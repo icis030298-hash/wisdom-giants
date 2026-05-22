@@ -55,6 +55,39 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </Link>
       </div>
+
+      {/* Debate Room CTA */}
+      <div className="max-w-6xl mx-auto px-4 pb-12">
+        <Link 
+          href="/debate"
+          className="block group"
+        >
+          <div className="relative overflow-hidden rounded-[2.5rem] bg-slate-950 border border-amber-500/30 p-8 md:p-12 shadow-2xl shadow-amber-900/20 transition-all hover:scale-[1.01] active:scale-[0.99] hover:border-amber-400 hover:shadow-[0_0_40px_rgba(245,158,11,0.2)]">
+            <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 group-hover:bg-amber-400/20 transition-colors" />
+            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+              <div className="space-y-4 text-center md:text-left">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-bold uppercase tracking-widest border border-amber-500/30">
+                  <span className="text-sm">🔥</span> LIVE DEBATE
+                </div>
+                <h2 className="text-3xl md:text-4xl font-serif font-bold text-white leading-tight whitespace-pre-wrap">
+                  세기의 명저들이 맞붙는<br />
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500">
+                    &apos;거인들의 끝장 토론방&apos;
+                  </span>
+                </h2>
+                <p className="text-slate-300 text-lg max-w-xl">
+                  “돈으로 행복을 살 수 있을까?” 아리스토텔레스와 니체가 벌이는 격렬한 사상 논쟁을 실시간으로 직관하고 참여해보세요.
+                </p>
+              </div>
+              <div className="shrink-0 flex flex-col items-center gap-4">
+                <div className="flex items-center gap-2 text-amber-400 font-bold group-hover:gap-4 transition-all bg-amber-500/10 px-6 py-4 rounded-full border border-amber-500/30 group-hover:bg-amber-500/20">
+                  토론 관전 및 참여하기 <ArrowRight className="w-5 h-5" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </Link>
+      </div>
       
       {/* Featured Giants - Bento Grid */}
       <FeaturedGiants giants={giants} />

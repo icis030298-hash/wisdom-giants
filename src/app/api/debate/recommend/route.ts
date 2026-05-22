@@ -61,7 +61,7 @@ Instructions:
 `;
 
     const genAI = new GoogleGenerativeAI(apiKey);
-    const modelsToTry = ["gemini-3.1-flash-lite", "gemini-2.5-flash"];
+    const modelsToTry = ["gemini-2.5-flash-lite", "gemini-2.5-flash", "gemini-3.1-flash-lite"];
     let lastError = null;
     let textResult = "";
 

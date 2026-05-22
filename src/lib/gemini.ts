@@ -33,7 +33,7 @@ ${persona}`;
 
 
   // Try Gemini 2.5 suite as per project configuration
-  const modelsToTry = ['gemini-2.5-flash', 'gemini-2.5-flash-lite'];
+  const modelsToTry = ['gemini-2.5-flash-lite', 'gemini-2.5-flash'];
   let lastError = null;
 
   for (const modelId of modelsToTry) {

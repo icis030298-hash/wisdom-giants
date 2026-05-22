@@ -93,7 +93,7 @@ export function HeroSection() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8 flex-wrap">
           <Link 
             href="/test"
             className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground rounded-xl font-medium text-lg overflow-hidden transition-all hover:shadow-lg hover:shadow-amber-500/25 hover:scale-105"
@@ -103,6 +103,14 @@ export function HeroSection() {
               {t("startTest")}
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+          </Link>
+
+          <Link
+            href="/debate"
+            className="group relative px-8 py-4 bg-slate-950 border-2 border-amber-500/50 text-amber-400 rounded-xl font-bold text-lg overflow-hidden transition-all hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] hover:scale-105 hover:bg-amber-500/10 hover:border-amber-400 flex items-center gap-2"
+          >
+            <span className="text-xl">🔥</span>
+            <span>거인들의 끝장 토론방 입장</span>
           </Link>
           
           <a href="#featured-giants" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">

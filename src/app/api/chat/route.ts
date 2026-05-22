@@ -98,9 +98,9 @@ ${baseGuidelines}
 ${persona}`;
     }
 
-    // 최신 gemini-3.1-flash-lite 모델 사용 (Ultimate speed & cost-efficiency)
+    // 가성비 극대화 gemini-2.5-flash-lite 모델 사용
     const model = genAI.getGenerativeModel({ 
-      model: "gemini-3.1-flash-lite", 
+      model: "gemini-2.5-flash-lite", 
       systemInstruction: systemPrompt,
     });
 
