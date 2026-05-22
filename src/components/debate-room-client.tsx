@@ -75,6 +75,9 @@ export function DebateRoomClient() {
   const cardRef = useRef<HTMLDivElement>(null)
   const debateEndRef = useRef<HTMLDivElement>(null)
   const scrollContainerRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+  
+  const [showInteractionPrompt, setShowInteractionPrompt] = useState(false)
   const [userScrolledUp, setUserScrolledUp] = useState(false)
   const isAutoScrollingRef = useRef(false)
   const typewriterIntervalRef = useRef<NodeJS.Timeout | null>(null)
@@ -369,7 +372,7 @@ export function DebateRoomClient() {
 
     setHistory((prev) => {
       const nextHistory = [...prev, newMsg];
-      const giantRounds = nextHistory.filter(h => h.speaker !== "user").length;
+      const giantRounds = nextHistory.filter(h => h.speaker !== "moderator" && h.speaker !== "user").length;
       
       if (giantRounds >= 10) {
         // Auto end debate if maximum 10 rounds reached
@@ -377,6 +380,26 @@ export function DebateRoomClient() {
           setAutoDebateActive(false);
           setStage(3);
         }, 1000);
+      } else if (giantRounds % 3 === 0) {
+        // 3라운드 주기 관객 참여 세션 체크 (3, 6, 9라운드 완료 시)
+        setTimeout(() => {
+          setAutoDebateActive(false);
+          setShowInteractionPrompt(true);
+          
+          const moderatorMsg: DebateMessage = {
+            id: (Date.now() + 1).toString(),
+            speaker: "moderator",
+            speakerName: locale === "ko" ? "토론 사회자" : "Debate Moderator",
+            speakerImage: "/images/moderator-avatar.png",
+            speakerColor: "from-amber-500/20 to-yellow-500/20",
+            content: locale === "ko" 
+              ? "자, 위인들의 열띤 논쟁이 이어지고 있습니다. 이 흥미진진한 주제에 대해 귀하의 생각은 어떠신가요? 혹시 할 말씀이 있으신가요?"
+              : "The debate is heating up! What are your thoughts on this fascinating topic? Would you like to share your perspective?",
+            timestamp: new Date()
+          };
+          
+          setHistory(prevHistory => [...prevHistory, moderatorMsg]);
+        }, 1200);
       }
       
       return nextHistory;
@@ -394,6 +417,8 @@ export function DebateRoomClient() {
   // Handle User Interjection Submission
   const handleSendInterjection = () => {
     if (!interjectInput.trim() || isAiContemplating) return;
+
+    setShowInteractionPrompt(false);
 
     // 만약 현재 다른 위인이 타이핑 중(isTypewriting)이라면, 
     // 하던 말을 즉시 완료(Skip) 처리하고 유저 개입 대화를 그 아래에 즉각 주입합니다.
@@ -766,7 +791,7 @@ export function DebateRoomClient() {
                   {t("title")}
                 </span>
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400">
-                  {locale === "ko" ? `토론 라운드: ${history.filter(h => h.speaker !== "user").length} / 10` : `Round: ${history.filter(h => h.speaker !== "user").length} / 10`}
+                  {locale === "ko" ? `토론 라운드: ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / 10` : `Round: ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / 10`}
                 </span>
               </div>
               <h2 className="font-serif font-black text-slate-200 text-base md:text-lg leading-tight line-clamp-2">
@@ -817,39 +842,76 @@ export function DebateRoomClient() {
             {/* Render previous turns */}
             {history.map((msg, idx) => {
               const isUser = msg.speaker === "user";
+              const isModerator = msg.speaker === "moderator";
+              
+              if (isModerator) {
+                return (
+                  <div key={msg.id} className="flex w-full justify-center animate-fade-in-up py-4">
+                    <div className="max-w-xl w-full text-center space-y-3 px-4">
+                      {/* Host Header */}
+                      <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-amber-500/15 via-purple-500/15 to-amber-500/15 border border-amber-500/40 text-amber-400 text-[10px] font-black uppercase tracking-wider shadow-sm">
+                        <span className="animate-pulse">🎙️</span>
+                        {msg.speakerName}
+                      </div>
+                      
+                      {/* Premium bubble */}
+                      <div className="px-6 py-5 rounded-[2.5rem] bg-gradient-to-b from-slate-900/90 via-purple-950/10 to-slate-950/90 border-2 border-amber-500/30 text-amber-100 text-sm leading-relaxed shadow-2xl relative overflow-hidden backdrop-blur-md">
+                        {/* Elegant light rays background */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-amber-500/5 to-transparent pointer-events-none" />
+                        <p className="font-semibold whitespace-pre-wrap italic">
+                          &ldquo;{msg.content}&rdquo;
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              }
+
+              if (isUser) {
+                return (
+                  <div key={msg.id} className="flex w-full justify-center animate-fade-in-up py-2">
+                    <div className="max-w-xl w-full text-center space-y-2 px-4">
+                      {/* Audience (Me) Header */}
+                      <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 text-[9px] font-black uppercase tracking-wider">
+                        <span>👤</span>
+                        {msg.speakerName}
+                      </div>
+                      
+                      {/* Premium Bubble */}
+                      <div className="px-5 py-4 rounded-3xl bg-purple-950/40 text-purple-200 border border-purple-500/30 text-sm italic inline-block mx-auto shadow-lg max-w-lg">
+                        <p className="whitespace-pre-wrap">{msg.content}</p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              }
+
               // Alternate alignments to create a premium, balanced theatrical view
-              const alignment = isUser ? "justify-center" 
-                              : (idx % 2 === 0 ? "justify-start" : "justify-end");
+              const alignment = idx % 2 === 0 ? "justify-start" : "justify-end";
               
               return (
                 <div key={msg.id} className={`flex w-full ${alignment} animate-fade-in-up`}>
-                  <div className={`max-w-[85%] sm:max-w-[75%] ${isUser ? "text-center w-full" : ""}`}>
+                  <div className="max-w-[85%] sm:max-w-[75%]">
                     {/* Speaker Header */}
-                    {!isUser && (
-                      <div className={`flex items-center gap-2 mb-2 px-1 ${idx % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}>
-                        <div className="relative w-6 h-6 rounded-md overflow-hidden bg-slate-800 border border-white/10 shrink-0">
-                          <Image
-                            src={msg.speakerImage}
-                            alt={msg.speakerName}
-                            fill
-                            sizes="24px"
-                            className="object-cover object-top"
-                          />
-                        </div>
-                        <span className="text-[10px] text-amber-400 font-black tracking-wider uppercase">
-                          {msg.speakerName}
-                        </span>
+                    <div className={`flex items-center gap-2 mb-2 px-1 ${idx % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}>
+                      <div className="relative w-6 h-6 rounded-md overflow-hidden bg-slate-800 border border-white/10 shrink-0">
+                        <Image
+                          src={msg.speakerImage}
+                          alt={msg.speakerName}
+                          fill
+                          sizes="24px"
+                          className="object-cover object-top"
+                        />
                       </div>
-                    )}
+                      <span className="text-[10px] text-amber-400 font-black tracking-wider uppercase">
+                        {msg.speakerName}
+                      </span>
+                    </div>
 
                     {/* Bubble */}
                     <div 
-                      className={`px-5 py-4 rounded-3xl shadow-lg leading-relaxed ${
-                        isUser 
-                          ? "bg-purple-950/40 text-purple-200 border border-purple-500/30 rounded-2xl text-sm italic inline-block mx-auto max-w-lg"
-                          : `glass border border-white/10 text-slate-100 text-sm ${
-                              idx % 2 === 0 ? "rounded-tl-none bg-slate-900/60" : "rounded-tr-none bg-slate-900/30"
-                            }`
+                      className={`px-5 py-4 rounded-3xl shadow-lg leading-relaxed glass border border-white/10 text-slate-100 text-sm ${
+                        idx % 2 === 0 ? "rounded-tl-none bg-slate-900/60" : "rounded-tr-none bg-slate-900/30"
                       }`}
                     >
                       <p className="whitespace-pre-wrap">{msg.content}</p>
@@ -942,6 +1004,31 @@ export function DebateRoomClient() {
 
           {/* User Interjection Panel */}
           <div className="glass-card p-4 rounded-3xl border border-white/10 bg-slate-900/80 backdrop-blur-xl space-y-4 shadow-xl z-10">
+            {showInteractionPrompt && (
+              <div className="flex flex-col sm:flex-row gap-3 pb-3 border-b border-white/5 animate-fade-in-up">
+                <button
+                  onClick={() => {
+                    setShowInteractionPrompt(false);
+                    inputRef.current?.focus();
+                  }}
+                  className="flex-1 py-3 px-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-extrabold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-amber-500/10 cursor-pointer"
+                >
+                  <span>📝</span>
+                  {locale === "ko" ? "직접 의견 적어 개입하기" : "Share My Own Opinion"}
+                </button>
+                <button
+                  onClick={() => {
+                    setShowInteractionPrompt(false);
+                    setAutoDebateActive(true);
+                  }}
+                  className="flex-1 py-3 px-4 rounded-2xl glass hover:bg-white/5 text-slate-200 border border-white/10 font-bold text-xs transition-all flex items-center justify-center gap-2 cursor-pointer"
+                >
+                  <span>⏭️</span>
+                  {locale === "ko" ? "AI 토론 계속 감상하기" : "Continue AI Debate"}
+                </button>
+              </div>
+            )}
+
             <div className="flex items-center gap-3">
               {/* Auto / Manual Flow Toggle */}
               <button 
@@ -958,6 +1045,7 @@ export function DebateRoomClient() {
 
               <div className="flex-1 relative">
                 <input
+                  ref={inputRef}
                   type="text"
                   value={interjectInput}
                   onChange={(e) => setInterjectInput(e.target.value)}
@@ -1015,7 +1103,7 @@ export function DebateRoomClient() {
               {t("summaryTitle")}
             </h1>
             <p className="text-slate-400 text-xs md:text-sm">
-              {t("rounds", { count: history.filter(h => h.speaker !== "user").length })}
+              {t("rounds", { count: history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length })}
             </p>
           </div>
 
@@ -1059,7 +1147,7 @@ export function DebateRoomClient() {
                   {/* Highlights (Last 2 exchanges from different giants) */}
                   <div className="space-y-4">
                     {history
-                      .filter((h) => h.speaker !== "user")
+                      .filter((h) => h.speaker !== "user" && h.speaker !== "moderator")
                       .slice(-2)
                       .map((msg, i) => (
                         <div key={i} className="space-y-2 p-4 rounded-2xl bg-white/5 border border-white/5">
@@ -1125,7 +1213,7 @@ export function DebateRoomClient() {
 
                 <div className="space-y-4 max-h-[420px] overflow-y-auto pr-2 custom-scrollbar">
                   {history
-                    .filter((h) => h.speaker !== "user")
+                    .filter((h) => h.speaker !== "user" && h.speaker !== "moderator")
                     .map((msg, i) => (
                       <div key={i} className="space-y-1.5 relative pl-4 border-l border-amber-500/20">
                         <div className="absolute top-1.5 left-0 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-amber-400" />
