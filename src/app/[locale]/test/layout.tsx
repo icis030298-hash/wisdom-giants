@@ -44,10 +44,19 @@ export async function generateMetadata(
     ...meta,
     openGraph: {
       ...meta,
+      images: [
+        {
+          url: 'https://www.giantswisdom.com/og-default.jpg',
+          width: 1200,
+          height: 630,
+          alt: meta.title
+        }
+      ]
     },
     twitter: {
       card: 'summary_large_image',
       ...meta,
+      images: ['https://www.giantswisdom.com/og-default.jpg']
     }
   };
 }
