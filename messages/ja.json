@@ -10,7 +10,8 @@
     "login": "ログイン",
     "logout": "ログアウト",
     "myProfile": "マイプロフィール",
-    "signInRequired": "会話履歴を表示するにはログインが必要です。"
+    "signInRequired": "会話履歴を表示するにはログインが必要です。",
+    "debate": "討論室"
   },
   "Auth": {
     "loginModalTitle": "偉人たちの殿堂へようこそ",
@@ -1582,5 +1583,36 @@
         "あなたが私に与える最も重要なアドバイスは何ですか?"
       ]
     }
+  },
+  "Debate": {
+    "title": "歴史の討論室",
+    "subtitle": "偉人たちの知恵の対決",
+    "description": "2〜4人の歴史的偉人を選択し、テーマを入力してください。彼らが直接討論します。",
+    "selectGiants": "討論する偉人を選択",
+    "selectedCount": "{count}/4人選択済み",
+    "minRequired": "最小2人を選択してください",
+    "maxAllowed": "最大4人まで選択可能です",
+    "enterTopic": "討論テーマ入力",
+    "topicPlaceholder": "討論テーマを入力してください...\n例：現代社会において、お金は幸福をもたらしますか？",
+    "startDebate": "討論を開始する",
+    "aiRecommend": "AI推薦",
+    "selfSelect": "直接選択",
+    "aiRecommendTitle": "このテーマの最適討論者",
+    "thinking": "{name}が考え中...",
+    "interject": "討論に割り込む...",
+    "endDebate": "討論終了",
+    "shareDebate": "討論を共有",
+    "newDebate": "新しい討論を開始",
+    "summaryTitle": "討論の要約",
+    "rounds": "{count}回の発言",
+    "suggestedTopics": [
+      "お金と幸福、どちらが先か？",
+      "現代の民主主義は完璧な制度か？",
+      "AIは人類を救うか、それとも脅かすか？",
+      "戦争は時に正当化されるか？",
+      "個人の自由と社会の秩序、どちらが優先か？",
+      "芸術は社会を変えられるか？",
+      "死を前にして、人間はどう生きるべきか？"
+    ]
   }
 }

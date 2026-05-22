@@ -10,7 +10,8 @@
     "login": "Accedi",
     "logout": "Esci",
     "myProfile": "Il Mio Profilo",
-    "signInRequired": "Accesso richiesto per visualizzare la cronologia."
+    "signInRequired": "Accesso richiesto per visualizzare la cronologia.",
+    "debate": "Sala Dibattiti"
   },
   "Auth": {
     "loginModalTitle": "Benvenuto nella Sala delle Grandi Menti",
@@ -1782,5 +1783,36 @@
     "emailPlaceholder": "Inserisci la tua email",
     "subjectPlaceholder": "Inserisci l'oggetto",
     "messagePlaceholder": "Inserisci il tuo messaggio"
+  },
+  "Debate": {
+    "title": "Sala dei Dibattiti",
+    "subtitle": "Scontro di Saggezza",
+    "description": "Seleziona da 2 a 4 giganti storici e inserisci un argomento. Dibatteranno direttamente.",
+    "selectGiants": "Seleziona giganti per il dibattito",
+    "selectedCount": "{count}/4 selezionati",
+    "minRequired": "Seleziona almeno 2 giganti",
+    "maxAllowed": "Puoi selezionare fino a 4 giganti",
+    "enterTopic": "Inserisci l'argomento del dibattito",
+    "topicPlaceholder": "Inserisci un argomento di dibattito...\nes. Il denaro può fare la felicità nella società moderna?",
+    "startDebate": "Inizia il Dibattito",
+    "aiRecommend": "Consigliato da IA",
+    "selfSelect": "Selezione manuale",
+    "aiRecommendTitle": "Debatitori ottimali per questo argomento",
+    "thinking": "{name} sta pensando...",
+    "interject": "Intervieni nel dibattito...",
+    "endDebate": "Termina il Dibattito",
+    "shareDebate": "Condividi Dibattito",
+    "newDebate": "Nuovo Dibattito",
+    "summaryTitle": "Riassunto del Dibattito",
+    "rounds": "{count} turni",
+    "suggestedTopics": [
+      "Denaro e felicità, cosa viene prima?",
+      "La democrazia moderna è un sistema perfetto?",
+      "L'intelligenza artificiale salverà l'umanità o la minaccerà?",
+      "La guerra può mai essere giustificata?",
+      "Libertà individuale vs Ordine sociale, cosa ha la priorità?",
+      "L'arte può cambiare la società?",
+      "Come dovrebbero vivere gli esseri umani di fronte alla morte?"
+    ]
   }
 }

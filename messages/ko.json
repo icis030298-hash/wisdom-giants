@@ -10,7 +10,8 @@
     "login": "로그인",
     "logout": "로그아웃",
     "myProfile": "내 프로필",
-    "signInRequired": "대화 목록을 보려면 로그인이 필요합니다."
+    "signInRequired": "대화 목록을 보려면 로그인이 필요합니다.",
+    "debate": "토론방"
   },
   "Auth": {
     "loginModalTitle": "거인들의 전당에 오신 것을 환영합니다",
@@ -1580,5 +1581,36 @@
     "emailPlaceholder": "이메일을 입력하세요",
     "subjectPlaceholder": "제목을 입력하세요",
     "messagePlaceholder": "문의 내용을 입력하세요"
+  },
+  "Debate": {
+    "title": "역사의 토론방",
+    "subtitle": "위인들의 지식 대결",
+    "description": "2~4명의 역사적 위인을 선택하고 주제를 던지세요. 그들이 직접 토론합니다.",
+    "selectGiants": "토론할 위인 선택",
+    "selectedCount": "{count}/4 선택됨",
+    "minRequired": "최소 2명을 선택해주세요",
+    "maxAllowed": "최대 4명까지 선택 가능합니다",
+    "enterTopic": "토론 주제 입력",
+    "topicPlaceholder": "토론 주제를 입력하세요...\n예: 현대 사회에서 돈이 행복을 만들 수 있나요?",
+    "startDebate": "토론 시작하기",
+    "aiRecommend": "AI 추천",
+    "selfSelect": "직접 선택",
+    "aiRecommendTitle": "이 주제의 최적 토론자",
+    "thinking": "{name}이(가) 생각 중...",
+    "interject": "토론에 끼어들기...",
+    "endDebate": "토론 종료",
+    "shareDebate": "토론 공유하기",
+    "newDebate": "새 토론 시작",
+    "summaryTitle": "토론 요약",
+    "rounds": "{count}번의 발언",
+    "suggestedTopics": [
+      "돈과 행복, 어느 것이 먼저인가?",
+      "현대 민주주의는 완벽한 제도인가?",
+      "AI가 인류를 구원할 것인가, 위협할 것인가?",
+      "전쟁은 때로 정당화될 수 있는가?",
+      "개인의 자유와 사회의 질서, 무엇이 우선인가?",
+      "예술은 사회를 바꿀 수 있는가?",
+      "죽음 앞에서 인간은 어떻게 살아야 하는가?"
+    ]
   }
 }

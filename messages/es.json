@@ -10,7 +10,8 @@
     "login": "Iniciar sesión",
     "logout": "Cerrar sesión",
     "myProfile": "Mi Perfil",
-    "signInRequired": "Iniciar sesión para ver tus conversaciones."
+    "signInRequired": "Iniciar sesión para ver tus conversaciones.",
+    "debate": "Sala de Debate"
   },
   "Auth": {
     "loginModalTitle": "Bienvenido al Salón de los Gigantes",
@@ -1582,5 +1583,36 @@
         "¿Cuál es el consejo más importante que puedes darme?"
       ]
     }
+  },
+  "Debate": {
+    "title": "Sala de Debate",
+    "subtitle": "Choque de Sabiduría",
+    "description": "Selecciona de 2 a 4 gigantes históricos y propón un tema. Debatirá directamente.",
+    "selectGiants": "Seleccionar gigantes para el debate",
+    "selectedCount": "{count}/4 seleccionados",
+    "minRequired": "Por favor selecciona al menos 2 gigantes",
+    "maxAllowed": "Puedes seleccionar hasta 4 gigantes",
+    "enterTopic": "Introducir tema de debate",
+    "topicPlaceholder": "Introduce un tema de debate...\nej., ¿Puede el dinero crear felicidad en la sociedad moderna?",
+    "startDebate": "Iniciar Debate",
+    "aiRecommend": "Recomendado por IA",
+    "selfSelect": "Selección manual",
+    "aiRecommendTitle": "Debatientes óptimos para este tema",
+    "thinking": "{name} está pensando...",
+    "interject": "Intervenir en el debate...",
+    "endDebate": "Finalizar Debate",
+    "shareDebate": "Compartir Debate",
+    "newDebate": "Nuevo Debate",
+    "summaryTitle": "Resumen del Debate",
+    "rounds": "{count} turnos",
+    "suggestedTopics": [
+      "¿El dinero y la felicidad, cuál viene primero?",
+      "¿Es la democracia moderna un sistema perfecto?",
+      "¿Salvará la IA a la humanidad o la amenazará?",
+      "¿Puede la guerra justificarse alguna vez?",
+      "¿Libertad individual vs. Orden social, cuál es lo primero?",
+      "¿Puede el arte cambiar la sociedad?",
+      "¿Cómo deben vivir los humanos ante la muerte?"
+    ]
   }
 }

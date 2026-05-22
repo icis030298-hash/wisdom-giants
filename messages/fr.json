@@ -10,7 +10,8 @@
     "login": "Se connecter",
     "logout": "Se déconnecter",
     "myProfile": "Mon Profil",
-    "signInRequired": "Connexion requise pour consulter l'historique des discussions."
+    "signInRequired": "Connexion requise pour consulter l'historique des discussions.",
+    "debate": "Salle de Débat"
   },
   "Auth": {
     "loginModalTitle": "Bienvenue au Panthéon des Géants",
@@ -1582,5 +1583,36 @@
     "emailPlaceholder": "Saisissez votre adresse e-mail",
     "subjectPlaceholder": "Saisissez l'objet",
     "messagePlaceholder": "Saisissez votre message"
+  },
+  "Debate": {
+    "title": "Salle de Débat",
+    "subtitle": "Choc de Sagesse",
+    "description": "Sélectionnez 2 à 4 géants historiques et proposez un sujet. Ils débattront directement.",
+    "selectGiants": "Sélectionner des géants pour le débat",
+    "selectedCount": "{count}/4 sélectionnés",
+    "minRequired": "Veuillez sélectionner au moins 2 géants",
+    "maxAllowed": "Vous pouvez sélectionner jusqu'à 4 géants",
+    "enterTopic": "Saisir le sujet de débat",
+    "topicPlaceholder": "Saisissez un sujet de débat...\nex. L'argent peut-il faire le bonheur dans la société moderne ?",
+    "startDebate": "Lancer le Débat",
+    "aiRecommend": "Recommandé par l'IA",
+    "selfSelect": "Sélection manuelle",
+    "aiRecommendTitle": "Débatteurs optimaux pour ce sujet",
+    "thinking": "{name} réfléchit...",
+    "interject": "Intervenir dans le débat...",
+    "endDebate": "Terminer le Débat",
+    "shareDebate": "Partager le Débat",
+    "newDebate": "Nouveau Débat",
+    "summaryTitle": "Résumé du Débat",
+    "rounds": "{count} interventions",
+    "suggestedTopics": [
+      "L'argent et le bonheur, qu'est-ce qui vient en premier ?",
+      "La démocratie moderne est-elle un système parfait ?",
+      "L'IA va-t-elle sauver l'humanité ou la menacer ?",
+      "La guerre peut-elle jamais être justifiée ?",
+      "Liberté individuelle contre ordre social, qu'est-ce qui prime ?",
+      "L'art peut-il changer la société ?",
+      "Comment les humains doivent-ils vivre face à la mort ?"
+    ]
   }
 }

@@ -10,7 +10,8 @@
     "login": "Anmelden",
     "logout": "Abmelden",
     "myProfile": "Mein Profil",
-    "signInRequired": "Anmeldung erforderlich, um den Gesprächsverlauf anzuzeigen."
+    "signInRequired": "Anmeldung erforderlich, um den Gesprächsverlauf anzuzeigen.",
+    "debate": "Debattierclub"
   },
   "Auth": {
     "loginModalTitle": "Willkommen in der Halle der großen Persönlichkeiten",
@@ -1591,5 +1592,36 @@
     "testDesc": "Entdecken Sie die DNA des Riesen, die tief in Ihrer Seele fließt, durch einen umfassenden, dreistufigen Situationsfragebogen, der an entscheidenden historischen Momenten spielt.",
     "outroTitle": "Willkommen in der Halle der Denker",
     "outroDesc": "Auf ihren Schultern werden Sie endlich weiter sehen. Beginnen Sie noch heute Ihre Reise."
+  },
+  "Debate": {
+    "title": "Halle der Debatte",
+    "subtitle": "Streit der Weisen",
+    "description": "Wähle 2–4 historische Größen und wirf ein Thema ein. Sie werden direkt debattieren.",
+    "selectGiants": "Denker für die Debatte auswählen",
+    "selectedCount": "{count}/4 ausgewählt",
+    "minRequired": "Bitte wähle mindestens 2 Denker aus",
+    "maxAllowed": "Du kannst bis zu 4 Denker auswählen",
+    "enterTopic": "Debattenantrag",
+    "topicPlaceholder": "Gib ein Debatten-Thema ein...\nz. B. Kann Geld in der modernen Gesellschaft glücklich machen?",
+    "startDebate": "Debatte starten",
+    "aiRecommend": "KI-Empfehlung",
+    "selfSelect": "Manuelle Auswahl",
+    "aiRecommendTitle": "Optimale Denker für dieses Thema",
+    "thinking": "{name} denkt nach...",
+    "interject": "In die Debatte einmischen...",
+    "endDebate": "Debatte beenden",
+    "shareDebate": "Debatte teilen",
+    "newDebate": "Neue Debatte",
+    "summaryTitle": "Zusammenfassung der Debatte",
+    "rounds": "{count} Runden",
+    "suggestedTopics": [
+      "Geld und Glück, was kommt zuerst?",
+      "Ist die moderne Demokratie ein perfektes System?",
+      "Wird die KI die Menschheit retten oder bedrohen?",
+      "Kann Krieg jemals gerechtfertigt sein?",
+      "Individuelle Freiheit vs. Gesellschaftliche Ordnung, was hat Vorrang?",
+      "Kann Kunst die Gesellschaft verändern?",
+      "Wie sollten Menschen angesichts des Todes leben?"
+    ]
   }
 }

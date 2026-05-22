@@ -10,7 +10,8 @@
     "login": "Login",
     "logout": "Logout",
     "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history."
+    "signInRequired": "Login required to view chat history.",
+    "debate": "Debate Room"
   },
   "Auth": {
     "loginModalTitle": "Welcome to the Hall of Giants",
@@ -1582,5 +1583,36 @@
     "emailPlaceholder": "Enter your email",
     "subjectPlaceholder": "Enter subject",
     "messagePlaceholder": "Enter your message"
+  },
+  "Debate": {
+    "title": "The Debate Room",
+    "subtitle": "Wisdom Clash of Giants",
+    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
+    "selectGiants": "Select Giants for Debate",
+    "selectedCount": "{count}/4 Selected",
+    "minRequired": "Please select at least 2 giants",
+    "maxAllowed": "You can select up to 4 giants",
+    "enterTopic": "Enter Debate Topic",
+    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
+    "startDebate": "Start Debate",
+    "aiRecommend": "AI Recommend",
+    "selfSelect": "Manual Select",
+    "aiRecommendTitle": "Optimal Debaters for this Topic",
+    "thinking": "{name} is thinking...",
+    "interject": "Interject in debate...",
+    "endDebate": "End Debate",
+    "shareDebate": "Share Debate",
+    "newDebate": "New Debate",
+    "summaryTitle": "Debate Summary",
+    "rounds": "{count} Turns",
+    "suggestedTopics": [
+      "Money and happiness, which comes first?",
+      "Is modern democracy a perfect system?",
+      "Will AI save humanity or threaten it?",
+      "Can war ever be justified?",
+      "Individual freedom vs. Social order, which comes first?",
+      "Can art change society?",
+      "How should humans live in the face of death?"
+    ]
   }
 }

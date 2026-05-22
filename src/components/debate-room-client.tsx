@@ -1,0 +1,998 @@
+"use client"
+
+import { useState, useEffect, useRef } from "react"
+import Image from "next/image"
+import { useTranslations, useLocale } from "next-intl"
+import { useRouter } from "@/i18n/routing"
+import { giants, Giant } from "@/lib/giants-data"
+import { 
+  Swords, MessageSquare, Send, Sparkles, RefreshCw, Check, Download, 
+  Share2, Compass, Play, ChevronRight, Users, Trophy, Lightbulb, X, AlertCircle
+} from "lucide-react"
+
+// Dynamic import for html2canvas to avoid SSR errors
+let html2canvas: any = null;
+if (typeof window !== "undefined") {
+  import("html2canvas").then((mod) => {
+    html2canvas = mod.default;
+  });
+}
+
+interface DebateMessage {
+  id: string;
+  speaker: string;
+  speakerName: string;
+  speakerImage: string;
+  speakerColor: string;
+  content: string;
+  timestamp: Date;
+}
+
+interface RecommendedGiant {
+  slug: string;
+  reason: string;
+}
+
+export function DebateRoomClient() {
+  const t = useTranslations("Debate")
+  const tg = useTranslations("Giants")
+  const tc = useTranslations("GiantsGrid")
+  const locale = useLocale()
+  const router = useRouter()
+
+  // STAGES: 1 = Setup, 2 = Debating, 3 = Summary/Share
+  const [stage, setStage] = useState<1 | 2 | 3>(1)
+  
+  // SETUP STATE
+  const [setupMode, setSetupMode] = useState<"self" | "ai">("self")
+  const [selectedGiants, setSelectedGiants] = useState<Giant[]>([])
+  const [topic, setTopic] = useState("")
+  const [activeCategory, setActiveCategory] = useState<string>("All Giants")
+  const [searchQuery, setSearchQuery] = useState("")
+  
+  // AI Recommendation state
+  const [aiLoading, setAiLoading] = useState(false)
+  const [aiIntro, setAiIntro] = useState("")
+  const [aiRecommendations, setAiRecommendations] = useState<RecommendedGiant[]>([])
+  const [aiError, setAiError] = useState("")
+
+  // DEBATE ENGINE STATE
+  const [history, setHistory] = useState<DebateMessage[]>([])
+  const [currentSpeakerIndex, setCurrentSpeakerIndex] = useState(0)
+  const [isAiContemplating, setIsAiContemplating] = useState(false)
+  const [activeSpeaker, setActiveSpeaker] = useState<string | null>(null)
+  
+  // User Interjection input
+  const [interjectInput, setInterjectInput] = useState("")
+  const [pendingUserMessage, setPendingUserMessage] = useState<string | null>(null)
+  const [autoDebateActive, setAutoDebateActive] = useState(true)
+
+  // Typewriter streaming effect
+  const [displayedText, setDisplayedText] = useState("")
+  const [isTypewriting, setIsTypewriting] = useState(false)
+
+  // Sharing Card Ref for html2canvas
+  const cardRef = useRef<HTMLDivElement>(null)
+  const debateEndRef = useRef<HTMLDivElement>(null)
+
+  // Categories translation mapping
+  const categoryNames: Record<string, string> = {
+    "All Giants": locale === "ko" ? "전체 위인" : "All Giants",
+    "achievement": locale === "ko" ? "성취" : "Achievement",
+    "adversity": locale === "ko" ? "역경" : "Adversity",
+    "wisdom": locale === "ko" ? "지혜" : "Wisdom",
+    "creativity": locale === "ko" ? "창의" : "Creativity"
+  }
+
+  const sampleTopics = t.raw("suggestedTopics") || [
+    "돈과 행복, 어느 것이 먼저인가?",
+    "현대 민주주의는 완벽한 제도인가?",
+    "AI가 인류를 구원할 것인가, 위협할 것인가?",
+    "전쟁은 때로 정당화될 수 있는가?",
+    "개인의 자유와 사회의 질서, 무엇이 우선인가?"
+  ]
+
+  // Setup default giants for sample quickstart
+  useEffect(() => {
+    // When setupMode switches to AI, we reset custom selected list to keep it clean
+    if (setupMode === "ai") {
+      setSelectedGiants([]);
+      setAiRecommendations([]);
+      setAiIntro("");
+    }
+  }, [setupMode])
+
+  // Automatic scrolling to bottom of debate log
+  useEffect(() => {
+    if (stage === 2 && debateEndRef.current) {
+      debateEndRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [history, isAiContemplating, displayedText, stage])
+
+  // Auto-Debate Loop Engine
+  useEffect(() => {
+    if (stage !== 2 || !autoDebateActive || isAiContemplating || isTypewriting) return;
+
+    // Trigger next speaker turn automatically after a short delay
+    const timer = setTimeout(() => {
+      triggerNextSpeakerSpeech();
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, [stage, autoDebateActive, isAiContemplating, isTypewriting, currentSpeakerIndex]);
+
+  // Handle Giant Selection
+  const toggleGiantSelection = (giant: Giant) => {
+    setSelectedGiants((prev) => {
+      const exists = prev.find((g) => g.slug === giant.slug);
+      if (exists) {
+        return prev.filter((g) => g.slug !== giant.slug);
+      }
+      if (prev.length >= 4) {
+        return prev; // Maximum 4
+      }
+      return [...prev, giant];
+    });
+  }
+
+  // Fetch AI Giant Recommendations based on the topic
+  const handleGetAiRecommendations = async () => {
+    if (!topic.trim()) return;
+    setAiLoading(true);
+    setAiError("");
+    setAiRecommendations([]);
+    setAiIntro("");
+
+    try {
+      const res = await fetch("/api/debate/recommend", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ topic, locale }),
+      });
+
+      if (!res.ok) throw new Error("AI Recommendation failed.");
+
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+
+      setAiIntro(data.intro || "");
+      setAiRecommendations(data.recommended || []);
+
+      // Auto-populate selectedGiants list from recommended slugs
+      const recommendedSlugs = (data.recommended || []).map((r: any) => r.slug);
+      const matched = giants.filter((g) => recommendedSlugs.includes(g.slug));
+      setSelectedGiants(matched);
+
+    } catch (err: any) {
+      console.error(err);
+      setAiError(err.message || "Failed to load recommendations.");
+    } finally {
+      setAiLoading(false);
+    }
+  }
+
+  // Start the debate!
+  const handleStartDebate = () => {
+    if (selectedGiants.length < 2 || !topic.trim()) return;
+    setStage(2);
+    setHistory([]);
+    setCurrentSpeakerIndex(0);
+    setPendingUserMessage(null);
+    setAutoDebateActive(true);
+    setDisplayedText("");
+    setIsTypewriting(false);
+  }
+
+  // Trigger Gemini Speech API for the next giant speaker
+  const triggerNextSpeakerSpeech = async () => {
+    if (selectedGiants.length === 0) return;
+    
+    setIsAiContemplating(true);
+    const speaker = selectedGiants[currentSpeakerIndex];
+    setActiveSpeaker(speaker.slug);
+
+    // Prepare previous history payload
+    const historyPayload = history.map((msg) => ({
+      speaker: msg.speaker,
+      speakerName: msg.speakerName,
+      content: msg.content,
+    }));
+
+    // Check if there is a pending user message to inject
+    const userMsg = pendingUserMessage;
+    if (userMsg) {
+      setPendingUserMessage(null); // Clear it
+    }
+
+    try {
+      const res = await fetch("/api/debate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          giants: selectedGiants.map((g) => g.slug),
+          topic,
+          history: historyPayload,
+          currentSpeaker: speaker.slug,
+          locale,
+          userMessage: userMsg || undefined
+        }),
+      });
+
+      if (!res.ok) throw new Error("Debate API failed");
+
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+
+      // Start Typewriter Stream Effect
+      startTypewriterAnimation(data.content, speaker);
+
+    } catch (err) {
+      console.error("Debate engine error:", err);
+      // Fallback response in case of API failure (display 'Thinking for a moment...')
+      const fallbackMsg = locale === "ko" ? "잠시 생각 중입니다..." : "Thinking for a moment...";
+      startTypewriterAnimation(fallbackMsg, speaker);
+    } finally {
+      setIsAiContemplating(false);
+    }
+  }
+
+  // Simulate typewriter text streaming
+  const startTypewriterAnimation = (fullText: string, speaker: Giant) => {
+    setIsTypewriting(true);
+    setDisplayedText("");
+    let index = 0;
+    const speed = 25; // ms per char
+
+    const interval = setInterval(() => {
+      setDisplayedText((prev) => prev + fullText.charAt(index));
+      index++;
+
+      if (index >= fullText.length) {
+        clearInterval(interval);
+        
+        // Finalize message and add to history log
+        const newMsg: DebateMessage = {
+          id: Date.now().toString(),
+          speaker: speaker.slug,
+          speakerName: tg(`${speaker.slug}.name`) || speaker.name,
+          speakerImage: speaker.imageUrl,
+          speakerColor: speaker.color,
+          content: fullText,
+          timestamp: new Date()
+        };
+
+        setHistory((prev) => {
+          const nextHistory = [...prev, newMsg];
+          const giantRounds = nextHistory.filter(h => h.speaker !== "user").length;
+          
+          if (giantRounds >= 10) {
+            // Auto end debate if maximum 10 rounds reached
+            setTimeout(() => {
+              setAutoDebateActive(false);
+              setStage(3);
+            }, 1000);
+          }
+          
+          return nextHistory;
+        });
+        setDisplayedText("");
+        setIsTypewriting(false);
+        setActiveSpeaker(null);
+
+        // Move to the next speaker index in round-robin cycle
+        setCurrentSpeakerIndex((prevIndex) => (prevIndex + 1) % selectedGiants.length);
+      }
+    }, speed);
+  }
+
+  // Handle User Interjection Submission
+  const handleSendInterjection = () => {
+    if (!interjectInput.trim() || isTypewriting || isAiContemplating) return;
+
+    // Create audience message in the log
+    const userMessage: DebateMessage = {
+      id: Date.now().toString(),
+      speaker: "user",
+      speakerName: locale === "ko" ? "관객 (나)" : "Audience (You)",
+      speakerImage: "/images/user-avatar.png", // Fallback or placeholder
+      speakerColor: "from-amber-500/20 to-orange-500/20",
+      content: interjectInput,
+      timestamp: new Date()
+    };
+
+    setHistory((prev) => [...prev, userMessage]);
+    setPendingUserMessage(interjectInput);
+    setInterjectInput("");
+
+    // Force continue debate with next giant immediately reacting to it
+    setAutoDebateActive(true);
+  }
+
+  // End Debate and view results
+  const handleEndDebate = () => {
+    setAutoDebateActive(false);
+    setStage(3);
+  }
+
+  // Download Debate Highlights Summary Card using html2canvas
+  const handleDownloadCard = () => {
+    if (!cardRef.current || !html2canvas) return;
+
+    html2canvas(cardRef.current, {
+      backgroundColor: "#020617",
+      scale: 2, // Double quality
+      logging: false,
+      useCORS: true
+    }).then((canvas: HTMLCanvasElement) => {
+      const link = document.createElement("a");
+      link.download = `Giants-Debate-${Date.now()}.png`;
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    });
+  }
+
+  // Filter and search logic for setup screen
+  const filteredGiantsList = giants.filter((g) => {
+    const nameMatch = g.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                      (tg(`${g.slug}.name`) || "").toLowerCase().includes(searchQuery.toLowerCase());
+    const categoryMatch = activeCategory === "All Giants" || g.category === activeCategory;
+    return nameMatch && categoryMatch;
+  });
+
+  return (
+    <div className="min-h-screen bg-slate-950 text-slate-100 relative overflow-hidden py-24 px-4 md:px-8">
+      {/* Background radial overlays for premium aesthetic */}
+      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] rounded-full bg-amber-500/5 blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] rounded-full bg-purple-500/5 blur-3xl pointer-events-none" />
+
+      {/* STAGE 1: SETUP SCREEN */}
+      {stage === 1 && (
+        <div className="max-w-6xl mx-auto space-y-12 animate-fade-in-up">
+          {/* Header Description */}
+          <div className="text-center space-y-4">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold uppercase tracking-widest">
+              <Swords className="w-3.5 h-3.5" />
+              {t("subtitle")}
+            </div>
+            <h1 className="text-4xl md:text-6xl font-serif font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-100 tracking-tight leading-tight">
+              {t("title")}
+            </h1>
+            <p className="text-slate-400 text-base md:text-lg max-w-2xl mx-auto">
+              {t("description")}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Left/Middle Columns: Selection & Controls */}
+            <div className="lg:col-span-2 space-y-6">
+              {/* Toggle Selection Method */}
+              <div className="glass-card p-1.5 rounded-2xl flex border border-white/5 bg-slate-900/50">
+                <button
+                  onClick={() => setSetupMode("self")}
+                  className={`flex-1 py-3 px-4 rounded-xl text-sm font-semibold transition-all flex items-center justify-center gap-2 ${
+                    setupMode === "self" 
+                      ? "bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 shadow-md" 
+                      : "text-slate-400 hover:text-slate-200 hover:bg-white/5"
+                  }`}
+                >
+                  <Users className="w-4 h-4" />
+                  {t("selfSelect")}
+                </button>
+                <button
+                  onClick={() => setSetupMode("ai")}
+                  className={`flex-1 py-3 px-4 rounded-xl text-sm font-semibold transition-all flex items-center justify-center gap-2 ${
+                    setupMode === "ai" 
+                      ? "bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 shadow-md" 
+                      : "text-slate-400 hover:text-slate-200 hover:bg-white/5"
+                  }`}
+                >
+                  <Sparkles className="w-4 h-4" />
+                  {t("aiRecommend")}
+                </button>
+              </div>
+
+              {/* Topic Input Box */}
+              <div className="glass-card p-6 rounded-3xl border border-white/10 space-y-4 bg-slate-900/40 relative">
+                <div className="flex items-center justify-between">
+                  <label className="text-sm font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2">
+                    <Lightbulb className="w-4 h-4 text-amber-400/60" />
+                    {t("enterTopic")}
+                  </label>
+                  {setupMode === "ai" && (
+                    <button
+                      onClick={handleGetAiRecommendations}
+                      disabled={aiLoading || !topic.trim()}
+                      className="px-4 py-1.5 rounded-xl bg-amber-500 text-slate-950 font-bold text-xs hover:bg-amber-400 disabled:opacity-50 transition-all flex items-center gap-1.5 cursor-pointer"
+                    >
+                      {aiLoading ? (
+                        <div className="w-3 h-3 border-2 border-slate-950 border-t-transparent rounded-full animate-spin" />
+                      ) : (
+                        <Sparkles className="w-3.5 h-3.5" />
+                      )}
+                      {t("aiRecommend")}
+                    </button>
+                  )}
+                </div>
+
+                <textarea
+                  value={topic}
+                  onChange={(e) => setTopic(e.target.value)}
+                  placeholder={t("topicPlaceholder")}
+                  className="w-full h-32 px-5 py-4 rounded-2xl glass-card bg-slate-950/70 border border-white/10 text-slate-100 placeholder:text-slate-500 focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all text-sm resize-none leading-relaxed"
+                />
+
+                {/* Sample Topics Chip list */}
+                <div className="space-y-2">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
+                    {locale === "ko" ? "추천 토론 주제" : "Suggested Topics"}
+                  </span>
+                  <div className="flex flex-wrap gap-2">
+                    {sampleTopics.map((item: string, i: number) => (
+                      <button
+                        key={i}
+                        onClick={() => setTopic(item)}
+                        className="px-3 py-1.5 rounded-xl text-xs glass border border-white/5 text-slate-400 hover:text-amber-300 hover:border-amber-500/30 transition-all whitespace-nowrap cursor-pointer"
+                      >
+                        {item}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              {/* Setup Mode: Custom Selector list of Giants */}
+              {setupMode === "self" && (
+                <div className="glass-card p-6 rounded-3xl border border-white/10 space-y-6 bg-slate-900/30">
+                  <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                    <h3 className="text-sm font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2">
+                      <Users className="w-4 h-4 text-amber-400/60" />
+                      {t("selectGiants")}
+                    </h3>
+                    <span className="text-xs font-semibold px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300">
+                      {t("selectedCount", { count: selectedGiants.length })}
+                    </span>
+                  </div>
+
+                  {/* Search and Filters */}
+                  <div className="flex flex-col sm:flex-row gap-3">
+                    <input
+                      type="text"
+                      placeholder={tc("searchPlaceholder") || "위인 이름으로 검색..."}
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      className="flex-1 px-4 py-2.5 rounded-xl glass bg-slate-950/60 border border-white/10 text-xs focus:outline-none focus:border-amber-500/40"
+                    />
+                    <div className="flex overflow-x-auto gap-1 pb-1 scrollbar-thin">
+                      {Object.keys(categoryNames).map((cat) => (
+                        <button
+                          key={cat}
+                          onClick={() => setActiveCategory(cat)}
+                          className={`px-3 py-2 rounded-xl text-xs whitespace-nowrap transition-all cursor-pointer ${
+                            activeCategory === cat 
+                              ? "bg-amber-500/10 text-amber-400 border border-amber-500/30 font-bold" 
+                              : "glass text-slate-400 hover:text-slate-200 border-transparent"
+                          }`}
+                        >
+                          {categoryNames[cat]}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Giant Selection Grid */}
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 max-h-[360px] overflow-y-auto pr-2 custom-scrollbar">
+                    {filteredGiantsList.map((giant) => {
+                      const isSelected = selectedGiants.some((g) => g.slug === giant.slug);
+                      return (
+                        <button
+                          key={giant.slug}
+                          onClick={() => toggleGiantSelection(giant)}
+                          className={`relative group flex flex-col items-center p-3 rounded-2xl border text-center transition-all cursor-pointer ${
+                            isSelected 
+                              ? "bg-amber-500/10 border-amber-500/50 shadow-md shadow-amber-500/5 scale-[1.02]" 
+                              : "glass hover:bg-white/5 border-white/5"
+                          }`}
+                        >
+                          {/* Selected Check overlay */}
+                          {isSelected && (
+                            <div className="absolute top-2 right-2 w-5 h-5 rounded-full bg-amber-500 flex items-center justify-center shadow-lg animate-scale-up">
+                              <Check className="w-3.5 h-3.5 text-slate-950 stroke-[3]" />
+                            </div>
+                          )}
+
+                          <div className="relative w-14 h-14 rounded-xl overflow-hidden mb-2 bg-slate-800 ring-2 ring-white/5">
+                            <Image
+                              src={giant.imageUrl}
+                              alt={tg(`${giant.slug}.name`) || giant.name}
+                              fill
+                              sizes="56px"
+                              className="object-cover object-top group-hover:scale-105 transition-all"
+                            />
+                          </div>
+
+                          <span className="font-bold text-xs text-slate-200 truncate w-full">
+                            {tg(`${giant.slug}.name`) || giant.name}
+                          </span>
+                          <span className="text-[10px] text-slate-500 truncate w-full mt-0.5">
+                            {tg(`${giant.slug}.headline`) || giant.title}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* AI Recommendation Mode results UI */}
+              {setupMode === "ai" && (topic.trim() && (aiIntro || aiLoading || aiRecommendations.length > 0)) && (
+                <div className="glass-card p-6 rounded-3xl border border-white/10 space-y-4 bg-slate-900/30">
+                  <h3 className="text-sm font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2">
+                    <Sparkles className="w-4 h-4 text-amber-400/60" />
+                    {t("aiRecommendTitle")}
+                  </h3>
+
+                  {aiLoading ? (
+                    <div className="flex flex-col items-center justify-center py-12 gap-3 text-slate-400">
+                      <div className="w-8 h-8 border-4 border-amber-500/30 border-t-amber-500 rounded-full animate-spin" />
+                      <span className="text-xs font-semibold">{locale === "ko" ? "최고의 토론 패널을 엄선하는 중..." : "Selecting the best debate panel..."}</span>
+                    </div>
+                  ) : aiError ? (
+                    <div className="flex items-center gap-2 p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-xs">
+                      <AlertCircle className="w-4 h-4 shrink-0" />
+                      <span>{aiError}</span>
+                    </div>
+                  ) : (
+                    <div className="space-y-4 animate-fade-in-up">
+                      <p className="text-slate-300 text-sm leading-relaxed italic bg-slate-950/40 p-4 rounded-xl border border-white/5">
+                        &ldquo;{aiIntro}&rdquo;
+                      </p>
+
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        {aiRecommendations.map((rec) => {
+                          const giant = giants.find((g) => g.slug === rec.slug);
+                          if (!giant) return null;
+                          return (
+                            <div key={rec.slug} className="glass-card p-4 rounded-2xl border border-amber-500/20 bg-amber-500/5 flex flex-col items-center text-center">
+                              <div className="relative w-16 h-16 rounded-full overflow-hidden mb-3 ring-2 ring-amber-500/30 bg-slate-800">
+                                <Image
+                                  src={giant.imageUrl}
+                                  alt={tg(`${giant.slug}.name`)}
+                                  fill
+                                  sizes="64px"
+                                  className="object-cover object-top"
+                                />
+                              </div>
+                              <h4 className="font-bold text-sm text-slate-100">{tg(`${giant.slug}.name`)}</h4>
+                              <p className="text-[10px] text-amber-400 mt-0.5 font-medium">{tg(`${giant.slug}.headline`)}</p>
+                              <p className="text-[11px] text-slate-400 mt-2 leading-relaxed">{rec.reason}</p>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+
+            {/* Right Column: Sticky Summary & Action Panel */}
+            <div className="space-y-6">
+              <div className="glass-card p-6 rounded-3xl border border-white/10 bg-slate-900/50 sticky top-24 space-y-6 shadow-xl shadow-slate-950/50">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-slate-400 pb-3 border-b border-white/5">
+                  {locale === "ko" ? "토론방 개요" : "Debate Setup Overview"}
+                </h3>
+
+                {/* Panel Details */}
+                <div className="space-y-4">
+                  <div>
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block mb-1">
+                      {t("enterTopic")}
+                    </span>
+                    <p className="text-sm text-slate-200 line-clamp-3 bg-slate-950/40 p-3 rounded-xl border border-white/5 min-h-[50px] leading-relaxed">
+                      {topic.trim() ? topic : (locale === "ko" ? "아직 주제가 설정되지 않았습니다." : "No topic set yet.")}
+                    </p>
+                  </div>
+
+                  <div>
+                    <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block mb-2">
+                      {locale === "ko" ? "참여 위인 목록" : "Participating Giants"}
+                    </span>
+                    {selectedGiants.length > 0 ? (
+                      <div className="space-y-2">
+                        {selectedGiants.map((giant) => (
+                          <div key={giant.slug} className="flex items-center gap-2.5 p-2 rounded-xl bg-slate-950/30 border border-white/5">
+                            <div className="relative w-8 h-8 rounded-lg overflow-hidden shrink-0 bg-slate-800">
+                              <Image
+                                src={giant.imageUrl}
+                                alt={tg(`${giant.slug}.name`)}
+                                fill
+                                sizes="32px"
+                                className="object-cover object-top"
+                              />
+                            </div>
+                            <div className="min-w-0">
+                              <h4 className="font-bold text-xs text-slate-200 truncate">{tg(`${giant.slug}.name`)}</h4>
+                              <p className="text-[10px] text-slate-500 truncate">{tg(`${giant.slug}.headline`)}</p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="p-4 rounded-xl border border-dashed border-white/10 text-center text-xs text-slate-500">
+                        {t("minRequired")}
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* Start Button */}
+                <button
+                  disabled={selectedGiants.length < 2 || !topic.trim()}
+                  onClick={handleStartDebate}
+                  className="w-full py-4 rounded-2xl bg-gradient-to-r from-amber-500 via-amber-600 to-orange-500 text-slate-950 font-black text-sm uppercase tracking-wider shadow-lg shadow-amber-500/10 hover:shadow-amber-500/20 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100 transition-all flex items-center justify-center gap-2 cursor-pointer"
+                >
+                  <Play className="w-4 h-4 fill-slate-950 stroke-none" />
+                  {t("startDebate")}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* STAGE 2: LIVE DEBATING SCREEN */}
+      {stage === 2 && (
+        <div className="max-w-4xl mx-auto flex flex-col h-[calc(100vh-140px)] animate-fade-in-up">
+          {/* Header topic banner */}
+          <div className="glass-card p-4 md:p-6 rounded-3xl border border-white/10 bg-slate-900/80 backdrop-blur-xl mb-4 relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-xl">
+            <div className="space-y-1">
+              <div className="flex items-center gap-3 flex-wrap">
+                <span className="text-[9px] font-extrabold uppercase tracking-widest text-amber-500 flex items-center gap-1.5">
+                  <Swords className="w-3 h-3 animate-pulse" />
+                  {t("title")}
+                </span>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400">
+                  {locale === "ko" ? `토론 라운드: ${history.filter(h => h.speaker !== "user").length} / 10` : `Round: ${history.filter(h => h.speaker !== "user").length} / 10`}
+                </span>
+              </div>
+              <h2 className="font-serif font-black text-slate-200 text-base md:text-lg leading-tight line-clamp-2">
+                &ldquo;{topic}&rdquo;
+              </h2>
+            </div>
+            
+            {/* Participating Avatars overlay */}
+            <div className="flex -space-x-2.5 overflow-hidden shrink-0">
+              {selectedGiants.map((g) => (
+                <div 
+                  key={g.slug} 
+                  className={`relative w-8 h-8 rounded-full border border-slate-950 overflow-hidden bg-slate-800 ${
+                    activeSpeaker === g.slug ? "ring-2 ring-amber-500 scale-110 z-10" : ""
+                  } transition-all`}
+                  title={tg(`${g.slug}.name`)}
+                >
+                  <Image
+                    src={g.imageUrl}
+                    alt={tg(`${g.slug}.name`)}
+                    fill
+                    sizes="32px"
+                    className="object-cover object-top"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Core messages scroll container */}
+          <div className="flex-1 overflow-y-auto p-4 md:p-6 space-y-6 glass-card border border-white/5 rounded-3xl bg-slate-900/20 backdrop-blur-md mb-4 custom-scrollbar">
+            {history.length === 0 && !isAiContemplating && !isTypewriting && (
+              <div className="flex flex-col items-center justify-center h-full gap-4 text-slate-500 text-center">
+                <div className="w-12 h-12 rounded-2xl bg-amber-500/10 flex items-center justify-center border border-amber-500/20">
+                  <Swords className="w-6 h-6 text-amber-400" />
+                </div>
+                <div className="space-y-1">
+                  <h4 className="font-bold text-sm text-slate-300">{locale === "ko" ? "토론이 곧 시작됩니다" : "Debate is about to begin"}</h4>
+                  <p className="text-xs max-w-xs">{locale === "ko" ? "위인들이 첫 마디를 나누기 위해 생각을 가다듬고 있습니다." : "Giants are collecting their thoughts for the opening arguments."}</p>
+                </div>
+              </div>
+            )}
+
+            {/* Render previous turns */}
+            {history.map((msg, idx) => {
+              const isUser = msg.speaker === "user";
+              // Alternate alignments to create a premium, balanced theatrical view
+              const alignment = isUser ? "justify-center" 
+                              : (idx % 2 === 0 ? "justify-start" : "justify-end");
+              
+              return (
+                <div key={msg.id} className={`flex w-full ${alignment} animate-fade-in-up`}>
+                  <div className={`max-w-[85%] sm:max-w-[75%] ${isUser ? "text-center w-full" : ""}`}>
+                    {/* Speaker Header */}
+                    {!isUser && (
+                      <div className={`flex items-center gap-2 mb-2 px-1 ${idx % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}>
+                        <div className="relative w-6 h-6 rounded-md overflow-hidden bg-slate-800 border border-white/10 shrink-0">
+                          <Image
+                            src={msg.speakerImage}
+                            alt={msg.speakerName}
+                            fill
+                            sizes="24px"
+                            className="object-cover object-top"
+                          />
+                        </div>
+                        <span className="text-[10px] text-amber-400 font-black tracking-wider uppercase">
+                          {msg.speakerName}
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Bubble */}
+                    <div 
+                      className={`px-5 py-4 rounded-3xl shadow-lg leading-relaxed ${
+                        isUser 
+                          ? "bg-purple-950/40 text-purple-200 border border-purple-500/30 rounded-2xl text-sm italic inline-block mx-auto max-w-lg"
+                          : `glass border border-white/10 text-slate-100 text-sm ${
+                              idx % 2 === 0 ? "rounded-tl-none bg-slate-900/60" : "rounded-tr-none bg-slate-900/30"
+                            }`
+                      }`}
+                    >
+                      <p className="whitespace-pre-wrap">{msg.content}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+
+            {/* Typewriter Stream bubble */}
+            {isTypewriting && activeSpeaker && (
+              <div className={`flex w-full ${history.length % 2 === 0 ? "justify-start" : "justify-end"} animate-fade-in`}>
+                <div className="max-w-[85%] sm:max-w-[75%]">
+                  {/* Speaker Header */}
+                  <div className={`flex items-center gap-2 mb-2 px-1 ${history.length % 2 === 0 ? "flex-row" : "flex-row-reverse"}`}>
+                    <div className="relative w-6 h-6 rounded-md overflow-hidden bg-slate-800 border border-amber-500/30 shrink-0">
+                      <Image
+                        src={selectedGiants[currentSpeakerIndex].imageUrl}
+                        alt={selectedGiants[currentSpeakerIndex].name}
+                        fill
+                        sizes="24px"
+                        className="object-cover object-top"
+                      />
+                    </div>
+                    <span className="text-[10px] text-amber-400 font-black tracking-wider uppercase">
+                      {tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name}
+                    </span>
+                  </div>
+
+                  {/* Typing content */}
+                  <div 
+                    className={`px-5 py-4 rounded-3xl shadow-lg leading-relaxed border border-amber-500/30 text-slate-100 text-sm bg-slate-900/60 ${
+                      history.length % 2 === 0 ? "rounded-tl-none" : "rounded-tr-none"
+                    }`}
+                  >
+                    <p className="whitespace-pre-wrap">{displayedText}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* AI thinking state */}
+            {isAiContemplating && (
+              <div className={`flex w-full ${history.length % 2 === 0 ? "justify-start" : "justify-end"}`}>
+                <div className="glass rounded-3xl px-5 py-4 border border-white/5 bg-slate-900/30">
+                  <div className="flex items-center gap-2">
+                    <div className="flex gap-1.5 shrink-0">
+                      <span className="w-1.5 h-1.5 bg-amber-400/60 rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
+                      <span className="w-1.5 h-1.5 bg-amber-400/60 rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
+                      <span className="w-1.5 h-1.5 bg-amber-400/60 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
+                    </div>
+                    <span className="text-[11px] text-slate-400 ml-2 font-medium">
+                      {t("thinking", { name: (tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0] })}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            <div ref={debateEndRef} />
+          </div>
+
+          {/* User Interjection Panel */}
+          <div className="glass-card p-4 rounded-3xl border border-white/10 bg-slate-900/80 backdrop-blur-xl space-y-4 shadow-xl z-10">
+            <div className="flex items-center gap-3">
+              {/* Auto / Manual Flow Toggle */}
+              <button 
+                onClick={() => setAutoDebateActive(!autoDebateActive)}
+                className={`px-3 py-2.5 rounded-xl border text-xs font-bold whitespace-nowrap transition-all cursor-pointer ${
+                  autoDebateActive 
+                    ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/20" 
+                    : "bg-slate-950 text-slate-500 border-white/5"
+                }`}
+                title={autoDebateActive ? "Auto-play enabled" : "Auto-play disabled"}
+              >
+                {autoDebateActive ? "LIVE PLAY" : "PAUSED"}
+              </button>
+
+              <div className="flex-1 relative">
+                <input
+                  type="text"
+                  value={interjectInput}
+                  onChange={(e) => setInterjectInput(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && handleSendInterjection()}
+                  placeholder={t("interject")}
+                  disabled={isTypewriting || isAiContemplating}
+                  className="w-full px-5 py-3 rounded-xl glass-card bg-slate-950/60 border border-white/10 text-slate-100 placeholder:text-slate-500 text-xs focus:outline-none focus:border-amber-500/50 pr-12 disabled:opacity-50"
+                />
+                <Sparkles className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-amber-400/30" />
+              </div>
+
+              <button
+                onClick={handleSendInterjection}
+                disabled={!interjectInput.trim() || isTypewriting || isAiContemplating}
+                className="p-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 hover:shadow-lg disabled:opacity-50 transition-all cursor-pointer shrink-0"
+              >
+                <Send className="w-4 h-4 shrink-0" />
+              </button>
+            </div>
+
+            {/* Footer Control buttons */}
+            <div className="flex items-center justify-between border-t border-white/5 pt-3">
+              <button
+                onClick={() => {
+                  setAutoDebateActive(false);
+                  setStage(1);
+                }}
+                className="px-4 py-2 rounded-xl text-slate-400 hover:text-slate-200 text-xs font-semibold hover:bg-white/5 transition-all cursor-pointer"
+              >
+                {locale === "ko" ? "← 설정으로" : "← Back to Setup"}
+              </button>
+              
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={handleEndDebate}
+                  className="px-4 py-2.5 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 font-bold text-xs hover:bg-red-500/20 transition-all cursor-pointer"
+                >
+                  {t("endDebate")}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* STAGE 3: SUMMARY & SOCIAL SHARING CARD */}
+      {stage === 3 && (
+        <div className="max-w-4xl mx-auto space-y-8 animate-fade-in-up">
+          <div className="text-center space-y-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold uppercase tracking-widest">
+              <Trophy className="w-3.5 h-3.5" />
+              {locale === "ko" ? "토론이 종료되었습니다" : "Debate Concluded"}
+            </div>
+            <h1 className="text-3xl md:text-5xl font-serif font-black text-slate-200">
+              {t("summaryTitle")}
+            </h1>
+            <p className="text-slate-400 text-xs md:text-sm">
+              {t("rounds", { count: history.filter(h => h.speaker !== "user").length })}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+            {/* Left: Beautiful Social Card Display (For capture) */}
+            <div className="md:col-span-7 space-y-4">
+              <div 
+                ref={cardRef} 
+                className="w-full aspect-[4/5] rounded-[2.5rem] bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900 border-2 border-amber-500/30 p-8 shadow-2xl relative overflow-hidden flex flex-col justify-between"
+              >
+                {/* Ancient grid lines & premium overlays */}
+                <div className="absolute inset-0 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:24px_24px] opacity-10 pointer-events-none" />
+                <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/5 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+                
+                {/* Header */}
+                <div className="relative z-10 flex items-center justify-between pb-6 border-b border-amber-500/20">
+                  <div className="space-y-1">
+                    <span className="text-[10px] font-black tracking-widest text-amber-400 uppercase">
+                      Giants Wisdom
+                    </span>
+                    <h3 className="font-serif font-extrabold text-lg text-slate-200">
+                      ⚔️ {locale === "ko" ? "역사의 토론" : "Historical Debate"}
+                    </h3>
+                  </div>
+                  <div className="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center shrink-0">
+                    <Swords className="w-5 h-5 text-slate-950 stroke-[2.5]" />
+                  </div>
+                </div>
+
+                {/* Body Content (Topic & highlights) */}
+                <div className="relative z-10 flex-1 flex flex-col justify-center py-6 space-y-6">
+                  <div className="space-y-2">
+                    <span className="text-[9px] font-extrabold text-slate-500 tracking-wider uppercase block">
+                      {locale === "ko" ? "토론 주제" : "Debate Topic"}
+                    </span>
+                    <h2 className="font-serif font-black text-xl md:text-2xl text-slate-100 leading-tight">
+                      &ldquo;{topic}&rdquo;
+                    </h2>
+                  </div>
+
+                  {/* Highlights (Last 2 exchanges from different giants) */}
+                  <div className="space-y-4">
+                    {history
+                      .filter((h) => h.speaker !== "user")
+                      .slice(-2)
+                      .map((msg, i) => (
+                        <div key={i} className="space-y-2 p-4 rounded-2xl bg-white/5 border border-white/5">
+                          <div className="flex items-center gap-2">
+                            <div className="relative w-5 h-5 rounded overflow-hidden bg-slate-800 shrink-0">
+                              <Image
+                                src={msg.speakerImage}
+                                alt={msg.speakerName}
+                                fill
+                                sizes="20px"
+                                className="object-cover object-top"
+                              />
+                            </div>
+                            <span className="text-[10px] text-amber-300 font-bold uppercase">{msg.speakerName}</span>
+                          </div>
+                          <p className="text-slate-300 text-xs italic leading-relaxed line-clamp-3">
+                            &ldquo;{msg.content}&rdquo;
+                          </p>
+                        </div>
+                      ))}
+                  </div>
+                </div>
+
+                {/* Footer Call-To-Action */}
+                <div className="relative z-10 pt-6 border-t border-white/10 flex items-center justify-between gap-4">
+                  <div className="space-y-0.5">
+                    <p className="text-[9px] font-extrabold text-slate-400 uppercase tracking-widest">
+                      {locale === "ko" ? "나와 닮은 위인과 대화하고 싶다면?" : "Want to chat with your giant match?"}
+                    </p>
+                    <p className="text-xs font-bold text-amber-400">giantswisdom.com/debate</p>
+                  </div>
+                  <span className="text-[10px] text-slate-500 font-black uppercase tracking-tight">
+                    #GiantsWisdom
+                  </span>
+                </div>
+              </div>
+
+              {/* Action Buttons */}
+              <div className="flex gap-4">
+                <button
+                  onClick={handleDownloadCard}
+                  className="flex-1 py-4 rounded-2xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm tracking-wider flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-amber-500/10"
+                >
+                  <Download className="w-4 h-4" />
+                  {locale === "ko" ? "카드 저장하기" : "Save Image Card"}
+                </button>
+                <button
+                  onClick={() => setStage(1)}
+                  className="py-4 px-6 rounded-2xl glass hover:bg-white/5 text-slate-200 border border-white/10 text-sm font-semibold transition-all cursor-pointer"
+                >
+                  {t("newDebate")}
+                </button>
+              </div>
+            </div>
+
+            {/* Right: Key highlights summary text panel */}
+            <div className="md:col-span-5 space-y-6">
+              <div className="glass-card p-6 rounded-3xl border border-white/10 bg-slate-900/50 space-y-4">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-amber-400 pb-3 border-b border-white/5 flex items-center gap-2">
+                  <Compass className="w-4 h-4 text-amber-400/60" />
+                  {locale === "ko" ? "토론 핵심 분석" : "Key Arguments Log"}
+                </h3>
+
+                <div className="space-y-4 max-h-[420px] overflow-y-auto pr-2 custom-scrollbar">
+                  {history
+                    .filter((h) => h.speaker !== "user")
+                    .map((msg, i) => (
+                      <div key={i} className="space-y-1.5 relative pl-4 border-l border-amber-500/20">
+                        <div className="absolute top-1.5 left-0 -translate-x-1/2 w-1.5 h-1.5 rounded-full bg-amber-400" />
+                        <h5 className="text-[11px] font-bold text-slate-300 uppercase">{msg.speakerName}</h5>
+                        <p className="text-xs text-slate-400 leading-relaxed italic">&ldquo;{msg.content}&rdquo;</p>
+                      </div>
+                    ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

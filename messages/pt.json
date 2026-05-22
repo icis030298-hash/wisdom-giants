@@ -10,7 +10,8 @@
     "login": "Entrar",
     "logout": "Sair",
     "myProfile": "Meu Perfil",
-    "signInRequired": "Login necessário para ver o histórico de conversas."
+    "signInRequired": "Login necessário para ver o histórico de conversas.",
+    "debate": "Sala de Debate"
   },
   "Auth": {
     "loginModalTitle": "Bem-vindo ao Salão das Grandes Mentes",
@@ -1782,5 +1783,36 @@
       "pain": "Sua maior luta foi viver uma vida limitada pela insegurança financeira e restrições sociais às mulheres, além da dor de um amor perdido e uma doença precoce.",
       "recovery": "Você subverteu os limites do seu mundo escrevendo sátiras sociais brilhantes e atemporais, conquistando na literatura a independência que lhe foi negada em vida."
     }
+  },
+  "Debate": {
+    "title": "Sala de Debate",
+    "subtitle": "Confronto de Sabedoria",
+    "description": "Selecione de 2 a 4 gigantes históricos e proponha um tema. Eles debaterão diretamente.",
+    "selectGiants": "Selecionar gigantes para o debate",
+    "selectedCount": "{count}/4 selecionados",
+    "minRequired": "Por favor, selecione pelo menos 2 gigantes",
+    "maxAllowed": "Você pode selecionar até 4 gigantes",
+    "enterTopic": "Inserir tema do debate",
+    "topicPlaceholder": "Insira um tema de debate...\nex: O dinheiro traz felicidade na sociedade moderna?",
+    "startDebate": "Iniciar Debate",
+    "aiRecommend": "Recomendado por IA",
+    "selfSelect": "Seleção manual",
+    "aiRecommendTitle": "Debatedores ideais para este tema",
+    "thinking": "{name} está pensando...",
+    "interject": "Intervir no debate...",
+    "endDebate": "Encerrar Debate",
+    "shareDebate": "Compartilhar Debate",
+    "newDebate": "Novo Debate",
+    "summaryTitle": "Resumo do Debate",
+    "rounds": "{count} turnos",
+    "suggestedTopics": [
+      "Dinheiro e felicidade, qual vem primeiro?",
+      "A democracia moderna é um sistema perfeito?",
+      "A IA salvará a humanidade ou a ameaçará?",
+      "A guerra pode ser justificada em algum momento?",
+      "Liberdade individual vs. Ordem social, o que vem primeiro?",
+      "A arte pode mudar a sociedade?",
+      "Como os humanos devem viver diante da morte?"
+    ]
   }
 }
