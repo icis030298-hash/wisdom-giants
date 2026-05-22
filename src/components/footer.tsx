@@ -17,6 +17,7 @@ export default function Footer() {
     explore: [
       { label: t('links.allGiants'), href: '/#giants' },
       { label: t('links.dnaTest'), href: '/test' },
+      { label: t('links.debate'), href: '/debate' },
     ],
     info: [
       { label: t('links.about'), href: '/about' },
