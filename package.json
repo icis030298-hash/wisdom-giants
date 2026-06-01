@@ -8,7 +8,8 @@
     "build:cf": "npx @cloudflare/next-on-pages",
     "postbuild": "node -e \"require('fs').rmSync('.next/cache', { recursive: true, force: true })\"",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mass-index": "node scripts/mass-index.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

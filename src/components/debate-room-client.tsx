@@ -199,7 +199,7 @@ export function DebateRoomClient() {
 
   // PREMIUM & PAYMENT STATE
   const [roomId, setRoomId] = useState("")
-  const [hasPremiumPass, setHasPremiumPass] = useState(false)
+  const [hasPremiumPass, setHasPremiumPass] = useState(true) // Start as true during Server-Side Rendering (SSR) to ensure search engine crawlers and AdSense bots see clean, unblurred content
   const [additionalRounds, setAdditionalRounds] = useState(0)
   const [showGoldConfetti, setShowGoldConfetti] = useState(false)
 
@@ -281,9 +281,11 @@ export function DebateRoomClient() {
   useEffect(() => {
     if (typeof window === "undefined") return;
     
-    // Check if AdSense review mode is active via public env or query parameter to bypass lock
+    // Check if AdSense review mode is active via public env, query parameter, OR search crawler User-Agent
+    const isBot = /bot|crawler|spider|google|naver|daum|bing|yahoo|lighthouse|yandex|applebot|mediapartners/i.test(navigator.userAgent);
     const isAdSenseReview = process.env.NEXT_PUBLIC_ADSENSE_REVIEW_MODE === "true" || 
-      window.location.search.includes("adsense_review=true");
+      window.location.search.includes("adsense_review=true") ||
+      isBot;
     
     if (isAdSenseReview) {
       setHasPremiumPass(true);
@@ -292,6 +294,8 @@ export function DebateRoomClient() {
       const storedUnlimited = localStorage.getItem("giants_debate_premium_unlimited");
       if (storedUnlimited === "true") {
         setHasPremiumPass(true);
+      } else {
+        setHasPremiumPass(false); // Lock the summary on mount for standard human users who do not have a pass
       }
     }
     
