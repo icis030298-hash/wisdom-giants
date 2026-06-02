@@ -263,9 +263,11 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
     }
   }
   
-  const handleSuggestedQuestion = (question: string) => {
+  const handleSuggestedQuestion = (question: string, e: React.MouseEvent) => {
+    e.preventDefault()
+    e.stopPropagation()
     setInput(question)
-    inputRef.current?.focus()
+    inputRef.current?.focus({ preventScroll: true })
   }
 
   const categoryLabel = tgGrid(`categories.${giant.category}`) || 
@@ -464,7 +466,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
                 {Array.isArray(suggestedQuestions) && suggestedQuestions.map((question, i) => (
                   <button
                     key={i}
-                    onClick={() => handleSuggestedQuestion(question)}
+                    onClick={(e) => handleSuggestedQuestion(question, e)}
                     className="px-3 py-2 text-xs glass rounded-lg text-muted-foreground hover:text-foreground hover:bg-amber-500/10 transition-all text-left whitespace-normal max-w-full cursor-pointer"
                   >
                     {question}

@@ -2,22 +2,24 @@
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-// API 키 확인 (서버 사이드에서 실행됨)
-const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY;
+let genAI: GoogleGenerativeAI | null = null;
 
-if (!apiKey) {
-  console.error("GEMINI_API_KEY is missing in environment variables.");
+function getAIInstance() {
+  if (genAI) return genAI;
+  const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY;
+  if (!apiKey) {
+    console.error("GEMINI_API_KEY is missing in environment variables.");
+    throw new Error("서버 설정 오류: API 키가 없습니다.");
+  }
+  genAI = new GoogleGenerativeAI(apiKey);
+  return genAI;
 }
-
-const genAI = new GoogleGenerativeAI(apiKey || "");
 
 /**
  * 사용자님께서 검증하신 2.5 버전 모델을 사용하는 서버 액션 함수입니다.
  */
 export async function getGiantResponse(persona: string, message: string, giantName: string, history: any[] = [], locale: string = 'ko') {
-  if (!apiKey) {
-    throw new Error("서버 설정 오류: API 키가 없습니다.");
-  }
+  const genAIInstance = getAIInstance();
 
   const promptMap: Record<string, string> = {
     en: `You are ${giantName}. Respond STRICTLY in English. Maintain the historical persona, tone, and wisdom of ${giantName}. Speak as if you are talking to a traveler from the future seeking your advice.
@@ -189,7 +191,7 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
 
   for (const modelId of modelsToTry) {
     try {
-      const model = genAI.getGenerativeModel({ 
+      const model = genAIInstance.getGenerativeModel({ 
         model: modelId,
         systemInstruction: sysPrompt 
       });
