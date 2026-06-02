@@ -13,6 +13,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   const isKorean = locale === 'ko'
   const isGerman = locale === 'de'
+
+  const titleMap: Record<string, string> = {
+    ko: '소개',
+    de: 'Über uns',
+    ja: 'サービス紹介',
+    es: 'Acerca de',
+    fr: 'À Propos',
+    it: 'Chi Siamo',
+    pt: 'Sobre',
+    en: 'About'
+  }
+  const pageTitle = `${titleMap[locale] || 'About'} | Giants Wisdom`
   
   const description = isKorean
     ? '역사를 바꾼 95인의 위인들과 AI로 대화하세요.'
@@ -21,10 +33,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : "Chat with 95+ of history's greatest minds using AI."
 
   return {
-    title: 'About | Giants Wisdom',
+    title: pageTitle,
     description,
     openGraph: {
-      title: 'About | Giants Wisdom',
+      title: pageTitle,
       description,
       type: 'website',
     },

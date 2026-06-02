@@ -22,11 +22,13 @@ interface ChatHistory {
   lastMessage: string
   updatedAt: Timestamp
   messageCount: number
+  locale?: string
 }
 
 export default function ChatsPage() {
   const t = useTranslations("Chats")
   const authT = useTranslations("Auth")
+  const tg = useTranslations("Giants")
   const locale = useLocale()
   const router = useRouter()
   
@@ -132,11 +134,13 @@ export default function ChatsPage() {
               fields.messageCount?.integerValue ||
               fields.messageCount?.doubleValue || 0
             ),
+            locale: fields.locale?.stringValue || "",
           } as ChatHistory;
         });
 
-      setChats(fetchedChats);
-      console.log(`[REST]: Successfully fetched ${fetchedChats.length} chats.`);
+      const filteredChats = fetchedChats.filter((chat: any) => !chat.locale || chat.locale === locale);
+      setChats(filteredChats);
+      console.log(`[REST]: Successfully fetched and filtered ${filteredChats.length} chats.`);
     } catch (error) {
       console.error("🚨 [REST Fetch Error]:", error);
     } finally {
@@ -214,32 +218,34 @@ export default function ChatsPage() {
           </div>
         ) : (
           <div className="grid gap-4">
-            {chats.map((chat) => (
-              <div key={chat.id} className="relative group/row">
-                <Link
-                  href={`/giant/${chat.giantSlug || chat.giantId}?chat=true&chatId=${chat.id}`}
-                  className="group relative overflow-hidden rounded-2xl glass border border-white/5 hover:border-amber-500/30 transition-all p-5 flex items-center gap-5 pr-14"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 via-amber-500/0 to-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
+            {chats.map((chat) => {
+              const localizedName = tg(`${chat.giantSlug}.name`) || chat.giantName;
+              return (
+                <div key={chat.id} className="relative group/row">
+                  <Link
+                    href={`/giant/${chat.giantSlug || chat.giantId}?chat=true&chatId=${chat.id}`}
+                    className="group relative overflow-hidden rounded-2xl glass border border-white/5 hover:border-amber-500/30 transition-all p-5 flex items-center gap-5 pr-14"
+                  >
+                    <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 via-amber-500/0 to-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
 
-                  <Avatar className="w-14 h-14 border border-white/10 shadow-lg overflow-hidden relative">
-                    <Image
-                      src={chat.giantImage || `/images/giants/${chat.giantSlug || chat.giantId}.jpg`}
-                      alt={chat.giantName}
-                      fill
-                      sizes="56px"
-                      className="object-cover"
-                    />
-                    <AvatarFallback className="bg-amber-500/10 text-amber-500 font-serif">
-                      {chat.giantName.charAt(0)}
-                    </AvatarFallback>
-                  </Avatar>
+                    <Avatar className="w-14 h-14 border border-white/10 shadow-lg overflow-hidden relative">
+                      <Image
+                        src={chat.giantImage || `/images/giants/${chat.giantSlug || chat.giantId}.jpg`}
+                        alt={localizedName}
+                        fill
+                        sizes="56px"
+                        className="object-cover"
+                      />
+                      <AvatarFallback className="bg-amber-500/10 text-amber-500 font-serif">
+                        {localizedName.charAt(0)}
+                      </AvatarFallback>
+                    </Avatar>
 
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center justify-between mb-1">
-                      <h3 className="font-serif font-bold text-lg text-foreground group-hover:text-amber-200 transition-colors truncate">
-                        {chat.giantName}
-                      </h3>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center justify-between mb-1">
+                        <h3 className="font-serif font-bold text-lg text-foreground group-hover:text-amber-200 transition-colors truncate">
+                          {localizedName}
+                        </h3>
                       <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
                         <Clock className="w-3 h-3" />
                         {chat.updatedAt
@@ -268,7 +274,8 @@ export default function ChatsPage() {
                   <Trash2 className="w-4 h-4" />
                 </button>
               </div>
-            ))}
+            );
+          })}
           </div>
         )}
       </div>

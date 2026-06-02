@@ -19,7 +19,8 @@ const translations: Record<string, Record<string, string>> = {
     read: "읽기",
     headerTitle: "거인들의 지혜 블로그",
     headerSubtitle: "역사 속 위인들의 철학과 지혜를 현대적 관점에서 풀어쓰다",
-    noPosts: "해당 카테고리에 포스트가 없습니다."
+    noPosts: "해당 카테고리에 포스트가 없습니다.",
+    badge: "지혜 아카이브"
   },
   en: {
     all: "All",
@@ -31,7 +32,8 @@ const translations: Record<string, Record<string, string>> = {
     read: "Read",
     headerTitle: "Wisdom Blog",
     headerSubtitle: "Explore the philosophy and wisdom of historical giants in a modern context",
-    noPosts: "No posts found in this category."
+    noPosts: "No posts found in this category.",
+    badge: "WISDOM ARCHIVE"
   },
   de: {
     all: "Alle",
@@ -43,7 +45,8 @@ const translations: Record<string, Record<string, string>> = {
     read: "Lesen",
     headerTitle: "Weisheits-Blog",
     headerSubtitle: "Erkunden Sie die Philosophie und Weisheit historischer Giganten im modernen Kontext",
-    noPosts: "Keine Beiträge in dieser Kategorie gefunden."
+    noPosts: "Keine Beiträge in dieser Kategorie gefunden.",
+    badge: "WEISHEITS-ARCHIV"
   },
   ja: {
     all: "すべて",
@@ -54,8 +57,9 @@ const translations: Record<string, Record<string, string>> = {
     readTime: "分 読了",
     read: "読む",
     headerTitle: "偉人たちの知恵ブログ",
-    headerSubtitle: "歴史上の偉人たちの哲学と知恵를現代的な視点から紐解く",
-    noPosts: "このカテゴリの投稿はありません。"
+    headerSubtitle: "歴史上の偉人たちの哲学と知恵を現代的な視点から紐解く",
+    noPosts: "このカテゴリの投稿はありません。",
+    badge: "知恵アーカイブ"
   },
   es: {
     all: "Todos",
@@ -67,7 +71,8 @@ const translations: Record<string, Record<string, string>> = {
     read: "Leer",
     headerTitle: "Blog de Sabiduría",
     headerSubtitle: "Explore la filosofía y la sabiduría de los gigantes históricos en el contexto moderno",
-    noPosts: "No se encontraron publicaciones en esta categoría."
+    noPosts: "No se encontraron publicaciones en esta categoría.",
+    badge: "ARCHIVO DE SABIDURÍA"
   },
   fr: {
     all: "Tout",
@@ -79,7 +84,8 @@ const translations: Record<string, Record<string, string>> = {
     read: "Lire",
     headerTitle: "Blog de la Sagesse",
     headerSubtitle: "Explorez la philosophie et la sagesse des géants historiques dans un contexte moderne",
-    noPosts: "Aucun article trouvé dans cette catégorie."
+    noPosts: "Aucun article trouvé dans cette catégorie.",
+    badge: "ARCHIVE DE LA SAGESSE"
   },
   it: {
     all: "Tutti",
@@ -91,7 +97,8 @@ const translations: Record<string, Record<string, string>> = {
     read: "Leggi",
     headerTitle: "Blog della Saggezza",
     headerSubtitle: "Esplora la filosofia e la saggezza dei giganti storici nel contesto moderno",
-    noPosts: "Nessun articolo trovato in questa categoria."
+    noPosts: "Nessun articolo trovato in questa categoria.",
+    badge: "ARCHIVIO DELLA SAGGEZZA"
   },
   pt: {
     all: "Tudo",
@@ -103,7 +110,8 @@ const translations: Record<string, Record<string, string>> = {
     read: "Ler",
     headerTitle: "Blog da Sabedoria",
     headerSubtitle: "Explore a filosofia e a sabedoria dos gigantes históricos no contexto moderno",
-    noPosts: "Nenhuma publicação encontrada nesta categoria."
+    noPosts: "Nenhuma publicação encontrada nesta categoria.",
+    badge: "ARQUIVO DE SABEDORIA"
   }
 }
 
@@ -159,7 +167,7 @@ export function BlogListClient() {
         <div className="relative z-10 space-y-4 max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 text-amber-300 text-xs font-bold uppercase border border-amber-500/20">
             <BookOpen className="w-3.5 h-3.5" />
-            WISDOM ARCHIVE
+            {t.badge}
           </div>
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight leading-tight">
             {t.headerTitle}

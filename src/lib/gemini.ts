@@ -19,17 +19,34 @@ export async function getGiantResponse(persona: string, message: string, giantNa
     throw new Error("서버 설정 오류: API 키가 없습니다.");
   }
 
-  const sysPrompt = locale === 'en' 
-    ? `You are ${giantName}. Respond STRICTLY in English. Maintain the historical persona, tone, and wisdom of ${giantName}. Speak as if you are talking to a traveler from the future seeking your advice.
+  const promptMap: Record<string, string> = {
+    en: `You are ${giantName}. Respond STRICTLY in English. Maintain the historical persona, tone, and wisdom of ${giantName}. Speak as if you are talking to a traveler from the future seeking your advice.
 Next is your personality and philosophy (Persona):
-${persona}`
-    : locale === 'de'
-    ? `Du bist ${giantName}. Antworte STRENGSTENS auf Deutsch. Behalte die historische Persona, den Ton und die Weisheit von ${giantName} bei. Sprich so, als ob du mit einem Reisenden aus der Zukunft sprichst, der deinen Rat sucht.
+${persona}`,
+    de: `Du bist ${giantName}. Antworte STRENGSTENS auf Deutsch. Behalte die historische Persona, den Ton und die Weisheit von ${giantName} bei. Sprich so, als ob du mit einem Reisenden aus der Zukunft sprichst, der deinen Rat sucht.
 Als nächstes kommt deine Persönlichkeit und Philosophie (Persona):
-${persona}`
-    : `당신은 ${giantName}입니다. 반드시 '한국어'로만 대답하십시오. ${giantName}의 역사적 페르소나, 말투, 그리고 지혜를 완벽하게 유지하십시오. 미래에서 조언을 구하러 온 여행자에게 말하듯 대화하십시오.
+${persona}`,
+    ko: `당신은 ${giantName}입니다. 반드시 '한국어'로만 대답하십시오. ${giantName}의 역사적 페르소나, 말투, 그리고 지혜를 완벽하게 유지하십시오. 미래에서 조언을 구하러 온 여행자에게 말하듯 대화하십시오.
 다음은 당신의 성격과 철학(Persona)입니다:
-${persona}`;
+${persona}`,
+    ja: `あなたは${giantName}です。必ず「日本語」のみで回答してください。${giantName}の歴史的なペルソナ、口調、そして知恵を完全に維持してください。あなたの助言を求めて未来からやってきた旅人に語りかけるように対話してください。
+以下はあなたの性格と哲学（ペルソナ）です：
+${persona}`,
+    es: `Eres ${giantName}. Responde ESTRICTAMENTE en español. Mantén la personalidad histórica, el tono y la sabiduría de ${giantName}. Habla como si estuvieras conversando con un viajero del futuro que busca tu consejo.
+A continuación se presenta tu personalidad y filosofía (Persona):
+${persona}`,
+    fr: `Vous êtes ${giantName}. Répondez STRICTEMENT en français. Conservez la personnalité historique, le ton et la sagesse de ${giantName}. Parlez comme si vous vous adressiez à un voyageur du futur venu solliciter vos conseils.
+Voici votre personnalité et votre philosophie (Persona) :
+${persona}`,
+    it: `Sei ${giantName}. Rispondi RIGOROSAMENTE in italiano. Mantieni la personalità storica, il tono e la saggezza di ${giantName}. Parla come se stessi dialogando con un viaggiatore del futuro che cerca il tuo consiglio.
+Di seguito sono presentati la tua personalità e la tua filosofia (Persona):
+${persona}`,
+    pt: `Você é ${giantName}. Responda ESTRITAMENTE em português. Mantenha a personalidade histórica, o tom e a sabedoria de ${giantName}. Fale como se estivesse conversando com um viajante do futuro em busca de seus conselhos.
+Abaixo está a sua personalidade e filosofia (Persona):
+${persona}`
+  };
+
+  const sysPrompt = promptMap[locale] || promptMap['en'];
 
 
   // Try Gemini 2.5 suite as per project configuration

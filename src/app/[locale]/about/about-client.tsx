@@ -2,11 +2,12 @@
 
 // Force fresh build to clear cached static HTML
 import { motion } from "framer-motion"
-import { useTranslations } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 import { Sparkles, Quote, BookOpen, MessageCircle, Dna } from "lucide-react"
 
 export function AboutPageClient() {
   const t = useTranslations("About")
+  const locale = useLocale()
 
   const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -29,7 +30,7 @@ export function AboutPageClient() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-sm font-medium"
           >
             <Sparkles className="w-4 h-4" />
-            <span>ABOUT</span>
+            <span>{locale === 'ko' ? '소개' : 'ABOUT'}</span>
           </motion.div>
 
           <motion.h1

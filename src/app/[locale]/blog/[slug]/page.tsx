@@ -298,6 +298,17 @@ export default async function BlogPostDetailPage({ params }: Props) {
     }
   }
 
+  const getKoreanWithParticle = (name: string, suffix: string): string => {
+    if (!name) return suffix;
+    const lastChar = name.charCodeAt(name.length - 1);
+    let particle = '와';
+    if (lastChar >= 0xAC00 && lastChar <= 0xD7A3) {
+      const hasBatchim = (lastChar - 0xAC00) % 28 > 0;
+      particle = hasBatchim ? '과' : '와';
+    }
+    return `${particle} ${suffix}`;
+  };
+
   const localizedName = post.giantSlug === 'cleopatra'
     ? (locale === 'ko' ? '클레오파트라' :
        locale === 'ja' ? 'クレオパトラ' :
@@ -381,7 +392,11 @@ export default async function BlogPostDetailPage({ params }: Props) {
             className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground font-semibold text-xs shadow-md shadow-amber-500/10 hover:shadow-lg hover:shadow-amber-500/25 transition-all scale-[1.01]"
           >
             <MessageSquare className="w-4 h-4" />
-            {(locale === 'ko' || locale === 'ja') ? `${localizedName}${ui.chatWith}` : `${ui.chatWith}${localizedName}`}
+            {locale === 'ko' 
+              ? `${localizedName}${getKoreanWithParticle(localizedName, "대화하기")}`
+              : locale === 'ja' 
+              ? `${localizedName}${ui.chatWith}` 
+              : `${ui.chatWith}${localizedName}`}
           </Link>
         </div>
 
@@ -434,7 +449,11 @@ export default async function BlogPostDetailPage({ params }: Props) {
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="space-y-3">
               <h2 className="text-2xl md:text-3xl font-serif font-bold text-white tracking-tight leading-tight">
-                {(locale === 'ko' || locale === 'ja') ? `${localizedName}${ui.ctaTitle}` : `${ui.ctaTitle}${localizedName}`}
+              {locale === 'ko'
+                ? `${localizedName}${getKoreanWithParticle(localizedName, "직접 대화해보기")}`
+                : locale === 'ja'
+                ? `${localizedName}${ui.ctaTitle}`
+                : `${ui.ctaTitle}${localizedName}`}
               </h2>
               <p className="text-white/85 text-sm md:text-base max-w-xl font-light leading-relaxed">
                 {ui.ctaDesc}

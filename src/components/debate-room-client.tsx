@@ -34,6 +34,32 @@ interface RecommendedGiant {
   reason: string;
 }
 
+// Helper to render markdown bold (**text**) as <strong> elements
+const formatMessage = (content: string) => {
+  if (!content) return "";
+  const parts = content.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={idx} className="font-bold text-amber-300">{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+};
+
+// Helper for Korean grammatical particle selection (Unicode batchim detection)
+const getKoreanParticle = (name: string, type: '이가' | '과와' | '은는' | '을를'): string => {
+  if (!name) return "";
+  const lastChar = name.charCodeAt(name.length - 1);
+  if (lastChar >= 0xAC00 && lastChar <= 0xD7A3) {
+    const hasBatchim = (lastChar - 0xAC00) % 28 > 0;
+    if (type === '이가') return hasBatchim ? '이' : '가';
+    if (type === '과와') return hasBatchim ? '과' : '와';
+    if (type === '은는') return hasBatchim ? '은' : '는';
+    if (type === '을를') return hasBatchim ? '을' : '를';
+  }
+  return type === '이가' ? '이(가)' : type === '과와' ? '과(와)' : '';
+};
+
 // Highly optimized custom golden confetti canvas explosion component
 function GoldConfettiCanvas({ active }: { active: boolean }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -1202,7 +1228,7 @@ export function DebateRoomClient() {
                         {/* Elegant light rays background */}
                         <div className="absolute inset-0 bg-gradient-to-t from-amber-500/5 to-transparent pointer-events-none" />
                         <p className="font-semibold whitespace-pre-wrap italic">
-                          &ldquo;{msg.content}&rdquo;
+                          &ldquo;{formatMessage(msg.content)}&rdquo;
                         </p>
                       </div>
                     </div>
@@ -1222,7 +1248,7 @@ export function DebateRoomClient() {
                       
                       {/* Premium Bubble */}
                       <div className="px-5 py-4 rounded-3xl bg-purple-950/40 text-purple-200 border border-purple-500/30 text-sm italic inline-block mx-auto shadow-lg max-w-lg">
-                        <p className="whitespace-pre-wrap">{msg.content}</p>
+                        <p className="whitespace-pre-wrap">{formatMessage(msg.content)}</p>
                       </div>
                     </div>
                   </div>
@@ -1257,7 +1283,7 @@ export function DebateRoomClient() {
                         idx % 2 === 0 ? "rounded-tl-none bg-slate-900/60" : "rounded-tr-none bg-slate-900/30"
                       }`}
                     >
-                      <p className="whitespace-pre-wrap">{msg.content}</p>
+                      <p className="whitespace-pre-wrap">{formatMessage(msg.content)}</p>
                     </div>
                   </div>
                 </div>
@@ -1292,7 +1318,7 @@ export function DebateRoomClient() {
                     }`}
                     title={locale === "ko" ? "클릭 시 즉시 전체 보기" : "Click to view full text immediately"}
                   >
-                    <p className="whitespace-pre-wrap">{displayedText}</p>
+                    <p className="whitespace-pre-wrap">{formatMessage(displayedText)}</p>
                     <span className="absolute bottom-1.5 right-3 text-[9px] text-amber-500/40 opacity-0 group-hover:opacity-100 transition-opacity">
                       {locale === "ko" ? "클릭 시 건너뛰기 ⚡" : "Click to Skip ⚡"}
                     </span>
@@ -1312,7 +1338,9 @@ export function DebateRoomClient() {
                       <span className="w-1.5 h-1.5 bg-amber-400/60 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
                     </div>
                     <span className="text-[11px] text-slate-400 ml-2 font-medium">
-                      {t("thinking", { name: (tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0] })}
+                      {locale === "ko"
+                        ? `${(tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0]}${getKoreanParticle((tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0], "이가")} 생각 중...`
+                        : t("thinking", { name: (tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0] })}
                     </span>
                   </div>
                 </div>
@@ -1596,7 +1624,7 @@ export function DebateRoomClient() {
                     <p className="text-[9px] font-extrabold text-slate-400 uppercase tracking-widest">
                       {locale === "ko" ? "나와 닮은 위인과 대화하고 싶다면?" : "Want to chat with your giant match?"}
                     </p>
-                    <p className="text-xs font-bold text-amber-400">giantswisdom.com/debate</p>
+                    <p className="text-xs font-bold text-amber-400">giantswisdom.com/{locale}/debate</p>
                   </div>
                   <span className="text-[10px] text-slate-500 font-black uppercase tracking-tight">
                     #GiantsWisdom

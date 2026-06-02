@@ -24,9 +24,36 @@ interface ChatInterfaceProps {
   initialChatId?: string
 }
 
+// Helper to render markdown bold (**text**) as <strong> elements
+const formatMessage = (content: string) => {
+  if (!content) return "";
+  const parts = content.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={idx} className="font-bold text-amber-300">{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+};
+
+// Helper for Korean grammatical particle selection (Unicode batchim detection)
+const getKoreanParticle = (name: string, type: '이가' | '과와' | '은는' | '을를'): string => {
+  if (!name) return "";
+  const lastChar = name.charCodeAt(name.length - 1);
+  if (lastChar >= 0xAC00 && lastChar <= 0xD7A3) {
+    const hasBatchim = (lastChar - 0xAC00) % 28 > 0;
+    if (type === '이가') return hasBatchim ? '이' : '가';
+    if (type === '과와') return hasBatchim ? '과' : '와';
+    if (type === '은는') return hasBatchim ? '은' : '는';
+    if (type === '을를') return hasBatchim ? '을' : '를';
+  }
+  return type === '이가' ? '이(가)' : type === '과와' ? '과(와)' : '';
+};
+
 export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfaceProps) {
   const t = useTranslations("Chat")
   const tg = useTranslations("Giants")
+  const tgGrid = useTranslations("GiantsGrid")
   const locale = useLocale()
   
   const initialGreeting = tg(`${giant.slug}.chatGreeting`) || "";
@@ -43,19 +70,23 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
   const [input, setInput] = useState("")
   const [isTyping, setIsTyping] = useState(false)
   const [hasError, setHasError] = useState(false)
-  const [isLoadingHistory, setIsLoadingHistory] = useState(!!initialChatId)
+  const [isLoadingHistory, setIsLoadingHistory] = useState(true)
   const [isRestoredChat, setIsRestoredChat] = useState(false)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
-    if (!initialChatId || !db) {
-      setIsLoadingHistory(false)
-      return
-    }
-    const loadHistory = async () => {
+    let active = true;
+    
+    const loadHistory = async (uid: string) => {
+      const targetChatId = initialChatId || (uid ? `${uid}_${giant.slug}_${locale}` : "");
+      if (!targetChatId || !db) {
+        setIsLoadingHistory(false)
+        return
+      }
       try {
-        const chatDoc = await getDoc(doc(db, "chats", initialChatId))
+        const chatDoc = await getDoc(doc(db, "chats", targetChatId))
+        if (!active) return;
         if (chatDoc.exists()) {
           const stored: any[] = chatDoc.data().messages || []
           if (stored.length > 0) {
@@ -74,13 +105,34 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
         }
       } catch (err) {
         console.error("Failed to load chat history:", err)
-        setMessages([{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }])
+        if (active) {
+          setMessages([{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }])
+        }
       } finally {
-        setIsLoadingHistory(false)
+        if (active) {
+          setIsLoadingHistory(false)
+        }
       }
     }
-    loadHistory()
-  }, [initialChatId])
+
+    if (initialChatId) {
+      loadHistory("");
+    } else if (auth) {
+      const unsubscribe = auth.onAuthStateChanged((user) => {
+        if (user) {
+          loadHistory(user.uid);
+        } else {
+          setIsLoadingHistory(false);
+        }
+      });
+      return () => {
+        active = false;
+        unsubscribe();
+      };
+    } else {
+      setIsLoadingHistory(false);
+    }
+  }, [initialChatId, giant.slug, locale]);
   
   const scrollToBottom = (behavior: ScrollBehavior = "smooth") => {
     if (messagesEndRef.current) {
@@ -120,7 +172,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       const ourGiant = giantsData.find(g => g.slug === giant.slug);
       const persona = ourGiant?.persona || "";
       
-      // 이전 메시지들을 API 형식으로 변환 (현재 유저 메시지 제외)
+      // Convert messages to API shape
       const history = messages.map(msg => ({
         role: msg.role === "user" ? "user" : "assistant",
         content: msg.content
@@ -138,24 +190,23 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       setMessages((prev) => [...prev, giantMessage])
       setIsTyping(false)
 
-      // -------------------------------------------------------------
-      // FIRESTORE AUTO-SAVE LOGIC
-      // -------------------------------------------------------------
+      // FIRESTORE AUTO-SAVE LOGIC (Isolated by locale)
       if (auth?.currentUser && db) {
         const userId = auth.currentUser.uid;
-        const chatDocId = `${userId}_${giant.slug}`;
+        const chatDocId = `${userId}_${giant.slug}_${locale}`;
         const chatRef = doc(db, "chats", chatDocId);
 
         try {
           await setDoc(chatRef, {
             userId: userId,
-            giantId: giant.slug, // Using slug as ID for consistency
+            giantId: giant.slug,
             giantSlug: giant.slug,
             giantName: tg(`${giant.slug}.name`),
-            giantImage: giant.imageUrl, // Save the image URL for thumbnails
+            giantImage: giant.imageUrl,
             lastMessage: response,
             updatedAt: serverTimestamp(),
-            messageCount: messages.length + 2, // Current + User + Giant
+            messageCount: messages.length + 2,
+            locale: locale,
             messages: arrayUnion(
               {
                 id: userMessage.id,
@@ -176,7 +227,6 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
           console.error("[Firestore Sync Error]:", fsError);
         }
       }
-      // -------------------------------------------------------------
     } catch (error) {
       console.error("Chat error:", error);
       setHasError(true)
@@ -188,7 +238,6 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       }
       setMessages((prev) => [...prev, errorMessage])
     } finally {
-      // Ensure typing indicator is off in case of error
       setIsTyping(false)
     }
   }
@@ -196,20 +245,13 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
   const handleRetry = () => {
     const lastUserMessage = [...messages].reverse().find(m => m.role === "user");
     if (lastUserMessage) {
-      // Remove the last error message if it exists
       setMessages(prev => {
         if (prev.length > 0 && prev[prev.length - 1].role === "giant" && prev[prev.length - 1].content === t("error")) {
           return prev.slice(0, -1);
         }
         return prev;
       });
-      
-      // Re-trigger handleSend with the last content
-      const fakeInput = lastUserMessage.content;
-      // We need a way to call handleSend without setting input
-      // So I'll just put it back in input and call handleSend or create a shared logic
-      setInput(fakeInput);
-      // Wait for state update is tricky, so I'll refactor handleSend to accept an optional message
+      setInput(lastUserMessage.content);
     }
   }
   
@@ -217,6 +259,15 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
     setInput(question)
     inputRef.current?.focus()
   }
+
+  const categoryLabel = tgGrid(`categories.${giant.category}`) || 
+    (typeof giant.category === 'string' ? 
+      ({
+        'achievement': '성취',
+        'adversity': '역경',
+        'wisdom': '지혜',
+        'creativity': '창의'
+      } as any)[giant.category.toLowerCase()] : null) || giant.category;
   
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-0 md:p-4 bg-background/80 backdrop-blur-xl">
@@ -251,7 +302,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
             <div>
               <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2">{t("fieldOfWisdom")}</h4>
               <span className="px-2 py-1 rounded-md bg-amber-500/10 text-amber-300 text-xs border border-amber-500/20 inline-block">
-                {giant.field || giant.category}
+                {categoryLabel}
               </span>
             </div>
             
@@ -349,7 +400,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
                     }`}
                   >
                     <p className="text-sm leading-relaxed whitespace-pre-wrap">
-                      {message.content}
+                      {formatMessage(message.content)}
                     </p>
                     {message.role === "giant" && message.content === t("error") && (
                       <button
@@ -364,7 +415,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
                   
                   <div className={`flex items-center gap-2 mt-1.5 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
                     <span className="text-[10px] text-muted-foreground">
-                      {message.timestamp.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+                      {message.timestamp.toLocaleTimeString(locale, { hour: "2-digit", minute: "2-digit" })}
                     </span>
                   </div>
                 </div>
@@ -382,7 +433,9 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
                       <span className="w-2 h-2 bg-amber-400/60 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
                     </div>
                     <span className="text-xs text-muted-foreground ml-2">
-                      {t("contemplating", { name: (tg(`${giant.slug}.name`) || "").split(" ")[0] })}
+                      {locale === 'ko'
+                        ? `${(tg(`${giant.slug}.name`) || "").split(" ")[0]}${getKoreanParticle((tg(`${giant.slug}.name`) || "").split(" ")[0], '이가')} 생각 중입니다...`
+                        : t("contemplating", { name: (tg(`${giant.slug}.name`) || "").split(" ")[0] })}
                     </span>
                   </div>
                 </div>
@@ -394,17 +447,17 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
           
           {/* Suggested questions */}
           {messages.length < 3 && (
-            <div className="px-6 py-3 border-t border-border/50 bg-amber-500/5 overflow-x-auto">
+            <div className="px-6 py-3 border-t border-border/50 bg-amber-500/5">
               <div className="flex items-center gap-2 mb-2">
                 <Lightbulb className="w-4 h-4 text-amber-400/60" />
                 <span className="text-[10px] text-muted-foreground uppercase font-bold tracking-tight">{t("suggestedQuestions")}</span>
               </div>
-              <div className="flex gap-2 pb-1">
+              <div className="flex flex-wrap gap-2 pb-1">
                 {Array.isArray(suggestedQuestions) && suggestedQuestions.map((question, i) => (
                   <button
                     key={i}
                     onClick={() => handleSuggestedQuestion(question)}
-                    className="px-3 py-2 text-xs glass rounded-lg text-muted-foreground hover:text-foreground hover:bg-amber-500/10 transition-all whitespace-nowrap"
+                    className="px-3 py-2 text-xs glass rounded-lg text-muted-foreground hover:text-foreground hover:bg-amber-500/10 transition-all text-left whitespace-normal max-w-full"
                   >
                     {question}
                   </button>
@@ -443,7 +496,14 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
             </div>
             
             <p className="text-center text-[10px] text-muted-foreground mt-3 uppercase tracking-widest font-medium opacity-50">
-              Echoes of the Past • Wisdom Through Time
+              {locale === 'ko' ? "과거의 메아리 • 시간을 초월한 지혜"
+               : locale === 'ja' ? "過去の残響 • 時を超える知恵"
+               : locale === 'de' ? "Echos der Vergangenheit • Weisheit durch die Zeit"
+               : locale === 'es' ? "Ecos del pasado • Sabiduría a través del tempo"
+               : locale === 'fr' ? "Échos du passé • Sagesse à travers le temps"
+               : locale === 'it' ? "Echi del passato • Saggezza attraverso il tempo"
+               : locale === 'pt' ? "Ecos do passado • Sabedoria através do tempo"
+               : "Echoes of the Past • Wisdom Through Time"}
             </p>
           </div>
         </div>

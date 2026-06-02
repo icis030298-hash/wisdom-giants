@@ -19,6 +19,18 @@ interface AIGiantChatProps {
   category: string;
 }
 
+// Helper to render markdown bold (**text**) as <strong> elements
+const formatMessage = (content: string) => {
+  if (!content) return "";
+  const parts = content.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={idx} className="font-bold text-amber-300">{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+};
+
 const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, slug, category, persona: propPersona }) => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
@@ -87,7 +99,7 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, slug, category, pe
                 ? 'bg-gold-antique text-navy-dark font-medium rounded-tr-none' 
                 : 'bg-navy-light/80 text-slate-100 border border-gold-antique/10 rounded-tl-none'
               }`}>
-                <p className="text-sm leading-relaxed whitespace-pre-wrap">{msg.content}</p>
+                <p className="text-sm leading-relaxed whitespace-pre-wrap">{formatMessage(msg.content)}</p>
               </div>
             </motion.div>
           ))}
