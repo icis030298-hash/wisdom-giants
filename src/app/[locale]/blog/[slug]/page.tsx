@@ -283,7 +283,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
 
   const absoluteImageUrl = giant
     ? giant.imageUrl
-    : "/images/giants/cleopatra.png"
+    : "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
 
   // Related posts (same category, up to 3 excluding current)
   const related = blogPosts
@@ -343,9 +343,6 @@ export default async function BlogPostDetailPage({ params }: Props) {
                 src={absoluteImageUrl}
                 alt={giant?.name || "Cleopatra"}
                 className="w-full h-full object-cover scale-110"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
-                }}
               />
             </div>
             <div>
