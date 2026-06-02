@@ -278,11 +278,11 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       } as any)[giant.category.toLowerCase()] : null) || giant.category;
   
   return (
-    <div className="fixed inset-0 z-50 flex flex-col md:items-center md:justify-center p-0 md:p-4 bg-background/85 md:backdrop-blur-xl overflow-hidden h-[100dvh]">
+    <div className="fixed inset-0 z-50 flex flex-col md:items-center md:justify-center p-0 md:p-4 bg-background/85 md:backdrop-blur-xl overflow-hidden h-[100dvh] overscroll-contain">
       {/* Ambient glow */}
       <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-gradient-to-br ${giant.color} opacity-30 blur-3xl pointer-events-none`} />
       
-      <div className="relative w-full max-w-5xl h-full md:h-[90vh] md:max-h-[800px] glass-card rounded-none md:rounded-3xl overflow-hidden flex flex-col md:flex-row animate-fade-in-up flex-1 md:flex-none">
+      <div className="relative w-full max-w-md mx-auto md:max-w-5xl h-full md:h-[90vh] md:max-h-[800px] glass-card rounded-none md:rounded-3xl overflow-hidden flex flex-col md:flex-row animate-fade-in-up flex-1 md:flex-none">
         {/* Detail View (Left on desktop) */}
         <div className="hidden md:flex w-80 lg:w-96 border-r border-border/50 flex-col bg-muted/30 shrink-0">
           <div className="relative aspect-[4/5] w-full overflow-hidden">
@@ -370,7 +370,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
           )}
 
           {/* Independently Scrollable Messages Area */}
-          <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar min-h-0">
+          <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar min-h-0 overscroll-contain">
             {isLoadingHistory ? (
               <div className="flex flex-col items-center justify-center h-full gap-3 text-muted-foreground">
                 <div className="w-6 h-6 border-2 border-amber-500/40 border-t-amber-500 rounded-full animate-spin" />
