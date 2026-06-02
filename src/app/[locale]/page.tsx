@@ -141,7 +141,7 @@ const debateCTATranslations: Record<string, { titlePre: string; titlePost: strin
   },
   ja: {
     titlePre: "世紀の名著がぶつかり合う",
-    titlePost: "「偉인들의究極討論室」",
+    titlePost: "「偉人たちの究極の討論室」",
     desc: "「お金で幸せは買えるか？」アリストテレスとニーチェが繰り広げる白熱した思想論争をリアルタイムで観戦・参加しましょう。",
     button: "討論を観戦・参加する"
   },

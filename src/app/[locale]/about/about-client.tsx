@@ -80,7 +80,7 @@ export function AboutPageClient() {
       <section className="py-24 px-4 bg-gradient-to-b from-transparent via-amber-500/5 to-transparent">
         <div className="max-w-6xl mx-auto space-y-16">
           <motion.div {...fadeInUp} className="text-center space-y-4">
-            <h2 className="text-3xl md:text-5xl font-serif font-bold">The Pillars of Wisdom</h2>
+            <h2 className="text-3xl md:text-5xl font-serif font-bold">{t("pillarsOfWisdom")}</h2>
             <div className="w-20 h-1 bg-amber-500 mx-auto rounded-full" />
           </motion.div>
 
