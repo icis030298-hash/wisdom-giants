@@ -72,8 +72,10 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
   const [hasError, setHasError] = useState(false)
   const [isLoadingHistory, setIsLoadingHistory] = useState(true)
   const [isRestoredChat, setIsRestoredChat] = useState(false)
+  
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+  const sendingRef = useRef(false) // Ref lock to completely prevent double-tap concurrent API calls
 
   useEffect(() => {
     let active = true;
@@ -149,12 +151,20 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
   }, [messages, isTyping])
   
   useEffect(() => {
+    document.body.style.overflow = "hidden"
     inputRef.current?.focus()
     scrollToBottom("auto")
+    return () => {
+      document.body.style.overflow = ""
+    }
   }, [])
   
   const handleSend = async () => {
-    if (!input.trim() || isTyping) return
+    if (!input.trim() || isTyping || sendingRef.current) return
+    
+    sendingRef.current = true;
+    setIsTyping(true)
+    setHasError(false)
     
     const userMessage: Message = {
       id: Date.now().toString(),
@@ -165,8 +175,6 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
     
     setMessages((prev) => [...prev, userMessage])
     setInput("")
-    setIsTyping(true)
-    setHasError(false)
     
     try {
       const ourGiant = giantsData.find(g => g.slug === giant.slug);
@@ -178,7 +186,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
         content: msg.content
       }));
       
-      const response = await getGiantResponse(persona, input, giant.name, history, locale);
+      const response = await getGiantResponse(persona, userMessage.content, giant.name, history, locale);
       
       const giantMessage: Message = {
         id: (Date.now() + 1).toString(),
@@ -188,7 +196,6 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       }
       
       setMessages((prev) => [...prev, giantMessage])
-      setIsTyping(false)
 
       // FIRESTORE AUTO-SAVE LOGIC (Isolated by locale)
       if (auth?.currentUser && db) {
@@ -238,6 +245,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       }
       setMessages((prev) => [...prev, errorMessage])
     } finally {
+      sendingRef.current = false;
       setIsTyping(false)
     }
   }
@@ -270,13 +278,13 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       } as any)[giant.category.toLowerCase()] : null) || giant.category;
   
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-0 md:p-4 bg-background/80 backdrop-blur-xl">
+    <div className="fixed inset-0 z-50 flex flex-col md:items-center md:justify-center p-0 md:p-4 bg-background/85 md:backdrop-blur-xl overflow-hidden h-[100dvh]">
       {/* Ambient glow */}
       <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-gradient-to-br ${giant.color} opacity-30 blur-3xl pointer-events-none`} />
       
-      <div className="relative w-full max-w-5xl h-[100dvh] md:h-[90vh] md:max-h-[800px] glass-card rounded-none md:rounded-3xl overflow-hidden flex flex-col md:flex-row animate-fade-in-up">
+      <div className="relative w-full max-w-5xl h-full md:h-[90vh] md:max-h-[800px] glass-card rounded-none md:rounded-3xl overflow-hidden flex flex-col md:flex-row animate-fade-in-up flex-1 md:flex-none">
         {/* Detail View (Left on desktop) */}
-        <div className="hidden md:flex w-80 lg:w-96 border-r border-border/50 flex-col bg-muted/30">
+        <div className="hidden md:flex w-80 lg:w-96 border-r border-border/50 flex-col bg-muted/30 shrink-0">
           <div className="relative aspect-[4/5] w-full overflow-hidden">
             <Image 
               src={giant.imageUrl} 
@@ -321,9 +329,9 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
         </div>
 
         {/* Chat Area (Right on desktop) */}
-        <div className="flex-1 flex flex-col min-w-0 bg-background/50">
-          {/* Header */}
-          <div className="px-6 py-4 border-b border-border/50 flex items-center justify-between gap-4">
+        <div className="flex-1 flex flex-col min-w-0 bg-background/50 h-full overflow-hidden relative">
+          {/* Pinned Sticky Header */}
+          <div className="px-6 py-4 border-b border-border/50 flex items-center justify-between gap-4 bg-background/95 backdrop-blur-md sticky top-0 z-20 shrink-0">
             <div className="flex items-center gap-3">
               <div className="relative w-10 h-10 rounded-full overflow-hidden bg-muted flex items-center justify-center shrink-0 ring-2 ring-amber-500/20">
                 <Image 
@@ -346,7 +354,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
             <div className="flex items-center gap-2">
               <button 
                 onClick={onClose}
-                className="p-2 rounded-lg glass hover:bg-red-500/10 text-muted-foreground hover:text-red-400 transition-all"
+                className="p-2 rounded-lg glass hover:bg-red-500/10 text-muted-foreground hover:text-red-400 transition-all cursor-pointer"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -355,14 +363,14 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
           
           {/* Restored chat badge */}
           {isRestoredChat && (
-            <div className="px-5 py-2 bg-amber-500/10 border-b border-amber-500/20 flex items-center justify-center gap-2 text-xs text-amber-400 font-medium">
+            <div className="px-5 py-2 bg-amber-500/10 border-b border-amber-500/20 flex items-center justify-center gap-2 text-xs text-amber-400 font-medium shrink-0">
               <History className="w-3 h-3" />
               {locale === 'ko' ? '이전 대화 이어가기' : 'Continue Previous Chat'}
             </div>
           )}
 
-          {/* Messages area */}
-          <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar">
+          {/* Independently Scrollable Messages Area */}
+          <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar min-h-0">
             {isLoadingHistory ? (
               <div className="flex flex-col items-center justify-center h-full gap-3 text-muted-foreground">
                 <div className="w-6 h-6 border-2 border-amber-500/40 border-t-amber-500 rounded-full animate-spin" />
@@ -445,9 +453,9 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
             <div ref={messagesEndRef} />
           </div>
           
-          {/* Suggested questions */}
-          {messages.length < 3 && (
-            <div className="px-6 py-3 border-t border-border/50 bg-amber-500/5">
+          {/* Suggested questions (disappears instantly on first submit for clean layout) */}
+          {messages.length === 1 && (
+            <div className="px-6 py-3 border-t border-border/50 bg-amber-500/5 shrink-0">
               <div className="flex items-center gap-2 mb-2">
                 <Lightbulb className="w-4 h-4 text-amber-400/60" />
                 <span className="text-[10px] text-muted-foreground uppercase font-bold tracking-tight">{t("suggestedQuestions")}</span>
@@ -457,7 +465,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
                   <button
                     key={i}
                     onClick={() => handleSuggestedQuestion(question)}
-                    className="px-3 py-2 text-xs glass rounded-lg text-muted-foreground hover:text-foreground hover:bg-amber-500/10 transition-all text-left whitespace-normal max-w-full"
+                    className="px-3 py-2 text-xs glass rounded-lg text-muted-foreground hover:text-foreground hover:bg-amber-500/10 transition-all text-left whitespace-normal max-w-full cursor-pointer"
                   >
                     {question}
                   </button>
@@ -466,10 +474,10 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
             </div>
           )}
           
-          {/* Input area */}
-          <div className="px-6 py-4 border-t border-border/50 bg-background/95 backdrop-blur-md relative z-10">
+          {/* Pinned Sticky Input Area */}
+          <div className="px-6 py-4 border-t border-border/50 bg-background/95 backdrop-blur-md relative z-10 shrink-0 sticky bottom-0">
             <div className="flex items-center gap-3">
-              <button className="p-2.5 rounded-xl glass hover:bg-amber-500/10 text-muted-foreground hover:text-amber-400 transition-all">
+              <button className="p-2.5 rounded-xl glass hover:bg-amber-500/10 text-muted-foreground hover:text-amber-400 transition-all cursor-pointer">
                 <RefreshCw className="w-5 h-5" />
               </button>
               
@@ -479,9 +487,14 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
                   type="text"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
-                  onKeyDown={(e) => e.key === "Enter" && handleSend()}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                      if (e.nativeEvent.isComposing) return;
+                      handleSend();
+                    }
+                  }}
                   placeholder={t("inputPlaceholder", { name: (tg(`${giant.slug}.name`) || "").split(" ")[0] })}
-                  className="w-full px-5 py-3 rounded-xl glass-card bg-transparent border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all pr-12"
+                  className="w-full px-5 py-3 rounded-xl glass-card bg-transparent border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all pr-12 text-sm"
                 />
                 <Sparkles className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-amber-400/40" />
               </div>
@@ -489,7 +502,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
               <button
                 onClick={handleSend}
                 disabled={!input.trim() || isTyping}
-                className="p-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground hover:shadow-lg hover:shadow-amber-500/25 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+                className="p-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground hover:shadow-lg hover:shadow-amber-500/25 disabled:opacity-50 disabled:cursor-not-allowed transition-all cursor-pointer"
               >
                 <Send className="w-5 h-5" />
               </button>

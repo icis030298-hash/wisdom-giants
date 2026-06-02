@@ -273,6 +273,7 @@ export function DebateRoomClient() {
   const isAutoScrollingRef = useRef(false)
   const typewriterIntervalRef = useRef<NodeJS.Timeout | null>(null)
   const typewriterSkipRef = useRef<(() => void) | null>(null)
+  const sendingInterjectionRef = useRef(false)
 
   const baseMaxRounds = selectedGiants.length === 2 ? 8 : (selectedGiants.length === 3 ? 9 : 8);
   const maxRounds = baseMaxRounds + additionalRounds;
@@ -678,8 +679,9 @@ export function DebateRoomClient() {
 
   // Handle User Interjection Submission
   const handleSendInterjection = () => {
-    if (!interjectInput.trim() || isAiContemplating) return;
+    if (!interjectInput.trim() || isAiContemplating || sendingInterjectionRef.current) return;
 
+    sendingInterjectionRef.current = true;
     setShowInteractionPrompt(false);
 
     // 만약 현재 다른 위인이 타이핑 중(isTypewriting)이라면, 
@@ -705,6 +707,10 @@ export function DebateRoomClient() {
 
     // Force continue debate with next giant immediately reacting to it
     setAutoDebateActive(true);
+
+    setTimeout(() => {
+      sendingInterjectionRef.current = false;
+    }, 100);
   }
 
   // End Debate and view results
@@ -1420,7 +1426,12 @@ export function DebateRoomClient() {
                   type="text"
                   value={interjectInput}
                   onChange={(e) => setInterjectInput(e.target.value)}
-                  onKeyDown={(e) => e.key === "Enter" && handleSendInterjection()}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                      if (e.nativeEvent.isComposing) return;
+                      handleSendInterjection();
+                    }
+                  }}
                   placeholder={t("interject")}
                   disabled={isAiContemplating}
                   className="w-full px-5 py-3 rounded-xl glass-card bg-slate-950/60 border border-white/10 text-slate-100 placeholder:text-slate-500 text-xs focus:outline-none focus:border-amber-500/50 pr-12 disabled:opacity-50"
