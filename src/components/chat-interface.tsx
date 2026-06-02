@@ -487,6 +487,11 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
                   type="text"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
+                  onFocus={() => {
+                    setTimeout(() => {
+                      scrollToBottom("smooth");
+                    }, 300);
+                  }}
                   onKeyDown={(e) => {
                     if (e.key === "Enter") {
                       if (e.nativeEvent.isComposing) return;

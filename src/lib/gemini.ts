@@ -46,77 +46,132 @@ Abaixo está a sua personalidade e filosofia (Persona):
 ${persona}`
   };
 
-  const isShortQuery = message.trim().length < 30;
+  const isFirstUserMessage = !history.some(m => m.role === "user" || m.speaker === "user");
+  const isLengthComplaint = message.toLowerCase().includes("too long") || 
+                            message.includes("너무 길어") || 
+                            message.includes("길어") || 
+                            message.includes("길다") || 
+                            message.toLowerCase().includes("shorten") || 
+                            message.includes("짧게");
+  const isShortQuery = message.trim().length < 30 || isLengthComplaint;
 
-  const dynamicInstructionMap: Record<string, Record<'short' | 'long', string>> = {
+  // Decide mode
+  let mode: 'first' | 'short' | 'long' = 'long';
+  if (isFirstUserMessage) {
+    mode = 'first';
+  } else if (isShortQuery) {
+    mode = 'short';
+  }
+
+  const dynamicInstructionMap: Record<string, Record<'first' | 'short' | 'long', string>> = {
     ko: {
-      short: `\n\n[중요 지침 - 단문 대화 모드]
-사용자의 질문/메시지가 30자 미만으로 매우 짧거나 단순합니다. 이에 맞춰 다음 규칙을 엄격히 준수하십시오:
-1. 답변은 군더더기 없이 극도로 간결하게 작성하고, 절대 2문단(전체 3줄)을 초과하지 마십시오. 장황한 업적 자랑이나 연설은 완전히 배제하십시오.
-2. 답변의 마지막 줄에는 반드시 사용자의 생각을 다시 되묻거나, 호기심을 극대화하여 타이핑을 유도하는 '역질문(Counter-Question)'을 한 줄 추가하십시오.`,
+      first: `\n\n[초비상 중요 지침 - 추천 질문/첫 대화 터치 모드]
+이것은 사용자가 가볍게 대화를 시작하기 위해 누른 첫 질문입니다. 사용자가 역사책 읽듯 지루함을 느끼지 않도록 아래 규칙을 절대 준수하십시오:
+1. 답변은 **[무조건 단 1문장(공백 포함 80자 이내)]**으로만 극도로 간결하게 작성하십시오. 거창한 배경 설명이나 업적 자랑은 100% 생략하십시오.
+2. 문장 끝에는 독자에게 생각을 깔끔하게 넘기는 **[심플하고 톡 쏘는 역질문 한 줄]**만 던지십시오.
+   - 예시: "나는 프랑스를 혼돈에서 구하기 위해 법을 세웠네. 자네라면 법과 자유 중 무엇을 먼저 세우겠나?"`,
+      short: `\n\n[초비상 중요 지침 - 단문/길이 불만 대응 모드]
+사용자의 질문이 짧거나 "너무 길다", "짧게 말해라" 등 단축을 요구하고 있습니다.
+1. 이번 답변은 **[무조건 최대 2문장, 전체 공백 포함 150자 이하]**로 철저히 하드컷(Hard-cut)하여 대답하십시오. 장황한 수식어는 배제하십시오.
+2. 답변 끝에는 사용자에게 대화의 주도권을 넘기는 **[담백한 역질문 한 줄(예: "자네는 어떻게 생각하나?")]**로 가볍게 유도하십시오.`,
       long: `\n\n[중요 지침 - 장문 대화 모드]
-사용자가 30자 이상의 깊이 있고 상세한 질문을 작성했습니다.
-1. 거인의 깊은 역사적 통찰을 보여주기 위해 3~4문단 분량으로 진중하고 상세하며 심도 깊은 답변을 조언해 주십시오.`
+사용자가 30자 이상의 깊이 있고 진지한 질문을 작성했습니다.
+1. 거인의 깊은 역사적 통찰을 보여주기 위해 3~4문단 분량으로 진중하고 상세하며 깊이 있는 조언을 해 주십시오.`
     },
     en: {
-      short: `\n\n[IMPORTANT INSTRUCTION - SHORT CONVERSATION MODE]
-The user's query is very short (under 30 chars). You must strictly adhere to the following rules:
-1. Keep your reply extremely brief. Under no circumstances should it exceed 2 paragraphs (max 3 lines in total). Absolutely avoid long speeches.
-2. The final sentence must be an engaging, thought-provoking 'Counter-Question' that directly asks for the user's opinion to prompt their next input.`,
+      first: `\n\n[CRITICAL INSTRUCTION - SUGGESTED QUESTION / FIRST TOUCH MODE]
+This is the very first touchpoint. To avoid cognitive fatigue, you must strictly follow these rules:
+1. Your response **[MUST BE STRICTLY ONLY 1 SENTENCE (under 80 characters)]**. Completely omit grandiose descriptions or speeches.
+2. The sentence must conclude with **[exactly one simple counter-question]**.
+   - Example: "I built laws to bring order out of chaos. What would you build first: order or freedom?"`,
+      short: `\n\n[CRITICAL INSTRUCTION - SHORT / LENGTH COMPLAINT MODE]
+The user's query is short or they are complaining about length (e.g. "too long").
+1. Your response **[MUST BE STRICTLY MAXIMUM 2 SENTENCES, and under 150 characters in total]**. Hard-cut the length.
+2. End with **[exactly one simple counter-question (e.g. "What do you think?")]** to prompt their typing.`,
       long: `\n\n[IMPORTANT INSTRUCTION - IN-DEPTH MODE]
 The user has provided a deep, detailed question (30+ chars).
-1. Offer a profound, detailed answer spanning 3-4 paragraphs reflecting your maximum wisdom and historical insight.`
+1. Offer a profound, detailed answer spanning 3-4 paragraphs reflecting your wisdom and historical insight.`
     },
     de: {
-      short: `\n\n[WICHTIGE ANWEISUNG - KURZMODUS]
-Die Benutzereingabe ist sehr kurz (unter 30 Zeichen). Sie müssen folgende Regeln einhalten:
-1. Antworten Sie extrem kurz. Auf keinen Fall 2 Absätze (max. 3 Zeilen insgesamt) überschreiten. Vermeiden Sie lange Reden.
-2. Der letzte Satz muss eine anregende Gegenfrage sein, die den Benutzer nach seiner Meinung fragt, um eine weitere Eingabe anzuregen.`,
-      long: `\n\n[WICHTIGE ANWEISUNG - DETILLIERTER MODUS]
+      first: `\n\n[KRITISCHE ANWEISUNG - ERSTER MODUS]
+Dies ist die allererste Frage. Um Ermüdung vorzubeugen, halten Sie sich streng an folgende Regeln:
+1. Ihre Antwort **[DARF STRENG NUR 1 SATZ SEIN (unter 80 Zeichen)]**. Keine langen Eigendarstellungen.
+2. Der Satz muss mit **[genau einer einfachen Gegenfrage]** enden.
+   - Beispiel: "Ich habe Gesetze erlassen, um Ordnung zu schaffen. Was würdest du zuerst wählen: Ordnung oder Freiheit?"`,
+      short: `\n\n[KRITISCHE ANWEISUNG - REKLAMATION KURZMODUS]
+Die Eingabe ist kurz oder beschwerlich.
+1. Ihre Antwort **[MUSS STRENG MAXIMAL 2 SÄTZE und insgesamt unter 150 Zeichen sein]**.
+2. Beenden Sie mit **[genau einer einfachen Gegenfrage (z. B. "Was denkst du?")]**.`,
+      long: `\n\n[WICHTIGE ANWEISUNG - TIEFENMODUS]
 Der Benutzer hat eine tiefgründige Frage gestellt (30+ Zeichen).
-1. Bieten Sie eine ausführliche und detaillierte Antwort über 3-4 Absätze hinweg, die Ihre Weisheit widerspiegelt.`
+1. Bieten Sie eine ausführliche und detaillierte Antwort über 3-4 Absätze hinweg.`
     },
     ja: {
-      short: `\n\n[重要指示 - 短文モード]
-ユーザーの入力が30文字未満と非常に短い状態です。以下のルールを厳格に遵守してください：
-1. 回答は極めて簡潔にし、絶対に2段落（全体で最大3行）を超えないようにしてください。長話は完全に排除してください。
-2. 回答の最後の1行は、必ずユーザーの意見を問い返す「逆質問（Counter-Question）」を投げかけてください。`,
+      first: `\n\n[極めて重要な指示 - 初回タッチ/おすすめ質問モード]
+これはユーザーの最初のアクションです。会話の疲労感を防ぐため、以下のルールを厳格に遵守してください：
+1. 回答は**【無条件で厳格にたった1文（最大80文字以内）】**のみに制限してください。長い業績説明は排除してください。
+2. 回答の最後には、ユーザーにバトンを渡す**【シンプルで知的刺激のある逆質問1文】**を含めてください。
+   - 例：「私は混乱の中に秩序を築くため法を定めた。君なら秩序と自由、どちらを先に築くかね？」`,
+      short: `\n\n[極めて重要な指示 - 短文/長さへの不満対応モード]
+ユーザーの入力が短いか、「長すぎる」などの不満を表現しています。
+1. 回答は**【無条件で最大2文、空白込みで合計150文字以下】**に強制制限してください。
+2. 最後は**【「君はどう思うかね？」などのシンプルな逆質問1文】**で締めくくってください。`,
       long: `\n\n[重要指示 - 長文モード]
 ユーザーが30文字以上の深い質問を寄せています。
 1. 偉人としての知的深みが伝わるよう、3〜4段落の分量で重厚かつ詳細に助言を授けてください。`
     },
     es: {
-      short: `\n\n[INSTRUCCIÓN IMPORTANTE - MODO CORTO]
-La entrada del usuario es corta (menos de 30 caracteres). Sigue estas reglas:
-1. Responde de forma muy breve. Nunca superes los 2 párrafos (máximo 3 líneas en total). Evita discursos largos.
-2. La última frase debe ser una contrapregunta que indague sobre la opinión del usuario para incentivar la conversación.`,
+      first: `\n\n[INSTRUCCIÓN CRÍTICA - PRIMER CONTACTO]
+Esta es la primera interacción. Para evitar fatiga, sigue estrictamente estas reglas:
+1. Tu respuesta **[DEBE SER ESTRICTAMENTE DE SOLO 1 FRASE (menos de 80 caracteres)]**. Omita logros.
+2. Concluye con **[exactamente una contrapregunta simple]**.
+   - Ejemplo: "Creé leyes para traer orden. ¿Qué establecerías primero: orden o libertad?"`,
+      short: `\n\n[INSTRUCCIÓN CRÍTICA - MODO CORTO / QUEJA DE LONGITUD]
+La entrada es corta o se queja de la longitud.
+1. Tu respuesta **[DEBE TENER MÁXIMO 2 FRASES y menos de 150 caracteres en total]**.
+2. Termina con **[exactamente una contrapregunta simple (ej. "¿Tú qué opinas?")]**.`,
       long: `\n\n[INSTRUCCIÓN IMPORTANTE - MODO DETALLADO]
 El usuario ha formulado una pregunta profunda (más de 30 caracteres).
-1. Ofrece una respuesta detallada de 3-4 párrafos que refleje tu sabiduría.`
+1. Ofrece una respuesta detallada de 3-4 párrafos.`
     },
     fr: {
-      short: `\n\n[INSTRUCTION IMPORTANTE - MODE COURT]
-La question de l'utilisateur est courte (moins de 30 caractères). Respectez ces règles :
-1. Soyez très bref. Ne dépassez jamais 2 paragraphes (maximum 3 lignes au total). Pas de longs discours.
-2. La phrase finale doit être une contre-question stimulante demandant l'avis de l'utilisateur pour l'inciter à répondre.`,
+      first: `\n\n[INSTRUCTION CRITIQUE - PREMIER CONTACT]
+C'est le tout premier message. Pour éviter la fatigue cognitive, suivez ces règles :
+1. Votre réponse **[DOIT ÊTRE STRICTEMENT COMPOSÉE D'UNE SEULE PHRASE (moins de 80 caractères)]**. Pas de discours.
+2. Terminez par **[exactement une contre-question simple]**.
+   - Exemple: "J'ai créé des lois pour instaurer l'ordre. Que choisiriez-vous en premier: l'ordre ou la liberté ?"`,
+      short: `\n\n[INSTRUCTION CRITIQUE - MODE COURT / PLAINTE DE LONGUEUR]
+L'entrée est courte ou se plaint de la longueur.
+1. Votre réponse **[DOIT COMPRENDRE MAXIMUM 2 PHRASES et moins de 150 caractères au total]**.
+2. Finissez par **[une contre-question simple (ex: "Qu'en pensez-vous ?")]**.`,
       long: `\n\n[INSTRUCTION IMPORTANTE - MODE EN PROFONDEUR]
 L'utilisateur a posé une question profonde (plus de 30 caractères).
 1. Proposez une réponse détaillée de 3-4 paragraphes.`
     },
     it: {
-      short: `\n\n[ISTRUZIONE IMPORTANTE - MODALITÀ BREVE]
-L'input è molto breve (meno di 30 caratteri). Rispetta le seguenti regole:
-1. Rispondi in modo estremamente conciso. Non superare mai i 2 paragrafi (massimo 3 righe in totale).
-2. L'ultima frase deve essere una contro-domanda stimolante per chiedere l'opinione dell'utente.`,
+      first: `\n\n[ISTRUZIONE CRITICA - PRIMO CONTATTO]
+Questa è la prima interazione. Per evitare l'affaticamento, rispetta queste regole:
+1. La risposta **[DEVE ESSERE RIGOROSAMENTE DI UNA SOLA FRASE (meno di 80 caratteri)]**.
+2. Concludi con **[esattamente una contro-domanda semplice]**.
+   - Esempio: "Ho creato leggi per portare l'ordine. Cosa sceglieresti prima: ordine o libertà?"`,
+      short: `\n\n[ISTRUZIONE CRITICA - MODALITÀ BREVE / COMPLAINT DI LUNGHEZZA]
+L'input è breve o si lamenta della lunghezza.
+1. La risposta **[DEVE ESSERE DI MASSIMO 2 FRASI e meno di 150 caratteri in totale]**.
+2. Termina con **[esattamente una contro-domanda semplice (es: "Tu cosa ne pensi?")]**.`,
       long: `\n\n[ISTRUZIONE IMPORTANTE - MODALITÀ APPROFONDITA]
 L'utente ha posto una domanda dettagliata (più di 30 caratteri).
 1. Offri una risposta dettagliata di 3-4 paragrafi.`
     },
     pt: {
-      short: `\n\n[INSTRUÇÃO IMPORTANTE - MODO CURTO]
-A entrada do usuário é curta (menos de 30 caracteres). Siga estas regras:
-1. Responda de forma extremamente breve. Não exceda 2 parágrafos (máximo 3 linhas no total).
-2. A frase final deve ser uma contrapergunta que peça a opinião do usuário para convidá-lo a responder.`,
+      first: `\n\n[INSTRUÇÃO CRÍTICA - PRIMEIRO CONTATTO]
+Esta é a primeira interação. Para evitar fadiga, siga estas regras estritamente:
+1. Sua resposta **[DEVE SER ESTRICTAMENTE DE APENAS 1 FRASE (menos de 80 caracteres)]**.
+2. Termine com **[exatamente uma contrapergunta simples]**.
+   - Exemplo: "Criei leis para trazer ordem. O que você escolheria primeiro: ordem ou liberdade?"`,
+      short: `\n\n[INSTRUÇÃO CRÍTICA - MODO CURTO / RECLAMAÇÃO DE COMPRIMENTO]
+A entrada é curta ou reclama do comprimento.
+1. Sua resposta **[DEVE TER NO MÁXIMO 2 FRASES e menos de 150 caracteres no total]**.
+2. Termine com **[uma contrapergunta simples (ex: "O que você acha?")]**.`,
       long: `\n\n[INSTRUÇÃO IMPORTANTE - MODO PROFUNDO]
 O usuário fez uma pergunta profunda (mais de 30 caracteres).
 1. Ofereça uma resposta profunda de 3-4 parágrafos.`
@@ -124,7 +179,7 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
   };
 
   const sysPromptBase = promptMap[locale] || promptMap['en'];
-  const dynamicInstruction = (dynamicInstructionMap[locale] || dynamicInstructionMap['en'])[isShortQuery ? 'short' : 'long'];
+  const dynamicInstruction = (dynamicInstructionMap[locale] || dynamicInstructionMap['en'])[mode];
   const sysPrompt = sysPromptBase + dynamicInstruction;
 
 
