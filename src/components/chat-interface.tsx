@@ -180,11 +180,28 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       const ourGiant = giantsData.find(g => g.slug === giant.slug);
       const persona = ourGiant?.persona || "";
       
-      // Convert messages to API shape
-      const history = messages.map(msg => ({
-        role: msg.role === "user" ? "user" : "assistant",
+      // Convert messages to Gemini-compliant history format
+      // Gemini requires STRICTLY: role: 'user' or role: 'model' (NOT 'assistant')
+      // AND the sequence must alternate user->model->user (no consecutive same roles)
+      const rawHistory = messages.map(msg => ({
+        role: msg.role === "user" ? "user" as const : "model" as const,
         content: msg.content
       }));
+
+      // Enforce strict alternation - remove any leading non-user turns and deduplicate
+      let history: { role: "user" | "model"; content: string }[] = [];
+      for (const msg of rawHistory) {
+        if (history.length === 0) {
+          // History must start with 'user'
+          if (msg.role === "user") history.push(msg);
+        } else {
+          // Only add if role is different from last entry
+          if (msg.role !== history[history.length - 1].role) {
+            history.push(msg);
+          }
+        }
+      }
+
       
       const response = await getGiantResponse(persona, userMessage.content, giant.name, history, locale);
       

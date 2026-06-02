@@ -196,16 +196,34 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
         systemInstruction: sysPrompt 
       });
 
-      // 대화 내역(history) 처리
-      let filteredMessages = history || [];
-      if (filteredMessages.length > 0 && filteredMessages[0].role !== "user") {
-        filteredMessages = filteredMessages.slice(1);
-      }
+      // 대화 내역(history) 처리 - Gemini requires strict user->model alternation
+      // role must be exactly 'user' or 'model' (NOT 'assistant', NOT 'system')
+      const rawMessages = history || [];
+      
+      // Step 1: Normalize all roles to 'user' or 'model'
+      const normalized = rawMessages
+        .filter((msg: any) => msg.content && String(msg.content).trim().length > 0)
+        .map((msg: any) => ({
+          role: (msg.role === "user" ? "user" : "model") as "user" | "model",
+          content: String(msg.content),
+        }));
 
-      const chatHistory = filteredMessages.map((msg: any) => ({
-        role: msg.role === "user" ? "user" : "model",
-        parts: [{ text: msg.content }],
-      }));
+      // Step 2: Enforce strict alternation starting from 'user'
+      const chatHistory: { role: "user" | "model"; parts: { text: string }[] }[] = [];
+      for (const msg of normalized) {
+        if (chatHistory.length === 0) {
+          if (msg.role === "user") {
+            chatHistory.push({ role: "user", parts: [{ text: msg.content }] });
+          }
+          // Skip non-user leading messages (e.g. opening greeting from giant)
+        } else {
+          const lastRole = chatHistory[chatHistory.length - 1].role;
+          if (msg.role !== lastRole) {
+            chatHistory.push({ role: msg.role, parts: [{ text: msg.content }] });
+          }
+          // Skip consecutive same-role entries (deduplication)
+        }
+      }
 
       const chatSession = model.startChat({
         history: chatHistory,
@@ -214,6 +232,7 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
       const result = await chatSession.sendMessage(message);
       const response = await result.response;
       return response.text();
+
     } catch (error: any) {
       lastError = error;
       console.warn(`[Gemini 2.5 Error]: Failed utilizing model [${modelId}]`, error.message);
