@@ -133,19 +133,6 @@
     "goHome": "Retour à l'Accueil"
   },
   "Giants": {
-    "steve-jobs": {
-      "name": "Steve Jobs",
-      "headline": "L'architecte visionnaire qui a uni la technologie à l'âme humaine.",
-      "shortDescription": "Le voyage épique de Steve Jobs et sa sagesse intemporelle.",
-      "quote": "Soyez affamés, soyez fous.",
-      "era": "20ème Siècle",
-      "chatGreeting": "Salutations, je suis Steve Jobs. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Steve Jobs.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
     "king-sejong": {
       "name": "Le Roi Sejong le Grand",
       "headline": "Le monarque sage qui a créé le Hangeul pour offrir une voix à son peuple et a illuminé une nation.",
@@ -155,21 +142,6 @@
       "chatGreeting": "Salutations, je suis le Roi Sejong le Grand. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
       "suggestedQuestions": [
         "Parlez-moi de votre plus grande réussite, Roi Sejong le Grand.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
-    "elon-musk": {
-      "name": "Elon Musk",
-      "headline": "L'entrepreneur visionnaire qui vise à faire de l'humanité une espèce multi-planétaire.",
-      "shortDescription": "Le voyage épique d'Elon Musk et sa sagesse futuriste.",
-      "quote": "L'échec est une option ici. Si les choses ne échouent pas, c'est que vous n'innovez pas assez.",
-      "era": "Géant du 21ème Siècle",
-      "pain": "Trois explosions consécutives de fusées et un effondrement financier au bord de la faillite.",
-      "recovery": "Un pari final avec toute sa fortune et le dépassement de la crise grâce à la pensée par principes fondamentaux.",
-      "chatGreeting": "Salutations, je suis Elon Musk. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Elon Musk.",
         "Comment avez-vous surmonté vos défis les plus difficiles ?",
         "Quel est le conseil le plus important que vous puissiez me donner ?"
       ]
@@ -278,45 +250,6 @@
         "Quel est le conseil le plus important que vous puissiez me donner ?"
       ]
     },
-    "oprah-winfrey": {
-      "name": "Oprah Winfrey",
-      "headline": "La reine des médias qui a transformé son traumatisme en un pont d'empathie pour le monde.",
-      "shortDescription": "L'histoire inspirante du succès d'Oprah Winfrey.",
-      "quote": "Transformez vos blessures en sagesse.",
-      "era": "Géant moderne",
-      "chatGreeting": "Salutations, je suis Oprah Winfrey. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Oprah Winfrey.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
-    "jk-rowling": {
-      "name": "J.K. Rowling",
-      "headline": "L'auteur qui s'est élevée du fond de l'échec pour créer un monde magique pour des millions de personnes.",
-      "shortDescription": "La vie magique de J.K. Rowling et le garçon qui a survécu.",
-      "quote": "Le fond est devenu le socle solide sur lequel j'ai reconstruit ma vie.",
-      "era": "Géant moderne",
-      "chatGreeting": "Salutations, je suis J.K. Rowling. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, J.K. Rowling.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
-    "nelson-mandela": {
-      "name": "Nelson Mandela",
-      "headline": "Le leader qui a passé 27 ans en prison pour libérer une nation et la guérir par le pardon.",
-      "shortDescription": "La longue marche vers la liberté de Nelson Mandela.",
-      "quote": "Le pardon est une arme puissante.",
-      "era": "Géant du XXe siècle",
-      "chatGreeting": "Salutations, je suis Nelson Mandela. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Nelson Mandela.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
     "helen-keller": {
       "name": "Helen Keller",
       "headline": "L'érudite qui a triomphé du silence et de l'obscurité pour devenir un phare de la volonté humaine.",
@@ -339,19 +272,6 @@
       "chatGreeting": "Salutations, je suis Ludwig van Beethoven. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
       "suggestedQuestions": [
         "Parlez-moi de votre plus grande réussite, Ludwig van Beethoven.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
-    "stephen-hawking": {
-      "name": "Stephen Hawking",
-      "headline": "Le physicien dont l'esprit a parcouru l'univers tandis que son corps était confiné à une chaise.",
-      "shortDescription": "Le voyage céleste de Stephen Hawking.",
-      "quote": "Regardez les étoiles et non vos pieds.",
-      "era": "Géant moderne",
-      "chatGreeting": "Salutations, je suis Stephen Hawking. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Stephen Hawking.",
         "Comment avez-vous surmonté vos défis les plus difficiles ?",
         "Quel est le conseil le plus important que vous puissiez me donner ?"
       ]
@@ -473,19 +393,6 @@
         "Quel est le conseil le plus important que vous puissiez me donner ?"
       ]
     },
-    "mother-teresa": {
-      "name": "Mère Teresa",
-      "headline": "La sainte des bas-fonds qui a vu le visage du divin dans la souffrance des plus pauvres.",
-      "shortDescription": "Le service humble de Mère Teresa.",
-      "quote": "Nous ne pouvons pas tous faire de grandes choses. Mais nous pouvons faire de petites choses avec un grand amour.",
-      "era": "Géant du XXe siècle",
-      "chatGreeting": "Salutations, je suis Mère Teresa. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Mère Teresa.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
     "leonardo-da-vinci": {
       "name": "Léonard de Vinci",
       "headline": "Le génie universel qui a uni l'art et la science pour capturer la symétrie divine du monde.",
@@ -495,45 +402,6 @@
       "chatGreeting": "Salutations, je suis Léonard de Vinci. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
       "suggestedQuestions": [
         "Parlez-moi de votre plus grande réussite, Léonard de Vinci.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
-    "salvador-dali": {
-      "name": "Salvador Dalí",
-      "headline": "Le maître surréaliste qui a peint les paysages du subconscient et défié la logique.",
-      "shortDescription": "Le monde excentrique de Salvador Dalí.",
-      "quote": "N'ayez jamais peur de la perfection : vous ne l'atteindrez jamais.",
-      "era": "Géant du XXe siècle",
-      "chatGreeting": "Salutations, je suis Salvador Dalí. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Salvador Dalí.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
-    "coco-chanel": {
-      "name": "Coco Chanel",
-      "headline": "L'icône de la mode qui a libéré les femmes des corsets et redéfini l'élégance moderne.",
-      "shortDescription": "Le style révolutionnaire de Coco Chanel.",
-      "quote": "L'acte le plus courageux est encore de penser par soi-même. À voix haute.",
-      "era": "Géant du XXe siècle",
-      "chatGreeting": "Salutations, je suis Coco Chanel. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Coco Chanel.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
-    "pablo-picasso": {
-      "name": "Pablo Picasso",
-      "headline": "Le titan de l'art moderne qui a démantelé le monde visible pour en révéler les vérités cachées.",
-      "shortDescription": "La vision transformatrice de Picasso.",
-      "quote": "Chaque enfant est un artiste. Le problème est de rester un artiste une fois devenu grand.",
-      "era": "Géant du XXe siècle",
-      "chatGreeting": "Salutations, je suis Pablo Picasso. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Pablo Picasso.",
         "Comment avez-vous surmonté vos défis les plus difficiles ?",
         "Quel est le conseil le plus important que vous puissiez me donner ?"
       ]
@@ -729,19 +597,6 @@
       "chatGreeting": "Salutations, je suis Simon Bolívar. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
       "suggestedQuestions": [
         "Parlez-moi de votre plus grande réussite, Simon Bolívar.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
-    "margaret-thatcher": {
-      "name": "Margaret Thatcher",
-      "headline": "En 1925, au-dessus d'une épicerie dans la ville de Grantham, Margaret Roberts est née.",
-      "shortDescription": "Le voyage épique et la sagesse de Margaret Thatcher.",
-      "quote": "Surveillez vos pensées, car elles deviennent des mots. Surveillez vos mots, car ils deviennent des actions. Surveillez vos actions, car elles deviennent des habitudes. Surveillez vos habitudes, car elles deviennent votre caractère. Surveillez votre caractère, car il devient votre destin.",
-      "era": "Géante du XXe siècle (1925~2013)",
-      "chatGreeting": "Salutations, je suis Margaret Thatcher. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Margaret Thatcher.",
         "Comment avez-vous surmonté vos défis les plus difficiles ?",
         "Quel est le conseil le plus important que vous puissiez me donner ?"
       ]
@@ -1370,19 +1225,6 @@
         "Quel est le conseil le plus important que vous puissiez me donner ?"
       ]
     },
-    "malala-yousafzai": {
-      "name": "Malala Yousafzai",
-      "headline": "La jeune militante qui a survécu à la balle d'un assassin pour défendre l'éducation de chaque enfant.",
-      "shortDescription": "La voix courageuse de Malala Yousafzai.",
-      "quote": "Un enfant, un professeur, un livre et un stylo peuvent changer le monde.",
-      "era": "Géant Moderne",
-      "chatGreeting": "Salutations, je suis Malala Yousafzai. Cherchez-vous la voie de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
-      "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Malala Yousafzai.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
-      ]
-    },
     "martin-luther-king": {
       "name": "Martin Luther King Jr.",
       "headline": "Le leader animé par un rêve qui a marché pour l'égalité et la justice avec l'arme de l'amour.",
@@ -1447,6 +1289,904 @@
         "Comment avez-vous surmonté vos défis les plus difficiles ?",
         "Quel est le conseil le plus important que vous puissiez me donner ?"
       ]
+    },
+    "king-jeongjo": {
+      "name": "Roi Jeongjo",
+      "title": "Le Roi Réformateur de la Renaissance de Joseon",
+      "headline": "Un monarque visionnaire qui a dirigé la renaissance culturelle et politique de la dynastie Joseon.",
+      "shortDescription": "Le roi Jeongjo a navigué dans les politiques traîtres de la cour après la mort tragique de son père. Il a défendu l'éducation, la science et l'égalité des chances, ouvrant un âge d'or.",
+      "quote": "Le devoir d'un roi est d'assurer le confort de son peuple ; ce n'est qu'alors que la nation peut trouver la paix.",
+      "chatGreeting": "Bienvenue. Je suis Yi San, le roi Jeongjo de Joseon. Cherches-tu la voie de la réforme, ou souhaites-tu parler de la façon de surmonter la tragédie ?",
+      "suggestedQuestions": [
+        "Comment as-tu survécu aux factions politiques après la mort de ton père ?",
+        "Qu'est-ce qui t'a inspiré pour construire la forteresse de Hwaseong ?",
+        "Quel est ton conseil pour surmonter un chagrin profond ?"
+      ],
+      "era": "Géant du 18ème siècle",
+      "pain": "Le traumatisme d'avoir vu son grand-père affamer son père à mort dans un coffre à riz, suivi de constantes tentatives d'assassinat.",
+      "recovery": "Il a pardonné à ses ennemis pour le bien de la nation, a renforcé l'autorité royale et s'est concentré sur le bien-être du peuple."
+    },
+    "jeong-yak-yong": {
+      "name": "Jeong Yak-yong",
+      "title": "Érudit",
+      "headline": "La réforme par la sagesse.",
+      "shortDescription": "Un brillant érudit exilé pendant 18 ans.",
+      "quote": "Le véritable apprentissage doit être pratique.",
+      "chatGreeting": "Salutations. Je suis Jeong Yak-yong.",
+      "suggestedQuestions": [
+        "Comment avez-vous survécu à l'exil ?"
+      ],
+      "era": "1762-1836",
+      "pain": "Exil politique.",
+      "recovery": "Auteur de plus de 500 volumes."
+    },
+    "ahn-jung-geun": {
+      "name": "Ahn Jung-geun",
+      "title": "Patriote",
+      "headline": "Une vie pour la liberté.",
+      "shortDescription": "Militant de l'indépendance coréenne.",
+      "quote": "Je consacre ma vie à l'indépendance.",
+      "chatGreeting": "Je suis Ahn Jung-geun.",
+      "suggestedQuestions": [
+        "Pourquoi avoir assassiné Ito Hirobumi ?"
+      ],
+      "era": "1879-1910",
+      "pain": "Perte de souveraineté.",
+      "recovery": "A inspiré des générations."
+    },
+    "mencius": {
+      "name": "Mencius",
+      "title": "Philosophe",
+      "headline": "La nature humaine est bonne.",
+      "shortDescription": "Défenseur de la droiture.",
+      "quote": "Le peuple est le plus important.",
+      "chatGreeting": "Je suis Mencius.",
+      "suggestedQuestions": [
+        "Pourquoi la nature est-elle bonne ?"
+      ],
+      "era": "372 BC – 289 BC",
+      "pain": "Ignoré par les rois.",
+      "recovery": "A fondé le confucianisme."
+    },
+    "zhuangzi": {
+      "name": "Tchouang-tseu",
+      "title": "Philosophe",
+      "headline": "Liberté sans limites.",
+      "shortDescription": "Maître taoïste.",
+      "quote": "Une grenouille dans un puits ne connaît pas la mer.",
+      "chatGreeting": "Je suis Tchouang-tseu.",
+      "suggestedQuestions": [
+        "Que signifie le rêve du papillon ?"
+      ],
+      "era": "369 BC – 286 BC",
+      "pain": "Pauvreté et pression sociale.",
+      "recovery": "A atteint la liberté spirituelle."
+    },
+    "sima-qian": {
+      "name": "Sima Qian",
+      "title": "Historien",
+      "headline": "Une histoire en sang.",
+      "shortDescription": "A enduré la castration pour terminer son œuvre.",
+      "quote": "Certaines morts sont plus lourdes que des montagnes.",
+      "chatGreeting": "Je suis Sima Qian.",
+      "suggestedQuestions": [
+        "Pourquoi avoir choisi de vivre ?"
+      ],
+      "era": "145 BC – 86 BC",
+      "pain": "Castré pour avoir défendu un général.",
+      "recovery": "A écrit le grand livre d'histoire de la Chine."
+    },
+    "empress-wu-zetian": {
+      "name": "Wu Zetian",
+      "title": "Impératrice",
+      "headline": "La seule femme empereur.",
+      "shortDescription": "L'unique femme empereur de Chine.",
+      "quote": "Je gouverne par ma capacité.",
+      "chatGreeting": "Je suis Wu Zetian.",
+      "suggestedQuestions": [
+        "Comment avez-vous vaincu le patriarcat ?"
+      ],
+      "era": "624 – 705",
+      "pain": "Trahison et préjugés.",
+      "recovery": "A apporté la prospérité à la Chine."
+    },
+    "zhuge-liang": {
+      "name": "Zhuge Liang",
+      "title": "Stratège",
+      "headline": "Un esprit brillant.",
+      "shortDescription": "Stratège légendaire des Trois Royaumes.",
+      "quote": "Jusqu'à mon dernier souffle.",
+      "chatGreeting": "Je suis Zhuge Liang.",
+      "suggestedQuestions": [
+        "Comment avez-vous gagné à la Falaise Rouge ?"
+      ],
+      "era": "181 – 234",
+      "pain": "Défendre l'état le plus faible.",
+      "recovery": "A utilisé une stratégie géniale."
+    },
+    "li-bai": {
+      "name": "Li Bai",
+      "title": "Le Poète Immortel",
+      "headline": "La liberté infinie par la poésie et le vin",
+      "shortDescription": "L'un des plus grands poètes de la dynastie Tang.",
+      "quote": "Si le ciel n'aimait pas le vin...",
+      "chatGreeting": "Salutations, mon ami ! Viens, partage une coupe de vin avec moi.",
+      "suggestedQuestions": [
+        "Comment as-tu trouvé l'inspiration?",
+        "Qu'est-ce que la vraie liberté?",
+        "Comment as-tu géré l'exil?"
+      ],
+      "era": "Dynastie Tang (701–762)",
+      "pain": "Exil politique.",
+      "recovery": "Réconfort dans la nature."
+    },
+    "sun-yat-sen": {
+      "name": "Sun Yat-sen",
+      "title": "Pionnier de la Révolution",
+      "headline": "Consacrer sa vie à la Chine moderne",
+      "shortDescription": "Premier président de la ROC",
+      "quote": "La révolution n'a pas encore réussi.",
+      "chatGreeting": "Je suis Sun Yat-sen. Nous devons continuer à lutter pour le peuple.",
+      "suggestedQuestions": [
+        "Pourquoi déclencher une révolution ?",
+        "Comment gérer l'échec ?",
+        "Que sont les Trois Principes ?"
+      ],
+      "era": "1866-1925",
+      "pain": "Échecs répétés",
+      "recovery": "Persévérance inébranlable"
+    },
+    "tokugawa-ieyasu": {
+      "name": "Tokugawa Ieyasu",
+      "title": "L'Unificateur Patient",
+      "headline": "Unir une nation grâce à une patience extrême",
+      "shortDescription": "Fondateur du shogunat Tokugawa",
+      "quote": "La vie, c'est comme marcher sur une longue route avec un lourd fardeau.",
+      "chatGreeting": "Je suis Tokugawa Ieyasu. La patience est le fondement de la paix.",
+      "suggestedQuestions": [
+        "Pourquoi la patience est-elle importante ?",
+        "Comment avez-vous survécu à vos années d'otage ?",
+        "Comment construire une paix durable ?"
+      ],
+      "era": "1543-1616",
+      "pain": "Années en tant qu'otage",
+      "recovery": "Patience stratégique"
+    },
+    "miyamoto-musashi": {
+      "name": "Miyamoto Musashi",
+      "title": "Saint de l'Épée",
+      "headline": "Maîtriser la voie de la stratégie",
+      "shortDescription": "Épéiste légendaire",
+      "quote": "Il n'y a rien en dehors de vous-même...",
+      "chatGreeting": "Je suis Musashi. Discutons de la Voie.",
+      "suggestedQuestions": [
+        "Qu'est-ce que le Livre des Cinq Anneaux ?",
+        "Comment atteindre la concentration ?",
+        "Quelle est la véritable victoire ?"
+      ],
+      "era": "1584-1645",
+      "pain": "Duels à mort sans fin",
+      "recovery": "Maîtrise de l'esprit"
+    },
+    "oda-nobunaga": {
+      "name": "Oda Nobunaga",
+      "title": "L'Innovateur",
+      "headline": "Révolutionner une nation",
+      "shortDescription": "Seigneur de la guerre",
+      "quote": "Si le coucou ne chante pas, tuez-le.",
+      "chatGreeting": "Je suis Nobunaga.",
+      "suggestedQuestions": [
+        "Idées étrangères?",
+        "Leadership?",
+        "Risque?"
+      ],
+      "era": "1534-1582",
+      "pain": "Trahison",
+      "recovery": "Innovation"
+    },
+    "toyotomi-hideyoshi": {
+      "name": "Toyotomi Hideyoshi",
+      "title": "L'Unificateur",
+      "headline": "De paysan à dirigeant",
+      "shortDescription": "A unifié le Japon",
+      "quote": "Ma vie est venue comme la rosée.",
+      "chatGreeting": "Je suis Hideyoshi.",
+      "suggestedQuestions": [
+        "Ascension?",
+        "Loyauté?",
+        "Désarmement?"
+      ],
+      "era": "1537-1598",
+      "pain": "Pauvreté",
+      "recovery": "Charisme"
+    },
+    "ashoka-the-great": {
+      "name": "Ashoka",
+      "title": "L'Empereur Compatissant",
+      "headline": "De conquérant à la paix",
+      "shortDescription": "Empereur de la dynastie Maurya",
+      "quote": "Tous les hommes sont mes enfants.",
+      "chatGreeting": "Je suis Ashoka.",
+      "suggestedQuestions": [
+        "Pourquoi le changement?",
+        "Qu'est-ce que le Dharma?",
+        "Gouverner en paix?"
+      ],
+      "era": "304BC-232BC",
+      "pain": "Culpabilité",
+      "recovery": "Bouddhisme"
+    },
+    "queen-victoria": {
+      "name": "Queen Victoria",
+      "title": "Life of Queen Victoria",
+      "headline": "Wisdom of Queen Victoria",
+      "shortDescription": "Journey of Queen Victoria",
+      "quote": "Wisdom from trials.",
+      "chatGreeting": "I am Queen Victoria. Ask me anything.",
+      "suggestedQuestions": [
+        "Q1?",
+        "Q2?",
+        "Q3?"
+      ],
+      "era": "1819-1901",
+      "pain": "Pain description",
+      "recovery": "Recovery description"
+    },
+    "alexander-fleming": {
+      "name": "Alexander Fleming",
+      "title": "Life of Alexander Fleming",
+      "headline": "Wisdom of Alexander Fleming",
+      "shortDescription": "Journey of Alexander Fleming",
+      "quote": "Wisdom from trials.",
+      "chatGreeting": "I am Alexander Fleming. Ask me anything.",
+      "suggestedQuestions": [
+        "Q1?",
+        "Q2?",
+        "Q3?"
+      ],
+      "era": "1881-1955",
+      "pain": "Pain description",
+      "recovery": "Recovery description"
+    },
+    "johannes-kepler": {
+      "name": "Johannes Kepler",
+      "title": "Life of Johannes Kepler",
+      "headline": "Wisdom of Johannes Kepler",
+      "shortDescription": "Journey of Johannes Kepler",
+      "quote": "Wisdom from trials.",
+      "chatGreeting": "I am Johannes Kepler. Ask me anything.",
+      "suggestedQuestions": [
+        "Q1?",
+        "Q2?",
+        "Q3?"
+      ],
+      "era": "1571-1630",
+      "pain": "Pain description",
+      "recovery": "Recovery description"
+    },
+    "francis-bacon": {
+      "name": "Francis Bacon",
+      "title": "Life of Francis Bacon",
+      "headline": "Wisdom of Francis Bacon",
+      "shortDescription": "Journey of Francis Bacon",
+      "quote": "Wisdom from trials.",
+      "chatGreeting": "I am Francis Bacon. Ask me anything.",
+      "suggestedQuestions": [
+        "Q1?",
+        "Q2?",
+        "Q3?"
+      ],
+      "era": "1561-1626",
+      "pain": "Pain description",
+      "recovery": "Recovery description"
+    },
+    "benjamin-franklin": {
+      "name": "Benjamin Franklin",
+      "title": "Life of Benjamin Franklin",
+      "headline": "Wisdom of Benjamin Franklin",
+      "shortDescription": "Journey of Benjamin Franklin",
+      "quote": "Wisdom from trials.",
+      "chatGreeting": "I am Benjamin Franklin. Ask me anything.",
+      "suggestedQuestions": [
+        "Q1?",
+        "Q2?",
+        "Q3?"
+      ],
+      "era": "1706-1790",
+      "pain": "Pain description",
+      "recovery": "Recovery description"
+    },
+    "thomas-jefferson": {
+      "name": "Thomas Jefferson",
+      "title": "Life of Thomas Jefferson",
+      "headline": "Wisdom of Thomas Jefferson",
+      "shortDescription": "Journey of Thomas Jefferson",
+      "quote": "Wisdom from trials.",
+      "chatGreeting": "I am Thomas Jefferson. Ask me anything.",
+      "suggestedQuestions": [
+        "Q1?",
+        "Q2?",
+        "Q3?"
+      ],
+      "era": "1743-1826",
+      "pain": "Pain description",
+      "recovery": "Recovery description"
+    },
+    "alexander-hamilton": {
+      "name": "Alexander Hamilton",
+      "title": "Life of Alexander Hamilton",
+      "headline": "Wisdom of Alexander Hamilton",
+      "shortDescription": "Journey of Alexander Hamilton",
+      "quote": "Wisdom from trials.",
+      "chatGreeting": "I am Alexander Hamilton. Ask me anything.",
+      "suggestedQuestions": [
+        "Q1?",
+        "Q2?",
+        "Q3?"
+      ],
+      "era": "1755-1804",
+      "pain": "Pain description",
+      "recovery": "Recovery description"
+    },
+    "john-f-kennedy": {
+      "name": "John F. Kennedy",
+      "title": "Life of John F. Kennedy",
+      "headline": "Wisdom of John F. Kennedy",
+      "shortDescription": "Journey of John F. Kennedy",
+      "quote": "Wisdom from trials.",
+      "chatGreeting": "I am John F. Kennedy. Ask me anything.",
+      "suggestedQuestions": [
+        "Q1?",
+        "Q2?",
+        "Q3?"
+      ],
+      "era": "1917-1963",
+      "pain": "Pain description",
+      "recovery": "Recovery description"
+    },
+    "wright-brothers": {
+      "name": "라이트 형제 (fr)",
+      "title": "항공의 개척자",
+      "headline": "인류에게 하늘을 날 수 있는 날개를 달아주다",
+      "shortDescription": "최초의 동력 비행기를 발명한 형제",
+      "quote": "우리는 비행이 가능하다는 것을 믿었다.",
+      "chatGreeting": "안녕하세요. 우리는 하늘을 나는 꿈을 현실로 만든 오빌과 윌버 라이트입니다. 우리의 도전 이야기를 나누고 싶습니다.",
+      "suggestedQuestions": [
+        "수많은 실패를 어떻게 극복하셨나요?",
+        "비행기 발명의 가장 큰 원동력은 무엇이었나요?",
+        "안전한 비행을 위해 어떤 고민을 하셨나요?"
+      ],
+      "era": "19세기 후반 ~ 20세기 초",
+      "pain": "수많은 비행 실험 실패와 사람들의 조롱",
+      "recovery": "끊임없는 연구와 풍동 실험을 통한 문제 해결"
+    },
+    "robert-oppenheimer": {
+      "name": "로버트 오펜하이머 (fr)",
+      "title": "원자폭탄의 아버지",
+      "headline": "세상을 바꾼 파괴적인 힘의 창조자",
+      "shortDescription": "맨해튼 프로젝트를 이끈 물리학자",
+      "quote": "나는 이제 죽음이요, 세상의 파괴자가 되었다.",
+      "chatGreeting": "안녕하십니까. 로버트 오펜하이머입니다. 과학의 위대한 성취와 그로 인한 도덕적 고뇌에 대해 이야기해 봅시다.",
+      "suggestedQuestions": [
+        "맨해튼 프로젝트를 이끌며 가장 힘들었던 점은 무엇인가요?",
+        "원자폭탄 투하 후 어떤 심정이었나요?",
+        "과학자의 윤리적 책임은 무엇이라고 생각하시나요?"
+      ],
+      "era": "20세기 중반",
+      "pain": "원자폭탄의 파괴력에 대한 윤리적 고뇌",
+      "recovery": "수소폭탄 반대와 군비 통제 주장"
+    },
+    "chandragupta-maurya": {
+      "name": "찬드라굽타 마우리야 (fr)",
+      "title": "마우리야 제국의 창립자",
+      "headline": "고대 인도를 하나로 통일한 정복자",
+      "shortDescription": "인도 최초의 거대한 제국을 세운 황제",
+      "quote": "단결된 힘만이 평화를 가져올 수 있다.",
+      "chatGreeting": "환영합니다. 저는 인도 대륙을 통일한 찬드라굽타 마우리야입니다. 위대한 제국의 건설에 대해 말씀드리겠습니다.",
+      "suggestedQuestions": [
+        "어떻게 난다 왕조를 물리쳤나요?",
+        "차나키야의 가르침 중 가장 중요한 것은 무엇인가요?",
+        "말년에 자이나교에 귀의한 이유는 무엇인가요?"
+      ],
+      "era": "기원전 4세기",
+      "pain": "외세의 침략과 인도의 분열",
+      "recovery": "차나키야의 지혜와 강력한 군사력으로 제국 건설"
+    },
+    "swami-vivekananda": {
+      "name": "스와미 비베카난다 (fr)",
+      "title": "요가와 베단타의 사절",
+      "headline": "서양에 인도의 영성을 전파한 철학자",
+      "shortDescription": "힌두교를 부흥시키고 세계 평화를 외친 영적 지도자",
+      "quote": "일어나라, 깨어나라, 목표에 도달할 때까지 멈추지 마라.",
+      "chatGreeting": "나마스떼. 저는 인도의 영성과 지혜를 세계에 나눈 스와미 비베카난다입니다. 내면의 평화에 대해 이야기해 봅시다.",
+      "suggestedQuestions": [
+        "1893년 시카고 종교회의에서 어떤 메시지를 전했나요?",
+        "자신을 믿는다는 것은 어떤 의미인가요?",
+        "진정한 영적 깨달음이란 무엇인가요?"
+      ],
+      "era": "19세기 후반",
+      "pain": "식민지 치하 인도의 빈곤과 정신적 쇠퇴",
+      "recovery": "베단타 철학과 보편적 종교관으로 희망 제시"
+    },
+    "srinivasa-ramanujan": {
+      "name": "스리니바사 라마누잔 (fr)",
+      "title": "수학의 천재",
+      "headline": "무한을 본 천재 수학자",
+      "shortDescription": "독학으로 현대 수학에 위대한 업적을 남긴 인물",
+      "quote": "신의 생각을 표현하지 않는 한, 어떤 방정식도 의미가 없다.",
+      "chatGreeting": "안녕하세요. 저는 수의 세계에서 아름다움을 발견한 스리니바사 라마누잔입니다. 수학의 무한한 신비에 대해 이야기해 볼까요?",
+      "suggestedQuestions": [
+        "정규 교육 없이 어떻게 그렇게 놀라운 공식을 발견했나요?",
+        "하디 교수와의 만남은 당신의 삶을 어떻게 바꾸었나요?",
+        "수학은 당신에게 어떤 의미인가요?"
+      ],
+      "era": "20세기 초",
+      "pain": "극심한 가난과 정규 교육의 부재, 건강 악화",
+      "recovery": "순수한 직관과 천재성으로 수학적 진리 발견"
+    },
+    "br-ambedkar": {
+      "name": "B.R. 암베드카르 (fr)",
+      "title": "인도 헌법의 아버지",
+      "headline": "억압받는 자들의 해방자",
+      "shortDescription": "불가촉천민 출신으로 인도 헌법을 기초한 사회 개혁가",
+      "quote": "교육하라, 조직하라, 선동하라.",
+      "chatGreeting": "반갑습니다. 카스트의 사슬을 끊고 인도의 새로운 헌법을 세운 암베드카르입니다. 평등과 정의에 대해 논해봅시다.",
+      "suggestedQuestions": [
+        "불가촉천민으로서 어떤 차별을 겪으셨나요?",
+        "인도 헌법을 기초할 때 가장 중요하게 생각한 원칙은 무엇인가요?",
+        "불교로 개종하신 이유는 무엇인가요?"
+      ],
+      "era": "20세기 중반",
+      "pain": "신분 제도로 인한 극심한 차별과 사회적 배제",
+      "recovery": "배움과 투쟁을 통한 제도적 평등 달성"
+    },
+    "saladin": {
+      "name": "살라딘 (fr)",
+      "title": "이슬람의 수호자",
+      "headline": "관용과 자비의 위대한 정복자",
+      "shortDescription": "십자군 전쟁에서 예루살렘을 탈환한 아이유브 왕조의 창시자",
+      "quote": "나는 피를 흘리지 않고도 적의 마음을 정복할 수 있다.",
+      "chatGreeting": "평화가 당신과 함께하기를. 저는 십자군으로부터 예루살렘을 되찾은 살라딘입니다. 지도자의 도리와 관용에 대해 대화합시다.",
+      "suggestedQuestions": [
+        "예루살렘 탈환 후 기독교인들을 어떻게 대하셨나요?",
+        "사자심왕 리처드와의 대결에서 무엇을 배웠나요?",
+        "진정한 지도자의 자질은 무엇이라 생각하시나요?"
+      ],
+      "era": "12세기",
+      "pain": "십자군 전쟁의 혼란과 무슬림 세계의 분열",
+      "recovery": "관용과 통합의 리더십으로 이슬람 세계 통일 및 예루살렘 회복"
+    },
+    "suleiman-the-magnificent": {
+      "name": "술레이만 대제 (fr)",
+      "title": "오스만 제국의 황금기를 이끈 입법자",
+      "headline": "동서양을 아우른 위대한 술탄",
+      "shortDescription": "제국의 영토를 최대로 확장하고 법전을 정비한 황제",
+      "quote": "정의가 세워지지 않는 곳에 국가는 존재할 수 없다.",
+      "chatGreeting": "오스만 제국의 술탄, 술레이만입니다. 찬란했던 제국의 번영과 제가 세운 법전에 대한 이야기를 나누고자 합니다.",
+      "suggestedQuestions": [
+        "법전(카눈)을 정비한 가장 큰 이유는 무엇인가요?",
+        "유럽과 아시아를 정복하며 제국을 어떻게 통치했나요?",
+        "예술과 문화를 어떻게 부흥시켰나요?"
+      ],
+      "era": "16세기",
+      "pain": "방대한 제국의 통합 및 다양한 민족과 종교의 갈등",
+      "recovery": "공정한 법 제정과 관용 정책으로 제국의 황금기 이룩"
+    },
+    "al-khwarizmi": {
+      "name": "알콰리즈미 (fr)",
+      "title": "대수학의 아버지",
+      "headline": "숫자와 알고리즘으로 세상을 바꾼 학자",
+      "shortDescription": "대수학과 인도-아라비아 숫자를 널리 알린 페르시아의 수학자",
+      "quote": "지식은 인간을 어둠에서 빛으로 인도하는 길잡이다.",
+      "chatGreeting": "반갑습니다. 지혜의 전당에서 연구했던 알콰리즈미입니다. 수학과 알고리즘이 어떻게 세상을 바꿨는지 이야기해 볼까요?",
+      "suggestedQuestions": [
+        "'대수학(알자브르)'이라는 개념은 어떻게 고안하게 되었나요?",
+        "0이라는 숫자가 왜 그렇게 중요한가요?",
+        "지혜의 전당에서의 연구 생활은 어땠나요?"
+      ],
+      "era": "9세기",
+      "pain": "복잡한 계산과 학문적 기록의 부족",
+      "recovery": "체계적인 대수학 서적 집필과 인도 숫자 도입"
+    },
+    "omar-khayyam": {
+      "name": "오마르 하이얌 (fr)",
+      "title": "별을 사랑한 시인",
+      "headline": "수학과 시의 경계를 허문 페르시아의 현자",
+      "shortDescription": "루바이야트로 유명한 천문학자이자 시인",
+      "quote": "과거를 후회하지 말고 미래를 걱정하지 마라. 오직 지금 이 순간을 살아라.",
+      "chatGreeting": "안녕하세요. 밤하늘의 별을 관측하며 시를 읊던 오마르 하이얌입니다. 찰나의 삶 속에서 영원을 찾는 방법에 대해 대화해 봅시다.",
+      "suggestedQuestions": [
+        "수학과 시, 두 가지 완전히 다른 분야를 어떻게 융합했나요?",
+        "루바이야트에 담긴 가장 중요한 메시지는 무엇인가요?",
+        "정확한 달력을 만드는 과정은 어땠나요?"
+      ],
+      "era": "11세기~12세기",
+      "pain": "지식의 불확실성과 인간 존재의 허무함",
+      "recovery": "현재에 충실한 삶의 태도와 시적 아름다움으로 승화"
+    },
+    "voltaire": {
+      "name": "Voltaire",
+      "title": "Champion de la Raison",
+      "headline": "Je ne suis pas d'accord avec ce que vous dites, mais je me battrai pour que vous ayez le droit de le dire.",
+      "shortDescription": "Écrivain, historien et philosophe des Lumières français.",
+      "quote": "Ceux qui peuvent vous faire croire à des absurdités peuvent vous faire commettre des atrocités.",
+      "chatGreeting": "Salutations ! Je suis Voltaire. Discutons avec raison et esprit.",
+      "suggestedQuestions": [
+        "Comment avez-vous supporté l'exil ?",
+        "Quelle est votre opinion sur la liberté d'expression ?",
+        "Comment avez-vous utilisé la satire ?"
+      ],
+      "era": "Siècle des Lumières",
+      "pain": "Emprisonné à la Bastille et exilé pour ses écrits.",
+      "recovery": "A utilisé l'exil pour élargir ses horizons intellectuels et a continué à écrire de manière prolifique."
+    },
+    "dante-alighieri": {
+      "name": "Dante Alighieri",
+      "title": "Le Poète Suprême",
+      "headline": "Au milieu du chemin de notre vie, je me retrouvai dans une forêt obscure.",
+      "shortDescription": "Poète et philosophe italien, célèbre pour 'La Divine Comédie'.",
+      "quote": "Les places les plus chaudes en enfer sont réservées à ceux qui, lors des grandes crises morales, maintiennent leur neutralité.",
+      "chatGreeting": "Je suis Dante. J'ai traversé l'Enfer, le Purgatoire et le Paradis. Quelle sagesse cherchez-vous ?",
+      "suggestedQuestions": [
+        "Comment l'exil a-t-il affecté votre écriture ?",
+        "Quelle est la signification de La Divine Comédie ?",
+        "Qui était Béatrice pour vous ?"
+      ],
+      "era": "Moyen Âge",
+      "pain": "Exilé de sa Florence bien-aimée pour des raisons politiques.",
+      "recovery": "A canalisé sa tristesse dans l'écriture de 'La Divine Comédie'."
+    },
+    "archimedes": {
+      "name": "Archimède",
+      "title": "Maître des Mathématiques et de l'Invention",
+      "headline": "Donnez-moi un point d'appui, et je soulèverai le monde.",
+      "shortDescription": "Mathématicien, physicien, ingénieur et astronome grec de l'Antiquité.",
+      "quote": "Eurêka !",
+      "chatGreeting": "Bienvenue ! Je suis Archimède. Les merveilles de la géométrie vous attendent. Quel problème allons-nous résoudre ?",
+      "suggestedQuestions": [
+        "Comment avez-vous découvert la poussée ?",
+        "Quelles machines de guerre avez-vous inventées ?",
+        "Pourquoi étiez-vous si dévoué aux mathématiques ?"
+      ],
+      "era": "Époque hellénistique",
+      "pain": "A vécu le siège de Syracuse par les Romains.",
+      "recovery": "A utilisé son génie pour concevoir des machines de guerre défensives pour sa ville."
+    },
+    "copernicus": {
+      "name": "Nicolas Copernic",
+      "title": "L'Astronome qui a fait Bouger la Terre",
+      "headline": "Savoir que nous savons ce que nous savons, et savoir que nous ne savons pas ce que nous ne savons pas, voilà la vraie connaissance.",
+      "shortDescription": "Polymathe de la Renaissance, mathématicien et astronome.",
+      "quote": "Au milieu de tout, cependant, réside le soleil.",
+      "chatGreeting": "Salutations. Je suis Nicolas Copernic. Discutons des étoiles.",
+      "suggestedQuestions": [
+        "Pourquoi avez-vous proposé le modèle héliocentrique ?",
+        "Aviez-vous peur de l'Église ?",
+        "Comment avez-vous recueilli vos données ?"
+      ],
+      "era": "Renaissance",
+      "pain": "Peur du ridicule et de la persécution pour sa théorie héliocentrique.",
+      "recovery": "A passé des décennies à perfectionner sa théorie avant de la publier."
+    },
+    "machiavelli": {
+      "name": "Nicolas Machiavel",
+      "title": "Le Père de la Science Politique Moderne",
+      "headline": "Il est plus sûr d'être craint que d'être aimé, si l'on doit manquer de l'un des deux.",
+      "shortDescription": "Diplomate et philosophe de la Renaissance italienne.",
+      "quote": "Le lion ne peut se protéger des pièges, et le renard des loups.",
+      "chatGreeting": "Je suis Machiavel. Le monde est régi par le pouvoir et la nécessité. De quoi allons-nous parler ?",
+      "suggestedQuestions": [
+        "Pourquoi avez-vous écrit Le Prince ?",
+        "Est-il vraiment préférable d'être craint ?",
+        "Comment l'exil a-t-il affecté vos opinions ?"
+      ],
+      "era": "Renaissance",
+      "pain": "Torturé, emprisonné et exilé de sa carrière politique à Florence.",
+      "recovery": "A transformé son exil politique en une opportunité d'écrire sur la politique."
+    },
+    "susan-b-anthony": {
+      "name": "Susan B. Anthony",
+      "title": "Défenseuse des droits des femmes",
+      "headline": "L'échec est impossible.",
+      "shortDescription": "Figure de proue du droit de vote des femmes.",
+      "quote": "Les hommes, leurs droits et rien de plus ; les femmes, leurs droits et rien de moins.",
+      "chatGreeting": "Je suis Susan B. Anthony. Le combat pour l'égalité ne finit jamais. Que voulez-vous savoir ?",
+      "suggestedQuestions": [
+        "Comment avez-vous supporté l'arrestation ?",
+        "Qu'est-ce qui vous a motivée ?",
+        "Qu'est-ce que l'égalité ?"
+      ],
+      "era": "19e siècle",
+      "pain": "A été arrêtée pour avoir voté.",
+      "recovery": "A continué à prononcer des discours dans tout le pays."
+    },
+    "edgar-allan-poe": {
+      "name": "Edgar Allan Poe",
+      "title": "Maître du macabre",
+      "headline": "Les mots n'ont aucun pouvoir...",
+      "shortDescription": "Écrivain américain.",
+      "quote": "Je suis devenu fou, avec de longs intervalles d'horrible santé mentale.",
+      "chatGreeting": "Je suis Edgar Allan Poe. Cherchez-vous à explorer les ombres ?",
+      "suggestedQuestions": [
+        "Comment avez-vous trouvé l'inspiration ?",
+        "Comment le deuil a-t-il façonné votre œuvre ?",
+        "Que signifie Le Corbeau ?"
+      ],
+      "era": "19e siècle",
+      "pain": "A enduré la pauvreté et la perte.",
+      "recovery": "A canalisé son désespoir pour inventer le roman policier."
+    },
+    "henry-david-thoreau": {
+      "name": "Henry David Thoreau",
+      "title": "Philosophe de la nature",
+      "headline": "Je suis allé dans les bois...",
+      "shortDescription": "Philosophe américain.",
+      "quote": "La masse des hommes mène une vie de désespoir tranquille.",
+      "chatGreeting": "Je suis Henry David Thoreau. Avez-vous écouté la nature aujourd'hui ?",
+      "suggestedQuestions": [
+        "Pourquoi être allé à Walden ?",
+        "Qu'est-ce que la désobéissance civile ?",
+        "Comment vivre délibérément ?"
+      ],
+      "era": "19e siècle",
+      "pain": "A lutté contre les attentes de la société.",
+      "recovery": "A trouvé la vérité dans la simplicité."
+    },
+    "ibn-battuta": {
+      "name": "Ibn Battûta",
+      "title": "Le Grand Voyageur",
+      "headline": "Explorateur du monde afro-eurasien",
+      "shortDescription": "Un érudit et explorateur marocain.",
+      "quote": "Voyager vous laisse sans mots, puis vous transforme en conteur.",
+      "chatGreeting": "Salutations, voyageur ! Je suis Ibn Battûta. Quelles terres cherches-tu à explorer ?",
+      "suggestedQuestions": [
+        "Comment avez-vous survécu ?",
+        "Quel était le lieu le plus merveilleux ?",
+        "Qu'avez-vous appris ?"
+      ],
+      "era": "14ème Siècle",
+      "pain": "A enduré d'immenses épreuves et dangers.",
+      "recovery": "Sa curiosité inflexible l'a propulsé en avant."
+    },
+    "ralph-waldo-emerson": {
+      "name": "Ralph Waldo Emerson",
+      "title": "Essayiste transcendantaliste",
+      "headline": "Être soi-même...",
+      "shortDescription": "Essayiste américain.",
+      "quote": "N'allez pas là où le chemin peut mener...",
+      "chatGreeting": "Je suis Ralph Waldo Emerson. Faisons confiance à notre génie intérieur.",
+      "suggestedQuestions": [
+        "Qu'est-ce que l'autonomie ?",
+        "Comment trouver mon vrai moi ?",
+        "Comment voyez-vous la nature ?"
+      ],
+      "era": "19e siècle",
+      "pain": "A souffert de la mort de sa femme.",
+      "recovery": "A construit une philosophie de l'autonomie."
+    },
+    "chulalongkorn": {
+      "name": "Roi Chulalongkorn",
+      "title": "Le Grand Modernisateur",
+      "headline": "Le monarque visionnaire du Siam",
+      "shortDescription": "Le cinquième monarque du Siam, connu pour la modernisation.",
+      "quote": "L'indépendance de notre nation doit être préservée.",
+      "chatGreeting": "Bienvenue. Je suis Chulalongkorn. Comment puis-je vous éclairer aujourd'hui ?",
+      "suggestedQuestions": [
+        "Comment avez-vous gardé le Siam indépendant ?",
+        "Pourquoi avoir aboli l'esclavage ?",
+        "Quelle a été la réforme la plus difficile ?"
+      ],
+      "era": "Fin du 19ème - Début du 20ème siècle",
+      "pain": "A fait face à une immense pression des puissances coloniales occidentales.",
+      "recovery": "A utilisé la diplomatie et la modernisation."
+    },
+    "walt-whitman": {
+      "name": "Walt Whitman",
+      "title": "Poète",
+      "headline": "Je suis immense...",
+      "shortDescription": "Poète américain.",
+      "quote": "Gardez votre visage toujours tourné vers le soleil...",
+      "chatGreeting": "Je suis Walt Whitman. Je me célèbre et je me chante.",
+      "suggestedQuestions": [
+        "Comment la guerre de Sécession a-t-elle influencé votre poésie ?",
+        "Que représente Feuilles d'herbe ?",
+        "Comment voyez-vous la démocratie ?"
+      ],
+      "era": "19e siècle",
+      "pain": "A fait face à la censure et à la guerre de Sécession.",
+      "recovery": "Infirmier volontaire, il a créé des vers libres."
+    },
+    "jayavarman-vii": {
+      "name": "Jayavarman VII",
+      "title": "Le Bâtisseur Compatissant",
+      "headline": "Le plus grand roi de l'Empire Khmer",
+      "shortDescription": "Le plus grand roi de l'Empire Khmer.",
+      "quote": "La souffrance du peuple est la souffrance du roi.",
+      "chatGreeting": "Je suis Jayavarman VII. Quels conseils cherches-tu ?",
+      "suggestedQuestions": [
+        "Pourquoi avoir construit des hôpitaux ?",
+        "Comment avez-vous libéré votre royaume ?",
+        "Qu'est-ce qui a inspiré Angkor Thom ?"
+      ],
+      "era": "12ème - 13ème siècle",
+      "pain": "A enduré des années d'exil.",
+      "recovery": "A libéré son peuple et s'est consacré à son bien-être."
+    },
+    "mansa-musa": {
+      "name": "Mansa Moussa",
+      "title": "Le Roi Doré",
+      "headline": "Empereur de l'Empire du Mali",
+      "shortDescription": "L'un des individus les plus riches de l'histoire.",
+      "quote": "L'or est un outil pour la grandeur.",
+      "chatGreeting": "Salutations. Je suis Mansa Moussa. Que désirez-vous savoir ?",
+      "suggestedQuestions": [
+        "Comment avez-vous acquis cette richesse ?",
+        "Que s'est-il passé pendant votre pèlerinage ?",
+        "Pourquoi Tombouctou ?"
+      ],
+      "era": "14ème siècle",
+      "pain": "A géré un vaste empire.",
+      "recovery": "A utilisé sa richesse pour l'éducation."
+    },
+    "shaka-zulu": {
+      "name": "Chaka Zoulou",
+      "title": "Le Génie Militaire",
+      "headline": "Fondateur de l'Empire Zoulou",
+      "shortDescription": "Un brillant tacticien militaire.",
+      "quote": "Ne laissez jamais un ennemi derrière vous.",
+      "chatGreeting": "Je suis Chaka. Que cherchez-vous ?",
+      "suggestedQuestions": [
+        "Comment avez-vous révolutionné la guerre ?",
+        "Qu'est-ce qui vous a poussé ?",
+        "Comment avez-vous surmonté votre enfance ?"
+      ],
+      "era": "Fin 18ème - Début 19ème siècle",
+      "pain": "A enduré une enfance d'exil.",
+      "recovery": "A développé des tactiques militaires."
+    },
+    "hannibal-barca": {
+      "name": "Hannibal Barca",
+      "title": "Le Fléau de Rome",
+      "headline": "Commandant Militaire Carthaginois",
+      "shortDescription": "L'un des plus grands commandants.",
+      "quote": "Je trouverai un chemin, ou j'en créerai un.",
+      "chatGreeting": "Je suis Hannibal Barca. Interrogez-moi.",
+      "suggestedQuestions": [
+        "Comment avez-vous traversé les Alpes ?",
+        "Le secret de Cannes ?",
+        "Pourquoi jurer inimitié à Rome ?"
+      ],
+      "era": "3ème - 2ème siècle av. J.-C.",
+      "pain": "A fait face à des cauchemars logistiques.",
+      "recovery": "A vaincu par son génie stratégique."
+    },
+    "ernest-hemingway": {
+      "name": "Ernest Hemingway",
+      "title": "Romancier lauréat du prix Nobel",
+      "headline": "Le courage, c'est la grâce sous la pression.",
+      "shortDescription": "Romancier américain.",
+      "quote": "Le monde brise tout le monde...",
+      "chatGreeting": "Je suis Hemingway. Quelles vérités cherchez-vous aujourd'hui ?",
+      "suggestedQuestions": [
+        "Comment la guerre vous a-t-elle affecté ?",
+        "Qu'est-ce que la théorie de l'iceberg ?",
+        "Comment définissez-vous le courage ?"
+      ],
+      "era": "20e siècle",
+      "pain": "A souffert de blessures de guerre et de dépression.",
+      "recovery": "A forgé un style d'écriture révolutionnaire."
+    },
+    "andrew-carnegie": {
+      "name": "Andrew Carnegie",
+      "title": "Industriel et Philanthrope",
+      "headline": "L'homme qui meurt riche meurt disgracié.",
+      "shortDescription": "Industriel américain.",
+      "quote": "Aucun homme ne fera un grand leader...",
+      "chatGreeting": "Je suis Andrew Carnegie. La richesse n'est qu'un outil.",
+      "suggestedQuestions": [
+        "Comment avez-vous commencé ?",
+        "Pourquoi avez-vous donné votre richesse ?",
+        "Qu'est-ce que l'évangile de la richesse ?"
+      ],
+      "era": "19e-20e siècle",
+      "pain": "A connu la pauvreté extrême en tant qu'immigrant.",
+      "recovery": "A construit un empire et fait don de sa fortune."
+    },
+    "alexander-graham-bell": {
+      "name": "Alexander Graham Bell",
+      "title": "Inventeur du téléphone",
+      "headline": "Quand une porte se ferme...",
+      "shortDescription": "Inventeur américain.",
+      "quote": "La préparation est la clé du succès.",
+      "chatGreeting": "Je suis Alexander Graham Bell. Comment puis-je vous aider ?",
+      "suggestedQuestions": [
+        "Comment l'éducation des sourds vous a-t-elle inspiré ?",
+        "Quel a été le plus grand obstacle ?",
+        "Comment gérez-vous l'échec ?"
+      ],
+      "era": "19e-20e siècle",
+      "pain": "A fait face à des échecs techniques.",
+      "recovery": "A connecté le monde avec le téléphone."
+    },
+    "jp-morgan": {
+      "name": "J.P. Morgan",
+      "title": "Titan de la finance",
+      "headline": "Un homme a toujours deux raisons...",
+      "shortDescription": "Banquier américain.",
+      "quote": "La première étape pour arriver quelque part...",
+      "chatGreeting": "Je suis J.P. Morgan. L'ordre est primordial.",
+      "suggestedQuestions": [
+        "Comment avez-vous sauvé l'économie ?",
+        "Quelle est la clé du succès ?",
+        "Pourquoi le caractère est-il si important ?"
+      ],
+      "era": "19e-20e siècle",
+      "pain": "A fait face à des crises économiques extrêmes.",
+      "recovery": "A stabilisé l'économie de la nation."
+    },
+    "amelia-earhart": {
+      "name": "Amelia Earhart",
+      "title": "Pionnière de l'aviation",
+      "headline": "L'aventure vaut la peine en elle-même.",
+      "shortDescription": "Première femme à traverser l'Atlantique en solo.",
+      "quote": "La chose la plus difficile est la décision d'agir...",
+      "chatGreeting": "Je suis Amelia Earhart. Le ciel n'est pas une limite.",
+      "suggestedQuestions": [
+        "Qu'est-ce qui vous a poussé à voler ?",
+        "Comment avez-vous fait face au danger ?",
+        "Quel est votre message aux femmes ?"
+      ],
+      "era": "20e siècle",
+      "pain": "A fait face aux préjugés et aux pannes techniques.",
+      "recovery": "A continuellement battu des records d'aviation."
+    },
+    "adam-smith": {
+      "name": "Adam Smith",
+      "title": "Père de l'Économie Moderne",
+      "headline": "Ce n'est pas de la bienveillance du boucher, du brasseur ou du boulanger que nous attendons notre dîner, mais de leur souci de leur propre intérêt.",
+      "shortDescription": "Économiste et philosophe écossais, auteur de 'La Richesse des nations'.",
+      "quote": "La science est le grand antidote au poison de l'enthousiasme et de la superstition.",
+      "chatGreeting": "Bonjour. Je suis Adam Smith. Discutons des mécanismes de la société. Que souhaitez-vous explorer ?",
+      "suggestedQuestions": [
+        "Qu'est-ce que la 'main invisible' ?",
+        "Comment l'intérêt personnel profite-t-il à la société ?",
+        "Pourquoi avez-vous écrit La Richesse des nations ?"
+      ],
+      "era": "Siècle des Lumières",
+      "pain": "A lutté contre des problèmes de santé et l'opposition à ses idées de libre marché.",
+      "recovery": "A consacré des années de recherche pour prouver comment le libre-échange favorise la prospérité."
+    },
+    "louis-pasteur": {
+      "name": "Louis Pasteur",
+      "title": "Pionnier de la Microbiologie",
+      "headline": "La chance ne sourit qu'aux esprits préparés.",
+      "shortDescription": "Chimiste et microbiologiste français.",
+      "quote": "La science n'a pas de patrie.",
+      "chatGreeting": "Bienvenue. Je suis Louis Pasteur. Le monde des microbes est vaste. Que cherchez-vous ?",
+      "suggestedQuestions": [
+        "Comment avez-vous découvert la pasteurisation ?",
+        "Quels défis avez-vous rencontrés avec le vaccin contre la rage ?",
+        "Comment avez-vous prouvé la théorie des germes ?"
+      ],
+      "era": "19e Siècle",
+      "pain": "A fait face au scepticisme médical et a subi un accident vasculaire cérébral grave.",
+      "recovery": "A persévéré malgré son handicap pour développer des vaccins vitaux."
+    },
+    "johannes-gutenberg": {
+      "name": "Johannes Gutenberg",
+      "title": "Inventeur de l'Imprimerie",
+      "headline": "L'imprimerie est le grand égalisateur du savoir.",
+      "shortDescription": "Inventeur et artisan allemand.",
+      "quote": "C'est une presse d'où couleront des flots inépuisables...",
+      "chatGreeting": "Salutations. Je suis Johannes Gutenberg. De quoi allons-nous discuter ?",
+      "suggestedQuestions": [
+        "Comment avez-vous inventé l'imprimerie ?",
+        "Quels défis avez-vous rencontrés avec la Bible de Gutenberg ?",
+        "Pourquoi Johann Fust vous a-t-il poursuivi en justice ?"
+      ],
+      "era": "Renaissance",
+      "pain": "A fait face à la ruine financière et a perdu son atelier.",
+      "recovery": "Son invention a révolutionné la diffusion du savoir."
     }
   },
   "Chat": {

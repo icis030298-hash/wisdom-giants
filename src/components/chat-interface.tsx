@@ -217,7 +217,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       // FIRESTORE AUTO-SAVE LOGIC (Isolated by locale)
       if (auth?.currentUser && db) {
         const userId = auth.currentUser.uid;
-        const chatDocId = `${userId}_${giant.slug}_${locale}`;
+        const chatDocId = `${userId}_${giant.slug}`;
         const chatRef = doc(db, "chats", chatDocId);
 
         try {
