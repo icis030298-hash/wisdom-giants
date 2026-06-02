@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useMemo } from "react"
 import { Sparkles } from "lucide-react"
-import { useTranslations } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 import { Link } from "@/i18n/routing"
 
 // Generate stable particle positions
@@ -23,6 +23,7 @@ const generateParticles = (count: number) => {
 
 export function HeroSection() {
   const t = useTranslations("Hero")
+  const locale = useLocale()
   const [isVisible, setIsVisible] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -110,7 +111,16 @@ export function HeroSection() {
             className="group relative px-8 py-4 bg-slate-950 border-2 border-amber-500/40 text-amber-400 rounded-xl font-bold text-lg overflow-hidden transition-all hover:shadow-[0_0_40px_rgba(245,158,11,0.35)] hover:scale-105 hover:bg-amber-500/10 hover:border-amber-400 flex items-center gap-2 shadow-[0_0_20px_rgba(245,158,11,0.15)] ring-1 ring-amber-500/15"
           >
             <span className="text-xl">🔥</span>
-            <span>거인들의 끝장 토론방 입장</span>
+            <span>
+              {locale === 'ko' ? '거인들의 끝장 토론방 입장' :
+               locale === 'en' ? 'Enter Giants Debate Room' :
+               locale === 'de' ? 'Debattenkammer der Riesen betreten' :
+               locale === 'ja' ? '偉人たちの討論室に入場' :
+               locale === 'es' ? 'Entrar a la Sala de Debate' :
+               locale === 'fr' ? 'Entrer dans la Salle de Débat' :
+               locale === 'it' ? 'Entra nella Stanza del Dibattito' :
+               locale === 'pt' ? 'Entrar na Sala de Debate' : 'Enter Giants Debate Room'}
+            </span>
           </Link>
           
           <a href="#featured-giants" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">

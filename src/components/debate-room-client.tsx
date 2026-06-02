@@ -281,23 +281,8 @@ export function DebateRoomClient() {
   useEffect(() => {
     if (typeof window === "undefined") return;
     
-    // Check if AdSense review mode is active via public env, query parameter, OR search crawler User-Agent
-    const isBot = /bot|crawler|spider|google|naver|daum|bing|yahoo|lighthouse|yandex|applebot|mediapartners/i.test(navigator.userAgent);
-    const isAdSenseReview = process.env.NEXT_PUBLIC_ADSENSE_REVIEW_MODE === "true" || 
-      window.location.search.includes("adsense_review=true") ||
-      isBot;
-    
-    if (isAdSenseReview) {
-      setHasPremiumPass(true);
-    } else {
-      // Restore unlimited pass
-      const storedUnlimited = localStorage.getItem("giants_debate_premium_unlimited");
-      if (storedUnlimited === "true") {
-        setHasPremiumPass(true);
-      } else {
-        setHasPremiumPass(false); // Lock the summary on mount for standard human users who do not have a pass
-      }
-    }
+    // Unconditionally enable premium pass for all users during AdSense review phase to prevent policy flags
+    setHasPremiumPass(true);
     
     // Restore active debate session
     try {

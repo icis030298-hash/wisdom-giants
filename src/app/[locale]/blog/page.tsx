@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { BlogListClient } from '@/components/blog-list-client'
 import { setRequestLocale } from 'next-intl/server'
+import { Navigation } from '@/components/navigation'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -74,5 +75,10 @@ export default async function BlogListPage({ params }: Props) {
   const { locale } = await params
   setRequestLocale(locale)
 
-  return <BlogListClient />
+  return (
+    <>
+      <Navigation />
+      <BlogListClient />
+    </>
+  )
 }

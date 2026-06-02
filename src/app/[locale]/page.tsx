@@ -120,6 +120,57 @@ const blogTranslations: Record<string, Record<string, string>> = {
   }
 };
 
+const debateCTATranslations: Record<string, { titlePre: string; titlePost: string; desc: string; button: string }> = {
+  ko: {
+    titlePre: "세기의 명저들이 맞붙는",
+    titlePost: "'거인들의 끝장 토론방'",
+    desc: "“돈으로 행복을 살 수 있을까?” 아리스토텔레스와 니체가 벌이는 격렬한 사상 논쟁을 실시간으로 직관하고 참여해보세요.",
+    button: "토론 관전 및 참여하기"
+  },
+  en: {
+    titlePre: "Clash of the Greatest Minds",
+    titlePost: "'Giants' Ultimate Debate Room'",
+    desc: "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
+    button: "Spectate & Participate"
+  },
+  de: {
+    titlePre: "Aufeinandertreffen der größten Köpfe",
+    titlePost: "'Die ultimative Debattenkammer der Riesen'",
+    desc: "„Kann man mit Geld Glück kaufen?“ Verfolgen Sie und nehmen Sie teil an der intensiven intellektuellen Debatte zwischen Aristoteles und Nietzsche in Echtzeit.",
+    button: "Zuschauen & Teilnehmen"
+  },
+  ja: {
+    titlePre: "世紀の名著がぶつかり合う",
+    titlePost: "「偉인들의究極討論室」",
+    desc: "「お金で幸せは買えるか？」アリストテレスとニーチェが繰り広げる白熱した思想論争をリアルタイムで観戦・参加しましょう。",
+    button: "討論を観戦・参加する"
+  },
+  es: {
+    titlePre: "El Choque de las Grandes Mentes",
+    titlePost: "'La Sala de Debate Definitiva de los Gigantes'",
+    desc: "¿Puede el dinero comprar la felicidad? Presencie y únase al intenso debate intelectual entre Aristóteles y Nietzsche en tiempo real.",
+    button: "Ver y Participar"
+  },
+  fr: {
+    titlePre: "Le Choc des Plus Grands Esprits",
+    titlePost: "'La Salle de Débat Ultime des Géants'",
+    desc: "« L'argent peut-il acheter le bonheur ? » Observez et rejoignez le débat intellectuel intense entre Aristote et Nietzsche en temps réel.",
+    button: "Observer et Participer"
+  },
+  it: {
+    titlePre: "Scontro tra le Grandi Menti",
+    titlePost: "'La Stanza di Dibattito Ultimo dei Giganti'",
+    desc: "\"I soldi possono comprare la felicità?\" Assisti e partecipa all'intenso dibattito intellettuale tra Aristotele e Nietzsche in tempo reale.",
+    button: "Assisti e Partecipa"
+  },
+  pt: {
+    titlePre: "O Confronto de Grandes Mentes",
+    titlePost: "'A Sala de Debate Suprema dos Gigantes'",
+    desc: "\"O dinheiro pode comprar felicidade?\" Assista e participe do intenso debate intelectual entre Aristóteles e Nietzsche em tempo real.",
+    button: "Assistir e Participar"
+  }
+};
+
 const colorMap: Record<string, string> = {
   leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
   philosophy: "from-emerald-500/20 to-teal-500/20 text-emerald-300 border-emerald-500/30",
@@ -199,18 +250,18 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                   <span className="text-sm">🔥</span> LIVE DEBATE
                 </div>
                 <h2 className="text-3xl md:text-4xl font-serif font-bold text-white leading-tight whitespace-pre-wrap">
-                  세기의 명저들이 맞붙는<br />
+                  {(debateCTATranslations[locale] || debateCTATranslations['en']).titlePre}<br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-300">
-                    &apos;거인들의 끝장 토론방&apos;
+                    {(debateCTATranslations[locale] || debateCTATranslations['en']).titlePost}
                   </span>
                 </h2>
                 <p className="text-slate-300 text-lg max-w-xl">
-                  “돈으로 행복을 살 수 있을까?” 아리스토텔레스와 니체가 벌이는 격렬한 사상 논쟁을 실시간으로 직관하고 참여해보세요.
+                  {(debateCTATranslations[locale] || debateCTATranslations['en']).desc}
                 </p>
               </div>
               <div className="shrink-0 flex flex-col items-center gap-4">
                 <div className="flex items-center gap-2 text-amber-400 font-bold group-hover:gap-4 transition-all bg-amber-500/10 px-6 py-4 rounded-full border border-amber-500/30 group-hover:bg-amber-500/20 shadow-[0_0_20px_rgba(245,158,11,0.1)]">
-                  토론 관전 및 참여하기 <ArrowRight className="w-5 h-5 animate-pulse" />
+                  {(debateCTATranslations[locale] || debateCTATranslations['en']).button} <ArrowRight className="w-5 h-5 animate-pulse" />
                 </div>
               </div>
             </div>

@@ -1,9 +1,10 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { Link } from '@/i18n/routing'
-import { setRequestLocale } from 'next-intl/server'
+import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { blogPosts } from '@/data/blog-posts'
 import { giants } from '@/lib/giants-data'
+import { Navigation } from '@/components/navigation'
 import { getReadTime } from '@/utils/blog'
 import { 
   ArrowLeft, 
@@ -281,6 +282,29 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const catNames = categoryNames[locale] || categoryNames['en']
   const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30"
 
+  const tg = await getTranslations({ locale, namespace: "Giants" })
+  const getTranslation = (key: string, fallback: string) => {
+    try {
+      if (tg.has && !tg.has(key)) {
+        return fallback;
+      }
+      const translated = tg(key);
+      if (translated === `Giants.${key}` || translated.includes(`${key.split('.')[0]}.`)) {
+        return fallback;
+      }
+      return translated;
+    } catch (e) {
+      return fallback;
+    }
+  }
+
+  const localizedName = post.giantSlug === 'cleopatra'
+    ? (locale === 'ko' ? '클레오파트라' :
+       locale === 'ja' ? 'クレオパトラ' :
+       locale === 'de' ? 'Kleopatra' :
+       locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
+    : getTranslation(`${post.giantSlug}.name`, giant?.name || post.giantSlug)
+
   const absoluteImageUrl = giant
     ? giant.imageUrl
     : "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
@@ -299,6 +323,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-background pb-24">
+      <Navigation />
       {/* Article Container */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 md:pt-36">
         
@@ -341,12 +366,12 @@ export default async function BlogPostDetailPage({ params }: Props) {
             <div className="w-12 h-12 rounded-full overflow-hidden bg-slate-800 border border-white/10 shrink-0">
               <img
                 src={absoluteImageUrl}
-                alt={giant?.name || "Cleopatra"}
+                alt={localizedName}
                 className="w-full h-full object-cover scale-110"
               />
             </div>
             <div>
-              <h3 className="text-white font-serif font-bold">{giant?.name || (locale === 'ko' ? '클레오파트라' : 'Cleopatra')}</h3>
+              <h3 className="text-white font-serif font-bold">{localizedName}</h3>
               <p className="text-xs text-slate-500 font-light">{giant?.era || (locale === 'ko' ? '기원전 1세기' : '1st Century BC')}</p>
             </div>
           </div>
@@ -356,7 +381,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
             className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground font-semibold text-xs shadow-md shadow-amber-500/10 hover:shadow-lg hover:shadow-amber-500/25 transition-all scale-[1.01]"
           >
             <MessageSquare className="w-4 h-4" />
-            {(giant?.name || (locale === 'ko' ? '클레오파트라' : 'Cleopatra'))}{ui.chatWith}
+            {(locale === 'ko' || locale === 'ja') ? `${localizedName}${ui.chatWith}` : `${ui.chatWith}${localizedName}`}
           </Link>
         </div>
 
@@ -409,7 +434,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="space-y-3">
               <h2 className="text-2xl md:text-3xl font-serif font-bold text-white tracking-tight leading-tight">
-                {giant?.name || (locale === 'ko' ? '클레오파트라' : 'Cleopatra')}{ui.ctaTitle}
+                {(locale === 'ko' || locale === 'ja') ? `${localizedName}${ui.ctaTitle}` : `${ui.ctaTitle}${localizedName}`}
               </h2>
               <p className="text-white/85 text-sm md:text-base max-w-xl font-light leading-relaxed">
                 {ui.ctaDesc}
@@ -440,6 +465,13 @@ export default async function BlogPostDetailPage({ params }: Props) {
                 const readTime = getReadTime(translation.content, locale)
                 const catColor = colorMap[p.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30"
 
+                const rLocalizedName = p.giantSlug === 'cleopatra'
+                  ? (locale === 'ko' ? '클레오파트라' :
+                     locale === 'ja' ? 'クレオパトラ' :
+                     locale === 'de' ? 'Kleopatra' :
+                     locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
+                  : getTranslation(`${p.giantSlug}.name`, rGiant?.name || p.giantSlug)
+
                 return (
                   <Link 
                     key={p.slug} 
@@ -455,7 +487,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
                       </h3>
                     </div>
                     <div className="flex items-center justify-between text-[10px] text-slate-500 mt-4 pt-3 border-t border-white/5">
-                      <span>{rGiant?.name || (locale === 'ko' ? '클레오파트라' : 'Cleopatra')}</span>
+                      <span>{rLocalizedName}</span>
                       <span>{readTime} {ui.readTime}</span>
                     </div>
                   </Link>

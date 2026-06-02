@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
 import { blogPosts, BlogPost } from "@/data/blog-posts"
 import { giants } from "@/lib/giants-data"
@@ -118,6 +118,7 @@ const colorMap: Record<string, string> = {
 export function BlogListClient() {
   const locale = useLocale()
   const t = translations[locale] || translations["en"]
+  const tg = useTranslations("Giants")
   const [selectedCategory, setSelectedCategory] = useState<string>("all")
 
   const categories = ["all", "leadership", "philosophy", "creativity", "wisdom"]
@@ -131,6 +132,22 @@ export function BlogListClient() {
   const sortedPosts = [...filteredPosts].sort(
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   )
+
+  const getTranslation = (key: string, fallback: string) => {
+    try {
+      // @ts-ignore
+      if (tg.has && !tg.has(key)) {
+        return fallback;
+      }
+      const translated = tg(key);
+      if (translated === `Giants.${key}` || translated.includes(`${key.split('.')[0]}.`)) {
+        return fallback;
+      }
+      return translated;
+    } catch (e) {
+      return fallback;
+    }
+  }
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
@@ -186,6 +203,13 @@ export function BlogListClient() {
               ? giant.imageUrl
               : "/images/giants/cleopatra.png" // fallback for Cleopatra or general fallback
 
+            const localizedName = post.giantSlug === 'cleopatra'
+              ? (locale === 'ko' ? '클레오파트라' :
+                 locale === 'ja' ? 'クレオパトラ' :
+                 locale === 'de' ? 'Kleopatra' :
+                 locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
+              : getTranslation(`${post.giantSlug}.name`, giant?.name || post.giantSlug)
+
             return (
               <article
                 key={post.slug}
@@ -222,7 +246,7 @@ export function BlogListClient() {
                     <div className="w-10 h-10 rounded-full overflow-hidden bg-slate-800 border border-white/10 shrink-0">
                       <img
                         src={absoluteImageUrl}
-                        alt={giant?.name || "Cleopatra"}
+                        alt={localizedName}
                         className="w-full h-full object-cover transform scale-110 group-hover:scale-125 transition-transform duration-500"
                         onError={(e) => {
                           // Standard fallback if image loading fails
@@ -231,7 +255,7 @@ export function BlogListClient() {
                       />
                     </div>
                     <div className="text-xs">
-                      <p className="text-slate-400 font-semibold">{giant?.name || (locale === 'ko' ? '클레오파트라' : 'Cleopatra')}</p>
+                      <p className="text-slate-400 font-semibold">{localizedName}</p>
                       <p className="text-slate-600 text-[10px]">{post.publishedAt}</p>
                     </div>
                   </div>
