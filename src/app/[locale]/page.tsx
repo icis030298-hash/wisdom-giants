@@ -4,9 +4,10 @@ import { FeaturedGiants } from "@/components/featured-giants"
 import { GiantsGrid } from "@/components/giants-grid"
 import { ProjectPhilosophy } from "@/components/project-philosophy"
 import { giants } from "@/lib/giants-data"
-import { Dna, ArrowRight } from "lucide-react"
+import { Dna, ArrowRight, BookOpen, Clock } from "lucide-react"
 import { Link } from "@/i18n/routing"
 import { getTranslations } from "next-intl/server"
+import { blogPosts } from "@/data/blog-posts"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -28,13 +29,117 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
+const blogTranslations: Record<string, Record<string, string>> = {
+  ko: {
+    sectionTitle: "최신 블로그 포스트",
+    sectionSubtitle: "역사 속 위인들의 지혜와 삶을 깊이 있는 이야기로 만나보세요.",
+    viewAll: "블로그 전체 보기",
+    readTime: "분 분량",
+    read: "읽기",
+    leadership: "리더십",
+    philosophy: "철학",
+    creativity: "창의성",
+    wisdom: "지혜"
+  },
+  en: {
+    sectionTitle: "Latest from the Blog",
+    sectionSubtitle: "Discover profound wisdom and life stories from historical giants.",
+    viewAll: "View All Posts",
+    readTime: "min read",
+    read: "Read",
+    leadership: "Leadership",
+    philosophy: "Philosophy",
+    creativity: "Creativity",
+    wisdom: "Wisdom"
+  },
+  de: {
+    sectionTitle: "Neuestes aus dem Blog",
+    sectionSubtitle: "Entdecken Sie tiefe Weisheiten und Lebensgeschichten historischer Riesen.",
+    viewAll: "Alle Beiträge anzeigen",
+    readTime: "Min. Lesung",
+    read: "Lesen",
+    leadership: "Führung",
+    philosophy: "Philosophie",
+    creativity: "Kreativität",
+    wisdom: "Weisheit"
+  },
+  ja: {
+    sectionTitle: "最新のブログ記事",
+    sectionSubtitle: "歴史上の偉人たちの深い知恵と人生の物語を発見してください。",
+    viewAll: "すべての記事を表示",
+    readTime: "分 読了",
+    read: "読む",
+    leadership: "リーダーシップ",
+    philosophy: "哲学",
+    creativity: "創造性",
+    wisdom: "知恵"
+  },
+  es: {
+    sectionTitle: "Últimas del Blog",
+    sectionSubtitle: "Descubra la profunda sabiduría e historias de vida de gigantes históricos.",
+    viewAll: "Ver todo el blog",
+    readTime: "min de lectura",
+    read: "Leer",
+    leadership: "Liderazgo",
+    philosophy: "Filosofía",
+    creativity: "Creatividad",
+    wisdom: "Sabiduría"
+  },
+  fr: {
+    sectionTitle: "Derniers articles du Blog",
+    sectionSubtitle: "Découvrez la sagesse profonde et les récits de vie des géants de l'histoire.",
+    viewAll: "Voir tous les articles",
+    readTime: "min de lecture",
+    read: "Lire",
+    leadership: "Leadership",
+    philosophy: "Philosophie",
+    creativity: "Créativité",
+    wisdom: "Sagesse"
+  },
+  it: {
+    sectionTitle: "Ultimi articoli dal Blog",
+    sectionSubtitle: "Scopri la profonda saggezza e le storie di vita dei giganti storici.",
+    viewAll: "Vedi tutto il blog",
+    readTime: "min di lettura",
+    read: "Leggi",
+    leadership: "Leadership",
+    philosophy: "Filosofia",
+    creativity: "Creatività",
+    wisdom: "Saggezza"
+  },
+  pt: {
+    sectionTitle: "Últimos do Blog",
+    sectionSubtitle: "Descubra a profunda sabedoria e as histórias de vida dos gigantes históricos.",
+    viewAll: "Ver todos os posts",
+    readTime: "min de leitura",
+    read: "Ler",
+    leadership: "Liderança",
+    philosophy: "Filosofia",
+    creativity: "Criatividade",
+    wisdom: "Sabedoria"
+  }
+};
+
+const colorMap: Record<string, string> = {
+  leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
+  philosophy: "from-emerald-500/20 to-teal-500/20 text-emerald-300 border-emerald-500/30",
+  creativity: "from-purple-500/20 to-indigo-500/20 text-purple-300 border-purple-500/30",
+  wisdom: "from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-500/30"
+};
+
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Test" });
+  const bt = blogTranslations[locale] || blogTranslations['en'];
 
   console.log("==========================================");
   console.log("[Server environment check]: Is Firebase API Key loaded?", !!process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
   console.log("==========================================");
+
+  // Get 3 latest posts sorted by date
+  const latestPosts = [...blogPosts]
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 3);
 
   return (
     <main className="min-h-screen bg-background">
@@ -120,6 +225,88 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <div id="giants">
         <GiantsGrid />
       </div>
+
+      {/* Latest Blog Section */}
+      {latestPosts.length > 0 && (
+        <div className="max-w-6xl mx-auto px-4 py-16 md:py-24 border-t border-white/5">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+            <div className="space-y-4">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 text-amber-300 text-xs font-bold uppercase tracking-widest border border-amber-500/20">
+                <BookOpen className="w-3.5 h-3.5" />
+                BLOG FEED
+              </div>
+              <h2 className="text-3xl md:text-4xl font-serif font-bold text-white tracking-tight leading-tight">
+                {bt.sectionTitle}
+              </h2>
+              <p className="text-slate-400 text-lg font-light max-w-xl">
+                {bt.sectionSubtitle}
+              </p>
+            </div>
+            
+            <Link 
+              href="/blog" 
+              className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-bold transition-colors text-sm uppercase tracking-wider group shrink-0"
+            >
+              {bt.viewAll}
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+            {latestPosts.map((post) => {
+              const trans = post.translations[locale] || post.translations['en'];
+              const giant = giants.find(g => g.slug === post.giantSlug);
+              
+              // Calculate reading time
+              let readTime = 1;
+              if (locale === 'ko' || locale === 'ja') {
+                readTime = Math.max(1, Math.ceil(trans.content.length / 500));
+              } else {
+                const words = trans.content.trim().split(/\s+/).length;
+                readTime = Math.max(1, Math.ceil(words / 200));
+              }
+              
+              const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30";
+
+              return (
+                <Link 
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="group flex flex-col justify-between rounded-2xl bg-slate-950 border border-white/5 hover:border-amber-500/30 p-6 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-amber-500/5"
+                >
+                  <div>
+                    {/* Badge and read time */}
+                    <div className="flex items-center justify-between gap-4 mb-5">
+                      <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${catColor}`}>
+                        {bt[post.category]}
+                      </span>
+                      <span className="flex items-center gap-1 text-[10px] text-slate-500 font-medium">
+                        <Clock className="w-3.5 h-3.5" />
+                        {readTime} {bt.readTime}
+                      </span>
+                    </div>
+
+                    <h3 className="text-xl font-serif font-bold text-white group-hover:text-amber-400 transition-colors line-clamp-2 min-h-[3.5rem] mb-3 leading-snug">
+                      {trans.title}
+                    </h3>
+                    
+                    <p className="text-slate-400 text-sm leading-relaxed line-clamp-3 min-h-[4.5rem]">
+                      {trans.description}
+                    </p>
+                  </div>
+
+                  <div className="flex items-center justify-between text-xs text-slate-500 mt-6 pt-4 border-t border-white/5">
+                    <span>{giant?.name || (locale === 'ko' ? '클레오파트라' : 'Cleopatra')}</span>
+                    <span className="inline-flex items-center gap-1 text-amber-400 font-bold group-hover:gap-2 transition-all">
+                      {bt.read} <ArrowRight className="w-3.5 h-3.5" />
+                    </span>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* High-density Project Philosophy for SEO and AdSense Compliance */}
       <ProjectPhilosophy />

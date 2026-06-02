@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, useTransition } from "react"
-import { Menu, X, Sparkles, Users, MessageCircle, Info, Languages, ChevronDown, LogOut, LayoutDashboard, Swords } from "lucide-react"
+import { Menu, X, Sparkles, Users, MessageCircle, Info, Languages, ChevronDown, LogOut, LayoutDashboard, Swords, BookOpen } from "lucide-react"
 import { useTranslations, useLocale } from "next-intl"
 import { usePathname, useRouter, Link } from "@/i18n/routing"
 import { AuthButton } from "@/components/auth-button"
@@ -33,6 +33,11 @@ export function Navigation() {
       label: t("debate"), 
       href: "/debate", 
       icon: Swords,
+    },
+    { 
+      label: t("blog"), 
+      href: "/blog", 
+      icon: BookOpen,
     },
     { label: t("about"), href: "/about", icon: Info },
   ]

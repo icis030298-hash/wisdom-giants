@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import { giants } from '@/lib/giants-data'
+import { blogPosts } from '@/data/blog-posts'
 
 const BASE_URL = 'https://www.giantswisdom.com'
 const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt'] as const
@@ -59,5 +60,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   )
 
-  return [...staticEntries, ...giantEntries]
+  // 3. Dynamic blog pages — 8 locales list + (20 posts × 8 locales) = 168 entries
+  const blogListEntries = LOCALES.map((locale) => ({
+    url: `${BASE_URL}/${locale}/blog`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+    alternates: buildAlternates('/blog'),
+  }))
+
+  const blogPostEntries = LOCALES.flatMap((locale) =>
+    blogPosts.map((post) => ({
+      url: `${BASE_URL}/${locale}/blog/${post.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+      alternates: buildAlternates(`/blog/${post.slug}`),
+    }))
+  )
+
+  return [...staticEntries, ...giantEntries, ...blogListEntries, ...blogPostEntries]
 }
