@@ -6,6 +6,7 @@ import { Link } from "@/i18n/routing"
 import { blogPosts, BlogPost } from "@/data/blog-posts"
 import { giants } from "@/lib/giants-data"
 import { ArrowRight, BookOpen, Clock, Tag } from "lucide-react"
+import { getReadTime } from "@/utils/blog"
 
 const translations: Record<string, Record<string, string>> = {
   ko: {
@@ -113,14 +114,6 @@ const colorMap: Record<string, string> = {
   wisdom: "from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-500/30"
 }
 
-export function getReadTime(content: string, locale: string): number {
-  if (locale === "ko" || locale === "ja") {
-    return Math.max(1, Math.ceil(content.length / 500))
-  } else {
-    const words = content.trim().split(/\s+/).length
-    return Math.max(1, Math.ceil(words / 200))
-  }
-}
 
 export function BlogListClient() {
   const locale = useLocale()

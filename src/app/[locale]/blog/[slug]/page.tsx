@@ -4,7 +4,7 @@ import { Link } from '@/i18n/routing'
 import { setRequestLocale } from 'next-intl/server'
 import { blogPosts } from '@/data/blog-posts'
 import { giants } from '@/lib/giants-data'
-import { getReadTime } from '@/components/blog-list-client'
+import { getReadTime } from '@/utils/blog'
 import { 
   ArrowLeft, 
   Calendar, 
@@ -397,7 +397,6 @@ export default async function BlogPostDetailPage({ params }: Props) {
             </a>
             {/* Copy Link component */}
             <button 
-              onClick={undefined} // handled elegantly by browser clipboard natively
               className="w-10 h-10 rounded-xl glass border border-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/5 transition-colors cursor-pointer"
               title={ui.copylink}
             >
