@@ -486,17 +486,40 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-500/[0.02] rounded-full blur-[100px]" />
                 
                 <div className="relative z-10 space-y-6 md:space-y-10">
-                  {parseParagraphs(epicContent).map((paragraph: string, idx: number) => (
-                    paragraph ? (
+                  {parseParagraphs(epicContent).map((paragraph: string, idx: number) => {
+                    if (!paragraph) return null;
+                    
+                    if (idx === 0) {
+                      // Apply defensive DropCap logic: Trim leading special characters and whitespaces
+                      let cleaned = paragraph.trim();
+                      cleaned = cleaned.replace(/^[\s*#_~`‘“"'"]+/g, ''); // Strip leading markdown / quotes
+                      cleaned = cleaned.replace(/\*\*/g, '').replace(/\*/g, ''); // Clean double/single asterisks
+                      
+                      const firstLetter = cleaned.substring(0, 1);
+                      const restOfText = cleaned.substring(1);
+                      
+                      return (
+                        <p 
+                          key={idx} 
+                          className="text-base md:text-lg lg:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-left md:text-justify"
+                        >
+                          <span className="text-5xl md:text-6xl font-serif mr-3 md:mr-4 float-left text-amber-400 font-black leading-none mt-1 md:mt-2">
+                            {firstLetter}
+                          </span>
+                          {restOfText}
+                        </p>
+                      );
+                    }
+                    
+                    return (
                       <p 
                         key={idx} 
-                        className={`text-base md:text-lg lg:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-left md:text-justify
-                          ${idx === 0 ? 'first-letter:text-5xl md:first-letter:text-6xl first-letter:font-serif first-letter:mr-3 md:first-letter:mr-4 first-letter:float-left first-letter:text-amber-400 first-letter:font-black first-letter:leading-none first-letter:mt-1 md:first-letter:mt-2' : ''}`}
+                        className="text-base md:text-lg lg:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-left md:text-justify"
                       >
                         {paragraph}
                       </p>
-                    ) : null
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </section>

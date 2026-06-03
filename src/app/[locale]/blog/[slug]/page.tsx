@@ -189,6 +189,39 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
+// Helper to parse inline markdown links like [text](url) and return React nodes
+function renderParagraphWithLinks(text: string) {
+  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match;
+  let keyIdx = 0;
+
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index));
+    }
+    const linkText = match[1];
+    const linkUrl = match[2];
+    parts.push(
+      <Link
+        key={`inline-link-${match.index}-${keyIdx++}`}
+        href={linkUrl}
+        className="text-amber-400 hover:text-amber-300 underline font-semibold transition-colors inline-flex items-center gap-1"
+      >
+        {linkText}
+      </Link>
+    );
+    lastIndex = regex.lastIndex;
+  }
+
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex));
+  }
+
+  return parts.length > 0 ? parts : text;
+}
+
 // Lightweight Markdown-to-JSX Parser
 function parseMarkdown(content: string) {
   const lines = content.split('\n')
@@ -198,9 +231,10 @@ function parseMarkdown(content: string) {
 
   const flushBlockquote = (key: number) => {
     if (blockquoteLines.length > 0) {
+      const fullText = blockquoteLines.join(' ');
       elements.push(
         <blockquote key={`bq-${key}`} className="border-l-4 border-amber-500 bg-amber-500/5 px-6 py-5 my-8 rounded-r-2xl text-slate-300 leading-relaxed font-serif italic text-base md:text-lg">
-          {blockquoteLines.join(' ')}
+          {renderParagraphWithLinks(fullText)}
         </blockquote>
       )
       blockquoteLines = []
@@ -249,13 +283,13 @@ function parseMarkdown(content: string) {
     } else if (trimmed.startsWith('-') || trimmed.startsWith('*')) {
       elements.push(
         <li key={`li-${index}`} className="text-slate-300 text-base md:text-lg leading-relaxed ml-6 mb-3 list-disc font-light">
-          {trimmed.slice(1).trim()}
+          {renderParagraphWithLinks(trimmed.slice(1).trim())}
         </li>
       )
     } else if (trimmed !== '') {
       elements.push(
         <p key={`p-${index}`} className="text-slate-300 text-base md:text-lg leading-relaxed mb-6 font-light">
-          {trimmed}
+          {renderParagraphWithLinks(trimmed)}
         </p>
       )
     }
