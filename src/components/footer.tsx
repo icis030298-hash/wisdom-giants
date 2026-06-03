@@ -23,6 +23,7 @@ export default function Footer() {
       { label: t('links.about'), href: '/about' },
       { label: t('links.privacy'), href: '/privacy' },
       { label: t('links.terms'), href: '/terms' },
+      { label: t('links.contact'), href: '/contact' },
     ],
   }
 
@@ -54,13 +55,13 @@ export default function Footer() {
               </p>
               {/* Email / Contact icon */}
               <div className="flex items-center gap-4">
-                <button
-                  onClick={() => setContactOpen(true)}
+                <Link
+                  href="/contact"
                   className="text-muted-foreground/50 hover:text-amber-400/80 transition-all"
                   aria-label="Contact us"
                 >
                   <Mail className="w-5 h-5" />
-                </button>
+                </Link>
               </div>
             </div>
 
@@ -89,15 +90,7 @@ export default function Footer() {
                     </Link>
                   </li>
                 ))}
-                {/* Contact button */}
-                <li>
-                  <button
-                    onClick={() => setContactOpen(true)}
-                    className="text-muted-foreground/60 hover:text-amber-400/80 transition-colors text-sm font-light"
-                  >
-                    {t('links.contact')}
-                  </button>
-                </li>
+
               </ul>
             </div>
           </div>
