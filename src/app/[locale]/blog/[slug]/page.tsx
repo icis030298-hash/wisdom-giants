@@ -189,9 +189,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-// Helper to parse inline markdown links like [text](url) and return React nodes
-function renderParagraphWithLinks(text: string) {
-  const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+// Helper to parse inline markdown: **bold**, *italic*, [link](url)
+function renderInlineMarkdown(text: string, keyPrefix: string = 'inline'): React.ReactNode[] {
+  // Combined regex: bold (**text**), italic (*text*), link ([text](url))
+  const regex = /\*\*([^*]+)\*\*|\*([^*]+)\*|\[([^\]]+)\]\(([^)]+)\)/g;
   const parts: React.ReactNode[] = [];
   let lastIndex = 0;
   let match;
@@ -201,17 +202,32 @@ function renderParagraphWithLinks(text: string) {
     if (match.index > lastIndex) {
       parts.push(text.substring(lastIndex, match.index));
     }
-    const linkText = match[1];
-    const linkUrl = match[2];
-    parts.push(
-      <Link
-        key={`inline-link-${match.index}-${keyIdx++}`}
-        href={linkUrl}
-        className="text-amber-400 hover:text-amber-300 underline font-semibold transition-colors inline-flex items-center gap-1"
-      >
-        {linkText}
-      </Link>
-    );
+    if (match[1] !== undefined) {
+      // Bold: **text**
+      parts.push(
+        <strong key={`${keyPrefix}-bold-${keyIdx++}`} className="font-bold text-white">
+          {match[1]}
+        </strong>
+      );
+    } else if (match[2] !== undefined) {
+      // Italic: *text*
+      parts.push(
+        <em key={`${keyPrefix}-em-${keyIdx++}`} className="italic text-slate-200">
+          {match[2]}
+        </em>
+      );
+    } else if (match[3] !== undefined && match[4] !== undefined) {
+      // Link: [text](url)
+      parts.push(
+        <Link
+          key={`${keyPrefix}-link-${keyIdx++}`}
+          href={match[4]}
+          className="text-amber-400 hover:text-amber-300 underline font-semibold transition-colors"
+        >
+          {match[3]}
+        </Link>
+      );
+    }
     lastIndex = regex.lastIndex;
   }
 
@@ -219,7 +235,13 @@ function renderParagraphWithLinks(text: string) {
     parts.push(text.substring(lastIndex));
   }
 
-  return parts.length > 0 ? parts : text;
+  return parts.length > 0 ? parts : [text];
+}
+
+// Legacy alias for backward compat
+function renderParagraphWithLinks(text: string): React.ReactNode {
+  const nodes = renderInlineMarkdown(text, 'p');
+  return nodes.length === 1 && typeof nodes[0] === 'string' ? nodes[0] : <>{nodes}</>;
 }
 
 // Lightweight Markdown-to-JSX Parser
@@ -280,16 +302,18 @@ function parseMarkdown(content: string) {
           {trimmed.slice(1).trim()}
         </h1>
       )
-    } else if (trimmed.startsWith('-') || trimmed.startsWith('*')) {
+    } else if (trimmed.startsWith('- ') || (trimmed.startsWith('* ') && !trimmed.startsWith('**'))) {
+      // List item: must start with '- ' or '* ' but NOT '**' (bold marker)
+      const liContent = trimmed.startsWith('- ') ? trimmed.slice(2).trim() : trimmed.slice(2).trim()
       elements.push(
         <li key={`li-${index}`} className="text-slate-300 text-base md:text-lg leading-relaxed ml-6 mb-3 list-disc font-light">
-          {renderParagraphWithLinks(trimmed.slice(1).trim())}
+          {renderInlineMarkdown(liContent, `li-${index}`)}
         </li>
       )
     } else if (trimmed !== '') {
       elements.push(
         <p key={`p-${index}`} className="text-slate-300 text-base md:text-lg leading-relaxed mb-6 font-light">
-          {renderParagraphWithLinks(trimmed)}
+          {renderInlineMarkdown(trimmed, `p-${index}`)}
         </p>
       )
     }

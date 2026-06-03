@@ -21,8 +21,11 @@ export function GiantCard({ giant, index }: GiantCardProps) {
   const getTranslation = (key: string, fallback: string) => {
     try {
       const translated = t(key);
-      // If next-intl returns the key itself (e.g. "Giants.slug.name"), use fallback
-      if (translated === `Giants.${key}` || translated.includes(`${giant.id}.`)) {
+      // Detect untranslated: next-intl returns key path like "Giants.albert-einstein.name"
+      // We check exact equality with the namespaced key, OR if result starts with Giants.<slug>.
+      const namespacedKey = `Giants.${key}`;
+      const slugPrefix = `Giants.${giant.id}.`;
+      if (translated === namespacedKey || translated === key || translated.startsWith(slugPrefix)) {
         return fallback;
       }
       return translated;

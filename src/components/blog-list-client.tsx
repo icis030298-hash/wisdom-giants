@@ -144,7 +144,10 @@ export function BlogListClient() {
   const getTranslation = (key: string, fallback: string) => {
     try {
       const translated = tg(key);
-      if (translated === `Giants.${key}` || translated.includes(`${key.split('.')[0]}.`)) {
+      // key = "albert-einstein.name" => slugPrefix = "Giants.albert-einstein."
+      const slugPart = key.split('.')[0];
+      const slugPrefix = `Giants.${slugPart}.`;
+      if (translated === `Giants.${key}` || translated === key || translated.startsWith(slugPrefix)) {
         return fallback;
       }
       return translated;
