@@ -583,7 +583,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                   </div>
                 ))
               ) : (
-                tg.lessons.map((lesson: any, index: number) => (
+                (tg.lessons || []).map((lesson: any, index: number) => (
                   <div key={index} className="glass-card p-6 md:p-8 rounded-xl md:rounded-2xl border border-white/5 hover:border-amber-500/30 transition-all group">
                     <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">{lesson.title}</h3>
                     <p className="text-sm md:text-base text-muted-foreground leading-relaxed">

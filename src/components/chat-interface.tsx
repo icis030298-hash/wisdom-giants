@@ -74,7 +74,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
   const [isRestoredChat, setIsRestoredChat] = useState(false)
   
   const messagesEndRef = useRef<HTMLDivElement>(null)
-  const inputRef = useRef<HTMLInputElement>(null)
+  const inputRef = useRef<HTMLTextAreaElement>(null)
   const sendingRef = useRef(false) // Ref lock to completely prevent double-tap concurrent API calls
 
   useEffect(() => {
@@ -159,6 +159,13 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
     }
   }, [])
   
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.style.height = 'auto';
+      inputRef.current.style.height = `${Math.min(inputRef.current.scrollHeight, 150)}px`;
+    }
+  }, [input]);
+  
   const handleSend = async () => {
     if (!input.trim() || isTyping || sendingRef.current) return
     
@@ -203,7 +210,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       }
 
       
-      const response = await getGiantResponse(persona, userMessage.content, giant.name, history, locale);
+      const response = await getGiantResponse(giant.slug, persona, userMessage.content, giant.name, history, locale);
       
       const giantMessage: Message = {
         id: (Date.now() + 1).toString(),
@@ -500,10 +507,9 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
                 <RefreshCw className="w-5 h-5" />
               </button>
               
-              <div className="flex-1 relative">
-                <input
+              <div className="flex-1 relative flex items-end">
+                <textarea
                   ref={inputRef}
-                  type="text"
                   value={input}
                   onChange={(e) => setInput(e.target.value)}
                   onFocus={() => {
@@ -512,15 +518,18 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
                     }, 300);
                   }}
                   onKeyDown={(e) => {
-                    if (e.key === "Enter") {
+                    if (e.key === "Enter" && !e.shiftKey) {
+                      e.preventDefault();
                       if (e.nativeEvent.isComposing) return;
                       handleSend();
                     }
                   }}
                   placeholder={t("inputPlaceholder", { name: (tg(`${giant.slug}.name`) || "").split(" ")[0] })}
-                  className="w-full px-5 py-3 rounded-xl glass-card bg-transparent border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all pr-12 text-sm"
+                  className="w-full px-5 py-3 rounded-xl glass-card bg-transparent border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all pr-12 text-sm resize-none custom-scrollbar"
+                  rows={1}
+                  style={{ minHeight: "46px", maxHeight: "150px" }}
                 />
-                <Sparkles className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-amber-400/40" />
+                <Sparkles className="absolute right-4 bottom-[15px] w-4 h-4 text-amber-400/40 pointer-events-none" />
               </div>
               
               <button

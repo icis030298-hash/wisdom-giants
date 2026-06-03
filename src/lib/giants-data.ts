@@ -13,6 +13,7 @@ export interface Giant {
   imageUrl: string;
   dnaCode: string;
   category: string; // Add category ID
+  lessons?: any[];
 }
 
 const colorMap: Record<string, string> = {
@@ -46,7 +47,8 @@ export const giants: Giant[] = giantsData
       : g.imageUrl.startsWith('/') 
         ? `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/giants/${g.slug}.jpg` 
         : g.imageUrl,
-    category: categoryMap[g.category] || 'other'
+    category: categoryMap[g.category] || 'other',
+    lessons: g.lessons
   }))
   .filter(g => g.id && g.id.trim().length > 0);
 

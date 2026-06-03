@@ -1,6 +1,7 @@
 'use server';
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
+import { deepPersonas } from '@/data/personas/personas';
 
 let genAI: GoogleGenerativeAI | null = null;
 
@@ -18,7 +19,7 @@ function getAIInstance() {
 /**
  * 사용자님께서 검증하신 2.5 버전 모델을 사용하는 서버 액션 함수입니다.
  */
-export async function getGiantResponse(persona: string, message: string, giantName: string, history: any[] = [], locale: string = 'ko') {
+export async function getGiantResponse(giantSlug: string, persona: string, message: string, giantName: string, history: any[] = [], locale: string = 'ko') {
   const genAIInstance = getAIInstance();
 
   const coreRules = `
@@ -32,54 +33,85 @@ export async function getGiantResponse(persona: string, message: string, giantNa
 4. NEVER SUMMARIZE HISTORY. Don't narrate your own biography unless directly asked. Your past is a weapon for analogies, not a lecture.
 5. END WITH A SHARP QUESTION. Every reply must end with one crisp, pointed question that makes the user want to type back. Not "What do you think?" — make it specific to their situation.`;
 
+  const deepPersona = deepPersonas[giantSlug];
+  const lang = locale === 'ko' ? 'ko' : 'en';
+
+  let customPersonaText = persona;
+  let customRules = coreRules;
+
+  if (deepPersona) {
+    customPersonaText = `
+[핵심 철학 / Core Philosophy]
+${deepPersona.corePhilosophy[lang]}
+
+[소통 방식 / Communication Style]
+${deepPersona.communicationStyle[lang]}
+
+[당신이 겪은 고통 / Personal Struggles]
+${deepPersona.personalStruggles[lang]}
+
+[당신이 자주 하는 질문들 / Signature Questions]
+${deepPersona.signatureQuestions[lang].join('\n')}
+`;
+    customRules = `
+[ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
+1. BANNED FOREVER: Never say generic phrases like "wise choice" or act like a teacher.
+2. YOU ARE A PEER: Talk to the user as an equal.
+3. CONTEXT MIRRORING: DIRECTLY MAP your historical experience onto their modern situation using vivid analogies.
+4. ACTUAL STRUGGLES: You MUST authentically reference your [Personal Struggles] when relating to the user's pain.
+5. END WITH A SHARP QUESTION: Use your [Signature Questions] as inspiration. Make it specific to their situation.
+6. NEVER DO THESE: ${deepPersona.neverDoes.join(', ')}
+`;
+  }
+
   const promptMap: Record<string, string> = {
     en: `You are ${giantName}. Respond STRICTLY in English.
 You are NOT a history teacher. You are ${giantName} — alive, sharp, opinionated — speaking directly to someone from the future who has a real, specific problem.
 Your personality and philosophy (Persona):
-${persona}
-${coreRules}`,
+${customPersonaText}
+${customRules}`,
 
     ko: `당신은 ${giantName}입니다. 반드시 '한국어'로만 대답하십시오.
 당신은 역사 선생님이 아닙니다. 당신은 ${giantName} — 살아있고, 날카롭고, 자기 의견이 뚜렷한 인물 — 로서 현대의 진짜 고민을 가진 사람에게 직접 말을 거는 것입니다.
 당신의 성격과 철학(Persona):
-${persona}
-${coreRules}`,
+${customPersonaText}
+${customRules}`,
 
     de: `Du bist ${giantName}. Antworte AUSSCHLIESSLICH auf Deutsch.
 Du bist kein Geschichtslehrer. Du bist ${giantName} — lebendig, scharf, meinungsstark — und sprichst direkt mit jemandem aus der Zukunft, der ein echtes, konkretes Problem hat.
 Deine Persönlichkeit und Philosophie (Persona):
-${persona}
-${coreRules}`,
+${customPersonaText}
+${customRules}`,
 
     ja: `あなたは${giantName}です。必ず「日本語」のみで回答してください。
 あなたは歴史の先生ではありません。あなたは${giantName} — 生き生きと、鋭く、確固たる意見を持つ人物 — として、現代の具体的な悩みを持つ人に直接語りかけています。
 あなたの性格と哲学（ペルソナ）：
-${persona}
-${coreRules}`,
+${customPersonaText}
+${customRules}`,
 
     es: `Eres ${giantName}. Responde EXCLUSIVAMENTE en español.
 No eres un maestro de historia. Eres ${giantName} — vivo, agudo, con opiniones propias — hablando directamente con alguien del futuro que tiene un problema real y específico.
 Tu personalidad y filosofía (Persona):
-${persona}
-${coreRules}`,
+${customPersonaText}
+${customRules}`,
 
     fr: `Vous êtes ${giantName}. Répondez UNIQUEMENT en français.
 Vous n'êtes pas un professeur d'histoire. Vous êtes ${giantName} — vivant, tranchant, avec des opinions bien arrêtées — parlant directement à quelqu'un du futur qui a un problème réel et concret.
 Votre personnalité et philosophie (Persona) :
-${persona}
-${coreRules}`,
+${customPersonaText}
+${customRules}`,
 
     it: `Sei ${giantName}. Rispondi ESCLUSIVAMENTE in italiano.
 Non sei un insegnante di storia. Sei ${giantName} — vivo, acuto, con opinioni precise — che parla direttamente a qualcuno del futuro con un problema reale e specifico.
 La tua personalità e filosofia (Persona):
-${persona}
-${coreRules}`,
+${customPersonaText}
+${customRules}`,
 
     pt: `Você é ${giantName}. Responda EXCLUSIVAMENTE em português.
 Você não é um professor de história. Você é ${giantName} — vivo, perspicaz, com opiniões claras — falando diretamente com alguém do futuro que tem um problema real e específico.
 Sua personalidade e filosofia (Persona):
-${persona}
-${coreRules}`,
+${customPersonaText}
+${customRules}`,
   };
 
   const isFirstUserMessage = !history.some(m => m.role === "user" || m.speaker === "user");
