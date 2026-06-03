@@ -15,9 +15,11 @@ import {
   Link2, 
   Tag, 
   ArrowRight,
-  BookOpen
+  BookOpen,
+  Bot
 } from 'lucide-react'
 import React from 'react'
+import { InArticleAd } from '@/components/ad-slot'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -387,8 +389,46 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const isCleopatra = post.giantSlug === 'cleopatra'
   const chatHref = isCleopatra ? `/${locale}#giants` : `/giant/${post.giantSlug}`
 
+  // Article Schema.org structured data for SEO
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": translation.title,
+    "description": translation.description,
+    "image": absoluteImageUrl,
+    "datePublished": post.publishedAt,
+    "dateModified": post.publishedAt,
+    "author": {
+      "@type": "Organization",
+      "name": "Giants Wisdom",
+      "url": "https://www.giantswisdom.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Giants Wisdom",
+      "url": "https://www.giantswisdom.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.giantswisdom.com/icon.svg"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": postUrl
+    },
+    "about": giant ? {
+      "@type": "Person",
+      "name": giant.name,
+      "description": giant.description
+    } : undefined
+  }
+
   return (
     <div className="min-h-screen bg-background pb-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Navigation />
       {/* Article Container */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 md:pt-36">
@@ -455,10 +495,35 @@ export default async function BlogPostDetailPage({ params }: Props) {
           </Link>
         </div>
 
+        {/* AI Content Disclaimer */}
+        <div className="flex items-start gap-3 p-4 rounded-xl bg-slate-900/60 border border-white/5 mb-8 text-xs text-slate-500">
+          <Bot className="w-4 h-4 shrink-0 text-slate-600 mt-0.5" />
+          <span>
+            {locale === 'ko'
+              ? '이 콘텐츠는 교육적 목적으로 AI가 생성한 역사 기반 자료입니다. 공인된 역사 기록, 심리 평가, 전문적 조언을 구성하지 않습니다.'
+              : locale === 'ja'
+              ? 'このコンテンツは教育目的でAIが生成した歴史ベースの資料です。公認の歴史記録、心理評価、または専門的なアドバイスを構成するものではありません。'
+              : locale === 'de'
+              ? 'Dieser Inhalt ist ein KI-generiertes historisches Material zu Bildungszwecken. Er stellt keine zertifizierten historischen Aufzeichnungen, psychologische Beurteilungen oder professionelle Beratung dar.'
+              : locale === 'fr'
+              ? "Ce contenu est un matériau historique généré par l'IA à des fins éducatives. Il ne constitue pas des archives historiques certifiées, des évaluations psychologiques ou des conseils professionnels."
+              : locale === 'es'
+              ? 'Este contenido es material histórico generado por IA con fines educativos. No constituye registros históricos certificados, evaluaciones psicológicas ni asesoramiento profesional.'
+              : locale === 'it'
+              ? 'Questo contenuto è materiale storico generato dall\'IA a scopo educativo. Non costituisce documenti storici certificati, valutazioni psicologiche o consulenza professionale.'
+              : locale === 'pt'
+              ? 'Este conteúdo é material histórico gerado por IA para fins educacionais. Não constitui registros históricos certificados, avaliações psicológicas ou aconselhamento profissional.'
+              : 'This content is AI-generated historical material for educational purposes. It does not constitute certified historical records, psychological assessments, or professional advice.'}
+          </span>
+        </div>
+
         {/* Article Body (Markdown parsed) */}
         <div className="prose prose-invert max-w-none prose-headings:font-serif prose-headings:font-bold prose-p:text-slate-300 prose-p:leading-relaxed prose-li:text-slate-300">
           {parseMarkdown(translation.content)}
         </div>
+
+        {/* In-Article Ad — after body */}
+        <InArticleAd />
 
         {/* Social Share Buttons */}
         <div className="flex items-center justify-between border-y border-white/5 py-6 my-12">
