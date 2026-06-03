@@ -143,10 +143,6 @@ export function BlogListClient() {
 
   const getTranslation = (key: string, fallback: string) => {
     try {
-      // @ts-ignore
-      if (tg.has && !tg.has(key)) {
-        return fallback;
-      }
       const translated = tg(key);
       if (translated === `Giants.${key}` || translated.includes(`${key.split('.')[0]}.`)) {
         return fallback;

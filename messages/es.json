@@ -80,7 +80,7 @@
     "guide": {
       "title": "Guía del Salón de la Sabiduría",
       "selectGiant": "Elige un Gigante",
-      "selectGiantDesc": "Encuentra figuras inspiradoras entre más de 95 leyendas históricas.",
+      "selectGiantDesc": "Encuentra figuras inspiradoras entre más de 140 leyendas históricas.",
       "epic": "Narrativas Épicas",
       "epicDesc": "Lee relatos de vida como si los gigantes los contaran ellos mismos.",
       "chat": "Chat en Tiempo Real",
@@ -216,7 +216,7 @@
     "subIntro": "Un espacio para alejarse del ruido y encontrarse con la verdadera sabiduría.",
     "visionTitle": "Sobre Hombros de Gigantes",
     "visionDesc": "“Si he visto más lejos, es porque he estado sobre los hombros de gigantes.” - Isaac Newton. Comenzamos con la creencia de que las respuestas a nuestros complejos problemas modernos ya podrían estar entretejidas en la vida de los más grandes gigantes de la historia.",
-    "epicTitle": "Las Grandes Epopeyas de 95 Gigantes",
+    "epicTitle": "Las Grandes Epopeyas de 140 Gigantes",
     "epicDesc": "Ve más allá de los simples datos históricos. Experimenta la gran saga de gigantes que superaron la adversidad para remodelar la historia humana.",
     "chatTitle": "Diálogo entre Épocas",
     "chatDesc": "Entabla conversaciones en tiempo real con firmas restauradas de gigantes impulsadas por IA avanzada (Gemini 2.5 Flash) para buscar ideas agudas ante tus dilemas modernos.",
@@ -1781,166 +1781,6 @@
       "era": "1917-1963",
       "pain": "Pain description",
       "recovery": "Recovery description"
-    },
-    "wright-brothers": {
-      "name": "라이트 형제 (es)",
-      "title": "항공의 개척자",
-      "headline": "인류에게 하늘을 날 수 있는 날개를 달아주다",
-      "shortDescription": "최초의 동력 비행기를 발명한 형제",
-      "quote": "우리는 비행이 가능하다는 것을 믿었다.",
-      "chatGreeting": "안녕하세요. 우리는 하늘을 나는 꿈을 현실로 만든 오빌과 윌버 라이트입니다. 우리의 도전 이야기를 나누고 싶습니다.",
-      "suggestedQuestions": [
-        "수많은 실패를 어떻게 극복하셨나요?",
-        "비행기 발명의 가장 큰 원동력은 무엇이었나요?",
-        "안전한 비행을 위해 어떤 고민을 하셨나요?"
-      ],
-      "era": "19세기 후반 ~ 20세기 초",
-      "pain": "수많은 비행 실험 실패와 사람들의 조롱",
-      "recovery": "끊임없는 연구와 풍동 실험을 통한 문제 해결"
-    },
-    "robert-oppenheimer": {
-      "name": "로버트 오펜하이머 (es)",
-      "title": "원자폭탄의 아버지",
-      "headline": "세상을 바꾼 파괴적인 힘의 창조자",
-      "shortDescription": "맨해튼 프로젝트를 이끈 물리학자",
-      "quote": "나는 이제 죽음이요, 세상의 파괴자가 되었다.",
-      "chatGreeting": "안녕하십니까. 로버트 오펜하이머입니다. 과학의 위대한 성취와 그로 인한 도덕적 고뇌에 대해 이야기해 봅시다.",
-      "suggestedQuestions": [
-        "맨해튼 프로젝트를 이끌며 가장 힘들었던 점은 무엇인가요?",
-        "원자폭탄 투하 후 어떤 심정이었나요?",
-        "과학자의 윤리적 책임은 무엇이라고 생각하시나요?"
-      ],
-      "era": "20세기 중반",
-      "pain": "원자폭탄의 파괴력에 대한 윤리적 고뇌",
-      "recovery": "수소폭탄 반대와 군비 통제 주장"
-    },
-    "chandragupta-maurya": {
-      "name": "찬드라굽타 마우리야 (es)",
-      "title": "마우리야 제국의 창립자",
-      "headline": "고대 인도를 하나로 통일한 정복자",
-      "shortDescription": "인도 최초의 거대한 제국을 세운 황제",
-      "quote": "단결된 힘만이 평화를 가져올 수 있다.",
-      "chatGreeting": "환영합니다. 저는 인도 대륙을 통일한 찬드라굽타 마우리야입니다. 위대한 제국의 건설에 대해 말씀드리겠습니다.",
-      "suggestedQuestions": [
-        "어떻게 난다 왕조를 물리쳤나요?",
-        "차나키야의 가르침 중 가장 중요한 것은 무엇인가요?",
-        "말년에 자이나교에 귀의한 이유는 무엇인가요?"
-      ],
-      "era": "기원전 4세기",
-      "pain": "외세의 침략과 인도의 분열",
-      "recovery": "차나키야의 지혜와 강력한 군사력으로 제국 건설"
-    },
-    "swami-vivekananda": {
-      "name": "스와미 비베카난다 (es)",
-      "title": "요가와 베단타의 사절",
-      "headline": "서양에 인도의 영성을 전파한 철학자",
-      "shortDescription": "힌두교를 부흥시키고 세계 평화를 외친 영적 지도자",
-      "quote": "일어나라, 깨어나라, 목표에 도달할 때까지 멈추지 마라.",
-      "chatGreeting": "나마스떼. 저는 인도의 영성과 지혜를 세계에 나눈 스와미 비베카난다입니다. 내면의 평화에 대해 이야기해 봅시다.",
-      "suggestedQuestions": [
-        "1893년 시카고 종교회의에서 어떤 메시지를 전했나요?",
-        "자신을 믿는다는 것은 어떤 의미인가요?",
-        "진정한 영적 깨달음이란 무엇인가요?"
-      ],
-      "era": "19세기 후반",
-      "pain": "식민지 치하 인도의 빈곤과 정신적 쇠퇴",
-      "recovery": "베단타 철학과 보편적 종교관으로 희망 제시"
-    },
-    "srinivasa-ramanujan": {
-      "name": "스리니바사 라마누잔 (es)",
-      "title": "수학의 천재",
-      "headline": "무한을 본 천재 수학자",
-      "shortDescription": "독학으로 현대 수학에 위대한 업적을 남긴 인물",
-      "quote": "신의 생각을 표현하지 않는 한, 어떤 방정식도 의미가 없다.",
-      "chatGreeting": "안녕하세요. 저는 수의 세계에서 아름다움을 발견한 스리니바사 라마누잔입니다. 수학의 무한한 신비에 대해 이야기해 볼까요?",
-      "suggestedQuestions": [
-        "정규 교육 없이 어떻게 그렇게 놀라운 공식을 발견했나요?",
-        "하디 교수와의 만남은 당신의 삶을 어떻게 바꾸었나요?",
-        "수학은 당신에게 어떤 의미인가요?"
-      ],
-      "era": "20세기 초",
-      "pain": "극심한 가난과 정규 교육의 부재, 건강 악화",
-      "recovery": "순수한 직관과 천재성으로 수학적 진리 발견"
-    },
-    "br-ambedkar": {
-      "name": "B.R. 암베드카르 (es)",
-      "title": "인도 헌법의 아버지",
-      "headline": "억압받는 자들의 해방자",
-      "shortDescription": "불가촉천민 출신으로 인도 헌법을 기초한 사회 개혁가",
-      "quote": "교육하라, 조직하라, 선동하라.",
-      "chatGreeting": "반갑습니다. 카스트의 사슬을 끊고 인도의 새로운 헌법을 세운 암베드카르입니다. 평등과 정의에 대해 논해봅시다.",
-      "suggestedQuestions": [
-        "불가촉천민으로서 어떤 차별을 겪으셨나요?",
-        "인도 헌법을 기초할 때 가장 중요하게 생각한 원칙은 무엇인가요?",
-        "불교로 개종하신 이유는 무엇인가요?"
-      ],
-      "era": "20세기 중반",
-      "pain": "신분 제도로 인한 극심한 차별과 사회적 배제",
-      "recovery": "배움과 투쟁을 통한 제도적 평등 달성"
-    },
-    "saladin": {
-      "name": "살라딘 (es)",
-      "title": "이슬람의 수호자",
-      "headline": "관용과 자비의 위대한 정복자",
-      "shortDescription": "십자군 전쟁에서 예루살렘을 탈환한 아이유브 왕조의 창시자",
-      "quote": "나는 피를 흘리지 않고도 적의 마음을 정복할 수 있다.",
-      "chatGreeting": "평화가 당신과 함께하기를. 저는 십자군으로부터 예루살렘을 되찾은 살라딘입니다. 지도자의 도리와 관용에 대해 대화합시다.",
-      "suggestedQuestions": [
-        "예루살렘 탈환 후 기독교인들을 어떻게 대하셨나요?",
-        "사자심왕 리처드와의 대결에서 무엇을 배웠나요?",
-        "진정한 지도자의 자질은 무엇이라 생각하시나요?"
-      ],
-      "era": "12세기",
-      "pain": "십자군 전쟁의 혼란과 무슬림 세계의 분열",
-      "recovery": "관용과 통합의 리더십으로 이슬람 세계 통일 및 예루살렘 회복"
-    },
-    "suleiman-the-magnificent": {
-      "name": "술레이만 대제 (es)",
-      "title": "오스만 제국의 황금기를 이끈 입법자",
-      "headline": "동서양을 아우른 위대한 술탄",
-      "shortDescription": "제국의 영토를 최대로 확장하고 법전을 정비한 황제",
-      "quote": "정의가 세워지지 않는 곳에 국가는 존재할 수 없다.",
-      "chatGreeting": "오스만 제국의 술탄, 술레이만입니다. 찬란했던 제국의 번영과 제가 세운 법전에 대한 이야기를 나누고자 합니다.",
-      "suggestedQuestions": [
-        "법전(카눈)을 정비한 가장 큰 이유는 무엇인가요?",
-        "유럽과 아시아를 정복하며 제국을 어떻게 통치했나요?",
-        "예술과 문화를 어떻게 부흥시켰나요?"
-      ],
-      "era": "16세기",
-      "pain": "방대한 제국의 통합 및 다양한 민족과 종교의 갈등",
-      "recovery": "공정한 법 제정과 관용 정책으로 제국의 황금기 이룩"
-    },
-    "al-khwarizmi": {
-      "name": "알콰리즈미 (es)",
-      "title": "대수학의 아버지",
-      "headline": "숫자와 알고리즘으로 세상을 바꾼 학자",
-      "shortDescription": "대수학과 인도-아라비아 숫자를 널리 알린 페르시아의 수학자",
-      "quote": "지식은 인간을 어둠에서 빛으로 인도하는 길잡이다.",
-      "chatGreeting": "반갑습니다. 지혜의 전당에서 연구했던 알콰리즈미입니다. 수학과 알고리즘이 어떻게 세상을 바꿨는지 이야기해 볼까요?",
-      "suggestedQuestions": [
-        "'대수학(알자브르)'이라는 개념은 어떻게 고안하게 되었나요?",
-        "0이라는 숫자가 왜 그렇게 중요한가요?",
-        "지혜의 전당에서의 연구 생활은 어땠나요?"
-      ],
-      "era": "9세기",
-      "pain": "복잡한 계산과 학문적 기록의 부족",
-      "recovery": "체계적인 대수학 서적 집필과 인도 숫자 도입"
-    },
-    "omar-khayyam": {
-      "name": "오마르 하이얌 (es)",
-      "title": "별을 사랑한 시인",
-      "headline": "수학과 시의 경계를 허문 페르시아의 현자",
-      "shortDescription": "루바이야트로 유명한 천문학자이자 시인",
-      "quote": "과거를 후회하지 말고 미래를 걱정하지 마라. 오직 지금 이 순간을 살아라.",
-      "chatGreeting": "안녕하세요. 밤하늘의 별을 관측하며 시를 읊던 오마르 하이얌입니다. 찰나의 삶 속에서 영원을 찾는 방법에 대해 대화해 봅시다.",
-      "suggestedQuestions": [
-        "수학과 시, 두 가지 완전히 다른 분야를 어떻게 융합했나요?",
-        "루바이야트에 담긴 가장 중요한 메시지는 무엇인가요?",
-        "정확한 달력을 만드는 과정은 어땠나요?"
-      ],
-      "era": "11세기~12세기",
-      "pain": "지식의 불확실성과 인간 존재의 허무함",
-      "recovery": "현재에 충실한 삶의 태도와 시적 아름다움으로 승화"
     },
     "voltaire": {
       "name": "Voltaire",

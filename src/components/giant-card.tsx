@@ -20,10 +20,6 @@ export function GiantCard({ giant, index }: GiantCardProps) {
   // Helper to get translated text with fallback to raw data
   const getTranslation = (key: string, fallback: string) => {
     try {
-      // @ts-ignore - next-intl might not have .has depending on version, but usually it does
-      if (t.has && !t.has(key)) {
-        return fallback;
-      }
       const translated = t(key);
       // If next-intl returns the key itself (e.g. "Giants.slug.name"), use fallback
       if (translated === `Giants.${key}` || translated.includes(`${giant.id}.`)) {

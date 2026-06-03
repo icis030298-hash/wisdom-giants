@@ -15,12 +15,12 @@ export async function generateMetadata({
   const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr'] as const;
 
   const descMap: Record<string, string> = {
-    ko: '역사를 바꾼 95인의 위인들과 AI로 대화하세요.',
-    de: 'Chatte mit 95+ der größten Köpfe der Geschichte per KI.',
-    ja: 'AIで歴史上の偉大な先人95人以上と対話しましょう。',
-    es: 'Conversa con más de 95 grandes figuras de la historia mediante IA.',
-    fr: "Conversez avec plus de 95 grandes figures de l'histoire grâce à l'IA.",
-    en: "Chat with 95+ of history's greatest minds using AI.",
+    ko: '역사를 바꾼 140여 명의 위인들과 AI로 대화하세요.',
+    de: 'Chatte mit 140+ der größten Köpfe der Geschichte per KI.',
+    ja: 'AIで歴史上の偉大な先人140人以上と対話しましょう。',
+    es: 'Conversa con más de 140 grandes figuras de la historia mediante IA.',
+    fr: "Conversez avec plus de 140 grandes figures de l'histoire grâce à l'IA.",
+    en: "Chat with 140+ of history's greatest minds using AI.",
   };
   const description = descMap[locale] ?? descMap['en'];
 

@@ -26,36 +26,36 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const isPortuguese = locale === 'pt';
 
   let title = 'Giants Wisdom | AI Historical Mentors & Wisdom Archive';
-  let description = "Chat with 95+ history's greatest minds using AI. Answer 15 questions and find the historical giant you most resemble.";
+  let description = "Chat with 140+ history's greatest minds using AI. Answer 15 questions and find the historical giant you most resemble.";
   let keywords = 'AI Chat, Historical Figures, Wisdom, Mentorship, History, Philosophy, Education, Giants Wisdom';
 
   if (isKorean) {
     title = 'Giants Wisdom | AI 역사 위인 멘토';
-    description = '역사를 바꾼 95인의 위인들과 AI로 대화하세요. 15가지 질문으로 나와 가장 닮은 역사 속 위인을 찾아보세요.';
+    description = '역사를 바꾼 140여 명의 위인들과 AI로 대화하세요. 15가지 질문으로 나와 가장 닮은 역사 속 위인을 찾아보세요.';
     keywords = 'AI 챗, 역사 위인, 지혜, 멘토십, 역사, 철학, 교육, 거인들의 지혜, 위인 찾기';
   } else if (isGerman) {
     title = 'Giants Wisdom | KI Historische Mentoren & Weisheitsarchiv';
-    description = 'Chatte mit 95+ der größten Köpfe der Geschichte per KI. Beantworte 15 Fragen und finde deinen historischen Zwilling.';
+    description = 'Chatte mit 140+ der größten Köpfe der Geschichte per KI. Beantworte 15 Fragen und finde deinen historischen Zwilling.';
     keywords = 'KI Chat, Historische Persönlichkeiten, Weisheit, Geschichte, Philosophie, Giants Wisdom';
   } else if (isJapanese) {
     title = 'Giants Wisdom | AI歴史偉人メンター＆知恵アーカイブ';
-    description = 'AIで歴史上の偉大な先人95人以上と対話しましょう。15の質問に答えて、あなたに最も似ている歴史上の偉人を見つけてください。';
+    description = 'AIで歴史上の偉大な先人140人以上と対話しましょう。15の質問に答えて、あなたに最も似ている歴史上の偉人を見つけてください。';
     keywords = 'AIチャット, 歴史的人物, 知恵, メンターシップ, 歴史, 哲学, 教育, Giants Wisdom, 歴史の偉人';
   } else if (isSpanish) {
     title = 'Giants Wisdom | Mentores Históricos con IA';
-    description = 'Conversa con más de 95 grandes figuras de la historia mediante IA. Descubre tu doble histórico con 15 preguntas y encuentra la figura histórica más parecida a ti.';
+    description = 'Conversa con más de 140 grandes figuras de la historia mediante IA. Descubre tu doble histórico con 15 preguntas y encuentra la figura histórica más parecida a ti.';
     keywords = 'Chat IA, Figuras Históricas, Sabiduría, Historia, Filosofía, Giants Wisdom';
   } else if (isFrench) {
     title = 'Giants Wisdom | Mentors Historiques IA';
-    description = "Conversez avec plus de 95 grandes figures de l'histoire grâce à l'IA. Découvrez votre jumeau historique en 15 questions.";
+    description = "Conversez avec plus de 140 grandes figures de l'histoire grâce à l'IA. Découvrez votre jumeau historique en 15 questions.";
     keywords = 'Chat IA, Figures Historiques, Sagesse, Histoire, Philosophie, Giants Wisdom';
   } else if (isItalian) {
     title = 'Giants Wisdom | Mentori Storici con IA';
-    description = "Conversa con oltre 95 grandi figure della storia grazie all'IA. Scopri il tuo gemello storico in 15 domande.";
+    description = "Conversa con oltre 140 grandi figure della storia grazie all'IA. Scopri il tuo gemello storico in 15 domande.";
     keywords = 'Chat IA, Figure Storiche, Saggezza, Storia, Filosofia, Giants Wisdom, Italia';
   } else if (isPortuguese) {
     title = 'Giants Wisdom | Mentores Históricos com IA';
-    description = 'Converse com mais de 95 grandes figuras da história com IA. Descubra seu gêmeo histórico em 15 perguntas.';
+    description = 'Converse com mais de 140 grandes figuras da história com IA. Descubra seu gêmeo histórico em 15 perguntas.';
     keywords = 'Chat IA, Figuras Históricas, Sabedoria, História, Filosofia, Giants Wisdom, Brasil';
   }
 

@@ -319,9 +319,6 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const tg = await getTranslations({ locale, namespace: "Giants" })
   const getTranslation = (key: string, fallback: string) => {
     try {
-      if (tg.has && !tg.has(key)) {
-        return fallback;
-      }
       const translated = tg(key);
       if (translated === `Giants.${key}` || translated.includes(`${key.split('.')[0]}.`)) {
         return fallback;

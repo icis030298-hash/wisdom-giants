@@ -4,6 +4,7 @@ import { useEffect, useState, useMemo } from "react"
 import { Sparkles } from "lucide-react"
 import { useTranslations, useLocale } from "next-intl"
 import { Link } from "@/i18n/routing"
+import { giants } from "@/lib/giants-data"
 
 // Generate stable particle positions
 const generateParticles = (count: number) => {
@@ -131,7 +132,7 @@ export function HeroSection() {
         {/* Stats */}
         <div className="flex items-center justify-center gap-8 sm:gap-12 mt-16">
           {[
-            { value: "95+", label: t("stats.minds") },
+            { value: `${giants.length}+`, label: t("stats.minds") },
             { value: "15+", label: t("stats.questions") },
             { value: t("stats.freeValue"), label: t("stats.free") },
           ].map((stat, i) => (
