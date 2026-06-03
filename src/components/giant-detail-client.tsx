@@ -142,6 +142,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     return text.replace(/\\n/g, '\n');
   };
 
+  const parseParagraphs = (content: string | string[] | undefined): string[] => {
+    if (!content) return [];
+    if (Array.isArray(content)) return content;
+    return content.split(/\n\n|\\n\\n/);
+  };
+
   const categoryLabel = tc.categories?.[giant.category] || 
     (typeof giant.category === 'string' ? 
       ({
@@ -480,7 +486,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-500/[0.02] rounded-full blur-[100px]" />
                 
                 <div className="relative z-10 space-y-6 md:space-y-10">
-                  {(epicContent || "").split(/\n\n|\\n\\n/).map((paragraph, idx) => (
+                  {parseParagraphs(epicContent).map((paragraph: string, idx: number) => (
                     paragraph ? (
                       <p 
                         key={idx} 
@@ -507,7 +513,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="glass-card p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-red-500/10 bg-red-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-red-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-3 md:space-y-4">
-                  {(trialsContent || "").split(/\n\n|\\n\\n/).map((p: string, i: number) => (
+                  {parseParagraphs(trialsContent).map((p: string, i: number) => (
                     p ? (
                       <p key={i} className="text-sm md:text-base text-slate-200 leading-relaxed font-normal">
                         {p}
@@ -527,7 +533,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="glass-card p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-emerald-500/10 bg-emerald-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-3 md:space-y-4">
-                  {(overcomingContent || "").split(/\n\n|\\n\\n/).map((p: string, i: number) => (
+                  {parseParagraphs(overcomingContent).map((p: string, i: number) => (
                     p ? (
                       <p key={i} className="text-sm md:text-base text-slate-200 leading-relaxed font-normal">
                         {p}
