@@ -167,7 +167,8 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
   }, [input]);
   
   const handleSend = async () => {
-    if (!input.trim() || isTyping || sendingRef.current) return
+    const messageContent = input.trim();
+    if (!messageContent || isTyping || sendingRef.current) return
     
     sendingRef.current = true;
     setIsTyping(true)
@@ -176,12 +177,18 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
     const userMessage: Message = {
       id: Date.now().toString(),
       role: "user",
-      content: input,
+      content: messageContent,
       timestamp: new Date()
     }
     
-    setMessages((prev) => [...prev, userMessage])
+    // Clear input state and DOM elements immediately to prevent double-sends in rapid succession
     setInput("")
+    if (inputRef.current) {
+      inputRef.current.value = "";
+      inputRef.current.style.height = 'auto';
+    }
+    
+    setMessages((prev) => [...prev, userMessage])
     
     try {
       const ourGiant = giantsData.find(g => g.slug === giant.slug);

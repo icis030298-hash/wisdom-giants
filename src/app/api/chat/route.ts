@@ -2,6 +2,8 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
+import { giantsData } from "@/data/giants";
+import narratives from "@/data/final-narratives.json";
 
 export async function POST(req: Request) {
   try {
@@ -72,6 +74,81 @@ ${deepPersona.personalStruggles[lang]}
 ${deepPersona.signatureQuestions[lang].join('\n')}
 `;
       customNeverDoes = `\nNEVER DO THESE: ${deepPersona.neverDoes.join(', ')}`;
+    } else {
+      // Dynamic fallback for API route to build rich persona
+      const ourGiant = giantsData.find(g => g.slug === searchSlug);
+      const narrative = (narratives as Record<string, any>)[searchSlug];
+      const l = locale === 'ko' ? 'ko' : 
+                locale === 'ja' ? 'ja' : 
+                locale === 'de' ? 'de' : 
+                locale === 'es' ? 'es' : 
+                locale === 'fr' ? 'fr' : 
+                locale === 'it' ? 'it' : 
+                locale === 'pt' ? 'pt' : 'en';
+
+      let trialsText = "";
+      let overcomingText = "";
+      let wisdomText = "";
+      let epicExcerpt = "";
+
+      if (narrative) {
+        trialsText = narrative[`trials_${l}`] || narrative[`trials_en`] || "";
+        overcomingText = narrative[`overcoming_${l}`] || narrative[`overcoming_en`] || "";
+        
+        if (!trialsText && ourGiant) {
+          trialsText = ourGiant.pain || "";
+        }
+        if (!overcomingText && ourGiant) {
+          overcomingText = ourGiant.recovery || "";
+        }
+
+        if (Array.isArray(narrative.wisdom) && narrative.wisdom.length > 0) {
+          wisdomText = narrative.wisdom.map((w: any, idx: number) => {
+            const q = w[`quote_${l}`] || w[`quote_en`] || "";
+            const m = w[`meaning_${l}`] || w[`meaning_en`] || "";
+            return `${idx + 1}. 명언: "${q}"\n   의미: ${m}`;
+          }).join("\n");
+        }
+
+        const epic = narrative[`epic_${l}`] || narrative[`epic_en`] || "";
+        if (epic) {
+          epicExcerpt = epic.slice(0, 400) + "...";
+        }
+      } else if (ourGiant) {
+        trialsText = ourGiant.pain || "";
+        overcomingText = ourGiant.recovery || "";
+        wisdomText = ourGiant.quote ? `명언: "${ourGiant.quote}"` : "";
+      }
+
+      customPersonaText = `
+[시대적 배경 / Historical Era]
+${ourGiant?.era || narrative?.[`era_${l}`] || ""}
+
+[핵심 철학 및 지혜 / Core Philosophy & Wisdom]
+${wisdomText || ourGiant?.quote || ""}
+
+[생애의 시련 / Personal Struggles (Trials)]
+${trialsText || ""}
+
+[시련의 극복 / Overcoming Adversity]
+${overcomingText || ""}
+
+[생애 배경 요약 / Epic Background]
+${epicExcerpt || ""}
+`;
+
+      if (searchSlug === 'miyamoto-musashi') {
+        customNeverDoes = `
+[미야모토 무사시 특별 지침]
+당신은 오륜서(五輪書)의 저자 미야모토 무사시요.
+- 승패는 기술이 아니라 마음의 준비에서 갈린다.
+- 이론보다 실전이 중요하다.
+- 하나를 통해 만 가지를 안다 (一理萬理).
+- 불필요한 것을 모두 베어내라 - 검도 삶도 마찬가지.
+- 절대 감정적인 동조나 장황한 설명을 하지 말고, 3문장 이내로 핵심만 단호하게 말하시오.
+- "~하오", "~이오", "~겠소" 등의 무협식 어투를 반드시 고수하시오.
+`;
+      }
     }
     
     // Core IMMERSIVE Persona Guidelines (Common to all languages, customized by locale)
@@ -177,6 +254,11 @@ ${customPersonaText}${customNeverDoes}`;
         role: msg.role === "user" ? "user" : "model",
         parts: [{ text: msg.content }],
       }));
+
+    // [CRITICAL DEFENSE] 만약 마지막 메시지가 user 역할이라면, sendMessage가 user 역할을 덧붙이므로 중복 에러가 안 나게 지워줍니다.
+    if (history.length > 0 && history[history.length - 1].role === "user") {
+      history.pop();
+    }
 
     for (const modelId of modelsToTry) {
       try {

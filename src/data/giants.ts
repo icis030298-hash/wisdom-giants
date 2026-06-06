@@ -2503,7 +2503,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/alexander-fleming.jpg",
     era: "1881-1955"
   },
-,
   {
     id: "102",
     name: "Alexander Hamilton",
@@ -2520,7 +2519,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/alexander-hamilton.jpg",
     era: "1755-1804"
   },
-,
   {
     id: "103",
     name: "Benjamin Franklin",
@@ -2537,7 +2535,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/benjamin-franklin.jpg",
     era: "1706-1790"
   },
-,
   {
     id: "104",
     name: "Francis Bacon",
@@ -2554,7 +2551,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/francis-bacon.jpg",
     era: "1561-1626"
   },
-,
   {
     id: "105",
     name: "Johannes Kepler",
@@ -2571,7 +2567,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/johannes-kepler.jpg",
     era: "1571-1630"
   },
-,
   {
     id: "106",
     name: "John F. Kennedy",
@@ -2588,7 +2583,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/john-f-kennedy.jpg",
     era: "1917-1963"
   },
-,
   {
     id: "107",
     name: "Queen Victoria",
@@ -2605,7 +2599,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/queen-victoria.jpg",
     era: "1819-1901"
   },
-,
   {
     id: "108",
     name: "Thomas Jefferson",
@@ -2622,7 +2615,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/thomas-jefferson.jpg",
     era: "1743-1826"
   },
-,
   {
     id: "109",
     name: "Ahn Jung-geun",
@@ -2639,7 +2631,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ahn-jung-geun.jpg",
     era: "1879-1910"
   },
-,
   {
     id: "110",
     name: "Empress Wu Zetian",
@@ -2656,7 +2647,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/empress-wu-zetian.jpg",
     era: "624 – 705"
   },
-,
   {
     id: "111",
     name: "Jeong Yak-yong",
@@ -2673,7 +2663,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/jeong-yak-yong.jpg",
     era: "1762-1836"
   },
-,
   {
     id: "112",
     name: "Mencius",
@@ -2690,7 +2679,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mencius.jpg",
     era: "372 BC – 289 BC"
   },
-,
   {
     id: "113",
     name: "Sima Qian",
@@ -2707,7 +2695,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/sima-qian.jpg",
     era: "145 BC – 86 BC"
   },
-,
   {
     id: "114",
     name: "Zhuangzi",
@@ -2724,7 +2711,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/zhuangzi.jpg",
     era: "369 BC – 286 BC"
   },
-,
   {
     id: "115",
     name: "Zhuge Liang",
@@ -2741,7 +2727,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/zhuge-liang.jpg",
     era: "181 – 234"
   },
-,
   {
     id: "116",
     name: "Ashoka the Great",
@@ -2758,7 +2743,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ashoka-the-great.jpg",
     era: "304BC-232BC"
   },
-,
   {
     id: "117",
     name: "King Jeongjo",
@@ -2775,7 +2759,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/king-jeongjo.jpg",
     era: "18th Century Giant"
   },
-,
   {
     id: "118",
     name: "Li Bai",
@@ -2792,7 +2775,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/li-bai.jpg",
     era: "Tang Dynasty (701–762)"
   },
-,
   {
     id: "119",
     name: "Miyamoto Musashi",
@@ -2809,7 +2791,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/miyamoto-musashi.jpg",
     era: "1584-1645"
   },
-,
   {
     id: "120",
     name: "Oda Nobunaga",
@@ -2826,7 +2807,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/oda-nobunaga.jpg",
     era: "1534-1582"
   },
-,
   {
     id: "121",
     name: "Sun Yat-sen",
@@ -2843,7 +2823,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/sun-yat-sen.jpg",
     era: "1866-1925"
   },
-,
   {
     id: "122",
     name: "Tokugawa Ieyasu",
@@ -2860,7 +2839,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/tokugawa-ieyasu.jpg",
     era: "1543-1616"
   },
-,
   {
     id: "123",
     name: "Toyotomi Hideyoshi",
@@ -2877,7 +2855,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/toyotomi-hideyoshi.jpg",
     era: "1537-1598"
   },
-,
   {
     id: "124",
     name: "King Chulalongkorn",
@@ -2894,7 +2871,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/chulalongkorn.jpg",
     era: "Late 19th - Early 20th Century"
   },
-,
   {
     id: "125",
     name: "Hannibal Barca",
@@ -2911,7 +2887,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/hannibal-barca.jpg",
     era: "3rd - 2nd Century BC"
   },
-,
   {
     id: "126",
     name: "Ibn Battuta",
@@ -2928,7 +2903,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ibn-battuta.jpg",
     era: "14th Century"
   },
-,
   {
     id: "127",
     name: "Jayavarman VII",
@@ -2945,7 +2919,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/jayavarman-vii.jpg",
     era: "12th - 13th Century"
   },
-,
   {
     id: "128",
     name: "Mansa Musa",
@@ -2962,7 +2935,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mansa-musa.jpg",
     era: "14th Century"
   },
-,
   {
     id: "129",
     name: "Shaka Zulu",
@@ -2979,7 +2951,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/shaka-zulu.jpg",
     era: "Late 18th - Early 19th Century"
   },
-,
   {
     id: "130",
     name: "Al-Khwarizmi",
@@ -2996,7 +2967,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/al-khwarizmi.jpg",
     era: "9세기"
   },
-,
   {
     id: "131",
     name: "B.R. Ambedkar",
@@ -3013,7 +2983,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/br-ambedkar.jpg",
     era: "20세기 중반"
   },
-,
   {
     id: "132",
     name: "Chandragupta Maurya",
@@ -3030,7 +2999,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/chandragupta-maurya.jpg",
     era: "기원전 4세기"
   },
-,
   {
     id: "133",
     name: "Omar Khayyam",
@@ -3047,7 +3015,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/omar-khayyam.jpg",
     era: "11세기~12세기"
   },
-,
   {
     id: "134",
     name: "Robert Oppenheimer",
@@ -3064,7 +3031,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/robert-oppenheimer.jpg",
     era: "20세기 중반"
   },
-,
   {
     id: "135",
     name: "Saladin",
@@ -3081,7 +3047,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/saladin.jpg",
     era: "12세기"
   },
-,
   {
     id: "136",
     name: "Srinivasa Ramanujan",
@@ -3098,7 +3063,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/srinivasa-ramanujan.jpg",
     era: "20세기 초"
   },
-,
   {
     id: "137",
     name: "Suleiman the Magnificent",
@@ -3115,7 +3079,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/suleiman-the-magnificent.jpg",
     era: "16세기"
   },
-,
   {
     id: "138",
     name: "Swami Vivekananda",
@@ -3132,7 +3095,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/swami-vivekananda.jpg",
     era: "19세기 후반"
   },
-,
   {
     id: "139",
     name: "Wright Brothers",
@@ -3149,7 +3111,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/wright-brothers.jpg",
     era: "19세기 후반 ~ 20세기 초"
   },
-,
   {
     id: "140",
     name: "Adam Smith",
@@ -3166,7 +3127,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/adam-smith.jpg",
     era: "Enlightenment"
   },
-,
   {
     id: "141",
     name: "Archimedes",
@@ -3183,7 +3143,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/archimedes.jpg",
     era: "Hellenistic period"
   },
-,
   {
     id: "142",
     name: "Nicolaus Copernicus",
@@ -3200,7 +3159,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/copernicus.jpg",
     era: "Renaissance"
   },
-,
   {
     id: "143",
     name: "Dante Alighieri",
@@ -3217,7 +3175,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/dante-alighieri.jpg",
     era: "Middle Ages"
   },
-,
   {
     id: "144",
     name: "Johannes Gutenberg",
@@ -3234,7 +3191,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/johannes-gutenberg.jpg",
     era: "Renaissance"
   },
-,
   {
     id: "145",
     name: "Louis Pasteur",
@@ -3251,7 +3207,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/louis-pasteur.jpg",
     era: "19th Century"
   },
-,
   {
     id: "146",
     name: "Niccolò Machiavelli",
@@ -3268,7 +3223,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/machiavelli.jpg",
     era: "Renaissance"
   },
-,
   {
     id: "147",
     name: "Voltaire",
@@ -3285,7 +3239,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/voltaire.jpg",
     era: "Age of Enlightenment"
   },
-,
   {
     id: "148",
     name: "Alexander Graham Bell",
@@ -3302,7 +3255,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/alexander-graham-bell.jpg",
     era: "19th-20th Century"
   },
-,
   {
     id: "149",
     name: "Amelia Earhart",
@@ -3319,7 +3271,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/amelia-earhart.jpg",
     era: "20th Century"
   },
-,
   {
     id: "150",
     name: "Andrew Carnegie",
@@ -3336,7 +3287,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/andrew-carnegie.jpg",
     era: "19th-20th Century"
   },
-,
   {
     id: "151",
     name: "Edgar Allan Poe",
@@ -3353,7 +3303,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/edgar-allan-poe.jpg",
     era: "19th Century"
   },
-,
   {
     id: "152",
     name: "Ernest Hemingway",
@@ -3370,7 +3319,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ernest-hemingway.jpg",
     era: "20th Century"
   },
-,
   {
     id: "153",
     name: "Henry David Thoreau",
@@ -3387,7 +3335,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/henry-david-thoreau.jpg",
     era: "19th Century"
   },
-,
   {
     id: "154",
     name: "J.P. Morgan",
@@ -3404,7 +3351,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/jp-morgan.jpg",
     era: "19th-20th Century"
   },
-,
   {
     id: "155",
     name: "Ralph Waldo Emerson",
@@ -3421,7 +3367,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ralph-waldo-emerson.jpg",
     era: "19th Century"
   },
-,
   {
     id: "156",
     name: "Susan B. Anthony",
@@ -3438,7 +3383,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/susan-b-anthony.jpg",
     era: "19th Century"
   },
-,
   {
     id: "157",
     name: "Walt Whitman",
