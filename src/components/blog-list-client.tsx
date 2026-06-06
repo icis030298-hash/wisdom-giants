@@ -7,6 +7,7 @@ import { blogPosts, BlogPost } from "@/data/blog-posts"
 import { giants } from "@/lib/giants-data"
 import { ArrowRight, BookOpen, Clock, Tag } from "lucide-react"
 import { getReadTime } from "@/utils/blog"
+import { AdSlot } from "@/components/ad-slot"
 
 const translations: Record<string, Record<string, string>> = {
   ko: {
@@ -284,6 +285,11 @@ export function BlogListClient() {
           <p className="text-slate-500 text-lg">{t.noPosts}</p>
         </div>
       )}
+
+      {/* AdSpace Container with safe margin */}
+      <div className="max-w-6xl mx-auto px-4 py-12 flex justify-center border-t border-white/5 my-12">
+        <AdSlot slot="4898120960" format="horizontal" />
+      </div>
     </div>
   )
 }

@@ -25,6 +25,8 @@ import {
 } from "lucide-react"
 import { archetypes } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
+import { ConditionalAdSense } from "@/components/conditional-adsense"
+import { AdSlot } from "@/components/ad-slot"
 
 interface GiantDetailClientProps {
   giant: any;
@@ -391,6 +393,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
 
   return (
     <main className="min-h-screen bg-background">
+      <ConditionalAdSense />
       <Navigation />
       
       {/* Hero Section */}
@@ -617,6 +620,11 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               )}
             </div>
           </section>
+
+          {/* AdSpace Container with safe margin */}
+          <div className="ad-container my-12 flex justify-center border-t border-white/5 pt-8">
+            <AdSlot slot="4898120960" format="horizontal" />
+          </div>
         </div>
 
         {/* Right Column: Profile & Quote */}

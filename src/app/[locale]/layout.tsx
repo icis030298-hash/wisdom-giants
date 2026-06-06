@@ -4,7 +4,6 @@ import Script from "next/script";
 import "../globals.css";
 import Footer from "@/components/footer";
 import { CookieBanner } from "@/components/cookie-banner";
-import { ConditionalAdSense } from "@/components/conditional-adsense";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -159,7 +158,6 @@ export default async function RootLayout({
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages} locale={locale}>
           <div className="flex flex-col min-h-screen overflow-x-hidden">
-            <ConditionalAdSense />
             {/* Google Analytics 4 Setup */}
             <Script
               src="https://www.googletagmanager.com/gtag/js?id=G-MKP0G1YD64"

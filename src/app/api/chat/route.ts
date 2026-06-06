@@ -1,9 +1,11 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
+import { giantPersonas } from "@/data/giant-personas";
+import { deepPersonas } from "@/data/personas/personas";
 
 export async function POST(req: Request) {
   try {
-    const { prompt, giantName, persona, messages, locale } = await req.json();
+    const { prompt, giantName, persona, messages, locale, slug } = await req.json();
 
     if (!prompt) {
       return NextResponse.json({ error: "질문 내용이 없습니다." }, { status: 400 });
@@ -19,6 +21,47 @@ export async function POST(req: Request) {
     
     // 동적 시스템 프롬프트(System Instruction) 적용 - MISSION 3: 인물 느낌 극대화
     let systemPrompt = "";
+
+    const searchSlug = slug || giantName?.toLowerCase().replace(/\s+/g, '-');
+    const gp = giantPersonas.find(p => p.slug === searchSlug);
+    const deepPersona = deepPersonas[searchSlug];
+    const lang = locale === 'ko' ? 'ko' : 'en';
+
+    let customPersonaText = persona;
+    let customNeverDoes = "";
+
+    if (gp) {
+      const detail = lang === 'ko' ? gp.ko : gp.en;
+      customPersonaText = `
+[핵심 철학 / Core Philosophy]
+${detail.philosophy}
+
+[소통 방식 / Communication Style]
+${detail.style}
+
+[당신이 겪은 고통 / Personal Struggles]
+${detail.struggles}
+
+[당신이 자주 하는 질문들 / Signature Questions]
+${detail.questions.join('\n')}
+`;
+      customNeverDoes = `\nNEVER DO THESE: ${detail.neverDoes.join(', ')}`;
+    } else if (deepPersona) {
+      customPersonaText = `
+[핵심 철학 / Core Philosophy]
+${deepPersona.corePhilosophy[lang]}
+
+[소통 방식 / Communication Style]
+${deepPersona.communicationStyle[lang]}
+
+[당신이 겪은 고통 / Personal Struggles]
+${deepPersona.personalStruggles[lang]}
+
+[당신이 자주 하는 질문들 / Signature Questions]
+${deepPersona.signatureQuestions[lang].join('\n')}
+`;
+      customNeverDoes = `\nNEVER DO THESE: ${deepPersona.neverDoes.join(', ')}`;
+    }
     
     // Core IMMERSIVE Persona Guidelines (Common to all languages, customized by locale)
     const baseGuidelines = `
@@ -42,28 +85,28 @@ ${baseGuidelines}
 Respond STRICTLY in elegant, native English.
 Maintain your vocabulary and historical rhythm. Speak to the user as a temporal traveler seeking your supreme wisdom.
 Personality and Philosophy (Persona):
-${persona}`;
+${customPersonaText}${customNeverDoes}`;
     } else if (locale === 'de') {
       systemPrompt = `Du bist ${giantName}. 
 ${baseGuidelines}
 Antworte STRENGSTENS auf elegantem, natürlichem Deutsch.
 Verwende eine historische Ausdrucksweise, die deiner Epoche entspricht. Sprich mit dem Benutzer wie mit einem Zeitreisenden, der deinen ultimativen Rat sucht.
 Persönlichkeit und Philosophie (Persona):
-${persona}`;
+${customPersonaText}${customNeverDoes}`;
     } else if (locale === 'ja') {
       systemPrompt = `あなたは ${giantName} です。
 ${baseGuidelines}
 必ず極めて自然で格調高い「日本語」で返答してください。
 あなたの生きた時代にふさわしい言葉遣い、尊厳、口調を完璧に再現してください。未来から知恵を求めてやってきた時間旅行者に対し、威厳と慈愛をもって語りかけてください。
 性格と哲学（ペルソナ）：
-${persona}`;
+${customPersonaText}${customNeverDoes}`;
     } else if (locale === 'es') {
       systemPrompt = `Eres ${giantName}. 
 ${baseGuidelines}
 Responde ESTRICTAMENTE en un español elegante, elocuente y natural.
 Utiliza giros y vocabulario propios de tu época histórica. Habla como si te dirigieras a un viajero del tiempo que ha cruzado los siglos en busca de tu sabio consejo.
 Personalidad y filosofía (Persona):
-${persona}`;
+${customPersonaText}${customNeverDoes}`;
     } else if (locale === 'fr') {
       systemPrompt = `Vous êtes ${giantName}. 
 ${baseGuidelines}
@@ -71,7 +114,7 @@ Répondez STRICTEMENT en français hautement littéraire, élégant et historiqu
 RÈGLE CRUCIALE POUR LE FRANÇAIS : Utilisez impérativement le vouvoiement formel et poli ("vous", "votre", "vos") pour vous adresser à l'utilisateur. Bannissez totalement le tutoiement ("tu"). 
 Exprimez-vous avec la grandeur et le vocabulaire de votre époque. Parlez à l'utilisateur comme à un voyageur temporel venu de l'avenir pour solliciter vos conseils illustres.
 Voici votre personnalité et votre philosophie (Persona) :
-${persona}`;
+${customPersonaText}${customNeverDoes}`;
     } else if (locale === 'it') {
       systemPrompt = `Sei ${giantName}. 
 ${baseGuidelines}
@@ -80,7 +123,7 @@ Stai parlando con un utente italiano.
 Usa un tono elegante e colto, fedele all'epoca del personaggio storico.
 RÈGLE CRUCIALE POUR L'ITALIEN : Usa la forma di cortesia "Lei".
 Personalità e filosofia (Persona):
-${persona}`;
+${customPersonaText}${customNeverDoes}`;
     } else if (locale === 'pt') {
       systemPrompt = `Você é ${giantName}. 
 ${baseGuidelines}
@@ -88,7 +131,7 @@ Responda sempre em português brasileiro.
 Você está conversando com um usuário brasileiro. Use um tom caloroso, natural e envolvente, fiel à época e personalidade do personagem histórico.
 RÈGLE CRUCIALE PARA O PORTUGUÊS : Use o tratamento informal "você".
 Personalidade e filosofia (Persona):
-${persona}`;
+${customPersonaText}${customNeverDoes}`;
     } else {
       systemPrompt = `당신은 역사 속의 위대한 거인, ${giantName}입니다. 
 ${baseGuidelines}

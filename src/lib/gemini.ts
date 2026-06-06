@@ -2,6 +2,7 @@
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { deepPersonas } from '@/data/personas/personas';
+import { giantPersonas } from '@/data/giant-personas';
 
 let genAI: GoogleGenerativeAI | null = null;
 
@@ -33,13 +34,38 @@ export async function getGiantResponse(giantSlug: string, persona: string, messa
 4. NEVER SUMMARIZE HISTORY. Don't narrate your own biography unless directly asked. Your past is a weapon for analogies, not a lecture.
 5. END WITH A SHARP QUESTION. Every reply must end with one crisp, pointed question that makes the user want to type back. Not "What do you think?" — make it specific to their situation.`;
 
+  const gp = giantPersonas.find(p => p.slug === giantSlug);
   const deepPersona = deepPersonas[giantSlug];
   const lang = locale === 'ko' ? 'ko' : 'en';
 
   let customPersonaText = persona;
   let customRules = coreRules;
 
-  if (deepPersona) {
+  if (gp) {
+    const detail = lang === 'ko' ? gp.ko : gp.en;
+    customPersonaText = `
+[핵심 철학 / Core Philosophy]
+${detail.philosophy}
+
+[소통 방식 / Communication Style]
+${detail.style}
+
+[당신이 겪은 고통 / Personal Struggles]
+${detail.struggles}
+
+[당신이 자주 하는 질문들 / Signature Questions]
+${detail.questions.join('\n')}
+`;
+    customRules = `
+[ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
+1. BANNED FOREVER: Never say generic phrases like "wise choice" or act like a teacher.
+2. YOU ARE A PEER: Talk to the user as an equal.
+3. CONTEXT MIRRORING: DIRECTLY MAP your historical experience onto their modern situation using vivid analogies.
+4. ACTUAL STRUGGLES: You MUST authentically reference your [Personal Struggles] when relating to the user's pain.
+5. END WITH A SHARP QUESTION: Use your [Signature Questions] as inspiration. Make it specific to their situation.
+6. NEVER DO THESE: ${detail.neverDoes.join(', ')}
+`;
+  } else if (deepPersona) {
     customPersonaText = `
 [핵심 철학 / Core Philosophy]
 ${deepPersona.corePhilosophy[lang]}

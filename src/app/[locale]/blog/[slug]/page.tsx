@@ -4,6 +4,7 @@ import { Link } from '@/i18n/routing'
 import { setRequestLocale, getTranslations } from 'next-intl/server'
 import { blogPosts } from '@/data/blog-posts'
 import { giants } from '@/lib/giants-data'
+import { ConditionalAdSense } from '@/components/conditional-adsense'
 import { Navigation } from '@/components/navigation'
 import { getReadTime } from '@/utils/blog'
 import { 
@@ -425,6 +426,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-background pb-24">
+      <ConditionalAdSense />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}

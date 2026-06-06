@@ -8,6 +8,8 @@ import { Dna, ArrowRight, BookOpen, Clock } from "lucide-react"
 import { Link } from "@/i18n/routing"
 import { getTranslations } from "next-intl/server"
 import { blogPosts } from "@/data/blog-posts"
+import { ConditionalAdSense } from "@/components/conditional-adsense"
+import { AdSlot } from "@/components/ad-slot"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -202,6 +204,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   return (
     <main className="min-h-screen bg-background">
+      <ConditionalAdSense />
       {/* Navigation */}
       <Navigation />
       
@@ -366,6 +369,11 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
       )}
+
+      {/* AdSpace Container with safe margin */}
+      <div className="max-w-6xl mx-auto px-4 py-12 flex justify-center border-t border-white/5 my-12">
+        <AdSlot slot="4898120960" format="horizontal" />
+      </div>
 
       {/* High-density Project Philosophy for SEO and AdSense Compliance */}
       <ProjectPhilosophy />
