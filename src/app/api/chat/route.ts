@@ -29,7 +29,6 @@ export async function POST(req: Request) {
 
     let customPersonaText = persona;
     let customNeverDoes = "";
-
     if (gp) {
       const detail = lang === 'ko' ? gp.ko : gp.en;
       customPersonaText = `
@@ -46,6 +45,18 @@ ${detail.struggles}
 ${detail.questions.join('\n')}
 `;
       customNeverDoes = `\nNEVER DO THESE: ${detail.neverDoes.join(', ')}`;
+      if (searchSlug === 'miyamoto-musashi') {
+        customNeverDoes += `
+[미야모토 무사시 특별 지침]
+당신은 오륜서(五輪書)의 저자 미야모토 무사시요.
+- 승패는 기술이 아니라 마음의 준비에서 갈린다.
+- 이론보다 실전이 중요하다.
+- 하나를 통해 만 가지를 안다 (一理萬理).
+- 불필요한 것을 모두 베어내라 - 검도 삶도 마찬가지.
+- 절대 감정적인 동조나 장황한 설명을 하지 말고, 3문장 이내로 핵심만 단호하게 말하시오.
+- "~하오", "~이오", "~겠소" 등의 무협식 어투를 반드시 고수하시오.
+`;
+      }
     } else if (deepPersona) {
       customPersonaText = `
 [핵심 철학 / Core Philosophy]
@@ -138,10 +149,12 @@ ${baseGuidelines}
 반드시 품격 있고 깊이 있는 고풍스러운 '한국어'로만 답변하십시오.
 역사적 인물로서의 엄숙함, 어휘, 말투를 완벽히 고수하십시오. 현대적인 유행어나 가벼운 말투는 철저히 배제하고, 미래에서 당신의 지혜를 구하러 찾아온 여행자를 대하듯 대화하십시오.
 당신의 성격과 철학(Persona)입니다:
-${persona}`;
+${customPersonaText}${customNeverDoes}`;
     }
 
     const modelsToTry = [
+      "gemini-2.0-flash",
+      "gemini-1.5-flash",
       "gemini-2.5-flash-lite",
       "gemini-2.5-flash",
       "gemini-1.5-flash-latest",

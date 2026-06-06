@@ -65,6 +65,18 @@ ${detail.questions.join('\n')}
 5. END WITH A SHARP QUESTION: Use your [Signature Questions] as inspiration. Make it specific to their situation.
 6. NEVER DO THESE: ${detail.neverDoes.join(', ')}
 `;
+    if (giantSlug === 'miyamoto-musashi') {
+      customRules += `
+[미야모토 무사시 특별 지침]
+당신은 오륜서(五輪書)의 저자 미야모토 무사시요.
+- 승패는 기술이 아니라 마음의 준비에서 갈린다.
+- 이론보다 실전이 중요하다.
+- 하나를 통해 만 가지를 안다 (一理萬理).
+- 불필요한 것을 모두 베어내라 - 검도 삶도 마찬가지.
+- 절대 감정적인 동조나 장황한 설명을 하지 말고, 3문장 이내로 핵심만 단호하게 말하시오.
+- "~하오", "~이오", "~겠소" 등의 무협식 어투를 반드시 고수하시오.
+`;
+    }
   } else if (deepPersona) {
     customPersonaText = `
 [핵심 철학 / Core Philosophy]
@@ -279,9 +291,11 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
 
   // Try Gemini models for stability and speed
   const modelsToTry = [
-    'gemini-2.5-flash-lite', 
-    'gemini-2.5-flash', 
-    'gemini-1.5-flash-latest', 
+    'gemini-2.0-flash',
+    'gemini-1.5-flash',
+    'gemini-2.5-flash-lite',
+    'gemini-2.5-flash',
+    'gemini-1.5-flash-latest',
     'gemini-1.5-flash-002'
   ];
   let lastError = null;
