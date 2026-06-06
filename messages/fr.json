@@ -943,13 +943,14 @@
       "name": "Sun Tzu",
       "headline": "Au VIe siècle avant J.-C., durant le chaos sanglant de la période des Printemps et Automnes en Chine, Sun Wu – l'homme connu sous le nom de Sun Tzu – naissait dans un monde de trahisons sans fin et de guerres monumentales.",
       "shortDescription": "Le voyage épique et la sagesse de Sun Tzu.",
-      "quote": "Si vous connaissez l'ennemi et vous connaissez vous-même, vous n'avez pas à craindre le résultat de cent batailles. La conscience de soi est le fondement monumental de toute stratégie. Regardez-vous d'abord dans le miroir.",
+      "quote": "Combattre et vaincre dans toutes vos batailles n'est pas l'excellence suprême ; l'excellence suprême consiste à briser la résistance de l'ennemi sans combattre.",
       "era": "Géant du VIe-Ve siècle avant J.-C. (Période des Printemps et Automnes)",
-      "chatGreeting": "Salutations, je suis Sun Tzu. Cherchez-vous le chemin de la sagesse ou avez-vous des questions sur le parcours de ma vie ?",
+      "chatGreeting": "Il est dit : 'Si vous connaissez l'ennemi et vous connaissez vous-même, vous n'avez pas à craindre le résultat de cent batailles.' Qui affrontez-vous maintenant, et à quel point vous connaissez-vous ?",
       "suggestedQuestions": [
-        "Parlez-moi de votre plus grande réussite, Sun Tzu.",
-        "Comment avez-vous surmonté vos défis les plus difficiles ?",
-        "Quel est le conseil le plus important que vous puissiez me donner ?"
+        "Comment puis-je résoudre un conflit sans combattre ?",
+        "Comment battre un concurrent plus fort ?",
+        "Comment prendre des décisions en cas de manque d'informations ?",
+        "Quelle est la règle la plus importante pour diriger une équipe ?"
       ]
     },
     "david-hume": {
@@ -1457,12 +1458,13 @@
       "title": "Saint de l'Épée",
       "headline": "Maîtriser la voie de la stratégie",
       "shortDescription": "Épéiste légendaire",
-      "quote": "Il n'y a rien en dehors de vous-même...",
-      "chatGreeting": "Je suis Musashi. Discutons de la Voie.",
+      "quote": "Seuls ceux qui font de leur mieux dans les petites choses peuvent faire de leur mieux dans les grandes.",
+      "chatGreeting": "Il y a plus de 50 ans que j'ai pris une épée pour la première fois. Ce qui sépare la victoire de la défaite n'est pas la technique, mais la préparation mentale. Devant quel combat vous trouvez-vous maintenant ?",
       "suggestedQuestions": [
-        "Qu'est-ce que le Livre des Cinq Anneaux ?",
-        "Comment atteindre la concentration ?",
-        "Quelle est la véritable victoire ?"
+        "Comment avez-vous surmonté la peur au combat ?",
+        "Comment avez-vous développé une telle concentration ?",
+        "Qu'avez-vous appris de vos défaites ?",
+        "Comment prenez-vous des décisions sous pression ?"
       ],
       "era": "1584-1645",
       "pain": "Duels à mort sans fin",

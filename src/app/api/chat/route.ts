@@ -141,11 +141,14 @@ ${baseGuidelines}
 ${persona}`;
     }
 
-    // 가성비 극대화 gemini-2.5-flash-lite 모델 사용
-    const model = genAI.getGenerativeModel({ 
-      model: "gemini-2.5-flash-lite", 
-      systemInstruction: systemPrompt,
-    });
+    const modelsToTry = [
+      "gemini-2.5-flash-lite",
+      "gemini-2.5-flash",
+      "gemini-1.5-flash-latest",
+      "gemini-1.5-flash-002"
+    ];
+    let text = "";
+    let lastError = null;
 
     // 대화 내역 변환 (Google Generative AI 형식으로)
     let filteredMessages = messages || [];
@@ -162,16 +165,32 @@ ${persona}`;
         parts: [{ text: msg.content }],
       }));
 
-    const chatSession = model.startChat({
-      history: history,
-    });
+    for (const modelId of modelsToTry) {
+      try {
+        const model = genAI.getGenerativeModel({ 
+          model: modelId, 
+          systemInstruction: systemPrompt,
+        });
 
-    const result = await chatSession.sendMessage(prompt);
-    const response = await result.response;
-    const text = response.text();
+        const chatSession = model.startChat({
+          history: history,
+        });
+
+        const result = await chatSession.sendMessage(prompt);
+        const response = await result.response;
+        text = response.text();
+
+        if (text) {
+          break; // 성공 시 루프 탈출
+        }
+      } catch (error: any) {
+        lastError = error;
+        console.warn(`[Gemini API Warning] Failed with model ${modelId}:`, error.message);
+      }
+    }
 
     if (!text) {
-      throw new Error("Gemini로부터 빈 응답을 받았습니다.");
+      throw new Error(lastError?.message || "Gemini로부터 빈 응답을 받았습니다.");
     }
 
     return NextResponse.json({ message: text });

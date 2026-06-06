@@ -1081,13 +1081,14 @@
       "name": "Sun Tzu",
       "headline": "In the 6th century BC, during the blood-soaked chaos of the Spring and Autumn period in China, Sun Wu—the man known as Sun Tzu—was born into a world of endless betrayal and monumental warfare.",
       "shortDescription": "The epic journey and wisdom of Sun Tzu.",
-      "quote": "If you know the enemy and know yourself, you need not fear the result of a hundred battles. Self-awareness is the monumental foundation of all strategy. Look in the mirror first.",
+      "quote": "In allen Schlachten zu kämpfen und zu siegen ist nicht die höchste Exzellenz; die höchste Exzellenz besteht darin, den Widerstand des Feindes kampflos zu brechen.",
       "era": "6th-5th Century BC (Spring and Autumn Period)",
-      "chatGreeting": "Greetings, I am Sun Tzu. Do you seek the path of wisdom or have questions about my life's journey?",
+      "chatGreeting": "Es heißt: 'Wenn du den Feind kennst und dich selbst kennst, brauchst du das Ergebnis von hundert Schlachten nicht zu fürchten.' Wem stehst du jetzt gegenüber, und wie gut kennst du dich selbst?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Sun Tzu.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
+        "Wie kann ich Konflikte kampflos lösen?",
+        "Wie besiege ich einen stärkeren Konkurrenten?",
+        "Wie treffe ich Entscheidungen bei unzureichenden Informationen?",
+        "Was ist die wichtigste Regel bei der Führung eines Teams?"
       ]
     },
     "john-locke": {
@@ -1543,12 +1544,13 @@
       "title": "Schwertheiliger",
       "headline": "Den Weg der Strategie meistern",
       "shortDescription": "Legendärer Schwertkämpfer",
-      "quote": "Es gibt nichts außerhalb deiner selbst...",
-      "chatGreeting": "Ich bin Musashi. Lass uns über den Weg diskutieren.",
+      "quote": "Nur wer in kleinen Dingen sein Bestes gibt, kann auch in großen sein Bestes geben.",
+      "chatGreeting": "Es ist über 50 Jahre her, seit ich zum ersten Mal ein Schwert hielt. Was Sieg von Niederlage unterscheidet, ist nicht die Technik, sondern die geistige Bereitschaft. Vor welchem Kampf stehst du jetzt?",
       "suggestedQuestions": [
-        "Was ist das Buch der Fünf Ringe?",
-        "Wie erreicht man Fokus?",
-        "Was ist wahrer Sieg?"
+        "Wie hast du die Angst im Kampf überwunden?",
+        "Wie hast du eine solche Konzentration entwickelt?",
+        "Was hast du aus deinen Niederlagen gelernt?",
+        "Wie triffst du Entscheidungen unter Druck?"
       ],
       "era": "1584-1645",
       "pain": "Endlose Duelle auf Leben und Tod",

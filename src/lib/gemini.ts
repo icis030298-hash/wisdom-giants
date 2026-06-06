@@ -277,8 +277,13 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
   const sysPrompt = sysPromptBase + dynamicInstruction;
 
 
-  // Try Gemini 2.5 suite as per project configuration
-  const modelsToTry = ['gemini-2.5-flash-lite', 'gemini-2.5-flash'];
+  // Try Gemini models for stability and speed
+  const modelsToTry = [
+    'gemini-2.5-flash-lite', 
+    'gemini-2.5-flash', 
+    'gemini-1.5-flash-latest', 
+    'gemini-1.5-flash-002'
+  ];
   let lastError = null;
 
   for (const modelId of modelsToTry) {
@@ -327,14 +332,8 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
 
     } catch (error: any) {
       lastError = error;
-      console.warn(`[Gemini 2.5 Error]: Failed utilizing model [${modelId}]`, error.message);
-      
-      // If it's a fatal error (not 404/not found), we might want to stop, 
-      // but here we strictly follow the 2.5 migration path.
-      if (!error.message?.includes("404") && !error.message?.includes("not found")) {
-        // Keep trying the next 2.5 model unless it's a completely different error
-        continue;
-      }
+      console.warn(`[Gemini Error]: Failed utilizing model [${modelId}]`, error.message);
+      continue;
     }
   }
 

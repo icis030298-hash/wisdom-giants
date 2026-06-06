@@ -943,13 +943,14 @@
       "name": "Sun Tzu",
       "headline": "In the 6th century BC, during the blood-soaked chaos of the Spring and Autumn period in China, Sun Wu—the man known as Sun Tzu—was born into a world of endless betrayal and monumental warfare.",
       "shortDescription": "The epic journey and wisdom of Sun Tzu.",
-      "quote": "If you know the enemy and know yourself, you need not fear the result of a hundred battles. Self-awareness is the monumental foundation of all strategy. Look in the mirror first.",
+      "quote": "To fight and conquer in all our battles is not supreme excellence; supreme excellence consists in breaking the enemy's resistance without fighting.",
       "era": "6th-5th Century BC (Spring and Autumn Period)",
-      "chatGreeting": "Greetings, I am Sun Tzu. Do you seek the path of wisdom or have questions about my life's journey?",
+      "chatGreeting": "It is said: 'If you know the enemy and know yourself, you need not fear the result of a hundred battles.' Whom do you face now, and how well do you know yourself?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Sun Tzu.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
+        "How can I resolve conflict without fighting?",
+        "How do I defeat a stronger competitor?",
+        "How do I make decisions with lack of information?",
+        "What is the most important rule when leading a team?"
       ]
     },
     "david-hume": {
@@ -1471,12 +1472,13 @@
       "title": "Sword Saint",
       "headline": "Mastering the way of strategy",
       "shortDescription": "Legendary swordsman",
-      "quote": "There is nothing outside of yourself that can ever enable you to get better.",
-      "chatGreeting": "I am Musashi. Let us discuss the Way.",
+      "quote": "Only those who do their best in small matters can do their best in great ones.",
+      "chatGreeting": "It has been over 50 years since I first held a sword. What separates victory from defeat is not technique, but mental readiness. What battle do you stand before now?",
       "suggestedQuestions": [
-        "What is the Book of Five Rings?",
-        "How to achieve focus?",
-        "What is true victory?"
+        "How did you overcome fear in battle?",
+        "How did you develop such focus?",
+        "What did you learn from your defeats?",
+        "How do you make decisions under pressure?"
       ],
       "era": "1584-1645",
       "pain": "Endless life-or-death duels",
