@@ -8,7 +8,6 @@ import { PROBLEM_GIANT_MAP } from "@/data/problem-giant-map"
 import { giantsData } from "@/data/giants"
 import { useTranslations } from "next-intl"
 import { ArrowLeft, MessageSquare, Sparkles, AlertCircle } from "lucide-react"
-import Image from "next/image"
 
 interface ConsultClientProps {
   locale: string
@@ -124,7 +123,14 @@ const tMap: Record<string, any> = {
     overcoming: "역사상 가장 위대한 사람들도 같은 고통을 겪었고 이겨냈습니다",
     sufferedTogether: "이 분도 같은 고통을 겪었습니다",
     chatWith: "이 분과 대화하기",
-    era: "시대"
+    era: "시대",
+    customTitle: "나만의 고민 직접 털어놓기",
+    customDesc: "역사상 거인들이 당신의 구체적인 상황에 맞는 지혜를 찾아줄 것입니다.",
+    customPlaceholder: "이곳에 자네의 깊은 고민이나 상황을 적어보게 (최대 300자)...",
+    customSubmit: "위인 매칭받기",
+    analyzing: "분석 중...",
+    customResultTitle: "나의 고민 매칭 결과",
+    customResultDesc: "자네가 겪고 있는 아픔에 대해 깊은 공감과 지혜를 들려줄 세 명의 거인을 추천하네."
   },
   en: {
     title: "What difficulties are you facing today?",
@@ -134,7 +140,14 @@ const tMap: Record<string, any> = {
     overcoming: "The greatest minds in history faced the exact same struggles and overcame them",
     sufferedTogether: "This giant faced the same pain too",
     chatWith: "Talk with this Giant",
-    era: "Era"
+    era: "Era",
+    customTitle: "Share Your Own Struggle",
+    customDesc: "Historical giants will find wisdom tailored to your specific situation.",
+    customPlaceholder: "Write down your specific struggles or worries here (max 300 chars)...",
+    customSubmit: "Get Giant Match",
+    analyzing: "Analyzing...",
+    customResultTitle: "My Problem Match Results",
+    customResultDesc: "Three giants who can offer deep empathy and wisdom regarding your specific struggles."
   },
   de: {
     title: "Welche Schwierigkeiten haben Sie heute?",
@@ -144,17 +157,31 @@ const tMap: Record<string, any> = {
     overcoming: "Die größten Denker der Geschichte standen vor denselben Sorgen und haben sie überstanden",
     sufferedTogether: "Auch dieser Riese stand vor demselben Schmerz",
     chatWith: "Mit diesem Denker sprechen",
-    era: "Epoche"
+    era: "Epoche",
+    customTitle: "Eigene Sorge teilen",
+    customDesc: "Historische Riesen werden Weisheit finden, die auf Ihre Situation zugeschnitten ist.",
+    customPlaceholder: "Schreiben Sie hier Ihre spezifischen Sorgen oder Ängste auf (max. 300 Zeichen)...",
+    customSubmit: "Weisen finden",
+    analyzing: "Analysieren...",
+    customResultTitle: "Ergebnisse des Sorgen-Matchings",
+    customResultDesc: "Drei Riesen, die tiefes Mitgefühl und Weisheit für Ihre spezifischen Sorgen bieten können."
   },
   ja: {
     title: "今日、どのようなお悩みがありますか？",
     subtitle: "あなたの苦しみは一人だけのものではありません",
     back: "選び直す",
     notAlone: "あなただけが悩んでいるのではありません",
-    overcoming: "歴史上の偉人たちも同じように悩み、そして乗り越えてきました",
+    overcoming: "歴史上の偉人たち도同じように悩み、そして乗り越えてきました",
     sufferedTogether: "この偉人も同じ苦しみを経験しました",
     chatWith: "この方と対話する",
-    era: "時代"
+    era: "時代",
+    customTitle: "自分の悩みを直接打ち明ける",
+    customDesc: "歴史上の偉人たちが、あなたの具体的な状況に合わせた知恵を見つけ出します。",
+    customPlaceholder: "ここにあなたの具体的な悩みや不安を書いてください（最大300文字）...",
+    customSubmit: "偉人をマッチングする",
+    analyzing: "分析中...",
+    customResultTitle: "悩みマッチング結果",
+    customResultDesc: "あなたの具体的な悩みに対して、深い共感と知恵を提供できる3人の偉人を推薦します。"
   },
   es: {
     title: "¿Qué dificultades enfrenta hoy?",
@@ -164,7 +191,14 @@ const tMap: Record<string, any> = {
     overcoming: "Las mentes más grandes de la historia pasaron por lo mismo y lo superaron",
     sufferedTogether: "Este gigante también enfrentó el mismo dolor",
     chatWith: "Conversar con este Gigante",
-    era: "Época"
+    era: "Época",
+    customTitle: "Comparte tu propia dificultad",
+    customDesc: "Los gigantes históricos encontrarán sabiduría adaptada a tu situación específica.",
+    customPlaceholder: "Escribe aquí tus luchas o preocupaciones específicas (máx. 300 caracteres)...",
+    customSubmit: "Buscar Coincidencia",
+    analyzing: "Analizando...",
+    customResultTitle: "Resultados de Coincidencia de Problemas",
+    customResultDesc: "Tres gigantes que pueden ofrecer profunda empatía y sabiduría sobre tus dificultades específicas."
   },
   fr: {
     title: "Quelles difficultés rencontrez-vous aujourd'hui ?",
@@ -174,7 +208,14 @@ const tMap: Record<string, any> = {
     overcoming: "Les plus grands esprits de l'histoire ont connu les mêmes épreuves et les ont surmontées",
     sufferedTogether: "Ce géant a également connu la même douleur",
     chatWith: "Discuter avec ce Géant",
-    era: "Époque"
+    era: "Époque",
+    customTitle: "Partagez votre propre difficulté",
+    customDesc: "Des géants historiques trouveront une sagesse adaptée à votre situation spécifique.",
+    customPlaceholder: "Écrivez ici vos difficultés ou vos préoccupations spécifiques (max 300 caractères)...",
+    customSubmit: "Trouver des Géants",
+    analyzing: "Analyse en cours...",
+    customResultTitle: "Résultats d'Appariement de Problèmes",
+    customResultDesc: "Trois géants qui peuvent offer une empathie profonde et de la sagesse concernant vos luttes spécifiques."
   },
   it: {
     title: "Quali difficoltà stai affrontando oggi?",
@@ -184,7 +225,14 @@ const tMap: Record<string, any> = {
     overcoming: "Le più grandi menti della storia hanno affrontato le stesse difficoltà e le hanno superate",
     sufferedTogether: "Anche questa figura storica ha affrontato lo stesso dolore",
     chatWith: "Parla con questa Figura",
-    era: "Epoca"
+    era: "Epoca",
+    customTitle: "Condividi la tua difficoltà",
+    customDesc: "I giganti storici troveranno la saggezza adatta alla tua situazione specifica.",
+    customPlaceholder: "Scrivi qui le tue specifiche difficoltà o preoccupazioni (max 300 caratteri)...",
+    customSubmit: "Trova Abbinamento",
+    analyzing: "Analisi...",
+    customResultTitle: "Risultati Abbinamento Problemi",
+    customResultDesc: "Tre giganti che possono offrire profonda empatia e saggezza per le tue specifiche difficoltà."
   },
   pt: {
     title: "Quais dificuldades você está enfrentando hoje?",
@@ -194,7 +242,14 @@ const tMap: Record<string, any> = {
     overcoming: "As maiores mentes da história enfrentaram exatamente os mesmos problemas e os superaram",
     sufferedTogether: "Este gigante também enfrentou a mesma dor",
     chatWith: "Conversar com este Gigante",
-    era: "Época"
+    era: "Época",
+    customTitle: "Compartilhe sua própria dificuldade",
+    customDesc: "Os gigantes históricos encontrarão sabedoria sob medida para sua situação específica.",
+    customPlaceholder: "Escreva aqui suas dificuldades ou preocupações específicas (máx. 300 caracteres)...",
+    customSubmit: "Buscar Gigante",
+    analyzing: "Analisando...",
+    customResultTitle: "Resultados da Combinação de Problemas",
+    customResultDesc: "Três gigantes que podem oferecer profunda empatia e sabedoria em relação às suas luttes específicas."
   }
 };
 
@@ -202,6 +257,12 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   const router = useRouter()
   const tg = useTranslations("Giants")
   const [selectedProblemId, setSelectedProblemId] = useState<string | null>(null)
+  
+  // Custom problem matching states
+  const [customProblemText, setCustomProblemText] = useState("")
+  const [isMatching, setIsMatching] = useState(false)
+  const [customMatchedGiants, setCustomMatchedGiants] = useState<any[]>([])
+  const [isCustomProblemMode, setIsCustomProblemMode] = useState(false)
   
   const activeLocale = (locale === 'ko' || locale === 'en' || locale === 'de' || locale === 'ja' || locale === 'es' || locale === 'fr' || locale === 'it' || locale === 'pt') ? locale : 'en';
   const labels = tMap[activeLocale] || tMap['en'];
@@ -212,19 +273,49 @@ export function ConsultClient({ locale }: ConsultClientProps) {
 
   const handleGoBack = () => {
     setSelectedProblemId(null)
+    setIsCustomProblemMode(false)
   }
 
   const handleStartConsult = (slug: string) => {
     if (!selectedProblemId) return;
-    router.push(`/giant/${slug}?problem=${selectedProblemId}`);
+    if (selectedProblemId === 'custom') {
+      router.push(`/giant/${slug}?problem=custom&customText=${encodeURIComponent(customProblemText)}`);
+    } else {
+      router.push(`/giant/${slug}?problem=${selectedProblemId}`);
+    }
   }
 
   const handleGoToEpic = (slug: string) => {
     router.push(`/giant/${slug}`);
   }
 
+  const handleCustomProblemSubmit = async () => {
+    if (!customProblemText.trim()) return;
+    setIsMatching(true);
+    try {
+      const res = await fetch("/api/consult/match", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ userProblem: customProblemText, locale: activeLocale }),
+      });
+      const data = await res.json();
+      if (data.matchedGiants) {
+        setCustomMatchedGiants(data.matchedGiants);
+        setIsCustomProblemMode(true);
+        setSelectedProblemId("custom"); // Transition to Stage 2
+      }
+    } catch (err) {
+      console.error("Custom matching failed:", err);
+      alert("매칭 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.");
+    } finally {
+      setIsMatching(false);
+    }
+  }
+
   const selectedProblem = PROBLEM_CATEGORIES.find(p => p.id === selectedProblemId)
-  const matchedGiantsRaw = selectedProblemId ? (PROBLEM_GIANT_MAP as any)[selectedProblemId] || [] : []
+  const matchedGiantsRaw = selectedProblemId 
+    ? (selectedProblemId === 'custom' ? customMatchedGiants : (PROBLEM_GIANT_MAP as any)[selectedProblemId] || []) 
+    : []
 
   // Gather matched giants data
   const matchedGiants = matchedGiantsRaw.map((mg: any) => {
@@ -269,7 +360,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                 >
                   <Sparkles className="w-5 h-5 text-amber-400" />
                 </motion.div>
-                <h1 className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight">
+                <h1 className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight text-center leading-tight">
                   {labels.title}
                 </h1>
                 <p className="text-stone-400 text-lg">
@@ -306,10 +397,48 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                   );
                 })}
               </div>
+
+              {/* Custom Problem Input Section */}
+              <div className="w-full max-w-2xl mx-auto mt-16 p-8 rounded-[2rem] border border-amber-500/10 bg-stone-900/40 backdrop-blur-sm relative overflow-hidden text-center shadow-2xl">
+                <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/[0.02] rounded-full blur-2xl pointer-events-none" />
+                <h3 className="text-white font-serif font-bold text-xl mb-2 flex items-center justify-center gap-2">
+                  <MessageSquare className="w-5 h-5 text-amber-400" />
+                  {labels.customTitle}
+                </h3>
+                <p className="text-stone-400 text-sm mb-6 max-w-md mx-auto">
+                  {labels.customDesc}
+                </p>
+                <textarea
+                  value={customProblemText}
+                  onChange={(e) => setCustomProblemText(e.target.value.slice(0, 300))}
+                  placeholder={labels.customPlaceholder}
+                  className="w-full h-32 px-5 py-4 rounded-2xl bg-stone-950/80 border border-stone-800 text-foreground text-sm focus:outline-none focus:border-amber-500/40 transition-colors resize-none placeholder:text-stone-700 mb-4 shadow-inner"
+                />
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] text-stone-600 font-semibold tracking-wider">{customProblemText.length} / 300</span>
+                  <button
+                    onClick={handleCustomProblemSubmit}
+                    disabled={!customProblemText.trim() || isMatching}
+                    className="bg-amber-500 hover:bg-amber-400 disabled:opacity-50 text-stone-950 font-black px-6 py-3 rounded-2xl transition-all text-xs flex items-center gap-2 shadow-[0_4px_15px_rgba(245,158,11,0.15)] cursor-pointer disabled:cursor-not-allowed"
+                  >
+                    {isMatching ? (
+                      <>
+                        <span className="animate-spin w-3.5 h-3.5 border-2 border-stone-950 border-t-transparent rounded-full" />
+                        <span>{labels.analyzing}</span>
+                      </>
+                    ) : (
+                      <>
+                        <Sparkles className="w-3.5 h-3.5" />
+                        <span>{labels.customSubmit}</span>
+                      </>
+                    )}
+                  </button>
+                </div>
+              </div>
             </motion.div>
           ) : (
             /* STAGE 2: Matched Giants */
-            selectedProblem && (
+            (selectedProblemId === 'custom' || selectedProblem) && (
               <motion.div
                 key="stage2"
                 initial={{ opacity: 0, y: 15 }}
@@ -328,16 +457,16 @@ export function ConsultClient({ locale }: ConsultClientProps) {
 
                 <div className="text-center mb-16 space-y-4">
                   <div className="text-6xl mb-4 filter drop-shadow-[0_6px_15px_rgba(0,0,0,0.6)]">
-                    {selectedProblem.emoji}
+                    {isCustomProblemMode ? "💭" : selectedProblem?.emoji}
                   </div>
                   <h2 className="text-3xl md:text-4xl font-serif text-white font-bold">
-                    {selectedProblem.translations[activeLocale]?.title || selectedProblem.translations['en']?.title}
+                    {isCustomProblemMode ? labels.customResultTitle : (selectedProblem?.translations[activeLocale]?.title || selectedProblem?.translations['en']?.title)}
                   </h2>
                   <p className="text-amber-400/90 font-medium text-lg">
                     {labels.notAlone}
                   </p>
                   <p className="text-stone-400 max-w-xl mx-auto text-base">
-                    {labels.overcoming}
+                    {isCustomProblemMode ? labels.customResultDesc : labels.overcoming}
                   </p>
                   <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-amber-500/40 to-transparent mx-auto pt-2" />
                 </div>
@@ -372,7 +501,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                             <span>{labels.sufferedTogether}</span>
                           </div>
                           <p className="text-stone-200 text-base leading-relaxed whitespace-pre-line font-serif italic pl-0 md:pl-2 border-l-0 md:border-l-2 border-amber-500/20 py-1">
-                            &ldquo;{giant.historicalPain[activeLocale] || giant.historicalPain['en']}&rdquo;
+                            &ldquo;{isCustomProblemMode ? giant.reason : (giant.historicalPain[activeLocale] || giant.historicalPain['en'])}&rdquo;
                           </p>
                         </div>
 

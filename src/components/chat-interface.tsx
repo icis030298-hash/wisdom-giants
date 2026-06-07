@@ -60,6 +60,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
   const locale = useLocale()
   const searchParams = useSearchParams()
   const problemId = propProblemId || searchParams.get('problem') || undefined
+  const customText = searchParams.get('customText') || undefined
   
   // 첫 메시지 결정 (고민 전용 첫 인사 처리)
   const problemGreeting = problemId ? getProblemGreeting(giant.slug, problemId, locale) : null;
@@ -71,9 +72,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
     ? rawSuggestedQuestions 
     : [];
 
-  const [messages, setMessages] = useState<Message[]>(
-    initialChatId ? [] : [{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }]
-  )
+  const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState("")
   const [isTyping, setIsTyping] = useState(false)
   const [hasError, setHasError] = useState(false)
@@ -89,8 +88,31 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
     
     const loadHistory = async (uid: string) => {
       const targetChatId = initialChatId || (uid ? `${uid}_${giant.slug}_${locale}` : "");
+      
+      const getOpeningGreeting = async (): Promise<string> => {
+        if (problemId === 'custom' && customText) {
+          try {
+            const res = await fetch("/api/consult/greeting", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ giantSlug: giant.slug, customText, locale }),
+            });
+            const data = await res.json();
+            return data.greeting || tg(`${giant.slug}.chatGreeting`) || "";
+          } catch (err) {
+            console.error("Custom greeting error:", err);
+            return tg(`${giant.slug}.chatGreeting`) || "";
+          }
+        }
+        return problemGreeting || tg(`${giant.slug}.chatGreeting`) || "";
+      };
+
       if (!targetChatId || !db) {
-        setIsLoadingHistory(false)
+        const greeting = await getOpeningGreeting()
+        if (active) {
+          setMessages([{ id: "1", role: "giant", content: greeting, timestamp: new Date() }])
+          setIsLoadingHistory(false)
+        }
         return
       }
       try {
@@ -107,15 +129,18 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
             })))
             setIsRestoredChat(true)
           } else {
-            setMessages([{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }])
+            const greeting = await getOpeningGreeting()
+            setMessages([{ id: "1", role: "giant", content: greeting, timestamp: new Date() }])
           }
         } else {
-          setMessages([{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }])
+          const greeting = await getOpeningGreeting()
+          setMessages([{ id: "1", role: "giant", content: greeting, timestamp: new Date() }])
         }
       } catch (err) {
         console.error("Failed to load chat history:", err)
         if (active) {
-          setMessages([{ id: "1", role: "giant", content: initialGreeting, timestamp: new Date() }])
+          const greeting = await getOpeningGreeting()
+          setMessages([{ id: "1", role: "giant", content: greeting, timestamp: new Date() }])
         }
       } finally {
         if (active) {
@@ -224,7 +249,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
       }
 
       
-      const response = await getGiantResponse(giant.slug, persona, userMessage.content, giant.name, history, locale, problemId);
+      const response = await getGiantResponse(giant.slug, persona, userMessage.content, giant.name, history, locale, problemId, customText);
       
       const giantMessage: Message = {
         id: (Date.now() + 1).toString(),
@@ -412,9 +437,27 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
           {/* Independently Scrollable Messages Area */}
           <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar min-h-0 overscroll-contain">
             {isLoadingHistory ? (
-              <div className="flex flex-col items-center justify-center h-full gap-3 text-muted-foreground">
+              <div className="flex flex-col items-center justify-center h-full gap-3 text-muted-foreground px-6 text-center">
                 <div className="w-6 h-6 border-2 border-amber-500/40 border-t-amber-500 rounded-full animate-spin" />
-                <span className="text-xs">{locale === 'ko' ? '대화 기록을 불러오는 중...' : 'Loading chat history...'}</span>
+                <span className="text-xs max-w-xs leading-relaxed">
+                  {problemId === 'custom' && !isRestoredChat
+                    ? (locale === 'ko' 
+                        ? '위인이 자네의 고민을 조용히 읽어내려가며 생각을 정리하고 있네...' 
+                        : locale === 'ja'
+                        ? '偉人があなたの悩みを静かに読み下しながら、考えをまとめています...'
+                        : locale === 'de'
+                        ? 'Der Riese liest schweigend deine Sorgen und sammelt seine Gedanken...'
+                        : locale === 'es'
+                        ? 'El gigante está leyendo en silencio tu preocupación y reuniendo sus pensamientos...'
+                        : locale === 'fr'
+                        ? 'Le géant lit silencieusement votre inquiétude et rassemble ses pensées...'
+                        : locale === 'it'
+                        ? 'Il gigante sta leggendo in silenzio la tua preocupazione e sta raccogliendo i suoi pensieri...'
+                        : locale === 'pt'
+                        ? 'O gigante está lendo silenciosamente sua preocupação e reunindo seus pensamentos...'
+                        : 'The giant is quietly reading your worry and gathering their thoughts...')
+                    : (locale === 'ko' ? '대화 기록을 불러오는 중...' : 'Loading chat history...')}
+                </span>
               </div>
             ) : messages.map((message) => (
               <div

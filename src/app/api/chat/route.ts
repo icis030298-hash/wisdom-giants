@@ -7,7 +7,7 @@ import narratives from "@/data/final-narratives.json";
 
 export async function POST(req: Request) {
   try {
-    const { prompt, giantName, persona, messages, locale, slug, problemId } = await req.json();
+    const { prompt, giantName, persona, messages, locale, slug, problemId, customText } = await req.json();
 
     if (!prompt) {
       return NextResponse.json({ error: "질문 내용이 없습니다." }, { status: 400 });
@@ -305,6 +305,10 @@ ${customPersonaText}${customNeverDoes}`;
     const l = (locale === 'ko' || locale === 'en' || locale === 'de' || locale === 'ja' || locale === 'es' || locale === 'fr' || locale === 'it' || locale === 'pt') ? locale : 'en';
     if (problemId && problemContext[problemId]) {
       systemPrompt += `\n\n${problemContext[problemId][l]}`;
+    } else if (problemId === 'custom' && customText) {
+      const customIntro = locale === 'ko' ? `[고민 상담 컨텍스트 - 커스텀 고민] 이 사람이 현재 겪고 있는 개인적인 고민은 다음과 같소. 당신의 실제 고난 경험을 자연스럽게 빗대어 공감하고, 그들의 특정한 아픔을 보듬는 인생 선배(동반자)로서 조언을 건네시오:\n"${customText}"`
+      : `[Problem Context - Custom Problem] This person is facing the following personal problem. Relate to it using your own historical struggles and offer warm wisdom and guidance as an equal temporal traveler:\n"${customText}"`;
+      systemPrompt += `\n\n${customIntro}`;
     }
 
     const modelsToTry = [
