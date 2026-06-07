@@ -19,8 +19,11 @@ interface AdSlotProps {
 export function AdSlot({ slot, format = "auto", responsive = true, className = "", label = "Advertisement" }: AdSlotProps) {
   const adRef = useRef<HTMLDivElement>(null)
   const initialized = useRef(false)
+  const isApproved = process.env.NEXT_PUBLIC_ADSENSE_APPROVED === "true"
 
   useEffect(() => {
+    if (!isApproved) return
+
     // Check advertising consent from cookie banner
     try {
       const consent = localStorage.getItem("giants_cookie_consent")
@@ -44,7 +47,9 @@ export function AdSlot({ slot, format = "auto", responsive = true, className = "
     } catch (e) {
       console.warn("AdSense push failed:", e)
     }
-  }, [])
+  }, [isApproved])
+
+  if (!isApproved) return null
 
   return (
     <div className={`w-full ${className}`} ref={adRef}>

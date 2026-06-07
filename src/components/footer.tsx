@@ -18,6 +18,8 @@ export default function Footer() {
       { label: t('links.allGiants'), href: '/#giants' },
       { label: t('links.dnaTest'), href: '/test' },
       { label: t('links.debate'), href: '/debate' },
+      { label: t('links.blog'), href: '/blog' },
+      { label: t('links.consult'), href: '/consult' },
     ],
     info: [
       { label: t('links.about'), href: '/about' },

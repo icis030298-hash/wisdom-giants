@@ -39,7 +39,7 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative min-h-[85vh] flex flex-col items-center justify-center overflow-hidden py-12">
       {/* Ambient background effects */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Central mystical glow */}
@@ -130,7 +130,7 @@ export function HeroSection() {
         </div>
 
         {/* Stats */}
-        <div className="flex items-center justify-center gap-8 sm:gap-12 mt-16">
+        <div className="flex items-center justify-center gap-8 sm:gap-12 mt-8">
           {[
             { value: `${giants.length}+`, label: t("stats.minds") },
             { value: "15+", label: t("stats.questions") },

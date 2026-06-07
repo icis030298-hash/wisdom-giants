@@ -278,7 +278,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                 <div className="w-20 h-0.5 bg-gradient-to-r from-transparent via-amber-500/30 to-transparent mx-auto pt-2" />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-4xl">
+              <div className="flex flex-wrap justify-center gap-6 w-full max-w-5xl">
                 {PROBLEM_CATEGORIES.map((problem) => {
                   const pTrans = problem.translations[activeLocale] || problem.translations['en'];
                   return (
@@ -287,7 +287,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                       onClick={() => handleSelectProblem(problem.id)}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
-                      className="bg-stone-900/60 hover:bg-stone-900 border border-stone-800 hover:border-amber-500/40 rounded-3xl p-8 text-left transition-all group cursor-pointer relative overflow-hidden backdrop-blur-sm"
+                      className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-stone-900/60 hover:bg-stone-900 border border-stone-800 hover:border-amber-500/40 rounded-3xl p-8 text-left transition-all group cursor-pointer relative overflow-hidden backdrop-blur-sm"
                     >
                       <div className="absolute inset-0 bg-gradient-to-br from-amber-500/[0.01] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       <div className="text-5xl mb-6 transform group-hover:scale-110 transition-transform duration-300 filter drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
