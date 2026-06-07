@@ -98,12 +98,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     }
   }, [mode])
 
-  // Automatically open chat if redirected from chat history
+  // Automatically open chat if redirected from chat history or problem consult
   useEffect(() => {
-    if (chatParam === 'true') {
+    if (chatParam === 'true' || searchParams.get('problem')) {
       setIsChatOpen(true)
     }
-  }, [chatParam])
+  }, [chatParam, searchParams])
 
   // Initialize Kakao SDK safely
   useEffect(() => {
@@ -733,8 +733,19 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       {isChatOpen && (
         <ChatInterface
           giant={giant}
-          onClose={() => setIsChatOpen(false)}
+          onClose={() => {
+            setIsChatOpen(false)
+            // clean up query parameters to avoid re-opening
+            const newParams = new URLSearchParams(searchParams.toString())
+            newParams.delete('chat')
+            newParams.delete('chatId')
+            newParams.delete('mode')
+            newParams.delete('problem')
+            const qs = newParams.toString()
+            router.replace(`/giant/${giant.slug}${qs ? `?${qs}` : ''}`, { scroll: false })
+          }}
           initialChatId={chatId || undefined}
+          problemId={searchParams.get('problem') || undefined}
         />
       )}
 

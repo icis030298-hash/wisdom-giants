@@ -22,6 +22,7 @@ interface ChatInterfaceProps {
   giant: Giant
   onClose: () => void
   initialChatId?: string
+  problemId?: string
 }
 
 // Helper to render markdown bold (**text**) as <strong> elements
@@ -50,7 +51,7 @@ const getKoreanParticle = (name: string, type: '이가' | '과와' | '은는' | 
   return type === '이가' ? '이(가)' : type === '과와' ? '과(와)' : '';
 };
 
-export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfaceProps) {
+export function ChatInterface({ giant, onClose, initialChatId, problemId }: ChatInterfaceProps) {
   const t = useTranslations("Chat")
   const tg = useTranslations("Giants")
   const tgGrid = useTranslations("GiantsGrid")
@@ -217,7 +218,7 @@ export function ChatInterface({ giant, onClose, initialChatId }: ChatInterfacePr
       }
 
       
-      const response = await getGiantResponse(giant.slug, persona, userMessage.content, giant.name, history, locale);
+      const response = await getGiantResponse(giant.slug, persona, userMessage.content, giant.name, history, locale, problemId);
       
       const giantMessage: Message = {
         id: (Date.now() + 1).toString(),

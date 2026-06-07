@@ -181,6 +181,57 @@ const debateCTATranslations: Record<string, { titlePre: string; titlePost: strin
   }
 };
 
+const consultTranslations: Record<string, { or: string; title: string; desc: string; button: string }> = {
+  ko: {
+    or: "또는",
+    title: "지금 고민이 있으신가요?",
+    desc: "당신의 고통은 혼자가 아닙니다.\n역사상 가장 위대한 사람들도 똑같이 겪었고, 이겨냈습니다.",
+    button: "고민 상담하기"
+  },
+  en: {
+    or: "OR",
+    title: "Are you facing struggles today?",
+    desc: "Your pain is not lonely.\nThe greatest minds in history faced the exact same struggles and overcame them.",
+    button: "Get Advice"
+  },
+  de: {
+    or: "ODER",
+    title: "Haben Sie heute Sorgen?",
+    desc: "Ihr Schmerz ist nicht allein.\nDie größten Denker der Geschichte standen vor denselben Ängsten und haben sie überwunden.",
+    button: "Beratung erhalten"
+  },
+  ja: {
+    or: "または",
+    title: "今、何かお悩みはありますか？",
+    desc: "あなたの苦しみは一人だけのものではありません。\n歴史上の偉人たちも同じように悩み、そして乗り越えてきました。",
+    button: "お悩み相談をする"
+  },
+  es: {
+    or: "O BIEN",
+    title: "¿Tiene alguna preocupación hoy?",
+    desc: "Su sufrimiento no es único.\nLas mentes más grandes de la historia pasaron por lo mismo y lo superaron.",
+    button: "Consultar"
+  },
+  fr: {
+    or: "OU BIEN",
+    title: "Rencontrez-vous des difficultés aujourd'hui ?",
+    desc: "Votre souffrance n'est pas solitaire.\nLes plus grands esprits de l'histoire ont connu les mêmes épreuves et les ont surmontées.",
+    button: "Demander conseil"
+  },
+  it: {
+    or: "OPPURE",
+    title: "Hai qualche preoccupazione oggi?",
+    desc: "Il tuo dolore non é isolato.\nLe più grandi menti della storia hanno affrontato le stesse difficoltà e le hanno superate.",
+    button: "Consulta un Gigante"
+  },
+  pt: {
+    or: "OU",
+    title: "Você está passando por alguma dificuldade hoje?",
+    desc: "Sua dor não é solitária.\nAs maiores mentes da história enfrentaram exatamente os mesmos problemas e os superaram.",
+    button: "Consultar"
+  }
+};
+
 const colorMap: Record<string, string> = {
   leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
   philosophy: "from-emerald-500/20 to-teal-500/20 text-emerald-300 border-emerald-500/30",
@@ -279,6 +330,29 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </Link>
       </div>
+
+      {/* Consultation (고민 상담) CTA Section */}
+      {(() => {
+        const ct = consultTranslations[locale] || consultTranslations['en'];
+        return (
+          <section className="max-w-6xl mx-auto px-4 py-16 text-center border-t border-white/5 bg-gradient-to-b from-stone-900/10 to-transparent rounded-[2.5rem] my-8">
+            <p className="text-stone-500 font-medium tracking-widest text-xs uppercase mb-4">
+              — {ct.or} —
+            </p>
+            <h2 className="text-3xl font-serif font-bold text-white mb-4">
+              {ct.title}
+            </h2>
+            <p className="text-stone-400 mb-8 max-w-xl mx-auto text-base leading-relaxed whitespace-pre-line">
+              {ct.desc}
+            </p>
+            <Link href="/consult">
+              <button className="border border-amber-500/50 text-amber-400 hover:bg-amber-500 hover:text-stone-950 font-bold px-10 py-4 rounded-2xl transition-all text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.25)] cursor-pointer">
+                💬 {ct.button}
+              </button>
+            </Link>
+          </section>
+        );
+      })()}
       
       {/* Featured Giants - Bento Grid */}
       <FeaturedGiants giants={giants} />
