@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef, useEffect, Suspense } from "react"
 import Image from "next/image"
 import { GiantImage } from "./ui/giant-image"
 import { X, Send, Sparkles, RefreshCw, Lightbulb, History } from "lucide-react"
@@ -8,6 +8,8 @@ import type { Giant } from "@/lib/giants-data"
 import { getGiantResponse } from "@/lib/gemini"
 import { giantsData } from "@/data/giants"
 import { useTranslations, useLocale } from "next-intl"
+import { useSearchParams } from "next/navigation"
+import { getProblemGreeting } from "@/data/problem-giant-map"
 import { auth, db } from "@/lib/firebase"
 import { doc, getDoc, setDoc, serverTimestamp, arrayUnion } from "firebase/firestore"
 
@@ -51,13 +53,17 @@ const getKoreanParticle = (name: string, type: '이가' | '과와' | '은는' | 
   return type === '이가' ? '이(가)' : type === '과와' ? '과(와)' : '';
 };
 
-export function ChatInterface({ giant, onClose, initialChatId, problemId }: ChatInterfaceProps) {
+function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProblemId }: ChatInterfaceProps) {
   const t = useTranslations("Chat")
   const tg = useTranslations("Giants")
   const tgGrid = useTranslations("GiantsGrid")
   const locale = useLocale()
+  const searchParams = useSearchParams()
+  const problemId = propProblemId || searchParams.get('problem') || undefined
   
-  const initialGreeting = tg(`${giant.slug}.chatGreeting`) || "";
+  // 첫 메시지 결정 (고민 전용 첫 인사 처리)
+  const problemGreeting = problemId ? getProblemGreeting(giant.slug, problemId, locale) : null;
+  const initialGreeting = problemGreeting || tg(`${giant.slug}.chatGreeting`) || "";
   
   // Robustly handle suggested questions - ensure it's always an array
   const rawSuggestedQuestions = tg.raw(`${giant.slug}.suggestedQuestions`);
@@ -563,5 +569,13 @@ export function ChatInterface({ giant, onClose, initialChatId, problemId }: Chat
         </div>
       </div>
     </div>
+  )
+}
+
+export function ChatInterface(props: ChatInterfaceProps) {
+  return (
+    <Suspense fallback={null}>
+      <ChatInterfaceInner {...props} />
+    </Suspense>
   )
 }

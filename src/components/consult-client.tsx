@@ -14,6 +14,107 @@ interface ConsultClientProps {
   locale: string
 }
 
+function GiantAvatar({ slug, name }: { slug: string; name: string }) {
+  const [imgError, setImgError] = useState(false)
+  const initials = /[a-zA-Z]/.test(name)
+    ? name
+        .split(' ')
+        .map(w => w[0])
+        .join('')
+        .substring(0, 2)
+        .toUpperCase()
+    : name.substring(0, 2);
+  
+  if (imgError) {
+    return (
+      <div className="w-20 h-20 rounded-full bg-amber-900 flex items-center justify-center text-amber-400 font-bold text-xl mb-3 shadow-lg group-hover:scale-105 transition-transform duration-500">
+        {initials}
+      </div>
+    )
+  }
+  
+  return (
+    <img
+      src={`/images/giants/${slug}.jpg`}
+      alt={name}
+      onError={() => setImgError(true)}
+      className="w-20 h-20 rounded-full object-cover mb-3 border border-amber-500/20 shadow-lg group-hover:scale-105 transition-transform duration-500"
+    />
+  )
+}
+
+const getDisplayName = (fullName: string): string => {
+  if (!fullName) return "";
+  const parts = fullName.trim().split(/\s+/);
+  if (parts.length > 1) {
+    const last = parts[parts.length - 1];
+    const prev = parts[parts.length - 2].toLowerCase();
+    const prefixes = ["다", "반", "de", "da", "von", "van", "del", "di"];
+    if (prefixes.includes(prev)) {
+      return `${parts[parts.length - 2]} ${last}`;
+    }
+    return last;
+  }
+  return fullName;
+};
+
+const getKoreanParticle = (name: string, type: '이가' | '과와' | '은는' | '을를'): string => {
+  if (!name) return "";
+  const lastChar = name.charCodeAt(name.length - 1);
+  if (lastChar >= 0xAC00 && lastChar <= 0xD7A3) {
+    const hasBatchim = (lastChar - 0xAC00) % 28 > 0;
+    if (type === '이가') return hasBatchim ? '이' : '가';
+    if (type === '과와') return hasBatchim ? '과' : '와';
+    if (type === '은는') return hasBatchim ? '은' : '는';
+    if (type === '을를') return hasBatchim ? '을' : '를';
+  }
+  return type === '이가' ? '이(가)' : type === '과와' ? '과(와)' : '';
+};
+
+const getChatButtonText = (fullName: string, locale: string): string => {
+  const name = getDisplayName(fullName);
+  switch (locale) {
+    case 'ko':
+      return `${name}${getKoreanParticle(name, '과와')} 대화하기`;
+    case 'de':
+      return `Mit ${name} sprechen`;
+    case 'ja':
+      return `${name}と対話する`;
+    case 'es':
+      return `Conversar con ${name}`;
+    case 'fr':
+      return `Discuter avec ${name}`;
+    case 'it':
+      return `Parla con ${name}`;
+    case 'pt':
+      return `Conversar com ${name}`;
+    default:
+      return `Talk with ${name}`;
+  }
+};
+
+const getEpicButtonText = (fullName: string, locale: string): string => {
+  const name = getDisplayName(fullName);
+  switch (locale) {
+    case 'ko':
+      return `${name}의 서사시 보러 가기`;
+    case 'de':
+      return `${name}s Epos lesen`;
+    case 'ja':
+      return `${name}の物語を読む`;
+    case 'es':
+      return `Leer la epopeya de ${name}`;
+    case 'fr':
+      return `Lire l'épopée de ${name}`;
+    case 'it':
+      return `Leggi l'epopea di ${name}`;
+    case 'pt':
+      return `Ler a epopeia de ${name}`;
+    default:
+      return `Read ${name}'s Epic`;
+  }
+};
+
 const tMap: Record<string, any> = {
   ko: {
     title: "오늘 어떤 어려움이 있나요?",
@@ -116,6 +217,10 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   const handleStartConsult = (slug: string) => {
     if (!selectedProblemId) return;
     router.push(`/giant/${slug}?problem=${selectedProblemId}`);
+  }
+
+  const handleGoToEpic = (slug: string) => {
+    router.push(`/giant/${slug}`);
   }
 
   const selectedProblem = PROBLEM_CATEGORIES.find(p => p.id === selectedProblemId)
@@ -250,16 +355,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                       
                       {/* Giant Avatar & Details */}
                       <div className="flex flex-col items-center shrink-0 w-full md:w-36">
-                        <div className="w-24 h-24 rounded-full overflow-hidden mb-3 border border-amber-500/20 shadow-lg relative group-hover:scale-105 transition-transform duration-500">
-                          <Image
-                            src={giant.imageUrl}
-                            alt={giant.name}
-                            fill
-                            sizes="96px"
-                            className="w-full h-full object-cover object-top"
-                            unoptimized={true}
-                          />
-                        </div>
+                        <GiantAvatar slug={giant.slug} name={giant.name} />
                         <p className="text-white font-serif font-bold text-lg text-center leading-tight">
                           {giant.name}
                         </p>
@@ -280,14 +376,24 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                           </p>
                         </div>
 
-                        <button
-                          onClick={() => handleStartConsult(giant.slug)}
-                          className="bg-amber-500 hover:bg-amber-400 text-stone-950 font-black px-6 py-3 rounded-2xl transition-all text-sm self-center md:self-start flex items-center gap-2 shadow-[0_4px_20px_rgba(245,158,11,0.15)] hover:shadow-[0_4px_25px_rgba(245,158,11,0.3)] hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
-                        >
-                          <MessageSquare className="w-4 h-4" />
-                          <span>{labels.chatWith}</span>
-                          <span className="text-[10px] opacity-70">→</span>
-                        </button>
+                        <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                          <button
+                            onClick={() => handleStartConsult(giant.slug)}
+                            className="bg-amber-500 hover:bg-amber-400 text-stone-950 font-black px-6 py-3 rounded-2xl transition-all text-sm flex items-center gap-2 shadow-[0_4px_20px_rgba(245,158,11,0.15)] hover:shadow-[0_4px_25px_rgba(245,158,11,0.3)] hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
+                          >
+                            <MessageSquare className="w-4 h-4" />
+                            <span>{getChatButtonText(giant.name, activeLocale)}</span>
+                            <span className="text-[10px] opacity-70">→</span>
+                          </button>
+                          
+                          <button
+                            onClick={() => handleGoToEpic(giant.slug)}
+                            className="border border-amber-500/20 hover:border-amber-500/50 hover:bg-amber-500/10 text-amber-300 font-bold px-6 py-3 rounded-2xl transition-all text-sm flex items-center gap-2 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
+                          >
+                            <Sparkles className="w-4 h-4 text-amber-400/80" />
+                            <span>{getEpicButtonText(giant.name, activeLocale)}</span>
+                          </button>
+                        </div>
                       </div>
                     </motion.div>
                   ))}

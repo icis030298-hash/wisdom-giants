@@ -124,9 +124,9 @@ export function HeroSection() {
             </span>
           </Link>
           
-          <a href="#featured-giants" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
+          <Link href="/consult" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
             {t("exploreHall")}
-          </a>
+          </Link>
         </div>
 
         {/* Stats */}
