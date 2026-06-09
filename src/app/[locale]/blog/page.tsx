@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ko: "역사 속 위인들의 철학과 지혜를 현대적 관점에서 풀어쓴 블로그입니다.",
     en: "Explore the philosophy and wisdom of historical giants in modern context.",
     de: "Erkunden Sie die Philosophie und Weisheit historischer Giganten im modernen Kontext.",
-    ja: "歴史上の偉人たちの哲学と知恵를現代的な視点から紐解くブログです。",
+    ja: "歴史上の偉人たちの哲学と知恵を現代的な視点から紐解くブログです。",
     es: "Explore la filosofía y la sabiduría de los gigantes históricos en el contexto moderno.",
     fr: "Explorez la philosophie et la sagesse des géants historiques dans un contexte moderne.",
     it: "Esplora la filosofia e la saggezza dei giganti storici nel contesto moderno.",
