@@ -1,5 +1,53 @@
 import { NextRequest, NextResponse } from "next/server";
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { VertexAI } from "@google-cloud/vertexai";
+import fs from "fs";
+import path from "path";
+
+let vertexAIInstance: VertexAI | null = null;
+
+function getVertexAIInstance() {
+  if (vertexAIInstance) return vertexAIInstance;
+  
+  const projectId = process.env.GCP_PROJECT_ID || 'giantswisdom-8dc26';
+  const location = process.env.GCP_LOCATION || 'us-central1';
+  
+  // Try loading from local service account file first
+  const localKeyPath = path.resolve(process.cwd(), 'google-service-account.json');
+  let credentials;
+  
+  if (fs.existsSync(localKeyPath)) {
+    try {
+      credentials = JSON.parse(fs.readFileSync(localKeyPath, 'utf8'));
+    } catch (e) {
+      console.error("Failed to parse local google-service-account.json", e);
+    }
+  }
+  
+  // Fallback to environment variable
+  if (!credentials && process.env.GCP_SERVICE_ACCOUNT) {
+    try {
+      credentials = JSON.parse(process.env.GCP_SERVICE_ACCOUNT);
+    } catch (e) {
+      console.error("Failed to parse GCP_SERVICE_ACCOUNT environment variable", e);
+    }
+  }
+  
+  const initOptions: any = {
+    project: projectId,
+    location: location,
+  };
+  
+  if (credentials) {
+    initOptions.googleAuthOptions = {
+      credentials,
+    };
+  } else {
+    console.warn("No GCP credentials found. Vertex AI will fall back to default application credentials.");
+  }
+  
+  vertexAIInstance = new VertexAI(initOptions);
+  return vertexAIInstance;
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -8,12 +56,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Invalid user problem" }, { status: 400 });
     }
 
-    const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY;
-    if (!apiKey) {
-      return NextResponse.json({ error: "API key is missing" }, { status: 500 });
-    }
-
-    const genAI = new GoogleGenerativeAI(apiKey);
+    const vAI = getVertexAIInstance();
     
     // Stable models to try
     const modelsToTry = ['gemini-2.0-flash', 'gemini-1.5-flash'];
@@ -56,12 +99,19 @@ export async function POST(req: NextRequest) {
 
     for (const modelName of modelsToTry) {
       try {
-        const model = genAI.getGenerativeModel({
+        const model = vAI.getGenerativeModel({
           model: modelName,
           generationConfig: { responseMimeType: "application/json" }
         });
         const result = await model.generateContent(systemPrompt);
-        responseText = result.response.text();
+        const response = await result.response;
+        
+        if (typeof response.text === 'function') {
+          responseText = response.text();
+        } else {
+          responseText = response.candidates?.[0]?.content?.parts?.[0]?.text || "";
+        }
+        
         if (responseText) break;
       } catch (err: any) {
         lastError = err;

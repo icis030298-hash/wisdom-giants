@@ -1,9 +1,57 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { VertexAI } from "@google-cloud/vertexai";
 import { NextResponse } from "next/server";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
 import { giantsData } from "@/data/giants";
 import narratives from "@/data/final-narratives.json";
+import fs from "fs";
+import path from "path";
+
+let vertexAIInstance: VertexAI | null = null;
+
+function getVertexAIInstance() {
+  if (vertexAIInstance) return vertexAIInstance;
+  
+  const projectId = process.env.GCP_PROJECT_ID || 'giantswisdom-8dc26';
+  const location = process.env.GCP_LOCATION || 'us-central1';
+  
+  // Try loading from local service account file first
+  const localKeyPath = path.resolve(process.cwd(), 'google-service-account.json');
+  let credentials;
+  
+  if (fs.existsSync(localKeyPath)) {
+    try {
+      credentials = JSON.parse(fs.readFileSync(localKeyPath, 'utf8'));
+    } catch (e) {
+      console.error("Failed to parse local google-service-account.json", e);
+    }
+  }
+  
+  // Fallback to environment variable
+  if (!credentials && process.env.GCP_SERVICE_ACCOUNT) {
+    try {
+      credentials = JSON.parse(process.env.GCP_SERVICE_ACCOUNT);
+    } catch (e) {
+      console.error("Failed to parse GCP_SERVICE_ACCOUNT environment variable", e);
+    }
+  }
+  
+  const initOptions: any = {
+    project: projectId,
+    location: location,
+  };
+  
+  if (credentials) {
+    initOptions.googleAuthOptions = {
+      credentials,
+    };
+  } else {
+    console.warn("No GCP credentials found. Vertex AI will fall back to default application credentials.");
+  }
+  
+  vertexAIInstance = new VertexAI(initOptions);
+  return vertexAIInstance;
+}
 
 export async function POST(req: Request) {
   try {
@@ -13,13 +61,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "질문 내용이 없습니다." }, { status: 400 });
     }
 
-    const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY;
-    if (!apiKey) {
-      console.error("[Gemini API Error] GEMINI_API_KEY is missing. Available env keys:", Object.keys(process.env).filter(k => k.includes('GEMINI')));
-      return NextResponse.json({ error: "서버 설정 오류: API 키가 없습니다." }, { status: 500 });
-    }
-
-    const genAI = new GoogleGenerativeAI(apiKey);
+    const vAI = getVertexAIInstance();
     
     // 동적 시스템 프롬프트(System Instruction) 적용 - MISSION 3: 인물 느낌 극대화
     let systemPrompt = "";
@@ -344,9 +386,11 @@ ${customPersonaText}${customNeverDoes}`;
 
     for (const modelId of modelsToTry) {
       try {
-        const model = genAI.getGenerativeModel({ 
+        const model = vAI.getGenerativeModel({ 
           model: modelId, 
-          systemInstruction: systemPrompt,
+          systemInstruction: {
+            parts: [{ text: systemPrompt }]
+          },
         });
 
         const chatSession = model.startChat({
@@ -355,7 +399,13 @@ ${customPersonaText}${customNeverDoes}`;
 
         const result = await chatSession.sendMessage(prompt);
         const response = await result.response;
-        text = response.text();
+        
+        // Safe extraction of text from Vertex AI response
+        if (typeof response.text === 'function') {
+          text = response.text();
+        } else {
+          text = response.candidates?.[0]?.content?.parts?.[0]?.text || "";
+        }
 
         if (text) {
           break; // 성공 시 루프 탈출

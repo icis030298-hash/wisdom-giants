@@ -12,6 +12,7 @@
     "mass-index": "node scripts/mass-index.js"
   },
   "dependencies": {
+    "@google-cloud/vertexai": "^1.12.0",
     "@google/generative-ai": "^0.24.1",
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-alert-dialog": "^1.1.15",

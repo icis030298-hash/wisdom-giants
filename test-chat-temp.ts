@@ -59,6 +59,21 @@ async function main() {
   } catch (err) {
     console.error("Fleming response failed:", err);
   }
+
+  console.log("\n4. Starting test for Albert Einstein (Crash Diagnosis)...");
+  try {
+    const einsteinRes = await getGiantResponse(
+      "albert-einstein",
+      "당신은 알베르트 아인슈타인입니다.",
+      "안녕하세요",
+      "알베르트 아인슈타인",
+      [],
+      "ko"
+    );
+    console.log("Einstein response success:", einsteinRes);
+  } catch (err) {
+    console.error("Einstein response failed:", err);
+  }
 }
 
 main();

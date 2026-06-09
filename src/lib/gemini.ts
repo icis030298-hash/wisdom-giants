@@ -1,29 +1,64 @@
 'use server';
 
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { VertexAI } from '@google-cloud/vertexai';
 import { deepPersonas } from '@/data/personas/personas';
 import { giantPersonas } from '@/data/giant-personas';
 import { giantsData } from '@/data/giants';
 import narratives from '@/data/final-narratives.json';
+import fs from 'fs';
+import path from 'path';
 
-let genAI: GoogleGenerativeAI | null = null;
+let vertexAIInstance: VertexAI | null = null;
 
-function getAIInstance() {
-  if (genAI) return genAI;
-  const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY;
-  if (!apiKey) {
-    console.error("GEMINI_API_KEY is missing in environment variables.");
-    throw new Error("서버 설정 오류: API 키가 없습니다.");
+function getVertexAIInstance() {
+  if (vertexAIInstance) return vertexAIInstance;
+  
+  const projectId = process.env.GCP_PROJECT_ID || 'giantswisdom-8dc26';
+  const location = process.env.GCP_LOCATION || 'us-central1';
+  
+  // Try loading from local service account file first
+  const localKeyPath = path.resolve(process.cwd(), 'google-service-account.json');
+  let credentials;
+  
+  if (fs.existsSync(localKeyPath)) {
+    try {
+      credentials = JSON.parse(fs.readFileSync(localKeyPath, 'utf8'));
+    } catch (e) {
+      console.error("Failed to parse local google-service-account.json", e);
+    }
   }
-  genAI = new GoogleGenerativeAI(apiKey);
-  return genAI;
+  
+  // Fallback to environment variable
+  if (!credentials && process.env.GCP_SERVICE_ACCOUNT) {
+    try {
+      credentials = JSON.parse(process.env.GCP_SERVICE_ACCOUNT);
+    } catch (e) {
+      console.error("Failed to parse GCP_SERVICE_ACCOUNT environment variable", e);
+    }
+  }
+  
+  const initOptions: any = {
+    project: projectId,
+    location: location,
+  };
+  
+  if (credentials) {
+    initOptions.googleAuthOptions = {
+      credentials,
+    };
+  } else {
+    console.warn("No GCP credentials found. Vertex AI will fall back to default application credentials.");
+  }
+  
+  vertexAIInstance = new VertexAI(initOptions);
+  return vertexAIInstance;
 }
 
 /**
  * 사용자님께서 검증하신 2.5 버전 모델을 사용하는 서버 액션 함수입니다.
  */
 export async function getGiantResponse(giantSlug: string, persona: string, message: string, giantName: string, history: any[] = [], locale: string = 'ko', problemId?: string, customText?: string) {
-  const genAIInstance = getAIInstance();
+
 
   const coreRules = `
 [ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
@@ -464,13 +499,17 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
     'gemini-1.5-flash-latest',
     'gemini-1.5-flash-002'
   ];
+  
+  const vAI = getVertexAIInstance();
   let lastError = null;
 
   for (const modelId of modelsToTry) {
     try {
-      const model = genAIInstance.getGenerativeModel({ 
+      const model = vAI.getGenerativeModel({ 
         model: modelId,
-        systemInstruction: sysPrompt 
+        systemInstruction: {
+          parts: [{ text: sysPrompt }]
+        }
       });
 
       // 대화 내역(history) 처리 - Gemini requires strict user->model alternation
@@ -513,7 +552,15 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
 
       const result = await chatSession.sendMessage(message);
       const response = await result.response;
-      return response.text();
+      
+      // Fallback helper to extract text safely from Vertex AI response
+      if (typeof response.text === 'function') {
+        return response.text();
+      } else {
+        const text = response.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (text) return text;
+        throw new Error("Could not extract text from Vertex AI response object");
+      }
 
     } catch (error: any) {
       lastError = error;
