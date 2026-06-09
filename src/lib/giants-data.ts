@@ -17,17 +17,12 @@ export interface Giant {
 }
 
 const colorMap: Record<string, string> = {
-  'achievement': 'from-amber-500/20 to-orange-500/20',
-  'adversity': 'from-rose-500/20 to-pink-500/20',
-  'wisdom': 'from-emerald-500/20 to-teal-500/20',
-  'creativity': 'from-purple-500/20 to-indigo-500/20',
-};
-
-const categoryMap: Record<string, string> = {
-  '성취': 'achievement',
-  '역경': 'adversity',
-  '지혜': 'wisdom',
-  '창의': 'creativity',
+  'leadership': 'from-amber-500/20 to-orange-500/20',
+  'science': 'from-cyan-500/20 to-blue-500/20',
+  'philosophy': 'from-emerald-500/20 to-teal-500/20',
+  'arts': 'from-purple-500/20 to-pink-500/20',
+  'society': 'from-rose-500/20 to-red-500/20',
+  'business': 'from-indigo-500/20 to-violet-500/20',
 };
 
 export const giants: Giant[] = giantsData
@@ -36,10 +31,10 @@ export const giants: Giant[] = giantsData
     name: g.name,
     title: g.headline,
     era: g.era,
-    field: categoryMap[g.category] || 'other',
+    field: g.category,
     description: g.shortDescription,
     quote: g.quote,
-    color: colorMap[categoryMap[g.category]] || 'from-slate-500/20 to-zinc-500/20',
+    color: colorMap[g.category] || 'from-slate-500/20 to-zinc-500/20',
     slug: g.slug,
     dnaCode: g.dnaCode,
     imageUrl: g.imageUrl.startsWith('/images/')
@@ -47,15 +42,17 @@ export const giants: Giant[] = giantsData
       : g.imageUrl.startsWith('/') 
         ? `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/giants/${g.slug}.jpg` 
         : g.imageUrl,
-    category: categoryMap[g.category] || 'other',
+    category: g.category,
     lessons: g.lessons
   }))
   .filter(g => g.id && g.id.trim().length > 0);
 
 export const categories = [
   "All Giants",
-  "achievement",
-  "adversity",
-  "wisdom",
-  "creativity"
+  "leadership",
+  "science",
+  "philosophy",
+  "arts",
+  "society",
+  "business"
 ];

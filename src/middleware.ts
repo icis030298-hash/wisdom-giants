@@ -25,7 +25,7 @@ export default async function middleware(request: NextRequest) {
     pathname === '/sitemap.xml';
 
   if (!isStaticOrApi) {
-    const hasLocale = pathname.startsWith('/ko') || pathname.startsWith('/en') || pathname.startsWith('/de') || pathname.startsWith('/ja') || pathname.startsWith('/es') || pathname.startsWith('/fr') || pathname.startsWith('/it') || pathname.startsWith('/pt');
+    const hasLocale = pathname.startsWith('/ko') || pathname.startsWith('/en') || pathname.startsWith('/de') || pathname.startsWith('/ja') || pathname.startsWith('/es') || pathname.startsWith('/fr') || pathname.startsWith('/it') || pathname.startsWith('/pt') || pathname.startsWith('/ar') || pathname.startsWith('/hi') || pathname.startsWith('/ru') || pathname.startsWith('/zh');
     
     if (!hasLocale) {
       const acceptLanguage = request.headers.get('accept-language') || '';
@@ -36,6 +36,10 @@ export default async function middleware(request: NextRequest) {
       const isFrench = acceptLanguage.toLowerCase().includes('fr');
       const isItalian = acceptLanguage.toLowerCase().includes('it');
       const isPortuguese = acceptLanguage.toLowerCase().includes('pt');
+      const isArabic = acceptLanguage.toLowerCase().includes('ar');
+      const isHindi = acceptLanguage.toLowerCase().includes('hi');
+      const isRussian = acceptLanguage.toLowerCase().includes('ru');
+      const isChinese = acceptLanguage.toLowerCase().includes('zh');
       
       let locale = 'en';
       if (isKorean) locale = 'ko';
@@ -45,6 +49,10 @@ export default async function middleware(request: NextRequest) {
       else if (isFrench) locale = 'fr';
       else if (isItalian) locale = 'it';
       else if (isPortuguese) locale = 'pt';
+      else if (isArabic) locale = 'ar';
+      else if (isHindi) locale = 'hi';
+      else if (isRussian) locale = 'ru';
+      else if (isChinese) locale = 'zh';
 
       
       // Redirect to the language specific route

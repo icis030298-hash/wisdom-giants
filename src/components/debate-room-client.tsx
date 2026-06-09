@@ -281,10 +281,12 @@ export function DebateRoomClient() {
   // Categories translation mapping
   const categoryNames: Record<string, string> = {
     "All Giants": locale === "ko" ? "전체 위인" : "All Giants",
-    "achievement": locale === "ko" ? "성취" : "Achievement",
-    "adversity": locale === "ko" ? "역경" : "Adversity",
-    "wisdom": locale === "ko" ? "지혜" : "Wisdom",
-    "creativity": locale === "ko" ? "창의" : "Creativity"
+    "leadership": locale === "ko" ? "정치·리더십" : "Leadership",
+    "science": locale === "ko" ? "과학·혁신" : "Science",
+    "philosophy": locale === "ko" ? "철학·사상" : "Philosophy",
+    "arts": locale === "ko" ? "문학·예술" : "Arts",
+    "society": locale === "ko" ? "인권·사회" : "Society",
+    "business": locale === "ko" ? "탐험·비즈니스" : "Business"
   }
 
   const sampleTopics = t.raw("suggestedTopics") || [

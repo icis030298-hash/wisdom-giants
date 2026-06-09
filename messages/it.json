@@ -103,10 +103,12 @@
     "searchPlaceholder": "Cerca per nome o campo...",
     "allGiants": "Tutti",
     "categories": {
-      "achievement": "Conquiste",
-      "adversity": "Avversità",
-      "wisdom": "Saggezza",
-      "creativity": "Creatività"
+      "leadership": "Leadership",
+      "science": "Scienza",
+      "philosophy": "Filosofia",
+      "arts": "Arte",
+      "society": "Società",
+      "business": "Business"
     },
     "resultsCount": "Trovate {filtered} figure storiche su {total}",
     "readEpic": "Leggi la Biografia ✨",
@@ -2208,6 +2210,790 @@
       "era": "Rinascimento",
       "pain": "Ha affrontato la rovina finanziaria e ha perso la sua officina.",
       "recovery": "La sua invenzione ha rivoluzionato la diffusione della conoscenza."
+    },
+    "max-planck": {
+      "name": "Max Planck",
+      "title": "Padre della Fisica Quantistica",
+      "headline": "L'Alba Quantistica",
+      "shortDescription": "Max Planck fu il pioniere della rivoluzione quantistica che rimodellò la fisica del XX secolo. Le sue scoperte rivoluzionarie posero le basi per la scienza moderna.",
+      "quote": "Una nuova verità scientifica non trionfa convincendo i suoi oppositori e facendoli vedere la luce, ma piuttosto perché i suoi oppositori muoiono alla fine, e una nuova generazione cresce familiare con essa.",
+      "chatGreeting": "Saluti. Sono Max Planck. Trovo grande gioia nell'esplorare i misteri della fisica. Quali domande ha per me oggi?",
+      "suggestedQuestions": [
+        "Cos'è l'ipotesi quantistica?",
+        "Cos'è la costante di Planck?",
+        "Cosa pensa del futuro della fisica?"
+      ],
+      "era": "Fine XIX - Metà XX secolo",
+      "pain": "Soffrì immense tragedie personali, perdendo la moglie e due figli. Visse anche gli effetti devastanti di due Guerre Mondiali e l'ascesa del regime nazista, che crearono un ambiente difficile per la scienza.",
+      "recovery": "La dedizione incrollabile di Planck alla scienza e la sua fede nella ragione e nell'umanità lo aiutarono a superare queste profonde perdite e sconvolgimenti sociali. Lavorò attivamente per ricostruire le istituzioni scientifiche e promuovere la collaborazione internazionale dopo le guerre."
+    },
+    "hypatia": {
+      "name": "Ipazia",
+      "title": "Filosofa, Astronomo e Matematico della Grecia Antica",
+      "headline": "Faro della Ragione",
+      "shortDescription": "Una prominente filosofa, astronoma e matematica ad Alessandria, Ipazia insegnò il neoplatonismo e contribuì al progresso della scienza. Era rinomata per la sua saggezza e la sua erudizione.",
+      "quote": "Difendi il tuo diritto di pensare, perché anche pensare in modo errato è meglio che non pensare affatto.",
+      "chatGreeting": "Benvenuti in un viaggio attraverso l'illuminante saggezza di Alessandria. Cosa stimola oggi la vostra curiosità intellettuale?",
+      "suggestedQuestions": [
+        "Quali sono i tuoi insegnamenti filosofici?",
+        "Parlami della bellezza della matematica.",
+        "Chi furono le tue influenze intellettuali?"
+      ],
+      "era": "Tarda antichità",
+      "pain": "Navigare nelle insidiose acque dei conflitti religiosi e politici mentre si perseguiva la verità accademica. Affrontò pregiudizi e pericoli in una città sempre più divisa da tensioni religiose.",
+      "recovery": "Attraverso il suo incrollabile impegno per la ragione, la logica e l'educazione, servì da faro della conoscenza, ispirando i suoi studenti e lasciando un'eredità di ricerca intellettuale."
+    },
+    "ibn-al-haytham": {
+      "name": "Ibn al-Haytham",
+      "title": "Padre dell'Ottica, Pioniere del Metodo Scientifico",
+      "headline": "Svelando la Luce",
+      "shortDescription": "Uno studioso arabo rinomato per il suo lavoro pionieristico sulla luce e la visione. Ha enfatizzato i metodi empirici, contribuendo profondamente al progresso della scienza.",
+      "quote": "Chiunque voglia studiare la natura delle cose deve farsi nemico di tutto ciò che ha imparato.",
+      "chatGreeting": "Salute, cercatore di conoscenza. Quali domande portate? Sono pronto a illuminare il cammino verso la verità con voi.",
+      "suggestedQuestions": [
+        "Quali furono i tuoi studi sull'ottica?",
+        "Cos'è il metodo scientifico?",
+        "Quali difficoltà hai affrontato?"
+      ],
+      "era": "Fine X - inizio XI secolo",
+      "pain": "Ibn al-Haytham affrontò significativi contrattempi personali e professionali. Nel tentativo di controllare le inondazioni del Nilo a Baghdad, si rese conto dell'impraticabilità dei suoi ambiziosi piani ingegneristici. Questo fallimento portò a una perdita di favore politico e a un periodo di angoscia mentale, che lo spinse a ritirarsi dalla vita pubblica. Inoltre, il clima accademico prevalente favoriva la speculazione teorica rispetto alla ricerca empirica, rendendo difficile l'accettazione del suo nuovo approccio sperimentale.",
+      "recovery": "Durante il suo periodo di reclusione, si dedicò a intense ricerche in ottica, matematica e astronomia. La sua opera fondamentale, il 'Libro dell'Ottica', esplorò sistematicamente la natura della luce, la meccanica della visione e le proprietà delle lenti, influenzando profondamente i futuri sforzi scientifici. Stabilendo un rigoroso metodo scientifico basato sulla sperimentazione e l'osservazione piuttosto che sulla pura speculazione, trasformò le sue lotte personali in un contributo monumentale alla storia della scienza."
+    },
+    "blaise-pascal": {
+      "name": "Blaise Pascal",
+      "title": "Matematico, Fisico, Filosofo, Teologo",
+      "headline": "La Canna Pensante",
+      "shortDescription": "Un genio francese del XVII secolo che diede profondi contributi alla matematica, alla fisica, alla filosofia e alla teologia. I suoi pensieri e la sua fede hanno profondamente influenzato la posterità.",
+      "quote": "L'uomo è solo una canna, la più debole della natura; ma è una canna pensante.",
+      "chatGreeting": "Salute. Cosa desidera sapere? Posso parlarle della mia vita e dei miei pensieri, ma La prego di porre domande che nascano da una genuina ricerca della verità, non da una curiosità oziosa.",
+      "suggestedQuestions": [
+        "Cos'è il Teorema di Pascal?",
+        "Cosa sono i 'Pensieri'?",
+        "Come considerava la fede e la ragione?"
+      ],
+      "era": "XVII secolo",
+      "pain": "Pascal soffrì di malattie croniche e dolori intensi per tutta la vita, aggravati da una malattia quasi mortale in adolescenza. La sua sofferenza fisica fu una compagna costante.",
+      "recovery": "Nonostante il suo dolore costante, Pascal trovò un profondo significato nella fede e nell'indagine filosofica. Questa sofferenza alimentò le sue profonde riflessioni sulla condizione umana e lo portò alla sua opera monumentale, i 'Pensieri'."
+    },
+    "dmitri-mendeleev": {
+      "name": "Dmitri Mendeleev",
+      "title": "Padre della Tavola Periodica",
+      "headline": "Architetto della Tavola Periodica",
+      "shortDescription": "Chimico e fisico russo, è noto soprattutto per aver formulato la Legge Periodica e creato una versione definitiva della tavola periodica degli elementi. Il suo lavoro ha posto le basi per la chimica moderna.",
+      "quote": "Conclusi che le proprietà degli elementi dipendono dai loro pesi atomici.",
+      "chatGreeting": "Saluti. Sono Dmitri Mendeleev. Trovo grande soddisfazione nel comprendere l'ordine della scienza e le relazioni tra gli elementi. Quali domande ha?",
+      "suggestedQuestions": [
+        "Come ha sviluppato la tavola periodica?",
+        "Quale elemento considera più significativo?",
+        "Quale impatto prevedeva per la sua ricerca sul futuro?"
+      ],
+      "era": "XIX Secolo",
+      "pain": "Affrontò significative difficoltà finanziarie dopo la morte prematura del padre e le limitazioni della ricerca scientifica nella Russia zarista. La sua rivoluzionaria tavola periodica incontrò inizialmente anche un notevole scetticismo e opposizione da parte della comunità scientifica.",
+      "recovery": "Con il sostegno della sua famiglia e la sua tenace dedizione, perseverò nei suoi studi. La svolta di Mendeleev avvenne riconoscendo una chiara periodicità nelle proprietà degli elementi basata sul loro peso atomico, che lo portò non solo a organizzarli, ma anche a prevedere l'esistenza e le proprietà di elementi non ancora scoperti. Nel tempo, le sue previsioni furono verificate sperimentalmente, ottenendo un ampio riconoscimento."
+    },
+    "ada-lovelace": {
+      "name": "Ada Lovelace",
+      "title": "Pioniera dell'informatica",
+      "headline": "La Poetessa della Scienza",
+      "shortDescription": "Matematica e scrittrice inglese, le sue note sulla Macchina Analitica di Charles Babbage sono considerate il primo algoritmo informatico.",
+      "quote": "Ho compreso che la macchina avrebbe potuto essere in grado di agire su cose diverse dal numero, se si fossero trovati oggetti le cui relazioni fondamentali reciproche potessero essere espresse da quelle della scienza astratta delle operazioni.",
+      "chatGreeting": "È un piacere fare la sua conoscenza. Sono Ada Lovelace. Trovo grande gioia nell'esplorare idee complesse, unendo sensibilità poetica e indagine logica. Non esiti a chiedermi qualsiasi cosa susciti la sua curiosità.",
+      "suggestedQuestions": [
+        "Cos'era la Macchina Analitica?",
+        "Cosa intende per 'scienza poetica'?",
+        "Perché la matematica era importante per le donne?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Soffrì di malattie frequenti e della tensione psicologica della rigorosa educazione materna, volta a reprimere ogni tendenza 'poetica' o 'byroniana' ereditata dal padre. Le restrizioni sociali per le donne rappresentavano anche sfide significative.",
+      "recovery": "Lovelace trovò conforto e stimolo intellettuale nella matematica e nella logica. La sua collaborazione con Charles Babbage le permise di incanalare la sua prospettiva unica in un lavoro pionieristico, immaginando possibilità di calcolo oltre il mero calcolo."
+    },
+    "alan-turing": {
+      "name": "Alan Turing",
+      "title": "Padre dell'informatica",
+      "headline": "Il Padre dell'IA",
+      "shortDescription": "Matematico, logico, crittoanalista e pioniere dell'informatica britannico. Ha svolto un ruolo cruciale nella decifrazione dei codici tedeschi durante la Seconda Guerra Mondiale, contribuendo in modo significativo alla vittoria Alleata.",
+      "quote": "Tutto ciò che pensiamo si possa fare, possiamo pensare a come farlo.",
+      "chatGreeting": "Salve. Sono Alan Turing. Come posso esserle d'aiuto oggi? Sono sempre desideroso di discutere domande interessanti.",
+      "suggestedQuestions": [
+        "Cos'è una macchina di Turing?",
+        "Come ha affrontato la decifrazione dei codici?",
+        "Cosa prevede per il futuro dell'IA?"
+      ],
+      "era": "XX secolo",
+      "pain": "Nel 1952 fu processato per atti omosessuali, all'epoca un reato, e sottoposto a castrazione chimica. Ciò ebbe un profondo impatto sulla sua carriera e sulla sua vita personale.",
+      "recovery": "Nonostante l'immenso dolore e l'ingiustizia subiti, i suoi contributi matematici e scientifici sono stati riconosciuti postumi. Il suo lavoro ha posto le basi per l'informatica moderna e l'intelligenza artificiale, e la sua eredità continua a ispirare."
+    },
+    "charles-babbage": {
+      "name": "Charles Babbage",
+      "title": "Padre del Computer",
+      "headline": "Padre del Computer",
+      "shortDescription": "Charles Babbage fu un matematico e inventore britannico del XIX secolo che concepì l'idea di un computer meccanico programmabile. Le sue idee innovative posero le basi per l'informatica moderna.",
+      "quote": "La Macchina Analitica tesse schemi algebrici, proprio come il telaio Jacquard tesse fiori e foglie.",
+      "chatGreeting": "Ah, piacere di conoscerla! Sono Charles Babbage. È forse curioso riguardo alla mia Macchina Differenziale o alla mia più ambiziosa Macchina Analitica? È piuttosto affascinante vedere come i miei concetti vengono percepiti in quest'epoca.",
+      "suggestedQuestions": [
+        "Cos'era la Macchina Differenziale?",
+        "Come funzionava la Macchina Analitica?",
+        "In che modo le sue invenzioni hanno influenzato il mondo moderno?"
+      ],
+      "era": "XIX secolo",
+      "pain": "I suoi ambiziosi progetti di macchine richiedevano ingenti finanziamenti e ingegneria di precisione, ma si scontrarono con limiti tecnologici e un insufficiente supporto governativo, impedendone la piena realizzazione. Di conseguenza, dovette sopportare critiche e frustrazioni considerevoli.",
+      "recovery": "Sebbene le sue più grandi visioni non si siano realizzate in vita, i dettagliati progetti e scritti di Babbage costituirono la base per il suo riconoscimento postumo come padre dell'informatica. Perseverò, affinando le sue teorie nonostante le battute d'arresto."
+    },
+    "ibn-sina": {
+      "name": "Avicenna",
+      "title": "Medico e Filosofo Persiano",
+      "headline": "Avicenna",
+      "shortDescription": "Avicenna fu un poliedrico persiano, celebre come medico e astronomo. La sua enciclopedia medica servì come testo standard sia nel mondo islamico che in Europa per secoli.",
+      "quote": "La comprensione rende tutto possibile.",
+      "chatGreeting": "Saluti. Sono Avicenna. La ricerca della conoscenza è stata la forza trainante della mia vita, e sono lieto di condividere con Lei la saggezza che possiedo.",
+      "suggestedQuestions": [
+        "Quali sono le Sue opinioni sulla medicina?",
+        "Mi parli di più della Sua filosofia.",
+        "Qual è stata la Sua realizzazione più significativa?"
+      ],
+      "era": "Fine X - Inizio XI secolo",
+      "pain": "Nonostante il suo intelletto prodigioso fin dalla giovane età, Avicenna subì costanti turbolenze politiche e periodi di esilio. Servì diversi sovrani, navigando attraverso insidiosi paesaggi politici e minacce, mentre si sforzava di proseguire i suoi studi accademici.",
+      "recovery": "Non lasciò mai che queste avversità estinguessero la sua passione per l'apprendimento. In esilio, interagì con studiosi, si immerse nelle biblioteche e ampliò la sua conoscenza. Le sue eccezionali capacità mediche lo condussero dove era necessario, e i suoi scritti lasciarono un'eredità di saggezza senza tempo."
+    },
+    "james-watt": {
+      "name": "James Watt",
+      "title": "Innovatore della Macchina a Vapore",
+      "headline": "Scatenare la Potenza del Vapore",
+      "shortDescription": "Un inventore e ingegnere meccanico scozzese che migliorò drasticamente la macchina a vapore, rendendola un pilastro della Rivoluzione Industriale.",
+      "quote": "Ho sempre avuto l'abitudine di cercare i principi della natura nelle proprietà dei corpi e le leggi del movimento negli effetti del movimento.",
+      "chatGreeting": "Buongiorno. Sono James Watt. Ha domande sul mio lavoro con la macchina a vapore? Sarò lieto di discuterne con Lei.",
+      "suggestedQuestions": [
+        "Qual è stata l'innovazione chiave nel miglioramento della sua macchina a vapore?",
+        "Come ha influenzato il suo lavoro la Rivoluzione Industriale?",
+        "Di quale invenzione è più orgoglioso?"
+      ],
+      "era": "XVIII Secolo",
+      "pain": "L'inefficienza intrinseca e i frequenti guasti delle prime macchine a vapore presentarono significativi ostacoli tecnici. Affrontò anche controversie commerciali e difficoltà nel reperire investimenti.",
+      "recovery": "La sua invenzione del condensatore separato migliorò drasticamente l'efficienza, e una partnership di successo con Matthew Boulton permise la commercializzazione e un'ampia adozione."
+    },
+    "george-stephenson": {
+      "name": "George Stephenson",
+      "title": "Padre delle Ferrovie",
+      "headline": "Padre della Locomotiva a Vapore",
+      "shortDescription": "Un pioniere ingegnere ferroviario britannico, a lui si attribuisce l'invenzione della prima locomotiva a vapore pratica. Ha posto le basi per i moderni sistemi ferroviari.",
+      "quote": "Ciò che sembra impossibile, inizia a sembrare impossibile.",
+      "chatGreeting": "Bene, cosa posso fare per Lei? Sono George Stephenson. Desidera discutere del collegamento di questa terra?",
+      "suggestedQuestions": [
+        "Qual è stato il processo di invenzione della locomotiva a vapore?",
+        "Quale impatto hanno avuto le ferrovie sulla società?",
+        "Qual è stata la Sua più grande sfida?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Nato in povertà con poca istruzione formale, ha sopportato un duro lavoro manuale fin dalla giovane età per sopravvivere.",
+      "recovery": "Si è autoformato nell'ingegneria meccanica e, attraverso esperimenti e sforzi incessanti, è riuscito a sviluppare la locomotiva a vapore. La sua perseveranza e le sue idee innovative hanno superato le sue sfide."
+    },
+    "gregor-mendel": {
+      "name": "Gregor Mendel",
+      "title": "Padre della Genetica",
+      "headline": "Scopritore delle Leggi dell'Eredità",
+      "shortDescription": "Monaco e botanico austriaco del XIX secolo, scoprì le leggi fondamentali dell'ereditarietà attraverso i suoi esperimenti con le piante di pisello. Il suo lavoro pose le basi della genetica moderna.",
+      "quote": "È la mia unica felicità dedicare lo scopo della mia vita al mio lavoro scientifico.",
+      "chatGreeting": "Saluti. Sono Gregor Mendel. Ho dedicato la mia vita all'esplorazione dei segreti della vita attraverso le piante di pisello nel giardino del monastero. Non esiti a chiedermi qualsiasi cosa.",
+      "suggestedQuestions": [
+        "Come sono stati condotti i suoi esperimenti sulle piante di pisello?",
+        "Perché le sue scoperte non furono ampiamente riconosciute durante la sua vita?",
+        "Cosa ne pensa del futuro della genetica?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Mendel visse la frustrazione di vedere la sua rivoluzionaria ricerca genetica largamente ignorata e dimenticata durante la sua vita. Inoltre, la mancanza di scienziati colleghi a sostegno della sua passione accademica e la sfida ai paradigmi scientifici allora dominanti gli causarono un profondo isolamento.",
+      "recovery": "Mendel trovò soddisfazione nella ricerca della verità stessa, piuttosto che nella ricerca di riconoscimenti esterni. Svolse diligentemente i suoi doveri di abate continuando senza sosta la sua ricerca. La sua ferma convinzione e i suoi sforzi persistenti divennero infine la forza trainante per la rivalutazione delle sue realizzazioni da parte delle generazioni future."
+    },
+    "antoine-lavoisier": {
+      "name": "Antoine Lavoisier",
+      "title": "Padre della Chimica Moderna",
+      "headline": "Rivoluzionario della Chimica",
+      "shortDescription": "Un eminente chimico francese, rinomato per il suo ruolo nella scoperta dell'ossigeno e nell'istituzione della legge di conservazione della massa. È stato fondamentale nel trasformare la chimica in una scienza quantitativa.",
+      "quote": "Nulla si perde, nulla si crea, tutto si trasforma.",
+      "chatGreeting": "Benvenuto nel mio laboratorio del pensiero. La ricerca della verità scientifica richiede un'osservazione meticolosa e una misurazione precisa. Quali meraviglie esploreremo oggi?",
+      "suggestedQuestions": [
+        "Qual era la sua teoria sulla combustione?",
+        "Come ha definito il concetto di elementi?",
+        "Quale considera il suo più grande contributo alla chimica?"
+      ],
+      "era": "XVIII secolo",
+      "pain": "Durante la Rivoluzione Francese, Lavoisier fu coinvolto nei tumulti politici che interessarono sia i suoi doveri pubblici che i suoi sforzi scientifici. La sua ricchezza e il suo status lo resero un bersaglio per i rivoluzionari, portando infine alla sua esecuzione.",
+      "recovery": "A Lavoisier fu negata l'opportunità di dimostrare la sua innocenza nel processo. Sebbene la sua vita sia stata interrotta dal fervore rivoluzionario, la sua eredità scientifica è perdurata. Il suo meticoloso lavoro ha posto le basi della chimica moderna e ha ispirato generazioni di scienziati."
+    },
+    "li-shizhen": {
+      "name": "Li Shizhen",
+      "title": "Grande Farmacologo della Dinastia Ming",
+      "headline": "Compilatore del Bencao Gangmu",
+      "shortDescription": "Un eminente medico e farmacologo della Dinastia Ming, Li Shizhen compilò il monumentale 'Bencao Gangmu' dopo trent'anni di ricerca approfondita, contribuendo in modo significativo al progresso della medicina dell'Asia orientale.",
+      "quote": "Ci sono più di diecimila malattie, ma non diecimila medicine. Pertanto, dobbiamo cercare ampiamente medicine.",
+      "chatGreeting": "Salute. Ha domande sulle proprietà e sull'efficacia delle erbe medicinali? Spero che la mia conoscenza possa esserle di qualche aiuto.",
+      "suggestedQuestions": [
+        "Come è stato scritto il Bencao Gangmu?",
+        "Qual è l'erba più importante secondo lei?",
+        "Cosa l'ha spinta a studiare medicina?"
+      ],
+      "era": "Dinastia Ming",
+      "pain": "Il conflitto tra la sua vita di funzionario e la sua ricerca medica, così come le difficoltà fisiche e i pericoli incontrati nella raccolta e sperimentazione di numerose sostanze medicinali.",
+      "recovery": "Attraverso innumerevoli tentativi e una ricerca persistente, realizzò i suoi ideali medici completando l'immortale capolavoro, 'Bencao Gangmu'."
+    },
+    "guglielmo-marconi": {
+      "name": "Guglielmo Marconi",
+      "title": "Pioniere della Comunicazione Wireless",
+      "headline": "Padre della Radio",
+      "shortDescription": "Inventore e ingegnere elettrico italiano, Marconi è accreditato dell'invenzione della radio e dello sviluppo della telegrafia senza fili. Le sue innovazioni hanno inaugurato l'era moderna della comunicazione.",
+      "quote": "La mente umana è capace di tutto, dato il coraggio della volontà.",
+      "chatGreeting": "Saluti. Sono Guglielmo Marconi, un uomo che ha cercato di connettere il mondo attraverso la comunicazione wireless. Quali domande ha?",
+      "suggestedQuestions": [
+        "Cosa l'ha ispirata a inventare la radio?",
+        "Quale impatto hanno avuto le sue invenzioni sulla società?",
+        "Quali sono state le difficoltà nella scoperta scientifica?"
+      ],
+      "era": "Fine XIX - inizio XX secolo",
+      "pain": "Marconi affrontò un notevole scetticismo riguardo alle sue teorie sulla comunicazione wireless e lottò con i finanziamenti all'inizio della sua carriera. Soffrì anche lunghe dispute sui brevetti, in particolare con rivali che contestavano la sua originalità.",
+      "recovery": "Attraverso esperimenti incessanti, dimostrazioni pubbliche di successo (come la trasmissione transatlantica) e un acuto senso degli affari, Marconi superò questi ostacoli. Fondò la Marconi Company, che commercializzò la sua tecnologia e consolidò la sua eredità."
+    },
+    "robert-koch": {
+      "name": "Robert Koch",
+      "title": "Padre della batteriologia",
+      "headline": "Maestro della microbiologia",
+      "shortDescription": "Medico e microbiologo tedesco, è uno dei fondatori della batteriologia moderna. Identificò gli agenti patogeni dell'antrace, della tubercolosi e del colera, apportando enormi contributi alla lotta contro le malattie.",
+      "quote": "La salute dell'umanità dipende da quanto bene comprendiamo e combattiamo gli agenti patogeni.",
+      "chatGreeting": "Benvenuto. Sono Robert Koch. Ho dedicato la mia vita a scoprire le origini delle malattie che affliggono l'umanità. Risponderò a qualsiasi domanda con la massima sincerità.",
+      "suggestedQuestions": [
+        "Come ha scoperto il bacillo della tubercolosi?",
+        "Quali sono i postulati di Koch?",
+        "Che impatto ha avuto sulla medicina moderna?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Inizialmente, la sua ricerca ha incontrato lo scetticismo dei colleghi scienziati e ha lottato con condizioni di laboratorio inadeguate. Ha sperimentato numerosi fallimenti e battute d'arresto, in particolare nella sua ricerca per identificare le cause di malattie incurabili come la tubercolosi.",
+      "recovery": "Attraverso sforzi persistenti e rigore scientifico, ha ripetuto innumerevoli esperimenti per provare le sue ipotesi. Nonostante le critiche dei colleghi, ha infine ottenuto il riconoscimento per le sue scoperte presentando prove chiare."
+    },
+    "thomas-aquinas": {
+      "name": "Tommaso d'Aquino",
+      "title": "Teologo e Filosofo Medievale",
+      "headline": "Il Dottore Angelico",
+      "shortDescription": "Tommaso d'Aquino è una delle figure più influenti della teologia e filosofia cristiana medievale. È rinomato per la sua sintesi della filosofia aristotelica con la dottrina cristiana, plasmando profondamente il pensiero occidentale.",
+      "quote": "Non crederei in Dio se non fosse per l'autorità delle Scritture, che è attestata dai miracoli.",
+      "chatGreeting": "La grazia e la pace siano con Lei. Cosa cerca di comprendere? Sono pronto ad assistere il Suo viaggio intellettuale con la conoscenza che ho raccolto.",
+      "suggestedQuestions": [
+        "Mi parli della Sua Summa Theologica.",
+        "Spieghi la relazione tra fede e ragione.",
+        "Discuta l'influenza di Aristotele sulla Sua opera."
+      ],
+      "era": "Pieno Medioevo",
+      "pain": "Ha affrontato l'opposizione familiare alla sua vocazione religiosa e si è impegnato in rigorosi dibattiti accademici, difendendo le sue posizioni filosofiche e teologiche. I suoi scritti estesi richiedevano un immenso lavoro intellettuale e contemplazione.",
+      "recovery": "Attraverso uno studio persistente e un'argomentazione chiara, ha stabilito il suo completo sistema filosofico, superando le sfide accademiche e lasciando un segno indelebile sulla successiva erudizione."
+    },
+    "rumi": {
+      "name": "Rumi",
+      "title": "Poeta persiano e mistico islamico del XIII secolo",
+      "headline": "Poeta dell'Amore Divino",
+      "shortDescription": "Jalāl al-Dīn Muḥammad Rūmī fu un poeta persiano, studioso islamico, teologo e mistico sufi del XIII secolo. La sua profonda poesia, che esplora spesso temi di amore divino e unità dell'esistenza, continua a risuonare a livello globale.",
+      "quote": "Ciò che cerchi, ti sta cercando.",
+      "chatGreeting": "Benvenuto, cercatore. In questo momento, siamo entrambi viaggiatori sul cammino. Cosa sussurra oggi nel tuo cuore? Esploriamo insieme le profondità dell'esistenza.",
+      "suggestedQuestions": [
+        "Qual è stato l'evento più trasformativo della tua vita?",
+        "Come definisci l'amore?",
+        "Cos'è l'illuminazione spirituale?"
+      ],
+      "era": "XIII secolo",
+      "pain": "Rumi provò un profondo dolore con la morte di suo padre e lo sfollamento causato dalle invasioni mongole, che lo costrinsero ad abbandonare la sua terra natale e a vivere come rifugiato.",
+      "recovery": "Il suo incontro con Shams al-Din Tabrizi, un derviscio errante, fu un momento cruciale. La presenza spirituale e gli insegnamenti di Shams accesero il genio poetico di Rumi, trasformando il suo dolore in versi estatici e portandolo a fondare l'Ordine Mevlevi."
+    },
+    "ibn-rushd": {
+      "name": "Ibn Rushd",
+      "title": "Filosofo dell'Età d'Oro Islamica",
+      "headline": "Il Commentatore",
+      "shortDescription": "Ibn Rushd fu una figura di spicco del mondo islamico del XII secolo, noto come filosofo, giurista e medico. È celebrato per i suoi commentari su Aristotele, che influenzarono significativamente il pensiero sia islamico che europeo.",
+      "quote": "L'azione è il risultato della volontà, e la volontà è il risultato della conoscenza.",
+      "chatGreeting": "Saluti. La ricerca della verità attraverso la ragione è l'impresa più nobile dell'umanità. Quale conoscenza cercate?",
+      "suggestedQuestions": [
+        "Qual è la sua interpretazione di Aristotele?",
+        "Spieghi la relazione tra ragione e religione.",
+        "Quali furono i suoi contributi alla medicina?"
+      ],
+      "era": "XII secolo, Età d'Oro Islamica",
+      "pain": "Affrontò la persecuzione da parte di autorità religiose conservatrici e fazioni politiche che condannarono le sue aspirazioni filosofiche come eretiche, portando al divieto delle sue opere e al suo esilio.",
+      "recovery": "Conservò meticolosamente i suoi scritti e le sue idee in privato e, attraverso i suoi studenti devoti, assicurò la continuazione delle sue indagini razionaliste, salvaguardando così la sua eredità intellettuale."
+    },
+    "william-james": {
+      "name": "William James",
+      "title": "Padre del Pragmatismo Americano",
+      "headline": "Il Flusso di Coscienza",
+      "shortDescription": "Filosofo e psicologo americano, fu uno dei fondatori del pragmatismo. La sua monumentale opera 'I Principi della Psicologia' pose le basi della psicologia moderna.",
+      "quote": "L'arte di essere saggi è l'arte di sapere cosa trascurare.",
+      "chatGreeting": "Ah, benvenuto. Quali pensieri la animano oggi? Forse possiamo esplorarli insieme.",
+      "suggestedQuestions": [
+        "Cos'è il pragmatismo?",
+        "Spieghi il concetto di flusso di coscienza.",
+        "Quali sono le varietà dell'esperienza religiosa?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Soffrì di nevrastenia grave e di episodi depressivi fin dalla giovinezza, il che ostacolò notevolmente i suoi studi e la sua vita quotidiana. Lottò anche con il rigido approccio educativo del padre e con profondi dubbi esistenziali sul proprio percorso.",
+      "recovery": "Attraverso un'intensa angoscia psicologica, iniziò a esaminare filosoficamente le proprie esperienze. Coltivò la consapevolezza di sé e credette nel potere della volontà, sforzandosi di superare le sue lotte attraverso 'la volontà di credere'. Questo divenne una pietra angolare della sua filosofia pragmatica."
+    },
+    "friedrich-schiller": {
+      "name": "Friedrich Schiller",
+      "title": "Il Grande Poeta, Drammaturgo e Filosofo Tedesco",
+      "headline": "Inno alla Libertà",
+      "shortDescription": "Figura di spicco del Classicismo tedesco, le sue opere esplorano la libertà e la dignità umana, lasciando un'eredità profonda.",
+      "quote": "L'uomo è pienamente uomo solo quando gioca.",
+      "chatGreeting": "Stimato interlocutore, cosa occupa i Suoi pensieri? Esploriamo insieme la fonte della saggezza.",
+      "suggestedQuestions": [
+        "Mi parli della vita di Schiller.",
+        "Quali sono le opere principali di Schiller?",
+        "Quali furono le idee filosofiche di Schiller?"
+      ],
+      "era": "Fine XVIII - inizio XIX secolo",
+      "pain": "Fin dalla giovinezza, ha lottato contro le rigide restrizioni del potere autocratico e la censura. Le sue imprese artistiche erano spesso soggette a controllo. Inoltre, ha sofferto di difficoltà finanziarie e di problemi di salute persistenti.",
+      "recovery": "Nonostante queste limitazioni, ha raggiunto la trascendenza artistica difendendo la libertà e la dignità nei suoi scritti. Con il sostegno di amici e colleghi, e le sue incrollabili convinzioni, ha superato le avversità per creare opere immortali."
+    },
+    "george-washington-carver": {
+      "name": "George Washington Carver",
+      "title": "Scienziato Agricolo e Inventore",
+      "headline": "Il Mago delle Arachidi",
+      "shortDescription": "Nato in schiavitù, è diventato un brillante scienziato agricolo e inventore. Ha sviluppato oltre 300 usi per arachidi, patate dolci e soia, rivoluzionando l'economia agricola del Sud.",
+      "quote": "Quanto lontano andrai nella vita dipende da te nell'essere tenero con i giovani, compassionevole con gli anziani, solidale con chi lotta e tollerante con i deboli e i forti. Perché un giorno nella tua vita, sarai stato tutto questo.",
+      "chatGreeting": "Saluti. Sono George Washington Carver. La mia vita è stata dedicata all'esplorazione dei segreti del suolo e a renderli benefici per l'umanità. Come posso aiutarla oggi?",
+      "suggestedQuestions": [
+        "Cosa si può fare con le arachidi?",
+        "Qual è l'importanza dell'agricoltura?",
+        "Qual è stata la sfida più grande della tua vita?"
+      ],
+      "era": "Fine XIX - Inizio XX secolo",
+      "pain": "Nato in schiavitù, ha affrontato immense difficoltà prima di ottenere la libertà. Ha anche incontrato discriminazioni razziali, che hanno limitato le sue opportunità educative e di ricerca.",
+      "recovery": "Attraverso il suo eccezionale intelletto e la sua incrollabile dedizione, ha superato queste avversità. La sua ricerca pionieristica nella scienza agricola ha dimostrato le sue capacità e ispirato innumerevoli persone."
+    },
+    "al-ghazali": {
+      "name": "Al-Ghazali",
+      "title": "Teologo, Filosofo, Giurista",
+      "headline": "La Prova dell'Islam",
+      "shortDescription": "Poliedrico studioso persiano, Al-Ghazali ha profondamente influenzato la filosofia islamica e il sufismo. Il suo pensiero ha lasciato un'impronta profonda nella storia intellettuale d'Oriente e d'Occidente.",
+      "quote": "Tutta la conoscenza deriva dall'ignoranza, e ogni saggezza inizia alla fine della conoscenza.",
+      "chatGreeting": "La pace sia con Lei. Sono Abu Hamid Al-Ghazali. È una gioia per me assistere nella ricerca della verità. Cosa desidera comprendere?",
+      "suggestedQuestions": [
+        "Qual è stato il punto di svolta più significativo nella Sua vita?",
+        "Potrebbe approfondire le Sue opinioni sul sufismo?",
+        "Mi parli della Sua opera fondamentale, 'L'Incoerenza dei Filosofi'."
+      ],
+      "era": "Fine XI – inizio XII secolo",
+      "pain": "Sperimentò profondi dubbi e una crisi spirituale, confrontandosi con i limiti dell'intelletto umano e la fugacità delle aspirazioni mondane, nonostante la sua fama accademica e la vicinanza al potere.",
+      "recovery": "Abbandonò la sua vita mondana, dedicandosi alla contemplazione spirituale e all'ascetismo. Attraverso la meditazione, la preghiera e un periodo di reclusione, trovò pace interiore e articolò le sue intuizioni in opere come 'L'Incoerenza dei Filosofi'."
+    },
+    "ibn-khaldun": {
+      "name": "Ibn Khaldun",
+      "title": "Storico, Sociologo, Economista",
+      "headline": "Architetto delle Civiltà",
+      "shortDescription": "Ibn Khaldun fu un brillante studioso nordafricano del XIV secolo la cui opera, la Muqaddimah, pose le basi teoriche per la sociologia, la storia e l'economia. Analizzò l'ascesa e la caduta delle civiltà, esplorando le leggi universali della società.",
+      "quote": "La storia è solo il resoconto delle azioni umane e delle variazioni della società.",
+      "chatGreeting": "Saluti. Sono Ibn Khaldun. Desidero condividere profonde intuizioni sul flusso delle civiltà e sulla natura della società umana. Di quale argomento desidera discutere?",
+      "suggestedQuestions": [
+        "Cos'è la Muqaddimah?",
+        "Spieghi l'ascesa e la caduta delle civiltà.",
+        "Qual è l'importanza della coesione sociale (Asabiyyah)?"
+      ],
+      "era": "XIV secolo",
+      "pain": "Sperimentò una vita instabile a causa di tumulti politici ed esilio, affrontò l'invidia e l'ostruzionismo dei colleghi e subì un profondo dolore personale.",
+      "recovery": "Nonostante queste difficoltà, non perse mai la sua passione per l'apprendimento. Basandosi sulle sue osservazioni ed esperienze, scrisse l'immortale capolavoro, la Muqaddimah, dando così un profondo contributo alla storia dell'umanità."
+    },
+    "maimonides": {
+      "name": "Maimonide",
+      "title": "Filosofo e giurista ebreo medievale",
+      "headline": "Faro della Filosofia Ebraica",
+      "shortDescription": "Uno dei pensatori ebrei più influenti del Medioevo, le cui opere spaziano nella filosofia, nel diritto e nella medicina. Cercò di armonizzare la ragione con la fede religiosa.",
+      "quote": "Con l'aumento della conoscenza, l'inclinazione al male si indebolisce.",
+      "chatGreeting": "Shalom. Sono Moshe ben Maimon, comunemente noto come Maimonide. Cosa stimola la Sua curiosità intellettuale?",
+      "suggestedQuestions": [
+        "Quali sono le Sue idee filosofiche?",
+        "Come vede il rapporto tra religione e ragione?",
+        "Quali sono le Sue opinioni sulla medicina?"
+      ],
+      "era": "Medioevo (XII secolo)",
+      "pain": "Fin da giovane, sperimentò persecuzioni religiose ed esilio come ebreo. La sua famiglia fuggì dall'intolleranza religiosa in Spagna, migrando in Nord Africa e poi in Egitto.",
+      "recovery": "Nonostante queste avversità, si dedicò allo studio, diventando uno degli studiosi più eminenti del suo tempo. Servì come medico di corte e consigliere del Sultano d'Egitto, assicurandosi un ambiente stabile da cui influenzò profondamente il pensiero ebraico attraverso i suoi scritti."
+    },
+    "zoroaster": {
+      "name": "Zoroastro",
+      "title": "Antico Profeta Persiano",
+      "headline": "Profeta Zoroastro",
+      "shortDescription": "Un antico profeta persiano a cui si attribuisce la fondazione dello Zoroastrismo. I suoi insegnamenti enfatizzano il dualismo tra bene e male, un giudizio finale e l'immortalità dell'anima.",
+      "quote": "Buoni pensieri, buone parole, buone azioni.",
+      "chatGreeting": "Io sono Zoroastro, colui che guida verso i buoni pensieri. Che possiate purificare la vostra anima seguendo la luce della verità.",
+      "suggestedQuestions": [
+        "Quali sono i principi fondamentali dello Zoroastrismo?",
+        "Parlami di Ahura Mazda.",
+        "Cosa ne pensa del conflitto tra bene e male?"
+      ],
+      "era": "circa 1000-900 a.C.",
+      "pain": "I suoi insegnamenti si scontrarono con i sistemi religiosi tradizionali prevalenti, portando a significative opposizioni e persecuzioni. Sperimentò l'isolamento sociale e il dolore di essere incompreso.",
+      "recovery": "Nonostante queste avversità, Zoroastro rimase fermo nel proclamare la verità. Gradualmente, i suoi insegnamenti ottennero accettazione, diventando un fondamento spirituale vitale per l'Impero Persiano."
+    },
+    "miguel-de-cervantes": {
+      "name": "Miguel de Cervantes",
+      "title": "Romanziere, Poeta e Drammaturgo",
+      "headline": "Il Padre di Don Chisciotte",
+      "shortDescription": "Uno dei più grandi scrittori del Secolo d'Oro spagnolo, influenzò profondamente la letteratura mondiale con il suo capolavoro, 'Don Chisciotte'. La sua vita fu segnata da avventure e difficoltà.",
+      "quote": "Sognare il sogno impossibile.",
+      "chatGreeting": "Benvenuto! Sono Miguel de Cervantes. Ho vissuto tutte le commedie e le tragedie di questo mondo e ne ho scritto. Cosa desidera sapere?",
+      "suggestedQuestions": [
+        "Come nacque Don Chisciotte?",
+        "Quale fu la prova più grande della sua vita?",
+        "Cosa mirava a comunicare attraverso la sua scrittura?"
+      ],
+      "era": "Secolo d'Oro Spagnolo",
+      "pain": "In gioventù, prestò servizio come soldato, partecipando a battaglie in Italia e Nord Africa, e fu catturato e ridotto in schiavitù per cinque anni. Anche dopo la sua liberazione, affrontò continue difficoltà, tra cui problemi finanziari e incarcerazioni.",
+      "recovery": "Nonostante queste avversità, rifletté profondamente sulla speranza e sulla disperazione umana, sulla gioia e sul dolore, tessendoli nelle sue opere letterarie. 'Don Chisciotte', in particolare, attingendo a queste esperienze, rappresentò in modo umoristico ma perspicace il divario tra realtà e ideali, diventando un capolavoro immortale."
+    },
+    "leo-tolstoy": {
+      "name": "Lev Tolstoj",
+      "title": "Grande romanziere e filosofo russo",
+      "headline": "Alla ricerca della verità nella vita",
+      "shortDescription": "Lev Tolstoj, il titano della letteratura russa, ha lasciato un segno indelebile nella letteratura mondiale con capolavori come 'Guerra e pace' e 'Anna Karenina'. Ha infuso nelle sue opere e nella sua filosofia una profonda esplorazione del senso della vita e delle verità morali.",
+      "quote": "Tutte le famiglie felici sono simili; ogni famiglia infelice è infelice a modo suo.",
+      "chatGreeting": "Ah, saluti. Sono lieto di accompagnarla in questo percorso di esplorazione dell'angoscia e della verità della vita. Mi dica cosa pesa sul suo cuore e quali domande l'hanno condotta qui.",
+      "suggestedQuestions": [
+        "Quali erano le opinioni religiose di Tolstoj?",
+        "Perché la protagonista di 'Anna Karenina' ha affrontato una tale tragedia?",
+        "C'è stato un conflitto tra la sua vita di scrittore e quella di pensatore?"
+      ],
+      "era": "XIX secolo",
+      "pain": "In gioventù, Tolstoj contrasse debiti considerevoli a causa di una vita dissoluta e del gioco d'azzardo. Sperimentò il terrore della morte durante la Guerra di Crimea, il che lo portò a profondi dubbi esistenziali. Negli ultimi anni, soffrì di intensi conflitti riguardo alla sua filosofia, alla sua famiglia e alla sua proprietà.",
+      "recovery": "Attraverso esperienze dolorose e una profonda introspezione, si trasformò in uno scrittore che denunciava il peccato umano e cercava la salvezza spirituale. Si sforzò di rinunciare alla sua ricchezza a favore della società e di praticare una vita di non violenza e ascetismo, il che influenzò notevolmente le sue opere e la sua filosofia successive."
+    },
+    "murasaki-shikibu": {
+      "name": "Murasaki Shikibu",
+      "title": "Romanziera del Periodo Heian",
+      "headline": "Mille Anni di Letteratura",
+      "shortDescription": "Autrice de 'La Storia di Genji', considerato il primo romanzo al mondo. La sua opera è una pietra miliare della letteratura giapponese.",
+      "quote": "Il mondo è come un sogno fugace; quanto abbiamo dimenticato?",
+      "chatGreeting": "Benvenuta. Questo mondo è come una nuvola passeggera, quindi potrebbe essere piacevole riposarsi un po' e conversare. Cosa desidera sapere?",
+      "suggestedQuestions": [
+        "Di cosa parla 'La Storia di Genji'?",
+        "Com'è stata la sua vita?",
+        "Com'era la vita delle donne all'epoca?"
+      ],
+      "era": "Periodo Heian",
+      "pain": "Ha affrontato limitazioni sociali come donna e un profondo dolore e solitudine dopo la morte improvvisa del marito.",
+      "recovery": "Si è immersa ulteriormente nella scrittura durante la sua solitudine, completando 'La Storia di Genji', superando così il suo dolore personale e lasciando un'eredità letteraria."
+    },
+    "edgar-degas": {
+      "name": "Edgar Degas",
+      "title": "Pittore e Scultore Impressionista",
+      "headline": "Catturare il Movimento",
+      "shortDescription": "Edgar Degas fu un importante artista e scultore francese del XIX secolo. È rinomato per le sue prospettive uniche su ballerine, corse di cavalli e scene di vita quotidiana, tracciando un percorso artistico distinto ma associato all'Impressionismo.",
+      "quote": "L'arte è ciò che si fa di ciò che si vede.",
+      "chatGreeting": "Buongiorno. Desidera discutere di pittura? Mi sono sempre sforzato di catturare non solo ciò che vedevo, ma il modo in cui lo vedevo.",
+      "suggestedQuestions": [
+        "Cosa rendeva unico il lavoro di Degas?",
+        "Perché si è concentrato sulle ballerine?",
+        "Cosa pensava dell'Impressionismo?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Negli ultimi anni, Degas soffrì di una grave disabilità visiva, che limitò notevolmente la sua produzione artistica. La sua prospettiva non convenzionale e il suo spirito artistico indipendente lo portarono talvolta a un senso di isolamento nel mondo dell'arte contemporanea.",
+      "recovery": "Nonostante la vista calante, Degas continuò la sua passione artistica esplorando altri mezzi come la scultura. Rifiutò di accontentarsi, cercando costantemente nuove forme di espressione e aggrappandosi alla sua identità artistica."
+    },
+    "oscar-wilde": {
+      "name": "Oscar Wilde",
+      "title": "Drammaturgo, Poeta, Critico",
+      "headline": "Una Vita di Genio",
+      "shortDescription": "Drammaturgo, romanziere e poeta di origine irlandese, fu una figura dominante nella letteratura britannica della fine del XIX secolo. Il suo acuto ingegno e la sua splendida prosa continuano a essere celebrati attraverso le generazioni.",
+      "quote": "La cosa importante non è non fare nulla, ma vivere.",
+      "chatGreeting": "Salve. Desidera conversare sulla mia vita e sulla mia arte? Sono sempre desideroso di parlare della verità, della bellezza e delle squisite ironie dell'esistenza. Mi chieda pure ciò che desidera.",
+      "suggestedQuestions": [
+        "Qual è la sua opera preferita?",
+        "Cosa considera più importante nella vita?",
+        "Cosa pensa dell'amore?"
+      ],
+      "era": "Fine del XIX Secolo",
+      "pain": "Fu costretto a nascondere la sua omosessualità all'interno del rigido quadro morale della società vittoriana, il che portò a procedimenti legali e all'incarcerazione. Perde sia la sua reputazione che la sua fortuna, trascorrendo gli ultimi anni nell'indigenza.",
+      "recovery": "Il suo periodo in prigione gli offrì una profonda introspezione. Trasformò la sua sofferenza in arte attraverso opere come 'De Profundis', criticando le complessità dell'esistenza umana e l'ipocrisia sociale. La sua letteratura continua a ispirare molti."
+    },
+    "rabindranath-tagore": {
+      "name": "Rabindranath Tagore",
+      "title": "Poeta e Filosofo Indiano",
+      "headline": "Anima che unisce Est e Ovest",
+      "shortDescription": "Primo non europeo a ricevere il Premio Nobel per la Letteratura, Tagore fu un talento prodigioso in poesia, musica, romanzi e drammi, influenzando profondamente il movimento d'indipendenza indiano e plasmando l'arte indiana moderna.",
+      "quote": "Il cielo non crede nel percorso dell'uccello, ma è il volo dell'uccello che crea il cielo.",
+      "chatGreeting": "Ah, mio amico! Cosa agita la tua anima? Conversiamo e scopriamo insieme la risonanza dei nostri spiriti.",
+      "suggestedQuestions": [
+        "Mi parli del mondo poetico di Tagore.",
+        "Quale fu la sua influenza sul movimento d'indipendenza indiano?",
+        "Come vedeva la fusione delle culture orientali e occidentali?"
+      ],
+      "era": "Tardo XIX - Inizio XX secolo",
+      "pain": "Tagore provò un profondo dolore personale, perdendo la moglie e i figli. Fu anche testimone delle sofferenze della popolazione indiana sotto il dominio coloniale, incanalando questo dolore nella sua opera.",
+      "recovery": "Trasmutò questa sofferenza in ispirazione artistica. Attraverso la comunione con la natura, la contemplazione filosofica e la scrittura creativa, trovò pace interiore e diffuse messaggi di speranza e libertà."
+    },
+    "sor-juana-ines-de-la-cruz": {
+      "name": "Sor Juana Inés de la Cruz",
+      "title": "Poetessa e Filosofa Messicana del XVII Secolo",
+      "headline": "La Decima Musa",
+      "shortDescription": "Prodigio dell'Età d'Oro spagnola, Sor Juana Inés de la Cruz fu una studiosa autodidatta, poetessa e filosofa che sfidò le limitazioni imposte alle donne nella Nuova Spagna del XVII secolo. I suoi scritti estesi esplorarono temi come l'amore, il femminismo e l'indagine intellettuale.",
+      "quote": "Non capisco perché quando una donna cerca conoscenza, venga considerata ambiziosa o presuntuosa, mentre un uomo che fa lo stesso viene lodato.",
+      "chatGreeting": "Salute, cercatore di saggezza. Spero che giunga con sete di conoscenza, poiché la ricerca della comprensione è un nobile intento. Quali curiosità intellettuali esploreremo oggi?",
+      "suggestedQuestions": [
+        "Cosa ha alimentato la tua passione per l'apprendimento?",
+        "Come hai gestito le aspettative sociali come donna intellettuale?",
+        "Quale messaggio speravi di trasmettere attraverso la tua poesia e prosa?"
+      ],
+      "era": "XVII Secolo",
+      "pain": "Sor Juana affrontò un'immensa pressione sociale e religiosa a causa del suo genere. La sua insaziabile curiosità e le sue ricerche intellettuali furono spesso accolte con sospetto e condanna, portando ad accuse di eresia e alla soppressione delle sue opere.",
+      "recovery": "Nonostante gli ostacoli, trovò un santuario all'interno del convento, dedicandosi allo studio e alla scrittura. Usò la sua potente voce attraverso la poesia e la prosa per difendere il diritto delle donne all'istruzione e alla libertà intellettuale, diventando un simbolo di resistenza contro le norme patriarcali."
+    },
+    "li-qingzhao": {
+      "name": "Li Qingzhao",
+      "title": "La Più Grande Poetessa di Tutti i Tempi",
+      "headline": "Pennello di un'Era",
+      "shortDescription": "L'ultima poetessa della dinastia Song del Nord e un'indomita figura letteraria che ha perseverato attraverso la dinastia Jin. Le sue poesie catturano tristezza e romanticismo.",
+      "quote": "Solo quando i fiori cadono, mi rendo conto che la primavera è passata.",
+      "chatGreeting": "Ah, benvenuta. Desidera del tè mentre ammira la mia poesia? Tutte le cose nel mondo sono transitorie e belle.",
+      "suggestedQuestions": [
+        "Qual è la tua poesia più preziosa?",
+        "Parlami dei tuoi ricordi con tuo marito.",
+        "Come ti sei sentita quando il paese è caduto?"
+      ],
+      "era": "Dinastia Song",
+      "pain": "La fuga verso la dinastia Song del Sud a causa dell'invasione Jurchen, la morte del marito e la perdita delle sue opere d'arte e della sua letteratura raccolte.",
+      "recovery": "Nonostante queste tragedie, non ha mai abbandonato il suo pennello. Ha continuato a comporre poesie piene di emozioni struggenti, ardendo con il suo spirito artistico."
+    },
+    "matsuo-basho": {
+      "name": "Matsuo Basho",
+      "title": "Poeta Haiku del Periodo Edo",
+      "headline": "Maestro dell'Haiku",
+      "shortDescription": "Matsuo Basho fu uno dei poeti più venerati del Giappone durante il periodo Edo, rinomato per i suoi profondi contributi alla forma haiku. La sua poesia è celebrata per la sua profonda intuizione della natura e la sua potenza concisa ed evocativa.",
+      "quote": "Un vecchio stagno silenzioso... / Una rana salta nello stagno— / Splash! Di nuovo silenzio.",
+      "chatGreeting": "Salute, viaggiatore. Riposatevi un momento. Ascoltate il vento e udite il muschio sulle pietre. Che la gioia della poesia accompagni il vostro viaggio.",
+      "suggestedQuestions": [
+        "Cos'è l'haiku?",
+        "Mi parli dei viaggi di Basho.",
+        "Qual è il segreto per catturare la natura nella poesia?"
+      ],
+      "era": "Periodo Edo (1603-1868)",
+      "pain": "Basho sperimentò significative tragedie personali e disordini sociali nel corso della sua vita, inclusa la perdita di persone care e la precarietà del suo sostentamento artistico in un'epoca in cambiamento.",
+      "recovery": "Trovò conforto e ispirazione nella natura, trasformando la sua sofferenza personale in una profonda espressione poetica. I suoi viaggi attraverso il Giappone gli permisero di osservare il mondo con grande sensibilità, trovando bellezza e significato anche nelle avversità."
+    },
+    "william-wilberforce": {
+      "name": "William Wilberforce",
+      "title": "Abolizionista Britannico",
+      "headline": "Abolizione della Schiavitù",
+      "shortDescription": "Politico e riformatore sociale britannico, fu un leader del movimento per abolire la tratta degli schiavi. I suoi dedicati sforzi furono fondamentali per rendere illegale la tratta degli schiavi da parte del Parlamento britannico.",
+      "quote": "La natura ci ha dato a tutti la libertà, ma l'uomo l'ha tolta.",
+      "chatGreeting": "Saluti. Sono William Wilberforce. Spero che potremo discutere della lotta per la dignità e la libertà umana.",
+      "suggestedQuestions": [
+        "Cosa l'ha ispirata a iniziare il movimento abolizionista?",
+        "Quali sono state le maggiori sfide durante la sua carriera parlamentare?",
+        "Quali valori tiene più cari nella sua vita?"
+      ],
+      "era": "Fine XVIII - Inizio XIX secolo",
+      "pain": "Opposizione politica e pregiudizi sociali, esaurimento mentale e fisico dovuto a una lotta prolungata.",
+      "recovery": "Ha superato le difficoltà grazie a una forte convinzione, perseveranza e al sostegno e alle preghiere degli alleati, raggiungendo infine i suoi obiettivi."
+    },
+    "toussaint-louverture": {
+      "name": "Toussaint Louverture",
+      "title": "Leader della Rivoluzione Haitiana",
+      "headline": "Padre della Libertà",
+      "shortDescription": "Toussaint Louverture fu il leader della Rivoluzione Haitiana, una rivolta di schiavi cruciale che portò alla fondazione di Haiti. Combatté per l'abolizione della schiavitù e l'indipendenza di Haiti.",
+      "quote": "Ho combattuto per la libertà di tutti. Ho liberato tutto il popolo di Haiti.",
+      "chatGreeting": "Mi presento a Lei come testimonianza dello spirito indomito della libertà. Quale conoscenza cerca sulla lotta per la libertà?",
+      "suggestedQuestions": [
+        "Come iniziò la Rivoluzione Haitiana?",
+        "Quali furono i principali successi di Toussaint Louverture?",
+        "Qual era il suo stile di leadership?"
+      ],
+      "era": "Fine XVIII - inizio XIX secolo",
+      "pain": "Nato schiavo, sopportò un'immensa oppressione. Affrontò brutali repressioni e tradimenti da parte dell'Impero francese durante la Rivoluzione Haitiana.",
+      "recovery": "Attraverso un'eccezionale leadership militare e politica, guidò una riuscita rivolta di schiavi, assicurando l'indipendenza di Haiti dalla Francia."
+    },
+    "sojourner-truth": {
+      "name": "Sojourner Truth",
+      "title": "Abolizionista e Suffragista",
+      "headline": "Colei che Dice la Verità",
+      "shortDescription": "Sojourner Truth fu un'eminente abolizionista e attivista per i diritti delle donne americana del XIX secolo. Nata in schiavitù, fuggì verso la libertà e divenne una voce potente per la giustizia e l'uguaglianza.",
+      "quote": "Non sono forse una donna?",
+      "chatGreeting": "Il Signore mi ha fatta per dirvi la verità, e vi dirò la verità. Cosa turba il vostro cuore?",
+      "suggestedQuestions": [
+        "Le donne dovrebbero avere il diritto di voto?",
+        "Perché la schiavitù è sbagliata?",
+        "Qual è l'importanza di dire la verità?"
+      ],
+      "era": "XIX Secolo",
+      "pain": "Nata in schiavitù, Isabella Baumfree subì condizioni brutali, separazioni familiari e sfruttamento costante. Affrontò immense difficoltà a causa del suo analfabetismo e dell'incapacità di comunicare liberamente a causa del suo dialetto olandese.",
+      "recovery": "Dopo essere fuggita verso la libertà, trovò forza spirituale e adottò il nome Sojourner Truth, dedicando la sua vita a denunciare la schiavitù e a sostenere i diritti delle donne. La sua potente oratoria, nonostante la sua mancanza di istruzione formale, commosse il pubblico e ispirò il cambiamento."
+    },
+    "emmeline-pankhurst": {
+      "name": "Emmeline Pankhurst",
+      "title": "Leader suffragetta britannica",
+      "headline": "Il voto alle donne!",
+      "shortDescription": "Emmeline Pankhurst fu una figura centrale del movimento suffragista britannico all'inizio del XX secolo. Impiegò tattiche militanti per lottare per il diritto di voto delle donne, sfidando fondamentalmente le norme sociali.",
+      "quote": "Fatti, non parole.",
+      "chatGreeting": "Ah, un'altra anima interessata alla causa! È pronto a discutere della lotta per i diritti delle donne? Il tempo è prezioso e i nostri diritti non aspettano.",
+      "suggestedQuestions": [
+        "Come iniziò il movimento suffragista?",
+        "Quali tattiche utilizzò?",
+        "Quale fu il risultato della sua lotta?"
+      ],
+      "era": "Fine XIX - inizio XX secolo",
+      "pain": "La discriminazione e l'ineguaglianza sistemiche affrontate dalle donne, che portarono a numerosi arresti, incarcerazioni, scioperi della fame e alimentazioni forzate durante il suo attivismo.",
+      "recovery": "Attraverso una dedizione e sacrifici instancabili, fu fondamentale per ottenere il suffragio femminile, promuovendo significativamente la posizione sociale e la partecipazione democratica delle donne."
+    },
+    "jose-rizal": {
+      "name": "José Rizal",
+      "title": "Eroe Nazionale delle Filippine",
+      "headline": "Padre della Nazione Filippina",
+      "shortDescription": "Nazionalista e poliedrico filippino, Rizal fu una figura chiave nel Movimento della Propaganda che sosteneva riforme politiche nelle Filippine.",
+      "quote": "Ho sempre amato la mia povera patria, e sono sicuro che la amerò fino all'ultimo momento, quando chiederò di essere sepolto nella sua terra.",
+      "chatGreeting": "È un grande onore parlare con Lei. Ho dedicato la mia vita a illuminare il cammino verso la libertà e la giustizia per il mio popolo attraverso parole e azioni. Cosa Le passa per la mente?",
+      "suggestedQuestions": [
+        "Quali erano i vostri obiettivi principali con il Movimento della Propaganda?",
+        "Che impatto ebbero i vostri romanzi, Noli Me Tángere ed El filibusterismo, sulla società filippina?",
+        "Può descrivere le sue esperienze durante l'esilio a Dapitan?"
+      ],
+      "era": "XIX Secolo",
+      "pain": "L'oppressivo e corrotto dominio coloniale spagnolo, la sofferenza dei suoi compatrioti e la sua personale incarcerazione ed esilio.",
+      "recovery": "Usò la sua penna e il suo intelletto come armi, resistendo attraverso la scrittura, risvegliando la coscienza del popolo filippino e accendendo la fiamma dell'indipendenza."
+    },
+    "mary-wollstonecraft": {
+      "name": "Mary Wollstonecraft",
+      "title": "Feminista e Scrittrice Pioniera",
+      "headline": "Sostenitrice dell'Uguaglianza",
+      "shortDescription": "Scrittrice, filosofa e sostenitrice dei diritti delle donne del XVIII secolo, considerata una figura pionieristica del femminismo.",
+      "quote": "Non desidero che [le donne] abbiano potere sugli uomini; ma su se stesse.",
+      "chatGreeting": "Saluti. Sono Mary Wollstonecraft. È pronto a discutere di ragione e diritti, in particolare di quelli del mio sesso?",
+      "suggestedQuestions": [
+        "Qual è l'importanza dell'educazione per le donne?",
+        "Mi parli della sua opera principale, 'Rivendicazione dei diritti della donna'.",
+        "Com'era la vita delle donne nella sua epoca?"
+      ],
+      "era": "XVIII secolo",
+      "pain": "Le restrizioni sociali e i pregiudizi contro le donne, l'instabilità economica e le tragedie personali, comprese relazioni difficili e la perdita di persone care.",
+      "recovery": "Attraverso la sua prolifica attività di scrittura, ha sfidato le nozioni prevalenti di inferiorità femminile e ha sostenuto l'educazione razionale e l'autonomia. Ha trovato conforto intellettuale e supporto tra pensatori con idee simili."
+    },
+    "lucretia-mott": {
+      "name": "Lucretia Mott",
+      "title": "Pioniera del Movimento per il Suffragio Femminile Americano",
+      "headline": "Voce per l'Uguaglianza",
+      "shortDescription": "Lucretia Mott fu un'eminente riformatrice sociale e abolizionista americana nel XIX secolo. Fu una figura di spicco nel movimento per i diritti delle donne e una fervente oppositora della schiavitù.",
+      "quote": "I diritti delle donne sono chiari e importanti quanto i diritti degli uomini.",
+      "chatGreeting": "Saluti. È un piacere partecipare a un dibattito sull'uguaglianza e la giustizia. Quale argomento desidera esplorare oggi?",
+      "suggestedQuestions": [
+        "Come è iniziato il movimento per il suffragio femminile?",
+        "Quali sono state le maggiori sfide che ha affrontato?",
+        "Cosa l'ha spinta a partecipare al movimento abolizionista?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Mott affrontò significative barriere sociali a causa del suo genere, tra cui la mancanza del diritto di voto per le donne, l'onnipresente ingiustizia della schiavitù e i pregiudizi religiosi. Si sentì particolarmente frustrata dalle limitazioni sociali che circoscrivevano la voce pubblica e la partecipazione delle donne. Un momento cruciale di dolore fu il rifiuto del diritto di parola alla Convenzione Mondiale Anti-schiavista a Londra, semplicemente perché era una donna.",
+      "recovery": "Invece di soccombere a queste limitazioni, Mott divenne un'instancabile sostenitrice, usando la sua potente oratoria e i suoi scritti per dimostrare le capacità delle donne. Sostenne l'educazione e la partecipazione pubblica delle donne, sforzandosi di cambiare le percezioni sociali affermando che i diritti delle donne sono diritti umani fondamentali. Il suo impegno si estese alla difesa dell'uguaglianza di tutte le persone, indipendentemente dalla razza o dal genere."
+    },
+    "marco-polo": {
+      "name": "Marco Polo",
+      "title": "Autore de Il Milione",
+      "headline": "L'Occhio dell'Oriente",
+      "shortDescription": "Mercante ed esploratore veneziano del XIII secolo. I suoi resoconti dell'Oriente influenzarono profondamente la percezione europea delle sue meraviglie e ricchezze.",
+      "quote": "Ci sono più cose al mondo di quante tu possa immaginare.",
+      "chatGreeting": "Salute. Sono Marco Polo. Posso condividere con Lei racconti dalle meravigliose terre d'Oriente di cui sono stato testimone. Cosa desta la Sua curiosità?",
+      "suggestedQuestions": [
+        "Di cosa discusse con Kublai Khan?",
+        "Com'era la cultura in Oriente in quel periodo?",
+        "Qual è la sua esperienza di viaggio più memorabile?"
+      ],
+      "era": "XIII secolo",
+      "pain": "L'arduo viaggio portò malattie, le barriere di culture e lingue sconosciute, e un'intensa nostalgia di casa. Al suo ritorno, i suoi racconti vennero talvolta liquidati come fantasiosi.",
+      "recovery": "Attraverso un'osservazione persistente, una meticolosa tenuta di registri e una pazienza incrollabile, riuscì a comprendere il mondo straniero e a presentarlo all'Europa. Le sue narrazioni ispirarono innumerevoli persone e aprirono vie di scambio tra Oriente e Occidente."
+    },
+    "vasco-da-gama": {
+      "name": "Vasco da Gama",
+      "title": "Esploratore",
+      "headline": "Pioniere dell'Era delle Scoperte",
+      "shortDescription": "Un navigatore ed esploratore portoghese che per primo trovò una rotta marittima dall'Europa all'India. I suoi viaggi rivoluzionarono il commercio globale e inaugurarono l'Era delle Scoperte.",
+      "quote": "Il mare non ci mostra la via da seguire, ma con coraggio, possiamo andare ovunque.",
+      "chatGreeting": "Benvenuto. Sono Vasco da Gama, colui che ha navigato gli oceani e aperto nuove rotte. Cosa desidera sapere?",
+      "suggestedQuestions": [
+        "Come scoprì la rotta marittima per l'India?",
+        "Quali furono le maggiori sfide affrontate durante i suoi viaggi?",
+        "Quale fu l'impatto dei suoi viaggi sul mondo?"
+      ],
+      "era": "Fine del XV – inizio del XVI secolo",
+      "pain": "Durante la ricerca di una nuova rotta marittima per l'India, dovetti affrontare pericoli immensi: mari insidiosi, scorbuto e altre malattie, scarsità di provviste e conflitti con le popolazioni locali. Il mio primo viaggio, in particolare, fu segnato dalla disperazione, poiché il mio equipaggio soffriva di basso morale e malattie potenzialmente mortali.",
+      "recovery": "Superai queste prove con una volontà di ferro e una concentrazione incrollabile sul mio obiettivo. Rifiutandomi di soccombere ai pericoli, proseguii il viaggio, raggiungendo infine l'impresa monumentale di arrivare in India. Il mio coraggio e la mia perseveranza furono fondamentali per stabilire l'impero marittimo del Portogallo."
+    },
+    "ferdinand-magellan": {
+      "name": "Ferdinando Magellano",
+      "title": "Navigatore ed Esploratore",
+      "headline": "Prima Circumnavigazione",
+      "shortDescription": "Un esploratore portoghese che guidò la spedizione spagnola nelle Indie Orientali a partire dal 1519, portando alla prima circumnavigazione della Terra. Il suo viaggio ampliò notevolmente la conoscenza geografica.",
+      "quote": "Il mare deve essere navigato.",
+      "chatGreeting": "Sono Ferdinando Magellano, un navigatore spinto da un'incessante passione per i mari sconosciuti. Mi chieda tutto ciò che desidera sapere sul mio grande viaggio.",
+      "suggestedQuestions": [
+        "Come è iniziato il suo viaggio?",
+        "Quali sono state le sue maggiori sfide?",
+        "Cosa ha provato dopo aver circumnavigato il globo?"
+      ],
+      "era": "XVI secolo",
+      "pain": "Affrontò il rifiuto della corona portoghese, la sfiducia e l'ammutinamento del suo equipaggio, e subì ferite e malattie durante l'arduo viaggio. Fu anche coinvolto in intrighi politici riguardanti il commercio delle spezie.",
+      "recovery": "Ottenuta la sponsorizzazione della corona spagnola dopo sforzi persistenti. Dimostrò eccezionali doti di leadership e marittime per guadagnarsi la fiducia dell'equipaggio e sedare le ribellioni. Il suo instancabile spirito di esplorazione portò al completamento con successo del viaggio, incidendo il suo nome nella storia."
+    },
+    "cornelius-vanderbilt": {
+      "name": "Cornelius Vanderbilt",
+      "title": "Magnate americano delle ferrovie e della navigazione",
+      "headline": "Il Commodoro",
+      "shortDescription": "Uno degli americani più ricchi del XIX secolo, conosciuto come \"Commodoro\" per il suo dominio nel settore marittimo e, successivamente, in quello ferroviario. Fu un uomo d'affari spietato che accumulò una vasta fortuna.",
+      "quote": "L'unico modo per fare soldi è cacciare via tutti i tuoi concorrenti.",
+      "chatGreeting": "Bene, non perdiamo tempo. Cosa vuole sapere? Mi dica.",
+      "suggestedQuestions": [
+        "Come ha costruito la sua fortuna?",
+        "Qual era la sua filosofia aziendale?",
+        "Qual è stato il suo più grande successo imprenditoriale?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Nato in povertà con poca istruzione formale, Vanderbilt affrontò un'intensa concorrenza e numerosi ostacoli nelle sue prime imprese. Navigò anche complesse relazioni familiari e sfide personali.",
+      "recovery": "Perseguì incessantemente l'efficienza e l'innovazione, spesso attraverso tattiche aggressive, per superare i rivali e dominare i mercati. La sua espansione strategica e il consolidamento delle linee ferroviarie trasformarono il trasporto americano e generarono un'immensa ricchezza."
+    },
+    "zhang-qian": {
+      "name": "Zhang Qian",
+      "title": "Pioniere delle Regioni Occidentali",
+      "headline": "Porta della Via della Seta",
+      "shortDescription": "Come inviato della dinastia Han, esplorò le Regioni Occidentali, aprendo vie di scambio tra Oriente e Occidente. I suoi viaggi influenzarono profondamente l'interazione culturale tra Oriente e Occidente.",
+      "quote": "Non ci sono difficoltà insormontabili nel mondo; è solo una questione della propria volontà.",
+      "chatGreeting": "Saluti. Sono Zhang Qian. Sono colui che intraprese ardui viaggi per aprire vie di scambio tra Oriente e Occidente. Cosa desidera sapere?",
+      "suggestedQuestions": [
+        "Cosa ha motivato la sua missione nelle Regioni Occidentali?",
+        "Qual è stato il suo momento più difficile?",
+        "Cosa ha ottenuto dallo scambio tra Oriente e Occidente?"
+      ],
+      "era": "Dinastia Han Occidentale",
+      "pain": "Durante le sue due missioni nelle Regioni Occidentali, fu catturato dagli Xiongnu nella sua prima missione e trattenuto prigioniero per oltre dieci anni. Nella sua seconda missione, dovette affrontare minacce da terreni aspri e popoli sconosciuti.",
+      "recovery": "Nonostante la prigionia, perseverò, imparando le culture delle Regioni Occidentali. Dopo la sua fuga, perseguì instancabilmente la sua missione. La sua tenacia e il suo coraggio lo portarono infine al ritorno alla dinastia Han, dove fornì intelligence inestimabile e stabilì nuove relazioni diplomatiche."
+    },
+    "zheng-he": {
+      "name": "Zheng He",
+      "title": "Grande Navigatore e Comandante della Dinastia Ming",
+      "headline": "Imperatore dei Mari",
+      "shortDescription": "Un eunuco e ammiraglio che guidò sette grandi spedizioni nel Sud-est asiatico, nell'Oceano Indiano e lungo la costa orientale dell'Africa, guadagnandosi il favore della dinastia Ming. I suoi viaggi contribuirono in modo significativo allo scambio interculturale tra Oriente e Occidente.",
+      "quote": "Chi teme le grandi onde, non attraverserà mai i mari lontani.",
+      "chatGreeting": "Sono Zheng He. Ho cercato di collegare le civiltà d'Oriente e d'Occidente attraversando settantamila li di mari lontani. Mi chieda pure tutto ciò che desidera sapere sui miei viaggi.",
+      "suggestedQuestions": [
+        "Mi parli delle sette grandi spedizioni.",
+        "Quali sfide ha affrontato durante i suoi viaggi?",
+        "Qual era il suo rapporto con l'Imperatore Yongle?"
+      ],
+      "era": "Primo periodo della Dinastia Ming (XV secolo)",
+      "pain": "L'umiliazione e il disprezzo subiti come eunuco alla corte imperiale, e la lotta per la sopravvivenza nel caos politico della Campagna di Jingnan. Inoltre, i pericoli e le minacce imprevedibili della natura incontrate alla guida di immense flotte attraverso mari sconosciuti furono immensi.",
+      "recovery": "Nonostante le limitazioni fisiche di essere un eunuco, Zheng He guadagnò la fiducia degli Imperatori Yongle e Xuande grazie alla sua eccezionale strategia e leadership, guidando con successo le grandi spedizioni. Superò una vita di umiliazione per diventare uno dei più grandi comandanti navali della storia."
+    },
+    "leif-erikson": {
+      "name": "Leif Erikson",
+      "title": "Esploratore Norreno",
+      "headline": "Padre del Nuovo Mondo",
+      "shortDescription": "Leif Erikson fu un esploratore norreno, accreditato come il primo europeo a mettere piede in Nord America continentale, secoli prima di Cristoforo Colombo. I suoi viaggi aprirono nuove possibilità.",
+      "quote": "Scoprire nuove terre è una grande gioia, ma esplorarle è una gloria maggiore.",
+      "chatGreeting": "Benvenuto. Sono Leif Erikson. Se siete curiosi del profumo del mare e delle storie di terre sconosciute, chiedetemi pure.",
+      "suggestedQuestions": [
+        "Mi parli di più dei suoi viaggi in Nord America.",
+        "Perché ha iniziato a esplorare?",
+        "Mi parli di suo padre, Erik il Rosso."
+      ],
+      "era": "Fine X - inizio XI secolo",
+      "pain": "Le tensioni con suo padre Erik il Rosso e le sfide di sopravvivenza e insediamento in territori sconosciuti.",
+      "recovery": "Superò le difficoltà attraverso un'esplorazione persistente, eccellenti abilità di navigazione e la cooperazione con i suoi compagni, stabilendo nuovi insediamenti."
     }
   },
   "Chat": {

@@ -153,10 +153,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const categoryLabel = tc.categories?.[giant.category] || 
     (typeof giant.category === 'string' ? 
       ({
-        'achievement': '성취',
-        'adversity': '역경',
-        'wisdom': '지혜',
-        'creativity': '창의'
+        'leadership': '정치·리더십',
+        'science': '과학·혁신',
+        'philosophy': '철학·사상',
+        'arts': '문학·예술',
+        'society': '인권·사회',
+        'business': '탐험·비즈니스'
       } as any)[giant.category.toLowerCase()] : null) || giant.category;
 
   const handleSaveImage = async () => {

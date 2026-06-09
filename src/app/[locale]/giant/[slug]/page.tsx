@@ -173,10 +173,12 @@ export default async function GiantDetailPage({ params }: Props) {
 
   const BASE_URL = 'https://www.giantswisdom.com';
   const categoryTopics: Record<string, string[]> = {
-    'achievement': ['Leadership', 'Achievement', 'Strategy'],
-    'adversity': ['Resilience', 'Courage', 'Perseverance'],
-    'wisdom': ['Philosophy', 'Wisdom', 'Ethics'],
-    'creativity': ['Creativity', 'Art', 'Innovation'],
+    'leadership': ['Leadership', 'Politics', 'Governance', 'Strategy'],
+    'science': ['Science', 'Innovation', 'Technology', 'Mathematics'],
+    'philosophy': ['Philosophy', 'Wisdom', 'Ethics', 'Spirituality'],
+    'arts': ['Arts', 'Literature', 'Music', 'Creativity'],
+    'society': ['Society', 'Human Rights', 'Activism', 'Justice'],
+    'business': ['Business', 'Exploration', 'Entrepreneurship', 'Trade'],
   };
   const localizedEra = giantTranslation.era || giant.era || '';
   const eraYearMatch = localizedEra.match(/\((\d{1,4})(?:[^~\-–]*)?[~\-–]\s*(\d{1,4})/);

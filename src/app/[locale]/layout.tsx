@@ -72,6 +72,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         'fr-FR': '/fr',
         'it-IT': '/it',
         'pt-BR': '/pt',
+        'ar-SA': '/ar',
+        'hi-IN': '/hi',
+        'ru-RU': '/ru',
+        'zh-CN': '/zh',
         'x-default': '/'
       }
     },
@@ -150,7 +154,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${playfair.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${playfair.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
         <link rel="stylesheet" as="style" crossOrigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet" />

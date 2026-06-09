@@ -1,58 +1,13 @@
 'use server';
 
-import { VertexAI } from '@google-cloud/vertexai';
+import { getVertexAIInstance } from './vertexai';
 import { deepPersonas } from '@/data/personas/personas';
 import { giantPersonas } from '@/data/giant-personas';
 import { giantsData } from '@/data/giants';
 import narratives from '@/data/final-narratives.json';
+import generatedPersonas from '@/data/personas/generated-personas.json';
 import fs from 'fs';
 import path from 'path';
-
-let vertexAIInstance: VertexAI | null = null;
-
-function getVertexAIInstance() {
-  if (vertexAIInstance) return vertexAIInstance;
-  
-  const projectId = process.env.GCP_PROJECT_ID || 'giantswisdom-8dc26';
-  const location = process.env.GCP_LOCATION || 'us-central1';
-  
-  // Try loading from local service account file first
-  const localKeyPath = path.resolve(process.cwd(), 'google-service-account.json');
-  let credentials;
-  
-  if (fs.existsSync(localKeyPath)) {
-    try {
-      credentials = JSON.parse(fs.readFileSync(localKeyPath, 'utf8'));
-    } catch (e) {
-      console.error("Failed to parse local google-service-account.json", e);
-    }
-  }
-  
-  // Fallback to environment variable
-  if (!credentials && process.env.GCP_SERVICE_ACCOUNT) {
-    try {
-      credentials = JSON.parse(process.env.GCP_SERVICE_ACCOUNT);
-    } catch (e) {
-      console.error("Failed to parse GCP_SERVICE_ACCOUNT environment variable", e);
-    }
-  }
-  
-  const initOptions: any = {
-    project: projectId,
-    location: location,
-  };
-  
-  if (credentials) {
-    initOptions.googleAuthOptions = {
-      credentials,
-    };
-  } else {
-    console.warn("No GCP credentials found. Vertex AI will fall back to default application credentials.");
-  }
-  
-  vertexAIInstance = new VertexAI(initOptions);
-  return vertexAIInstance;
-}
 
 /**
  * 사용자님께서 검증하신 2.5 버전 모델을 사용하는 서버 액션 함수입니다.
@@ -71,24 +26,51 @@ export async function getGiantResponse(giantSlug: string, persona: string, messa
 4. NEVER SUMMARIZE HISTORY. Don't narrate your own biography unless directly asked. Your past is a weapon for analogies, not a lecture.
 5. END WITH A SHARP QUESTION. Every reply must end with one crisp, pointed question that makes the user want to type back. Not "What do you think?" — make it specific to their situation.`;
 
-  const gp = giantPersonas.find(p => p.slug === giantSlug);
-  const deepPersona = deepPersonas[giantSlug];
   const lang = locale === 'ko' ? 'ko' : 'en';
 
   let customPersonaText = persona;
   let customRules = coreRules;
 
-  if (gp) {
-    const detail = lang === 'ko' ? gp.ko : gp.en;
+  // 1. Check Tier 1 (Highest Depth)
+  // Check manually written deepPersonas first
+  const manualDeep = deepPersonas[giantSlug];
+  // Check generated tier1 next
+  const generatedDeep = (generatedPersonas.tier1 as any[] || []).find(p => p.slug === giantSlug);
+
+  if (manualDeep) {
     customPersonaText = `
 [핵심 철학 / Core Philosophy]
-${detail.philosophy}
+${manualDeep.corePhilosophy[lang]}
 
 [소통 방식 / Communication Style]
-${detail.style}
+${manualDeep.communicationStyle[lang]}
 
 [당신이 겪은 고통 / Personal Struggles]
-${detail.struggles}
+${manualDeep.personalStruggles[lang]}
+
+[당신이 자주 하는 질문들 / Signature Questions]
+${manualDeep.signatureQuestions[lang].join('\n')}
+`;
+    customRules = `
+[ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
+1. BANNED FOREVER: Never say generic phrases like "wise choice" or act like a teacher.
+2. YOU ARE A PEER: Talk to the user as an equal.
+3. CONTEXT MIRRORING: DIRECTLY MAP your historical experience onto their modern situation using vivid analogies.
+4. ACTUAL STRUGGLES: You MUST authentically reference your [Personal Struggles] when relating to the user's pain.
+5. END WITH A SHARP QUESTION: Use your [Signature Questions] as inspiration. Make it specific to their situation.
+6. NEVER DO THESE: ${manualDeep.neverDoes.join(', ')}
+`;
+  } else if (generatedDeep) {
+    const detail = lang === 'ko' ? generatedDeep.ko : generatedDeep.en;
+    customPersonaText = `
+[핵심 철학 / Core Philosophy]
+${detail.corePhilosophy}
+
+[소통 방식 / Communication Style]
+${detail.communicationStyle}
+
+[당신이 겪은 고통 / Personal Struggles]
+${detail.personalStruggles}
 
 [당신이 자주 하는 질문들 / Signature Questions]
 ${detail.questions.join('\n')}
@@ -102,8 +84,62 @@ ${detail.questions.join('\n')}
 5. END WITH A SHARP QUESTION: Use your [Signature Questions] as inspiration. Make it specific to their situation.
 6. NEVER DO THESE: ${detail.neverDoes.join(', ')}
 `;
-    if (giantSlug === 'miyamoto-musashi') {
-      customRules += `
+  } 
+  // 2. Check Tier 2 (Medium Depth)
+  else {
+    const generatedMedium = (generatedPersonas.tier2 as any[] || []).find(p => p.slug === giantSlug);
+    const gp = giantPersonas.find(p => p.slug === giantSlug);
+
+    if (generatedMedium) {
+      const detail = lang === 'ko' ? generatedMedium.ko : generatedMedium.en;
+      customPersonaText = `
+[핵심 철학 / Core Philosophy]
+${detail.philosophy}
+
+[소통 방식 / Communication Style]
+${detail.style}
+
+[당신이 겪은 고통 / Personal Struggles]
+${detail.struggles}
+
+[대표 명언 / Famous Quote]
+${detail.quote}
+`;
+      customRules = `
+[ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
+1. BANNED FOREVER: Never say generic phrases like "wise choice" or act like a teacher.
+2. YOU ARE A PEER: Talk to the user as an equal.
+3. CONTEXT MIRRORING: DIRECTLY MAP your historical experience onto their modern situation using vivid analogies.
+4. ACTUAL STRUGGLES: You MUST authentically reference your [Personal Struggles] when relating to the user's pain.
+5. END WITH A SHARP QUESTION: Ask a question relevant to their situation.
+6. NEVER DO THESE: ${detail.neverDoes.join(', ')}
+`;
+    } else if (gp) {
+      const detail = lang === 'ko' ? gp.ko : gp.en;
+      customPersonaText = `
+[핵심 철학 / Core Philosophy]
+${detail.philosophy}
+
+[소통 방식 / Communication Style]
+${detail.style}
+
+[당신이 겪은 고통 / Personal Struggles]
+${detail.struggles}
+
+[당신이 자주 하는 질문들 / Signature Questions]
+${detail.questions.join('\n')}
+`;
+      customRules = `
+[ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
+1. BANNED FOREVER: Never say generic phrases like "wise choice" or act like a teacher.
+2. YOU ARE A PEER: Talk to the user as an equal.
+3. CONTEXT MIRRORING: DIRECTLY MAP your historical experience onto their modern situation using vivid analogies.
+4. ACTUAL STRUGGLES: You MUST authentically reference your [Personal Struggles] when relating to the user's pain.
+5. END WITH A SHARP QUESTION: Use your [Signature Questions] as inspiration. Make it specific to their situation.
+6. NEVER DO THESE: ${detail.neverDoes.join(', ')}
+`;
+      if (giantSlug === 'miyamoto-musashi') {
+        customRules += `
 [미야모토 무사시 특별 지침]
 당신은 오륜서(五輪書)의 저자 미야모토 무사시요.
 - 승패는 기술이 아니라 마음의 준비에서 갈린다.
@@ -113,77 +149,55 @@ ${detail.questions.join('\n')}
 - 절대 감정적인 동조나 장황한 설명을 하지 말고, 3문장 이내로 핵심만 단호하게 말하시오.
 - "~하오", "~이오", "~겠소" 등의 무협식 어투를 반드시 고수하시오.
 `;
-    }
-  } else if (deepPersona) {
-    customPersonaText = `
-[핵심 철학 / Core Philosophy]
-${deepPersona.corePhilosophy[lang]}
+      }
+    } 
+    // 3. Tier 3 (Basic Fallback)
+    else {
+      const ourGiant = giantsData.find(g => g.slug === giantSlug);
+      const narrative = (narratives as Record<string, any>)[giantSlug];
+      const l = locale === 'ko' ? 'ko' : 
+                locale === 'ja' ? 'ja' : 
+                locale === 'de' ? 'de' : 
+                locale === 'es' ? 'es' : 
+                locale === 'fr' ? 'fr' : 
+                locale === 'it' ? 'it' : 
+                locale === 'pt' ? 'pt' : 'en';
 
-[소통 방식 / Communication Style]
-${deepPersona.communicationStyle[lang]}
+      let trialsText = "";
+      let overcomingText = "";
+      let wisdomText = "";
+      let epicExcerpt = "";
 
-[당신이 겪은 고통 / Personal Struggles]
-${deepPersona.personalStruggles[lang]}
+      if (narrative) {
+        trialsText = narrative[`trials_${l}`] || narrative[`trials_en`] || "";
+        overcomingText = narrative[`overcoming_${l}`] || narrative[`overcoming_en`] || "";
+        
+        if (!trialsText && ourGiant) {
+          trialsText = ourGiant.pain || "";
+        }
+        if (!overcomingText && ourGiant) {
+          overcomingText = ourGiant.recovery || "";
+        }
 
-[당신이 자주 하는 질문들 / Signature Questions]
-${deepPersona.signatureQuestions[lang].join('\n')}
-`;
-    customRules = `
-[ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
-1. BANNED FOREVER: Never say generic phrases like "wise choice" or act like a teacher.
-2. YOU ARE A PEER: Talk to the user as an equal.
-3. CONTEXT MIRRORING: DIRECTLY MAP your historical experience onto their modern situation using vivid analogies.
-4. ACTUAL STRUGGLES: You MUST authentically reference your [Personal Struggles] when relating to the user's pain.
-5. END WITH A SHARP QUESTION: Use your [Signature Questions] as inspiration. Make it specific to their situation.
-6. NEVER DO THESE: ${deepPersona.neverDoes.join(', ')}
-`;
-  } else {
-    // Dynamic fallback to build rich persona using giantsData and final-narratives.json
-    const ourGiant = giantsData.find(g => g.slug === giantSlug);
-    const narrative = (narratives as Record<string, any>)[giantSlug];
-    const l = locale === 'ko' ? 'ko' : 
-              locale === 'ja' ? 'ja' : 
-              locale === 'de' ? 'de' : 
-              locale === 'es' ? 'es' : 
-              locale === 'fr' ? 'fr' : 
-              locale === 'it' ? 'it' : 
-              locale === 'pt' ? 'pt' : 'en';
+        if (Array.isArray(narrative.wisdom) && narrative.wisdom.length > 0) {
+          wisdomText = narrative.wisdom.map((w: any, idx: number) => {
+            const q = w[`quote_${l}`] || w[`quote_en`] || "";
+            const m = w[`meaning_${l}`] || w[`meaning_en`] || "";
+            return `${idx + 1}. 명언: "${q}"\n   의미: ${m}`;
+          }).join("\n");
+        }
 
-    let trialsText = "";
-    let overcomingText = "";
-    let wisdomText = "";
-    let epicExcerpt = "";
-
-    if (narrative) {
-      trialsText = narrative[`trials_${l}`] || narrative[`trials_en`] || "";
-      overcomingText = narrative[`overcoming_${l}`] || narrative[`overcoming_en`] || "";
-      
-      if (!trialsText && ourGiant) {
+        const epic = narrative[`epic_${l}`] || narrative[`epic_en`] || "";
+        if (epic) {
+          epicExcerpt = epic.slice(0, 400) + "...";
+        }
+      } else if (ourGiant) {
         trialsText = ourGiant.pain || "";
-      }
-      if (!overcomingText && ourGiant) {
         overcomingText = ourGiant.recovery || "";
+        wisdomText = ourGiant.quote ? `명언: "${ourGiant.quote}"` : "";
       }
 
-      if (Array.isArray(narrative.wisdom) && narrative.wisdom.length > 0) {
-        wisdomText = narrative.wisdom.map((w: any, idx: number) => {
-          const q = w[`quote_${l}`] || w[`quote_en`] || "";
-          const m = w[`meaning_${l}`] || w[`meaning_en`] || "";
-          return `${idx + 1}. 명언: "${q}"\n   의미: ${m}`;
-        }).join("\n");
-      }
-
-      const epic = narrative[`epic_${l}`] || narrative[`epic_en`] || "";
-      if (epic) {
-        epicExcerpt = epic.slice(0, 400) + "...";
-      }
-    } else if (ourGiant) {
-      trialsText = ourGiant.pain || "";
-      overcomingText = ourGiant.recovery || "";
-      wisdomText = ourGiant.quote ? `명언: "${ourGiant.quote}"` : "";
-    }
-
-    customPersonaText = `
+      customPersonaText = `
 [시대적 배경 / Historical Era]
 ${ourGiant?.era || narrative?.[`era_${l}`] || ""}
 
@@ -193,30 +207,18 @@ ${wisdomText || ourGiant?.quote || ""}
 [생애의 시련 / Personal Struggles (Trials)]
 ${trialsText || ""}
 
-[시련의 극복 / Overcoming Adversity]
-${overcomingText || ""}
-
 [생애 배경 요약 / Epic Background]
 ${epicExcerpt || ""}
 `;
 
-    // Special instructions for custom giants if needed
-    if (giantSlug === 'miyamoto-musashi') {
       customRules = `
 [ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
 1. BANNED FOREVER: Never say generic phrases like "wise choice" or act like a teacher.
 2. YOU ARE A PEER: Talk to the user as an equal.
 3. CONTEXT MIRRORING: DIRECTLY MAP your historical experience onto their modern situation using vivid analogies.
-4. ACTUAL STRUGGLES: You MUST authentically reference your [Personal Struggles] when relating to the user's pain.
-5. END WITH A SHARP QUESTION.
-[미야모토 무사시 특별 지침]
-당신은 오륜서(五輪書)의 저자 미야모토 무사시요.
-- 승패는 기술이 아니라 마음의 준비에서 갈린다.
-- 이론보다 실전이 중요하다.
-- 하나를 통해 만 가지를 안다 (一理萬理).
-- 불필요한 것을 모두 베어내라 - 검도 삶도 마찬가지.
-- 절대 감정적인 동조나 장황한 설명을 하지 말고, 3문장 이내로 핵심만 단호하게 말하시오.
-- "~하오", "~이오", "~겠소" 등의 무협식 어투를 반드시 고수하시오.
+4. Tier 3 Rule: You are a wise figure from ${ourGiant?.era || 'history'}. Keep your response concise (3-4 sentences maximum).
+5. END WITH A SHARP QUESTION: Ask a question relevant to their situation.
+6. NEVER mention that you are an AI, chatbot, or virtual agent.
 `;
     }
   }

@@ -1,8 +1,6 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
+import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantsData } from "@/data/giants";
-
-const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY;
 
 export async function POST(req: Request) {
   try {
@@ -10,10 +8,6 @@ export async function POST(req: Request) {
 
     if (!topic) {
       return NextResponse.json({ error: "토론 주제가 비어있습니다." }, { status: 400 });
-    }
-
-    if (!apiKey) {
-      return NextResponse.json({ error: "서버 설정 오류: API 키가 없습니다." }, { status: 500 });
     }
 
     // 1. Get all available giant slugs and names to feed into the recommendation pool
@@ -60,21 +54,32 @@ Instructions:
 5. Validate that all selected slugs exist EXACTLY as written in the Available Giant Pool.
 `;
 
-    const genAI = new GoogleGenerativeAI(apiKey);
-    const modelsToTry = ["gemini-2.5-flash-lite", "gemini-2.5-flash"];
+    const vAI = getVertexAIInstance();
+    const modelsToTry = [
+      "gemini-2.0-flash",
+      "gemini-1.5-flash",
+      "gemini-2.5-flash-lite",
+      "gemini-2.5-flash"
+    ];
     let lastError = null;
     let textResult = "";
 
     for (const modelId of modelsToTry) {
       try {
-        const model = genAI.getGenerativeModel({
+        const model = vAI.getGenerativeModel({
           model: modelId,
           generationConfig: { responseMimeType: "application/json" } // Force json output
         });
 
         const result = await model.generateContent(systemPrompt);
         const response = await result.response;
-        textResult = response.text();
+        
+        if (typeof response.text === 'function') {
+          textResult = response.text();
+        } else {
+          textResult = response.candidates?.[0]?.content?.parts?.[0]?.text || "";
+        }
+
         if (textResult) {
           break;
         }
@@ -93,7 +98,6 @@ Instructions:
     try {
       recommendationData = JSON.parse(textResult);
     } catch (parseErr) {
-      // Fallback in case Gemini returns slightly malformed JSON despite mime type
       console.warn("[Recommend API] JSON parse failed, clean string:", textResult);
       const jsonMatch = textResult.match(/\{[\s\S]*\}/);
       if (jsonMatch) {
