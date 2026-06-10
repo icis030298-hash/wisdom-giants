@@ -281,6 +281,26 @@ export function GiantsGrid({}: GiantsGridProps) {
             >
               {t("pagination.last")}
             </button>
+
+            <div className="flex items-center gap-2 ml-4">
+              <input
+                type="number"
+                min={1}
+                max={totalPages}
+                placeholder={currentPage.toString()}
+                className="w-16 h-9 px-2 py-1 rounded-lg glass border border-white/5 bg-transparent text-sm text-center text-foreground focus:outline-none focus:border-amber-500/50"
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    const page = parseInt(e.currentTarget.value)
+                    if (!isNaN(page) && page >= 1 && page <= totalPages) {
+                      handlePageChange(page)
+                      e.currentTarget.value = ''
+                    }
+                  }
+                }}
+              />
+              <span className="text-sm text-muted-foreground">/ {totalPages}</span>
+            </div>
           </div>
         )}
         
