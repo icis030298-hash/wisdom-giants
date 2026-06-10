@@ -142,16 +142,13 @@ export function BlogListClient() {
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   )
 
-  const getTranslation = (key: string, fallback: string) => {
+  const getTranslation = (slug: string, fallback: string) => {
     try {
-      const translated = tg(key);
-      // key = "albert-einstein.name" => slugPrefix = "Giants.albert-einstein."
-      const slugPart = key.split('.')[0];
-      const slugPrefix = `Giants.${slugPart}.`;
-      if (translated === `Giants.${key}` || translated === key || translated.startsWith(slugPrefix)) {
-        return fallback;
+      const rawData = tg.raw(slug);
+      if (rawData && typeof rawData === 'object' && 'name' in rawData) {
+        return (rawData as any).name;
       }
-      return translated;
+      return fallback;
     } catch (e) {
       return fallback;
     }
@@ -216,7 +213,7 @@ export function BlogListClient() {
                  locale === 'ja' ? 'クレオパトラ' :
                  locale === 'de' ? 'Kleopatra' :
                  locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
-              : getTranslation(`${post.giantSlug}.name`, giant?.name || post.giantSlug)
+              : getTranslation(post.giantSlug || "", giant?.name || post.giantSlug || "")
 
             return (
               <article

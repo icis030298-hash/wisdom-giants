@@ -242,7 +242,20 @@ const colorMap: Record<string, string> = {
 export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Test" });
+  const tg = await getTranslations({ locale, namespace: "Giants" });
   const bt = blogTranslations[locale] || blogTranslations['en'];
+
+  const getTranslation = (slug: string, fallback: string) => {
+    try {
+      const rawData = tg.raw(slug);
+      if (rawData && typeof rawData === 'object' && 'name' in rawData) {
+        return (rawData as any).name;
+      }
+      return fallback;
+    } catch (e) {
+      return fallback;
+    }
+  };
 
   console.log("==========================================");
   console.log("[Server environment check]: Is Firebase API Key loaded?", !!process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
@@ -404,6 +417,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               
               const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30";
 
+              const localizedName = post.giantSlug === 'cleopatra'
+                ? (locale === 'ko' ? '클레오파트라' :
+                   locale === 'ja' ? 'クレオパトラ' :
+                   locale === 'de' ? 'Kleopatra' :
+                   locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
+                : getTranslation(post.giantSlug || "", giant?.name || post.giantSlug || "")
+
               return (
                 <Link 
                   key={post.slug}
@@ -432,7 +452,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                   </div>
 
                   <div className="flex items-center justify-between text-xs text-slate-500 mt-6 pt-4 border-t border-white/5">
-                    <span>{giant?.name || (locale === 'ko' ? '클레오파트라' : 'Cleopatra')}</span>
+                    <span>{localizedName}</span>
                     <span className="inline-flex items-center gap-1 text-amber-400 font-bold group-hover:gap-2 transition-all">
                       {bt.read} <ArrowRight className="w-3.5 h-3.5" />
                     </span>

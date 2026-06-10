@@ -17,59 +17,65 @@ interface GiantMetadata {
 }
 
 const GIANTS_TO_ADD: GiantMetadata[] = [
-  { slug: "max-planck", nameEn: "Max Planck", nameKo: "막스 플랑크", category: "science", birth: 1858, death: 1947, nationality: "German" },
-  { slug: "hypatia", nameEn: "Hypatia", nameKo: "히파티아", category: "science", birth: 360, death: 415, nationality: "Greek" },
-  { slug: "ibn-al-haytham", nameEn: "Ibn al-Haytham", nameKo: "이븐 알하이삼", category: "science", birth: 965, death: 1040, nationality: "Arab" },
-  { slug: "blaise-pascal", nameEn: "Blaise Pascal", nameKo: "블레즈 파스칼", category: "science", birth: 1623, death: 1662, nationality: "French" },
-  { slug: "dmitri-mendeleev", nameEn: "Dmitri Mendeleev", nameKo: "드미트리 멘델레예프", category: "science", birth: 1834, death: 1907, nationality: "Russian" },
-  { slug: "ada-lovelace", nameEn: "Ada Lovelace", nameKo: "에이다 러블레이스", category: "science", birth: 1815, death: 1852, nationality: "British" },
-  { slug: "alan-turing", nameEn: "Alan Turing", nameKo: "앨런 튜링", category: "science", birth: 1912, death: 1954, nationality: "British" },
-  { slug: "charles-babbage", nameEn: "Charles Babbage", nameKo: "찰스 배비지", category: "science", birth: 1791, death: 1871, nationality: "British" },
-  { slug: "ibn-sina", nameEn: "Ibn Sina", nameKo: "이븐 시나", category: "science", birth: 980, death: 1037, nationality: "Persian" },
-  { slug: "james-watt", nameEn: "James Watt", nameKo: "제임스 와트", category: "science", birth: 1736, death: 1819, nationality: "Scottish" },
-  { slug: "george-stephenson", nameEn: "George Stephenson", nameKo: "조지 스티븐슨", category: "science", birth: 1781, death: 1848, nationality: "British" },
-  { slug: "gregor-mendel", nameEn: "Gregor Mendel", nameKo: "그레고어 멘델", category: "science", birth: 1822, death: 1884, nationality: "Austrian" },
-  { slug: "antoine-lavoisier", nameEn: "Antoine Lavoisier", nameKo: "앙투안 라부아지에", category: "science", birth: 1743, death: 1794, nationality: "French" },
-  { slug: "li-shizhen", nameEn: "Li Shizhen", nameKo: "이시진", category: "science", birth: 1518, death: 1593, nationality: "Chinese" },
-  { slug: "guglielmo-marconi", nameEn: "Guglielmo Marconi", nameKo: "구글리엘모 마르코니", category: "science", birth: 1874, death: 1937, nationality: "Italian" },
-  { slug: "robert-koch", nameEn: "Robert Koch", nameKo: "로베르트 코흐", category: "science", birth: 1843, death: 1910, nationality: "German" },
-  { slug: "thomas-aquinas", nameEn: "Thomas Aquinas", nameKo: "토마스 아퀴나스", category: "philosophy", birth: 1225, death: 1274, nationality: "Italian" },
-  { slug: "rumi", nameEn: "Rumi", nameKo: "루미", category: "philosophy", birth: 1207, death: 1273, nationality: "Persian" },
-  { slug: "ibn-rushd", nameEn: "Ibn Rushd", nameKo: "이븐 루시드", category: "philosophy", birth: 1126, death: 1198, nationality: "Arab" },
-  { slug: "william-james", nameEn: "William James", nameKo: "윌리엄 제임스", category: "philosophy", birth: 1842, death: 1910, nationality: "American" },
-  { slug: "friedrich-schiller", nameEn: "Friedrich Schiller", nameKo: "프리드리히 실러", category: "philosophy", birth: 1759, death: 1805, nationality: "German" },
-  { slug: "george-washington-carver", nameEn: "George Washington Carver", nameKo: "조지 워싱턴 카버", category: "philosophy", birth: 1864, death: 1943, nationality: "American" },
-  { slug: "al-ghazali", nameEn: "Al-Ghazali", nameKo: "알 가잘리", category: "philosophy", birth: 1058, death: 1111, nationality: "Persian" },
-  { slug: "ibn-khaldun", nameEn: "Ibn Khaldun", nameKo: "이븐 할둔", category: "philosophy", birth: 1332, death: 1406, nationality: "Arab" },
-  { slug: "maimonides", nameEn: "Maimonides", nameKo: "마이모니데스", category: "philosophy", birth: 1135, death: 1204, nationality: "Jewish" },
-  { slug: "zoroaster", nameEn: "Zoroaster", nameKo: "조로아스터", category: "philosophy", birth: -1000, death: -900, nationality: "Persian" },
-  { slug: "miguel-de-cervantes", nameEn: "Miguel de Cervantes", nameKo: "미겔 데 세르반테스", category: "arts", birth: 1547, death: 1616, nationality: "Spanish" },
-  { slug: "leo-tolstoy", nameEn: "Leo Tolstoy", nameKo: "레오 톨스토이", category: "arts", birth: 1828, death: 1910, nationality: "Russian" },
-  { slug: "murasaki-shikibu", nameEn: "Murasaki Shikibu", nameKo: "무라사키 시키부", category: "arts", birth: 973, death: 1014, nationality: "Japanese" },
-  { slug: "edgar-degas", nameEn: "Edgar Degas", nameKo: "에드가 드가", category: "arts", birth: 1834, death: 1917, nationality: "French" },
-  { slug: "oscar-wilde", nameEn: "Oscar Wilde", nameKo: "오스카 와일드", category: "arts", birth: 1854, death: 1900, nationality: "Irish" },
-  { slug: "rabindranath-tagore", nameEn: "Rabindranath Tagore", nameKo: "라빈드라나트 타고르", category: "arts", birth: 1861, death: 1941, nationality: "Indian" },
-  { slug: "sor-juana-ines-de-la-cruz", nameEn: "Sor Juana Ines de la Cruz", nameKo: "소르 후아나 이네스 데 라 크루스", category: "arts", birth: 1648, death: 1695, nationality: "Mexican" },
-  { slug: "li-qingzhao", nameEn: "Li Qingzhao", nameKo: "이청조", category: "arts", birth: 1084, death: 1155, nationality: "Chinese" },
-  { slug: "matsuo-basho", nameEn: "Matsuo Basho", nameKo: "마쓰오 바쇼", category: "arts", birth: 1644, death: 1694, nationality: "Japanese" },
-  { slug: "william-wilberforce", nameEn: "William Wilberforce", nameKo: "윌리엄 윌버포스", category: "society", birth: 1759, death: 1833, nationality: "British" },
-  { slug: "toussaint-louverture", nameEn: "Toussaint Louverture", nameKo: "투생 루베르튀르", category: "society", birth: 1743, death: 1803, nationality: "Haitian" },
-  { slug: "sojourner-truth", nameEn: "Sojourner Truth", nameKo: "소저너 트루스", category: "society", birth: 1797, death: 1883, nationality: "American" },
-  { slug: "emmeline-pankhurst", nameEn: "Emmeline Pankhurst", nameKo: "에밀린 팽크허스트", category: "society", birth: 1858, death: 1928, nationality: "British" },
-  { slug: "jose-rizal", nameEn: "Jose Rizal", nameKo: "호세 리살", category: "society", birth: 1861, death: 1896, nationality: "Filipino" },
-  { slug: "mary-wollstonecraft", nameEn: "Mary Wollstonecraft", nameKo: "마리 울스턴크래프트", category: "society", birth: 1759, death: 1797, nationality: "British" },
-  { slug: "lucretia-mott", nameEn: "Lucretia Mott", nameKo: "루크리셔 모트", category: "society", birth: 1793, death: 1880, nationality: "American" },
-  { slug: "marco-polo", nameEn: "Marco Polo", nameKo: "마르코 폴로", category: "business", birth: 1254, death: 1324, nationality: "Italian" },
-  { slug: "vasco-da-gama", nameEn: "Vasco da Gama", nameKo: "바스코 다 가마", category: "business", birth: 1460, death: 1524, nationality: "Portuguese" },
-  { slug: "ferdinand-magellan", nameEn: "Ferdinand Magellan", nameKo: "페르디난드 마젤란", category: "business", birth: 1480, death: 1521, nationality: "Portuguese" },
-  { slug: "cornelius-vanderbilt", nameEn: "Cornelius Vanderbilt", nameKo: "코르넬리우스 밴더빌트", category: "business", birth: 1794, death: 1877, nationality: "American" },
-  { slug: "zhang-qian", nameEn: "Zhang Qian", nameKo: "장건", category: "business", birth: -164, death: -114, nationality: "Chinese" },
-  { slug: "zheng-he", nameEn: "Zheng He", nameKo: "정화", category: "business", birth: 1371, death: 1433, nationality: "Chinese" },
-  { slug: "leif-erikson", nameEn: "Leif Erikson", nameKo: "레이프 에릭손", category: "business", birth: 970, death: 1020, nationality: "Norse" },
+  // 리더십 (14명)
+  { slug: "charlemagne", nameEn: "Charlemagne", nameKo: "샤를마뉴", category: "leadership", birth: 742, death: 814, nationality: "Frankish" },
+  { slug: "akbar-the-great", nameEn: "Akbar the Great", nameKo: "악바르 대제", category: "leadership", birth: 1542, death: 1605, nationality: "Mughal" },
+  { slug: "pachacuti", nameEn: "Pachacuti", nameKo: "파차쿠티", category: "leadership", birth: 1418, death: 1471, nationality: "Incan" },
+  { slug: "queen-nzinga", nameEn: "Queen Nzinga", nameKo: "은징가 여왕", category: "leadership", birth: 1583, death: 1663, nationality: "Angolan" },
+  { slug: "ramesses-ii", nameEn: "Ramesses II", nameKo: "람세스 2세", category: "leadership", birth: -1303, death: -1213, nationality: "Egyptian" },
+  { slug: "cyrus-the-great", nameEn: "Cyrus the Great", nameKo: "키루스 대왕", category: "leadership", birth: -600, death: -530, nationality: "Persian" },
+  { slug: "queen-elizabeth-i", nameEn: "Queen Elizabeth I", nameKo: "엘리자베스 1세", category: "leadership", birth: 1533, death: 1603, nationality: "British" },
+  { slug: "frederick-the-great", nameEn: "Frederick the Great", nameKo: "프리드리히 대왕", category: "leadership", birth: 1712, death: 1786, nationality: "Prussian" },
+  { slug: "william-the-conqueror", nameEn: "William the Conqueror", nameKo: "정복왕 윌리엄", category: "leadership", birth: 1028, death: 1087, nationality: "Norman-English" },
+  { slug: "giuseppe-garibaldi", nameEn: "Giuseppe Garibaldi", nameKo: "주세페 가리발디", category: "leadership", birth: 1807, death: 1882, nationality: "Italian" },
+  { slug: "hatshepsut", nameEn: "Hatshepsut", nameKo: "하트셉수트", category: "leadership", birth: -1507, death: -1458, nationality: "Egyptian" },
+  { slug: "zenobia", nameEn: "Zenobia", nameKo: "제노비아", category: "leadership", birth: 240, death: 274, nationality: "Palmyrene" },
+  { slug: "moctezuma-ii", nameEn: "Moctezuma II", nameKo: "몬테수마 2세", category: "leadership", birth: 1466, death: 1520, nationality: "Aztec" },
+  { slug: "tran-hung-dao", nameEn: "Tran Hung Dao", nameKo: "쩐흥다오", category: "leadership", birth: 1228, death: 1300, nationality: "Vietnamese" },
+  // 과학 (6명)
+  { slug: "michael-faraday", nameEn: "Michael Faraday", nameKo: "마이클 패러데이", category: "science", birth: 1791, death: 1867, nationality: "British" },
+  { slug: "james-clerk-maxwell", nameEn: "James Clerk Maxwell", nameKo: "제임스 맥스웰", category: "science", birth: 1831, death: 1879, nationality: "Scottish" },
+  { slug: "edward-jenner", nameEn: "Edward Jenner", nameKo: "에드워드 제너", category: "science", birth: 1749, death: 1823, nationality: "British" },
+  { slug: "erwin-schrodinger", nameEn: "Erwin Schrödinger", nameKo: "에르빈 슈뢰딩거", category: "science", birth: 1887, death: 1961, nationality: "Austrian" },
+  { slug: "james-hutton", nameEn: "James Hutton", nameKo: "제임스 허튼", category: "science", birth: 1726, death: 1797, nationality: "Scottish" },
+  { slug: "georges-cuvier", nameEn: "Georges Cuvier", nameKo: "조르주 퀴비에", category: "science", birth: 1769, death: 1832, nationality: "French" },
+  // 철학 (8명)
+  { slug: "epicurus", nameEn: "Epicurus", nameKo: "에피쿠로스", category: "philosophy", birth: -341, death: -270, nationality: "Greek" },
+  { slug: "diogenes", nameEn: "Diogenes", nameKo: "디오게네스", category: "philosophy", birth: -412, death: -323, nationality: "Greek" },
+  { slug: "heraclitus", nameEn: "Heraclitus", nameKo: "헤라클레이토스", category: "philosophy", birth: -535, death: -475, nationality: "Greek" },
+  { slug: "pythagoras", nameEn: "Pythagoras", nameKo: "피타고라스", category: "philosophy", birth: -570, death: -495, nationality: "Greek" },
+  { slug: "plotinus", nameEn: "Plotinus", nameKo: "플로티노스", category: "philosophy", birth: 204, death: 270, nationality: "Roman-Egyptian" },
+  { slug: "john-stuart-mill", nameEn: "John Stuart Mill", nameKo: "존 스튜어트 밀", category: "philosophy", birth: 1806, death: 1873, nationality: "British" },
+  { slug: "gottfried-leibniz", nameEn: "Gottfried Leibniz", nameKo: "고트프리트 라이프니츠", category: "philosophy", birth: 1646, death: 1716, nationality: "German" },
+  { slug: "meister-eckhart", nameEn: "Meister Eckhart", nameKo: "마이스터 에크하르트", category: "philosophy", birth: 1260, death: 1328, nationality: "German" },
+  // 문학·예술 (10명)
+  { slug: "homer", nameEn: "Homer", nameKo: "호메로스", category: "arts", birth: -800, death: -701, nationality: "Greek" },
+  { slug: "virgil", nameEn: "Virgil", nameKo: "베르길리우스", category: "arts", birth: -70, death: -19, nationality: "Roman" },
+  { slug: "jane-austen", nameEn: "Jane Austen", nameKo: "제인 오스틴", category: "arts", birth: 1775, death: 1817, nationality: "British" },
+  { slug: "charles-dickens", nameEn: "Charles Dickens", nameKo: "찰스 디킨스", category: "arts", birth: 1812, death: 1870, nationality: "British" },
+  { slug: "rembrandt", nameEn: "Rembrandt", nameKo: "렘브란트", category: "arts", birth: 1606, death: 1669, nationality: "Dutch" },
+  { slug: "francisco-de-goya", nameEn: "Francisco de Goya", nameKo: "프란시스코 고야", category: "arts", birth: 1746, death: 1828, nationality: "Spanish" },
+  { slug: "franz-schubert", nameEn: "Franz Schubert", nameKo: "프란츠 슈베르트", category: "arts", birth: 1797, death: 1828, nationality: "Austrian" },
+  { slug: "george-eliot", nameEn: "George Eliot", nameKo: "조지 엘리엇", category: "arts", birth: 1819, death: 1880, nationality: "British" },
+  { slug: "emily-dickinson", nameEn: "Emily Dickinson", nameKo: "에밀리 디킨슨", category: "arts", birth: 1830, death: 1886, nationality: "American" },
+  { slug: "henrik-ibsen", nameEn: "Henrik Ibsen", nameKo: "헨리크 입센", category: "arts", birth: 1828, death: 1906, nationality: "Norwegian" },
+  // 인권·사회 (6명)
+  { slug: "dorothea-dix", nameEn: "Dorothea Dix", nameKo: "도로시아 딕스", category: "society", birth: 1802, death: 1887, nationality: "American" },
+  { slug: "clara-barton", nameEn: "Clara Barton", nameKo: "클라라 바턴", category: "society", birth: 1821, death: 1912, nationality: "American" },
+  { slug: "ida-b-wells", nameEn: "Ida B. Wells", nameKo: "아이다 B. 웰스", category: "society", birth: 1862, death: 1931, nationality: "American" },
+  { slug: "elizabeth-cady-stanton", nameEn: "Elizabeth Cady Stanton", nameKo: "엘리자베스 케이디 스탠턴", category: "society", birth: 1815, death: 1902, nationality: "American" },
+  { slug: "harriet-martineau", nameEn: "Harriet Martineau", nameKo: "해리엇 마티노", category: "society", birth: 1802, death: 1876, nationality: "British" },
+  { slug: "olympe-de-gouges", nameEn: "Olympe de Gouges", nameKo: "올랭프 드 구주", category: "society", birth: 1748, death: 1793, nationality: "French" },
+  // 탐험·비즈니스 (6명)
+  { slug: "james-cook", nameEn: "James Cook", nameKo: "제임스 쿡", category: "business", birth: 1728, death: 1779, nationality: "British" },
+  { slug: "bartolomeu-dias", nameEn: "Bartolomeu Dias", nameKo: "바르톨로뮤 디아스", category: "business", birth: 1450, death: 1500, nationality: "Portuguese" },
+  { slug: "ernest-shackleton", nameEn: "Ernest Shackleton", nameKo: "어니스트 섀클턴", category: "business", birth: 1874, death: 1922, nationality: "British" },
+  { slug: "henry-hudson", nameEn: "Henry Hudson", nameKo: "헨리 허드슨", category: "business", birth: 1565, death: 1611, nationality: "British" },
+  { slug: "vitus-bering", nameEn: "Vitus Bering", nameKo: "비투스 베링", category: "business", birth: 1681, death: 1741, nationality: "Danish-Russian" },
   { slug: "roald-amundsen", nameEn: "Roald Amundsen", nameKo: "로알 아문센", category: "business", birth: 1872, death: 1928, nationality: "Norwegian" }
 ];
 
-const LOCALES = ["ko", "en", "ja", "de", "es", "fr", "it", "pt"];
+const LOCALES = ["ko", "en", "ja", "de", "es", "fr", "it", "pt", "ar", "hi", "ru", "zh"];
 
 // Generate unified prompt for both metadata translations and narratives
 function getPrompt(giant: GiantMetadata): string {
@@ -93,6 +99,12 @@ Strict historical requirements:
 - "epic_en" must be a detailed narrative of their life in English (minimum 300 words, formatted with exactly 4 or more H3 subtitles).
 - Include 3 or more wisdom quotes in the "wisdom" array.
 - "pain" must describe real historical struggles, and "recovery" must describe how they overcame them.
+
+Language-specific rules for additional locales:
+- For Arabic (ar): Write in formal modern standard Arabic ("باللغة العربية الفصحى").
+- For Hindi (hi): Write in natural, fluent Hindi ("हिंदी में प्राकृतिक रूप से").
+- For Russian (ru): Write in literary, elegant Russian ("На литературном русском языке").
+- For Chinese (zh): Write in standard Mandarin written language ("用标准普通话书面语").
 
 Output exact JSON format:
 {
@@ -192,6 +204,54 @@ Output exact JSON format:
       "era": "Era",
       "pain": "Struggles",
       "recovery": "Overcoming"
+    },
+    "ar": {
+      "name": "Arabic name (in Arabic)",
+      "title": "Title in Arabic",
+      "headline": "Headline in Arabic",
+      "shortDescription": "Introduction in Arabic",
+      "quote": "Quote in Arabic",
+      "chatGreeting": "Greeting in Arabic",
+      "suggestedQuestions": ["Q1", "Q2", "Q3"],
+      "era": "Era in Arabic",
+      "pain": "Struggles in Arabic",
+      "recovery": "Overcoming in Arabic"
+    },
+    "hi": {
+      "name": "Hindi name (in Devanagari script)",
+      "title": "Title in Hindi",
+      "headline": "Headline in Hindi",
+      "shortDescription": "Introduction in Hindi",
+      "quote": "Quote in Hindi",
+      "chatGreeting": "Greeting in Hindi",
+      "suggestedQuestions": ["Q1", "Q2", "Q3"],
+      "era": "Era in Hindi",
+      "pain": "Struggles in Hindi",
+      "recovery": "Overcoming in Hindi"
+    },
+    "ru": {
+      "name": "Russian name (in Cyrillic)",
+      "title": "Title in Russian",
+      "headline": "Headline in Russian",
+      "shortDescription": "Introduction in Russian",
+      "quote": "Quote in Russian",
+      "chatGreeting": "Greeting in Russian",
+      "suggestedQuestions": ["Q1", "Q2", "Q3"],
+      "era": "Era in Russian",
+      "pain": "Struggles in Russian",
+      "recovery": "Overcoming in Russian"
+    },
+    "zh": {
+      "name": "Chinese name (in Simplified Chinese characters)",
+      "title": "Title in Chinese",
+      "headline": "Headline in Chinese",
+      "shortDescription": "Introduction in Chinese",
+      "quote": "Quote in Chinese",
+      "chatGreeting": "Greeting in Chinese",
+      "suggestedQuestions": ["Q1", "Q2", "Q3"],
+      "era": "Era in Chinese",
+      "pain": "Struggles in Chinese",
+      "recovery": "Overcoming in Chinese"
     }
   },
   "epic": {
@@ -203,6 +263,10 @@ Output exact JSON format:
     "epic_fr": "French narrative (detailed)",
     "epic_it": "Italian narrative (detailed)",
     "epic_pt": "Portuguese narrative (detailed)",
+    "epic_ar": "Arabic narrative (detailed, in Arabic)",
+    "epic_hi": "Hindi narrative (detailed, in Hindi)",
+    "epic_ru": "Russian narrative (detailed, in Russian)",
+    "epic_zh": "Chinese narrative (detailed, in Simplified Chinese)",
     "trials_ko": "Korean summary of trials",
     "trials_en": "English summary of trials",
     "overcoming_ko": "Korean summary of overcoming",
@@ -303,6 +367,7 @@ function sanitizeString(str: string): string {
 }
 
 async function main() {
+  process.env.GOOGLE_APPLICATION_CREDENTIALS = path.resolve(process.cwd(), "google-service-account.json");
   const outputPath = path.resolve(process.cwd(), "scripts/new-giants-50.json");
   let generatedData: Record<string, any> = {};
 
@@ -383,7 +448,7 @@ async function main() {
           }));
         }
 
-        generatedData[giant.slug] = parsed;
+        generatedData[giant.slug] = { ...parsed, category: giant.category };
         
         // Save after each giant to protect progress
         fs.writeFileSync(outputPath, JSON.stringify(generatedData, null, 2), "utf8");

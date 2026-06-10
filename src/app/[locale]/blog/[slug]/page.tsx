@@ -344,13 +344,13 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30"
 
   const tg = await getTranslations({ locale, namespace: "Giants" })
-  const getTranslation = (key: string, fallback: string) => {
+  const getTranslation = (slug: string, fallback: string) => {
     try {
-      const translated = tg(key);
-      if (translated === `Giants.${key}` || translated.includes(`${key.split('.')[0]}.`)) {
-        return fallback;
+      const rawData = tg.raw(slug);
+      if (rawData && typeof rawData === 'object' && 'name' in rawData) {
+        return (rawData as any).name;
       }
-      return translated;
+      return fallback;
     } catch (e) {
       return fallback;
     }
@@ -372,7 +372,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
        locale === 'ja' ? 'クレオパトラ' :
        locale === 'de' ? 'Kleopatra' :
        locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
-    : getTranslation(`${post.giantSlug}.name`, giant?.name || post.giantSlug)
+    : getTranslation(post.giantSlug || "", giant?.name || post.giantSlug || "")
 
   const absoluteImageUrl = giant
     ? giant.imageUrl
@@ -611,7 +611,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
                      locale === 'ja' ? 'クレオパトラ' :
                      locale === 'de' ? 'Kleopatra' :
                      locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
-                  : getTranslation(`${p.giantSlug}.name`, rGiant?.name || p.giantSlug)
+                  : getTranslation(p.giantSlug || "", rGiant?.name || p.giantSlug || "")
 
                 return (
                   <Link 

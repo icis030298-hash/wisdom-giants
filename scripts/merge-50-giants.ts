@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const LOCALES = ["ko", "en", "ja", "de", "es", "fr", "it", "pt"];
+const LOCALES = ["ko", "en", "ja", "de", "es", "fr", "it", "pt", "ar", "hi", "ru", "zh"];
 
 async function main() {
   const generatedPath = path.resolve(process.cwd(), "scripts/new-giants-50.json");
@@ -82,7 +82,7 @@ async function main() {
     
     // Clean strings for template safety
     const name = (en.name || "").replace(/"/g, '\\"');
-    const category = giantData.epic.category || en.category || "science"; // default safety
+    const category = giantData.category || giantData.epic.category || en.category || "science"; // default safety
     const headline = (en.headline || "").replace(/"/g, '\\"');
     const shortDescription = (en.shortDescription || "").replace(/"/g, '\\"');
     const quote = (en.quote || "").replace(/"/g, '\\"');
