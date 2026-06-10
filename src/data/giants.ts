@@ -4209,7 +4209,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 샤를마뉴입니다.",
-    imageUrl: "/images/giants/charlemagne.jpg",
+    imageUrl: "/images/giants/charlemagne.png",
     era: "8세기 - 9세기"
   },
   {
@@ -4238,7 +4238,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 파차쿠티입니다.",
-    imageUrl: "/images/giants/pachacuti.jpg",
+    imageUrl: "/images/giants/pachacuti.png",
     era: "15세기"
   },
   {
@@ -4267,7 +4267,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 악바르 대제입니다.",
-    imageUrl: "/images/giants/akbar-the-great.jpg",
+    imageUrl: "/images/giants/akbar-the-great.png",
     era: "16세기"
   },
   {
@@ -4296,7 +4296,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 은징가 여왕입니다.",
-    imageUrl: "/images/giants/queen-nzinga.jpg",
+    imageUrl: "/images/giants/queen-nzinga.png",
     era: "17세기"
   },
   {
@@ -4346,7 +4346,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 마이클 패러데이입니다.",
-    imageUrl: "/images/giants/michael-faraday.jpg",
+    imageUrl: "/images/giants/michael-faraday.png",
     era: "19세기"
   },
   {
@@ -4404,7 +4404,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 키루스 대왕입니다.",
-    imageUrl: "/images/giants/cyrus-the-great.jpg",
+    imageUrl: "/images/giants/cyrus-the-great.png",
     era: "기원전 6세기"
   },
   {
@@ -4628,7 +4628,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 하트셉수트입니다.",
-    imageUrl: "/images/giants/hatshepsut.jpg",
+    imageUrl: "/images/giants/hatshepsut.png",
     era: "기원전 15세기"
   },
   {
@@ -4715,7 +4715,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 람세스 2세입니다.",
-    imageUrl: "/images/giants/ramesses-ii.jpg",
+    imageUrl: "/images/giants/ramesses-ii.png",
     era: "고대 이집트 신왕국 (기원전 13세기)"
   },
   {
@@ -4802,7 +4802,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 엘리자베스 1세입니다.",
-    imageUrl: "/images/giants/queen-elizabeth-i.jpg",
+    imageUrl: "/images/giants/queen-elizabeth-i.png",
     era: "16세기"
   },
   {
@@ -4918,7 +4918,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 프리드리히 대왕입니다.",
-    imageUrl: "/images/giants/frederick-the-great.jpg",
+    imageUrl: "/images/giants/frederick-the-great.png",
     era: "18세기"
   },
   {
