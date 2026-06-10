@@ -3850,7 +3850,7 @@ export const giantsData: Giant[] = [
   {
     id: "186",
     name: "Murasaki Shikibu",
-    category: "science",
+    category: "arts",
     headline: "A Thousand Years of Literature",
     shortDescription: "Author of 'The Tale of Genji,' considered the world's first novel. Her work is a cornerstone of Japanese literature.",
     slug: "murasaki-shikibu",
