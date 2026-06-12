@@ -27,6 +27,7 @@ import { archetypes } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
 import { ConditionalAdSense } from "@/components/conditional-adsense"
 import { AdSlot } from "@/components/ad-slot"
+import GiantAvatar from "@/components/GiantAvatar"
 
 interface GiantDetailClientProps {
   giant: any;
@@ -37,9 +38,56 @@ interface GiantDetailClientProps {
   }
 }
 
+function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related: any; locale: string; getRelatedTranslation: any }) {
+  const [imgErr, setImgErr] = useState(false);
+  return (
+    <Link
+      href={`/giant/${related.slug}`}
+      className="group relative glass-card rounded-3xl p-6 border border-white/5 hover:border-amber-500/30 transition-all duration-500 flex flex-col h-full hover:scale-[1.02] bg-gradient-to-br from-white/[0.02] to-transparent overflow-hidden animate-fade-in-up"
+    >
+      <div className="absolute inset-0 bg-gradient-to-br from-amber-500/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      
+      <div className="relative w-full h-44 rounded-2xl overflow-hidden mb-6 bg-muted">
+        {!imgErr ? (
+          <Image
+            src={related.imageUrl}
+            alt={`${related.name} - Giants Wisdom`}
+            fill
+            sizes="(max-width: 768px) 100vw, 33vw"
+            className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+            onError={() => setImgErr(true)}
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-slate-950">
+            <GiantAvatar slug={related.slug} category={related.category} size={100} />
+          </div>
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+      </div>
+      
+      <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-300 transition-colors mb-1">
+        {getRelatedTranslation(related.slug, 'name', related.name)}
+      </h3>
+      <p className="text-xs text-amber-400/80 mb-4 font-medium">
+        {getRelatedTranslation(related.slug, 'headline', related.title || related.headline)}
+      </p>
+      
+      <p className="text-sm text-muted-foreground line-clamp-3 leading-relaxed mb-6 flex-1">
+        {getRelatedTranslation(related.slug, 'shortDescription', related.description)}
+      </p>
+      
+      <div className="mt-auto w-full py-3.5 rounded-xl bg-amber-500/10 group-hover:bg-amber-500/20 text-amber-300 text-xs font-semibold transition-all border border-amber-500/20 group-hover:border-amber-500/40 text-center flex items-center justify-center gap-1">
+        <span>{locale === 'ko' ? '대서사시 읽기' : 'Read Epic'}</span>
+        <span className="group-hover:translate-x-1 transition-transform">→</span>
+      </div>
+    </Link>
+  );
+}
+
 export function GiantDetailClient({ giant, translations }: GiantDetailClientProps) {
   const [isChatOpen, setIsChatOpen] = useState(false)
   const [showMatchOverlay, setShowMatchOverlay] = useState(false)
+  const [imageError, setImageError] = useState(false)
   const router = useRouter()
   const locale = useLocale()
   const activeLocale = (locale === 'ko' ? 'ko' : locale === 'de' ? 'de' : locale === 'ja' ? 'ja' : 'en') as 'ko' | 'en' | 'de' | 'ja';
@@ -400,6 +448,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       
       {/* Hero Section */}
       <div className="relative w-full h-[60vh] overflow-hidden">
+      {!imageError ? (
         <Image 
           src={giant.imageUrl} 
           alt={tg.name}
@@ -407,8 +456,14 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           sizes="100vw"
           className="object-cover"
           priority
+          onError={() => setImageError(true)}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+      ) : (
+        <div className="absolute inset-0 flex items-center justify-center bg-slate-950">
+          <GiantAvatar slug={giant.slug} category={giant.category} size={250} />
+        </div>
+      )}
+      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
         
         <div className="absolute bottom-0 left-0 right-0 p-8 md:p-16 max-w-6xl mx-auto">
           {/* Breadcrumb Navigation */}
@@ -690,40 +745,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {relatedGiants.map((related: any) => {
               return (
-                <Link
+                <RelatedGiantCard
                   key={related.slug}
-                  href={`/giant/${related.slug}`}
-                  className="group relative glass-card rounded-3xl p-6 border border-white/5 hover:border-amber-500/30 transition-all duration-500 flex flex-col h-full hover:scale-[1.02] bg-gradient-to-br from-white/[0.02] to-transparent overflow-hidden animate-fade-in-up"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-br from-amber-500/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                  
-                  <div className="relative w-full h-44 rounded-2xl overflow-hidden mb-6 bg-muted">
-                    <Image
-                      src={related.imageUrl}
-                      alt={`${related.name} - Giants Wisdom`}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
-                  </div>
-                  
-                  <h3 className="font-serif text-xl font-bold text-foreground group-hover:text-amber-300 transition-colors mb-1">
-                    {getRelatedTranslation(related.slug, 'name', related.name)}
-                  </h3>
-                  <p className="text-xs text-amber-400/80 mb-4 font-medium">
-                    {getRelatedTranslation(related.slug, 'headline', related.title || related.headline)}
-                  </p>
-                  
-                  <p className="text-sm text-muted-foreground line-clamp-3 leading-relaxed mb-6 flex-1">
-                    {getRelatedTranslation(related.slug, 'shortDescription', related.description)}
-                  </p>
-                  
-                  <div className="mt-auto w-full py-3.5 rounded-xl bg-amber-500/10 group-hover:bg-amber-500/20 text-amber-300 text-xs font-semibold transition-all border border-amber-500/20 group-hover:border-amber-500/40 text-center flex items-center justify-center gap-1">
-                    <span>{locale === 'ko' ? '대서사시 읽기' : 'Read Epic'}</span>
-                    <span className="group-hover:translate-x-1 transition-transform">→</span>
-                  </div>
-                </Link>
+                  related={related}
+                  locale={locale}
+                  getRelatedTranslation={getRelatedTranslation}
+                />
               );
             })}
           </div>

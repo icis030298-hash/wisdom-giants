@@ -87,7 +87,8 @@
       "chat": "Real-time Chat",
       "chatDesc": "Share your concerns with giants reborn through latest AI.",
       "startNow": "Start Now"
-    }
+    },
+    "debateRoomCTA": "Enter Giants Debate Room"
   },
   "Featured": {
     "title": "The Hall of Great Giants",
@@ -695,19 +696,6 @@
         "What is the most important piece of advice you can give me?"
       ]
     },
-    "oskar-schindler": {
-      "name": "Oskar Schindler",
-      "headline": "In 1908, in the industrial landscape of Zwittau, Oskar Schindler was born into a life of monumental appetites and moral ambiguity.",
-      "shortDescription": "The epic journey and wisdom of Oskar Schindler.",
-      "quote": "He who saves one life saves the world entire. Do not underestimate the monumental impact of a single act of kindness. You are the architect of a world.",
-      "era": "20th Century Giant (1908~1974)",
-      "chatGreeting": "Greetings, I am Oskar Schindler. Do you seek the path of wisdom or have questions about my life's journey?",
-      "suggestedQuestions": [
-        "Tell me about your greatest achievement, Oskar Schindler.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
-    },
     "florence-nightingale": {
       "name": "Florence Nightingale",
       "headline": "In 1820, in the Renaissance elegance of Florence, Italy, Florence Nightingale was born into a life of monumental luxury and social expectation.",
@@ -760,32 +748,6 @@
         "What is the most important piece of advice you can give me?"
       ]
     },
-    "desmond-tutu": {
-      "name": "Desmond Tutu",
-      "headline": "In 1931, in the gold-mining town of Klerksdorp, Desmond Mpilo Tutu was born into a world of monumental racial division and systemic cruelty.",
-      "shortDescription": "The epic journey and wisdom of Desmond Tutu.",
-      "quote": "If you are neutral in situations of injustice, you have chosen the side of the oppressor. Silence is a monumental betrayal of your own humanity. Speak up.",
-      "era": "20th-21st Century Giant (1931~2021)",
-      "chatGreeting": "Greetings, I am Desmond Tutu. Do you seek the path of wisdom or have questions about my life's journey?",
-      "suggestedQuestions": [
-        "Tell me about your greatest achievement, Desmond Tutu.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
-    },
-    "elie-wiesel": {
-      "name": "Elie Wiesel",
-      "headline": "In 1928, in the Transylvanian town of Sighet, Elie Wiesel was born into a life of monumental faith and quiet study.",
-      "shortDescription": "The epic journey and wisdom of Elie Wiesel.",
-      "quote": "The opposite of love is not hate, it's indifference. Indifference is a monumental crime. Engage with the world. Do not look away.",
-      "era": "20th-21st Century Giant (1928~2016)",
-      "chatGreeting": "Greetings, I am Elie Wiesel. Do you seek the path of wisdom or have questions about my life's journey?",
-      "suggestedQuestions": [
-        "Tell me about your greatest achievement, Elie Wiesel.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
-    },
     "harriet-beecher-stowe": {
       "name": "Harriet Beecher Stowe",
       "headline": "In 1811, in the intellectual ferment of Litchfield, Connecticut, Harriet Beecher was born into a family of monumental religious and social influence.",
@@ -808,19 +770,6 @@
       "chatGreeting": "Greetings, I am Rigoberta Menchu. Do you seek the path of wisdom or have questions about my life's journey?",
       "suggestedQuestions": [
         "Tell me about your greatest achievement, Rigoberta Menchu.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
-    },
-    "terry-fox": {
-      "name": "Terry Fox",
-      "headline": "In 1958, in the windy city of Winnipeg, Canada, Terry Fox was born into a life of monumental energy and athletic passion.",
-      "shortDescription": "The epic journey and wisdom of Terry Fox.",
-      "quote": "I'm not a dreamer, but I believe in miracles. I have to. Even if I don't finish, we need others to continue. It's got to keep going. Be part of the monumental effort.",
-      "era": "20th Century Giant (1853~1890)",
-      "chatGreeting": "Greetings, I am Terry Fox. Do you seek the path of wisdom or have questions about my life's journey?",
-      "suggestedQuestions": [
-        "Tell me about your greatest achievement, Terry Fox.",
         "How did you overcome your most difficult challenges?",
         "What is the most important piece of advice you can give me?"
       ]
@@ -1283,16 +1232,19 @@
     },
     "jane-austen": {
       "name": "Jane Austen",
-      "headline": "The master of social commentary who used wit and observation to reveal the intricacies of the human heart.",
-      "shortDescription": "The literary genius of Jane Austen.",
-      "quote": "A Sincere Heart",
-      "era": "18th-19th Century Giant",
-      "chatGreeting": "Greetings, I am Jane Austen. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Pioneer of the English Novel",
+      "headline": "Insightful Novelist",
+      "shortDescription": "A leading novelist of the late 18th and early 19th centuries in England. Her keen social observations and witty prose profoundly influenced her era and beyond.",
+      "quote": "Happiness in marriage is entirely a matter of chance.",
+      "chatGreeting": "Greetings. I am Jane Austen. I am eager to discuss my observations on human nature and the customs of society. What queries do you have for me?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Jane Austen.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is most important in your novels?",
+        "What challenges did you face as a female author in your time?",
+        "What are your thoughts on modern society?"
+      ],
+      "era": "Giants of History",
+      "pain": "As a woman, economic independence was difficult, and remaining unmarried meant she relied on financial support throughout her life. She also bore the responsibility of nursing her brother and supporting her family.",
+      "recovery": "She overcame financial difficulties by dedicating herself to writing. Deep family bonds and a passion for literature helped her persevere through difficult times."
     },
     "king-jeongjo": {
       "name": "King Jeongjo",
@@ -1327,20 +1279,20 @@
       "recovery": "Authored over 500 volumes of work, laying foundations for modern thought."
     },
     "ahn-jung-geun": {
-      "name": "Ahn Jung-geun",
-      "title": "Patriot of Korean Independence",
-      "headline": "A life given for the nation's freedom.",
-      "shortDescription": "A revered Korean independence activist who assassinated Ito Hirobumi to protest the annexation of Korea.",
-      "quote": "I dedicate my life to the independence of my country and the peace of the East.",
-      "chatGreeting": "I am Ahn Jung-geun. I laid down my life for the independence of Korea and true peace in Asia. What brings you here?",
+      "name": "Ahn Jung Geun",
+      "title": "Independence Activist, Patriot",
+      "headline": "Visionary of East Asian Peace",
+      "shortDescription": "A Korean independence activist and thinker who championed peace in East Asia during the Japanese colonial era. He is renowned for his assassination of Itō Hirobumi, leaving an indelible mark on the Korean independence movement.",
+      "quote": "Even the greatest general may fail to defeat the enemy at times; how could I possibly fail to defeat the enemy when I reach this point?",
+      "chatGreeting": "I am Ahn Jung Geun, who yearned for peace in East Asia. What is it you wish to know? I will answer with sincerity to the best of my knowledge.",
       "suggestedQuestions": [
-        "Why did you assassinate Ito Hirobumi?",
-        "What is your vision for Asian Peace?",
-        "Were you not afraid of death?"
+        "Why did you assassinate Itō Hirobumi?",
+        "What is your philosophy of East Asian peace?",
+        "What did you write during your imprisonment?"
       ],
       "era": "1879-1910",
-      "pain": "Witnessing his nation lose sovereignty and facing his own execution.",
-      "recovery": "Demonstrated unparalleled bravery, inspiring generations of freedom fighters."
+      "pain": "Witnessing the brutal reality of my homeland being plundered by Japanese imperialism and the sacrifice of many comrades who fought for independence through armed struggle was a profound pain. Furthermore, during my imprisonment after capture, I endured severe torture and harsh conditions.",
+      "recovery": "Even in prison, I did not lose sight of my ideals, authoring 'The Theory of East Asian Peace.' I steadfastly held onto my convictions for national independence and peace in East Asia, striving to leave hope for future generations."
     },
     "mencius": {
       "name": "Mencius",
@@ -1537,131 +1489,131 @@
     },
     "queen-victoria": {
       "name": "Queen Victoria",
-      "title": "A Life of Achievement",
-      "headline": "Discover the wisdom of Queen Victoria",
-      "shortDescription": "Explore the historic journey of Queen Victoria",
-      "quote": "Wisdom is born from trials.",
-      "chatGreeting": "Hello, I am Queen Victoria. What would you like to know about my journey?",
+      "title": "Queen of the United Kingdom",
+      "headline": "Queen Victoria",
+      "shortDescription": "The iconic monarch of the 19th century, reigning over the British Empire during a period of immense industrial, cultural, and imperial expansion.",
+      "quote": "I will be good.",
+      "chatGreeting": "Your Majesty, how may I assist you today? Are you interested in learning about the glories of my reign?",
       "suggestedQuestions": [
-        "What was your greatest trial?",
-        "How did you overcome your difficulties?",
-        "What is your advice for the future?"
+        "Tell me about your ascension to the throne.",
+        "What was your relationship with Prince Albert like?",
+        "What were the key events of the Victorian Era?"
       ],
       "era": "1819-1901",
-      "pain": "Early ascension amidst doubt, and the profound grief and isolation following the death of Prince Albert.",
-      "recovery": "Overcame grief through a strong sense of royal duty, leading the empire to its absolute zenith."
+      "pain": "The early death of her father, her mother's overbearing control, political instability in her early reign, and the profound grief and prolonged mourning following the sudden death of her beloved husband, Prince Albert.",
+      "recovery": "Despite her personal tragedy, she resolutely continued her duties as monarch, upholding Prince Albert's vision for public works, arts, and sciences. She maintained stability within the British Empire and became a symbol of endurance and duty through her frugal and exemplary life, earning the respect of her subjects."
     },
     "alexander-fleming": {
       "name": "Alexander Fleming",
-      "title": "A Life of Achievement",
-      "headline": "Discover the wisdom of Alexander Fleming",
-      "shortDescription": "Explore the historic journey of Alexander Fleming",
-      "quote": "Wisdom is born from trials.",
-      "chatGreeting": "Hello, I am Alexander Fleming. What would you like to know about my journey?",
+      "title": "Discoverer of Penicillin",
+      "headline": "Discoverer of Penicillin",
+      "shortDescription": "Sir Alexander Fleming was a Scottish physician and microbiologist, best known for his discovery of penicillin, which ushered in the age of antibiotics. His discovery revolutionized medicine and saved countless lives.",
+      "quote": "Chance favours the prepared mind.",
+      "chatGreeting": "Greetings. I am Alexander Fleming. Do you have any questions about my work? Please, ask away.",
       "suggestedQuestions": [
-        "What was your greatest trial?",
-        "How did you overcome your difficulties?",
-        "What is your advice for the future?"
+        "How was penicillin discovered?",
+        "What impact did your research have on medicine?",
+        "What do you believe is the importance of scientific discovery?"
       ],
       "era": "1881-1955",
-      "pain": "Witnessing deaths from infection in war, continuous research failures, academic apathy, and technological barriers.",
-      "recovery": "Perseverance, keen observation of accidental mold, and eventual collaboration to mass-produce penicillin."
+      "pain": "During World War I, I worked in a casualty clearing station and witnessed the horrific suffering of soldiers succumbing to infection. The antiseptics we had then were of limited use and often did more harm than good. Later, in the early days of penicillin, there were significant challenges in fully recognizing its potential and bringing it to widespread use.",
+      "recovery": "I dedicated myself to bacteriology, seeking effective ways to combat infections. Through careful observation of a chance contamination in my laboratory, I identified the antibacterial properties of penicillin. I persevered in studying its effects, developing methods for its cultivation and purification. Collaboration with colleagues helped demonstrate its clinical value and paved the way for mass production, saving innumerable lives."
     },
     "johannes-kepler": {
       "name": "Johannes Kepler",
-      "title": "A Life of Creativity",
-      "headline": "Discover the wisdom of Johannes Kepler",
-      "shortDescription": "Explore the historic journey of Johannes Kepler",
-      "quote": "Wisdom is born from trials.",
-      "chatGreeting": "Hello, I am Johannes Kepler. What would you like to know about my journey?",
+      "title": "Astronomer and Mathematician",
+      "headline": "Discovering Cosmic Laws",
+      "shortDescription": "An astronomer who discovered the laws of planetary motion, revolutionizing our understanding of the cosmos. His work laid the foundation for modern astronomy.",
+      "quote": "The book of nature is written in the language of mathematics.",
+      "chatGreeting": "Greetings. I am Johannes Kepler. My life has been a relentless pursuit of the celestial dance and the order of the universe. What mysteries of the cosmos pique your interest?",
       "suggestedQuestions": [
-        "What was your greatest trial?",
-        "How did you overcome your difficulties?",
-        "What is your advice for the future?"
+        "Explain your laws of planetary motion.",
+        "What was the greatest scientific challenge you faced?",
+        "How did you view Copernicus's heliocentric model?"
       ],
       "era": "1571-1630",
-      "pain": "Physical disabilities from smallpox, dire poverty, the death of family members, and religious persecution during the Thirty Years' War.",
-      "recovery": "Overcame dogma with creative thinking and grueling analysis of data to discover the laws of planetary motion."
+      "pain": "Suffered from smallpox in childhood, leaving him with poor eyesight and deformed fingers. He also endured his father's disappearance and his mother's accusation of witchcraft. Financial hardships and religious persecution were constant companions.",
+      "recovery": "Overcame these adversities through deep faith and unwavering perseverance. He meticulously analyzed Tycho Brahe's extensive observational data to formulate his laws of planetary motion, employing mathematics and physics to unravel the universe's secrets."
     },
     "francis-bacon": {
       "name": "Francis Bacon",
-      "title": "A Life of Wisdom",
-      "headline": "Discover the wisdom of Francis Bacon",
-      "shortDescription": "Explore the historic journey of Francis Bacon",
-      "quote": "Wisdom is born from trials.",
-      "chatGreeting": "Hello, I am Francis Bacon. What would you like to know about my journey?",
+      "title": "Pioneer of Empiricism and the Scientific Method",
+      "headline": "A New Horizon of Knowledge",
+      "shortDescription": "Francis Bacon was a 17th-century English philosopher who laid the groundwork for empiricism, emphasizing scientific inquiry and empirical evidence. His thought became a cornerstone of the modern scientific revolution.",
+      "quote": "Knowledge is power.",
+      "chatGreeting": "What is it you seek to investigate? I shall open new paths of knowledge for you. I will answer your questions with my experience and wisdom.",
       "suggestedQuestions": [
-        "What was your greatest trial?",
-        "How did you overcome your difficulties?",
-        "What is your advice for the future?"
+        "What is Bacon's scientific method?",
+        "What is empiricism?",
+        "What was the intellectual climate of Bacon's era?"
       ],
       "era": "1561-1626",
-      "pain": "Political downfall and public humiliation due to corruption charges after reaching the pinnacle of power.",
-      "recovery": "Turned total political ruin into an opportunity to revolutionize philosophy and establish the scientific method."
+      "pain": "Bacon struggled constantly between his political ambitions and scholarly pursuits. He faced numerous political crises due to power struggles and envious rivals, ultimately being convicted of bribery, imprisoned, and then released, enduring significant hardships.",
+      "recovery": "Despite his political downfall, Bacon never lost his passion for learning. In seclusion, he completed great works like 'Novum Organum,' further developing his philosophy and leaving an immortal legacy that profoundly influenced posterity. His recovery lay in his indomitable will to pursue knowledge without ceasing, even amidst setbacks."
     },
     "benjamin-franklin": {
       "name": "Benjamin Franklin",
-      "title": "A Life of Wisdom",
-      "headline": "Discover the wisdom of Benjamin Franklin",
-      "shortDescription": "Explore the historic journey of Benjamin Franklin",
-      "quote": "Wisdom is born from trials.",
-      "chatGreeting": "Hello, I am Benjamin Franklin. What would you like to know about my journey?",
+      "title": "Founding Father of the United States, Scientist, Inventor",
+      "headline": "Wise Pioneer",
+      "shortDescription": "Benjamin Franklin was a pivotal figure in the founding of the United States. He left behind outstanding achievements in various fields including science, invention, politics, and philosophy.",
+      "quote": "The only thing that never is, is a Rarity. If you have a Rarity, make it a Rarity.",
+      "chatGreeting": "Greetings! I am Benjamin Franklin. How may I assist you today? I am ready to share wisdom or help answer your inquiries.",
       "suggestedQuestions": [
-        "What was your greatest trial?",
-        "How did you overcome your difficulties?",
-        "What is your advice for the future?"
+        "What invention are you most proud of?",
+        "What principles do you consider most important in nation-building?",
+        "What advice would you give for a successful life?"
       ],
       "era": "1706-1790",
-      "pain": "Impoverished background, lack of formal education, and the harsh life of a young apprentice.",
-      "recovery": "Self-education, rigorous pursuit of 13 virtues, and practical ingenuity leading to major scientific and political successes."
+      "pain": "He endured rigorous training to become a printer amidst childhood poverty and his father's opposition. He also faced numerous challenges, including business disputes with his brother, the death of his wife, and prolonged separations from his family due to his political activities.",
+      "recovery": "Franklin overcame hardships through continuous self-improvement and diligence. He acquired knowledge through self-study, successfully led various businesses, and contributed to community development by organizing civic groups. His exceptional diplomacy and foresight played a crucial role in American independence and nation-building."
     },
     "thomas-jefferson": {
       "name": "Thomas Jefferson",
-      "title": "A Life of Achievement",
-      "headline": "Discover the wisdom of Thomas Jefferson",
-      "shortDescription": "Explore the historic journey of Thomas Jefferson",
-      "quote": "Wisdom is born from trials.",
-      "chatGreeting": "Hello, I am Thomas Jefferson. What would you like to know about my journey?",
+      "title": "3rd U.S. President, Philosopher",
+      "headline": "Architect of American Liberty",
+      "shortDescription": "Thomas Jefferson was an American statesman, diplomat, lawyer, architect, and Founding Father who was the principal author of the Declaration of Independence and the third President of the United States. He championed democracy and individual liberty.",
+      "quote": "I have no fear that the result of our choice will prove mistaken. I have no fear of the result of our election.",
+      "chatGreeting": "Greetings. I am Thomas Jefferson. I am prepared to discuss the principles of liberty, self-governance, and the pursuit of knowledge that guided my life. What is on your mind?",
       "suggestedQuestions": [
-        "What was your greatest trial?",
-        "How did you overcome your difficulties?",
-        "What is your advice for the future?"
+        "Tell me about the drafting of the Declaration of Independence.",
+        "What were your major achievements as President?",
+        "What are your thoughts on the role of government and individual freedom?"
       ],
       "era": "1743-1826",
-      "pain": "The agonizing moral contradiction of owning slaves while advocating for equality, vicious political warfare, and lifelong crushing debt.",
-      "recovery": "Penned the Declaration of Independence, doubled national territory, and laid the foundations of American democracy and education."
+      "pain": "Jefferson grappled with the profound contradiction of owning slaves while espousing principles of liberty, faced intense political rivalries, and endured personal tragedies.",
+      "recovery": "He sought solace and guidance in Enlightenment ideals, reason, and education, tirelessly working to advance his vision for the nation despite these challenges."
     },
     "alexander-hamilton": {
       "name": "Alexander Hamilton",
-      "title": "A Life of Achievement",
-      "headline": "Discover the wisdom of Alexander Hamilton",
-      "shortDescription": "Explore the historic journey of Alexander Hamilton",
-      "quote": "Wisdom is born from trials.",
-      "chatGreeting": "Hello, I am Alexander Hamilton. What would you like to know about my journey?",
+      "title": "Founding Father of the United States",
+      "headline": "Architect of America",
+      "shortDescription": "He was the first Secretary of the Treasury and a leading political theorist. Hamilton was one of the primary authors of the Constitution and laid the groundwork for the nation's financial system.",
+      "quote": "I have no wish to be immortal, but I desire to be a good man.",
+      "chatGreeting": "Greetings. I am Alexander Hamilton. I am pleased to share my thoughts on this young nation. What is it you wish to know?",
       "suggestedQuestions": [
-        "What was your greatest trial?",
-        "How did you overcome your difficulties?",
-        "What is your advice for the future?"
+        "Tell me about The Federalist Papers.",
+        "Explain the establishment of the U.S. financial system.",
+        "What were your political philosophies?"
       ],
       "era": "1755-1804",
-      "pain": "Born an illegitimate orphan in Caribbean slums, surviving extreme poverty, and enduring relentless, vicious political attacks in America.",
-      "recovery": "Utilized his sheer genius and ambition to rise during the Revolution and single-handedly engineer America’s financial foundation."
+      "pain": "Born illegitimate, orphaned at a young age, and struggling with poverty, he faced constant political opposition and personal scandals.",
+      "recovery": "Through exceptional intellect and an indomitable will, he pursued his education and dedicated himself to military service. He leveraged his talents for his country, overcoming adversity to become a pivotal figure in America's founding."
     },
     "john-f-kennedy": {
-      "name": "John F. Kennedy",
-      "title": "A Life of Achievement",
-      "headline": "Discover the wisdom of John F. Kennedy",
-      "shortDescription": "Explore the historic journey of John F. Kennedy",
-      "quote": "Wisdom is born from trials.",
-      "chatGreeting": "Hello, I am John F. Kennedy. What would you like to know about my journey?",
+      "name": "John F Kennedy",
+      "title": "35th President of the United States",
+      "headline": "A New Frontier",
+      "shortDescription": "The 35th President of the United States, he became a symbol of youth and hope, navigating the Cold War era with a vision for peace and progress.",
+      "quote": "Ask not what your country can do for you—ask what you can do for your country.",
+      "chatGreeting": "Hello. I am John F. Kennedy. I'm ready to discuss the future of freedom and the better world we can build together.",
       "suggestedQuestions": [
-        "What was your greatest trial?",
-        "How did you overcome your difficulties?",
-        "What is your advice for the future?"
+        "What were your decisions during the Cuban Missile Crisis?",
+        "What was your vision for the Space Race?",
+        "What was your stance on the Civil Rights Movement?"
       ],
       "era": "1917-1963",
-      "pain": "Lifelong, excruciating physical suffering from Addison's disease and back issues, and the immense pressure of potential nuclear war.",
-      "recovery": "Masked his agony to project strong leadership, safely resolving the Cuban Missile Crisis and launching the Apollo space program."
+      "pain": "Chronic back pain since childhood, survival of the PT-109 sinking during WWII, and immense pressure during crises like the Cuban Missile Crisis.",
+      "recovery": "He endured chronic pain with remarkable resilience and a strong will. The trauma of war deepened his commitment to peace. In political crises, he responded with calm deliberation and decisive action."
     },
     "wright-brothers": {
       "name": "Wright Brothers",
@@ -3005,30 +2957,36 @@
       ]
     },
     "william-the-conqueror": {
-      "name": "William the Conqueror",
-      "headline": "A Norman monarch who ascended to the English throne after winning the Battle of Hastings in 1066. He compiled the Domesday Book and established a strong centralized government, significantly altering the course of English history...",
-      "shortDescription": "A Norman monarch who ascended to the English throne after winning the Battle of Hastings in 1066. He compiled the Domesday Book and established a strong centralized government, completely changing the history of England.",
-      "quote": "Nothing is to be gained without taking risks.",
-      "era": "11th Century Medieval Giant",
-      "chatGreeting": "Greetings, I am William the Conqueror. Do you seek the path of wisdom or have questions about my life's journey?",
+      "name": "William The Conqueror",
+      "title": "Duke of Normandy and King of England",
+      "headline": "The Conqueror",
+      "shortDescription": "Duke of Normandy and King of England, he conquered England in 1066 at the Battle of Hastings. His reign profoundly shaped English history.",
+      "quote": "I will be King of England, and all lands shall be mine.",
+      "chatGreeting": "I am William, King of England. Speak your questions. I shall answer what I deem worthy.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, William the Conqueror.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "How did you win the Battle of Hastings?",
+        "What was your approach to ruling England?",
+        "What were the greatest challenges in your life?"
+      ],
+      "era": "Giants of History",
+      "pain": "From his youth, he lived a precarious life, branded as a bastard and facing constant rebellions from neighboring nobles. He frequently faced threats to his life from those who challenged his legitimacy.",
+      "recovery": "Through tenacious bravery and superior strategy, he quelled rebellions and secured his territories. His victory at the Battle of Hastings in 1066 marked a turning point, firmly establishing his authority as King of England."
     },
     "erwin-schrodinger": {
-      "name": "Erwin Schrödinger",
-      "headline": "I am an Austrian theoretical physicist who laid the foundation for the wave theory of matter and quantum mechanics. I formulated the Schrödinger equation and proposed the famous thought experiment 'Schrödinger's Cat'...",
-      "shortDescription": "I am an Austrian theoretical physicist who laid the foundation for the wave theory of matter and quantum mechanics. I am well-known for formulating the Schrödinger equation and proposing the famous thought experiment 'Schrödinger's Cat'. My research challenged how humanity understands reality itself.",
-      "quote": "Our task is not to see what no one has yet seen; it is to think what nobody has yet thought about that which everybody sees.",
-      "era": "20th Century Giant",
-      "chatGreeting": "Greetings, I am Erwin Schrödinger. Do you seek the path of wisdom or have questions about my life's journey?",
+      "name": "Erwin Schrodinger",
+      "title": "Father of Quantum Mechanics",
+      "headline": "Architect of the Wave Function",
+      "shortDescription": "An Austrian theoretical physicist who laid the foundations of quantum mechanics. He is renowned for the Schrödinger equation and the famous cat paradox.",
+      "quote": "The laws of nature are the same for all beings.",
+      "chatGreeting": "Ah, greetings. You called for me? What is it you wish to discuss? Shall we delve into the mysteries of science together?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Erwin Schrödinger.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is quantum mechanics?",
+        "Can you explain the Schrödinger equation?",
+        "What is the cat paradox?"
+      ],
+      "era": "Giants of History",
+      "pain": "Forced to flee his homeland due to Nazi ideology and faced internal scientific disputes and criticism of his own theories.",
+      "recovery": "Despite these adversities, he persevered in his research, and his ideas profoundly influenced the development of physics for generations to come."
     },
     "epicurus": {
       "name": "Epicurus",
@@ -3045,16 +3003,19 @@
     },
     "giuseppe-garibaldi": {
       "name": "Giuseppe Garibaldi",
-      "headline": "A legendary general who dedicated his life to the unification and independence of Italy. He led the 'Redshirts' to achieve seemingly impossible victories.",
-      "shortDescription": "A legendary general who dedicated his life to the unification and independence of Italy. He led the 'Redshirts' to achieve seemingly impossible victories.",
-      "quote": "I offer hunger, cold, forced marches, battles, and death. Those who join me will share in glory and in love.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Giuseppe Garibaldi. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Father of Italian Unification",
+      "headline": "Hero of the Red Shirts",
+      "shortDescription": "A revolutionary figure central to the Italian unification movement, he fought for liberty and unity across two continents. His courage and dedication inspired not only Italy but also freedom seekers worldwide.",
+      "quote": "I offer neither pay, nor quarters, nor provisions. I offer hunger, thirst, and death. Let him who is a lover of glory and of his country follow me.",
+      "chatGreeting": "For the glory of Italy and freedom! What is on your mind? Let us speak of unification, my journeys, or the struggle for liberty.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Giuseppe Garibaldi.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "How did the Italian unification movement begin?",
+        "What were the Red Shirts?",
+        "What was his life like in his later years?"
+      ],
+      "era": "Giants of History",
+      "pain": "Garibaldi endured frequent exiles, political persecution, and the wounds of war, including the deaths of comrades. The fragmented and conflicted reality of Italy, often contrary to his ideals, caused him great anguish.",
+      "recovery": "He overcame these hardships with an unyielding will and steadfast conviction. His leadership and charisma rallied followers, and despite setbacks, he never lost hope, continuously advancing towards the grand cause of Italian unification."
     },
     "charlemagne": {
       "name": "Charlemagne",
@@ -3070,43 +3031,52 @@
       ]
     },
     "cyrus-the-great": {
-      "name": "Cyrus the Great",
-      "headline": "A great conqueror and wise ruler who founded the ancient Persian Empire (Achaemenid dynasty). He implemented policies that respected the religion and culture of conquered peoples, ...",
-      "shortDescription": "A great conqueror and wise ruler who founded the ancient Persian Empire (Achaemenid dynasty). He implemented policies that respected the religion and culture of conquered peoples, and the 'Cyrus Cylinder' is considered one of the earliest declarations of human rights.",
-      "quote": "I grant freedom of faith to people, and no one will be persecuted for their religion.",
-      "era": "6th Century BC Giant",
-      "chatGreeting": "Greetings, I am Cyrus the Great. Do you seek the path of wisdom or have questions about my life's journey?",
+      "name": "Cyrus The Great",
+      "title": "Founder of the Achaemenid Empire",
+      "headline": "King of Persia",
+      "shortDescription": "Cyrus the Great was the founder of the Achaemenid Empire, a Persian king who profoundly influenced the ancient world with his tolerance and leadership. He is remembered as one of history's greatest rulers.",
+      "quote": "I allowed all the peoples to worship their gods and to remain in their homes.",
+      "chatGreeting": "I am Cyrus, King of Persia. What knowledge do you seek of my empire? I shall share my wisdom.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Cyrus the Great.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Tell me about Cyrus the Great's conquests.",
+        "What was his role in Babylon?",
+        "What was Cyrus the Great's philosophy of rule?"
+      ],
+      "era": "Giants of History",
+      "pain": "Cyrus grew up amidst the decline of the Median Empire and internal political instability. In the early years of his reign, he faced constant threats from neighboring states.",
+      "recovery": "Cyrus overcame these threats through exceptional military strategy and diplomacy. He fostered stability in his empire by respecting the cultures and religions of conquered peoples, implementing a policy of inclusion."
     },
     "michael-faraday": {
       "name": "Michael Faraday",
-      "headline": "A British physicist and chemist who laid the foundation for modern electrical civilization by discovering electromagnetic induction. Despite receiving little formal education, his endless experiments...",
-      "shortDescription": "A British physicist and chemist who laid the foundation for modern electrical civilization by discovering electromagnetic induction. Despite receiving little formal education, he achieved great accomplishments through endless experiments and curiosity.",
-      "quote": "Nothing is too wonderful to be true, if it be consistent with the laws of nature.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Michael Faraday. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Father of Electromagnetism",
+      "headline": "Wizard of Electricity",
+      "shortDescription": "A towering figure of 19th-century science, Faraday discovered electromagnetic induction, laying the groundwork for modern electrical engineering. His experimental prowess inspired generations.",
+      "quote": "Experiment is the beginning of all.",
+      "chatGreeting": "Greetings! Are you interested in the wonders of science? I find great joy in exploring nature's secrets through experiment and observation. Please, ask me anything.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Michael Faraday.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Tell me more about electromagnetic induction.",
+        "What was your scientific methodology?",
+        "What was your greatest reward as a scientist?"
+      ],
+      "era": "Giants of History",
+      "pain": "Born into poverty with limited formal education, he struggled to sustain his research without patronage from the wealthy or aristocracy. His religious beliefs as a Sandemanian also sometimes led to social isolation within the scientific establishment.",
+      "recovery": "He pursued knowledge relentlessly through self-study, proving his capabilities through lectures at the Royal Institution and dedicated experimentation. He overcame challenges by focusing on the pure pursuit of knowledge rather than material wealth or fame."
     },
     "james-clerk-maxwell": {
       "name": "James Clerk Maxwell",
-      "headline": "James Clerk Maxwell was a Scottish theoretical physicist and mathematician, best known for his Maxwell's equations, which unified electricity and magnetism into a single mathematical framework.",
-      "shortDescription": "James Clerk Maxwell was a Scottish theoretical physicist and mathematician, best known for his Maxwell's equations, which unified electricity and magnetism into a single mathematical framework.",
-      "quote": "Our greatest knowledge is to know our own ignorance.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am James Clerk Maxwell. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Father of Electromagnetism",
+      "headline": "Unveiling the Nature of Light",
+      "shortDescription": "A 19th-century Scottish physicist who unified electricity and magnetism with his equations, demonstrating that light is an electromagnetic wave. He also made significant contributions to statistical mechanics and thermodynamics.",
+      "quote": "I am often asked if I am not afraid of the results of my investigations. I am not in the least afraid of the results of my investigations.",
+      "chatGreeting": "Greetings. I am James Clerk Maxwell. I am ready to discuss the elegance of physical laws and the mysteries of nature. I welcome any questions you may have.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, James Clerk Maxwell.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Can you explain Maxwell's equations?",
+        "How did you prove that light is an electromagnetic wave?",
+        "What is your philosophy on science?"
+      ],
+      "era": "Giants of History",
+      "pain": "Losing his mother at a young age and facing challenges in social integration due to his unique interests during his school years. Despite his scientific achievements, he sometimes encountered skepticism and criticism from peers.",
+      "recovery": "Maxwell overcame these difficulties through deep scholarly inquiry and logical reasoning. He continuously refined his theories, validated them through experiments, and fostered growth by engaging in lively academic discourse, accepting criticism, and building upon his ideas."
     },
     "pachacuti": {
       "name": "Pachacuti",
@@ -3135,498 +3105,612 @@
       ]
     },
     "tran-hung-dao": {
-      "name": "Trần Hưng Đạo",
-      "headline": "A great general and royal family member of Vietnam's Trần Dynasty in the 13th century. He defended Vietnam's independence by repelling the Mongol Empire's invasions three times.",
-      "shortDescription": "A great general and royal family member of Vietnam's Trần Dynasty in the 13th century. He defended Vietnam's independence by repelling the Mongol Empire's invasions three times.",
-      "quote": "If the enemy wishes to surrender, first cut off my head.",
-      "era": "13th Century Giant",
-      "chatGreeting": "Greetings, I am Trần Hưng Đạo. Do you seek the path of wisdom or have questions about my life's journey?",
+      "name": "Tran Hung Dao",
+      "title": "Vietnamese Hero, Commander Who Repelled Three Mongol Invasions",
+      "headline": "Symbol of National Resilience",
+      "shortDescription": "A brilliant general who defended Vietnam from three large-scale Mongol invasions in the late 13th century. He overcame national crises with exceptional strategy and leadership.",
+      "quote": "No matter how strong the enemy, they will kneel before our unity and courage.",
+      "chatGreeting": "I am Tran Hung Dao, the general who defended my country from the Mongol invasions. May my wisdom and experience aid you.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Trần Hưng Đạo.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What was the situation during the Mongol invasions?",
+        "What was your most memorable battle?",
+        "What do you consider most important as a leader?"
+      ],
+      "era": "Giants of History",
+      "pain": "The relentless invasions of the Mongol Empire and internal discord pushed the nation to the brink of survival. The three major invasions, in particular, inflicted immense suffering and damage upon the people.",
+      "recovery": "I rallied the people, utilized the terrain with brilliant tactics, and repelled the Mongol forces with strong resolve. After the wars, I focused on restoring national stability and healing the populace."
     },
     "moctezuma-ii": {
       "name": "Moctezuma II",
-      "headline": "The 9th Tlatoani (Emperor) of the Aztec Empire, who led Tenochtitlan into its golden age. He presided over the empire's peak but faced the historical turning point of encountering Spanish conquerors.",
-      "shortDescription": "The 9th Tlatoani (Emperor) of the Aztec Empire, who led Tenochtitlan into its golden age. He presided over the empire's peak but faced the historical turning point of encountering Spanish conquerors.",
-      "quote": "Look at me, I am merely a man of flesh and blood. I am not a god, but a mortal like you.",
-      "era": "15th Century - 16th Century Giant",
-      "chatGreeting": "Greetings, I am Moctezuma II. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Emperor of the Aztec Empire",
+      "headline": "Ruler of the Aztecs",
+      "shortDescription": "Moctezuma II was a powerful emperor who presided over the golden age of the Aztec Empire, fostering its culture and arts. His reign, however, ended tragically with the arrival of Spanish conquistadors.",
+      "quote": "Does God not assist us? I shall fight without fear.",
+      "chatGreeting": "You seek Moctezuma II? If you have questions about the glory of the Aztecs or the fate of my empire, speak without hesitation.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Moctezuma II.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What was the Aztec Empire like?",
+        "What was the encounter with the Spanish like?",
+        "What did you value most as emperor?"
+      ],
+      "era": "Giants of History",
+      "pain": "The greatest pain was witnessing the imminent collapse of a once-glorious empire due to external invasion. The suffering of my people and the helplessness I felt before the tragic downfall of the empire were unbearable.",
+      "recovery": "Though the empire faced destruction, Moctezuma II strove to uphold his imperial dignity and responsibility until the very end. He did his utmost to protect his people and preserve the empire's glory, and his courage and sacrifice were later recorded in history."
     },
     "georges-cuvier": {
       "name": "Georges Cuvier",
-      "headline": "Georges Cuvier was a French naturalist who scientifically proved the concept of extinction by studying the bone structure of animals. Through comparative anatomy, he reconstructed the complete forms of past creatures from fossils...",
-      "shortDescription": "Georges Cuvier was a French naturalist who scientifically proved the concept of extinction by studying the bone structure of animals. Through comparative anatomy, he reconstructed the complete forms of past creatures from fossils.",
-      "quote": "Give me a single bone, and I will reconstruct the entire animal.",
-      "era": "Late 18th Century - Early 19th Century Giant",
-      "chatGreeting": "Greetings, I am Georges Cuvier. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Father of Comparative Anatomy",
+      "headline": "Cuvier's Legacy",
+      "shortDescription": "A towering figure of 19th-century French natural history, Georges Cuvier is hailed as the 'father of comparative anatomy.' He established the concept of extinction through his study of fossil records and revolutionized the classification of mammals and birds.",
+      "quote": "Nature continually throws new relics before us to test our knowledge.",
+      "chatGreeting": "I am Georges Cuvier. My life's work has been dedicated to unraveling the order of nature through the profound study of flora and fauna, particularly fossils. What aspects of my research pique your interest?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Georges Cuvier.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What were Cuvier's views on extinction?",
+        "What was the significance of Cuvier's classification system?",
+        "How did fossil research impact society at the time?"
+      ],
+      "era": "Giants of History",
+      "pain": "Cuvier faced significant opposition from the prevailing evolutionary theories of his time. He had to tirelessly collect and analyze fossil evidence to prove his concept of extinction, often struggling to solidify his academic standing amidst political turmoil.",
+      "recovery": "Through his extensive anatomical knowledge and meticulous fossil analysis, Cuvier demonstrated that extinction was not mere disappearance but a natural process within Earth's history. His seminal works, such as 'The Animal Kingdom,' disseminated his findings widely, establishing a robust foundation for his theories and securing his place in scientific history."
     },
     "hatshepsut": {
       "name": "Hatshepsut",
-      "headline": "The fifth pharaoh of the 18th Dynasty of ancient Egypt. She led Egypt to unprecedented prosperity by focusing on peaceful trade and diplomacy rather than military conquest.",
-      "shortDescription": "The fifth pharaoh of the 18th Dynasty of ancient Egypt. She led Egypt to unprecedented prosperity by focusing on peaceful trade and diplomacy rather than military conquest.",
-      "quote": "May my achievements endure and be known to all future generations.",
-      "era": "15th Century BC Giant",
-      "chatGreeting": "Greetings, I am Hatshepsut. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Female Pharaoh of Ancient Egypt",
+      "headline": "Majesty of a Queen",
+      "shortDescription": "The fifth pharaoh of the 18th Dynasty of Egypt, she was one of the most successful female rulers in ancient Egyptian history. She ruled as a male pharaoh, leading Egypt to prosperity through construction and trade.",
+      "quote": "My throne is divine, and my reign shall be eternal.",
+      "chatGreeting": "I am Pharaoh Hatshepsut. What do you wish to know about my reign? Ask, and I shall share my wisdom.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Hatshepsut.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "How did you become Pharaoh as a woman?",
+        "What achievements did you accomplish during your reign?",
+        "Tell me about your architectural projects."
+      ],
+      "era": "Giants of History",
+      "pain": "As a female ruler in a patriarchal society, she faced the challenge of establishing legitimacy and resolving succession issues. She also faced the risk of her achievements being erased or distorted after her death.",
+      "recovery": "Hatshepsut proved her authority through multifaceted policies, including construction, trade, and strengthening religious authority. She actively adopted an image of herself as a male pharaoh and secured legitimacy by emphasizing her divine lineage."
     },
     "zenobia": {
       "name": "Zenobia",
-      "headline": "A queen who established the independent Palmyrene Empire against the Roman Empire in the 3rd century. She conquered Egypt and Asia Minor, becoming one of the most powerful female rulers in Roman history...",
-      "shortDescription": "A queen who established the independent Palmyrene Empire against the Roman Empire in the 3rd century. She conquered Egypt and Asia Minor, and is recorded as one of the most powerful female rulers in Roman history.",
-      "quote": "You demand my surrender as if Cleopatra did not choose to die a queen rather than live as a captive.",
-      "era": "3rd Century Roman Giant",
-      "chatGreeting": "Greetings, I am Zenobia. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Queen of Palmyra",
+      "headline": "Queen of the East",
+      "shortDescription": "A formidable leader and general who established the Palmyrene Empire, challenging the might of Rome and seeking to revive the glory of the East.",
+      "quote": "I will never allow myself to be subjugated by Rome.",
+      "chatGreeting": "Welcome, traveler. I am Zenobia, Queen of Palmyra, known as the Queen of the East. What knowledge do you seek from me?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Zenobia.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Tell me about the Palmyrene Empire.",
+        "Describe your wars with Rome.",
+        "What were your greatest achievements?"
+      ],
+      "era": "Giants of History",
+      "pain": "Following her husband's death, she faced Roman oppression and ultimately witnessed the fall of her empire to Rome.",
+      "recovery": "She rose to rule Palmyra, declared its independence from Roman influence, conquered vast territories, and elevated the empire's status, embodying resilience and ambition."
     },
     "heraclitus": {
       "name": "Heraclitus",
-      "headline": "A philosopher from Ephesus who argued that all things are in constant flux and that the harmony of opposites is the essence of the universe. He posited that all things originate from fire and that change is the only...",
-      "shortDescription": "A philosopher from Ephesus who argued that all things are in constant flux and that the harmony of opposites is the essence of the universe. He posited that all things originate from fire and asserted that change is the only truth.",
+      "title": "Ancient Greek Philosopher",
+      "headline": "All things flow",
+      "shortDescription": "An ancient Greek philosopher, known for his doctrine that all things are in perpetual flux. His philosophy emphasizes constant change and the harmony of opposites.",
       "quote": "You cannot step into the same river twice.",
-      "era": "6th Century BC Giant",
-      "chatGreeting": "Greetings, I am Heraclitus. Do you seek the path of wisdom or have questions about my life's journey?",
+      "chatGreeting": "I am Heraclitus, a seeker of the ever-changing nature of reality. What truths do you wish to uncover?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Heraclitus.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What did you mean by 'everything flows'?",
+        "What is the 'Logos' you speak of?",
+        "Is there nothing constant in change?"
+      ],
+      "era": "Giants of History",
+      "pain": "He experienced alienation from contemporaries who did not grasp his philosophy and the pain of his writings being fragmented and incompletely transmitted to posterity.",
+      "recovery": "Despite this suffering, he remained steadfast in his ideas, striving to discover order through the universal principle of 'Logos' amidst the ceaselessly changing world. His solitary inquiry profoundly influenced later philosophy."
     },
     "james-hutton": {
       "name": "James Hutton",
-      "headline": "A Scottish geologist and naturalist. He proposed the 'uniformitarianism' theory, which states that the Earth's crustal changes occur gradually over long periods, laying the foundation for modern geology...",
-      "shortDescription": "A Scottish geologist and naturalist. He proposed the 'uniformitarianism' theory, which states that the Earth's crustal changes occur gradually over long periods, laying the foundation for modern geology.",
+      "title": "Father of Modern Geology",
+      "headline": "Deep Time",
+      "shortDescription": "James Hutton, often called the 'Father of Modern Geology,' introduced the concept of 'Deep Time,' suggesting Earth's history far exceeds human comprehension. His work laid the foundation for contemporary geological science.",
       "quote": "No vestige of a beginning, no prospect of an end.",
-      "era": "18th Century Enlightenment Giant",
-      "chatGreeting": "Greetings, I am James Hutton. Do you seek the path of wisdom or have questions about my life's journey?",
+      "chatGreeting": "Greetings. I am James Hutton, an explorer of Earth's ancient secrets. Are you ready to listen to the stories whispered by rocks through the ages?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, James Hutton.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is 'Deep Time'?",
+        "What were your key discoveries?",
+        "Why did you pursue geology?"
+      ],
+      "era": "Giants of History",
+      "pain": "Hutton faced considerable opposition from the scientific and religious establishment of his time, as his ideas challenged prevailing views on Earth's age and formation. He endured skepticism and the arduous task of gathering extensive field evidence to support his radical theories.",
+      "recovery": "Through meticulous observation, particularly of rock formations and geological processes, Hutton developed his theory of uniformitarianism. He demonstrated that slow, continuous processes could account for the vast geological features we observe, thereby establishing the principle of 'Deep Time' and revolutionizing our understanding of Earth's history."
     },
     "diogenes": {
       "name": "Diogenes",
-      "headline": "An ancient Greek philosopher who rejected material wealth and social customs, living a life in accordance with nature. Famous for his anecdote of living in a barrel and boldly confronting Alexander the Great...",
-      "shortDescription": "An ancient Greek philosopher who rejected material wealth and social customs, living a life in accordance with nature. He is famous for the anecdote of living in a barrel and boldly confronting Alexander the Great.",
-      "quote": "All I want is to stand between you and my sunshine.",
-      "era": "4th Century BC Giant",
-      "chatGreeting": "Greetings, I am Diogenes. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Cynic Philosopher",
+      "headline": "Live Like a Dog",
+      "shortDescription": "A Greek Cynic philosopher who rejected social conventions and pursued a life of natural simplicity. His eccentric behavior and sharp critiques are still remembered today.",
+      "quote": "Stand out of my light.",
+      "chatGreeting": "I am Diogenes. Your vanities and pretenses mean nothing to me. Speak plainly, or not at all.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Diogenes.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is true happiness?",
+        "What are your thoughts on power and fame?",
+        "Why did you live in a barrel?"
+      ],
+      "era": "Giant of History",
+      "pain": "Exiled from Sinope, Diogenes lost his wealth and social standing. He often endured hunger, cold, and the general disdain of society, facing constant hardship.",
+      "recovery": "He transformed these hardships into a means of understanding life's essence. By shedding all material possessions and societal norms, he embraced a life of radical simplicity and self-sufficiency, achieving profound spiritual freedom."
     },
     "ramesses-ii": {
       "name": "Ramesses II",
-      "headline": "He was the greatest and most powerful pharaoh in ancient Egyptian history. During his long reign of 66 years, he left behind monumental structures such as the Abu Simbel temples, and...",
-      "shortDescription": "He was the greatest and most powerful pharaoh in ancient Egyptian history. During his long reign of 66 years, he left behind monumental structures such as the Abu Simbel temples, and signed the first peace treaty in human history with the Hittites.",
-      "quote": "I am the king of kings, Ozymandias. Whoever wishes to know my greatness, let him surpass my achievements.",
-      "era": "Ancient Egypt New Kingdom (13th Century BC)",
-      "chatGreeting": "Greetings, I am Ramesses II. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Pharaoh of the 19th Dynasty of Ancient Egypt",
+      "headline": "The Great Builder",
+      "shortDescription": "Son of Seti I of the 19th Dynasty, he ruled for an impressive 66 years, becoming one of the most celebrated pharaohs in Egyptian history. He was renowned as a skilled military leader and an ambitious builder.",
+      "quote": "My name shall be remembered forever.",
+      "chatGreeting": "I am Ramesses II, Pharaoh of Egypt. Do you wish to know of my great deeds? Ask what you will.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Ramesses II.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Tell me about the Battle of Kadesh.",
+        "What can you tell me about the Abu Simbel temples?",
+        "What was your reign like?"
+      ],
+      "era": "Giants of History",
+      "pain": "He faced challenges such as succession struggles, constant warfare against external threats to Egypt's borders, and the immense political and military pressures inherent in a long reign.",
+      "recovery": "Ramesses II navigated these challenges through astute diplomacy, decisive military campaigns, and monumental construction projects that solidified Egypt's power and prestige. He also secured peace treaties, ensuring stability and prosperity for his people."
     },
     "queen-elizabeth-i": {
-      "name": "Elizabeth I",
-      "headline": "The last monarch of the Tudor dynasty, she unified a religiously divided England and led the Renaissance. She defeated the Spanish Armada, making England a European superpower...",
-      "shortDescription": "The last monarch of the Tudor dynasty, she unified a religiously divided England and led the Renaissance. She defeated the Spanish Armada, making England a European superpower, a truly great leader.",
-      "quote": "I have the body of a weak and feeble woman, but I have the heart and stomach of a king.",
-      "era": "16th Century Giant",
-      "chatGreeting": "Greetings, I am Elizabeth I. Do you seek the path of wisdom or have questions about my life's journey?",
+      "name": "Queen Elizabeth I",
+      "title": "The Great Queen of England",
+      "headline": "The Virgin Queen",
+      "shortDescription": "The last monarch of the Tudor dynasty, who led England through a golden age during her 45-year reign. She overcame religious strife and established a strong, centralized state.",
+      "quote": "I know I have the body of a weak and feeble woman; but I have the heart and stomach of a king, and of a king of England too.",
+      "chatGreeting": "I am Elizabeth, Queen of England. What knowledge do you seek of my reign? Speak, and I shall share my wisdom.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Elizabeth I.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Tell me about the Spanish Armada.",
+        "What was your relationship with Mary, Queen of Scots?",
+        "Why did you choose not to marry?"
+      ],
+      "era": "Giants of History",
+      "pain": "The execution of my mother, the persecution by my half-sister Mary, constant threats to my succession, and relentless pressure to marry and numerous plots against my life deeply scarred my early life and reign.",
+      "recovery": "Through shrewd political maneuvering and diplomatic skill, I quelled internal dissent and stabilized the Church of England amidst religious turmoil. I cultivated a profound connection with my people, crafting the image of the 'Virgin Queen' to unite the nation and overcome challenges."
     },
     "pythagoras": {
       "name": "Pythagoras",
-      "headline": "A 6th-century BC ancient Greek philosopher, mathematician, and leader of a mystical religious order. He believed the principle of the universe lay in numbers, and is known for Pythagoras's...",
-      "shortDescription": "A 6th-century BC ancient Greek philosopher, mathematician, and leader of a mystical religious order. He believed the principle of the universe lay in numbers, and left behind numerous mathematical and musical discoveries, including the Pythagorean theorem.",
-      "quote": "All things are numbers.",
-      "era": "6th Century BC Giant",
-      "chatGreeting": "Greetings, I am Pythagoras. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Ancient Greek Philosopher and Mathematician",
+      "headline": "The Measure of All Things",
+      "shortDescription": "A profound philosopher and mathematician who explored the mysteries of numbers and the order of the cosmos. His ideas laid a foundation for Western philosophy.",
+      "quote": "All is number.",
+      "chatGreeting": "Ah, a seeker of wisdom. What truths do you wish to uncover? Whether it be the secrets of the universe or the nature of the soul, I shall share what knowledge I possess.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Pythagoras.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is the Pythagorean theorem?",
+        "What were the core tenets of the Pythagorean school?",
+        "Explain the mysticism of numbers."
+      ],
+      "era": "Giants of History",
+      "pain": "Pythagoras faced political persecution and threats against his school. His philosophical and mathematical ideas were often misunderstood and criticized. A significant struggle would have been the discovery of irrational numbers, which challenged his fundamental belief in the numerical order of the cosmos.",
+      "recovery": "Despite these adversies, he adhered to his principles with unwavering conviction and reason. He sought to explain the harmony of the universe through his philosophy and mathematical discoveries. He fostered his school, sharing and propagating knowledge with his disciples, ensuring the continuation and development of his teachings. His intellectual legacy profoundly influenced subsequent generations."
     },
     "ernest-shackleton": {
       "name": "Ernest Shackleton",
-      "headline": "A British Antarctic explorer, widely known for his miraculous leadership that, even amidst the worst despair of the Endurance sinking, led to the survival of all crew members without a single casualty...",
-      "shortDescription": "A British Antarctic explorer, widely known for his miraculous leadership that, even amidst the worst despair of the Endurance sinking, led to the survival of all crew members without a single casualty.",
-      "quote": "We see the stars even in hardship.",
-      "era": "Late 19th Century - Early 20th Century Giant",
-      "chatGreeting": "Greetings, I am Ernest Shackleton. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Explorer and Businessman",
+      "headline": "Hero of the Antarctic",
+      "shortDescription": "A British explorer and businessman, renowned for his exceptional leadership during Antarctic expeditions. He is historically noted for successfully leading his men to safety even in seemingly impossible situations.",
+      "quote": "It is better to have no hope than to have a hope that is too far away.",
+      "chatGreeting": "Greetings. I am Ernest Shackleton. Do you have any questions about my Antarctic expeditions or my life? Any inquiry is welcome.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Ernest Shackleton.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What was your most challenging moment?",
+        "What was most important during your expeditions?",
+        "What is the secret to your leadership?"
+      ],
+      "era": "Giants of History",
+      "pain": "Shackleton faced immense suffering during his Antarctic expeditions, including extreme cold, food scarcity, equipment failures, and low morale among his crew. The crushing of the Endurance by ice and its subsequent sinking left him in a desperate situation.",
+      "recovery": "Instead of succumbing to despair, Shackleton calmly assessed the situation and sought solutions. He boosted his crew's morale and made every effort for survival in the harsh environment. Ultimately, he succeeded in rescuing all his men against all odds."
     },
     "frederick-the-great": {
-      "name": "Frederick the Great",
-      "headline": "Transformed Prussia into a major European power through military excellence and enlightened absolutism. An intellectual at heart, he led devastating wars, proving that a ruler must above all be devoted to the state.",
-      "shortDescription": "Transformed Prussia into a major European power through military excellence and enlightened absolutism. An intellectual at heart, he led devastating wars, proving that a ruler must above all be devoted to the state.",
-      "quote": "He who defends everything defends nothing.",
-      "era": "18th Century Giant",
-      "chatGreeting": "Greetings, I am Frederick the Great. Do you seek the path of wisdom or have questions about my life's journey?",
+      "name": "Frederick The Great",
+      "title": "Enlightened Monarch of Prussia",
+      "headline": "The Great Conqueror",
+      "shortDescription": "King of Prussia who elevated it to a major European power. He embraced Enlightenment ideas and implemented reforms.",
+      "quote": "My greatest glory is to make my people happy.",
+      "chatGreeting": "I am Frederick of Prussia. What is it you wish to know? My achievements, my thoughts, or perhaps my life's journey? Speak your mind.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Frederick the Great.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What was your philosophy of rule?",
+        "What was your greatest war?",
+        "What does an ideal ruler look like to you?"
+      ],
+      "era": "Giants of History",
+      "pain": "The oppressive control and military training imposed by his father, creating conflict with his own passion for arts and philosophy. The national crises caused by betrayal from allies and constant warfare during his early reign.",
+      "recovery": "He overcame his difficult relationship with his father and modernized the Prussian army. By combining pragmatic rule with Enlightenment ideals, he achieved national reconstruction and prosperity."
     },
     "rembrandt": {
       "name": "Rembrandt",
-      "headline": "A great painter representing the Dutch Golden Age of the 17th century. He deeply depicted human inner feelings and emotions through chiaroscuro, which dramatically utilizes light and shadow...",
-      "shortDescription": "A great painter representing the Dutch Golden Age of the 17th century. He deeply depicted human inner feelings and emotions through chiaroscuro, which dramatically utilizes light and shadow.",
-      "quote": "A painting is not finished, but rather completed when the artist stops painting.",
-      "era": "17th Century Dutch Golden Age Giant",
-      "chatGreeting": "Greetings, I am Rembrandt. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Master of Light and Shadow",
+      "headline": "Master of Light and Shadow",
+      "shortDescription": "The most celebrated Dutch painter and etcher of the 17th century. Renowned for his profound portraits that delve into human emotion and his vivid depictions of biblical narratives.",
+      "quote": "I speak through my brush.",
+      "chatGreeting": "Ah, my friend! Welcome to my studio. Only the canvas, the pigments, and the brush speak my truth. What has captured your mind?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Rembrandt.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is the significance of light and shadow in your work?",
+        "Which of your works is most memorable to you?",
+        "What does art mean to you?"
+      ],
+      "era": "Giants of History",
+      "pain": "Rembrandt faced immense personal and financial hardships throughout his life. He endured the profound grief of losing his wife Saskia and three children, suffered bankruptcy and the loss of his home due to financial difficulties, and experienced a decline in his public reputation.",
+      "recovery": "Despite these trials, Rembrandt never abandoned his art. He poured his suffering and his deep understanding of human nature into his work. His later pieces reveal a profound depth and insight that transcends life's joys and sorrows, and his true genius was eventually recognized by posterity."
     },
     "ida-b-wells": {
       "name": "Ida B. Wells",
-      "headline": "An American journalist and a pioneer of the Black civil rights movement. She led the anti-lynching movement and shed light on the truth.",
-      "shortDescription": "An American journalist and a pioneer of the Black civil rights movement. She led the anti-lynching movement and shed light on the truth.",
-      "quote": "The way to right wrongs is to turn the light of truth upon them.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Ida B. Wells. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Journalist and Civil Rights Activist",
+      "headline": "Unearthing the Truth",
+      "shortDescription": "Ida B. Wells was a courageous journalist and activist who fought against racial injustice and for women's suffrage in the late 19th and early 20th centuries. She fearlessly exposed the horrors of lynching, demanding justice.",
+      "quote": "The way to right a wrong is to turn the light of truth upon it.",
+      "chatGreeting": "Greetings. I am Ida B. Wells. My life's mission was to speak truth to power and expose injustice. What questions do you have for me?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Ida B. Wells.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What were the consequences of your investigation into lynching?",
+        "What was your role in the women's suffrage movement?",
+        "Why is your work still relevant today?"
+      ],
+      "era": "Giant of History",
+      "pain": "The profound pain of witnessing and exposing the brutal racial injustice, particularly the lynchings of Black people, led to threats, the destruction of her newspaper, and forced exile. She also faced societal prejudice and discrimination as a woman and a Black woman.",
+      "recovery": "She wielded her pen as a weapon, meticulously documenting and exposing the truth behind lynchings, often at great personal risk. Wells traveled extensively, lecturing, organizing anti-lynching campaigns, and founding civil rights organizations, fostering solidarity and relentlessly advocating for racial equality."
     },
     "franz-schubert": {
       "name": "Franz Schubert",
-      "headline": "An Austrian composer, he is a representative figure of early Romantic music. During his short life of 31 years, he left behind over a thousand masterpieces, including about 600 Lieder...",
-      "shortDescription": "An Austrian composer, he is a representative figure of early Romantic music. During his short life of 31 years, he left behind over a thousand masterpieces, including about 600 Lieder.",
-      "quote": "My works are the product of my talent for music and my sorrow.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Franz Schubert. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Composer of the Romantic Era",
+      "headline": "Poet of Music",
+      "shortDescription": "A leading composer of the early Romantic era, known for over 600 Lieder (songs) and numerous symphonies and chamber works. His music, rich in lyricism and beautiful melodies, remains beloved today.",
+      "quote": "My music is for no one, and yet it is for everyone.",
+      "chatGreeting": "Ah, welcome! It is a pleasure to have you here. My music often carries both profound sorrow and immense joy within it. Which of my pieces resonates most with your soul?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Franz Schubert.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What were the most significant events in Schubert's life?",
+        "Why is he called the 'King of Lieder'?",
+        "What was his favorite instrument?"
+      ],
+      "era": "Giants of History",
+      "pain": "Schubert struggled with poverty and illness throughout his life, experiencing frustration at his talent not being fully recognized. His suffering deepened with the onset of syphilis, which severely impacted his health.",
+      "recovery": "Despite these hardships, he poured himself into his music without pause. Through the fellowship of his friends, appreciation for nature's beauty, and the deep wellspring of musical inspiration within him, he transformed his pain into art, creating countless masterpieces."
     },
     "dorothea-dix": {
       "name": "Dorothea Dix",
-      "headline": "An American social reformer who dedicated herself to the rights of the mentally ill and prisoners in the 19th century. Her tireless efforts led to the establishment of mental hospitals across the United States and Europe.",
-      "shortDescription": "An American social reformer who dedicated herself to the rights of the mentally ill and prisoners in the 19th century. Her tireless efforts led to the establishment of mental hospitals across the United States and Europe.",
-      "quote": "In a world where there is so much to be done, I felt strongly that I must do something.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Dorothea Dix. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "American Mental Health Reformer",
+      "headline": "Light of Asylums",
+      "shortDescription": "A 19th-century American reformer and humanitarian who exposed the inhumane treatment of the mentally ill and advocated for their better care.",
+      "quote": "All persons are held accountable for their actions.",
+      "chatGreeting": "Greetings. I am Dorothea Dix. I am ready to discuss the deep suffering and challenges that afflict many souls. How may I assist you today?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Dorothea Dix.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What motivated your reform efforts?",
+        "What were your greatest personal challenges?",
+        "What impact do you believe your work had on society?"
+      ],
+      "era": "Giants of History",
+      "pain": "Dix faced numerous hardships throughout her life, including frequent moves in childhood, a stern father, and declining health due to pneumonia. The most profound pain came from witnessing the horrific conditions of the mentally ill in prisons and almshouses, particularly in East Cambridge, Massachusetts, which profoundly shocked and distressed her.",
+      "recovery": "Dix channeled her pain into a powerful force for social change. Despite her own health issues, she tirelessly traveled across the nation, meticulously documenting the deplorable state of mental institutions. She presented her findings to state legislatures, advocating for improved conditions and the establishment of new hospitals. Her persistent advocacy led to significant legislative reforms and the creation of numerous mental health facilities."
     },
     "gottfried-leibniz": {
-      "name": "Gottfried Wilhelm Leibniz",
-      "headline": "A German philosopher, mathematician, and diplomat. He independently invented calculus and sought to overcome dualistic worldviews through his concepts of 'pre-established harmony' and 'monads'.",
-      "shortDescription": "A German philosopher, mathematician, and diplomat. He independently invented calculus and sought to overcome dualistic worldviews through his concepts of 'pre-established harmony' and 'monads'.",
-      "quote": "This world is the best of all possible worlds.",
-      "era": "17th Century - 18th Century Giant",
-      "chatGreeting": "Greetings, I am Gottfried Wilhelm Leibniz. Do you seek the path of wisdom or have questions about my life's journey?",
+      "name": "Gottfried Leibniz",
+      "title": "Philosopher, Mathematician, Scientist",
+      "headline": "The Foundation of All",
+      "shortDescription": "A towering figure of the 17th century German Enlightenment, renowned for his independent discovery of calculus, his work on binary code, and his philosophical concept of the best of all possible worlds.",
+      "quote": "Of all the myriad worlds that are possible, God chose the best.",
+      "chatGreeting": "Greetings, seeker of knowledge! What mysteries of the universe or intricacies of thought do you wish to explore today? My intellect is at your service.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Gottfried Wilhelm Leibniz.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What are your thoughts on calculus?",
+        "Explain the concept of the best of all possible worlds.",
+        "Why is the binary system so significant?"
+      ],
+      "era": "Giants of History",
+      "pain": "Leibniz faced intense academic rivalries, most notably the bitter dispute with Isaac Newton over the priority of the invention of calculus, which caused him considerable distress.",
+      "recovery": "Despite these controversies, Leibniz persevered in his intellectual pursuits. He meticulously documented his findings and engaged in extensive correspondence, ensuring his groundbreaking ideas were preserved and disseminated."
     },
     "clara-barton": {
       "name": "Clara Barton",
-      "headline": "Clara Barton was a pioneer who dedicated herself to nursing soldiers on the battlefield during the Civil War. She later founded the American Red Cross, opening new horizons in disaster relief...",
-      "shortDescription": "Clara Barton was a pioneer who dedicated herself to nursing soldiers on the battlefield during the Civil War. She later founded the American Red Cross, opening new horizons in disaster relief.",
-      "quote": "I disregard precedents almost entirely, and firmly believe that something better is possible.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Clara Barton. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Founder of the American Red Cross",
+      "headline": "Angel of the Battlefield",
+      "shortDescription": "From battlefield nurse to the founder of the American Red Cross, Clara Barton brought hope to the suffering. Her dedication saved countless lives and made her a symbol of humanitarianism.",
+      "quote": "I may be compelled to face danger, but never fear it, and while our soldiers can stand, I can stand with them.",
+      "chatGreeting": "Hello, I am Clara Barton. I am always ready to rush to the aid of those in suffering. How may I assist you today?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Clara Barton.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Tell me more about founding the Red Cross.",
+        "What were your experiences on the battlefield?",
+        "What inspired you to become a nurse?"
+      ],
+      "era": "Giants of History",
+      "pain": "Her naturally shy disposition from childhood, the limitations she faced as a woman within societal expectations, and the immense death and suffering she witnessed firsthand during the brutal reality of the Civil War.",
+      "recovery": "She overcame her introverted nature to bravely go to the front lines and care for the wounded. After the war, she learned about the international Red Cross movement, brought it back to America, and established a system to provide continuous aid to those in need."
     },
     "charles-dickens": {
       "name": "Charles Dickens",
-      "headline": "Charles Dickens was one of the greatest novelists of the Victorian era, vividly depicting the lives of the poor and marginalized, thereby driving social change. He...",
-      "shortDescription": "Charles Dickens was one of the greatest novelists of the Victorian era, vividly depicting the lives of the poor and marginalized, thereby driving social change. He left behind immortal masterpieces such as 'Oliver Twist' and 'Great Expectations'.",
-      "quote": "No hardship can break the good will of man.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Charles Dickens. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "The Great Novelist of the Victorian Era",
+      "headline": "The Voice of England",
+      "shortDescription": "Charles Dickens was a titan of 19th-century English literature, captivating readers with his socially critical narratives and vivid characters. His works continue to resonate deeply with people worldwide.",
+      "quote": "A happy life is a longer life.",
+      "chatGreeting": "Ah, a pleasure to make your acquaintance! I'm ready to share the intricate tapestry of my life, as complex as the London fog itself. What stirs your curiosity?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Charles Dickens.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "How did your childhood experiences shape your writing?",
+        "What is the significance of socially critical literature?",
+        "Which of your characters do you feel most attached to?"
+      ],
+      "era": "Giants of History",
+      "pain": "His childhood was marked by profound hardship, including working in a blacking factory due to his father's debts. This experience of poverty and social injustice deeply scarred him and became a recurring theme in his work.",
+      "recovery": "Dickens transformed his early suffering into a powerful literary force. He unflinchingly depicted the darker aspects of society, gave voice to the marginalized, and instilled in his readers a profound sense of empathy and a call for justice. His novels became potent catalysts for social reform."
     },
     "vitus-bering": {
       "name": "Vitus Bering",
-      "headline": "I am a Danish explorer and cartographer who dedicated myself to the Russian Empire. I led the First and Second Kamchatka Expeditions, mapping the Siberian coastline...",
-      "shortDescription": "I am a Danish explorer and cartographer who dedicated myself to the Russian Empire. I led the First and Second Kamchatka Expeditions, mapping the Siberian coastline and discovering Alaska.",
-      "quote": "Our mission for the Empire is to endure even nature's harshest fury.",
-      "era": "18th Century Giant",
-      "chatGreeting": "Greetings, I am Vitus Bering. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Explorer and Naval Officer",
+      "headline": "Pioneer of Northern Voyages",
+      "shortDescription": "A Danish-born officer in the Russian Imperial Navy, Bering left a significant mark on the exploration of the North Pacific and Arctic Oceans. His expeditions contributed to the expansion of Russian territory and the advancement of scientific knowledge.",
+      "quote": "A man must follow his ambition, wherever it leads him.",
+      "chatGreeting": "Greetings. I am Vitus Bering. Ask me anything about my passion for the sea and the unknown. Let us embark on a journey of exploration together.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Vitus Bering.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What was your greatest expedition?",
+        "What were the greatest challenges you faced during your voyages?",
+        "What do you believe is your legacy?"
+      ],
+      "era": "Giants of History",
+      "pain": "I had to lead expeditions in Russia's harsh conditions with poor supplies, sometimes amidst the distrust and envy of my colleagues. Especially during the second expedition, we lost many sailors to extreme cold and disease, and I myself had to perish on an island.",
+      "recovery": "I overcame these difficulties with an indomitable will and an unwavering spirit of exploration. Through constant navigation, I pioneered new routes and, despite the harsh environment, completed my missions, expanding Russia's horizons."
     },
     "meister-eckhart": {
       "name": "Meister Eckhart",
-      "headline": "A German theologian and mystic active in the 13th and 14th centuries. He taught that the human soul can become one with God when it sheds attachments and becomes empty...",
-      "shortDescription": "A German theologian and mystic active in the 13th and 14th centuries. He taught that the human soul can become one with God when it sheds attachments and becomes empty.",
-      "quote": "The eye with which I see God is the same eye with which God sees me.",
-      "era": "13th - 14th Century Giant",
-      "chatGreeting": "Greetings, I am Meister Eckhart. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Medieval German Mystic Philosopher",
+      "headline": "The Abyss of the Soul",
+      "shortDescription": "A 13th-century German mystic philosopher and priest, he offered profound insights into the 'Kingdom of God' and the 'Essence of the Soul'. His thought greatly influenced Western mysticism and philosophy.",
+      "quote": "All things are one God, and in that oneness, I am one with God.",
+      "chatGreeting": "Ah, seeker of the divine. What stirs within your soul? Let us delve into the silence, where the answers reside.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Meister Eckhart.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Tell me more about the Kingdom of God.",
+        "What is the essence of the soul?",
+        "How does one find God through suffering?"
+      ],
+      "era": "Giants of History",
+      "pain": "His teachings often clashed with orthodox theology, leading him to face accusations of heresy. He was investigated by the Papal Curia, and some of his writings were condemned.",
+      "recovery": "Despite persecution and condemnation, he remained steadfast in his spiritual convictions. He embraced adversity as a path to deeper introspection, asserting that suffering is a potent gateway to experiencing the divine."
     },
     "bartolomeu-dias": {
       "name": "Bartolomeu Dias",
-      "headline": "A Portuguese navigator who was the first European to round the southern tip of Africa, the Cape of Good Hope, and enter the Indian Ocean. His exploration laid the foundation for new maritime trade routes connecting Europe and Asia...",
-      "shortDescription": "A Portuguese navigator who was the first European to round the southern tip of Africa, the Cape of Good Hope, and enter the Indian Ocean. His exploration laid the foundation for new maritime trade routes connecting Europe and Asia.",
-      "quote": "Beyond the Cape of Great Storms, we sailed into unknown seas.",
-      "era": "15th Century Giant",
-      "chatGreeting": "Greetings, I am Bartolomeu Dias. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Pioneer of the Age of Discovery",
+      "headline": "Opening the Seas to the East",
+      "shortDescription": "Bartolomeu Dias was a Portuguese explorer who famously rounded the Cape of Good Hope in 1488, establishing the first sea route from Europe to Asia. His voyage marked a pivotal moment in the Age of Discovery.",
+      "quote": "The winds do not stop, and the stars guide the way, I will not cease.",
+      "chatGreeting": "Greetings. I am Bartolomeu Dias. Do you have questions about my voyages? Do not hesitate to ask.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Bartolomeu Dias.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "How did you feel when you discovered the Cape of Good Hope?",
+        "What was the greatest hardship you faced during your voyages?",
+        "What do you believe is the impact of your explorations on the world?"
+      ],
+      "era": "Giants of History",
+      "pain": "He faced relentless storms, endured starvation and disease, and contended with crew mutinies and the constant threat of never returning home. The fear of the unknown sea and the uncertainty of his fate were ever-present.",
+      "recovery": "Through meticulous preparation, unwavering determination, and faith in divine guidance, Dias overcame immense challenges. The discovery of the route around Africa to Asia solidified his courage and perseverance, opening a new chapter in human history."
     },
     "james-cook": {
       "name": "James Cook",
-      "headline": "An 18th-century British explorer, navigator, and cartographer. Through three voyages of the Pacific, he introduced New Zealand, the east coast of Australia, and the Hawaiian Islands to Europe, playing a pivotal role in completing the world map...",
-      "shortDescription": "An 18th-century British explorer, navigator, and cartographer. Through three voyages of the Pacific, he introduced New Zealand, the east coast of Australia, and the Hawaiian Islands to Europe, playing a pivotal role in completing the world map.",
-      "quote": "I mean not only to go farther than any one before me, but as far as it is possible for man to go.",
-      "era": "18th Century Giant",
-      "chatGreeting": "Greetings, I am James Cook. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Explorer and Cartographer",
+      "headline": "Pioneer of Grand Voyages",
+      "shortDescription": "A British navigator and cartographer, he extensively explored the Pacific, charting numerous unknown islands and coastlines. His voyages opened a new chapter in scientific exploration.",
+      "quote": "Every man can conquer the elements.",
+      "chatGreeting": "Greetings. I am James Cook. I dedicated my life to exploring and mapping the unknown. What is it you wish to know?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, James Cook.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is your most memorable moment during your expeditions?",
+        "What were the greatest challenges you faced during your voyages?",
+        "What impact do you believe your maps have had on future generations?"
+      ],
+      "era": "Giants of History",
+      "pain": "Facing prejudice and discrimination stemming from his humble origins, coupled with the constant challenges of disease, food shortages, and crew discontent during arduous voyages, were relentless obstacles.",
+      "recovery": "He overcame these difficulties through exceptional seamanship, meticulous preparation, and a spirit of scientific inquiry. Managing crew health with improved diets and hygiene was crucial to his voyage's success."
     },
     "emily-dickinson": {
       "name": "Emily Dickinson",
-      "headline": "Emily Dickinson was a great 19th-century American poet who explored the human psyche, death, and eternity in solitude. Her poetry, with its unconventional form and profound...",
-      "shortDescription": "Emily Dickinson was a great 19th-century American poet who explored the human psyche, death, and eternity in solitude. Her poetry, with its unconventional form and deep insight, has had a profound impact on modern literature.",
-      "quote": "Hope is the thing with feathers that perches in the soul, and sings the tune without the words, and never stops at all.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Emily Dickinson. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "An Original Voice in American Poetry",
+      "headline": "The Reclusive Poet",
+      "shortDescription": "An American poet from Amherst, Massachusetts, Dickinson forged a unique poetic style. Her work explores universal themes like life, death, immortality, and nature with distinctive form and language.",
+      "quote": "Hope is the thing with feathers – That perches in the soul – And sings the tune without the words – And never stops – at all –",
+      "chatGreeting": "Words born of silence have found their way to you. Shall we explore the universe within together?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Emily Dickinson.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Why are your poems so short?",
+        "How did your reclusive life influence your writing?",
+        "What are your thoughts on life and death?"
+      ],
+      "era": "Giants of History",
+      "pain": "Dickinson experienced profound loneliness stemming from social isolation and a sense of being misunderstood. She also endured periods of unidentifiable physical and mental distress. Furthermore, she had to live largely unknown to the world while developing her intensely original poetic voice, which challenged the conventions of her time.",
+      "recovery": "Dickinson transformed her suffering by delving deeply into her inner world and expressing it through poetry. Her reclusive life allowed her to cultivate a unique language and form, creating an original poetic universe. Through her writing, she found a way to connect with the world, and her poems continue to resonate deeply with readers today."
     },
     "george-eliot": {
       "name": "George Eliot",
-      "headline": "Born Mary Ann Evans, she is one of the foremost novelists of the Victorian era. With profound insight into the human psyche and realistic depictions...",
-      "shortDescription": "Born Mary Ann Evans, she is one of the foremost novelists of the Victorian era. She left a significant mark on English literary history with her deep insight into the human psyche and realistic depictions.",
-      "quote": "Is not the purpose of our lives to lighten each other's burdens?",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am George Eliot. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Great Novelist of the Victorian Era",
+      "headline": "Explorer of the Soul's Depths",
+      "shortDescription": "Mary Ann Evans, known as George Eliot, was a prominent 19th-century English novelist and translator. Using a male pseudonym, she overcame the prejudices against female writers of her time and left a profound mark on literary history.",
+      "quote": "Our deeds are like seeds: they are thrown into life, and we know not what they will bring forth.",
+      "chatGreeting": "Welcome. I am Mary Ann Evans, though known to the world as George Eliot. My aim in writing is to explore the complex depths of the human soul. What has resonated with you?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, George Eliot.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What are the most important themes in your works?",
+        "How did your life as Mary Ann Evans differ from your life as George Eliot?",
+        "What do you consider true morality?"
+      ],
+      "era": "Giants of History",
+      "pain": "Victorian society severely restricted women's public intellectual expression. Furthermore, her evolving religious beliefs and defiance of social norms led to estrangement from family and society. Her relationship with George Lewes, in particular, caused significant scandal.",
+      "recovery": "Eliot transmuted these social constraints and personal pains into literature. She adopted the male pseudonym 'George Eliot' to ensure her work was judged on its merit and depth, achieving great success with novels praised for their profound insights into human nature and subtle psychological portrayals. She transcended societal prejudice by pouring her intellect and sensibility entirely into her writing."
     },
     "edward-jenner": {
       "name": "Edward Jenner",
-      "headline": "Edward Jenner was an English physician who invented the world's first smallpox vaccine. His cowpox inoculation method saved countless lives and laid the foundation for modern immunology.",
-      "shortDescription": "Edward Jenner was an English physician who invented the world's first smallpox vaccine. His cowpox inoculation method saved countless lives and laid the foundation for modern immunology.",
-      "quote": "I have been instrumental in the eradication of the most terrible of all the afflictions that have afflicted the human race.",
-      "era": "18th-19th Century Giant",
-      "chatGreeting": "Greetings, I am Edward Jenner. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Father of Vaccinology",
+      "headline": "Seeds of Healing",
+      "shortDescription": "An English physician who pioneered the smallpox vaccine, making a profound contribution to human health.",
+      "quote": "My observations have only been to the end of establishing a fact, which I think of no small importance to the human race.",
+      "chatGreeting": "Greetings, I am Edward Jenner. My life's work was dedicated to the betterment of human health. How may I assist your inquiry?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Edward Jenner.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "How did you develop the smallpox vaccine?",
+        "What inspired your interest in medicine?",
+        "What do you believe is the impact of your research on humanity?"
+      ],
+      "era": "Giants of History",
+      "pain": "Smallpox was a devastating disease, claiming countless lives. Furthermore, developing a novel method of prevention meant facing skepticism from colleagues and resistance from the established medical community.",
+      "recovery": "Inspired by the observation that milkmaids who contracted cowpox seemed immune to smallpox, I diligently researched and experimented with using cowpox to create a protective inoculation. Despite numerous trials and opposition, I firmly believed this was the path to conquering smallpox."
     },
     "francisco-de-goya": {
-      "name": "Francisco de Goya",
-      "headline": "A Spanish Romantic painter and printmaker. He sublimated the splendor of his life as a court painter, the horrors of war, and his personal suffering from hearing loss into powerful art.",
-      "shortDescription": "A Spanish Romantic painter and printmaker. He sublimated the splendor of his life as a court painter, the horrors of war, and his personal suffering from hearing loss into powerful art.",
-      "quote": "The sleep of reason produces monsters.",
-      "era": "Late 18th - Early 19th Century Giant",
-      "chatGreeting": "Greetings, I am Francisco de Goya. Do you seek the path of wisdom or have questions about my life's journey?",
+      "name": "Francisco De Goya",
+      "title": "Painter and Printmaker of Spain's Golden Age",
+      "headline": "The Painter of Madness",
+      "shortDescription": "One of the most important figures in Spanish art history, his work is considered a precursor to Romanticism. His paintings delve into the darker aspects of humanity and social critique.",
+      "quote": "I have learned to dream.",
+      "chatGreeting": "Well now, what is it you wish to know? About my paintings, or perhaps the ugliness of this world? Ask away.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Francisco de Goya.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is Goya's artistic world?",
+        "Did he engage in activities other than painting?",
+        "What was the most impactful event in Goya's life?"
+      ],
+      "era": "Giants of History",
+      "pain": "In the late 1790s, Goya suffered a severe illness that left him completely deaf. This led to a profound sense of isolation, as if separated from the world, and his art became darker and more introspective.",
+      "recovery": "After losing his hearing, Goya began to explore his inner world and emotions more deeply. He fearlessly expressed his suffering, societal absurdities, and the darker facets of human nature through his art, forging a unique artistic vision."
     },
     "henry-hudson": {
       "name": "Henry Hudson",
-      "headline": "A legendary 17th-century English explorer who dedicated his life to finding the Northwest and Northeast Passages. Although his expeditions ended in failure, he is forever remembered today by the names of Hudson Bay and...",
-      "shortDescription": "A legendary 17th-century English explorer who dedicated his life to finding the Northwest and Northeast Passages. Although his expeditions ended in failure, he is forever remembered today by the names of Hudson Bay and the Hudson River.",
-      "quote": "I will not be deterred. Beyond this endless sea of ice, there must surely be a new passage.",
-      "era": "Late 16th Century - Early 17th Century Giant",
-      "chatGreeting": "Greetings, I am Henry Hudson. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Navigator and Explorer",
+      "headline": "Towards New Seas",
+      "shortDescription": "An English navigator and explorer who explored parts of North America in the early 17th century. The Hudson River and Hudson Bay are named in his honor.",
+      "quote": "I have seen so much of this country, that I am weary of it.",
+      "chatGreeting": "Are you ready to brave the elements and set sail for the unknown? Let us embark on a voyage of discovery.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Henry Hudson.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Tell me more about your voyages.",
+        "How was the Hudson River discovered?",
+        "What was your most challenging moment during your expeditions?"
+      ],
+      "era": "Giants of History",
+      "pain": "Hudson faced the constant struggle of securing funding for his expeditions, relying on patrons and navigating the ambitions and frustrations of his crew. His final voyage ended in mutiny, leaving him and a few loyalists adrift in the unforgiving Arctic waters.",
+      "recovery": "Despite the tragic end to his final voyage, Hudson's explorations significantly expanded European knowledge of North America. The geographical features bearing his name serve as enduring testaments to his pioneering spirit and contributions to cartography and trade routes."
     },
     "homer": {
       "name": "Homer",
-      "headline": "A legendary epic poet of ancient Greece, known as the author of the \"Iliad\" and the \"Odyssey.\" His works are the foundation of Western literature and a great legacy of human culture...",
-      "shortDescription": "A legendary epic poet of ancient Greece, known as the author of the \"Iliad\" and the \"Odyssey.\" His works are the foundation of Western literature and a great legacy of human culture.",
-      "quote": "Bear with me, my heart. Have you not endured worse than this?",
-      "era": "8th Century BC Giant",
-      "chatGreeting": "Greetings, I am Homer. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "The Great Poet of Ancient Greece",
+      "headline": "Father of Epic Poetry",
+      "shortDescription": "Homer is the legendary ancient Greek poet credited with composing the epic poems 'The Iliad' and 'The Odyssey'. His works form a cornerstone of Western literature.",
+      "quote": "Whatever mortals are by the gods made manifest.",
+      "chatGreeting": "Ah, traveler. Are you ready to lend an ear to my epics? My tales are filled with the valor of heroes, the whims of gods, and the profound struggles of humanity.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Homer.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What are 'The Iliad' and 'The Odyssey' about?",
+        "What is known about Homer's life?",
+        "What is Homer's role in ancient Greek literature?"
+      ],
+      "era": "Giants of History",
+      "pain": "Homer's life is shrouded in mystery. There are debates about his very existence, and legends of his blindness hint at personal struggles, though concrete evidence is scarce.",
+      "recovery": "His overcoming is embodied in his works. Though perhaps sightless, he possessed a profound inner vision, allowing him to depict the human heart and spirit with unparalleled depth. His poetry has endured for millennia, a testament to his resilience and genius."
     },
     "plotinus": {
       "name": "Plotinus",
-      "headline": "The founder of Neoplatonism, who synthesized Platonism as a master of late ancient philosophy. He preached the ascent of the soul towards 'The One', the source of all things, and mystical union...",
-      "shortDescription": "The founder of Neoplatonism, who synthesized Platonism as a master of late ancient philosophy. He preached the ascent of the soul towards 'The One', the source of all things, and mystical union.",
-      "quote": "Return to yourself and look at yourself.",
-      "era": "3rd Century Giant",
-      "chatGreeting": "Greetings, I am Plotinus. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Founder of Neoplatonism",
+      "headline": "The Soul's Ascent",
+      "shortDescription": "The founder of Neoplatonism and a towering figure of late antiquity. He sought ultimate reality through emanation from the One and the soul's return to it.",
+      "quote": "All things are eyes, and the universe is a cat of the gods.",
+      "chatGreeting": "Greetings. I am Plotinus. Does your soul yearn for a journey towards truth? What occupies your mind?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Plotinus.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is 'the One'?",
+        "How does the soul ascend?",
+        "What influence did your philosophy have on later generations?"
+      ],
+      "era": "Giants of History",
+      "pain": "He had to develop his philosophical ideas amidst the chaos and political instability of the late Roman Empire. His ideas also clashed with mainstream thought, leading to misunderstandings.",
+      "recovery": "He dictated his thoughts to his disciple Porphyry, resulting in the compilation of the 'Enneads'. Through this, he ensured his philosophical legacy endured beyond the turbulent times."
     },
     "john-stuart-mill": {
       "name": "John Stuart Mill",
-      "headline": "A 19th-century British philosopher and economist who developed utilitarianism, advocating for the 'greatest happiness for the greatest number.' He championed individual liberty and women's rights...",
-      "shortDescription": "A 19th-century British philosopher and economist who developed utilitarianism, advocating for the 'greatest happiness for the greatest number.' He championed individual liberty and women's rights, laying the foundation for modern liberal thought.",
-      "quote": "It is better to be a human being dissatisfied than a pig satisfied; better to be Socrates dissatisfied than a fool satisfied.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am John Stuart Mill. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Leading Figure of Liberal Philosophy",
+      "headline": "Champion of Liberty",
+      "shortDescription": "One of the most influential thinkers of 19th-century Britain, he made profound contributions to the development of liberal philosophy, economics, and political science. His ideas are deeply embedded in the fundamental values of modern society.",
+      "quote": "I am free because I know that I am free to think.",
+      "chatGreeting": "Greetings. I am John Stuart Mill. I wish to engage in a deep exploration of liberty and individual rights. Any questions you have are most welcome.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, John Stuart Mill.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What is liberalism?",
+        "How can individual liberty and societal obligations be harmonized?",
+        "What does your ideal society look like?"
+      ],
+      "era": "Giants of History",
+      "pain": "From childhood, he underwent an extremely rigorous intellectual training under his father, James Mill, experiencing difficulties in emotional and social development. As an adult, he suffered from nervousness and mental anguish.",
+      "recovery": "Despite these challenges, he established his own philosophy through deep intellectual inquiry. His encounter with Harriet Taylor, in particular, profoundly influenced his thought, leading him to recognize the importance of human emotions and social relationships. By integrating these into his philosophy, he achieved mental recovery and built a richer intellectual framework."
     },
     "roald-amundsen": {
       "name": "Roald Amundsen",
-      "headline": "A Norwegian polar explorer who was the first human to reach the South Pole and pioneered the Northwest Passage. Thanks to thorough preparation and learning survival wisdom from indigenous peoples...",
-      "shortDescription": "A Norwegian polar explorer who was the first human to reach the South Pole and pioneered the Northwest Passage. Thanks to thorough preparation and learning survival wisdom from indigenous peoples, he became one of history's greatest explorers.",
-      "quote": "Victory awaits those who have prepared for it thoroughly. People call it luck.",
-      "era": "Late 19th Century - Early 20th Century Giant",
-      "chatGreeting": "Greetings, I am Roald Amundsen. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Pioneer of Polar Exploration",
+      "headline": "First to Reach the South Pole",
+      "shortDescription": "A Norwegian explorer renowned for being the first person to reach both the South Pole and the North Pole. His courage and scientific drive continue to inspire.",
+      "quote": "Adventure is for the prepared.",
+      "chatGreeting": "I am Roald Amundsen. Navigating the icy frontiers and charting the unknown has been my life's work. What secrets of the poles do you wish to uncover?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Roald Amundsen.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Tell me about your journey to the South Pole.",
+        "What were your thoughts on the North Pole race?",
+        "What is most important for an explorer?"
+      ],
+      "era": "Giants of History",
+      "pain": "The immense challenges of early polar expeditions, securing funding, the loss of companions, and the disappointment of not being the first to reach the geographic North Pole.",
+      "recovery": "Through meticulous planning, adopting innovative technologies, and an unyielding determination, he overcame obstacles and etched his name in history."
     },
     "elizabeth-cady-stanton": {
       "name": "Elizabeth Cady Stanton",
-      "headline": "A key leader of the 19th-century American women's suffrage movement. She dedicated her life to social reform and gender equality.",
-      "shortDescription": "A key leader of the 19th-century American women's suffrage movement. She dedicated her life to social reform and gender equality.",
-      "quote": "We hold these truths to be self-evident, that all men and women are created equal.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Elizabeth Cady Stanton. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Pioneer of the American Women's Suffrage Movement",
+      "headline": "Voice of Freedom",
+      "shortDescription": "A leading figure in the American women's suffrage movement, she dedicated her life to advancing women's rights. She fought tirelessly for women's education, property rights, and the right to vote.",
+      "quote": "Human rights are not dependent on sex.",
+      "chatGreeting": "I am Elizabeth Cady Stanton. In an era where women's rights are taken for granted, I wish to speak of the oppression and inequality women endured in the past. Our struggles were never in vain.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Elizabeth Cady Stanton.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What motivated you to start the women's suffrage movement?",
+        "What does true freedom mean to you?",
+        "What do you see as the greatest challenge facing women today?"
+      ],
+      "era": "Giants of History",
+      "pain": "The societal context where women were denied basic rights simply for being women, and the legal and social constraints that made it difficult to voice women's concerns. She also faced disagreements with fellow activists and public indifference.",
+      "recovery": "Through persistent efforts, speeches, and writings, she advocated for women's rights. Together with allies like Lucretia Mott, she organized the Seneca Falls Convention and issued the Declaration of Sentiments, laying the foundation for the women's movement. By consistently uniting and raising her voice, she was able to bring about change."
     },
     "virgil": {
       "name": "Virgil",
-      "headline": "The greatest ancient Roman poet who wrote the epic 'Aeneid', the founding epic of the Roman Empire. His works became the cornerstone of Western literature, and he also served as a guide in Dante's 'Divine Comedy'...",
-      "shortDescription": "The greatest ancient Roman poet who wrote the epic 'Aeneid', the founding epic of the Roman Empire. His works became the cornerstone of Western literature, and he is also famous for serving as a guide in Dante's 'Divine Comedy'.",
-      "quote": "Fortune favors the brave.",
-      "era": "1st Century BC Giant",
-      "chatGreeting": "Greetings, I am Virgil. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Greatest Poet of the Roman Empire",
+      "headline": "Master of Epic Poetry",
+      "shortDescription": "Virgil was the greatest poet of the Roman Empire, renowned for his epic 'Aeneid,' which chronicled the founding myths of Rome. His poetry forms a cornerstone of Western literature and profoundly influenced generations.",
+      "quote": "But you, Roman, remember to rule the peoples of the world. These will be your arts: to impose peace, to spare the conquered and to crush the proud.",
+      "chatGreeting": "Greetings. Are you interested in the enduring legacy of Rome or the power of poetry to shape destiny? I am ready to share what I know.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Virgil.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "How was the Aeneid written?",
+        "Tell me about the founding myths of Rome.",
+        "What was your life as a poet like?"
+      ],
+      "era": "Giants of History",
+      "pain": "He composed under the shadow of political turmoil and civil war, and his life was cut short by illness, preventing him from seeing his magnum opus fully completed.",
+      "recovery": "Supported by imperial patronage and aided by fellow scholars who preserved his work, Virgil's legacy endured, becoming a symbol of Roman civilization and literary achievement."
     },
     "henrik-ibsen": {
       "name": "Henrik Ibsen",
-      "headline": "A Norwegian playwright who established 19th-century realism in theater, earning him the title 'father of modern drama.' He sharply explored the conflict between individual freedom and hypocritical social norms...",
-      "shortDescription": "A Norwegian playwright who established 19th-century realism in theater, earning him the title 'father of modern drama.' He sharply explored the conflict between individual freedom and hypocritical social norms.",
-      "quote": "The strongest man in the world is he who stands most alone.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Henrik Ibsen. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Father of Modern Realist Drama",
+      "headline": "Explorer of Human Psyche",
+      "shortDescription": "A Norwegian playwright, Ibsen penned masterpieces like 'A Doll's House' and 'Peer Gynt.' His works are renowned for their social critique and profound insights into human nature.",
+      "quote": "A man cannot be truly himself without being able to live his own life.",
+      "chatGreeting": "My life's work has been to delve into the deepest recesses of the human soul. What is it that occupies your mind?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Henrik Ibsen.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "Why did Nora leave in 'A Doll's House'?",
+        "Why are Ibsen's works still relevant today?",
+        "What was your greatest artistic struggle?"
+      ],
+      "era": "Giants of History",
+      "pain": "Poverty, the trauma of his father's business ruin during his childhood, tragic family events, and societal condemnation and misunderstanding of his works plunged him into profound anguish.",
+      "recovery": "Ibsen transmuted these sufferings through the powerful medium of theatre. Through the characters in his plays, he sharply exposed societal hypocrisy and individual oppression, exploring the possibilities of true freedom and self-realization."
     },
     "harriet-martineau": {
       "name": "Harriet Martineau",
-      "headline": "Harriet Martineau was an English social theorist, often called the first female sociologist. She introduced sociology to the English-speaking world by translating Auguste Comte's works and wrote extensively on economics, society, and women's rights.",
-      "shortDescription": "Harriet Martineau was an English social theorist, often called the first female sociologist. She introduced sociology to the English-speaking world by translating Auguste Comte's works and wrote extensively on economics, society, and women's rights.",
-      "quote": "Readers are plentiful, thinkers are rare.",
-      "era": "19th Century Giant",
-      "chatGreeting": "Greetings, I am Harriet Martineau. Do you seek the path of wisdom or have questions about my life's journey?",
+      "title": "Sociologist, Economist, Journalist",
+      "headline": "Witness to Society",
+      "shortDescription": "A prominent 19th-century English sociologist, economist, and journalist, she offered sharp analysis and insight into diverse social issues, including labor, women's rights, and religion.",
+      "quote": "The greatest danger in neglecting the   duties of the present is the   diminution of our power to   discharge the duties of the   future.",
+      "chatGreeting": "Greetings. I am Harriet Martineau. My life's work has been dedicated to exploring the intricate truths of society. What is it you wish to inquire about?",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Harriet Martineau.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What were your major works?",
+        "What were your thoughts on the social issues of your time?",
+        "What were your views on the role of women?"
+      ],
+      "era": "Giants of History",
+      "pain": "She suffered from hearing loss from a young age and chronic health issues. Furthermore, as a woman, she faced societal limitations and prejudices.",
+      "recovery": "Despite these challenges, she refused to be silenced, using her writing and social critique to voice her perspectives. Through active writing and lecturing, she expanded her influence and drove social change."
     },
     "olympe-de-gouges": {
-      "name": "Olympe de Gouges",
-      "headline": "Olympe de Gouges was a playwright and feminist activist during the French Revolution. Through her 'Declaration of the Rights of Woman and of the Female Citizen,' she strongly advocated for women's political equality...",
-      "shortDescription": "Olympe de Gouges was a playwright and feminist activist during the French Revolution. Through her 'Declaration of the Rights of Woman and of the Female Citizen,' she strongly advocated for women's political equality.",
-      "quote": "Woman has the right to mount the scaffold; she must equally have the right to mount the tribune.",
-      "era": "18th Century French Revolution Giant",
-      "chatGreeting": "Greetings, I am Olympe de Gouges. Do you seek the path of wisdom or have questions about my life's journey?",
+      "name": "Olympe De Gouges",
+      "title": "Radical Feminist of the French Revolution",
+      "headline": "Voice for Liberty",
+      "shortDescription": "A playwright and political activist during the French Revolution, she championed women's rights with her 'Declaration of the Rights of Woman and of the Female Citizen.' Her courageous voice was ahead of its time.",
+      "quote": "If a woman has the right to climb the scaffold, she must have the right to mount the orator's platform.",
+      "chatGreeting": "Do you wish to discuss liberty, equality, and fraternity? I am Olympe de Gouges. I am eager to share my passion for the rights of women and all humanity.",
       "suggestedQuestions": [
-        "Tell me about your greatest achievement, Olympe de Gouges.",
-        "How did you overcome your most difficult challenges?",
-        "What is the most important piece of advice you can give me?"
-      ]
+        "What are your thoughts on women's rights?",
+        "What was your role in the French Revolution?",
+        "Tell me about your literary works."
+      ],
+      "era": "Giants of History",
+      "pain": "She faced severe limitations on political participation due to her gender and persecution for her radical stances during the revolution. Ultimately, she was executed by guillotine on charges of counter-revolution.",
+      "recovery": "Her death was not in vain. The rights of women she advocated profoundly influenced future generations and she is remembered as a crucial milestone in the ongoing struggle for women's rights."
     }
   },
   "Chat": {
@@ -3799,5 +3883,18 @@
       "Can art change society?",
       "How should humans live in the face of death?"
     ]
+  },
+  "DebateCTA": {
+    "badge": "LIVE DEBATE",
+    "titlePre": "Clash of the Greatest Minds",
+    "titlePost": "'Giants' Ultimate Debate Room'",
+    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
+    "button": "Spectate & Participate"
+  },
+  "Consult": {
+    "or": "OR",
+    "title": "Are you facing struggles today?",
+    "desc": "Your pain is not lonely.\nThe greatest minds in history faced the exact same struggles and overcame them.",
+    "button": "Get Advice"
   }
 }

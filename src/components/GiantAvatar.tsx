@@ -640,10 +640,12 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
 
     // Generic Category-based Silhouette
     const colors: Record<string, string> = {
-      '성취': '#f59e0b', // Amber
-      '역경': '#ef4444', // Red
-      '지혜': '#10b981', // Emerald
-      '창의': '#8b5cf6', // Violet
+      leadership: '#f59e0b', // Amber
+      science: '#8b5cf6', // Violet
+      philosophy: '#10b981', // Emerald
+      arts: '#ec4899', // Pink
+      society: '#ef4444', // Red
+      business: '#3b82f6', // Blue
     };
     
     const themeColor = colors[category] || '#d4af37';

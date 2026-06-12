@@ -113,14 +113,7 @@ export function HeroSection() {
           >
             <span className="text-xl">🔥</span>
             <span>
-              {locale === 'ko' ? '거인들의 끝장 토론방 입장' :
-               locale === 'en' ? 'Enter Giants Debate Room' :
-               locale === 'de' ? 'Debattenkammer der Riesen betreten' :
-               locale === 'ja' ? '偉人たちの討論室に入場' :
-               locale === 'es' ? 'Entrar a la Sala de Debate' :
-               locale === 'fr' ? 'Entrer dans la Salle de Débat' :
-               locale === 'it' ? 'Entra nella Stanza del Dibattito' :
-               locale === 'pt' ? 'Entrar na Sala de Debate' : 'Enter Giants Debate Room'}
+              {t("debateRoomCTA")}
             </span>
           </Link>
           

@@ -4,6 +4,7 @@ import { useState } from "react"
 import { MessageCircle, Sparkles } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
+import GiantAvatar from "@/components/GiantAvatar"
 import { Link } from "@/i18n/routing"
 import type { Giant } from "@/lib/giants-data"
 
@@ -16,6 +17,7 @@ export function GiantCard({ giant, index }: GiantCardProps) {
   const t = useTranslations("Giants")
   const gt = useTranslations("GiantsGrid")
   const [isHovered, setIsHovered] = useState(false)
+  const [imageError, setImageError] = useState(false)
 
   // Helper to get translated text with fallback to raw data
   const getTranslation = (key: string, fallback: string) => {
@@ -52,13 +54,20 @@ export function GiantCard({ giant, index }: GiantCardProps) {
       
       {/* Header Image */}
       <div className="relative w-full h-48 overflow-hidden bg-muted shrink-0">
-        <Image 
-          src={giant.imageUrl} 
-          alt={name}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
-        />
+        {!imageError ? (
+          <Image 
+            src={giant.imageUrl} 
+            alt={name}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
+            onError={() => setImageError(true)}
+          />
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-slate-950">
+            <GiantAvatar slug={giant.slug} category={giant.category} size={120} />
+          </div>
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         
         {/* Field badge on image */}

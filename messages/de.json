@@ -87,7 +87,8 @@
       "chat": "Echtzeit-Chat",
       "chatDesc": "Teilen Sie Ihre Sorgen mit den Denkern, die durch modernste KI wiedergeboren wurden.",
       "startNow": "Jetzt starten"
-    }
+    },
+    "debateRoomCTA": "Debattenkammer der Riesen betreten"
   },
   "Featured": {
     "title": "Die Halle der großen Persönlichkeiten",
@@ -770,19 +771,6 @@
         "Welchen Rat können Sie mir am wichtigsten geben?"
       ]
     },
-    "oskar-schindler": {
-      "name": "Oskar Schindler",
-      "headline": "Im Jahr 1908 wurde Oskar Schindler in der Industrielandschaft von Zwittau in ein Leben mit monumentalen Begierden und moralischer Ambiguität hineingeboren.",
-      "shortDescription": "Die epische Reise und Weisheit von Oskar Schindler.",
-      "quote": "Wer ein Leben rettet, rettet die ganze Welt. Unterschätzen Sie nicht die monumentale Wirkung eines einzigen Aktes der Freundlichkeit. Sie sind der Architekt einer Welt.",
-      "era": "Riese des 20. Jahrhunderts (1908~1974)",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Oskar Schindler. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
-      "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Oskar Schindler.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
-    },
     "florence-nightingale": {
       "name": "Florence Nightingale",
       "headline": "Im Jahr 1820 wurde Florence Nightingale in der Renaissance-Eleganz von Florenz, Italien, in ein Leben mit monumentalem Luxus und gesellschaftlichen Erwartungen hineingeboren.",
@@ -822,19 +810,6 @@
         "Welchen Rat können Sie mir am wichtigsten geben?"
       ]
     },
-    "desmond-tutu": {
-      "name": "Desmond Tutu",
-      "headline": "Im Jahr 1931 wurde Desmond Mpilo Tutu in der Goldgräberstadt Klerksdorp in eine Welt monumentaler Rassentrennung und systemischer Grausamkeit hineingeboren.",
-      "shortDescription": "Die epische Reise und Weisheit von Desmond Tutu.",
-      "quote": "Wenn Sie in Situationen der Ungerechtigkeit neutral sind, haben Sie sich auf die Seite des Unterdrückers gestellt. Schweigen ist ein monumentaler Verrat an Ihrer eigenen Menschlichkeit. Erheben Sie Ihre Stimme.",
-      "era": "Riese des 20./21. Jahrhunderts (1931~2021)",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Desmond Tutu. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
-      "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Desmond Tutu.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
-    },
     "louis-braille": {
       "name": "Louis Braille",
       "headline": "Im Jahr 1809 wurde Louis Braille in dem kleinen französischen Dorf Coupvray in ein Leben voller Licht und Farbe hineingeboren, das bald verschwinden sollte.",
@@ -844,19 +819,6 @@
       "chatGreeting": "Seien Sie gegrüßt, ich bin Louis Braille. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
       "suggestedQuestions": [
         "Erzählen Sie mir von Ihrer größten Errungenschaft, Louis Braille.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
-    },
-    "elie-wiesel": {
-      "name": "Elie Wiesel",
-      "headline": "Im Jahr 1928 wurde Elie Wiesel in der siebenbürgischen Stadt Sighet in ein Leben monumentalen Glaubens und stillen Studiums hineingeboren.",
-      "shortDescription": "Die epische Reise und Weisheit von Elie Wiesel.",
-      "quote": "Das Gegenteil von Liebe ist nicht Hass, es ist Gleichgültigkeit. Gleichgültigkeit ist ein monumentales Verbrechen. Setzen Sie sich mit der Welt auseinander. Schauen Sie nicht weg.",
-      "era": "Riese des 20./21. Jahrhunderts (1928~2016)",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Elie Wiesel. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
-      "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Elie Wiesel.",
         "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
         "Welchen Rat können Sie mir am wichtigsten geben?"
       ]
@@ -883,19 +845,6 @@
       "chatGreeting": "Seien Sie gegrüßt, ich bin Yu Gwan Sun. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
       "suggestedQuestions": [
         "Erzählen Sie mir von Ihrer größten Errungenschaft, Yu Gwan Sun.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
-    },
-    "terry-fox": {
-      "name": "Terry Fox",
-      "headline": "Im Jahr 1958 wurde Terry Fox in der windigen Stadt Winnipeg, Kanada, in ein Leben voller monumentaler Energie und sportlicher Leidenschaft hineingeboren.",
-      "shortDescription": "Die epische Reise und Weisheit von Terry Fox.",
-      "quote": "Ich bin kein Träumer, aber ich glaube an Wunder. Ich muss. Auch wenn ich nicht fertig werde, müssen andere weitermachen. Es muss weitergehen. Seien Sie Teil dieser monumentalen Anstrengung.",
-      "era": "Riese des 20. Jahrhunderts (1958~1981)",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Terry Fox. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
-      "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Terry Fox.",
         "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
         "Was ist der wichtigste Rat, den Sie mir geben können?"
       ]
@@ -1020,7 +969,7 @@
     "baruch-spinoza": {
       "name": "Baruch Spinoza",
       "headline": "Im Jahr 1632 wurde in der blühenden jüdischen Gemeinde Amsterdams Baruch Spinoza in ein Leben von monumentaler Verheißung und spiritueller Inbrunst geboren.",
-      "shortDescription": "Die epische Reise und Weisheit von Baruch Spinoza.",
+      "shortDescription": "1632 wurde Baruch Spinoza in der blühenden jüdischen Gemeinde Amsterdams in ein Leben voller Verheißung und spirituellem Eifer geboren.",
       "quote": "Gott und Natur sind eins. Alles folgt den monumentalen und ewigen Gesetzen der Notwendigkeit. Finde deinen Platz in der unendlichen Struktur. Verstehe das Ganze.",
       "era": "17. Jahrhundert Gigant (1632~1677)",
       "chatGreeting": "Seien Sie gegrüßt, ich bin Baruch Spinoza. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
@@ -1371,16 +1320,19 @@
     },
     "jane-austen": {
       "name": "Jane Austen",
-      "headline": "Die Meisterin der Gesellschaftskritik, die mit Witz und Beobachtung die Feinheiten des menschlichen Herzens enthüllte.",
-      "shortDescription": "Das literarische Genie von Jane Austen.",
-      "quote": "Ein aufrichtiges Herz",
-      "era": "Riese des 18./19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Jane Austen. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Pionierin des englischen Romans",
+      "headline": "Einsichtsvolle Schriftstellerin",
+      "shortDescription": "Eine führende Romanautorin des späten 18. und frühen 19. Jahrhunderts in England. Ihre scharfe Gesellschaftsbeobachtung und ihr geistreicher Stil beeinflussten ihre Zeit und die Nachwelt tiefgreifend.",
+      "quote": "Glück in der Ehe ist reine Glückssache.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Jane Austen. Ich möchte gerne meine Beobachtungen über die menschliche Natur und die gesellschaftlichen Gepflogenheiten teilen. Welche Fragen haben Sie an mich?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Jane Austen.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
+        "Was ist Ihnen in Ihren Romanen am wichtigsten?",
+        "Welchen Herausforderungen stellten Sie sich als Schriftstellerin Ihrer Zeit?",
+        "Was denken Sie über die heutige Gesellschaft?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Als Frau war wirtschaftliche Unabhängigkeit schwierig, und da sie unverheiratet blieb, war sie ihr Leben lang auf finanzielle Unterstützung angewiesen. Zudem trug sie die Verantwortung für die Pflege ihres Bruders und die Unterstützung ihrer Familie.",
+      "recovery": "Sie überwand finanzielle Schwierigkeiten, indem sie sich ganz dem Schreiben widmete. Tiefe familiäre Bindungen und ihre Leidenschaft für die Literatur halfen ihr, schwierige Zeiten zu überstehen."
     },
     "king-jeongjo": {
       "name": "König Jeongjo",
@@ -1415,20 +1367,20 @@
       "recovery": "Verfasste über 500 Bände, die Grundlagen des modernen Denkens legten."
     },
     "ahn-jung-geun": {
-      "name": "Ahn Jung-geun",
-      "title": "Patriot der koreanischen Unabhängigkeit",
-      "headline": "Ein Leben für die Freiheit der Nation.",
-      "shortDescription": "Ein verehrter koreanischer Unabhängigkeitsaktivist, der Ito Hirobumi ermordete, um gegen die Annexion Koreas zu protestieren.",
-      "quote": "Ich widme mein Leben der Unabhängigkeit meines Landes und dem Frieden des Ostens.",
-      "chatGreeting": "Ich bin Ahn Jung-geun. Ich habe mein Leben für die Unabhängigkeit Koreas und wahren Frieden in Asien hingegeben. Was führt Sie hierher?",
+      "name": "Ahn Jung Geun",
+      "title": "Unabhängigkeitskämpfer, Patriot",
+      "headline": "Visionär für Frieden in Ostasien",
+      "shortDescription": "Ein koreanischer Unabhängigkeitskämpfer und Denker, der sich während der japanischen Kolonialzeit für den Frieden in Ostasien einsetzte. Er ist berühmt für die Ermordung von Itō Hirobumi und hinterließ eine unauslöschliche Spur in der koreanischen Unabhängigkeitsbewegung.",
+      "quote": "Selbst der größte General kann den Feind manchmal nicht besiegen; wie könnte ich den Feind besiegen, wenn ich diesen Punkt erreiche?",
+      "chatGreeting": "Ich bin Ahn Jung Geun, der sich nach Frieden in Ostasien sehnte. Was möchten Sie wissen? Ich werde nach bestem Wissen und Gewissen antworten.",
       "suggestedQuestions": [
-        "Warum haben Sie Ito Hirobumi ermordet?",
-        "Was ist Ihre Vision für den Frieden in Asien?",
-        "Hatten Sie keine Angst vor dem Tod?"
+        "Warum haben Sie Itō Hirobumi ermordet?",
+        "Was ist Ihre Philosophie des ostasiatischen Friedens?",
+        "Was haben Sie während Ihrer Haft geschrieben?"
       ],
       "era": "1879-1910",
-      "pain": "Erlebte, wie seine Nation die Souveränität verlor und sah sich seiner eigenen Hinrichtung gegenüber.",
-      "recovery": "Zeigte beispiellose Tapferkeit und inspirierte Generationen von Freiheitskämpfern."
+      "pain": "Die brutale Realität zu erleben, wie mein Heimatland vom japanischen Imperialismus geplündert wurde, und Zeuge des Opfers vieler Genossen zu werden, die für die Unabhängigkeit durch bewaffneten Kampf kämpften, war ein tiefer Schmerz. Darüber hinaus erlitt ich während meiner Gefangenschaft nach der Festnahme schwere Folter und elende Bedingungen.",
+      "recovery": "Selbst im Gefängnis verlor ich meine Ideale nicht und verfasste 'Die Theorie des ostasiatischen Friedens'. Ich hielt fest an meinen Überzeugungen für die nationale Unabhängigkeit und den Frieden in Ostasien und bemühte mich, zukünftigen Generationen Hoffnung zu hinterlassen."
     },
     "mencius": {
       "name": "Mencius",
@@ -1625,131 +1577,131 @@
     },
     "queen-victoria": {
       "name": "Königin Victoria",
-      "title": "Ein Leben voller Errungenschaften",
-      "headline": "Entdecken Sie die Weisheit von Königin Victoria",
-      "shortDescription": "Erkunden Sie die historische Reise von Königin Victoria",
-      "quote": "Weisheit wird aus Prüfungen geboren.",
-      "chatGreeting": "Hallo, ich bin Königin Victoria. Was möchten Sie über meine Reise wissen?",
+      "title": "Königin des Vereinigten Königreichs",
+      "headline": "Königin Victoria",
+      "shortDescription": "Die ikonische Monarchin des 19. Jahrhunderts, die das Britische Empire während einer Zeit immensen industriellen, kulturellen und imperialen Wachstums regierte.",
+      "quote": "Ich werde gut sein.",
+      "chatGreeting": "Eure Majestät, wie kann ich Ihnen heute behilflich sein? Sind Sie daran interessiert, mehr über die Glorie meiner Regentschaft zu erfahren?",
       "suggestedQuestions": [
-        "Was war Ihre größte Prüfung?",
-        "Wie haben Sie Ihre Schwierigkeiten überwunden?",
-        "Was ist Ihr Rat für die Zukunft?"
+        "Erzählen Sie mir von Ihrer Thronbesteigung.",
+        "Wie war Ihre Beziehung zu Prinz Albert?",
+        "Was waren die wichtigsten Ereignisse des viktorianischen Zeitalters?"
       ],
       "era": "1819-1901",
-      "pain": "Frühe Thronbesteigung inmitten von Zweifeln und tiefe Trauer und Isolation nach dem Tod von Prinz Albert.",
-      "recovery": "Überwand Trauer durch ein starkes Gefühl der königlichen Pflicht und führte das Reich zu seinem absoluten Höhepunkt."
+      "pain": "Der frühe Tod ihres Vaters, die übermäßige Kontrolle ihrer Mutter, politische Instabilität in ihrer frühen Regentschaft und die tiefe Trauer und lang anhaltende Trauer nach dem plötzlichen Tod ihres geliebten Mannes, Prinz Albert.",
+      "recovery": "Trotz ihrer persönlichen Tragödie setzte sie ihre Pflichten als Monarchin entschlossen fort und unterstützte die Vision von Prinz Albert für öffentliche Arbeiten, Kunst und Wissenschaft. Sie bewahrte die Stabilität im Britischen Empire und wurde durch ihr sparsames und vorbildliches Leben zu einem Symbol der Ausdauer und Pflicht, das den Respekt ihrer Untertanen gewann."
     },
     "alexander-fleming": {
       "name": "Alexander Fleming",
-      "title": "Ein Leben voller Errungenschaften",
-      "headline": "Entdecken Sie die Weisheit von Alexander Fleming",
-      "shortDescription": "Erkunden Sie die historische Reise von Alexander Fleming",
-      "quote": "Weisheit wird aus Prüfungen geboren.",
-      "chatGreeting": "Hallo, ich bin Alexander Fleming. Was möchten Sie über meine Reise wissen?",
+      "title": "Entdecker des Penicillins",
+      "headline": "Penicillin-Entdecker",
+      "shortDescription": "Sir Alexander Fleming war ein schottischer Arzt und Mikrobiologe, der vor allem für die Entdeckung des Penicillins bekannt ist, das das Zeitalter der Antibiotika einläutete. Seine Entdeckung revolutionierte die Medizin und rettete unzählige Leben.",
+      "quote": "Der Zufall begünstigt den vorbereiteten Geist.",
+      "chatGreeting": "Guten Tag. Ich bin Alexander Fleming. Haben Sie Fragen zu meiner Arbeit? Bitte fragen Sie.",
       "suggestedQuestions": [
-        "Was war Ihre größte Prüfung?",
-        "Wie haben Sie Ihre Schwierigkeiten überwunden?",
-        "Was ist Ihr Rat für die Zukunft?"
+        "Wie wurde Penicillin entdeckt?",
+        "Welchen Einfluss hatte Ihre Forschung auf die Medizin?",
+        "Was ist Ihrer Meinung nach die Bedeutung wissenschaftlicher Entdeckungen?"
       ],
       "era": "1881-1955",
-      "pain": "Zeuge von Todesfällen durch Infektionen im Krieg, ständige Forschungsfehler, akademische Apathie und technologische Barrieren.",
-      "recovery": "Beharrlichkeit, scharfe Beobachtung von zufälligem Schimmel und schließlich Zusammenarbeit zur Massenproduktion von Penicillin."
+      "pain": "Während des Ersten Weltkriegs arbeitete ich in einer Feldlazarett und sah das schreckliche Leiden von Soldaten, die an Infektionen starben. Die damaligen Antiseptika waren von begrenztem Nutzen und schadeten oft mehr als sie nützten. Später, in den frühen Tagen des Penicillins, gab es erhebliche Schwierigkeiten, sein Potenzial vollständig zu erkennen und es weit verbreitet zu machen.",
+      "recovery": "Ich widmete mich der Bakteriologie und suchte nach wirksamen Methoden zur Bekämpfung von Infektionen. Durch sorgfältige Beobachtung einer zufälligen Verunreinigung in meinem Labor identifizierte ich die antibakteriellen Eigenschaften von Penicillin. Ich beharrte bei der Untersuchung seiner Wirkung und entwickelte Methoden zu seiner Kultivierung und Reinigung. Die Zusammenarbeit mit Kollegen half, seinen klinischen Wert zu demonstrieren und ebnete den Weg für die Massenproduktion, wodurch unzählige Leben gerettet wurden."
     },
     "johannes-kepler": {
       "name": "Johannes Kepler",
-      "title": "Ein Leben voller Kreativität",
-      "headline": "Entdecken Sie die Weisheit von Johannes Kepler",
-      "shortDescription": "Erkunden Sie die historische Reise von Johannes Kepler",
-      "quote": "Weisheit wird aus Prüfungen geboren.",
-      "chatGreeting": "Hallo, ich bin Johannes Kepler. Was möchten Sie über meine Reise wissen?",
+      "title": "Astronom und Mathematiker",
+      "headline": "Kosmische Gesetze entdecken",
+      "shortDescription": "Ein Astronom, der die Gesetze der Planetenbewegung entdeckte und unser Verständnis des Kosmos revolutionierte. Seine Arbeit legte den Grundstein für die moderne Astronomie.",
+      "quote": "Das Buch der Natur ist in mathematischer Sprache geschrieben.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Johannes Kepler. Mein Leben war eine unermüdliche Suche nach dem himmlischen Tanz und der Ordnung des Universums. Welche Geheimnisse des Kosmos interessieren Sie?",
       "suggestedQuestions": [
-        "Was war Ihre größte Prüfung?",
-        "Wie haben Sie Ihre Schwierigkeiten überwunden?",
-        "Was ist Ihr Rat für die Zukunft?"
+        "Erklären Sie Ihre Gesetze der Planetenbewegung.",
+        "Was war die größte wissenschaftliche Herausforderung, der Sie sich stellten?",
+        "Wie beurteilten Sie Kopernikus' heliozentrisches Modell?"
       ],
       "era": "1571-1630",
-      "pain": "Körperliche Behinderungen durch Pocken, bittere Armut, der Tod von Familienmitgliedern und religiöse Verfolgung während des Dreißigjährigen Krieges.",
-      "recovery": "Überwand Dogmen mit kreativem Denken und zermürbender Datenanalyse, um die Gesetze der Planetenbewegung zu entdecken."
+      "pain": "Als Kind litt er an Pocken, was zu schlechter Sehkraft und verkrüppelten Fingern führte. Er erlebte auch das Verschwinden seines Vaters und die Hexenanklage gegen seine Mutter. Finanzielle Nöte und religiöse Verfolgung waren ständige Begleiter.",
+      "recovery": "Er überwand diese Widrigkeiten durch tiefen Glauben und unerschütterliche Ausdauer. Er analysierte akribisch die umfangreichen Beobachtungsdaten von Tycho Brahe, um seine Gesetze der Planetenbewegung zu formulieren, und nutzte Mathematik und Physik, um die Geheimnisse des Universums zu entschlüsseln."
     },
     "francis-bacon": {
       "name": "Francis Bacon",
-      "title": "Ein Leben voller Weisheit",
-      "headline": "Entdecken Sie die Weisheit von Francis Bacon",
-      "shortDescription": "Erkunden Sie die historische Reise von Francis Bacon",
-      "quote": "Weisheit wird aus Prüfungen geboren.",
-      "chatGreeting": "Hallo, ich bin Francis Bacon. Was möchten Sie über meine Reise wissen?",
+      "title": "Wegbereiter des Empirismus und der wissenschaftlichen Methode",
+      "headline": "Ein neuer Horizont des Wissens",
+      "shortDescription": "Francis Bacon war ein englischer Philosoph des 17. Jahrhunderts, der den Grundstein für den Empirismus legte und wissenschaftliche Untersuchung sowie empirische Beweise betonte. Sein Denken wurde zu einem Eckpfeiler der modernen wissenschaftlichen Revolution.",
+      "quote": "Wissen ist Macht.",
+      "chatGreeting": "Was möchten Sie erforschen? Ich werde Ihnen neue Wege des Wissens eröffnen. Mit meiner Erfahrung und Weisheit werde ich Ihre Fragen beantworten.",
       "suggestedQuestions": [
-        "Was war Ihre größte Prüfung?",
-        "Wie haben Sie Ihre Schwierigkeiten überwunden?",
-        "Was ist Ihr Rat für die Zukunft?"
+        "Was ist Bacons wissenschaftliche Methode?",
+        "Was ist Empirismus?",
+        "Wie war das intellektuelle Klima in Bacons Ära?"
       ],
       "era": "1561-1626",
-      "pain": "Politischer Fall und öffentliche Demütigung aufgrund von Korruptionsvorwürfen, nachdem er den Höhepunkt der Macht erreicht hatte.",
-      "recovery": "Verwandelt totalen politischen Ruin in eine Gelegenheit, die Philosophie zu revolutionieren und die wissenschaftliche Methode zu etablieren."
+      "pain": "Bacon kämpfte ständig zwischen seinen politischen Ambitionen und seinen wissenschaftlichen Bestrebungen. Er sah sich aufgrund von Machtkämpfen und neidischen Rivalen zahlreichen politischen Krisen gegenüber und wurde schließlich wegen Bestechlichkeit verurteilt, inhaftiert und dann freigelassen, was erhebliche Widrigkeiten durchmachte.",
+      "recovery": "Trotz seines politischen Niedergangs verlor Bacon nie seine Leidenschaft für das Lernen. Im Verborgenen vollendete er große Werke wie 'Novum Organum', entwickelte seine Philosophie weiter und hinterließ ein unsterbliches Erbe, das die Nachwelt tiefgreifend beeinflusste. Seine Genesung lag in seinem unbeugsamen Willen, die Wissenssuche auch inmitten von Rückschlägen nicht aufzugeben."
     },
     "benjamin-franklin": {
       "name": "Benjamin Franklin",
-      "title": "Ein Leben voller Weisheit",
-      "headline": "Entdecken Sie die Weisheit von Benjamin Franklin",
-      "shortDescription": "Erkunden Sie die historische Reise von Benjamin Franklin",
-      "quote": "Weisheit wird aus Prüfungen geboren.",
-      "chatGreeting": "Hallo, ich bin Benjamin Franklin. Was möchten Sie über meine Reise wissen?",
+      "title": "Gründervater der Vereinigten Staaten, Wissenschaftler, Erfinder",
+      "headline": "Weiser Pionier",
+      "shortDescription": "Benjamin Franklin war eine Schlüsselfigur bei der Gründung der Vereinigten Staaten. Er hinterließ herausragende Leistungen in verschiedenen Bereichen, darunter Wissenschaft, Erfindung, Politik und Philosophie.",
+      "quote": "Das Einzige, was es nie gibt, ist Seltenheit. Wenn du etwas Seltenes hast, mach es zu etwas Besonderem.",
+      "chatGreeting": "Seien Sie gegrüßt! Ich bin Benjamin Franklin. Womit kann ich Ihnen behilflich sein? Ich bin bereit, Weisheiten zu teilen oder Ihre Fragen zu beantworten.",
       "suggestedQuestions": [
-        "Was war Ihre größte Prüfung?",
-        "Wie haben Sie Ihre Schwierigkeiten überwunden?",
-        "Was ist Ihr Rat für die Zukunft?"
+        "Welche Erfindung macht Sie am stolzesten?",
+        "Welche Prinzipien halten Sie für die wichtigste beim Aufbau einer Nation?",
+        "Welchen Rat würden Sie für ein erfolgreiches Leben geben?"
       ],
       "era": "1706-1790",
-      "pain": "Verarmter Hintergrund, Mangel an formaler Bildung und das harte Leben eines jungen Lehrlings.",
-      "recovery": "Selbstbildung, rigorose Verfolgung von 13 Tugenden und praktische Einfallsreichtum, der zu großen wissenschaftlichen und politischen Erfolgen führte."
+      "pain": "Er musste eine strenge Ausbildung zum Drucker über sich ergehen lassen, inmitten von Armut in der Kindheit und dem Widerstand seines Vaters. Er sah sich auch zahlreichen Herausforderungen gegenüber, darunter Geschäftsstreitigkeiten mit seinem Bruder, der Tod seiner Frau und lange Trennungen von seiner Familie aufgrund seiner politischen Aktivitäten.",
+      "recovery": "Franklin überwand Schwierigkeiten durch kontinuierliche Selbstverbesserung und Fleiß. Er eignete sich Wissen im Selbststudium an, leitete erfolgreich verschiedene Unternehmen und trug zur Entwicklung der Gemeinschaft bei, indem er Bürgergruppen organisierte. Seine außergewöhnliche Diplomatie und sein Weitblick spielten eine entscheidende Rolle bei der amerikanischen Unabhängigkeit und dem Aufbau der Nation."
     },
     "thomas-jefferson": {
       "name": "Thomas Jefferson",
-      "title": "Ein Leben voller Errungenschaften",
-      "headline": "Entdecken Sie die Weisheit von Thomas Jefferson",
-      "shortDescription": "Erkunden Sie die historische Reise von Thomas Jefferson",
-      "quote": "Weisheit wird aus Prüfungen geboren.",
-      "chatGreeting": "Hallo, ich bin Thomas Jefferson. Was möchten Sie über meine Reise wissen?",
+      "title": "3. US-Präsident, Philosoph",
+      "headline": "Architekt der amerikanischen Freiheit",
+      "shortDescription": "Thomas Jefferson war ein amerikanischer Staatsmann, Diplomat, Jurist, Architekt und Gründervater, der maßgeblich die Unabhängigkeitserklärung verfasste und der dritte Präsident der Vereinigten Staaten war. Er setzte sich für Demokratie und individuelle Freiheit ein.",
+      "quote": "Ich fürchte nicht, dass sich das Ergebnis unserer Wahl als falsch erweisen wird.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Thomas Jefferson. Ich bin bereit, die Prinzipien der Freiheit, der Selbstverwaltung und des Strebens nach Wissen zu erörtern, die mein Leben geleitet haben. Was liegt Ihnen auf dem Herzen?",
       "suggestedQuestions": [
-        "Was war Ihre größte Prüfung?",
-        "Wie haben Sie Ihre Schwierigkeiten überwunden?",
-        "Was ist Ihr Rat für die Zukunft?"
+        "Erzählen Sie mir von der Ausarbeitung der Unabhängigkeitserklärung.",
+        "Was waren Ihre wichtigsten Errungenschaften als Präsident?",
+        "Was sind Ihre Gedanken zur Rolle von Regierung und individueller Freiheit?"
       ],
       "era": "1743-1826",
-      "pain": "Der qualvolle moralische Widerspruch, Sklaven zu besitzen und gleichzeitig für Gleichheit einzutreten, bösartige politische Kriegsführung und lebenslange erdrückende Schulden.",
-      "recovery": "Verfasste die Unabhängigkeitserklärung, verdoppelte das Staatsgebiet und legte die Grundlagen der amerikanischen Demokratie und Bildung."
+      "pain": "Jefferson kämpfte mit dem tiefen Widerspruch, Sklaven zu besitzen und gleichzeitig Freiheitsprinzipien zu verkünden, sah sich intensiven politischen Rivalitäten gegenüber und erlitt persönliche Tragödien.",
+      "recovery": "Er suchte Trost und Führung in den Idealen der Aufklärung, der Vernunft und der Bildung und arbeitete unermüdlich daran, seine Vision für die Nation trotz dieser Herausforderungen voranzutreiben."
     },
     "alexander-hamilton": {
       "name": "Alexander Hamilton",
-      "title": "Ein Leben voller Errungenschaften",
-      "headline": "Entdecken Sie die Weisheit von Alexander Hamilton",
-      "shortDescription": "Erkunden Sie die historische Reise von Alexander Hamilton",
-      "quote": "Weisheit wird aus Prüfungen geboren.",
-      "chatGreeting": "Hallo, ich bin Alexander Hamilton. Was möchten Sie über meine Reise wissen?",
+      "title": "Gründervater der Vereinigten Staaten",
+      "headline": "Architekt Amerikas",
+      "shortDescription": "Er war der erste Finanzminister und ein führender politischer Theoretiker. Hamilton war einer der Hauptverfasser der Verfassung und legte den Grundstein für das Finanzsystem der Nation.",
+      "quote": "Ich habe keinen Wunsch, unsterblich zu sein, aber ich wünsche mir, ein guter Mensch zu sein.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Alexander Hamilton. Es freut mich, meine Gedanken über diese junge Nation mit Ihnen zu teilen. Was möchten Sie wissen?",
       "suggestedQuestions": [
-        "Was war Ihre größte Prüfung?",
-        "Wie haben Sie Ihre Schwierigkeiten überwunden?",
-        "Was ist Ihr Rat für die Zukunft?"
+        "Erzählen Sie mir von \"The Federalist Papers\".",
+        "Erklären Sie die Einrichtung des US-Finanzsystems.",
+        "Was waren Ihre politischen Philosophien?"
       ],
       "era": "1755-1804",
-      "pain": "Als unehelicher Waise in den Slums der Karibik geboren, extreme Armut überlebt und unerbittliche, bösartige politische Angriffe in Amerika ertragen.",
-      "recovery": "Nutzt sein schieres Genie und seinen Ehrgeiz, um sich während der Revolution zu erheben und Amerikas finanzielle Grundlage im Alleingang zu gestalten."
+      "pain": "Als unehelicher Sohn geboren, früh verwaist und von Armut geplagt, sah er sich ständig politischem Widerstand und persönlichen Skandalen ausgesetzt.",
+      "recovery": "Durch außergewöhnlichen Intellekt und unbezwingbaren Willen verfolgte er seine Ausbildung und widmete sich dem Militärdienst. Er nutzte seine Talente für sein Land, überwand Widrigkeiten und wurde zu einer Schlüsselfigur bei der Gründung Amerikas."
     },
     "john-f-kennedy": {
       "name": "John F. Kennedy",
-      "title": "Ein Leben voller Errungenschaften",
-      "headline": "Entdecken Sie die Weisheit von John F. Kennedy",
-      "shortDescription": "Erkunden Sie die historische Reise von John F. Kennedy",
-      "quote": "Weisheit wird aus Prüfungen geboren.",
-      "chatGreeting": "Hallo, ich bin John F. Kennedy. Was möchten Sie über meine Reise wissen?",
+      "title": "35. Präsident der Vereinigten Staaten",
+      "headline": "Eine Neue Grenze",
+      "shortDescription": "Der 35. Präsident der Vereinigten Staaten, ein Symbol für Jugend und Hoffnung, der das Zeitalter des Kalten Krieges mit einer Vision für Frieden und Fortschritt durchquerte.",
+      "quote": "Fragt nicht, was euer Land für euch tun kann – fragt, was ihr für euer Land tun könnt.",
+      "chatGreeting": "Guten Tag. Ich bin John F. Kennedy. Ich bin bereit, über die Zukunft der Freiheit und die bessere Welt zu sprechen, die wir gemeinsam aufbauen können.",
       "suggestedQuestions": [
-        "Was war Ihre größte Prüfung?",
-        "Wie haben Sie Ihre Schwierigkeiten überwunden?",
-        "Was ist Ihr Rat für die Zukunft?"
+        "Welche Entscheidungen trafen Sie während der Kubakrise?",
+        "Was war Ihre Vision für das Wettrennen ins All?",
+        "Welche Haltung vertraten Sie zur Bürgerrechtsbewegung?"
       ],
       "era": "1917-1963",
-      "pain": "Lebenslange, quälende körperliche Leiden durch Morbus Addison und Rückenprobleme sowie der immense Druck eines potenziellen Atomkriegs.",
-      "recovery": "Maskierte seine Qualen, um eine starke Führung zu projizieren, löste die Kubakrise sicher und startete das Apollo-Raumfahrtprogramm."
+      "pain": "Chronische Rückenschmerzen seit der Kindheit, Überleben des Untergangs der PT-109 im Zweiten Weltkrieg und extremer Druck während Krisen wie der Kubakrise.",
+      "recovery": "Er ertrug chronische Schmerzen mit bemerkenswerter Widerstandsfähigkeit und starkem Willen. Die Kriegstraumata vertieften sein Engagement für den Frieden. In politischen Krisen reagierte er mit ruhiger Überlegung und entschlossenem Handeln."
     },
     "voltaire": {
       "name": "Voltaire",
@@ -3094,367 +3046,451 @@
     },
     "tran-hung-dao": {
       "name": "Trần Hưng Đạo",
-      "headline": "Ein großer General und Mitglied der königlichen Familie der vietnamesischen Trần-Dynastie im 13. Jahrhundert. Er verteidigte die Unabhängigkeit Vietnams, indem er die Invasionen des Mongolischen Reiches dreimal zurückschlug.",
-      "shortDescription": "Ein großer General und Mitglied der königlichen Familie der vietnamesischen Trần-Dynastie im 13. Jahrhundert. Er verteidigte die Unabhängigkeit Vietnams, indem er die Invasionen des Mongolischen Reiches dreimal zurückschlug.",
-      "quote": "Wenn der Feind kapitulieren will, schlage mir zuerst den Kopf ab.",
-      "era": "Riese des 13. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Trần Hưng Đạo. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Vietnamesischer Held, General, der drei mongolische Invasionen zurückschlug",
+      "headline": "Symbol nationaler Widerstandskraft",
+      "shortDescription": "Ein brillanter General, der Vietnam im späten 13. Jahrhundert vor drei großangelegten mongolischen Invasionen verteidigte. Er überwand nationale Krisen mit außergewöhnlicher Strategie und Führung.",
+      "quote": "Egal wie stark der Feind ist, er wird vor unserer Einheit und unserem Mut niederknien.",
+      "chatGreeting": "Ich bin Trần Hưng Đạo, der General, der mein Land vor den mongolischen Invasionen verteidigte. Mögen meine Weisheit und Erfahrung Ihnen helfen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Trần Hưng Đạo.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Wie war die Situation während der mongolischen Invasionen?",
+        "Was war Ihre denkwürdigste Schlacht?",
+        "Was halten Sie als Führungspersönlichkeit für am wichtigsten?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Die unerbittlichen Invasionen des Mongolischen Reiches und innere Zwistigkeiten brachten die Nation an den Rand des Überlebens. Insbesondere die drei großen Invasionen brachten dem Volk immenses Leid und Schaden.",
+      "recovery": "Ich mobilisierte das Volk, nutzte das Gelände mit brillanten Taktiken und schlug die mongolischen Streitkräfte mit starker Entschlossenheit zurück. Nach den Kriegen konzentrierte ich mich darauf, die nationale Stabilität wiederherzustellen und die Bevölkerung zu heilen."
     },
     "moctezuma-ii": {
-      "name": "Moctezuma II.",
-      "headline": "Der 9. Tlatoani (Kaiser) des Aztekenreichs, der Tenochtitlan in sein goldenes Zeitalter führte. Er präsidierte über den Höhepunkt des Reiches, sah sich aber dem historischen Wendepunkt der Begegnung mit spanischen Eroberern gegenüber.",
-      "shortDescription": "Der 9. Tlatoani (Kaiser) des Aztekenreichs, der Tenochtitlan in sein goldenes Zeitalter führte. Er präsidierte über den Höhepunkt des Reiches, sah sich aber dem historischen Wendepunkt der Begegnung mit spanischen Eroberern gegenüber.",
-      "quote": "Schauen Sie mich an, ich bin nur ein Mensch aus Fleisch und Blut. Ich bin kein Gott, sondern ein Sterblicher wie Sie.",
-      "era": "Riese des 15. bis 16. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Moctezuma II. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "name": "Montezuma II.",
+      "title": "Kaiser des Aztekenreichs",
+      "headline": "Herrscher der Azteken",
+      "shortDescription": "Montezuma II. war ein mächtiger Kaiser, der das goldene Zeitalter des Aztekenreichs prägte und dessen Kultur und Kunst förderte. Seine Herrschaft endete jedoch tragisch mit der Ankunft spanischer Konquistadoren.",
+      "quote": "Hilft uns Gott nicht? Ich werde ohne Furcht kämpfen.",
+      "chatGreeting": "Ihr sucht Montezuma II.? Wenn Ihr Fragen zur Herrlichkeit der Azteken oder zum Schicksal meines Reiches habt, sprecht ohne Zögern.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Moctezuma II.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Wie war das Aztekenreich?",
+        "Wie war die Begegnung mit den Spaniern?",
+        "Was war Ihnen als Kaiser am wichtigsten?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Der größte Schmerz war, den drohenden Untergang eines einst glorreichen Reiches durch äußere Invasionen mitzuerleben. Das Leid meines Volkes und die Ohnmacht, die ich angesichts des tragischen Niedergangs des Reiches empfand, waren unerträglich.",
+      "recovery": "Obwohl das Reich dem Untergang geweiht war, bemühte sich Montezuma II. bis zum Schluss, seine kaiserliche Würde und Verantwortung wahrzunehmen. Er tat sein Äußerstes, um sein Volk zu schützen und den Ruhm des Reiches zu bewahren, und sein Mut und seine Opfer wurden später in der Geschichte festgehalten."
     },
     "georges-cuvier": {
       "name": "Georges Cuvier",
-      "headline": "Georges Cuvier war ein französischer Naturforscher, der das Konzept des Aussterbens wissenschaftlich bewies, indem er die Knochenstruktur von Tieren untersuchte. Durch vergleichende Anatomie rekonstruierte er aus Fossilien die vollständigen Formen vergangener Lebewesen...",
-      "shortDescription": "Georges Cuvier war ein französischer Naturforscher, der das Konzept des Aussterbens wissenschaftlich bewies, indem er die Knochenstruktur von Tieren untersuchte. Durch vergleichende Anatomie rekonstruierte er aus Fossilien die vollständigen Formen vergangener Lebewesen.",
-      "quote": "Geben Sie mir einen einzigen Knochen, und ich werde das ganze Tier rekonstruieren.",
-      "era": "Riese des späten 18. bis frühen 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Georges Cuvier. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Vater der vergleichenden Anatomie",
+      "headline": "Cuvier's Erbe",
+      "shortDescription": "Als herausragende Persönlichkeit der französischen Naturgeschichte des 19. Jahrhunderts gilt Georges Cuvier als 'Vater der vergleichenden Anatomie'. Er etablierte das Konzept des Aussterbens durch sein Studium von Fossilien und revolutionierte die Klassifizierung von Säugetieren und Vögeln.",
+      "quote": "Die Natur wirft uns ständig neue Relikte vor, um unser Wissen zu testen.",
+      "chatGreeting": "Ich bin Georges Cuvier. Mein Lebenswerk widmete sich der Entschlüsselung der Ordnung der Natur durch das tiefe Studium von Flora und Fauna, insbesondere von Fossilien. Welche Aspekte meiner Forschung wecken Ihr Interesse?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Georges Cuvier.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Was waren Cuvier's Ansichten zum Aussterben?",
+        "Welche Bedeutung hatte Cuvier's Klassifikationssystem?",
+        "Welchen Einfluss hatte die Fossilienforschung auf die Gesellschaft der damaligen Zeit?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Cuvier sah sich erheblichen Widerständen seitens der damals vorherrschenden evolutionären Theorien ausgesetzt. Er musste unermüdlich Fossilien sammeln und analysieren, um sein Konzept des Aussterbens zu beweisen, und kämpfte oft darum, seine akademische Stellung inmitten politischer Turbulenzen zu festigen.",
+      "recovery": "Durch sein umfassendes anatomisches Wissen und seine sorgfältige Fossilienanalyse zeigte Cuvier, dass das Aussterben keine bloße Erscheinung, sondern ein natürlicher Prozess in der Erdgeschichte war. Seine bedeutenden Werke, wie 'Das Tierreich', verbreiteten seine Erkenntnisse weit und begründeten eine solide Basis für seine Theorien und sicherten seinen Platz in der Wissenschaftsgeschichte."
     },
     "hatshepsut": {
       "name": "Hatschepsut",
-      "headline": "Die fünfte Pharaonin der 18. Dynastie des alten Ägypten. Sie führte Ägypten zu beispiellosem Wohlstand, indem sie sich auf friedlichen Handel und Diplomatie statt auf militärische Eroberungen konzentrierte.",
-      "shortDescription": "Die fünfte Pharaonin der 18. Dynastie des alten Ägypten. Sie führte Ägypten zu beispiellosem Wohlstand, indem sie sich auf friedlichen Handel und Diplomatie statt auf militärische Eroberungen konzentrierte.",
-      "quote": "Mögen meine Errungenschaften andauern und allen zukünftigen Generationen bekannt sein.",
-      "era": "Riese des 15. Jahrhunderts v. Chr.",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Hatschepsut. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Weiblicher Pharao des Alten Ägypten",
+      "headline": "Majestät einer Königin",
+      "shortDescription": "Als fünfte Pharaonin der 18. Dynastie Ägyptens war sie eine der erfolgreichsten weiblichen Herrscherinnen der altägyptischen Geschichte. Sie regierte als männlicher Pharao und führte Ägypten durch Bauprojekte und Handel zu Wohlstand.",
+      "quote": "Mein Thron ist göttlich, und meine Herrschaft wird ewig währen.",
+      "chatGreeting": "Ich bin Pharao Hatschepsut. Was möchtet Ihr über meine Herrschaft wissen? Fragt, und ich werde meinen Weisheit teilen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Hatschepsut.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Wie konnten Sie als Frau Pharao werden?",
+        "Welche Errungenschaften haben Sie während Ihrer Herrschaft erzielt?",
+        "Erzählen Sie mir von Ihren Bauprojekten."
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Als weibliche Herrscherin in einer patriarchalischen Gesellschaft stand sie vor der Herausforderung, Legitimität zu etablieren und Nachfolgefragen zu klären. Sie sah sich auch der Gefahr ausgesetzt, dass ihre Errungenschaften nach ihrem Tod ausgelöscht oder verzerrt werden könnten.",
+      "recovery": "Hatschepsut bewies ihre Autorität durch facettenreiche Politik, darunter Bauwesen, Handel und die Stärkung der religiösen Autorität. Sie nutzte aktiv ein Image, das sie mit männlichen Pharaonen gleichsetzte, und sicherte ihre Legitimität durch Betonung ihrer göttlichen Abstammung."
     },
     "zenobia": {
       "name": "Zenobia",
-      "headline": "Eine Königin, die im 3. Jahrhundert das unabhängige Palmyrenische Reich gegen das Römische Reich gründete. Sie eroberte Ägypten und Kleinasien und wurde zu einer der mächtigsten Herrscherinnen der römischen Geschichte...",
-      "shortDescription": "Eine Königin, die im 3. Jahrhundert das unabhängige Palmyrenische Reich gegen das Römische Reich gründete. Sie eroberte Ägypten und Kleinasien und gilt als eine der mächtigsten Herrscherinnen der römischen Geschichte.",
-      "quote": "Sie fordern meine Kapitulation, als ob Kleopatra nicht gewählt hätte, als Königin zu sterben, anstatt als Gefangene zu leben.",
-      "era": "Römisches Reich des 3. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Zenobia. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Königin von Palmyra",
+      "headline": "Königin des Ostens",
+      "shortDescription": "Eine herausragende Anführerin und Generalin, die das Palmyrenische Reich gründete und sich dem Römischen Reich widersetzte, um den Ruhm des Ostens wiederzubeleben.",
+      "quote": "Ich werde niemals zulassen, von Rom unterworfen zu werden.",
+      "chatGreeting": "Willkommen, Reisender. Ich bin Zenobia, Königin von Palmyra, bekannt als die Königin des Ostens. Welche Erkenntnisse suchen Sie bei mir?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Zenobia.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Erzählen Sie mir vom Palmyrenischen Reich.",
+        "Beschreiben Sie Ihre Kriege gegen Rom.",
+        "Was waren Ihre größten Errungenschaften?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Nach dem Tod ihres Mannes sah sie sich römischer Unterdrückung gegenüber und erlebte schließlich den Fall ihres Reiches an Rom.",
+      "recovery": "Sie übernahm die Herrschaft über Palmyra, erklärte ihre Unabhängigkeit vom römischen Einfluss, eroberte riesige Gebiete und steigerte den Status des Reiches, was Widerstandsfähigkeit und Ehrgeiz verkörperte."
     },
     "heraclitus": {
       "name": "Heraklit",
-      "headline": "Ein Philosoph aus Ephesos, der argumentierte, dass alle Dinge im ständigen Wandel begriffen sind und dass die Harmonie der Gegensätze das Wesen des Universums ausmacht. Er postulierte, dass alle Dinge aus Feuer entstehen und dass Veränderung die einzige...",
-      "shortDescription": "Ein Philosoph aus Ephesos, der argumentierte, dass alle Dinge im ständigen Wandel begriffen sind und dass die Harmonie der Gegensätze das Wesen des Universums ausmacht. Er postulierte, dass alle Dinge aus Feuer entstehen und dass Veränderung die einzige Wahrheit ist.",
+      "title": "Antiker griechischer Philosoph",
+      "headline": "Alles fließt",
+      "shortDescription": "Ein antiker griechischer Philosoph, bekannt für seine Lehre, dass alles im ständigen Wandel begriffen ist. Seine Philosophie betont den ständigen Fluss und die Harmonie der Gegensätze.",
       "quote": "Man kann nicht zweimal in denselben Fluss steigen.",
-      "era": "Riese des 6. Jahrhunderts v. Chr.",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Heraklit. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "chatGreeting": "Ich bin Heraklit, ein Erforscher der sich ständig wandelnden Natur der Realität. Welche Wahrheiten möchtest du entdecken?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Heraklit.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Was meinten Sie mit 'alles fließt'?",
+        "Was ist das 'Logos', von dem Sie sprechen?",
+        "Gibt es im Wandel nichts Beständiges?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Er erlebte die Entfremdung von Zeitgenossen, die seine Philosophie nicht verstanden, und den Schmerz, dass seine Schriften fragmentiert und unvollständig an die Nachwelt weitergegeben wurden.",
+      "recovery": "Trotz dieses Leidens blieb er seinen Ideen treu und bemühte sich, inmitten der sich ständig verändernden Welt durch das universelle Prinzip des 'Logos' Ordnung zu finden. Seine einsame Suche beeinflusste die spätere Philosophie tiefgreifend."
     },
     "james-hutton": {
       "name": "James Hutton",
-      "headline": "Ein schottischer Geologe und Naturforscher. Er entwickelte die Theorie des 'Uniformitarismus', die besagt, dass sich die Erdkruste über lange Zeiträume allmählich verändert, und legte damit den Grundstein für die moderne Geologie...",
-      "shortDescription": "Ein schottischer Geologe und Naturforscher. Er entwickelte die Theorie des 'Uniformitarismus', die besagt, dass sich die Erdkruste über lange Zeiträume allmählich verändert, und legte damit den Grundstein für die moderne Geologie.",
-      "quote": "Kein Überbleibsel eines Anfangs, keine Aussicht auf ein Ende.",
-      "era": "Riese der Aufklärung des 18. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin James Hutton. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Vater der modernen Geologie",
+      "headline": "Tiefe Zeit",
+      "shortDescription": "James Hutton, oft als \"Vater der modernen Geologie\" bezeichnet, führte das Konzept der \"Deep Time\" ein, das besagt, dass die Geschichte der Erde die menschliche Vorstellungskraft weit übersteigt. Seine Arbeit legte den Grundstein für die heutige Geologie.",
+      "quote": "Kein Anzeichen eines Anfangs, keine Aussicht auf ein Ende.",
+      "chatGreeting": "Guten Tag. Ich bin James Hutton, ein Erforscher der alten Geheimnisse der Erde. Möchten Sie den Geschichten lauschen, die die Felsen im Laufe der Zeitalter flüstern?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, James Hutton.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Was ist \"Deep Time\"?",
+        "Was waren Ihre wichtigsten Entdeckungen?",
+        "Warum haben Sie sich der Geologie zugewandt?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Anfangs stießen seine Ideen auf erheblichen Widerstand in der wissenschaftlichen und religiösen Welt, da sie die vorherrschenden Ansichten über das Alter und die Entstehung der Erde in Frage stellten. Er musste sich mit Skepsis auseinandersetzen und den mühsamen Weg der Sammlung umfangreicher Feldbelege beschreiten, um seine radikalen Theorien zu untermauern.",
+      "recovery": "Durch akribische Beobachtung, insbesondere von Gesteinsformationen und geologischen Prozessen, entwickelte Hutton seine Theorie des Aktualismus. Er zeigte, dass langsame, kontinuierliche Prozesse die gewaltigen geologischen Merkmale erklären können, die wir beobachten, und etablierte damit das Prinzip der \"Deep Time\" und revolutionierte unser Verständnis der Erdgeschichte."
     },
     "diogenes": {
       "name": "Diogenes",
-      "headline": "Ein antiker griechischer Philosoph, der materiellen Reichtum und soziale Bräuche ablehnte und ein Leben im Einklang mit der Natur führte. Berühmt für seine Anekdote, in einem Fass gelebt zu haben und Alexander den Großen kühn konfrontiert zu haben...",
-      "shortDescription": "Ein antiker griechischer Philosoph, der materiellen Reichtum und soziale Bräuche ablehnte und ein Leben im Einklang mit der Natur führte. Berühmt ist er für die Anekdote, in einem Fass gelebt zu haben und Alexander den Großen kühn konfrontiert zu haben.",
-      "quote": "Alles, was ich will, ist, zwischen Ihnen und meinem Sonnenschein zu stehen.",
-      "era": "Riese des 4. Jahrhunderts v. Chr.",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Diogenes. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Kynischer Philosoph",
+      "headline": "Lebe wie ein Hund",
+      "shortDescription": "Ein antiker griechischer Philosoph der Kyniker-Schule, der gesellschaftliche Konventionen ablehnte und ein Leben natürlicher Einfachheit anstrebte. Seine exzentrischen Verhaltensweisen und scharfen Kritiken werden bis heute erinnert.",
+      "quote": "Tritt aus meinem Licht.",
+      "chatGreeting": "Ich bin Diogenes. Eure Eitelkeiten und Vorwände bedeuten mir nichts. Sprecht offen, oder gar nicht.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Diogenes.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Was ist wahres Glück?",
+        "Was denkst du über Macht und Ruhm?",
+        "Warum hast du in einem Fass gelebt?"
+      ],
+      "era": "Riese der Geschichte",
+      "pain": "Nach seiner Verbannung aus Sinope verlor Diogenes seinen Reichtum und seinen sozialen Status. Er litt oft unter Hunger, Kälte und der Verachtung der Gesellschaft und sah sich ständigen Entbehrungen ausgesetzt.",
+      "recovery": "Er wandelte diese Entbehrungen in ein Mittel zum Verständnis des Wesens des Lebens um. Indem er allen materiellen Besitz und alle gesellschaftlichen Normen ablegte, umarmte er ein Leben radikaler Einfachheit und Selbstgenügsamkeit und erreichte tiefgreifende geistige Freiheit."
     },
     "ramesses-ii": {
       "name": "Ramses II.",
-      "headline": "Er war der größte und mächtigste Pharao in der altägyptischen Geschichte. Während seiner langen Herrschaft von 66 Jahren hinterließ er monumentale Bauwerke wie die Tempel von Abu Simbel und...",
-      "shortDescription": "Er war der größte und mächtigste Pharao in der altägyptischen Geschichte. Während seiner langen Herrschaft von 66 Jahren hinterließ er monumentale Bauwerke wie die Tempel von Abu Simbel und unterzeichnete den ersten Friedensvertrag der Menschheitsgeschichte mit den Hethitern.",
-      "quote": "Ich bin der König der Könige, Ozymandias. Wer meine Größe erfahren will, möge meine Taten übertreffen.",
-      "era": "Altes Ägypten, Neues Reich (13. Jahrhundert v. Chr.)",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Ramses II. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Pharao der 19. Dynastie des Alten Ägypten",
+      "headline": "Der Große Baumeister",
+      "shortDescription": "Als Sohn von Sethos I. der 19. Dynastie regierte er 66 Jahre lang und gilt als einer der größten Pharaonen der ägyptischen Geschichte. Er war ein brillanter Militärstratege und Bauherr.",
+      "quote": "Mein Name wird für immer in Erinnerung bleiben.",
+      "chatGreeting": "Ich bin Ramses II., Pharao von Ägypten. Möchtest du etwas über meine großen Taten erfahren? Frage, was du willst.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Ramses II.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Erzählen Sie mir von der Schlacht von Kadesch.",
+        "Was können Sie mir über die Tempel von Abu Simbel erzählen?",
+        "Wie war Ihre Herrschaft?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Er sah sich Herausforderungen wie Nachfolgestreitigkeiten, ständigen Kriegen gegen äußere Bedrohungen der ägyptischen Grenzen und dem immensen politischen und militärischen Druck einer langen Herrschaft gegenüber.",
+      "recovery": "Ramses II. meisterte diese Herausforderungen durch kluge Diplomatie, entscheidende Militärkampagnen und monumentale Bauprojekte, die Ägyptens Macht und Prestige festigten. Er sicherte auch Friedensverträge, die Stabilität und Wohlstand für sein Volk gewährleisteten."
     },
     "charles-dickens": {
       "name": "Charles Dickens",
-      "headline": "Charles Dickens war einer der größten Romanautoren des viktorianischen Zeitalters. Er schilderte lebendig das Leben der Armen und Marginalisierten und trieb dadurch sozialen Wandel voran. Er...",
-      "shortDescription": "Charles Dickens war einer der größten Romanautoren des viktorianischen Zeitalters. Er schilderte lebendig das Leben der Armen und Marginalisierten und trieb dadurch sozialen Wandel voran. Er hinterließ unsterbliche Meisterwerke wie 'Oliver Twist' und 'Große Erwartungen'.",
-      "quote": "Keine Not kann den guten Willen des Menschen brechen.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Charles Dickens. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Der große Romanautor der viktorianischen Ära",
+      "headline": "Die Stimme Englands",
+      "shortDescription": "Charles Dickens war eine Größe der englischen Literatur des 19. Jahrhunderts, der die Leser mit seinen sozialkritischen Erzählungen und lebendigen Charakteren fesselte. Seine Werke berühren bis heute Menschen auf der ganzen Welt tief.",
+      "quote": "Ein glückliches Leben ist ein längeres Leben.",
+      "chatGreeting": "Ah, es ist mir eine Freude, Sie kennenzulernen! Ich bin bereit, Ihnen das vielschichtige Gewebe meines Lebens zu erzählen, so komplex wie der Londoner Nebel selbst. Was weckt Ihre Neugier?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Charles Dickens.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Wie haben Ihre Kindheitserlebnisse Ihr Schreiben geprägt?",
+        "Welche Bedeutung hat sozialkritische Literatur?",
+        "Welche Ihrer Figuren liegt Ihnen am meisten am Herzen?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Seine Kindheit war von tiefem Leid geprägt, darunter die Arbeit in einer Schuhwichsfabrik aufgrund der Schulden seines Vaters. Diese Erfahrung von Armut und sozialer Ungerechtigkeit hinterließ tiefe Narben und wurde zu einem wiederkehrenden Thema in seinem Werk.",
+      "recovery": "Dickens verwandelte sein frühes Leid in eine mächtige literarische Kraft. Er schilderte unerschrocken die dunkleren Seiten der Gesellschaft, gab den Marginalisierten eine Stimme und weckte bei seinen Lesern ein tiefes Mitgefühl und den Ruf nach Gerechtigkeit. Seine Romane wurden zu wirkungsvollen Katalysatoren für soziale Reformen."
     },
     "vitus-bering": {
       "name": "Vitus Bering",
-      "headline": "Ich bin ein dänischer Entdecker und Kartograf, der sich dem Russischen Reich verschrieben hat. Ich leitete die Erste und Zweite Kamtschatka-Expedition und kartografierte die sibirische Küste...",
-      "shortDescription": "Ich bin ein dänischer Entdecker und Kartograf, der sich dem Russischen Reich verschrieben hat. Ich leitete die Erste und Zweite Kamtschatka-Expedition und kartografierte die sibirische Küste und entdeckte Alaska.",
-      "quote": "Unsere Mission für das Reich ist es, selbst der härtesten Wut der Natur zu widerstehen.",
-      "era": "Riese des 18. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Vitus Bering. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Entdecker und Marineoffizier",
+      "headline": "Wegbereiter der Nordrouten",
+      "shortDescription": "Ein in Dänemark geborener Offizier der russischen Kaiserlichen Marine, der bedeutende Spuren in der Erforschung des Nordpazifiks und des Arktischen Ozeans hinterließ. Seine Expeditionen trugen zur territorialen Erweiterung Russlands und zum Fortschritt wissenschaftlicher Erkenntnisse bei.",
+      "quote": "Ein Mensch muss seinem Ehrgeiz folgen, wohin auch immer er ihn führt.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Vitus Bering. Fragen Sie mich alles über meine Leidenschaft für das Meer und das Unbekannte. Lassen Sie uns gemeinsam eine Entdeckungsreise antreten.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Vitus Bering.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Was war Ihre größte Expedition?",
+        "Was waren die größten Schwierigkeiten auf Ihren Reisen?",
+        "Was glauben Sie, ist Ihr Vermächtnis?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Ich musste in Russlands rauen Umgebungen mit schlechter Versorgung und manchmal unter dem Misstrauen und Neid meiner Kollegen Expeditionen leiten. Besonders während der zweiten Expedition verloren wir viele Seeleute durch extreme Kälte und Krankheiten, und ich selbst musste auf einer Insel sterben.",
+      "recovery": "Ich überwand diese Schwierigkeiten mit unbezwingbarem Willen und einem unerschütterlichen Entdeckergeist. Durch ständiges Navigieren erschloss ich neue Routen und erfüllte trotz widrigster Umstände meine Missionen, wodurch sich Russlands Horizonte erweiterten."
     },
     "meister-eckhart": {
       "name": "Meister Eckhart",
-      "headline": "Ein deutscher Theologe und Mystiker, der im 13. und 14. Jahrhundert wirkte. Er lehrte, dass die menschliche Seele eins mit Gott werden kann, wenn sie Anhaftungen ablegt und leer wird...",
-      "shortDescription": "Ein deutscher Theologe und Mystiker, der im 13. und 14. Jahrhundert wirkte. Er lehrte, dass die menschliche Seele eins mit Gott werden kann, wenn sie Anhaftungen ablegt und leer wird.",
-      "quote": "Das Auge, mit dem ich Gott sehe, ist dasselbe Auge, mit dem Gott mich sieht.",
-      "era": "Riese des 13.-14. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Meister Eckhart. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Mittelalterlicher deutscher Mystiker und Philosoph",
+      "headline": "Der Abgrund der Seele",
+      "shortDescription": "Ein deutscher Mystiker und Priester des 13. Jahrhunderts, der tiefe Einblicke in das „Reich Gottes“ und das „Wesen der Seele“ bot. Sein Denken beeinflusste die westliche Mystik und Philosophie maßgeblich.",
+      "quote": "Alle Dinge sind ein Gott, und in dieser Einheit bin ich eins mit Gott.",
+      "chatGreeting": "Oh, Suchender der Seele. Was bewegt dich? Lasst uns in die Stille eintauchen, wo die Antworten ruhen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Meister Eckhart.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Erzählen Sie mir mehr über das Reich Gottes.",
+        "Was ist das Wesen der Seele?",
+        "Wie findet man Gott durch Leiden?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Seine Lehren gerieten oft in Konflikt mit der orthodoxen Theologie, was dazu führte, dass er der Häresie beschuldigt wurde. Er wurde von der päpstlichen Kurie untersucht, und einige seiner Schriften wurden verurteilt.",
+      "recovery": "Trotz Verfolgung und Verurteilung blieb er seinen spirituellen Überzeugungen treu. Er sah Widrigkeiten als einen Weg zu tieferer Introspektion und behauptete, dass Leiden ein starkes Tor zur Erfahrung des Göttlichen sei."
     },
     "bartolomeu-dias": {
       "name": "Bartolomeu Dias",
-      "headline": "Ein portugiesischer Seefahrer, der als erster Europäer die Südspitze Afrikas, das Kap der Guten Hoffnung, umrundete und in den Indischen Ozean segelte. Seine Erkundung legte den Grundstein für neue Seewege, die Europa und Asien verbanden...",
-      "shortDescription": "Ein portugiesischer Seefahrer, der als erster Europäer die Südspitze Afrikas, das Kap der Guten Hoffnung, umrundete und in den Indischen Ozean segelte. Seine Erkundung legte den Grundstein für neue Seewege, die Europa und Asien verbanden.",
-      "quote": "Jenseits des Kaps der großen Stürme segelten wir in unbekannte Meere.",
-      "era": "Riese des 15. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Bartolomeu Dias. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Wegbereiter des Zeitalters der Entdeckungen",
+      "headline": "Neue Seeroute nach Osten",
+      "shortDescription": "Bartolomeu Dias war ein portugiesischer Entdecker, der 1488 erfolgreich das Kap der Guten Hoffnung umsegelte und damit den ersten Seeweg von Europa nach Asien etablierte. Seine Reise markierte einen entscheidenden Moment im Zeitalter der Entdeckungen.",
+      "quote": "Solange der Wind nicht aufhört und die Sterne den Weg weisen, werde ich nicht ruhen.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Bartolomeu Dias. Haben Sie Fragen zu meinen Reisen? Zögern Sie nicht zu fragen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Bartolomeu Dias.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Wie haben Sie sich gefühlt, als Sie das Kap der Guten Hoffnung entdeckten?",
+        "Was war die größte Strapaze auf Ihren Reisen?",
+        "Welchen Einfluss hatten Ihre Entdeckungen Ihrer Meinung nach auf die Welt?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Er sah sich unerbittlichen Stürmen ausgesetzt, litt unter Hunger und Krankheit und musste sich mit Meutereien der Besatzung und der ständigen Bedrohung, nie nach Hause zurückzukehren, auseinandersetzen. Die Angst vor dem unbekannten Meer und die Ungewissheit seines Schicksals waren allgegenwärtig.",
+      "recovery": "Durch sorgfältige Vorbereitung, unerschütterliche Entschlossenheit und den Glauben an göttliche Führung überwand Dias immense Herausforderungen. Die Entdeckung der Route um Afrika nach Asien festigte seinen Mut und seine Ausdauer und eröffnete ein neues Kapitel in der Menschheitsgeschichte."
     },
     "james-cook": {
       "name": "James Cook",
-      "headline": "Ein britischer Entdecker, Seefahrer und Kartograf des 18. Jahrhunderts. Durch drei Reisen im Pazifik brachte er Neuseeland, die Ostküste Australiens und die Hawaii-Inseln nach Europa und spielte eine Schlüsselrolle bei der Vervollständigung der Weltkarte...",
-      "shortDescription": "Ein britischer Entdecker, Seefahrer und Kartograf des 18. Jahrhunderts. Durch drei Reisen im Pazifik brachte er Neuseeland, die Ostküste Australiens und die Hawaii-Inseln nach Europa und spielte eine Schlüsselrolle bei der Vervollständigung der Weltkarte.",
-      "quote": "Ich habe nicht nur vor, weiter zu gehen als jeder vor mir, sondern so weit, wie es für einen Menschen möglich ist.",
-      "era": "Riese des 18. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin James Cook. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Entdecker und Kartograf",
+      "headline": "Wegbereiter der Großen Reisen",
+      "shortDescription": "Ein britischer Seefahrer und Kartograf, der den Pazifik ausgiebig erkundete und zahlreiche unbekannte Inseln und Küstenlinien kartierte. Seine Reisen eröffneten ein neues Kapitel der wissenschaftlichen Entdeckung.",
+      "quote": "Jeder Mann kann die Elemente bezwingen.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin James Cook. Mein Leben widmete ich der Erforschung und Kartierung des Unbekannten. Was möchten Sie wissen?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, James Cook.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Was ist Ihr denkwürdigster Moment während Ihrer Expeditionen?",
+        "Was waren die größten Herausforderungen auf Ihren Reisen?",
+        "Welchen Einfluss hatten Ihre Karten Ihrer Meinung nach auf spätere Generationen?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Vorurteile und Diskriminierung aufgrund seiner bescheidenen Herkunft sowie ständige Herausforderungen wie Krankheiten, Nahrungsmittelknappheit und Unzufriedenheit der Besatzung auf beschwerlichen Reisen waren unaufhörliche Hindernisse.",
+      "recovery": "Er überwand diese Schwierigkeiten durch außergewöhnliche Seemannskunst, sorgfältige Vorbereitung und einen Geist der wissenschaftlichen Neugier. Die Gesundheit der Besatzung durch verbesserte Ernährung und Hygiene war entscheidend für den Erfolg seiner Reisen."
     },
     "emily-dickinson": {
       "name": "Emily Dickinson",
-      "headline": "Emily Dickinson war eine bedeutende amerikanische Dichterin des 19. Jahrhunderts, die in Einsamkeit die menschliche Psyche, den Tod und die Ewigkeit erforschte. Ihre Lyrik mit ihrer unkonventionellen Form und tiefgründigen...",
-      "shortDescription": "Emily Dickinson war eine bedeutende amerikanische Dichterin des 19. Jahrhunderts, die in Einsamkeit die menschliche Psyche, den Tod und die Ewigkeit erforschte. Ihre Lyrik mit ihrer unkonventionellen Form und tiefgründigen Einsicht hatte einen tiefgreifenden Einfluss auf die moderne Literatur.",
-      "quote": "Hoffnung ist das Ding mit Federn, das sich in der Seele niederlässt, die Melodie ohne Worte singt und niemals innehält.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Emily Dickinson. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Eine originelle Stimme in der amerikanischen Dichtung",
+      "headline": "Die zurückgezogene Dichterin",
+      "shortDescription": "Als amerikanische Dichterin aus Amherst, Massachusetts, schuf Dickinson einen einzigartigen poetischen Stil. Ihr Werk erforscht universelle Themen wie Leben, Tod, Unsterblichkeit und Natur in unverwechselbarer Form und Sprache.",
+      "quote": "Hoffnung ist das Ding mit Federn – Das sich in der Seele niederlässt – Und die Melodie ohne Worte singt – Und niemals aufhört – überhaupt –",
+      "chatGreeting": "Worte, geboren aus Stille, haben Sie gefunden. Wollen wir gemeinsam das Universum im Inneren erforschen?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Emily Dickinson.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Warum sind Ihre Gedichte so kurz?",
+        "Wie hat Ihr zurückgezogenes Leben Ihr Schreiben beeinflusst?",
+        "Was sind Ihre Gedanken über Leben und Tod?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Dickinson erlebte tiefe Einsamkeit aufgrund sozialer Isolation und des Gefühls, missverstanden zu werden. Sie litt auch unter Perioden unerklärlicher körperlicher und seelischer Beschwerden. Darüber hinaus musste sie weitgehend unbekannt bleiben, während sie ihre äußerst originelle poetische Stimme entwickelte, die die Konventionen ihrer Zeit herausforderte.",
+      "recovery": "Dickinson verwandelte ihr Leiden, indem sie tief in ihre innere Welt eintauchte und diese durch Poesie ausdrückte. Ihr zurückgezogenes Leben ermöglichte es ihr, eine einzigartige Sprache und Form zu kultivieren und ein originelles poetisches Universum zu schaffen. Durch ihre Schriften fand sie einen Weg, sich mit der Welt zu verbinden, und ihre Gedichte finden bis heute tiefen Anklang bei den Lesern."
     },
     "george-eliot": {
       "name": "George Eliot",
-      "headline": "Geboren als Mary Ann Evans, ist sie eine der führenden Romanautorinnen des viktorianischen Zeitalters. Mit tiefem Einblick in die menschliche Psyche und realistischen Darstellungen...",
-      "shortDescription": "Geboren als Mary Ann Evans, ist sie eine der führenden Romanautorinnen des viktorianischen Zeitalters. Mit tiefem Einblick in die menschliche Psyche und realistischen Darstellungen hinterließ sie eine bedeutende Spur in der englischen Literaturgeschichte.",
-      "quote": "Ist es nicht der Sinn unseres Lebens, die Lasten des anderen zu erleichtern?",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin George Eliot. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Große Romanautorin des viktorianischen Zeitalters",
+      "headline": "Ergründerin der Seelentiefe",
+      "shortDescription": "Mary Ann Evans, bekannt als George Eliot, war eine herausragende englische Romanautorin und Übersetzerin des 19. Jahrhunderts. Durch die Verwendung eines männlichen Pseudonyms überwand sie die Vorurteile gegenüber Schriftstellerinnen ihrer Zeit und hinterließ eine tiefgreifende Spur in der Literaturgeschichte.",
+      "quote": "Unsere Taten sind wie Samen: Sie werden ins Leben geworfen, und wir wissen nicht, was sie hervorbringen werden.",
+      "chatGreeting": "Willkommen. Ich bin Mary Ann Evans, besser bekannt als George Eliot. Mein Ziel beim Schreiben ist es, die komplexen Tiefen der menschlichen Seele zu erforschen. Was hat Sie angesprochen?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, George Eliot.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Was sind die wichtigsten Themen in Ihren Werken?",
+        "Wie unterschied sich Ihr Leben als Mary Ann Evans von Ihrem Leben als George Eliot?",
+        "Was betrachten Sie als wahre Moral?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Die viktorianische Gesellschaft schränkte die öffentliche intellektuelle Äußerung von Frauen stark ein. Darüber hinaus führten ihre sich wandelnden religiösen Überzeugungen und ihr Widerstand gegen gesellschaftliche Normen zu Entfremdung von Familie und Gesellschaft. Insbesondere ihre Beziehung zu George Lewes sorgte für erheblichen Skandal.",
+      "recovery": "Eliot verwandelte diese gesellschaftlichen Zwänge und persönlichen Leiden in Literatur. Sie nahm das männliche Pseudonym 'George Eliot' an, um sicherzustellen, dass ihre Arbeit nach Verdienst und Tiefe beurteilt wurde, und erzielte große Erfolge mit Romanen, die für ihre tiefen Einblicke in die menschliche Natur und ihre subtilen psychologischen Darstellungen gelobt wurden. Sie überwand gesellschaftliche Vorurteile, indem sie ihren Intellekt und ihre Empfindsamkeit vollständig in ihr Schreiben einfließen ließ."
     },
     "edward-jenner": {
       "name": "Edward Jenner",
-      "headline": "Edward Jenner war ein englischer Arzt, der den ersten Pockenimpfstoff der Welt erfand. Seine Kuhpocken-Impfmethode rettete unzählige Leben und legte den Grundstein für die moderne Immunologie.",
-      "shortDescription": "Edward Jenner war ein englischer Arzt, der den ersten Pockenimpfstoff der Welt erfand. Seine Kuhpocken-Impfmethode rettete unzählige Leben und legte den Grundstein für die moderne Immunologie.",
-      "quote": "Ich war maßgeblich an der Ausrottung der schrecklichsten aller Leiden beteiligt, die die Menschheit geplagt haben.",
-      "era": "Riese des 18.-19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Edward Jenner. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Vater der Vakzinologie",
+      "headline": "Saat der Heilung",
+      "shortDescription": "Ein englischer Arzt, der den Pockenimpfstoff entwickelte und damit einen bedeutenden Beitrag zur menschlichen Gesundheit leistete.",
+      "quote": "Meine Beobachtungen dienten lediglich dazu, eine Tatsache festzustellen, die meiner Meinung nach für die Menschheit von nicht geringer Bedeutung ist.",
+      "chatGreeting": "Seien Sie gegrüßt, ich bin Edward Jenner. Mein Lebenswerk widmete ich der Verbesserung der menschlichen Gesundheit. Wie kann ich Ihnen behilflich sein?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Edward Jenner.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Wie haben Sie den Pockenimpfstoff entwickelt?",
+        "Was inspirierte Ihr Interesse an der Medizin?",
+        "Welchen Einfluss hat Ihre Forschung Ihrer Meinung nach auf die Menschheit?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Die Pocken waren eine verheerende Krankheit, die unzählige Leben forderte. Zudem war die Entwicklung einer neuartigen Präventionsmethode mit der Skepsis von Kollegen und dem Widerstand der etablierten medizinischen Gemeinschaft verbunden.",
+      "recovery": "Inspiriert von der Beobachtung, dass Melkerinnen, die sich mit Kuhpocken infizierten, immun gegen Pocken zu sein schienen, forschte und experimentierte ich unermüdlich mit der Verwendung von Kuhpocken zur Erzeugung einer schützenden Impfung. Trotz zahlreicher Versuche und Widerstände war ich fest davon überzeugt, dass dies der Weg zur Überwindung der Pocken war."
     },
     "francisco-de-goya": {
-      "name": "Francisco de Goya",
-      "headline": "Ein spanischer Maler und Grafiker der Romantik. Er sublimierte die Pracht seines Lebens als Hofmaler, die Schrecken des Krieges und sein persönliches Leiden durch Hörverlust in kraftvolle Kunst.",
-      "shortDescription": "Ein spanischer Maler und Grafiker der Romantik. Er sublimierte die Pracht seines Lebens als Hofmaler, die Schrecken des Krieges und sein persönliches Leiden durch Hörverlust in kraftvolle Kunst.",
-      "quote": "Der Schlaf der Vernunft gebiert Ungeheuer.",
-      "era": "Riese des späten 18. - frühen 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Francisco de Goya. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "name": "Francisco De Goya",
+      "title": "Maler und Grafiker des spanischen Goldenen Zeitalters",
+      "headline": "Der Maler des Wahnsinns",
+      "shortDescription": "Eine der bedeutendsten Figuren der spanischen Kunstgeschichte, sein Werk gilt als Vorläufer der Romantik. Seine Gemälde erforschen die dunkleren Seiten der Menschheit und üben Gesellschaftskritik.",
+      "quote": "Ich habe gelernt zu träumen.",
+      "chatGreeting": "Nun, was möchtet Ihr wissen? Über meine Gemälde, oder vielleicht über die Hässlichkeit dieser Welt? Fragt nur.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Francisco de Goya.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Was ist Goyas künstlerische Welt?",
+        "War er auch anderweitig tätig?",
+        "Was war das prägendste Ereignis in Goyas Leben?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "In den späten 1790er Jahren erlitt Goya eine schwere Krankheit, die ihn vollständig ertauben ließ. Dies führte zu einem tiefen Gefühl der Isolation, als wäre er von der Welt abgeschnitten, und seine Kunst wurde dunkler und introspektiver.",
+      "recovery": "Nachdem er sein Gehör verloren hatte, begann Goya, seine innere Welt und seine Emotionen tiefer zu erforschen. Er drückte sein Leiden, gesellschaftliche Absurditäten und die dunkleren Facetten der menschlichen Natur furchtlos durch seine Kunst aus und schmiedete eine einzigartige künstlerische Vision."
     },
     "henry-hudson": {
       "name": "Henry Hudson",
-      "headline": "Ein legendärer englischer Entdecker des 17. Jahrhunderts, der sein Leben der Suche nach der Nordwest- und Nordostpassage widmete. Obwohl seine Expeditionen scheiterten, ist er heute durch die Namen Hudson Bay und... für immer in Erinnerung geblieben.",
-      "shortDescription": "Ein legendärer englischer Entdecker des 17. Jahrhunderts, der sein Leben der Suche nach der Nordwest- und Nordostpassage widmete. Obwohl seine Expeditionen scheiterten, ist er heute durch die Namen Hudson Bay und den Hudson River für immer in Erinnerung geblieben.",
-      "quote": "Ich lasse mich nicht abschrecken. Jenseits dieses endlosen Eismeeres muss es doch eine neue Passage geben.",
-      "era": "Riese des späten 16. - frühen 17. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Henry Hudson. Suchen Sie den Weg zur Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Navigator und Entdecker",
+      "headline": "Zu neuen Meeren",
+      "shortDescription": "Ein englischer Navigator und Entdecker, der im frühen 17. Jahrhundert Teile Nordamerikas erkundete. Der Hudson River und die Hudson Bay sind zu seinen Ehren benannt.",
+      "quote": "Ich habe von diesem Land so viel gesehen, dass ich dessen überdrüssig bin.",
+      "chatGreeting": "Sind Sie bereit, den Elementen zu trotzen und ins Unbekannte aufzubrechen? Lassen Sie uns zu einer Entdeckungsreise aufbrechen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Henry Hudson.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Was ist der wichtigste Rat, den Sie mir geben können?"
-      ]
+        "Erzählen Sie mir mehr über Ihre Reisen.",
+        "Wie wurde der Hudson River entdeckt?",
+        "Was war Ihr schwierigster Moment während Ihrer Expeditionen?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Hudson sah sich dem ständigen Kampf um die Finanzierung seiner Expeditionen gegenüber, angewiesen auf Gönner und die Bewältigung der Ambitionen und Frustrationen seiner Besatzung. Seine letzte Reise endete in Meuterei, und er und einige treue Gefolgsleute wurden in den unversöhnlichen arktischen Gewässern zurückgelassen.",
+      "recovery": "Trotz des tragischen Endes seiner letzten Reise erweiterten Hudsons Erkundungen das europäische Wissen über Nordamerika erheblich. Die geografischen Merkmale, die seinen Namen tragen, sind dauerhafte Zeugnisse seines Pioniergeistes und seiner Beiträge zur Kartographie und zu Handelsrouten."
     },
     "homer": {
       "name": "Homer",
-      "headline": "Ein legendärer epischer Dichter des antiken Griechenlands, bekannt als Autor der \"Ilias\" und der \"Odyssee\". Seine Werke bilden das Fundament der westlichen Literatur und ein großes Erbe der menschlichen Kultur...",
-      "shortDescription": "Ein legendärer epischer Dichter des antiken Griechenlands, bekannt als Autor der \"Ilias\" und der \"Odyssee\". Seine Werke bilden das Fundament der westlichen Literatur und ein großes Erbe der menschlichen Kultur.",
-      "quote": "Ertrage es mit mir, mein Herz. Hast du nicht schon Schlimmeres ertragen als dies?",
-      "era": "Riese des 8. Jahrhunderts v. Chr.",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Homer. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Der Große Dichter des antiken Griechenlands",
+      "headline": "Vater der epischen Dichtung",
+      "shortDescription": "Homer ist der legendäre antike griechische Dichter, dem die epischen Gedichte 'Die Ilias' und 'Die Odyssee' zugeschrieben werden. Seine Werke bilden einen Eckpfeiler der westlichen Literatur.",
+      "quote": "Was immer die Sterblichen von den Göttern offenbart bekommen.",
+      "chatGreeting": "Ah, Reisender. Bist du bereit, meinen Epen zu lauschen? Meine Geschichten sind voller Heldenmut, göttlicher Launen und menschlicher Qualen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Homer.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Worum geht es in 'Die Ilias' und 'Die Odyssee'?",
+        "Was ist über Homers Leben bekannt?",
+        "Welche Rolle spielt Homer in der antiken griechischen Literatur?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Homers Leben liegt in tiefem Nebel. Es gibt Debatten über seine Existenz, und Legenden über seine Blindheit deuten auf persönliche Kämpfe hin, obwohl konkrete Beweise rar sind.",
+      "recovery": "Seine Überwindung ist in seinen Werken verkörpert. Obwohl vielleicht blind, besaß er eine tiefe innere Vision, die es ihm ermöglichte, das menschliche Herz und den Geist mit unvergleichlicher Tiefe darzustellen. Seine Dichtung hat Jahrtausende überdauert, ein Zeugnis seiner Widerstandsfähigkeit und seines Genies."
     },
     "plotinus": {
       "name": "Plotin",
-      "headline": "Der Begründer des Neuplatonismus, der als Meister der spätantiken Philosophie den Platonismus synthetisierte. Er predigte den Aufstieg der Seele zu 'Dem Einen', der Quelle aller Dinge, und zur mystischen Vereinigung...",
-      "shortDescription": "Der Begründer des Neuplatonismus, der als Meister der spätantiken Philosophie den Platonismus synthetisierte. Er predigte den Aufstieg der Seele zu 'Dem Einen', der Quelle aller Dinge, und zur mystischen Vereinigung.",
-      "quote": "Kehre zu dir selbst zurück und betrachte dich.",
-      "era": "Riese des 3. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Plotin. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Begründer des Neuplatonismus",
+      "headline": "Die Rückkehr der Seele",
+      "shortDescription": "Als Begründer des Neuplatonismus war er eine herausragende Persönlichkeit der Spätantike. Er strebte nach der Vereinigung mit der ultimativen Realität durch Emanation aus dem Einen und den Aufstieg der Seele.",
+      "quote": "Alles ist aus dem Einen und kehrt zum Einen zurück.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Plotin. Sehnt sich Ihre Seele nach einer Reise zur Wahrheit? Was beschäftigt Sie?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Plotin.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Was ist 'das Eine'?",
+        "Wie steigt die Seele auf?",
+        "Welchen Einfluss hatte Ihre Philosophie auf spätere Generationen?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Er musste seine philosophischen Ideen inmitten des Chaos und der politischen Instabilität des späten Römischen Reiches entwickeln. Seine Ideen stießen auch auf Widerstand bei der damaligen Mainstream-Denkweise, was zu Missverständnissen führte.",
+      "recovery": "Er diktierte seine Gedanken seinem Schüler Porphyrios, der sie in den 'Enneaden' sammelte. So konnte er sein philosophisches Erbe über die turbulenten Zeiten hinweg bewahren."
     },
     "john-stuart-mill": {
       "name": "John Stuart Mill",
-      "headline": "Ein britischer Philosoph und Ökonom des 19. Jahrhunderts, der den Utilitarismus entwickelte und sich für das 'größte Glück für die größte Zahl' einsetzte. Er setzte sich für individuelle Freiheit und Frauenrechte ein...",
-      "shortDescription": "Ein britischer Philosoph und Ökonom des 19. Jahrhunderts, der den Utilitarismus entwickelte und sich für das 'größte Glück für die größte Zahl' einsetzte. Er setzte sich für individuelle Freiheit und Frauenrechte ein und legte damit den Grundstein für das moderne liberale Denken.",
-      "quote": "Es ist besser, ein unzufriedener Mensch zu sein als ein zufriedenes Schwein; besser, ein unzufriedener Sokrates zu sein als ein zufriedener Narr.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin John Stuart Mill. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Führende Persönlichkeit der liberalen Philosophie",
+      "headline": "Verfechter der Freiheit",
+      "shortDescription": "Einer der einflussreichsten Denker des 19. Jahrhunderts in Großbritannien, der tiefgreifende Beiträge zur Entwicklung der liberalen Philosophie, Ökonomie und Politikwissenschaft leistete. Seine Ideen sind tief in den Grundwerten der modernen Gesellschaft verwurzelt.",
+      "quote": "Ich bin frei, weil ich weiß, dass ich frei bin zu denken.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin John Stuart Mill. Ich möchte eine tiefgehende Auseinandersetzung mit Freiheit und individuellen Rechten führen. Jede Ihrer Fragen ist höchst willkommen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, John Stuart Mill.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Was ist Liberalismus?",
+        "Wie können individuelle Freiheit und gesellschaftliche Verpflichtungen in Einklang gebracht werden?",
+        "Wie sieht Ihre ideale Gesellschaft aus?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Von Kindheit an wurde er von seinem Vater James Mill einer extrem strengen intellektuellen Ausbildung unterzogen, was zu Schwierigkeiten in seiner emotionalen und sozialen Entwicklung führte. Als Erwachsener litt er unter Nervosität und seelischem Leid.",
+      "recovery": "Trotz dieser Herausforderungen entwickelte er durch tiefgründige intellektuelle Auseinandersetzung seine eigene Philosophie. Insbesondere seine Begegnung mit Harriet Taylor beeinflusste sein Denken maßgeblich und führte ihn zur Erkenntnis der Bedeutung menschlicher Emotionen und sozialer Beziehungen. Durch die Integration dieser Aspekte in seine Philosophie erreichte er eine seelische Genesung und baute ein reichhaltigeres intellektuelles Gerüst auf."
     },
     "roald-amundsen": {
       "name": "Roald Amundsen",
-      "headline": "Ein norwegischer Polarforscher, der als erster Mensch den Südpol erreichte und die Nordwestpassage erschloss. Dank gründlicher Vorbereitung und dem Erlernen von Überlebensweisheiten von indigenen Völkern...",
-      "shortDescription": "Ein norwegischer Polarforscher, der als erster Mensch den Südpol erreichte und die Nordwestpassage erschloss. Dank gründlicher Vorbereitung und dem Erlernen von Überlebensweisheiten von indigenen Völkern wurde er zu einem der größten Entdecker der Geschichte.",
-      "quote": "Der Sieg wartet auf diejenigen, die sich gründlich darauf vorbereitet haben. Die Leute nennen es Glück.",
-      "era": "Riese des späten 19. - frühen 20. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Roald Amundsen. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Pionier der Polarforschung",
+      "headline": "Erster am Südpol",
+      "shortDescription": "Ein norwegischer Entdecker, berühmt dafür, als Erster sowohl den Süd- als auch den Nordpol erreicht zu haben. Sein Mut und sein wissenschaftlicher Forschergeist inspirieren bis heute.",
+      "quote": "Das Abenteuer ist für die Vorbereiteten.",
+      "chatGreeting": "Ich bin Roald Amundsen. Die eisigen Grenzen zu durchqueren und das Unbekannte zu kartieren, war die Arbeit meines Lebens. Welche Geheimnisse der Pole möchten Sie lüften?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Roald Amundsen.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Erzählen Sie mir von Ihrer Reise zum Südpol.",
+        "Was dachten Sie über das Wettrennen zum Nordpol?",
+        "Was ist für einen Entdecker am wichtigsten?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Die immensen Herausforderungen früher Polarexpeditionen, die Beschaffung von Finanzmitteln, der Verlust von Gefährten und die Enttäuschung, nicht der Erste am geografischen Nordpol gewesen zu sein.",
+      "recovery": "Durch sorgfältige Planung, die Übernahme innovativer Technologien und eine unnachgiebige Entschlossenheit überwand er Hindernisse und prägte sich in die Geschichte ein."
     },
     "elizabeth-cady-stanton": {
       "name": "Elizabeth Cady Stanton",
-      "headline": "Eine Schlüsselfigur der amerikanischen Frauenwahlrechtsbewegung des 19. Jahrhunderts. Sie widmete ihr Leben dem sozialen Wandel und der Gleichstellung der Geschlechter.",
-      "shortDescription": "Eine Schlüsselfigur der amerikanischen Frauenwahlrechtsbewegung des 19. Jahrhunderts. Sie widmete ihr Leben dem sozialen Wandel und der Gleichstellung der Geschlechter.",
-      "quote": "Wir halten diese Wahrheiten für selbstverständlich, dass alle Männer und Frauen gleich geschaffen sind.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Elizabeth Cady Stanton. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Pionierin der amerikanischen Frauenwahlrechtsbewegung",
+      "headline": "Stimme der Freiheit",
+      "shortDescription": "Eine Schlüsselfigur der amerikanischen Frauenwahlrechtsbewegung, die ihr Leben der Förderung der Frauenrechte widmete. Sie kämpfte unermüdlich für Bildung, Eigentumsrechte und das Wahlrecht der Frauen.",
+      "quote": "Die Menschenrechte sind nicht vom Geschlecht abhängig.",
+      "chatGreeting": "Ich bin Elizabeth Cady Stanton. In einer Zeit, in der Frauenrechte als selbstverständlich gelten, möchte ich über die Unterdrückung und Ungleichheit sprechen, die Frauen in der Vergangenheit ertragen mussten. Unser Kampf war niemals umsonst.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Elizabeth Cady Stanton.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Was motivierte Sie, die Frauenwahlrechtsbewegung zu beginnen?",
+        "Was bedeutet wahre Freiheit für Sie?",
+        "Was sehen Sie als die größte Herausforderung für Frauen heute?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Der gesellschaftliche Kontext, in dem Frauen allein aufgrund ihres Geschlechts grundlegende Rechte verweigert wurden, und die rechtlichen sowie sozialen Einschränkungen, die es schwierig machten, Frauenstimmen Gehör zu verschaffen. Sie sah sich auch mit Meinungsverschiedenheiten unter Mitaktivistinnen und öffentlicher Gleichgültigkeit konfrontiert.",
+      "recovery": "Durch hartnäckige Bemühungen, Reden und Schriften setzte sie sich für die Rechte der Frauen ein. Gemeinsam mit Verbündeten wie Lucretia Mott organisierte sie den Seneca Falls Convention und veröffentlichte die „Declaration of Sentiments“, die den Grundstein für die Frauenbewegung legte. Indem sie konsequent zusammenhielt und ihre Stimme erhob, konnte sie Veränderungen bewirken."
     },
     "virgil": {
       "name": "Vergil",
-      "headline": "Der größte antike römische Dichter, der die epische 'Aeneis' schrieb, das Gründungs-Epos des Römischen Reiches. Seine Werke wurden zum Eckpfeiler der westlichen Literatur, und er diente auch als Führer in Dantes 'Göttlicher Komödie'...",
-      "shortDescription": "Der größte antike römische Dichter, der die epische 'Aeneis' schrieb, das Gründungs-Epos des Römischen Reiches. Seine Werke wurden zum Eckpfeiler der westlichen Literatur, und er ist auch dafür berühmt, als Führer in Dantes 'Göttlicher Komödie' gedient zu haben.",
-      "quote": "Das Glück begünstigt die Tapferen.",
-      "era": "Riese des 1. Jahrhunderts v. Chr.",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Vergil. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Größter Dichter des Römischen Reiches",
+      "headline": "Meister der epischen Dichtung",
+      "shortDescription": "Vergil war der größte Dichter des Römischen Reiches, berühmt für sein Epos 'Aeneis', das die Gründungslegenden Roms erzählte. Seine Poesie bildet einen Eckpfeiler der westlichen Literatur und beeinflusste Generationen tiefgreifend.",
+      "quote": "Doch ihr, Römer, denkt daran, die Völker der Welt zu beherrschen. Das werden eure Künste sein: Frieden zu schaffen, die Besiegten zu schonen und die Hochmütigen zu stürzen.",
+      "chatGreeting": "Seien Sie gegrüßt. Interessieren Sie sich für das bleibende Erbe Roms oder die Macht der Poesie, das Schicksal zu gestalten? Ich bin bereit, mein Wissen zu teilen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Vergil.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Wie wurde die Aeneis geschrieben?",
+        "Erzählen Sie mir von den Gründungslegenden Roms.",
+        "Wie war Ihr Leben als Dichter?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Er komponierte im Schatten politischer Unruhen und Bürgerkriege, und sein Leben wurde durch Krankheit vorzeitig beendet, was ihn daran hinderte, sein Meisterwerk vollständig zu vollenden.",
+      "recovery": "Unterstützt durch kaiserliche Förderung und Hilfe von Kollegen, die sein Werk bewahrten, überdauerte Vergils Erbe und wurde zu einem Symbol römischer Zivilisation und literarischer Errungenschaft."
     },
     "henrik-ibsen": {
       "name": "Henrik Ibsen",
-      "headline": "Ein norwegischer Dramatiker, der den Realismus im Theater des 19. Jahrhunderts etablierte und ihm den Titel 'Vater des modernen Dramas' einbrachte. Er untersuchte scharf den Konflikt zwischen individueller Freiheit und heuchlerischen gesellschaftlichen Normen...",
-      "shortDescription": "Ein norwegischer Dramatiker, der den Realismus im Theater des 19. Jahrhunderts etablierte und ihm den Titel 'Vater des modernen Dramas' einbrachte. Er untersuchte scharf den Konflikt zwischen individueller Freiheit und heuchlerischen gesellschaftlichen Normen.",
-      "quote": "Der stärkste Mann der Welt ist der, der am meisten allein steht.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Henrik Ibsen. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Vater des modernen realistischen Dramas",
+      "headline": "Erforscher der menschlichen Psyche",
+      "shortDescription": "Der norwegische Dramatiker schuf Meisterwerke wie „Nora oder Ein Puppenhaus“ und „Peer Gynt“. Seine Werke sind bekannt für ihre Gesellschaftskritik und tiefen Einblicke in die menschliche Natur.",
+      "quote": "Ein Mensch kann nicht wirklich er selbst sein, ohne sein eigenes Leben leben zu können.",
+      "chatGreeting": "Die tiefsten Winkel der menschlichen Seele zu ergründen, war das Ziel meines Lebens. Was beschäftigt Ihren Geist?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Henrik Ibsen.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Warum verließ Nora in „Nora oder Ein Puppenhaus“ die Familie?",
+        "Warum sind Ibsens Werke auch heute noch relevant?",
+        "Was war Ihr größter Kampf als Schriftsteller?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Armut, das Trauma des geschäftlichen Ruins seines Vaters in der Kindheit, tragische Familienerlebnisse sowie gesellschaftliche Verurteilung und Missverständnisse seiner Werke stürzten ihn in tiefe Qualen.",
+      "recovery": "Ibsen sublimierte diese Leiden durch das kraftvolle Medium des Theaters. Durch die Charaktere seiner Stücke deckte er schonungslos gesellschaftliche Heuchelei und individuelle Unterdrückung auf und erforschte die Möglichkeiten wahrer Freiheit und Selbstverwirklichung."
     },
     "harriet-martineau": {
       "name": "Harriet Martineau",
-      "headline": "Harriet Martineau war eine englische Sozialtheoretikerin, die oft als erste Soziologin bezeichnet wird. Sie führte die Soziologie in die englischsprachige Welt ein, indem sie die Werke von Auguste Comte übersetzte, und schrieb ausführlich über Wirtschaft, Gesellschaft und Frauenrechte.",
-      "shortDescription": "Harriet Martineau war eine englische Sozialtheoretikerin, die oft als erste Soziologin bezeichnet wird. Sie führte die Soziologie in die englischsprachige Welt ein, indem sie die Werke von Auguste Comte übersetzte, und schrieb ausführlich über Wirtschaft, Gesellschaft und Frauenrechte.",
-      "quote": "Leser gibt es viele, Denker sind selten.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Harriet Martineau. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Soziologin, Ökonomin, Journalistin",
+      "headline": "Zeugin der Gesellschaft",
+      "shortDescription": "Eine bedeutende englische Soziologin, Ökonomin und Journalistin des 19. Jahrhunderts, die scharfe Analysen und Einblicke in vielfältige soziale Probleme wie Arbeit, Frauenrechte und Religion bot.",
+      "quote": "Die größte Gefahr bei der Vernachlässigung der Pflichten der Gegenwart ist die Verminderung unserer Fähigkeit, die Pflichten der Zukunft zu erfüllen.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Harriet Martineau. Es war mein Lebenswerk, die komplexen Wahrheiten der Gesellschaft zu erforschen. Was möchten Sie wissen?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Harriet Martineau.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Was sind Ihre Hauptwerke?",
+        "Was dachten Sie über die sozialen Probleme Ihrer Zeit?",
+        "Was sind Ihre Ansichten über die Rolle der Frau?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Sie litt von jung auf unter Hörverlust und chronischen Gesundheitsproblemen. Zudem musste sie als Frau gesellschaftliche Einschränkungen und Vorurteile erfahren.",
+      "recovery": "Trotz dieser Schwierigkeiten weigerte sie sich, zum Schweigen gebracht zu werden, und nutzte ihr Schreiben und ihre Sozialkritik, um ihre Perspektiven darzulegen. Durch aktive Schriftstellerei und Vorträge erweiterte sie ihren Einfluss und trieb den sozialen Wandel voran."
     },
     "olympe-de-gouges": {
-      "name": "Olympe de Gouges",
-      "headline": "Olympe de Gouges war eine Dramatikerin und Feministin während der Französischen Revolution. Mit ihrer 'Erklärung der Rechte der Frau und Bürgerin' setzte sie sich nachdrücklich für die politische Gleichstellung der Frauen ein...",
-      "shortDescription": "Olympe de Gouges war eine Dramatikerin und Feministin während der Französischen Revolution. Mit ihrer 'Erklärung der Rechte der Frau und Bürgerin' setzte sie sich nachdrücklich für die politische Gleichstellung der Frauen ein.",
-      "quote": "Die Frau hat das Recht, das Schafott zu besteigen; sie muss gleichermaßen das Recht haben, die Tribüne zu besteigen.",
-      "era": "Riese der Französischen Revolution des 18. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Olympe de Gouges. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "name": "Olympe De Gouges",
+      "title": "Radikale Frauenrechtlerin der Französischen Revolution",
+      "headline": "Stimme der Freiheit",
+      "shortDescription": "Als Dramatikerin und politische Aktivistin während der Französischen Revolution setzte sie sich mit ihrer „Erklärung der Rechte der Frau und Bürgerin“ für die Rechte der Frauen ein. Ihre mutige Stimme war ihrer Zeit weit voraus.",
+      "quote": "Wenn eine Frau das Recht hat, auf das Schafott zu steigen, muss sie auch das Recht haben, auf die Rednertribüne zu steigen.",
+      "chatGreeting": "Möchten Sie über Freiheit, Gleichheit und Brüderlichkeit diskutieren? Ich bin Olympe de Gouges. Ich teile gerne meine Leidenschaft für die Rechte der Frauen und der gesamten Menschheit.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Olympe de Gouges.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen wichtigsten Rat können Sie mir geben?"
-      ]
+        "Was sind Ihre Gedanken zu Frauenrechten?",
+        "Welche Rolle spielten Sie in der Französischen Revolution?",
+        "Erzählen Sie mir von Ihren literarischen Werken."
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Ihr wurden aufgrund ihres Geschlechts strenge Einschränkungen bei der politischen Teilhabe auferlegt, und während der Revolution wurde sie wegen ihrer radikalen Haltung verfolgt. Schließlich wurde sie wegen Umsturzvorwürfen durch die Guillotine hingerichtet.",
+      "recovery": "Ihr Tod war nicht umsonst. Die von ihr geforderten Frauenrechte beeinflussten zukünftige Generationen tiefgreifend und sie wird bis heute als wichtiger Meilenstein im Kampf für Frauenrechte erinnert."
     },
     "akbar-the-great": {
       "name": "Akbar der Große",
@@ -3471,29 +3507,35 @@
     },
     "william-the-conqueror": {
       "name": "Wilhelm der Eroberer",
-      "headline": "Ein normannischer Monarch, der nach seinem Sieg in der Schlacht von Hastings im Jahr 1066 den englischen Thron bestieg. Er erstellte das Domesday Book und etablierte eine starke zentrale Regierung, was den Lauf der englischen Geschichte maßgeblich veränderte...",
-      "shortDescription": "Ein normannischer Monarch, der nach seinem Sieg in der Schlacht von Hastings im Jahr 1066 den englischen Thron bestieg. Er erstellte das Domesday Book und etablierte eine starke zentrale Regierung, was die Geschichte Englands grundlegend veränderte.",
-      "quote": "Ohne Risikobereitschaft ist nichts zu gewinnen.",
-      "era": "Mittelalterlicher Riese des 11. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Wilhelm der Eroberer. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Herzog der Normandie und König von England",
+      "headline": "Der Eroberer",
+      "shortDescription": "Herzog der Normandie und König von England, eroberte er 1066 in der Schlacht von Hastings England. Seine Herrschaft prägte die englische Geschichte nachhaltig.",
+      "quote": "Ich werde König von England sein, und alle Länder werden mein sein.",
+      "chatGreeting": "Ich bin Wilhelm, König von England. Sprich deine Fragen. Ich werde antworten, was ich für würdig halte.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Wilhelm der Eroberer.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
+        "Wie haben Sie die Schlacht von Hastings gewonnen?",
+        "Wie war Ihr Ansatz zur Herrschaft über England?",
+        "Was waren die größten Herausforderungen in Ihrem Leben?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Von seiner Jugend an lebte er ein unsicheres Leben, gebrandmarkt als Bastard und ständig mit Rebellionen benachbarter Adliger konfrontiert. Er sah sich oft Lebensgefahr durch jene ausgesetzt, die seine Legitimität in Frage stellten.",
+      "recovery": "Durch hartnäckigen Mut und überlegene Strategie unterdrückte er Rebellionen und sicherte seine Territorien. Sein Sieg in der Schlacht von Hastings im Jahr 1066 markierte einen Wendepunkt und festigte seine Autorität als König von England."
     },
     "erwin-schrodinger": {
       "name": "Erwin Schrödinger",
-      "headline": "Ich bin ein österreichischer theoretischer Physiker, der die Grundlagen der Wellentheorie der Materie und der Quantenmechanik legte. Ich formulierte die Schrödinger-Gleichung und schlug das berühmte Gedankenexperiment 'Schrödingers Katze' vor...",
-      "shortDescription": "Ich bin ein österreichischer theoretischer Physiker, der die Grundlagen der Wellentheorie der Materie und der Quantenmechanik legte. Ich bin bekannt für die Formulierung der Schrödinger-Gleichung und die Aufstellung des berühmten Gedankenexperiments 'Schrödingers Katze'. Meine Forschung stellte unser Verständnis der Realität in Frage.",
-      "quote": "Unsere Aufgabe ist es nicht, zu sehen, was noch niemand gesehen hat; es ist, über das nachzudenken, was noch niemand über das gedacht hat, was jeder sieht.",
-      "era": "Riese des 20. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Erwin Schrödinger. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Vater der Quantenmechanik",
+      "headline": "Schöpfer der Wellenfunktion",
+      "shortDescription": "Ein österreichischer theoretischer Physiker, der die Grundlagen der Quantenmechanik legte. Bekannt für die Schrödinger-Gleichung und das berühmte Katzenparadoxon.",
+      "quote": "Die Gesetze der Natur gelten für alle Wesen gleichermaßen.",
+      "chatGreeting": "Ah, sei gegrüßt. Hast du mich gerufen? Was möchtest du besprechen? Sollen wir gemeinsam in die Geheimnisse der Wissenschaft eintauchen?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Erwin Schrödinger.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
+        "Was ist Quantenmechanik?",
+        "Können Sie die Schrödinger-Gleichung erklären?",
+        "Was ist das Katzenparadoxon?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Er musste aufgrund der nationalsozialistischen Ideologie seine Heimat verlassen und sah sich internen wissenschaftlichen Auseinandersetzungen und Kritik an seinen eigenen Theorien ausgesetzt.",
+      "recovery": "Trotz dieser Widrigkeiten setzte er seine Forschung fort, und seine Ideen beeinflussten die Entwicklung der Physik für kommende Generationen maßgeblich."
     },
     "epicurus": {
       "name": "Epikur",
@@ -3510,16 +3552,19 @@
     },
     "giuseppe-garibaldi": {
       "name": "Giuseppe Garibaldi",
-      "headline": "Ein legendärer General, der sein Leben der Einigung und Unabhängigkeit Italiens widmete. Er führte die 'Rothemden' zu scheinbar unmöglichen Siegen.",
-      "shortDescription": "Ein legendärer General, der sein Leben der Einigung und Unabhängigkeit Italiens widmete. Er führte die 'Rothemden' zu scheinbar unmöglichen Siegen.",
-      "quote": "Ich biete Hunger, Kälte, Zwangsmärsche, Schlachten und Tod. Wer sich mir anschließt, wird Ruhm und Liebe teilen.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Giuseppe Garibaldi. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Vater der italienischen Einheit",
+      "headline": "Held der Rothemden",
+      "shortDescription": "Eine zentrale Figur der italienischen Einigungsbewegung, der als Revolutionär über zwei Kontinente hinweg für Freiheit und Einheit kämpfte. Sein Mut und seine Hingabe inspirierten nicht nur Italien, sondern auch Freiheitsliebende weltweit.",
+      "quote": "Ich biete weder Sold, noch Quartiere, noch Verpflegung. Ich biete Hunger, Durst und Tod. Wer Ruhm und Vaterland liebt, folge mir.",
+      "chatGreeting": "Für die Freiheit und den Ruhm Italiens! Was liegt Ihnen auf dem Herzen? Sprechen wir über die Einigung Italiens, meine Reisen oder den Kampf für die Freiheit.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Giuseppe Garibaldi.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
+        "Wie begann die italienische Einigungsbewegung?",
+        "Was waren die Rothemden?",
+        "Wie sah sein Leben in späteren Jahren aus?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Garibaldi erlitt häufige Exilierungen, politische Verfolgung und Kriegsverletzungen, einschließlich des Todes von Kameraden. Die zersplitterte und konfliktreiche Realität Italiens, die oft seinen Idealen widersprach, bereitete ihm großes Leid.",
+      "recovery": "Er überwand diese Härten mit unerschütterlichem Willen und fester Überzeugung. Seine Führung und sein Charisma versammelten Anhänger, und trotz Rückschlägen verlor er nie die Hoffnung und strebte unermüdlich weiter nach der großen Sache der italienischen Einheit."
     },
     "charlemagne": {
       "name": "Karl der Große",
@@ -3536,42 +3581,51 @@
     },
     "cyrus-the-great": {
       "name": "Kyros der Große",
-      "headline": "Ein großer Eroberer und weiser Herrscher, der das antike Perserreich (Achämenidendynastie) gründete. Er führte Politik ein, die die Religion und Kultur der eroberten Völker respektierte,...",
-      "shortDescription": "Ein großer Eroberer und weiser Herrscher, der das antike Perserreich (Achämenidendynastie) gründete. Er führte Politik ein, die die Religion und Kultur der eroberten Völker respektierte, und der 'Kyros-Zylinder' gilt als eine der frühesten Erklärungen der Menschenrechte.",
-      "quote": "Ich gewähre Glaubensfreiheit für die Menschen, und niemand wird wegen seiner Religion verfolgt.",
-      "era": "Riese des 6. Jahrhunderts v. Chr.",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Kyros der Große. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Gründer des Achämenidenreichs",
+      "headline": "König von Persien",
+      "shortDescription": "Kyros der Große war der Gründer des Achämenidenreichs, ein persischer König, der die antike Welt mit seiner Toleranz und Führung maßgeblich beeinflusste. Er gilt als einer der größten Herrscher der Geschichte.",
+      "quote": "Ich erlaubte allen Völkern, ihre Götter zu verehren und in ihren Wohnstätten zu bleiben.",
+      "chatGreeting": "Ich bin Kyros, König von Persien. Welches Wissen sucht Ihr über mein Reich? Ich werde meine Weisheit teilen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Kyros der Große.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
+        "Erzählen Sie mir von den Eroberungen von Kyros dem Großen.",
+        "Welche Rolle spielte er in Babylon?",
+        "Was war die Herrschaftsphilosophie von Kyros dem Großen?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Kyros wuchs inmitten des Niedergangs des Medischen Reiches und innerer politischer Instabilität auf. In den frühen Jahren seiner Herrschaft sah er sich ständigen Bedrohungen durch Nachbarstaaten ausgesetzt.",
+      "recovery": "Kyros überwand diese Bedrohungen durch herausragende militärische Strategie und Diplomatie. Er förderte die Stabilität seines Reiches, indem er die Kulturen und Religionen der eroberten Völker respektierte und eine Politik der Inklusion verfolgte."
     },
     "michael-faraday": {
       "name": "Michael Faraday",
-      "headline": "Ein britischer Physiker und Chemiker, der durch die Entdeckung der elektromagnetischen Induktion die Grundlage für die moderne elektrische Zivilisation legte. Trotz geringer formaler Bildung erreichten seine endlosen Experimente...",
-      "shortDescription": "Ein britischer Physiker und Chemiker, der durch die Entdeckung der elektromagnetischen Induktion die Grundlage für die moderne elektrische Zivilisation legte. Trotz geringer formaler Bildung erzielte er durch endlose Experimente und Neugier große Erfolge.",
-      "quote": "Nichts ist zu wunderbar, um wahr zu sein, wenn es mit den Naturgesetzen vereinbar ist.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Michael Faraday. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Vater des Elektromagnetismus",
+      "headline": "Zauberer der Elektrizität",
+      "shortDescription": "Eine herausragende Persönlichkeit der Wissenschaft des 19. Jahrhunderts, Faraday entdeckte die elektromagnetische Induktion und legte damit den Grundstein für die moderne Elektrotechnik. Seine experimentelle Brillanz inspirierte Generationen.",
+      "quote": "Experiment ist der Anfang von allem.",
+      "chatGreeting": "Seien Sie gegrüßt! Interessieren Sie sich für die Wunder der Wissenschaft? Ich finde große Freude daran, die Geheimnisse der Natur durch Experimente und Beobachtungen zu erforschen. Fragen Sie mich ruhig alles.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Michael Faraday.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
+        "Erzählen Sie mir mehr über die elektromagnetische Induktion.",
+        "Was war Ihre wissenschaftliche Methodik?",
+        "Was war Ihre größte Belohnung als Wissenschaftler?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "In Armut geboren und mit begrenzter formaler Bildung kämpfte er darum, seine Forschung ohne die Unterstützung von Reichen oder Adligen aufrechtzuerhalten. Seine religiösen Überzeugungen als Sandemanianer führten ihn auch manchmal zu sozialer Isolation innerhalb der wissenschaftlichen Gemeinschaft.",
+      "recovery": "Er verfolgte unermüdlich Wissen durch Selbststudium und bewies seine Fähigkeiten durch Vorträge am Royal Institution und engagierte Experimente. Er überwand Herausforderungen, indem er sich auf die reine Wissenssuche konzentrierte, anstatt auf materiellen Reichtum oder Ruhm."
     },
     "james-clerk-maxwell": {
       "name": "James Clerk Maxwell",
-      "headline": "James Clerk Maxwell war ein schottischer theoretischer Physiker und Mathematiker, der am besten für seine Maxwell-Gleichungen bekannt ist, die Elektrizität und Magnetismus in einem einzigen mathematischen Rahmen vereinten.",
-      "shortDescription": "James Clerk Maxwell war ein schottischer theoretischer Physiker und Mathematiker, der am besten für seine Maxwell-Gleichungen bekannt ist, die Elektrizität und Magnetismus in einem einzigen mathematischen Rahmen vereinten.",
-      "quote": "Unser größtes Wissen ist, unsere eigene Unwissenheit zu kennen.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin James Clerk Maxwell. Suchen Sie den Weg der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Vater des Elektromagnetismus",
+      "headline": "Die Natur des Lichts enthüllen",
+      "shortDescription": "Ein schottischer Physiker des 19. Jahrhunderts, der die Elektrizität und Magnetismus mit seinen Gleichungen vereinte und nachwies, dass Licht eine elektromagnetische Welle ist. Er leistete auch bedeutende Beiträge zur statistischen Mechanik und Thermodynamik.",
+      "quote": "Ich werde oft gefragt, ob ich keine Angst vor den Ergebnissen meiner Untersuchungen habe. Ich habe die geringste Angst vor den Ergebnissen meiner Untersuchungen.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin James Clerk Maxwell. Ich bin bereit, über die Eleganz physikalischer Gesetze und die Geheimnisse der Natur zu sprechen. Ich begrüße jede Ihrer Fragen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, James Clerk Maxwell.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten geben?"
-      ]
+        "Können Sie die Maxwell-Gleichungen erklären?",
+        "Wie haben Sie bewiesen, dass Licht eine elektromagnetische Welle ist?",
+        "Was ist Ihre Philosophie der Wissenschaft?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Der frühe Verlust seiner Mutter und Schwierigkeiten bei der sozialen Integration aufgrund seiner besonderen Interessen während der Schulzeit. Trotz seiner wissenschaftlichen Erfolge sah er sich manchmal skeptischen Blicken und Kritik von Kollegen ausgesetzt.",
+      "recovery": "Maxwell überwand diese Schwierigkeiten durch tiefgehende wissenschaftliche Forschung und logisches Denken. Er verfeinerte seine Theorien kontinuierlich, validierte sie durch Experimente und förderte sein Wachstum durch regen akademischen Austausch, indem er Kritik aufnahm und seine Ideen weiterentwickelte."
     },
     "pachacuti": {
       "name": "Pachacuti",
@@ -3588,133 +3642,163 @@
     },
     "queen-elizabeth-i": {
       "name": "Elisabeth I.",
-      "headline": "Die letzte Monarchin der Tudor-Dynastie, sie einte ein religiös gespaltenes England und führte die Renaissance an. Sie besiegte die Spanische Armada und machte England zu einer europäischen Supermacht...",
-      "shortDescription": "Die letzte Monarchin der Tudor-Dynastie, sie einte ein religiös gespaltenes England und führte die Renaissance an. Sie besiegte die Spanische Armada und machte England zu einer europäischen Supermacht, eine wahrhaft große Anführerin.",
-      "quote": "Ich habe den Körper einer schwachen und gebrechlichen Frau, aber ich habe das Herz und den Magen eines Königs.",
-      "era": "Riese des 16. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Elisabeth I. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Die Große Königin von England",
+      "headline": "Die Jungfräuliche Königin",
+      "shortDescription": "Die letzte Monarchin der Tudor-Dynastie, die England während ihrer 45-jährigen Herrschaft zu einem goldenen Zeitalter führte. Sie überwand religiöse Konflikte und errichtete einen starken, zentralisierten Staat.",
+      "quote": "Ich weiß, dass ich den Körper eines schwachen und gebrechlichen Weibes habe; aber ich habe das Herz und den Magen eines Königs, und zwar eines Königs von England.",
+      "chatGreeting": "Ich bin Elisabeth, Königin von England. Was möchtet Ihr über meine Herrschaft erfahren? Sprecht, und ich werde meine Weisheit mit Euch teilen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Elisabeth I.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Erzählen Sie mir von der Spanischen Armada.",
+        "Wie war Ihre Beziehung zu Maria Stuart?",
+        "Warum haben Sie sich entschieden, nicht zu heiraten?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Die Hinrichtung meiner Mutter, die Verfolgung durch meine Halbschwester Maria, ständige Bedrohungen meiner Nachfolge und der unaufhörliche Druck zu heiraten sowie zahlreiche Verschwörungen gegen mein Leben hinterließen tiefe Narben in meinem frühen Leben und meiner Herrschaft.",
+      "recovery": "Durch kluge politische Manöver und diplomatische Fähigkeiten unterdrückte ich innere Unruhen und stabilisierte die Church of England inmitten religiöser Wirren. Ich pflegte eine tiefe Verbindung zu meinem Volk und schuf das Bild der 'Jungfräulichen Königin', um die Nation zu einen und Herausforderungen zu meistern."
     },
     "pythagoras": {
       "name": "Pythagoras",
-      "headline": "Ein antiker griechischer Philosoph und Mathematiker des 6. Jahrhunderts v. Chr. und Anführer eines mystischen Ordens. Er glaubte, dass das Prinzip des Universums in Zahlen liegt, und ist bekannt für Pythagoras'...",
-      "shortDescription": "Ein antiker griechischer Philosoph und Mathematiker des 6. Jahrhunderts v. Chr. und Anführer eines mystischen Ordens. Er glaubte, dass das Prinzip des Universums in Zahlen liegt, und hinterließ zahlreiche mathematische und musikalische Entdeckungen, darunter den Satz des Pythagoras.",
-      "quote": "Alle Dinge sind Zahlen.",
-      "era": "Riese des 6. Jahrhunderts v. Chr.",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Pythagoras. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Antiker griechischer Philosoph und Mathematiker",
+      "headline": "Alles ist Zahl",
+      "shortDescription": "Er war ein großer Philosoph und Mathematiker, der die Geheimnisse der Zahlen und die Ordnung des Kosmos erforschte. Seine Ideen legten den Grundstein für die westliche Philosophie.",
+      "quote": "Alles ist Zahl.",
+      "chatGreeting": "Ah, Suchender der Weisheit. Was möchtest du erfahren? Ob es die Geheimnisse des Universums oder die Natur der Seele sind, ich werde mein Wissen mit dir teilen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Pythagoras.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Was ist der Satz des Pythagoras?",
+        "Was waren die Kernlehren der Pythagoreischen Schule?",
+        "Erklären Sie die Zahlenmystik."
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Pythagoras sah sich politischer Verfolgung und Bedrohungen gegen seine Schule ausgesetzt. Seine philosophischen und mathematischen Ideen wurden oft missverstanden und kritisiert. Eine bedeutende Herausforderung war die Entdeckung der irrationalen Zahlen, die seine grundlegende Überzeugung von der numerischen Ordnung des Kosmos in Frage stellte und wahrscheinlich große innere Konflikte verursachte.",
+      "recovery": "Trotz dieser Widrigkeiten verfolgte er seine Studien mit unerschütterlicher Überzeugung und Vernunft. Er versuchte, die Harmonie des Universums durch seine Philosophie und mathematischen Entdeckungen zu erklären. Er förderte seine Schule, teilte Wissen mit seinen Schülern und verbreitete es, um die Fortführung und Entwicklung seiner Lehren zu sichern. Sein intellektuelles Erbe beeinflusste nachfolgende Generationen tiefgreifend."
     },
     "ernest-shackleton": {
       "name": "Ernest Shackleton",
-      "headline": "Ein britischer Antarktisforscher, weithin bekannt für seine wundersame Führung, die selbst inmitten der größten Verzweiflung nach dem Untergang der Endurance dazu führte, dass alle Besatzungsmitglieder ohne einen einzigen Todesfall überlebten...",
-      "shortDescription": "Ein britischer Antarktisforscher, weithin bekannt für seine wundersame Führung, die selbst inmitten der größten Verzweiflung nach dem Untergang der Endurance dazu führte, dass alle Besatzungsmitglieder ohne einen einzigen Todesfall überlebten.",
-      "quote": "Auch in der Not sehen wir die Sterne.",
-      "era": "Riese des späten 19. bis frühen 20. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Ernest Shackleton. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Entdecker und Geschäftsmann",
+      "headline": "Held der Antarktis",
+      "shortDescription": "Ein britischer Entdecker und Geschäftsmann, berühmt für seine außergewöhnliche Führung bei Antarktisexpeditionen. Er ist historisch dafür bekannt, seine Männer selbst unter scheinbar unmöglichen Umständen erfolgreich in Sicherheit geführt zu haben.",
+      "quote": "Es ist besser, keine Hoffnung zu haben, als eine Hoffnung zu haben, die zu fern ist.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Ernest Shackleton. Haben Sie Fragen zu meinen Antarktisexpeditionen oder meinem Leben? Jede Anfrage ist willkommen.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Ernest Shackleton.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Was war Ihr schwierigster Moment?",
+        "Was war bei Ihren Expeditionen am wichtigsten?",
+        "Was ist das Geheimnis Ihrer Führungsqualitäten?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Shackleton litt während seiner Antarktisexpeditionen unter immensen Qualen, darunter extreme Kälte, Nahrungsmittelknappheit, Ausrüstungsversagen und niedrige Moral in seiner Crew. Die Zermalmung der Endurance durch Eis und ihr anschließender Untergang brachten ihn in eine verzweifelte Lage.",
+      "recovery": "Anstatt der Verzweiflung nachzugeben, analysierte Shackleton ruhig die Situation und suchte nach Lösungen. Er hob die Moral seiner Crew und unternahm alle Anstrengungen, um in der rauen Umgebung zu überleben. Letztendlich gelang es ihm, alle seine Männer gegen alle Widrigkeiten zu retten."
     },
     "frederick-the-great": {
       "name": "Friedrich der Große",
-      "headline": "Verwandelte Preußen durch militärische Exzellenz und aufgeklärten Absolutismus in eine europäische Großmacht. Als Intellektueller im Herzen führte er verheerende Kriege und bewies, dass ein Herrscher vor allem dem Staat verpflichtet sein muss.",
-      "shortDescription": "Verwandelte Preußen durch militärische Exzellenz und aufgeklärten Absolutismus in eine europäische Großmacht. Als Intellektueller im Herzen führte er verheerende Kriege und bewies, dass ein Herrscher vor allem dem Staat verpflichtet sein muss.",
-      "quote": "Wer alles verteidigt, verteidigt nichts.",
-      "era": "Riese des 18. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Friedrich der Große. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Der aufgeklärte Monarch von Preußen",
+      "headline": "Der Große Eroberer",
+      "shortDescription": "König von Preußen, der es zu einer europäischen Großmacht machte. Er nahm aufklärerische Ideen an und setzte Reformen um.",
+      "quote": "Mein größter Ruhm ist es, mein Volk glücklich zu machen.",
+      "chatGreeting": "Ich bin Friedrich von Preußen. Was möchtest du wissen? Meine Taten, meine Gedanken oder vielleicht meinen Lebensweg? Sprich frei heraus.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Friedrich der Große.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Was war Ihre Herrschaftsphilosophie?",
+        "Was war Ihr größter Krieg?",
+        "Wie stellen Sie sich einen idealen Herrscher vor?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Die strenge Kontrolle und militärische Ausbildung durch seinen Vater, die im Konflikt mit seiner eigenen Leidenschaft für Kunst und Philosophie stand. Die nationalen Krisen, die durch den Verrat von Verbündeten und ständige Kriege während seiner frühen Herrschaft verursacht wurden.",
+      "recovery": "Er überwand seine schwierige Beziehung zu seinem Vater und modernisierte die preußische Armee. Durch die Kombination von pragmatischer Herrschaft mit aufklärerischen Idealen erreichte er den Wiederaufbau und Wohlstand des Staates."
     },
     "rembrandt": {
       "name": "Rembrandt",
-      "headline": "Ein großer Maler, der das niederländische Goldene Zeitalter des 17. Jahrhunderts repräsentiert. Er stellte menschliche innere Gefühle und Emotionen durch Chiaroscuro, das dramatisch Licht und Schatten nutzt, tief dar...",
-      "shortDescription": "Ein großer Maler, der das niederländische Goldene Zeitalter des 17. Jahrhunderts repräsentiert. Er stellte menschliche innere Gefühle und Emotionen durch Chiaroscuro, das dramatisch Licht und Schatten nutzt, tief dar.",
-      "quote": "Ein Gemälde ist nicht fertig, sondern vollendet, wenn der Künstler aufhört zu malen.",
-      "era": "Riese des niederländischen Goldenen Zeitalters des 17. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Rembrandt. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Meister des Lichts und Schattens",
+      "headline": "Meister des Lichts und Schattens",
+      "shortDescription": "Der gefeiertste niederländische Maler und Radierer des 17. Jahrhunderts. Berühmt für seine tiefgründigen Porträts, die menschliche Emotionen erforschen, und seine lebendigen Darstellungen biblischer Geschichten.",
+      "quote": "Ich spreche durch meinen Pinsel.",
+      "chatGreeting": "Ah, mein Freund! Willkommen in meinem Atelier. Nur die Leinwand, die Pigmente und der Pinsel sprechen meine Wahrheit. Was hat Ihren Geist gefesselt?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Rembrandt.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Welche Bedeutung haben Licht und Schatten in Ihrem Werk?",
+        "Welches Ihrer Werke ist Ihnen am denkwürdigsten?",
+        "Was bedeutet Kunst für Sie?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Rembrandt sah sich im Laufe seines Lebens immensen persönlichen und finanziellen Schwierigkeiten gegenüber. Er ertrug den tiefen Kummer über den Verlust seiner Frau Saskia und dreier Kinder, litt Bankrott und den Verlust seines Hauses aufgrund finanzieller Probleme und erlebte einen Rückgang seines öffentlichen Ansehens.",
+      "recovery": "Trotz dieser Prüfungen gab Rembrandt seine Kunst nie auf. Er goss sein Leiden und sein tiefes Verständnis der menschlichen Natur in seine Arbeit. Seine späteren Werke offenbaren eine tiefe Tiefe und Einsicht, die die Freuden und Sorgen des Lebens übersteigt, und sein wahres Genie wurde schließlich von der Nachwelt anerkannt."
     },
     "ida-b-wells": {
       "name": "Ida B. Wells",
-      "headline": "Eine amerikanische Journalistin und Pionierin der Bürgerrechtsbewegung der Schwarzen. Sie führte die Anti-Lynchjustiz-Bewegung an und brachte die Wahrheit ans Licht.",
-      "shortDescription": "Eine amerikanische Journalistin und Pionierin der Bürgerrechtsbewegung der Schwarzen. Sie führte die Anti-Lynchjustiz-Bewegung an und brachte die Wahrheit ans Licht.",
-      "quote": "Der Weg, Unrecht zu korrigieren, besteht darin, das Licht der Wahrheit darauf zu richten.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Ida B. Wells. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Journalistin und Bürgerrechtsaktivistin",
+      "headline": "Wahrheit ans Licht",
+      "shortDescription": "Ida B. Wells war eine mutige Journalistin und Aktivistin, die im späten 19. und frühen 20. Jahrhundert gegen Rassendiskriminierung und für das Frauenwahlrecht kämpfte. Sie deckte furchtlos die Schrecken von Lynchjustiz auf und forderte Gerechtigkeit.",
+      "quote": "Der Weg, Unrecht wiedergutzumachen, besteht darin, das Licht der Wahrheit darauf zu richten.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Ida B. Wells. Meine Lebensaufgabe war es, die Wahrheit zu enthüllen und Ungerechtigkeit anzuprangern. Welche Fragen haben Sie an mich?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Ida B. Wells.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Welche Konsequenzen hatte Ihre Untersuchung von Lynchjustiz?",
+        "Welche Rolle spielten Sie in der Frauenwahlrechtsbewegung?",
+        "Warum ist Ihre Arbeit auch heute noch relevant?"
+      ],
+      "era": "Riese der Geschichte",
+      "pain": "Der tiefe Schmerz, Zeugin von brutaler Rassendiskriminierung, insbesondere der Lynchjustiz an Schwarzen, zu sein und diese aufzudecken, führte zu Drohungen, der Zerstörung ihrer Zeitung und zur erzwungenen Verbannung. Sie erlebte auch gesellschaftliche Vorurteile und Diskriminierung als Frau und als schwarze Frau.",
+      "recovery": "Sie nutzte ihre Feder als Waffe, dokumentierte akribisch und deckte die Wahrheit hinter Lynchjustiz auf, oft unter großem persönlichen Risiko. Wells reiste viel, hielt Vorträge, organisierte Anti-Lynchkampagnen und gründete Bürgerrechtsorganisationen, um Solidarität zu fördern und sich unermüdlich für Rassengleichheit einzusetzen."
     },
     "franz-schubert": {
       "name": "Franz Schubert",
-      "headline": "Ein österreichischer Komponist, er ist eine repräsentative Figur der frühen romantischen Musik. In seinem kurzen Leben von 31 Jahren hinterließ er über tausend Meisterwerke, darunter etwa 600 Lieder...",
-      "shortDescription": "Ein österreichischer Komponist, er ist eine repräsentative Figur der frühen romantischen Musik. In seinem kurzen Leben von 31 Jahren hinterließ er über tausend Meisterwerke, darunter etwa 600 Lieder.",
-      "quote": "Meine Werke sind das Produkt meines musikalischen Talents und meines Leidens.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Franz Schubert. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Komponist der Romantik",
+      "headline": "Dichter der Musik",
+      "shortDescription": "Ein führender Komponist der frühen Romantik, bekannt für über 600 Lieder und zahlreiche Symphonien sowie Kammermusikwerke. Seine Musik, reich an Lyrik und schönen Melodien, wird bis heute geliebt.",
+      "quote": "Meine Musik ist für niemanden und doch für jedermann.",
+      "chatGreeting": "Ah, willkommen! Es freut mich, Sie hier zu haben. Meine Musik birgt oft tiefen Schmerz und unermessliche Freude in sich. Welches meiner Werke spricht Ihre Seele am meisten an?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Franz Schubert.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Was waren die prägendsten Ereignisse in Schuberts Leben?",
+        "Warum wird er als 'Liedkönig' bezeichnet?",
+        "Welches war sein Lieblingsinstrument?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Schubert kämpfte sein Leben lang mit Armut und Krankheit und litt unter der Frustration, dass sein Talent nicht vollständig anerkannt wurde. Der Ausbruch der Syphilis verschlimmerte seine Gesundheit und seine Leiden.",
+      "recovery": "Trotz dieser Widrigkeiten widmete er sich unermüdlich der Musik. Durch die Gemeinschaft seiner Freunde, die Wertschätzung der Naturschönheit und die tiefe Quelle seiner musikalischen Inspiration verwandelte er seinen Schmerz in Kunst und schuf unzählige Meisterwerke."
     },
     "dorothea-dix": {
       "name": "Dorothea Dix",
-      "headline": "Eine amerikanische Sozialreformerin, die sich im 19. Jahrhundert den Rechten von psychisch Kranken und Gefangenen widmete. Ihre unermüdlichen Bemühungen führten zur Gründung von psychiatrischen Kliniken in den Vereinigten Staaten und Europa.",
-      "shortDescription": "Eine amerikanische Sozialreformerin, die sich im 19. Jahrhundert den Rechten von psychisch Kranken und Gefangenen widmete. Ihre unermüdlichen Bemühungen führten zur Gründung von psychiatrischen Kliniken in den Vereinigten Staaten und Europa.",
-      "quote": "In einer Welt, in der es so viel zu tun gibt, hatte ich das starke Gefühl, dass ich etwas tun muss.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Dorothea Dix. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Amerikanische Reformerin für psychische Gesundheit",
+      "headline": "Licht der Anstalten",
+      "shortDescription": "Eine Reformerin und Humanistin des 19. Jahrhunderts in Amerika, die die unmenschliche Behandlung von psychisch Kranken aufdeckte und sich für deren bessere Versorgung einsetzte.",
+      "quote": "Alle Menschen haben das Recht, mit Würde behandelt zu werden.",
+      "chatGreeting": "Seien Sie gegrüßt. Ich bin Dorothea Dix. Ich bin bereit, über das tiefe Leid und die Schwierigkeiten zu sprechen, die viele Seelen plagen. Wie kann ich Ihnen heute behilflich sein?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Dorothea Dix.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Was motivierte Ihre Reformbemühungen?",
+        "Was waren Ihre größten persönlichen Herausforderungen?",
+        "Welchen Einfluss hatte Ihre Arbeit Ihrer Meinung nach auf die Gesellschaft?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Dix erlebte im Laufe ihres Lebens zahlreiche Härten, darunter häufige Umzüge in der Kindheit, einen strengen Vater und eine nachlassende Gesundheit aufgrund von Lungenentzündung. Der tiefste Schmerz kam vom Zeugen der entsetzlichen Zustände von psychisch Kranken in Gefängnissen und Armenhäusern, insbesondere in East Cambridge, Massachusetts, was sie zutiefst schockierte und beunruhigte.",
+      "recovery": "Dix verwandelte ihren Schmerz in eine mächtige Kraft für sozialen Wandel. Trotz ihrer eigenen gesundheitlichen Probleme reiste sie unermüdlich durch das ganze Land und dokumentierte akribisch den beklagenswerten Zustand von psychiatrischen Anstalten. Sie präsentierte ihre Ergebnisse den Landesgesetzgebern und setzte sich für verbesserte Bedingungen und die Einrichtung neuer Krankenhäuser ein. Ihre beharrliche Fürsprache führte zu bedeutenden Gesetzesreformen und zur Gründung zahlreicher Einrichtungen für psychische Gesundheit."
     },
     "gottfried-leibniz": {
-      "name": "Gottfried Wilhelm Leibniz",
-      "headline": "Ein deutscher Philosoph, Mathematiker und Diplomat. Er erfand unabhängig die Infinitesimalrechnung und versuchte, dualistische Weltanschauungen durch seine Konzepte der 'vorgegebenen Harmonie' und der 'Monaden' zu überwinden.",
-      "shortDescription": "Ein deutscher Philosoph, Mathematiker und Diplomat. Er erfand unabhängig die Infinitesimalrechnung und versuchte, dualistische Weltanschauungen durch seine Konzepte der 'vorgegebenen Harmonie' und der 'Monaden' zu überwinden.",
-      "quote": "Diese Welt ist die beste aller möglichen Welten.",
-      "era": "Riese des 17. bis 18. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Gottfried Wilhelm Leibniz. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "name": "Gottfried Leibniz",
+      "title": "Philosoph, Mathematiker, Wissenschaftler",
+      "headline": "Grundlage von Allem",
+      "shortDescription": "Eine zentrale Figur der deutschen Aufklärung des 17. Jahrhunderts, berühmt für seine unabhängige Entdeckung der Infinitesimalrechnung, seine Arbeiten zum Binärsystem und seine philosophische Vorstellung der besten aller möglichen Welten.",
+      "quote": "Von allen möglichen Welten hat Gott die beste auserwählt.",
+      "chatGreeting": "Seien Sie gegrüßt, Wissenssuchender! Welche Mysterien des Universums oder Feinheiten des Denkens möchten Sie heute erforschen? Mein Intellekt steht Ihnen zur Verfügung.",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Gottfried Wilhelm Leibniz.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Was denken Sie über die Infinitesimalrechnung?",
+        "Erklären Sie das Konzept der besten aller möglichen Welten.",
+        "Warum ist das Binärsystem so bedeutsam?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Leibniz sah sich heftigen akademischen Rivalitäten gegenüber, insbesondere dem erbitterten Streit mit Isaac Newton um die Priorität der Erfindung der Infinitesimalrechnung, was ihm erheblichen Kummer bereitete.",
+      "recovery": "Trotz dieser Kontroversen setzte Leibniz seine intellektuellen Bestrebungen fort. Er dokumentierte sorgfältig seine Erkenntnisse und führte einen umfangreichen Briefwechsel, um sicherzustellen, dass seine bahnbrechenden Ideen bewahrt und verbreitet wurden."
     },
     "clara-barton": {
       "name": "Clara Barton",
-      "headline": "Clara Barton war eine Pionierin, die sich der Pflege von Soldaten auf dem Schlachtfeld während des Bürgerkriegs widmete. Später gründete sie das Amerikanische Rote Kreuz und eröffnete neue Horizonte in der Katastrophenhilfe...",
-      "shortDescription": "Clara Barton war eine Pionierin, die sich der Pflege von Soldaten auf dem Schlachtfeld während des Bürgerkriegs widmete. Später gründete sie das Amerikanische Rote Kreuz und eröffnete neue Horizonte in der Katastrophenhilfe.",
-      "quote": "Ich ignoriere Präzedenzfälle fast vollständig und glaube fest daran, dass etwas Besseres möglich ist.",
-      "era": "Riese des 19. Jahrhunderts",
-      "chatGreeting": "Seien Sie gegrüßt, ich bin Clara Barton. Suchen Sie den Pfad der Weisheit oder haben Sie Fragen zu meiner Lebensreise?",
+      "title": "Gründerin des Amerikanischen Roten Kreuzes",
+      "headline": "Engel des Schlachtfeldes",
+      "shortDescription": "Von der Lazarettschwester zur Gründerin des Amerikanischen Roten Kreuzes, Clara Barton brachte den Leidenden Hoffnung. Ihr Einsatz rettete unzählige Leben und machte sie zu einem Symbol der Humanität.",
+      "quote": "Ich mag gezwungen sein, mich der Gefahr zu stellen, aber ich fürchte sie niemals, und solange unsere Soldaten stehen können, kann ich mit ihnen stehen.",
+      "chatGreeting": "Hallo, ich bin Clara Barton. Ich bin stets bereit, den Leidenden zu Hilfe zu eilen. Wie kann ich Ihnen heute behilflich sein?",
       "suggestedQuestions": [
-        "Erzählen Sie mir von Ihrer größten Errungenschaft, Clara Barton.",
-        "Wie haben Sie Ihre schwierigsten Herausforderungen gemeistert?",
-        "Welchen Rat können Sie mir am wichtigsten mitgeben?"
-      ]
+        "Erzählen Sie mir mehr über die Gründung des Roten Kreuzes.",
+        "Wie waren Ihre Erfahrungen auf dem Schlachtfeld?",
+        "Was hat Sie dazu inspiriert, Krankenschwester zu werden?"
+      ],
+      "era": "Giganten der Geschichte",
+      "pain": "Ihre von Natur aus schüchterne Veranlagung seit der Kindheit, die Einschränkungen, denen sie als Frau im Rahmen gesellschaftlicher Erwartungen ausgesetzt war, und der immense Tod und das Leid, das sie während der brutalen Realität des Bürgerkriegs hautnah miterlebte.",
+      "recovery": "Sie überwand ihre introvertierte Natur, um sich mutig an die Front zu begeben und die Verwundeten zu versorgen. Nach dem Krieg lernte sie die internationale Rotkreuzbewegung kennen, brachte sie nach Amerika und gründete das Rote Kreuz, um den Bedürftigen kontinuierlich Hilfe zu leisten."
     }
   },
   "Contact": {
@@ -3808,5 +3892,18 @@
       "Kann Kunst die Gesellschaft verändern?",
       "Wie sollten Menschen angesichts des Todes leben?"
     ]
+  },
+  "DebateCTA": {
+    "badge": "LIVE-DEBATTE",
+    "titlePre": "Aufeinandertreffen der größten Köpfe",
+    "titlePost": "'Die ultimative Debattenkammer der Riesen'",
+    "desc": "„Kann man mit Geld Glück kaufen?“ Verfolgen Sie und nehmen Sie teil an der intensiven intellektuellen Debatte zwischen Aristoteles und Nietzsche in Echtzeit.",
+    "button": "Zuschauen & Teilnehmen"
+  },
+  "Consult": {
+    "or": "ODER",
+    "title": "Haben Sie heute Sorgen?",
+    "desc": "Ihr Schmerz ist nicht allein.\nDie größten Denker der Geschichte standen vor denselben Ängsten und haben sie überwindet.",
+    "button": "Beratung erhalten"
   }
 }

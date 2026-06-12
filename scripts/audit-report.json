@@ -1,0 +1,730 @@
+{
+  "timestamp": "2026-06-10T16:43:10.349Z",
+  "totalGiants": 241,
+  "summary": {
+    "categoryErrors": {
+      "count": 0,
+      "list": []
+    },
+    "epicIssues": {
+      "emptyByLang": [
+        {
+          "lang": "all",
+          "count": 45,
+          "slugs": [
+            "michael-faraday",
+            "william-the-conqueror",
+            "cyrus-the-great",
+            "erwin-schrodinger",
+            "giuseppe-garibaldi",
+            "james-clerk-maxwell",
+            "moctezuma-ii",
+            "tran-hung-dao",
+            "zenobia",
+            "georges-cuvier",
+            "hatshepsut",
+            "heraclitus",
+            "pythagoras",
+            "ramesses-ii",
+            "diogenes",
+            "james-hutton",
+            "queen-elizabeth-i",
+            "ernest-shackleton",
+            "dorothea-dix",
+            "franz-schubert",
+            "frederick-the-great",
+            "harriet-martineau",
+            "ida-b-wells",
+            "rembrandt",
+            "charles-dickens",
+            "clara-barton",
+            "gottfried-leibniz",
+            "james-cook",
+            "meister-eckhart",
+            "vitus-bering",
+            "bartolomeu-dias",
+            "edward-jenner",
+            "emily-dickinson",
+            "francisco-de-goya",
+            "george-eliot",
+            "henry-hudson",
+            "homer",
+            "jane-austen",
+            "john-stuart-mill",
+            "olympe-de-gouges",
+            "plotinus",
+            "roald-amundsen",
+            "elizabeth-cady-stanton",
+            "henrik-ibsen",
+            "virgil"
+          ]
+        }
+      ],
+      "englishLeaksByLang": [
+        {
+          "lang": "zh",
+          "count": 106,
+          "slugs": [
+            "napoleon-bonaparte",
+            "king-sejong",
+            "alexander-the-great",
+            "julius-caesar",
+            "frida-kahlo",
+            "beethoven",
+            "franklin-d-roosevelt",
+            "marcus-aurelius",
+            "seneca",
+            "confucius",
+            "socrates",
+            "aristotle",
+            "mozart",
+            "william-shakespeare",
+            "marie-curie",
+            "abraham-lincoln",
+            "elizabeth-i",
+            "gwanggaeto-the-great",
+            "augustus",
+            "john-d-rockefeller",
+            "ataturk",
+            "rosa-parks",
+            "yu-gwan-sun",
+            "desmond-tutu",
+            "elie-wiesel",
+            "terry-fox",
+            "friedrich-nietzsche",
+            "immanuel-kant",
+            "rene-descartes",
+            "sigmund-freud",
+            "carl-jung",
+            "baruch-spinoza",
+            "david-hume",
+            "john-locke",
+            "simone-de-beauvoir",
+            "hannah-arendt",
+            "galileo-galilei",
+            "michelangelo",
+            "claude-monet",
+            "victor-hugo",
+            "katsushika-hokusai",
+            "mark-twain",
+            "goethe",
+            "alexander-fleming",
+            "alexander-hamilton",
+            "benjamin-franklin",
+            "francis-bacon",
+            "johannes-kepler",
+            "john-f-kennedy",
+            "thomas-jefferson",
+            "ahn-jung-geun",
+            "empress-wu-zetian",
+            "jeong-yak-yong",
+            "zhuangzi",
+            "king-jeongjo",
+            "li-bai",
+            "oda-nobunaga",
+            "tokugawa-ieyasu",
+            "toyotomi-hideyoshi",
+            "hannibal-barca",
+            "ibn-battuta",
+            "shaka-zulu",
+            "al-khwarizmi",
+            "br-ambedkar",
+            "chandragupta-maurya",
+            "omar-khayyam",
+            "saladin",
+            "srinivasa-ramanujan",
+            "suleiman-the-magnificent",
+            "wright-brothers",
+            "adam-smith",
+            "archimedes",
+            "copernicus",
+            "dante-alighieri",
+            "johannes-gutenberg",
+            "machiavelli",
+            "voltaire",
+            "alexander-graham-bell",
+            "amelia-earhart",
+            "edgar-allan-poe",
+            "ernest-hemingway",
+            "jp-morgan",
+            "ralph-waldo-emerson",
+            "susan-b-anthony",
+            "walt-whitman",
+            "ibn-al-haytham",
+            "blaise-pascal",
+            "ada-lovelace",
+            "charles-babbage",
+            "ibn-sina",
+            "gregor-mendel",
+            "antoine-lavoisier",
+            "friedrich-schiller",
+            "ibn-khaldun",
+            "sor-juana-ines-de-la-cruz",
+            "matsuo-basho",
+            "william-wilberforce",
+            "sojourner-truth",
+            "emmeline-pankhurst",
+            "jose-rizal",
+            "lucretia-mott",
+            "ferdinand-magellan",
+            "zheng-he",
+            "leif-erikson",
+            "akbar-the-great",
+            "epicurus"
+          ],
+          "worstCases": [
+            {
+              "slug": "napoleon-bonaparte",
+              "engRatio": "33%",
+              "sample": "### 1. 熔炉中的崛起\n\n在地中海波涛汹涌的海面上，在科西嘉岛那粗犷而崭新的法兰西土地上，一个灵魂在古老忠诚的余烬与革命熊熊燃烧的烈火中被锤炼。他生于176",
+              "topEngWords": [
+                "nourished",
+                "voracious",
+                "appetite",
+                "knowledge",
+                "simmering"
+              ]
+            },
+            {
+              "slug": "king-sejong",
+              "engRatio": "26%",
+              "sample": "### 1. 天命所归的王者与文盲的时代\n\n他并非生而为王，而是被命运残酷而美丽的手选中，在被异族文字的迷雾笼罩的时代登上了王位。李祹，后来被尊为世宗大王，降生",
+              "topEngWords": [
+                "amidst",
+                "worsening",
+                "ailments",
+                "suffocating",
+                "weight"
+              ]
+            },
+            {
+              "slug": "alexander-the-great",
+              "engRatio": "14%",
+              "sample": "### 1. 马其顿的王子，荣耀的种子\n\n在马其顿的崎岖腹地，在奥林匹斯山的巍峨阴影下，一位王子应运而生，注定要重塑人类野心与信仰的版图。亚历山大，勇士之王腓力",
+              "topEngWords": [
+                "nascent",
+                "against",
+                "overwhelming"
+              ]
+            },
+            {
+              "slug": "julius-caesar",
+              "engRatio": "50%",
+              "sample": "### 1. 共和国的裂痕与少年的远见\n\n盖乌斯·尤利乌斯·凯撒，诞生于一个已然因自身矛盾而呻吟的共和国摇曳的星空之下。他出身于一个古老却并非最为显赫的贵族世家",
+              "topEngWords": [
+                "formative",
+                "years",
+                "trasformato",
+                "leggenda",
+                "conquista"
+              ]
+            },
+            {
+              "slug": "frida-kahlo",
+              "engRatio": "5%",
+              "sample": "### 1. 蓝房子里的生命交响曲\n\n1907年，在墨西哥科约阿坎的“蓝房子”里，玛格达莱娜·卡门·弗里达·卡洛·伊·卡尔德隆降临人世，她的一生注定与恢弘的色彩",
+              "topEngWords": [
+                "intensity"
+              ]
+            }
+          ]
+        },
+        {
+          "lang": "ko",
+          "count": 67,
+          "slugs": [
+            "king-sejong",
+            "julius-caesar",
+            "frida-kahlo",
+            "viktor-frankl",
+            "beethoven",
+            "franklin-d-roosevelt",
+            "marcus-aurelius",
+            "aristotle",
+            "winston-churchill",
+            "augustus",
+            "otto-von-bismarck",
+            "simon-bolivar",
+            "harriet-tubman",
+            "desmond-tutu",
+            "harriet-beecher-stowe",
+            "terry-fox",
+            "buddha",
+            "friedrich-nietzsche",
+            "baruch-spinoza",
+            "john-locke",
+            "hannah-arendt",
+            "isaac-newton",
+            "galileo-galilei",
+            "charles-darwin",
+            "michelangelo",
+            "victor-hugo",
+            "goethe",
+            "mary-shelley",
+            "alexander-fleming",
+            "francis-bacon",
+            "zhuangzi",
+            "hannibal-barca",
+            "mansa-musa",
+            "shaka-zulu",
+            "al-khwarizmi",
+            "saladin",
+            "louis-pasteur",
+            "voltaire",
+            "henry-david-thoreau",
+            "jp-morgan",
+            "ralph-waldo-emerson",
+            "walt-whitman",
+            "ibn-al-haytham",
+            "blaise-pascal",
+            "ada-lovelace",
+            "alan-turing",
+            "charles-babbage",
+            "ibn-sina",
+            "james-watt",
+            "gregor-mendel",
+            "rumi",
+            "ibn-rushd",
+            "william-james",
+            "friedrich-schiller",
+            "ibn-khaldun",
+            "maimonides",
+            "edgar-degas",
+            "rabindranath-tagore",
+            "sor-juana-ines-de-la-cruz",
+            "emmeline-pankhurst",
+            "jose-rizal",
+            "lucretia-mott",
+            "cornelius-vanderbilt",
+            "leif-erikson",
+            "pachacuti",
+            "akbar-the-great",
+            "epicurus"
+          ],
+          "worstCases": [
+            {
+              "slug": "king-sejong",
+              "engRatio": "0%",
+              "sample": "이국적인 문자의 impenetrable한 안개에 휩싸인 시대, 왕좌를 위해 태어나지 않았으나 운명의 잔혹하고 아름다운 손에 선택받아 한 왕이 즉",
+              "topEngWords": [
+                "impenetrable"
+              ]
+            },
+            {
+              "slug": "julius-caesar",
+              "engRatio": "0%",
+              "sample": "공화정의 모순이 빚어낸 고통 속에 신음하던 로마의 별 아래, 귀족 가문의 일원이었으나 최고위층은 아니었던 가이우스 율리우스 카이사르는 기회와 공",
+              "topEngWords": [
+                "relentless",
+                "inexorable"
+              ]
+            },
+            {
+              "slug": "frida-kahlo",
+              "engRatio": "0%",
+              "sample": "1907년 멕시코시티의 '푸른 집'에서 프리다 칼로가 태어났습니다. 그녀의 유년기는 소아마비로 다리가 불편해진 장애를 겪으며 고독과 투쟁하던 시",
+              "topEngWords": []
+            },
+            {
+              "slug": "viktor-frankl",
+              "engRatio": "0%",
+              "sample": "1905년 오스트리아 빈의 유대인 가정에서 빅터 프랑클이 태어났습니다. 그의 청년기는 유망한 정신과 의사로서 인간 심리의 심연을 탐구하던 지적인",
+              "topEngWords": []
+            },
+            {
+              "slug": "beethoven",
+              "engRatio": "1%",
+              "sample": "1770년 독일 본에서 루드비히 판 베토벤이 태어났습니다. 그의 유년기는 음악적 천재성을 강요했던 알코올 중독자 아버지의 폭력과 매질 속에서 자",
+              "topEngWords": [
+                "Durch",
+                "Leiden",
+                "Freude"
+              ]
+            }
+          ]
+        },
+        {
+          "lang": "ja",
+          "count": 24,
+          "slugs": [
+            "king-sejong",
+            "genghis-khan",
+            "desmond-tutu",
+            "friedrich-nietzsche",
+            "baruch-spinoza",
+            "alexander-hamilton",
+            "francis-bacon",
+            "zhuangzi",
+            "king-jeongjo",
+            "tokugawa-ieyasu",
+            "shaka-zulu",
+            "chandragupta-maurya",
+            "swami-vivekananda",
+            "copernicus",
+            "blaise-pascal",
+            "ada-lovelace",
+            "james-watt",
+            "gregor-mendel",
+            "rumi",
+            "ibn-rushd",
+            "ibn-khaldun",
+            "murasaki-shikibu",
+            "emmeline-pankhurst",
+            "queen-nzinga"
+          ],
+          "worstCases": [
+            {
+              "slug": "king-sejong",
+              "engRatio": "20%",
+              "sample": "### 1. 王座に選ばれし者、民の声なき闇を照らす\n\n運命の残酷にして美しき手に、王座に生まれながらにして選ばれたのではない、しかし定めにより戴冠した一人の王",
+              "topEngWords": [
+                "imperial",
+                "decree",
+                "crushing",
+                "burden"
+              ]
+            },
+            {
+              "slug": "genghis-khan",
+              "engRatio": "33%",
+              "sample": "### 1. 荒野に生まれた英雄、テムジン\n\n風吹きすさぶ草原、人々の広大にして分断された精神を映し出すかのような空の下、テムジンは血と激しい対立に染まった世界",
+              "topEngWords": [
+                "forged",
+                "crushing",
+                "chilling",
+                "silent",
+                "colossus"
+              ]
+            },
+            {
+              "slug": "desmond-tutu",
+              "engRatio": "12%",
+              "sample": "### 1. 闇の中から生まれた希望の光\n\n1931年、南アフリカの金鉱の町クレクスドルプで、デズモンド・ムピロ・ツツは、強烈な人種隔離と組織的な残虐行為が蔓延",
+              "topEngWords": [
+                "stood",
+                "LGBTQ"
+              ]
+            },
+            {
+              "slug": "friedrich-nietzsche",
+              "engRatio": "11%",
+              "sample": "### 1. 牧師の家系から生まれた天才の黎明\n\n1844年、プロイセンの小さな村レーッケンにて、フリードリヒ・ニーチェはルーテル教会の牧師の家系に生を受けた。",
+              "topEngWords": [
+                "bermensch",
+                "Power"
+              ]
+            },
+            {
+              "slug": "baruch-spinoza",
+              "engRatio": "0%",
+              "sample": "### 1. 禁欲と啓示：アムステルダムの預言者\n\n1632年、活気に満ちたアムステルダムのユダヤ人コミュニティに、バルーフ・デ・スピノザは、計り知れないほどの",
+              "topEngWords": []
+            }
+          ]
+        },
+        {
+          "lang": "hi",
+          "count": 57,
+          "slugs": [
+            "alexander-the-great",
+            "thomas-edison",
+            "helen-keller",
+            "beethoven",
+            "marcus-aurelius",
+            "seneca",
+            "george-washington",
+            "winston-churchill",
+            "catherine-the-great",
+            "rosa-parks",
+            "oskar-schindler",
+            "louis-braille",
+            "desmond-tutu",
+            "immanuel-kant",
+            "jean-jacques-rousseau",
+            "baruch-spinoza",
+            "sun-tzu",
+            "simone-de-beauvoir",
+            "hannah-arendt",
+            "isaac-newton",
+            "galileo-galilei",
+            "victor-hugo",
+            "alexander-hamilton",
+            "benjamin-franklin",
+            "thomas-jefferson",
+            "ahn-jung-geun",
+            "zhuge-liang",
+            "ashoka-the-great",
+            "ibn-battuta",
+            "al-khwarizmi",
+            "chandragupta-maurya",
+            "omar-khayyam",
+            "robert-oppenheimer",
+            "louis-pasteur",
+            "machiavelli",
+            "voltaire",
+            "amelia-earhart",
+            "edgar-allan-poe",
+            "ernest-hemingway",
+            "henry-david-thoreau",
+            "ralph-waldo-emerson",
+            "susan-b-anthony",
+            "walt-whitman",
+            "max-planck",
+            "ibn-al-haytham",
+            "james-watt",
+            "gregor-mendel",
+            "antoine-lavoisier",
+            "li-shizhen",
+            "william-james",
+            "friedrich-schiller",
+            "al-ghazali",
+            "emmeline-pankhurst",
+            "mary-wollstonecraft",
+            "zhang-qian",
+            "pachacuti",
+            "epicurus"
+          ],
+          "worstCases": [
+            {
+              "slug": "alexander-the-great",
+              "engRatio": "0%",
+              "sample": "### १. ओलिंपस की छाया में जन्मा राजकुमार\n\nमैसिडोन के ऊबड़-खाबड़ हृदय से, ओलिंपस ",
+              "topEngWords": [
+                "pedestal"
+              ]
+            },
+            {
+              "slug": "thomas-edison",
+              "engRatio": "0%",
+              "sample": "### 1. मौन से गूँजता हुआ उदय\n\nसन् 1847 में, ओहियो के ग्रामीण परिदृश्य में, थॉमस ",
+              "topEngWords": [
+                "incandescent",
+                "innovation"
+              ]
+            },
+            {
+              "slug": "helen-keller",
+              "engRatio": "0%",
+              "sample": "### 1. अंधकार में एक किरण का उदय\n\nसन 1880 में, अलबामा की हरी-भरी वादियों में, हे",
+              "topEngWords": [
+                "laude"
+              ]
+            },
+            {
+              "slug": "beethoven",
+              "engRatio": "1%",
+              "sample": "### १. जन्म और प्रारंभिक संघर्ष\n\nसन् १७७० में, जर्मनी के बॉन शहर में, लुडविग वैन",
+              "topEngWords": [
+                "Durch",
+                "Leiden",
+                "Freude"
+              ]
+            },
+            {
+              "slug": "marcus-aurelius",
+              "engRatio": "0%",
+              "sample": "### १. भाग्य का उदय और सत्य की खोज\n\nईस्वी सन् १२१ में, रोमन साम्राज्य के स्वर्णि",
+              "topEngWords": [
+                "Romana"
+              ]
+            }
+          ]
+        },
+        {
+          "lang": "ru",
+          "count": 56,
+          "slugs": [
+            "julius-caesar",
+            "frida-kahlo",
+            "helen-keller",
+            "beethoven",
+            "marcus-aurelius",
+            "seneca",
+            "william-shakespeare",
+            "albert-einstein",
+            "george-washington",
+            "elizabeth-i",
+            "augustus",
+            "otto-von-bismarck",
+            "catherine-the-great",
+            "john-d-rockefeller",
+            "frederick-douglass",
+            "joan-of-arc",
+            "desmond-tutu",
+            "friedrich-nietzsche",
+            "baruch-spinoza",
+            "david-hume",
+            "john-locke",
+            "isaac-newton",
+            "galileo-galilei",
+            "michelangelo",
+            "claude-monet",
+            "fyodor-dostoevsky",
+            "victor-hugo",
+            "goethe",
+            "alexander-fleming",
+            "thomas-jefferson",
+            "sima-qian",
+            "zhuge-liang",
+            "ibn-battuta",
+            "jayavarman-vii",
+            "robert-oppenheimer",
+            "srinivasa-ramanujan",
+            "suleiman-the-magnificent",
+            "adam-smith",
+            "copernicus",
+            "johannes-gutenberg",
+            "voltaire",
+            "andrew-carnegie",
+            "susan-b-anthony",
+            "ibn-al-haytham",
+            "blaise-pascal",
+            "alan-turing",
+            "gregor-mendel",
+            "antoine-lavoisier",
+            "robert-koch",
+            "rumi",
+            "friedrich-schiller",
+            "oscar-wilde",
+            "sor-juana-ines-de-la-cruz",
+            "sojourner-truth",
+            "jose-rizal",
+            "ferdinand-magellan"
+          ],
+          "worstCases": [
+            {
+              "slug": "julius-caesar",
+              "engRatio": "0%",
+              "sample": "### 1. Заря Республики и рождение гения\n\nГай Юлий Цезарь, рожденный под мерцающи",
+              "topEngWords": [
+                "Kaiser"
+              ]
+            },
+            {
+              "slug": "frida-kahlo",
+              "engRatio": "0%",
+              "sample": "### 1. Рождение в цветах и боли\n\nВ 1907 году, в «Синем доме» Койоакана, Мексика,",
+              "topEngWords": []
+            },
+            {
+              "slug": "helen-keller",
+              "engRatio": "0%",
+              "sample": "### 1. Рождение в тишине и тьме\n\nВ 1880 году, в пышной зелени Алабамы, Хелен Кел",
+              "topEngWords": [
+                "laude"
+              ]
+            },
+            {
+              "slug": "beethoven",
+              "engRatio": "1%",
+              "sample": "### 1. Заря Гения в Тени Насилия\n\nВ 1770 году, в немецком городе Бонне, в семье,",
+              "topEngWords": [
+                "XVIII",
+                "Durch",
+                "Leiden",
+                "Freude"
+              ]
+            },
+            {
+              "slug": "marcus-aurelius",
+              "engRatio": "0%",
+              "sample": "### 1. Рождение Императора-Философа\n\nВ 121 году нашей эры, в золотом сердце Импе",
+              "topEngWords": [
+                "Romana"
+              ]
+            }
+          ]
+        },
+        {
+          "lang": "ar",
+          "count": 37,
+          "slugs": [
+            "henry-ford",
+            "beethoven",
+            "seneca",
+            "mozart",
+            "yi-sun-shin",
+            "augustus",
+            "otto-von-bismarck",
+            "simon-bolivar",
+            "harriet-tubman",
+            "desmond-tutu",
+            "friedrich-nietzsche",
+            "sigmund-freud",
+            "carl-jung",
+            "john-locke",
+            "isaac-newton",
+            "galileo-galilei",
+            "michelangelo",
+            "frederic-chopin",
+            "agatha-christie",
+            "goethe",
+            "alexander-fleming",
+            "johannes-kepler",
+            "miyamoto-musashi",
+            "oda-nobunaga",
+            "al-khwarizmi",
+            "copernicus",
+            "blaise-pascal",
+            "gregor-mendel",
+            "antoine-lavoisier",
+            "thomas-aquinas",
+            "friedrich-schiller",
+            "maimonides",
+            "sor-juana-ines-de-la-cruz",
+            "sojourner-truth",
+            "emmeline-pankhurst",
+            "jose-rizal",
+            "akbar-the-great"
+          ],
+          "worstCases": [
+            {
+              "slug": "henry-ford",
+              "engRatio": "0%",
+              "sample": "### 1. بذور الحلم في أرض ميشيغان\n\nفي عام 1863، وُلد هنري فورد على مزرعة بسيطة في",
+              "topEngWords": [
+                "Model"
+              ]
+            },
+            {
+              "slug": "beethoven",
+              "engRatio": "1%",
+              "sample": "### 1. الميلاد في ظل الظلال\n\nفي عام 1770، بمدينة بون الألمانية، وُلد لودفيغ فان ",
+              "topEngWords": [
+                "Durch",
+                "Leiden",
+                "Freude"
+              ]
+            },
+            {
+              "slug": "seneca",
+              "engRatio": "1%",
+              "sample": "### 1. ميلاد في عالمٍ مضطرب\n\nفي عام 4 قبل الميلاد، وفي قلب مقاطعة هسبانيا الروما",
+              "topEngWords": [
+                "premeditatio",
+                "malorum"
+              ]
+            },
+            {
+              "slug": "mozart",
+              "engRatio": "0%",
+              "sample": "### 1. ميلاد العبقرية في سالزبورغ\n\nفي عام 1756، وُلد فولفغانغ أماديوس موزارت في ",
+              "topEngWords": [
+                "Requiem"
+              ]
+            },
+            {
+              "slug": "yi-sun-shin",
+              "engRatio": "0%",
+              "sample": "### 1. ميلاد بطل في زمن الشدائد\n\nفي عام 1545، بقلب عاصمة مملكة جوسون النابض، بزغ",
+              "topEngWords": [
+                "Geobukseon"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "localeIssues": {}
+  }
+}

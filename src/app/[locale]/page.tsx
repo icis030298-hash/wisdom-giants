@@ -122,115 +122,7 @@ const blogTranslations: Record<string, Record<string, string>> = {
   }
 };
 
-const debateCTATranslations: Record<string, { titlePre: string; titlePost: string; desc: string; button: string; badge: string }> = {
-  ko: {
-    titlePre: "세기의 명저들이 맞붙는",
-    titlePost: "'거인들의 끝장 토론방'",
-    desc: "“돈으로 행복을 살 수 있을까?” 아리스토텔레스와 니체가 벌이는 격렬한 사상 논쟁을 실시간으로 직관하고 참여해보세요.",
-    button: "토론 관전 및 참여하기",
-    badge: "실시간 토론"
-  },
-  en: {
-    titlePre: "Clash of the Greatest Minds",
-    titlePost: "'Giants' Ultimate Debate Room'",
-    desc: "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    button: "Spectate & Participate",
-    badge: "LIVE DEBATE"
-  },
-  de: {
-    titlePre: "Aufeinandertreffen der größten Köpfe",
-    titlePost: "'Die ultimative Debattenkammer der Riesen'",
-    desc: "„Kann man mit Geld Glück kaufen?“ Verfolgen Sie und nehmen Sie teil an der intensiven intellektuellen Debatte zwischen Aristoteles und Nietzsche in Echtzeit.",
-    button: "Zuschauen & Teilnehmen",
-    badge: "LIVE-DEBATTE"
-  },
-  ja: {
-    titlePre: "世紀の名著がぶつかり合う",
-    titlePost: "「偉人たちの究極の討論室」",
-    desc: "「お金で幸せは買えるか？」アリストテレスとニーチェが繰り広げる白熱した思想論争をリアルタイムで観戦・参加しましょう。",
-    button: "討論を観戦・参加する",
-    badge: "リアルタイム討論"
-  },
-  es: {
-    titlePre: "El Choque de las Grandes Mentes",
-    titlePost: "'La Sala de Debate Definitiva de los Gigantes'",
-    desc: "¿Puede el dinero comprar la felicidad? Presencie y únase al intenso debate intelectual entre Aristóteles y Nietzsche en tiempo real.",
-    button: "Ver y Participar",
-    badge: "DEBATE EN VIVO"
-  },
-  fr: {
-    titlePre: "Le Choc des Plus Grands Esprits",
-    titlePost: "'La Salle de Débat Ultime des Géants'",
-    desc: "« L'argent peut-il acheter le bonheur ? » Observez et rejoignez le débat intellectuel intense entre Aristote et Nietzsche en temps réel.",
-    button: "Observer et Participer",
-    badge: "DÉBAT EN DIRECT"
-  },
-  it: {
-    titlePre: "Scontro tra le Grandi Menti",
-    titlePost: "'La Stanza di Dibattito Ultimo dei Giganti'",
-    desc: "\"I soldi possono comprare la felicità?\" Assisti e partecipa all'intenso dibattito intellettuale tra Aristotele e Nietzsche in tempo reale.",
-    button: "Assisti e Partecipa",
-    badge: "DIBATTITO IN DIRETTA"
-  },
-  pt: {
-    titlePre: "O Confronto de Grandes Mentes",
-    titlePost: "'A Sala de Debate Suprema dos Gigantes'",
-    desc: "\"O dinheiro pode comprar felicidade?\" Assista e participe do intenso debate intelectual entre Aristóteles e Nietzsche em tempo real.",
-    button: "Assistir e Participar",
-    badge: "DEBATE AO VIVO"
-  }
-};
 
-const consultTranslations: Record<string, { or: string; title: string; desc: string; button: string }> = {
-  ko: {
-    or: "또는",
-    title: "지금 고민이 있으신가요?",
-    desc: "당신의 고통은 혼자가 아닙니다.\n역사상 가장 위대한 사람들도 똑같이 겪었고, 이겨냈습니다.",
-    button: "고민 상담하기"
-  },
-  en: {
-    or: "OR",
-    title: "Are you facing struggles today?",
-    desc: "Your pain is not lonely.\nThe greatest minds in history faced the exact same struggles and overcame them.",
-    button: "Get Advice"
-  },
-  de: {
-    or: "ODER",
-    title: "Haben Sie heute Sorgen?",
-    desc: "Ihr Schmerz ist nicht allein.\nDie größten Denker der Geschichte standen vor denselben Ängsten und haben sie überwunden.",
-    button: "Beratung erhalten"
-  },
-  ja: {
-    or: "または",
-    title: "今、何かお悩みはありますか？",
-    desc: "あなたの苦しみは一人だけのものではありません。\n歴史上の偉人たちも同じように悩み、そして乗り越えてきました。",
-    button: "お悩み相談をする"
-  },
-  es: {
-    or: "O BIEN",
-    title: "¿Tiene alguna preocupación hoy?",
-    desc: "Su sufrimiento no es único.\nLas mentes más grandes de la historia pasaron por lo mismo y lo superaron.",
-    button: "Consultar"
-  },
-  fr: {
-    or: "OU BIEN",
-    title: "Rencontrez-vous des difficultés aujourd'hui ?",
-    desc: "Votre souffrance n'est pas solitaire.\nLes plus grands esprits de l'histoire ont connu les mêmes épreuves et les ont surmontées.",
-    button: "Demander conseil"
-  },
-  it: {
-    or: "OPPURE",
-    title: "Hai qualche preoccupazione oggi?",
-    desc: "Il tuo dolore non é isolato.\nLe più grandi menti della storia hanno affrontato le stesse difficoltà e le hanno superate.",
-    button: "Consulta un Gigante"
-  },
-  pt: {
-    or: "OU",
-    title: "Você está passando por alguma dificuldade hoje?",
-    desc: "Sua dor não é solitária.\nAs maiores mentes da história enfrentaram exatamente os mesmos problemas e os superaram.",
-    button: "Consultar"
-  }
-};
 
 const colorMap: Record<string, string> = {
   leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
@@ -243,6 +135,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Test" });
   const tg = await getTranslations({ locale, namespace: "Giants" });
+  const td = await getTranslations({ locale, namespace: "DebateCTA" });
+  const tc = await getTranslations({ locale, namespace: "Consult" });
   const bt = blogTranslations[locale] || blogTranslations['en'];
 
   const getTranslation = (slug: string, fallback: string) => {
@@ -322,21 +216,21 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
               <div className="space-y-4 text-center md:text-left">
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-500/10 text-amber-300 text-xs font-bold uppercase tracking-widest border border-amber-500/30 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
-                  <span className="text-sm">🔥</span> {(debateCTATranslations[locale] || debateCTATranslations['en']).badge}
+                  <span className="text-sm">🔥</span> {td("badge")}
                 </div>
                 <h2 className="text-3xl md:text-4xl font-serif font-bold text-white leading-tight whitespace-pre-wrap">
-                  {(debateCTATranslations[locale] || debateCTATranslations['en']).titlePre}<br />
+                  {td("titlePre")}<br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-300">
-                    {(debateCTATranslations[locale] || debateCTATranslations['en']).titlePost}
+                    {td("titlePost")}
                   </span>
                 </h2>
                 <p className="text-slate-300 text-lg max-w-xl">
-                  {(debateCTATranslations[locale] || debateCTATranslations['en']).desc}
+                  {td("desc")}
                 </p>
               </div>
               <div className="shrink-0 flex flex-col items-center gap-4">
                 <div className="flex items-center gap-2 text-amber-400 font-bold group-hover:gap-4 transition-all bg-amber-500/10 px-6 py-4 rounded-full border border-amber-500/30 group-hover:bg-amber-500/20 shadow-[0_0_20px_rgba(245,158,11,0.1)]">
-                  {(debateCTATranslations[locale] || debateCTATranslations['en']).button} <ArrowRight className="w-5 h-5 animate-pulse" />
+                  {td("button")} <ArrowRight className="w-5 h-5 animate-pulse" />
                 </div>
               </div>
             </div>
@@ -345,27 +239,22 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       </div>
 
       {/* Consultation (고민 상담) CTA Section */}
-      {(() => {
-        const ct = consultTranslations[locale] || consultTranslations['en'];
-        return (
-          <section className="max-w-6xl mx-auto px-4 py-16 text-center border-t border-white/5 bg-gradient-to-b from-stone-900/10 to-transparent rounded-[2.5rem] my-8">
-            <p className="text-stone-500 font-medium tracking-widest text-xs uppercase mb-4">
-              — {ct.or} —
-            </p>
-            <h2 className="text-3xl font-serif font-bold text-white mb-4">
-              {ct.title}
-            </h2>
-            <p className="text-stone-400 mb-8 max-w-xl mx-auto text-base leading-relaxed whitespace-pre-line">
-              {ct.desc}
-            </p>
-            <Link href="/consult">
-              <button className="border border-amber-500/50 text-amber-400 hover:bg-amber-500 hover:text-stone-950 font-bold px-10 py-4 rounded-2xl transition-all text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.25)] cursor-pointer">
-                💬 {ct.button}
-              </button>
-            </Link>
-          </section>
-        );
-      })()}
+      <section className="max-w-6xl mx-auto px-4 py-16 text-center border-t border-white/5 bg-gradient-to-b from-stone-900/10 to-transparent rounded-[2.5rem] my-8">
+        <p className="text-stone-500 font-medium tracking-widest text-xs uppercase mb-4">
+          — {tc("or")} —
+        </p>
+        <h2 className="text-3xl font-serif font-bold text-white mb-4">
+          {tc("title")}
+        </h2>
+        <p className="text-stone-400 mb-8 max-w-xl mx-auto text-base leading-relaxed whitespace-pre-line">
+          {tc("desc")}
+        </p>
+        <Link href="/consult">
+          <button className="border border-amber-500/50 text-amber-400 hover:bg-amber-500 hover:text-stone-950 font-bold px-10 py-4 rounded-2xl transition-all text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.25)] cursor-pointer">
+            💬 {tc("button")}
+          </button>
+        </Link>
+      </section>
       
       {/* Featured Giants - Bento Grid */}
       <FeaturedGiants giants={giants} />
