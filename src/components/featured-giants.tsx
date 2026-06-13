@@ -15,6 +15,8 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
   const t = useTranslations("Featured")
   const tg = useTranslations("Giants")
   const tc = useTranslations("GiantsGrid")
+  const tgSec = useTranslations("GiantsSection")
+  const mostConsultedLabel = tgSec("mostConsulted")
 
   // Helper to get translated text with fallback
   const getT = (giant: Giant, key: string, fallback: string) => {
@@ -148,7 +150,12 @@ export function FeaturedGiants({ giants }: FeaturedGiantsProps) {
             
             <div className="relative z-10 h-full flex items-center justify-between gap-8">
               <div className="flex-1">
-                <div className="text-[10px] font-bold text-amber-400/60 uppercase tracking-[0.2em] mb-3">{t("todaysPick")}</div>
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-[10px] font-bold text-amber-400/60 uppercase tracking-[0.2em]">{t("todaysPick")}</span>
+                  <span className="text-xs bg-amber-500/20 text-amber-400 px-2 py-0.5 rounded-full border border-amber-500/30">
+                    {mostConsultedLabel}
+                  </span>
+                </div>
                 <h3 className="font-serif text-2xl font-bold text-foreground group-hover:text-amber-200 transition-colors mb-2">
                   {getT(featured[1], "name", featured[1].name)}
                 </h3>

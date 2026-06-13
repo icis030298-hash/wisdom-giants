@@ -169,10 +169,10 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* Hero Section */}
       <HeroSection />
 
-      {/* Heritage Test CTA */}
+      {/* Consultation (고민 상담) CTA Section - Promoted to Orange Big Card */}
       <div className="max-w-6xl mx-auto px-4 py-12">
         <Link 
-          href="/test"
+          href="/consult"
           className="block group"
         >
           <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-r from-amber-500 to-amber-600 p-8 md:p-12 shadow-2xl shadow-amber-500/20 transition-transform hover:scale-[1.01] active:scale-[0.99]">
@@ -180,27 +180,45 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
               <div className="space-y-4 text-center md:text-left">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/20 text-white text-xs font-bold uppercase tracking-widest">
-                  {t("banner.new")}
+                  🔥 HOT
                 </div>
                 <h2 className="text-3xl md:text-4xl font-serif font-bold text-white leading-tight whitespace-pre-wrap">
-                  {t("banner.title")}
+                  {tc("title")}
                 </h2>
-                <p className="text-white/80 text-lg max-w-md">
-                  {t("banner.desc")}
+                <p className="text-white/80 text-lg max-w-md whitespace-pre-line">
+                  {tc("desc")}
                 </p>
               </div>
               <div className="shrink-0 flex flex-col items-center gap-4">
                 <div className="w-20 h-20 rounded-2xl bg-white/20 flex items-center justify-center backdrop-blur-md border border-white/30">
-                  <Dna className="w-10 h-10 text-white" />
+                  <span className="text-4xl">💭</span>
                 </div>
                 <div className="flex items-center gap-2 text-white font-bold group-hover:gap-4 transition-all">
-                  {t("banner.button")} <ArrowRight className="w-5 h-5" />
+                  {tc("button")} <ArrowRight className="w-5 h-5" />
                 </div>
               </div>
             </div>
           </div>
         </Link>
       </div>
+
+      {/* Heritage Test CTA - Demoted to Simpler Centered Card */}
+      <section className="max-w-6xl mx-auto px-4 py-16 text-center border-t border-white/5 bg-gradient-to-b from-stone-900/10 to-transparent rounded-[2.5rem] my-8">
+        <p className="text-stone-500 font-medium tracking-widest text-xs uppercase mb-4">
+          — {t("banner.new")} —
+        </p>
+        <h2 className="text-3xl font-serif font-bold text-white mb-4 whitespace-pre-wrap">
+          {t("banner.title")}
+        </h2>
+        <p className="text-stone-400 mb-8 max-w-xl mx-auto text-base leading-relaxed whitespace-pre-line">
+          {t("banner.desc")}
+        </p>
+        <Link href="/test">
+          <button className="border border-amber-500/50 text-amber-400 hover:bg-amber-500 hover:text-stone-950 font-bold px-10 py-4 rounded-2xl transition-all text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.25)] cursor-pointer">
+            🧬 {t("banner.button")}
+          </button>
+        </Link>
+      </section>
 
       {/* Debate Room CTA */}
       <div className="max-w-6xl mx-auto px-4 pb-12">
@@ -237,24 +255,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </Link>
       </div>
-
-      {/* Consultation (고민 상담) CTA Section */}
-      <section className="max-w-6xl mx-auto px-4 py-16 text-center border-t border-white/5 bg-gradient-to-b from-stone-900/10 to-transparent rounded-[2.5rem] my-8">
-        <p className="text-stone-500 font-medium tracking-widest text-xs uppercase mb-4">
-          — {tc("or")} —
-        </p>
-        <h2 className="text-3xl font-serif font-bold text-white mb-4">
-          {tc("title")}
-        </h2>
-        <p className="text-stone-400 mb-8 max-w-xl mx-auto text-base leading-relaxed whitespace-pre-line">
-          {tc("desc")}
-        </p>
-        <Link href="/consult">
-          <button className="border border-amber-500/50 text-amber-400 hover:bg-amber-500 hover:text-stone-950 font-bold px-10 py-4 rounded-2xl transition-all text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.25)] cursor-pointer">
-            💬 {tc("button")}
-          </button>
-        </Link>
-      </section>
       
       {/* Featured Giants - Bento Grid */}
       <FeaturedGiants giants={giants} />

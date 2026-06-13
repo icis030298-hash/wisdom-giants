@@ -168,7 +168,8 @@ export default async function GiantDetailPage({ params }: Props) {
     giantDetail: messages.GiantDetail,
     giants: giantTranslation,
     giantsGrid: messages.GiantsGrid,
-    narrative: formattedNarrative
+    narrative: formattedNarrative,
+    giantBlogLink: messages.GiantBlogLink
   };
 
   const BASE_URL = 'https://www.giantswisdom.com';

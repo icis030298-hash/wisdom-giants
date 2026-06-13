@@ -4977,9 +4977,9 @@
   },
   "Consult": {
     "or": "OU",
-    "title": "Você está passando por alguma dificuldade hoje?",
-    "desc": "Sua ao dor não é solitária.\nAs maiores mentes da história enfrentaram exatamente os mesmos problemas e os superaram.",
-    "button": "Consultar"
+    "title": "Está passando por algo difícil?",
+    "desc": "Lincoln, Sêneca, Gandhi —\ntodos enfrentaram a mesma dor. E a superaram.",
+    "button": "Falar com um Gigante →"
   },
   "Disclaimer": {
     "meta": {
@@ -5040,5 +5040,16 @@
         "description": "Apresentamos figuras históricas de diversas culturas e épocas de todo o mundo de forma equilibrada."
       }
     ]
+  },
+  "GiantsSection": {
+    "mostConsulted": "Mais consultado hoje"
+  },
+  "BlogGiantLink": {
+    "title": "Fale diretamente com os Gigantes deste artigo",
+    "talkNow": "Falar agora"
+  },
+  "GiantBlogLink": {
+    "title": "Quer conhecer mais profundamente a sabedoria deste Gigante?",
+    "minuteRead": "min de leitura"
   }
 }

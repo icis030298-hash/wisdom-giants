@@ -21,13 +21,16 @@ import {
   Dna,
   Download,
   Link2,
-  Share2
+  Share2,
+  BookOpen,
+  ArrowRight
 } from "lucide-react"
 import { archetypes } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
 import { ConditionalAdSense } from "@/components/conditional-adsense"
 import { AdSlot } from "@/components/ad-slot"
 import GiantAvatar from "@/components/GiantAvatar"
+import { blogPosts } from "@/data/blog-posts"
 
 interface GiantDetailClientProps {
   giant: any;
@@ -35,6 +38,8 @@ interface GiantDetailClientProps {
     giantDetail: any;
     giants: any;
     giantsGrid: any;
+    giantBlogLink?: any;
+    narrative?: any;
   }
 }
 
@@ -163,7 +168,11 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     }
   }, [])
   
-  const { giantDetail: t, giants: tg, giantsGrid: tc, narrative } = translations;
+  const { giantDetail: t, giants: tg, giantsGrid: tc, narrative, giantBlogLink } = translations;
+
+  const relatedBlogPosts = blogPosts.filter(
+    post => post.relatedGiants?.includes(giant.slug)
+  );
 
   const tGiants = useTranslations("Giants");
   const getRelatedTranslation = (slug: string, key: string, fallback: string) => {
@@ -723,6 +732,56 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           </div>
         </div>
       </div>
+
+      {/* Related Blog Posts */}
+      {giantBlogLink && relatedBlogPosts && relatedBlogPosts.length > 0 && (
+        <div className="max-w-6xl mx-auto px-8 pb-16 space-y-8">
+          <div className="flex flex-col items-center gap-4 text-center">
+            <div className="w-12 h-12 rounded-full bg-amber-500/10 flex items-center justify-center border border-amber-500/20 shadow-[0_0_20px_rgba(245,158,11,0.1)]">
+              <BookOpen className="w-6 h-6 text-amber-400" />
+            </div>
+            <h2 className="text-3xl font-serif font-bold text-foreground">
+              {giantBlogLink.title}
+            </h2>
+            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+          </div>
+
+          <div className="space-y-3 max-w-3xl mx-auto">
+            {relatedBlogPosts.slice(0, 3).map((post: any) => {
+              const trans = post.translations[locale] || post.translations['en']
+              
+              // Calculate reading time
+              let readTime = 1;
+              if (locale === 'ko' || locale === 'ja') {
+                readTime = Math.max(1, Math.ceil(trans.content.length / 500));
+              } else {
+                const words = trans.content.trim().split(/\s+/).length;
+                readTime = Math.max(1, Math.ceil(words / 200));
+              }
+
+              return (
+                <Link
+                  href={`/blog/${post.slug}`}
+                  key={post.slug}
+                  className="flex items-start gap-4 p-4 rounded-xl bg-stone-900/50 border border-stone-800 hover:border-amber-500/30 transition-colors group"
+                >
+                  <div className="flex-1">
+                    <p className="text-white text-sm font-medium group-hover:text-amber-400 transition-colors">
+                      {trans.title}
+                    </p>
+                    <p className="text-stone-500 text-xs mt-1">
+                      {readTime} {giantBlogLink.minuteRead}
+                    </p>
+                  </div>
+                  <span className="text-amber-400 text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                    <ArrowRight className="w-4 h-4" />
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Related Giants Recommendation */}
       {relatedGiants.length > 0 && (

@@ -4986,9 +4986,9 @@
   },
   "Consult": {
     "or": "ODER",
-    "title": "Haben Sie heute Sorgen?",
-    "desc": "Ihr Schmerz ist nicht allein.\nDie größten Denker der Geschichte standen vor denselben Ängsten und haben sie überwindet.",
-    "button": "Beratung erhalten"
+    "title": "Kämpfen Sie gerade?",
+    "desc": "Lincoln, Seneca, Gandhi —\nSie alle kannten diesen Schmerz. Und überwanden ihn.",
+    "button": "Mit einem Giganten sprechen →"
   },
   "Disclaimer": {
     "meta": {
@@ -5049,5 +5049,16 @@
         "description": "Wir stellen historische Persönlichkeiten aus verschiedenen Kulturen und Epochen weltweit ausgewogen vor."
       }
     ]
+  },
+  "GiantsSection": {
+    "mostConsulted": "Heute am häufigsten konsultiert"
+  },
+  "BlogGiantLink": {
+    "title": "Direkt mit den Giganten dieses Artikels sprechen",
+    "talkNow": "Jetzt sprechen"
+  },
+  "GiantBlogLink": {
+    "title": "Möchten Sie die Weisheit dieses Giganten tiefer kennen?",
+    "minuteRead": "Min. Lesezeit"
   }
 }

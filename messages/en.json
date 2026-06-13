@@ -4978,9 +4978,9 @@
   },
   "Consult": {
     "or": "OR",
-    "title": "Are you facing struggles today?",
-    "desc": "Your pain is not lonely.\nThe greatest minds in history faced the exact same struggles and overcame them.",
-    "button": "Get Advice"
+    "title": "Going through something tough?",
+    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
+    "button": "Talk to a Giant →"
   },
   "Disclaimer": {
     "meta": {
@@ -5041,5 +5041,16 @@
         "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
       }
     ]
+  },
+  "GiantsSection": {
+    "mostConsulted": "Most consulted today"
+  },
+  "BlogGiantLink": {
+    "title": "Talk directly with the Giants in this article",
+    "talkNow": "Talk now"
+  },
+  "GiantBlogLink": {
+    "title": "Want to know this Giant's wisdom deeper?",
+    "minuteRead": "min read"
   }
 }

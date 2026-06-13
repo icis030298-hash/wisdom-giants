@@ -4977,9 +4977,9 @@
   },
   "Consult": {
     "or": "或者",
-    "title": "今天您面临困难吗？",
-    "desc": "您的痛苦并不孤单。\n历史上的伟人也面临过同样的挣扎并克服了它们。",
-    "button": "寻求建议"
+    "title": "现在感到困难吗？",
+    "desc": "林肯、塞内卡、甘地——\n他们都经历过同样的痛苦，并且克服了它。",
+    "button": "与伟人倾诉 →"
   },
   "Disclaimer": {
     "meta": {
@@ -5040,5 +5040,16 @@
         "description": "我们以均衡的方式介绍来自世界各地不同文化和时代的历史人物。"
       }
     ]
+  },
+  "GiantsSection": {
+    "mostConsulted": "今日咨询最多"
+  },
+  "BlogGiantLink": {
+    "title": "与本文中的伟人直接对话",
+    "talkNow": "立即对话"
+  },
+  "GiantBlogLink": {
+    "title": "想更深入了解这位伟人的智慧？",
+    "minuteRead": "分钟阅读"
   }
 }

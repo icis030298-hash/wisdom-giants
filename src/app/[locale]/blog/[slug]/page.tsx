@@ -22,6 +22,7 @@ import {
 import React from 'react'
 import { InArticleAd } from '@/components/ad-slot'
 import { AuthorBox } from '@/components/blog/AuthorBox'
+import GiantAvatar from '@/components/GiantAvatar'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -384,6 +385,15 @@ export default async function BlogPostDetailPage({ params }: Props) {
     .filter(p => p.category === post.category && p.slug !== post.slug)
     .slice(0, 3)
 
+  const tBlogLink = await getTranslations({ locale, namespace: "BlogGiantLink" })
+  const talkToGiantsTitle = tBlogLink("title")
+  const talkNow = tBlogLink("talkNow")
+
+  const relatedGiantsSlugs = post.relatedGiants || (post.giantSlug ? [post.giantSlug] : [])
+  const relatedGiants = relatedGiantsSlugs
+    .map(slug => giants.find(g => g.slug === slug))
+    .filter((g): g is NonNullable<typeof g> => !!g)
+
   const postUrl = `${BASE_URL}/${locale}/blog/${post.slug}`
   const postTitle = translation.title
 
@@ -594,6 +604,50 @@ export default async function BlogPostDetailPage({ params }: Props) {
             </Link>
           </div>
         </div>
+
+        {/* Talk directly with the Giants in this article */}
+        {relatedGiants.length > 0 && (
+          <section className="mt-12 p-6 rounded-xl bg-stone-900/50 border border-stone-800 mb-12">
+            <h3 className="text-amber-400 font-bold text-lg mb-4">
+              {talkToGiantsTitle}
+            </h3>
+
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+              {relatedGiants.map(g => {
+                const gLocalizedName = g.slug === 'cleopatra'
+                  ? (locale === 'ko' ? '클레오파트라' :
+                     locale === 'ja' ? 'クレオパトラ' :
+                     locale === 'de' ? 'Kleopatra' :
+                     locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
+                  : getTranslation(g.slug, g.name)
+                
+                const gChatHref = g.slug === 'cleopatra' ? `/${locale}#giants` : `/giant/${g.slug}`
+                
+                return (
+                  <Link
+                    href={gChatHref}
+                    key={g.slug}
+                    className="flex items-center gap-3 p-3 rounded-lg bg-stone-800 hover:bg-stone-700 transition-colors group"
+                  >
+                    <GiantAvatar
+                      slug={g.slug}
+                      category={g.category}
+                      size={40}
+                    />
+                    <div>
+                      <p className="text-white text-sm font-medium group-hover:text-amber-400 transition-colors">
+                        {gLocalizedName}
+                      </p>
+                      <p className="text-stone-500 text-xs">
+                        {talkNow}
+                      </p>
+                    </div>
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+        )}
 
         {/* Related Posts */}
         {related.length > 0 && (

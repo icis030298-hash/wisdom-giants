@@ -97,14 +97,18 @@ export function HeroSection() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8 flex-wrap">
           <Link 
-            href="/test"
+            href="/consult"
             className="group relative px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground rounded-xl font-medium text-lg overflow-hidden transition-all hover:shadow-lg hover:shadow-amber-500/25 hover:scale-105"
           >
             <span className="relative z-10 flex items-center gap-2">
               <Sparkles className="w-5 h-5" />
-              {t("startTest")}
+              {t("exploreHall")}
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+          </Link>
+
+          <Link href="/test" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
+            {t("startTest")}
           </Link>
 
           <Link
@@ -115,10 +119,6 @@ export function HeroSection() {
             <span>
               {t("debateRoomCTA")}
             </span>
-          </Link>
-          
-          <Link href="/consult" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
-            {t("exploreHall")}
           </Link>
         </div>
 

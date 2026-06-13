@@ -4977,9 +4977,9 @@
   },
   "Consult": {
     "or": "OU BIEN",
-    "title": "Rencontrez-vous des difficultés aujourd'hui ?",
-    "desc": "Votre souffrance n'est pas solitaire.\nLes plus grands esprits de l'histoire ont connu les mêmes épreuves et les ont surmontées.",
-    "button": "Demander conseil"
+    "title": "Vous traversez une période difficile ?",
+    "desc": "Lincoln, Sénèque, Gandhi —\nils ont tous vécu cette douleur. Et l'ont surmontée.",
+    "button": "Parler à un Géant →"
   },
   "Disclaimer": {
     "meta": {
@@ -5040,5 +5040,16 @@
         "description": "Nous présentons des personnages historiques de diverses cultures et époques du monde entier de manière équilibrée."
       }
     ]
+  },
+  "GiantsSection": {
+    "mostConsulted": "Le plus consulté aujourd'hui"
+  },
+  "BlogGiantLink": {
+    "title": "Parler directement avec les Géants de cet article",
+    "talkNow": "Parler maintenant"
+  },
+  "GiantBlogLink": {
+    "title": "Vous voulez approfondir la sagesse de ce Géant ?",
+    "minuteRead": "min de lecture"
   }
 }
