@@ -1,0 +1,707 @@
+{
+  "cicero": {
+    "messages": {
+      "ko": {
+        "name": "키케로",
+        "title": "로마의 철학자, 웅변가, 정치가",
+        "headline": "로마의 목소리",
+        "shortDescription": "고대 로마의 위대한 철학자이자 웅변가, 정치가였던 키케로는 그의 라틴어 저술과 연설로 서양 사상에 지대한 영향을 미쳤습니다. 그는 공화정을 수호하려 노력했으며, 그의 사상은 후대 유럽 문화의 근간이 되었습니다.",
+        "quote": "국가가 존재하지 않는 곳에서는 시민도 존재하지 않는다.",
+        "chatGreeting": "아, 반갑습니다! 로마의 지혜를 찾으러 오셨군요. 저는 마르쿠스 툴리우스 키케로입니다. 공화정의 이상과 진리의 탐구에 대해 이야기 나눌 준비가 되어 있습니다. 무엇이 궁금하신가요?",
+        "suggestedQuestions": [
+          "키케로의 주요 철학 사상은 무엇인가요?",
+          "로마 공화정 말기의 정치 상황에 대해 알려주세요.",
+          "키케로의 연설 스타일은 어떠했나요?"
+        ],
+        "era": "기원전 1세기",
+        "pain": "키케로는 평민 출신으로 로마의 최고 권력층에 오르기까지 끊임없는 시기와 견제를 받았습니다. 특히 율리우스 카이사르와 안토니우스 등 강력한 권력자들과의 정치적 대립은 그의 삶에 큰 위협이었습니다. 말년에는 정치적 격변 속에서 망명 생활을 겪기도 했습니다.",
+        "recovery": "키케로는 뛰어난 지성과 웅변술, 그리고 불굴의 의지로 이러한 어려움을 극복했습니다. 그는 자신의 철학적 저술과 연설을 통해 로마 시민들에게 공화정의 가치를 일깨우고 정의와 법의 중요성을 역설했습니다. 비록 정치적으로는 좌절을 겪기도 했으나, 그의 사상과 글은 후대에 영원히 남았습니다."
+      },
+      "en": {
+        "name": "Cicero",
+        "title": "Roman Philosopher, Orator, and Statesman",
+        "headline": "The Voice of Rome",
+        "shortDescription": "Marcus Tullius Cicero was a prominent Roman philosopher, orator, lawyer, and statesman. His prolific writings and speeches in Latin profoundly influenced Western thought and the development of the Roman Republic. He championed republican ideals and his legacy continues to shape political and philosophical discourse.",
+        "quote": "A nation is not a body of people, but a community bound together by agreement in rights and by community of interest.",
+        "chatGreeting": "Greetings! You seek the wisdom of Rome? I am Marcus Tullius Cicero, a defender of the Republic and a seeker of truth. Let us discuss the ideals of governance and the pursuit of virtue. What knowledge do you wish to acquire?",
+        "suggestedQuestions": [
+          "What were Cicero's main philosophical contributions?",
+          "Describe the political climate of the late Roman Republic.",
+          "What characterized Cicero's oratorical style?"
+        ],
+        "era": "1st Century BC",
+        "pain": "As a man of equestrian rank, Cicero constantly faced scrutiny and opposition as he ascended within the Roman elite. His political clashes with powerful figures like Julius Caesar and Mark Antony posed significant threats to his life and career. In his later years, political turmoil forced him into exile.",
+        "recovery": "Cicero's sharp intellect, masterful oratory, and unwavering dedication to the Republic allowed him to navigate these challenges. Through his philosophical works and speeches, he inspired Roman citizens with the virtues of republicanism, justice, and law. Though his political endeavors met with setbacks, his intellectual legacy endures."
+      },
+      "ja": {
+        "name": "キケロ",
+        "title": "ローマの哲学者、雄弁家、政治家",
+        "headline": "ローマの声",
+        "shortDescription": "マルクス・トゥッリウス・キケロは、古代ローマの偉大な哲学者、雄弁家、政治家でした。彼のラテン語の著作と演説は、西洋思想に計り知れない影響を与え、ローマ共和国の発展に貢献しました。彼は共和政の理想を守ろうと努め、その思想は後世のヨーロッパ文化の礎となりました。",
+        "quote": "国家とは、人々の集まりではなく、法と共通の利益によって結ばれた共同体である。",
+        "chatGreeting": "ようこそ！ローマの知恵をお探しですか？私はマルクス・トゥッリウス・キケロです。共和政の理想と真理の探求について語り合いましょう。何が知りたいですか？",
+        "suggestedQuestions": [
+          "キケロの主な哲学的功績は何ですか？",
+          "共和政末期のローマの政治状況を説明してください。",
+          "キケロの弁論術の特徴は何ですか？"
+        ],
+        "era": "紀元前1世紀",
+        "pain": "平民出身であったキケロは、ローマの最高権力層に上り詰めるまで、絶え間ない嫉妬と妨害に直面しました。特にユリウス・カエサルやアントニウスのような強力な権力者たちとの政治的対立は、彼の人生に大きな脅威をもたらしました。晩年には、政治的激動の中で亡命生活を経験することもありました。",
+        "recovery": "キケロは、卓越した知性と雄弁術、そして不屈の精神によって、これらの困難を乗り越えました。彼は自身の哲学的著作や演説を通じて、ローマ市民に共和政の価値を訴え、正義と法の重要性を説きました。政治的には挫折を経験したものの、彼の思想と著作は後世に永遠に生き続けています。"
+      },
+      "de": {
+        "name": "Cicero",
+        "title": "Römischer Philosoph, Redner und Staatsmann",
+        "headline": "Die Stimme Roms",
+        "shortDescription": "Marcus Tullius Cicero war ein herausragender römischer Philosoph, Redner, Anwalt und Staatsmann. Seine umfangreichen lateinischen Schriften und Reden hatten einen tiefgreifenden Einfluss auf das westliche Denken und die Entwicklung der Römischen Republik. Er setzte sich für republikanische Ideale ein, und sein Erbe prägt bis heute den politischen und philosophischen Diskurs.",
+        "quote": "Ein Volk ist keine bloße Ansammlung von Menschen, sondern eine Gemeinschaft, die durch das Recht und das gemeinsame Interesse verbunden ist.",
+        "chatGreeting": "Seien Sie gegrüßt! Suchen Sie die Weisheit Roms? Ich bin Marcus Tullius Cicero, ein Verteidiger der Republik und ein Sucher der Wahrheit. Lassen Sie uns über die Ideale der Regierung und das Streben nach Tugend sprechen. Welches Wissen möchten Sie erlangen?",
+        "suggestedQuestions": [
+          "Was waren Ciceros wichtigste philosophische Beiträge?",
+          "Beschreiben Sie das politische Klima der späten Römischen Republik.",
+          "Was kennzeichnete Ciceros Redestil?"
+        ],
+        "era": "1. Jahrhundert v. Chr.",
+        "pain": "Als Mann aus dem Ritterstand sah sich Cicero ständig Kritik und Widerstand ausgesetzt, als er innerhalb der römischen Elite aufstieg. Seine politischen Auseinandersetzungen mit mächtigen Persönlichkeiten wie Julius Cäsar und Marcus Antonius stellten erhebliche Bedrohungen für sein Leben und seine Karriere dar. In seinen späteren Jahren zwang ihn politische Turbulenz ins Exil.",
+        "recovery": "Ciceros scharfer Intellekt, seine meisterhafte Beredsamkeit und seine unerschütterliche Hingabe an die Republik ermöglichten es ihm, diese Herausforderungen zu meistern. Durch seine philosophischen Werke und Reden inspirierte er die römischen Bürger mit den Tugenden des Republikanismus, der Gerechtigkeit und des Rechts. Obwohl seine politischen Bemühungen auf Rückschläge stießen, lebt sein intellektuelles Erbe bis heute fort."
+      },
+      "es": {
+        "name": "Cicerón",
+        "title": "Filósofo, Orador y Estadista Romano",
+        "headline": "La Voz de Roma",
+        "shortDescription": "Marco Tulio Cicerón fue un prominente filósofo, orador, abogado y estadista romano. Sus prolíficas obras y discursos en latín influyeron profundamente en el pensamiento occidental y en el desarrollo de la República Romana. Defendió los ideales republicanos y su legado continúa dando forma al discurso político y filosófico.",
+        "quote": "Una nación no es un cuerpo de gente, sino una comunidad unida por el acuerdo en derechos y por la comunidad de intereses.",
+        "chatGreeting": "¡Saludos! ¿Busca la sabiduría de Roma? Soy Marco Tulio Cicerón, defensor de la República y buscador de la verdad. Hablemos de los ideales de gobernanza y la búsqueda de la virtud. ¿Qué conocimiento desea adquirir?",
+        "suggestedQuestions": [
+          "¿Cuáles fueron las principales contribuciones filosóficas de Cicerón?",
+          "Describa el clima político de la República Romana tardía.",
+          "¿Qué caracterizó el estilo oratorio de Cicerón?"
+        ],
+        "era": "Siglo I a.C.",
+        "pain": "Como hombre de rango ecuestre, Cicerón enfrentó constantemente escrutinio y oposición mientras ascendía dentro de la élite romana. Sus enfrentamientos políticos con figuras poderosas como Julio César y Marco Antonio representaron amenazas significativas para su vida y carrera. En sus últimos años, la agitación política lo obligó al exilio.",
+        "recovery": "El agudo intelecto de Cicerón, su oratoria magistral y su inquebrantable dedicación a la República le permitieron sortear estos desafíos. A través de sus obras filosóficas y discursos, inspiró a los ciudadanos romanos con las virtudes del republicanismo, la justicia y la ley. Aunque sus esfuerzos políticos sufrieron reveses, su legado intelectual perdura."
+      },
+      "fr": {
+        "name": "Cicéron",
+        "title": "Philosophe, Orateur et Homme d'État Romain",
+        "headline": "La Voix de Rome",
+        "shortDescription": "Marcus Tullius Cicero fut un éminent philosophe, orateur, avocat et homme d'État romain. Ses écrits et discours prolifiques en latin ont profondément influencé la pensée occidentale et le développement de la République romaine. Il a défendu les idéaux républicains et son héritage continue de façonner le discours politique et philosophique.",
+        "quote": "Une nation n'est pas un corps de peuple, mais une communauté liée par l'accord sur les droits et par la communauté d'intérêts.",
+        "chatGreeting": "Salutations ! Cherchez-vous la sagesse de Rome ? Je suis Marcus Tullius Cicero, un défenseur de la République et un chercheur de vérité. Parlons des idéaux de gouvernance et de la poursuite de la vertu. Quelle connaissance souhaitez-vous acquérir ?",
+        "suggestedQuestions": [
+          "Quelles furent les principales contributions philosophiques de Cicéron ?",
+          "Décrivez le climat politique de la fin de la République romaine.",
+          "Qu'est-ce qui caractérisait le style oratoire de Cicéron ?"
+        ],
+        "era": "Ier siècle av. J.-C.",
+        "pain": "En tant qu'homme de rang équestre, Cicéron fut constamment confronté à l'examen minutieux et à l'opposition alors qu'il gravissait les échelons de l'élite romaine. Ses affrontements politiques avec des figures puissantes comme Jules César et Marc Antoine ont représenté des menaces importantes pour sa vie et sa carrière. Dans ses dernières années, le tumulte politique l'a contraint à l'exil.",
+        "recovery": "L'intellect vif de Cicéron, son éloquence magistrale et son dévouement inébranlable à la République lui ont permis de surmonter ces défis. Par ses œuvres philosophiques et ses discours, il a inspiré les citoyens romains avec les vertus du républicanisme, de la justice et de la loi. Bien que ses efforts politiques aient connu des revers, son héritage intellectuel perdure."
+      },
+      "it": {
+        "name": "Cicerone",
+        "title": "Filosofo, Oratore e Statista Romano",
+        "headline": "La Voce di Roma",
+        "shortDescription": "Marco Tullio Cicerone fu un eminente filosofo, oratore, avvocato e statista romano. I suoi prolissi scritti e discorsi in latino influenzarono profondamente il pensiero occidentale e lo sviluppo della Repubblica Romana. Difese gli ideali repubblicani e la sua eredità continua a plasmare il discorso politico e filosofico.",
+        "quote": "Una nazione non è un corpo di persone, ma una comunità legata dall'accordo sui diritti e dalla comunità di interessi.",
+        "chatGreeting": "Saluti! Cercate la saggezza di Roma? Io sono Marco Tullio Cicerone, difensore della Repubblica e ricercatore della verità. Parliamo degli ideali di governo e della ricerca della virtù. Quale conoscenza desiderate acquisire?",
+        "suggestedQuestions": [
+          "Quali furono i principali contributi filosofici di Cicerone?",
+          "Descriva il clima politico della tarda Repubblica Romana.",
+          "Cosa caratterizzava lo stile oratorio di Cicerone?"
+        ],
+        "era": "I secolo a.C.",
+        "pain": "Come uomo di rango equestre, Cicerone affrontò costantemente esami e opposizioni mentre saliva nella gerarchia dell'élite romana. I suoi scontri politici con figure potenti come Giulio Cesare e Marco Antonio rappresentarono minacce significative alla sua vita e carriera. Negli ultimi anni, il tumulto politico lo costrinse all'esilio.",
+        "recovery": "L'acuto intelletto di Cicerone, la sua magistrale oratoria e la sua incrollabile dedizione alla Repubblica gli permisero di superare queste sfide. Attraverso le sue opere filosofiche e i suoi discorsi, ispirò i cittadini romani con le virtù del repubblicanesimo, della giustizia e della legge. Sebbene i suoi sforzi politici abbiano incontrato battute d'arresto, la sua eredità intellettuale perdura."
+      },
+      "pt": {
+        "name": "Cícero",
+        "title": "Filósofo, Orador e Estadista Romano",
+        "headline": "A Voz de Roma",
+        "shortDescription": "Marco Túlio Cícero foi um proeminente filósofo, orador, advogado e estadista romano. Seus prolíficos escritos e discursos em latim influenciaram profundamente o pensamento ocidental e o desenvolvimento da República Romana. Ele defendeu os ideais republicanos e seu legado continua a moldar o discurso político e filosófico.",
+        "quote": "Uma nação não é um corpo de pessoas, mas uma comunidade unida por acordo em direitos e por comunidade de interesses.",
+        "chatGreeting": "Saudações! Busca a sabedoria de Roma? Eu sou Marco Túlio Cícero, um defensor da República e um buscador da verdade. Falemos dos ideais de governança e da busca pela virtude. Que conhecimento você deseja adquirir?",
+        "suggestedQuestions": [
+          "Quais foram as principais contribuições filosóficas de Cícero?",
+          "Descreva o clima político da República Romana tardia.",
+          "O que caracterizava o estilo oratório de Cícero?"
+        ],
+        "era": "Século I a.C.",
+        "pain": "Como homem de patente equestre, Cícero enfrentou constantemente escrutínio e oposição ao ascender na elite romana. Seus confrontos políticos com figuras poderosas como Júlio César e Marco Antônio representaram ameaças significativas à sua vida e carreira. Em seus últimos anos, a turbulência política o forçou ao exílio.",
+        "recovery": "O agudo intelecto de Cícero, sua oratória magistral e sua dedicação inabalável à República permitiram que ele superasse esses desafios. Através de suas obras filosóficas e discursos, ele inspirou os cidadãos romanos com as virtudes do republicanismo, justiça e lei. Embora seus esforços políticos tenham sofrido reveses, seu legado intelectual perdura."
+      },
+      "ar": {
+        "name": "شيشرون",
+        "title": "فيلسوف وخطيب ورجل دولة روماني",
+        "headline": "صوت روما",
+        "shortDescription": "كان ماركوس توليوس شيشرون فيلسوفًا وخطيبًا ومحاميًا ورجل دولة رومانيًا بارزًا. أثرت كتاباته وخطاباته اللاتينية الغزيرة بعمق في الفكر الغربي وتطور الجمهورية الرومانية. دافع عن المُثل العليا الجمهورية، ويستمر إرثه في تشكيل الخطاب السياسي والفلسفي.",
+        "quote": "الأمة ليست جسدًا من الناس، بل مجتمع يربطه الاتفاق على الحقوق والمصلحة المشتركة.",
+        "chatGreeting": "تحياتي! هل تبحث عن حكمة روما؟ أنا ماركوس توليوس شيشرون، مدافع عن الجمهورية وباحث عن الحقيقة. لنتحدث عن مُثل الحكم والسعي وراء الفضيلة. أي معرفة تود اكتسابها؟",
+        "suggestedQuestions": [
+          "ما هي المساهمات الفلسفية الرئيسية لشيشرون؟",
+          "صف المناخ السياسي للجمهورية الرومانية المتأخرة.",
+          "ما الذي ميز أسلوب شيشرون الخطابي؟"
+        ],
+        "era": "القرن الأول قبل الميلاد",
+        "pain": "كرجل من الرتبة الفروسية، واجه شيشرون باستمرار التدقيق والمعارضة أثناء صعوده في صفوف النخبة الرومانية. شكلت مواجهاته السياسية مع شخصيات قوية مثل يوليوس قيصر ومارك أنطوني تهديدات كبيرة لحياته ومسيرته المهنية. في سنواته الأخيرة، أجبرته الاضطرابات السياسية على النفي.",
+        "recovery": "سمح له فكر شيشرون الثاقب، وبلاغته المتقنة، وتفانيه الذي لا يتزعزع في سبيل الجمهورية بتجاوز هذه التحديات. من خلال أعماله الفلسفية وخطاباته، ألهم المواطنين الرومان بفضائل الجمهورية والعدالة والقانون. على الرغم من أن مساعيه السياسية واجهت نكسات، إلا أن إرثه الفكري لا يزال قائماً."
+      },
+      "hi": {
+        "name": "सिसरो",
+        "title": "रोमन दार्शनिक, वक्ता और राजनेता",
+        "headline": "रोम की आवाज़",
+        "shortDescription": "मार्क्स टुलियस सिसरो एक प्रमुख रोमन दार्शनिक, वक्ता, वकील और राजनेता थे। लैटिन में उनकी विपुल रचनाओं और भाषणों ने पश्चिमी विचार और रोमन गणराज्य के विकास को गहराई से प्रभावित किया। उन्होंने गणतांत्रिक आदर्शों का समर्थन किया और उनकी विरासत राजनीतिक और दार्शनिक बहस को आकार देना जारी रखे हुए है।",
+        "quote": "एक राष्ट्र लोगों का समूह नहीं, बल्कि अधिकारों पर समझौते और हितों की समानता से बंधी एक समुदाय है।",
+        "chatGreeting": "अभिवादन! क्या आप रोम का ज्ञान चाहते हैं? मैं मार्कस टुलियस सिसरो हूँ, गणराज्य का रक्षक और सत्य का खोजी। आइए शासन के आदर्शों और सद्गुण की खोज पर चर्चा करें। आप कौन सा ज्ञान प्राप्त करना चाहेंगे?",
+        "suggestedQuestions": [
+          "सिसरो का मुख्य दार्शनिक योगदान क्या था?",
+          "लेट रोमन रिपब्लिक की राजनीतिक स्थिति का वर्णन करें।",
+          "सिसरो की वक्तृत्व शैली की क्या विशेषता थी?"
+        ],
+        "era": "ईसा पूर्व पहली शताब्दी",
+        "pain": "एक घुड़सवार वर्ग के व्यक्ति के रूप में, सिसरो को रोमन अभिजात वर्ग में आगे बढ़ते हुए लगातार जांच और विरोध का सामना करना पड़ा। जूलियस सीज़र और मार्क एंटनी जैसे शक्तिशाली व्यक्तियों के साथ उनके राजनीतिक टकराव ने उनके जीवन और करियर के लिए महत्वपूर्ण खतरे पैदा किए। अपने अंतिम वर्षों में, राजनीतिक उथल-पुथल ने उन्हें निर्वासन में डाल दिया।",
+        "recovery": "सिसरो की तीक्ष्ण बुद्धि, कुशल वाक्पटुता और गणराज्य के प्रति अटूट समर्पण ने उन्हें इन चुनौतियों से निपटने में सक्षम बनाया। अपने दार्शनिक कार्यों और भाषणों के माध्यम से, उन्होंने रोमन नागरिकों को गणतंत्रवाद, न्याय और कानून के गुणों से प्रेरित किया। यद्यपि उनके राजनीतिक प्रयासों को बाधाओं का सामना करना पड़ा, उनकी बौद्धिक विरासत आज भी जीवित है।"
+      },
+      "ru": {
+        "name": "Цицерон",
+        "title": "Римский философ, оратор и государственный деятель",
+        "headline": "Голос Рима",
+        "shortDescription": "Марк Туллий Цицерон был выдающимся римским философом, оратором, юристом и государственным деятелем. Его обширные труды и речи на латыни оказали глубокое влияние на западную мысль и развитие Римской республики. Он отстаивал республиканские идеалы, и его наследие продолжает формировать политический и философский дискурс.",
+        "quote": "Государство — это не собрание людей, а союз, связанный согласием в вопросах права и общей пользой.",
+        "chatGreeting": "Приветствую вас! Ищете мудрость Рима? Я — Марк Туллий Цицерон, защитник Республики и искатель истины. Давайте обсудим идеалы управления и стремление к добродетели. Какие знания вы желаете обрести?",
+        "suggestedQuestions": [
+          "Каков основной философский вклад Цицерона?",
+          "Опишите политическую обстановку поздней Римской республики.",
+          "Чем отличался ораторский стиль Цицерона?"
+        ],
+        "era": "I век до н.э.",
+        "pain": "Будучи человеком всаднического сословия, Цицерон постоянно сталкивался с пристальным вниманием и противодействием по мере того, как он поднимался в римской элите. Его политические столкновения с такими могущественными фигурами, как Юлий Цезарь и Марк Антоний, представляли серьезную угрозу его жизни и карьере. В последние годы политическая нестабильность вынудила его к изгнанию.",
+        "recovery": "Острый ум Цицерона, его мастерское красноречие и непоколебимая преданность Республике позволили ему преодолеть эти трудности. Через свои философские труды и речи он вдохновлял римских граждан добродетелями республиканизма, справедливости и закона. Хотя его политические начинания встретили неудачи, его интеллектуальное наследие живет по сей день."
+      },
+      "zh": {
+        "name": "西塞罗",
+        "title": "罗马哲学家、演说家、政治家",
+        "headline": "罗马之声",
+        "shortDescription": "马库斯·图利乌斯·西塞罗是古罗马杰出的哲学家、演说家、律师和政治家。他用拉丁文写下的著作和演讲深刻影响了西方思想和罗马共和国的发展。他捍卫共和主义理想，其遗产至今仍在塑造着政治和哲学话语。",
+        "quote": "国家不是一群人，而是由权利协议和共同利益所结合的共同体。",
+        "chatGreeting": "您好！是在寻找罗马的智慧吗？我是马库斯·图利乌斯·西塞罗，共和国的捍卫者，真理的探索者。让我们来谈谈治国的理念和美德的追求吧。您想了解些什么？",
+        "suggestedQuestions": [
+          "西塞罗的主要哲学贡献是什么？",
+          "请描述一下罗马共和国晚期的政治气候。",
+          "西塞罗的演说风格有何特点？"
+        ],
+        "era": "公元前1世纪",
+        "pain": "作为一位出身骑士阶层的人，西塞罗在罗马精英阶层中晋升时，始终面临着不断的审视和阻碍。他与尤利乌斯·凯撒和马克·安东尼等强权人物的政治冲突，对他个人生命和政治生涯构成了严重威胁。晚年，政治动荡甚至迫使他流亡海外。",
+        "recovery": "西塞罗凭借其敏锐的才智、精湛的口才以及对共和国的坚定不移的忠诚，成功地应对了这些挑战。通过他的哲学著作和演讲，他用共和主义、正义和法律的美德激励着罗马公民。尽管他的政治事业遭遇了挫折，但他的思想遗产至今仍被世人所铭记。"
+      }
+    },
+    "epic": {
+      "epic_ko": "### 1. 출신과 초기 경력\n\n마르쿠스 툴리우스 키케로는 기원전 106년, 아르피눔이라는 작은 마을에서 평민 가문으로 태어났습니다. 당시 로마 사회에서 귀족 가문 출신이 아니었던 그는, 뛰어난 재능과 노력으로 법률과 웅변술을 익히며 정치 경력을 쌓았습니다. 그의 명석한 두뇌와 탁월한 연설 능력은 곧 로마 전역에 알려졌고, 그는 젊은 나이에 법정에서의 승리와 정치적 영향력을 확대해 나갔습니다.\n\n### 2. 공화정의 수호자\n\n키케로는 로마 공화정의 이상을 굳건히 믿었으며, 이를 지키기 위해 헌신했습니다. 그는 기원전 63년, 집정관으로서 '카틸리나 음모'를 분쇄하며 로마를 내전의 위기에서 구했습니다. 이 사건으로 그는 '로마의 아버지'라 불리며 최고의 명예를 얻었지만, 동시에 강력한 적들을 만들기도 했습니다. 그는 법치와 정의를 강조하며, 개인의 야망보다 공공의 이익을 우선시해야 한다고 주장했습니다.\n\n### 3. 정치적 격동과 망명\n\n로마 공화정이 점차 쇠퇴하고 율리우스 카이사르와 같은 강력한 군사 지도자들이 부상하면서, 키케로의 정치적 입지는 불안정해졌습니다. 그는 카이사르의 독재에 반대하며 공화정을 지키려 했으나, 결국 정치적 격변 속에서 그의 삶은 큰 위협에 직면했습니다. 카이사르 암살 이후에도 혼란은 계속되었고, 그는 결국 제2차 삼두정치의 포로가 되어 프로스크립션(추방령) 명단에 올라 망명길에 오르게 되었습니다.\n\n### 4. 철학자로서의 삶과 유산\n\n정치적 좌절과 망명 생활 속에서도 키케로는 붓을 놓지 않았습니다. 그는 망명지에서 철학, 수사학, 정치 이론에 관한 수많은 저술을 남겼습니다. 그의 저서들은 고대 그리스 철학을 라틴어로 소개하고 로마의 지적 전통을 풍부하게 만들었으며, 후대 유럽 사상에 지대한 영향을 미쳤습니다. 비록 정치적으로는 비극적인 최후를 맞이했지만, 그의 글과 사상은 오늘날까지 살아 숨 쉬며 우리에게 깊은 울림을 주고 있습니다.",
+      "epic_en": "### 1. Origins and Early Career\n\nMarcus Tullius Cicero was born in 106 BC in the small town of Arpinum, into an equestrian family. Not from the patrician class of Roman society, he honed his skills in law and rhetoric through exceptional talent and hard work, building a political career. His sharp intellect and extraordinary oratorical abilities soon became known throughout Rome, leading him to achieve courtroom victories and expand his political influence at a young age.\n\n### 2. Defender of the Republic\n\nCicero firmly believed in the ideals of the Roman Republic and dedicated himself to its preservation. In 63 BC, as consul, he thwarted the Catiline Conspiracy, saving Rome from the brink of civil war. This event earned him the title 'Father of the Fatherland' but also made him powerful enemies. He emphasized the rule of law and justice, arguing that the public good should take precedence over personal ambition.\n\n### 3. Political Turmoil and Exile\n\nAs the Roman Republic gradually declined and powerful military leaders like Julius Caesar rose to prominence, Cicero's political position became precarious. He opposed Caesar's dictatorship and strove to protect the Republic, but his life ultimately faced grave threats amidst the political upheaval. Even after Caesar's assassination, the chaos persisted, and he eventually fell victim to the Second Triumvirate's proscriptions, forcing him into exile.\n\n### 4. Life as a Philosopher and Legacy\n\nDespite political setbacks and exile, Cicero did not abandon his pen. In exile, he produced numerous works on philosophy, rhetoric, and political theory. His writings introduced ancient Greek philosophy to Latin, enriched Roman intellectual tradition, and profoundly influenced later European thought. Although his political life ended tragically, his writings and ideas continue to resonate with us today, offering profound insights.",
+      "epic_de": "### 1. Herkunft und frühe Karriere\n\nMarcus Tullius Cicero wurde 106 v. Chr. in der kleinen Stadt Arpinum als Sohn einer Familie aus dem Ritterstand geboren. Da er nicht der patrizischen Klasse der römischen Gesellschaft angehörte, eignete er sich durch außergewöhnliches Talent und harte Arbeit Kenntnisse im Recht und in der Rhetorik an und baute eine politische Karriere auf. Sein scharfer Intellekt und seine außergewöhnlichen Redekünste wurden bald in ganz Rom bekannt, was ihm in jungen Jahren Erfolge vor Gericht und eine Ausweitung seines politischen Einflusses einbrachte.\n\n### 2. Verteidiger der Republik\n\nCicero glaubte fest an die Ideale der Römischen Republik und widmete sich ihrer Erhaltung. Im Jahr 63 v. Chr. vereitelte er als Konsul die Catilinarische Verschwörung und rettete Rom vor dem Abgrund des Bürgerkriegs. Dieses Ereignis brachte ihm den Titel \"Vater des Vaterlandes\" ein, schuf ihm aber auch mächtige Feinde. Er betonte die Rechtsstaatlichkeit und Gerechtigkeit und argumentierte, dass das öffentliche Wohl Vorrang vor persönlichem Ehrgeiz haben sollte.\n\n### 3. Politische Turbulenzen und Exil\n\nAls die Römische Republik allmählich zerfiel und mächtige Militärführer wie Julius Cäsar an die Macht kamen, wurde Ciceros politische Position prekär. Er widersetzte sich Cäsars Diktatur und bemühte sich, die Republik zu schützen, doch sein Leben war inmitten des politischen Umbruchs schließlich ernsthaften Bedrohungen ausgesetzt. Auch nach Cäsars Ermordung hielten die Unruhen an, und er wurde schließlich Opfer der Proskriptionen des Zweiten Triumvirats, die ihn ins Exil zwangen.\n\n### 4. Leben als Philosoph und Vermächtnis\n\nTrotz politischer Rückschläge und des Exils gab Cicero seine Feder nicht auf. Im Exil verfasste er zahlreiche Werke über Philosophie, Rhetorik und politische Theorie. Seine Schriften machten die antike griechische Philosophie auf Latein zugänglich, bereicherten die römische intellektuelle Tradition und beeinflussten maßgeblich das spätere europäische Denken. Obwohl sein politisches Leben tragisch endete, leben seine Schriften und Ideen bis heute fort und bieten tiefe Einblicke.",
+      "epic_ja": "### 1. 出自と初期のキャリア\n\nマルクス・トゥッリウス・キケロは紀元前106年、アルピヌムという小さな町で、エクィテス（騎士）階級の家庭に生まれました。ローマ社会の貴族階級の出身ではなかった彼は、卓越した才能と努力によって法と弁論術のスキルを磨き、政治家としてのキャリアを築きました。彼の明晰な知性と並外れた弁論能力は、すぐにローマ全土に知られるようになり、若くして法廷での勝利を収め、政治的影響力を拡大していきました。\n\n### 2. 共和政の擁護者\n\nキケロはローマ共和政の理想を強く信じ、それを守るために尽力しました。紀元前63年、執政官として「カティリナの陰謀」を粉砕し、ローマを内戦の危機から救いました。この功績により、彼は「祖国の父」と呼ばれ最高の栄誉を得ましたが、同時に強力な敵も作る結果となりました。彼は法の支配と正義を強調し、個人の野心よりも公共の利益を優先すべきだと主張しました。\n\n### 3. 政治的混乱と亡命\n\nローマ共和政が次第に衰退し、ユリウス・カエサル（シーザー）のような強力な軍事指導者が台頭するにつれて、キケロの政治的立場は不安定になりました。彼はカエサルの独裁に反対し、共和政を守ろうとしましたが、最終的には政治的激動の中で彼の人生は大きな脅威に直面しました。カエサル暗殺後も混乱は続き、彼は最終的に第二回三頭政治の犠牲者となり、プロスクリプティオ（追放令）のリストに載せられ、亡命を余儀なくされました。\n\n### 4. 哲学者としての生涯と遺産\n\n政治的な挫折と亡命生活にもかかわらず、キケロはペンを置きませんでした。亡命先で、彼は哲学、修辞学、政治理論に関する数多くの著作を生み出しました。彼の著作は古代ギリシャ哲学をラテン語で紹介し、ローマの知的伝統を豊かにし、後のヨーロッパ思想に計り知れない影響を与えました。彼の政治的生涯は悲劇的な最期を迎えましたが、彼の著作と思想は今日まで生き続け、私たちに深い感動を与えています。",
+      "epic_es": "### 1. Orígenes y Carrera Temprana\n\nMarco Tulio Cicerón nació en el 106 a.C. en la pequeña ciudad de Arpino, en una familia de rango ecuestre. Al no pertenecer a la clase patricia de la sociedad romana, perfeccionó sus habilidades en derecho y oratoria a través de un talento excepcional y arduo trabajo, construyendo una carrera política. Su aguda inteligencia y sus extraordinarias dotes de orador pronto se hicieron conocidas en toda Roma, lo que le permitió lograr victorias en los tribunales y ampliar su influencia política a una edad temprana.\n\n### 2. Defensor de la República\n\nCicerón creía firmemente en los ideales de la República Romana y se dedicó a su preservación. En el 63 a.C., como cónsul, frustró la Conspiración de Catilina, salvando a Roma del borde de la guerra civil. Este evento le valió el título de 'Padre de la Patria', pero también le granjeó poderosos enemigos. Hizo hincapié en el estado de derecho y la justicia, argumentando que el bien público debía prevalecer sobre la ambición personal.\n\n### 3. Turbulencia Política y Exilio\n\nA medida que la República Romana declinaba gradualmente y figuras militares poderosas como Julio César ascendían al poder, la posición política de Cicerón se volvió precaria. Se opuso a la dictadura de César y se esforzó por proteger la República, pero su vida finalmente se vio amenazada por la agitación política. Incluso después del asesinato de César, el caos persistió, y finalmente fue víctima de las proscripciones del Segundo Triunvirato, lo que lo obligó al exilio.\n\n### 4. Vida como Filósofo y Legado\n\nA pesar de los reveses políticos y el exilio, Cicerón no abandonó su pluma. En el exilio, produjo numerosas obras sobre filosofía, retórica y teoría política. Sus escritos introdujeron la filosofía griega antigua al latín, enriquecieron la tradición intelectual romana e influyeron profundamente en el pensamiento europeo posterior. Aunque su vida política terminó trágicamente, sus escritos e ideas perduran hasta nuestros días, ofreciendo profundas reflexiones.",
+      "epic_fr": "### 1. Origines et Début de Carrière\n\nMarcus Tullius Cicero est né en 106 av. J.-C. dans la petite ville d'Arpinum, au sein d'une famille de rang équestre. N'appartenant pas à la classe patricienne de la société romaine, il perfectionna ses compétences en droit et en rhétorique grâce à un talent exceptionnel et à un travail acharné, se bâtissant une carrière politique. Son intellect vif et ses dons d'orateur hors du commun devinrent bientôt connus dans toute Rome, lui permettant d'obtenir des victoires au tribunal et d'étendre son influence politique dès son jeune âge.\n\n### 2. Défenseur de la République\n\nCicéron croyait fermement aux idéaux de la République romaine et se consacra à sa préservation. En 63 av. J.-C., en tant que consul, il déjoua la conspiration de Catilina, sauvant Rome du bord de la guerre civile. Cet événement lui valut le titre de \"Père de la Patrie\", mais lui attira également de puissants ennemis. Il a souligné l'état de droit et la justice, arguant que le bien public devait primer sur l'ambition personnelle.\n\n### 3. Tumulte Politique et Exil\n\nAlors que la République romaine déclinait progressivement et que de puissants chefs militaires comme Jules César prenaient de l'importance, la position politique de Cicéron devint précaire. Il s'opposa à la dictature de César et s'efforça de protéger la République, mais sa vie fut finalement confrontée à de graves menaces au milieu du tumulte politique. Même après l'assassinat de César, le chaos persista, et il devint finalement victime des proscriptions du Second Triumvirat, qui le forcèrent à l'exil.\n\n### 4. Vie de Philosophe et Héritage\n\nMalgré les revers politiques et l'exil, Cicéron ne lâcha pas sa plume. En exil, il produisit de nombreuses œuvres sur la philosophie, la rhétorique et la théorie politique. Ses écrits introduisirent la philosophie grecque antique en latin, enrichirent la tradition intellectuelle romaine et influencèrent profondément la pensée européenne ultérieure. Bien que sa vie politique se soit terminée tragiquement, ses écrits et ses idées perdurent jusqu'à nos jours, offrant des réflexions profondes.",
+      "epic_it": "### 1. Origini e Inizio Carriera\n\nMarco Tullio Cicerone nacque nel 106 a.C. nella piccola città di Arpino, in una famiglia di rango equestre. Non appartenendo alla classe patrizia della società romana, affinò le sue abilità nel diritto e nella retorica grazie a un talento eccezionale e a un duro lavoro, costruendo una carriera politica. La sua acuta intelligenza e le sue straordinarie doti oratorie divennero presto note in tutta Roma, permettendogli di ottenere vittorie in tribunale e di ampliare la sua influenza politica in giovane età.\n\n### 2. Difensore della Repubblica\n\nCicerone credeva fermamente negli ideali della Repubblica Romana e si dedicò alla sua preservazione. Nel 63 a.C., in qualità di console, sventò la Congiura di Catilina, salvando Roma dall'orlo della guerra civile. Questo evento gli valse il titolo di \"Padre della Patria\", ma gli attirò anche potenti nemici. Sottolineò lo stato di diritto e la giustizia, sostenendo che il bene pubblico dovesse avere la precedenza sull'ambizione personale.\n\n### 3. Tumulti Politici ed Esilio\n\nCon il graduale declino della Repubblica Romana e l'ascesa di potenti leader militari come Giulio Cesare, la posizione politica di Cicerone divenne precaria. Si oppose alla dittatura di Cesare e si sforzò di proteggere la Repubblica, ma la sua vita fu infine minacciata dal tumulto politico. Anche dopo l'assassinio di Cesare, il caos persistette, e alla fine divenne vittima delle proscrizioni del Secondo Triumvirato, che lo costrinsero all'esilio.\n\n### 4. Vita da Filosofo ed Eredità\n\nNonostante le battute d'arresto politiche e l'esilio, Cicerone non abbandonò la sua penna. In esilio, produsse numerose opere su filosofia, retorica e teoria politica. I suoi scritti introdussero l'antica filosofia greca in latino, arricchirono la tradizione intellettuale romana e influenzarono profondamente il pensiero europeo successivo. Sebbene la sua vita politica sia finita tragicamente, i suoi scritti e le sue idee perdurano ancora oggi, offrendo profonde riflessioni.",
+      "epic_pt": "### 1. Origens e Início de Carreira\n\nMarco Túlio Cícero nasceu em 106 a.C. na pequena cidade de Arpino, em uma família de classe equestre. Não pertencendo à classe patrícia da sociedade romana, ele aprimorou suas habilidades em direito e retórica através de talento excepcional e trabalho árduo, construindo uma carreira política. Sua inteligência aguçada e suas extraordinárias dotes de orador logo se tornaram conhecidas em toda Roma, permitindo-lhe obter vitórias nos tribunais e expandir sua influência política desde jovem.\n\n### 2. Defensor da República\n\nCícero acreditava firmemente nos ideais da República Romana e dedicou-se à sua preservação. Em 63 a.C., como cônsul, ele frustrou a Conspiração de Catilina, salvando Roma da beira da guerra civil. Este evento lhe rendeu o título de \"Pai da Pátria\", mas também lhe trouxe poderosos inimigos. Ele enfatizou o estado de direito e a justiça, argumentando que o bem público deveria ter precedência sobre a ambição pessoal.\n\n### 3. Turbulência Política e Exílio\n\nÀ medida que a República Romana declinava gradualmente e líderes militares poderosos como Júlio César ascendiam ao poder, a posição política de Cícero tornou-se precária. Ele se opôs à ditadura de César e se esforçou para proteger a República, mas sua vida foi finalmente confrontada com sérias ameaças em meio à agitação política. Mesmo após o assassinato de César, o caos persistiu, e ele eventualmente se tornou vítima das proscrições do Segundo Triunvirato, que o forçaram ao exílio.\n\n### 4. Vida como Filósofo e Legado\n\nApesar dos reveses políticos e do exílio, Cícero não abandonou sua pena. No exílio, ele produziu numerosas obras sobre filosofia, retórica e teoria política. Seus escritos introduziram a filosofia grega antiga ao latim, enriqueceram a tradição intelectual romana e influenciaram profundamente o pensamento europeu posterior. Embora sua vida política tenha terminado tragicamente, seus escritos e ideias perduram até hoje, oferecendo profundas reflexões.",
+      "epic_ar": "### 1. الأصول وبداية المسيرة المهنية\n\nولد ماركوس توليوس شيشرون عام 106 قبل الميلاد في بلدة أربينوم الصغيرة، لعائلة من الطبقة الفروسية. لم يكن ينتمي إلى الطبقة الأرستقراطية في المجتمع الروماني، بل صقل مهاراته في القانون والبلاغة من خلال موهبة استثنائية وعمل دؤوب، ليبني مسيرة مهنية سياسية. سرعان ما اشتهرت فطنته الحادة وقدراته الخطابية الاستثنائية في جميع أنحاء روما، مما سمح له بتحقيق انتصارات في المحاكم وتوسيع نفوذه السياسي في سن مبكرة.\n\n### 2. المدافع عن الجمهورية\n\nآمن شيشرون بشدة بمُثل الجمهورية الرومانية وكرس نفسه للحفاظ عليها. في عام 63 قبل الميلاد، بصفته قنصلًا، أحبط مؤامرة كاتilina، وأنقذ روما من حافة الحرب الأهلية. أكسبه هذا الحدث لقب \"أبو الوطن\"، ولكنه جعله أيضًا عدوًا أقوياء. شدد على سيادة القانون والعدالة، مجادلًا بأن الصالح العام يجب أن تكون له الأولوية على الطموح الشخصي.\n\n### 3. الاضطرابات السياسية والنفي\n\nمع تدهور الجمهورية الرومانية تدريجيًا وصعود قادة عسكريين أقوياء مثل يوليوس قيصر، أصبح موقف شيشرون السياسي محفوفًا بالمخاطر. عارض دكتاتورية قيصر وسعى لحماية الجمهورية، لكن حياته واجهت في النهاية تهديدات خطيرة وسط الاضطرابات السياسية. حتى بعد اغتيال قيصر، استمرت الفوضى، وأصبح في النهاية ضحية للمحظورات التي فرضها التحالف الثلاثي الثاني، مما أجبره على النفي.\n\n### 4. الحياة كفيلسوف وإرثه\n\nعلى الرغم من النكسات السياسية والنفي، لم يتخل شيشرون عن قلمه. في المنفى، أنتج العديد من الأعمال حول الفلسفة والبلاغة والنظرية السياسية. قدمت كتاباته الفلسفة اليونانية القديمة باللغة اللاتينية، وأثرت الثقافة الفكرية الرومانية، وأثرت بعمق في الفكر الأوروبي اللاحق. على الرغم من أن حياته السياسية انتهت بشكل مأساوي، إلا أن كتاباته وأفكاره لا تزال حية حتى يومنا هذا، وتقدم رؤى عميقة.",
+      "epic_hi": "### 1. उत्पत्ति और प्रारंभिक करियर\n\nमार्क्स टुलियस सिसरो का जन्म 106 ईसा पूर्व में अर्पिनम नामक छोटे से शहर में, घुड़सवार वर्ग के एक परिवार में हुआ था। रोमन समाज के कुलीन वर्ग से संबंधित न होने के कारण, उन्होंने असाधारण प्रतिभा और कड़ी मेहनत के माध्यम से कानून और वाक्पटुता में अपने कौशल को निखारा, जिससे उन्होंने एक राजनीतिक करियर बनाया। उनकी तीक्ष्ण बुद्धि और असाधारण वाक्पटुता जल्द ही पूरे रोम में जानी गई, जिससे उन्हें कम उम्र में ही अदालत में जीत हासिल करने और अपने राजनीतिक प्रभाव का विस्तार करने में मदद मिली।\n\n### 2. गणराज्य का रक्षक\n\nसिसरो ने रोमन गणराज्य के आदर्शों में दृढ़ विश्वास रखा और इसे बनाए रखने के लिए खुद को समर्पित कर दिया। 63 ईसा पूर्व में, कौंसल के रूप में, उन्होंने कैटिलिना की साजिश को विफल कर दिया, जिससे रोम गृहयुद्ध के कगार से बच गया। इस घटना ने उन्हें \"राष्ट्रपिता\" की उपाधि दिलाई, लेकिन साथ ही शक्तिशाली दुश्मन भी बना दिए। उन्होंने कानून के शासन और न्याय पर जोर दिया, यह तर्क देते हुए कि व्यक्तिगत महत्वाकांक्षा पर सार्वजनिक हित को प्राथमिकता दी जानी चाहिए।\n\n### 3. राजनीतिक उथल-पुथल और निर्वासन\n\nजैसे-जैसे रोमन गणराज्य धीरे-धीरे अवनत हुआ और जूलियस सीज़र जैसे शक्तिशाली सैन्य नेता उभरे, सिसरो की राजनीतिक स्थिति अनिश्चित हो गई। उन्होंने सीज़र की तानाशाही का विरोध किया और गणराज्य की रक्षा करने का प्रयास किया, लेकिन अंततः राजनीतिक उथल-पुथल के बीच उनका जीवन गंभीर खतरों से घिर गया। सीज़र की हत्या के बाद भी अराजकता बनी रही, और अंततः वह दूसरे ट्राइविरेट के बहिष्कार का शिकार हुए, जिसने उन्हें निर्वासन में जाने के लिए मजबूर किया।\n\n### 4. एक दार्शनिक के रूप में जीवन और विरासत\n\nराजनीतिक बाधाओं और निर्वासन के बावजूद, सिसरो ने अपनी कलम नहीं छोड़ी। निर्वासन में, उन्होंने दर्शन, अलंकार शास्त्र और राजनीतिक सिद्धांत पर कई ग्रंथ लिखे। उनकी रचनाओं ने प्राचीन ग्रीक दर्शन को लैटिन में प्रस्तुत किया, रोमन बौद्धिक परंपरा को समृद्ध किया और बाद के यूरोपीय विचारों को गहराई से प्रभावित किया। यद्यपि उनके राजनीतिक जीवन का अंत दुखद रहा, उनके लेखन और विचार आज भी जीवित हैं और गहरी अंतर्दृष्टि प्रदान करते हैं।",
+      "epic_ru": "### 1. Происхождение и начало карьеры\n\nМарк Туллий Цицерон родился в 106 г. до н.э. в небольшом городке Арпинум в семье всаднического сословия. Не принадлежа к патрицианскому классу римского общества, он оттачивал свои навыки в юриспруденции и риторике благодаря исключительному таланту и упорному труду, строя политическую карьеру. Его острый интеллект и выдающиеся ораторские способности вскоре стали известны по всей Римской империи, что позволило ему в молодом возрасте добиваться побед в судах и расширять свое политическое влияние.\n\n### 2. Защитник Республики\n\nЦицерон твердо верил в идеалы Римской республики и посвятил себя ее сохранению. В 63 г. до н.э., будучи консулом, он предотвратил заговор Катилины, спасая Рим от гражданской войны. Это событие принесло ему почетный титул \"Отец Отечества\", но также нажило могущественных врагов. Он подчеркивал верховенство права и справедливости, утверждая, что общественное благо должно иметь приоритет над личными амбициями.\n\n### 3. Политические потрясения и изгнание\n\nПо мере постепенного упадка Римской республики и возвышения могущественных военных лидеров, таких как Юлий Цезарь, политическая позиция Цицерона стала шаткой. Он выступал против диктатуры Цезаря и стремился защитить Республику, но в конечном итоге его жизнь оказалась под серьезной угрозой в условиях политических потрясений. Даже после убийства Цезаря хаос продолжался, и в конце концов он стал жертвой проскрипций Второго триумвирата, что вынудило его к изгнанию.\n\n### 4. Жизнь как философ и наследие\n\nНесмотря на политические неудачи и изгнание, Цицерон не бросал свою письменную деятельность. В изгнании он создал многочисленные труды по философии, риторике и политической теории. Его сочинения представили античную греческую философию на латыни, обогатили римскую интеллектуальную традицию и оказали глубокое влияние на последующую европейскую мысль. Хотя его политическая жизнь трагически завершилась, его труды и идеи живут и по сей день, предлагая глубокие размышления.",
+      "epic_zh": "### 1.出身与早期生涯\n\n马库斯·图利乌斯·西塞罗于公元前106年出生在阿尔皮努姆这个小镇，出身于罗马的骑士阶层家庭。他并非出身于罗马社会的贵族阶层，而是凭借非凡的天赋和辛勤的努力，磨练了自己在法律和修辞方面的技能，并由此构建了他的政治生涯。他敏锐的才智和卓越的演说才能很快传遍罗马，使他在年轻时便在法庭上取得胜利，并扩大了他的政治影响力。\n\n### 2. 共和国的捍卫者\n\n西塞罗坚信罗马共和国的理想，并致力于维护它。公元前63年，他担任执政官，挫败了喀提林阴谋，将罗马从内战的边缘拯救出来。这一事件为他赢得了“祖国之父”的称号，但也为他树立了强大的敌人。他强调法治和正义，认为公共利益应优先于个人野心。\n\n### 3. 政治动荡与流亡\n\n随着罗马共和国的逐渐衰落以及尤利乌斯·凯撒等强大军事领袖的崛起，西塞罗的政治地位变得岌岌可危。他反对凯撒的独裁统治，并努力保护共和国，但最终他的生命在政治动荡中面临着严重的威胁。即使在凯撒被刺杀后，混乱依然持续，他最终成为第二次三头同盟的清算对象，被迫流亡海外。\n\n### 4. 作为哲学家的人生与遗产\n\n尽管经历了政治挫折和流亡，西塞罗从未放弃他的笔。在流亡期间，他创作了大量关于哲学、修辞学和政治理论的作品。他的著作用拉丁语介绍了古希腊哲学，丰富了罗马的知识传统，并对后来的欧洲思想产生了深远影响。尽管他的政治生涯以悲剧告终，但他的著作和思想至今仍然鲜活地影响着我们，提供了深刻的见解。",
+      "trials_ko": "평민 출신으로서 겪은 시기, 강력한 권력자들과의 정치적 대립, 카틸리나 음모와 같은 국가적 위기 상황에서의 책임, 그리고 결국 망명에 이르게 된 정치적 격변.",
+      "trials_en": "Facing prejudice as a man of equestrian rank, political battles with powerful figures like Caesar and Antony, the immense responsibility of safeguarding the Republic during crises like the Catiline Conspiracy, and ultimately, exile due to political upheaval.",
+      "overcoming_ko": "뛰어난 지성과 웅변술을 바탕으로 법정에서 승리하고 정치적 영향력을 확대했으며, \"카틸리나 음모\"를 분쇄하여 로마를 구했습니다. 망명 중에도 철학 저술에 힘쓰며 로마의 지적 전통을 풍요롭게 하고 후대에 큰 영향을 미쳤습니다.",
+      "overcoming_en": "Leveraging his exceptional intellect and oratorical skills to win legal cases and gain political influence, he famously saved Rome by thwarting the Catiline Conspiracy. Even in exile, he dedicated himself to philosophical writing, enriching Roman intellectual tradition and leaving a lasting legacy.",
+      "wisdom": [
+        {
+          "quote_ko": "모든 인간은 법률에 의해 인도되어야 한다.",
+          "quote_en": "All men should be guided by law.",
+          "meaning_ko": "키케로는 법이 사회 질서와 정의의 근간임을 강조하며, 개인의 자유와 권리가 법 테두리 안에서 보장되어야 함을 역설했습니다.",
+          "meaning_en": "Cicero emphasized that law is the foundation of social order and justice, asserting that individual freedoms and rights must be guaranteed within the framework of the law."
+        },
+        {
+          "quote_ko": "인생에서 가장 큰 재앙은 무지이다.",
+          "quote_en": "The greatest calamity in life is ignorance.",
+          "meaning_ko": "지식과 배움의 중요성을 강조하며, 무지가 개인과 사회에 미치는 해악을 경고했습니다.",
+          "meaning_en": "He emphasized the importance of knowledge and learning, warning against the harm that ignorance can inflict on individuals and society."
+        },
+        {
+          "quote_ko": "국가는 공동선의 실현을 목적으로 하는 정의로운 결합이다.",
+          "quote_en": "The state is a rightful association for the sake of the common good.",
+          "meaning_ko": "키케로는 국가의 존재 이유가 시민들의 공동선을 추구하고 정의를 실현하는 데 있다고 보았습니다.",
+          "meaning_en": "Cicero believed that the purpose of the state is to pursue the common good of its citizens and to realize justice."
+        }
+      ]
+    },
+    "category": "philosophy"
+  },
+  "sophocles": {
+    "messages": {
+      "ko": {
+        "name": "소포클레스",
+        "title": "고대 그리스의 위대한 비극 작가",
+        "headline": "비극의 거장",
+        "shortDescription": "아테네의 3대 비극 작가 중 한 명으로, 120편 이상의 작품을 썼으며 그중 7편이 현존합니다. 인간의 운명과 신의 섭리에 대한 깊은 통찰을 보여주었습니다.",
+        "quote": "죽은 자가 아니라 살아 있는 자에 대해 말해야 한다.",
+        "chatGreeting": "오, 낯선 이여. 나의 극장에 온 것을 환영하오. 인간의 고뇌와 운명에 대해 논하고 싶다면, 귀 기울여 듣겠소.",
+        "suggestedQuestions": [
+          "당신의 작품 중 가장 자랑스러운 것은 무엇인가요?",
+          "오이디푸스에 대한 당신의 생각은 무엇인가요?",
+          "극작가의 삶은 어떠했나요?"
+        ],
+        "era": "기원전 5세기",
+        "pain": "자신의 아들들에게 재산을 빼앗기려 했다는 고발을 당했으나, 노령과 정신적 능력을 증명하여 이겨냈습니다. 또한, 정치적 격변 속에서 활동하며 아테네의 몰락을 목격해야 했습니다.",
+        "recovery": "지혜와 예술적 성취를 통해 이러한 어려움을 극복했습니다. 특히 그의 극작 실력은 만장일치로 인정받았으며, 아테네 시민들의 존경을 받았습니다."
+      },
+      "en": {
+        "name": "Sophocles",
+        "title": "Master Playwright of Ancient Greece",
+        "headline": "The Titan of Tragedy",
+        "shortDescription": "One of the three great tragedians of Athens, Sophocles penned over 120 plays, with seven surviving today. His works delve into human fate and divine will with profound insight.",
+        "quote": "I must speak of those who are alive, not of the dead.",
+        "chatGreeting": "Hark, stranger. Welcome to my theatre. If you wish to discuss the trials of man and the dictates of fate, I shall lend an ear.",
+        "suggestedQuestions": [
+          "Which of your plays are you most proud of?",
+          "What are your thoughts on Oedipus?",
+          "What was life as a playwright like?"
+        ],
+        "era": "5th Century BC",
+        "pain": "He faced accusations from his own sons of attempting to usurp his property, which he overcame by demonstrating his mental faculties in old age. He also navigated the tumultuous political landscape of Athens, witnessing its eventual decline.",
+        "recovery": "Sophocles navigated these challenges through his wisdom and unparalleled artistic achievements. His dramatic prowess earned him widespread acclaim and deep respect from the Athenian citizenry."
+      },
+      "ja": {
+        "name": "ソフォクレス",
+        "title": "古代ギリシャの偉大な悲劇作家",
+        "headline": "悲劇の巨匠",
+        "shortDescription": "アテナイの三大悲劇作家の一人であり、120篇以上の作品を執筆し、そのうち7篇が現存しています。人間の運命と神の摂理に対する深い洞察を示しました。",
+        "quote": "死者ではなく、生きている者について語らねばならぬ。",
+        "chatGreeting": "おお、見知らぬ者よ。私の劇場へようこそ。人間の苦悩と運命について語りたいのなら、耳を傾けよう。",
+        "suggestedQuestions": [
+          "あなたの作品の中で最も誇りに思うものは何ですか？",
+          "オイディプスについてどう思いますか？",
+          "劇作家としての人生はどうでしたか？"
+        ],
+        "era": "紀元前5世紀",
+        "pain": "自身の息子たちから財産を奪おうとしたという告発を受けましたが、老齢と精神能力を証明して乗り越えました。また、アテナイの政治的激動の中で活動し、その没落を目撃しなければなりませんでした。",
+        "recovery": "知恵と芸術的業績を通じてこれらの困難を克服しました。特に彼の劇作の腕前は満場一致で認められ、アテナイ市民の尊敬を集めました。"
+      },
+      "de": {
+        "name": "Sophokles",
+        "title": "Großer Tragödiendichter des antiken Griechenlands",
+        "headline": "Meister der Tragödie",
+        "shortDescription": "Als einer der drei großen Tragiker Athens verfasste Sophokles über 120 Stücke, von denen sieben erhalten sind. Seine Werke untersuchen mit tiefem Einblick das menschliche Schicksal und den göttlichen Willen.",
+        "quote": "Ich muss von den Lebenden sprechen, nicht von den Toten.",
+        "chatGreeting": "Heil, Fremder. Willkommen in meinem Theater. Wenn du die Leiden des Menschen und die Gebote des Schicksals erörtern möchtest, werde ich dir zuhören.",
+        "suggestedQuestions": [
+          "Auf welches Ihrer Stücke sind Sie am stolzesten?",
+          "Was denken Sie über Ödipus?",
+          "Wie war das Leben als Dramatiker?"
+        ],
+        "era": "5. Jahrhundert v. Chr.",
+        "pain": "Er wurde von seinen eigenen Söhnen beschuldigt, sein Vermögen zu usurpieren, was er durch den Nachweis seiner geistigen Fähigkeiten im Alter überwand. Er navigierte auch die turbulente politische Landschaft Athens und erlebte dessen endgültigen Niedergang.",
+        "recovery": "Sophokles meisterte diese Herausforderungen durch seine Weisheit und seine unvergleichlichen künstlerischen Errungenschaften. Sein dramatisches Können brachte ihm breite Anerkennung und tiefen Respekt von der athenischen Bürgerschaft ein."
+      },
+      "es": {
+        "name": "Sófocles",
+        "title": "Gran Dramaturgo de la Antigua Grecia",
+        "headline": "El Titán de la Tragedia",
+        "shortDescription": "Uno de los tres grandes trágicos de Atenas, Sófocles escribió más de 120 obras, de las cuales sobreviven siete. Sus obras exploran el destino humano y la voluntad divina con profunda perspicacia.",
+        "quote": "Debo hablar de los vivos, no de los muertos.",
+        "chatGreeting": "Salve, extranjero. Bienvenido a mi teatro. Si deseas discutir las pruebas del hombre y los dictados del destino, te prestaré oído.",
+        "suggestedQuestions": [
+          "¿De cuál de sus obras se siente más orgulloso?",
+          "¿Qué piensa sobre Edipo?",
+          "¿Cómo fue la vida como dramaturgo?"
+        ],
+        "era": "Siglo V a. C.",
+        "pain": "Fue acusado por sus propios hijos de intentar usurpar su propiedad, lo cual superó demostrando sus facultades mentales en la vejez. También navegó el turbulento panorama político de Atenas, presenciando su eventual declive.",
+        "recovery": "Sófocles superó estos desafíos a través de su sabiduría y sus incomparables logros artísticos. Su destreza dramática le valió un amplio reconocimiento y un profundo respeto de la ciudadanía ateniense."
+      },
+      "fr": {
+        "name": "Sophocle",
+        "title": "Grand Tragique de la Grèce Antique",
+        "headline": "Le Titan de la Tragédie",
+        "shortDescription": "L'un des trois grands tragiques d'Athènes, Sophocle a écrit plus de 120 pièces, dont sept nous sont parvenues. Ses œuvres explorent le destin humain et la volonté divine avec une profonde perspicacité.",
+        "quote": "Je dois parler des vivants, pas des morts.",
+        "chatGreeting": "Salut, étranger. Bienvenue dans mon théâtre. Si vous souhaitez discuter des épreuves de l'homme et des décrets du destin, je vous écouterai.",
+        "suggestedQuestions": [
+          "De quelle de vos pièces êtes-vous le plus fier ?",
+          "Que pensez-vous d'Œdipe ?",
+          "Quelle était votre vie d'auteur dramatique ?"
+        ],
+        "era": "Ve siècle av. J.-C.",
+        "pain": "Il fut accusé par ses propres fils de tentative d'usurpation de sa propriété, ce qu'il surmonta en démontrant ses facultés mentales à un âge avancé. Il navigua également le paysage politique tumultueux d'Athènes, assistant à son déclin final.",
+        "recovery": "Sophocle surmonta ces défis grâce à sa sagesse et à ses réalisations artistiques incomparables. Sa maîtrise dramatique lui valut une large reconnaissance et un profond respect de la part de la citoyenneté athénienne."
+      },
+      "it": {
+        "name": "Sofocle",
+        "title": "Grande Tragico della Grecia Antica",
+        "headline": "Il Titano della Tragedia",
+        "shortDescription": "Uno dei tre grandi tragici di Atene, Sofocle scrisse oltre 120 opere, di cui sette sono sopravvissute. Le sue opere esplorano il destino umano e la volontà divina con profonda perspicacia.",
+        "quote": "Devo parlare dei vivi, non dei morti.",
+        "chatGreeting": "Salve, straniero. Benvenuto nel mio teatro. Se desidera discutere le prove dell'uomo e i dettami del fato, le presterò ascolto.",
+        "suggestedQuestions": [
+          "Di quale delle sue opere è più orgoglioso?",
+          "Cosa pensa di Edipo?",
+          "Com'era la vita da drammaturgo?"
+        ],
+        "era": "V secolo a.C.",
+        "pain": "Fu accusato dai propri figli di aver tentato di usurpare la sua proprietà, cosa che superò dimostrando le sue facoltà mentali in età avanzata. Navigò anche il turbolento panorama politico di Atene, assistendo al suo declino finale.",
+        "recovery": "Sofocle superò queste sfide grazie alla sua saggezza e ai suoi incomparabili successi artistici. La sua abilità drammatica gli valse un ampio riconoscimento e un profondo rispetto da parte della cittadinanza ateniese."
+      },
+      "pt": {
+        "name": "Sófocles",
+        "title": "Grande Dramaturgo da Grécia Antiga",
+        "headline": "O Titã da Tragédia",
+        "shortDescription": "Um dos três grandes trágicos de Atenas, Sófocles escreveu mais de 120 peças, das quais sete sobreviveram. Suas obras exploram o destino humano e a vontade divina com profunda perspicácia.",
+        "quote": "Devo falar dos vivos, não dos mortos.",
+        "chatGreeting": "Salve, estrangeiro. Bem-vindo ao meu teatro. Se desejar discutir as provações do homem e os ditames do destino, ouvirei.",
+        "suggestedQuestions": [
+          "De qual de suas peças você mais se orgulha?",
+          "O que você pensa sobre Édipo?",
+          "Como era a vida de um dramaturgo?"
+        ],
+        "era": "Século V a.C.",
+        "pain": "Foi acusado pelos próprios filhos de tentar usurpar sua propriedade, o que superou demonstrando suas faculdades mentais na velhice. Ele também navegou pelo turbulento cenário político de Atenas, testemunhando seu eventual declínio.",
+        "recovery": "Sófocles superou esses desafios através de sua sabedoria e de suas incomparáveis conquistas artísticas. Sua destreza dramática lhe rendeu amplo reconhecimento e profundo respeito da cidadania ateniense."
+      },
+      "ar": {
+        "name": "سوفوكليس",
+        "title": "كاتب التراجيديا اليوناني العظيم",
+        "headline": "عملاق التراجيديا",
+        "shortDescription": "أحد أعظم ثلاثة كتاب مسرحيين في أثينا، كتب سوفوكليس أكثر من 120 مسرحية، بقيت منها سبع. تتعمق أعماله في المصير البشري والإرادة الإلهية ببصيرة عميقة.",
+        "quote": "يجب أن أتحدث عن الأحياء، لا عن الموتى.",
+        "chatGreeting": "أهلاً بك أيها الغريب. مرحباً بك في مسرحي. إذا كنت ترغب في مناقشة محن الإنسان ومقررات القدر، فسأصغي إليك.",
+        "suggestedQuestions": [
+          "ما هي مسرحياتك التي تفتخر بها أكثر؟",
+          "ما رأيك في أوديب؟",
+          "كيف كانت الحياة ككاتب مسرحي؟"
+        ],
+        "era": "القرن الخامس قبل الميلاد",
+        "pain": "واجه اتهامات من أبنائه بمحاولة الاستيلاء على ممتلكاته، وتغلب على ذلك بإثبات قدراته العقلية في شيخوخته. كما اجتاز المشهد السياسي المضطرب لأثينا، وشهد انحدارها النهائي.",
+        "recovery": "تغلب سوفوكليس على هذه التحديات بحكمته وإنجازاته الفنية التي لا مثيل لها. وقد أكسبته براعته الدرامية تقديراً واسعاً واحتراماً عميقاً من قبل المواطنين الأثينيين."
+      },
+      "hi": {
+        "name": "सोफोकल्स",
+        "title": "प्राचीन ग्रीस के महान नाटककार",
+        "headline": "त्रासदी के दिग्गज",
+        "shortDescription": "एथेंस के तीन महान त्रासदी लेखकों में से एक, सोफोकल्स ने 120 से अधिक नाटक लिखे, जिनमें से सात आज भी मौजूद हैं। उनके कार्य गहन अंतर्दृष्टि के साथ मानवीय भाग्य और दैवीय इच्छा में गहराई से उतरते हैं।",
+        "quote": "मुझे जीवित लोगों के बारे में बोलना चाहिए, मृतकों के बारे में नहीं।",
+        "chatGreeting": "अहो, अजनबी। मेरे रंगमंच में आपका स्वागत है। यदि आप मनुष्य के कष्टों और भाग्य के नियमों पर चर्चा करना चाहते हैं, तो मैं सुनूंगा।",
+        "suggestedQuestions": [
+          "आप अपने किस नाटक पर सबसे अधिक गर्व करते हैं?",
+          "ओडिपस के बारे में आपके क्या विचार हैं?",
+          "एक नाटककार के रूप में जीवन कैसा था?"
+        ],
+        "era": "ईसा पूर्व 5वीं शताब्दी",
+        "pain": "उन्हें अपने बेटों द्वारा उनकी संपत्ति हड़पने की कोशिश करने का आरोप लगाया गया था, जिसे उन्होंने वृद्धावस्था में अपनी मानसिक क्षमताओं का प्रदर्शन करके पार किया। उन्होंने एथेंस के अशांत राजनीतिक परिदृश्य को भी पार किया, और इसके अंतिम पतन का गवाह बने।",
+        "recovery": "सोफोकल्स ने अपनी बुद्धिमत्ता और अतुलनीय कलात्मक उपलब्धियों के माध्यम से इन चुनौतियों का सामना किया। उनकी नाटकीय निपुणता ने उन्हें व्यापक प्रशंसा और एथेनियन नागरिकों से गहरा सम्मान दिलाया।"
+      },
+      "ru": {
+        "name": "Софокл",
+        "title": "Великий драматург Древней Греции",
+        "headline": "Титан Трагедии",
+        "shortDescription": "Один из трех великих трагиков Афин, Софокл написал более 120 пьес, из которых семь сохранились до наших дней. Его произведения с глубоким пониманием исследуют человеческую судьбу и божественную волю.",
+        "quote": "Я должен говорить о живых, а не о мертвых.",
+        "chatGreeting": "Приветствую тебя, странник. Добро пожаловать в мой театр. Если желаешь обсудить испытания человека и предначертания судьбы, я выслушаю тебя.",
+        "suggestedQuestions": [
+          "Какой из ваших спектаклей вызывает у вас наибольшую гордость?",
+          "Что вы думаете об Эдипе?",
+          "Какова была жизнь драматурга?"
+        ],
+        "era": "V век до н. э.",
+        "pain": "Ему было предъявлено обвинение его собственными сыновьями в попытке узурпировать его имущество, которое он преодолел, продемонстрировав свои умственные способности в старости. Он также ориентировался в бурной политической жизни Афин, став свидетелем их окончательного упадка.",
+        "recovery": "Софокл справился с этими трудностями благодаря своей мудрости и непревзойденным художественным достижениям. Его драматическое мастерство принесло ему широкое признание и глубокое уважение афинских граждан."
+      },
+      "zh": {
+        "name": "索福克勒斯",
+        "title": "古希腊伟大的悲剧作家",
+        "headline": "悲剧巨匠",
+        "shortDescription": "作为雅典三大悲剧作家之一，索福克勒斯创作了120多部戏剧，其中7部流传至今。他的作品以深刻的洞察力探讨了人类命运和神谕。",
+        "quote": "我必须谈论活人，而不是死人。",
+        "chatGreeting": "啊，陌生人。欢迎来到我的剧场。如果你想讨论人类的苦难和命运的裁决，我将洗耳恭听。",
+        "suggestedQuestions": [
+          "您最引以为豪的作品是哪一部？",
+          "您对俄狄浦斯有何看法？",
+          "作为一名剧作家，您的生活是怎样的？"
+        ],
+        "era": "公元前5世纪",
+        "pain": "他曾被自己的儿子指控试图侵占他的财产，但他通过证明自己年老时的心智能力而克服了这一指控。他还经历了雅典动荡的政治格局，并目睹了其最终的衰落。",
+        "recovery": "索福克勒斯凭借他的智慧和无与伦比的艺术成就克服了这些挑战。他的戏剧才华赢得了广泛的赞誉和雅典公民的深切尊敬。"
+      }
+    },
+    "epic": {
+      "epic_ko": "### 1. 아테네의 빛나는 별\n\n기원전 497년경, 아테네 근교의 콜로노스에서 태어난 소포클레스는 귀족 가문의 자제로 태어나 풍족한 환경에서 교육받았습니다. 젊은 시절부터 뛰어난 재능을 보였던 그는 음악, 체조, 춤 등 다방면에 능했으며, 특히 비극 작가로서의 명성은 일찍부터 빛났습니다. 그는 아테네의 황금기를 이끌었던 페리클레스와 동시대를 살며, 펠로폰네소스 전쟁이라는 격동의 시기 속에서도 굴하지 않고 인간의 삶과 운명에 대한 깊이 있는 탐구를 이어갔습니다.\n\n### 2. 비극의 거장, 120편의 드라마\n\n소포클레스는 70여 년간의 창작 활동을 통해 120편 이상의 비극 작품을 남겼습니다. 그의 작품은 주로 신화와 영웅 이야기를 소재로 삼았지만, 단순한 옛이야기의 나열이 아닌, 인간의 고뇌, 도덕적 딜레마, 운명과의 갈등을 생생하게 그려냈습니다. '오이디푸스 왕', '안티고네', '콜로노스의 오이디푸스' 등 현존하는 7편의 작품만으로도 그는 고대 그리스 비극의 정점을 이루는 작가로 평가받습니다. 그는 극의 구조를 혁신하고 배우의 수를 늘리는 등 연극의 발전에 크게 기여했습니다.\n\n### 3. 인간의 운명과 신의 섭리\n\n소포클레스의 작품은 인간의 자유 의지와 신의 섭리 사이의 긴장감을 탐구합니다. 영웅들은 종종 자신들의 운명을 거스르려 하지만, 결국 피할 수 없는 결과에 직면하게 됩니다. 그는 인간의 나약함과 오류를 드러내면서도, 그 속에서 굴하지 않는 인간 정신의 위대함을 찬양했습니다. 그의 비극은 관객들에게 연민과 공포를 불러일으키며, 삶의 본질에 대한 깊은 성찰을 이끌어냈습니다.\n\n### 4. 삶의 고난과 예술적 승화\n\n소포클레스 역시 인간으로서 삶의 고난을 겪었습니다. 아들들에게 재산을 빼앗기려 한다는 고발을 당했을 때는, 자신의 정신적 능력을 증명하여 이를 극복했습니다. 또한, 정치적 격변과 전쟁의 혼란 속에서도 그는 예술에 대한 열정을 잃지 않았습니다. 그의 작품은 이러한 삶의 경험을 바탕으로 더욱 깊어졌으며, 후대에 길이 남을 불멸의 걸작으로 승화되었습니다. 그는 기원전 406년경, 90세의 나이로 생을 마감했습니다.",
+      "epic_en": "### 1. A Shining Star of Athens\n\nBorn around 497 BC in Colonus, near Athens, Sophocles hailed from an affluent family, receiving a comprehensive education. From a young age, he displayed remarkable talent in music, gymnastics, and dance. His renown as a tragedian quickly blossomed. He lived contemporaneously with Pericles, a leader during Athens' Golden Age, and despite the turbulent era of the Peloponnesian War, he steadfastly pursued profound explorations of human life and destiny.\n\n### 2. Master of Tragedy, 120 Dramas\n\nIn his creative career spanning over 70 years, Sophocles left behind more than 120 tragic works. While his plays often drew from myths and heroic tales, they were not mere recitations of ancient stories. Instead, they vividly portrayed human anguish, moral dilemmas, and conflicts with fate. With just seven surviving plays, including 'Oedipus Rex,' 'Antigone,' and 'Oedipus at Colonus,' he is regarded as the pinnacle of ancient Greek tragedy. He significantly contributed to the development of theatre by innovating dramatic structure and increasing the number of actors.\n\n### 3. Human Fate and Divine Will\n\nSophocles' works explore the tension between human free will and divine providence. His heroes often strive against their predetermined destinies, only to ultimately face unavoidable consequences. While revealing human frailty and error, he also celebrated the greatness of the human spirit that perseveres. His tragedies evoked pity and fear in audiences, leading to deep contemplation on the essence of life.\n\n### 4. Life's Hardships and Artistic Transcendance\n\nSophocles, too, experienced life's hardships. He faced accusations from his sons of attempting to usurp his inheritance, a challenge he overcame by demonstrating his mental faculties in his old age. Amidst political upheaval and the chaos of war, he never lost his passion for art. His works deepened, informed by these life experiences, and were sublimated into immortal masterpieces that would endure for generations. He passed away around 406 BC, at the age of ninety.",
+      "epic_de": "### 1. Ein strahlender Stern Athens\n\nGeboren um 497 v. Chr. in Kolonos bei Athen, stammte Sophokles aus einer wohlhabenden Familie und erhielt eine umfassende Ausbildung. Schon in jungen Jahren zeigte er bemerkenswerte Talente in Musik, Gymnastik und Tanz. Sein Ruhm als Tragödiendichter erblühte schnell. Er lebte zeitgleich mit Perikles, einem Führer des Goldenen Zeitalters Athens, und trotz der turbulenten Zeit des Peloponnesischen Krieges verfolgte er unbeirrt tiefgründige Erkundungen des menschlichen Lebens und Schicksals.\n\n### 2. Meister der Tragödie, 120 Dramen\n\nIn seiner über 70 Jahre währenden Schaffensperiode hinterließ Sophokles mehr als 120 tragische Werke. Während seine Stücke oft von Mythen und Heldengeschichten inspiriert waren, waren sie keine bloßen Wiederholungen alter Erzählungen. Stattdessen stellten sie menschliche Qualen, moralische Dilemmata und Konflikte mit dem Schicksal lebendig dar. Allein mit seinen sieben erhaltenen Stücken, darunter 'König Ödipus', 'Antigone' und 'Ödipus auf Kolonos', gilt er als Höhepunkt der antiken griechischen Tragödie. Er trug maßgeblich zur Entwicklung des Theaters bei, indem er die dramatische Struktur innovierte und die Anzahl der Schauspieler erhöhte.\n\n### 3. Menschliches Schicksal und göttlicher Wille\n\nDie Werke des Sophokles erforschen die Spannung zwischen menschlichem freien Willen und göttlicher Vorsehung. Seine Helden kämpfen oft gegen ihr vorherbestimmtes Schicksal, nur um letztendlich unausweichlichen Konsequenzen gegenüberzustehen. Während er menschliche Schwäche und Fehler aufdeckte, pries er auch die Größe des menschlichen Geistes, der durchhält.\n\n### 4. Lebensprüfungen und künstlerische Transzendenz\n\nSophokles selbst erlebte die Härten des Lebens. Er sah sich Anschuldigungen seiner Söhne gegenüber, die versuchten, sein Erbe an sich zu reißen, eine Herausforderung, die er durch den Nachweis seiner geistigen Fähigkeiten im Alter meisterte. Inmitten politischer Umwälzungen und des Krieges verlor er nie seine Leidenschaft für die Kunst. Seine Werke vertieften sich, angereichert durch diese Lebenserfahrungen, und wurden zu unsterblichen Meisterwerken sublimiert, die Generationen überdauern sollten. Er starb um 406 v. Chr. im Alter von neunzig Jahren.",
+      "epic_ja": "### 1. アテナイの輝ける星\n\n紀元前497年頃、アテナイ近郊のコロノスで生まれたソフォクレスは、裕福な家庭に生まれ、恵まれた環境で教育を受けました。若い頃から並外れた才能を示し、音楽、体操、踊りに長け、特に悲劇作家としての名声は早くから輝きを放っていました。アテナイの黄金時代を築いたペリクレスと同時代に生き、ペロポネソス戦争という激動の時代にあっても、人間とその運命についての深い探求を粘り強く続けました。\n\n### 2. 悲劇の巨匠、120篇のドラマ\n\nソフォクレスは70年以上にわたる創作活動を通じて、120篇以上の悲劇作品を残しました。彼の作品はしばしば神話や英雄物語を題材としましたが、単なる昔話の羅列ではなく、人間の苦悩、道徳的ジレンマ、運命との葛藤を鮮やかに描き出しました。『オイディプス王』、『アンティゴネー』、『コロノスのオイディプス』など、現存する7篇だけでも、彼は古代ギリシャ悲劇の頂点をなす作家と評価されています。彼は劇の構造を革新し、俳優の数を増やすなど、演劇の発展に大きく貢献しました。\n\n### 3. 人間の運命と神の摂理\n\nソフォクレスの作品は、人間の自由意志と神の摂理との間の緊張関係を探求しています。英雄たちはしばしば定められた運命に抗おうとしますが、最終的には避けられない結果に直面します。彼は人間の弱さや過ちを露呈させながらも、その中で屈しない人間の精神の偉大さを称賛しました。彼の悲劇は観客に憐憫と恐怖を呼び起こし、人生の本質についての深い省察を促しました。\n\n### 4. 人生の苦難と芸術的昇華\n\nソフォクレス自身も人間として人生の苦難を経験しました。息子たちから財産を奪おうとしたという訴えを受けた際は、自身の精神能力を証明することでそれを乗り越えました。また、政治的激動や戦争の混乱の中でも、彼は芸術への情熱を失いませんでした。彼の作品は、こうした人生経験を基にさらに深まり、後世に長く語り継がれる不滅の傑作へと昇華されました。彼は紀元前406年頃、90歳で生涯を閉じました。",
+      "epic_es": "### 1. Una Estrella Brillante de Atenas\n\nNacido alrededor del 497 a.C. en Colonus, cerca de Atenas, Sófocles provenía de una familia acomodada, recibiendo una educación integral. Desde joven, mostró un notable talento para la música, la gimnasia y la danza. Su renombre como trágico floreció rápidamente. Vivió contemporáneamente con Pericles, un líder de la Edad de Oro de Atenas, y a pesar de la turbulenta era de la Guerra del Peloponeso, persiguió inquebrantablemente profundas exploraciones de la vida y el destino humanos.\n\n### 2. Maestro de la Tragedia, 120 Dramas\n\nEn su carrera creativa de más de 70 años, Sófocles dejó más de 120 obras trágicas. Si bien sus obras a menudo se inspiraron en mitos e historias heroicas, no fueron meras recitaciones de antiguas narraciones. En cambio, retrataron vívidamente la angustia humana, los dilemas morales y los conflictos con el destino. Solo con sus siete obras conservadas, incluidas 'Edipo Rey', 'Antígona' y 'Edipo en Colonos', es considerado la cúspide de la tragedia griega antigua. Contribuyó significativamente al desarrollo del teatro al innovar la estructura dramática y aumentar el número de actores.\n\n### 3. Destino Humano y Voluntad Divina\n\nLas obras de Sófocles exploran la tensión entre el libre albedrío humano y la providencia divina. Sus héroes a menudo luchan contra sus destinos predeterminados, solo para enfrentar finalmente consecuencias inevitables. Si bien reveló la fragilidad y los errores humanos, también celebró la grandeza del espíritu humano que persevera.\n\n### 4. Dificultades de la Vida y Trascendencia Artística\n\nEl propio Sófocles experimentó las dificultades de la vida. Se enfrentó a acusaciones de sus hijos de intentar usurpar su herencia, un desafío que superó demostrando sus facultades mentales en la vejez. En medio de la agitación política y el caos de la guerra, nunca perdió su pasión por el arte. Sus obras se profundizaron, informadas por estas experiencias vitales, y se sublimaron en obras maestras inmortales que perdurarían por generaciones. Murió alrededor del 406 a.C., a la edad de noventa años.",
+      "epic_fr": "### 1. Une Étoile Brillante d'Athènes\n\nNé vers 497 av. J.-C. à Colonus, près d'Athènes, Sophocle venait d'une famille aisée, recevant une éducation complète. Dès son plus jeune âge, il a montré des talents remarquables en musique, gymnastique et danse. Sa renommée de tragique s'est rapidement épanouie. Il a vécu à la même époque que Périclès, un leader de l'âge d'or d'Athènes, et malgré l'époque turbulente de la guerre du Péloponnèse, il a poursuivi sans relâche des explorations profondes de la vie et du destin humains.\n\n### 2. Maître de la Tragédie, 120 Drames\n\nAu cours de sa carrière créative de plus de 70 ans, Sophocle a laissé plus de 120 œuvres tragiques. Si ses pièces s'inspiraient souvent de mythes et d'histoires héroïques, elles n'étaient pas de simples récitations d'anciennes narrations. Au contraire, elles dépeignaient avec vivacité l'angoisse humaine, les dilemmes moraux et les conflits avec le destin. Avec seulement sept pièces survivantes, dont 'Œdipe Roi', 'Antigone' et 'Œdipe à Colone', il est considéré comme le summum de la tragédie grecque antique. Il a contribué de manière significative au développement du théâtre en innovant la structure dramatique et en augmentant le nombre d'acteurs.\n\n### 3. Destin Humain et Volonté Divine\n\nLes œuvres de Sophocle explorent la tension entre le libre arbitre humain et la providence divine. Ses héros luttent souvent contre leur destin prédéterminé, pour finalement faire face à des conséquences inévitables. Tout en révélant la fragilité et les erreurs humaines, il a également célébré la grandeur de l'esprit humain qui persévère.\n\n### 4. Difficultés de la Vie et Transcendance Artistique\n\nSophocle lui-même a connu les difficultés de la vie. Il a été accusé par ses fils de tenter d'usurper son héritage, un défi qu'il a surmonté en démontrant ses facultés mentales à un âge avancé. Au milieu des bouleversements politiques et du chaos de la guerre, il n'a jamais perdu sa passion pour l'art. Ses œuvres se sont approfondies, nourries par ces expériences de vie, et ont été sublimées en chefs-d'œuvre immortels qui perdureraient pendant des générations. Il est décédé vers 406 av. J.-C., à l'âge de quatre-vingt-dix ans.",
+      "epic_it": "### 1. Una Stella Splendente di Atene\n\nNato intorno al 497 a.C. a Colono, vicino ad Atene, Sofocle proveniva da una famiglia benestante, ricevendo un'educazione completa. Fin dalla giovane età, mostrò talenti notevoli nella musica, ginnastica e danza. La sua fama di tragico fiorì rapidamente. Visse contemporaneamente a Pericle, un leader dell'età d'oro di Atene, e nonostante l'epoca turbolenta della Guerra del Peloponneso, perseguì instancabilmente profonde esplorazioni della vita e del destino umano.\n\n### 2. Maestro della Tragedia, 120 Drammi\n\nNella sua carriera creativa durata oltre 70 anni, Sofocle lasciò più di 120 opere tragiche. Mentre le sue opere spesso attingevano a miti e storie eroiche, non erano semplici recitazioni di antiche narrazioni. Al contrario, ritraevano vividamente l'angoscia umana, i dilemmi morali e i conflitti con il destino. Con sole sette opere sopravvissute, tra cui 'Edipo Re', 'Antigone' e 'Edipo a Colono', è considerato l'apice della tragedia greca antica. Contribuì in modo significativo allo sviluppo del teatro innovando la struttura drammatica e aumentando il numero di attori.\n\n### 3. Destino Umano e Volontà Divina\n\nLe opere di Sofocle esplorano la tensione tra il libero arbitrio umano e la provvidenza divina. I suoi eroi spesso lottano contro i loro destini predeterminati, solo per affrontare infine conseguenze inevitabili. Pur rivelando la fragilità e gli errori umani, celebrò anche la grandezza dello spirito umano che persevera.\n\n### 4. Difficoltà della Vita e Trascendenza Artistica\n\nSofocle stesso sperimentò le difficoltà della vita. Affrontò accuse dai suoi figli di tentare di usurpare la sua eredità, una sfida che superò dimostrando le sue facoltà mentali in età avanzata. In mezzo ai tumulti politici e al caos della guerra, non perse mai la sua passione per l'arte. Le sue opere si approfondirono, informate da queste esperienze di vita, e furono sublimate in immortali capolavori che sarebbero durati per generazioni. Morì intorno al 406 a.C., all'età di novant'anni.",
+      "epic_pt": "### 1. Uma Estrela Brilhante de Atenas\n\nNascido por volta de 497 a.C. em Colonus, perto de Atenas, Sófocles era de uma família abastada, recebendo uma educação completa. Desde jovem, mostrou talentos notáveis em música, ginástica e dança. Sua fama como trágico floresceu rapidamente. Ele viveu contemporaneamente a Péricles, um líder da Era de Ouro de Atenas, e apesar da turbulenta era da Guerra do Peloponeso, ele perseguiu incansavelmente profundas explorações da vida e do destino humanos.\n\n### 2. Mestre da Tragédia, 120 Dramas\n\nEm sua carreira criativa de mais de 70 anos, Sófocles deixou mais de 120 obras trágicas. Embora suas peças muitas vezes se inspirassem em mitos e histórias heroicas, elas não eram meras recitações de narrativas antigas. Em vez disso, retratavam vividamente a angústia humana, os dilemas morais e os conflitos com o destino. Com apenas sete peças sobreviventes, incluindo 'Édipo Rei', 'Antígona' e 'Édipo em Colono', ele é considerado o auge da tragédia grega antiga. Ele contribuiu significativamente para o desenvolvimento do teatro ao inovar a estrutura dramática e aumentar o número de atores.\n\n### 3. Destino Humano e Vontade Divina\n\nAs obras de Sófocles exploram a tensão entre o livre arbítrio humano e a providência divina. Seus heróis muitas vezes lutam contra seus destinos predeterminados, apenas para enfrentar inevitavelmente consequências. Ao revelar a fragilidade e os erros humanos, ele também celebrou a grandeza do espírito humano que persevera.\n\n### 4. Dificuldades da Vida e Transcendência Artística\n\nO próprio Sófocles experimentou as dificuldades da vida. Ele enfrentou acusações de seus filhos de tentar usurpar sua herança, um desafio que superou demonstrando suas faculdades mentais na velhice. Em meio à agitação política e ao caos da guerra, ele nunca perdeu sua paixão pela arte. Suas obras se aprofundaram, informadas por essas experiências de vida, e foram sublimadas em obras-primas imortais que durariam por gerações. Ele faleceu por volta de 406 a.C., aos noventa anos de idade.",
+      "epic_ar": "### 1. نجمة أثينا الساطعة\n\nولد سوفوكليس حوالي عام 497 قبل الميلاد في كولونوس بالقرب من أثينا، ونشأ في عائلة ثرية، وتلقى تعليمًا شاملاً. منذ صغره، أظهر مواهب ملحوظة في الموسيقى والجمباز والرقص. سرعان ما ازدهرت شهرته ككاتب تراجيدي. عاش في نفس الفترة مع بريكليس، أحد قادة العصر الذهبي لأثينا، وعلى الرغم من العصر المضطرب لحرب البيلوبونيز، فقد واصل بلا هوادة استكشافات عميقة للحياة والمصير البشري.\n\n### 2. سيد التراجيديا، 120 مسرحية\n\nفي مسيرته الإبداعية التي امتدت لأكثر من 70 عامًا، ترك سوفوكليس أكثر من 120 عملًا تراجيديًا. في حين أن مسرحياته غالبًا ما استلهمت من الأساطير والحكايات البطولية، إلا أنها لم تكن مجرد تلاوات للسرد القديم. بدلاً من ذلك، صورت ببراعة الألم البشري والمعضلات الأخلاقية والصراعات مع القدر. بسبع مسرحيات باقية فقط، بما في ذلك 'الملك أوديب' و'أنتيجوني' و'أوديب في كولونوس'، يُعتبر قمة التراجيديا اليونانية القديمة. لقد ساهم بشكل كبير في تطوير المسرح من خلال ابتكار البنية الدرامية وزيادة عدد الممثلين.\n\n### 3. المصير البشري والإرادة الإلهية\n\nتستكشف أعمال سوفوكليس التوتر بين الإرادة الحرة البشرية والعناية الإلهية. غالبًا ما يكافح أبطاله ضد مصائرهم المحددة مسبقًا، ليواجهوا في النهاية عواقب لا مفر منها. بينما كشف عن ضعف الإنسان وأخطائه، احتفى أيضًا بعظمة الروح البشرية التي تتغلب.\n\n### 4. صعوبات الحياة والتسامي الفني\n\nعانى سوفوكليس نفسه من صعوبات الحياة. واجه اتهامات من أبنائه بمحاولة الاستيلاء على ميراثه، وهو تحدٍ تغلب عليه بإثبات قدراته العقلية في شيخوخته. في خضم الاضطرابات السياسية وفوضى الحرب، لم يفقد شغفه بالفن أبدًا. تعمقت أعماله، مستنيرة بهذه التجارب الحياتية، وتسامت إلى روائع خالدة ستدوم لأجيال. توفي حوالي عام 406 قبل الميلاد، عن عمر يناهز التسعين عامًا.",
+      "epic_hi": "### 1. एथेंस का एक चमकता सितारा\n\nलगभग 497 ईसा पूर्व एथेंस के पास कोलोनस में जन्मे, सोफोकल्स एक संपन्न परिवार से थे, जिन्हें व्यापक शिक्षा मिली। कम उम्र से ही, उन्होंने संगीत, जिमनास्टिक और नृत्य में उल्लेखनीय प्रतिभा दिखाई। एक त्रासदी लेखक के रूप में उनकी प्रसिद्धि जल्दी ही खिल उठी। वह एथेंस के स्वर्ण युग के नेता पेरिकल्स के समकालीन थे, और पेलोपोनेसियन युद्ध के अशांत काल के बावजूद, उन्होंने मानव जीवन और भाग्य की गहन खोजों को दृढ़ता से जारी रखा।\n\n### 2. त्रासदी का स्वामी, 120 नाटक\n\n70 से अधिक वर्षों के अपने रचनात्मक करियर में, सोफोकल्स ने 120 से अधिक दुखद कृतियों को पीछे छोड़ दिया। जबकि उनके नाटकों ने अक्सर मिथकों और वीर कहानियों से प्रेरणा ली, वे प्राचीन कथाओं का केवल पाठ नहीं थे। इसके बजाय, उन्होंने मानवीय पीड़ा, नैतिक दुविधाओं और भाग्य के साथ संघर्षों को स्पष्ट रूप से चित्रित किया। 'ओडिपस रेक्स', 'एंटीगोन' और 'ओडिपस एट कोलोनस' सहित केवल सात जीवित नाटकों के साथ, उन्हें प्राचीन ग्रीक त्रासदी का शिखर माना जाता है। उन्होंने नाटकीय संरचना को नया करके और अभिनेताओं की संख्या बढ़ाकर रंगमंच के विकास में महत्वपूर्ण योगदान दिया।\n\n### 3. मानवीय भाग्य और दैवीय इच्छा\n\nसोफोकल्स के कार्य मानवीय स्वतंत्र इच्छा और दैवीय प्रावधान के बीच के तनाव का पता लगाते हैं। उनके नायक अक्सर अपने पूर्वनिर्धारित भाग्य के खिलाफ संघर्ष करते हैं, केवल अंततः अपरिहार्य परिणामों का सामना करने के लिए। मानवीय दुर्बलता और त्रुटियों को प्रकट करते हुए, उन्होंने उस मानव आत्मा की महानता का भी जश्न मनाया जो बनी रहती है। उनकी त्रासदियों ने दर्शकों में करुणा और भय पैदा किया, जिससे जीवन के सार पर गहरा चिंतन हुआ।\n\n### 4. जीवन की कठिनाइयाँ और कलात्मक उत्कृष्टता\n\nसोफोकल्स ने स्वयं जीवन की कठिनाइयों का अनुभव किया। उन्हें अपने बेटों द्वारा उनकी विरासत को हड़पने की कोशिश करने का आरोप लगाया गया था, एक ऐसी चुनौती जिसे उन्होंने बुढ़ापे में अपनी मानसिक क्षमताओं का प्रदर्शन करके पार किया। राजनीतिक उथल-पुथल और युद्ध के अराजकता के बीच, उन्होंने कला के प्रति अपने जुनून को कभी नहीं खोया। इन जीवन के अनुभवों से सूचित होकर उनके कार्य गहरे हुए, और पीढ़ियों तक चलने वाली अमर उत्कृष्ट कृतियों में बदल गए। उनका निधन लगभग 406 ईसा पूर्व, नब्बे वर्ष की आयु में हुआ।",
+      "epic_ru": "### 1. Сияющая Звезда Афин\n\nСофокл родился около 497 г. до н.э. в Колоне, недалеко от Афин, происходил из состоятельной семьи и получил всестороннее образование. С юных лет он проявлял выдающиеся таланты в музыке, гимнастике и танцах. Его слава трагика быстро расцвела. Он жил одновременно с Периклом, лидером Золотого века Афин, и, несмотря на бурную эпоху Пелопоннесской войны, неуклонно продолжал глубокие исследования человеческой жизни и судьбы.\n\n### 2. Мастер Трагедии, 120 Драм\n\nЗа свою творческую карьеру, охватывающую более 70 лет, Софокл оставил более 120 трагических произведений. В то время как его пьесы часто черпали вдохновение из мифов и героических сказаний, они не были простыми пересказами древних историй. Вместо этого они ярко изображали человеческие страдания, моральные дилеммы и конфликты с судьбой. Всего по семи сохранившимся пьесам, включая «Царь Эдип», «Антигона» и «Эдип в Колоне», он считается вершиной древнегреческой трагедии. Он внес значительный вклад в развитие театра, новаторски подойдя к драматической структуре и увеличив количество актеров.\n\n### 3. Человеческая Судьба и Божественная Воля\n\nПроизведения Софокла исследуют напряжение между человеческой свободой воли и божественным провидением. Его герои часто борются против своей предопределенной судьбы, только чтобы в конечном итоге столкнуться с неизбежными последствиями. Раскрывая человеческую слабость и ошибки, он также прославлял величие человеческого духа, который проявляет стойкость.\n\n### 4. Жизненные Трудности и Художественное Преображение\n\nСам Софокл испытал жизненные трудности. Ему было предъявлено обвинение его собственными сыновьями в попытке узурпировать его наследство, вызов, который он преодолел, продемонстрировав свои умственные способности в старости. Среди политических потрясений и хаоса войны он никогда не терял своей страсти к искусству. Его произведения углублялись, подпитываемые этим жизненным опытом, и трансформировались в бессмертные шедевры, которые переживут поколения. Он скончался около 406 г. до н.э. в возрасте девяноста лет.",
+      "epic_zh": "### 1. 雅典的璀璨明星\n\n索福克勒斯约于公元前497年出生在雅典附近的科洛诺斯，他出身于一个富裕的家庭，接受了全面的教育。他从小就展现出卓越的音乐、体操和舞蹈才能。作为悲剧作家的声誉很快就显现出来。他与雅典黄金时代的领导者伯里克利生活在同一时代，尽管经历了伯罗奔尼撒战争的动荡时期，他仍然坚定不移地对人类生活和命运进行了深刻的探索。\n\n### 2. 悲剧大师，120部戏剧\n\n在他超过70年的创作生涯中，索福克勒斯留下了120多部悲剧作品。虽然他的戏剧常常取材于神话和英雄故事，但它们并非仅仅是对古老叙事的复述。相反，它们生动地描绘了人类的痛苦、道德困境以及与命运的冲突。仅凭现存的七部作品，包括《俄狄浦斯王》、《安提戈涅》和《科洛诺斯的俄狄浦斯》，他就被认为是古希腊悲剧的巅峰。他通过创新戏剧结构和增加演员数量，为戏剧的发展做出了重要贡献。\n\n### 3. 人类命运与神谕\n\n索福克勒斯的剧作探讨了人类自由意志与神圣天意之间的张力。他的英雄们常常奋力反抗预定的命运，最终却不得不面对不可避免的后果。在揭示人类的脆弱和错误的同时，他也赞美了坚韧不拔的人类精神的伟大。\n\n### 4. 生活的艰辛与艺术的超越\n\n索福克勒斯本人也经历了生活的艰辛。他曾被自己的儿子指控试图侵占他的财产，但他通过在晚年证明自己的心智能力而克服了这一挑战。在政治动荡和战争的混乱中，他从未失去对艺术的热情。这些生活经历使他的作品更加深刻，并升华为将流传后世的不朽杰作。他于公元前406年左右去世，享年九十岁。",
+      "trials_ko": "아들들에게 재산을 빼앗기려 했다는 고발, 정치적 격변기 속에서의 활동, 전쟁으로 인한 사회적 혼란.",
+      "trials_en": "Accusations from his sons of attempting to usurp his property, navigating tumultuous political periods, and experiencing social upheaval due to war.",
+      "overcoming_ko": "노령에도 불구하고 정신적 능력을 증명하여 고발을 극복함. 예술에 대한 끊임없는 열정과 깊이 있는 작품 창작을 통해 삶의 어려움을 승화시킴.",
+      "overcoming_en": "Demonstrating his mental faculties in old age to overcome accusations; sublimating life's difficulties through unwavering passion for art and the creation of profound works.",
+      "wisdom": [
+        {
+          "quote_ko": "죽은 자가 아니라 살아 있는 자에 대해 말해야 한다.",
+          "quote_en": "I must speak of those who are alive, not of the dead.",
+          "meaning_ko": "현재 살아있는 사람들의 삶과 문제에 집중해야 한다는 의미입니다.",
+          "meaning_en": "This signifies the importance of focusing on the lives and issues of those currently living."
+        },
+        {
+          "quote_ko": "가장 큰 행복은 지혜를 얻는 것이다.",
+          "quote_en": "The greatest happiness is to be wise.",
+          "meaning_ko": "지혜를 얻는 것이 인간이 누릴 수 있는 최고의 행복임을 강조합니다.",
+          "meaning_en": "This emphasizes that acquiring wisdom is the highest form of happiness humans can achieve."
+        },
+        {
+          "quote_ko": "인간이 겪는 가장 큰 고통은 자신의 의지에 반하여 일어나는 일이다.",
+          "quote_en": "The greatest suffering of man is that which happens against his will.",
+          "meaning_ko": "자신의 의지와 상관없이 발생하는 사건들이 인간에게 가장 큰 고통을 준다는 의미입니다.",
+          "meaning_en": "This means that events occurring against one's will cause the greatest suffering to humans."
+        }
+      ]
+    },
+    "category": "arts"
+  },
+  "euclid": {
+    "messages": {
+      "ko": {
+        "name": "유클리드",
+        "title": "기하학의 아버지",
+        "headline": "기하학의 아버지",
+        "shortDescription": "고대 그리스의 수학자로, 그의 저서 '원론'은 서양 수학의 기초를 다졌습니다. 기하학적 논증과 공리를 통해 수학적 사고의 틀을 세웠습니다.",
+        "quote": "정의와 공리가 명확하다면, 그로부터 파생되는 모든 정리는 필연적으로 참이 된다.",
+        "chatGreeting": "안녕하세요. 저는 유클리드라고 합니다. 기하학의 세계에 대해 궁금한 점이 있으신가요? 함께 논리적인 탐구를 시작해 봅시다.",
+        "suggestedQuestions": [
+          "유클리드 기하학이란 무엇인가요?",
+          "'원론'은 어떤 내용을 담고 있나요?",
+          "당신이 살았던 시대의 수학은 어떠했나요?"
+        ],
+        "era": "기원전 4세기 ~ 3세기",
+        "pain": "수학적 진리를 체계화하는 과정에서 동시대 학자들의 비판이나 이해 부족에 직면했을 수 있습니다. 또한, 그의 생애에 대한 기록이 매우 부족하여 개인적인 고난을 파악하기 어렵습니다.",
+        "recovery": "유클리드는 엄밀한 논증과 공리 체계를 통해 이러한 어려움을 극복했습니다. 그의 저서 '원론'은 수천 년간 수학 교육의 표준이 되었으며, 그의 논리적 사고방식은 후대에 큰 영향을 미쳤습니다."
+      },
+      "en": {
+        "name": "Euclid",
+        "title": "Father of Geometry",
+        "headline": "Father of Geometry",
+        "shortDescription": "An ancient Greek mathematician, his work 'Elements' laid the foundation for Western mathematics. He established the framework for mathematical thought through geometric proofs and axioms.",
+        "quote": "He who has the words of Archimedes and has proved all that Archimedes has proved, and is a good man, he is not far from the kingdom of heaven.",
+        "chatGreeting": "Greetings. I am Euclid. Do you have inquiries about the realm of geometry? Let us embark on a logical exploration together.",
+        "suggestedQuestions": [
+          "What is Euclidean geometry?",
+          "What does 'Elements' contain?",
+          "What was mathematics like in your era?"
+        ],
+        "era": "4th - 3rd Century BC",
+        "pain": "The process of systematizing mathematical truths might have led to criticism or misunderstanding from contemporaries. Furthermore, the scarcity of biographical records makes it difficult to ascertain personal hardships.",
+        "recovery": "Euclid overcame these challenges through rigorous proofs and an axiomatic system. His treatise 'Elements' became the standard for mathematical education for millennia, and his logical approach profoundly influenced posterity."
+      },
+      "ja": {
+        "name": "ユークリッド",
+        "title": "幾何学の父",
+        "headline": "幾何学の父",
+        "shortDescription": "古代ギリシャの数学者であり、その著書『原論』は西洋数学の基礎を築きました。公理と証明を通じて数学的思考の枠組みを確立しました。",
+        "quote": "定義と公理が明確であれば、そこから導き出されるすべての命題は必然的に真となる。",
+        "chatGreeting": "こんにちは。私はユークリッドです。幾何学の世界について何かご質問はありますか？一緒に論理的な探求を始めましょう。",
+        "suggestedQuestions": [
+          "ユークリッド幾何学とは何ですか？",
+          "『原論』にはどのような内容が書かれていますか？",
+          "あなたが活躍した時代の数学はどのようなものでしたか？"
+        ],
+        "era": "紀元前4世紀～3世紀",
+        "pain": "数学的真理を体系化する過程で、同時代の学者からの批判や理解不足に直面した可能性があります。また、彼の生涯に関する記録が非常に乏しく、個人的な苦難を把握することは困難です。",
+        "recovery": "ユークリッドは、厳密な証明と公理体系によってこれらの困難を克服しました。『原論』は何千年もの間、数学教育の標準となり、彼の論理的思考法は後世に大きな影響を与えました。"
+      },
+      "de": {
+        "name": "Euklid",
+        "title": "Vater der Geometrie",
+        "headline": "Vater der Geometrie",
+        "shortDescription": "Ein antiker griechischer Mathematiker, dessen Werk 'Elemente' das Fundament der westlichen Mathematik legte. Er schuf den Rahmen für das mathematische Denken durch geometrische Beweise und Axiome.",
+        "quote": "Wer die Worte von Archimedes hat und alles bewiesen hat, was Archimedes bewiesen hat, und ein guter Mensch ist, der ist nicht weit vom Himmelreich entfernt.",
+        "chatGreeting": "Seien Sie gegrüßt. Ich bin Euklid. Haben Sie Fragen zur Welt der Geometrie? Lassen Sie uns gemeinsam eine logische Erkundung beginnen.",
+        "suggestedQuestions": [
+          "Was ist die Euklidische Geometrie?",
+          "Was enthält 'Elemente'?",
+          "Wie war die Mathematik in Ihrer Zeit?"
+        ],
+        "era": "4. - 3. Jahrhundert v. Chr.",
+        "pain": "Der Prozess der Systematisierung mathematischer Wahrheiten könnte zu Kritik oder Missverständnissen von Zeitgenossen geführt haben. Darüber hinaus erschwert die Knappheit biografischer Aufzeichnungen die Ermittlung persönlicher Härten.",
+        "recovery": "Euklid überwand diese Herausforderungen durch strenge Beweise und ein axiomatisches System. Seine Abhandlung 'Elemente' wurde jahrtausendelang zum Standard der mathematischen Ausbildung, und sein logischer Ansatz beeinflusste die Nachwelt tiefgreifend."
+      },
+      "es": {
+        "name": "Euclides",
+        "title": "Padre de la Geometría",
+        "headline": "Padre de la Geometría",
+        "shortDescription": "Un matemático griego antiguo, cuya obra 'Los Elementos' sentó las bases de las matemáticas occidentales. Estableció el marco del pensamiento matemático a través de demostraciones y axiomas geométricos.",
+        "quote": "Quien tiene las palabras de Arquímedes y ha demostrado todo lo que Arquímedes ha demostrado, y es un buen hombre, no está lejos del reino de los cielos.",
+        "chatGreeting": "Saludos. Soy Euclides. ¿Tiene alguna pregunta sobre el mundo de la geometría? Emprendamos juntos una exploración lógica.",
+        "suggestedQuestions": [
+          "¿Qué es la geometría euclidiana?",
+          "¿Qué contiene 'Los Elementos'?",
+          "¿Cómo eran las matemáticas en su época?"
+        ],
+        "era": "Siglo IV - III a.C.",
+        "pain": "El proceso de sistematización de las verdades matemáticas podría haber generado críticas o malentendidos por parte de sus contemporáneos. Además, la escasez de registros biográficos dificulta la identificación de dificultades personales.",
+        "recovery": "Euclides superó estos desafíos mediante rigurosas demostraciones y un sistema axiomático. Su tratado 'Los Elementos' se convirtió en el estándar de la educación matemática durante milenios, y su enfoque lógico influyó profundamente en la posteridad."
+      },
+      "fr": {
+        "name": "Euclide",
+        "title": "Père de la Géométrie",
+        "headline": "Père de la Géométrie",
+        "shortDescription": "Un mathématicien grec antique, dont l'œuvre 'Les Éléments' a jeté les bases des mathématiques occidentales. Il a établi le cadre de la pensée mathématique par des preuves et des axiomes géométriques.",
+        "quote": "Celui qui a les mots d'Archimède et a prouvé tout ce qu'Archimède a prouvé, et est un homme bon, n'est pas loin du royaume des cieux.",
+        "chatGreeting": "Salutations. Je suis Euclide. Avez-vous des questions sur le domaine de la géométrie ? Commençons ensemble une exploration logique.",
+        "suggestedQuestions": [
+          "Qu'est-ce que la géométrie euclidienne ?",
+          "Que contient 'Les Éléments' ?",
+          "Comment étaient les mathématiques à votre époque ?"
+        ],
+        "era": "IVe - IIIe siècle av. J.-C.",
+        "pain": "Le processus de systématisation des vérités mathématiques a pu entraîner des critiques ou des incompréhensions de la part de ses contemporains. De plus, la rareté des archives biographiques rend difficile la détermination des épreuves personnelles.",
+        "recovery": "Euclide a surmonté ces difficultés grâce à des démonstrations rigoureuses et à un système axiomatique. Son traité 'Les Éléments' est devenu la norme de l'enseignement mathématique pendant des millénaires, et son approche logique a profondément influencé la postérité."
+      },
+      "it": {
+        "name": "Euclide",
+        "title": "Padre della Geometria",
+        "headline": "Padre della Geometria",
+        "shortDescription": "Un antico matematico greco, la cui opera 'Gli Elementi' ha posto le basi della matematica occidentale. Ha stabilito il quadro del pensiero matematico attraverso dimostrazioni e assiomi geometrici.",
+        "quote": "Colui che ha le parole di Archimede e ha dimostrato tutto ciò che Archimede ha dimostrato, ed è un uomo buono, non è lontano dal regno dei cieli.",
+        "chatGreeting": "Saluti. Sono Euclide. Ha domande sul regno della geometria? Intraprendiamo insieme un'esplorazione logica.",
+        "suggestedQuestions": [
+          "Cos'è la geometria euclidea?",
+          "Cosa contengono 'Gli Elementi'?",
+          "Com'era la matematica nella tua epoca?"
+        ],
+        "era": "IV - III secolo a.C.",
+        "pain": "Il processo di sistematizzazione delle verità matematiche potrebbe aver portato a critiche o incomprensioni da parte dei contemporanei. Inoltre, la scarsità di registri biografici rende difficile accertare le difficoltà personali.",
+        "recovery": "Euclide superò queste sfide attraverso rigorose dimostrazioni e un sistema assiomatico. Il suo trattato 'Gli Elementi' divenne lo standard per l'educazione matematica per millenni, e il suo approccio logico influenzò profondamente la posterità."
+      },
+      "pt": {
+        "name": "Euclides",
+        "title": "Pai da Geometria",
+        "headline": "Pai da Geometria",
+        "shortDescription": "Um antigo matemático grego, cuja obra 'Os Elementos' lançou as bases da matemática ocidental. Ele estabeleceu a estrutura do pensamento matemático através de provas e axiomas geométricos.",
+        "quote": "Aquele que tem as palavras de Arquimedes e provou tudo o que Arquimedes provou, e é um homem bom, não está longe do reino dos céus.",
+        "chatGreeting": "Saudações. Sou Euclides. Tem alguma pergunta sobre o reino da geometria? Vamos embarcar juntos numa exploração lógica.",
+        "suggestedQuestions": [
+          "O que é a geometria euclidiana?",
+          "O que 'Os Elementos' contém?",
+          "Como era a matemática na sua época?"
+        ],
+        "era": "Século IV - III a.C.",
+        "pain": "O processo de sistematização das verdades matemáticas pode ter levado a críticas ou mal-entendidos por parte dos contemporâneos. Além disso, a escassez de registos biográficos torna difícil a identificação de dificuldades pessoais.",
+        "recovery": "Euclides superou estes desafios através de provas rigorosas e de um sistema axiomático. O seu tratado 'Os Elementos' tornou-se o padrão para a educação matemática durante milénios, e a sua abordagem lógica influenciou profundamente a posteridade."
+      },
+      "ar": {
+        "name": "إقليدس",
+        "title": "أبو الهندسة",
+        "headline": "أبو الهندسة",
+        "shortDescription": "رياضي يوناني قديم، وضع كتابه 'الأصول' أسس الرياضيات الغربية. أسس إطار الفكر الرياضي من خلال البراهين الهندسية والمُسَلَّمات.",
+        "quote": "من يمتلك كلمات أرخميدس وقد أثبت كل ما أثبته أرخميدس، وكان رجلاً صالحاً، فهو ليس بعيداً عن ملكوت السماوات.",
+        "chatGreeting": "تحياتي. أنا إقليدس. هل لديك استفسارات حول عالم الهندسة؟ دعنا نبدأ معاً استكشافاً منطقياً.",
+        "suggestedQuestions": [
+          "ما هي الهندسة الإقليدية؟",
+          "ماذا يحتوي كتاب 'الأصول'؟",
+          "كيف كانت الرياضيات في عصرك؟"
+        ],
+        "era": "القرن الرابع - الثالث قبل الميلاد",
+        "pain": "قد يكون نظام الحقائق الرياضية قد واجه انتقادات أو سوء فهم من معاصريه. علاوة على ذلك، فإن ندرة السجلات التاريخية تجعل من الصعب تحديد الصعوبات الشخصية.",
+        "recovery": "تغلب إقليدس على هذه التحديات من خلال البراهين الصارمة والنظام البديهي. أصبح كتابه 'الأصول' المعيار للتعليم الرياضي لآلاف السنين، وقد أثر منهجه المنطقي بعمق على الأجيال اللاحقة."
+      },
+      "hi": {
+        "name": "Euclid",
+        "title": "ज्यामिति के जनक",
+        "headline": "ज्यामिति के जनक",
+        "shortDescription": "एक प्राचीन यूनानी गणितज्ञ, जिनकी कृति 'एलिमेंट्स' ने पश्चिमी गणित की नींव रखी। उन्होंने ज्यामितीय प्रमाणों और अभिगृहीतों के माध्यम से गणितीय सोच का ढाँचा स्थापित किया।",
+        "quote": "जो कोई भी आर्किमिडीज के शब्दों को रखता है और आर्किमिडीज द्वारा सिद्ध की गई हर चीज को सिद्ध कर चुका है, और एक अच्छा इंसान है, वह स्वर्ग के राज्य से दूर नहीं है।",
+        "chatGreeting": "नमस्कार। मैं यूक्लिड हूँ। क्या आपके पास ज्यामिति के क्षेत्र के बारे में कोई प्रश्न हैं? आइए मिलकर एक तार्किक अन्वेषण शुरू करें।",
+        "suggestedQuestions": [
+          "यूक्लिडियन ज्यामिति क्या है?",
+          "'एलिमेंट्स' में क्या शामिल है?",
+          "आपके युग में गणित कैसा था?"
+        ],
+        "era": "ईसा पूर्व चौथी - तीसरी शताब्दी",
+        "pain": "गणितीय सत्यों को व्यवस्थित करने की प्रक्रिया में समकालीनों से आलोचना या गलतफहमी का सामना करना पड़ा हो सकता है। इसके अलावा, जीवनी संबंधी रिकॉर्ड की कमी व्यक्तिगत कठिनाइयों का पता लगाना मुश्किल बना देती है।",
+        "recovery": "यूक्लिड ने कठोर प्रमाणों और एक अभिगृहीत प्रणाली के माध्यम से इन चुनौतियों पर विजय प्राप्त की। उनकी कृति 'एलिमेंट्स' सहस्राब्दियों तक गणितीय शिक्षा का मानक बन गई, और उनके तार्किक दृष्टिकोण ने भविष्य को गहराई से प्रभावित किया।"
+      },
+      "ru": {
+        "name": "Евклид",
+        "title": "Отец геометрии",
+        "headline": "Отец геометрии",
+        "shortDescription": "Древнегреческий математик, чей труд «Начала» заложил основы западной математики. Он создал каркас математического мышления посредством геометрических доказательств и аксиом.",
+        "quote": "Тот, кто обладает словами Архимеда и доказал все, что доказал Архимед, и является хорошим человеком, тот недалеко от царства небесного.",
+        "chatGreeting": "Приветствую. Я Евклид. Есть ли у вас вопросы о мире геометрии? Давайте вместе начнем логическое исследование.",
+        "suggestedQuestions": [
+          "Что такое евклидова геометрия?",
+          "Что содержится в «Началах»?",
+          "Какова была математика в вашу эпоху?"
+        ],
+        "era": "IV - III век до н.э.",
+        "pain": "Процесс систематизации математических истин мог вызвать критику или недопонимание со стороны современников. Кроме того, скудость биографических сведений затрудняет выяснение личных невзгод.",
+        "recovery": "Евклид преодолел эти трудности благодаря строгим доказательствам и аксиоматической системе. Его трактат «Начала» стал стандартом математического образования на тысячелетия, а его логический подход глубоко повлиял на потомков."
+      },
+      "zh": {
+        "name": "欧几里得",
+        "title": "几何学之父",
+        "headline": "几何学之父",
+        "shortDescription": "古希腊数学家，其著作《几何原本》奠定了西方数学的基础。他通过几何证明和公理建立了数学思维的框架。",
+        "quote": "拥有阿基米德之言并证明了阿基米德所证明的一切，并且是一个好人的人，他离天国不远。",
+        "chatGreeting": "您好。我是欧几里得。您对几何学领域有什么疑问吗？让我们一起开始一次逻辑探索吧。",
+        "suggestedQuestions": [
+          "什么是欧几里得几何学？",
+          "《几何原本》包含哪些内容？",
+          "您所处的时代数学是什么样的？"
+        ],
+        "era": "公元前4世纪 - 3世纪",
+        "pain": "系统化数学真理的过程可能招致了同代人的批评或误解。此外，关于他生平的记载极其稀少，难以了解其个人困境。",
+        "recovery": "欧几里得通过严谨的证明和公理体系克服了这些挑战。《几何原本》在数千年中成为数学教育的标准，他的逻辑方法深刻地影响了后世。"
+      }
+    },
+    "epic": {
+      "epic_ko": "### 1. 빛나는 지성의 시작\n\n기원전 4세기 말, 알렉산더 대왕의 제국이 확장되던 혼란스러운 시대에 고대 그리스의 도시 국가 아테네에서 한 위대한 수학자가 탄생했습니다. 그의 이름은 유클리드. 그의 삶에 대한 구체적인 기록은 많지 않지만, 그가 남긴 업적은 시대를 초월하여 인류 지성사에 영원히 기록될 것입니다. 그는 당대 최고의 지성들이 모였던 알렉산드리아 학술 센터에서 활동하며, 수학, 특히 기하학에 대한 깊은 탐구를 시작했습니다. 그의 접근 방식은 단순히 계산하는 것을 넘어, 논리적 추론과 엄밀한 증명을 통해 보편적인 진리를 탐구하는 것이었습니다.\n\n### 2. '원론': 수학의 성경\n\n유클리드의 가장 위대한 업적은 바로 그의 저서 '원론(Elements)'입니다. 이 책은 총 13권으로 구성되어 있으며, 당시까지 알려진 기하학 및 정수론의 지식을 체계적으로 집대성했습니다. 그는 '원론'에서 23개(또는 5개로 간주되기도 함)의 공리(Axioms)와 공준(Postulates)을 제시하고, 이를 바탕으로 수많은 정리(Theorems)를 논리적으로 증명해 나갔습니다. 이 엄밀한 연역적 방법론은 수학뿐만 아니라 과학, 철학 등 모든 학문 분야에 지대한 영향을 미쳤습니다. '원론'은 마치 수학의 성경과 같이 여겨졌으며, 2000년 이상 동안 수학 교육의 표준으로 자리 잡았습니다.\n\n### 3. 논리의 힘, 불변의 진리\n\n유클리드는 '원론'을 통해 '증명'이라는 개념을 수학의 중심으로 가져왔습니다. 그는 직관이나 경험에만 의존하는 것이 아니라, 명확하게 정의된 개념과 논리적 단계를 거쳐야만 비로소 참으로 인정될 수 있다는 것을 보여주었습니다. 예를 들어, '평행선 공준'은 수많은 수학자들의 도전 과제가 되었으며, 이는 비유클리드 기하학의 탄생으로 이어지는 중요한 계기가 되기도 했습니다. 그의 방법론은 수학적 사고의 근간을 이루며, 우리가 세상을 이해하는 방식에 근본적인 변화를 가져왔습니다.\n\n### 4. 시대를 초월한 유산\n\n유클리드의 생애에 대한 자세한 정보는 부족하지만, 그의 이름은 '유클리드 기하학'이라는 용어로 영원히 기억될 것입니다. 그는 알렉산드리아에서 후학들을 가르치며 지식을 전파했으며, 그의 가르침은 이후 수많은 수학자와 과학자들에게 영감을 주었습니다. 그의 논리적 엄밀성과 체계적인 접근 방식은 오늘날에도 수학, 과학, 컴퓨터 공학 등 다양한 분야에서 여전히 중요한 원리로 활용되고 있습니다. 유클리드는 시대를 초월하여 인류의 이성을 확장시킨 위대한 사상가였습니다.",
+      "epic_en": "### 1. The Dawn of Brilliant Intellect\n\nIn the late 4th century BC, amidst the turbulent era of Alexander the Great's expanding empire, a great mathematician emerged in the ancient Greek city-state of Athens. His name was Euclid. While specific records of his life are scarce, his achievements transcend time and will be eternally etched in the history of human intellect. He was active at the renowned Center of Learning in Alexandria, where the greatest minds of the era congregated, and began his profound exploration of mathematics, particularly geometry. His approach went beyond mere calculation, seeking universal truths through logical reasoning and rigorous proofs.\n\n### 2. 'Elements': The Bible of Mathematics\n\nEuclid's most significant contribution is undoubtedly his treatise, 'Elements.' This monumental work, comprising 13 books, systematically compiled the mathematical knowledge of geometry and number theory known up to that time. In 'Elements,' he presented 23 (or sometimes considered 5) axioms and postulates, and based on these, he logically proved numerous theorems. This rigorous deductive methodology profoundly influenced not only mathematics but also all fields of scholarship, including science and philosophy. 'Elements' was revered as the 'Bible of Mathematics' and served as the standard for mathematical education for over 2,000 years.\n\n### 3. The Power of Logic, Immutable Truth\n\nThrough 'Elements,' Euclid brought the concept of 'proof' to the center of mathematics. He demonstrated that truths are not merely accepted based on intuition or experience, but must be logically derived through clearly defined concepts and sequential steps. For instance, the 'parallel postulate' became a challenge for countless mathematicians, eventually leading to the birth of non-Euclidean geometries. His methodology forms the bedrock of mathematical thinking and fundamentally altered how we understand the world.\n\n### 4. A Legacy Beyond Time\n\nAlthough detailed information about Euclid's life is limited, his name will be remembered forever through the term 'Euclidean geometry.' He taught and disseminated knowledge to scholars in Alexandria, and his teachings inspired countless mathematicians and scientists thereafter. His logical rigor and systematic approach remain vital principles in various fields today, including mathematics, science, and computer engineering. Euclid was a great thinker who, transcending his era, expanded human reason.",
+      "epic_de": "### 1. Der Beginn brillanten Intellekts\n\nIm späten 4. Jahrhundert v. Chr., inmitten der turbulenten Ära des expandierenden Reiches Alexanders des Großen, entstand in der antiken griechischen Stadt Athen ein großer Mathematiker. Sein Name war Euklid. Obwohl spezifische Aufzeichnungen über sein Leben rar sind, überdauern seine Errungenschaften die Zeit und werden ewig in die Geschichte des menschlichen Intellekts eingehen. Er war im renommierten Zentrum der Gelehrsamkeit in Alexandria tätig, wo die größten Köpfe der damaligen Zeit zusammenkamen, und begann seine tiefgreifende Erforschung der Mathematik, insbesondere der Geometrie. Sein Ansatz ging über bloße Berechnungen hinaus und suchte nach universellen Wahrheiten durch logisches Denken und strenge Beweise.\n\n### 2. „Elemente“: Die Bibel der Mathematik\n\nEuklids bedeutendster Beitrag ist zweifellos seine Abhandlung „Elemente“. Dieses monumentale Werk, das 13 Bücher umfasst, fasste systematisch das mathematische Wissen der Geometrie und Zahlentheorie zusammen, das bis zu dieser Zeit bekannt war. In „Elemente“ präsentierte er 23 (oder manchmal 5) Axiome und Postulate und bewies auf deren Grundlage logisch zahlreiche Theoreme. Diese rigorose deduktive Methodik beeinflusste nicht nur die Mathematik, sondern auch alle wissenschaftlichen Disziplinen, einschließlich Naturwissenschaften und Philosophie. „Elemente“ wurde als „Bibel der Mathematik“ verehrt und diente über 2.000 Jahre lang als Standard für die mathematische Ausbildung.\n\n### 3. Die Macht der Logik, Unveränderliche Wahrheit\n\nDurch „Elemente“ brachte Euklid das Konzept des „Beweises“ in den Mittelpunkt der Mathematik. Er zeigte, dass Wahrheiten nicht nur auf Intuition oder Erfahrung beruhen, sondern logisch durch klar definierte Konzepte und aufeinanderfolgende Schritte abgeleitet werden müssen. Beispielsweise wurde das „Parallelenpostulat“ zu einer Herausforderung für unzählige Mathematiker und führte schließlich zur Entstehung nichteuklidischer Geometrien. Seine Methodik bildet das Fundament des mathematischen Denkens und veränderte grundlegend, wie wir die Welt verstehen.\n\n### 4. Ein Erbe über die Zeit hinaus\n\nObwohl detaillierte Informationen über Euklids Leben begrenzt sind, wird sein Name durch den Begriff „Euklidische Geometrie“ für immer in Erinnerung bleiben. Er lehrte und verbreitete Wissen unter Gelehrten in Alexandria, und seine Lehren inspirierten unzählige Mathematiker und Wissenschaftler. Seine logische Strenge und sein systematischer Ansatz bleiben bis heute wichtige Prinzipien in verschiedenen Bereichen, darunter Mathematik, Wissenschaft und Informatik. Euklid war ein großer Denker, der seine Zeit überdauerte und die menschliche Vernunft erweiterte.",
+      "epic_ja": "### 1. 輝かしい知性の夜明け\n\n紀元前4世紀後半、アレクサンドロス大王の帝国が拡大する激動の時代、古代ギリシャのアテネに偉大な数学者が誕生しました。彼の名はユークリッド。彼の生涯に関する具体的な記録は少ないですが、彼の業績は時を超え、人類の知性の歴史に永遠に刻まれるでしょう。彼は当時最高の知性が集まったアレクサンドリア学術センターで活躍し、数学、特に幾何学の深い探求を開始しました。彼の方法は単なる計算を超え、論理的推論と厳密な証明を通じて普遍的な真理を探求するものでした。\n\n### 2. 『原論』：数学の聖典\n\nユークリッドの最も偉大な功績は、疑いなく彼の著書『原論』です。この記念碑的な著作は13巻からなり、当時知られていた幾何学と数論の知識を体系的に集大成しました。彼は『原論』の中で23（または5とされることもある）の公理と公準を提示し、それらに基づいて数多くの定理を論理的に証明しました。この厳密な演繹的方法論は、数学だけでなく、科学や哲学など、あらゆる学問分野に計り知れない影響を与えました。『原論』は「数学の聖典」として崇められ、2000年以上にわたり数学教育の標準となりました。\n\n### 3. 論理の力、不変の真理\n\n『原論』を通じて、ユークリッドは「証明」という概念を数学の中心に据えました。彼は、直観や経験にのみ依存するのではなく、明確に定義された概念と論理的な段階を経て初めて真実として認められることを示しました。例えば、「平行線公準」は数え切れないほどの数学者にとって挑戦となり、最終的には非ユークリッド幾何学の誕生につながる重要なきっかけとなりました。彼の方法論は数学的思考の根幹をなし、私たちが世界を理解する方法に根本的な変化をもたらしました。\n\n### 4. 時を超える遺産\n\nユークリッドの生涯に関する詳細な情報は限られていますが、彼の名は「ユークリッド幾何学」という言葉で永遠に記憶されるでしょう。彼はアレクサンドリアで後進を指導し知識を広め、その教えは数多くの数学者や科学者にインスピレーションを与えました。彼の論理的な厳密さと体系的なアプローチは、今日でも数学、科学、コンピューター工学など、さまざまな分野で重要な原則として活用されています。ユークリッドは、時代を超えて人類の理性を拡張した偉大な思想家でした。",
+      "epic_es": "### 1. El Amanecer de un Intelecto Brillante\n\nA finales del siglo IV a.C., en medio de la turbulenta era del imperio en expansión de Alejandro Magno, surgió un gran matemático en la antigua ciudad-estado griega de Atenas. Su nombre era Euclides. Si bien los registros específicos de su vida son escasos, sus logros trascienden el tiempo y quedarán grabados eternamente en la historia del intelecto humano. Fue activo en el renombrado Centro de Aprendizaje de Alejandría, donde se congregaron las mentes más grandes de la época, y comenzó su profunda exploración de las matemáticas, particularmente la geometría. Su enfoque iba más allá del mero cálculo, buscando verdades universales a través del razonamiento lógico y pruebas rigurosas.\n\n### 2. 'Los Elementos': La Biblia de las Matemáticas\n\nLa contribución más significativa de Euclides es, sin duda, su tratado 'Los Elementos'. Esta obra monumental, que consta de 13 libros, recopiló sistemáticamente el conocimiento matemático de geometría y teoría de números conocido hasta ese momento. En 'Los Elementos', presentó 23 (o a veces se consideran 5) axiomas y postulados, y basándose en ellos, demostró lógicamente numerosos teoremas. Esta rigurosa metodología deductiva influyó profundamente no solo en las matemáticas, sino también en todos los campos de la erudición, incluidas la ciencia y la filosofía. 'Los Elementos' fue venerado como la 'Biblia de las Matemáticas' y sirvió como estándar para la educación matemática durante más de 2.000 años.\n\n### 3. El Poder de la Lógica, Verdad Inmutable\n\nA través de 'Los Elementos', Euclides llevó el concepto de 'demostración' al centro de las matemáticas. Demostró que las verdades no se aceptan meramente basándose en la intuición o la experiencia, sino que deben derivarse lógicamente a través de conceptos claramente definidos y pasos secuenciales. Por ejemplo, el 'postulado de las paralelas' se convirtió en un desafío para innumerables matemáticos, lo que finalmente condujo al nacimiento de las geometrías no euclidianas. Su metodología forma la base del pensamiento matemático y alteró fundamentalmente la forma en que entendemos el mundo.\n\n### 4. Un Legado que Trasciende el Tiempo\n\nAunque la información detallada sobre la vida de Euclides es limitada, su nombre será recordado para siempre a través del término 'geometría euclidiana'. Enseñó y difundió conocimientos entre eruditos en Alejandría, y sus enseñanzas inspiraron a innumerables matemáticos y científicos. Su rigor lógico y su enfoque sistemático siguen siendo principios vitales en diversos campos en la actualidad, incluidas las matemáticas, la ciencia y la ingeniería informática. Euclides fue un gran pensador que, trascendiendo su época, expandió la razón humana.",
+      "epic_fr": "### 1. L'Aube d'un Intellect Brillant\n\nÀ la fin du IVe siècle av. J.-C., au milieu de l'ère turbulente de l'empire en expansion d'Alexandre le Grand, un grand mathématicien émergea dans l'ancienne cité-état grecque d'Athènes. Son nom était Euclide. Bien que les archives spécifiques de sa vie soient rares, ses réalisations transcendent le temps et resteront éternellement gravées dans l'histoire de l'intellect humain. Il fut actif au célèbre Centre d'Apprentissage d'Alexandrie, où se rassemblaient les plus grands esprits de l'époque, et commença sa profonde exploration des mathématiques, en particulier de la géométrie. Son approche allait au-delà du simple calcul, cherchant des vérités universelles par le raisonnement logique et des preuves rigoureuses.\n\n### 2. « Les Éléments » : La Bible des Mathématiques\n\nLa contribution la plus significative d'Euclide est sans aucun doute son traité « Les Éléments ». Cette œuvre monumentale, composée de 13 livres, a systématiquement compilé les connaissances mathématiques de géométrie et de théorie des nombres connues à l'époque. Dans « Les Éléments », il présenta 23 (ou parfois considérés comme 5) axiomes et postulats, et sur cette base, il prouva logiquement de nombreux théorèmes. Cette méthodologie déductive rigoureuse influença profondément non seulement les mathématiques, mais aussi tous les domaines de la connaissance, y compris la science et la philosophie. « Les Éléments » fut vénéré comme la « Bible des Mathématiques » et servit de norme pour l'enseignement mathématique pendant plus de 2 000 ans.\n\n### 3. La Puissance de la Logique, Vérité Immuable\n\nÀ travers « Les Éléments », Euclide plaça le concept de « preuve » au centre des mathématiques. Il démontra que les vérités ne sont pas simplement acceptées sur la base de l'intuition ou de l'expérience, mais doivent être dérivées logiquement par des concepts clairement définis et des étapes séquentielles. Par exemple, le « postulat des parallèles » devint un défi pour d'innombrables mathématiciens, conduisant finalement à la naissance des géométries non euclidiennes. Sa méthodologie constitue le fondement de la pensée mathématique et modifia fondamentalement notre compréhension du monde.\n\n### 4. Un Héritage au-delà du Temps\n\nBien que les informations détaillées sur la vie d'Euclide soient limitées, son nom sera à jamais rappelé par le terme « géométrie euclidienne ». Il enseigna et diffusa ses connaissances auprès des érudits d'Alexandrie, et ses enseignements inspirèrent d'innombrables mathématiciens et scientifiques par la suite. Sa rigueur logique et son approche systématique restent des principes vitaux dans divers domaines aujourd'hui, notamment en mathématiques, en sciences et en informatique. Euclide fut un grand penseur qui, transcendant son époque, élargit la raison humaine.",
+      "epic_it": "### 1. L'Alba di un Intelletto Brillante\n\nAlla fine del IV secolo a.C., nel tumultuoso periodo dell'impero in espansione di Alessandro Magno, emerse un grande matematico nell'antica città-stato greca di Atene. Il suo nome era Euclide. Sebbene le registrazioni specifiche della sua vita siano scarse, le sue conquiste trascendono il tempo e saranno eternamente scolpite nella storia dell'intelletto umano. Fu attivo nel rinomato Centro di Apprendimento di Alessandria, dove si riunivano le più grandi menti dell'epoca, e iniziò la sua profonda esplorazione della matematica, in particolare della geometria. Il suo approccio andava oltre il mero calcolo, cercando verità universali attraverso il ragionamento logico e rigorose dimostrazioni.\n\n### 2. 'Gli Elementi': La Bibbia della Matematica\n\nIl contributo più significativo di Euclide è senza dubbio il suo trattato 'Gli Elementi'. Quest'opera monumentale, composta da 13 libri, ha sistematicamente raccolto le conoscenze matematiche di geometria e teoria dei numeri conosciute fino ad allora. Negli 'Elementi', presentò 23 (o talvolta considerate 5) assiomi e postulati, e basandosi su di essi, dimostrò logicamente numerosi teoremi. Questa rigorosa metodologia deduttiva influenzò profondamente non solo la matematica, ma anche tutti i campi della conoscenza, comprese la scienza e la filosofia. 'Gli Elementi' fu venerato come la 'Bibbia della Matematica' e servì da standard per l'educazione matematica per oltre 2.000 anni.\n\n### 3. Il Potere della Logica, Verità Immutabile\n\nAttraverso 'Gli Elementi', Euclide portò il concetto di 'dimostrazione' al centro della matematica. Dimostrò che le verità non sono semplicemente accettate sulla base dell'intuizione o dell'esperienza, ma devono essere derivate logicamente attraverso concetti chiaramente definiti e passaggi sequenziali. Ad esempio, il 'postulato delle parallele' divenne una sfida per innumerevoli matematici, portando infine alla nascita delle geometrie non euclidee. La sua metodologia costituisce il fondamento del pensiero matematico e alterò fondamentalmente il modo in cui comprendiamo il mondo.\n\n### 4. Un'Eredità Oltre il Tempo\n\nSebbene le informazioni dettagliate sulla vita di Euclide siano limitate, il suo nome sarà ricordato per sempre attraverso il termine 'geometria euclidea'. Insegnò e diffuse conoscenze tra gli studiosi di Alessandria, e i suoi insegnamenti ispirarono innumerevoli matematici e scienziati in seguito. Il suo rigore logico e il suo approccio sistematico rimangono principi vitali in vari campi ancora oggi, tra cui la matematica, la scienza e l'informatica. Euclide fu un grande pensatore che, trascendendo la sua epoca, espanse la ragione umana.",
+      "epic_pt": "### 1. O Amanhecer de um Intelecto Brilhante\n\nNo final do século IV a.C., em meio à era turbulenta do império em expansão de Alexandre, o Grande, emergiu um grande matemático na antiga cidade-estado grega de Atenas. Seu nome era Euclides. Embora os registros específicos de sua vida sejam escassos, suas conquistas transcendem o tempo e ficarão eternamente gravadas na história do intelecto humano. Ele foi ativo no renomado Centro de Aprendizagem de Alexandria, onde as maiores mentes da época se reuniam, e iniciou sua profunda exploração da matemática, particularmente da geometria. Sua abordagem ia além do mero cálculo, buscando verdades universais através do raciocínio lógico e de provas rigorosas.\n\n### 2. 'Os Elementos': A Bíblia da Matemática\n\nA contribuição mais significativa de Euclides é, sem dúvida, seu tratado 'Os Elementos'. Esta obra monumental, composta por 13 livros, compilou sistematicamente o conhecimento matemático de geometria e teoria dos números conhecido até então. Em 'Os Elementos', ele apresentou 23 (ou às vezes consideradas 5) axiomas e postulados, e com base neles, provou logicamente numerosos teoremas. Essa rigorosa metodologia dedutiva influenciou profundamente não apenas a matemática, mas também todos os campos do saber, incluindo a ciência e a filosofia. 'Os Elementos' foi venerado como a 'Bíblia da Matemática' e serviu como padrão para a educação matemática por mais de 2.000 anos.\n\n### 3. O Poder da Lógica, Verdade Imutável\n\nAtravés de 'Os Elementos', Euclides levou o conceito de 'prova' ao centro da matemática. Ele demonstrou que as verdades não são simplesmente aceitas com base na intuição ou na experiência, mas devem ser derivadas logicamente através de conceitos claramente definidos e passos sequenciais. Por exemplo, o 'postulado das paralelas' tornou-se um desafio para inúmeros matemáticos, levando eventualmente ao nascimento das geometrias não euclidianas. Sua metodologia forma a base do pensamento matemático e alterou fundamentalmente a forma como entendemos o mundo.\n\n### 4. Um Legado Além do Tempo\n\nEmbora informações detalhadas sobre a vida de Euclides sejam limitadas, seu nome será lembrado para sempre através do termo 'geometria euclidiana'. Ele ensinou e disseminou conhecimento entre estudiosos em Alexandria, e seus ensinamentos inspiraram inúmeros matemáticos e cientistas posteriormente. Seu rigor lógico e sua abordagem sistemática permanecem princípios vitais em vários campos hoje, incluindo matemática, ciência e engenharia de computação. Euclides foi um grande pensador que, transcendendo sua época, expandiu a razão humana.",
+      "epic_ar": "### 1. فجر العقل اللامع\n\nفي أواخر القرن الرابع قبل الميلاد، وسط الحقبة المضطربة لإمبراطورية الإسكندر الأكبر المتوسعة، ظهر عالم رياضيات عظيم في مدينة أثينا اليونانية القديمة. كان اسمه إقليدس. في حين أن السجلات المحددة لحياته نادرة، فإن إنجازاته تتجاوز الزمن وسيتم نقشها إلى الأبد في تاريخ الفكر البشري. كان نشطًا في مركز التعلم الشهير في الإسكندرية، حيث اجتمعت أعظم العقول في ذلك العصر، وبدأ استكشافه العميق للرياضيات، وخاصة الهندسة. تجاوز منهجه مجرد الحساب، باحثًا عن حقائق عالمية من خلال الاستدلال المنطقي والبراهين الصارمة.\n\n### 2. \"الأصول\": الكتاب المقدس للرياضيات\n\nإن مساهمة إقليدس الأكثر أهمية هي بلا شك أطروحته \"الأصول\". هذا العمل الضخم، المكون من 13 كتابًا، جمع بشكل منهجي المعرفة الرياضية للهندسة ونظرية الأعداد المعروفة حتى ذلك الوقت. في \"الأصول\"، قدم 23 (أو أحيانًا تعتبر 5) مسلمات ومُسَلَّمات، وبناءً عليها، أثبت منطقيًا العديد من النظريات. لقد أثر هذا المنهج الاستنتاجي الصارم بعمق ليس فقط في الرياضيات، ولكن أيضًا في جميع مجالات الدراسة، بما في ذلك العلوم والفلسفة. تم تبجيل \"الأصول\" باعتبارها \"الكتاب المقدس للرياضيات\" وكانت بمثابة معيار للتعليم الرياضي لأكثر من 2000 عام.\n\n### 3. قوة المنطق، الحقيقة الثابتة\n\nمن خلال \"الأصول\"، جلب إقليدس مفهوم \"البرهان\" إلى مركز الرياضيات. أثبت أن الحقائق لا تُقبل ببساطة على أساس الحدس أو التجربة، بل يجب اشتقاقها منطقيًا من خلال مفاهيم واضحة الخطوات المتسلسلة. على سبيل المثال، أصبح \"المسلمة المتوازية\" تحديًا لعدد لا يحصى من علماء الرياضيات، مما أدى في النهاية إلى ولادة الهندسات غير الإقليدية. تشكل منهجيته أساس الفكر الرياضي وغيّر بشكل جذري الطريقة التي نفهم بها العالم.\n\n### 4. إرث يتجاوز الزمن\n\nعلى الرغم من محدودية المعلومات التفصيلية حول حياة إقليدس، سيظل اسمه يُذكر إلى الأبد من خلال مصطلح \"الهندسة الإقليدية\". قام بتعليم ونشر المعرفة بين العلماء في الإسكندرية، وألهمت تعاليمه عددًا لا يحصى من علماء الرياضيات والعلماء لاحقًا. ولا تزال صرامته المنطقية ونهجه المنهجي مبادئ حيوية في مجالات مختلفة اليوم، بما في ذلك الرياضيات والعلوم وهندسة الكمبيوتر. كان إقليدس مفكرًا عظيمًا تجاوز عصره، ووسع نطاق العقل البشري.",
+      "epic_hi": "### 1. प्रतिभाशाली बुद्धि का उदय\n\nईसा पूर्व चौथी शताब्दी के अंत में, सिकंदर महान के बढ़ते साम्राज्य के उथल-पुथल भरे युग के बीच, प्राचीन यूनानी शहर एथेंस में एक महान गणितज्ञ का उदय हुआ। उनका नाम यूक्लिड था। यद्यपि उनके जीवन के विशिष्ट अभिलेख दुर्लभ हैं, उनकी उपलब्धियाँ समय से परे हैं और मानव बुद्धि के इतिहास में हमेशा के लिए अंकित रहेंगी। वे अलेक्जेंड्रिया के प्रसिद्ध ज्ञान केंद्र में सक्रिय थे, जहाँ उस युग के महानतम दिमाग एकत्रित होते थे, और उन्होंने गणित, विशेष रूप से ज्यामिति के अपने गहन अन्वेषण की शुरुआत की। उनका दृष्टिकोण केवल गणना से परे था, जो तार्किक तर्क और कठोर प्रमाणों के माध्यम से सार्वभौमिक सत्यों की खोज करता था।\n\n### 2. 'एलिमेंट्स': गणित की बाइबिल\n\nयूक्लिड का सबसे महत्वपूर्ण योगदान निस्संदेह उनकी कृति 'एलिमेंट्स' है। इस उत्कृष्ट कृति, जिसमें 13 पुस्तकें शामिल हैं, ने उस समय तक ज्ञात ज्यामिति और संख्या सिद्धांत के गणितीय ज्ञान को व्यवस्थित रूप से संकलित किया। 'एलिमेंट्स' में, उन्होंने 23 (या कभी-कभी 5 माने जाते हैं) अभिगृहीतों और प्रतिबंधों को प्रस्तुत किया, और उन पर आधारित होकर, उन्होंने तार्किक रूप से कई प्रमेयों को सिद्ध किया। इस कठोर निगमनात्मक कार्यप्रणाली ने न केवल गणित को, बल्कि विज्ञान और दर्शन सहित सभी अकादमिक क्षेत्रों को गहराई से प्रभावित किया। 'एलिमेंट्स' को 'गणित की बाइबिल' के रूप में पूजा जाता था और यह 2,000 वर्षों से अधिक समय तक गणितीय शिक्षा का मानक बना रहा।\n\n### 3. तर्क की शक्ति, अपरिवर्तनीय सत्य\n\n'एलिमेंट्स' के माध्यम से, यूक्लिड ने 'प्रमाण' की अवधारणा को गणित के केंद्र में ला दिया। उन्होंने प्रदर्शित किया कि सत्यों को केवल अंतर्ज्ञान या अनुभव के आधार पर स्वीकार नहीं किया जाता है, बल्कि स्पष्ट रूप से परिभाषित अवधारणाओं और क्रमिक चरणों के माध्यम से तार्किक रूप से प्राप्त किया जाना चाहिए। उदाहरण के लिए, 'समानांतर अभिगृहीत' अनगिनत गणितज्ञों के लिए एक चुनौती बन गया, जो अंततः गैर-यूक्लिडियन ज्यामिति के जन्म का कारण बना। उनकी कार्यप्रणाली गणितीय सोच की नींव बनाती है और मौलिक रूप से उस तरीके को बदल देती है जिससे हम दुनिया को समझते हैं।\n\n### 4. समय से परे एक विरासत\n\nयद्यपि यूक्लिड के जीवन के बारे में विस्तृत जानकारी सीमित है, उनका नाम 'यूक्लिडियन ज्यामिति' शब्द के माध्यम से हमेशा के लिए याद किया जाएगा। उन्होंने अलेक्जेंड्रिया में विद्वानों के बीच ज्ञान सिखाया और फैलाया, और उनकी शिक्षाओं ने अनगिनत गणितज्ञों और वैज्ञानिकों को बाद में प्रेरित किया। उनकी तार्किक कठोरता और व्यवस्थित दृष्टिकोण आज भी गणित, विज्ञान और कंप्यूटर इंजीनियरिंग सहित विभिन्न क्षेत्रों में महत्वपूर्ण सिद्धांत बने हुए हैं। यूक्लिड एक महान विचारक थे जिन्होंने अपनी आयु को पार करते हुए, मानव तर्क का विस्तार किया।",
+      "epic_ru": "### 1. Рассвет блестящего интеллекта\n\nВ конце IV века до н. э., среди бурной эпохи расширяющейся империи Александра Великого, в древнегреческом городе-государстве Афины появился великий математик. Его звали Евклид. Хотя конкретные записи о его жизни скудны, его достижения превосходят время и будут навечно вписаны в историю человеческого интеллекта. Он активно работал в знаменитом Центре наук в Александрии, где собирались величайшие умы того времени, и начал свое глубокое исследование математики, особенно геометрии. Его подход выходил за рамки простого вычисления, стремясь к универсальным истинам посредством логического рассуждения и строгих доказательств.\n\n### 2. «Начала»: Библия математики\n\nСамый значительный вклад Евклида, несомненно, его трактат «Начала». Этот монументальный труд, состоящий из 13 книг, систематически собрал математические знания в области геометрии и теории чисел, известные до того времени. В «Началах» он представил 23 (или иногда считаются 5) аксиомы и постулаты, и на их основе логически доказал многочисленные теоремы. Этот строгий дедуктивный метод оказал глубокое влияние не только на математику, но и на все области науки, включая естественные науки и философию. «Начала» почитались как «Библия математики» и служили стандартом математического образования более 2000 лет.\n\n### 3. Сила логики, неизменная истина\n\nЧерез «Начала» Евклид вывел понятие «доказательства» в центр математики. Он продемонстрировал, что истины принимаются не просто на основе интуиции или опыта, а должны быть логически выведены через четко определенные понятия и последовательные шаги. Например, «аксиома параллельности» стала вызовом для бесчисленных математиков, что в конечном итоге привело к рождению неевклидовых геометрий. Его методология составляет основу математического мышления и фундаментально изменила то, как мы понимаем мир.\n\n### 4. Наследие, превосходящее время\n\nХотя подробная информация о жизни Евклида ограничена, его имя навсегда останется в памяти благодаря термину «евклидова геометрия». Он преподавал и распространял знания среди ученых в Александрии, и его учения вдохновили бесчисленное количество математиков и ученых впоследствии. Его логическая строгость и систематический подход остаются жизненно важными принципами в различных областях и сегодня, включая математику, науку и компьютерную инженерию. Евклид был великим мыслителем, который, превзойдя свою эпоху, расширил человеческий разум.",
+      "epic_zh": "### 1. 智慧的曙光\n\n公元前四世纪末，亚历山大大帝帝国扩张的动荡时代，一位伟大的数学家诞生于古希腊的雅典城邦。他名叫欧几里得。尽管关于他生平的具体记载很少，但他的成就却超越时空，将永载人类智慧史册。他活跃于当时汇聚了最顶尖智慧的亚历山大里亚学术中心，开始了对数学，特别是几何学的深入探索。他的方法超越了简单的计算，致力于通过逻辑推理和严谨证明来探寻普适真理。\n\n### 2. 《几何原本》：数学的圣经\n\n欧几里得最伟大的贡献无疑是他的著作《几何原本》。这部共计13卷的鸿篇巨著，系统地汇集了当时已知的几何学和数论知识。在《几何原本》中，他提出了23个（或有时被认为是5个）公理和公设，并以此为基础，通过逻辑推导证明了无数的定理。这种严谨的演绎方法不仅深刻影响了数学，也对科学、哲学等所有学术领域产生了巨大影响。《几何原本》被誉为“数学的圣经”，并作为数学教育的标准长达两千多年。\n\n### 3. 逻辑的力量，不变的真理\n\n通过《几何原本》，欧几里得将“证明”的概念置于数学的中心。他表明，真理的接受不仅仅依赖于直觉或经验，而必须通过清晰定义的概念和循序渐进的逻辑步骤来推导。例如，“平行公理”成为了无数数学家挑战的难题，并最终促成了非欧几里得几何学的诞生。他的方法论构成了数学思维的基石，并从根本上改变了我们理解世界的方式。\n\n### 4. 超越时代的遗产\n\n尽管关于欧几里得生平的详细信息有限，但“欧几里得几何学”这一术语将永远铭记他的名字。他在亚历山大里亚教授学生，传播知识，他的教诲也启发了无数后来的数学家和科学家。他严谨的逻辑和系统的方法至今仍在数学、科学和计算机工程等各个领域作为重要原则被应用。欧几里得是一位伟大的思想家，他超越了自己的时代，拓展了人类的理性。",
+      "trials_ko": "동시대 학자들의 비판이나 이해 부족, 그리고 개인적인 삶에 대한 기록 부족으로 인한 어려움.",
+      "trials_en": "Criticism or misunderstanding from contemporaries, and the lack of biographical records presenting personal life challenges.",
+      "overcoming_ko": "엄밀한 논증과 공리 체계를 통해 수학적 진리를 확립하고, 그의 저서 '원론'은 수천 년간 수학 교육의 표준이 되었습니다.",
+      "overcoming_en": "Establishing mathematical truths through rigorous proofs and an axiomatic system; his treatise 'Elements' became the standard for mathematical education for millennia.",
+      "wisdom": [
+        {
+          "quote_ko": "정의와 공리가 명확하다면, 그로부터 파생되는 모든 정리는 필연적으로 참이 된다.",
+          "quote_en": "If the definitions and axioms are clear, all theorems derived from them are necessarily true.",
+          "meaning_ko": "수학적 진리는 명확한 정의와 기본적인 가정에서 출발하며, 논리적인 추론 과정을 거치면 의심할 여지 없이 참된 결론에 도달할 수 있다는 의미입니다.",
+          "meaning_en": "Mathematical truths start from clear definitions and basic assumptions, and through logical reasoning, one can reach undeniable conclusions."
+        },
+        {
+          "quote_ko": "기하학은 신의 형상을 모방한 것이므로, 그 자체로 영원하고 불변하는 진리를 담고 있다.",
+          "quote_en": "Geometry, being a reflection of the divine form, inherently contains eternal and immutable truths.",
+          "meaning_ko": "기하학적 원리가 단순한 인간의 창조물이 아니라, 우주의 근본적인 질서와 조화를 반영한다는 믿음을 나타냅니다.",
+          "meaning_en": "This expresses the belief that geometrical principles are not mere human creations but reflect the fundamental order and harmony of the universe."
+        },
+        {
+          "quote_ko": "논리적 사고의 훈련은 정신을 단련하는 가장 훌륭한 방법이다.",
+          "quote_en": "Training in logical thinking is the finest way to discipline the mind.",
+          "meaning_ko": "체계적인 논리 훈련이 정신을 명료하게 하고 문제 해결 능력을 향상시키는 데 필수적임을 강조합니다.",
+          "meaning_en": "This emphasizes that systematic logical training is essential for clarifying the mind and enhancing problem-solving abilities."
+        }
+      ]
+    },
+    "category": "science"
+  }
+}

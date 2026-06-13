@@ -7,7 +7,9 @@ import { Sparkles, Quote, BookOpen, MessageCircle, Dna } from "lucide-react"
 
 export function AboutPageClient() {
   const t = useTranslations("About")
+  const tPolicy = useTranslations("AboutEditorialPolicy")
   const locale = useLocale()
+  const principles = tPolicy.raw("principles") as Array<{ icon: string; title: string; description: string }>
 
   const fadeInUp = {
     initial: { opacity: 0, y: 30 },
@@ -108,6 +110,42 @@ export function AboutPageClient() {
                 </h4>
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                   {feature.desc}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Editorial Policy Section */}
+      <section className="py-24 px-4 border-t border-white/5 relative">
+        <div className="max-w-6xl mx-auto space-y-16">
+          <motion.div {...fadeInUp} className="text-center space-y-4">
+            <h2 className="text-3xl md:text-5xl font-serif font-bold">{tPolicy("sectionTitle")}</h2>
+            <p className="text-slate-400 text-lg max-w-xl mx-auto font-light">
+              {tPolicy("sectionSubtitle")}
+            </p>
+            <div className="w-20 h-1 bg-amber-500 mx-auto rounded-full mt-4" />
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {principles.map((p, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className="glass-card p-8 rounded-3xl border border-white/5 hover:border-amber-500/20 transition-all group bg-white/[0.01]"
+              >
+                <div className="mb-6 inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-white/[0.02] border border-white/5 text-2xl group-hover:scale-110 transition-transform">
+                  {p.icon}
+                </div>
+                <h4 className="text-xl font-bold mb-3 text-white group-hover:text-amber-200 transition-colors">
+                  {p.title}
+                </h4>
+                <p className="text-stone-400 leading-relaxed text-sm">
+                  {p.description}
                 </p>
               </motion.div>
             ))}

@@ -188,8 +188,8 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
       );
     }
 
-    // 12. Viktor Frankl
-    if (slug === 'viktor-frankl') {
+    // 12. Cicero
+    if (slug === 'cicero') {
       return (
         <svg viewBox="0 0 200 200" className="w-full h-full">
           <circle cx="100" cy="100" r="95" fill="#1e293b" />
@@ -197,8 +197,6 @@ const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "
           <rect x="65" y="60" width="70" height="90" rx="30" fill="#fef3c7" />
           <circle cx="85" cy="100" r="2.5" fill="#334155" />
           <circle cx="115" cy="100" r="2.5" fill="#334155" />
-          <rect x="75" y="90" width="20" height="15" rx="2" fill="none" stroke="#334155" strokeWidth="2" />
-          <rect x="105" y="90" width="20" height="15" rx="2" fill="none" stroke="#334155" strokeWidth="2" />
           <circle cx="100" cy="100" r="40" fill="none" stroke="#d4af37" strokeWidth="1" strokeDasharray="4" />
         </svg>
       );

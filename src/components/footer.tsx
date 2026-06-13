@@ -25,6 +25,7 @@ export default function Footer() {
       { label: t('links.about'), href: '/about' },
       { label: t('links.privacy'), href: '/privacy' },
       { label: t('links.terms'), href: '/terms' },
+      { label: t('links.disclaimer'), href: '/disclaimer' },
       { label: t('links.contact'), href: '/contact' },
     ],
   }
