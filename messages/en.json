@@ -89,7 +89,8 @@
       "chatDesc": "Share your concerns with giants reborn through latest AI.",
       "startNow": "Start Now"
     },
-    "debateRoomCTA": "Enter Giants Debate Room"
+    "debateRoomCTA": "Enter Giants Debate Room",
+    "chatProgress": "giants met ({total} total)"
   },
   "Featured": {
     "title": "The Hall of Great Giants",
@@ -121,7 +122,9 @@
       "prev": "Prev",
       "next": "Next",
       "last": "Last"
-    }
+    },
+    "progressLabel": "My Giants Journey",
+    "progressSubtext": "{progress}% explored! Keep going 🏛️"
   },
   "GiantDetail": {
     "returnToSquare": "Return to the Square",
@@ -5060,5 +5063,16 @@
     "shareButton2": "Share",
     "generating": "Generating...",
     "saved": "Saved!"
+  },
+  "Newsletter": {
+    "badge": "📬 Every Wednesday",
+    "title": "Weekly wisdom from history's greatest minds",
+    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
+    "placeholder": "Enter your email address",
+    "subscribeButton": "Subscribe Free",
+    "subscribing": "Subscribing...",
+    "successMessage": "You're subscribed!",
+    "successSubtext": "You'll receive giants' wisdom every week 📬",
+    "blogTitle": "Get wisdom like this every week"
   }
 }

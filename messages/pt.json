@@ -89,7 +89,8 @@
       "chatDesc": "Compartilhe suas inquietações com gigantes renascidos pela IA mais recente.",
       "startNow": "Começar Agora"
     },
-    "debateRoomCTA": "Entrar na Sala de Debate"
+    "debateRoomCTA": "Entrar na Sala de Debate",
+    "chatProgress": "gigantes encontrados (de {total})"
   },
   "Featured": {
     "title": "O Salão das Grandes Mentes",
@@ -121,7 +122,9 @@
       "prev": "Anterior",
       "next": "Próxima",
       "last": "Última"
-    }
+    },
+    "progressLabel": "Minha jornada pelos Gigantes",
+    "progressSubtext": "{progress}% explorado! Continue 🏛️"
   },
   "GiantDetail": {
     "returnToSquare": "Voltar ao Salão",
@@ -5059,5 +5062,16 @@
     "shareButton2": "Compartilhar",
     "generating": "Gerando...",
     "saved": "Salvo!"
+  },
+  "Newsletter": {
+    "badge": "📬 Toda quarta-feira",
+    "title": "Sabedoria semanal das maiores mentes",
+    "subtitle": "Sêneca, Marco Aurélio, Sócrates...\nUm insight para começar bem sua semana.",
+    "placeholder": "Digite seu endereço de e-mail",
+    "subscribeButton": "Assinar gratuitamente",
+    "subscribing": "Assinando...",
+    "successMessage": "Você se inscreveu!",
+    "successSubtext": "Você receberá sabedoria toda semana 📬",
+    "blogTitle": "Receba sabedoria como esta toda semana"
   }
 }

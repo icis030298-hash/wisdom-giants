@@ -5,6 +5,7 @@ import { Sparkles } from "lucide-react"
 import { useTranslations, useLocale } from "next-intl"
 import { Link } from "@/i18n/routing"
 import { giants } from "@/lib/giants-data"
+import { useGiantHistory } from "@/hooks/useGiantHistory"
 
 // Generate stable particle positions
 const generateParticles = (count: number) => {
@@ -29,6 +30,7 @@ export function HeroSection() {
   const [isMounted, setIsMounted] = useState(false)
   const [isModalOpen, setIsModalOpen] = useState(false)
   const particles = useMemo(() => generateParticles(20), [])
+  const { totalChatted } = useGiantHistory()
 
   useEffect(() => {
     setIsMounted(true)
@@ -135,6 +137,13 @@ export function HeroSection() {
             </div>
           ))}
         </div>
+
+        {totalChatted > 0 && (
+          <div className="mt-8 text-sm text-stone-400 flex items-center justify-center gap-2 bg-stone-900/40 border border-white/5 py-2.5 px-6 rounded-full max-w-xs mx-auto backdrop-blur-md">
+            <span className="text-amber-400 font-bold">{totalChatted}</span>
+            <span>{t("chatProgress", { total: giants.length })}</span>
+          </div>
+        )}
       </div>
     </section>
   )

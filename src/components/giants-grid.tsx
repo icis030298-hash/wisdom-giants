@@ -7,12 +7,15 @@ import Image from "next/image"
 import { GiantCard } from "./giant-card"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
+import { useGiantHistory } from "@/hooks/useGiantHistory"
 
 interface GiantsGridProps {}
 
 export function GiantsGrid({}: GiantsGridProps) {
   const t = useTranslations("GiantsGrid")
   const tg = useTranslations("Giants")
+  const { totalChatted } = useGiantHistory()
+  const progress = Math.round((totalChatted / giants.length) * 100)
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All Giants")
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid")
@@ -102,6 +105,26 @@ export function GiantsGrid({}: GiantsGridProps) {
         <p className="text-muted-foreground max-w-2xl text-lg leading-relaxed font-light">
           {t("description")}
         </p>
+
+        {totalChatted > 0 && (
+          <div className="mt-8 p-5 rounded-2xl bg-stone-900/40 border border-white/5 backdrop-blur-md max-w-2xl animate-fade-in">
+            <div className="flex justify-between text-sm mb-2.5">
+              <span className="text-stone-400 font-medium">{t("progressLabel")}</span>
+              <span className="text-amber-400 font-bold">
+                {totalChatted} / {giants.length}
+              </span>
+            </div>
+            <div className="h-2.5 bg-stone-950 rounded-full overflow-hidden border border-white/5">
+              <div
+                className="h-full bg-gradient-to-r from-amber-500 to-amber-600 rounded-full transition-all duration-1000 ease-out"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
+            <p className="text-xs text-stone-500 mt-2.5">
+              {t("progressSubtext", { progress })}
+            </p>
+          </div>
+        )}
       </div>
       
       {/* Search and filters */}

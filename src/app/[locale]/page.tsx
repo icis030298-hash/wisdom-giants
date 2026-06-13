@@ -10,6 +10,7 @@ import { getTranslations } from "next-intl/server"
 import { blogPosts } from "@/data/blog-posts"
 import { ConditionalAdSense } from "@/components/conditional-adsense"
 import { AdSlot } from "@/components/ad-slot"
+import { NewsletterForm } from "@/components/NewsletterForm"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -137,6 +138,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const tg = await getTranslations({ locale, namespace: "Giants" });
   const td = await getTranslations({ locale, namespace: "DebateCTA" });
   const tc = await getTranslations({ locale, namespace: "Consult" });
+  const tn = await getTranslations({ locale, namespace: "Newsletter" });
   const bt = blogTranslations[locale] || blogTranslations['en'];
 
   const getTranslation = (slug: string, fallback: string) => {
@@ -259,6 +261,22 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* Featured Giants - Bento Grid */}
       <FeaturedGiants giants={giants} />
       
+      {/* Newsletter Section */}
+      <section className="py-16 px-4 text-center border-y border-white/5 bg-stone-900/10 my-8">
+        <div className="max-w-md mx-auto space-y-4">
+          <p className="text-amber-400 text-sm font-medium tracking-wide uppercase">
+            {tn("badge")}
+          </p>
+          <h2 className="text-3xl font-serif font-bold text-white tracking-tight">
+            {tn("title")}
+          </h2>
+          <p className="text-stone-400 text-sm leading-relaxed whitespace-pre-line mb-6">
+            {tn("subtitle")}
+          </p>
+          <NewsletterForm />
+        </div>
+      </section>
+
       {/* All Giants Grid */}
       <div id="giants">
         <GiantsGrid />

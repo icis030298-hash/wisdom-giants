@@ -89,7 +89,8 @@
       "chatDesc": "Condividi le tue preoccupazioni con figure storiche rinate attraverso l'IA più recente.",
       "startNow": "Inizia Ora"
     },
-    "debateRoomCTA": "Entra nella Stanza del Dibattito"
+    "debateRoomCTA": "Entra nella Stanza del Dibattito",
+    "chatProgress": "giganti incontrati (su {total})"
   },
   "Featured": {
     "title": "La Sala delle Grandi Menti",
@@ -121,7 +122,9 @@
       "prev": "Prec",
       "next": "Succ",
       "last": "Ultimo"
-    }
+    },
+    "progressLabel": "Il mio viaggio tra i Giganti",
+    "progressSubtext": "{progress}% esplorato! Continua 🏛️"
   },
   "GiantDetail": {
     "returnToSquare": "Torna alla Sala",
@@ -5059,5 +5062,16 @@
     "shareButton2": "Condividi",
     "generating": "Generazione...",
     "saved": "Salvato!"
+  },
+  "Newsletter": {
+    "badge": "📬 Ogni mercoledì",
+    "title": "Saggezza settimanale delle grandi menti",
+    "subtitle": "Seneca, Marco Aurelio, Socrate...\nUn'intuizione per iniziare bene la settimana.",
+    "placeholder": "Inserisci la tua email",
+    "subscribeButton": "Iscriviti gratis",
+    "subscribing": "Iscrizione...",
+    "successMessage": "Iscrizione completata!",
+    "successSubtext": "Riceverai saggezza ogni settimana 📬",
+    "blogTitle": "Ricevi saggezza come questa ogni settimana"
   }
 }

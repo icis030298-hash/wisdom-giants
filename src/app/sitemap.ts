@@ -3,7 +3,7 @@ import { giants } from '@/lib/giants-data'
 import { blogPosts } from '@/data/blog-posts'
 
 const BASE_URL = 'https://www.giantswisdom.com'
-const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt'] as const
+const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt', 'ar', 'hi', 'ru', 'zh'] as const
 type Locale = typeof LOCALES[number]
 
 // Locale → ISO 639-1 hreflang tag mapping
@@ -16,6 +16,10 @@ const HREFLANG: Record<Locale, string> = {
   fr: 'fr',
   it: 'it',
   pt: 'pt',
+  ar: 'ar',
+  hi: 'hi',
+  ru: 'ru',
+  zh: 'zh',
 }
 
 /** Build alternates object for a given path (e.g. '' | '/test' | '/giant/steve-jobs') */

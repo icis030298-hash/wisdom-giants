@@ -23,6 +23,7 @@ import React from 'react'
 import { InArticleAd } from '@/components/ad-slot'
 import { AuthorBox } from '@/components/blog/AuthorBox'
 import GiantAvatar from '@/components/GiantAvatar'
+import { NewsletterForm } from '@/components/NewsletterForm'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -346,6 +347,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30"
 
   const tg = await getTranslations({ locale, namespace: "Giants" })
+  const tn = await getTranslations({ locale, namespace: "Newsletter" })
   const getTranslation = (slug: string, fallback: string) => {
     try {
       const rawData = tg.raw(slug);
@@ -603,6 +605,17 @@ export default async function BlogPostDetailPage({ params }: Props) {
               <ArrowRight className="w-4 h-4 text-amber-900" />
             </Link>
           </div>
+        </div>
+
+        {/* Newsletter Signup Card */}
+        <div className="mt-12 p-6 rounded-2xl bg-stone-900/40 border border-white/5 shadow-lg">
+          <h3 className="text-white font-serif font-bold text-lg mb-1">
+            {tn("blogTitle")}
+          </h3>
+          <p className="text-stone-400 text-sm mb-4 leading-relaxed">
+            {tn("subtitle")}
+          </p>
+          <NewsletterForm />
         </div>
 
         {/* Talk directly with the Giants in this article */}

@@ -89,7 +89,8 @@
       "chatDesc": "Teilen Sie Ihre Sorgen mit den Denkern, die durch modernste KI wiedergeboren wurden.",
       "startNow": "Jetzt starten"
     },
-    "debateRoomCTA": "Debattenkammer der Riesen betreten"
+    "debateRoomCTA": "Debattenkammer der Riesen betreten",
+    "chatProgress": "Giganten getroffen (von {total})"
   },
   "Featured": {
     "title": "Die Halle der großen Persönlichkeiten",
@@ -121,7 +122,9 @@
       "prev": "Zurück",
       "next": "Weiter",
       "last": "Letzte"
-    }
+    },
+    "progressLabel": "Meine Giganten-Reise",
+    "progressSubtext": "{progress}% erkundet! Weiter so 🏛️"
   },
   "GiantDetail": {
     "returnToSquare": "Zurück zum Platz",
@@ -5068,5 +5071,16 @@
     "shareButton2": "Teilen",
     "generating": "Wird erstellt...",
     "saved": "Gespeichert!"
+  },
+  "Newsletter": {
+    "badge": "📬 Jeden Mittwoch",
+    "title": "Wöchentliche Weisheit großer Denker",
+    "subtitle": "Seneca, Marc Aurel, Sokrates...\nEin Gedanke, der Ihre Woche verändert.",
+    "placeholder": "E-Mail-Adresse eingeben",
+    "subscribeButton": "Kostenlos abonnieren",
+    "subscribing": "Wird abonniert...",
+    "successMessage": "Erfolgreich abonniert!",
+    "successSubtext": "Sie erhalten wöchentlich Weisheiten 📬",
+    "blogTitle": "Erhalten Sie wöchentlich solche Weisheiten"
   }
 }

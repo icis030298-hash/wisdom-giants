@@ -89,7 +89,8 @@
       "chatDesc": "通过最新AI重生的巨匠，分享您的烦恼。",
       "startNow": "立即开始"
     },
-    "debateRoomCTA": "进入巨匠辩论室"
+    "debateRoomCTA": "进入巨匠辩论室",
+    "chatProgress": "已与巨人对话（共{total}位）"
   },
   "Featured": {
     "title": "巨匠智慧殿堂",
@@ -121,7 +122,9 @@
       "prev": "上一页",
       "next": "下一页",
       "last": "末页"
-    }
+    },
+    "progressLabel": "我的巨人探索记录",
+    "progressSubtext": "已探索{progress}%！继续前进 🏛️"
   },
   "GiantDetail": {
     "returnToSquare": "返回广场",
@@ -5059,5 +5062,16 @@
     "shareButton2": "分享",
     "generating": "生成中...",
     "saved": "已保存!"
+  },
+  "Newsletter": {
+    "badge": "📬 每周三发送",
+    "title": "每周接收历史伟人的智慧",
+    "subtitle": "塞内卡、马可·奥勒留、苏格拉底...\n每周一句话，改变您的一周。",
+    "placeholder": "请输入您的电子邮件地址",
+    "subscribeButton": "免费订阅",
+    "subscribing": "订阅中...",
+    "successMessage": "订阅成功！",
+    "successSubtext": "您每周将收到伟人的智慧 📬",
+    "blogTitle": "每周获得这样的智慧"
   }
 }

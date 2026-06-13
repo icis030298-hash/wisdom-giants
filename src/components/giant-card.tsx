@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl"
 import GiantAvatar from "@/components/GiantAvatar"
 import { Link } from "@/i18n/routing"
 import type { Giant } from "@/lib/giants-data"
+import { useGiantHistory } from "@/hooks/useGiantHistory"
 
 interface GiantCardProps {
   giant: Giant
@@ -16,6 +17,8 @@ interface GiantCardProps {
 export function GiantCard({ giant, index }: GiantCardProps) {
   const t = useTranslations("Giants")
   const gt = useTranslations("GiantsGrid")
+  const { hasChattedWith } = useGiantHistory()
+  const chatted = hasChattedWith(giant.slug)
   const [isHovered, setIsHovered] = useState(false)
   const [imageError, setImageError] = useState(false)
 
@@ -49,6 +52,12 @@ export function GiantCard({ giant, index }: GiantCardProps) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
+      {chatted && (
+        <span className="absolute top-3 right-3 w-6 h-6 rounded-full bg-amber-500 flex items-center justify-center text-xs text-black font-extrabold z-10 shadow-md shadow-black/35 border border-amber-400/20">
+          ✓
+        </span>
+      )}
+
       {/* Glow effect on hover */}
       <div className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${giant.color} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl -z-10`} />
       

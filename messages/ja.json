@@ -89,7 +89,8 @@
       "chatDesc": "最新のAIを通じて蘇った偉人たちと悩みを共有しましょう。",
       "startNow": "今すぐ開始"
     },
-    "debateRoomCTA": "偉人たちの討論室に入場"
+    "debateRoomCTA": "偉人たちの討論室に入場",
+    "chatProgress": "人の巨人と対話しました（全{total}人中）"
   },
   "Featured": {
     "title": "偉大な巨人の殿堂",
@@ -121,7 +122,9 @@
       "prev": "前へ",
       "next": "次へ",
       "last": "最後"
-    }
+    },
+    "progressLabel": "私の巨人探訪記録",
+    "progressSubtext": "{progress}% 達成！探索を続けましょう 🏛️"
   },
   "GiantDetail": {
     "returnToSquare": "広場に戻る",
@@ -5059,5 +5062,16 @@
     "shareButton2": "共有する",
     "generating": "生成중...",
     "saved": "저장 완료!"
+  },
+  "Newsletter": {
+    "badge": "📬 毎週水曜日配信",
+    "title": "毎週、歴史上の偉人の知恵をお届けします",
+    "subtitle": "セネカ、マルクス・アウレリウス、ソクラテス...\n週の始まりを変える一言をお届けします。",
+    "placeholder": "メールアドレスを入力",
+    "subscribeButton": "無料登録",
+    "subscribing": "登録中...",
+    "successMessage": "登録完了！",
+    "successSubtext": "毎週、偉人の知恵をお届けします 📬",
+    "blogTitle": "このような知恵を毎週受け取りましょう"
   }
 }

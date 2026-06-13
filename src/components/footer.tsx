@@ -7,9 +7,11 @@ import { Link } from '@/i18n/routing'
 import { ContactForm } from '@/components/contact-form'
 
 import { useLocale } from 'next-intl'
+import { NewsletterForm } from '@/components/NewsletterForm'
 
 export default function Footer() {
   const t = useTranslations('Footer')
+  const tn = useTranslations('Newsletter')
   const locale = useLocale()
   const [contactOpen, setContactOpen] = useState(false)
 
@@ -39,6 +41,24 @@ export default function Footer() {
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-gradient-to-t from-amber-500/5 to-transparent blur-3xl pointer-events-none" />
 
         <div className="max-w-7xl mx-auto relative z-10">
+          {/* Footer Newsletter Subscription */}
+          <div className="border-b border-white/5 pb-12 mb-16 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+            <div className="max-w-md">
+              <h4 className="text-amber-400 font-bold mb-2 tracking-wide uppercase text-sm">
+                {tn("badge")}
+              </h4>
+              <h3 className="text-white font-serif font-bold text-xl mb-1">
+                {tn("title")}
+              </h3>
+              <p className="text-stone-400 text-sm leading-relaxed">
+                {tn("subtitle")}
+              </p>
+            </div>
+            <div className="w-full lg:w-auto shrink-0">
+              <NewsletterForm />
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
             {/* Brand */}
             <div className="lg:col-span-2">

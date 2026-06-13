@@ -89,7 +89,8 @@
       "chatDesc": "Partagez vos préoccupations avec des géants ressuscités grâce aux dernières technologies d'IA.",
       "startNow": "Commencer Maintenant"
     },
-    "debateRoomCTA": "Entrer dans la Salle de Débat"
+    "debateRoomCTA": "Entrer dans la Salle de Débat",
+    "chatProgress": "géants rencontrés (sur {total})"
   },
   "Featured": {
     "title": "Le Panthéon des Grands Esprits",
@@ -121,7 +122,9 @@
       "prev": "Précédent",
       "next": "Suivant",
       "last": "Dernier"
-    }
+    },
+    "progressLabel": "Mon voyage parmi les Géants",
+    "progressSubtext": "{progress}% exploré ! Continuez 🏛️"
   },
   "GiantDetail": {
     "returnToSquare": "Retour au Hall",
@@ -5059,5 +5062,16 @@
     "shareButton2": "Partager",
     "generating": "Génération...",
     "saved": "Enregistré !"
+  },
+  "Newsletter": {
+    "badge": "📬 Chaque mercredi",
+    "title": "La sagesse hebdomadaire des grands esprits",
+    "subtitle": "Sénèque, Marc Aurèle, Socrate...\nUne pensée pour bien commencer votre semaine.",
+    "placeholder": "Entrez votre adresse e-mail",
+    "subscribeButton": "S'abonner gratuitement",
+    "subscribing": "Abonnement...",
+    "successMessage": "Vous êtes abonné !",
+    "successSubtext": "Vous recevrez la sagesse chaque semaine 📬",
+    "blogTitle": "Recevez ce type de sagesse chaque semaine"
   }
 }

@@ -13,6 +13,7 @@ import { useSearchParams } from "next/navigation"
 import { getProblemGreeting } from "@/data/problem-giant-map"
 import { auth, db } from "@/lib/firebase"
 import { doc, getDoc, setDoc, serverTimestamp, arrayUnion } from "firebase/firestore"
+import { useGiantHistory } from "@/hooks/useGiantHistory"
 
 interface Message {
   id: string
@@ -81,6 +82,16 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
   const [isLoadingHistory, setIsLoadingHistory] = useState(true)
   const [isRestoredChat, setIsRestoredChat] = useState(false)
   const [shareData, setShareData] = useState<{ userMessage: string; giantResponse: string } | null>(null)
+  
+  const { addGiant } = useGiantHistory()
+
+  // Record meeting this giant if the user has typed at least one message
+  useEffect(() => {
+    const hasUserSpoken = messages.some(m => m.role === "user");
+    if (hasUserSpoken) {
+      addGiant(giant.slug);
+    }
+  }, [messages, giant.slug, addGiant]);
 
   const getPrecedingUserMessage = (msgId: string) => {
     const currentIndex = messages.findIndex(m => m.id === msgId);
