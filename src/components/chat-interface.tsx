@@ -5,6 +5,7 @@ import Image from "next/image"
 import { GiantImage } from "./ui/giant-image"
 import { X, Send, Sparkles, RefreshCw, Lightbulb, History } from "lucide-react"
 import type { Giant } from "@/lib/giants-data"
+import { ShareCard } from "./chat/ShareCard"
 import { getGiantResponse } from "@/lib/gemini"
 import { giantsData } from "@/data/giants"
 import { useTranslations, useLocale } from "next-intl"
@@ -57,6 +58,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
   const t = useTranslations("Chat")
   const tg = useTranslations("Giants")
   const tgGrid = useTranslations("GiantsGrid")
+  const tShare = useTranslations("ShareCard")
   const locale = useLocale()
   const searchParams = useSearchParams()
   const problemId = propProblemId || searchParams.get('problem') || undefined
@@ -78,6 +80,18 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
   const [hasError, setHasError] = useState(false)
   const [isLoadingHistory, setIsLoadingHistory] = useState(true)
   const [isRestoredChat, setIsRestoredChat] = useState(false)
+  const [shareData, setShareData] = useState<{ userMessage: string; giantResponse: string } | null>(null)
+
+  const getPrecedingUserMessage = (msgId: string) => {
+    const currentIndex = messages.findIndex(m => m.id === msgId);
+    if (currentIndex === -1) return "";
+    for (let i = currentIndex - 1; i >= 0; i--) {
+      if (messages[i].role === "user") {
+        return messages[i].content;
+      }
+    }
+    return "";
+  };
   
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLTextAreaElement>(null)
@@ -510,6 +524,21 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                     <span className="text-[10px] text-muted-foreground">
                       {message.timestamp.toLocaleTimeString(locale, { hour: "2-digit", minute: "2-digit" })}
                     </span>
+                    {message.role === "giant" && message.content !== t("error") && (
+                      <button
+                        onClick={() => {
+                          const preceding = getPrecedingUserMessage(message.id);
+                          setShareData({
+                            userMessage: preceding,
+                            giantResponse: message.content
+                          });
+                        }}
+                        className="text-[10px] text-muted-foreground hover:text-amber-400 transition-colors flex items-center gap-1 px-1.5 py-0.5 rounded hover:bg-amber-500/10 border border-transparent hover:border-amber-500/20 cursor-pointer"
+                      >
+                        <span>📤</span>
+                        <span>{tShare("shareButton")}</span>
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>
@@ -613,6 +642,21 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
           </div>
         </div>
       </div>
+
+      {shareData && (
+        <ShareCard
+          giant={{
+            slug: giant.slug,
+            name: tg(`${giant.slug}.name`) || giant.name,
+            category: categoryLabel,
+            imageUrl: giant.imageUrl
+          }}
+          userMessage={shareData.userMessage}
+          giantResponse={shareData.giantResponse}
+          locale={locale}
+          onClose={() => setShareData(null)}
+        />
+      )}
     </div>
   )
 }
