@@ -1,152 +1,767 @@
 [
   {
-    "name": "Jayavarman VII",
-    "slug": "jayavarman-vii",
-    "category": "성취"
+    "name": "키케로",
+    "slug": "cicero",
+    "category": "philosophy"
   },
   {
-    "name": "Mansa Musa",
-    "slug": "mansa-musa",
-    "category": "성취"
+    "name": "Max Planck",
+    "slug": "max-planck",
+    "category": "science"
   },
   {
-    "name": "Shaka Zulu",
-    "slug": "shaka-zulu",
-    "category": "성취"
+    "name": "Hypatia",
+    "slug": "hypatia",
+    "category": "science"
   },
   {
-    "name": "Al-Khwarizmi",
-    "slug": "al-khwarizmi",
-    "category": "창의"
+    "name": "Ibn al-Haytham",
+    "slug": "ibn-al-haytham",
+    "category": "science"
   },
   {
-    "name": "B.R. Ambedkar",
-    "slug": "br-ambedkar",
-    "category": "성취"
+    "name": "Blaise Pascal",
+    "slug": "blaise-pascal",
+    "category": "science"
   },
   {
-    "name": "Chandragupta Maurya",
-    "slug": "chandragupta-maurya",
-    "category": "성취"
+    "name": "Dmitri Mendeleev",
+    "slug": "dmitri-mendeleev",
+    "category": "science"
   },
   {
-    "name": "Omar Khayyam",
-    "slug": "omar-khayyam",
-    "category": "지혜"
+    "name": "Ada Lovelace",
+    "slug": "ada-lovelace",
+    "category": "science"
   },
   {
-    "name": "Robert Oppenheimer",
-    "slug": "robert-oppenheimer",
-    "category": "성취"
+    "name": "Alan Turing",
+    "slug": "alan-turing",
+    "category": "science"
   },
   {
-    "name": "Saladin",
-    "slug": "saladin",
-    "category": "성취"
+    "name": "Charles Babbage",
+    "slug": "charles-babbage",
+    "category": "science"
   },
   {
-    "name": "Srinivasa Ramanujan",
-    "slug": "srinivasa-ramanujan",
-    "category": "창의"
+    "name": "Ibn Sina",
+    "slug": "ibn-sina",
+    "category": "science"
   },
   {
-    "name": "Suleiman the Magnificent",
-    "slug": "suleiman-the-magnificent",
-    "category": "성취"
+    "name": "James Watt",
+    "slug": "james-watt",
+    "category": "science"
   },
   {
-    "name": "Swami Vivekananda",
-    "slug": "swami-vivekananda",
-    "category": "지혜"
+    "name": "George Stephenson",
+    "slug": "george-stephenson",
+    "category": "science"
   },
   {
-    "name": "Wright Brothers",
-    "slug": "wright-brothers",
-    "category": "창의"
+    "name": "Gregor Mendel",
+    "slug": "gregor-mendel",
+    "category": "science"
   },
   {
-    "name": "Adam Smith",
-    "slug": "adam-smith",
-    "category": "지혜"
+    "name": "Antoine Lavoisier",
+    "slug": "antoine-lavoisier",
+    "category": "science"
   },
   {
-    "name": "Nicolaus Copernicus",
-    "slug": "copernicus",
-    "category": "창의"
+    "name": "Li Shizhen",
+    "slug": "li-shizhen",
+    "category": "science"
   },
   {
-    "name": "Dante Alighieri",
-    "slug": "dante-alighieri",
-    "category": "창의"
+    "name": "Guglielmo Marconi",
+    "slug": "guglielmo-marconi",
+    "category": "science"
   },
   {
-    "name": "Johannes Gutenberg",
-    "slug": "johannes-gutenberg",
-    "category": "창의"
+    "name": "Robert Koch",
+    "slug": "robert-koch",
+    "category": "science"
   },
   {
-    "name": "Louis Pasteur",
-    "slug": "louis-pasteur",
-    "category": "성취"
+    "name": "Thomas Aquinas",
+    "slug": "thomas-aquinas",
+    "category": "science"
   },
   {
-    "name": "Niccolò Machiavelli",
-    "slug": "machiavelli",
-    "category": "지혜"
+    "name": "Rumi",
+    "slug": "rumi",
+    "category": "science"
   },
   {
-    "name": "Voltaire",
-    "slug": "voltaire",
-    "category": "지혜"
+    "name": "Ibn Rushd",
+    "slug": "ibn-rushd",
+    "category": "science"
   },
   {
-    "name": "Alexander Graham Bell",
-    "slug": "alexander-graham-bell",
-    "category": "창의"
+    "name": "William James",
+    "slug": "william-james",
+    "category": "science"
   },
   {
-    "name": "Amelia Earhart",
-    "slug": "amelia-earhart",
-    "category": "성취"
+    "name": "Friedrich Schiller",
+    "slug": "friedrich-schiller",
+    "category": "science"
   },
   {
-    "name": "Andrew Carnegie",
-    "slug": "andrew-carnegie",
-    "category": "성취"
+    "name": "George Washington Carver",
+    "slug": "george-washington-carver",
+    "category": "science"
   },
   {
-    "name": "Edgar Allan Poe",
-    "slug": "edgar-allan-poe",
-    "category": "창의"
+    "name": "Al-Ghazali",
+    "slug": "al-ghazali",
+    "category": "science"
   },
   {
-    "name": "Ernest Hemingway",
-    "slug": "ernest-hemingway",
-    "category": "창의"
+    "name": "Ibn Khaldun",
+    "slug": "ibn-khaldun",
+    "category": "science"
   },
   {
-    "name": "Henry David Thoreau",
-    "slug": "henry-david-thoreau",
-    "category": "지혜"
+    "name": "Maimonides",
+    "slug": "maimonides",
+    "category": "science"
   },
   {
-    "name": "J.P. Morgan",
-    "slug": "jp-morgan",
-    "category": "성취"
+    "name": "Zoroaster",
+    "slug": "zoroaster",
+    "category": "science"
   },
   {
-    "name": "Ralph Waldo Emerson",
-    "slug": "ralph-waldo-emerson",
-    "category": "지혜"
+    "name": "Miguel de Cervantes",
+    "slug": "miguel-de-cervantes",
+    "category": "science"
   },
   {
-    "name": "Susan B. Anthony",
-    "slug": "susan-b-anthony",
-    "category": "성취"
+    "name": "Leo Tolstoy",
+    "slug": "leo-tolstoy",
+    "category": "science"
   },
   {
-    "name": "Walt Whitman",
-    "slug": "walt-whitman",
-    "category": "창의"
+    "name": "Murasaki Shikibu",
+    "slug": "murasaki-shikibu",
+    "category": "arts"
+  },
+  {
+    "name": "Edgar Degas",
+    "slug": "edgar-degas",
+    "category": "science"
+  },
+  {
+    "name": "Oscar Wilde",
+    "slug": "oscar-wilde",
+    "category": "science"
+  },
+  {
+    "name": "Rabindranath Tagore",
+    "slug": "rabindranath-tagore",
+    "category": "science"
+  },
+  {
+    "name": "Sor Juana Ines de la Cruz",
+    "slug": "sor-juana-ines-de-la-cruz",
+    "category": "science"
+  },
+  {
+    "name": "Li Qingzhao",
+    "slug": "li-qingzhao",
+    "category": "science"
+  },
+  {
+    "name": "Matsuo Basho",
+    "slug": "matsuo-basho",
+    "category": "science"
+  },
+  {
+    "name": "William Wilberforce",
+    "slug": "william-wilberforce",
+    "category": "science"
+  },
+  {
+    "name": "Toussaint Louverture",
+    "slug": "toussaint-louverture",
+    "category": "science"
+  },
+  {
+    "name": "Sojourner Truth",
+    "slug": "sojourner-truth",
+    "category": "science"
+  },
+  {
+    "name": "Emmeline Pankhurst",
+    "slug": "emmeline-pankhurst",
+    "category": "science"
+  },
+  {
+    "name": "Jose Rizal",
+    "slug": "jose-rizal",
+    "category": "science"
+  },
+  {
+    "name": "Mary Wollstonecraft",
+    "slug": "mary-wollstonecraft",
+    "category": "science"
+  },
+  {
+    "name": "Lucretia Mott",
+    "slug": "lucretia-mott",
+    "category": "science"
+  },
+  {
+    "name": "Marco Polo",
+    "slug": "marco-polo",
+    "category": "science"
+  },
+  {
+    "name": "Vasco da Gama",
+    "slug": "vasco-da-gama",
+    "category": "science"
+  },
+  {
+    "name": "Ferdinand Magellan",
+    "slug": "ferdinand-magellan",
+    "category": "science"
+  },
+  {
+    "name": "Cornelius Vanderbilt",
+    "slug": "cornelius-vanderbilt",
+    "category": "science"
+  },
+  {
+    "name": "Zhang Qian",
+    "slug": "zhang-qian",
+    "category": "science"
+  },
+  {
+    "name": "Zheng He",
+    "slug": "zheng-he",
+    "category": "science"
+  },
+  {
+    "name": "Leif Erikson",
+    "slug": "leif-erikson",
+    "category": "science"
+  },
+  {
+    "name": "에피쿠로스",
+    "slug": "epicurus",
+    "category": "philosophy"
+  },
+  {
+    "name": "정복왕 윌리엄",
+    "slug": "william-the-conqueror",
+    "category": "leadership"
+  },
+  {
+    "name": "에르빈 슈뢰딩거",
+    "slug": "erwin-schrodinger",
+    "category": "science"
+  },
+  {
+    "name": "주세페 가리발디",
+    "slug": "giuseppe-garibaldi",
+    "category": "leadership"
+  },
+  {
+    "name": "제임스 맥스웰",
+    "slug": "james-clerk-maxwell",
+    "category": "science"
+  },
+  {
+    "name": "몬테수마 2세",
+    "slug": "moctezuma-ii",
+    "category": "leadership"
+  },
+  {
+    "name": "쩐흥다오",
+    "slug": "tran-hung-dao",
+    "category": "leadership"
+  },
+  {
+    "name": "제노비아",
+    "slug": "zenobia",
+    "category": "leadership"
+  },
+  {
+    "name": "조르주 퀴비에",
+    "slug": "georges-cuvier",
+    "category": "science"
+  },
+  {
+    "name": "헤라클레이토스",
+    "slug": "heraclitus",
+    "category": "philosophy"
+  },
+  {
+    "name": "피타고라스",
+    "slug": "pythagoras",
+    "category": "philosophy"
+  },
+  {
+    "name": "디오게네스",
+    "slug": "diogenes",
+    "category": "philosophy"
+  },
+  {
+    "name": "제임스 허튼",
+    "slug": "james-hutton",
+    "category": "science"
+  },
+  {
+    "name": "어니스트 섀클턴",
+    "slug": "ernest-shackleton",
+    "category": "business"
+  },
+  {
+    "name": "도로시아 딕스",
+    "slug": "dorothea-dix",
+    "category": "society"
+  },
+  {
+    "name": "프란츠 슈베르트",
+    "slug": "franz-schubert",
+    "category": "arts"
+  },
+  {
+    "name": "해리엇 마티노",
+    "slug": "harriet-martineau",
+    "category": "society"
+  },
+  {
+    "name": "아이다 B. 웰스",
+    "slug": "ida-b-wells",
+    "category": "society"
+  },
+  {
+    "name": "렘브란트",
+    "slug": "rembrandt",
+    "category": "arts"
+  },
+  {
+    "name": "찰스 디킨스",
+    "slug": "charles-dickens",
+    "category": "arts"
+  },
+  {
+    "name": "클라라 바턴",
+    "slug": "clara-barton",
+    "category": "society"
+  },
+  {
+    "name": "고트프리트 라이프니츠",
+    "slug": "gottfried-leibniz",
+    "category": "philosophy"
+  },
+  {
+    "name": "제임스 쿡",
+    "slug": "james-cook",
+    "category": "business"
+  },
+  {
+    "name": "마이스터 에크하르트",
+    "slug": "meister-eckhart",
+    "category": "philosophy"
+  },
+  {
+    "name": "비투스 베링",
+    "slug": "vitus-bering",
+    "category": "business"
+  },
+  {
+    "name": "바르톨로뮤 디아스",
+    "slug": "bartolomeu-dias",
+    "category": "business"
+  },
+  {
+    "name": "에드워드 제너",
+    "slug": "edward-jenner",
+    "category": "science"
+  },
+  {
+    "name": "에밀리 디킨슨",
+    "slug": "emily-dickinson",
+    "category": "arts"
+  },
+  {
+    "name": "프란시스코 고야",
+    "slug": "francisco-de-goya",
+    "category": "arts"
+  },
+  {
+    "name": "조지 엘리엇",
+    "slug": "george-eliot",
+    "category": "arts"
+  },
+  {
+    "name": "헨리 허드슨",
+    "slug": "henry-hudson",
+    "category": "business"
+  },
+  {
+    "name": "호메로스",
+    "slug": "homer",
+    "category": "arts"
+  },
+  {
+    "name": "제인 오스틴",
+    "slug": "jane-austen",
+    "category": "arts"
+  },
+  {
+    "name": "존 스튜어트 밀",
+    "slug": "john-stuart-mill",
+    "category": "philosophy"
+  },
+  {
+    "name": "올랭프 드 구주",
+    "slug": "olympe-de-gouges",
+    "category": "society"
+  },
+  {
+    "name": "플로티노스",
+    "slug": "plotinus",
+    "category": "philosophy"
+  },
+  {
+    "name": "로알 아문센",
+    "slug": "roald-amundsen",
+    "category": "business"
+  },
+  {
+    "name": "엘리자베스 케이디 스탠턴",
+    "slug": "elizabeth-cady-stanton",
+    "category": "society"
+  },
+  {
+    "name": "헨리크 입센",
+    "slug": "henrik-ibsen",
+    "category": "arts"
+  },
+  {
+    "name": "베르길리우스",
+    "slug": "virgil",
+    "category": "arts"
+  },
+  {
+    "name": "알리에노르 다키텐",
+    "slug": "eleanor-of-aquitaine",
+    "category": "leadership"
+  },
+  {
+    "name": "순자타 케이타",
+    "slug": "sundiata-keita",
+    "category": "leadership"
+  },
+  {
+    "name": "마리아 테레지아",
+    "slug": "maria-theresa",
+    "category": "leadership"
+  },
+  {
+    "name": "부디카",
+    "slug": "boudicca",
+    "category": "leadership"
+  },
+  {
+    "name": "정일수 (Ching Shih)",
+    "slug": "ching-shih",
+    "category": "leadership"
+  },
+  {
+    "name": "아스키아 대제",
+    "slug": "askia-the-great",
+    "category": "leadership"
+  },
+  {
+    "name": "알비루니",
+    "slug": "al-biruni",
+    "category": "science"
+  },
+  {
+    "name": "윌리엄 하비",
+    "slug": "william-harvey",
+    "category": "science"
+  },
+  {
+    "name": "조지프 프리스틀리",
+    "slug": "joseph-priestley",
+    "category": "science"
+  },
+  {
+    "name": "칼 린네",
+    "slug": "carl-linnaeus",
+    "category": "science"
+  },
+  {
+    "name": "리제 마이트너",
+    "slug": "lise-meitner",
+    "category": "science"
+  },
+  {
+    "name": "에미 뇌터",
+    "slug": "emmy-noether",
+    "category": "science"
+  },
+  {
+    "name": "알렉산더 폰 훔볼트",
+    "slug": "alexander-von-humboldt",
+    "category": "science"
+  },
+  {
+    "name": "튀코 브라헤",
+    "slug": "tycho-brahe",
+    "category": "science"
+  },
+  {
+    "name": "존 뮤어",
+    "slug": "john-muir",
+    "category": "science"
+  },
+  {
+    "name": "앨프리드 러셀 월리스",
+    "slug": "alfred-russel-wallace",
+    "category": "science"
+  },
+  {
+    "name": "피에르 퀴리",
+    "slug": "pierre-curie",
+    "category": "science"
+  },
+  {
+    "name": "찰스 라이엘",
+    "slug": "charles-lyell",
+    "category": "science"
+  },
+  {
+    "name": "알파라비",
+    "slug": "al-farabi",
+    "category": "philosophy"
+  },
+  {
+    "name": "토마스 모어",
+    "slug": "thomas-more",
+    "category": "philosophy"
+  },
+  {
+    "name": "시몬 베유",
+    "slug": "simone-weil",
+    "category": "philosophy"
+  },
+  {
+    "name": "안토니오 그람시",
+    "slug": "antonio-gramsci",
+    "category": "philosophy"
+  },
+  {
+    "name": "로자 룩셈부르크",
+    "slug": "rosa-luxemburg",
+    "category": "philosophy"
+  },
+  {
+    "name": "조지 산타야나",
+    "slug": "george-santayana",
+    "category": "philosophy"
+  },
+  {
+    "name": "앙리 베르그송",
+    "slug": "henri-bergson",
+    "category": "philosophy"
+  },
+  {
+    "name": "오컴의 윌리엄",
+    "slug": "william-of-ockham",
+    "category": "philosophy"
+  },
+  {
+    "name": "에른스트 마흐",
+    "slug": "ernst-mach",
+    "category": "philosophy"
+  },
+  {
+    "name": "윌리엄 틴들",
+    "slug": "william-tyndale",
+    "category": "philosophy"
+  },
+  {
+    "name": "제프리 초서",
+    "slug": "chaucer",
+    "category": "arts"
+  },
+  {
+    "name": "조너선 스위프트",
+    "slug": "jonathan-swift",
+    "category": "arts"
+  },
+  {
+    "name": "조르주 상",
+    "slug": "george-sand",
+    "category": "arts"
+  },
+  {
+    "name": "폴 세잔",
+    "slug": "paul-cezanne",
+    "category": "arts"
+  },
+  {
+    "name": "오귀스트 로댕",
+    "slug": "auguste-rodin",
+    "category": "arts"
+  },
+  {
+    "name": "클로드 드뷔시",
+    "slug": "claude-debussy",
+    "category": "arts"
+  },
+  {
+    "name": "버지니아 울프",
+    "slug": "virginia-woolf",
+    "category": "arts"
+  },
+  {
+    "name": "프란츠 카프카",
+    "slug": "franz-kafka",
+    "category": "arts"
+  },
+  {
+    "name": "제임스 조이스",
+    "slug": "james-joyce",
+    "category": "arts"
+  },
+  {
+    "name": "자코모 푸치니",
+    "slug": "giacomo-puccini",
+    "category": "arts"
+  },
+  {
+    "name": "샤를 보들레르",
+    "slug": "charles-baudelaire",
+    "category": "arts"
+  },
+  {
+    "name": "바실리 칸딘스키",
+    "slug": "wassily-kandinsky",
+    "category": "arts"
+  },
+  {
+    "name": "폴 고갱",
+    "slug": "paul-gauguin",
+    "category": "arts"
+  },
+  {
+    "name": "윌리엄 블레이크",
+    "slug": "william-blake",
+    "category": "arts"
+  },
+  {
+    "name": "한스 크리스티안 안데르센",
+    "slug": "hans-christian-andersen",
+    "category": "arts"
+  },
+  {
+    "name": "러디어드 키플링",
+    "slug": "rudyard-kipling",
+    "category": "arts"
+  },
+  {
+    "name": "도로시어 랭",
+    "slug": "dorothea-lange",
+    "category": "arts"
+  },
+  {
+    "name": "클라라 슈만",
+    "slug": "clara-schumann",
+    "category": "arts"
+  },
+  {
+    "name": "제인 애덤스",
+    "slug": "jane-addams",
+    "category": "society"
+  },
+  {
+    "name": "마리아 몬테소리",
+    "slug": "maria-montessori",
+    "category": "society"
+  },
+  {
+    "name": "윌리엄 로이드 개리슨",
+    "slug": "william-lloyd-garrison",
+    "category": "society"
+  },
+  {
+    "name": "알베르트 슈바이처",
+    "slug": "albert-schweitzer",
+    "category": "society"
+  },
+  {
+    "name": "판디타 라마바이",
+    "slug": "pandita-ramabai",
+    "category": "society"
+  },
+  {
+    "name": "엘리자베스 블랙웰",
+    "slug": "elizabeth-blackwell",
+    "category": "society"
+  },
+  {
+    "name": "플로렌스 켈리",
+    "slug": "florence-kelley",
+    "category": "society"
+  },
+  {
+    "name": "데이비드 리빙스턴",
+    "slug": "david-livingstone",
+    "category": "business"
+  },
+  {
+    "name": "알프레드 노벨",
+    "slug": "alfred-nobel",
+    "category": "business"
+  },
+  {
+    "name": "피에르 드 쿠베르탱",
+    "slug": "pierre-de-coubertin",
+    "category": "business"
+  },
+  {
+    "name": "프리드쇼프 난센",
+    "slug": "fridtjof-nansen",
+    "category": "business"
+  },
+  {
+    "name": "조지 이스트먼",
+    "slug": "george-eastman",
+    "category": "business"
+  },
+  {
+    "name": "엘리샤 오티스",
+    "slug": "elisha-otis",
+    "category": "business"
+  },
+  {
+    "name": "장영실",
+    "slug": "jang-yeong-sil",
+    "category": "science"
+  },
+  {
+    "name": "윤동주",
+    "slug": "yun-dong-ju",
+    "category": "arts"
+  },
+  {
+    "name": "소포클레스",
+    "slug": "sophocles",
+    "category": "arts"
+  },
+  {
+    "name": "유클리드",
+    "slug": "euclid",
+    "category": "science"
   }
 ]
