@@ -392,20 +392,20 @@ export function ConsultClient({ locale }: ConsultClientProps) {
       <div className="absolute bottom-10 right-1/4 w-[600px] h-[600px] bg-stone-800/10 rounded-full blur-[150px] pointer-events-none" />
       
       <div className="max-w-6xl mx-auto w-full px-4 md:px-8 py-24 flex-1 flex flex-col justify-center">
-        <AnimatePresence mode="wait">
+        <AnimatePresence mode="wait" initial={false}>
           {!selectedProblemId ? (
             /* STAGE 1: Problem Selection */
             <motion.div
               key="stage1"
-              initial={{ opacity: 0, y: 15 }}
+              initial={false}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
-              transition={{ duration: 0.4 }}
+              transition={{ duration: 0.2 }}
               className="w-full flex flex-col items-center justify-center"
             >
               <div className="text-center max-w-xl mx-auto mb-16 space-y-4">
                 <motion.div 
-                  initial={{ scale: 0.8 }} 
+                  initial={false}
                   animate={{ scale: 1 }} 
                   className="w-12 h-12 rounded-full bg-amber-500/10 border border-amber-500/20 flex items-center justify-center mx-auto mb-4"
                 >
@@ -492,10 +492,10 @@ export function ConsultClient({ locale }: ConsultClientProps) {
             (selectedProblemId === 'custom' || selectedProblem) && (
               <motion.div
                 key="stage2"
-                initial={{ opacity: 0, y: 15 }}
+                initial={false}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -15 }}
-                transition={{ duration: 0.4 }}
+                transition={{ duration: 0.2 }}
                 className="w-full max-w-4xl mx-auto"
               >
                 <button
@@ -526,7 +526,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                   {matchedGiants.map((giant) => (
                     <motion.div
                       key={giant.slug}
-                      initial={{ opacity: 0, x: -10 }}
+                      initial={false}
                       animate={{ opacity: 1, x: 0 }}
                       className="bg-stone-900/50 border border-stone-800 hover:border-white/[0.08] rounded-[2rem] p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start relative overflow-hidden group backdrop-blur-sm shadow-xl"
                     >
