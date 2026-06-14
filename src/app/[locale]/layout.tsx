@@ -198,7 +198,7 @@ export default async function RootLayout({
               strategy="afterInteractive"
             />
             <div className="flex-grow">
-              <LazyMotion features={domAnimation} strict>
+              <LazyMotion features={domAnimation}>
                 {children}
               </LazyMotion>
             </div>
