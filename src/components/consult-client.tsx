@@ -1,11 +1,10 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useRouter } from "@/i18n/routing"
 import { PROBLEM_CATEGORIES } from "@/data/problems"
 import { PROBLEM_GIANT_MAP } from "@/data/problem-giant-map"
-import { giantsData } from "@/data/giants"
 import { useTranslations } from "next-intl"
 import { ArrowLeft, MessageSquare, Sparkles, AlertCircle } from "lucide-react"
 
@@ -37,6 +36,7 @@ function GiantAvatar({ slug, name }: { slug: string; name: string }) {
       src={`/images/giants/${slug}.jpg`}
       alt={name}
       onError={() => setImgError(true)}
+      loading="lazy"
       className="w-20 h-20 rounded-full object-cover mb-3 border border-amber-500/20 shadow-lg group-hover:scale-105 transition-transform duration-500"
     />
   )
@@ -263,6 +263,37 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   const [isMatching, setIsMatching] = useState(false)
   const [customMatchedGiants, setCustomMatchedGiants] = useState<any[]>([])
   const [isCustomProblemMode, setIsCustomProblemMode] = useState(false)
+
+  // Performance Optimization: Dynamic Data Loading
+  const [giants, setGiants] = useState<any[]>([])
+  const [dataLoaded, setDataLoaded] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    // Dynamic import giants data to optimize initial bundle size
+    import("@/data/giants")
+      .then((mod) => {
+        setGiants(mod.giantsData)
+        setDataLoaded(true)
+      })
+      .catch((err) => {
+        console.error("Failed to dynamically import giants data:", err)
+        setDataLoaded(true) // Ensure loader gets dismissed anyway
+      })
+
+    // Force hide loading screen after 1.5s max to prioritize visual response
+    const timer = setTimeout(() => {
+      setIsLoading(false)
+    }, 1500)
+
+    return () => clearTimeout(timer)
+  }, [])
+
+  useEffect(() => {
+    if (dataLoaded) {
+      setIsLoading(false)
+    }
+  }, [dataLoaded])
   
   const activeLocale = (locale === 'ko' || locale === 'en' || locale === 'de' || locale === 'ja' || locale === 'es' || locale === 'fr' || locale === 'it' || locale === 'pt') ? locale : 'en';
   const labels = tMap[activeLocale] || tMap['en'];
@@ -319,7 +350,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
 
   // Gather matched giants data
   const matchedGiants = matchedGiantsRaw.map((mg: any) => {
-    const info = giantsData.find(g => g.slug === mg.slug)
+    const info = giants.find(g => g.slug === mg.slug)
     const name = tg(`${mg.slug}.name`) || info?.name || mg.slug
     const era = tg(`${mg.slug}.era`) || info?.era || ""
     const imageUrl = info?.imageUrl || `/images/giants/${mg.slug}.jpg`
@@ -333,6 +364,37 @@ export function ConsultClient({ locale }: ConsultClientProps) {
       color
     }
   })
+
+  // Skeleton UI Loader for optimizing visual speed (First Contentful Paint)
+  if (isLoading) {
+    return (
+      <div className="min-h-screen bg-stone-950 text-foreground relative overflow-hidden flex flex-col justify-between">
+        {/* Background glow effects */}
+        <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-amber-500/[0.03] rounded-full blur-[120px] pointer-events-none" />
+        <div className="absolute bottom-10 right-1/4 w-[600px] h-[600px] bg-stone-800/10 rounded-full blur-[150px] pointer-events-none" />
+        
+        <div className="max-w-6xl mx-auto w-full px-4 md:px-8 py-24 flex-1 flex flex-col justify-center animate-pulse">
+          <div className="text-center max-w-xl mx-auto mb-16 space-y-4">
+            <div className="w-12 h-12 rounded-full bg-stone-900 mx-auto mb-4" />
+            <div className="h-10 bg-stone-900 w-3/4 mx-auto rounded-lg" />
+            <div className="h-6 bg-stone-900 w-1/2 mx-auto rounded-lg mt-2" />
+          </div>
+          
+          <div className="flex flex-wrap justify-center gap-6 w-full max-w-5xl">
+            {[...Array(6)].map((_, i) => (
+              <div
+                key={i}
+                className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] h-64 bg-stone-900/40 rounded-3xl border border-stone-800/60 p-8"
+              />
+            ))}
+          </div>
+        </div>
+        <footer className="w-full py-8 text-center text-[10px] text-stone-600 uppercase tracking-widest pointer-events-none">
+          © {new Date().getFullYear()} Giants Wisdom • Echoes of Wisdom
+        </footer>
+      </div>
+    )
+  }
 
   return (
     <div className="min-h-screen bg-stone-950 text-foreground relative overflow-hidden flex flex-col justify-between">
