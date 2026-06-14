@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Send, Loader2 } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { m, AnimatePresence } from "framer-motion";
 import { getGiantResponse } from '@/lib/gemini';
 import { giantsData } from '@/data/giants';
 
@@ -83,7 +83,7 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, slug, category, pe
 
         <AnimatePresence initial={false}>
           {messages.map((msg, i) => (
-            <motion.div
+            <m.div
               key={i}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -101,12 +101,12 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, slug, category, pe
               }`}>
                 <p className="text-sm leading-relaxed whitespace-pre-wrap">{formatMessage(msg.content)}</p>
               </div>
-            </motion.div>
+            </m.div>
           ))}
         </AnimatePresence>
 
         {isLoading && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex justify-start items-start gap-3">
+          <m.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex justify-start items-start gap-3">
             <div className="w-8 h-8 rounded-full overflow-hidden border border-gold-antique/20 bg-navy-dark flex-shrink-0 mt-1 relative">
               <Image src={imageUrl} alt={giantName} fill className="object-cover" />
             </div>
@@ -114,7 +114,7 @@ const AIGiantChat: React.FC<AIGiantChatProps> = ({ giantName, slug, category, pe
               <Loader2 className="animate-spin text-gold-antique" size={18} />
               <span className="text-xs text-slate-400 font-serif italic">거인이 생각하는 중입니다...</span>
             </div>
-          </motion.div>
+          </m.div>
         )}
       </div>
 

@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { motion, AnimatePresence } from "framer-motion"
+import { m, AnimatePresence } from "framer-motion"
 import { useRouter } from "@/i18n/routing"
 import { PROBLEM_CATEGORIES } from "@/data/problems"
 import { PROBLEM_GIANT_MAP } from "@/data/problem-giant-map"
@@ -395,7 +395,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
         <AnimatePresence mode="wait" initial={false}>
           {!selectedProblemId ? (
             /* STAGE 1: Problem Selection */
-            <motion.div
+            <m.div
               key="stage1"
               initial={false}
               animate={{ opacity: 1, y: 0 }}
@@ -404,13 +404,13 @@ export function ConsultClient({ locale }: ConsultClientProps) {
               className="w-full flex flex-col items-center justify-center"
             >
               <div className="text-center max-w-xl mx-auto mb-16 space-y-4">
-                <motion.div 
+                <m.div 
                   initial={false}
                   animate={{ scale: 1 }} 
                   className="w-12 h-12 rounded-full bg-amber-500/10 border border-amber-500/20 flex items-center justify-center mx-auto mb-4"
                 >
                   <Sparkles className="w-5 h-5 text-amber-400" />
-                </motion.div>
+                </m.div>
                 <h1 className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight text-center leading-tight">
                   {labels.title}
                 </h1>
@@ -424,7 +424,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                 {PROBLEM_CATEGORIES.map((problem) => {
                   const pTrans = problem.translations[activeLocale] || problem.translations['en'];
                   return (
-                    <motion.button
+                    <m.button
                       key={problem.id}
                       onClick={() => handleSelectProblem(problem.id)}
                       whileHover={{ scale: 1.02 }}
@@ -444,7 +444,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                       <p className="text-stone-600 text-xs leading-relaxed whitespace-pre-line group-hover:text-stone-500 transition-colors mt-2">
                         {pTrans.description}
                       </p>
-                    </motion.button>
+                    </m.button>
                   );
                 })}
               </div>
@@ -486,11 +486,11 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                   </button>
                 </div>
               </div>
-            </motion.div>
+            </m.div>
           ) : (
             /* STAGE 2: Matched Giants */
             (selectedProblemId === 'custom' || selectedProblem) && (
-              <motion.div
+              <m.div
                 key="stage2"
                 initial={false}
                 animate={{ opacity: 1, y: 0 }}
@@ -524,7 +524,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
 
                 <div className="space-y-6">
                   {matchedGiants.map((giant) => (
-                    <motion.div
+                    <m.div
                       key={giant.slug}
                       initial={false}
                       animate={{ opacity: 1, x: 0 }}
@@ -575,10 +575,10 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                           </button>
                         </div>
                       </div>
-                    </motion.div>
+                    </m.div>
                   ))}
                 </div>
-              </motion.div>
+              </m.div>
             )
           )}
         </AnimatePresence>

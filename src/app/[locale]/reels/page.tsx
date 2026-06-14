@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
 import { useLocale } from "next-intl"
-import { motion, AnimatePresence } from "framer-motion"
+import { m, AnimatePresence } from "framer-motion"
 import { Play, RotateCcw, Monitor, Sparkles, Smartphone, Award, ArrowLeft, Download, Volume2, VolumeX } from "lucide-react"
 import { giantsData } from "@/data/giants"
 import Link from "next/link"
@@ -456,7 +456,7 @@ export default function ReelsDemoPage() {
                 
                 {/* 1. User Question Bubble */}
                 {step >= 1 && (
-                  <motion.div 
+                  <m.div 
                     initial={{ opacity: 0, y: 30, scale: 0.95 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     transition={{ type: "spring", stiffness: 200, damping: 20 }}
@@ -465,12 +465,12 @@ export default function ReelsDemoPage() {
                     <div className="max-w-[85%] bg-amber-500 text-slate-950 font-semibold px-4 py-3 rounded-2xl rounded-tr-sm shadow-md text-xs leading-relaxed">
                       {userQuestion}
                     </div>
-                  </motion.div>
+                  </m.div>
                 )}
 
                 {/* 2. Giant Reply Box */}
                 {step >= 2 && (
-                  <motion.div 
+                  <m.div 
                     initial={{ opacity: 0, y: 30, scale: 0.95 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     transition={{ type: "spring", stiffness: 200, damping: 20 }}
@@ -506,12 +506,12 @@ export default function ReelsDemoPage() {
                         </p>
                       )}
                     </div>
-                  </motion.div>
+                  </m.div>
                 )}
 
                 {/* 3. Ultimate Food Recommendation Reveal Banner */}
                 {step >= 4 && (
-                  <motion.div
+                  <m.div
                     initial={{ opacity: 0, scale: 0.7, rotate: -3 }}
                     animate={{ opacity: 1, scale: 1, rotate: 0 }}
                     transition={{ type: "spring", stiffness: 150, damping: 12 }}
@@ -527,7 +527,7 @@ export default function ReelsDemoPage() {
                         {recommendedFood}
                       </span>
                     </div>
-                  </motion.div>
+                  </m.div>
                 )}
 
               </div>

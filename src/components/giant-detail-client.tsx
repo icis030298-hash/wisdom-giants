@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
 import { useSearchParams } from "next/navigation"
-import { motion, AnimatePresence } from "framer-motion"
+import { m, AnimatePresence } from "framer-motion"
 import { Navigation } from "@/components/navigation"
 import { ChatInterface } from "@/components/chat-interface"
 import { useTranslations, useLocale } from "next-intl"
@@ -840,7 +840,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
       {/* Match Found Overlay */}
       <AnimatePresence>
         {showMatchOverlay && (
-          <motion.div
+          <m.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -851,7 +851,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-br ${giant.color} opacity-20 blur-[120px]`} />
             </div>
 
-            <motion.div
+            <m.div
               initial={{ scale: 0.9, y: 20 }}
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.9, y: 20 }}
@@ -865,14 +865,14 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               </button>
 
               <div className="space-y-8">
-                <motion.div
+                <m.div
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ type: "spring", delay: 0.2 }}
                   className="w-20 h-20 rounded-2xl bg-amber-500/20 flex items-center justify-center border border-amber-500/40 mx-auto"
                 >
                   <Dna className="w-10 h-10 text-amber-400" />
-                </motion.div>
+                </m.div>
 
                 <div className="space-y-2">
                   <h2 className="text-sm font-bold text-amber-500 uppercase tracking-[0.3em]">Perfect Match Found</h2>
@@ -1206,8 +1206,8 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                   </button>
                 </div>
               </div>
-            </motion.div>
-          </motion.div>
+            </m.div>
+          </m.div>
         )}
       </AnimatePresence>
 

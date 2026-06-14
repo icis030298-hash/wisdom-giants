@@ -1,7 +1,7 @@
 "use client"
 
 // Force fresh build to clear cached static HTML
-import { motion } from "framer-motion"
+import { m } from "framer-motion"
 import { useTranslations, useLocale } from "next-intl"
 import { Sparkles, Quote, BookOpen, MessageCircle, Dna } from "lucide-react"
 
@@ -25,7 +25,7 @@ export function AboutPageClient() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] bg-gradient-radial from-amber-500/10 via-transparent to-transparent -z-10" />
 
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <motion.div
+          <m.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
@@ -33,31 +33,31 @@ export function AboutPageClient() {
           >
             <Sparkles className="w-4 h-4" />
             <span>{locale === 'ko' ? '소개' : 'ABOUT'}</span>
-          </motion.div>
+          </m.div>
 
-          <motion.h1
+          <m.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/60 whitespace-pre-line break-keep"
           >
             {t("intro")}
-          </motion.h1>
-          <motion.p
+          </m.h1>
+          <m.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7, delay: 0.4 }}
             className="text-xl text-muted-foreground font-light tracking-wide"
           >
             {t("subIntro")}
-          </motion.p>
+          </m.p>
         </div>
       </section>
 
       {/* Philosophy Section */}
       <section className="py-24 px-4 relative">
         <div className="max-w-4xl mx-auto">
-          <motion.div
+          <m.div
             {...fadeInUp}
             className="relative glass-card rounded-3xl p-8 md:p-16 border border-white/5 overflow-hidden group"
           >
@@ -75,17 +75,17 @@ export function AboutPageClient() {
                 </p>
               </div>
             </div>
-          </motion.div>
+          </m.div>
         </div>
       </section>
 
       {/* Features Section */}
       <section className="py-24 px-4 bg-gradient-to-b from-transparent via-amber-500/5 to-transparent">
         <div className="max-w-6xl mx-auto space-y-16">
-          <motion.div {...fadeInUp} className="text-center space-y-4">
+          <m.div {...fadeInUp} className="text-center space-y-4">
             <h2 className="text-3xl md:text-5xl font-serif font-bold">{t("pillarsOfWisdom")}</h2>
             <div className="w-20 h-1 bg-amber-500 mx-auto rounded-full" />
-          </motion.div>
+          </m.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -93,7 +93,7 @@ export function AboutPageClient() {
               { title: t("chatTitle"), desc: t("chatDesc"), icon: MessageCircle },
               { title: t("testTitle"), desc: t("testDesc"), icon: Dna },
             ].map((feature, i) => (
-              <motion.div
+              <m.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -111,7 +111,7 @@ export function AboutPageClient() {
                 <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                   {feature.desc}
                 </p>
-              </motion.div>
+              </m.div>
             ))}
           </div>
         </div>
@@ -120,17 +120,17 @@ export function AboutPageClient() {
       {/* Editorial Policy Section */}
       <section className="py-24 px-4 border-t border-white/5 relative">
         <div className="max-w-6xl mx-auto space-y-16">
-          <motion.div {...fadeInUp} className="text-center space-y-4">
+          <m.div {...fadeInUp} className="text-center space-y-4">
             <h2 className="text-3xl md:text-5xl font-serif font-bold">{tPolicy("sectionTitle")}</h2>
             <p className="text-slate-400 text-lg max-w-xl mx-auto font-light">
               {tPolicy("sectionSubtitle")}
             </p>
             <div className="w-20 h-1 bg-amber-500 mx-auto rounded-full mt-4" />
-          </motion.div>
+          </m.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {principles.map((p, i) => (
-              <motion.div
+              <m.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -147,7 +147,7 @@ export function AboutPageClient() {
                 <p className="text-stone-400 leading-relaxed text-sm">
                   {p.description}
                 </p>
-              </motion.div>
+              </m.div>
             ))}
           </div>
         </div>
@@ -156,7 +156,7 @@ export function AboutPageClient() {
       {/* Closing Section */}
       <section className="py-32 px-4">
         <div className="max-w-4xl mx-auto text-center space-y-12">
-          <motion.div {...fadeInUp} className="space-y-8">
+          <m.div {...fadeInUp} className="space-y-8">
             <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground">
               {t("outroTitle")}
             </h3>
@@ -172,7 +172,7 @@ export function AboutPageClient() {
                 START JOURNEY
               </a>
             </div>
-          </motion.div>
+          </m.div>
         </div>
       </section>
     </div>

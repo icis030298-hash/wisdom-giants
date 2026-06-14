@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Nanum_Myeongjo, Noto_Sans_KR } from "next/font/google";
 import Script from "next/script";
+import { LazyMotion, domAnimation } from "framer-motion";
 import "../globals.css";
 import Footer from "@/components/footer";
 import { CookieBanner } from "@/components/cookie-banner";
@@ -197,7 +198,9 @@ export default async function RootLayout({
               strategy="afterInteractive"
             />
             <div className="flex-grow">
-              {children}
+              <LazyMotion features={domAnimation} strict>
+                {children}
+              </LazyMotion>
             </div>
             <Footer />
             <CookieBanner />

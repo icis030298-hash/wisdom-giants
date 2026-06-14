@@ -2,7 +2,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { motion, AnimatePresence } from "framer-motion"
+import { m, AnimatePresence } from "framer-motion"
 import { Sparkles, ArrowRight, ChevronLeft, History, Dna, BrainCircuit, ShieldCheck } from "lucide-react"
 import { useTranslations, useLocale } from "next-intl"
 import { useRouter } from "@/i18n/routing"
@@ -135,7 +135,7 @@ export default function HeritageTestPage() {
       <div className="max-w-4xl w-full">
         <AnimatePresence mode="wait">
           {step === 'intro' && (
-            <motion.div
+            <m.div
               key="intro"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -183,11 +183,11 @@ export default function HeritageTestPage() {
                 {t("start")}
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
-            </motion.div>
+            </m.div>
           )}
 
           {step === 'questions' && (
-            <motion.div
+            <m.div
               key="questions"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -209,7 +209,7 @@ export default function HeritageTestPage() {
                   </span>
                 </div>
                 <div className="h-1.5 w-full bg-muted rounded-full overflow-hidden">
-                  <motion.div 
+                  <m.div 
                     className="h-full bg-gradient-to-r from-amber-500 to-amber-600"
                     initial={{ width: 0 }}
                     animate={{ width: `${progress}%` }}
@@ -243,11 +243,11 @@ export default function HeritageTestPage() {
                   ))}
                 </div>
               </div>
-            </motion.div>
+            </m.div>
           )}
 
           {step === 'adBreak' && (
-            <motion.div
+            <m.div
               key="adBreak"
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -273,23 +273,23 @@ export default function HeritageTestPage() {
                 {t("stages.next")}
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
-            </motion.div>
+            </m.div>
           )}
 
           {step === 'analyzing' && (
-            <motion.div
+            <m.div
               key="analyzing"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               className="text-center space-y-12 py-20"
             >
               <div className="relative w-40 h-40 mx-auto">
-                <motion.div
+                <m.div
                   className="absolute inset-0 rounded-full border-4 border-amber-500/20"
                   animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.6, 0.3] }}
                   transition={{ duration: 2, repeat: Infinity }}
                 />
-                <motion.div
+                <m.div
                   className="absolute inset-4 rounded-full border-4 border-amber-500/40 border-t-amber-500"
                   animate={{ rotate: 360 }}
                   transition={{ duration: 1.5, repeat: Infinity, ease: "linear" }}
@@ -312,7 +312,7 @@ export default function HeritageTestPage() {
                 {['SCOPE', 'DRIVE', 'METHOD', 'SOURCE'].map((label, i) => (
                   <div key={label} className="space-y-2">
                     <div className="h-1 bg-muted rounded-full overflow-hidden">
-                      <motion.div 
+                      <m.div 
                         className="h-full bg-amber-500"
                         initial={{ width: 0 }}
                         animate={{ width: "100%" }}
@@ -323,7 +323,7 @@ export default function HeritageTestPage() {
                   </div>
                 ))}
               </div>
-            </motion.div>
+            </m.div>
           )}
         </AnimatePresence>
       </div>
