@@ -464,7 +464,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           fill
           sizes="100vw"
           className="object-cover"
-          priority
+          priority={true}
           onError={() => setImageError(true)}
         />
       ) : (
