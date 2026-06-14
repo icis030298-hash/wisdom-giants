@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display } from "next/font/google";
+import { Playfair_Display, Nanum_Myeongjo } from "next/font/google";
 import Script from "next/script";
 import "../globals.css";
 import Footer from "@/components/footer";
@@ -12,6 +12,13 @@ import { routing } from '@/i18n/routing';
 const playfair = Playfair_Display({ 
   subsets: ["latin"],
   variable: '--font-playfair',
+  display: 'swap',
+});
+
+const nanumMyeongjo = Nanum_Myeongjo({
+  weight: ['400', '700', '800'],
+  subsets: ['latin'],
+  variable: '--font-nanum-myeongjo',
   display: 'swap',
 });
 
@@ -154,10 +161,9 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${playfair.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
         <link rel="stylesheet" as="style" crossOrigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet" />
       </head>
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages} locale={locale}>
