@@ -264,42 +264,26 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   const [customMatchedGiants, setCustomMatchedGiants] = useState<any[]>([])
   const [isCustomProblemMode, setIsCustomProblemMode] = useState(false)
 
-  // Performance Optimization: Dynamic Data Loading
+  // Performance Optimization: Defer loading of giantsData until selection or custom match action
   const [giants, setGiants] = useState<any[]>([])
-  const [dataLoaded, setDataLoaded] = useState(false)
-  const [isLoading, setIsLoading] = useState(true)
-
-  useEffect(() => {
-    // Dynamic import giants data to optimize initial bundle size
-    import("@/data/giants")
-      .then((mod) => {
-        setGiants(mod.giantsData)
-        setDataLoaded(true)
-      })
-      .catch((err) => {
-        console.error("Failed to dynamically import giants data:", err)
-        setDataLoaded(true) // Ensure loader gets dismissed anyway
-      })
-
-    // Force hide loading screen after 1.5s max to prioritize visual response
-    const timer = setTimeout(() => {
-      setIsLoading(false)
-    }, 1500)
-
-    return () => clearTimeout(timer)
-  }, [])
-
-  useEffect(() => {
-    if (dataLoaded) {
-      setIsLoading(false)
-    }
-  }, [dataLoaded])
+  const [isLoading, setIsLoading] = useState(false)
   
   const activeLocale = (locale === 'ko' || locale === 'en' || locale === 'de' || locale === 'ja' || locale === 'es' || locale === 'fr' || locale === 'it' || locale === 'pt') ? locale : 'en';
   const labels = tMap[activeLocale] || tMap['en'];
 
-  const handleSelectProblem = (id: string) => {
-    setSelectedProblemId(id)
+  const handleSelectProblem = async (id: string) => {
+    setIsLoading(true)
+    try {
+      if (giants.length === 0) {
+        const mod = await import("@/data/giants")
+        setGiants(mod.giantsData)
+      }
+      setSelectedProblemId(id)
+    } catch (err) {
+      console.error("Failed to load giants data on selection:", err)
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   const handleGoBack = () => {
@@ -323,7 +307,12 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   const handleCustomProblemSubmit = async () => {
     if (!customProblemText.trim()) return;
     setIsMatching(true);
+    setIsLoading(true);
     try {
+      if (giants.length === 0) {
+        const mod = await import("@/data/giants")
+        setGiants(mod.giantsData)
+      }
       const res = await fetch("/api/consult/match", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
