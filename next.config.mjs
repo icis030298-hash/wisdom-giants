@@ -16,6 +16,7 @@ const nextConfig = {
     );
   },
   images: {
+    formats: ['image/webp'],
     remotePatterns: [
       {
         protocol: 'https',

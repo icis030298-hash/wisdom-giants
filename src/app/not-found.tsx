@@ -1,13 +1,26 @@
 import "./globals.css";
 import Link from 'next/link';
 import { Sparkles, ArrowLeft, HelpCircle } from 'lucide-react';
+import { Nanum_Myeongjo, Noto_Sans_KR } from "next/font/google";
+
+const nanumMyeongjo = Nanum_Myeongjo({
+  weight: ['400', '700', '800'],
+  subsets: ['latin'],
+  variable: '--font-nanum-myeongjo',
+  display: 'swap',
+});
+
+const notoSans = Noto_Sans_KR({
+  weight: ['400', '700', '900'],
+  subsets: ['latin'],
+  variable: '--font-noto-sans',
+  display: 'swap',
+});
 
 export default function NotFound() {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className={`dark ${nanumMyeongjo.variable} ${notoSans.variable}`}>
       <head>
-        <link rel="stylesheet" as="style" crossOrigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet" />
       </head>
       <body className="bg-[#020617] text-[#f8fafc] font-sans antialiased min-h-screen overflow-x-hidden flex items-center justify-center">
         <div className="relative w-full max-w-lg px-6 py-12 text-center flex flex-col items-center justify-center z-10">

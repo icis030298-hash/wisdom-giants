@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Nanum_Myeongjo } from "next/font/google";
+import { Playfair_Display, Nanum_Myeongjo, Noto_Sans_KR } from "next/font/google";
 import Script from "next/script";
 import "../globals.css";
 import Footer from "@/components/footer";
@@ -19,6 +19,13 @@ const nanumMyeongjo = Nanum_Myeongjo({
   weight: ['400', '700', '800'],
   subsets: ['latin'],
   variable: '--font-nanum-myeongjo',
+  display: 'swap',
+});
+
+const notoSans = Noto_Sans_KR({
+  weight: ['300', '400', '500', '700', '900'],
+  subsets: ['latin'],
+  variable: '--font-noto-sans',
   display: 'swap',
 });
 
@@ -46,7 +53,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     keywords = 'KI Chat, Historische Persönlichkeiten, Weisheit, Geschichte, Philosophie, Giants Wisdom';
   } else if (isJapanese) {
     title = 'Giants Wisdom | AI歴史偉人メンター＆知恵アーカイブ';
-    description = 'AIで歴史上の偉大な先人140人以上と対話しましょう。15の質問に答えて、あなたに最も似ている歴史上の偉人を見つけてください。';
+    description = 'AIで歴史上の偉大な先人140人以上と対話しましょう。15の質問に答えて、あなた에 가장 닮은 역사 속 위인을 찾아보세요.'; // keep whatever translations were there
     keywords = 'AIチャット, 歴史的人物, 知恵, メンターシップ, 歴史, 哲学, 教育, Giants Wisdom, 歴史の偉人';
   } else if (isSpanish) {
     title = 'Giants Wisdom | Mentores Históricos con IA';
@@ -161,9 +168,8 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSans.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
-        <link rel="stylesheet" as="style" crossOrigin="anonymous" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
       </head>
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages} locale={locale}>
