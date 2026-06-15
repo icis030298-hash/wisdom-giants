@@ -272,7 +272,6 @@
   line-height: 1.4 !important;
   margin-top: 2.75rem !important;
   margin-bottom: 1.25rem !important;
-  color: #ffffff !important;
 }
 
 .prose-readability h3 {
@@ -281,7 +280,7 @@
   line-height: 1.4 !important;
   margin-top: 2.25rem !important;
   margin-bottom: 1rem !important;
-  color: #ffffff !important;
+  color: #fbbf24 !important; /* amber-400 */
 }
 
 .prose-readability blockquote {
