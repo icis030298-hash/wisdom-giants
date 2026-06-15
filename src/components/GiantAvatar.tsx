@@ -1,4 +1,7 @@
-import React from 'react';
+"use client";
+
+import React, { useState } from 'react';
+import { giants } from '@/lib/giants-data';
 
 interface GiantAvatarProps {
   slug: string;
@@ -8,7 +11,33 @@ interface GiantAvatarProps {
 }
 
 const GiantAvatar: React.FC<GiantAvatarProps> = ({ slug, category, className = "", size = 200 }) => {
+  const [imageError, setImageError] = useState(false);
+
   const renderAvatar = () => {
+    // 1. Try to find the giant in the database to get the illustration (imageUrl)
+    const normalizedSlug = slug === 'da-vinci' ? 'leonardo-da-vinci'
+      : slug === 'tesla' ? 'nikola-tesla'
+      : slug === 'van-gogh' ? 'vincent-van-gogh'
+      : slug === 'einstein' ? 'albert-einstein'
+      : slug === 'shakespeare' ? 'william-shakespeare'
+      : slug === 'picasso' ? 'pablo-picasso'
+      : slug === 'franklin-roosevelt' ? 'franklin-d-roosevelt'
+      : slug === 'napoleon' ? 'napoleon-bonaparte'
+      : slug;
+
+    const giant = giants.find(g => g.slug === normalizedSlug || g.slug === slug);
+
+    if (giant && giant.imageUrl && !imageError) {
+      return (
+        <img
+          src={giant.imageUrl}
+          alt={giant.name}
+          className="w-full h-full object-cover rounded-full border border-white/10"
+          onError={() => setImageError(true)}
+          loading="lazy"
+        />
+      );
+    }
     // 1. Steve Jobs
     if (slug === 'steve-jobs') {
       return (
