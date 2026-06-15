@@ -1,5 +1,7 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css");
 @import 'tailwindcss';
 @import 'tw-animate-css';
+
 
 @custom-variant dark (&:is(.dark *));
 
@@ -69,7 +71,7 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-noto-sans), 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  --font-sans: 'Pretendard', var(--font-noto-sans), -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
   --font-serif: var(--font-nanum-myeongjo), var(--font-playfair), 'Nanum Myeongjo', serif;
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
@@ -247,5 +249,50 @@
 
 .animate-fade-in {
   animation: fade-in 0.6s ease-out forwards;
+}
+
+/* Readability typography overrides for blog and epics */
+.prose-readability {
+  font-size: 17.5px !important;
+  line-height: 1.95 !important;
+  letter-spacing: -0.01em !important;
+}
+
+.prose-readability p, 
+.prose-readability li {
+  color: rgb(226, 232, 240) !important; /* slate-200 */
+  line-height: 1.95 !important;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.prose-readability h2 {
+  font-size: 1.5rem !important; /* ~24px */
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
+  margin-top: 2.75rem !important;
+  margin-bottom: 1.25rem !important;
+  color: #ffffff !important;
+}
+
+.prose-readability h3 {
+  font-size: 1.25rem !important; /* ~20px */
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  margin-top: 2.25rem !important;
+  margin-bottom: 1rem !important;
+  color: #ffffff !important;
+}
+
+.prose-readability blockquote {
+  font-size: 17px !important;
+  line-height: 1.85 !important;
+  padding: 1.25rem 1.5rem !important;
+  border-left: 3px solid #f59e0b !important;
+  background: rgba(245, 158, 11, 0.03) !important;
+  border-radius: 0 12px 12px 0;
+  margin: 2rem 0 !important;
+  font-style: italic;
+  color: rgb(251, 191, 36) !important; /* amber-400 */
 }
 

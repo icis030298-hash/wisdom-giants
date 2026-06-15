@@ -554,7 +554,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="glass-card p-6 md:p-12 lg:p-16 rounded-2xl md:rounded-[3rem] border border-white/[0.08] bg-gradient-to-br from-white/[0.05] to-transparent shadow-2xl relative overflow-hidden group">
                 <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-500/[0.02] rounded-full blur-[100px]" />
                 
-                <div className="relative z-10 space-y-6 md:space-y-10">
+                <div className="relative z-10 space-y-6 md:space-y-10 max-w-2xl mx-auto">
                   {parseParagraphs(epicContent).map((paragraph: string, idx: number) => {
                     if (!paragraph) return null;
                     
@@ -570,7 +570,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                       return (
                         <p 
                           key={idx} 
-                          className="text-base md:text-lg lg:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-left md:text-justify"
+                          className="text-base md:text-lg lg:text-xl text-slate-200 leading-[1.95] tracking-tight font-normal text-left md:text-justify break-keep"
                         >
                           <span className="text-5xl md:text-6xl font-serif mr-3 md:mr-4 float-left text-amber-400 font-black leading-none mt-1 md:mt-2">
                             {firstLetter}
@@ -581,9 +581,9 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                     }
                     
                     return (
-                      <p 
+                       <p 
                         key={idx} 
-                        className="text-base md:text-lg lg:text-xl text-slate-200 leading-relaxed tracking-tight font-normal text-left md:text-justify"
+                        className="text-base md:text-lg lg:text-xl text-slate-200 leading-[1.95] tracking-tight font-normal text-left md:text-justify break-keep"
                       >
                         {paragraph}
                       </p>
@@ -607,7 +607,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 <div className="relative z-10 space-y-3 md:space-y-4">
                   {parseParagraphs(trialsContent).map((p: string, i: number) => (
                     p ? (
-                      <p key={i} className="text-sm md:text-base text-slate-200 leading-relaxed font-normal">
+                       <p key={i} className="text-sm md:text-base text-slate-200 leading-[1.8] font-normal break-keep">
                         {p}
                       </p>
                     ) : null
@@ -627,7 +627,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 <div className="relative z-10 space-y-3 md:space-y-4">
                   {parseParagraphs(overcomingContent).map((p: string, i: number) => (
                     p ? (
-                      <p key={i} className="text-sm md:text-base text-slate-200 leading-relaxed font-normal">
+                       <p key={i} className="text-sm md:text-base text-slate-200 leading-[1.8] font-normal break-keep">
                         {p}
                       </p>
                     ) : null

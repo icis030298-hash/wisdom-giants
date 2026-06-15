@@ -544,8 +544,9 @@ export default async function BlogPostDetailPage({ params }: Props) {
       {/* Article Container */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 md:pt-36">
         
-        {/* Back Button */}
-        <Link 
+        <div className="max-w-2xl mx-auto">
+          {/* Back Button */}
+          <Link 
           href="/blog" 
           className="inline-flex items-center gap-2 text-slate-400 hover:text-amber-400 text-sm font-medium transition-colors mb-8 group"
         >
@@ -632,7 +633,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
         <AuthorBox publishedDate={post.publishedAt} updatedDate={post.publishedAt} />
 
         {/* Article Body (Markdown parsed) */}
-        <div className="prose prose-invert max-w-none prose-headings:font-serif prose-headings:font-bold prose-p:text-slate-300 prose-p:leading-relaxed prose-li:text-slate-300">
+        <div className="prose prose-invert prose-readability max-w-none prose-headings:font-serif prose-headings:font-bold">
           {parseMarkdown(translation.content)}
         </div>
 
@@ -757,6 +758,8 @@ export default async function BlogPostDetailPage({ params }: Props) {
             </div>
           </section>
         )}
+
+        </div>
 
         {/* Related Posts */}
         {related.length > 0 && (
