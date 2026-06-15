@@ -34,7 +34,7 @@ interface Props {
 }
 
 const BASE_URL = 'https://www.giantswisdom.com'
-const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt'] as const
+const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt', 'ar', 'hi', 'ru', 'zh'] as const
 
 const uiTranslations: Record<string, Record<string, string>> = {
   ko: {
@@ -124,25 +124,77 @@ const uiTranslations: Record<string, Record<string, string>> = {
     ctaDesc: "Obtenha conselhos de vida diretos em tempo real e uma sabedoria profunda deste gigante histórico através do nosso chat de IA avançado.",
     share: "Compartilhar",
     copylink: "Copiar Link"
+  },
+  ar: {
+    backToBlog: "مدونة الحكمة",
+    readTime: "دقائق للقراءة",
+    chatWith: "دردش مع ",
+    chatNow: "ابدأ الدردشة",
+    relatedPosts: "مقالات ذات صلة",
+    ctaTitle: "دردش مباشرة مع ",
+    ctaDesc: "احصل على نصيحة مباشرة وحكمة عميقة من هذا العملاق التاريخي عبر دردشة الذكاء الاصطناعي المتقدمة الخاصة بنا.",
+    share: "مشاركة",
+    copylink: "نسخ الرابط"
+  },
+  hi: {
+    backToBlog: "ज्ञान ब्लॉग",
+    readTime: "मिनट पढ़ना",
+    chatWith: "के साथ चैट करें ",
+    chatNow: "चैट शुरू करें",
+    relatedPosts: "संबंधित पोस्ट",
+    ctaTitle: "सीधे चैट करें ",
+    ctaDesc: "हमारे उन्नत एआई चैट के माध्यम से इस ऐतिहासिक महान व्यक्ति से सीधे, वास्तविक समय में जीवन की सलाह और गहन ज्ञान प्राप्त करें।",
+    share: "साझा करें",
+    copylink: "लिंक कॉपी करें"
+  },
+  ru: {
+    backToBlog: "Блог мудрости",
+    readTime: "мин чтения",
+    chatWith: "Чат с ",
+    chatNow: "Начать чат",
+    relatedPosts: "Похожие публикации",
+    ctaTitle: "Чат напрямую с ",
+    ctaDesc: "Получите ценные жизненные советы и глубокую мудрость от этого исторического гиганта в реальном времени через наш продвинутый ИИ-чат.",
+    share: "Поделиться",
+    copylink: "Копировать ссылку"
+  },
+  zh: {
+    backToBlog: "智慧博客",
+    readTime: "分钟阅读",
+    chatWith: "与...对话 ",
+    chatNow: "开始对话",
+    relatedPosts: "相关文章",
+    ctaTitle: "与直接对话 ",
+    ctaDesc: "通过我们先进의 AI 对话，与这位历史伟人进行实时交流，获取人生的启示与深邃的智慧。",
+    share: "分享",
+    copylink: "复制链接"
   }
 }
 
 const categoryNames: Record<string, Record<string, string>> = {
-  ko: { leadership: "리더십", philosophy: "철학", creativity: "창의성", wisdom: "지혜" },
-  en: { leadership: "Leadership", philosophy: "Philosophy", creativity: "Creativity", wisdom: "Wisdom" },
-  de: { leadership: "Führung", philosophy: "Philosophie", creativity: "Kreativität", wisdom: "Weisheit" },
-  ja: { leadership: "リーダーシップ", philosophy: "哲学", creativity: "創造性", wisdom: "知恵" },
-  es: { leadership: "Liderazgo", philosophy: "Filosofía", creativity: "Creatividad", wisdom: "Sabiduría" },
-  fr: { leadership: "Leadership", philosophy: "Philosophie", creativity: "Créativité", wisdom: "Sagesse" },
-  it: { leadership: "Leadership", philosophy: "Filosofia", creativity: "Creatività", wisdom: "Saggezza" },
-  pt: { leadership: "Liderança", philosophy: "Filosofia", creativity: "Criatividade", wisdom: "Sabedoria" }
+  ko: { leadership: "리더십", philosophy: "철학", creativity: "창의성", wisdom: "지혜", science: "과학", arts: "예술", society: "사회", business: "비즈니스" },
+  en: { leadership: "Leadership", philosophy: "Philosophy", creativity: "Creativity", wisdom: "Wisdom", science: "Science", arts: "Arts", society: "Society", business: "Business" },
+  de: { leadership: "Führung", philosophy: "Philosophie", creativity: "Kreativität", wisdom: "Weisheit", science: "Wissenschaft", arts: "Künste", society: "Gesellschaft", business: "Geschäft" },
+  ja: { leadership: "リーダーシップ", philosophy: "哲学", creativity: "創造性", wisdom: "知恵", science: "科学", arts: "芸術", society: "社会", business: "ビジネス" },
+  es: { leadership: "Liderazgo", philosophy: "Filosofía", creativity: "Creatividad", wisdom: "Sabiduría", science: "Ciencia", arts: "Artes", society: "Sociedad", business: "Negocios" },
+  fr: { leadership: "Leadership", philosophy: "Philosophie", creativity: "Créativité", wisdom: "Sagesse", science: "Science", arts: "Arts", society: "Société", business: "Affaires" },
+  it: { leadership: "Leadership", philosophy: "Filosofia", creativity: "Creatività", wisdom: "Saggezza", science: "Scienza", arts: "Arti", society: "Società", business: "Affari" },
+  pt: { leadership: "Liderança", philosophy: "Filosofia", creativity: "Criatividade", wisdom: "Sabedoria", science: "Ciência", arts: "Artes", society: "Sociedade", business: "Negócios" },
+  ar: { leadership: "القيادة", philosophy: "الفلسفة", creativity: "الإبداع", wisdom: "الحكمة", science: "العلوم", arts: "الفنون", society: "المجتمع", business: "الأعمال" },
+  hi: { leadership: "नेतृत्व", philosophy: "दर्शन", creativity: "रचनात्मकता", wisdom: "ज्ञान", science: "विज्ञान", arts: "कला", society: "समाज", business: "व्यवसाय" },
+  ru: { leadership: "Лидерство", philosophy: "Философия", creativity: "Творчество", wisdom: "Мудрость", science: "Наука", arts: "Искусство", society: "Общество", business: "Бизнес" },
+  zh: { leadership: "领导力", philosophy: "哲学", creativity: "创造力", wisdom: "智慧", science: "科学", arts: "艺术", society: "社会", business: "商业" }
 }
 
 const colorMap: Record<string, string> = {
   leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
   philosophy: "from-emerald-500/20 to-teal-500/20 text-emerald-300 border-emerald-500/30",
   creativity: "from-purple-500/20 to-indigo-500/20 text-purple-300 border-purple-500/30",
-  wisdom: "from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-500/30"
+  wisdom: "from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-500/30",
+  science: "from-cyan-500/20 to-blue-500/20 text-cyan-300 border-cyan-500/30",
+  arts: "from-rose-500/20 to-pink-500/20 text-rose-300 border-rose-500/30",
+  society: "from-teal-500/20 to-emerald-500/20 text-teal-300 border-teal-500/30",
+  business: "from-yellow-500/20 to-amber-500/20 text-yellow-300 border-yellow-500/30"
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -437,6 +489,44 @@ export default async function BlogPostDetailPage({ params }: Props) {
     } : undefined
   }
 
+  // Extract blockquote text for Quotation schema
+  const quotesCollection: Array<{ text: string; creatorName?: string }> = []
+  const lines = translation.content.split('\n')
+  for (const line of lines) {
+    const trimmed = line.trim()
+    if (trimmed.startsWith('>')) {
+      let qText = trimmed.substring(1).trim()
+      let creatorName = localizedName
+      const authorMatch = qText.match(/(?:\s-\s|\s—\s|\s–\s)([^-—–]+)$/)
+      if (authorMatch) {
+        creatorName = authorMatch[1].trim()
+        qText = qText.substring(0, qText.length - authorMatch[0].length).trim()
+      }
+      qText = qText.replace(/^["'“‘]|["'”’]$/g, "").trim()
+      if (qText.length > 5) {
+        quotesCollection.push({ text: qText, creatorName })
+      }
+    }
+  }
+
+  const quotesSchema = quotesCollection.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": `${localizedName} ${locale === 'ko' ? '명언 모음' : locale === 'ja' ? '名言集' : locale === 'zh' ? '名言集' : 'Quotes Collection'}`,
+    "itemListElement": quotesCollection.map((item, idx) => ({
+      "@type": "ListItem",
+      "position": idx + 1,
+      "item": {
+        "@type": "Quotation",
+        "text": item.text,
+        "creator": {
+          "@type": "Person",
+          "name": item.creatorName
+        }
+      }
+    }))
+  } : null
+
   return (
     <div className="min-h-screen bg-background pb-24">
       <ConditionalAdSense />
@@ -444,6 +534,12 @@ export default async function BlogPostDetailPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      {quotesSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(quotesSchema) }}
+        />
+      )}
       <Navigation />
       {/* Article Container */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 md:pt-36">
