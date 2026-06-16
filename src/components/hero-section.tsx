@@ -25,6 +25,7 @@ const generateParticles = (count: number) => {
 
 export function HeroSection() {
   const t = useTranslations("Hero")
+  const tBrand = useTranslations("brand")
   const locale = useLocale()
   const [isVisible, setIsVisible] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
@@ -79,12 +80,19 @@ export function HeroSection() {
         </div>
 
         {/* Main title */}
-        <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-foreground mb-6 tracking-tight">
+        <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-foreground mb-4 tracking-tight animate-fade-in">
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200">
-            Giants
+            {tBrand("mainTitle")}
           </span>
-          <span className="block mt-2 italic">Wisdom</span>
+          <span className="block text-xs sm:text-sm md:text-base opacity-40 uppercase tracking-widest font-sans mt-3">
+            Giants Wisdom
+          </span>
         </h1>
+
+        {/* Subtitle */}
+        <p className="text-lg sm:text-xl md:text-2xl text-amber-100/70 font-light max-w-2xl mx-auto mb-8 animate-fade-in-delay">
+          {tBrand("subTitle")}
+        </p>
 
         {/* Quote */}
         <div className="relative max-w-3xl mx-auto mt-8 mb-12">

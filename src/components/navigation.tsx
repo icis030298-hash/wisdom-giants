@@ -14,6 +14,7 @@ import {
 
 export function Navigation() {
   const t = useTranslations("Navigation")
+  const tBrand = useTranslations("brand")
   const locale = useLocale()
   const router = useRouter()
   const pathname = usePathname()
@@ -87,10 +88,12 @@ export function Navigation() {
               <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-primary-foreground" />
             </div>
             <div className="hidden sm:block min-w-0 truncate">
-              <span className="font-serif text-lg font-semibold text-foreground group-hover:text-amber-200 transition-colors block truncate">
-                {t("title")}
+              <span className="font-serif text-lg font-bold text-foreground group-hover:text-amber-200 transition-colors block truncate leading-none">
+                {tBrand("mainTitle")}
               </span>
-              <p className="text-xs text-muted-foreground -mt-0.5 truncate">{t("subtitle")}</p>
+              <span className="text-[10px] opacity-40 tracking-widest uppercase font-medium block mt-1">
+                Giants Wisdom
+              </span>
             </div>
           </Link>
           
