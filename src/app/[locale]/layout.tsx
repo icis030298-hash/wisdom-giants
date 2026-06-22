@@ -93,6 +93,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     twitter: {
       card: 'summary_large_image',
+      site: '@GiantsWisdom',
+      creator: '@GiantsWisdom',
       images: ['https://www.giantswisdom.com/og-default.jpg'],
       title: t('metaTitle'),
       description: t('metaDescription'),
