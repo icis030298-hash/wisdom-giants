@@ -48,6 +48,7 @@ ${manualDeep.signatureQuestions[lang].join('\n')}
       customNeverDoes = `\nNEVER DO THESE: ${manualDeep.neverDoes.join(', ')}`;
     } else if (generatedDeep) {
       const detail = lang === 'ko' ? generatedDeep.ko : generatedDeep.en;
+      const questionsList = detail.questions || detail.signatureQuestions || [];
       customPersonaText = `
 [핵심 철학 / Core Philosophy]
 ${detail.corePhilosophy}
@@ -59,9 +60,9 @@ ${detail.communicationStyle}
 ${detail.personalStruggles}
 
 [당신이 자주 하는 질문들 / Signature Questions]
-${detail.questions.join('\n')}
+${questionsList.join('\n')}
 `;
-      customNeverDoes = `\nNEVER DO THESE: ${detail.neverDoes.join(', ')}`;
+      customNeverDoes = `\nNEVER DO THESE: ${(detail.neverDoes || []).join(', ')}`;
     }
     // 2. Check Tier 2 (Medium Depth)
     else {

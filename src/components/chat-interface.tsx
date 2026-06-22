@@ -640,7 +640,13 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
               </button>
             </div>
             
-            <p className="text-center text-[10px] text-muted-foreground mt-3 uppercase tracking-widest font-medium opacity-50">
+            <p className="text-center text-[10px] text-muted-foreground/60 max-w-md mx-auto leading-relaxed mt-3">
+              {locale === 'ko' ? "Giants Wisdom은 AI 챗봇으로서 실수를 할 수 있으므로, 중요한 정보는 위인의 실제 역사적 기록을 통해 한 번 더 확인하시기 바랍니다."
+               : locale === 'ja' ? "Giants WisdomはAI chatbotであり、誤った情報を表示することがあります。重要な情報は実際の歴史的記録でご確認ください。"
+               : "Giants Wisdom may display inaccurate info, including about people, so double-check its responses with historical records."}
+            </p>
+            
+            <p className="text-center text-[10px] text-muted-foreground mt-2 uppercase tracking-widest font-medium opacity-50">
               {locale === 'ko' ? "과거의 메아리 • 시간을 초월한 지혜"
                : locale === 'ja' ? "過去の残響 • 時を超える知恵"
                : locale === 'de' ? "Echos der Vergangenheit • Weisheit durch die Zeit"
