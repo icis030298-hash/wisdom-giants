@@ -122,13 +122,20 @@ export default function Footer() {
           </div>
 
           {/* Bottom bar */}
-          <div className="pt-10 border-t border-border/20 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="pt-10 border-t border-border/20 flex flex-col items-center justify-center gap-4 mt-16 text-center">
             <p className="text-xs text-muted-foreground/40 font-light tracking-wide">
               &copy; 2026 Giants Wisdom. {
-                locale === 'fr' ? 'Tous droits réservés.' :
-                locale === 'es' ? 'Todos los derechos reservados.' :
-                locale === 'de' ? 'Alle Rechte vorbehalten.' :
                 locale === 'ko' ? '모든 권리 보유.' :
+                locale === 'ja' ? '無断複写・転載を禁じます。' :
+                locale === 'de' ? 'Alle Rechte vorbehalten.' :
+                locale === 'es' ? 'Todos los derechos reservados.' :
+                locale === 'fr' ? 'Tous droits réservés.' :
+                locale === 'it' ? 'Tutti i diritti riservati.' :
+                locale === 'pt' ? 'Todos os direitos reservados.' :
+                locale === 'ar' ? 'كل الحقوق محفوظة.' :
+                locale === 'hi' ? 'सर्वाधिकार सुरक्षित।' :
+                locale === 'ru' ? 'Все права защищены.' :
+                locale === 'zh' ? '版权所有。' :
                 'All rights reserved.'
               }
             </p>

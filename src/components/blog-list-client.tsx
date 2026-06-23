@@ -162,10 +162,6 @@ export function BlogListClient() {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/3" />
         
         <div className="relative z-10 space-y-4 max-w-3xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 text-amber-300 text-xs font-bold uppercase border border-amber-500/20">
-            <BookOpen className="w-3.5 h-3.5" />
-            {t.badge}
-          </div>
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight leading-tight">
             {t.headerTitle}
           </h1>
@@ -200,20 +196,21 @@ export function BlogListClient() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {sortedPosts.map((post) => {
             const translation = post.translations[locale] || post.translations["en"]
-            const giant = giants.find((g) => g.slug === post.giantSlug)
+            const effectiveSlug = post.giantSlug || (post.giantSlugs && post.giantSlugs[0]);
+            const giant = giants.find((g) => g.slug === effectiveSlug)
             const readTime = getReadTime(translation.content, locale)
             const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30"
 
             const absoluteImageUrl = giant
               ? giant.imageUrl
-              : "/images/giants/cleopatra.png" // fallback for Cleopatra or general fallback
+              : "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
 
-            const localizedName = post.giantSlug === 'cleopatra'
+            const localizedName = effectiveSlug === 'cleopatra'
               ? (locale === 'ko' ? '클레오파트라' :
                  locale === 'ja' ? 'クレオパトラ' :
                  locale === 'de' ? 'Kleopatra' :
                  locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
-              : getTranslation(post.giantSlug || "", giant?.name || post.giantSlug || "")
+              : getTranslation(effectiveSlug || "", giant?.name || effectiveSlug || "Giants")
 
             return (
               <article

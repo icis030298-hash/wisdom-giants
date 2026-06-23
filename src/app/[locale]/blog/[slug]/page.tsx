@@ -396,7 +396,8 @@ export default async function BlogPostDetailPage({ params }: Props) {
   if (!post) notFound()
 
   const translation = post.translations[locale] || post.translations['en']
-  const giant = giants.find(g => g.slug === post.giantSlug)
+  const effectiveSlug = post.giantSlug || (post.giantSlugs && post.giantSlugs[0])
+  const giant = giants.find(g => g.slug === effectiveSlug)
   const readTime = getReadTime(translation.content, locale)
   const ui = uiTranslations[locale] || uiTranslations['en']
   const catNames = categoryNames[locale] || categoryNames['en']
@@ -438,12 +439,12 @@ export default async function BlogPostDetailPage({ params }: Props) {
     return `${particle} ${suffix}`;
   };
 
-  const localizedName = post.giantSlug === 'cleopatra'
+  const localizedName = effectiveSlug === 'cleopatra'
     ? (locale === 'ko' ? '클레오파트라' :
        locale === 'ja' ? 'クレオパトラ' :
        locale === 'de' ? 'Kleopatra' :
        locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
-    : getTranslation(post.giantSlug || "", giant?.name || post.giantSlug || "")
+    : getTranslation(effectiveSlug || "", giant?.name || effectiveSlug || "Giants")
 
   const absoluteImageUrl = giant
     ? giant.imageUrl

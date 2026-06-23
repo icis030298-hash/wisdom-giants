@@ -378,9 +378,6 @@ export function ConsultClient({ locale }: ConsultClientProps) {
             ))}
           </div>
         </div>
-        <footer className="w-full py-8 text-center text-[10px] text-stone-600 uppercase tracking-widest pointer-events-none">
-          © {new Date().getFullYear()} Giants Wisdom • Echoes of Wisdom
-        </footer>
       </div>
     )
   }
@@ -420,37 +417,10 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                 <div className="w-20 h-0.5 bg-gradient-to-r from-transparent via-amber-500/30 to-transparent mx-auto pt-2" />
               </div>
 
-              <div className="flex flex-wrap justify-center gap-6 w-full max-w-5xl">
-                {PROBLEM_CATEGORIES.map((problem) => {
-                  const pTrans = problem.translations[activeLocale] || problem.translations['en'];
-                  return (
-                    <m.button
-                      key={problem.id}
-                      onClick={() => handleSelectProblem(problem.id)}
-                      whileHover={{ scale: 1.02 }}
-                      whileTap={{ scale: 0.98 }}
-                      className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-stone-900/60 hover:bg-stone-900 border border-stone-800 hover:border-amber-500/40 rounded-3xl p-8 text-left transition-all group cursor-pointer relative overflow-hidden backdrop-blur-sm"
-                    >
-                      <div className="absolute inset-0 bg-gradient-to-br from-amber-500/[0.01] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                      <div className="text-5xl mb-6 transform group-hover:scale-110 transition-transform duration-300 filter drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
-                        {problem.emoji}
-                      </div>
-                      <h3 className="text-white font-bold text-xl mb-2 group-hover:text-amber-400 transition-colors font-serif">
-                        {pTrans.title}
-                      </h3>
-                      <p className="text-stone-400 text-sm mb-1 leading-relaxed">
-                        {pTrans.subtitle}
-                      </p>
-                      <p className="text-stone-600 text-xs leading-relaxed whitespace-pre-line group-hover:text-stone-500 transition-colors mt-2">
-                        {pTrans.description}
-                      </p>
-                    </m.button>
-                  );
-                })}
-              </div>
+
 
               {/* Custom Problem Input Section */}
-              <div className="w-full max-w-2xl mx-auto mt-16 p-8 rounded-[2rem] border border-amber-500/10 bg-stone-900/40 backdrop-blur-sm relative overflow-hidden text-center shadow-2xl">
+              <div className="w-full max-w-2xl mx-auto mt-8 p-8 rounded-[2rem] border border-amber-500/10 bg-stone-900/40 backdrop-blur-sm relative overflow-hidden text-center shadow-2xl">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/[0.02] rounded-full blur-2xl pointer-events-none" />
                 <h3 className="text-white font-serif font-bold text-xl mb-2 flex items-center justify-center gap-2">
                   <MessageSquare className="w-5 h-5 text-amber-400" />
@@ -583,11 +553,6 @@ export function ConsultClient({ locale }: ConsultClientProps) {
           )}
         </AnimatePresence>
       </div>
-
-      {/* Footer copyright space */}
-      <footer className="w-full py-8 text-center text-[10px] text-stone-600 uppercase tracking-widest pointer-events-none">
-        © {new Date().getFullYear()} Giants Wisdom • Echoes of Wisdom
-      </footer>
     </div>
   )
 }

@@ -676,12 +676,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           {/* 2. Trials & Overcoming Combined into a sophisticated layout */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {/* Trials */}
-            <section className="space-y-4 md:space-y-6">
+            <section className="space-y-4 md:space-y-6 flex flex-col h-full">
               <div className="flex items-center gap-3 text-red-400/80">
                 <History className="w-5 h-5" />
                 <h2 className="text-sm font-bold uppercase tracking-widest">{t.thePain}</h2>
               </div>
-              <div className="glass-card p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-red-500/10 bg-red-500/[0.02] relative group overflow-hidden">
+              <div className="glass-card flex-1 p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-red-500/10 bg-red-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-red-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-3 md:space-y-4">
                   {parseParagraphs(trialsContent).map((p: string, i: number) => (
@@ -696,12 +696,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
             </section>
 
             {/* Overcoming */}
-            <section className="space-y-4 md:space-y-6">
+            <section className="space-y-4 md:space-y-6 flex flex-col h-full">
               <div className="flex items-center gap-3 text-emerald-400/80">
                 <HeartPulse className="w-5 h-5" />
                 <h2 className="text-sm font-bold uppercase tracking-widest">{t.theRecovery}</h2>
               </div>
-              <div className="glass-card p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-emerald-500/10 bg-emerald-500/[0.02] relative group overflow-hidden">
+              <div className="glass-card flex-1 p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-emerald-500/10 bg-emerald-500/[0.02] relative group overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-3 md:space-y-4">
                   {parseParagraphs(overcomingContent).map((p: string, i: number) => (
@@ -717,7 +717,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
           </div>
 
           {/* 4. Wisdom (Quotes) Section */}
-          <section className="space-y-12">
+          <section className="space-y-8">
             <div className="flex flex-col items-center gap-4 text-center">
               <div className="w-16 h-16 rounded-full bg-amber-500/10 flex items-center justify-center border border-amber-500/20 shadow-[0_0_20px_rgba(245,158,11,0.1)]">
                 <Lightbulb className="w-8 h-8 text-amber-400" />
@@ -726,10 +726,10 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
             </div>
 
-            <div className="grid grid-cols-1 gap-6 md:gap-10">
+            <div className="grid grid-cols-1 gap-4 md:gap-6">
               {wisdomList.length > 0 ? (
                 wisdomList.map((item: any, index: number) => (
-                  <div key={index} className="glass-card p-6 md:p-12 rounded-2xl md:rounded-[3rem] border border-white/[0.05] hover:border-amber-500/30 transition-all duration-500 group relative overflow-hidden">
+                  <div key={index} className="glass-card p-6 md:p-8 rounded-2xl md:rounded-[2rem] border border-white/[0.05] hover:border-amber-500/30 transition-all duration-500 group relative overflow-hidden">
                     <div className="absolute -top-10 -left-10 w-40 h-40 bg-amber-500/[0.03] rounded-full blur-3xl group-hover:bg-amber-500/[0.07] transition-colors" />
                     
                     <div className="relative z-10">
@@ -774,17 +774,10 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
 
         {/* Right Column: Profile & Quote */}
         <div className="space-y-8">
-          <div className="glass-card p-6 md:p-10 rounded-2xl md:rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-white/[0.05] to-transparent sticky top-24 space-y-6 md:space-y-10">
-            {/* Header with Quote Icon */}
-            <div className="relative">
-              <Quote className="w-8 h-8 md:w-12 md:h-12 text-amber-500/20 absolute -top-4 -left-4 md:-top-6 md:-left-6" />
-              <blockquote className="text-lg md:text-2xl font-serif italic text-foreground leading-tight relative z-10 whitespace-pre-wrap pl-2">
-                &ldquo;{formatContent(tg.quote)}&rdquo;
-              </blockquote>
-            </div>
+          <div className="glass-card p-6 md:p-8 rounded-2xl border border-white/10 bg-gradient-to-br from-white/[0.05] to-transparent sticky top-24 space-y-6">
             
             {/* Metadata with better styling */}
-            <div className="grid grid-cols-2 gap-6 py-8 border-y border-white/5">
+            <div className="grid grid-cols-2 gap-6 pb-2 border-b border-white/5">
               <div className="space-y-1">
                 <h4 className="text-[10px] font-bold text-amber-500/60 uppercase tracking-[0.2em]">{t.era}</h4>
                 <p className="text-sm font-medium text-foreground/80">{eraContent}</p>
@@ -794,15 +787,6 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 <p className="text-sm font-medium text-foreground/80">{categoryLabel}</p>
               </div>
             </div>
-
-            {/* Action Button: Glowing & Premium */}
-            <button 
-              onClick={() => setIsChatOpen(true)}
-              className="w-full py-5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-black font-black text-lg transition-all shadow-[0_0_30px_rgba(245,158,11,0.2)] hover:shadow-[0_0_40px_rgba(245,158,11,0.4)] flex items-center justify-center gap-3 group active:scale-95"
-            >
-              <MessageCircle className="w-6 h-6 group-hover:rotate-12 transition-transform" />
-              {t.askForAdvice}
-            </button>
 
             {/* Wikipedia E-E-A-T Link */}
             {wikipediaUrl && (
