@@ -24,7 +24,7 @@ export async function generateMetadata({
   };
   const description = descMap[locale] ?? descMap['en'];
 
-  const hreflangLanguages: Record<string, string> = { 'x-default': `${BASE_URL}/ko/about` };
+  const hreflangLanguages: Record<string, string> = { 'x-default': `${BASE_URL}/en/about` };
   for (const loc of LOCALES) {
     hreflangLanguages[loc] = `${BASE_URL}/${loc}/about`;
   }

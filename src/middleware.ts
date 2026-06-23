@@ -50,7 +50,8 @@ export default async function middleware(request: NextRequest) {
     const acceptLanguage = request.headers.get('accept-language') || '';
     const locale = detectLocale(acceptLanguage);
     const redirectUrl = new URL(`/${locale}${pathname}${request.nextUrl.search}`, request.url);
-    return NextResponse.redirect(redirectUrl, 307);
+    // Use 308 permanent redirect for SEO weight consolidation
+    return NextResponse.redirect(redirectUrl, 308);
   }
 
   // Bot/crawler: skip Supabase session check to avoid 500 errors

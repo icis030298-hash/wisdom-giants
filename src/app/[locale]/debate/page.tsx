@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // Build hreflang alternates for all locales
   const hreflangLanguages: Record<string, string> = {
-    'x-default': `${BASE_URL}/ko/debate`,
+    'x-default': `${BASE_URL}/en/debate`,
   };
   for (const loc of LOCALES) {
     hreflangLanguages[loc] = `${BASE_URL}/${loc}/debate`;

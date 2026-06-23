@@ -24,7 +24,7 @@ const HREFLANG: Record<Locale, string> = {
 
 /** Build alternates object for a given path (e.g. '' | '/test' | '/giant/steve-jobs') */
 function buildAlternates(path: string) {
-  const languages: Record<string, string> = { 'x-default': `${BASE_URL}/ko${path}` }
+  const languages: Record<string, string> = { 'x-default': `${BASE_URL}/en${path}` }
   for (const locale of LOCALES) {
     languages[HREFLANG[locale]] = `${BASE_URL}/${locale}${path}`
   }

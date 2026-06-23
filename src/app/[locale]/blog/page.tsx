@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = descMap[locale] ?? descMap['en']
 
   const hreflangLanguages: Record<string, string> = {
-    'x-default': `${BASE_URL}/ko/blog`,
+    'x-default': `${BASE_URL}/en/blog`,
   }
   for (const loc of LOCALES) {
     hreflangLanguages[loc] = `${BASE_URL}/${loc}/blog`
