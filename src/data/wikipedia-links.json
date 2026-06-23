@@ -1,0 +1,1202 @@
+{
+  "napoleon-bonaparte": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%82%98%ED%8F%B4%EB%A0%88%EC%98%B9_%EB%B3%B4%EB%82%98%ED%8C%8C%EB%A5%B4%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Napoleon_Bonaparte"
+  },
+  "king-sejong": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%84%B8%EC%A2%85%EB%8C%80%EC%99%95",
+    "en": "https://en.wikipedia.org/wiki/King_Sejong"
+  },
+  "genghis-khan": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A7%95%EA%B8%B0%EC%8A%A4%EC%B9%B8",
+    "en": "https://en.wikipedia.org/wiki/Genghis_Khan"
+  },
+  "alexander-the-great": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A0%89%EC%82%B0%EB%8D%94_%EB%8C%80%EC%99%95",
+    "en": "https://en.wikipedia.org/wiki/Alexander_the_Great"
+  },
+  "walt-disney": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9B%94%ED%8A%B8_%EB%94%94%EC%A6%88%EB%8B%88",
+    "en": "https://en.wikipedia.org/wiki/Walt_Disney"
+  },
+  "thomas-edison": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%86%A0%EB%A7%88%EC%8A%A4_%EC%97%90%EB%94%94%EC%8A%A8",
+    "en": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  "julius-caesar": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%A8%EB%A6%AC%EC%9A%B0%EC%8A%A4_%EC%B9%B4%EC%9D%B4%EC%82%AC%EB%A5%B4",
+    "en": "https://en.wikipedia.org/wiki/Julius_Caesar"
+  },
+  "henry-ford": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%97%A8%EB%A6%AC_%ED%8F%AC%EB%93%9C",
+    "en": "https://en.wikipedia.org/wiki/Henry_Ford"
+  },
+  "frida-kahlo": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%AC%EB%8B%A4_%EC%B9%BC%EB%A1%9C",
+    "en": "https://en.wikipedia.org/wiki/Frida_Kahlo"
+  },
+  "cicero": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%82%A4%EC%BC%80%EB%A1%9C",
+    "en": "https://en.wikipedia.org/wiki/Cicero"
+  },
+  "helen-keller": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%97%AC%EB%A0%8C_%EC%BC%88%EB%9F%AC",
+    "en": "https://en.wikipedia.org/wiki/Helen_Keller"
+  },
+  "beethoven": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EB%93%9C%EB%B9%84%ED%9E%88_%ED%8C%90_%EB%B2%A0%ED%86%A0%EB%B2%A4",
+    "en": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+  },
+  "franklin-d-roosevelt": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%AD%ED%81%B4%EB%A6%B0_D._%EB%A3%A8%EC%8A%A4%EB%B2%A8%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt"
+  },
+  "marcus-aurelius": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A5%B4%EC%BF%A0%EC%8A%A4_%EC%95%84%EC%9A%B0%EB%A0%90%EB%A6%AC%EC%9A%B0%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Marcus_Aurelius"
+  },
+  "seneca": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%84%B8%EB%84%A4%EC%B9%B4",
+    "en": "https://en.wikipedia.org/wiki/Seneca"
+  },
+  "confucius": {
+    "ko": "https://ko.wikipedia.org/wiki/%EA%B3%B5%EC%9E%90",
+    "en": "https://en.wikipedia.org/wiki/Confucius"
+  },
+  "socrates": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%86%8C%ED%81%AC%EB%9D%BC%ED%85%8C%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Socrates"
+  },
+  "lao-tzu": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%85%B8%EC%9E%90",
+    "en": "https://en.wikipedia.org/wiki/Laozi"
+  },
+  "aristotle": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A6%AC%EC%8A%A4%ED%86%A0%ED%85%94%EB%A0%88%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Aristotle"
+  },
+  "plato": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9D%BC%ED%86%A4",
+    "en": "https://en.wikipedia.org/wiki/Plato"
+  },
+  "leonardo-da-vinci": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A0%88%EC%98%A4%EB%82%98%EB%A5%B4%EB%8F%84_%EB%8B%A4_%EB%B9%88%EC%B9%98",
+    "en": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+  },
+  "mozart": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%AA%A8%EC%B0%A8%EB%A5%B4%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+  },
+  "william-shakespeare": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%8C%EB%A6%AC%EC%97%84_%EC%85%B0%EC%9D%B5%EC%8A%A4%ED%94%BC%EC%96%B4",
+    "en": "https://en.wikipedia.org/wiki/William_Shakespeare"
+  },
+  "albert-einstein": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%B2%A0%EB%A5%B4%ED%8A%B8_%EC%95%84%EC%9D%B8%EC%8A%88%ED%83%80%EC%9D%B8",
+    "en": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "marie-curie": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC_%ED%80%B4%EB%A6%AC",
+    "en": "https://en.wikipedia.org/wiki/Marie_Curie"
+  },
+  "nikola-tesla": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%8B%88%EC%BD%9C%EB%9D%BC_%ED%85%8C%EC%8A%AC%EB%9D%BC",
+    "en": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+  },
+  "vincent-van-gogh": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B9%88%EC%84%BC%ED%8A%B8_%EB%B0%98_%EA%B3%A0%ED%9D%90",
+    "en": "https://en.wikipedia.org/wiki/Vincent_van_Gogh"
+  },
+  "abraham-lincoln": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%90%EC%9D%B4%EB%B8%8C%EB%9F%AC%ED%96%84_%EB%A7%81%EC%BB%A8",
+    "en": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+  },
+  "george-washington": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80_%EC%9B%8C%EC%8B%B1%ED%84%B4",
+    "en": "https://en.wikipedia.org/wiki/George_Washington"
+  },
+  "yi-sun-shin": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%88%9C%EC%8B%A0",
+    "en": "https://en.wikipedia.org/wiki/Yi_Sun-sin"
+  },
+  "elizabeth-i": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%A0%EC%8A%A4_1%EC%84%B8",
+    "en": "https://en.wikipedia.org/wiki/Elizabeth_I"
+  },
+  "gwanggaeto-the-great": {
+    "ko": "https://ko.wikipedia.org/wiki/%EA%B4%91%EA%B0%9C%ED%86%A0%EB%8C%80%EC%99%95",
+    "en": "https://en.wikipedia.org/wiki/Gwanggaeto_the_Great"
+  },
+  "winston-churchill": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%88%EC%8A%A4%ED%84%B4_%EC%B2%98%EC%B9%A0",
+    "en": "https://en.wikipedia.org/wiki/Winston_Churchill"
+  },
+  "qin-shi-huang": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A7%84%EC%8B%9C%ED%99%A9",
+    "en": "https://en.wikipedia.org/wiki/Qin_Shi_Huang"
+  },
+  "augustus": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9A%B0%EA%B5%AC%EC%8A%A4%ED%88%AC%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Augustus"
+  },
+  "otto-von-bismarck": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%98%A4%ED%86%A0_%ED%8F%B0_%EB%B9%84%EC%8A%A4%EB%A7%88%EB%A5%B4%ED%81%AC",
+    "en": "https://en.wikipedia.org/wiki/Otto_von_Bismarck"
+  },
+  "peter-the-great": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%91%9C%ED%8A%B8%EB%A5%B4_%EB%8C%80%EC%A0%9C",
+    "en": "https://en.wikipedia.org/wiki/Peter_the_Great"
+  },
+  "catherine-the-great": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%98%88%EC%B9%B4%ED%85%8C%EB%A6%AC%EB%82%98_%EB%8C%80%EC%A0%9C",
+    "en": "https://en.wikipedia.org/wiki/Catherine_the_Great"
+  },
+  "simon-bolivar": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%AA%AC_%EB%B3%BC%EB%A6%AC%EB%B0%94%EB%A5%B4",
+    "en": "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar"
+  },
+  "john-d-rockefeller": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B4_D._%EB%A1%9D%ED%8E%A0%EB%9F%AC",
+    "en": "https://en.wikipedia.org/wiki/John_D._Rockefeller"
+  },
+  "ataturk": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%8A%A4%ED%83%80%ED%8C%8C_%EC%BC%80%EB%A7%90_%EC%95%84%ED%83%80%ED%8A%80%EB%A5%B4%ED%81%AC",
+    "en": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk"
+  },
+  "theodore-roosevelt": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%85%8C%EC%98%A4%EB%8F%84%EB%A5%B4_%EB%A3%A8%EC%8A%A4%EB%B2%A8%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Theodore_Roosevelt"
+  },
+  "anne-frank": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%88%EB%84%A4_%ED%94%84%EB%9E%91%ED%81%AC",
+    "en": "https://en.wikipedia.org/wiki/Anne_Frank"
+  },
+  "rosa-parks": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%9E%90_%ED%8C%8C%ED%81%AC%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Rosa_Parks"
+  },
+  "frederick-douglass": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A0%88%EB%8D%B0%EB%A6%AD_%EB%8D%94%EA%B8%80%EB%9F%AC%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Frederick_Douglass"
+  },
+  "harriet-tubman": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%95%B4%EB%A6%AC%EC%97%87_%ED%84%B0%EB%B8%8C%EB%A8%BC",
+    "en": "https://en.wikipedia.org/wiki/Harriet_Tubman"
+  },
+  "florence-nightingale": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%EB%A0%8C%EC%8A%A4_%EB%82%98%EC%9D%B4%ED%8C%85%EA%B2%8C%EC%9D%BC",
+    "en": "https://en.wikipedia.org/wiki/Florence_Nightingale"
+  },
+  "yu-gwan-sun": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%A0%EA%B4%80%EC%88%9C",
+    "en": "https://en.wikipedia.org/wiki/Yu_Gwan-sun"
+  },
+  "louis-braille": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A3%A8%EC%9D%B4_%EB%B8%8C%EB%9D%BC%EC%9C%A0",
+    "en": "https://en.wikipedia.org/wiki/Louis_Braille"
+  },
+  "joan-of-arc": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9E%94_%EB%8B%A4%EB%A5%B4%ED%81%AC",
+    "en": "https://en.wikipedia.org/wiki/Joan_of_Arc"
+  },
+  "harriet-beecher-stowe": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%95%B4%EB%A6%AC%EC%97%87_%EB%B9%84%EC%B2%98_%EC%8A%A4%ED%86%A0",
+    "en": "https://en.wikipedia.org/wiki/Harriet_Beecher_Stowe"
+  },
+  "kim-gu": {
+    "ko": "https://ko.wikipedia.org/wiki/%EA%B9%80%EA%B5%AC",
+    "en": "https://en.wikipedia.org/wiki/Kim_Ku"
+  },
+  "buddha": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B6%93%EB%8B%A4",
+    "en": "https://en.wikipedia.org/wiki/Buddha"
+  },
+  "friedrich-nietzsche": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%AC%EB%93%9C%EB%A6%AC%ED%9E%88_%EB%8B%88%EC%B2%B4",
+    "en": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche"
+  },
+  "immanuel-kant": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%A7%88%EB%88%84%EC%97%98_%EC%B9%B8%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Immanuel_Kant"
+  },
+  "rene-descartes": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A5%B4%EB%84%A4_%EB%8D%B0%EC%B9%B4%EB%A5%B4%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+  },
+  "jean-jacques-rousseau": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9E%A5_%EC%9E%90%ED%81%AC_%EB%A3%A8%EC%86%8C",
+    "en": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau"
+  },
+  "sigmund-freud": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A7%80%EA%B7%B8%EB%AC%B8%ED%8A%B8_%ED%94%84%EB%A1%9C%EC%9D%B4%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Sigmund_Freud"
+  },
+  "carl-jung": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%B9%BC_%EC%9C%B5",
+    "en": "https://en.wikipedia.org/wiki/Carl_Jung"
+  },
+  "baruch-spinoza": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A4%BC%ED%9D%90_%EC%8A%A4%ED%94%BC%EB%85%B8%EC%9E%90",
+    "en": "https://en.wikipedia.org/wiki/Baruch_Spinoza"
+  },
+  "sun-tzu": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%86%90%EB%AC%B4",
+    "en": "https://en.wikipedia.org/wiki/Sun_Tzu"
+  },
+  "david-hume": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%EB%B9%84%EB%93%9C_%ED%9D%84",
+    "en": "https://en.wikipedia.org/wiki/David_Hume"
+  },
+  "john-locke": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B4_%EB%A1%9C%ED%81%AC",
+    "en": "https://en.wikipedia.org/wiki/John_Locke"
+  },
+  "simone-de-beauvoir": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%AA%AC_%EB%93%9C_%EB%B3%B4%EB%B6%80%EC%95%84%EB%A5%B4",
+    "en": "https://en.wikipedia.org/wiki/Simone_de_Beauvoir"
+  },
+  "hannah-arendt": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%95%9C%EB%82%98_%EC%95%84%EB%A0%8C%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Hannah_Arendt"
+  },
+  "soren-kierkegaard": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%87%A0%EB%A0%8C_%ED%82%A4%EC%97%90%EB%A5%B4%EC%BC%80%EA%B3%A0%EB%A5%B4",
+    "en": "https://en.wikipedia.org/wiki/Soren_Kierkegaard"
+  },
+  "arthur-schopenhauer": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%88%AC%EC%96%B4_%EC%87%BC%ED%8E%9C%ED%95%98%EC%9A%B0%EC%96%B4",
+    "en": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer"
+  },
+  "isaac-newton": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EC%9E%91_%EB%89%B4%ED%84%B4",
+    "en": "https://en.wikipedia.org/wiki/Isaac_Newton"
+  },
+  "galileo-galilei": {
+    "ko": "https://ko.wikipedia.org/wiki/%EA%B0%88%EB%A6%B4%EB%A0%88%EC%98%A4_%EA%B0%88%EB%A6%B4%EB%A0%88%EC%9D%B4",
+    "en": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+  },
+  "charles-darwin": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%B0%B0%EC%8A%A4_%EB%8B%A4%EC%9C%88",
+    "en": "https://en.wikipedia.org/wiki/Charles_Darwin"
+  },
+  "michelangelo": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%BC%88%EB%9E%80%EC%A0%A4%EB%A1%9C_%EB%B6%80%EC%98%A4%EB%82%98%EB%A1%9C%ED%8B%B0",
+    "en": "https://en.wikipedia.org/wiki/Michelangelo"
+  },
+  "claude-monet": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%81%B4%EB%A1%9C%EB%93%9C_%EB%AA%A8%EB%84%A4",
+    "en": "https://en.wikipedia.org/wiki/Claude_Monet"
+  },
+  "fyodor-dostoevsky": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%91%9C%EB%8F%84%EB%A5%B4_%EB%8F%84%EC%8A%A4%ED%86%A0%EC%98%99%EC%8A%A4%ED%82%A4",
+    "en": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+  },
+  "victor-hugo": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B9%85%ED%86%A0%EB%A5%B4_%EC%9C%84%EA%B3%A0",
+    "en": "https://en.wikipedia.org/wiki/Victor_Hugo"
+  },
+  "anton-chekhov": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%88%ED%86%A4_%EC%B2%B4%ED%98%B8%ED%94%84",
+    "en": "https://en.wikipedia.org/wiki/Anton_Chekhov"
+  },
+  "frederic-chopin": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A0%88%EB%8D%B0%EB%A6%AC%ED%81%AC_%EC%87%BC%ED%8C%BD",
+    "en": "https://en.wikipedia.org/wiki/Frederic_Chopin"
+  },
+  "katsushika-hokusai": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%B8%A0%EC%8B%9C%EC%B9%B4_%ED%98%B8%EC%BF%A0%EC%82%AC%EC%9D%B4",
+    "en": "https://en.wikipedia.org/wiki/Katsushika_Hokusai"
+  },
+  "agatha-christie": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%A0%EA%B1%B0%EC%82%AC_%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8B%B0",
+    "en": "https://en.wikipedia.org/wiki/Agatha_Christie"
+  },
+  "mark-twain": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC_%ED%8A%B8%EC%9B%A8%EC%9D%B8",
+    "en": "https://en.wikipedia.org/wiki/Mark_Twain"
+  },
+  "goethe": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9A%94%ED%95%9C_%EB%B3%BC%ED%94%84%EA%B0%95_%ED%8F%B0_%EA%B4%B4%ED%85%8C",
+    "en": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"
+  },
+  "mary-shelley": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A6%AC_%EC%85%B8%EB%A6%AC",
+    "en": "https://en.wikipedia.org/wiki/Mary_Shelley"
+  },
+  "alexander-fleming": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+  },
+  "alexander-hamilton": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Alexander_Hamilton"
+  },
+  "benjamin-franklin": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Benjamin_Franklin"
+  },
+  "francis-bacon": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%9C%EC%8B%9C%EC%8A%A4_%EB%B2%A0%EC%9D%B4%EC%BB%A8",
+    "en": "https://en.wikipedia.org/wiki/Francis_Bacon"
+  },
+  "johannes-kepler": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+  },
+  "john-f-kennedy": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B4_F._%EC%BC%80%EB%84%A4%EB%94%94",
+    "en": "https://en.wikipedia.org/wiki/John_F._Kennedy"
+  },
+  "queen-victoria": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Queen_Victoria"
+  },
+  "thomas-jefferson": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Thomas_Jefferson"
+  },
+  "ahn-jung-geun": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%88%EC%A4%91%EA%B7%BC",
+    "en": "https://en.wikipedia.org/wiki/Ahn_Jung-geun"
+  },
+  "empress-wu-zetian": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Empress_Wu_Zetian"
+  },
+  "jeong-yak-yong": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%95%BD%EC%9A%A9",
+    "en": "https://en.wikipedia.org/wiki/Jeong_Yak-yong"
+  },
+  "mencius": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%B9%EC%9E%90",
+    "en": "https://en.wikipedia.org/wiki/Mencius"
+  },
+  "sima-qian": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%82%AC%EB%A7%88%EC%B2%9C",
+    "en": "https://en.wikipedia.org/wiki/Sima_Qian"
+  },
+  "zhuangzi": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%9E%90",
+    "en": "https://en.wikipedia.org/wiki/Zhuangzi"
+  },
+  "zhuge-liang": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Zhuge_Liang"
+  },
+  "ashoka-the-great": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%86%8C%EC%B9%B4_%EB%8C%80%EC%99%95",
+    "en": "https://en.wikipedia.org/wiki/Ashoka_The_Great"
+  },
+  "king-jeongjo": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/King_Jeongjo"
+  },
+  "li-bai": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%B0%B1",
+    "en": "https://en.wikipedia.org/wiki/Li_Bai"
+  },
+  "miyamoto-musashi": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Miyamoto_Musashi"
+  },
+  "oda-nobunaga": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Oda_Nobunaga"
+  },
+  "sun-yat-sen": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Sun_Yat-sen"
+  },
+  "tokugawa-ieyasu": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Tokugawa_Ieyasu"
+  },
+  "toyotomi-hideyoshi": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%8F%84%EC%9A%94%ED%86%A0%EB%AF%B8_%ED%9E%88%EB%8D%B0%EC%9A%94%EC%8B%9C",
+    "en": "https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi"
+  },
+  "chulalongkorn": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Chulalongkorn"
+  },
+  "hannibal-barca": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Hannibal_Barca"
+  },
+  "ibn-battuta": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%B8%90_%EB%B0%94%ED%88%AC%ED%83%80",
+    "en": "https://en.wikipedia.org/wiki/Ibn_Battuta"
+  },
+  "jayavarman-vii": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Jayavarman_VII"
+  },
+  "mansa-musa": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%8C%EC%82%AC_%EB%AC%B4%EC%82%AC",
+    "en": "https://en.wikipedia.org/wiki/Mansa_Musa"
+  },
+  "shaka-zulu": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%83%A4%EC%B9%B4_%EC%A4%84%EB%A3%A8",
+    "en": "https://en.wikipedia.org/wiki/Shaka_Zulu"
+  },
+  "al-khwarizmi": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C%EC%BD%B0%EB%A6%AC%EC%A6%88%EB%AF%B8",
+    "en": "https://en.wikipedia.org/wiki/Al-Khwarizmi"
+  },
+  "br-ambedkar": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/BR_Ambedkar"
+  },
+  "chandragupta-maurya": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Chandragupta_Maurya"
+  },
+  "omar-khayyam": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Omar_Khayyam"
+  },
+  "robert-oppenheimer": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B2%84%ED%8A%B8_%EC%98%A4%ED%8E%9C%ED%95%98%EC%9D%B4%EB%A8%B8",
+    "en": "https://en.wikipedia.org/wiki/Robert_Oppenheimer"
+  },
+  "saladin": {
+    "ko": "https://ko.wikipedia.org/wiki/Sandinista!",
+    "en": "https://en.wikipedia.org/wiki/Saladin"
+  },
+  "srinivasa-ramanujan": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"
+  },
+  "suleiman-the-magnificent": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent"
+  },
+  "swami-vivekananda": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Swami_Vivekananda"
+  },
+  "wright-brothers": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Wright_brothers"
+  },
+  "adam-smith": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Adam_Smith"
+  },
+  "archimedes": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%84%EB%A5%B4%ED%82%A4%EB%A9%94%EB%8D%B0%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Archimedes"
+  },
+  "copernicus": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%8B%88%EC%BD%9C%EB%9D%BC%EC%9A%B0%EC%8A%A4_%EC%BD%94%ED%8E%98%EB%A5%B4%EB%8B%88%EC%BF%A0%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+  },
+  "dante-alighieri": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%8B%A8%ED%85%8C_%EC%95%8C%EB%A6%AC%EA%B8%B0%EC%97%90%EB%A6%AC",
+    "en": "https://en.wikipedia.org/wiki/Dante_Alighieri"
+  },
+  "johannes-gutenberg": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9A%94%ED%95%98%EB%84%A4%EC%8A%A4_%EA%B5%AC%ED%85%90%EB%B2%A0%EB%A5%B4%ED%81%AC",
+    "en": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+  },
+  "louis-pasteur": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Louis_Pasteur"
+  },
+  "machiavelli": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Machiavelli"
+  },
+  "voltaire": {
+    "ko": "https://ko.wikipedia.org/wiki/Volatile_%EB%B3%80%EC%88%98",
+    "en": "https://en.wikipedia.org/wiki/Voltaire"
+  },
+  "alexander-graham-bell": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+  },
+  "amelia-earhart": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Amelia_Earhart"
+  },
+  "andrew-carnegie": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Andrew_Carnegie"
+  },
+  "edgar-allan-poe": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe"
+  },
+  "ernest-hemingway": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%96%B4%EB%8B%88%EC%8A%A4%ED%8A%B8_%ED%97%A4%EB%B0%8D%EC%9B%A8%EC%9D%B4",
+    "en": "https://en.wikipedia.org/wiki/Ernest_Hemingway"
+  },
+  "henry-david-thoreau": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Henry_David_Thoreau"
+  },
+  "jp-morgan": {
+    "ko": "https://ko.wikipedia.org/wiki/JPMorgan_Chase",
+    "en": "https://en.wikipedia.org/wiki/JP_Morgan_Asset_Management"
+  },
+  "ralph-waldo-emerson": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Ralph_Waldo_Emerson"
+  },
+  "susan-b-anthony": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Susan_B._Anthony"
+  },
+  "walt-whitman": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Walt_Whitman"
+  },
+  "max-planck": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%89%EC%8A%A4_%ED%94%8C%EB%9E%91%ED%81%AC",
+    "en": "https://en.wikipedia.org/wiki/Max_Planck"
+  },
+  "hypatia": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%9E%88%ED%8C%8C%ED%8B%B0%EC%95%84",
+    "en": "https://en.wikipedia.org/wiki/Hypatia"
+  },
+  "ibn-al-haytham": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Ibn_al-Haytham"
+  },
+  "blaise-pascal": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B8%94%EB%A0%88%EC%A6%88_%ED%8C%8C%EC%8A%A4%EC%B9%BC",
+    "en": "https://en.wikipedia.org/wiki/Blaise_Pascal"
+  },
+  "dmitri-mendeleev": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+  },
+  "ada-lovelace": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  "alan-turing": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%A8%EB%9F%B0_%ED%8A%9C%EB%A7%81",
+    "en": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  "charles-babbage": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Charles_Babbage"
+  },
+  "ibn-sina": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%B8%90_%EC%8B%9C%EB%82%98",
+    "en": "https://en.wikipedia.org/wiki/Ibn_Sina"
+  },
+  "james-watt": {
+    "ko": "https://ko.wikipedia.org/wiki/James_Arthur_(%EC%9D%8C%EB%B0%98)",
+    "en": "https://en.wikipedia.org/wiki/James_Watt"
+  },
+  "george-stephenson": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/George_Stephenson"
+  },
+  "gregor-mendel": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Gregor_Mendel"
+  },
+  "antoine-lavoisier": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%99%ED%88%AC%EC%95%88_%EB%9D%BC%EB%B6%80%EC%95%84%EC%A7%80%EC%97%90",
+    "en": "https://en.wikipedia.org/wiki/Antoine_Lavoisier"
+  },
+  "li-shizhen": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%8B%9C%EC%A7%84",
+    "en": "https://en.wikipedia.org/wiki/Li_Shizhen"
+  },
+  "guglielmo-marconi": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Guglielmo_Marconi"
+  },
+  "robert-koch": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B2%A0%EB%A5%B4%ED%8A%B8_%EC%BD%94%ED%9D%90",
+    "en": "https://en.wikipedia.org/wiki/Robert_Koch"
+  },
+  "thomas-aquinas": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Thomas_Aquinas"
+  },
+  "rumi": {
+    "ko": "https://ko.wikipedia.org/wiki/Rumination",
+    "en": "https://en.wikipedia.org/wiki/Rumi"
+  },
+  "ibn-rushd": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Ibn_Rushd"
+  },
+  "william-james": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/William_James"
+  },
+  "friedrich-schiller": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Friedrich_Schiller"
+  },
+  "george-washington-carver": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/George_Washington_Carver"
+  },
+  "al-ghazali": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C_%EA%B0%80%EC%9E%98%EB%A6%AC",
+    "en": "https://en.wikipedia.org/wiki/Al-Ghazali"
+  },
+  "ibn-khaldun": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EB%B8%90_%ED%95%A0%EB%91%94",
+    "en": "https://en.wikipedia.org/wiki/Ibn_Khaldun"
+  },
+  "maimonides": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Maimonides"
+  },
+  "zoroaster": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EB%A1%9C%EC%95%84%EC%8A%A4%ED%84%B0",
+    "en": "https://en.wikipedia.org/wiki/Zoroaster"
+  },
+  "miguel-de-cervantes": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B2%94_%EB%8D%B0_%EC%84%B8%EB%A5%B4%EB%B0%98%ED%85%8C%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes"
+  },
+  "leo-tolstoy": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+  },
+  "murasaki-shikibu": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%AC%B4%EB%9D%BC%EC%82%AC%ED%82%A4_%EC%8B%9C%ED%82%A4%EB%B6%80",
+    "en": "https://en.wikipedia.org/wiki/Murasaki_Shikibu"
+  },
+  "edgar-degas": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Edgar_Degas"
+  },
+  "oscar-wilde": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Oscar_Wilde"
+  },
+  "rabindranath-tagore": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Rabindranath_Tagore"
+  },
+  "sor-juana-ines-de-la-cruz": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Sor_Juana_Ines_De_La_Cruz"
+  },
+  "li-qingzhao": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%B2%AD%EC%A1%B0",
+    "en": "https://en.wikipedia.org/wiki/Li_Qingzhao"
+  },
+  "matsuo-basho": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%93%B0%EC%98%A4_%EB%B0%94%EC%87%BC",
+    "en": "https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D"
+  },
+  "william-wilberforce": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/William_Wilberforce"
+  },
+  "toussaint-louverture": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%88%AC%EC%83%9D_%EB%A3%A8%EB%B2%A0%EB%A5%B4%ED%8A%80%EB%A5%B4",
+    "en": "https://en.wikipedia.org/wiki/Toussaint_Louverture"
+  },
+  "sojourner-truth": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Sojourner_Truth"
+  },
+  "emmeline-pankhurst": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Emmeline_Pankhurst"
+  },
+  "jose-rizal": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%98%B8%EC%84%B8_%EB%A6%AC%EC%82%B4",
+    "en": "https://en.wikipedia.org/wiki/Jos%C3%A9_Rizal"
+  },
+  "mary-wollstonecraft": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A6%AC_%EC%9A%B8%EC%8A%A4%ED%84%B4%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Mary_Wollstonecraft"
+  },
+  "lucretia-mott": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Lucretia_Mott"
+  },
+  "marco-polo": {
+    "ko": "https://ko.wikipedia.org/wiki/Marco_Polo",
+    "en": "https://en.wikipedia.org/wiki/Marco_Polo"
+  },
+  "vasco-da-gama": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B0%94%EC%8A%A4%EC%BF%A0_%EB%8B%A4_%EA%B0%80%EB%A7%88",
+    "en": "https://en.wikipedia.org/wiki/Vasco_da_Gama"
+  },
+  "ferdinand-magellan": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Ferdinand_Magellan"
+  },
+  "cornelius-vanderbilt": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Cornelius_Vanderbilt"
+  },
+  "zhang-qian": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EA%B1%B4",
+    "en": "https://en.wikipedia.org/wiki/Zhang_Qian"
+  },
+  "zheng-he": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%95%ED%99%94",
+    "en": "https://en.wikipedia.org/wiki/Zheng_He"
+  },
+  "leif-erikson": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Leif_Erikson"
+  },
+  "charlemagne": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%83%A4%EB%A5%BC%EB%A7%88%EB%89%B4",
+    "en": "https://en.wikipedia.org/wiki/Charlemagne"
+  },
+  "pachacuti": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%B0%A8%EC%BF%A0%ED%8B%B0",
+    "en": "https://en.wikipedia.org/wiki/Pachacuti"
+  },
+  "akbar-the-great": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%85%EB%B0%94%EB%A5%B4_%EB%8C%80%EC%A0%9C",
+    "en": "https://en.wikipedia.org/wiki/Akbar_The_Great"
+  },
+  "queen-nzinga": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9D%80%EC%A7%95%EA%B0%80_%EC%9D%8C%EB%B0%98%EB%8D%B0",
+    "en": "https://en.wikipedia.org/wiki/Queen_Nzinga"
+  },
+  "epicurus": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%90%ED%94%BC%EC%BF%A0%EB%A1%9C%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Epicurus"
+  },
+  "michael-faraday": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%B4_%ED%8C%A8%EB%9F%AC%EB%8D%B0%EC%9D%B4",
+    "en": "https://en.wikipedia.org/wiki/Michael_Faraday"
+  },
+  "william-the-conqueror": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B5%EC%99%95_%EC%9C%8C%EB%A6%AC%EC%97%84",
+    "en": "https://en.wikipedia.org/wiki/William_the_Conqueror"
+  },
+  "cyrus-the-great": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%82%A4%EB%A3%A8%EC%8A%A4_%EB%8C%80%EC%99%95",
+    "en": "https://en.wikipedia.org/wiki/Cyrus_the_Great"
+  },
+  "erwin-schrodinger": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%A5%B4%EB%B9%88_%EC%8A%88%EB%A2%B0%EB%94%A9%EA%B1%B0",
+    "en": "https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger"
+  },
+  "giuseppe-garibaldi": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A3%BC%EC%84%B8%ED%8E%98_%EA%B0%80%EB%A6%AC%EB%B0%9C%EB%94%94",
+    "en": "https://en.wikipedia.org/wiki/Giuseppe_Garibaldi"
+  },
+  "james-clerk-maxwell": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%9E%84%EC%8A%A4_%ED%81%B4%EB%9F%AD_%EB%A7%A5%EC%8A%A4%EC%9B%B0",
+    "en": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+  },
+  "moctezuma-ii": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%AA%AC%ED%85%8C%EC%88%98%EB%A7%88_2%EC%84%B8",
+    "en": "https://en.wikipedia.org/wiki/Moctezuma_II"
+  },
+  "tran-hung-dao": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A9%90%ED%9D%A5%EB%8B%A4%EC%98%A4",
+    "en": "https://en.wikipedia.org/wiki/Tran_Hung_Dao"
+  },
+  "zenobia": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EB%85%B8%EB%B9%84%EC%95%84",
+    "en": "https://en.wikipedia.org/wiki/Zenobia"
+  },
+  "georges-cuvier": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EB%A5%B4%EC%A3%BC_%ED%80%B4%EB%B9%84%EC%97%90",
+    "en": "https://en.wikipedia.org/wiki/Georges_Cuvier"
+  },
+  "hatshepsut": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%95%98%ED%8A%B8%EC%85%89%EC%88%98%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Hatshepsut"
+  },
+  "heraclitus": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%97%A4%EB%9D%BC%ED%81%B4%EB%A0%88%EC%9D%B4%ED%86%A0%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Heraclitus"
+  },
+  "pythagoras": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%BC%ED%83%80%EA%B3%A0%EB%9D%BC%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Pythagoras"
+  },
+  "ramesses-ii": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%9E%8C%EC%84%B8%EC%8A%A4_2%EC%84%B8",
+    "en": "https://en.wikipedia.org/wiki/Ramesses_II"
+  },
+  "diogenes": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%94%94%EC%98%A4%EA%B2%8C%EB%84%A4%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Diogenes"
+  },
+  "james-hutton": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%9E%84%EC%8A%A4_%EC%9B%B9_%EC%9A%B0%EC%A3%BC%EB%A7%9D%EC%9B%90%EA%B2%BD",
+    "en": "https://en.wikipedia.org/wiki/James_Hutton"
+  },
+  "queen-elizabeth-i": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%A0%EC%8A%A4_1%EC%84%B8",
+    "en": "https://en.wikipedia.org/wiki/Queen_Elizabeth_I"
+  },
+  "ernest-shackleton": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%96%B4%EB%8B%88%EC%8A%A4%ED%8A%B8_%EC%84%80%ED%81%B4%ED%84%B4",
+    "en": "https://en.wikipedia.org/wiki/Ernest_Shackleton"
+  },
+  "dorothea-dix": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A1%9C%EC%8B%9C%EC%95%84_%EB%9E%AD",
+    "en": "https://en.wikipedia.org/wiki/Dorothea_Dix"
+  },
+  "franz-schubert": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%80%EC%B8%A0_%EC%8A%88%EB%B2%A0%EB%A5%B4%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Franz_Schubert"
+  },
+  "frederick-the-great": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%AC%EB%93%9C%EB%A6%AC%ED%9E%88_%EB%8C%80%EC%99%95",
+    "en": "https://en.wikipedia.org/wiki/Frederick_the_Great"
+  },
+  "harriet-martineau": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%95%B4%EB%A6%AC%EC%97%87_%EB%A7%88%ED%8B%B0%EB%85%B8",
+    "en": "https://en.wikipedia.org/wiki/Harriet_Martineau"
+  },
+  "ida-b-wells": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%9D%B4%EB%8B%A4_%EB%B2%A8_%EC%9B%B0%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Ida_B._Wells"
+  },
+  "rembrandt": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A0%98%EB%B8%8C%EB%9E%80%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Rembrandt"
+  },
+  "charles-dickens": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%B0%B0%EC%8A%A4_%EB%94%94%ED%82%A8%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Charles_Dickens"
+  },
+  "clara-barton": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9D%BC%EB%9D%BC_%EB%B0%94%ED%84%B4",
+    "en": "https://en.wikipedia.org/wiki/Clara_Barton"
+  },
+  "gottfried-leibniz": {
+    "ko": "https://ko.wikipedia.org/wiki/%EA%B3%A0%ED%8A%B8%ED%94%84%EB%A6%AC%ED%8A%B8_%EB%9D%BC%EC%9D%B4%ED%94%84%EB%8B%88%EC%B8%A0",
+    "en": "https://en.wikipedia.org/wiki/Gottfried_Leibniz"
+  },
+  "james-cook": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%9E%84%EC%8A%A4_%EC%BF%A1",
+    "en": "https://en.wikipedia.org/wiki/James_Cook"
+  },
+  "meister-eckhart": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%EC%8A%A4%ED%84%B0_%EC%97%90%ED%81%AC%ED%95%98%EB%A5%B4%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Meister_Eckhart"
+  },
+  "vitus-bering": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B9%84%ED%88%AC%EC%8A%A4_%EB%B2%A0%EB%A7%81",
+    "en": "https://en.wikipedia.org/wiki/Vitus_Bering"
+  },
+  "bartolomeu-dias": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A5%B4%ED%86%A8%EB%A1%9C%EB%AE%A4_%EB%94%94%EC%95%84%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Bartolomeu_Dias"
+  },
+  "edward-jenner": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%93%9C%EC%9B%8C%EB%93%9C_%EC%A0%9C%EB%84%88",
+    "en": "https://en.wikipedia.org/wiki/Edward_Jenner"
+  },
+  "emily-dickinson": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%B0%80%EB%A6%AC_%EB%94%94%ED%82%A8%EC%8A%A8",
+    "en": "https://en.wikipedia.org/wiki/Emily_Dickinson"
+  },
+  "francisco-de-goya": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%80%EC%8B%9C%EC%8A%A4%EC%BD%94_%EA%B3%A0%EC%95%BC",
+    "en": "https://en.wikipedia.org/wiki/Francisco_De_Goya"
+  },
+  "george-eliot": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80_%EC%97%98%EB%A6%AC%EC%97%87",
+    "en": "https://en.wikipedia.org/wiki/George_Eliot"
+  },
+  "henry-hudson": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%97%A8%EB%A6%AC_%ED%97%88%EB%93%9C%EC%8A%A8",
+    "en": "https://en.wikipedia.org/wiki/Henry_Hudson"
+  },
+  "homer": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%98%B8%EB%A9%94%EB%A1%9C%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Homer"
+  },
+  "jane-austen": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%9D%B8_%EC%98%A4%EC%8A%A4%ED%8B%B4",
+    "en": "https://en.wikipedia.org/wiki/Jane_Austen"
+  },
+  "john-stuart-mill": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B4_%EC%8A%A4%ED%8A%9C%EC%96%B4%ED%8A%B8_%EB%B0%80",
+    "en": "https://en.wikipedia.org/wiki/John_Stuart_Mill"
+  },
+  "olympe-de-gouges": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%98%AC%EB%9E%AD%ED%94%84_%EB%93%9C_%EA%B5%AC%EC%A3%BC",
+    "en": "https://en.wikipedia.org/wiki/Olympe_de_Gouges"
+  },
+  "plotinus": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%ED%8B%B0%EB%85%B8%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Plotinus"
+  },
+  "roald-amundsen": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%95%8C_%EC%95%84%EB%AC%B8%EC%84%BC",
+    "en": "https://en.wikipedia.org/wiki/Roald_Amundsen"
+  },
+  "elizabeth-cady-stanton": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%A0%EC%8A%A4_%EC%BC%80%EC%9D%B4%EB%94%94_%EC%8A%A4%ED%83%A0%ED%84%B4",
+    "en": "https://en.wikipedia.org/wiki/Elizabeth_Cady_Stanton"
+  },
+  "henrik-ibsen": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%97%A8%EB%A6%AC%ED%81%AC_%EC%9E%85%EC%84%BC",
+    "en": "https://en.wikipedia.org/wiki/Henrik_Ibsen"
+  },
+  "virgil": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B2%A0%EB%A5%B4%EA%B8%B8%EB%A6%AC%EC%9A%B0%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Virgil"
+  },
+  "eleanor-of-aquitaine": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A6%AC%EC%97%90%EB%85%B8%EB%A5%B4_%EB%8B%A4%ED%82%A4%ED%85%90_%EC%97%AC%EA%B3%B5%EC%9E%91",
+    "en": "https://en.wikipedia.org/wiki/Eleanor_of_Aquitaine"
+  },
+  "sundiata-keita": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Sundiata_Keita"
+  },
+  "maria-theresa": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC%EC%95%84_%ED%85%8C%EB%A0%88%EC%A7%80%EC%95%84",
+    "en": "https://en.wikipedia.org/wiki/Maria_Theresa"
+  },
+  "boudicca": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B6%80%EB%94%94%EC%B9%B4",
+    "en": "https://en.wikipedia.org/wiki/Boudica"
+  },
+  "ching-shih": {
+    "ko": null,
+    "en": "https://en.wikipedia.org/wiki/Ching_Shih"
+  },
+  "askia-the-great": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%84%EC%8A%A4%ED%82%A4%EC%95%84_%EB%8C%80%EC%A0%9C",
+    "en": "https://en.wikipedia.org/wiki/Askia_the_Great"
+  },
+  "al-biruni": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%B9%84%EB%A3%A8%EB%8B%88",
+    "en": "https://en.wikipedia.org/wiki/Al-Biruni"
+  },
+  "william-harvey": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%8C%EB%A6%AC%EC%97%84_%ED%95%98%EB%B9%84",
+    "en": "https://en.wikipedia.org/wiki/William_Harvey"
+  },
+  "joseph-priestley": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80%ED%94%84_%ED%94%84%EB%A6%AC%EC%8A%A4%ED%8B%80%EB%A6%AC",
+    "en": "https://en.wikipedia.org/wiki/Joseph_Priestley"
+  },
+  "carl-linnaeus": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%B9%BC_%EB%A6%B0%EB%84%A4",
+    "en": "https://en.wikipedia.org/wiki/Carl_Linnaeus"
+  },
+  "lise-meitner": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A6%AC%EC%A0%9C_%EB%A7%88%EC%9D%B4%ED%8A%B8%EB%84%88",
+    "en": "https://en.wikipedia.org/wiki/Lise_Meitner"
+  },
+  "emmy-noether": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%AF%B8_%EB%87%8C%ED%84%B0",
+    "en": "https://en.wikipedia.org/wiki/Emmy_Noether"
+  },
+  "alexander-von-humboldt": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A0%89%EC%82%B0%EB%8D%94_%ED%8F%B0_%ED%9B%94%EB%B3%BC%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Alexander_von_Humboldt"
+  },
+  "tycho-brahe": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%8A%80%EC%BD%94_%EB%B8%8C%EB%9D%BC%ED%97%A4",
+    "en": "https://en.wikipedia.org/wiki/Tycho_Brahe"
+  },
+  "john-muir": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B4_%EB%AE%A4%EC%96%B4",
+    "en": "https://en.wikipedia.org/wiki/John_Muir"
+  },
+  "alfred-russel-wallace": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%A8%ED%94%84%EB%A6%AC%EB%93%9C_%EB%9F%AC%EC%85%80_%EC%9B%94%EB%A6%AC%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+  },
+  "pierre-curie": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%97%90%EB%A5%B4_%ED%80%B4%EB%A6%AC",
+    "en": "https://en.wikipedia.org/wiki/Pierre_Curie"
+  },
+  "charles-lyell": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%B0%B0%EC%8A%A4_%EB%9D%BC%EC%9D%B4%EC%97%98",
+    "en": "https://en.wikipedia.org/wiki/Charles_Lyell"
+  },
+  "al-farabi": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C%ED%8C%8C%EB%9D%BC%EB%B9%84",
+    "en": "https://en.wikipedia.org/wiki/Al-Farabi"
+  },
+  "thomas-more": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%86%A0%EB%A7%88%EC%8A%A4_%EB%AA%A8%EC%96%B4",
+    "en": "https://en.wikipedia.org/wiki/Thomas_More"
+  },
+  "simone-weil": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%8B%9C%EB%AA%AC_%EB%B2%A0%EC%9C%A0",
+    "en": "https://en.wikipedia.org/wiki/Simone_Weil"
+  },
+  "antonio-gramsci": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%88%ED%86%A0%EB%8B%88%EC%98%A4_%EA%B7%B8%EB%9E%8C%EC%8B%9C",
+    "en": "https://en.wikipedia.org/wiki/Antonio_Gramsci"
+  },
+  "rosa-luxemburg": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%9E%90_%EB%A3%A9%EC%85%88%EB%B6%80%EB%A5%B4%ED%81%AC",
+    "en": "https://en.wikipedia.org/wiki/Rosa_Luxemburg"
+  },
+  "george-santayana": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80_%EC%82%B0%ED%83%80%EC%95%BC%EB%82%98",
+    "en": "https://en.wikipedia.org/wiki/George_Santayana"
+  },
+  "henri-bergson": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%99%EB%A6%AC_%EB%B2%A0%EB%A5%B4%EA%B7%B8%EC%86%A1",
+    "en": "https://en.wikipedia.org/wiki/Henri_Bergson"
+  },
+  "william-of-ockham": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%BB%B4%EC%9D%98_%EC%9C%8C%EB%A6%AC%EC%97%84",
+    "en": "https://en.wikipedia.org/wiki/William_of_Ockham"
+  },
+  "ernst-mach": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%90%EB%A5%B8%EC%8A%A4%ED%8A%B8_%EB%A7%88%ED%9D%90",
+    "en": "https://en.wikipedia.org/wiki/Ernst_Mach"
+  },
+  "william-tyndale": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%8C%EB%A6%AC%EC%97%84_%ED%8B%B4%EB%93%A4",
+    "en": "https://en.wikipedia.org/wiki/William_Tyndale"
+  },
+  "chaucer": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%9C%ED%94%84%EB%A6%AC_%EC%B4%88%EC%84%9C",
+    "en": "https://en.wikipedia.org/wiki/Geoffrey_Chaucer"
+  },
+  "jonathan-swift": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EB%84%88%EC%84%A0_%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8",
+    "en": "https://en.wikipedia.org/wiki/Jonathan_Swift"
+  },
+  "george-sand": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EB%A5%B4%EC%A3%BC_%EC%83%81%EB%93%9C",
+    "en": "https://en.wikipedia.org/wiki/George_Sand"
+  },
+  "paul-cezanne": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%8F%B4_%EC%84%B8%EC%9E%94",
+    "en": "https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne"
+  },
+  "auguste-rodin": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%98%A4%EA%B7%80%EC%8A%A4%ED%8A%B8_%EB%A1%9C%EB%8C%95",
+    "en": "https://en.wikipedia.org/wiki/Auguste_Rodin"
+  },
+  "claude-debussy": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%81%B4%EB%A1%9C%EB%93%9C_%EB%93%9C%EB%B7%94%EC%8B%9C",
+    "en": "https://en.wikipedia.org/wiki/Claude_Debussy"
+  },
+  "virginia-woolf": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B2%84%EC%A7%80%EB%8B%88%EC%95%84_%EC%9A%B8%ED%94%84",
+    "en": "https://en.wikipedia.org/wiki/Virginia_Woolf"
+  },
+  "franz-kafka": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%80%EC%B8%A0_%EC%B9%B4%ED%94%84%EC%B9%B4",
+    "en": "https://en.wikipedia.org/wiki/Franz_Kafka"
+  },
+  "james-joyce": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%9E%84%EC%8A%A4_%EC%A1%B0%EC%9D%B4%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/James_Joyce"
+  },
+  "giacomo-puccini": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9E%90%EC%BD%94%EB%AA%A8_%ED%91%B8%EC%B9%98%EB%8B%88",
+    "en": "https://en.wikipedia.org/wiki/Giacomo_Puccini"
+  },
+  "charles-baudelaire": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%83%A4%EB%A5%BC_%EB%B3%B4%EB%93%A4%EB%A0%88%EB%A5%B4",
+    "en": "https://en.wikipedia.org/wiki/Charles_Baudelaire"
+  },
+  "wassily-kandinsky": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%B0%94%EC%8B%A4%EB%A6%AC_%EC%B9%B8%EB%94%98%EC%8A%A4%ED%82%A4",
+    "en": "https://en.wikipedia.org/wiki/Wassily_Kandinsky"
+  },
+  "paul-gauguin": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%8F%B4_%EA%B3%A0%EA%B0%B1",
+    "en": "https://en.wikipedia.org/wiki/Paul_Gauguin"
+  },
+  "william-blake": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%8C%EB%A6%AC%EC%97%84_%EB%B8%94%EB%A0%88%EC%9D%B4%ED%81%AC",
+    "en": "https://en.wikipedia.org/wiki/William_Blake"
+  },
+  "hans-christian-andersen": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%95%9C%EC%8A%A4_%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8B%B0%EC%95%88_%EC%95%88%EB%8D%B0%EB%A5%B4%EC%84%BC",
+    "en": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen"
+  },
+  "rudyard-kipling": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%9F%AC%EB%94%94%EC%96%B4%EB%93%9C_%ED%82%A4%ED%94%8C%EB%A7%81",
+    "en": "https://en.wikipedia.org/wiki/Rudyard_Kipling"
+  },
+  "dorothea-lange": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A1%9C%EC%8B%9C_%EB%A6%AC_%EC%84%B8%EC%9D%B4%EC%96%B4%EC%A6%88",
+    "en": "https://en.wikipedia.org/wiki/Dorothea_Lange"
+  },
+  "clara-schumann": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9D%BC%EB%9D%BC_%EC%8A%88%EB%A7%8C",
+    "en": "https://en.wikipedia.org/wiki/Clara_Schumann"
+  },
+  "jane-addams": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%9D%B8_%EC%95%A0%EB%8D%A4%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Jane_Addams"
+  },
+  "maria-montessori": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A6%AC%EC%95%84_%EB%AA%AC%ED%85%8C%EC%86%8C%EB%A6%AC",
+    "en": "https://en.wikipedia.org/wiki/Maria_Montessori"
+  },
+  "william-lloyd-garrison": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%8C%EB%A6%AC%EC%97%84_%EB%A1%9C%EC%9D%B4%EB%93%9C_%EA%B0%9C%EB%A6%AC%EC%8A%A8",
+    "en": "https://en.wikipedia.org/wiki/William_Lloyd_Garrison"
+  },
+  "albert-schweitzer": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C%EB%B2%A0%EB%A5%B4%ED%8A%B8_%EC%8A%88%EB%B0%94%EC%9D%B4%EC%B2%98",
+    "en": "https://en.wikipedia.org/wiki/Albert_Schweitzer"
+  },
+  "pandita-ramabai": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%8C%90%EB%94%94%ED%83%80_%EB%9D%BC%EB%A7%88%EB%B0%94%EC%9D%B4",
+    "en": "https://en.wikipedia.org/wiki/Pandita_Ramabai"
+  },
+  "elizabeth-blackwell": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%98%EB%A6%AC%EC%9E%90%EB%B2%A0%EC%8A%A4_%EB%B8%94%EB%9E%99%EC%9B%B0",
+    "en": "https://en.wikipedia.org/wiki/Elizabeth_Blackwell"
+  },
+  "florence-kelley": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%EB%A0%8C%EC%8A%A4_%EB%82%98%EC%9D%B4%ED%8C%85%EA%B2%8C%EC%9D%BC",
+    "en": "https://en.wikipedia.org/wiki/Florence_Kelley"
+  },
+  "david-livingstone": {
+    "ko": "https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%EB%B9%84%EB%93%9C_%EB%A6%AC%EB%B9%99%EC%8A%A4%ED%84%B4",
+    "en": "https://en.wikipedia.org/wiki/David_Livingstone"
+  },
+  "alfred-nobel": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%95%8C%ED%94%84%EB%A0%88%EB%93%9C_%EB%85%B8%EB%B2%A8",
+    "en": "https://en.wikipedia.org/wiki/Alfred_Nobel"
+  },
+  "pierre-de-coubertin": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%BC%EC%97%90%EB%A5%B4_%EB%93%9C_%EC%BF%A0%EB%B2%A0%EB%A5%B4%ED%83%B1",
+    "en": "https://en.wikipedia.org/wiki/Pierre_de_Coubertin"
+  },
+  "fridtjof-nansen": {
+    "ko": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%AC%EB%93%9C%EC%87%BC%ED%94%84_%EB%82%9C%EC%84%BC",
+    "en": "https://en.wikipedia.org/wiki/Fridtjof_Nansen"
+  },
+  "george-eastman": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%A7%80_%EC%9D%B4%EC%8A%A4%ED%8A%B8%EB%A8%BC",
+    "en": "https://en.wikipedia.org/wiki/George_Eastman"
+  },
+  "elisha-otis": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%97%98%EB%A6%AC%EC%83%A4_%EC%98%A4%ED%8B%B0%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Elisha_Otis"
+  },
+  "jang-yeong-sil": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9E%A5%EC%98%81%EC%8B%A4",
+    "en": "https://en.wikipedia.org/wiki/Jang_Yeong_Sil"
+  },
+  "yun-dong-ju": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%8F%99%EC%A3%BC",
+    "en": "https://en.wikipedia.org/wiki/Yun_Tongju"
+  },
+  "sophocles": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%86%8C%ED%8F%AC%ED%81%B4%EB%A0%88%EC%8A%A4",
+    "en": "https://en.wikipedia.org/wiki/Sophocles"
+  },
+  "euclid": {
+    "ko": "https://ko.wikipedia.org/wiki/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C",
+    "en": "https://en.wikipedia.org/wiki/Euclid"
+  }
+}

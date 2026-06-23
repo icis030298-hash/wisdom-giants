@@ -31,6 +31,7 @@ import { ConditionalAdSense } from "@/components/conditional-adsense"
 import { AdSlot } from "@/components/ad-slot"
 import GiantAvatar from "@/components/GiantAvatar"
 import { blogPosts } from "@/data/blog-posts"
+import wikipediaLinks from "@/data/wikipedia-links.json"
 
 interface GiantDetailClientProps {
   giant: any;
@@ -173,6 +174,9 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const relatedBlogPosts = blogPosts.filter(
     post => post.relatedGiants?.includes(giant.slug)
   );
+
+  const wikiData = (wikipediaLinks as Record<string, { ko: string | null; en: string | null }>)[giant.slug];
+  const wikipediaUrl = activeLocale === 'ko' ? (wikiData?.ko || null) : (wikiData?.en || null);
 
   const tGiants = useTranslations("Giants");
   const getRelatedTranslation = (slug: string, key: string, fallback: string) => {
@@ -512,8 +516,8 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground leading-tight">
                 {tg.name}
               </h1>
-              <p className="text-xl md:text-2xl text-amber-400/90 font-medium">
-                {tg.headline}
+              <p className="text-xl md:text-2xl text-amber-400/90 font-serif italic max-w-3xl leading-relaxed">
+                &ldquo;{tg.quote}&rdquo;
               </p>
             </div>
             
@@ -725,9 +729,22 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               {t.askForAdvice}
             </button>
 
+            {/* Wikipedia E-E-A-T Link */}
+            {wikipediaUrl && (
+              <a 
+                href={wikipediaUrl}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                className="w-full py-3.5 rounded-xl border border-white/10 hover:border-white/20 text-stone-300 hover:text-white font-medium text-sm transition-all flex items-center justify-center gap-2 group active:scale-95 bg-white/[0.02] cursor-pointer"
+              >
+                <span>🌐</span>
+                <span>{locale === 'ko' ? '위키백과에서 알아보기' : 'Learn more on Wikipedia'}</span>
+              </a>
+            )}
+
             {/* Subtle subtext */}
             <p className="text-[10px] text-center text-muted-foreground/50 leading-relaxed px-4">
-              {tg.headline}
+              {tg.shortDescription}
             </p>
           </div>
         </div>

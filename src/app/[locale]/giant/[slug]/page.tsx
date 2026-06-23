@@ -51,7 +51,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     en: `${slicedDesc} Chat directly with ${giantData.name} via AI to gain wisdom.`,
   };
   const title = titleMap[locale] ?? titleMap['en'];
-  const description = descMap[locale] ?? descMap['en'];
+  const rawDescription = descMap[locale] ?? descMap['en'];
+  const description = rawDescription.length > 155 ? rawDescription.slice(0, 152) + '...' : rawDescription;
+
+  const ogRawDesc = giantData.quote || description;
+  const ogDesc = ogRawDesc.length > 155 ? ogRawDesc.slice(0, 152) + '...' : ogRawDesc;
 
   const absoluteImageUrl = giant.imageUrl.startsWith('http')
     ? giant.imageUrl
@@ -82,7 +86,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     openGraph: {
       title: `${giantData.name} - Giants Wisdom`,
-      description: giantData.headline || description,
+      description: ogDesc,
       url: `${BASE_URL}/${locale}/giant/${slug}`,
       type: 'website',
       images: [{
@@ -214,10 +218,21 @@ export default async function GiantDetailPage({ params }: Props) {
     ],
   };
 
+  const quotationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Quotation',
+    'text': giantTranslation.quote || giant.quote,
+    'creator': {
+      '@type': 'Person',
+      'name': giantTranslation.name || giant.name
+    }
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(quotationSchema) }} />
       <GiantDetailClient giant={giant} translations={translations} />
     </>
   );
