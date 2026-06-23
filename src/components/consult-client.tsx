@@ -535,12 +535,12 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                       
                       {/* Giant Avatar & Details */}
                       <div className="flex flex-col items-center shrink-0 w-full md:w-36">
-                        <GiantAvatar slug={giant.slug} name={giant.name} />
+                        <GiantAvatar slug={giant.slug} name={tg(`${giant.slug}.name`).includes(`${giant.slug}.`) ? giant.name : tg(`${giant.slug}.name`)} />
                         <p className="text-white font-serif font-bold text-lg text-center leading-tight">
-                          {giant.name}
+                          {tg(`${giant.slug}.name`).includes(`${giant.slug}.`) ? giant.name : tg(`${giant.slug}.name`)}
                         </p>
                         <p className="text-stone-500 text-xs text-center mt-1 truncate max-w-full">
-                          {giant.era}
+                          {tg(`${giant.slug}.era`).includes(`${giant.slug}.`) ? giant.era : tg(`${giant.slug}.era`)}
                         </p>
                       </div>
 

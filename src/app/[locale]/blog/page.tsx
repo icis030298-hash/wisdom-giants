@@ -4,9 +4,10 @@ import { setRequestLocale } from 'next-intl/server'
 import { Navigation } from '@/components/navigation'
 import { ConditionalAdSense } from '@/components/conditional-adsense'
 
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
-export const fetchCache = 'force-no-store'
+// ISR: Blog list is built from static bundled data. No DB calls at runtime.
+// Revalidate once per day to keep CDN-cached and save Vercel Origin Transfer quota.
+export const revalidate = 86400;
+
 
 interface Props {
   params: Promise<{ locale: string }>
