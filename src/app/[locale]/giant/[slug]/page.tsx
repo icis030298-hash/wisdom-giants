@@ -5,6 +5,19 @@ import { GiantDetailClient } from "@/components/giant-detail-client";
 import { Metadata } from 'next';
 import finalNarratives from "@/data/final-narratives.json";
 
+// ISR: Pre-render all giant×locale combos at build time.
+// Each page is cached by Vercel's CDN and revalidated every 24 hours,
+// eliminating per-request Vercel Compute calls from Googlebot crawls.
+export const revalidate = 86400;
+
+const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt', 'ar', 'hi', 'ru', 'zh'] as const;
+
+export async function generateStaticParams() {
+  return LOCALES.flatMap((locale) =>
+    giants.map((giant) => ({ locale, slug: giant.slug }))
+  );
+}
+
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }

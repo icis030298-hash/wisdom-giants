@@ -25,16 +25,25 @@ import { AuthorBox } from '@/components/blog/AuthorBox'
 import GiantAvatar from '@/components/GiantAvatar'
 import { NewsletterForm } from '@/components/NewsletterForm'
 
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
-export const fetchCache = 'force-no-store'
+// ISR: Revalidate every 24 hours. Blog content is static data bundled at build-time;
+// there is no runtime DB fetch, so SSR/force-dynamic is wasteful and burns Vercel
+// Fast Origin Transfer quota on every Googlebot crawl.
+export const revalidate = 86400;
+
+const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt', 'ar', 'hi', 'ru', 'zh'] as const
+
+// Pre-build all blog×locale combos at build time → ● SSG (not ƒ Dynamic)
+export async function generateStaticParams() {
+  return LOCALES.flatMap((locale) =>
+    blogPosts.map((post) => ({ locale, slug: post.slug }))
+  );
+}
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>
 }
 
 const BASE_URL = 'https://www.giantswisdom.com'
-const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt', 'ar', 'hi', 'ru', 'zh'] as const
 
 const uiTranslations: Record<string, Record<string, string>> = {
   ko: {
