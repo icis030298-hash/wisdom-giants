@@ -315,7 +315,7 @@ function parseMarkdown(content: string) {
     if (blockquoteLines.length > 0) {
       const fullText = blockquoteLines.join(' ');
       elements.push(
-        <blockquote key={`bq-${key}`} className="border-l-4 border-amber-500 bg-amber-500/5 px-6 py-5 my-8 rounded-r-2xl text-slate-300 leading-relaxed font-serif italic text-base md:text-lg">
+        <blockquote key={`bq-${key}`} className="border-l-[3px] border-amber-500 bg-gradient-to-r from-amber-500/8 to-transparent px-6 py-5 my-10 rounded-r-2xl leading-[1.9] font-serif italic" style={{ color: '#d4b896', fontSize: '1.05rem' }}>
           {renderParagraphWithLinks(fullText)}
         </blockquote>
       )
@@ -345,34 +345,38 @@ function parseMarkdown(content: string) {
     }
 
     if (trimmed.startsWith('###')) {
+      // H3: 골드 언더라인 포인트
       elements.push(
-        <h3 key={`h3-${index}`} className="text-xl font-bold font-serif text-white mt-8 mb-4 tracking-tight">
+        <h3 key={`h3-${index}`} className="text-xl font-bold font-serif mt-10 mb-4 tracking-tight pb-1.5 inline-block" style={{ color: '#f5e6c8', borderBottom: '2px solid rgba(245,158,11,0.45)' }}>
           {trimmed.slice(3).trim()}
         </h3>
       )
     } else if (trimmed.startsWith('##')) {
+      // H2: 앰버 오렌지 시그니처 컬러
       elements.push(
-        <h2 key={`h2-${index}`} className="text-2xl md:text-3xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-400 mt-12 mb-6 border-b border-white/5 pb-3">
+        <h2 key={`h2-${index}`} className="text-2xl md:text-3xl font-serif font-bold mt-14 mb-6 border-b pb-3" style={{ color: '#f59e0b', borderColor: 'rgba(245,158,11,0.2)' }}>
           {trimmed.slice(2).trim()}
         </h2>
       )
     } else if (trimmed.startsWith('#')) {
+      // H1: 샴페인 골드 그라디언트
       elements.push(
-        <h1 key={`h1-${index}`} className="text-3xl md:text-4xl font-serif font-bold text-white mt-12 mb-6">
+        <h1 key={`h1-${index}`} className="text-3xl md:text-4xl font-serif font-bold mt-12 mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-200">
           {trimmed.slice(1).trim()}
         </h1>
       )
     } else if (trimmed.startsWith('- ') || (trimmed.startsWith('* ') && !trimmed.startsWith('**'))) {
-      // List item: must start with '- ' or '* ' but NOT '**' (bold marker)
+      // List item
       const liContent = trimmed.startsWith('- ') ? trimmed.slice(2).trim() : trimmed.slice(2).trim()
       elements.push(
-        <li key={`li-${index}`} className="text-slate-300 text-base md:text-lg leading-relaxed ml-6 mb-3 list-disc font-light">
+        <li key={`li-${index}`} className="font-serif leading-[1.8] ml-6 mb-4 list-disc" style={{ color: '#e0e0e0', fontSize: '1.0625rem' }}>
           {renderInlineMarkdown(liContent, `li-${index}`)}
         </li>
       )
     } else if (trimmed !== '') {
+      // 본문 p: 세리프, 오프화이트, 행간 1.8, 문단 간격 넉넉히
       elements.push(
-        <p key={`p-${index}`} className="text-slate-300 text-base md:text-lg leading-relaxed mb-6 font-light">
+        <p key={`p-${index}`} className="font-serif leading-[1.85] mb-8" style={{ color: '#e0e0e0', fontSize: '1.0625rem' }}>
           {renderInlineMarkdown(trimmed, `p-${index}`)}
         </p>
       )
@@ -575,7 +579,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
             {catNames[post.category]}
           </span>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-white tracking-tight leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-200">
             {translation.title}
           </h1>
 
@@ -646,8 +650,8 @@ export default async function BlogPostDetailPage({ params }: Props) {
         {/* Author Box */}
         <AuthorBox publishedDate={post.publishedAt} updatedDate={post.publishedAt} />
 
-        {/* Article Body (Markdown parsed) */}
-        <div className="prose prose-invert prose-readability max-w-none prose-headings:font-serif prose-headings:font-bold">
+        {/* Article Body (Markdown parsed) — Premium serif reading experience */}
+        <div className="max-w-[720px] mx-auto">
           {parseMarkdown(translation.content)}
         </div>
 
