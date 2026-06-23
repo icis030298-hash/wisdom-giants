@@ -94,6 +94,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   const [isChatOpen, setIsChatOpen] = useState(false)
   const [showMatchOverlay, setShowMatchOverlay] = useState(false)
   const [imageError, setImageError] = useState(false)
+  const [currentParaIdx, setCurrentParaIdx] = useState(0)
   const router = useRouter()
   const locale = useLocale()
   const activeLocale = (locale === 'ko' ? 'ko' : locale === 'de' ? 'de' : locale === 'ja' ? 'ja' : 'en') as 'ko' | 'en' | 'de' | 'ja';
@@ -546,57 +547,131 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
         {/* Left Column: Sagas */}
         <div className="lg:col-span-2 space-y-20">
           {/* 1. Epic Narrative Section */}
-          {epicContent && (
-            <section className="space-y-10 animate-in fade-in slide-in-from-bottom-4 duration-700">
-              <div className="flex items-center gap-4 text-amber-500/80">
-                <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center border border-amber-500/20">
-                  <Sparkles className="w-5 h-5" />
+          {epicContent && (() => {
+            const paragraphs = parseParagraphs(epicContent).filter(Boolean);
+            const totalParas = paragraphs.length;
+
+            const handlePrev = () => {
+              if (currentParaIdx > 0) {
+                setCurrentParaIdx(currentParaIdx - 1);
+              }
+            };
+
+            const handleNext = () => {
+              if (currentParaIdx < totalParas - 1) {
+                setCurrentParaIdx(currentParaIdx + 1);
+              }
+            };
+
+            const scrollToChat = () => {
+              const chatButton = document.querySelector('button[onClick*="setIsChatOpen(true)"]');
+              if (chatButton) {
+                chatButton.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              } else {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+              }
+            };
+
+            const currentParagraph = paragraphs[currentParaIdx];
+
+            return (
+              <section className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
+                <div className="flex items-center gap-4 text-amber-500/80">
+                  <div className="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center border border-amber-500/20">
+                    <Sparkles className="w-5 h-5" />
+                  </div>
+                  <h2 className="text-xl font-bold uppercase tracking-[0.2em]">{t.theLifeStory}</h2>
                 </div>
-                <h2 className="text-xl font-bold uppercase tracking-[0.2em]">{t.theLifeStory}</h2>
-              </div>
-              
-              <div className="glass-card p-6 md:p-12 lg:p-16 rounded-2xl md:rounded-[3rem] border border-white/[0.08] bg-gradient-to-br from-white/[0.05] to-transparent shadow-2xl relative overflow-hidden group">
-                <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-500/[0.02] rounded-full blur-[100px]" />
                 
-                <div className="relative z-10 space-y-6 md:space-y-10 max-w-2xl mx-auto">
-                  {parseParagraphs(epicContent).map((paragraph: string, idx: number) => {
-                    if (!paragraph) return null;
-                    
-                    if (idx === 0) {
-                      // Apply defensive DropCap logic: Trim leading special characters and whitespaces
-                      let cleaned = paragraph.trim();
-                      cleaned = cleaned.replace(/^[\s*#_~`‘“"'"]+/g, ''); // Strip leading markdown / quotes
-                      cleaned = cleaned.replace(/\*\*/g, '').replace(/\*/g, ''); // Clean double/single asterisks
-                      
-                      const firstLetter = cleaned.substring(0, 1);
-                      const restOfText = cleaned.substring(1);
-                      
-                      return (
-                        <p 
-                          key={idx} 
-                          className="text-base md:text-lg lg:text-xl text-slate-200 leading-[1.95] tracking-tight font-normal text-left md:text-justify break-keep"
-                        >
-                          <span className="text-5xl md:text-6xl font-serif mr-3 md:mr-4 float-left text-amber-400 font-black leading-none mt-1 md:mt-2">
-                            {firstLetter}
-                          </span>
-                          {restOfText}
-                        </p>
-                      );
-                    }
-                    
-                    return (
-                       <p 
-                        key={idx} 
-                        className="text-base md:text-lg lg:text-xl text-slate-200 leading-[1.95] tracking-tight font-normal text-left md:text-justify break-keep"
+                {/* Story Card Wrapper */}
+                <div className="glass-card p-6 md:p-12 lg:p-16 rounded-2xl md:rounded-[3rem] border border-white/[0.08] bg-gradient-to-br from-white/[0.05] to-transparent shadow-2xl relative overflow-hidden group min-h-[300px] flex flex-col justify-center">
+                  <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-500/[0.02] rounded-full blur-[100px]" />
+                  
+                  <div className="relative z-10 max-w-2xl mx-auto w-full">
+                    <AnimatePresence mode="wait">
+                      <m.div
+                        key={currentParaIdx}
+                        initial={{ opacity: 0, x: 15 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        exit={{ opacity: 0, x: -15 }}
+                        transition={{ duration: 0.35, ease: "easeInOut" }}
                       >
-                        {paragraph}
-                      </p>
-                    );
-                  })}
+                        {currentParaIdx === 0 ? (() => {
+                          let cleaned = currentParagraph.trim();
+                          cleaned = cleaned.replace(/^[\s*#_~`‘“"'"]+/g, '');
+                          cleaned = cleaned.replace(/\*\*/g, '').replace(/\*/g, '');
+                          
+                          const firstLetter = cleaned.substring(0, 1);
+                          const restOfText = cleaned.substring(1);
+                          
+                          return (
+                            <p className="text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal text-left md:text-justify break-keep">
+                              <span className="text-5xl md:text-6xl font-serif mr-3 md:mr-4 float-left text-amber-400 font-black leading-none mt-1 md:mt-2">
+                                {firstLetter}
+                              </span>
+                              {restOfText}
+                            </p>
+                          );
+                        })() : (
+                          <p className="text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal text-left md:text-justify break-keep">
+                            {currentParagraph}
+                          </p>
+                        )}
+                      </m.div>
+                    </AnimatePresence>
+                  </div>
                 </div>
-              </div>
-            </section>
-          )}
+
+                {/* Navigation Controls */}
+                <div className="flex items-center justify-center gap-6 mt-6">
+                  {/* Prev Button */}
+                  <button
+                    onClick={handlePrev}
+                    disabled={currentParaIdx === 0}
+                    className={`flex items-center justify-center w-12 h-12 rounded-full border border-amber-500/20 bg-amber-500/5 text-amber-400 transition-all duration-300 ${
+                      currentParaIdx === 0 
+                        ? 'opacity-0 cursor-default pointer-events-none' 
+                        : 'opacity-40 hover:opacity-100 hover:scale-105 hover:bg-amber-500/10 active:scale-95'
+                    }`}
+                    aria-label="Previous story page"
+                  >
+                    <ArrowLeft className="w-5 h-5" />
+                  </button>
+
+                  {/* Indicator */}
+                  <span className="text-sm font-mono tracking-widest text-amber-400/80 bg-amber-500/5 px-4 py-1.5 rounded-full border border-amber-500/10">
+                    {String(currentParaIdx + 1).padStart(2, '0')} / {String(totalParas).padStart(2, '0')}
+                  </span>
+
+                  {/* Next / Action Button */}
+                  {currentParaIdx < totalParas - 1 ? (
+                    <button
+                      onClick={handleNext}
+                      className="flex items-center justify-center w-12 h-12 rounded-full border border-amber-500/20 bg-amber-500/5 text-amber-400 transition-all duration-300 opacity-40 hover:opacity-100 hover:scale-105 hover:bg-amber-500/10 active:scale-95"
+                      aria-label="Next story page"
+                    >
+                      <ArrowRight className="w-5 h-5" />
+                    </button>
+                  ) : (
+                    <div className="w-12 h-12 opacity-0 pointer-events-none" />
+                  )}
+                </div>
+
+                {/* Scroll CTA on final page */}
+                {currentParaIdx === totalParas - 1 && (
+                  <div className="flex justify-center animate-in fade-in slide-in-from-top-2 duration-500 mt-2">
+                    <button 
+                      onClick={scrollToChat}
+                      className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-300 text-xs font-semibold hover:bg-amber-500/20 hover:border-amber-500/50 hover:scale-105 transition-all shadow-[0_0_15px_rgba(245,158,11,0.1)] active:scale-95"
+                    >
+                      <span>{locale === 'ko' ? '거인과 대화하기' : 'Talk with Giant'}</span>
+                      <span className="animate-bounce">↓</span>
+                    </button>
+                  </div>
+                )}
+              </section>
+            );
+          })()}
 
           {/* 2. Trials & Overcoming Combined into a sophisticated layout */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
