@@ -23,7 +23,6 @@ import React from 'react'
 import { InArticleAd } from '@/components/ad-slot'
 import { AuthorBox } from '@/components/blog/AuthorBox'
 import GiantAvatar from '@/components/GiantAvatar'
-import { NewsletterForm } from '@/components/NewsletterForm'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -405,7 +404,6 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30"
 
   const tg = await getTranslations({ locale, namespace: "Giants" })
-  const tn = await getTranslations({ locale, namespace: "Newsletter" })
   const getTranslation = (slug: string, fallback: string) => {
     try {
       const rawData = tg.raw(slug);
@@ -721,61 +719,6 @@ export default async function BlogPostDetailPage({ params }: Props) {
             </Link>
           </div>
         </div>
-
-        {/* Newsletter Signup Card */}
-        <div className="mt-12 p-6 rounded-2xl bg-stone-900/40 border border-white/5 shadow-lg">
-          <h3 className="text-white font-serif font-bold text-lg mb-1">
-            {tn("blogTitle")}
-          </h3>
-          <p className="text-stone-400 text-sm mb-4 leading-relaxed">
-            {tn("subtitle")}
-          </p>
-          <NewsletterForm />
-        </div>
-
-        {/* Talk directly with the Giants in this article */}
-        {relatedGiants.length > 0 && (
-          <section className="mt-12 p-6 rounded-xl bg-stone-900/50 border border-stone-800 mb-12">
-            <h3 className="text-amber-400 font-bold text-lg mb-4">
-              {talkToGiantsTitle}
-            </h3>
-
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-              {relatedGiants.map(g => {
-                const gLocalizedName = g.slug === 'cleopatra'
-                  ? (locale === 'ko' ? '클레오파트라' :
-                     locale === 'ja' ? 'クレオパトラ' :
-                     locale === 'de' ? 'Kleopatra' :
-                     locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
-                  : getTranslation(g.slug, g.name)
-                
-                const gChatHref = g.slug === 'cleopatra' ? `/${locale}#giants` : `/giant/${g.slug}`
-                
-                return (
-                  <Link
-                    href={gChatHref}
-                    key={g.slug}
-                    className="flex items-center gap-3 p-3 rounded-lg bg-stone-800 hover:bg-stone-700 transition-colors group"
-                  >
-                    <GiantAvatar
-                      slug={g.slug}
-                      category={g.category}
-                      size={40}
-                    />
-                    <div>
-                      <p className="text-white text-sm font-medium group-hover:text-amber-400 transition-colors">
-                        {gLocalizedName}
-                      </p>
-                      <p className="text-stone-500 text-xs">
-                        {talkNow}
-                      </p>
-                    </div>
-                  </Link>
-                )
-              })}
-            </div>
-          </section>
-        )}
 
         </div>
 
