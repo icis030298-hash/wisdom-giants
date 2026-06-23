@@ -21,7 +21,6 @@ import {
 } from 'lucide-react'
 import React from 'react'
 import { InArticleAd } from '@/components/ad-slot'
-import { AuthorBox } from '@/components/blog/AuthorBox'
 import GiantAvatar from '@/components/GiantAvatar'
 
 export const dynamic = 'force-dynamic'
@@ -644,9 +643,6 @@ export default async function BlogPostDetailPage({ params }: Props) {
               : 'This content is AI-generated historical material for educational purposes. It does not constitute certified historical records, psychological assessments, or professional advice.'}
           </span>
         </div>
-
-        {/* Author Box */}
-        <AuthorBox publishedDate={post.publishedAt} updatedDate={post.publishedAt} />
 
         {/* Article Body (Markdown parsed) — Premium serif reading experience */}
         <div className="max-w-[720px] mx-auto">
