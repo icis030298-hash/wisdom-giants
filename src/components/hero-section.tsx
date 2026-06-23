@@ -73,12 +73,6 @@ export function HeroSection() {
 
       {/* Content */}
       <div className={`relative z-10 text-center px-4 max-w-5xl mx-auto transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 border border-amber-500/20">
-          <Sparkles className="w-4 h-4 text-amber-400" />
-          <span className="text-sm text-amber-200/80 font-medium tracking-wide">{t("badge")}</span>
-        </div>
-
         {/* Main title */}
         <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-foreground mb-4 tracking-tight animate-fade-in">
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200">
@@ -88,11 +82,6 @@ export function HeroSection() {
             Giants Wisdom
           </span>
         </h1>
-
-        {/* Subtitle */}
-        <p className="text-lg sm:text-xl md:text-2xl text-amber-100/70 font-light max-w-2xl mx-auto mb-8 animate-fade-in-delay">
-          {tBrand("subTitle")}
-        </p>
 
         {/* Quote */}
         <div className="relative max-w-3xl mx-auto mt-8 mb-12">

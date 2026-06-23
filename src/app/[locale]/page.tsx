@@ -204,23 +204,48 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </Link>
       </div>
 
-      {/* Heritage Test CTA - Demoted to Simpler Centered Card */}
-      <section className="max-w-6xl mx-auto px-4 py-16 text-center border-t border-white/5 bg-gradient-to-b from-stone-900/10 to-transparent rounded-[2.5rem] my-8">
-        <p className="text-stone-500 font-medium tracking-widest text-xs uppercase mb-4">
-          — {t("banner.new")} —
-        </p>
-        <h2 className="text-3xl font-serif font-bold text-white mb-4 whitespace-pre-wrap">
-          {t("banner.title")}
-        </h2>
-        <p className="text-stone-400 mb-8 max-w-xl mx-auto text-base leading-relaxed whitespace-pre-line">
-          {t("banner.desc")}
-        </p>
-        <Link href="/test">
-          <button className="border border-amber-500/50 text-amber-400 hover:bg-amber-500 hover:text-stone-950 font-bold px-10 py-4 rounded-2xl transition-all text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.25)] cursor-pointer">
-            🧬 {t("banner.button")}
-          </button>
+      {/* Heritage DNA Test CTA - Premium Dark Card */}
+      <div className="max-w-6xl mx-auto px-4 pb-4">
+        <Link
+          href="/test"
+          className="block group"
+        >
+          <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-slate-950 via-indigo-950/30 to-slate-950 border border-amber-500/25 p-8 md:p-12 shadow-2xl transition-all hover:scale-[1.01] active:scale-[0.99] hover:border-amber-400/50 hover:shadow-[0_0_50px_rgba(245,158,11,0.15)]">
+            {/* Background glows */}
+            <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-amber-500/8 to-transparent rounded-full blur-[80px] -translate-y-1/2 -translate-x-1/2 group-hover:from-amber-400/15 transition-all duration-500" />
+            <div className="absolute bottom-0 right-0 w-64 h-64 bg-gradient-to-tl from-indigo-500/8 to-transparent rounded-full blur-[70px] translate-y-1/2 translate-x-1/2 pointer-events-none" />
+            {/* DNA helix decorative */}
+            <div className="absolute right-8 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-2 opacity-20 group-hover:opacity-30 transition-opacity">
+              {[...Array(8)].map((_, i) => (
+                <div key={i} className="flex gap-2 items-center">
+                  <div className={`w-2 h-2 rounded-full bg-amber-400 ${i % 2 === 0 ? 'translate-x-2' : '-translate-x-2'}`} />
+                  <div className="w-8 h-px bg-amber-400/50" />
+                  <div className={`w-2 h-2 rounded-full bg-amber-400 ${i % 2 === 0 ? '-translate-x-2' : 'translate-x-2'}`} />
+                </div>
+              ))}
+            </div>
+
+            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+              <div className="space-y-4 text-center md:text-left">
+                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 text-amber-300 text-xs font-bold uppercase tracking-widest border border-amber-500/30">
+                  <span>🧬</span> {t("banner.new")}
+                </div>
+                <h2 className="text-3xl md:text-4xl font-serif font-bold text-white leading-tight whitespace-pre-wrap">
+                  {t("banner.title")}
+                </h2>
+                <p className="text-slate-300 text-lg max-w-xl whitespace-pre-line leading-relaxed">
+                  {t("banner.desc")}
+                </p>
+              </div>
+              <div className="shrink-0 flex flex-col items-center gap-4">
+                <div className="flex items-center gap-2 text-amber-400 font-bold group-hover:gap-4 transition-all bg-amber-500/10 px-6 py-4 rounded-full border border-amber-500/30 group-hover:bg-amber-500/20 shadow-[0_0_20px_rgba(245,158,11,0.1)] text-lg">
+                  {t("banner.button")} <ArrowRight className="w-5 h-5" />
+                </div>
+              </div>
+            </div>
+          </div>
         </Link>
-      </section>
+      </div>
 
       {/* Debate Room CTA */}
       <div className="max-w-6xl mx-auto px-4 pb-12">
