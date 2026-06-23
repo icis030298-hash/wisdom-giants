@@ -219,7 +219,9 @@ export function GiantsGrid({}: GiantsGridProps) {
                     <h3 className="font-serif text-lg font-semibold text-foreground">
                       {tg(`${giant.slug}.name`).includes(`${giant.slug}.`) ? giant.name : tg(`${giant.slug}.name`)}
                     </h3>
-                    <span className="text-xs text-muted-foreground">{giant.era}</span>
+                    <span className="text-xs text-muted-foreground">
+                      {tg(`${giant.slug}.era`).includes(`${giant.slug}.`) ? giant.era : tg(`${giant.slug}.era`)}
+                    </span>
                   </div>
                   <p className="text-sm text-amber-400/80">
                     {tg(`${giant.slug}.headline`).includes(`${giant.slug}.`) ? giant.title : tg(`${giant.slug}.headline`)}

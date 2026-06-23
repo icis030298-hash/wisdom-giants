@@ -414,6 +414,18 @@ export default async function BlogPostDetailPage({ params }: Props) {
     }
   }
 
+  const getEraTranslation = (slug: string, fallback: string) => {
+    try {
+      const rawData = tg.raw(slug);
+      if (rawData && typeof rawData === 'object' && 'era' in rawData) {
+        return (rawData as any).era;
+      }
+      return fallback;
+    } catch (e) {
+      return fallback;
+    }
+  }
+
   const getKoreanWithParticle = (name: string, suffix: string): string => {
     if (!name) return suffix;
     const lastChar = name.charCodeAt(name.length - 1);
@@ -592,7 +604,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
             </div>
             <div>
               <h3 className="text-white font-serif font-bold">{localizedName}</h3>
-              <p className="text-xs text-slate-500 font-light">{giant?.era || (locale === 'ko' ? '기원전 1세기' : '1st Century BC')}</p>
+              <p className="text-xs text-slate-500 font-light">{getEraTranslation(post.giantSlug || "", giant?.era || "") || (locale === 'ko' ? '기원전 1세기' : '1st Century BC')}</p>
             </div>
           </div>
           
