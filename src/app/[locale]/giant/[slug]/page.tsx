@@ -241,7 +241,7 @@ export default async function GiantDetailPage({ params }: Props) {
     }
   };
 
-  const faqSchema = factLayer && factLayer.faq ? {
+  const faqSchema = locale === 'ko' && factLayer && factLayer.faq ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: factLayer.faq.map((q: any) => ({

@@ -766,7 +766,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
             </div>
           </section>
 
-          {translations.factLayer && (
+          {locale === 'ko' && translations.factLayer && (
             <section className="space-y-12 my-16 border-t border-white/10 pt-16" id="fact-layer">
               <div className="flex flex-col items-center gap-4 text-center mb-10">
                 <h2 className="text-3xl font-serif font-bold text-foreground">
