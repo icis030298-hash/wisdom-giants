@@ -206,10 +206,33 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     return text.replace(/\\n/g, '\n');
   };
 
+  const alignClass = (locale === 'ja' || locale === 'zh') ? 'text-left' : 'text-left md:text-justify';
+
   const parseParagraphs = (content: string | string[] | undefined): string[] => {
     if (!content) return [];
     if (Array.isArray(content)) return content;
-    return content.split(/\n\n|\\n\\n/);
+    
+    const rawParas = content.split(/\n\n|\\n\\n/).map(p => p.trim()).filter(Boolean);
+    const merged: string[] = [];
+    
+    for (let i = 0; i < rawParas.length; i++) {
+      let p = rawParas[i];
+      const isTitle = (p.length < 80 && !/[.!?。！？]$/.test(p)) || /^(#+\s*|\d+\.\s+)/.test(p);
+      
+      if (isTitle && i < rawParas.length - 1) {
+        p = p.replace(/^(#+\s*|\d+\.\s*)/, '').trim();
+        if (p) {
+          merged.push(p + ' — ' + rawParas[i+1]);
+        } else {
+          merged.push(rawParas[i+1]);
+        }
+        i++;
+      } else {
+        merged.push(p);
+      }
+    }
+    
+    return merged;
   };
 
   const categoryLabel = tc.categories?.[giant.category] || 
@@ -605,7 +628,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                           const restOfText = cleaned.substring(1);
                           
                           return (
-                            <p className="text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal text-left md:text-justify break-keep">
+                            <p className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep ${alignClass}`}>
                               <span className="text-5xl md:text-6xl font-serif mr-3 md:mr-4 float-left text-amber-400 font-black leading-none mt-1 md:mt-2">
                                 {firstLetter}
                               </span>
@@ -613,7 +636,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                             </p>
                           );
                         })() : (
-                          <p className="text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal text-left md:text-justify break-keep">
+                          <p className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep ${alignClass}`}>
                             {currentParagraph}
                           </p>
                         )}
