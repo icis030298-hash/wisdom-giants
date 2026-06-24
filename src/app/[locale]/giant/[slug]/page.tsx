@@ -7,11 +7,11 @@ import fs from 'fs';
 import path from 'path';
 import finalNarratives from "@/data/final-narratives.json";
 
-// Load fact layer pilot data
-const factLayerPath = path.join(process.cwd(), 'src/data/fact-layer-pilot.json');
-let factLayerPilot: any = {};
+// Load fact layer data
+const factLayerPath = path.join(process.cwd(), 'src/data/fact-layer-all.json');
+let factLayerAll: any = {};
 if (fs.existsSync(factLayerPath)) {
-  factLayerPilot = JSON.parse(fs.readFileSync(factLayerPath, 'utf-8'));
+  factLayerAll = JSON.parse(fs.readFileSync(factLayerPath, 'utf-8'));
 }
 
 interface Props {
@@ -126,7 +126,7 @@ export default async function GiantDetailPage({ params }: Props) {
   if (!giant) notFound();
 
   // Attach fact layer data if it exists for this giant
-  const factLayer = factLayerPilot[slug] || null;
+  const factLayer = factLayerAll[slug] || null;
 
   const messages = await getMessages({ locale });
   

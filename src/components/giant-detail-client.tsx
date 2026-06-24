@@ -792,14 +792,17 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
               )}
 
               {/* Key Achievements */}
-              {translations.factLayer.key_achievements && translations.factLayer.key_achievements.length > 0 && (
+              {translations.factLayer.keyAchievements && translations.factLayer.keyAchievements.length > 0 && (
                 <div className="space-y-6 pt-6">
                   <h3 className="text-2xl font-bold text-emerald-400/90">{locale === 'ko' ? '핵심 업적' : 'Key Achievements'}</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {translations.factLayer.key_achievements.map((ach: string, idx: number) => (
-                      <li key={idx} className="glass-card p-4 rounded-xl border border-white/5 flex gap-3 items-start">
-                        <span className="text-emerald-500">✓</span>
-                        <span className="text-slate-200 text-sm">{ach}</span>
+                    {translations.factLayer.keyAchievements.map((ach: any, idx: number) => (
+                      <li key={idx} className="glass-card p-4 rounded-xl border border-white/5 flex gap-3 items-start flex-col sm:flex-row">
+                        <span className="text-emerald-500 shrink-0 text-xl font-bold">✓</span>
+                        <div className="flex flex-col gap-1">
+                          <span className="text-slate-100 font-bold text-base">{ach.title}</span>
+                          <span className="text-slate-300 text-sm leading-relaxed">{ach.description}</span>
+                        </div>
                       </li>
                     ))}
                   </ul>
