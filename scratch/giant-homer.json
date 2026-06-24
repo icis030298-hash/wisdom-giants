@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "호메로스",
+      "title": "서양 문학의 창시자",
+      "headline": "가장 위대한 서사시인",
+      "shortDescription": "고대 그리스의 전설적인 서사시인으로, 『일리아스』와 『오디세이아』의 저자로 알려져 있습니다. 그의 작품은 서양 문학의 토대이자 인류 문화의 위대한 유산입니다.",
+      "quote": "잠시 참아라, 내 마음아. 너는 이보다 더한 일도 견뎌내지 않았던가.",
+      "chatGreeting": "반갑소, 나그네여. 신들이 그대의 발걸음을 내게로 이끌었군요. 트로이의 영웅들과 거친 바다를 떠돌았던 오디세우스의 이야기를 듣고자 하시오?",
+      "suggestedQuestions": [
+        "당신이 살았던 시대에 대해 이야기해 주세요.",
+        "일리아스와 오디세이아의 주요 메시지는 무엇인가요?",
+        "이야기를 전승하는 데 있어 구전의 힘은 무엇이라 생각하나요?"
+      ],
+      "era": "기원전 8세기경",
+      "pain": "시력을 잃었다는 전설과, 여러 도시를 떠돌며 구걸해야 했던 가난한 삶",
+      "recovery": "맹인이라는 한계와 가난 속에서도 뛰어난 기억력과 상상력으로 그리스의 위대한 신화와 역사를 노래하여 영원히 기억되는 서사시를 창조함"
+    },
+    "en": {
+      "name": "Homer",
+      "title": "Father of Western Literature",
+      "headline": "Greatest Epic Poet",
+      "shortDescription": "The legendary ancient Greek epic poet, widely attributed as the author of the Iliad and the Odyssey. His works form the foundation of Western literature and are a profound legacy of human culture.",
+      "quote": "Endure, my heart; you have endured worse than this.",
+      "chatGreeting": "Greetings, traveler. It seems the gods have guided your steps to me. Do you wish to hear tales of the heroes of Troy and the long, bitter wanderings of Odysseus?",
+      "suggestedQuestions": [
+        "Tell me about the era in which you lived.",
+        "What is the main message of the Iliad and the Odyssey?",
+        "What do you believe is the power of oral storytelling?"
+      ],
+      "era": "Around 8th Century BC",
+      "pain": "Legendary blindness and a life of poverty, wandering from city to city",
+      "recovery": "Overcame his physical limitations and hardship through extraordinary memory and imagination, transforming Greek myths and history into immortal epic poems"
+    },
+    "ja": {
+      "name": "ホメロス",
+      "title": "西洋文学の祖",
+      "headline": "最も偉大な叙事詩人",
+      "shortDescription": "古代ギリシアの伝説的な叙事詩人で、『イリアス』と『オデュッセイア』の作者として知られています。彼の作品は西洋文学の基礎であり、人類の偉大な文化的遺産です。",
+      "quote": "耐えよ、我が心よ。お前はこれより酷いことにも耐えてきたではないか。",
+      "chatGreeting": "ようこそ、旅人よ。神々があなたの歩みを私へと導いたようですね。トロイアの英雄たちや、荒波を彷徨ったオデュッセウスの物語をお聞きになりたいのですか？",
+      "suggestedQuestions": [
+        "あなたが生きた時代について教えてください。",
+        "『イリアス』と『オデュッセイア』の主なメッセージは何ですか？",
+        "物語を伝える上での口承の力とは何だとお考えですか？"
+      ],
+      "era": "紀元前8世紀頃",
+      "pain": "盲目であったという伝説と、都市から都市へ放浪した貧しい生活",
+      "recovery": "盲目と貧困の中でも、並外れた記憶力と想像力をもってギリシアの神話と歴史を歌い上げ、永遠の叙事詩を創り出した"
+    },
+    "de": {
+      "name": "Homer",
+      "title": "Vater der abendländischen Literatur",
+      "headline": "Der größte Epiker",
+      "shortDescription": "Der legendäre antike griechische Epiker, der als Autor der Ilias und der Odyssee gilt. Seine Werke bilden das Fundament der abendländischen Literatur und sind ein bedeutendes Erbe der menschlichen Kultur.",
+      "quote": "Ertrage, mein Herz; du hast Schlimmeres als dies ertragen.",
+      "chatGreeting": "Sei gegrüßt, Reisender. Die Götter haben deine Schritte zu mir gelenkt. Möchtest du die Geschichten von den Helden Trojas und den Irrfahrten des Odysseus hören?",
+      "suggestedQuestions": [
+        "Erzählen Sie mir von der Zeit, in der Sie lebten.",
+        "Was ist die Hauptaussage der Ilias und der Odyssee?",
+        "Was ist Ihrer Meinung nach die Kraft der mündlichen Überlieferung?"
+      ],
+      "era": "Etwa 8. Jahrhundert v. Chr.",
+      "pain": "Die Legende seiner Blindheit und ein Leben in Armut als wandernder Dichter",
+      "recovery": "Überwand seine physischen Einschränkungen durch eine außergewöhnliche Vorstellungskraft und schuf unsterbliche Epen, die griechische Mythen festhielten"
+    },
+    "es": {
+      "name": "Homero",
+      "title": "Padre de la literatura occidental",
+      "headline": "El mayor poeta épico",
+      "shortDescription": "El legendario poeta épico griego antiguo, reconocido como el autor de la Ilíada y la Odisea. Sus obras forman la base de la literatura occidental y son un legado fundamental de la cultura humana.",
+      "quote": "Soporta, corazón mío; cosas más graves has soportado.",
+      "chatGreeting": "Saludos, viajero. Parece que los dioses han guiado tus pasos hacia mí. ¿Deseas escuchar las historias de los héroes de Troya y los largos vagabundeos de Odiseo?",
+      "suggestedQuestions": [
+        "Háblame de la época en la que viviste.",
+        "¿Cuál es el mensaje principal de la Ilíada y la Odisea?",
+        "¿Cuál crees que es el poder de la tradición oral?"
+      ],
+      "era": "Alrededor del siglo VIII a. C.",
+      "pain": "La legendaria ceguera y una vida de pobreza vagando de ciudad en ciudad",
+      "recovery": "Superó sus limitaciones físicas y dificultades a través de una memoria e imaginación extraordinarias, transformando los mitos griegos en poemas inmortales"
+    },
+    "fr": {
+      "name": "Homère",
+      "title": "Père de la littérature occidentale",
+      "headline": "Le grand poète épique",
+      "shortDescription": "Légendaire poète épique grec de l'Antiquité, considéré comme l'auteur de l'Iliade et de l'Odyssée. Ses œuvres constituent le fondement de la littérature occidentale et un immense héritage culturel.",
+      "quote": "Supporte, mon cœur ; tu as supporté pire que cela.",
+      "chatGreeting": "Salutations, voyageur. Il semble que les dieux aient guidé vos pas vers moi. Souhaitez-vous entendre les récits des héros de Troie et des longues errances d'Ulysse ?",
+      "suggestedQuestions": [
+        "Parlez-moi de l'époque à laquelle vous avez vécu.",
+        "Quel est le message principal de l'Iliade et de l'Odyssée ?",
+        "Quel est selon vous le pouvoir de la transmission orale ?"
+      ],
+      "era": "Vers le VIIIe siècle av. J.-C.",
+      "pain": "La légende de sa cécité et une vie de pauvreté errant de ville en ville",
+      "recovery": "A surmonté ses limites physiques grâce à une mémoire et une imagination extraordinaires, créant des épopées immortelles qui ont figé les mythes grecs"
+    },
+    "it": {
+      "name": "Omero",
+      "title": "Padre della letteratura occidentale",
+      "headline": "Il sommo poeta epico",
+      "shortDescription": "Leggendario poeta epico dell'antica Grecia, tradizionalmente considerato l'autore dell'Iliade e dell'Odissea. Le sue opere costituiscono le fondamenta della letteratura occidentale.",
+      "quote": "Sopporta, mio cuore; hai sopportato di peggio.",
+      "chatGreeting": "Salute a Lei, viandante. Sembra che gli dèi abbiano guidato i Suoi passi verso di me. Desidera ascoltare le storie degli eroi di Troia e delle lunghe peregrinazioni di Odisseo?",
+      "suggestedQuestions": [
+        "Mi parli dell'epoca in cui è vissuto.",
+        "Qual è il messaggio principale dell'Iliade e dell'Odissea?",
+        "Qual è secondo Lei il potere della narrazione orale?"
+      ],
+      "era": "Circa VIII secolo a.C.",
+      "pain": "La leggendaria cecità e una vita di povertà vagando di città in città",
+      "recovery": "Ha superato i suoi limiti fisici e le avversità attraverso una memoria e un'immaginazione straordinarie, trasformando i mitos in poemi immortali"
+    },
+    "pt": {
+      "name": "Homero",
+      "title": "Pai da Literatura Ocidental",
+      "headline": "O maior poeta épico",
+      "shortDescription": "O lendário poeta épico da Grécia antiga, amplamente reconhecido como o autor da Ilíada e da Odisseia. Suas obras formam a base da literatura ocidental e são um legado profundo.",
+      "quote": "Suporta, meu coração; já suportaste coisas piores.",
+      "chatGreeting": "Saudações, viajante. Parece que os deuses guiaram teus passos até mim. Desejas ouvir as histórias dos heróis de Troia e as longas peregrinações de Odisseu?",
+      "suggestedQuestions": [
+        "Fale-me sobre a época em que você viveu.",
+        "Qual é a mensagem principal da Ilíada e da Odisseia?",
+        "Qual você acredita ser o poder da narração oral?"
+      ],
+      "era": "Cerca do século VIII a.C.",
+      "pain": "Cegueira lendária e uma vida de pobreza, vagando de cidade em cidade",
+      "recovery": "Superou suas limitações físicas por meio de extraordinária memória e imaginação, criando poemas épicos que imortalizaram a mitologia grega"
+    },
+    "ar": {
+      "name": "هوميروس",
+      "title": "أبو الأدب الغربي",
+      "headline": "أعظم شاعر ملحمي",
+      "shortDescription": "الشاعر الملحمي اليوناني القديم الأسطوري، والمؤلف المفترض للإلياذة والأوديسة. تشكل أعماله أساس الأدب الغربي وهي إرث عميق للثقافة البشرية.",
+      "quote": "تحمل يا قلبي؛ لقد تحملت أسوأ من هذا.",
+      "chatGreeting": "تحياتي أيها المسافر. يبدو أن الآلهة قد وجهت خطواتك إليّ. هل ترغب في سماع حكايات أبطال طروادة والرحلات الطويلة لأوديسيوس؟",
+      "suggestedQuestions": [
+        "حدثني عن العصر الذي عشت فيه.",
+        "ما هي الرسالة الرئيسية للإلياذة والأوديسة؟",
+        "ما هو برأيك قوة سرد القصص الشفوي؟"
+      ],
+      "era": "حوالي القرن الثامن قبل الميلاد",
+      "pain": "العمى الأسطوري وحياة الفقر والتجوال من مدينة إلى أخرى",
+      "recovery": "تغلب على قيوده الجسدية وصعوباته من خلال ذاكرة وخيال استثنائيين، محولاً الأساطير اليونانية إلى قصائد ملحمية خالدة"
+    },
+    "hi": {
+      "name": "होमर",
+      "title": "पश्चिमी साहित्य के जनक",
+      "headline": "महानतम महाकाव्य कवि",
+      "shortDescription": "प्राचीन यूनान के महान और पौराणिक महाकाव्य कवि, जिन्हें इलियड और ओडिसी का रचयिता माना जाता है। उनकी रचनाएँ पश्चिमी साहित्य का आधार हैं।",
+      "quote": "सहन करो, मेरे हृदय; तुमने इससे भी बुरा सहा है।",
+      "chatGreeting": "नमस्कार, यात्री। लगता है देवताओं ने तुम्हारे कदम मेरी ओर निर्देशित किए हैं। क्या तुम ट्रॉय के नायकों और ओडीसियस के लंबे भटकाव की कहानियाँ सुनना चाहते हो?",
+      "suggestedQuestions": [
+        "मुझे उस युग के बारे में बताइए जिसमें आप रहते थे।",
+        "इलियड और ओडिसी का मुख्य संदेश क्या है?",
+        "आपके अनुसार मौखिक कहानी कहने की शक्ति क्या है?"
+      ],
+      "era": "लगभग 8वीं शताब्दी ईसा पूर्व",
+      "pain": "पौराणिक अंधापन और एक शहर से दूसरे शहर भटकने वाला गरीबी का जीवन",
+      "recovery": "अपनी असाधारण याददाश्त और कल्पना के माध्यम से अपनी शारीरिक सीमाओं को पार किया, और यूनानी मिथकों को अमर महाकाव्यों में बदल दिया"
+    },
+    "ru": {
+      "name": "Гомер",
+      "title": "Отец западной литературы",
+      "headline": "Великий поэт эпоса",
+      "shortDescription": "Легендарный древнегреческий поэт, которому приписывается авторство эпических поэм «Илиада» и «Одиссея». Его произведения составляют основу западной литературы.",
+      "quote": "Терпи, мое сердце; ты вынесло и не такое.",
+      "chatGreeting": "Приветствую тебя, путник. Кажется, боги направили твои шаги ко мне. Желаешь ли ты услышать сказания о героях Трои и долгих скитаниях Одиссея?",
+      "suggestedQuestions": [
+        "Расскажите мне об эпохе, в которой вы жили.",
+        "В чем главный смысл «Илиады» и «Одиссеи»?",
+        "В чем, по вашему мнению, заключается сила устного эпоса?"
+      ],
+      "era": "Примерно VIII век до н.э.",
+      "pain": "Легендарная слепота и жизнь в бедности скитальца-рапсода",
+      "recovery": "Преодолел физические ограничения благодаря феноменальной памяти и воображению, превратив греческие мифы в бессмертные поэмы"
+    },
+    "zh": {
+      "name": "荷马",
+      "title": "西方文学之父",
+      "headline": "最伟大的史诗诗人",
+      "shortDescription": "古希腊传说中的伟大史诗诗人，《伊利亚特》和《奥德赛》的作者。他的作品奠定了西方文学的基础，是人类文化的瑰宝。",
+      "quote": "忍耐吧，我的心；你曾忍受过比这更糟的痛苦。",
+      "chatGreeting": "你好，旅行者。看来是众神将你的脚步引向了我。你希望聆听特洛伊英雄的故事和奥德修斯漫长的漂泊吗？",
+      "suggestedQuestions": [
+        "请告诉我你生活的那个时代。",
+        "《伊利亚特》和《奥德赛》的主要传达了什么？",
+        "你认为口头故事流传的力量是什么？"
+      ],
+      "era": "约公元前8世纪",
+      "pain": "传说中的双目失明，以及在不同城邦间流浪乞讨的贫困生活",
+      "recovery": "凭借非凡的记忆力和想象力克服了肉体的残缺与苦难，将希腊神话与历史谱写成永垂不朽的史诗"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 신화와 역사가 교차하는 시대\n\n기원전 8세기, 그리스 세계는 암흑기를 지나 새로운 여명을 맞이하고 있었습니다. 트로이 전쟁의 기억은 세대를 거쳐 구전되며 신화가 되어갔고, 사람들은 영웅들의 장엄한 이야기에 목말라 있었습니다. 이 시기에 이오니아 지방(오늘날의 튀르키예 서해안) 어딘가에서 서양 문학의 아버지가 될 인물이 활동을 시작했습니다. 그가 바로 호메로스입니다. 그는 눈이 보이지 않는 떠돌이 음유시인으로 알려져 있으며, 이 도시 저 도시를 떠돌며 리라 연주에 맞추어 노래를 불렀다고 전해집니다.\n\n### 2. 일리아스: 분노와 비애의 서사시\n\n호메로스의 가장 유명한 작품 중 하나인 『일리아스』는 트로이 전쟁의 마지막 해를 배경으로 합니다. 그는 단순한 전쟁의 영광을 찬양하는 대신, 아킬레우스의 맹렬한 분노와 헥토르의 고귀한 희생, 그리고 전쟁이 가져다주는 참혹함과 인간적인 비애를 섬세하게 그려냈습니다. 신들과 인간들의 운명이 얽히고설킨 거대한 캔버스 위에서, 그는 필멸의 존재인 인간이 유한한 삶 속에서 어떻게 불멸의 명예를 추구하는지를 장엄한 운율로 노래했습니다.\n\n### 3. 오디세이아: 끝없는 모험과 귀향\n\n그의 또 다른 대작인 『오디세이아』는 트로이 함락 후 고향 이타카로 돌아가는 오디세우스의 10년에 걸친 험난한 모험을 다룹니다. 외눈박이 거인 키클롭스, 바다의 마녀 세이렌 등 수많은 역경과 유혹 속에서도 굴하지 않는 오디세우스의 지혜와 끈기, 그리고 가족을 향한 사랑은 수많은 청중들의 마음을 울렸습니다. 이는 단순한 모험기를 넘어 인간의 의지와 이성이 운명에 맞서 어떻게 승리할 수 있는지를 보여주는 위대한 여정입니다.\n\n### 4. 서양 문학의 영원한 메아리\n\n호메로스가 실존 인물인지, 혹은 수많은 음유시인들의 총체적인 이름인지에 대해서는 '호메로스 문제'라 불리며 오랫동안 논쟁이 되어왔습니다. 그러나 그 이름 아래 남겨진 두 편의 서사시는 고대 그리스 문화의 정신적 근간이 되었고, 알렉산드로스 대왕은 항상 베개 밑에 『일리아스』를 두고 잤다고 전해집니다. 수천 년이 지난 오늘날까지도 그의 작품은 문학, 철학, 예술의 무한한 영감의 원천이 되고 있으며, 그의 목소리는 인류의 가슴속에 영원히 메아리치고 있습니다.",
+    "epic_en": "### 1. The Era of Myth and History\n\nIn the 8th century BC, the Greek world was emerging from its Dark Ages to witness a new dawn. The memories of the legendary Trojan War had been passed down through generations, slowly evolving from historical events into grand myths, and people deeply thirsted for the magnificent tales of ancient heroes and gods. During this transformative time, somewhere in the region of Ionia (along the western coast of modern-day Turkey), the figure who would ultimately become recognized as the father of Western literature began his lifelong work. This profound individual was Homer. Tradition firmly holds that he was a blind wandering bard, moving endlessly from city to city, singing his majestic verses to the rhythmic accompaniment of a simple lyre.\n\n### 2. The Iliad: An Epic of Wrath and Sorrow\n\nOne of Homer's most famous and enduring works, the *Iliad*, is vividly set during the chaotic final year of the decade-long Trojan War. Rather than merely praising the superficial glory and triumph of war, he delicately and masterfully portrayed the fierce, destructive wrath of the Greek hero Achilles, the noble and tragic sacrifice of the Trojan prince Hector, and the devastating cruelty and profound human sorrow brought about by the relentless conflict. On a vast, cosmic canvas where the complex destinies of omnipotent gods and fragile mortals inextricably intertwine, he sang in a majestic, rolling meter of how mortal beings desperately pursue immortal honor and glory within the harsh, inescapable constraints of their finite and brief lives.\n\n### 3. The Odyssey: A Journey of Peril and Return\n\nHis other unparalleled masterpiece, the *Odyssey*, meticulously recounts the perilous and agonizing ten-year journey of the cunning hero Odysseus as he attempts to return to his beloved home in Ithaca after the tragic fall of Troy. Facing countless terrifying adversities and seductive temptations—ranging from the monstrous, man-eating, one-eyed Cyclops Polyphemus to the mesmerizing, enchanting Sirens who lure sailors to their doom—Odysseus's unwavering wisdom, remarkable perseverance, and boundless love for his loyal family deeply moved countless generations of listeners. Beyond being a simple, thrilling tale of adventure and survival, it is a profound philosophical exploration of how human willpower, resilience, and intellect can ultimately triumph over seemingly insurmountable fate and the arbitrary whims of the divine.\n\n### 4. The Eternal Echo of Western Literature\n\nWhether Homer was a single, solitary historical figure or a collective, symbolic name representing generations of skilled oral bards has long been fiercely debated by scholars as the famous 'Homeric Question.' Nevertheless, regardless of his true historical identity, the two monumental epics left under his enduring name unequivocally became the spiritual and cultural foundation of ancient Greek civilization. It is famously said that Alexander the Great, the legendary conqueror, always slept with a cherished copy of the *Iliad* safely tucked beneath his pillow. Thousands of years later, his timeless works continue to be an inexhaustible, vibrant source of inspiration for global literature, philosophy, and art, his powerful voice eternally echoing in the collective heart and soul of humanity.",
+    "epic_de": "### 1. Die Ära von Mythos und Geschichte\n\nIm 8. Jahrhundert v. Chr. erwachte die griechische Welt aus ihrem dunklen Zeitalter. Die Erinnerungen an den Trojanischen Krieg wurden über Generationen weitergegeben. In dieser Zeit begann in Ionien Homer, der Vater der abendländischen Literatur, sein Werk. Die Überlieferung besagt, dass er ein blinder wandernder Barde war.\n\n### 2. Die Ilias: Ein Epos von Zorn und Kummer\n\nDie Ilias spielt im letzten Jahr des Trojanischen Krieges. Er sang von dem gewaltigen Zorn des Achilles und dem edlen Opfer des Hektor. Es ist ein majestätischer Gesang darüber, wie sterbliche Menschen unsterbliche Ehre suchen.\n\n### 3. Die Odyssee: Eine Reise voller Gefahren\n\nSein zweites Meisterwerk, die Odyssee, erzählt von der zehnjährigen Reise des Odysseus zurück nach Ithaka. Durch Weisheit und Ausdauer überwindet Odysseus zahlreiche Gefahren, wie den Zyklopen und die Sirenen.\n\n### 4. Das ewige Echo\n\nOb Homer eine Einzelperson oder ein Kollektivname war, bleibt als 'Homerische Frage' umstritten. Doch seine Epen bildeten das geistige Fundament Griechenlands und inspirieren bis heute die gesamte Menschheit.",
+    "epic_ja": "### 1. 神話と歴史の交差点\n\n紀元前8世紀、ギリシア世界は暗黒時代を抜け出し新たな夜明けを迎えていました。トロイア戦争の記憶は口承され神話となっていました。この時代にイオニア地方で活躍したのがホメロスです。伝説では彼は盲目の吟遊詩人であったとされています。\n\n### 2. イリアス：怒りと悲哀の叙事詩\n\n『イリアス』はトロイア戦争の最終年を舞台としています。アキレウスの激しい怒りやヘクトルの高貴な犠牲を通して、戦争の残酷さと人間の悲哀を繊細に描き出しました。\n\n### 3. オデュッセイア：果てしない冒険と帰還\n\n『オデュッセイア』はオデュッセウスの10年にわたる過酷な帰還の旅を描いています。キュクロプスやセイレンなどの困難に立ち向かう彼の知恵と忍耐力は、人間の意志の勝利を示しています。\n\n### 4. 永遠に響く声\n\nホメロスが実在したのかという「ホメロス問題」は長く議論されています。しかし、彼が残した2つの叙事詩はギリシア文化の精神的基盤となり、今日に至るまで人類にインスピレーションを与え続けています。",
+    "epic_es": "### 1. La Era del Mito y la Historia\n\nEn el siglo VIII a. C., el mundo griego emergía de su Edad Oscura. Los recuerdos de la Guerra de Troya se transmitían oralmente. Durante este tiempo, en Jonia, surgió Homero. La tradición lo describe como un bardo ciego y errante.\n\n### 2. La Ilíada: Épica de Ira y Dolor\n\nLa Ilíada se sitúa en el último año de la Guerra de Troya. Homero retrató la feroz ira de Aquiles, el noble sacrificio de Héctor y el profundo dolor humano en medio de la guerra.\n\n### 3. La Odisea: Un Viaje de Peligros\n\nLa Odisea narra el viaje de diez años de Odiseo hacia Ítaca. Enfrentando adversidades como el Cíclope y las Sirenas, la sabiduría y perseverancia de Odiseo triunfan sobre el destino.\n\n### 4. El Eco Eterno\n\nAunque la 'Cuestión Homérica' debate si fue una sola persona, sus poemas épicos son la base espiritual de la cultura griega antigua y una inspiración inagotable para la humanidad.",
+    "epic_fr": "### 1. L'ère du mythe et de l'histoire\n\nAu VIIIe siècle av. J.-C., le monde grec sortait de son âge sombre. C'est à cette époque qu'Homère est apparu en Ionie. La tradition le décrit comme un aède aveugle errant de ville en ville.\n\n### 2. L'Iliade : Épopée de la colère et du chagrin\n\nL'Iliade se déroule lors de la dernière année de la guerre de Troie. Homère a dépeint la colère d'Achille et le noble sacrifice d'Hector avec une profonde humanité.\n\n### 3. L'Odyssée : Un voyage périlleux\n\nL'Odyssée raconte le voyage de retour d'Ulysse vers Ithaque, long de dix ans. Sa sagesse et sa persévérance triomphent des obstacles tels que les Cyclopes et les Sirènes.\n\n### 4. L'écho éternel\n\nQue l'auteur soit unique ou multiple (la 'question homérique'), ces épopées fondent la culture grecque antique et continuent d'inspirer le monde entier.",
+    "epic_it": "### 1. L'era del mito e della storia\n\nNell'VIII secolo a.C., il mondo greco usciva dai secoli bui. In questo periodo in Ionia emerse Omero, che la tradizione descrive come un cantore cieco e girovago.\n\n### 2. L'Iliade: Epica di ira e dolore\n\nL'Iliade è ambientata nell'ultimo anno della guerra di Troia. Omero canta l'ira di Achille e il sacrificio di Ettore, descrivendo l'umanità dei mortali e gli orrori della guerra.\n\n### 3. L'Odissea: Un viaggio di pericoli\n\nL'Odissea racconta il viaggio decennale di Odisseo verso Itaca. Attraverso innumerevoli pericoli, la sua astuzia e tenacia dimostrano il trionfo della volontà sul fato.\n\n### 4. L'eco eterno\n\nNonostante la 'questione omerica', i suoi poemi sono le fondamenta della cultura occidentale e un patrimonio inestimabile per l'umanità.",
+    "epic_pt": "### 1. A Era do Mito e da História\n\nNo século VIII a.C., o mundo grego emergia da sua Idade das Trevas. Nesta época, na Jônia, surgiu Homero, descrito pela tradição como um bardo cego e errante.\n\n### 2. A Ilíada: Épica de Ira e Dor\n\nA Ilíada se passa no último ano da Guerra de Troia. Homero canta a fúria de Aquiles e o sacrifício de Heitor, mostrando a humanidade frágil frente à guerra.\n\n### 3. A Odisseia: Uma Jornada de Perigos\n\nA Odisseia narra a viagem de dez anos de Odisseu de volta a Ítaca. Enfrentando perigos como os Ciclopes, sua sabedoria e persistência vencem os obstáculos.\n\n### 4. O Eco Eterno\n\nApesar da 'Questão Homérica', suas obras são a base literária da cultura grega antiga e continuam a influenciar a civilização ocidental.",
+    "epic_ar": "### 1. عصر الأسطورة والتاريخ\n\nفي القرن الثامن قبل الميلاد، كان العالم اليوناني يخرج من عصوره المظلمة. في هذا الوقت، ظهر هوميروس في إيونيا. تصفه التقاليد بأنه كان شاعرًا أعمى يتجول بين المدن.\n\n### 2. الإلياذة: ملحمة الغضب والحزن\n\nتدور أحداث الإلياذة في العام الأخير من حرب طروادة. صور هوميروس غضب أخيل وتضحية هيكتور، مبينًا الجانب الإنساني العميق والمآسي.\n\n### 3. الأوديسة: رحلة المخاطر\n\nتروي الأوديسة رحلة عودة أوديسيوس التي استمرت عشر سنوات إلى إيثاكا. من خلال الحكمة والمثابرة، تغلب على الصعاب مثل السيكلوب وحوريات البحر.\n\n### 4. الصدى الخالد\n\nعلى الرغم من 'المسألة الهوميرية' حول هويته، تظل ملاحمه الأساس الروحي للثقافة اليونانية ومصدر إلهام للبشرية جمعاء.",
+    "epic_hi": "### 1. मिथक और इतिहास का युग\n\n8वीं शताब्दी ईसा पूर्व में, यूनानी दुनिया अंधकार युग से बाहर आ रही थी। इसी समय होमर का उदय हुआ। किंवदंती है कि वे एक अंधे घुमक्कड़ कवि थे।\n\n### 2. इलियड: क्रोध और दुख का महाकाव्य\n\nइलियड ट्रॉय युद्ध के अंतिम वर्ष पर आधारित है। इसमें अकिलीज़ के क्रोध और हेक्टर के बलिदान का गहराई से वर्णन किया गया है।\n\n### 3. ओडिसी: खतरों की यात्रा\n\nओडिसी इथाका वापस लौटने की ओडीसियस की 10 साल की यात्रा का वर्णन करता है। उसकी बुद्धि और दृढ़ता उसे साइक्लोप्स जैसी बाधाओं से पार ले जाती है।\n\n### 4. शाश्वत गूंज\n\nचाहे होमर एक व्यक्ति रहे हों या कई, उनके महाकाव्य पश्चिमी साहित्य का आधार बने हुए हैं और आज भी दुनिया को प्रेरित करते हैं।",
+    "epic_ru": "### 1. Эпоха мифа и истории\n\nВ VIII веке до н.э. греческий мир выходил из Темных веков. В это время в Ионии появился Гомер. Предания описывают его как слепого странствующего певца-аэда.\n\n### 2. Илиада: Эпос гнева и скорби\n\nДействие «Илиады» разворачивается в последний год Троянской войны. Гомер воспел гнев Ахилла и благородство Гектора, показав трагедию войны.\n\n### 3. Одиссея: Путешествие и возвращение\n\n«Одиссея» повествует о десятилетнем возвращении Одиссея на Итаку. Его хитроумие и стойкость помогают преодолеть испытания богов и монстров.\n\n### 4. Вечное эхо\n\nНесмотря на «гомеровский вопрос», его поэмы заложили основы европейской культуры и литературы, оставаясь величайшим наследием.",
+    "epic_zh": "### 1. 神话与历史的交汇\n\n公元前8世纪，希腊世界正从黑暗时代中苏醒。在这片土地上，荷马开始了他在伊奥尼亚的吟唱。传说他是一位双目失明的流浪诗人。\n\n### 2. 伊利亚特：愤怒与悲伤的史诗\n\n《伊利亚特》以特洛伊战争的最后一年为背景。荷马不仅赞美了英雄的荣耀，更深刻地描绘了阿喀琉斯的愤怒与赫克托尔的牺牲。\n\n### 3. 奥德赛：漫长的冒险与归乡\n\n《奥德赛》讲述了奥德修斯在特洛伊城破后长达十年的归乡之旅。凭借智慧与毅力，他战胜了独眼巨人等重重艰难险阻。\n\n### 4. 西方文学的永恒回音\n\n尽管“荷马问题”至今仍有争议，但他名下的两部史诗奠定了古希腊文化的精神基础，对后世文学产生了深远的影响。",
+    "trials_ko": "시력을 잃었다는 전설 속에서 끊임없이 여러 도시를 떠돌아야 했던 가난한 삶과 고독",
+    "trials_en": "Enduring the legendary hardship of blindness and a life of impoverished wandering between cities.",
+    "overcoming_ko": "신체적 결함과 가난에도 불구하고, 탁월한 기억력과 상상력으로 고대 그리스의 영웅담을 불멸의 서사시로 승화시킴",
+    "overcoming_en": "Transformed his physical limitations into a profound strength, using his extraordinary memory to compose immortal epics of ancient heroes.",
+    "wisdom": [
+      {
+        "quote_ko": "잠시 참아라, 내 마음아. 너는 이보다 더한 일도 견뎌내지 않았던가.",
+        "quote_en": "Endure, my heart; you have endured worse than this.",
+        "meaning_ko": "아무리 힘든 순간이라도 과거의 더 큰 시련을 이겨낸 자신을 기억하며 견뎌내야 함을 의미합니다.",
+        "meaning_en": "A reminder that drawing strength from past resilience can help us survive present hardships."
+      },
+      {
+        "quote_ko": "경쟁하는 자는 남보다 뛰어나야 하며, 모든 면에서 탁월함을 추구해야 한다.",
+        "quote_en": "Ever to excel, to do better than others, and to bring glory to your forebears.",
+        "meaning_ko": "자신의 한계를 극복하고 매 순간 최선을 다하여 탁월한 성취를 이루라는 고대 그리스의 영웅적 이상을 담고 있습니다.",
+        "meaning_en": "Reflects the ancient Greek ideal of arete—the pursuit of excellence and pushing one's limits to achieve greatness."
+      },
+      {
+        "quote_ko": "가벼운 입술은 깃털과 같아 수많은 말들이 날아가지만, 그중 지혜로운 말은 무겁게 가라앉는다.",
+        "quote_en": "Words empty as the wind are best left unsaid.",
+        "meaning_ko": "무의미한 말을 함부로 내뱉기보다는, 침묵 속에서 지혜를 찾고 가치 있는 말을 해야 함을 강조합니다.",
+        "meaning_en": "Advises against frivolous speech, emphasizing that silence is often more valuable than meaningless chatter."
+      }
+    ]
+  }
+}

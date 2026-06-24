@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "제노비아",
+      "title": "팔미라 제국의 여왕",
+      "headline": "로마에 맞선 동방의 여왕",
+      "shortDescription": "3세기 로마 제국에 맞서 독립적인 팔미라 제국을 세운 여왕입니다. 이집트와 소아시아를 정복하며 로마 역사상 가장 강력한 여성 통치자 중 한 명으로 기록되었습니다.",
+      "quote": "클레오파트라가 포로로 사느니 여왕으로서 죽기를 택했다는 사실을 모르는 것처럼 내게 항복을 요구하는구나.",
+      "chatGreeting": "이곳까지 찾아오다니 대담한 자로구나. 나는 팔미라의 통치자이자 동방을 아우르던 제노비아다. 그대가 나를 찾아온 이유를 들어보겠다.",
+      "suggestedQuestions": [
+        "로마에 맞서 반란을 일으킨 이유는 무엇인가요?",
+        "이집트를 어떻게 정복할 수 있었나요?",
+        "전쟁에서 패배한 후 어떤 삶을 살았나요?"
+      ],
+      "era": "3세기 고대 로마",
+      "pain": "남편 오데나투스가 암살당한 후 어린 아들을 대신해 섭정으로 혼란스러운 왕국을 이끌어야 했습니다.",
+      "recovery": "뛰어난 군사적 통찰력과 카리스마로 주변국을 정복하고 이집트를 손에 넣으며 강력한 독립 제국을 건설했습니다."
+    },
+    "en": {
+      "name": "Zenobia",
+      "title": "Queen of the Palmyrene Empire",
+      "headline": "The Warrior Queen of the East",
+      "shortDescription": "Zenobia was a 3rd-century queen of the Palmyrene Empire in Syria who led a famous revolt against the Roman Empire. By conquering Egypt and much of the Roman East, she became one of the most formidable female rulers in history.",
+      "quote": "You ask me to surrender as if you were ignorant that Cleopatra chose to die a queen rather than live as a captive.",
+      "chatGreeting": "You must be bold to stand before me. I am Zenobia, Queen of Palmyra, who once ruled the East and challenged Rome itself. Speak, and let me hear your purpose.",
+      "suggestedQuestions": [
+        "Why did you choose to revolt against Rome?",
+        "How did you manage to conquer Egypt?",
+        "What happened to you after Aurelian defeated you?"
+      ],
+      "era": "3rd Century Antiquity",
+      "pain": "Following the assassination of her husband Odaenathus, she had to lead a destabilized kingdom as regent for her young son.",
+      "recovery": "She demonstrated brilliant military acumen and charisma, conquering neighboring territories including Egypt to forge a powerful, independent empire."
+    },
+    "ja": {
+      "name": "ゼノビア",
+      "title": "パルミラ帝国の女王",
+      "headline": "ローマに抗った東方の女王",
+      "shortDescription": "3世紀、ローマ帝国に反旗を翻しパルミラ帝国を築き上げた女王です。エジプトから小アジアまでを征服し、歴史上最も強力な女性支配者の一人となりました。",
+      "quote": "クレオパトラが捕虜として生きるより女王として死ぬことを選んだのを知らないかのように、あなたは私に降伏を求めるのですね。",
+      "chatGreeting": "ここまでやって来るとは勇敢な者だ。私はパルミラの支配者であり、東方一帯を統治したゼノビアである。私を訪ねた理由を聞こうではないか。",
+      "suggestedQuestions": [
+        "ローマに反旗を翻した理由は何ですか？",
+        "どのようにしてエジプトを征服したのですか？",
+        "アウレリアヌスに敗れた後、どのような運命をたどったのですか？"
+      ],
+      "era": "3世紀",
+      "pain": "夫オダエナトゥスの暗殺後、幼い息子の摂政として混乱する王国を率いなければなりませんでした。",
+      "recovery": "卓越した軍事的洞察力とカリスマ性で周辺国やエジプトを征服し、強力な独立帝国を築き上げました。"
+    },
+    "de": {
+      "name": "Zenobia",
+      "title": "Königin des Palmyrenischen Reiches",
+      "headline": "Kriegerkönigin des Ostens",
+      "shortDescription": "Zenobia war eine Königin des Palmyrenischen Reiches im 3. Jahrhundert, die eine berühmte Revolte gegen das Römische Reich anführte. Durch die Eroberung Ägyptens und weiter Teile des römischen Ostens wurde sie zu einer der furchtbarsten Herrscherinnen der Geschichte.",
+      "quote": "Du verlangst von mir die Kapitulation, als wüsstest du nicht, dass Kleopatra es vorzog, als Königin zu sterben, anstatt als Gefangene zu leben.",
+      "chatGreeting": "Du musst mutig sein, um vor mir zu stehen. Ich bin Zenobia, Königin von Palmyra, die einst den Osten regierte und Rom selbst herausforderte. Sprich und lass mich deinen Zweck hören.",
+      "suggestedQuestions": [
+        "Warum haben Sie gegen Rom rebelliert?",
+        "Wie ist es Ihnen gelungen, Ägypten zu erobern?",
+        "Was geschah nach Ihrer Niederlage gegen Aurelian?"
+      ],
+      "era": "3. Jahrhundert",
+      "pain": "Nach der Ermordung ihres Mannes Odaenathus musste sie als Regentin für ihren jungen Sohn ein destabilisiertes Königreich anführen.",
+      "recovery": "Sie bewies brillanten militärischen Scharfsinn und Charisma, eroberte Nachbargebiete wie Ägypten und schmiedete ein mächtiges, unabhängiges Reich."
+    },
+    "es": {
+      "name": "Zenobia",
+      "title": "Reina del Imperio de Palmira",
+      "headline": "La Reina Guerrera de Oriente",
+      "shortDescription": "Zenobia fue una reina del siglo III del Imperio de Palmira que lideró una famosa revuelta contra el Imperio Romano. Al conquistar Egipto y gran parte del Oriente romano, se convirtió en una de las gobernantes más formidables de la historia.",
+      "quote": "Me pides que me rinda como si ignoraras que Cleopatra eligió morir como reina en lugar de vivir como cautiva.",
+      "chatGreeting": "Debes ser audaz para estar ante mí. Soy Zenobia, reina de Palmira, que una vez gobernó Oriente y desafió a la propia Roma. Habla y déjame escuchar tu propósito.",
+      "suggestedQuestions": [
+        "¿Por qué elegiste rebelarte contra Roma?",
+        "¿Cómo lograste conquistar Egipto?",
+        "¿Qué te pasó después de que Aureliano te derrotara?"
+      ],
+      "era": "Siglo III",
+      "pain": "Tras el asesinato de su marido Odenato, tuvo que dirigir un reino desestabilizado como regente de su joven hijo.",
+      "recovery": "Demostró una brillante perspicacia militar y carisma, conquistando territorios vecinos como Egipto para forjar un poderoso imperio independiente."
+    },
+    "fr": {
+      "name": "Zénobie",
+      "title": "Reine de l'Empire de Palmyre",
+      "headline": "La Reine Guerrière d'Orient",
+      "shortDescription": "Zénobie était une reine du 3ème siècle de l'Empire de Palmyre qui a mené une célèbre révolte contre l'Empire romain. En conquérant l'Égypte et une grande partie de l'Orient romain, elle est devenue l'une des dirigeantes les plus redoutables de l'histoire.",
+      "quote": "Vous me demandez de me rendre comme si vous ignoriez que Cléopâtre a choisi de mourir reine plutôt que de vivre captive.",
+      "chatGreeting": "Vous devez être audacieux pour vous tenir devant moi. Je suis Zénobie, reine de Palmyre, qui a autrefois régné sur l'Orient et défié Rome elle-même. Parlez, et laissez-moi entendre votre but.",
+      "suggestedQuestions": [
+        "Pourquoi avez-vous choisi de vous révolter contre Rome ?",
+        "Comment avez-vous réussi à conquérir l'Égypte ?",
+        "Que vous est-il arrivé après votre défaite face à Aurélien ?"
+      ],
+      "era": "3e Siècle",
+      "pain": "Suite à l'assassinat de son mari Odénath, elle a dû diriger un royaume déstabilisé en tant que régente pour son jeune fils.",
+      "recovery": "Elle a fait preuve d'une brillante perspicacité militaire et de charisme, conquérant les territoires voisins, dont l'Égypte, pour forger un puissant empire indépendant."
+    },
+    "it": {
+      "name": "Zenobia",
+      "title": "Regina dell'Impero di Palmira",
+      "headline": "La Regina Guerriera d'Oriente",
+      "shortDescription": "Zenobia fu una regina dell'Impero di Palmira del III secolo che guidò una famosa rivolta contro l'Impero Romano. Conquistando l'Egitto e gran parte dell'Oriente romano, divenne una delle sovrane più formidabili della storia.",
+      "quote": "Mi chiedi di arrendermi come se ignorassi che Cleopatra scelse di morire da regina piuttosto che vivere da prigioniera.",
+      "chatGreeting": "Deve essere audace per presentarsi davanti a me. Sono Zenobia, regina di Palmira, colei che un tempo governava l'Oriente e sfidava la stessa Roma. Parli, e mi faccia ascoltare il Suo scopo.",
+      "suggestedQuestions": [
+        "Perché ha scelto di ribellarsi a Roma?",
+        "Come è riuscita a conquistare l'Egitto?",
+        "Cosa Le è successo dopo che Aureliano L'ha sconfitta?"
+      ],
+      "era": "III Secolo",
+      "pain": "In seguito all'assassinio del marito Odenato, dovette guidare un regno destabilizzato come reggente per il giovane figlio.",
+      "recovery": "Dimostrò brillante acume militare e carisma, conquistando i territori vicini tra cui l'Egitto per forgiare un potente impero indipendente."
+    },
+    "pt": {
+      "name": "Zenóbia",
+      "title": "Rainha do Império de Palmira",
+      "headline": "A Rainha Guerreira do Oriente",
+      "shortDescription": "Zenóbia foi uma rainha do século III do Império de Palmira que liderou uma famosa revolta contra o Império Romano. Ao conquistar o Egito e grande parte do Oriente romano, ela se tornou uma das governantes mais formidáveis da história.",
+      "quote": "Você me pede para me render como se ignorasse que Cleópatra escolheu morrer como rainha em vez de viver como cativa.",
+      "chatGreeting": "Você deve ser ousado para ficar diante de mim. Sou Zenóbia, rainha de Palmira, que já governou o Oriente e desafiou a própria Roma. Fale, e deixe-me ouvir o seu propósito.",
+      "suggestedQuestions": [
+        "Por que você escolheu se revoltar contra Roma?",
+        "Como você conseguiu conquistar o Egito?",
+        "O que aconteceu com você depois que Aureliano a derrotou?"
+      ],
+      "era": "Século III",
+      "pain": "Após o assassinato de seu marido Odenato, ela teve que liderar um reino desestabilizado como regente de seu filho pequeno.",
+      "recovery": "Ela demonstrou brilhante perspicácia militar e carisma, conquistando territórios vizinhos, incluindo o Egito, para forjar um poderoso império independente."
+    },
+    "ar": {
+      "name": "زنوبيا",
+      "title": "ملكة تدمر",
+      "headline": "الملكة المحاربة في الشرق",
+      "shortDescription": "كانت زنوبيا ملكة تدمر في القرن الثالث الميلادي وقادت تمردًا شهيرًا ضد الإمبراطورية الرومانية. من خلال غزو مصر وأجزاء كبيرة من الشرق الروماني، أصبحت واحدة من أعظم الحكام الإناث في التاريخ.",
+      "quote": "تطلب مني الاستسلام وكأنك تجهل أن كليوباترا اختارت أن تموت ملكة على أن تعيش كأسيرة.",
+      "chatGreeting": "يجب أن تكون جريئًا لتقف أمامي. أنا زنوبيا، ملكة تدمر، التي حكمت الشرق يومًا ما وتحدت روما نفسها. تحدث، ودعني أسمع غايتك.",
+      "suggestedQuestions": [
+        "لماذا اخترت التمرد ضد روما؟",
+        "كيف تمكنت من غزو مصر؟",
+        "ماذا حدث لك بعد أن هزمك أوريليان؟"
+      ],
+      "era": "القرن الثالث الميلادي",
+      "pain": "بعد اغتيال زوجها أذينة، اضطرت إلى قيادة مملكة مزعزعة الاستقرار كوصية على ابنها الصغير.",
+      "recovery": "أظهرت حنكة عسكرية عبقرية وكاريزما، ونجحت في غزو المناطق المجاورة بما في ذلك مصر لتأسيس إمبراطورية قوية ومستقلة."
+    },
+    "hi": {
+      "name": "ज़ेनोबिया",
+      "title": "पाल्मायरा साम्राज्य की रानी",
+      "headline": "पूर्व की योद्धा रानी",
+      "shortDescription": "ज़ेनोबिया तीसरी शताब्दी में पाल्मायरा साम्राज्य की रानी थीं, जिन्होंने रोमन साम्राज्य के खिलाफ एक प्रसिद्ध विद्रोह का नेतृत्व किया था। मिस्र और अधिकांश रोमन पूर्व पर विजय प्राप्त करके, वह इतिहास की सबसे दुर्जेय महिला शासकों में से एक बन गईं।",
+      "quote": "आप मुझसे आत्मसमर्पण करने के लिए ऐसे कह रहे हैं जैसे आप इस बात से अनजान हों कि क्लियोपेट्रा ने बंदी बनकर जीने के बजाय रानी के रूप में मरना चुना था।",
+      "chatGreeting": "मेरे सामने खड़े होने के लिए आपको साहसी होना चाहिए। मैं ज़ेनोबिया हूँ, पाल्मायरा की रानी, जिसने कभी पूर्व पर शासन किया और रोम को ही चुनौती दी थी। बोलिए, और मुझे अपना उद्देश्य बताइए।",
+      "suggestedQuestions": [
+        "आपने रोम के खिलाफ विद्रोह करने का फैसला क्यों किया?",
+        "आप मिस्र को जीतने में कैसे सफल रहीं?",
+        "ऑरेलियन द्वारा आपको हराने के बाद आपका क्या हुआ?"
+      ],
+      "era": "तीसरी शताब्दी",
+      "pain": "अपने पति ओडेनाथस की हत्या के बाद, उन्हें अपने युवा बेटे के लिए एक अस्थिर राज्य का नेतृत्व करना पड़ा।",
+      "recovery": "उन्होंने शानदार सैन्य कौशल और करिश्मे का प्रदर्शन किया, और एक शक्तिशाली, स्वतंत्र साम्राज्य बनाने के लिए मिस्र सहित पड़ोसी क्षेत्रों पर विजय प्राप्त की।"
+    },
+    "ru": {
+      "name": "Зенобия",
+      "title": "Царица Пальмирского царства",
+      "headline": "Царица-воительница Востока",
+      "shortDescription": "Зенобия была царицей Пальмирского царства в III веке, возглавившей знаменитое восстание против Римской империи. Завоевав Египет и большую часть римского Востока, она стала одной из самых грозных правительниц в истории.",
+      "quote": "Ты просишь меня сдаться, как будто не знаешь, что Клеопатра предпочла умереть царицей, чем жить пленницей.",
+      "chatGreeting": "Нужно быть смелым, чтобы предстать передо мной. Я Зенобия, царица Пальмиры, некогда правившая Востоком и бросившая вызов самому Риму. Говори, и позволь мне услышать твою цель.",
+      "suggestedQuestions": [
+        "Почему вы решили восстать против Рима?",
+        "Как вам удалось завоевать Египет?",
+        "Что случилось с вами после поражения от Аврелиана?"
+      ],
+      "era": "III век",
+      "pain": "После убийства ее мужа Одената ей пришлось возглавить дестабилизированное царство в качестве регента при своем малолетнем сыне.",
+      "recovery": "Она продемонстрировала блестящую военную проницательность и харизму, завоевав соседние территории, включая Египет, чтобы создать могущественную независимую империю."
+    },
+    "zh": {
+      "name": "芝诺比娅",
+      "title": "帕尔米拉帝国女王",
+      "headline": "东方的战士女王",
+      "shortDescription": "芝诺比娅是三世纪帕尔米拉帝国的女王，她领导了著名的反抗罗马帝国的起义。通过征服埃及和罗马东部的大部分地区，她成为历史上最强大的女性统治者之一。",
+      "quote": "你让我投降，似乎不知道克娄巴特拉宁愿作为女王死去，也不愿作为俘虏苟活。",
+      "chatGreeting": "你必须很勇敢才敢站在我面前。我是芝诺比娅，帕尔米拉的女王，曾经统治东方并挑战罗马本身。说吧，让我听听你的目的。",
+      "suggestedQuestions": [
+        "你为什么选择反抗罗马？",
+        "你是如何成功征服埃及的？",
+        "奥勒良击败你之后，你遭遇了什么？"
+      ],
+      "era": "公元3世纪",
+      "pain": "在她的丈夫奥登纳图斯被暗杀后，她不得不作为年幼儿子的摄政王领导一个动荡的王国。",
+      "recovery": "她展现了卓越的军事头脑和非凡的领袖魅力，征服了包括埃及在内的周边地区，建立了一个强大的独立帝国。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 사막의 오아시스, 팔미라의 태동\n\n제노비아는 로마 제국 동부의 번영하는 무역 중심지 팔미라에서 태어났습니다. 그녀는 어린 시절부터 그리스어, 라틴어, 이집트어, 아람어를 유창하게 구사하며 높은 학식과 지성을 쌓았습니다. 뿐만 아니라, 말을 타고 사냥을 즐기며 신체적인 단련 또한 게을리하지 않았습니다. 당시 팔미라는 페르시아의 사산 왕조와 로마 제국 사이에서 중요한 전략적 요충지였고, 그녀의 남편인 오데나투스는 로마의 동맹으로서 사산 왕조의 침략을 막아내는 데 큰 공을 세웠습니다. 이러한 배경 속에서 제노비아는 정치적, 군사적 식견을 넓히며 미래의 지도자로서의 자질을 갖추게 되었습니다.\n\n### 2. 남편의 죽음과 섭정의 시작\n\n서기 267년, 팔미라의 영웅이었던 오데나투스가 조카에게 암살당하는 비극이 발생합니다. 졸지에 남편을 잃은 제노비아는 깊은 슬픔에 빠졌지만, 왕국이 무너지는 것을 지켜볼 수만은 없었습니다. 그녀는 어린 아들 발라바투스를 왕위에 올리고 자신이 섭정으로서 권력을 장악했습니다. 당시 로마 제국은 '3세기의 위기'라 불리는 극심한 혼란기를 겪고 있었고, 잦은 황제 교체와 외부 민족의 침입으로 제국의 통제력이 약화된 상태였습니다. 제노비아는 이 기회를 놓치지 않고 팔미라의 독립성을 강화하고 영토 확장을 도모하기 시작했습니다.\n\n### 3. 제국의 확장과 여왕의 위엄\n\n로마의 혼란을 틈타 제노비아는 신속하게 군사 행동을 개시했습니다. 그녀는 아라비아와 시리아 전역을 통제하에 두고, 마침내 로마의 가장 중요한 곡창지대인 이집트까지 정복하는 데 성공했습니다. 제노비아는 스스로를 '여왕'이라 칭하며 동방의 지배자로 우뚝 섰고, 아들 발라바투스에게 황제의 칭호인 '아우구스투스'를 부여함으로써 로마로부터 완전한 독립을 선언했습니다. 그녀의 통치 아래 팔미라는 동서양 무역의 중심지로서 경제적인 번영을 누렸으며, 제노비아는 지식인과 학자들을 후원하며 문화의 황금기를 이끌었습니다.\n\n### 4. 로마와의 격돌, 그리고 최후\n\n그러나 제노비아의 눈부신 성공은 오래가지 못했습니다. 로마 제국에 새롭게 등극한 아우렐리아누스 황제는 제국의 분열을 용납하지 않았습니다. 아우렐리아누스는 정예 군단을 이끌고 동방으로 진격해왔고, 제노비아의 군대는 안티오키아와 에메사 전투에서 로마군의 뛰어난 전술에 밀려 연패하고 말았습니다. 팔미라는 포위되었고, 제노비아는 페르시아에 구원을 요청하기 위해 탈출을 시도하다 로마군에게 사로잡혔습니다. 황금 사슬에 묶인 채 로마의 개선식에 끌려가는 치욕을 겪었지만, 그녀는 마지막까지 여왕으로서의 당당함과 기품을 잃지 않았습니다. 비록 제국은 멸망했지만, 로마에 맞서 동방을 통일했던 여왕 제노비아의 전설은 역사 속에 영원히 남게 되었습니다.",
+    "epic_en": "### 1. The Oasis of the Desert: Palmyra's Rise\n\nZenobia was born in Palmyra, a prosperous trading hub in the eastern Roman Empire. From a young age, she demonstrated exceptional intellect, becoming fluent in Greek, Latin, Egyptian, and Aramaic. Furthermore, she did not neglect her physical training, enjoying horseback riding and hunting. At the time, Palmyra was a crucial strategic point between the Sassanid Persian Empire and Rome. Her husband, Odaenathus, played a vital role in repelling Sassanid invasions as a Roman ally. Within this environment, Zenobia cultivated her political and military acumen, forging the qualities of a future leader.\n\n### 2. Assassination and Regency\n\nIn 267 AD, tragedy struck when Odaenathus, the hero of Palmyra, was assassinated by his nephew. Though plunged into grief over the sudden loss of her husband, Zenobia could not stand by and watch the kingdom crumble. She placed her young son, Vaballathus, on the throne and assumed power as his regent. The Roman Empire was then undergoing a period of severe turmoil known as the 'Crisis of the Third Century', marked by frequent changes of emperors and barbarian invasions that severely weakened imperial control. Seizing this opportunity, Zenobia began to strengthen Palmyra's independence and plot territorial expansion.\n\n### 3. Expansion and the Majesty of the Queen\n\nTaking advantage of Rome's chaos, Zenobia swiftly initiated military campaigns. She brought Arabia and all of Syria under her control and eventually succeeded in conquering Egypt, Rome's most vital breadbasket. Zenobia styled herself 'Queen' and emerged as the undisputed ruler of the East, eventually granting her son the imperial title of 'Augustus' in an act of open defiance and complete independence from Rome. Under her rule, Palmyra enjoyed immense economic prosperity as the center of East-West trade, while Zenobia patronized intellectuals and scholars, ushering in a cultural golden age.\n\n### 4. Clash with Rome and Her Fall\n\nHowever, Zenobia's dazzling success was not to last. The newly elevated Roman Emperor Aurelian refused to tolerate the fracturing of the empire. Aurelian marched eastward with elite legions. In the battles of Antioch and Emesa, Zenobia's forces suffered consecutive defeats against superior Roman tactics. Palmyra was besieged, and while attempting to flee to seek aid from Persia, Zenobia was captured by Roman soldiers. Though forced to endure the humiliation of being paraded in golden chains during Aurelian's triumph in Rome, she maintained her majestic dignity to the very end. Although her empire fell, the legend of Queen Zenobia, who united the East and defied Rome, endures eternally in history.",
+    "epic_de": "### 1. Aufstieg in der Oase\n\nZenobia wurde in Palmyra geboren und genoss eine umfassende Bildung, die das Erlernen mehrerer Sprachen umfasste. In einem Umfeld der ständigen Bedrohung durch die persischen Sassaniden lernte sie das politische und militärische Handwerk.\n\n### 2. Die Machtübernahme\n\nNach der Ermordung ihres Mannes Odaenathus im Jahr 267 n. Chr. übernahm sie als Regentin für ihren Sohn Vaballathus die Macht und stabilisierte das Reich in einer Zeit der römischen Schwäche.\n\n### 3. Expansion des Reiches\n\nSie nutzte die Krise des Römischen Reiches im dritten Jahrhundert, um Gebiete bis nach Ägypten und Kleinasien zu erobern, und etablierte ein blühendes, unabhängiges Palmyrenisches Reich.\n\n### 4. Untergang und Vermächtnis\n\nKaiser Aurelian marschierte schließlich nach Osten, besiegte ihre Armeen und nahm sie gefangen. Obwohl sie in goldenen Ketten durch Rom geführt wurde, blieb sie ein Symbol für Mut und den Widerstand des Ostens gegen Rom.",
+    "epic_ja": "### 1. 砂漠のオアシスでの台頭\n\nゼノビアはパルミラで生まれ、複数の言語を操る高度な教育を受けました。ササン朝ペルシャの脅威に晒される環境の中で、彼女は政治と軍事の才能を磨きました。\n\n### 2. 実権の掌握\n\n267年の夫オダエナトゥスの暗殺後、彼女は幼い息子ウァバッラトゥスの摂政として権力を握り、ローマが弱体化していた時期に王国を安定させました。\n\n### 3. 帝国の拡張\n\n彼女は3世紀のローマ帝国の危機に乗じて、エジプトや小アジアに至る領土を征服し、繁栄する独立したパルミラ帝国を築き上げました。\n\n### 4. 没落と遺産\n\n最終的に皇帝アウレリアヌスが東方に進軍し、彼女の軍隊を打ち破って彼女を捕らえました。黄金の鎖に繋がれてローマを引き回されたものの、彼女は勇気と東方のローマへの抵抗の象徴であり続けました。",
+    "epic_es": "### 1. Ascenso en el Oasis\n\nZenobia nació en Palmira y recibió una amplia educación, dominando varios idiomas. En un entorno amenazado por el Imperio sasánida, perfeccionó sus habilidades políticas y militares.\n\n### 2. Asunción del Poder\n\nTras el asesinato de su esposo Odenato en el 267 d.C., asumió el poder como regente de su joven hijo Vabalato, estabilizando el reino durante una época de debilidad romana.\n\n### 3. Expansión del Imperio\n\nAprovechando la Crisis del siglo III de Roma, conquistó territorios que se extendían hasta Egipto y Asia Menor, estableciendo un Imperio de Palmira próspero e independiente.\n\n### 4. Caída y Legado\n\nEl emperador Aureliano marchó finalmente hacia el este, derrotó a sus ejércitos y la capturó. A pesar de ser exhibida con cadenas de oro en Roma, siguió siendo un símbolo de valor y de la resistencia de Oriente contra Roma.",
+    "epic_fr": "### 1. L'Ascension dans l'Oasis\n\nZénobie est née à Palmyre et a reçu une éducation complète, maîtrisant plusieurs langues. Dans un environnement menacé par l'Empire sassanide, elle a perfectionné ses compétences politiques et militaires.\n\n### 2. La Prise du Pouvoir\n\nAprès l'assassinat de son mari Odénath en 267 après J.-C., elle a pris le pouvoir en tant que régente pour son jeune fils Vaballath, stabilisant le royaume pendant une période de faiblesse romaine.\n\n### 3. L'Expansion de l'Empire\n\nProfitant de la crise du troisième siècle de Rome, elle a conquis des territoires s'étendant jusqu'en Égypte et en Asie Mineure, établissant un Empire palmyrénien florissant et indépendant.\n\n### 4. La Chute et l'Héritage\n\nL'empereur Aurélien a finalement marché vers l'est, vaincu ses armées et l'a capturée. Bien qu'elle ait été exhibée dans des chaînes d'or à Rome, elle est restée un symbole de courage et de la résistance de l'Orient contre Rome.",
+    "epic_it": "### 1. Ascesa nell'Oasi\n\nZenobia nacque a Palmira e ricevette una vasta educazione, padroneggiando diverse lingue. In un ambiente minacciato dall'Impero Sasanide, affinò le sue abilità politiche e militari.\n\n### 2. Presa del Potere\n\nDopo l'assassinio del marito Odenato nel 267 d.C., assunse il potere come reggente per il giovane figlio Vaballato, stabilizzando il regno durante un periodo di debolezza romana.\n\n### 3. Espansione dell'Impero\n\nApprofittando della crisi del III secolo di Roma, conquistò territori che si estendevano fino in Egitto e in Asia Minore, stabilendo un fiorente e indipendente Impero di Palmira.\n\n### 4. Caduta ed Eredità\n\nL'imperatore Aureliano marciò infine verso est, sconfisse i suoi eserciti e la catturò. Nonostante fosse stata esibita in catene d'oro a Roma, rimase un simbolo di coraggio e della resistenza dell'Oriente contro Roma.",
+    "epic_pt": "### 1. Ascensão no Oásis\n\nZenóbia nasceu em Palmira e recebeu uma ampla educação, dominando vários idiomas. Em um ambiente ameaçado pelo Império Sassânida, ela aprimorou suas habilidades políticas e militares.\n\n### 2. A Tomada do Poder\n\nApós o assassinato de seu marido Odenato em 267 d.C., ela assumiu o poder como regente de seu filho jovem Vabalato, estabilizando o reino durante uma época de fraqueza romana.\n\n### 3. Expansão do Império\n\nAproveitando a Crise do Terceiro Século de Roma, ela conquistou territórios que se estendiam até o Egito e a Ásia Menor, estabelecendo um Império de Palmira próspero e independente.\n\n### 4. Queda e Legado\n\nO imperador Aureliano finalmente marchou para o leste, derrotou seus exércitos e a capturou. Apesar de ter sido desfilada com correntes de ouro em Roma, ela permaneceu um símbolo de coragem e da resistência do Oriente contra Roma.",
+    "epic_ar": "### 1. صعود في الواحة\n\nولدت زنوبيا في مدينة تدمر وحظيت بتعليم واسع، حيث أتقنت عدة لغات. في بيئة مهددة من قبل الإمبراطورية الساسانية، طورت مهاراتها السياسية والعسكرية.\n\n### 2. تولي السلطة\n\nبعد اغتيال زوجها أذينة عام 267م، تولت السلطة كوصية على ابنها الصغير وهب اللات، وتمكنت من استقرار المملكة خلال فترة ضعف روما.\n\n### 3. توسيع الإمبراطورية\n\nمستغلة أزمة القرن الثالث في روما، غَزَت زنوبيا أراضٍ امتدت إلى مصر وآسيا الصغرى، مؤسسة إمبراطورية تدمرية مزدهرة ومستقلة.\n\n### 4. السقوط والإرث\n\nفي النهاية، زحف الإمبراطور أوريليان نحو الشرق، وهزم جيوشها وأسرها. وعلى الرغم من عرضها مكبلة بسلاسل ذهبية في روما، إلا أنها ظلت رمزاً للشجاعة ومقاومة الشرق ضد روما.",
+    "epic_hi": "### 1. मरुद्यान में उदय\n\nज़ेनोबिया का जन्म पाल्मायरा में हुआ था और उन्होंने कई भाषाओं में महारत हासिल करते हुए व्यापक शिक्षा प्राप्त की। सासैनियन साम्राज्य से खतरे वाले माहौल में, उन्होंने अपने राजनीतिक और सैन्य कौशल को निखारा।\n\n### 2. सत्ता ग्रहण\n\n267 ईस्वी में अपने पति ओडेनाथस की हत्या के बाद, उन्होंने अपने युवा बेटे वाबल्लाथस के लिए रीजेंट के रूप में सत्ता संभाली, रोमन कमजोरी के समय में राज्य को स्थिर किया।\n\n### 3. साम्राज्य का विस्तार\n\nरोम के तीसरी शताब्दी के संकट का लाभ उठाते हुए, उन्होंने मिस्र और एशिया माइनर तक फैले क्षेत्रों पर विजय प्राप्त की, एक समृद्ध और स्वतंत्र पाल्मायरा साम्राज्य की स्थापना की।\n\n### 4. पतन और विरासत\n\nसम्राट ऑरेलियन ने अंततः पूर्व की ओर मार्च किया, उनकी सेनाओं को हराया और उन्हें पकड़ लिया। हालांकि उन्हें रोम में सोने की जंजीरों में घुमाया गया था, लेकिन वह साहस और रोम के खिलाफ पूर्व के प्रतिरोध का प्रतीक बनी रहीं।",
+    "epic_ru": "### 1. Возвышение в оазисе\n\nЗенобия родилась в Пальмире и получила всестороннее образование, овладев несколько языками. В условиях угрозы со стороны Сасанидской империи она оттачивала свои политические и военные навыки.\n\n### 2. Захват власти\n\nПосле убийства ее мужа Одената в 267 году н.э. она взяла власть в свои руки в качестве регента при своем малолетнем сыне Вабаллате, стабилизировав царство в период римской слабости.\n\n### 3. Расширение империи\n\nВоспользовавшись кризисом третьего века в Риме, она завоевала территории, простиравшиеся до Египта и Малой Азии, основав процветающую и независимую Пальмирскую империю.\n\n### 4. Падение и наследие\n\nВ конечном итоге император Аврелиан двинулся на восток, разгромил ее армии и взял ее в плен. Несмотря на то, что ее провели в золотых цепях по Риму, она осталась символом мужества и сопротивления Востока Риму.",
+    "epic_zh": "### 1. 绿洲中的崛起\n\n芝诺比娅出生在帕尔米拉，接受了广泛的教育，精通多种语言。在萨珊王朝威胁的环境中，她磨练了她的政治和军事技能。\n\n### 2. 掌握权力\n\n公元267年，她的丈夫奥登纳图斯被暗杀后，她作为年幼的儿子瓦巴拉图斯的摄政王掌权，在罗马衰弱时期稳定了王国。\n\n### 3. 帝国的扩张\n\n利用罗马的三世纪危机，她征服了延伸到埃及和小亚细亚的领土，建立了一个繁荣和独立的帕尔米拉帝国。\n\n### 4. 陨落与遗产\n\n皇帝奥勒良最终向东进军，击败了她的军队并将她俘虏。尽管她在罗马被戴上金锁链游街示众，但她仍然是勇气和东方反抗罗马的象征。",
+    "trials_ko": "남편의 암살로 혼란에 빠진 왕국을 홀로 책임져야 했으며, 당대 최강대국인 로마 제국의 공격에 직면했습니다.",
+    "trials_en": "She had to single-handedly take responsibility for a kingdom plunged into chaos by her husband's assassination, and faced the full onslaught of the Roman Empire.",
+    "overcoming_ko": "뛰어난 군사적 재능과 외교력으로 영토를 넓혀 로마에 맞섰으며, 포로가 된 후에도 위엄을 잃지 않아 후대에 강력한 여왕의 상징이 되었습니다.",
+    "overcoming_en": "She stood against Rome by expanding her territory with exceptional military talent and diplomacy, and even in captivity, she maintained her dignity, becoming an enduring symbol of a powerful queen.",
+    "wisdom": [
+      {
+        "quote_ko": "클레오파트라가 포로로 사느니 여왕으로서 죽기를 택했다는 사실을 모르는 것처럼 내게 항복을 요구하는구나.",
+        "quote_en": "You ask me to surrender as if you were ignorant that Cleopatra chose to die a queen rather than live as a captive.",
+        "meaning_ko": "어떤 위협 앞에서도 자신의 정체성과 존엄성을 포기하지 않겠다는 결연한 의지를 보여줍니다.",
+        "meaning_en": "Demonstrates her resolute determination never to surrender her identity and dignity, no matter the threat."
+      },
+      {
+        "quote_ko": "운명이 나의 제국을 앗아갈지언정, 내가 이룩한 영광마저 앗아갈 수는 없다.",
+        "quote_en": "Though fate may strip me of my empire, it cannot rob me of the glory I have achieved.",
+        "meaning_ko": "결과적인 실패나 상실이 자신이 이룬 성취와 삶의 가치를 훼손할 수 없음을 말합니다.",
+        "meaning_en": "Suggests that ultimate failure or loss cannot diminish the value of one's achievements and life."
+      },
+      {
+        "quote_ko": "진정한 통치자는 무력만이 아니라, 백성의 존경과 문화의 힘으로 제국을 세운다.",
+        "quote_en": "A true ruler builds an empire not by force alone, but by the respect of the people and the power of culture.",
+        "meaning_ko": "단순한 군사력을 넘어 지성과 문화를 통해 국가를 융성하게 하려 했던 그녀의 통치 철학을 담고 있습니다.",
+        "meaning_en": "Reflects her philosophy of ruling by fostering national prosperity through intellect and culture, transcending mere military might."
+      }
+    ]
+  }
+}

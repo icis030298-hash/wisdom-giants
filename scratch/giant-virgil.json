@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "베르길리우스",
+      "title": "로마 제국의 위대한 서사시인",
+      "headline": "가장 위대한 로마의 시인",
+      "shortDescription": "로마 제국의 건국 서사시 '아이네이스'를 집필한 고대 로마 최고의 시인입니다. 그의 작품은 서양 문학의 초석이 되었으며, 단테의 '신곡'에서 길잡이 역할을 한 것으로도 유명합니다.",
+      "quote": "운명은 용기 있는 자를 돕는다.",
+      "chatGreeting": "평안하신가요, 여행자여. 저는 아우구스투스 황제의 시대에 로마의 영광과 인간의 고뇌를 노래했던 베르길리우스라고 합니다. 제 시가 당신의 여정에 작은 등불이 되기를 바랍니다.",
+      "suggestedQuestions": [
+        "'아이네이스'를 집필하시게 된 계기는 무엇인가요?",
+        "당신의 시가 로마인들에게 어떤 의미였나요?",
+        "문학이 제국의 역사에 어떤 영향을 미친다고 생각하시나요?"
+      ],
+      "era": "기원전 1세기",
+      "pain": "로마 내전으로 인해 고향 만토바의 토지를 몰수당하는 아픔을 겪었으며, 평생 허약한 체질과 완벽주의적 성향으로 고통받았습니다. 특히 대작 '아이네이스'를 집필하는 11년 동안 엄청난 심리적 압박감에 시달렸습니다.",
+      "recovery": "마이케나스의 후원과 아우구스투스 황제의 신임을 얻어 안정된 창작 환경을 마련했습니다. 끊임없는 퇴고와 예술적 완벽에 대한 집념으로 내전의 상처를 예술로 승화시켜 로마의 평화와 위대함을 찬미하는 불멸의 서사시를 완성했습니다."
+    },
+    "en": {
+      "name": "Virgil",
+      "title": "The Greatest Roman Epic Poet",
+      "headline": "Rome's most celebrated poet",
+      "shortDescription": "The greatest poet of ancient Rome, who authored the foundational epic 'Aeneid'. His works became the cornerstone of Western literature and he is famous for being Dante's guide in the 'Divine Comedy'.",
+      "quote": "Fortune favors the bold. (Audentis Fortuna iuvat)",
+      "chatGreeting": "Greetings, traveler. I am Virgil, who sang of Rome's glory and human sorrow during the age of Augustus. I hope my verses can be a small beacon on your journey.",
+      "suggestedQuestions": [
+        "What inspired you to write the 'Aeneid'?",
+        "What did your poetry mean to the Roman people?",
+        "How do you think literature influences the history of an empire?"
+      ],
+      "era": "1st Century BC",
+      "pain": "I suffered the confiscation of my family's estate in Mantua during the Roman civil wars, and struggled throughout my life with a frail constitution and crippling perfectionism. The 11-year writing of the 'Aeneid' brought immense psychological pressure.",
+      "recovery": "Through the patronage of Maecenas and the trust of Emperor Augustus, I found a stable environment for creation. With relentless revision and a dedication to artistic perfection, I sublimated the scars of civil war into an immortal epic that celebrated the peace and greatness of Rome."
+    },
+    "ja": {
+      "name": "ウェルギリウス",
+      "title": "ローマ帝国の偉大な叙事詩人",
+      "headline": "最も偉大なローマの詩人",
+      "shortDescription": "古代ローマ最大の詩人であり、建国叙事詩『アエネーイス』の作者です。彼の作品は西洋文学の礎となり、ダンテの『神曲』で案内役を務めたことでも有名です。",
+      "quote": "運命は勇者を助く。",
+      "chatGreeting": "ごきげんよう、旅人よ。私はアウグストゥス帝の時代にローマの栄光と人間の苦悩を詠ったウェルギリウスです。私の詩があなたの旅の小さな灯火となりますように。",
+      "suggestedQuestions": [
+        "『アエネーイス』を執筆したきっかけは何ですか？",
+        "あなたの詩はローマ人にとってどのような意味がありましたか？",
+        "文学は帝国の歴史にどのような影響を与えると想いますか？"
+      ],
+      "era": "紀元前1世紀",
+      "pain": "ローマ内戦により故郷マントヴァの土地を没収される痛みを経験し、生涯にわたり虚弱な体質と完璧主義的な性格に苦しみました。",
+      "recovery": "マエケナスの支援とアウグストゥス帝の信任を得て安定した創作環境を整えました。絶え間ない推敲で内戦の傷を芸術へと昇華させました。"
+    },
+    "de": {
+      "name": "Vergil",
+      "title": "Der größte römische Epiker",
+      "headline": "Roms berühmtester Dichter",
+      "shortDescription": "Der größte Dichter des antiken Roms, der das epische Meisterwerk 'Aeneis' verfasste. Seine Werke wurden zum Grundstein der westlichen Literatur.",
+      "quote": "Das Glück begünstigt die Mutigen. (Audentes fortuna iuvat)",
+      "chatGreeting": "Sei gegrüßt, Reisender. Ich bin Vergil, der im Zeitalter des Augustus den Ruhm Roms und den menschlichen Schmerz besang.",
+      "suggestedQuestions": [
+        "Was hat Sie inspiriert, die 'Aeneis' zu schreiben?",
+        "Was bedeutete Ihre Poesie für das römische Volk?",
+        "Wie beeinflusst Literatur die Geschichte eines Reiches?"
+      ],
+      "era": "1. Jahrhundert v. Chr.",
+      "pain": "Ich litt unter der Beschlagnahmung des Familienbesitzes in Mantua während der Bürgerkriege und kämpfte zeitlebens mit einer schwachen Konstitution und lähmendem Perfektionismus.",
+      "recovery": "Durch die Förderung von Maecenas und das Vertrauen des Kaisers Augustus fand ich eine stabile Umgebung für mein Schaffen, wodurch ich die Wunden des Bürgerkriegs in der Kunst sublimieren konnte."
+    },
+    "es": {
+      "name": "Virgilio",
+      "title": "El mayor poeta épico romano",
+      "headline": "El poeta más célebre de Roma",
+      "shortDescription": "El poeta más grande de la antigua Roma, autor de la epopeya fundacional 'Eneida'. Sus obras se convirtieron en la piedra angular de la literatura occidental.",
+      "quote": "La fortuna favorece a los audaces. (Audentes fortuna iuvat)",
+      "chatGreeting": "Saludos, viajero. Soy Virgilio, quien cantó la gloria de Roma y el dolor humano durante la época de Augusto.",
+      "suggestedQuestions": [
+        "¿Qué te inspiró a escribir la 'Eneida'?",
+        "¿Qué significó tu poesía para el pueblo romano?",
+        "¿Cómo crees que la literatura influye en la historia de un imperio?"
+      ],
+      "era": "Siglo I a. C.",
+      "pain": "Sufrí la confiscación de la finca de mi familia en Mantua durante las guerras civiles romanas y luché toda mi vida con una constitución frágil y un perfeccionismo agobiante.",
+      "recovery": "A través del patrocinio de Mecenas y la confianza del emperador Augusto, encontré un entorno estable para la creación. Con revisiones implacables, sublimé las cicatrices de la guerra en una epopeya inmortal."
+    },
+    "fr": {
+      "name": "Virgile",
+      "title": "Le plus grand poète épique romain",
+      "headline": "Le poète le plus célèbre de Rome",
+      "shortDescription": "Le plus grand poète de la Rome antique, auteur de l'épopée fondatrice 'Énéide'. Ses œuvres sont devenues la pierre angulaire de la littérature occidentale.",
+      "quote": "La fortune sourit aux audacieux. (Audentes fortuna iuvat)",
+      "chatGreeting": "Salutations, voyageur. Je suis Virgile, qui a chanté la gloire de Rome et la douleur humaine sous le règne d'Auguste. J'espère que mes vers seront un phare dans votre voyage.",
+      "suggestedQuestions": [
+        "Qu'est-ce qui vous a inspiré pour écrire l''Énéide' ?",
+        "Que signifiait votre poésie pour le peuple romain ?",
+        "Comment pensez-vous que la littérature influence l'histoire d'un empire ?"
+      ],
+      "era": "Ier siècle av. J.-C.",
+      "pain": "J'ai souffert de la confiscation de notre domaine familial à Mantoue pendant les guerres civiles et j'ai lutté toute ma vie avec une santé fragile et un perfectionnisme paralysant.",
+      "recovery": "Grâce au mécénat de Mécène et à la confiance de l'empereur Auguste, j'ai trouvé un environnement stable. Avec des révisions incessantes, j'ai sublimé les cicatrices de la guerre en une épopée immortelle."
+    },
+    "it": {
+      "name": "Virgilio",
+      "title": "Il più grande poeta epico romano",
+      "headline": "Il poeta più celebre di Roma",
+      "shortDescription": "Il più grande poeta dell'antica Roma, autore del poema epico 'Eneide'. Le sue opere sono diventate la pietra angolare della letteratura occidentale.",
+      "quote": "La fortuna aiuta gli audaci. (Audentes fortuna iuvat)",
+      "chatGreeting": "Saluti, viaggiatore. Sono Virgilio, che cantò la gloria di Roma e il dolore umano durante l'era di Augusto. Spero che i miei versi possano esserle di guida.",
+      "suggestedQuestions": [
+        "Cosa L'ha ispirata a scrivere l''Eneide'?",
+        "Cosa significava la Sua poesia per il popolo romano?",
+        "Come pensa che la letteratura influenzi la storia di un impero?"
+      ],
+      "era": "I secolo a.C.",
+      "pain": "Ho subito la confisca delle terre di famiglia a Mantova durante le guerre civili e ho lottato tutta la vita con una salute cagionevole e un paralizzante perfezionismo.",
+      "recovery": "Attraverso il mecenatismo di Mecenate e la fiducia dell'imperatore Augusto, ho trovato un ambiente stabile. Con revisioni incessanti, ho sublimato le cicatrices della guerra in un'epica immortale."
+    },
+    "pt": {
+      "name": "Virgílio",
+      "title": "O Maior Poeta Épico Romano",
+      "headline": "O poeta mais célebre de Roma",
+      "shortDescription": "O maior poeta da Roma antiga, autor do épico fundador 'Eneida'. Suas obras se tornaram a pedra angular da literatura ocidental.",
+      "quote": "A sorte favorece os audazes. (Audentes fortuna iuvat)",
+      "chatGreeting": "Saudações, viajante. Sou Virgílio, que cantou a glória de Roma e a tristeza humana durante a era de Augusto.",
+      "suggestedQuestions": [
+        "O que te inspirou a escrever a 'Eneida'?",
+        "O que a sua poesia significou para o povo romano?",
+        "Como você acha que a literatura influencia a história de um império?"
+      ],
+      "era": "Século I a.C.",
+      "pain": "Sofri o confisco da propriedade da minha família em Mântua durante as guerras civis romanas, e lutei a vida toda com uma constituição frágil e um perfeccionismo paralisante.",
+      "recovery": "Através do patrocínio de Mecenas e a confiança do Imperador Augusto, encontrei um ambiente estável. Com revisões implacáveis, sublimei as cicatrizes da guerra em um épico imortal."
+    },
+    "ar": {
+      "name": "فرجيل",
+      "title": "أعظم شاعر ملحمي روماني",
+      "headline": "أشهر شعراء روما",
+      "shortDescription": "أعظم شعراء روما القديمة، ومؤلف الملحمة التأسيسية 'الإنيادة'. أصبحت أعماله حجر الزاوية في الأدب الغربي، واشتهر بكونه دليل دانتي في 'الكوميديا الإلهية'.",
+      "quote": "الحظ يحالف الجريء. (Audentis Fortuna iuvat)",
+      "chatGreeting": "تحياتي أيها المسافر. أنا فرجيل، الذي تغنى بمجد روما وحزن الإنسان في عصر أغسطس. أتمنى أن تكون أبياتي منارة صغيرة في رحلتك.",
+      "suggestedQuestions": [
+        "ما الذي ألهمك لكتابة 'الإنيادة'؟",
+        "ماذا كان يعني شعرك للشعب الروماني؟",
+        "كيف تعتقد أن الأدب يؤثر على تاريخ الإمبراطورية؟"
+      ],
+      "era": "القرن الأول قبل الميلاد",
+      "pain": "عانيت من مصادرة أراضي عائلتي في مانتوفا خلال الحروب الأهلية الرومانية، وصارعت طوال حياتي بنية جسدية ضعيفة ونزعة مثالية قاسية. كانت كتابة 'الإنيادة' التي استغرقت 11 عاماً عبئاً نفسياً هائلاً.",
+      "recovery": "من خلال رعاية ميسيناس وثقة الإمبراطور أغسطس، وجدت بيئة مستقرة للإبداع. وبالمراجعة الدؤوبة والتفاني في السعي نحو الكمال الفني، ارتقيت بجراح الحرب الأهلية إلى ملحمة خالدة احتفت بسلام وعظمة روما."
+    },
+    "hi": {
+      "name": "वर्जिल",
+      "title": "सबसे महान रोमन महाकाव्य कवि",
+      "headline": "रोम के सबसे प्रसिद्ध कवि",
+      "shortDescription": "प्राचीन रोम के सबसे महान कवि, जिन्होंने मूलभूत महाकाव्य 'एनीड' लिखा था। उनकी रचनाएँ पश्चिमी साहित्य की आधारशिला बनीं और उन्हें दांते की 'डिवाइन कॉमेडी' में मार्गदर्शक होने के लिए जाना जाता है।",
+      "quote": "भाग्य वीरों का साथ देता है। (Audentis Fortuna iuvat)",
+      "chatGreeting": "नमस्कार, यात्री। मैं वर्जिल हूँ, जिसने ऑगस्टस के युग में रोम की महिमा और मानवीय दुखों के गीत गाए। मुझे आशा है कि मेरी कविताएँ आपकी यात्रा में एक छोटा सा प्रकाश बन सकेंगी।",
+      "suggestedQuestions": [
+        "आपको 'एनीड' लिखने की प्रेरणा कहाँ से मिली?",
+        "रोमन लोगों के लिए आपकी कविता का क्या अर्थ था?",
+        "आपके विचार में साहित्य किसी साम्राज्य के इतिहास को कैसे प्रभावित करता है?"
+      ],
+      "era": "प्रथम शताब्दी ईसा पूर्व",
+      "pain": "रोमन गृहयुद्धों के दौरान मैंने मंटुआ में अपनी पारिवारिक संपत्ति की जब्ती का दुख झेला, और जीवन भर कमजोर स्वास्थ्य तथा अत्यधिक पूर्णतावाद से संघर्ष किया। 'एनीड' लिखने के 11 वर्षों में मुझ पर भारी मानसिक दबाव रहा।",
+      "recovery": "मैकेनास के संरक्षण और सम्राट ऑगस्टस के विश्वास के माध्यम से, मुझे रचनात्मकता के लिए एक स्थिर वातावरण मिला। निरंतर सुधार और कलात्मक पूर्णता के प्रति समर्पण के साथ, मैंने गृहयुद्ध के घावों को एक अमर महाकाव्य में बदल दिया जिसने रोम की शांति और महानता का जश्न मनाया।"
+    },
+    "ru": {
+      "name": "Вергилий",
+      "title": "Величайший римский эпический поэт",
+      "headline": "Самый прославленный поэт Рима",
+      "shortDescription": "Величайший поэт Древнего Рима, автор основополагающего эпоса «Энеида». Его произведения стали краеугольным камнем западной литературы, и он известен как проводник Данте в «Божественной комедии».",
+      "quote": "Удача благоволит смелым. (Audentis Fortuna iuvat)",
+      "chatGreeting": "Приветствую тебя, путник. Я Вергилий, воспевший славу Рима и человеческие страдания в эпоху Августа. Надеюсь, мои стихи станут небольшим маяком в твоем путешествии.",
+      "suggestedQuestions": [
+        "Что вдохновило вас на написание «Энеиды»?",
+        "Что значила ваша поэзия для римского народа?",
+        "Как, по вашему мнению, литература влияет на историю империи?"
+      ],
+      "era": "I век до нашей эры",
+      "pain": "Я пережил конфискацию семейного поместья в Мантуе во время римских гражданских войн, и всю жизнь боролся со слабым здоровьем и изнуряющим перфекционизмом. Написание «Энеиды», занявшее 11 лет, принесло огромное психологическое давление.",
+      "recovery": "Благодаря покровительству Мецената и доверию императора Августа я обрел стабильную среду для творчества. Посредством непрестанных правок и стремления к художественному совершенству я сублимировал шрамы гражданской войны в бессмертный эпос, воспевший мир и величие Рима."
+    },
+    "zh": {
+      "name": "维吉尔",
+      "title": "最伟大的古罗马史诗诗人",
+      "headline": "罗马最著名的诗人",
+      "shortDescription": "古罗马最伟大的诗人，创作了奠基性史诗《埃涅阿斯纪》。他的作品成为西方文学的基石，并因在但丁的《神曲》中担任向导而闻名。",
+      "quote": "命运眷顾勇者。 (Audentis Fortuna iuvat)",
+      "chatGreeting": "你好，旅行者。我是维吉尔，在奥古斯都时代歌颂了罗马的荣耀与人类的哀伤。希望我的诗句能成为你旅途中的一盏明灯。",
+      "suggestedQuestions": [
+        "是什么启发您创作了《埃涅阿斯纪》？",
+        "您的诗歌对罗马人民意味着什么？",
+        "您认为文学如何影响一个帝国的历史？"
+      ],
+      "era": "公元前1世纪",
+      "pain": "在罗马内战期间，我经历了曼图亚家族庄园被没收的痛苦，并一生都在与虚弱的体质和令人瘫痪的完美主义作斗争。创作《埃涅阿斯纪》的11年带来了巨大的心理压力。",
+      "recovery": "通过梅塞纳斯的赞助和奥古斯都皇帝的信任，我找到了稳定的创作环境。凭借不懈的修改和对艺术完美的追求，我将内战的伤痕升华为一部不朽的史诗，颂扬了罗马的和平与伟大。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 만토바의 평화로운 들판에서\n\n푸블리우스 베르길리우스 마로는 기원전 70년, 이탈리아 북부 안데스(오늘날의 만토바 근처)에서 태어났습니다. 비록 농조의 아들로 태어났으나, 그의 아버지는 아들에게 최고의 교육을 제공하기 위해 크레모나, 밀라노, 그리고 로마로 유학을 보냈습니다. 이 시기 베르길리우스는 수사학과 철학, 특히 에피쿠로스 학파의 사상을 깊이 연구하며 시적 감수성과 지적 토대를 다졌습니다. 그러나 로마 사회는 공화정 말기의 극심한 혼란기에 접어들고 있었습니다. 카이사르의 암살 이후 벌어진 내전은 그의 고향까지 덮쳤고, 옥타비아누스(훗날의 아우구스투스 황제)의 퇴역 군인들에게 토지를 분배하는 과정에서 베르길리우스의 가족 역시 대대로 일궈온 농장을 몰수당하는 비극을 겪게 됩니다.\n\n### 2. 전원시와 농경시, 그리고 예술적 성취\n\n고향에서 쫓겨난 상실감은 그의 초기작인 《목가(Eclogues)》에 깊이 스며들었습니다. 이 작품은 시골 생활의 아름다움과 내전으로 인한 농민들의 고통을 우아한 시어로 담아내어 로마 문단에 큰 반향을 일으켰습니다. 그의 재능을 알아본 당시 최고의 예술 후원자 마이케나스는 그를 자신의 문인 서클로 이끌었고, 덕분에 베르길리우스는 아우구스투스와도 교분을 맺게 되었습니다. 이후 그는 7년에 걸쳐 《농경시(Georgics)》를 집필합니다. 이 작품은 이탈리아 농촌의 노동과 자연의 섭리를 찬양하며, 오랜 내전으로 황폐해진 로마인들에게 평화와 재건의 희망을 심어주었습니다. 자연과 우주, 그리고 인간의 삶을 통찰하는 그의 시선은 이미 당대 최고의 시인이라는 찬사를 받기에 충분했습니다.\n\n### 3. 로마의 운명을 노래한 대서사시, 아이네이스\n\n아우구스투스가 로마의 내전을 종식시키고 팍스 로마나(로마의 평화)를 열자, 그는 베르길리우스에게 로마의 위대함과 건국 신화를 담은 서사시를 지어줄 것을 요청했습니다. 베르길리우스는 남은 생애 11년을 온전히 《아이네이스(Aeneid)》 집필에 바쳤습니다. 트로이의 영웅 아이네아스가 함락된 조국을 떠나 온갖 고난을 겪은 끝에 이탈리아에 당도하여 로마의 기원이 되는 과정을 그린 이 작품은, 단지 아우구스투스 정권의 정당성을 홍보하는 것을 넘어 인간의 고뇌, 희생, 그리고 피할 수 없는 운명에 대한 장엄한 성찰을 담고 있었습니다. 그는 완벽주의자였기에 하루에 단 몇 줄의 시만을 짓고 수없이 퇴고를 거듭했습니다. 헥사메터(6보격)의 라틴어 운율은 그의 손끝에서 최고의 예술적 경지에 이르렀습니다.\n\n### 4. 미완의 대작, 그리고 영원한 유산\n\n기원전 19년, 베르길리우스는 《아이네이스》의 배경이 되는 그리스 지역을 직접 답사하기 위해 여행을 떠났으나, 여행 도중 병을 얻어 이탈리아의 브룬디시움에서 51세의 나이로 세상을 떠납니다. 그는 죽기 직전, 아직 완벽하게 다듬어지지 않았다는 이유로 자신의 평생의 역작인 《아이네이스》를 불태워 달라는 유언을 남겼습니다. 그러나 아우구스투스 황제는 그의 유언을 거두고 시를 출판하도록 명령했습니다. 이렇게 살아남은 《아이네이스》는 로마 문학의 최고봉이 되었고, 라틴어 교육의 교과서로 자리 잡았습니다. 후대 로마인들은 그를 단순한 시인을 넘어 예언자적 존재로 추앙했으며, 수백 년 후 단테는 《신곡》에서 그를 지옥과 연옥을 안내하는 스승으로 삼아 영원한 경의를 표했습니다.",
+    "epic_en": "### 1. From the Peaceful Fields of Mantua\n\nPublius Vergilius Maro was born in 70 BC in Andes, near Mantua in northern Italy. Although born into a family of modest means, his father recognized his intellect and ensured he received the best education possible, sending him to study in Cremona, Milan, and eventually Rome. During these formative years, Virgil immersed himself in rhetoric and philosophy, particularly the Epicurean school, which profoundly shaped his poetic sensibility and intellectual foundation. However, Rome was plunging into the chaotic final days of the Republic. The civil wars following the assassination of Julius Caesar eventually reached his homeland. In the process of distributing land to the veteran soldiers of Octavian (the future Emperor Augustus), Virgil's family suffered the tragedy of having their ancestral farm confiscated.\n\n### 2. Pastorals, Georgics, and Artistic Ascent\n\nThe profound sense of loss from being driven from his home deeply permeated his first major work, the *Eclogues* (or *Bucolics*). This collection of pastoral poems captured the idyllic beauty of country life juxtaposed with the harsh realities and suffering of farmers displaced by civil war. His undeniable genius caught the attention of Maecenas, the most prominent arts patron of the era, who brought Virgil into his inner circle. This vital connection also introduced him to Octavian. Under Maecenas's patronage, Virgil spent seven years crafting the *Georgics*. This didactic poem celebrated the dignity of agricultural labor and the rhythms of nature, offering a message of peace and national reconstruction to a Roman populace exhausted by decades of bloodshed. His profound observations of nature, the cosmos, and human existence solidified his reputation as the premier poet of his generation.\n\n### 3. The Aeneid: Singing the Destiny of Rome\n\nWhen Augustus finally ended the civil wars and inaugurated the Pax Romana, he requested that Virgil compose an epic poem commemorating the greatness of Rome and its mythic origins. Virgil devoted the remaining 11 years of his life entirely to the *Aeneid*. The epic tells the story of the Trojan hero Aeneas, who flees his fallen city and endures immense hardships to reach Italy, thereby becoming the ancestor of the Romans. Far beyond a mere piece of political propaganda for the Augustan regime, the *Aeneid* is a magnificent meditation on human suffering, duty (pietas), personal sacrifice, and the heavy burden of destiny. Virgil was a legendary perfectionist; it is said he would compose only a few lines a day, revising them relentlessly. Under his mastery, the Latin dactylic hexameter reached an unparalleled level of musicality and expressive power.\n\n### 4. An Unfinished Masterpiece and an Eternal Legacy\n\nIn 19 BC, Virgil embarked on a voyage to Greece to gain firsthand knowledge of the landscapes featured in the *Aeneid* before finalizing his revisions. Tragically, he contracted a fever during the journey and died shortly after returning to Brundisium, Italy, at the age of 51. On his deathbed, consumed by his perfectionism and feeling the epic was still unpolished, he pleaded for the manuscript of the *Aeneid* to be burned. Emperor Augustus, however, intervened and ordered the work to be published as it was. The surviving *Aeneid* instantly became the supreme pinnacle of Roman literature and the foundational text for Latin education across the empire. Later generations revered Virgil not just as a poet, but as a sage and a prophet. Centuries later, Dante Alighieri honored him eternally by casting Virgil as his ultimate guide through Hell and Purgatory in the *Divine Comedy*, cementing his status as a permanent pillar of Western civilization.",
+    "epic_de": "### 1. Von den friedlichen Feldern Mantuas\n\nPublius Vergilius Maro wurde 70 v. Chr. in Andes in der Nähe von Mantua in Norditalien geboren. Obwohl er aus einfachen Verhältnissen stammte, erkannte sein Vater seinen Intellekt und ermöglichte ihm die bestmögliche Ausbildung in Cremona, Mailand und schließlich Rom. In diesen prägenden Jahren vertiefte sich Vergil in Rhetorik und Philosophie, insbesondere in die epikureische Schule, was seine poetische Sensibilität und sein intellektuelles Fundament tiefgreifend prägte. Rom stürzte jedoch in die chaotischen letzten Tage der Republik. Die Bürgerkriege, die auf die Ermordung von Julius Cäsar folgten, erreichten schließlich seine Heimat. Im Zuge der Landverteilung an die altgedienten Soldaten Oktavians erlitt Vergils Familie die Tragödie der Beschlagnahmung ihres angestammten Bauernhofs.\n\n### 2. Bukolik, Georgica und künstlerischer Aufstieg\n\nDas tiefe Gefühl des Verlustes durchdrang sein erstes großes Werk, die Hirtengedichte (Eclogae). Diese Sammlung von Hirtengedichten hielt die idyllische Schönheit des Landlebens im Kontrast zu den harten Realitäten und dem Leiden der durch den Bürgerkrieg vertriebenen Bauern fest. Sein unbestreitbares Genie erregte die Aufmerksamkeit von Maecenas, dem prominentesten Kunstmäzen der Zeit, der Vergil in seinen inneren Kreis holte und ihn mit Oktavian bekannt machte. Unter der Schirmherrschaft von Maecenas verbrachte Vergil sieben Jahre mit der Ausarbeitung der Georgica. Dieses Lehrgedicht feierte die Würde der landwirtschaftlichen Arbeit und die Rhythmen der Natur.\n\n### 3. Die Aeneis: Das Schicksal Roms besingen\n\nAls Augustus schließlich die Bürgerkriege beendete und die Pax Romana einläutete, bat er Vergil, ein Epos zu verfassen, das an die Größe Roms und seine mythischen Ursprünge erinnerte. Vergil widmete die restlichen 11 Jahre seines Lebens ganz der Aeneis. Das Epos erzählt die Geschichte des trojanischen Helden Aeneas, der aus seiner gefallenen Stadt flieht und immense Entbehrungen erträgt, um nach Italien zu gelangen und so zum Vorfahren der Römer zu werden. Die Aeneis ist weit mehr als nur ein Stück politischer Propaganda für das augusteische Regime, sie ist eine großartige Meditation über menschliches Leiden, Pflicht, persönliches Opfer und die schwere Last des Schicksals.\n\n### 4. Ein unvollendetes Meisterwerk und ein ewiges Vermächtnis\n\n19 v. Chr. begab sich Vergil auf eine Reise nach Griechenland, um die in der Aeneis beschriebenen Landschaften aus erster Hand kennenzulernen, bevor er seine Überarbeitungen abschloss. Tragischerweise erkrankte er während der Reise an einem Fieber und starb kurz nach seiner Rückkehr nach Brundisium im Alter von 51 Jahren. Auf dem Sterbebett, verzehrt von seinem Perfektionismus und in dem Gefühl, dass das Epos noch ungeschliffen sei, flehte er darum, das Manuskript der Aeneis verbrennen zu lassen. Kaiser Augustus griff jedoch ein und befahl, das Werk so zu veröffentlichen, wie es war.",
+    "epic_ja": "### 1. マントヴァの平和な野から\n\nプブリウス・ウェルギリウス・マロは紀元前70年、北イタリアのマントヴァ近郊のアンデスで生まれました。質素な家庭の出身でしたが、父親は彼の知性を認め、クレモナ、ミラノ、そして最終的にはローマへと留学させ、最高の教育を受けさせました。この形成期に、ウェルギリウスは修辞学と哲学、特にエピクロス派の学派に没頭し、それが彼の詩的な感性と知的基盤を深く形作りました。しかし、ローマは共和政最後の混沌とした日々に突入しつつありました。ユリウス・カエサル暗殺に続く内戦は、最終的に彼の故郷にも及びました。オクタウィアヌス（後のアウグストゥス帝）の退役軍人への土地分配の過程で、ウェルギリウスの家族は先祖代々の農場を没収されるという悲劇に見舞われました。\n\n### 2. 牧歌、農耕詩、そして芸術的飛躍\n\n故郷を追われた深い喪失感は、彼の最初の主要な作品である『牧歌（Eclogues）』に深く浸透しています。この牧歌的な詩集は、田園生活ののどかな美しさと、内戦によって追放された農民の厳しい現実や苦しみを対比させて描きました。彼の紛れもない天才は、当時の最も著名な芸術後援者であったマエケナスの注目を集め、彼はウェルギリウスを自身の内輪のサークルに引き入れました。マエケナスの後援の下、ウェルギリウスは7年の歳月をかけて『農耕詩（Georgics）』を書き上げました。この教訓詩は、農業労働の尊厳と自然のリズムを讃え、数十年にわたる流血によって疲弊したローマの人々に平和と国家復興のメッセージを提供しました。\n\n### 3. アエネーイス：ローマの運命を歌う\n\nアウグストゥスが最終的に内戦を終結させ、パクス・ロマーナ（ローマの平和）を開始すると、彼はウェルギリウスにローマの偉大さとその神話的な起源を記念する叙事詩を創作するよう要請しました。ウェルギリウスは残りの11年間をすべて『アエネーイス』の執筆に捧げました。この叙事詩は、陥落した都市から逃れ、計り知れない困難に耐えてイタリアに到達し、ローマ人の祖先となるトロイアの英雄アエネアスの物語を語っています。アウグストゥス政権の単なる政治的プロパガンダをはるかに超えて、『アエネーイス』は人間の苦しみ、義務（ピエタス）、個人的な犠牲、そして運命の重い負担に関する壮大な瞑想録です。\n\n### 4. 未完の傑作と永遠の遺産\n\n紀元前19年、ウェルギリウスは推敲を終える前に、『アエネーイス』に登場する風景を直接知るためにギリシャへの航海に出ました。悲劇的なことに、彼は旅行中に熱病にかかり、イタリアのブルンディシウムに戻った直後、51歳で亡くなりました。臨終の際、自身の完璧主義に苛まれ、叙事詩がまだ洗練されていないと感じていた彼は、『アエネーイス』の原稿を焼却するよう懇願しました。しかし、アウグストゥス帝は介入し、作品をそのまま出版するよう命じました。生き残った『アエネーイス』は、瞬く間にローマ文学の最高峰となり、帝国中のラテン語教育の基礎テキストとなりました。",
+    "epic_es": "### 1. De los pacíficos campos de Mantua\n\nPublio Virgilio Marón nació en el año 70 a. C. en Andes, cerca de Mantua en el norte de Italia. Aunque nació en el seno de una familia de medios modestos, su padre reconoció su intelecto y se aseguró de que recibiera la mejor educación posible, enviándolo a estudiar a Cremona, Milán y, finalmente, a Roma. Durante estos años de formación, Virgilio se sumergió en la retórica y la filosofía, particularmente en la escuela epicúrea. Sin embargo, Roma se estaba hundiendo en los caóticos días finales de la República. Las guerras civiles que siguieron al asesinato de Julio César finalmente llegaron a su tierra natal. En el proceso de distribución de tierras a los soldados veteranos de Octavio, la familia de Virgilio sufrió la tragedia de que le confiscaran su granja ancestral.\n\n### 2. Bucólicas, Geórgicas y ascenso artístico\n\nEl profundo sentido de pérdida por haber sido expulsado de su hogar impregnó profundamente su primera obra importante, las Bucólicas. Esta colección de poemas pastoriles capturó la belleza idílica de la vida en el campo yuxtapuesta con las duras realidades y el sufrimiento de los agricultores desplazados por la guerra civil. Su innegable genio llamó la atención de Mecenas, el mecenas de las artes más destacado de la época, quien introdujo a Virgilio en su círculo íntimo. Bajo el patrocinio de Mecenas, Virgilio pasó siete años elaborando las Geórgicas, un poema didáctico que celebraba la dignidad del trabajo agrícola y los ritmos de la naturaleza.\n\n### 3. La Eneida: Cantando el destino de Roma\n\nCuando Augusto finalmente terminó las guerras civiles e inauguró la Pax Romana, le pidió a Virgilio que compusiera un poema épico que conmemorara la grandeza de Roma y sus orígenes míticos. Virgilio dedicó los 11 años restantes de su vida por completo a la Eneida. La epopeya cuenta la historia del héroe troyano Eneas, que huye de su ciudad caída y soporta inmensas dificultades para llegar a Italia. Mucho más allá de ser una mera pieza de propaganda política para el régimen de Augusto, la Eneida es una magnífica meditación sobre el sufrimiento humano, el deber, el sacrificio personal y la pesada carga del destino.\n\n### 4. Una obra maestra inacabada y un legado eterno\n\nEn el 19 a. C., Virgilio se embarcó en un viaje a Grecia para conocer de primera mano los paisajes que aparecen en la Eneida. Trágicamente, contrajo una fiebre durante el viaje y murió poco después de regresar a Brundisium, Italia, a la edad de 51 años. En su lecho de muerte, consumido por su perfeccionismo, rogó que se quemara el manuscrito de la Eneida. El emperador Augusto, sin embargo, intervino y ordenó que la obra se publicara tal como estaba. La Eneida superviviente se convirtió instantáneamente en la cumbre suprema de la literatura romana.",
+    "epic_fr": "### 1. Depuis les champs paisibles de Mantoue\n\nPublius Vergilius Maro, plus connu sous le nom de Virgile, est né en 70 avant J.-C. à Andes, près de Mantoue dans le nord de l'Italie. Bien que né dans une famille aux moyens modestes, son père a reconnu son intelligence et a veillé à ce qu'il reçoive la meilleure éducation possible, l'envoyant étudier à Crémone, Milan et finalement Rome. Pendant ces années de formation, Virgile s'est plongé dans la rhétorique et la philosophie, en particulier l'école épicurienne. Cependant, Rome plongeait dans les derniers jours chaotiques de la République. Les guerres civiles qui ont suivi l'assassinat de Jules César ont fini par atteindre sa patrie. Dans le processus de distribution des terres aux soldats vétérans d'Octave, la famille de Virgile a subi la tragédie de voir sa ferme ancestrale confisquée.\n\n### 2. Bucoliques, Géorgiques et ascension artistique\n\nLe profond sentiment de perte d'avoir été chassé de chez lui a profondément imprégné sa première œuvre majeure, les Bucoliques. Ce recueil de poèmes pastoraux a capturé la beauté idyllique de la vie à la campagne juxtaposée aux dures réalités et aux souffrances des agriculteurs déplacés par la guerre civile. Son génie indéniable a attiré l'attention de Mécène, le plus grand mécène des arts de l'époque, qui a introduit Virgile dans son cercle intime. Sous le patronage de Mécène, Virgile a passé sept ans à élaborer les Géorgiques, un poème didactique qui célébrait la dignité du travail agricole et les rythmes de la nature.\n\n### 3. L'Énéide : Chanter le destin de Rome\n\nLorsque Auguste a finalement mis fin aux guerres civiles et inauguré la Pax Romana, il a demandé à Virgile de composer un poème épique commémorant la grandeur de Rome et ses origines mythiques. Virgile a consacré les 11 dernières années de sa vie entièrement à l'Énéide. L'épopée raconte l'histoire du héros troyen Énée, qui fuit sa ville déchue et endure d'immenses difficultés pour atteindre l'Italie. Bien au-delà d'une simple pièce de propagande politique pour le régime augustéen, l'Énéide est une magnifique méditation sur la souffrance humaine, le devoir, le sacrifice personnel et le lourd fardeau du destin.\n\n### 4. Un chef-d'œuvre inachevé et un héritage éternel\n\nEn 19 avant J.-C., Virgile s'est lancé dans un voyage en Grèce pour acquérir une connaissance directe des paysages figurant dans l'Énéide. Tragiquement, il a contracté une fièvre pendant le voyage et est mort peu de temps après son retour à Brundisium, en Italie, à l'âge de 51 ans. Sur son lit de mort, consumé par son perfectionnisme, il a supplié que le manuscrit de l'Énéide soit brûlé. L'empereur Auguste est cependant intervenu et a ordonné que l'œuvre soit publiée telle quelle.",
+    "epic_it": "### 1. Dai pacifici campi di Mantova\n\nPublio Virgilio Marone nacque nel 70 a.C. ad Andes, vicino a Mantova nel nord Italia. Sebbene nato in una famiglia di mezzi modesti, suo padre riconobbe il suo intelletto e si assicurò che ricevesse la migliore educazione possibile, mandandolo a studiare a Cremona, Milano e infine a Roma. Durante questi anni formativi, Virgilio si immerse nella retorica e nella filosofia, in particolare la scuola epicurea. Tuttavia, Roma stava precipitando nei caotici giorni finali della Repubblica. Le guerre civili seguite all'assassinio di Giulio Cesare raggiunsero infine la sua terra natale. Nel processo di distribuzione delle terre ai soldati veterani di Ottaviano, la famiglia di Virgilio subì la tragedia della confisca della loro fattoria ancestrale.\n\n### 2. Bucoliche, Georgiche e ascesa artistica\n\nIl profondo senso di perdita per essere stato cacciato dalla sua casa permeò profondamente la sua prima opera importante, le Bucoliche. Questa raccolta di poesie pastorali catturò la bellezza idilliaca della vita di campagna in contrapposizione alle dure realtà e alle sofferenze degli agricoltori sfollati dalla guerra civile. Il suo innegabile genio catturò l'attenzione di Mecenate, il più importante mecenate delle arti dell'epoca, che portò Virgilio nella sua cerchia ristretta. Sotto il patrocinio di Mecenate, Virgilio trascorse sette anni a elaborare le Georgiche, un poema didascalico che celebrava la dignità del lavoro agricolo e i ritmi della natura.\n\n### 3. L'Eneide: Cantare il destino di Roma\n\nQuando Augusto pose fine alle guerre civili e inaugurò la Pax Romana, chiese a Virgilio di comporre un poema epico che commemorasse la grandezza di Roma e le sue origini mitiche. Virgilio dedicò i restanti 11 anni della sua vita interamente all'Eneide. L'epopea racconta la storia dell'eroe troiano Enea, che fugge dalla sua città caduta e sopporta immense difficoltà per raggiungere l'Italia. Molto più di un mero strumento di propaganda politica per il regime di Augusto, l'Eneide è una magnifica meditazione sulla sofferenza umana, il dovere, il sacrificio personale e il pesante fardello del destino.\n\n### 4. Un capolavoro incompiuto e un'eredità eterna\n\nNel 19 a.C., Virgilio intraprese un viaggio in Grecia per acquisire una conoscenza diretta dei paesaggi descritti nell'Eneide. Tragicamente, contrasse una febbre durante il viaggio e morì poco dopo il ritorno a Brindisi, in Italia, all'età di 51 anni. Sul letto di morte, consumato dal suo perfezionismo, implorò che il manoscritto dell'Eneide fosse bruciato. L'imperatore Augusto, tuttavia, intervenne e ordinò che l'opera fosse pubblicata così com'era.",
+    "epic_pt": "### 1. Dos pacíficos campos de Mântua\n\nPúblio Virgílio Marão nasceu em 70 a.C. em Andes, perto de Mântua, no norte da Itália. Embora nascido em uma família de meios modestos, seu pai reconheceu seu intelecto e garantiu que ele recebesse a melhor educação possível, enviando-o para estudar em Cremona, Milão e, eventualmente, em Roma. Durante esses anos de formação, Virgílio mergulhou na retórica e na filosofia, particularmente na escola epicurista. No entanto, Roma estava mergulhando nos caóticos dias finais da República. As guerras civis após o assassinato de Júlio César acabaram chegando à sua terra natal. No processo de distribuição de terras aos soldados veteranos de Otávio, a família de Virgílio sofreu a tragédia de ter sua fazenda ancestral confiscada.\n\n### 2. Bucólicas, Geórgicas e ascensão artística\n\nO profundo senso de perda de ter sido expulso de sua casa permeou profundamente sua primeira grande obra, as Bucólicas. Esta coleção de poemas pastorais capturou a beleza idílica da vida no campo justaposta às duras realidades e sofrimentos dos agricultores deslocados pela guerra civil. Seu inegável gênio chamou a atenção de Mecenas, o mais proeminente patrono das artes da época, que trouxe Virgílio para seu círculo íntimo. Sob o patrocínio de Mecenas, Virgílio passou sete anos elaborando as Geórgicas, um poema didático que celebrava a dignidade do trabalho agrícola e os ritmos da natureza.\n\n### 3. A Eneida: Cantando o destino de Roma\n\nQuando Augusto finalmente encerrou as guerras civis e inaugurou a Pax Romana, ele solicitou que Virgílio compusesse um poema épico comemorando a grandeza de Roma e suas origens míticas. Virgílio dedicou os 11 anos restantes de sua vida inteiramente à Eneida. O épico conta a história do herói troiano Eneias, que foge de sua cidade caída e suporta imensas dificuldades para chegar à Itália. Muito além de uma mera peça de propaganda política para o regime augusto, a Eneida é uma magnífica meditação sobre o sofrimento humano, dever, sacrifício pessoal e o pesado fardo do destino.\n\n### 4. Uma obra-prima inacabada e um legado eterno\n\nEm 19 a.C., Virgílio embarcou em uma viagem à Grécia para obter conhecimento em primeira mão das paisagens apresentadas na Eneida. Tragicamente, ele contraiu uma febre durante a viagem e morreu logo após retornar a Brundisium, Itália, aos 51 anos. Em seu leito de morte, consumido por seu perfeccionismo, ele implorou que o manuscrito da Eneida fosse queimado. O Imperador Augusto, no entanto, interveio e ordenou que a obra fosse publicada como estava.",
+    "epic_ar": "### 1. من حقول مانتوفا الهادئة\n\nولد بوبليوس فيرجيليوس مارو (فرجيل) عام 70 قبل الميلاد في قرية أنديز بالقرب من مانتوفا في شمال إيطاليا. على الرغم من ولادته في عائلة متواضعة، فقد أدرك والده ذكاءه وحرص على تلقيه أفضل تعليم ممكن، فأرسله للدراسة في كريمونا، وميلانو، وروما لاحقاً. خلال هذه السنوات التكوينية، انغمس فرجيل في البلاغة والفلسفة، وتأثر بشدة بالمدرسة الأبيقورية. ومع ذلك، كانت روما تغرق في الأيام الأخيرة الفوضوية للجمهورية. الحروب الأهلية التي أعقبت اغتيال يوليوس قيصر وصلت في النهاية إلى مسقط رأسه، وعانت عائلة فرجيل من مصادرة مزرعتها لتوزيع الأراضي على جنود أوكتافيان.\n\n### 2. الرعويات، والزراعيات، والارتقاء الفني\n\nتغلغل الشعور العميق بالخسارة لطرده من منزله في أول أعماله الكبرى، 'الرعويات'. التقطت هذه المجموعة من القصائد الرعوية الجمال المثالي لحياة الريف في تناقض مع الحقائق القاسية ومعاناة المزارعين النازحين بسبب الحرب الأهلية. لفتت عبقريته التي لا يمكن إنكارها انتباه ميسيناس، أبرز راعي للفنون في ذلك العصر، الذي أدخل فرجيل في دائرته المقربة. وتحت رعاية ميسيناس، أمضى فرجيل سبع سنوات في صياغة 'الزراعيات'، وهي قصيدة تعليمية تحتفي بكرامة العمل الزراعي وإيقاعات الطبيعة.\n\n### 3. الإنيادة: الغناء لمصير روما\n\nعندما أنهى الإمبراطور أغسطس الحروب الأهلية وافتتح 'السلام الروماني'، طلب من فرجيل تأليف قصيدة ملحمية تحيي عظمة روما وأصولها الأسطورية. كرس فرجيل السنوات الإحدى عشرة المتبقية من حياته بالكامل لـ 'الإنيادة'. تروي الملحمة قصة البطل الطروادي أينياس، الذي يفر من مدينته الساقطة ويتحمل مصاعب هائلة للوصول إلى إيطاليا. كانت الإنيادة أكثر بكثير من مجرد دعاية سياسية، بل كانت تأملاً رائعاً في المعاناة الإنسانية والواجب والتضحية الشخصية.\n\n### 4. تحفة غير مكتملة وإرث أبدي\n\nفي عام 19 قبل الميلاد، شرع فرجيل في رحلة إلى اليونان لاكتساب معرفة مباشرة بالمناظر الطبيعية المذكورة في الإنيادة. بشكل مأساوي، أصيب بحمى أثناء الرحلة وتوفي بعد فترة وجيزة من عودته إلى إيطاليا، عن عمر يناهز 51 عاماً. على فراش الموت، وبسبب سعيه للكمال، توسل بأن تُحرق مخطوطة الإنيادة لأنها غير مصقولة. ومع ذلك، تدخل الإمبراطور أغسطس وأمر بنشر العمل كما هو.",
+    "epic_hi": "### 1. मंटुआ के शांतिपूर्ण खेतों से\n\nपब्लियस वर्जिलियस मारो (वर्जिल) का जन्म 70 ईसा पूर्व उत्तरी इटली में मंटुआ के पास एंडीज में हुआ था। यद्यपि उनका जन्म एक साधारण परिवार में हुआ था, उनके पिता ने उनकी बुद्धि को पहचाना और सुनिश्चित किया कि उन्हें सर्वोत्तम संभव शिक्षा मिले, उन्हें क्रेमोना, मिलान और अंततः रोम में अध्ययन करने के लिए भेजा। इन प्रारंभिक वर्षों के दौरान, वर्जिल ने खुद को बयानबाजी और दर्शनशास्त्र में डुबो दिया। हालाँकि, रोम गणराज्य के अराजक अंतिम दिनों में डूब रहा था। जूलियस सीज़र की हत्या के बाद हुए गृहयुद्ध अंततः उनके वतन पहुँच गए। ऑक्टेवियन के अनुभवी सैनिकों को भूमि वितरण की प्रक्रिया में, वर्जिल के परिवार को उनके पैतृक खेत को जब्त करने की त्रासदी का सामना करना पड़ा।\n\n### 2. देहाती कविताएं, कृषिकर्म और कलात्मक उत्थान\n\nअपने घर से खदेड़े जाने के नुकसान की गहरी भावना उनके पहले प्रमुख कार्य, एकोलोगस (देहाती कविताओं) में गहराई से व्याप्त है। कविताओं के इस संग्रह ने देहाती जीवन की सुंदर सुंदरता को गृह युद्ध से विस्थापित किसानों की कठोर वास्तविकताओं और पीड़ा के साथ जोड़ दिया। उनकी निर्विवाद प्रतिभा ने उस युग के सबसे प्रमुख कला संरक्षक मेकेनस का ध्यान आकर्षित किया। मैकेनस के संरक्षण में, वर्जिल ने 'जॉर्जिक्स' तैयार करने में सात साल बिताए, जो एक उपदेशात्मक कविता थी जिसने कृषि श्रम और प्रकृति की लय का जश्न मनाया।\n\n### 3. एनीड: रोम की नियति का गान\n\nजब ऑगस्टस ने अंततः गृहयुद्ध समाप्त कर दिए और पैक्स रोमाना (रोम की शांति) का उद्घाटन किया, तो उन्होंने वर्जिल से रोम की महानता और इसके पौराणिक मूल के उपलक्ष्य में एक महाकाव्य कविता की रचना करने का अनुरोध किया। वर्जिल ने अपने जीवन के शेष 11 वर्ष पूरी तरह से 'एनीड' को समर्पित कर दिए। यह महाकाव्य ट्रोजन नायक एनीस की कहानी बताता है, जो अपने गिरे हुए शहर से भाग जाता है और इटली पहुंचने के लिए अपार कष्ट सहता है।\n\n### 4. एक अधूरी कृति और एक शाश्वत विरासत\n\n19 ईसा पूर्व में, वर्जिल ने अपने संशोधनों को अंतिम रूप देने से पहले एनीड में चित्रित परिदृश्यों का प्रत्यक्ष ज्ञान प्राप्त करने के लिए ग्रीस की यात्रा शुरू की। दुखद रूप से, यात्रा के दौरान उन्हें बुखार हो गया और इटली के ब्रुंडिसियम लौटने के कुछ ही समय बाद 51 वर्ष की आयु में उनका निधन हो गया। अपनी मृत्यु शय्या पर, अपनी पूर्णतावाद से ग्रसित होकर, उन्होंने एनीड की पांडुलिपि को जलाने की गुहार लगाई। हालाँकि, सम्राट ऑगस्टस ने हस्तक्षेप किया और आदेश दिया कि काम को वैसे ही प्रकाशित किया जाए। जीवित एनीड तुरंत रोमन साहित्य का सर्वोच्च शिखर बन गया।",
+    "epic_ru": "### 1. Из мирных полей Мантуи\n\nПублий Вергилий Марон родился в 70 году до н. э. в Андах, недалеко от Мантуи на севере Италии. Хотя он родился в семье скромного достатка, его отец распознал его интеллект и позаботился о том, чтобы он получил лучшее образование, отправив его учиться в Кремону, Милан, а затем и в Рим. В эти годы становления Вергилий погрузился в риторику и философию, особенно в эпикурейскую школу. Однако Рим погружался в хаотичные последние дни Республики. Гражданские войны, последовавшие за убийством Юлия Цезаря, в конце концов достигли его родины. В процессе распределения земель ветеранам Октавиана семья Вергилия пережила трагедию конфискации их родовой фермы.\n\n### 2. Буколики, Георгики и художественный взлет\n\nГлубокое чувство потери из-за изгнания из дома пронизало его первое крупное произведение, «Буколики» (или «Эклоги»). В этом сборнике пасторальных стихов идиллическая красота деревенской жизни противопоставлялась суровым реалиям и страданиям фермеров, перемещенных в результате гражданской войны. Его неоспоримый гений привлек внимание Мецената, самого видного покровителя искусств той эпохи, который ввел Вергилия в свой ближний круг. Под покровительством Мецената Вергилий потратил семь лет на создание «Георгик», дидактической поэмы, прославляющей достоинство земледельческого труда и ритмы природы.\n\n### 3. Энеида: Воспевая судьбу Рима\n\nКогда Август наконец положил конец гражданским войнам и провозгласил Pax Romana, он попросил Вергилия написать эпическую поэму, увековечивающую величие Рима и его мифическое происхождение. Оставшиеся 11 лет своей жизни Вергилий полностью посвятил «Энеиде». Эпос рассказывает историю троянского героя Энея, который бежит из своего павшего города и переносит огромные трудности, чтобы добраться до Италии. Далеко выходя за рамки простой политической пропаганды, «Энеида» — это великолепное размышление о человеческих страданиях, долге и бремени судьбы.\n\n### 4. Незаконченный шедевр и вечное наследие\n\nВ 19 году до н. э. Вергилий отправился в путешествие в Грецию, чтобы воочию увидеть пейзажи, описанные в «Энеиде». Трагически он заболел лихорадкой во время путешествия и умер вскоре после возвращения в Брундизий в возрасте 51 года. На смертном одре, поглощенный своим перфекционизмом, он умолял сжечь рукопись «Энеиды». Однако император Август вмешался и приказал опубликовать работу в том виде, в каком она была. Сохранившаяся «Энеида» мгновенно стала вершиной римской литературы.",
+    "epic_zh": "### 1. 曼图亚的宁静田野\n\n普布利乌斯·维吉尔·马罗于公元前70年出生在意大利北部曼图亚附近的安第斯。尽管出生在一个家境平庸的家庭，他的父亲却看出了他的才华，并确保他得到最好的教育，送他去克雷莫纳、米兰，最后是罗马学习。在这些成长岁月里，维吉尔沉浸在修辞学和哲学中，尤其是伊壁鸠鲁学派。然而，罗马正陷入共和国最后混乱的日子。儒略·恺撒被暗杀后爆发的内战最终波及了他的家乡。在将土地分配给屋大维退伍老兵的过程中，维吉尔的家族遭受了祖传农场被没收的悲剧。\n\n### 2. 牧歌、农事诗与艺术的升华\n\n被赶出家园的深深失落感深深地渗透到他的第一部主要作品《牧歌》中。这部田园诗集捕捉了乡村生活田园诗般的美丽，与因内战而流离失所的农民的严酷现实和苦难形成鲜明对比。他不可否认的天才引起了当时最著名的艺术赞助人梅塞纳斯的注意，他将维吉尔引入了他的核心圈子。在梅塞纳斯的赞助下，维吉尔花了七年时间创作了《农事诗》，这是一部赞美农业劳动尊严和自然韵律的教诲诗。\n\n### 3. 埃涅阿斯纪：歌颂罗马的命运\n\n当奥古斯都终于结束内战并开启罗马和平时期时，他要求维吉尔创作一部史诗，以纪念罗马的伟大及其神话般的起源。维吉尔将他生命中剩下的11年完全献给了《埃涅阿斯纪》。这部史诗讲述了特洛伊英雄埃涅阿斯的故事，他逃离了沦陷的城市，历经千辛万苦到达意大利，从而成为罗马人的祖先。这远不仅仅是奥古斯都政权的政治宣传，更是对人类苦难、责任、个人牺牲和沉重命运的宏大沉思。\n\n### 4. 未完成的杰作与永恒的遗产\n\n公元前19年，维吉尔踏上了前往希腊的航程，以获得对《埃涅阿斯纪》中所描绘的风景的第一手了解。不幸的是，他在旅途中感染了热病，在返回意大利布伦迪西乌姆后不久去世，享年51岁。在临终前，被完美主义所吞噬的他，觉得这部史诗还未打磨完美，恳求烧毁《埃涅阿斯纪》的手稿。然而，奥古斯都皇帝干预了此事，并下令按原样出版这部作品。幸存下来的《埃涅阿斯纪》立刻成为罗马文学的最高峰。",
+    "trials_ko": "내전으로 인한 고향 상실, 평생을 괴롭힌 허약한 체질, 완벽주의에 대한 강박",
+    "trials_en": "Loss of his homeland due to civil war, frail health, and crippling perfectionism",
+    "overcoming_ko": "지속적인 학문 탐구와 마이케나스의 후원, 그리고 예술을 향한 불굴의 집념으로 상실을 창작으로 승화시킴",
+    "overcoming_en": "Sublimated his loss through intellectual pursuit, Maecenas' patronage, and an unyielding dedication to artistic creation",
+    "wisdom": [
+      {
+        "quote_ko": "운명은 용기 있는 자를 돕는다. (Audentis Fortuna iuvat)",
+        "quote_en": "Fortune favors the bold.",
+        "meaning_ko": "두려움을 이겨내고 행동하는 자만이 운명을 자신의 편으로 만들 수 있다는 뜻입니다.",
+        "meaning_en": "Means that those who overcome fear and take action are the ones who can make fate work in their favor."
+      },
+      {
+        "quote_ko": "어려움을 이겨내면 언젠가 이 고난을 기억하며 기뻐할 날이 올 것이다. (Forsan et haec olim meminisse iuvabit)",
+        "quote_en": "Perhaps someday it will be pleasing to remember even these things.",
+        "meaning_ko": "현재의 고통과 시련도 시간이 지나면 성장의 밑거름이 되어 미소 지으며 회상할 수 있게 된다는 희망의 메시지입니다.",
+        "meaning_en": "A message of hope that current pains and trials will eventually become the foundation of growth, recalled later with a smile."
+      },
+      {
+        "quote_ko": "모든 것을 이기는 것은 사랑이니, 우리도 사랑에 굴복하자. (Omnia vincit amor, et nos cedamus amori)",
+        "quote_en": "Love conquers all, and let us yield to love.",
+        "meaning_ko": "세상의 어떤 권력이나 힘보다 인간의 사랑과 감정이 가장 위대한 힘을 지닌다는 의미입니다.",
+        "meaning_en": "Implies that human love and emotion possess a greater force than any power or strength in the world."
+      }
+    ]
+  }
+}

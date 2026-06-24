@@ -766,6 +766,68 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
             </div>
           </section>
 
+          {translations.factLayer && (
+            <section className="space-y-12 my-16 border-t border-white/10 pt-16" id="fact-layer">
+              <div className="flex flex-col items-center gap-4 text-center mb-10">
+                <h2 className="text-3xl font-serif font-bold text-foreground">
+                  {locale === 'ko' ? '한눈에 보는 발자취' : 'Timeline & Facts'}
+                </h2>
+                <div className="w-24 h-1 bg-gradient-to-r from-transparent via-blue-500/50 to-transparent" />
+              </div>
+
+              {/* Timeline */}
+              {translations.factLayer.timeline && translations.factLayer.timeline.length > 0 && (
+                <div className="space-y-6">
+                  <h3 className="text-2xl font-bold text-blue-400/90">{locale === 'ko' ? '연표' : 'Timeline'}</h3>
+                  <div className="border-l-2 border-white/10 pl-6 space-y-6">
+                    {translations.factLayer.timeline.map((tItem: any, idx: number) => (
+                      <div key={idx} className="relative">
+                        <div className="absolute -left-[29px] top-1.5 w-3 h-3 rounded-full bg-blue-500/50 border-2 border-[#0B0D17]" />
+                        <span className="text-sm font-bold text-amber-500/80 mb-1 block">{tItem.year}</span>
+                        <p className="text-slate-200 text-base leading-relaxed">{tItem.event}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Key Achievements */}
+              {translations.factLayer.key_achievements && translations.factLayer.key_achievements.length > 0 && (
+                <div className="space-y-6 pt-6">
+                  <h3 className="text-2xl font-bold text-emerald-400/90">{locale === 'ko' ? '핵심 업적' : 'Key Achievements'}</h3>
+                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {translations.factLayer.key_achievements.map((ach: string, idx: number) => (
+                      <li key={idx} className="glass-card p-4 rounded-xl border border-white/5 flex gap-3 items-start">
+                        <span className="text-emerald-500">✓</span>
+                        <span className="text-slate-200 text-sm">{ach}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* FAQ */}
+              {translations.factLayer.faq && translations.factLayer.faq.length > 0 && (
+                <div className="space-y-6 pt-6">
+                  <h3 className="text-2xl font-bold text-purple-400/90">FAQ</h3>
+                  <div className="space-y-4">
+                    {translations.factLayer.faq.map((q: any, idx: number) => (
+                      <div key={idx} className="glass-card p-5 rounded-xl border border-white/5 space-y-2">
+                        <h4 className="font-bold text-white text-lg flex gap-2">
+                          <span className="text-purple-400">Q.</span> {q.question}
+                        </h4>
+                        <p className="text-slate-300 pl-6 leading-relaxed">
+                          {q.answer}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </section>
+          )}
+
+
           {/* AdSpace Container with safe margin */}
           <div className="ad-container my-12 flex justify-center border-t border-white/5 pt-8">
             <AdSlot slot="4898120960" format="horizontal" />

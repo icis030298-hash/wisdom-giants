@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "제인 오스틴",
+      "title": "영국 문학의 위대한 관찰자",
+      "headline": "일상 속에 빛나는 진실",
+      "shortDescription": "18세기와 19세기 전환기의 영국 사회를 날카로운 통찰력과 유머로 그려낸 소설가입니다. 여성의 삶, 결혼, 사회적 계급에 대한 예리한 시선으로 전 세계 독자들의 사랑을 받고 있습니다.",
+      "quote": "진정한 편안함을 느끼기엔 집만 한 곳이 없죠.",
+      "chatGreeting": "안녕하세요. 차 한 잔 하시겠어요? 사람들의 마음속에 숨겨진 이야기만큼 흥미로운 것은 없답니다.",
+      "suggestedQuestions": [
+        "가장 아끼는 작품은 무엇인가요?",
+        "당시 여성으로서 글을 쓴다는 것은 어떤 의미였나요?",
+        "등장인물들의 성격은 어떻게 구상하셨나요?"
+      ],
+      "era": "18세기 후반 - 19세기 초반",
+      "pain": "여성 작가로서의 사회적 제약과 익명 출판의 한계, 경제적 불안정, 그리고 이른 나이에 찾아온 병마",
+      "recovery": "가족들의 든든한 지지와 일상에 대한 끊임없는 관찰, 글쓰기를 향한 지치지 않는 열정으로 이를 극복함"
+    },
+    "en": {
+      "name": "Jane Austen",
+      "title": "Master of the English Novel",
+      "headline": "Brilliant observer of life",
+      "shortDescription": "An English novelist known for her sharp social commentary, wit, and romantic fiction set among the landed gentry. She profoundly captured the lives of women, marriage, and class in her era.",
+      "quote": "There is nothing like staying at home for real comfort.",
+      "chatGreeting": "Good day to you. Shall we converse? I have always found that human nature presents the most fascinating study.",
+      "suggestedQuestions": [
+        "Which of your novels holds the dearest place in your heart?",
+        "What challenges did you face as a female writer?",
+        "How do you create such vivid characters?"
+      ],
+      "era": "Late 18th - Early 19th Century",
+      "pain": "Societal restrictions on female authors, anonymous publication, financial dependence, and a premature fatal illness",
+      "recovery": "Persevered through family support, relentless observation of daily life, and an unyielding passion for writing"
+    },
+    "ja": {
+      "name": "ジェーン・オースティン",
+      "title": "イギリス文学の偉大な観察者",
+      "headline": "日常に潜む輝かしい真実",
+      "shortDescription": "18世紀から19世紀にかけてのイギリス社会を、鋭い洞察力とユーモアで描き出した小説家です。",
+      "quote": "本当のくつろぎを得るには、家にいるのが一番です。",
+      "chatGreeting": "ごきげんよう。お茶でもいかがですか？人間の本性ほど興味深いものはありませんね。",
+      "suggestedQuestions": [
+        "一番のお気に入りの作品は何ですか？",
+        "当時の女性として文章を書くことにはどのような苦労がありましたか？",
+        "登場人物はどのように生み出したのですか？"
+      ],
+      "era": "18世紀後半〜19世紀前半",
+      "pain": "女性作家としての社会的制約、匿名での出版、経済的な不安定さ、そして若くして見舞われた病",
+      "recovery": "家族の支え、日常への絶え間ない観察、そして執筆への情熱によって困難を乗り越えた"
+    },
+    "de": {
+      "name": "Jane Austen",
+      "title": "Meisterin des englischen Romans",
+      "headline": "Scharfsinnige Beobachterin",
+      "shortDescription": "Eine englische Schriftstellerin, die für ihre scharfe Gesellschaftskritik, ihren Witz und ihre romantische Fiktion bekannt ist.",
+      "quote": "Es gibt nichts Schöneres, als für echten Komfort zu Hause zu bleiben.",
+      "chatGreeting": "Guten Tag. Sollen wir uns unterhalten? Die menschliche Natur ist doch immer noch das faszinierendste Studium.",
+      "suggestedQuestions": [
+        "Welcher Ihrer Romane liegt Ihnen am meisten am Herzen?",
+        "Welchen Herausforderungen standen Sie als Schriftstellerin gegenüber?",
+        "Wie erschaffen Sie solche lebendigen Charaktere?"
+      ],
+      "era": "Spätes 18. - Frühes 19. Jahrhundert",
+      "pain": "Gesellschaftliche Einschränkungen für Autorinnen, anonyme Veröffentlichung und finanzielle Abhängigkeit",
+      "recovery": "Überwand dies durch die Unterstützung der Familie und eine unnachgiebige Leidenschaft für das Schreiben"
+    },
+    "es": {
+      "name": "Jane Austen",
+      "title": "Maestra de la Novela Inglesa",
+      "headline": "Brillante observadora",
+      "shortDescription": "Una novelista inglesa conocida por sus agudos comentarios sociales, ingenio y ficción romántica.",
+      "quote": "No hay nada como quedarse en casa para disfrutar del verdadero confort.",
+      "chatGreeting": "Buenos días. ¿Charlamos? Siempre he pensado que la naturaleza humana presenta el estudio más fascinante.",
+      "suggestedQuestions": [
+        "¿Qué novela suya ocupa el lugar más especial en su corazón?",
+        "¿Qué desafíos enfrentó como escritora?",
+        "¿Cómo crea personajes tan vívidos?"
+      ],
+      "era": "Finales del siglo XVIII - Principios del XIX",
+      "pain": "Restricciones sociales para autoras, publicación anónima y dependencia financiera",
+      "recovery": "Perseveró a través del apoyo familiar y una pasión inquebrantable por la escritura"
+    },
+    "fr": {
+      "name": "Jane Austen",
+      "title": "Maîtresse du Roman Anglais",
+      "headline": "Une observation brillante",
+      "shortDescription": "Une romancière anglaise célèbre pour sa critique sociale acérée, son esprit et sa fiction romantique.",
+      "quote": "Rien ne vaut le confort de son propre foyer.",
+      "chatGreeting": "Bonjour. Accepteriez-vous de converser avec moi ? J'ai toujours trouvé que la nature humaine était le sujet d'étude le plus fascinant.",
+      "suggestedQuestions": [
+        "Quel est votre roman préféré ?",
+        "Quels défis avez-vous relevés en tant que femme écrivain ?",
+        "Comment créez-vous des personnages aussi vivants ?"
+      ],
+      "era": "Fin du 18e - Début du 19e siècle",
+      "pain": "Restrictions sociales pour les auteures, publication anonyme et dépendance financière",
+      "recovery": "A persévéré grâce au soutien de sa famille et à une passion inébranlable pour l'écriture"
+    },
+    "it": {
+      "name": "Jane Austen",
+      "title": "Maestra del Romanzo Inglese",
+      "headline": "Brillante osservatrice",
+      "shortDescription": "Una romanziera inglese nota per i suoi acuti commenti sociali, la sua arguzia e la sua narrativa romantica.",
+      "quote": "Non c'è niente come stare a casa per trovare il vero comfort.",
+      "chatGreeting": "Buongiorno. Le andrebbe di conversare? Ho sempre trovato che la natura umana offra lo studio più affascinante.",
+      "suggestedQuestions": [
+        "Quale dei Suoi romanzi le è più caro?",
+        "Quali sfide ha affrontato come scrittrice?",
+        "Come crea personaggi così vividi?"
+      ],
+      "era": "Fine XVIII - Inizio XIX secolo",
+      "pain": "Restrizioni sociali per le autrici, pubblicazione anonima e dipendenza finanziaria",
+      "recovery": "Ha perseverato grazie al sostegno della famiglia e a un'incrollabile passione per la scrittura"
+    },
+    "pt": {
+      "name": "Jane Austen",
+      "title": "Mestra do Romance Inglês",
+      "headline": "Brilhante observadora",
+      "shortDescription": "Uma romancista inglesa conhecida pelos seus agudos comentários sociais, sagacidade e ficção romântica.",
+      "quote": "Não há nada como ficar em casa para ter verdadeiro conforto.",
+      "chatGreeting": "Bom dia. Vamos conversar? Sempre achei que a natureza humana é o estudo mais fascinante.",
+      "suggestedQuestions": [
+        "Qual dos seus romances lhe é mais querido?",
+        "Que desafios enfrentou como escritora?",
+        "Como cria personagens tão vívidas?"
+      ],
+      "era": "Finais do século XVIII - Início do século XIX",
+      "pain": "Restrições sociais para autoras, publicação anônima e dependência financeira",
+      "recovery": "Perseverou através do apoio familiar e de uma paixão inabalável pela escrita"
+    },
+    "ar": {
+      "name": "جاين أوستن",
+      "title": "سيدة الرواية الإنجليزية",
+      "headline": "مراقبة عبقرية للحياة",
+      "shortDescription": "روائية إنجليزية عُرفت بتعليقاتها الاجتماعية اللاذعة، وذكائها، ورواياتها الرومانسية حول الطبقات النبيلة في عصرها.",
+      "quote": "ليس هناك ما يعادل البقاء في المنزل للشعور بالراحة الحقيقية.",
+      "chatGreeting": "طاب يومكم. هل لنا أن نتجاذب أطراف الحديث؟ لطالما وجدت أن الطبيعة البشرية هي أروع موضوع للدراسة.",
+      "suggestedQuestions": [
+        "أي من رواياتك هي الأقرب إلى قلبك؟",
+        "ما التحديات التي واجهتك ككاتبة؟",
+        "كيف تبدعين شخصيات تنبض بالحياة؟"
+      ],
+      "era": "أواخر القرن الثامن عشر - أوائل القرن التاسع عشر",
+      "pain": "القيود الاجتماعية المفروضة على الكاتبات، والنشر بأسماء مستعارة، والاعتماد المالي على الآخرين",
+      "recovery": "ثابرت من خلال دعم أسرتها، ومراقبتها المستمرة للحياة اليومية، وشغفها الذي لا يتزعزع بالكتابة"
+    },
+    "hi": {
+      "name": "जेन ऑस्टेन",
+      "title": "अंग्रेजी उपन्यास की महारथी",
+      "headline": "जीवन की अद्भुत पर्यवेक्षक",
+      "shortDescription": "एक अंग्रेजी उपन्यासकार जो अपनी तीक्ष्ण सामाजिक टिप्पणियों, बुद्धि और रोमानी कथाओं के लिए जानी जाती हैं।",
+      "quote": "सच्चे आराम के लिए घर पर रहने जैसा कुछ नहीं है।",
+      "chatGreeting": "नमस्ते। क्या हम बातचीत करें? मुझे हमेशा लगता है कि मानव स्वभाव का अध्ययन सबसे आकर्षक है।",
+      "suggestedQuestions": [
+        "आपका कौन सा उपन्यास आपके दिल के सबसे करीब है?",
+        "एक महिला लेखिका के रूप में आपको किन चुनौतियों का सामना करना पड़ा?",
+        "आप इतने जीवंत चरित्र कैसे बनाती हैं?"
+      ],
+      "era": "18वीं सदी के अंत - 19वीं सदी की शुरुआत",
+      "pain": "महिला लेखिकाओं पर सामाजिक प्रतिबंध, गुमनाम प्रकाशन और वित्तीय निर्भरता",
+      "recovery": "परिवार के समर्थन और लेखन के प्रति अटूट जुनून के माध्यम से इन बाधाओं को पार किया"
+    },
+    "ru": {
+      "name": "Джейн Остин",
+      "title": "Мастер английского романа",
+      "headline": "Блестящий наблюдатель",
+      "shortDescription": "Английская писательница, известная своими острыми социальными комментариями, остроумием и романтической прозой.",
+      "quote": "Нет ничего лучше пребывания дома для настоящего уюта.",
+      "chatGreeting": "Добрый день. Не желаете ли побеседовать? Я всегда находила человеческую природу самым увлекательным предметом для изучения.",
+      "suggestedQuestions": [
+        "Какой из ваших романов вам наиболее дорог?",
+        "С какими трудностями вы столкнулись как женщина-писатель?",
+        "Как вы создаете таких живых персонажей?"
+      ],
+      "era": "Конец XVIII - начало XIX века",
+      "pain": "Социальные ограничения для писательниц, анонимные публикации и финансовая зависимость",
+      "recovery": "Преодолела трудности благодаря поддержке семьи и непоколебимой страсти к писательству"
+    },
+    "zh": {
+      "name": "简·奥斯汀",
+      "title": "英国文学小说的巨匠",
+      "headline": "洞察人性的作家",
+      "shortDescription": "一位以敏锐的社会评论、机智和浪漫小说闻名的英国小说家。她深刻地描绘了她那个时代女性的生活、婚姻和阶级观念。",
+      "quote": "没有什么比待在家里更能让人感到真正的舒适了。",
+      "chatGreeting": "您好。我们来聊聊吧？我一直觉得研究人性是最令人着迷的事情。",
+      "suggestedQuestions": [
+        "您最偏爱自己哪部作品？",
+        "作为一名女性作家，您面临过哪些挑战？",
+        "您是如何创造出如此栩栩如生的人物的？"
+      ],
+      "era": "18世纪末 - 19世纪初",
+      "pain": "女性作家的社会限制、匿名出版的无奈、经济上的不稳定，以及过早降临的疾病",
+      "recovery": "通过家人的支持、对日常生活的不断观察，以及对写作的不懈热情克服了重重困难"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 평온한 시골 마을에서 피어난 상상력\n\n제인 오스틴은 1775년 영국 햄프셔주의 조용한 시골 마을 스티븐턴에서 태어났습니다. 지역 교구 목사였던 아버지와 교양 있는 어머니 아래서 자란 그녀는 여덟 남매 중 일곱째로, 사랑과 활기가 넘치는 가정환경 속에서 성장했습니다. 당시 여성들에게는 정규 교육의 기회가 제한적이었으나, 그녀의 집에는 커다란 서재가 있었고 가족들은 함께 소설을 읽고 연극을 즐기며 문학적 소양을 길렀습니다. 이러한 환경은 젊은 제인 오스틴이 인간 관계와 사회적 규범을 섬세하게 관찰하고 상상력을 키우는 자양분이 되었습니다. 그녀는 어릴 때부터 가족들을 위해 짧은 희극과 풍자 글을 쓰며 글쓰기에 대한 천부적인 재능을 드러냈습니다.\n\n### 2. 예리한 관찰자, 펜을 들다\n\n20대에 접어들면서 제인 오스틴은 본격적으로 소설을 집필하기 시작했습니다. 이 시기에 그녀는 《오만과 편견》, 《이성과 감성》의 초기 초고를 완성했습니다. 그녀의 작품은 주로 자신이 속한 젠트리(지주) 계급의 일상, 특히 젊은 여성들의 결혼과 연애, 재산 문제 등을 다루었습니다. 하지만 그녀의 글은 단순한 로맨스 소설이 아니었습니다. 날카로운 위트와 아이러니를 통해 인간의 허영심, 어리석음, 사회적 허례허식을 꼬집는 탁월한 세태 풍자였습니다. 제인 오스틴은 제한된 사회적 경험 속에서도 주변 사람들의 미묘한 심리와 행동 양식을 꿰뚫어 보는 천재적인 관찰력을 지니고 있었습니다.\n\n### 3. 익명의 작가로서의 성공과 좌절\n\n그녀의 문학적 재능에도 불구하고, 당시 영국 사회에서 여성이 직업적인 작가로 활동하는 것은 결코 쉬운 일이 아니었습니다. 출판사를 찾는 일조차 험난했으며, 마침내 1811년 《이성과 감성》을 출판했을 때도 그녀는 자신의 이름을 밝히지 못하고 'A Lady(어떤 숙녀)'라는 필명을 사용해야 했습니다. 연이어 출간된 《오만과 편견》, 《맨스필드 파크》, 《엠마》 역시 큰 성공을 거두었으나, 대중은 이 매력적인 소설들을 쓴 작가가 누구인지 알지 못했습니다. 더욱이 아버지가 돌아가신 후 오스틴과 그녀의 어머니, 언니 카산드라는 경제적인 어려움을 겪으며 여러 곳을 전전해야만 했습니다. 이러한 경제적 불안정은 그녀의 삶에 큰 무게로 다가왔습니다.\n\n### 4. 시대를 뛰어넘는 불멸의 유산\n\n1816년경부터 제인 오스틴은 원인을 알 수 없는 병에 시달리기 시작했습니다. 건강이 급격히 악화되는 와중에도 그녀는 펜을 놓지 않고 《설득》을 완성했으며, 새로운 소설 집필을 시도하기도 했습니다. 하지만 결국 1817년, 41세라는 이른 나이에 세상을 떠났습니다. 그녀가 세상을 떠난 후에야 가족들에 의해 그녀의 진짜 이름이 세상에 알려졌습니다. 생전에는 소박하고 눈에 띄지 않는 삶을 살았던 제인 오스틴이었지만, 그녀가 남긴 소설들은 영국 문학사에서 가장 위대한 업적 중 하나로 평가받습니다. 오늘날에도 그녀의 작품은 시대를 초월하는 보편적인 인간성과 통찰력으로 전 세계 수많은 독자들에게 사랑받으며 끊임없이 다시 읽히고 있습니다.",
+    "epic_en": "### 1. Imagination Nurtured in a Quiet Countryside\n\nJane Austen was born in 1775 in Steventon, a quiet country village in Hampshire, England. Growing up as the seventh of eight children to a local parish clergyman and a well-educated mother, she was raised in an environment brimming with love and intellectual vitality. Although formal education opportunities for women were highly restricted at the time, her home possessed an extensive library. The family frequently read novels together and performed theatricals, fostering a rich literary sensibility. This environment became the nourishing ground for the young Jane Austen to finely observe human relationships and societal norms. From an early age, she revealed an innate talent for writing by crafting short comedies and satirical pieces for her family's amusement.\n\n### 2. An Astute Observer Takes up the Pen\n\nAs she entered her twenties, Jane Austen began writing novels in earnest. During this prolific period, she completed the initial drafts of what would become 'Pride and Prejudice' and 'Sense and Sensibility.' Her works primarily focused on the daily lives of the landed gentry class to which she belonged, specifically addressing the marriage, romance, and financial matters of young women. However, her writings were never mere romance novels. Through piercing wit and irony, they served as brilliant social satires that critiqued human vanity, folly, and societal pretension. Austen possessed a genius-level observational power, piercing through the subtle psychology and behavioral patterns of those around her despite her relatively confined social sphere.\n\n### 3. Success and Struggles as an Anonymous Author\n\nDespite her profound literary talent, establishing herself as a professional female writer in Regency England was incredibly difficult. Finding a publisher was a daunting task, and when she finally published 'Sense and Sensibility' in 1811, societal conventions forced her to publish anonymously, credited simply 'By a Lady.' Her subsequent masterpieces, including 'Pride and Prejudice,' 'Mansfield Park,' and 'Emma,' also achieved significant success, yet the public remained unaware of the brilliant author behind these captivating tales. Furthermore, following the death of her father, Austen, her mother, and her beloved sister Cassandra faced considerable financial difficulties, forcing them to relocate frequently. This financial instability cast a heavy shadow over much of her adult life.\n\n### 4. An Immortal Legacy Beyond the Eras\n\nAround 1816, Jane Austen began to suffer from a mysterious and debilitating illness. Even as her health rapidly declined, she refused to lay down her pen, managing to complete 'Persuasion' and beginning work on another novel. Tragically, she passed away in 1817 at the premature age of 41. It was only after her death that her family publicly revealed her true identity to the world. Though Jane Austen lived a seemingly modest and unassuming life, the six completed novels she left behind are regarded as some of the greatest achievements in English literature. Today, her works continue to be passionately read and adapted worldwide, cherished for their timeless insight into universal human nature.",
+    "epic_de": "### 1. Fantasie auf dem Land\n\nJane Austen wurde 1775 in Steventon geboren. In einem liebevollen Elternhaus eines Geistlichen aufgewachsen, entwickelte sie früh eine Leidenschaft für das Lesen und Schreiben.\n\n### 2. Eine scharfe Beobachterin\n\nIn ihren Zwanzigern begann sie mit den Entwürfen für ihre berühmtesten Romane. Sie beobachtete die Gesellschaft, Heiratspraktiken und soziale Klassen mit scharfem Witz und Ironie.\n\n### 3. Anonyme Veröffentlichung\n\nAls Frau konnte sie nur anonym veröffentlichen ('Von einer Dame'). Obwohl sie finanzielle Schwierigkeiten erlebte, gab sie ihre Leidenschaft für die Literatur niemals auf.\n\n### 4. Ein zeitloses Erbe\n\nSie starb 1817 früh an einer Krankheit. Erst nach ihrem Tod wurde ihr Name bekannt, und heute zählt sie zu den bedeutendsten Schriftstellerinnen der Weltliteratur.",
+    "epic_ja": "### 1. 穏やかな田舎町で育まれた想像力\n\nジェーン・オースティンは1775年にイギリスのハンプシャー州スティーブントンで生まれました。愛情深い牧師の家庭で育ち、早くから文学に親しみました。\n\n### 2. 鋭い観察者がペンを執る\n\n20代になると本格的に小説を書き始めます。当時の地主階級の生活、結婚、財産問題などを、鋭いウィットと皮肉を交えて描き出しました。\n\n### 3. 匿名の作家としての成功と苦悩\n\n当時の女性作家への偏見から、「ある淑女より」という匿名で出版しました。経済的な困難を抱えながらも執筆を続けました。\n\n### 4. 時代を超える不滅の遺産\n\n1817年に41歳の若さで病死しました。死後初めて本名が明かされ、現在ではイギリス文学を代表する偉大な作家として愛されています。",
+    "epic_es": "### 1. Imaginación en el campo\n\nJane Austen nació en 1775 en Steventon. Creció en un hogar amoroso y educado, desarrollando un profundo amor por la literatura desde una edad temprana.\n\n### 2. Una aguda observadora\n\nEn sus veintes, escribió los primeros borradores de sus novelas más famosas. Retrató la sociedad, el matrimonio y las clases sociales con gran ingenio e ironía.\n\n### 3. Publicación anónima\n\nComo mujer, tuvo que publicar sus obras de forma anónima ('Por una Dama'). A pesar de las dificultades económicas, nunca abandonó su pasión por la escritura.\n\n### 4. Un legado atemporal\n\nFalleció prematuramente en 1817. Su verdadera identidad solo se reveló póstumamente, y hoy es una de las novelistas más celebradas de la literatura mundial.",
+    "epic_fr": "### 1. L'imagination à la campagne\n\nJane Austen est née en 1775 à Steventon. Ayant grandi dans un foyer aimant, elle a développé très tôt un amour pour la lecture et l'écriture.\n\n### 2. Une fine observatrice\n\nDans la vingtaine, elle a écrit les premières ébauches de ses romans. Elle a dépeint la société, le mariage et les classes sociales avec beaucoup d'esprit et d'ironie.\n\n### 3. Publication anonyme\n\nEn tant que femme, elle a dû publier de manière anonyme. Malgré des difficultés financières, elle n'a jamais abandonné sa passion pour la littérature.\n\n### 4. Un héritage intemporel\n\nElle est décédée prématurément en 1817. Son nom n'a été révélé qu'après sa mort, et elle est aujourd'hui l'une des plus grandes romancières.",
+    "epic_it": "### 1. Immaginazione in campagna\n\nJane Austen è nata nel 1775 a Steventon. Cresciuta in una famiglia colta, ha sviluppato fin da piccola un grande amore per la letteratura.\n\n### 2. Un'acuta osservatrice\n\nVentenne, scrisse le prime bozze dei suoi romanzi. Descrisse la società e il matrimonio con acuta ironia.\n\n### 3. Pubblicazione anonima\n\nIn quanto donna, dovette pubblicare in forma anonima. Nonostante le difficoltà economiche, continuò a scrivere.\n\n### 4. Un'eredità senza tempo\n\nMorì prematuramente nel 1817. Il suo nome fu rivelato solo dopo la morte e oggi è tra i più grandi scrittori.",
+    "epic_pt": "### 1. Imaginação no campo\n\nJane Austen nasceu em 1775 em Steventon. Crescendo num lar amoroso, desenvolveu cedo o amor pela leitura e escrita.\n\n### 2. Uma observadora perspicaz\n\nAos vinte e poucos anos, escreveu os primeiros rascunhos de seus romances. Retratou a sociedade e o casamento com perspicácia e ironia.\n\n### 3. Publicação anónima\n\nComo mulher, teve que publicar de forma anónima. Apesar das dificuldades financeiras, nunca desistiu da escrita.\n\n### 4. Um legado intemporal\n\nFaleceu prematuramente em 1817. O seu nome só foi revelado após a morte, sendo hoje uma das maiores romancistas.",
+    "epic_ar": "### 1. الخيال في الريف\n\nوُلدت جاين أوستن عام 1775 في ستيفنتون. نشأت في منزل محب، وطورت شغفها بالأدب منذ سن مبكرة.\n\n### 2. مراقبة ثاقبة\n\nفي العشرينات من عمرها، بدأت بكتابة مسودات رواياتها الشهيرة. صورت المجتمع والزواج بذكاء وسخرية لاذعة.\n\n### 3. نشر بأسماء مستعارة\n\nبصفتها امرأة، اضطرت لنشر أعمالها دون ذكر اسمها. ورغم الصعوبات المالية، استمرت في الكتابة.\n\n### 4. إرث خالد\n\nتوفيت عام 1817 في سن مبكرة. لم يُعرف اسمها الحقيقي إلا بعد وفاتها، وهي اليوم من أعظم الروائيين.",
+    "epic_hi": "### 1. ग्रामीण परिवेश में कल्पना\n\nजेन ऑस्टेन का जन्म 1775 में स्टीवंटन में हुआ था। एक प्यार भरे घर में पली-बढ़ी, उन्होंने साहित्य के प्रति प्रेम विकसित किया।\n\n### 2. एक सूक्ष्म पर्यवेक्षक\n\nअपने बिसवां दशा में, उन्होंने उपन्यास लिखना शुरू किया। उन्होंने समाज और विवाह का बड़ी चतुराई से चित्रण किया।\n\n### 3. गुमनाम प्रकाशन\n\nएक महिला के रूप में, उन्हें गुमनाम रूप से काम प्रकाशित करना पड़ा। कठिनाइयों के बावजूद, उन्होंने कभी लिखना नहीं छोड़ा।\n\n### 4. एक शाश्वत विरासत\n\n1817 में उनका कम उम्र में निधन हो गया। उनका नाम मृत्यु के बाद ही पता चला, और आज वे महानतम लेखिकाओं में से एक हैं।",
+    "epic_ru": "### 1. Воображение в деревне\n\nДжейн Остин родилась в 1775 году в Стивентоне. Выросшая в любящей семье священника, она рано полюбила литературу.\n\n### 2. Проницательный наблюдатель\n\nВ свои двадцать она начала писать романы. Она изобразила общество и браки с острым умом и иронией.\n\n### 3. Анонимная публикация\n\nКак женщина, она была вынуждена публиковаться анонимно. Несмотря на финансовые трудности, она не бросила писать.\n\n### 4. Бессмертное наследие\n\nОна умерла в 1817 году. Ее настоящее имя стало известно лишь после смерти, и сегодня она — великая писательница.",
+    "epic_zh": "### 1. 乡村里孕育的想象力\n\n简·奥斯汀1775年出生于斯蒂文顿。在一个充满爱的牧师家庭长大，她很早就展现出对文学的热爱。\n\n### 2. 敏锐的观察者\n\n二十多岁时，她开始写小说。她以机智和讽刺的手法描绘了当时的社会、婚姻和阶级状况。\n\n### 3. 匿名出版\n\n作为一名女性，她不得不匿名出版作品。尽管面临经济困难，她从未放弃写作。\n\n### 4. 不朽的遗产\n\n她于1817年早逝。她的真名直到死后才被公开，如今她是世界文学史上最伟大的小说家之一。",
+    "trials_ko": "여성 작가에 대한 사회적 제약과 편견, 아버지를 여읜 후 겪은 잦은 이사와 경제적 어려움",
+    "trials_en": "Prejudice against female authors, financial struggles after her father's death, and the challenge of anonymous publication",
+    "overcoming_ko": "가족들의 전폭적인 지지와 글쓰기에 대한 지치지 않는 열정으로 문학적 성취를 이룸",
+    "overcoming_en": "Overcame these challenges through her family's steadfast support and her unyielding passion for writing",
+    "wisdom": [
+      {
+        "quote_ko": "우리를 정의하는 것은 우리가 하는 말이나 생각이 아니라, 바로 우리가 하는 행동이다.",
+        "quote_en": "It isn't what we say or think that defines us, but what we do.",
+        "meaning_ko": "말보다 행동이 개인의 진짜 모습을 보여준다는 깨달음을 줍니다.",
+        "meaning_en": "Reminds us that our true character is revealed by our actions, not just our words or thoughts."
+      },
+      {
+        "quote_ko": "나는 언제나 최고의 대우를 받을 자격이 있다. 왜냐하면 다른 어떤 대우도 참지 않기 때문이다.",
+        "quote_en": "I always deserve the best treatment because I never put up with any other.",
+        "meaning_ko": "스스로에 대한 존중과 가치를 알고, 타인에게 휘둘리지 않는 자존감의 중요성을 말합니다.",
+        "meaning_en": "Emphasizes the importance of high self-esteem and demanding respect from others."
+      },
+      {
+        "quote_ko": "수월하게 긴 편지를 쓸 수 있는 사람치고 글을 못 쓰는 사람은 없다.",
+        "quote_en": "A person who can write a long letter with ease, cannot write ill.",
+        "meaning_ko": "자연스러운 자기표현과 솔직함이 좋은 글쓰기의 본질임을 말해줍니다.",
+        "meaning_en": "Suggests that the ability to express oneself naturally and openly is the mark of a true writer."
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "마이클 패러데이",
+      "title": "전자기학의 아버지",
+      "headline": "실험으로 세상을 밝히다",
+      "shortDescription": "전자기 유도 현상을 발견하여 현대 전기 문명의 기초를 다진 영국의 물리학자이자 화학자입니다. 정규 교육을 거의 받지 못했으나 끝없는 실험과 호기심으로 위대한 업적을 남겼습니다.",
+      "quote": "자연의 법칙과 일치한다면, 사실이 되기에 너무 놀라운 것은 없다.",
+      "chatGreeting": "반갑습니다, 탐구자여. 저는 마이클 패러데이입니다. 보이지 않는 자기장과 전기의 경이로운 세계에 대해 함께 이야기해볼까요?",
+      "suggestedQuestions": [
+        "전자기 유도는 어떻게 발견하셨나요?",
+        "정규 교육 없이 어떻게 대과학자가 될 수 있었나요?",
+        "크리스마스 강연은 왜 시작하셨나요?"
+      ],
+      "era": "19세기",
+      "pain": "가난한 대장장이의 아들로 태어나 초등학교 수준의 교육밖에 받지 못했고, 신분 제약으로 인해 학계의 주류로부터 종종 무시당했습니다.",
+      "recovery": "제본소 견습생 시절 수많은 책을 읽으며 스스로 공부했고, 험프리 데이비의 강연 노트를 제본해 바치며 조수로 발탁되어 실험실에서 자신만의 길을 개척했습니다."
+    },
+    "en": {
+      "name": "Michael Faraday",
+      "title": "Father of Electromagnetism",
+      "headline": "Lighting the world via science",
+      "shortDescription": "An English physicist and chemist who discovered electromagnetic induction, laying the foundation for modern electrical civilization. Despite little formal education, his relentless experimentation left an extraordinary legacy.",
+      "quote": "Nothing is too wonderful to be true, if it be consistent with the laws of nature.",
+      "chatGreeting": "Greetings, seeker of knowledge. I am Michael Faraday. Shall we explore the wondrous, unseen forces of electricity and magnetism together?",
+      "suggestedQuestions": [
+        "How did you discover electromagnetic induction?",
+        "How did you succeed without formal education?",
+        "Why did you start the Royal Institution Christmas Lectures?"
+      ],
+      "era": "19th Century",
+      "pain": "Born to a poor blacksmith, he received minimal education and faced class prejudice from the elite scientific establishment.",
+      "recovery": "He educated himself by reading books while working as an apprentice bookbinder, and earned a position as Humphry Davy's assistant by presenting him with bound lecture notes, paving his own path in the laboratory."
+    },
+    "ja": {
+      "name": "マイケル・ファラデー",
+      "title": "電磁気学の父",
+      "headline": "実験で世界を照らす",
+      "shortDescription": "電磁誘導を発見し、現代の電気文明の基礎を築いたイギリスの物理学者・化学者。正規の教育はほとんど受けませんでしたが、絶え間ない実験で偉大な業績を残しました。",
+      "quote": "自然の法則と一致しているなら、真実となるにはあまりにも素晴らしすぎるということはない。",
+      "chatGreeting": "ようこそ、探求者よ。私はマイケル・ファラデーです。目に見えない磁場と電気の驚異的な世界について一緒に語り合いましょう。",
+      "suggestedQuestions": [
+        "電磁誘導はどのように発見したのですか？",
+        "正規の教育なしでどうやって大科学者になれたのですか？",
+        "なぜクリスマス・レクチャーを始めたのですか？"
+      ],
+      "era": "19世紀",
+      "pain": "貧しい鍛冶屋の息子として生まれ、基礎教育しか受けられず、身分の違いから学会の主流からしばしば軽視されました。",
+      "recovery": "製本所の見習い時代に多くの本を読んで独学し、ハンフリー・デービーの講演ノートを製本して贈ることで助手として採用され、実験室で自らの道を切り開きました。"
+    },
+    "de": {
+      "name": "Michael Faraday",
+      "title": "Vater des Elektromagnetismus",
+      "headline": "Erleuchtete die Welt durch Experimente",
+      "shortDescription": "Ein englischer Physiker und Chemiker, der die elektromagnetische Induktion entdeckte und den Grundstein für die moderne elektrische Zivilisation legte.",
+      "quote": "Nichts ist zu wunderbar, um wahr zu sein, wenn es mit den Gesetzen der Natur übereinstimmt.",
+      "chatGreeting": "Seien Sie gegrüßt, Suchender nach Wissen. Ich bin Michael Faraday. Wollen wir gemeinsam die wunderbaren, unsichtbaren Kräfte von Elektrizität und Magnetismus erforschen?",
+      "suggestedQuestions": [
+        "Wie haben Sie die elektromagnetische Induktion entdeckt?",
+        "Wie waren Sie ohne formale Bildung so erfolgreich?",
+        "Warum haben Sie die Weihnachtsvorlesungen ins Leben gerufen?"
+      ],
+      "era": "19. Jahrhundert",
+      "pain": "Als Sohn eines armen Schmieds geboren, erhielt er nur wenig Schulbildung und sah sich den Klassenvorurteilen der elitären wissenschaftlichen Einrichtung ausgesetzt.",
+      "recovery": "Er bildete sich selbst weiter, indem er während seiner Lehre als Buchbinder Bücher las, und erhielt eine Stelle als Assistent von Humphry Davy, indem er ihm gebundene Vorlesungsnotizen überreichte."
+    },
+    "es": {
+      "name": "Michael Faraday",
+      "title": "Padre del Electromagnetismo",
+      "headline": "Iluminando el mundo con ciencia",
+      "shortDescription": "Físico y químico inglés que descubrió la inducción electromagnética, sentando las bases de la civilización eléctrica moderna.",
+      "quote": "Nada es demasiado maravilloso para ser cierto, si es coherente con las leyes de la naturaleza.",
+      "chatGreeting": "Saludos, buscador de conocimiento. Soy Michael Faraday. ¿Exploramos juntos las asombrosas e invisibles fuerzas de la electricidad y el magnetismo?",
+      "suggestedQuestions": [
+        "¿Cómo descubrió la inducción electromagnética?",
+        "¿Cómo tuvo éxito sin una educación formal?",
+        "¿Por qué comenzó las Conferencias de Navidad?"
+      ],
+      "era": "Siglo XIX",
+      "pain": "Nacido de un herrero pobre, recibió una educación mínima y se enfrentó a los prejuicios de clase de la élite científica.",
+      "recovery": "Se educó a sí mismo leyendo libros mientras trabajaba como aprendiz de encuadernador, y consiguió un puesto como asistente de Humphry Davy presentándole notas de conferencias encuadernadas."
+    },
+    "fr": {
+      "name": "Michael Faraday",
+      "title": "Père de l'électromagnétisme",
+      "headline": "Éclairer le monde par l'expérience",
+      "shortDescription": "Un physicien et chimiste anglais qui a découvert l'induction électromagnétique, jetant les bases de la civilisation électrique moderne.",
+      "quote": "Rien n'est trop beau pour être vrai, si cela est en accord avec les lois de la nature.",
+      "chatGreeting": "Salutations, chercheur de connaissances. Je suis Michael Faraday. Souhaitez-vous explorer avec moi les forces merveilleuses et invisibles de l'électricité et du magnétisme ?",
+      "suggestedQuestions": [
+        "Comment avez-vous découvert l'induction électromagnétique ?",
+        "Comment avez-vous réussi sans éducation formelle ?",
+        "Pourquoi avez-vous commencé les Conférences de Noël ?"
+      ],
+      "era": "19e siècle",
+      "pain": "Fils d'un pauvre forgeron, il n'a reçu qu'une éducation minimale et a dû faire face aux préjugés de classe de l'élite scientifique.",
+      "recovery": "Il s'est instruit lui-même en lisant des livres alors qu'il travaillait comme apprenti relieur, et a obtenu un poste d'assistant auprès de Humphry Davy en lui présentant des notes de cours reliées."
+    },
+    "it": {
+      "name": "Michael Faraday",
+      "title": "Padre dell'Elettromagnetismo",
+      "headline": "Illuminare il mondo con la scienza",
+      "shortDescription": "Fisico e chimico inglese che scoprì l'induzione elettromagnetica, ponendo le basi della moderna civiltà elettrica.",
+      "quote": "Nulla è troppo meraviglioso per essere vero, se è coerente con le leggi della natura.",
+      "chatGreeting": "Saluti, cercatore di conoscenza. Sono Michael Faraday. Vogliamo esplorare insieme le meravigliose e invisibili forze dell'elettricità e del magnetismo?",
+      "suggestedQuestions": [
+        "Come ha scoperto l'induzione elettromagnetica?",
+        "Come ha avuto successo senza un'istruzione formale?",
+        "Perché ha iniziato le Conferenze di Natale?"
+      ],
+      "era": "XIX Secolo",
+      "pain": "Figlio di un povero fabbro, ricevette un'istruzione minima e affrontò i pregiudizi di classe dell'élite scientifica.",
+      "recovery": "Si istruì da solo leggendo libri mentre lavorava come apprendista rilegatore e ottenne un posto come assistente di Humphry Davy presentandogli appunti delle lezioni rilegati."
+    },
+    "pt": {
+      "name": "Michael Faraday",
+      "title": "Pai do Eletromagnetismo",
+      "headline": "Iluminando o mundo com ciência",
+      "shortDescription": "Um físico e químico inglês que descobriu a indução eletromagnética, lançando as bases para a moderna civilização elétrica.",
+      "quote": "Nada é maravilhoso demais para ser verdade, se for consistente com as leis da natureza.",
+      "chatGreeting": "Saudações, buscador de conhecimento. Eu sou Michael Faraday. Vamos explorar juntos as maravilhosas forças invisíveis da eletricidade e do magnetismo?",
+      "suggestedQuestions": [
+        "Como você descobriu a indução eletromagnética?",
+        "Como você teve sucesso sem educação formal?",
+        "Por que você começou as Palestras de Natal?"
+      ],
+      "era": "Século XIX",
+      "pain": "Nascido de um ferreiro pobre, ele recebeu educação mínima e enfrentou o preconceito de classe da elite científica.",
+      "recovery": "Ele se educou lendo livros enquanto trabalhava como aprendiz de encadernador, e conseguiu uma posição como assistente de Humphry Davy apresentando-lhe notas de palestras encadernadas."
+    },
+    "ar": {
+      "name": "مايكل فاراداي",
+      "title": "أبو الكهرومغناطيسية",
+      "headline": "إضاءة العالم بالتجارب",
+      "shortDescription": "فيزيائي وكيميائي إنجليزي اكتشف الحث الكهرومغناطيسي، مما وضع الأساس للحضارة الكهربائية الحديثة. على الرغم من قلة تعليمه الرسمي، ترك تجريبه المستمر إرثًا استثنائيًا.",
+      "quote": "لا شيء رائع لدرجة تمنعه من أن يكون حقيقة، إذا كان يتفق مع قوانين الطبيعة.",
+      "chatGreeting": "تحياتي يا طالب المعرفة. أنا مايكل فاراداي. هل نستكشف معًا القوى العجيبة وغير المرئية للكهرباء والمغناطيسية؟",
+      "suggestedQuestions": [
+        "كيف اكتشفت الحث الكهرومغناطيسي؟",
+        "كيف نجحت بدون تعليم رسمي؟",
+        "لماذا بدأت محاضرات عيد الميلاد؟"
+      ],
+      "era": "القرن التاسع عشر",
+      "pain": "وُلد لأسرة فقيرة، وتلقى حدًا أدنى من التعليم، وواجه تحيزات طبقية من النخبة العلمية.",
+      "recovery": "ثقّف نفسه بقراءة الكتب أثناء عمله كمتدرب في تجليد الكتب، وحصل على وظيفة كمساعد لهمفري ديفي من خلال تقديم ملاحظات محاضرات مجلدة له."
+    },
+    "hi": {
+      "name": "माइकल फैराडे",
+      "title": "विद्युत चुंबकत्व के पिता",
+      "headline": "प्रयोगों से दुनिया को रोशन करना",
+      "shortDescription": "एक अंग्रेजी भौतिक विज्ञानी और रसायनज्ञ जिन्होंने विद्युत चुम्बकीय प्रेरण की खोज की, जिससे आधुनिक विद्युत सभ्यता की नींव पड़ी। कम औपचारिक शिक्षा के बावजूद, उनके निरंतर प्रयोगों ने एक असाधारण विरासत छोड़ी।",
+      "quote": "प्रकृति के नियमों के अनुरूप होने पर कोई भी चीज़ सच होने के लिए बहुत अद्भुत नहीं है।",
+      "chatGreeting": "नमस्कार, ज्ञान के साधक। मैं माइकल फैराडे हूँ। क्या हम एक साथ बिजली और चुंबकत्व की अद्भुत, अनदेखी ताकतों का पता लगाएं?",
+      "suggestedQuestions": [
+        "आपने विद्युत चुम्बकीय प्रेरण की खोज कैसे की?",
+        "औपचारिक शिक्षा के बिना आप कैसे सफल हुए?",
+        "आपने क्रिसमस व्याख्यान क्यों शुरू किए?"
+      ],
+      "era": "१९वीं शताब्दी",
+      "pain": "एक गरीब लोहार के यहाँ जन्मे, उन्होंने कम शिक्षा प्राप्त की और अभिजात वैज्ञानिक प्रतिष्ठान से वर्ग पूर्वाग्रह का सामना किया।",
+      "recovery": "उन्होंने एक अपरेंटिस बुकबाइंडर के रूप में काम करते हुए किताबें पढ़कर खुद को शिक्षित किया, और हम्फ्री डेवी को बाध्य व्याख्यान नोट्स प्रस्तुत करके उनके सहायक के रूप में एक पद अर्जित किया।"
+    },
+    "ru": {
+      "name": "Майкл Фарадей",
+      "title": "Отец электромагнетизма",
+      "headline": "Освещая мир экспериментами",
+      "shortDescription": "Английский физик и химик, открывший электромагнитную индукцию, заложив основы современной электрической цивилизации. Несмотря на отсутствие формального образования, его неустанные эксперименты оставили выдающееся наследие.",
+      "quote": "Ничто не является слишком чудесным, чтобы быть правдой, если оно согласуется с законами природы.",
+      "chatGreeting": "Приветствую, искатель знаний. Я Майкл Фарадей. Не желаете ли вместе исследовать удивительные, невидимые силы электричества и магнетизма?",
+      "suggestedQuestions": [
+        "Как вы открыли электромагнитную индукцию?",
+        "Как вы добились успеха без формального образования?",
+        "Почему вы начали Рождественские лекции?"
+      ],
+      "era": "XIX век",
+      "pain": "Родившись в семье бедного кузнеца, он получил минимальное образование и столкнулся с классовыми предрассудками элитного научного истеблишмента.",
+      "recovery": "Он занимался самообразованием, читая книги во время работы учеником переплетчика, и получил должность ассистента Гемфри Дэви, подарив ему переплетенные записи лекций."
+    },
+    "zh": {
+      "name": "迈克尔·法拉第",
+      "title": "电磁学之父",
+      "headline": "用实验照亮世界",
+      "shortDescription": "英国物理学家和化学家，发现了电磁感应，为现代电气文明奠定了基础。尽管几乎没有接受过正规教育，但他坚持不懈的实验留下了非凡的遗产。",
+      "quote": "只要符合自然规律，再奇妙的事情也可能是真的。",
+      "chatGreeting": "你好，求知者。我是迈克尔·法拉第。我们一起探索电和磁那奇妙而看不见的力量好吗？",
+      "suggestedQuestions": [
+        "你是如何发现电磁感应的？",
+        "在没有正规教育的情况下你是如何取得成功的？",
+        "你为什么开始举办圣诞讲座？"
+      ],
+      "era": "19世纪",
+      "pain": "他出生在一个贫穷的铁匠家庭，只接受过最低限度的教育，并面临着精英科学界的阶级偏见。",
+      "recovery": "他在做装订学徒期间通过阅读书籍自学，并通过向汉弗里·戴维展示装订好的讲座笔记而赢得了戴维助手的职位，在实验室中开辟了自己的道路。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 빈민가에서 피어난 호기심\n\n마이클 패러데이는 1791년 런던 외곽의 가난한 대장장이 가문에서 태어났습니다. 그의 정규 교육은 읽고 쓰는 법, 그리고 약간의 기초 산수를 배운 초등학교 과정이 전부였습니다. 14세가 되던 해, 그는 생계를 위해 런던의 서점과 제본소에서 견습생으로 일하기 시작했습니다. 하지만 이 비천한 직업은 그에게 엄청난 축복이 되었습니다. 매일 수많은 책을 묶고 제본하면서, 그는 책 속에 담긴 지식들을 스펀지처럼 흡수하기 시작했습니다.\n\n특히 제인 마르세의 '화학에 관한 대화'와 브리태니커 백과사전의 '전기' 항목은 어린 패러데이의 마음에 불을 지폈습니다. 그는 퇴근 후 버려진 병이나 낡은 재료들을 모아 책에서 본 실험들을 직접 따라 해보며 과학의 경이로움에 눈을 떴습니다. 누구도 가르쳐주지 않았지만, 그의 호기심은 가난이라는 한계를 넘어 끝없이 확장되고 있었습니다.\n\n### 2. 운명을 바꾼 노트 한 권\n\n1812년, 패러데이의 열정을 눈여겨본 한 고객이 당대 최고의 과학자였던 험프리 데이비 경의 왕립연구소 강연 티켓을 건넸습니다. 강연에 푹 빠진 패러데이는 데이비의 강연 내용을 꼼꼼히 기록하고, 자신이 제본 기술을 발휘해 300페이지가 넘는 아름다운 책으로 엮었습니다. 그리고 용기를 내어 그 책을 데이비 경에게 보냈습니다.\n\n데이비는 이 젊은 제본공의 열정과 꼼꼼함에 깊은 감명을 받았습니다. 얼마 후 왕립연구소의 실험실 조수가 해고되는 사건이 발생하자, 데이비는 패러데이를 자신의 조수로 발탁했습니다. 드디어 꿈에 그리던 과학 실험실에 입성하게 된 것입니다. 비록 초기에는 시약병을 닦고 실험 기구를 정리하는 허드렛일이 주어졌지만, 그는 불평 없이 모든 실험을 곁에서 지켜보며 데이비의 가장 뛰어난 제자로 성장해 나갔습니다.\n\n### 3. 보이지 않는 힘, 전자기 유도의 발견\n\n1820년 한스 크리스티안 외르스테드가 전기가 자기장을 만든다는 사실을 발견한 후, 패러데이는 '그렇다면 반대로 자기장도 전기를 만들 수 있지 않을까?'라는 위대한 질문을 던졌습니다. 그는 수많은 실패에도 굴하지 않고 10년이 넘는 세월 동안 실험에 매달렸습니다.\n\n마침내 1831년, 그는 자석을 코일 주위로 움직이면 전류가 흐른다는 '전자기 유도 현상'을 발견해냅니다. 이 역사적인 순간은 인류가 전기를 마음대로 만들어내고 사용할 수 있는 길을 열어주었습니다. 발전기와 전동기의 기본 원리가 탄생한 것입니다. 한 정치인이 이 발견이 무슨 쓸모가 있느냐고 묻자, 패러데이는 \"언젠가 당신은 이 힘에 세금을 매기게 될 것입니다.\"라고 대답했다는 일화는 그의 선구적인 통찰력을 보여줍니다.\n\n### 4. 세상을 비추는 겸손한 거인\n\n위대한 업적을 이루었음에도 불구하고, 패러데이는 평생 겸손하고 소박한 삶을 살았습니다. 영국의 빅토리아 여왕이 기사 작위를 수여하려 했을 때도, 왕립학회 회장직을 제안받았을 때도 그는 단호히 거절했습니다. 그는 끝까지 '평민 마이클 패러데이'로 남기를 원했습니다.\n\n대신 그는 대중과 어린이들을 위해 과학을 나누는 데 헌신했습니다. 그가 1825년에 시작한 '왕립연구소 크리스마스 강연'은 오늘날까지도 이어지며 수많은 어린이들에게 과학의 꿈을 심어주고 있습니다. 정규 교육을 받지 못한 가난한 소년이 인류 역사상 가장 위대한 실험 물리학자가 되어 세상을 밝힌 이야기, 그것은 마이클 패러데이 자신의 삶이 증명한 가장 아름다운 과학이었습니다.",
+    "epic_en": "### 1. Curiosity Ignited in a Bookbindery\n\nMichael Faraday was born in 1791 to a poor blacksmith family on the outskirts of London. His formal education consisted only of basic reading, writing, and arithmetic. At the age of 14, he began working as an apprentice in a London bookshop and bindery to make ends meet. However, this seemingly menial job turned out to be a tremendous blessing. As he bound countless books every day, he began to absorb the knowledge contained within them like a sponge.\n\nIn particular, Jane Marcet's \"Conversations on Chemistry\" and the \"Electricity\" entry in the Encyclopedia Britannica ignited a fire in young Faraday's heart. After work, he gathered discarded bottles and old materials to replicate the experiments he read about, awakening to the wonders of science. Although no one taught him, his curiosity expanded endlessly, transcending the limitations of poverty.\n\n### 2. A Notebook that Changed Destiny\n\nIn 1812, a customer who noticed Faraday's passion handed him tickets to the Royal Institution lectures of Sir Humphry Davy, the preeminent scientist of the time. Captivated by the lectures, Faraday meticulously recorded Davy's words and used his bookbinding skills to craft a beautiful volume of over 300 pages. He then gathered his courage and sent the book to Sir Davy.\n\nDavy was deeply impressed by the young bookbinder's passion and meticulousness. Shortly after, when an assistant at the Royal Institution's laboratory was fired, Davy appointed Faraday as his assistant. Faraday finally entered the scientific laboratory of his dreams. Although his initial duties involved menial tasks like washing reagent bottles and organizing equipment, he observed every experiment closely without complaint, eventually growing into Davy's most brilliant protégé.\n\n### 3. The Invisible Force: Discovering Electromagnetic Induction\n\nAfter Hans Christian Ørsted discovered in 1820 that electricity creates a magnetic field, Faraday posed a profound question: \"If electricity can create magnetism, couldn't magnetism also create electricity?\" Undeterred by numerous failures, he devoted himself to experiments for over a decade.\n\nFinally, in 1831, he discovered \"electromagnetic induction\"—the phenomenon where moving a magnet near a coil of wire induces an electric current. This historic moment paved the way for humanity to generate and harness electricity at will, giving birth to the fundamental principles of the electrical generator and the electric motor. When a politician supposedly asked about the practical value of this discovery, Faraday famously replied, \"Why, sir, there is every probability that you will soon be able to tax it!\" This anecdote perfectly demonstrates his visionary insight.\n\n### 4. The Humble Giant Who Lit the World\n\nDespite his monumental achievements, Faraday lived a humble and simple life. When Queen Victoria offered him a knighthood, and when he was offered the presidency of the Royal Society, he firmly declined both. He wished to remain \"plain Mr. Faraday\" to the end of his days.\n\nInstead, he dedicated himself to sharing science with the public and children. The \"Royal Institution Christmas Lectures,\" which he initiated in 1825, continue to this day, instilling the dream of science in countless children. The story of a poor boy with no formal education who became the greatest experimental physicist in human history and lit up the world—that is the most beautiful science proven by the life of Michael Faraday himself.",
+    "epic_de": "Michael Faraday wurde in bescheidenen Verhältnissen geboren und erhielt kaum Schulbildung. Als Buchbinderlehrling brachte er sich die Wissenschaft selbst bei, indem er die von ihm gebundenen Bücher las. Seine Aufzeichnungen von Humphry Davys Vorlesungen brachten ihm eine Stelle als dessen Assistent ein. Faradays unermüdlicher Forscherdrang führte zur Entdeckung der elektromagnetischen Induktion, die den Grundstein für die moderne Nutzung der Elektrizität legte. Trotz seines weltweiten Ruhms blieb er stets bescheiden, lehnte einen Adelstitel ab und widmete sich mit seinen berühmten Weihnachtsvorlesungen der wissenschaftlichen Aufklärung der Jugend.",
+    "epic_ja": "マイケル・ファラデーは貧しい鍛冶屋の息子として生まれ、十分な教育を受けられませんでした。製本職人の見習いとして働きながら本を読み漁り、科学への情熱を燃やしました。ハンフリー・デービーの講演録を製本して送ったことがきっかけで、彼の助手として科学の道に入ります。数々の実験の末、ついに電磁誘導の法則を発見し、現代の電気文明の扉を開きました。世界的な名声を得た後も、彼は決して奢ることなく、子供たちに科学の楽しさを伝えるクリスマス・レクチャーを始めるなど、生涯を通じて謙虚な探求者であり続けました。",
+    "epic_es": "Nacido en la pobreza, Michael Faraday apenas recibió educación formal. Como aprendiz de encuadernador, se educó a sí mismo leyendo los libros que pasaban por sus manos. Sus notas detalladas de las conferencias de Humphry Davy le valieron un puesto como su asistente. El trabajo incansable de Faraday en el laboratorio lo llevó a descubrir la inducción electromagnética, revolucionando el uso de la electricidad y sentando las bases de los motores y generadores modernos. A pesar de su inmenso éxito, se mantuvo profundamente humilde, rechazando honores como el título de caballero y dedicando su vida a la ciencia y la educación.",
+    "epic_fr": "Né dans une famille pauvre, Michael Faraday n'a reçu qu'une éducation primaire sommaire. Travaillant comme apprenti relieur, il s'est instruit en lisant les ouvrages scientifiques qu'il reliait. Sa passion l'a conduit à offrir ses notes de cours à Humphry Davy, qui l'a engagé comme assistant. L'esprit d'expérimentation de Faraday lui a permis de découvrir l'induction électromagnétique, ouvrant la voie à la civilisation électrique. Malgré ses immenses contributions, il est resté un homme d'une grande humilité, refusant l'anoblissement et créant les célèbres Conférences de Noël pour rendre la science accessible à tous.",
+    "epic_it": "Michael Faraday, nato in una famiglia umile, non ebbe accesso a un'istruzione formale avanzata. Lavorando come garzone di legatoria, iniziò a studiare da autodidatta i testi scientifici. La sua dedizione lo portò a rilegare gli appunti delle lezioni di Humphry Davy, che, impressionato, lo assunse come assistente. L'intuito sperimentale di Faraday lo portò alla scoperta dell'induzione elettromagnetica, principio base dei moderni generatori elettrici. Uomo di profonda umiltà, rifiutò titoli nobiliari e cariche di prestigio, preferendo dedicare la sua vita alla ricerca e all'insegnamento ai giovani tramite le sue lezioni natalizie.",
+    "epic_pt": "Nascido em uma família humilde, Michael Faraday teve pouca educação formal. Como aprendiz de encadernador, educou-se lendo os livros que encadernava. Suas anotações meticulosas das palestras de Humphry Davy lhe garantiram um cargo como seu assistente. O gênio experimental de Faraday o levou à descoberta da indução eletromagnética, estabelecendo as bases para a geração moderna de energia elétrica. Apesar de seu imenso sucesso e fama, ele permaneceu incrivelmente humilde, recusando honrarias de estado e dedicando seus últimos anos a ensinar ciência ao público através das Palestras de Natal.",
+    "epic_ar": "وُلد مايكل فاراداي في عائلة فقيرة ولم يتلقَ سوى تعليم رسمي محدود. عمل كصبي لتجليد الكتب، حيث علم نفسه من خلال قراءة الكتب العلمية التي كان يجلدها. قادته ملاحظاته الدقيقة لمحاضرات همفري ديفي ليصبح مساعده في المختبر. أدت تجاربه المتواصلة إلى اكتشاف الحث الكهرومغناطيسي، وهو المبدأ الذي قامت عليه الحضارة الكهربائية الحديثة. وعلى الرغم من إنجازاته العظيمة، ظل فاراداي متواضعًا للغاية، رافضًا الألقاب النبيلة ومكرسًا نفسه لنشر العلم للعامة والأطفال من خلال محاضرات عيد الميلاد الشهيرة.",
+    "epic_hi": "माइकल फैराडे का जन्म एक गरीब लोहार के परिवार में हुआ था और उन्हें बहुत कम औपचारिक शिक्षा मिली थी। एक अपरेंटिस बुकबाइंडर के रूप में काम करते हुए, उन्होंने अपने पास आने वाली विज्ञान की किताबों को पढ़कर खुद को शिक्षित किया। हम्फ्री डेवी के व्याख्यानों के उनके विस्तृत नोट्स ने उन्हें उनके सहायक के रूप में काम दिलाया। फैराडे के अथक प्रयोगों ने विद्युत चुम्बकीय प्रेरण की खोज की, जिसने आधुनिक विद्युत सभ्यता की नींव रखी। अपनी महान सफलता के बावजूद, वे अविश्वसनीय रूप से विनम्र रहे, उन्होंने नाइटहुड जैसे सम्मानों को अस्वीकार कर दिया और अपना जीवन विज्ञान और शिक्षा को समर्पित कर दिया।",
+    "epic_ru": "Майкл Фарадей родился в бедной семье и почти не получил формального образования. Работая подмастерьем переплетчика, он занимался самообразованием, читая книги, с которыми работал. Его конспекты лекций Гемфри Дэви позволили ему стать ассистентом великого химика. Экспериментаторский гений Фарадея привел к открытию электромагнитной индукции, заложившей основы всей современной электротехники. Несмотря на мировое признание, он оставался удивительно скромным человеком, отказывался от дворянского титула и посвятил много времени популяризации науки, основав знаменитые Рождественские лекции для детей.",
+    "epic_zh": "迈克尔·法拉第出生于一个贫困的铁匠家庭，几乎没有受过正规教育。在做装订学徒期间，他通过阅读接触到的书籍自学成才。他将汉弗里·戴维的讲座记录下来并装订成册送给戴维，从而获得了戴维助手的职位。法拉第坚持不懈的实验最终导致了电磁感应的发现，为现代电气时代奠定了基础。尽管取得了举世瞩目的成就，他依然保持着令人敬佩的谦逊，拒绝了爵位等世俗荣誉，并将毕生精力投入到科学研究和科普教育（特别是著名的圣诞讲座）中。",
+    "trials_ko": "가난한 집안에서 태어나 제대로 된 교육을 받지 못했고, 학계의 주류였던 엘리트 계층으로부터 무시당하거나 자신의 성과를 의심받는 어려움을 겪었습니다.",
+    "trials_en": "Born into poverty without formal education, he faced severe class prejudice and skepticism from the elite scientific establishment.",
+    "overcoming_ko": "제본소에서 수많은 책을 읽으며 스스로 지식을 쌓았고, 끝없는 인내와 반복적인 실험을 통해 부정할 수 없는 위대한 과학적 발견들을 증명해냈습니다.",
+    "overcoming_en": "He educated himself by reading extensively while working in a bindery, and proved his scientific genius through endless patience and rigorous, undeniable experimental results.",
+    "wisdom": [
+      {
+        "quote_ko": "자연의 법칙과 일치한다면, 사실이 되기에 너무 놀라운 것은 없다.",
+        "quote_en": "Nothing is too wonderful to be true, if it be consistent with the laws of nature.",
+        "meaning_ko": "자연 현상에 대한 끊임없는 경이로움과 탐구의 중요성을 강조합니다.",
+        "meaning_en": "Emphasizes the importance of constant wonder and exploration of natural phenomena."
+      },
+      {
+        "quote_ko": "사실을 관찰하고, 기록하고, 연역하라.",
+        "quote_en": "Observe, record, deduce.",
+        "meaning_ko": "선입견 없이 철저한 실험과 사실을 바탕으로 결론을 내려야 한다는 과학적 태도를 보여줍니다.",
+        "meaning_en": "Shows the scientific attitude of drawing conclusions based on thorough experiments and facts without prejudice."
+      },
+      {
+        "quote_ko": "성공의 비결은 한 가지 목적을 향해 끊임없이 나아가는 것이다.",
+        "quote_en": "The secret is comprised in three words - Work, finish, publish.",
+        "meaning_ko": "연구에 임하는 끊임없는 노력과 결실을 맺는 것의 중요성을 말합니다.",
+        "meaning_en": "Speaks to the importance of relentless effort in research and bringing it to fruition."
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "해리엇 마티노",
+      "title": "최초의 여성 사회학자",
+      "headline": "사회학과 페미니즘의 선구자",
+      "shortDescription": "해리엇 마티노는 영국의 사회 이론가로, 최초의 여성 사회학자로 불립니다. 오귀스트 콩트의 저서를 번역하여 영어권에 사회학을 소개했으며, 경제, 사회, 여성의 권리에 대해 광범위하게 저술했습니다.",
+      "quote": "읽는 이는 넘쳐나지만, 생각하는 이는 드물다.",
+      "chatGreeting": "환영합니다, 호기심 많은 지성이여. 저는 해리엇 마티노입니다. 우리 함께 사회의 법칙과 인간 본성의 현실을 살펴보시지요. 오늘은 어떤 사회적 관습을 분석해 볼까요?",
+      "suggestedQuestions": [
+        "오귀스트 콩트의 저서를 번역하게 된 계기는 무엇인가요?",
+        "청각 장애가 사회를 관찰하는 데 어떤 영향을 미쳤나요?",
+        "여성의 교육에 대한 당신의 견해는 무엇인가요?"
+      ],
+      "era": "19세기",
+      "pain": "젊은 시절부터 앓은 청각 장애, 여성을 위한 정규 교육의 부재, 그리고 가족의 재정적 파탄.",
+      "recovery": "끊임없이 독학하고, 귀트럼펫을 사용하여 대화하며, 생계를 위해 글쓰기에 전념하여 결국 널리 존경받는 지식인이 되었습니다."
+    },
+    "en": {
+      "name": "Harriet Martineau",
+      "title": "First Female Sociologist",
+      "headline": "Pioneer of sociology",
+      "shortDescription": "Harriet Martineau was a British social theorist and Whig writer, often cited as the first female sociologist. She translated various works of Auguste Comte, introducing sociology to the English-speaking world.",
+      "quote": "Readers are plentiful; thinkers are rare.",
+      "chatGreeting": "Welcome, curious mind. I am Harriet Martineau. Let us examine the laws of society and the realities of human nature together. What social conventions shall we dissect today?",
+      "suggestedQuestions": [
+        "What led you to translate Auguste Comte's work?",
+        "How did your deafness influence your observation of society?",
+        "What is your view on the education of women?"
+      ],
+      "era": "19th Century",
+      "pain": "Deafness since youth, lack of formal education for women, and financial ruin of her family.",
+      "recovery": "Educated herself relentlessly, used an ear trumpet to converse, and turned to writing to support herself."
+    },
+    "ja": {
+      "name": "ハリエット・マーティノー",
+      "title": "最初の女性社会学者",
+      "headline": "社会学とフェミニズムの先駆者",
+      "shortDescription": "ハリエット・マーティノーはイギリスの社会理論家であり、最初の女性社会学者と呼ばれています。オーギュスト・コントの著作を翻訳して英語圏に社会学を紹介しました。",
+      "quote": "読む人は多いが、考える人は稀である。",
+      "chatGreeting": "ようこそ、好奇心旺盛な知性よ。私はハリエット・マーティノーです。共に社会の法則と人間性の現実を調べましょう。",
+      "suggestedQuestions": [
+        "オーギュスト・コントの著作を翻訳したきっかけは何ですか？",
+        "聴覚障害は社会観察にどのような影響を与えましたか？",
+        "女性の教育についてのあなたの見解は何ですか？"
+      ],
+      "era": "19世紀",
+      "pain": "若い頃からの聴覚障害、女性のための正規教育の欠如、そして家族の財政的破綻。",
+      "recovery": "絶え間なく独学し、補聴器を使って会話を交わし、生計を立てるために執筆に専念しました。"
+    },
+    "de": {
+      "name": "Harriet Martineau",
+      "title": "Erste Soziologin",
+      "headline": "Pionierin der Soziologie",
+      "shortDescription": "Harriet Martineau war eine britische Sozialtheoretikerin und wird oft als die erste Soziologin bezeichnet. Sie übersetzte die Werke von Auguste Comte und führte die Soziologie im englischsprachigen Raum ein.",
+      "quote": "Leser gibt es im Überfluss; Denker sind selten.",
+      "chatGreeting": "Willkommen, neugieriger Geist. Ich bin Harriet Martineau. Lassen Sie uns gemeinsam die Gesetze der Gesellschaft und die Realitäten der menschlichen Natur untersuchen.",
+      "suggestedQuestions": [
+        "Was hat Sie dazu bewogen, Auguste Comtes Werk zu übersetzen?",
+        "Wie hat Ihre Taubheit Ihre Beobachtung der Gesellschaft beeinflusst?",
+        "Wie ist Ihre Sicht auf die Bildung von Frauen?"
+      ],
+      "era": "19. Jahrhundert",
+      "pain": "Taubheit seit der Jugend, mangelnde formale Bildung für Frauen und der finanzielle Ruin ihrer Familie.",
+      "recovery": "Bildete sich unermüdlich weiter, benutzte ein Hörrohr zur Konversation und wandte sich dem Schreiben zu, um ihren Lebensunterhalt zu verdienen."
+    },
+    "es": {
+      "name": "Harriet Martineau",
+      "title": "Primera Socióloga",
+      "headline": "Pionera de la sociología",
+      "shortDescription": "Harriet Martineau fue una teórica social británica, a menudo citada como la primera socióloga. Tradujo las obras de Auguste Comte, introduciendo la sociología en el mundo de habla inglesa.",
+      "quote": "Los lectores son abundantes; los pensadores son raros.",
+      "chatGreeting": "Bienvenido, mente curiosa. Soy Harriet Martineau. Examinemos juntos las leyes de la sociedad y las realidades de la naturaleza humana.",
+      "suggestedQuestions": [
+        "¿Qué la llevó a traducir la obra de Auguste Comte?",
+        "¿Cómo influyó su sordera en su observación de la sociedad?",
+        "¿Cuál es su opinión sobre la educación de las mujeres?"
+      ],
+      "era": "Siglo XIX",
+      "pain": "Sordera desde la juventud, falta de educación formal para las mujeres y la ruina financiera de su familia.",
+      "recovery": "Se educó sin descanso, usó una trompetilla para conversar y recurrió a la escritura para mantenerse a sí misma."
+    },
+    "fr": {
+      "name": "Harriet Martineau",
+      "title": "Première femme sociologue",
+      "headline": "Pionnière de la sociologie",
+      "shortDescription": "Harriet Martineau était une théoricienne sociale britannique, souvent citée comme la première femme sociologue. Elle a traduit les œuvres d'Auguste Comte, introduisant la sociologie dans le monde anglophone.",
+      "quote": "Les lecteurs sont nombreux ; les penseurs sont rares.",
+      "chatGreeting": "Bienvenue, esprit curieux. Je suis Harriet Martineau. Examinons ensemble les lois de la société et les réalités de la nature humaine. Quelles conventions sociales allons-nous disséquer aujourd'hui ?",
+      "suggestedQuestions": [
+        "Qu'est-ce qui vous a amenée à traduire l'œuvre d'Auguste Comte ?",
+        "Comment votre surdité a-t-elle influencé votre observation de la société ?",
+        "Quelle est votre opinion sur l'éducation des femmes ?"
+      ],
+      "era": "19ème siècle",
+      "pain": "Surdité depuis la jeunesse, manque d'éducation formelle pour les femmes et ruine financière de sa famille.",
+      "recovery": "S'est instruite sans relâche, a utilisé un cornet acoustique pour converser et s'est tournée vers l'écriture pour subvenir à ses besoins."
+    },
+    "it": {
+      "name": "Harriet Martineau",
+      "title": "Prima sociologa",
+      "headline": "Pioniera della sociologia",
+      "shortDescription": "Harriet Martineau è stata una teorica sociale britannica, spesso citata come la prima sociologa. Tradusse le opere di Auguste Comte, introducendo la sociologia nel mondo anglofono.",
+      "quote": "I lettori sono abbondanti; i pensatori sono rari.",
+      "chatGreeting": "Benvenuta, mente curiosa. Sono Harriet Martineau. Esaminiamo insieme le leggi della società e le realtà della natura umana. Quali convenzioni sociali sezioneremo oggi?",
+      "suggestedQuestions": [
+        "Cosa l'ha spinta a tradurre l'opera di Auguste Comte?",
+        "In che modo la sua sordità ha influenzato la sua osservazione della società?",
+        "Qual è la sua opinione sull'educazione delle donne?"
+      ],
+      "era": "XIX Secolo",
+      "pain": "Sordità fin dalla giovinezza, mancanza di istruzione formale per le donne e la rovina finanziaria della sua famiglia.",
+      "recovery": "Si istruì incessantemente, usò un cornetto acustico per conversare e si dedicò alla scrittura per mantenersi."
+    },
+    "pt": {
+      "name": "Harriet Martineau",
+      "title": "Primeira Socióloga",
+      "headline": "Pioneira da sociologia",
+      "shortDescription": "Harriet Martineau foi uma teórica social britânica, frequentemente citada como a primeira socióloga. Ela traduziu as obras de Auguste Comte, introduzindo a sociologia no mundo de língua inglesa.",
+      "quote": "Os leitores são abundantes; os pensadores são raros.",
+      "chatGreeting": "Bem-vindo, mente curiosa. Sou Harriet Martineau. Vamos examinar juntos as leis da sociedade e as realidades da natureza humana.",
+      "suggestedQuestions": [
+        "O que a levou a traduzir a obra de Auguste Comte?",
+        "Como a sua surdez influenciou a sua observação da sociedade?",
+        "Qual é a sua opinião sobre a educação das mulheres?"
+      ],
+      "era": "Século XIX",
+      "pain": "Surdez desde a juventude, falta de educação formal para as mulheres e a ruína financeira de sua família.",
+      "recovery": "Educou-se incansavelmente, usou uma trombeta auditiva para conversar e voltou-se para a escrita para se sustentar."
+    },
+    "ar": {
+      "name": "هارييت مارتينو",
+      "title": "أول عالمة اجتماع",
+      "headline": "رائدة علم الاجتماع",
+      "shortDescription": "هارييت مارتينو كانت منظرة اجتماعية بريطانية، وغالبًا ما تُعتبر أول عالمة اجتماع. ترجمت أعمال أوغست كونت، وأدخلت علم الاجتماع إلى العالم الناطق بالإنجليزية.",
+      "quote": "القراء كثيرون؛ أما المفكرون فنادرون.",
+      "chatGreeting": "مرحبًا بك أيها العقل الفضولي. أنا هارييت مارتينو. دعنا نفحص معًا قوانين المجتمع وحقائق الطبيعة البشرية. أي الأعراف الاجتماعية سنحللها اليوم؟",
+      "suggestedQuestions": [
+        "ما الذي دفعك لترجمة عمل أوغست كونت؟",
+        "كيف أثر صممك على مراقبتك للمجتمع؟",
+        "ما هو رأيك في تعليم المرأة؟"
+      ],
+      "era": "القرن التاسع عشر",
+      "pain": "الصمم منذ الشباب، نقص التعليم الرسمي للنساء، والخراب المالي لعائلتها.",
+      "recovery": "علمت نفسها بلا هوادة، واستخدمت بوق الأذن للتحدث، ولجأت إلى الكتابة لإعالة نفسها."
+    },
+    "hi": {
+      "name": "हेरिएट मार्टिन्यू",
+      "title": "पहली महिला समाजशास्त्री",
+      "headline": "समाजशास्त्र की अग्रणी",
+      "shortDescription": "हेरिएट मार्टिन्यू एक ब्रिटिश सामाजिक सिद्धांतकार थीं, जिन्हें अक्सर पहली महिला समाजशास्त्री के रूप में उद्धृत किया जाता है। उन्होंने अंग्रेजी बोलने वाली दुनिया में समाजशास्त्र की शुरुआत की।",
+      "quote": "पाठक बहुत हैं; विचारक दुर्लभ हैं।",
+      "chatGreeting": "आपका स्वागत है, जिज्ञासु मन। मैं हेरिएट मार्टिन्यू हूँ। आइए हम मिलकर समाज के नियमों और मानव स्वभाव की वास्तविकताओं की जांच करें। आज हम किस सामाजिक रूढ़ि का विश्लेषण करेंगे?",
+      "suggestedQuestions": [
+        "ऑगस्ट कॉम्टे के काम का अनुवाद करने के लिए आपको किस बात ने प्रेरित किया?",
+        "आपके बहरेपन ने समाज के आपके अवलोकन को कैसे प्रभावित किया?",
+        "महिलाओं की शिक्षा पर आपका क्या विचार है?"
+      ],
+      "era": "१९वीं शताब्दी",
+      "pain": "युवावस्था से बहरापन, महिलाओं के लिए औपचारिक शिक्षा की कमी, और उनके परिवार की वित्तीय बर्बादी।",
+      "recovery": "लगातार खुद को शिक्षित किया, बातचीत करने के लिए एक कान के तुरही का इस्तेमाल किया, और खुद का समर्थन करने के लिए लेखन की ओर रुख किया।"
+    },
+    "ru": {
+      "name": "Гарриет Мартино",
+      "title": "Первая женщина-социолог",
+      "headline": "Пионер социологии",
+      "shortDescription": "Гарриет Мартино была британским социальным теоретиком, ее часто называют первой женщиной-социологом. Она перевела работы Огюста Конта, познакомив англоязычный мир с социологией.",
+      "quote": "Читателей много; мыслителей мало.",
+      "chatGreeting": "Добро пожаловать, любознательный ум. Я Гарриет Мартино. Давайте вместе исследуем законы общества и реалии человеческой природы. Какие социальные условности мы препарируем сегодня?",
+      "suggestedQuestions": [
+        "Что побудило вас перевести работы Огюста Конта?",
+        "Как ваша глухота повлияла на ваше наблюдение за обществом?",
+        "Каково ваше мнение об образовании женщин?"
+      ],
+      "era": "XIX век",
+      "pain": "Глухота с юности, отсутствие формального образования для женщин и финансовый крах ее семьи.",
+      "recovery": "Неустанно занималась самообразованием, использовала слуховую трубку для бесед и обратилась к писательству, чтобы обеспечить себя."
+    },
+    "zh": {
+      "name": "哈丽雅特·马蒂诺",
+      "title": "第一位女社会学家",
+      "headline": "社会学的先驱",
+      "shortDescription": "哈丽雅特·马蒂诺是一位英国社会理论家，通常被称为第一位女社会学家。她翻译了奥古斯特·孔德的著作，将社会学引入英语世界。",
+      "quote": "读者很多；思想家很少。",
+      "chatGreeting": "欢迎，充满好奇心的头脑。我是哈丽雅特·马蒂诺。让我们一起研究社会规律和人性的现实。今天我们要剖析哪些社会习俗？",
+      "suggestedQuestions": [
+        "是什么促使您翻译奥古斯特·孔德的著作？",
+        "您的耳聋如何影响了您对社会的观察？",
+        "您对女性教育的看法是什么？"
+      ],
+      "era": "19世纪",
+      "pain": "自青年时期以来的耳聋，女性缺乏正规教育，以及家庭的经济破产。",
+      "recovery": "坚持不懈地自学，使用助听喇叭进行交谈，并转向写作以维持生计。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 고요한 세계 속에서 피어난 지성\n\n해리엇 마티노는 1802년 영국 노리치의 유니테리언 가정에서 태어났습니다. 어린 시절부터 그녀는 점진적으로 청력을 잃어가며 고요한 세계에 갇혀야 했습니다. 당시 여성에게는 정규 교육의 기회가 제한적이었기 때문에, 그녀는 귀트럼펫에 의지한 채 집에서 독서와 사색을 통해 스스로 학문을 개척해 나갔습니다. 청각 장애는 그녀에게 세상의 피상적인 소음 대신 사람들의 행동과 사회 구조의 이면을 깊이 관찰할 수 있는 예리한 통찰력을 선사했습니다.\n\n### 2. 위기를 기회로: 작가로서의 비상\n\n1820년대 후반, 아버지의 사업 실패로 가족이 재정적 파탄을 맞이하게 되었습니다. 마티노는 좌절하지 않고, 자신의 글쓰기 재능을 활용하여 생계를 유지하기로 결심했습니다. 그녀는 복잡한 정치경제학의 원리를 대중이 쉽게 이해할 수 있도록 소설 형식으로 풀어낸 《정치경제학 예화》를 출간했습니다. 이 책은 엄청난 성공을 거두며 그녀를 단숨에 영국의 주요 지식인 반열에 올려놓았습니다.\n\n### 3. 미국 여행과 사회적 현실의 고발\n\n1834년, 마티노는 2년간 미국을 여행하며 미국의 사회 제도를 면밀히 관찰했습니다. 그녀는 자유와 평등을 표방하는 미국 사회 이면에 존재하는 노예제와 여성의 억압적인 현실을 날카롭게 비판하는 《미국의 사회》를 집필했습니다. 그녀는 단순히 현상을 묘사하는 데 그치지 않고, 사회의 도덕적 원칙과 실제 관행 사이의 모순을 지적하며 노예제 폐지와 여성 권리 신장을 강력히 주장했습니다.\n\n### 4. 사회학의 개척과 영원한 유산\n\n마티노는 오귀스트 콩트의 방대한 저서 《실증철학 강의》를 영어로 번역하고 축약하여 영국 사회에 사회학이라는 새로운 학문을 소개했습니다. 그녀는 콩트의 사상을 명료하게 정리하여 오히려 원본보다 더 널리 읽히게 만들었습니다. 평생을 신체적 한계와 성차별적인 사회 구조와 싸우며 살아온 해리엇 마티노는, 객관적인 관찰과 논리적인 분석을 통해 사회의 진보를 이끌어낸 진정한 선구자로 역사에 남았습니다.",
+    "epic_en": "### 1. An Intellect Blossoming in Silence\n\nBorn in 1802 in Norwich, England, to a Unitarian family, Harriet Martineau faced early adversity when she began losing her hearing. As a young woman, she found herself increasingly isolated in a quiet world. Since formal education for women was heavily restricted at the time, she relied on an ear trumpet and her insatiable appetite for reading to educate herself. Far from being a hindrance, her deafness sharpened her observational skills, allowing her to see past the superficial noise of society and deeply analyze the underlying behaviors and structures of human interaction.\n\n### 2. Turning Crisis into Opportunity: The Rise of a Writer\n\nIn the late 1820s, a severe economic crash ruined her family's manufacturing business, leaving them entirely devoid of financial support. Refusing to succumb to despair, Martineau decided to support herself through her writing—a bold move for a woman in the 19th century. She authored \"Illustrations of Political Economy,\" a groundbreaking series that explained complex economic principles through accessible, engaging fictional stories. The series was an overwhelming success, selling out rapidly and catapulting her to the forefront of British intellectual society.\n\n### 3. The American Journey and the Critique of Reality\n\nIn 1834, Martineau embarked on a two-year journey across the United States to observe its social institutions. She documented her findings in \"Society in America,\" a sharp critique of the glaring contradictions between the nation's stated democratic ideals and its harsh realities. She courageously condemned the institution of slavery and the systemic oppression of women, pointing out the moral hypocrisy of a society that claimed to value freedom and equality. Her work was not just descriptive but profoundly analytical, advocating strongly for abolition and women's rights.\n\n### 4. Pioneering Sociology and an Enduring Legacy\n\nMartineau further cemented her place in history by translating and condensing Auguste Comte's massive \"Cours de Philosophie Positive\" into English. Her translation, \"The Positive Philosophy of Auguste Comte,\" introduced the concept of sociology to the English-speaking world. Her rendition was so clear and well-structured that even Comte himself recommended it over his own original text. Throughout her life, Harriet Martineau battled physical limitations and societal prejudice to become a fiercely independent thinker. She remains an enduring pioneer who used objective observation and logical analysis to drive social progress.",
+    "epic_de": "### 1. Ein Intellekt erblüht in der Stille\n\nGeboren 1802 in Norwich, England, verlor Harriet Martineau früh ihr Gehör. Sie nutzte ein Hörrohr und widmete sich unermüdlich dem Selbststudium.\n\n### 2. Vom Krisenfall zur Bestsellerautorin\n\nAls ihre Familie bankrottging, begann sie zu schreiben. Ihre Werke zur politischen Ökonomie machten sie berühmt.\n\n### 3. Amerika-Reise und Kritik\n\nSie bereiste die USA und kritisierte mutig die Sklaverei und die Unterdrückung der Frauen.\n\n### 4. Wegbereiterin der Soziologie\n\nSie übersetzte Auguste Comte und etablierte die Soziologie im englischsprachigen Raum.",
+    "epic_ja": "### 1. 沈黙の中で開花した知性\n\n1802年にイギリスのノリッジで生まれたハリエット・マーティノーは、若い頃から聴力を失い始めました。彼女は補聴器を使い、独学で知識を深めました。\n\n### 2. 危機を好機へ：作家としての飛躍\n\n家族が破産した後、彼女は執筆によって生計を立てることを決意しました。政治経済学に関する彼女の著作は大成功を収めました。\n\n### 3. アメリカの旅と社会の批判\n\n彼女はアメリカを旅し、奴隷制と女性の抑圧を鋭く批判しました。\n\n### 4. 社会学の開拓と遺産\n\nオーギュスト・コントの著作を翻訳し、英語圏に社会学を紹介しました。",
+    "epic_es": "### 1. Un intelecto floreciendo en el silencio\n\nNacida en 1802 en Norwich, Inglaterra, Harriet Martineau comenzó a perder la audición en su juventud. Usó una trompetilla y se autoeducó.\n\n### 2. De la crisis al éxito literario\n\nTras la ruina de su familia, decidió mantenerse escribiendo, logrando gran éxito con sus ilustraciones de economía política.\n\n### 3. El viaje americano y la crítica\n\nViajó a los EE. UU. y criticó duramente la esclavitud y la opresión de las mujeres.\n\n### 4. Pionera de la sociología\n\nTradujo a Auguste Comte, introduciendo la sociología en el mundo anglosajón.",
+    "epic_fr": "### 1. Un intellect s'épanouissant dans le silence\n\nNée en 1802 à Norwich, Harriet Martineau a commencé à perdre l'ouïe très jeune. Elle a utilisé un cornet acoustique et s'est instruite elle-même.\n\n### 2. Transformer la crise en opportunité\n\nAprès la ruine de sa famille, elle s'est tournée vers l'écriture pour subvenir à ses besoins, connaissant un énorme succès.\n\n### 3. Le voyage américain et la critique\n\nElle a voyagé aux États-Unis et a fermement condamné l'esclavage et l'oppression des femmes.\n\n### 4. Pionnière de la sociologie\n\nElle a traduit Auguste Comte, introduisant la sociologie dans le monde anglophone.",
+    "epic_it": "### 1. Un intelletto che sboccia nel silenzio\n\nNata nel 1802 a Norwich, in Inghilterra, Harriet Martineau iniziò a perdere l'udito da giovane. Usò un cornetto acustico e si istruì da sola.\n\n### 2. Dalla crisi all'opportunità\n\nDopo la rovina finanziaria della sua famiglia, iniziò a scrivere per mantenersi, ottenendo grande successo.\n\n### 3. Il viaggio in America e la critica\n\nViaggiò negli Stati Uniti e condannò con forza la schiavitù e l'oppressione delle donne.\n\n### 4. Pioniera della sociologia\n\nTradusse Auguste Comte, introducendo la sociologia nel mondo anglosassone.",
+    "epic_pt": "### 1. Um intelecto florescendo no silêncio\n\nNascida em 1802 em Norwich, Inglaterra, Harriet Martineau começou a perder a audição ainda jovem. Usou uma trombeta auditiva e educou-se a si própria.\n\n### 2. Da crise à oportunidade\n\nApós a falência da sua família, começou a escrever para se sustentar, alcançando enorme sucesso.\n\n### 3. A viagem americana e a crítica\n\nViajou para os EUA e condenou corajosamente a escravidão e a opressão das mulheres.\n\n### 4. Pioneira da sociologia\n\nTraduziu Auguste Comte, introduzindo a sociologia no mundo de língua inglesa.",
+    "epic_ar": "### 1. عقل يتفتح في الصمت\n\nوُلدت هارييت مارتينو عام 1802 في نورويتش، إنجلترا، وبدأت تفقد سمعها في سن مبكرة. استخدمت بوق الأذن وعلمت نفسها بنفسها.\n\n### 2. تحويل الأزمة إلى فرصة\n\nبعد إفلاس عائلتها، قررت إعالة نفسها من خلال الكتابة وحققت نجاحًا كبيرًا.\n\n### 3. الرحلة الأمريكية والنقد\n\nسافرت إلى الولايات المتحدة وأدانت بشجاعة العبودية وقمع النساء.\n\n### 4. ريادة علم الاجتماع\n\nترجمت أعمال أوغست كونت، وأدخلت علم الاجتماع إلى العالم الناطق بالإنجليزية.",
+    "epic_hi": "### 1. मौन में खिलने वाली बुद्धि\n\n१८०२ में इंग्लैंड के नॉर्विच में जन्मी, हेरिएट मार्टिन्यू ने कम उम्र में ही अपनी सुनने की क्षमता खोना शुरू कर दिया। उन्होंने कान के तुरही का इस्तेमाल किया और खुद को शिक्षित किया。\n\n### 2. संकट को अवसर में बदलना\n\nअपने परिवार के दिवालिया होने के बाद, उन्होंने लेखन के माध्यम से खुद का समर्थन करने का फैसला किया और बड़ी सफलता हासिल की。\n\n### 3. अमेरिकी यात्रा और आलोचना\n\nउन्होंने अमेरिका की यात्रा की और साहसपूर्वक गुलामी और महिलाओं के उत्पीड़न की निंदा की。\n\n### 4. समाजशास्त्र की अग्रणी\n\nउन्होंने ऑगस्ट कॉम्टे का अनुवाद किया, जिससे अंग्रेजी बोलने वाली दुनिया में समाजशास्त्र की शुरुआत हुई।",
+    "epic_ru": "### 1. Интеллект, расцветающий в тишине\n\nРодившаяся в 1802 году в Норидже, Англия, Гарриет Мартино начала терять слух в юности. Она использовала слуховую трубку и занималась самообразованием.\n\n### 2. Превращение кризиса в возможность\n\nПосле того как ее семья разорилась, она решила зарабатывать на жизнь писательством и добилась огромного успеха.\n\n### 3. Американское путешествие и критика\n\nОна побывала в США и смело осудила рабство и угнетение женщин.\n\n### 4. Пионер социологии\n\nОна перевела Огюста Конта, представив социологию англоязычному миру.",
+    "epic_zh": "### 1. 在沉默中绽放的智慧\n\n哈丽雅特·马蒂诺1802年出生于英国诺里奇，年轻时就开始失去听力。她使用助听喇叭并自学成才。\n\n### 2. 化危机为转机：作家的崛起\n\n在家庭破产后，她决定通过写作来维持生计，并取得了巨大的成功。\n\n### 3. 美国之行与现实的批判\n\n她前往美国旅行，勇敢地谴责了奴隶制和对女性的压迫。\n\n### 4. 开创社会学与不朽的遗产\n\n她翻译了奥古斯特·孔德的著作，将社会学引入了英语世界。",
+    "trials_ko": "신체적 장애와 시대적 차별, 가족의 파산",
+    "trials_en": "Physical disability, societal prejudice, and family bankruptcy",
+    "overcoming_ko": "치열한 독학과 글쓰기를 통한 재정적 자립, 학문적 성취",
+    "overcoming_en": "Relentless self-education, financial independence through writing, and academic achievement",
+    "wisdom": [
+      {
+        "quote_ko": "읽는 이는 넘쳐나지만, 생각하는 이는 드물다.",
+        "quote_en": "Readers are plentiful; thinkers are rare.",
+        "meaning_ko": "정보를 수동적으로 받아들이는 것과 능동적이고 비판적으로 사고하는 것의 차이를 강조합니다.",
+        "meaning_en": "Emphasizes the difference between passive consumption of information and active critical thought."
+      },
+      {
+        "quote_ko": "오늘 최선을 다해 살고, 행동하며, 생각하는 것이 좋습니다. 오늘이야말로 내일을 위한 확실한 준비이기 때문입니다.",
+        "quote_en": "You had better live your best and act your best and think your best today; for today is the sure preparation for tomorrow and all the other tomorrows that follow.",
+        "meaning_ko": "현재 이 순간을 의도적이고 훌륭하게 살아가는 것의 중요성을 강조합니다.",
+        "meaning_en": "Highlights the importance of living deliberately and excellently in the present moment."
+      },
+      {
+        "quote_ko": "만약 문명의 척도를 찾는다면, 억압받는 절반의 상태보다 더 확실한 것은 없습니다.",
+        "quote_en": "If a test of civilization be sought, none can be so sure as the condition of that half of society over which the other half has power.",
+        "meaning_ko": "사회의 진정한 진보는 여성과 소외된 집단을 어떻게 대우하느냐에 따라 측정된다고 주장합니다.",
+        "meaning_en": "Asserts that a society's true progress is measured by how it treats its women and marginalized groups."
+      }
+    ]
+  }
+}

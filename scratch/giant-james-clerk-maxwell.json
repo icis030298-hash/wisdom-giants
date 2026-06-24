@@ -1,0 +1,186 @@
+{
+  "messages": {
+    "ko": {
+      "name": "제임스 맥스웰",
+      "title": "전자기학의 위대한 통합자",
+      "headline": "빛이 전자기파임을 밝히다",
+      "shortDescription": "제임스 클러크 맥스웰은 스코틀랜드의 이론물리학자이자 수학자입니다. 전기와 자기를 하나의 수학적 공식으로 통합한 맥스웰 방정식으로 가장 잘 알려져 있습니다.",
+      "quote": "우리의 가장 큰 지식은 우리 자신의 무지를 아는 것입니다.",
+      "chatGreeting": "안녕하십니까. 우리가 사는 이 우주를 가득 채우고 있는 보이지 않는 힘, 전자기장의 아름다운 질서에 대해 이야기를 나누어 볼까요?",
+      "suggestedQuestions": ["맥스웰 방정식은 어떻게 만들어졌나요?", "빛이 전자기파라는 것은 어떻게 알게 되셨나요?", "어린 시절의 호기심이 어떻게 위대한 발견으로 이어졌나요?"],
+      "era": "19세기",
+      "pain": "어린 시절 어머니를 일찍 여의고, 학교에서 '바보'라 놀림받으며 외로운 시기를 보냈습니다. 또한 당대의 과학계가 수학적 형태의 전자기 이론을 즉각적으로 이해하거나 받아들이지 못해 고립감을 느꼈습니다.",
+      "recovery": "자연에 대한 끈질긴 호기심과 실험, 그리고 패러데이의 물리적 직관을 정교한 수학적 언어로 번역해내는 집념으로 자신만의 이론을 완성하여 과학계의 인정을 받았습니다."
+    },
+    "en": {
+      "name": "James Clerk Maxwell",
+      "title": "The Great Unifier of Electromagnetism",
+      "headline": "Proved light is an electromagnetic wave",
+      "shortDescription": "James Clerk Maxwell was a Scottish theoretical physicist and mathematician. He is best known for formulating the classical theory of electromagnetic radiation, bringing together for the first time electricity, magnetism, and light as different manifestations of the same phenomenon.",
+      "quote": "Thoroughly conscious ignorance is the prelude to every real advance in science.",
+      "chatGreeting": "Good day to you. Shall we delve into the elegant mathematical order that governs the invisible forces of the electromagnetic fields surrounding us?",
+      "suggestedQuestions": ["How did you formulate your equations?", "How did you discover that light is an electromagnetic wave?", "How did your childhood curiosity lead to your discoveries?"],
+      "era": "19th Century",
+      "pain": "He lost his mother at a young age and faced loneliness and bullying at school where he was nicknamed 'Dafty'. Later, he struggled with the scientific community's initial reluctance to understand and accept his highly mathematical electromagnetic theory.",
+      "recovery": "Through relentless curiosity, dedication to experimental work, and his brilliance in translating Faraday's physical intuition into precise mathematical language, he persisted until his groundbreaking theories were ultimately validated."
+    },
+    "ja": {
+      "name": "ジェームズ・クラーク・マクスウェル",
+      "title": "電磁気学の大統合者",
+      "headline": "光が電磁波であることを証明",
+      "shortDescription": "ジェームズ・クラーク・マクスウェルは、スコットランドの理論物理学者および数学者です。電気と磁気を一つの数学的公式に統合したマクスウェル方程式で最もよく知られています。",
+      "quote": "私たちの最大の知識は、自分自身の無知を知ることである。",
+      "chatGreeting": "こんにちは。この宇宙を満たしている目に見えない力、電磁場の美しい秩序についてお話ししましょうか。",
+      "suggestedQuestions": ["マクスウェル方程式はどのようにして作られたのですか？", "光が電磁波であるとどうしてわかったのですか？", "子供の頃の好奇心がどのように偉大な発見につながったのですか？"],
+      "era": "19世紀",
+      "pain": "幼い頃に母を亡くし、学校ではいじめられ孤独な時期を過ごしました。また、当時の科学界が彼の数学的な電磁気理論をすぐに理解・受け入れず、孤立感を感じました。",
+      "recovery": "自然に対する執拗な好奇心と実験、そしてファラデーの物理的直観を精巧な数学的言語に翻訳する執念によって、独自の理論を完成させ、科学界の承認を得ました。"
+    },
+    "de": {
+      "name": "James Clerk Maxwell",
+      "title": "Der große Vereinheitlicher der Elektrodynamik",
+      "headline": "Bewies, dass Licht eine elektromagnetische Welle ist",
+      "shortDescription": "James Clerk Maxwell war ein schottischer theoretischer Physiker und Mathematiker. Er ist am bekanntesten für die Formulierung der klassischen Theorie der elektromagnetischen Strahlung.",
+      "quote": "Gründlich bewusste Unwissenheit ist das Vorspiel zu jedem wirklichen Fortschritt in der Wissenschaft.",
+      "chatGreeting": "Guten Tag. Sollen wir in die elegante mathematische Ordnung eintauchen, die die unsichtbaren Kräfte der elektromagnetischen Felder um uns herum bestimmt?",
+      "suggestedQuestions": ["Wie haben Sie Ihre Gleichungen formuliert?", "Wie haben Sie entdeckt, dass Licht eine elektromagnetische Welle ist?", "Wie führte Ihre kindliche Neugier zu Ihren Entdeckungen?"],
+      "era": "19. Jahrhundert",
+      "pain": "Er verlor seine Mutter in jungen Jahren und erlebte Einsamkeit und Mobbing in der Schule. Später kämpfte er mit der anfänglichen Zurückhaltung der wissenschaftlichen Gemeinschaft, seine hochmathematische elektromagnetische Theorie zu verstehen und zu akzeptieren.",
+      "recovery": "Durch unermüdliche Neugier, Hingabe an experimentelle Arbeit und seine Brillanz bei der Übersetzung von Faradays physikalischer Intuition in eine präzise mathematische Sprache hielt er durch, bis seine bahnbrechenden Theorien bestätigt wurden."
+    },
+    "es": {
+      "name": "James Clerk Maxwell",
+      "title": "El Gran Unificador del Electromagnetismo",
+      "headline": "Demostró que la luz es una onda electromagnética",
+      "shortDescription": "James Clerk Maxwell fue un físico teórico y matemático escocés. Es mejor conocido por formular la teoría clásica de la radiación electromagnética.",
+      "quote": "La ignorancia profundamente consciente es el preludio de todo verdadero avance en la ciencia.",
+      "chatGreeting": "Buenos días. ¿Deberíamos profundizar en el elegante orden matemático que rige las fuerzas invisibles de los campos electromagnéticos que nos rodean?",
+      "suggestedQuestions": ["¿Cómo formuló sus ecuaciones?", "¿Cómo descubrió que la luz es una onda electromagnética?", "¿Cómo su curiosidad infantil lo llevó a sus descubrimientos?"],
+      "era": "Siglo XIX",
+      "pain": "Perdió a su madre a una edad temprana y enfrentó la soledad y el acoso en la escuela. Más tarde, luchó contra la renuencia inicial de la comunidad científica a comprender y aceptar su teoría electromagnética altamente matemática.",
+      "recovery": "A través de una curiosidad implacable, dedicación al trabajo experimental y su brillantez en la traducción de la intuición física de Faraday a un lenguaje matemático preciso, perseveró hasta que sus teorías innovadoras fueron validadas."
+    },
+    "fr": {
+      "name": "James Clerk Maxwell",
+      "title": "Le Grand Unificateur de l'Électromagnétisme",
+      "headline": "A prouvé que la lumière est une onde électromagnétique",
+      "shortDescription": "James Clerk Maxwell était un physicien théoricien et mathématicien écossais. Il est surtout connu pour avoir formulé la théorie classique du rayonnement électromagnétique.",
+      "quote": "L'ignorance parfaitement consciente est le prélude à tout véritable progrès de la science.",
+      "chatGreeting": "Bonjour. Devrions-nous nous plonger dans l'ordre mathématique élégant qui régit les forces invisibles des champs électromagnétiques qui nous entourent ?",
+      "suggestedQuestions": ["Comment avez-vous formulé vos équations ?", "Comment avez-vous découvert que la lumière est une onde électromagnétique ?", "Comment votre curiosité d'enfance a-t-elle conduit à vos découvertes ?"],
+      "era": "19e Siècle",
+      "pain": "Il a perdu sa mère à un jeune âge et a fait face à la solitude et au harcèlement à l'école. Plus tard, il a lutté contre la réticence initiale de la communauté scientifique à comprendre et à accepter sa théorie électromagnétique hautement mathématique.",
+      "recovery": "Grâce à une curiosité implacable, à un dévouement au travail expérimental et à son génie pour traduire l'intuition physique de Faraday en un langage mathématique précis, il a persévéré jusqu'à ce que ses théories révolutionnaires soient finalement validées."
+    },
+    "it": {
+      "name": "James Clerk Maxwell",
+      "title": "Il Grande Unificatore dell'Elettromagnetismo",
+      "headline": "Dimostrò che la luce è un'onda elettromagnetica",
+      "shortDescription": "James Clerk Maxwell è stato un fisico teorico e matematico scozzese. È noto soprattutto per aver formulato la teoria classica della radiazione elettromagnetica.",
+      "quote": "L'ignoranza profondamente consapevole è il preludio di ogni vero progresso nella scienza.",
+      "chatGreeting": "Buongiorno. Vogliamo approfondire l'elegante ordine matematico che governa le forze invisibili dei campi elettromagnetici che ci circondano?",
+      "suggestedQuestions": ["Come ha formulato le Sue equazioni?", "Come ha scoperto che la luce è un'onda elettromagnetica?", "Come la Sua curiosità infantile ha portato alle Sue scoperte?"],
+      "era": "XIX Secolo",
+      "pain": "Ha perso la madre in giovane età e ha affrontato la solitudine e il bullismo a scuola. In seguito, ha lottato contro la riluttanza iniziale della comunità scientifica a comprendere e accettare la sua teoria elettromagnetica altamente matematica.",
+      "recovery": "Attraverso una curiosità inarrestabile, la dedizione al lavoro sperimentale e la sua genialità nel tradurre l'intuizione fisica di Faraday in un linguaggio matematico preciso, ha perseverato fino a quando le sue teorie rivoluzionarie non sono state convalidate."
+    },
+    "pt": {
+      "name": "James Clerk Maxwell",
+      "title": "O Grande Unificador do Eletromagnetismo",
+      "headline": "Provou que a luz é uma onda eletromagnética",
+      "shortDescription": "James Clerk Maxwell foi um físico teórico e matemático escocês. Ele é mais conhecido por formular a teoria clássica da radiação eletromagnética.",
+      "quote": "A ignorância perfeitamente consciente é o prelúdio de todo verdadeiro avanço na ciência.",
+      "chatGreeting": "Bom dia. Devemos nos aprofundar na elegante ordem matemática que governa as forças invisíveis dos campos eletromagnéticos que nos cercam?",
+      "suggestedQuestions": ["Como você formulou suas equações?", "Como você descobriu que a luz é uma onda eletromagnética?", "Como a sua curiosidade de infância levou às suas descobertas?"],
+      "era": "Século XIX",
+      "pain": "Ele perdeu sua mãe muito jovem e enfrentou a solidão e o bullying na escola. Mais tarde, ele lutou contra a relutância inicial da comunidade científica em entender e aceitar sua teoria eletromagnética altamente matemática.",
+      "recovery": "Através da curiosidade implacável, dedicação ao trabalho experimental e seu brilhantismo na tradução da intuição física de Faraday em linguagem matemática precisa, ele perseverou até que suas teorias inovadoras fossem validadas."
+    },
+    "ar": {
+      "name": "جيمس كليرك ماكسويل",
+      "title": "الموحد العظيم للكهرومغناطيسية",
+      "headline": "أثبت أن الضوء موجة كهرومغناطيسية",
+      "shortDescription": "كان جيمس كليرك ماكسويل فيزيائيًا نظريًا وعالم رياضيات اسكتلنديًا. يشتهر بصياغته للنظرية الكلاسيكية للإشعاع الكهرومغناطيسي، والتي جمعت لأول مرة بين الكهرباء والمغناطيسية والضوء.",
+      "quote": "الجهل الواعي تمامًا هو مقدمة كل تقدم حقيقي في العلم.",
+      "chatGreeting": "طاب يومك. هل نغوص في النظام الرياضي الأنيق الذي يحكم القوى غير المرئية للمجالات الكهرومغناطيسية المحيطة بنا؟",
+      "suggestedQuestions": ["كيف قمت بصياغة معادلاتك؟", "كيف اكتشفت أن الضوء موجة كهرومغناطيسية؟", "كيف أدى فضول طفولتك إلى اكتشافاتك؟"],
+      "era": "القرن التاسع عشر",
+      "pain": "فقد والدته في سن مبكرة وواجه الوحدة والتنمر في المدرسة، حيث كان يُلقب بـ 'الأبله'. في وقت لاحق، عانى من إحجام المجتمع العلمي الأولي عن فهم وقبول نظريته الكهرومغناطيسية الرياضية المعقدة.",
+      "recovery": "من خلال الفضول الذي لا يلين، والتفاني في العمل التجريبي، وعبقريته في ترجمة الحدس الفيزيائي لفاراداي إلى لغة رياضية دقيقة، ثابر حتى تم التحقق من صحة نظرياته الرائدة."
+    },
+    "hi": {
+      "name": "जेम्स क्लर्क मैक्सवेल",
+      "title": "विद्युत चुंबकत्व के महान एकीकरणकर्ता",
+      "headline": "साबित किया कि प्रकाश एक विद्युत चुम्बकीय तरंग है",
+      "shortDescription": "जेम्स क्लर्क मैक्सवेल एक स्कॉटिश सैद्धांतिक भौतिक विज्ञानी और गणितज्ञ थे। वे विद्युत चुम्बकीय विकिरण के शास्त्रीय सिद्धांत को तैयार करने के लिए जाने जाते हैं।",
+      "quote": "पूरी तरह से सचेत अज्ञानता विज्ञान में हर वास्तविक प्रगति की प्रस्तावना है।",
+      "chatGreeting": "नमस्ते। क्या हम उस सुरुचिपूर्ण गणितीय व्यवस्था में तल्लीन करें जो हमारे आस-पास के विद्युत चुम्बकीय क्षेत्रों की अदृश्य शक्तियों को नियंत्रित करती है?",
+      "suggestedQuestions": ["आपने अपने समीकरणों को कैसे तैयार किया?", "आपको कैसे पता चला कि प्रकाश एक विद्युत चुम्बकीय तरंग है?", "आपके बचपन की जिज्ञासा से आपकी खोजों का मार्ग कैसे प्रशस्त हुआ?"],
+      "era": "19वीं सदी",
+      "pain": "उन्होंने कम उम्र में अपनी माँ को खो दिया और स्कूल में अकेलेपन और बदमाशी का सामना किया। बाद में, उन्हें वैज्ञानिक समुदाय की अपनी अत्यधिक गणितीय विद्युत चुम्बकीय थ्योरी को समझने और स्वीकार करने में प्रारंभिक अनिच्छा से जूझना पड़ा।",
+      "recovery": "निरंतर जिज्ञासा, प्रायोगिक कार्य के प्रति समर्पण और फैराडे के भौतिक अंतर्ज्ञान को सटीक गणितीय भाषा में अनुवाद करने की उनकी प्रतिभा के माध्यम से, वे तब तक डटे रहे जब तक कि उनके अभूतपूर्व सिद्धांतों को अंततः मान्य नहीं कर दिया गया।"
+    },
+    "ru": {
+      "name": "Джеймс Клерк Максвелл",
+      "title": "Великий объединитель электромагнетизма",
+      "headline": "Доказал, что свет - это электромагнитная волна",
+      "shortDescription": "Джеймс Клерк Максвелл был шотландским физиком-теоретиком и математиком. Он наиболее известен созданием классической теории электромагнитного излучения.",
+      "quote": "Глубоко осознанное невежество — это прелюдия к любому настоящему прогрессу в науке.",
+      "chatGreeting": "Добрый день. Не желаете ли погрузиться в элегантный математический порядок, который управляет невидимыми силами электромагнитных полей вокруг нас?",
+      "suggestedQuestions": ["Как вы сформулировали свои уравнения?", "Как вы открыли, что свет является электромагнитной волной?", "Как детское любопытство привело вас к открытиям?"],
+      "era": "19 век",
+      "pain": "В юном возрасте он потерял мать и столкнулся с одиночеством и издевательствами в школе. Позже он боролся с первоначальным нежеланием научного сообщества понять и принять его высокоматематическую электромагнитную теорию.",
+      "recovery": "Благодаря неустанному любопытству, преданности экспериментальной работе и своему блестящему таланту перевода физической интуиции Фарадея на точный математический язык, он упорствовал, пока его новаторские теории не были в конечном итоге подтверждены."
+    },
+    "zh": {
+      "name": "詹姆斯·克拉克·麦克斯韦",
+      "title": "电磁学的伟大统合者",
+      "headline": "证明了光是一种电磁波",
+      "shortDescription": "詹姆斯·克拉克·麦克斯韦是一位苏格兰理论物理学家和数学家。他最著名的成走到提出了电磁辐射的经典理论。",
+      "quote": "彻底意识到自己的无知是科学上每一次真正进步的前奏。",
+      "chatGreeting": "你好。我们来深入探讨一下统治我们周围电磁场无形力量的优雅数学秩序，好吗？",
+      "suggestedQuestions": ["你是如何推导出你的方程式的？", "你是如何发现光是电磁波的？", "你童年的好奇心是如何引导你做出这些发现的？"],
+      "era": "19世纪",
+      "pain": "他很小就失去了母亲，在学校里经历了孤独和欺凌。后来，他面对科学界最初不愿理解和接受他高度数学化的电磁理论而苦苦挣扎。",
+      "recovery": "凭借不懈的好奇心、对实验工作的奉献，以及他将法拉第的物理直觉转化为精确数学语言的才华，他坚持不懈，直到他的突破性理论最终得到证实。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 꼬마 호기심 대장의 질문: \"저건 어떻게 작동하는 거야?\"\n\n1831년 스코틀랜드 에든버러에서 태어난 제임스 클러크 맥스웰은 어릴 적부터 호기심이 남달랐습니다. 숲속의 곤충, 시냇물의 흐름, 하늘의 별까지 세상의 모든 것이 그의 탐구 대상이었습니다. 그는 끊임없이 \"저건 어떻게 작동하는 거야?\"라고 물으며 자연의 원리를 이해하고자 했습니다. 하지만 그의 삶이 항상 평탄했던 것은 아닙니다. 8살이라는 어린 나이에 어머니를 여의는 큰 슬픔을 겪어야 했고, 엄격한 학교 생활에 적응하지 못해 친구들에게 '다프티(바보)'라는 놀림을 받기도 했습니다. 그러나 그의 천재성은 숨길 수 없었고, 14세의 나이에 타원에 관한 첫 수학 논문을 발표하며 세상을 놀라게 했습니다. 이 어린 시절의 순수한 호기심과 관찰력은 훗날 우주의 보이지 않는 힘을 이해하는 밑거름이 되었습니다.\n\n### 2. 색채의 비밀과 토성의 고리\n\n에든버러 대학과 케임브리지 대학에서 수학과 물리학을 깊이 연구한 맥스웰은 눈에 보이는 세계의 비밀을 수학적으로 풀어내기 시작했습니다. 그는 색채 시각에 대한 연구를 통해 오늘날 컬러 사진의 원리가 되는 삼원색 이론을 정립했습니다. 또한, 당대의 미스터리였던 토성의 고리가 어떻게 형태를 유지하는지에 대한 놀라운 논문을 발표했습니다. 그는 토성의 고리가 단단한 고체나 액체가 아니라 수많은 작은 입자들로 이루어져 있어야만 안정적으로 유지될 수 있다는 것을 수학적으로 증명했습니다. 이처럼 맥스웰은 복잡한 자연 현상을 명쾌한 수학적 언어로 설명해내는 탁월한 능력을 보여주었습니다.\n\n### 3. 보이지 않는 힘을 수학으로 엮다\n\n맥스웰의 가장 위대한 업적은 전자기학 분야에서 이루어졌습니다. 당시 마이클 패러데이는 실험을 통해 전기와 자기의 상호작용을 발견하고 '역선(lines of force)'이라는 개념을 제시했지만, 이를 수학적으로 표현하지는 못했습니다. 맥스웰은 패러데이의 직관적인 아이디어를 깊이 이해하고, 이를 정교한 수학 방정식으로 변환하는 작업에 착수했습니다. 마침내 그는 전기장과 자기장의 관계를 설명하는 4개의 아름다운 방정식, 이른바 '맥스웰 방정식'을 완성했습니다. 이 방정식은 전기와 자기가 본질적으로 동전의 양면과 같은 하나의 현상임을 증명하며 물리학에 새로운 지평을 열었습니다.\n\n### 4. 빛의 정체를 밝히고 세상을 연결하다\n\n맥스웰 방정식이 가져온 가장 놀라운 결과는 바로 '빛의 정체'를 밝혀낸 것입니다. 그는 자신이 유도한 방정식에서 전자기파가 공간을 전파하는 속도가 빛의 속도와 거의 일치한다는 사실을 발견했습니다. \"빛 자체가 전자기파의 일종이다\"라는 그의 선언은 인류의 우주관을 송두리째 바꾼 혁명적인 통찰이었습니다. 비록 당시의 많은 학자들은 그의 복잡한 수학적 이론을 이해하지 못했지만, 후대 과학자들에 의해 전자기파의 존재가 실험적으로 증명되면서 그의 이론은 완벽한 진리로 인정받았습니다. 맥스웰의 발견은 라디오, 텔레비전, 레이더, 휴대전화 등 현대 무선 통신 기술의 기반이 되었고, 아인슈타인의 상대성 이론으로 이어지는 징검다리 역할을 했습니다. 48세의 이른 나이에 세상을 떠났지만, 그가 남긴 빛나는 방정식은 오늘날에도 우리 삶을 연결하고 우주를 밝히고 있습니다.",
+    "epic_en": "### 1. The Boy Who Asked \"What's the Go of That?\"\n\nBorn in Edinburgh, Scotland in 1831, James Clerk Maxwell was driven by an insatiable curiosity from a very young age. Everything in the natural world, from insects in the woods to the flow of streams and the stars in the sky, was a subject of his profound inquiry. He constantly asked, \"What's the go of that?\" to understand the mechanics of the world. However, his early life was marked by tragedy and difficulty. He lost his beloved mother to cancer when he was just eight years old. Furthermore, his eccentric clothing and strong rural accent made him a target for bullies at school, who cruelly nicknamed him \"Dafty.\" Yet, his genius could not be suppressed. At the astonishing age of 14, he wrote his first scientific paper on mathematical curves, astounding the academic community. This pure childhood curiosity and deep observation became the foundation for his future endeavors to uncover the invisible forces of the universe.\n\n### 2. Unlocking the Secrets of Color and Saturn's Rings\n\nAfter studying at the University of Edinburgh and the University of Cambridge, Maxwell began to unravel the mathematical secrets of the visible world. His groundbreaking work on color vision laid the foundation for the trichromatic theory, eventually leading to him presenting the world's first durable color photograph in 1861. He also tackled a major astronomical mystery of his time: the stability of Saturn's rings. Maxwell mathematically proved that the rings could not be solid or liquid, but must be composed of countless small independent particles to remain stable. Through these works, Maxwell demonstrated his extraordinary ability to explain complex natural phenomena with elegant and precise mathematical language.\n\n### 3. Weaving Invisible Forces with Mathematics\n\nMaxwell's most monumental achievement lay in the field of electromagnetism. While Michael Faraday had discovered the interactions between electricity and magnetism through experiments and proposed the concept of \"lines of force,\" he lacked the mathematical training to express his findings rigorously. Maxwell deeply respected Faraday's physical intuition and took on the monumental task of translating these ideas into precise mathematical equations. He ultimately formulated a set of elegant equations—now famously known as Maxwell's equations—which successfully described how electric and magnetic fields are generated and altered by each other and by charges and currents. This work proved that electricity and magnetism were fundamentally two sides of the same coin, opening a new era in physics.\n\n### 4. Discovering the Nature of Light and Connecting the World\n\nThe most astonishing consequence of Maxwell's equations was his deduction concerning the nature of light. By calculating the speed at which electromagnetic waves would travel through space, he realized that it matched the known speed of light with remarkable accuracy. This led to his revolutionary declaration: \"Light consists in the transverse undulations of the same medium which is the cause of electric and magnetic phenomena.\" This revolutionary insight fundamentally changed humanity's understanding of the cosmos. Although many of his contemporaries struggled to grasp his highly mathematical theories, later experiments definitively proved the existence of electromagnetic waves, validating his theories perfectly. Maxwell's discoveries paved the way for modern wireless communication, including radio, television, radar, and mobile phones, and set the stage for Einstein's theory of relativity. Though he passed away at the early age of 48, his brilliant equations continue to connect our lives and illuminate the universe today.",
+    "epic_de": "### 1. Der neugierige Junge\n\nJames Clerk Maxwell wurde 1831 in Edinburgh geboren und zeigte schon früh eine unstillbare Neugier auf die Welt um ihn herum. Er wollte immer wissen, wie die Dinge funktionieren.\n\n### 2. Farben und Ringe\n\nMaxwell leistete bedeutende Beiträge zur Theorie des Farbsehens und bewies mathematisch, dass die Saturnringe aus unzähligen kleinen Partikeln bestehen müssen.\n\n### 3. Die Vereinheitlichung der Kräfte\n\nSeine größte Leistung war die Übersetzung von Faradays physikalischer Intuition über Elektromagnetismus in präzise mathematische Gleichungen, die heute als Maxwell-Gleichungen bekannt sind.\n\n### 4. Das Licht als Welle\n\nMaxwell erkannte, dass sich elektromagnetische Wellen mit Lichtgeschwindigkeit ausbreiten, und kam zu dem revolutionären Schluss, dass Licht selbst eine elektromagnetische Welle ist. Seine Arbeit legte den Grundstein für die moderne Physik.",
+    "epic_ja": "### 1. 好奇心旺盛な少年\n\n1831年にエディンバラで生まれたジェームズ・クラーク・マクスウェルは、幼い頃から周囲の世界に対して尽きることのない好奇心を持っていました。彼は常に物事がどのように機能するのかを知りたがりました。\n\n### 2. 色彩と土星の環\n\nマクスウェルは色覚の理論に重要な貢献をし、土星の環が無数の小さな粒子で構成されていなければならないことを数学的に証明しました。\n\n### 3. 力の統合\n\n彼の最大の功績は、電磁気学に関するファラデーの物理的直観を、今日マクスウェル方程式として知られる正確な数学的方程式に翻訳したことでした。\n\n### 4. 光の正体\n\nマクスウェルは、電磁波が光の速度で伝播することに気づき、光そのものが電磁波であるという革命的な結論に達しました。彼の研究は現代物理学の基礎を築きました。",
+    "epic_es": "### 1. El Niño Curioso\n\nNacido en Edimburgo en 1831, James Clerk Maxwell mostró una curiosidad insaciable por el mundo que lo rodeaba desde una edad temprana. Siempre quería saber cómo funcionaban las cosas.\n\n### 2. Colores y Anillos\n\nMaxwell hizo contribuciones significativas a la teoría de la visión del color y demostró matemáticamente que los anillos de Saturno debían estar compuestos por innumerables partículas pequeñas.\n\n### 3. La Unificación de las Fuerzas\n\nSu mayor logro fue la traducción de la intuición física de Faraday sobre el electromagnetismo en ecuaciones matemáticas precisas, ahora conocidas como las ecuaciones de Maxwell.\n\n### 4. La Luz como Onda\n\nMaxwell se dio cuenta de que las ondas electromagnéticas viajan a la velocidad de la luz, lo que lo llevó a la conclusión revolucionaria de que la luz misma es una onda electromagnética. Su trabajo sentó las bases para la física moderna.",
+    "epic_fr": "### 1. Le Garçon Curieux\n\nNé à Édimbourg en 1831, James Clerk Maxwell a fait preuve d'une curiosité insatiable pour le monde qui l'entourait dès son plus jeune âge. Il voulait toujours savoir comment les choses fonctionnaient.\n\n### 2. Couleurs et Anneaux\n\nMaxwell a apporté des contributions importantes à la théorie de la vision des couleurs et a prouvé mathématiquement que les anneaux de Saturne devaient être composés d'innombrables petites particules.\n\n### 3. L'Unification des Forces\n\nSa plus grande réalisation a été la traduction de l'intuition physique de Faraday sur l'électromagnétisme en équations mathématiques précises, maintenant connues sous le nom d'équations de Maxwell.\n\n### 4. La Lumière comme Onde\n\nMaxwell s'est rendu compte que les ondes électromagnétiques se déplacent à la vitesse de la lumière, ce qui l'a amené à la conclusion révolutionnaire que la lumière elle-même est une onde électromagnétique. Son travail a jeté les bases de la physique moderne.",
+    "epic_it": "### 1. Il Ragazzo Curioso\n\nNato a Edimburgo nel 1831, James Clerk Maxwell ha mostrato fin dalla tenera età una curiosità insaziabile per il mondo che lo circondava. Voleva sempre sapere come funzionavano le cose.\n\n### 2. Colori e Anelli\n\nMaxwell ha dato un contributo significativo alla teoria della visione dei colori e ha dimostrato matematicamente che gli anelli di Saturno dovevano essere composti da innumerevoli piccole particelle.\n\n### 3. L'Unificazione delle Forze\n\nIl suo più grande risultato è stato la traduzione dell'intuizione fisica di Faraday sull'elettromagnetismo in precise equazioni matematiche, oggi note come equazioni di Maxwell.\n\n### 4. La Luce come Onda\n\nMaxwell si rese conto che le onde elettromagnetiche viaggiano alla velocità della luce, portandolo alla conclusione rivoluzionaria che la luce stessa è un'onda elettromagnetica. Il suo lavoro ha posto le basi per la fisica moderna.",
+    "epic_pt": "### 1. O Menino Curioso\n\nNascido em Edimburgo em 1831, James Clerk Maxwell demonstrou uma curiosidade insaciável pelo mundo ao seu redor desde muito jovem. Ele sempre queria saber como as coisas funcionavam.\n\n### 2. Cores e Anéis\n\nMaxwell fez contribuições significativas para a teoria da visão de cores e provou matematicamente que os anéis de Saturno deviam ser compostos de inúmeras pequenas partículas.\n\n### 3. A Unificação das Forças\n\nSua maior conquista foi a tradução da intuição física de Faraday sobre o eletromagnetismo em equações matemáticas precisas, agora conhecidas como equações de Maxwell.\n\n### 4. A Luz como Onda\n\nMaxwell percebeu que as ondas eletromagnéticas viajam na velocidade da luz, levando-o à conclusão revolucionária de que a própria luz é uma onda eletromagnética. Seu trabalho lançou as bases para a física moderna.",
+    "epic_ar": "### 1. الفتى الفضولي\n\nوُلد جيمس كليرك ماكسويل في إدنبرة عام 1831، وأظهر فضولًا لا يشبع تجاه العالم من حوله منذ سن مبكرة. كان يريد دائمًا أن يعرف كيف تعمل الأشياء.\n\n### 2. الألوان والحلقات\n\nقدم ماكسويل مساهمات كبيرة في نظرية رؤية الألوان وأثبت رياضيًا أن حلقات زحل يجب أن تتكون من جزيئات صغيرة لا حصر لها.\n\n### 3. توحيد القوى\n\nكان أعظم إنجازاته هو ترجمة حدس فاراداي الفيزيائي حول الكهرومغناطيسية إلى معادلات رياضية دقيقة، تُعرف الآن باسم معادلات ماكسويل.\n\n### 4. الضوء كموجة\n\nأدرك ماكسويل أن الموجات الكهرومغناطيسية تنتقل بسرعة الضوء، مما قاده إلى الاستنتاج الثوري بأن الضوء نفسه هو موجة كهرومغناطيسية. وضع عمله الأساس للفيزياء الحديثة.",
+    "epic_hi": "### 1. जिज्ञासु लड़का\n\n1831 में एडिनबर्ग में जन्मे, जेम्स क्लर्क मैक्सवेल ने कम उम्र से ही अपने आस-पास की दुनिया के लिए एक अतृप्त जिज्ञासा दिखाई। वह हमेशा जानना चाहता था कि चीजें कैसे काम करती हैं।\n\n### 2. रंग और छल्ले\n\nमैक्सवेल ने रंग दृष्टि के सिद्धांत में महत्वपूर्ण योगदान दिया और गणितीय रूप से साबित किया कि शनि के छल्ले अनगिनत छोटे कणों से बने होने चाहिए।\n\n### 3. बलों का एकीकरण\n\nउनकी सबसे बड़ी उपलब्धि विद्युत चुंबकत्व पर फैराडे के भौतिक अंतर्ज्ञान का सटीक गणितीय समीकरणों में अनुवाद था, जिन्हें अब मैक्सवेल के समीकरणों के रूप में जाना जाता है。\n\n### 4. एक तरंग के रूप में प्रकाश\n\nमैक्सवेल ने महसूस किया कि विद्युत चुम्बकीय तरंगें प्रकाश की गति से यात्रा करती हैं, जिससे वे इस क्रांतिकारी निष्कर्ष पर पहुंचे कि प्रकाश स्वयं एक विद्युत चुम्बकीय तरंग है। उनके काम ने आधुनिक भौतिकी की नींव रखी।",
+    "epic_ru": "### 1. Любопытный мальчик\n\nРодившийся в Эдинбурге в 1831 году, Джеймс Клерк Максвелл с юных лет проявлял ненасытное любопытство к окружающему миру. Он всегда хотел знать, как все устроено.\n\n### 2. Цвета и кольца\n\nМаксвелл внес значительный вклад в теорию цветового зрения и математически доказал, что кольца Сатурна должны состоять из бесчисленного множества мелких частиц.\n\n### 3. Объединение сил\n\nЕго величайшим достижением стал перевод физической интуиции Фарадея об электромагнетизме в точные математические уравнения, известные сейчас как уравнения Максвелла.\n\n### 4. Свет как волна\n\nМаксвелл понял, что электромагнитные волны распространяются со скоростью света, что привело его к революционному выводу: свет сам по себе является электромагнитной волной. Его работы заложили основу современной физики.",
+    "epic_zh": "### 1. 好奇的男孩\n\n詹姆斯·克拉克·麦克斯韦于1831年出生在爱丁堡，他从小就对周围的世界表现出难以满足的好奇心。他总是想知道事物是如何运作的。\n\n### 2. 颜色与光环\n\n麦克斯韦对彩色视觉理论做出了重要贡献，并在数学上证明了土星环必须由无数小颗粒组成。\n\n### 3. 力的统一\n\n他最大的成就是将法拉第关于电磁学的物理直觉转化为精确的数学方程式，即现在著名的麦克斯韦方程组。\n\n### 4. 光作为波\n\n麦克斯韦意识到电磁波以光速传播，这使他得出了一个革命性的结论：光本身就是一种电磁波。他的工作为现代物理学奠定了基础。"
+  },
+  "trials_ko": "어린 시절 어머니의 죽음과 학교에서의 괴롭힘, 그리고 그의 복잡한 수학적 이론을 즉각적으로 이해하지 못하는 당대 과학계의 고립을 겪었습니다.",
+  "trials_en": "He faced the early loss of his mother, bullying in school, and later, the isolation of having a highly advanced mathematical theory that his contemporaries struggled to understand.",
+  "overcoming_ko": "끝없는 호기심과 패러데이의 물리적 통찰을 수학적으로 입증하겠다는 집념으로 연구에 매진하여, 마침내 전자기학의 기초가 되는 맥스웰 방정식을 완성하고 세상을 놀라게 했습니다.",
+  "overcoming_en": "Through relentless curiosity and a determination to mathematically prove Faraday's physical insights, he persisted until he formulated Maxwell's equations, laying the foundation of classical electromagnetism.",
+  "wisdom": [
+    {
+      "quote_ko": "우리의 가장 큰 지식은 우리 자신의 무지를 아는 것입니다.",
+      "quote_en": "Thoroughly conscious ignorance is the prelude to every real advance in science.",
+      "meaning_ko": "자신이 모른다는 사실을 명확히 인지하는 것이야말로 새로운 과학적 발전과 진정한 앎으로 나아가는 첫걸음임을 강조합니다.",
+      "meaning_en": "Emphasizes that explicitly recognizing what one does not know is the essential first step toward any genuine scientific progress or deeper understanding."
+    },
+    {
+      "quote_ko": "모든 중요한 현상을 측정 가능한 수치로 환원하는 것이 과학의 진정한 과제입니다.",
+      "quote_en": "To reduce all important phenomena to measurable quantities is the true task of science.",
+      "meaning_ko": "자연의 모호한 현상들을 정확하고 측정 가능한 수학적 언어로 번역할 때 비로소 과학적 진실에 다가갈 수 있음을 의미합니다.",
+      "meaning_en": "Highlights the necessity of translating vague natural phenomena into precise, measurable mathematical language to arrive at scientific truth."
+    },
+    {
+      "quote_ko": "우리가 사물의 원인에 관하여 무지할 때 가장 강하게 느끼는 것은 놀라움입니다.",
+      "quote_en": "The feeling of wonder is the strongest when we are ignorant of the causes of things.",
+      "meaning_ko": "무지에서 비롯된 놀라움과 호기심이 현상의 이면을 파헤치고 새로운 발견을 이끄는 가장 강력한 원동력이 됨을 설명합니다.",
+      "meaning_en": "Suggests that the sense of wonder born from ignorance is the most powerful driving force for uncovering the underlying causes of phenomena and making new discoveries."
+    }
+  ]
+}

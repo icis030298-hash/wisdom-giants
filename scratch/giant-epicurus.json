@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "에피쿠로스",
+      "title": "에피쿠로스 학파의 창시자",
+      "headline": "평온한 삶의 안내자",
+      "shortDescription": "고대 그리스의 철학자로 에피쿠로스 학파를 창시했습니다. 진정한 행복은 육체적 고통이 없는 상태와 마음의 평정(아타락시아)에서 온다고 가르쳤습니다.",
+      "quote": "가지지 못한 것을 욕망하느라 가진 것을 망치지 마십시오. 당신이 지금 가진 것은 한때 당신이 그토록 바라기만 했던 것임을 기억하십시오.",
+      "chatGreeting": "환영합니다. 번잡한 세상 속에서 마음의 평정을 찾고 계신가요? 함께 지혜로운 대화를 나누며 진정한 행복의 길을 모색해 봅시다.",
+      "suggestedQuestions": [
+        "진정한 쾌락이란 무엇인가요?",
+        "육체적 고통을 어떻게 이겨낼 수 있나요?",
+        "행복한 삶을 위해 가장 중요한 것은 무엇입니까?"
+      ],
+      "era": "고대 헬레니즘 시대",
+      "pain": "평생 신장결석 등 극심한 육체적 질병에 시달렸으며, 쾌락을 중시한다는 철학적 입장 때문에 당대와 후대의 여러 학파로부터 극심한 오해와 비난을 받았습니다.",
+      "recovery": "육체적 고통과 사회적 편견 속에서도 우정과 소박한 삶, 그리고 철학적 사유에서 깊은 위안을 찾으며 내면의 평화가 진정한 행복임을 몸소 증명했습니다."
+    },
+    "en": {
+      "name": "Epicurus",
+      "title": "Founder of Epicureanism",
+      "headline": "Guide to a Tranquil Life",
+      "shortDescription": "Ancient Greek philosopher who founded Epicureanism. He taught that true happiness is attained through the absence of physical pain and the tranquility of the mind.",
+      "quote": "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.",
+      "chatGreeting": "Welcome, friend. Are you seeking tranquility amidst a turbulent world? Let us converse and explore the path to true happiness together.",
+      "suggestedQuestions": [
+        "What is true pleasure?",
+        "How can one overcome physical pain?",
+        "What is the most important thing for a happy life?"
+      ],
+      "era": "Hellenistic Period",
+      "pain": "He suffered from severe physical ailments, including kidney stones, throughout his life, and faced harsh criticism and misunderstanding from rival philosophical schools.",
+      "recovery": "He overcame physical suffering and societal judgment by finding deep solace in friendship, simple living, and philosophical contemplation, proving that true peace comes from within."
+    },
+    "ja": {
+      "name": "エピクロス",
+      "title": "エピクロス学派の創始者",
+      "headline": "平穏な生活への案内人",
+      "shortDescription": "エピクロス学派を創始した古代ギリシャの哲学者です。真の幸福は肉体的な苦痛がない状態と心の平静から来ると教えました。",
+      "quote": "持っていないものを欲しがって、持っているものを台無しにしてはいけません。今持っているものは、かつてあなたが望んでいたものの一つであることを忘れないでください。",
+      "chatGreeting": "ようこそ。煩わしい世界の中で心の平静を求めていますか？共に知恵の会話を交わし、真の幸福への道を探求しましょう。",
+      "suggestedQuestions": [
+        "真の快楽とは何ですか？",
+        "肉体的な苦痛をどのように克服できますか？",
+        "幸せな人生のために最も重要なことは何ですか？"
+      ],
+      "era": "ヘレニズム時代",
+      "pain": "生涯にわたり腎臓結石などの深刻な肉体的病に苦しみ、快楽を重んじるという理由で他の哲学学派から激しい誤解と非難を受けました。",
+      "recovery": "肉体的な苦痛や社会的な偏見の中でも、友情と質素な生活、そして哲学的な思索に深い慰めを見出し、内なる平和が真の幸福であることを証明しました。"
+    },
+    "de": {
+      "name": "Epikur",
+      "title": "Gründer des Epikureismus",
+      "headline": "Wegweiser zu einem ruhigen Leben",
+      "shortDescription": "Antiker griechischer Philosoph, der den Epikureismus gründete. Er lehrte, dass wahres Glück durch die Abwesenheit von körperlichem Schmerz und die Ruhe des Geistes erreicht wird.",
+      "quote": "Verdirb nicht, was du hast, indem du begehrst, was du nicht hast; erinnere dich, dass das, was du jetzt hast, einst zu den Dingen gehörte, auf die du nur gehofft hast.",
+      "chatGreeting": "Willkommen, mein Freund. Suchen Sie nach Ruhe in einer turbulenten Welt? Lassen Sie uns sprechen und gemeinsam den Weg zu wahrem Glück erkunden.",
+      "suggestedQuestions": [
+        "Was ist wahre Freude?",
+        "Wie kann man körperlichen Schmerz überwinden?",
+        "Was ist das Wichtigste für ein glückliches Leben?"
+      ],
+      "era": "Hellenistische Epoche",
+      "pain": "Er litt zeitlebens an schweren körperlichen Beschwerden, einschließlich Nierensteinen, und sah sich harscher Kritik von konkurrierenden philosophischen Schulen ausgesetzt.",
+      "recovery": "Er überwand körperliches Leiden und gesellschaftliche Verurteilung, indem er tiefen Trost in Freundschaft, einem einfachen Leben und philosophischer Kontemplation fand."
+    },
+    "es": {
+      "name": "Epicuro",
+      "title": "Fundador del Epicureísmo",
+      "headline": "Guía para una vida tranquila",
+      "shortDescription": "Filósofo griego antiguo que fundó el epicureísmo. Enseñó que la verdadera felicidad se alcanza a través de la ausencia de dolor físico y la tranquilidad de la mente.",
+      "quote": "No arruines lo que tienes deseando lo que no tienes; recuerda que lo que ahora tienes fue una vez parte de las cosas que solo esperabas tener.",
+      "chatGreeting": "Bienvenido, amigo. ¿Buscas tranquilidad en un mundo turbulento? Conversemos y exploremos juntos el camino hacia la verdadera felicidad.",
+      "suggestedQuestions": [
+        "¿Qué es el verdadero placer?",
+        "¿Cómo se puede superar el dolor físico?",
+        "¿Qué es lo más importante para una vida feliz?"
+      ],
+      "era": "Período Helenístico",
+      "pain": "Sufrió graves dolencias físicas durante toda su vida, incluidos cálculos renales, y enfrentó duras críticas y malentendidos de escuelas filosóficas rivales.",
+      "recovery": "Superó el sufrimiento físico y el juicio de la sociedad encontrando un profundo consuelo en la amistad, la vida sencilla y la contemplación filosófica."
+    },
+    "fr": {
+      "name": "Épicure",
+      "title": "Fondateur de l'épicurisme",
+      "headline": "Guide vers une vie tranquille",
+      "shortDescription": "Philosophe de la Grèce antique qui a fondé l'épicurisme. Il a enseigné que le véritable bonheur est atteint par l'absence de douleur physique et la tranquillité de l'esprit.",
+      "quote": "Ne gâchez pas ce que vous avez en désirant ce que vous n'avez pas; rappelez-vous que ce que vous avez maintenant faisait autrefois partie des choses que vous espériez seulement.",
+      "chatGreeting": "Bienvenue, mon ami. Cherchez-vous la tranquillité dans un monde agité ? Conversons et explorons ensemble le chemin du vrai bonheur.",
+      "suggestedQuestions": [
+        "Qu'est-ce que le vrai plaisir ?",
+        "Comment peut-on surmonter la douleur physique ?",
+        "Quelle est la chose la plus importante pour une vie heureuse ?"
+      ],
+      "era": "Époque hellénistique",
+      "pain": "Il a souffert de graves affections physiques, dont des calculs rénaux, tout au long de sa vie, et a fait face à de vives critiques et à l'incompréhension des écoles philosophiques rivales.",
+      "recovery": "Il a surmonté la souffrance physique et le jugement de la société en trouvant un profond réconfort dans l'amitié, une vie simple et la contemplation philosophique."
+    },
+    "it": {
+      "name": "Epicuro",
+      "title": "Fondatore dell'epicureismo",
+      "headline": "Guida per una vita tranquilla",
+      "shortDescription": "Antico filosofo greco che fondò l'epicureismo. Insegnò che la vera felicità si raggiunge attraverso l'assenza di dolore fisico e la tranquillità della mente.",
+      "quote": "Non rovinare quello che hai desiderando ciò che non hai; ricorda che quello che ora hai era un tempo tra le cose che speravi soltanto di avere.",
+      "chatGreeting": "Benvenuto, amico. Sta cercando la tranquillità in un mondo turbolento? Conversiamo ed esploriamo insieme il percorso verso la vera felicità.",
+      "suggestedQuestions": [
+        "Cos'è il vero piacere?",
+        "Come si può superare il dolore fisico?",
+        "Qual è la cosa più importante per una vita felice?"
+      ],
+      "era": "Periodo ellenistico",
+      "pain": "Soffrì di gravi disturbi fisici, tra cui i calcoli renali, per tutta la vita, e affrontò aspre critiche e incomprensioni dalle scuole filosofiche rivali.",
+      "recovery": "Superò la sofferenza fisica e il giudizio della società trovando profondo conforto nell'amicizia, in una vita semplice e nella contemplazione filosofica."
+    },
+    "pt": {
+      "name": "Epicuro",
+      "title": "Fundador do Epicurismo",
+      "headline": "Guia para uma vida tranquila",
+      "shortDescription": "Filósofo grego antigo que fundou o epicurismo. Ele ensinou que a verdadeira felicidade é alcançada através da ausência de dor física e da tranquilidade da mente.",
+      "quote": "Não estrague o que você tem desejando o que não tem; lembre-se que o que você tem agora já esteve entre as coisas que você apenas esperava ter.",
+      "chatGreeting": "Bem-vindo, amigo. Você está buscando tranquilidade em um mundo turbulento? Vamos conversar e explorar juntos o caminho para a verdadeira felicidade.",
+      "suggestedQuestions": [
+        "O que é o verdadeiro prazer?",
+        "Como se pode superar a dor física?",
+        "Qual é a coisa mais importante para uma vida feliz?"
+      ],
+      "era": "Período Helenístico",
+      "pain": "Ele sofreu de doenças físicas graves, incluindo cálculos renais, ao longo da vida, e enfrentou duras críticas e mal-entendidos de escolas filosóficas rivais.",
+      "recovery": "Ele superou o sofrimento físico e o julgamento da sociedade encontrando profundo consolo na amizade, na vida simples e na contemplação filosófica."
+    },
+    "ar": {
+      "name": "إبيقور",
+      "title": "مؤسس الفلسفة الأبيقورية",
+      "headline": "دليل لحياة هادئة",
+      "shortDescription": "فيلسوف يوناني قديم أسس الأبيقورية. علم أن السعادة الحقيقية تتحقق من خلال غياب الألم الجسدي وطمأنينة العقل.",
+      "quote": "لا تفسد ما لديك باشتهاء ما ليس لديك؛ وتذكر أن ما تملكه الآن كان في يوم من الأيام من بين الأشياء التي كنت تأمل في الحصول عليها فقط.",
+      "chatGreeting": "مرحباً بك يا صديقي. هل تبحث عن الطمأنينة في عالم مضطرب؟ دعنا نتحدث ونستكشف معاً الطريق إلى السعادة الحقيقية باللغة العربية الفصحى.",
+      "suggestedQuestions": [
+        "ما هي المتعة الحقيقية؟",
+        "كيف يمكن للمرء التغلب على الألم الجسدي؟",
+        "ما هو الشيء الأهم لحياة سعيدة؟"
+      ],
+      "era": "العصر الهلنستي",
+      "pain": "عانى من أمراض جسدية شديدة، بما في ذلك حصوات الكلى، طوال حياته، وواجه انتقادات قاسية وسوء فهم من المدارس الفلسفية المنافسة.",
+      "recovery": "تغلب على المعاناة الجسدية وحكم المجتمع من خلال إيجاد عزاء عميق في الصداقة، والحياة البسيطة، والتأمل الفلسفي."
+    },
+    "hi": {
+      "name": "एपिकुरस",
+      "title": "एपिक्यूरियाईवाद के संस्थापक",
+      "headline": "एक शांत जीवन के मार्गदर्शक",
+      "shortDescription": "प्राचीन यूनानी दार्शनिक जिन्होंने एपिक्यूरियाईवाद की स्थापना की। उन्होंने सिखाया कि सच्ची खुशी शारीरिक दर्द की अनुपस्थिति और मन की शांति के माध्यम से प्राप्त की जाती है।",
+      "quote": "जो आपके पास नहीं है उसकी इच्छा करके उसे खराब न करें जो आपके पास है; याद रखें कि जो अब आपके पास है वह कभी उन चीजों में से था जिनकी आपने केवल आशा की थी।",
+      "chatGreeting": "स्वागत है, मित्र। क्या आप अशांत दुनिया में शांति की तलाश कर रहे हैं? आइए हिंदी में प्राकृतिक रूप से बातचीत करें और सच्ची खुशी के मार्ग का पता लगाएं।",
+      "suggestedQuestions": [
+        "सच्चा आनंद क्या है?",
+        "शारीरिक दर्द को कैसे दूर किया जा सकता है?",
+        "सुखी जीवन के लिए सबसे महत्वपूर्ण बात क्या है?"
+      ],
+      "era": "हेलेनिस्टिक काल",
+      "pain": "उन्होंने जीवन भर गुर्दे की पथरी सहित गंभीर शारीरिक बीमारियों का सामना किया, और प्रतिद्वंद्वी दार्शनिक स्कूलों से कड़ी आलोचना और गलतफहमी का सामना किया।",
+      "recovery": "उन्होंने मित्रता, सरल जीवन और दार्शनिक चिंतन में गहरा सांत्वना पाकर शारीरिक कष्ट और सामाजिक निर्णय पर काबू पा लिया।"
+    },
+    "ru": {
+      "name": "Эпикур",
+      "title": "Основатель эпикуреизма",
+      "headline": "Проводник к безмятежной жизни",
+      "shortDescription": "Древнегреческий философ, основавший эпикуреизм. Он учил, что истинное счастье достигается через отсутствие физической боли и спокойствие ума.",
+      "quote": "Не портьте то, что имеете, желая того, чего у вас нет; помните, что то, что вы сейчас имеете, когда-то было среди тех вещей, на которые вы только надеялись.",
+      "chatGreeting": "Добро пожаловать, друг. Вы ищете покоя в бурном мире? Давайте побеседуем на литературном русском языке и вместе исследуем путь к истинному счастью.",
+      "suggestedQuestions": [
+        "Что такое истинное удовольствие?",
+        "Как можно преодолеть физическую боль?",
+        "Что самое важное для счастливой жизни?"
+      ],
+      "era": "Эллинистический период",
+      "pain": "Всю жизнь он страдал от тяжелых физических недугов, включая камни в почках, и сталкивался с резкой критикой и непониманием со стороны соперничающих философских школ.",
+      "recovery": "Он преодолел физические страдания и осуждение общества, найдя глубокое утешение в дружбе, простой жизни и философских размышлениях."
+    },
+    "zh": {
+      "name": "伊壁鸠鲁",
+      "title": "伊壁鸠鲁学派创始人",
+      "headline": "宁静生活的指路人",
+      "shortDescription": "古希腊哲学家，伊壁鸠鲁学派的创始人。他教导说，真正的幸福是通过消除身体上的痛苦和获得内心的宁静来实现的。",
+      "quote": "不要因为渴望你没有的东西而毁掉你拥有的东西；记住，你现在拥有的，曾经只是你所期盼的。",
+      "chatGreeting": "欢迎，朋友。你在这个喧嚣的世界里寻找宁静吗？让我们用标准普通话书面语交流，共同探索通往真正幸福的道路。",
+      "suggestedQuestions": [
+        "什么是真正的快乐？",
+        "人如何克服身体上的痛苦？",
+        "幸福生活中最重要的是什么？"
+      ],
+      "era": "希腊化时代",
+      "pain": "他一生饱受身体疾病（包括肾结石）的折磨，并面临来自竞争哲学流派的严厉批评和误解。",
+      "recovery": "他在友谊、简朴的生活和哲学沉思中找到了深深的慰藉，克服了身体上的痛苦和社会的偏见，证明了真正的平静来自于内心。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 사모스 섬에서의 유년기와 철학의 시작\n\n에피쿠로스는 기원전 341년경 에게해의 사모스 섬에서 아테네 이주민의 아들로 태어났습니다. 그의 어린 시절은 알렉산드로스 대왕의 원정과 그로 인한 거대한 제국의 형성이라는 격동의 시기와 맞물려 있었습니다. 전승에 따르면, 그는 아주 어린 나이에 교사들이 '혼돈(카오스)'의 의미를 제대로 설명하지 못하는 것을 보고 철학에 눈을 떴다고 합니다. 그는 당시 지배적이었던 플라톤주의나 아리스토텔레스주의에 얽매이지 않고, 데모크리토스의 원자론을 받아들여 우주가 신의 섭리가 아닌 원자들의 우연한 결합으로 이루어졌다는 독창적인 사상을 발전시키기 시작했습니다.\n\n### 2. 정원(The Garden)의 설립과 새로운 공동체\n\n기원전 306년, 에피쿠로스는 아테네로 돌아와 자신의 집과 정원을 구입하여 '정원(Kepos)'이라는 철학 학교를 세웠습니다. 이 정원은 단순한 학교가 아니라 뜻을 같이하는 사람들의 공동체였습니다. 당시 아테네의 다른 철학 학교들과 달리, 정원은 여성과 노예에게도 열려 있는 파격적인 곳이었습니다. 이곳에서 그들은 소박한 식사를 나누고 우정을 기르며, 세속적인 명예나 부를 좇는 대신 내면의 평화와 두려움으로부터의 해방을 추구했습니다. 이들에게 우정은 철학적 삶의 가장 중요한 요소 중 하나였습니다.\n\n### 3. 육체적 고통과 철학적 아타락시아\n\n에피쿠로스는 쾌락을 삶의 최고선으로 삼았지만, 그것은 방탕한 향락이 아니라 '육체적 고통의 부재(아포니아)'와 '마음의 평정(아타락시아)'을 의미했습니다. 아이러니하게도 그 자신은 평생 극심한 육체적 고통에 시달렸습니다. 특히 말년에는 신장결석으로 큰 고통을 겪었습니다. 그러나 그는 고통이 영원하지 않으며 마음가짐으로 극복할 수 있다고 믿었고, 임종의 순간에도 친구들에게 보내는 편지에 \"나의 육체적 고통은 극에 달했지만, 우리가 나눈 철학적 대화에 대한 기억이 내 마음을 기쁨으로 채운다\"고 적었습니다.\n\n### 4. 오해를 넘어선 영원한 유산\n\n그가 죽은 후, 에피쿠로스주의는 로마 제국 전역으로 퍼져나갔습니다. 하지만 '쾌락'을 강조한다는 점 때문에 후대의 기독교 사상가들이나 경쟁 학파들로부터 난봉꾼이나 무신론자로 심각하게 왜곡되고 비난받기도 했습니다. '에피쿠리안'이라는 단어가 미식가나 향락주의자를 의미하게 된 것도 이러한 오해의 결과입니다. 그러나 에피쿠로스의 진정한 가르침은 소박함, 우정, 그리고 불필요한 두려움(특히 죽음과 신에 대한 두려움)으로부터의 해방이었습니다. 오늘날 그의 사상은 현대인들에게 진정한 행복이 물질이 아닌 내면의 평정에 있음을 상기시키는 강력한 메시지로 다시 평가받고 있습니다.",
+    "epic_en": "### 1. Early Life in Samos and the Dawn of Inquiry\n\nEpicurus was born around 341 BCE on the Aegean island of Samos to Athenian parents. His early life coincided with the tumultuous era of Alexander the Great's conquests. Tradition holds that he turned to philosophy at a young age after his schoolteachers could not satisfactorily explain the concept of 'Chaos' in Hesiod's poetry. Breaking away from the dominant Platonist and Aristotelian traditions, Epicurus embraced Democritus's atomism. He developed the radical idea that the universe was not guided by divine providence, but rather formed by the random collision of atoms in a void, setting the stage for a philosophy grounded in nature rather than superstition.\n\n### 2. The Garden: A Revolutionary Community\n\nIn 306 BCE, Epicurus moved to Athens, where he purchased a house and established his famous school, known simply as 'The Garden' (Kepos). The Garden was far more than an academic institution; it was a philosophical community where individuals lived out his teachings. In stark contrast to other schools of the time, The Garden was radically inclusive, welcoming women and slaves as equal participants. Here, they practiced a life of simplicity, sharing modest meals, cultivating deep friendships, and withdrawing from the stressful pursuit of political power and worldly wealth. For Epicurus, friendship was not just an ideal, but a fundamental component of a happy and secure life.\n\n### 3. Enduring Pain to Achieve Ataraxia\n\nThough Epicurus famously championed pleasure as the highest good, he defined this not as reckless self-indulgence, but as 'aponia' (the absence of physical pain) and 'ataraxia' (tranquility of the soul). Ironically, the philosopher of pleasure suffered from chronic and severe physical illness throughout his life. In his final days, he was afflicted by agonizing kidney stones. Yet, he embodied his own teachings perfectly. On his deathbed, he wrote a moving letter to his friend Idomeneus, stating that while his physical pain was at its absolute peak, the joy in his heart—born from the memory of their philosophical conversations—completely overpowered the suffering.\n\n### 4. Misunderstanding and Eternal Legacy\n\nFollowing his death in 270 BCE, Epicureanism spread widely across the Mediterranean and deeply influenced Roman thought, notably inspiring Lucretius. However, because his philosophy centered on 'pleasure,' it was severely distorted by rival schools and later religious thinkers, who unfairly painted him as a gluttonous hedonist and an atheist. This enduring misunderstanding even birthed the modern word 'epicurean,' associated with fine dining. Yet, history has vindicated Epicurus. His true legacy—the idea that happiness is achieved through simple living, cherished friendships, and freedom from irrational fears of gods and death—remains a profoundly relevant and comforting philosophy for the modern world.",
+    "epic_de": "### 1. Frühes Leben auf Samos\n\nEpikur wurde 341 v. Chr. auf Samos geboren. Schon früh wandte er sich der Philosophie zu und entwickelte eigene Ideen basierend auf dem Atomismus.\n\n### 2. Der Garten\n\nEr gründete seine Schule 'Der Garten' in Athen, eine offene Gemeinschaft, die Frauen und Sklaven aufnahm und sich der Freundschaft und dem einfachen Leben widmete.\n\n### 3. Ataraxia und Schmerz\n\nObwohl er chronisch krank war, lehrte er, dass wahres Glück in der Schmerzfreiheit und der Seelenruhe (Ataraxia) liegt, die er bis zu seinem Tod vorlebte.\n\n### 4. Sein Vermächtnis\n\nOft als Hedonist missverstanden, bleibt Epikurs wahre Lehre der Befreiung von Ängsten und der Wertschätzung der Einfachheit bis heute ein Leitfaden für ein glückliches Leben.",
+    "epic_ja": "### 1. サモス島での幼少期\n\nエピクロスは紀元前341年にサモス島で生まれました。彼は早くから哲学に目覚め、独自の原子論を発展させました。\n\n### 2. 庭園の設立\n\nアテネに「庭園」と呼ばれる学校を設立し、女性や奴隷にも開かれた友情と質素な生活の共同体を築きました。\n\n### 3. アタラクシアと苦痛\n\n生涯にわたり肉体的な苦痛に悩まされましたが、魂の平静（アタラクシア）こそが真の快楽であると説き、自らの死の床でもそれを示しました。\n\n### 4. 永遠の遺産\n\n後世に快楽主義者として誤解されましたが、彼の真の教えである恐怖からの解放と内面の平和は、今も多くの人々に感銘を与えています。",
+    "epic_es": "### 1. Primeros años en Samos\n\nEpicuro nació el 341 a. C. en Samos. Desde joven se dedicó a la filosofía y desarrolló ideas propias basadas en el atomismo.\n\n### 2. El Jardín\n\nFundó su escuela 'El Jardín' en Atenas, una comunidad abierta a mujeres y esclavos, centrada en la amistad y la vida sencilla.\n\n### 3. Ataraxia y Dolor\n\nA pesar de sus dolores crónicos, enseñó que la verdadera felicidad reside en la ausencia de dolor y la paz mental (ataraxia).\n\n### 4. Su Legado\n\nA menudo malinterpretado como un hedonista, su verdadera enseñanza sobre liberarse de los miedos sigue viva hoy en día.",
+    "epic_fr": "### 1. Jeunesse à Samos\n\nÉpicure est né en 341 av. J.-C. à Samos. Il s'est tourné tôt vers la philosophie et a développé des idées basées sur l'atomisme.\n\n### 2. Le Jardin\n\nIl a fondé son école 'Le Jardin' à Athènes, une communauté inclusive qui valorisait l'amitié et la simplicité.\n\n### 3. Ataraxie et Douleur\n\nMalgré des douleurs chroniques, il a enseigné que le vrai bonheur est l'absence de douleur et la tranquillité de l'âme (ataraxie).\n\n### 4. Son Héritage\n\nSouvent mal compris comme un hédoniste de la débauche, son véritable enseignement sur la libération des peurs reste profond.",
+    "epic_it": "### 1. Primi anni a Samo\n\nEpicuro nacque nel 341 a.C. a Samo. Si interessò presto alla filosofia, sviluppando idee basate sull'atomismo.\n\n### 2. Il Giardino\n\nFondò la sua scuola, 'Il Giardino', ad Atene, una comunità aperta a donne e schiavi, incentrata sull'amicizia e sulla semplicità.\n\n### 3. Atarassia e Dolore\n\nNonostante soffrisse di malattie croniche, insegnò che la vera felicità è l'assenza di dolore e la pace interiore (atarassia).\n\n### 4. La Sua Eredità\n\nSpesso frainteso come edonista, il suo vero messaggio di liberazione dalle paure rimane fondamentale ancora oggi.",
+    "epic_pt": "### 1. Primeiros anos em Samos\n\nEpicuro nasceu em 341 a.C. em Samos. Ele se dedicou à filosofia desde cedo, desenvolvendo o atomismo.\n\n### 2. O Jardim\n\nFundou sua escola, 'O Jardim', em Atenas, uma comunidade inclusiva baseada na amizade e na vida simples.\n\n### 3. Ataraxia e Dor\n\nApesar das dores crônicas, ensinou que a verdadeira felicidade é a ausência de dor e a tranquilidade da alma (ataraxia).\n\n### 4. Seu Legado\n\nFrequentemente mal compreendido como hedonista, seus ensinamentos verdadeiros sobre a libertação dos medos perduram.",
+    "epic_ar": "### 1. الحياة المبكرة\n\nولد إبيقور عام 341 قبل الميلاد في جزيرة ساموس. اهتم بالفلسفة منذ صغره وطور أفكاره بناءً على النظرية الذرية.\n\n### 2. الحديقة\n\nأسس مدرسته 'الحديقة' في أثينا، وهي مجتمع متسامح شمل النساء والعبيد وركز على الصداقة.\n\n### 3. الطمأنينة والألم\n\nعلى الرغم من معاناته من أمراض مزمنة، علم أن السعادة الحقيقية هي غياب الألم وطمأنينة النفس.\n\n### 4. إرثه\n\nرغم إساءة فهمه كشخص محب للملذات الجسدية، إلا أن رسالته الحقيقية عن التحرر من الخوف تظل خالدة.",
+    "epic_hi": "### 1. प्रारंभिक जीवन\n\nएपिकुरस का जन्म 341 ईसा पूर्व में समोस में हुआ था। उन्होंने कम उम्र में ही दर्शनशास्त्र की ओर रुख किया।\n\n### 2. द गार्डन\n\nउन्होंने एथेंस में अपना स्कूल 'द गार्डन' स्थापित किया, जो एक समावेशी समुदाय था जिसने मित्रता को महत्व दिया।\n\n### 3. शांति और दर्द\n\nलगातार दर्द के बावजूद, उन्होंने सिखाया कि सच्ची खुशी दर्द की अनुपस्थिति और मन की शांति है।\n\n### 4. उनकी विरासत\n\nअक्सर एक सुखवादी के रूप में गलत समझा जाता है, उनकी सच्ची शिक्षा आज भी लोगों को प्रेरित करती है।",
+    "epic_ru": "### 1. Ранние годы\n\nЭпикур родился в 341 году до н.э. на Самосе. Он рано увлекся философией и развил свои идеи атомизма.\n\n### 2. Сад\n\nОн основал свою школу 'Сад' в Афинах, открытую общину, где ценились дружба и простая жизнь.\n\n### 3. Атараксия и Боль\n\nНесмотря на хронические боли, он учил, что истинное счастье заключается в отсутствии боли и спокойствии духа.\n\n### 4. Его Наследие\n\nХотя его часто ошибочно считали гедонистом, его истинное учение об освобождении от страхов актуально и по сей день.",
+    "epic_zh": "### 1. 萨摩斯岛的早年生活\n\n伊壁鸠鲁于公元前341年出生在萨摩斯岛。他很早就转向哲学，并发展了基于原子论的思想。\n\n### 2. 花园\n\n他在雅典建立了名为“花园”的学校，这是一个包容女性和奴隶的社区，致力于友谊和简单的生活。\n\n### 3. 宁静与痛苦\n\n尽管他一生饱受慢性病痛折磨，但他教导说真正的幸福是没有痛苦和心灵的宁静。\n\n### 4. 他的遗产\n\n他经常被误解为一个享乐主义者，但他关于摆脱恐惧和过简朴生活的真正教诲流传至今。"
+  },
+  "trials_ko": "평생을 극심한 육체적 질병(신장결석 등)과 고통 속에 살았으며, 쾌락을 추구한다는 이유로 당대의 철학자들과 대중들로부터 방탕한 향락주의자라는 부당한 오해와 지독한 비난을 받았습니다.",
+  "trials_en": "He lived his entire life with severe physical illnesses, such as kidney stones, and faced intense, unjust criticism and misunderstanding from his contemporaries who wrongly branded him a gluttonous hedonist.",
+  "overcoming_ko": "사치와 향락 대신 마음이 맞는 벗들과 소박하게 생활하며 철학적 대화를 나누었고, 육체의 고통을 정신적 평온함과 우정의 기쁨으로 이겨내어 진정한 행복의 모범을 보였습니다.",
+  "overcoming_en": "He modeled true happiness by living simply with likeminded friends, engaging in philosophical discourse, and conquering his physical agony through the joy of friendship and mental tranquility.",
+  "wisdom": [
+    {
+      "quote_ko": "죽음은 우리에게 아무것도 아니다. 우리가 존재하는 한 죽음은 오지 않았으며, 죽음이 왔을 때 우리는 존재하지 않기 때문이다.",
+      "quote_en": "Death is nothing to us. When we exist, death is not; and when death exists, we are not.",
+      "meaning_ko": "죽음에 대한 막연한 공포가 인간의 행복을 가로막는 가장 큰 원인임을 지적하며, 두려움을 버리고 현재의 삶에 충실할 것을 강조합니다.",
+      "meaning_en": "Points out that the irrational fear of death is the greatest obstacle to human happiness, emphasizing the need to live fully in the present."
+    },
+    {
+      "quote_ko": "정의는 그 자체로 존재하는 것이 아니라, 서로 해치지 않기로 하는 사람들의 상호 합의 속에서만 존재한다.",
+      "quote_en": "Justice is not an independently existing thing, but a compact of mutual non-aggression among people.",
+      "meaning_ko": "정의란 하늘에서 주어진 절대적인 법칙이 아니라, 평화롭고 고통 없는 삶을 살기 위해 사람들이 맺은 사회적 약속임을 설명합니다.",
+      "meaning_en": "Explains that justice is not an absolute law from above, but a social contract made by people to live a peaceful, pain-free life."
+    },
+    {
+      "quote_ko": "친구들의 도움이 필요한 것이 아니라, 그들이 도와줄 것이라는 믿음이 우리를 안심하게 한다.",
+      "quote_en": "It is not so much our friends' help that helps us, as the confidence of their help.",
+      "meaning_ko": "행복한 삶에서 우정이 얼마나 절대적인 가치를 지니는지, 물질적 도움보다 정서적 신뢰가 주는 평온함이 더 크다는 것을 말해줍니다.",
+      "meaning_en": "Highlights the absolute value of friendship for a happy life, showing that emotional trust provides greater peace than material aid."
+    }
+  ]
+}

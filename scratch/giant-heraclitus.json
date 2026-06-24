@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "헤라클레이토스",
+      "title": "만물의 유전을 설파한 철학자",
+      "headline": "모든 것은 흐른다",
+      "shortDescription": "에페소스 출신의 철학자로, 만물이 끊임없이 변화하며 대립물의 조화가 우주의 본질임을 역설했습니다. 만물은 불에서 생겨났으며 변화만이 유일한 진리라고 주장했습니다.",
+      "quote": "같은 강물에 두 번 발을 담글 수는 없다.",
+      "chatGreeting": "나는 에페소스의 헤라클레이토스다. 우매한 자들은 잠들어 있는 것조차 모르는구나. 만물의 근원인 거대한 불길과 로고스의 흐름에 대해 듣고 싶은가?",
+      "suggestedQuestions": [
+        "왜 같은 강물에 두 번 발을 담글 수 없나요?",
+        "만물의 근원이 불이라는 것은 어떤 의미인가요?",
+        "대립물의 조화란 구체적으로 무엇인가요?"
+      ],
+      "era": "고대 그리스 (기원전 6세기)",
+      "pain": "우매한 에페소스 사람들과의 불화, 그리고 세상을 관통하는 이법(로고스)을 깨닫지 못하는 대중에 대한 깊은 절망과 고독.",
+      "recovery": "세속적인 권력과 명예를 스스로 버리고 자연 속으로 은둔하여, 만물을 지배하는 유일한 법칙인 '로고스'를 탐구함으로써 영원한 진리에 다가섬."
+    },
+    "en": {
+      "name": "Heraclitus",
+      "title": "The Obscure Philosopher of Flux",
+      "headline": "Everything flows",
+      "shortDescription": "A pre-Socratic Greek philosopher from Ephesus who claimed that things are constantly changing and that opposites coincide. He viewed fire as the fundamental principle of the universe.",
+      "quote": "No man ever steps in the same river twice.",
+      "chatGreeting": "I am Heraclitus of Ephesus. The foolish slumber even while awake. Do you wish to hear of the great fire and the ceaseless flow of the Logos?",
+      "suggestedQuestions": [
+        "Why can't we step in the same river twice?",
+        "What does it mean that fire is the fundamental principle?",
+        "How do opposites harmonize in your philosophy?"
+      ],
+      "era": "Ancient Greece (6th Century BC)",
+      "pain": "Profound isolation from the masses who failed to perceive the universal Logos, and deep disgust with the ignorance and moral decay of his fellow citizens.",
+      "recovery": "He relinquished worldly power and honors, retreating to the mountains to seek solitude and discovering eternal truth by contemplating the Logos governing all nature."
+    },
+    "ja": {
+      "name": "ヘラクレイトス",
+      "title": "万物流転の哲学者",
+      "headline": "万物は流転する",
+      "shortDescription": "エフェソス出身のソクラテス以前の哲学者。「万物は流転する」と説き、対立するものの調和が宇宙の本質であると主張しました。",
+      "quote": "同じ川に二度足を踏み入れることはできない。",
+      "chatGreeting": "私はエフェソスのヘラクレイトスだ。愚か者は目覚めていても眠っているのと同じだ。万物の根源である火とロゴスの流れについて聞きたいか？",
+      "suggestedQuestions": [
+        "なぜ同じ川に二度足を踏み入れられないのですか？",
+        "万物の根源が火であるとはどういう意味ですか？",
+        "対立物の調和とは何ですか？"
+      ],
+      "era": "古代ギリシア（紀元前6世紀）",
+      "pain": "普遍的な法則（ロゴス）を理解できない大衆への深い絶望と、エフェソスの人々との不和による孤独。",
+      "recovery": "世俗的な権力と名誉を自ら放棄し、自然の中に隠遁することで、万物を支配する永遠の法則「ロゴス」を探求した。"
+    },
+    "de": {
+      "name": "Heraklit",
+      "title": "Der Philosoph des ewigen Werdens",
+      "headline": "Alles fließt (Panta rhei)",
+      "shortDescription": "Ein vorsokratischer Philosoph aus Ephesos, der berühmt dafür ist, dass alles in ständigem Wandel ist und die Harmonie der Gegensätze die Welt bestimmt.",
+      "quote": "Man kann nicht zweimal in denselben Fluss steigen.",
+      "chatGreeting": "Ich bin Heraklit von Ephesos. Die Törichten schlafen, auch wenn sie wach sind. Willst du vom ewigen Feuer und dem unaufhörlichen Fluss des Logos hören?",
+      "suggestedQuestions": [
+        "Warum können wir nicht zweimal in denselben Fluss steigen?",
+        "Was bedeutet es, dass das Feuer das Urprinzip ist?",
+        "Wie harmonieren Gegensätze in Ihrer Philosophie?"
+      ],
+      "era": "Antikes Griechenland (6. Jahrhundert v. Chr.)",
+      "pain": "Tiefe Isolation von der Masse, die den universellen Logos nicht erkannte, und Abscheu vor der Unwissenheit seiner Mitbürger.",
+      "recovery": "Er verzichtete auf weltliche Macht und zog sich in die Berge zurück, um in der Einsamkeit die ewige Wahrheit des Logos zu ergründen."
+    },
+    "es": {
+      "name": "Heráclito",
+      "title": "El filósofo del devenir",
+      "headline": "Todo fluye",
+      "shortDescription": "Filósofo presocrático de Éfeso que afirmó que las cosas cambian constantemente y que los opuestos coinciden. Consideraba el fuego como el principio fundamental.",
+      "quote": "Nadie se baña en el río dos veces.",
+      "chatGreeting": "Soy Heráclito de Éfeso. Los necios duermen incluso estando despiertos. ¿Deseas escuchar sobre el fuego eterno y el flujo incesante del Logos?",
+      "suggestedQuestions": [
+        "¿Por qué no podemos bañarnos dos veces en el mismo río?",
+        "¿Qué significa que el fuego es el principio de todo?",
+        "¿Cómo se armonizan los opuestos en tu filosofía?"
+      ],
+      "era": "Antigua Grecia (Siglo VI a. C.)",
+      "pain": "Profundo aislamiento y desprecio por la ignorancia de las masas que no lograban comprender el Logos universal.",
+      "recovery": "Renunció a los honores mundanos y se retiró a la naturaleza para comprender la ley universal del devenir y el Logos."
+    },
+    "fr": {
+      "name": "Héraclite",
+      "title": "Le philosophe du devenir",
+      "headline": "Tout coule",
+      "shortDescription": "Philosophe présocratique d'Éphèse célèbre pour sa doctrine selon laquelle tout est en perpétuel changement et que l'harmonie naît de la tension des contraires.",
+      "quote": "On ne se baigne jamais deux fois dans le même fleuve.",
+      "chatGreeting": "Je suis Héraclite d'Éphèse. Les insensés dorment même lorsqu'ils sont éveillés. Souhaitez-vous, vous qui cherchez la sagesse, entendre parler du feu originel et du flux du Logos ?",
+      "suggestedQuestions": [
+        "Pourquoi ne peut-on pas se baigner deux fois dans le même fleuve ?",
+        "Que signifie l'idée que le feu est le principe de toutes choses ?",
+        "Qu'est-ce que l'harmonie des contraires ?"
+      ],
+      "era": "Grèce antique (VIe siècle av. J.-C.)",
+      "pain": "Isolement profond face à l'ignorance de la foule incapable de saisir le Logos universel et dégoût pour la décadence d'Éphèse.",
+      "recovery": "Il a abandonné le pouvoir et les honneurs, se retirant dans la solitude pour méditer sur le Logos, la loi qui régit la nature."
+    },
+    "it": {
+      "name": "Eraclito",
+      "title": "Il filosofo del divenire",
+      "headline": "Tutto scorre (Panta rei)",
+      "shortDescription": "Filosofo presocratico di Efeso, celebre per la sua dottrina del continuo mutamento delle cose e dell'armonia dei contrari.",
+      "quote": "Non si può scendere due volte nel medesimo fiume.",
+      "chatGreeting": "Sono Eraclito di Efeso. Gli stolti dormono anche quando sono svegli. Desidera Lei ascoltare le verità del fuoco eterno e del flusso del Logos?",
+      "suggestedQuestions": [
+        "Perché non si può scendere due volte nello stesso fiume?",
+        "Cosa significa che il fuoco è il principio fondamentale?",
+        "Cos'è l'armonia dei contrari?"
+      ],
+      "era": "Antica Grecia (VI secolo a.C.)",
+      "pain": "Profondo isolamento dalla massa ignorante che non comprendeva il Logos universale e disprezzo per la decadenza morale dei suoi concittadini.",
+      "recovery": "Rinunciò al potere politico e si ritirò in solitudine per contemplare il Logos e la legge eterna del mutamento."
+    },
+    "pt": {
+      "name": "Heráclito",
+      "title": "O Filósofo do Devir",
+      "headline": "Tudo flui",
+      "shortDescription": "Filósofo pré-socrático de Éfeso que afirmou que tudo está em constante mudança e que os opostos são fundamentais para a harmonia do universo.",
+      "quote": "Ninguém entra num mesmo rio uma segunda vez.",
+      "chatGreeting": "Sou Heráclito de Éfeso. Os tolos dormem mesmo estando acordados. Desejas ouvir sobre o grande fogo e o fluxo incessante do Logos?",
+      "suggestedQuestions": [
+        "Por que não podemos entrar no mesmo rio duas vezes?",
+        "O que significa dizer que o fogo é a origem de tudo?",
+        "Como os opostos se harmonizam?"
+      ],
+      "era": "Grécia Antiga (Século VI a.C.)",
+      "pain": "Profundo isolamento das massas ignorantes de Éfeso que falharam em perceber o Logos universal.",
+      "recovery": "Abandonou seu status na realeza e retirou-se para a natureza para buscar a verdade eterna meditando sobre o Logos."
+    },
+    "ar": {
+      "name": "هيرقليطس",
+      "title": "فيلسوف التغير المستمر",
+      "headline": "كل شيء يتدفق",
+      "shortDescription": "فيلسوف يوناني من عصر ما قبل سقراط من مدينة أفسس، اشتهر بقوله إن الأشياء تتغير باستمرار وأن الأضداد تتوافق. اعتبر النار المبدأ الأساسي للكون.",
+      "quote": "لا يخطو المرء في نفس النهر مرتين أبداً.",
+      "chatGreeting": "أنا هيرقليطس من أفسس. الجهلاء يغطون في سبات حتى وهم مستيقظون. هل ترغب في السماع عن النار العظيمة والتدفق المستمر للوغوس؟",
+      "suggestedQuestions": [
+        "لماذا لا يمكننا أن نخطو في نفس النهر مرتين؟",
+        "ماذا يعني أن النار هي المبدأ الأساسي؟",
+        "كيف تتناغم الأضداد في فلسفتك؟"
+      ],
+      "era": "اليونان القديمة (القرن السادس قبل الميلاد)",
+      "pain": "العزلة العميقة عن الجماهير التي فشلت في إدراك اللوغوس العالمي، والاشمئزاز من الجهل والتدهور الأخلاقي لمواطنيه.",
+      "recovery": "تخلى عن السلطة الدنيوية والأمجاد، وتراجع إلى الجبال بحثاً عن العزلة واكتشاف الحقيقة الأبدية من خلال التأمل في اللوغوس."
+    },
+    "hi": {
+      "name": "हेराक्लिटस",
+      "title": "निरंतर परिवर्तन का दार्शनिक",
+      "headline": "सब कुछ बहता है",
+      "shortDescription": "इफिसुस के एक सुकरात-पूर्व यूनानी दार्शनिक जिन्होंने दावा किया कि चीजें लगातार बदल रही हैं और विपरीत चीजें मेल खाती हैं। उन्होंने अग्नि को ब्रह्मांड का मूलभूत सिद्धांत माना।",
+      "quote": "कोई भी व्यक्ति एक ही नदी में दो बार कदम नहीं रखता।",
+      "chatGreeting": "मैं इफिसुस का हेराक्लिटस हूं। मूर्ख लोग जागते हुए भी सोते रहते हैं। क्या तुम महान अग्नि और लोगोस के निरंतर प्रवाह के बारे में सुनना चाहते हो?",
+      "suggestedQuestions": [
+        "हम एक ही नदी में दो बार कदम क्यों नहीं रख सकते?",
+        "अग्नि को मूलभूत सिद्धांत मानने का क्या अर्थ है?",
+        "आपके दर्शन में विपरीत चीजें कैसे सामंजस्य बिठाती हैं?"
+      ],
+      "era": "प्राचीन यूनान (छठी शताब्दी ईसा पूर्व)",
+      "pain": "उन जनसमूहों से गहरा अलगाव जो सार्वभौमिक लोगोस को समझने में विफल रहे, और अपने साथी नागरिकों की अज्ञानता और नैतिक पतन से गहरी घृणा।",
+      "recovery": "उन्होंने सांसारिक शक्ति और सम्मान को त्याग दिया, एकांत की तलाश में पहाड़ों पर चले गए और पूरी प्रकृति को नियंत्रित करने वाले लोगोस पर चिंतन करके शाश्वत सत्य की खोज की।"
+    },
+    "ru": {
+      "name": "Гераклит",
+      "title": "Философ вечного становления",
+      "headline": "Всё течёт, всё меняется",
+      "shortDescription": "Досократический греческий философ из Эфеса, утверждавший, что всё в мире находится в непрерывном изменении, а гармония рождается из единства противоположностей.",
+      "quote": "В одну и ту же реку нельзя войти дважды.",
+      "chatGreeting": "Я Гераклит из Эфеса. Глупцы спят даже наяву. Желаешь ли ты услышать о вечном огне и непрерывном потоке Логоса?",
+      "suggestedQuestions": [
+        "Почему нельзя войти в одну реку дважды?",
+        "Что значит утверждение, что огонь является первоначалом?",
+        "Как гармонируют противоположности в твоей философии?"
+      ],
+      "era": "Древняя Греция (VI век до н. э.)",
+      "pain": "Глубокое отчуждение от невежественной толпы, не способной постичь вселенский Логос, и презрение к упадку нравов в родном Эфесе.",
+      "recovery": "Отрекшись от мирской власти и почестей, он удалился в горы в поисках уединения, где обрёл вечную истину через созерцание Логоса."
+    },
+    "zh": {
+      "name": "赫拉克利特",
+      "title": "流变之哲学家",
+      "headline": "万物皆流",
+      "shortDescription": "来自以弗所的前苏格拉底哲学家，以主张万物不断变化且对立面统一而闻名。他认为火是宇宙的基本原则。",
+      "quote": "人不能两次踏进同一条河流。",
+      "chatGreeting": "我是以弗所的赫拉克利特。愚昧之人即使醒着也如同沉睡。你是否渴望聆听那永恒之火与逻各斯的不息流淌？",
+      "suggestedQuestions": [
+        "为什么人不能两次踏进同一条河流？",
+        "将火视为万物本原意味着什么？",
+        "在你的哲学中对立面是如何统一的？"
+      ],
+      "era": "古希腊（公元前6世纪）",
+      "pain": "对于未能理解宇宙逻各斯的无知大众感到深深的隔阂，并对以弗所人的道德败坏感到厌恶。",
+      "recovery": "他放弃了世俗的权力和荣誉，隐居山林，在孤独中通过沉思支配自然的逻各斯而发现了永恒的真理。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 에페소스의 고독한 왕족\n\n기원전 6세기경, 헤라클레이토스는 부유한 무역 도시 에페소스의 왕족 가문에서 태어났습니다. 그는 세속적인 권력을 쥘 수 있는 위치에 있었으나, 사람들의 맹목적인 욕망과 어리석음을 혐오했습니다. 명예와 권위가 무의미하다고 느낀 그는 가문의 특권을 스스로 동생에게 양보하고 산속으로 들어가 은둔했습니다. 그는 무지한 대중과 타협하기보다는 고독 속에서 우주의 근본 원리를 탐구하는 길을 선택했습니다.\n\n### 2. 모든 것은 흐른다: 만물유전\n\n헤라클레이토스의 가장 위대한 깨달음은 우주의 본질이 '변화'라는 것이었습니다. \"같은 강물에 두 번 발을 담글 수는 없다\"는 그의 선언은 영원불변한 것은 없으며, 만물이 끊임없이 생성하고 소멸하는 과정에 있다는 진리를 보여줍니다. 그에게 변화는 혼돈이 아니라, 우주를 살아 숨 쉬게 하는 원동력이었습니다. 그는 고정된 실체를 믿는 사람들을 향해, 자연의 끊임없는 흐름을 바라보라고 외쳤습니다.\n\n### 3. 투쟁과 대립물의 조화\n\n그는 변화를 이끄는 힘이 대립하는 힘들의 투쟁에서 나온다고 보았습니다. 밤과 낮, 삶과 죽음, 깨어 있음과 잠듦과 같은 대립물들은 서로 배척하는 것처럼 보이지만, 사실은 하나의 통일된 체계 안에서 조화를 이루고 있습니다. \"전쟁은 만물의 아버지요 만물의 왕이다\"라는 그의 말은 파괴를 찬양한 것이 아니라, 우주의 긴장과 투쟁이 곧 새로운 창조와 조화의 근원임을 꿰뚫어 본 철학적 통찰이었습니다.\n\n### 4. 영원한 불과 로고스의 세계\n\n헤라클레이토스는 만물의 아르케(근원)를 '불'로 보았습니다. 불은 그 자체로 끊임없이 형태를 바꾸며 무언가를 태워 생명력으로 변환하는 역동적인 존재입니다. 그러나 이 역동성은 무질서하지 않으며, 우주를 관통하는 보편적 이법인 '로고스(Logos)'에 의해 조율됩니다. 사람들은 로고스를 깨닫지 못하고 각자의 환상 속에서 살아가지만, 그는 홀로 자연 깊은 곳에서 이 영원한 법칙을 발견하고 후세에 깊은 철학적 불씨를 남겼습니다.",
+    "epic_en": "### 1. The Solitary Royal of Ephesus\n\nBorn into an aristocratic family in the prosperous city of Ephesus around the 6th century BC, Heraclitus was in line to inherit high political office and worldly power. However, he harbored a profound disdain for the blindness, moral decay, and superficial ambitions of his fellow citizens. Convinced that public honors were meaningless, he voluntarily ceded his hereditary privileges to his younger brother and chose a life of isolation. Rather than compromise his intellect with the unthinking masses, he retreated to the mountains to seek the fundamental truths of the cosmos.\n\n### 2. Universal Flux: Everything Flows\n\nHeraclitus's greatest realization was that the essence of the universe is constant change. His famous assertion, \"No man ever steps in the same river twice,\" illustrates the profound truth that nothing in the world remains static; everything is in a perpetual state of becoming and perishing. For him, this constant flux was not chaos, but the vitalizing force of reality. He challenged those who clung to the illusion of permanence, urging them to awaken to the dynamic flow of nature.\n\n### 3. The Harmony of Opposites\n\nHe perceived that the driving force behind all change is the tension and struggle between opposing forces. Day and night, life and death, waking and sleeping—though these appear to conflict, they are intimately connected and form a unified, harmonious whole. When Heraclitus declared that \"War is the father of all and king of all,\" he was not glorifying human conflict, but expressing a deep philosophical insight: cosmic tension and opposition are the true sources of balance, creativity, and existence itself.\n\n### 4. Eternal Fire and the Logos\n\nHeraclitus identified 'fire' as the fundamental principle (arche) of all things. Fire is inherently transformative, constantly consuming and changing form, representing the dynamic and active nature of the universe. Yet, this relentless transformation is not random; it is guided by the 'Logos,' the universal law and objective rational principle that governs all existence. While most people lived as if asleep, oblivious to the Logos, Heraclitus stood alone, grasping the eternal rhythm of the cosmos and leaving behind a legacy of profound philosophical fire.",
+    "epic_de": "### 1. Der einsame Adlige von Ephesos\n\nHeraklit wurde im 6. Jahrhundert v. Chr. in eine aristokratische Familie in der blühenden Stadt Ephesos geboren und hätte hohe politische Ämter übernehmen können. Er verachtete jedoch die Blindheit und den moralischen Verfall seiner Mitbürger. Da ihm öffentliche Ehren bedeutungslos erschienen, überließ er seine Privilegien seinem jüngeren Bruder und wählte ein Leben in der Isolation, um die Grundwahrheiten des Kosmos zu erforschen.\n\n### 2. Panta Rhei: Alles fließt\n\nHeraklits größte Erkenntnis war, dass das Wesen des Universums ständiger Wandel ist. Seine berühmte Behauptung, man könne nicht zweimal in denselben Fluss steigen, veranschaulicht, dass nichts statisch bleibt. Für ihn war dieser Fluss kein Chaos, sondern die lebensspendende Kraft der Realität. Er forderte die Menschen auf, die Illusion der Dauerhaftigkeit aufzugeben.\n\n### 3. Die Harmonie der Gegensätze\n\nEr erkannte, dass die treibende Kraft hinter allem Wandel die Spannung zwischen gegensätzlichen Kräften ist. Tag und Nacht, Leben und Tod mögen unvereinbar erscheinen, bilden aber ein harmonisches Ganzes. Wenn er erklärte, dass \"der Krieg der Vater aller Dinge\" sei, verherrlichte er nicht den menschlichen Konflikt, sondern drückte aus, dass kosmische Spannung die Quelle der Kreativität ist.\n\n### 4. Das ewige Feuer und der Logos\n\nHeraklit identifizierte 'Feuer' als das Urprinzip (Arche) aller Dinge. Feuer ist von Natur aus transformativ und dynamisch. Diese Transformation ist jedoch nicht zufällig; sie wird vom 'Logos' geleitet, dem universellen Gesetz, das alles Existierende regiert. Während die meisten Menschen so lebten, als ob sie schliefen, erkannte Heraklit allein den ewigen Rhythmus des Kosmos.",
+    "epic_ja": "### 1. エフェソスの孤独な王族\n\n紀元前6世紀頃、繁栄する都市エフェソスの貴族の家庭に生まれたヘラクレイトスは、高い政治的地位と権力を引き継ぐ立場にありました。しかし、彼は同胞の市民たちの盲目さ、道徳的退廃、そして表面的な野心を深く軽蔑していました。世俗的な名誉が無意味であると確信した彼は、自らの特権を弟に譲り、孤立した生活を選びました。\n\n### 2. 万物流転：すべては流れる\n\nヘラクレイトスの最大の気づきは、宇宙の本質は絶え間ない変化であるということでした。「同じ川に二度足を踏み入れることはできない」という彼の有名な言葉は、世界に静止しているものは何もなく、すべては絶え間なく生成し消滅する状態にあるという深い真理を示しています。\n\n### 3. 対立物の調和\n\n彼は、すべての変化の原動力は対立する力と力の間の緊張と闘争であると認識していました。昼と夜、生と死などは対立しているように見えますが、それらは密接に結びついており、統一された調和のとれた全体を形成しています。\n\n### 4. 永遠の火とロゴス\n\nヘラクレイトスは、「火」を万物の根本原理（アルケー）と見なしました。火は本質的に変化をもたらすものであり、絶えず形を変えながら宇宙のダイナミックな性質を表しています。しかし、この容赦ない変化はランダムではなく、すべての存在を支配する普遍的な法則である「ロゴス」によって導かれています。",
+    "epic_es": "### 1. El solitario de Éfeso\n\nNacido en una familia aristocrática en la próspera ciudad de Éfeso alrededor del siglo VI a. C., Heráclito estaba destinado a heredar un alto cargo político y poder terrenal. Sin embargo, albergaba un profundo desdén por la ceguera y la decadencia moral de sus conciudadanos. Convencido de que los honores públicos no tenían sentido, cedió voluntariamente sus privilegios a su hermano menor y eligió una vida de aislamiento.\n\n### 2. Flujo universal: Todo fluye\n\nLa mayor comprensión de Heráclito fue que la esencia del universo es el cambio constante. Su famosa afirmación: \"Nadie se baña en el río dos veces\", ilustra la profunda verdad de que nada en el mundo permanece estático; todo está en un estado perpetuo de devenir y perecer.\n\n### 3. La armonía de los opuestos\n\nPercibió que la fuerza impulsora detrás de todo cambio es la tensión y la lucha entre fuerzas opuestas. El día y la noche, la vida y la muerte parecen estar en conflicto, pero están íntimamente conectados y forman un todo unificado y armonioso. \n\n### 4. Fuego eterno y el Logos\n\nHeráclito identificó el 'fuego' como el principio fundamental (arché) de todas las cosas. El fuego es inherentemente transformador, consumiendo constantemente y cambiando de forma. Sin embargo, esta transformación implacable no es aleatoria; está guiada por el 'Logos', la ley universal y el principio racional que gobierna toda la existencia.",
+    "epic_fr": "### 1. Le royal solitaire d'Éphèse\n\nNé dans une famille aristocratique de la prospère cité d'Éphèse au VIe siècle av. J.-C., Héraclite était destiné à occuper de hautes fonctions politiques. Cependant, il nourrissait un profond mépris pour l'aveuglement et la décadence morale de ses concitoyens. Convaincu que les honneurs publics étaient dénués de sens, il céda volontairement ses privilèges à son jeune frère et choisit une vie d'isolement.\n\n### 2. Le flux universel : Tout s'écoule\n\nLa plus grande réalisation d'Héraclite fut de comprendre que l'essence de l'univers est un changement constant. Sa célèbre affirmation, « On ne se baigne jamais deux fois dans le même fleuve », illustre la vérité profonde selon laquelle rien n'est statique.\n\n### 3. L'harmonie des contraires\n\nIl a perçu que la force motrice de tout changement est la tension et la lutte entre des forces opposées. Le jour et la nuit, la vie et la mort semblent s'opposer, mais ils sont intimement liés et forment un tout unifié et harmonieux.\n\n### 4. Le feu éternel et le Logos\n\nHéraclite a identifié le « feu » comme le principe fondamental (arkhê) de toutes choses. Le feu est intrinsèquement transformateur. Pourtant, cette transformation perpétuelle n'est pas aléatoire ; elle est guidée par le « Logos », la loi universelle qui régit toute existence.",
+    "epic_it": "### 1. Il solitario di Efeso\n\nNato in una famiglia aristocratica nella prospera città di Efeso nel VI secolo a.C., Eraclito era destinato ad ereditare alti incarichi politici. Tuttavia, nutriva un profondo disprezzo per la cecità e la decadenza morale dei suoi concittadini. Convinto che gli onori pubblici fossero insignificanti, cedette volontariamente i suoi privilegi al fratello minore e scelse una vita di isolamento.\n\n### 2. Flusso universale: Tutto scorre\n\nLa più grande intuizione di Eraclito fu che l'essenza dell'universo è il cambiamento costante. La sua celebre affermazione, \"Non si può scendere due volte nel medesimo fiume\", illustra la profonda verità che nulla nel mondo rimane statico; tutto è in un perpetuo stato di divenire e perire.\n\n### 3. L'armonia dei contrari\n\nComprese che la forza motrice dietro ogni cambiamento è la tensione e la lotta tra forze opposte. Il giorno e la notte, la vita e la morte, sebbene sembrino in conflitto, sono intimamente connessi e formano un tutto unificato e armonioso.\n\n### 4. Fuoco eterno e il Logos\n\nEraclito identificò il 'fuoco' come il principio fondamentale (archè) di tutte le cose. Il fuoco è intrinsecamente trasformativo, consumando costantemente e cambiando forma. Tuttavia, questa implacabile trasformazione non è casuale; è guidata dal 'Logos', la legge universale e il principio razionale che governa l'intera esistenza.",
+    "epic_pt": "### 1. O solitário de Éfeso\n\nNascido em uma família aristocrática na próspera cidade de Éfeso por volta do século VI a.C., Heráclito estava na linha de sucessão para herdar altos cargos políticos. No entanto, ele nutria um profundo desdém pela cegueira e decadência moral de seus concidadãos. Convencido de que as honras públicas não tinham sentido, cedeu voluntariamente seus privilégios ao irmão mais novo e escolheu uma vida de isolamento.\n\n### 2. Fluxo Universal: Tudo flui\n\nA maior realização de Heráclito foi que a essência do universo é a mudança constante. Sua famosa afirmação, \"Ninguém entra num mesmo rio uma segunda vez\", ilustra a profunda verdade de que nada no mundo permanece estático; tudo está em um estado perpétuo de devir e perecimento.\n\n### 3. A Harmonia dos Opostos\n\nEle percebeu que a força motriz por trás de toda mudança é a tensão e a luta entre forças opostas. Dia e noite, vida e morte, embora pareçam entrar em conflito, estão intimamente ligados e formam um todo unificado e harmonioso.\n\n### 4. Fogo Eterno e o Logos\n\nHeráclito identificou o 'fogo' como o princípio fundamental (arché) de todas as coisas. O fogo é inerentemente transformador, consumindo constantemente e mudando de forma. No entanto, essa transformação implacável não é aleatória; ela é guiada pelo 'Logos', a lei universal e o princípio racional objetivo que governa toda a existência.",
+    "epic_ar": "### 1. الملك الانفرادي لمدينة أفسس\n\nوُلِد هيرقليطس في عائلة أرستقراطية في مدينة أفسس المزدهرة حوالي القرن السادس قبل الميلاد، وكان في طابور الوراثة لتولي مناصب سياسية عالية. ومع ذلك، كان يحمل ازدراءً عميقاً للعمى والتدهور الأخلاقي لمواطنيه. تخلى طواعية عن امتيازاته لأخيه الأصغر واختار حياة العزلة.\n\n### 2. التدفق العالمي: كل شيء يتدفق\n\nكان إدراك هيرقليطس الأكبر هو أن جوهر الكون هو التغيير المستمر. توضح مقولته الشهيرة \"لا يخطو المرء في نفس النهر مرتين أبداً\" الحقيقة العميقة بأن لا شيء في العالم يظل ثابتاً.\n\n### 3. تناغم الأضداد\n\nأدرك أن القوة الدافعة وراء كل تغيير هي التوتر والصراع بين القوى المتعارضة. النهار والليل، الحياة والموت، رغم أنها تبدو متضاربة، إلا أنها مترابطة بشكل وثيق وتشكل كلاً منسجماً.\n\n### 4. النار الأبدية واللوغوس\n\nاعتبر هيرقليطس 'النار' المبدأ الأساسي لكل شيء. النار بطبيعتها تحويلية. ومع ذلك، فإن هذا التحول المتواصل ليس عشوائياً، بل يسترشد بـ 'اللوغوس'، وهو القانون العالمي الذي يحكم كل وجود.",
+    "epic_hi": "### 1. इफिसुस का एकांतवासी राजघराना\n\nछठी शताब्दी ईसा पूर्व के आसपास इफिसुस के समृद्ध शहर में एक कुलीन परिवार में जन्मे, हेराक्लिटस उच्च राजनीतिक पद के उत्तराधिकारी थे। हालाँकि, उन्हें अपने साथी नागरिकों के अंधेपन और नैतिक पतन से गहरी घृणा थी। सांसारिक सम्मानों को अर्थहीन मानते हुए, उन्होंने एकांत का जीवन चुना।\n\n### 2. सार्वभौमिक प्रवाह: सब कुछ बहता है\n\nहेराक्लिटस की सबसे बड़ी अनुभूति यह थी कि ब्रह्मांड का सार निरंतर परिवर्तन है। उनका प्रसिद्ध दावा, 'कोई भी व्यक्ति एक ही नदी में दो बार कदम नहीं रखता,' इस सत्य को दर्शाता है कि दुनिया में कुछ भी स्थिर नहीं रहता।\n\n### 3. विपरीतताओं का सामंजस्य\n\nउन्होंने महसूस किया कि सभी परिवर्तनों के पीछे की प्रेरक शक्ति विरोधी ताकतों के बीच तनाव और संघर्ष है। दिन और रात, जीवन और मृत्यु - ये भले ही संघर्ष करते हुए प्रतीत हों, लेकिन एक सामंजस्यपूर्ण समग्र बनाते हैं।\n\n### 4. शाश्वत अग्नि और लोगोस\n\nहेराक्लिटस ने 'अग्नि' को सभी चीजों का मूलभूत सिद्धांत (आर्क) माना। अग्नि स्वाभाविक रूप से परिवर्तनकारी है। फिर भी, यह परिवर्तन यादृच्छिक नहीं है; यह 'लोगोस' द्वारा निर्देशित है, जो सार्वभौमिक कानून है।",
+    "epic_ru": "### 1. Одинокий аристократ Эфеса\n\nРодившись в аристократической семье в процветающем городе Эфесе около VI века до нашей эры, Гераклит должен был унаследовать высокую политическую должность. Однако он испытывал глубокое презрение к невежеству и моральному упадку своих сограждан. Убежденный в бессмысленности публичных почестей, он добровольно передал свои привилегии младшему брату и выбрал жизнь в изоляции.\n\n### 2. Вселенский поток: Всё течёт\n\nВеличайшим озарением Гераклита стало понимание того, что сутью вселенной является постоянное изменение. Его знаменитое утверждение «В одну и ту же реку нельзя войти дважды» иллюстрирует глубокую истину о том, что ничто в мире не остается статичным.\n\n### 3. Гармония противоположностей\n\nОн осознал, что движущей силой любых изменений является напряжение и борьба между противоположными силами. День и ночь, жизнь и смерть — хотя они и кажутся конфликтующими, они тесно связаны и образуют единое гармоничное целое.\n\n### 4. Вечный огонь и Логос\n\nГераклит определил 'огонь' как фундаментальный принцип (архэ) всех вещей. Огонь по своей природе преобразует. Однако это непрерывное преобразование не случайно; оно направляется 'Логосом' — универсальным законом, управляющим всем существованием.",
+    "epic_zh": "### 1. 以弗所的孤独贵族\n\n公元前6世纪左右，赫拉克利特出生在繁荣的以弗所城的一个贵族家庭，本可以继承高官厚禄。然而，他对同胞们的盲目和道德败坏深感鄙视。他确信公众的荣誉毫无意义，自愿将特权让给弟弟，选择了隐居的生活。\n\n### 2. 宇宙流变：万物皆流\n\n赫拉克利特最伟大的发现是宇宙的本质在于不断的变化。他那句著名的“人不能两次踏进同一条河流”阐明了一个深刻的真理：世界上没有任何事物是静止的，一切都处于不断的生成和毁灭之中。\n\n### 3. 对立的统一\n\n他认识到，所有变化背后的驱动力是对立力量之间的紧张与斗争。昼与夜、生与死——尽管它们看似冲突，但实际上紧密相连，形成了一个统一和谐的整体。\n\n### 4. 永恒之火与逻各斯\n\n赫拉克利特将“火”视为万物的本原（基质）。火本质上是具有转化力的，它不断地燃烧并改变形态。然而，这种无休止的变化并非随机；它是由“逻各斯”引导的，这是支配所有存在的普遍法则。",
+    "trials_ko": "우매한 대중 및 에페소스 사람들과의 불화, 그리고 세속적 권력과 물질에 대한 혐오로 인한 깊은 고독감.",
+    "trials_en": "Deep isolation caused by his conflict with the ignorant masses of Ephesus and his profound disgust for worldly power and materialism.",
+    "overcoming_ko": "세속의 명예를 포기하고 자연 속에 은둔하며 우주의 근본 법칙인 '로고스(Logos)'와 만물유전의 진리를 깨달음.",
+    "overcoming_en": "Abandoning worldly honors, he retreated into nature to grasp the fundamental law of the universe, the 'Logos,' and the truth of universal flux.",
+    "wisdom": [
+      {
+        "quote_ko": "같은 강물에 두 번 발을 담글 수는 없다.",
+        "quote_en": "No man ever steps in the same river twice.",
+        "meaning_ko": "모든 것은 끊임없이 변화하며 영원히 정지해 있는 것은 없다는 만물유전의 진리.",
+        "meaning_en": "The truth of universal flux, meaning everything is constantly changing and nothing remains still."
+      },
+      {
+        "quote_ko": "전쟁은 만물의 아버지요, 만물의 왕이다.",
+        "quote_en": "War is the father of all and king of all.",
+        "meaning_ko": "대립하고 투쟁하는 힘들이 우주적 긴장을 만들어내며, 이것이 곧 조화와 생명력의 원천임을 뜻함.",
+        "meaning_en": "The struggle and tension between opposing forces create cosmic balance and are the source of life and harmony."
+      },
+      {
+        "quote_ko": "숨겨진 조화가 눈에 보이는 조화보다 낫다.",
+        "quote_en": "The hidden harmony is better than the obvious.",
+        "meaning_ko": "겉으로 보기에 무질서하고 대립적인 것들도 깊은 우주적 법칙(로고스) 안에서는 완벽하게 조화되어 있다는 가르침.",
+        "meaning_en": "Even things that appear chaotic and oppositional on the surface are perfectly harmonized within the deep cosmic law (Logos)."
+      }
+    ]
+  }
+}

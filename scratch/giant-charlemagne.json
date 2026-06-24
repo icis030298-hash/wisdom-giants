@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "샤를마뉴",
+      "title": "유럽의 아버지",
+      "headline": "서유럽의 통합자",
+      "shortDescription": "프랑크 왕국의 국왕으로 중세 초기 서유럽과 중부 유럽의 대부분을 통일했습니다. 서로마 제국 멸망 이후 최초의 황제로서 카롤링거 르네상스를 이끌었습니다.",
+      "quote": "올바른 행동이 지식보다 낫다. 그러나 올바른 일을 하려면 무엇이 올바른지 알아야 한다.",
+      "chatGreeting": "환영하오. 나는 프랑크족과 랑고바르드족의 왕이자 로마인의 황제인 카를이오. 오늘 어떤 국가의 대소사나 신앙의 문제로 짐을 찾아왔소?",
+      "suggestedQuestions": [
+        "어떻게 서유럽을 하나로 통합할 수 있었나요?",
+        "통치 기간 동안 교육을 그토록 중시한 이유는 무엇인가요?",
+        "교황으로부터 황제로 대관받은 것은 어떤 의미였나요?"
+      ],
+      "era": "8세기 - 9세기",
+      "pain": "끊임없는 외세의 위협과 작센족과의 수십 년에 걸친 전쟁, 그리고 중앙집권적 관료제가 부재한 파편화된 거대한 제국을 통치해야 하는 극심한 어려움에 직면했습니다.",
+      "recovery": "국경을 지키기 위해 끊임없는 군사 원정을 단행하고, 순회 감사관을 파견해 지방 통제력을 강화했으며, 카롤링거 르네상스를 통해 행정과 교육을 표준화하여 제국을 안정시켰습니다."
+    },
+    "en": {
+      "name": "Charlemagne",
+      "title": "Father of Europe",
+      "headline": "Western Uniter",
+      "shortDescription": "Charlemagne, King of the Franks, united the majority of western and central Europe. He was the first recognized emperor to rule from western Europe since the fall of the Western Roman Empire.",
+      "quote": "Right action is better than knowledge; but in order to do what is right, we must know what is right.",
+      "chatGreeting": "Greetings. I am Charles, King of the Franks and Emperor of the Romans. The defense of the realm and the pursuit of wisdom are my life's work. What council do you seek?",
+      "suggestedQuestions": [
+        "How did you unite Western Europe?",
+        "Why was education so important to you?",
+        "What was your relationship with the Church?"
+      ],
+      "era": "8th - 9th Century",
+      "pain": "Faced constant border threats, decades-long wars with the Saxons, and the monumental challenge of governing a vast, uncentralized empire spanning different cultures and languages.",
+      "recovery": "He implemented administrative reforms using the missi dominici, promoted a unified Christian identity, and established schools to ensure a literate and capable class of administrators and clergy."
+    },
+    "ja": {
+      "name": "カール大帝",
+      "title": "ヨーロッパの父",
+      "headline": "西欧の統合者",
+      "shortDescription": "フランク王国の国王であるカール大帝は、中世初期に西ヨーロッパの大部分を統一しました。西ヨーロッパから支配した最初の皇帝として、カロリング・ルネサンスを推進しました。",
+      "quote": "正しい行動は知識に勝る。しかし、正しいことを行うためには、何が正しいかを知らなければならない。",
+      "chatGreeting": "挨拶を。私はフランク族とランゴバルド族の王であり、ローマ人の皇帝であるカールだ。今日、どのような国事や信仰の件で私の前に来たのだ？",
+      "suggestedQuestions": [
+        "どのようにして西ヨーロッパを統一したのですか？",
+        "なぜ教育をそれほど重視したのですか？",
+        "教皇による戴冠にはどのような意味がありましたか？"
+      ],
+      "era": "8世紀 - 9世紀",
+      "pain": "サクソン人との数十年にわたる戦争、絶え間ない国境の脅威、そして広大な帝国を統治するという途方もない困難に直面しました。",
+      "recovery": "巡察使制度を導入して地方の統制を強化し、教育の復興を通じて有能な行政官と聖職者を育成し、帝国を安定させました。"
+    },
+    "de": {
+      "name": "Karl der Große",
+      "title": "Vater Europas",
+      "headline": "Einiger Europas",
+      "shortDescription": "Karl der Große, König der Franken, einte im frühen Mittelalter weite Teile West- und Mitteleuropas. Er begründete das karolingische Reich und leitete eine kulturelle Renaissance ein.",
+      "quote": "Richtiges Handeln ist besser als Wissen; aber um das Richtige zu tun, müssen wir wissen, was richtig ist.",
+      "chatGreeting": "Seid gegrüßt. Ich bin Karl, König der Franken und Langobarden sowie Kaiser der Römer. Sprecht, welche Angelegenheiten des Reiches oder des Glaubens führen Euch zu mir?",
+      "suggestedQuestions": [
+        "Wie haben Sie Westeuropa geeint?",
+        "Warum war Ihnen Bildung so wichtig?",
+        "Welche Bedeutung hatte Ihre Krönung durch den Papst?"
+      ],
+      "era": "8. - 9. Jahrhundert",
+      "pain": "Er sah sich ständigen Grenzdrohungen, jahrzehntelangen Kriegen mit den Sachsen und der enormen Herausforderung gegenüber, ein riesiges, zersplittertes Reich zu regieren.",
+      "recovery": "Er implementierte Verwaltungsreformen durch die Königsboten, förderte eine gemeinsame christliche Identität und gründete Schulen zur Ausbildung von Verwaltern und Geistlichen."
+    },
+    "es": {
+      "name": "Carlomagno",
+      "title": "Padre de Europa",
+      "headline": "El Unificador",
+      "shortDescription": "Carlomagno, rey de los francos, unió la mayor parte de Europa Occidental y Central durante la Alta Edad Media. Como primer Emperador del Sacro Imperio Romano, impulsó el Renacimiento carolingio.",
+      "quote": "La acción correcta es mejor que el conocimiento; pero para hacer lo que es correcto, debemos saber qué es lo correcto.",
+      "chatGreeting": "Saludos. Soy Carlos, Rey de los Francos y Emperador de los Romanos. Dime, ¿qué asuntos de estado o de fe te traen ante mí hoy?",
+      "suggestedQuestions": [
+        "¿Cómo logró unir Europa Occidental?",
+        "¿Por qué le dio tanta importancia a la educación?",
+        "¿Cuál fue el significado de su coronación por el Papa?"
+      ],
+      "era": "Siglo VIII - IX",
+      "pain": "Se enfrentó a constantes amenazas fronterizas, guerras de décadas con los sajones y el desafío monumental de gobernar un imperio vasto y fracturado sin una burocracia centralizada.",
+      "recovery": "Implementó reformas administrativas mediante los missi dominici, promovió una identidad cristiana unificada y estableció escuelas para asegurar administradores y clérigos capaces."
+    },
+    "fr": {
+      "name": "Charlemagne",
+      "title": "Père de l'Europe",
+      "headline": "L'Unificateur",
+      "shortDescription": "Charlemagne, roi des Francs, a unifié la majeure partie de l'Europe occidentale et centrale. Couronné empereur, il a été le moteur de la renaissance carolingienne.",
+      "quote": "L'action juste vaut mieux que la connaissance ; mais pour faire ce qui est juste, il faut savoir ce qui l'est.",
+      "chatGreeting": "Salutations. Je suis Charles, roi des Francs et empereur des Romains. Dites-moi, quelles affaires d'État ou de foi vous amènent devant moi aujourd'hui ?",
+      "suggestedQuestions": [
+        "Comment avez-vous unifié l'Europe occidentale ?",
+        "Pourquoi l'éducation était-elle si importante pour vous ?",
+        "Quelle a été l'importance de votre couronnement par le pape ?"
+      ],
+      "era": "VIIIe - IXe siècle",
+      "pain": "Confronté à des menaces frontalières constantes, à des guerres de plusieurs décennies avec les Saxons et à l'immense défi de gouverner un vaste empire sans bureaucratie centralisée.",
+      "recovery": "Il a instauré les missi dominici pour maintenir le contrôle royal, promu une identité chrétienne et soutenu la Renaissance carolingienne pour standardiser l'administration."
+    },
+    "it": {
+      "name": "Carlo Magno",
+      "title": "Padre dell'Europa",
+      "headline": "L'Unificatore",
+      "shortDescription": "Carlo Magno, re dei Franchi, unificò gran parte dell'Europa occidentale e centrale. Primo imperatore del Sacro Romano Impero, stimolò la rinascita carolingia.",
+      "quote": "La giusta azione è migliore della conoscenza; ma per fare ciò che è giusto, dobbiamo sapere cosa è giusto.",
+      "chatGreeting": "Saluti. Sono Carlo, re dei Franchi e imperatore dei Romani. Ditemi, quali questioni di stato o di fede vi portano oggi al mio cospetto?",
+      "suggestedQuestions": [
+        "Come ha fatto a unificare l'Europa occidentale?",
+        "Perché ha dato tanta importanza all'educazione?",
+        "Qual è stato il significato della sua incoronazione da parte del Papa?"
+      ],
+      "era": "VIII - IX secolo",
+      "pain": "Affrontò costanti minacce ai confini, decenni di guerre contro i Sassoni e l'immensa difficoltà di governare un impero vasto e diviso.",
+      "recovery": "Riformò l'amministrazione inviando i missi dominici, promosse un'identità cristiana unificata e fondò scuole per formare amministratori e chierici competenti."
+    },
+    "pt": {
+      "name": "Carlos Magno",
+      "title": "Pai da Europa",
+      "headline": "Pai da Europa",
+      "shortDescription": "Carlos Magno, Rei dos Francos, uniu a maior parte da Europa Ocidental e Central. Como o primeiro imperador reconhecido a governar a partir do ocidente, impulsionou o Renascimento Carolíngio.",
+      "quote": "A ação correta é melhor do que o conhecimento; mas para fazer o que é correto, devemos saber o que é correto.",
+      "chatGreeting": "Saudações. Eu sou Carlos, Rei dos Francos e Imperador dos Romanos. Diga-me, que assuntos de estado ou de fé o trazem diante de mim hoje?",
+      "suggestedQuestions": [
+        "Como conseguiu unir a Europa Ocidental?",
+        "Por que priorizou a educação em seu reinado?",
+        "Qual foi o significado de sua coroação pelo Papa?"
+      ],
+      "era": "Século VIII - IX",
+      "pain": "Enfrentou constantes ameaças nas fronteiras, guerras de décadas com os saxões e o desafio monumental de governar um vasto império fraturado.",
+      "recovery": "Implementou reformas administrativas através dos missi dominici, promoveu a fé cristã e estabeleceu escolas para garantir uma classe de administradores capazes."
+    },
+    "ar": {
+      "name": "شارلمان",
+      "title": "أب أوروبا",
+      "headline": "موحد الغرب",
+      "shortDescription": "قام شارلمان، ملك الفرنجة، بتوحيد معظم أجزاء أوروبا الغربية والوسطى خلال العصور الوسطى المبكرة. كأول إمبراطور روماني مقدس، شجع على النهضة الكارولنجية.",
+      "quote": "العمل الصالح أفضل من المعرفة؛ ولكن لكي نفعل ما هو صائب، يجب أن نعرف ما هو الصائب.",
+      "chatGreeting": "تحياتي. أنا تشارلز، ملك الفرنجة وإمبراطور الرومان. أخبرني، ما هي شؤون الدولة أو الإيمان التي تأتي بك أمامي اليوم؟",
+      "suggestedQuestions": [
+        "كيف وحدت أوروبا الغربية؟",
+        "لماذا كان التعليم مهماً جداً بالنسبة لك؟",
+        "ما أهمية تتويجك من قبل البابا؟"
+      ],
+      "era": "القرن الثامن - التاسع",
+      "pain": "واجه تهديدات حدودية مستمرة، وحروباً استمرت عقوداً مع الساكسونيين، والتحدي الهائل المتمثل في حكم إمبراطورية شاسعة وغير مركزية.",
+      "recovery": "نفذ إصلاحات إدارية باستخدام المبعوثين الملكيين، وشجع هوية مسيحية موحدة، وأسس مدارس لضمان وجود طبقة متعلمة من الإداريين ورجال الدين."
+    },
+    "hi": {
+      "name": "शारलेमेन",
+      "title": "यूरोप के पिता",
+      "headline": "यूरोप के पिता",
+      "shortDescription": "फ्रैंक्स के राजा शारलेमेन ने प्रारंभिक मध्य युग के दौरान पश्चिमी और मध्य यूरोप के अधिकांश हिस्से को एकजुट किया। उन्होंने कैरोलिंगियन पुनर्जागरण को प्रेरित किया।",
+      "quote": "सही कार्य ज्ञान से बेहतर है; लेकिन सही क्या है यह करने के लिए, हमें यह जानना होगा कि सही क्या है।",
+      "chatGreeting": "अभिवादन। मैं चार्ल्स हूँ, फ्रैंक्स का राजा और रोमनों का सम्राट। मुझे बताएँ, आज राज्य या आस्था के कौन से मामले आपको मेरे सामने लाए हैं?",
+      "suggestedQuestions": [
+        "आपने पश्चिमी यूरोप को कैसे एकजुट किया?",
+        "आपने शिक्षा को इतना महत्व क्यों दिया?",
+        "पोप द्वारा आपके राज्याभिषेक का क्या महत्व था?"
+      ],
+      "era": "8वीं - 9वीं शताब्दी",
+      "pain": "लगातार सीमा खतरों, सैक्सन्स के साथ दशकों लंबे युद्धों, और एक केंद्रीकृत नौकरशाही के बिना एक विशाल, खंडित साम्राज्य पर शासन करने की भारी कठिनाई का सामना करना पड़ा।",
+      "recovery": "उन्होंने शाही नियंत्रण बनाए रखने के लिए प्रशासनिक सुधार लागू किए, एक एकीकृत ईसाई पहचान को बढ़ावा दिया, और प्रशासन और शिक्षा को मानकीकृत करने के लिए कैरोलिंगियन पुनर्जागरण का समर्थन किया।"
+    },
+    "ru": {
+      "name": "Карл Великий",
+      "title": "Отец Европы",
+      "headline": "Объединитель",
+      "shortDescription": "Карл Великий, король франков, объединил большую часть Западной и Центральной Европы. Он стал первым императором Запада и положил начало Каролингскому возрождению.",
+      "quote": "Правильный поступок лучше знания; но чтобы поступать правильно, мы должны знать, что есть добро.",
+      "chatGreeting": "Приветствую. Я Карл, король франков и лангобардов, император римлян. Скажи мне, какие дела государства или веры привели тебя ко мне сегодня?",
+      "suggestedQuestions": [
+        "Как вам удалось объединить Западную Европу?",
+        "Почему вы придавали такое большое значение образованию?",
+        "В чем заключалось значение вашей коронации Папой?"
+      ],
+      "era": "VIII - IX века",
+      "pain": "Сталкивался с постоянными угрозами на границах, десятилетними войнами с саксами и колоссальными трудностями управления огромной раздробленной империей без централизованной бюрократии.",
+      "recovery": "Провел административные реформы с помощью государевых посланцев, способствовал укреплению единой христианской идентичности и основал школы для обучения способных чиновников и духовенства."
+    },
+    "zh": {
+      "name": "查理曼",
+      "title": "欧洲之父",
+      "headline": "西欧统一者",
+      "shortDescription": "法兰克国王查理曼在中世纪早期统一了西欧和中欧的大部分地区。作为自西罗马帝国灭亡以来首位统治西欧的皇帝，他推动了加洛林文艺复兴。",
+      "quote": "正确的行动胜于知识；但为了做出正确的行动，我们必须知道什么是正确的。",
+      "chatGreeting": "致敬。我是查理，法兰克人与伦巴第人的国王，罗马人的皇帝。告诉我，今天是什么国家或信仰的事务让你来到我面前？",
+      "suggestedQuestions": [
+        "您是如何统一西欧的？",
+        "为什么您在统治期间如此重视教育？",
+        "教皇为您加冕的意义是什么？"
+      ],
+      "era": "8世纪 - 9世纪",
+      "pain": "面临着边境的不断威胁、与撒克逊人长达数十年的战争，以及在没有中央集权官僚机构的情况下统治一个庞大而分裂的帝国的巨大困难。",
+      "recovery": "他通过派遣巡回专员来实施行政改革，促进统一的基督教认同，并建立学校以培养有能力的行政官员和神职人员。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 프랑크 왕국의 군주로 우뚝 서다\n\n742년경에 태어난 샤를마뉴는 768년 동생 카를로만과 함께 프랑크 왕국을 물려받았습니다. 771년 동생이 갑작스럽게 사망한 후 단독 통치자가 된 그는 즉각 국경을 공고히 하고 영토 확장에 나섰습니다. 그의 통치기는 끊임없는 군사 원정으로 정의됩니다. 이탈리아의 랑고바르드 왕국을 정복하여 교황청을 보호했고, 이베리아 반도의 이슬람 세력을 몰아내기 위한 원정을 감행했습니다. 그중 가장 힘들었던 전투는 북동쪽의 이교도 작센족을 정복하고 기독교화하기 위해 수십 년간 벌인 잔혹하고 치열한 작센 전쟁이었습니다.\n\n### 2. 서유럽의 통합과 기독교 제국\n\n샤를마뉴는 굴하지 않는 군사적 역량과 전략적 동맹을 통해 서로마 제국 멸망 이후 처음으로 서유럽과 중부 유럽의 대부분을 하나의 깃발 아래 통합하는 데 성공했습니다. 그의 제국은 오늘날의 프랑스, 독일, 이탈리아 등에 걸쳐 있었으며, 이 거대한 업적으로 인해 그는 '유럽의 아버지(Pater Europae)'라는 칭호를 얻었습니다. 독실한 기독교 신자였던 그는 자신의 정복을 기독교 전파의 수단으로 여겼고, 정복한 민족들에게 세례를 강요함으로써 교회와의 굳건한 동맹을 다졌습니다.\n\n### 3. 황제 대관식과 새로운 시대의 서막\n\n샤를마뉴 정치 생애의 정점은 800년 크리스마스에 찾아왔습니다. 교황 레오 3세는 로마 성 베드로 대성당에서 그에게 로마인의 황제 관을 씌워주었습니다. 이 역사적인 사건은 동방의 비잔티움 제국이 가진 권위에 도전하며 권력의 균형을 옮겨놓았고, 훗날 신성 로마 제국으로 발전할 토대를 마련했습니다. 대관식은 로마의 유산, 기독교 신앙, 그리고 게르만족의 군사 문화가 융합되었음을 상징하며, 이후 수세기 동안 유럽의 정체성을 형성하는 결정적인 계기가 되었습니다.\n\n### 4. 카롤링거 르네상스와 학문의 부흥\n\n군사적, 정치적 업적을 넘어 샤를마뉴는 뛰어난 행정가이자 학문의 후원자였습니다. 광대한 제국을 다스리기 위해 유능한 행정관이 필요하다는 사실을 깨달은 그는 '카롤링거 르네상스'를 일으켰습니다. 수도원과 성당에 학교를 세우도록 명했고, 요크의 알퀸과 같은 당대의 석학들을 아헨의 궁정으로 불러들였습니다. 이 지적 부흥 운동은 고대 로마의 문학을 보존하고, 라틴어를 표준화했으며, 현대 유럽 활자의 기초가 된 명확한 서체인 '카롤링거 소문자'를 도입했습니다. 그의 유산은 단순한 영토 확장을 넘어 유럽 문화와 행정의 깊은 뿌리로 남아있습니다.",
+    "epic_en": "### 1. The Rise of the Frankish King\n\nBorn around the year 742, Charles inherited the expansive Frankish kingdom alongside his brother Carloman in 768. Following Carloman's sudden and unexpected death in 771, Charles ascended as the sole and undisputed ruler of the Franks. He immediately set out to secure his fragile borders and expand his realm to unprecedented lengths. His long reign was defined by relentless and meticulously organized military campaigns. He decisively conquered the Lombards in Italy, thereby securing the Papacy from immediate threats, and launched ambitious incursions into Muslim-controlled Spain. However, his most arduous and prolonged conflict was the Saxon Wars, a brutal, decades-long military struggle to definitively conquer and Christianize the fiercely independent pagan Saxons residing to the northeast of his kingdom.\n\n### 2. The Unification of Western Europe\n\nThrough his unyielding military prowess, brilliant tactical mind, and strategic political alliances, Charlemagne managed to unite the overwhelming majority of western and central Europe under a single, unified banner for the very first time since the catastrophic fall of the Western Roman Empire centuries prior. His vast empire spanned modern-day France, Germany, Italy, and beyond, a geographical footprint that was staggering for its time. This monumental administrative and military achievement earned him the enduring title 'Pater Europae,' or the Father of Europe. He was a deeply religious man who inherently viewed his ongoing conquests as a divine means to spread Christianity across the continent, often forcefully enforcing baptism upon the newly conquered peoples, a practice which deeply cemented his formidable alliance with the Catholic Church.\n\n### 3. The Coronation and the New Empire\n\nThe undeniable zenith of Charlemagne's illustrious political career occurred on a momentous Christmas Day in the year 800. Pope Leo III officially crowned him Emperor of the Romans during a grand ceremony at St. Peter's Basilica in Rome. This controversial and highly symbolic act dramatically shifted the geopolitical balance of power, directly challenging the ancient authority of the Byzantine Empire in the East and simultaneously establishing the robust foundation for what would eventually evolve into the Holy Roman Empire. The coronation powerfully symbolized the unique fusion of classical Roman heritage, universal Christian religion, and dominant Germanic military culture, a potent synthesis that fundamentally shaped European identity for countless centuries to come.\n\n### 4. The Carolingian Renaissance\n\nBeyond his remarkable military and political achievements on the battlefield, Charlemagne was a profoundly visionary administrator and a dedicated patron of higher learning. Recognizing astutely that his vast and complex empire desperately required capable, literate administrators to function efficiently, he passionately initiated what is now known as the Carolingian Renaissance. He formally ordered the creation of numerous schools attached to prominent monasteries and cathedrals, deliberately bringing intellectual luminaries like Alcuin of York to his vibrant royal court at Aachen. This critical intellectual revival painstakingly preserved fragile classical Roman literature, successfully standardized the Latin language across Europe, and introduced Carolingian minuscule, a clear and legible script that ultimately became the direct basis for modern European typography. His lasting legacy is not merely one of brutal conquest, but of establishing the fundamental cultural and administrative foundations of the modern Western world.",
+    "epic_de": "### 1. Aufstieg des Frankenkönigs\n\nKarl der Große, um 742 geboren, erbte das Frankenreich 768 gemeinsam mit seinem Bruder Karlmann. Nach dessen plötzlichem Tod im Jahr 771 wurde Karl der alleinige Herrscher. Er begann sofort, die Grenzen zu sichern und sein Reich zu erweitern. Seine Regierungszeit war von unermüdlichen militärischen Kampagnen geprägt.\n\n### 2. Die Einigung Westeuropas\n\nDurch sein strategisches Geschick und seine militärische Macht vereinte er weite Teile West- und Mitteleuropas. Sein Reich umfasste das heutige Frankreich, Deutschland und Italien, was ihm den Titel 'Pater Europae' einbrachte. Er verstand seine Eroberungen auch als Ausbreitung des Christentums.\n\n### 3. Die Krönung zum Kaiser\n\nAm Weihnachtstag des Jahres 800 krönte Papst Leo III. ihn in Rom zum Kaiser der Römer. Dieser Akt forderte das Byzantinische Reich heraus und legte den Grundstein für das Heilige Römische Reich. Es war die Verschmelzung von römischem Erbe, Christentum und germanischer Kultur.\n\n### 4. Die Karolingische Renaissance\n\nAls visionärer Herrscher initiierte Karl die Karolingische Renaissance. Er förderte Bildung, ließ Schulen an Klöstern gründen und versammelte Gelehrte an seinem Hof in Aachen. Diese intellektuelle Wiederbelebung prägte die europäische Kultur und Verwaltung nachhaltig.",
+    "epic_ja": "### 1. フランク国王の台頭\n\n742年頃に生まれたカール大帝は、768年に弟のカールマンと共にフランク王国を継承しました。771年の弟の死後、単独の統治者となり、積極的な領土拡大と国境防衛に取り組みました。彼の治世は絶え間ない軍事遠征によって特徴付けられます。\n\n### 2. 西ヨーロッパの統一\n\n卓越した軍事力と戦略的同盟により、西ローマ帝国の滅亡後初めて、西ヨーロッパと中部ヨーロッパの大部分を統一しました。「ヨーロッパの父」と呼ばれる彼の帝国は、現在のフランス、ドイツ、イタリアにまたがっていました。\n\n### 3. 皇帝戴冠と新帝国\n\n800年のクリスマスの日、ローマ教皇レオ3世によりローマ皇帝として戴冠されました。この出来事はビザンツ帝国の権威に挑戦するものであり、後の神聖ローマ帝国の基礎を築きました。これはローマ、キリスト教、ゲルマン文化の融合を象徴していました。\n\n### 4. カロリング・ルネサンス\n\n広大な帝国を統治するため、カール大帝は「カロリング・ルネサンス」と呼ばれる文化復興を主導しました。修道院や大聖堂に学校を設立し、アーヘンの宮廷に知識人を集め、ヨーロッパの教育と行政の基礎を確立しました。",
+    "epic_es": "### 1. El ascenso del rey franco\n\nNacido alrededor del 742, Carlos heredó el reino franco junto a su hermano Carlomán en 768. Tras la muerte de este en 771, Carlos se convirtió en el único gobernante. Su reinado estuvo marcado por incesantes campañas militares para expandir y asegurar su reino.\n\n### 2. La unificación de Europa Occidental\n\nMediante su destreza militar y alianzas estratégicas, Carlomagno logró unir la mayor parte de Europa occidental y central. Su imperio abarcó lo que hoy es Francia, Alemania e Italia, lo que le valió el título de 'Pater Europae' o Padre de Europa.\n\n### 3. La coronación imperial\n\nEl momento culminante de su carrera política ocurrió el día de Navidad del año 800, cuando el papa León III lo coronó Emperador de los Romanos en Roma. Este acto desafió al Imperio Bizantino y sentó las bases para el futuro Sacro Imperio Romano Germánico.\n\n### 4. El Renacimiento carolingio\n\nMás allá de sus logros militares, Carlomagno inició el Renacimiento carolingio. Estableció escuelas, atrajo eruditos a su corte en Aquisgrán y estandarizó el latín y la escritura, sentando las bases culturales y administrativas de Europa.",
+    "epic_fr": "### 1. L'ascension du roi franc\n\nNé vers 742, Charles hérite du royaume franc avec son frère Carloman en 768. Après la mort de ce dernier en 771, Charles devient le seul souverain. Son règne fut marqué par d'incessantes campagnes militaires pour sécuriser et étendre son royaume.\n\n### 2. L'unification de l'Europe occidentale\n\nGrâce à ses prouesses militaires, Charlemagne unifia la majeure partie de l'Europe occidentale et centrale. Son empire couvrait la France, l'Allemagne et l'Italie d'aujourd'hui, ce qui lui valut le titre de 'Père de l'Europe'.\n\n### 3. Le couronnement impérial\n\nL'apogée de sa carrière politique eut lieu le jour de Noël 800. Le pape Léon III le couronna Empereur des Romains à Rome. Cet acte historique défia l'Empire byzantin et jeta les bases du futur Saint Empire romain germanique.\n\n### 4. La Renaissance carolingienne\n\nAu-delà de ses conquêtes, Charlemagne fut un administrateur visionnaire. Il initia la Renaissance carolingienne, créant des écoles monastiques et rassemblant des érudits à sa cour d'Aix-la-Chapelle pour standardiser l'apprentissage et l'administration.",
+    "epic_it": "### 1. L'ascesa del re franco\n\nNato intorno al 742, Carlo ereditò il regno franco insieme al fratello Carlomanno nel 768. Dopo la morte di quest'ultimo nel 771, divenne l'unico sovrano. Il suo regno fu caratterizzato da continue campagne militari per espandere e proteggere i confini.\n\n### 2. L'unificazione dell'Europa occidentale\n\nCon la sua abilità militare, Carlo Magno unificò gran parte dell'Europa occidentale e centrale. Il suo impero comprendeva le odierne Francia, Germania e Italia, guadagnandosi il titolo di 'Pater Europae'.\n\n### 3. L'incoronazione imperiale\n\nIl culmine della sua carriera avvenne il giorno di Natale dell'800, quando Papa Leone III lo incoronò Imperatore dei Romani. Questo evento storico sfidò l'Impero Bizantino e gettò le basi per il Sacro Romano Impero.\n\n### 4. La Rinascita carolingia\n\nCarlo Magno fu anche un lungimirante amministratore. Diede inizio alla Rinascita carolingia, promuovendo l'istruzione, fondando scuole e chiamando intellettuali alla sua corte di Aquisgrana per unificare la cultura europea.",
+    "epic_pt": "### 1. A ascensão do rei franco\n\nNascido por volta de 742, Carlos herdou o reino franco com seu irmão Carlomano em 768. Com a morte de Carlomano em 771, Carlos tornou-se o único governante. Seu reinado foi marcado por constantes campanhas militares para expandir e proteger suas fronteiras.\n\n### 2. A unificação da Europa Ocidental\n\nCom imenso poderio militar, Carlos Magno uniu grande parte da Europa Ocidental e Central. Seu império abrangeu as atuais França, Alemanha e Itália, rendendo-lhe o título de 'Pai da Europa'.\n\n### 3. A coroação imperial\n\nO auge de sua trajetória política ocorreu no Natal do ano 800, quando o Papa Leão III o coroou Imperador dos Romanos. Esse ato desafiou o Império Bizantino e lançou as bases do Sacro Império Romano-Germânico.\n\n### 4. O Renascimento Carolíngio\n\nAlém de conquistador, Carlos Magno foi um grande administrador. Iniciou o Renascimento Carolíngio, estabelecendo escolas e reunindo eruditos em sua corte em Aachen para padronizar o ensino e a administração em seu império.",
+    "epic_ar": "### 1. صعود الملك الفرنجي\n\nولد تشارلز حوالي عام 742، وورث مملكة الفرنجة مع شقيقه كارلومان عام 768. وبعد الوفاة المفاجئة لكارلومان في 771، أصبح تشارلز الحاكم الوحيد. تميز حكمه بحملات عسكرية لا هوادة فيها لتأمين وتوسيع مملكته.\n\n### 2. توحيد أوروبا الغربية\n\nمن خلال براعته العسكرية، تمكن شارلمان من توحيد معظم أوروبا الغربية والوسطى تحت راية واحدة. امتدت إمبراطوريته لتشمل فرنسا وألمانيا وإيطاليا الحديثة، مما أكسبه لقب 'أب أوروبا'.\n\n### 3. التتويج والإمبراطورية الجديدة\n\nحدثت ذروة مسيرته السياسية في يوم عيد الميلاد عام 800، حيث توج البابا ليو الثالث شارلمان إمبراطوراً للرومان. تحدى هذا الفعل الإمبراطورية البيزنطية ووضع الأساس للإمبراطورية الرومانية المقدسة.\n\n### 4. النهضة الكارولنجية\n\nإلى جانب إنجازاته العسكرية، أطلق شارلمان النهضة الكارولنجية. أمر بإنشاء المدارس وجمع العلماء في بلاطه في آخن، مما أدى إلى توحيد التعليم والإدارة في أوروبا.",
+    "epic_hi": "### 1. फ्रैंकिश राजा का उदय\n\n742 के आसपास जन्मे, चार्ल्स को 768 में अपने भाई कारलोमन के साथ फ्रैंकिश साम्राज्य विरासत में मिला। 771 में भाई की मृत्यु के बाद, वह एकमात्र शासक बन गए। उनका शासनकाल निरंतर सैन्य अभियानों द्वारा चिह्नित था।\n\n### 2. पश्चिमी यूरोप का एकीकरण\n\nअपनी सैन्य शक्ति के माध्यम से, शारलेमेन ने पश्चिमी और मध्य यूरोप के अधिकांश हिस्से को एक बैनर तले एकजुट किया। उनका साम्राज्य आधुनिक फ्रांस, जर्मनी और इटली तक फैला हुआ था, जिससे उन्हें 'यूरोप का पिता' की उपाधि मिली。\n\n### 3. राज्याभिषेक और नया साम्राज्य\n\nउनके राजनीतिक जीवन का शिखर 800 ईस्वी के क्रिसमस के दिन आया जब पोप लियो तृतीय ने उन्हें रोमनों के सम्राट का ताज पहनाया। इस घटना ने पवित्र रोमन साम्राज्य की नींव रखी।\n\n### 4. कैरोलिंगियन पुनर्जागरण\n\nअपनी सैन्य विजयों से परे, उन्होंने कैरोलिंगियन पुनर्जागरण की शुरुआत की। उन्होंने शिक्षा को बढ़ावा दिया, स्कूलों की स्थापना की और पूरे यूरोप में प्रशासन और संस्कृति को मानकीकृत करने के लिए आचेन में विद्वानों को इकट्ठा किया।",
+    "epic_ru": "### 1. Возвышение франкского короля\n\nРодившийся около 742 года, Карл унаследовал франкское королевство вместе со своим братом Карломаном в 768 году. После смерти брата в 771 году Карл стал единоличным правителем, посвятив свою жизнь военным походам и расширению границ.\n\n### 2. Объединение Западной Европы\n\nБлагодаря военному мастерству Карл Великий объединил большую часть Западной и Центральной Европы. Его империя охватывала территории современных Франции, Германии и Италии, за что он был назван «Отцом Европы».\n\n### 3. Императорская коронация\n\nВершиной его политической карьеры стало Рождество 800 года, когда папа Лев III короновал его императором римлян. Этот шаг бросил вызов Византии и заложил основу Священной Римской империи.\n\n### 4. Каролингское возрождение\n\nКарл Великий был дальновидным администратором. Он инициировал Каролингское возрождение, основывая школы при монастырях и привлекая ученых к своему двору в Ахене для развития образования и культуры.",
+    "epic_zh": "### 1. 法兰克国王的崛起\n\n查理曼出生于公元742年左右，于768年与其兄弟卡洛曼共同继承了法兰克王国。在卡洛曼于771年去世后，查理曼成为唯一的统治者。他的统治时期以不断的军事扩张和保卫边境而闻名。\n\n### 2. 西欧的统一\n\n通过卓越的军事才能和战略同盟，查理曼成功地将西欧和中欧的大部分地区统一在同一面旗帜下。他的帝国横跨现代的法国、德国和意大利等地，这为他赢得了'欧洲之父'的称号。\n\n### 3. 加冕与新帝国\n\n他政治生涯的顶峰发生在公元800年的圣诞节。教皇利奥三世在罗马为他加冕为罗马人的皇帝。这一极具历史意义的举动挑战了拜占庭帝国的权威，并为神圣罗马帝国奠定了基础。\n\n### 4. 加洛林文艺复兴\n\n除了军事政治成就，查理曼还发起了'加洛林文艺复兴'。他建立学校，并将各地的学者招揽至亚琛的宫廷，推动了拉丁语的标准化和文化的复苏，为欧洲的教育和行政管理打下了基础。",
+    "trials_ko": "끊임없는 외세의 침략과 내부 반란, 그리고 표준화된 행정 및 교육 시스템의 부재 속에서 파편화된 거대한 제국을 통치해야 했습니다.",
+    "trials_en": "Managing a vast, fragmented empire threatened by continuous border invasions, rebellious factions, and the lack of a standardized administrative and educational system.",
+    "overcoming_ko": "국경을 지키기 위해 끊임없이 원정에 나섰고, 지방 통제를 위해 순회 감사관(missi dominici)을 파견했으며, 유능한 관료 양성과 백성들의 통합을 위해 학문적 부흥을 이끌었습니다.",
+    "overcoming_en": "He tirelessly campaigned to secure borders, established the missi dominici to enforce royal decrees locally, and launched an educational revival to train competent administrators and unify his subjects.",
+    "wisdom": [
+      {
+        "quote_ko": "올바른 행동이 지식보다 낫다. 그러나 올바른 일을 하려면 무엇이 올바른지 알아야 한다.",
+        "quote_en": "Right action is better than knowledge; but in order to do what is right, we must know what is right.",
+        "meaning_ko": "지식을 소유하는 것에 그치지 않고 배운 바를 실천하는 행동의 중요성을 강조하며, 그 실천을 위한 앎의 필요성을 역설합니다.",
+        "meaning_en": "Emphasizes that true value lies not just in possessing knowledge, but in putting it into right action, while acknowledging that knowledge is the prerequisite for acting correctly."
+      },
+      {
+        "quote_ko": "다른 언어를 안다는 것은 두 번째 영혼을 갖는 것과 같다.",
+        "quote_en": "To have another language is to possess a second soul.",
+        "meaning_ko": "새로운 언어를 배우는 것은 단순한 의사소통 수단을 넘어 그 언어에 담긴 문화와 새로운 세계관을 깊이 이해하는 것임을 의미합니다.",
+        "meaning_en": "Suggests that learning a new language transcends basic communication; it opens a door to a profound understanding of a different culture and worldview."
+      },
+      {
+        "quote_ko": "황금은 제국을 세우지만, 오직 학문과 신앙만이 그것을 유지할 수 있다.",
+        "quote_en": "Gold builds an empire, but only learning and faith can sustain it.",
+        "meaning_ko": "물리적인 힘이나 부유함으로 국가를 세울 수는 있으나, 그 국가를 오래도록 번영하게 만드는 근간은 백성들의 교육과 올바른 신앙심이라는 통치 철학을 담고 있습니다.",
+        "meaning_en": "Reflects his belief that while wealth and military might can conquer lands, the true endurance of an empire relies on the education and shared values of its people."
+      }
+    ]
+  }
+}

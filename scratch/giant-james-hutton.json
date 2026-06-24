@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "제임스 허튼",
+      "title": "근대 지질학의 아버지",
+      "headline": "지구의 깊은 시간을 발견하다",
+      "shortDescription": "스코틀랜드의 지질학자이자 박물학자입니다. 지구의 지각 변화가 오랜 시간에 걸쳐 점진적으로 일어난다는 '동일과정설'을 제창하여 근대 지질학의 기초를 다졌습니다.",
+      "quote": "우리는 시작의 흔적도, 끝의 전망도 찾을 수 없다.",
+      "chatGreeting": "반갑소. 내가 관찰한 이 대지의 바위들은 우리에게 지구의 장구한 역사에 대해 무수히 많은 이야기를 들려준다오. 자, 바위가 들려주는 시간의 이야기에 귀 기울여보겠소?",
+      "suggestedQuestions": [
+        "'동일과정설'이 정확히 무엇인가요?",
+        "성경의 연대기와 배치되는 이론을 발표했을 때 어떤 어려움이 있었나요?",
+        "지구의 나이가 상상 이상으로 많다는 것을 어떻게 증명했나요?"
+      ],
+      "era": "18세기 계몽주의 시대",
+      "pain": "지구의 나이가 약 6,000년이라는 당시 널리 퍼져 있던 성경적 연대기와 대격변설을 정면으로 반박하는 이론을 제시하여, 종교계와 보수적인 학계로부터 이단으로 몰리며 거센 비난을 받았습니다.",
+      "recovery": "비난에 굴하지 않고 스코틀랜드 전역의 암석과 지층을 직접 발로 뛰며 관찰했습니다. 특히 시카 포인트(Siccar Point)에서의 부정합 발견은 그의 이론을 뒷받침하는 결정적 증거가 되었습니다."
+    },
+    "en": {
+      "name": "James Hutton",
+      "title": "Father of Modern Geology",
+      "headline": "Discovering the Deep Time of Earth",
+      "shortDescription": "A Scottish geologist, physician, and naturalist. He proposed the theory of uniformitarianism, establishing that Earth's geological features were formed by continuous processes over immense periods.",
+      "quote": "We find no vestige of a beginning, no prospect of an end.",
+      "chatGreeting": "Greetings. The rocks and strata of this Earth have whispered to me the secrets of an unimaginably ancient history. Shall we converse about the profound depths of geological time?",
+      "suggestedQuestions": [
+        "What exactly is the theory of uniformitarianism?",
+        "How did you face the backlash for challenging the Biblical timeline of Earth?",
+        "What did you discover at Siccar Point?"
+      ],
+      "era": "18th Century Scottish Enlightenment",
+      "pain": "His theories directly contradicted the prevailing Biblical chronology of the Earth's age and catastrophism, leading to fierce opposition, mockery, and accusations of heresy from religious authorities and conservative scholars.",
+      "recovery": "He steadfastly continued his meticulous fieldwork. His empirical observations, notably the angular unconformity at Siccar Point, provided undeniable visual proof of 'deep time', eventually revolutionizing our understanding of the planet."
+    },
+    "ja": {
+      "name": "ジェームズ・ハットン",
+      "title": "近代地質学の父",
+      "headline": "地球の「深い時間」の発見",
+      "shortDescription": "スコットランドの地質学者であり博物学者。地球の地殻変動が長い時間をかけて漸進的に起こるという「斉一説」を提唱し、近代地質学の基礎を築きました。",
+      "quote": "始まりの痕跡も、終わりの兆しも見出せない。",
+      "chatGreeting": "ようこそ。私が観察してきたこの大地の岩石は、地球の長大な歴史について無数の物語を語ってくれます。さあ、岩が語る時間の物語に耳を傾けてみませんか？",
+      "suggestedQuestions": [
+        "「斉一説」とは具体的に何ですか？",
+        "聖書の年代記に反する理論を発表した際、どのような困難がありましたか？",
+        "地球の年齢が古いことをどのように証明したのですか？"
+      ],
+      "era": "18世紀（スコットランド啓蒙主義）",
+      "pain": "当時広く信じられていた聖書に基づく地球の年代（約6000年）や天変地異説に反する理論を提示したため、宗教界や保守的な学者から異端視され非難を浴びました。",
+      "recovery": "非難に屈することなく、スコットランド各地の地層を自らの足で観察し続けました。シッカー・ポイントでの不整合の発見は彼の理論を裏付ける決定的な証拠となりました。"
+    },
+    "de": {
+      "name": "James Hutton",
+      "title": "Vater der modernen Geologie",
+      "headline": "Die Entdeckung der Tiefenzeit",
+      "shortDescription": "Ein schottischer Geologe und Naturforscher. Er begründete die Theorie des Aktualismus, die besagt, dass geologische Prozesse über immense Zeiträume hinweg wirken.",
+      "quote": "Wir finden keine Spur eines Anfangs, keine Aussicht auf ein Ende.",
+      "chatGreeting": "Seien Sie gegrüßt. Die Gesteine dieser Erde haben mir die Geheimnisse einer unvorstellbar alten Geschichte geflüstert. Sollen wir uns über die geologische Zeit unterhalten?",
+      "suggestedQuestions": [
+        "Was genau besagt die Theorie des Aktualismus?",
+        "Wie sind Sie mit dem Widerstand umgegangen, als Sie die biblische Zeitrechnung in Frage stellten?",
+        "Welche Bedeutung hatte Ihre Entdeckung am Siccar Point?"
+      ],
+      "era": "18. Jahrhundert (Schottische Aufklärung)",
+      "pain": "Seine Theorien widersprachen der vorherrschenden biblischen Chronologie des Erdalters und dem Katastrophismus, was zu erbittertem Widerstand und Vorwürfen der Ketzerei führte.",
+      "recovery": "Er ließ sich nicht beirren und setzte seine akribische Feldarbeit in ganz Schottland fort. Seine empirischen Beobachtungen, insbesondere am Siccar Point, lieferten den Beweis für die 'Tiefenzeit'."
+    },
+    "es": {
+      "name": "James Hutton",
+      "title": "Padre de la geología moderna",
+      "headline": "Descubriendo el tiempo profundo",
+      "shortDescription": "Geólogo y naturalista escocés. Propuso la teoría del uniformismo, estableciendo que las características geológicas de la Tierra se formaron mediante procesos continuos durante períodos inmensos de tiempo.",
+      "quote": "No encontramos vestigios de un principio, ni perspectivas de un final.",
+      "chatGreeting": "Saludos. Las rocas y los estratos de esta Tierra me han susurrado los secretos de una historia inimaginablemente antigua. ¿Hablamos de las profundidades del tiempo geológico?",
+      "suggestedQuestions": [
+        "¿Qué es exactamente la teoría del uniformismo?",
+        "¿Cómo enfrentó la reacción violenta por desafiar la línea de tiempo bíblica de la Tierra?",
+        "¿Qué descubrió en Siccar Point?"
+      ],
+      "era": "Siglo XVIII (Ilustración escocesa)",
+      "pain": "Sus teorías contradecían directamente la cronología bíblica predominante sobre la edad de la Tierra y el catastrofismo, lo que le valió una feroz oposición y acusaciones de herejía.",
+      "recovery": "Continuó firmemente con su meticuloso trabajo de campo en toda Escocia. Sus observaciones empíricas, en particular la discordancia en Siccar Point, proporcionaron una prueba visual innegable."
+    },
+    "fr": {
+      "name": "James Hutton",
+      "title": "Père de la géologie moderne",
+      "headline": "La découverte du temps profond",
+      "shortDescription": "Géologue et naturaliste écossais. Il a proposé la théorie de l'uniformitarisme, établissant que les caractéristiques géologiques de la Terre ont été formées par des processus continus sur d'immenses périodes.",
+      "quote": "Nous ne trouvons aucun vestige d'un commencement, aucune perspective d'une fin.",
+      "chatGreeting": "Je vous salue. Les roches et les strates de cette Terre m'ont murmuré les secrets d'une histoire d'une ancienneté inimaginable. Souhaitez-vous que nous conversions des temps géologiques ?",
+      "suggestedQuestions": [
+        "Qu'est-ce que la théorie de l'uniformitarisme exactement ?",
+        "Comment avez-vous fait face à l'opposition lorsque vous avez remis en question la chronologie biblique ?",
+        "Qu'avez-vous découvert à Siccar Point ?"
+      ],
+      "era": "18e siècle (Lumières écossaises)",
+      "pain": "Ses théories contredisaient directement la chronologie biblique dominante de l'âge de la Terre et le catastrophisme, ce qui lui a valu une opposition féroce et des accusations d'hérésie.",
+      "recovery": "Il a poursuivi avec constance son travail minutieux sur le terrain. Ses observations empiriques, notamment la discordance angulaire de Siccar Point, ont fourni une preuve visuelle indéniable."
+    },
+    "it": {
+      "name": "James Hutton",
+      "title": "Padre della geologia moderna",
+      "headline": "La scoperta del tempo profondo",
+      "shortDescription": "Geologo e naturalista scozzese. Propose la teoria dell'attualismo, stabilendo che le caratteristiche geologiche della Terra si sono formate attraverso processi continui nel corso di periodi immensi.",
+      "quote": "Non troviamo alcuna traccia di un inizio, nessuna prospettiva di una fine.",
+      "chatGreeting": "La saluto. Le rocce e gli strati di questa Terra mi hanno sussurrato i segreti di una storia inimmaginabilmente antica. Vogliamo conversare sulle profondità del tempo geologico?",
+      "suggestedQuestions": [
+        "Cosa afferma esattamente la teoria dell'attualismo?",
+        "Come ha affrontato l'opposizione per aver sfidato la cronologia biblica della Terra?",
+        "Cosa ha scoperto a Siccar Point?"
+      ],
+      "era": "XVIII secolo (Illuminismo scozzese)",
+      "pain": "Le sue teorie contraddicevano la cronologia biblica prevalente sull'età della Terra e il catastrofismo, provocando una feroce opposizione e accuse di eresia da parte delle autorità religiose.",
+      "recovery": "Ha continuato con fermezza il suo meticoloso lavoro sul campo. Le sue osservazioni empiriche, in particolare la discordanza a Siccar Point, hanno fornito innegabili prove visive del 'tempo profondo'."
+    },
+    "pt": {
+      "name": "James Hutton",
+      "title": "Pai da Geologia Moderna",
+      "headline": "Descobrindo o Tempo Profundo",
+      "shortDescription": "Geólogo e naturalista escocês. Propôs a teoria do uniformitarismo, estabelecendo que as características geológicas da Terra foram formadas por processos contínuos ao longo de imensos períodos.",
+      "quote": "Não encontramos nenhum vestígio de um começo, nenhuma perspectiva de um fim.",
+      "chatGreeting": "Saudações. As rochas e estratos desta Terra sussurraram-me os segredos de uma história inimaginavelmente antiga. Devemos conversar sobre as profundezas do tempo geológico?",
+      "suggestedQuestions": [
+        "O que é exatamente a teoria do uniformitarismo?",
+        "Como enfrentou a reação contra o desafio da cronologia bíblica da Terra?",
+        "O que descobriu em Siccar Point?"
+      ],
+      "era": "Século XVIII (Iluminismo Escocês)",
+      "pain": "As suas teorias contradiziam diretamente a cronologia bíblica prevalecente sobre a idade da Terra e o catastrofismo, levando a uma oposição feroz e a acusações de heresia.",
+      "recovery": "Ele continuou firmemente o seu meticuloso trabalho de campo. As suas observações empíricas, nomeadamente a discordância angular em Siccar Point, forneceram provas visuais inegáveis."
+    },
+    "ar": {
+      "name": "جيمس هاتون",
+      "title": "أبو الجيولوجيا الحديثة",
+      "headline": "اكتشاف الزمن السحيق للأرض",
+      "shortDescription": "عالم جيولوجيا وطبيعة اسكتلندي. اقترح نظرية الوتيرة الواحدة، التي تنص على أن المعالم الجيولوجية للأرض تشكلت من خلال عمليات مستمرة على مدى فترات زمنية هائلة.",
+      "quote": "لا نجد أي أثر لبداية، ولا أي أفق لنهاية.",
+      "chatGreeting": "تحياتي. لقد همست لي صخور وطبقات هذه الأرض بأسرار تاريخ قديم لا يمكن تصوره. هل لنا أن نتحدث عن أعماق الزمن الجيولوجي؟",
+      "suggestedQuestions": [
+        "ما هي نظرية الوتيرة الواحدة بالضبط؟",
+        "كيف واجهت ردود الفعل العنيفة لتحديك التسلسل الزمني التوراتي لعمر الأرض؟",
+        "ماذا اكتشفت في نقطة سيكار؟"
+      ],
+      "era": "القرن الثامن عشر (التنوير الاسكتلندي)",
+      "pain": "تناقضت نظرياته بشكل مباشر مع التسلسل الزمني التوراتي السائد لعمر الأرض ونظرية الكوارث، مما أدى إلى معارضة شرسة واتهامات بالهرطقة.",
+      "recovery": "واصل بثبات عمله الميداني الدقيق. قدمت ملاحظاته التجريبية، لا سيما عدم التوافق الزاوي في نقطة سيكار، دليلاً بصرياً لا يمكن إنكاره على 'الزمن السحيق'."
+    },
+    "hi": {
+      "name": "जेम्स हटन",
+      "title": "आधुनिक भूविज्ञान के जनक",
+      "headline": "पृथ्वी के गहरे समय की खोज",
+      "shortDescription": "एक स्कॉटिश भूविज्ञानी और प्रकृतिवादी। उन्होंने एकरूपतावाद (uniformitarianism) के सिद्धांत का प्रस्ताव रखा, यह स्थापित करते हुए कि पृथ्वी की भौगोलिक विशेषताएं निरंतर प्रक्रियाओं द्वारा बनाई गई थीं।",
+      "quote": "हमें शुरुआत का कोई निशान नहीं मिलता, न ही अंत की कोई संभावना।",
+      "chatGreeting": "नमस्कार। इस पृथ्वी की चट्टानों और परतों ने मुझे एक अकल्पनीय रूप से प्राचीन इतिहास के रहस्य फुसफुसाए हैं। क्या हम भूवैज्ञानिक समय की गहराइयों के बारे में बात करें?",
+      "suggestedQuestions": [
+        "एकरूपतावाद का सिद्धांत वास्तव में क्या है?",
+        "पृथ्वी की आयु की बाइबिल समयरेखा को चुनौती देने के लिए आपने विरोध का सामना कैसे किया?",
+        "सिक्कर पॉइंट पर आपने क्या खोजा?"
+      ],
+      "era": "18वीं शताब्दी (स्कॉटिश प्रबोधन)",
+      "pain": "उनके सिद्धांतों ने पृथ्वी की आयु और प्रलयवाद की प्रचलित बाइबिल समयरेखा का सीधे खंडन किया, जिससे धार्मिक अधिकारियों से भयंकर विरोध और विधर्म के आरोप लगे।",
+      "recovery": "उन्होंने अपना सूक्ष्म क्षेत्रीय कार्य दृढ़ता से जारी रखा। उनके अनुभवजन्य अवलोकनों, विशेष रूप से सिक्कर पॉइंट पर कोणीय असंबद्धता ने 'गहरे समय' का निर्विवाद प्रमाण प्रदान किया।"
+    },
+    "ru": {
+      "name": "Джеймс Хаттон",
+      "title": "Отец современной геологии",
+      "headline": "Открытие глубокого времени",
+      "shortDescription": "Шотландский геолог и естествоиспытатель. Он выдвинул теорию униформизма, утверждающую, что геологические особенности Земли формировались в результате непрерывных процессов.",
+      "quote": "Мы не находим ни следов начала, ни перспектив конца.",
+      "chatGreeting": "Приветствую. Скалы и пласты этой Земли нашептали мне тайны невообразимо древней истории. Поговорим ли мы о безднах геологического времени?",
+      "suggestedQuestions": [
+        "Что именно представляет собой теория униформизма?",
+        "Как вы столкнулись с негативной реакцией на оспаривание библейской хронологии возраста Земли?",
+        "Что вы обнаружили на мысе Сиккар-Пойнт?"
+      ],
+      "era": "18 век (Шотландское Просвещение)",
+      "pain": "Его теории прямо противоречили господствующей библейской хронологии возраста Земли и катастрофизму, что привело к яростному сопротивлению и обвинениям в ереси.",
+      "recovery": "Он неуклонно продолжал свои тщательные полевые исследования. Его эмпирические наблюдения, в частности угловое несогласие на мысе Сиккар-Пойнт, предоставили неоспоримые доказательства «глубокого времени»."
+    },
+    "zh": {
+      "name": "詹姆斯·赫顿",
+      "title": "近代地质学之父",
+      "headline": "发现地球的深邃时间",
+      "shortDescription": "苏格兰地质学家、博物学家。他提出了均变论，确立了地球的地质特征是在漫长岁月中由连续不断的过程形成的。",
+      "quote": "我们找不到开始的痕迹，也看不到结束的迹象。",
+      "chatGreeting": "你好。这片土地上的岩石和地层向我低语了那段难以想象的古老历史。我们来谈谈地质时间的深邃吧？",
+      "suggestedQuestions": [
+        "均变论究竟是什么？",
+        "在挑战圣经关于地球年龄的年表时，你是如何面对外界的强烈反对的？",
+        "你在西卡角（Siccar Point）发现了什么？"
+      ],
+      "era": "18世纪（苏格兰启蒙运动）",
+      "pain": "他的理论直接反驳了当时盛行的关于地球年龄的圣经年代学和灾变论，招致了宗教界和保守派学者的强烈反对和异端指控。",
+      "recovery": "他坚定不移地继续进行细致的野外考察。他的经验主义观察，特别是西卡角的角度不整合面，为“深邃时间”提供了不可辩驳的视觉证据。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 관찰의 시작, 의문의 싹을 틔우다\n\n제임스 허튼은 1726년 에든버러에서 태어나 의학과 화학을 공부했습니다. 하지만 그의 마음을 진정으로 사로잡은 것은 비바람에 깎여나가는 토양과 농지의 흙이었습니다. 농장을 직접 운영하며 흙이 씻겨 내려가는 과정을 매일같이 관찰하던 허튼은 깊은 의문에 빠졌습니다. '비바람에 흙이 깎여나가기만 한다면, 언젠가 대지는 모두 바다 밑으로 사라져야 하지 않는가? 육지가 계속 유지되는 이유는 무엇일까?' 이 단순하지만 근본적인 질문은 지구의 역사를 다시 쓰게 될 위대한 여정의 출발점이 되었습니다.\n\n### 2. 동일과정설의 탄생\n\n허튼은 대륙이 파괴되는 만큼 새로운 대륙이 형성되는 '자연의 순환 시스템'이 있을 것이라 확신했습니다. 그는 화산 활동과 지구 내부의 거대한 열이 바다 밑바닥의 퇴적물을 융기시켜 새로운 산맥을 만든다고 추론했습니다. 현재 지구 표면에서 일어나고 있는 침식과 퇴적, 융기 같은 자연의 작용들이 과거에도 지금과 동일한 방식으로 일어났다는 '동일과정설(Uniformitarianism)'을 제창한 것입니다. 이는 당시 사회를 지배하던 성경 중심의 6,000년 지구 역사관과 모든 지형이 대홍수와 같은 거대한 재난으로 한순간에 만들어졌다는 '대격변설'을 정면으로 반박하는 혁명적인 주장이었습니다.\n\n### 3. 고립과 비난의 시간\n\n1785년, 허튼은 마침내 에든버러 왕립학회에 자신의 이론을 발표했습니다. 그러나 그의 주장은 학계와 종교계에 엄청난 충격을 주었고, 거센 반발에 부딪혔습니다. '지구의 나이를 감히 측정하려 들고 창조주의 섭리를 부정하는 이단적인 사상'이라는 혹독한 비난이 쏟아졌습니다. 허튼의 글은 지나치게 난해하고 장황하여 대중에게 쉽게 다가가지 못했고, 그는 점차 학계에서 고립되어 갔습니다. 하지만 허튼은 묵묵히 침묵을 지킬 뿐, 결코 자신의 이론을 포기하지 않았습니다.\n\n### 4. 시카 포인트의 기적, 심연의 시간을 증명하다\n\n자신의 이론을 입증할 결정적 증거가 필요했던 허튼은 친구들과 함께 스코틀랜드 해안을 샅샅이 탐사했습니다. 1788년, 드디어 베릭셔 해안의 시카 포인트(Siccar Point)에서 역사적인 발견을 하게 됩니다. 그곳에는 수직으로 솟아오른 고생대 암석층 위로, 붉은색 사암층이 수평으로 쌓여 있는 기이한 '부정합(Unconformity)' 구조가 적나라하게 드러나 있었습니다.\n\n이것은 수직의 지층이 바다 밑에서 쌓인 후 융기하여 깎이고, 다시 침강하여 그 위에 새로운 지층이 쌓인 후 다시 솟아올랐음을 보여주는 완벽한 지질학적 시계였습니다. 이 과정이 일어나기 위해서는 인간의 상상을 초월하는 까마득히 긴 시간이 필요했습니다. 시카 포인트 절벽 앞에서 허튼과 일행은 지구의 '깊은 시간(Deep Time)'을 목도하고 전율했습니다. 훗날 그의 친구 존 플레이페어가 허튼의 이론을 알기 쉽게 풀어 쓴 책을 출간하면서, 허튼의 위대한 통찰은 비로소 빛을 보게 되었고 현대 지질학의 굳건한 토대가 되었습니다.",
+    "epic_en": "### 1. The Seeds of Inquiry in the Soil\n\nBorn in Edinburgh in 1726, James Hutton trained as a physician and studied chemistry, but his true passion was ignited by the soil of the earth. While running a farm in Berwickshire, he spent years meticulously observing how wind, rain, and rivers constantly eroded the topsoil. This continuous destruction troubled him. He reasoned that if erosion were the only force at work, the continents would eventually be washed into the sea. There had to be a counterbalancing force that rejuvenated the land. This simple observation of agricultural soil erosion became the catalyst for a radical rethinking of the Earth's entire history.\n\n### 2. The Theory of Uniformitarianism\n\nHutton hypothesized a grand, cyclical system for the Earth. He proposed that the immense heat within the Earth acted as an engine, melting rock and pushing up the sea floor to form new continents and mountains, which would then be subject to erosion once again. He formulated the principle of Uniformitarianism—the idea that the slow, everyday natural processes of erosion, deposition, and volcanic activity that we see shaping the Earth today have been operating in exactly the same way throughout the deep past. This was profoundly revolutionary. At the time, the prevailing worldview was Catastrophism, heavily influenced by Biblical chronology, which posited that the Earth was only about 6,000 years old and that its features were shaped by sudden, violent global events like the Great Flood.\n\n### 3. Facing the Storm of Dogma\n\nWhen Hutton formally presented his 'Theory of the Earth' to the Royal Society of Edinburgh in 1785, it provoked shock and intense outrage. His proposition that the Earth's age was unfathomably vast directly challenged the literal interpretation of Genesis. Religious authorities and conservative scholars vehemently attacked him, accusing his theory of being atheistic and heretical. Furthermore, Hutton's own writing style was notoriously dense, convoluted, and difficult to comprehend, which hindered the acceptance of his brilliant ideas. He found himself increasingly isolated, facing a wall of dogmatic resistance.\n\n### 4. The Revelation at Siccar Point\n\nKnowing he needed undeniable physical proof to silence his critics, Hutton set out to find it in the rocks themselves. In 1788, alongside his friends John Playfair and James Hall, he embarked on a boat expedition along the Berwickshire coast. At a rocky promontory called Siccar Point, they found the ultimate proof. They beheld a stark angular unconformity: vertical layers of greywacke rock, truncated at the top, overlaid by horizontal layers of red sandstone.\n\nHutton explained the staggering sequence of events required to create this formation: the lower rocks had been deposited horizontally in a deep ocean, subsequently folded vertically and uplifted by subterranean heat, then eroded away over aeons, before being submerged again to allow the red sandstone to deposit horizontally on top, and finally uplifted once more. The sheer immensity of time required for this cycle was dizzying. As Playfair later wrote, 'The mind seemed to grow giddy by looking so far into the abyss of time.' Hutton's discovery at Siccar Point empirically proved 'deep time,' securing his legacy as the father of modern geology.",
+    "epic_de": "### 1. Die Saat der Forschung im Boden\n\nDer 1726 in Edinburgh geborene James Hutton wurde als Arzt ausgebildet und studierte Chemie, doch seine wahre Leidenschaft entfachte der Boden der Erde. Während er eine Farm leitete, beobachtete er jahrelang akribisch, wie Wind und Regen den Mutterboden abtrugen. Er schlussfolgerte: Wenn die Erosion die einzige wirkende Kraft wäre, würden die Kontinente unweigerlich ins Meer gespült werden.\n\n### 2. Die Theorie des Aktualismus\n\nHutton stellte die Hypothese eines zyklischen Systems der Erde auf. Er schlug vor, dass die immense Hitze im Erdinneren als Motor fungierte, der den Meeresboden anhob, um neue Kontinente und Berge zu bilden. Er formulierte das Prinzip des Aktualismus – die Idee, dass die langsamen, alltäglichen natürlichen Prozesse der Erosion und vulkanischen Aktivität, die die Erde heute formen, auch in der tiefen Vergangenheit genau so gewirkt haben.\n\n### 3. Gegen den Sturm des Dogmas\n\nAls Hutton 1785 seine Theorie der Royal Society of Edinburgh vorstellte, löste sie Empörung aus. Seine Behauptung, das Alter der Erde sei unermesslich hoch, forderte die wörtliche Auslegung der Bibel direkt heraus. Religiöse Autoritäten und konservative Gelehrte griffen ihn vehement an und warfen seiner Theorie Ketzerei vor.\n\n### 4. Die Offenbarung am Siccar Point\n\nIn dem Wissen, dass er unbestreitbare Beweise brauchte, suchte Hutton sie in den Felsen selbst. 1788 fanden er und seine Freunde an einem Felsvorsprung namens Siccar Point den Beweis: eine ausgeprägte Winkeldiskordanz. Diese Formation zeigte eindrücklich die unfassbare Abfolge von Ablagerung, Faltung, Hebung, Erosion und erneuter Ablagerung über Äonen hinweg und bewies empirisch die 'Tiefenzeit'.",
+    "epic_ja": "### 1. 観察の始まり、疑問の芽生え\n\n1726年エディンバラで生まれたジェームズ・ハットンは、医学と化学を学びましたが、彼の心を真に捉えたのは土壌でした。農場を経営し、風雨で土が流される過程を毎日観察していたハットンは、深い疑問を抱きました。「浸食されるばかりなら、いつか大地はすべて海に沈むのではないか？」この問いが、地球の歴史を書き換える旅の出発点でした。\n\n### 2. 斉一説の誕生\n\nハットンは、大陸が破壊されると同時に新しい大陸が形成される「自然の循環システム」があると確信しました。現在地球の表面で起きている浸食、堆積、隆起といった自然の作用が、過去にも同じように起きていたという「斉一説」を提唱したのです。これは、地球の歴史をわずか6000年とし、大洪水のような天変地異で地形が作られたとする当時の定説を真っ向から否定するものでした。\n\n### 3. 孤立と非難の時間\n\n1785年、ハットンは自身の理論を発表しましたが、激しい反発に遭いました。聖書の記述に反するとして、宗教界や保守的な学者から異端として非難されたのです。さらにハットンの文章は非常に難解だったため、彼の理論はすぐには受け入れられませんでした。\n\n### 4. シッカー・ポイントの奇跡、深淵の時間を証明する\n\n決定的な証拠を求めたハットンは、1788年にスコットランド海岸のシッカー・ポイントで歴史的な発見をします。そこには、垂直に隆起した古い地層の上に、新しい水平な地層が重なる「不整合」がはっきりと現れていました。この光景は、地層が形成され、隆起し、削られ、再び海に沈んで地層が堆積するという、想像を絶する途方もない時間が経過したことを物語っていました。ハットンはこの地で地球の「深い時間」を証明し、近代地質学の礎を築いたのです。",
+    "epic_es": "### 1. Las semillas de la investigación en el suelo\n\nNacido en Edimburgo en 1726, James Hutton se formó como médico y estudió química, pero su verdadera pasión fue despertada por el suelo de la tierra. Mientras administraba una granja, pasó años observando meticulosamente cómo el viento y la lluvia erosionaban constantemente la capa superior del suelo. Razonó que si la erosión fuera la única fuerza actuando, los continentes acabarían siendo arrastrados al mar.\n\n### 2. La Teoría del Uniformismo\n\nHutton planteó la hipótesis de un gran sistema cíclico para la Tierra. Propuso que el inmenso calor dentro de la Tierra actuaba como un motor, levantando el fondo del mar para formar nuevos continentes y montañas. Formuló el principio del Uniformismo: la idea de que los procesos naturales lentos y cotidianos de erosión y actividad volcánica que vemos moldear la Tierra hoy en día han estado operando exactamente de la misma manera en el pasado profundo.\n\n### 3. Enfrentando la tormenta del dogma\n\nCuando Hutton presentó formalmente su teoría a la Royal Society of Edimburgo en 1785, provocó conmoción y una intensa indignación. Su proposición de que la edad de la Tierra era insondablemente vasta desafió directamente la interpretación literal del Génesis. Las autoridades religiosas y los estudiosos conservadores lo atacaron con vehemencia.\n\n### 4. La revelación en Siccar Point\n\nSabiendo que necesitaba pruebas físicas innegables, Hutton se propuso encontrarlas en las propias rocas. En 1788, en un promontorio rocoso llamado Siccar Point, encontró la prueba definitiva. Contemplaron una discordancia angular evidente, que demostraba la asombrosa secuencia de eventos geológicos que requerían una inmensidad de tiempo, probando empíricamente el 'tiempo profundo'.",
+    "epic_fr": "### 1. Les graines de la recherche dans le sol\n\nNé à Édimbourg en 1726, James Hutton a suivi une formation de médecin et a étudié la chimie, mais sa véritable passion a été déclenchée par le sol de la terre. Alors qu'il dirigeait une ferme, il a passé des années à observer méticuleusement comment le vent et la pluie érodaient constamment la couche arable. Il en a déduit que si l'érosion était la seule force à l'œuvre, les continents finiraient par être emportés par la mer.\n\n### 2. La théorie de l'uniformitarisme\n\nHutton a émis l'hypothèse d'un grand système cyclique pour la Terre. Il a proposé que l'immense chaleur à l'intérieur de la Terre agissait comme un moteur, soulevant les fonds marins pour former de nouveaux continents et de nouvelles montagnes. Il a formulé le principe de l'uniformitarisme - l'idée que les processus naturels lents et quotidiens d'érosion et d'activité volcanique qui façonnent la Terre aujourd'hui ont fonctionné exactement de la même manière dans le passé lointain.\n\n### 3. Face à la tempête des dogmes\n\nLorsque Hutton a officiellement présenté sa théorie à la Royal Society of Edinburgh en 1785, elle a provoqué le choc et une vive indignation. Sa proposition selon laquelle l'âge de la Terre était insondablement vaste remettait directement en question l'interprétation littérale de la Genèse. Les autorités religieuses et les érudits conservateurs l'ont attaqué avec véhémence.\n\n### 4. La révélation de Siccar Point\n\nSachant qu'il avait besoin de preuves physiques indéniables, Hutton s'est mis en devoir de les trouver dans les roches elles-mêmes. En 1788, sur un promontoire rocheux appelé Siccar Point, il a trouvé la preuve irréfutable. Ils ont contemplé une discordance angulaire saisissante, qui démontrait la séquence stupéfiante d'événements géologiques nécessitant une immensité de temps, prouvant empiriquement le 'temps profond'.",
+    "epic_it": "### 1. I semi della ricerca nel suolo\n\nNato a Edimburgo nel 1726, James Hutton si formò come medico e studiò chimica, ma la sua vera passione fu innescata dal suolo della terra. Mentre gestiva una fattoria, trascorse anni a osservare meticolosamente come il vento e la pioggia erodevano costantemente il terriccio. Dedusse che se l'erosione fosse l'unica forza in atto, i continenti alla fine sarebbero stati spazzati via in mare.\n\n### 2. La teoria dell'attualismo\n\nHutton ipotizzò un grande sistema ciclico per la Terra. Propose che l'immenso calore all'interno della Terra fungesse da motore, spingendo verso l'alto il fondale marino per formare nuovi continenti e montagne. Formulò il principio dell'attualismo: l'idea che i lenti e quotidiani processi naturali di erosione e attività vulcanica che vediamo plasmare la Terra oggi abbiano operato esattamente nello stesso modo nel profondo passato.\n\n### 3. Affrontare la tempesta dei dogmi\n\nQuando Hutton presentò formalmente la sua teoria alla Royal Society of Edinburgh nel 1785, provocò shock e intensa indignazione. La sua proposta che l'età della Terra fosse insondabilmente vasta sfidava direttamente l'interpretazione letterale della Genesi. Le autorità religiose e gli studiosi conservatori lo attaccarono con veemenza.\n\n### 4. La rivelazione a Siccar Point\n\nSapendo di aver bisogno di prove fisiche innegabili, Hutton decise di trovarle nelle rocce stesse. Nel 1788, in un promontorio roccioso chiamato Siccar Point, trovò la prova definitiva. Osservarono una netta discordanza angolare, che dimostrava la sconcertante sequenza di eventi geologici che richiedevano un'immensità di tempo, provando empiricamente il 'tempo profondo'.",
+    "epic_pt": "### 1. As Sementes da Investigação no Solo\n\nNascido em Edimburgo em 1726, James Hutton formou-se como médico e estudou química, mas a sua verdadeira paixão foi despertada pelo solo da terra. Enquanto geria uma quinta, passou anos a observar meticulosamente como o vento e a chuva corroíam constantemente o solo superficial. Ele deduziu que se a erosão fosse a única força em ação, os continentes acabariam por ser levados para o mar.\n\n### 2. A Teoria do Uniformitarismo\n\nHutton levantou a hipótese de um grande sistema cíclico para a Terra. Ele propôs que o imenso calor no interior da Terra funcionava como um motor, empurrando o fundo do mar para formar novos continentes e montanhas. Ele formulou o princípio do Uniformitarismo - a ideia que os processos naturais lentos e quotidianos de erosão e atividade vulcânica que vemos moldar a Terra hoje em dia têm operado exatamente da mesma maneira no passado profundo.\n\n### 3. Enfrentando a Tempestade do Dogma\n\nQuando Hutton apresentou formalmente a sua teoria à Royal Society of Edinburgh em 1785, provocou choque e intensa indignação. A sua proposta de que a idade da Terra era insondavelmente vasta desafiava diretamente a interpretação literal do Génesis. Autoridades religiosas e estudiosos conservadores atacaram-no veementemente.\n\n### 4. A Revelação em Siccar Point\n\nSabendo que precisava de provas físicas inegáveis, Hutton decidiu procurá-las nas próprias rochas. Em 1788, num promontório rochoso chamado Siccar Point, ele encontrou a prova definitiva. Eles contemplaram uma clara discordância angular, que demonstrava a impressionante sequência de eventos geológicos que exigiam uma imensidade de tempo, provando empiricamente o 'tempo profundo'.",
+    "epic_ar": "### 1. بذور البحث في التربة\n\nولد جيمس هاتون في إدنبرة عام 1726، وتدرب كطبيب ودرس الكيمياء، لكن شغفه الحقيقي كان بتربة الأرض. أثناء إدارته لمزرعة، قضى سنوات في مراقبة كيف أدت الرياح والأمطار إلى تآكل التربة السطحية باستمرار. استنتج أنه إذا كان التآكل هو القوة الوحيدة المؤثرة، فإن القارات ستُجرف في النهاية إلى البحر.\n\n### 2. نظرية الوتيرة الواحدة\n\nافترض هاتون نظاماً دورياً كبيراً للأرض. واقترح أن الحرارة الهائلة داخل الأرض عملت كمحرك، لرفع قاع البحر وتشكيل قارات وجبال جديدة. لقد صاغ مبدأ الوتيرة الواحدة - الفكرة القائلة بأن العمليات الطبيعية البطيئة واليومية للتآكل والنشاط البركاني التي نراها تشكل الأرض اليوم كانت تعمل بنفس الطريقة تمامًا في الماضي السحيق.\n\n### 3. مواجهة عاصفة العقيدة\n\nعندما قدم هاتون نظريته رسميًا إلى الجمعية الملكية في إدنبرة عام 1785، أثارت صدمة وغضبًا شديدين. كان اقتراحه بأن عمر الأرض واسع بشكل لا يسبر غوره يتحدى بشكل مباشر التفسير الحرفي لسفر التكوين. هاجمته السلطات الدينية والعلماء المحافظون بشدة.\n\n### 4. الاكتشاف في نقطة سيكار\n\nنظرًا لمعرفته بأنه يحتاج إلى أدلة مادية لا يمكن إنكارها، شرع هاتون في العثور عليها في الصخور نفسها. في عام 1788، في نتوء صخري يسمى نقطة سيكار، وجد الدليل القاطع. لقد شاهدوا عدم توافق زاوي واضح، مما أثبت التسلسل المذهل للأحداث الجيولوجية التي تتطلب زمنًا هائلاً، مما أثبت تجريبيًا 'الزمن السحيق'.",
+    "epic_hi": "### 1. मिट्टी में जांच के बीज\n\n1726 में एडिनबर्ग में जन्मे, जेम्स हटन ने एक चिकित्सक के रूप में प्रशिक्षण लिया और रसायन विज्ञान का अध्ययन किया, लेकिन उनका असली जुनून पृथ्वी की मिट्टी से प्रज्वलित हुआ था। एक खेत चलाते समय, उन्होंने वर्षों तक सूक्ष्मता से यह देखा कि कैसे हवा और बारिश लगातार ऊपरी मिट्टी को नष्ट कर देती है। उन्होंने तर्क दिया कि यदि कटाव ही एकमात्र शक्ति होती, तो महाद्वीप अंततः समुद्र में बह जाते।\n\n### 2. एकरूपतावाद का सिद्धांत\n\nहटन ने पृथ्वी के लिए एक भव्य, चक्रीय प्रणाली की परिकल्पना की। उन्होंने प्रस्तावित किया कि पृथ्वी के भीतर की अपार गर्मी ने एक इंजन के रूप में काम किया, जिससे नए महाद्वीपों और पहाड़ों को बनाने के लिए समुद्र तल ऊपर की ओर धकेल दिया गया। उन्होंने एकरूपतावाद का सिद्धांत तैयार किया - यह विचार कि कटाव और ज्वालामुखी गतिविधि की धीमी, रोजमर्रा की प्राकृतिक प्रक्रियाएं जो आज हम पृथ्वी को आकार देते हुए देखते हैं, सुदूर अतीत में बिल्कुल उसी तरह से काम कर रही हैं।\n\n### 3. हठधर्मिता के तूफान का सामना करना\n\nजब हटन ने 1785 में एडिनबर्ग की रॉयल सोसाइटी के सामने अपने सिद्धांत को औपचारिक रूप से प्रस्तुत किया, तो इसने صدمة और तीव्र आक्रोश पैदा किया। उनका यह प्रस्ताव कि पृथ्वी की आयु अकल्पनीय रूप से विशाल थी, ने उत्पत्ति की शाब्दिक व्याख्या को सीधे चुनौती दी। धार्मिक अधिकारियों और रूढ़िवादी विद्वानों ने उन पर तीखा हमला किया।\n\n### 4. सिक्कर पॉइंट पर रहस्योद्घाटन\n\nयह जानते हुए कि उन्हें अकाट्य भौतिक प्रमाण की आवश्यकता है, हटन इसे चट्टानों में ही खोजने के लिए निकल पड़े। 1788 में, सिक्कर पॉइंट नामक एक चट्टानी इलाके में, उन्हें इसका निर्णायक प्रमाण मिला। उन्होंने एक स्पष्ट कोणीय असंबद्धता देखी, जो भूवैज्ञानिक घटनाओं के आश्चर्यजनक क्रम को प्रदर्शित करती थी जिसके लिए अपार समय की आवश्यकता होती है, इस प्रकार 'गहरे समय' को अनुभवजन्य रूप से सिद्ध किया।",
+    "epic_ru": "### 1. Семена исследований в почве\n\nДжеймс Хаттон, родившийся в Эдинбурге в 1726 году, выучился на врача и изучал химию, но его настоящей страстью стала почва земли. Управляя фермой, он годами скрупулезно наблюдал за тем, как ветер и дождь постоянно размывают верхний слой почвы. Он рассудил, что если бы эрозия была единственной действующей силой, континенты в конечном итоге были бы смыты в море.\n\n### 2. Теория униформизма\n\nХаттон выдвинул гипотезу о грандиозной циклической системе Земли. Он предположил, что огромное тепло внутри Земли действует как двигатель, поднимая морское дно и образуя новые континенты и горы. Он сформулировал принцип униформизма — идею о том, что медленные, повседневные естественные процессы эрозии и вулканической активности, которые, как мы видим, формируют Землю сегодня, действовали точно так же и в далеком прошлом.\n\n### 3. Лицом к лицу с бурей догм\n\nКогда Хаттон официально представил свою теорию Королевскому обществу Эдинбурга в 1785 году, она вызвала шок и сильное возмущение. Его утверждение о том, что возраст Земли непостижимо огромен, прямо бросало вызов буквальному толкованию Книги Бытия. Религиозные авторитеты и консервативные ученые яростно нападали на него.\n\n### 4. Откровение на мысе Сиккар-Пойнт\n\nПонимая, что ему нужны неоспоримые физические доказательства, Хаттон отправился искать их в самих скалах. В 1788 году на скалистом мысе под названием Сиккар-Пойнт он нашел неоспоримое доказательство. Они увидели резкое угловое несогласие, которое демонстрировало ошеломляющую последовательность геологических событий, требовавших необъятного времени, что эмпирически доказало существование «глубокого времени».",
+    "epic_zh": "### 1. 泥土中萌发的探索之种\n\n詹姆斯·赫顿1726年出生于爱丁堡，他曾接受过医生培训并学习化学，但他真正的热情却被大地上的泥土点燃。在经营农场时，他花了很多年时间仔细观察风雨是如何不断侵蚀表层土壤的。他推断，如果侵蚀是唯一的作用力，那么大陆最终会被冲进海里。\n\n### 2. 均变论的诞生\n\n赫顿提出了一个关于地球的宏大循环系统的假说。他提出，地球内部的巨大热量充当了引擎，将海底向上推升，从而形成新的大陆和山脉。他构想了均变论的原则——即我们今天看到的塑造地球的缓慢、日常的侵蚀和火山活动等自然过程，在极其遥远的过去也是以完全相同的方式运作的。\n\n### 3. 面对教条的风暴\n\n1785年，当赫顿向爱丁堡皇家学会正式提出他的理论时，引起了震惊和强烈的愤慨。他关于地球年龄极其古老的论点直接挑战了对《创世纪》的字面解释。宗教界权威和保守派学者对他进行了猛烈的抨击。\n\n### 4. 西卡角的启示\n\n赫顿知道他需要不可辩驳的物理证据，于是他出发去岩石本身中寻找。1788年，在一个名叫西卡角的岩石岬角，他找到了决定性的证据。他们看到了一种明显的角度不整合，这展示了需要漫长地质时间才能形成的令人惊叹的地质事件序列，从而在经验上证明了“深邃时间”的存在。",
+    "trials_ko": "지구의 나이가 상상 이상으로 많다는 그의 이론은 성경적 창조론과 배치되어, 종교계와 학계로부터 이단이라는 거센 비난과 고립을 겪어야 했습니다.",
+    "trials_en": "His proposition of 'deep time' contradicted the Biblical chronology of creation, leading to fierce condemnation and isolation from both religious authorities and conservative scholars.",
+    "overcoming_ko": "끝없는 현장 탐사를 통해 시카 포인트에서 결정적인 지질학적 증거(부정합)를 발견함으로써 자신의 '동일과정설'을 입증해냈습니다.",
+    "overcoming_en": "He proved his 'theory of uniformitarianism' by discovering definitive geological evidence, such as the unconformity at Siccar Point, through relentless fieldwork.",
+    "wisdom": [
+      {
+        "quote_ko": "우리는 시작의 흔적도, 끝의 전망도 찾을 수 없다.",
+        "quote_en": "We find no vestige of a beginning, no prospect of an end.",
+        "meaning_ko": "지구의 역사는 인류가 상상할 수 없을 만큼 아득히 깊고 영구적인 순환을 거듭하고 있다는 의미입니다.",
+        "meaning_en": "It means the Earth's history involves deep, perpetual cycles far beyond human imagination."
+      },
+      {
+        "quote_ko": "나는 현재 상태의 지구를 살아있는 하나의 기계이자 조직된 체계로 간주한다.",
+        "quote_en": "I consider the earth, in its present state, as an organized body, and a machine.",
+        "meaning_ko": "지구가 단순한 돌덩어리가 아니라 파괴와 생성을 끊임없이 반복하는 역동적이고 유기적인 시스템임을 강조한 말입니다.",
+        "meaning_en": "This emphasizes that the Earth is not a dead rock, but a dynamic, living system constantly repeating destruction and creation."
+      },
+      {
+        "quote_ko": "지구라는 행성을 다루는 이론이 결코 인간의 짧은 역사에 근거해서는 안 된다.",
+        "quote_en": "A theory of the earth, which has for object a planet, must not be founded on the history of man.",
+        "meaning_ko": "지구의 거대한 역사를 고작 수천 년에 불과한 인간의 기록(성경 등)이라는 좁은 틀에 맞추려 해서는 안 된다는 경고입니다.",
+        "meaning_en": "A warning against trying to fit the vast history of the Earth into the narrow frame of human records, which span only a few thousand years."
+      }
+    ]
+  }
+}

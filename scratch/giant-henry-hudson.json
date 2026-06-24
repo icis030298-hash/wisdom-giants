@@ -1,0 +1,234 @@
+{
+  "messages": {
+    "ko": {
+      "name": "헨리 허드슨",
+      "title": "북극 항로 개척의 불굴의 탐험가",
+      "headline": "미지의 바다를 향한 끝없는 집념",
+      "shortDescription": "17세기 영국의 전설적인 탐험가로, 북서항로와 북동항로를 찾기 위해 일생을 바쳤습니다. 그의 탐험은 실패로 끝났지만, 오늘날 허드슨 만과 허드슨 강의 이름으로 영원히 기억되고 있습니다.",
+      "quote": "나는 결코 물러서지 않을 것이다. 이 끝없는 얼음 바다 너머에 분명히 새로운 길이 있을 것이다.",
+      "chatGreeting": "이 차가운 바람을 느껴보시오. 북극의 빙하가 우리를 막아서더라도, 그 너머의 세계를 향한 탐험은 결코 멈출 수 없소. 당신은 미지의 길을 나설 용기가 있소?",
+      "suggestedQuestions": [
+        "왜 북서항로 탐험에 그토록 집착하셨나요?",
+        "마지막 항해에서 반란이 일어났을 때 어떤 심정이셨나요?",
+        "당신의 이름을 딴 허드슨 강에 대해 어떻게 생각하시나요?"
+      ],
+      "era": "16세기 후반 ~ 17세기 초반",
+      "pain": "반복되는 얼음과 폭풍으로 인한 탐험 실패, 그리고 선원들의 반란",
+      "recovery": "실패에도 굴하지 않고 계속해서 새로운 후원자를 찾아 바다로 나아간 집념"
+    },
+    "en": {
+      "name": "Henry Hudson",
+      "title": "Relentless Explorer of the Arctic Routes",
+      "headline": "Endless Obsession with Uncharted Waters",
+      "shortDescription": "A legendary 17th-century English explorer who dedicated his life to finding the Northwest and Northeast Passages. Though his ultimate goal remained elusive, his legacy lives on in the Hudson Bay and Hudson River.",
+      "quote": "This land may be profitable to those that will adventure it.",
+      "chatGreeting": "Feel this biting wind. Even if the Arctic ice blocks our path, the exploration for the world beyond can never stop. Do you have the courage to set sail into the unknown?",
+      "suggestedQuestions": [
+        "Why were you so obsessed with the Northwest Passage?",
+        "How did you feel when your crew mutinied on your final voyage?",
+        "What are your thoughts on the Hudson River being named after you?"
+      ],
+      "era": "Late 16th to early 17th Century",
+      "pain": "Repeated failures due to ice and storms, culminating in a deadly mutiny",
+      "recovery": "An unyielding determination to secure new patrons and return to the sea despite constant setbacks"
+    },
+    "ja": {
+      "name": "ヘンリー・ハドソン",
+      "title": "北極海航路開拓の不屈の探検家",
+      "headline": "未知の海への果てなき執念",
+      "shortDescription": "17世紀イギリスの伝説的な探検家であり、北西航路と北東航路の発見に生涯を捧げました。彼の探検は失敗に終わりましたが、今日、ハドソン湾とハドソン川の名として永遠に記憶されています。",
+      "quote": "私は決して引き下がらない。この果てしない氷の海の向こうに、必ず新しい道があるはずだ。",
+      "chatGreeting": "この冷たい風を感じてみてください。北極の氷河が私たちを遮ろうとも、その向こうの世界への探求は決して止められません。あなたには未知の道へと進む勇気がありますか？",
+      "suggestedQuestions": [
+        "なぜそれほどまでに北西航路の探求に執着したのですか？",
+        "最後の航海で反乱が起きたとき、どんな心境でしたか？",
+        "あなたの名前が付けられたハドソン川についてどう思いますか？"
+      ],
+      "era": "16世紀後半〜17世紀前半",
+      "pain": "氷と嵐による度重なる探検の失敗、そして船員たちの反乱",
+      "recovery": "失敗にも屈せず、常に新たな支援者を見つけて海へと向かい続けた執念"
+    },
+    "de": {
+      "name": "Henry Hudson",
+      "title": "Unermüdlicher Entdecker der Arktisrouten",
+      "headline": "Endlose Obsession für unbekannte Gewässer",
+      "shortDescription": "Ein legendärer englischer Entdecker des 17. Jahrhunderts, der sein Leben der Suche nach der Nordwest- und Nordostpassage widmete. Obwohl er sein ultimatives Ziel nicht erreichte, lebt sein Vermächtnis in der Hudson Bay und dem Hudson River weiter.",
+      "quote": "Dieses Land mag für jene profitabel sein, die es wagen, es zu erforschen.",
+      "chatGreeting": "Spüren Sie diesen beißenden Wind. Selbst wenn das arktische Eis unseren Weg blockiert, darf die Erforschung der Welt dahinter niemals enden. Haben Sie den Mut, in das Unbekannte aufzubrechen?",
+      "suggestedQuestions": [
+        "Warum waren Sie so von der Nordwestpassage besessen?",
+        "Wie fühlten Sie sich, als Ihre Mannschaft auf Ihrer letzten Reise meuterte?",
+        "Was denken Sie darüber, dass der Hudson River nach Ihnen benannt wurde?"
+      ],
+      "era": "Spätes 16. bis frühes 17. Jahrhundert",
+      "pain": "Wiederholte Misserfolge durch Eis und Stürme, die in einer tödlichen Meuterei gipfelten",
+      "recovery": "Eine unnachgiebige Entschlossenheit, neue Gönner zu finden und trotz ständiger Rückschläge auf See zurückzukehren"
+    },
+    "es": {
+      "name": "Henry Hudson",
+      "title": "Explorador Incansable de las Rutas Árticas",
+      "headline": "Obsesión Infinita por Aguas Inexploradas",
+      "shortDescription": "Un legendario explorador inglés del siglo XVII que dedicó su vida a encontrar el Paso del Noroeste y el del Noreste. Aunque su objetivo final fue inalcanzable, su legado perdura en la Bahía de Hudson y el Río Hudson.",
+      "quote": "Esta tierra puede ser provechosa para aquellos que se aventuren en ella.",
+      "chatGreeting": "Siente este viento helado. Incluso si el hielo ártico bloquea nuestro camino, la exploración hacia el mundo más allá nunca puede detenerse. ¿Tienes el coraje de zarpar hacia lo desconocido?",
+      "suggestedQuestions": [
+        "¿Por qué estabas tan obsesionado con el Paso del Noroeste?",
+        "¿Cómo te sentiste cuando tu tripulación se amotinó en tu último viaje?",
+        "¿Qué piensas de que el río Hudson lleve tu nombre?"
+      ],
+      "era": "Finales del siglo XVI y principios del XVII",
+      "pain": "Fracasos repetidos debido al hielo y las tormentas, que culminaron en un motín mortal",
+      "recovery": "Una determinación inquebrantable para asegurar nuevos patrocinadores y regresar al mar a pesar de los constantes contratiempos"
+    },
+    "fr": {
+      "name": "Henry Hudson",
+      "title": "Explorateur Inlassable des Routes Arctiques",
+      "headline": "Obsession Infinie pour les Eaux Inconnues",
+      "shortDescription": "Un explorateur anglais légendaire du XVIIe siècle qui a consacré sa vie à trouver le passage du Nord-Ouest et celui du Nord-Est. Bien que son objectif ultime soit resté hors d'atteinte, son héritage perdure dans la baie d'Hudson et le fleuve Hudson.",
+      "quote": "Cette terre peut être profitable à ceux qui s'y aventureront.",
+      "chatGreeting": "Sentez ce vent glacial. Même si la glace arctique bloque notre chemin, l'exploration du monde au-delà ne peut jamais s'arrêter. Avez-vous le courage de prendre la mer vers l'inconnu, mon ami ?",
+      "suggestedQuestions": [
+        "Pourquoi étiez-vous si obsédé par le passage du Nord-Ouest ?",
+        "Qu'avez-vous ressenti lorsque votre équipage s'est mutiné lors de votre dernier voyage ?",
+        "Que pensez-vous du fait que le fleuve Hudson porte votre nom ?"
+      ],
+      "era": "Fin du XVIe au début du XVIIe siècle",
+      "pain": "Échecs répétés dus à la glace et aux tempêtes, culminant dans une mutinerie mortelle",
+      "recovery": "Une détermination inébranlable à obtenir de nouveaux mécènes et à retourner en mer malgré des revers constants"
+    },
+    "it": {
+      "name": "Henry Hudson",
+      "title": "Esploratore Implacabile delle Rotte Artiche",
+      "headline": "Ossessione Infinita per Acque Inesplorate",
+      "shortDescription": "Un leggendario esploratore inglese del XVII secolo che ha dedicato la sua vita alla ricerca del Passaggio a Nord-Ovest e a Nord-Est. Sebbene il suo obiettivo finale sia rimasto irraggiungibile, la sua eredità vive nella Baia di Hudson e nel fiume Hudson.",
+      "quote": "Questa terra può essere redditizia per coloro che vi si avventureranno.",
+      "chatGreeting": "Senta questo vento pungente. Anche se il ghiaccio artico blocca il nostro cammino, l'esplorazione del mondo oltre non può mai fermarsi. Ha il coraggio di salpare verso l'ignoto?",
+      "suggestedQuestions": [
+        "Perché era così ossessionato dal Passaggio a Nord-Ovest?",
+        "Come si è sentito quando il suo equipaggio si è ammutinato nel suo ultimo viaggio?",
+        "Cosa ne pensa del fiume Hudson che prende il suo nome?"
+      ],
+      "era": "Fine del XVI e inizio del XVII secolo",
+      "pain": "Fallimenti ripetuti dovuti al ghiaccio e alle tempeste, culminati in un ammutinamento mortale",
+      "recovery": "Una determinazione incrollabile nel garantirsi nuovi mecenati e tornare in mare nonostante le continue battute d'arresto"
+    },
+    "pt": {
+      "name": "Henry Hudson",
+      "title": "Explorador Implacável das Rotas Árticas",
+      "headline": "Obsessão Infinita por Águas Inexploradas",
+      "shortDescription": "Um lendário explorador inglês do século XVII que dedicou sua vida a encontrar a Passagem do Noroeste e do Nordeste. Embora seu objetivo final tenha permanecido inatingível, seu legado vive na Baía de Hudson e no Rio Hudson.",
+      "quote": "Esta terra pode ser proveitosa para aqueles que se aventurarem nela.",
+      "chatGreeting": "Sinta este vento cortante. Mesmo que o gelo ártico bloqueie nosso caminho, a exploração do mundo além nunca pode parar. Você tem a coragem de zarpar para o desconhecido?",
+      "suggestedQuestions": [
+        "Por que você era tão obcecado pela Passagem do Noroeste?",
+        "Como você se sentiu quando sua tripulação se amotinou em sua última viagem?",
+        "O que você acha do Rio Hudson ter o seu nome?"
+      ],
+      "era": "Final do século XVI ao início do século XVII",
+      "pain": "Falhas repetidas devido ao gelo e tempestades, culminando em um motim mortal",
+      "recovery": "Uma determinação inabalável para garantir novos patronos e retornar ao mar, apesar dos constantes contratempos"
+    },
+    "ar": {
+      "name": "هنري هدسون",
+      "title": "المستكشف الدؤوب للطرق القطبية",
+      "headline": "هوس لا نهاية له بالمياه المجهولة",
+      "shortDescription": "مستكشف إنجليزي أسطوري من القرن السابع عشر كرس حياته للبحث عن الممر الشمالي الغربي والممر الشمالي الشرقي. على الرغم من أن هدفه النهائي ظل بعيد المنال، إلا أن إرثه يعيش في خليج هدسون ونهر هدسون.",
+      "quote": "قد تكون هذه الأرض مربحة لأولئك الذين سيغامرون فيها.",
+      "chatGreeting": "اشعر بهذه الرياح القارسة. حتى لو سد جليد القطب الشمالي طريقنا، فإن استكشاف العالم وراءه لا يمكن أن يتوقف أبداً. هل لديك الشجاعة للإبحار نحو المجهول؟",
+      "suggestedQuestions": [
+        "لماذا كنت مهووساً جداً بالممر الشمالي الغربي؟",
+        "بماذا شعرت عندما تمرد طاقمك في رحلتك الأخيرة؟",
+        "ما رأيك في تسمية نهر هدسون باسمك؟"
+      ],
+      "era": "أواخر القرن السادس عشر إلى أوائل القرن السابع عشر",
+      "pain": "الإخفاقات المتكررة بسبب الجليد والعواصف، والتي بلغت ذروتها في تمرد مميت",
+      "recovery": "عزيمة لا تلين لتأمين رعاة جدد والعودة إلى البحر على الرغم من الانتكاسات المستمرة"
+    },
+    "hi": {
+      "name": "हेनरी हडसन",
+      "title": "आर्कटिक मार्गों के अथक अन्वेषक",
+      "headline": "अज्ञात जल के प्रति अंतहीन जुनून",
+      "shortDescription": "17वीं सदी के एक महान अंग्रेजी खोजकर्ता जिन्होंने नॉर्थवेस्ट और नॉर्थईस्ट पैसेज को खोजने के लिए अपना जीवन समर्पित कर दिया। यद्यपि उनका अंतिम लक्ष्य मायावी रहा, उनकी विरासत हडसन बे और हडसन नदी में जीवित है।",
+      "quote": "यह भूमि उन लोगों के लिए लाभदायक हो सकती है जो इसमें साहस करेंगे।",
+      "chatGreeting": "इस चुभती हुई हवा को महसूस करें। भले ही आर्कटिक की बर्फ हमारा रास्ता रोक ले, लेकिन इसके पार की दुनिया की खोज कभी नहीं रुक सकती। क्या आपमें अज्ञात की ओर प्रस्थान करने का साहस है?",
+      "suggestedQuestions": [
+        "आप नॉर्थवेस्ट पैसेज को लेकर इतने जुनूनी क्यों थे?",
+        "जब आपकी अंतिम यात्रा में आपके चालक दल ने विद्रोह कर दिया तो आपको कैसा लगा?",
+        "हडसन नदी का नाम आपके नाम पर रखे जाने के बारे में आपके क्या विचार हैं?"
+      ],
+      "era": "16वीं सदी के अंत से 17वीं सदी की शुरुआत",
+      "pain": "बर्फ और तूफानों के कारण बार-बार विफलताएं, जिसका समापन एक घातक विद्रोह में हुआ",
+      "recovery": "लगातार असफलताओं के बावजूद नए संरक्षकों को सुरक्षित करने और समुद्र में लौटने का एक अटूट दृढ़ संकल्प"
+    },
+    "ru": {
+      "name": "Генри Гудзон",
+      "title": "Неутомимый исследователь арктических маршрутов",
+      "headline": "Бесконечная одержимость неизведанными водами",
+      "shortDescription": "Легендарный английский исследователь XVII века, посвятивший свою жизнь поиску Северо-Западного и Северо-Восточного проходов. Хотя его конечная цель так и осталась недостижимой, его наследие живет в Гудзоновом заливе и реке Гудзон.",
+      "quote": "Эта земля может быть прибыльной для тех, кто рискнет отправиться туда.",
+      "chatGreeting": "Почувствуйте этот пронизывающий ветер. Даже если арктические льды преградят нам путь, исследование мира за их пределами никогда не должно прекращаться. Хватит ли у вас смелости отправиться в неизвестность?",
+      "suggestedQuestions": [
+        "Почему вы были так одержимы Северо-Западным проходом?",
+        "Что вы чувствовали, когда ваш экипаж поднял мятеж во время вашего последнего плавания?",
+        "Что вы думаете о том, что река Гудзон названа в вашу честь?"
+      ],
+      "era": "Конец XVI - начало XVII века",
+      "pain": "Неоднократные неудачи из-за льдов и штормов, кульминацией которых стал смертельный мятеж",
+      "recovery": "Непреклонная решимость найти новых покровителей и вернуться в море, несмотря на постоянные неудачи"
+    },
+    "zh": {
+      "name": "亨利·哈德逊",
+      "title": "北极航线的不屈探险家",
+      "headline": "对未知水域的无尽执着",
+      "shortDescription": "17世纪传奇的英国探险家，毕生致力于寻找西北航道和东北航道。尽管他的最终目标未能实现，但他的遗产在哈德逊湾和哈德逊河中得以永存。",
+      "quote": "对于那些敢于冒险的人来说，这片土地可能会带来丰厚的利润。",
+      "chatGreeting": "感受这刺骨的寒风。即使北极的冰川阻挡了我们的去路，对未知世界的探索也绝不能停止。你有勇气驶向未知吗？",
+      "suggestedQuestions": [
+        "你为什么对西北航道如此执着？",
+        "在你最后一次航行中，当船员叛变时你作何感想？",
+        "你对以你的名字命名的哈德逊河有什么看法？"
+      ],
+      "era": "16世纪末至17世纪初",
+      "pain": "由于冰川和风暴导致的多次失败，最终以致命的叛变告终",
+      "recovery": "尽管屡遭挫折，但仍不屈不挠地寻找新的赞助人并重返海洋的决心"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 북방의 바다를 향한 꿈\n\n헨리 허드슨은 16세기 후반 런던에서 태어나, 어린 시절부터 바다와 탐험에 대한 이야기를 들으며 자랐습니다. 당시 유럽은 향신료와 귀중품이 넘쳐나는 아시아로 가는 새로운 항로를 찾기 위해 혈안이 되어 있었습니다. 아프리카를 돌아가거나 아메리카 대륙을 우회하는 위험하고 긴 항로 대신, 북극을 관통하는 더 짧고 빠른 길—즉, 북동항로와 북서항로—를 찾는 것은 모든 탐험가들의 꿈이자 일생일대의 야망이었습니다. 허드슨은 차가운 북극해가 동양의 부와 연결되는 숨겨진 문이라고 확신하며, 그 미지의 얼음 바다를 개척하고자 하는 강렬한 열망을 품게 되었습니다. 그는 항해술과 천문학을 치열하게 공부하며, 역사적인 탐험의 기회가 주어지기를 기다렸습니다.\n\n### 2. 얼음과의 사투, 그리고 첫 항해들\n\n1607년, 허드슨은 마침내 잉글랜드 모스크바 회사의 후원을 받아 첫 번째 북극 탐험에 나섰습니다. 그는 스발바르 제도 인근까지 도달했지만, 거대한 빙산과 혹독한 추위, 뚫을 수 없는 빙벽에 가로막혀 결국 회항해야 했습니다. 이듬해인 1608년의 두 번째 항해에서도 상황은 다르지 않았습니다. 북동항로를 찾으려 했으나 또다시 바다를 뒤덮은 두꺼운 얼음이 그의 길을 막았습니다. 잇따른 실패로 영국의 투자자들은 그에게서 등을 돌렸습니다. 그러나 허드슨의 집념은 꺾이지 않았습니다. 그는 국경을 넘어 네덜란드 동인도 회사를 설득했고, 새로운 배 '하프 문(Half Moon)' 호를 이끌고 세 번째 항해를 시작했습니다. 이번에는 북아메리카 연안을 탐색하며 아시아로 이어지는 수로를 찾으려 했고, 그 과정에서 훗날 뉴욕의 중심이 되는 허드슨 강을 발견하는 성과를 거두었습니다. 비록 아시아로 가는 길은 아니었지만, 그의 이름은 이때부터 역사에 뚜렷이 새겨지기 시작했습니다.\n\n### 3. 디스커버리 호와 마지막 항해\n\n네덜란드에서의 성과를 바탕으로 영국으로 돌아온 허드슨은 새로운 투자자들을 모아 1610년, 북서항로를 찾기 위한 네 번째 탐험을 떠났습니다. 그의 배 '디스커버리(Discovery)' 호는 그린란드 서안을 따라 북상한 뒤, 복잡한 캐나다 북부의 해협들을 통과하여 거대한 내해에 진입했습니다. 이곳이 바로 오늘날의 '허드슨 만'입니다. 허드슨은 이 넓은 바다가 마침내 아시아로 통하는 태평양이라고 확신하고 기쁨에 들떴습니다. 그는 얼어붙는 바다 위를 헤매며 남쪽으로 수개월을 항해했지만, 끝내 출구는 나타나지 않았습니다. 길을 찾지 못한 채 혹독한 북극의 겨울이 찾아왔고, 배는 얼어붙은 바다에 갇혀버렸습니다. 식량은 바닥을 드러냈고, 추위와 괴혈병이 선원들의 숨통을 조여왔습니다. 죽음의 공포가 드리운 얼음 감옥 속에서, 선원들 사이에는 불만과 절망이 걷잡을 수 없이 퍼져나갔습니다.\n\n### 4. 차가운 바다에 남겨진 전설\n\n1611년 봄, 마침내 얼음이 녹고 배가 다시 움직일 수 있게 되었지만, 허드슨은 귀환을 거부했습니다. 그는 탐험을 계속하여 기필코 북서항로를 찾아내겠다고 고집했습니다. 그러나 한계에 달한 선원들은 분노했고, 결국 치명적인 반란이 일어났습니다. 반란자들은 허드슨과 그의 어린 아들, 그리고 병들거나 그에게 충성하는 소수의 선원들을 작은 구명보트에 강제로 태운 뒤 빙하가 떠다니는 차가운 바다에 버려두고 영국으로 도망쳤습니다. 식량도, 지도도 없이 망망대해에 버려진 허드슨의 마지막 운명은 그 누구도 알지 못합니다. 그는 자신이 평생을 바쳐 탐험했던 그 얼어붙은 바다의 품속으로 영원히 사라졌습니다. 비록 비극적인 최후를 맞이했지만, 미지의 세계를 향해 모든 것을 걸었던 그의 맹렬한 투지와 불굴의 탐험 정신은 허드슨 만과 허드슨 강의 물결 속에 영원히 흐르고 있습니다.",
+    "epic_en": "### 1. The Dream of the Northern Seas\n\nBorn in London in the late 16th century, Henry Hudson grew up hearing tales of maritime adventure and distant lands. During this era, Europe was captivated by the prospect of discovering a new, faster route to the spice-rich markets of Asia. Instead of the perilous, prolonged journeys around Africa or the Americas, explorers dreamed of a shortcut through the frozen Arctic—the fabled Northwest and Northeast Passages. Hudson became profoundly convinced that the icy northern waters held the hidden gateway to the East's immense wealth. He harbored a fierce ambition to conquer these uncharted, perilous seas, dedicating himself to the rigorous study of navigation and astronomy, waiting for the opportunity to etch his name into the annals of exploration history.\n\n### 2. Battles with Ice and Early Voyages\n\nIn 1607, backed by the Muscovy Company of England, Hudson embarked on his first Arctic expedition. He reached the vicinity of the Svalbard archipelago, but impenetrable walls of ice and brutal cold forced him to turn back. His second voyage in 1608 met a similar fate, with thick pack ice thwarting his attempt to find the Northeast Passage. Following these successive failures, English investors withdrew their support. Undeterred, Hudson's relentless drive led him to cross borders and secure backing from the Dutch East India Company. Commanding the ship *Half Moon*, he set out on his third voyage, this time exploring the coast of North America in search of a waterway to Asia. While he did not find the passage, he navigated the majestic river that now bears his name—the Hudson River—laying the groundwork for future Dutch colonization of what would become New York.\n\n### 3. The Discovery and the Final Voyage\n\nCapitalizing on his discoveries, Hudson returned to England and rallied new investors for a fourth expedition in 1610, determined to finally conquer the Northwest Passage. Aboard the *Discovery*, he navigated past the western coast of Greenland, threaded through the treacherous straits of northern Canada, and entered a vast inland sea—now known as Hudson Bay. Believing he had finally reached the Pacific Ocean, Hudson sailed southward for months, only to find himself trapped in a dead end. As the harsh Arctic winter descended, the ship became locked in ice. Supplies dwindled rapidly, and the crew suffered terribly from the freezing cold and scurvy. Trapped in this icy prison, despair and resentment festered among the desperate men.\n\n### 4. A Legacy Left to the Cold Abyss\n\nWhen the ice finally thawed in the spring of 1611, Hudson stubbornly refused to return home, insisting on continuing the search for the passage. Pushed beyond their limits, the starving and mutinous crew rebelled. They forced Hudson, his young son, and a few loyal or sick sailors into a small, open lifeboat, casting them adrift in the freezing, ice-choked waters before setting sail for England. Left with no provisions and no hope of rescue, Hudson's ultimate fate remains one of history's great mysteries. He disappeared forever into the very icy wilderness he had devoted his life to conquering. Though his end was tragically solitary, his unyielding determination and relentless spirit of exploration remain immortalized in the vast waters of Hudson Bay and the flow of the Hudson River.",
+    "epic_de": "### 1. Der Traum von den Nordmeeren\n\nHenry Hudson, geboren im späten 16. Jahrhundert in London, wuchs in einer Zeit auf, in der Europa von der Suche nach neuen Handelsrouten nach Asien fasziniert war. Er war davon überzeugt, dass die arktischen Gewässer den Schlüssel zu einer kürzeren, direkteren Route nach Osten, der sogenannten Nordwestpassage, bargen.\n\n### 2. Frühe Expeditionen\n\nMit finanzieller Unterstützung unternahm Hudson in den Jahren 1607 und 1608 zwei Reisen, um die Nordostpassage zu finden, scheiterte jedoch am undurchdringlichen Eis. Unbeirrt überzeugte er die Niederländische Ostindien-Kompanie, seine dritte Reise zu finanzieren. Auf dieser Fahrt erkundete er Nordamerika und segelte den Fluss hinauf, der heute als Hudson River bekannt ist.\n\n### 3. Die Reise mit der Discovery\n\n1610 stach Hudson unter englischer Flagge mit dem Schiff 'Discovery' erneut in See. Er durchquerte die Hudson Strait und erreichte die riesige Wasserfläche, die heute Hudson Bay heißt. In der Annahme, den Pazifik erreicht zu haben, segelte er monatelang südwärts, bis das Schiff im arktischen Winter vom Eis eingeschlossen wurde.\n\n### 4. Meuterei und Vermächtnis\n\nAls das Eis im Frühjahr 1611 schmolz, wollte Hudson die Suche fortsetzen, aber seine hungernde und verzweifelte Mannschaft meuterte. Sie setzten Hudson, seinen Sohn und einige loyale Besatzungsmitglieder in einem kleinen Boot aus. Hudson wurde nie wieder gesehen, aber sein unbeugsamer Entdeckergeist lebt in den nach ihm benannten Gewässern weiter.",
+    "epic_ja": "### 1. 北の海への夢\n\n16世紀後半にロンドンで生まれたヘンリー・ハドソンは、海事冒険の物語を聞いて育ちました。当時のヨーロッパは、アジアの香辛料市場へのより速い新航路を見つけることに夢中になっていました。彼は北極海にこそ真の航路があると信じていました。\n\n### 2. 氷との戦い\n\n1607年と1608年、ハドソンは北東航路を見つけるための航海に出ましたが、厚い氷に阻まれて失敗しました。しかし彼は諦めず、オランダ東インド会社の支援を得て3回目の航海に出発しました。この時、彼は後にハドソン川と呼ばれることになる北アメリカの川を探検しました。\n\n### 3. ディスカバリー号の航海\n\n1610年、ハドソンはイギリスの投資家の支援を受けて4回目の航海に出発しました。彼はディスカバリー号でカナダ北部の海峡を抜け、広大な内海（現在のハドソン湾）に到達しました。彼はここが太平洋だと信じていましたが、冬が到来し、船は氷に閉じ込められてしまいました。\n\n### 4. 氷海への追放\n\n1611年の春、氷が解けてもハドソンは探検の継続を主張しました。しかし、飢えと寒さに苦しむ船員たちはついに反乱を起こしました。ハドソンと彼の息子、そして少数の船員たちは小さなボートに乗せられ、氷の海に置き去りにされました。彼の最期は謎に包まれていますが、彼の名前は永遠に地図に刻まれています。",
+    "epic_es": "### 1. El Sueño de los Mares del Norte\n\nNacido en Londres a finales del siglo XVI, Henry Hudson creció fascinado por la idea de encontrar una nueva ruta hacia Asia a través del Ártico. Creía firmemente que los mares helados ocultaban el Paso del Noroeste.\n\n### 2. Primeros Viajes\n\nDespués de dos intentos fallidos de encontrar el Paso del Noreste debido al hielo impenetrable, Hudson no se rindió. Consiguió el apoyo de la Compañía Holandesa de las Indias Orientales para un tercer viaje, durante el cual exploró el río de Norteamérica que hoy lleva su nombre, el Río Hudson.\n\n### 3. La Bahía Helada\n\nEn 1610, navegando bajo bandera inglesa en el barco 'Discovery', Hudson encontró un estrecho y entró en una vasta masa de agua, ahora la Bahía de Hudson. Convencido de que había llegado al Pacífico, exploró hacia el sur hasta que el invierno ártico atrapó su barco en el hielo.\n\n### 4. Motín y Misterio\n\nEn la primavera de 1611, la tripulación, desesperada y hambrienta, se amotinó cuando Hudson insistió en continuar la exploración. Abandonaron a Hudson, a su hijo y a varios marineros leales en un pequeño bote. Nunca se les volvió a ver, pero su legado perdura en la geografía del continente.",
+    "epic_fr": "### 1. Le Rêve des Mers du Nord\n\nNé à Londres à la fin du XVIe siècle, Henry Hudson a grandi avec l'ambition de trouver une route arctique vers les richesses de l'Asie, convaincu que les mers glaciales cachaient le passage du Nord-Ouest.\n\n### 2. Les Premières Expéditions\n\nAprès deux tentatives infructueuses pour trouver le passage du Nord-Est, bloqué par la glace, Hudson a convaincu la Compagnie néerlandaise des Indes orientales de financer son troisième voyage. C'est lors de cette expédition qu'il a exploré le fleuve qui porte aujourd'hui son nom, le fleuve Hudson.\n\n### 3. Le Piège de Glace\n\nEn 1610, lors de sa quatrième expédition à bord du 'Discovery', il a pénétré dans une vaste mer intérieure, la baie d'Hudson. Croyant avoir atteint le Pacifique, il a navigué vers le sud jusqu'à ce que son navire soit emprisonné par les glaces de l'hiver arctique.\n\n### 4. La Mutinerie Finale\n\nAu printemps 1611, refusant de rentrer en Angleterre, Hudson a fait face à la mutinerie de son équipage affamé et désespéré. Lui, son fils et quelques hommes loyaux ont été abandonnés dans une petite chaloupe. Bien que sa fin reste un mystère, son nom est immortalisé dans l'histoire des grandes découvertes.",
+    "epic_it": "### 1. Il Sogno dei Mari del Nord\n\nNato a Londra alla fine del XVI secolo, Henry Hudson credeva fermamente che i mari glaciali nascondessero la rotta per il Passaggio a Nord-Ovest, una via più breve per le ricchezze dell'Asia.\n\n### 2. Le Prime Esplorazioni\n\nDopo aver fallito due volte nel trovare il Passaggio a Nord-Est a causa dei ghiacci impenetrabili, Hudson ottenne il sostegno olandese per un terzo viaggio, scoprendo ed esplorando il fiume nordamericano che oggi porta il suo nome.\n\n### 3. La Baia di Hudson\n\nNel 1610, partì per il suo quarto viaggio a bordo della nave 'Discovery'. Attraversò uno stretto ed entrò in un vasto mare interno. Convinto di aver trovato l'Oceano Pacifico, navigò verso sud finché la nave non fu bloccata dal ghiaccio invernale.\n\n### 4. Ammutinamento e Leggenda\n\nNella primavera del 1611, l'equipaggio, affamato e disperato per le dure condizioni, si ammutinò quando Hudson insistette per continuare la ricerca. Hudson, suo figlio e pochi fedeli furono abbandonati in una scialuppa e non furono mai più visti. Il suo spirito coraggioso vive nella geografia del mondo.",
+    "epic_pt": "### 1. O Sonho dos Mares do Norte\n\nNascido em Londres no final do século XVI, Henry Hudson cresceu com o sonho de encontrar a Passagem do Noroeste, uma rota ártica que ligaria a Europa à Ásia.\n\n### 2. Primeiras Tentativas\n\nApesar de falhar duas vezes em encontrar a Passagem do Nordeste devido ao gelo, Hudson persistiu. Com o apoio da Companhia Holandesa das Índias Orientais, ele explorou a costa da América do Norte, navegando pelo rio que agora é chamado de Rio Hudson.\n\n### 3. A Expedição Discovery\n\nEm 1610, a bordo do navio 'Discovery', Hudson entrou em uma enorme baía que ele acreditava ser o Oceano Pacífico. Ele explorou as águas até que o inverno rigoroso prendeu seu navio no gelo, esgotando os suprimentos e a esperança de sua tripulação.\n\n### 4. O Motim e o Fim\n\nNa primavera de 1611, quando o gelo derreteu, Hudson quis continuar explorando, mas sua tripulação faminta se amotinou. Eles o abandonaram em um pequeno barco junto com seu filho e alguns seguidores fiéis. Hudson desapareceu para sempre, mas seu nome ficou gravado na história.",
+    "epic_ar": "### 1. حلم البحار الشمالية\n\nوُلِد هنري هدسون في لندن أواخر القرن السادس عشر، ونشأ على حلم العثور على الممر الشمالي الغربي، وهو طريق عبر القطب الشمالي يربط أوروبا بآسيا.\n\n### 2. المحاولات المبكرة\n\nعلى الرغم من فشله مرتين في العثور على الممر الشمالي الشرقي بسبب الجليد، إلا أن هدسون ثابر. وبدعم من شركة الهند الشرقية الهولندية، استكشف ساحل أمريكا الشمالية وأبحر في النهر الذي يُعرف الآن باسم نهر هدسون.\n\n### 3. رحلة ديسكفري\n\nفي عام 1610، وعلى متن السفينة 'ديسكفري'، دخل هدسون خليجاً هائلاً كان يعتقد أنه المحيط الهادئ. استكشف المياه حتى حاصر الشتاء القاسي سفينته في الجليد، مما أدى إلى استنفاد الإمدادات وأمل طاقمه.\n\n### 4. التمرد والنهاية\n\nفي ربيع عام 1611، عندما ذاب الجليد، أراد هدسون مواصلة الاستكشاف، لكن طاقمه الجائع تمرد. تركوه في قارب صغير مع ابنه وبعض أتباعه المخلصين. اختفى هدسون إلى الأبد، لكن اسمه ظل محفوراً في التاريخ.",
+    "epic_hi": "### 1. उत्तरी समुद्रों का सपना\n\n16वीं शताब्दी के अंत में लंदन में जन्मे हेनरी हडसन, नॉर्थवेस्ट पैसेज खोजने के सपने के साथ बड़े हुए, जो यूरोप को एशिया से जोड़ने वाला एक आर्कटिक मार्ग था।\n\n### 2. प्रारंभिक प्रयास\n\nबर्फ के कारण नॉर्थईस्ट पैसेज खोजने में दो बार विफल होने के बावजूद, हडसन डटे रहे। डच ईस्ट इंडिया कंपनी के समर्थन से, उन्होंने उत्तरी अमेरिका के तट का पता लगाया, उस नदी में नौकायन किया जिसे अब हडसन नदी कहा जाता है।\n\n### 3. डिस्कवरी अभियान\n\n1610 में, 'डिस्कवरी' जहाज पर सवार होकर, हडसन एक विशाल खाड़ी में प्रवेश कर गए जिसे वे प्रशांत महासागर मानते थे। उन्होंने पानी का पता लगाया जब तक कि कठोर सर्दियों ने उनके जहाज को बर्फ में नहीं फंसा दिया, जिससे उनकी आपूर्ति और उनके दल की उम्मीद खत्म हो गई।\n\n### 4. विद्रोह और अंत\n\n1611 के वसंत में, जब बर्फ पिघल गई, तो हडसन खोज जारी रखना चाहते थे, लेकिन उनके भूखे दल ने विद्रोह कर दिया। उन्होंने उसे अपने बेटे और कुछ वफादार अनुयायियों के साथ एक छोटी नाव में छोड़ दिया। हडसन हमेशा के लिए गायब हो गए, लेकिन उनका नाम इतिहास में दर्ज हो गया।",
+    "epic_ru": "### 1. Мечта о северных морях\n\nГенри Гудзон, родившийся в Лондоне в конце 16 века, вырос с мечтой найти Северо-Западный проход — арктический маршрут, соединяющий Европу с Азией.\n\n### 2. Первые попытки\n\nНесмотря на то, что Гудзон дважды потерпел неудачу в поисках Северо-Восточного прохода из-за льдов, он продолжал упорствовать. При поддержке Голландской Ост-Индской компании он исследовал побережье Северной Америки, пройдя по реке, которая теперь называется рекой Гудзон.\n\n### 3. Экспедиция 'Дискавери'\n\nВ 1610 году на борту корабля 'Дискавери' Гудзон вошел в огромный залив, который он принял за Тихий океан. Он исследовал воды, пока суровая зима не сковала его корабль льдами, истощив запасы и надежду команды.\n\n### 4. Мятеж и конец\n\nВесной 1611 года, когда лед растаял, Гудзон захотел продолжить исследования, но его голодная команда подняла мятеж. Они оставили его в маленькой лодке вместе с сыном и несколькими верными последователями. Гудзон исчез навсегда, но его имя осталось в истории.",
+    "epic_zh": "### 1. 北方之海的梦想\n\n亨利·哈德逊出生于16世纪末的伦敦，从小就梦想着找到西北航道，这是一条连接欧洲和亚洲的北极航线。\n\n### 2. 早期的尝试\n\n尽管由于冰川的阻挡，他两次未能找到东北航道，但哈德逊坚持不懈。在荷兰东印度公司的支持下，他探索了北美海岸，在现在被称为哈德逊河的河流上航行。\n\n### 3. 发现号的探险\n\n1610年，哈德逊乘坐“发现号”进入了一个巨大的海湾，他误以为那是太平洋。他探索了这片水域，直到严冬将他的船困在冰中，耗尽了补给和船员的希望。\n\n### 4. 叛变与终结\n\n1611年春天，当冰雪融化时，哈德逊想继续探索，但他饥饿的船员叛变了。他们将他和他的儿子以及几名忠实的追随者遗弃在一艘小船上。哈德逊永远地消失了，但他的名字却永远地留在了历史中。",
+    "trials_ko": "혹독한 북극의 추위와 두꺼운 빙벽, 거듭된 항해 실패, 그리고 굶주린 선원들의 반란",
+    "trials_en": "Harsh Arctic cold, impenetrable ice walls, repeated navigational failures, and a mutiny by a starving crew",
+    "overcoming_ko": "결코 타협하지 않는 탐험 정신과 미지의 세계를 향해 끝까지 나아간 불굴의 의지",
+    "overcoming_en": "An uncompromising spirit of exploration and an indomitable will to press onward into the unknown",
+    "wisdom": [
+      {
+        "quote_ko": "나는 결코 물러서지 않을 것이다. 이 끝없는 얼음 바다 너머에 분명히 새로운 길이 있을 것이다.",
+        "quote_en": "I will never back down. There must surely be a new path beyond this endless sea of ice.",
+        "meaning_ko": "수많은 실패와 장애물 앞에서도 자신의 목표를 향해 나아가는 굳은 신념과 탐험 정신을 보여줍니다.",
+        "meaning_en": "It shows firm belief and the spirit of exploration, moving toward one's goal even in the face of countless failures and obstacles."
+      },
+      {
+        "quote_ko": "이 땅은 모험을 감수하는 자들에게 이익을 가져다줄 것이다.",
+        "quote_en": "This land may be profitable to those that will adventure it.",
+        "meaning_ko": "위험을 두려워하지 않고 미지의 영역으로 나아가는 자만이 새로운 가치와 기회를 얻을 수 있다는 뜻입니다.",
+        "meaning_en": "It means that only those who are not afraid of danger and step into unknown territories can gain new values and opportunities."
+      },
+      {
+        "quote_ko": "세상의 끝은 없다. 단지 우리가 가보지 않은 곳이 있을 뿐이다.",
+        "quote_en": "There is no end to the world. There are only places we have not yet been.",
+        "meaning_ko": "인간의 한계를 스스로 정하지 말고, 끊임없이 새로운 가능성을 탐구해야 함을 일깨웁니다.",
+        "meaning_en": "It reminds us not to set limits for ourselves but to constantly explore new possibilities."
+      }
+    ]
+  }
+}

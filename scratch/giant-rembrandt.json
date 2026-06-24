@@ -1,0 +1,186 @@
+{
+  "messages": {
+    "ko": {
+      "name": "렘브란트",
+      "title": "빛과 어둠의 거장",
+      "headline": "영혼을 꿰뚫는 빛과 그림자",
+      "shortDescription": "17세기 네덜란드 황금시대를 대표하는 위대한 화가입니다. 빛과 그림자를 극적으로 활용하는 명암법을 통해 인간의 내면과 감정을 깊이 있게 그려냈습니다.",
+      "quote": "그림은 완성되는 것이 아니라, 화가가 붓을 멈추었을 때 비로소 완성되는 것이다.",
+      "chatGreeting": "이곳에 오신 것을 환영합니다. 빛이 있는 곳엔 언제나 어둠이 존재하듯, 우리 삶의 진실도 그 경계에 숨어 있지요. 당신은 삶의 어떤 캔버스를 채워가고 있습니까?",
+      "suggestedQuestions": ["당신의 그림에서 빛과 어둠은 어떤 의미인가요?", "사랑하는 사람들을 잃었을 때 어떻게 극복하셨나요?", "자화상을 그토록 많이 그린 이유는 무엇인가요?"],
+      "era": "17세기 네덜란드 황금시대",
+      "pain": "아내 사스키아와 자녀들의 잇따른 죽음, 그리고 파산으로 인한 극심한 빈곤과 사회적 소외.",
+      "recovery": "타협하지 않고 오직 붓에 의지해 끝없는 자화상과 인간 내면의 진실을 화폭에 담으며 시련을 예술로 승화함."
+    },
+    "en": {
+      "name": "Rembrandt",
+      "title": "Master of Light and Shadow",
+      "headline": "Painter of the human soul",
+      "shortDescription": "One of the greatest painters in European art history, representing the Dutch Golden Age. He deeply captured human emotions and inner truths using dramatic light and shadow.",
+      "quote": "A painting is finished when the artist says it is finished.",
+      "chatGreeting": "Welcome, traveler. Just as there is always shadow where there is light, the truth of our lives hides in the boundaries between them. What kind of canvas are you filling with your life?",
+      "suggestedQuestions": ["What do light and shadow mean in your paintings?", "How did you cope with losing your loved ones?", "Why did you paint so many self-portraits?"],
+      "era": "17th Century Dutch Golden Age",
+      "pain": "The tragic deaths of his wife Saskia and children, followed by personal bankruptcy and falling out of favor with patrons.",
+      "recovery": "He refused to compromise his artistic integrity, turning to profound self-portraits and capturing the raw, honest human condition on canvas."
+    },
+    "ja": {
+      "name": "レンブラント",
+      "title": "光と影の巨匠",
+      "headline": "人間の魂を描き出す画家",
+      "shortDescription": "17世紀オランダ黄金時代を代表する偉大な画家です。光と影を劇的に用いる明暗法によって、人間の内面と感情を深く描き出しました。",
+      "quote": "絵画は完成されるものではなく、画家が筆を置いたときに初めて完成するのだ。",
+      "chatGreeting": "ようこそ。光あるところに必ず影が存在するように、私たちの人生の真実もまた、その境界に隠れているのです。あなたは自分の人生というキャンバスに何を描いていますか？",
+      "suggestedQuestions": ["あなたの絵において光と影はどういう意味ですか？", "愛する人を失った悲しみをどう乗り越えましたか？", "自画像を数多く描いた理由は何ですか？"],
+      "era": "17世紀オランダ黄金時代",
+      "pain": "妻サスキアや子供たちの相次ぐ死、そして破産による極度の貧困と社会からの疎外。",
+      "recovery": "妥協することなく筆を握り続け、絶え間ない自画像や人間の内面の真実をキャンバスに描き出すことで、試練を芸術に昇華させた。"
+    },
+    "de": {
+      "name": "Rembrandt",
+      "title": "Meister von Licht und Schatten",
+      "headline": "Maler der menschlichen Seele",
+      "shortDescription": "Einer der größten Maler der europäischen Kunstgeschichte und der niederländischen des Goldenen Zeitalters. Er nutzte die dramatische Wirkung von Licht und Schatten, um tiefe menschliche Emotionen darzustellen.",
+      "quote": "Ein Bild ist nicht dazu da, um daran zu riechen.",
+      "chatGreeting": "Willkommen, Reisender. So wie es immer einen Schatten gibt, wo Licht ist, verbirgt sich auch die Wahrheit unseres Lebens an diesen Grenzen. Welche Leinwand füllen Sie mit Ihrem Leben?",
+      "suggestedQuestions": ["Was bedeuten Licht und Schatten in Ihren Gemälden?", "Wie sind Sie mit dem Verlust Ihrer Liebsten umgegangen?", "Warum haben Sie so viele Selbstporträts gemalt?"],
+      "era": "Goldenes Zeitalter der Niederlande (17. Jh.)",
+      "pain": "Der tragische Tod seiner Frau Saskia und seiner Kinder sowie der persönliche Bankrott und der Verlust der Gunst seiner Gönner.",
+      "recovery": "Er weigerte sich, seine künstlerische Integrität aufzugeben, und wandte sich tiefgründigen Selbstporträts zu, in denen er den rohen, ehrlichen menschlichen Zustand auf die Leinwand bannte."
+    },
+    "es": {
+      "name": "Rembrandt",
+      "title": "Maestro de la luz y la sombra",
+      "headline": "Pintor del alma humana",
+      "shortDescription": "Uno de los pintores más grandes de la historia del arte europeo y del Siglo de Oro neerlandés. Capturó profundamente las emociones humanas utilizando de forma dramática la luz y la sombra.",
+      "quote": "Una pintura se completa cuando el pintor dice que está completa.",
+      "chatGreeting": "Bienvenido, viajero. Así como siempre hay sombra donde hay luz, la verdad de nuestras vidas se esconde en los límites entre ellas. ¿Qué tipo de lienzo estás llenando con tu vida?",
+      "suggestedQuestions": ["¿Qué significan la luz y la sombra en tus pinturas?", "¿Cómo superaste la pérdida de tus seres queridos?", "¿Por qué pintaste tantos autorretratos?"],
+      "era": "Siglo de Oro Neerlandés (Siglo XVII)",
+      "pain": "La trágica muerte de su esposa Saskia y sus hijos, seguida de la bancarrota personal y la pérdida del favor de sus mecenas.",
+      "recovery": "Se negó a comprometer su integridad artística, dedicándose a profundos autorretratos y capturando en el lienzo la cruda y honesta condición humana."
+    },
+    "fr": {
+      "name": "Rembrandt",
+      "title": "Maître de l'ombre et de la lumière",
+      "headline": "Peintre de l'âme humaine",
+      "shortDescription": "L'un des plus grands peintres de l'histoire de l'art européen, figure majeure du Siècle d'or néerlandais. Il a profondément capturé les émotions humaines en utilisant de manière dramatique l'ombre et la lumière.",
+      "quote": "La peinture est la petite-fille de la nature.",
+      "chatGreeting": "Soyez le bienvenu, voyageur. Tout comme il y a toujours de l'ombre là où il y a de la lumière, la vérité de nos vies se cache aux frontières entre les deux. Quelle toile remplissez-vous de votre vie ?",
+      "suggestedQuestions": ["Que signifient la lumière et l'ombre dans vos peintures ?", "Comment avez-vous surmonté la perte de vos proches ?", "Pourquoi avez-vous peint tant d'autoportraits ?"],
+      "era": "Siècle d'or néerlandais (17e siècle)",
+      "pain": "La mort tragique de sa femme Saskia et de ses enfants, suivie par la faillite personnelle et la perte de la faveur de ses mécènes.",
+      "recovery": "Il a refusé de compromettre son intégrité artistique, se tournant vers des autoportraits profonds et capturant la condition humaine brute et honnête sur la toile."
+    },
+    "it": {
+      "name": "Rembrandt",
+      "title": "Maestro della luce e dell'ombra",
+      "headline": "Pittore dell'anima umana",
+      "shortDescription": "Uno dei più grandi pittori della storia dell'arte europea e del Secolo d'oro olandese. Ha catturato profondamente le emozioni umane utilizzando in modo drammatico la luce e l'ombra.",
+      "quote": "Senza atmosfera un quadro è nulla.",
+      "chatGreeting": "Benvenuto, viaggiatore. Così come c'è sempre ombra dove c'è luce, la verità delle nostre vite si nasconde nei confini tra di esse. Che tipo di tela sta riempiendo con la Sua vita?",
+      "suggestedQuestions": ["Cosa significano la luce e l'ombra nei Suoi dipinti?", "Come ha affrontato la perdita dei Suoi cari?", "Perché ha dipinto così tanti autoritratti?"],
+      "era": "Secolo d'oro olandese (XVII secolo)",
+      "pain": "La tragica morte della moglie Saskia e dei figli, seguita dalla bancarotta personale e dalla perdita del favore dei mecenati.",
+      "recovery": "Si rifiutò di scendere a compromessi con la sua integrità artistica, dedicandosi a profondi autoritratti e catturando sulla tela la cruda e onesta condizione umana."
+    },
+    "pt": {
+      "name": "Rembrandt",
+      "title": "Mestre da luz e da sombra",
+      "headline": "Pintor da alma humana",
+      "shortDescription": "Um dos maiores pintores da história da arte europeia, representando a Idade de Ouro Holandesa. Ele capturou profundamente as emoções humanas usando luz e sombra dramáticas.",
+      "quote": "Uma pintura está terminada quando o artista diz que está.",
+      "chatGreeting": "Bem-vindo, viajante. Assim como há sempre sombra onde há luz, a verdade de nossas vidas se esconde nas fronteiras entre elas. Que tipo de tela você está preenchendo com sua vida?",
+      "suggestedQuestions": ["O que a luz e a sombra significam em suas pinturas?", "Como você superou a perda de seus entes queridos?", "Por que você pintou tantos autorretratos?"],
+      "era": "Idade de Ouro Holandesa (Século XVII)",
+      "pain": "A trágica morte de sua esposa Saskia e filhos, seguida de falência pessoal e perda de prestígio entre os patronos.",
+      "recovery": "Ele se recusou a comprometer sua integridade artística, voltando-se para autorretratos profundos e capturando a condição humana crua e honesta nas telas."
+    },
+    "ar": {
+      "name": "رامبرانت",
+      "title": "سيد النور والظل",
+      "headline": "رسام الروح البشرية",
+      "shortDescription": "أحد أعظم الرسامين في تاريخ الفن الأوروبي، ممثلاً للعصر الذهبي الهولندي. صور المشاعر الإنسانية بعمق باستخدام النور والظلال بشكل درامي.",
+      "quote": "تكتمل اللوحة عندما يقول الرسام إنها اكتملت.",
+      "chatGreeting": "مرحباً بك أيها المسافر. كما أن هناك دائماً ظلاً حيث يوجد نور، فإن حقيقة حياتنا تختبئ في الحدود بينهما. ما نوع اللوحة التي تملأها بحياتك؟",
+      "suggestedQuestions": ["ماذا يعني النور والظل في لوحاتك؟", "كيف تغلبت على فقدان أحبائك؟", "لماذا رسمت الكثير من اللوحات الذاتية؟"],
+      "era": "العصر الذهبي الهولندي (القرن السابع عشر)",
+      "pain": "الموت المأساوي لزوجته ساسكيا وأطفاله، تلاه الإفلاس الشخصي وفقدان حظوته لدى الرعاة.",
+      "recovery": "رفض التنازل عن نزاهته الفنية، متجهاً إلى لوحات ذاتية عميقة ومصوّراً الحالة الإنسانية الصادقة والمجردة على القماش."
+    },
+    "hi": {
+      "name": "रेम्ब्रांट",
+      "title": "प्रकाश और छाया के उस्ताद",
+      "headline": "मानव आत्मा के चित्रकार",
+      "shortDescription": "यूरोपीय कला इतिहास के सबसे महान चित्रकारों में से एक, डच स्वर्ण युग के प्रतिनिधि। उन्होंने नाटकीय प्रकाश और छाया का उपयोग करके मानवीय भावनाओं को गहराई से कैद किया।",
+      "quote": "एक पेंटिंग तब पूरी होती है जब चित्रकार कहता है कि यह पूरी हो गई है।",
+      "chatGreeting": "स्वागत है, यात्री। जिस तरह जहां प्रकाश होता है वहां हमेशा छाया होती है, हमारे जीवन की सच्चाई उनके बीच की सीमाओं में छिपी होती है। आप अपने जीवन से किस तरह का कैनवास भर रहे हैं?",
+      "suggestedQuestions": ["आपके चित्रों में प्रकाश और छाया का क्या अर्थ है?", "आपने अपने प्रियजनों को खोने का दुख कैसे झेला?", "आपने इतने सारे आत्म-चित्र क्यों बनाए?"],
+      "era": "१७वीं सदी का डच स्वर्ण युग",
+      "pain": "अपनी पत्नी सास्किया और बच्चों की दुखद मृत्यु, उसके बाद व्यक्तिगत दिवालियापन और संरक्षकों के साथ विवाद।",
+      "recovery": "उन्होंने अपनी कलात्मक अखंडता से समझौता करने से इनकार कर दिया, गहरे आत्म-चित्रों की ओर रुख किया और कैनवास पर सच्ची मानवीय स्थिति को चित्रित किया।"
+    },
+    "ru": {
+      "name": "Рембрандт",
+      "title": "Мастер света и тени",
+      "headline": "Художник человеческой души",
+      "shortDescription": "Один из величайших художников в истории европейского искусства, яркий представитель золотого века голландской живописи. Он глубоко передавал человеческие эмоции с помощью драматической игры света и тени.",
+      "quote": "Картина закончена, когда художник говорит, что она закончена.",
+      "chatGreeting": "Добро пожаловать, путник. Как свет неразрывно связан с тенью, так и истина нашей жизни таится на границе между ними. Какой холст заполняете вы своей жизнью?",
+      "suggestedQuestions": ["Что означают свет и тень на ваших картинах?", "Как вы пережили потерю близких?", "Почему вы написали так много автопортретов?"],
+      "era": "Золотой век голландской живописи (XVII век)",
+      "pain": "Трагическая смерть жены Саскии и детей, за которой последовало личное банкротство и потеря благосклонности покровителей.",
+      "recovery": "Он отказался идти на компромисс со своей творческой честностью, обратившись к глубоким автопортретам и запечатлев на холсте обнаженную, честную человеческую натуру."
+    },
+    "zh": {
+      "name": "伦勃朗",
+      "title": "光影大师",
+      "headline": "描绘人类灵魂的画家",
+      "shortDescription": "欧洲艺术史上最伟大的画家之一，荷兰黄金时代的代表人物。他利用戏剧性的光影，深刻地捕捉了人类的情感和内心的真实。",
+      "quote": "当画家说它完成了，一幅画才算完成。",
+      "chatGreeting": "欢迎，旅行者。就像有光的地方必有影一样，我们生活的真相也隐藏在它们之间的边界上。你正在用你的生活填满什么样的画布呢？",
+      "suggestedQuestions": ["在您的画作中，光与影意味着什么？", "您是如何克服失去挚爱的悲痛的？", "您为什么画了这么多自画像？"],
+      "era": "17世纪荷兰黄金时代",
+      "pain": "妻子萨斯基亚和孩子们的相继离世，随之而来的是个人破产和失去赞助人的青睐。",
+      "recovery": "他拒绝在艺术操守上妥协，转向深刻的自画像创作，在画布上捕捉真实、质朴的人性。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 빛을 머금은 방앗간의 소년\n\n1606년, 네덜란드 레이덴의 제분업자 아들로 태어난 렘브란트 하르멘손 판 레인은 부유한 상인들의 세계 대신 화가의 길을 선택했습니다. 그의 스튜디오에는 언제나 빛과 어둠이 교차했습니다. 젊은 시절 그는 이탈리아에 가지 않고도 고향에서 모든 것을 배울 수 있다고 믿었고, 뛰어난 기교와 역동적인 구도로 암스테르담 미술계의 총아로 떠올랐습니다.\n\n### 2. 황금빛 영광과 사스키아\n\n그는 부유한 상인의 딸 사스키아와 결혼하며 부와 명성을 동시에 거머쥐었습니다. 대형 초상화 주문이 밀려들었고, 그의 화풍은 세련미와 드라마를 갖추며 정점에 달했습니다. 가장 위대한 걸작으로 꼽히는 '야경(The Night Watch)'은 이 시기의 절정을 보여주지만, 동시에 전통적인 단체 초상화의 공식을 깨버리며 훗날 닥쳐올 시련의 전조가 되기도 했습니다.\n\n### 3. 찾아온 어둠, 몰락과 상실\n\n그러나 빛이 강할수록 그림자도 짙어지는 법입니다. 사랑하는 아내 사스키아와 세 아이가 잇달아 병으로 세상을 떠나면서 렘브란트는 깊은 슬픔에 빠졌습니다. 더구나 그의 지나치게 솔직하고 실험적인 화풍은 당시 유행하던 우아한 초상화 양식과 맞지 않았고, 주문은 점차 끊어졌습니다. 방만한 소비벽과 투자 실패까지 겹쳐 그는 결국 파산 선고를 받고 모든 재산을 경매에 넘겨야 했습니다.\n\n### 4. 내면의 빛, 불멸의 자화상\n\n사회적 명성도, 재산도 모두 잃었지만 렘브란트는 결코 붓을 놓지 않았습니다. 오히려 외부의 시선에서 자유로워진 그는 인간 내면의 진실에 더욱 깊이 파고들었습니다. 화려한 옷 대신 허름한 옷을 입은 자신의 늙고 주름진 얼굴을 끊임없이 그리며 인간 존재의 본질을 성찰했습니다. 그의 후기 자화상에 깃든 거칠고 두터운 물감 자국 속에는, 세파에 시달리면서도 결코 타협하지 않은 한 예술가의 위대한 영혼이 담겨 있습니다.",
+    "epic_en": "### 1. The Boy from the Mill who Captured the Light\n\nBorn in 1606 in Leiden as the son of a miller, Rembrandt Harmenszoon van Rijn chose the path of a painter over the prosperous life of merchants. His studio was always a place where brilliant light intersected with deep shadows. In his youth, he believed he could learn everything he needed in his homeland without traveling to Italy. With his exceptional technique and dynamic compositions, he quickly became the darling of the Amsterdam art scene.\n\n### 2. Golden Glory and Saskia\n\nHis marriage to Saskia, the daughter of a wealthy family, brought him both wealth and immense fame. Commissions for grand portraits poured in, and his style reached its zenith in sophistication and drama. His renowned masterpiece, 'The Night Watch,' represents the pinnacle of this period. Yet, by breaking the traditional rules of group portraiture, it also subtly foreshadowed the trials that were to come.\n\n### 3. The Encroaching Shadows of Loss and Ruin\n\nBut the brighter the light, the darker the shadow. Rembrandt plunged into profound grief when his beloved wife Saskia and three of their children died in rapid succession. Furthermore, his increasingly unvarnished and experimental style fell out of favor with the changing tastes of a society that now preferred elegant and flattering portraits. Coupled with reckless spending and failed investments, he was ultimately declared bankrupt, forcing him to sell off his house and all his possessions.\n\n### 4. Inner Radiance and Immortal Self-Portraits\n\nStripped of social status and wealth, Rembrandt never put down his brush. Freed from the expectations of patrons, he delved deeper into the raw truth of human existence. Instead of painting wealthy aristocrats, he constantly painted his own aging, wrinkled face wearing modest clothes, reflecting on the essence of humanity. The thick, rough impasto of his late self-portraits captures the indomitable spirit of an artist who endured life's harshest storms without ever compromising his artistic soul.",
+    "epic_de": "### 1. Der Junge aus der Mühle\n\nRembrandt Harmenszoon van Rijn, 1606 in Leiden als Sohn eines Müllers geboren, wählte den Weg des Malers anstelle des wohlhabenden Kaufmannslebens. Sein Atelier war ein Ort, an dem sich brillantes Licht und tiefe Schatten kreuzten.\n\n### 2. Goldener Ruhm und Saskia\n\nSeine Ehe mit Saskia brachte ihm Reichtum und Ruhm. Aufträge für große Porträts strömten ein. Sein Meisterwerk 'Die Nachtwache' stellt den Höhepunkt dieser Zeit dar, brach jedoch mit den traditionellen Regeln.\n\n### 3. Schatten des Verlustes und des Ruins\n\nJe heller das Licht, desto dunkler der Schatten. Der Tod seiner geliebten Frau Saskia und seiner Kinder stürzte ihn in tiefe Trauer. Sein schonungsloser Stil fiel in Ungnade, und er ging schließlich bankrott.\n\n### 4. Innere Strahlkraft und unsterbliche Porträts\n\nOhne Reichtum und Status malte Rembrandt weiter. Er erforschte die rohe Wahrheit des menschlichen Daseins in seinen späten Selbstporträts und hielt den unbezwingbaren Geist eines Künstlers fest, der niemals Kompromisse einging.",
+    "epic_ja": "### 1. 光を捉えた粉屋の少年\n\n1606年、ライデンの製粉業者の息子として生まれたレンブラントは、画家の道を選びました。彼のスタジオは常に光と影が交差する場所であり、彼はアムステルダム美術界の寵児となりました。\n\n### 2. 黄金の栄光とサスキア\n\nサスキアとの結婚は彼に富と名声をもたらしました。彼の傑作『夜警』はこの時期の頂点を示すと同時に、伝統的な集団肖像画のルールを破るものでした。\n\n### 3. 喪失と破産の影\n\nしかし、光が強いほど影も濃くなります。愛する妻サスキアと子供たちの死は彼を深い悲しみへと突き落としました。彼の赤裸々な画風は時代遅れとされ、破産を宣告されました。\n\n### 4. 内なる光、不滅の自画像\n\n財産も名声も失ったレンブラントでしたが、決して筆を置きませんでした。老いていく自身の顔を率直に描き続け、妥協することのない芸術家の偉大な魂をキャンバスに刻み込みました。",
+    "epic_es": "### 1. El chico del molino\n\nNacido en 1606 en Leiden como hijo de un molinero, Rembrandt eligió el camino del pintor. Su estudio era un lugar donde la luz brillante se cruzaba con sombras profundas.\n\n### 2. Gloria dorada y Saskia\n\nSu matrimonio con Saskia le trajo riqueza y fama. Su obra maestra 'La ronda de noche' representa la cima de este período, aunque rompió con las reglas tradicionales de los retratos de grupo.\n\n### 3. Las sombras de la pérdida\n\nLa muerte de su esposa Saskia y de sus hijos lo sumió en un profundo dolor. Su estilo descarnado cayó en desgracia y, finalmente, se declaró en bancarrota.\n\n### 4. Resplandor interior\n\nDespojado de riqueza, Rembrandt nunca dejó de pintar. Profundizó en la verdad desnuda de la existencia humana a través de sus últimos autorretratos, capturando un alma artística inquebrantable.",
+    "epic_fr": "### 1. Le garçon du moulin\n\nNé en 1606 à Leyde, fils d'un meunier, Rembrandt a choisi la voie du peintre. Son atelier était un lieu où la lumière brillante croisait les ombres profondes.\n\n### 2. Gloire dorée et Saskia\n\nSon mariage avec Saskia lui a apporté richesse et renommée. Son chef-d'œuvre 'La Ronde de nuit' représente l'apogée de cette période, bien qu'il ait brisé les règles traditionnelles.\n\n### 3. Les ombres de la perte\n\nLa mort de sa femme Saskia et de ses enfants l'a plongé dans un profond chagrin. Son style brut est tombé en disgrâce et il a finalement fait faillite.\n\n### 4. Rayonnement intérieur\n\nDépouillé de sa richesse, Rembrandt n'a jamais cessé de peindre. Il a exploré la vérité brute de l'existence humaine à travers ses autoportraits tardifs, capturant une âme artistique inébranlable.",
+    "epic_it": "### 1. Il ragazzo del mulino\n\nNato nel 1606 a Leida, figlio di un mugnaio, Rembrandt scelse la strada del pittore. Il suo studio era un luogo in cui la luce brillante si incrociava con ombre profonde.\n\n### 2. Gloria dorata e Saskia\n\nIl suo matrimonio con Saskia gli portò ricchezza e fama. Il suo capolavoro 'La Ronda di notte' rappresenta l'apice di questo periodo, sebbene avesse infranto le regole tradizionali.\n\n### 3. Le ombre della perdita\n\nLa morte della moglie Saskia e dei figli lo gettò in un profondo dolore. Il suo stile crudo cadde in disgrazia e alla fine andò in bancarotta.\n\n### 4. Radianza interiore\n\nSpogliato della ricchezza, Rembrandt non smise mai di dipingere. Ha esplorato la nuda verità dell'esistenza umana attraverso i suoi ultimi autoritratti, catturando un'anima artistica inflessibile.",
+    "epic_pt": "### 1. O garoto do moinho\n\nNascido em 1606 em Leiden, filho de um moleiro, Rembrandt escolheu o caminho do pintor. Seu estúdio era um lugar onde a luz brilhante cruzava com sombras profundas.\n\n### 2. Glória dourada e Saskia\n\nSeu casamento com Saskia lhe trouxe riqueza e fama. Sua obra-prima 'A Ronda Noturna' representa o ápice desse período, embora tenha quebrado as regras tradicionais.\n\n### 3. As sombras da perda\n\nA morte de sua esposa Saskia e filhos o mergulhou em profunda tristeza. Seu estilo cru caiu em desgraça e ele acabou falindo.\n\n### 4. Esplendor interior\n\nDespojado da riqueza, Rembrandt nunca parou de pintar. Ele mergulhou na verdade nua e crua da existência humana através de seus últimos autorretratos, capturando uma alma artística inquebrantável.",
+    "epic_ar": "### 1. فتى الطاحونة\n\nولد رامبرانت عام 1606 في ليدن، وهو ابن طحان، واختار طريق الرسام. كان الاستوديو الخاص به دائمًا مكانًا يتقاطع فيه الضوء اللامع مع الظلال العميقة.\n\n### 2. المجد الذهبي وساسكيا\n\nجلب له زواجه من ساسكيا الثروة والشهرة. تمثل تحفته الفنية \"دورية الليل\" ذروة هذه الفترة، على الرغم من كسرها لقواعد التصوير التقليدية.\n\n### 3. ظلال الخسارة والخراب\n\nلكن كلما كان الضوء ساطعًا، كلما كان الظل أكثر قتامة. غرق في حزن عميق بعد وفاة زوجته وأطفاله، وتعرض للإفلاس التام.\n\n### 4. التألق الداخلي والصور الذاتية الخالدة\n\nبعد تجريده من مكانته الاجتماعية، لم يترك رامبرانت فرشاته أبدًا. تعمق في الحقيقة المجردة للوجود الإنساني من خلال صوره الذاتية الأخيرة، مصورًا روحه الفنية التي لا تقهر.",
+    "epic_hi": "### 1. मिल से आया लड़का\n\n१६०६ में लीडेन में एक मिल मालिक के बेटे के रूप में जन्मे, रेम्ब्रांट ने एक चित्रकार का रास्ता चुना। उनका स्टूडियो हमेशा एक ऐसी जगह थी जहां शानदार रोशनी और गहरी छाया मिलती थी।\n\n### 2. सुनहरा गौरव और सास्किया\n\nसास्किया से उनके विवाह ने उन्हें धन और प्रसिद्धि दोनों दिलाए। उनकी उत्कृष्ट कृति 'द नाइट वॉच' इस अवधि के शिखर का प्रतिनिधित्व करती है।\n\n### 3. हानि और बर्बादी की छाया\n\nलेकिन प्रकाश जितना तेज होगा, छाया उतनी ही गहरी होगी। अपनी पत्नी और बच्चों की मृत्यु के बाद वे गहरे शोक में डूब गए और अंततः दिवालिया हो गए।\n\n### 4. आंतरिक चमक और अमर आत्म-चित्र\n\nधन और दर्जे से वंचित, रेम्ब्रांट ने कभी अपना ब्रश नहीं छोड़ा। उन्होंने अपने बाद के आत्म-चित्रों के माध्यम से मानव अस्तित्व की सच्ची सच्चाई में गहराई से प्रवेश किया।",
+    "epic_ru": "### 1. Мальчик с мельницы\n\nРодившийся в 1606 году в Лейдене в семье мельника, Рембрандт выбрал путь художника. Его мастерская всегда была местом, где яркий свет пересекался с глубокими тенями.\n\n### 2. Золотая слава и Саския\n\nБрак с Саскией принес ему богатство и славу. Его шедевр «Ночной дозор» представляет собой вершину этого периода, хотя и ломает традиционные правила группового портрета.\n\n### 3. Тени потерь и разорения\n\nСмерть любимой жены и детей повергла его в глубокое горе. Его бескомпромиссный стиль впал в немилость, и он в конце концов обанкротился.\n\n### 4. Внутреннее сияние и бессмертные автопортреты\n\nЛишенный богатства, Рембрандт никогда не откладывал кисть. Он углубился в голую правду человеческого существования через свои поздние автопортреты, запечатлев несокрушимый дух художника.",
+    "epic_zh": "### 1. 磨坊里走出的少年\n\n1606年出生于莱顿，作为一个磨坊主的儿子，伦勃朗选择了画家的道路。他的工作室始终是明亮光线与深邃阴影交汇的地方。\n\n### 2. 黄金的荣耀与萨斯基亚\n\n他与萨斯基亚的婚姻为他带来了财富和声誉。他的杰作《夜巡》代表了这一时期的巅峰，但也打破了传统的群像规则。\n\n### 3. 失去与破产的阴影\n\n然而，光线越亮，阴影越暗。妻子和孩子们的相继去世让他陷入了深深的悲痛。他直白的画风不再受青睐，最终宣告破产。\n\n### 4. 内在的光芒与不朽的自画像\n\n被剥夺了财富与地位的伦勃朗从未放下画笔。他通过晚期的自画像深入探索了人类存在的真实，展现了绝不妥协的艺术灵魂。",
+    "trials_ko": "사랑하는 가족들의 잇따른 죽음, 화풍의 변화로 인한 대중의 외면, 그리고 파산과 가난.",
+    "trials_en": "The successive deaths of his beloved family, public rejection due to his changing artistic style, and ensuing bankruptcy and poverty.",
+    "overcoming_ko": "외부의 시선에 타협하지 않고, 자신만의 예술적 진실과 인간 내면에 집중한 수많은 자화상을 통해 불멸의 예술을 완성함.",
+    "overcoming_en": "Refusing to compromise for public approval, he created immortal art through numerous self-portraits that focused on his own artistic truth and human depths.",
+    "wisdom": [
+      {
+        "quote_ko": "그림은 완성되는 것이 아니라, 화가가 붓을 멈추었을 때 비로소 완성되는 것이다.",
+        "quote_en": "A painting is finished when the artist says it is finished.",
+        "meaning_ko": "예술의 완성은 외부의 평가가 아니라 창작자 자신의 내면적 확신에 달려 있음을 의미합니다.",
+        "meaning_en": "This means that the completion of art relies not on external judgment, but on the creator's own inner conviction."
+      },
+      {
+        "quote_ko": "가장 깊은 감정은 침묵 속에서 표현된다.",
+        "quote_en": "The deepest emotions are expressed in silence.",
+        "meaning_ko": "진정한 슬픔과 기쁨은 화려한 수식어 없이 고요한 표정과 빛의 깊이로 전달될 수 있다는 뜻입니다.",
+        "meaning_en": "True sorrow and joy can be conveyed through quiet expressions and the depth of light, without flamboyant words."
+      },
+      {
+        "quote_ko": "진실된 내면을 그리기 위해서는 먼저 자신의 어두운 그림자를 직면해야 한다.",
+        "quote_en": "To paint the truthful inner self, one must first confront their own dark shadows.",
+        "meaning_ko": "자신의 고통과 한계를 숨기지 않고 정면으로 마주할 때 비로소 타인의 영혼도 이해할 수 있다는 통찰입니다.",
+        "meaning_en": "The insight that only by facing one's own pain and limitations head-on can one truly understand the souls of others."
+      }
+    ]
+  }
+}

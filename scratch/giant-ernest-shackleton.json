@@ -1,0 +1,186 @@
+{
+  "messages": {
+    "ko": {
+      "name": "어니스트 섀클턴",
+      "title": "남극 탐험의 위대한 리더",
+      "headline": "역경을 넘는 불굴의 의지",
+      "shortDescription": "영국의 남극 탐험가로, 인듀어런스호 침몰이라는 최악의 절망 속에서도 단 한 명의 희생자 없이 대원 전원을 생환시킨 기적의 리더십으로 널리 알려져 있습니다.",
+      "quote": "우리는 어려움 속에서도 별을 본다.",
+      "chatGreeting": "이곳까지 오시다니, 당신의 모험심이 대단하군요. 험난한 빙해 속에서도 희망을 잃지 않는 법에 대해 이야기해 볼까요?",
+      "suggestedQuestions": ["인듀어런스호가 침몰할 때 어떤 심정이었나요?", "극한 상황에서 대원들의 사기를 어떻게 유지했나요?", "진정한 리더십이란 무엇이라고 생각하나요?"],
+      "era": "19세기 말 - 20세기 초",
+      "pain": "인듀어런스호가 얼음에 갇혀 완전히 파괴되었고, 남극의 혹한 속에 대원 27명과 함께 고립되었습니다.",
+      "recovery": "절망적인 상황에서도 끊임없이 대원들의 사기를 북돋우고, 구조 요청을 위해 목숨을 건 작은 보트 항해를 강행하여 전원을 무사히 귀환시켰습니다."
+    },
+    "en": {
+      "name": "Ernest Shackleton",
+      "title": "Legendary Antarctic Explorer",
+      "headline": "Unbroken spirit in ice",
+      "shortDescription": "A British polar explorer who led three British expeditions to the Antarctic. He is best remembered for his epic leadership during the ill-fated Endurance expedition, where he saved his entire crew after their ship was crushed by pack ice.",
+      "quote": "Through endurance we conquer.",
+      "chatGreeting": "Welcome, fellow traveler. The journey may be perilous, but it is in the harshest storms that we discover our true mettle. What shall we discuss today?",
+      "suggestedQuestions": ["What was going through your mind when the Endurance sank?", "How did you maintain the crew's morale in the ice?", "What defines a great leader in a crisis?"],
+      "era": "Late 19th - Early 20th Century",
+      "pain": "Trapped in the unforgiving Antarctic pack ice, his ship Endurance was crushed, leaving him and 27 men stranded in freezing conditions.",
+      "recovery": "Through sheer willpower and remarkable leadership, he undertook a treacherous 800-mile open-boat journey to secure a rescue, ensuring not a single man was lost."
+    },
+    "ja": {
+      "name": "アーネスト・シャクルトン",
+      "title": "南極探検の偉大なるリーダー",
+      "headline": "逆境を乗り越える不屈の意志",
+      "shortDescription": "イギリスの南極探検家であり、エンデュアランス号の沈没という絶望的な状況下で、誰一人として命を落とすことなく全隊員を帰還させた奇跡のリーダーシップで知られています。",
+      "quote": "忍耐によって我々は克服する。",
+      "chatGreeting": "よくここまで来ましたね。氷の海の中でも決して希望を失わない方法について語り合いましょう。",
+      "suggestedQuestions": ["エンデュアランス号が沈んだ時、何を思いましたか？", "極限状態で隊員の士気をどのように保ちましたか？", "真のリーダーシップとは何だと思いますか？"],
+      "era": "19世紀末 - 20世紀初頭",
+      "pain": "エンデュアランス号が氷に閉じ込められて完全に破壊され、27人の隊員と共に南極の極寒の中に取り残されました。",
+      "recovery": "絶望的な状況でも常に隊員を励まし、救助を求めるために命懸けで小さなボートによる航海を強行し、全員を無事に生還させました。"
+    },
+    "de": {
+      "name": "Ernest Shackleton",
+      "title": "Legendärer Antarktisforscher",
+      "headline": "Ungebrochener Wille im Eis",
+      "shortDescription": "Ein britischer Polarforscher, der drei britische Expeditionen in die Antarktis leitete. Er ist berühmt für seine epische Führung während der Endurance-Expedition, bei der er seine gesamte Crew rettete, nachdem ihr Schiff vom Packeis zerdrückt wurde.",
+      "quote": "Durch Ausdauer erobern wir.",
+      "chatGreeting": "Willkommen, Mitreisender. Die Reise mag gefährlich sein, aber in den härtesten Stürmen entdecken wir unseren wahren Mut. Worüber sollen wir heute sprechen?",
+      "suggestedQuestions": ["Was ging Ihnen durch den Kopf, als die Endurance sank?", "Wie haben Sie die Moral der Crew aufrechterhalten?", "Was macht einen großen Anführer in einer Krise aus?"],
+      "era": "Spätes 19. - Frühes 20. Jahrhundert",
+      "pain": "Gefangen im unerbittlichen Packeis der Antarktis wurde sein Schiff Endurance zerdrückt und ließ ihn und 27 Männer in eisigen Bedingungen stranden.",
+      "recovery": "Durch schiere Willenskraft und bemerkenswerte Führung unternahm er eine tückische 800-Meilen-Reise in einem offenen Boot, um Rettung zu holen, und stellte sicher, dass kein einziger Mann verloren ging."
+    },
+    "es": {
+      "name": "Ernest Shackleton",
+      "title": "Legendario explorador antártico",
+      "headline": "Espíritu inquebrantable",
+      "shortDescription": "Un explorador polar británico que lideró tres expediciones a la Antártida. Es recordado por su liderazgo épico durante la expedición Endurance, donde salvó a toda su tripulación después de que su barco fuera aplastado por el hielo.",
+      "quote": "A través de la resistencia, conquistamos.",
+      "chatGreeting": "Bienvenido, compañero de viaje. El camino puede ser peligroso, pero es en las tormentas más duras donde descubrimos nuestro verdadero temple. ¿De qué hablaremos hoy?",
+      "suggestedQuestions": ["¿Qué pensó cuando el Endurance se hundió?", "¿Cómo mantuvo la moral de la tripulación?", "¿Qué define a un gran líder en una crisis?"],
+      "era": "Finales del siglo XIX - Principios del siglo XX",
+      "pain": "Atrapado en el implacable hielo antártico, su barco Endurance fue aplastado, dejándolo a él y a 27 hombres varados en condiciones heladas.",
+      "recovery": "A través de pura fuerza de voluntad y un liderazgo notable, emprendió un traicionero viaje de 800 millas en bote abierto para asegurar el rescate, asegurando que ni un solo hombre se perdiera."
+    },
+    "fr": {
+      "name": "Ernest Shackleton",
+      "title": "Explorateur antarctique légendaire",
+      "headline": "Esprit indomptable",
+      "shortDescription": "Un explorateur polaire britannique qui a dirigé trois expéditions britanniques vers l'Antarctique. Il est célèbre pour son leadership héroïque lors de l'expédition de l'Endurance, où il a sauvé tout son équipage après que leur navire a été broyé par les glaces.",
+      "quote": "Par l'endurance, nous conquérons.",
+      "chatGreeting": "Bienvenue, cher voyageur. Le voyage peut être périlleux, mais c'est dans les pires tempêtes que nous découvrons notre véritable courage. De quoi souhaitez-vous discuter ?",
+      "suggestedQuestions": ["À quoi pensiez-vous lorsque l'Endurance a coulé ?", "Comment avez-vous maintenu le moral de l'équipage ?", "Qu'est-ce qui définit un grand leader en temps de crise ?"],
+      "era": "Fin du 19ème - Début du 20ème siècle",
+      "pain": "Piégé dans les glaces impitoyables de l'Antarctique, son navire l'Endurance a été broyé, le laissant lui et 27 hommes bloqués dans des conditions glaciales.",
+      "recovery": "Grâce à une volonté de fer et à un leadership remarquable, il a entrepris un périlleux voyage de 800 milles en canot ouvert pour obtenir des secours, s'assurant qu'aucun homme ne soit perdu."
+    },
+    "it": {
+      "name": "Ernest Shackleton",
+      "title": "Leggendario esploratore antartico",
+      "headline": "Spirito indomito tra i ghiacci",
+      "shortDescription": "Un esploratore polare britannico che guidò tre spedizioni britanniche in Antartide. È ricordato per la sua epica leadership durante la spedizione dell'Endurance, in cui salvò l'intero equipaggio dopo che la loro nave fu schiacciata dai ghiacci.",
+      "quote": "Attraverso la resistenza conquistiamo.",
+      "chatGreeting": "Benvenuto, compagno di viaggio. Il cammino può essere pericoloso, ma è nelle tempeste più dure che scopriamo la nostra vera tempra. Di cosa parleremo oggi?",
+      "suggestedQuestions": ["Cosa pensava quando l'Endurance è affondata?", "Come ha mantenuto alto il morale dell'equipaggio?", "Cosa definisce un grande leader in una crisi?"],
+      "era": "Fine XIX - Inizio XX secolo",
+      "pain": "Intrappolata negli spietati ghiacci antartici, la sua nave Endurance fu distrutta, lasciando lui e 27 uomini bloccati in condizioni di gelo.",
+      "recovery": "Attraverso pura forza di volontà e una leadership straordinaria, intraprese un pericoloso viaggio di 800 miglia in una barca aperta per assicurare i soccorsi, garantendo che non andasse perduto un solo uomo."
+    },
+    "pt": {
+      "name": "Ernest Shackleton",
+      "title": "Lendário explorador antártico",
+      "headline": "Espírito inquebrantável",
+      "shortDescription": "Um explorador polar britânico que liderou três expedições britânicas à Antártica. Ele é lembrado por sua liderança épica durante a expedição do Endurance, onde salvou toda a sua tripulação depois que seu navio foi esmagado pelo gelo.",
+      "quote": "Pela resistência nós conquistamos.",
+      "chatGreeting": "Bem-vindo, companheiro de viagem. A jornada pode ser perigosa, mas é nas tempestades mais severas que descobrimos nossa verdadeira coragem. O que vamos discutir hoje?",
+      "suggestedQuestions": ["O que passou pela sua cabeça quando o Endurance afundou?", "Como você manteve o moral da tripulação?", "O que define um grande líder em uma crise?"],
+      "era": "Final do Século XIX - Início do Século XX",
+      "pain": "Preso no implacável gelo antártico, seu navio Endurance foi esmagado, deixando ele e 27 homens presos em condições de congelamento.",
+      "recovery": "Por pura força de vontade e liderança notável, ele empreendeu uma perigosa jornada de 800 milhas em um barco aberto para garantir o resgate, garantindo que nem um único homem fosse perdido."
+    },
+    "ar": {
+      "name": "إرنست شاكلتون",
+      "title": "المستكشف الأسطوري للقارة القطبية الجنوبية",
+      "headline": "إرادة لا تقهر وسط الجليد",
+      "shortDescription": "مستكشف قطبي بريطاني قاد ثلاث بعثات بريطانية إلى القارة القطبية الجنوبية. يُذكر لقيادته الملحمية خلال رحلة إندورانس، حيث أنقذ طاقمه بالكامل بعد أن سحق الجليد سفينتهم.",
+      "quote": "من خلال التحمل ننتصر.",
+      "chatGreeting": "أهلاً بك أيها المسافر. قد تكون الرحلة محفوفة بالمخاطر، ولكن في أقسى العواصف نكتشف معدننا الحقيقي. عمّ سنتحدث اليوم؟",
+      "suggestedQuestions": ["بم كنت تفكر عندما غرفت سفينة إندورانس؟", "كيف حافظت على معنويات الطاقم وسط الجليد؟", "ما الذي يصنع قائداً عظيماً في الأزمات؟"],
+      "era": "أواخر القرن التاسع عشر - أوائل القرن العشرين",
+      "pain": "حوصر في جليد القارة القطبية الجنوبية القاسي، وتحطمت سفينته إندورانس، مما تركه و27 رجلاً عالقين في ظروف متجمدة.",
+      "recovery": "بقوة إرادة محضة وقيادة رائعة، قام برحلة خطيرة لمسافة 800 ميل في قارب مفتوح لتأمين الإنقاذ، ولم يفقد رجلاً واحداً."
+    },
+    "hi": {
+      "name": "अर्नेस्ट शैकलटन",
+      "title": "अंटार्कटिका के महान खोजकर्ता",
+      "headline": "बर्फ में अजेय संकल्प",
+      "shortDescription": "एक ब्रिटिश ध्रुवीय खोजकर्ता जिन्होंने अंटार्कटिका के लिए तीन ब्रिटिश अभियानों का नेतृत्व किया। उन्हें मुख्य रूप से 'एंड्योरेंस' अभियान के दौरान उनके असाधारण नेतृत्व के लिए याद किया जाता है, जहाँ उन्होंने अपनी पूरी टीम को बचाया जब उनका जहाज बर्फ से कुचल गया था।",
+      "quote": "धैर्य के माध्यम से हम विजय प्राप्त करते हैं।",
+      "chatGreeting": "स्वागत है, साथी यात्री। यात्रा खतरनाक हो सकती है, लेकिन सबसे भयंकर तूफानों में ही हमें अपने असली साहस का पता चलता है। आज हम किस बारे में बात करेंगे?",
+      "suggestedQuestions": ["जब 'एंड्योरेंस' डूब रहा था तो आपके मन में क्या चल रहा था?", "आपने टीम का मनोबल कैसे बनाए रखा?", "संकट में एक महान नेता की पहचान क्या होती है?"],
+      "era": "१९वीं सदी का अंत - २०वीं सदी की शुरुआत",
+      "pain": "अंटार्कटिका की निर्दयी बर्फ में फंसने के बाद उनका जहाज 'एंड्योरेंस' कुचल गया था, जिससे वह और २७ लोग जमा देने वाली ठंड में फंस गए थे।",
+      "recovery": "अपनी दृढ़ इच्छाशक्ति और उल्लेखनीय नेतृत्व से, उन्होंने बचाव के लिए खुले समुद्र में ८०० मील की एक अत्यंत खतरनाक यात्रा की और सुनिश्चित किया कि एक भी व्यक्ति की जान न जाए।"
+    },
+    "ru": {
+      "name": "Эрнест Шеклтон",
+      "title": "Легендарный исследователь Антарктики",
+      "headline": "Несломленный дух",
+      "shortDescription": "Британский полярный исследователь, возглавивший три экспедиции в Антарктику. Известен своим героическим лидерством во время экспедиции на «Эндьюрансе», спасший всю команду после того, как корабль был раздавлен льдами.",
+      "quote": "Побеждаем выносливостью.",
+      "chatGreeting": "Добро пожаловать, путник. Путь может быть опасен, но именно в самых жестоких бурях мы открываем свою истинную суть. О чем мы поговорим сегодня?",
+      "suggestedQuestions": ["О чем вы думали, когда тонул «Эндьюранс»?", "Как вам удалось поддержать дух команды?", "Что определяет великого лидера в кризис?"],
+      "era": "Конец 19 - начало 20 века",
+      "pain": "Застряв в безжалостных льдах Антарктики, его корабль «Эндьюранс» был раздавлен, оставив его и 27 человек в ледяном плену.",
+      "recovery": "Проявив несгибаемую волю и выдающееся лидерство, он совершил опаснейшее путешествие в 800 миль на открытой шлюпке ради спасения, не потеряв ни одного человека."
+    },
+    "zh": {
+      "name": "欧内斯特·沙克尔顿",
+      "title": "传奇南极探险家",
+      "headline": "冰雪中的不屈意志",
+      "shortDescription": "英国极地探险家，曾三次率领英国探险队前往南极。他最令人铭记的是在“坚忍号”探险期间展现出的史诗般的领导力——在船只被浮冰压毁后，他成功拯救了全体船员。",
+      "quote": "凭借坚忍，我们必将征服。",
+      "chatGreeting": "欢迎，旅行者。旅途可能充满危险，但正是在最猛烈的风暴中，我们才能发现自己真正的勇气。今天你想探讨什么？",
+      "suggestedQuestions": ["当“坚忍号”沉没时，你在想什么？", "你是如何在冰天雪地中维持团队士气的？", "在危机中，什么才是一个伟大领袖的标志？"],
+      "era": "19世纪末 - 20世纪初",
+      "pain": "他的船只“坚忍号”被困在无情的南极浮冰中并被压毁，导致他与27名船员被困在严寒的绝境中。",
+      "recovery": "凭借惊人的意志力和卓越的领导力，他驾驶着一艘没有顶篷的小艇，在波涛汹涌的海面上航行了800英里去寻求救援，最终确保没有一人丧生。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 남극을 향한 꿈\n\n어니스트 섀클턴은 어릴 적부터 바다에 대한 동경을 품고 자랐습니다. 1874년 아일랜드에서 태어난 그는 의사가 되기를 바랐던 아버지의 기대를 뒤로하고 16세에 상선에 올랐습니다. 그의 가슴속에는 언제나 미지의 세계를 향한 열정이 불타오르고 있었습니다. 1901년, 그는 로버트 스콧이 이끄는 디스커버리호 원정대에 합류하여 처음으로 남극 대륙에 발을 내디뎠습니다. 비록 괴혈병과 험난한 환경으로 인해 중도에 돌아와야 했지만, 남극은 이미 그의 운명이 되어 있었습니다.\n\n### 2. 제국의 남극 횡단 원정\n\n아문센과 스콧이 남극점 정복을 달성한 후, 섀클턴은 남은 위대한 목표인 '남극 대륙 횡단'을 꿈꾸었습니다. 1914년 8월, 제1차 세계대전의 전운이 감도는 가운데 그는 27명의 대원과 함께 인듀어런스(Endurance)호를 타고 출항했습니다. 그의 모집 공고는 혹독했습니다. '위험한 여정, 적은 임금, 혹한, 몇 달간의 지속되는 어둠, 안전한 귀환을 보장할 수 없음.' 그러나 이 무모한 도전에 수천 명의 지원자가 몰렸고, 섀클턴은 직관과 통찰력으로 최고의 대원들을 선발했습니다.\n\n### 3. 얼음에 갇힌 인듀어런스호\n\n1915년 1월, 원정대는 남극의 웨들해에 진입했지만, 예상보다 훨씬 일찍 얼어붙은 바다에 갇히고 말았습니다. 인듀어런스호는 거대한 얼음덩어리 사이에 끼어 꼼짝도 할 수 없게 되었습니다. 수개월 동안 빙하에 갇힌 채 떠돌던 배는 결국 얼음의 엄청난 압력을 견디지 못하고 산산조각이 나며 심해로 가라앉았습니다. 대원들은 영하 30도의 혹한 속에서 텐트를 치고 생존해야 했습니다. 목표는 더 이상 남극 횡단이 아니었습니다. 이제 목표는 오직 '생존'과 '귀환'뿐이었습니다.\n\n### 4. 불가능을 가능으로 만든 리더십\n\n절망의 늪에서 섀클턴의 진정한 위대함이 빛을 발했습니다. 그는 엄격한 규율 대신 유머와 긍정을 강조하며 대원들의 사기를 유지했습니다. 밤마다 텐트에서 카드놀이를 하고, 노래를 부르며 두려움을 잊게 했습니다. 마침내 결단의 순간이 왔을 때, 섀클턴은 5명의 대원과 함께 길이 6.8미터의 작은 구명정 '제임스 커드(James Caird)'호에 몸을 싣고 폭풍이 몰아치는 사우스조지아섬을 향해 1,300km의 죽음의 항해를 감행했습니다. 16일간의 사투 끝에 구조대에 도달한 그는, 남겨진 22명의 대원들을 구출하기 위해 다시 돌아갔습니다. 조난된 지 634일 만에, 단 한 명의 희생자도 없이 전원이 기적적으로 생환했습니다. 섀클턴의 실패는 인류 역사상 가장 위대한 생존의 서사이자 리더십의 표본으로 영원히 기록되었습니다.",
+    "epic_en": "### 1. The Call of the Ice\n\nBorn in Ireland in 1874, Ernest Shackleton harbored an insatiable thirst for adventure from a young age. Forsaking his father's wish for him to pursue medicine, he joined the merchant navy at just 16. The sea was his classroom, and the unknown his ultimate ambition. In 1901, he joined Robert Falcon Scott's Discovery expedition, setting foot on the Antarctic ice for the first time. Though forced to return home early due to severe health issues, the frozen continent had claimed a permanent place in his soul.\n\n### 2. The Imperial Trans-Antarctic Expedition\n\nAfter Roald Amundsen and Robert Scott reached the South Pole, Shackleton set his sights on the last great polar challenge: crossing the Antarctic continent from sea to sea. In August 1914, on the eve of World War I, he set sail aboard the Endurance with a crew of 27 men. His legendary (though apocryphal) recruitment ad promised: 'Men wanted for hazardous journey, small wages, bitter cold, long months of complete darkness, safe return doubtful, honor and recognition in case of success.' With a keen eye for character, Shackleton hand-picked a crew built for survival.\n\n### 3. Crushed by the Weddell Sea\n\nIn January 1915, disaster struck before they even reached the continent. The Endurance became hopelessly trapped in the dense pack ice of the Weddell Sea. For ten grueling months, the ship drifted helplessly with the ice floes until the sheer pressure of the frozen ocean finally crushed its hull, sending it to the bottom of the sea. The crew was now stranded on a floating sheet of ice in the harshest environment on Earth, thousands of miles from civilization. The mission of exploration had instantaneously become a pure battle for survival.\n\n### 4. The Miracle of the James Caird\n\nIn this abyss of despair, Shackleton's extraordinary leadership emerged. He immediately shifted the group's focus, maintained strict routines to stave off madness, and prioritized morale above all else. When the ice began to break apart, they launched their three small lifeboats, eventually reaching the desolate Elephant Island. Knowing no rescue would come, Shackleton and five men boarded the 22.5-foot lifeboat, the James Caird, embarking on an 800-mile journey across the most treacherous ocean in the world to reach a whaling station on South Georgia Island. Surviving a hurricane and navigating towering waves, they succeeded. Shackleton then spent months organizing relief efforts. Finally, in August 1916, 634 days after their ordeal began, he rescued the remaining 22 men. Not a single member of his 28-man crew was lost, cementing his legacy as one of history's greatest leaders in crisis.",
+    "epic_de": "### 1. Der Ruf des Eises\n\nErnest Shackleton, geboren 1874 in Irland, hatte schon in jungen Jahren einen unstillbaren Abenteuerdrang. Mit 16 Jahren trat er der Handelsmarine bei und schloss sich später Scotts Discovery-Expedition an. Der eisige Kontinent prägte sein weiteres Leben.\n\n### 2. Die Imperial Trans-Antarctic Expedition\n\nNachdem der Südpol erreicht war, wollte Shackleton die Antarktis überqueren. 1914 stach er mit der Endurance und 27 Männern in See. Seine Crew wählte er nach Charakter und Belastbarkeit aus.\n\n### 3. Zerdrückt vom Weddellmeer\n\nDie Endurance blieb im Packeis stecken und wurde nach zehn Monaten zermalmt. Die Besatzung war nun auf Eisschollen gestrandet, tausende Meilen von der Zivilisation entfernt.\n\n### 4. Das Wunder der James Caird\n\nShackleton hielt die Moral aufrecht. Mit fünf Männern wagte er eine 800-Meilen-Überfahrt im kleinen Rettungsboot James Caird nach Südgeorgien. Alle 28 Männer der Endurance wurden schließlich gerettet – ein Meisterstück wahrer Führung.",
+    "epic_ja": "### 1. 氷海への呼び声\n\n1874年アイルランドに生まれたアーネスト・シャクルトンは、幼い頃から冒険への渇望を抱いていました。16歳で商船隊に加わり、その後スコットのディスカバリー号探検に参加し、南極に魅了されました。\n\n### 2. 帝国南極横断探検隊\n\n南極点が到達された後、シャクルトンは南極大陸の横断を目指しました。1914年、彼はエンデュアランス号で27人の乗組員と共に出航しました。\n\n### 3. ウェッデル海の罠\n\nエンデュアランス号は厚い流氷に閉じ込められ、10ヶ月の漂流の末に氷の圧力で押し潰されて沈没しました。乗組員は氷上に放り出されました。\n\n### 4. ジェームズ・ケアード号の奇跡\n\nシャクルトンは絶望的な状況でも士気を高く保ちました。彼は5人の仲間と共に小さな救命艇ジェームズ・ケアード号で1,300kmの荒海を渡り、サウスジョージア島へ助けを求めに行きました。結果として、探検隊のメンバー28人全員が生還するという奇跡のリーダーシップを歴史に刻みました。",
+    "epic_es": "### 1. La Llamada del Hielo\n\nNacido en Irlanda en 1874, Ernest Shackleton tenía una insaciable sed de aventuras. A los 16 años se unió a la marina mercante y luego a la expedición Discovery de Scott.\n\n### 2. La Expedición Imperial Transantártica\n\nShackleton quería cruzar la Antártida. En 1914, zarpó a bordo del Endurance con una tripulación de 27 hombres, seleccionados por su carácter.\n\n### 3. Aplastados en el Mar de Weddell\n\nEl Endurance quedó atrapado en el hielo. Tras diez meses de deriva, el barco fue aplastado. La tripulación quedó aislada en el hielo congelado.\n\n### 4. El Milagro del James Caird\n\nShackleton mantuvo la moral. Con cinco hombres, navegó 800 millas en el pequeño bote salvavidas James Caird para pedir ayuda. Los 28 hombres sobrevivieron, demostrando su increíble liderazgo.",
+    "epic_fr": "### 1. L'Appel des Glaces\n\nNé en Irlande en 1874, Ernest Shackleton s'engage dans la marine marchande à 16 ans. Il participe ensuite à l'expédition Discovery de Scott et se prend de passion pour l'Antarctique.\n\n### 2. L'Expédition Impériale Transantarctique\n\nEn 1914, Shackleton lance l'Endurance pour traverser l'Antarctique. Il sélectionne 27 hommes non seulement pour leurs compétences, mais surtout pour leur caractère.\n\n### 3. Broyé par la mer de Weddell\n\nLe navire se retrouve piégé dans les glaces. Après des mois de dérive, l'Endurance est détruit par la pression. Les hommes se retrouvent seuls sur la banquise.\n\n### 4. Le Miracle du James Caird\n\nGrâce à son leadership, Shackleton maintient le moral de ses hommes. Il traverse 1300 km d'océan déchaîné à bord d'un canot pour chercher du secours. Miraculeusement, les 28 hommes survivent.",
+    "epic_it": "### 1. Il Richiamo del Ghiaccio\n\nNato in Irlanda nel 1874, Shackleton si unì alla marina mercantile a 16 anni. Partecipò alla spedizione Discovery di Scott, legando il suo destino all'Antartide.\n\n### 2. La Spedizione Imperiale Transantartica\n\nNel 1914 partì con la nave Endurance e 27 uomini per attraversare il continente antartico.\n\n### 3. Stritolati nel Mare di Weddell\n\nL'Endurance rimase intrappolata nei ghiacci e fu distrutta. L'equipaggio rimase bloccato sui ghiacci galleggianti.\n\n### 4. Il Miracolo della James Caird\n\nShackleton mantenne alto il morale. A bordo della piccola scialuppa James Caird, affrontò una navigazione di 800 miglia verso la Georgia del Sud. Tutti i 28 membri dell'equipaggio tornarono a casa sani e salvi.",
+    "epic_pt": "### 1. O Chamado do Gelo\n\nNascido na Irlanda em 1874, Shackleton juntou-se à marinha mercante aos 16 anos. A sua paixão pela Antártica começou com a expedição Discovery.\n\n### 2. A Expedição Transantártica\n\nEm 1914, Shackleton e 27 homens partiram no Endurance para cruzar o continente.\n\n### 3. Esmagados pelo Gelo\n\nO Endurance ficou preso no gelo e afundou, deixando a tripulação isolada.\n\n### 4. O Milagre de James Caird\n\nCom cinco homens, Shackleton navegou 800 milhas em um pequeno barco aberto para buscar resgate. Surpreendentemente, nenhum de seus homens morreu.",
+    "epic_ar": "### 1. نداء الجليد\n\nولد إرنست شاكلتون في أيرلندا عام 1874، وانضم إلى البحرية التجارية في سن 16 عامًا. شارك في رحلة ديسكفري وأصبح القطب الجنوبي مصيره.\n\n### 2. البعثة الإمبراطورية\n\nفي عام 1914، انطلق شاكلتون مع 27 رجلاً على متن السفينة إندورانس لعبور القارة القطبية الجنوبية.\n\n### 3. المحاصرون في بحر ودل\n\nحاصرت الجليد سفينة إندورانس حتى سحقتها بالكامل. وجد الطاقم نفسه محاصراً على الجليد.\n\n### 4. معجزة قارب جيمس كيرد\n\nأظهر شاكلتون قيادة لا مثيل لها. قاد قارب النجاة جيمس كيرد لمسافة 800 ميل عبر المحيط لإنقاذ رجاله، ونجا جميع أفراد الطاقم البالغ عددهم 28 رجلاً.",
+    "epic_hi": "### 1. बर्फ की पुकार\n\n१८७४ में आयरलैंड में जन्मे, शैकलटन १६ साल की उम्र में मर्चेंट नेवी में शामिल हो गए।\n\n### 2. ट्रांस-अंटार्कटिक अभियान\n\n१९१४ में, शैकलटन 'एंड्योरेंस' जहाज में २७ पुरुषों के साथ अंटार्कटिका को पार करने के लिए निकले।\n\n### 3. वेडेल सागर में फंसे\n\nउनका जहाज बर्फ में फंस गया और कुचल दिया गया। सभी लोग बर्फ पर फंसे रह गए।\n\n### 4. बचाव और नेतृत्व\n\nशैकलटन ने अद्भुत नेतृत्व दिखाया और छोटी नाव में ८०० मील की यात्रा करके मदद बुलाई। सभी २८ लोगों की जान बचाई गई।",
+    "epic_ru": "### 1. Зов льдов\n\nРодившийся в Ирландии в 1874 году, Шеклтон с детства мечтал о море. В 16 лет он стал моряком.\n\n### 2. Трансантарктическая экспедиция\n\nВ 1914 году он отправился в Антарктику на корабле «Эндьюранс» с командой из 27 человек.\n\n### 3. В ледяном плену\n\nКорабль застрял во льдах и был раздавлен. Команда осталась выживать на льдинах.\n\n### 4. Спасение\n\nШеклтон с пятью матросами преодолел 800 миль на шлюпке, чтобы привести помощь. Вся команда выжила, благодаря его лидерству.",
+    "epic_zh": "### 1. 冰雪的召唤\n\n沙克尔顿1874年生于爱尔兰，16岁加入商船队。随后他参与了斯科特的探险，南极成了他一生的归宿。\n\n### 2. 跨南极探险\n\n1914年，沙克尔顿率领27名船员乘坐“坚忍号”出发，试图徒步横穿南极大陆。\n\n### 3. 受困威德尔海\n\n“坚忍号”被浮冰围困并最终压毁，探险队不得不在严寒的冰面上挣扎求生。\n\n### 4. 伟大的救援\n\n沙克尔顿带领5名船员驾驶没有顶篷的小艇穿越了800英里的惊涛骇浪，成功搬来救兵，全员奇迹生还。",
+    "trials_ko": "남극의 얼음에 배가 갇혀 파괴되었고, 혹독한 추위와 배고픔 속에서 대원 전체의 생명이 경각에 달하는 절망적인 상황에 직면했습니다.",
+    "trials_en": "His ship was crushed by Antarctic pack ice, stranding him and his men in sub-zero temperatures, thousands of miles from any hope of rescue.",
+    "overcoming_ko": "절망 속에서도 강인한 의지와 유머로 대원들을 뭉치게 했으며, 직접 목숨을 건 소형 보트 항해로 구조대를 불러와 단 한 명의 희생자 없이 전원을 생환시켰습니다.",
+    "overcoming_en": "He maintained group morale through sheer optimism and strict routine, ultimately risking his life in a small open boat to cross the treacherous Southern Ocean and secure rescue for every single man.",
+    "wisdom": [
+      {
+        "quote_ko": "우리는 어려움 속에서도 별을 본다.",
+        "quote_en": "We all have our own White South.",
+        "meaning_ko": "어떤 역경 속에서도 끝까지 희망을 잃지 말아야 함을 뜻합니다.",
+        "meaning_en": "Everyone faces their own greatest challenge or ultimate test of endurance."
+      },
+      {
+        "quote_ko": "과거는 과거일 뿐이다. 이제 텐트로 돌아가 짐을 싸라.",
+        "quote_en": "Ship and stores have gone—so now we'll go home.",
+        "meaning_ko": "절망적인 상황에서 불평하지 않고 즉시 새로운 생존 목표에 집중하는 강력한 결단력을 보여줍니다.",
+        "meaning_en": "Demonstrates the power of accepting disaster immediately and focusing solely on the next steps for survival."
+      },
+      {
+        "quote_ko": "어려움을 견뎌냄으로써 우리는 정복한다.",
+        "quote_en": "Through endurance we conquer.",
+        "meaning_ko": "목표를 이루기 위해서는 무엇보다도 끝까지 버티는 인내가 가장 중요함을 강조합니다.",
+        "meaning_en": "The Shackleton family motto, emphasizing that true victory comes from the resilience to survive hardship."
+      }
+    ]
+  }
+}

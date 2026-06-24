@@ -1,0 +1,266 @@
+
+> wisdom-giants@0.1.0 build
+> next build
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\natey\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * C:\Users\natey\Desktop\wisdom-giants\package-lock.json
+
+   ▲ Next.js 15.5.18
+   - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\natey\Desktop\wisdom-giants\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\natey\Desktop\wisdom-giants\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (101kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (231kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\natey\Desktop\wisdom-giants\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+ ✓ Compiled successfully in 38.8s
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/5199) ...
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+==========================================
+[Server environment check]: Is Firebase API Key loaded? true
+==========================================
+Error: MISSING_MESSAGE: Giants.cleopatra (fr)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (fr)'
+}
+   Generating static pages (1299/5199) 
+Error: MISSING_MESSAGE: Giants.cleopatra (de)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (de)'
+}
+Error: MISSING_MESSAGE: Giants.cleopatra (zh)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (zh)'
+}
+Error: MISSING_MESSAGE: Giants.cleopatra (ar)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (ar)'
+}
+Error: MISSING_MESSAGE: Giants.cleopatra (ko)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (ko)'
+}
+Error: MISSING_MESSAGE: Giants.cleopatra (ja)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (ja)'
+}
+Error: MISSING_MESSAGE: Giants.cleopatra (it)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (it)'
+}
+   Generating static pages (2599/5199) 
+Error: MISSING_MESSAGE: Giants.cleopatra (hi)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (hi)'
+}
+Error: MISSING_MESSAGE: Giants.cleopatra (en)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (en)'
+}
+   Generating static pages (3899/5199) 
+Error: MISSING_MESSAGE: Giants.cleopatra (es)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (es)'
+}
+Error: MISSING_MESSAGE: Giants.cleopatra (pt)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (pt)'
+}
+Error: MISSING_MESSAGE: Giants.cleopatra (ru)
+    at l (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:4405)
+    at n.raw (C:\Users\natey\Desktop\wisdom-giants\.next\server\chunks\3723.js:13:5294)
+    at <unknown> (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19157)
+    at O (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\blog\[slug]\page.js:1:19242) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Giants.cleopatra (ru)'
+}
+ ✓ Generating static pages (5199/5199)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                   Size  First Load JS  Revalidate  Expire
+┌ ○ /_not-found                              333 B         103 kB
+├ ● /[locale]                              10.3 kB         434 kB
+├   ├ /ko
+├   ├ /en
+├   ├ /de
+├   └ [+9 more paths]
+├ ● /[locale]/about                        2.46 kB         134 kB
+├   ├ /ko/about
+├   ├ /en/about
+├   ├ /de/about
+├   └ [+9 more paths]
+├ ● /[locale]/blog                         7.56 kB        4.44 MB          1d      1y
+├   ├ /ko/blog                                                             1d      1y
+├   ├ /en/blog                                                             1d      1y
+├   ├ /de/blog                                                             1d      1y
+├   └ [+9 more paths]
+├ ● /[locale]/blog/[slug]                  3.39 kB         417 kB          1d      1y
+├   ├ /ko/blog/rockefeller-monopoly-guide                                  1d      1y
+├   ├ /ko/blog/carnegie-gospel-wealth                                      1d      1y
+├   ├ /ko/blog/disney-imagination-market                                   1d      1y
+├   └ [+1437 more paths]
+├ ● /[locale]/chats                        7.86 kB         296 kB
+├   ├ /ko/chats
+├   ├ /en/chats
+├   ├ /de/chats
+├   └ [+9 more paths]
+├ ● /[locale]/consult                      13.1 kB         322 kB
+├   ├ /ko/consult
+├   ├ /en/consult
+├   ├ /de/consult
+├   └ [+9 more paths]
+├ ● /[locale]/contact                       4.6 kB         288 kB
+├   ├ /ko/contact
+├   ├ /en/contact
+├   ├ /de/contact
+├   └ [+9 more paths]
+├ ● /[locale]/debate                       14.7 kB         434 kB
+├   ├ /ko/debate
+├   ├ /en/debate
+├   ├ /de/debate
+├   └ [+9 more paths]
+├ ● /[locale]/disclaimer                     200 B         283 kB
+├   ├ /ko/disclaimer
+├   ├ /en/disclaimer
+├   ├ /de/disclaimer
+├   └ [+9 more paths]
+├ ● /[locale]/giant/[slug]                 65.9 kB        4.55 MB          1d      1y
+├   ├ /ko/giant/napoleon-bonaparte                                         1d      1y
+├   ├ /ko/giant/king-sejong                                                1d      1y
+├   ├ /ko/giant/genghis-khan                                               1d      1y
+├   └ [+3597 more paths]
+├ ● /[locale]/privacy                        200 B         283 kB
+├   ├ /ko/privacy
+├   ├ /en/privacy
+├   ├ /de/privacy
+├   └ [+9 more paths]
+├ ● /[locale]/reels                        9.11 kB         149 kB
+├   ├ /ko/reels
+├   ├ /en/reels
+├   ├ /de/reels
+├   └ [+9 more paths]
+├ ● /[locale]/terms                          200 B         283 kB
+├   ├ /ko/terms
+├   ├ /en/terms
+├   ├ /de/terms
+├   └ [+9 more paths]
+├ ● /[locale]/test                         6.88 kB         282 kB
+├   ├ /ko/test
+├   ├ /en/test
+├   ├ /de/test
+├   └ [+9 more paths]
+├ ƒ /api/chat                                172 B         102 kB
+├ ƒ /api/consult/greeting                    172 B         102 kB
+├ ƒ /api/consult/match                       172 B         102 kB
+├ ƒ /api/contact                             172 B         102 kB
+├ ƒ /api/debate                              172 B         102 kB
+├ ƒ /api/debate/recommend                    172 B         102 kB
+├ ƒ /api/subscribe                           172 B         102 kB
+├ ƒ /auth/callback                           172 B         102 kB
+├ ƒ /c2bfcc6c98de4179ada0f8dae0b089db.txt    172 B         102 kB
+├ ○ /robots.txt                              172 B         102 kB
+└ ○ /sitemap.xml                             172 B         102 kB
++ First Load JS shared by all               102 kB
+  ├ chunks/1255-eae4096fb21f1304.js          46 kB
+  ├ chunks/4bd1b696-100b9d70ed4e49c1.js    54.2 kB
+  └ other shared chunks (total)            2.11 kB
+
+
+ƒ Middleware                               87.6 kB
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> wisdom-giants@0.1.0 postbuild
+> node -e "require('fs').rmSync('.next/cache', { recursive: true, force: true })"
+

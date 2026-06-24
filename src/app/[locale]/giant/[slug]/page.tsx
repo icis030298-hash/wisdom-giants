@@ -3,7 +3,16 @@ import { notFound } from 'next/navigation';
 import { giants } from "@/lib/giants-data";
 import { GiantDetailClient } from "@/components/giant-detail-client";
 import { Metadata } from 'next';
+import fs from 'fs';
+import path from 'path';
 import finalNarratives from "@/data/final-narratives.json";
+
+// Load fact layer pilot data
+const factLayerPath = path.join(process.cwd(), 'src/data/fact-layer-pilot.json');
+let factLayerPilot: any = {};
+if (fs.existsSync(factLayerPath)) {
+  factLayerPilot = JSON.parse(fs.readFileSync(factLayerPath, 'utf-8'));
+}
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -116,6 +125,9 @@ export default async function GiantDetailPage({ params }: Props) {
   const giant = giants.find(g => g.slug === slug);
   if (!giant) notFound();
 
+  // Attach fact layer data if it exists for this giant
+  const factLayer = factLayerPilot[slug] || null;
+
   const messages = await getMessages({ locale });
   
   // Find standardized narrative data
@@ -175,6 +187,7 @@ export default async function GiantDetailPage({ params }: Props) {
     giants: giantTranslation,
     giantsGrid: messages.GiantsGrid,
     narrative: formattedNarrative,
+    factLayer: factLayer,
     giantBlogLink: messages.GiantBlogLink
   };
 
@@ -228,11 +241,27 @@ export default async function GiantDetailPage({ params }: Props) {
     }
   };
 
+  const faqSchema = factLayer && factLayer.faq ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: factLayer.faq.map((q: any) => ({
+      '@type': 'Question',
+      name: q.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: q.answer
+      }
+    }))
+  } : null;
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(quotationSchema) }} />
+      {faqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
       <GiantDetailClient giant={giant} translations={translations} />
     </>
   );

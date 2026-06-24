@@ -1,0 +1,186 @@
+{
+  "messages": {
+    "ko": {
+      "name": "바르톨로뮤 디아스",
+      "title": "희망봉을 발견한 선구적 탐험가",
+      "headline": "폭풍을 뚫고 희망을 찾다",
+      "shortDescription": "유럽인 최초로 아프리카 최남단 희망봉을 돌아 인도양으로 진입한 포르투갈의 항해사입니다. 그의 탐험은 유럽과 아시아를 잇는 새로운 해상 교역로의 기초를 마련했습니다.",
+      "quote": "거대한 폭풍의 곶을 넘어, 우리는 미지의 바다로 나아갔다.",
+      "chatGreeting": "항해사 바르톨로뮤 디아스요. 성난 파도와 낯선 바다를 두려워하지 않는다면, 새로운 세계로 가는 길을 열 수 있을 것이오. 어떤 바다의 이야기를 듣고 싶소?",
+      "suggestedQuestions": ["희망봉을 처음 발견했을 때의 기분은 어땠나요?", "선원들의 반란을 어떻게 대처했나요?", "미지의 바다를 항해하는 데 가장 중요한 것은 무엇인가요?"],
+      "era": "15세기",
+      "pain": "거친 폭풍우와 굶주림 속에서 미지의 바다를 항해해야 했으며, 지친 선원들의 반란에 직면해 탐험을 멈춰야 했습니다.",
+      "recovery": "비록 인도로 향하는 항해를 완성하지는 못했지만, 희망봉을 발견함으로써 후대 항해사들이 아시아로 가는 길을 찾을 수 있는 결정적 발판을 마련했습니다."
+    },
+    "en": {
+      "name": "Bartolomeu Dias",
+      "title": "Pioneer of the Cape Route",
+      "headline": "Sailing beyond the storms",
+      "shortDescription": "A Portuguese mariner and explorer who was the first European to navigate around the southernmost tip of Africa. His voyage opened the sea route to Asia.",
+      "quote": "Beyond the Cape of Storms lies the ocean of our destiny.",
+      "chatGreeting": "I am Bartolomeu Dias, mariner of Portugal. If you do not fear the raging waves and the uncharted seas, you can forge a path to new worlds. What oceanic tales do you wish to hear?",
+      "suggestedQuestions": ["What did it feel like to discover the Cape of Good Hope?", "How did you handle the mutiny of your crew?", "What is the most important skill for navigating unknown waters?"],
+      "era": "15th Century",
+      "pain": "Endured brutal storms, scurvy, and the sheer terror of uncharted waters, ultimately facing a mutiny from his exhausted crew.",
+      "recovery": "Though forced to turn back, his discovery of the southern passage proved that the Indian Ocean was accessible, changing global trade forever."
+    },
+    "ja": {
+      "name": "バルトロメウ・ディアス",
+      "title": "喜望峰の発見者",
+      "headline": "嵐を越え、希望を見出す",
+      "shortDescription": "ヨーロッパ人として初めてアフリカ最南端を回り、インド洋へ到達したポルトガルの航海士。彼によってアジアへの新たな航路が開かれました。",
+      "quote": "嵐の岬を越えた先に、我々の運命の海が広がっている。",
+      "chatGreeting": "ポルトガルの航海士、バルトロメウ・ディアスだ。荒れ狂う波と未知の海を恐れなければ、新たな世界への道を切り開くことができる。どんな航海の話が聞きたいかな？",
+      "suggestedQuestions": ["喜望峰を発見した時の気持ちは？", "船員の反乱にどう対処しましたか？", "未知の海を航海する上で最も重要なことは何ですか？"],
+      "era": "15世紀",
+      "pain": "未知の海での激しい嵐や壊血病との闘い、そして疲労困憊した船員たちの反乱に直面しました。",
+      "recovery": "インドへの航海は途中で断念したものの、彼の発見は後世の航海士たちがアジアへ向かう道筋を示す決定的な出来事となりました。"
+    },
+    "de": {
+      "name": "Bartolomeu Dias",
+      "title": "Entdecker des Kaps der Guten Hoffnung",
+      "headline": "Jenseits der Stürme segeln",
+      "shortDescription": "Ein portugiesischer Seefahrer, der als erster Europäer die Südspitze Afrikas umsegelte. Seine Reise ebnete den Seeweg nach Asien.",
+      "quote": "Hinter dem Kap der Stürme liegt der Ozean unseres Schicksals.",
+      "chatGreeting": "Ich bin Bartolomeu Dias, Seefahrer von Portugal. Wenn Sie die tobenden Wellen und die unentdeckten Meere nicht fürchten, können Sie einen Weg in neue Welten bahnen. Welche Geschichten des Ozeans möchten Sie hören?",
+      "suggestedQuestions": ["Wie war es, das Kap der Guten Hoffnung zu entdecken?", "Wie sind Sie mit der Meuterei Ihrer Besatzung umgegangen?", "Was ist die wichtigste Fähigkeit, um in unbekannten Gewässern zu navigieren?"],
+      "era": "15. Jahrhundert",
+      "pain": "Erduldete brutale Stürme, Skorbut und den puren Terror unbekannter Gewässer, und sah sich letztendlich einer Meuterei seiner erschöpften Besatzung gegenüber.",
+      "recovery": "Obwohl er zur Umkehr gezwungen wurde, bewies seine Entdeckung der Südpassage, dass der Indische Ozean erreichbar war, und veränderte den globalen Handel für immer."
+    },
+    "es": {
+      "name": "Bartolomé Díaz",
+      "title": "Pionero de la Ruta del Cabo",
+      "headline": "Navegando más allá de las tormentas",
+      "shortDescription": "Un marinero y explorador portugués que fue el primer europeo en navegar alrededor del extremo sur de África. Su viaje abrió la ruta marítima a Asia.",
+      "quote": "Más allá del Cabo de las Tormentas se encuentra el océano de nuestro destino.",
+      "chatGreeting": "Soy Bartolomé Díaz, marinero de Portugal. Si no temes a las olas furiosas y a los mares inexplorados, puedes forjar un camino hacia nuevos mundos. ¿Qué historias del océano deseas escuchar?",
+      "suggestedQuestions": ["¿Qué sentiste al descubrir el Cabo de Buena Esperanza?", "¿Cómo manejaste el motín de tu tripulación?", "¿Cuál es la habilidad más importante para navegar en aguas desconocidas?"],
+      "era": "Siglo XV",
+      "pain": "Soportó tormentas brutales, escorbuto y el terror de aguas inexploradas, enfrentando finalmente un motín de su tripulación agotada.",
+      "recovery": "Aunque se vio obligado a regresar, su descubrimiento del paso del sur demostró que el Océano Índico era accesible, cambiando el comercio global para siempre."
+    },
+    "fr": {
+      "name": "Bartolomeu Dias",
+      "title": "Pionnier de la route du Cap",
+      "headline": "Naviguer au-delà des tempêtes",
+      "shortDescription": "Un marin et explorateur portugais qui fut le premier Européen à naviguer autour de la pointe sud de l'Afrique. Son voyage a ouvert la route maritime vers l'Asie.",
+      "quote": "Au-delà du Cap des Tempêtes se trouve l'océan de notre destin.",
+      "chatGreeting": "Je suis Bartolomeu Dias, marin du Portugal. Si vous ne craignez pas les vagues déchaînées et les mers inexplorées, vous pouvez forger un chemin vers de nouveaux mondes. Quelles histoires de l'océan souhaitez-vous entendre ?",
+      "suggestedQuestions": ["Qu'avez-vous ressenti en découvrant le Cap de Bonne-Espérance ?", "Comment avez-vous géré la mutinerie de votre équipage ?", "Quelle est la compétence la plus importante pour naviguer dans des eaux inconnues ?"],
+      "era": "15e siècle",
+      "pain": "A enduré des tempêtes brutales, le scorbut et la terreur des eaux inexplorées, affrontant finalement une mutinerie de son équipage épuisé.",
+      "recovery": "Bien qu'il ait été contraint de faire demi-tour, sa découverte du passage du sud a prouvé que l'océan Indien était accessible, changeant à jamais le commerce mondial."
+    },
+    "it": {
+      "name": "Bartolomeo Diaz",
+      "title": "Pioniere della Rotta del Capo",
+      "headline": "Navigando oltre le tempeste",
+      "shortDescription": "Un navigatore ed esploratore portoghese che fu il primo europeo a circumnavigare l'estremità meridionale dell'Africa. Il suo viaggio aprì la rotta marittima per l'Asia.",
+      "quote": "Oltre il Capo delle Tempeste si trova l'oceano del nostro destino.",
+      "chatGreeting": "Sono Bartolomeo Diaz, marinaio del Portogallo. Se non teme le onde furiose e i mari inesplorati, può forgiare un percorso verso nuovi mondi. Quali storie dell'oceano desidera ascoltare?",
+      "suggestedQuestions": ["Cosa ha provato nello scoprire il Capo di Buona Speranza?", "Come ha gestito l'ammutinamento del suo equipaggio?", "Qual è la competenza più importante per navigare in acque sconosciute?"],
+      "era": "XV Secolo",
+      "pain": "Sopportò tempeste brutali, scorbuto e il terrore delle acque inesplorate, affrontando infine un ammutinamento del suo equipaggio esausto.",
+      "recovery": "Sebbene costretto a tornare indietro, la sua scoperta del passaggio a sud dimostrò che l'Oceano Indiano era accessibile, cambiando per sempre il commercio globale."
+    },
+    "pt": {
+      "name": "Bartolomeu Dias",
+      "title": "Pioneiro da Rota do Cabo",
+      "headline": "Navegando além das tempestades",
+      "shortDescription": "Um navegador e explorador português que foi o primeiro europeu a contornar a ponta mais a sul de África. A sua viagem abriu a rota marítima para a Ásia.",
+      "quote": "Para além do Cabo das Tormentas encontra-se o oceano do nosso destino.",
+      "chatGreeting": "Sou Bartolomeu Dias, navegador de Portugal. Se não temes as ondas furiosas e os mares desconhecidos, podes forjar um caminho para novos mundos. Que contos do oceano desejas ouvir?",
+      "suggestedQuestions": ["O que sentiste ao descobrir o Cabo da Boa Esperança?", "Como lidaste com o motim da tua tripulação?", "Qual é a habilidade mais importante para navegar em águas desconhecidas?"],
+      "era": "Século XV",
+      "pain": "Suportou tempestades brutais, escorbuto e o terror das águas inexploradas, enfrentando por fim um motim da sua tripulação exausta.",
+      "recovery": "Embora forçado a voltar para trás, a sua descoberta da passagem a sul provou que o Oceano Índico era acessível, mudando o comércio global para sempre."
+    },
+    "ar": {
+      "name": "بارتولوميو دياز",
+      "title": "رائد طريق رأس الرجاء الصالح",
+      "headline": "الإبحار وراء العواصف",
+      "shortDescription": "بحار ومستكشف برتغالي كان أول أوروبي يبحر حول الطرف الجنوبي لأفريقيا. رحلته فتحت الطريق البحري إلى آسيا.",
+      "quote": "وراء رأس العواصف يقع محيط مصيرنا.",
+      "chatGreeting": "أنا بارتولوميو دياز، بحار من البرتغال. إذا كنت لا تخشى الأمواج العاتية والبحار المجهولة، يمكنك شق طريق إلى عوالم جديدة. ما هي حكايات المحيط التي ترغب في سماعها؟",
+      "suggestedQuestions": ["بماذا شعرت عند اكتشاف رأس الرجاء الصالح؟", "كيف تعاملت مع تمرد طاقمك؟", "ما هي المهارة الأهم للإبحار في مياه مجهولة؟"],
+      "era": "القرن الخامس عشر",
+      "pain": "تحمل عواصف عاتية، ومرض الإسقربوط، ورعب المياه غير المستكشفة، وواجه في النهاية تمرداً من طاقمه المنهك.",
+      "recovery": "على الرغم من إجباره على العودة، أثبت اكتشافه للممر الجنوبي أن الوصول إلى المحيط الهندي ممكن، مما غيّر التجارة العالمية إلى الأبد."
+    },
+    "hi": {
+      "name": "बार्टोलोमू डायस",
+      "title": "केप मार्ग के अग्रणी",
+      "headline": "तूफानों के पार नौकायन",
+      "shortDescription": "एक पुर्तगाली नाविक और खोजकर्ता जो अफ्रीका के सबसे दक्षिणी छोर के चारों ओर नौकायन करने वाले पहले यूरोपीय थे। उनकी यात्रा ने एशिया के लिए समुद्री मार्ग खोल दिया।",
+      "quote": "तूफानों के केप के पार हमारे भाग्य का महासागर स्थित है।",
+      "chatGreeting": "मैं पुर्तगाल का नाविक, बार्टोलोमू डायस हूँ। यदि आप उग्र लहरों और अज्ञात समुद्रों से नहीं डरते हैं, तो आप नई दुनिया के लिए एक रास्ता बना सकते हैं। आप समुद्र की कौन सी कहानियाँ सुनना चाहते हैं?",
+      "suggestedQuestions": ["केप ऑफ गुड होप की खोज करने पर कैसा लगा?", "आपने अपने दल के विद्रोह को कैसे संभाला?", "अज्ञात जल में नौकायन के लिए सबसे महत्वपूर्ण कौशल क्या है?"],
+      "era": "15वीं शताब्दी",
+      "pain": "भयंकर तूफानों, स्कर्वी और अज्ञात जल के आतंक को सहन किया, और अंततः अपने थके हुए दल के विद्रोह का सामना किया।",
+      "recovery": "हालाँकि उन्हें वापस लौटने के लिए मजबूर होना पड़ा, लेकिन दक्षिणी मार्ग की उनकी खोज ने साबित कर दिया कि हिंद महासागर तक पहुँचा जा सकता है, जिससे वैश्विक व्यापार हमेशा के लिए बदल गया।"
+    },
+    "ru": {
+      "name": "Бартоломеу Диаш",
+      "title": "Первооткрыватель мыса Доброй Надежды",
+      "headline": "Плывя сквозь бури",
+      "shortDescription": "Португальский мореплаватель и исследователь, который первым из европейцев обогнул южную оконечность Африки. Его плавание открыло морской путь в Азию.",
+      "quote": "За мысом Бурь лежит океан нашей судьбы.",
+      "chatGreeting": "Я Бартоломеу Диаш, мореплаватель из Португалии. Если вы не боитесь яростных волн и неизведанных морей, вы можете проложить путь в новые миры. Какие океанские истории вы хотели бы услышать?",
+      "suggestedQuestions": ["Что вы почувствовали, открыв мыс Доброй Надежды?", "Как вы справились с мятежом своей команды?", "Каков самый важный навык для плавания в неизведанных водах?"],
+      "era": "15 век",
+      "pain": "Он перенес жестокие штормы, цингу и ужас неизведанных вод, в конечном итоге столкнувшись с мятежом своей измученной команды.",
+      "recovery": "Хотя он был вынужден повернуть назад, его открытие южного прохода доказало, что Индийский океан доступен, навсегда изменив мировую торговлю."
+    },
+    "zh": {
+      "name": "巴尔托洛梅乌·迪亚士",
+      "title": "好望角航线的先驱",
+      "headline": "乘风破浪，超越风暴",
+      "shortDescription": "一位葡萄牙航海家和探险家，他是第一位绕过非洲最南端的欧洲人。他的航行开辟了通往亚洲的海上航线。",
+      "quote": "在风暴角之外，是我们命运的海洋。",
+      "chatGreeting": "我是葡萄牙的航海家巴尔托洛梅乌·迪亚士。如果你不畏惧汹涌的波涛和未知的海域，你就能开辟通往新世界的道路。你想听什么关于海洋的故事？",
+      "suggestedQuestions": ["发现好望角时你有什么感觉？", "你是如何处理船员的哗变的？", "在未知水域航行最重要的技能是什么？"],
+      "era": "15世纪",
+      "pain": "忍受了残酷的风暴、坏血病和未知水域的恐惧，最终面临精疲力竭的船员的哗变。",
+      "recovery": "尽管被迫返航，但他对南部航道的发现证明了印度洋是可以进入的，从而永远改变了全球贸易。"
+    }
+  },
+  "epic": {
+    "epic_ko": "### 1. 바다로 부름받은 소년\n\n바르톨로뮤 디아스는 대항해 시대의 여명기였던 1450년경 포르투갈의 항해사 집안에서 태어났습니다. 그가 자란 15세기 포르투갈은 해양 제국으로 발돋움하기 위해 미지의 바다로 눈을 돌리고 있었습니다. 엔히크 왕자가 이끌던 항해의 열기는 디아스에게도 전해졌고, 그는 자연스럽게 바다의 별과 조류를 읽는 법을 배우며 뛰어난 항해사로 성장했습니다. 디아스는 국왕 주앙 2세의 신임을 받아, 유럽에서 아프리카 대륙을 우회하여 인도로 가는 새로운 항로를 개척해야 하는 중대한 임무를 부여받게 됩니다.\n\n### 2. 미지의 아프리카 해안을 따라\n\n1487년 8월, 디아스는 세 척의 배를 이끌고 리스본을 떠났습니다. 그의 목표는 전설로만 전해지던 기독교 군주 '프레스터 존'의 나라를 찾고, 인도로 향하는 향신료 무역로를 확보하는 것이었습니다. 아프리카 서해안을 따라 남하하던 선단은 이전에 유럽인들이 한 번도 도달하지 못한 적도 이남의 해역으로 진입했습니다. 열대의 폭염과 낯선 해류, 그리고 언제 나타날지 모르는 거대한 바다 괴물에 대한 두려움이 선원들을 짓눌렀습니다. 그러나 디아스는 뛰어난 지휘력으로 선원들을 독려하며 끝없이 이어질 것 같은 대륙의 남쪽을 향해 전진했습니다.\n\n### 3. 폭풍의 곶(Cabo das Tormentas)의 발견\n\n1488년 초, 아프리카 최남단 부근에서 디아스의 선단은 무려 13일 동안 끔찍한 폭풍우를 만났습니다. 거센 비바람에 시야가 완전히 가려졌고, 배는 통제력을 잃은 채 외해로 밀려났습니다. 폭풍이 잦아든 후 동쪽으로 항해를 재개했지만 육지는 보이지 않았습니다. 디아스는 직감적으로 북쪽으로 기수를 돌렸고, 마침내 해안선을 발견했습니다. 그들은 자신들도 모르는 사이에 아프리카의 남단을 돌았던 것입니다. 디아스는 이 위험하고 거친 곶을 '폭풍의 곶(Cabo das Tormentas)'이라고 명명했습니다. 유럽인이 처음으로 아프리카를 돌아 인도양으로 진입한 역사적인 순간이었습니다.\n\n### 4. 선원들의 반란과 위대한 귀환\n\n동쪽으로 더 나아가 인도로 가고자 했던 디아스의 열망은 컸지만, 지칠 대로 지치고 괴혈병에 시달리던 선원들은 더 이상의 항해를 거부하며 반란 직전의 상태에 이르렀습니다. 눈앞에 인도로 가는 길이 열려 있었음에도 불구하고, 디아스는 부하들의 목숨을 지키기 위해 무거운 마음으로 뱃머리를 돌려야 했습니다. 귀환길에 디아스는 자신이 돌아왔던 '폭풍의 곶'을 다시 확인했습니다. 리스본으로 돌아온 후, 국왕 주앙 2세는 아시아로 향하는 새로운 길이 열렸다는 의미에서 이 곶의 이름을 '희망봉(Cabo da Boa Esperança)'으로 바꾸었습니다. 디아스 자신은 인도를 보지 못했지만, 그의 항해는 훗날 바스쿠 다 가마가 인도로 향하는 결정적인 징검다리가 되었습니다.",
+    "epic_en": "### 1. The Call of the Ocean\n\nBorn around 1450 into a family of mariners, Bartolomeu Dias grew up during the dawn of the Age of Discovery in Portugal. The maritime fervor sparked by Prince Henry the Navigator engulfed the nation, and Dias was naturally immersed in the art of navigation, mastering the stars and the currents. His exceptional skills caught the attention of King John II of Portugal, who entrusted him with a monumental task: to find a sea route to India by sailing around the southern tip of the African continent, a feat never before accomplished by Europeans.\n\n### 2. Venturing into the Unknown South\n\nIn August 1487, Dias set sail from Lisbon with a fleet of three ships. His mission was not only to secure a lucrative spice route to India but also to search for the legendary Christian kingdom of Prester John. As they sailed southward along the western coast of Africa, they crossed the equator and ventured into waters that had remained entirely uncharted by European maps. The intense tropical heat, unpredictable currents, and the superstitious dread of sea monsters weighed heavily on the crew. Yet, driven by unyielding resolve, Dias navigated his ships further south than any known expedition.\n\n### 3. The Cape of Storms\n\nIn early 1488, near the southernmost reaches of Africa, the fleet was caught in a terrifying storm that lasted for thirteen grueling days. The violent winds drove them far off course into the open ocean, blinding them to any sight of land. When the tempest finally subsided, Dias steered east, expecting to hit the African coast, but found only endless sea. Realizing they might have passed the tip of the continent, he turned north and finally sighted land. Unwittingly, they had rounded the southern extremity of Africa. Dias named this treacherous point the 'Cape of Storms' (Cabo das Tormentas). It was a historic breakthrough, proving that the Atlantic and Indian Oceans were connected.\n\n### 4. The Mutiny and the Legacy of Hope\n\nThough the path to India lay wide open before him, Dias could not continue. His crew was ravaged by scurvy, exhausted from the harrowing voyage, and on the verge of mutiny. Faced with their absolute refusal to sail further east, Dias made the agonizing decision to turn back, prioritizing the survival of his men. On their return journey, they sighted the cape once more. Upon Dias's triumphant return to Lisbon in 1488, King John II recognized the immense strategic value of the discovery. He renamed the treacherous point the 'Cape of Good Hope' (Cabo da Boa Esperança), symbolizing the newfound optimism of reaching Asia. While Dias himself never reached India, his daring expedition laid the critical foundation for Vasco da Gama's successful voyage a decade later.",
+    "epic_de": "### 1. Der Ruf des Ozeans\n\nBartolomeu Dias, geboren um 1450 in eine Seefahrerfamilie, wuchs während der Morgenröte des Zeitalters der Entdeckungen in Portugal auf. Die maritime Begeisterung erfasste die Nation, und Dias tauchte in die Kunst der Navigation ein. Seine Fähigkeiten erregten die Aufmerksamkeit von König Johann II., der ihm eine monumentale Aufgabe anvertraute: einen Seeweg nach Indien zu finden, indem er die Südspitze Afrikas umsegelte.\n\n### 2. Vorstoß ins Unbekannte\n\nIm August 1487 stach Dias mit drei Schiffen von Lissabon aus in See. Während sie entlang der Westküste Afrikas nach Süden segelten, überquerten sie den Äquator und drangen in unkartierte Gewässer vor. Die Hitze, unvorhersehbare Strömungen und die Furcht vor Seeungeheuern belasteten die Besatzung. Dennoch navigierte Dias seine Schiffe weiter nach Süden als jede bekannte Expedition zuvor.\n\n### 3. Das Kap der Stürme\n\nAnfang 1488 geriet die Flotte in einen furchtbaren Sturm, der dreizehn Tage andauerte und sie weit auf den offenen Ozean hinaustrieb. Als der Sturm nachließ, steuerte Dias nach Osten und dann nach Norden, bis er Land sichtete. Ohne es zu wissen, hatten sie die Südspitze Afrikas umrundet. Dias nannte diesen Ort das 'Kap der Stürme'.\n\n### 4. Das Erbe der Hoffnung\n\nObwohl der Weg nach Indien offen war, konnte Dias nicht weitersegeln. Seine erschöpfte und an Skorbut erkrankte Besatzung stand kurz vor einer Meuterei. Dias traf die schwere Entscheidung umzukehren. Nach seiner Rückkehr benannte König Johann II. das Kap in 'Kap der Guten Hoffnung' um. Dias' Expedition legte den entscheidenden Grundstein für Vasco da Gamas spätere Reise.",
+    "epic_ja": "### 1. 海の呼び声\n\n1450年頃に航海士の家系に生まれたバルトロメウ・ディアスは、ポルトガルの大航海時代の幕開けと共に育ちました。彼は航海術に没頭し、その卓越した技術はポルトガル国王ジョアン2世の目に留まりました。国王は彼に、アフリカ大陸の南端を回ってインドへの海路を見つけるという、ヨーロッパ人にとって前人未到の任務を託しました。\n\n### 2. 未知の南へ\n\n1487年8月、ディアスは3隻の船隊を率いてリスボンを出航しました。アフリカ西海岸を南下するにつれ、彼らはヨーロッパの地図に記されていない未知の海域へと入っていきました。酷暑、予測不能な海流、そして海の怪物への恐怖が船員たちを苦しめましたが、ディアスは不屈の決意で船を南へと進めました。\n\n### 3. 嵐の岬\n\n1488年初頭、船隊は13日間続く恐ろしい嵐に巻き込まれました。暴風によって船は外洋へと流されましたが、嵐が収まった後、ディアスが東、そして北へと進路を取ると、ついに陸地を発見しました。彼らは知らず知らずのうちにアフリカの南端を回っていたのです。ディアスはこの危険な岬を「嵐の岬」と名付けました。\n\n### 4. 希望の遺産\n\nインドへの道は開かれていましたが、ディアスは航海を続けることができませんでした。疲労困憊し壊血病に苦しむ船員たちが反乱寸前だったため、彼は部下の命を優先して引き返すという苦渋の決断を下しました。リスボンへの帰還後、ジョアン2世はこの岬をアジアへの希望の象徴として「喜望峰」と改名しました。ディアスの探検は、後のヴァスコ・ダ・ガマの航海への決定的な基礎を築いたのです。",
+    "epic_es": "### 1. La llamada del océano\n\nNacido alrededor de 1450 en una familia de marineros, Bartolomé Díaz creció durante los albores de la Era de los Descubrimientos en Portugal. Se sumergió en el arte de la navegación, y sus habilidades llamaron la atención del rey Juan II, quien le confió una tarea monumental: encontrar una ruta marítima a la India navegando alrededor del extremo sur de África.\n\n### 2. Aventurándose en lo desconocido\n\nEn agosto de 1487, Díaz zarpó de Lisboa. Mientras navegaban hacia el sur por la costa occidental de África, cruzaron el ecuador y se adentraron en aguas inexploradas. El calor, las corrientes impredecibles y el miedo a los monstruos marinos pesaban sobre la tripulación, pero Díaz continuó hacia el sur.\n\n### 3. El Cabo de las Tormentas\n\nA principios de 1488, la flota fue atrapada en una terrible tormenta que duró trece días y los desvió hacia el océano abierto. Cuando la tormenta amainó, Díaz navegó hacia el este y luego hacia el norte hasta avistar tierra. Sin saberlo, habían rodeado el extremo sur de África. Díaz llamó a este lugar el 'Cabo de las Tormentas'.\n\n### 4. El legado de esperanza\n\nAunque el camino a la India estaba abierto, Díaz no pudo continuar. Su tripulación, agotada y enferma de escorbuto, estaba al borde del motín. Díaz tomó la dolorosa decisión de regresar. A su regreso, el rey Juan II renombró el cabo como el 'Cabo de Buena Esperanza'. La expedición de Díaz sentó las bases para el exitoso viaje de Vasco da Gama.",
+    "epic_fr": "### 1. L'appel de l'océan\n\nNé vers 1450 dans une famille de marins, Bartolomeu Dias a grandi à l'aube de l'ère des découvertes au Portugal. Ses compétences exceptionnelles en navigation ont attiré l'attention du roi Jean II, qui lui a confié une mission monumentale : trouver une route maritime vers l'Inde en contournant la pointe sud de l'Afrique.\n\n### 2. S'aventurer dans l'inconnu\n\nEn août 1487, Dias a mis les voiles depuis Lisbonne. Naviguant vers le sud le long de la côte ouest de l'Afrique, ils ont pénétré dans des eaux inexplorées. La chaleur, les courants imprévisibles et la peur des monstres marins pesaient sur l'équipage, mais Dias a persévéré.\n\n### 3. Le Cap des Tempêtes\n\nDébut 1488, la flotte a été prise dans une tempête terrifiante de treize jours qui l'a poussée au large. Une fois la tempête calmée, Dias a navigué vers l'est puis vers le nord jusqu'à apercevoir la terre. Sans le savoir, ils avaient contourné l'extrémité sud de l'Afrique. Dias a nommé ce point le 'Cap des Tempêtes'.\n\n### 4. L'héritage de l'espoir\n\nBien que la voie vers l'Inde fût ouverte, Dias ne pouvait continuer. Son équipage épuisé et atteint de scorbut était au bord de la mutinerie. Dias a pris la difficile décision de faire demi-tour. À son retour, le roi Jean II a renommé le cap 'Cap de Bonne-Espérance'. L'expédition de Dias a jeté les bases du voyage de Vasco de Gama.",
+    "epic_it": "### 1. Il richiamo dell'oceano\n\nNato intorno al 1450 in una famiglia di navigatori, Bartolomeo Diaz crebbe agli albori dell'Età delle Scoperte in Portogallo. Le sue eccezionali abilità di navigazione attirarono l'attenzione del re Giovanni II, che gli affidò un compito monumentale: trovare una rotta marittima per l'India circumnavigando l'estremità meridionale dell'Africa.\n\n### 2. Avventurarsi nell'ignoto\n\nNell'agosto del 1487, Diaz salpò da Lisbona. Navigando verso sud lungo la costa occidentale dell'Africa, si avventurarono in acque inesplorate. Il caldo, le correnti imprevedibili e la paura dei mostri marini pesavano sull'equipaggio, ma Diaz perseverò.\n\n### 3. Il Capo delle Tempeste\n\nAll'inizio del 1488, la flotta fu sorpresa da una terribile tempesta di tredici giorni che li spinse in mare aperto. Placatasi la tempesta, Diaz navigò verso est e poi verso nord fino ad avvistare la terra. Senza saperlo, avevano doppiato l'estremità meridionale dell'Africa. Diaz chiamò questo punto 'Capo delle Tempeste'.\n\n### 4. L'eredità della speranza\n\nSebbene la via per l'India fosse aperta, Diaz non potè continuare. Il suo equipaggio esausto e colpito dallo scorbuto era sull'orlo dell'ammutinamento. Diaz prese la difficile decisione di tornare indietro. Al suo ritorno, il re Giovanni II ribattezzò il promontorio 'Capo di Buona Speranza'. L'espedizione di Diaz gettò le basi per il viaggio di Vasco da Gama.",
+    "epic_pt": "### 1. O Chamado do Oceano\n\nNascido por volta de 1450 no seio de uma família de navegadores, Bartolomeu Dias cresceu durante os alvores da Era dos Descobrimentos em Portugal. As suas excepcionais capacidades de navegação chamaram a atenção do Rei D. João II, que lhe confiou uma tarefa monumental: encontrar uma rota marítima para a Índia contornando a ponta sul do continente africano.\n\n### 2. Aventurando-se no Sul Desconhecido\n\nEm agosto de 1487, Dias zarpou de Lisboa. Ao navegarem para sul ao longo da costa ocidental de África, entraram em águas inexploradas. O calor, as correntes imprevisíveis e o medo de monstros marinhos pesavam sobre a tripulação, mas Dias perseverou.\n\n### 3. O Cabo das Tormentas\n\nNo início de 1488, a frota foi apanhada por uma terrível tempestade de treze dias que a empurrou para o mar aberto. Quando a tempestade acalmou, Dias navegou para leste e depois para norte até avistar terra. Sem saberem, tinham contornado o extremo sul de África. Dias nomeou este ponto como 'Cabo das Tormentas'.\n\n### 4. O Legado de Esperança\n\nEmbora o caminho para a Índia estivesse aberto, Dias não pôde continuar. A sua tripulação exausta e afetada pelo escorbuto estava à beira do motim. Dias tomou a difícil decisão de voltar para trás. No seu regresso, o Rei D. João II renomeou o cabo como 'Cabo da Boa Esperança'. A expedição de Dias lançou as bases para a viagem de Vasco da Gama.",
+    "epic_ar": "### 1. نداء المحيط\n\nولد بارتولوميو دياز حوالي عام 1450 لعائلة من البحارة، ونشأ خلال فجر عصر الاكتشافات في البرتغال. لفتت مهاراته الملاحية الاستثنائية انتباه الملك جون الثاني، الذي كلفه بمهمة ضخمة: إيجاد طريق بحري إلى الهند عن طريق الإبحار حول الطرف الجنوبي للقارة الأفريقية.\n\n### 2. المغامرة في الجنوب المجهول\n\nفي أغسطس 1487، أبحر دياز من لشبونة. بينما كانوا يبحرون جنوباً على طول الساحل الغربي لأفريقيا، دخلوا مياهًا غير مستكشفة. الحرارة، والتيارات غير المتوقعة، والخوف من وحوش البحر أثقلت كاهل الطاقم، لكن دياز استمر.\n\n### 3. رأس العواصف\n\nفي أوائل عام 1488، حوصر الأسطول في عاصفة مروعة استمرت 13 يومًا دفعتهم إلى المحيط المفتوح. عندما هدأ العاصفة، أبحر دياز شرقاً ثم شمالاً حتى رأى الأرض. دون أن يدركوا، كانوا قد داروا حول الطرف الجنوبي لأفريقيا. سمى دياز هذه النقطة 'رأس العواصف'.\n\n### 4. إرث الأمل\n\nعلى الرغم من أن الطريق إلى الهند كان مفتوحاً، لم يستطع دياز الاستمرار. كان طاقمه المنهك والمصاب بالإسقربوط على حافة التمرد. اتخذ دياز القرار الصعب بالعودة. عند عودته، أعاد الملك جون الثاني تسمية الرأس إلى 'رأس الرجاء الصالح'. أرست رحلة دياز الأساس لرحلة فاسكو دا غاما.",
+    "epic_hi": "### 1. महासागर की पुकार\n\n1450 के आसपास नाविकों के एक परिवार में जन्मे, बार्टोलोमू डायस पुर्तगाल में खोज के युग की शुरुआत में पले-बढ़े। उनके असाधारण नौवहन कौशल ने राजा जॉन द्वितीय का ध्यान आकर्षित किया, जिन्होंने उन्हें एक महत्वपूर्ण कार्य सौंपा: अफ्रीकी महाद्वीप के दक्षिणी छोर के चारों ओर नौकायन करके भारत के लिए समुद्री मार्ग खोजना।\n\n### 2. अज्ञात दक्षिण में उद्यम\n\nअगस्त 1487 में, डायस लिस्बन से रवाना हुए। जैसे ही वे अफ्रीका के पश्चिमी तट के साथ दक्षिण की ओर बढ़े, उन्होंने अज्ञात जल में प्रवेश किया। गर्मी, अप्रत्याशित धाराएं, और समुद्री राक्षसों का डर दल पर भारी पड़ा, लेकिन डायस ने हार नहीं मानी।\n\n### 3. तूफानों का केप\n\n1488 की शुरुआत में, बेड़ा 13 दिनों के भयानक तूफान में फंस गया जिसने उन्हें खुले महासागर में धकेल दिया। जब तूफान शांत हुआ, डायस ने पूर्व और फिर उत्तर की ओर नौकायन किया जब तक कि उन्हें जमीन नहीं दिखाई दी। अनजाने में, उन्होंने अफ्रीका के दक्षिणी छोर को पार कर लिया था। डायस ने इस बिंदु का नाम 'तूफानों का केप' रखा।\n\n### 4. आशा की विरासत\n\nहालाँकि भारत का मार्ग खुला था, डायस जारी नहीं रख सके। उनका थका हुआ और स्कर्वी से पीड़ित दल विद्रोह के कगार पर था। डायस ने वापस लौटने का कठिन निर्णय लिया। उनकी वापसी पर, राजा जॉन द्वितीय ने केप का नाम बदलकर 'केप ऑफ गुड होप' रख दिया। डायस के अभियान ने वास्को डी गामा की यात्रा के लिए आधार तैयार किया।",
+    "epic_ru": "### 1. Зов океана\n\nРодившийся около 1450 года в семье мореплавателей, Бартоломеу Диаш вырос на заре эпохи Великих географических открытий в Португалии. Его исключительные навыки навигации привлекли внимание короля Жуана II, который поручил ему монументальную задачу: найти морской путь в Индию, обогнув южную оконечность Африканского континента.\n\n### 2. Путешествие в неизведанный юг\n\nВ августе 1487 года Диаш отплыл из Лиссабона. Продвигаясь на юг вдоль западного побережья Африки, они вошли в неизведанные воды. Жара, непредсказуемые течения и страх перед морскими чудовищами давили на команду, но Диаш продолжал путь.\n\n### 3. Мыс Бурь\n\nВ начале 1488 года флот попал в ужасающий шторм, длившийся тринадцать дней и отбросивший их в открытый океан. Когда шторм утих, Диаш поплыл на восток, а затем на север, пока не увидел землю. Сами того не зная, они обогнули южную оконечность Африки. Диаш назвал этот мыс «Мысом Бурь».\n\n### 4. Наследие надежды\n\nХотя путь в Индию был открыт, Диаш не мог продолжать. Его измученная и страдающая от цинги команда была на грани мятежа. Диаш принял трудное решение повернуть назад. По его возвращении король Жуан II переименовал мыс в «Мыс Доброй Надежды». Экспедиция Диаша заложила основу для плавания Васко да Гамы.",
+    "epic_zh": "### 1. 海洋的召唤\n\n巴尔托洛梅乌·迪亚士约于1450年出生于一个航海世家，在葡萄牙大航海时代的黎明中长大。他卓越的航海技能引起了葡萄牙国王若昂二世的注意，国王委托他一项艰巨的任务：通过绕过非洲大陆最南端寻找通往印度的海上航线。\n\n### 2. 探索未知的南方\n\n1487年8月，迪亚士从里斯本起航。当他们沿着非洲西海岸向南航行时，他们进入了未知的海域。酷热、不可预测的洋流和对海怪的恐惧压在船员心头，但迪亚士坚持向前。\n\n### 3. 风暴角\n\n1488年初，船队遭遇了一场持续十三天的可怕风暴，将他们推入了开阔的海洋。风暴平息后，迪亚士向东然后向北航行，直到看到陆地。在不知不觉中，他们已经绕过了非洲的最南端。迪亚士将这个地方命名为“风暴角”。\n\n### 4. 希望的遗产\n\n尽管通往印度的道路已经敞开，但迪亚士无法继续前进。他疲惫不堪且患有坏血病的船员处于哗变的边缘。迪亚士做出了艰难的决定：返航。在他回来后，若昂二世国王将这个海角改名为“好望角”。迪亚士的探险为达伽马的航行奠定了基础。",
+    "trials_ko": "미지의 해역에서 13일간 이어진 끔찍한 폭풍우를 견뎌야 했고, 식수 부족과 괴혈병, 그리고 극도로 지친 선원들의 선상 반란이라는 생사의 고비에 직면했습니다.",
+    "trials_en": "Endured a terrifying 13-day storm in uncharted waters, facing scurvy, starvation, and a mutiny from a crew pushed beyond their physical and mental limits.",
+    "overcoming_ko": "자신의 야망을 꺾고 선원들의 목숨을 살리기 위해 회항하는 용기 있는 결단을 내렸고, 이 항해를 통해 아프리카 남단을 도는 경로를 증명하여 대항해시대의 물꼬를 텄습니다.",
+    "overcoming_en": "He showed true leadership by sacrificing his own ambition to continue, turning back to save his crew's lives, yet successfully mapping the route around Africa that opened the door to the Age of Discovery.",
+    "wisdom": [
+      {
+        "quote_ko": "가장 두려운 폭풍우 속에서도 나침반은 흔들리지 않는다.",
+        "quote_en": "Even in the most terrifying of storms, the compass holds true.",
+        "meaning_ko": "극심한 위기와 혼란 속에서도 자신의 목표와 원칙을 잃지 말아야 한다는 의미입니다.",
+        "meaning_en": "A reminder to maintain one's focus and principles even in times of extreme crisis and chaos."
+      },
+      {
+        "quote_ko": "때로는 멈춰 서서 돌아가는 것이, 내일을 향해 가장 멀리 나아가는 길이다.",
+        "quote_en": "Sometimes, turning back is the way to travel the furthest toward tomorrow.",
+        "meaning_ko": "선원들을 위해 인도로 가는 길을 포기하고 돌아섰던 그의 결단처럼, 현명한 포기가 더 큰 결과를 낳을 수 있음을 뜻합니다.",
+        "meaning_en": "Reflects his wise decision to turn back to save his crew, demonstrating that tactical retreat can pave the way for greater future success."
+      },
+      {
+        "quote_ko": "미지의 바다를 두려워하는 자는 결코 새로운 대륙에 닻을 내릴 수 없다.",
+        "quote_en": "He who fears the uncharted sea can never drop anchor at a new continent.",
+        "meaning_ko": "위험을 감수하고 도전하지 않으면 결코 위대한 성취를 이룰 수 없다는 개척자의 정신을 담고 있습니다.",
+        "meaning_en": "Embodies the pioneer spirit: without taking risks and facing the unknown, great achievements are impossible."
+      }
+    ]
+  }
+}
