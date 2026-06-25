@@ -319,6 +319,9 @@ export function ConsultClient({ locale }: ConsultClientProps) {
         body: JSON.stringify({ userProblem: customProblemText, locale: activeLocale }),
       });
       const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.error || "Failed to match");
+      }
       if (data.matchedGiants) {
         setCustomMatchedGiants(data.matchedGiants);
         setIsCustomProblemMode(true);
@@ -329,6 +332,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
       alert("매칭 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.");
     } finally {
       setIsMatching(false);
+      setIsLoading(false);
     }
   }
 
@@ -419,8 +423,32 @@ export function ConsultClient({ locale }: ConsultClientProps) {
 
 
 
+              {/* Predefined Categories (First 3) */}
+              <div className="w-full max-w-4xl mx-auto mb-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+                {PROBLEM_CATEGORIES.slice(0, 3).map((problem) => {
+                  const t = problem.translations[locale] || problem.translations['en']
+                  return (
+                    <button
+                      key={problem.id}
+                      onClick={() => handleProblemSelect(problem.id)}
+                      className="group p-6 rounded-[2rem] border border-stone-800 bg-stone-900/30 hover:bg-stone-800/50 hover:border-amber-500/30 transition-all duration-300 text-left flex flex-col cursor-pointer"
+                    >
+                      <div className="text-3xl mb-4 bg-stone-950 w-12 h-12 rounded-full flex items-center justify-center border border-white/5 group-hover:scale-110 group-hover:border-amber-500/20 transition-all">
+                        {problem.emoji}
+                      </div>
+                      <h3 className="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
+                        {t.title}
+                      </h3>
+                      <p className="text-stone-400 text-sm leading-relaxed">
+                        {t.subtitle}
+                      </p>
+                    </button>
+                  )
+                })}
+              </div>
+
               {/* Custom Problem Input Section */}
-              <div className="w-full max-w-2xl mx-auto mt-8 p-8 rounded-[2rem] border border-amber-500/10 bg-stone-900/40 backdrop-blur-sm relative overflow-hidden text-center shadow-2xl">
+              <div className="w-full max-w-4xl mx-auto p-8 rounded-[2rem] border border-amber-500/10 bg-stone-900/40 backdrop-blur-sm relative overflow-hidden text-center shadow-2xl">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/[0.02] rounded-full blur-2xl pointer-events-none" />
                 <h3 className="text-white font-serif font-bold text-xl mb-2 flex items-center justify-center gap-2">
                   <MessageSquare className="w-5 h-5 text-amber-400" />

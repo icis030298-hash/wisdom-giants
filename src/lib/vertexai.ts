@@ -41,7 +41,7 @@ let vertexAIInstance: any = null;
 
 export function getVertexAIInstance(): any {
   if (vertexAIInstance) return vertexAIInstance;
-  const apiKey = process.env.GEMINI_API_KEY || "";
+  const apiKey = process.env.GEMINI_API_KEY || process.env.NEXT_PUBLIC_GEMINI_API_KEY || "";
   vertexAIInstance = new GoogleGenerativeAIWrapper(apiKey);
   return vertexAIInstance;
 }
