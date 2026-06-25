@@ -83,7 +83,7 @@ export function GiantsGrid({}: GiantsGridProps) {
         giant.field.toLowerCase().includes(query)
       )
     })
-  }, [searchQuery, selectedCategory, tg])
+  }, [searchQuery, selectedCategory, selectedRegion, tg])
 
   const totalPages = Math.ceil(filteredGiants.length / ITEMS_PER_PAGE)
   
