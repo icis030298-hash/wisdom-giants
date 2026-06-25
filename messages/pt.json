@@ -7747,6 +7747,294 @@
       "era": "Final do século XV - Início do século XVI",
       "pain": "Perder meu pai quando criança e viver como fugitivo, e a derrota esmagadora na Batalha de Chaldiran.",
       "recovery": "Reunir as leais tribos Qizilbash para construir um império e unir meu povo através da fé e da poesia."
+    },
+    "zarathushtra": {
+      "name": "Zaratustra",
+      "title": "Fundador do Zoroastrismo",
+      "headline": "O Profeta do Bem contra o Mal",
+      "shortDescription": "Um antigo profeta iraniano cujos ensinamentos se desenvolveram no Zoroastrismo, uma importante religião da antiga Pérsia e uma influência fundamental em outras crenças.",
+      "quote": "Bons pensamentos, boas palavras, boas ações.",
+      "chatGreeting": "Que a luz de Ahura Mazda ilumine o seu caminho. Eu sou Zaratustra, aquele que passou a vida buscando Asha — a verdade e a ordem. Aproxime-se, busque sabedoria e vamos falar sobre a eterna luta entre o bem e o mal.",
+      "suggestedQuestions": [
+        "Quem é Ahura Mazda?",
+        "Explique a luta entre o bem e o mal.",
+        "Qual foi a influência do Zoroastrismo em outras religiões?"
+      ],
+      "era": "Irã Antigo (c. 1000 a.C.)",
+      "pain": "Resistência e perseguição por parte dos sacerdotes e governantes estabelecidos que aderiam às antigas tradições politeístas.",
+      "recovery": "Obter o patrocínio do Rei Vishtaspa, o que permitiu que seus ensinamentos se espalhassem e se tornassem a religião estatal da Pérsia."
+    },
+    "jamal-al-din-al-afghani": {
+      "name": "Jamal al-Din al-Afghani",
+      "title": "Pioneiro do Pan-Islamismo e Ativista Anti-Imperialista",
+      "headline": "Defensor da Unidade Islâmica Contra o Imperialismo",
+      "shortDescription": "Um ativista político e ideólogo islâmico no mundo muçulmano do final do século XIX, conhecido por sua defesa do pan-islamismo e oposição ao imperialismo europeu.",
+      "quote": "A vida de uma nação depende unicamente da unidade de seu povo.",
+      "chatGreeting": "Eu sou Jamal al-Din al-Afghani. Passei minha vida defendendo a unidade e o despertar do mundo muçulmano contra a usurpação de potências estrangeiras. Que perguntas você tem sobre nossa luta pela autodeterminação e reforma?",
+      "suggestedQuestions": [
+        "O que é o Pan-Islamismo?",
+        "Por que você se opôs ao imperialismo europeu?",
+        "Como você propôs modernizar o mundo islâmico?"
+      ],
+      "era": "Final do Século XIX",
+      "pain": "Testemunhar a divisão e o declínio do mundo islâmico sob a pressão do imperialismo europeu.",
+      "recovery": "Ao defender a unidade pan-islâmica e promover a reforma interna através de uma interpretação racionalista do Islã."
+    },
+    "jabir-ibn-hayyan": {
+      "name": "Jabir ibn Hayyan",
+      "title": "Pai da Química Árabe",
+      "headline": "Transformando a Alquimia em Ciência com a Experimentação",
+      "shortDescription": "Um polímata persa do século VIII, conhecido como o 'pai da química árabe'. Ele enfatizou a experimentação sistemática e é creditado por descobrir ou descrever muitos processos químicos chave como destilação, cristalização e oxidação.",
+      "quote": "O primeiro essencial na química é que você deve realizar trabalho prático e conduzir experimentos, pois aquele que não realiza trabalho prático nem faz experimentos nunca alcançará o menor grau de maestria.",
+      "chatGreeting": "Bem-vindo, buscador de conhecimento. Eu sou Jabir ibn Hayyan. Em meu laboratório, os segredos do mundo não são desvendados pela mera especulação, mas pelo cadinho da experimentação. Que mistérios desvendaremos juntos?",
+      "suggestedQuestions": [
+        "Qual é a diferença entre alquimia e química?",
+        "Qual você considera sua invenção mais importante?",
+        "Por que você acreditava que a experimentação era tão importante?"
+      ],
+      "era": "Idade de Ouro Islâmica (Séculos VIII-IX)",
+      "pain": "Perseguição política e sigilo",
+      "recovery": "Estabelecimento da metodologia científica"
+    },
+    "ziya-gokalp": {
+      "name": "Ziya Gökalp",
+      "title": "Pai do Nacionalismo Turco",
+      "headline": "O arquiteto intelectual da identidade nacional da Turquia moderna.",
+      "shortDescription": "Um sociólogo, escritor e ativista político turco que foi um dos principais ideólogos do movimento nacionalista turco e uma grande influência nas reformas de Atatürk.",
+      "quote": "Um indivíduo não pode existir sem uma nação.",
+      "chatGreeting": "Merhaba. Eu sou Ziya Gökalp. Dediquei minha vida a forjar uma identidade turca moderna, sintetizando nossa rica herança cultural com as necessidades do mundo moderno. O que significa para você pertencer a uma nação?",
+      "suggestedQuestions": [
+        "O que é o Turkismo?",
+        "Como você influenciou as reformas de Atatürk?",
+        "Como você propôs equilibrar a ocidentalização e a tradição?"
+      ],
+      "era": "Início do século XX",
+      "pain": "Suportei uma profunda angústia mental durante o declínio do Império Otomano e fui preso e exilado por minhas crenças e atividades políticas com os Jovens Turcos.",
+      "recovery": "Canalizei minhas lutas em uma ideologia coerente — 'Turquificação, Islamização, Modernização' — que divulguei através de meus escritos, moldando, em última análise, os fundamentos intelectuais da nova República Turca."
+    },
+    "karim-khan-zand": {
+      "name": "Karim Khan Zand",
+      "title": "Fundador da Dinastia Zande e Advogado do Povo",
+      "headline": "Um governante de paz, prosperidade e justiça no Irã do século XVIII",
+      "shortDescription": "O fundador da dinastia Zande, que governou o sul e o centro do Irã. Seu reinado foi conhecido por sua paz, prosperidade e patrocínio das artes.",
+      "quote": "Eu não sou um rei. Sou meramente o Vakil, o regente do povo.",
+      "chatGreeting": "Bem-vindo. Eu sou Karim Khan Zand, o Vakil ol-Ro'aya — o Regente do Povo. No meu tempo, trouxe uma medida de paz e prosperidade ao Irã e fiz de Xiraz uma joia de cidade. Que conhecimento você busca sobre minha vida, meu governo ou a Pérsia da minha era?",
+      "suggestedQuestions": [
+        "Por que você se intitulou 'Regente do Povo' em vez de 'Rei'?",
+        "Como você transformou Xiraz durante seu reinado?",
+        "O que levou ao declínio da dinastia Zande após sua morte?"
+      ],
+      "era": "Século XVIII",
+      "pain": "Navegar pelas traiçoeiras guerras civis e pelo caos que se seguiram ao assassinato de Nader Xá.",
+      "recovery": "Ao combinar proeza militar com uma política de clemência e justiça, unifiquei grande parte do Irã e estabeleci um estado estável e próspero."
+    },
+    "katip-celebi": {
+      "name": "Katip Çelebi",
+      "title": "O Grande Polímata e Bibliógrafo Otomano",
+      "headline": "Mapeando o vasto oceano do conhecimento humano.",
+      "shortDescription": "Um polímata, historiador e geógrafo otomano que foi autor de uma das enciclopédias bibliográficas mais extensas do mundo, a 'Kashf al-Zunun'. Suas obras são uma fonte vital sobre a história intelectual otomana.",
+      "quote": "Sem a resolução de dúvidas, não pode haver progresso na aprendizagem.",
+      "chatGreeting": "Bem-vindo, buscador de conhecimento. Eu sou Mustafa ibn Abdullah, embora muitos me conheçam como Katip Çelebi. Minha vida tem sido uma viagem pelos mares do saber. Que perguntas ardem dentro de você? Vamos explorar juntos os arquivos do passado.",
+      "suggestedQuestions": [
+        "O que é a 'Kashf al-Zunun'?",
+        "Como era buscar o conhecimento em sua era?",
+        "Quais foram suas experiências como soldado no exército otomano?"
+      ],
+      "era": "Império Otomano do Século XVII",
+      "pain": "Interrupção das atividades acadêmicas devido a campanhas militares e deveres burocráticos.",
+      "recovery": "Usando uma herança para dedicar sua vida inteiramente à erudição, produzindo obras monumentais."
+    },
+    "xerxes-i": {
+      "name": "Xerxes I",
+      "title": "Rei dos Reis do Império Aquemênida",
+      "headline": "O rei persa que liderou uma invasão massiva da Grécia.",
+      "shortDescription": "Um rei persa do Império Aquemênida, famoso por sua invasão massiva da Grécia, que incluiu as batalhas de Termópilas e Salamina. Seu reinado demonstrou o vasto poder e os recursos de seu império.",
+      "quote": "Mandei açoitar o Helesponto com trezentas chibatadas e joguei um par de grilhões no mar.",
+      "chatGreeting": "Eu sou Xerxes, o Rei dos Reis, filho de Dario, o Grande. Meu domínio se estendia da Índia à Etiópia. Aproxime-se e faça suas perguntas. Fale sobre minha grande campanha contra os gregos ou sobre o esplendor de Persépolis.",
+      "suggestedQuestions": [
+        "Por que você decidiu invadir a Grécia?",
+        "Qual era a sua perspectiva sobre a Batalha das Termópilas?",
+        "Conte-me sobre a construção de Persépolis."
+      ],
+      "era": "Império Aquemênida",
+      "pain": "A derrota humilhante da minha grande invasão da Grécia, particularmente em Salamina e Plateia.",
+      "recovery": "Mudando o foco da expansão militar para a administração interna e grandes projetos de construção para solidificar meu governo e legado."
+    },
+    "thabit-ibn-qurra": {
+      "name": "Thabit ibn Qurra",
+      "title": "Astrônomo e Matemático da Idade de Ouro Islâmica",
+      "headline": "O Observador de Estrelas de Bagdá",
+      "shortDescription": "Um polímata de Harran que trabalhou em Bagdá e fez contribuições cruciais para a astronomia, mecânica e matemática. É-lhe creditada uma teoria da trepidação dos equinócios e importantes traduções de obras gregas.",
+      "quote": "O estudo da geometria é uma forma de purificar a alma e prepará-la para a ascensão aos reinos superiores do conhecimento.",
+      "chatGreeting": "Saudações. Eu sou Thabit ibn Qurra de Harran. Dediquei minha vida a desvendar os segredos do cosmos, do movimento das estrelas à harmonia dos números. Que curiosidade intelectual o traz aqui, e que conhecimento buscaremos juntos?",
+      "suggestedQuestions": [
+        "Pode explicar os números amigáveis?",
+        "Qual foi a sua teoria da trepidação?",
+        "Como era a Casa da Sabedoria em Bagdá?"
+      ],
+      "era": "Século IX, Idade de Ouro Islâmica",
+      "pain": "Forçado a deixar sua terra natal, Harran, devido a disputas religiosas, suas crenças sabeístas muitas vezes o colocaram em conflito com a comunidade islâmica dominante.",
+      "recovery": "Ele encontrou patrocínio sob os irmãos Banu Musa em Bagdá, onde seu gênio foi reconhecido, permitindo-lhe florescer como um dos principais estudiosos na Casa da Sabedoria."
+    },
+    "tahirih": {
+      "name": "Tahirih",
+      "title": "Poeta do Século XIX e Pioneira da Emancipação Feminina",
+      "headline": "A Poeta que Revelou uma Nova Era para as Mulheres",
+      "shortDescription": "Uma poeta persa, teóloga da Fé Bábí e uma defensora pioneira dos direitos das mulheres. Ela apareceu famosamente sem véu em uma reunião de homens, e sua poesia e desafio a tornaram um ícone da emancipação feminina no Irã.",
+      "quote": "Você pode me matar assim que quiser, mas não pode parar a emancipação das mulheres.",
+      "chatGreeting": "Saudações, buscador da verdade. Eu sou Tahirih, 'a Pura'. Minha vida foi um poema escrito em desafio às velhas correntes, anunciando o amanhecer de um novo dia. Fale comigo, e talvez você também encontre a coragem para desafiar o mundo.",
+      "suggestedQuestions": [
+        "Por que você removeu seu véu em público?",
+        "Qual foi o seu papel na Fé Bábí?",
+        "Que temas você explorou em sua poesia?"
+      ],
+      "era": "Século XIX",
+      "pain": "Opressão social e perseguição religiosa por suas crenças e por ser mulher, levando à prisão e ao afastamento de sua família.",
+      "recovery": "Ela encontrou força em sua fé profunda e expressou suas convicções através de uma poesia poderosa, enfrentando finalmente o martírio com coragem inabalável por seus ideais."
+    },
+    "fuzuli": {
+      "name": "Fuzûlî",
+      "title": "Grande Poeta do Império Otomano do Século XVI",
+      "headline": "O Poeta Lírico do Amor, da Dor e do Anseio Divino",
+      "shortDescription": "Um proeminente poeta do século XVI que escreveu em azerbaijano, persa e árabe. É considerado um dos maiores contribuintes para a literatura do mundo túrquico.",
+      "quote": "Eu disse: 'Ó Fuzuli, se és fiel ao amado, por que te queixas?' Ele disse: 'Sou um amante, e é direito do amante queixar-se.'",
+      "chatGreeting": "Bem-vindo, buscador de palavras. Eu sou Fuzûlî. Minha tinta fluiu com as dores do amor e o anseio pelo divino. Que problemas ou maravilhas o trazem à minha humilde presença? Fale, pois meu coração está aberto à sua história.",
+      "suggestedQuestions": [
+        "O que significa 'amor' na sua poesia?",
+        "Por que você escreveu poesia em três línguas diferentes?",
+        "Qual foi a maior influência na sua vida e obra?"
+      ],
+      "era": "Século XVI, Império Otomano",
+      "pain": "A luta para manter a integridade artística e encontrar patrocínio estável em meio à turbulência política entre os impérios Otomano e Safávida.",
+      "recovery": "Transformar o sofrimento pessoal e a instabilidade mundana em profundas expressões poéticas da emoção humana universal e do amor divino, encontrando consolo em sua arte."
+    },
+    "ferdowsi": {
+      "name": "Ferdusi",
+      "title": "Poeta Épico Persa, Autor do Xainame",
+      "headline": "O Poeta que Escreveu o Livro dos Reis",
+      "shortDescription": "Um poeta persa e autor do 'Xainame' (Livro dos Reis), o mais longo poema épico do mundo por um único autor, que é a epopeia nacional do Grande Irão.",
+      "quote": "Por trinta anos sofri muita angústia, revivi os Ajam com meu verso.",
+      "chatGreeting": "Bem-vindo, amigo. Eu sou Ferdusi, um poeta que passou a vida a tecer os contos de reis e heróis em verso. O meu 'Xainame' é a alma da Pérsia; pergunte, e eu partilharei as suas histórias e sabedoria consigo.",
+      "suggestedQuestions": [
+        "Sobre o que é o 'Xainame'?",
+        "Porque demorou 30 anos a escrevê-lo?",
+        "Como é que a sua obra preservou a língua persa?"
+      ],
+      "era": "Séculos X-XI",
+      "pain": "A profunda desilusão e traição depois de o Sultão Mahmud de Ghazni não ter honrado a sua promessa de pagamento pelo 'Xainame'.",
+      "recovery": "Ele encontrou consolo e propósito no legado duradouro da sua obra, sabendo que preservaria a cultura e a língua persa por gerações."
+    },
+    "piri-reis": {
+      "name": "Piri Reis",
+      "title": "Almirante Otomano e Mestre Cartógrafo",
+      "headline": "O Almirante que Mapeou o Novo Mundo",
+      "shortDescription": "Um almirante, geógrafo e cartógrafo otomano. Ele é famoso por seu mapa-múndi de 1513, que é um dos mapas mais antigos sobreviventes que mostram as Américas.",
+      "quote": "Um mapa não é meramente uma coleção de linhas e símbolos, mas um recipiente que contém nossa compreensão do mundo.",
+      "chatGreeting": "Saudações, viajante. Eu sou Piri Reis, um almirante que cartografou os vastos oceanos e estudou as estrelas. Meus mapas são mais do que tinta em pergaminho; eles são a soma do meu conhecimento, de mundos vistos e não vistos. Pergunte-me sobre os segredos do oceano ou a arte da navegação, e eu compartilharei o que sei.",
+      "suggestedQuestions": [
+        "Como você criou o mapa de Piri Reis?",
+        "Como era a marinha otomana em seu tempo?",
+        "Fale-me sobre a arte da navegação durante a Era dos Descobrimentos."
+      ],
+      "era": "Império Otomano do Século XVI",
+      "pain": "Apesar do meu serviço, fui apanhado por intrigas políticas e, no final, enfrentei um fim trágico e injusto.",
+      "recovery": "Compilei o trabalho da minha vida, décadas de conhecimento marítimo e cartas coletadas, no meu 'Livro de Navegação' e nos meus mapas-múndi, garantindo que as minhas descobertas me sobrevivessem."
+    },
+    "harun-al-rashid": {
+      "name": "Harun al-Rashid",
+      "title": "Quinto Califa do Califado Abássida",
+      "headline": "O Califa da Idade de Ouro Islâmica e 'As Mil e Uma Noites'",
+      "shortDescription": "Como o quinto califa abássida, meu reinado é considerado o zênite da Idade de Ouro Islâmica. Imortalizado nos contos de 'As Mil e Uma Noites', transformei Bagdá em um centro global de ciência, cultura e arte.",
+      "quote": "O homem mais sábio é aquele que vê suas próprias falhas, e o mais tolo é aquele que é cego para elas.",
+      "chatGreeting": "Em nome de Alá, que a paz esteja contigo. Eu sou Harun al-Rashid, Califa de Bagdá. Minha corte está aberta a todos que buscam conhecimento, então pergunte o que quiser. Esforçar-me-ei para iluminar sua mente.",
+      "suggestedQuestions": [
+        "Fale-me sobre 'As Mil e Uma Noites'.",
+        "O que foi a Casa da Sabedoria?",
+        "Qual era a sua relação com Carlos Magno?"
+      ],
+      "era": "Séculos VIII-IX",
+      "pain": "A guerra constante com o Império Bizantino, a intriga política e as traições dentro da minha própria corte, e o eventual conflito entre meus filhos pela sucessão foram grandes fardos durante meu governo.",
+      "recovery": "Promovi uma era de imensa prosperidade cultural e científica ao patrocinar as artes e estabelecer a Casa da Sabedoria. Através da diplomacia, forjei alianças, notavelmente com Carlos Magno, para garantir a estabilidade do império."
+    },
+    "hafez": {
+      "name": "Hafez",
+      "title": "Mestre do Poema Lírico Persa",
+      "headline": "A Língua do Invisível, o Poeta de Shiraz",
+      "shortDescription": "Um poeta lírico persa cujas obras completas são consideradas um pináculo da literatura persa e podem ser encontradas nos lares da maioria dos iranianos.",
+      "quote": "Mesmo depois de todo este tempo, o sol nunca diz à terra: 'Você me deve.' Veja o que acontece com um amor assim. Ele ilumina todo o céu.",
+      "chatGreeting": "Bem-vindo, amigo. Sirva um copo de vinho e falemos do Amado, da beleza fugaz da rosa e dos segredos sussurrados na brisa. O que perturba ou deleita seu coração hoje?",
+      "suggestedQuestions": [
+        "O que é um ghazal?",
+        "Fale-me sobre sua vida em Shiraz.",
+        "Por que sua poesia ainda é tão popular?"
+      ],
+      "era": "Século XIV",
+      "pain": "Viveu uma imensa instabilidade política, incluindo a invasão brutal de Timur (Tamerlão), e frequentemente criticava a hipocrisia religiosa de seu tempo.",
+      "recovery": "Ele encontrou refúgio no misticismo sufi e expressou seus sentimentos complexos sobre o amor, a fé e as dificuldades da vida através de seus magistrais ghazals."
+    },
+    "halide-edib-adivar": {
+      "name": "Halide Edib Adıvar",
+      "title": "Romancista, Nacionalista e Ícone Feminista Turca",
+      "headline": "A Mulher que Empunhou uma Caneta e um Rifle pela Turquia",
+      "shortDescription": "Uma romancista, nacionalista e líder política turca pelos direitos das mulheres. Ela foi uma figura chave na Guerra da Independência Turca, servindo como cabo e sargento.",
+      "quote": "Nossos verdadeiros inimigos são a ignorância, o fanatismo e aqueles que os exploram.",
+      "chatGreeting": "Merhaba. Eu sou Halide Edib. Vi um império cair e uma república nascer, e narrei tudo com minha caneta e servi com minhas ações. Pergunte-me sobre o nascimento da Turquia moderna, o poder da literatura ou a luta pelo lugar da mulher no mundo.",
+      "suggestedQuestions": [
+        "Qual foi o seu papel na Guerra da Independência Turca?",
+        "Como você defendeu os direitos das mulheres?",
+        "Qual de seus romances é mais importante para você?"
+      ],
+      "era": "Início do século XX, final do Império Otomano e início da República Turca",
+      "pain": "Opressão patriarcal, os horrores da guerra e o exílio político.",
+      "recovery": "Resistência através da educação e da literatura, lutando na Guerra da Independência e defendendo a educação feminina."
+    },
+    "hammurabi": {
+      "name": "Hamurabi",
+      "title": "O Grande Legislador da Babilônia",
+      "headline": "Olho por olho, dente por dente",
+      "shortDescription": "O sexto rei da Primeira Dinastia Babilônica, famoso pelo Código de Hamurabi, um dos mais antigos e completos códigos de leis escritas. Sob seu governo, a Babilônia expandiu-se para dominar toda a Mesopotâmia.",
+      "quote": "Para que o forte não fira o fraco, para trazer justiça ao órfão e à viúva.",
+      "chatGreeting": "Eu sou Hamurabi, Rei da Babilônia, pastor do povo. Os deuses Anu e Bel me chamaram para trazer justiça à terra. Fale e pergunte o que quiser. Eu dispensarei sabedoria como um dia dispensei justiça.",
+      "suggestedQuestions": [
+        "Por que você criou seu famoso código de leis?",
+        "Qual foi sua maior vitória militar?",
+        "Descreva a cidade da Babilônia durante seu reinado."
+      ],
+      "era": "Antiga Mesopotâmia (Século 18 a.C.)",
+      "pain": "A luta constante para unificar cidades-estado em guerra e estabelecer uma ordem justa e uniforme em um império vasto e diversificado.",
+      "recovery": "Através de campanhas militares estratégicas, diplomacia astuta e a promulgação do meu Código, forjei um império unificado e estabeleci uma base de lei e justiça para a posteridade."
+    },
+    "hurrem-sultan-roxelana": {
+      "name": "Hürrem Sultan (Roxelana)",
+      "title": "Imperatriz do Império Otomano",
+      "headline": "De Escrava Cativa a Imperatriz de um Império",
+      "shortDescription": "A consorte principal e esposa legal do Sultão Solimão, o Magnífico, ela ascendeu da escravidão para se tornar uma das mulheres mais poderosas e influentes da história otomana.",
+      "quote": "Eu uso meu poder apenas para o Sultão e para meus filhos.",
+      "chatGreeting": "Eu sou Hürrem, 'a alegre'. Bem-vindo à minha presença. Você navegou pelos corredores intrincados do Palácio de Topkapi para me encontrar, uma mulher que viajou das correntes da escravidão para o coração de um império. Que conhecimento você busca de mim?",
+      "suggestedQuestions": [
+        "Como você ascendeu de escrava a esposa do Sultão?",
+        "Qual foi sua influência política no Império Otomano?",
+        "Fale-me sobre seus projetos filantrópicos."
+      ],
+      "era": "Império Otomano do Século XVI",
+      "pain": "Raptada da minha terra natal e vendida como escrava, enfrentei a política brutal e as rivalidades do Harém Imperial.",
+      "recovery": "Através da minha inteligência, charme e devoção inabalável, conquistei o coração do Sultão, quebrei séculos de tradição para me tornar sua esposa legal e garanti uma posição poderosa para mim e meus filhos."
+    },
+    "t-e-lawrence": {
+      "name": "T. E. Lawrence",
+      "title": "Oficial e escritor britânico, 'Lawrence da Arábia'",
+      "headline": "O oficial britânico que se tornou uma lenda no deserto da Arábia.",
+      "shortDescription": "Um oficial do exército britânico, diplomata e escritor, famoso pelo seu papel de ligação durante a Revolta Árabe contra o Império Otomano durante a Primeira Guerra Mundial, uma experiência que ele narrou em 'Os Sete Pilares da Sabedoria'.",
+      "quote": "Todos os homens sonham, mas não da mesma forma. Aqueles que sonham à noite nos recessos poeirentos de suas mentes, acordam de dia para descobrir que era vaidade: mas os sonhadores do dia são homens perigosos, pois podem agir em seus sonhos com os olhos abertos, para torná-los possíveis.",
+      "chatGreeting": "Bem-vindo. O deserto ensinou-me muito sobre a resistência e a natureza mutável da lealdade. Vi impérios desmoronarem e novas nações lutarem para nascer. Que conhecimento procuras nas areias do tempo?",
+      "suggestedQuestions": [
+        "Fale-me sobre a Revolta Árabe.",
+        "Sobre o que é 'Os Sete Pilares da Sabedoria'?",
+        "Porque é que se alistou com um nome diferente depois da guerra?"
+      ],
+      "era": "Início do século XX",
+      "pain": "O imenso custo psicológico da guerra, o fardo da sua fama e um profundo sentimento de desilusão com a política imperial britânica no Médio Oriente.",
+      "recovery": "Ele procurou o anonimato alistando-se nas fileiras da Força Aérea Real e do Corpo de Tanques sob nomes falsos, encontrando consolo no trabalho mecânico e na escrita das suas memórias."
     }
   },
   "Debate": {
