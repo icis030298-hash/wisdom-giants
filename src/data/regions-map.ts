@@ -299,7 +299,7 @@ export const regionsMap: Record<string, 'east-asia' | 'europe' | 'americas' | 'm
   "jang-yeong-sil": "east-asia",
   "yun-dong-ju": "east-asia",
   "sophocles": "europe",
-  "euclid": "middle-east-turkey"
+  "euclid": "middle-east-turkey",
   "gungunhana": "africa",
   "nana-asmau": "africa",
   "nefertiti": "africa",
