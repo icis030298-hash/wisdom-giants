@@ -286,7 +286,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
     const problemText = problem.translations[activeLocale]?.description || problem.translations['en']?.description || problem.id;
     
     setIsMatching(true);
-    setIsLoading(true);
+    // setIsLoading(true); // Removed to prevent Skeleton UI from overriding AnimatePresence
     try {
       if (giants.length === 0) {
         const mod = await import("@/data/giants")
@@ -338,7 +338,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   const handleCustomProblemSubmit = async () => {
     if (!customProblemText.trim()) return;
     setIsMatching(true);
-    setIsLoading(true);
+    // setIsLoading(true); // Removed to prevent Skeleton UI from overriding AnimatePresence
     try {
       if (giants.length === 0) {
         const mod = await import("@/data/giants")
@@ -425,7 +425,26 @@ export function ConsultClient({ locale }: ConsultClientProps) {
       
       <div className="max-w-6xl mx-auto w-full px-4 md:px-8 py-24 flex-1 flex flex-col justify-center">
         <AnimatePresence mode="wait" initial={false}>
-          {!selectedProblemId ? (
+          {isMatching ? (
+            <m.div
+              key="loading"
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -15 }}
+              transition={{ duration: 0.2 }}
+              className="w-full flex flex-col items-center justify-center py-32"
+            >
+              <div className="flex flex-col items-center gap-8">
+                <div className="relative">
+                  <div className="absolute inset-0 bg-amber-500/20 blur-xl rounded-full" />
+                  <div className="animate-spin w-16 h-16 border-4 border-stone-800 border-t-amber-500 rounded-full relative z-10" />
+                </div>
+                <p className="text-stone-300 font-medium text-lg animate-pulse tracking-wide">
+                  {labels.analyzing || "당신의 고민과 닮은 거인을 찾고 있어요..."}
+                </p>
+              </div>
+            </m.div>
+          ) : !selectedProblemId ? (
             /* STAGE 1: Problem Selection */
             <m.div
               key="stage1"
@@ -565,12 +584,12 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                       
                       {/* Giant Avatar & Details */}
                       <div className="flex flex-col items-center shrink-0 w-full md:w-36">
-                        <GiantAvatar slug={giant.slug} name={tg(`${giant.slug}.name`).includes(`${giant.slug}.`) ? giant.name : tg(`${giant.slug}.name`)} />
+                        <GiantAvatar slug={giant?.slug} name={tg(`${giant?.slug}.name`).includes(`${giant?.slug}.`) ? (giant?.name || 'Unknown') : tg(`${giant?.slug}.name`)} />
                         <p className="text-white font-serif font-bold text-lg text-center leading-tight">
-                          {tg(`${giant.slug}.name`).includes(`${giant.slug}.`) ? giant.name : tg(`${giant.slug}.name`)}
+                          {tg(`${giant?.slug}.name`).includes(`${giant?.slug}.`) ? (giant?.name || 'Unknown') : tg(`${giant?.slug}.name`)}
                         </p>
                         <p className="text-stone-500 text-xs text-center mt-1 truncate max-w-full">
-                          {tg(`${giant.slug}.era`).includes(`${giant.slug}.`) ? giant.era : tg(`${giant.slug}.era`)}
+                          {tg(`${giant?.slug}.era`).includes(`${giant?.slug}.`) ? (giant?.era || '') : tg(`${giant?.slug}.era`)}
                         </p>
                       </div>
 
@@ -582,22 +601,22 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                             <span>{labels.sufferedTogether}</span>
                           </div>
                           <p className="text-stone-200 text-base leading-relaxed whitespace-pre-line font-serif italic pl-0 md:pl-2 border-l-0 md:border-l-2 border-amber-500/20 py-1">
-                            &ldquo;{isCustomProblemMode ? giant.reason : (giant.historicalPain[activeLocale] || giant.historicalPain['en'])}&rdquo;
+                            &ldquo;{giant?.reason || giant?.historicalPain?.[activeLocale] || giant?.historicalPain?.['en'] || ''}&rdquo;
                           </p>
                         </div>
 
                         <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
                           <button
-                            onClick={() => handleStartConsult(giant.slug)}
+                            onClick={() => handleStartConsult(giant?.slug)}
                             className="bg-amber-500 hover:bg-amber-400 text-stone-950 font-black px-6 py-3 rounded-2xl transition-all text-sm flex items-center gap-2 shadow-[0_4px_20px_rgba(245,158,11,0.15)] hover:shadow-[0_4px_25px_rgba(245,158,11,0.3)] hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
                           >
                             <MessageSquare className="w-4 h-4" />
-                            <span>{getChatButtonText(giant.name, activeLocale)}</span>
+                            <span>{getChatButtonText(giant?.name || '', activeLocale)}</span>
                             <span className="text-[10px] opacity-70">→</span>
                           </button>
                           
                           <button
-                            onClick={() => handleGoToEpic(giant.slug)}
+                            onClick={() => handleGoToEpic(giant?.slug)}
                             className="border border-amber-500/20 hover:border-amber-500/50 hover:bg-amber-500/10 text-amber-300 font-bold px-6 py-3 rounded-2xl transition-all text-sm flex items-center gap-2 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
                           >
                             <Sparkles className="w-4 h-4 text-amber-400/80" />
