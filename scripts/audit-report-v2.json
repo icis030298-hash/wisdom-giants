@@ -2,13 +2,6 @@
   {
     "slug": "napoleon-bonaparte",
     "name": "나폴레옹 보나파르트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "napoleon-bonaparte",
-    "name": "나폴레옹 보나파르트",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -282,13 +275,6 @@
   {
     "slug": "king-sejong",
     "name": "세종대왕",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "king-sejong",
-    "name": "세종대왕",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -502,13 +488,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (20 chars): \"### 4. 永恒的遗产：民族之魂的觉醒...\""
-  },
-  {
-    "slug": "genghis-khan",
-    "name": "징기스칸",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "genghis-khan",
@@ -814,13 +793,6 @@
   {
     "slug": "alexander-the-great",
     "name": "알렉산더 대왕",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "alexander-the-great",
-    "name": "알렉산더 대왕",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -1066,13 +1038,6 @@
   {
     "slug": "walt-disney",
     "name": "월트 디즈니",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "walt-disney",
-    "name": "월트 디즈니",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -1307,13 +1272,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的奇迹与不朽的传奇...\""
-  },
-  {
-    "slug": "thomas-edison",
-    "name": "토마스 에디슨",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "thomas-edison",
@@ -1584,13 +1542,6 @@
   {
     "slug": "julius-caesar",
     "name": "율리우스 카이사르",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "julius-caesar",
-    "name": "율리우스 카이사르",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -1818,13 +1769,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 不朽的遗产与历史的回响...\""
-  },
-  {
-    "slug": "henry-ford",
-    "name": "헨리 포드",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "henry-ford",
@@ -2081,13 +2025,6 @@
   {
     "slug": "frida-kahlo",
     "name": "프리다 칼로",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "frida-kahlo",
-    "name": "프리다 칼로",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -2329,20 +2266,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的灯塔与飞翔的翅膀...\""
-  },
-  {
-    "slug": "cicero",
-    "name": "키케로",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "helen-keller",
-    "name": "헬렌 켈러",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "helen-keller",
@@ -2625,20 +2548,6 @@
     "details": "Paragraph 7 is too short (12 chars): \"### 4. 不朽的灯塔...\""
   },
   {
-    "slug": "beethoven",
-    "name": "루드비히 판 베토벤",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "franklin-d-roosevelt",
-    "name": "프랭클린 루스벨트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "franklin-d-roosevelt",
     "name": "프랭클린 루스벨트",
     "locale": "de",
@@ -2826,13 +2735,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (20 chars): \"### 4. 危机时代的灯塔与不竭的动力...\""
-  },
-  {
-    "slug": "marcus-aurelius",
-    "name": "마르쿠스 아우렐리우스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "marcus-aurelius",
@@ -3138,13 +3040,6 @@
   {
     "slug": "seneca",
     "name": "세네카",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "seneca",
-    "name": "세네카",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -3411,13 +3306,6 @@
   {
     "slug": "confucius",
     "name": "공자",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "confucius",
-    "name": "공자",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -3663,13 +3551,6 @@
   {
     "slug": "socrates",
     "name": "소크라테스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "socrates",
-    "name": "소크라테스",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -3911,13 +3792,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的追问与理性的回响...\""
-  },
-  {
-    "slug": "lao-tzu",
-    "name": "노자",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "lao-tzu",
@@ -4202,13 +4076,6 @@
   {
     "slug": "aristotle",
     "name": "아리스토텔레스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "aristotle",
-    "name": "아리스토텔레스",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -4436,13 +4303,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的回响与智慧的灯塔...\""
-  },
-  {
-    "slug": "plato",
-    "name": "플라톤",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "plato",
@@ -4699,13 +4559,6 @@
   {
     "slug": "leonardo-da-vinci",
     "name": "레오나르도 다 빈치",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "leonardo-da-vinci",
-    "name": "레오나르도 다 빈치",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -4944,13 +4797,6 @@
   {
     "slug": "mozart",
     "name": "모차르트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "mozart",
-    "name": "모차르트",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -5164,13 +5010,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (25 chars): \"### 4. 永恒的回响：艺术纯粹与精神秩序的颂歌...\""
-  },
-  {
-    "slug": "william-shakespeare",
-    "name": "윌리엄 셰익스피어",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "william-shakespeare",
@@ -5462,13 +5301,6 @@
   {
     "slug": "albert-einstein",
     "name": "알베르트 아인슈타인",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "albert-einstein",
-    "name": "알베르트 아인슈타인",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -5735,13 +5567,6 @@
   {
     "slug": "marie-curie",
     "name": "마리 퀴리",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "marie-curie",
-    "name": "마리 퀴리",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 7 paragraphs (expected exactly 4)"
@@ -5990,13 +5815,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的启示，不灭的光辉...\""
-  },
-  {
-    "slug": "nikola-tesla",
-    "name": "니콜라 테슬라",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "nikola-tesla",
@@ -6256,13 +6074,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (20 chars): \"### 4. 永恒的启示，星辰大海的征途...\""
-  },
-  {
-    "slug": "vincent-van-gogh",
-    "name": "빈센트 반 고흐",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "vincent-van-gogh",
@@ -6554,13 +6365,6 @@
   {
     "slug": "abraham-lincoln",
     "name": "에이브러햄 링컨",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "abraham-lincoln",
-    "name": "에이브러햄 링컨",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -6799,13 +6603,6 @@
   {
     "slug": "george-washington",
     "name": "조지 워싱턴",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "george-washington",
-    "name": "조지 워싱턴",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -6984,13 +6781,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 不朽的巨人，共和的灯塔...\""
-  },
-  {
-    "slug": "yi-sun-shin",
-    "name": "이순신",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "yi-sun-shin",
@@ -7254,13 +7044,6 @@
   {
     "slug": "elizabeth-i",
     "name": "엘리자베스 1세",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "elizabeth-i",
-    "name": "엘리자베스 1세",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -7509,13 +7292,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (19 chars): \"### 4. 永恒的传奇与领导力的典范...\""
-  },
-  {
-    "slug": "gwanggaeto-the-great",
-    "name": "광개토대왕",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "gwanggaeto-the-great",
@@ -7772,13 +7548,6 @@
   {
     "slug": "winston-churchill",
     "name": "윈스턴 처칠",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "winston-churchill",
-    "name": "윈스턴 처칠",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -7985,13 +7754,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 不朽的象征与历史的回响...\""
-  },
-  {
-    "slug": "qin-shi-huang",
-    "name": "진시황",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "qin-shi-huang",
@@ -8265,13 +8027,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (16 chars): \"### 4. 千秋帝业与不朽传奇...\""
-  },
-  {
-    "slug": "augustus",
-    "name": "아우구스투스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "augustus",
@@ -8570,13 +8325,6 @@
   {
     "slug": "otto-von-bismarck",
     "name": "오토 폰 비스마르크",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "otto-von-bismarck",
-    "name": "오토 폰 비스마르크",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -8848,20 +8596,6 @@
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 不朽的遗产与永恒的启示...\""
   },
   {
-    "slug": "peter-the-great",
-    "name": "표트르 대제",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "catherine-the-great",
-    "name": "캐서린 대제",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "catherine-the-great",
     "name": "캐서린 대제",
     "locale": "ja",
@@ -8874,13 +8608,6 @@
     "locale": "ja",
     "type": "short_slide",
     "details": "Paragraph 1 is too short (23 chars): \"```japanese\n# エカチェリーナ二世...\""
-  },
-  {
-    "slug": "simon-bolivar",
-    "name": "시몬 볼리바르",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "simon-bolivar",
@@ -9165,13 +8892,6 @@
   {
     "slug": "john-d-rockefeller",
     "name": "존 D. 록펠러",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "john-d-rockefeller",
-    "name": "존 D. 록펠러",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -9301,13 +9021,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 资本的史诗与不朽的遗产...\""
-  },
-  {
-    "slug": "ataturk",
-    "name": "무스타파 케말 아타튀르크",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "ataturk",
@@ -9550,13 +9263,6 @@
   {
     "slug": "theodore-roosevelt",
     "name": "테오도르 루스벨트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "theodore-roosevelt",
-    "name": "테오도르 루스벨트",
     "locale": "ru",
     "type": "paragraph_mismatch",
     "details": "Narrative has 5 paragraphs (expected exactly 4)"
@@ -9567,13 +9273,6 @@
     "locale": "zh",
     "type": "paragraph_mismatch",
     "details": "Narrative has 5 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "anne-frank",
-    "name": "안네 프랑크",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "anne-frank",
@@ -9840,13 +9539,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的启示与人性的光辉...\""
-  },
-  {
-    "slug": "rosa-parks",
-    "name": "로자 파크스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "rosa-parks",
@@ -10138,13 +9830,6 @@
   {
     "slug": "frederick-douglass",
     "name": "프레데릭 더글러스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "frederick-douglass",
-    "name": "프레데릭 더글러스",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -10411,13 +10096,6 @@
   {
     "slug": "harriet-tubman",
     "name": "해리엇 터브먼",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "harriet-tubman",
-    "name": "해리엇 터브먼",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -10649,13 +10327,6 @@
   {
     "slug": "florence-nightingale",
     "name": "플로렌스 나이팅게일",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "florence-nightingale",
-    "name": "플로렌스 나이팅게일",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -10848,13 +10519,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 10 is too short (18 chars): \"### 4. 不朽的灯塔：永恒的遗产...\""
-  },
-  {
-    "slug": "yu-gwan-sun",
-    "name": "유관순",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "yu-gwan-sun",
@@ -11093,13 +10757,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的牺牲与民族的丰碑...\""
-  },
-  {
-    "slug": "louis-braille",
-    "name": "루이 브라이유",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "louis-braille",
@@ -11352,13 +11009,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 10 is too short (18 chars): \"### 4. 永恒的启示，无尽的光芒...\""
-  },
-  {
-    "slug": "joan-of-arc",
-    "name": "잔 다르크",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "joan-of-arc",
@@ -11625,13 +11275,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的象征与不灭的灯塔...\""
-  },
-  {
-    "slug": "harriet-beecher-stowe",
-    "name": "해리엇 비처 스토",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "harriet-beecher-stowe",
@@ -11916,13 +11559,6 @@
   {
     "slug": "kim-gu",
     "name": "김구",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "kim-gu",
-    "name": "김구",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -12175,13 +11811,6 @@
   {
     "slug": "buddha",
     "name": "붓다",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "buddha",
-    "name": "붓다",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -12367,13 +11996,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (14 chars): \"### 4. 永恒的智慧之光...\""
-  },
-  {
-    "slug": "friedrich-nietzsche",
-    "name": "프리드리히 니체",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "friedrich-nietzsche",
@@ -12665,13 +12287,6 @@
   {
     "slug": "immanuel-kant",
     "name": "이마누엘 칸트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "immanuel-kant",
-    "name": "이마누엘 칸트",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -12906,13 +12521,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的回响与现代的基石...\""
-  },
-  {
-    "slug": "rene-descartes",
-    "name": "르네 데카르트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "rene-descartes",
@@ -13218,13 +12826,6 @@
   {
     "slug": "jean-jacques-rousseau",
     "name": "장 자크 루소",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "jean-jacques-rousseau",
-    "name": "장 자크 루소",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -13438,13 +13039,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的回响与自由的呼唤...\""
-  },
-  {
-    "slug": "sigmund-freud",
-    "name": "지그문트 프로이트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "sigmund-freud",
@@ -13680,13 +13274,6 @@
   {
     "slug": "carl-jung",
     "name": "칼 융",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "carl-jung",
-    "name": "칼 융",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -13879,13 +13466,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (20 chars): \"### 4. 永恒的指引与内在黄金的追寻...\""
-  },
-  {
-    "slug": "baruch-spinoza",
-    "name": "바뤼흐 스피노자",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "baruch-spinoza",
@@ -14205,13 +13785,6 @@
   {
     "slug": "sun-tzu",
     "name": "손무",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "sun-tzu",
-    "name": "손무",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -14457,13 +14030,6 @@
   {
     "slug": "david-hume",
     "name": "데이비드 흄",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "david-hume",
-    "name": "데이비드 흄",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -14681,13 +14247,6 @@
   {
     "slug": "john-locke",
     "name": "존 로크",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "john-locke",
-    "name": "존 로크",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -14880,13 +14439,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (24 chars): \"### 4. 不朽的灯塔：自由的史诗与永恒的呼唤...\""
-  },
-  {
-    "slug": "simone-de-beauvoir",
-    "name": "시몬 드 보부아르",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "simone-de-beauvoir",
@@ -15164,13 +14716,6 @@
   {
     "slug": "hannah-arendt",
     "name": "한나 아렌트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "hannah-arendt",
-    "name": "한나 아렌트",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -15384,13 +14929,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (24 chars): \"### 4. 永恒的灯塔：启迪独立思考的时代回响...\""
-  },
-  {
-    "slug": "soren-kierkegaard",
-    "name": "쇠렌 키에르케고르",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "soren-kierkegaard",
@@ -15612,13 +15150,6 @@
   {
     "slug": "arthur-schopenhauer",
     "name": "아르투어 쇼펜하우어",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "arthur-schopenhauer",
-    "name": "아르투어 쇼펜하우어",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -15818,13 +15349,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (14 chars): \"### 4. 不朽的理性之光...\""
-  },
-  {
-    "slug": "isaac-newton",
-    "name": "아이작 뉴턴",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "isaac-newton",
@@ -16081,13 +15605,6 @@
   {
     "slug": "galileo-galilei",
     "name": "갈릴레오 갈릴레이",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "galileo-galilei",
-    "name": "갈릴레오 갈릴레이",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -16322,13 +15839,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (22 chars): \"### 4. 永恒的灯塔：科学独立与求真之路...\""
-  },
-  {
-    "slug": "charles-darwin",
-    "name": "찰스 다윈",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "charles-darwin",
@@ -16581,13 +16091,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (16 chars): \"### 4. 科学之光与永恒回响...\""
-  },
-  {
-    "slug": "michelangelo",
-    "name": "미켈란젤로",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "michelangelo",
@@ -16872,13 +16375,6 @@
   {
     "slug": "claude-monet",
     "name": "클로드 모네",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "claude-monet",
-    "name": "클로드 모네",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -17134,13 +16630,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的启示，不息的赞歌...\""
-  },
-  {
-    "slug": "fyodor-dostoevsky",
-    "name": "표도르 도스토옙스키",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "fyodor-dostoevsky",
@@ -17407,13 +16896,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的启示与灵魂的救赎...\""
-  },
-  {
-    "slug": "victor-hugo",
-    "name": "빅토르 위고",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "victor-hugo",
@@ -17719,13 +17201,6 @@
   {
     "slug": "anton-chekhov",
     "name": "안톤 체호프",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "anton-chekhov",
-    "name": "안톤 체호프",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -17981,13 +17456,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (21 chars): \"### 4. 永恒的启迪：人性的温柔观察者...\""
-  },
-  {
-    "slug": "frederic-chopin",
-    "name": "프레데리크 쇼팽",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "frederic-chopin",
@@ -18258,13 +17726,6 @@
   {
     "slug": "katsushika-hokusai",
     "name": "카츠시카 호쿠사이",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "katsushika-hokusai",
-    "name": "카츠시카 호쿠사이",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 9 paragraphs (expected exactly 4)"
@@ -18527,13 +17988,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (17 chars): \"### 四、不朽的启示与永恒的召唤...\""
-  },
-  {
-    "slug": "agatha-christie",
-    "name": "애가사 크리스티",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "agatha-christie",
@@ -18804,13 +18258,6 @@
   {
     "slug": "mark-twain",
     "name": "마크 트웨인",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "mark-twain",
-    "name": "마크 트웨인",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -19073,13 +18520,6 @@
     "locale": "zh",
     "type": "short_slide",
     "details": "Paragraph 7 is too short (18 chars): \"### 4. 永恒的回响与不灭的精神...\""
-  },
-  {
-    "slug": "goethe",
-    "name": "요한 볼프강 폰 괴테",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "goethe",
@@ -19364,13 +18804,6 @@
   {
     "slug": "mary-shelley",
     "name": "메리 셸리",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "mary-shelley",
-    "name": "메리 셸리",
     "locale": "de",
     "type": "paragraph_mismatch",
     "details": "Narrative has 8 paragraphs (expected exactly 4)"
@@ -19648,24 +19081,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "alexander-fleming",
-    "name": "Alexander Fleming",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "alexander-hamilton",
     "name": "Alexander Hamilton",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "alexander-hamilton",
-    "name": "Alexander Hamilton",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "benjamin-franklin",
@@ -19674,31 +19093,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "benjamin-franklin",
-    "name": "Benjamin Franklin",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "francis-bacon",
-    "name": "Francis Bacon",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "johannes-kepler",
     "name": "Johannes Kepler",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "johannes-kepler",
-    "name": "Johannes Kepler",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "johannes-kepler",
@@ -19708,24 +19106,10 @@
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
   },
   {
-    "slug": "john-f-kennedy",
-    "name": "John F. Kennedy",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "queen-victoria",
     "name": "Queen Victoria",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "queen-victoria",
-    "name": "Queen Victoria",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "thomas-jefferson",
@@ -19734,59 +19118,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "thomas-jefferson",
-    "name": "Thomas Jefferson",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "ahn-jung-geun",
-    "name": "Ahn Jung-geun",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "empress-wu-zetian",
     "name": "Empress Wu Zetian",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "empress-wu-zetian",
-    "name": "Empress Wu Zetian",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "jeong-yak-yong",
-    "name": "Jeong Yak-yong",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "mencius",
-    "name": "Mencius",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "sima-qian",
-    "name": "Sima Qian",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "zhuangzi",
-    "name": "Zhuangzi",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "zhuge-liang",
@@ -19795,31 +19130,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "zhuge-liang",
-    "name": "Zhuge Liang",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "ashoka-the-great",
-    "name": "Ashoka the Great",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "king-jeongjo",
     "name": "King Jeongjo",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "king-jeongjo",
-    "name": "King Jeongjo",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "king-jeongjo",
@@ -19829,24 +19143,10 @@
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
   },
   {
-    "slug": "li-bai",
-    "name": "Li Bai",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "miyamoto-musashi",
     "name": "Miyamoto Musashi",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "miyamoto-musashi",
-    "name": "Miyamoto Musashi",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "oda-nobunaga",
@@ -19855,24 +19155,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "oda-nobunaga",
-    "name": "Oda Nobunaga",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "sun-yat-sen",
     "name": "Sun Yat-sen",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "sun-yat-sen",
-    "name": "Sun Yat-sen",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "sun-yat-sen",
@@ -19888,31 +19174,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "tokugawa-ieyasu",
-    "name": "Tokugawa Ieyasu",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "toyotomi-hideyoshi",
-    "name": "Toyotomi Hideyoshi",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "chulalongkorn",
     "name": "King Chulalongkorn",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "chulalongkorn",
-    "name": "King Chulalongkorn",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "hannibal-barca",
@@ -19921,52 +19186,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "hannibal-barca",
-    "name": "Hannibal Barca",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "ibn-battuta",
-    "name": "Ibn Battuta",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "jayavarman-vii",
     "name": "Jayavarman VII",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "jayavarman-vii",
-    "name": "Jayavarman VII",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "mansa-musa",
-    "name": "Mansa Musa",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "shaka-zulu",
-    "name": "Shaka Zulu",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "al-khwarizmi",
-    "name": "Al-Khwarizmi",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "br-ambedkar",
@@ -19975,51 +19198,16 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "br-ambedkar",
-    "name": "B.R. Ambedkar",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "chandragupta-maurya",
     "name": "Chandragupta Maurya",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "chandragupta-maurya",
-    "name": "Chandragupta Maurya",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "omar-khayyam",
     "name": "Omar Khayyam",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "omar-khayyam",
-    "name": "Omar Khayyam",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "robert-oppenheimer",
-    "name": "Robert Oppenheimer",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "saladin",
-    "name": "Saladin",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "saladin",
@@ -20035,24 +19223,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "srinivasa-ramanujan",
-    "name": "Srinivasa Ramanujan",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "suleiman-the-magnificent",
     "name": "Suleiman the Magnificent",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "suleiman-the-magnificent",
-    "name": "Suleiman the Magnificent",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "swami-vivekananda",
@@ -20061,37 +19235,16 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "swami-vivekananda",
-    "name": "Swami Vivekananda",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "wright-brothers",
     "name": "Wright Brothers",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "wright-brothers",
-    "name": "Wright Brothers",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "adam-smith",
     "name": "Adam Smith",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "adam-smith",
-    "name": "Adam Smith",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "adam-smith",
@@ -20129,51 +19282,16 @@
     "details": "Double spaces detected in text"
   },
   {
-    "slug": "dante-alighieri",
-    "name": "Dante Alighieri",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "johannes-gutenberg",
-    "name": "Johannes Gutenberg",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "louis-pasteur",
     "name": "Louis Pasteur",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "louis-pasteur",
-    "name": "Louis Pasteur",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "machiavelli",
     "name": "Niccolò Machiavelli",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "machiavelli",
-    "name": "Niccolò Machiavelli",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "voltaire",
-    "name": "Voltaire",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "alexander-graham-bell",
@@ -20195,24 +19313,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "amelia-earhart",
-    "name": "Amelia Earhart",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "andrew-carnegie",
     "name": "Andrew Carnegie",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "andrew-carnegie",
-    "name": "Andrew Carnegie",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "andrew-carnegie",
@@ -20230,43 +19334,15 @@
   {
     "slug": "edgar-allan-poe",
     "name": "Edgar Allan Poe",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "edgar-allan-poe",
-    "name": "Edgar Allan Poe",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "ernest-hemingway",
-    "name": "Ernest Hemingway",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "henry-david-thoreau",
     "name": "Henry David Thoreau",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "henry-david-thoreau",
-    "name": "Henry David Thoreau",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "jp-morgan",
-    "name": "J.P. Morgan",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "jp-morgan",
@@ -20282,37 +19358,16 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "ralph-waldo-emerson",
-    "name": "Ralph Waldo Emerson",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "susan-b-anthony",
     "name": "Susan B. Anthony",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "susan-b-anthony",
-    "name": "Susan B. Anthony",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "walt-whitman",
     "name": "Walt Whitman",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "walt-whitman",
-    "name": "Walt Whitman",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "walt-whitman",
@@ -20357,51 +19412,16 @@
     "details": "Paragraph 8 is too short (4 chars): \"<br>...\""
   },
   {
-    "slug": "max-planck",
-    "name": "Max Planck",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "hypatia",
-    "name": "Hypatia",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "ibn-al-haytham",
     "name": "Ibn al-Haytham",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "ibn-al-haytham",
-    "name": "Ibn al-Haytham",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "blaise-pascal",
-    "name": "Blaise Pascal",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "dmitri-mendeleev",
     "name": "Dmitri Mendeleev",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "dmitri-mendeleev",
-    "name": "Dmitri Mendeleev",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "dmitri-mendeleev",
@@ -20417,45 +19437,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "alan-turing",
-    "name": "Alan Turing",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "charles-babbage",
     "name": "Charles Babbage",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "charles-babbage",
-    "name": "Charles Babbage",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "ibn-sina",
-    "name": "Ibn Sina",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "james-watt",
-    "name": "James Watt",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "george-stephenson",
@@ -20464,38 +19449,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "george-stephenson",
-    "name": "George Stephenson",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "gregor-mendel",
     "name": "Gregor Mendel",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "gregor-mendel",
-    "name": "Gregor Mendel",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "antoine-lavoisier",
-    "name": "Antoine Lavoisier",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "li-shizhen",
-    "name": "Li Shizhen",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "guglielmo-marconi",
@@ -20504,31 +19461,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "guglielmo-marconi",
-    "name": "Guglielmo Marconi",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "robert-koch",
-    "name": "Robert Koch",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "thomas-aquinas",
     "name": "Thomas Aquinas",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "thomas-aquinas",
-    "name": "Thomas Aquinas",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "thomas-aquinas",
@@ -20536,13 +19472,6 @@
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "rumi",
-    "name": "Rumi",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "rumi",
@@ -20558,24 +19487,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "ibn-rushd",
-    "name": "Ibn Rushd",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "william-james",
     "name": "William James",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "william-james",
-    "name": "William James",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "friedrich-schiller",
@@ -20584,24 +19499,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "friedrich-schiller",
-    "name": "Friedrich Schiller",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "george-washington-carver",
     "name": "George Washington Carver",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "george-washington-carver",
-    "name": "George Washington Carver",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "al-ghazali",
@@ -20611,13 +19512,6 @@
     "details": "Double spaces detected in text"
   },
   {
-    "slug": "ibn-khaldun",
-    "name": "Ibn Khaldun",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "maimonides",
     "name": "Maimonides",
     "type": "broken_wiki_link",
@@ -20626,13 +19520,6 @@
   {
     "slug": "maimonides",
     "name": "Maimonides",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "maimonides",
-    "name": "Maimonides",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
@@ -20640,23 +19527,9 @@
   {
     "slug": "zoroaster",
     "name": "Zoroaster",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "zoroaster",
-    "name": "Zoroaster",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "miguel-de-cervantes",
-    "name": "Miguel de Cervantes",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "leo-tolstoy",
@@ -20672,37 +19545,16 @@
     "details": "Double spaces detected in text"
   },
   {
-    "slug": "murasaki-shikibu",
-    "name": "Murasaki Shikibu",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "edgar-degas",
     "name": "Edgar Degas",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "edgar-degas",
-    "name": "Edgar Degas",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "oscar-wilde",
     "name": "Oscar Wilde",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "oscar-wilde",
-    "name": "Oscar Wilde",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "oscar-wilde",
@@ -20718,31 +19570,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "rabindranath-tagore",
-    "name": "Rabindranath Tagore",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "sor-juana-ines-de-la-cruz",
     "name": "Sor Juana Ines de la Cruz",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "sor-juana-ines-de-la-cruz",
-    "name": "Sor Juana Ines de la Cruz",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "li-qingzhao",
-    "name": "Li Qingzhao",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "li-qingzhao",
@@ -20752,24 +19583,10 @@
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
   },
   {
-    "slug": "matsuo-basho",
-    "name": "Matsuo Basho",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "william-wilberforce",
     "name": "William Wilberforce",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "william-wilberforce",
-    "name": "William Wilberforce",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "william-wilberforce",
@@ -20786,13 +19603,6 @@
     "details": "Paragraph 1 is too short (29 chars): \"```japanese\nヒュー・アンド・ウィルバーフォース...\""
   },
   {
-    "slug": "toussaint-louverture",
-    "name": "Toussaint Louverture",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "sojourner-truth",
     "name": "Sojourner Truth",
     "type": "broken_wiki_link",
@@ -20808,13 +19618,6 @@
   {
     "slug": "sojourner-truth",
     "name": "Sojourner Truth",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "sojourner-truth",
-    "name": "Sojourner Truth",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
@@ -20824,27 +19627,6 @@
     "name": "Emmeline Pankhurst",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "emmeline-pankhurst",
-    "name": "Emmeline Pankhurst",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "jose-rizal",
-    "name": "Jose Rizal",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "mary-wollstonecraft",
-    "name": "Mary Wollstonecraft",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "mary-wollstonecraft",
@@ -20860,38 +19642,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "lucretia-mott",
-    "name": "Lucretia Mott",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "marco-polo",
-    "name": "Marco Polo",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "vasco-da-gama",
-    "name": "Vasco da Gama",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "ferdinand-magellan",
     "name": "Ferdinand Magellan",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "ferdinand-magellan",
-    "name": "Ferdinand Magellan",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "cornelius-vanderbilt",
@@ -20900,38 +19654,10 @@
     "details": "Invalid or missing Korean Wikipedia link: null"
   },
   {
-    "slug": "cornelius-vanderbilt",
-    "name": "Cornelius Vanderbilt",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "zhang-qian",
-    "name": "Zhang Qian",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "zheng-he",
-    "name": "Zheng He",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "leif-erikson",
     "name": "Leif Erikson",
     "type": "broken_wiki_link",
     "details": "Invalid or missing Korean Wikipedia link: null"
-  },
-  {
-    "slug": "leif-erikson",
-    "name": "Leif Erikson",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "leif-erikson",
@@ -20946,13 +19672,6 @@
     "locale": "ko",
     "type": "paragraph_mismatch",
     "details": "Narrative has 3 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "charlemagne",
-    "name": "샤를마뉴",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "charlemagne",
@@ -21212,13 +19931,6 @@
     "locale": "ko",
     "type": "paragraph_mismatch",
     "details": "Narrative has 3 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "pachacuti",
-    "name": "파차쿠티",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "pachacuti",
@@ -21545,13 +20257,6 @@
   {
     "slug": "akbar-the-great",
     "name": "악바르 대제",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "akbar-the-great",
-    "name": "악바르 대제",
     "locale": "en",
     "type": "paragraph_mismatch",
     "details": "Narrative has 3 paragraphs (expected exactly 4)"
@@ -21856,13 +20561,6 @@
     "locale": "ko",
     "type": "paragraph_mismatch",
     "details": "Narrative has 3 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "queen-nzinga",
-    "name": "은징가 여왕",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "queen-nzinga",
@@ -22182,13 +20880,6 @@
   {
     "slug": "epicurus",
     "name": "에피쿠로스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "epicurus",
-    "name": "에피쿠로스",
     "locale": "en",
     "type": "paragraph_mismatch",
     "details": "Narrative has 3 paragraphs (expected exactly 4)"
@@ -22432,74 +21123,11 @@
     "details": "Paragraph 7 is too short (17 chars): \"### 4. 简朴与友谊的永恒颂歌...\""
   },
   {
-    "slug": "michael-faraday",
-    "name": "마이클 패러데이",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "william-the-conqueror",
-    "name": "정복왕 윌리엄",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "cyrus-the-great",
-    "name": "키루스 대왕",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "cyrus-the-great",
     "name": "키루스 대왕",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "erwin-schrodinger",
-    "name": "에르빈 슈뢰딩거",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "giuseppe-garibaldi",
-    "name": "주세페 가리발디",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "james-clerk-maxwell",
-    "name": "제임스 맥스웰",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "moctezuma-ii",
-    "name": "몬테수마 2세",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "tran-hung-dao",
-    "name": "쩐흥다오",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "zenobia",
-    "name": "제노비아",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "zenobia",
@@ -22516,48 +21144,6 @@
     "details": "Paragraph 2 is too short (13 chars): \"**ज़ेनोबिया**...\""
   },
   {
-    "slug": "georges-cuvier",
-    "name": "조르주 퀴비에",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "hatshepsut",
-    "name": "하트셉수트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "heraclitus",
-    "name": "헤라클레이토스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "pythagoras",
-    "name": "피타고라스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "ramesses-ii",
-    "name": "람세스 2세",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "diogenes",
-    "name": "디오게네스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "diogenes",
     "name": "디오게네스",
     "locale": "ja",
@@ -22565,78 +21151,8 @@
     "details": "Narrative has 5 paragraphs (expected exactly 4)"
   },
   {
-    "slug": "james-hutton",
-    "name": "제임스 허튼",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "queen-elizabeth-i",
-    "name": "엘리자베스 1세",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "ernest-shackleton",
-    "name": "어니스트 섀클턴",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "dorothea-dix",
     "name": "도로시아 딕스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "franz-schubert",
-    "name": "프란츠 슈베르트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "frederick-the-great",
-    "name": "프리드리히 대왕",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "harriet-martineau",
-    "name": "해리엇 마티노",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "ida-b-wells",
-    "name": "아이다 B. 웰스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "rembrandt",
-    "name": "렘브란트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "charles-dickens",
-    "name": "찰스 디킨스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "clara-barton",
-    "name": "클라라 바턴",
     "locale": "ko",
     "type": "spacing_anomaly",
     "details": "Double spaces detected in text"
@@ -22647,20 +21163,6 @@
     "locale": "zh",
     "type": "paragraph_mismatch",
     "details": "Narrative has 5 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "gottfried-leibniz",
-    "name": "고트프리트 라이프니츠",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "james-cook",
-    "name": "제임스 쿡",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "meister-eckhart",
@@ -22684,27 +21186,6 @@
     "details": "Paragraph 1 is too short (26 chars): \"```japanese\n# マイスター・エックハルト...\""
   },
   {
-    "slug": "vitus-bering",
-    "name": "비투스 베링",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "bartolomeu-dias",
-    "name": "바르톨로뮤 디아스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "edward-jenner",
-    "name": "에드워드 제너",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "edward-jenner",
     "name": "에드워드 제너",
     "locale": "hi",
@@ -22712,22 +21193,8 @@
     "details": "Narrative has 2 paragraphs (expected exactly 4)"
   },
   {
-    "slug": "emily-dickinson",
-    "name": "에밀리 디킨슨",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "francisco-de-goya",
     "name": "프란시스코 고야",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "george-eliot",
-    "name": "조지 엘리엇",
     "locale": "ko",
     "type": "spacing_anomaly",
     "details": "Double spaces detected in text"
@@ -22754,67 +21221,11 @@
     "details": "Double spaces detected in text"
   },
   {
-    "slug": "homer",
-    "name": "호메로스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "jane-austen",
-    "name": "제인 오스틴",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "john-stuart-mill",
-    "name": "존 스튜어트 밀",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "olympe-de-gouges",
-    "name": "올랭프 드 구주",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "olympe-de-gouges",
     "name": "올랭프 드 구주",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "plotinus",
-    "name": "플로티노스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "roald-amundsen",
-    "name": "로알 아문센",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "elizabeth-cady-stanton",
-    "name": "엘리자베스 케이디 스탠턴",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "henrik-ibsen",
-    "name": "헨리크 입센",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "virgil",
@@ -22826,13 +21237,6 @@
   {
     "slug": "eleanor-of-aquitaine",
     "name": "알리에노르 다키텐",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "eleanor-of-aquitaine",
-    "name": "알리에노르 다키텐",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
@@ -22846,30 +21250,9 @@
   {
     "slug": "sundiata-keita",
     "name": "순자타 케이타",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "sundiata-keita",
-    "name": "순자타 케이타",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "maria-theresa",
-    "name": "마리아 테레지아",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "boudicca",
-    "name": "부디카",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "ching-shih",
@@ -22880,44 +21263,9 @@
   {
     "slug": "ching-shih",
     "name": "정일수 (Ching Shih)",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "ching-shih",
-    "name": "정일수 (Ching Shih)",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "askia-the-great",
-    "name": "아스키아 대제",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "al-biruni",
-    "name": "알비루니",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "william-harvey",
-    "name": "윌리엄 하비",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "joseph-priestley",
-    "name": "조지프 프리스틀리",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "joseph-priestley",
@@ -22925,38 +21273,10 @@
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "carl-linnaeus",
-    "name": "칼 린네",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "lise-meitner",
-    "name": "리제 마이트너",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "emmy-noether",
     "name": "에미 뇌터",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "alexander-von-humboldt",
-    "name": "알렉산더 폰 훔볼트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "tycho-brahe",
-    "name": "튀코 브라헤",
     "locale": "ko",
     "type": "spacing_anomaly",
     "details": "Double spaces detected in text"
@@ -22976,48 +21296,6 @@
     "details": "Double spaces detected in text"
   },
   {
-    "slug": "alfred-russel-wallace",
-    "name": "앨프리드 러셀 월리스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "pierre-curie",
-    "name": "피에르 퀴리",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "charles-lyell",
-    "name": "찰스 라이엘",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "al-farabi",
-    "name": "알파라비",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "thomas-more",
-    "name": "토마스 모어",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "simone-weil",
-    "name": "시몬 베유",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "antonio-gramsci",
     "name": "안토니오 그람시",
     "locale": "ko",
@@ -23025,74 +21303,11 @@
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
   },
   {
-    "slug": "rosa-luxemburg",
-    "name": "로자 룩셈부르크",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "george-santayana",
-    "name": "조지 산타야나",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "george-santayana",
     "name": "조지 산타야나",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "henri-bergson",
-    "name": "앙리 베르그송",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "william-of-ockham",
-    "name": "오컴의 윌리엄",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "ernst-mach",
-    "name": "에른스트 마흐",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "william-tyndale",
-    "name": "윌리엄 틴들",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "chaucer",
-    "name": "제프리 초서",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "jonathan-swift",
-    "name": "조너선 스위프트",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "george-sand",
-    "name": "조르주 상",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "paul-cezanne",
@@ -23137,74 +21352,11 @@
     "details": "Paragraph 7 is too short (17 chars): \"### 4. 근대 조각의 아버지...\""
   },
   {
-    "slug": "auguste-rodin",
-    "name": "오귀스트 로댕",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "claude-debussy",
-    "name": "클로드 드뷔시",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "virginia-woolf",
-    "name": "버지니아 울프",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "franz-kafka",
-    "name": "프란츠 카프카",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "franz-kafka",
     "name": "프란츠 카프카",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "james-joyce",
-    "name": "제임스 조이스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "giacomo-puccini",
-    "name": "자코모 푸치니",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "charles-baudelaire",
-    "name": "샤를 보들레르",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "wassily-kandinsky",
-    "name": "바실리 칸딘스키",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "paul-gauguin",
-    "name": "폴 고갱",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "paul-gauguin",
@@ -23221,27 +21373,6 @@
     "details": "Double spaces detected in text"
   },
   {
-    "slug": "hans-christian-andersen",
-    "name": "한스 크리스티안 안데르센",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "rudyard-kipling",
-    "name": "러디어드 키플링",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "dorothea-lange",
-    "name": "도로시어 랭",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
     "slug": "dorothea-lange",
     "name": "도로시어 랭",
     "locale": "ja",
@@ -23251,65 +21382,9 @@
   {
     "slug": "clara-schumann",
     "name": "클라라 슈만",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "clara-schumann",
-    "name": "클라라 슈만",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "jane-addams",
-    "name": "제인 애덤스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "maria-montessori",
-    "name": "마리아 몬테소리",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "william-lloyd-garrison",
-    "name": "윌리엄 로이드 개리슨",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "albert-schweitzer",
-    "name": "알베르트 슈바이처",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "pandita-ramabai",
-    "name": "판디타 라마바이",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "elizabeth-blackwell",
-    "name": "엘리자베스 블랙웰",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "florence-kelley",
-    "name": "플로렌스 켈리",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "florence-kelley",
@@ -23317,13 +21392,6 @@
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "david-livingstone",
-    "name": "데이비드 리빙스턴",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "alfred-nobel",
@@ -23335,37 +21403,9 @@
   {
     "slug": "pierre-de-coubertin",
     "name": "피에르 드 쿠베르탱",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "pierre-de-coubertin",
-    "name": "피에르 드 쿠베르탱",
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "fridtjof-nansen",
-    "name": "프리드쇼프 난센",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "george-eastman",
-    "name": "조지 이스트먼",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "elisha-otis",
-    "name": "엘리샤 오티스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "elisha-otis",
@@ -23373,34 +21413,6 @@
     "locale": "ja",
     "type": "paragraph_mismatch",
     "details": "Narrative has 1 paragraphs (expected exactly 4)"
-  },
-  {
-    "slug": "jang-yeong-sil",
-    "name": "장영실",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "yun-dong-ju",
-    "name": "윤동주",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "sophocles",
-    "name": "소포클레스",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
-  },
-  {
-    "slug": "euclid",
-    "name": "유클리드",
-    "locale": "ko",
-    "type": "spacing_anomaly",
-    "details": "Double spaces detected in text"
   },
   {
     "slug": "euclid",

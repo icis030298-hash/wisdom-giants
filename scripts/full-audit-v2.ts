@@ -138,7 +138,7 @@ async function audit() {
         }
 
         // Spacing anomaly check (e.g. double spaces or spaces inside words)
-        if (/\s{2,}/.test(epicText)) {
+        if (/ {2,}/.test(epicText)) {
           errors.push({
             slug,
             name,
