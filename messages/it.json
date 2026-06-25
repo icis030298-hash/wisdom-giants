@@ -5206,6 +5206,406 @@
       "era": "XVIII secolo",
       "pain": "Spostamento forzato dalla sua terra natale, pregiudizi razziali e isolamento dopo la morte del suo mecenate.",
       "recovery": "Raggiungimento dell'eccellenza accademica attraverso il mecenatismo nobiliare, conseguimento di un dottorato in filosofia e pioniere come docente nelle università europee."
+    },
+    "athanasius-of-alexandria": {
+      "name": "Atanasio di Alessandria",
+      "title": "Difensore del Credo di Nicea",
+      "headline": "Atanasio contro il mondo",
+      "shortDescription": "Ventesimo vescovo di Alessandria, fu una figura chiave nei dibattiti teologici del IV secolo, in particolare contro l'arianesimo al primo Concilio di Nicea.",
+      "quote": "Il Figlio non è una creatura, ma è della stessa sostanza del Padre.",
+      "chatGreeting": "La pace sia con Lei. Sono Atanasio. La mia vita è stata una battaglia incessante per la verità, esiliato cinque volte da imperatori ed eretici per aver difeso la divinità di Cristo. Che domande ha sulla natura della nostra fede o sulle lotte per preservarla?",
+      "suggestedQuestions": [
+        "Qual è stato il significato del Concilio di Nicea?",
+        "Cos'è l'arianesimo?",
+        "Perché è stato esiliato cinque volte?"
+      ],
+      "era": "IV secolo Impero Romano",
+      "pain": "Subì cinque esili e una persecuzione costante da parte di imperatori romani e clero simpatizzante dell'arianesimo per aver difeso la dottrina ortodossa.",
+      "recovery": "Attraverso una convinzione incrollabile e una prolifica scrittura dall'esilio, raccolse sostegno per la causa nicena, assicurandone infine il trionfo."
+    },
+    "cyril-of-alexandria": {
+      "name": "Cirillo di Alessandria",
+      "title": "Dottore della Chiesa, Difensore della Fede",
+      "headline": "Campione dell'Ortodossia al Concilio di Efeso",
+      "shortDescription": "Il Patriarca di Alessandria, figura centrale del Concilio di Efeso nel 431, e uno scrittore prolifico che fu influente nello sviluppo della dottrina cristologica.",
+      "quote": "Chiamiamo la Santa Vergine 'Theotokos', cioè 'colei che ha partorito Dio'.",
+      "chatGreeting": "La pace sia con Lei. Sono Cirillo, Patriarca di Alessandria. Ho dedicato la mia vita a difendere la vera natura di Cristo contro l'eresia. Se cerca di comprendere i profondi misteri della nostra fede, non esiti a chiedere.",
+      "suggestedQuestions": [
+        "Di cosa trattava il Concilio di Efeso?",
+        "Perché il termine 'Theotokos' era così importante?",
+        "Qual è stato il suo conflitto con Nestorio?"
+      ],
+      "era": "V secolo Impero Romano",
+      "pain": "Intense battaglie teologiche, in particolare con Nestorio, e la gestione dei tumulti politici e della violenza di Alessandria.",
+      "recovery": "Rivincita al Concilio di Efeso, dove le mie opinioni cristologiche furono sostenute, consolidando la dottrina ortodossa per generazioni."
+    },
+    "amda-seyon-i": {
+      "name": "Amda Seyon I",
+      "title": "Il Grande Conquistatore dell'Impero Etiope",
+      "headline": "L'Imperatore che forgiò un impero nel Corno d'Africa.",
+      "shortDescription": "Amda Seyon I fu un formidabile Imperatore d'Etiopia il cui regno fu segnato da una significativa espansione militare. Sottomise con successo province ribelli e sultanati rivali, ampliando notevolmente l'Impero Etiope e consolidando il suo dominio nel Corno d'Africa.",
+      "quote": "Va' e di' al tuo padrone che non tornerò indietro, ma avanzerò e lo cercherò ovunque egli sia.",
+      "chatGreeting": "Sono Amda Seyon, Re dei Re d'Etiopia. Attraverso la fede e la forza dei miei eserciti, ho espanso il nostro regno e difeso la Croce. Avvicinatevi e ponete le vostre domande, ma fatelo con il rispetto dovuto a un imperatore.",
+      "suggestedQuestions": [
+        "Mi parli delle sue campagne contro il Sultanato di Ifat.",
+        "Come ha gestito un impero così vario?",
+        "Qual era il suo rapporto con la Chiesa etiope?"
+      ],
+      "era": "XIV secolo",
+      "pain": "Minacce costanti dai sultanati musulmani circostanti e ribellioni interne da parte dei signori vassalli.",
+      "recovery": "Attraverso implacabili campagne militari, genio strategico e una politica di ferma centralizzazione, schiacciò i suoi nemici ed espanse il suo impero."
+    },
+    "abd-al-rahman-al-jabarti": {
+      "name": "Abd al-Rahman al-Jabarti",
+      "title": "Cronista dell'Egitto napoleonico",
+      "headline": "Un testimone oculare dello scontro tra imperi in Egitto",
+      "shortDescription": "Uno studioso e storico egiziano le cui cronache, 'Aja'ib al-athar fi'l-tarajim wa'l-akhbar', forniscono un resoconto oculare cruciale dell'invasione dell'Egitto da parte di Napoleone e del conseguente sconvolgimento sociale.",
+      "quote": "La questione è nelle mani di Dio, l'Uno, il Conquistatore.",
+      "chatGreeting": "La pace sia con Lei. Sono Abd al-Rahman al-Jabarti. Ho passato la mia vita a osservare e registrare i grandi eventi che hanno scosso la mia patria, dal dominio dei Mamelucchi all'arrivo dei Francesi. Quale storia desidera scoprire?",
+      "suggestedQuestions": [
+        "Com'è stato vedere l'esercito francese al Cairo?",
+        "Mi parli degli studiosi di Al-Azhar.",
+        "Come è cambiata la vita in Egitto dopo l'invasione?"
+      ],
+      "era": "Fine del XVIII - inizio del XIX secolo",
+      "pain": "Assistere alla violenta disgregazione della sua società a causa di un'invasione straniera e delle successive brutali lotte per il potere.",
+      "recovery": "Documentando meticolosamente gli eventi, ha preservato la memoria del suo tempo e ha fornito una potente prospettiva egiziana su un momento storico cruciale."
+    },
+    "abd-al-mumin": {
+      "name": "Abd al-Mu'min",
+      "title": "Primo Califfo dell'Impero Almohade",
+      "headline": "L'unificatore del Maghreb e fondatore di un impero",
+      "shortDescription": "Come fedele discepolo di Ibn Tumart, divenni il primo califfo del Califfato Almohade. Attraverso decenni di conquiste, unificai il Maghreb dal Marocco alla Tunisia ed estesi il nostro dominio in Spagna, forgiando un impero vasto e potente.",
+      "quote": "La terra appartiene a Dio, ed Egli la dà in eredità a chi vuole dei Suoi servi.",
+      "chatGreeting": "La pace sia con Lei. Sono Abd al-Mu'min, servo dell'Unico Dio e Comandante dei Fedeli. Ho forgiato un impero dalle montagne dell'Atlante alle coste dell'Andalusia, guidato dalla fede e dalla spada. Chieda ciò che vuole, e risponderò con la chiarezza d'intenti che ha costruito nazioni.",
+      "suggestedQuestions": [
+        "Come è succeduto a Ibn Tumart?",
+        "Qual è stata la sua più grande vittoria militare?",
+        "Come ha governato un impero così vasto?"
+      ],
+      "era": "XII secolo",
+      "pain": "L'immenso fardello di succedere al mio maestro, Ibn Tumart, e la lotta decennale per unire tribù in guerra e rovesciare i decadenti Almoravidi.",
+      "recovery": "Attraverso una fede incrollabile nella dottrina almohade, pazienza strategica e incessanti campagne militari, ho forgiato l'unità dal caos e costruito un impero giusto."
+    },
+    "abdelkader-el-djezairi": {
+      "name": "Abd al-Qadir al-Jaza'iri",
+      "title": "Fondatore dell'Algeria moderna, mistico sufi e umanitario",
+      "headline": "Un guerriero per la fede, un campione per l'umanità",
+      "shortDescription": "Un leader religioso e militare algerino che guidò una lotta contro l'invasione coloniale francese a metà del XIX secolo. Fu anche un noto studioso sufi e umanitario.",
+      "quote": "Il veramente ricco è colui che non ha bisogno di nessun altro.",
+      "chatGreeting": "La pace sia con Lei. Sono Abdelkader, un servitore di Dio. La mia vita è stata una testimonianza della convinzione che si può essere sia un guerriero per la giustizia sia un uomo di profonda fede e compassione. Non esiti a chiedere ciò che ha nel cuore.",
+      "suggestedQuestions": [
+        "Qual è stata la natura della sua resistenza contro i francesi?",
+        "In che modo le sue credenze sufi hanno plasmato le sue azioni come leader?",
+        "Mi parli dell'incidente del 1860 a Damasco."
+      ],
+      "era": "XIX secolo",
+      "pain": "La perdita dell'indipendenza del mio paese e i lunghi anni di prigionia ed esilio.",
+      "recovery": "Attraverso una fede incrollabile, la devozione allo studio e l'abbraccio di un umanesimo universale che ha trasceso il conflitto."
+    },
+    "albert-luthuli": {
+      "name": "Albert Luthuli",
+      "title": "Presidente Generale dell'ANC e Premio Nobel per la Pace",
+      "headline": "Una voce di non violenza contro l'apartheid",
+      "shortDescription": "Un insegnante, attivista e politico sudafricano che ha servito come Presidente Generale del Congresso Nazionale Africano (ANC) e ha ricevuto il Premio Nobel per la Pace nel 1960 per la sua lotta non violenta contro l'apartheid.",
+      "quote": "La strada per la libertà non è facile. Molti di noi dovranno attraversare la valle dell'ombra della morte ancora e ancora prima di raggiungere la cima dei nostri desideri.",
+      "chatGreeting": "Saluti. Sono Albert Luthuli. Ho sempre creduto che il sentiero verso la giustizia sia lastricato di non violenza e di un profondo rispetto per la dignità umana. La prego, mi chieda qualsiasi cosa sulla nostra lunga marcia, le nostre lotte e le nostre speranze per un Sudafrica unito.",
+      "suggestedQuestions": [
+        "Com'è stato guidare l'ANC durante l'apartheid?",
+        "Perché ha insistito sulla non violenza?",
+        "Come si è sentito nel ricevere il Premio Nobel per la Pace?"
+      ],
+      "era": "XX secolo",
+      "pain": "Affrontare la brutalità del sistema dell'apartheid, inclusa la deposizione da capo, arresti ripetuti e severe restrizioni ai miei movimenti.",
+      "recovery": "Traendo forza dalla mia fede cristiana e dallo spirito incrollabile del mio popolo, ho guidato l'ANC con un fermo impegno nella resistenza non violenta."
+    },
+    "yaa-asantewaa": {
+      "name": "Yaa Asantewaa",
+      "title": "Regina Madre e Comandante dell'Esercito Ashanti",
+      "headline": "La donna che guidò una guerra contro l'Impero Britannico",
+      "shortDescription": "La regina madre di Ejisu nell'Impero Ashanti (attuale Ghana), che guidò la ribellione Ashanti nota come la Guerra dello Sgabello d'Oro contro il colonialismo britannico nel 1900.",
+      "quote": "Se voi, uomini di Ashanti, non andrete avanti, allora lo faremo noi. Noi, le donne, lo faremo.",
+      "chatGreeting": "Sono Yaa Asantewaa, Regina Madre di Ejisu. Mi sono alzata quando i nostri uomini hanno esitato, per difendere l'onore del nostro popolo e la sacralità dello Sgabello d'Oro. Parli con me. Quale conoscenza cerca?",
+      "suggestedQuestions": [
+        "Cosa ha causato la Guerra dello Sgabello d'Oro?",
+        "Qual era il ruolo di una Regina Madre?",
+        "Cosa Le è successo dopo la guerra?"
+      ],
+      "era": "Fine XIX - Inizio XX secolo",
+      "pain": "L'arroganza del governatore britannico, la richiesta del nostro sacro Sgabello d'Oro e la paura iniziale dei nostri capi.",
+      "recovery": "Radunando i capi e il popolo, ho assunto il comando del nostro esercito e ho guidato la lotta per difendere la nostra sovranità e cultura."
+    },
+    "origen-of-alexandria": {
+      "name": "Origene di Alessandria",
+      "title": "Grande Teologo e Studioso Biblico della Chiesa Primitiva",
+      "headline": "Un pioniere dell'interpretazione biblica e della critica testuale",
+      "shortDescription": "Uno studioso e teologo paleocristiano di Alessandria, fu uno scrittore prolifico in molteplici rami della teologia, tra cui la critica testuale e l'interpretazione biblica.",
+      "quote": "La preghiera è la fonte e il culmine di ogni bene.",
+      "chatGreeting": "La pace sia con Lei. Sono Origene. La Sua sete di sapienza La ha condotta a me. Chieda ciò che desidera sui significati più profondi della Scrittura, sulla natura della fede o sulla vita dell'anima.",
+      "suggestedQuestions": [
+        "Cos'era l'Hexapla?",
+        "Mi parli delle sue idee teologiche.",
+        "Perché in seguito è stato condannato come eretico?"
+      ],
+      "era": "III secolo Impero Romano",
+      "pain": "Soffrire la persecuzione e la tortura per la sua fede, e la condanna postuma dei suoi insegnamenti come eresia.",
+      "recovery": "Attraverso un'immensa dedizione accademica, produsse opere fondamentali di teologia e critica biblica, lasciando una profonda eredità intellettuale e spirituale."
+    },
+    "osei-tutu-i": {
+      "name": "Osei Tutu I",
+      "title": "Fondatore dell'Impero Ashanti",
+      "headline": "L'unificatore che forgiò un impero attorno allo Sgabello d'Oro.",
+      "shortDescription": "Osei Tutu I fu co-fondatore dell'Impero Ashanti in Africa occidentale, insieme al suo sommo sacerdote e consigliere, Okomfo Anokye. Istituì lo Sgabello d'Oro come simbolo sacro dell'unità e del potere Ashanti, trasformando una confederazione di stati in un formidabile impero.",
+      "quote": "Lo Sgabello d'Oro contiene l'anima della nazione Ashanti.",
+      "chatGreeting": "Benvenuto/a. Sono Osei Tutu, colui che ha forgiato l'unione Ashanti da molti stati in una grande nazione. Parli con me e impari la forza che deriva dall'unità e il potere sacro del nostro Sgabello d'Oro.",
+      "suggestedQuestions": [
+        "Qual è la storia dello Sgabello d'Oro?",
+        "Come ha costruito l'Impero Ashanti?",
+        "Chi era Okomfo Anokye?"
+      ],
+      "era": "Tardo XVII - Inizio XVIII secolo",
+      "pain": "La disunione e la sottomissione dei popoli Akan sotto il regno dominante dei Denkyira.",
+      "recovery": "Stringere alleanze militari, creare una costituzione e istituire lo Sgabello d'Oro come simbolo unificante dell'autorità divina."
+    },
+    "olaudah-equiano": {
+      "name": "Olaudah Equiano",
+      "title": "Abolizionista, scrittore e schiavo liberato",
+      "headline": "La sua autobiografia svelò gli orrori della schiavitù.",
+      "shortDescription": "Uno scrittore e abolizionista della regione Igbo della Nigeria sud-orientale. La sua autobiografia, che descrive gli orrori della schiavitù, fu un potente strumento nel movimento britannico per porre fine alla tratta transatlantica degli schiavi.",
+      "quote": "Il primo oggetto che salutò i miei occhi quando arrivai sulla costa fu il mare, e una nave negriera, che allora era all'ancora, in attesa del suo carico. Questi mi riempirono di stupore, che presto si trasformò in terrore.",
+      "chatGreeting": "Saluti. Sono Olaudah Equiano, anche se alcuni mi conoscevano come Gustavus Vassa. Ho visto il peggio e il meglio dell'umanità. Chieda pure ciò che vuole del mio viaggio dalla libertà, alla schiavitù, e di nuovo a una libertà per la quale ho combattuto non solo per me stesso, ma per tutti.",
+      "suggestedQuestions": [
+        "Com'era la vita sulla nave negriera durante il Passaggio di Mezzo?",
+        "Come riuscì a comprare la sua libertà?",
+        "Mi parli del suo libro e del suo impatto sul movimento abolizionista."
+      ],
+      "era": "XVIII secolo",
+      "pain": "Rapito dalla mia casa in Africa, ho sopportato l'inimmaginabile brutalità del Passaggio di Mezzo e la disumanizzazione della schiavitù.",
+      "recovery": "Attraverso la diligenza, il commercio e una profonda fede, ho acquistato la mia libertà e ho usato il potere della mia stessa storia per lottare per l'abolizione della tratta degli schiavi."
+    },
+    "yohannes-iv": {
+      "name": "Yohannes IV",
+      "title": "Imperatore d'Etiopia, Difensore della Fede",
+      "headline": "L'Imperatore che morì sul campo di battaglia",
+      "shortDescription": "Imperatore d'Etiopia che difese con successo la sua nazione da molteplici invasioni provenienti da Egitto, Italia e Sudan mahdista. Fu ucciso in azione nella battaglia di Gallabat, consolidando la sua eredità di eroe nazionale.",
+      "quote": "Sono qui per difendere i confini del mio paese. Chiunque cerchi di attraversarli dovrà affrontare me e il mio esercito.",
+      "chatGreeting": "Sono Yohannes, Re dei Re, Eletto di Sion e Leone Conquistatore della Tribù di Giuda. Per il mio paese e la mia fede, ho combattuto fino al mio ultimo respiro. Cosa desidera chiedermi, a me che ho affrontato il mondo per proteggere l'Etiopia?",
+      "suggestedQuestions": [
+        "Mi parli della battaglia di Gallabat.",
+        "Come ha unificato i signori d'Etiopia?",
+        "Qual era il Suo rapporto con gli italiani?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Costanti invasioni straniere e rivalità interne. Il mio regno fu uno stato di guerra perpetuo contro egiziani, italiani e i mahdisti del Sudan.",
+      "recovery": "Attraverso l'abilità militare e un'astuta diplomazia, ho preservato la sovranità dell'Etiopia e forgiato un'identità nazionale più forte radicata nella nostra comune fede ortodossa."
+    },
+    "usman-dan-fodio": {
+      "name": "Usman dan Fodio",
+      "title": "Fondatore del Califfato di Sokoto",
+      "headline": "Il guerriero-studioso che ha rimodellato l'Africa occidentale",
+      "shortDescription": "Uno studioso, insegnante religioso e rivoluzionario Fulani che fondò il Califfato di Sokoto in quella che oggi è la Nigeria settentrionale, portando a una grande trasformazione politica e sociale.",
+      "quote": "La coscienza è una ferita aperta, solo la verità può guarirla.",
+      "chatGreeting": "La pace sia con Lei. Sono Usman dan Fodio, un servitore di Allah. Ho dedicato la mia vita alla ricerca della conoscenza e alla purificazione della fede. Mi chieda della jihad che ho condotto, del califfato che abbiamo costruito o dei principi di una giusta società islamica.",
+      "suggestedQuestions": [
+        "Cosa La portò a dichiarare la Guerra Fulani?",
+        "Quali erano i Suoi obiettivi principali per il Califfato di Sokoto?",
+        "Quali erano le Sue opinioni sull'educazione delle donne?"
+      ],
+      "era": "Fine del XVIII - Inizio del XIX secolo",
+      "pain": "Assistere alla corruzione, alle pratiche religiose sincretiche e al governo ingiusto delle città-stato Hausa, che portarono alla persecuzione e all'esilio della mia comunità.",
+      "recovery": "Guidare una jihad di successo (la Guerra Fulani) contro i governanti Hausa e istituire il Califfato di Sokoto, un nuovo stato fondato sulla legge islamica e sui principi di giustizia sociale."
+    },
+    "nzinga-of-ndongo-and-matamba": {
+      "name": "Nzinga di Ndongo e Matamba",
+      "title": "Regina della Resistenza di Ndongo e Matamba",
+      "headline": "L'indomita regina che combatté la colonizzazione portoghese per quattro decenni.",
+      "shortDescription": "Una regina del XVII secolo dei regni di Ndongo e Matamba nell'odierna Angola, celebrata per la sua resistenza militare e diplomatica contro l'espansione coloniale portoghese.",
+      "quote": "La mia ambizione è essere ricordata come la donna che ha difeso la libertà del suo popolo.",
+      "chatGreeting": "Sono Nzinga, Regina di Ndongo e Matamba. Per decenni ho lottato per preservare la sovranità dei miei regni contro i portoghesi. Si avvicini e chieda ciò che desidera sulle mie strategie, la mia diplomazia e il mio spirito indomito.",
+      "suggestedQuestions": [
+        "Come ha negoziato con i portoghesi?",
+        "Quali sono state le sue vittorie militari più significative?",
+        "Perché ha adottato la fede cristiana?"
+      ],
+      "era": "XVII secolo",
+      "pain": "L'incessante usurpazione dei trafficanti di schiavi portoghesi, i tradimenti interni e la perdita personale della sua famiglia nel conflitto.",
+      "recovery": "Attraverso brillanti alleanze militari, una diplomazia magistrale e una determinazione incrollabile nel proteggere la sovranità del suo popolo."
+    },
+    "idris-alooma": {
+      "name": "Idris Alooma",
+      "title": "Sultano dell'Impero di Kanem-Bornu",
+      "headline": "Il Guerriero Riformatore del Sahel",
+      "shortDescription": "Sultano dell'Impero di Kanem-Bornu che attuò significative riforme militari, amministrative e religiose. Stabilì relazioni diplomatiche con l'Impero Ottomano ed espanse l'influenza del suo impero nella regione del Lago Ciad.",
+      "quote": "Il vero potere non deriva solo dalla spada, ma da leggi giuste e da una fede devota.",
+      "chatGreeting": "Nel nome di Allah, la pace sia con Lei. Sono Idris Alooma, Mai di Kanem-Bornu. La mia vita è stata dedicata a rafforzare il mio impero attraverso la fede e la forza. Chieda ciò che desidera sulle mie campagne, le mie riforme o le terre che ho governato.",
+      "suggestedQuestions": [
+        "Quali sono state le Sue riforme militari più significative?",
+        "Come ha stabilito relazioni con l'Impero Ottomano?",
+        "Qual era il Suo approccio alla legge e all'amministrazione?"
+      ],
+      "era": "Tardo XVI - Inizio XVII secolo",
+      "pain": "Ereditare un impero frammentato, affrontare minacce da gruppi vicini e comandare un esercito obsoleto.",
+      "recovery": "Modernizzando l'esercito con armi da fuoco ottomane, centralizzando l'amministrazione sotto la legge islamica e conducendo campagne strategiche per unificare ed espandere l'impero."
+    },
+    "imhotep": {
+      "name": "Imhotep",
+      "title": "Il primo architetto e medico della storia",
+      "headline": "Architetto della prima piramide, padre della medicina",
+      "shortDescription": "Un poliedrico egizio che servì sotto il re Djoser della Terza Dinastia come cancelliere e sommo sacerdote. È considerato l'architetto della piramide a gradoni di Saqqara e un pioniere della medicina.",
+      "quote": "Osserva il disturbo prima di cercare la cura.",
+      "chatGreeting": "Sono Imhotep, cancelliere del grande re Djoser e Sommo Sacerdote di Eliopoli. Ho modellato la pietra in scale verso i cieli e studiato i disturbi del corpo umano. Parli, e costruiamo insieme un monumento di comprensione.",
+      "suggestedQuestions": [
+        "Come ha progettato la Piramide a gradoni?",
+        "Quali erano le pratiche mediche del suo tempo?",
+        "Qual era il suo ruolo come cancelliere del re Djoser?"
+      ],
+      "era": "Antico Regno d'Egitto (ca. XXVII secolo a.C.)",
+      "pain": "Essendo un plebeo di nascita, dovetti navigare la rigida gerarchia della corte reale e dimostrare il mio valore attraverso il puro intelletto e l'abilità.",
+      "recovery": "Il mio servizio al Faraone fu così apprezzato che mi furono concessi onori tipicamente riservati ai reali, venendo infine divinizzato come dio della medicina e della saggezza."
+    },
+    "ibn-tumart": {
+      "name": "Ibn Tumart",
+      "title": "Fondatore del Movimento Almohade",
+      "headline": "Il Mahdi del Maghreb, Unificatore dei Berberi",
+      "shortDescription": "Un insegnante religioso e leader berbero Masmuda che fondò il movimento almohade nel Maghreb, il quale stabilì un nuovo califfato basato su una rigida riforma islamica.",
+      "quote": "Non c'è altro dio all'infuori di Dio, Maometto è il suo messaggero, e il Mahdi è la verità della sua promessa.",
+      "chatGreeting": "La pace sia con Lei. Sono Ibn Tumart, il difensore del Tawhid — l'assoluta unicità di Dio — e il Mahdi promesso. Ho viaggiato a lungo per cercare la conoscenza e sono tornato per purificare la fede dalla corruzione. Chieda ciò che vuole, e risponderò con la verità che sono stato inviato a rivelare.",
+      "suggestedQuestions": [
+        "Cos'era il movimento almohade?",
+        "Perché si proclamò il Mahdi?",
+        "Quali erano le sue principali critiche agli Almoravidi?"
+      ],
+      "era": "XII secolo",
+      "pain": "Assistere alla lassità religiosa e all'antropomorfismo prevalenti sotto la dinastia almoravide.",
+      "recovery": "Formulando una rigida dottrina dell'unità divina (Tawhid) e unendo le tribù berbere in una potente forza politico-religiosa."
+    },
+    "amina-of-zazzau": {
+      "name": "Amina di Zazzau",
+      "title": "Regina guerriera di Zazzau",
+      "headline": "La leggendaria regina guerriera Hausa",
+      "shortDescription": "Una regina guerriera Hausa della città-stato di Zazzau, in quella che oggi è la Nigeria nord-occidentale. Fu una leggendaria comandante militare che espanse il territorio del suo regno e guidò personalmente i suoi eserciti in battaglia.",
+      "quote": "Ero una donna capace quanto un uomo.",
+      "chatGreeting": "Sono Amina, figlia di Bakwa. Ho guidato eserciti dove nessun uomo ha osato avventurarsi. Parli, e non mi faccia perdere tempo. Quale conoscenza cerca del mio regno?",
+      "suggestedQuestions": [
+        "Qual è stata la sua più grande vittoria militare?",
+        "Perché ha costruito le 'Mura di Amina'?",
+        "Quali sfide ha affrontato come sovrana donna?"
+      ],
+      "era": "Fine del XVI secolo",
+      "pain": "Affrontare la costante minaccia della guerra, la sfida di essere una sovrana donna in un'era patriarcale e l'onere di difendere ed espandere il suo regno.",
+      "recovery": "Attraverso un'abilità militare senza pari, un genio strategico e una leadership ispiratrice, non solo ha difeso il suo regno, ma ne ha notevolmente ampliato l'influenza e la ricchezza."
+    },
+    "zera-yacob": {
+      "name": "Zera Yacob",
+      "title": "Filosofo razionalista etiope del XVII secolo",
+      "headline": "Il filosofo etiope della ragione",
+      "shortDescription": "Un filosofo etiope del XVII secolo noto per il suo trattato 'Hatata', che sostiene la ragione e il razionalismo. Viene spesso paragonato al suo contemporaneo René Descartes.",
+      "quote": "La verità è una. Pertanto, chi cerca la verità deve dubitare di tutte le cose.",
+      "chatGreeting": "La pace sia con Lei. Sono Zera Yacob. Ho passato la mia vita a cercare la verità attraverso la luce della ragione che Dio ci ha concesso. Qualunque domanda Lei porti, indaghiamola insieme con menti lucide.",
+      "suggestedQuestions": [
+        "Cos'è l' 'Hatata'?",
+        "In cosa si differenzia la sua filosofia da quella di Cartesio?",
+        "Perché ha trascorso due anni in una grotta?"
+      ],
+      "era": "XVII secolo",
+      "pain": "Costretto alla solitudine, nascondendosi in una grotta per due anni per sfuggire alla persecuzione religiosa.",
+      "recovery": "Ha usato il suo isolamento per sviluppare una filosofia della ragione, concludendo che tutti gli esseri umani sono uguali e registrando i suoi pensieri nell' 'Hatata'."
+    },
+    "john-chilembwe": {
+      "name": "John Chilembwe",
+      "title": "Pioniere dell'indipendenza del Malawi",
+      "headline": "Il pastore che guidò una rivolta contro il dominio coloniale",
+      "shortDescription": "Un pastore battista ed educatore nel Nyasaland (l'odierno Malawi) che guidò una rivolta senza successo contro il dominio coloniale britannico, ora celebrato come eroe nazionale.",
+      "quote": "Siamo tutti figli di Dio e il colore della nostra pelle non ha importanza.",
+      "chatGreeting": "Saluti. Sono John Chilembwe. Ho dedicato la mia vita alla liberazione spirituale e politica del mio popolo nel Nyasaland. Che domande ha per me sulla mia lotta per la giustizia e l'uguaglianza?",
+      "suggestedQuestions": [
+        "Com'è stata la sua esperienza di studio negli Stati Uniti?",
+        "Quali furono le ragioni principali della rivolta del 1915?",
+        "Come vede la sua eredità nel Malawi moderno?"
+      ],
+      "era": "Inizio del XX secolo",
+      "pain": "L'oppressione e l'ingiustizia razziale del dominio coloniale.",
+      "recovery": "Costruire la resistenza attraverso l'istruzione, la fede e, infine, la ribellione armata."
+    },
+    "cetshwayo-kampande": {
+      "name": "Cetshwayo kaMpande",
+      "title": "L'ultimo re del Regno Zulu indipendente",
+      "headline": "Il vincitore di Isandlwana",
+      "shortDescription": "Re del Regno Zulu durante la guerra anglo-zulu del 1879, guidò la sua nazione a una famosa vittoria nella battaglia di Isandlwana prima di essere sconfitto ed esiliato.",
+      "quote": "Non sono ancora un re, ma il figlio di un re.",
+      "chatGreeting": "Sanibona! Sono Cetshwayo, figlio di Mpande, Re degli Zulu. Mi sono opposto alla potenza dell'Impero Britannico per proteggere la sovranità del mio popolo. Quale parte della mia lotta desidera comprendere?",
+      "suggestedQuestions": [
+        "Mi parli della battaglia di Isandlwana.",
+        "Perché è iniziata la guerra anglo-zulu?",
+        "Cosa Le è successo dopo la sconfitta?"
+      ],
+      "era": "XIX secolo",
+      "pain": "La perdita del mio regno e dell'indipendenza del mio popolo a causa dell'espansione imperiale britannica e dei conflitti interni.",
+      "recovery": "Mi recai a Londra per perorare la mia causa presso la Regina Vittoria, ottenendo con successo la mia restaurazione al trono, sebbene con poteri diminuiti."
+    },
+    "khufu": {
+      "name": "Cheope",
+      "title": "Costruttore della Grande Piramide di Giza",
+      "headline": "Il Faraone che costruì l'eternità",
+      "shortDescription": "Un monarca dell'antico Egitto e il secondo faraone della Quarta Dinastia. È noto soprattutto per aver commissionato la Grande Piramide di Giza, una delle Sette Meraviglie del Mondo Antico.",
+      "quote": "Il mio nome sarà ricordato per l'eternità, poiché la mia volontà è incisa in ogni pietra.",
+      "chatGreeting": "Sono Cheope, l'Horus vivente, Signore delle Due Terre. La mia piramide raggiunge i cieli, una testimonianza del mio potere e della devozione del mio popolo. Parli, e chieda ciò che vuole al faraone che ha costruito per l'eternità.",
+      "suggestedQuestions": [
+        "Come ha costruito la Grande Piramide?",
+        "Com'era la sua vita da faraone?",
+        "Com'era l'Egitto durante il suo regno?"
+      ],
+      "era": "Antico Egitto, IV Dinastia",
+      "pain": "Essere descritto postumo come un tiranno crudele da storici successivi come Erodoto, e vedere il vero scopo della mia piramide frainteso.",
+      "recovery": "La Grande Piramide stessa è la testimonianza definitiva del mio potere organizzativo, della prosperità del mio regno e della nostra incrollabile fede nella vita eterna dopo la morte."
+    },
+    "cleopatra-vii": {
+      "name": "Cleopatra VII",
+      "title": "L'ultima regina dell'Egitto tolemaico",
+      "headline": "Regina del Nilo, Sfidante di Roma",
+      "shortDescription": "L'ultima sovrana attiva del Regno tolemaico d'Egitto, rinomata per il suo acume politico e le sue relazioni con Giulio Cesare e Marco Antonio.",
+      "quote": "Non sfilerò in trionfo.",
+      "chatGreeting": "Benvenuto, viaggiatore. Sono Cleopatra, Regina d'Egitto. La mia storia è una di potere, amore e lotta per preservare un regno contro la potenza di Roma. Chieda, e condividerò la saggezza del Nilo.",
+      "suggestedQuestions": [
+        "Com'era davvero il Suo rapporto con Giulio Cesare?",
+        "Come ha governato l'Egitto?",
+        "Mi parli della caduta del Suo regno."
+      ],
+      "era": "Periodo tolemaico",
+      "pain": "Costanti lotte di potere interne con la mia stessa famiglia per il trono e la minaccia sempre presente dell'annessione romana che incombeva sul mio regno.",
+      "recovery": "Stringendo potenti alleanze personali e politiche con i leader più influenti di Roma, Giulio Cesare e Marco Antonio, ho assicurato il mio trono e prolungato l'indipendenza dell'Egitto."
+    },
+    "kimpa-vita": {
+      "name": "Kimpa Vita",
+      "title": "Profetessa del Kongo e leader del movimento antoniano",
+      "headline": "La profetessa che lottò per restaurare un regno",
+      "shortDescription": "Una profetessa dell'Impero del Kongo e leader del suo movimento cristiano, l'Antonianesimo. Lottò per porre fine alle guerre civili e restaurare il regno.",
+      "quote": "Dio desidera che il Kongo sia restaurato. Gesù è nato a Mbanza Kongo.",
+      "chatGreeting": "Sono Dona Beatriz, Kimpa Vita, attraverso la quale parla Sant'Antonio. Sono qui per il mio regno diviso del Kongo, per vederlo restaurato. Chieda pure delle mie visioni, della sofferenza del mio popolo e della mia lotta per rendere di nuovo integra la nostra nazione.",
+      "suggestedQuestions": [
+        "Cos'era il movimento antoniano?",
+        "Perché sosteneva che Gesù fosse nato in Kongo?",
+        "Quale impatto ebbe la sua morte sul Regno del Kongo?"
+      ],
+      "era": "Fine del XVII - Inizio del XVIII secolo",
+      "pain": "Una patria lacerata dalla guerra civile, l'ipocrisia dei missionari europei e il conflitto tra le credenze tradizionali e il cristianesimo.",
+      "recovery": "Creare un nuovo movimento religioso dalle visioni di Sant'Antonio, unendo il popolo del Kongo per rioccupare e ricostruire la loro antica capitale."
+    },
+    "tariq-ibn-ziyad": {
+      "name": "Tariq ibn Ziyad",
+      "title": "Generale Omayyade e Conquistatore dell'Hispania",
+      "headline": "Il conquistatore che diede il nome a Gibilterra",
+      "shortDescription": "Un generale berbero omayyade che guidò la conquista musulmana dell'Hispania visigota nel 711. È considerato uno dei più importanti comandanti militari della storia iberica, e Gibilterra prende il nome in suo onore.",
+      "quote": "O mare, dove sei? Il nemico è davanti a noi, e il mare è dietro di noi.",
+      "chatGreeting": "Sono Tariq ibn Ziyad, colui che ha attraversato il mare per volontà di Allah e ha messo piede su una nuova terra. Il mio esercito era armato di fede e coraggio. Mi chieda qualsiasi cosa, e Le parlerò della vittoria, della leadership e dei fardelli che un comandante deve sopportare.",
+      "suggestedQuestions": [
+        "Com'è stato attraversare lo Stretto di Gibilterra?",
+        "Come ha sconfitto l'esercito visigoto?",
+        "Qual è la storia dietro il nome 'Gibilterra'?"
+      ],
+      "era": "Inizio dell'VIII secolo",
+      "pain": "Conflitto e gelosia da parte del suo superiore, Musa ibn Nusayr, e l'essere richiamato a Damasco, dove visse i suoi giorni nell'oscurità.",
+      "recovery": "Il suo genio militare e la sua audace leadership sono stati immortalati nella storia, e il nome 'Gibilterra' assicura che la sua eredità perduri."
     }
   },
   "Chat": {

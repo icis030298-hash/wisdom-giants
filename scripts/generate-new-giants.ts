@@ -54,7 +54,7 @@ Create a comprehensive profile for the following figure:
 Name: ${c.nameEn} (Korean name: ${c.nameKo})
 Slug: ${c.slug}
 Region: ${c.region}
-Category: ${c.category}
+Category: Auto-select from 'leadership' | 'science' | 'philosophy' | 'arts' | 'society' | 'business'
 Death Year / Lifespan: ${c.deathYear}
 Bio / Selection reason: ${c.briefBio}
 
@@ -71,10 +71,12 @@ Strict Historical and Formatting Requirements:
 7. Tone of "chatGreeting" and "persona" must deeply reflect the person's real character and historical style. Speak in first-person ("I").
 8. Do not use AI clichés like "as an AI..." or "as a virtual..."
 9. Wikipedia links must be valid, existing URLs.
+10. Select the most appropriate category for the figure out of: 'leadership' | 'science' | 'philosophy' | 'arts' | 'society' | 'business'. Output this in the root level 'category' property of the JSON.
 
 Output exact JSON format:
 {
   "slug": "${c.slug}",
+  "category": "leadership | science | philosophy | arts | society | business",
   "messages": {
     "ko": {
       "name": "${c.nameKo}",
@@ -284,7 +286,15 @@ function mergeIntoProject(giantData: any, region: string, category: string) {
 
     const closingIndex = tsContent.lastIndexOf('];');
     if (closingIndex !== -1) {
-      tsContent = tsContent.slice(0, closingIndex) + newTsBlock + tsContent.slice(closingIndex);
+      // Find the last non-whitespace character before ];
+      let lastCharIndex = closingIndex - 1;
+      while (lastCharIndex >= 0 && /\s/.test(tsContent[lastCharIndex])) {
+        lastCharIndex--;
+      }
+      const needsComma = lastCharIndex >= 0 && tsContent[lastCharIndex] !== ',';
+      const comma = needsComma ? ',' : '';
+      
+      tsContent = tsContent.slice(0, closingIndex) + comma + '\n' + newTsBlock + tsContent.slice(closingIndex);
       fs.writeFileSync(tsPath, tsContent, 'utf8');
     }
   }
@@ -426,7 +436,7 @@ async function main() {
 
         // Add verified properties
         parsed.slug = c.slug;
-        parsed.category = c.category;
+        parsed.category = parsed.category || "leadership";
         parsed.region = c.region;
 
         generatedData[c.slug] = parsed;
@@ -436,7 +446,7 @@ async function main() {
         console.log(`[Success] Generated profile for ${c.slug}.`);
 
         // Auto-merge into project files
-        mergeIntoProject(parsed, c.region, c.category);
+        mergeIntoProject(parsed, c.region, parsed.category);
         success = true;
       } catch (err: any) {
         console.error(`[Error] Attempt ${attempts} failed for ${c.slug}:`, err.message || err);
