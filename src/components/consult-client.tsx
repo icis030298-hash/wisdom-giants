@@ -130,6 +130,7 @@ const tMap: Record<string, any> = {
     customSubmit: "위인 매칭받기",
     analyzing: "분석 중...",
     customResultTitle: "나의 고민 매칭 결과",
+    error: "매칭 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.",
     customResultDesc: "자네가 겪고 있는 아픔에 대해 깊은 공감과 지혜를 들려줄 세 명의 거인을 추천하네."
   },
   en: {
@@ -147,6 +148,7 @@ const tMap: Record<string, any> = {
     customSubmit: "Get Giant Match",
     analyzing: "Analyzing...",
     customResultTitle: "My Problem Match Results",
+    error: "An error occurred during matching. Please try again later.",
     customResultDesc: "Three giants who can offer deep empathy and wisdom regarding your specific struggles."
   },
   de: {
@@ -164,6 +166,7 @@ const tMap: Record<string, any> = {
     customSubmit: "Weisen finden",
     analyzing: "Analysieren...",
     customResultTitle: "Ergebnisse des Sorgen-Matchings",
+    error: "Beim Abgleich ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
     customResultDesc: "Drei Riesen, die tiefes Mitgefühl und Weisheit für Ihre spezifischen Sorgen bieten können."
   },
   ja: {
@@ -181,6 +184,7 @@ const tMap: Record<string, any> = {
     customSubmit: "偉人をマッチングする",
     analyzing: "分析中...",
     customResultTitle: "悩みマッチング結果",
+    error: "マッチング中にエラーが発生しました。後でもう一度お試しください。",
     customResultDesc: "あなたの具体的な悩みに対して、深い共感と知恵を提供できる3人の偉人を推薦します。"
   },
   es: {
@@ -198,6 +202,7 @@ const tMap: Record<string, any> = {
     customSubmit: "Buscar Coincidencia",
     analyzing: "Analizando...",
     customResultTitle: "Resultados de Coincidencia de Problemas",
+    error: "Ocurrió un error durante la coincidencia. Por favor, inténtelo de nuevo más tarde.",
     customResultDesc: "Tres gigantes que pueden ofrecer profunda empatía y sabiduría sobre tus dificultades específicas."
   },
   fr: {
@@ -215,6 +220,7 @@ const tMap: Record<string, any> = {
     customSubmit: "Trouver des Géants",
     analyzing: "Analyse en cours...",
     customResultTitle: "Résultats d'Appariement de Problèmes",
+    error: "Une erreur s'est produite lors de la correspondance. Veuillez réessayer plus tard.",
     customResultDesc: "Trois géants qui peuvent offer une empathie profonde et de la sagesse concernant vos luttes spécifiques."
   },
   it: {
@@ -232,6 +238,7 @@ const tMap: Record<string, any> = {
     customSubmit: "Trova Abbinamento",
     analyzing: "Analisi...",
     customResultTitle: "Risultati Abbinamento Problemi",
+    error: "Si è verificato un errore durante l'abbinamento. Riprova più tardi.",
     customResultDesc: "Tre giganti che possono offrire profonda empatia e saggezza per le tue specifiche difficoltà."
   },
   pt: {
@@ -249,6 +256,7 @@ const tMap: Record<string, any> = {
     customSubmit: "Buscar Gigante",
     analyzing: "Analisando...",
     customResultTitle: "Resultados da Combinação de Problemas",
+    error: "Ocorreu um erro durante a correspondência. Por favor, tente novamente mais tarde.",
     customResultDesc: "Três gigantes que podem oferecer profunda empatia e sabedoria em relação às suas luttes específicas."
   }
 };
@@ -301,7 +309,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
       }
     } catch (err) {
       console.error("Preset matching failed:", err);
-      alert("매칭 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.");
+      alert(labels.error || 'An error occurred during matching.');
     } finally {
       setIsMatching(false);
       setIsLoading(false);
@@ -352,7 +360,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
       }
     } catch (err) {
       console.error("Custom matching failed:", err);
-      alert("매칭 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.");
+      alert(labels.error || 'An error occurred during matching.');
     } finally {
       setIsMatching(false);
       setIsLoading(false);

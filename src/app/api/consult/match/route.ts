@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
     }
 
     const vAI = getVertexAIInstance();
-    const modelsToTry = ['gemini-2.0-flash', 'gemini-1.5-flash'];
+    const modelsToTry = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
     let responseText = "";
     let lastError = null;
 
