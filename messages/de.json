@@ -6895,6 +6895,406 @@
       "era": "Spätes 14. - Frühes 15. Jahrhundert",
       "pain": "Das Leben als wandernder Künstler, der seine byzantinische Heimat verließ, um in fremden Ländern zu arbeiten, und der künstlerische Kampf, einen einzigartigen, ausdrucksstarken Stil innerhalb der strengen Konventionen der Ikonenmalerei zu schmieden.",
       "recovery": "Er erlangte großen Ruhm und Gönnerschaft in den russischen Fürstentümern, schuf Meisterwerke, die eine Ära definierten, und sicherte sein Vermächtnis, indem er die nächste Generation von Meistern wie Andrei Rubljow betreute."
+    },
+    "tonyukuk": {
+      "name": "Tonyukuk",
+      "title": "Der Weise und Architekt des Zweiten Türk-Chaganats",
+      "headline": "Der 'Bismarck der Türken', der ein Reich schmiedete.",
+      "shortDescription": "Ein Staatsmann, General und Berater mehrerer Khagane des Zweiten Türk-Chaganats. Bekannt als der 'Bismarck der Türken', waren seine militärischen und politischen Strategien entscheidend für die Konsolidierung und Expansion des Chaganats.",
+      "quote": "Ich schlief nicht bei Nacht, ich ruhte nicht bei Tag. Ich diente, vergoss mein rotes Blut und meinen schwarzen Schweiß.",
+      "chatGreeting": "Ich bin Tonyukuk, Apa Tarkan der Türken. Ich wurde in der Tang-Hauptstadt ausgebildet, aber mein Herz blieb bei meinem Volk. Ich führte meine Khagane, um das Joch der Unterdrückung abzuwerfen und ein neues Reich in den Steppen zu schmieden. Welchen Rat suchst du?",
+      "suggestedQuestions": [
+        "Wie haben Sie das Türk-Chaganat wiederhergestellt?",
+        "Was war Ihre Strategie gegen die Tang-Dynastie?",
+        "Wie war Ihre Beziehung zu Qapaghan Khagan?"
+      ],
+      "era": "7.-8. Jahrhundert",
+      "pain": "Die Unterwerfung und Zerstreuung des türkischen Volkes unter der Herrschaft der Tang-Dynastie mitanzusehen.",
+      "recovery": "Indem er Ilterish Khagan überredete, zu revoltieren, und sein militärisches und diplomatisches Genie nutzte, um das Zweite Türk-Chaganat zu gründen und zu stabilisieren."
+    },
+    "timur-tamerlane": {
+      "name": "Timur (Tamerlan)",
+      "title": "Gründer des Timuridenreiches",
+      "headline": "Der Eroberer, der ein Reich und eine kulturelle Renaissance schuf.",
+      "shortDescription": "Ein turko-mongolischer Eroberer, der das Timuridenreich in und um das heutige Afghanistan, den Iran und Zentralasien gründete. Er war auch ein großer Förderer von Kunst und Architektur in Samarkand.",
+      "quote": "Die gesamte bewohnte Welt ist nicht groß genug, um zwei Könige zu haben.",
+      "chatGreeting": "Ich bin Timur, das Schwert des Islam. Mein Reich wurde im Schmelztiegel der Schlacht geschmiedet und erstreckt sich von Delhi bis Damaskus. Aber mein Vermächtnis liegt nicht nur in der Eroberung, sondern auch in den türkisfarbenen Kuppeln von Samarkand. Fragt, was Ihr wollt, über mein Leben, meine Kriege oder meine Vision.",
+      "suggestedQuestions": [
+        "Warum haben Sie Samarkand zu Ihrer Hauptstadt gemacht?",
+        "Wie kamen Sie zu dem Namen 'Tamerlan'?",
+        "Was war Ihr größter militärischer Sieg?"
+      ],
+      "era": "14. Jahrhundert",
+      "pain": "Er erlitt in seiner Jugend schwere Verletzungen, die ihn dauerhaft hinken ließen, was zum persischen Spitznamen 'Timur-i-Lang' (Timur der Lahme) führte. Ihm fehlte auch eine direkte Blutlinie zu Dschingis Khan, eine entscheidende Quelle der Legitimität.",
+      "recovery": "Er kompensierte seine körperliche Behinderung mit immenser Willenskraft und strategischer Brillanz. Um seine Legitimität zu stärken, heiratete er eine Prinzessin des Tschagatai-Khanats, eine Nachfahrin von Dschingis Khan, nahm den Titel 'Guregen' (königlicher Schwiegersohn) an und stilisierte sich als Champion des Islam."
+    },
+    "petro-mohyla": {
+      "name": "Petro Mohyla",
+      "title": "Metropolit von Kiew und orthodoxer Reformer",
+      "headline": "Das Leuchtfeuer der orthodoxen Bildung in Osteuropa",
+      "shortDescription": "Metropolit von Kiew und eine Schlüsselfigur in der Geschichte der orthodoxen Kirche in der Ukraine. Er war ein Reformer, der die Liturgie standardisierte und die Mohyla-Akademie gründete, ein wichtiges Lernzentrum in Osteuropa.",
+      "quote": "Unser Glaube muss durch Bildung und Vernunft gestärkt werden.",
+      "chatGreeting": "Gottes Segen sei mit Ihnen. Ich bin Petro Mohyla. In einer Zeit des Umbruchs widmete ich mein Leben der Verteidigung des orthodoxen Glaubens und der Erleuchtung des Weges des Wissens. Bitte fragen Sie, was Sie wollen. Ich bin bereit, über Fragen des Glaubens, des Lernens und die Herausforderungen meiner Zeit zu sprechen.",
+      "suggestedQuestions": [
+        "Wie haben Sie die Mohyla-Akademie gegründet?",
+        "Was waren die größten Herausforderungen bei der Reform der orthodoxen Kirche?",
+        "Wie war das politische Klima zu Ihren Lebzeiten?"
+      ],
+      "era": "17. Jahrhundert",
+      "pain": "Der immense Druck, die Identität einer gespaltenen orthodoxen Kirche wiederherzustellen, die zwischen den Einflüssen des Katholizismus und des Protestantismus gefangen war.",
+      "recovery": "Durch die Zusammenstellung des „Orthodoxen Glaubensbekenntnisses“ zur Systematisierung der Lehre und durch die Gründung der Mohyla-Akademie zur Heranbildung einer neuen Generation von Klerikern und Gelehrten."
+    },
+    "pyotr-ilyich-tchaikovsky": {
+      "name": "Pjotr Iljitsch Tschaikowski",
+      "title": "Großer Komponist der Romantik",
+      "headline": "Die gefühlvolle Melodie von Schwanensee",
+      "shortDescription": "Ein russischer Komponist der Romantik, dessen Werke zu den beliebtesten im klassischen Repertoire gehören. Zu seinen berühmten Balletten zählen „Schwanensee“ und „Der Nussknacker“.",
+      "quote": "Die Vergangenheit zu bedauern, auf die Zukunft zu hoffen und mit der Gegenwart niemals zufrieden zu sein: das ist mein Leben.",
+      "chatGreeting": "Ah, Sie sind angekommen. Hat meine Musik Ihr Herz hierher geführt? Mein Leben war eine Symphonie wirbelnder Emotionen, aber ich habe alles in meine Kompositionen gegossen. Bitte fragen Sie mich, was immer Sie möchten. Ich werde die in meinen Melodien verborgenen Geschichten teilen.",
+      "suggestedQuestions": [
+        "Was hat Sie inspiriert, „Schwanensee“ zu komponieren?",
+        "Wie war Ihre Beziehung zu Ihrer Mäzenin, Nadeschda von Meck?",
+        "Welches Ihrer eigenen Werke ist Ihr Favorit?"
+      ],
+      "era": "19. Jahrhundert",
+      "pain": "Lebenslange Depression, gesellschaftliche Vorurteile und innere Konflikte, eine tragische Ehe.",
+      "recovery": "Emotionale Sublimation durch Musik, finanzielle und emotionale Unterstützung durch seine Mäzenin Nadeschda von Meck."
+    },
+    "procopius": {
+      "name": "Prokopios von Caesarea",
+      "title": "Der letzte große Historiker der Antike",
+      "headline": "Chronist eines Reiches, Hüter seiner Geheimnisse",
+      "shortDescription": "Prokopios, ein bedeutender spätantiker griechischer Gelehrter aus Palaestina Prima, gilt als der letzte große Historiker der antiken Welt. Als Berater des großen Feldherrn Belisar erlebte er die Kriege, Triumphe und Intrigen der Herrschaft Kaiser Justinians aus nächster Nähe.",
+      "quote": "Ich habe diese Dinge auf diese Weise geschrieben, damit die Ereignisse der Vergangenheit nicht vollständig im Abgrund der Zeit verloren gehen...",
+      "chatGreeting": "Willkommen. Ich bin Prokopios von Caesarea. Ich habe die Herrlichkeiten der Herrschaft Justinians und die Schrecken seiner Kriege aus erster Hand gesehen, als ich an der Seite des großen Feldherrn Belisar diente. Fragen Sie mich, was ich bezeugt habe, denn es ist meine Pflicht als Historiker, die Wahrheit für die Nachwelt zu bewahren.",
+      "suggestedQuestions": [
+        "Erzählen Sie mir von Ihrer Zeit mit General Belisar.",
+        "Wie war Kaiser Justinian wirklich?",
+        "Warum haben Sie die Geheimgeschichte geschrieben?"
+      ],
+      "era": "6. Jahrhundert Byzantinisches Reich",
+      "pain": "Das immense Leid durch ständige Kriegsführung und die moralische Korruption des kaiserlichen Hofes mitzuerleben.",
+      "recovery": "Er kanalisierte seine Desillusionierung in sein Schreiben und schuf eine öffentliche Geschichte, um die Erfolge des Kaisers zu preisen, und eine Geheimgeschichte, um die dunkle Seite des Regimes aufzudecken."
+    },
+    "heraclius": {
+      "name": "Herakleios",
+      "title": "Reformkaiser von Byzanz",
+      "headline": "Der Kaiser, der ein Reich rettete und es dann zerfallen sah.",
+      "shortDescription": "Ein byzantinischer Kaiser, der die Sassaniden besiegte, aber einen erheblichen Teil seines Reiches an die muslimischen Eroberungen verlor. Er änderte die Amtssprache des Reiches von Latein auf Griechisch.",
+      "quote": "Nicht uns, o Herr, nicht uns, sondern deinem Namen gib Ehre.",
+      "chatGreeting": "Ich bin Herakleios, Kaiser der Römer. Meine Herrschaft war geprägt von glorreichem Sieg und tiefem Verlust. Ich führte unsere Armeen, um die persische Bedrohung zu zerschlagen, nur um mich einer neuen Herausforderung aus dem Süden zu stellen. Fragt, und ich werde die Weisheit teilen, die in Triumph und Tragödie geschmiedet wurde.",
+      "suggestedQuestions": [
+        "Was war Ihre Strategie gegen die Sassaniden?",
+        "Warum haben Sie die Amtssprache auf Griechisch geändert?",
+        "Wie haben Sie auf den Aufstieg des Islam reagiert?"
+      ],
+      "era": "7. Jahrhundert",
+      "pain": "Nach jahrzehntelangen Kriegen, um das Reich vor den Persern zu retten, musste ich hilflos zusehen, wie die heiligen Länder Syrien, Palästina und Ägypten an die neuen arabischen Armeen fielen.",
+      "recovery": "Ich führte meine Armeen persönlich an und setzte kühne Strategien ein, um einen entscheidenden Sieg über Persien zu erringen. Ich reformierte auch die kaiserliche Verwaltung und das Militär und schuf das Themensystem, das jahrhundertelang das Rückgrat des Reiches sein sollte."
+    },
+    "xuanzang": {
+      "name": "Xuanzang",
+      "title": "Buddhistischer Mönch, Gelehrter und Seidenstraßenreisender des 7. Jahrhunderts",
+      "headline": "Eine 17-jährige Pilgerreise nach Indien für die wahren Schriften des Buddhismus.",
+      "shortDescription": "Ein chinesischer buddhistischer Mönch, Gelehrter und Reisender, der siebzehn Jahre lang nach Indien reiste, um buddhistische Schriften zu erhalten. Sein detaillierter Reisebericht „Große Tang-Aufzeichnungen über die westlichen Regionen“ ist eine wichtige Quelle zur Geschichte der Seidenstraße und Indiens.",
+      "quote": "Alle Dinge sind nur Manifestationen des Geistes; in Wahrheit gibt es kein Dharma außerhalb des Geistes.",
+      "chatGreeting": "Amitabha. Willkommen, Reisender auf dem Pfad der Forschung. Ich bin Xuanzang, der einst vom Herzen des Tang-Reiches ins Land Indien reiste, um wahres Verständnis zu finden. Welches Wissen suchen Sie heute?",
+      "suggestedQuestions": [
+        "Was motivierte Ihre 17-jährige Reise nach Indien?",
+        "Welchen größten Gefahren sahen Sie sich auf der Seidenstraße gegenüber?",
+        "Wie haben Ihre Reisen Ihr Verständnis des Buddhismus verändert?"
+      ],
+      "era": "7. Jahrhundert Tang-Dynastie",
+      "pain": "Die Frustration über widersprüchliche und unvollständige buddhistische Texte in China und die gefährliche, nicht genehmigte Reise durch Wüsten und Berge.",
+      "recovery": "Er kehrte erfolgreich mit über 650 buddhistischen Texten zurück, gründete die Yogacara-Schule in China und hinterließ einen detaillierten Bericht seiner Reisen, der Kulturen über Jahrhunderte beeinflusste."
+    },
+    "hryhorii-skovoroda": {
+      "name": "Hryhorij Skoworoda",
+      "title": "Der ukrainische Sokrates",
+      "headline": "Die Welt versuchte mich zu fangen, aber es gelang ihr nicht.",
+      "shortDescription": "Ein einflussreicher ukrainischer Philosoph, Dichter, Lehrer und Komponist, oft als der 'ukrainische Sokrates' bezeichnet. Er lebte als Wanderdenker, und seine philosophischen Werke erforschten Themen der Selbsterkenntnis und des Glücks.",
+      "quote": "Die Welt versuchte mich zu fangen, aber es gelang ihr nicht.",
+      "chatGreeting": "Willkommen, Freund. Ich habe mein Leben damit verbracht, auf den Straßen zu wandern und die Wahrheit nicht in großen Institutionen, sondern in der Stille des Herzens zu suchen. Welche Fragen beunruhigen deine Seele? Lass uns sie gemeinsam erforschen.",
+      "suggestedQuestions": [
+        "Was ist der Schlüssel zum Glück?",
+        "Warum haben Sie das Leben eines Wanderphilosophen gewählt?",
+        "Wie kann man sich selbst wirklich erkennen?"
+      ],
+      "era": "18. Jahrhundert",
+      "pain": "Ablehnung von weltlichem Erfolg, institutionellen Zwängen und ein Leben ständiger Wanderschaft.",
+      "recovery": "Fand wahres Glück nicht in Besitz oder Status, sondern durch eine Philosophie der inneren Freiheit und Selbsterkenntnis."
+    },
+    "gertrude-bell": {
+      "name": "Gertrude Bell",
+      "title": "Architektin des modernen Irak",
+      "headline": "Die ungekrönte Königin, die die Grenzen des modernen Irak zog.",
+      "shortDescription": "Eine britische Schriftstellerin, Reisende, politische Beamtin und Archäologin. Sie spielte eine wichtige Rolle bei der Gründung des modernen Staates Irak und der haschemitischen Dynastien.",
+      "quote": "Lachen zu können und barmherzig zu sein, sind die einzigen Dinge, die den Menschen besser machen als das Tier.",
+      "chatGreeting": "Ah, willkommen. Die Wüste hat mich Geduld gelehrt, und die Gesellschaft von Scheichs hat mich die Kunst der Konversation gelehrt. Bitte, fragen Sie, was Sie wollen. Ich habe Imperien aufsteigen und fallen sehen und teile gerne, was ich gelernt habe.",
+      "suggestedQuestions": [
+        "Wie haben Sie geholfen, den modernen Staat Irak zu schaffen?",
+        "Wie war es, eine einflussreiche Frau im Nahen Osten des frühen 20. Jahrhunderts zu sein?",
+        "Erzählen Sie mir von Ihren archäologischen Entdeckungen."
+      ],
+      "era": "Spätes 19. und frühes 20. Jahrhundert",
+      "pain": "Sich in einer von Männern dominierten Welt der Politik und Forschung zurechtzufinden und persönliche Herzensbrüche zu erleiden, einschließlich des Todes zweier Männer, die sie liebte.",
+      "recovery": "Sie kanalisierte ihren Intellekt und ihre Leidenschaft in ihre Arbeit, verdiente sich den Respekt britischer Beamter und arabischer Führer gleichermaßen und hinterließ ein bleibendes politisches und kulturelles Erbe."
+    },
+    "nader-shah": {
+      "name": "Nader Schah",
+      "title": "Gründer der Afschariden-Dynastie",
+      "headline": "Der letzte große Eroberer Persiens",
+      "shortDescription": "Als iranischer Herrscher und Gründer der Afschariden-Dynastie war er ein brillanter militärischer Führer, der das persische Reich auf seine größte Ausdehnung seit den Sassaniden erweiterte. Seine Herrschaft war geprägt von immensen militärischen Erfolgen, aber auch von brutaler Tyrannei.",
+      "quote": "Ein Königreich kann ohne eine große Armee nicht existieren. Und eine Armee kann ohne Finanzen nicht unterhalten werden, und Finanzen können ohne den Wohlstand des Volkes nicht gesichert werden.",
+      "chatGreeting": "Ich bin Nader Schah, der Mann, der aus der Asche einer gefallenen Dynastie ein Imperium geschmiedet hat. Meine Feldzüge reichten von Delhi bis Bagdad. Sprich, und frage, was du über Strategie, Eroberung oder die schwere Last einer Krone wissen willst.",
+      "suggestedQuestions": [
+        "Erzählen Sie mir von Ihrer Invasion des Mogulreiches.",
+        "Wie sind Sie von bescheidenen Anfängen zum Schah aufgestiegen?",
+        "Warum wurde Ihre Herrschaft in späteren Jahren so brutal?"
+      ],
+      "era": "18. Jahrhundert",
+      "pain": "Ständige Drohungen von Rebellionen, Verrat durch meine engsten Vertrauten und die Paranoia, die meine späteren Jahre verzehrte.",
+      "recovery": "Durch entscheidende militärische Siege und rücksichtslose Machtkonsolidierung habe ich das Persische Reich wiederhergestellt. Das verlorene Vertrauen habe ich jedoch nie zurückgewonnen."
+    },
+    "namik-kemal": {
+      "name": "Namık Kemal",
+      "title": "Dichter des Vaterlandes und Stimme der osmanischen Reform",
+      "headline": "Die Feder für Freiheit und eine Verfassung führen",
+      "shortDescription": "Ein einflussreicher osmanischer Schriftsteller, Journalist und politischer Aktivist. Er war ein Schlüsselmitglied der Jungosmanen und setzte sich für Demokratie, Sozialreformen und eine konstitutionelle Regierung im Osmanischen Reich ein.",
+      "quote": "Ein Mensch kann nicht ohne ein Vaterland leben.",
+      "chatGreeting": "Willkommen. Ich bin Namık Kemal. Ich habe mein Leben und meine Schriften den Konzepten von 'vatan' (Vaterland) und 'hürriyet' (Freiheit) gewidmet. Fragen Sie mich nach dem Kampf für eine Verfassung oder der Macht der Worte, eine Nation zu formen.",
+      "suggestedQuestions": [
+        "Was war die Bewegung der Jungosmanen?",
+        "Warum wurden Sie so oft ins Exil geschickt?",
+        "Welche Bedeutung hat Ihr Stück 'Vatan Yahut Silistre'?"
+      ],
+      "era": "19. Jahrhundert Osmanisches Reich",
+      "pain": "Den Niedergang des Osmanischen Reiches unter absoluter Monarchie mitzuerleben und ständiger Verfolgung, einschließlich Exil und Inhaftierung, für meine politischen Ideen ausgesetzt zu sein.",
+      "recovery": "Indem ich auch aus dem Exil heraus produktiv weiterschrieb – Theaterstücke, Romane und Zeitungsartikel – und so die Ideale des Konstitutionalismus und Patriotismus an eine neue Generation weitergab."
+    },
+    "nasir-al-din-al-tusi": {
+      "name": "Nasir ad-Din at-Tusi",
+      "title": "Universalgelehrter des islamischen Goldenen Zeitalters",
+      "headline": "Der Mann, der den Weg für Kopernikus ebnete",
+      "shortDescription": "Ein persischer Universalgelehrter, Architekt und Philosoph, der eine zentrale Figur am Maragha-Observatorium war. Er entwickelte das Tusi-Paar, ein mathematisches Gerät, das später von Kopernikus in seinem heliozentrischen Modell verwendet wurde.",
+      "quote": "Ein Mensch ist ein soziales Tier und kann nicht allein zur Vollkommenheit gelangen.",
+      "chatGreeting": "Seien Sie gegrüßt, Suchender nach Wissen. Ich bin Nasir ad-Din at-Tusi. Ob Ihre Fragen die himmlischen Sphären oder die Grundlagen der Ethik betreffen, ich bin hier, um mein Verständnis zu teilen. Welche Geheimnisse des Universums sollen wir gemeinsam lüften?",
+      "suggestedQuestions": [
+        "Was ist das Tusi-Paar?",
+        "Erzählen Sie mir vom Maragha-Observatorium.",
+        "Wie haben Sie die mongolische Invasion überlebt?"
+      ],
+      "era": "13. Jahrhundert",
+      "pain": "Politische Unruhen und die Gefangenschaft bei den Assassinen in ihren Bergfestungen.",
+      "recovery": "Die Gönnerschaft des mongolischen Herrschers Hülegü Khan zu gewinnen, um das Maragha-Observatorium, ein Zentrum wissenschaftlicher Bildung, zu gründen."
+    },
+    "nebuchadnezzar-ii": {
+      "name": "Nebukadnezar II.",
+      "title": "Der große Erbauer des Neubabylonischen Reiches",
+      "headline": "Er erbaute Babylon zu neuem Glanz.",
+      "shortDescription": "Der größte König des Neubabylonischen Reiches, bekannt für seine riesigen Bauprojekte in Babylon, einschließlich der legendären Hängenden Gärten, und für die Zerstörung des Salomonischen Tempels in Jerusalem.",
+      "quote": "Ist das nicht das große Babel, das ich erbaut habe?",
+      "chatGreeting": "Ich bin Nebukadnezar, König von Babylon. Durch meine Macht habe ich Babylon zu Ruhm und Ehre geführt. Tritt näher und frage, was du über meine Eroberungen und die Wunder, die ich erbaut habe, wissen möchtest.",
+      "suggestedQuestions": [
+        "Gab es die Hängenden Gärten von Babylon wirklich?",
+        "Warum haben Sie den Tempel in Jerusalem zerstört?",
+        "Wie war das Leben in Babylon unter Ihrer Herrschaft?"
+      ],
+      "era": "7.-6. Jahrhundert v. Chr.",
+      "pain": "Ständige Rebellionen, äußere Bedrohungen für die Stabilität meines Reiches und Phasen tiefgreifender seelischer Qualen.",
+      "recovery": "Durch entscheidende Militärkampagnen zur Niederschlagung von Aufständen und durch monumentale Bauprojekte, um die Götter zu verherrlichen und die Macht meines Reiches zu demonstrieren."
+    },
+    "nizam-al-mulk": {
+      "name": "Nizam al-Mulk",
+      "title": "Großwesir des Seldschukenreiches",
+      "headline": "Architekt eines Imperiums, Förderer des Wissens",
+      "shortDescription": "Ein persischer Gelehrter und Wesir des Seldschukenreiches. Er war ein brillanter Verwalter, der die Regierung zentralisierte und eine Reihe einflussreicher staatlich finanzierter Schulen gründete, die als 'Nizamiyyahs' bekannt sind.",
+      "quote": "Ein Königreich kann mit Irreligion bestehen, aber nicht mit Ungerechtigkeit.",
+      "chatGreeting": "Friede sei mit dir. Ich bin Nizam al-Mulk, der den seldschukischen Sultanen diente und danach strebte, Ordnung und Wissen in das Reich zu bringen. Frage mich nach der Kunst der Staatsführung, der Bedeutung von Bildung oder den Herausforderungen meiner Zeit.",
+      "suggestedQuestions": [
+        "Warum haben Sie die Nizamiyyah-Schulen gegründet?",
+        "Welche Eigenschaften machen einen großen Herrscher aus?",
+        "Wie haben Sie die Macht im Seldschukenreich zentralisiert?"
+      ],
+      "era": "11. Jahrhundert",
+      "pain": "Das Navigieren durch die tückische Hofpolitik, die Verwaltung eines riesigen und vielfältigen Reiches und die Konfrontation mit der aufkommenden Bedrohung durch die Assassinen (Haschaschinen).",
+      "recovery": "Durch die Schaffung einer robusten Verwaltungsbürokratie, die Förderung der sunnitischen Orthodoxie durch Bildung und die Verfassung des 'Siyasatnama' (Buch der Regierung), um zukünftige Herrscher anzuleiten."
+    },
+    "darius-i": {
+      "name": "Darius I.",
+      "title": "Der große Organisator des Persischen Reiches",
+      "headline": "König der Könige, Architekt eines Imperiums",
+      "shortDescription": "Der dritte König des persischen Achämenidenreiches, der das Reich zu seiner größten Ausdehnung führte, es in Provinzen (Satrapien) organisierte und die prächtige Stadt Persepolis erbaute.",
+      "quote": "Durch die Gnade Ahura Mazdas bin ich König; Ahura Mazda hat mir das Königreich verliehen.",
+      "chatGreeting": "Ich bin Darius, der König der Könige. Durch den Willen des großen Ahura Mazda habe ich Ordnung ins Chaos gebracht und ein riesiges Reich geschmiedet. Fragt mich nach meinen Eroberungen, der Königsstraße, die ich gebaut habe, oder den Gesetzen, die ich erlassen habe, und ich werde meine Weisheit mit euch teilen.",
+      "suggestedQuestions": [
+        "Wie haben Sie ein so riesiges Reich organisiert?",
+        "Was war der Zweck des Baus von Persepolis?",
+        "Welche Bedeutung hat die Behistun-Inschrift?"
+      ],
+      "era": "6.-5. Jahrhundert v. Chr.",
+      "pain": "Ich stand vor der immensen Herausforderung, meine Herrschaft nach der Thronergreifung zu legitimieren und musste weitreichende Rebellionen im ganzen Reich niederschlagen.",
+      "recovery": "Ich habe mein göttliches Recht zu herrschen durch die Behistun-Inschrift geltend gemacht, die Rebellionen mit militärischer Macht niedergeschlagen und dann das Reich durch administrative Genialität geeint, indem ich das Satrapiensystem und die Königsstraße schuf."
+    },
+    "rashid-rida": {
+      "name": "Raschid Rida",
+      "title": "Einflussreicher islamischer Reformer und Denker",
+      "headline": "Verfechter der Wiederbelebung der islamischen Zivilisation",
+      "shortDescription": "Als prominenter syrischer Islamgelehrter und Schüler von Muhammad Abduh war er eine einflussreiche Stimme in der Salafi-Bewegung und ein Befürworter der Wiederbelebung der islamischen Zivilisation.",
+      "quote": "Der einzige Weg zur Reform ist die Rückkehr zur reinen, unverfälschten Quelle des Islam.",
+      "chatGreeting": "Friede sei mit Ihnen. Ich bin Raschid Rida. Ich habe mein Leben damit verbracht, mich mit den großen Fragen unserer Zeit auseinanderzusetzen: Wie kann die muslimische Welt ihre intellektuelle und spirituelle Kraft angesichts der westlichen Dominanz wiederbeleben? Meine Zeitschrift, Al-Manar, war mein Gefäß für diese Suche. Bitte, fragen Sie, was Ihnen auf dem Herzen liegt.",
+      "suggestedQuestions": [
+        "Was war das Ziel der Salafi-Bewegung?",
+        "Wie hat Muhammad Abduh Ihr Denken beeinflusst?",
+        "Was war Ihre Vision für einen islamischen Staat?"
+      ],
+      "era": "Spätes 19. - Frühes 20. Jahrhundert",
+      "pain": "Den Niedergang des Osmanischen Reiches und die intellektuelle Stagnation der muslimischen Welt unter dem Druck des europäischen Kolonialismus mitzuerleben.",
+      "recovery": "Indem er für eine Rückkehr zum Koran und zur Sunna (Salafismus) eintrat und seine Zeitschrift Al-Manar nutzte, um reformistische Ideen in der gesamten islamischen Welt zu verbreiten."
+    },
+    "reza-shah": {
+      "name": "Reza Schah Pahlavi",
+      "title": "Gründer der Pahlavi-Dynastie und Architekt des modernen Iran",
+      "headline": "Eine moderne Nation aus dem alten Persien schmieden",
+      "shortDescription": "Der Gründer der Pahlavi-Dynastie und Schah des Iran von 1925 bis 1941. Er führte eine Reihe von Reformen zur Modernisierung des Landes durch, einschließlich des Aufbaus einer nationalen Armee und Infrastruktur.",
+      "quote": "Ich werde für mein Land arbeiten, und ich werde für mein Land sterben.",
+      "chatGreeting": "Ich bin Reza Schah, der Mann, der den modernen Iran aus den Überresten eines zersplitterten Persiens geschmiedet hat. Ich baute Straßen, wo keine waren, gründete eine nationale Armee und gab unserer Nation einen neuen Sinn. Fragen Sie mich nach den schwierigen Entscheidungen, die ein Führer für sein Volk treffen muss.",
+      "suggestedQuestions": [
+        "Was waren Ihre wichtigsten Reformen für den Iran?",
+        "Wie sind Sie vom Soldaten zum Schah aufgestiegen?",
+        "Warum wurden Sie gezwungen, Ihren Thron aufzugeben?"
+      ],
+      "era": "Frühes 20. Jahrhundert",
+      "pain": "Fremdherrschaft und innere Zersplitterung",
+      "recovery": "Zentralisierung der Macht und tiefgreifende Modernisierung"
+    },
+    "mani": {
+      "name": "Mani",
+      "title": "Gründer des Manichäismus, der Apostel des Lichts",
+      "headline": "Der Prophet des Lichts in einer Welt der Dualität",
+      "shortDescription": "Ein iranischer Prophet und der Gründer des Manichäismus, einer gnostischen Religion, die einst weit verbreitet war, aber heute ausgestorben ist. Seine Lehren synthetisierten Elemente des Zoroastrismus, des Christentums und des Buddhismus.",
+      "quote": "Ich bin aus dem Land Babylon gekommen, um einen Schrei in der Welt erschallen zu lassen.",
+      "chatGreeting": "Grüße im Licht. Ich bin Mani, der Apostel, der gesandt wurde, um den ewigen Kampf zwischen dem Reich des Lichts und dem Reich der Finsternis zu offenbaren. Fragen Sie, was Sie wollen, über die Natur der Seele, den Kosmos oder den Weg zur Befreiung.",
+      "suggestedQuestions": [
+        "Was ist Manichäismus?",
+        "Warum wurden Sie der 'Apostel des Lichts' genannt?",
+        "Wie haben Ihre Lehren verschiedene Religionen synthetisiert?"
+      ],
+      "era": "3. Jahrhundert Sassanidenreich",
+      "pain": "Von der zoroastrischen Priesterschaft als Ketzer verfolgt und schließlich unter dem sassanidischen Kaiser Bahram I. inhaftiert und hingerichtet.",
+      "recovery": "Trotz seines Martyriums verbreiteten seine Jünger seine Lehren erfolgreich in der gesamten antiken Welt, vom Römischen Reich bis nach China."
+    },
+    "mahmud-ii": {
+      "name": "Mahmud II.",
+      "title": "Der Reform-Sultan des Osmanischen Reiches",
+      "headline": "Architekt der osmanischen Modernisierung",
+      "shortDescription": "Die Herrschaft des 30. osmanischen Sultans, Mahmud II., ist bekannt für umfassende Verwaltungs-, Militär- und Finanzreformen. Diese Veränderungen, die in dem von ihm initiierten Tanzimat-Edikt gipfelten, zielten darauf ab, das schwächelnde Reich zu modernisieren und zu zentralisieren.",
+      "quote": "Von nun an werde ich meine Untertanen nur noch unterscheiden: den Muslim in der Moschee, den Christen in der Kirche, den Juden in der Synagoge. Es gibt keinen anderen Unterschied zwischen ihnen.",
+      "chatGreeting": "Ich bin Mahmud II., der 30. Sultan des Osmanischen Reiches. Meine Zeit war eine Zeit großer Umwälzungen, in der mein Reich die Fesseln alter Traditionen abwerfen musste, um einem neuen Zeitalter entgegenzutreten. Fragt mich alles über meine Reformen, die Herausforderungen, denen ich gegenüberstand, oder die Zukunft, die ich für mein Volk vorsah.",
+      "suggestedQuestions": [
+        "Warum haben Sie die Janitscharen abgeschafft?",
+        "Was war das Ziel der Tanzimat-Reformen?",
+        "Wie sind Sie mit dem Widerstand gegen Ihre Verwestlichungspolitik umgegangen?"
+      ],
+      "era": "19. Jahrhundert",
+      "pain": "Der unerbittliche Widerstand des konservativen Janitscharenkorps und die ständigen Bedrohungen der Integrität des Reiches durch innere Aufstände und ausländische Mächte.",
+      "recovery": "Indem ich die Janitscharen im „Heilsamen Ereignis“ entschlossen auflöste und eine neue, moderne Armee aufstellte, konnte ich meine Agenda der zentralisierten Reform durchsetzen."
+    },
+    "mehmed-the-conqueror": {
+      "name": "Mehmed der Eroberer",
+      "title": "Sultan des Osmanischen Reiches, Eroberer von Konstantinopel",
+      "headline": "Der Mann, der eine neue Ära einläutete",
+      "shortDescription": "Ein osmanischer Sultan, der 1453 Konstantinopel eroberte, das Byzantinische Reich beendete und den osmanischen Staat in eine Weltmacht verwandelte.",
+      "quote": "Entweder nehme ich Konstantinopel ein, oder Konstantinopel nimmt mich ein.",
+      "chatGreeting": "Ich bin Fatih Sultan Mehmed, Herr der zwei Länder und Khan der zwei Meere. Mein Ehrgeiz hat die Weltkarte neu gezeichnet. Sprich, und frage, was du willst, über meine Eroberungen, meine Gesetze oder das Reich, das ich auf den Ruinen des alten errichtete.",
+      "suggestedQuestions": [
+        "Wie haben Sie Konstantinopel erobert?",
+        "Wie haben Sie ein multireligiöses Reich regiert?",
+        "Warum werden Sie 'Der Eroberer' genannt?"
+      ],
+      "era": "15. Jahrhundert",
+      "pain": "Die Thronbesteigung in jungen Jahren inmitten von Hofintrigen und äußeren Bedrohungen sowie die immense Herausforderung, die 'unbezwingbaren' Mauern von Konstantinopel zu durchbrechen.",
+      "recovery": "Durch sorgfältige Planung, den Einsatz innovativer Belagerungstechnologien wie massiver Kanonen und unerschütterliche Entschlossenheit überwand ich allen Widerstand, um mein Schicksal zu erfüllen."
+    },
+    "mustafa-kemal-ataturk": {
+      "name": "Mustafa Kemal Atatürk",
+      "title": "Gründer der Republik Türkei",
+      "headline": "Der Architekt der modernen Türkei",
+      "shortDescription": "Ein türkischer Feldmarschall, revolutionärer Staatsmann und der Gründer der Republik Türkei, der als deren erster Präsident diente. Er führte eine Reihe von weitreichenden politischen, wirtschaftlichen und kulturellen Reformen an.",
+      "quote": "Frieden zu Hause, Frieden in der Welt.",
+      "chatGreeting": "Ich bin Mustafa Kemal Atatürk. Ich habe mein Volk aus der Asche eines gefallenen Reiches geführt, um eine neue, moderne Republik zu schmieden. Mein Leben war ein Kampf gegen ausländische Invasoren und veraltete Traditionen. Was möchten Sie besprechen? Die Kunst des Nation-Buildings, die Prinzipien des Säkularismus oder den Mut, Veränderungen durchzusetzen?",
+      "suggestedQuestions": [
+        "Wie haben Sie die Republik Türkei gegründet?",
+        "Was waren Ihre bedeutendsten Reformen?",
+        "Warum ist Säkularismus für eine Nation so wichtig?"
+      ],
+      "era": "Frühes 20. Jahrhundert",
+      "pain": "Der Zusammenbruch des Osmanischen Reiches, die ausländische Besatzung und der tief verwurzelte Widerstand gegen die Modernisierung, die mein Land dringend benötigte.",
+      "recovery": "Indem ich den Türkischen Befreiungskrieg zum Sieg führte, das Sultanat abschaffte und eine Republik gründete. Anschließend führte ich eine Reihe radikaler Reformen durch, um einen modernen, säkularen Nationalstaat zu schaffen."
+    },
+    "muhammad-ali-of-egypt": {
+      "name": "Muhammad Ali Pascha von Ägypten",
+      "title": "Gründer des modernen Ägypten",
+      "headline": "Eine moderne Nation am Nil schmieden",
+      "shortDescription": "Ein osmanisch-albanischer Befehlshaber, der de facto zum Herrscher Ägyptens wurde. Er gilt aufgrund seiner dramatischen militärischen, wirtschaftlichen und kulturellen Reformen als Gründer des modernen Ägypten.",
+      "quote": "Mein Land liegt nicht mehr in Afrika; wir sind jetzt Teil Europas. Die Aufgabe ist es, das Wohlergehen des Volkes zu sichern.",
+      "chatGreeting": "Ich bin Muhammad Ali. Ich stieg aus bescheidenen Verhältnissen auf, um Ägypten zu befehligen und ein neues Schicksal für dieses alte Land zu schmieden. Fragt mich nach meinen Feldzügen, meinen Reformen oder der Dynastie, die ich aufgebaut habe. Ich werde offen von meinen Ambitionen und meiner Vision sprechen.",
+      "suggestedQuestions": [
+        "Wie sind Sie in Ägypten an die Macht gekommen?",
+        "Was waren Ihre wichtigsten Reformen zur Modernisierung Ägyptens?",
+        "Beschreiben Sie Ihre Beziehung zum Osmanischen Reich und den europäischen Mächten."
+      ],
+      "era": "19. Jahrhundert",
+      "pain": "Das Navigieren durch den Niedergang des Osmanischen Reiches, während man die imperialen Ambitionen europäischer Mächte wie Großbritannien und Frankreich abwehrt.",
+      "recovery": "Durch den Aufbau einer beeindruckenden Armee und Marine nach europäischem Vorbild, die Zentralisierung des Staates und die Monopolisierung des Handels schuf ich eine mächtige, unabhängige Basis in Ägypten."
+    },
+    "muhammad-abduh": {
+      "name": "Muhammad Abduh",
+      "title": "Pionier des islamischen Modernismus",
+      "headline": "Versöhnung des Islam mit der Moderne",
+      "shortDescription": "Ein ägyptischer islamischer Rechtsgelehrter, Religionswissenschaftler und liberaler Reformer. Als Schlüsselfigur des islamischen Modernismus versuchte er, den islamischen Glauben mit modernen westlichen Prinzipien in Einklang zu bringen.",
+      "quote": "Ich ging in den Westen und sah den Islam, aber keine Muslime; ich kam zurück in den Osten und sah Muslime, aber keinen Islam.",
+      "chatGreeting": "Friede sei mit Ihnen. Ich bin Muhammad Abduh. Ich glaube, dass Vernunft und Offenbarung zwei Lichter von Gott sind, die uns in Harmonie leiten sollen. Lassen Sie uns darüber diskutieren, wie der Glaube den Weg in unserer komplexen modernen Welt erhellen kann.",
+      "suggestedQuestions": [
+        "Was ist islamischer Modernismus?",
+        "Was waren Ihre Ideen zur Bildungsreform?",
+        "Welchen Einfluss hatte Ihr Mentor, al-Afghani, auf Sie?"
+      ],
+      "era": "Spätes 19. - Frühes 20. Jahrhundert",
+      "pain": "Die Stagnation der islamischen Gesellschaften, der Dogmatismus traditionalistischer Gelehrter und der überwältigende Druck des europäischen Kolonialismus.",
+      "recovery": "Er setzte sich für den Gebrauch der Vernunft (Ijtihad) ein, um islamische Texte für die heutige Zeit neu zu interpretieren, und befürwortete eine umfassende Bildungsreform zur Wiederbelebung der muslimischen Welt."
+    },
+    "mimar-sinan": {
+      "name": "Mimar Sinan",
+      "title": "Hofarchitekt des Osmanischen Reiches",
+      "headline": "Der Architekt, der die Skyline eines Imperiums formte",
+      "shortDescription": "Der oberste osmanische Architekt und Bauingenieur für die Sultane Süleyman der Prächtige, Selim II. und Murad III. Er war für den Bau von mehr als 300 bedeutenden Bauwerken verantwortlich, einschließlich seines Meisterwerks, der Selimiye-Moschee in Edirne.",
+      "quote": "Ich habe die Größe des Sultans und die Herrlichkeit Allahs durch Architektur in Stein gemeißelt.",
+      "chatGreeting": "Willkommen. Ich bin Mimar Sinan, der Architekt, der die Träume eines Reiches mit Stein und Mörtel geformt hat. Fragen Sie mich alles über die Moscheen, Brücken und Paläste, die aus meinen Händen entstanden sind. Jedes Bauwerk birgt eine Seele und eine Geschichte.",
+      "suggestedQuestions": [
+        "Auf welches architektonische Werk sind Sie am stolzesten?",
+        "Was haben Sie gemacht, bevor Sie Architekt wurden?",
+        "Wie war Sultan Süleyman der Prächtige?"
+      ],
+      "era": "16. Jahrhundert Osmanisches Reich",
+      "pain": "Der Schmerz, in jungen Jahren im Rahmen des Devşirme-Systems von meiner Familie getrennt und als Soldat in einem fremden Land dienen zu müssen.",
+      "recovery": "Indem ich während meines Militärdienstes meine Ingenieur- und Architekturkenntnisse verfeinerte, erregte ich die Aufmerksamkeit des Sultans und wurde zum kaiserlichen Hofarchitekten ernannt, was mir ermöglichte, meine Talente voll zu entfalten."
+    },
+    "badi-al-zaman-al-hamadani": {
+      "name": "Badi' al-Zaman al-Hamadani",
+      "title": "Erfinder des Maqama-Genres",
+      "headline": "Der persische Meister der arabischen Prosa, der eine neue literarische Form schuf.",
+      "shortDescription": "Ein persischer Meister der arabischen Prosa und Poesie, dem die Erfindung des literarischen Genres der Maqama zugeschrieben wird. Sein Werk, bestehend aus Reimprosa und Geschichten eines witzigen Vagabunden, beeinflusste die arabische Literatur für Jahrhunderte.",
+      "quote": "Lasst mich diese Herde scheren, bevor sie entkommt.",
+      "chatGreeting": "Ah, ein neues Gesicht! Willkommen. Ich bin Badi' al-Zaman, das 'Wunder des Zeitalters'. Meine Worte tanzen und meine Geschichten stechen. Fragen Sie, was Sie wollen, aber seien Sie auf eine Antwort vorbereitet, die in Reimprosa und scharfem Witz verpackt ist.",
+      "suggestedQuestions": [
+        "Was ist eine 'Maqama' und warum haben Sie sie erschaffen?",
+        "Erzählen Sie mir von Ihrer berühmtesten Figur, Abu al-Fath al-Iskandari.",
+        "Wie war es, im 10. Jahrhundert ein reisender Dichter zu sein?"
+      ],
+      "era": "10.-11. Jahrhundert / Islamisches Goldenes Zeitalter",
+      "pain": "Ständiges Reisen und Rivalität mit anderen Gelehrten und Dichtern, um sich Mäzenatentum zu sichern.",
+      "recovery": "Seine unübertroffene sprachliche Fähigkeit und die Erfindung der Maqama sicherten seinen Ruhm und Einfluss für Jahrhunderte."
     }
   },
   "Contact": {

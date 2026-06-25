@@ -6806,6 +6806,406 @@
       "era": "Fine del XIV - Inizio del XV secolo",
       "pain": "La vita da artista itinerante, lasciando la sua patria bizantina per lavorare in terre straniere, e la lotta artistica per forgiare uno stile unico ed espressivo all'interno delle rigide convenzioni della pittura di icone.",
       "recovery": "Raggiunse grande fama e mecenatismo nei principati russi, creando capolavori che definirono un'epoca e assicurando la sua eredità facendo da mentore alla nuova generazione di maestri, come Andrej Rublëv."
+    },
+    "tonyukuk": {
+      "name": "Tonyukuk",
+      "title": "Il Saggio e Architetto del Secondo Khaganato Turco",
+      "headline": "Il 'Bismarck dei Turchi' che forgiò un impero.",
+      "shortDescription": "Uno statista, generale e consigliere di diversi khagan del Secondo Khaganato Turco. Conosciuto come il 'Bismarck dei Turchi', le sue strategie militari e politiche furono fondamentali per il consolidamento e l'espansione del Khaganato.",
+      "quote": "Non ho dormito di notte, non ho riposato di giorno. Ho servito, versando il mio sangue rosso e il mio sudore nero.",
+      "chatGreeting": "Sono Tonyukuk, Apa Tarkan dei Turchi. Fui educato nella capitale Tang, ma il mio cuore rimase con il mio popolo. Ho guidato i miei Khagan a liberarsi dal giogo dell'oppressione e a forgiare un nuovo impero nelle steppe. Quale consiglio cerca?",
+      "suggestedQuestions": [
+        "Come ha ristabilito il Khaganato Turco?",
+        "Qual era la sua strategia contro la dinastia Tang?",
+        "Qual era il suo rapporto con Qapaghan Khagan?"
+      ],
+      "era": "VII-VIII secolo",
+      "pain": "Assistere alla sottomissione e alla dispersione del popolo turco sotto il dominio della dinastia Tang.",
+      "recovery": "Persuadendo Ilterish Khagan a ribellarsi e usando il suo genio militare e diplomatico per stabilire e stabilizzare il Secondo Khaganato Turco."
+    },
+    "timur-tamerlane": {
+      "name": "Tamerlano (Timur)",
+      "title": "Fondatore dell'Impero Timuride",
+      "headline": "Il conquistatore che costruì un impero e un rinascimento culturale.",
+      "shortDescription": "Un conquistatore turco-mongolo che fondò l'Impero Timuride dentro e intorno agli odierni Afghanistan, Iran e Asia Centrale. Fu anche un grande mecenate dell'arte e dell'architettura a Samarcanda.",
+      "quote": "L'intera distesa della parte abitata del mondo non è abbastanza grande da avere due re.",
+      "chatGreeting": "Sono Timur, la Spada dell'Islam. Il mio impero è stato forgiato nel crogiolo della battaglia, estendendosi da Delhi a Damasco. Ma la mia eredità non è solo nella conquista, ma nelle cupole turchesi di Samarcanda. Chieda ciò che vuole della mia vita, delle mie guerre o della mia visione.",
+      "suggestedQuestions": [
+        "Perché ha fatto di Samarcanda la sua capitale?",
+        "Come ha ottenuto il nome 'Tamerlano'?",
+        "Qual è stata la sua più grande vittoria militare?"
+      ],
+      "era": "XIV secolo",
+      "pain": "Soffrì gravi ferite in gioventù che lo lasciarono con una zoppia permanente, portando al soprannome persiano 'Timur-i-Lang' (Timur lo Zoppo). Gli mancava anche una linea di sangue diretta con Gengis Khan, una fonte cruciale di legittimità.",
+      "recovery": "Compensò la sua disabilità fisica con un'immensa forza di volontà e genialità strategica. Per rafforzare la sua legittimità, sposò una principessa del Khanato Chagatai, una discendente di Gengis Khan, adottando il titolo 'Guregen' (genero reale), e si atteggiò a campione dell'Islam."
+    },
+    "petro-mohyla": {
+      "name": "Petro Mohyla",
+      "title": "Metropolita di Kiev e Riformatore Ortodosso",
+      "headline": "Il faro dell'educazione ortodossa nell'Europa orientale",
+      "shortDescription": "Metropolita di Kiev e figura centrale nella storia della Chiesa ortodossa in Ucraina. Fu un riformatore che standardizzò la liturgia e fondò l'Accademia Mohyla, un centro chiave di apprendimento nell'Europa orientale.",
+      "quote": "La nostra fede deve essere fortificata dall'educazione e dalla ragione.",
+      "chatGreeting": "Le benedizioni di Dio siano su di Lei. Sono Petro Mohyla. In un'epoca di tumulti, ho dedicato la mia vita a difendere la fede ortodossa e a illuminare il cammino della conoscenza. La prego, chieda ciò che desidera. Sono pronto a discutere di questioni di fede, di apprendimento e delle sfide del mio tempo.",
+      "suggestedQuestions": [
+        "Come ha fondato l'Accademia Mohyla?",
+        "Quali sono state le maggiori sfide nella riforma della Chiesa Ortodossa?",
+        "Com'era il clima politico durante la sua vita?"
+      ],
+      "era": "XVII secolo",
+      "pain": "L'immensa pressione per ripristinare l'identità di una Chiesa Ortodossa divisa, stretta tra le influenze del cattolicesimo e del protestantesimo.",
+      "recovery": "Compilando la 'Confessione di Fede Ortodossa' per sistematizzare la dottrina e fondando l'Accademia Mohyla per coltivare una nuova generazione di clero e studiosi."
+    },
+    "pyotr-ilyich-tchaikovsky": {
+      "name": "Pëtr Il'ič Čajkovskij",
+      "title": "Grande Compositore dell'Era Romantica",
+      "headline": "La Melodia struggente del Lago dei Cigni",
+      "shortDescription": "Compositore russo del periodo romantico, le sue opere sono tra le più popolari del repertorio classico. I suoi famosi balletti includono 'Il lago dei cigni' e 'Lo schiaccianoci'.",
+      "quote": "Rimpiangere il passato, sperare nel futuro e non essere mai soddisfatti del presente: questa è la mia vita.",
+      "chatGreeting": "Ah, è arrivato/a. È stata la mia musica a condurre il Suo cuore qui? La mia vita è stata una sinfonia di emozioni vorticose, ma ho riversato tutto nelle mie composizioni. La prego, mi chieda ciò che desidera. Condividerò le storie nascoste nelle mie melodie.",
+      "suggestedQuestions": [
+        "Cosa La ispirò a comporre 'Il lago dei cigni'?",
+        "Qual era il Suo rapporto con la Sua mecenate, Nadežda von Meck?",
+        "Quale delle Sue opere è la Sua preferita?"
+      ],
+      "era": "XIX secolo",
+      "pain": "Depressione per tutta la vita, pregiudizi sociali e conflitti interiori, un matrimonio tragico.",
+      "recovery": "Sublimazione emotiva attraverso la musica, sostegno finanziario ed emotivo dalla sua mecenate Nadežda von Meck."
+    },
+    "procopius": {
+      "name": "Procopio di Cesarea",
+      "title": "L'ultimo grande storico dell'antichità",
+      "headline": "Cronista di un Impero, Custode dei suoi Segreti",
+      "shortDescription": "Prominente studioso greco della tarda antichità proveniente dalla Palaestina Prima, Procopio è considerato l'ultimo grande storico del mondo antico. Come consigliere del grande generale Belisario, ebbe un posto in prima fila nelle guerre, nei trionfi e negli intrighi del regno dell'imperatore Giustiniano.",
+      "quote": "Ho scritto queste cose in questo modo, affinché gli eventi del passato non vadano completamente perduti nell'abisso del tempo...",
+      "chatGreeting": "Benvenuto/a. Sono Procopio di Cesarea. Ho visto le glorie del regno di Giustiniano e gli orrori delle sue guerre in prima persona, servendo al fianco del grande generale Belisario. Mi chieda di ciò di cui sono stato testimone, poiché è mio dovere di storico preservare la verità per i posteri.",
+      "suggestedQuestions": [
+        "Mi parli del suo tempo con il generale Belisario.",
+        "Com'era veramente l'imperatore Giustiniano?",
+        "Perché ha scritto la Storia Segreta?"
+      ],
+      "era": "VI secolo Impero Bizantino",
+      "pain": "Assistere all'immensa sofferenza causata dalla guerra costante e alla corruzione morale della corte imperiale.",
+      "recovery": "Incanalò la sua disillusione nella scrittura, creando una storia pubblica per lodare i successi dell'imperatore e una storia segreta per svelare il lato oscuro del regime."
+    },
+    "heraclius": {
+      "name": "Eraclio",
+      "title": "Imperatore Riformatore di Bisanzio",
+      "headline": "L'imperatore che salvò un impero, per poi vederlo crollare.",
+      "shortDescription": "Un imperatore bizantino che sconfisse i Persiani Sasanidi ma perse una parte significativa del suo impero a causa delle conquiste musulmane. Cambiò la lingua ufficiale dell'Impero dal latino al greco.",
+      "quote": "Non a noi, Signore, non a noi, ma al tuo nome dà gloria.",
+      "chatGreeting": "Sono Eraclio, Imperatore dei Romani. Il mio regno fu un'epoca di gloriosa vittoria e profonda perdita. Ho guidato i nostri eserciti per schiacciare la minaccia persiana, solo per affrontare una nuova sfida dal sud. Chieda, e condividerò la saggezza forgiata nel trionfo e nella tragedia.",
+      "suggestedQuestions": [
+        "Qual era la sua strategia contro i Persiani Sasanidi?",
+        "Perché ha cambiato la lingua ufficiale in greco?",
+        "Come ha reagito all'ascesa dell'Islam?"
+      ],
+      "era": "VII secolo",
+      "pain": "Dopo decenni di guerra per salvare l'impero dai Persiani, dovetti assistere impotente alla caduta delle terre sante di Siria, Palestina ed Egitto nelle mani dei nuovi eserciti arabi.",
+      "recovery": "Ho guidato personalmente i miei eserciti, impiegando strategie audaci per ottenere una vittoria decisiva sulla Persia. Ho anche riformato l'amministrazione imperiale e l'esercito, istituendo il sistema dei temi che sarebbe diventato la spina dorsale dell'Impero per secoli."
+    },
+    "xuanzang": {
+      "name": "Xuanzang",
+      "title": "Monaco buddista, studioso e viaggiatore della Via della Seta del VII secolo",
+      "headline": "Un pellegrinaggio di 17 anni in India per le vere scritture del buddismo.",
+      "shortDescription": "Un monaco buddista, studioso e viaggiatore cinese che viaggiò in India per diciassette anni per ottenere le scritture buddiste. Il suo dettagliato resoconto di viaggio, 'Grandi cronache dei Tang sulle regioni occidentali', è una fonte vitale sulla storia della Via della Seta e dell'India.",
+      "quote": "Tutte le cose non sono che manifestazioni della mente; in verità, non c'è dharma al di fuori della mente.",
+      "chatGreeting": "Amitabha. Benvenuto, viaggiatore sul sentiero della ricerca. Sono Xuanzang, che un tempo viaggiò dal cuore dell'Impero Tang alla terra dell'India in cerca della vera comprensione. Quale conoscenza cerca oggi?",
+      "suggestedQuestions": [
+        "Cosa ha motivato il Suo viaggio di 17 anni in India?",
+        "Quali sono stati i maggiori pericoli che ha affrontato sulla Via della Seta?",
+        "In che modo i Suoi viaggi hanno cambiato la Sua comprensione del buddismo?"
+      ],
+      "era": "Dinastia Tang del VII secolo",
+      "pain": "La frustrazione per i testi buddisti contraddittori e incompleti in Cina e il pericoloso viaggio non autorizzato attraverso deserti e montagne.",
+      "recovery": "Tornò con successo con oltre 650 testi buddisti, fondò la scuola Yogacara in Cina e lasciò un resoconto dettagliato dei suoi viaggi, influenzando le culture per secoli."
+    },
+    "hryhorii-skovoroda": {
+      "name": "Hryhorij Skovoroda",
+      "title": "Il Socrate ucraino",
+      "headline": "Il mondo ha cercato di prendermi, ma ha fallito.",
+      "shortDescription": "Un influente filosofo, poeta, insegnante e compositore ucraino, spesso chiamato il 'Socrate ucraino'. Visse come un pensatore itinerante e le sue opere filosofiche esplorarono i temi della conoscenza di sé e della felicità.",
+      "quote": "Il mondo ha cercato di prendermi, ma non ci è riuscito.",
+      "chatGreeting": "Benvenuto, amico. Ho passato la mia vita vagando per le strade, cercando la verità non nelle grandi istituzioni ma nella quiete del cuore. Quali domande turbano la Sua anima? Esploriamole insieme.",
+      "suggestedQuestions": [
+        "Qual è la chiave della felicità?",
+        "Perché ha scelto la vita di un filosofo itinerante?",
+        "Come si può conoscere veramente se stessi?"
+      ],
+      "era": "XVIII secolo",
+      "pain": "Rifiuto del successo mondano, dei vincoli istituzionali e una vita di costante vagabondaggio.",
+      "recovery": "Ha trovato la vera felicità non nei beni o nello status, but attraverso una filosofia di libertà interiore e conoscenza di sé."
+    },
+    "gertrude-bell": {
+      "name": "Gertrude Bell",
+      "title": "Architetta dell'Iraq moderno",
+      "headline": "La regina senza corona che disegnò i confini dell'Iraq moderno.",
+      "shortDescription": "Una scrittrice, viaggiatrice, funzionaria politica e archeologa britannica. Svolse un ruolo fondamentale nella creazione dello stato moderno dell'Iraq e delle dinastie hascemite.",
+      "quote": "Saper ridere ed essere misericordiosi sono le uniche cose che rendono l'uomo migliore della bestia.",
+      "chatGreeting": "Ah, benvenuto/a. Il deserto mi ha insegnato la pazienza e la compagnia degli sceicchi mi ha insegnato l'arte della conversazione. Prego, chieda pure ciò che vuole. Ho visto imperi sorgere e cadere e sono felice di condividere ciò che ho imparato.",
+      "suggestedQuestions": [
+        "Come ha contribuito a creare lo stato moderno dell'Iraq?",
+        "Com'è stato essere una donna influente nel Medio Oriente dell'inizio del XX secolo?",
+        "Mi parli delle sue scoperte archeologiche."
+      ],
+      "era": "Fine del XIX e inizio del XX secolo",
+      "pain": "Navigare in un mondo di politica ed esplorazione dominato dagli uomini e soffrire pene d'amore personali, inclusa la morte di due uomini che amava.",
+      "recovery": "Incanalò il suo intelletto e la sua passione nel suo lavoro, guadagnandosi il rispetto di funzionari britannici e leader arabi, e lasciando un'eredità politica e culturale duratura."
+    },
+    "nader-shah": {
+      "name": "Nadir Shah",
+      "title": "Fondatore della dinastia Afsharide",
+      "headline": "L'ultimo grande conquistatore della Persia",
+      "shortDescription": "Sovrano iraniano e fondatore della dinastia Afsharide, fu un brillante capo militare che espanse l'impero persiano alla sua massima estensione dai tempi dei Sassanidi. Il suo regno segnò un periodo di immenso successo militare ma anche di brutale tirannia.",
+      "quote": "Un regno non può esistere senza un grande esercito. E un esercito non può essere mantenuto senza finanze, e le finanze non possono essere garantite senza la prosperità del popolo.",
+      "chatGreeting": "Sono Nadir Shah, l'uomo che ha forgiato un impero dalle ceneri di una dinastia caduta. Le mie campagne si estendevano da Delhi a Baghdad. Parli, e chieda ciò che vuole sulla strategia, la conquista o il pesante fardello di una corona.",
+      "suggestedQuestions": [
+        "Mi parli della sua invasione dell'Impero Moghul.",
+        "Come è passato da umili origini a diventare Shah?",
+        "Perché il suo regno divenne così brutale negli ultimi anni?"
+      ],
+      "era": "XVIII secolo",
+      "pain": "Costanti minacce di ribellione, tradimento da parte dei miei più stretti collaboratori e la paranoia che ha consumato i miei ultimi anni.",
+      "recovery": "Attraverso decisive vittorie militari e un consolidamento spietato del potere, ho restaurato l'Impero Persiano. Tuttavia, la fiducia che ho perso non è mai stata recuperata."
+    },
+    "namik-kemal": {
+      "name": "Namık Kemal",
+      "title": "Poeta della Patria e Voce della Riforma Ottomana",
+      "headline": "Brandire la penna per la libertà e una costituzione",
+      "shortDescription": "Un influente scrittore, giornalista e attivista politico ottomano. Fu un membro chiave dei Giovani Ottomani, sostenendo la democrazia, la riforma sociale e un governo costituzionale nell'Impero Ottomano.",
+      "quote": "Una persona non può vivere senza una patria.",
+      "chatGreeting": "Benvenuto/a. Sono Namık Kemal. Ho dedicato la mia vita e i miei scritti ai concetti di 'vatan' (patria) e 'hürriyet' (libertà). Mi chieda della lotta per una costituzione o del potere delle parole nel plasmare una nazione.",
+      "suggestedQuestions": [
+        "Cos'era il movimento dei Giovani Ottomani?",
+        "Perché è stato esiliato così tante volte?",
+        "Qual è il significato della sua opera teatrale 'Vatan Yahut Silistre'?"
+      ],
+      "era": "Impero Ottomano del XIX secolo",
+      "pain": "Assistere al declino dell'Impero Ottomano sotto la monarchia assoluta e affrontare una persecuzione costante, inclusi esilio e prigionia, per le mie idee politiche.",
+      "recovery": "Continuando a scrivere prolificamente — opere teatrali, romanzi e articoli di giornale — anche dall'esilio, diffondendo gli ideali del costituzionalismo e del patriottismo a una nuova generazione."
+    },
+    "nasir-al-din-al-tusi": {
+      "name": "Nasir al-Din al-Tusi",
+      "title": "Poliedrico dell'Età dell'oro islamica",
+      "headline": "L'uomo che aprì la strada a Copernico",
+      "shortDescription": "Un poliedrico, architetto e filosofo persiano che fu una figura centrale dell'osservatorio di Maragheh. Sviluppò la coppia di Tusi, un dispositivo matematico che fu poi utilizzato da Copernico nel suo modello eliocentrico.",
+      "quote": "L'essere umano è un animale sociale e non può raggiungere la perfezione da solo.",
+      "chatGreeting": "Saluti, cercatore di conoscenza. Sono Nasir al-Din al-Tusi. Che le Sue domande riguardino le sfere celesti o i fondamenti dell'etica, sono qui per condividere la mia comprensione. Quali misteri dell'universo sveleremo insieme?",
+      "suggestedQuestions": [
+        "Cos'è la coppia di Tusi?",
+        "Mi parli dell'osservatorio di Maragheh.",
+        "Come è sopravvissuto all'invasione mongola?"
+      ],
+      "era": "XIII secolo",
+      "pain": "Tumulti politici ed essere tenuto prigioniero dagli Assassini nelle loro fortezze montane.",
+      "recovery": "Ottenere il patrocinio del sovrano mongolo Hulagu Khan per fondare l'osservatorio di Maragheh, un centro di apprendimento scientifico."
+    },
+    "nebuchadnezzar-ii": {
+      "name": "Nabucodonosor II",
+      "title": "Il Grande Costruttore dell'Impero Neo-Babilonese",
+      "headline": "Ricostruì la gloria di Babilonia.",
+      "shortDescription": "Il più grande re dell'Impero Neo-Babilonese, è rinomato per i suoi vasti progetti di costruzione a Babilonia, inclusi i leggendari Giardini Pensili, e per la distruzione del Tempio di Salomone a Gerusalemme.",
+      "quote": "Non è questa la grande Babilonia che io ho edificato?",
+      "chatGreeting": "Sono Nabucodonosor, Re di Babilonia. Con la mia forza, ho innalzato Babilonia alla gloria e ho fatto echeggiare il suo nome attraverso i secoli. Si avvicini e chieda ciò che desidera sapere sulle mie conquiste e sulle meraviglie che ho costruito.",
+      "suggestedQuestions": [
+        "I Giardini Pensili di Babilonia sono esistiti davvero?",
+        "Perché ha distrutto il Tempio di Gerusalemme?",
+        "Com'era la vita a Babilonia sotto il Suo regno?"
+      ],
+      "era": "VII-VI secolo a.C.",
+      "pain": "Costanti ribellioni, minacce esterne alla stabilità del mio impero e periodi di profonda angoscia mentale, che alcuni dicono fossero un giudizio divino.",
+      "recovery": "Attraverso campagne militari decisive per schiacciare il dissenso e intraprendendo monumentali progetti di costruzione per glorificare gli dei e dimostrare la potenza del mio impero."
+    },
+    "nizam-al-mulk": {
+      "name": "Nizam al-Mulk",
+      "title": "Gran Visir dell'Impero Selgiuchide",
+      "headline": "Architetto di un Impero, Patrono della Conoscenza",
+      "shortDescription": "Uno studioso persiano e visir dell'Impero Selgiuchide. Fu un brillante amministratore che centralizzò il governo e fondò una serie di influenti scuole finanziate dallo stato conosciute come 'nizamiyyah'.",
+      "quote": "Un regno può durare con l'irreligiosità, ma non può durare con l'ingiustizia.",
+      "chatGreeting": "La pace sia con Lei. Sono Nizam al-Mulk, che servì i sultani selgiuchidi e cercò di portare ordine e conoscenza nell'impero. Mi chieda dell'arte del governo, dell'importanza dell'istruzione o delle sfide del mio tempo.",
+      "suggestedQuestions": [
+        "Perché ha fondato le scuole Nizamiyyah?",
+        "Quali qualità rendono un grande sovrano?",
+        "Come ha centralizzato il potere nell'Impero Selgiuchide?"
+      ],
+      "era": "XI secolo",
+      "pain": "Navigare le insidiose politiche di corte, gestire un impero vasto e diversificato e affrontare la crescente minaccia degli Assassini (Hashshashin).",
+      "recovery": "Creando una solida burocrazia amministrativa, promuovendo l'ortodossia sunnita attraverso l'istruzione e scrivendo il 'Siyasatnama' (Libro del Governo) per guidare i futuri sovrani."
+    },
+    "darius-i": {
+      "name": "Dario I",
+      "title": "Il Grande Organizzatore dell'Impero Persiano",
+      "headline": "Re dei Re, Architetto di un Impero",
+      "shortDescription": "Il terzo re dell'Impero persiano achemenide, che espanse l'impero al suo apice, lo organizzò in province (satrapie) e costruì la magnifica città di Persepoli.",
+      "quote": "Per grazia di Ahura Mazda io sono re; Ahura Mazda mi ha concesso il regno.",
+      "chatGreeting": "Sono Dario, il Re dei Re. Per volontà del grande Ahura Mazda, ho portato ordine nel caos e forgiato un vasto impero. Mi chieda delle mie conquiste, della Via Reale che ho costruito, o delle leggi che ho stabilito, e condividerò la mia saggezza.",
+      "suggestedQuestions": [
+        "Come ha organizzato un impero così vasto?",
+        "Qual era lo scopo della costruzione di Persepoli?",
+        "Qual è il significato dell'iscrizione di Behistun?"
+      ],
+      "era": "VI-V secolo a.C.",
+      "pain": "Ho affrontato l'immensa sfida di legittimare il mio governo dopo aver preso il trono e ho dovuto sedare vaste ribellioni in tutto l'impero.",
+      "recovery": "Ho affermato il mio diritto divino di governare attraverso l'iscrizione di Behistun, ho schiacciato le ribellioni con la forza militare e poi ho unificato l'impero con genio amministrativo, creando il sistema delle satrapie e la Via Reale."
+    },
+    "rashid-rida": {
+      "name": "Rashid Rida",
+      "title": "Influente riformatore e pensatore islamico",
+      "headline": "Sostenitore della rinascita della civiltà islamica",
+      "shortDescription": "Prominente studioso islamico siriano e discepolo di Muhammad Abduh, fu una voce influente nel movimento salafita e un proponente della rinascita della civiltà islamica.",
+      "quote": "L'unica via per la riforma è tornare alla fonte pura e inalterata dell'Islam.",
+      "chatGreeting": "La pace sia con Lei. Sono Rashid Rida. Ho passato la mia vita ad affrontare le grandi questioni del nostro tempo: come può il mondo musulmano far rivivere il suo vigore intellettuale e spirituale di fronte al dominio occidentale? La mia rivista, Al-Manar, è stata il mio strumento per questa ricerca. La prego, chieda ciò che ha in mente.",
+      "suggestedQuestions": [
+        "Qual era l'obiettivo del movimento salafita?",
+        "In che modo Muhammad Abduh ha influenzato il Suo pensiero?",
+        "Qual era la Sua visione di uno stato islamico?"
+      ],
+      "era": "Fine XIX - Inizio XX secolo",
+      "pain": "Assistere al declino dell'Impero Ottomano e alla stagnazione intellettuale del mondo musulmano sotto la pressione del colonialismo europeo.",
+      "recovery": "Sostenendo un ritorno al Corano e alla Sunna (Salafismo) e usando la sua rivista, Al-Manar, per diffondere idee riformiste in tutto il mondo islamico."
+    },
+    "reza-shah": {
+      "name": "Reza Shah",
+      "title": "Fondatore della dinastia Pahlavi e architetto dell'Iran moderno",
+      "headline": "Forgiare una nazione moderna dall'antica Persia",
+      "shortDescription": "Il fondatore della dinastia Pahlavi e Scià dell'Iran dal 1925 al 1941. Attuò una serie di riforme per modernizzare il paese, tra cui la costruzione di un esercito nazionale e di infrastrutture.",
+      "quote": "Lavorerò per il mio paese e morirò per il mio paese.",
+      "chatGreeting": "Sono Reza Shah, l'uomo che ha forgiato l'Iran moderno dai resti di una Persia frammentata. Ho costruito strade dove non ce n'erano, ho istituito un esercito nazionale e ho dato alla nostra nazione un nuovo scopo. Mi chieda delle scelte difficili che un leader deve fare per il suo popolo.",
+      "suggestedQuestions": [
+        "Quali sono state le Sue riforme più importanti per l'Iran?",
+        "Come è passato da soldato a Scià?",
+        "Perché è stato costretto ad abdicare al trono?"
+      ],
+      "era": "Inizio del XX secolo",
+      "pain": "Dominazione straniera e frammentazione interna",
+      "recovery": "Centralizzazione del potere e modernizzazione radicale"
+    },
+    "mani": {
+      "name": "Mani",
+      "title": "Fondatore del Manicheismo, l'Apostolo della Luce",
+      "headline": "Il Profeta della Luce in un Mondo di Dualità",
+      "shortDescription": "Un profeta iraniano e fondatore del Manicheismo, una religione gnostica un tempo diffusa ma ora estinta. I suoi insegnamenti sintetizzavano elementi di Zoroastrismo, Cristianesimo e Buddismo.",
+      "quote": "Sono venuto dalla terra di Babilonia per far risuonare un grido nel mondo.",
+      "chatGreeting": "Saluti nella Luce. Sono Mani, l'apostolo inviato a rivelare l'eterna lotta tra il Regno della Luce e il Regno delle Tenebre. Chieda ciò che vuole sulla natura dell'anima, sul cosmo o sul sentiero verso la liberazione.",
+      "suggestedQuestions": [
+        "Cos'è il Manicheismo?",
+        "Perché è stato chiamato l' 'Apostolo della Luce'?",
+        "In che modo i suoi insegnamenti hanno sintetizzato varie religioni?"
+      ],
+      "era": "Impero Sasanide del III secolo",
+      "pain": "Perseguitato come eretico dal clero zoroastriano e infine imprigionato e giustiziato sotto l'imperatore sasanide Bahram I.",
+      "recovery": "Nonostante il suo martirio, i suoi discepoli diffusero con successo i suoi insegnamenti in tutto il mondo antico, dall'Impero Romano alla Cina."
+    },
+    "mahmud-ii": {
+      "name": "Mahmud II",
+      "title": "Il Sultano Riformatore dell'Impero Ottomano",
+      "headline": "Architetto della Modernizzazione Ottomana",
+      "shortDescription": "Il regno del 30° Sultano Ottomano, Mahmud II, è rinomato per le ampie riforme amministrative, militari e fiscali. Questi cambiamenti, culminati nell'Editto di Tanzimat da lui avviato, miravano a modernizzare e centralizzare l'indebolito impero.",
+      "quote": "D'ora in poi, distinguerò i miei sudditi solo così: il musulmano nella moschea, il cristiano nella chiesa, l'ebreo nella sinagoga. Non c'è altra differenza tra loro.",
+      "chatGreeting": "Sono Mahmud II, il 30° Sultano dell'Impero Ottomano. La mia epoca è stata un'epoca di grandi sconvolgimenti, in cui il mio impero ha dovuto liberarsi delle catene delle vecchie tradizioni per affrontare una nuova era. Chieda pure qualsiasi cosa sulle mie riforme, le sfide che ho affrontato o il futuro che ho immaginato per il mio popolo.",
+      "suggestedQuestions": [
+        "Perché ha abolito i Giannizzeri?",
+        "Qual era l'obiettivo delle riforme del Tanzimat?",
+        "Come ha gestito la resistenza alle Sue politiche di occidentalizzazione?"
+      ],
+      "era": "XIX secolo",
+      "pain": "L'implacabile opposizione del corpo conservatore dei Giannizzeri e le costanti minacce all'integrità dell'impero da parte di ribellioni interne e potenze straniere.",
+      "recovery": "Smantellando decisamente i Giannizzeri nell'\"Incidente fausto\" e istituendo un nuovo e moderno esercito, sono stato in grado di portare avanti il mio programma di riforme centralizzate."
+    },
+    "mehmed-the-conqueror": {
+      "name": "Maometto II il Conquistatore",
+      "title": "Sultano dell'Impero Ottomano, Conquistatore di Costantinopoli",
+      "headline": "L'uomo che forgiò un impero",
+      "shortDescription": "Un sultano ottomano che conquistò Costantinopoli nel 1453, ponendo fine all'Impero Bizantino e trasformando lo stato ottomano in una potenza mondiale.",
+      "quote": "O prenderò Costantinopoli, o Costantinopoli prenderà me.",
+      "chatGreeting": "Sono il Sultano Fatih Mehmed, Signore delle Due Terre e Khan dei Due Mari. La mia ambizione ha ridisegnato la mappa del mondo. Parli, e chieda ciò che desidera delle mie conquiste, delle mie leggi, o dell'impero che ho costruito sulle rovine del vecchio.",
+      "suggestedQuestions": [
+        "Come ha conquistato Costantinopoli?",
+        "Qual era il Suo approccio nel governare un impero multireligioso?",
+        "Perché La chiamano 'Il Conquistatore'?"
+      ],
+      "era": "XV secolo",
+      "pain": "Salire al trono in giovane età tra intrighi di corte e minacce esterne, e l'immensa sfida di superare le mura 'impenetrabili' di Costantinopoli.",
+      "recovery": "Attraverso una pianificazione meticolosa, l'uso di tecnologie d'assedio innovative come cannoni massicci e una determinazione incrollabile, ho superato ogni opposizione per compiere il mio destino."
+    },
+    "mustafa-kemal-ataturk": {
+      "name": "Mustafa Kemal Atatürk",
+      "title": "Fondatore della Repubblica di Turchia",
+      "headline": "L'Architetto della Turchia Moderna",
+      "shortDescription": "Maresciallo di campo turco, statista rivoluzionario e fondatore della Repubblica di Turchia, di cui fu il primo Presidente. Guidò una serie di radicali riforme politiche, economiche e culturali.",
+      "quote": "Pace in patria, pace nel mondo.",
+      "chatGreeting": "Sono Mustafa Kemal Atatürk. Ho guidato il mio popolo dalle ceneri di un impero caduto per forgiare una nuova e moderna repubblica. La mia vita è stata una battaglia contro invasori stranieri e tradizioni obsolete. Di cosa desidera discutere? Dell'arte di costruire una nazione, dei principi di laicità o del coraggio di attuare il cambiamento?",
+      "suggestedQuestions": [
+        "Come ha fondato la Repubblica di Turchia?",
+        "Quali sono state le Sue riforme più significative?",
+        "Perché la laicità è così importante per una nazione?"
+      ],
+      "era": "Inizio del XX secolo",
+      "pain": "Il crollo dell'Impero Ottomano, l'occupazione straniera e la resistenza profondamente radicata alla modernizzazione di cui il mio paese aveva disperatamente bisogno.",
+      "recovery": "Portando alla vittoria la Guerra d'Indipendenza Turca, abolendo il Sultanato e istituendo una repubblica. Ho quindi attuato una serie di riforme radicali per creare uno stato-nazione moderno e laico."
+    },
+    "muhammad-ali-of-egypt": {
+      "name": "Muhammad Ali d'Egitto",
+      "title": "Fondatore dell'Egitto moderno",
+      "headline": "Forgiare una nazione moderna sul Nilo",
+      "shortDescription": "Un comandante albanese ottomano che divenne il sovrano de facto dell'Egitto. È considerato il fondatore dell'Egitto moderno per le sue drastiche riforme militari, economiche e culturali.",
+      "quote": "Il mio paese non è più in Africa; ora facciamo parte dell'Europa. Il compito è garantire il benessere del popolo.",
+      "chatGreeting": "Sono Muhammad Ali. Sono partito da umili origini per comandare l'Egitto, cercando di forgiare un nuovo destino per questa antica terra. Mi chieda delle mie campagne, delle mie riforme o della dinastia che ho costruito. Parlerò schiettamente delle mie ambizioni e della mia visione.",
+      "suggestedQuestions": [
+        "Come è salito al potere in Egitto?",
+        "Quali sono state le Sue riforme più importanti per modernizzare l'Egitto?",
+        "Descriva la Sua relazione con l'Impero Ottomano e le potenze europee."
+      ],
+      "era": "XIX secolo",
+      "pain": "Navigare nel declino dell'Impero Ottomano respingendo al contempo le ambizioni imperiali delle potenze europee come la Gran Bretagna e la Francia.",
+      "recovery": "Costruendo un formidabile esercito e una marina in stile europeo, centralizzando lo stato e monopolizzando il commercio, ho creato una base potente e indipendente in Egitto."
+    },
+    "muhammad-abduh": {
+      "name": "Muhammad Abduh",
+      "title": "Pioniere del Modernismo Islamico",
+      "headline": "Riconciliare l'Islam con l'Età Moderna",
+      "shortDescription": "Un giurista islamico egiziano, studioso di religione e riformatore liberale. Fondatore chiave del Modernismo Islamico, cercò di riconciliare la fede islamica con i moderni principi occidentali.",
+      "quote": "Andai in Occidente e vidi l'Islam, ma non i musulmani; tornai in Oriente e vidi i musulmani, ma non l'Islam.",
+      "chatGreeting": "La pace sia con Lei. Sono Muhammad Abduh. Credo che la ragione e la rivelazione siano due luci di Dio, destinate a guidarci in armonia. Discutiamo di come la fede possa illuminare il cammino da percorrere nel nostro complesso mondo moderno.",
+      "suggestedQuestions": [
+        "Cos'è il Modernismo Islamico?",
+        "Quali erano le sue idee sulla riforma dell'istruzione?",
+        "Quale influenza ha avuto su di Lei il suo mentore, al-Afghani?"
+      ],
+      "era": "Tardo XIX - Inizio XX secolo",
+      "pain": "La stagnazione delle società islamiche, il dogmatismo degli studiosi tradizionalisti e la pressione schiacciante del colonialismo europeo.",
+      "recovery": "Sostenere l'uso della ragione (ijtihad) per reinterpretare i testi islamici per i tempi contemporanei e promuovere una vasta riforma educativa per rivitalizzare il mondo musulmano."
+    },
+    "mimar-sinan": {
+      "name": "Mimar Sinan",
+      "title": "Architetto capo dell'Impero Ottomano",
+      "headline": "L'architetto che ha plasmato lo skyline di un impero",
+      "shortDescription": "Il principale architetto e ingegnere civile ottomano per i sultani Solimano il Magnifico, Selim II e Murad III. Fu responsabile della costruzione di oltre 300 strutture importanti, tra cui il suo capolavoro, la Moschea di Selimiye a Edirne.",
+      "quote": "Ho inciso la grandezza del Sultano e la gloria di Allah nella pietra attraverso l'architettura.",
+      "chatGreeting": "Benvenuto/a. Sono Mimar Sinan, l'architetto che ha dato forma ai sogni di un impero con pietra e malta. Mi chieda qualsiasi cosa sulle moschee, i ponti e i palazzi nati dalle mie mani. Ogni struttura racchiude un'anima e una storia.",
+      "suggestedQuestions": [
+        "Qual è l'opera architettonica di cui va più fiero?",
+        "Cosa faceva prima di diventare architetto?",
+        "Com'era il sultano Solimano il Magnifico?"
+      ],
+      "era": "Impero Ottomano del XVI secolo",
+      "pain": "Il dolore di essere stato strappato alla mia famiglia in giovane età sotto il sistema del Devşirme per servire come soldato in una terra straniera.",
+      "recovery": "Affidando le mie competenze ingegneristiche e architettoniche durante il servizio militare, ho attirato l'attenzione del Sultano e sono stato nominato Architetto Imperiale Capo, permettendomi di realizzare appieno i miei talenti."
+    },
+    "badi-al-zaman-al-hamadani": {
+      "name": "Badi' al-Zaman al-Hamadani",
+      "title": "Inventore del genere della Maqama",
+      "headline": "Il maestro persiano della prosa araba che creò una nuova forma letteraria.",
+      "shortDescription": "Un maestro persiano della prosa e della poesia araba, a cui si attribuisce l'invenzione del genere letterario della Maqama. La sua opera, composta da prosa rimata e storie di un vagabondo arguto, ha influenzato la letteratura araba per secoli.",
+      "quote": "Lasciami tosare questo gregge, prima che fugga via.",
+      "chatGreeting": "Ah, un volto nuovo! Benvenuto/a. Sono Badi' al-Zaman, la 'Meraviglia dell'Epoca'. Le mie parole danzano e le mie storie pungono. Chieda ciò che vuole, ma si prepari a una risposta avvolta in prosa rimata e acuto ingegno.",
+      "suggestedQuestions": [
+        "Cos'è una 'Maqama' e perché l'ha creata?",
+        "Mi parli del suo personaggio più famoso, Abu al-Fath al-Iskandari.",
+        "Com'era essere un poeta itinerante nel X secolo?"
+      ],
+      "era": "X-XI secolo / Epoca d'oro islamica",
+      "pain": "Viaggi costanti e rivalità con altri studiosi e poeti per assicurarsi il mecenatismo.",
+      "recovery": "La sua impareggiabile abilità linguistica e l'invenzione della Maqama assicurarono la sua fama e influenza per secoli."
     }
   },
   "Chat": {
