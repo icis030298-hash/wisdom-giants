@@ -49,8 +49,8 @@ export function Navigation() {
   ]
 
   const locales = [
-    { code: 'ko', label: '한국어' },
     { code: 'en', label: 'English' },
+    { code: 'ko', label: '한국어' },
     { code: 'de', label: 'Deutsch' },
     { code: 'ja', label: '日本語' },
     { code: 'es', label: 'Español' },

@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useMemo, useEffect } from "react"
-import { Search, Filter, Sparkles, Grid3X3, List } from "lucide-react"
+import { Search, Filter, Sparkles, Grid3X3, List, Globe } from "lucide-react"
 import { giants, categories, type Giant } from "@/lib/giants-data"
 import Image from "next/image"
 import { GiantCard } from "./giant-card"
@@ -18,14 +18,25 @@ export function GiantsGrid({}: GiantsGridProps) {
   const progress = Math.round((totalChatted / giants.length) * 100)
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All Giants")
+  const [selectedRegion, setSelectedRegion] = useState("all")
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid")
   const [currentPage, setCurrentPage] = useState(1)
   const ITEMS_PER_PAGE = 12
 
+  const regions = [
+    "all",
+    "east-asia",
+    "europe",
+    "americas",
+    "middle-east-turkey",
+    "africa",
+    "south-southeast-asia"
+  ]
+
   // Reset to page 1 when filters change
   useEffect(() => {
     setCurrentPage(1)
-  }, [searchQuery, selectedCategory])
+  }, [searchQuery, selectedCategory, selectedRegion])
 
   const filteredGiants = useMemo(() => {
     // Filter out invalid giants first
@@ -37,7 +48,11 @@ export function GiantsGrid({}: GiantsGridProps) {
         selectedCategory === "All Giants" ||
         giant.category === selectedCategory
       
-      if (!matchesCategory) return false
+      const matchesRegion =
+        selectedRegion === "all" ||
+        giant.region === selectedRegion
+      
+      if (!matchesCategory || !matchesRegion) return false
 
       if (!searchQuery) return true
 
@@ -175,6 +190,24 @@ export function GiantsGrid({}: GiantsGridProps) {
               <List className="w-4 h-4" />
             </button>
           </div>
+        </div>
+        
+        {/* Region filters */}
+        <div className="flex flex-wrap items-center gap-2 mt-4 pt-4 border-t border-white/5">
+          <Globe className="w-4 h-4 text-muted-foreground mr-1" />
+          {regions.map((reg) => (
+            <button
+              key={reg}
+              onClick={() => setSelectedRegion(reg)}
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                selectedRegion === reg
+                  ? "bg-amber-500/20 text-amber-300 border border-amber-500/40"
+                  : "glass text-muted-foreground hover:text-foreground hover:bg-amber-500/10"
+              }`}
+            >
+              {t(`regions.${reg}`)}
+            </button>
+          ))}
         </div>
         
         {/* Results count */}

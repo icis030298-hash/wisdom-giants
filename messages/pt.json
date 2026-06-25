@@ -124,7 +124,16 @@
       "last": "Última"
     },
     "progressLabel": "Minha jornada pelos Gigantes",
-    "progressSubtext": "{progress}% explorado! Continue 🏛️"
+    "progressSubtext": "{progress}% explorado! Continue 🏛️",
+    "regions": {
+      "all": "Todas as regiões",
+      "east-asia": "Ásia Oriental",
+      "europe": "Europa",
+      "americas": "Américas",
+      "middle-east-turkey": "Oriente Médio e Turquia",
+      "africa": "África",
+      "south-southeast-asia": "Sul e Sudeste Asiático"
+    }
   },
   "GiantDetail": {
     "returnToSquare": "Voltar ao Salão",
@@ -227,7 +236,7 @@
     "subIntro": "Um espaço para se afastar do ruído e encarar a verdadeira sabedoria.",
     "visionTitle": "De Pé Sobre Ombros de Gigantes",
     "visionDesc": "“Se vi mais longe, foi por estar de pé sobre ombros de gigantes.” — Isaac Newton. Começamos com a crença de que as respostas para nossos problemas modernos complexos podem já estar entrelaçadas nas vidas dos maiores gigantes da história.",
-    "epicTitle": "As Grandes Epopeias de 140 Gigantes",
+    "epicTitle": "As Grandes Epopeias de 500 Gigantes",
     "epicDesc": "Vá além dos meros fatos históricos. Vivencie a grande saga de gigantes que superaram adversidades para remodelar a história humana.",
     "chatTitle": "Diálogo Através das Eras",
     "chatDesc": "Envolva-se em conversas em tempo real com assinaturas restauradas de gigantes impulsionadas por IA avançada (Gemini 2.5 Flash) para buscar percepções aguçadas para seus dilemas modernos.",

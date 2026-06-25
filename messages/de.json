@@ -124,7 +124,16 @@
       "last": "Letzte"
     },
     "progressLabel": "Meine Giganten-Reise",
-    "progressSubtext": "{progress}% erkundet! Weiter so 🏛️"
+    "progressSubtext": "{progress}% erkundet! Weiter so 🏛️",
+    "regions": {
+      "all": "Alle Regionen",
+      "east-asia": "Ostasien",
+      "europe": "Europa",
+      "americas": "Amerika",
+      "middle-east-turkey": "Naher Osten & Türkei",
+      "africa": "Afrika",
+      "south-southeast-asia": "Süd- & Südostasien"
+    }
   },
   "GiantDetail": {
     "returnToSquare": "Zurück zum Platz",
@@ -4939,7 +4948,7 @@
     "subIntro": "Ein Raum, um dem Lärm zu entfliehen und sich der wahren Weisheit zu stellen.",
     "visionTitle": "Auf den Schultern von Riesen stehen",
     "visionDesc": "„Wenn ich weiter gesehen habe, dann durch das Stehen auf den Schultern von Riesen.“ - Isaac Newton. Wir begannen mit der Überzeugung, dass die Antworten auf unsere komplexen modernen Probleme möglicherweise bereits im Leben der größten Giganten der Geschichte verankert sind.",
-    "epicTitle": "Die großen Epen der 140 Riesen",
+    "epicTitle": "Die großen Epen der 500 Riesen",
     "epicDesc": "Gehen Sie über bloße historische Fakten hinaus. Erleben Sie die großartige Saga von Giganten, die Widrigkeiten überwunden haben, um die Geschichte der Menschheit neu zu gestalten.",
     "chatTitle": "Dialog über Epochen hinweg",
     "chatDesc": "Nehmen Sie an Echtzeitgesprächen mit wiederhergestellten Signaturen von Giganten teil, die von fortschrittlicher KI (Gemini 2.5 Flash) angetrieben werden, um scharfe Erkenntnisse für Ihre modernen Dilemmata zu gewinnen.",

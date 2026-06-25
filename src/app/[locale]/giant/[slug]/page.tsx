@@ -231,7 +231,7 @@ export default async function GiantDetailPage({ params }: Props) {
     ],
   };
 
-  const quotationSchema = {
+  const quotationSchema = locale === 'ko' ? {
     '@context': 'https://schema.org',
     '@type': 'Quotation',
     'text': giantTranslation.quote || giant.quote,
@@ -239,7 +239,7 @@ export default async function GiantDetailPage({ params }: Props) {
       '@type': 'Person',
       'name': giantTranslation.name || giant.name
     }
-  };
+  } : null;
 
   const faqSchema = locale === 'ko' && factLayer && factLayer.faq ? {
     '@context': 'https://schema.org',
@@ -258,7 +258,9 @@ export default async function GiantDetailPage({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(quotationSchema) }} />
+      {quotationSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(quotationSchema) }} />
+      )}
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}

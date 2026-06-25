@@ -120,10 +120,10 @@ export default function ContactPage() {
               </h3>
               <p className="text-slate-400 text-sm leading-relaxed">
                 {locale === "ko"
-                  ? "저희는 역사 교육과 AI 기술의 융합을 통해 인류의 지혜를 전달하는 것을 사명으로 하는 팀입니다. 140명 이상의 역사 위인들의 지식을 AI로 복원하여, 현대인들이 시공간을 초월해 위인들의 통찰을 경험할 수 있도록 합니다."
+                  ? "저희는 역사 교육과 AI 기술의 융합을 통해 인류의 지혜를 전달하는 것을 사명으로 하는 팀입니다. 500명 이상의 역사 위인들의 지식을 AI로 복원하여, 현대인들이 시공간을 초월해 위인들의 통찰을 경험할 수 있도록 합니다."
                   : locale === "ja"
-                  ? "私たちは、歴史教育とAI技術の融合を通じて人類の知恵を伝えることを使命とするチームです。140人以上の歴史的偉人の知識をAIで再現し、現代人が時空を超えて偉人の洞察を体験できるようにします。"
-                  : "We are a team dedicated to bridging historical wisdom and modern AI technology. Our mission is to restore and share the insights of 140+ historical giants, enabling people worldwide to experience timeless wisdom across centuries."}
+                  ? "私たちは、歴史教育とAI技術の融合を通じて人類の知恵を伝えることを使命とするチームです。500人以上の歴史的偉人の知識をAIで再現し、現代人が時空を超えて偉人の洞察を体験できるようにします。"
+                  : "We are a team dedicated to bridging historical wisdom and modern AI technology. Our mission is to restore and share the insights of 500+ historical giants, enabling people worldwide to experience timeless wisdom across centuries."}
               </p>
             </div>
           </div>

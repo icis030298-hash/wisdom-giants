@@ -124,7 +124,16 @@
       "last": "Ultimo"
     },
     "progressLabel": "Il mio viaggio tra i Giganti",
-    "progressSubtext": "{progress}% esplorato! Continua 🏛️"
+    "progressSubtext": "{progress}% esplorato! Continua 🏛️",
+    "regions": {
+      "all": "Tutte le regioni",
+      "east-asia": "Asia orientale",
+      "europe": "Europa",
+      "americas": "Americhe",
+      "middle-east-turkey": "Medio Oriente e Turchia",
+      "africa": "Africa",
+      "south-southeast-asia": "Asia meridionale e sud-orientale"
+    }
   },
   "GiantDetail": {
     "returnToSquare": "Torna alla Sala",
@@ -4886,7 +4895,7 @@
     "subIntro": "Uno spazio per allontanarsi dal rumore e incontrare la vera saggezza.",
     "visionTitle": "Sulle Spalle dei Giganti",
     "visionDesc": "“Se ho visto più lontano, è perché stavo sulle spalle di giganti.” - Isaac Newton. Abbiamo iniziato con la convinzione che le risposte ai nostri complessi problemi moderni potrebbero già essere intessute nelle vite delle più grandi figure della storia.",
-    "epicTitle": "Le Grandi Epopee di 140 Figure Storiche",
+    "epicTitle": "Le Grandi Epopee di 500 Figure Storiche",
     "epicDesc": "Vai oltre i meri fatti storici. Vivi la grande saga di figure che hanno superato le avversità per rimodellare la storia umana.",
     "chatTitle": "Dialogo Attraverso le Epoche",
     "chatDesc": "Impegnati in conversazioni in tempo reale con firme restaurate di figure storiche, alimentate da IA avanzata (Gemini 2.5 Flash), per cercare intuizioni affilate per i tuoi dilemmi moderni.",

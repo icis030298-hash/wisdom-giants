@@ -124,7 +124,16 @@
       "last": "末页"
     },
     "progressLabel": "我的巨人探索记录",
-    "progressSubtext": "已探索{progress}%！继续前进 🏛️"
+    "progressSubtext": "已探索{progress}%！继续前进 🏛️",
+    "regions": {
+      "all": "所有地区",
+      "east-asia": "东亚",
+      "europe": "欧洲",
+      "americas": "美洲",
+      "middle-east-turkey": "中东和土耳其",
+      "africa": "非洲",
+      "south-southeast-asia": "南亚和东南亚"
+    }
   },
   "GiantDetail": {
     "returnToSquare": "返回广场",
@@ -227,7 +236,7 @@
     "subIntro": "一个远离喧嚣，面对真正智慧的空间。",
     "visionTitle": "站在巨人的肩膀上",
     "visionDesc": "“如果我看得更远，那是因为我站在巨人的肩膀上。” - 艾萨克·牛顿。我们始于一个信念：我们现代复杂问题的答案，可能已经编织在历史上最伟大巨匠的生活之中。",
-    "epicTitle": "140位巨匠的宏大史诗",
+    "epicTitle": "500位巨匠的宏大史诗",
     "epicDesc": "超越单纯的历史事实。体验那些克服逆境、重塑人类历史的巨匠的宏大传奇。",
     "chatTitle": "跨越时代的对话",
     "chatDesc": "通过先进AI（Gemini 2.5 Flash）驱动的、恢复了签名特征的巨匠，进行实时对话，为您的现代困境寻求深刻的见解。",

@@ -124,7 +124,16 @@
       "last": "Dernier"
     },
     "progressLabel": "Mon voyage parmi les Géants",
-    "progressSubtext": "{progress}% exploré ! Continuez 🏛️"
+    "progressSubtext": "{progress}% exploré ! Continuez 🏛️",
+    "regions": {
+      "all": "Toutes les régions",
+      "east-asia": "Asie de l'Est",
+      "europe": "Europe",
+      "americas": "Amériques",
+      "middle-east-turkey": "Moyen-Orient et Turquie",
+      "africa": "Afrique",
+      "south-southeast-asia": "Asie du Sud et du Sud-Est"
+    }
   },
   "GiantDetail": {
     "returnToSquare": "Retour au Hall",
@@ -4886,7 +4895,7 @@
     "subIntro": "Un espace pour s'éloigner du bruit et faire face à la véritable sagesse.",
     "visionTitle": "Sur les Épaules des Géants",
     "visionDesc": "« Si j'ai vu plus loin, c'est en me tenant sur les épaules de géants. » - Isaac Newton. Nous sommes partis de la conviction que les réponses à nos problèmes modernes complexes sont peut-être déjà tissées dans la vie des plus grands géants de l'Histoire.",
-    "epicTitle": "Les Grandes Épopées de 140 Géants",
+    "epicTitle": "Les Grandes Épopées de 500 Géants",
     "epicDesc": "Allez au-delà des simples faits historiques. Vivez la grande saga de géants qui ont surmonté l'adversité pour remodeler l'histoire humaine.",
     "chatTitle": "Dialogue à travers les Époques",
     "chatDesc": "Engagez des conversations en temps réel avec des géants recréés grâce à une IA avancée (Gemini 2.5 Flash) pour obtenir des conseils avisés face à vos dilemmes modernes.",

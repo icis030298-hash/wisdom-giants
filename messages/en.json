@@ -124,7 +124,16 @@
       "last": "Last"
     },
     "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️"
+    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "regions": {
+      "all": "All Regions",
+      "east-asia": "East Asia",
+      "europe": "Europe",
+      "americas": "Americas",
+      "middle-east-turkey": "Middle East & Turkey",
+      "africa": "Africa",
+      "south-southeast-asia": "South & Southeast Asia"
+    }
   },
   "GiantDetail": {
     "returnToSquare": "Return to the Square",
@@ -4887,7 +4896,7 @@
     "subIntro": "A space to step away from the noise and face true wisdom.",
     "visionTitle": "Standing on the Shoulders of Giants",
     "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 140 Giants",
+    "epicTitle": "The Grand Epics of 500 Giants",
     "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
     "chatTitle": "Dialogue Across Eras",
     "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",

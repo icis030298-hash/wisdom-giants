@@ -1,4 +1,5 @@
 import { giantsData } from "@/data/giants";
+import { regionsMap } from "@/data/regions-map";
 
 export interface Giant {
   id: string;
@@ -14,6 +15,7 @@ export interface Giant {
   dnaCode: string;
   category: string; // Add category ID
   lessons?: any[];
+  region?: 'east-asia' | 'europe' | 'americas' | 'middle-east-turkey' | 'africa' | 'south-southeast-asia';
 }
 
 const colorMap: Record<string, string> = {
@@ -43,7 +45,8 @@ export const giants: Giant[] = giantsData
         ? `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/giants/${g.slug}.jpg` 
         : g.imageUrl,
     category: g.category,
-    lessons: g.lessons
+    lessons: g.lessons,
+    region: regionsMap[g.slug]
   }))
   .filter(g => g.id && g.id.trim().length > 0);
 
