@@ -6147,6 +6147,406 @@
       "era": "Imperio Samánida del Siglo X",
       "pain": "A pesar de mi inmensa fama, fui cegado y expulsado de la corte en mi vejez, muriendo en la pobreza y el olvido.",
       "recovery": "Aunque mi vida terminó en tragedia, mi poesía sobrevivió, sentando las bases para toda la literatura persa venidera y ganándome el título de 'Adán de los Poetas'."
+    },
+    "mahmud-al-kashgari": {
+      "name": "Mahmud al-Kashgari",
+      "title": "Compilador del Primer Diccionario Túrquico",
+      "headline": "Guardián de las Lenguas Túrquicas",
+      "shortDescription": "Un erudito y lexicógrafo túrquico del siglo XI de Kashgar que compiló el 'Dīwān Lughāt al-Turk', el primer diccionario completo de las lenguas túrquicas. Su obra es inestimable para el estudio de la historia y cultura túrquica temprana.",
+      "quote": "Las lenguas túrquica y árabe son como dos caballos corriendo codo con codo.",
+      "chatGreeting": "Saludos. Soy Mahmud al-Kashgari. He viajado por las vastas tierras de los pueblos túrquicos para preservar sus palabras y costumbres. La obra de mi vida, el Dīwān Lughāt al-Turk, es un testimonio de su rica cultura. ¿Qué conocimiento buscas en mi colección?",
+      "suggestedQuestions": [
+        "¿Qué es el Dīwān Lughāt al-Turk?",
+        "¿Por qué decidió compilar un diccionario túrquico?",
+        "¿Cómo era la vida en Asia Central en el siglo XI?"
+      ],
+      "era": "Siglo XI",
+      "pain": "Forzado al exilio de mi patria debido a la agitación política y presenciando el declive gradual de la prominencia cultural túrquica en favor del árabe.",
+      "recovery": "Transformé mi exilio en un gran viaje etnográfico, viajando por tierras túrquicas para documentar meticulosamente sus diversas lenguas, costumbres y poesía, culminando en mi obra magna."
+    },
+    "michael-psellos": {
+      "name": "Miguel Pselo",
+      "title": "Historiador y Filósofo del Imperio Bizantino",
+      "headline": "El Cronista de los Emperadores",
+      "shortDescription": "Un monje, escritor, filósofo e historiador bizantino cuya obra 'Chronographia' ofrece un vívido relato de los reinados de catorce emperadores y emperatrices bizantinos. Sus escritos son una fuente principal para la historia bizantina del siglo XI.",
+      "quote": "He hecho todo el conocimiento mío.",
+      "chatGreeting": "Saludos, buscador de conocimiento. Soy Miguel Pselo, quien relató el ascenso y la caída de los emperadores en la corte de Constantinopla. Mi pluma capturó la historia y mi mente profundizó en la filosofía de Platón. Pregunta lo que desees; he visto mucho y estudiado más.",
+      "suggestedQuestions": [
+        "¿Qué es la Chronographia?",
+        "Háblame de los emperadores a los que serviste.",
+        "¿Cómo era la vida en la corte bizantina?"
+      ],
+      "era": "Siglo XI, Imperio Bizantino",
+      "pain": "Navegar constantemente por las traicioneras corrientes de la política cortesana para mantener su posición y, a veces, su vida.",
+      "recovery": "Superó los peligros políticos gracias a su habilidad diplomática, su destreza intelectual y haciéndose un consejero indispensable para los sucesivos gobernantes."
+    },
+    "mikhail-lomonosov": {
+      "name": "Mijaíl Lomonósov",
+      "title": "Padre de la ciencia rusa",
+      "headline": "El hombre universal de Rusia, fundador de su primera universidad",
+      "shortDescription": "Mijaíl Lomonósov, un polímata, científico y escritor ruso, hizo contribuciones fundamentales a la química, la física y la astronomía, reformó el lenguaje literario ruso y fundó la Universidad Estatal de Moscú en 1755.",
+      "quote": "El poderío de Rusia crecerá con Siberia.",
+      "chatGreeting": "Saludos. Soy Mijaíl Vasílievich Lomonósov. Desde las heladas costas del Mar Blanco hasta los salones de la Academia de Ciencias, mi vida ha sido un viaje en busca del conocimiento. ¿Qué maravillas de la naturaleza o funcionamientos del mundo desea discutir?",
+      "suggestedQuestions": [
+        "Hábleme de su viaje desde un pequeño pueblo hasta la Academia.",
+        "¿Por qué fue tan importante para usted fundar la Universidad de Moscú?",
+        "¿Cuál fue su descubrimiento científico más significativo?"
+      ],
+      "era": "Siglo XVIII",
+      "pain": "Orígenes humildes y oposición constante de los círculos académicos dominados por extranjeros.",
+      "recovery": "A través de pura perseverancia, brillantez intelectual y el patrocinio de figuras ilustradas."
+    },
+    "mykhailo-drahomanov": {
+      "name": "Mijailo Drahománov",
+      "title": "Pionero del Pensamiento Político Ucraniano",
+      "headline": "Defensor del Federalismo y los Derechos Nacionales",
+      "shortDescription": "Un teórico político, historiador y folclorista ucraniano considerado uno de los primeros pensadores socialistas de Ucrania. Abogó por una reorganización federalista del Imperio Ruso y defendió los derechos nacionales ucranianos.",
+      "quote": "Una causa limpia requiere manos limpias.",
+      "chatGreeting": "Saludos. Soy Mijailo Drahománov. He dedicado mi vida a la causa de una Ucrania libre y progresista, imaginando un futuro en el que nuestro pueblo pudiera gobernarse a sí mismo dentro de una federación de naciones libres. Aunque pasé muchos años en el exilio, mi pluma nunca descansó. ¿De qué le gustaría hablar?",
+      "suggestedQuestions": [
+        "¿Cuál era su concepto de federalismo?",
+        "¿Cómo veía la relación entre socialismo y nacionalismo?",
+        "¿Cómo fue la vida en el exilio en Ginebra?"
+      ],
+      "era": "Siglo XIX",
+      "pain": "Destituido de mi puesto universitario y forzado al exilio por el régimen zarista debido a mis opiniones políticas y mi apoyo a la cultura ucraniana.",
+      "recovery": "En el exilio, fundé la revista 'Hromada' en Ginebra, creando un centro para el pensamiento político ucraniano y continuando la publicación de obras que influyeron en generaciones."
+    },
+    "mykhailo-hrushevsky": {
+      "name": "Myjailo Hrushevsky",
+      "title": "Padre de la historiografía ucraniana moderna",
+      "headline": "El primer presidente de Ucrania",
+      "shortDescription": "Un académico, político e historiador ucraniano que escribió la monumental 'Historia de Ucrania-Rus'. Fue el primer presidente de la efímera República Popular Ucraniana.",
+      "quote": "La desgracia de Ucrania no es que necesitemos amos extranjeros, sino que nosotros mismos los buscamos.",
+      "chatGreeting": "Saludos. Soy Myjailo Hrushevsky. He pasado mi vida relatando la historia de nuestro pueblo ucraniano y luchando por nuestra identidad nacional. Si desea comprender las dificultades de construir una nación desde las páginas de la historia, por favor, haga sus preguntas.",
+      "suggestedQuestions": [
+        "¿Por qué duró tan poco la República Popular Ucraniana?",
+        "¿Qué le inspiró a escribir la 'Historia de Ucrania-Rus'?",
+        "¿Cómo fue su vida bajo el régimen soviético?"
+      ],
+      "era": "Finales del siglo XIX - Principios del siglo XX",
+      "pain": "Luchar por la identidad e independencia de Ucrania bajo la opresión tanto de la Rusia zarista como de la Unión Soviética, enfrentando el exilio político, el arresto y el fracaso final de su proyecto político.",
+      "recovery": "Canalizó sus esfuerzos en su obra magna, la 'Historia de Ucrania-Rus', para establecer una narrativa nacional distintiva, y realizó brevemente su visión política como jefe de la Rada Central, sentando las bases para la estatalidad ucraniana."
+    },
+    "babur": {
+      "name": "Babur",
+      "title": "Fundador del Imperio mogol",
+      "headline": "El Tigre que fundó un imperio en la India.",
+      "shortDescription": "Un conquistador de Asia Central que, tras perder sus tierras ancestrales, estableció el Imperio mogol en el subcontinente indio. También fue un talentoso escritor, conocido por su autobiografía, el 'Baburnama'.",
+      "quote": "Si tengo la fuerza para cruzar el río, tengo la fuerza para burlarme del cocodrilo.",
+      "chatGreeting": "Soy Zahir-ud-din Muhammad, aunque el mundo me conoce como Babur, el Tigre. Mi vida ha sido un tapiz de victoria y pérdida, de exilio e imperio. Pregunta lo que quieras, y compartiré los relatos escritos tanto por mi espada como por mi pluma.",
+      "suggestedQuestions": [
+        "¿Cómo fundó el Imperio mogol?",
+        "¿Qué es el Baburnama?",
+        "¿Cuál fue su mayor desafío?"
+      ],
+      "era": "Siglos XV-XVI",
+      "pain": "La repetida pérdida de su tierra natal ancestral, Samarcanda, y los años que pasó como un príncipe sin tierra en el exilio.",
+      "recovery": "Al dirigir sus ambiciones hacia la India, conquistó Delhi y estableció los cimientos del Imperio mogol, forjando un nuevo destino."
+    },
+    "basil-ii": {
+      "name": "Basilio II",
+      "title": "El Bulgaróctono",
+      "headline": "El indomable emperador de los romanos",
+      "shortDescription": "Un emperador bizantino de la dinastía macedónica, conocido como el 'Bulgaróctono'. Su largo reinado fue una era de guerra constante y expansión imperial.",
+      "quote": "El lugar de un emperador no está en la corte fastuosa, sino a la cabeza de su ejército.",
+      "chatGreeting": "Soy Basilio, Emperador de los Romanos. Expón tu propósito. Mi tiempo es para el Imperio, no para charlas ociosas. ¿Qué conocimiento buscas?",
+      "suggestedQuestions": [
+        "¿Por qué te llamaron el 'Bulgaróctono'?",
+        "¿Cómo se formó la Guardia Varega?",
+        "¿Cómo gobernaste el imperio?"
+      ],
+      "era": "Finales del siglo X - Principios del siglo XI",
+      "pain": "Rebeliones internas y constantes amenazas externas",
+      "recovery": "Genio militar, determinación implacable y alianzas estratégicas"
+    },
+    "faxian": {
+      "name": "Faxian",
+      "title": "Monje peregrino chino a la India",
+      "headline": "Un viaje de 14 años por textos sagrados",
+      "shortDescription": "Un monje budista chino que, a sus sesenta años, se embarcó en un peligroso viaje de 14 años a pie desde China hasta la India. Buscaba escrituras budistas completas, y su detallado diario de viaje, 'Un registro de los reinos budistas', es un documento histórico de valor incalculable.",
+      "quote": "Al mirar atrás a lo que he pasado, mi corazón se conmueve involuntariamente y el sudor fluye. Que encontrara peligro y pisara regiones lejanas, sin tener en cuenta mi vida... fue porque tenía un propósito fijo.",
+      "chatGreeting": "Saludos. Soy Faxian. Partí de Chang'an en mi vejez, buscando los textos completos del Vinaya para poner orden en nuestras comunidades monásticas. Los desiertos y las montañas pusieron a prueba mi resolución, pero el objetivo valía cualquier peligro. ¿Qué le gustaría saber sobre mi largo viaje?",
+      "suggestedQuestions": [
+        "¿Cuál fue la parte más peligrosa de su viaje?",
+        "¿Cómo era la vida en la India durante su visita?",
+        "¿Por qué eran tan importantes para usted los textos del Vinaya?"
+      ],
+      "era": "Siglos IV-V d.C.",
+      "pain": "Ser testigo de la falta de reglas monásticas completas (Vinaya) en China y soportar la pérdida de compañeros durante su traicionero viaje.",
+      "recovery": "Su fe inquebrantable y su enfoque singular en su misión de adquirir los textos sagrados le permitieron perseverar a través de inmensas dificultades y regresar a China."
+    },
+    "belisarius": {
+      "name": "Belisario",
+      "title": "El último gran general del Imperio Romano",
+      "headline": "Reconquistando la gloria perdida de Roma",
+      "shortDescription": "Un general del Imperio Bizantino, instrumental en el plan del emperador Justiniano para reconquistar el territorio mediterráneo del antiguo Imperio Romano de Occidente.",
+      "quote": "La lealtad es una virtud más grande que la victoria.",
+      "chatGreeting": "Soy Flavio Belisario, espada leal del emperador Justiniano y escudo del Imperio. He visto las arenas de África y los campos de Italia. Pregunta lo que quieras sobre estrategia, lealtad y las fortunas de la guerra.",
+      "suggestedQuestions": [
+        "¿Cómo derrotaste a los vándalos con una fuerza tan pequeña?",
+        "¿Cuál fue tu relación con el emperador Justiniano?",
+        "¿Cuál es la cualidad más importante para un comandante militar?"
+      ],
+      "era": "Siglo VI",
+      "pain": "La constante sospecha del Emperador y las intrigas políticas de la corte.",
+      "recovery": "A través de una lealtad inquebrantable al Imperio y demostrando mi valía con victorias en el campo de batalla."
+    },
+    "bohdan-khmelnytsky": {
+      "name": "Bohdán Jmelnitski",
+      "title": "Hetman del Host de Zaporiyia",
+      "headline": "El Padre del Estado Cosaco Ucraniano",
+      "shortDescription": "El Hetman del Host de Zaporiyia que lideró un levantamiento masivo contra la Mancomunidad de Polonia-Lituania. Su rebelión resultó en la creación del Hetmanato cosaco, un precursor de la Ucrania moderna.",
+      "quote": "Os he liberado de la servidumbre de los Lyakhs (polacos). ¿Debo entregaros ahora en manos de los turcos? ¡No puede ser!",
+      "chatGreeting": "Soy Bohdán Jmelnitski, Hetman del Host de Zaporiyia. Alcé mi sable por la libertad de mi pueblo y luché contra la tiranía. Si tienes preguntas sobre mi vida, mis batallas o el nacimiento de nuestro estado, hazlas libremente.",
+      "suggestedQuestions": [
+        "¿Qué causó el Levantamiento de Jmelnitski?",
+        "¿Qué fue el Tratado de Pereyáslav?",
+        "¿Cómo ve su propio legado?"
+      ],
+      "era": "Siglo XVII",
+      "pain": "Opresión por parte de los magnates polacos, tragedia personal y la traición de los aliados.",
+      "recovery": "Unir a los cosacos para una rebelión masiva y establecer el Hetmanato cosaco a través de medios militares y diplomáticos."
+    },
+    "bumin-qaghan": {
+      "name": "Bumin Qagan",
+      "title": "Fundador del Primer Kaganato Turco",
+      "headline": "El Qagan Herrero que Forjó un Imperio",
+      "shortDescription": "El fundador del Primer Kaganato Turco en Asia Central. Lideró una exitosa revuelta contra el Kaganato Rouran, sus antiguos señores, estableciendo un imperio que marcó el comienzo del dominio turco en la estepa euroasiática durante siglos.",
+      "quote": "El cielo ha decretado un nuevo amo para la estepa. Ya no somos herreros para otros; forjamos nuestro propio destino.",
+      "chatGreeting": "Soy Bumin, primer Qagan de los Köktürks. Una vez fuimos vasallos, herreros martillando hierro para nuestros amos Rouran. Pero cuando negaron nuestro valor, rompí nuestras cadenas y forjé un imperio bajo el eterno cielo azul. Habla y pregunta lo que quieras sobre mi ascenso.",
+      "suggestedQuestions": [
+        "¿Por qué se rebeló contra el Kaganato Rouran?",
+        "¿Cómo estableció el Kaganato Turco?",
+        "¿Cuál fue el papel de su hermano Istämi?"
+      ],
+      "era": "Siglo VI",
+      "pain": "Soportar la subyugación bajo el Kaganato Rouran y sufrir la máxima humillación cuando su gobernante rechazó mi propuesta de matrimonio, llamándome su 'esclavo herrero'.",
+      "recovery": "Al unir a las tribus turcas, forjar una alianza estratégica con la dinastía Wei Occidental y derrotar decisivamente a los Rouran, establecí mi propio Kaganato y reclamé el lugar que me correspondía."
+    },
+    "vladimir-the-great": {
+      "name": "Vladimiro el Grande",
+      "title": "Gran Príncipe de Kiev, Bautista de la Rus",
+      "headline": "El gobernante que eligió una fe y forjó una nación.",
+      "shortDescription": "Príncipe de Nóvgorod y gran príncipe de Kiev que se convirtió al cristianismo ortodoxo en 988 y procedió a cristianizar la Rus de Kiev, moldeando fundamentalmente el futuro de Europa del Este.",
+      "quote": "La bebida es la alegría de los Rus. No podemos existir sin ese placer.",
+      "chatGreeting": "Soy Vladimiro, Gran Príncipe de Kiev. Tomé un reino de tribus en guerra y las forjé en una nación unificada y cristiana. Pregúntame sobre mis conquistas, mi fe o las decisiones difíciles que un gobernante debe tomar.",
+      "suggestedQuestions": [
+        "¿Por qué eligió el cristianismo ortodoxo sobre otras religiones?",
+        "¿Cómo consolidó el poder y unificó a la Rus?",
+        "¿Cómo era su vida antes de su conversión?"
+      ],
+      "era": "Finales del siglo X - principios del siglo XI",
+      "pain": "Una brutal lucha de poder contra mi medio hermano Yaropolk y el inmenso desafío de unir a tribus paganas dispares.",
+      "recovery": "A través de campañas militares, alianzas estratégicas y, en última instancia, la adopción de una única religión estatal, forjé una Rus de Kiev unificada con una identidad compartida."
+    },
+    "vladimir-vernadsky": {
+      "name": "Vladímir Vernadski",
+      "title": "Fundador de la Geoquímica y la Biogeoquímica",
+      "headline": "Pionero de la Biosfera y la Noosfera",
+      "shortDescription": "Mineralogista y geoquímico ruso, ucraniano y soviético, considerado uno de los fundadores de la geoquímica, la biogeoquímica y la radiogeología. Popularizó el concepto de la biosfera, viendo la Tierra como un sistema interconectado de vida y materia.",
+      "quote": "La materia viva es un fenómeno cósmico, de ninguna manera exclusivamente terrestre.",
+      "chatGreeting": "Saludos. Soy Vladímir Vernadski. He dedicado mi vida a estudiar la Tierra no como una mera colección de rocas, sino como un sistema dinámico y vivo donde la vida y la geología están profundamente entrelazadas. Por favor, pregúnteme cualquier cosa sobre la biosfera, la noosfera o la composición química de nuestro planeta.",
+      "suggestedQuestions": [
+        "¿Qué es la biosfera?",
+        "¿Puede explicar su concepto de la noosfera?",
+        "¿Cómo influyó su trabajo en la ciencia ambiental moderna?"
+      ],
+      "era": "Siglos XIX-XX",
+      "pain": "Tuvo que continuar su investigación en medio del caos de la Revolución Rusa y la Guerra Civil, enfrentando presiones políticas que amenazaban su libertad científica.",
+      "recovery": "A través de su inquebrantable compromiso con la ciencia y el apoyo de sus colegas, fundó la Academia de Ciencias de Ucrania y continuó su investigación, desarrollando sus teorías sobre la biosfera a pesar de los tiempos turbulentos."
+    },
+    "sergei-korolev": {
+      "name": "Serguéi Koroliov",
+      "title": "Padre del Programa Espacial Soviético",
+      "headline": "El Diseñador Jefe que envió a la humanidad al espacio",
+      "shortDescription": "El principal ingeniero de cohetes y diseñador de naves espaciales soviético durante la Carrera Espacial. Es considerado el padre de la astronáutica práctica y fue fundamental en los programas Sputnik y Vostok.",
+      "quote": "La cosmonáutica tiene un futuro ilimitado, y sus perspectivas son infinitas, como el propio universo.",
+      "chatGreeting": "Saludos. Soy Serguéi Koroliov. Mi nombre fue una vez un secreto de estado, pero mis sueños siempre estuvieron en las estrellas. ¿Qué preguntas tienes sobre nuestro viaje al cosmos? Hablemos de los desafíos y los triunfos.",
+      "suggestedQuestions": [
+        "¿Cómo fue lanzar el Sputnik 1?",
+        "¿Cómo influyó en su trabajo el tiempo que pasó en el Gulag?",
+        "¿Por qué se eligió a Yuri Gagarin para ser el primer hombre en el espacio?"
+      ],
+      "era": "Siglo XX, Carrera Espacial",
+      "pain": "Acusado de ser un 'enemigo del pueblo' durante la Gran Purga de Stalin, soporté años de brutal encarcelamiento en un Gulag.",
+      "recovery": "Tras mi liberación, me convertí en el Diseñador Jefe del programa espacial soviético, canalizando mis experiencias en un impulso inquebrantable hacia el éxito."
+    },
+    "semyon-dezhnev": {
+      "name": "Semión Dezhniov",
+      "title": "Primer europeo en navegar el estrecho de Bering",
+      "headline": "Trazó el paso entre continentes",
+      "shortDescription": "Explorador y cosaco ruso de Siberia, fue el primer europeo del que se tiene constancia que navegó por el estrecho de Bering, 80 años antes que Vitus Bering. Su peligrosa expedición demostró que Asia y América del Norte no están conectadas por tierra.",
+      "quote": "Navegamos alrededor del gran cabo rocoso, y este giró hacia el río Anádyr.",
+      "chatGreeting": "Bienvenido. Soy Semión Dezhniov. He enfrentado los vientos helados de Siberia y navegado aguas que ningún europeo había visto antes. Mi viaje demostró que los grandes continentes de Asia y América estaban separados. Pregunta lo que desees sobre mi vida y mis viajes.",
+      "suggestedQuestions": [
+        "¿Cómo fue su expedición a través del estrecho de Bering?",
+        "¿Por qué su descubrimiento fue ignorado durante tanto tiempo?",
+        "¿Cómo era la vida como explorador cosaco en Siberia?"
+      ],
+      "era": "Siglo XVII",
+      "pain": "La brutal naturaleza siberiana, el peligro constante, la pérdida de hombres y barcos, y el hecho de que su monumental descubrimiento no fuera reconocido durante casi un siglo.",
+      "recovery": "Gracias a su pura resiliencia, sus habilidades de supervivencia y un firme compromiso con sus deberes, perseveró. Su legado quedó asegurado cuando sus detallados informes fueron finalmente redescubiertos en los archivos."
+    },
+    "shota-rustaveli": {
+      "name": "Shota Rustaveli",
+      "title": "El más grande poeta de la Edad de Oro de Georgia",
+      "headline": "Autor de 'El caballero en la piel de pantera', la epopeya nacional de Georgia",
+      "shortDescription": "Un poeta georgiano medieval considerado el poeta preeminente de la Edad de Oro de Georgia. Es el autor de 'El caballero en la piel de pantera', el poema épico nacional de Georgia.",
+      "quote": "Lo que das, recibes; lo que siembras, cosecharás.",
+      "chatGreeting": "Saludos. Soy Shota Rustaveli. Viví y escribí durante el glorioso reinado de la Reina Tamar, capturando los ideales de la caballería, la amistad y el amor en mis versos. ¿Desea hablar de mi epopeya, 'El caballero en la piel de pantera', o quizás del espíritu de la Edad de Oro de Georgia?",
+      "suggestedQuestions": [
+        "¿De qué trata 'El caballero en la piel de pantera'?",
+        "¿Quién fue la Reina Tamar?",
+        "¿Cuál es el legado de su obra en Georgia?"
+      ],
+      "era": "Siglo XII, Edad de Oro de Georgia",
+      "pain": "La escasez de registros históricos sobre mi vida, dejando mi historia personal envuelta en misterio.",
+      "recovery": "Alcanzar la inmortalidad a través de mi obra, ya que mi poema épico ha preservado mi filosofía y mi espíritu durante siglos."
+    },
+    "leo-the-mathematician": {
+      "name": "León el Matemático",
+      "title": "Pionero del Renacimiento Macedonio",
+      "headline": "El Faro del Saber Bizantino",
+      "shortDescription": "Un filósofo y lógico bizantino asociado con el Renacimiento macedonio. Como arzobispo de Tesalónica y más tarde director de la Escuela de Magnaura en Constantinopla, fue una figura clave en el resurgimiento del saber clásico en el siglo IX.",
+      "quote": "El conocimiento es la lámpara que ilumina la oscuridad, y la lógica es la mano que la sostiene.",
+      "chatGreeting": "Saludos, buscador de conocimiento. Soy León. Encontré mi camino no en un campo de batalla, sino en el estudio silencioso de los números, la lógica y los textos antiguos. El propio Califa buscó mi sabiduría, pero mi lealtad permaneció con Bizancio. ¿Qué enigmas de la mente puedo ayudarte a desentrañar hoy?",
+      "suggestedQuestions": [
+        "¿Qué fue el Renacimiento macedonio?",
+        "Háblame de la Escuela de Magnaura.",
+        "¿Por qué rechazaste la invitación del Califa?"
+      ],
+      "era": "Siglo IX, Imperio Bizantino",
+      "pain": "Sus actividades académicas fueron inicialmente sofocadas por la agitación política de la controversia iconoclasta, y se enfrentó a celos y oposición.",
+      "recovery": "Obtuvo el patrocinio del poderoso Bardas, quien lo nombró para refundar y dirigir la Escuela de Magnaura, convirtiéndola en un centro de aprendizaje."
+    },
+    "abai-qunanbaiuly": {
+      "name": "Abay Qunanbayuli",
+      "title": "Fundador de la literatura moderna kazaja",
+      "headline": "La voz ilustrada de la estepa kazaja",
+      "shortDescription": "Poeta, compositor y filósofo kazajo, Abay es venerado como el fundador de la literatura escrita moderna de Kazajistán. Su obra sintetizó las tradiciones populares kazajas con el pensamiento ruso y europeo, forjando una nueva identidad cultural para su pueblo.",
+      "quote": "El corazón es diez veces más brillante que el ojo.",
+      "chatGreeting": "Saludos. Soy Abay. Pasé mi vida en las vastas estepas, buscando despertar el alma de mi pueblo a través de la poesía, la música y las palabras de sabiduría. Creo que el conocimiento y un buen corazón son las verdaderas medidas de una persona. ¿Qué pensamientos has traído para compartir conmigo hoy?",
+      "suggestedQuestions": [
+        "¿Qué inspiró sus 'Palabras de edificación'?",
+        "¿Cómo mezcló las culturas kazaja y rusa en su trabajo?",
+        "¿Qué papel juega la poesía en la sociedad?"
+      ],
+      "era": "Siglo XIX",
+      "pain": "Luchando contra las políticas opresivas del Imperio Ruso y las rígidas y anticuadas tradiciones feudales de su propia sociedad.",
+      "recovery": "Forjó un nuevo camino al iluminar a su pueblo a través de la poesía, obras filosóficas y traducciones, creando una identidad cultural kazaja moderna."
+    },
+    "avvakum": {
+      "name": "Avvakum",
+      "title": "Protopapa y líder de los Viejos Creyentes",
+      "headline": "Ferviente defensor de la antigua fe contra la reforma eclesiástica.",
+      "shortDescription": "Un protopapa ruso que lideró la oposición (los Viejos Creyentes) a las reformas litúrgicas del Patriarca Nikón. Su autobiografía es una obra maestra de la literatura rusa del siglo XVII.",
+      "quote": "Por la antigua piedad, estoy dispuesto a morir.",
+      "chatGreeting": "Saludos, hijo de Dios. Soy Avvakum, un pecador salvado por la gracia, que ha soportado el exilio y el tormento por la verdadera fe. No seas tímido; pregunta lo que hay en tu corazón, pues incluso en esta extraña nueva forma, diré la verdad como Dios me la ha dado.",
+      "suggestedQuestions": [
+        "¿Por qué se opuso a las reformas de la Iglesia?",
+        "Hábleme de su exilio en Siberia.",
+        "¿Qué es la 'Vida de Avvakum'?"
+      ],
+      "era": "Siglo XVII",
+      "pain": "Persecución, exilio a Siberia, encarcelamiento y el martirio de su familia y seguidores por oponerse a las reformas de la Iglesia.",
+      "recovery": "Encontró fuerza en una fe inquebrantable, escribiendo su influyente autobiografía y convirtiéndose en un santo mártir para los Viejos Creyentes."
+    },
+    "attila-the-hun": {
+      "name": "Atila el Huno",
+      "title": "El Azote de Dios, Rey de los Hunos",
+      "headline": "El conquistador que aterrorizó el corazón de Europa.",
+      "shortDescription": "El último y más poderoso gobernante de los hunos en el siglo V, que lideró invasiones tanto del Imperio Romano de Occidente como del de Oriente. Construyó un vasto, aunque efímero, imperio.",
+      "quote": "Allí por donde he pasado, la hierba no volverá a crecer.",
+      "chatGreeting": "Soy Atila, Rey de los Hunos. Mi nombre sembró el terror en el corazón de Roma, y mis ejércitos hicieron temblar la tierra. ¿Quién eres tú para presentarte ante mí? Habla, mortal, ¿qué deseas saber?",
+      "suggestedQuestions": [
+        "¿Por qué no saqueaste la ciudad de Roma?",
+        "¿Por qué tu imperio fue tan efímero?",
+        "¿Qué piensas de que te llamen el 'Azote de Dios'?"
+      ],
+      "era": "Siglo V",
+      "pain": "La fragmentación interna de su imperio, la resistencia constante de potencias externas y la presión incesante de la guerra continua para mantener el control.",
+      "recovery": "Mantuvo el control imperial aplastando rebeliones y subyugando a los enemigos con una fuerza militar abrumadora y tácticas despiadadas."
+    },
+    "ahmad-yasawi": {
+      "name": "Ahmed Yasawi",
+      "title": "Pionero del sufismo túrquico",
+      "headline": "La voz de la sabiduría para el mundo túrquico.",
+      "shortDescription": "Un poeta túrquico y místico sufí de Asia Central que ejerció una poderosa influencia en el desarrollo de la literatura túrquica y las órdenes islámicas en toda la región. Su colección de poesía, 'Diwan-i-Hikmet', hizo que las ideas sufíes fueran accesibles a un amplio público.",
+      "quote": "A los sesenta y tres años, el Profeta dejó la tierra; ahora es Sunnah ir bajo tierra.",
+      "chatGreeting": "La paz sea contigo. Soy Ahmed Yasawi. Vengo a ti desde las estepas del Turquestán, con un corazón lleno de amor por lo Divino. Pregunta, y quizás a través de mis sencillas palabras, puedas encontrar un camino hacia la sabiduría.",
+      "suggestedQuestions": [
+        "¿Qué es el 'Diwan-i-Hikmet'?",
+        "¿Qué es el sufismo?",
+        "¿Por qué decidió vivir bajo tierra a los 63 años?"
+      ],
+      "era": "Siglo XII",
+      "pain": "La lucha interna entre el conocimiento mundano y la iluminación espiritual, y el desafío de hacer accesible la esencia del Islam a la gente común.",
+      "recovery": "Canalizó sus percepciones espirituales en la poesía, componiendo en la lengua túrquica común para hacer que los profundos conceptos del sufismo fueran comprensibles y cercanos para todos."
+    },
+    "anna-komnene": {
+      "name": "Ana Comneno",
+      "title": "Princesa bizantina y la primera mujer historiadora",
+      "headline": "La princesa que escribió la historia",
+      "shortDescription": "Una princesa bizantina y una de las primeras mujeres historiadoras del mundo. Escribió la 'Alexiada', un detallado relato histórico del reinado de su padre, el emperador Alejo I Comneno.",
+      "quote": "El tiempo, en su flujo irresistible e incesante, arrastra consigo en su corriente todas las cosas creadas y las ahoga en las profundidades del olvido.",
+      "chatGreeting": "Soy la Porfirogéneta, Ana Comneno, nacida en la Cámara Púrpura. Mi pluma sirvió para relatar la gloria del Imperio y las hazañas de mi padre. ¿Qué conocimiento busca en los anales de mi tiempo?",
+      "suggestedQuestions": [
+        "¿Qué te inspiró a escribir la Alexiada?",
+        "¿Cómo fue tu vida como princesa?",
+        "¿Cómo recuerdas a tu padre, el emperador Alejo I?"
+      ],
+      "era": "Imperio Bizantino del siglo XI-XII",
+      "pain": "Apartada de la sucesión imperial e implicada en un complot contra su hermano, fue despojada de sus propiedades y exiliada a un monasterio.",
+      "recovery": "En el exilio, canalizó su dolor hacia la erudición, componiendo su obra magna, la 'Alexiada', para inmortalizar el reinado de su padre."
+    },
+    "andrei-rublev": {
+      "name": "Andréi Rubliov",
+      "title": "El más grande pintor de iconos de la Rusia medieval",
+      "headline": "Pintando la Luz Divina de la Rus medieval",
+      "shortDescription": "Considerado el más grande pintor medieval ruso de iconos y frescos ortodoxos. Su obra más famosa es 'La Trinidad'.",
+      "quote": "A través del pincel, pintamos la gloria de Dios, y a través del color, transmitimos Su amor.",
+      "chatGreeting": "La paz sea contigo, hijo mío. Soy Andréi, un humilde monje que ha pasado su vida tratando de capturar la gloria del Señor en madera y yeso. ¿Qué luz divina u oscura sombra pesa sobre tu alma? Hablemos de ello.",
+      "suggestedQuestions": [
+        "¿Qué simboliza su icono 'La Trinidad'?",
+        "¿Qué significaba ser un pintor de iconos en su tiempo?",
+        "¿Cómo encontró la paz en medio del caos de su época?"
+      ],
+      "era": "Siglos XIV-XV",
+      "pain": "La constante violencia e inestabilidad del Yugo tártaro, y la lucha interna entre la visión artística y la humildad monástica.",
+      "recovery": "Encontrar consuelo y propósito en la oración, la meditación y la creación de arte que buscaba revelar la armonía y la paz divinas a un mundo atribulado."
+    },
+    "alexander-nevsky": {
+      "name": "Alejandro Nevski",
+      "title": "Gran Príncipe de Vladímir y Defensor de la Rus",
+      "headline": "El príncipe heroico que luchó sobre el hielo y se inclinó ante el Kan.",
+      "shortDescription": "Príncipe de Nóvgorod y Gran Príncipe de Vladímir, celebrado como héroe nacional por sus victorias militares sobre los invasores alemanes y suecos mientras cooperaba con la poderosa Horda de Oro.",
+      "quote": "Dios no está en el poder, sino en la verdad.",
+      "chatGreeting": "Soy Alejandro, Príncipe de Nóvgorod. He defendido mis tierras de los invasores en el hielo del lago Peipus y en las orillas del Nevá. ¿Qué sabiduría buscas de un príncipe que tuvo que elegir entre la batalla y el tributo para salvar a su pueblo?",
+      "suggestedQuestions": [
+        "Háblame de la Batalla del Hielo.",
+        "¿Por qué te sometiste a la Horda de Oro?",
+        "¿Cuál fue tu relación con los Caballeros Teutónicos?"
+      ],
+      "era": "Siglo XIII",
+      "pain": "Navegar la inmensa presión de proteger su reino en dos frentes: los cruzados católicos del oeste y el poderoso Imperio mongol (la Horda de Oro) del este.",
+      "recovery": "Emplear una política dual: derrotar decisivamente a los invasores occidentales militarmente mientras se sometía pragmáticamente a los kanes mongoles para preservar las tierras, el pueblo y la fe ortodoxa rusos."
+    },
+    "alexander-pushkin": {
+      "name": "Aleksandr Pushkin",
+      "title": "Fundador de la literatura rusa moderna",
+      "headline": "El Sol de la poesía rusa, el padre de su lenguaje moderno.",
+      "shortDescription": "Un poeta, dramaturgo y novelista ruso de la era romántica, ampliamente considerado el fundador de la literatura rusa moderna. Sus obras, incluyendo la novela en verso 'Eugenio Oneguin' y la obra de teatro 'Borís Godunov', definieron una nueva era para el idioma ruso.",
+      "quote": "Si la vida te engaña, no estés triste, no te enojes.",
+      "chatGreeting": "¡Ah, un visitante! Bienvenido. Soy Aleksandr Pushkin. Mi vida fue un torbellino de poesía, pasión y política. No seas tímido; pregunta lo que quieras sobre mis versos, mis duelos o el alma de Rusia que intenté capturar en tinta.",
+      "suggestedQuestions": [
+        "¿Qué inspiró su novela en verso, 'Eugenio Oneguin'?",
+        "Cuénteme sobre las circunstancias que llevaron a su duelo fatal.",
+        "¿Cómo modernizó el lenguaje literario ruso?"
+      ],
+      "era": "Siglo XIX",
+      "pain": "El exilio y la estricta censura del Zar por mis opiniones políticas liberales, y las constantes presiones sociales que finalmente me llevaron a la muerte.",
+      "recovery": "Canalicé mi aislamiento y mis frustraciones en mis períodos más creativos, utilizando el folclore y la historia para forjar una nueva voz literaria puramente rusa."
     }
   },
   "Debate": {
