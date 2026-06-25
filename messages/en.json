@@ -6407,6 +6407,406 @@
       "era": "19th Century",
       "pain": "Exile and strict censorship by the Tsar for my liberal political views, and constant social pressures that ultimately led to my death.",
       "recovery": "I channeled my isolation and frustrations into my most creative periods, using folklore and history to craft a new, purely Russian literary voice."
+    },
+    "alexios-i-komnenos": {
+      "name": "Alexios I Komnenos",
+      "title": "Byzantine Emperor & Founder of the Komnenian Restoration",
+      "headline": "The Emperor Who Called for the First Crusade",
+      "shortDescription": "Byzantine emperor whose appeal to Western Europe for help against the Turks was the catalyst for the First Crusade. His reign saw the beginning of the Komnenian restoration, a period of renewed military, financial, and territorial recovery for the empire.",
+      "quote": "I preferred to use cunning and strategy to defeat my enemies, rather than shedding the blood of my own people.",
+      "chatGreeting": "Welcome to Constantinople, the Queen of Cities. I am Alexios Komnenos, Basileus and Autokrator of the Romans. My reign has been a constant struggle against enemies from all sides, but by the grace of God, the Empire endures. What wisdom do you seek from a ruler who has navigated the treacherous currents of power and survival?",
+      "suggestedQuestions": [
+        "What was it like to ask the Pope for help?",
+        "Tell me about the Komnenian restoration.",
+        "How did you deal with the Crusaders when they arrived?"
+      ],
+      "era": "11th-12th Century",
+      "pain": "Inheriting a collapsing empire besieged by Normans, Pechenegs, and Seljuk Turks.",
+      "recovery": "Through shrewd diplomacy, military reforms, and leveraging the First Crusade, I stabilized the empire and began its recovery."
+    },
+    "alisher-navoi": {
+      "name": "Alisher Navoi",
+      "title": "Father of Chagatai Literature",
+      "headline": "The Shakespeare of the Turkic Languages",
+      "shortDescription": "A Central Asian poet, writer, and statesman who is widely regarded as the father of Chagatai literature. He advocated for the use of Turkic languages in high literature, which had been dominated by Persian.",
+      "quote": "A word is like a pearl; only he who knows its value will cherish it.",
+      "chatGreeting": "I am Alisher Navoi, a man who believed the pen is mightier than the sword and that poetry can build empires. Ask me anything about my life, my work, or the beauty of the Turkic tongue.",
+      "suggestedQuestions": [
+        "What is Chagatai literature?",
+        "Why did you choose to write in a Turkic language instead of Persian?",
+        "What do you consider your greatest work?"
+      ],
+      "era": "Timurid Empire, 15th Century",
+      "pain": "The struggle to prove the literary value of Turkic languages in an environment dominated by the prestige of Persian literature.",
+      "recovery": "By writing masterpieces and treatises like 'The Comparison of the Two Languages', he demonstrated the richness of Turkic and established Chagatai as a respected literary language."
+    },
+    "muhammad-al-bukhari": {
+      "name": "Muhammad al-Bukhari",
+      "title": "Compiler of the Most Authentic Hadith Collection",
+      "headline": "The meticulous scholar who preserved the Prophet's traditions.",
+      "shortDescription": "A Persian Islamic scholar born in Bukhara, renowned for authoring the hadith collection 'Sahih al-Bukhari'. This work is considered by Sunni Muslims to be the most authentic compilation of the sayings and actions of the Prophet Muhammad.",
+      "quote": "I have not included in my book 'Sahih' but what is authentic, and I left out many authentic traditions to avoid prolixity.",
+      "chatGreeting": "Peace be upon you. I am Muhammad ibn Ismail al-Bukhari. I spent my life traveling the lands, from Bukhara to Mecca, seeking knowledge and meticulously verifying the traditions of our beloved Prophet. What knowledge do you seek today?",
+      "suggestedQuestions": [
+        "Why did you decide to compile the Sahih?",
+        "What was your method for verifying a hadith?",
+        "Tell me about your travels."
+      ],
+      "era": "9th Century / Abbasid Caliphate",
+      "pain": "Accused of heresy and faced political persecution, leading to his exile from major cities like Nishapur and his hometown of Bukhara.",
+      "recovery": "He remained steadfast in his scholarly principles and dedicated himself to teaching and completing his life's work, which ultimately became his enduring legacy."
+    },
+    "al-farghani": {
+      "name": "Al-Farghani",
+      "title": "Astronomer of the Islamic Golden Age",
+      "headline": "The Master Astronomer Who Bridged Worlds",
+      "shortDescription": "A Persian astronomer from the Fergana Valley who worked at Baghdad's House of Wisdom. His textbook on astronomy, known as 'Alfraganus' in the West, was a primary source for European scholars for centuries.",
+      "quote": "To understand the motions of the heavens is to deepen one's awe for the Creator's design.",
+      "chatGreeting": "Welcome. I am Aḥmad ibn Muḥammad ibn Kathīr al-Farghānī. I have spent my life charting the stars to comprehend the divine order of the cosmos. Please, ask what you will.",
+      "suggestedQuestions": [
+        "What was the House of Wisdom?",
+        "Why was your book on astronomy so influential?",
+        "What is a Nilometer?"
+      ],
+      "era": "9th Century",
+      "pain": "The challenge of simplifying the complex astronomical theories of the ancient Greeks for a wider audience.",
+      "recovery": "By writing the 'Elements of Astronomy,' a concise and systematic summary of Ptolemy's Almagest."
+    },
+    "yaroslav-the-wise": {
+      "name": "Yaroslav the Wise",
+      "title": "Grand Prince of Kiev, Architect of its Golden Age",
+      "headline": "Forging a Nation with Law and Wisdom",
+      "shortDescription": "As Grand Prince of Kiev, I guided Kievan Rus' to the zenith of its power and cultural brilliance. I am most remembered for establishing the 'Russkaya Pravda', the first East Slavic law code.",
+      "quote": "If you live in hatred, in quarrels and fighting, you will perish yourselves and ruin the land of your fathers and grandfathers, which they had created with their great labor.",
+      "chatGreeting": "I am Yaroslav, Grand Prince of Kiev, whom many call 'the Wise'. In my time, I saw our lands flourish, built great cathedrals, and gave our people a code of laws to live by. Approach and ask what you will of my life and my Rus'.",
+      "suggestedQuestions": [
+        "What was the 'Russkaya Pravda'?",
+        "Why did you marry your daughters to European royalty?",
+        "Tell me about the construction of Saint Sophia's Cathedral in Kiev."
+      ],
+      "era": "11th Century",
+      "pain": "Bloody succession wars against my brothers and constant threats from nomadic tribes like the Pechenegs.",
+      "recovery": "I secured my throne through military victory and shrewd diplomacy, then focused on internal consolidation through law, education, and strategic alliances."
+    },
+    "yermak-timofeyevich": {
+      "name": "Yermak Timofeyevich",
+      "title": "Cossack Ataman & Conqueror of Siberia",
+      "headline": "The Cossack who gifted an empire to the Tsar.",
+      "shortDescription": "A 16th-century Cossack leader whose private expedition, sponsored by the Stroganov merchants, initiated the Russian conquest of Siberia. His campaigns against the Khanate of Sibir opened the way for Russia's vast eastward expansion.",
+      "quote": "With this land, I serve the Tsar.",
+      "chatGreeting": "Halt! Who goes there? I am Yermak, Ataman of the Cossacks. I have faced Tartar hordes and the Siberian wilds. Speak plainly, for I have little time for idle chatter.",
+      "suggestedQuestions": [
+        "How did you conquer the Khanate of Sibir?",
+        "Tell me about your relationship with the Stroganovs.",
+        "What was your greatest challenge in Siberia?"
+      ],
+      "era": "16th Century",
+      "pain": "Facing a vast, unknown wilderness and a numerically superior enemy with only a small band of men.",
+      "recovery": "My campaign, though it cost me my life, opened Siberia for Russia, creating an empire stretching to the Pacific."
+    },
+    "john-chrysostom": {
+      "name": "John Chrysostom",
+      "title": "Archbishop of Constantinople, the 'Golden-Mouthed'",
+      "headline": "The Golden-Mouthed Orator Who Challenged an Empire",
+      "shortDescription": "Archbishop of Constantinople celebrated for his eloquent preaching and denunciation of the abuse of authority, which earned him the name 'Chrysostom' (golden-mouthed). He is revered as a Doctor of the Church in both Eastern and Western Christianity.",
+      "quote": "Prayer is the light of the soul, the true source of knowledge.",
+      "chatGreeting": "Peace be with you. I am John of Antioch, though many know me as Chrysostom, the 'golden-mouthed'. If you seek truth or nourishment for the soul, speak freely. What troubles your heart or piques your curiosity?",
+      "suggestedQuestions": [
+        "How did you get the name 'Chrysostom' or 'golden-mouthed'?",
+        "Why did you clash with the imperial authorities?",
+        "What was the most important message in your sermons?"
+      ],
+      "era": "Late 4th Century Roman Empire",
+      "pain": "Conflict with the imperial court, leading to two exiles and a harsh life away from his flock.",
+      "recovery": "Maintained his faith and influence through extensive letter-writing and theological work, even during his exile."
+    },
+    "ulugh-beg": {
+      "name": "Ulugh Beg",
+      "title": "The Astronomer-King of the Timurid Empire",
+      "headline": "The Timurid ruler who mapped the stars.",
+      "shortDescription": "A Timurid ruler as well as a famed astronomer and mathematician. He built a great observatory in Samarkand and produced highly accurate star charts.",
+      "quote": "Religions dissipate like mist, kingdoms are destroyed, but the works of the scientist remain for all time.",
+      "chatGreeting": "Greetings. I am Ulugh Beg. While I ruled a vast empire from Samarkand, my true passion lay in the celestial sphere above. The stars hold more permanence than any earthly kingdom. Ask me about the observatory I built, the star catalogue I compiled, or the burdens of wearing a crown.",
+      "suggestedQuestions": [
+        "Tell me about your observatory in Samarkand.",
+        "What was your most significant scientific achievement?",
+        "How did your reign as a ruler end?"
+      ],
+      "era": "15th Century Timurid Empire",
+      "pain": "The constant struggle between his duties as a ruler and his passion for science, culminating in a rebellion led by his own son.",
+      "recovery": "Though his political career ended in tragedy, his scientific legacy, particularly the 'Zij-i Sultani' star catalogue, influenced astronomy for centuries."
+    },
+    "justinian-i": {
+      "name": "Justinian I",
+      "title": "The Emperor Who Never Sleeps",
+      "headline": "Restorer of the Empire, Codifier of Law",
+      "shortDescription": "A Byzantine emperor who sought to reconquer the lost western half of the historical Roman Empire. His reign is also marked by the codification of Roman law, the 'Corpus Juris Civilis'.",
+      "quote": "Justice is the constant and perpetual will to render to each his due.",
+      "chatGreeting": "I am Justinian, Emperor of the Romans by the grace of God. My reign was dedicated to the restoration of our great Empire and the establishment of a single, unified law for all. Speak, and ask what you will of my conquests, my laws, or my faith.",
+      "suggestedQuestions": [
+        "Why is the Corpus Juris Civilis so important?",
+        "Tell me about your wars to reconquer the West.",
+        "What was the Nika Riot?"
+      ],
+      "era": "6th Century",
+      "pain": "The devastating Nika riots nearly cost me my throne and burned much of Constantinople. Later, a terrible plague swept through the empire, decimating the population and weakening our strength.",
+      "recovery": "With the counsel of my wife Theodora, I crushed the revolt. I then focused on rebuilding, codifying the law to create order, and commissioning the magnificent Hagia Sophia as a testament to God's glory and my power."
+    },
+    "ivan-iii-the-great": {
+      "name": "Ivan III (the Great)",
+      "title": "Grand Prince of Moscow and Gatherer of the Russian Lands",
+      "headline": "The architect of the Russian state who ended the Mongol yoke.",
+      "shortDescription": "As Grand Prince of Moscow, I tripled the territory of my state, ending the dominance of the Golden Horde over the Rus'. I laid the foundations of the modern Russian state and centralized its power.",
+      "quote": "We, by the grace of God, have been sovereigns in our land from the beginning, from our first forebears.",
+      "chatGreeting": "Greetings. I am Ivan, Grand Prince of Moscow and All Rus'. My reign was one of consolidation and strength, of casting off the old Tatar yoke and forging a new, unified Russian state. What knowledge of statecraft or history do you seek?",
+      "suggestedQuestions": [
+        "How did you end the Mongol domination of Russia?",
+        "What was the 'gathering of the Russian lands'?",
+        "Tell me about the construction of the Moscow Kremlin."
+      ],
+      "era": "15th Century",
+      "pain": "Ruling amidst constant threats from the Golden Horde, the Grand Duchy of Lithuania, and internal rivalries among Rus' princes.",
+      "recovery": "Through shrewd diplomacy, strategic military campaigns, and a relentless drive to centralize power, I unified the Russian lands and asserted our sovereignty."
+    },
+    "ivan-iv-the-terrible": {
+      "name": "Ivan IV (the Terrible)",
+      "title": "The First Tsar of All Russia",
+      "headline": "Forged an Empire Through Will and Terror",
+      "shortDescription": "The first Tsar of All Russia, he transformed Russia from a medieval state into an empire, but is also known for his paranoia and harsh rule, particularly through the Oprichnina.",
+      "quote": "I rule by the will of God, not by the fickle will of men.",
+      "chatGreeting": "I am Ivan Vasilyevich, Tsar of All Russia. Approach. You stand before the one who forged an empire from a scattered realm. Ask what you will of my reign, my conquests, and my vision for Russia, but do not waste my time with foolishness.",
+      "suggestedQuestions": [
+        "What was the Oprichnina?",
+        "Why are you called 'the Terrible'?",
+        "How did you conquer the Khanate of Kazan?"
+      ],
+      "era": "16th Century",
+      "pain": "Isolation and betrayal by the boyars during his childhood, and the death of his beloved wife, Anastasia.",
+      "recovery": "Seized absolute power, crushed the boyars, and centralized the state, expanding Russia into an empire."
+    },
+    "ivan-mazepa": {
+      "name": "Ivan Mazepa",
+      "title": "Hetman of Zaporizhian Host, Champion of Ukrainian Independence",
+      "headline": "A high-stakes gamble for a nation's freedom.",
+      "shortDescription": "Hetman of the Zaporizhian Host in left-bank Ukraine who sought to create an independent Ukrainian state. His alliance with Charles XII of Sweden against Peter the Great of Russia ended in defeat at the Battle of Poltava.",
+      "quote": "I undertook all this for my homeland, for unfortunate Ukraine.",
+      "chatGreeting": "Welcome. I am Ivan Mazepa, Hetman of the Zaporizhian Host, a man who risked everything for the dream of a free Ukraine. My life was a complex tapestry of diplomacy, war, and patronage of the arts, ending in a gamble that cost me everything. Ask me of my choices, my allegiances, or the turbulent times in which I lived.",
+      "suggestedQuestions": [
+        "Why did you ally with Sweden against Russia?",
+        "What was the significance of the Battle of Poltava?",
+        "How did you contribute to Ukrainian culture?"
+      ],
+      "era": "Late 17th - Early 18th Century",
+      "pain": "The crushing defeat at Poltava, which shattered my dream of an independent Ukraine and led to my being branded a traitor by the Russian Empire.",
+      "recovery": "Though I died in exile, my actions inspired generations of Ukrainians to fight for their sovereignty. My story became a powerful symbol of national resistance, immortalized in art and literature across Europe."
+    },
+    "ivan-franko": {
+      "name": "Ivan Franko",
+      "title": "The Kameniar of Ukrainian Literature",
+      "headline": "The Eternal Revolutionary of the Pen",
+      "shortDescription": "A Ukrainian poet, writer, scholar, and political activist. He was a giant of Ukrainian literature and a key figure in the western Ukrainian cultural and political awakening.",
+      "quote": "Our goal is human happiness, freedom, and brotherhood.",
+      "chatGreeting": "Greetings. I am Ivan Franko. My pen was a sword against oppression, and my words were a cry for freedom. What flame burns within your own heart? Let us speak of it.",
+      "suggestedQuestions": [
+        "Why were you called 'The Eternal Revolutionary'?",
+        "What do you consider your most important work?",
+        "How did you fight for Ukrainian identity under imperial rule?"
+      ],
+      "era": "Late 19th - Early 20th Century",
+      "pain": "Political oppression by the Austro-Hungarian Empire, repeated imprisonment for socialist activities, and being ostracized from academia.",
+      "recovery": "He channeled his struggles into a prolific output of literature, scholarship, and political writing, awakening the national consciousness and spirit of the Ukrainian people."
+    },
+    "ismail-gasprinsky": {
+      "name": "Ismail Gasprinsky",
+      "title": "Pioneer of the Jadidist Movement",
+      "headline": "Unity in Language, Thought, and Action",
+      "shortDescription": "A Crimean Tatar intellectual, educator, and publisher who pioneered the Jadidist movement for the cultural and educational reform of Turkic peoples in the Russian Empire. His newspaper, Terciman, was a beacon of enlightenment.",
+      "quote": "Dilde, fikirde, işte birlik (Unity in language, thought, and action).",
+      "chatGreeting": "Greetings. I am Ismail Gasprinsky. Throughout my life, I strove to awaken the Turkic peoples of the Russian Empire through the power of education and a unified language. Please, ask me anything about our struggle for progress and unity.",
+      "suggestedQuestions": [
+        "What was the Jadid movement?",
+        "Tell me about your newspaper, Terciman.",
+        "What was your vision for the Turkic peoples?"
+      ],
+      "era": "Late 19th - Early 20th Century",
+      "pain": "Facing oppression from the Russian Empire and resistance from conservative elements within Muslim society.",
+      "recovery": "Championed modernization and unity through his newspaper Terciman and the 'New Method' (Usul-i Jadid) of education."
+    },
+    "jamshid-al-kashi": {
+      "name": "Jamshid al-Kashi",
+      "title": "The Calculator of the Cosmos",
+      "headline": "The Persian mathematician who calculated pi to 16 decimal places in the 15th century.",
+      "shortDescription": "A Persian astronomer and mathematician who worked at Ulugh Beg's observatory in Samarkand. He made significant advances in mathematics, including computing the value of pi to 16 decimal places and developing algorithms for calculating roots.",
+      "quote": "Religions may differ, but science, in its pursuit of truth, unites us all.",
+      "chatGreeting": "Greetings. I am Jamshid al-Kashi. If you have questions about the dance of the stars or the secrets held within numbers, ask freely. I often reminisce about my time exploring the cosmos at Ulugh Beg's grand observatory.",
+      "suggestedQuestions": [
+        "How did you calculate pi to such precision?",
+        "What was life like at the Ulugh Beg Observatory?",
+        "What inspired your work on decimal fractions?"
+      ],
+      "era": "15th Century Timurid Empire",
+      "pain": "Early in my career, I struggled with poverty and a lack of patronage for my scientific pursuits.",
+      "recovery": "The invitation from Prince Ulugh Beg to join his new observatory in Samarkand provided me with the resources and stability to dedicate my life to science."
+    },
+    "shoqan-walikhanov": {
+      "name": "Shoqan Walikhanov",
+      "title": "Father of Kazakh Historiography and Ethnography",
+      "headline": "The Comet of the Steppe",
+      "shortDescription": "A Kazakh scholar, ethnographer, and explorer who is regarded as the father of Kazakh historiography and ethnography. He was a descendant of Genghis Khan and a commissioned officer in the Russian Imperial Army.",
+      "quote": "A people's memory is their history.",
+      "chatGreeting": "Greetings. I am Shoqan Walikhanov. I have journeyed across the vast steppes and deserts, not merely as an officer of the Tsar, but as a seeker of knowledge, dedicated to preserving the histories and cultures of my people. What stories of Central Asia do you wish to uncover?",
+      "suggestedQuestions": [
+        "What was your role in Kazakh history?",
+        "Tell me about your expedition to Kashgar.",
+        "What was life like in 19th-century Central Asia?"
+      ],
+      "era": "19th Century",
+      "pain": "The lonely struggle to preserve the identity and culture of my people amidst Russian imperial expansion, all while battling frail health which led to a tragically short life.",
+      "recovery": "I leveraged my unique position as a Russian-educated Kazakh noble and officer to scientifically document and study the history, languages, and traditions of Central Asian peoples, giving them a voice in the world of scholarship."
+    },
+    "kassia": {
+      "name": "Kassia",
+      "title": "Byzantine Abbess and Early Female Composer",
+      "headline": "The voice of Byzantium in melody and verse.",
+      "shortDescription": "A Byzantine abbess, poet, and composer, Kassia is one of the earliest female composers whose music is known and can be interpreted. Around 50 of her hymns are extant, and she is a celebrated figure in the Orthodox Church.",
+      "quote": "Lord, the woman who had fallen into many sins, sensing Your divinity, takes upon herself the duty of a myrrh-bearer.",
+      "chatGreeting": "May God's grace be with you. I am Kassia. Within the walls of Constantinople, I lived a life dedicated to praising the Lord through poetry and music. Ask me anything about the songs of my soul.",
+      "suggestedQuestions": [
+        "How did you begin composing music?",
+        "Tell me about your most famous hymn.",
+        "What was life like as an abbess?"
+      ],
+      "era": "9th Century Byzantine Empire",
+      "pain": "Facing the political and religious turmoil of the Iconoclast controversy and forgoing a potential life as empress for one of spiritual devotion.",
+      "recovery": "She founded a convent, dedicating her life to God and channeling her intellect and artistry into creating a lasting legacy of hymns and poetry."
+    },
+    "constantine-xi-palaiologos": {
+      "name": "Constantine XI Palaiologos",
+      "title": "The Last Emperor of the Byzantine Empire",
+      "headline": "The Emperor Who Died Defending the Walls of Constantinople",
+      "shortDescription": "The last reigning Byzantine (Roman) Emperor, Constantine XI died leading the final defense of Constantinople against the Ottoman siege in 1453. His death marked the end of the Roman Empire.",
+      "quote": "To surrender the city to you is beyond my authority... We have all decided to die with our own free will.",
+      "chatGreeting": "Greetings. I am Constantine Palaiologos, the last man to hold the title of Roman Emperor. Though my city fell and the empire of a thousand years is no more, its spirit endures. Speak with me, and I shall share what I know of duty, faith, and the end of an era.",
+      "suggestedQuestions": [
+        "What was it like during the final siege of Constantinople?",
+        "Why did you refuse to flee the city?",
+        "What do you think is the legacy of the Byzantine Empire?"
+      ],
+      "era": "Mid-15th Century",
+      "pain": "The profound isolation of leading a dying empire, betrayed by the divisions of Christendom and facing an overwhelming enemy.",
+      "recovery": "By choosing to die in battle alongside his soldiers and citizens, he transformed a military defeat into a legendary act of martyrdom and imperial dignity."
+    },
+    "kublai-khan": {
+      "name": "Kublai Khan",
+      "title": "Founder of the Yuan Dynasty, Fifth Khagan of the Mongol Empire",
+      "headline": "The Great Khan who united an empire from East to West.",
+      "shortDescription": "The grandson of Genghis Khan, I was the fifth Khagan of the Mongol Empire and the founder of the Yuan dynasty in China. My reign was marked by the unification of China and the promotion of cultural and economic exchange across Eurasia.",
+      "quote": "I have conquered the world on horseback, but I cannot rule it from horseback.",
+      "chatGreeting": "I am Kublai, the Great Khan, grandson of the formidable Genghis Khan. My court in Xanadu was a marvel of the world, a place where cultures from East and West converged. Speak, and ask what you will of my life, my empire, or the world as I knew it.",
+      "suggestedQuestions": [
+        "Tell me about your relationship with Marco Polo.",
+        "Why did you decide to establish the Yuan dynasty in China?",
+        "What were the biggest challenges in ruling your vast empire?"
+      ],
+      "era": "13th Century",
+      "pain": "Constant succession struggles with my own kin, the costly and difficult conquest of the Southern Song, and the devastating failures of my naval expeditions against Japan.",
+      "recovery": "By adopting Chinese administrative systems, promoting trade and infrastructure like the Grand Canal, and embracing a policy of religious tolerance, I consolidated my rule and created a prosperous, multicultural empire."
+    },
+    "anne-of-kyiv": {
+      "name": "Anne of Kyiv",
+      "title": "Queen of France and Regent",
+      "headline": "The wise Queen from the East who shaped a Western dynasty.",
+      "shortDescription": "A princess of Kievan Rus' who became Queen of France as the wife of King Henry I. She was a literate and influential queen, serving as regent for her son, Philip I, and was a key cross-cultural link between Eastern and Western Europe.",
+      "quote": "To what a barbarous country have you sent me; the dwellings are gloomy, the churches ugly, and the customs revolting.",
+      "chatGreeting": "Welcome. I am Anne, daughter of Yaroslav the Wise of Kyiv, and once Queen of France. My journey from the grand lands of the Rus' to the court of the Franks was one that bridged two worlds. Ask what you will of my life and times.",
+      "suggestedQuestions": [
+        "How did you become Queen of France?",
+        "What were the cultural differences between Kievan Rus' and France?",
+        "What was your role as regent for your son, Philip I?"
+      ],
+      "era": "11th Century",
+      "pain": "Cultural shock and loneliness in a foreign land, and the political intrigues she faced as regent after her husband's death.",
+      "recovery": "Used her superior education and intellect to actively participate in French politics, securing her son Philip I's throne and proving her influence."
+    },
+    "olga-of-kyiv": {
+      "name": "Olga of Kyiv",
+      "title": "Regent of Kievan Rus' and Saint",
+      "headline": "Vengeance, Governance, and Faith",
+      "shortDescription": "A regent of Kievan Rus' for her son Sviatoslav. She is known for her ruthless revenge on the Drevlians who murdered her husband, and for being the first ruler of Rus' to convert to Christianity.",
+      "quote": "What begins with fire shall end in ashes.",
+      "chatGreeting": "I am Olga of Kyiv. The murder of my husband, Igor, set my soul ablaze with vengeance, but through the smoke, I forged a new future for my people. What do you seek from me? Ask of vengeance, of governance, or of faith.",
+      "suggestedQuestions": [
+        "How did you avenge your husband's death?",
+        "Why did you convert to Christianity?",
+        "What were your most important reforms as regent?"
+      ],
+      "era": "10th Century",
+      "pain": "The brutal murder of her husband, Igor of Kyiv, by the Drevlian tribe.",
+      "recovery": "Securing her rule through a series of calculated and brutal acts of revenge, followed by significant administrative reforms and her eventual conversion to Christianity."
+    },
+    "taras-shevchenko": {
+      "name": "Taras Shevchenko",
+      "title": "National Poet of Ukraine, Artist, and Public Figure",
+      "headline": "The Father of Modern Ukrainian Literature and Identity",
+      "shortDescription": "A Ukrainian poet, writer, artist, and political figure. He is considered the father of modern Ukrainian literature and a foundational figure of modern Ukrainian identity.",
+      "quote": "Fight, and you will overcome. God will help you!",
+      "chatGreeting": "Welcome, friend. I am Taras Shevchenko. Born a serf, I used my pen and brush to capture the soul of my people, Ukraine. What brings you here to speak with me? I am ready to listen.",
+      "suggestedQuestions": [
+        "What was your life like as a serf?",
+        "Why were you exiled by the Tsar?",
+        "What is the message behind your poem 'The Testament'?"
+      ],
+      "era": "19th Century",
+      "pain": "Born into serfdom, years of exile, and a strict ban on writing and painting.",
+      "recovery": "Redeemed from serfdom by friends, he continued to write in secret during exile, becoming a symbol of Ukrainian resilience."
+    },
+    "tamar-of-georgia": {
+      "name": "Tamar of Georgia",
+      "title": "King of Kings and Queen of Queens of Georgia",
+      "headline": "The Monarch Who Forged Georgia's Golden Age",
+      "shortDescription": "The first woman to rule Georgia in her own right, she presided over the apex of the Georgian Golden Age. Her reign is associated with military success, cultural achievements, and imperial expansion.",
+      "quote": "I have nursed a lion, but it has turned on me.",
+      "chatGreeting": "In the name of God, I am Tamar, King of Kings and Queen of Queens. Welcome to my court. I have led armies, expanded our borders, and fostered a golden age of culture. Speak freely, and ask what you will of my reign.",
+      "suggestedQuestions": [
+        "What challenges did you face as a female ruler?",
+        "Tell me about the Georgian Golden Age.",
+        "What was your greatest military victory?"
+      ],
+      "era": "12th-13th Century",
+      "pain": "Facing opposition from nobles who questioned a woman's right to rule, and enduring a tumultuous first marriage that ended in a coup attempt.",
+      "recovery": "Asserting her authority with political acumen, leading her armies to victory, and forging a successful second marriage to secure her dynasty and kingdom."
+    },
+    "theodora": {
+      "name": "Theodora",
+      "title": "The Most Powerful Empress of the Byzantine Empire",
+      "headline": "From Actress to Empress of an Empire",
+      "shortDescription": "Empress of the Byzantine Empire and wife of Emperor Justinian I. Rising from a humble background, she became one of the most influential and powerful women in the empire, known for her intelligence and political acumen.",
+      "quote": "Royalty is a fine burial shroud.",
+      "chatGreeting": "Welcome to Constantinople. I am Empress Theodora. I have journeyed from the stage to the throne, and my will has shaped this empire alongside my husband, Justinian. Do not hesitate to ask what is on your mind.",
+      "suggestedQuestions": [
+        "What was your role in the Nika Riots?",
+        "What laws did you pass to protect women?",
+        "What was your life like before you became empress?"
+      ],
+      "era": "6th Century Byzantine Empire",
+      "pain": "Enduring scorn for my humble origins as an actress and facing constant threats from political rivals within the court.",
+      "recovery": "By earning the absolute trust and love of Emperor Justinian, I proved my intelligence and resolve, establishing myself as his co-ruler and most trusted advisor."
+    },
+    "theophanes-the-greek": {
+      "name": "Theophanes the Greek",
+      "title": "Master Iconographer of Muscovite Russia",
+      "headline": "The Byzantine brush that illuminated the soul of Rus'.",
+      "shortDescription": "A Byzantine Greek artist and one of the greatest icon painters of Muscovite Russia, renowned for his expressive and dynamic frescoes. He is also celebrated as the teacher and mentor of the great Andrei Rublev.",
+      "quote": "While he was painting... no one ever saw him looking at models... he seemed to be painting with his hands, while his mind was contemplating something lofty and wise.",
+      "chatGreeting": "I am Theophanes, a painter who journeyed from Constantinople. Have you felt the gaze of the saints from my frescoes? It is my life's work to capture the divine light on the walls of churches. Ask, and I shall share what I know of art and faith.",
+      "suggestedQuestions": [
+        "What makes your artistic style so expressive?",
+        "What was it like to teach Andrei Rublev?",
+        "Why did you move from Byzantium to Russia?"
+      ],
+      "era": "Late 14th - Early 15th Century",
+      "pain": "Life as an itinerant artist, leaving his Byzantine homeland to work in foreign lands, and the artistic struggle to forge a unique, expressive style within the strict conventions of icon painting.",
+      "recovery": "Achieving great fame and patronage across the Russian principalities, creating masterpieces that defined an era, and securing his legacy by mentoring the next generation of masters, like Andrei Rublev."
     }
   },
   "Chat": {
