@@ -271,24 +271,47 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   const activeLocale = (locale === 'ko' || locale === 'en' || locale === 'de' || locale === 'ja' || locale === 'es' || locale === 'fr' || locale === 'it' || locale === 'pt') ? locale : 'en';
   const labels = tMap[activeLocale] || tMap['en'];
 
-  const handleSelectProblem = async (id: string) => {
-    setIsLoading(true)
+  const handleProblemSelect = async (id: string) => {
+    const problem = PROBLEM_CATEGORIES.find(p => p.id === id);
+    if (!problem) return;
+    
+    const problemText = problem.translations[activeLocale]?.description || problem.translations['en']?.description || problem.id;
+    
+    setIsMatching(true);
+    setIsLoading(true);
     try {
       if (giants.length === 0) {
         const mod = await import("@/data/giants")
         setGiants(mod.giantsData)
       }
-      setSelectedProblemId(id)
+      
+      const res = await fetch("/api/consult/match", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ userProblem: problemText, locale: activeLocale }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(data.error || "Failed to match");
+      }
+      if (data.matchedGiants) {
+        setCustomMatchedGiants(data.matchedGiants);
+        setIsCustomProblemMode(false);
+        setSelectedProblemId(id); // Transition to Stage 2 with specific problem ID
+      }
     } catch (err) {
-      console.error("Failed to load giants data on selection:", err)
+      console.error("Preset matching failed:", err);
+      alert("매칭 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.");
     } finally {
-      setIsLoading(false)
+      setIsMatching(false);
+      setIsLoading(false);
     }
   }
 
   const handleGoBack = () => {
     setSelectedProblemId(null)
     setIsCustomProblemMode(false)
+    setCustomMatchedGiants([])
   }
 
   const handleStartConsult = (slug: string) => {
@@ -338,7 +361,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
 
   const selectedProblem = PROBLEM_CATEGORIES.find(p => p.id === selectedProblemId)
   const matchedGiantsRaw = selectedProblemId 
-    ? (selectedProblemId === 'custom' ? customMatchedGiants : (PROBLEM_GIANT_MAP as any)[selectedProblemId] || []) 
+    ? (customMatchedGiants.length > 0 ? customMatchedGiants : (PROBLEM_GIANT_MAP as any)[selectedProblemId] || []) 
     : []
 
   // Gather matched giants data
@@ -431,12 +454,13 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                     <button
                       key={problem.id}
                       onClick={() => handleProblemSelect(problem.id)}
-                      className="group p-6 rounded-[2rem] border border-stone-800 bg-stone-900/30 hover:bg-stone-800/50 hover:border-amber-500/30 transition-all duration-300 text-left flex flex-col cursor-pointer"
+                      disabled={isMatching}
+                      className="group p-6 rounded-[2rem] border border-stone-800 bg-stone-900/30 hover:bg-stone-800/50 hover:border-amber-500/50 hover:-translate-y-1 hover:shadow-[0_8px_25px_rgba(245,158,11,0.15)] transition-all duration-300 text-left flex flex-col cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:border-stone-800"
                     >
-                      <div className="text-3xl mb-4 bg-stone-950 w-12 h-12 rounded-full flex items-center justify-center border border-white/5 group-hover:scale-110 group-hover:border-amber-500/20 transition-all">
+                      <div className="text-3xl mb-4 bg-stone-950 w-12 h-12 rounded-full flex items-center justify-center border border-white/5 group-hover:scale-110 group-hover:border-amber-500/30 transition-all duration-300 shadow-sm">
                         {problem.emoji}
                       </div>
-                      <h3 className="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">
+                      <h3 className="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors duration-300">
                         {t.title}
                       </h3>
                       <p className="text-stone-400 text-sm leading-relaxed">
