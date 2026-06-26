@@ -1,262 +1,52 @@
 [
   {
     "slug": "napoleon-bonaparte",
-    "category": "성취"
+    "mbti": "INFJ",
+    "name": "napoleon-bonaparte",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "malala-yousafzai",
+    "mbti": "INFJ",
+    "name": "malala-yousafzai",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
   },
   {
     "slug": "franklin-d-roosevelt",
-    "category": "지혜"
+    "mbti": "INFJ",
+    "name": "franklin-d-roosevelt",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
   },
   {
-    "slug": "harriet-tubman",
-    "category": "역경"
+    "slug": "leonardo-da-vinci",
+    "mbti": "INFJ",
+    "name": "leonardo-da-vinci",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
   },
   {
-    "slug": "carl-jung",
-    "category": "지혜"
-  },
-  {
-    "slug": "baruch-spinoza",
-    "category": "지혜"
-  },
-  {
-    "slug": "david-hume",
-    "category": "지혜"
-  },
-  {
-    "slug": "john-locke",
-    "category": "지혜"
-  },
-  {
-    "slug": "simone-de-beauvoir",
-    "category": "지혜"
-  },
-  {
-    "slug": "hannah-arendt",
-    "category": "지혜"
-  },
-  {
-    "slug": "soren-kierkegaard",
-    "category": "지혜"
-  },
-  {
-    "slug": "arthur-schopenhauer",
-    "category": "지혜"
-  },
-  {
-    "slug": "galileo-galilei",
-    "category": "지혜"
-  },
-  {
-    "slug": "charles-darwin",
-    "category": "지혜"
-  },
-  {
-    "slug": "fyodor-dostoevsky",
-    "category": "지혜"
-  },
-  {
-    "slug": "victor-hugo",
-    "category": "지혜"
-  },
-  {
-    "slug": "anton-chekhov",
-    "category": "지혜"
-  },
-  {
-    "slug": "frederic-chopin",
-    "category": "지혜"
-  },
-  {
-    "slug": "katsushika-hokusai",
-    "category": "지혜"
-  },
-  {
-    "slug": "alexander-hamilton",
-    "category": "지혜"
-  },
-  {
-    "slug": "francis-bacon",
-    "category": "창의"
-  },
-  {
-    "slug": "johannes-kepler",
-    "category": "성취"
-  },
-  {
-    "slug": "john-f-kennedy",
-    "category": "성취"
-  },
-  {
-    "slug": "queen-victoria",
-    "category": "성취"
-  },
-  {
-    "slug": "thomas-jefferson",
-    "category": "성취"
-  },
-  {
-    "slug": "empress-wu-zetian",
-    "category": "지혜"
-  },
-  {
-    "slug": "jeong-yak-yong",
-    "category": "지혜"
-  },
-  {
-    "slug": "mencius",
-    "category": "역경"
-  },
-  {
-    "slug": "li-bai",
-    "category": "지혜"
-  },
-  {
-    "slug": "oda-nobunaga",
-    "category": "성취"
-  },
-  {
-    "slug": "sun-yat-sen",
-    "category": "성취"
-  },
-  {
-    "slug": "tokugawa-ieyasu",
-    "category": "성취"
-  },
-  {
-    "slug": "toyotomi-hideyoshi",
-    "category": "성취"
-  },
-  {
-    "slug": "chulalongkorn",
-    "category": "성취"
-  },
-  {
-    "slug": "hannibal-barca",
-    "category": "성취"
-  },
-  {
-    "slug": "ibn-battuta",
-    "category": "성취"
-  },
-  {
-    "slug": "jayavarman-vii",
-    "category": "성취"
-  },
-  {
-    "slug": "mansa-musa",
-    "category": "성취"
-  },
-  {
-    "slug": "shaka-zulu",
-    "category": "창의"
-  },
-  {
-    "slug": "al-khwarizmi",
-    "category": "성취"
-  },
-  {
-    "slug": "br-ambedkar",
-    "category": "성취"
-  },
-  {
-    "slug": "chandragupta-maurya",
-    "category": "지혜"
-  },
-  {
-    "slug": "omar-khayyam",
-    "category": "성취"
-  },
-  {
-    "slug": "robert-oppenheimer",
-    "category": "성취"
-  },
-  {
-    "slug": "saladin",
-    "category": "창의"
-  },
-  {
-    "slug": "srinivasa-ramanujan",
-    "category": "성취"
-  },
-  {
-    "slug": "suleiman-the-magnificent",
-    "category": "지혜"
-  },
-  {
-    "slug": "swami-vivekananda",
-    "category": "창의"
-  },
-  {
-    "slug": "wright-brothers",
-    "category": "지혜"
-  },
-  {
-    "slug": "adam-smith",
-    "category": "창의"
-  },
-  {
-    "slug": "copernicus",
-    "category": "창의"
-  },
-  {
-    "slug": "dante-alighieri",
-    "category": "창의"
-  },
-  {
-    "slug": "johannes-gutenberg",
-    "category": "성취"
-  },
-  {
-    "slug": "louis-pasteur",
-    "category": "지혜"
-  },
-  {
-    "slug": "machiavelli",
-    "category": "지혜"
-  },
-  {
-    "slug": "voltaire",
-    "category": "창의"
-  },
-  {
-    "slug": "alexander-graham-bell",
-    "category": "성취"
-  },
-  {
-    "slug": "amelia-earhart",
-    "category": "성취"
-  },
-  {
-    "slug": "andrew-carnegie",
-    "category": "창의"
-  },
-  {
-    "slug": "edgar-allan-poe",
-    "category": "창의"
-  },
-  {
-    "slug": "ernest-hemingway",
-    "category": "지혜"
-  },
-  {
-    "slug": "henry-david-thoreau",
-    "category": "성취"
-  },
-  {
-    "slug": "jp-morgan",
-    "category": "지혜"
-  },
-  {
-    "slug": "ralph-waldo-emerson",
-    "category": "성취"
-  },
-  {
-    "slug": "susan-b-anthony",
-    "category": "창의"
-  },
-  {
-    "slug": "walt-whitman",
-    "category": "wisdom"
+    "slug": "pablo-picasso",
+    "mbti": "INFJ",
+    "name": "pablo-picasso",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
   }
 ]

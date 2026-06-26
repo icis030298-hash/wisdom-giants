@@ -1,767 +1,2632 @@
 [
   {
-    "name": "키케로",
-    "slug": "cicero",
-    "category": "philosophy"
-  },
-  {
-    "name": "Max Planck",
-    "slug": "max-planck",
-    "category": "science"
-  },
-  {
-    "name": "Hypatia",
-    "slug": "hypatia",
-    "category": "science"
-  },
-  {
-    "name": "Ibn al-Haytham",
-    "slug": "ibn-al-haytham",
-    "category": "science"
-  },
-  {
-    "name": "Blaise Pascal",
-    "slug": "blaise-pascal",
-    "category": "science"
-  },
-  {
-    "name": "Dmitri Mendeleev",
-    "slug": "dmitri-mendeleev",
-    "category": "science"
-  },
-  {
-    "name": "Ada Lovelace",
-    "slug": "ada-lovelace",
-    "category": "science"
-  },
-  {
-    "name": "Alan Turing",
-    "slug": "alan-turing",
-    "category": "science"
-  },
-  {
-    "name": "Charles Babbage",
-    "slug": "charles-babbage",
-    "category": "science"
-  },
-  {
-    "name": "Ibn Sina",
-    "slug": "ibn-sina",
-    "category": "science"
-  },
-  {
-    "name": "James Watt",
-    "slug": "james-watt",
-    "category": "science"
-  },
-  {
-    "name": "George Stephenson",
-    "slug": "george-stephenson",
-    "category": "science"
-  },
-  {
-    "name": "Gregor Mendel",
-    "slug": "gregor-mendel",
-    "category": "science"
-  },
-  {
-    "name": "Antoine Lavoisier",
-    "slug": "antoine-lavoisier",
-    "category": "science"
-  },
-  {
-    "name": "Li Shizhen",
-    "slug": "li-shizhen",
-    "category": "science"
-  },
-  {
-    "name": "Guglielmo Marconi",
-    "slug": "guglielmo-marconi",
-    "category": "science"
-  },
-  {
-    "name": "Robert Koch",
-    "slug": "robert-koch",
-    "category": "science"
-  },
-  {
-    "name": "Thomas Aquinas",
-    "slug": "thomas-aquinas",
-    "category": "science"
-  },
-  {
-    "name": "Rumi",
-    "slug": "rumi",
-    "category": "science"
-  },
-  {
-    "name": "Ibn Rushd",
-    "slug": "ibn-rushd",
-    "category": "science"
-  },
-  {
-    "name": "William James",
-    "slug": "william-james",
-    "category": "science"
-  },
-  {
-    "name": "Friedrich Schiller",
-    "slug": "friedrich-schiller",
-    "category": "science"
-  },
-  {
-    "name": "George Washington Carver",
-    "slug": "george-washington-carver",
-    "category": "science"
-  },
-  {
-    "name": "Al-Ghazali",
-    "slug": "al-ghazali",
-    "category": "science"
-  },
-  {
-    "name": "Ibn Khaldun",
-    "slug": "ibn-khaldun",
-    "category": "science"
-  },
-  {
-    "name": "Maimonides",
-    "slug": "maimonides",
-    "category": "science"
-  },
-  {
-    "name": "Zoroaster",
-    "slug": "zoroaster",
-    "category": "science"
-  },
-  {
-    "name": "Miguel de Cervantes",
-    "slug": "miguel-de-cervantes",
-    "category": "science"
-  },
-  {
-    "name": "Leo Tolstoy",
-    "slug": "leo-tolstoy",
-    "category": "science"
-  },
-  {
-    "name": "Murasaki Shikibu",
-    "slug": "murasaki-shikibu",
-    "category": "arts"
-  },
-  {
-    "name": "Edgar Degas",
-    "slug": "edgar-degas",
-    "category": "science"
-  },
-  {
-    "name": "Oscar Wilde",
-    "slug": "oscar-wilde",
-    "category": "science"
-  },
-  {
-    "name": "Rabindranath Tagore",
-    "slug": "rabindranath-tagore",
-    "category": "science"
-  },
-  {
-    "name": "Sor Juana Ines de la Cruz",
-    "slug": "sor-juana-ines-de-la-cruz",
-    "category": "science"
-  },
-  {
-    "name": "Li Qingzhao",
-    "slug": "li-qingzhao",
-    "category": "science"
-  },
-  {
-    "name": "Matsuo Basho",
-    "slug": "matsuo-basho",
-    "category": "science"
-  },
-  {
-    "name": "William Wilberforce",
-    "slug": "william-wilberforce",
-    "category": "science"
-  },
-  {
-    "name": "Toussaint Louverture",
-    "slug": "toussaint-louverture",
-    "category": "science"
-  },
-  {
-    "name": "Sojourner Truth",
-    "slug": "sojourner-truth",
-    "category": "science"
-  },
-  {
-    "name": "Emmeline Pankhurst",
-    "slug": "emmeline-pankhurst",
-    "category": "science"
-  },
-  {
-    "name": "Jose Rizal",
-    "slug": "jose-rizal",
-    "category": "science"
-  },
-  {
-    "name": "Mary Wollstonecraft",
-    "slug": "mary-wollstonecraft",
-    "category": "science"
-  },
-  {
-    "name": "Lucretia Mott",
-    "slug": "lucretia-mott",
-    "category": "science"
-  },
-  {
-    "name": "Marco Polo",
-    "slug": "marco-polo",
-    "category": "science"
-  },
-  {
-    "name": "Vasco da Gama",
-    "slug": "vasco-da-gama",
-    "category": "science"
-  },
-  {
-    "name": "Ferdinand Magellan",
-    "slug": "ferdinand-magellan",
-    "category": "science"
-  },
-  {
-    "name": "Cornelius Vanderbilt",
-    "slug": "cornelius-vanderbilt",
-    "category": "science"
-  },
-  {
-    "name": "Zhang Qian",
-    "slug": "zhang-qian",
-    "category": "science"
-  },
-  {
-    "name": "Zheng He",
-    "slug": "zheng-he",
-    "category": "science"
-  },
-  {
-    "name": "Leif Erikson",
-    "slug": "leif-erikson",
-    "category": "science"
-  },
-  {
-    "name": "에피쿠로스",
-    "slug": "epicurus",
-    "category": "philosophy"
-  },
-  {
-    "name": "정복왕 윌리엄",
-    "slug": "william-the-conqueror",
-    "category": "leadership"
-  },
-  {
-    "name": "에르빈 슈뢰딩거",
-    "slug": "erwin-schrodinger",
-    "category": "science"
-  },
-  {
-    "name": "주세페 가리발디",
-    "slug": "giuseppe-garibaldi",
-    "category": "leadership"
-  },
-  {
-    "name": "제임스 맥스웰",
-    "slug": "james-clerk-maxwell",
-    "category": "science"
-  },
-  {
-    "name": "몬테수마 2세",
-    "slug": "moctezuma-ii",
-    "category": "leadership"
-  },
-  {
-    "name": "쩐흥다오",
-    "slug": "tran-hung-dao",
-    "category": "leadership"
-  },
-  {
-    "name": "제노비아",
-    "slug": "zenobia",
-    "category": "leadership"
-  },
-  {
-    "name": "조르주 퀴비에",
-    "slug": "georges-cuvier",
-    "category": "science"
-  },
-  {
-    "name": "헤라클레이토스",
-    "slug": "heraclitus",
-    "category": "philosophy"
-  },
-  {
-    "name": "피타고라스",
-    "slug": "pythagoras",
-    "category": "philosophy"
-  },
-  {
-    "name": "디오게네스",
-    "slug": "diogenes",
-    "category": "philosophy"
-  },
-  {
-    "name": "제임스 허튼",
-    "slug": "james-hutton",
-    "category": "science"
-  },
-  {
-    "name": "어니스트 섀클턴",
-    "slug": "ernest-shackleton",
-    "category": "business"
-  },
-  {
-    "name": "도로시아 딕스",
-    "slug": "dorothea-dix",
-    "category": "society"
-  },
-  {
-    "name": "프란츠 슈베르트",
-    "slug": "franz-schubert",
-    "category": "arts"
-  },
-  {
-    "name": "해리엇 마티노",
-    "slug": "harriet-martineau",
-    "category": "society"
-  },
-  {
-    "name": "아이다 B. 웰스",
-    "slug": "ida-b-wells",
-    "category": "society"
-  },
-  {
-    "name": "렘브란트",
-    "slug": "rembrandt",
-    "category": "arts"
-  },
-  {
-    "name": "찰스 디킨스",
-    "slug": "charles-dickens",
-    "category": "arts"
-  },
-  {
-    "name": "클라라 바턴",
-    "slug": "clara-barton",
-    "category": "society"
-  },
-  {
-    "name": "고트프리트 라이프니츠",
-    "slug": "gottfried-leibniz",
-    "category": "philosophy"
-  },
-  {
-    "name": "제임스 쿡",
-    "slug": "james-cook",
-    "category": "business"
-  },
-  {
-    "name": "마이스터 에크하르트",
-    "slug": "meister-eckhart",
-    "category": "philosophy"
-  },
-  {
-    "name": "비투스 베링",
-    "slug": "vitus-bering",
-    "category": "business"
-  },
-  {
-    "name": "바르톨로뮤 디아스",
-    "slug": "bartolomeu-dias",
-    "category": "business"
-  },
-  {
-    "name": "에드워드 제너",
-    "slug": "edward-jenner",
-    "category": "science"
-  },
-  {
-    "name": "에밀리 디킨슨",
-    "slug": "emily-dickinson",
-    "category": "arts"
-  },
-  {
-    "name": "프란시스코 고야",
-    "slug": "francisco-de-goya",
-    "category": "arts"
-  },
-  {
-    "name": "조지 엘리엇",
-    "slug": "george-eliot",
-    "category": "arts"
-  },
-  {
-    "name": "헨리 허드슨",
-    "slug": "henry-hudson",
-    "category": "business"
-  },
-  {
-    "name": "호메로스",
-    "slug": "homer",
-    "category": "arts"
-  },
-  {
-    "name": "제인 오스틴",
-    "slug": "jane-austen",
-    "category": "arts"
-  },
-  {
-    "name": "존 스튜어트 밀",
-    "slug": "john-stuart-mill",
-    "category": "philosophy"
-  },
-  {
-    "name": "올랭프 드 구주",
-    "slug": "olympe-de-gouges",
-    "category": "society"
-  },
-  {
-    "name": "플로티노스",
-    "slug": "plotinus",
-    "category": "philosophy"
-  },
-  {
-    "name": "로알 아문센",
-    "slug": "roald-amundsen",
-    "category": "business"
-  },
-  {
-    "name": "엘리자베스 케이디 스탠턴",
-    "slug": "elizabeth-cady-stanton",
-    "category": "society"
-  },
-  {
-    "name": "헨리크 입센",
-    "slug": "henrik-ibsen",
-    "category": "arts"
-  },
-  {
-    "name": "베르길리우스",
-    "slug": "virgil",
-    "category": "arts"
-  },
-  {
-    "name": "알리에노르 다키텐",
-    "slug": "eleanor-of-aquitaine",
-    "category": "leadership"
-  },
-  {
-    "name": "순자타 케이타",
-    "slug": "sundiata-keita",
-    "category": "leadership"
-  },
-  {
-    "name": "마리아 테레지아",
-    "slug": "maria-theresa",
-    "category": "leadership"
-  },
-  {
-    "name": "부디카",
-    "slug": "boudicca",
-    "category": "leadership"
-  },
-  {
-    "name": "정일수 (Ching Shih)",
-    "slug": "ching-shih",
-    "category": "leadership"
-  },
-  {
-    "name": "아스키아 대제",
-    "slug": "askia-the-great",
-    "category": "leadership"
-  },
-  {
-    "name": "알비루니",
-    "slug": "al-biruni",
-    "category": "science"
-  },
-  {
-    "name": "윌리엄 하비",
-    "slug": "william-harvey",
-    "category": "science"
-  },
-  {
-    "name": "조지프 프리스틀리",
-    "slug": "joseph-priestley",
-    "category": "science"
-  },
-  {
-    "name": "칼 린네",
-    "slug": "carl-linnaeus",
-    "category": "science"
-  },
-  {
-    "name": "리제 마이트너",
-    "slug": "lise-meitner",
-    "category": "science"
-  },
-  {
-    "name": "에미 뇌터",
-    "slug": "emmy-noether",
-    "category": "science"
-  },
-  {
-    "name": "알렉산더 폰 훔볼트",
-    "slug": "alexander-von-humboldt",
-    "category": "science"
-  },
-  {
-    "name": "튀코 브라헤",
-    "slug": "tycho-brahe",
-    "category": "science"
-  },
-  {
-    "name": "존 뮤어",
-    "slug": "john-muir",
-    "category": "science"
-  },
-  {
-    "name": "앨프리드 러셀 월리스",
-    "slug": "alfred-russel-wallace",
-    "category": "science"
-  },
-  {
-    "name": "피에르 퀴리",
-    "slug": "pierre-curie",
-    "category": "science"
-  },
-  {
-    "name": "찰스 라이엘",
-    "slug": "charles-lyell",
-    "category": "science"
-  },
-  {
-    "name": "알파라비",
-    "slug": "al-farabi",
-    "category": "philosophy"
-  },
-  {
-    "name": "토마스 모어",
-    "slug": "thomas-more",
-    "category": "philosophy"
-  },
-  {
-    "name": "시몬 베유",
-    "slug": "simone-weil",
-    "category": "philosophy"
-  },
-  {
-    "name": "안토니오 그람시",
-    "slug": "antonio-gramsci",
-    "category": "philosophy"
-  },
-  {
-    "name": "로자 룩셈부르크",
-    "slug": "rosa-luxemburg",
-    "category": "philosophy"
-  },
-  {
-    "name": "조지 산타야나",
-    "slug": "george-santayana",
-    "category": "philosophy"
-  },
-  {
-    "name": "앙리 베르그송",
-    "slug": "henri-bergson",
-    "category": "philosophy"
-  },
-  {
-    "name": "오컴의 윌리엄",
-    "slug": "william-of-ockham",
-    "category": "philosophy"
-  },
-  {
-    "name": "에른스트 마흐",
-    "slug": "ernst-mach",
-    "category": "philosophy"
-  },
-  {
-    "name": "윌리엄 틴들",
-    "slug": "william-tyndale",
-    "category": "philosophy"
-  },
-  {
-    "name": "제프리 초서",
-    "slug": "chaucer",
-    "category": "arts"
-  },
-  {
-    "name": "조너선 스위프트",
-    "slug": "jonathan-swift",
-    "category": "arts"
-  },
-  {
-    "name": "조르주 상",
-    "slug": "george-sand",
-    "category": "arts"
-  },
-  {
-    "name": "폴 세잔",
-    "slug": "paul-cezanne",
-    "category": "arts"
-  },
-  {
-    "name": "오귀스트 로댕",
-    "slug": "auguste-rodin",
-    "category": "arts"
-  },
-  {
-    "name": "클로드 드뷔시",
-    "slug": "claude-debussy",
-    "category": "arts"
-  },
-  {
-    "name": "버지니아 울프",
-    "slug": "virginia-woolf",
-    "category": "arts"
-  },
-  {
-    "name": "프란츠 카프카",
-    "slug": "franz-kafka",
-    "category": "arts"
-  },
-  {
-    "name": "제임스 조이스",
-    "slug": "james-joyce",
-    "category": "arts"
-  },
-  {
-    "name": "자코모 푸치니",
-    "slug": "giacomo-puccini",
-    "category": "arts"
-  },
-  {
-    "name": "샤를 보들레르",
-    "slug": "charles-baudelaire",
-    "category": "arts"
-  },
-  {
-    "name": "바실리 칸딘스키",
-    "slug": "wassily-kandinsky",
-    "category": "arts"
-  },
-  {
-    "name": "폴 고갱",
-    "slug": "paul-gauguin",
-    "category": "arts"
-  },
-  {
-    "name": "윌리엄 블레이크",
-    "slug": "william-blake",
-    "category": "arts"
-  },
-  {
-    "name": "한스 크리스티안 안데르센",
-    "slug": "hans-christian-andersen",
-    "category": "arts"
-  },
-  {
-    "name": "러디어드 키플링",
-    "slug": "rudyard-kipling",
-    "category": "arts"
-  },
-  {
-    "name": "도로시어 랭",
-    "slug": "dorothea-lange",
-    "category": "arts"
-  },
-  {
-    "name": "클라라 슈만",
-    "slug": "clara-schumann",
-    "category": "arts"
-  },
-  {
-    "name": "제인 애덤스",
-    "slug": "jane-addams",
-    "category": "society"
-  },
-  {
-    "name": "마리아 몬테소리",
-    "slug": "maria-montessori",
-    "category": "society"
-  },
-  {
-    "name": "윌리엄 로이드 개리슨",
-    "slug": "william-lloyd-garrison",
-    "category": "society"
-  },
-  {
-    "name": "알베르트 슈바이처",
-    "slug": "albert-schweitzer",
-    "category": "society"
-  },
-  {
-    "name": "판디타 라마바이",
-    "slug": "pandita-ramabai",
-    "category": "society"
-  },
-  {
-    "name": "엘리자베스 블랙웰",
-    "slug": "elizabeth-blackwell",
-    "category": "society"
-  },
-  {
-    "name": "플로렌스 켈리",
-    "slug": "florence-kelley",
-    "category": "society"
-  },
-  {
-    "name": "데이비드 리빙스턴",
-    "slug": "david-livingstone",
-    "category": "business"
-  },
-  {
-    "name": "알프레드 노벨",
-    "slug": "alfred-nobel",
-    "category": "business"
-  },
-  {
-    "name": "피에르 드 쿠베르탱",
-    "slug": "pierre-de-coubertin",
-    "category": "business"
-  },
-  {
-    "name": "프리드쇼프 난센",
-    "slug": "fridtjof-nansen",
-    "category": "business"
-  },
-  {
-    "name": "조지 이스트먼",
-    "slug": "george-eastman",
-    "category": "business"
-  },
-  {
-    "name": "엘리샤 오티스",
-    "slug": "elisha-otis",
-    "category": "business"
-  },
-  {
-    "name": "장영실",
-    "slug": "jang-yeong-sil",
-    "category": "science"
-  },
-  {
-    "name": "윤동주",
-    "slug": "yun-dong-ju",
-    "category": "arts"
-  },
-  {
-    "name": "소포클레스",
-    "slug": "sophocles",
-    "category": "arts"
-  },
-  {
-    "name": "유클리드",
-    "slug": "euclid",
-    "category": "science"
+    "slug": "napoleon-bonaparte",
+    "mbti": "INFJ",
+    "name": "napoleon-bonaparte",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "malala-yousafzai",
+    "mbti": "INFJ",
+    "name": "malala-yousafzai",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "franklin-d-roosevelt",
+    "mbti": "INFJ",
+    "name": "franklin-d-roosevelt",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "leonardo-da-vinci",
+    "mbti": "INFJ",
+    "name": "leonardo-da-vinci",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "pablo-picasso",
+    "mbti": "INFJ",
+    "name": "pablo-picasso",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "william-shakespeare",
+    "mbti": "INFJ",
+    "name": "william-shakespeare",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "albert-einstein",
+    "mbti": "INFJ",
+    "name": "albert-einstein",
+    "category": "science",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nikola-tesla",
+    "mbti": "INFJ",
+    "name": "nikola-tesla",
+    "category": "science",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "george-washington",
+    "mbti": "INFJ",
+    "name": "george-washington",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "yi-sun-shin",
+    "mbti": "INFJ",
+    "name": "yi-sun-shin",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "elizabeth-i",
+    "mbti": "INFJ",
+    "name": "elizabeth-i",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "gwanggaeto-the-great",
+    "mbti": "INFJ",
+    "name": "gwanggaeto-the-great",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "winston-churchill",
+    "mbti": "INFJ",
+    "name": "winston-churchill",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "qin-shi-huang",
+    "mbti": "INFJ",
+    "name": "qin-shi-huang",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "augustus",
+    "mbti": "INFJ",
+    "name": "augustus",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "otto-von-bismarck",
+    "mbti": "INFJ",
+    "name": "otto-von-bismarck",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "peter-the-great",
+    "mbti": "INFJ",
+    "name": "peter-the-great",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "catherine-the-great",
+    "mbti": "INFJ",
+    "name": "catherine-the-great",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "simon-bolivar",
+    "mbti": "INFJ",
+    "name": "simon-bolivar",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "margaret-thatcher",
+    "mbti": "INFJ",
+    "name": "margaret-thatcher",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "john-d-rockefeller",
+    "mbti": "INFJ",
+    "name": "john-d-rockefeller",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ataturk",
+    "mbti": "INFJ",
+    "name": "ataturk",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "theodore-roosevelt",
+    "mbti": "INFJ",
+    "name": "theodore-roosevelt",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "anne-frank",
+    "mbti": "INFJ",
+    "name": "anne-frank",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "rosa-parks",
+    "mbti": "INFJ",
+    "name": "rosa-parks",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "frederick-douglass",
+    "mbti": "INFJ",
+    "name": "frederick-douglass",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "harriet-tubman",
+    "mbti": "INFJ",
+    "name": "harriet-tubman",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "florence-nightingale",
+    "mbti": "INFJ",
+    "name": "florence-nightingale",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "yu-gwan-sun",
+    "mbti": "INFJ",
+    "name": "yu-gwan-sun",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "louis-braille",
+    "mbti": "INFJ",
+    "name": "louis-braille",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "joan-of-arc",
+    "mbti": "INFJ",
+    "name": "joan-of-arc",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "harriet-beecher-stowe",
+    "mbti": "INFJ",
+    "name": "harriet-beecher-stowe",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "rigoberta-menchu",
+    "mbti": "INFJ",
+    "name": "rigoberta-menchu",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "kim-gu",
+    "mbti": "INFJ",
+    "name": "kim-gu",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "buddha",
+    "mbti": "INFJ",
+    "name": "buddha",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "friedrich-nietzsche",
+    "mbti": "INFJ",
+    "name": "friedrich-nietzsche",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "immanuel-kant",
+    "mbti": "INFJ",
+    "name": "immanuel-kant",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "rene-descartes",
+    "mbti": "INFJ",
+    "name": "rene-descartes",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "jean-jacques-rousseau",
+    "mbti": "INFJ",
+    "name": "jean-jacques-rousseau",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "sigmund-freud",
+    "mbti": "INFJ",
+    "name": "sigmund-freud",
+    "category": "science",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "carl-jung",
+    "mbti": "INFJ",
+    "name": "carl-jung",
+    "category": "science",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "baruch-spinoza",
+    "mbti": "INFJ",
+    "name": "baruch-spinoza",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "sun-tzu",
+    "mbti": "INFJ",
+    "name": "sun-tzu",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "david-hume",
+    "mbti": "INFJ",
+    "name": "david-hume",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "john-locke",
+    "mbti": "INFJ",
+    "name": "john-locke",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "mbti": "INFJ",
+    "name": "simone-de-beauvoir",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "hannah-arendt",
+    "mbti": "INFJ",
+    "name": "hannah-arendt",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "soren-kierkegaard",
+    "mbti": "INFJ",
+    "name": "soren-kierkegaard",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "arthur-schopenhauer",
+    "mbti": "INFJ",
+    "name": "arthur-schopenhauer",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "isaac-newton",
+    "mbti": "INFJ",
+    "name": "isaac-newton",
+    "category": "science",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "galileo-galilei",
+    "mbti": "INFJ",
+    "name": "galileo-galilei",
+    "category": "science",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "charles-darwin",
+    "mbti": "INFJ",
+    "name": "charles-darwin",
+    "category": "science",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "michelangelo",
+    "mbti": "INFJ",
+    "name": "michelangelo",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "claude-monet",
+    "mbti": "INFJ",
+    "name": "claude-monet",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "fyodor-dostoevsky",
+    "mbti": "INFJ",
+    "name": "fyodor-dostoevsky",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "victor-hugo",
+    "mbti": "INFJ",
+    "name": "victor-hugo",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "anton-chekhov",
+    "mbti": "INFJ",
+    "name": "anton-chekhov",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "frederic-chopin",
+    "mbti": "INFJ",
+    "name": "frederic-chopin",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "katsushika-hokusai",
+    "mbti": "INFJ",
+    "name": "katsushika-hokusai",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mary-shelley",
+    "mbti": "INFJ",
+    "name": "mary-shelley",
+    "category": "arts",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "charlemagne",
+    "mbti": "INFJ",
+    "name": "charlemagne",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "pachacuti",
+    "mbti": "INFJ",
+    "name": "pachacuti",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "akbar-the-great",
+    "mbti": "INFJ",
+    "name": "akbar-the-great",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "queen-nzinga",
+    "mbti": "INFJ",
+    "name": "queen-nzinga",
+    "category": "leadership",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "michael-faraday",
+    "mbti": "INFJ",
+    "name": "michael-faraday",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "cyrus-the-great",
+    "mbti": "INFJ",
+    "name": "cyrus-the-great",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "hatshepsut",
+    "mbti": "INFJ",
+    "name": "hatshepsut",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ramesses-ii",
+    "mbti": "INFJ",
+    "name": "ramesses-ii",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "mbti": "INFJ",
+    "name": "queen-elizabeth-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "frederick-the-great",
+    "mbti": "INFJ",
+    "name": "frederick-the-great",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "gungunhana",
+    "mbti": "INFJ",
+    "name": "gungunhana",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nana-asmau",
+    "mbti": "INFJ",
+    "name": "nana-asmau",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nefertiti",
+    "mbti": "INFJ",
+    "name": "nefertiti",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "dido",
+    "mbti": "INFJ",
+    "name": "dido",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ranavalona-i",
+    "mbti": "INFJ",
+    "name": "ranavalona-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "gebre-mesqel-lalibela",
+    "mbti": "INFJ",
+    "name": "gebre-mesqel-lalibela",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "leo-africanus",
+    "mbti": "INFJ",
+    "name": "leo-africanus",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "lobengula",
+    "mbti": "INFJ",
+    "name": "lobengula",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "menelik-ii",
+    "mbti": "INFJ",
+    "name": "menelik-ii",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "moshoeshoe-i",
+    "mbti": "INFJ",
+    "name": "moshoeshoe-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "muhammad-ahmad",
+    "mbti": "INFJ",
+    "name": "muhammad-ahmad",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "behanzin",
+    "mbti": "INFJ",
+    "name": "behanzin",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "saad-zaghloul",
+    "mbti": "INFJ",
+    "name": "saad-zaghloul",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "samori-toure",
+    "mbti": "INFJ",
+    "name": "samori-toure",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "samuel-ajayi-crowther",
+    "mbti": "INFJ",
+    "name": "samuel-ajayi-crowther",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "sayyid-mohammed-abdullah-hassan",
+    "mbti": "INFJ",
+    "name": "sayyid-mohammed-abdullah-hassan",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "sonni-ali",
+    "mbti": "INFJ",
+    "name": "sonni-ali",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "sol-plaatje",
+    "mbti": "INFJ",
+    "name": "sol-plaatje",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "susenyos-i",
+    "mbti": "INFJ",
+    "name": "susenyos-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "amanirenas",
+    "mbti": "INFJ",
+    "name": "amanirenas",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ahmadu-bamba",
+    "mbti": "INFJ",
+    "name": "ahmadu-bamba",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "akhenaten",
+    "mbti": "INFJ",
+    "name": "akhenaten",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ahmad-baba-al-massufi",
+    "mbti": "INFJ",
+    "name": "ahmad-baba-al-massufi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ezana-of-axum",
+    "mbti": "INFJ",
+    "name": "ezana-of-axum",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "anton-wilhelm-amo",
+    "mbti": "INFJ",
+    "name": "anton-wilhelm-amo",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "athanasius-of-alexandria",
+    "mbti": "INFJ",
+    "name": "athanasius-of-alexandria",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "cyril-of-alexandria",
+    "mbti": "INFJ",
+    "name": "cyril-of-alexandria",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "amda-seyon-i",
+    "mbti": "INFJ",
+    "name": "amda-seyon-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "abd-al-rahman-al-jabarti",
+    "mbti": "INFJ",
+    "name": "abd-al-rahman-al-jabarti",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "abd-al-mumin",
+    "mbti": "INFJ",
+    "name": "abd-al-mumin",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "abdelkader-el-djezairi",
+    "mbti": "INFJ",
+    "name": "abdelkader-el-djezairi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "albert-luthuli",
+    "mbti": "INFJ",
+    "name": "albert-luthuli",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "yaa-asantewaa",
+    "mbti": "INFJ",
+    "name": "yaa-asantewaa",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "origen-of-alexandria",
+    "mbti": "INFJ",
+    "name": "origen-of-alexandria",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "osei-tutu-i",
+    "mbti": "INFJ",
+    "name": "osei-tutu-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "olaudah-equiano",
+    "mbti": "INFJ",
+    "name": "olaudah-equiano",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "yohannes-iv",
+    "mbti": "INFJ",
+    "name": "yohannes-iv",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "usman-dan-fodio",
+    "mbti": "INFJ",
+    "name": "usman-dan-fodio",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nzinga-of-ndongo-and-matamba",
+    "mbti": "INFJ",
+    "name": "nzinga-of-ndongo-and-matamba",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "idris-alooma",
+    "mbti": "INFJ",
+    "name": "idris-alooma",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "imhotep",
+    "mbti": "INFJ",
+    "name": "imhotep",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ibn-tumart",
+    "mbti": "INFJ",
+    "name": "ibn-tumart",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "amina-of-zazzau",
+    "mbti": "INFJ",
+    "name": "amina-of-zazzau",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "zera-yacob",
+    "mbti": "INFJ",
+    "name": "zera-yacob",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "john-chilembwe",
+    "mbti": "INFJ",
+    "name": "john-chilembwe",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "cetshwayo-kampande",
+    "mbti": "INFJ",
+    "name": "cetshwayo-kampande",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "khufu",
+    "mbti": "INFJ",
+    "name": "khufu",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "cleopatra-vii",
+    "mbti": "INFJ",
+    "name": "cleopatra-vii",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "kimpa-vita",
+    "mbti": "INFJ",
+    "name": "kimpa-vita",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "tariq-ibn-ziyad",
+    "mbti": "INFJ",
+    "name": "tariq-ibn-ziyad",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "taytu-betul",
+    "mbti": "INFJ",
+    "name": "taytu-betul",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "abubakar-tafawa-balewa",
+    "mbti": "INFJ",
+    "name": "abubakar-tafawa-balewa",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "taharqa",
+    "mbti": "INFJ",
+    "name": "taharqa",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "tertullian",
+    "mbti": "INFJ",
+    "name": "tertullian",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "tewodros-ii",
+    "mbti": "INFJ",
+    "name": "tewodros-ii",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "tutankhamun",
+    "mbti": "INFJ",
+    "name": "tutankhamun",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "prempeh-i",
+    "mbti": "INFJ",
+    "name": "prempeh-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "piye",
+    "mbti": "INFJ",
+    "name": "piye",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "herbert-macaulay",
+    "mbti": "INFJ",
+    "name": "herbert-macaulay",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "hendrik-witbooi",
+    "mbti": "INFJ",
+    "name": "hendrik-witbooi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "huda-shaarawi",
+    "mbti": "INFJ",
+    "name": "huda-shaarawi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "augustine-of-hippo",
+    "mbti": "INFJ",
+    "name": "augustine-of-hippo",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "j-e-casely-hayford",
+    "mbti": "INFJ",
+    "name": "j-e-casely-hayford",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "frantz-fanon",
+    "mbti": "INFJ",
+    "name": "frantz-fanon",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "w-e-b-du-bois",
+    "mbti": "INFJ",
+    "name": "w-e-b-du-bois",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "george-gemistos-plethon",
+    "mbti": "INFJ",
+    "name": "george-gemistos-plethon",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nikolai-gogol",
+    "mbti": "INFJ",
+    "name": "nikolai-gogol",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nikolay-muravyov-amursky",
+    "mbti": "INFJ",
+    "name": "nikolay-muravyov-amursky",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nikolai-vavilov",
+    "mbti": "INFJ",
+    "name": "nikolai-vavilov",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nikolai-przhevalsky",
+    "mbti": "INFJ",
+    "name": "nikolai-przhevalsky",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "danylo-halytskyi",
+    "mbti": "INFJ",
+    "name": "danylo-halytskyi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "david-iv-of-georgia",
+    "mbti": "INFJ",
+    "name": "david-iv-of-georgia",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "rabban-bar-sauma",
+    "mbti": "INFJ",
+    "name": "rabban-bar-sauma",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "lesya-ukrainka",
+    "mbti": "INFJ",
+    "name": "lesya-ukrainka",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "rudaki",
+    "mbti": "INFJ",
+    "name": "rudaki",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mahmud-al-kashgari",
+    "mbti": "INFJ",
+    "name": "mahmud-al-kashgari",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "michael-psellos",
+    "mbti": "INFJ",
+    "name": "michael-psellos",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mikhail-lomonosov",
+    "mbti": "INFJ",
+    "name": "mikhail-lomonosov",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mykhailo-drahomanov",
+    "mbti": "INFJ",
+    "name": "mykhailo-drahomanov",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mykhailo-hrushevsky",
+    "mbti": "INFJ",
+    "name": "mykhailo-hrushevsky",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "babur",
+    "mbti": "INFJ",
+    "name": "babur",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "basil-ii",
+    "mbti": "INFJ",
+    "name": "basil-ii",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "faxian",
+    "mbti": "INFJ",
+    "name": "faxian",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "belisarius",
+    "mbti": "INFJ",
+    "name": "belisarius",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "bohdan-khmelnytsky",
+    "mbti": "INFJ",
+    "name": "bohdan-khmelnytsky",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "bumin-qaghan",
+    "mbti": "INFJ",
+    "name": "bumin-qaghan",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "vladimir-the-great",
+    "mbti": "INFJ",
+    "name": "vladimir-the-great",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "vladimir-vernadsky",
+    "mbti": "INFJ",
+    "name": "vladimir-vernadsky",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "sergei-korolev",
+    "mbti": "INFJ",
+    "name": "sergei-korolev",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "semyon-dezhnev",
+    "mbti": "INFJ",
+    "name": "semyon-dezhnev",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "shota-rustaveli",
+    "mbti": "INFJ",
+    "name": "shota-rustaveli",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "leo-the-mathematician",
+    "mbti": "INFJ",
+    "name": "leo-the-mathematician",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "abai-qunanbaiuly",
+    "mbti": "INFJ",
+    "name": "abai-qunanbaiuly",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "avvakum",
+    "mbti": "INFJ",
+    "name": "avvakum",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "attila-the-hun",
+    "mbti": "INFJ",
+    "name": "attila-the-hun",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ahmad-yasawi",
+    "mbti": "INFJ",
+    "name": "ahmad-yasawi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "anna-komnene",
+    "mbti": "INFJ",
+    "name": "anna-komnene",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "andrei-rublev",
+    "mbti": "INFJ",
+    "name": "andrei-rublev",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "alexander-nevsky",
+    "mbti": "INFJ",
+    "name": "alexander-nevsky",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "alexander-pushkin",
+    "mbti": "INFJ",
+    "name": "alexander-pushkin",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "alexios-i-komnenos",
+    "mbti": "INFJ",
+    "name": "alexios-i-komnenos",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "alisher-navoi",
+    "mbti": "INFJ",
+    "name": "alisher-navoi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "muhammad-al-bukhari",
+    "mbti": "INFJ",
+    "name": "muhammad-al-bukhari",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "al-farghani",
+    "mbti": "INFJ",
+    "name": "al-farghani",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "yaroslav-the-wise",
+    "mbti": "INFJ",
+    "name": "yaroslav-the-wise",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "yermak-timofeyevich",
+    "mbti": "INFJ",
+    "name": "yermak-timofeyevich",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "john-chrysostom",
+    "mbti": "INFJ",
+    "name": "john-chrysostom",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ulugh-beg",
+    "mbti": "INFJ",
+    "name": "ulugh-beg",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "justinian-i",
+    "mbti": "INFJ",
+    "name": "justinian-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ivan-iii-the-great",
+    "mbti": "INFJ",
+    "name": "ivan-iii-the-great",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ivan-iv-the-terrible",
+    "mbti": "INFJ",
+    "name": "ivan-iv-the-terrible",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ivan-mazepa",
+    "mbti": "INFJ",
+    "name": "ivan-mazepa",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ivan-franko",
+    "mbti": "INFJ",
+    "name": "ivan-franko",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ismail-gasprinsky",
+    "mbti": "INFJ",
+    "name": "ismail-gasprinsky",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "jamshid-al-kashi",
+    "mbti": "INFJ",
+    "name": "jamshid-al-kashi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "shoqan-walikhanov",
+    "mbti": "INFJ",
+    "name": "shoqan-walikhanov",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "kassia",
+    "mbti": "INFJ",
+    "name": "kassia",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "constantine-xi-palaiologos",
+    "mbti": "INFJ",
+    "name": "constantine-xi-palaiologos",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "kublai-khan",
+    "mbti": "INFJ",
+    "name": "kublai-khan",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "anne-of-kyiv",
+    "mbti": "INFJ",
+    "name": "anne-of-kyiv",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "olga-of-kyiv",
+    "mbti": "INFJ",
+    "name": "olga-of-kyiv",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "taras-shevchenko",
+    "mbti": "INFJ",
+    "name": "taras-shevchenko",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "tamar-of-georgia",
+    "mbti": "INFJ",
+    "name": "tamar-of-georgia",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "theodora",
+    "mbti": "INFJ",
+    "name": "theodora",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "theophanes-the-greek",
+    "mbti": "INFJ",
+    "name": "theophanes-the-greek",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "tonyukuk",
+    "mbti": "INFJ",
+    "name": "tonyukuk",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "timur-tamerlane",
+    "mbti": "INFJ",
+    "name": "timur-tamerlane",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "petro-mohyla",
+    "mbti": "INFJ",
+    "name": "petro-mohyla",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "pyotr-ilyich-tchaikovsky",
+    "mbti": "INFJ",
+    "name": "pyotr-ilyich-tchaikovsky",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "procopius",
+    "mbti": "INFJ",
+    "name": "procopius",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "heraclius",
+    "mbti": "INFJ",
+    "name": "heraclius",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "xuanzang",
+    "mbti": "INFJ",
+    "name": "xuanzang",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "hryhorii-skovoroda",
+    "mbti": "INFJ",
+    "name": "hryhorii-skovoroda",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "gertrude-bell",
+    "mbti": "INFJ",
+    "name": "gertrude-bell",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nader-shah",
+    "mbti": "INFJ",
+    "name": "nader-shah",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "namik-kemal",
+    "mbti": "INFJ",
+    "name": "namik-kemal",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nasir-al-din-al-tusi",
+    "mbti": "INFJ",
+    "name": "nasir-al-din-al-tusi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nebuchadnezzar-ii",
+    "mbti": "INFJ",
+    "name": "nebuchadnezzar-ii",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "nizam-al-mulk",
+    "mbti": "INFJ",
+    "name": "nizam-al-mulk",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "darius-i",
+    "mbti": "INFJ",
+    "name": "darius-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "rashid-rida",
+    "mbti": "INFJ",
+    "name": "rashid-rida",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "reza-shah",
+    "mbti": "INFJ",
+    "name": "reza-shah",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mani",
+    "mbti": "INFJ",
+    "name": "mani",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mahmud-ii",
+    "mbti": "INFJ",
+    "name": "mahmud-ii",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mehmed-the-conqueror",
+    "mbti": "INFJ",
+    "name": "mehmed-the-conqueror",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mustafa-kemal-ataturk",
+    "mbti": "INFJ",
+    "name": "mustafa-kemal-ataturk",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "muhammad-ali-of-egypt",
+    "mbti": "INFJ",
+    "name": "muhammad-ali-of-egypt",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "muhammad-abduh",
+    "mbti": "INFJ",
+    "name": "muhammad-abduh",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "mimar-sinan",
+    "mbti": "INFJ",
+    "name": "mimar-sinan",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "badi-al-zaman-al-hamadani",
+    "mbti": "INFJ",
+    "name": "badi-al-zaman-al-hamadani",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "bediuzzaman-said-nursi",
+    "mbti": "INFJ",
+    "name": "bediuzzaman-said-nursi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "baybars",
+    "mbti": "INFJ",
+    "name": "baybars",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "saadi-shirazi",
+    "mbti": "INFJ",
+    "name": "saadi-shirazi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "sargon-of-akkad",
+    "mbti": "INFJ",
+    "name": "sargon-of-akkad",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "shapur-i",
+    "mbti": "INFJ",
+    "name": "shapur-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "selim-iii",
+    "mbti": "INFJ",
+    "name": "selim-iii",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "abbas-i-of-persia",
+    "mbti": "INFJ",
+    "name": "abbas-i-of-persia",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ashurbanipal",
+    "mbti": "INFJ",
+    "name": "ashurbanipal",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ahmed-shawqi",
+    "mbti": "INFJ",
+    "name": "ahmed-shawqi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ahmed-cevdet-pasha",
+    "mbti": "INFJ",
+    "name": "ahmed-cevdet-pasha",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "rhazes-al-razi",
+    "mbti": "INFJ",
+    "name": "rhazes-al-razi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "al-mamun",
+    "mbti": "INFJ",
+    "name": "al-mamun",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "al-masudi",
+    "mbti": "INFJ",
+    "name": "al-masudi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "al-battani",
+    "mbti": "INFJ",
+    "name": "al-battani",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "al-jahiz",
+    "mbti": "INFJ",
+    "name": "al-jahiz",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "al-kindi",
+    "mbti": "INFJ",
+    "name": "al-kindi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "al-tabari",
+    "mbti": "INFJ",
+    "name": "al-tabari",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "alp-arslan",
+    "mbti": "INFJ",
+    "name": "alp-arslan",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "evliya-celebi",
+    "mbti": "INFJ",
+    "name": "evliya-celebi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ibrahim-muteferrika",
+    "mbti": "INFJ",
+    "name": "ibrahim-muteferrika",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ibrahim-pasha-of-egypt",
+    "mbti": "INFJ",
+    "name": "ibrahim-pasha-of-egypt",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "mbti": "INFJ",
+    "name": "averroes-ibn-rushd",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "mbti": "INFJ",
+    "name": "avicenna-ibn-sina",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ibn-arabi",
+    "mbti": "INFJ",
+    "name": "ibn-arabi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ismail-i",
+    "mbti": "INFJ",
+    "name": "ismail-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "zarathushtra",
+    "mbti": "INFJ",
+    "name": "zarathushtra",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "jamal-al-din-al-afghani",
+    "mbti": "INFJ",
+    "name": "jamal-al-din-al-afghani",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "jabir-ibn-hayyan",
+    "mbti": "INFJ",
+    "name": "jabir-ibn-hayyan",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ziya-gokalp",
+    "mbti": "INFJ",
+    "name": "ziya-gokalp",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "karim-khan-zand",
+    "mbti": "INFJ",
+    "name": "karim-khan-zand",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "katip-celebi",
+    "mbti": "INFJ",
+    "name": "katip-celebi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "xerxes-i",
+    "mbti": "INFJ",
+    "name": "xerxes-i",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "thabit-ibn-qurra",
+    "mbti": "INFJ",
+    "name": "thabit-ibn-qurra",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "tahirih",
+    "mbti": "INFJ",
+    "name": "tahirih",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "fuzuli",
+    "mbti": "INFJ",
+    "name": "fuzuli",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "ferdowsi",
+    "mbti": "INFJ",
+    "name": "ferdowsi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "piri-reis",
+    "mbti": "INFJ",
+    "name": "piri-reis",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "harun-al-rashid",
+    "mbti": "INFJ",
+    "name": "harun-al-rashid",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "hafez",
+    "mbti": "INFJ",
+    "name": "hafez",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "halide-edib-adivar",
+    "mbti": "INFJ",
+    "name": "halide-edib-adivar",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "hammurabi",
+    "mbti": "INFJ",
+    "name": "hammurabi",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "hurrem-sultan-roxelana",
+    "mbti": "INFJ",
+    "name": "hurrem-sultan-roxelana",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
+  },
+  {
+    "slug": "t-e-lawrence",
+    "mbti": "INFJ",
+    "name": "t-e-lawrence",
+    "category": "wisdom",
+    "icons": [
+      "Historical figure",
+      "Iconic symbol"
+    ]
   }
 ]
