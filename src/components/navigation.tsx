@@ -51,16 +51,28 @@ export function Navigation() {
   const locales = [
     { code: 'en', label: 'English' },
     { code: 'ko', label: '한국어' },
-    { code: 'de', label: 'Deutsch' },
-    { code: 'ja', label: '日本語' },
-    { code: 'es', label: 'Español' },
-    { code: 'fr', label: 'Français' },
-    { code: 'it', label: 'Italiano' },
-    { code: 'pt', label: 'Português' },
     { code: 'ar', label: 'العربية' },
-    { code: 'hi', label: 'हिन्दी' },
-    { code: 'ru', label: 'Русский' },
     { code: 'zh', label: '简体中文' },
+    { code: 'nl', label: 'Nederlands' },
+    { code: 'fr', label: 'Français' },
+    { code: 'de', label: 'Deutsch' },
+    { code: 'el', label: 'Ελληνικά' },
+    { code: 'ha', label: 'Hausa' },
+    { code: 'he', label: 'עברית' },
+    { code: 'hi', label: 'हिन्दी' },
+    { code: 'id', label: 'Bahasa Indonesia' },
+    { code: 'it', label: 'Italiano' },
+    { code: 'ja', label: '日本語' },
+    { code: 'fa', label: 'فارسی' },
+    { code: 'pl', label: 'Polski' },
+    { code: 'pt', label: 'Português' },
+    { code: 'ru', label: 'Русский' },
+    { code: 'es', label: 'Español' },
+    { code: 'sw', label: 'Kiswahili' },
+    { code: 'th', label: 'ไทย' },
+    { code: 'tr', label: 'Türkçe' },
+    { code: 'uk', label: 'Українська' },
+    { code: 'vi', label: 'Tiếng Việt' },
   ]
   
   useEffect(() => {
@@ -125,8 +137,8 @@ export function Navigation() {
               <DropdownMenuTrigger asChild>
                 <button className="flex items-center gap-2 px-3 py-2 rounded-xl glass border border-white/10 text-sm text-foreground hover:bg-white/5 transition-all outline-none">
                   <Languages className="w-4 h-4 text-amber-400" />
-                  <span className={(locale === 'ja' || locale === 'es' || locale === 'fr' || locale === 'it' || locale === 'pt' || locale === 'ar' || locale === 'hi' || locale === 'ru' || locale === 'zh') ? '' : 'uppercase'}>
-                    {locale === 'ja' ? '日本語' : locale === 'es' ? 'Español' : locale === 'fr' ? 'Français' : locale === 'it' ? 'Italiano' : locale === 'pt' ? 'Português' : locale === 'ar' ? 'العربية' : locale === 'hi' ? 'हिन्दी' : locale === 'ru' ? 'Русский' : locale === 'zh' ? '简体中文' : locale}
+                  <span className="">
+                    {locales.find(l => l.code === locale)?.label || locale.toUpperCase()}
                   </span>
                   <ChevronDown className="w-3 h-3 text-muted-foreground" />
                 </button>

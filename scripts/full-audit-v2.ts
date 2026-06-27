@@ -4,7 +4,7 @@ import { giantsData } from '../src/data/giants';
 import finalNarratives from '../src/data/final-narratives.json';
 import wikipediaLinks from '../src/data/wikipedia-links.json';
 
-const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt', 'ar', 'hi', 'ru', 'zh'] as const;
+const LOCALES = ['ko', 'en', 'ar', 'zh', 'nl', 'fr', 'de', 'el', 'ha', 'he', 'hi', 'id', 'it', 'ja', 'fa', 'pl', 'pt', 'ru', 'es', 'sw', 'th', 'tr', 'uk', 'vi'] as const;
 
 interface AuditError {
   slug: string;

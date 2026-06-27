@@ -149,7 +149,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSans.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+    <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSans.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
       </head>
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
