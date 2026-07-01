@@ -74,7 +74,7 @@ export function HeroSection() {
       {/* Content */}
       <div className={`relative z-10 text-center px-4 max-w-5xl mx-auto transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         {/* Main title */}
-        <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-foreground mb-4 tracking-tight animate-fade-in">
+        <h1 className={`text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-foreground mb-4 tracking-tight animate-fade-in ${locale === 'hi' ? 'font-[family-name:var(--font-devanagari)]' : 'font-serif'}`}>
           <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-200">
             {tBrand("mainTitle")}
           </span>
