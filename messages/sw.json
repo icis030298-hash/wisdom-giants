@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
-    "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "hallOfGems": "Ukumbi wa Akili",
+    "wisdomArchive": "Nyumbani",
+    "chatList": "Orodha ya Gumzo",
+    "about": "Kuhusu",
+    "startExploring": "Anza Kuchunguza",
+    "title": "Hekima ya Majitu",
+    "subtitle": "Ukumbi wa Akili Kubwa",
+    "login": "Ingia",
+    "logout": "Toka",
+    "myProfile": "Wasifu Wangu",
+    "signInRequired": "Kuingia kunahitajika ili kuona historia ya gumzo.",
+    "debate": "Chumba cha Mijadala",
+    "blog": "Blogu",
+    "consult": "Pata Ushauri",
+    "disclaimer": "Kanusho"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "Karibu kwenye Ukumbi wa Majitu",
+    "loginModalDescription": "Hifadhi mazungumzo yako na majitu na dhibiti urithi wa hekima uliokuwa umechorwa ndani ya roho yako.",
+    "continueWithGoogle": "Endelea na Google",
+    "loginSuccess": "Karibu kwenye Ukumbi wa Akili Kubwa.",
+    "logout": "Toka",
+    "chatList": "Mazungumzo Yangu",
+    "signInRequired": "Ingia Inahitajika"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "Pata Urithi Mkubwa Unaotiririka Kwenye Roho Yako",
+    "subtitle": "Jaribio la Uchambuzi wa Hali ya Kihistoria",
+    "start": "Anza Jaribio",
+    "back": "Rudi Nyuma",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "JARIBIO LA DNA 🧬",
+      "title": "Pata mfanano wako wa kihistoria wa DNA\nkupitia maswali 15.",
+      "desc": "Pata pacha wako wa kihistoria kupitia maswali 15.",
+      "button": "Anza Jaribio →"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "Hatua ya 1: Kuamka",
+      "stage2": "Hatua ya 2: Jaribio",
+      "stage3": "Hatua ya 3: Hatima",
+      "cleared": "Hatua ya {stage} Imefaulu!",
+      "ready": "Uko tayari kuendelea na hatua inayofuata?",
+      "next": "Endelea hadi Hatua Inayofuata"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "Tunachambua mwangwi wa roho yako...",
+      "sub": "Tunatafuta nguzo zako katika mtiririko mkuu wa historia."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "Umefikia hatima yako ya kihistoria",
+      "archetype": "Utambulisho Wako wa Urithi",
+      "matchedGiant": "Jitu linalokufanana zaidi",
+      "readEpic": "Soma Hadithi Kuu",
+      "chatNow": "Piga Gumzo Sasa"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "Mazungumzo Yangu",
+    "subtitle": "Mazungumzo na Akili Kubwa",
+    "description": "Tembelea tena maarifa na ushauri wa kina kutoka kwa majitu makuu ya historia. Unaweza kuendelea na mazungumzo yoyote wakati wowote.",
+    "emptyTitle": "Bado hakuna mazungumzo",
+    "emptyDescription": "Majitu yako tayari kusikiliza wasiwasi wako. Anza mazungumzo yako ya kwanza sasa!",
+    "startFirstChat": "Anza Gumzo la Kwanza",
+    "messages": "jumbe",
+    "lastChat": "Gumzo la mwisho"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
+    "badge": "Ukumbi wa Akili Kubwa",
+    "quote": "Ikiwa nimeona mbali zaidi, ni kwa kusimama kwenye mabega ya Majitu.",
     "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "startJourney": "Anza Safari",
+    "startTest": "🧬 Tafuta Mfanano Wako wa Kihistoria",
+    "exploreHall": "💭 Pata Ushauri kutoka kwa Majitu",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "Akili Kubwa",
+      "questions": "Maswali ya Jaribio",
+      "free": "Bure Kabisa",
+      "freeValue": "Bure"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "Mwongozo wa Safari ya Ukumbi wa Hekima",
+      "selectGiant": "Chagua Jitu",
+      "selectGiantDesc": "Pata haiba zenye kutia moyo kati ya magwiji 140+ wa kihistoria.",
+      "epic": "Hadithi Kuu",
+      "epicDesc": "Soma rekodi za maisha kana kwamba majitu yenyewe yanasimulia.",
+      "chat": "Gumzo la Wakati Halisi",
+      "chatDesc": "Shiriki wasiwasi wako na majitu yaliyofufuka kupitia AI ya kisasa.",
+      "startNow": "Anza Sasa"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "Ingia Chumba cha Mijadala cha Majitu",
+    "chatProgress": "majitu uliyokutana nayo ({total} jumla)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "Ukumbi wa Maraja Wakuu",
+    "description": "Gundua hekima ya watu waliobadili historia. Chagua mtu kuanzisha mazungumzo yanayovuka mipaka ya wakati na nafasi.",
+    "viewAll": "Tazama Maraja Wote",
+    "bestPick": "Chaguo Bora",
+    "todaysPick": "Chaguo la Leo",
+    "chatNow": "Piga Gumzo Sasa"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "Maraja wa Kihistoria",
+    "description": "Gundua hekima ya watu waliobadili mkondo wa ubinadamu. Chagua raja kuanzisha mazungumzo yanayovuka mipaka ya wakati na nafasi.",
+    "searchPlaceholder": "Tafuta kwa jina au uwanja...",
+    "allGiants": "Maraja Wote",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "Uongozi",
+      "science": "Sayansi",
+      "philosophy": "Falsafa",
+      "arts": "Sanaa",
+      "society": "Jamii",
+      "business": "Biashara"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "Wamepatikana akili {filtered} kati ya {total} zenye hekima kuu",
+    "readEpic": "Soma Hadithi Kuu ✨",
+    "noResults": "Hakuna matokeo yaliyopatikana",
+    "era": "Raja wa Kihistoria",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "Ya Kwanza",
+      "prev": "Nyuma",
+      "next": "Mbele",
+      "last": "Ya Mwisho"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "Safari Yangu ya Maraja",
+    "progressSubtext": "{progress}% imechunguzwa! Endelea 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "Mikoa Yote",
+      "east-asia": "Asia Mashariki",
+      "europe": "Ulaya",
+      "americas": "Amerika",
+      "middle-east-turkey": "Mashariki ya Kati & Uturuki",
+      "africa": "Afrika",
+      "south-southeast-asia": "Asia Kusini & Kusini-Mashariki"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "Rudi Uwanjani",
+    "chatWith": "Piga Gumzo na {name}",
+    "theLifeStory": "Hadithi ya Maisha",
+    "thePain": "Pambano",
+    "theRecovery": "Kurejea",
+    "wisdomLessons": "Masomo ya Hekima",
+    "famousQuote": "Nukuu Maarufu",
+    "era": "Kipindi",
+    "field": "Uwanja",
+    "askForAdvice": "Omba Ushauri",
+    "notFound": "Raja hakupatikana.",
+    "goHome": "Rudi Nyumbani"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "Nukuu Maarufu",
+    "description": "Maelezo",
+    "suggestedQuestions": "Maswali Yaliyopendekezwa",
+    "inputPlaceholder": "Uliza {name} chochote...",
+    "contemplating": "{name} anatafakari...",
+    "wisdomActive": "Hekima Hai",
+    "historyEra": "Historia & Kipindi",
+    "fieldOfWisdom": "Uwanja wa Hekima",
+    "error": "Samahani, kumetokea hitilafu nilipojaribu kupata hekima yangu. Je, unaweza kujaribu tena baada ya muda mfupi?",
+    "retry": "Pata Hekima Tena"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "Kwa Nini Hekima ya Maraja",
+    "description": "Furahia safari bunifu ya kuvuka maelfu ya miaka kukutana na hekima ya binadamu.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "Piga Gumzo la Moja kwa Moja na Maraja wa Kihistoria",
+        "description": "Shiriki katika mazungumzo ya kina yanayovuka wakati na nafasi na watu mashuhuri wa kihistoria kupitia AI ya hali ya juu."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "Miaka 2,500 ya Hekima ya Binadamu",
+        "description": "Kutana na miaka 2,500 ya historia, mafanikio, na maarifa yaliyojengwa na ubinadamu katika sehemu moja."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "Maarifa Moja kwa Moja kutoka kwa Mabingwa",
+        "description": "Tunatoa thamani ya kujifunza waziwazi kana kwamba unasikiliza moja kwa moja mabingwa wa falsafa, sayansi, na sanaa."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "Maarifa Yanayokufaa Wewe",
+        "description": "Uliza maswali, chunguza mawazo, na upate mwongozo maalum unaohitajika kwa maisha yako."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "Akili Kubwa",
+      "history": "Miaka ya Hekima",
+      "fields": "Nyanja za Masomo",
+      "inspiration": "Msukumo"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "Hekima ya Kila Siku"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "Sera ya Faragha",
+    "lastUpdated": "Iliyosasishwa Mwisho: Mei 16, 2026",
+    "summaryTitle": "1. Muhtasari Mkuu",
+    "summaryDesc": "Katika Hekima ya Majitu, hatuwahi kuuza au kushiriki vibaya data yako ya kibinafsi. Sera hii inaeleza jinsi tunavyolinda na kuchakata data inayokusanywa unapofanya majaribio ya utu na kuzungumza na majitu ya kihistoria.",
+    "collectionTitle": "2. Data Tunayokusanya na Jinsi Tunavyoikusanya",
+    "collectionDesc": "Tovuti yetu inaweza kuchunguzwa kabisa bila kujitambulisha bila kuunda akaunti. Hata hivyo, wakati wa mwingiliano wako, data ifuatayo inaweza kuchakatwa:\n- Data Iliyotolewa kwa Hiari: Majibu ya Jaribio la DNA ya Urithi, maandishi yaliyoingizwa wakati wa mazungumzo ya AI, na anwani za barua pepe (ikiwa tu unajiandikisha kwenye jarida letu).\n- Data Iliyoingizwa Kiotomatiki: Aina ya kifaa, vipimo vya kivinjari, anwani ya IP, na historia ya mwingiliano iliyorekodiwa salama kupitia Vidakuzi.",
+    "purposeTitle": "3. Jinsi Tunavyotumia Habari",
+    "purposeDesc": "Data iliyokusanywa inatumika madhubuti kwa malengo yafuatayo:\n- Kukusanya matokeo ya jaribio la maswali 15 ili kubainisha sura yako ya kibinafsi ya jitu la kihistoria iliyo karibu zaidi.\n- Kuwasilisha majibu ya mazungumzo ya kihistoria ya nguvu, ya wakati halisi yanayoendeshwa kwa usafi na API ya Gemini 2.5 Flash.\n- Uchambuzi wa kitakwimu, usiojulikana ili kuboresha metriki zetu za archetipe ya utu.\n- Kuendesha mabango salama yaliyobinafsishwa kupitia Google AdSense.",
+    "adsenseTitle": "4. Sera ya Google AdSense na Vidakuzi vya Wahusika Wengine",
+    "adsenseDesc": "Tovuti hii inaonyesha matangazo yaliyounganishwa kupitia Google AdSense. Google na wachuuzi wengine wanatumia vidakuzi kutoa matangazo yanayolengwa kulingana na ziara zako kwenye tovuti hii na zingine kote mtandaoni. Matumizi ya Google ya vidakuzi vya matangazo yanawezesha yenyewe na washirika wake kutoa matangazo kwa watumiaji kulingana na ziara yao kwenye tovuti hii na/au tovuti zingine kwenye Mtandao. Unaweza kujiondoa kwa urahisi kwenye utangazaji uliopangwa kibinafsi kwa kutembelea Mipangilio ya Matangazo ya Google (https://www.google.com/settings/ads). Vinginevyo, unaweza kujiondoa kwenye vidakuzi vya wachuuzi wengine kwa ajili ya utangazaji uliopangwa kibinafsi kwa kutembelea www.aboutads.info.",
+    "retentionTitle": "5. Uhifadhi na Uharibifu wa Data",
+    "retentionDesc": "Matokeo ya majaribio yasiyojulikana na viingilizi vya gumzo hufutwa wakati kikao kinapofungwa au kuondolewa kabisa alama za utambulisho (kufanywa bila kujulikana) kwa ajili ya utafiti wa kudumu wa jumla. Viingilizi vyovyote vya kibinafsi kama barua pepe hufutwa kabisa kwa ombi lako.",
+    "rightsTitle": "6. Haki Zako na Taarifa za Mawasiliano",
+    "rightsDesc": "Unahifadhi mamlaka kamili ya kutazama, kurekebisha, au kufuta kabisa vipande vyovyote vya data vilivyounganishwa na utambulisho wako. Kwa malalamiko yoyote ya kisheria au faragha, tafadhali wasiliana na kituo chetu rasmi cha usaidizi."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "Ukumbi wa Akili Kubwa",
+      "description": "Jiunge na safari ya akili kubwa zilizobadili historia. Pata hekima isiyofungwa na wakati na nafasi."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "Chunguza",
+      "info": "Habari"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
-      "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "allGiants": "Majitu Yote",
+      "wisdomArchive": "Kumbukumbu ya Hekima",
+      "about": "Kuhusu Sisi",
+      "privacy": "Sera ya Faragha",
+      "terms": "Masharti ya Huduma",
+      "contact": "Wasiliana",
+      "dnaTest": "Jaribio la Mechi ya Kihistoria",
+      "debate": "Chumba cha Majadiliano cha AI",
+      "blog": "Blogu",
+      "consult": "Pata Ushauri",
+      "disclaimer": "Kanusho"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "Kwa wale waliopotea katika\nkujaa kwa habari zisizo na kikomo.",
+    "subIntro": "Nafasi ya kujitenga na kelele na kukabiliana na hekima ya kweli.",
+    "visionTitle": "Kusimama Mabegani mwa Majitu",
+    "visionDesc": "“Kama nimeona mbali zaidi, ni kwa kusimama mabegani mwa majitu.” - Isaac Newton. Tulianza na imani kwamba majibu ya matatizo yetu magumu ya kisasa yanaweza tayari kuunganishwa katika maisha ya majitu makuu ya historia.",
+    "epicTitle": "Hadithi Kuu za Majitu 500",
+    "epicDesc": "Nenda zaidi ya ukweli wa kihistoria tu. Pata uzoefu wa saga kuu ya majitu yaliyoshinda matatizo ili kuunda upya historia ya binadamu.",
+    "chatTitle": "Majadiliano Katika Zama Tofauti",
+    "chatDesc": "Shiriki katika mazungumzo ya wakati halisi na saini zilizorejeshwa za majitu zinazoendeshwa na AI ya hali ya juu (Gemini 2.5 Flash) kutafuta ufahamu mkali kwa matatizo yako ya kisasa.",
+    "testTitle": "Pata Mechi Yako ya Kihistoria",
+    "testDesc": "Gundua DNA ya jitu inayotiririka ndani ya roho yako kupitia dodoso la hatua 3 la hali ya kuzama lililowekwa katika nyakati muhimu za kihistoria.",
+    "outroTitle": "Karibu Kwenye Ukumbi wa Majitu",
+    "outroDesc": "Juu ya mabega yao, hatimaye utaona mbali zaidi. Anza safari yako leo.",
+    "pillarsOfWisdom": "Nguzo za Hekima"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "Masharti ya Huduma",
+    "lastUpdated": "Iliyosasishwa Mwisho: Mei 16, 2026",
+    "intro": "Karibu kwenye Hekima ya Majitu. Masharti haya ya Huduma yanasimamia makubaliano ya kisheria na mipaka ya mtumiaji kati yako na jukwaa letu kuhusu ushirikiano wako na metriki zetu za utu asili na simulizi za mazungumzo.",
+    "eligibilityTitle": "Kifungu cha 1 (Uwezo na Ulinzi wa Watoto Wadogo)",
+    "eligibilityDesc": "Huduma hii imekusudiwa kabisa kwa watumiaji walio na umri wa miaka 13 na zaidi. Watumiaji walio chini ya miaka 13 wanaoshirikiana na nodi zetu wanawakilisha kwamba wamepata kibali cha wazazi kilichothibitishwa kwa mujibu wa maagizo ya kimataifa ya faragha ya watoto. Jukwaa linakanusha dhima zote zinazotokana na ufikiaji usioidhinishwa wa watoto wadogo.",
+    "aiTitle": "Kifungu cha 2 (Miundombinu ya AI na Kanusho Kamili)",
+    "aiDesc": "1. Majadiliano yote na watu mashuhuri wa kihistoria yaliyoonyeshwa kwenye jukwaa hili ni simulizi za mwingiliano zinazozalishwa kwa usafi na mifumo ya juu ya AI (Gemini 2.5 suite).\n2. Matokeo yaliyotolewa yameundwa kabisa kwa ajili ya elimu na burudani. Hayajumuishi rekodi za kihistoria zilizothibitishwa, tathmini za kitaalamu za kisaikolojia, ushauri wa kimatibabu, au ushauri wa kisheria.\n3. Hekima ya Majitu haina dhima kwa udanganyifu wa AI au maamuzi yaliyotekelezwa na watumiaji kulingana na telemetry ya mfumo.",
+    "intellectualTitle": "Kifungu cha 3 (Milki ya Akili na Ulinzi Dhidi ya Upekuzi)",
+    "intellectualDesc": "1. Miundo yote ya mpangilio, alama za biashara, metriki za upimaji za 'Nguzo 4 za Ukuu', maswali 15 ya hali, na vielelezo vya vekta bapa vya premium vinabaki kuwa mali ya kipekee ya Hekima ya Majitu.\n2. Watumiaji wamepigwa marufuku kabisa kutekeleza unakili usioidhinishwa, uuzaji wa kibiashara, au upekuzi mbaya wa data kupitia boti za kiotomatiki, hati, au nodi za mtandao wa kukokota.",
+    "userDutyTitle": "Kifungu cha 4 (Kiambatanisho cha Mtumiaji na Idhini ya Uwasilishaji wa Mapato)",
+    "userDutyDesc": "1. Watumiaji wanakubali kutumia programu yetu bila kuanzisha mfuatano wa uhandisi wa kurudi nyuma au vekta hatari za kupakia seva kupita kiasi.\n2. Kwa kuzingatia ufikiaji wa bure, watumiaji wanatoa idhini isiyoweza kubatilishwa kwa Google AdSense na wakala wa matangazo wa wahusika wengine kuwasilisha mipangilio ya mabango ya kiotomatiki katika eneo lote la kazi la programu.",
+    "disputeTitle": "Kifungu cha 5 (Sheria Inayosimamia na Mamlaka Husika)",
+    "disputeDesc": "Masharti haya na vitendo vyovyote vya kisheria vinavyotokana na matumizi ya mfumo vitasimamiwa na kufasiriwa kwa mujibu wa sheria za Jamhuri ya Korea. Migogoro yoyote itawekwa kwa mahakama yenye mamlaka inayohusika na eneo la mwendeshaji wa jukwaa."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "Mipangilio ya Ruhusa ya Vidakuzi",
+    "description": "Tunatumia vidakuzi kubinafsisha matangazo (Google AdSense) na kuchambua trafiki. Kwa kukubali, unakubali matumizi yetu ya vidakuzi.",
+    "acceptAll": "Kubali Zote",
+    "rejectAll": "Kataa Zote",
+    "customize": "Binafsisha",
+    "savePreferences": "Hifadhi Mapendeleo",
+    "necessary": "Vidakuzi vya Lazima",
+    "necessaryDesc": "Vinahitajika ili tovuti ifanye kazi vizuri. (Huwa Vinatumika Daima)",
+    "analytics": "Vidakuzi vya Takwimu",
+    "analyticsDesc": "Hutumiwa kuchambua wageni na mifumo ya matumizi ili kuboresha huduma yetu.",
+    "advertising": "Vidakuzi vya Matangazo",
+    "advertisingDesc": "Hutumiwa kutoa matangazo yaliyobinafsishwa kupitia Google AdSense."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "title": "Wasiliana Nasi",
+    "name": "Jina",
+    "email": "Barua pepe",
+    "subject": "Mada (si lazima)",
+    "message": "Ujumbe",
+    "send": "Tuma Ujumbe",
+    "sending": "Inatuma...",
+    "success": "Ujumbe umetumwa kwa mafanikio! Asante.",
+    "error": "Imeshindwa kutuma. Tafadhali jaribu tena.",
+    "namePlaceholder": "Weka jina lako",
+    "emailPlaceholder": "Weka barua pepe yako",
+    "subjectPlaceholder": "Weka mada",
+    "messagePlaceholder": "Weka ujumbe wako"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "Chumba cha Mijadala",
+    "subtitle": "Mjadala wa Hekima wa Majitu",
+    "description": "Chagua majitu 2-4 ya kihistoria na toa mada. Watabishana moja kwa moja.",
+    "selectGiants": "Chagua Majitu ya Mjadala",
+    "selectedCount": "{count}/4 Yamechaguliwa",
+    "minRequired": "Tafadhali chagua angalau majitu 2",
+    "maxAllowed": "Unaweza kuchagua hadi majitu 4",
+    "enterTopic": "Weka Mada ya Mjadala",
+    "topicPlaceholder": "Weka mada ya mjadala...\nmfano, Je, pesa inaweza kuleta furaha katika jamii ya kisasa?",
+    "startDebate": "Anzisha Mjadala",
+    "aiRecommend": "AI Pendekeza",
+    "selfSelect": "Chagua Wewe Mwenyewe",
+    "aiRecommendTitle": "Wabishani Bora kwa Mada Hii",
+    "thinking": "{name} anafikiria...",
+    "interject": "Ingilia mjadala...",
+    "endDebate": "Maliza Mjadala",
+    "shareDebate": "Shiriki Mjadala",
+    "newDebate": "Mjadala Mpya",
+    "summaryTitle": "Muhtasari wa Mjadala",
+    "rounds": "{count} Mizunguko",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "Pesa na furaha, ipi huja kwanza?",
+      "Je, demokrasia ya kisasa ni mfumo kamili?",
+      "Je, AI itaokoa ubinadamu au itauhatarisha?",
+      "Je, vita vinaweza kuhalalishwa kamwe?",
+      "Uhuru wa mtu binafsi dhidi ya utaratibu wa kijamii, upi huja kwanza?",
+      "Je, sanaa inaweza kubadili jamii?",
+      "Wanadamu wanapaswa kuishije uso kwa uso na kifo?"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "MJADALA WA MOJA KWA MOJA",
+    "titlePre": "Mapambano ya Akili Kubwa Zaidi",
+    "titlePost": "'Chumba cha Mjadala Mkuu wa Majitu'",
+    "desc": "\"Je, pesa inaweza kununua furaha?\" Tazama na ujiunge na mjadala mkali wa kiakili kati ya Aristotle na Nietzsche kwa wakati halisi.",
+    "button": "Tazama na Shiriki"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "AU",
+    "title": "Unapitia jambo gumu?",
+    "desc": "Lincoln, Seneca, Gandhi —\nwote walikabiliana na maumivu yale yale. Na wakayashinda.",
+    "button": "Ongea na Jitu →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "Kanusho | Hekima ya Mamega",
+      "description": "Tafadhali soma kabla ya kutumia Hekima ya Mamega."
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "Kanusho",
+    "lastUpdated": "Iliyosasishwa Mwisho: Juni 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "Ilani ya Maudhui Yanayotokana na AI",
+        "content": "Huduma ya mazungumzo ya AI ya Hekima ya Mamega na watu maarufu wa kihistoria hutumia teknolojia ya akili bandia kuzalisha mazungumzo kulingana na rekodi na nyaraka za kihistoria. Kauli, ushauri, na mazungumzo yanayohusishwa na watu maarufu wa kihistoria katika huduma hii si nukuu za moja kwa moja kutoka kwa watu halisi wa kihistoria, bali ni uwakilishi wa ubunifu unaotokana na AI kulingana na uchambuzi wa nyenzo za kihistoria. Hekima ya Mamega hujitahidi kwa usahihi wa kihistoria, lakini maudhui yanayotokana na AI yanaweza mara kwa mara kutofautiana na rekodi halisi za kihistoria."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "Madhumuni ya Kielimu",
+        "content": "Hekima ya Mamega ni huduma ya kielimu iliyoundwa kufanya maisha na hekima ya watu maarufu wa kihistoria ipatikane kwa hadhira ya kisasa. Maudhui yote yaliyotolewa ni kwa madhumuni ya habari na kielimu pekee na haipaswi kutumiwa kama chanzo cha utafiti wa kitaalamu wa kihistoria au nukuu za kitaaluma."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "Usahihi wa Habari",
+        "content": "Hekima ya Mamega hujitahidi kwa usahihi katika maudhui yaliyotolewa, lakini haihakikishii usahihi kamili wa habari zote. Kwa maamuzi muhimu yanayotegemea ukweli wa kihistoria, tafadhali wasiliana na vyanzo vya kihistoria vya kuaminika na maoni ya wataalamu."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "Hakimiliki",
+        "content": "Maudhui yote kwenye Hekima ya Mamega (maandishi, muundo, mifumo ya mazungumzo ya AI, n.k.) ni mali miliki ya Hekima ya Mamega. Uzalishaji upya, usambazaji, au urekebishaji kwa madhumuni ya kibiashara bila kibali cha maandishi cha awali ni marufuku. Kwa matumizi ya kielimu, yasiyo ya kibiashara, tafadhali taja chanzo waziwazi."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "Kwa maswali kuhusu kanusho hili, tafadhali wasiliana na contact@giantswisdom.com."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "Imeandikwa na",
+    "authorName": "Timu ya Wahariri wa Hekima ya Mamega",
+    "authorDescription": "Tunatoa habari iliyothibitishwa tu kulingana na rekodi na nyaraka za kihistoria. Maudhui yote yanayotokana na AI hupitiwa upya na wahariri.",
+    "publishedLabel": "Iliyochapishwa",
+    "updatedLabel": "Imesasishwa"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "Sera ya Uhariri",
+    "sectionSubtitle": "Hekima ya Mamega huunda maudhui kulingana na kanuni hizi",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "Kulingana na Ukweli wa Kihistoria",
+        "description": "Habari zote za watu maarufu wa kihistoria na mazungumzo yanatokana na vyanzo vya kihistoria vilivyothibitishwa."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "Uwazi wa AI",
+        "description": "Tunaweka wazi mazungumzo yanayotokana na AI na kuyatofautisha na kauli halisi za kihistoria."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "Sasisho Endelevu",
+        "description": "Maudhui hupitiwa upya na kusasishwa mara kwa mara ili kuonyesha utafiti wa hivi karibuni wa kihistoria."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "Utofauti na Ujumuishi",
+        "description": "Tunawasilisha watu maarufu wa kihistoria kutoka tamaduni na zama mbalimbali duniani kote kwa usawa."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "Wanaoshughulikiwa zaidi leo"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "Zungumza moja kwa moja na Mamega katika makala hii",
+    "talkNow": "Zungumza sasa"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "Unataka kujua hekima ya Jitu hili kwa undani zaidi?",
+    "minuteRead": "dakika za kusoma"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "Shiriki kama kadi",
+    "myQuestion": "Swali langu",
+    "downloadButton": "Hifadhi kama picha",
+    "shareButton2": "Shiriki",
+    "generating": "Inatengeneza...",
+    "saved": "Imehifadhiwa!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 Kila Jumatano",
+    "title": "Hekima ya kila wiki kutoka kwa akili kubwa za historia",
+    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nUfahamu mmoja wa kuanza wiki yako vizuri.",
+    "placeholder": "Weka anwani yako ya barua pepe",
+    "subscribeButton": "Jiandikishe Bure",
+    "subscribing": "Inajiandikisha...",
+    "successMessage": "Umejiandikisha!",
+    "successSubtext": "Utapokea hekima ya majitu kila wiki 📬",
+    "blogTitle": "Pata hekima kama hii kila wiki"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "Mabega ya Majitu",
+    "subTitle": "Ongea na hekima kubwa",
+    "metaTitle": "Mabega ya Majitu | Gumzo la Hekima la AI",
+    "metaDescription": "Ongea na Sejong, Socrates, Napoleon... watu 300 mashuhuri wa kihistoria kupitia AI. Bure kabisa."
   }
 }

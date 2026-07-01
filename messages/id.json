@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
+    "hallOfGems": "Balai Para Pemikir",
+    "wisdomArchive": "Beranda",
+    "chatList": "Daftar Obrolan",
+    "about": "Tentang",
+    "startExploring": "Mulai Menjelajah",
+    "title": "Kebijaksanaan Para Raksasa",
+    "subtitle": "Balai Para Pemikir Hebat",
+    "login": "Masuk",
+    "logout": "Keluar",
+    "myProfile": "Profil Saya",
+    "signInRequired": "Login diperlukan untuk melihat riwayat obrolan.",
+    "debate": "Ruang Debat",
     "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "consult": "Dapatkan Nasihat",
+    "disclaimer": "Penyangkalan"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "Selamat Datang di Balai Para Raksasa",
+    "loginModalDescription": "Abadikan dialog Anda dengan para raksasa dan kelola warisan kebijaksanaan yang terukir di jiwa Anda.",
+    "continueWithGoogle": "Lanjutkan dengan Google",
+    "loginSuccess": "Selamat datang di Balai Para Pemikir Hebat.",
+    "logout": "Keluar",
+    "chatList": "Percakapan Saya",
+    "signInRequired": "Masuk Diperlukan"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "Temukan Warisan Hebat yang Mengalir di Jiwa Anda",
+    "subtitle": "Tes Analisis Temperamen Sejarah",
+    "start": "Mulai Tes",
+    "back": "Kembali",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "TES DNA 🧬",
+      "title": "Temukan kecocokan DNA historis Anda\nmelalui 15 pertanyaan.",
+      "desc": "Temukan kembaran historis Anda melalui 15 pertanyaan.",
+      "button": "Mulai Tes →"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "Tahap 1: Kebangkitan",
+      "stage2": "Tahap 2: Ujian",
+      "stage3": "Tahap 3: Takdir",
+      "cleared": "Tahap {stage} Selesai!",
+      "ready": "Siap melanjutkan ke tahap berikutnya?",
+      "next": "Lanjutkan ke Tahap Berikutnya"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "Menganalisis gema jiwa Anda...",
+      "sub": "Mencari pilar Anda dalam aliran sejarah yang hebat."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "Anda telah bertemu takdir historis Anda",
+      "archetype": "Persona Warisan Anda",
+      "matchedGiant": "Raksasa yang paling mirip Anda",
+      "readEpic": "Baca Kisah Epik",
+      "chatNow": "Obrolan Sekarang"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "Percakapan Saya",
+    "subtitle": "Dialog dengan Para Pemikir Hebat",
+    "description": "Kunjungi kembali wawasan mendalam dan nasihat dari raksasa terbesar sejarah. Anda dapat melanjutkan percakapan kapan saja.",
+    "emptyTitle": "Belum ada percakapan",
+    "emptyDescription": "Para raksasa siap mendengarkan kekhawatiran Anda. Mulai dialog pertama Anda sekarang!",
+    "startFirstChat": "Mulai Obrolan Pertama",
+    "messages": "pesan",
+    "lastChat": "Obrolan terakhir"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
+    "badge": "Balai Para Pemikir Hebat",
+    "quote": "Jika saya bisa melihat lebih jauh, itu karena saya berdiri di atas bahu Raksasa.",
     "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "startJourney": "Mulai Petualangan",
+    "startTest": "🧬 Temukan Kecocokan Historis Anda",
+    "exploreHall": "💭 Dapatkan Nasihat dari Para Raksasa",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "Pemikir Hebat",
+      "questions": "Pertanyaan Tes",
+      "free": "Sepenuhnya Gratis",
+      "freeValue": "Gratis"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "Panduan Perjalanan Balai Kebijaksanaan",
+      "selectGiant": "Pilih Raksasa",
+      "selectGiantDesc": "Temukan tokoh inspiratif di antara 140+ legenda sejarah.",
+      "epic": "Naratif Epik",
+      "epicDesc": "Baca catatan hidup seolah-olah para raksasa sendiri yang menceritakannya.",
+      "chat": "Obrolan Waktu Nyata",
+      "chatDesc": "Bagikan kekhawatiran Anda dengan para raksasa yang terlahir kembali melalui AI terbaru.",
+      "startNow": "Mulai Sekarang"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "Masuk Ruang Debat Para Raksasa",
+    "chatProgress": "raksasa ditemui ({total} total)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "Aula Para Tokoh Hebat",
+    "description": "Jelajahi kebijaksanaan tokoh-tokoh yang mengubah sejarah. Pilih seseorang untuk memulai percakapan yang melampaui waktu dan ruang.",
+    "viewAll": "Lihat Semua Tokoh",
+    "bestPick": "Pilihan Terbaik",
+    "todaysPick": "Pilihan Hari Ini",
+    "chatNow": "Mulai Obrolan Sekarang"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "Tokoh-tokoh Bersejarah",
+    "description": "Jelajahi kebijaksanaan tokoh-tokoh yang mengubah arah umat manusia. Pilih seorang tokoh untuk memulai percakapan yang melampaui waktu dan ruang.",
+    "searchPlaceholder": "Cari berdasarkan nama atau bidang...",
+    "allGiants": "Semua Tokoh",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "Kepemimpinan",
+      "science": "Ilmu Pengetahuan",
+      "philosophy": "Filsafat",
+      "arts": "Seni",
+      "society": "Masyarakat",
+      "business": "Bisnis"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "Ditemukan {filtered} dari {total} pemikir hebat",
+    "readEpic": "Baca Kisah Epik ✨",
+    "noResults": "Tidak ada hasil ditemukan",
+    "era": "Tokoh Sejarah",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "Pertama",
+      "prev": "Sebelumnya",
+      "next": "Berikutnya",
+      "last": "Terakhir"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "Perjalanan Para Tokohku",
+    "progressSubtext": "{progress}% telah dijelajahi! Teruslah menjelajah 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "Semua Wilayah",
+      "east-asia": "Asia Timur",
+      "europe": "Eropa",
+      "americas": "Amerika",
+      "middle-east-turkey": "Timur Tengah & Turki",
+      "africa": "Afrika",
+      "south-southeast-asia": "Asia Selatan & Tenggara"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
+    "returnToSquare": "Kembali ke Beranda",
+    "chatWith": "Obrolan dengan {name}",
+    "theLifeStory": "Kisah Hidup",
+    "thePain": "Perjuangan",
+    "theRecovery": "Pemulihan",
+    "wisdomLessons": "Pelajaran Kebijaksanaan",
+    "famousQuote": "Kutipan Terkenal",
     "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "field": "Bidang",
+    "askForAdvice": "Minta Nasihat",
+    "notFound": "Tokoh tidak ditemukan.",
+    "goHome": "Kembali ke Beranda"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "Kutipan Terkenal",
+    "description": "Deskripsi",
+    "suggestedQuestions": "Pertanyaan yang Disarankan",
+    "inputPlaceholder": "Tanyakan apa saja kepada {name}...",
+    "contemplating": "{name} sedang merenung...",
+    "wisdomActive": "Kebijaksanaan Aktif",
+    "historyEra": "Sejarah & Era",
+    "fieldOfWisdom": "Bidang Kebijaksanaan",
+    "error": "Maaf, saya mengalami kesalahan saat mengambil kebijaksanaan saya. Bisakah Anda mencoba lagi sebentar lagi?",
+    "retry": "Ambil Kebijaksanaan Lagi"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "Mengapa Kebijaksanaan Para Tokoh Hebat",
+    "description": "Rasakan perjalanan inovatif melintasi ribuan tahun untuk bertemu kebijaksanaan manusia.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "Obrolan Real-time dengan Tokoh Sejarah",
+        "description": "Terlibat dalam percakapan mendalam yang melampaui waktu dan ruang dengan tokoh-tokoh sejarah melalui AI canggih."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "2.500 Tahun Kebijaksanaan Manusia",
+        "description": "Temukan 2.500 tahun sejarah, pencapaian, dan wawasan yang dibangun oleh umat manusia di satu tempat."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "Pengetahuan Langsung dari Para Ahli",
+        "description": "Kami memberikan nilai pembelajaran yang jelas seolah-olah mendengarkan langsung para ahli dalam filsafat, ilmu pengetahuan, dan seni."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "Wawasan yang Dipersonalisasi untuk Anda",
+        "description": "Ajukan pertanyaan, jelajahi ide, dan dapatkan panduan pribadi yang Anda butuhkan untuk hidup Anda."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "Pemikir Hebat",
+      "history": "Tahun Kebijaksanaan",
+      "fields": "Bidang Studi",
+      "inspiration": "Inspirasi"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "Hikmat Harian"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "Kebijakan Privasi",
+    "lastUpdated": "Terakhir Diperbarui: 16 Mei 2026",
+    "summaryTitle": "1. Ringkasan Utama",
+    "summaryDesc": "Di Giants Wisdom, kami tidak pernah menjual atau membagikan data pribadi Anda secara tidak pantas. Kebijakan ini menjelaskan bagaimana kami melindungi dan memproses data yang dikumpulkan saat Anda melakukan tes kepribadian dan bercakap-cakap dengan tokoh sejarah besar.",
+    "collectionTitle": "2. Data yang Kami Kumpulkan dan Cara Kami Mengumpulkannya",
+    "collectionDesc": "Situs web kami dapat dijelaskan sepenuhnya secara anonim tanpa membuat akun. Namun, selama interaksi Anda, data berikut mungkin diproses:\n- Data yang Diberikan Secara Sukarela: Jawaban Tes DNA Warisan, teks masukan yang dimasukkan selama obrolan AI, dan alamat email (hanya jika berlangganan buletin kami).\n- Data yang Tercatat Otomatis: Jenis perangkat, spesifikasi browser, alamat IP, dan riwayat interaksi yang dicatat dengan aman melalui Cookie.",
+    "purposeTitle": "3. Bagaimana Kami Menggunakan Informasi",
+    "purposeDesc": "Data yang dikumpulkan digunakan secara ketat untuk tujuan berikut:\n- Mengkompilasi hasil tes 15 pertanyaan untuk menentukan persona tokoh sejarah besar terdekat Anda.\n- Menyajikan respons obrolan sejarah dinamis dan real-time yang didukung dengan bersih oleh Gemini 2.5 Flash API.\n- Analisis statistik yang tidak dapat diidentifikasi untuk menyempurnakan metrik arketipe kepribadian kami.\n- Menjalankan tampilan banner khusus yang aman melalui Google AdSense.",
+    "adsenseTitle": "4. Kebijakan Google AdSense dan Cookie Pihak Ketiga",
+    "adsenseDesc": "Situs web ini menampilkan iklan yang terintegrasi melalui Google AdSense. Google dan vendor pihak ketiga menggunakan cookie untuk menayangkan iklan bertarget berdasarkan kunjungan Anda ke situs ini dan situs web lain di seluruh internet. Penggunaan cookie iklan oleh Google memungkinkannya dan mitranya untuk menayangkan iklan kepada pengguna berdasarkan kunjungan mereka ke situs ini dan/atau situs lain di Internet. Anda dapat dengan mudah menonaktifkan iklan yang dipersonalisasi dengan mengunjungi Pengaturan Iklan Google (https://www.google.com/settings/ads). Atau, Anda dapat menonaktifkan cookie vendor pihak ketiga untuk iklan yang dipersonalisasi dengan mengunjungi www.aboutads.info.",
+    "retentionTitle": "5. Penyimpanan dan Penghancuran Data",
+    "retentionDesc": "Hasil tes anonim dan masukan obrolan dihapus setelah sesi ditutup atau dihilangkan sepenuhnya dari penanda identifikasi (dianonimkan) untuk studi agregat permanen. Setiap entri pribadi seperti email dihapus secara permanen atas permintaan Anda.",
+    "rightsTitle": "6. Hak Anda dan Informasi Kontak",
+    "rightsDesc": "Anda memiliki wewenang penuh untuk melihat, memodifikasi, atau menghapus secara permanen setiap potongan data yang terkait dengan identitas Anda. Untuk keluhan hukum atau privasi apa pun, silakan hubungi saluran dukungan resmi kami."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "Aula Para Pemikir Hebat",
+      "description": "Bergabunglah dalam perjalanan para pemikir hebat yang mengubah sejarah. Alami kebijaksanaan melampaui waktu dan ruang."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "Jelajahi",
+      "info": "Informasi"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
+      "allGiants": "Semua Tokoh Besar",
+      "wisdomArchive": "Arsip Hikmat",
+      "about": "Tentang Kami",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan",
+      "contact": "Kontak",
+      "dnaTest": "Tes Kecocokan Sejarah",
+      "debate": "Ruang Debat AI",
       "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "consult": "Dapatkan Nasihat",
+      "disclaimer": "Pernyataan Penyangkalan"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "Untuk mereka yang tersesat dalam\nbanyaknya informasi tanpa henti.",
+    "subIntro": "Sebuah ruang untuk menjauh dari kebisingan dan menghadapi kebijaksanaan sejati.",
+    "visionTitle": "Berdiri di Atas Bahu Para Tokoh Besar",
+    "visionDesc": "“Jika saya dapat melihat lebih jauh, itu karena saya berdiri di atas bahu para raksasa.” - Isaac Newton. Kami memulai dengan keyakinan bahwa jawaban atas masalah modern kita yang kompleks mungkin sudah terjalin dalam kehidupan para tokoh sejarah terbesar.",
+    "epicTitle": "Epos Agung 500 Tokoh Besar",
+    "epicDesc": "Pergi melampaui fakta sejarah belaka. Alami saga agung para tokoh besar yang mengatasi kesulitan untuk membentuk kembali sejarah manusia.",
+    "chatTitle": "Dialog Lintas Era",
+    "chatDesc": "Terlibat dalam percakapan waktu nyata dengan tanda tangan tokoh-tokoh besar yang dipulihkan, didukung oleh AI canggih (Gemini 2.5 Flash) untuk mencari wawasan tajam bagi dilema modern Anda.",
+    "testTitle": "Temukan Kecocokan Sejarah Anda",
+    "testDesc": "Temukan DNA tokoh besar yang mengalir jauh di dalam jiwa Anda melalui kuesioner situasional 3 tahap yang imersif, berlatar momen-momen sejarah penting.",
+    "outroTitle": "Selamat Datang di Aula Para Tokoh Besar",
+    "outroDesc": "Di atas bahu mereka, Anda akhirnya akan melihat lebih jauh. Mulai perjalanan Anda hari ini.",
+    "pillarsOfWisdom": "Pilar-Pilar Kebijaksanaan"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "Ketentuan Layanan",
+    "lastUpdated": "Terakhir Diperbarui: 16 Mei 2026",
+    "intro": "Selamat datang di Giants Wisdom. Ketentuan Layanan ini mengatur perjanjian hukum dan batasan pengguna antara Anda dan platform kami mengenai keterlibatan Anda dengan metrik kepribadian asli kami dan simulasi percakapan.",
+    "eligibilityTitle": "Pasal 1 (Kelayakan & Perlindungan Anak)",
+    "eligibilityDesc": "Layanan ini ditujukan secara ketat untuk pengguna yang berusia minimal 13 tahun. Pengguna di bawah 13 tahun yang berinteraksi dengan node kami menyatakan bahwa mereka telah memperoleh persetujuan orang tua yang terverifikasi sesuai dengan mandat privasi anak global. Platform menolak semua tanggung jawab yang timbul dari akses anak di bawah umur yang tidak sah.",
+    "aiTitle": "Pasal 2 (Infrastruktur AI & Penyangkalan Komprehensif)",
+    "aiDesc": "1. Semua dialog dengan tokoh sejarah yang ditampilkan di seluruh platform ini adalah simulasi interaktif yang dihasilkan secara bersih oleh model AI canggih (Gemini 2.5 suite).\n2. Output yang disediakan dirancang secara ketat untuk nilai pendidikan dan hiburan. Mereka sama sekali tidak merupakan catatan sejarah bersertifikat, penilaian psikologis profesional, nasihat medis, atau nasihat hukum.\n3. Giants Wisdom tidak bertanggung jawab atas halusinasi AI atau pilihan yang dilakukan oleh pengguna berdasarkan telemetri sistem.",
+    "intellectualTitle": "Pasal 3 (Kekayaan Intelektual & Perlindungan Anti-Scraping)",
+    "intellectualDesc": "1. Semua arsitektur tata letak, merek dagang, metrik pengujian '4 Pilar Kehebatan', 15 pertanyaan situasional, dan ilustrasi vektor datar premium tetap menjadi milik eksklusif Giants Wisdom.\n2. Pengguna sangat dilarang melakukan penyalinan tidak sah, sindikasi komersial, atau scraping data berbahaya melalui bot otomatis, skrip, atau node jaringan perayap.",
+    "userDutyTitle": "Pasal 4 (Standar Pengguna & Persetujuan Tampilan Monetisasi)",
+    "userDutyDesc": "1. Pengguna setuju untuk menavigasi aplikasi kami tanpa memperkenalkan urutan rekayasa balik atau vektor kelebihan beban server yang berbahaya.\n2. Sebagai imbalan atas akses gratis, pengguna secara eksplisit memberikan persetujuan yang tidak dapat ditarik kembali kepada Google AdSense dan broker iklan pihak ketiga untuk menyajikan tata letak banner otomatis di seluruh ruang kerja aplikasi.",
+    "disputeTitle": "Pasal 5 (Hukum yang Mengatur & Yurisdiksi yang Kompeten)",
+    "disputeDesc": "Ketentuan ini dan setiap tindakan hukum yang timbul dari penggunaan sistem akan diatur dan ditafsirkan sesuai dengan hukum Republik Korea. Setiap perselisihan akan diajukan secara eksklusif ke pengadilan yang berwenang yang mengatur lokasi operator platform."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "Pengaturan Persetujuan Cookie",
+    "description": "Kami menggunakan cookie untuk mempersonalisasi iklan (Google AdSense) dan menganalisis lalu lintas. Dengan menerima, Anda menyetujui penggunaan cookie kami.",
+    "acceptAll": "Terima Semua",
+    "rejectAll": "Tolak Semua",
+    "customize": "Sesuaikan",
+    "savePreferences": "Simpan Preferensi",
+    "necessary": "Cookie Wajib",
+    "necessaryDesc": "Diperlukan agar situs web berfungsi dengan baik. (Selalu Aktif)",
+    "analytics": "Cookie Analitik",
+    "analyticsDesc": "Digunakan untuk menganalisis pengunjung dan pola penggunaan guna meningkatkan layanan kami.",
+    "advertising": "Cookie Periklanan",
+    "advertisingDesc": "Digunakan untuk menayangkan iklan yang dipersonalisasi melalui Google AdSense."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
+    "title": "Hubungi Kami",
+    "name": "Nama",
     "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "subject": "Subjek (opsional)",
+    "message": "Pesan",
+    "send": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "success": "Pesan berhasil dikirim! Terima kasih.",
+    "error": "Gagal mengirim. Silakan coba lagi.",
+    "namePlaceholder": "Masukkan nama Anda",
+    "emailPlaceholder": "Masukkan email Anda",
+    "subjectPlaceholder": "Masukkan subjek",
+    "messagePlaceholder": "Masukkan pesan Anda"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "Ruang Debat",
+    "subtitle": "Pertarungan Kebijaksanaan Para Raksasa",
+    "description": "Pilih 2-4 raksasa sejarah dan berikan sebuah topik. Mereka akan langsung mendebatnya.",
+    "selectGiants": "Pilih Raksasa untuk Debat",
+    "selectedCount": "{count}/4 Dipilih",
+    "minRequired": "Mohon pilih setidaknya 2 raksasa",
+    "maxAllowed": "Anda dapat memilih hingga 4 raksasa",
+    "enterTopic": "Masukkan Topik Debat",
+    "topicPlaceholder": "Masukkan topik debat...\ncoth., Bisakah uang menciptakan kebahagiaan di masyarakat modern?",
+    "startDebate": "Mulai Debat",
+    "aiRecommend": "Rekomendasi AI",
+    "selfSelect": "Pilih Manual",
+    "aiRecommendTitle": "Penyanggah Optimal untuk Topik Ini",
+    "thinking": "{name} sedang berpikir...",
+    "interject": "Sela debat...",
+    "endDebate": "Akhiri Debat",
+    "shareDebate": "Bagikan Debat",
+    "newDebate": "Debat Baru",
+    "summaryTitle": "Ringkasan Debat",
+    "rounds": "{count} Giliran",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "Uang dan kebahagiaan, mana yang lebih dulu?",
+      "Apakah demokrasi modern adalah sistem yang sempurna?",
+      "Akankah AI menyelamatkan umat manusia atau mengancamnya?",
+      "Bisakah perang dibenarkan?",
+      "Kebebasan individu vs. Tata tertib sosial, mana yang lebih dulu?",
+      "Bisakah seni mengubah masyarakat?",
+      "Bagaimana seharusnya manusia hidup di hadapan kematian?"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "DEBAT LANGSUNG",
+    "titlePre": "Pertarungan Pikiran Terhebat",
+    "titlePost": "'Ruang Debat Utama Para Raksasa'",
+    "desc": "\"Bisakah uang membeli kebahagiaan?\" Saksikan dan bergabunglah dalam debat intelektual yang intens antara Aristoteles dan Nietzsche secara real-time.",
+    "button": "Saksikan & Berpartisipasi"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "ATAU",
+    "title": "Sedang melalui masa sulit?",
+    "desc": "Lincoln, Seneca, Gandhi —\nmereka semua menghadapi rasa sakit yang sama. Dan mengatasinya.",
+    "button": "Bicara dengan Raksasa →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "Penafian | Kebijaksanaan Raksasa",
+      "description": "Harap baca sebelum menggunakan Kebijaksanaan Raksasa."
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "Penafian",
+    "lastUpdated": "Terakhir Diperbarui: Juni 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "Pemberitahuan Konten Buatan AI",
+        "content": "Layanan percakapan AI Kebijaksanaan Raksasa dengan tokoh-tokoh sejarah menggunakan teknologi kecerdasan buatan untuk menghasilkan dialog berdasarkan catatan dan dokumen sejarah. Pernyataan, saran, dan percakapan yang diatribusikan kepada tokoh-tokoh sejarah dalam layanan ini bukanlah kutipan langsung dari tokoh sejarah sebenarnya, melainkan representasi kreatif yang dihasilkan AI berdasarkan analisis materi sejarah. Kebijaksanaan Raksasa berupaya untuk akurasi sejarah, tetapi konten yang dihasilkan AI kadang-kadang dapat berbeda dari catatan sejarah yang sebenarnya."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "Tujuan Edukasi",
+        "content": "Kebijaksanaan Raksasa adalah layanan edukasi yang dirancang untuk membuat kehidupan dan kebijaksanaan tokoh-tokoh sejarah dapat diakses oleh audiens modern. Semua konten yang disediakan hanya untuk tujuan informasi dan edukasi dan tidak boleh digunakan sebagai sumber untuk penelitian sejarah profesional atau kutipan akademis."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "Akurasi Informasi",
+        "content": "Kebijaksanaan Raksasa berupaya untuk akurasi dalam konten yang disediakan, tetapi tidak menjamin keakuratan lengkap semua informasi. Untuk keputusan penting berdasarkan fakta sejarah, harap konsultasikan sumber sejarah yang dapat diandalkan dan pendapat ahli."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "Hak Cipta",
+        "content": "Semua konten di Kebijaksanaan Raksasa (teks, desain, sistem percakapan AI, dll.) adalah kekayaan intelektual Kebijaksanaan Raksasa. Reproduksi, distribusi, atau modifikasi untuk tujuan komersial tanpa izin tertulis sebelumnya dilarang. Untuk penggunaan edukasi non-komersial, harap cantumkan sumber dengan jelas."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "Untuk pertanyaan mengenai penafian ini, silakan hubungi contact@giantswisdom.com."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "Ditulis oleh",
+    "authorName": "Tim Editorial Kebijaksanaan Raksasa",
+    "authorDescription": "Kami hanya menyampaikan informasi terverifikasi berdasarkan catatan dan dokumen sejarah. Semua konten yang dihasilkan AI melewati tinjauan editorial.",
+    "publishedLabel": "Diterbitkan",
+    "updatedLabel": "Diperbarui"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "Kebijakan Editorial",
+    "sectionSubtitle": "Kebijaksanaan Raksasa membuat konten berdasarkan prinsip-prinsip ini",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "Berdasarkan Fakta Sejarah",
+        "description": "Semua informasi dan percakapan tokoh sejarah didasarkan pada sumber sejarah yang terverifikasi."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "Transparansi AI",
+        "description": "Kami secara jelas mengungkapkan percakapan yang dihasilkan AI dan membedakannya dari pernyataan sejarah yang sebenarnya."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "Pembaruan Berkelanjutan",
+        "description": "Konten ditinjau dan diperbarui secara berkala untuk mencerminkan penelitian sejarah terbaru."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "Keragaman dan Inklusi",
+        "description": "Kami menyajikan tokoh-tokoh sejarah dari beragam budaya dan era di seluruh dunia secara seimbang."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "Paling banyak dikonsultasikan hari ini"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "Bicara langsung dengan Para Raksasa dalam artikel ini",
+    "talkNow": "Bicara sekarang"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "Ingin tahu lebih dalam tentang kearifan Tokoh Hebat ini?",
+    "minuteRead": "menit baca"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "Bagikan sebagai kartu",
+    "myQuestion": "Pertanyaan saya",
+    "downloadButton": "Simpan sebagai gambar",
+    "shareButton2": "Bagikan",
+    "generating": "Membuat...",
+    "saved": "Tersimpan!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 Setiap Rabu",
+    "title": "Kearifan mingguan dari para pemikir terhebat sepanjang sejarah",
+    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nSatu wawasan untuk memulai minggu Anda dengan baik.",
+    "placeholder": "Masukkan alamat email Anda",
+    "subscribeButton": "Berlangganan Gratis",
+    "subscribing": "Berlangganan...",
+    "successMessage": "Anda telah berlangganan!",
+    "successSubtext": "Anda akan menerima kearifan para tokoh hebat setiap minggu 📬",
+    "blogTitle": "Dapatkan kearifan seperti ini setiap minggu"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "Pundak Para Tokoh Hebat",
+    "subTitle": "Berdialog dengan kearifan agung",
+    "metaTitle": "Pundak Para Tokoh Hebat | Obrolan Kearifan AI",
+    "metaDescription": "Berbicara dengan Sejong, Socrates, Napoleon... 300 tokoh sejarah melalui AI. Sepenuhnya gratis."
   }
 }

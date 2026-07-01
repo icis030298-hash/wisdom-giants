@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
+    "hallOfGems": "Đại Sảnh Các Bậc Vĩ Nhân",
+    "wisdomArchive": "Trang Chủ",
+    "chatList": "Danh Sách Trò Chuyện",
+    "about": "Về Chúng Tôi",
+    "startExploring": "Bắt Đầu Khám Phá",
+    "title": "Trí Tuệ Khổng Lồ",
+    "subtitle": "Đại Sảnh Các Bậc Vĩ Nhân",
+    "login": "Đăng Nhập",
+    "logout": "Đăng Xuất",
+    "myProfile": "Hồ Sơ Của Tôi",
+    "signInRequired": "Cần đăng nhập để xem lịch sử trò chuyện.",
+    "debate": "Phòng Tranh Luận",
     "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "consult": "Nhận Lời Khuyên",
+    "disclaimer": "Miễn Trừ Trách Nhiệm"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "Chào mừng đến với Đại Sảnh Vĩ Nhân",
+    "loginModalDescription": "Lưu giữ những cuộc đối thoại của bạn với các vĩ nhân và quản lý di sản trí tuệ đã khắc sâu trong tâm hồn bạn.",
+    "continueWithGoogle": "Tiếp tục với Google",
+    "loginSuccess": "Chào mừng đến với Đại Sảnh Các Bậc Vĩ Nhân.",
+    "logout": "Đăng Xuất",
+    "chatList": "Các Cuộc Trò Chuyện Của Tôi",
+    "signInRequired": "Yêu Cầu Đăng Nhập"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "Tìm Di Sản Vĩ Đại Đang Chảy Trong Tâm Hồn Bạn",
+    "subtitle": "Bài Kiểm Tra Phân Tích Khí Chất Lịch Sử",
+    "start": "Bắt Đầu Bài Kiểm Tra",
+    "back": "Quay Lại",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "KIỂM TRA DNA 🧬",
+      "title": "Tìm bản sao DNA lịch sử của bạn\nthông qua 15 câu hỏi.",
+      "desc": "Tìm người song trùng lịch sử của bạn thông qua 15 câu hỏi.",
+      "button": "Bắt Đầu Kiểm Tra →"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "Giai Đoạn 1: Thức Tỉnh",
+      "stage2": "Giai Đoạn 2: Thử Thách",
+      "stage3": "Giai Đoạn 3: Định Mệnh",
+      "cleared": "Giai Đoạn {stage} Hoàn Thành!",
+      "ready": "Sẵn sàng chuyển sang giai đoạn tiếp theo?",
+      "next": "Tiếp Tục Đến Giai Đoạn Tiếp Theo"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "Đang phân tích tiếng vọng tâm hồn bạn...",
+      "sub": "Đang tìm kiếm những trụ cột của bạn trong dòng chảy vĩ đại của lịch sử."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "Bạn đã gặp định mệnh lịch sử của mình",
+      "archetype": "Cá Tính Di Sản Của Bạn",
+      "matchedGiant": "Vĩ nhân giống bạn nhất",
+      "readEpic": "Đọc Câu Chuyện Sử Thi",
+      "chatNow": "Trò Chuyện Ngay"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "Các Cuộc Trò Chuyện Của Tôi",
+    "subtitle": "Đối Thoại Với Các Bậc Vĩ Nhân",
+    "description": "Xem lại những hiểu biết sâu sắc và lời khuyên từ những vĩ nhân vĩ đại nhất lịch sử. Bạn có thể tiếp tục bất kỳ cuộc trò chuyện nào bất cứ lúc nào.",
+    "emptyTitle": "Chưa có cuộc trò chuyện nào",
+    "emptyDescription": "Các vĩ nhân sẵn sàng lắng nghe những lo lắng của bạn. Hãy bắt đầu cuộc đối thoại đầu tiên của bạn ngay bây giờ!",
+    "startFirstChat": "Bắt Đầu Cuộc Trò Chuyện Đầu Tiên",
+    "messages": "tin nhắn",
+    "lastChat": "Trò chuyện gần đây nhất"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
+    "badge": "Đại Sảnh Các Bậc Vĩ Nhân",
+    "quote": "Nếu tôi nhìn xa hơn, đó là nhờ đứng trên vai những người khổng lồ.",
     "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "startJourney": "Bắt Đầu Hành Trình",
+    "startTest": "🧬 Tìm Bản Sao Lịch Sử Của Bạn",
+    "exploreHall": "💭 Nhận Lời Khuyên từ Các Vĩ Nhân",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "Vĩ Nhân",
+      "questions": "Câu Hỏi Kiểm Tra",
+      "free": "Hoàn Toàn Miễn Phí",
+      "freeValue": "Miễn Phí"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "Hướng Dẫn Hành Trình Đại Sảnh Trí Tuệ",
+      "selectGiant": "Chọn một Vĩ Nhân",
+      "selectGiantDesc": "Tìm những nhân vật truyền cảm hứng trong số hơn 140+ huyền thoại lịch sử.",
+      "epic": "Truyện Kể Sử Thi",
+      "epicDesc": "Đọc những ghi chép cuộc đời như thể chính các vĩ nhân đang kể lại.",
+      "chat": "Trò Chuyện Thời Gian Thực",
+      "chatDesc": "Chia sẻ những lo lắng của bạn với các vĩ nhân được tái sinh thông qua AI mới nhất.",
+      "startNow": "Bắt Đầu Ngay"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "Vào Phòng Tranh Luận Của Các Vĩ Nhân",
+    "chatProgress": "vĩ nhân đã gặp ({total} tổng cộng)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "Sảnh Đường của Những Vĩ Nhân Vĩ Đại",
+    "description": "Khám phá sự khôn ngoan của những nhân vật đã thay đổi lịch sử. Chọn một người để bắt đầu cuộc trò chuyện vượt không gian và thời gian.",
+    "viewAll": "Xem Tất Cả Vĩ Nhân",
+    "bestPick": "Lựa Chọn Hàng Đầu",
+    "todaysPick": "Lựa Chọn Hôm Nay",
+    "chatNow": "Trò Chuyện Ngay"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "Những Vĩ Nhân Lịch Sử",
+    "description": "Khám phá sự khôn ngoan của những nhân vật đã thay đổi dòng chảy lịch sử nhân loại. Chọn một vĩ nhân để bắt đầu cuộc trò chuyện vượt không gian và thời gian.",
+    "searchPlaceholder": "Tìm kiếm theo tên hoặc lĩnh vực...",
+    "allGiants": "Tất Cả Vĩ Nhân",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "Lãnh Đạo",
+      "science": "Khoa Học",
+      "philosophy": "Triết Học",
+      "arts": "Nghệ Thuật",
+      "society": "Xã Hội",
+      "business": "Kinh Doanh"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "Tìm thấy {filtered} trong số {total} vĩ nhân",
+    "readEpic": "Đọc Sử Thi ✨",
+    "noResults": "Không tìm thấy kết quả nào",
+    "era": "Vĩ Nhân Lịch Sử",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "Đầu Tiên",
+      "prev": "Trước",
+      "next": "Sau",
+      "last": "Cuối Cùng"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "Hành Trình Vĩ Nhân Của Tôi",
+    "progressSubtext": "Đã khám phá {progress}%! Tiếp tục thôi 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "Tất Cả Các Vùng",
+      "east-asia": "Đông Á",
+      "europe": "Châu Âu",
+      "americas": "Châu Mỹ",
+      "middle-east-turkey": "Trung Đông & Thổ Nhĩ Kỳ",
+      "africa": "Châu Phi",
+      "south-southeast-asia": "Nam & Đông Nam Á"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "Trở về Quảng trường",
+    "chatWith": "Trò chuyện với {name}",
+    "theLifeStory": "Câu Chuyện Cuộc Đời",
+    "thePain": "Cuộc Đấu Tranh",
+    "theRecovery": "Sự Phục Hồi",
+    "wisdomLessons": "Những Bài Học Khôn Ngoan",
+    "famousQuote": "Câu Nói Nổi Tiếng",
+    "era": "Thời Đại",
+    "field": "Lĩnh Vực",
+    "askForAdvice": "Hỏi Xin Lời Khuyên",
+    "notFound": "Không tìm thấy vĩ nhân.",
+    "goHome": "Quay lại Trang Chủ"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "Câu Nói Nổi Tiếng",
+    "description": "Mô Tả",
+    "suggestedQuestions": "Câu Hỏi Gợi Ý",
+    "inputPlaceholder": "Hỏi {name} bất cứ điều gì...",
+    "contemplating": "{name} đang suy ngẫm...",
+    "wisdomActive": "Trí Tuệ Hoạt Động",
+    "historyEra": "Lịch Sử & Thời Đại",
+    "fieldOfWisdom": "Lĩnh Vực Trí Tuệ",
+    "error": "Tôi xin lỗi, tôi đã gặp lỗi khi truy xuất trí tuệ của mình. Bạn có thể thử lại sau giây lát được không?",
+    "retry": "Truy Xuất Lại Trí Tuệ"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "Tại Sao Là Trí Tuệ Của Các Vĩ Nhân",
+    "description": "Trải nghiệm một hành trình đổi mới xuyên suốt hàng ngàn năm để gặp gỡ trí tuệ nhân loại.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "Trò Chuyện Trực Tuyến với Các Vĩ Nhân Lịch Sử",
+        "description": "Tham gia vào các cuộc trò chuyện sâu sắc vượt không gian và thời gian với các nhân vật lịch sử thông qua AI tiên tiến."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "2.500 Năm Trí Tuệ Nhân Loại",
+        "description": "Gặp gỡ 2.500 năm lịch sử, thành tựu và những hiểu biết sâu sắc được xây dựng bởi nhân loại tại một nơi."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "Kiến Thức Trực Tiếp Từ Các Bậc Thầy",
+        "description": "Chúng tôi mang đến giá trị của việc học tập sống động như thể đang lắng nghe trực tiếp các bậc thầy về triết học, khoa học và nghệ thuật."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "Thông Tin Chi Tiết Cá Nhân Hóa Dành Cho Bạn",
+        "description": "Đặt câu hỏi, khám phá ý tưởng và nhận được hướng dẫn cá nhân hóa cần thiết cho cuộc sống của bạn."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "Vĩ Nhân Vĩ Đại",
+      "history": "Năm Trí Tuệ",
+      "fields": "Lĩnh Vực Nghiên Cứu",
+      "inspiration": "Nguồn Cảm Hứng"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "Minh Triết Hàng Ngày"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "Chính sách quyền riêng tư",
+    "lastUpdated": "Cập nhật lần cuối: Ngày 16 tháng 5 năm 2026",
+    "summaryTitle": "1. Tóm tắt chính",
+    "summaryDesc": "Tại Tri Thức Vĩ Đại, chúng tôi không bao giờ bán hoặc chia sẻ dữ liệu cá nhân của bạn một cách không phù hợp. Chính sách này nêu rõ cách chúng tôi bảo vệ và xử lý dữ liệu được thu thập khi bạn thực hiện các bài kiểm tra tính cách và trò chuyện với những vĩ nhân lịch sử.",
+    "collectionTitle": "2. Dữ liệu chúng tôi thu thập và cách chúng tôi thu thập",
+    "collectionDesc": "Trang web của chúng tôi có thể được khám phá hoàn toàn ẩn danh mà không cần tạo tài khoản. Tuy nhiên, trong quá trình tương tác của bạn, các dữ liệu sau có thể được xử lý:\n- Dữ liệu cung cấp tự nguyện: Câu trả lời kiểm tra DNA di sản, văn bản nhập vào trong các cuộc trò chuyện AI và địa chỉ email (chỉ khi đăng ký nhận bản tin của chúng tôi).\n- Dữ liệu được ghi tự động: Loại thiết bị, thông số trình duyệt, địa chỉ IP và lịch sử tương tác được ghi lại an toàn qua Cookie.",
+    "purposeTitle": "3. Cách chúng tôi sử dụng thông tin",
+    "purposeDesc": "Dữ liệu thu thập được sử dụng nghiêm ngặt cho các mục đích sau:\n- Biên soạn kết quả kiểm tra 15 câu hỏi để xác định nhân cách vĩ nhân lịch sử gần gũi nhất với bạn.\n- Hiển thị các phản hồi trò chuyện lịch sử động, thời gian thực được hỗ trợ một cách tinh gọn bởi API Gemini 2.5 Flash.\n- Phân tích thống kê, không thể nhận dạng để tinh chỉnh các chỉ số nguyên mẫu tính cách của chúng tôi.\n- Chạy các hiển thị biểu ngữ tùy chỉnh an toàn thông qua Google AdSense.",
+    "adsenseTitle": "4. Chính sách Google AdSense và Cookie của bên thứ ba",
+    "adsenseDesc": "Trang web này hiển thị quảng cáo được tích hợp thông qua Google AdSense. Google và các nhà cung cấp bên thứ ba sử dụng cookie để phân phát quảng cáo được nhắm mục tiêu dựa trên lượt truy cập của bạn vào trang web này và các trang web khác trên internet. Việc Google sử dụng cookie quảng cáo cho phép họ và các đối tác phân phát quảng cáo cho người dùng dựa trên lượt truy cập của họ vào trang web này và/hoặc các trang web khác trên Internet. Bạn có thể dễ dàng từ chối quảng cáo được cá nhân hóa bằng cách truy cập Cài đặt quảng cáo của Google (https://www.google.com/settings/ads). Ngoài ra, bạn có thể từ chối cookie của các nhà cung cấp bên thứ ba cho quảng cáo được cá nhân hóa bằng cách truy cập www.aboutads.info.",
+    "retentionTitle": "5. Lưu trữ và hủy bỏ dữ liệu",
+    "retentionDesc": "Kết quả kiểm tra ẩn danh và dữ liệu trò chuyện được xóa khi kết thúc phiên hoặc bị loại bỏ hoàn toàn các dấu hiệu nhận dạng (ẩn danh hóa) để nghiên cứu tổng hợp vĩnh viễn. Mọi thông tin cá nhân như email sẽ bị xóa vĩnh viễn theo yêu cầu của bạn.",
+    "rightsTitle": "6. Quyền của bạn và thông tin liên hệ",
+    "rightsDesc": "Bạn có toàn quyền xem, sửa đổi hoặc xóa vĩnh viễn bất kỳ đoạn dữ liệu nào liên quan đến danh tính của bạn. Đối với bất kỳ khiếu nại pháp lý hoặc quyền riêng tư nào, vui lòng liên hệ với kênh hỗ trợ chính thức của chúng tôi."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "Đại Sảnh Các Vĩ Nhân",
+      "description": "Tham gia hành trình của những vĩ nhân đã thay đổi lịch sử. Trải nghiệm trí tuệ vượt không gian và thời gian."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "Khám phá",
+      "info": "Thông tin"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
+      "allGiants": "Tất cả vĩ nhân",
+      "wisdomArchive": "Kho lưu trữ trí tuệ",
+      "about": "Về chúng tôi",
+      "privacy": "Chính sách quyền riêng tư",
+      "terms": "Điều khoản dịch vụ",
+      "contact": "Liên hệ",
+      "dnaTest": "Bài kiểm tra đối chiếu lịch sử",
+      "debate": "Phòng tranh luận AI",
       "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "consult": "Nhận lời khuyên",
+      "disclaimer": "Tuyên bố từ chối trách nhiệm"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "Dành cho những ai đang lạc lối trong\nbiển thông tin vô tận.",
+    "subIntro": "Một không gian để rời xa sự ồn ào và đối mặt với trí tuệ đích thực.",
+    "visionTitle": "Đứng trên vai những người khổng lồ",
+    "visionDesc": "“Nếu tôi nhìn xa hơn, đó là nhờ đứng trên vai những người khổng lồ.” - Isaac Newton. Chúng tôi bắt đầu với niềm tin rằng câu trả lời cho những vấn đề phức tạp của thời hiện đại có thể đã được dệt nên trong cuộc đời của những vĩ nhân lịch sử.",
+    "epicTitle": "Sử thi vĩ đại của 500 vĩ nhân",
+    "epicDesc": "Vượt qua những sự thật lịch sử đơn thuần. Trải nghiệm sử thi vĩ đại về những vĩ nhân đã vượt qua nghịch cảnh để định hình lại lịch sử nhân loại.",
+    "chatTitle": "Đối thoại xuyên thời đại",
+    "chatDesc": "Tham gia vào các cuộc trò chuyện thời gian thực với những đặc điểm đã được phục dựng của các vĩ nhân, được hỗ trợ bởi AI tiên tiến (Gemini 2.5 Flash), để tìm kiếm những hiểu biết sâu sắc cho những tình huống khó xử hiện đại của bạn.",
+    "testTitle": "Tìm kiếm hình mẫu lịch sử của bạn",
+    "testDesc": "Khám phá DNA của vĩ nhân chảy sâu trong tâm hồn bạn thông qua một bộ câu hỏi tình huống 3 giai đoạn nhập vai, lấy bối cảnh tại những khoảnh khắc lịch sử then chốt.",
+    "outroTitle": "Chào mừng đến với Đại Sảnh Vĩ Nhân",
+    "outroDesc": "Trên vai họ, bạn cuối cùng sẽ nhìn xa hơn. Bắt đầu hành trình của bạn ngay hôm nay.",
+    "pillarsOfWisdom": "Các Trụ Cột Trí Tuệ"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "Điều khoản dịch vụ",
+    "lastUpdated": "Cập nhật lần cuối: Ngày 16 tháng 5 năm 2026",
+    "intro": "Chào mừng bạn đến với Tri Thức Vĩ Đại. Các Điều khoản dịch vụ này quy định thỏa thuận pháp lý và giới hạn người dùng giữa bạn và nền tảng của chúng tôi liên quan đến việc bạn tham gia vào các chỉ số tính cách gốc và mô phỏng hội thoại của chúng tôi.",
+    "eligibilityTitle": "Điều 1 (Điều kiện & Bảo vệ trẻ vị thành niên)",
+    "eligibilityDesc": "Dịch vụ này chỉ dành riêng cho người dùng từ 13 tuổi trở lên. Người dùng dưới 13 tuổi khi tương tác với nền tảng của chúng tôi cam đoan rằng họ đã có sự đồng ý đã được xác minh của phụ huynh theo các quy định toàn cầu về quyền riêng tư của trẻ em. Nền tảng từ chối mọi trách nhiệm pháp lý phát sinh từ việc trẻ vị thành niên truy cập trái phép.",
+    "aiTitle": "Điều 2 (Cơ sở hạ tầng AI & Tuyên bố từ chối trách nhiệm toàn diện)",
+    "aiDesc": "1. Tất cả các cuộc đối thoại với các nhân vật lịch sử được hiển thị trên nền tảng này là các mô phỏng tương tác được tạo ra một cách tinh gọn bởi các mô hình AI tiên tiến (bộ Gemini 2.5).\n2. Các đầu ra được cung cấp được thiết kế nghiêm ngặt cho mục đích giáo dục và giải trí. Chúng hoàn toàn không cấu thành hồ sơ lịch sử được chứng nhận, đánh giá tâm lý chuyên nghiệp, lời khuyên y tế hoặc tư vấn pháp lý.\n3. Tri Thức Vĩ Đại không chịu trách nhiệm đối với các ảo giác AI hoặc các lựa chọn được người dùng thực hiện dựa trên dữ liệu từ hệ thống.",
+    "intellectualTitle": "Điều 3 (Sở hữu trí tuệ & Bảo vệ chống thu thập dữ liệu)",
+    "intellectualDesc": "1. Tất cả các kiến trúc bố cục, nhãn hiệu thương hiệu, các chỉ số kiểm tra '4 Trụ Cột Vĩ Đại', 15 câu hỏi tình huống và các hình minh họa vector phẳng cao cấp vẫn là tài sản độc quyền của Tri Thức Vĩ Đại.\n2. Người dùng bị nghiêm cấm thực hiện việc sao chép trái phép, phân phối thương mại hoặc thu thập dữ liệu độc hại thông qua các bot tự động, tập lệnh hoặc các nút mạng thu thập dữ liệu.",
+    "userDutyTitle": "Điều 4 (Tiêu chuẩn người dùng & Đồng ý hiển thị kiếm tiền)",
+    "userDutyDesc": "1. Người dùng đồng ý điều hướng ứng dụng của chúng tôi mà không đưa vào các chuỗi kỹ thuật đảo ngược hoặc các vectơ gây quá tải máy chủ độc hại.\n2. Để đổi lấy quyền truy cập miễn phí, người dùng rõ ràng cấp sự đồng ý không thể hủy ngang cho Google AdSense và các nhà môi giới quảng cáo bên thứ ba để hiển thị các bố cục biểu ngữ tự động trên không gian làm việc của ứng dụng.",
+    "disputeTitle": "Điều 5 (Luật điều chỉnh & Thẩm quyền giải quyết)",
+    "disputeDesc": "Các Điều khoản này và mọi hành động pháp lý phát sinh từ việc sử dụng hệ thống sẽ được điều chỉnh và diễn giải theo luật pháp của Cộng hòa Hàn Quốc. Mọi tranh chấp sẽ được đệ trình độc quyền lên tòa án có thẩm quyền quản lý địa điểm của nhà điều hành nền tảng."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "Cài đặt Đồng ý Cookie",
+    "description": "Chúng tôi sử dụng cookie để cá nhân hóa quảng cáo (Google AdSense) và phân tích lưu lượng truy cập. Bằng cách chấp nhận, bạn đồng ý với việc chúng tôi sử dụng cookie.",
+    "acceptAll": "Chấp nhận Tất cả",
+    "rejectAll": "Từ chối Tất cả",
+    "customize": "Tùy chỉnh",
+    "savePreferences": "Lưu Tùy chọn",
+    "necessary": "Cookie Cần thiết",
+    "necessaryDesc": "Cần thiết để trang web hoạt động bình thường. (Luôn hoạt động)",
+    "analytics": "Cookie Phân tích",
+    "analyticsDesc": "Được sử dụng để phân tích khách truy cập và hành vi sử dụng nhằm cải thiện dịch vụ của chúng tôi.",
+    "advertising": "Cookie Quảng cáo",
+    "advertisingDesc": "Được sử dụng để hiển thị quảng cáo cá nhân hóa thông qua Google AdSense."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
+    "title": "Liên hệ Với Chúng tôi",
+    "name": "Tên",
     "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "subject": "Chủ đề (tùy chọn)",
+    "message": "Tin nhắn",
+    "send": "Gửi Tin nhắn",
+    "sending": "Đang gửi...",
+    "success": "Tin nhắn đã được gửi thành công! Cảm ơn bạn.",
+    "error": "Gửi thất bại. Vui lòng thử lại.",
+    "namePlaceholder": "Nhập tên của bạn",
+    "emailPlaceholder": "Nhập email của bạn",
+    "subjectPlaceholder": "Nhập chủ đề",
+    "messagePlaceholder": "Nhập tin nhắn của bạn"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "Phòng Tranh Luận",
+    "subtitle": "Cuộc Đối Đầu Trí Tuệ của Những Người Khổng Lồ",
+    "description": "Chọn 2-4 nhân vật lịch sử vĩ đại và đưa ra một chủ đề. Họ sẽ tranh luận trực tiếp.",
+    "selectGiants": "Chọn Các Vĩ Nhân để Tranh Luận",
+    "selectedCount": "{count}/4 Đã Chọn",
+    "minRequired": "Vui lòng chọn ít nhất 2 vĩ nhân",
+    "maxAllowed": "Bạn có thể chọn tối đa 4 vĩ nhân",
+    "enterTopic": "Nhập Chủ đề Tranh Luận",
+    "topicPlaceholder": "Nhập chủ đề tranh luận...\nví dụ, Tiền có thể tạo ra hạnh phúc trong xã hội hiện đại không?",
+    "startDebate": "Bắt đầu Tranh Luận",
+    "aiRecommend": "AI Đề xuất",
+    "selfSelect": "Chọn Thủ công",
+    "aiRecommendTitle": "Những Người Tranh Luận Tối ưu cho Chủ đề này",
+    "thinking": "{name} đang suy nghĩ...",
+    "interject": "Can thiệp vào cuộc tranh luận...",
+    "endDebate": "Kết thúc Tranh Luận",
+    "shareDebate": "Chia sẻ Cuộc Tranh Luận",
+    "newDebate": "Cuộc Tranh Luận Mới",
+    "summaryTitle": "Tóm tắt Cuộc Tranh Luận",
+    "rounds": "{count} Lượt",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "Tiền bạc và hạnh phúc, cái nào đến trước?",
+      "Dân chủ hiện đại có phải là một hệ thống hoàn hảo?",
+      "AI sẽ cứu rỗi hay đe dọa nhân loại?",
+      "Chiến tranh có bao giờ được biện minh không?",
+      "Tự do cá nhân so với trật tự xã hội, cái nào quan trọng hơn?",
+      "Nghệ thuật có thể thay đổi xã hội không?",
+      "Con người nên sống như thế nào khi đối mặt với cái chết?"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "TRANH LUẬN TRỰC TIẾP",
+    "titlePre": "Cuộc Đối Đầu của Những Trí Tuệ Vĩ Đại Nhất",
+    "titlePost": "'Phòng Tranh Luận Tối Hậu của Các Vĩ Nhân'",
+    "desc": "\"Tiền có mua được hạnh phúc không?\" Hãy theo dõi và tham gia cuộc tranh luận trí tuệ gay cấn giữa Aristotle và Nietzsche trong thời gian thực.",
+    "button": "Theo dõi & Tham gia"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "HOẶC",
+    "title": "Bạn đang trải qua điều gì khó khăn?",
+    "desc": "Lincoln, Seneca, Gandhi —\ntất cả họ đều đã đối mặt với nỗi đau tương tự. Và đã vượt qua nó.",
+    "button": "Nói chuyện với một Vĩ nhân →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "Tuyên bố miễn trừ trách nhiệm | Trí tuệ của Người Khổng Lồ",
+      "description": "Vui lòng đọc trước khi sử dụng Trí tuệ của Người Khổng Lồ."
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "Tuyên bố miễn trừ trách nhiệm",
+    "lastUpdated": "Cập nhật lần cuối: Tháng 6 năm 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "Thông báo về Nội dung được Tạo bởi AI",
+        "content": "Dịch vụ trò chuyện AI với các nhân vật lịch sử của Trí tuệ của Người Khổng Lồ sử dụng công nghệ trí tuệ nhân tạo để tạo ra các cuộc đối thoại dựa trên các ghi chép và tài liệu lịch sử. Các tuyên bố, lời khuyên và cuộc trò chuyện được gán cho các nhân vật lịch sử trong dịch vụ này không phải là trích dẫn trực tiếp từ những người lịch sử thực tế, mà là những thể hiện sáng tạo do AI tạo ra dựa trên phân tích các tài liệu lịch sử. Trí tuệ của Người Khổng Lồ cố gắng đạt được độ chính xác lịch sử, nhưng nội dung do AI tạo ra đôi khi có thể khác với các ghi chép lịch sử thực tế."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "Mục đích Giáo dục",
+        "content": "Trí tuệ của Người Khổng Lồ là một dịch vụ giáo dục được thiết kế để giúp khán giả hiện đại tiếp cận cuộc đời và trí tuệ của các nhân vật lịch sử. Tất cả nội dung được cung cấp chỉ dành cho mục đích thông tin và giáo dục và không nên được sử dụng làm nguồn cho nghiên cứu lịch sử chuyên nghiệp hoặc trích dẫn học thuật."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "Độ chính xác của Thông tin",
+        "content": "Trí tuệ của Người Khổng Lồ cố gắng đảm bảo độ chính xác của nội dung được cung cấp, nhưng không đảm bảo tính chính xác hoàn toàn của tất cả thông tin. Đối với các quyết định quan trọng dựa trên sự kiện lịch sử, vui lòng tham khảo các nguồn lịch sử đáng tin cậy và ý kiến của chuyên gia."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "Bản quyền",
+        "content": "Tất cả nội dung trên Trí tuệ của Người Khổng Lồ (văn bản, thiết kế, hệ thống trò chuyện AI, v.v.) là tài sản trí tuệ của Trí tuệ của Người Khổng Lồ. Nghiêm cấm sao chép, phân phối hoặc sửa đổi cho mục đích thương mại mà không có sự cho phép bằng văn bản trước. Đối với mục đích sử dụng giáo dục, phi thương mại, vui lòng ghi rõ nguồn gốc."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "Mọi thắc mắc về tuyên bố miễn trừ trách nhiệm này, vui lòng liên hệ contact@giantswisdom.com."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "Viết bởi",
+    "authorName": "Đội ngũ Biên tập Trí tuệ của Người Khổng Lồ",
+    "authorDescription": "Chúng tôi chỉ cung cấp thông tin đã được xác minh dựa trên các ghi chép và tài liệu lịch sử. Tất cả nội dung do AI tạo ra đều trải qua quá trình biên tập.",
+    "publishedLabel": "Đã xuất bản",
+    "updatedLabel": "Cập nhật"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "Chính sách Biên tập",
+    "sectionSubtitle": "Trí tuệ của Người Khổng Lồ tạo ra nội dung theo các nguyên tắc này",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "Dựa trên Sự kiện Lịch sử",
+        "description": "Tất cả thông tin và cuộc trò chuyện của các nhân vật lịch sử đều dựa trên các nguồn lịch sử đã được xác minh."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "Minh bạch về AI",
+        "description": "Chúng tôi công khai rõ ràng các cuộc trò chuyện do AI tạo ra và phân biệt chúng với các tuyên bố lịch sử thực tế."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "Cập nhật Liên tục",
+        "description": "Nội dung được định kỳ xem xét và cập nhật để phản ánh các nghiên cứu lịch sử mới nhất."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "Đa dạng và Hòa nhập",
+        "description": "Chúng tôi trình bày các nhân vật lịch sử từ các nền văn hóa và thời đại đa dạng trên khắp thế giới một cách cân bằng."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "Được tham khảo nhiều nhất hôm nay"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "Trò chuyện trực tiếp với những Người Khổng Lồ trong bài viết này",
+    "talkNow": "Trò chuyện ngay"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "Muốn tìm hiểu sâu hơn về trí tuệ của Vĩ nhân này?",
+    "minuteRead": "phút đọc"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "Chia sẻ dưới dạng thẻ",
+    "myQuestion": "Câu hỏi của tôi",
+    "downloadButton": "Lưu dưới dạng hình ảnh",
+    "shareButton2": "Chia sẻ",
+    "generating": "Đang tạo...",
+    "saved": "Đã lưu!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 Mỗi thứ Tư",
+    "title": "Trí tuệ hàng tuần từ những bộ óc vĩ đại nhất lịch sử",
+    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nMột cái nhìn sâu sắc để khởi đầu tuần của bạn thật đúng đắn.",
+    "placeholder": "Nhập địa chỉ email của bạn",
+    "subscribeButton": "Đăng ký miễn phí",
+    "subscribing": "Đang đăng ký...",
+    "successMessage": "Bạn đã đăng ký thành công!",
+    "successSubtext": "Bạn sẽ nhận được trí tuệ của các vĩ nhân mỗi tuần 📬",
+    "blogTitle": "Nhận trí tuệ như thế này mỗi tuần"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "Trên Vai Người Khổng Lồ",
+    "subTitle": "Đàm thoại với trí tuệ vĩ đại",
+    "metaTitle": "Trên Vai Người Khổng Lồ | Trò chuyện trí tuệ AI",
+    "metaDescription": "Trò chuyện với Sejong, Socrates, Napoleon... 300 nhân vật lịch sử qua AI. Hoàn toàn miễn phí."
   }
 }

@@ -1362,7 +1362,7 @@ export const giantsData: Giant[] = [
     persona: "당신은 Hannibal Barca입니다.", imageUrl:"/images/giants/hannibal-barca.jpg", era:"3rd - 2nd Century BC"
   },
   {
-    id: "126", name:"Ibn Battuta", category:"business", headline:"Explorer of the Afro-Eurasian World", shortDescription:"A Moroccan scholar and explorer who widely travelled the medieval world.", slug:"ibn-battuta", dnaCode:"LPDI", quote:"Traveling—it leaves you speechless, then turns you into a storyteller.", pain:"Endured immense hardships, illnesses, and danger during his 29 years of travel.", recovery:"His unyielding curiosity and faith propelled him forward, eventually dictating his monumental Rihla.",
+    id: "126", name:"Ibn Battuta", category:"society", headline:"Explorer of the Afro-Eurasian World", shortDescription:"A Moroccan scholar and explorer who widely travelled the medieval world.", slug:"ibn-battuta", dnaCode:"LPDI", quote:"Traveling—it leaves you speechless, then turns you into a storyteller.", pain:"Endured immense hardships, illnesses, and danger during his 29 years of travel.", recovery:"His unyielding curiosity and faith propelled him forward, eventually dictating his monumental Rihla.",
     lessons: [],
     persona: "당신은 Ibn Battuta입니다.", imageUrl:"/images/giants/ibn-battuta.jpg", era:"14th Century"
   },
@@ -1632,7 +1632,7 @@ export const giantsData: Giant[] = [
     persona: "당신은 조지 워싱턴 카버입니다.", imageUrl:"/images/giants/george-washington-carver.jpg", era:"Late 19th - Early 20th Century"
   },
   {
-    id: "180", name:"Al-Ghazali", category:"science", headline:"The Proof of Islam", shortDescription:"A Persian polymath, Al-Ghazali profoundly influenced Islamic philosophy and Sufism. His thought left a deep mark on intellectual history in both East and West.", slug:"al-ghazali", dnaCode:"LPDI", quote:"All knowledge is from ignorance, and all wisdom begins at the end of knowledge.", pain:"He experienced profound doubt and spiritual crisis, grappling with the limitations of human intellect and the ephemerality of worldly pursuits, despite his academic fame and proximity to power.", recovery:"He abandoned his worldly life, dedicating himself to spiritual contemplation and asceticism. Through meditation, prayer, and a period of reclusion, he found inner peace and articulated his insights in works like 'The Incoherence of the Philosophers'.",
+    id: "180", name:"Al-Ghazali", category:"philosophy", headline:"The Proof of Islam", shortDescription:"A Persian polymath, Al-Ghazali profoundly influenced Islamic philosophy and Sufism. His thought left a deep mark on intellectual history in both East and West.", slug:"al-ghazali", dnaCode:"LPDI", quote:"All knowledge is from ignorance, and all wisdom begins at the end of knowledge.", pain:"He experienced profound doubt and spiritual crisis, grappling with the limitations of human intellect and the ephemerality of worldly pursuits, despite his academic fame and proximity to power.", recovery:"He abandoned his worldly life, dedicating himself to spiritual contemplation and asceticism. Through meditation, prayer, and a period of reclusion, he found inner peace and articulated his insights in works like 'The Incoherence of the Philosophers'.",
     lessons: [],
     persona: "당신은 알 가잘리입니다.", imageUrl:"/images/giants/al-ghazali.jpg", era:"Late 11th - Early 12th Century"
   },
@@ -1824,7 +1824,7 @@ export const giantsData: Giant[] = [
         "title": "우리의 투쟁은 내일을 위한 씨앗이다.", "content": "현재의 고난과 저항이 결국 미래 세대의 자유와 번영을 위한 토대가 된다는 희망적 메시지를 담고 있습니다."
       }
     ],
-    persona: "당신은 은징가 여왕입니다.", imageUrl:"/images/giants/queen-nzinga.png", era:"17세기"
+    persona: "당신은 은징가 여왕입니다.", imageUrl:"/images/giants/queen-nzinga.png", era:"17세기", tagline:"The Warrior Queen Who Defied an Empire"
   },
   {
     id: "211", name:"에피쿠로스", category:"philosophy", headline:"고대 그리스의 철학자로 에피쿠로스 학파를 창시했습니다. 진정한 행복은 육체적 고통이 없는 상태와 마음의 평정(아타락시아)에서 온다고 가르쳤...", shortDescription:"고대 그리스의 철학자로 에피쿠로스 학파를 창시했습니다. 진정한 행복은 육체적 고통이 없는 상태와 마음의 평정(아타락시아)에서 온다고 가르쳤습니다.", slug:"epicurus", dnaCode:"PPHI", quote:"가지지 못한 것을 욕망하느라 가진 것을 망치지 마십시오. 당신이 지금 가진 것은 한때 당신이 그토록 바라기만 했던 것임을 기억하십시오.", pain:"평생 신장결석 등 극심한 육체적 질병에 시달렸으며, 쾌락을 중시한다는 철학적 입장 때문에 당대와 후대의 여러 학파로부터 극심한 오해와 비난을 받았습니다.", recovery:"육체적 고통과 사회적 편견 속에서도 우정과 소박한 삶, 그리고 철학적 사유에서 깊은 위안을 찾으며 내면의 평화가 진정한 행복임을 몸소 증명했습니다.",

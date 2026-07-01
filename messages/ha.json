@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
+    "hallOfGems": "Zauren Fikra",
+    "wisdomArchive": "Gida",
+    "chatList": "Jerin Taɗi",
+    "about": "Game da Mu",
+    "startExploring": "Fara Bincike",
+    "title": "Hikimar Gawawwaki",
+    "subtitle": "Zauren Manyan Fikra",
+    "login": "Shiga",
+    "logout": "Fita",
+    "myProfile": "Bayanan martaba na",
+    "signInRequired": "Ana buƙatar shiga don ganin tarihin taɗi.",
+    "debate": "Ɗakin Muhawara",
     "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "consult": "Nemi Shawara",
+    "disclaimer": "Sanarwa ta Musamman"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "Barka da zuwa Zauren Gawawwaki",
+    "loginModalDescription": "Ajiye tattaunawar ku da gawawwaki kuma ku sarrafa gadon hikima da aka zana a cikin ranku.",
+    "continueWithGoogle": "Ci gaba da Google",
+    "loginSuccess": "Barka da zuwa Zauren Manyan Fikra.",
+    "logout": "Fita",
+    "chatList": "Taɗi Na",
+    "signInRequired": "Ana buƙatar Shiga"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "Nemo Babban Gado Mai Gudana a Cikin Ranku",
+    "subtitle": "Gwaji na Binciken Halayen Tarihi",
+    "start": "Fara Gwaji",
+    "back": "Baya",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "GWajin DNA 🧬",
+      "title": "Nemo wanda kuka yi kama da shi ta fuskar tarihi\nta hanyar tambayoyi 15.",
+      "desc": "Nemo tagwayenku na tarihi ta hanyar tambayoyi 15.",
+      "button": "Fara Gwaji →"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "Mataki na 1: Farkawa",
+      "stage2": "Mataki na 2: Gwaji",
+      "stage3": "Mataki na 3: Kaddara",
+      "cleared": "An kammala mataki na {stage}!",
+      "ready": "A shirye kuke ku matsa zuwa mataki na gaba?",
+      "next": "Ci gaba zuwa Mataki na Gaba"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "Ana nazarin ra'ayoyin ranku...",
+      "sub": "Ana neman ginshiƙan ku a cikin babban tafarkin tarihi."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "Kun haɗu da kaddararku ta tarihi",
+      "archetype": "Halinku na Gado",
+      "matchedGiant": "Babban gwarzo mafi kama da ku",
+      "readEpic": "Karanta Babban Labari",
+      "chatNow": "Yi Taɗi Yanzu"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "Taɗi Na",
+    "subtitle": "Tattaunawa da Manyan Fikra",
+    "description": "Ku sake nazarin zurfin fahimta da shawarwari daga manyan gawawwakin tarihi. Kuna iya ci gaba da kowace tattaunawa a kowane lokaci.",
+    "emptyTitle": "Babu taɗi tukuna",
+    "emptyDescription": "Gawawwakin sun shirya sauraron damuwar ku. Fara taɗinku na farko yanzu!",
+    "startFirstChat": "Fara Taɗi Na Farko",
+    "messages": "saƙonni",
+    "lastChat": "Taɗi na ƙarshe"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
+    "badge": "Zauren Manyan Fikra",
+    "quote": "Idan na ga nesa, saboda tsayawa ne a kan kafadun Gawawwaki.",
     "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "startJourney": "Fara Tafiya",
+    "startTest": "🧬 Nemi Wane Kuka Fi Kama da Shi a Tarihi",
+    "exploreHall": "💭 Nemi Shawara daga Gawawwaki",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "Manyan Fikra",
+      "questions": "Tambayoyin Gwaji",
+      "free": "Kyauta Gabaɗaya",
+      "freeValue": "Kyauta"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "Jagorar Tafiyar Zauren Hikima",
+      "selectGiant": "Zaɓi wani Gwarzo",
+      "selectGiantDesc": "Nemo fitattun mutane masu ban sha'awa daga cikin fitattun labarai na tarihi sama da 140.",
+      "epic": "Labaran Jaruntaka",
+      "epicDesc": "Karanta tarihin rayuwa kamar dai gawawwakin da kansu suke ba da labarin su.",
+      "chat": "Taɗi Kai Tsaye",
+      "chatDesc": "Raba damuwar ku tare da gawawwaki da aka sake haifa ta hanyar sabuwar AI.",
+      "startNow": "Fara Yanzu"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "Shiga Ɗakin Muhawarar Gawawwaki",
+    "chatProgress": "gawawwaki da aka haɗu ({total} gabaɗaya)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "Zauren Manyan Fitattu",
+    "description": "Bincika hikimar fitattun mutanen da suka canza tarihi. Zaɓi mutum don fara tattaunawa da ta wuce lokaci da sarari.",
+    "viewAll": "Duba Duk Fitattu",
+    "bestPick": "Zaɓi Mafi Kyau",
+    "todaysPick": "Zaɓin Yau",
+    "chatNow": "Yi Hira Yanzu"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "Fitattu na Tarihi",
+    "description": "Bincika hikimar fitattun mutanen da suka canza tafarkin ɗan adam. Zaɓi fitacce don fara tattaunawa da ta wuce lokaci da sarari.",
+    "searchPlaceholder": "Bincika da suna ko fannin...",
+    "allGiants": "Duk Fitattu",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "Jagoranci",
+      "science": "Kimiyya",
+      "philosophy": "Falsafa",
+      "arts": "Fasaha",
+      "society": "Al'umma",
+      "business": "Kasuwanci"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "An samo {filtered} daga cikin manyan hankali {total}",
+    "readEpic": "Karanta Labarin Ban Mamaki ✨",
+    "noResults": "Ba a samo sakamako ba",
+    "era": "Fitacce na Tarihi",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "Farko",
+      "prev": "Baya",
+      "next": "Gaba",
+      "last": "Ƙarshe"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "Tafiyata ta Fitattu",
+    "progressSubtext": "An bincika {progress}%! Ci gaba 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "Duk Yankuna",
+      "east-asia": "Gabashin Asiya",
+      "europe": "Turai",
+      "americas": "Amurka",
+      "middle-east-turkey": "Gabashin Tsakiya & Turkiyya",
+      "africa": "Afirka",
+      "south-southeast-asia": "Kudancin & Kudu maso Gabashin Asiya"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "Koma Dandalin",
+    "chatWith": "Yi Hira da {name}",
+    "theLifeStory": "Labarin Rayuwa",
+    "thePain": "Gwagwarmayar",
+    "theRecovery": "Farfaɗowa",
+    "wisdomLessons": "Darussan Hikima",
+    "famousQuote": "Zance Sananne",
+    "era": "Zamani",
+    "field": "Fanni",
+    "askForAdvice": "Nemi Shawara",
+    "notFound": "Ba a samo fitacce ba.",
+    "goHome": "Komawa Gida"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "Zance Sananne",
+    "description": "Bayanin",
+    "suggestedQuestions": "Tambayoyi Masu Yiwuwa",
+    "inputPlaceholder": "Tambayi {name} komai...",
+    "contemplating": "{name} yana nazari...",
+    "wisdomActive": "Hikima Tana Aiki",
+    "historyEra": "Tarihi & Zamani",
+    "fieldOfWisdom": "Fannin Hikima",
+    "error": "Yi haƙuri, na ci karo da kuskure yayin da nake neman hikimata. Za ku iya sake gwadawa nan da ɗan lokaci?",
+    "retry": "Nemo Hikima Sake"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "Me Yasa Hikimar Fitattu",
+    "description": "Shaida wata sabuwar tafiya tsakanin dubban shekaru don saduwa da hikimar ɗan adam.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "Hira kai tsaye da Fitattu na Tarihi",
+        "description": "Shiga tattaunawa mai zurfi da ta wuce lokaci da sarari tare da fitattun mutanen tarihi ta hanyar AI mai inganci."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "Shekaru 2,500 na Hikimar Ɗan Adam",
+        "description": "Sadu da shekaru 2,500 na tarihi, nasarori, da fahimta da ɗan adam ya gina a wuri guda."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "Ilimi Kai Tsaye Daga Malamai",
+        "description": "Muna isar da ƙimar koyo mai kyau kamar sauraron malamai kai tsaye a fannin falsafa, kimiyya, da fasaha."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "Fahimtar Kai Tsaye Gare Ka",
+        "description": "Yi tambayoyi, bincika ra'ayoyi, kuma sami jagorancin da aka keɓance maka don rayuwarka."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "Manyan Hankali",
+      "history": "Shekarun Hikima",
+      "fields": "Fannoni na Nazari",
+      "inspiration": "Ilhami"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "Hikimar Yau da Kullum"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "Manufar Sirri",
+    "lastUpdated": "An Sabunta Shi Na Karshe: Mayu 16, 2026",
+    "summaryTitle": "1. Takaitaccen Bayani",
+    "summaryDesc": "A Hikimar Manyan Mutane, ba ma taba siyarwa ko raba bayanan ku na sirri ba ta hanyar da ba ta dace ba. Wannan manufar ta bayyana yadda muke karewa da sarrafa bayanan da aka tattara yayin da kuke yin gwajin halaye da tattaunawa da manyan mutanen tarihi.",
+    "collectionTitle": "2. Bayanan da Muke Tattarawa da Yadda Muke Tattara Su",
+    "collectionDesc": "Ana iya bincika gidan yanar gizon mu gaba daya ba tare da sanin ko wanene ba, ba tare da kirkirar asusu ba. Amma, yayin mu'amalarku, ana iya sarrafa bayanan masu zuwa:\n- Bayanan da aka bayar da son rai: Amsoshin Gwajin DNA na Gado, rubutun shigarwa da aka shigar yayin hirar AI, da adireshin imel (kawai idan kun yi rajista ga wasikarmu).\n- Bayanan da aka rubuta ta atomatik: Nau'in na'ura, bayanan burauza, adireshin IP, da tarihin mu'amala da aka rubuta lafiya ta hanyar Kukis.",
+    "purposeTitle": "3. Yadda Muke Amfani da Bayanan",
+    "purposeDesc": "Ana amfani da bayanan da aka tattara sosai don manufofin masu zuwa:\n- Hada sakamakon gwajin tambayoyi 15 don tantance wane babba daga tarihi ya fi kama da kai.\n- Bayar da amsoshin hira na tarihi masu motsi, na ainihin lokaci da Gemini 2.5 Flash API ke sarrafawa da tsabta.\n- Bincike na kididdiga, wanda ba ya gano mutum don inganta ma'auninmu na nau'in halaye.\n- Gudanar da nuni na tallace-tallace na banner na musamman ta hanyar Google AdSense.",
+    "adsenseTitle": "4. Manufar Google AdSense da Kukis na Bangare na Uku",
+    "adsenseDesc": "Wannan gidan yanar gizo yana nuna tallace-tallace da aka haɗa ta hanyar Google AdSense. Google da masu ba da sabis na ɓangare na uku suna amfani da kukis don ba da tallace-tallace masu niyya dangane da ziyararku zuwa wannan da sauran gidajen yanar gizo a fadin intanet. Amfani da kukis na tallace-tallace na Google yana ba shi da abokan aikinsa damar ba da tallace-tallace ga masu amfani dangane da ziyarar su zuwa wannan rukunin yanar gizon da/ko sauran rukunin yanar gizo a Intanet. Kuna iya sauƙaƙe fita daga tallace-tallace na keɓaɓɓu ta hanyar ziyartar Saitunan Tallace-tallacen Google (https://www.google.com/settings/ads). A madadin haka, kuna iya fita daga kukis na masu ba da sabis na ɓangare na uku don tallace-tallace na keɓaɓɓu ta hanyar ziyartar www.aboutads.info.",
+    "retentionTitle": "5. Adana da Lalata Bayanai",
+    "retentionDesc": "Sakamakon gwajin da ba a san ko wanene ba da kuma rubutun hira ana goge su ne bayan an rufe zaman ko kuma a cire gaba daya alamomin da ke gano mutum (an boye su) don nazarin tarawa na dindindin. Duk wani shigarwar sirri kamar imel ana goge su gaba daya bisa bukatarku.",
+    "rightsTitle": "6. Haƙƙoƙinka da Bayanin Tuntuɓa",
+    "rightsDesc": "Kuna da cikakken iko don dubawa, gyarawa, ko goge duk wani ɓangare na bayanai da aka haɗa da asalinku na dindindin. Don duk wani korafi na shari'a ko na sirri, da fatan za a tuntuɓi tashar tallafi na hukuma."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "Zauren Manyan Masu Hankali",
+      "description": "Kasance cikin tafiyar manyan masu hankali da suka canza tarihi. Kware hikima fiye da lokaci da sarari."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "Bincika",
+      "info": "Bayanai"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
+      "allGiants": "Duk Manyan Mutane",
+      "wisdomArchive": "Ma'ajiyar Hikima",
+      "about": "Game da Mu",
+      "privacy": "Manufar Sirri",
+      "terms": "Sharuɗɗan Sabis",
+      "contact": "Tuntuɓa",
+      "dnaTest": "Gwajin Daidaitaccen Tarihi",
+      "debate": "Dakin Muhawara na AI",
       "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "consult": "Nemi Shawara",
+      "disclaimer": "Sanarwa"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "Ga waɗanda suka ɓace a cikin\nruɗani na bayanai marasa iyaka.",
+    "subIntro": "Wuri don nisanta kai daga hayaniya da fuskantar hikima ta gaskiya.",
+    "visionTitle": "Tsaye a Kan Kafaɗun Manyan Mutane",
+    "visionDesc": "“Idan na ga nesa, saboda tsayawa ne a kan kafaɗun manyan mutane.” - Isaac Newton. Mun fara ne da imani cewa amsoshin matsalolinmu na zamani masu rikitarwa watakila an riga an saƙa su cikin rayuwar manyan mutanen tarihi.",
+    "epicTitle": "Manyan Labaran Jarumai na Manyan Mutane 500",
+    "epicDesc": "Wuce gaskiyar tarihi kawai. Kware manyan labaran jarumai na manyan mutane waɗanda suka shawo kan matsaloli don sake fasalin tarihin ɗan adam.",
+    "chatTitle": "Tattaunawa Tsakanin Zamani",
+    "chatDesc": "Yi tattaunawa ta ainihin lokaci tare da sa hannun manyan mutane da aka maido da su, waɗanda AI mai ci gaba (Gemini 2.5 Flash) ke sarrafawa don neman zurfafa tunani don matsalolinku na zamani.",
+    "testTitle": "Nemo Daidaitaccen Tarihin Ku",
+    "testDesc": "Gano DNA na babban mutum da ke gudana a cikin zurfin ranku ta hanyar cikakken gwajin tambayoyi na mataki 3 da aka saita a lokutan tarihi masu mahimmanci.",
+    "outroTitle": "Barka da Zuwa Zauren Manyan Mutane",
+    "outroDesc": "A kan kafaɗunsu, a karshe za ku ga nesa. Fara tafiyarku a yau.",
+    "pillarsOfWisdom": "Ginshiƙan Hikima"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "Sharuɗɗan Sabis",
+    "lastUpdated": "An Sabunta Shi Na Karshe: Mayu 16, 2026",
+    "intro": "Barka da zuwa Hikimar Manyan Mutane. Waɗannan Sharuɗɗan Sabis sun tsara yarjejeniyar doka da iyakokin mai amfani tsakaninku da dandalinmu dangane da shigarwarku da ainihin ma'aunin halayenmu da kwaikwayon tattaunawa.",
+    "eligibilityTitle": "Mataki na 1 (Cancanta & Kariyar Kananan Yara)",
+    "eligibilityDesc": "Wannan sabis ɗin an yi shi ne kawai ga masu amfani waɗanda suka kai shekaru 13 ko sama da haka. Masu amfani da ke ƙasa da 13 da ke amfani da sabis ɗinmu suna wakiltar cewa sun sami izinin iyaye da aka tabbatar da shi daidai da umarnin sirrin yara na duniya. Dandalin ba shi da alhakin duk wani abin alhaki da ya taso daga shigar ƙananan yara ba tare da izini ba.",
+    "aiTitle": "Mataki na 2 (Tsarin AI & Cikakken Sanarwa)",
+    "aiDesc": "1. Duk tattaunawa da manyan mutanen tarihi da aka nuna a wannan dandalin kwaikwayon hulɗa ne wanda samfuran AI masu ci gaba (Gemini 2.5 suite) suka samar da tsabta.\n2. Abubuwan da aka bayar an tsara su ne kawai don ilimantarwa da nishaɗi. Basuyi daidai da bayanan tarihi da aka tabbatar ba, ko kimantawa na tunani na kwararru, ko shawarwarin likita, ko shawarar doka.\n3. Hikimar Manyan Mutane ba shi da alhakin kuskuren AI ko zaɓin da masu amfani suka yi bisa ga bayanan tsarin.",
+    "intellectualTitle": "Mataki na 3 (Hakkokin Mallaka & Kariya daga Scara)",
+    "intellectualDesc": "1. Duk tsarin shimfidawa, alamomin kasuwanci, ma'aunin gwajin 'Ginshiƙai 4 na Girma', tambayoyi 15 na yanayi, da kuma zane-zanen vector masu inganci sun kasance mallakin Hikimar Manyan Mutane ne kawai.\n2. An hana masu amfani sosai yin kwafin da ba a ba da izini ba, rarraba kasuwanci, ko lalatar da bayanai ta hanyar bots na atomatik, rubutun, ko nodes na cibiyar sadarwa na crawler.",
+    "userDutyTitle": "Mataki na 4 (Ma'aunin Mai Amfani & Izinin Bayar da Kudade)",
+    "userDutyDesc": "1. Masu amfani sun yarda da amfani da aikace-aikacenmu ba tare da gabatar da juzu'i na injiniyanci ba ko kuma hanyoyin loda uwar garke masu cutarwa ba.\n2. A madadin damar samun damar shiga kyauta, masu amfani a fili sun ba da izini mara iyaka ga Google AdSense da masu bada tallace-tallace na ɓangare na uku don nuna shimfidar banner ta atomatik a duk fadin wurin aikin aikace-aikacen.",
+    "disputeTitle": "Mataki na 5 (Dokar Gwamnati & Hukunci Mai Inganci)",
+    "disputeDesc": "Waɗannan Sharuɗɗan da duk wani matakin shari'a da ya taso daga amfani da tsarin za su kasance ƙarƙashin dokokin Jamhuriyar Koriya. Duk wani rikici za a miƙa shi ne kawai ga kotun da ke da hurumi a wurin da mai gudanar da dandalin yake."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "Saitunan Yarjejeniyar Kukis",
+    "description": "Muna amfani da kukis don keɓance tallace-tallace (Google AdSense) da kuma tantance zirga-zirga. Ta hanyar karɓa, kun yarda da amfani da kukis ɗinmu.",
+    "acceptAll": "Karɓi Dukka",
+    "rejectAll": "Ƙi Dukka",
+    "customize": "Keɓance",
+    "savePreferences": "Ajiye Zaɓuɓɓuka",
+    "necessary": "Kukis Masu Mahimmanci",
+    "necessaryDesc": "Ana buƙatar su don gidan yanar gizon ya yi aiki yadda ya kamata. (Koyaushe Aiki)",
+    "analytics": "Kukis na Nazari",
+    "analyticsDesc": "Ana amfani da su don tantance baƙi da tsarin amfani don inganta sabis ɗinmu.",
+    "advertising": "Kukis na Talla",
+    "advertisingDesc": "Ana amfani da su don ba da tallace-tallace na keɓaɓɓu ta Google AdSense."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "title": "Tuntuɓe Mu",
+    "name": "Suna",
+    "email": "Imel",
+    "subject": "Jigo (ba dole ba)",
+    "message": "Saƙo",
+    "send": "Aika Saƙo",
+    "sending": "Ana aikawa...",
+    "success": "An aika saƙo cikin nasara! Na gode.",
+    "error": "An kasa aikawa. Da fatan za a sake gwadawa.",
+    "namePlaceholder": "Shigar da sunanka",
+    "emailPlaceholder": "Shigar da imel ɗinka",
+    "subjectPlaceholder": "Shigar da jigo",
+    "messagePlaceholder": "Shigar da saƙonka"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "Ɗakin Muhawara",
+    "subtitle": "Faɗar Hikimar Manyan Mutane",
+    "description": "Zaɓi manyan mutane 2-4 na tarihi kuma jefa musu wani jigo. Za su yi muhawara kai tsaye.",
+    "selectGiants": "Zaɓi Manyan Mutane don Muhawara",
+    "selectedCount": "{count}/4 An zaɓa",
+    "minRequired": "Da fatan za a zaɓi aƙalla manyan mutane 2",
+    "maxAllowed": "Kuna iya zaɓar har zuwa manyan mutane 4",
+    "enterTopic": "Shigar da Jigon Muhawara",
+    "topicPlaceholder": "Shigar da jigon muhawara...\nmisali, Kuɗi na iya samar da farin ciki a cikin al'ummar zamani?",
+    "startDebate": "Fara Muhawara",
+    "aiRecommend": "Shawara ta AI",
+    "selfSelect": "Zaɓi da Kai",
+    "aiRecommendTitle": "Masu Muhawara Mafi Kyau don Wannan Jigo",
+    "thinking": "{name} yana tunani...",
+    "interject": "Shiga tsakani a muhawara...",
+    "endDebate": "Kawo Ƙarshen Muhawara",
+    "shareDebate": "Raba Muhawara",
+    "newDebate": "Sabon Muhawara",
+    "summaryTitle": "Takaitaccen Muhawara",
+    "rounds": "{count} Juyi",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "Kuɗi da farin ciki, wanne ne ke zuwa farko?",
+      "Dimokuraɗiyya ta zamani tsari ce cikakkiya?",
+      "AI za ta ceci ɗan adam ko kuma ta yi barazana gare shi?",
+      "Ana iya tabbatar da yaƙi?",
+      "Yancin kai na mutum vs. Tsarin zamantakewa, wanne ne ke zuwa farko?",
+      "Fasaha za ta iya canza al'umma?",
+      "Yaya ya kamata ɗan adam ya rayu a fuskar mutuwa?"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "MUHAWARA TA KAI TSAYE",
+    "titlePre": "Faɗar Mafi Girman Hankali",
+    "titlePost": "'Ɗakin Muhawara na Ƙarshe na Manyan Mutane'",
+    "desc": "\"Kuɗi na iya sayen farin ciki?\" Kalli kuma shiga cikin muhawara mai zurfi tsakanin Aristotle da Nietzsche kai tsaye.",
+    "button": "Kalli & Shiga"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "KO",
+    "title": "Kuna fuskantar wani abu mai wahala?",
+    "desc": "Lincoln, Seneca, Gandhi —\ndukkansu sun fuskanci irin wannan ciwo. Kuma sun shawo kansa.",
+    "button": "Yi Magana da Babban Mutum →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "Sanarwa ta Musamman | Hikimar Jarumai",
+      "description": "Da fatan za a karanta kafin amfani da Hikimar Jarumai."
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "Sanarwa ta Musamman",
+    "lastUpdated": "An Sabunta ta Karshe: Yuni 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "Sanarwa Game da Abun Ciki da AI ta Samar",
+        "content": "Sabis na tattaunawa ta AI na Hikimar Jarumai tare da manyan mutane na tarihi yana amfani da fasahar hankali na wucin gadi don samar da tattaunawa dangane da rubuce-rubucen tarihi da takardu. Bayanan, shawarwarin, da tattaunawar da aka danganta ga manyan mutane na tarihi a cikin wannan sabis ba kalamai ne kai tsaye daga ainihin mutane na tarihi ba, amma wakilcin kirkire-kirkire ne na AI wanda aka samar dangane da nazarin kayan tarihi. Hikimar Jarumai tana kokarin tabbatar da daidaito a tarihi, amma abubuwan da AI ta samar na iya bambanta lokaci-lokaci da ainihin rubuce-rubucen tarihi."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "Manufar Ilimi",
+        "content": "Hikimar Jarumai sabis ne na ilimi da aka tsara don samar da damar samun rayuwar da hikimar manyan mutane na tarihi ga masu sauraro na zamani. Duk abun ciki da aka bayar don dalilai na ilimi da bayani ne kawai kuma bai kamata a yi amfani da shi azaman tushe don binciken tarihi na kwararru ko ambaton ilimi ba."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "Daidaiton Bayanai",
+        "content": "Hikimar Jarumai tana kokarin tabbatar da daidaito a cikin abun ciki da aka bayar, amma ba ta bada tabbacin cikakken daidaito na duk bayanan ba. Don muhimman shawarwari dangane da hujjojin tarihi, da fatan za a nemi shawarar amintattun tushen tarihi da ra'ayoyin masana."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "Haƙƙin Mallaka",
+        "content": "Duk abun ciki a kan Hikimar Jarumai (rubutu, tsari, tsarin tattaunawa ta AI, da dai sauransu) mallakin ilimi ne na Hikimar Jarumai. An haramta kwafa, rarrabawa, ko gyara don dalilai na kasuwanci ba tare da izinin rubutu na farko ba. Don amfani na ilimi, wanda ba na kasuwanci ba, da fatan za a bayyana tushen a fili."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "Don tambayoyi game da wannan sanarwa ta musamman, da fatan za a tuntubi contact@giantswisdom.com."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "Wanda ya Rubuta",
+    "authorName": "Tawagar Editoci na Hikimar Jarumai",
+    "authorDescription": "Muna bayar da bayanan da aka tabbatar kawai dangane da rubuce-rubucen tarihi da takardu. Duk abun ciki da AI ta samar yana fuskantar bita na editoci.",
+    "publishedLabel": "An Bugawa",
+    "updatedLabel": "An Sabunta"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "Manufofin Editoci",
+    "sectionSubtitle": "Hikimar Jarumai tana kirkirar abun ciki dangane da waɗannan ka'idoji",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "Dangane da Hujjojin Tarihi",
+        "description": "Duk bayanan manyan mutane na tarihi da tattaunawa sun dogara ne akan amintattun tushen tarihi."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "Fitar da Tsarin AI a Fil",
+        "description": "Muna bayyana tattaunawa da AI ta samar a fili kuma muna rarrabe su daga ainihin kalamai na tarihi."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "Sabuntawa Akai-akai",
+        "description": "Ana nazarin abun ciki lokaci-lokaci kuma ana sabunta shi don nuna sabbin binciken tarihi."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "Bambancin Al'adu da Hadawa",
+        "description": "Muna gabatar da manyan mutane na tarihi daga al'adu daban-daban da zamani a duniya a hanya mai daidaito."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "Wadanda aka fi tuntuɓar yau"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "Yi magana kai tsaye da Jarumai a cikin wannan labarin",
+    "talkNow": "Yi Magana Yanzu"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "Kana son sanin hikimar wannan babban mutumin sosai?",
+    "minuteRead": "mintoci karatu"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "Raba a matsayin kati",
+    "myQuestion": "Tambayata",
+    "downloadButton": "Ajiye a matsayin hoto",
+    "shareButton2": "Raba",
+    "generating": "Ana kirkirar...",
+    "saved": "An ajiye!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 Kowace Laraba",
+    "title": "Hikimar mako-mako daga manyan masu tunani na tarihi",
+    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nWata ilimi don fara makonku daidai.",
+    "placeholder": "Shigar da adireshin imel ɗinka",
+    "subscribeButton": "Yi rajista kyauta",
+    "subscribing": "Ana yin rajista...",
+    "successMessage": "An yi rajistar ku!",
+    "successSubtext": "Za ku karbi hikimar manyan mutane kowace mako 📬",
+    "blogTitle": "Samu hikima irin wannan kowace mako"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "Kafadun Manyan Mutane",
+    "subTitle": "Tattaunawa da babban hikima",
+    "metaTitle": "Kafadun Manyan Mutane | Tattaunawar Hikima ta AI",
+    "metaDescription": "Yi magana da Sejong, Socrates, Napoleon... Fitattun mutane 300 na tarihi ta hanyar AI. Kyauta ce gaba daya."
   }
 }

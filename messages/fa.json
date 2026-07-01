@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
-    "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "hallOfGems": "تالار خرد",
+    "wisdomArchive": "خانه",
+    "chatList": "فهرست گفتگوها",
+    "about": "درباره ما",
+    "startExploring": "شروع کاوش",
+    "title": "خرد غول‌ها",
+    "subtitle": "تالار ذهن‌های بزرگ",
+    "login": "ورود",
+    "logout": "خروج",
+    "myProfile": "پروفایل من",
+    "signInRequired": "برای مشاهده تاریخچه گفتگوها، ورود لازم است.",
+    "debate": "اتاق مناظره",
+    "blog": "وبلاگ",
+    "consult": "مشاوره بگیرید",
+    "disclaimer": "سلب مسئولیت"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "به تالار غول‌ها خوش آمدید",
+    "loginModalDescription": "گفتگوهای خود را با غول‌ها حفظ کنید و میراث خرد حک شده در روح خود را مدیریت کنید.",
+    "continueWithGoogle": "ادامه با گوگل",
+    "loginSuccess": "به تالار ذهن‌های بزرگ خوش آمدید.",
+    "logout": "خروج از سیستم",
+    "chatList": "مکالمات من",
+    "signInRequired": "ورود الزامی است"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "میراث بزرگ جاری در روح خود را بیابید",
+    "subtitle": "تست تحلیل مزاج تاریخی",
+    "start": "شروع تست",
+    "back": "بازگشت",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "تست DNA 🧬",
+      "title": "همتای DNA تاریخی خود را\nدر ۱۵ سوال بیابید.",
+      "desc": "همتای تاریخی خود را در ۱۵ سوال بیابید.",
+      "button": "شروع تست ←"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "مرحله ۱: بیداری",
+      "stage2": "مرحله ۲: آزمایش",
+      "stage3": "مرحله ۳: سرنوشت",
+      "cleared": "مرحله {stage} پاک شد!",
+      "ready": "آماده حرکت به مرحله بعد؟",
+      "next": "ادامه به مرحله بعد"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "در حال تحلیل پژواک‌های روح شما...",
+      "sub": "در جستجوی ستون‌های شما در جریان عظیم تاریخ."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "شما سرنوشت تاریخی خود را ملاقات کرده‌اید",
+      "archetype": "شخصیت میراثی شما",
+      "matchedGiant": "غول شبیه‌تر به شما",
+      "readEpic": "داستان حماسی را بخوانید",
+      "chatNow": "اکنون گفتگو کنید"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "مکالمات من",
+    "subtitle": "گفتگو با ذهن‌های بزرگ",
+    "description": "بینش‌ها و توصیه‌های عمیق را از بزرگترین غول‌های تاریخ دوباره ببینید. می‌توانید هر مکالمه‌ای را در هر زمان ادامه دهید.",
+    "emptyTitle": "هنوز گفتگویی ندارید",
+    "emptyDescription": "غول‌ها آماده شنیدن نگرانی‌های شما هستند. اولین گفتگوی خود را اکنون شروع کنید!",
+    "startFirstChat": "شروع اولین گفتگو",
+    "messages": "پیام‌ها",
+    "lastChat": "آخرین گفتگو"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
-    "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "badge": "تالار ذهن‌های بزرگ",
+    "quote": "اگر دید بیشتری داشته‌ام، با ایستادن بر شانه‌های غول‌ها بوده است.",
+    "quoteAuthor": "آیزاک نیوتن",
+    "startJourney": "شروع سفر",
+    "startTest": "🧬 همتای تاریخی خود را بیابید",
+    "exploreHall": "💭 از غول‌ها مشاوره بگیرید",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "ذهن‌های بزرگ",
+      "questions": "سوالات تست",
+      "free": "کاملاً رایگان",
+      "freeValue": "رایگان"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "راهنمای سفر تالار خرد",
+      "selectGiant": "یک غول انتخاب کنید",
+      "selectGiantDesc": "در میان بیش از ۱۴۰ افسانه تاریخی، شخصیت‌های الهام‌بخش را بیابید.",
+      "epic": "روایت‌های حماسی",
+      "epicDesc": "سوابق زندگی را بخوانید گویی خود غول‌ها آن‌ها را تعریف می‌کنند.",
+      "chat": "گفتگوی بلادرنگ",
+      "chatDesc": "نگرانی‌های خود را با غول‌هایی که از طریق جدیدترین هوش مصنوعی دوباره متولد شده‌اند، به اشتراک بگذارید.",
+      "startNow": "اکنون شروع کنید"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "ورود به اتاق مناظره غول‌ها",
+    "chatProgress": "غول ملاقات شده ({total} کل)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "تالار نوابغ بزرگ",
+    "description": "خرد شخصیت‌هایی که تاریخ را تغییر دادند را کاوش کنید. یک فرد را انتخاب کنید تا گفتگویی فراتر از زمان و مکان را آغاز کنید.",
+    "viewAll": "مشاهده همه نوابغ",
+    "bestPick": "برگزیده برتر",
+    "todaysPick": "برگزیده امروز",
+    "chatNow": "همین الان گپ بزنید"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "نوابغ تاریخی",
+    "description": "خرد شخصیت‌هایی که مسیر بشریت را تغییر دادند را کاوش کنید. یک نابغه را انتخاب کنید تا گفتگویی فراتر از زمان و مکان را آغاز کنید.",
+    "searchPlaceholder": "جستجو بر اساس نام یا حوزه...",
+    "allGiants": "همه نوابغ",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "رهبری",
+      "science": "علم",
+      "philosophy": "فلسفه",
+      "arts": "هنر",
+      "society": "جامعه",
+      "business": "کسب و کار"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "{filtered} از {total} ذهن بزرگ پیدا شد",
+    "readEpic": "حماسه را بخوانید ✨",
+    "noResults": "هیچ نتیجه‌ای یافت نشد",
+    "era": "نابغه تاریخی",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "اولین",
+      "prev": "قبلی",
+      "next": "بعدی",
+      "last": "آخرین"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "سفر من با نوابغ",
+    "progressSubtext": "{progress}% کشف شد! ادامه دهید 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "همه مناطق",
+      "east-asia": "آسیای شرقی",
+      "europe": "اروپا",
+      "americas": "قاره آمریکا",
+      "middle-east-turkey": "خاورمیانه و ترکیه",
+      "africa": "آفریقا",
+      "south-southeast-asia": "آسیای جنوبی و جنوب شرقی"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "بازگشت به میدان",
+    "chatWith": "گفتگو با {name}",
+    "theLifeStory": "داستان زندگی",
+    "thePain": "کشمکش",
+    "theRecovery": "بازیابی",
+    "wisdomLessons": "درس‌های خرد",
+    "famousQuote": "سخن ماندگار",
+    "era": "دوران",
+    "field": "حوزه",
+    "askForAdvice": "درخواست مشاوره",
+    "notFound": "نابغه یافت نشد.",
+    "goHome": "بازگشت به خانه"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "سخن ماندگار",
+    "description": "توضیحات",
+    "suggestedQuestions": "پرسش‌های پیشنهادی",
+    "inputPlaceholder": "از {name} هر چیزی بپرسید...",
+    "contemplating": "{name} در حال تفکر است...",
+    "wisdomActive": "خرد فعال",
+    "historyEra": "تاریخ و دوران",
+    "fieldOfWisdom": "حوزه خرد",
+    "error": "متاسفم، در بازیابی خرد من خطایی رخ داد. آیا می‌توانید لحظاتی دیگر دوباره تلاش کنید؟",
+    "retry": "دوباره خرد را بازیابی کنید"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "چرا خرد نوابغ",
+    "description": "سفری نوآورانه را در طول هزاران سال تجربه کنید تا با خرد بشری آشنا شوید.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "گفتگوی بی‌درنگ با نوابغ تاریخی",
+        "description": "با هوش مصنوعی پیشرفته، در گفتگوهای عمیق و فراتر از زمان و مکان با شخصیت‌های تاریخی شرکت کنید."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "۲۵۰۰ سال خرد بشری",
+        "description": "۲۵۰۰ سال تاریخ، دستاوردها و بینش‌هایی که توسط بشریت ساخته شده است را در یک مکان ملاقات کنید."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "دانش مستقیم از اساتید",
+        "description": "ما ارزش یادگیری زنده را به گونه‌ای ارائه می‌دهیم که گویی مستقیماً از اساتید فلسفه، علم و هنر می‌شنوید."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "بینش‌های شخصی‌سازی شده برای شما",
+        "description": "سوال بپرسید، ایده‌ها را کاوش کنید و راهنمایی‌های شخصی‌سازی شده مورد نیاز برای زندگی خود را دریافت کنید."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "نوابغ",
+      "history": "سال‌های خرد",
+      "fields": "حوزه‌های مطالعاتی",
+      "inspiration": "الهامات"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "حکمت روزانه"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "سیاست حفظ حریم خصوصی",
+    "lastUpdated": "آخرین به‌روزرسانی: ۱۶ مه ۲۰۲۶",
+    "summaryTitle": "۱. خلاصه کلیدی",
+    "summaryDesc": "در حکمت غول‌ها، ما هرگز اطلاعات شخصی شما را نمی‌فروشیم یا به طور نامناسب به اشتراک نمی‌گذاریم. این سیاست نحوه حفاظت و پردازش داده‌های جمع‌آوری شده هنگام انجام تست‌های شخصیتی و گفتگو با غول‌های تاریخی را توضیح می‌دهد.",
+    "collectionTitle": "۲. داده‌هایی که جمع‌آوری می‌کنیم و نحوه جمع‌آوری آن‌ها",
+    "collectionDesc": "وب‌سایت ما را می‌توان به طور کامل ناشناس و بدون ایجاد حساب کاربری کاوش کرد. با این حال، در طول تعاملات شما، داده‌های زیر ممکن است پردازش شوند:\n- داده‌های ارائه شده داوطلبانه: پاسخ‌های تست DNA میراثی، متون ورودی وارد شده در طول چت‌های هوش مصنوعی، و آدرس‌های ایمیل (فقط در صورت اشتراک در خبرنامه ما).\n- داده‌های ثبت‌شده خودکار: نوع دستگاه، مشخصات مرورگر، آدرس IP، و تاریخچه تعاملات که به طور ایمن از طریق کوکی‌ها ثبت می‌شوند.",
+    "purposeTitle": "۳. چگونه از اطلاعات استفاده می‌کنیم",
+    "purposeDesc": "داده‌های جمع‌آوری‌شده صرفاً برای اهداف زیر استفاده می‌شوند:\n- گردآوری نتایج تست ۱۵ سوالی برای تعیین نزدیک‌ترین شخصیت غول تاریخی شما.\n- ارائه پاسخ‌های چت تاریخی پویا و بی‌درنگ که به طور تمیز توسط API Gemini 2.5 Flash پشتیبانی می‌شوند.\n- تحلیل آماری، غیرقابل شناسایی برای بهبود معیارهای کهن‌الگوی شخصیتی ما.\n- نمایش بنرهای سفارشی ایمن از طریق Google AdSense.",
+    "adsenseTitle": "۴. Google AdSense و سیاست کوکی‌های شخص ثالث",
+    "adsenseDesc": "این وب‌سایت تبلیغات را از طریق Google AdSense نمایش می‌دهد. Google و فروشندگان شخص ثالث از کوکی‌ها برای نمایش تبلیغات هدفمند بر اساس بازدیدهای شما از این وب‌سایت و سایر وب‌سایت‌ها در سراسر اینترنت استفاده می‌کنند. استفاده Google از کوکی‌های تبلیغاتی به آن و شرکای آن امکان می‌دهد تا تبلیغات را بر اساس بازدید کاربران از این سایت و/یا سایر سایت‌های اینترنتی نمایش دهند. می‌توانید به راحتی از تبلیغات شخصی‌سازی‌شده با مراجعه به تنظیمات تبلیغات Google (https://www.google.com/settings/ads) انصراف دهید. همچنین، می‌توانید با مراجعه به www.aboutads.info از کوکی‌های فروشندگان شخص ثالث برای تبلیغات شخصی‌سازی‌شده انصراف دهید.",
+    "retentionTitle": "۵. نگهداری و امحاء داده‌ها",
+    "retentionDesc": "نتایج تست ناشناس و ورودی‌های چت یا پس از پایان جلسه حذف می‌شوند یا به طور کامل از شناسه‌های شناسایی (ناشناس) برای مطالعه جمعی دائمی پاک می‌شوند. هرگونه ورودی شخصی مانند ایمیل‌ها در صورت درخواست شما برای همیشه حذف می‌شوند.",
+    "rightsTitle": "۶. حقوق شما و اطلاعات تماس",
+    "rightsDesc": "شما اختیار کامل برای مشاهده، اصلاح، یا حذف دائمی هرگونه بخش از داده‌های مرتبط با هویت خود را دارید. برای هرگونه شکایت قانونی یا مربوط به حریم خصوصی، لطفاً با کانال پشتیبانی رسمی ما تماس بگیرید."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "تالار نوابغ",
+      "description": "به سفر نوابغی بپیوندید که تاریخ را تغییر دادند. حکمتی فراتر از زمان و مکان را تجربه کنید."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "کاوش",
+      "info": "اطلاعات"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
-      "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "allGiants": "همه غول‌ها",
+      "wisdomArchive": "آرشیو حکمت",
+      "about": "درباره ما",
+      "privacy": "سیاست حفظ حریم خصوصی",
+      "terms": "شرایط خدمات",
+      "contact": "تماس",
+      "dnaTest": "تست تطابق تاریخی",
+      "debate": "اتاق مناظره هوش مصنوعی",
+      "blog": "وبلاگ",
+      "consult": "مشاوره بگیرید",
+      "disclaimer": "سلب مسئولیت"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "برای کسانی که در میان\nهجوم بی‌کران اطلاعات گم شده‌اند.",
+    "subIntro": "فضایی برای دور شدن از هیاهو و روبرو شدن با حکمت واقعی.",
+    "visionTitle": "ایستادن بر شانه‌های غول‌ها",
+    "visionDesc": "«اگر من دورتر را دیده‌ام، به خاطر ایستادن بر شانه‌های غول‌ها بوده است.» - آیزاک نیوتن. ما با این باور شروع کردیم که پاسخ‌های مشکلات پیچیده مدرن ما ممکن است از قبل در زندگی بزرگترین غول‌های تاریخ نهفته باشد.",
+    "epicTitle": "حماسه‌های بزرگ ۵۰۰ غول",
+    "epicDesc": "فراتر از حقایق تاریخی صرف بروید. حماسه بزرگ غول‌هایی را تجربه کنید که بر ناملایمات غلبه کردند تا تاریخ بشر را از نو بسازند.",
+    "chatTitle": "گفتگو در میان دوران‌ها",
+    "chatDesc": "در گفتگوهای بی‌درنگ با امضاهای بازسازی‌شده غول‌ها، که توسط هوش مصنوعی پیشرفته (Gemini 2.5 Flash) پشتیبانی می‌شوند، شرکت کنید تا بینش‌های دقیقی برای معضلات مدرن خود بیابید.",
+    "testTitle": "تطابق تاریخی خود را بیابید",
+    "testDesc": "DNA غول را که در اعماق روح شما جاری است، از طریق یک پرسشنامه موقعیتی ۳ مرحله‌ای غوطه‌ورکننده که در لحظات مهم تاریخی تنظیم شده است، کشف کنید.",
+    "outroTitle": "به تالار غول‌ها خوش آمدید",
+    "outroDesc": "بر شانه‌های آن‌ها، سرانجام دورتر را خواهید دید. سفر خود را امروز آغاز کنید.",
+    "pillarsOfWisdom": "ستون‌های حکمت"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "شرایط خدمات",
+    "lastUpdated": "آخرین به‌روزرسانی: ۱۶ مه ۲۰۲۶",
+    "intro": "به حکمت غول‌ها خوش آمدید. این شرایط خدمات، توافقنامه قانونی و مرزهای کاربری بین شما و پلتفرم ما را در خصوص تعامل شما با معیارهای شخصیتی اصلی و شبیه‌سازی‌های مکالمه‌ای ما تنظیم می‌کند.",
+    "eligibilityTitle": "ماده ۱ (صلاحیت و حمایت از خردسالان)",
+    "eligibilityDesc": "این سرویس صرفاً برای کاربرانی در نظر گرفته شده است که حداقل ۱۳ سال سن دارند. کاربرانی که کمتر از ۱۳ سال سن دارند و با گره‌های ما تعامل می‌کنند، اعلام می‌کنند که رضایت والدین را طبق الزامات جهانی حفظ حریم خصوصی کودکان دریافت کرده‌اند. پلتفرم از هرگونه مسئولیتی ناشی از دسترسی غیرمجاز خردسالان سلب مسئولیت می‌کند.",
+    "aiTitle": "ماده ۲ (زیرساخت هوش مصنوعی و سلب مسئولیت‌های جامع)",
+    "aiDesc": "۱. تمامی گفتگوها با شخصیت‌های تاریخی که در این پلتفرم نمایش داده می‌شوند، شبیه‌سازی‌های تعاملی هستند که به طور تمیز توسط مدل‌های پیشرفته هوش مصنوعی (مجموعه Gemini 2.5) تولید شده‌اند.\n۲. خروجی‌های ارائه شده صرفاً برای ارزش آموزشی و سرگرمی طراحی شده‌اند. آنها مطلقاً سوابق تاریخی تأیید شده، ارزیابی‌های روانشناختی حرفه‌ای، توصیه‌های پزشکی یا مشاوره حقوقی را تشکیل نمی‌دهند.\n۳. حکمت غول‌ها هیچ مسئولیتی در قبال توهمات هوش مصنوعی یا انتخاب‌های اجرا شده توسط کاربران بر اساس تله‌متری سیستم ندارد.",
+    "intellectualTitle": "ماده ۳ (مالکیت فکری و حفاظت ضد اسکرپینگ)",
+    "intellectualDesc": "۱. تمامی معماری‌های چیدمان، علائم تجاری برند، معیارهای تست «۴ ستون بزرگی»، ۱۵ سوال موقعیتی، و تصاویر وکتور تخت ممتاز، دارایی انحصاری حکمت غول‌ها باقی می‌مانند.\n۲. کاربران به شدت از انجام کپی‌برداری غیرمجاز، سندیکاسازی تجاری، یا خراشیدن مخرب داده‌ها از طریق ربات‌های خودکار، اسکریپت‌ها یا گره‌های شبکه خزشگر منع شده‌اند.",
+    "userDutyTitle": "ماده ۴ (استاندارد کاربر و رضایت برای نمایش درآمدزایی)",
+    "userDutyDesc": "۱. کاربران موافقت می‌کنند که بدون معرفی توالی‌های مهندسی معکوس یا بردارهای مخرب برای بارگذاری بیش از حد سرور، در برنامه ما حرکت کنند.\n۲. در ازای دسترسی رایگان، کاربران صراحتاً رضایت بی‌قید و شرط برای Google AdSense و کارگزاران تبلیغاتی شخص ثالث برای نمایش طرح‌های بنر خودکار در سراسر فضای کاری برنامه را اعطا می‌کنند.",
+    "disputeTitle": "ماده ۵ (قانون حاکم و صلاحیت دادگاه)",
+    "disputeDesc": "این شرایط و هرگونه اقدامات قانونی ناشی از استفاده از سیستم باید طبق قوانین جمهوری کره تفسیر و اداره شود. هرگونه اختلاف باید منحصراً به دادگاه صالح حاکم بر محل اپراتور پلتفرم ارجاع شود."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "تنظیمات رضایت کوکی",
+    "description": "ما از کوکی‌ها برای شخصی‌سازی تبلیغات (Google AdSense) و تحلیل ترافیک استفاده می‌کنیم. با پذیرش، شما با استفاده ما از کوکی‌ها موافقت می‌کنید.",
+    "acceptAll": "پذیرش همه",
+    "rejectAll": "رد همه",
+    "customize": "سفارشی‌سازی",
+    "savePreferences": "ذخیره تنظیمات",
+    "necessary": "کوکی‌های ضروری",
+    "necessaryDesc": "برای عملکرد صحیح وب‌سایت ضروری هستند. (همیشه فعال)",
+    "analytics": "کوکی‌های تحلیلگر",
+    "analyticsDesc": "برای تحلیل بازدیدکنندگان و الگوهای استفاده جهت بهبود خدمات ما به کار می‌روند.",
+    "advertising": "کوکی‌های تبلیغاتی",
+    "advertisingDesc": "برای ارائه تبلیغات شخصی‌سازی شده از طریق Google AdSense استفاده می‌شوند."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "title": "تماس با ما",
+    "name": "نام",
+    "email": "ایمیل",
+    "subject": "موضوع (اختیاری)",
+    "message": "پیام",
+    "send": "ارسال پیام",
+    "sending": "در حال ارسال...",
+    "success": "پیام با موفقیت ارسال شد! متشکریم.",
+    "error": "ارسال ناموفق بود. لطفاً دوباره تلاش کنید.",
+    "namePlaceholder": "نام خود را وارد کنید",
+    "emailPlaceholder": "ایمیل خود را وارد کنید",
+    "subjectPlaceholder": "موضوع را وارد کنید",
+    "messagePlaceholder": "پیام خود را وارد کنید"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "اتاق مناظره",
+    "subtitle": "نبرد خرد غول‌ها",
+    "description": "۲ تا ۴ غول تاریخی را انتخاب کنید و موضوعی را مطرح کنید. آنها مستقیماً در مورد آن بحث خواهند کرد.",
+    "selectGiants": "غول‌ها را برای مناظره انتخاب کنید",
+    "selectedCount": "{count}/4 انتخاب شده",
+    "minRequired": "لطفاً حداقل ۲ غول را انتخاب کنید",
+    "maxAllowed": "شما می‌توانید حداکثر ۴ غول را انتخاب کنید",
+    "enterTopic": "موضوع مناظره را وارد کنید",
+    "topicPlaceholder": "موضوعی برای مناظره وارد کنید...\nمثال: آیا پول می‌تواند در جامعه مدرن خوشبختی ایجاد کند؟",
+    "startDebate": "شروع مناظره",
+    "aiRecommend": "پیشنهاد هوش مصنوعی",
+    "selfSelect": "انتخاب دستی",
+    "aiRecommendTitle": "مناظره‌کنندگان بهینه برای این موضوع",
+    "thinking": "{name} در حال فکر کردن است...",
+    "interject": "در مناظره مداخله کنید...",
+    "endDebate": "پایان مناظره",
+    "shareDebate": "اشتراک‌گذاری مناظره",
+    "newDebate": "مناظره جدید",
+    "summaryTitle": "خلاصه مناظره",
+    "rounds": "{count} نوبت",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "پول و خوشبختی، کدام یک مقدم است؟",
+      "آیا دموکراسی مدرن یک سیستم کامل است؟",
+      "آیا هوش مصنوعی بشریت را نجات خواهد داد یا آن را تهدید خواهد کرد؟",
+      "آیا جنگ می‌تواند توجیه پذیر باشد؟",
+      "آزادی فردی در مقابل نظم اجتماعی، کدام یک مقدم است؟",
+      "آیا هنر می‌تواند جامعه را تغییر دهد؟",
+      "انسان‌ها در مواجهه با مرگ چگونه باید زندگی کنند؟"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "مناظره زنده",
+    "titlePre": "نبرد بزرگترین ذهن‌ها",
+    "titlePost": "'اتاق مناظره نهایی غول‌ها'",
+    "desc": "\"آیا پول می‌تواند خوشبختی بخرد؟\" مناظره فکری شدید بین ارسطو و نیچه را به صورت زنده تماشا کنید و به آن بپیوندید.",
+    "button": "تماشا و شرکت"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "یا",
+    "title": "در حال گذراندن روزهای سختی هستید؟",
+    "desc": "لینکلن، سنکا، گاندی —\nهمه آنها با همین درد روبرو شدند. و بر آن غلبه کردند.",
+    "button": "با یک غول صحبت کنید →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "سلب مسئولیت | خرد بزرگان",
+      "description": "لطفاً قبل از استفاده از خرد بزرگان مطالعه کنید."
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "سلب مسئولیت",
+    "lastUpdated": "آخرین به‌روزرسانی: ژوئن ۲۰۲۶",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "اطلاعیه محتوای تولید شده توسط هوش مصنوعی",
+        "content": "سرویس مکالمه هوش مصنوعی خرد بزرگان با شخصیت‌های تاریخی، از فناوری هوش مصنوعی برای تولید گفتگوها بر اساس سوابق و اسناد تاریخی استفاده می‌کند. اظهارات، توصیه‌ها و مکالمات نسبت داده شده به شخصیت‌های تاریخی در این سرویس، نقل قول‌های مستقیم از افراد تاریخی واقعی نیستند، بلکه بازنمایی‌های خلاقانه تولید شده توسط هوش مصنوعی بر اساس تحلیل مواد تاریخی می‌باشند. خرد بزرگان برای دقت تاریخی تلاش می‌کند، اما محتوای تولید شده توسط هوش مصنوعی ممکن است گاهی با سوابق تاریخی واقعی متفاوت باشد."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "هدف آموزشی",
+        "content": "خرد بزرگان یک سرویس آموزشی است که برای دسترس‌پذیر کردن زندگی و خرد شخصیت‌های تاریخی برای مخاطبان امروزی طراحی شده است. تمام محتوای ارائه شده فقط برای اهداف اطلاعاتی و آموزشی است و نباید به عنوان منبعی برای تحقیقات تاریخی حرفه‌ای یا استنادات دانشگاهی استفاده شود."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "دقت اطلاعات",
+        "content": "خرد بزرگان برای دقت در محتوای ارائه شده تلاش می‌کند، اما دقت کامل همه اطلاعات را تضمین نمی‌کند. برای تصمیمات مهم بر اساس حقایق تاریخی، لطفاً با منابع تاریخی معتبر و نظرات متخصصان مشورت کنید."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "حق نشر",
+        "content": "تمامی محتوای موجود در خرد بزرگان (متن، طراحی، سیستم‌های مکالمه هوش مصنوعی و غیره) مالکیت فکری خرد بزرگان است. تکثیر، توزیع یا اصلاح برای اهداف تجاری بدون اجازه کتبی قبلی ممنوع است. برای استفاده آموزشی و غیرتجاری، لطفاً به وضوح منبع را ذکر کنید."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "برای پرس و جو در مورد این سلب مسئولیت، لطفاً با contact@giantswisdom.com تماس بگیرید."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "نوشته شده توسط",
+    "authorName": "تیم تحریریه خرد بزرگان",
+    "authorDescription": "ما فقط اطلاعات تایید شده بر اساس سوابق و اسناد تاریخی را ارائه می‌دهیم. تمام محتوای تولید شده توسط هوش مصنوعی تحت بررسی ویراستاری قرار می‌گیرد.",
+    "publishedLabel": "منتشر شده",
+    "updatedLabel": "به‌روزرسانی شده"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "خط مشی تحریریه",
+    "sectionSubtitle": "خرد بزرگان محتوا را بر اساس این اصول ایجاد می‌کند",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "مبتنی بر حقایق تاریخی",
+        "description": "تمام اطلاعات و مکالمات شخصیت‌های تاریخی بر اساس منابع تاریخی تایید شده است."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "شفافیت هوش مصنوعی",
+        "description": "ما مکالمات تولید شده توسط هوش مصنوعی را به وضوح افشا می‌کنیم و آن‌ها را از اظهارات تاریخی واقعی متمایز می‌نماییم."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "به‌روزرسانی‌های مستمر",
+        "description": "محتوا به صورت دوره‌ای بازبینی و به‌روزرسانی می‌شود تا جدیدترین تحقیقات تاریخی را منعکس کند."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "تنوع و فراگیری",
+        "description": "ما شخصیت‌های تاریخی از فرهنگ‌ها و دوران‌های مختلف در سراسر جهان را به شیوه‌ای متعادل ارائه می‌دهیم."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "بیشترین مراجعه امروز"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "مستقیماً با بزرگان در این مقاله صحبت کنید",
+    "talkNow": "همین الان صحبت کنید"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "آیا می‌خواهید عمیق‌تر با خرد این غول آشنا شوید؟",
+    "minuteRead": "دقیقه مطالعه"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "اشتراک‌گذاری به عنوان کارت",
+    "myQuestion": "سوال من",
+    "downloadButton": "ذخیره به عنوان تصویر",
+    "shareButton2": "اشتراک‌گذاری",
+    "generating": "در حال ساخت...",
+    "saved": "ذخیره شد!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 هر چهارشنبه",
+    "title": "خرد هفتگی از بزرگترین ذهن‌های تاریخ",
+    "subtitle": "سنکا، مارکوس اورلیوس، سقراط...\nیک بصیرت برای شروع درست هفته شما.",
+    "placeholder": "ایمیل خود را وارد کنید",
+    "subscribeButton": "اشتراک رایگان",
+    "subscribing": "در حال اشتراک...",
+    "successMessage": "شما مشترک شدید!",
+    "successSubtext": "خرد غول‌ها را هر هفته دریافت خواهید کرد 📬",
+    "blogTitle": "خردی شبیه به این را هر هفته دریافت کنید"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "بر شانه‌های غول‌ها",
+    "subTitle": "با خردی عظیم گفتگو کنید",
+    "metaTitle": "بر شانه‌های غول‌ها | چت خرد هوش مصنوعی",
+    "metaDescription": "با سجونگ، سقراط، ناپلئون... ۳۰۰ شخصیت تاریخی از طریق هوش مصنوعی گفتگو کنید. کاملاً رایگان."
   }
 }

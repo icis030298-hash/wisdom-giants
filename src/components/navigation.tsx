@@ -100,7 +100,7 @@ export function Navigation() {
               <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-primary-foreground" />
             </div>
             <div className="hidden sm:block min-w-0 truncate">
-              <span className="font-serif text-lg font-bold text-foreground group-hover:text-amber-200 transition-colors block truncate leading-none">
+              <span className={`text-lg font-bold text-foreground group-hover:text-amber-200 transition-colors block truncate leading-none ${locale === 'hi' ? 'font-[family-name:var(--font-devanagari)]' : 'font-serif'}`}>
                 {tBrand("mainTitle")}
               </span>
               <span className="text-[10px] opacity-40 tracking-widest uppercase font-medium block mt-1">

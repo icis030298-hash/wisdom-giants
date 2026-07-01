@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
-    "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "hallOfGems": "Зала Розумів",
+    "wisdomArchive": "Головна",
+    "chatList": "Список чатів",
+    "about": "Про нас",
+    "startExploring": "Почати досліджувати",
+    "title": "Мудрість Гігантів",
+    "subtitle": "Зала Великих Розумів",
+    "login": "Увійти",
+    "logout": "Вийти",
+    "myProfile": "Мій профіль",
+    "signInRequired": "Для перегляду історії чатів необхідно увійти.",
+    "debate": "Дебатна кімната",
+    "blog": "Блог",
+    "consult": "Отримати пораду",
+    "disclaimer": "Відмова від відповідальності"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "Ласкаво просимо до Зали Гігантів",
+    "loginModalDescription": "Зберігайте свої діалоги з гігантами та керуйте спадщиною мудрості, викарбуваною у вашій душі.",
+    "continueWithGoogle": "Продовжити з Google",
+    "loginSuccess": "Ласкаво просимо до Зали Великих Розумів.",
+    "logout": "Вийти",
+    "chatList": "Мої розмови",
+    "signInRequired": "Необхідно увійти"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "Знайдіть велику спадщину, що тече у вашій душі",
+    "subtitle": "Тест аналізу історичного темпераменту",
+    "start": "Почати тест",
+    "back": "Назад",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "ТЕСТ ДНК 🧬",
+      "title": "Знайдіть свою історичну ДНК-відповідність\nчерез 15 запитань.",
+      "desc": "Знайдіть свого історичного двійника за допомогою 15 запитань.",
+      "button": "Почати тест →"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "Етап 1: Пробудження",
+      "stage2": "Етап 2: Випробування",
+      "stage3": "Етап 3: Доля",
+      "cleared": "Етап {stage} пройдено!",
+      "ready": "Готові перейти до наступного етапу?",
+      "next": "Продовжити до наступного етапу"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "Аналізуємо відлуння вашої душі...",
+      "sub": "Шукаємо ваші опори у великому потоці історії."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "Ви зустріли свою історичну долю",
+      "archetype": "Ваша Спадкова Персона",
+      "matchedGiant": "Гігант, найбільш схожий на вас",
+      "readEpic": "Прочитати епічну історію",
+      "chatNow": "Почати чат"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "Мої розмови",
+    "subtitle": "Діалоги з Великими Розумами",
+    "description": "Перегляньте глибокі ідеї та поради від найбільших гігантів історії. Ви можете продовжити будь-яку розмову в будь-який час.",
+    "emptyTitle": "Поки що немає розмов",
+    "emptyDescription": "Гіганти готові вислухати ваші занепокоєння. Розпочніть свій перший діалог зараз!",
+    "startFirstChat": "Розпочати перший чат",
+    "messages": "повідомлень",
+    "lastChat": "Останній чат"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
-    "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "badge": "Зала Великих Розумів",
+    "quote": "Якщо я бачив далі, то тому, що стояв на плечах Гігантів.",
+    "quoteAuthor": "Ісаак Ньютон",
+    "startJourney": "Розпочати подорож",
+    "startTest": "🧬 Знайдіть свою історичну відповідність",
+    "exploreHall": "💭 Отримайте пораду від Гігантів",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "Великі Розуми",
+      "questions": "Питання тесту",
+      "free": "Повністю безкоштовно",
+      "freeValue": "Безкоштовно"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "Посібник із подорожі Залою Мудрості",
+      "selectGiant": "Виберіть Гіганта",
+      "selectGiantDesc": "Знайдіть надихаючі постаті серед 140+ історичних легенд.",
+      "epic": "Епічні оповіді",
+      "epicDesc": "Читайте життєві записи, наче самі гіганти розповідали їх.",
+      "chat": "Чат у реальному часі",
+      "chatDesc": "Поділіться своїми занепокоєннями з гігантами, відродженими завдяки новітньому ШІ.",
+      "startNow": "Почати зараз"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "Увійти до Дебатної кімнати Гігантів",
+    "chatProgress": "зустрінутих гігантів ({total} всього)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "Зала Великих Гігантів",
+    "description": "Дослідіть мудрість постатей, які змінили історію. Оберіть людину, щоб розпочати розмову, що перевершує час і простір.",
+    "viewAll": "Переглянути всіх Гігантів",
+    "bestPick": "Найкращий вибір",
+    "todaysPick": "Вибір дня",
+    "chatNow": "Почати чат"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "Історичні Гіганти",
+    "description": "Дослідіть мудрість постатей, які змінили хід історії людства. Оберіть гіганта, щоб розпочати розмову, що перевершує час і простір.",
+    "searchPlaceholder": "Пошук за іменем або галуззю...",
+    "allGiants": "Всі Гіганти",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "Лідерство",
+      "science": "Наука",
+      "philosophy": "Філософія",
+      "arts": "Мистецтво",
+      "society": "Суспільство",
+      "business": "Бізнес"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "Знайдено {filtered} з {total} великих умів",
+    "readEpic": "Прочитати епос ✨",
+    "noResults": "Нічого не знайдено",
+    "era": "Історичний Гігант",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "Перша",
+      "prev": "Попередня",
+      "next": "Наступна",
+      "last": "Остання"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "Моя подорож Гігантами",
+    "progressSubtext": "{progress}% досліджено! Продовжуйте 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "Всі регіони",
+      "east-asia": "Східна Азія",
+      "europe": "Європа",
+      "americas": "Америки",
+      "middle-east-turkey": "Близький Схід та Туреччина",
+      "africa": "Африка",
+      "south-southeast-asia": "Південна та Південно-Східна Азія"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "Повернутися на площу",
+    "chatWith": "Чат з {name}",
+    "theLifeStory": "Історія життя",
+    "thePain": "Боротьба",
+    "theRecovery": "Відновлення",
+    "wisdomLessons": "Уроки мудрості",
+    "famousQuote": "Відома цитата",
+    "era": "Епоха",
+    "field": "Галузь",
+    "askForAdvice": "Запитати поради",
+    "notFound": "Гігант не знайдений.",
+    "goHome": "На головну"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "Відома цитата",
+    "description": "Опис",
+    "suggestedQuestions": "Запропоновані питання",
+    "inputPlaceholder": "Запитайте {name} будь-що...",
+    "contemplating": "{name} розмірковує...",
+    "wisdomActive": "Мудрість активна",
+    "historyEra": "Історія та епоха",
+    "fieldOfWisdom": "Галузь мудрості",
+    "error": "Вибачте, виникла помилка під час отримання моєї мудрості. Чи не могли б ви спробувати ще раз за мить?",
+    "retry": "Спробувати знову отримати мудрість"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "Чому Мудрість Гігантів",
+    "description": "Відчуйте інноваційну подорож крізь тисячоліття, щоб зустрітися з людською мудрістю.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "Чат у реальному часі з Історичними Гігантами",
+        "description": "Ведіть глибокі розмови, що перевершують час і простір, з історичними постатями за допомогою передового ШІ."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "2500 років людської мудрості",
+        "description": "Зустріньтеся з 2500 роками історії, досягнень та ідей, створених людством в одному місці."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "Знання безпосередньо від Майстрів",
+        "description": "Ми передаємо цінність живого навчання, ніби ви слухаєте безпосередньо майстрів філософії, науки та мистецтва."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "Персоналізовані ідеї для вас",
+        "description": "Задавайте питання, досліджуйте ідеї та отримуйте персоналізовані поради, необхідні для вашого життя."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "Великі Уми",
+      "history": "Роки Мудрості",
+      "fields": "Галузі Знань",
+      "inspiration": "Натхнення"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "Щоденна мудрість"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "Політика конфіденційності",
+    "lastUpdated": "Останнє оновлення: 16 травня 2026",
+    "summaryTitle": "1. Ключовий висновок",
+    "summaryDesc": "У Giants Wisdom ми ніколи не продаємо та не поширюємо неналежним чином ваші персональні дані. Ця політика описує, як ми захищаємо та обробляємо дані, зібрані під час проходження вами тестів особистості та спілкування з історичними гігантами.",
+    "collectionTitle": "2. Дані, які ми збираємо та як ми їх збираємо",
+    "collectionDesc": "Наш веб-сайт можна повністю анонімно досліджувати, не створюючи облікового запису. Однак під час вашої взаємодії можуть оброблятися наступні дані:\n- Дані, надані добровільно: відповіді на тест ДНК спадщини, вхідні тексти, введені під час чатів зі штучним інтелектом, та адреси електронної пошти (лише якщо ви підписуєтесь на нашу розсилку).\n- Дані, що реєструються автоматично: тип пристрою, характеристики браузера, IP-адреса та історія взаємодії, що безпечно записуються через файли Cookie.",
+    "purposeTitle": "3. Як ми використовуємо інформацію",
+    "purposeDesc": "Зібрані дані використовуються суворо для досягнення наступних цілей:\n- Узагальнення результатів тесту з 15 запитань для визначення вашої найближчої історичної гігантської персони.\n- Надання динамічних історичних відповідей у чаті в реальному часі, що працюють на Gemini 2.5 Flash API.\n- Статистичний, неідентифікований аналіз для вдосконалення наших метрик архетипів особистості.\n- Відображення безпечних персоналізованих банерів через Google AdSense.",
+    "adsenseTitle": "4. Політика Google AdSense та сторонніх файлів Cookie",
+    "adsenseDesc": "Цей веб-сайт відображає рекламу, інтегровану через Google AdSense. Google та сторонні постачальники використовують файли cookie для показу цільової реклами на основі ваших відвідувань цього та інших веб-сайтів в Інтернеті. Використання Google рекламних файлів cookie дозволяє йому та його партнерам показувати рекламу користувачам на основі їхнього відвідування цього сайту та/або інших сайтів в Інтернеті. Ви можете легко відмовитися від персоналізованої реклами, відвідавши Налаштування оголошень Google (https://www.google.com/settings/ads). Крім того, ви можете відмовитися від файлів cookie сторонніх постачальників для персоналізованої реклами, відвідавши www.aboutads.info.",
+    "retentionTitle": "5. Зберігання та знищення даних",
+    "retentionDesc": "Анонімні результати тестів та вхідні дані чату або стираються після завершення сеансу, або повністю позбавляються ідентифікаційних маркерів (анонімізуються) для постійного агрегованого дослідження. Будь-які особисті записи, такі як електронні листи, безповоротно видаляються за вашим запитом.",
+    "rightsTitle": "6. Ваші права та контактна інформація",
+    "rightsDesc": "Ви зберігаєте повне право переглядати, змінювати або безповоротно видаляти будь-які фрагменти даних, пов'язані з вашою особою. З будь-якими скаргами щодо правових питань або конфіденційності, будь ласка, звертайтеся до нашого офіційного каналу підтримки."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "Зала Великих Розумів",
+      "description": "Приєднайтеся до подорожі великих розумів, які змінили історію. Відчуйте мудрість, що виходить за межі часу та простору."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "Досліджувати",
+      "info": "Інформація"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
-      "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "allGiants": "Всі Гіганти",
+      "wisdomArchive": "Архів Мудрості",
+      "about": "Про нас",
+      "privacy": "Політика конфіденційності",
+      "terms": "Умови використання",
+      "contact": "Контакти",
+      "dnaTest": "Тест на історичну відповідність",
+      "debate": "Кімната дебатів зі ШІ",
+      "blog": "Блог",
+      "consult": "Отримати пораду",
+      "disclaimer": "Відмова від відповідальності"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "Тим, хто загубився у\nнадмірній кількості нескінченної інформації.",
+    "subIntro": "Простір, щоб відійти від шуму та зустрітися зі справжньою мудрістю.",
+    "visionTitle": "Стоячи на плечах гігантів",
+    "visionDesc": "«Якщо я бачив далі, то тому, що стояв на плечах гігантів». — Ісаак Ньютон. Ми почали з віри в те, що відповіді на наші складні сучасні проблеми, можливо, вже вплетені в життя найбільших гігантів історії.",
+    "epicTitle": "Великі епоси 500 гігантів",
+    "epicDesc": "Вийдіть за межі простих історичних фактів. Відчуйте велику сагу гігантів, які подолали труднощі, щоб змінити історію людства.",
+    "chatTitle": "Діалог крізь епохи",
+    "chatDesc": "Вступайте в розмови в реальному часі з відновленими підписами гігантів, що працюють на основі передового ШІ (Gemini 2.5 Flash), щоб знайти глибокі ідеї для ваших сучасних дилем.",
+    "testTitle": "Знайдіть свою історичну відповідність",
+    "testDesc": "Відкрийте ДНК гіганта, що тече глибоко у вашій душі, за допомогою захоплюючого 3-етапного ситуаційного опитувальника, розміщеного у ключових історичних моментах.",
+    "outroTitle": "Ласкаво просимо до Зали Гігантів",
+    "outroDesc": "Стоячи на їхніх плечах, ви нарешті побачите далі. Почніть свою подорож сьогодні.",
+    "pillarsOfWisdom": "Стовпи Мудрості"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "Умови використання",
+    "lastUpdated": "Останнє оновлення: 16 травня 2026",
+    "intro": "Ласкаво просимо до Giants Wisdom. Ці Умови використання регулюють правову угоду та межі користувача між вами та нашою платформою щодо вашої взаємодії з нашими оригінальними метриками особистості та симуляціями розмов.",
+    "eligibilityTitle": "Стаття 1 (Придатність та захист неповнолітніх)",
+    "eligibilityDesc": "Ця послуга призначена суворо для користувачів, які досягли 13-річного віку. Користувачі віком до 13 років, які взаємодіють з нашими вузлами, заявляють, що вони отримали підтверджену батьківську згоду відповідно до глобальних вимог щодо конфіденційності дітей. Платформа відмовляється від будь-якої відповідальності, що виникає внаслідок несанкціонованого доступу неповнолітніх.",
+    "aiTitle": "Стаття 2 (Інфраструктура ШІ та всеосяжні відмови від відповідальності)",
+    "aiDesc": "1. Усі діалоги з історичними постатями, представлені на цій платформі, є інтерактивними симуляціями, створеними передовими моделями ШІ (Gemini 2.5 suite).\n2. Надані результати призначені суворо для освітніх та розважальних цілей. Вони абсолютно не є сертифікованими історичними записами, професійними психологічними оцінками, медичними порадами чи юридичними консультаціями.\n3. Giants Wisdom не несе відповідальності за галюцинації ШІ або вибір, зроблений користувачами на основі системної телеметрії.",
+    "intellectualTitle": "Стаття 3 (Інтелектуальна власність та захист від парсингу)",
+    "intellectualDesc": "1. Усі архітектури макетів, торгові марки, метрики тестування «4 Стовпів Величі», 15 ситуаційних запитань та преміум-ілюстрації у векторній графіці залишаються винятковою власністю Giants Wisdom.\n2. Користувачам суворо забороняється здійснювати несанкціоноване копіювання, комерційне синдикування або зловмисний парсинг даних за допомогою автоматизованих ботів, скриптів або вузлів мережі сканерів.",
+    "userDutyTitle": "Стаття 4 (Стандарт користувача та згода на відображення монетизації)",
+    "userDutyDesc": "1. Користувачі погоджуються використовувати нашу програму без введення послідовностей зворотного інжинірингу або векторів зловмисного перевантаження сервера.\n2. В обмін на безкоштовний доступ користувачі явно надають безвідкличну згоду Google AdSense та стороннім рекламним брокерам на відображення автоматизованих банерних макетів у робочому просторі програми.",
+    "disputeTitle": "Стаття 5 (Застосовне право та компетентна юрисдикція)",
+    "disputeDesc": "Ці Умови та будь-які правові дії, що виникають внаслідок використання системи, регулюються та тлумачаться відповідно до законодавства Республіки Корея. Будь-які спори подаються виключно до компетентного суду, що регулює місцезнаходження оператора платформи."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "Налаштування згоди на файли cookie",
+    "description": "Ми використовуємо файли cookie для персоналізації реклами (Google AdSense) та аналізу трафіку. Приймаючи, ви погоджуєтеся на використання нами файлів cookie.",
+    "acceptAll": "Прийняти всі",
+    "rejectAll": "Відхилити всі",
+    "customize": "Налаштувати",
+    "savePreferences": "Зберегти налаштування",
+    "necessary": "Необхідні файли cookie",
+    "necessaryDesc": "Необхідні для коректної роботи веб-сайту. (Завжди Активні)",
+    "analytics": "Аналітичні файли cookie",
+    "analyticsDesc": "Використовуються для аналізу відвідувачів та моделей використання з метою покращення нашого сервісу.",
+    "advertising": "Рекламні файли cookie",
+    "advertisingDesc": "Використовуються для показу персоналізованої реклами через Google AdSense."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "title": "Зв'язатися з нами",
+    "name": "Ім'я",
+    "email": "Електронна пошта",
+    "subject": "Тема (необов'язково)",
+    "message": "Повідомлення",
+    "send": "Надіслати повідомлення",
+    "sending": "Надсилання...",
+    "success": "Повідомлення успішно надіслано! Дякуємо.",
+    "error": "Не вдалося надіслати. Будь ласка, спробуйте ще раз.",
+    "namePlaceholder": "Введіть ваше ім'я",
+    "emailPlaceholder": "Введіть вашу електронну пошту",
+    "subjectPlaceholder": "Введіть тему",
+    "messagePlaceholder": "Введіть ваше повідомлення"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "Дебатна кімната",
+    "subtitle": "Зіткнення мудрості гігантів",
+    "description": "Оберіть 2-4 історичних гігантів та запропонуйте тему. Вони обговорюватимуть її безпосередньо.",
+    "selectGiants": "Оберіть гігантів для дебатів",
+    "selectedCount": "{count}/4 Обрано",
+    "minRequired": "Будь ласка, оберіть щонайменше 2 гігантів",
+    "maxAllowed": "Ви можете обрати до 4 гігантів",
+    "enterTopic": "Введіть тему для дебатів",
+    "topicPlaceholder": "Введіть тему для дебатів...\nнаприклад, Чи можуть гроші створити щастя в сучасному суспільстві?",
+    "startDebate": "Розпочати дебати",
+    "aiRecommend": "Рекомендації ШІ",
+    "selfSelect": "Ручний вибір",
+    "aiRecommendTitle": "Оптимальні учасники дебатів для цієї теми",
+    "thinking": "{name} думає...",
+    "interject": "Втрутитися в дебати...",
+    "endDebate": "Завершити дебати",
+    "shareDebate": "Поділитися дебатами",
+    "newDebate": "Нові дебати",
+    "summaryTitle": "Підсумок дебатів",
+    "rounds": "{count} Ходів",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "Гроші та щастя, що первинне?",
+      "Чи є сучасна демократія ідеальною системою?",
+      "Чи врятує ШІ людство, чи загрожуватиме йому?",
+      "Чи може війна бути виправданою?",
+      "Індивідуальна свобода проти соціального порядку, що первинне?",
+      "Чи може мистецтво змінити суспільство?",
+      "Як люди повинні жити перед обличчям смерті?"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "ДЕБАТИ НАЖИВО",
+    "titlePre": "Зіткнення найвидатніших розумів",
+    "titlePost": "'Кімната ультимативних дебатів Гігантів'",
+    "desc": "\"Чи можуть гроші купити щастя?\" Спостерігайте та приєднуйтесь до інтенсивних інтелектуальних дебатів між Арістотелем та Ніцше в реальному часі.",
+    "button": "Спостерігати та брати участь"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "АБО",
+    "title": "Переживаєте щось важке?",
+    "desc": "Лінкольн, Сенека, Ганді —\nвсі вони зіткнулися з однаковим болем. І подолали його.",
+    "button": "Поговоріть з Гігантом →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "Відмова від відповідальності | Мудрість Велетнів",
+      "description": "Будь ласка, прочитайте перед використанням Мудрості Велетнів."
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "Відмова від відповідальності",
+    "lastUpdated": "Останнє оновлення: Червень 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "Повідомлення про контент, згенерований ШІ",
+        "content": "Сервіс розмов зі штучним інтелектом «Мудрість Велетнів» з історичними постатями використовує технології штучного інтелекту для створення діалогів на основі історичних записів та документів. Заяви, поради та розмови, приписані історичним постатям у цьому сервісі, не є прямими цитатами реальних історичних осіб, а є творчими представленнями, згенерованими ШІ на основі аналізу історичних матеріалів. «Мудрість Велетнів» прагне до історичної точності, але контент, згенерований ШІ, може іноді відрізнятися від фактичних історичних записів."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "Освітня мета",
+        "content": "«Мудрість Велетнів» — це освітній сервіс, розроблений для того, щоб зробити життя та мудрість історичних постатей доступними для сучасної аудиторії. Весь наданий контент призначений лише для інформаційних та освітніх цілей і не повинен використовуватися як джерело для професійних історичних досліджень чи академічних цитат."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "Точність інформації",
+        "content": "«Мудрість Велетнів» прагне до точності наданого контенту, але не гарантує повної точності всієї інформації. Для важливих рішень, заснованих на історичних фактах, будь ласка, звертайтеся до надійних історичних джерел та експертних висновків."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "Авторське право",
+        "content": "Весь контент на сайті «Мудрість Велетнів» (текст, дизайн, системи розмов зі ШІ тощо) є інтелектуальною власністю «Мудрість Велетнів». Відтворення, розповсюдження або зміна в комерційних цілях без попереднього письмового дозволу заборонені. Для освітнього, некомерційного використання, будь ласка, чітко вказуйте джерело."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "З питань щодо цієї відмови від відповідальності, будь ласка, зв'яжіться з contact@giantswisdom.com."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "Написано",
+    "authorName": "Редакційною командою «Мудрість Велетнів»",
+    "authorDescription": "Ми надаємо лише перевірену інформацію на основі історичних записів та документів. Весь контент, згенерований ШІ, проходить редакційний контроль.",
+    "publishedLabel": "Опубліковано",
+    "updatedLabel": "Оновлено"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "Редакційна політика",
+    "sectionSubtitle": "«Мудрість Велетнів» створює контент відповідно до цих принципів",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "На основі історичних фактів",
+        "description": "Вся інформація про історичних постатей та розмови ґрунтуються на перевірених історичних джерелах."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "Прозорість ШІ",
+        "description": "Ми чітко розкриваємо розмови, згенеровані ШІ, та відрізняємо їх від фактичних історичних заяв."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "Постійні оновлення",
+        "description": "Контент періодично переглядається та оновлюється, щоб відображати останні історичні дослідження."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "Різноманітність та інклюзивність",
+        "description": "Ми збалансовано представляємо історичних постатей з різних культур та епох по всьому світу."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "Найбільш обговорювані сьогодні"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "Поспілкуйтеся безпосередньо з Велетнями у цій статті",
+    "talkNow": "Розмовляти зараз"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "Хочете глибше пізнати мудрість цього Велетня?",
+    "minuteRead": "хв читання"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "Поділитися як карткою",
+    "myQuestion": "Моє питання",
+    "downloadButton": "Зберегти як зображення",
+    "shareButton2": "Поділитися",
+    "generating": "Генерується...",
+    "saved": "Збережено!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 Щоти середи",
+    "title": "Щотижнева мудрість від найбільших умів історії",
+    "subtitle": "Сенека, Марк Аврелій, Сократ...\nОдна ідея, щоб правильно розпочати ваш тиждень.",
+    "placeholder": "Введіть вашу електронну адресу",
+    "subscribeButton": "Підписатися безкоштовно",
+    "subscribing": "Підписуємося...",
+    "successMessage": "Ви підписані!",
+    "successSubtext": "Ви отримуватимете мудрість велетнів щотижня 📬",
+    "blogTitle": "Отримуйте подібну мудрість щотижня"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "На плечах велетнів",
+    "subTitle": "Розмовляйте з великою мудрістю",
+    "metaTitle": "На плечах велетнів | Чат мудрості ШІ",
+    "metaDescription": "Спілкуйтеся із Седжоном, Сократом, Наполеоном... 300 історичними постатями за допомогою ШІ. Повністю безкоштовно."
   }
 }

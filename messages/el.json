@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
-    "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "hallOfGems": "Αίθουσα των Μεγαλων Πνευματων",
+    "wisdomArchive": "Αρχική",
+    "chatList": "Λίστα Συνομιλιών",
+    "about": "Σχετικά",
+    "startExploring": "Ξεκινήστε την Εξερεύνηση",
+    "title": "Σοφία των Γιγάντων",
+    "subtitle": "Η Αίθουσα των Μεγάλων Πνευμάτων",
+    "login": "Σύνδεση",
+    "logout": "Αποσύνδεση",
+    "myProfile": "Το Προφίλ μου",
+    "signInRequired": "Απαιτείται σύνδεση για προβολή ιστορικού συνομιλιών.",
+    "debate": "Αίθουσα Συζητήσεων",
+    "blog": "Ιστολόγιο",
+    "consult": "Λάβετε Συμβουλές",
+    "disclaimer": "Αποποίηση Ευθυνών"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "Καλώς ήρθατε στην Αίθουσα των Γιγάντων",
+    "loginModalDescription": "Διαφυλάξτε τους διαλόγους σας με τους γίγαντες και διαχειριστείτε την κληρονομιά της σοφίας που είναι χαραγμένη στην ψυχή σας.",
+    "continueWithGoogle": "Συνέχεια με Google",
+    "loginSuccess": "Καλώς ήρθατε στην Αίθουσα των Μεγάλων Πνευμάτων.",
+    "logout": "Αποσύνδεση",
+    "chatList": "Οι Συνομιλίες μου",
+    "signInRequired": "Απαιτείται Σύνδεση"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "Βρείτε τη Μεγάλη Κληρονομιά που Ρέει στην Ψυχή σας",
+    "subtitle": "Τεστ Ανάλυσης Ιστορικού Ταμπεραμέντου",
+    "start": "Έναρξη Τεστ",
+    "back": "Πίσω",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "Τεστ DNA 🧬",
+      "title": "Βρείτε τον ιστορικό σας σύντροφο DNA\nμέσα από 15 ερωτήσεις.",
+      "desc": "Βρείτε τον ιστορικό σας δίδυμο μέσα από 15 ερωτήσεις.",
+      "button": "Έναρξη Τεστ →"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "Στάδιο 1: Αφύπνιση",
+      "stage2": "Στάδιο 2: Η Δοκιμασία",
+      "stage3": "Στάδιο 3: Το Πεπρωμένο",
+      "cleared": "Το Στάδιο {stage} Ολοκληρώθηκε!",
+      "ready": "Είστε έτοιμοι να προχωρήσετε στο επόμενο στάδιο;",
+      "next": "Συνέχεια στο Επόμενο Στάδιο"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "Αναλύοντας τους απόηχους της ψυχής σας...",
+      "sub": "Αναζητώντας τους πυλώνες σας στη μεγάλη ροή της ιστορίας."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "Συναντήσατε το ιστορικό σας πεπρωμένο",
+      "archetype": "Η Κληρονομιά της Προσωπικότητάς σας",
+      "matchedGiant": "Ο γίγαντας που σας μοιάζει περισσότερο",
+      "readEpic": "Διαβάστε την Επική Ιστορία",
+      "chatNow": "Συνομιλήστε Τώρα"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "Οι Συνομιλίες μου",
+    "subtitle": "Διάλογοι με Μεγάλα Πνεύματα",
+    "description": "Επισκεφθείτε ξανά τις βαθιές γνώσεις και συμβουλές από τους μεγαλύτερους γίγαντες της ιστορίας. Μπορείτε να συνεχίσετε οποιαδήποτε συνομιλία ανά πάσα στιγμή.",
+    "emptyTitle": "Δεν υπάρχουν ακόμα συνομιλίες",
+    "emptyDescription": "Οι γίγαντες είναι έτοιμοι να ακούσουν τις ανησυχίες σας. Ξεκινήστε τον πρώτο σας διάλογο τώρα!",
+    "startFirstChat": "Ξεκινήστε την Πρώτη Συνομιλία",
+    "messages": "μηνύματα",
+    "lastChat": "Τελευταία συνομιλία"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
-    "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "badge": "Η Αίθουσα των Μεγάλων Πνευμάτων",
+    "quote": "Αν έχω δει πιο μακριά, είναι γιατί στάθηκα στους ώμους γιγάντων.",
+    "quoteAuthor": "Ισαάκ Νεύτων",
+    "startJourney": "Ξεκινήστε το Ταξίδι",
+    "startTest": "🧬 Βρείτε τον Ιστορικό σας Ταίρι",
+    "exploreHall": "💭 Λάβετε Συμβουλές από Γίγαντες",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "Μεγάλα Πνεύματα",
+      "questions": "Ερωτήσεις Τεστ",
+      "free": "Εντελώς Δωρεάν",
+      "freeValue": "Δωρεάν"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "Οδηγός Ταξιδιού στην Αίθουσα της Σοφίας",
+      "selectGiant": "Επιλέξτε έναν Γίγαντα",
+      "selectGiantDesc": "Βρείτε εμπνευσμένες φιγούρες ανάμεσα σε 140+ ιστορικούς θρύλους.",
+      "epic": "Επικές Αφηγήσεις",
+      "epicDesc": "Διαβάστε ιστορίες ζωής σαν να τις αφηγούνται οι ίδιοι οι γίγαντες.",
+      "chat": "Συνομιλία σε Πραγματικό Χρόνο",
+      "chatDesc": "Μοιραστείτε τις ανησυχίες σας με γίγαντες που αναγεννήθηκαν μέσω της τελευταίας AI.",
+      "startNow": "Ξεκινήστε Τώρα"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "Είσοδος στην Αίθουσα Συζητήσεων των Γιγάντων",
+    "chatProgress": "γιγάντες που συναντήθηκαν ({total} συνολικά)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "Η Αίθουσα των Μεγάλων Διάνοιων",
+    "description": "Εξερευνήστε τη σοφία προσωπικοτήτων που άλλαξαν την ιστορία. Επιλέξτε ένα άτομο για να ξεκινήσετε μια συζήτηση που υπερβαίνει τον χρόνο και τον χώρο.",
+    "viewAll": "Δείτε Όλες τις Διάνοιες",
+    "bestPick": "Κορυφαία Επιλογή",
+    "todaysPick": "Η Επιλογή της Ημέρας",
+    "chatNow": "Συνομιλήστε Τώρα"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "Ιστορικές Διάνοιες",
+    "description": "Εξερευνήστε τη σοφία προσωπικοτήτων που άλλαξαν την πορεία της ανθρωπότητας. Επιλέξτε μια διάνοια για να ξεκινήσετε μια συζήτηση που υπερβαίνει τον χρόνο και τον χώρο.",
+    "searchPlaceholder": "Αναζήτηση με όνομα ή πεδίο...",
+    "allGiants": "Όλες οι Διάνοιες",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "Ηγεσία",
+      "science": "Επιστήμη",
+      "philosophy": "Φιλοσοφία",
+      "arts": "Τέχνες",
+      "society": "Κοινωνία",
+      "business": "Επιχειρήσεις"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "Βρέθηκαν {filtered} από τις {total} μεγάλες διάνοιες",
+    "readEpic": "Διαβάστε το Έπος ✨",
+    "noResults": "Δεν βρέθηκαν αποτελέσματα",
+    "era": "Ιστορική Διάνοια",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "Πρώτο",
+      "prev": "Προηγούμενο",
+      "next": "Επόμενο",
+      "last": "Τελευταίο"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "Το Ταξίδι μου στις Διάνοιες",
+    "progressSubtext": "{progress}% εξερευνήθηκε! Συνεχίστε 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "Όλες οι Περιοχές",
+      "east-asia": "Ανατολική Ασία",
+      "europe": "Ευρώπη",
+      "americas": "Αμερική",
+      "middle-east-turkey": "Μέση Ανατολή & Τουρκία",
+      "africa": "Αφρική",
+      "south-southeast-asia": "Νότια & Νοτιοανατολική Ασία"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "Επιστροφή στην Πλατεία",
+    "chatWith": "Συνομιλήστε με τον/την {name}",
+    "theLifeStory": "Η Ιστορία της Ζωής",
+    "thePain": "Ο Αγώνας",
+    "theRecovery": "Η Ανάκαμψη",
+    "wisdomLessons": "Μαθήματα Σοφίας",
+    "famousQuote": "Διάσημο Απόφθεγμα",
+    "era": "Εποχή",
+    "field": "Πεδίο",
+    "askForAdvice": "Ζητήστε Συμβουλή",
+    "notFound": "Η διάνοια δεν βρέθηκε.",
+    "goHome": "Επιστροφή στην Αρχική"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "Διάσημο Απόφθεγμα",
+    "description": "Περιγραφή",
+    "suggestedQuestions": "Προτεινόμενες Ερωτήσεις",
+    "inputPlaceholder": "Ρωτήστε τον/την {name} οτιδήποτε...",
+    "contemplating": "Ο/Η {name} συλλογίζεται...",
+    "wisdomActive": "Ενεργή Σοφία",
+    "historyEra": "Ιστορία & Εποχή",
+    "fieldOfWisdom": "Πεδίο Σοφίας",
+    "error": "Λυπάμαι, συνάντησα ένα σφάλμα κατά την ανάκτηση της σοφίας μου. Θα μπορούσατε να δοκιμάσετε ξανά σε λίγο;",
+    "retry": "Ανάκτηση Σοφίας Ξανά"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "Γιατί η Σοφία των Διάνοιων",
+    "description": "Ζήστε ένα καινοτόμο ταξίδι χιλιάδων ετών για να συναντήσετε την ανθρώπινη σοφία.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "Συνομιλία σε Πραγματικό Χρόνο με Ιστορικές Διάνοιες",
+        "description": "Συμμετέχετε σε βαθιές συζητήσεις που υπερβαίνουν τον χρόνο και τον χώρο με ιστορικές προσωπικότητες μέσω προηγμένης τεχνητής νοημοσύνης."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "2.500 Χρόνια Ανθρώπινης Σοφίας",
+        "description": "Συναντήστε τα 2.500 χρόνια ιστορίας, επιτευγμάτων και γνώσεων που χτίστηκαν από την ανθρωπότητα σε ένα μόνο μέρος."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "Γνώση Απευθείας από Δασκάλους",
+        "description": "Παρέχουμε την αξία της ζωντανής μάθησης σαν να ακούτε απευθείας από δασκάλους της φιλοσοφίας, της επιστήμης και της τέχνης."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "Εξατομικευμένες Γνώσεις για Εσάς",
+        "description": "Κάντε ερωτήσεις, εξερευνήστε ιδέες και λάβετε εξατομικευμένη καθοδήγηση που χρειάζεστε για τη ζωή σας."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "Μεγάλες Διάνοιες",
+      "history": "Έτη Σοφίας",
+      "fields": "Πεδία Μελέτης",
+      "inspiration": "Εμπνεύσεις"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "Καθημερινή Σοφία"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "Πολιτική Απορρήτου",
+    "lastUpdated": "Τελευταία ενημέρωση: 16 Μαΐου 2026",
+    "summaryTitle": "1. Βασική Περίληψη",
+    "summaryDesc": "Στη Σοφία των Γιγάντων, δεν πουλάμε ούτε μοιραζόμαστε ακατάλληλα τα προσωπικά σας δεδομένα. Αυτή η πολιτική περιγράφει πώς προστατεύουμε και επεξεργαζόμαστε τα δεδομένα που συλλέγονται ενώ πραγματοποιείτε τεστ προσωπικότητας και συνομιλείτε με ιστορικούς γίγαντες.",
+    "collectionTitle": "2. Δεδομένα που Συλλέγουμε και Πώς τα Συλλέγουμε",
+    "collectionDesc": "Ο ιστότοπός μας μπορεί να εξερευνηθεί εντελώς ανώνυμα χωρίς τη δημιουργία λογαριασμού. Ωστόσο, κατά τις αλληλεπιδράσεις σας, ενδέχεται να επεξεργαστούν τα ακόλουθα δεδομένα:\n- Δεδομένα που παρέχονται οικειοθελώς: Απαντήσεις στο Τεστ DNA Κληρονομιάς, κείμενα εισόδου που καταχωρούνται κατά τις συνομιλίες με τεχνητή νοημοσύνη και διευθύνσεις email (μόνο εάν εγγραφείτε στο ενημερωτικό μας δελτίο).\n- Δεδομένα που καταγράφονται αυτόματα: Τύπος συσκευής, προδιαγραφές προγράμματος περιήγησης, διεύθυνση IP και ιστορικό αλληλεπιδράσεων που καταγράφονται με ασφάλεια μέσω Cookies.",
+    "purposeTitle": "3. Πώς Χρησιμοποιούμε τις Πληροφορίες",
+    "purposeDesc": "Τα συλλεγόμενα δεδομένα χρησιμοποιούνται αυστηρά για τους ακόλουθους σκοπούς:\n- Συγκέντρωση αποτελεσμάτων τεστ 15 ερωτήσεων για τον προσδιορισμό του ιστορικού γίγαντα με τον οποίο μοιάζετε περισσότερο.\n- Απόδοση δυναμικών, σε πραγματικό χρόνο ιστορικών απαντήσεων συνομιλίας που υποστηρίζονται καθαρά από το Gemini 2.5 Flash API.\n- Στατιστική, μη αναγνωρίσιμη ανάλυση για τη βελτίωση των μετρήσεων αρχέτυπων προσωπικότητας.\n- Προβολή ασφαλών εξατομικευμένων διαφημίσεων μέσω του Google AdSense.",
+    "adsenseTitle": "4. Πολιτική Google AdSense και Cookies Τρίτων Μερών",
+    "adsenseDesc": "Αυτός ο ιστότοπος εμφανίζει διαφημίσεις ενσωματωμένες μέσω του Google AdSense. Η Google και οι τρίτοι προμηθευτές χρησιμοποιούν cookies για την προβολή στοχευμένων διαφημίσεων βάσει των επισκέψεών σας σε αυτόν και σε άλλους ιστότοπους στο διαδίκτυο. Η χρήση των cookies διαφήμισης από την Google της επιτρέπει, καθώς και στους συνεργάτες της, να προβάλλουν διαφημίσεις σε χρήστες βάσει της επίσκεψής τους σε αυτόν τον ιστότοπο και/ή σε άλλους ιστότοπους στο Διαδίκτυο. Μπορείτε εύκολα να εξαιρεθείτε από τις εξατομικευμένες διαφημίσεις επισκεπτόμενοι τις Ρυθμίσεις Διαφημίσεων Google (https://www.google.com/settings/ads). Εναλλακτικά, μπορείτε να εξαιρεθείτε από τα cookies τρίτων προμηθευτών για εξατομικευμένη διαφήμιση επισκεπτόμενοι το www.aboutads.info.",
+    "retentionTitle": "5. Διατήρηση και Καταστροφή Δεδομένων",
+    "retentionDesc": "Τα ανώνυμα αποτελέσματα τεστ και οι εισαγωγές συνομιλίας είτε διαγράφονται με το κλείσιμο της συνεδρίας είτε απογυμνώνονται πλήρως από αναγνωριστικά στοιχεία (ανωνυμοποιούνται) για μόνιμη συγκεντρωτική μελέτη. Οποιεσδήποτε προσωπικές καταχωρήσεις, όπως διευθύνσεις email, διαγράφονται οριστικά κατόπιν αιτήματός σας.",
+    "rightsTitle": "6. Τα Δικαιώματά σας και Στοιχεία Επικοινωνίας",
+    "rightsDesc": "Διατηρείτε την πλήρη εξουσία να προβάλλετε, να τροποποιείτε ή να διαγράφετε οριστικά οποιαδήποτε αποσπάσματα δεδομένων συνδεδεμένα με την ταυτότητά σας. Για τυχόν νομικές καταγγελίες ή καταγγελίες σχετικά με την ιδιωτικότητα, επικοινωνήστε με το επίσημο κανάλι υποστήριξής μας."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "Η Αίθουσα των Μεγάλων Πνευμάτων",
+      "description": "Συμμετέχετε στο ταξίδι των μεγάλων πνευμάτων που άλλαξαν την ιστορία. Ζήστε τη σοφία πέρα από τον χρόνο και τον χώρο."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "Εξερευνήστε",
+      "info": "Πληροφορίες"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
-      "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "allGiants": "Όλοι οι Γίγαντες",
+      "wisdomArchive": "Αρχείο Σοφίας",
+      "about": "Σχετικά με εμάς",
+      "privacy": "Πολιτική Απορρήτου",
+      "terms": "Όροι Παροχής Υπηρεσιών",
+      "contact": "Επικοινωνία",
+      "dnaTest": "Τεστ Ιστορικής Ταύτισης",
+      "debate": "Αίθουσα Συζητήσεων Τεχνητής Νοημοσύνης",
+      "blog": "Ιστολόγιο",
+      "consult": "Λάβετε Συμβουλές",
+      "disclaimer": "Αποποίηση Ευθύνης"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "Σε εκείνους που χάθηκαν στην\nπλημμύρα ατελείωτων πληροφοριών.",
+    "subIntro": "Ένας χώρος για να απομακρυνθείτε από τον θόρυβο και να αντικρίσετε την αληθινή σοφία.",
+    "visionTitle": "Στεκόμενοι στους Ώμους των Γιγάντων",
+    "visionDesc": "«Αν έχω δει πιο μακριά, είναι επειδή στάθηκα στους ώμους γιγάντων.» - Ισαάκ Νεύτων. Ξεκινήσαμε με την πεποίθηση ότι οι απαντήσεις στα σύνθετα σύγχρονα προβλήματά μας ίσως είναι ήδη υφασμένες στις ζωές των μεγαλύτερων γιγάντων της ιστορίας.",
+    "epicTitle": "Τα Μεγάλα Έπη 500 Γιγάντων",
+    "epicDesc": "Προχωρήστε πέρα από τα απλά ιστορικά γεγονότα. Ζήστε το μεγάλο έπος των γιγάντων που ξεπέρασαν τις αντιξοότητες για να αναδιαμορφώσουν την ανθρώπινη ιστορία.",
+    "chatTitle": "Διάλογος Ανάμεσα στις Εποχές",
+    "chatDesc": "Συμμετάσχετε σε συνομιλίες σε πραγματικό χρόνο με αποκατεστημένες υπογραφές γιγάντων, υποστηριζόμενες από προηγμένη τεχνητή νοημοσύνη (Gemini 2.5 Flash), για να αναζητήσετε οξείες ιδέες για τα σύγχρονα διλήμματά σας.",
+    "testTitle": "Βρείτε τον Ιστορικό σας Ταίρι",
+    "testDesc": "Ανακαλύψτε το DNA του γίγαντα που κυλάει βαθιά μέσα στην ψυχή σας μέσω ενός καθηλωτικού ερωτηματολογίου 3 σταδίων με βάση καταστάσεις, τοποθετημένο σε κομβικές ιστορικές στιγμές.",
+    "outroTitle": "Καλώς ήρθατε στην Αίθουσα των Γιγάντων",
+    "outroDesc": "Στους ώμους τους, επιτέλους θα δείτε πιο μακριά. Ξεκινήστε το ταξίδι σας σήμερα.",
+    "pillarsOfWisdom": "Οι Στύλοι της Σοφίας"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "Όροι Παροχής Υπηρεσιών",
+    "lastUpdated": "Τελευταία ενημέρωση: 16 Μαΐου 2026",
+    "intro": "Καλώς ήρθατε στη Σοφία των Γιγάντων. Αυτοί οι Όροι Παροχής Υπηρεσιών διέπουν τη νομική συμφωνία και τα όρια χρήσης μεταξύ εσάς και της πλατφόρμας μας σχετικά με την ενασχόλησή σας με τις πρωτότυπες μετρήσεις προσωπικότητας και τις προσομοιώσεις συνομιλιών μας.",
+    "eligibilityTitle": "Άρθρο 1 (Επιλεξιμότητα & Προστασία Ανηλίκων)",
+    "eligibilityDesc": "Αυτή η υπηρεσία προορίζεται αυστηρά για χρήστες ηλικίας τουλάχιστον 13 ετών. Οι χρήστες κάτω των 13 ετών που χρησιμοποιούν τους κόμβους μας δηλώνουν ότι έχουν λάβει επαληθευμένη γονική συναίνεση σύμφωνα με τις παγκόσμιες εντολές περί προστασίας της ιδιωτικότητας των παιδιών. Η πλατφόρμα αποποιείται κάθε ευθύνης που προκύπτει από μη εξουσιοδοτημένη πρόσβαση ανηλίκων.",
+    "aiTitle": "Άρθρο 2 (Υποδομή Τεχνητής Νοημοσύνης & Ολοκληρωμένες Αποποιήσεις Ευθύνης)",
+    "aiDesc": "1. Όλοι οι διάλογοι με ιστορικές προσωπικότητες που εμφανίζονται σε αυτή την πλατφόρμα είναι διαδραστικές προσομοιώσεις που δημιουργούνται καθαρά από προηγμένα μοντέλα τεχνητής νοημοσύνης (Gemini 2.5 suite).\n2. Τα παρεχόμενα αποτελέσματα είναι σχεδιασμένα αυστηρά για εκπαιδευτική και ψυχαγωγική αξία. Δεν αποτελούν σε καμία περίπτωση πιστοποιημένα ιστορικά αρχεία, επαγγελματικές ψυχολογικές αξιολογήσεις, ιατρικές συμβουλές ή νομικές συμβουλές.\n3. Η Σοφία των Γιγάντων δεν φέρει καμία ευθύνη για «παραισθήσεις» της τεχνητής νοημοσύνης ή επιλογές που εκτελούνται από χρήστες βάσει της τηλεμετρίας του συστήματος.",
+    "intellectualTitle": "Άρθρο 3 (Πνευματική Ιδιοκτησία & Προστασία κατά του Scraping)",
+    "intellectualDesc": "1. Όλες οι αρχιτεκτονικές διάταξης, τα εμπορικά σήματα της επωνυμίας, οι μετρήσεις δοκιμών «4 Στύλοι Μεγαλείου», οι 15 ερωτήσεις βάσει καταστάσεων και οι premium επίπεδες διανυσματικές εικονογραφήσεις παραμένουν αποκλειστική ιδιοκτησία της Σοφίας των Γιγάντων.\n2. Απαγορεύεται αυστηρά στους χρήστες να εκτελούν μη εξουσιοδοτημένη αντιγραφή, εμπορική διάθεση ή κακόβουλο scraping δεδομένων μέσω αυτοματοποιημένων bots, scripts ή κόμβων δικτύου ανίχνευσης.",
+    "userDutyTitle": "Άρθρο 4 (Πρότυπο Χρήστη & Συγκατάθεση Παρουσίασης Εισοδημάτων)",
+    "userDutyDesc": "1. Οι χρήστες συμφωνούν να περιηγούνται στην εφαρμογή μας χωρίς να εισάγουν ακολουθίες αντίστροφης μηχανικής ή κακόβουλους φορείς υπερφόρτωσης διακομιστή.\n2. Σε αντάλλαγμα για την ελεύθερη πρόσβαση, οι χρήστες παρέχουν ρητή και αμετάκλητη συγκατάθεση για την προβολή αυτοματοποιημένων διαφημίσεων banner από το Google AdSense και τους μεσίτες διαφημίσεων τρίτων μερών σε ολόκληρο τον χώρο εργασίας της εφαρμογής.",
+    "disputeTitle": "Άρθρο 5 (Εφαρμοστέο Δίκαιο & Αρμόδια Δικαιοδοσία)",
+    "disputeDesc": "Αυτοί οι Όροι και τυχόν νομικές ενέργειες που προκύπτουν από τη χρήση του συστήματος διέπονται και ερμηνεύονται σύμφωνα με τους νόμους της Δημοκρατίας της Κορέας. Οποιεσδήποτε διαφορές υποβάλλονται αποκλειστικά στο αρμόδιο δικαστήριο που διέπει την τοποθεσία του διαχειριστή της πλατφόρμας."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "Ρυθμίσεις Συγκατάθεσης Cookies",
+    "description": "Χρησιμοποιούμε cookies για να εξατομικεύουμε διαφημίσεις (Google AdSense) και να αναλύουμε την επισκεψιμότητα. Με την αποδοχή, συναινείτε στη χρήση των cookies από εμάς.",
+    "acceptAll": "Αποδοχή Όλων",
+    "rejectAll": "Απόρριψη Όλων",
+    "customize": "Προσαρμογή",
+    "savePreferences": "Αποθήκευση Προτιμήσεων",
+    "necessary": "Απαραίτητα Cookies",
+    "necessaryDesc": "Απαιτούνται για τη σωστή λειτουργία της ιστοσελίδας. (Πάντα Ενεργά)",
+    "analytics": "Cookies Ανάλυσης",
+    "analyticsDesc": "Χρησιμοποιούνται για την ανάλυση των επισκεπτών και των προτύπων χρήσης για τη βελτίωση της υπηρεσίας μας.",
+    "advertising": "Cookies Διαφήμισης",
+    "advertisingDesc": "Χρησιμοποιούνται για την προβολή εξατομικευμένων διαφημίσεων μέσω του Google AdSense."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
+    "title": "Επικοινωνήστε μαζί μας",
+    "name": "Όνομα",
     "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "subject": "Θέμα (προαιρετικό)",
+    "message": "Μήνυμα",
+    "send": "Αποστολή Μηνύματος",
+    "sending": "Αποστολή...",
+    "success": "Το μήνυμα στάλθηκε επιτυχώς! Ευχαριστούμε.",
+    "error": "Αποτυχία αποστολής. Παρακαλώ δοκιμάστε ξανά.",
+    "namePlaceholder": "Εισαγάγετε το όνομά σας",
+    "emailPlaceholder": "Εισαγάγετε το email σας",
+    "subjectPlaceholder": "Εισαγάγετε θέμα",
+    "messagePlaceholder": "Εισαγάγετε το μήνυμά σας"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "Η Αίθουσα Συζητήσεων",
+    "subtitle": "Σύγκρουση Σοφίας Γιγάντων",
+    "description": "Επιλέξτε 2-4 ιστορικούς γίγαντες και δώστε ένα θέμα. Θα το συζητήσουν άμεσα.",
+    "selectGiants": "Επιλέξτε Γίγαντες για Συζήτηση",
+    "selectedCount": "{count}/4 Επιλεγμένοι",
+    "minRequired": "Παρακαλώ επιλέξτε τουλάχιστον 2 γίγαντες",
+    "maxAllowed": "Μπορείτε να επιλέξετε έως 4 γίγαντες",
+    "enterTopic": "Εισαγάγετε Θέμα Συζήτησης",
+    "topicPlaceholder": "Εισαγάγετε ένα θέμα συζήτησης...\nπ.χ., Μπορεί το χρήμα να δημιουργήσει ευτυχία στη σύγχρονη κοινωνία;",
+    "startDebate": "Έναρξη Συζήτησης",
+    "aiRecommend": "Προτείνει η AI",
+    "selfSelect": "Χειροκίνητη Επιλογή",
+    "aiRecommendTitle": "Βέλτιστοι Συζητητές για αυτό το Θέμα",
+    "thinking": "Ο/Η {name} σκέφτεται...",
+    "interject": "Παρέμβαση στη συζήτηση...",
+    "endDebate": "Τέλος Συζήτησης",
+    "shareDebate": "Κοινή Χρήση Συζήτησης",
+    "newDebate": "Νέα Συζήτηση",
+    "summaryTitle": "Περίληψη Συζήτησης",
+    "rounds": "{count} Γύροι",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "Χρήμα και ευτυχία, ποιο έρχεται πρώτο;",
+      "Είναι η σύγχρονη δημοκρατία ένα τέλειο σύστημα;",
+      "Θα σώσει η Τεχνητή Νοημοσύνη την ανθρωπότητα ή θα την απειλήσει;",
+      "Μπορεί ο πόλεμος να δικαιολογηθεί ποτέ;",
+      "Ατομική ελευθερία εναντίον κοινωνικής τάξης, ποιο έρχεται πρώτο;",
+      "Μπορεί η τέχνη να αλλάξει την κοινωνία;",
+      "Πώς πρέπει να ζουν οι άνθρωποι μπροστά στον θάνατο;"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "ΖΩΝΤΑΝΗ ΣΥΖΗΤΗΣΗ",
+    "titlePre": "Σύγκρουση των Μεγαλύτερων Πνευμάτων",
+    "titlePost": "'Η Απόλυτη Αίθουσα Συζητήσεων των Γιγάντων'",
+    "desc": "\"Μπορεί το χρήμα να αγοράσει την ευτυχία;\" Παρακολουθήστε και συμμετέχετε στην έντονη πνευματική συζήτηση μεταξύ του Αριστοτέλη και του Νίτσε σε πραγματικό χρόνο.",
+    "button": "Παρακολούθηση & Συμμετοχή"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "Ή",
+    "title": "Περνάτε κάτι δύσκολο;",
+    "desc": "Ο Λίνκολν, ο Σενέκας, ο Γκάντι —\nόλοι αντιμετώπισαν τον ίδιο πόνο. Και τον ξεπέρασαν.",
+    "button": "Μιλήστε σε έναν Γίγαντα →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "Αποποίηση Ευθυνών | Η Σοφία των Γιγάντων",
+      "description": "Παρακαλούμε διαβάστε πριν χρησιμοποιήσετε τη Σοφία των Γιγάντων."
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "Αποποίηση Ευθυνών",
+    "lastUpdated": "Τελευταία ενημέρωση: Ιούνιος 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "Ειδοποίηση για Περιεχόμενο που Δημιουργείται από Τεχνητή Νοημοσύνη",
+        "content": "Η υπηρεσία συνομιλίας τεχνητής νοημοσύνης της Σοφίας των Γιγάντων με ιστορικές προσωπικότητες χρησιμοποιεί τεχνολογία τεχνητής νοημοσύνης για να δημιουργήσει διαλόγους βασισμένους σε ιστορικά αρχεία και έγγραφα. Οι δηλώσεις, οι συμβουλές και οι συνομιλίες που αποδίδονται σε ιστορικές προσωπικότητες σε αυτήν την υπηρεσία δεν αποτελούν άμεσες παραθέσεις από πραγματικά ιστορικά πρόσωπα, αλλά είναι δημιουργικές αναπαραστάσεις που παράγονται από τεχνητή νοημοσύνη, βασισμένες σε ανάλυση ιστορικών υλικών. Η Σοφία των Γιγάντων επιδιώκει την ιστορική ακρίβεια, αλλά το περιεχόμενο που δημιουργείται από τεχνητή νοημοσύνη ενδέχεται περιστασιακά να διαφέρει από τα πραγματικά ιστορικά αρχεία."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "Εκπαιδευτικός Σκοπός",
+        "content": "Η Σοφία των Γιγάντων είναι μια εκπαιδευτική υπηρεσία που έχει σχεδιαστεί για να καθιστά τις ζωές και τη σοφία των ιστορικών προσωπικοτήτων προσβάσιμες στο σύγχρονο κοινό. Όλο το παρεχόμενο περιεχόμενο είναι μόνο για ενημερωτικούς και εκπαιδευτικούς σκοπούς και δεν πρέπει να χρησιμοποιείται ως πηγή για επαγγελματική ιστορική έρευνα ή ακαδημαϊκές παραπομπές."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "Ακρίβεια Πληροφοριών",
+        "content": "Η Σοφία των Γιγάντων επιδιώκει την ακρίβεια στο παρεχόμενο περιεχόμενο, αλλά δεν εγγυάται την πλήρη ακρίβεια όλων των πληροφοριών. Για σημαντικές αποφάσεις που βασίζονται σε ιστορικά γεγονότα, παρακαλούμε συμβουλευτείτε αξιόπιστες ιστορικές πηγές και γνώμες ειδικών."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "Πνευματικά Δικαιώματα",
+        "content": "Όλο το περιεχόμενο της Σοφίας των Γιγάντων (κείμενο, σχεδιασμός, συστήματα συνομιλίας τεχνητής νοημοσύνης κ.λπ.) αποτελεί πνευματική ιδιοκτησία της Σοφίας των Γιγάντων. Απαγορεύεται η αναπαραγωγή, διανομή ή τροποποίηση για εμπορικούς σκοπούς χωρίς προηγούμενη γραπτή άδεια. Για εκπαιδευτική, μη εμπορική χρήση, παρακαλούμε αναφέρετε σαφώς την πηγή."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "Για ερωτήσεις σχετικά με αυτήν την αποποίηση ευθυνών, παρακαλούμε επικοινωνήστε με το contact@giantswisdom.com."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "Γράφτηκε από",
+    "authorName": "Συντακτική Ομάδα της Σοφίας των Γιγάντων",
+    "authorDescription": "Παρέχουμε μόνο επαληθευμένες πληροφορίες βασισμένες σε ιστορικά αρχεία και έγγραφα. Όλο το περιεχόμενο που δημιουργείται από τεχνητή νοημοσύνη υποβάλλεται σε συντακτικό έλεγχο.",
+    "publishedLabel": "Δημοσιεύθηκε",
+    "updatedLabel": "Ενημερώθηκε"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "Συντακτική Πολιτική",
+    "sectionSubtitle": "Η Σοφία των Γιγάντων δημιουργεί περιεχόμενο σύμφωνα με αυτές τις αρχές",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "Βασισμένο σε Ιστορικά Γεγονότα",
+        "description": "Όλες οι πληροφορίες και οι συνομιλίες ιστορικών προσώπων βασίζονται σε επαληθευμένες ιστορικές πηγές."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "Διαφάνεια Τεχνητής Νοημοσύνης",
+        "description": "Δηλώνουμε σαφώς τις συνομιλίες που δημιουργούνται από τεχνητή νοημοσύνη και τις διακρίνουμε από τις πραγματικές ιστορικές δηλώσεις."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "Συνεχείς Ενημερώσεις",
+        "description": "Το περιεχόμενο επανεξετάζεται και ενημερώνεται περιοδικά για να αντικατοπτρίζει την τελευταία ιστορική έρευνα."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "Ποικιλομορφία και Συμπερίληψη",
+        "description": "Παρουσιάζουμε ιστορικές προσωπικότητες από διαφορετικούς πολιτισμούς και εποχές σε όλο τον κόσμο με ισορροπημένο τρόπο."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "Οι πιο συμβουλευόμενοι σήμερα"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "Μιλήστε απευθείας με τους Γίγαντες σε αυτό το άρθρο",
+    "talkNow": "Μιλήστε τώρα"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "Θέλετε να μάθετε τη σοφία αυτού του Γίγαντα βαθύτερα;",
+    "minuteRead": "λεπτά ανάγνωσης"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "Κοινή χρήση ως κάρτα",
+    "myQuestion": "Η ερώτησή μου",
+    "downloadButton": "Αποθήκευση ως εικόνα",
+    "shareButton2": "Κοινή χρήση",
+    "generating": "Δημιουργία...",
+    "saved": "Αποθηκεύτηκε!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 Κάθε Τετάρτη",
+    "title": "Εβδομαδιαία σοφία από τα μεγαλύτερα μυαλά της ιστορίας",
+    "subtitle": "Σενέκας, Μάρκος Αυρήλιος, Σωκράτης...\nΜία ιδέα για να ξεκινήσετε σωστά την εβδομάδα σας.",
+    "placeholder": "Εισάγετε τη διεύθυνση email σας",
+    "subscribeButton": "Εγγραφείτε Δωρεάν",
+    "subscribing": "Εγγραφή...",
+    "successMessage": "Έχετε εγγραφεί!",
+    "successSubtext": "Θα λαμβάνετε τη σοφία των γιγάντων κάθε εβδομάδα 📬",
+    "blogTitle": "Λάβετε σοφία όπως αυτή κάθε εβδομάδα"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "Ώμοι Γιγάντων",
+    "subTitle": "Συζητήστε με μεγάλη σοφία",
+    "metaTitle": "Ώμοι Γιγάντων | Συνομιλία Σοφίας AI",
+    "metaDescription": "Συνομιλήστε με τον Σετζόνγκ, τον Σωκράτη, τον Ναπολέοντα... 300 ιστορικές μορφές μέσω AI. Εντελώς δωρεάν."
   }
 }

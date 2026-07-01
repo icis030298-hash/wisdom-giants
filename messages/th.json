@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
-    "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "hallOfGems": "หอแห่งปราชญ์",
+    "wisdomArchive": "หน้าหลัก",
+    "chatList": "รายการแชท",
+    "about": "เกี่ยวกับ",
+    "startExploring": "เริ่มสำรวจ",
+    "title": "ปรีชาแห่งยักษ์ใหญ่",
+    "subtitle": "หอแห่งปราชญ์ผู้ยิ่งใหญ่",
+    "login": "เข้าสู่ระบบ",
+    "logout": "ออกจากระบบ",
+    "myProfile": "โปรไฟล์ของฉัน",
+    "signInRequired": "จำเป็นต้องเข้าสู่ระบบเพื่อดูประวัติการสนทนา",
+    "debate": "ห้องโต้วาที",
+    "blog": "บล็อก",
+    "consult": "ขอคำแนะนำ",
+    "disclaimer": "ข้อปฏิเสธความรับผิดชอบ"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "ยินดีต้อนรับสู่หอแห่งยักษ์ใหญ่",
+    "loginModalDescription": "รักษาบทสนทนาของคุณกับเหล่าปราชญ์ และจัดการมรดกแห่งปัญญาที่สลักอยู่ในจิตวิญญาณของคุณ",
+    "continueWithGoogle": "ดำเนินการต่อด้วย Google",
+    "loginSuccess": "ยินดีต้อนรับสู่หอแห่งปราชญ์ผู้ยิ่งใหญ่",
+    "logout": "ออกจากระบบ",
+    "chatList": "บทสนทนาของฉัน",
+    "signInRequired": "จำเป็นต้องเข้าสู่ระบบ"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "ค้นหามรดกอันยิ่งใหญ่ที่ไหลเวียนอยู่ในจิตวิญญาณของคุณ",
+    "subtitle": "แบบทดสอบวิเคราะห์อุปนิสัยทางประวัติศาสตร์",
+    "start": "เริ่มทำแบบทดสอบ",
+    "back": "ย้อนกลับ",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "ทดสอบ DNA 🧬",
+      "title": "ค้นหาคู่ DNA ทางประวัติศาสตร์ของคุณ\nจาก 15 คำถาม",
+      "desc": "ค้นหาแฝดทางประวัติศาสตร์ของคุณจาก 15 คำถาม",
+      "button": "เริ่มทำแบบทดสอบ →"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "ด่านที่ 1: การตื่นรู้",
+      "stage2": "ด่านที่ 2: บททดสอบ",
+      "stage3": "ด่านที่ 3: โชคชะตา",
+      "cleared": "ผ่านด่านที่ {stage} แล้ว!",
+      "ready": "พร้อมที่จะไปยังด่านต่อไปหรือไม่?",
+      "next": "ดำเนินการต่อยังด่านถัดไป"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "กำลังวิเคราะห์เสียงสะท้อนจากจิตวิญญาณของคุณ...",
+      "sub": "กำลังค้นหาเสาหลักของคุณในกระแสธารอันยิ่งใหญ่ของประวัติศาสตร์"
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "คุณได้พบกับโชคชะตาทางประวัติศาสตร์ของคุณแล้ว",
+      "archetype": "บุคลิกแห่งมรดกของคุณ",
+      "matchedGiant": "ปราชญ์ที่คล้ายกับคุณที่สุด",
+      "readEpic": "อ่านเรื่องราวมหากาพย์",
+      "chatNow": "แชทเลย"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "บทสนทนาของฉัน",
+    "subtitle": "บทสนทนากับปราชญ์ผู้ยิ่งใหญ่",
+    "description": "ย้อนรอยข้อมูลเชิงลึกและคำแนะนำจากเหล่าปราชญ์ผู้ยิ่งใหญ่ในประวัติศาสตร์ คุณสามารถสนทนาต่อได้ทุกเมื่อ",
+    "emptyTitle": "ยังไม่มีบทสนทนา",
+    "emptyDescription": "เหล่าปราชญ์พร้อมที่จะรับฟังข้อกังวลของคุณ เริ่มบทสนทนาแรกของคุณตอนนี้เลย!",
+    "startFirstChat": "เริ่มแชทแรก",
+    "messages": "ข้อความ",
+    "lastChat": "แชทล่าสุด"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
-    "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "badge": "หอแห่งปราชญ์ผู้ยิ่งใหญ่",
+    "quote": "หากข้าพเจ้ามองเห็นได้ไกลกว่านั้น เป็นเพราะข้าพเจ้ายืนอยู่บนบ่าของยักษ์ใหญ่",
+    "quoteAuthor": "ไอแซก นิวตัน",
+    "startJourney": "เริ่มการเดินทาง",
+    "startTest": "🧬 ค้นหาคู่แฝดทางประวัติศาสตร์ของคุณ",
+    "exploreHall": "💭 ขอคำแนะนำจากปราชญ์",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "ปราชญ์ผู้ยิ่งใหญ่",
+      "questions": "คำถามแบบทดสอบ",
+      "free": "ฟรีทั้งหมด",
+      "freeValue": "ฟรี"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "คู่มือการเดินทางสู่หอแห่งปัญญา",
+      "selectGiant": "เลือกปราชญ์",
+      "selectGiantDesc": "ค้นหาบุคคลผู้สร้างแรงบันดาลใจจากตำนานทางประวัติศาสตร์กว่า 140 ท่าน",
+      "epic": "เรื่องเล่ามหากาพย์",
+      "epicDesc": "อ่านบันทึกชีวิตราวกับว่าเหล่าปราชญ์เล่าด้วยตนเอง",
+      "chat": "แชทแบบเรียลไทม์",
+      "chatDesc": "แบ่งปันข้อกังวลของคุณกับเหล่าปราชญ์ที่ถือกำเนิดใหม่ด้วย AI ล่าสุด",
+      "startNow": "เริ่มเลย"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "เข้าห้องโต้วาทีของยักษ์ใหญ่",
+    "chatProgress": "ปราชญ์ที่พบ ({total} ท่านทั้งหมด)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "หอคอยแห่งปราชญ์ผู้ยิ่งใหญ่",
+    "description": "สำรวจปัญญาของบุคคลผู้เปลี่ยนแปลงประวัติศาสตร์ เลือกบุคคลเพื่อเริ่มต้นบทสนทนาที่ข้ามกาลเวลาและอวกาศ",
+    "viewAll": "ดูปราชญ์ผู้ยิ่งใหญ่ทั้งหมด",
+    "bestPick": "ตัวเลือกยอดนิยม",
+    "todaysPick": "ตัวเลือกวันนี้",
+    "chatNow": "สนทนาตอนนี้"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "ปราชญ์ผู้ยิ่งใหญ่ทางประวัติศาสตร์",
+    "description": "สำรวจปัญญาของบุคคลผู้เปลี่ยนแปลงเส้นทางของมนุษยชาติ เลือกปราชญ์ผู้ยิ่งใหญ่เพื่อเริ่มต้นบทสนทนาที่ข้ามกาลเวลาและอวกาศ",
+    "searchPlaceholder": "ค้นหาด้วยชื่อหรือสาขา...",
+    "allGiants": "ปราชญ์ผู้ยิ่งใหญ่ทั้งหมด",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "ความเป็นผู้นำ",
+      "science": "วิทยาศาสตร์",
+      "philosophy": "ปรัชญา",
+      "arts": "ศิลปะ",
+      "society": "สังคม",
+      "business": "ธุรกิจ"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "พบ {filtered} จาก {total} ปราชญ์ผู้ยิ่งใหญ่",
+    "readEpic": "อ่านเรื่องราวอันยิ่งใหญ่ ✨",
+    "noResults": "ไม่พบผลลัพธ์",
+    "era": "ปราชญ์ผู้ยิ่งใหญ่ทางประวัติศาสตร์",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "หน้าแรก",
+      "prev": "ก่อนหน้า",
+      "next": "ถัดไป",
+      "last": "หน้าสุดท้าย"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "การเดินทางแห่งปราชญ์ของฉัน",
+    "progressSubtext": "สำรวจไปแล้ว {progress}%! สู้ต่อไป 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "ทุกภูมิภาค",
+      "east-asia": "เอเชียตะวันออก",
+      "europe": "ยุโรป",
+      "americas": "อเมริกา",
+      "middle-east-turkey": "ตะวันออกกลางและตุรกี",
+      "africa": "แอฟริกา",
+      "south-southeast-asia": "เอเชียใต้และเอเชียตะวันออกเฉียงใต้"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "กลับสู่ลาน",
+    "chatWith": "สนทนากับ {name}",
+    "theLifeStory": "เรื่องราวชีวิต",
+    "thePain": "การต่อสู้",
+    "theRecovery": "การฟื้นตัว",
+    "wisdomLessons": "บทเรียนแห่งปัญญา",
+    "famousQuote": "คำคมที่มีชื่อเสียง",
+    "era": "ยุคสมัย",
+    "field": "สาขา",
+    "askForAdvice": "ขอคำแนะนำ",
+    "notFound": "ไม่พบปราชญ์",
+    "goHome": "กลับหน้าหลัก"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "คำคมที่มีชื่อเสียง",
+    "description": "คำอธิบาย",
+    "suggestedQuestions": "คำถามแนะนำ",
+    "inputPlaceholder": "ถามอะไรก็ได้กับ {name}...",
+    "contemplating": "{name} กำลังไตร่ตรอง...",
+    "wisdomActive": "ปัญญากำลังทำงาน",
+    "historyEra": "ประวัติศาสตร์และยุคสมัย",
+    "fieldOfWisdom": "สาขาแห่งปัญญา",
+    "error": "ขออภัย ฉันพบข้อผิดพลาดขณะดึงปัญญาของฉัน คุณช่วยลองอีกครั้งในภายหลังได้ไหม",
+    "retry": "ดึงปัญญาอีกครั้ง"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "ทำไมต้องปัญญาของปราชญ์",
+    "description": "สัมผัสประสบการณ์การเดินทางแห่งนวัตกรรมข้ามกาลเวลานับพันปีเพื่อพบกับปัญญาของมนุษย์",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "สนทนาแบบเรียลไทม์กับปราชญ์ทางประวัติศาสตร์",
+        "description": "เข้าร่วมการสนทนาเชิงลึกที่ข้ามกาลเวลาและอวกาศกับบุคคลในประวัติศาสตร์ผ่าน AI ขั้นสูง"
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "2,500 ปีแห่งปัญญาของมนุษย์",
+        "description": "พบกับประวัติศาสตร์ ความสำเร็จ และข้อมูลเชิงลึก 2,500 ปีที่สร้างขึ้นโดยมนุษยชาติในที่เดียว"
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "ความรู้โดยตรงจากปรมาจารย์",
+        "description": "เรามอบคุณค่าของการเรียนรู้ที่ชัดเจนราวกับได้ฟังโดยตรงจากปรมาจารย์ในสาขาปรัชญา วิทยาศาสตร์ และศิลปะ"
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "ข้อมูลเชิงลึกส่วนบุคคลสำหรับคุณ",
+        "description": "ถามคำถาม สำรวจแนวคิด และรับคำแนะนำส่วนบุคคลที่จำเป็นสำหรับชีวิตของคุณ"
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "ปราชญ์ผู้ยิ่งใหญ่",
+      "history": "ปีแห่งปัญญา",
+      "fields": "สาขาวิชา",
+      "inspiration": "แรงบันดาลใจ"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "ปัญญาประจำวัน"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "นโยบายความเป็นส่วนตัว",
+    "lastUpdated": "อัปเดตล่าสุด: 16 พฤษภาคม 2026",
+    "summaryTitle": "1. สรุปประเด็นสำคัญ",
+    "summaryDesc": "ที่ Giants Wisdom เราไม่ขายหรือแบ่งปันข้อมูลส่วนบุคคลของคุณอย่างไม่เหมาะสม นโยบายนี้อธิบายถึงวิธีที่เราปกป้องและประมวลผลข้อมูลที่รวบรวมในขณะที่คุณทำแบบทดสอบบุคลิกภาพและสนทนากับบุคคลสำคัญทางประวัติศาสตร์",
+    "collectionTitle": "2. ข้อมูลที่เรารวบรวมและวิธีการรวบรวม",
+    "collectionDesc": "คุณสามารถสำรวจเว็บไซต์ของเราได้อย่างสมบูรณ์โดยไม่ระบุตัวตนและไม่ต้องสร้างบัญชี อย่างไรก็ตาม ในระหว่างการใช้งานของคุณ ข้อมูลต่อไปนี้อาจถูกประมวลผล:\n- ข้อมูลที่ให้โดยสมัครใจ: คำตอบแบบทดสอบ DNA มรดก, ข้อความที่ป้อนระหว่างการสนทนาด้วย AI และที่อยู่อีเมล (เฉพาะเมื่อสมัครรับจดหมายข่าวของเราเท่านั้น)\n- ข้อมูลที่บันทึกโดยอัตโนมัติ: ประเภทอุปกรณ์, ข้อมูลจำเพาะของเบราว์เซอร์, ที่อยู่ IP และประวัติการโต้ตอบที่บันทึกไว้อย่างปลอดภัยผ่านคุกกี้",
+    "purposeTitle": "3. เราใช้ข้อมูลอย่างไร",
+    "purposeDesc": "ข้อมูลที่รวบรวมจะถูกใช้เพื่อวัตถุประสงค์ดังต่อไปนี้อย่างเคร่งครัด:\n- รวบรวมผลการทดสอบ 15 คำถามเพื่อระบุบุคลิกของบุคคลสำคัญทางประวัติศาสตร์ที่ใกล้เคียงกับคุณที่สุด\n- แสดงการตอบสนองการสนทนาทางประวัติศาสตร์แบบเรียลไทม์ที่ขับเคลื่อนด้วย Gemini 2.5 Flash API อย่างสะอาด\n- การวิเคราะห์ทางสถิติที่ไม่สามารถระบุตัวตนได้เพื่อปรับปรุงตัวชี้วัดบุคลิกภาพของเรา\n- แสดงโฆษณาแบนเนอร์ที่กำหนดเองอย่างปลอดภัยผ่าน Google AdSense",
+    "adsenseTitle": "4. นโยบาย Google AdSense และคุกกี้จากบุคคลที่สาม",
+    "adsenseDesc": "เว็บไซต์นี้แสดงโฆษณาที่รวมเข้ากับ Google AdSense Google และผู้ให้บริการบุคคลที่สามใช้คุกกี้เพื่อแสดงโฆษณาที่ตรงเป้าหมายตามการเยี่ยมชมเว็บไซต์นี้และเว็บไซต์อื่น ๆ ทั่วอินเทอร์เน็ต การใช้คุกกี้เพื่อการโฆษณาของ Google ช่วยให้ Google และพาร์ทเนอร์สามารถแสดงโฆษณาแก่ผู้ใช้ตามการเยี่ยมชมเว็บไซต์นี้และ/หรือเว็บไซต์อื่น ๆ บนอินเทอร์เน็ต คุณสามารถเลือกไม่รับโฆษณาที่ปรับเปลี่ยนในแบบของคุณได้อย่างง่ายดายโดยไปที่การตั้งค่าโฆษณาของ Google (https://www.google.com/settings/ads) หรือคุณสามารถเลือกไม่รับคุกกี้ของผู้ให้บริการบุคคลที่สามสำหรับการโฆษณาที่ปรับเปลี่ยนในแบบของคุณได้โดยไปที่ www.aboutads.info",
+    "retentionTitle": "5. การเก็บรักษาและทำลายข้อมูล",
+    "retentionDesc": "ผลการทดสอบที่ไม่ระบุตัวตนและข้อมูลสนทนาจะถูกลบเมื่อสิ้นสุดเซสชัน หรือถูกลบเครื่องหมายระบุตัวตนทั้งหมด (ไม่ระบุตัวตน) เพื่อการศึกษาเชิงรวมอย่างถาวร ข้อมูลส่วนบุคคลใดๆ เช่น อีเมล จะถูกลบอย่างถาวรตามคำขอของคุณ",
+    "rightsTitle": "6. สิทธิ์ของคุณและข้อมูลติดต่อ",
+    "rightsDesc": "คุณมีสิทธิ์เต็มที่ในการดู แก้ไข หรือลบข้อมูลใดๆ ที่เชื่อมโยงกับตัวตนของคุณอย่างถาวร สำหรับข้อร้องเรียนทางกฎหมายหรือความเป็นส่วนตัว โปรดติดต่อช่องทางการสนับสนุนอย่างเป็นทางการของเรา"
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "หอเกียรติยศแห่งปราชญ์",
+      "description": "ร่วมเดินทางไปกับปราชญ์ผู้ยิ่งใหญ่ที่เปลี่ยนแปลงประวัติศาสตร์ สัมผัสปัญญาที่อยู่เหนือกาลเวลาและอวกาศ"
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "สำรวจ",
+      "info": "ข้อมูล"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
-      "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "allGiants": "บุคคลสำคัญทั้งหมด",
+      "wisdomArchive": "คลังปัญญา",
+      "about": "เกี่ยวกับเรา",
+      "privacy": "นโยบายความเป็นส่วนตัว",
+      "terms": "ข้อกำหนดในการให้บริการ",
+      "contact": "ติดต่อ",
+      "dnaTest": "แบบทดสอบคู่ประวัติศาสตร์",
+      "debate": "ห้องโต้วาที AI",
+      "blog": "บล็อก",
+      "consult": "ขอคำแนะนำ",
+      "disclaimer": "ข้อจำกัดความรับผิดชอบ"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "สำหรับผู้ที่หลงทางใน\nข้อมูลอันไร้ขีดจำกัด",
+    "subIntro": "พื้นที่สำหรับก้าวออกห่างจากความวุ่นวายและเผชิญหน้ากับปัญญาที่แท้จริง",
+    "visionTitle": "ยืนอยู่บนบ่าของยักษ์ใหญ่",
+    "visionDesc": "“หากข้าพเจ้ามองเห็นได้ไกลกว่าผู้อื่น ก็ด้วยการยืนอยู่บนบ่าของยักษ์ใหญ่” - ไอแซก นิวตัน เราเริ่มต้นด้วยความเชื่อที่ว่าคำตอบสำหรับปัญหาที่ซับซ้อนในยุคปัจจุบันของเราอาจถักทออยู่ในชีวิตของบุคคลสำคัญทางประวัติศาสตร์ที่ยิ่งใหญ่ที่สุดแล้ว",
+    "epicTitle": "มหากาพย์อันยิ่งใหญ่ของ 500 บุคคลสำคัญ",
+    "epicDesc": "ก้าวข้ามเพียงแค่ข้อเท็จจริงทางประวัติศาสตร์ สัมผัสเรื่องราวอันยิ่งใหญ่ของบุคคลสำคัญที่เอาชนะความยากลำบากเพื่อพลิกโฉมประวัติศาสตร์มนุษยชาติ",
+    "chatTitle": "สนทนาข้ามยุคสมัย",
+    "chatDesc": "มีส่วนร่วมในการสนทนาแบบเรียลไทม์กับบุคลิกที่ได้รับการฟื้นฟูของบุคคลสำคัญ ซึ่งขับเคลื่อนโดย AI ขั้นสูง (Gemini 2.5 Flash) เพื่อแสวงหาข้อมูลเชิงลึกที่เฉียบคมสำหรับปัญหาปัจจุบันของคุณ",
+    "testTitle": "ค้นหาคู่ประวัติศาสตร์ของคุณ",
+    "testDesc": "ค้นพบ DNA ของบุคคลสำคัญที่ไหลเวียนอยู่ในจิตวิญญาณของคุณผ่านแบบสอบถามสถานการณ์ 3 ขั้นตอนที่สมจริง ซึ่งตั้งอยู่ในช่วงเวลาสำคัญทางประวัติศาสตร์",
+    "outroTitle": "ยินดีต้อนรับสู่หอเกียรติยศแห่งบุคคลสำคัญ",
+    "outroDesc": "เมื่อยืนอยู่บนบ่าของพวกเขา คุณจะมองเห็นได้ไกลยิ่งขึ้นในที่สุด เริ่มต้นการเดินทางของคุณวันนี้",
+    "pillarsOfWisdom": "เสาหลักแห่งปัญญา"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "ข้อกำหนดในการให้บริการ",
+    "lastUpdated": "อัปเดตล่าสุด: 16 พฤษภาคม 2026",
+    "intro": "ยินดีต้อนรับสู่ Giants Wisdom ข้อกำหนดในการให้บริการนี้ควบคุมข้อตกลงทางกฎหมายและขอบเขตของผู้ใช้ระหว่างคุณกับแพลตฟอร์มของเราเกี่ยวกับการใช้งานตัวชี้วัดบุคลิกภาพดั้งเดิมและการจำลองการสนทนาของเรา",
+    "eligibilityTitle": "ข้อ 1 (คุณสมบัติและการคุ้มครองผู้เยาว์)",
+    "eligibilityDesc": "บริการนี้มีไว้สำหรับผู้ใช้ที่มีอายุอย่างน้อย 13 ปีเท่านั้น ผู้ใช้ที่อายุต่ำกว่า 13 ปีที่ใช้งานระบบของเราถือว่าได้แสดงให้เห็นว่าได้รับความยินยอมจากผู้ปกครองที่ได้รับการยืนยันแล้วตามข้อกำหนดด้านความเป็นส่วนตัวของเด็กทั่วโลก แพลตฟอร์มปฏิเสธความรับผิดทั้งหมดที่เกิดจากการเข้าถึงโดยผู้เยาว์ที่ไม่ได้รับอนุญาต",
+    "aiTitle": "ข้อ 2 (โครงสร้างพื้นฐาน AI และข้อจำกัดความรับผิดชอบที่ครอบคลุม)",
+    "aiDesc": "1. บทสนทนาทั้งหมดกับบุคคลสำคัญทางประวัติศาสตร์ที่แสดงบนแพลตฟอร์มนี้เป็นการจำลองแบบโต้ตอบที่สร้างขึ้นอย่างสะอาดโดยโมเดล AI ขั้นสูง (Gemini 2.5 suite)\n2. ผลลัพธ์ที่ให้นั้นถูกสร้างขึ้นเพื่อคุณค่าทางการศึกษาและความบันเทิงเท่านั้น ไม่ถือเป็นบันทึกทางประวัติศาสตร์ที่ได้รับการรับรอง, การประเมินทางจิตวิทยาโดยผู้เชี่ยวชาญ, คำแนะนำทางการแพทย์ หรือคำปรึกษาทางกฎหมายแต่อย่างใด\n3. Giants Wisdom ไม่มีส่วนรับผิดชอบต่อการหลอนของ AI หรือการตัดสินใจที่ผู้ใช้ดำเนินการโดยอิงจากข้อมูลระบบ",
+    "intellectualTitle": "ข้อ 3 (ทรัพย์สินทางปัญญาและการป้องกันการคัดลอกข้อมูล)",
+    "intellectualDesc": "1. สถาปัตยกรรมการจัดวาง, เครื่องหมายการค้าของแบรนด์, ตัวชี้วัดการทดสอบ '4 เสาหลักแห่งความยิ่งใหญ่', คำถามสถานการณ์ 15 ข้อ และภาพประกอบเวกเตอร์แบนระดับพรีเมียม ทั้งหมดนี้ยังคงเป็นทรัพย์สินเฉพาะของ Giants Wisdom\n2. ผู้ใช้ถูกห้ามอย่างเคร่งครัดไม่ให้ทำการคัดลอกโดยไม่ได้รับอนุญาต, การเผยแพร่เชิงพาณิชย์ หรือการคัดลอกข้อมูลที่เป็นอันตรายผ่านบอทอัตโนมัติ, สคริปต์ หรือโหนดเครือข่ายของโปรแกรมรวบรวมข้อมูล",
+    "userDutyTitle": "ข้อ 4 (มาตรฐานผู้ใช้และการยินยอมในการแสดงหารายได้)",
+    "userDutyDesc": "1. ผู้ใช้ตกลงที่จะใช้งานแอปพลิเคชันของเราโดยไม่นำเสนอการย้อนรอยวิศวกรรม หรือเวกเตอร์การโอเวอร์โหลดเซิร์ฟเวอร์ที่เป็นอันตราย\n2. เพื่อแลกกับการเข้าถึงฟรี ผู้ใช้ยินยอมอย่างชัดแจ้งและไม่สามารถเพิกถอนได้ให้ Google AdSense และนายหน้าโฆษณาบุคคลที่สามแสดงเค้าโครงแบนเนอร์อัตโนมัติทั่วพื้นที่ทำงานของแอปพลิเคชัน",
+    "disputeTitle": "ข้อ 5 (กฎหมายที่ใช้บังคับและเขตอำนาจศาลที่มีอำนาจ)",
+    "disputeDesc": "ข้อกำหนดเหล่านี้และการดำเนินการทางกฎหมายใดๆ ที่เกิดจากการใช้งานระบบจะถูกควบคุมและตีความตามกฎหมายของสาธารณรัฐเกาหลี ข้อพิพาทใดๆ จะถูกยื่นต่อศาลที่มีอำนาจซึ่งควบคุมสถานที่ตั้งของผู้ประกอบการแพลตฟอร์มเท่านั้น"
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "การตั้งค่าความยินยอมคุกกี้",
+    "description": "เราใช้คุกกี้เพื่อปรับแต่งโฆษณา (Google AdSense) และวิเคราะห์ปริมาณการใช้งาน เมื่อคุณยอมรับ เท่ากับคุณยินยอมให้เราใช้คุกกี้",
+    "acceptAll": "ยอมรับทั้งหมด",
+    "rejectAll": "ปฏิเสธทั้งหมด",
+    "customize": "ปรับแต่ง",
+    "savePreferences": "บันทึกการตั้งค่า",
+    "necessary": "คุกกี้ที่จำเป็น",
+    "necessaryDesc": "จำเป็นสำหรับการทำงานของเว็บไซต์อย่างถูกต้อง (ทำงานตลอดเวลา)",
+    "analytics": "คุกกี้สำหรับการวิเคราะห์",
+    "analyticsDesc": "ใช้เพื่อวิเคราะห์ผู้เยี่ยมชมและพฤติกรรมการใช้งานเพื่อปรับปรุงบริการของเรา",
+    "advertising": "คุกกี้สำหรับการโฆษณา",
+    "advertisingDesc": "ใช้เพื่อแสดงโฆษณาที่ปรับแต่งตามความสนใจผ่าน Google AdSense"
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "title": "ติดต่อเรา",
+    "name": "ชื่อ",
+    "email": "อีเมล",
+    "subject": "หัวข้อ (ไม่บังคับ)",
+    "message": "ข้อความ",
+    "send": "ส่งข้อความ",
+    "sending": "กำลังส่ง...",
+    "success": "ส่งข้อความสำเร็จแล้ว! ขอบคุณครับ/ค่ะ",
+    "error": "ส่งไม่สำเร็จ โปรดลองอีกครั้ง",
+    "namePlaceholder": "กรุณาใส่ชื่อของคุณ",
+    "emailPlaceholder": "กรุณาใส่อีเมลของคุณ",
+    "subjectPlaceholder": "กรุณาใส่หัวข้อ",
+    "messagePlaceholder": "กรุณาใส่ข้อความของคุณ"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "ห้องถกเถียง",
+    "subtitle": "การประชันภูมิปัญญาของปราชญ์ผู้ยิ่งใหญ่",
+    "description": "เลือก 2-4 ปราชญ์ผู้ยิ่งใหญ่ทางประวัติศาสตร์และกำหนดหัวข้อ พวกเขาจะถกเถียงประเด็นนั้นโดยตรง",
+    "selectGiants": "เลือกปราชญ์ผู้ยิ่งใหญ่สำหรับการถกเถียง",
+    "selectedCount": "{count}/4 ท่านที่เลือก",
+    "minRequired": "กรุณาเลือกปราชญ์ผู้ยิ่งใหญ่อย่างน้อย 2 ท่าน",
+    "maxAllowed": "คุณสามารถเลือกปราชญ์ผู้ยิ่งใหญ่ได้สูงสุด 4 ท่าน",
+    "enterTopic": "ป้อนหัวข้อถกเถียง",
+    "topicPlaceholder": "ป้อนหัวข้อถกเถียง...\nตัวอย่างเช่น เงินสามารถสร้างความสุขในสังคมสมัยใหม่ได้หรือไม่?",
+    "startDebate": "เริ่มการถกเถียง",
+    "aiRecommend": "AI แนะนำ",
+    "selfSelect": "เลือกเอง",
+    "aiRecommendTitle": "ผู้ถกเถียงที่เหมาะสมที่สุดสำหรับหัวข้อนี้",
+    "thinking": "{name} กำลังคิด...",
+    "interject": "แทรกแซงการถกเถียง...",
+    "endDebate": "จบการถกเถียง",
+    "shareDebate": "แชร์การถกเถียง",
+    "newDebate": "การถกเถียงใหม่",
+    "summaryTitle": "สรุปการถกเถียง",
+    "rounds": "{count} รอบ",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "เงินและความสุข อะไรสำคัญกว่ากัน?",
+      "ประชาธิปไตยสมัยใหม่เป็นระบบที่สมบูรณ์แบบหรือไม่?",
+      "AI จะช่วยมนุษยชาติหรือคุกคามมัน?",
+      "สงครามสามารถหาเหตุผลมาอ้างได้หรือไม่?",
+      "เสรีภาพส่วนบุคคล vs. ระเบียบสังคม อะไรสำคัญกว่ากัน?",
+      "ศิลปะสามารถเปลี่ยนแปลงสังคมได้หรือไม่?",
+      "มนุษย์ควรดำเนินชีวิตอย่างไรเมื่อเผชิญหน้ากับความตาย?"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "การถกเถียงสด",
+    "titlePre": "การประชันของสุดยอดปราชญ์",
+    "titlePost": "'ห้องถกเถียงสุดยอดปราชญ์'",
+    "desc": "\"เงินสามารถซื้อความสุขได้หรือไม่?\" ร่วมรับชมและเข้าร่วมการถกเถียงทางปัญญาอันเข้มข้นระหว่างอริสโตเติลและนีทเช่ได้แบบเรียลไทม์",
+    "button": "รับชมและเข้าร่วม"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "หรือ",
+    "title": "กำลังเผชิญกับเรื่องยากลำบากอยู่ใช่ไหม?",
+    "desc": "ลินคอล์น, เซเนกา, คานธี —\nพวกเขาทุกคนเคยเผชิญกับความเจ็บปวดเช่นเดียวกัน และก้าวผ่านมันมาได้",
+    "button": "พูดคุยกับปราชญ์ผู้ยิ่งใหญ่ →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "ข้อจำกัดความรับผิดชอบ | ปรีชาญาณยักษ์",
+      "description": "โปรดอ่านก่อนใช้ปรีชาญาณยักษ์"
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "ข้อจำกัดความรับผิดชอบ",
+    "lastUpdated": "อัปเดตล่าสุด: มิถุนายน 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "ประกาศเกี่ยวกับเนื้อหาที่สร้างโดย AI",
+        "content": "บริการสนทนา AI ของปรีชาญาณยักษ์กับบุคคลสำคัญทางประวัติศาสตร์ใช้เทคโนโลยีปัญญาประดิษฐ์เพื่อสร้างบทสนทนาโดยอิงจากบันทึกและเอกสารทางประวัติศาสตร์ คำแถลง คำแนะนำ และบทสนทนาที่อ้างอิงถึงบุคคลสำคัญทางประวัติศาสตร์ในบริการนี้ไม่ใช่คำพูดโดยตรงจากบุคคลทางประวัติศาสตร์จริง แต่เป็นการแสดงเชิงสร้างสรรค์ที่สร้างโดย AI โดยอิงจากการวิเคราะห์ข้อมูลทางประวัติศาสตร์ ปรีชาญาณยักษ์มุ่งมั่นที่จะรักษาความถูกต้องทางประวัติศาสตร์ แต่เนื้อหาที่สร้างโดย AI อาจแตกต่างจากบันทึกทางประวัติศาสตร์จริงในบางครั้ง"
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "วัตถุประสงค์เพื่อการศึกษา",
+        "content": "ปรีชาญาณยักษ์เป็นบริการเพื่อการศึกษาที่ออกแบบมาเพื่อให้ชีวิตและปรีชาญาณของบุคคลสำคัญทางประวัติศาสตร์เข้าถึงได้สำหรับผู้ชมยุคใหม่ เนื้อหาทั้งหมดที่ให้ไว้มีวัตถุประสงค์เพื่อให้ข้อมูลและการศึกษาเท่านั้น และไม่ควรถือเป็นแหล่งข้อมูลสำหรับการวิจัยประวัติศาสตร์ระดับมืออาชีพหรือการอ้างอิงทางวิชาการ"
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "ความถูกต้องของข้อมูล",
+        "content": "ปรีชาญาณยักษ์มุ่งมั่นที่จะรักษาความถูกต้องของเนื้อหาที่ให้ไว้ แต่ไม่รับประกันความถูกต้องสมบูรณ์ของข้อมูลทั้งหมด สำหรับการตัดสินใจที่สำคัญซึ่งอิงตามข้อเท็จจริงทางประวัติศาสตร์ โปรดปรึกษาแหล่งข้อมูลทางประวัติศาสตร์ที่เชื่อถือได้และความเห็นของผู้เชี่ยวชาญ"
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "ลิขสิทธิ์",
+        "content": "เนื้อหาทั้งหมดบนปรีชาญาณยักษ์ (ข้อความ, การออกแบบ, ระบบสนทนา AI ฯลฯ) เป็นทรัพย์สินทางปัญญาของปรีชาญาณยักษ์ ห้ามทำซ้ำ แจกจ่าย หรือแก้ไขเพื่อวัตถุประสงค์ทางการค้าโดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรล่วงหน้า สำหรับการใช้งานเพื่อการศึกษาและไม่แสวงหาผลกำไร โปรดระบุแหล่งที่มาอย่างชัดเจน"
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "สำหรับข้อสงสัยเกี่ยวกับข้อจำกัดความรับผิดชอบนี้ โปรดติดต่อ contact@giantswisdom.com"
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "เขียนโดย",
+    "authorName": "ทีมบรรณาธิการปรีชาญาณยักษ์",
+    "authorDescription": "เรานำเสนอเฉพาะข้อมูลที่ได้รับการยืนยันโดยอิงจากบันทึกและเอกสารทางประวัติศาสตร์ เนื้อหาที่สร้างโดย AI ทั้งหมดผ่านการตรวจสอบจากบรรณาธิการ",
+    "publishedLabel": "เผยแพร่",
+    "updatedLabel": "อัปเดต"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "นโยบายบรรณาธิการ",
+    "sectionSubtitle": "ปรีชาญาณยักษ์สร้างเนื้อหาตามหลักการเหล่านี้",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "อิงตามข้อเท็จจริงทางประวัติศาสตร์",
+        "description": "ข้อมูลและบทสนทนาของบุคคลสำคัญทางประวัติศาสตร์ทั้งหมดอิงตามแหล่งข้อมูลทางประวัติศาสตร์ที่ได้รับการยืนยัน"
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "ความโปร่งใสของ AI",
+        "description": "เราเปิดเผยบทสนทนาที่สร้างโดย AI อย่างชัดเจน และแยกแยะความแตกต่างจากคำกล่าวทางประวัติศาสตร์จริง"
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "อัปเดตอย่างต่อเนื่อง",
+        "description": "เนื้อหาได้รับการตรวจสอบและอัปเดตเป็นระยะ เพื่อสะท้อนผลการวิจัยทางประวัติศาสตร์ล่าสุด"
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "ความหลากหลายและการยอมรับความแตกต่าง",
+        "description": "เรานำเสนอบุคคลสำคัญทางประวัติศาสตร์จากวัฒนธรรมและยุคสมัยที่หลากหลายทั่วโลกอย่างสมดุล"
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "ปรึกษามากที่สุดวันนี้"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "พูดคุยโดยตรงกับยักษ์ใหญ่ในบทความนี้",
+    "talkNow": "คุยเลย"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "อยากรู้ปัญญาของยักษ์ท่านนี้ให้ลึกซึ้งยิ่งขึ้นไหม?",
+    "minuteRead": "นาทีในการอ่าน"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "แชร์เป็นการ์ด",
+    "myQuestion": "คำถามของฉัน",
+    "downloadButton": "บันทึกเป็นรูปภาพ",
+    "shareButton2": "แชร์",
+    "generating": "กำลังสร้าง...",
+    "saved": "บันทึกแล้ว!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 ทุกวันพุธ",
+    "title": "ปัญญาประจำสัปดาห์จากปราชญ์ผู้ยิ่งใหญ่ในประวัติศาสตร์",
+    "subtitle": "เซเนกา, มาร์คัส ออเรลิอัส, โสกราตีส...\nหนึ่งแง่คิดดีๆ เพื่อเริ่มต้นสัปดาห์ของคุณ",
+    "placeholder": "กรอกที่อยู่อีเมลของคุณ",
+    "subscribeButton": "สมัครสมาชิกฟรี",
+    "subscribing": "กำลังสมัครสมาชิก...",
+    "successMessage": "คุณได้สมัครสมาชิกแล้ว!",
+    "successSubtext": "คุณจะได้รับปัญญาจากปราชญ์ผู้ยิ่งใหญ่ทุกสัปดาห์ 📬",
+    "blogTitle": "รับปัญญาเช่นนี้ทุกสัปดาห์"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "ไหล่ของยักษ์",
+    "subTitle": "สนทนากับปัญญาอันยิ่งใหญ่",
+    "metaTitle": "ไหล่ของยักษ์ | แชทปัญญา AI",
+    "metaDescription": "พูดคุยกับเซจง, โสกราตีส, นโปเลียน... บุคคลสำคัญในประวัติศาสตร์ 300 ท่านผ่าน AI ฟรีทั้งหมด"
   }
 }

@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
+    "hallOfGems": "Zaal der Geesten",
+    "wisdomArchive": "Startpagina",
+    "chatList": "Chatlijst",
+    "about": "Over ons",
+    "startExploring": "Begin met verkennen",
+    "title": "Wijsheid van Reuzen",
+    "subtitle": "De Hal van Grote Geesten",
+    "login": "Inloggen",
+    "logout": "Uitloggen",
+    "myProfile": "Mijn profiel",
+    "signInRequired": "Inloggen vereist om chatgeschiedenis te bekijken.",
+    "debate": "Debatruimte",
     "blog": "Blog",
-    "consult": "Get Advice",
+    "consult": "Advies vragen",
     "disclaimer": "Disclaimer"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "Welkom in de Hal van Reuzen",
+    "loginModalDescription": "Bewaar uw dialogen met de reuzen en beheer de erfenis van wijsheid die in uw ziel is gegrift.",
+    "continueWithGoogle": "Doorgaan met Google",
+    "loginSuccess": "Welkom in de Hal van Grote Geesten.",
+    "logout": "Uitloggen",
+    "chatList": "Mijn gesprekken",
+    "signInRequired": "Inloggen vereist"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "Vind de Grote Erfenis die in Jouw Ziel Stroomt",
+    "subtitle": "Historische Temperament Analyse Test",
+    "start": "Start test",
+    "back": "Terug",
     "banner": {
       "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "title": "Vind uw historische DNA-match\ndoor middel van 15 vragen.",
+      "desc": "Vind uw historische tweeling door middel van 15 vragen.",
+      "button": "Start test →"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "Fase 1: Ontwaken",
+      "stage2": "Fase 2: De Beproeving",
+      "stage3": "Fase 3: Het Lot",
+      "cleared": "Fase {stage} voltooid!",
+      "ready": "Klaar om naar de volgende fase te gaan?",
+      "next": "Ga door naar de volgende fase"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "Analyseer de echo's van uw ziel...",
+      "sub": "Op zoek naar uw pijlers in de grote stroom van de geschiedenis."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "U heeft uw historische bestemming ontmoet",
+      "archetype": "Uw Erfgoed Persona",
+      "matchedGiant": "De reus die het meest op u lijkt",
+      "readEpic": "Lees episch verhaal",
+      "chatNow": "Chat nu"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "Mijn gesprekken",
+    "subtitle": "Dialogen met Grote Geesten",
+    "description": "Bezoek diepe inzichten en advies van de grootste reuzen uit de geschiedenis opnieuw. U kunt elk gesprek op elk moment voortzetten.",
+    "emptyTitle": "Nog geen gesprekken",
+    "emptyDescription": "De reuzen staan klaar om naar uw zorgen te luisteren. Begin nu uw eerste dialoog!",
+    "startFirstChat": "Start eerste chat",
+    "messages": "berichten",
+    "lastChat": "Laatste chat"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
+    "badge": "De Hal van Grote Geesten",
+    "quote": "Als ik verder heb gezien, is het door op de schouders van reuzen te staan.",
     "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "startJourney": "Begin de reis",
+    "startTest": "🧬 Vind uw historische match",
+    "exploreHall": "💭 Krijg advies van reuzen",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "Grote Geesten",
+      "questions": "Testvragen",
+      "free": "Volledig gratis",
+      "freeValue": "Gratis"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "Gids voor de Wijsheidshal Reis",
+      "selectGiant": "Kies een reus",
+      "selectGiantDesc": "Vind inspirerende figuren onder 140+ historische legendes.",
+      "epic": "Epische Verhalen",
+      "epicDesc": "Lees levensverslagen alsof de reuzen ze zelf vertellen.",
+      "chat": "Realtime Chat",
+      "chatDesc": "Deel uw zorgen met reuzen die herboren zijn door de nieuwste AI.",
+      "startNow": "Start nu"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "Betreed de Debatruimte van de Reuzen",
+    "chatProgress": "reuzen ontmoet ({total} totaal)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "De Hal van Grote Reuzen",
+    "description": "Verken de wijsheid van figuren die de geschiedenis hebben veranderd. Selecteer een persoon om een gesprek te beginnen dat tijd en ruimte overstijgt.",
+    "viewAll": "Bekijk alle Reuzen",
+    "bestPick": "Beste Keuze",
+    "todaysPick": "De Keuze van Vandaag",
+    "chatNow": "Chat nu"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "Historische Reuzen",
+    "description": "Verken de wijsheid van figuren die de loop van de mensheid hebben veranderd. Selecteer een reus om een gesprek te beginnen dat tijd en ruimte overstijgt.",
+    "searchPlaceholder": "Zoek op naam of vakgebied...",
+    "allGiants": "Alle Reuzen",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "Leiderschap",
+      "science": "Wetenschap",
+      "philosophy": "Filosofie",
+      "arts": "Kunsten",
+      "society": "Maatschappij",
+      "business": "Bedrijfsleven"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "{filtered} van de {total} grote geesten gevonden",
+    "readEpic": "Lees het Epos ✨",
+    "noResults": "Geen resultaten gevonden",
+    "era": "Historische Reus",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "Eerste",
+      "prev": "Vorige",
+      "next": "Volgende",
+      "last": "Laatste"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "Mijn Reuzenreis",
+    "progressSubtext": "{progress}% verkend! Ga zo door 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "Alle Regio's",
+      "east-asia": "Oost-Azië",
+      "europe": "Europa",
+      "americas": "Amerika",
+      "middle-east-turkey": "Midden-Oosten & Turkije",
+      "africa": "Afrika",
+      "south-southeast-asia": "Zuid- & Zuidoost-Azië"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "Terug naar het Plein",
+    "chatWith": "Chat met {name}",
+    "theLifeStory": "Het Levensverhaal",
+    "thePain": "De Strijd",
+    "theRecovery": "Het Herstel",
+    "wisdomLessons": "Wijsheidslessen",
+    "famousQuote": "Beroemde Uitspraak",
+    "era": "Tijdperk",
+    "field": "Vakgebied",
+    "askForAdvice": "Vraag om Advies",
+    "notFound": "Reus niet gevonden.",
+    "goHome": "Terug naar Home"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "Beroemde Uitspraak",
+    "description": "Beschrijving",
+    "suggestedQuestions": "Voorgestelde Vragen",
+    "inputPlaceholder": "Vraag {name} alles...",
+    "contemplating": "{name} is aan het nadenken...",
+    "wisdomActive": "Wijsheid Actief",
+    "historyEra": "Geschiedenis & Tijdperk",
+    "fieldOfWisdom": "Vakgebied van Wijsheid",
+    "error": "Het spijt me, ik ben een fout tegengekomen bij het ophalen van mijn wijsheid. Kunt u het over een moment opnieuw proberen?",
+    "retry": "Wijsheid Opnieuw Ophalen"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "Waarom Wijsheid van Reuzen",
+    "description": "Ervaar een innovatieve reis door duizenden jaren heen om menselijke wijsheid te ontmoeten.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "Realtime Chat met Historische Reuzen",
+        "description": "Voer diepgaande gesprekken die tijd en ruimte overstijgen met historische figuren via geavanceerde AI."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "2.500 Jaar Menselijke Wijsheid",
+        "description": "Ontmoet 2.500 jaar geschiedenis, prestaties en inzichten van de mensheid op één plek."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "Kennis Direct van Meesters",
+        "description": "Wij bieden de waarde van levendig leren alsof u direct luistert naar meesters in filosofie, wetenschap en kunst."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "Gepersonaliseerde Inzichten voor U",
+        "description": "Stel vragen, verken ideeën en krijg gepersonaliseerde begeleiding voor uw leven."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "Grote Geesten",
+      "history": "Jaren van Wijsheid",
+      "fields": "Vakgebieden",
+      "inspiration": "Inspiraties"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "Dagelijkse Wijsheid"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "Privacybeleid",
+    "lastUpdated": "Laatst Bijgewerkt: 16 mei 2026",
+    "summaryTitle": "1. Belangrijke Samenvatting",
+    "summaryDesc": "Bij Wijsheid van Giganten verkopen of delen we uw persoonlijke gegevens nooit op ongepaste wijze. Dit beleid beschrijft hoe we de gegevens beschermen en verwerken die worden verzameld terwijl u persoonlijkheidstests afneemt en converseert met historische giganten.",
+    "collectionTitle": "2. Gegevens die we verzamelen en hoe we ze verzamelen",
+    "collectionDesc": "Onze website kan volledig anoniem worden verkend zonder een account aan te maken. Tijdens uw interacties kunnen echter de volgende gegevens worden verwerkt:\n- Vrijwillig verstrekte gegevens: Antwoorden op de Erfgoed-DNA-test, invoerteksten ingevoerd tijdens AI-chats en e-mailadressen (alleen bij aanmelding voor onze nieuwsbrief).\n- Automatisch gelogde gegevens: Apparaattype, browserspecificaties, IP-adres en interactiegeschiedenis veilig vastgelegd via Cookies.",
+    "purposeTitle": "3. Hoe we de informatie gebruiken",
+    "purposeDesc": "Verzamelde gegevens worden strikt gebruikt voor de volgende doeleinden:\n- Het samenstellen van testresultaten van 15 vragen om uw dichtstbijzijnde historische gigantpersoonlijkheid te bepalen.\n- Het weergeven van dynamische, realtime historische chatreacties, netjes aangedreven door de Gemini 2.5 Flash API.\n- Statistische, niet-identificeerbare analyse om onze persoonlijkheidsarchetype-metrieken te verfijnen.\n- Het weergeven van veilige, aangepaste banneradvertenties via Google AdSense.",
+    "adsenseTitle": "4. Google AdSense en Beleid inzake Cookies van Derden",
+    "adsenseDesc": "Deze website toont advertenties die geïntegreerd zijn via Google AdSense. Google en externe leveranciers gebruiken cookies om gerichte advertenties weer te geven op basis van uw bezoeken aan deze en andere websites op internet. Het gebruik van advertentiecookies door Google stelt Google en zijn partners in staat om advertenties aan gebruikers te tonen op basis van hun bezoek aan deze site en/of andere sites op internet. U kunt eenvoudig afmelden voor gepersonaliseerde advertenties door de Google Advertentie-instellingen (https://www.google.com/settings/ads) te bezoeken. U kunt zich ook afmelden voor cookies van externe leveranciers voor gepersonaliseerde advertenties door www.aboutads.info te bezoeken.",
+    "retentionTitle": "5. Gegevensbewaring en Vernietiging",
+    "retentionDesc": "Anonieme testresultaten en chatberichten worden bij het sluiten van de sessie gewist of volledig ontdaan van identificerende kenmerken (geanonimiseerd) voor permanent geaggregeerd onderzoek. Persoonlijke vermeldingen zoals e-mails worden op uw verzoek permanent verwijderd.",
+    "rightsTitle": "6. Uw Rechten en Contactinformatie",
+    "rightsDesc": "U behoudt de volledige bevoegdheid om gegevensfragmenten die aan uw identiteit zijn gekoppeld te bekijken, te wijzigen of permanent te verwijderen. Voor juridische of privacyklachten kunt u contact opnemen met ons officiële ondersteuningskanaal."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "De Hal van Grote Geesten",
+      "description": "Ga mee op reis met de grote geesten die de geschiedenis veranderden. Ervaar wijsheid die tijd en ruimte overstijgt."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "Verken",
+      "info": "Informatie"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
+      "allGiants": "Alle Giganten",
+      "wisdomArchive": "Wijsheidsarchief",
+      "about": "Over Ons",
+      "privacy": "Privacybeleid",
+      "terms": "Servicevoorwaarden",
       "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
+      "dnaTest": "Historische Match Test",
+      "debate": "AI Debatruimte",
       "blog": "Blog",
-      "consult": "Get Advice",
+      "consult": "Krijg Advies",
       "disclaimer": "Disclaimer"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "Voor hen die verdwalen in de\novervloed aan eindeloze informatie.",
+    "subIntro": "Een plek om afstand te nemen van de ruis en ware wijsheid onder ogen te zien.",
+    "visionTitle": "Staand op de Schouders van Giganten",
+    "visionDesc": "“Als ik verder heb gekeken, is het door op de schouders van giganten te staan.” - Isaac Newton. We begonnen met het geloof dat de antwoorden op onze complexe moderne problemen wellicht al verweven zijn in de levens van de grootste giganten uit de geschiedenis.",
+    "epicTitle": "De Grote Epen van 500 Giganten",
+    "epicDesc": "Ga verder dan louter historische feiten. Ervaar de grootse saga van giganten die tegenspoed overwonnen om de menselijke geschiedenis opnieuw vorm te geven.",
+    "chatTitle": "Dialoog Tussen Tijdperken",
+    "chatDesc": "Voer realtime gesprekken met herstelde 'handtekeningen' van giganten, aangedreven door geavanceerde AI (Gemini 2.5 Flash), om scherpe inzichten te verkrijgen voor uw moderne dilemma's.",
+    "testTitle": "Vind Uw Historische Match",
+    "testDesc": "Ontdek het DNA van de gigant dat diep in uw ziel stroomt via een meeslepende 3-fasen situationele vragenlijst, gesitueerd in cruciale historische momenten.",
+    "outroTitle": "Welkom in de Hal van Giganten",
+    "outroDesc": "Op hun schouders zult u eindelijk verder zien. Begin uw reis vandaag nog.",
+    "pillarsOfWisdom": "De Pilaren van Wijsheid"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "Servicevoorwaarden",
+    "lastUpdated": "Laatst Bijgewerkt: 16 mei 2026",
+    "intro": "Welkom bij Wijsheid van Giganten. Deze Servicevoorwaarden regelen de juridische overeenkomst en gebruikersgrenzen tussen u en ons platform met betrekking tot uw betrokkenheid bij onze originele persoonlijkheidsmetrieken en conversationele simulaties.",
+    "eligibilityTitle": "Artikel 1 (Geschiktheid & Bescherming Minderjarigen)",
+    "eligibilityDesc": "Deze dienst is strikt bedoeld voor gebruikers van minimaal 13 jaar oud. Gebruikers jonger dan 13 die onze nodes gebruiken, verklaren dat zij geverifieerde ouderlijke toestemming hebben verkregen in overeenstemming met wereldwijde mandaten voor de privacy van kinderen. Het platform wijst alle aansprakelijkheid af die voortvloeit uit ongeautoriseerde toegang door minderjarigen.",
+    "aiTitle": "Artikel 2 (AI-infrastructuur & Uitgebreide Disclaimers)",
+    "aiDesc": "1. Alle dialogen met historische figuren die op dit platform worden weergegeven, zijn interactieve simulaties die netjes zijn gegenereerd door geavanceerde AI-modellen (Gemini 2.5 suite).\n2. De geleverde outputs zijn strikt ontworpen voor educatieve en amusementswaarde. Ze vormen absoluut geen gecertificeerde historische gegevens, professionele psychologische assessments, medisch advies of juridisch advies.\n3. Wijsheid van Giganten aanvaardt geen aansprakelijkheid voor AI-hallucinaties of keuzes die door gebruikers worden gemaakt op basis van systeemtelemetrie.",
+    "intellectualTitle": "Artikel 3 (Intellectueel Eigendom & Bescherming Tegen Scraping)",
+    "intellectualDesc": "1. Alle lay-outarchitecturen, merknamen, de '4 Pilaren van Grootheid' testmetrieken, 15 situationele vragen en premium platte vectorillustraties blijven het exclusieve eigendom van Wijsheid van Giganten.\n2. Gebruikers is het ten strengste verboden ongeautoriseerd kopiëren, commerciële syndicatie of kwaadaardige data scraping uit te voeren via geautomatiseerde bots, scripts of crawler netwerknodes.",
+    "userDutyTitle": "Artikel 4 (Gebruikersstandaard & Toestemming voor Monetisatiepresentatie)",
+    "userDutyDesc": "1. Gebruikers stemmen ermee in om onze applicatie te navigeren zonder reverse-engineering sequenties of kwaadaardige serveroverbelastingvectoren te introduceren.\n2. In ruil voor gratis toegang verlenen gebruikers expliciet onherroepelijke toestemming aan Google AdSense en externe advertentiemakelaars om geautomatiseerde bannerlay-outs weer te geven in de gehele applicatiewerkruimte.",
+    "disputeTitle": "Artikel 5 (Toepasselijk Recht & Bevoegde Jurisdictie)",
+    "disputeDesc": "Deze Voorwaarden en alle juridische procedures die voortvloeien uit het systeemgebruik, worden beheerst door en geïnterpreteerd in overeenstemming met de wetten van de Republiek Korea. Eventuele geschillen worden uitsluitend voorgelegd aan de bevoegde rechtbank die de locatie van de platformexploitant beheert."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "Cookie Toestemming Instellingen",
+    "description": "We gebruiken cookies om advertenties te personaliseren (Google AdSense) en verkeer te analyseren. Door te accepteren, stemt u in met ons gebruik van cookies.",
+    "acceptAll": "Alles accepteren",
+    "rejectAll": "Alles weigeren",
+    "customize": "Aanpassen",
+    "savePreferences": "Voorkeuren opslaan",
+    "necessary": "Noodzakelijke cookies",
+    "necessaryDesc": "Vereist voor het correct functioneren van de website. (Altijd actief)",
+    "analytics": "Analytische cookies",
+    "analyticsDesc": "Gebruikt om bezoekers en gebruikspatronen te analyseren om onze service te verbeteren.",
+    "advertising": "Advertentiecookies",
+    "advertisingDesc": "Gebruikt om gepersonaliseerde advertenties via Google AdSense te tonen."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "title": "Neem contact op",
+    "name": "Naam",
+    "email": "E-mail",
+    "subject": "Onderwerp (optioneel)",
+    "message": "Bericht",
+    "send": "Bericht verzenden",
+    "sending": "Bezig met verzenden...",
+    "success": "Bericht succesvol verzonden! Bedankt.",
+    "error": "Verzenden mislukt. Probeer het opnieuw.",
+    "namePlaceholder": "Voer uw naam in",
+    "emailPlaceholder": "Voer uw e-mailadres in",
+    "subjectPlaceholder": "Voer onderwerp in",
+    "messagePlaceholder": "Voer uw bericht in"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "De Debatruimte",
+    "subtitle": "Wijsheidsstrijd van Giganten",
+    "description": "Selecteer 2-4 historische giganten en werp een onderwerp op. Zij zullen het direct bediscussiëren.",
+    "selectGiants": "Selecteer giganten voor het debat",
+    "selectedCount": "{count}/4 geselecteerd",
+    "minRequired": "Selecteer minstens 2 giganten",
+    "maxAllowed": "U kunt maximaal 4 giganten selecteren",
+    "enterTopic": "Voer debatonderwerp in",
+    "topicPlaceholder": "Voer een debatonderwerp in...\nb.v., Kan geld geluk creëren in de moderne samenleving?",
+    "startDebate": "Start debat",
+    "aiRecommend": "AI aanbeveling",
+    "selfSelect": "Handmatige selectie",
+    "aiRecommendTitle": "Optimale debaters voor dit onderwerp",
+    "thinking": "{name} denkt na...",
+    "interject": "Ingrijpen in debat...",
+    "endDebate": "Beëindig debat",
+    "shareDebate": "Deel debat",
+    "newDebate": "Nieuw debat",
+    "summaryTitle": "Debatoverzicht",
+    "rounds": "{count} Beurten",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "Geld en geluk, wat komt eerst?",
+      "Is de moderne democratie een perfect systeem?",
+      "Zal AI de mensheid redden of bedreigen?",
+      "Kan oorlog ooit gerechtvaardigd worden?",
+      "Individuele vrijheid versus sociale orde, wat komt eerst?",
+      "Kan kunst de maatschappij veranderen?",
+      "Hoe moeten mensen leven in het aangezicht van de dood?"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "LIVE DEBAT",
+    "titlePre": "Botsing der grootste geesten",
+    "titlePost": "'Ultieme Debatruimte van Giganten'",
+    "desc": "\"Kan geld geluk kopen?\" Aanschouw en neem deel aan het intense intellectuele debat tussen Aristoteles en Nietzsche in real-time.",
+    "button": "Aanschouwen en deelnemen"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "OF",
+    "title": "Maakt u iets moeilijks door?",
+    "desc": "Lincoln, Seneca, Gandhi —\nze stonden allemaal voor dezelfde pijn. En overwonnen die.",
+    "button": "Praat met een Gigant →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "Disclaimer | Wijsheid van Reuzen",
+      "description": "Gelieve te lezen voordat u Wijsheid van Reuzen gebruikt."
     },
     "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "lastUpdated": "Laatst bijgewerkt: juni 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "Kennisgeving AI-gegenereerde inhoud",
+        "content": "De AI-conversatiedienst van Wijsheid van Reuzen met historische figuren maakt gebruik van kunstmatige intelligentietechnologie om dialogen te genereren op basis van historische archieven en documenten. De uitspraken, adviezen en gesprekken die in deze dienst aan historische figuren worden toegeschreven, zijn geen directe citaten van daadwerkelijke historische personen, maar zijn AI-gegenereerde creatieve weergaven gebaseerd op analyse van historisch materiaal. Wijsheid van Reuzen streeft naar historische nauwkeurigheid, maar AI-gegenereerde inhoud kan af en toe afwijken van daadwerkelijke historische archieven."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "Educatief doel",
+        "content": "Wijsheid van Reuzen is een educatieve dienst die is ontworpen om de levens en wijsheid van historische figuren toegankelijk te maken voor een modern publiek. Alle geleverde inhoud is uitsluitend bedoeld voor informatieve en educatieve doeleinden en mag niet worden gebruikt als bron voor professioneel historisch onderzoek of academische citaten."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "Nauwkeurigheid van informatie",
+        "content": "Wijsheid van Reuzen streeft naar nauwkeurigheid in de geleverde inhoud, maar garandeert niet de volledige nauwkeurigheid van alle informatie. Voor belangrijke beslissingen op basis van historische feiten, raadpleeg betrouwbare historische bronnen en deskundige meningen."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "Auteursrecht",
+        "content": "Alle inhoud op Wijsheid van Reuzen (tekst, ontwerp, AI-conversatiesystemen, enz.) is het intellectuele eigendom van Wijsheid van Reuzen. Reproductie, distributie of wijziging voor commerciële doeleinden zonder voorafgaande schriftelijke toestemming is verboden. Voor educatief, niet-commercieel gebruik, gelieve de bron duidelijk te vermelden."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "Voor vragen over deze disclaimer kunt u contact opnemen met contact@giantswisdom.com."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "Geschreven door",
+    "authorName": "Redactieteam Wijsheid van Reuzen",
+    "authorDescription": "Wij leveren alleen geverifieerde informatie op basis van historische archieven en documenten. Alle AI-gegenereerde inhoud ondergaat een redactionele beoordeling.",
+    "publishedLabel": "Gepubliceerd",
+    "updatedLabel": "Bijgewerkt"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "Redactioneel beleid",
+    "sectionSubtitle": "Wijsheid van Reuzen creëert inhoud volgens deze principes",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "Gebaseerd op historische feiten",
+        "description": "Alle informatie en gesprekken over historische figuren zijn gebaseerd op geverifieerde historische bronnen."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "AI-transparantie",
+        "description": "We maken duidelijk AI-gegenereerde gesprekken openbaar en onderscheiden deze van daadwerkelijke historische uitspraken."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "Doorlopende updates",
+        "description": "Inhoud wordt periodiek beoordeeld en bijgewerkt om de nieuwste historische onderzoeken te weerspiegelen."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "Diversiteit en inclusie",
+        "description": "We presenteren historische figuren uit diverse culturen en tijdperken over de hele wereld op een evenwichtige manier."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "Meest geraadpleegd vandaag"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "Praat direct met de Reuzen in dit artikel",
+    "talkNow": "Praat nu"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "Wil je de wijsheid van deze Reus dieper kennen?",
+    "minuteRead": "minuten lezen"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "Delen als kaart",
+    "myQuestion": "Mijn vraag",
+    "downloadButton": "Opslaan als afbeelding",
+    "shareButton2": "Delen",
+    "generating": "Genereren...",
+    "saved": "Opgeslagen!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 Elke woensdag",
+    "title": "Wekelijkse wijsheid van de grootste geesten uit de geschiedenis",
+    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nEén inzicht om je week goed te beginnen.",
+    "placeholder": "Voer je e-mailadres in",
+    "subscribeButton": "Gratis abonneren",
+    "subscribing": "Abonneren...",
+    "successMessage": "Je bent geabonneerd!",
+    "successSubtext": "Je ontvangt elke week de wijsheid van reuzen 📬",
+    "blogTitle": "Ontvang elke week wijsheid zoals deze"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "Schouders van Reuzen",
+    "subTitle": "Converseren met grote wijsheid",
+    "metaTitle": "Schouders van Reuzen | AI Wijsheidschat",
+    "metaDescription": "Praat met Sejong, Socrates, Napoleon... 300 historische figuren via AI. Volledig gratis."
   }
 }

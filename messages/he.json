@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
-    "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "hallOfGems": "היכל התודעות",
+    "wisdomArchive": "ראשי",
+    "chatList": "רשימת צ'אטים",
+    "about": "אודות",
+    "startExploring": "התחילו לחקור",
+    "title": "תבונת הענקים",
+    "subtitle": "היכל גדולי הרוח",
+    "login": "התחבר",
+    "logout": "התנתק",
+    "myProfile": "הפרופיל שלי",
+    "signInRequired": "נדרשת התחברות לצפייה בהיסטוריית הצ'אטים.",
+    "debate": "חדר דיונים",
+    "blog": "בלוג",
+    "consult": "קבלו עצה",
+    "disclaimer": "כתב ויתור"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "ברוכים הבאים להיכל הענקים",
+    "loginModalDescription": "שמרו את הדיאלוגים שלכם עם הענקים ונהלו את מורשת החוכמה החקוקה בנשמתכם.",
+    "continueWithGoogle": "המשך עם גוגל",
+    "loginSuccess": "ברוכים הבאים להיכל גדולי הרוח.",
+    "logout": "התנתק",
+    "chatList": "השיחות שלי",
+    "signInRequired": "נדרשת כניסה"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "גלו את המורשת הגדולה הזורמת בנשמתכם",
+    "subtitle": "מבחן ניתוח מזג היסטורי",
+    "start": "התחילו מבחן",
+    "back": "חזור",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "מבחן דנ\"א 🧬",
+      "title": "מצאו את התאמת הדנ\"א ההיסטורית שלכם\nבאמצעות 15 שאלות.",
+      "desc": "מצאו את התאום ההיסטורי שלכם באמצעות 15 שאלות.",
+      "button": "← התחילו מבחן"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "שלב 1: התעוררות",
+      "stage2": "שלב 2: המבחן",
+      "stage3": "שלב 3: הגורל",
+      "cleared": "שלב {stage} הושלם!",
+      "ready": "מוכנים לעבור לשלב הבא?",
+      "next": "המשך לשלב הבא"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "מנתחים את הדי נשמתכם...",
+      "sub": "מחפשים את עמודי התווך שלכם בזרם ההיסטוריה הגדול."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "פגשתם את ייעודכם ההיסטורי",
+      "archetype": "האישיות המורשתית שלכם",
+      "matchedGiant": "הענק הדומה לכם ביותר",
+      "readEpic": "קראו סיפור אפי",
+      "chatNow": "שוחחו עכשיו"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "השיחות שלי",
+    "subtitle": "דיאלוגים עם גדולי הרוח",
+    "description": "בחנו מחדש תובנות עמוקות ועצות מענקי ההיסטוריה הגדולים ביותר. באפשרותכם להמשיך כל שיחה בכל עת.",
+    "emptyTitle": "אין שיחות עדיין",
+    "emptyDescription": "הענקים מוכנים להקשיב לחששותיכם. התחילו את הדיאלוג הראשון שלכם עכשיו!",
+    "startFirstChat": "התחילו שיחה ראשונה",
+    "messages": "הודעות",
+    "lastChat": "צ'אט אחרון"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
-    "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "badge": "היכל גדולי הרוח",
+    "quote": "אם ראיתי רחוק יותר, זה מפני שעמדתי על כתפי ענקים.",
+    "quoteAuthor": "אייזק ניוטון",
+    "startJourney": "התחילו מסע",
+    "startTest": "🧬 מצאו את ההתאמה ההיסטורית שלכם",
+    "exploreHall": "💭 קבלו עצה מהענקים",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "גדולי רוח",
+      "questions": "שאלות למבחן",
+      "free": "חינם לגמרי",
+      "freeValue": "חינם"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "מדריך למסע בהיכל החוכמה",
+      "selectGiant": "בחרו ענק",
+      "selectGiantDesc": "מצאו דמויות מעוררות השראה מבין למעלה מ-140 אגדות היסטוריות.",
+      "epic": "נרטיבים אפיים",
+      "epicDesc": "קראו תיעודים מחיים כאילו הענקים עצמם מספרים אותם.",
+      "chat": "צ'אט בזמן אמת",
+      "chatDesc": "שתפו את חששותיכם עם ענקים שנולדו מחדש באמצעות בינה מלאכותית עדכנית.",
+      "startNow": "התחילו עכשיו"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "היכנסו לחדר הדיונים של הענקים",
+    "chatProgress": "ענקים נפגשו ({total} בסך הכל)"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "היכל הענקים הגדולים",
+    "description": "חקור את חכמתם של דמויות ששינו את ההיסטוריה. בחר אדם כדי להתחיל שיחה החורגת מהזמן והמרחב.",
+    "viewAll": "צפה בכל הענקים",
+    "bestPick": "בחירה מומלצת",
+    "todaysPick": "בחירת היום",
+    "chatNow": "שוחח עכשיו"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "ענקים היסטוריים",
+    "description": "חקור את חכמתם של דמויות ששינו את מהלך האנושות. בחר ענק כדי להתחיל שיחה החורגת מהזמן והמרחב.",
+    "searchPlaceholder": "חפש לפי שם או תחום...",
+    "allGiants": "כל הענקים",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "מנהיגות",
+      "science": "מדע",
+      "philosophy": "פילוסופיה",
+      "arts": "אמנות",
+      "society": "חברה",
+      "business": "עסקים"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "נמצאו {filtered} מתוך {total} מוחות גדולים",
+    "readEpic": "קרא את האפוס ✨",
+    "noResults": "לא נמצאו תוצאות",
+    "era": "ענק היסטורי",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "ראשון",
+      "prev": "קודם",
+      "next": "הבא",
+      "last": "אחרון"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "מסע הענקים שלי",
+    "progressSubtext": "{progress}% נחקרו! המשך 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "כל האזורים",
+      "east-asia": "מזרח אסיה",
+      "europe": "אירופה",
+      "americas": "אמריקות",
+      "middle-east-turkey": "המזרח התיכון וטורקיה",
+      "africa": "אפריקה",
+      "south-southeast-asia": "דרום ודרום מזרח אסיה"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "חזור לכיכר",
+    "chatWith": "שוחח עם {name}",
+    "theLifeStory": "סיפור החיים",
+    "thePain": "המאבק",
+    "theRecovery": "ההתאוששות",
+    "wisdomLessons": "שיעורי חוכמה",
+    "famousQuote": "ציטוט מפורסם",
+    "era": "תקופה",
+    "field": "תחום",
+    "askForAdvice": "בקש עצה",
+    "notFound": "הענק לא נמצא.",
+    "goHome": "חזרה לדף הבית"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "ציטוט מפורסם",
+    "description": "תיאור",
+    "suggestedQuestions": "שאלות מוצעות",
+    "inputPlaceholder": "שאל את {name} כל דבר...",
+    "contemplating": "{name} מהרהר...",
+    "wisdomActive": "חוכמה פעילה",
+    "historyEra": "היסטוריה ותקופה",
+    "fieldOfWisdom": "תחום חוכמה",
+    "error": "אני מצטער/ת, נתקלתי בשגיאה בעת אחזור החוכמה שלי. האם תוכל/י לנסות שוב בעוד רגע?",
+    "retry": "אחזר חוכמה שוב"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "למה חכמת ענקים",
+    "description": "חווה מסע חדשני בן אלפי שנים לפגוש את חכמת האדם.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "שיחה בזמן אמת עם ענקים היסטוריים",
+        "description": "השתתף/י בשיחות עמוקות החורגות מהזמן והמרחב עם דמויות היסטוריות באמצעות בינה מלאכותית מתקדמת."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "2,500 שנות חוכמה אנושית",
+        "description": "פגוש/י את 2,500 שנות ההיסטוריה, ההישגים והתובנות שבנתה האנושות במקום אחד."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "ידע ישירות ממאסטרים",
+        "description": "אנו מספקים את הערך של למידה חיה כאילו מקשיבים ישירות למאסטרים בפילוסופיה, מדע ואמנות."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "תובנות מותאמות אישית עבורך",
+        "description": "שאל/י שאלות, חקור/י רעיונות וקבל/י הדרכה מותאמת אישית הדרושה לחייך."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "מוחות גדולים",
+      "history": "שנות חוכמה",
+      "fields": "תחומי לימוד",
+      "inspiration": "השראות"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "חוכמה יומית"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "מדיניות פרטיות",
+    "lastUpdated": "עדכון אחרון: 16 במאי 2026",
+    "summaryTitle": "1. סיכום עיקרי",
+    "summaryDesc": "בחוכמת הענקים, אנחנו לעולם לא מוכרים או משתפים בצורה לא הולמת את הנתונים האישיים שלך. מדיניות זו מתארת כיצד אנו מגנים ומעבדים את הנתונים הנאספים בזמן שאתה מבצע מבחני אישיות ומשוחח עם ענקים היסטוריים.",
+    "collectionTitle": "2. נתונים שאנו אוספים וכיצד אנו אוספים אותם",
+    "collectionDesc": "ניתן לגלוש באתר שלנו באופן אנונימי לחלוטין ללא יצירת חשבון. עם זאת, במהלך האינטראקציות שלך, הנתונים הבאים עשויים להיות מעובדים:\n- נתונים שנמסרו מרצון: תשובות למבחן מורשת DNA, טקסטים שהוזנו בצ'אטים עם AI, וכתובות דוא\"ל (רק אם נרשמים לניוזלטר שלנו).\n- נתונים מתועדים אוטומטית: סוג מכשיר, מפרטי דפדפן, כתובת IP והיסטוריית אינטראקציות המתועדת בבטחה באמצעות קובצי Cookie.",
+    "purposeTitle": "3. כיצד אנו משתמשים במידע",
+    "purposeDesc": "נתונים שנאספו משמשים אך ורק למטרות הבאות:\n- ריכוז תוצאות מבחן של 15 שאלות לקביעת אישיות הענק ההיסטורי הקרוב ביותר אליך.\n- הצגת תגובות צ'אט היסטוריות דינמיות בזמן אמת המופעלות בצורה נקייה על ידי Gemini 2.5 Flash API.\n- ניתוח סטטיסטי, בלתי ניתן לזיהוי, לשיפור מדדי ארכיטיפ האישיות שלנו.\n- הפעלת פרסומות באנר מותאמות אישית ובטוחות באמצעות Google AdSense.",
+    "adsenseTitle": "4. מדיניות Google AdSense ועוגיות צד שלישי",
+    "adsenseDesc": "אתר זה מציג פרסומות המשולבות באמצעות Google AdSense. גוגל וספקים צד שלישי משתמשים בקובצי Cookie כדי להציג פרסומות ממוקדות בהתבסס על הביקורים שלך באתר זה ובאתרים אחרים ברחבי האינטרנט. השימוש של גוגל בקובצי Cookie לפרסום מאפשר לה ולשותפיה להציג מודעות למשתמשים על בסיס ביקורם באתר זה ו/או באתרים אחרים באינטרנט. באפשרותך לבטל בקלות את הסכמתך לפרסום מותאם אישית על ידי ביקור בהגדרות המודעות של גוגל (https://www.google.com/settings/ads). לחלופין, באפשרותך לבטל את הסכמתך לקובצי Cookie של ספקים צד שלישי עבור פרסום מותאם אישית על ידי ביקור בכתובת www.aboutads.info.",
+    "retentionTitle": "5. שמירת נתונים והשמדתם",
+    "retentionDesc": "תוצאות מבחנים אנונימיות וקלט צ'אט נמחקים עם סיום הסשן או מנוקים לחלוטין מכל מזהים (אנונימיים) לצורך מחקר מצטבר קבוע. כל רשומות אישיות כמו מיילים נמחקות לצמיתות לפי בקשתך.",
+    "rightsTitle": "6. זכויותיך ופרטי יצירת קשר",
+    "rightsDesc": "שמורות לך הסמכות המלאה לצפות, לשנות או למחוק לצמיתות כל פיסת נתונים המקושרת לזהותך. לכל תלונה משפטית או פרטיות, אנא פנה לערוץ התמיכה הרשמי שלנו."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "היכל התבונה הגדולים",
+      "description": "הצטרף למסע של המוחות הגדולים ששינו את ההיסטוריה. חווה חוכמה מעבר לזמן ולמרחב."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "חקור",
+      "info": "מידע"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
-      "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "allGiants": "כל הענקים",
+      "wisdomArchive": "ארכיון החוכמה",
+      "about": "אודותינו",
+      "privacy": "מדיניות פרטיות",
+      "terms": "תנאי שימוש",
+      "contact": "יצירת קשר",
+      "dnaTest": "מבחן התאמה היסטורית",
+      "debate": "חדר דיון AI",
+      "blog": "בלוג",
+      "consult": "קבל ייעוץ",
+      "disclaimer": "הצהרת ויתור"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "לאלו האבודים בזרם\nהמידע האינסופי.",
+    "subIntro": "מרחב להתרחק מהרעש ולפגוש חוכמה אמיתית.",
+    "visionTitle": "עומדים על כתפי ענקים",
+    "visionDesc": "״אם ראיתי רחוק יותר, זה מפני שעמדתי על כתפי ענקים.״ - אייזק ניוטון. התחלנו באמונה שהתשובות לבעיותינו המודרניות המורכבות כבר עשויות להיות שזורות בחיי גדולי הענקים של ההיסטוריה.",
+    "epicTitle": "האפוסים הגדולים של 500 ענקים",
+    "epicDesc": "מעבר לעובדות היסטוריות גרידא. חווה את הסאגה הגדולה של ענקים שהתגברו על מצוקות כדי לעצב מחדש את ההיסטוריה האנושית.",
+    "chatTitle": "דיאלוג בין תקופות",
+    "chatDesc": "השתתף בשיחות בזמן אמת עם חתימות משוחזרות של ענקים המופעלות על ידי AI מתקדם (Gemini 2.5 Flash) כדי לחפש תובנות חדות לדילמות המודרניות שלך.",
+    "testTitle": "מצא את ההתאמה ההיסטורית שלך",
+    "testDesc": "גלה את ה-DNA של הענק הזורם עמוק בנשמתך באמצעות שאלון מצבי סוחף בן 3 שלבים, המתרחש ברגעים היסטוריים מכריעים.",
+    "outroTitle": "ברוך הבא להיכל הענקים",
+    "outroDesc": "על כתפיהם, סוף סוף תראה רחוק יותר. התחל את המסע שלך היום.",
+    "pillarsOfWisdom": "עמודי התווך של החוכמה"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "תנאי שימוש",
+    "lastUpdated": "עדכון אחרון: 16 במאי 2026",
+    "intro": "ברוך הבא לחוכמת הענקים. תנאי שימוש אלה מסדירים את ההסכם המשפטי ואת גבולות המשתמש בינך לבין הפלטפורמה שלנו בנוגע למעורבותך במדדי האישיות המקוריים שלנו ובהדמיות השיחה.",
+    "eligibilityTitle": "סעיף 1 (זכאות והגנת קטינים)",
+    "eligibilityDesc": "שירות זה מיועד אך ורק למשתמשים בני 13 ומעלה. משתמשים מתחת לגיל 13 המשתמשים בצמתים שלנו מצהירים כי קיבלו הסכמת הורים מאומתת בהתאם לדרישות הפרטיות העולמיות לילדים. הפלטפורמה מתנערת מכל אחריות הנובעת מגישת קטינים בלתי מורשית.",
+    "aiTitle": "סעיף 2 (תשתיות AI והצהרות ויתור מקיפות)",
+    "aiDesc": "1. כל הדיאלוגים עם דמויות היסטוריות המוצגים בפלטפורמה זו הם סימולציות אינטראקטיביות שנוצרו באופן נקי על ידי מודלי AI מתקדמים (חבילת Gemini 2.5).\n2. התוצרים המסופקים מתוכננים אך ורק לערך חינוכי ובידורי. הם אינם מהווים בשום אופן רשומות היסטוריות מאושרות, הערכות פסיכולוגיות מקצועיות, ייעוץ רפואי או ייעוץ משפטי.\n3. חוכמת הענקים אינה נושאת באחריות להזיות AI או לבחירות שבוצעו על ידי משתמשים בהתבסס על טלמטריית המערכת.",
+    "intellectualTitle": "סעיף 3 (קניין רוחני והגנה מפני גרידה)",
+    "intellectualDesc": "1. כל אדריכלות הפריסה, סימני המסחר של המותג, מדדי הבדיקה '4 עמודי התווך של הגדולה', 15 השאלות המצביות ואיורי וקטור שטוחים פרימיום נשארים קניינה הבלעדי של חוכמת הענקים.\n2. נאסר על משתמשים לבצע העתקה בלתי מורשית, סינדיקציה מסחרית או גרידת נתונים זדונית באמצעות בוטים אוטומטיים, סקריפטים או צמתי רשת סורקים.",
+    "userDutyTitle": "סעיף 4 (סטנדרט משתמש והסכמה להצגת מונטיזציה)",
+    "userDutyDesc": "1. משתמשים מסכימים לנווט באפליקציה שלנו מבלי להכניס רצפים של הנדסה הפוכה או וקטורים זדוניים של עומס יתר על השרת.\n2. בתמורה לגישה חופשית, משתמשים מעניקים במפורש הסכמה בלתי הדירה עבור Google AdSense ומתווכחי פרסום צד שלישי להציג פריסות באנר אוטומטיות ברחבי מרחב העבודה של האפליקציה.",
+    "disputeTitle": "סעיף 5 (דין חל וסמכות שיפוטית)",
+    "disputeDesc": "תנאים אלה וכל פעולה משפטית הנובעת משימוש במערכת יפורשו ויחולו בהתאם לחוקי הרפובליקה של קוריאה. כל מחלוקת תוגש באופן בלעדי לבית המשפט המוסמך השולט במיקום מפעיל הפלטפורמה."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "הגדרות הסכמה לעוגיות",
+    "description": "אנו משתמשים בעוגיות כדי להתאים אישית פרסומות (Google AdSense) ולנתח תנועה. בקבלתך, אתה מסכים לשימוש שלנו בעוגיות.",
+    "acceptAll": "קבל הכל",
+    "rejectAll": "דחה הכל",
+    "customize": "התאמה אישית",
+    "savePreferences": "שמור העדפות",
+    "necessary": "עוגיות הכרחיות",
+    "necessaryDesc": "נדרש לתפקוד תקין של האתר. (פעיל תמיד)",
+    "analytics": "עוגיות אנליטיקה",
+    "analyticsDesc": "משמש לניתוח מבקרים ודפוסי שימוש כדי לשפר את השירות שלנו.",
+    "advertising": "עוגיות פרסום",
+    "advertisingDesc": "משמש להצגת מודעות מותאמות אישית דרך Google AdSense."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "title": "צור קשר",
+    "name": "שם",
+    "email": "אימייל",
+    "subject": "נושא (אופציונלי)",
+    "message": "הודעה",
+    "send": "שלח הודעה",
+    "sending": "שולח...",
+    "success": "ההודעה נשלחה בהצלחה! תודה.",
+    "error": "שליחה נכשלה. אנא נסה שוב.",
+    "namePlaceholder": "הזן את שמך",
+    "emailPlaceholder": "הזן את כתובת האימייל שלך",
+    "subjectPlaceholder": "הזן נושא",
+    "messagePlaceholder": "הזן את הודעתך"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "חדר הדיבייט",
+    "subtitle": "התנגשות חוכמה של ענקים",
+    "description": "בחר 2-4 ענקים היסטוריים והעלה נושא. הם ידונו בו ישירות.",
+    "selectGiants": "בחר ענקים לדיבייט",
+    "selectedCount": "{count}/4 נבחרו",
+    "minRequired": "אנא בחר לפחות 2 ענקים",
+    "maxAllowed": "ניתן לבחור עד 4 ענקים",
+    "enterTopic": "הזן נושא לדיבייט",
+    "topicPlaceholder": "הזן נושא לדיבייט...\nלדוגמה, האם כסף יכול ליצור אושר בחברה המודרנית?",
+    "startDebate": "התחל דיבייט",
+    "aiRecommend": "המלצת AI",
+    "selfSelect": "בחירה ידנית",
+    "aiRecommendTitle": "המתדיינים האופטימליים לנושא זה",
+    "thinking": "{name} חושב...",
+    "interject": "התערב בדיבייט...",
+    "endDebate": "סיים דיבייט",
+    "shareDebate": "שתף דיבייט",
+    "newDebate": "דיבייט חדש",
+    "summaryTitle": "סיכום דיבייט",
+    "rounds": "{count} תורות",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "כסף ואושר, מה קודם?",
+      "האם דמוקרטיה מודרנית היא מערכת מושלמת?",
+      "האם AI יציל את האנושות או יאיים עליה?",
+      "האם מלחמה יכולה אי פעם להיות מוצדקת?",
+      "חירות הפרט מול סדר חברתי, מה קודם?",
+      "האם אמנות יכולה לשנות חברה?",
+      "כיצד על בני האדם לחיות מול המוות?"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "דיבייט חי",
+    "titlePre": "התנגשות המוחות הגדולים",
+    "titlePost": "'חדר הדיבייט האולטימטיבי של הענקים'",
+    "desc": "\"האם כסף יכול לקנות אושר?\" צפה והצטרף לדיבייט האינטלקטואלי האינטנסיבי בין אריסטו וניטשה בזמן אמת.",
+    "button": "צפה והשתתף"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "או",
+    "title": "עובר/ת משהו קשה?",
+    "desc": "לינקולן, סנקה, גנדי —\nכולם התמודדו עם אותו כאב. והתגברו עליו.",
+    "button": "דבר/י עם ענק ←"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "הצהרת אחריות | חכמת הענקים",
+      "description": "אנא קראו לפני השימוש בחכמת הענקים."
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "הצהרת אחריות",
+    "lastUpdated": "עדכון אחרון: יוני 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "הודעה על תוכן שנוצר על ידי בינה מלאכותית",
+        "content": "שירות השיחות מבוסס הבינה המלאכותית של חכמת הענקים עם דמויות היסטוריות משתמש בטכנולוגיית בינה מלאכותית כדי ליצור דיאלוגים המבוססים על רשומות ומסמכים היסטוריים. ההצהרות, העצות והשיחות המיוחסות לדמויות היסטוריות בשירות זה אינן ציטוטים ישירים מאנשים היסטוריים בפועל, אלא ייצוגים יצירתיים שנוצרו על ידי בינה מלאכותית המבוססים על ניתוח חומרים היסטוריים. חכמת הענקים שואפת לדיוק היסטורי, אך תוכן שנוצר על ידי בינה מלאכותית עשוי לעיתים לחרוג מהרשומות ההיסטוריות בפועל."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "מטרה חינוכית",
+        "content": "חכמת הענקים הוא שירות חינוכי שנועד להנגיש את חייהם וחכמתם של דמויות היסטוריות לקהל מודרני. כל התוכן המסופק הוא למטרות מידע וחינוך בלבד ואין להשתמש בו כמקור למחקר היסטורי מקצועי או לציטוטים אקדמיים."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "דיוק המידע",
+        "content": "חכמת הענקים שואפת לדיוק בתוכן המסופק, אך אינה מתחייבת לדיוק מלא של כל המידע. לצורך החלטות חשובות המבוססות על עובדות היסטוריות, אנא התייעצו עם מקורות היסטוריים מהימנים וחוות דעת מומחים."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "זכויות יוצרים",
+        "content": "כל התוכן בחכמת הענקים (טקסט, עיצוב, מערכות שיחה מבוססות AI וכו') הוא קניינה הרוחני של חכמת הענקים. אסורה רבייה, הפצה או שינוי למטרות מסחריות ללא אישור כתוב מראש. לשימוש חינוכי ולא מסחרי, אנא ציינו בבירור את המקור."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "לשאלות בנוגע להצהרת אחריות זו, אנא צרו קשר עם contact@giantswisdom.com."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "נכתב על ידי",
+    "authorName": "צוות העריכה של חכמת הענקים",
+    "authorDescription": "אנו מספקים רק מידע מאומת המבוסס על רשומות ומסמכים היסטוריים. כל התוכן שנוצר על ידי בינה מלאכותית עובר ביקורת עריכה.",
+    "publishedLabel": "פורסם",
+    "updatedLabel": "עודכן"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "מדיניות עריכה",
+    "sectionSubtitle": "חכמת הענקים יוצרת תוכן בהתאם לעקרונות אלו",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "מבוסס על עובדות היסטוריות",
+        "description": "כל המידע והשיחות על דמויות היסטוריות מבוססים על מקורות היסטוריים מאומתים."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "שקיפות בינה מלאכותית",
+        "description": "אנו חושפים בבירור שיחות שנוצרו על ידי בינה מלאכותית ומבדילים אותן מהצהרות היסטוריות בפועל."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "עדכונים שוטפים",
+        "description": "התוכן נבדק ומעודכן באופן תקופתי כדי לשקף את המחקר ההיסטורי העדכני ביותר."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "גיוון והכלה",
+        "description": "אנו מציגים דמויות היסטוריות מתרבויות ותקופות שונות מרחבי העולם בצורה מאוזנת."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "המבוקשים ביותר היום"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "שוחחו ישירות עם הענקים שבמאמר זה",
+    "talkNow": "שוחחו עכשיו"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "רוצה להבין את חוכמת הענק הזה לעומק?",
+    "minuteRead": "דקות קריאה"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "שתף ככרטיס",
+    "myQuestion": "השאלה שלי",
+    "downloadButton": "שמור כתמונה",
+    "shareButton2": "שתף",
+    "generating": "מייצר...",
+    "saved": "נשמר!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 כל יום רביעי",
+    "title": "חוכמה שבועית מגדולי ההוגים בהיסטוריה",
+    "subtitle": "סנקה, מרקוס אורליוס, סוקרטס...\nתובנה אחת כדי להתחיל את השבוע נכון.",
+    "placeholder": "הזן את כתובת האימייל שלך",
+    "subscribeButton": "הירשם בחינם",
+    "subscribing": "נרשם...",
+    "successMessage": "אתה רשום בהצלחה!",
+    "successSubtext": "תקבל חוכמת ענקים כל שבוע 📬",
+    "blogTitle": "קבל חוכמה כזו בכל שבוע"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "על כתפי ענקים",
+    "subTitle": "שוחח עם חוכמה גדולה",
+    "metaTitle": "על כתפי ענקים | צ'אט חוכמה עם AI",
+    "metaDescription": "שוחח עם סג'ונג, סוקרטס, נפוליאון... 300 דמויות היסטוריות באמצעות AI. לגמרי בחינם."
   }
 }

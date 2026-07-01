@@ -1,153 +1,153 @@
 {
   "Navigation": {
-    "hallOfGems": "Hall of Minds",
-    "wisdomArchive": "Home",
-    "chatList": "Chat List",
-    "about": "About",
-    "startExploring": "Start Exploring",
-    "title": "Giants Wisdom",
-    "subtitle": "The Hall of Great Minds",
-    "login": "Login",
-    "logout": "Logout",
-    "myProfile": "My Profile",
-    "signInRequired": "Login required to view chat history.",
-    "debate": "Debate Room",
+    "hallOfGems": "Akıllar Salonu",
+    "wisdomArchive": "Ana Sayfa",
+    "chatList": "Sohbet Listesi",
+    "about": "Hakkımızda",
+    "startExploring": "Keşfetmeye Başla",
+    "title": "Devlerin Bilgeliği",
+    "subtitle": "Büyük Zihinler Salonu",
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "myProfile": "Profilim",
+    "signInRequired": "Sohbet geçmişini görüntülemek için giriş yapmanız gerekmektedir.",
+    "debate": "Münazara Odası",
     "blog": "Blog",
-    "consult": "Get Advice",
-    "disclaimer": "Disclaimer"
+    "consult": "Danışmanlık Al",
+    "disclaimer": "Yasal Uyarı"
   },
   "Auth": {
-    "loginModalTitle": "Welcome to the Hall of Giants",
-    "loginModalDescription": "Preserve your dialogues with the giants and manage the legacy of wisdom engraved in your soul.",
-    "continueWithGoogle": "Continue with Google",
-    "loginSuccess": "Welcome to the Hall of Great Minds.",
-    "logout": "Log Out",
-    "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "loginModalTitle": "Devler Salonu'na Hoş Geldiniz",
+    "loginModalDescription": "Devlerle diyaloglarınızı koruyun ve ruhunuza işlenmiş bilgelik mirasını yönetin.",
+    "continueWithGoogle": "Google ile Devam Et",
+    "loginSuccess": "Büyük Zihinler Salonu'na hoş geldiniz.",
+    "logout": "Çıkış Yap",
+    "chatList": "Konuşmalarım",
+    "signInRequired": "Giriş Yapılması Gerekiyor"
   },
   "Test": {
-    "title": "Find the Great Legacy Flowing in Your Soul",
-    "subtitle": "Historical Temperament Analysis Test",
-    "start": "Start Test",
-    "back": "Back",
+    "title": "Ruhunuzda Akan Büyük Mirası Bulun",
+    "subtitle": "Tarihi Mizaç Analizi Testi",
+    "start": "Teste Başla",
+    "back": "Geri",
     "banner": {
-      "new": "DNA TEST 🧬",
-      "title": "Find your historical DNA match\nthrough 15 questions.",
-      "desc": "Find your historical twin through 15 questions.",
-      "button": "Start Test →"
+      "new": "DNA TESTİ 🧬",
+      "title": "15 soruyla tarihi DNA eşleşmenizi\nbulun.",
+      "desc": "15 soruyla tarihi ikizinizi bulun.",
+      "button": "Teste Başla →"
     },
     "stages": {
-      "stage1": "Stage 1: Awakening",
-      "stage2": "Stage 2: The Trial",
-      "stage3": "Stage 3: The Destiny",
-      "cleared": "Stage {stage} Cleared!",
-      "ready": "Ready to move to the next stage?",
-      "next": "Continue to Next Stage"
+      "stage1": "Aşama 1: Uyanış",
+      "stage2": "Aşama 2: Sınav",
+      "stage3": "Aşama 3: Kader",
+      "cleared": "Aşama {stage} Tamamlandı!",
+      "ready": "Bir sonraki aşamaya geçmeye hazır mısınız?",
+      "next": "Bir Sonraki Aşamaya Devam Et"
     },
     "analysis": {
-      "loading": "Analyzing your soul's echoes...",
-      "sub": "Searching for your pillars in the great flow of history."
+      "loading": "Ruhunuzun yankıları analiz ediliyor...",
+      "sub": "Tarihin büyük akışında dayanak noktalarınız aranıyor."
     },
     "result": {
-      "matchFound": "You have met your historical destiny",
-      "archetype": "Your Heritage Persona",
-      "matchedGiant": "The giant most like you",
-      "readEpic": "Read Epic Story",
-      "chatNow": "Chat Now"
+      "matchFound": "Tarihi kaderinizle karşılaştınız",
+      "archetype": "Miras Kişiliğiniz",
+      "matchedGiant": "Size en çok benzeyen dev",
+      "readEpic": "Destansı Hikayeyi Oku",
+      "chatNow": "Şimdi Sohbet Et"
     }
   },
   "Chats": {
-    "title": "My Conversations",
-    "subtitle": "Dialogues with Great Minds",
-    "description": "Revisit deep insights and advice from history's greatest giants. You can continue any conversation at any time.",
-    "emptyTitle": "No conversations yet",
-    "emptyDescription": "The giants are ready to listen to your concerns. Start your first dialogue now!",
-    "startFirstChat": "Start First Chat",
-    "messages": "messages",
-    "lastChat": "Last chat"
+    "title": "Konuşmalarım",
+    "subtitle": "Büyük Zihinlerle Diyaloglar",
+    "description": "Tarihin en büyük devlerinden derin içgörüleri ve tavsiyeleri yeniden ziyaret edin. İstediğiniz zaman herhangi bir sohbete devam edebilirsiniz.",
+    "emptyTitle": "Henüz sohbet yok",
+    "emptyDescription": "Devler endişelerinizi dinlemeye hazır. İlk diyaloğunuzu şimdi başlatın!",
+    "startFirstChat": "İlk Sohbeti Başlat",
+    "messages": "mesaj",
+    "lastChat": "Son sohbet"
   },
   "Hero": {
-    "badge": "The Hall of Great Minds",
-    "quote": "If I have seen further, it is by standing on the shoulders of Giants.",
+    "badge": "Büyük Zihinler Salonu",
+    "quote": "Eğer daha ileriyi görebildiysem, bu devlerin omuzlarında durduğum içindir.",
     "quoteAuthor": "Isaac Newton",
-    "startJourney": "Start Journey",
-    "startTest": "🧬 Find Your Historical Match",
-    "exploreHall": "💭 Get Advice from Giants",
+    "startJourney": "Yolculuğa Başla",
+    "startTest": "🧬 Tarihi Eşleşmenizi Bulun",
+    "exploreHall": "💭 Devlerden Tavsiye Alın",
     "stats": {
-      "minds": "Great Minds",
-      "questions": "Test Questions",
-      "free": "Completely Free",
-      "freeValue": "Free"
+      "minds": "Büyük Zihinler",
+      "questions": "Test Soruları",
+      "free": "Tamamen Ücretsiz",
+      "freeValue": "Ücretsiz"
     },
     "guide": {
-      "title": "Wisdom Hall Journey Guide",
-      "selectGiant": "Select a Giant",
-      "selectGiantDesc": "Find inspiring figures among 140+ historical legends.",
-      "epic": "Epic Narratives",
-      "epicDesc": "Read life records as if the giants themselves were telling them.",
-      "chat": "Real-time Chat",
-      "chatDesc": "Share your concerns with giants reborn through latest AI.",
-      "startNow": "Start Now"
+      "title": "Bilgelik Salonu Yolculuk Rehberi",
+      "selectGiant": "Bir Dev Seçin",
+      "selectGiantDesc": "140'tan fazla tarihi efsane arasından ilham verici figürler bulun.",
+      "epic": "Destansı Anlatılar",
+      "epicDesc": "Hayat kayıtlarını devlerin kendileri anlatıyormuş gibi okuyun.",
+      "chat": "Gerçek Zamanlı Sohbet",
+      "chatDesc": "En son yapay zeka ile yeniden doğan devlerle endişelerinizi paylaşın.",
+      "startNow": "Şimdi Başla"
     },
-    "debateRoomCTA": "Enter Giants Debate Room",
-    "chatProgress": "giants met ({total} total)"
+    "debateRoomCTA": "Devler Münazara Odası'na Girin",
+    "chatProgress": "tanışılan devler (toplam {total})"
   },
   "Featured": {
-    "title": "The Hall of Great Giants",
-    "description": "Explore the wisdom of figures who changed history. Select a person to start a conversation transcending time and space.",
-    "viewAll": "View All Giants",
-    "bestPick": "Best Pick",
-    "todaysPick": "Today's Pick",
-    "chatNow": "Chat Now"
+    "title": "Büyük Dehalar Salonu",
+    "description": "Tarihi değiştiren figürlerin bilgeliğini keşfedin. Zamanı ve mekanı aşan bir sohbet başlatmak için birini seçin.",
+    "viewAll": "Tüm Dehaları Görüntüle",
+    "bestPick": "En İyi Seçim",
+    "todaysPick": "Günün Seçimi",
+    "chatNow": "Şimdi Sohbet Et"
   },
   "GiantsGrid": {
-    "title": "Historical Giants",
-    "description": "Explore the wisdom of figures who changed the course of humanity. Select a giant to start a conversation transcending time and space.",
-    "searchPlaceholder": "Search by name or field...",
-    "allGiants": "All Giants",
+    "title": "Tarihi Dehalar",
+    "description": "İnsanlığın seyrini değiştiren figürlerin bilgeliğini keşfedin. Zamanı ve mekanı aşan bir sohbet başlatmak için bir deha seçin.",
+    "searchPlaceholder": "İsme veya alana göre ara...",
+    "allGiants": "Tüm Dehalar",
     "categories": {
-      "leadership": "Leadership",
-      "science": "Science",
-      "philosophy": "Philosophy",
-      "arts": "Arts",
-      "society": "Society",
-      "business": "Business"
+      "leadership": "Liderlik",
+      "science": "Bilim",
+      "philosophy": "Felsefe",
+      "arts": "Sanat",
+      "society": "Toplum",
+      "business": "İşletme"
     },
-    "resultsCount": "Found {filtered} out of {total} great minds",
-    "readEpic": "Read Epic ✨",
-    "noResults": "No results found",
-    "era": "Historical Giant",
+    "resultsCount": "{total} büyük zihinden {filtered} tanesi bulundu",
+    "readEpic": "Destanı Oku ✨",
+    "noResults": "Sonuç bulunamadı",
+    "era": "Tarihi Deha",
     "pagination": {
-      "first": "First",
-      "prev": "Prev",
-      "next": "Next",
-      "last": "Last"
+      "first": "İlk",
+      "prev": "Önceki",
+      "next": "Sonraki",
+      "last": "Son"
     },
-    "progressLabel": "My Giants Journey",
-    "progressSubtext": "{progress}% explored! Keep going 🏛️",
+    "progressLabel": "Dehalar Yolculuğum",
+    "progressSubtext": "{progress}% keşfedildi! Devam edin 🏛️",
     "regions": {
-      "all": "All Regions",
-      "east-asia": "East Asia",
-      "europe": "Europe",
-      "americas": "Americas",
-      "middle-east-turkey": "Middle East & Turkey",
-      "africa": "Africa",
-      "south-southeast-asia": "South & Southeast Asia"
+      "all": "Tüm Bölgeler",
+      "east-asia": "Doğu Asya",
+      "europe": "Avrupa",
+      "americas": "Amerika Kıtası",
+      "middle-east-turkey": "Orta Doğu & Türkiye",
+      "africa": "Afrika",
+      "south-southeast-asia": "Güney & Güneydoğu Asya"
     }
   },
   "GiantDetail": {
-    "returnToSquare": "Return to the Square",
-    "chatWith": "Chat with {name}",
-    "theLifeStory": "The Life Story",
-    "thePain": "The Struggle",
-    "theRecovery": "The Recovery",
-    "wisdomLessons": "Wisdom Lessons",
-    "famousQuote": "Famous Quote",
-    "era": "Era",
-    "field": "Field",
-    "askForAdvice": "Ask for Advice",
-    "notFound": "Giant not found.",
-    "goHome": "Back to Home"
+    "returnToSquare": "Meydana Dön",
+    "chatWith": "{name} ile Sohbet Et",
+    "theLifeStory": "Yaşam Hikayesi",
+    "thePain": "Mücadele",
+    "theRecovery": "İyileşme",
+    "wisdomLessons": "Bilgelik Dersleri",
+    "famousQuote": "Ünlü Söz",
+    "era": "Dönem",
+    "field": "Alan",
+    "askForAdvice": "Tavsiye Al",
+    "notFound": "Deha bulunamadı.",
+    "goHome": "Ana Sayfaya Dön"
   },
   "Giants": {
     "king-sejong": {
@@ -7898,284 +7898,284 @@
     }
   },
   "Chat": {
-    "famousQuote": "Famous Quote",
-    "description": "Description",
-    "suggestedQuestions": "Suggested Questions",
-    "inputPlaceholder": "Ask {name} anything...",
-    "contemplating": "{name} is contemplating...",
-    "wisdomActive": "Wisdom Active",
-    "historyEra": "History & Era",
-    "fieldOfWisdom": "Field of Wisdom",
-    "error": "I am sorry, I encountered an error while retrieving my wisdom. Could you try again in a moment?",
-    "retry": "Retrieve Wisdom Again"
+    "famousQuote": "Ünlü Söz",
+    "description": "Açıklama",
+    "suggestedQuestions": "Önerilen Sorular",
+    "inputPlaceholder": "{name}'e her şeyi sor...",
+    "contemplating": "{name} düşünüyor...",
+    "wisdomActive": "Bilgelik Aktif",
+    "historyEra": "Tarih ve Dönem",
+    "fieldOfWisdom": "Bilgelik Alanı",
+    "error": "Üzgünüm, bilgeliğimi alırken bir hata oluştu. Birazdan tekrar dener misiniz?",
+    "retry": "Bilgeliği Tekrar Al"
   },
   "Stats": {
-    "title": "Why Giants Wisdom",
-    "description": "Experience an innovative journey across thousands of years to meet human wisdom.",
+    "title": "Neden Dehaların Bilgeliği",
+    "description": "İnsanlık bilgeliğiyle buluşmak için binlerce yılı aşan yenilikçi bir yolculuğu deneyimleyin.",
     "features": [
       {
-        "title": "Real-time Chat with Historical Giants",
-        "description": "Engage in deep conversations transcending time and space with historical figures through advanced AI."
+        "title": "Tarihi Dehalarla Gerçek Zamanlı Sohbet",
+        "description": "Gelişmiş yapay zeka aracılığıyla tarihi figürlerle zamanı ve mekanı aşan derin sohbetlere girin."
       },
       {
-        "title": "2,500 Years of Human Wisdom",
-        "description": "Meet the 2,500 years of history, achievements, and insights built by humanity in one place."
+        "title": "2.500 Yıllık İnsan Bilgeliği",
+        "description": "İnsanlığın inşa ettiği 2.500 yıllık tarih, başarılar ve içgörülerle tek bir yerde buluşun."
       },
       {
-        "title": "Knowledge Directly from Masters",
-        "description": "We deliver the value of vivid learning as if listening directly to masters in philosophy, science, and art."
+        "title": "Doğrudan Ustalarından Bilgi",
+        "description": "Felsefe, bilim ve sanat ustalarını doğrudan dinler gibi canlı öğrenme deneyimini sunuyoruz."
       },
       {
-        "title": "Personalized Insights for You",
-        "description": "Ask questions, explore ideas, and get personalized guidance needed for your life."
+        "title": "Size Özel Kişiselleştirilmiş İçgörüler",
+        "description": "Sorular sorun, fikirleri keşfedin ve yaşamınız için gereken kişiselleştirilmiş rehberliği alın."
       }
     ],
     "stats": {
-      "minds": "Great Minds",
-      "history": "Years of Wisdom",
-      "fields": "Fields of Study",
-      "inspiration": "Inspirations"
+      "minds": "Büyük Zihinler",
+      "history": "Bilgelik Yılları",
+      "fields": "Çalışma Alanları",
+      "inspiration": "İlhamlar"
     }
   },
   "QuoteSection": {
-    "label": "Daily Wisdom"
+    "label": "Günün Bilgeliği"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "summaryTitle": "1. Key Summary",
-    "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
-    "collectionTitle": "2. Data We Collect and How We Collect It",
-    "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
-    "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
-    "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
-    "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
-    "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
-    "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "Son Güncelleme: 16 Mayıs 2026",
+    "summaryTitle": "1. Temel Özet",
+    "summaryDesc": "Giants Wisdom olarak, kişisel verilerinizi asla satmıyor veya uygunsuz şekilde paylaşmıyoruz. Bu politika, kişilik testleri yaparken ve tarihi devlerle sohbet ederken toplanan verileri nasıl koruduğumuzu ve işlediğimizi özetlemektedir.",
+    "collectionTitle": "2. Topladığımız Veriler ve Nasıl Topladığımız",
+    "collectionDesc": "Web sitemiz hesap oluşturmadan tamamen anonim olarak keşfedilebilir. Ancak, etkileşimleriniz sırasında aşağıdaki veriler işlenebilir:\n- Gönüllü Olarak Sağlanan Veriler: Miras DNA Testi cevapları, yapay zeka sohbetleri sırasında girilen metinler ve e-posta adresleri (yalnızca bültenimize abone olmanız durumunda).\n- Otomatik Olarak Kaydedilen Veriler: Cihaz türü, tarayıcı özellikleri, IP adresi ve Çerezler aracılığıyla güvenli bir şekilde kaydedilen etkileşim geçmişi.",
+    "purposeTitle": "3. Bilgileri Nasıl Kullanırız",
+    "purposeDesc": "Toplanan veriler kesinlikle aşağıdaki amaçlar için kullanılır:\n- Size en yakın tarihi dev kişiliğini belirlemek için 15 soruluk test sonuçlarını derlemek.\n- Gemini 2.5 Flash API tarafından desteklenen dinamik, gerçek zamanlı tarihi sohbet yanıtları sunmak.\n- Kişilik arketip ölçütlerimizi iyileştirmek için istatistiksel, tanımlayıcı olmayan analizler yapmak.\n- Google AdSense aracılığıyla güvenli özelleştirilmiş afiş gösterimleri yayınlamak.",
+    "adsenseTitle": "4. Google AdSense ve Üçüncü Taraf Çerez Politikası",
+    "adsenseDesc": "Bu web sitesi, Google AdSense aracılığıyla entegre reklamlar gösterir. Google ve üçüncü taraf sağlayıcılar, bu ve internet üzerindeki diğer web sitelerine yaptığınız ziyaretlere göre hedeflenmiş reklamlar sunmak için çerezleri kullanır. Google'ın reklam çerezlerini kullanması, Google ve iş ortaklarının bu siteye ve/veya internet üzerindeki diğer sitelere yapılan ziyaretlere göre kullanıcılara reklam sunmasını sağlar. Google Reklam Ayarları'nı (https://www.google.com/settings/ads) ziyaret ederek kişiselleştirilmiş reklamlardan kolayca vazgeçebilirsiniz. Alternatif olarak, kişiselleştirilmiş reklamlar için üçüncü taraf sağlayıcıların çerezlerinden www.aboutads.info adresini ziyaret ederek vazgeçebilirsiniz.",
+    "retentionTitle": "5. Veri Saklama ve Yok Etme",
+    "retentionDesc": "Anonim test sonuçları ve sohbet girişleri, oturum kapatıldığında silinir veya kalıcı toplu çalışma için tanımlayıcı işaretlerinden tamamen arındırılır (anonimleştirilir). E-postalar gibi kişisel girişler, talebiniz üzerine kalıcı olarak silinir.",
+    "rightsTitle": "6. Haklarınız ve İletişim Bilgileri",
+    "rightsDesc": "Kimliğinizle bağlantılı herhangi bir veri parçasını görüntüleme, değiştirme veya kalıcı olarak silme konusunda tam yetkiye sahipsiniz. Herhangi bir yasal veya gizlilik şikayeti için lütfen resmi destek kanalımıza ulaşın."
   },
   "Footer": {
     "brand": {
-      "subtitle": "The Hall of Great Minds",
-      "description": "Join the journey of the great minds who changed history. Experience wisdom beyond time and space."
+      "subtitle": "Büyük Zihinler Salonu",
+      "description": "Tarihi değiştiren büyük zihinlerin yolculuğuna katılın. Zamanın ve mekanın ötesinde bilgeliği deneyimleyin."
     },
     "sections": {
-      "explore": "Explore",
-      "info": "Information"
+      "explore": "Keşfet",
+      "info": "Bilgi"
     },
     "links": {
-      "allGiants": "All Giants",
-      "wisdomArchive": "Wisdom Archive",
-      "about": "About Us",
-      "privacy": "Privacy Policy",
-      "terms": "Terms of Service",
-      "contact": "Contact",
-      "dnaTest": "Historical Match Test",
-      "debate": "AI Debate Room",
+      "allGiants": "Tüm Devler",
+      "wisdomArchive": "Bilgelik Arşivi",
+      "about": "Hakkımızda",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Hizmet Şartları",
+      "contact": "İletişim",
+      "dnaTest": "Tarihi Eşleşme Testi",
+      "debate": "Yapay Zeka Münazara Odası",
       "blog": "Blog",
-      "consult": "Get Advice",
-      "disclaimer": "Disclaimer"
+      "consult": "Tavsiye Al",
+      "disclaimer": "Yasal Uyarı"
     }
   },
   "About": {
-    "intro": "To those lost in the\noverflow of endless information.",
-    "subIntro": "A space to step away from the noise and face true wisdom.",
-    "visionTitle": "Standing on the Shoulders of Giants",
-    "visionDesc": "“If I have seen further, it is by standing on the shoulders of giants.” - Isaac Newton. We began with the belief that the answers to our complex modern problems might already be woven into the lives of history's greatest giants.",
-    "epicTitle": "The Grand Epics of 500 Giants",
-    "epicDesc": "Go beyond mere historical facts. Experience the grand saga of giants who overcame adversity to reshape human history.",
-    "chatTitle": "Dialogue Across Eras",
-    "chatDesc": "Engage in real-time conversations with restored signatures of giants powered by advanced AI (Gemini 2.5 Flash) to seek sharp insights for your modern dilemmas.",
-    "testTitle": "Find Your Historical Match",
-    "testDesc": "Discover the giant's DNA flowing deep within your soul through an immersive 3-stage situational questionnaire set in pivotal historical moments.",
-    "outroTitle": "Welcome to the Hall of Giants",
-    "outroDesc": "Upon their shoulders, you will finally see further. Begin your journey today.",
-    "pillarsOfWisdom": "The Pillars of Wisdom"
+    "intro": "Sonsuz bilgi akışında\nkaybolanlara.",
+    "subIntro": "Gürültüden uzaklaşıp gerçek bilgelikle yüzleşmek için bir alan.",
+    "visionTitle": "Devlerin Omuzlarında Durmak",
+    "visionDesc": "“Daha ileri görebildiysem, devlerin omuzlarında durduğum içindir.” - Isaac Newton. Karmaşık modern sorunlarımızın cevaplarının, tarihin en büyük devlerinin yaşamlarında zaten dokunmuş olabileceği inancıyla yola çıktık.",
+    "epicTitle": "500 Dev'in Büyük Destanları",
+    "epicDesc": "Sadece tarihi gerçeklerin ötesine geçin. İnsanlık tarihini yeniden şekillendirmek için zorlukların üstesinden gelen devlerin büyük destanını deneyimleyin.",
+    "chatTitle": "Çağlar Arası Diyalog",
+    "chatDesc": "Modern ikilemleriniz için keskin içgörüler aramak amacıyla gelişmiş yapay zeka (Gemini 2.5 Flash) tarafından desteklenen devlerin restore edilmiş imzalarıyla gerçek zamanlı sohbetlere katılın.",
+    "testTitle": "Tarihi Eşleşmenizi Bulun",
+    "testDesc": "Kritik tarihi anlarda geçen sürükleyici 3 aşamalı durumsal anket aracılığıyla ruhunuzun derinliklerinde akan devin DNA'sını keşfedin.",
+    "outroTitle": "Devler Salonu'na Hoş Geldiniz",
+    "outroDesc": "Onların omuzlarında, sonunda daha ileri göreceksiniz. Yolculuğunuza bugün başlayın.",
+    "pillarsOfWisdom": "Bilgelik Sütunları"
   },
   "Terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 16, 2026",
-    "intro": "Welcome to Giants Wisdom. These Terms of Service govern the legal agreement and user boundaries between you and our platform regarding your engagement with our original personality metrics and conversational simulations.",
-    "eligibilityTitle": "Article 1 (Eligibility & Minor Protection)",
-    "eligibilityDesc": "This service is intended strictly for users who are at least 13 years of age. Users under 13 engaging with our nodes represent that they have obtained verified parental consent in accordance with global child privacy mandates. The platform disclaims all liabilities arising from unauthorized minor access.",
-    "aiTitle": "Article 2 (AI Infrastructure & Comprehensive Disclaimers)",
-    "aiDesc": "1. All dialogues with historical figures displayed across this platform are interactive simulations generated cleanly by advanced AI models (Gemini 2.5 suite).\n2. The outputs provided are engineered strictly for educational and entertainment value. They absolutely do not constitute certified historical records, professional psychological assessments, medical advice, or legal counsel.\n3. Giants Wisdom holds no liability for AI hallucinations or choices executed by users based on system telemetry.",
-    "intellectualTitle": "Article 3 (Intellectual Property & Anti-Scraping Protection)",
-    "intellectualDesc": "1. All layout architectures, brand trademarks, the '4 Pillars of Greatness' testing metrics, 15 situational questions, and premium flat vector illustrations remain the exclusive property of Giants Wisdom.\n2. Users are heavily prohibited from executing unauthorized copying, commercial syndication, or malicious data scraping via automated bots, scripts, or crawler network nodes.",
-    "userDutyTitle": "Article 4 (User Standard & Monetization Presentation Consent)",
-    "userDutyDesc": "1. Users agree to navigate our application without introducing reverse-engineering sequences or malicious server overload vectors.\n2. In consideration for free access, users explicitly grant irrevocable consent for Google AdSense and third-party advertising brokers to present automated banner layouts across the application workspace.",
-    "disputeTitle": "Article 5 (Governing Law & Competent Jurisdiction)",
-    "disputeDesc": "These Terms and any legal actions arising from system usage shall be governed by and construed in accordance with the laws of the Republic of Korea. Any disputes shall be submitted exclusively to the competent court governing the location of the platform operator."
+    "title": "Hizmet Şartları",
+    "lastUpdated": "Son Güncelleme: 16 Mayıs 2026",
+    "intro": "Giants Wisdom'a hoş geldiniz. Bu Hizmet Şartları, orijinal kişilik ölçütlerimiz ve sohbet simülasyonlarımızla etkileşiminizle ilgili olarak sizinle platformumuz arasındaki yasal anlaşmayı ve kullanıcı sınırlarını yönetir.",
+    "eligibilityTitle": "Madde 1 (Uygunluk ve Küçüklerin Korunması)",
+    "eligibilityDesc": "Bu hizmet kesinlikle en az 13 yaşında olan kullanıcılara yöneliktir. Düğümlerimizle etkileşimde bulunan 13 yaşın altındaki kullanıcılar, küresel çocuk gizliliği yönergelerine uygun olarak doğrulanmış ebeveyn izni aldıklarını beyan ederler. Platform, yetkisiz küçük erişiminden kaynaklanan tüm sorumlulukları reddeder.",
+    "aiTitle": "Madde 2 (Yapay Zeka Altyapısı ve Kapsamlı Sorumluluk Reddi)",
+    "aiDesc": "1. Bu platformda sergilenen tarihi figürlerle tüm diyaloglar, gelişmiş yapay zeka modelleri (Gemini 2.5 paketi) tarafından temiz bir şekilde oluşturulan etkileşimli simülasyonlardır.\n2. Sağlanan çıktılar kesinlikle eğitim ve eğlence değeri için tasarlanmıştır. Kesinlikle onaylı tarihi kayıtlar, profesyonel psikolojik değerlendirmeler, tıbbi tavsiye veya hukuki danışmanlık teşkil etmezler.\n3. Giants Wisdom, yapay zeka halüsinasyonları veya kullanıcılar tarafından sistem telemetrisine dayalı olarak gerçekleştirilen seçimler için hiçbir sorumluluk kabul etmez.",
+    "intellectualTitle": "Madde 3 (Fikri Mülkiyet ve Kazımaya Karşı Koruma)",
+    "intellectualDesc": "1. Tüm düzen mimarileri, marka ticari markaları, 'Büyüklüğün 4 Sütunu' test metrikleri, 15 durumsal soru ve premium düz vektör illüstrasyonları Giants Wisdom'ın münhasır mülkiyeti olarak kalır.\n2. Kullanıcıların, otomatik botlar, komut dosyaları veya tarayıcı ağ düğümleri aracılığıyla yetkisiz kopyalama, ticari sendikasyon veya kötü niyetli veri kazıma yapması kesinlikle yasaktır.",
+    "userDutyTitle": "Madde 4 (Kullanıcı Standardı ve Para Kazanma Sunum Onayı)",
+    "userDutyDesc": "1. Kullanıcılar, tersine mühendislik dizileri veya kötü amaçlı sunucu aşırı yükleme vektörleri uygulamadan uygulamamızda gezinmeyi kabul eder.\n2. Ücretsiz erişim karşılığında, kullanıcılar Google AdSense ve üçüncü taraf reklam aracılarının uygulama çalışma alanı boyunca otomatik afiş düzenleri sunmasına açıkça geri alınamaz onay verir.",
+    "disputeTitle": "Madde 5 (Uygulanacak Hukuk ve Yetkili Yargı Yeri)",
+    "disputeDesc": "Bu Şartlar ve sistem kullanımından kaynaklanan herhangi bir hukuki işlem, Kore Cumhuriyeti yasalarına tabi olacak ve bu yasalara göre yorumlanacaktır. Her türlü anlaşmazlık, münhasıran platform operatörünün bulunduğu yerdeki yetkili mahkemeye sunulacaktır."
   },
   "Cookie": {
-    "title": "Cookie Consent Settings",
-    "description": "We use cookies to personalize ads (Google AdSense) and analyze traffic. By accepting, you consent to our use of cookies.",
-    "acceptAll": "Accept All",
-    "rejectAll": "Reject All",
-    "customize": "Customize",
-    "savePreferences": "Save Preferences",
-    "necessary": "Necessary Cookies",
-    "necessaryDesc": "Required for the website to function properly. (Always Active)",
-    "analytics": "Analytics Cookies",
-    "analyticsDesc": "Used to analyze visitors and usage patterns to improve our service.",
-    "advertising": "Advertising Cookies",
-    "advertisingDesc": "Used to serve personalized ads through Google AdSense."
+    "title": "Çerez İzni Ayarları",
+    "description": "Reklamları (Google AdSense) kişiselleştirmek ve trafiği analiz etmek için çerezleri kullanıyoruz. Kabul ederek çerez kullanımımıza izin vermiş olursunuz.",
+    "acceptAll": "Tümünü Kabul Et",
+    "rejectAll": "Tümünü Reddet",
+    "customize": "Özelleştir",
+    "savePreferences": "Tercihleri Kaydet",
+    "necessary": "Gerekli Çerezler",
+    "necessaryDesc": "Web sitesinin düzgün çalışması için gereklidir. (Her Zaman Etkin)",
+    "analytics": "Analiz Çerezleri",
+    "analyticsDesc": "Hizmetimizi geliştirmek için ziyaretçileri ve kullanım alışkanlıklarını analiz etmek amacıyla kullanılır.",
+    "advertising": "Reklam Çerezleri",
+    "advertisingDesc": "Google AdSense aracılığıyla kişiselleştirilmiş reklamlar sunmak için kullanılır."
   },
   "Contact": {
-    "title": "Contact Us",
-    "name": "Name",
-    "email": "Email",
-    "subject": "Subject (optional)",
-    "message": "Message",
-    "send": "Send Message",
-    "sending": "Sending...",
-    "success": "Message sent successfully! Thank you.",
-    "error": "Failed to send. Please try again.",
-    "namePlaceholder": "Enter your name",
-    "emailPlaceholder": "Enter your email",
-    "subjectPlaceholder": "Enter subject",
-    "messagePlaceholder": "Enter your message"
+    "title": "Bize Ulaşın",
+    "name": "Ad",
+    "email": "E-posta",
+    "subject": "Konu (isteğe bağlı)",
+    "message": "Mesaj",
+    "send": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "success": "Mesaj başarıyla gönderildi! Teşekkür ederiz.",
+    "error": "Gönderilemedi. Lütfen tekrar deneyin.",
+    "namePlaceholder": "Adınızı girin",
+    "emailPlaceholder": "E-postanızı girin",
+    "subjectPlaceholder": "Konu girin",
+    "messagePlaceholder": "Mesajınızı girin"
   },
   "Debate": {
-    "title": "The Debate Room",
-    "subtitle": "Wisdom Clash of Giants",
-    "description": "Select 2-4 historical giants and throw a topic. They will debate it directly.",
-    "selectGiants": "Select Giants for Debate",
-    "selectedCount": "{count}/4 Selected",
-    "minRequired": "Please select at least 2 giants",
-    "maxAllowed": "You can select up to 4 giants",
-    "enterTopic": "Enter Debate Topic",
-    "topicPlaceholder": "Enter a debate topic...\ne.g., Can money create happiness in modern society?",
-    "startDebate": "Start Debate",
-    "aiRecommend": "AI Recommend",
-    "selfSelect": "Manual Select",
-    "aiRecommendTitle": "Optimal Debaters for this Topic",
-    "thinking": "{name} is thinking...",
-    "interject": "Interject in debate...",
-    "endDebate": "End Debate",
-    "shareDebate": "Share Debate",
-    "newDebate": "New Debate",
-    "summaryTitle": "Debate Summary",
-    "rounds": "{count} Turns",
+    "title": "Münazara Odası",
+    "subtitle": "Devlerin Bilgelik Çatışması",
+    "description": "2-4 tarihi devi seçin ve bir konu belirleyin. Doğrudan bu konu üzerine münazara edecekler.",
+    "selectGiants": "Münazara İçin Devleri Seçin",
+    "selectedCount": "{count}/4 Seçildi",
+    "minRequired": "Lütfen en az 2 dev seçin",
+    "maxAllowed": "En fazla 4 dev seçebilirsiniz",
+    "enterTopic": "Münazara Konusu Girin",
+    "topicPlaceholder": "Bir münazara konusu girin...\nö.rn., Para modern toplumda mutluluk yaratabilir mi?",
+    "startDebate": "Münazarayı Başlat",
+    "aiRecommend": "Yapay Zeka Önerisi",
+    "selfSelect": "Manuel Seçim",
+    "aiRecommendTitle": "Bu Konu İçin En Uygun Tartışmacılar",
+    "thinking": "{name} düşünüyor...",
+    "interject": "Münazaraya müdahale et...",
+    "endDebate": "Münazarayı Bitir",
+    "shareDebate": "Münazarayı Paylaş",
+    "newDebate": "Yeni Münazara",
+    "summaryTitle": "Münazara Özeti",
+    "rounds": "{count} Tur",
     "suggestedTopics": [
-      "Money and happiness, which comes first?",
-      "Is modern democracy a perfect system?",
-      "Will AI save humanity or threaten it?",
-      "Can war ever be justified?",
-      "Individual freedom vs. Social order, which comes first?",
-      "Can art change society?",
-      "How should humans live in the face of death?"
+      "Para ve mutluluk, hangisi önce gelir?",
+      "Modern demokrasi mükemmel bir sistem midir?",
+      "Yapay zeka insanlığı kurtaracak mı yoksa tehdit mi edecek?",
+      "Savaş haklı çıkarılabilir mi?",
+      "Bireysel özgürlük mü toplumsal düzen mi, hangisi önce gelir?",
+      "Sanat toplumu değiştirebilir mi?",
+      "İnsanlar ölüm karşısında nasıl yaşamalı?"
     ]
   },
   "DebateCTA": {
-    "badge": "LIVE DEBATE",
-    "titlePre": "Clash of the Greatest Minds",
-    "titlePost": "'Giants' Ultimate Debate Room'",
-    "desc": "\"Can money buy happiness?\" Spectate and join the intense intellectual debate between Aristotle and Nietzsche in real-time.",
-    "button": "Spectate & Participate"
+    "badge": "CANLI MÜNAZARA",
+    "titlePre": "En Büyük Zihinlerin Çatışması",
+    "titlePost": "'Devlerin' Nihai Münazara Odası",
+    "desc": "\"Para mutluluk satın alabilir mi?\" Aristoteles ve Nietzsche arasındaki yoğun entelektüel münazarayı gerçek zamanlı olarak izleyin ve katılın.",
+    "button": "İzle ve Katıl"
   },
   "Consult": {
-    "or": "OR",
-    "title": "Going through something tough?",
-    "desc": "Lincoln, Seneca, Gandhi —\nthey all faced the same pain. And overcame it.",
-    "button": "Talk to a Giant →"
+    "or": "VEYA",
+    "title": "Zor bir dönemden mi geçiyorsunuz?",
+    "desc": "Lincoln, Seneca, Gandhi —\nhepsi aynı acıyla yüzleşti. Ve üstesinden geldi.",
+    "button": "Bir Devle Konuş →"
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
-      "description": "Please read before using Giants Wisdom."
+      "title": "Yasal Uyarı | Devlerin Bilgeliği",
+      "description": "Devlerin Bilgeliği'ni kullanmadan önce lütfen okuyun."
     },
-    "pageTitle": "Disclaimer",
-    "lastUpdated": "Last Updated: June 2026",
+    "pageTitle": "Yasal Uyarı",
+    "lastUpdated": "Son Güncelleme: Haziran 2026",
     "sections": [
       {
-        "title": "AI-Generated Content Notice",
-        "content": "Giants Wisdom's AI conversation service with historical figures uses artificial intelligence technology to generate dialogues based on historical records and documents. The statements, advice, and conversations attributed to historical figures in this service are not direct quotes from actual historical persons, but are AI-generated creative representations based on analysis of historical materials. Giants Wisdom strives for historical accuracy, but AI-generated content may occasionally differ from actual historical records."
+        "title": "Yapay Zeka Destekli İçerik Bildirimi",
+        "content": "Devlerin Bilgeliği'nin tarihi figürlerle yapay zeka sohbet hizmeti, diyalogları tarihi kayıtlar ve belgelere dayanarak oluşturmak için yapay zeka teknolojisini kullanır. Bu hizmette tarihi figürlere atfedilen ifadeler, tavsiyeler ve sohbetler, gerçek tarihi kişilerden doğrudan alıntılar değil, tarihi materyallerin analizine dayalı olarak yapay zeka tarafından oluşturulan yaratıcı temsillerdir. Devlerin Bilgeliği, tarihi doğruluğu sağlamaya çalışsa da, yapay zeka tarafından oluşturulan içerik zaman zaman gerçek tarihi kayıtlardan farklılık gösterebilir."
       },
       {
-        "title": "Educational Purpose",
-        "content": "Giants Wisdom is an educational service designed to make the lives and wisdom of historical figures accessible to modern audiences. All content provided is for informational and educational purposes only and should not be used as a source for professional historical research or academic citations."
+        "title": "Eğitim Amacı",
+        "content": "Devlerin Bilgeliği, tarihi figürlerin yaşamlarını ve bilgeliklerini modern izleyicilere ulaştırmak için tasarlanmış bir eğitim hizmetidir. Sağlanan tüm içerik yalnızca bilgilendirme ve eğitim amaçlı olup, profesyonel tarih araştırmaları veya akademik alıntılar için bir kaynak olarak kullanılmamalıdır."
       },
       {
-        "title": "Accuracy of Information",
-        "content": "Giants Wisdom strives for accuracy in the content provided, but does not guarantee the complete accuracy of all information. For important decisions based on historical facts, please consult reliable historical sources and expert opinions."
+        "title": "Bilginin Doğruluğu",
+        "content": "Devlerin Bilgeliği, sağlanan içerikte doğruluğu sağlamaya çalışır, ancak tüm bilgilerin eksiksiz doğruluğunu garanti etmez. Tarihi gerçeklere dayanan önemli kararlar için lütfen güvenilir tarihi kaynaklara ve uzman görüşlerine danışın."
       },
       {
-        "title": "Copyright",
-        "content": "All content on Giants Wisdom (text, design, AI conversation systems, etc.) is the intellectual property of Giants Wisdom. Reproduction, distribution, or modification for commercial purposes without prior written permission is prohibited. For educational, non-commercial use, please clearly attribute the source."
+        "title": "Telif Hakkı",
+        "content": "Devlerin Bilgeliği'ndeki tüm içerik (metin, tasarım, yapay zeka sohbet sistemleri vb.) Devlerin Bilgeliği'nin fikri mülkiyetidir. Önceden yazılı izin olmaksızın ticari amaçlarla çoğaltılması, dağıtılması veya değiştirilmesi yasaktır. Eğitimsel, ticari olmayan kullanımlar için lütfen kaynağı açıkça belirtin."
       }
     ],
-    "contact": "For inquiries about this disclaimer, please contact contact@giantswisdom.com."
+    "contact": "Bu yasal uyarı hakkında sorularınız için lütfen contact@giantswisdom.com adresinden iletişime geçin."
   },
   "BlogAuthorBox": {
-    "authorLabel": "Written by",
-    "authorName": "Giants Wisdom Editorial Team",
-    "authorDescription": "We deliver only verified information based on historical records and documents. All AI-generated content undergoes editorial review.",
-    "publishedLabel": "Published",
-    "updatedLabel": "Updated"
+    "authorLabel": "Yazan",
+    "authorName": "Devlerin Bilgeliği Editör Ekibi",
+    "authorDescription": "Yalnızca tarihi kayıtlar ve belgelere dayalı doğrulanmış bilgiler sunuyoruz. Yapay zeka tarafından oluşturulan tüm içerikler editoryal incelemeden geçer.",
+    "publishedLabel": "Yayınlandı",
+    "updatedLabel": "Güncellendi"
   },
   "AboutEditorialPolicy": {
-    "sectionTitle": "Editorial Policy",
-    "sectionSubtitle": "Giants Wisdom creates content according to these principles",
+    "sectionTitle": "Yayın Politikası",
+    "sectionSubtitle": "Devlerin Bilgeliği içeriği bu ilkeler doğrultusunda oluşturur",
     "principles": [
       {
         "icon": "📚",
-        "title": "Based on Historical Facts",
-        "description": "All historical figure information and conversations are based on verified historical sources."
+        "title": "Tarihi Gerçeklere Dayalı",
+        "description": "Tüm tarihi figür bilgileri ve konuşmaları doğrulanmış tarihi kaynaklara dayanmaktadır."
       },
       {
         "icon": "🤖",
-        "title": "AI Transparency",
-        "description": "We clearly disclose AI-generated conversations and distinguish them from actual historical statements."
+        "title": "Yapay Zeka Şeffaflığı",
+        "description": "Yapay zeka tarafından oluşturulan konuşmaları açıkça belirtir ve bunları gerçek tarihi ifadelerden ayırırız."
       },
       {
         "icon": "✅",
-        "title": "Continuous Updates",
-        "description": "Content is periodically reviewed and updated to reflect the latest historical research."
+        "title": "Sürekli Güncellemeler",
+        "description": "İçerik, en son tarihi araştırmaları yansıtacak şekilde periyodik olarak incelenir ve güncellenir."
       },
       {
         "icon": "🌍",
-        "title": "Diversity and Inclusion",
-        "description": "We present historical figures from diverse cultures and eras around the world in a balanced way."
+        "title": "Çeşitlilik ve Kapsayıcılık",
+        "description": "Dünyanın dört bir yanından farklı kültürlerden ve dönemlerden tarihi figürleri dengeli bir şekilde sunuyoruz."
       }
     ]
   },
   "GiantsSection": {
-    "mostConsulted": "Most consulted today"
+    "mostConsulted": "Bugün en çok danışılanlar"
   },
   "BlogGiantLink": {
-    "title": "Talk directly with the Giants in this article",
-    "talkNow": "Talk now"
+    "title": "Bu makaledeki Devlerle doğrudan konuşun",
+    "talkNow": "Şimdi konuş"
   },
   "GiantBlogLink": {
-    "title": "Want to know this Giant's wisdom deeper?",
-    "minuteRead": "min read"
+    "title": "Bu Dev'in bilgeliğini daha derinlemesine öğrenmek ister misiniz?",
+    "minuteRead": "dk okuma"
   },
   "ShareCard": {
-    "shareButton": "Share as card",
-    "myQuestion": "My question",
-    "downloadButton": "Save as image",
-    "shareButton2": "Share",
-    "generating": "Generating...",
-    "saved": "Saved!"
+    "shareButton": "Kart olarak paylaş",
+    "myQuestion": "Benim sorum",
+    "downloadButton": "Resim olarak kaydet",
+    "shareButton2": "Paylaş",
+    "generating": "Oluşturuluyor...",
+    "saved": "Kaydedildi!"
   },
   "Newsletter": {
-    "badge": "📬 Every Wednesday",
-    "title": "Weekly wisdom from history's greatest minds",
-    "subtitle": "Seneca, Marcus Aurelius, Socrates...\nOne insight to start your week right.",
-    "placeholder": "Enter your email address",
-    "subscribeButton": "Subscribe Free",
-    "subscribing": "Subscribing...",
-    "successMessage": "You're subscribed!",
-    "successSubtext": "You'll receive giants' wisdom every week 📬",
-    "blogTitle": "Get wisdom like this every week"
+    "badge": "📬 Her Çarşamba",
+    "title": "Tarihin en büyük zihinlerinden haftalık bilgelik",
+    "subtitle": "Seneca, Marcus Aurelius, Sokrates...\nHaftanıza doğru başlamak için tek bir içgörü.",
+    "placeholder": "E-posta adresinizi girin",
+    "subscribeButton": "Ücretsiz Abone Ol",
+    "subscribing": "Abone olunuyor...",
+    "successMessage": "Abone oldunuz!",
+    "successSubtext": "Her hafta devlerin bilgeliğini alacaksınız 📬",
+    "blogTitle": "Her hafta bunun gibi bilgelik alın"
   },
   "brand": {
-    "mainTitle": "Shoulders of Giants",
-    "subTitle": "Converse with great wisdom",
-    "metaTitle": "Shoulders of Giants | AI Wisdom Chat",
-    "metaDescription": "Talk with Sejong, Socrates, Napoleon... 300 historical figures via AI. Completely free."
+    "mainTitle": "Devlerin Omuzları",
+    "subTitle": "Büyük bilgelikle sohbet edin",
+    "metaTitle": "Devlerin Omuzları | Yapay Zeka Bilgelik Sohbeti",
+    "metaDescription": "Sejong, Sokrates, Napolyon... 300 tarihi figürle yapay zeka aracılığıyla konuşun. Tamamen ücretsiz."
   }
 }
