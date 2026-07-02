@@ -176,8 +176,8 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     post => post.relatedGiants?.includes(giant.slug)
   );
 
-  const wikiData = (wikipediaLinks as Record<string, { ko: string | null; en: string | null }>)[giant.slug];
-  const wikipediaUrl = activeLocale === 'ko' ? (wikiData?.ko || null) : (wikiData?.en || null);
+  const wikiData = (wikipediaLinks as Record<string, Record<string, string | null>>)[giant.slug];
+  const wikipediaUrl = wikiData?.[activeLocale] || wikiData?.['en'] || null;
 
   const tGiants = useTranslations("Giants");
   const getRelatedTranslation = (slug: string, key: string, fallback: string) => {
