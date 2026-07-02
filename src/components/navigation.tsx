@@ -143,16 +143,31 @@ export function Navigation() {
                   <ChevronDown className="w-3 h-3 text-muted-foreground" />
                 </button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="glass border-white/10 min-w-[120px]">
-                {locales.map((l) => (
-                  <DropdownMenuItem
-                    key={l.code}
-                    onClick={() => onLocaleChange(l.code)}
-                    className={`cursor-pointer focus:bg-amber-500/10 focus:text-amber-200 ${locale === l.code ? "bg-amber-500/10 text-amber-200" : "text-muted-foreground"}`}
-                  >
-                    {l.label}
-                  </DropdownMenuItem>
-                ))}
+              <DropdownMenuContent align="end" className="glass border-white/10 w-[400px] p-2 md:p-3 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+                <div className="grid grid-cols-2 gap-x-2">
+                  <div className="flex flex-col gap-0.5">
+                    {locales.slice(0, 12).map((l) => (
+                      <DropdownMenuItem
+                        key={l.code}
+                        onClick={() => onLocaleChange(l.code)}
+                        className={`cursor-pointer focus:bg-amber-500/10 focus:text-amber-200 ${locale === l.code ? "bg-amber-500/10 text-amber-200" : "text-muted-foreground"}`}
+                      >
+                        {l.label}
+                      </DropdownMenuItem>
+                    ))}
+                  </div>
+                  <div className="flex flex-col gap-0.5">
+                    {locales.slice(12).map((l) => (
+                      <DropdownMenuItem
+                        key={l.code}
+                        onClick={() => onLocaleChange(l.code)}
+                        className={`cursor-pointer focus:bg-amber-500/10 focus:text-amber-200 ${locale === l.code ? "bg-amber-500/10 text-amber-200" : "text-muted-foreground"}`}
+                      >
+                        {l.label}
+                      </DropdownMenuItem>
+                    ))}
+                  </div>
+                </div>
               </DropdownMenuContent>
             </DropdownMenu>
 
@@ -167,16 +182,31 @@ export function Navigation() {
                   <Languages className="w-4 h-4" />
                 </button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="glass border-white/10 min-w-[120px]">
-                {locales.map((l) => (
-                  <DropdownMenuItem
-                    key={l.code}
-                    onClick={() => onLocaleChange(l.code)}
-                    className={`cursor-pointer focus:bg-amber-500/10 focus:text-amber-200 ${locale === l.code ? "bg-amber-500/10 text-amber-200" : "text-muted-foreground"}`}
-                  >
-                    {l.label}
-                  </DropdownMenuItem>
-                ))}
+              <DropdownMenuContent align="end" className="glass border-white/10 w-[280px] p-1.5 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+                <div className="grid grid-cols-2 gap-x-1.5">
+                  <div className="flex flex-col gap-0.5">
+                    {locales.slice(0, 12).map((l) => (
+                      <DropdownMenuItem
+                        key={l.code}
+                        onClick={() => onLocaleChange(l.code)}
+                        className={`cursor-pointer focus:bg-amber-500/10 focus:text-amber-200 text-xs ${locale === l.code ? "bg-amber-500/10 text-amber-200" : "text-muted-foreground"}`}
+                      >
+                        {l.label}
+                      </DropdownMenuItem>
+                    ))}
+                  </div>
+                  <div className="flex flex-col gap-0.5">
+                    {locales.slice(12).map((l) => (
+                      <DropdownMenuItem
+                        key={l.code}
+                        onClick={() => onLocaleChange(l.code)}
+                        className={`cursor-pointer focus:bg-amber-500/10 focus:text-amber-200 text-xs ${locale === l.code ? "bg-amber-500/10 text-amber-200" : "text-muted-foreground"}`}
+                      >
+                        {l.label}
+                      </DropdownMenuItem>
+                    ))}
+                  </div>
+                </div>
               </DropdownMenuContent>
             </DropdownMenu>
 
