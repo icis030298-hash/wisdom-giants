@@ -3,6 +3,7 @@ import { BlogListClient } from '@/components/blog-list-client'
 import { setRequestLocale } from 'next-intl/server'
 import { Navigation } from '@/components/navigation'
 import { ConditionalAdSense } from '@/components/conditional-adsense'
+import { buildHreflang } from '@/lib/locales'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -13,7 +14,6 @@ interface Props {
 }
 
 const BASE_URL = 'https://www.giantswisdom.com'
-const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt'] as const
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
@@ -43,12 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = titleMap[locale] ?? titleMap['en']
   const description = descMap[locale] ?? descMap['en']
 
-  const hreflangLanguages: Record<string, string> = {
-    'x-default': `${BASE_URL}/en/blog`,
-  }
-  for (const loc of LOCALES) {
-    hreflangLanguages[loc] = `${BASE_URL}/${loc}/blog`
-  }
+  const hreflangLanguages = buildHreflang(BASE_URL, '/blog')
 
   return {
     title,

@@ -3,6 +3,7 @@ import { Navigation } from "@/components/navigation";
 import { DebateRoomClient } from "@/components/debate-room-client";
 import { getTranslations } from "next-intl/server";
 import { Metadata } from 'next';
+import { buildHreflang } from '@/lib/locales';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -13,7 +14,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "Debate" });
 
   const BASE_URL = 'https://www.giantswisdom.com';
-  const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt'] as const;
 
   // Multilingual metadata mapping
   const titleMap: Record<string, string> = {
@@ -42,12 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = descMap[locale] ?? descMap['en'];
 
   // Build hreflang alternates for all locales
-  const hreflangLanguages: Record<string, string> = {
-    'x-default': `${BASE_URL}/en/debate`,
-  };
-  for (const loc of LOCALES) {
-    hreflangLanguages[loc] = `${BASE_URL}/${loc}/debate`;
-  }
+  const hreflangLanguages = buildHreflang(BASE_URL, '/debate');
 
   const ogImageUrl = `${BASE_URL}/images/debate-og.png`; // Fallback image or a custom debate OG banner if exists
 

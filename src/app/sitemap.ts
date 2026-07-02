@@ -2,33 +2,13 @@ import { MetadataRoute } from 'next'
 import { giants } from '@/lib/giants-data'
 import { blogPosts } from '@/data/blog-posts'
 
-const BASE_URL = 'https://www.giantswisdom.com'
-const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt', 'ar', 'hi', 'ru', 'zh'] as const
-type Locale = typeof LOCALES[number]
+import { LOCALES, buildHreflang } from '@/lib/locales'
 
-// Locale → ISO 639-1 hreflang tag mapping
-const HREFLANG: Record<Locale, string> = {
-  ko: 'ko',
-  en: 'en',
-  de: 'de',
-  ja: 'ja',
-  es: 'es',
-  fr: 'fr',
-  it: 'it',
-  pt: 'pt',
-  ar: 'ar',
-  hi: 'hi',
-  ru: 'ru',
-  zh: 'zh',
-}
+const BASE_URL = 'https://www.giantswisdom.com'
 
 /** Build alternates object for a given path (e.g. '' | '/test' | '/giant/steve-jobs') */
 function buildAlternates(path: string) {
-  const languages: Record<string, string> = { 'x-default': `${BASE_URL}/en${path}` }
-  for (const locale of LOCALES) {
-    languages[HREFLANG[locale]] = `${BASE_URL}/${locale}${path}`
-  }
-  return { languages }
+  return { languages: buildHreflang(BASE_URL, path) }
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {

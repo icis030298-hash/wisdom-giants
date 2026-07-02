@@ -22,6 +22,7 @@ import {
 import React from 'react'
 import { InArticleAd } from '@/components/ad-slot'
 import GiantAvatar from '@/components/GiantAvatar'
+import { buildHreflang } from '@/lib/locales'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -32,7 +33,6 @@ interface Props {
 }
 
 const BASE_URL = 'https://www.giantswisdom.com'
-const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt', 'ar', 'hi', 'ru', 'zh'] as const
 
 const uiTranslations: Record<string, Record<string, string>> = {
   ko: {
@@ -204,12 +204,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${translation.title} | Giants Wisdom`
   const description = translation.description
 
-  const hreflangLanguages: Record<string, string> = {
-    'x-default': `${BASE_URL}/en/blog/${slug}`,
-  }
-  for (const loc of LOCALES) {
-    hreflangLanguages[loc] = `${BASE_URL}/${loc}/blog/${slug}`
-  }
+  const hreflangLanguages = buildHreflang(BASE_URL, `/blog/${slug}`)
 
   const giant = giants.find(g => g.slug === post.giantSlug)
   const absoluteImageUrl = giant

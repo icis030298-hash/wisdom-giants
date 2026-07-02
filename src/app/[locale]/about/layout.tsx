@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { buildHreflang } from '@/lib/locales'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -12,7 +13,6 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   const BASE_URL = 'https://www.giantswisdom.com';
-  const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr'] as const;
 
   const titleMap: Record<string, string> = {
     ko: '시대를 초월한 거인들의 전당 | 거인의 어깨',
@@ -34,10 +34,7 @@ export async function generateMetadata({
   const title = titleMap[locale] ?? titleMap['en'];
   const description = descMap[locale] ?? descMap['en'];
 
-  const hreflangLanguages: Record<string, string> = { 'x-default': `${BASE_URL}/en/about` };
-  for (const loc of LOCALES) {
-    hreflangLanguages[loc] = `${BASE_URL}/${loc}/about`;
-  }
+  const hreflangLanguages = buildHreflang(BASE_URL, '/about');
 
   return {
     title,

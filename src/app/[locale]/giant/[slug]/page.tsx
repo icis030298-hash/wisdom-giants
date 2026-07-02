@@ -6,6 +6,7 @@ import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
 import finalNarratives from "@/data/final-narratives.json";
+import { buildHreflang } from '@/lib/locales';
 
 // Load fact layer data
 const factLayerPath = path.join(process.cwd(), 'src/data/fact-layer-all.json');
@@ -33,7 +34,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 
   const BASE_URL = 'https://www.giantswisdom.com';
-  const LOCALES = ['ko', 'en', 'de', 'ja', 'es', 'fr', 'it', 'pt'] as const;
 
   const baseDesc = giantData.shortDescription || '';
   const slicedDesc = baseDesc.length > 120 ? baseDesc.slice(0, 120) + '...' : baseDesc;
@@ -70,13 +70,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? giant.imageUrl
     : `${BASE_URL}${giant.imageUrl}`;
 
-  // Build full hreflang alternates for all 6 locales
-  const hreflangLanguages: Record<string, string> = {
-    'x-default': `${BASE_URL}/en/giant/${slug}`,
-  };
-  for (const loc of LOCALES) {
-    hreflangLanguages[loc] = `${BASE_URL}/${loc}/giant/${slug}`;
-  }
+  // Build full hreflang alternates for all locales
+  const hreflangLanguages = buildHreflang(BASE_URL, `/giant/${slug}`);
 
   return {
     title,
