@@ -15,7 +15,7 @@ export interface Giant {
   dnaCode: string;
   category: string; // Add category ID
   lessons?: any[];
-  region?: 'east-asia' | 'europe' | 'americas' | 'middle-east-turkey' | 'africa' | 'south-southeast-asia';
+  region?: 'east-asia' | 'europe' | 'americas' | 'middle-east-turkey' | 'africa' | 'south-southeast-asia' | 'eurasia';
 }
 
 const colorMap: Record<string, string> = {
@@ -32,7 +32,7 @@ export const giants: Giant[] = giantsData
     id: g.slug,
     name: g.name,
     title: g.headline,
-    era: g.era,
+    era: g.era || "",
     field: g.category,
     description: g.shortDescription,
     quote: g.quote,

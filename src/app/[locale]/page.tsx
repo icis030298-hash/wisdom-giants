@@ -10,6 +10,7 @@ import { getTranslations } from "next-intl/server"
 import { blogPosts } from "@/data/blog-posts"
 import { ConditionalAdSense } from "@/components/conditional-adsense"
 import { AdSlot } from "@/components/ad-slot"
+import finalNarratives from "@/data/final-narratives.json";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -138,6 +139,34 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const td = await getTranslations({ locale, namespace: "DebateCTA" });
   const tc = await getTranslations({ locale, namespace: "Consult" });
   const bt = blogTranslations[locale] || blogTranslations['en'];
+
+  // Map translations from final-narratives.json for card rendering
+  const dbCardData: Record<string, { shortDescription?: string; era?: string; quote?: string }> = {};
+  for (const slug of Object.keys(finalNarratives)) {
+    const giantData = (finalNarratives as any)[slug];
+    if (!giantData) continue;
+    
+    const factBox = giantData[`fact_box_${locale}`] || giantData.fact_box;
+    const era = giantData[`era_${locale}`] || giantData.era_en || giantData.era;
+    const wisdom = giantData.wisdom || [];
+    
+    let quote = undefined;
+    for (const w of wisdom) {
+      if (w[`quote_${locale}`] && w[`quote_${locale}`].trim().length > 0) {
+        quote = w[`quote_${locale}`];
+        break;
+      }
+    }
+    if (!quote && wisdom[0]) {
+      quote = wisdom[0].quote_en;
+    }
+    
+    dbCardData[slug] = {
+      shortDescription: factBox?.one_line_summary ? factBox.one_line_summary.replace(/^\[[a-z]{2}\]\s*/i, '').trim() : undefined,
+      era: era ? era.replace(/^\[[a-z]{2}\]\s*/i, '').trim() : undefined,
+      quote: quote ? quote.replace(/^\[[a-z]{2}\]\s*/i, '').trim() : undefined
+    };
+  }
 
   const getTranslation = (slug: string, fallback: string) => {
     try {
@@ -286,7 +315,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       
       {/* All Giants Grid */}
       <div id="giants">
-        <GiantsGrid />
+        <GiantsGrid dbCardData={dbCardData} />
       </div>
 
       {/* Latest Blog Section */}

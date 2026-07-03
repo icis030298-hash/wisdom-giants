@@ -12,9 +12,10 @@ import { useGiantHistory } from "@/hooks/useGiantHistory"
 interface GiantCardProps {
   giant: Giant
   index: number
+  dbData?: { shortDescription?: string; era?: string; quote?: string }
 }
 
-export function GiantCard({ giant, index }: GiantCardProps) {
+export function GiantCard({ giant, index, dbData }: GiantCardProps) {
   const t = useTranslations("Giants")
   const gt = useTranslations("GiantsGrid")
   const { hasChattedWith } = useGiantHistory()
@@ -30,19 +31,22 @@ export function GiantCard({ giant, index }: GiantCardProps) {
       // We check exact equality with the namespaced key, OR if result starts with Giants.<slug>.
       const namespacedKey = `Giants.${key}`;
       const slugPrefix = `Giants.${giant.id}.`;
+      
+      const cleanText = (text: string) => text.replace(/^\[[a-z]{2}\]\s*/i, '').trim();
+      
       if (translated === namespacedKey || translated === key || translated.startsWith(slugPrefix)) {
-        return fallback;
+        return cleanText(fallback);
       }
-      return translated;
+      return cleanText(translated);
     } catch (e) {
-      return fallback;
+      return fallback.replace(/^\[[a-z]{2}\]\s*/i, '').trim();
     }
   }
   
   const name = getTranslation(`${giant.id}.name`, giant.name)
   const headline = getTranslation(`${giant.id}.headline`, giant.title)
-  const shortDescription = getTranslation(`${giant.id}.shortDescription`, giant.description)
-  const quote = getTranslation(`${giant.id}.quote`, giant.quote)
+  const shortDescription = dbData?.shortDescription || getTranslation(`${giant.id}.shortDescription`, giant.description)
+  const quote = dbData?.quote || getTranslation(`${giant.id}.quote`, giant.quote)
   
   return (
     <Link

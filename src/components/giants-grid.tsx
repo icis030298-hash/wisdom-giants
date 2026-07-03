@@ -9,9 +9,11 @@ import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
 import { useGiantHistory } from "@/hooks/useGiantHistory"
 
-interface GiantsGridProps {}
+interface GiantsGridProps {
+  dbCardData?: Record<string, { shortDescription?: string; era?: string; quote?: string }>
+}
 
-export function GiantsGrid({}: GiantsGridProps) {
+export function GiantsGrid({ dbCardData }: GiantsGridProps) {
   const t = useTranslations("GiantsGrid")
   const tg = useTranslations("Giants")
   const { totalChatted } = useGiantHistory()
@@ -72,9 +74,10 @@ export function GiantsGrid({}: GiantsGridProps) {
         }
       }
 
+      const dbData = dbCardData?.[giant.slug];
       const name = getT(`${giant.slug}.name`, giant.name).toLowerCase()
       const headline = getT(`${giant.slug}.headline`, giant.title).toLowerCase()
-      const desc = getT(`${giant.slug}.shortDescription`, giant.description).toLowerCase()
+      const desc = (dbData?.shortDescription || getT(`${giant.slug}.shortDescription`, giant.description)).toLowerCase()
 
       return (
         name.includes(query) ||
@@ -225,6 +228,7 @@ export function GiantsGrid({}: GiantsGridProps) {
                 key={giant.id}
                 giant={giant}
                 index={index}
+                dbData={dbCardData?.[giant.slug]}
               />
             ))}
           </div>
@@ -253,14 +257,14 @@ export function GiantsGrid({}: GiantsGridProps) {
                       {tg(`${giant.slug}.name`).includes(`${giant.slug}.`) ? giant.name : tg(`${giant.slug}.name`)}
                     </h3>
                     <span className="text-xs text-muted-foreground">
-                      {tg(`${giant.slug}.era`).includes(`${giant.slug}.`) ? giant.era : tg(`${giant.slug}.era`)}
+                      {dbCardData?.[giant.slug]?.era || (tg(`${giant.slug}.era`).includes(`${giant.slug}.`) ? giant.era : tg(`${giant.slug}.era`))}
                     </span>
                   </div>
                   <p className="text-sm text-amber-400/80">
                     {tg(`${giant.slug}.headline`).includes(`${giant.slug}.`) ? giant.title : tg(`${giant.slug}.headline`)}
                   </p>
                   <p className="text-sm text-muted-foreground mt-1 line-clamp-1">
-                    {tg(`${giant.slug}.shortDescription`).includes(`${giant.slug}.`) ? giant.description : tg(`${giant.slug}.shortDescription`)}
+                    {dbCardData?.[giant.slug]?.shortDescription || (tg(`${giant.slug}.shortDescription`).includes(`${giant.slug}.`) ? giant.description : tg(`${giant.slug}.shortDescription`))}
                   </p>
                 </div>
                 
