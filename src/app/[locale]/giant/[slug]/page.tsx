@@ -132,8 +132,14 @@ export default async function GiantDetailPage({ params }: Props) {
   const getFieldText = (obj: any, fieldName: string) => {
     if (!obj) return '';
     const key = `${fieldName}_${locale}`;
-    if (obj[key] && obj[key].trim().length > 0) return obj[key];
-    return obj[`${fieldName}_en`] || '';
+    let text = '';
+    if (obj[key] && obj[key].trim().length > 0) {
+      text = obj[key];
+    } else {
+      text = obj[`${fieldName}_en`] || '';
+    }
+    // Strip debug/placeholder language prefixes like "[vi]" or "[th]"
+    return text.replace(/^\[[a-z]{2}\]\s*/i, '').trim();
   };
 
   // Locales with full narrative translations in final-narratives.json
