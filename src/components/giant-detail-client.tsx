@@ -696,6 +696,56 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
             );
           })()}
 
+          {/* Fact Box Section */}
+          {narrative?.fact_box && (
+            <section className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
+              <div className="flex items-center gap-3 text-emerald-400/80">
+                <div className="w-8 h-8 rounded-lg bg-emerald-500/10 flex items-center justify-center border border-emerald-500/20">
+                  <Sparkles className="w-4 h-4" />
+                </div>
+                <h2 className="text-sm font-bold uppercase tracking-widest">
+                  {locale === 'ko' ? '요약 & 주요 업적' : 'Quick Facts & Achievements'}
+                </h2>
+              </div>
+              <div className="glass-card p-6 md:p-8 rounded-2xl border border-white/[0.08] bg-gradient-to-br from-white/[0.03] to-transparent space-y-6">
+                {/* One Line Summary */}
+                <div className="space-y-2">
+                  <h3 className="text-xs font-bold text-amber-500/60 uppercase tracking-[0.1em]">
+                    {locale === 'ko' ? '한 줄 요약' : 'Summary'}
+                  </h3>
+                  <p className="text-slate-100 text-base font-medium leading-relaxed">{narrative.fact_box.one_line_summary}</p>
+                </div>
+                
+                {/* Key Achievements */}
+                <div className="space-y-3 pt-2">
+                  <h3 className="text-xs font-bold text-amber-500/60 uppercase tracking-[0.1em]">
+                    {locale === 'ko' ? '핵심 업적' : 'Key Achievements'}
+                  </h3>
+                  <ul className="space-y-3">
+                    {narrative.fact_box.key_achievements.map((ach: string, idx: number) => (
+                      <li key={idx} className="flex gap-3 items-start">
+                        <span className="text-emerald-500 font-bold">✓</span>
+                        <span className="text-slate-200 text-sm md:text-base leading-relaxed">{ach}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                
+                {/* Legacy Statement */}
+                {narrative.fact_box.legacy_statement && (
+                  <div className="space-y-2 pt-2 border-t border-white/5">
+                    <h3 className="text-xs font-bold text-amber-500/60 uppercase tracking-[0.1em]">
+                      {locale === 'ko' ? '영향 및 유산' : 'Impact & Legacy'}
+                    </h3>
+                    <p className="text-slate-300 text-sm md:text-base leading-relaxed italic">
+                      "{narrative.fact_box.legacy_statement}"
+                    </p>
+                  </div>
+                )}
+              </div>
+            </section>
+          )}
+
           {/* 2. Trials & Overcoming Combined into a sophisticated layout */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {/* Trials */}

@@ -129,40 +129,29 @@ export default async function GiantDetailPage({ params }: Props) {
   const narrative = (finalNarratives as any)[giant.slug];
   
   // For locales without a dedicated narrative, fall back to English
-  const getNarrativeText = (
-    enVal: string,
-    koVal: string,
-    esVal?: string,
-    deVal?: string,
-    jaVal?: string,
-    frVal?: string,
-    ptVal?: string,
-    itVal?: string
-  ) => {
-    if (locale === 'ko') return koVal;
-    if (locale === 'es' && esVal) return esVal;
-    if (locale === 'de' && deVal) return deVal;
-    if (locale === 'ja' && jaVal) return jaVal;
-    if (locale === 'fr' && frVal) return frVal;
-    if (locale === 'pt' && ptVal) return ptVal;
-    if (locale === 'it' && itVal) return itVal;
-    return enVal;
+  const getFieldText = (obj: any, fieldName: string) => {
+    if (!obj) return '';
+    const key = `${fieldName}_${locale}`;
+    if (obj[key] && obj[key].trim().length > 0) return obj[key];
+    return obj[`${fieldName}_en`] || '';
   };
 
   // Locales with full narrative translations in final-narratives.json
-  const NARRATIVE_LOCALES = ['ko', 'en', 'es', 'de', 'ja', 'fr'];
+  const NARRATIVE_LOCALES = [
+    'ko', 'en', 'ar', 'zh', 'nl', 'fr', 'de', 'el', 'ha', 'he', 'hi', 'id', 'it', 'ja', 'fa', 'pl', 'pt', 'ru', 'es', 'sw', 'th', 'tr', 'uk', 'vi'
+  ];
   const hasNarrativeLocale = NARRATIVE_LOCALES.includes(locale);
 
   const formattedNarrative = narrative ? {
-    epic: getNarrativeText(narrative.epic_en, narrative.epic_ko, narrative.epic_es, narrative.epic_de, narrative.epic_ja, narrative.epic_fr, narrative.epic_pt, narrative.epic_it),
-    // For IT/PT without dedicated translations, return undefined so page falls back to messages.json pain/recovery/era
-    trials: hasNarrativeLocale ? getNarrativeText(narrative.trials_en, narrative.trials_ko, narrative.trials_es, narrative.trials_de, narrative.trials_ja, narrative.trials_fr, narrative.trials_pt, narrative.trials_it) : undefined,
-    overcoming: hasNarrativeLocale ? getNarrativeText(narrative.overcoming_en, narrative.overcoming_ko, narrative.overcoming_es, narrative.overcoming_de, narrative.overcoming_ja, narrative.overcoming_fr, narrative.overcoming_pt, narrative.overcoming_it) : undefined,
-    era: hasNarrativeLocale ? getNarrativeText(narrative.era_en, narrative.era_ko, narrative.era_es, narrative.era_de, narrative.era_ja, narrative.era_fr, narrative.era_pt, narrative.era_it) : undefined,
+    epic: getFieldText(narrative, 'epic'),
+    trials: hasNarrativeLocale ? getFieldText(narrative, 'trials') : undefined,
+    overcoming: hasNarrativeLocale ? getFieldText(narrative, 'overcoming') : undefined,
+    era: hasNarrativeLocale ? getFieldText(narrative, 'era') : undefined,
     wisdom: (narrative.wisdom || []).map((w: any) => ({
-      quote: getNarrativeText(w.quote_en, w.quote_ko, w.quote_es, w.quote_de, w.quote_ja, w.quote_fr, w.quote_pt, w.quote_it),
-      meaning: getNarrativeText(w.meaning_en, w.meaning_ko, w.meaning_es, w.meaning_de, w.meaning_ja, w.meaning_fr, w.meaning_pt, w.meaning_it)
-    }))
+      quote: getFieldText(w, 'quote'),
+      meaning: getFieldText(w, 'meaning')
+    })),
+    fact_box: narrative[`fact_box_${locale}`] || narrative.fact_box
   } : null;
 
   const giantTranslation = (messages.Giants as any)[giant.slug] || {
