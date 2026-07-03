@@ -146,8 +146,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     const giantData = (finalNarratives as any)[slug];
     if (!giantData) continue;
     
-    const factBox = giantData[`fact_box_${locale}`] || giantData.fact_box;
-    const era = giantData[`era_${locale}`] || giantData.era_en || giantData.era;
+    // ko locale: use raw fact_box (Korean). Others: prefer locale-specific, then English, then Korean default.
+    const factBox = locale === 'ko'
+      ? (giantData.fact_box_ko || giantData.fact_box)
+      : (giantData[`fact_box_${locale}`] || giantData.fact_box_en || giantData.fact_box_ko || giantData.fact_box);
+    const era = locale === 'ko'
+      ? (giantData.era_ko || giantData.era)
+      : (giantData[`era_${locale}`] || giantData.era_en || giantData.era);
     const wisdom = giantData.wisdom || [];
     
     let quote = undefined;
