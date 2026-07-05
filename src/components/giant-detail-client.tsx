@@ -206,7 +206,12 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
     return text.replace(/\\n/g, '\n');
   };
 
-  const alignClass = (locale === 'ja' || locale === 'zh') ? 'text-left' : 'text-left md:text-justify';
+  const isRTL = ['ar', 'fa', 'he'].includes(locale);
+  const alignClass = isRTL 
+    ? 'text-right md:text-justify' 
+    : (locale === 'ja' || locale === 'zh') 
+      ? 'text-left' 
+      : 'text-left md:text-justify';
 
   const parseParagraphs = (content: string | string[] | undefined): string[] => {
     if (!content) return [];
@@ -629,7 +634,9 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                           
                           return (
                             <p className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep ${alignClass}`}>
-                              <span className="text-5xl md:text-6xl font-serif mr-3 md:mr-4 float-left text-amber-400 font-black leading-none mt-1 md:mt-2">
+                              <span className={`text-5xl md:text-6xl font-serif text-amber-400 font-black leading-none mt-1 md:mt-2 ${
+                                isRTL ? 'ml-3 md:ml-4 float-right' : 'mr-3 md:mr-4 float-left'
+                              }`}>
                                 {firstLetter}
                               </span>
                               {restOfText}
@@ -658,7 +665,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                     }`}
                     aria-label="Previous story page"
                   >
-                    <ArrowLeft className="w-5 h-5" />
+                    {isRTL ? <ArrowRight className="w-5 h-5" /> : <ArrowLeft className="w-5 h-5" />}
                   </button>
 
                   {/* Indicator */}
@@ -673,7 +680,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                       className="flex items-center justify-center w-12 h-12 rounded-full border border-amber-500/20 bg-amber-500/5 text-amber-400 transition-all duration-300 opacity-40 hover:opacity-100 hover:scale-105 hover:bg-amber-500/10 active:scale-95"
                       aria-label="Next story page"
                     >
-                      <ArrowRight className="w-5 h-5" />
+                      {isRTL ? <ArrowLeft className="w-5 h-5" /> : <ArrowRight className="w-5 h-5" />}
                     </button>
                   ) : (
                     <div className="w-12 h-12 opacity-0 pointer-events-none" />
