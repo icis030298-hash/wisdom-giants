@@ -1,0 +1,225 @@
+{
+  "totalGiants": 485,
+  "languages": 24,
+  "messagesCoverage": {
+    "ar": {
+      "totalFields": 3395,
+      "missingOrDummy": 166,
+      "missingSlugs": []
+    },
+    "de": {
+      "totalFields": 3395,
+      "missingOrDummy": 409,
+      "missingSlugs": []
+    },
+    "el": {
+      "totalFields": 3395,
+      "missingOrDummy": 1442,
+      "missingSlugs": []
+    },
+    "en": {
+      "totalFields": 3395,
+      "missingOrDummy": 174,
+      "missingSlugs": []
+    },
+    "es": {
+      "totalFields": 3395,
+      "missingOrDummy": 410,
+      "missingSlugs": []
+    },
+    "fa": {
+      "totalFields": 3395,
+      "missingOrDummy": 1445,
+      "missingSlugs": []
+    },
+    "fr": {
+      "totalFields": 3395,
+      "missingOrDummy": 408,
+      "missingSlugs": []
+    },
+    "ha": {
+      "totalFields": 3395,
+      "missingOrDummy": 1793,
+      "missingSlugs": []
+    },
+    "he": {
+      "totalFields": 3395,
+      "missingOrDummy": 1438,
+      "missingSlugs": []
+    },
+    "hi": {
+      "totalFields": 3395,
+      "missingOrDummy": 170,
+      "missingSlugs": []
+    },
+    "id": {
+      "totalFields": 3395,
+      "missingOrDummy": 1671,
+      "missingSlugs": []
+    },
+    "it": {
+      "totalFields": 3395,
+      "missingOrDummy": 426,
+      "missingSlugs": []
+    },
+    "ja": {
+      "totalFields": 3395,
+      "missingOrDummy": 175,
+      "missingSlugs": []
+    },
+    "ko": {
+      "totalFields": 3395,
+      "missingOrDummy": 174,
+      "missingSlugs": []
+    },
+    "nl": {
+      "totalFields": 3395,
+      "missingOrDummy": 1658,
+      "missingSlugs": []
+    },
+    "pl": {
+      "totalFields": 3395,
+      "missingOrDummy": 1614,
+      "missingSlugs": []
+    },
+    "pt": {
+      "totalFields": 3395,
+      "missingOrDummy": 444,
+      "missingSlugs": []
+    },
+    "ru": {
+      "totalFields": 3395,
+      "missingOrDummy": 155,
+      "missingSlugs": []
+    },
+    "sw": {
+      "totalFields": 3395,
+      "missingOrDummy": 1723,
+      "missingSlugs": []
+    },
+    "th": {
+      "totalFields": 3395,
+      "missingOrDummy": 1438,
+      "missingSlugs": []
+    },
+    "tr": {
+      "totalFields": 3395,
+      "missingOrDummy": 1629,
+      "missingSlugs": []
+    },
+    "uk": {
+      "totalFields": 3395,
+      "missingOrDummy": 1438,
+      "missingSlugs": []
+    },
+    "vi": {
+      "totalFields": 3395,
+      "missingOrDummy": 1689,
+      "missingSlugs": []
+    },
+    "zh": {
+      "totalFields": 3395,
+      "missingOrDummy": 173,
+      "missingSlugs": []
+    }
+  },
+  "narrativesCoverage": {
+    "ar": {
+      "totalFields": 4850,
+      "missingOrDummy": 4
+    },
+    "de": {
+      "totalFields": 4850,
+      "missingOrDummy": 5
+    },
+    "el": {
+      "totalFields": 4850,
+      "missingOrDummy": 4
+    },
+    "en": {
+      "totalFields": 4850,
+      "missingOrDummy": 9
+    },
+    "es": {
+      "totalFields": 4850,
+      "missingOrDummy": 4
+    },
+    "fa": {
+      "totalFields": 4850,
+      "missingOrDummy": 188
+    },
+    "fr": {
+      "totalFields": 4850,
+      "missingOrDummy": 160
+    },
+    "ha": {
+      "totalFields": 4850,
+      "missingOrDummy": 160
+    },
+    "he": {
+      "totalFields": 4850,
+      "missingOrDummy": 84
+    },
+    "hi": {
+      "totalFields": 4850,
+      "missingOrDummy": 628
+    },
+    "id": {
+      "totalFields": 4850,
+      "missingOrDummy": 4
+    },
+    "it": {
+      "totalFields": 4850,
+      "missingOrDummy": 5
+    },
+    "ja": {
+      "totalFields": 4850,
+      "missingOrDummy": 4
+    },
+    "ko": {
+      "totalFields": 4850,
+      "missingOrDummy": 4
+    },
+    "nl": {
+      "totalFields": 4850,
+      "missingOrDummy": 9
+    },
+    "pl": {
+      "totalFields": 4850,
+      "missingOrDummy": 5
+    },
+    "pt": {
+      "totalFields": 4850,
+      "missingOrDummy": 7
+    },
+    "ru": {
+      "totalFields": 4850,
+      "missingOrDummy": 5
+    },
+    "sw": {
+      "totalFields": 4850,
+      "missingOrDummy": 10
+    },
+    "th": {
+      "totalFields": 4850,
+      "missingOrDummy": 6
+    },
+    "tr": {
+      "totalFields": 4850,
+      "missingOrDummy": 6
+    },
+    "uk": {
+      "totalFields": 4850,
+      "missingOrDummy": 4
+    },
+    "vi": {
+      "totalFields": 4850,
+      "missingOrDummy": 17
+    },
+    "zh": {
+      "totalFields": 4850,
+      "missingOrDummy": 14
+    }
+  },
+  "anomalies": []
+}
