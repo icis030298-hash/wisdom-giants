@@ -5,8 +5,21 @@ import { GiantDetailClient } from "@/components/giant-detail-client";
 import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
-import finalNarratives from "@/data/final-narratives.json";
 import { buildHreflang } from '@/lib/locales';
+import { blogPosts } from "@/data/blog-posts";
+
+// Load large JSON files dynamically to prevent Next.js from bundling them into JS modules
+const narrativesPath = path.join(process.cwd(), 'src/data/final-narratives.json');
+let finalNarratives: any = {};
+if (fs.existsSync(narrativesPath)) {
+  finalNarratives = JSON.parse(fs.readFileSync(narrativesPath, 'utf-8'));
+}
+
+const wikiLinksPath = path.join(process.cwd(), 'src/data/wikipedia-links.json');
+let wikipediaLinks: any = {};
+if (fs.existsSync(wikiLinksPath)) {
+  wikipediaLinks = JSON.parse(fs.readFileSync(wikiLinksPath, 'utf-8'));
+}
 
 // Load fact layer data
 const factLayerPath = path.join(process.cwd(), 'src/data/fact-layer-all.json');
@@ -265,7 +278,12 @@ export default async function GiantDetailPage({ params }: Props) {
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
-      <GiantDetailClient giant={giant} translations={translations} />
+      <GiantDetailClient 
+        giant={giant} 
+        translations={translations} 
+        relatedBlogPosts={blogPosts.filter(post => post.relatedGiants?.includes(giant.slug))}
+        wikipediaUrl={((wikipediaLinks as any)[giant.slug]?.[locale] || (wikipediaLinks as any)[giant.slug]?.['en'] || null)}
+      />
     </>
   );
 }

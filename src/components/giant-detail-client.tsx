@@ -30,8 +30,6 @@ import { giants } from "@/lib/giants-data"
 import { ConditionalAdSense } from "@/components/conditional-adsense"
 import { AdSlot } from "@/components/ad-slot"
 import GiantAvatar from "@/components/GiantAvatar"
-import { blogPosts } from "@/data/blog-posts"
-import wikipediaLinks from "@/data/wikipedia-links.json"
 
 interface GiantDetailClientProps {
   giant: any;
@@ -41,7 +39,10 @@ interface GiantDetailClientProps {
     giantsGrid: any;
     giantBlogLink?: any;
     narrative?: any;
-  }
+    factLayer?: any;
+  };
+  relatedBlogPosts: any[];
+  wikipediaUrl: string | null;
 }
 
 function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related: any; locale: string; getRelatedTranslation: any }) {
@@ -90,7 +91,7 @@ function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related:
   );
 }
 
-export function GiantDetailClient({ giant, translations }: GiantDetailClientProps) {
+export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikipediaUrl }: GiantDetailClientProps) {
   const [isChatOpen, setIsChatOpen] = useState(false)
   const [showMatchOverlay, setShowMatchOverlay] = useState(false)
   const [imageError, setImageError] = useState(false)
@@ -171,13 +172,6 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   }, [])
   
   const { giantDetail: t, giants: tg, giantsGrid: tc, narrative, giantBlogLink } = translations;
-
-  const relatedBlogPosts = blogPosts.filter(
-    post => post.relatedGiants?.includes(giant.slug)
-  );
-
-  const wikiData = (wikipediaLinks as Record<string, Record<string, string | null>>)[giant.slug];
-  const wikipediaUrl = wikiData?.[locale] || wikiData?.['en'] || null;
 
   const tGiants = useTranslations("Giants");
   const getRelatedTranslation = (slug: string, key: string, fallback: string) => {
