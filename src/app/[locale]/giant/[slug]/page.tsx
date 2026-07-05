@@ -133,13 +133,24 @@ export default async function GiantDetailPage({ params }: Props) {
     if (!obj) return '';
     const key = `${fieldName}_${locale}`;
     let text = '';
-    if (obj[key] && obj[key].trim().length > 0) {
+    const hasValue = obj[key] && obj[key].trim().length > 0;
+    
+    // Check if it's dummy reversed English (e.g. under [RTL he] prefix and no real Hebrew characters)
+    let isDummyHebrew = false;
+    if (locale === 'he' && hasValue) {
+      const hebrewCharRegex = /[\u0590-\u05ff]/;
+      if (!hebrewCharRegex.test(obj[key])) {
+        isDummyHebrew = true;
+      }
+    }
+
+    if (hasValue && !isDummyHebrew) {
       text = obj[key];
     } else {
       text = obj[`${fieldName}_en`] || '';
     }
-    // Strip debug/placeholder language prefixes like "[vi]" or "[th]"
-    return text.replace(/^\[[a-z]{2}\]\s*/i, '').trim();
+    // Strip debug/placeholder language prefixes like "[vi]" or "[RTL he]"
+    return text.replace(/^\[(?:RTL\s+)?[a-z]{2,3}\]\s*/i, '').trim();
   };
 
   // Locales with full narrative translations in final-narratives.json

@@ -146,30 +146,48 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     const giantData = (finalNarratives as any)[slug];
     if (!giantData) continue;
     
-    // ko locale: use raw fact_box (Korean). Others: prefer locale-specific, then English, then Korean default.
+    // Check if real Hebrew translation is present (has Hebrew characters)
+    const isRealHebrew = (text: string | undefined) => {
+      if (!text) return false;
+      if (locale !== 'he') return true;
+      const hebrewCharRegex = /[\u0590-\u05ff]/;
+      return hebrewCharRegex.test(text);
+    };
+
+    const hasHebrewFactBox = giantData[`fact_box_he`]?.one_line_summary && isRealHebrew(giantData[`fact_box_he`].one_line_summary);
+    const hasHebrewEra = giantData[`era_he`] && isRealHebrew(giantData[`era_he`]);
+
     const factBox = locale === 'ko'
       ? (giantData.fact_box_ko || giantData.fact_box)
-      : (giantData[`fact_box_${locale}`] || giantData.fact_box_en || giantData.fact_box_ko || giantData.fact_box);
+      : (locale === 'he' && !hasHebrewFactBox)
+        ? (giantData.fact_box_en || giantData.fact_box_ko || giantData.fact_box)
+        : (giantData[`fact_box_${locale}`] || giantData.fact_box_en || giantData.fact_box_ko || giantData.fact_box);
+
     const era = locale === 'ko'
       ? (giantData.era_ko || giantData.era)
-      : (giantData[`era_${locale}`] || giantData.era_en || giantData.era);
+      : (locale === 'he' && !hasHebrewEra)
+        ? (giantData.era_en || giantData.era)
+        : (giantData[`era_${locale}`] || giantData.era_en || giantData.era);
+
     const wisdom = giantData.wisdom || [];
-    
     let quote = undefined;
     for (const w of wisdom) {
       if (w[`quote_${locale}`] && w[`quote_${locale}`].trim().length > 0) {
-        quote = w[`quote_${locale}`];
-        break;
+        if (locale !== 'he' || isRealHebrew(w[`quote_${locale}`])) {
+          quote = w[`quote_${locale}`];
+          break;
+        }
       }
     }
     if (!quote && wisdom[0]) {
       quote = wisdom[0].quote_en;
     }
     
+    const prefixRegex = /^\[(?:RTL\s+)?[a-z]{2,3}\]\s*/i;
     dbCardData[slug] = {
-      shortDescription: factBox?.one_line_summary ? factBox.one_line_summary.replace(/^\[[a-z]{2}\]\s*/i, '').trim() : undefined,
-      era: era ? era.replace(/^\[[a-z]{2}\]\s*/i, '').trim() : undefined,
-      quote: quote ? quote.replace(/^\[[a-z]{2}\]\s*/i, '').trim() : undefined
+      shortDescription: factBox?.one_line_summary ? factBox.one_line_summary.replace(prefixRegex, '').trim() : undefined,
+      era: era ? era.replace(prefixRegex, '').trim() : undefined,
+      quote: quote ? quote.replace(prefixRegex, '').trim() : undefined
     };
   }
 
