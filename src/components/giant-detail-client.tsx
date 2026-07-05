@@ -177,7 +177,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
   );
 
   const wikiData = (wikipediaLinks as Record<string, Record<string, string | null>>)[giant.slug];
-  const wikipediaUrl = wikiData?.[activeLocale] || wikiData?.['en'] || null;
+  const wikipediaUrl = wikiData?.[locale] || wikiData?.['en'] || null;
 
   const tGiants = useTranslations("Giants");
   const getRelatedTranslation = (slug: string, key: string, fallback: string) => {
@@ -942,7 +942,7 @@ export function GiantDetailClient({ giant, translations }: GiantDetailClientProp
                 className="w-full py-3.5 rounded-xl border border-white/10 hover:border-white/20 text-stone-300 hover:text-white font-medium text-sm transition-all flex items-center justify-center gap-2 group active:scale-95 bg-white/[0.02] cursor-pointer"
               >
                 <span>🌐</span>
-                <span>{locale === 'ko' ? '위키백과에서 알아보기' : 'Learn more on Wikipedia'}</span>
+                <span>{getRelatedTranslation('detail', 'learnMoreWikipedia', locale === 'ko' ? '위키백과에서 알아보기' : 'Learn more on Wikipedia')}</span>
               </a>
             )}
 
