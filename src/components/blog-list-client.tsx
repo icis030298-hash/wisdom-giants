@@ -233,7 +233,7 @@ export function BlogListClient() {
                   {/* Title and description */}
                   <Link href={`/blog/${post.slug}`} className="block group/link">
                     <h2 className="text-xl font-serif font-bold text-white mb-3 group-hover/link:text-amber-400 transition-colors line-clamp-2 min-h-[3.5rem]">
-                      {translation.title}
+                      {translation.title.replace(/\*\*/g, '')}
                     </h2>
                   </Link>
                   

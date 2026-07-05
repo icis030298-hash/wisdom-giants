@@ -8176,5 +8176,33 @@
     "subTitle": "위대한 지혜와 대화하다",
     "metaTitle": "거인의 어깨 | AI 역사 위인 대화",
     "metaDescription": "세종대왕, 소크라테스, 나폴레옹... 300명의 역사 위인과 AI로 직접 대화하세요. 완전 무료."
+  },
+  "UI": {
+    "about": "소개",
+    "quotesCollection": "명언 모음",
+    "deleteConversationConfirm": "이 대화를 삭제하시겠습니까? 복구할 수 없습니다.",
+    "deleteConversation": "대화 삭제",
+    "debateRoom": "역사의 토론방",
+    "aiDebate": "AI 토론",
+    "historicalGiantsDebate": "역사 위인 토론",
+    "aristotleVsNietzsche": "아리스토텔레스 니체 토론",
+    "aiChat": "AI 대화",
+    "historicalFigure": "역사 위인",
+    "home": "홈",
+    "hallOfGiants": "거인들의 전당",
+    "continuePreviousChat": "이전 대화 이어가기",
+    "loadingChatHistory": "대화 기록을 불러오는 중...",
+    "recommendedGiants": "관련 거인 추천",
+    "learnMoreOnWikipedia": "위키백과에서 알아보기",
+    "exploreLegacyOfOtherGiants": "이 분야에서 비슷한 길을 걸었던 다른 거인들의 유산도 탐구해보세요.",
+    "shareResults": "결과 공유하기",
+    "storyFormat": "스토리형 (9:16)",
+    "talkWithGiant": "거인과 대화하기",
+    "timelineAndFacts": "한눈에 보는 발자취",
+    "timeline": "연표",
+    "keyAchievements": "핵심 업적",
+    "readEpic": "대서사시 읽기",
+    "warningAiMistakes": "Giants Wisdom은 AI 챗봇으로서 실수를 할 수 있으므로, 중요한 정보는 위인의 실제 역사적 기록을 통해 한 번 더 확인하시기 바랍니다.",
+    "echoesOfPast": "과거의 메아리 • 시간을 초월한 지혜"
   }
 }

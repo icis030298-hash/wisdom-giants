@@ -1,0 +1,37 @@
+[
+  {
+    "remove": "avicenna-ibn-sina",
+    "keep": "ibn-sina",
+    "person": "이븐 시나(아비켄나)",
+    "removeExists": true,
+    "keepExists": true
+  },
+  {
+    "remove": "averroes-ibn-rushd",
+    "keep": "ibn-rushd",
+    "person": "이븐 루시드(아베로에스)",
+    "removeExists": true,
+    "keepExists": true
+  },
+  {
+    "remove": "queen-elizabeth-i",
+    "keep": "elizabeth-i",
+    "person": "엘리자베스 1세",
+    "removeExists": true,
+    "keepExists": true
+  },
+  {
+    "remove": "zarathushtra",
+    "keep": "zoroaster",
+    "person": "자라투스트라(조로아스터)",
+    "removeExists": true,
+    "keepExists": true
+  },
+  {
+    "remove": "ataturk",
+    "keep": "mustafa-kemal-ataturk",
+    "person": "무스타파 케말 아타튀르크",
+    "removeExists": true,
+    "keepExists": true
+  }
+]

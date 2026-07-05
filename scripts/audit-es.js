@@ -37,34 +37,34 @@ giants.forEach(slug => {
   const issues = [];
   
   // Check era
-  if (!data.era_es) {
+  if (data.era_en && !data.era_es) {
     issues.push('era_es missing');
-  } else if (data.era_es === data.era_en) {
+  } else if (data.era_en && data.era_es === data.era_en) {
     issues.push('era_es identical to era_en');
   }
 
   // Check epic
-  if (!data.epic_es) {
+  if (data.epic_en && !data.epic_es) {
     issues.push('epic_es missing');
-  } else if (data.epic_es === data.epic_en) {
+  } else if (data.epic_en && data.epic_es === data.epic_en) {
     issues.push('epic_es identical to epic_en');
   } else if (isLikelyEnglish(data.epic_es)) {
     issues.push('epic_es looks like English');
   }
 
   // Check trials
-  if (!data.trials_es) {
+  if (data.trials_en && !data.trials_es) {
     issues.push('trials_es missing');
-  } else if (data.trials_es === data.trials_en) {
+  } else if (data.trials_en && data.trials_es === data.trials_en) {
     issues.push('trials_es identical to trials_en');
   } else if (isLikelyEnglish(data.trials_es)) {
     issues.push('trials_es looks like English');
   }
 
   // Check overcoming
-  if (!data.overcoming_es) {
+  if (data.overcoming_en && !data.overcoming_es) {
     issues.push('overcoming_es missing');
-  } else if (data.overcoming_es === data.overcoming_en) {
+  } else if (data.overcoming_en && data.overcoming_es === data.overcoming_en) {
     issues.push('overcoming_es identical to overcoming_en');
   } else if (isLikelyEnglish(data.overcoming_es)) {
     issues.push('overcoming_es looks like English');
@@ -73,17 +73,17 @@ giants.forEach(slug => {
   // Check wisdom array
   if (data.wisdom && Array.isArray(data.wisdom)) {
     data.wisdom.forEach((w, idx) => {
-      if (!w.quote_es) {
+      if (w.quote_en && !w.quote_es) {
         issues.push(`wisdom[${idx}].quote_es missing`);
-      } else if (w.quote_es === w.quote_en) {
+      } else if (w.quote_en && w.quote_es === w.quote_en) {
         issues.push(`wisdom[${idx}].quote_es identical to quote_en`);
       } else if (isLikelyEnglish(w.quote_es)) {
         issues.push(`wisdom[${idx}].quote_es looks like English`);
       }
 
-      if (!w.meaning_es) {
+      if (w.meaning_en && !w.meaning_es) {
         issues.push(`wisdom[${idx}].meaning_es missing`);
-      } else if (w.meaning_es === w.meaning_en) {
+      } else if (w.meaning_en && w.meaning_es === w.meaning_en) {
         issues.push(`wisdom[${idx}].meaning_es identical to meaning_en`);
       } else if (isLikelyEnglish(w.meaning_es)) {
         issues.push(`wisdom[${idx}].meaning_es looks like English`);

@@ -1,52 +1,134 @@
 [
   {
-    "slug": "napoleon-bonaparte",
-    "mbti": "INFJ",
-    "name": "napoleon-bonaparte",
-    "category": "leadership",
-    "icons": [
-      "Historical figure",
-      "Iconic symbol"
-    ]
+    "slug": "anton-chekhov",
+    "category": "arts"
   },
   {
-    "slug": "malala-yousafzai",
-    "mbti": "INFJ",
-    "name": "malala-yousafzai",
-    "category": "leadership",
-    "icons": [
-      "Historical figure",
-      "Iconic symbol"
-    ]
+    "slug": "arthur-schopenhauer",
+    "category": "wisdom"
   },
   {
-    "slug": "franklin-d-roosevelt",
-    "mbti": "INFJ",
-    "name": "franklin-d-roosevelt",
-    "category": "leadership",
-    "icons": [
-      "Historical figure",
-      "Iconic symbol"
-    ]
+    "slug": "baruch-spinoza",
+    "category": "wisdom"
   },
   {
-    "slug": "leonardo-da-vinci",
-    "mbti": "INFJ",
-    "name": "leonardo-da-vinci",
-    "category": "arts",
-    "icons": [
-      "Historical figure",
-      "Iconic symbol"
-    ]
+    "slug": "buddha",
+    "category": "wisdom"
   },
   {
-    "slug": "pablo-picasso",
-    "mbti": "INFJ",
-    "name": "pablo-picasso",
-    "category": "arts",
-    "icons": [
-      "Historical figure",
-      "Iconic symbol"
-    ]
+    "slug": "carl-jung",
+    "category": "science"
+  },
+  {
+    "slug": "charles-darwin",
+    "category": "science"
+  },
+  {
+    "slug": "claude-monet",
+    "category": "arts"
+  },
+  {
+    "slug": "david-hume",
+    "category": "wisdom"
+  },
+  {
+    "slug": "frederic-chopin",
+    "category": "arts"
+  },
+  {
+    "slug": "frederick-douglass",
+    "category": "leadership"
+  },
+  {
+    "slug": "friedrich-nietzsche",
+    "category": "wisdom"
+  },
+  {
+    "slug": "fyodor-dostoevsky",
+    "category": "arts"
+  },
+  {
+    "slug": "galileo-galilei",
+    "category": "science"
+  },
+  {
+    "slug": "hannah-arendt",
+    "category": "wisdom"
+  },
+  {
+    "slug": "harriet-beecher-stowe",
+    "category": "arts"
+  },
+  {
+    "slug": "immanuel-kant",
+    "category": "wisdom"
+  },
+  {
+    "slug": "isaac-newton",
+    "category": "science"
+  },
+  {
+    "slug": "jean-jacques-rousseau",
+    "category": "wisdom"
+  },
+  {
+    "slug": "joan-of-arc",
+    "category": "leadership"
+  },
+  {
+    "slug": "john-locke",
+    "category": "leadership"
+  },
+  {
+    "slug": "katsushika-hokusai",
+    "category": "arts"
+  },
+  {
+    "slug": "kim-gu",
+    "category": "leadership"
+  },
+  {
+    "slug": "louis-braille",
+    "category": "wisdom"
+  },
+  {
+    "slug": "margaret-thatcher",
+    "category": "wisdom"
+  },
+  {
+    "slug": "mary-shelley",
+    "category": "arts"
+  },
+  {
+    "slug": "michelangelo",
+    "category": "arts"
+  },
+  {
+    "slug": "rene-descartes",
+    "category": "wisdom"
+  },
+  {
+    "slug": "rigoberta-menchu",
+    "category": "wisdom"
+  },
+  {
+    "slug": "sigmund-freud",
+    "category": "science"
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "category": "wisdom"
+  },
+  {
+    "slug": "soren-kierkegaard",
+    "category": "wisdom"
+  },
+  {
+    "slug": "sun-tzu",
+    "category": "leadership"
+  },
+  {
+    "slug": "victor-hugo",
+    "category": "arts"
   }
 ]

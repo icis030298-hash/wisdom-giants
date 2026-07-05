@@ -44,7 +44,8 @@ const uiTranslations: Record<string, Record<string, string>> = {
     ctaTitle: "와 직접 대화해보기",
     ctaDesc: "역사를 바꾼 거인의 두뇌와 실시간 AI 대화를 통해 깊은 인생의 해답과 통찰을 전수받아 보세요.",
     share: "공유하기",
-    copylink: "링크 복사"
+    copylink: "링크 복사",
+    disclaimer: "이 콘텐츠는 교육 목적으로 AI가 생성한 역사 자료입니다. 공인된 역사 기록, 심리 평가 또는 전문적인 조언이 아닙니다."
   },
   en: {
     backToBlog: "Wisdom Blog",
@@ -55,73 +56,8 @@ const uiTranslations: Record<string, Record<string, string>> = {
     ctaTitle: "Chat directly with ",
     ctaDesc: "Get direct, real-time life advice and profound wisdom from this historical giant through our advanced AI chat.",
     share: "Share",
-    copylink: "Copy Link"
-  },
-  de: {
-    backToBlog: "Weisheits-Blog",
-    readTime: "Min. Lesung",
-    chatWith: "Chatten mit ",
-    chatNow: "Chat starten",
-    relatedPosts: "Ähnliche Beiträge",
-    ctaTitle: "Direkt chatten mit ",
-    ctaDesc: "Erhalten Sie direktes, Echtzeit-Lebensberatung und tiefe Weisheit von diesem historischen Riesen durch unseren fortschrittlichen KI-Chat.",
-    share: "Teilen",
-    copylink: "Link kopieren"
-  },
-  ja: {
-    backToBlog: "偉人たちの知恵ブログ",
-    readTime: "分 読了",
-    chatWith: "と対話する",
-    chatNow: "対話を開始する",
-    relatedPosts: "関連投稿",
-    ctaTitle: "と直接対話してみる",
-    ctaDesc: "高度なAIチャットを通じて、この歴史的な偉人から直接、リアルタイムの人生のヒントと深い知恵を得ることができます。",
-    share: "共有",
-    copylink: "リンクをコピー"
-  },
-  es: {
-    backToBlog: "Blog de Sabiduría",
-    readTime: "min de lectura",
-    chatWith: "Chatear con ",
-    chatNow: "Iniciar chat",
-    relatedPosts: "Publicaciones relacionadas",
-    ctaTitle: "Chatea directamente con ",
-    ctaDesc: "Obtenga consejos de vida directos en tiempo real y una sabiduría profunda de este gigante histórico a través de nuestro chat de IA avanzado.",
-    share: "Compartir",
-    copylink: "Copiar enlace"
-  },
-  fr: {
-    backToBlog: "Blog de la Sagesse",
-    readTime: "min de lecture",
-    chatWith: "Chatter avec ",
-    chatNow: "Démarrer le chat",
-    relatedPosts: "Articles connexes",
-    ctaTitle: "Discuter directement avec ",
-    ctaDesc: "Obtenez des conseils de vie en temps réel et une sagesse profonde de ce géant historique grâce à notre chat IA avancé.",
-    share: "Partager",
-    copylink: "Copier le lien"
-  },
-  it: {
-    backToBlog: "Blog della Saggezza",
-    readTime: "min di lettura",
-    chatWith: "Chatta con ",
-    chatNow: "Avvia Chat",
-    relatedPosts: "Articoli correlati",
-    ctaTitle: "Chatta direttamente con ",
-    ctaDesc: "Ottieni consigli di vita diretti in tempo reale e una profonda saggezza da questo gigante storico attraverso la nostra chat IA avanzata.",
-    share: "Condividi",
-    copylink: "Copia Link"
-  },
-  pt: {
-    backToBlog: "Blog da Sabedoria",
-    readTime: "min de leitura",
-    chatWith: "Conversar com ",
-    chatNow: "Iniciar Chat",
-    relatedPosts: "Publicações relacionadas",
-    ctaTitle: "Converse diretamente com ",
-    ctaDesc: "Obtenha conselhos de vida diretos em tempo real e uma sabedoria profunda deste gigante histórico através do nosso chat de IA avançado.",
-    share: "Compartilhar",
-    copylink: "Copiar Link"
+    copylink: "Copy Link",
+    disclaimer: "This content is AI-generated historical material for educational purposes. It does not constitute certified historical records, psychological assessments, or professional advice."
   },
   ar: {
     backToBlog: "مدونة الحكمة",
@@ -132,7 +68,92 @@ const uiTranslations: Record<string, Record<string, string>> = {
     ctaTitle: "دردش مباشرة مع ",
     ctaDesc: "احصل على نصيحة مباشرة وحكمة عميقة من هذا العملاق التاريخي عبر دردشة الذكاء الاصطناعي المتقدمة الخاصة بنا.",
     share: "مشاركة",
-    copylink: "نسخ الرابط"
+    copylink: "نسخ الرابط",
+    disclaimer: "هذا المحتوى عبارة عن مادة تاريخية تم إنشاؤها بواسطة الذكاء الاصطناعي لأغراض تعليمية. ولا يشكل سجلات تاريخية معتمدة، أو تقييمات نفسية، أو استشارة مهنية."
+  },
+  zh: {
+    backToBlog: "智慧博客",
+    readTime: "分钟阅读",
+    chatWith: "与...对话 ",
+    chatNow: "开始对话",
+    relatedPosts: "相关文章",
+    ctaTitle: "与直接对话 ",
+    ctaDesc: "通过我们先进的 AI 对话，与这位历史伟人进行实时交流，获取人生的启示与深邃的智慧。",
+    share: "分享",
+    copylink: "复制链接",
+    disclaimer: "此内容为人工智能生成的历史资料，仅供教育用途。不构成经认证的历史记录、心理评估或专业建议。"
+  },
+  nl: {
+    backToBlog: "Wijsheidsblog",
+    readTime: "min leestijd",
+    chatWith: "Chat met ",
+    chatNow: "Start chat",
+    relatedPosts: "Gerelateerde berichten",
+    ctaTitle: "Chat direct met ",
+    ctaDesc: "Krijg direct, real-time levensadvies en diepgaande wijsheid van deze historische grootheid via onze geavanceerde AI-chat.",
+    share: "Delen",
+    copylink: "Link kopiëren",
+    disclaimer: "Deze inhoud is AI-gegenereerd historisch materiaal voor educatieve doeleinden. Het vormt geen gecertificeerde historische gegevens, psychologische beoordelingen of professioneel advies."
+  },
+  fr: {
+    backToBlog: "Blog de la Sagesse",
+    readTime: "min de lecture",
+    chatWith: "Chatter avec ",
+    chatNow: "Démarrer le chat",
+    relatedPosts: "Articles connexes",
+    ctaTitle: "Discuter directement avec ",
+    ctaDesc: "Obtenez des conseils de vie en temps réel et une sagesse profonde de ce géant historique grâce à notre chat IA avancé.",
+    share: "Partager",
+    copylink: "Copier le lien",
+    disclaimer: "Ce contenu est du matériel historique généré par l'IA à des fins éducatives. Il ne constitue pas des documents historiques certifiés, des évaluations psychologiques, ni des conseils professionnels."
+  },
+  de: {
+    backToBlog: "Weisheits-Blog",
+    readTime: "Min. Lesung",
+    chatWith: "Chatten mit ",
+    chatNow: "Chat starten",
+    relatedPosts: "Ähnliche Beiträge",
+    ctaTitle: "Direkt chatten mit ",
+    ctaDesc: "Erhalten Sie direktes, Echtzeit-Lebensberatung und tiefe Weisheit von diesem historischen Riesen durch unseren fortschrittlichen KI-Chat.",
+    share: "Teilen",
+    copylink: "Link kopieren",
+    disclaimer: "Dieser Inhalt ist KI-generiertes historisches Material für Bildungszwecke. Er stellt keine zertifizierten historischen Aufzeichnungen, psychologischen Gutachten oder professionellen Ratschläge dar."
+  },
+  el: {
+    backToBlog: "Ιστολόγιο Σοφίας",
+    readTime: "λεπτά ανάγνωσης",
+    chatWith: "Συνομιλήστε με ",
+    chatNow: "Έναρξη Συνομιλίας",
+    relatedPosts: "Σχετικές Αναρτήσεις",
+    ctaTitle: "Συνομιλήστε απευθείας με ",
+    ctaDesc: "Λάβετε άμεσες, πραγματικού χρόνου συμβουλές ζωής και βαθιά σοφία από αυτόν τον ιστορικό γίγαντα μέσω της προηγμένης συνομιλίας AI μας.",
+    share: "Κοινοποίηση",
+    copylink: "Αντιγραφή Συνδέσμου",
+    disclaimer: "Αυτό το περιεχόμενο είναι ιστορικό υλικό παραγόμενο από AI για εκπαιδευτικούς σκοπούς. Δεν αποτελεί πιστοποιημένα ιστορικά αρχεία, ψυχολογικές αξιολογήσεις ή επαγγελματικές συμβουλές."
+  },
+  ha: {
+    backToBlog: "Shafin Hikima",
+    readTime: "minti don karantawa",
+    chatWith: "Yi hira da ",
+    chatNow: "Fara Hira",
+    relatedPosts: "Rubuce-rubuce Masu Alaƙa",
+    ctaTitle: "Yi hira kai tsaye da ",
+    ctaDesc: "Samu shawarwarin rayuwa kai tsaye, na ainihin lokaci da kuma hikima mai zurfi daga wannan gwarzon tarihi ta hanyar tattaunawar AI ɗinmu mai ci gaba.",
+    share: "Raba",
+    copylink: "Kwafi Haɗi",
+    disclaimer: "Wannan abun ciki kayan tarihi ne da AI ta samar don dalilai na ilimi. Ba ya wakiltar ingantattun bayanan tarihi, kimantawa na tunani, ko shawarwari na ƙwararru."
+  },
+  he: {
+    backToBlog: "בלוג חוכמה",
+    readTime: "דקות קריאה",
+    chatWith: "שוחח עם ",
+    chatNow: "התחל צ'אט",
+    relatedPosts: "פוסטים קשורים",
+    ctaTitle: "שוחח ישירות עם ",
+    ctaDesc: "קבלו עצות חיים ישירות ובזמן אמת וחוכמה עמוקה מהענק ההיסטורי הזה באמצעות צ'אט ה-AI המתקדם שלנו.",
+    share: "שתף",
+    copylink: "העתק קישור",
+    disclaimer: "תוכן זה הוא חומר היסטורי שנוצר על ידי AI למטרות חינוכיות. הוא אינו מהווה תיעוד היסטורי מאושר, הערכות פסיכולוגיות או ייעוץ מקצועי."
   },
   hi: {
     backToBlog: "ज्ञान ब्लॉग",
@@ -143,7 +164,80 @@ const uiTranslations: Record<string, Record<string, string>> = {
     ctaTitle: "सीधे चैट करें ",
     ctaDesc: "हमारे उन्नत एआई चैट के माध्यम से इस ऐतिहासिक महान व्यक्ति से सीधे, वास्तविक समय में जीवन की सलाह और गहन ज्ञान प्राप्त करें।",
     share: "साझा करें",
-    copylink: "लिंक कॉपी करें"
+    copylink: "लिंक कॉपी करें",
+    disclaimer: "यह सामग्री AI द्वारा जनित ऐतिहासिक सामग्री है और शैक्षिक उद्देश्यों के लिए है। इसे प्रमाणित ऐतिहासिक अभिलेख, मनोवैज्ञानिक आकलन या पेशेवर सलाह नहीं माना जाना चाहिए।"
+  },
+  id: {
+    backToBlog: "Blog Kebijaksanaan",
+    readTime: "menit baca",
+    chatWith: "Ngobrol dengan ",
+    chatNow: "Mulai Obrolan",
+    relatedPosts: "Artikel Terkait",
+    ctaTitle: "Ngobrol langsung dengan ",
+    ctaDesc: "Dapatkan nasihat hidup langsung, real-time, dan kebijaksanaan mendalam dari tokoh sejarah raksasa ini melalui obrolan AI canggih kami.",
+    share: "Bagikan",
+    copylink: "Salin Tautan",
+    disclaimer: "Konten ini adalah materi sejarah yang dihasilkan AI untuk tujuan pendidikan. Ini bukan merupakan catatan sejarah bersertifikat, penilaian psikologis, atau saran profesional."
+  },
+  it: {
+    backToBlog: "Blog della Saggezza",
+    readTime: "min di lettura",
+    chatWith: "Chatta con ",
+    chatNow: "Avvia Chat",
+    relatedPosts: "Articoli correlati",
+    ctaTitle: "Chatta direttamente con ",
+    ctaDesc: "Ottieni consigli di vita diretti in tempo reale e una profonda saggezza da questo gigante storico attraverso la nostra chat IA avanzata.",
+    share: "Condividi",
+    copylink: "Copia Link",
+    disclaimer: "Questo contenuto è materiale storico generato dall'IA a scopo educativo. Non costituisce documenti storici certificati, valutazioni psicologiche o consulenza professionale."
+  },
+  ja: {
+    backToBlog: "偉人たちの知恵ブログ",
+    readTime: "分 読了",
+    chatWith: "と対話する",
+    chatNow: "対話を開始する",
+    relatedPosts: "関連投稿",
+    ctaTitle: "と直接対話してみる",
+    ctaDesc: "高度なAIチャットを通じて、この歴史的な偉人から直接、リアルタイムの人生のヒントと深い知恵を得ることができます。",
+    share: "共有",
+    copylink: "リンクをコピー",
+    disclaimer: "本コンテンツは、教育目的でAIが生成した歴史資料であり、公認の歴史記録、心理評価、または専門的な助言を構成するものではありません。"
+  },
+  fa: {
+    backToBlog: "وبلاگ حکمت",
+    readTime: "دقیقه مطالعه",
+    chatWith: "گفتگو با ",
+    chatNow: "شروع گفتگو",
+    relatedPosts: "مطالب مرتبط",
+    ctaTitle: "مستقیماً با  گفتگو کنید",
+    ctaDesc: "مشاوره مستقیم و لحظه‌ای زندگی و خرد عمیق را از این غول تاریخی از طریق چت پیشرفته هوش مصنوعی ما دریافت کنید.",
+    share: "اشتراک‌گذاری",
+    copylink: "کپی لینک",
+    disclaimer: "این محتوا مواد تاریخی تولید شده توسط هوش مصنوعی برای مقاصد آموزشی است. این محتوا سوابق تاریخی تأیید شده، ارزیابی‌های روانشناختی یا مشاوره حرفه‌ای را شامل نمی‌شود."
+  },
+  pl: {
+    backToBlog: "Blog Mądrości",
+    readTime: "min czytania",
+    chatWith: "Czatuj z ",
+    chatNow: "Rozpocznij czat",
+    relatedPosts: "Powiązane posty",
+    ctaTitle: "Czatuj bezpośrednio z ",
+    ctaDesc: "Uzyskaj bezpośrednie, bieżące porady życiowe i głęboką mądrość od tego historycznego giganta poprzez nasz zaawansowany czat AI.",
+    share: "Udostępnij",
+    copylink: "Kopiuj link",
+    disclaimer: "Ta treść jest materiałem historycznym generowanym przez AI w celach edukacyjnych. Nie stanowi certyfikowanych zapisów historycznych, ocen psychologicznych ani profesjonalnych porad."
+  },
+  pt: {
+    backToBlog: "Blog da Sabedoria",
+    readTime: "min de leitura",
+    chatWith: "Conversar com ",
+    chatNow: "Iniciar Chat",
+    relatedPosts: "Publicações relacionadas",
+    ctaTitle: "Converse diretamente com ",
+    ctaDesc: "Obtenha conselhos de vida diretos em tempo real e uma sabedoria profunda deste gigante histórico através do nosso chat de IA avançado.",
+    share: "Compartilhar",
+    copylink: "Copiar Link",
+    disclaimer: "Este conteúdo é material histórico gerado por IA para fins educacionais. Não constitui registros históricos certificados, avaliações psicológicas ou aconselhamento profissional."
   },
   ru: {
     backToBlog: "Блог мудрости",
@@ -154,18 +248,80 @@ const uiTranslations: Record<string, Record<string, string>> = {
     ctaTitle: "Чат напрямую с ",
     ctaDesc: "Получите ценные жизненные советы и глубокую мудрость от этого исторического гиганта в реальном времени через наш продвинутый ИИ-чат.",
     share: "Поделиться",
-    copylink: "Копировать ссылку"
+    copylink: "Копировать ссылку",
+    disclaimer: "Этот контент представляет собой исторический материал, созданный искусственным интеллектом, предназначенный для образовательных целей. Он не является сертифицированными историческими документами, психологическими оценками или профессиональной консультацией."
   },
-  zh: {
-    backToBlog: "智慧博客",
-    readTime: "分钟阅读",
-    chatWith: "与...对话 ",
-    chatNow: "开始对话",
-    relatedPosts: "相关文章",
-    ctaTitle: "与直接对话 ",
-    ctaDesc: "通过我们先进의 AI 对话，与这位历史伟人进行实时交流，获取人生的启示与深邃的智慧。",
-    share: "分享",
-    copylink: "复制链接"
+  es: {
+    backToBlog: "Blog de Sabiduría",
+    readTime: "min de lectura",
+    chatWith: "Chatear con ",
+    chatNow: "Iniciar chat",
+    relatedPosts: "Publicaciones relacionadas",
+    ctaTitle: "Chatea directamente con ",
+    ctaDesc: "Obtenga consejos de vida directos en tiempo real y una sabiduría profunda de este gigante histórico a través de nuestro chat de IA avanzado.",
+    share: "Compartir",
+    copylink: "Copiar enlace",
+    disclaimer: "Este contenido es material histórico generado por IA con fines educativos. No constituye registros históricos certificados, evaluaciones psicológicas ni asesoramiento profesional."
+  },
+  sw: {
+    backToBlog: "Blogu ya Hekima",
+    readTime: "dakika ya kusoma",
+    chatWith: "Piga gumzo na ",
+    chatNow: "Anza Gumzo",
+    relatedPosts: "Machapisho Yanayohusiana",
+    ctaTitle: "Piga gumzo moja kwa moja na ",
+    ctaDesc: "Pata ushauri wa moja kwa moja wa maisha na hekima kubwa kutoka kwa gwiji huyu wa historia kupitia gumzo letu la kisasa la AI.",
+    share: "Shiriki",
+    copylink: "Nakili Kiungo",
+    disclaimer: "Maudhui haya yanatokana na AI, ni nyenzo ya kihistoria kwa madhumuni ya kielimu. Hayawakilishi rekodi zilizoidhinishwa za kihistoria, tathmini za kisaikolojia, au ushauri wa kitaalamu."
+  },
+  th: {
+    backToBlog: "บล็อกปัญญา",
+    readTime: "นาทีที่อ่าน",
+    chatWith: "สนทนากับ ",
+    chatNow: "เริ่มสนทนา",
+    relatedPosts: "โพสต์ที่เกี่ยวข้อง",
+    ctaTitle: "สนทนาโดยตรงกับ ",
+    ctaDesc: "รับคำแนะนำชีวิตโดยตรงแบบเรียลไทม์และปัญญาลึกซึ้งจากบุคคลสำคัญทางประวัติศาสตร์ท่านนี้ผ่านการแชท AI ขั้นสูงของเรา",
+    share: "แชร์",
+    copylink: "คัดลอกลิงก์",
+    disclaimer: "เนื้อหานี้เป็นข้อมูลทางประวัติศาสตร์ที่สร้างโดย AI เพื่อวัตถุประสงค์ทางการศึกษา ไม่ถือเป็นบันทึกทางประวัติศาสตร์ที่ได้รับการรับรอง การประเมินทางจิตวิทยา หรือคำแนะนำจากผู้เชี่ยวชาญ"
+  },
+  tr: {
+    backToBlog: "Bilgelik Blogu",
+    readTime: "dk okuma",
+    chatWith: "ile sohbet et",
+    chatNow: "Sohbete Başla",
+    relatedPosts: "İlgili Yazılar",
+    ctaTitle: "ile doğrudan sohbet edin",
+    ctaDesc: "Gelişmiş yapay zeka sohbetimiz aracılığıyla bu tarihi devden doğrudan, gerçek zamanlı yaşam tavsiyeleri ve derin bilgelik alın.",
+    share: "Paylaş",
+    copylink: "Bağlantıyı Kopyala",
+    disclaimer: "Bu içerik, eğitim amaçlı yapay zeka tarafından üretilmiş tarihi materyaldir. Sertifikalı tarihi kayıtlar, psikolojik değerlendirmeler veya profesyonel tavsiye niteliği taşımaz."
+  },
+  uk: {
+    backToBlog: "Блог Мудрості",
+    readTime: "хв. читання",
+    chatWith: "Спілкуватися з ",
+    chatNow: "Почати чат",
+    relatedPosts: "Схожі публікації",
+    ctaTitle: "Спілкуйтеся безпосередньо з ",
+    ctaDesc: "Отримайте прямі, актуальні життєві поради та глибоку мудрість від цього історичного гіганта через наш передовий чат зі штучним інтелектом.",
+    share: "Поділитися",
+    copylink: "Скопіювати посилання",
+    disclaimer: "Цей контент є історичним матеріалом, згенерованим ШІ, для освітніх цілей. Він не є сертифікованими історичними записами, психологічними оцінками чи професійними порадами."
+  },
+  vi: {
+    backToBlog: "Blog Trí tuệ",
+    readTime: "phút đọc",
+    chatWith: "Trò chuyện với ",
+    chatNow: "Bắt đầu trò chuyện",
+    relatedPosts: "Bài viết liên quan",
+    ctaTitle: "Trò chuyện trực tiếp với ",
+    ctaDesc: "Nhận lời khuyên cuộc sống trực tiếp, theo thời gian thực và trí tuệ sâu sắc từ nhân vật lịch sử vĩ đại này thông qua cuộc trò chuyện AI tiên tiến của chúng tôi.",
+    share: "Chia sẻ",
+    copylink: "Sao chép liên kết",
+    disclaimer: "Nội dung này là tài liệu lịch sử do AI tạo ra cho mục đích giáo dục. Nó không cấu thành hồ sơ lịch sử được chứng nhận, đánh giá tâm lý hoặc lời khuyên chuyên nghiệp."
   }
 }
 
@@ -201,7 +357,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {}
 
   const translation = post.translations[locale] || post.translations['en']
-  const title = `${translation.title} | Giants Wisdom`
+  const title = `${translation.title.replace(/\*\*/g, '')} | Giants Wisdom`
   const description = translation.description
 
   const hreflangLanguages = buildHreflang(BASE_URL, `/blog/${slug}`)
@@ -460,7 +616,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
     .filter((g): g is NonNullable<typeof g> => !!g)
 
   const postUrl = `${BASE_URL}/${locale}/blog/${post.slug}`
-  const postTitle = translation.title
+  const postTitle = translation.title.replace(/\*\*/g, '')
 
   // Fallback for cleopatra or giants without direct chat path
   const isCleopatra = post.giantSlug === 'cleopatra'
@@ -622,21 +778,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
         <div className="flex items-start gap-3 p-4 rounded-xl bg-slate-900/60 border border-white/5 mb-8 text-xs text-slate-500">
           <Bot className="w-4 h-4 shrink-0 text-slate-600 mt-0.5" />
           <span>
-            {locale === 'ko'
-              ? '이 콘텐츠는 교육적 목적으로 AI가 생성한 역사 기반 자료입니다. 공인된 역사 기록, 심리 평가, 전문적 조언을 구성하지 않습니다.'
-              : locale === 'ja'
-              ? 'このコンテンツは教育目的でAIが生成した歴史ベースの資料です。公認の歴史記録、心理評価、または専門的なアドバイスを構成するものではありません。'
-              : locale === 'de'
-              ? 'Dieser Inhalt ist ein KI-generiertes historisches Material zu Bildungszwecken. Er stellt keine zertifizierten historischen Aufzeichnungen, psychologische Beurteilungen oder professionelle Beratung dar.'
-              : locale === 'fr'
-              ? "Ce contenu est un matériau historique généré par l'IA à des fins éducatives. Il ne constitue pas des archives historiques certifiées, des évaluations psychologiques ou des conseils professionnels."
-              : locale === 'es'
-              ? 'Este contenido es material histórico generado por IA con fines educativos. No constituye registros históricos certificados, evaluaciones psicológicas ni asesoramiento profesional.'
-              : locale === 'it'
-              ? 'Questo contenuto è materiale storico generato dall\'IA a scopo educativo. Non costituisce documenti storici certificati, valutazioni psicologiche o consulenza professionale.'
-              : locale === 'pt'
-              ? 'Este conteúdo é material histórico gerado por IA para fins educacionais. Não constitui registros históricos certificados, avaliações psicológicas ou aconselhamento profissional.'
-              : 'This content is AI-generated historical material for educational purposes. It does not constitute certified historical records, psychological assessments, or professional advice.'}
+            {ui.disclaimer}
           </span>
         </div>
 
@@ -747,7 +889,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
                         {catNames[p.category]}
                       </span>
                       <h3 className="font-serif font-bold text-white group-hover:text-amber-400 transition-colors text-sm md:text-base leading-snug line-clamp-2 mb-2">
-                        {translation.title}
+                        {translation.title.replace(/\*\*/g, '')}
                       </h3>
                     </div>
                     <div className="flex items-center justify-between text-[10px] text-slate-500 mt-4 pt-3 border-t border-white/5">

@@ -8177,5 +8177,33 @@
     "subTitle": "Büyük bilgelikle sohbet edin",
     "metaTitle": "Devlerin Omuzları | Yapay Zeka Bilgelik Sohbeti",
     "metaDescription": "Sejong, Sokrates, Napolyon... 300 tarihi figürle yapay zeka aracılığıyla konuşun. Tamamen ücretsiz."
+  },
+  "UI": {
+    "about": "HAKKINDA",
+    "quotesCollection": "Alıntı Koleksiyonu",
+    "deleteConversationConfirm": "Bu sohbeti silmek istiyor musunuz? Bu işlem geri alınamaz.",
+    "deleteConversation": "Sohbeti sil",
+    "debateRoom": "Tartışma Odası",
+    "aiDebate": "Yapay Zeka Tartışması",
+    "historicalGiantsDebate": "Tarihi Dehalar Tartışması",
+    "aristotleVsNietzsche": "Aristoteles vs Nietzsche",
+    "aiChat": "Yapay Zeka Sohbeti",
+    "historicalFigure": "Tarihi Figür",
+    "home": "Ana Sayfa",
+    "hallOfGiants": "Dehalar Salonu",
+    "continuePreviousChat": "Önceki Sohbeti Sürdür",
+    "loadingChatHistory": "Sohbet geçmişi yükleniyor...",
+    "recommendedGiants": "Önerilen Dehalar",
+    "learnMoreOnWikipedia": "Wikipedia'da daha fazla bilgi edinin",
+    "exploreLegacyOfOtherGiants": "Bu alanda benzer bir yol izlemiş diğer dehaların mirasını keşfedin.",
+    "shareResults": "Sonuçları Paylaş",
+    "storyFormat": "Hikaye (9:16)",
+    "talkWithGiant": "Dehayla Konuş",
+    "timelineAndFacts": "Zaman Çizelgesi ve Gerçekler",
+    "timeline": "Zaman Çizelgesi",
+    "keyAchievements": "Temel Başarılar",
+    "readEpic": "Destanı Oku",
+    "warningAiMistakes": "Dehalar Bilgeliği bir yapay zeka sohbet botudur ve hatalar yapabilir. Lütfen önemli bilgileri gerçek tarihi kayıtlardan doğrulayın.",
+    "echoesOfPast": "Geçmişin Yankıları • Zamana Meydan Okuyan Bilgelik"
   }
 }
