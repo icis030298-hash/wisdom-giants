@@ -10,8 +10,7 @@ if (!fs.existsSync(outputDir)) {
 
 const koData = JSON.parse(fs.readFileSync(koDataPath, 'utf-8'));
 
-// Only process English for now
-const targetLocales = ['en'];
+const targetLocales = ['ar', 'zh', 'nl', 'fr', 'de', 'el', 'ha', 'he', 'hi', 'id', 'it', 'ja', 'fa', 'pl', 'pt', 'ru', 'es', 'sw', 'th', 'tr', 'uk', 'vi'];
 const BATCH_SIZE = 150; // Items per batch
 
 targetLocales.forEach(locale => {
