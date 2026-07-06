@@ -1,0 +1,107 @@
+[
+  {
+    "type": "narrative",
+    "slug": "thomas-aquinas",
+    "field": "era",
+    "sourceText": "13th Century Giant (1224~1274)",
+    "translatedText": "13वीं सदी का विशालकाय (1224~1274)"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "thomas-aquinas",
+    "field": "wisdom.0.quote",
+    "sourceText": "To read a good book is to converse with the greatest minds.",
+    "translatedText": "एक अच्छी किताब पढ़ना सबसे महान दिमागों के साथ बातचीत करना है।"
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "thomas-aquinas",
+    "field": "wisdom.0.meaning",
+    "sourceText": "Reading allows one to engage with the wisdom of great thinkers from the past.",
+    "translatedText": "पढ़ने से व्यक्ति अतीत के महान विचारकों के ज्ञान से जुड़ सकता है।"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "thomas-aquinas",
+    "field": "wisdom.1.quote",
+    "sourceText": "The beginning of all wisdom is the conquest of fear.",
+    "translatedText": "सभी ज्ञान की शुरुआत भय पर विजय है।"
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "thomas-aquinas",
+    "field": "wisdom.1.meaning",
+    "sourceText": "True understanding and knowledge can only be achieved by overcoming fear.",
+    "translatedText": "सच्ची समझ और ज्ञान केवल डर पर काबू पाकर ही प्राप्त किया जा सकता है।"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "thomas-aquinas",
+    "field": "wisdom.2.quote",
+    "sourceText": "Might without right is wicked; and right without might is feeble.",
+    "translatedText": "बिना अधिकार के पराक्रम दुष्ट है; और शक्ति के बिना अधिकार कमज़ोर है।"
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "thomas-aquinas",
+    "field": "wisdom.2.meaning",
+    "sourceText": "Emphasizes that principles of justice require the power to be enacted, and power must be used for just ends.",
+    "translatedText": "इस बात पर जोर दिया गया कि न्याय के सिद्धांतों को लागू करने के लिए शक्ति की आवश्यकता होती है, और शक्ति का उपयोग उचित उद्देश्यों के लिए किया जाना चाहिए।"
+  },
+  {
+    "type": "narrative",
+    "slug": "rumi",
+    "field": "trials",
+    "sourceText": "Forced migration due to Mongol invasions, and profound grief and despair following the sudden death of his spiritual mentor and companion, Shams-i Tabrizi.",
+    "translatedText": "मंगोल आक्रमणों के कारण जबरन प्रवासन, और अपने आध्यात्मिक गुरु और साथी, शम्स-ए तबरीज़ी की अचानक मृत्यु के बाद गहरा दुःख और निराशा।"
+  },
+  {
+    "type": "narrative",
+    "slug": "rumi",
+    "field": "overcoming",
+    "sourceText": "Transmuted grief into a catalyst for spiritual growth through poetry and music, resulting in monumental works like the Masnavi that offer profound inspiration to humanity.",
+    "translatedText": "कविता और संगीत के माध्यम से दुःख को आध्यात्मिक विकास के उत्प्रेरक में बदल दिया, जिसके परिणामस्वरूप मसनवी जैसे स्मारकीय कार्य हुए जो मानवता को गहन प्रेरणा प्रदान करते हैं।"
+  },
+  {
+    "type": "narrative",
+    "slug": "rumi",
+    "field": "era",
+    "sourceText": "13th Century Giant (1207~1273)",
+    "translatedText": "13वीं सदी का विशालकाय (1207~1273)"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "rumi",
+    "field": "wisdom.0.quote",
+    "sourceText": "You are part of the thing you are seeking.",
+    "translatedText": "आप उस चीज़ का हिस्सा हैं जिसे आप तलाश रहे हैं।"
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "rumi",
+    "field": "wisdom.0.meaning",
+    "sourceText": "This implies that when we seek something externally, its essence is already present within us.",
+    "translatedText": "इसका तात्पर्य यह है कि जब हम किसी चीज़ को बाहर से खोजते हैं, तो उसका सार हमारे भीतर पहले से ही मौजूद होता है।"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "rumi",
+    "field": "wisdom.1.quote",
+    "sourceText": "Don't be despondent about what you may perceive as difficulties. All of the things that happen to you, the good and the bad, are the wings upon which your soul will fly.",
+    "translatedText": "जिसे आप कठिनाई के रूप में देख सकते हैं, उसके बारे में निराश न हों। आपके साथ घटित होने वाली सभी चीजें, अच्छी और बुरी, वे पंख हैं जिन पर आपकी आत्मा उड़ेगी।"
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "rumi",
+    "field": "wisdom.1.meaning",
+    "sourceText": "This suggests that even life's difficulties and painful experiences can become wings for the soul's growth.",
+    "translatedText": "इससे पता चलता है कि जीवन की कठिनाइयाँ और दर्दनाक अनुभव भी आत्मा के विकास के लिए पंख बन सकते हैं।"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "rumi",
+    "field": "wisdom.2.quote",
+    "sourceText": "Don't look for the light. Become the light.",
+    "translatedText": "प्रकाश की तलाश मत करो. प्रकाश बनो."
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "type": "message",
+    "slug": "napoleon-bonaparte",
+    "field": "era",
+    "sourceText": "19th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "king-sejong",
+    "field": "era",
+    "sourceText": "15th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "genghis-khan",
+    "field": "name",
+    "sourceText": "Genghis Khan"
+  },
+  {
+    "type": "message",
+    "slug": "alexander-the-great",
+    "field": "era",
+    "sourceText": "4th Century BC Giant"
+  },
+  {
+    "type": "message",
+    "slug": "walt-disney",
+    "field": "name",
+    "sourceText": "Walt Disney"
+  },
+  {
+    "type": "message",
+    "slug": "walt-disney",
+    "field": "era",
+    "sourceText": "20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "thomas-edison",
+    "field": "name",
+    "sourceText": "Thomas Edison"
+  },
+  {
+    "type": "message",
+    "slug": "thomas-edison",
+    "field": "era",
+    "sourceText": "19th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "julius-caesar",
+    "field": "name",
+    "sourceText": "Julius Caesar"
+  },
+  {
+    "type": "message",
+    "slug": "julius-caesar",
+    "field": "era",
+    "sourceText": "1st Century BC Giant"
+  },
+  {
+    "type": "message",
+    "slug": "henry-ford",
+    "field": "era",
+    "sourceText": "20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "frida-kahlo",
+    "field": "name",
+    "sourceText": "Frida Kahlo"
+  },
+  {
+    "type": "message",
+    "slug": "frida-kahlo",
+    "field": "era",
+    "sourceText": "20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "helen-keller",
+    "field": "name",
+    "sourceText": "Helen Keller"
+  },
+  {
+    "type": "message",
+    "slug": "helen-keller",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "beethoven",
+    "field": "name",
+    "sourceText": "Ludwig van Beethoven"
+  },
+  {
+    "type": "message",
+    "slug": "beethoven",
+    "field": "era",
+    "sourceText": "18th-19th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "franklin-d-roosevelt",
+    "field": "era",
+    "sourceText": "20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "marcus-aurelius",
+    "field": "name",
+    "sourceText": "Marcus Aurelius"
+  },
+  {
+    "type": "message",
+    "slug": "marcus-aurelius",
+    "field": "era",
+    "sourceText": "2nd Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "seneca",
+    "field": "era",
+    "sourceText": "1st Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "confucius",
+    "field": "era",
+    "sourceText": "6th Century BC Giant"
+  },
+  {
+    "type": "message",
+    "slug": "socrates",
+    "field": "era",
+    "sourceText": "5th Century BC Giant"
+  },
+  {
+    "type": "message",
+    "slug": "lao-tzu",
+    "field": "era",
+    "sourceText": "6th Century BC Giant"
+  },
+  {
+    "type": "message",
+    "slug": "aristotle",
+    "field": "era",
+    "sourceText": "4th Century BC Giant"
+  },
+  {
+    "type": "message",
+    "slug": "plato",
+    "field": "era",
+    "sourceText": "4th Century BC Giant"
+  },
+  {
+    "type": "message",
+    "slug": "mahatma-gandhi",
+    "field": "name",
+    "sourceText": "Mahatma Gandhi"
+  },
+  {
+    "type": "message",
+    "slug": "mahatma-gandhi",
+    "field": "era",
+    "sourceText": "20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "leonardo-da-vinci",
+    "field": "name",
+    "sourceText": "Leonardo da Vinci"
+  },
+  {
+    "type": "message",
+    "slug": "leonardo-da-vinci",
+    "field": "era",
+    "sourceText": "Renaissance Giant"
+  },
+  {
+    "type": "message",
+    "slug": "mozart",
+    "field": "name",
+    "sourceText": "Wolfgang Amadeus Mozart"
+  },
+  {
+    "type": "message",
+    "slug": "mozart",
+    "field": "era",
+    "sourceText": "18th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "william-shakespeare",
+    "field": "name",
+    "sourceText": "William Shakespeare"
+  },
+  {
+    "type": "message",
+    "slug": "william-shakespeare",
+    "field": "era",
+    "sourceText": "16th-17th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "albert-einstein",
+    "field": "name",
+    "sourceText": "Albert Einstein"
+  },
+  {
+    "type": "message",
+    "slug": "albert-einstein",
+    "field": "era",
+    "sourceText": "20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "marie-curie",
+    "field": "name",
+    "sourceText": "Marie Curie"
+  },
+  {
+    "type": "message",
+    "slug": "marie-curie",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "nikola-tesla",
+    "field": "name",
+    "sourceText": "Nikola Tesla"
+  },
+  {
+    "type": "message",
+    "slug": "nikola-tesla",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "vincent-van-gogh",
+    "field": "name",
+    "sourceText": "Vincent van Gogh"
+  },
+  {
+    "type": "message",
+    "slug": "vincent-van-gogh",
+    "field": "era",
+    "sourceText": "19th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "abraham-lincoln",
+    "field": "name",
+    "sourceText": "Abraham Lincoln"
+  },
+  {
+    "type": "message",
+    "slug": "abraham-lincoln",
+    "field": "era",
+    "sourceText": "19th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "george-washington",
+    "field": "name",
+    "sourceText": "George Washington"
+  },
+  {
+    "type": "message",
+    "slug": "george-washington",
+    "field": "era",
+    "sourceText": "18th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "yi-sun-shin",
+    "field": "era",
+    "sourceText": "16th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "elizabeth-i",
+    "field": "name",
+    "sourceText": "Elizabeth I"
+  },
+  {
+    "type": "message",
+    "slug": "elizabeth-i",
+    "field": "era",
+    "sourceText": "16th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "gwanggaeto-the-great",
+    "field": "era",
+    "sourceText": "4th-5th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "winston-churchill",
+    "field": "name",
+    "sourceText": "Winston Churchill"
+  },
+  {
+    "type": "message",
+    "slug": "winston-churchill",
+    "field": "era",
+    "sourceText": "20th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "qin-shi-huang",
+    "field": "name",
+    "sourceText": "Qin Shi Huang"
+  },
+  {
+    "type": "message",
+    "slug": "qin-shi-huang",
+    "field": "era",
+    "sourceText": "3rd Century BC Giant"
+  },
+  {
+    "type": "message",
+    "slug": "augustus",
+    "field": "era",
+    "sourceText": "1st Century BC - 1st Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "otto-von-bismarck",
+    "field": "name",
+    "sourceText": "Otto von Bismarck"
+  },
+  {
+    "type": "message",
+    "slug": "otto-von-bismarck",
+    "field": "era",
+    "sourceText": "19th Century Giant"
+  },
+  {
+    "type": "message",
+    "slug": "peter-the-great",
+    "field": "pain",
+    "sourceText": "From a young age, Peter endured intense court intrigues and instability. The immense human and material costs of the protracted Great Northern War also inflicted great suffering during his reign."
+  },
+  {
+    "type": "message",
+    "slug": "peter-the-great",
+    "field": "recovery",
+    "sourceText": "With a strong will and a deep understanding of Western culture, he implemented sweeping military, administrative, and cultural reforms. Through relentless effort and strategic campaigns, he secured victory in war, founded a new capital, and significantly boosted Russia's power."
+  },
+  {
+    "type": "message",
+    "slug": "peter-the-great",
+    "field": "era",
+    "sourceText": "Late 17th - Early 18th Century"
+  },
+  {
+    "type": "message",
+    "slug": "catherine-the-great",
+    "field": "pain",
+    "sourceText": "As a German princess married into the Russian imperial family, she endured a loveless marriage and political isolation. Her ascension to the throne involved a coup, which led to ongoing legitimacy challenges and numerous rebellion attempts."
+  },
+  {
+    "type": "message",
+    "slug": "catherine-the-great",
+    "field": "recovery",
+    "sourceText": "Through exceptional political acumen and diplomatic skill, she garnered the support of the Russian nobility and successfully executed a coup to claim the throne. She actively embraced Enlightenment principles, focusing on legal reforms, educational advancements, and the promotion of arts and culture. By strengthening the military and expanding the empire's borders, she solidified Russia's position as a major European power."
+  },
+  {
+    "type": "message",
+    "slug": "catherine-the-great",
+    "field": "era",
+    "sourceText": "18th Century"
+  },
+  {
+    "type": "message",
+    "slug": "simon-bolivar",
+    "field": "era",
+    "sourceText": "18th-19th Century Giant (1783~1830)"
+  },
+  {
+    "type": "message",
+    "slug": "john-d-rockefeller",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1839~1937)"
+  },
+  {
+    "type": "message",
+    "slug": "theodore-roosevelt",
+    "field": "name",
+    "sourceText": "Theodore Roosevelt"
+  },
+  {
+    "type": "message",
+    "slug": "theodore-roosevelt",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1858~1919)"
+  },
+  {
+    "type": "message",
+    "slug": "anne-frank",
+    "field": "era",
+    "sourceText": "20th Century Giant (1929~1945)"
+  },
+  {
+    "type": "message",
+    "slug": "frederick-douglass",
+    "field": "name",
+    "sourceText": "Frederick Douglass"
+  },
+  {
+    "type": "message",
+    "slug": "frederick-douglass",
+    "field": "era",
+    "sourceText": "19th Century Giant (1818~1895)"
+  },
+  {
+    "type": "message",
+    "slug": "harriet-tubman",
+    "field": "name",
+    "sourceText": "Harriet Tubman"
+  },
+  {
+    "type": "message",
+    "slug": "harriet-tubman",
+    "field": "era",
+    "sourceText": "19th Century Giant (1822~1913)"
+  },
+  {
+    "type": "message",
+    "slug": "florence-nightingale",
+    "field": "name",
+    "sourceText": "Florence Nightingale"
+  },
+  {
+    "type": "message",
+    "slug": "florence-nightingale",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1820~1910)"
+  },
+  {
+    "type": "message",
+    "slug": "yu-gwan-sun",
+    "field": "era",
+    "sourceText": "20th Century Giant (1902~1920)"
+  },
+  {
+    "type": "message",
+    "slug": "louis-braille",
+    "field": "name",
+    "sourceText": "Louis Braille"
+  },
+  {
+    "type": "message",
+    "slug": "louis-braille",
+    "field": "era",
+    "sourceText": "19th Century Giant (1809~1852)"
+  },
+  {
+    "type": "message",
+    "slug": "joan-of-arc",
+    "field": "era",
+    "sourceText": "15th Century Giant (1412~1431)"
+  },
+  {
+    "type": "message",
+    "slug": "harriet-beecher-stowe",
+    "field": "name",
+    "sourceText": "Harriet Beecher Stowe"
+  },
+  {
+    "type": "message",
+    "slug": "harriet-beecher-stowe",
+    "field": "era",
+    "sourceText": "19th Century Giant (1811~1896)"
+  },
+  {
+    "type": "message",
+    "slug": "kim-gu",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1876~1949)"
+  },
+  {
+    "type": "message",
+    "slug": "buddha",
+    "field": "era",
+    "sourceText": "6th-5th Century BC (BC 563~483)"
+  },
+  {
+    "type": "message",
+    "slug": "friedrich-nietzsche",
+    "field": "name",
+    "sourceText": "Friedrich Nietzsche"
+  },
+  {
+    "type": "message",
+    "slug": "friedrich-nietzsche",
+    "field": "era",
+    "sourceText": "19th Century Giant (1844~1900)"
+  },
+  {
+    "type": "message",
+    "slug": "immanuel-kant",
+    "field": "name",
+    "sourceText": "Immanuel Kant"
+  },
+  {
+    "type": "message",
+    "slug": "immanuel-kant",
+    "field": "era",
+    "sourceText": "18th Century Giant (1724~1804)"
+  },
+  {
+    "type": "message",
+    "slug": "rene-descartes",
+    "field": "era",
+    "sourceText": "17th Century Giant (1596~1650)"
+  },
+  {
+    "type": "message",
+    "slug": "jean-jacques-rousseau",
+    "field": "era",
+    "sourceText": "18th Century Giant (1712~1778)"
+  },
+  {
+    "type": "message",
+    "slug": "sigmund-freud",
+    "field": "name",
+    "sourceText": "Sigmund Freud"
+  },
+  {
+    "type": "message",
+    "slug": "sigmund-freud",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1856~1939)"
+  },
+  {
+    "type": "message",
+    "slug": "carl-jung",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1875~1961)"
+  },
+  {
+    "type": "message",
+    "slug": "baruch-spinoza",
+    "field": "name",
+    "sourceText": "Baruch Spinoza"
+  },
+  {
+    "type": "message",
+    "slug": "baruch-spinoza",
+    "field": "era",
+    "sourceText": "17th Century Giant (1632~1677)"
+  },
+  {
+    "type": "message",
+    "slug": "sun-tzu",
+    "field": "era",
+    "sourceText": "6th-5th Century BC (Spring and Autumn Period)"
+  },
+  {
+    "type": "message",
+    "slug": "david-hume",
+    "field": "era",
+    "sourceText": "18th Century Giant (1711~1776)"
+  },
+  {
+    "type": "message",
+    "slug": "john-locke",
+    "field": "era",
+    "sourceText": "17th Century Giant (1632~1704)"
+  },
+  {
+    "type": "message",
+    "slug": "soren-kierkegaard",
+    "field": "era",
+    "sourceText": "19th Century Giant (1813~1855)"
+  },
+  {
+    "type": "message",
+    "slug": "arthur-schopenhauer",
+    "field": "name",
+    "sourceText": "Arthur Schopenhauer"
+  },
+  {
+    "type": "message",
+    "slug": "arthur-schopenhauer",
+    "field": "era",
+    "sourceText": "19th Century Giant (1788~1860)"
+  },
+  {
+    "type": "message",
+    "slug": "isaac-newton",
+    "field": "name",
+    "sourceText": "Isaac Newton"
+  },
+  {
+    "type": "message",
+    "slug": "isaac-newton",
+    "field": "era",
+    "sourceText": "17th-18th Century Giant (1643~1727)"
+  },
+  {
+    "type": "message",
+    "slug": "galileo-galilei",
+    "field": "name",
+    "sourceText": "Galileo Galilei"
+  },
+  {
+    "type": "message",
+    "slug": "galileo-galilei",
+    "field": "era",
+    "sourceText": "16th-17th Century Giant (1564~1642)"
+  },
+  {
+    "type": "message",
+    "slug": "charles-darwin",
+    "field": "name",
+    "sourceText": "Charles Darwin"
+  },
+  {
+    "type": "message",
+    "slug": "charles-darwin",
+    "field": "era",
+    "sourceText": "19th Century Giant (1809~1882)"
+  },
+  {
+    "type": "message",
+    "slug": "michelangelo",
+    "field": "name",
+    "sourceText": "Michelangelo"
+  },
+  {
+    "type": "message",
+    "slug": "michelangelo",
+    "field": "era",
+    "sourceText": "Renaissance Giant (1475~1564)"
+  },
+  {
+    "type": "message",
+    "slug": "claude-monet",
+    "field": "name",
+    "sourceText": "Claude Monet"
+  },
+  {
+    "type": "message",
+    "slug": "claude-monet",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1840~1926)"
+  },
+  {
+    "type": "message",
+    "slug": "fyodor-dostoevsky",
+    "field": "era",
+    "sourceText": "19th Century Giant (1821~1881)"
+  },
+  {
+    "type": "message",
+    "slug": "victor-hugo",
+    "field": "name",
+    "sourceText": "Victor Hugo"
+  },
+  {
+    "type": "message",
+    "slug": "victor-hugo",
+    "field": "era",
+    "sourceText": "19th Century Giant (1802~1885)"
+  },
+  {
+    "type": "message",
+    "slug": "anton-chekhov",
+    "field": "name",
+    "sourceText": "Anton Chekhov"
+  },
+  {
+    "type": "message",
+    "slug": "anton-chekhov",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1860~1904)"
+  },
+  {
+    "type": "message",
+    "slug": "frederic-chopin",
+    "field": "era",
+    "sourceText": "19th Century Giant (1810~1849)"
+  },
+  {
+    "type": "message",
+    "slug": "katsushika-hokusai",
+    "field": "era",
+    "sourceText": "18th-19th Century Giant (1760~1849)"
+  },
+  {
+    "type": "message",
+    "slug": "mark-twain",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1835~1910)"
+  },
+  {
+    "type": "message",
+    "slug": "goethe",
+    "field": "era",
+    "sourceText": "18th-19th Century Giant (1749~1832)"
+  },
+  {
+    "type": "message",
+    "slug": "mary-shelley",
+    "field": "name",
+    "sourceText": "Mary Shelley"
+  },
+  {
+    "type": "message",
+    "slug": "mary-shelley",
+    "field": "era",
+    "sourceText": "19th Century Giant (1797~1851)"
+  },
+  {
+    "type": "message",
+    "slug": "alexander-fleming",
+    "field": "name",
+    "sourceText": "Alexander Fleming"
+  },
+  {
+    "type": "message",
+    "slug": "alexander-fleming",
+    "field": "quote",
+    "sourceText": "Chance favours the prepared mind."
+  },
+  {
+    "type": "message",
+    "slug": "alexander-fleming",
+    "field": "pain",
+    "sourceText": "During World War I, I worked in a casualty clearing station and witnessed the horrific suffering of soldiers succumbing to infection. The antiseptics we had then were of limited use and often did more harm than good. Later, in the early days of penicillin, there were significant challenges in fully recognizing its potential and bringing it to widespread use."
+  },
+  {
+    "type": "message",
+    "slug": "alexander-fleming",
+    "field": "recovery",
+    "sourceText": "I dedicated myself to bacteriology, seeking effective ways to combat infections. Through careful observation of a chance contamination in my laboratory, I identified the antibacterial properties of penicillin. I persevered in studying its effects, developing methods for its cultivation and purification. Collaboration with colleagues helped demonstrate its clinical value and paved the way for mass production, saving innumerable lives."
+  },
+  {
+    "type": "message",
+    "slug": "alexander-hamilton",
+    "field": "name",
+    "sourceText": "Alexander Hamilton"
+  },
+  {
+    "type": "message",
+    "slug": "alexander-hamilton",
+    "field": "quote",
+    "sourceText": "I have no wish to be immortal, but I desire to be a good man."
+  },
+  {
+    "type": "message",
+    "slug": "alexander-hamilton",
+    "field": "pain",
+    "sourceText": "Born illegitimate, orphaned at a young age, and struggling with poverty, he faced constant political opposition and personal scandals."
+  },
+  {
+    "type": "message",
+    "slug": "alexander-hamilton",
+    "field": "recovery",
+    "sourceText": "Through exceptional intellect and an indomitable will, he pursued his education and dedicated himself to military service. He leveraged his talents for his country, overcoming adversity to become a pivotal figure in America's founding."
+  },
+  {
+    "type": "message",
+    "slug": "benjamin-franklin",
+    "field": "name",
+    "sourceText": "Benjamin Franklin"
+  },
+  {
+    "type": "message",
+    "slug": "benjamin-franklin",
+    "field": "quote",
+    "sourceText": "The only thing that never is, is a Rarity. If you have a Rarity, make it a Rarity."
+  },
+  {
+    "type": "message",
+    "slug": "benjamin-franklin",
+    "field": "pain",
+    "sourceText": "He endured rigorous training to become a printer amidst childhood poverty and his father's opposition. He also faced numerous challenges, including business disputes with his brother, the death of his wife, and prolonged separations from his family due to his political activities."
+  },
+  {
+    "type": "message",
+    "slug": "benjamin-franklin",
+    "field": "recovery",
+    "sourceText": "Franklin overcame hardships through continuous self-improvement and diligence. He acquired knowledge through self-study, successfully led various businesses, and contributed to community development by organizing civic groups. His exceptional diplomacy and foresight played a crucial role in American independence and nation-building."
+  },
+  {
+    "type": "message",
+    "slug": "francis-bacon",
+    "field": "name",
+    "sourceText": "Francis Bacon"
+  },
+  {
+    "type": "message",
+    "slug": "francis-bacon",
+    "field": "quote",
+    "sourceText": "Knowledge is power."
+  },
+  {
+    "type": "message",
+    "slug": "francis-bacon",
+    "field": "pain",
+    "sourceText": "Bacon struggled constantly between his political ambitions and scholarly pursuits. He faced numerous political crises due to power struggles and envious rivals, ultimately being convicted of bribery, imprisoned, and then released, enduring significant hardships."
+  },
+  {
+    "type": "message",
+    "slug": "francis-bacon",
+    "field": "recovery",
+    "sourceText": "Despite his political downfall, Bacon never lost his passion for learning. In seclusion, he completed great works like 'Novum Organum,' further developing his philosophy and leaving an immortal legacy that profoundly influenced posterity. His recovery lay in his indomitable will to pursue knowledge without ceasing, even amidst setbacks."
+  },
+  {
+    "type": "message",
+    "slug": "johannes-kepler",
+    "field": "name",
+    "sourceText": "Johannes Kepler"
+  },
+  {
+    "type": "message",
+    "slug": "johannes-kepler",
+    "field": "quote",
+    "sourceText": "The book of nature is written in the language of mathematics."
+  },
+  {
+    "type": "message",
+    "slug": "johannes-kepler",
+    "field": "pain",
+    "sourceText": "Suffered from smallpox in childhood, leaving him with poor eyesight and deformed fingers. He also endured his father's disappearance and his mother's accusation of witchcraft. Financial hardships and religious persecution were constant companions."
+  },
+  {
+    "type": "message",
+    "slug": "johannes-kepler",
+    "field": "recovery",
+    "sourceText": "Overcame these adversities through deep faith and unwavering perseverance. He meticulously analyzed Tycho Brahe's extensive observational data to formulate his laws of planetary motion, employing mathematics and physics to unravel the universe's secrets."
+  },
+  {
+    "type": "message",
+    "slug": "john-f-kennedy",
+    "field": "quote",
+    "sourceText": "Ask not what your country can do for you—ask what you can do for your country."
+  },
+  {
+    "type": "message",
+    "slug": "john-f-kennedy",
+    "field": "pain",
+    "sourceText": "Chronic back pain since childhood, survival of the PT-109 sinking during WWII, and immense pressure during crises like the Cuban Missile Crisis."
+  },
+  {
+    "type": "message",
+    "slug": "john-f-kennedy",
+    "field": "recovery",
+    "sourceText": "He endured chronic pain with remarkable resilience and a strong will. The trauma of war deepened his commitment to peace. In political crises, he responded with calm deliberation and decisive action."
+  },
+  {
+    "type": "message",
+    "slug": "queen-victoria",
+    "field": "quote",
+    "sourceText": "I will be good."
+  },
+  {
+    "type": "message",
+    "slug": "queen-victoria",
+    "field": "pain",
+    "sourceText": "The early death of her father, her mother's overbearing control, political instability in her early reign, and the profound grief and prolonged mourning following the sudden death of her beloved husband, Prince Albert."
+  },
+  {
+    "type": "message",
+    "slug": "queen-victoria",
+    "field": "recovery",
+    "sourceText": "Despite her personal tragedy, she resolutely continued her duties as monarch, upholding Prince Albert's vision for public works, arts, and sciences. She maintained stability within the British Empire and became a symbol of endurance and duty through her frugal and exemplary life, earning the respect of her subjects."
+  },
+  {
+    "type": "message",
+    "slug": "thomas-jefferson",
+    "field": "name",
+    "sourceText": "Thomas Jefferson"
+  },
+  {
+    "type": "message",
+    "slug": "thomas-jefferson",
+    "field": "quote",
+    "sourceText": "I have no fear that the result of our choice will prove mistaken. I have no fear of the result of our election."
+  },
+  {
+    "type": "message",
+    "slug": "thomas-jefferson",
+    "field": "pain",
+    "sourceText": "Jefferson grappled with the profound contradiction of owning slaves while espousing principles of liberty, faced intense political rivalries, and endured personal tragedies."
+  },
+  {
+    "type": "message",
+    "slug": "thomas-jefferson",
+    "field": "recovery",
+    "sourceText": "He sought solace and guidance in Enlightenment ideals, reason, and education, tirelessly working to advance his vision for the nation despite these challenges."
+  }
+]

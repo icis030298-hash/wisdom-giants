@@ -1,0 +1,80 @@
+[
+  {
+    "type": "narrative",
+    "slug": "napoleon-bonaparte",
+    "field": "era",
+    "sourceText": "18th-19th Century Giant (1769~1821)"
+  },
+  {
+    "type": "narrative",
+    "slug": "king-sejong",
+    "field": "era",
+    "sourceText": "15th Century Giant (1397~1450)"
+  },
+  {
+    "type": "narrative",
+    "slug": "confucius",
+    "field": "era",
+    "sourceText": "6th-5th Century BC (Spring and Autumn Period)"
+  },
+  {
+    "type": "narrative",
+    "slug": "leonardo-da-vinci",
+    "field": "era",
+    "sourceText": "Renaissance Giant (1452~1519)"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "mozart",
+    "field": "wisdom.0.quote",
+    "sourceText": "The music is not in the notes, but in the silence between them. True mastery is the control of the space between the actions."
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "mozart",
+    "field": "wisdom.0.meaning",
+    "sourceText": "On the Sovereignty of Silence: Intensity requires contrast. A giant understands that the most powerful moments are defined by what is not said or done; by mastering the pauses in your life and work, you give weight and meaning to your actions. Cultivate the intervals of your existence."
+  },
+  {
+    "type": "narrative",
+    "slug": "marie-curie",
+    "field": "era",
+    "sourceText": "19th-20th Century Giant (1867~1934)"
+  },
+  {
+    "type": "narrative",
+    "slug": "joan-of-arc",
+    "field": "era",
+    "sourceText": "15th Century Giant (1412~1431)"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "baruch-spinoza",
+    "field": "wisdom.0.quote",
+    "sourceText": "God and Nature are one. Everything follows the eternal laws of necessity. Find your place within the infinite structure and understand the whole."
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "baruch-spinoza",
+    "field": "wisdom.0.meaning",
+    "sourceText": "Resisting reality is the root of suffering. Recognize the universe as an interconnected web of cause and effect. By aligning your perspective with nature's laws, you find profound peace and clarity."
+  },
+  {
+    "type": "narrative",
+    "slug": "isaac-newton",
+    "field": "era",
+    "sourceText": "17th-18th Century Giant (1643~1727)"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "thomas-jefferson",
+    "field": "wisdom.1.quote",
+    "sourceText": "Freedom is not something that can be preserved in all its purity without a constant struggle."
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "thomas-jefferson",
+    "field": "wisdom.2.quote",
+    "sourceText": "The most important function of government is to protect the liberty of the people."
+  }
+]

@@ -21,12 +21,7 @@ if (fs.existsSync(wikiLinksPath)) {
   wikipediaLinks = JSON.parse(fs.readFileSync(wikiLinksPath, 'utf-8'));
 }
 
-// Load fact layer data
-const factLayerPath = path.join(process.cwd(), 'src/data/fact-layer-all.json');
-let factLayerAll: any = {};
-if (fs.existsSync(factLayerPath)) {
-  factLayerAll = JSON.parse(fs.readFileSync(factLayerPath, 'utf-8'));
-}
+// Fact layer is now loaded dynamically per locale inside the component
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -134,6 +129,13 @@ export default async function GiantDetailPage({ params }: Props) {
   if (!giant) notFound();
 
   // Attach fact layer data if it exists for this giant
+  let factLayerAll: any = {};
+  try {
+    factLayerAll = (await import(`@/data/fact-layers/fact-layer-${locale}.json`)).default;
+  } catch (error) {
+    // If the locale file doesn't exist, we fallback to an empty object
+    console.warn(`Could not load fact-layer-${locale}.json`);
+  }
   const factLayer = factLayerAll[slug] || null;
 
   const messages = await getMessages({ locale });
@@ -202,7 +204,8 @@ export default async function GiantDetailPage({ params }: Props) {
     giantsGrid: messages.GiantsGrid,
     narrative: formattedNarrative,
     factLayer: factLayer,
-    giantBlogLink: messages.GiantBlogLink
+    giantBlogLink: messages.GiantBlogLink,
+    ui: messages.UI
   };
 
   const BASE_URL = 'https://www.giantswisdom.com';
@@ -255,7 +258,7 @@ export default async function GiantDetailPage({ params }: Props) {
     }
   } : null;
 
-  const faqSchema = locale === 'ko' && factLayer && factLayer.faq ? {
+  const faqSchema = factLayer && factLayer.faq ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: factLayer.faq.map((q: any) => ({

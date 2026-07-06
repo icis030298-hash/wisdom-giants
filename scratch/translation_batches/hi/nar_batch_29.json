@@ -1,0 +1,92 @@
+[
+  {
+    "type": "narrative",
+    "slug": "alan-turing",
+    "field": "era",
+    "sourceText": "20th Century Giant (1912~1954)"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "alan-turing",
+    "field": "wisdom.0.quote",
+    "sourceText": "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "alan-turing",
+    "field": "wisdom.0.meaning",
+    "sourceText": "Emphasizes the importance of focusing on present tasks and doing one's best, even amidst uncertainty about the future."
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "alan-turing",
+    "field": "wisdom.1.quote",
+    "sourceText": "Everyone must learn to think for themselves."
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "alan-turing",
+    "field": "wisdom.1.meaning",
+    "sourceText": "Stresses the importance of critical thinking and independent thought."
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "alan-turing",
+    "field": "wisdom.2.quote",
+    "sourceText": "I have not found any reason to deny that machines can think, unless one is to be forbidden to consider them as thinking machines, on the ground that they do not think in the same way as we do."
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "alan-turing",
+    "field": "wisdom.2.meaning",
+    "sourceText": "Suggests that we should explore the possibility of machine intelligence with an open mind, moving beyond anthropocentric thinking."
+  },
+  {
+    "type": "narrative",
+    "slug": "charles-babbage",
+    "field": "trials",
+    "sourceText": "Charles Babbage faced significant financial difficulties and a lack of government support in his quest to complete his innovative calculating machines, particularly the Analytical Engine. Furthermore, his ideas, far ahead of their time, were met with criticism and skepticism from contemporaries who failed to grasp his vision."
+  },
+  {
+    "type": "narrative",
+    "slug": "charles-babbage",
+    "field": "overcoming",
+    "sourceText": "Despite financial constraints and technical challenges, Babbage persevered, continuously refining his designs and ideas. Although his machines were not completed in his lifetime, his blueprints provided the foundation that profoundly influenced the development of computer science for future generations."
+  },
+  {
+    "type": "narrative",
+    "slug": "charles-babbage",
+    "field": "era",
+    "sourceText": "18th-19th Century Giant (1791~1871)"
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "charles-babbage",
+    "field": "wisdom.0.quote",
+    "sourceText": "The whole of science is nothing more than a refinement of everyday thinking."
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "charles-babbage",
+    "field": "wisdom.0.meaning",
+    "sourceText": "It signifies that the systematization and development of everyday observations and thoughts are central to scientific discovery."
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "charles-babbage",
+    "field": "wisdom.1.quote",
+    "sourceText": "Mathematics is the queen of sciences, and number theory is the queen of mathematics."
+  },
+  {
+    "type": "wisdom_meaning",
+    "slug": "charles-babbage",
+    "field": "wisdom.1.meaning",
+    "sourceText": "This emphasizes the fundamental importance of mathematics and the central position of number theory within it."
+  },
+  {
+    "type": "wisdom_quote",
+    "slug": "charles-babbage",
+    "field": "wisdom.2.quote",
+    "sourceText": "The smallest inaccuracies must eventually lead to the greatest inaccuracies."
+  }
+]

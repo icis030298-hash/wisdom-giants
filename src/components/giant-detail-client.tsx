@@ -37,6 +37,7 @@ interface GiantDetailClientProps {
     giantDetail: any;
     giants: any;
     giantsGrid: any;
+    ui?: any;
     giantBlogLink?: any;
     narrative?: any;
     factLayer?: any;
@@ -840,11 +841,11 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             </div>
           </section>
 
-          {locale === 'ko' && translations.factLayer && (
+          {translations.factLayer && (
             <section className="space-y-12 my-16 border-t border-white/10 pt-16" id="fact-layer">
               <div className="flex flex-col items-center gap-4 text-center mb-10">
                 <h2 className="text-3xl font-serif font-bold text-foreground">
-                  {locale === 'ko' ? '한눈에 보는 발자취' : 'Timeline & Facts'}
+                  {translations.ui?.timelineAndFacts || 'Timeline & Facts'}
                 </h2>
                 <div className="w-24 h-1 bg-gradient-to-r from-transparent via-blue-500/50 to-transparent" />
               </div>
@@ -852,7 +853,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
               {/* Timeline */}
               {translations.factLayer.timeline && translations.factLayer.timeline.length > 0 && (
                 <div className="space-y-6">
-                  <h3 className="text-2xl font-bold text-blue-400/90">{locale === 'ko' ? '연표' : 'Timeline'}</h3>
+                  <h3 className="text-2xl font-bold text-blue-400/90">{translations.ui?.timeline || 'Timeline'}</h3>
                   <div className="border-l-2 border-white/10 pl-6 space-y-6">
                     {translations.factLayer.timeline.map((tItem: any, idx: number) => (
                       <div key={idx} className="relative">
@@ -868,7 +869,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
               {/* Key Achievements */}
               {translations.factLayer.keyAchievements && translations.factLayer.keyAchievements.length > 0 && (
                 <div className="space-y-6 pt-6">
-                  <h3 className="text-2xl font-bold text-emerald-400/90">{locale === 'ko' ? '핵심 업적' : 'Key Achievements'}</h3>
+                  <h3 className="text-2xl font-bold text-emerald-400/90">{translations.ui?.keyAchievements || 'Key Achievements'}</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {translations.factLayer.keyAchievements.map((ach: any, idx: number) => (
                       <li key={idx} className="glass-card p-4 rounded-xl border border-white/5 flex gap-3 items-start flex-col sm:flex-row">

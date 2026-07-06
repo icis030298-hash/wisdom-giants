@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
   experimental: {
     outputFileTracingIncludes: {
-      '/**/*': ['./src/data/*.json'],
+      '/**/*': ['./src/data/*.json', './src/data/fact-layers/*.json'],
     },
   },
   async redirects() {
