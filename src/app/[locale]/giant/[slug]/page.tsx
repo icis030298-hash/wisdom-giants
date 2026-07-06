@@ -131,12 +131,15 @@ export default async function GiantDetailPage({ params }: Props) {
   // Attach fact layer data if it exists for this giant
   let factLayerAll: any = {};
   try {
-    factLayerAll = (await import(`@/data/fact-layers/fact-layer-${locale}.json`)).default;
+    const layerPath = path.join(process.cwd(), 'src/data/fact-layers', `fact-layer-${locale}.json`);
+    if (fs.existsSync(layerPath)) {
+      factLayerAll = JSON.parse(fs.readFileSync(layerPath, 'utf-8'));
+    }
   } catch (error) {
-    // If the locale file doesn't exist, we fallback to an empty object
     console.warn(`Could not load fact-layer-${locale}.json`);
   }
   const factLayer = factLayerAll[slug] || null;
+  console.log(`[Server Check] Locale: ${locale}, Slug: ${slug}, FactLayer Loaded: ${factLayer ? 'YES' : 'NO'} (Timeline items: ${factLayer?.timeline?.length || 0})`);
 
   const messages = await getMessages({ locale });
   
