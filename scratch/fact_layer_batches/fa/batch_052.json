@@ -1,0 +1,602 @@
+[
+  {
+    "id": "queen-nzinga.faq.1.question",
+    "sourceText": "은징가 음반데는 언제 은동고의 권력을 장악했습니까?"
+  },
+  {
+    "id": "queen-nzinga.faq.1.answer",
+    "sourceText": "은징가 음반데는 1624년에 동생 음반디가 죽은 후 은동고에 대한 권력을 장악했습니다."
+  },
+  {
+    "id": "queen-nzinga.faq.2.question",
+    "sourceText": "은징가 음반데는 어떤 동맹을 맺었습니까?"
+  },
+  {
+    "id": "queen-nzinga.faq.2.answer",
+    "sourceText": "은징가 음반데는 동맹을 찾기 위해 임방갈라 장군 카산예와 결혼했으며, 1641년에는 포르투갈로부터 루안다를 점령한 네덜란드 서인도 회사와 동맹을 맺었습니다."
+  },
+  {
+    "id": "epicurus.timeline.0.year",
+    "sourceText": "기원전 341년"
+  },
+  {
+    "id": "epicurus.timeline.0.event",
+    "sourceText": "소아시아의 사모스 섬에서 출생"
+  },
+  {
+    "id": "epicurus.timeline.1.year",
+    "sourceText": "기원전 311년"
+  },
+  {
+    "id": "epicurus.timeline.1.event",
+    "sourceText": "미틸리니에서 강연 후 반발로 쫓겨남"
+  },
+  {
+    "id": "epicurus.timeline.2.year",
+    "sourceText": "기원전 306년"
+  },
+  {
+    "id": "epicurus.timeline.2.event",
+    "sourceText": "아테네에 학파의 만남의 장소인 ‘정원’을 만듦"
+  },
+  {
+    "id": "epicurus.timeline.3.year",
+    "sourceText": "기원전 270년"
+  },
+  {
+    "id": "epicurus.timeline.3.event",
+    "sourceText": "요로결석으로 사망"
+  },
+  {
+    "id": "epicurus.keyAchievements.0.title",
+    "sourceText": "에피쿠로스 학파 창시"
+  },
+  {
+    "id": "epicurus.keyAchievements.0.description",
+    "sourceText": "에피쿠로스 학파(Epicurianism)를 창시했다."
+  },
+  {
+    "id": "epicurus.keyAchievements.1.title",
+    "sourceText": "철학의 목적 제시"
+  },
+  {
+    "id": "epicurus.keyAchievements.1.description",
+    "sourceText": "철학의 목적을 행복하고 평온한 삶을 얻는 데 있다고 보았다."
+  },
+  {
+    "id": "epicurus.keyAchievements.2.title",
+    "sourceText": "쾌락주의 철학의 시조"
+  },
+  {
+    "id": "epicurus.keyAchievements.2.description",
+    "sourceText": "원자론적 유물론과 윤리학의 쾌락주의를 주장하여 쾌락주의 철학의 시조가 되었다."
+  },
+  {
+    "id": "epicurus.keyAchievements.3.title",
+    "sourceText": "아타락시아와 아포니아 개념 정립"
+  },
+  {
+    "id": "epicurus.keyAchievements.3.description",
+    "sourceText": "행복하고 평온한 삶의 특징으로 마음의 평정(ataraxia)과 무통(aponia)을 제시했다."
+  },
+  {
+    "id": "epicurus.keyAchievements.4.title",
+    "sourceText": "죽음에 대한 관점 제시"
+  },
+  {
+    "id": "epicurus.keyAchievements.4.description",
+    "sourceText": "죽음은 몸과 영혼의 종말이므로 두려워할 대상이 아니라고 가르쳤다."
+  },
+  {
+    "id": "epicurus.keyAchievements.5.title",
+    "sourceText": "신에 대한 관점 제시"
+  },
+  {
+    "id": "epicurus.keyAchievements.5.description",
+    "sourceText": "신은 인간을 벌주거나 보상하지 않으며, 인간에게 신경 쓰지 않는다고 주장했다."
+  },
+  {
+    "id": "epicurus.keyAchievements.6.title",
+    "sourceText": "원자론적 유물론 발전"
+  },
+  {
+    "id": "epicurus.keyAchievements.6.description",
+    "sourceText": "세상의 모든 현상이 빈 공간을 움직이는 원자들의 움직임과 상호작용으로부터 나온다고 설명했다."
+  },
+  {
+    "id": "epicurus.keyAchievements.7.title",
+    "sourceText": "자유 의지 개념 도입"
+  },
+  {
+    "id": "epicurus.keyAchievements.7.description",
+    "sourceText": "원자 운동이 단순한 직선이 아닌 가끔 방향이 바뀐다고 하여 결정론을 피하고 자유 의지를 부여했다."
+  },
+  {
+    "id": "epicurus.keyAchievements.8.title",
+    "sourceText": "인간 평등 사상 소개"
+  },
+  {
+    "id": "epicurus.keyAchievements.8.description",
+    "sourceText": "여성과 노예를 학파에 받아들임으로써 그리스인에게 근본적인 인간 평등사상을 소개했다."
+  },
+  {
+    "id": "epicurus.keyAchievements.9.title",
+    "sourceText": "다수 설명의 원칙 제시"
+  },
+  {
+    "id": "epicurus.keyAchievements.9.description",
+    "sourceText": "과학철학에 기여한 '다수 설명의 원칙'을 제시했다."
+  },
+  {
+    "id": "epicurus.faq.0.question",
+    "sourceText": "에피쿠로스 철학의 핵심 목적은 무엇인가요?"
+  },
+  {
+    "id": "epicurus.faq.0.answer",
+    "sourceText": "에피쿠로스에게 철학의 목적은 평정(ataraxia), 평화, 공포로부터의 자유, 무통(aponia)을 특징으로 하는 행복하고 평온한 삶을 얻는 것이었습니다."
+  },
+  {
+    "id": "epicurus.faq.1.question",
+    "sourceText": "에피쿠로스는 죽음에 대해 어떻게 가르쳤나요?"
+  },
+  {
+    "id": "epicurus.faq.1.answer",
+    "sourceText": "에피쿠로스는 죽음이 몸과 영혼의 종말이므로 두려워할 대상이 아니며, 우리가 존재할 때는 죽음이 없고 죽음이 존재할 때는 우리가 존재하지 않으므로 죽음은 우리에게 아무것도 아니라고 가르쳤습니다."
+  },
+  {
+    "id": "epicurus.faq.2.question",
+    "sourceText": "에피쿠로스 학파의 특징은 무엇이었나요?"
+  },
+  {
+    "id": "epicurus.faq.2.answer",
+    "sourceText": "에피쿠로스 학파는 여성을 정식으로 받아들인 첫 학파였고, 우정을 행복의 중요한 재료로 여겼으며, 정치 참여보다는 은둔을 지지했습니다."
+  },
+  {
+    "id": "epicurus.faq.3.question",
+    "sourceText": "에피쿠로스가 말하는 쾌락은 무엇을 의미하나요?"
+  },
+  {
+    "id": "epicurus.faq.3.answer",
+    "sourceText": "에피쿠로스는 쾌락을 고통의 부재로 보았으며, 순간적이고 육체적인 쾌락이 아닌 지속적이고 정적인 쾌락을 추구했습니다."
+  },
+  {
+    "id": "michael-faraday.timeline.0.year",
+    "sourceText": "1791"
+  },
+  {
+    "id": "michael-faraday.timeline.0.event",
+    "sourceText": "9월 22일, 뉴잉턴에서 제임스 패러데이와 마가렛 사이에서 4명의 자녀 중 셋째로 태어남."
+  },
+  {
+    "id": "michael-faraday.timeline.1.year",
+    "sourceText": "1804"
+  },
+  {
+    "id": "michael-faraday.timeline.1.event",
+    "sourceText": "13살 때 서점을 운영하던 조지 리보의 견습생이 됨."
+  },
+  {
+    "id": "michael-faraday.timeline.2.year",
+    "sourceText": "1805"
+  },
+  {
+    "id": "michael-faraday.timeline.2.event",
+    "sourceText": "8월 7일, 7년간 조지 리보의 견습생으로 계약을 맺음."
+  },
+  {
+    "id": "michael-faraday.timeline.3.year",
+    "sourceText": "1806"
+  },
+  {
+    "id": "michael-faraday.timeline.3.event",
+    "sourceText": "제인 마르켓의 《화학의 대화》와 제임스 타이틀러의 브리태니커 백과사전 3판을 읽음."
+  },
+  {
+    "id": "michael-faraday.timeline.4.year",
+    "sourceText": "1809"
+  },
+  {
+    "id": "michael-faraday.timeline.4.event",
+    "sourceText": "신문과 잡지에서 예술과 과학에 대한 글을 읽고 노트를 적기 시작함."
+  },
+  {
+    "id": "michael-faraday.timeline.5.year",
+    "sourceText": "1812"
+  },
+  {
+    "id": "michael-faraday.timeline.5.event",
+    "sourceText": "험프리 데이비의 화학 강연 티켓을 받아 강연을 들음; 데이비에게 도움을 구하는 편지를 씀."
+  },
+  {
+    "id": "michael-faraday.timeline.6.year",
+    "sourceText": "1813"
+  },
+  {
+    "id": "michael-faraday.timeline.6.event",
+    "sourceText": "3월부터 왕립 연구소에서 일하기 시작함; 10월 13일 데이비의 비서 겸 조수로 유럽 여행을 시작함."
+  },
+  {
+    "id": "michael-faraday.timeline.7.year",
+    "sourceText": "1814"
+  },
+  {
+    "id": "michael-faraday.timeline.7.event",
+    "sourceText": "이탈리아 나폴리로 이동하여 베수비오 산에 오르고, 파비아에서 알렉산드로 볼타를 만남."
+  },
+  {
+    "id": "michael-faraday.timeline.8.year",
+    "sourceText": "1815"
+  },
+  {
+    "id": "michael-faraday.timeline.8.event",
+    "sourceText": "4월 23일 영국으로 귀환함; 5월, 왕립 협회 실험실의 장비와 광물학 물품의 관리자 겸 조수로 다시 고용됨."
+  },
+  {
+    "id": "michael-faraday.timeline.9.year",
+    "sourceText": "1821"
+  },
+  {
+    "id": "michael-faraday.timeline.9.event",
+    "sourceText": "6월 12일 사라 바너드와 결혼함; <물리학연보>에 전자기력에 의한 회전에 대한 글을 게재함."
+  },
+  {
+    "id": "michael-faraday.timeline.10.year",
+    "sourceText": "1822"
+  },
+  {
+    "id": "michael-faraday.timeline.10.event",
+    "sourceText": "실험실 노트에 “자기는 전기로 변한다”라는 말을 남김."
+  },
+  {
+    "id": "michael-faraday.timeline.11.year",
+    "sourceText": "1823"
+  },
+  {
+    "id": "michael-faraday.timeline.11.event",
+    "sourceText": "염소의 액화에 성공함."
+  },
+  {
+    "id": "michael-faraday.timeline.12.year",
+    "sourceText": "1825"
+  },
+  {
+    "id": "michael-faraday.timeline.12.event",
+    "sourceText": "벤젠을 발견함; 왕립학회로부터 망원경에 사용될 유리의 광학적 성질 연구를 위탁받음."
+  },
+  {
+    "id": "michael-faraday.timeline.13.year",
+    "sourceText": "1826"
+  },
+  {
+    "id": "michael-faraday.timeline.13.event",
+    "sourceText": "나프탈렌의 분자구조를 알아냈으며, 두 가지의 샘플 결정을 만듦; '아이들을 위한 크리스마스 강연회'를 만듦."
+  },
+  {
+    "id": "michael-faraday.timeline.14.year",
+    "sourceText": "1827"
+  },
+  {
+    "id": "michael-faraday.timeline.14.event",
+    "sourceText": "4월, 실용적인 화학에 대한 안내를 포함한 논문을 발표함; 왕립연구소로부터 특수 화로를 제공받아 광학 유리 실험에 착수함."
+  },
+  {
+    "id": "michael-faraday.timeline.15.year",
+    "sourceText": "1829"
+  },
+  {
+    "id": "michael-faraday.timeline.15.event",
+    "sourceText": "왕립학회의 베이커리언 강의에서 광학 유리 연구의 성공을 발표함."
+  },
+  {
+    "id": "michael-faraday.timeline.16.year",
+    "sourceText": "1831"
+  },
+  {
+    "id": "michael-faraday.timeline.16.event",
+    "sourceText": "8월 29일, 전자기 실험을 시작하여 전자기 유도를 발견함."
+  },
+  {
+    "id": "michael-faraday.timeline.17.year",
+    "sourceText": "1832"
+  },
+  {
+    "id": "michael-faraday.timeline.17.event",
+    "sourceText": "연말, ‘전기 화학 분해’ 연구를 시작하여 패러데이의 첫 번째 법칙을 알아냄."
+  },
+  {
+    "id": "michael-faraday.timeline.18.year",
+    "sourceText": "1833"
+  },
+  {
+    "id": "michael-faraday.timeline.18.event",
+    "sourceText": "연말, 전압전류계에서 물에 용해된 다양한 물질로 실험하여 패러데이의 두 번째 법칙을 알아냄."
+  },
+  {
+    "id": "michael-faraday.timeline.19.year",
+    "sourceText": "1836"
+  },
+  {
+    "id": "michael-faraday.timeline.19.event",
+    "sourceText": "충전된 도체의 전하가 도체 표면에만 분포한다는 사실을 발견함."
+  },
+  {
+    "id": "michael-faraday.timeline.20.year",
+    "sourceText": "1839"
+  },
+  {
+    "id": "michael-faraday.timeline.20.event",
+    "sourceText": "《전기의 실험적 연구》 1권을 출간함."
+  },
+  {
+    "id": "michael-faraday.timeline.21.year",
+    "sourceText": "1844"
+  },
+  {
+    "id": "michael-faraday.timeline.21.event",
+    "sourceText": "암모니아, 이산화탄소 등 많은 물질들의 액화에 성공함."
+  },
+  {
+    "id": "michael-faraday.timeline.22.year",
+    "sourceText": "1845"
+  },
+  {
+    "id": "michael-faraday.timeline.22.event",
+    "sourceText": "6월, 케임브리지 대학교에서 윌리엄 톰슨을 만남; 9월 18일, 자기와 빛이 물리적으로 관계가 있다고 정의하고 패러데이 효과를 발견함."
+  },
+  {
+    "id": "michael-faraday.timeline.23.year",
+    "sourceText": "1848"
+  },
+  {
+    "id": "michael-faraday.timeline.23.event",
+    "sourceText": "자석의 영향으로 인한 반자성체의 변화를 조사하기 위한 실험을 시작하였고, 자기장 개념을 언급함."
+  },
+  {
+    "id": "michael-faraday.timeline.24.year",
+    "sourceText": "1858"
+  },
+  {
+    "id": "michael-faraday.timeline.24.event",
+    "sourceText": "빅토리아 여왕의 요청으로 런던 템스 강변의 햄프턴 코트 근처 저택에서 살 수 있게 됨."
+  },
+  {
+    "id": "michael-faraday.timeline.25.year",
+    "sourceText": "1859"
+  },
+  {
+    "id": "michael-faraday.timeline.25.event",
+    "sourceText": "《화학 및 물리학의 실험적 연구》를 출간함."
+  },
+  {
+    "id": "michael-faraday.timeline.26.year",
+    "sourceText": "1860"
+  },
+  {
+    "id": "michael-faraday.timeline.26.event",
+    "sourceText": "중력과 전기에 관한 연구 결과를 “철학회보”에 제출하였으나 철회 권고를 받음; 왕립 협회의 크리스마스 강연회에서 《양초 한 자루에 담긴 화학 이야기》 강연을 함."
+  },
+  {
+    "id": "michael-faraday.timeline.27.year",
+    "sourceText": "1861"
+  },
+  {
+    "id": "michael-faraday.timeline.27.event",
+    "sourceText": "기억 상실 증상이 시작됨; 크리스마스에 마지막 강의를 함."
+  },
+  {
+    "id": "michael-faraday.timeline.28.year",
+    "sourceText": "1862"
+  },
+  {
+    "id": "michael-faraday.timeline.28.event",
+    "sourceText": "불꽃으로 가열한 나트륨과 다른 금속의 스펙트럼이 전자기장에 영향을 받는지에 대한 실험을 함."
+  },
+  {
+    "id": "michael-faraday.timeline.29.year",
+    "sourceText": "1867"
+  },
+  {
+    "id": "michael-faraday.timeline.29.event",
+    "sourceText": "8월 25일에 세상을 떠남."
+  },
+  {
+    "id": "michael-faraday.keyAchievements.0.title",
+    "sourceText": "전자기 유도 발견"
+  },
+  {
+    "id": "michael-faraday.keyAchievements.0.description",
+    "sourceText": "전자기 유도, 반자성 현상, 그리고 전기 분해의 법칙의 원리를 발견하였고, 전자기 회전 장치를 발명하여 전기 모터의 근본적 형태를 만듦."
+  },
+  {
+    "id": "michael-faraday.keyAchievements.1.title",
+    "sourceText": "벤젠 발견 및 화학 용어 도입"
+  },
+  {
+    "id": "michael-faraday.keyAchievements.1.description",
+    "sourceText": "화학자로서 벤젠을 발견하고, 염소의 격자무늬 수산화물에 대해 조사했으며, 양극, 음극, 전극, 이온과 같은 전문 용어를 처음으로 도입함."
+  },
+  {
+    "id": "michael-faraday.keyAchievements.2.title",
+    "sourceText": "기체 액화 성공"
+  },
+  {
+    "id": "michael-faraday.keyAchievements.2.description",
+    "sourceText": "염소, 암모니아, 이산화탄소 등 많은 물질들의 액화에 성공하여 임계점의 존재와 물질 상태의 호환성을 증명함."
+  },
+  {
+    "id": "michael-faraday.keyAchievements.3.title",
+    "sourceText": "광학 유리 제작 연구"
+  },
+  {
+    "id": "michael-faraday.keyAchievements.3.description",
+    "sourceText": "망원경에 사용될 유리의 광학적 성질을 연구하여 기포나 찰흔이 없는 균일한 유리를 만드는 방법을 개발함."
+  },
+  {
+    "id": "michael-faraday.keyAchievements.4.title",
+    "sourceText": "패러데이 효과 발견"
+  },
+  {
+    "id": "michael-faraday.keyAchievements.4.description",
+    "sourceText": "자기장이 광선에 영향을 미칠 수 있다는 것과 그들 사이의 근본적인 관계를 확립하고, 자기장에서 편광 평면이 회전하는 현상을 발견함."
+  },
+  {
+    "id": "michael-faraday.keyAchievements.5.title",
+    "sourceText": "자성체 분류"
+  },
+  {
+    "id": "michael-faraday.keyAchievements.5.description",
+    "sourceText": "자기장에 수직으로 멈추는 반자성체와 평행으로 멈추는 상자성체를 명명하고, 대부분의 기체가 반자성체이며 산소가 상자성을 가진다는 사실을 알아냄."
+  },
+  {
+    "id": "michael-faraday.keyAchievements.6.title",
+    "sourceText": "자기장 개념 도입"
+  },
+  {
+    "id": "michael-faraday.keyAchievements.6.description",
+    "sourceText": "자기력선이 물리적인 의미를 가진다고 믿었으며, 위치에 따라 두 개의 자극으로부터 받는 영향이 달라진다는 자기장 개념을 처음으로 언급함."
+  },
+  {
+    "id": "michael-faraday.keyAchievements.7.title",
+    "sourceText": "패러데이 새장 원리 발견"
+  },
+  {
+    "id": "michael-faraday.keyAchievements.7.description",
+    "sourceText": "충전된 도체의 전하가 도체 표면에만 분포하고 비어 있는 내부에는 어떠한 영향도 끼치지 않는다는 사실을 발견함."
+  },
+  {
+    "id": "michael-faraday.keyAchievements.8.title",
+    "sourceText": "크리스마스 강연회 창설"
+  },
+  {
+    "id": "michael-faraday.keyAchievements.8.description",
+    "sourceText": "과학을 대중화하기 위해 1826년 '아이들을 위한 크리스마스 강연회'를 만들었으며, 이는 런던 왕립 협회의 전통으로 내려옴."
+  },
+  {
+    "id": "michael-faraday.faq.0.question",
+    "sourceText": "마이클 패러데이의 교육 배경은 어떠했나요?"
+  },
+  {
+    "id": "michael-faraday.faq.0.answer",
+    "sourceText": "패러데이는 어린 시절에 정식 교육 및 고등 교육을 거의 받지 못했으며, 읽기, 쓰기, 산수의 기초적인 것만을 배웠습니다. 그는 주로 독학으로 과학 지식을 습득했습니다."
+  },
+  {
+    "id": "michael-faraday.faq.1.question",
+    "sourceText": "패러데이는 수학에 능숙했나요?"
+  },
+  {
+    "id": "michael-faraday.faq.1.answer",
+    "sourceText": "패러데이는 간단한 대수까지만 가능했고 삼각법도 다루지 못할 정도로 수학 실력이 부족했지만, 시각적 사고와 상상력이 뛰어났습니다. 그의 이론은 훗날 제임스 클러크 맥스웰에 의해 수학적으로 재정립되었습니다."
+  },
+  {
+    "id": "michael-faraday.faq.2.question",
+    "sourceText": "패러데이는 명예나 부를 추구했나요?"
+  },
+  {
+    "id": "michael-faraday.faq.2.answer",
+    "sourceText": "아닙니다. 그는 세속적인 부에 관심이 없었고, 자신의 강연 출판을 거부하고 왕립 학회의 회장직과 기사 작위 수여도 거절했습니다. 그의 겸손함과 검소함은 종교적 신념에서 비롯되었습니다."
+  },
+  {
+    "id": "michael-faraday.faq.3.question",
+    "sourceText": "패러데이에게 자녀가 있었나요?"
+  },
+  {
+    "id": "michael-faraday.faq.3.answer",
+    "sourceText": "아닙니다. 패러데이는 사라 바너드와 결혼했지만 평생 아이가 없었습니다. 그러나 그는 아이들을 위한 과학 강연을 만들고 직접 참여하며 과학 대중화에 기여했습니다."
+  },
+  {
+    "id": "michael-faraday.faq.4.question",
+    "sourceText": "패러데이의 종교는 그의 과학 연구에 어떤 영향을 미쳤나요?"
+  },
+  {
+    "id": "michael-faraday.faq.4.answer",
+    "sourceText": "패러데이는 기독교 근본주의의 열렬한 신봉자였던 샌더매니언 집회의 회원이었습니다. 그의 겸손함과 검소함, 그리고 순수한 학문 추구는 이러한 종교적 배경과 밀접한 연관이 있습니다."
+  },
+  {
+    "id": "william-the-conqueror.timeline.0.year",
+    "sourceText": "1028년 11월 8일"
+  },
+  {
+    "id": "william-the-conqueror.timeline.0.event",
+    "sourceText": "노르망디 공국의 팔레즈에서 출생"
+  },
+  {
+    "id": "william-the-conqueror.timeline.1.year",
+    "sourceText": "1035년 1월"
+  },
+  {
+    "id": "william-the-conqueror.timeline.1.event",
+    "sourceText": "노르만 유력자들에게 자신의 후계자로서 충성 서약을 받음"
+  },
+  {
+    "id": "william-the-conqueror.timeline.2.year",
+    "sourceText": "1035년 7월 초"
+  },
+  {
+    "id": "william-the-conqueror.timeline.2.event",
+    "sourceText": "아버지 로베르 1세가 니케아에서 사망하며 노르망디 공작직을 계승"
+  },
+  {
+    "id": "william-the-conqueror.timeline.3.year",
+    "sourceText": "1047년"
+  },
+  {
+    "id": "william-the-conqueror.timeline.3.event",
+    "sourceText": "반란을 진압하고 공작령에 대한 권위를 행사하기 시작"
+  },
+  {
+    "id": "william-the-conqueror.timeline.4.year",
+    "sourceText": "1047년 초"
+  },
+  {
+    "id": "william-the-conqueror.timeline.4.event",
+    "sourceText": "프랑스 왕 앙리 1세와 함께 발레뒨 전투에서 승리"
+  },
+  {
+    "id": "william-the-conqueror.timeline.5.year",
+    "sourceText": "1050년"
+  },
+  {
+    "id": "william-the-conqueror.timeline.5.event",
+    "sourceText": "부르고뉴의 기를 몰아내는 데 성공"
+  },
+  {
+    "id": "william-the-conqueror.timeline.6.year",
+    "sourceText": "1050년대 초"
+  },
+  {
+    "id": "william-the-conqueror.timeline.6.event",
+    "sourceText": "플랑드르의 마틸드와 혼인"
+  },
+  {
+    "id": "william-the-conqueror.timeline.7.year",
+    "sourceText": "1051년"
+  },
+  {
+    "id": "william-the-conqueror.timeline.7.event",
+    "sourceText": "잉글랜드의 왕 에드워드가 윌리엄을 후계자로 택한 것으로 보임"
+  },
+  {
+    "id": "william-the-conqueror.timeline.8.year",
+    "sourceText": "1054년 2월"
+  },
+  {
+    "id": "william-the-conqueror.timeline.8.event",
+    "sourceText": "앙리와 노르만 반란군의 노르망디 양면 공격을 방어"
+  },
+  {
+    "id": "william-the-conqueror.timeline.9.year",
+    "sourceText": "1057년"
+  },
+  {
+    "id": "william-the-conqueror.timeline.9.event",
+    "sourceText": "앙리와 조프루아 마르텔이 바라빌 전투에서 패함"
+  },
+  {
+    "id": "william-the-conqueror.timeline.10.year",
+    "sourceText": "1060년경"
+  },
+  {
+    "id": "william-the-conqueror.timeline.10.event",
+    "sourceText": "노르망디 영지를 자신의 것으로 확고히 함"
+  }
+]

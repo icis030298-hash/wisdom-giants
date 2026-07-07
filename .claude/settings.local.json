@@ -32,7 +32,9 @@
       "Bash(git commit -m 'chore: add translation batch processing scripts and data files *)",
       "Bash(git commit -m 'fix: Italian & Portuguese locale quality improvements *)",
       "Bash(git commit -m 'feat: add IT/PT locale support to giant detail page *)",
-      "Bash(git commit -m 'feat: IT/PT users now see translated content from messages.json *)"
+      "Bash(git commit -m 'feat: IT/PT users now see translated content from messages.json *)",
+      "Bash(git status *)",
+      "Bash(grep -v \"^$\")"
     ]
   }
 }

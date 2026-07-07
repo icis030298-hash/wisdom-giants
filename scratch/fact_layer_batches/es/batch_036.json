@@ -1,0 +1,602 @@
+[
+  {
+    "id": "frederic-chopin.keyAchievements.7.title",
+    "sourceText": "폴로네즈 형식의 새로운 기준"
+  },
+  {
+    "id": "frederic-chopin.keyAchievements.7.description",
+    "sourceText": "폴로네즈 형식의 음악에 새로운 기준을 세웠습니다."
+  },
+  {
+    "id": "frederic-chopin.keyAchievements.8.title",
+    "sourceText": "녹턴 장르의 심화"
+  },
+  {
+    "id": "frederic-chopin.keyAchievements.8.description",
+    "sourceText": "녹턴을 더 깊이 있는 정교함의 수준으로 끌어올렸습니다."
+  },
+  {
+    "id": "frederic-chopin.keyAchievements.9.title",
+    "sourceText": "음악에 민족주의 의식 도입"
+  },
+  {
+    "id": "frederic-chopin.keyAchievements.9.description",
+    "sourceText": "음악에 새로운 민족주의 의식을 도입했다는 평가를 받습니다."
+  },
+  {
+    "id": "frederic-chopin.keyAchievements.10.title",
+    "sourceText": "피아노 및 작곡 학파 창시자"
+  },
+  {
+    "id": "frederic-chopin.keyAchievements.10.description",
+    "sourceText": "피아노 학파와 작곡 학파의 창시자라고 불렸습니다."
+  },
+  {
+    "id": "frederic-chopin.faq.0.question",
+    "sourceText": "쇼팽은 언제 태어났나요?"
+  },
+  {
+    "id": "frederic-chopin.faq.0.answer",
+    "sourceText": "프레데리크 프랑수아 쇼팽은 1810년 3월 1일에 태어났습니다."
+  },
+  {
+    "id": "frederic-chopin.faq.1.question",
+    "sourceText": "쇼팽의 본명은 무엇인가요?"
+  },
+  {
+    "id": "frederic-chopin.faq.1.answer",
+    "sourceText": "그의 본명은 프리데리크 프란치셰크 쇼팽(Fryderyk Franciszek Chopin)입니다."
+  },
+  {
+    "id": "frederic-chopin.faq.2.question",
+    "sourceText": "쇼팽은 주로 어떤 악기를 위해 작곡했나요?"
+  },
+  {
+    "id": "frederic-chopin.faq.2.answer",
+    "sourceText": "쇼팽은 주로 독주 피아노곡을 작곡했으며, 그의 모든 작품에는 피아노가 등장합니다."
+  },
+  {
+    "id": "frederic-chopin.faq.3.question",
+    "sourceText": "쇼팽은 평생 동안 몇 번의 공개 연주를 했나요?"
+  },
+  {
+    "id": "frederic-chopin.faq.3.answer",
+    "sourceText": "그는 평생 동안 30번 남짓한 최소한의 공개 연주를 했고, 살롱의 더 친밀한 분위기를 선호했습니다."
+  },
+  {
+    "id": "frederic-chopin.faq.4.question",
+    "sourceText": "쇼팽은 파리에서 어떻게 생계를 유지했나요?"
+  },
+  {
+    "id": "frederic-chopin.faq.4.answer",
+    "sourceText": "그는 곡을 판매하고 피아노 레슨을 제공하여 생계를 유지했는데, 당대 쇼팽의 레슨은 높은 인기를 누렸습니다."
+  },
+  {
+    "id": "frederic-chopin.faq.5.question",
+    "sourceText": "조르주 상드는 쇼팽에게 어떤 관계였나요?"
+  },
+  {
+    "id": "frederic-chopin.faq.5.answer",
+    "sourceText": "조르주 상드는 프랑스 작가이자 쇼팽의 연인이었으며, 그들은 1838년 7월에 연인이 되었습니다."
+  },
+  {
+    "id": "frederic-chopin.faq.6.question",
+    "sourceText": "쇼팽과 프란츠 리스트의 관계는 어떠했나요?"
+  },
+  {
+    "id": "frederic-chopin.faq.6.answer",
+    "sourceText": "두 사람은 친구였고 서로 존경했지만, 그들의 우정은 불안정하고 애증 관계의 특성을 가지고 있었습니다."
+  },
+  {
+    "id": "frederic-chopin.faq.7.question",
+    "sourceText": "쇼팽의 사망 원인은 무엇인가요?"
+  },
+  {
+    "id": "frederic-chopin.faq.7.answer",
+    "sourceText": "그의 사망 진단서에는 사인이 결핵으로 기록되어 있으며, 최근 연구에서는 만성 결핵 합병증으로 인한 희귀한 심낭염일 가능성이 높다고 시사합니다."
+  },
+  {
+    "id": "frederic-chopin.faq.8.question",
+    "sourceText": "쇼팽의 심장은 어디에 보존되어 있나요?"
+  },
+  {
+    "id": "frederic-chopin.faq.8.answer",
+    "sourceText": "그의 심장은 의사가 제거하여 꽃병에 알코올에 보존해 두었고, 그의 누나 루드비카가 1850년 폴란드로 다시 가져갔습니다."
+  },
+  {
+    "id": "frederic-chopin.faq.9.question",
+    "sourceText": "쇼팽은 자신의 작품에 서술적인 제목을 붙였나요?"
+  },
+  {
+    "id": "frederic-chopin.faq.9.answer",
+    "sourceText": "그의 장례 행진곡을 제외하고, 작곡가는 장르와 번호 외에 기악곡에 이름을 붙인 적이 없었습니다."
+  },
+  {
+    "id": "katsushika-hokusai.timeline.0.year",
+    "sourceText": "1760년 10월 31일경"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.0.event",
+    "sourceText": "에도 가쓰시카 지구의 한 장인 가정에서 출생 (아명: 도키타로)"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.1.year",
+    "sourceText": "1766년경"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.1.event",
+    "sourceText": "6세 무렵부터 그림을 그리기 시작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.2.year",
+    "sourceText": "1772년경"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.2.event",
+    "sourceText": "12세 때 서점겸 대출 도서관에서 일함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.3.year",
+    "sourceText": "1774년경"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.3.event",
+    "sourceText": "14세에 목판 조각사의 견습생으로 일함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.4.year",
+    "sourceText": "1778년경"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.4.event",
+    "sourceText": "18세에 가쓰카와 슌쇼의 화실에 들어감"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.5.year",
+    "sourceText": "1779년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.5.event",
+    "sourceText": "스승으로부터 슌로라는 이름을 받고 가부키 배우 연작을 담은 첫 판화를 발표함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.6.year",
+    "sourceText": "1788-1789년경"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.6.event",
+    "sourceText": "《에도 료고쿠 다리의 저녁 납량 불꽃놀이》를 제작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.7.year",
+    "sourceText": "1793년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.7.event",
+    "sourceText": "스승 가쓰카와 슌쇼 사망"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.8.year",
+    "sourceText": "1797년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.8.event",
+    "sourceText": "두 번째 결혼"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.9.year",
+    "sourceText": "1798년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.9.event",
+    "sourceText": "제자에게 다와라야 소리 이름을 물려주고 독립적인 예술가로 활동 시작, '호쿠사이 도미사'라는 이름을 사용함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.10.year",
+    "sourceText": "1800년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.10.event",
+    "sourceText": "'가쓰시카 호쿠사이'라는 이름 사용 시작, 풍경화집 《동도명소》와 《에도 8경》을 발표하고 제자를 받기 시작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.11.year",
+    "sourceText": "1804년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.11.event",
+    "sourceText": "에도 축제 동안 약 200제곱미터 크기의 거대한 불교 승려 달마 초상화를 그림"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.12.year",
+    "sourceText": "1804-1815년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.12.event",
+    "sourceText": "인기 소설가 교쿠테이 바킨과 협력하여 일련의 삽화 소설을 제작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.13.year",
+    "sourceText": "1807-1811년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.13.event",
+    "sourceText": "판타지 소설 《초승달의 기이한 이야기》의 삽화를 제작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.14.year",
+    "sourceText": "1811년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.14.event",
+    "sourceText": "51세의 나이로 이름을 다이토로 바꾸고 《호쿠사이 만화》와 다양한 에테혼 제작을 시작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.15.year",
+    "sourceText": "1812년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.15.event",
+    "sourceText": "《간단한 그림 그리기 입문》을 제작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.16.year",
+    "sourceText": "1814년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.16.event",
+    "sourceText": "《호쿠사이 만화》의 첫 권이 출판되어 큰 성공을 거둠"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.17.year",
+    "sourceText": "1817년 10월 5일"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.17.event",
+    "sourceText": "나고야의 혼간지 나고야 별원 밖에서 거대한 달마도를 그림"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.18.year",
+    "sourceText": "1820년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.18.event",
+    "sourceText": "이름을 이이쓰로 바꾸고 일본 전역에서 예술가로서 확고한 명성을 얻기 시작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.19.year",
+    "sourceText": "1830년대 초"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.19.event",
+    "sourceText": "대표작 《후지산 36경》을 제작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.20.year",
+    "sourceText": "1833-1834년경"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.20.event",
+    "sourceText": "《시가사진경》을 제작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.21.year",
+    "sourceText": "1834년부터"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.21.event",
+    "sourceText": "'가쿄 로진 만지'라는 이름으로 활동 시작, 《후지산 100경》을 제작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.22.year",
+    "sourceText": "1835-1836년경"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.22.event",
+    "sourceText": "마지막 판화 연작인 《백인일수 투바가 에토키》를 제작함"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.23.year",
+    "sourceText": "1839년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.23.event",
+    "sourceText": "화재로 화실과 그의 작품 상당수가 소실됨"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.24.year",
+    "sourceText": "1843년경"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.24.event",
+    "sourceText": "83세의 나이에 시나노국 오부세를 방문하여 몇 년간 머무름"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.25.year",
+    "sourceText": "1842-1843년"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.25.event",
+    "sourceText": "매일 아침 불운을 막는 부적으로서 중국 사자(시시)를 그림"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.26.year",
+    "sourceText": "1849년 초"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.26.event",
+    "sourceText": "《후지산에서 피어오르는 연기 속의 용》과 《설호》를 그림"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.27.year",
+    "sourceText": "1849년 5월 10일"
+  },
+  {
+    "id": "katsushika-hokusai.timeline.27.event",
+    "sourceText": "사망하여 도쿄 다이토구의 세이쿄지에 묻힘"
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.0.title",
+    "sourceText": "《후지산 36경》 제작"
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.0.description",
+    "sourceText": "상징적인 작품 《가나가와 해변의 높은 파도 아래》를 포함한 우키요에 연작을 제작하여 국내외에서 큰 명성을 얻었습니다."
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.1.title",
+    "sourceText": "우키요에 주제 확장"
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.1.description",
+    "sourceText": "주로 오이란과 배우에 집중되었던 우키요에의 주제를 풍경, 식물, 동물로 넓히는 데 결정적인 역할을 했습니다."
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.2.title",
+    "sourceText": "다작 활동"
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.2.description",
+    "sourceText": "어린 시절부터 사망할 때까지 끊임없이 작업하며 3만 점 이상의 그림, 스케치, 목판화 및 그림책용 이미지를 제작했습니다."
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.3.title",
+    "sourceText": "혁신적인 구도와 묘사 기술"
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.3.description",
+    "sourceText": "혁신적인 구도와 탁월한 묘사 기술로 미술의 역사에서 가장 위대한 거장 중 한 명으로 간주됩니다."
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.4.title",
+    "sourceText": "《호쿠사이 만화》 출판"
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.4.description",
+    "sourceText": "수천 점의 그림을 담은 《호쿠사이 만화》를 제작하여 즉시 큰 성공을 거두었으며, 그림 교본으로도 활용되었습니다."
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.5.title",
+    "sourceText": "서양 원근법 실험"
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.5.description",
+    "sourceText": "일본 예술가들 중 서양의 원근법을 일찍이 실험하여 깊이와 부피감을 표현하는 기법을 작품에 적용했습니다."
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.6.title",
+    "sourceText": "유럽 예술에 미친 영향"
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.6.description",
+    "sourceText": "19세기 후반 유럽 전역에 퍼진 자포니즘의 물결 속에서 빈센트 반 고흐, 클로드 모네 등 인상주의 화가에게 큰 영향을 미쳤습니다."
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.7.title",
+    "sourceText": "《후지산 100경》 제작"
+  },
+  {
+    "id": "katsushika-hokusai.keyAchievements.7.description",
+    "sourceText": "'그의 풍경화집 중 최고의 걸작'으로 평가받는 또 다른 중요한 연작 《후지산 100경》을 제작했습니다."
+  },
+  {
+    "id": "katsushika-hokusai.faq.0.question",
+    "sourceText": "가쓰시카 호쿠사이는 어떤 인물이었나요?"
+  },
+  {
+    "id": "katsushika-hokusai.faq.0.answer",
+    "sourceText": "그는 에도 시대의 일본 우키요에 화가이자 판화가로, 우키요에의 주제를 풍경, 식물, 동물로 넓히는 데 결정적인 역할을 했습니다."
+  },
+  {
+    "id": "katsushika-hokusai.faq.1.question",
+    "sourceText": "호쿠사이의 가장 유명한 작품은 무엇인가요?"
+  },
+  {
+    "id": "katsushika-hokusai.faq.1.answer",
+    "sourceText": "그의 우키요에 연작인 《후지산 36경》에 포함된 《가나가와 해변의 높은 파도 아래》가 가장 상징적인 작품입니다."
+  },
+  {
+    "id": "katsushika-hokusai.faq.2.question",
+    "sourceText": "호쿠사이는 서양 미술에 어떤 영향을 미쳤나요?"
+  },
+  {
+    "id": "katsushika-hokusai.faq.2.answer",
+    "sourceText": "19세기 후반 유럽 전역에 퍼진 자포니즘의 물결 속에서 빈센트 반 고흐와 클로드 모네 등 인상주의 화가에게 큰 영향을 미쳤습니다."
+  },
+  {
+    "id": "katsushika-hokusai.faq.3.question",
+    "sourceText": "호쿠사이는 평생 몇 개의 이름을 사용했나요?"
+  },
+  {
+    "id": "katsushika-hokusai.faq.3.answer",
+    "sourceText": "그는 평생 최소 30개의 이름을 사용한 것으로 알려져 있으며, 이는 그의 예술 작품 및 양식의 변화와 밀접하게 연관되어 있습니다."
+  },
+  {
+    "id": "katsushika-hokusai.faq.4.question",
+    "sourceText": "호쿠사이는 언제 사망했나요?"
+  },
+  {
+    "id": "katsushika-hokusai.faq.4.answer",
+    "sourceText": "그는 1849년 5월 10일에 사망했으며, 임종 시에도 더 나은 작품을 만들고자 하는 열정을 보였습니다."
+  },
+  {
+    "id": "agatha-christie.timeline.0.year",
+    "sourceText": "1890"
+  },
+  {
+    "id": "agatha-christie.timeline.0.event",
+    "sourceText": "영국 데번주 토키에서 태어남."
+  },
+  {
+    "id": "agatha-christie.timeline.1.year",
+    "sourceText": "1906"
+  },
+  {
+    "id": "agatha-christie.timeline.1.event",
+    "sourceText": "16세 때 노래와 피아노를 배우기 위해 파리로 감."
+  },
+  {
+    "id": "agatha-christie.timeline.2.year",
+    "sourceText": "1914"
+  },
+  {
+    "id": "agatha-christie.timeline.2.event",
+    "sourceText": "영국 항공대 대령 아치벌드 크리스티와 첫 결혼을 함."
+  },
+  {
+    "id": "agatha-christie.timeline.3.year",
+    "sourceText": "1914-1918"
+  },
+  {
+    "id": "agatha-christie.timeline.3.event",
+    "sourceText": "제1차 세계 대전 동안 병원 약국에서 일함."
+  },
+  {
+    "id": "agatha-christie.timeline.4.year",
+    "sourceText": "1919"
+  },
+  {
+    "id": "agatha-christie.timeline.4.event",
+    "sourceText": "외동딸 로절린드 힉스가 태어남."
+  },
+  {
+    "id": "agatha-christie.timeline.5.year",
+    "sourceText": "1926"
+  },
+  {
+    "id": "agatha-christie.timeline.5.event",
+    "sourceText": "12월 8일, 10일간 행방불명되어 언론의 주목을 받음."
+  },
+  {
+    "id": "agatha-christie.timeline.6.year",
+    "sourceText": "1930"
+  },
+  {
+    "id": "agatha-christie.timeline.6.event",
+    "sourceText": "고고학자 맥스 맬로원과 재혼함."
+  },
+  {
+    "id": "agatha-christie.timeline.7.year",
+    "sourceText": "1956"
+  },
+  {
+    "id": "agatha-christie.timeline.7.event",
+    "sourceText": "대영 제국 훈장 3등급(CBE)을 받음."
+  },
+  {
+    "id": "agatha-christie.timeline.8.year",
+    "sourceText": "1971"
+  },
+  {
+    "id": "agatha-christie.timeline.8.event",
+    "sourceText": "대영 제국 훈장 2등급(DBE)을 받음."
+  },
+  {
+    "id": "agatha-christie.timeline.9.year",
+    "sourceText": "1976"
+  },
+  {
+    "id": "agatha-christie.timeline.9.event",
+    "sourceText": "85세의 나이로 사망함."
+  },
+  {
+    "id": "agatha-christie.keyAchievements.0.title",
+    "sourceText": "추리 소설 작가로서의 명성"
+  },
+  {
+    "id": "agatha-christie.keyAchievements.0.description",
+    "sourceText": "80여 편의 추리 소설을 집필하여 '추리 소설의 여왕'으로 불렸으며, 벨기에의 명탐정 에르퀼 푸아로와 제인 마플을 창조하여 대중적인 사랑을 받았습니다."
+  },
+  {
+    "id": "agatha-christie.keyAchievements.1.title",
+    "sourceText": "세계적인 판매 기록"
+  },
+  {
+    "id": "agatha-christie.keyAchievements.1.description",
+    "sourceText": "그녀의 작품은 영어권에서 10억 부 이상, 103개 언어로 번역된 다른 언어판 역시 10억 부 이상 판매되어 기네스 세계 기록에 등재되었습니다."
+  },
+  {
+    "id": "agatha-christie.keyAchievements.2.title",
+    "sourceText": "가장 많이 번역된 작가"
+  },
+  {
+    "id": "agatha-christie.keyAchievements.2.description",
+    "sourceText": "'Index Translationum'에 의해 세계적으로 가장 많이 번역된 작가로 기록되었습니다."
+  },
+  {
+    "id": "agatha-christie.keyAchievements.3.title",
+    "sourceText": "장기 공연 희곡"
+  },
+  {
+    "id": "agatha-christie.keyAchievements.3.description",
+    "sourceText": "그녀의 희곡 《쥐덫》은 1955년 런던에서 초연된 이래 2012년 11월까지 공연되었습니다."
+  },
+  {
+    "id": "agatha-christie.faq.0.question",
+    "sourceText": "애거사 크리스티의 본명은 무엇인가요?"
+  },
+  {
+    "id": "agatha-christie.faq.0.answer",
+    "sourceText": "그녀의 본명은 Dame Agatha Christie, Lady Mallowan, DBE입니다."
+  },
+  {
+    "id": "agatha-christie.faq.1.question",
+    "sourceText": "애거사 크리스티는 어떤 필명을 사용했나요?"
+  },
+  {
+    "id": "agatha-christie.faq.1.answer",
+    "sourceText": "그녀는 연애 소설을 집필할 때 메리 웨스트매컷(Mary Westmacott)이라는 필명을 사용했습니다."
+  },
+  {
+    "id": "agatha-christie.faq.2.question",
+    "sourceText": "애거사 크리스티가 창조한 유명한 탐정 캐릭터는 누구인가요?"
+  },
+  {
+    "id": "agatha-christie.faq.2.answer",
+    "sourceText": "그녀는 벨기에의 명탐정 에르퀼 푸아로와 제인 마플을 창조했습니다."
+  },
+  {
+    "id": "agatha-christie.faq.3.question",
+    "sourceText": "애거사 크리스티의 작품은 얼마나 많이 팔렸나요?"
+  },
+  {
+    "id": "agatha-christie.faq.3.answer",
+    "sourceText": "그녀의 작품은 영어권에서 10억 부 이상, 103개 언어로 번역된 다른 언어판 역시 10억 부 이상 판매되어 기네스 세계 기록에 등재되었습니다."
+  },
+  {
+    "id": "agatha-christie.faq.4.question",
+    "sourceText": "애거사 크리스티의 희곡 중 가장 유명한 작품은 무엇이며, 얼마나 오랫동안 공연되었나요?"
+  },
+  {
+    "id": "agatha-christie.faq.4.answer",
+    "sourceText": "그녀의 희곡 《쥐덫》은 1955년 런던에서 초연된 이래 2012년 11월까지 공연되었습니다."
+  },
+  {
+    "id": "mark-twain.timeline.0.year",
+    "sourceText": "1835"
+  },
+  {
+    "id": "mark-twain.timeline.0.event",
+    "sourceText": "새뮤얼 랭혼 클레먼스(마크 트웨인) 출생"
+  }
+]
