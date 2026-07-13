@@ -10,11 +10,6 @@ import { buildHreflang } from '@/lib/locales';
 import { blogPosts } from "@/data/blog-posts";
 
 // Load large JSON files dynamically to prevent Next.js from bundling them into JS modules
-const narrativesPath = path.join(process.cwd(), 'src/data/final-narratives.json');
-let finalNarratives: any = {};
-if (fs.existsSync(narrativesPath)) {
-  finalNarratives = JSON.parse(fs.readFileSync(narrativesPath, 'utf-8'));
-}
 
 const wikiLinksPath = path.join(process.cwd(), 'src/data/wikipedia-links.json');
 let wikipediaLinks: any = {};
@@ -26,6 +21,10 @@ if (fs.existsSync(wikiLinksPath)) {
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
+}
+
+export function generateStaticParams() {
+  return [];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -124,7 +123,15 @@ export default async function GiantDetailPage({ params }: Props) {
   const messages = await getMessages({ locale });
   
   // Find standardized narrative data
-  const narrative = (finalNarratives as any)[giant.slug];
+  let narrative: any = null;
+  try {
+    const narrativePath = path.join(process.cwd(), 'src/data/narratives', `${slug}.json`);
+    if (fs.existsSync(narrativePath)) {
+      narrative = JSON.parse(fs.readFileSync(narrativePath, 'utf-8'));
+    }
+  } catch (error) {
+    console.warn(`Could not load narrative for ${slug}`);
+  }
   
   // For locales without a dedicated narrative, fall back to English
   const getFieldText = (obj: any, fieldName: string) => {

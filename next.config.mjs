@@ -5,9 +5,6 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    outputFileTracingIncludes: {
-      '/[locale]/giant/[slug]': ['./src/data/*.json', './src/data/fact-layers/*.json'],
-    },
   },
   async redirects() {
     const removedSlugs = ['elon-musk', 'oprah-winfrey', 'jk-rowling', 'malala-yousafzai', 'rigoberta-menchu'];

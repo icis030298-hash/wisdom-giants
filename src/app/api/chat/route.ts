@@ -3,7 +3,7 @@ import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
 import { giantsData } from "@/data/giants";
-import narratives from "@/data/final-narratives.json";
+
 import generatedPersonas from "@/data/personas/generated-personas.json";
 import fs from "fs";
 import path from "path";
@@ -117,7 +117,13 @@ ${detail.questions.join('\n')}
         // 3. Tier 3 (Basic Fallback)
         else {
           const ourGiant = giantsData.find(g => g.slug === searchSlug);
-          const narrative = (narratives as Record<string, any>)[searchSlug];
+          let narrative: any = null;
+          try {
+            const narrativePath = path.join(process.cwd(), 'src/data/narratives', `${searchSlug}.json`);
+            if (fs.existsSync(narrativePath)) {
+              narrative = JSON.parse(fs.readFileSync(narrativePath, 'utf8'));
+            }
+          } catch(e) {}
           const l = locale === 'ko' ? 'ko' : 
                     locale === 'ja' ? 'ja' : 
                     locale === 'de' ? 'de' : 

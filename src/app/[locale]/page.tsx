@@ -11,7 +11,7 @@ import { getTranslations } from "next-intl/server"
 import { blogPosts } from "@/data/blog-posts"
 import { ConditionalAdSense } from "@/components/conditional-adsense"
 import { AdSlot } from "@/components/ad-slot"
-import finalNarratives from "@/data/final-narratives.json";
+import giantsSummary from "@/data/giants-summary.json";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -50,10 +50,10 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const tc = await getTranslations({ locale, namespace: "Consult" });
   const bt = blogTranslations[locale] || blogTranslations['en'];
 
-  // Map translations from final-narratives.json for card rendering
+  // Map translations from giants-summary.json for card rendering
   const dbCardData: Record<string, { shortDescription?: string; era?: string; quote?: string }> = {};
-  for (const slug of Object.keys(finalNarratives)) {
-    const giantData = (finalNarratives as any)[slug];
+  for (const slug of Object.keys(giantsSummary)) {
+    const giantData = (giantsSummary as any)[slug];
     if (!giantData) continue;
     
     // Check if real Hebrew translation is present (has Hebrew characters)
