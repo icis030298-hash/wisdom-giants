@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/*/chats'],
+        disallow: ['/api/', '/*/chats', '/scratch/'],
       },
       {
         userAgent: 'Mediapartners-Google',

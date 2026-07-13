@@ -1,0 +1,5 @@
+- `[x]` Create indexing-api-submit.ts with `process.env` auth
+- `[x]` Restrict targets to `INDEXED_LOCALES` (Tier 1) via locale-status.ts
+- `[x]` Target `About` and `Giant` profiles only
+- `[x]` Implement daily quota limit (200-500)
+- `[x]` Execute Dry Run and output raw log

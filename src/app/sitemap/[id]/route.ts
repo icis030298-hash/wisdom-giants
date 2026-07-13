@@ -23,8 +23,10 @@ function generateXml(entries: any[]) {
         altXml += `\n    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}"/>`;
       }
     }
+    const priorityXml = entry.priority ? `\n    <priority>${entry.priority}</priority>` : '';
+    const changefreqXml = entry.changefreq ? `\n    <changefreq>${entry.changefreq}</changefreq>` : '';
     return `  <url>
-    <loc>${entry.url}</loc>${altXml}
+    <loc>${entry.url}</loc>${altXml}${priorityXml}${changefreqXml}
   </url>`;
   }).join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -53,21 +55,38 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
     ];
 
     entries = INDEXED_LOCALES.flatMap((locale) =>
-      staticPages.map((page) => ({
-        url: `${BASE_URL}/${locale}${page.path}`,
-        alternates: buildAlternates(page.path),
-      }))
+      staticPages.map((page) => {
+        let priority = '0.5';
+        let changefreq = 'monthly';
+        if (page.path === '') {
+          priority = '1.0';
+          changefreq = 'daily';
+        } else if (page.path === '/test') {
+          priority = '0.8';
+          changefreq = 'weekly';
+        }
+        return {
+          url: `${BASE_URL}/${locale}${page.path}`,
+          alternates: buildAlternates(page.path),
+          priority,
+          changefreq,
+        };
+      })
     );
   } else if (id === 'blog') {
     const blogListEntries = INDEXED_LOCALES.map((locale) => ({
       url: `${BASE_URL}/${locale}/blog`,
       alternates: buildAlternates('/blog'),
+      priority: '0.8',
+      changefreq: 'weekly',
     }));
 
     const blogPostEntries = INDEXED_LOCALES.flatMap((locale) =>
       blogPosts.map((post) => ({
         url: `${BASE_URL}/${locale}/blog/${post.slug}`,
         alternates: buildAlternates(`/blog/${post.slug}`),
+        priority: '0.7',
+        changefreq: 'monthly',
       }))
     );
 
@@ -83,6 +102,8 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
         chunkGiants.map((giant) => ({
           url: `${BASE_URL}/${locale}/giant/${giant.slug}`,
           alternates: buildAlternates(`/giant/${giant.slug}`),
+          priority: '0.7',
+          changefreq: 'weekly',
         }))
       );
     }

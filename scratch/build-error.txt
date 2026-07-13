@@ -1,0 +1,38 @@
+
+> wisdom-giants@0.1.0 build
+> next build
+
+ ⚠ Invalid next.config.mjs options detected: 
+ ⚠     Unrecognized key(s) in object: 'outputFileTracingIncludes' at "experimental"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ⚠ `experimental.outputFileTracingIncludes` has been moved to `outputFileTracingIncludes`. Please update your next.config.mjs file accordingly.
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\natey\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * C:\Users\natey\Desktop\wisdom-giants\package-lock.json
+
+   ▲ Next.js 15.5.18
+   - Environments: .env.local, .env
+   - Experiments (use with caution):
+     · outputFileTracingIncludes
+
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\natey\Desktop\wisdom-giants\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+ ✓ Compiled successfully in 2.2min
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/303) ...
+   Generating static pages (75/303) 
+   Generating static pages (151/303) 
+   Generating static pages (227/303) 
+Error occurred prerendering page "/hi". Read more: https://nextjs.org/docs/messages/prerender-error
+ReferenceError: blogTranslations is not defined
+    at w (C:\Users\natey\Desktop\wisdom-giants\.next\server\app\[locale]\page.js:2:14714) {
+  digest: '1569275957'
+}
+Export encountered an error on /[locale]/page: /hi, exiting the build.
+ ⨯ Next.js build worker exited with code: 1 and signal: null

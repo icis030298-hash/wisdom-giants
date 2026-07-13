@@ -57,13 +57,14 @@ export default function Footer() {
               </p>
               {/* Email / Contact icon */}
               <div className="flex items-center gap-4">
-                <Link
-                  href="/contact"
-                  className="text-muted-foreground/50 hover:text-amber-400/80 transition-all"
-                  aria-label="Contact us"
+                <a
+                  href="mailto:contact@giantswisdom.com"
+                  className="text-muted-foreground/50 hover:text-amber-400/80 transition-all flex items-center gap-2"
+                  aria-label="Contact us via email"
                 >
                   <Mail className="w-5 h-5" />
-                </Link>
+                  <span className="text-xs font-light">contact@giantswisdom.com</span>
+                </a>
                 <a
                   href="https://www.instagram.com/giantswisdom/"
                   target="_blank"

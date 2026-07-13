@@ -628,7 +628,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                           const restOfText = cleaned.substring(1);
                           
                           return (
-                            <p className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep ${alignClass}`}>
+                            <p className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep break-words ${alignClass}`}>
                               <span className={`text-5xl md:text-6xl font-serif text-amber-400 font-black leading-none mt-1 md:mt-2 ${
                                 isRTL ? 'ml-3 md:ml-4 float-right' : 'mr-3 md:mr-4 float-left'
                               }`}>
@@ -638,7 +638,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                             </p>
                           );
                         })() : (
-                          <p className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep ${alignClass}`}>
+                          <p className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep break-words ${alignClass}`}>
                             {currentParagraph}
                           </p>
                         )}
@@ -761,7 +761,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 <div className="relative z-10 space-y-3 md:space-y-4">
                   {parseParagraphs(trialsContent).map((p: string, i: number) => (
                     p ? (
-                       <p key={i} className="text-sm md:text-base text-slate-200 leading-[1.8] font-normal break-keep">
+                       <p key={i} className="text-sm md:text-base text-slate-200 leading-[1.8] font-normal break-keep break-words">
                         {p}
                       </p>
                     ) : null
@@ -781,7 +781,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 <div className="relative z-10 space-y-3 md:space-y-4">
                   {parseParagraphs(overcomingContent).map((p: string, i: number) => (
                     p ? (
-                       <p key={i} className="text-sm md:text-base text-slate-200 leading-[1.8] font-normal break-keep">
+                       <p key={i} className="text-sm md:text-base text-slate-200 leading-[1.8] font-normal break-keep break-words">
                         {p}
                       </p>
                     ) : null

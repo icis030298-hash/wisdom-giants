@@ -1,0 +1,918 @@
+[
+  {
+    "slug": "john-f-kennedy",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "Achievements and legacy being documented.",
+    "translated": "Se están documentando los logros y el legado."
+  },
+  {
+    "slug": "shaka-zulu",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "Achievements and legacy being documented.",
+    "translated": "Se están documentando los logros y el legado."
+  },
+  {
+    "slug": "david-iv-of-georgia",
+    "loc": "es",
+    "type": "fact-layer",
+    "originalEn": [
+      {
+        "year": "1089",
+        "event": "16세의 나이로 조지아의 왕위에 오름."
+      },
+      {
+        "year": "1099",
+        "event": "셀주크 제국에 대한 조공을 중단하고 조지아의 독립을 선언함."
+      },
+      {
+        "year": "1106",
+        "event": "루이시-우르브니시 시노드를 소집하여 조지아 정교회를 개혁함."
+      },
+      {
+        "year": "1118-1120",
+        "event": "군대 강화를 위해 약 4만 가구의 킵차크족을 조지아에 정착시킴."
+      },
+      {
+        "year": "1121",
+        "event": "디드고리 전투에서 대규모 셀주크 연합군을 상대로 결정적인 승리를 거둠."
+      },
+      {
+        "year": "1122",
+        "event": "400년 만에 트빌리시를 해방시키고 조지아의 수도로 삼음."
+      },
+      {
+        "year": "1125",
+        "event": "사망 후, 그의 유언에 따라 겔라티 수도원 정문 아래에 묻힘."
+      }
+    ],
+    "translated": [
+      {
+        "year": "1089",
+        "event": "Asciende al trono de Georgia a la edad de 16 años."
+      },
+      {
+        "year": "1099",
+        "event": "Deja de pagar tributo al Imperio Selyúcida y declara la independencia de Georgia."
+      },
+      {
+        "year": "1106",
+        "event": "Convoca el Sínodo de Ruisi-Urbnisi para reformar la Iglesia Ortodoxa Georgiana."
+      },
+      {
+        "year": "1118-1120",
+        "event": "Asienta a unas 40.000 familias de kipchakos en Georgia para fortalecer su ejército."
+      },
+      {
+        "year": "1121",
+        "event": "Logra una victoria decisiva contra una coalición masiva selyúcida en la Batalla de Didgori."
+      },
+      {
+        "year": "1122",
+        "event": "Libera Tiflis después de 400 años y la convierte en la capital de Georgia."
+      },
+      {
+        "year": "1125",
+        "event": "Tras su muerte, es enterrado bajo la entrada principal del Monasterio de Gelati, según su testamento."
+      }
+    ]
+  },
+  {
+    "slug": "rabban-bar-sauma",
+    "loc": "es",
+    "type": "fact-layer",
+    "originalEn": [
+      {
+        "year": "c. 1220",
+        "event": "Born in Khanbaliq (modern Beijing), Yuan China."
+      },
+      {
+        "year": "c. 1275-1280",
+        "event": "Begins his pilgrimage from China to Jerusalem with his student Rabban Markos."
+      },
+      {
+        "year": "c. 1281",
+        "event": "Rabban Markos is elected Catholicos of the Church of the East as Mar Yaballaha III."
+      },
+      {
+        "year": "1287",
+        "event": "Sent by Ilkhan Arghun as an ambassador to Europe."
+      },
+      {
+        "year": "1287-1288",
+        "event": "Travels through Europe, meeting with Byzantine Emperor Andronikos II, cardinals in Rome, King Philip IV of France, and King Edward I of England."
+      },
+      {
+        "year": "1288",
+        "event": "Returns to the Ilkhanate with letters and gifts from European leaders."
+      },
+      {
+        "year": "c. 1294",
+        "event": "Dies in Baghdad."
+      }
+    ],
+    "translated": [
+      {
+        "year": "c. 1220",
+        "event": "Nace en Janbalic (la actual Pekín), en la China de la dinastía Yuan."
+      },
+      {
+        "year": "c. 1275-1280",
+        "event": "Inicia su peregrinaje desde China hacia Jerusalén con su estudiante Rabban Marcos."
+      },
+      {
+        "year": "c. 1281",
+        "event": "Rabban Marcos es elegido Catolicós de la Iglesia del Oriente como Mar Yaballaha III."
+      },
+      {
+        "year": "1287",
+        "event": "Enviado por el ilkan Arghun como embajador a Europa."
+      },
+      {
+        "year": "1287-1288",
+        "event": "Viaja por Europa, reuniéndose con el emperador bizantino Andrónico II, cardenales en Roma, el rey Felipe IV de Francia y el rey Eduardo I de Inglaterra."
+      },
+      {
+        "year": "1288",
+        "event": "Regresa al Ilkanato con cartas y regalos de los líderes europeos."
+      },
+      {
+        "year": "c. 1294",
+        "event": "Muere en Bagdad."
+      }
+    ]
+  },
+  {
+    "slug": "rudaki",
+    "loc": "es",
+    "type": "fact-layer",
+    "originalEn": [
+      {
+        "year": "c. 858",
+        "event": "Born in Panjrud, a village in Transoxiana, then part of the Samanid Empire (modern-day Tajikistan)."
+      },
+      {
+        "year": "c. 900s",
+        "event": "Rises to prominence and becomes the esteemed court poet for the Samanid ruler Nasr II in Bukhara."
+      },
+      {
+        "year": "c. 937",
+        "event": "Nasr II's patronage of Isma'ili missionaries leads to a Sunni clerical backlash and a court coup."
+      },
+      {
+        "year": "c. 940",
+        "event": "Following the coup, Rudaki is dismissed from the court, blinded, and returns to his hometown in disgrace."
+      },
+      {
+        "year": "941",
+        "event": "Dies in poverty and obscurity in his native Panjrud."
+      },
+      {
+        "year": "1956",
+        "event": "His tomb is rediscovered by Soviet and Tajik archaeologists, confirming the biographical accounts of his blinding and final resting place."
+      }
+    ],
+    "translated": [
+      {
+        "year": "c. 858",
+        "event": "Nace en Panjrud, un pueblo en Transoxiana, entonces parte del Imperio Samaní (actual Tayikistán)."
+      },
+      {
+        "year": "c. 900s",
+        "event": "Alcanza la prominencia y se convierte en el estimado poeta de la corte del gobernante samaní Nasr II en Bujará."
+      },
+      {
+        "year": "c. 937",
+        "event": "El patrocinio de Nasr II a los misioneros ismaelitas provoca una reacción del clero suní y un golpe de estado en la corte."
+      },
+      {
+        "year": "c. 940",
+        "event": "Tras el golpe, Rudaki es destituido de la corte, cegado y regresa a su ciudad natal en desgracia."
+      },
+      {
+        "year": "941",
+        "event": "Muere en la pobreza y la oscuridad en su Panjrud natal."
+      },
+      {
+        "year": "1956",
+        "event": "Su tumba es redescubierta por arqueólogos soviéticos y tayikos, confirmando los relatos biográficos de su ceguera y su lugar de descanso final."
+      }
+    ]
+  },
+  {
+    "slug": "mahmud-al-kashgari",
+    "loc": "es",
+    "type": "fact-layer",
+    "originalEn": [
+      {
+        "year": "c. 1005",
+        "event": "Born in or near Kashgar into the Kara-Khanid Khanate's ruling dynasty."
+      },
+      {
+        "year": "c. 1057",
+        "event": "Flees his homeland due to political strife after his father's failed attempt to seize power."
+      },
+      {
+        "year": "c. 1057-1072",
+        "event": "Travels extensively throughout the lands of the Turkic peoples, collecting linguistic and ethnographic data."
+      },
+      {
+        "year": "1072-1074",
+        "event": "Settles in Baghdad and begins compiling the Dīwān Lughāt al-Turk."
+      },
+      {
+        "year": "1077",
+        "event": "Completes the final version of the Dīwān, presenting it to the Abbasid Caliph."
+      },
+      {
+        "year": "c. 1102",
+        "event": "Dies in Upal, a small city near Kashgar, where his tomb is now a revered site."
+      }
+    ],
+    "translated": [
+      {
+        "year": "c. 1005",
+        "event": "Nace en Kasgar o sus alrededores, en el seno de la dinastía gobernante del Kanato Qarajánida."
+      },
+      {
+        "year": "c. 1057",
+        "event": "Huye de su tierra natal debido a conflictos políticos tras el intento fallido de su padre de tomar el poder."
+      },
+      {
+        "year": "c. 1057-1072",
+        "event": "Viaja extensamente por las tierras de los pueblos túrquicos, recopilando datos lingüísticos y etnográficos."
+      },
+      {
+        "year": "1072-1074",
+        "event": "Se instala en Bagdad y comienza a compilar el Dīwān Lughāt al-Turk."
+      },
+      {
+        "year": "1077",
+        "event": "Completa la versión final del Dīwān, presentándolo al califa abasí."
+      },
+      {
+        "year": "c. 1102",
+        "event": "Muere en Upal, una pequeña ciudad cerca de Kasgar, donde su tumba es ahora un lugar venerado."
+      }
+    ]
+  },
+  {
+    "slug": "ataturk",
+    "loc": "es",
+    "type": "narrative",
+    "key": "epic_es",
+    "originalEn": "Mustafa Kemal Atatürk was a visionary statesman, military leader, and the founder of the Republic of Turkey, serving as its first president from 1923 until his death in 1938. Emerging as a brilliant military strategist during World War I, he famously led the Ottoman forces to a pivotal victory at the Battle of Gallipoli. However, it was the aftermath of the war that revealed his true greatness, as he successfully led the Turkish National Movement in the War of Independence, ultimately saving the nation from partition by the Allied powers.\n\nFollowing the establishment of the republic, Atatürk embarked on a sweeping and unprecedented series of political, economic, and cultural reforms designed to transform the new nation into a modern, secular, and progressive state. He abolished the centuries-old Ottoman Caliphate, introduced a new alphabet based on Latin letters, revolutionized the legal system inspired by European models, and significantly advanced women's rights, including granting them the right to vote. Through his unwavering determination, Atatürk reshaped the destiny of his people and forged a lasting legacy that continues to define the Turkish identity.",
+    "translated": "Mustafa Kemal Atatürk fue un estadista visionario, líder militar y el fundador de la República de Turquía, sirviendo como su primer presidente desde 1923 hasta su muerte en 1938. Destacándose como un brillante estratega militar durante la Primera Guerra Mundial, lideró célebremente a las fuerzas otomanas hacia una victoria crucial en la Batalla de Galípoli. Sin embargo, fue la posguerra lo que reveló su verdadera grandeza, ya que dirigió con éxito el Movimiento Nacional Turco en la Guerra de Independencia, salvando en última instancia a la nación de la partición por parte de las potencias aliadas.\n\nTras el establecimiento de la república, Atatürk emprendió una serie amplia y sin precedentes de reformas políticas, económicas y culturales diseñadas para transformar la nueva nación en un Estado moderno, laico y progresista. Abolió el centenario Califato otomano, introdujo un nuevo alfabeto basado en letras latinas, revolucionó el sistema legal inspirado en modelos europeos y avanzó significativamente en los derechos de las mujeres, incluyendo otorgarles el derecho al voto. A través de su inquebrantable determinación, Atatürk reformó el destino de su pueblo y forjó un legado duradero que continúa definiendo la identidad turca."
+  },
+  {
+    "slug": "ataturk",
+    "loc": "es",
+    "type": "narrative",
+    "key": "trials_es",
+    "originalEn": "Following the devastating defeat of the Ottoman Empire in World War I, Mustafa Kemal Atatürk faced the seemingly insurmountable task of rescuing a fractured and occupied nation. The Treaty of Sèvres in 1920 effectively partitioned the Ottoman lands, handing control of significant territories to the victorious Allied powers, including Britain, France, Italy, and Greece. Atatürk had to contend not only with superior foreign armies encroaching on all fronts but also with a compliant Ottoman government in Istanbul that had capitulated to the occupiers, branding him a rebel and sentencing him to death in absentia.\n\nHis struggle extended beyond the battlefield; he faced the monumental challenge of modernizing an exhausted, impoverished, and deeply traditional society. After securing the nation's independence, he encountered fierce resistance from conservative religious factions, entrenched political elites, and widespread illiteracy as he sought to dismantle centuries-old institutions like the Sultanate and the Caliphate to build a secular, modern republic from the ashes of a fallen empire.",
+    "translated": "Tras la devastadora derrota del Imperio Otomano en la Primera Guerra Mundial, Mustafa Kemal Atatürk se enfrentó a la tarea aparentemente insuperable de rescatar una nación fracturada y ocupada. El Tratado de Sèvres en 1920 dividió efectivamente las tierras otomanas, entregando el control de territorios significativos a las potencias aliadas victoriosas, incluyendo Gran Bretaña, Francia, Italia y Grecia. Atatürk tuvo que lidiar no solo con ejércitos extranjeros superiores que invadían por todos los frentes, sino también con un gobierno otomano sumiso en Estambul que había capitulado ante los ocupantes, tachándolo de rebelde y condenándolo a muerte en ausencia.\n\nSu lucha se extendió más allá del campo de batalla; enfrentó el monumental desafío de modernizar una sociedad exhausta, empobrecida y profundamente tradicional. Después de asegurar la independencia de la nación, se encontró con una feroz resistencia de facciones religiosas conservadoras, élites políticas arraigadas y un analfabetismo generalizado mientras buscaba desmantelar instituciones centenarias como el Sultanato y el Califato para construir una república laica y moderna de las cenizas de un imperio caído."
+  },
+  {
+    "slug": "ataturk",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "Confronting the imminent dismemberment of his country, Atatürk rallied the demoralized Turkish populace by igniting a fierce sense of national unity and purpose. He organized a grassroots national resistance movement, establishing the Grand National Assembly in Ankara to serve as a legitimate counter-government to the one in Istanbul. Through brilliant military strategy and unyielding resolve, he led the Turkish National Movement to decisive victories in the Turkish War of Independence, successfully repelling the Greek, Armenian, and French forces and forcing the Allies to negotiate the much more favorable Treaty of Lausanne in 1923, which internationally recognized the borders of the new Republic of Turkey.\n\nTo overcome the immense social and cultural stagnation of the newly formed republic, Atatürk launched a sweeping series of radical reforms with breathtaking speed and determination. He abolished the Sultanate and Caliphate, completely secularizing the state and the legal system. By introducing a new Latin-based Turkish alphabet, expanding public education, and championing women's rights—including the right to vote and hold public office—he effectively dismantled the remnants of the Ottoman past, forcefully dragging his nation into the modern era and laying the unbreakable foundation for contemporary Turkey.",
+    "translated": "Frente a la inminente desmembración de su país, Atatürk reunió a la desmoralizada población turca encendiendo un feroz sentido de unidad nacional y propósito. Organizó un movimiento de resistencia nacional de base, estableciendo la Gran Asamblea Nacional en Ankara para que sirviera como un controgobierno legítimo al de Estambul. A través de una brillante estrategia militar y una determinación inquebrantable, lideró al Movimiento Nacional Turco hacia victorias decisivas en la Guerra de Independencia Turca, repeliendo con éxito a las fuerzas griegas, armenias y francesas y obligando a los Aliados a negociar el Tratado de Lausana de 1923, mucho más favorable, que reconoció internacionalmente las fronteras de la nueva República de Turquía.\n\nPara superar el inmenso estancamiento social y cultural de la república recién formada, Atatürk lanzó una amplia serie de reformas radicales con una rapidez y determinación asombrosas. Abolió el Sultanato y el Califato, secularizando por completo el Estado y el sistema legal. Al introducir un nuevo alfabeto turco de base latina, expandir la educación pública y defender los derechos de las mujeres, incluido el derecho a votar y ocupar cargos públicos, desmanteló de manera efectiva los restos del pasado otomano, arrastrando a la fuerza a su nación a la era moderna y sentando las bases inquebrantables para la Turquía contemporánea."
+  },
+  {
+    "slug": "rosa-parks",
+    "loc": "es",
+    "type": "narrative",
+    "key": "epic_es",
+    "originalEn": "Rosa Parks was a fearless civil rights activist whose quiet but powerful act of defiance profoundly altered the course of American history. On December 1, 1955, in Montgomery, Alabama, she famously refused to give up her bus seat to a white passenger, a courageous stand against the oppressive and deeply entrenched racial segregation laws of the Jim Crow era. Her arrest sparked the Montgomery Bus Boycott, a pivotal 381-day mass protest that galvanized the African American community and brought national attention to the injustices of segregation.\n\nOften called the 'mother of the civil rights movement,' Parks's singular act of courage inspired countless others to join the fight for equality and civil rights in the United States. She worked closely with prominent leaders like Martin Luther King Jr., and her lifelong dedication to the struggle for racial equality left an indelible mark on the world. Her legacy remains a powerful testament to how an ordinary individual's commitment to justice can ignite a movement that challenges systemic oppression and changes society for the better.",
+    "translated": "Rosa Parks fue una intrépida activista por los derechos civiles cuyo acto de desafío, silencioso pero poderoso, alteró profundamente el curso de la historia estadounidense. El 1 de diciembre de 1955, en Montgomery, Alabama, se negó célebremente a ceder su asiento en el autobús a un pasajero blanco, adoptando una valiente postura contra las opresivas y profundamente arraigadas leyes de segregación racial de la era de Jim Crow. Su arresto desencadenó el boicot a los autobuses de Montgomery, una protesta masiva y crucial de 381 días que galvanizó a la comunidad afroamericana y atrajo la atención nacional sobre las injusticias de la segregación.\n\nA menudo llamada la 'madre del movimiento por los derechos civiles', el singular acto de valentía de Parks inspiró a incontables personas a unirse a la lucha por la igualdad y los derechos civiles en los Estados Unidos. Trabajó en estrecha colaboración con líderes prominentes como Martin Luther King Jr., y su dedicación de por vida a la lucha por la igualdad racial dejó una huella indeleble en el mundo. Su legado sigue siendo un poderoso testimonio de cómo el compromiso de un individuo común con la justicia puede encender un movimiento que desafía la opresión sistémica y cambia la sociedad para mejor."
+  },
+  {
+    "slug": "rosa-parks",
+    "loc": "es",
+    "type": "narrative",
+    "key": "trials_es",
+    "originalEn": "In the deeply segregated American South of the 1950s, Rosa Parks faced the pervasive and crushing reality of Jim Crow laws, which institutionalized racial discrimination and subjugated African Americans in nearly every aspect of daily life. As a dedicated activist and the secretary of the Montgomery chapter of the NAACP, she constantly confronted the daily humiliations and systemic violence of a society that aggressively fought to maintain white supremacy. Her activism routinely put her personal safety and livelihood at profound risk in an environment where resistance to segregation was often met with brutal retaliation.\n\nHer greatest trial crystallized on December 1, 1955, when she was ordered to give up her seat to a white passenger on a Montgomery, Alabama, city bus. By making the conscious, incredibly dangerous decision to refuse, she subjected herself to immediate arrest, a criminal conviction, and intense public backlash. In the aftermath of her arrest, she and her husband faced relentless harassment, death threats, and the loss of their jobs, enduring severe economic and emotional hardship as the struggle for civil rights escalated around them.",
+    "translated": "En el Sur estadounidense profundamente segregado de la década de 1950, Rosa Parks enfrentó la realidad omnipresente y aplastante de las leyes de Jim Crow, que institucionalizaron la discriminación racial y subyugaron a los afroamericanos en casi todos los aspectos de la vida diaria. Como activista dedicada y secretaria de la sección de Montgomery de la NAACP, confrontaba constantemente las humillaciones diarias y la violencia sistémica de una sociedad que luchaba agresivamente por mantener la supremacía blanca. Su activismo ponía rutinariamente su seguridad personal y su sustento en profundo riesgo en un entorno donde la resistencia a la segregación a menudo se enfrentaba a brutales represalias.\n\nSu mayor desafío se cristalizó el 1 de diciembre de 1955, cuando se le ordenó ceder su asiento a un pasajero blanco en un autobús urbano de Montgomery, Alabama. Al tomar la decisión consciente e increíblemente peligrosa de negarse, se sometió a un arresto inmediato, una condena penal y una intensa reacción pública en su contra. A raíz de su arresto, ella y su esposo enfrentaron acoso incesante, amenazas de muerte y la pérdida de sus empleos, soportando graves dificultades económicas y emocionales a medida que la lucha por los derechos civiles se intensificaba a su alrededor."
+  },
+  {
+    "slug": "rosa-parks",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "Rosa Parks overcame these monumental injustices through a quiet but unshakeable defiance rooted in deep moral conviction and years of strategic grassroots organizing. Her arrest was not merely an isolated act of fatigue, but a calculated stand by a seasoned activist ready to challenge an unjust system. By offering herself as the catalyst, she ignited the Montgomery Bus Boycott, a massive, 381-day coordinated protest led by a young Martin Luther King Jr., which united the local African American community in walking, carpooling, and enduring tremendous hardship rather than riding segregated buses.\n\nThrough her unwavering stoicism and dignity in the face of legal persecution and severe personal costs, Parks became an indestructible symbol of the civil rights movement. Her bravery ultimately paid off when the boycott culminated in the landmark 1956 Supreme Court ruling that declared segregated seating on public buses unconstitutional. Despite being forced to relocate to Detroit due to ongoing threats and blacklisting, she continued her tireless advocacy for racial equality and social justice until the end of her life, proving that ordinary individuals can dismantle extraordinary oppression.",
+    "translated": "Rosa Parks superó estas injusticias monumentales a través de un desafío silencioso pero inquebrantable arraigado en una profunda convicción moral y años de organización comunitaria estratégica. Su arresto no fue simplemente un acto aislado de fatiga, sino una postura calculada de una activista experimentada dispuesta a desafiar un sistema injusto. Al ofrecerse como catalizadora, encendió el boicot a los autobuses de Montgomery, una protesta masiva y coordinada de 381 días liderada por un joven Martin Luther King Jr., que unió a la comunidad afroamericana local para caminar, compartir viajes y soportar tremendas dificultades en lugar de viajar en autobuses segregados.\n\nA través de su inquebrantable estoicismo y dignidad frente a la persecución legal y los severos costos personales, Parks se convirtió en un símbolo indestructible del movimiento por los derechos civiles. Su valentía finalmente dio sus frutos cuando el boicot culminó en el histórico fallo de la Corte Suprema de 1956 que declaró inconstitucional los asientos segregados en los autobuses públicos. A pesar de verse obligada a mudarse a Detroit debido a las continuas amenazas y listas negras, continuó su incansable defensa de la igualdad racial y la justicia social hasta el final de su vida, demostrando que personas comunes pueden desmantelar una opresión extraordinaria."
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "loc": "es",
+    "type": "narrative",
+    "key": "epic_es",
+    "originalEn": "Simone de Beauvoir was a pioneering French existentialist philosopher, writer, and feminist thinker whose profound intellectual contributions challenged societal norms and reshaped modern feminist theory. She is best known for her groundbreaking 1949 work, 'The Second Sex,' an extensive and meticulously argued treatise that dismantled the historical, social, and cultural constructs defining womanhood. By declaring that 'one is not born, but rather becomes, a woman,' Beauvoir boldly exposed the mechanisms of patriarchal oppression and laid the indispensable foundation for the second-wave feminism movement.\n\nBeyond her monumental feminist literature, Beauvoir's life and work were deeply intertwined with the development of existentialism, closely collaborating with her lifelong companion Jean-Paul Sartre while maintaining her distinct philosophical voice. Through her novels, essays, and autobiographical volumes, she fiercely advocated for authentic living, individual freedom, and ethical responsibility in a complex world. Her enduring intellectual courage and incisive critique of gender inequality continue to inspire generations of thinkers and activists striving for true liberation and equality.",
+    "translated": "Simone de Beauvoir fue una pionera filósofa existencialista, escritora y pensadora feminista francesa cuyas profundas contribuciones intelectuales desafiaron las normas sociales y remodelaron la teoría feminista moderna. Es más conocida por su obra revolucionaria de 1949, 'El segundo sexo', un tratado extenso y meticulosamente argumentado que desmanteló los constructos históricos, sociales y culturales que definen la feminidad. Al declarar que 'no se nace mujer, se llega a serlo', Beauvoir expuso con audacia los mecanismos de la opresión patriarcal y sentó las bases indispensables para el movimiento feminista de la segunda ola.\n\nMás allá de su monumental literatura feminista, la vida y obra de Beauvoir estuvieron profundamente entrelazadas con el desarrollo del existencialismo, colaborando estrechamente con su compañero de toda la vida, Jean-Paul Sartre, mientras mantenía su propia voz filosófica. A través de sus novelas, ensayos y volúmenes autobiográficos, abogó ferozmente por la vida auténtica, la libertad individual y la responsabilidad ética en un mundo complejo. Su perdurable coraje intelectual y su incisiva crítica de la desigualdad de género continúan inspirando a generaciones de pensadores y activistas que luchan por la verdadera liberación y la igualdad."
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "loc": "es",
+    "type": "narrative",
+    "key": "trials_es",
+    "originalEn": "As a female philosopher and intellectual in early to mid-20th-century France, Simone de Beauvoir faced immense societal prejudice and intellectual marginalization. The publication of her groundbreaking work, *The Second Sex* (1949), brought intense backlash from both the conservative establishment and the Vatican, which placed the book on its Index of Forbidden Books. She was frequently attacked personally, dismissed by male peers, and her philosophical contributions were often unfairly overshadowed by her relationship with Jean-Paul Sartre.",
+    "translated": "Como filósofa e intelectual femenina en la Francia de principios y mediados del siglo XX, Simone de Beauvoir enfrentó inmensos prejuicios sociales y marginación intelectual. La publicación de su obra pionera, *El segundo sexo* (1949), provocó una intensa reacción negativa tanto del establishment conservador como del Vaticano, que incluyó el libro en su Índice de Libros Prohibidos. Frecuentemente fue atacada personalmente, menospreciada por sus colegas masculinos, y sus contribuciones filosóficas a menudo fueron injustamente eclipsadas por su relación con Jean-Paul Sartre."
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "De Beauvoir overcame these trials through unyielding intellectual courage and an unwavering commitment to her existentialist principles. Rather than silencing her, the fierce criticism fueled her determination to expose the systemic mechanisms of patriarchal oppression. She continued to write prolifically across various genres—including philosophy, fiction, and essays—solidifying her independent voice. By rigorously dissecting the social construction of gender, she laid the foundational theories for the modern feminist movement, refusing to be defined by anyone but herself.",
+    "translated": "De Beauvoir superó estos desafíos a través de un inquebrantable coraje intelectual y un firme compromiso con sus principios existencialistas. En lugar de silenciarla, la feroz crítica alimentó su determinación de exponer los mecanismos sistémicos de la opresión patriarcal. Continuó escribiendo prolíficamente en diversos géneros, incluyendo filosofía, ficción y ensayos, consolidando su voz independiente. Al diseccionar rigurosamente la construcción social del género, sentó las teorías fundamentales para el movimiento feminista moderno, negándose a ser definida por nadie más que por ella misma."
+  },
+  {
+    "slug": "hannah-arendt",
+    "loc": "es",
+    "type": "narrative",
+    "key": "epic_es",
+    "originalEn": "Hannah Arendt stands as a towering intellectual figure of the twentieth century, casting an unflinching gaze upon the darkest chapters of human history. Through her rigorous philosophical inquiry, she illuminated the nature of power, authority, and the roots of totalitarianism. Her courageous exploration of the 'banality of evil' challenged conventional morality, demanding that individuals confront the profound responsibility of active, critical thought in the face of systemic tyranny.\n\nHer legacy is not merely one of historical analysis, but an urgent call to the active life—the *vita activa*. Arendt envisioned a public sphere where freedom is realized through collective action and the fearless exchange of ideas. In a world continually threatened by political alienation and ideological conformity, her majestic body of work remains an essential beacon, guiding us toward the enduring promise of democratic engagement and the preservation of human dignity.",
+    "translated": "Hannah Arendt se erige como una figura intelectual destacada del siglo XX, que posó una mirada inquebrantable sobre los capítulos más oscuros de la historia humana. A través de su rigurosa indagación filosófica, iluminó la naturaleza del poder, la autoridad y las raíces del totalitarismo. Su valiente exploración de la 'banalidad del mal' desafió la moralidad convencional, exigiendo que los individuos confronten la profunda responsabilidad del pensamiento activo y crítico frente a la tiranía sistémica.\n\nSu legado no es simplemente de análisis histórico, sino un llamado urgente a la vida activa, la *vita activa*. Arendt imaginó una esfera pública donde la libertad se realiza a través de la acción colectiva y el intrépido intercambio de ideas. En un mundo continuamente amenazado por la alienación política y la conformidad ideológica, su majestuosa obra sigue siendo un faro esencial que nos guía hacia la promesa perdurable del compromiso democrático y la preservación de la dignidad humana."
+  },
+  {
+    "slug": "hannah-arendt",
+    "loc": "es",
+    "type": "narrative",
+    "key": "trials_es",
+    "originalEn": "As a German-Jewish political theorist born in 1906, Hannah Arendt faced the horrifying rise of totalitarianism firsthand. Fleeing Nazi Germany in 1933 after being briefly arrested by the Gestapo, she became a stateless refugee for nearly two decades, enduring profound dislocation and the loss of her homeland. Later, her coverage of the Adolf Eichmann trial in 1961, where she coined the phrase \"the banality of evil,\" brought intense controversy and bitter condemnation from many within the Jewish community, causing her deep personal pain and isolating her from former friends.",
+    "translated": "Como teórica política judía alemana nacida en 1906, Hannah Arendt se enfrentó de primera mano al horrendo ascenso del totalitarismo. Huyendo de la Alemania nazi en 1933 tras ser brevemente arrestada por la Gestapo, se convirtió en una refugiada apátrida durante casi dos décadas, sufriendo un profundo desarraigo y la pérdida de su patria. Más tarde, su cobertura del juicio a Adolf Eichmann en 1961, donde acuñó la expresión 'la banalidad del mal', generó una intensa controversia y una amarga condena de muchos dentro de la comunidad judía, causándole un profundo dolor personal y aislándola de antiguos amigos."
+  },
+  {
+    "slug": "hannah-arendt",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "Arendt navigated these profound traumas by dedicating her life to understanding the dark political realities of her time, transforming her experience of statelessness into profound political theory. Instead of succumbing to despair or bitterness, she wrote seminal works like *The Origins of Totalitarianism* to dissect the mechanisms of terror. During the Eichmann controversy, she steadfastly defended her philosophical integrity, maintaining that facing uncomfortable truths about human nature and blind obedience was essential to preventing future atrocities.",
+    "translated": "Arendt superó estos profundos traumas dedicando su vida a comprender las oscuras realidades políticas de su tiempo, transformando su experiencia de apatridia en una teoría política profunda. En lugar de sucumbir a la desesperación o la amargura, escribió obras fundamentales como *Los orígenes del totalitarismo* para diseccionar los mecanismos del terror. Durante la controversia de Eichmann, defendió firmemente su integridad filosófica, sosteniendo que enfrentar verdades incómodas sobre la naturaleza humana y la obediencia ciega era esencial para prevenir futuras atrocidades."
+  },
+  {
+    "slug": "agatha-christie",
+    "loc": "es",
+    "type": "narrative",
+    "key": "epic_es",
+    "originalEn": "Agatha Christie, the undisputed Queen of Crime, wove unparalleled tapestries of mystery and suspense that have captivated the world for over a century. With an extraordinarily sharp intellect and an uncanny understanding of human psychology, she transformed the classic whodunit into a profound exploration of human nature. Her legendary detectives, from the meticulous Hercule Poirot to the astute Miss Marple, navigate webs of deception and hidden motives, ensuring that justice prevails in even the most perplexing circumstances.\n\nBeyond her astonishing commercial success, Christie's enduring brilliance lies in her masterful narrative architecture and her ability to misdirect and enthrall the reader. She constructed elegant puzzles that are as psychologically complex as they are delightfully entertaining. Today, her majestic catalog of literature stands as a timeless monument to the power of a brilliantly crafted story, cementing her legacy as an immortal titan of modern fiction.",
+    "translated": "Agatha Christie, la indiscutible Reina del Crimen, tejió incomparables tapices de misterio y suspenso que han cautivado al mundo durante más de un siglo. Con un intelecto extraordinariamente agudo y una comprensión asombrosa de la psicología humana, transformó el clásico 'whodunit' en una profunda exploración de la naturaleza humana. Sus legendarios detectives, desde el meticuloso Hércules Poirot hasta la astuta Miss Marple, navegan por redes de engaño y motivos ocultos, asegurando que prevalezca la justicia incluso en las circunstancias más desconcertantes.\n\nMás allá de su asombroso éxito comercial, la perdurable genialidad de Christie radica en su magistral arquitectura narrativa y su capacidad para desviar la atención y cautivar al lector. Construyó elegantes acertijos que son tan psicológicamente complejos como deliciosamente entretenidos. Hoy en día, su majestuoso catálogo de literatura se erige como un monumento atemporal al poder de una historia brillantemente elaborada, consolidando su legado como un titán inmortal de la ficción moderna."
+  },
+  {
+    "slug": "agatha-christie",
+    "loc": "es",
+    "type": "narrative",
+    "key": "trials_es",
+    "originalEn": "Agatha Christie's life was marked by severe personal and professional crises, most notably in 1926. In that year, her mother, to whom she was deeply attached, passed away. Shortly thereafter, her husband Archie Christie demanded a divorce, revealing his affair with another woman. This convergence of grief and betrayal culminated in her famous 11-day disappearance, a psychological breaking point that sparked a nationwide manhunt and intense media scrutiny. Moreover, as a female author, she initially struggled against an industry that often underestimated women writers.",
+    "translated": "La vida de Agatha Christie estuvo marcada por graves crisis personales y profesionales, más notablemente en 1926. En ese año, su madre, a quien estaba profundamente apegada, falleció. Poco después, su esposo Archie Christie le pidió el divorcio, revelando su aventura con otra mujer. Esta convergencia de dolor y traición culminó en su famosa desaparición de 11 días, un punto de quiebre psicológico que desató una búsqueda a nivel nacional y un intenso escrutinio mediático. Además, como autora femenina, inicialmente luchó contra una industria que a menudo subestimaba a las mujeres escritoras."
+  },
+  {
+    "slug": "agatha-christie",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "Christie overcame her devastating personal crisis by channeling her resilience back into her writing and boldly rebuilding her life. Following her divorce, she traveled alone on the Orient Express to the Middle East, a courageous act of independence that opened a vibrant new chapter in her life and heavily inspired her future masterpieces. She relentlessly honed her craft, constructing intricate puzzles that revolutionized the detective genre. Through sheer discipline and prolific output, she transcended the scandal to become the best-selling fiction writer of all time.",
+    "translated": "Christie superó su devastadora crisis personal canalizando su resiliencia de nuevo hacia la escritura y reconstruyendo audazmente su vida. Tras su divorcio, viajó sola en el Orient Express hacia Oriente Medio, un valiente acto de independencia que abrió un vibrante nuevo capítulo en su vida e inspiró fuertemente sus futuras obras maestras. Perfeccionó implacablemente su oficio, construyendo intrincados acertijos que revolucionaron el género policiaco. A través de pura disciplina y una prolífica producción, trascendió el escándalo para convertirse en la escritora de ficción más vendida de todos los tiempos."
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "loc": "es",
+    "type": "narrative",
+    "key": "epic_es",
+    "originalEn": "Queen Elizabeth I emerged as a monumental sovereign who navigated the treacherous waters of sixteenth-century European politics with unmatched grace and strategic genius. Ascending to a fractured realm, she forged the Golden Age of England, uniting a divided nation and transforming it into a formidable global power. Her reign was a magnificent symphony of cultural renaissance and political stability, defined by a fierce independence that successfully defied the greatest empires of her time.\n\nShe was the Virgin Queen, married only to her country, embodying the ultimate sacrifice of personal desire for the glory of the state. Under her majestic vision, English literature flourished, and bold explorers expanded the horizons of the known world. Her indomitable spirit and masterful diplomacy cemented her legacy as one of history's most legendary monarchs, whose enduring mythos continues to inspire an eternal reverence for female leadership and resilience.",
+    "translated": "La reina Isabel I surgió como una soberana monumental que navegó por las traicioneras aguas de la política europea del siglo XVI con una gracia inigualable y un genio estratégico. Al ascender a un reino fracturado, forjó la Edad de Oro de Inglaterra, uniendo una nación dividida y transformándola en una formidable potencia mundial. Su reinado fue una magnífica sinfonía de renacimiento cultural y estabilidad política, definida por una feroz independencia que desafió con éxito a los mayores imperios de su tiempo.\n\nElla fue la Reina Virgen, casada únicamente con su país, encarnando el máximo sacrificio del deseo personal por la gloria del Estado. Bajo su majestuosa visión, floreció la literatura inglesa, y audaces exploradores expandieron los horizontes del mundo conocido. Su espíritu indomable y su magistral diplomacia consolidaron su legado como uno de los monarcas más legendarios de la historia, cuyo perdurable mito continúa inspirando una reverencia eterna por el liderazgo y la resiliencia femeninos."
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "loc": "es",
+    "type": "narrative",
+    "key": "trials_es",
+    "originalEn": "Queen Elizabeth I's path to the throne and her subsequent reign were fraught with mortal peril and immense instability. Declared illegitimate after the execution of her mother, Anne Boleyn, she spent her youth navigating deadly political and religious machinations, even being imprisoned in the Tower of London by her half-sister Mary I under suspicion of treason. Once crowned, she faced a deeply fractured nation torn by religious strife, continuous assassination plots, relentless pressure to marry to secure an heir, and the existential threat of foreign invasion, culminating in the Spanish Armada of 1588.",
+    "translated": "El camino al trono de la reina Isabel I y su posterior reinado estuvieron plagados de peligros mortales e inmensa inestabilidad. Declarada ilegítima tras la ejecución de su madre, Ana Bolena, pasó su juventud sorteando mortales maquinaciones políticas y religiosas, llegando a ser encarcelada en la Torre de Londres por su media hermana María I bajo sospecha de traición. Una vez coronada, enfrentó a una nación profundamente fracturada, desgarrada por conflictos religiosos, continuos complots de asesinato, una presión incesante para casarse y asegurar un heredero, y la amenaza existencial de una invasión extranjera, que culminó con la Armada Invencible española de 1588."
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "Elizabeth triumphed by wielding supreme political acumen, pragmatic compromise, and masterful public relations. She established the Elizabethan Religious Settlement to soothe domestic religious tensions and brilliantly used her unmarried status—the \"Virgin Queen\" persona—as a diplomatic bargaining chip and a symbol of her exclusive marriage to England. During the Spanish Armada crisis, she inspired her troops with iconic rhetoric, declaring she had the \"heart and stomach of a king.\" Her cautious, calculating leadership ushered in a golden age of stability and cultural flourishing.",
+    "translated": "Isabel triunfó al esgrimir una suprema agudeza política, compromisos pragmáticos y magistrales relaciones públicas. Estableció el Acuerdo Religioso Isabelino para calmar las tensiones religiosas internas y utilizó brillantemente su estado de soltera, el personaje de la 'Reina Virgen', como una moneda de cambio diplomático y un símbolo de su matrimonio exclusivo con Inglaterra. Durante la crisis de la Armada Invencible española, inspiró a sus tropas con su retórica icónica, declarando que tenía 'el corazón y el estómago de un rey'. Su liderazgo cauteloso y calculador marcó el comienzo de una edad de oro de estabilidad y florecimiento cultural."
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "loc": "es",
+    "type": "narrative",
+    "key": "epic_es",
+    "originalEn": "In the vibrant heart of 12th-century Córdoba, a beacon of reason arose whose light would pierce the looming shadows of dogmatism across multiple civilizations. Ibn Rushd, known to the West as Averroes, stood uniquely at the crossroads of Islamic theology and Aristotelian philosophy. As a polymath—mastering law, medicine, and philosophy—he undertook the monumental task of reconciling the divine revelation of the Quran with the rational deductions of ancient Greek thought, arguing vehemently that truth could not contradict truth. His profound commentaries on Aristotle revived the philosopher’s works in a form that would ignite the intellectual fervor of Europe.\n\nYet, the path of the relentless truth-seeker is rarely unobstructed. Averroes faced fierce opposition from orthodox theologians who viewed his reliance on philosophy as a dangerous deviation from pure faith. Enduring political disfavor and exile, his writings were burned by those who feared the very enlightenment he championed. But the flames could not consume his enduring legacy. Across the Mediterranean, Jewish and Christian scholars eagerly translated his texts, sparking a philosophical renaissance that would lay the groundwork for the modern age. Averroes remains the immortal bridge between faith and reason, an unwavering titan of intellect.",
+    "translated": "En el vibrante corazón de la Córdoba del siglo XII, surgió un faro de la razón cuya luz atravesaría las amenazantes sombras del dogmatismo en múltiples civilizaciones. Ibn Rushd, conocido en Occidente como Averroes, se situó de manera única en la encrucijada de la teología islámica y la filosofía aristotélica. Como polímata, dominando la ley, la medicina y la filosofía, emprendió la monumental tarea de reconciliar la revelación divina del Corán con las deducciones racionales del antiguo pensamiento griego, argumentando con vehemencia que la verdad no podía contradecir a la verdad. Sus profundos comentarios sobre Aristóteles revivieron las obras del filósofo en una forma que encendería el fervor intelectual de Europa.\n\nSin embargo, el camino del incansable buscador de la verdad rara vez está libre de obstáculos. Averroes enfrentó una feroz oposición por parte de los teólogos ortodoxos que veían su dependencia de la filosofía como una peligrosa desviación de la fe pura. Soportando el desfavor político y el exilio, sus escritos fueron quemados por aquellos que temían la misma ilustración que él defendía. Pero las llamas no pudieron consumir su perdurable legado. A lo largo del Mediterráneo, eruditos judíos y cristianos tradujeron con entusiasmo sus textos, provocando un renacimiento filosófico que sentaría las bases para la edad moderna. Averroes sigue siendo el puente inmortal entre la fe y la razón, un titán inquebrantable del intelecto."
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "loc": "es",
+    "type": "narrative",
+    "key": "trials_es",
+    "originalEn": "Averroes (Ibn Rushd), a brilliant 12th-century polymath and philosopher in Al-Andalus, faced severe ideological backlash during the latter part of his life. His lifelong mission to reconcile Aristotelian philosophy with Islamic theology made him a target for orthodox theologians who viewed his reliance on rationalism and ancient Greek thought as heretical. In 1195, political shifts and pressure from conservative religious factions led the Almohad caliph to exile Averroes, order his books to be burned, and publicly disgrace him, effectively silencing the great thinker in his twilight years.",
+    "translated": "Averroes (Ibn Rushd), un brillante polímata y filósofo del siglo XII en Al-Ándalus, se enfrentó a una severa reacción ideológica durante la última parte de su vida. Su misión de toda la vida de reconciliar la filosofía aristotélica con la teología islámica lo convirtió en un blanco para los teólogos ortodoxos, quienes veían su dependencia del racionalismo y del antiguo pensamiento griego como algo herético. En 1195, los cambios políticos y la presión de facciones religiosas conservadoras llevaron al califa almohade a exiliar a Averroes, ordenar la quema de sus libros y deshonrarlo públicamente, silenciando de manera efectiva al gran pensador en el ocaso de sus años."
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "Though Averroes suffered personal ruin and his physical works were destroyed in his homeland, he overcame this trial through the invincible legacy of his written word. His detailed commentaries on Aristotle had already been translated into Latin and Hebrew, escaping the confines of his exile. His intellectual resilience meant that while his own society rejected him, his rigorous defense of reason traveled to Europe, where it profoundly ignited the Scholastic movement and laid the essential philosophical groundwork for the European Renaissance.",
+    "translated": "Aunque Averroes sufrió la ruina personal y sus obras físicas fueron destruidas en su tierra natal, superó esta prueba a través del legado invencible de su palabra escrita. Sus detallados comentarios sobre Aristóteles ya habían sido traducidos al latín y al hebreo, escapando de los confines de su exilio. Su resiliencia intelectual significó que, si bien su propia sociedad lo rechazó, su rigurosa defensa de la razón viajó a Europa, donde encendió profundamente el movimiento escolástico y sentó las bases filosóficas esenciales para el Renacimiento europeo."
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "loc": "es",
+    "type": "narrative",
+    "key": "epic_es",
+    "originalEn": "Amidst the golden age of the Islamic Renaissance, a prodigious mind blossomed from the ancient lands of Persia, destined to shape the future of global science and philosophy. Ibn Sina, celebrated in the West as Avicenna, was a true universal genius whose intellect knew no bounds. From a young age, he mastered fields ranging from mathematics and astronomy to deep metaphysics. However, it was in the realm of medicine that his brilliance truly revolutionized human understanding. His magnum opus, 'The Canon of Medicine', became an encyclopedic cornerstone of medical knowledge, systematically organizing centuries of healing practices and remaining the preeminent medical text across Europe and the Islamic world for over six hundred years.\n\nAvicenna's life was a tempestuous journey of relentless intellectual pursuit amidst the shifting sands of political upheaval. Serving as a physician and vizier to various emirs, he composed many of his treatises on horseback or in the dimly lit cells of political imprisonment. Despite the chaos of his era, his philosophy elegantly harmonized Neoplatonism and Aristotelianism with Islamic theology, profoundly influencing both Eastern and Western thought. Avicenna was a titan who navigated the turbulent currents of his time with unparalleled grace, leaving an indelible mark as the undisputed 'Prince of Physicians' and a luminary of human reason.",
+    "translated": "En medio de la edad de oro del Renacimiento Islámico, una mente prodigiosa floreció en las antiguas tierras de Persia, destinada a dar forma al futuro de la ciencia y la filosofía globales. Ibn Sina, célebre en Occidente como Avicena, fue un verdadero genio universal cuyo intelecto no conocía límites. Desde temprana edad, dominó campos que iban desde las matemáticas y la astronomía hasta la metafísica profunda. Sin embargo, fue en el ámbito de la medicina donde su brillantez realmente revolucionó la comprensión humana. Su obra magna, 'El canon de la medicina', se convirtió en la piedra angular enciclopédica del conocimiento médico, organizando sistemáticamente siglos de prácticas curativas y manteniéndose como el principal texto médico en Europa y el mundo islámico durante más de seiscientos años.\n\nLa vida de Avicena fue un viaje tempestuoso de incansable búsqueda intelectual en medio de las arenas movedizas de los disturbios políticos. Sirviendo como médico y visir de varios emires, compuso muchos de sus tratados a caballo o en las celdas tenuemente iluminadas de los encarcelamientos políticos. A pesar del caos de su época, su filosofía armonizó elegantemente el neoplatonismo y el aristotelismo con la teología islámica, influyendo profundamente en el pensamiento oriental y occidental. Avicena fue un titán que navegó por las corrientes turbulentas de su tiempo con una gracia incomparable, dejando una huella indeleble como el indiscutible 'Príncipe de los Médicos' y una luminaria de la razón humana."
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "loc": "es",
+    "type": "narrative",
+    "key": "trials_es",
+    "originalEn": "Avicenna (Ibn Sina), the preeminent philosopher and physician of the Islamic Golden Age, led a deeply turbulent life characterized by constant political upheaval and displacement. Living in 11th-century Persia amidst warring local dynasties, he frequently found himself caught in the crossfire of political rivalries. He was imprisoned on multiple occasions, forced to flee across treacherous terrains in secret to avoid capture, and constantly had to seek new patronage. His massive intellectual undertakings were constantly interrupted by the sheer struggle for survival.",
+    "translated": "Avicena (Ibn Sina), el preeminente filósofo y médico de la Edad de Oro del Islam, llevó una vida profundamente turbulenta caracterizada por constantes agitaciones políticas y desplazamientos. Viviendo en la Persia del siglo XI en medio de dinastías locales en guerra, a menudo se encontró atrapado en el fuego cruzado de las rivalidades políticas. Fue encarcelado en múltiples ocasiones, forzado a huir por terrenos traicioneros en secreto para evitar su captura, y constantemente tuvo que buscar nuevos patrocinios. Sus empresas intelectuales masivas eran continuamente interrumpidas por la pura lucha por la supervivencia."
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "Avicenna overcame this chronic instability through an extraordinary mental discipline and an unyielding dedication to his scholarship. Incredibly, he composed his greatest masterpieces—including the monumental medical encyclopedia *The Canon of Medicine* and the philosophical work *The Book of Healing*—while on horseback, in hiding, or even while imprisoned in a fortress. He compartmentalized his political vulnerability, relying on an eidetic memory and an intense drive to synthesize human knowledge, ensuring his wisdom survived the chaotic political landscape of his era.",
+    "translated": "Avicena superó esta inestabilidad crónica a través de una extraordinaria disciplina mental y una inquebrantable dedicación a su erudición. Increíblemente, compuso sus mayores obras maestras, incluida la monumental enciclopedia médica *El canon de la medicina* y la obra filosófica *El libro de la curación*, mientras cabalgaba, estaba escondido o incluso encarcelado en una fortaleza. Compartimentó su vulnerabilidad política, apoyándose en una memoria eidética y un intenso impulso para sintetizar el conocimiento humano, asegurando que su sabiduría sobreviviera al caótico panorama político de su época."
+  },
+  {
+    "slug": "zarathushtra",
+    "loc": "es",
+    "type": "narrative",
+    "key": "epic_es",
+    "originalEn": "In the rugged expanses of ancient Iran, millennia before the empires of antiquity fully formed, a lone visionary stood against the ancient polytheistic rites of his people. Zarathushtra, also known as Zoroaster, received a profound revelation that would fundamentally alter the spiritual landscape of human history. He proclaimed the existence of Ahura Mazda, the singular, supreme uncreated Lord of Wisdom, establishing one of the world’s oldest monotheistic faiths. His teachings were not merely theological but deeply moral, centering the cosmos as an ongoing battleground between truth and deception, light and darkness. He tasked humanity with a grand purpose: to actively participate in this cosmic struggle through good thoughts, good words, and good deeds.\n\nThe path of the prophet was paved with hardship and resistance. For years, Zarathushtra preached his radical message to deaf ears, facing persecution from entrenched priesthoods whose power he threatened. Yet, with unyielding conviction, he wandered until his words took root in the heart of King Vishtaspa, ensuring the survival and spread of his divine message. The legacy of Zarathushtra echoed through the ages, profoundly influencing the great Abrahamic religions with concepts of free will, a final judgment, and a messianic savior. He remains an eternal pillar of spiritual enlightenment, the ancient voice that first called humanity to the noble pursuit of righteousness.",
+    "translated": "En las escarpadas extensiones del antiguo Irán, milenios antes de que los imperios de la antigüedad se formaran completamente, un visionario solitario se alzó contra los antiguos ritos politeístas de su pueblo. Zaratustra, también conocido como Zoroastro, recibió una profunda revelación que alteraría fundamentalmente el panorama espiritual de la historia humana. Proclamó la existencia de Ahura Mazda, el Señor de la Sabiduría supremo, singular e increado, estableciendo una de las fes monoteístas más antiguas del mundo. Sus enseñanzas no fueron meramente teológicas sino profundamente morales, centrando el cosmos como un campo de batalla continuo entre la verdad y el engaño, la luz y la oscuridad. Encargó a la humanidad un propósito supremo: participar activamente en esta lucha cósmica mediante buenos pensamientos, buenas palabras y buenas acciones.\n\nEl camino del profeta estuvo plagado de dificultades y resistencia. Durante años, Zaratustra predicó su mensaje radical en oídos sordos, enfrentando la persecución de los sacerdocios arraigados cuyo poder amenazaba. Sin embargo, con una convicción inquebrantable, vagó hasta que sus palabras echaron raíces en el corazón del rey Vishtaspa, asegurando la supervivencia y difusión de su mensaje divino. El legado de Zaratustra resonó a través de los siglos, influyendo profundamente en las grandes religiones abrahámicas con conceptos como el libre albedrío, un juicio final y un salvador mesiánico. Sigue siendo un pilar eterno de la iluminación espiritual, la antigua voz que por primera vez llamó a la humanidad hacia la noble búsqueda de la rectitud."
+  },
+  {
+    "slug": "zarathushtra",
+    "loc": "es",
+    "type": "narrative",
+    "key": "trials_es",
+    "originalEn": "Zarathushtra, the ancient Persian prophet and founder of Zoroastrianism, faced intense and violent opposition when he first began preaching his revolutionary monotheistic vision. He vehemently condemned the established polytheistic priesthood (the Karpans) and the brutal practices of animal sacrifice and intoxicating rituals. Consequently, he was ostracized by his community, threatened with death, and forced into years of wandering and severe poverty. He struggled deeply with doubt and isolation as his message of a single, moral creator was rejected by his peers.",
+    "translated": "Zaratustra, el antiguo profeta persa y fundador del zoroastrismo, enfrentó una oposición intensa y violenta cuando comenzó a predicar su revolucionaria visión monoteísta. Condenó enérgicamente al sacerdocio politeísta establecido (los karpanes) y las prácticas brutales de sacrificio de animales y rituales embriagantes. Como consecuencia, fue condenado al ostracismo por su comunidad, amenazado de muerte y obligado a pasar años de vagabundeo y pobreza extrema. Luchó profundamente contra la duda y el aislamiento mientras su mensaje de un único creador moral era rechazado por sus pares."
+  },
+  {
+    "slug": "zarathushtra",
+    "loc": "es",
+    "type": "narrative",
+    "key": "overcoming_es",
+    "originalEn": "He overcame this profound isolation through unshakeable spiritual conviction and direct revelation. Pouring his struggles into the *Gathas*—hymns of immense poetic and spiritual power—he documented his intimate conversations with Ahura Mazda (the Wise Lord). His persistence eventually led him to the court of King Vishtaspa, whom he converted through his profound wisdom and moral clarity. This royal patronage provided the protection and platform needed to spread his teachings, ultimately establishing one of the world's first great monotheistic faiths.",
+    "translated": "Superó este profundo aislamiento a través de una inquebrantable convicción espiritual y la revelación directa. Volcando sus luchas en los *Gathas*, himnos de inmenso poder poético y espiritual, documentó sus conversaciones íntimas con Ahura Mazda (el Señor Sabio). Su persistencia finalmente lo llevó a la corte del rey Vishtaspa, a quien convirtió a través de su profunda sabiduría y claridad moral. Este patrocinio real le proporcionó la protección y la plataforma necesarias para difundir sus enseñanzas, estableciendo en última instancia una de las primeras grandes fes monoteístas del mundo."
+  },
+  {
+    "slug": "john-f-kennedy",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "Achievements and legacy being documented.",
+    "translated": "Les réalisations et l'héritage sont en cours de documentation."
+  },
+  {
+    "slug": "ataturk",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "epic_fr",
+    "originalEn": "Mustafa Kemal Atatürk was a visionary statesman, military leader, and the founder of the Republic of Turkey, serving as its first president from 1923 until his death in 1938. Emerging as a brilliant military strategist during World War I, he famously led the Ottoman forces to a pivotal victory at the Battle of Gallipoli. However, it was the aftermath of the war that revealed his true greatness, as he successfully led the Turkish National Movement in the War of Independence, ultimately saving the nation from partition by the Allied powers.\n\nFollowing the establishment of the republic, Atatürk embarked on a sweeping and unprecedented series of political, economic, and cultural reforms designed to transform the new nation into a modern, secular, and progressive state. He abolished the centuries-old Ottoman Caliphate, introduced a new alphabet based on Latin letters, revolutionized the legal system inspired by European models, and significantly advanced women's rights, including granting them the right to vote. Through his unwavering determination, Atatürk reshaped the destiny of his people and forged a lasting legacy that continues to define the Turkish identity.",
+    "translated": "Mustafa Kemal Atatürk était un homme d'État visionnaire, un chef militaire et le fondateur de la République de Turquie, dont il fut le premier président de 1923 jusqu'à sa mort en 1938. Apparu comme un brillant stratège militaire pendant la Première Guerre mondiale, il a dirigé avec éclat les forces ottomanes vers une victoire cruciale à la bataille des Dardanelles (Gallipoli). Cependant, ce furent les conséquences de la guerre qui révélèrent sa véritable grandeur, puisqu'il a dirigé avec succès le Mouvement national turc pendant la guerre d'indépendance, sauvant finalement la nation du partage par les puissances alliées.\n\nAprès la création de la république, Atatürk a entrepris une série radicale et sans précédent de réformes politiques, économiques et culturelles destinées à transformer la nouvelle nation en un État moderne, laïque et progressiste. Il a aboli le califat ottoman vieux de plusieurs siècles, introduit un nouvel alphabet basé sur des lettres latines, révolutionné le système juridique inspiré des modèles européens et a fait progresser de manière significative les droits des femmes, notamment en leur accordant le droit de vote. Par sa détermination inébranlable, Atatürk a remodelé le destin de son peuple et a forgé un héritage durable qui continue de définir l'identité turque."
+  },
+  {
+    "slug": "ataturk",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "trials_fr",
+    "originalEn": "Following the devastating defeat of the Ottoman Empire in World War I, Mustafa Kemal Atatürk faced the seemingly insurmountable task of rescuing a fractured and occupied nation. The Treaty of Sèvres in 1920 effectively partitioned the Ottoman lands, handing control of significant territories to the victorious Allied powers, including Britain, France, Italy, and Greece. Atatürk had to contend not only with superior foreign armies encroaching on all fronts but also with a compliant Ottoman government in Istanbul that had capitulated to the occupiers, branding him a rebel and sentencing him to death in absentia.\n\nHis struggle extended beyond the battlefield; he faced the monumental challenge of modernizing an exhausted, impoverished, and deeply traditional society. After securing the nation's independence, he encountered fierce resistance from conservative religious factions, entrenched political elites, and widespread illiteracy as he sought to dismantle centuries-old institutions like the Sultanate and the Caliphate to build a secular, modern republic from the ashes of a fallen empire.",
+    "translated": "À la suite de la défaite dévastatrice de l'Empire ottoman lors de la Première Guerre mondiale, Mustafa Kemal Atatürk a été confronté à la tâche apparemment insurmontable de sauver une nation fracturée et occupée. Le traité de Sèvres en 1920 a effectivement morcelé les terres ottomanes, donnant le contrôle de territoires importants aux puissances alliées victorieuses, notamment la Grande-Bretagne, la France, l'Italie et la Grèce. Atatürk devait lutter non seulement contre des armées étrangères supérieures empiétant sur tous les fronts, mais aussi contre un gouvernement ottoman docile à Istanbul qui avait capitulé devant les occupants, le qualifiant de rebelle et le condamnant à mort par contumace.\n\nSa lutte s'étendait au-delà du champ de bataille ; il faisait face au défi monumental de moderniser une société épuisée, appauvrie et profondément traditionnelle. Après avoir assuré l'indépendance de la nation, il a rencontré une résistance féroce de la part des factions religieuses conservatrices, des élites politiques enracinées et d'un analphabétisme généralisé, alors qu'il cherchait à démanteler des institutions séculaires comme le Sultanat et le Califat pour bâtir une république moderne et laïque sur les cendres d'un empire déchu."
+  },
+  {
+    "slug": "ataturk",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "Confronting the imminent dismemberment of his country, Atatürk rallied the demoralized Turkish populace by igniting a fierce sense of national unity and purpose. He organized a grassroots national resistance movement, establishing the Grand National Assembly in Ankara to serve as a legitimate counter-government to the one in Istanbul. Through brilliant military strategy and unyielding resolve, he led the Turkish National Movement to decisive victories in the Turkish War of Independence, successfully repelling the Greek, Armenian, and French forces and forcing the Allies to negotiate the much more favorable Treaty of Lausanne in 1923, which internationally recognized the borders of the new Republic of Turkey.\n\nTo overcome the immense social and cultural stagnation of the newly formed republic, Atatürk launched a sweeping series of radical reforms with breathtaking speed and determination. He abolished the Sultanate and Caliphate, completely secularizing the state and the legal system. By introducing a new Latin-based Turkish alphabet, expanding public education, and championing women's rights—including the right to vote and hold public office—he effectively dismantled the remnants of the Ottoman past, forcefully dragging his nation into the modern era and laying the unbreakable foundation for contemporary Turkey.",
+    "translated": "Face au démembrement imminent de son pays, Atatürk a rallié la population turque démoralisée en ravivant un féroce sentiment d'unité nationale et de résolution. Il a organisé un mouvement de résistance nationale populaire, établissant la Grande Assemblée nationale à Ankara pour servir de contre-gouvernement légitime à celui d'Istanbul. Grâce à une brillante stratégie militaire et une détermination inébranlable, il a mené le Mouvement national turc à des victoires décisives lors de la guerre d'indépendance turque, repoussant avec succès les forces grecques, arméniennes et françaises et forçant les Alliés à négocier le traité de Lausanne en 1923, beaucoup plus favorable, qui a reconnu internationalement les frontières de la nouvelle République de Turquie.\n\nPour surmonter l'immense stagnation sociale et culturelle de la république nouvellement formée, Atatürk a lancé une vaste série de réformes radicales avec une rapidité et une détermination époustouflantes. Il a aboli le Sultanat et le Califat, sécularisant complètement l'État et le système juridique. En introduisant un nouvel alphabet turc à base latine, en développant l'éducation publique et en défendant les droits des femmes, y compris le droit de vote et d'occuper des fonctions publiques, il a effectivement démantelé les vestiges du passé ottoman, propulsant de force sa nation dans l'ère moderne et posant les bases inébranlables de la Turquie contemporaine."
+  },
+  {
+    "slug": "rosa-parks",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "epic_fr",
+    "originalEn": "Rosa Parks was a fearless civil rights activist whose quiet but powerful act of defiance profoundly altered the course of American history. On December 1, 1955, in Montgomery, Alabama, she famously refused to give up her bus seat to a white passenger, a courageous stand against the oppressive and deeply entrenched racial segregation laws of the Jim Crow era. Her arrest sparked the Montgomery Bus Boycott, a pivotal 381-day mass protest that galvanized the African American community and brought national attention to the injustices of segregation.\n\nOften called the 'mother of the civil rights movement,' Parks's singular act of courage inspired countless others to join the fight for equality and civil rights in the United States. She worked closely with prominent leaders like Martin Luther King Jr., and her lifelong dedication to the struggle for racial equality left an indelible mark on the world. Her legacy remains a powerful testament to how an ordinary individual's commitment to justice can ignite a movement that challenges systemic oppression and changes society for the better.",
+    "translated": "Rosa Parks était une militante intrépide des droits civiques dont l'acte de défiance silencieux mais puissant a profondément modifié le cours de l'histoire américaine. Le 1er décembre 1955, à Montgomery, en Alabama, elle a refusé de céder sa place dans le bus à un passager blanc, une prise de position courageuse contre les lois de ségrégation raciale oppressives et profondément enracinées de l'ère Jim Crow. Son arrestation a déclenché le boycott des bus de Montgomery, une manifestation de masse cruciale de 381 jours qui a galvanisé la communauté afro-américaine et a attiré l'attention nationale sur les injustices de la ségrégation.\n\nSouvent surnommée la « mère du mouvement des droits civiques », cet acte de courage singulier de Parks a inspiré d'innombrables autres personnes à rejoindre la lutte pour l'égalité et les droits civiques aux États-Unis. Elle a travaillé en étroite collaboration avec des leaders éminents tels que Martin Luther King Jr., et son dévouement tout au long de sa vie à la lutte pour l'égalité raciale a laissé une marque indélébile sur le monde. Son héritage reste un puissant témoignage de la façon dont l'engagement d'un individu ordinaire pour la justice peut déclencher un mouvement qui remet en cause l'oppression systémique et améliore la société."
+  },
+  {
+    "slug": "rosa-parks",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "trials_fr",
+    "originalEn": "In the deeply segregated American South of the 1950s, Rosa Parks faced the pervasive and crushing reality of Jim Crow laws, which institutionalized racial discrimination and subjugated African Americans in nearly every aspect of daily life. As a dedicated activist and the secretary of the Montgomery chapter of the NAACP, she constantly confronted the daily humiliations and systemic violence of a society that aggressively fought to maintain white supremacy. Her activism routinely put her personal safety and livelihood at profound risk in an environment where resistance to segregation was often met with brutal retaliation.\n\nHer greatest trial crystallized on December 1, 1955, when she was ordered to give up her seat to a white passenger on a Montgomery, Alabama, city bus. By making the conscious, incredibly dangerous decision to refuse, she subjected herself to immediate arrest, a criminal conviction, and intense public backlash. In the aftermath of her arrest, she and her husband faced relentless harassment, death threats, and the loss of their jobs, enduring severe economic and emotional hardship as the struggle for civil rights escalated around them.",
+    "translated": "Dans le Sud des États-Unis profondément ségrégué des années 1950, Rosa Parks a été confrontée à la réalité omniprésente et écrasante des lois Jim Crow, qui institutionnalisaient la discrimination raciale et soumettaient les Afro-Américains dans presque tous les aspects de la vie quotidienne. En tant que militante dévouée et secrétaire de la section de Montgomery de la NAACP, elle était constamment confrontée aux humiliations quotidiennes et à la violence systémique d'une société qui luttait agressivement pour maintenir la suprématie blanche. Son activisme mettait régulièrement sa sécurité personnelle et ses moyens de subsistance en grand danger, dans un environnement où la résistance à la ségrégation se heurtait souvent à des représailles brutales.\n\nSa plus grande épreuve s'est cristallisée le 1er décembre 1955, lorsqu'on lui a ordonné de céder sa place à un passager blanc dans un bus municipal de Montgomery, en Alabama. En prenant la décision consciente et incroyablement dangereuse de refuser, elle s'est exposée à une arrestation immédiate, à une condamnation pénale et à de violentes réactions du public. À la suite de son arrestation, elle et son mari ont fait face à un harcèlement incessant, à des menaces de mort et à la perte de leur emploi, endurant de graves difficultés économiques et émotionnelles alors que la lutte pour les droits civiques s'intensifiait autour d'eux."
+  },
+  {
+    "slug": "rosa-parks",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "Rosa Parks overcame these monumental injustices through a quiet but unshakeable defiance rooted in deep moral conviction and years of strategic grassroots organizing. Her arrest was not merely an isolated act of fatigue, but a calculated stand by a seasoned activist ready to challenge an unjust system. By offering herself as the catalyst, she ignited the Montgomery Bus Boycott, a massive, 381-day coordinated protest led by a young Martin Luther King Jr., which united the local African American community in walking, carpooling, and enduring tremendous hardship rather than riding segregated buses.\n\nThrough her unwavering stoicism and dignity in the face of legal persecution and severe personal costs, Parks became an indestructible symbol of the civil rights movement. Her bravery ultimately paid off when the boycott culminated in the landmark 1956 Supreme Court ruling that declared segregated seating on public buses unconstitutional. Despite being forced to relocate to Detroit due to ongoing threats and blacklisting, she continued her tireless advocacy for racial equality and social justice until the end of her life, proving that ordinary individuals can dismantle extraordinary oppression.",
+    "translated": "Rosa Parks a surmonté ces injustices monumentales par une défiance silencieuse mais inébranlable, ancrée dans de profondes convictions morales et des années d'organisation communautaire stratégique. Son arrestation n'était pas simplement un acte de fatigue isolé, mais une prise de position calculée de la part d'une militante chevronnée prête à défier un système injusto. En s'offrant comme catalyseur, elle a déclenché le boycott des bus de Montgomery, une manifestation massive et coordonnée de 381 jours dirigée par un jeune Martin Luther King Jr., qui a uni la communauté afro-américaine locale, préférant marcher, faire du covoiturage et endurer d'énormes difficultés plutôt que d'utiliser des bus ségrégués.\n\nGrâce à son stoïcisme et à sa dignité inébranlables face à la persécution judiciaire et à de lourdes conséquences personnelles, Parks est devenue un symbole indestructible du mouvement des droits civiques. Son courage a finalement porté ses fruits lorsque le boycott a abouti à la décision historique de la Cour suprême en 1956 qui a déclaré inconstitutionnelle la ségrégation des sièges dans les bus publics. Bien qu'elle ait été contrainte de déménager à Détroit en raison de menaces continues et d'une mise sur liste noire, elle a poursuivi son combat inlassable pour l'égalité raciale et la justice sociale jusqu'à la fin de sa vie, prouvant que des individus ordinaires peuvent démanteler une oppression extraordinaire."
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "epic_fr",
+    "originalEn": "Simone de Beauvoir was a pioneering French existentialist philosopher, writer, and feminist thinker whose profound intellectual contributions challenged societal norms and reshaped modern feminist theory. She is best known for her groundbreaking 1949 work, 'The Second Sex,' an extensive and meticulously argued treatise that dismantled the historical, social, and cultural constructs defining womanhood. By declaring that 'one is not born, but rather becomes, a woman,' Beauvoir boldly exposed the mechanisms of patriarchal oppression and laid the indispensable foundation for the second-wave feminism movement.\n\nBeyond her monumental feminist literature, Beauvoir's life and work were deeply intertwined with the development of existentialism, closely collaborating with her lifelong companion Jean-Paul Sartre while maintaining her distinct philosophical voice. Through her novels, essays, and autobiographical volumes, she fiercely advocated for authentic living, individual freedom, and ethical responsibility in a complex world. Her enduring intellectual courage and incisive critique of gender inequality continue to inspire generations of thinkers and activists striving for true liberation and equality.",
+    "translated": "Simone de Beauvoir était une pionnière de la philosophie existentialiste française, écrivaine et penseuse féministe dont les profondes contributions intellectuelles ont remis en question les normes sociétales et remodelé la théorie féministe moderne. Elle est surtout connue pour son œuvre révolutionnaire de 1949, « Le Deuxième Sexe », un traité exhaustif et méticuleusement argumenté qui a démantelé les constructions historiques, sociales et culturelles définissant la féminité. En déclarant qu'« on ne naît pas femme, on le devient », Beauvoir a audacieusement exposé les mécanismes de l'oppression patriarcale et posé les bases indispensables du mouvement féministe de la deuxième vague.\n\nAu-delà de sa littérature féministe monumentale, la vie et l'œuvre de Beauvoir étaient profondément liées au développement de l'existentialisme, collaborant étroitement avec son compagnon de toujours, Jean-Paul Sartre, tout en conservant sa propre voix philosophique. À travers ses romans, essais et volumes autobiographiques, elle a farouchement plaidé pour l'authenticité de la vie, la liberté individuelle et la responsabilité éthique dans un monde complexe. Son courage intellectuel durable et sa critique incisive des inégalités de genre continuent d'inspirer des générations de penseurs et de militants en quête de véritable libération et d'égalité."
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "trials_fr",
+    "originalEn": "As a female philosopher and intellectual in early to mid-20th-century France, Simone de Beauvoir faced immense societal prejudice and intellectual marginalization. The publication of her groundbreaking work, *The Second Sex* (1949), brought intense backlash from both the conservative establishment and the Vatican, which placed the book on its Index of Forbidden Books. She was frequently attacked personally, dismissed by male peers, and her philosophical contributions were often unfairly overshadowed by her relationship with Jean-Paul Sartre.",
+    "translated": "En tant que femme philosophe et intellectuelle en France au début et au milieu du XXe siècle, Simone de Beauvoir a été confrontée à d'immenses préjugés sociétaux et à la marginalisation intellectuelle. La publication de son œuvre novatrice, *Le Deuxième Sexe* (1949), a suscité de violentes réactions de la part de l'establishment conservateur et du Vatican, qui a placé le livre dans son Index des livres interdits. Elle a été fréquemment attaquée personnellement, rejetée par ses pairs masculins, et ses contributions philosophiques ont souvent été injustement éclipsées par sa relation avec Jean-Paul Sartre."
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "De Beauvoir overcame these trials through unyielding intellectual courage and an unwavering commitment to her existentialist principles. Rather than silencing her, the fierce criticism fueled her determination to expose the systemic mechanisms of patriarchal oppression. She continued to write prolifically across various genres—including philosophy, fiction, and essays—solidifying her independent voice. By rigorously dissecting the social construction of gender, she laid the foundational theories for the modern feminist movement, refusing to be defined by anyone but herself.",
+    "translated": "De Beauvoir a surmonté ces épreuves grâce à un courage intellectuel inébranlable et un engagement sans faille envers ses principes existentialistes. Loin de la réduire au silence, les critiques féroces ont nourri sa détermination à dénoncer les mécanismes systémiques de l'oppression patriarcale. Elle a continué à écrire de manière prolifique dans divers genres (philosophie, fiction, essais), consolidant ainsi sa voix indépendante. En disséquant rigoureusement la construction sociale du genre, elle a jeté les bases théoriques du mouvement féministe moderne, refusant d'être définie par quiconque d'autre qu'elle-même."
+  },
+  {
+    "slug": "hannah-arendt",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "epic_fr",
+    "originalEn": "Hannah Arendt stands as a towering intellectual figure of the twentieth century, casting an unflinching gaze upon the darkest chapters of human history. Through her rigorous philosophical inquiry, she illuminated the nature of power, authority, and the roots of totalitarianism. Her courageous exploration of the 'banality of evil' challenged conventional morality, demanding that individuals confront the profound responsibility of active, critical thought in the face of systemic tyranny.\n\nHer legacy is not merely one of historical analysis, but an urgent call to the active life—the *vita activa*. Arendt envisioned a public sphere where freedom is realized through collective action and the fearless exchange of ideas. In a world continually threatened by political alienation and ideological conformity, her majestic body of work remains an essential beacon, guiding us toward the enduring promise of democratic engagement and the preservation of human dignity.",
+    "translated": "Hannah Arendt s'impose comme une figure intellectuelle de premier plan du vingtième siècle, posant un regard inflexible sur les chapitres les plus sombres de l'histoire humaine. Par son investigation philosophique rigoureuse, elle a éclairé la nature du pouvoir, de l'autorité et les racines du totalitarisme. Son exploration courageuse de la « banalité du mal » a défié la moralité conventionnelle, exigeant que les individus assument la profonde responsabilité d'une pensée active et critique face à la tyrannie systémique.\n\nSon héritage n'est pas seulement celui de l'analyse historique, mais un appel urgent à la vie active — la *vita activa*. Arendt envisageait une sphère publique où la liberté se réalise à travers l'action collective et l'échange courageux d'idées. Dans un monde continuellement menacé par l'aliénation politique et le conformisme idéologique, son œuvre magistrale demeure un phare essentiel, nous guidant vers la promesse durable de l'engagement démocratique et la préservation de la dignité humaine."
+  },
+  {
+    "slug": "hannah-arendt",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "trials_fr",
+    "originalEn": "As a German-Jewish political theorist born in 1906, Hannah Arendt faced the horrifying rise of totalitarianism firsthand. Fleeing Nazi Germany in 1933 after being briefly arrested by the Gestapo, she became a stateless refugee for nearly two decades, enduring profound dislocation and the loss of her homeland. Later, her coverage of the Adolf Eichmann trial in 1961, where she coined the phrase \"the banality of evil,\" brought intense controversy and bitter condemnation from many within the Jewish community, causing her deep personal pain and isolating her from former friends.",
+    "translated": "En tant que théoricienne politique juive allemande née en 1906, Hannah Arendt a été directement confrontée à la montée terrifiante du totalitarisme. Fuyant l'Allemagne nazie en 1933 après avoir été brièvement arrêtée par la Gestapo, elle est devenue une réfugiée apatride pendant près de deux décennies, endurant un profond déracinement et la perte de sa patrie. Plus tard, sa couverture du procès d'Adolf Eichmann en 1961, où elle a inventé l'expression « la banalité du mal », a suscité une vive controverse et de sévères condamnations de la part de nombreux membres de la communauté juive, lui causant une profonde douleur personnelle et l'isolant d'anciens amis."
+  },
+  {
+    "slug": "hannah-arendt",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "Arendt navigated these profound traumas by dedicating her life to understanding the dark political realities of her time, transforming her experience of statelessness into profound political theory. Instead of succumbing to despair or bitterness, she wrote seminal works like *The Origins of Totalitarianism* to dissect the mechanisms of terror. During the Eichmann controversy, she steadfastly defended her philosophical integrity, maintaining that facing uncomfortable truths about human nature and blind obedience was essential to preventing future atrocities.",
+    "translated": "Arendt a surmonté ces traumatismes profonds en consacrant sa vie à la compréhension des sombres réalités politiques de son époque, transformant son expérience de l'apatridie en une théorie politique majeure. Au lieu de succomber au désespoir ou à l'amertume, elle a écrit des œuvres fondatrices comme *Les Origines du totalitarisme* pour décortiquer les mécanismes de la terreur. Pendant la controverse d'Eichmann, elle a fermement défendu son intégrité philosophique, soutenant qu'affronter les vérités dérangeantes sur la nature humaine et l'obéissance aveugle était essentiel pour prévenir de futures atrocités."
+  },
+  {
+    "slug": "agatha-christie",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "epic_fr",
+    "originalEn": "Agatha Christie, the undisputed Queen of Crime, wove unparalleled tapestries of mystery and suspense that have captivated the world for over a century. With an extraordinarily sharp intellect and an uncanny understanding of human psychology, she transformed the classic whodunit into a profound exploration of human nature. Her legendary detectives, from the meticulous Hercule Poirot to the astute Miss Marple, navigate webs of deception and hidden motives, ensuring that justice prevails in even the most perplexing circumstances.\n\nBeyond her astonishing commercial success, Christie's enduring brilliance lies in her masterful narrative architecture and her ability to misdirect and enthrall the reader. She constructed elegant puzzles that are as psychologically complex as they are delightfully entertaining. Today, her majestic catalog of literature stands as a timeless monument to the power of a brilliantly crafted story, cementing her legacy as an immortal titan of modern fiction.",
+    "translated": "Agatha Christie, la reine incontestée du crime, a tissé des toiles de mystère et de suspense sans précédent qui fascinent le monde depuis plus d'un siècle. Dotée d'une intelligence extraordinairement vive et d'une compréhension troublante de la psychologie humaine, elle a transformé le classique roman policier en une profonde exploration de la nature humaine. Ses détectives légendaires, du méticuleux Hercule Poirot à la perspicace Miss Marple, naviguent dans des réseaux de tromperie et de motivations cachées, veillant à ce que la justice prévale même dans les circonstances les plus déconcertantes.\n\nAu-delà de son succès commercial phénoménal, le génie durable de Christie réside dans son architecture narrative magistrale et sa capacité à détourner l'attention et à captiver le lecteur. Elle a construit des énigmes élégantes, aussi complexes psychologiquement qu'elles sont délicieusement divertissantes. Aujourd'hui, son majestueux catalogue littéraire se dresse comme un monument intemporel au pouvoir d'une histoire brillamment élaborée, consolidant son héritage en tant que titan immortel de la fiction moderne."
+  },
+  {
+    "slug": "agatha-christie",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "trials_fr",
+    "originalEn": "Agatha Christie's life was marked by severe personal and professional crises, most notably in 1926. In that year, her mother, to whom she was deeply attached, passed away. Shortly thereafter, her husband Archie Christie demanded a divorce, revealing his affair with another woman. This convergence of grief and betrayal culminated in her famous 11-day disappearance, a psychological breaking point that sparked a nationwide manhunt and intense media scrutiny. Moreover, as a female author, she initially struggled against an industry that often underestimated women writers.",
+    "translated": "La vie d'Agatha Christie a été marquée par de graves crises personnelles et professionnelles, notamment en 1926. Cette année-là, sa mère, à qui elle était profondément attachée, est décédée. Peu de temps après, son mari Archie Christie a demandé le divorce, révélant sa liaison avec une autre femme. Cette convergence de chagrin et de trahison a culminé par sa célèbre disparition de 11 jours, un point de rupture psychologique qui a déclenché une chasse à l'homme nationale et une attention médiatique intense. De plus, en tant que femme écrivain, elle a d'abord lutté contre une industrie qui sous-estimait souvent les auteures."
+  },
+  {
+    "slug": "agatha-christie",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "Christie overcame her devastating personal crisis by channeling her resilience back into her writing and boldly rebuilding her life. Following her divorce, she traveled alone on the Orient Express to the Middle East, a courageous act of independence that opened a vibrant new chapter in her life and heavily inspired her future masterpieces. She relentlessly honed her craft, constructing intricate puzzles that revolutionized the detective genre. Through sheer discipline and prolific output, she transcended the scandal to become the best-selling fiction writer of all time.",
+    "translated": "Christie a surmonté sa crise personnelle dévastatrice en canalisant sa résilience dans son écriture et en reconstruisant audacieusement sa vie. Après son divorce, elle a voyagé seule à bord de l'Orient-Express vers le Moyen-Orient, un acte courageux d'indépendance qui a ouvert un nouveau chapitre vibrant dans sa vie et a fortement inspiré ses futurs chefs-d'œuvre. Elle a perfectionné son art sans relâche, construisant des intrigues complexes qui ont révolutionné le genre policier. Par pure discipline et grâce à une production prolifique, elle a transcendé le scandale pour devenir l'auteur de fiction le plus vendu de tous les temps."
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "epic_fr",
+    "originalEn": "Queen Elizabeth I emerged as a monumental sovereign who navigated the treacherous waters of sixteenth-century European politics with unmatched grace and strategic genius. Ascending to a fractured realm, she forged the Golden Age of England, uniting a divided nation and transforming it into a formidable global power. Her reign was a magnificent symphony of cultural renaissance and political stability, defined by a fierce independence that successfully defied the greatest empires of her time.\n\nShe was the Virgin Queen, married only to her country, embodying the ultimate sacrifice of personal desire for the glory of the state. Under her majestic vision, English literature flourished, and bold explorers expanded the horizons of the known world. Her indomitable spirit and masterful diplomacy cemented her legacy as one of history's most legendary monarchs, whose enduring mythos continues to inspire an eternal reverence for female leadership and resilience.",
+    "translated": "La reine Élisabeth Ire est apparue comme une souveraine monumentale qui a navigué dans les eaux troubles de la politique européenne du XVIe siècle avec une grâce et un génie stratégique inégalés. Accédant au trône d'un royaume fracturé, elle a forgé l'âge d'or de l'Angleterre, unissant une nation divisée et la transformant en une redoutable puissance mondiale. Son règne a été une magnifique symphonie de renaissance culturelle et de stabilité politique, définie par une indépendance féroce qui a défié avec succès les plus grands empires de son temps.\n\nElle était la « Reine Vierge », mariée uniquement à son pays, incarnant le sacrifice ultime du désir personnel pour la gloire de l'État. Sous sa vision majestueuse, la littérature anglaise a prospéré et des explorateurs audacieux ont repoussé les horizons du monde connu. Son esprit indomptable et sa diplomatie magistrale ont cimenté son héritage comme l'un des monarques les plus légendaires de l'histoire, dont le mythe tenace continue d'inspirer une révérence éternelle pour le leadership féminin et la résilience."
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "trials_fr",
+    "originalEn": "Queen Elizabeth I's path to the throne and her subsequent reign were fraught with mortal peril and immense instability. Declared illegitimate after the execution of her mother, Anne Boleyn, she spent her youth navigating deadly political and religious machinations, even being imprisoned in the Tower of London by her half-sister Mary I under suspicion of treason. Once crowned, she faced a deeply fractured nation torn by religious strife, continuous assassination plots, relentless pressure to marry to secure an heir, and the existential threat of foreign invasion, culminating in the Spanish Armada of 1588.",
+    "translated": "L'accession au trône de la reine Élisabeth Ire et son règne qui a suivi ont été semés de périls mortels et d'une immense instabilité. Déclarée illégitime après l'exécution de sa mère, Anne Boleyn, elle a passé sa jeunesse à naviguer dans les machinations politiques et religieuses meurtrières, allant jusqu'à être emprisonnée à la tour de Londres par sa demi-sœur Marie Ire, soupçonnée de trahison. Une fois couronnée, elle a fait face à une nation profondément divisée par des conflits religieux, des complots d'assassinat continus, des pressions incessantes pour se marier afin d'assurer un héritier, et la menace existentielle d'une invasion étrangère, qui a culminé avec l'Invincible Armada espagnole de 1588."
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "Elizabeth triumphed by wielding supreme political acumen, pragmatic compromise, and masterful public relations. She established the Elizabethan Religious Settlement to soothe domestic religious tensions and brilliantly used her unmarried status—the \"Virgin Queen\" persona—as a diplomatic bargaining chip and a symbol of her exclusive marriage to England. During the Spanish Armada crisis, she inspired her troops with iconic rhetoric, declaring she had the \"heart and stomach of a king.\" Her cautious, calculating leadership ushered in a golden age of stability and cultural flourishing.",
+    "translated": "Élisabeth a triomphé en exerçant une acuité politique suprême, un sens du compromis pragmatique et une maîtrise des relations publiques. Elle a établi le Règlement élisabéthain pour apaiser les tensions religieuses internes et a brillamment utilisé son statut de célibataire — l'image de la « Reine Vierge » — comme un atout diplomatique et un symbole de son mariage exclusif avec l'Angleterre. Pendant la crise de l'Armada espagnole, elle a inspiré ses troupes par sa rhétorique emblématique, déclarant qu'elle avait « le cœur et l'estomac d'un roi ». Sa direction prudente et calculée a inauguré un âge d'or de stabilité et d'épanouissement culturel."
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "epic_fr",
+    "originalEn": "In the vibrant heart of 12th-century Córdoba, a beacon of reason arose whose light would pierce the looming shadows of dogmatism across multiple civilizations. Ibn Rushd, known to the West as Averroes, stood uniquely at the crossroads of Islamic theology and Aristotelian philosophy. As a polymath—mastering law, medicine, and philosophy—he undertook the monumental task of reconciling the divine revelation of the Quran with the rational deductions of ancient Greek thought, arguing vehemently that truth could not contradict truth. His profound commentaries on Aristotle revived the philosopher’s works in a form that would ignite the intellectual fervor of Europe.\n\nYet, the path of the relentless truth-seeker is rarely unobstructed. Averroes faced fierce opposition from orthodox theologians who viewed his reliance on philosophy as a dangerous deviation from pure faith. Enduring political disfavor and exile, his writings were burned by those who feared the very enlightenment he championed. But the flames could not consume his enduring legacy. Across the Mediterranean, Jewish and Christian scholars eagerly translated his texts, sparking a philosophical renaissance that would lay the groundwork for the modern age. Averroes remains the immortal bridge between faith and reason, an unwavering titan of intellect.",
+    "translated": "Dans le cœur vibrant de Cordoue au XIIe siècle, s'est élevé un phare de la raison dont la lumière percerait les ombres menaçantes du dogmatisme à travers de multiples civilisations. Ibn Rochd, connu en Occident sous le nom d'Averroès, s'est tenu de manière unique au carrefour de la théologie islamique et de la philosophie aristotélicienne. En tant que polymathe — maîtrisant le droit, la médecine et la philosophie — il a entrepris la tâche monumentale de concilier la révélation divine du Coran avec les déductions rationnelles de la pensée grecque antique, soutenant avec véhémence que la vérité ne pouvait contredire la vérité. Ses profonds commentaires sur Aristote ont ravivé les œuvres du philosophe sous une forme qui enflammerait la ferveur intellectuelle de l'Europe.\n\nPourtant, le chemin du chercheur infatigable de la vérité est rarement sans embûches. Averroès a fait face à une opposition féroce de la part des théologiens orthodoxes qui considéraient son recours à la philosophie comme une dangereuse déviation de la foi pure. Endurant la disgrâce politique et l'exil, ses écrits ont été brûlés par ceux qui craignaient les Lumières mêmes qu'il défendait. Mais les flammes n'ont pas pu consumer son héritage durable. À travers la Méditerranée, des érudits juifs et chrétiens ont traduit avec enthousiasme ses textes, déclenchant une renaissance philosophique qui jetterait les bases de l'ère moderne. Averroès demeure le pont immortel entre la foi et la raison, un titan inébranlable de l'intellect."
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "trials_fr",
+    "originalEn": "Averroes (Ibn Rushd), a brilliant 12th-century polymath and philosopher in Al-Andalus, faced severe ideological backlash during the latter part of his life. His lifelong mission to reconcile Aristotelian philosophy with Islamic theology made him a target for orthodox theologians who viewed his reliance on rationalism and ancient Greek thought as heretical. In 1195, political shifts and pressure from conservative religious factions led the Almohad caliph to exile Averroes, order his books to be burned, and publicly disgrace him, effectively silencing the great thinker in his twilight years.",
+    "translated": "Averroès (Ibn Rochd), un brillant polymathe et philosophe du XIIe siècle en Al-Andalus, a été confronté à de violentes réactions idéologiques dans la dernière partie de sa vie. Sa mission de toute une vie, qui consistait à réconcilier la philosophie aristotélicienne avec la théologie islamique, a fait de lui la cible des théologiens orthodoxes qui considéraient son recours au rationalisme et à la pensée de la Grèce antique comme hérétique. En 1195, les changements politiques et les pressions des factions religieuses conservatrices ont conduit le calife almohade à exiler Averroès, à ordonner que ses livres soient brûlés et à le déshonorer publiquement, réduisant ainsi au silence le grand penseur au crépuscule de sa vie."
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "Though Averroes suffered personal ruin and his physical works were destroyed in his homeland, he overcame this trial through the invincible legacy of his written word. His detailed commentaries on Aristotle had already been translated into Latin and Hebrew, escaping the confines of his exile. His intellectual resilience meant that while his own society rejected him, his rigorous defense of reason traveled to Europe, where it profoundly ignited the Scholastic movement and laid the essential philosophical groundwork for the European Renaissance.",
+    "translated": "Bien qu'Averroès ait subi une ruine personnelle et que ses œuvres physiques aient été détruites dans son pays natal, il a surmonté cette épreuve grâce à l'héritage invincible de ses écrits. Ses commentaires détaillés sur Aristote avaient déjà été traduits en latin et en hébreu, échappant aux limites de son exil. Sa résilience intellectuelle a fait que, même si sa propre société l'a rejeté, sa défense rigoureuse de la raison a voyagé jusqu'en Europe, où elle a profondément stimulé le mouvement scolastique et jeté les bases philosophiques essentielles de la Renaissance européenne."
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "epic_fr",
+    "originalEn": "Amidst the golden age of the Islamic Renaissance, a prodigious mind blossomed from the ancient lands of Persia, destined to shape the future of global science and philosophy. Ibn Sina, celebrated in the West as Avicenna, was a true universal genius whose intellect knew no bounds. From a young age, he mastered fields ranging from mathematics and astronomy to deep metaphysics. However, it was in the realm of medicine that his brilliance truly revolutionized human understanding. His magnum opus, 'The Canon of Medicine', became an encyclopedic cornerstone of medical knowledge, systematically organizing centuries of healing practices and remaining the preeminent medical text across Europe and the Islamic world for over six hundred years.\n\nAvicenna's life was a tempestuous journey of relentless intellectual pursuit amidst the shifting sands of political upheaval. Serving as a physician and vizier to various emirs, he composed many of his treatises on horseback or in the dimly lit cells of political imprisonment. Despite the chaos of his era, his philosophy elegantly harmonized Neoplatonism and Aristotelianism with Islamic theology, profoundly influencing both Eastern and Western thought. Avicenna was a titan who navigated the turbulent currents of his time with unparalleled grace, leaving an indelible mark as the undisputed 'Prince of Physicians' and a luminary of human reason.",
+    "translated": "Au milieu de l'âge d'or de la Renaissance islamique, un esprit prodigieux a éclos des anciennes terres de Perse, destiné à façonner l'avenir de la science et de la philosophie mondiales. Ibn Sina, célèbre en Occident sous le nom d'Avicenne, était un véritable génie universel dont l'intellect ne connaissait aucune limite. Dès son plus jeune âge, il a maîtrisé des domaines allant des mathématiques et de l'astronomie à la métaphysique profonde. Cependant, c'est dans le domaine de la médecine que sa brillance a véritablement révolutionné la compréhension humaine. Son grand œuvre, 'Le Canon de la médecine', est devenu une pierre angulaire encyclopédique des connaissances médicales, organisant systématiquement des siècles de pratiques de guérison et restant le texte médical de référence dans toute l'Europe et le monde islamique pendant plus de six cents ans.\n\nLa vie d'Avicenne fut un voyage tumultueux fait d'incessantes quêtes intellectuelles au milieu des sables mouvants des bouleversements politiques. Servant comme médecin et vizir auprès de divers émirs, il a composé nombre de ses traités à cheval ou dans les cellules faiblement éclairées de ses emprisonnements politiques. Malgré le chaos de son époque, sa philosophie a harmonieusement concilié le néoplatonisme et l'aristotélisme avec la théologie islamique, influençant profondément la pensée orientale et occidentale. Avicenne fut un titan qui a navigué dans les courants turbulents de son temps avec une grâce inégalée, laissant une marque indélébile en tant que 'Prince des médecins' incontesté et lumière de la raison humaine."
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "trials_fr",
+    "originalEn": "Avicenna (Ibn Sina), the preeminent philosopher and physician of the Islamic Golden Age, led a deeply turbulent life characterized by constant political upheaval and displacement. Living in 11th-century Persia amidst warring local dynasties, he frequently found himself caught in the crossfire of political rivalries. He was imprisoned on multiple occasions, forced to flee across treacherous terrains in secret to avoid capture, and constantly had to seek new patronage. His massive intellectual undertakings were constantly interrupted by the sheer struggle for survival.",
+    "translated": "Avicenne (Ibn Sina), l'éminent philosophe et médecin de l'âge d'or islamique, a mené une vie profondément turbulente, caractérisée par des bouleversements politiques constants et des déplacements. Vivant dans la Perse du XIe siècle au milieu de dynasties locales en guerre, il s'est fréquemment retrouvé pris dans les tirs croisés de rivalités politiques. Il a été emprisonné à plusieurs reprises, contraint de fuir secrètement à travers des terrains dangereux pour éviter d'être capturé, et a dû constamment chercher de nouveaux mécénats. Ses immenses projets intellectuels étaient constamment interrompus par la simple lutte pour la survie."
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "Avicenna overcame this chronic instability through an extraordinary mental discipline and an unyielding dedication to his scholarship. Incredibly, he composed his greatest masterpieces—including the monumental medical encyclopedia *The Canon of Medicine* and the philosophical work *The Book of Healing*—while on horseback, in hiding, or even while imprisoned in a fortress. He compartmentalized his political vulnerability, relying on an eidetic memory and an intense drive to synthesize human knowledge, ensuring his wisdom survived the chaotic political landscape of his era.",
+    "translated": "Avicenne a surmonté cette instabilité chronique par une extraordinaire discipline mentale et un dévouement inébranlable à son érudition. Fait incroyable, il a composé ses plus grands chefs-d'œuvre — notamment la monumentale encyclopédie médicale *Le Canon de la médecine* et l'ouvrage philosophique *Le Livre de la guérison* — alors qu'il était à cheval, en fuite ou même emprisonné dans une forteresse. Il a cloisonné sa vulnérabilité politique, s'appuyant sur une mémoire eidétique et un intense besoin de synthétiser les connaissances humaines, s'assurant ainsi que sa sagesse survive au paysage politique chaotique de son époque."
+  },
+  {
+    "slug": "zarathushtra",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "epic_fr",
+    "originalEn": "In the rugged expanses of ancient Iran, millennia before the empires of antiquity fully formed, a lone visionary stood against the ancient polytheistic rites of his people. Zarathushtra, also known as Zoroaster, received a profound revelation that would fundamentally alter the spiritual landscape of human history. He proclaimed the existence of Ahura Mazda, the singular, supreme uncreated Lord of Wisdom, establishing one of the world’s oldest monotheistic faiths. His teachings were not merely theological but deeply moral, centering the cosmos as an ongoing battleground between truth and deception, light and darkness. He tasked humanity with a grand purpose: to actively participate in this cosmic struggle through good thoughts, good words, and good deeds.\n\nThe path of the prophet was paved with hardship and resistance. For years, Zarathushtra preached his radical message to deaf ears, facing persecution from entrenched priesthoods whose power he threatened. Yet, with unyielding conviction, he wandered until his words took root in the heart of King Vishtaspa, ensuring the survival and spread of his divine message. The legacy of Zarathushtra echoed through the ages, profoundly influencing the great Abrahamic religions with concepts of free will, a final judgment, and a messianic savior. He remains an eternal pillar of spiritual enlightenment, the ancient voice that first called humanity to the noble pursuit of righteousness.",
+    "translated": "Dans les étendues sauvages de l'ancien Iran, des millénaires avant que les empires de l'Antiquité ne prennent pleinement forme, un visionnaire solitaire s'est dressé contre les anciens rites polythéistes de son peuple. Zarathoustra, également connu sous le nom de Zoroastre, a reçu une révélation profonde qui allait fondamentalement modifier le paysage spirituel de l'histoire de l'humanité. Il a proclamé l'existence d'Ahura Mazda, le Seigneur de la Sagesse, singulier et incréé, fondant ainsi l'une des plus anciennes religions monothéistes du monde. Ses enseignements n'étaient pas seulement théologiques mais aussi profondément moraux, plaçant le cosmos au centre d'un champ de bataille permanent entre la vérité et le mensonge, la lumière et les ténèbres. Il a confié à l'humanité un grand dessein : participer activement à cette lutte cosmique par de bonnes pensées, de bonnes paroles et de bonnes actions.\n\nLe chemin du prophète a été pavé de difficultés et de résistance. Pendant des années, Zarathoustra a prêché son message radical à des oreilles sourdes, faisant face aux persécutions des castes de prêtres établies dont il menaçait le pouvoir. Pourtant, avec une conviction inébranlable, il a erré jusqu'à ce que ses mots prennent racine dans le cœur du roi Vishtaspa, assurant ainsi la survie et la diffusion de son message divin. L'héritage de Zarathoustra a résonné à travers les âges, influençant profondément les grandes religions abrahamiques avec des concepts de libre arbitre, de jugement dernier et de sauveur messianique. Il demeure un pilier éternel de l'illumination spirituelle, la voix antique qui a appelé pour la première fois l'humanité à la noble quête de la vertu."
+  },
+  {
+    "slug": "zarathushtra",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "trials_fr",
+    "originalEn": "Zarathushtra, the ancient Persian prophet and founder of Zoroastrianism, faced intense and violent opposition when he first began preaching his revolutionary monotheistic vision. He vehemently condemned the established polytheistic priesthood (the Karpans) and the brutal practices of animal sacrifice and intoxicating rituals. Consequently, he was ostracized by his community, threatened with death, and forced into years of wandering and severe poverty. He struggled deeply with doubt and isolation as his message of a single, moral creator was rejected by his peers.",
+    "translated": "Zarathoustra, l'ancien prophète perse et fondateur du zoroastrisme, s'est heurté à une opposition intense et violente lorsqu'il a commencé à prêcher sa vision monothéiste révolutionnaire. Il a condamné avec véhémence le clergé polythéiste établi (les Karpans) ainsi que les pratiques brutales des sacrifices d'animaux et des rituels enivrants. Par conséquent, il a été ostracisé par sa communauté, menacé de mort, et contraint à des années d'errance et d'extrême pauvreté. Il a profondément lutté contre le doute et l'isolement alors que son message d'un créateur moral unique était rejeté par ses pairs."
+  },
+  {
+    "slug": "zarathushtra",
+    "loc": "fr",
+    "type": "narrative",
+    "key": "overcoming_fr",
+    "originalEn": "He overcame this profound isolation through unshakeable spiritual conviction and direct revelation. Pouring his struggles into the *Gathas*—hymns of immense poetic and spiritual power—he documented his intimate conversations with Ahura Mazda (the Wise Lord). His persistence eventually led him to the court of King Vishtaspa, whom he converted through his profound wisdom and moral clarity. This royal patronage provided the protection and platform needed to spread his teachings, ultimately establishing one of the world's first great monotheistic faiths.",
+    "translated": "Il a surmonté cet isolement profond par une conviction spirituelle inébranlable et une révélation directe. Déversant ses luttes dans les *Gathas* — des hymnes d'une immense puissance poétique et spirituelle — il a documenté ses conversations intimes avec Ahura Mazda (le Seigneur Sage). Sa persévérance l'a finalement conduit à la cour du roi Vishtaspa, qu'il a converti grâce à sa profonde sagesse et à sa clarté morale. Ce parrainage royal lui a fourni la protection et la tribune nécessaires pour diffuser ses enseignements, établissant en fin de compte l'une des premières grandes religions monothéistes du monde."
+  },
+  {
+    "slug": "john-f-kennedy",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "Achievements and legacy being documented.",
+    "translated": "Erfolge und Vermächtnis werden dokumentiert."
+  },
+  {
+    "slug": "shaka-zulu",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "Achievements and legacy being documented.",
+    "translated": "Erfolge und Vermächtnis werden dokumentiert."
+  },
+  {
+    "slug": "ataturk",
+    "loc": "de",
+    "type": "narrative",
+    "key": "epic_de",
+    "originalEn": "Mustafa Kemal Atatürk was a visionary statesman, military leader, and the founder of the Republic of Turkey, serving as its first president from 1923 until his death in 1938. Emerging as a brilliant military strategist during World War I, he famously led the Ottoman forces to a pivotal victory at the Battle of Gallipoli. However, it was the aftermath of the war that revealed his true greatness, as he successfully led the Turkish National Movement in the War of Independence, ultimately saving the nation from partition by the Allied powers.\n\nFollowing the establishment of the republic, Atatürk embarked on a sweeping and unprecedented series of political, economic, and cultural reforms designed to transform the new nation into a modern, secular, and progressive state. He abolished the centuries-old Ottoman Caliphate, introduced a new alphabet based on Latin letters, revolutionized the legal system inspired by European models, and significantly advanced women's rights, including granting them the right to vote. Through his unwavering determination, Atatürk reshaped the destiny of his people and forged a lasting legacy that continues to define the Turkish identity.",
+    "translated": "Mustafa Kemal Atatürk war ein visionärer Staatsmann, militärischer Führer und der Gründer der Republik Türkei, der von 1923 bis zu seinem Tod im Jahr 1938 als ihr erster Präsident diente. Als brillanter Militärstratege im Ersten Weltkrieg bekannt geworden, führte er die osmanischen Streitkräfte bekanntermaßen zu einem entscheidenden Sieg in der Schlacht von Gallipoli. Es waren jedoch die Nachwirkungen des Krieges, die seine wahre Größe offenbarten, als er die türkische Nationalbewegung im Unabhängigkeitskrieg erfolgreich anführte und die Nation letztlich vor der Teilung durch die alliierten Mächte bewahrte.\n\nNach der Gründung der Republik leitete Atatürk eine umfassende und beispiellose Reihe politischer, wirtschaftlicher und kultureller Reformen ein, die darauf abzielten, die neue Nation in einen modernen, säkularen und fortschrittlichen Staat zu verwandeln. Er schaffte das jahrhundertealte osmanische Kalifat ab, führte ein neues Alphabet auf der Grundlage lateinischer Buchstaben ein, revolutionierte das Rechtssystem nach europäischem Vorbild und förderte maßgeblich die Rechte der Frauen, einschließlich der Gewährung des Wahlrechts. Durch seine unerschütterliche Entschlossenheit formte Atatürk das Schicksal seines Volkes neu und schuf ein dauerhaftes Vermächtnis, das die türkische Identität bis heute prägt."
+  },
+  {
+    "slug": "ataturk",
+    "loc": "de",
+    "type": "narrative",
+    "key": "trials_de",
+    "originalEn": "Following the devastating defeat of the Ottoman Empire in World War I, Mustafa Kemal Atatürk faced the seemingly insurmountable task of rescuing a fractured and occupied nation. The Treaty of Sèvres in 1920 effectively partitioned the Ottoman lands, handing control of significant territories to the victorious Allied powers, including Britain, France, Italy, and Greece. Atatürk had to contend not only with superior foreign armies encroaching on all fronts but also with a compliant Ottoman government in Istanbul that had capitulated to the occupiers, branding him a rebel and sentencing him to death in absentia.\n\nHis struggle extended beyond the battlefield; he faced the monumental challenge of modernizing an exhausted, impoverished, and deeply traditional society. After securing the nation's independence, he encountered fierce resistance from conservative religious factions, entrenched political elites, and widespread illiteracy as he sought to dismantle centuries-old institutions like the Sultanate and the Caliphate to build a secular, modern republic from the ashes of a fallen empire.",
+    "translated": "Nach der verheerenden Niederlage des Osmanischen Reiches im Ersten Weltkrieg stand Mustafa Kemal Atatürk vor der scheinbar unüberwindbaren Aufgabe, eine zersplitterte und besetzte Nation zu retten. Der Vertrag von Sèvres im Jahr 1920 teilte die osmanischen Gebiete faktisch auf und übergab die Kontrolle über bedeutende Territorien an die siegreichen alliierten Mächte, darunter Großbritannien, Frankreich, Italien und Griechenland. Atatürk hatte nicht nur mit überlegenen ausländischen Armeen zu kämpfen, die an allen Fronten vorrückten, sondern auch mit einer gefügigen osmanischen Regierung in Istanbul, die vor den Besatzern kapituliert hatte, ihn als Rebellen brandmarkte und in Abwesenheit zum Tode verurteilte.\n\nSein Kampf reichte über das Schlachtfeld hinaus; er stand vor der gewaltigen Herausforderung, eine erschöpfte, verarmte und zutiefst traditionelle Gesellschaft zu modernisieren. Nachdem er die Unabhängigkeit der Nation gesichert hatte, stieß er auf erbitterten Widerstand von konservativen religiösen Fraktionen, tief verwurzelten politischen Eliten und weit verbreitetem Analphabetismus, als er versuchte, jahrhundertealte Institutionen wie das Sultanat und das Kalifat abzubauen, um aus der Asche eines gefallenen Reiches eine säkulare, moderne Republik aufzubauen."
+  },
+  {
+    "slug": "ataturk",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "Confronting the imminent dismemberment of his country, Atatürk rallied the demoralized Turkish populace by igniting a fierce sense of national unity and purpose. He organized a grassroots national resistance movement, establishing the Grand National Assembly in Ankara to serve as a legitimate counter-government to the one in Istanbul. Through brilliant military strategy and unyielding resolve, he led the Turkish National Movement to decisive victories in the Turkish War of Independence, successfully repelling the Greek, Armenian, and French forces and forcing the Allies to negotiate the much more favorable Treaty of Lausanne in 1923, which internationally recognized the borders of the new Republic of Turkey.\n\nTo overcome the immense social and cultural stagnation of the newly formed republic, Atatürk launched a sweeping series of radical reforms with breathtaking speed and determination. He abolished the Sultanate and Caliphate, completely secularizing the state and the legal system. By introducing a new Latin-based Turkish alphabet, expanding public education, and championing women's rights—including the right to vote and hold public office—he effectively dismantled the remnants of the Ottoman past, forcefully dragging his nation into the modern era and laying the unbreakable foundation for contemporary Turkey.",
+    "translated": "Angesichts der drohenden Zerstückelung seines Landes mobilisierte Atatürk die demoralisierte türkische Bevölkerung, indem er ein starkes Gefühl der nationalen Einheit und Zielstrebigkeit entfachte. Er organisierte eine nationale Widerstandsbewegung an der Basis und gründete die Große Nationalversammlung in Ankara, um als legitime Gegenregierung zu der in Istanbul zu dienen. Durch brillante militärische Strategie und unnachgiebige Entschlossenheit führte er die türkische Nationalbewegung zu entscheidenden Siegen im Türkischen Unabhängigkeitskrieg, schlug die griechischen, armenischen und französischen Streitkräfte erfolgreich zurück und zwang die Alliierten, den weitaus vorteilhafteren Vertrag von Lausanne (1923) auszuhandeln, der die Grenzen der neuen Republik Türkei international anerkannte.\n\nUm die immense soziale und kulturelle Stagnation der neu gegründeten Republik zu überwinden, leitete Atatürk mit atemberaubender Geschwindigkeit und Entschlossenheit eine umfassende Reihe radikaler Reformen ein. Er schaffte das Sultanat und das Kalifat ab und säkularisierte den Staat und das Rechtssystem vollständig. Durch die Einführung eines neuen türkischen Alphabets auf lateinischer Basis, die Ausweitung der öffentlichen Bildung und den Einsatz für Frauenrechte – einschließlich des Rechts, zu wählen und öffentliche Ämter zu bekleiden – baute er die Überreste der osmanischen Vergangenheit effektiv ab, riss seine Nation kraftvoll in die moderne Ära und legte das unzerbrechliche Fundament für die heutige Türkei."
+  },
+  {
+    "slug": "rosa-parks",
+    "loc": "de",
+    "type": "narrative",
+    "key": "epic_de",
+    "originalEn": "Rosa Parks was a fearless civil rights activist whose quiet but powerful act of defiance profoundly altered the course of American history. On December 1, 1955, in Montgomery, Alabama, she famously refused to give up her bus seat to a white passenger, a courageous stand against the oppressive and deeply entrenched racial segregation laws of the Jim Crow era. Her arrest sparked the Montgomery Bus Boycott, a pivotal 381-day mass protest that galvanized the African American community and brought national attention to the injustices of segregation.\n\nOften called the 'mother of the civil rights movement,' Parks's singular act of courage inspired countless others to join the fight for equality and civil rights in the United States. She worked closely with prominent leaders like Martin Luther King Jr., and her lifelong dedication to the struggle for racial equality left an indelible mark on the world. Her legacy remains a powerful testament to how an ordinary individual's commitment to justice can ignite a movement that challenges systemic oppression and changes society for the better.",
+    "translated": "Rosa Parks war eine furchtlose Bürgerrechtlerin, deren stiller, aber kraftvoller Akt des Widerstands den Lauf der amerikanischen Geschichte tiefgreifend veränderte. Am 1. Dezember 1955 weigerte sie sich in Montgomery, Alabama, bekanntermaßen, ihren Sitzplatz in einem Bus für einen weißen Fahrgast aufzugeben, eine mutige Stellungnahme gegen die repressiven und tief verwurzelten Rassentrennungsgesetze der Jim-Crow-Ära. Ihre Verhaftung löste den Montgomery Bus Boycott aus, einen entscheidenden, 381-tägigen Massenprotest, der die afroamerikanische Gemeinschaft mobilisierte und die Aufmerksamkeit der gesamten Nation auf die Ungerechtigkeiten der Rassentrennung lenkte.\n\nOft als 'Mutter der Bürgerrechtsbewegung' bezeichnet, inspirierte Parks' einzigartiger Akt des Mutes unzählige andere, sich dem Kampf für Gleichberechtigung und Bürgerrechte in den Vereinigten Staaten anzuschließen. Sie arbeitete eng mit prominenten Führungspersönlichkeiten wie Martin Luther King Jr. zusammen, und ihr lebenslanges Engagement im Kampf für rassistische Gleichstellung hat die Welt unauslöschlich geprägt. Ihr Vermächtnis bleibt ein kraftvolles Zeugnis dafür, wie das Engagement eines gewöhnlichen Menschen für Gerechtigkeit eine Bewegung entfachen kann, die systematische Unterdrückung herausfordert und die Gesellschaft zum Besseren verändert."
+  },
+  {
+    "slug": "rosa-parks",
+    "loc": "de",
+    "type": "narrative",
+    "key": "trials_de",
+    "originalEn": "In the deeply segregated American South of the 1950s, Rosa Parks faced the pervasive and crushing reality of Jim Crow laws, which institutionalized racial discrimination and subjugated African Americans in nearly every aspect of daily life. As a dedicated activist and the secretary of the Montgomery chapter of the NAACP, she constantly confronted the daily humiliations and systemic violence of a society that aggressively fought to maintain white supremacy. Her activism routinely put her personal safety and livelihood at profound risk in an environment where resistance to segregation was often met with brutal retaliation.\n\nHer greatest trial crystallized on December 1, 1955, when she was ordered to give up her seat to a white passenger on a Montgomery, Alabama, city bus. By making the conscious, incredibly dangerous decision to refuse, she subjected herself to immediate arrest, a criminal conviction, and intense public backlash. In the aftermath of her arrest, she and her husband faced relentless harassment, death threats, and the loss of their jobs, enduring severe economic and emotional hardship as the struggle for civil rights escalated around them.",
+    "translated": "Im tief gespaltenen amerikanischen Süden der 1950er Jahre war Rosa Parks mit der allgegenwärtigen und erdrückenden Realität der Jim-Crow-Gesetze konfrontiert, die die Rassendiskriminierung institutionalisierten und Afroamerikaner in fast allen Aspekten des täglichen Lebens unterdrückten. Als engagierte Aktivistin und Sekretärin der Montgomery-Sektion der NAACP sah sie sich ständig mit den täglichen Demütigungen und der systematischen Gewalt einer Gesellschaft konfrontiert, die aggressiv dafür kämpfte, die Vorherrschaft der Weißen aufrechtzuerhalten. Ihr Aktivismus brachte ihre persönliche Sicherheit und ihren Lebensunterhalt in einem Umfeld, in dem Widerstand gegen die Rassentrennung oft mit brutalen Vergeltungsmaßnahmen beantwortet wurde, routinemäßig in große Gefahr.\n\nIhre größte Prüfung kristallisierte sich am 1. Dezember 1955 heraus, als ihr befohlen wurde, ihren Sitzplatz einem weißen Fahrgast in einem Stadtbus in Montgomery, Alabama, zu überlassen. Indem sie die bewusste, unglaublich gefährliche Entscheidung traf, sich zu weigern, setzte sie sich sofortiger Verhaftung, einer strafrechtlichen Verurteilung und heftigen öffentlichen Reaktionen aus. Infolge ihrer Verhaftung waren sie und ihr Ehemann unerbittlichen Belästigungen, Morddrohungen und dem Verlust ihrer Arbeitsplätze ausgesetzt und erlitten schwere wirtschaftliche und emotionale Härten, während der Kampf um die Bürgerrechte um sie herum eskalierte."
+  },
+  {
+    "slug": "rosa-parks",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "Rosa Parks overcame these monumental injustices through a quiet but unshakeable defiance rooted in deep moral conviction and years of strategic grassroots organizing. Her arrest was not merely an isolated act of fatigue, but a calculated stand by a seasoned activist ready to challenge an unjust system. By offering herself as the catalyst, she ignited the Montgomery Bus Boycott, a massive, 381-day coordinated protest led by a young Martin Luther King Jr., which united the local African American community in walking, carpooling, and enduring tremendous hardship rather than riding segregated buses.\n\nThrough her unwavering stoicism and dignity in the face of legal persecution and severe personal costs, Parks became an indestructible symbol of the civil rights movement. Her bravery ultimately paid off when the boycott culminated in the landmark 1956 Supreme Court ruling that declared segregated seating on public buses unconstitutional. Despite being forced to relocate to Detroit due to ongoing threats and blacklisting, she continued her tireless advocacy for racial equality and social justice until the end of her life, proving that ordinary individuals can dismantle extraordinary oppression.",
+    "translated": "Rosa Parks überwand diese gewaltigen Ungerechtigkeiten durch eine stille, aber unerschütterliche Auflehnung, die in tiefer moralischer Überzeugung und jahrelanger strategischer Basisorganisation verwurzelt war. Ihre Verhaftung war nicht nur ein isolierter Akt der Erschöpfung, sondern eine kalkulierte Haltung einer erfahrenen Aktivistin, die bereit war, ein ungerechtes System herauszufordern. Indem sie sich selbst als Katalysator anbot, entzündete sie den Busboykott von Montgomery, einen massiven, 381 Tage andauernden koordinierten Protest, angeführt von einem jungen Martin Luther King Jr., der die lokale afroamerikanische Gemeinschaft vereinte, indem sie zu Fuß gingen, Fahrgemeinschaften bildeten und enorme Härten ertrugen, anstatt in getrennten Bussen zu fahren.\n\nDurch ihren unerschütterlichen Stoizismus und ihre Würde angesichts rechtlicher Verfolgung und schwerer persönlicher Kosten wurde Parks zu einem unzerstörbaren Symbol der Bürgerrechtsbewegung. Ihr Mut zahlte sich letztendlich aus, als der Boykott in dem wegweisenden Urteil des Obersten Gerichtshofs von 1956 gipfelte, das die getrennten Sitzplätze in öffentlichen Bussen für verfassungswidrig erklärte. Obwohl sie aufgrund anhaltender Drohungen und schwarzer Listen gezwungen war, nach Detroit umzuziehen, setzte sie ihr unermüdliches Eintreten für rassistische Gleichstellung und soziale Gerechtigkeit bis zum Ende ihres Lebens fort und bewies, dass gewöhnliche Individuen außerordentliche Unterdrückung abbauen können."
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "loc": "de",
+    "type": "narrative",
+    "key": "epic_de",
+    "originalEn": "Simone de Beauvoir was a pioneering French existentialist philosopher, writer, and feminist thinker whose profound intellectual contributions challenged societal norms and reshaped modern feminist theory. She is best known for her groundbreaking 1949 work, 'The Second Sex,' an extensive and meticulously argued treatise that dismantled the historical, social, and cultural constructs defining womanhood. By declaring that 'one is not born, but rather becomes, a woman,' Beauvoir boldly exposed the mechanisms of patriarchal oppression and laid the indispensable foundation for the second-wave feminism movement.\n\nBeyond her monumental feminist literature, Beauvoir's life and work were deeply intertwined with the development of existentialism, closely collaborating with her lifelong companion Jean-Paul Sartre while maintaining her distinct philosophical voice. Through her novels, essays, and autobiographical volumes, she fiercely advocated for authentic living, individual freedom, and ethical responsibility in a complex world. Her enduring intellectual courage and incisive critique of gender inequality continue to inspire generations of thinkers and activists striving for true liberation and equality.",
+    "translated": "Simone de Beauvoir war eine bahnbrechende französische existenzialistische Philosophin, Schriftstellerin und feministische Denkerin, deren tiefgreifende intellektuelle Beiträge gesellschaftliche Normen herausforderten und die moderne feministische Theorie neu gestalteten. Sie ist am besten für ihr bahnbrechendes Werk 'Das andere Geschlecht' aus dem Jahr 1949 bekannt, eine umfassende und akribisch argumentierte Abhandlung, die die historischen, sozialen und kulturellen Konstrukte dekonstruierte, die die Weiblichkeit definierten. Mit der Aussage 'Man wird nicht als Frau geboren, man wird es' legte Beauvoir mutig die Mechanismen der patriarchalischen Unterdrückung offen und schuf das unverzichtbare Fundament für die zweite Welle der Frauenbewegung.\n\nÜber ihre monumentale feministische Literatur hinaus waren Beauvoirs Leben und Werk tief mit der Entwicklung des Existenzialismus verflochten; sie arbeitete eng mit ihrem langjährigen Gefährten Jean-Paul Sartre zusammen, bewahrte aber gleichzeitig ihre eigene philosophische Stimme. In ihren Romanen, Essays und autobiografischen Bänden trat sie vehement für ein authentisches Leben, individuelle Freiheit und ethische Verantwortung in einer komplexen Welt ein. Ihr anhaltender intellektueller Mut und ihre scharfe Kritik an der Geschlechterungleichheit inspirieren weiterhin Generationen von Denkern und Aktivisten, die nach wahrer Befreiung und Gleichberechtigung streben."
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "loc": "de",
+    "type": "narrative",
+    "key": "trials_de",
+    "originalEn": "As a female philosopher and intellectual in early to mid-20th-century France, Simone de Beauvoir faced immense societal prejudice and intellectual marginalization. The publication of her groundbreaking work, *The Second Sex* (1949), brought intense backlash from both the conservative establishment and the Vatican, which placed the book on its Index of Forbidden Books. She was frequently attacked personally, dismissed by male peers, and her philosophical contributions were often unfairly overshadowed by her relationship with Jean-Paul Sartre.",
+    "translated": "Als Philosophin und Intellektuelle im Frankreich des frühen bis mittleren 20. Jahrhunderts war Simone de Beauvoir enormen gesellschaftlichen Vorurteilen und intellektueller Ausgrenzung ausgesetzt. Die Veröffentlichung ihres bahnbrechenden Werks *Das andere Geschlecht* (1949) löste heftige Gegenreaktionen sowohl beim konservativen Establishment als auch beim Vatikan aus, der das Buch auf seinen Index der verbotenen Bücher setzte. Sie wurde häufig persönlich angegriffen, von männlichen Kollegen herabgewürdigt und ihre philosophischen Beiträge wurden oft ungerechtfertigterweise von ihrer Beziehung zu Jean-Paul Sartre in den Schatten gestellt."
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "De Beauvoir overcame these trials through unyielding intellectual courage and an unwavering commitment to her existentialist principles. Rather than silencing her, the fierce criticism fueled her determination to expose the systemic mechanisms of patriarchal oppression. She continued to write prolifically across various genres—including philosophy, fiction, and essays—solidifying her independent voice. By rigorously dissecting the social construction of gender, she laid the foundational theories for the modern feminist movement, refusing to be defined by anyone but herself.",
+    "translated": "De Beauvoir überwand diese Herausforderungen durch unnachgiebigen intellektuellen Mut und ein unerschütterliches Bekenntnis zu ihren existenzialistischen Prinzipien. Anstatt sie zum Schweigen zu bringen, nährte die scharfe Kritik ihre Entschlossenheit, die systematischen Mechanismen der patriarchalischen Unterdrückung aufzudecken. Sie schrieb weiterhin produktiv in verschiedenen Genres – einschließlich Philosophie, Fiktion und Essays – und festigte so ihre unabhängige Stimme. Indem sie die soziale Konstruktion des Geschlechts rigoros sezierte, legte sie die theoretischen Grundlagen für die moderne feministische Bewegung und weigerte sich, von irgendjemand anderem als von sich selbst definiert zu werden."
+  },
+  {
+    "slug": "hannah-arendt",
+    "loc": "de",
+    "type": "narrative",
+    "key": "epic_de",
+    "originalEn": "Hannah Arendt stands as a towering intellectual figure of the twentieth century, casting an unflinching gaze upon the darkest chapters of human history. Through her rigorous philosophical inquiry, she illuminated the nature of power, authority, and the roots of totalitarianism. Her courageous exploration of the 'banality of evil' challenged conventional morality, demanding that individuals confront the profound responsibility of active, critical thought in the face of systemic tyranny.\n\nHer legacy is not merely one of historical analysis, but an urgent call to the active life—the *vita activa*. Arendt envisioned a public sphere where freedom is realized through collective action and the fearless exchange of ideas. In a world continually threatened by political alienation and ideological conformity, her majestic body of work remains an essential beacon, guiding us toward the enduring promise of democratic engagement and the preservation of human dignity.",
+    "translated": "Hannah Arendt steht als herausragende intellektuelle Figur des zwanzigsten Jahrhunderts, die einen unerschrockenen Blick auf die dunkelsten Kapitel der Menschheitsgeschichte warf. Durch ihre rigorose philosophische Untersuchung beleuchtete sie das Wesen von Macht, Autorität und die Wurzeln des Totalitarismus. Ihre mutige Erforschung der 'Banalität des Bösen' stellte die herkömmliche Moral in Frage und forderte, dass Individuen sich der tiefgreifenden Verantwortung für aktives, kritisches Denken angesichts systemischer Tyrannei stellen.\n\nIhr Vermächtnis ist nicht nur eines der historischen Analyse, sondern ein dringender Aufruf zum aktiven Leben – der *vita activa*. Arendt stellte sich eine öffentliche Sphäre vor, in der Freiheit durch kollektives Handeln und den furchtlosen Austausch von Ideen verwirklicht wird. In einer Welt, die ständig von politischer Entfremdung und ideologischer Konformität bedroht ist, bleibt ihr majestätisches Werk ein unverzichtbares Leuchtfeuer, das uns auf dem Weg zu dem dauerhaften Versprechen demokratischen Engagements und der Wahrung der menschlichen Würde führt."
+  },
+  {
+    "slug": "hannah-arendt",
+    "loc": "de",
+    "type": "narrative",
+    "key": "trials_de",
+    "originalEn": "As a German-Jewish political theorist born in 1906, Hannah Arendt faced the horrifying rise of totalitarianism firsthand. Fleeing Nazi Germany in 1933 after being briefly arrested by the Gestapo, she became a stateless refugee for nearly two decades, enduring profound dislocation and the loss of her homeland. Later, her coverage of the Adolf Eichmann trial in 1961, where she coined the phrase \"the banality of evil,\" brought intense controversy and bitter condemnation from many within the Jewish community, causing her deep personal pain and isolating her from former friends.",
+    "translated": "Als deutsch-jüdische politische Theoretikerin, die 1906 geboren wurde, erlebte Hannah Arendt den entsetzlichen Aufstieg des Totalitarismus aus erster Hand. Nachdem sie 1933, kurz nachdem sie von der Gestapo inhaftiert worden war, aus Nazi-Deutschland geflohen war, wurde sie für fast zwei Jahrzehnte zu einem staatenlosen Flüchtling und erduldete tiefe Entwurzelung und den Verlust ihrer Heimat. Später löste ihre Berichterstattung über den Adolf-Eichmann-Prozess 1961, in der sie den Begriff 'die Banalität des Bösen' prägte, intensive Kontroversen und bittere Verurteilungen von vielen innerhalb der jüdischen Gemeinde aus, was ihr tiefen persönlichen Schmerz bereitete und sie von früheren Freunden isolierte."
+  },
+  {
+    "slug": "hannah-arendt",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "Arendt navigated these profound traumas by dedicating her life to understanding the dark political realities of her time, transforming her experience of statelessness into profound political theory. Instead of succumbing to despair or bitterness, she wrote seminal works like *The Origins of Totalitarianism* to dissect the mechanisms of terror. During the Eichmann controversy, she steadfastly defended her philosophical integrity, maintaining that facing uncomfortable truths about human nature and blind obedience was essential to preventing future atrocities.",
+    "translated": "Arendt navigierte diese tiefgreifenden Traumata, indem sie ihr Leben dem Verständnis der dunklen politischen Realitäten ihrer Zeit widmete und ihre Erfahrung der Staatenlosigkeit in eine tiefgründige politische Theorie umwandelte. Anstatt in Verzweiflung oder Verbitterung zu verfallen, schrieb sie bahnbrechende Werke wie *Elemente und Ursprünge totaler Herrschaft*, um die Mechanismen des Terrors zu sezieren. Während der Eichmann-Kontroverse verteidigte sie standhaft ihre philosophische Integrität und behauptete, dass die Konfrontation mit unbequemen Wahrheiten über die menschliche Natur und blinden Gehorsam unerlässlich sei, um zukünftige Gräueltaten zu verhindern."
+  },
+  {
+    "slug": "agatha-christie",
+    "loc": "de",
+    "type": "narrative",
+    "key": "epic_de",
+    "originalEn": "Agatha Christie, the undisputed Queen of Crime, wove unparalleled tapestries of mystery and suspense that have captivated the world for over a century. With an extraordinarily sharp intellect and an uncanny understanding of human psychology, she transformed the classic whodunit into a profound exploration of human nature. Her legendary detectives, from the meticulous Hercule Poirot to the astute Miss Marple, navigate webs of deception and hidden motives, ensuring that justice prevails in even the most perplexing circumstances.\n\nBeyond her astonishing commercial success, Christie's enduring brilliance lies in her masterful narrative architecture and her ability to misdirect and enthrall the reader. She constructed elegant puzzles that are as psychologically complex as they are delightfully entertaining. Today, her majestic catalog of literature stands as a timeless monument to the power of a brilliantly crafted story, cementing her legacy as an immortal titan of modern fiction.",
+    "translated": "Agatha Christie, die unbestrittene Queen of Crime, webte unvergleichliche Teppiche aus Geheimnis und Spannung, die die Welt über ein Jahrhundert lang in ihren Bann gezogen haben. Mit einem außergewöhnlich scharfen Verstand und einem unheimlichen Verständnis der menschlichen Psychologie verwandelte sie den klassischen Kriminalroman in eine tiefe Erforschung der menschlichen Natur. Ihre legendären Detektive, vom akribischen Hercule Poirot bis zur scharfsinnigen Miss Marple, navigieren durch Netze aus Täuschung und verborgenen Motiven und stellen sicher, dass selbst unter den verwirrendsten Umständen die Gerechtigkeit siegt.\n\nÜber ihren erstaunlichen kommerziellen Erfolg hinaus liegt Christies beständige Brillanz in ihrer meisterhaften narrativen Architektur und ihrer Fähigkeit, den Leser in die Irre zu führen und zu fesseln. Sie konstruierte elegante Rätsel, die ebenso psychologisch komplex wie köstlich unterhaltsam sind. Heute steht ihr majestätischer Literaturkatalog als zeitloses Denkmal für die Macht einer brillant konstruierten Geschichte und festigt ihr Vermächtnis als unsterblicher Titan der modernen Belletristik."
+  },
+  {
+    "slug": "agatha-christie",
+    "loc": "de",
+    "type": "narrative",
+    "key": "trials_de",
+    "originalEn": "Agatha Christie's life was marked by severe personal and professional crises, most notably in 1926. In that year, her mother, to whom she was deeply attached, passed away. Shortly thereafter, her husband Archie Christie demanded a divorce, revealing his affair with another woman. This convergence of grief and betrayal culminated in her famous 11-day disappearance, a psychological breaking point that sparked a nationwide manhunt and intense media scrutiny. Moreover, as a female author, she initially struggled against an industry that often underestimated women writers.",
+    "translated": "Das Leben von Agatha Christie war von schweren persönlichen und beruflichen Krisen geprägt, insbesondere im Jahr 1926. In jenem Jahr verstarb ihre Mutter, an der sie sehr hing. Kurz darauf forderte ihr Ehemann Archie Christie die Scheidung und offenbarte seine Affäre mit einer anderen Frau. Dieses Zusammentreffen von Trauer und Verrat gipfelte in ihrem berühmten elftägigen Verschwinden, einem psychologischen Wendepunkt, der eine landesweite Fahndung und intensive Medienaufmerksamkeit auslöste. Darüber hinaus hatte sie als Autorin anfangs mit einer Branche zu kämpfen, die Schriftstellerinnen oft unterschätzte."
+  },
+  {
+    "slug": "agatha-christie",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "Christie overcame her devastating personal crisis by channeling her resilience back into her writing and boldly rebuilding her life. Following her divorce, she traveled alone on the Orient Express to the Middle East, a courageous act of independence that opened a vibrant new chapter in her life and heavily inspired her future masterpieces. She relentlessly honed her craft, constructing intricate puzzles that revolutionized the detective genre. Through sheer discipline and prolific output, she transcended the scandal to become the best-selling fiction writer of all time.",
+    "translated": "Christie überwand ihre verheerende persönliche Krise, indem sie ihre Resilienz wieder in ihr Schreiben kanalisierte und ihr Leben mutig neu aufbaute. Nach ihrer Scheidung reiste sie allein im Orient-Express in den Nahen Osten, ein mutiger Akt der Unabhängigkeit, der ein lebendiges neues Kapitel in ihrem Leben eröffnete und ihre zukünftigen Meisterwerke stark inspirierte. Sie verfeinerte unermüdlich ihr Handwerk und konstruierte komplizierte Rätsel, die das Detektivgenre revolutionierten. Durch schiere Disziplin und einen produktiven Output überwand sie den Skandal und wurde zur meistverkauften Romanautorin aller Zeiten."
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "loc": "de",
+    "type": "narrative",
+    "key": "epic_de",
+    "originalEn": "Queen Elizabeth I emerged as a monumental sovereign who navigated the treacherous waters of sixteenth-century European politics with unmatched grace and strategic genius. Ascending to a fractured realm, she forged the Golden Age of England, uniting a divided nation and transforming it into a formidable global power. Her reign was a magnificent symphony of cultural renaissance and political stability, defined by a fierce independence that successfully defied the greatest empires of her time.\n\nShe was the Virgin Queen, married only to her country, embodying the ultimate sacrifice of personal desire for the glory of the state. Under her majestic vision, English literature flourished, and bold explorers expanded the horizons of the known world. Her indomitable spirit and masterful diplomacy cemented her legacy as one of history's most legendary monarchs, whose enduring mythos continues to inspire an eternal reverence for female leadership and resilience.",
+    "translated": "Königin Elisabeth I. entpuppte sich als eine monumentale Souveränin, die die tückischen Gewässer der europäischen Politik des 16. Jahrhunderts mit unübertroffener Anmut und strategischem Genie navigierte. Als sie ein gespaltenes Reich übernahm, schmiedete sie das Goldene Zeitalter Englands, vereinte eine zerrissene Nation und verwandelte sie in eine beeindruckende Weltmacht. Ihre Herrschaft war eine großartige Symphonie der kulturellen Renaissance und politischen Stabilität, definiert durch eine furchtlose Unabhängigkeit, die den größten Imperien ihrer Zeit erfolgreich trotzte.\n\nSie war die 'Virgin Queen', nur mit ihrem Land verheiratet, und verkörperte das ultimative Opfer persönlicher Wünsche für den Ruhm des Staates. Unter ihrer majestätischen Vision blühte die englische Literatur auf, und mutige Entdecker erweiterten die Horizonte der bekannten Welt. Ihr unbeugsamer Geist und ihre meisterhafte Diplomatie zementierten ihr Vermächtnis als eine der legendärsten Monarchinnen der Geschichte, deren fortdauernder Mythos weiterhin ewige Ehrfurcht vor weiblicher Führungskraft und Widerstandsfähigkeit weckt."
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "loc": "de",
+    "type": "narrative",
+    "key": "trials_de",
+    "originalEn": "Queen Elizabeth I's path to the throne and her subsequent reign were fraught with mortal peril and immense instability. Declared illegitimate after the execution of her mother, Anne Boleyn, she spent her youth navigating deadly political and religious machinations, even being imprisoned in the Tower of London by her half-sister Mary I under suspicion of treason. Once crowned, she faced a deeply fractured nation torn by religious strife, continuous assassination plots, relentless pressure to marry to secure an heir, and the existential threat of foreign invasion, culminating in the Spanish Armada of 1588.",
+    "translated": "Königin Elisabeths I. Weg zum Thron und ihre darauffolgende Herrschaft waren von tödlicher Gefahr und enormer Instabilität geprägt. Nach der Hinrichtung ihrer Mutter, Anne Boleyn, für illegitim erklärt, verbrachte sie ihre Jugend damit, tödliche politische und religiöse Machenschaften zu navigieren, und wurde sogar von ihrer Halbschwester Maria I. wegen Verdachts auf Hochverrat im Tower of London inhaftiert. Nach ihrer Krönung stand sie einer tief gespaltenen Nation gegenüber, zerrissen durch religiöse Konflikte, andauernde Attentatspläne, unerbittlichen Druck, zu heiraten, um einen Erben zu sichern, und die existenzielle Bedrohung durch eine ausländische Invasion, die in der Spanischen Armada von 1588 gipfelte."
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "Elizabeth triumphed by wielding supreme political acumen, pragmatic compromise, and masterful public relations. She established the Elizabethan Religious Settlement to soothe domestic religious tensions and brilliantly used her unmarried status—the \"Virgin Queen\" persona—as a diplomatic bargaining chip and a symbol of her exclusive marriage to England. During the Spanish Armada crisis, she inspired her troops with iconic rhetoric, declaring she had the \"heart and stomach of a king.\" Her cautious, calculating leadership ushered in a golden age of stability and cultural flourishing.",
+    "translated": "Elisabeth triumphierte durch den Einsatz höchsten politischen Scharfsinns, pragmatischer Kompromisse und meisterhafter Öffentlichkeitsarbeit. Sie etablierte die Elisabethanische Religionsvereinbarung, um innerstaatliche religiöse Spannungen zu lindern, und nutzte ihren unverheirateten Status brillant – die Rolle der 'Jungfräulichen Königin' – als diplomatisches Druckmittel und als Symbol für ihre exklusive Ehe mit England. Während der Krise der Spanischen Armada inspirierte sie ihre Truppen mit ikonischer Rhetorik und erklärte, sie habe das 'Herz und den Mut eines Königs'. Ihre vorsichtige, kalkulierende Führung läutete ein goldenes Zeitalter der Stabilität und des kulturellen Aufschwungs ein."
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "loc": "de",
+    "type": "narrative",
+    "key": "epic_de",
+    "originalEn": "In the vibrant heart of 12th-century Córdoba, a beacon of reason arose whose light would pierce the looming shadows of dogmatism across multiple civilizations. Ibn Rushd, known to the West as Averroes, stood uniquely at the crossroads of Islamic theology and Aristotelian philosophy. As a polymath—mastering law, medicine, and philosophy—he undertook the monumental task of reconciling the divine revelation of the Quran with the rational deductions of ancient Greek thought, arguing vehemently that truth could not contradict truth. His profound commentaries on Aristotle revived the philosopher’s works in a form that would ignite the intellectual fervor of Europe.\n\nYet, the path of the relentless truth-seeker is rarely unobstructed. Averroes faced fierce opposition from orthodox theologians who viewed his reliance on philosophy as a dangerous deviation from pure faith. Enduring political disfavor and exile, his writings were burned by those who feared the very enlightenment he championed. But the flames could not consume his enduring legacy. Across the Mediterranean, Jewish and Christian scholars eagerly translated his texts, sparking a philosophical renaissance that would lay the groundwork for the modern age. Averroes remains the immortal bridge between faith and reason, an unwavering titan of intellect.",
+    "translated": "Im pulsierenden Herzen des Córdoba des 12. Jahrhunderts erhob sich ein Leuchtfeuer der Vernunft, dessen Licht die bedrohlichen Schatten des Dogmatismus über mehrere Zivilisationen hinweg durchdringen sollte. Ibn Ruschd, dem Westen als Averroes bekannt, stand einzigartig am Kreuzungspunkt von islamischer Theologie und aristotelischer Philosophie. Als Universalgelehrter – der Recht, Medizin und Philosophie beherrschte – unternahm er die gewaltige Aufgabe, die göttliche Offenbarung des Korans mit den rationalen Ableitungen des antiken griechischen Denkens in Einklang zu bringen, und argumentierte vehement, dass Wahrheit der Wahrheit nicht widersprechen könne. Seine tiefgründigen Kommentare zu Aristoteles belebten die Werke des Philosophen in einer Form wieder, die den intellektuellen Eifer Europas entfachen sollte.\n\nDoch der Weg des unermüdlichen Wahrheitssuchers ist selten frei von Hindernissen. Averroes stieß auf erbitterten Widerstand von orthodoxen Theologen, die seine Berufung auf die Philosophie als eine gefährliche Abweichung vom reinen Glauben betrachteten. Während er politische Ungnade und Exil ertragen musste, wurden seine Schriften von denen verbrannt, die genau die Aufklärung fürchteten, für die er sich einsetzte. Aber die Flammen konnten sein bleibendes Vermächtnis nicht verzehren. Auf der anderen Seite des Mittelmeers übersetzten jüdische und christliche Gelehrte seine Texte eifrig und lösten eine philosophische Renaissance aus, die den Grundstein für die Neuzeit legen sollte. Averroes bleibt die unsterbliche Brücke zwischen Glaube und Vernunft, ein unerschütterlicher Titan des Intellekts."
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "loc": "de",
+    "type": "narrative",
+    "key": "trials_de",
+    "originalEn": "Averroes (Ibn Rushd), a brilliant 12th-century polymath and philosopher in Al-Andalus, faced severe ideological backlash during the latter part of his life. His lifelong mission to reconcile Aristotelian philosophy with Islamic theology made him a target for orthodox theologians who viewed his reliance on rationalism and ancient Greek thought as heretical. In 1195, political shifts and pressure from conservative religious factions led the Almohad caliph to exile Averroes, order his books to be burned, and publicly disgrace him, effectively silencing the great thinker in his twilight years.",
+    "translated": "Averroes (Ibn Ruschd), ein brillanter Universalgelehrter und Philosoph des 12. Jahrhunderts in Al-Andalus, sah sich in seiner späten Lebensphase mit heftigen ideologischen Gegenreaktionen konfrontiert. Seine lebenslange Mission, die aristotelische Philosophie mit der islamischen Theologie in Einklang zu bringen, machte ihn zur Zielscheibe orthodoxer Theologen, die seine Berufung auf Rationalismus und antikes griechisches Denken als ketzerisch ansahen. Im Jahr 1195 führten politische Veränderungen und der Druck konservativer religiöser Fraktionen dazu, dass der Almohaden-Kalif Averroes ins Exil schickte, anordnete, seine Bücher zu verbrennen, und ihn öffentlich in Ungnade fallen ließ, wodurch der große Denker in seinen späten Jahren effektiv zum Schweigen gebracht wurde."
+  },
+  {
+    "slug": "averroes-ibn-rushd",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "Though Averroes suffered personal ruin and his physical works were destroyed in his homeland, he overcame this trial through the invincible legacy of his written word. His detailed commentaries on Aristotle had already been translated into Latin and Hebrew, escaping the confines of his exile. His intellectual resilience meant that while his own society rejected him, his rigorous defense of reason traveled to Europe, where it profoundly ignited the Scholastic movement and laid the essential philosophical groundwork for the European Renaissance.",
+    "translated": "Obwohl Averroes den persönlichen Ruin erlitt und seine physischen Werke in seiner Heimat zerstört wurden, überwand er diese Prüfung durch das unbesiegbare Vermächtnis seines geschriebenen Wortes. Seine detaillierten Kommentare zu Aristoteles waren bereits ins Lateinische und Hebräische übersetzt worden und entkamen so den Grenzen seines Exils. Seine intellektuelle Widerstandsfähigkeit bedeutete, dass seine eigene Gesellschaft ihn zwar ablehnte, seine rigorose Verteidigung der Vernunft jedoch nach Europa reiste, wo sie die scholastische Bewegung zutiefst entfachte und das wesentliche philosophische Fundament für die europäische Renaissance legte."
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "loc": "de",
+    "type": "narrative",
+    "key": "epic_de",
+    "originalEn": "Amidst the golden age of the Islamic Renaissance, a prodigious mind blossomed from the ancient lands of Persia, destined to shape the future of global science and philosophy. Ibn Sina, celebrated in the West as Avicenna, was a true universal genius whose intellect knew no bounds. From a young age, he mastered fields ranging from mathematics and astronomy to deep metaphysics. However, it was in the realm of medicine that his brilliance truly revolutionized human understanding. His magnum opus, 'The Canon of Medicine', became an encyclopedic cornerstone of medical knowledge, systematically organizing centuries of healing practices and remaining the preeminent medical text across Europe and the Islamic world for over six hundred years.\n\nAvicenna's life was a tempestuous journey of relentless intellectual pursuit amidst the shifting sands of political upheaval. Serving as a physician and vizier to various emirs, he composed many of his treatises on horseback or in the dimly lit cells of political imprisonment. Despite the chaos of his era, his philosophy elegantly harmonized Neoplatonism and Aristotelianism with Islamic theology, profoundly influencing both Eastern and Western thought. Avicenna was a titan who navigated the turbulent currents of his time with unparalleled grace, leaving an indelible mark as the undisputed 'Prince of Physicians' and a luminary of human reason.",
+    "translated": "Inmitten des Goldenen Zeitalters der islamischen Renaissance erblühte aus den alten Ländern Persiens ein wunderbarer Geist, der dazu bestimmt war, die Zukunft der globalen Wissenschaft und Philosophie zu prägen. Ibn Sina, im Westen als Avicenna gefeiert, war ein wahres Universalgenie, dessen Intellekt keine Grenzen kannte. Von klein auf meisterte er Disziplinen, die von Mathematik und Astronomie bis hin zu tiefgründiger Metaphysik reichten. Es war jedoch auf dem Gebiet der Medizin, wo seine Brillanz das menschliche Verständnis wahrhaft revolutionierte. Sein Hauptwerk, 'Kanon der Medizin', wurde zu einem enzyklopädischen Eckpfeiler des medizinischen Wissens, das systematisch Jahrhunderte von Heilpraktiken ordnete und über sechshundert Jahre lang das herausragende medizinische Werk in Europa und der islamischen Welt blieb.\n\nAvicennas Leben war eine stürmische Reise des unermüdlichen intellektuellen Strebens inmitten des Treibsandes politischer Umwälzungen. Als Arzt und Wesir für verschiedene Emire tätig, verfasste er viele seiner Abhandlungen auf dem Pferderücken oder in den schwach beleuchteten Zellen der politischen Gefangenschaft. Trotz des Chaos seiner Ära harmonisierte seine Philosophie elegant Neoplatonismus und Aristotelismus mit islamischer Theologie und beeinflusste tiefgreifend sowohl das östliche als auch das westliche Denken. Avicenna war ein Titan, der die turbulenten Strömungen seiner Zeit mit beispielloser Anmut navigierte und als unbestrittener 'Fürst der Ärzte' und als Leuchtfeuer der menschlichen Vernunft ein unauslöschliches Zeichen setzte."
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "loc": "de",
+    "type": "narrative",
+    "key": "trials_de",
+    "originalEn": "Avicenna (Ibn Sina), the preeminent philosopher and physician of the Islamic Golden Age, led a deeply turbulent life characterized by constant political upheaval and displacement. Living in 11th-century Persia amidst warring local dynasties, he frequently found himself caught in the crossfire of political rivalries. He was imprisoned on multiple occasions, forced to flee across treacherous terrains in secret to avoid capture, and constantly had to seek new patronage. His massive intellectual undertakings were constantly interrupted by the sheer struggle for survival.",
+    "translated": "Avicenna (Ibn Sina), der herausragende Philosoph und Arzt des Islamischen Goldenen Zeitalters, führte ein zutiefst turbulentes Leben, das durch ständige politische Umwälzungen und Vertreibungen gekennzeichnet war. In Persien des 11. Jahrhunderts, inmitten sich bekriegender lokaler Dynastien, geriet er häufig in das Kreuzfeuer politischer Rivalitäten. Er wurde mehrfach inhaftiert, musste heimlich über tückisches Terrain fliehen, um einer Gefangennahme zu entgehen, und war ständig gezwungen, neue Schutzherren zu suchen. Seine gewaltigen intellektuellen Unternehmungen wurden unaufhörlich vom nackten Kampf ums Überleben unterbrochen."
+  },
+  {
+    "slug": "avicenna-ibn-sina",
+    "loc": "de",
+    "type": "narrative",
+    "key": "overcoming_de",
+    "originalEn": "Avicenna overcame this chronic instability through an extraordinary mental discipline and an unyielding dedication to his scholarship. Incredibly, he composed his greatest masterpieces—including the monumental medical encyclopedia *The Canon of Medicine* and the philosophical work *The Book of Healing*—while on horseback, in hiding, or even while imprisoned in a fortress. He compartmentalized his political vulnerability, relying on an eidetic memory and an intense drive to synthesize human knowledge, ensuring his wisdom survived the chaotic political landscape of his era.",
+    "translated": "Avicenna überwand diese chronische Instabilität durch außergewöhnliche mentale Disziplin und beispiellose Hingabe an seine wissenschaftliche Arbeit. Unglaublicherweise verfasste er seine größten Meisterwerke – darunter die monumentale medizinische Enzyklopädie *Kanon der Medizin* und das philosophische Werk *Das Buch der Heilung* – während er ritt, sich versteckte oder sogar in einer Festung inhaftiert war. Er trennte seine politische Verletzlichkeit von seiner Arbeit, stützte sich auf sein eidetisches Gedächtnis und einen intensiven Drang, menschliches Wissen zu synthetisieren, und stellte so sicher, dass seine Weisheit die chaotische politische Landschaft seiner Ära überlebte."
+  },
+  {
+    "slug": "zarathushtra",
+    "loc": "de",
+    "type": "narrative",
+    "key": "epic_de",
+    "originalEn": "In the rugged expanses of ancient Iran, millennia before the empires of antiquity fully formed, a lone visionary stood against the ancient polytheistic rites of his people. Zarathushtra, also known as Zoroaster, received a profound revelation that would fundamentally alter the spiritual landscape of human history. He proclaimed the existence of Ahura Mazda, the singular, supreme uncreated Lord of Wisdom, establishing one of the world’s oldest monotheistic faiths. His teachings were not merely theological but deeply moral, centering the cosmos as an ongoing battleground between truth and deception, light and darkness. He tasked humanity with a grand purpose: to actively participate in this cosmic struggle through good thoughts, good words, and good deeds.\n\nThe path of the prophet was paved with hardship and resistance. For years, Zarathushtra preached his radical message to deaf ears, facing persecution from entrenched priesthoods whose power he threatened. Yet, with unyielding conviction, he wandered until his words took root in the heart of King Vishtaspa, ensuring the survival and spread of his divine message. The legacy of Zarathushtra echoed through the ages, profoundly influencing the great Abrahamic religions with concepts of free will, a final judgment, and a messianic savior. He remains an eternal pillar of spiritual enlightenment, the ancient voice that first called humanity to the noble pursuit of righteousness.",
+    "translated": "In den zerklüfteten Weiten des alten Iran, Jahrtausende bevor sich die Imperien der Antike vollständig formierten, lehnte sich ein einsamer Visionär gegen die alten polytheistischen Riten seines Volkes auf. Zarathustra, auch bekannt als Zoroaster, empfing eine tiefgreifende Offenbarung, die die spirituelle Landschaft der Menschheitsgeschichte grundlegend verändern sollte. Er verkündete die Existenz von Ahura Mazda, dem einzigen, höchsten ungeschaffenen Herrn der Weisheit, und etablierte so eine der ältesten monotheistischen Religionen der Welt. Seine Lehren waren nicht nur theologischer, sondern auch zutiefst moralischer Natur, da sie den Kosmos in den Mittelpunkt eines ständigen Schlachtfeldes zwischen Wahrheit und Täuschung, Licht und Dunkelheit stellten. Er betraute die Menschheit mit einem großen Ziel: sich durch gute Gedanken, gute Worte und gute Taten aktiv an diesem kosmischen Kampf zu beteiligen.\n\nDer Weg des Propheten war gepflastert mit Not und Widerstand. Jahrelang predigte Zarathustra seine radikale Botschaft tauben Ohren und sah sich der Verfolgung durch fest verankerte Priesterschaften ausgesetzt, deren Macht er bedrohte. Doch mit unnachgiebiger Überzeugung wanderte er umher, bis seine Worte im Herzen des Königs Vischtaspa Wurzeln schlugen, was das Überleben und die Verbreitung seiner göttlichen Botschaft sicherstellte. Das Vermächtnis von Zarathustra hallte durch die Zeitalter wider und beeinflusste die großen abrahamitischen Religionen tiefgreifend mit Konzepten von freiem Willen, einem Jüngsten Gericht und einem messianischen Retter. Er bleibt eine ewige Säule der spirituellen Erleuchtung, die alte Stimme, die die Menschheit zuerst zum edlen Streben nach Rechtschaffenheit aufrief."
+  }
+]
