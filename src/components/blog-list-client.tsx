@@ -196,8 +196,20 @@ export function BlogListClient() {
         <h2 className="text-2xl font-serif font-bold text-amber-400 mb-4">
           {locale === 'ko' ? '운영자의 편지' : 'Letter from the Creator'}
         </h2>
-        <div className="prose prose-invert max-w-none text-slate-300 italic">
-          <p>[1인칭 칼럼 영역입니다. 대표님의 글이 여기에 고정 노출됩니다.]</p>
+        <div className="prose prose-invert max-w-none text-slate-300 font-light leading-relaxed space-y-4">
+          {locale === 'ko' ? (
+            <>
+              <p>세상은 유례없이 빠르게 발전하고 있지만, 우리는 그 어느 때보다 깊은 고립감과 불안을 느끼며 살아갑니다. 밤잠을 설치며 인생의 방향을 고민하던 어느 날, 저는 우연히 펼친 오래된 역사책 속에서 놀라운 위안을 얻었습니다.</p>
+              <p>수백, 수천 년 전의 위인들 역시 지금의 우리와 똑같은 두려움에 떨었고, 실패에 좌절했으며, 뼈를 깎는 고독 속에서 자신의 길을 개척해 나갔다는 사실이었습니다.</p>
+              <p>시대를 초월한 거인들의 철학과 경험은, 오늘날 우리가 직면한 멘탈 위기를 극복할 가장 강력한 해독제가 될 수 있습니다. 당신이 길을 잃었을 때, 아인슈타인의 유쾌한 조언이, 링컨의 묵묵한 위로가 당신을 다시 일으켜 세울 것입니다. 수많은 거인들이 이미 그 길을 걸었고, 이제 이 곳에서 당신의 손을 잡아줄 것입니다. 당신의 찬란한 내일을 응원합니다.</p>
+            </>
+          ) : (
+            <>
+              <p>The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.</p>
+              <p>I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.</p>
+              <p>The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow.</p>
+            </>
+          )}
         </div>
       </div>
 
