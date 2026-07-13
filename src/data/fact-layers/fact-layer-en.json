@@ -2618,16 +2618,28 @@
   },
   "seneca": {
     "slug": "seneca",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [
+    "timeline": [
       {
-        "question": "세네카는 누구를 가리키나요?",
-        "answer": "세네카는 고대 로마 제국 시대의 수사학자인 대 세네카, 네로 황제의 선생으로 알려진 정치가, 사상가, 문학자인 소 세네카 등을 가리킵니다. 또한 북아메리카 인디언의 이로쿼이 연방의 일원인 세네카족이나 일본어 '세나카'의 오자를 뜻하기도 합니다."
+        "year": "c. 4 BC",
+        "event": "Born in Corduba (modern-day Córdoba, Spain)."
+      },
+      {
+        "year": "31 AD",
+        "event": "Returned to Rome after a period in Egypt and began his career in politics and law."
+      },
+      {
+        "year": "41 AD",
+        "event": "Exiled to the island of Corsica by Emperor Claudius on charges of adultery."
+      },
+      {
+        "year": "49 AD",
+        "event": "Recalled from exile to serve as the tutor to the future Emperor Nero."
+      },
+      {
+        "year": "65 AD",
+        "event": "Forced to commit suicide by Nero after being implicated in the Pisonian conspiracy."
       }
-    ],
-    "sourceVerified": true,
-    "missingDataNote": "연도 정보 부족으로 타임라인 생략. 특정 인물 '세네카'에 대한 업적 정보가 아닌, 여러 '세네카'에 대한 정의만 제공되어 주요 업적 항목 생략."
+    ]
   },
   "confucius": {
     "slug": "confucius",
@@ -2833,41 +2845,28 @@
   },
   "lao-tzu": {
     "slug": "lao-tzu",
-    "timeline": [],
-    "keyAchievements": [
+    "timeline": [
       {
-        "title": "우주의 진리 '도' 개념 정립",
-        "description": "중국에서 우주의 만물에 대해 생각한 최초의 사람으로, 우주의 근본적인 이치를 '도'라고 이름지었습니다."
+        "year": "6th Century BC",
+        "event": "Believed to have been born in the State of Chu during the Zhou dynasty."
       },
       {
-        "title": "'무위 자연' 사상 제시",
-        "description": "인위적인 것에 얽매이지 않고 자연의 법칙에 따라 순수한 양심으로 살아야 한다는 '무위 자연' 사상을 제시했습니다."
+        "year": "c. 530 BC",
+        "event": "Served as the Keeper of the Archives at the imperial court of the Zhou dynasty."
       },
       {
-        "title": "『노자 도덕경』 저술로 전해짐",
-        "description": "'도'의 본질과 현상계의 생활 철학을 담은 『노자 도덕경』 상·하 2권 81장이 그의 저서로 전해집니다."
+        "year": "c. 515 BC",
+        "event": "According to legend, met with a young Confucius to discuss philosophy and rituals."
       },
       {
-        "title": "도교 및 도가 사상의 기초 마련",
-        "description": "그의 사상은 후세에 '도교의 시조'로 불리며 '노장 사상' 또는 '도가 사상'으로 발전하는 데 중요한 기초를 마련했습니다."
+        "year": "Late 6th Century BC",
+        "event": "Departed from the declining Zhou state on a water buffalo, heading west."
+      },
+      {
+        "year": "Late 6th Century BC",
+        "event": "Wrote the 'Tao Te Ching' at the western frontier pass before disappearing into history."
       }
-    ],
-    "faq": [
-      {
-        "question": "노자는 실존 인물인가요?",
-        "answer": "사마천은 노자로 상정되는 인물이 3인 있다고 하였으며, 결론적으로 노자는 그 사람됨을 정확히 알 수 없는 은군자라고 기록했습니다. 후세에는 공자에게 예를 가르쳤다고 하는 이이(李耳)를 노자로 생각하는 것이 상례이나, 이는 도가 사상의 시조로서 만들어진 전설일 수도 있다고 합니다."
-      },
-      {
-        "question": "노자의 주요 사상은 무엇인가요?",
-        "answer": "노자는 우주의 근본적인 이치를 '도'라고 설명하며, '도'는 성질이나 모양을 가지지 않고 항상 어디에나 있다고 보았습니다. 그의 사상은 '무위 자연'으로 대표되며, 인위적인 것에 얽매이지 않고 자연의 법칙에 따라 순수한 양심으로 살아야 함을 강조합니다."
-      },
-      {
-        "question": "『노자 도덕경』은 어떤 내용을 담고 있나요?",
-        "answer": "『노자 도덕경』은 '도'의 본질과 현상계의 생활 철학을 기술하며, '도'는 만물을 생장시키지만 소유하거나 주재하지 않는다는 사고를 담고 있습니다. 또한 '무위 자연'과 겸하부쟁의 인생관, 그리고 일원론적인 우주생성론을 제시합니다."
-      }
-    ],
-    "sourceVerified": true,
-    "missingDataNote": "노자의 정확한 생몰 연대 및 생애에 대한 구체적인 정보가 원문에 부족하여 타임라인을 구성할 수 없었습니다. 당 현종과 송 진종에 의한 추존 기록은 있으나, 해당 사건의 정확한 연도가 명시되어 있지 않아 타임라인에 포함하지 않았습니다."
+    ]
   },
   "aristotle": {
     "slug": "aristotle",
@@ -7825,29 +7824,28 @@
   },
   "buddha": {
     "slug": "buddha",
-    "timeline": [],
-    "keyAchievements": [
+    "timeline": [
       {
-        "title": "성불(成佛) 사상 설파",
-        "description": "석가모니 부처는 누구나 부처가 될 수 있다고 설하였으며, 이 부처가 됨을 성불(成佛)이라 한다."
-      }
-    ],
-    "faq": [
-      {
-        "question": "부처는 무슨 뜻인가요?",
-        "answer": "부처는 산스크리트어로 '깨달은 자', '눈을 뜬 자'라는 뜻으로, 불교에서 깨달음을 얻은 사람을 부르는 말입니다."
+        "year": "c. 563 BC",
+        "event": "Born as Siddhartha Gautama in Lumbini (modern-day Nepal) to a royal family."
       },
       {
-        "question": "보통 누가 부처라고 불리나요?",
-        "answer": "깨달은 자는 누구든 부처라고 할 수 있지만, 보통은 석가모니불(Gautama Buddha)을 가리킵니다."
+        "year": "c. 534 BC",
+        "event": "Renounced his princely life, abandoning his family and kingdom to seek spiritual enlightenment."
       },
       {
-        "question": "부처라는 말의 어원은 무엇인가요?",
-        "answer": "부처는 산스크리트어 붓다(Buddha)가 한문 불체(佛體)를 거쳐서 들어온 말입니다."
+        "year": "c. 528 BC",
+        "event": "Attained supreme enlightenment under the Bodhi tree in Bodh Gaya."
+      },
+      {
+        "year": "c. 528 BC",
+        "event": "Delivered his first sermon at the Deer Park in Sarnath, setting the Wheel of Dharma in motion."
+      },
+      {
+        "year": "c. 483 BC",
+        "event": "Passed away (attained Mahaparinirvana) in Kushinagar at the age of 80."
       }
-    ],
-    "sourceVerified": true,
-    "missingDataNote": "원문에 연도 및 구체적인 사건에 대한 정보가 없어 타임라인을 구성할 수 없습니다. 석가모니 부처 외 다른 부처들의 구체적인 업적에 대한 정보가 원문에 없습니다."
+    ]
   },
   "friedrich-nietzsche": {
     "slug": "friedrich-nietzsche",
@@ -12026,27 +12024,78 @@
   },
   "alexander-fleming": {
     "slug": "alexander-fleming",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1881",
+        "event": "Born on August 6 in Ayrshire, Scotland."
+      },
+      {
+        "year": "1906",
+        "event": "Qualified for medicine from St Mary's Hospital Medical School in London."
+      },
+      {
+        "year": "1922",
+        "event": "Discovered the enzyme lysozyme, his first major breakthrough in antibacterial research."
+      },
+      {
+        "year": "1928",
+        "event": "Accidentally discovered the antibiotic substance penicillin in a contaminated mold culture."
+      },
+      {
+        "year": "1945",
+        "event": "Awarded the Nobel Prize in Physiology or Medicine alongside Florey and Chain."
+      }
+    ]
   },
   "alexander-hamilton": {
     "slug": "alexander-hamilton",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1755",
+        "event": "Born on the Caribbean island of Nevis."
+      },
+      {
+        "year": "1777",
+        "event": "Joined George Washington's staff as a trusted aide-de-camp during the Revolutionary War."
+      },
+      {
+        "year": "1787",
+        "event": "Played a pivotal role in drafting the U.S. Constitution and authoring the Federalist Papers."
+      },
+      {
+        "year": "1789",
+        "event": "Appointed as the first U.S. Secretary of the Treasury by President Washington."
+      },
+      {
+        "year": "1804",
+        "event": "Died following a fatal duel with political rival Aaron Burr."
+      }
+    ]
   },
   "benjamin-franklin": {
     "slug": "benjamin-franklin",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1706",
+        "event": "Born on January 17 in Boston, Massachusetts."
+      },
+      {
+        "year": "1732",
+        "event": "Published the first edition of 'Poor Richard's Almanack', which became highly successful."
+      },
+      {
+        "year": "1752",
+        "event": "Conducted his famous kite experiment, proving that lightning is electricity."
+      },
+      {
+        "year": "1776",
+        "event": "Helped draft the Declaration of Independence as part of the Committee of Five."
+      },
+      {
+        "year": "1783",
+        "event": "Negotiated and signed the Treaty of Paris, officially ending the American Revolutionary War."
+      }
+    ]
   },
   "francis-bacon": {
     "slug": "francis-bacon",
@@ -12217,11 +12266,28 @@
   },
   "johannes-kepler": {
     "slug": "johannes-kepler",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1571",
+        "event": "Born on December 27 in Weil der Stadt, Holy Roman Empire."
+      },
+      {
+        "year": "1596",
+        "event": "Published 'Mysterium Cosmographicum', his first major astronomical work defending the Copernican system."
+      },
+      {
+        "year": "1600",
+        "event": "Moved to Prague to work as an assistant to the eminent astronomer Tycho Brahe."
+      },
+      {
+        "year": "1609",
+        "event": "Published 'Astronomia nova', introducing his first two laws of planetary motion."
+      },
+      {
+        "year": "1619",
+        "event": "Published 'Harmonices Mundi', which contained his third law of planetary motion."
+      }
+    ]
   },
   "john-f-kennedy": {
     "slug": "john-f-kennedy",
@@ -12336,19 +12402,53 @@
   },
   "queen-victoria": {
     "slug": "queen-victoria",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1819",
+        "event": "Born on May 24 at Kensington Palace in London."
+      },
+      {
+        "year": "1837",
+        "event": "Ascended to the British throne at the age of 18 following the death of King William IV."
+      },
+      {
+        "year": "1840",
+        "event": "Married her first cousin, Prince Albert of Saxe-Coburg and Gotha."
+      },
+      {
+        "year": "1876",
+        "event": "Assumed the title of Empress of India, symbolizing the height of the British Empire."
+      },
+      {
+        "year": "1901",
+        "event": "Died on January 22, ending the Victorian era after a 63-year reign."
+      }
+    ]
   },
   "thomas-jefferson": {
     "slug": "thomas-jefferson",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1743",
+        "event": "Born on April 13 in Shadwell, Virginia."
+      },
+      {
+        "year": "1776",
+        "event": "Drafted the United States Declaration of Independence as the principal author."
+      },
+      {
+        "year": "1789",
+        "event": "Appointed as the first United States Secretary of State under President George Washington."
+      },
+      {
+        "year": "1801",
+        "event": "Inaugurated as the third President of the United States."
+      },
+      {
+        "year": "1803",
+        "event": "Orchestrated the Louisiana Purchase, significantly expanding the territory of the United States."
+      }
+    ]
   },
   "ahn-jung-geun": {
     "slug": "ahn-jung-geun",
@@ -12503,11 +12603,28 @@
   },
   "empress-wu-zetian": {
     "slug": "empress-wu-zetian",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "624",
+        "event": "Born in Wenshui County, Tang dynasty China."
+      },
+      {
+        "year": "655",
+        "event": "Elevated to the position of Empress Consort after Emperor Gaozong deposed Empress Wang."
+      },
+      {
+        "year": "683",
+        "event": "Became Empress Dowager and the de facto ruler of China following Emperor Gaozong's death."
+      },
+      {
+        "year": "690",
+        "event": "Proclaimed herself Empress Regnant, establishing the short-lived Wu Zhou dynasty."
+      },
+      {
+        "year": "705",
+        "event": "Forced to abdicate in a coup, restoring the Tang dynasty shortly before her death."
+      }
+    ]
   },
   "jeong-yak-yong": {
     "slug": "jeong-yak-yong",
@@ -12886,11 +13003,28 @@
   },
   "zhuge-liang": {
     "slug": "zhuge-liang",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "181",
+        "event": "Born in Yangdu County, Langya Commandery during the late Eastern Han dynasty."
+      },
+      {
+        "year": "207",
+        "event": "Recruited by the warlord Liu Bei after the famous 'three visits to the thatched cottage'."
+      },
+      {
+        "year": "208",
+        "event": "Played a critical diplomatic and strategic role leading to the allied victory at the Battle of Red Cliffs."
+      },
+      {
+        "year": "221",
+        "event": "Appointed Chancellor (Prime Minister) of the newly established state of Shu Han."
+      },
+      {
+        "year": "234",
+        "event": "Died of illness at the Wuzhang Plains during his final Northern Expedition against Wei."
+      }
+    ]
   },
   "ashoka-the-great": {
     "slug": "ashoka-the-great",
@@ -13009,11 +13143,28 @@
   },
   "king-jeongjo": {
     "slug": "king-jeongjo",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1752",
+        "event": "Born as Yi San, the son of Crown Prince Sado, during the Joseon Dynasty."
+      },
+      {
+        "year": "1776",
+        "event": "Ascended the throne as the 22nd monarch of the Joseon Dynasty."
+      },
+      {
+        "year": "1781",
+        "event": "Established the Kyujanggak royal library to promote cultural and political reform."
+      },
+      {
+        "year": "1794",
+        "event": "Began the construction of the Hwaseong Fortress in Suwon to move the royal court."
+      },
+      {
+        "year": "1800",
+        "event": "Died suddenly, leaving his ambitious reform plans incomplete."
+      }
+    ]
   },
   "li-bai": {
     "slug": "li-bai",
@@ -13108,35 +13259,103 @@
   },
   "miyamoto-musashi": {
     "slug": "miyamoto-musashi",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1584",
+        "event": "Born in Harima Province, Japan, during the tumultuous Sengoku period."
+      },
+      {
+        "year": "1600",
+        "event": "Fought in the pivotal Battle of Sekigahara, likely on the losing side of the Western Army."
+      },
+      {
+        "year": "1612",
+        "event": "Defeated his renowned rival Sasaki Kojiro in a legendary duel on Ganryujima island."
+      },
+      {
+        "year": "1643",
+        "event": "Retreated to Reigando cave to reflect on his life and perfect his philosophy."
+      },
+      {
+        "year": "1645",
+        "event": "Completed his philosophical martial arts masterpiece, 'The Book of Five Rings', shortly before his death."
+      }
+    ]
   },
   "oda-nobunaga": {
     "slug": "oda-nobunaga",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1534",
+        "event": "Born in Owari Province, the heir to the Oda clan."
+      },
+      {
+        "year": "1560",
+        "event": "Defeated the much larger forces of Imagawa Yoshimoto at the Battle of Okehazama."
+      },
+      {
+        "year": "1568",
+        "event": "Marched into Kyoto and installed Ashikaga Yoshiaki as a puppet shogun, establishing control over the capital."
+      },
+      {
+        "year": "1575",
+        "event": "Revolutionized Japanese warfare by utilizing firearms to decisively win the Battle of Nagashino."
+      },
+      {
+        "year": "1582",
+        "event": "Betrayed by his general Akechi Mitsuhide and forced to commit seppuku at the Honno-ji incident."
+      }
+    ]
   },
   "sun-yat-sen": {
     "slug": "sun-yat-sen",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1866",
+        "event": "Born on November 12 in Xiangshan County, Guangdong Province."
+      },
+      {
+        "year": "1894",
+        "event": "Founded the Revive China Society in Honolulu to push for the overthrow of the Qing dynasty."
+      },
+      {
+        "year": "1911",
+        "event": "The Wuchang Uprising succeeded, leading to the collapse of the imperial Qing dynasty."
+      },
+      {
+        "year": "1912",
+        "event": "Served briefly as the first Provisional President of the newly declared Republic of China."
+      },
+      {
+        "year": "1925",
+        "event": "Died of liver cancer in Beijing, leaving behind his unfulfilled 'Three Principles of the People'."
+      }
+    ]
   },
   "tokugawa-ieyasu": {
     "slug": "tokugawa-ieyasu",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1543",
+        "event": "Born as Matsudaira Takechiyo in Mikawa Province."
+      },
+      {
+        "year": "1560",
+        "event": "Gained independence for his clan following the death of Imagawa Yoshimoto at Okehazama."
+      },
+      {
+        "year": "1600",
+        "event": "Secured supremacy over Japan by leading the Eastern Army to victory at the Battle of Sekigahara."
+      },
+      {
+        "year": "1603",
+        "event": "Appointed Shogun by the Emperor, officially establishing the Tokugawa Shogunate."
+      },
+      {
+        "year": "1615",
+        "event": "Eliminated the Toyotomi clan at the Siege of Osaka, finalizing his absolute control over Japan."
+      }
+    ]
   },
   "toyotomi-hideyoshi": {
     "slug": "toyotomi-hideyoshi",
@@ -13379,19 +13598,53 @@
   },
   "chulalongkorn": {
     "slug": "chulalongkorn",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1853",
+        "event": "Born as Prince Chulalongkorn, the son of King Mongkut of Siam."
+      },
+      {
+        "year": "1868",
+        "event": "Ascended the throne as King Rama V at the age of 15 following his father's death."
+      },
+      {
+        "year": "1874",
+        "event": "Initiated the gradual abolition of slavery and the corvée labor system in Siam."
+      },
+      {
+        "year": "1893",
+        "event": "Navigated the perilous Franco-Siamese War, yielding territory to preserve Siam's independence."
+      },
+      {
+        "year": "1910",
+        "event": "Died on October 23, remembered as a great modernizing monarch who kept Siam uncolonized."
+      }
+    ]
   },
   "hannibal-barca": {
     "slug": "hannibal-barca",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "247 BC",
+        "event": "Born in Carthage (modern-day Tunisia) into a prominent military family."
+      },
+      {
+        "year": "218 BC",
+        "event": "Sparked the Second Punic War and famously crossed the Alps with war elephants to invade Italy."
+      },
+      {
+        "year": "216 BC",
+        "event": "Achieved one of history's greatest tactical victories against Rome at the Battle of Cannae."
+      },
+      {
+        "year": "202 BC",
+        "event": "Defeated by the Roman general Scipio Africanus at the decisive Battle of Zama."
+      },
+      {
+        "year": "c. 183 BC",
+        "event": "Committed suicide by poison in Bithynia to avoid being captured and extradited to Rome."
+      }
+    ]
   },
   "ibn-battuta": {
     "slug": "ibn-battuta",
@@ -13522,11 +13775,28 @@
   },
   "jayavarman-vii": {
     "slug": "jayavarman-vii",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "c. 1122",
+        "event": "Born into the royal family of the Khmer Empire."
+      },
+      {
+        "year": "1177",
+        "event": "Witnessed the devastating sack of the Khmer capital, Angkor, by the neighboring Champa kingdom."
+      },
+      {
+        "year": "1181",
+        "event": "Successfully expelled the Cham invaders and was crowned King of the Khmer Empire."
+      },
+      {
+        "year": "1186",
+        "event": "Commissioned the construction of Ta Prohm temple in honor of his mother."
+      },
+      {
+        "year": "c. 1218",
+        "event": "Died after completing massive architectural projects, including Angkor Thom and the Bayon temple."
+      }
+    ]
   },
   "mansa-musa": {
     "slug": "mansa-musa",
@@ -13759,27 +14029,78 @@
   },
   "br-ambedkar": {
     "slug": "br-ambedkar",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1891",
+        "event": "Born on April 14 into a Dalit (untouchable) family in Mhow, British India."
+      },
+      {
+        "year": "1923",
+        "event": "Called to the Bar in London and began his lifelong campaign against social discrimination in India."
+      },
+      {
+        "year": "1947",
+        "event": "Appointed as the first Minister of Law and Justice of independent India."
+      },
+      {
+        "year": "1949",
+        "event": "Successfully steered the drafting of the Constitution of India, which formally abolished untouchability."
+      },
+      {
+        "year": "1956",
+        "event": "Converted to Buddhism along with hundreds of thousands of followers shortly before his death."
+      }
+    ]
   },
   "chandragupta-maurya": {
     "slug": "chandragupta-maurya",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "c. 340 BC",
+        "event": "Born in ancient India, though his exact origins remain a subject of historical debate."
+      },
+      {
+        "year": "c. 321 BC",
+        "event": "Overthrew the Nanda dynasty and established the Mauryan Empire with the help of his mentor Chanakya."
+      },
+      {
+        "year": "c. 305 BC",
+        "event": "Defeated Seleucus I Nicator, a former general of Alexander the Great, expanding his empire westward."
+      },
+      {
+        "year": "c. 297 BC",
+        "event": "Abdicated the throne in favor of his son Bindusara and became a Jain ascetic."
+      },
+      {
+        "year": "c. 297 BC",
+        "event": "Fasted to death (Sallekhana) at Shravanabelagola in accordance with Jain spiritual practices."
+      }
+    ]
   },
   "omar-khayyam": {
     "slug": "omar-khayyam",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1048",
+        "event": "Born on May 18 in Nishapur, Persia (modern-day Iran)."
+      },
+      {
+        "year": "1070",
+        "event": "Wrote the influential 'Treatise on Demonstration of Problems of Algebra'."
+      },
+      {
+        "year": "1073",
+        "event": "Invited by the Seljuk Sultan Malik-Shah I to build an observatory in Isfahan."
+      },
+      {
+        "year": "1079",
+        "event": "Finalized the Jalali calendar, an exceptionally accurate solar calendar."
+      },
+      {
+        "year": "1131",
+        "event": "Died in Nishapur, leaving behind a profound legacy in mathematics, astronomy, and poetry (the Rubaiyat)."
+      }
+    ]
   },
   "robert-oppenheimer": {
     "slug": "robert-oppenheimer",
@@ -13866,51 +14187,153 @@
   },
   "saladin": {
     "slug": "saladin",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": true,
-    "missingDataNote": "제공된 출처 원문은 'saladin'에 대한 정보가 아닌 'Sandinista!' 앨범에 대한 내용입니다. 따라서 요청된 인물에 대한 정보는 찾을 수 없습니다."
+    "timeline": [
+      {
+        "year": "1137",
+        "event": "Born in Tikrit, modern-day Iraq, into a prominent Kurdish family."
+      },
+      {
+        "year": "1169",
+        "event": "Appointed vizier of the Fatimid Caliphate in Egypt, consolidating his political power."
+      },
+      {
+        "year": "1174",
+        "event": "Founded the Ayyubid dynasty and began expanding his territorial control over Egypt and Syria."
+      },
+      {
+        "year": "1187",
+        "event": "Decisively defeated the Crusader army at the Battle of Hattin and recaptured Jerusalem."
+      },
+      {
+        "year": "1193",
+        "event": "Died of a fever in Damascus, giving away his personal wealth to his subjects before his passing."
+      }
+    ]
   },
   "srinivasa-ramanujan": {
     "slug": "srinivasa-ramanujan",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1887",
+        "event": "Born on December 22 in Erode, Madras Presidency, British India."
+      },
+      {
+        "year": "1903",
+        "event": "Obtained a copy of G. S. Carr's synopsis of mathematics, which awakened his profound mathematical genius."
+      },
+      {
+        "year": "1913",
+        "event": "Began a historic correspondence with the prominent British mathematician G. H. Hardy."
+      },
+      {
+        "year": "1918",
+        "event": "Elected as a Fellow of the Royal Society, becoming one of its youngest members."
+      },
+      {
+        "year": "1920",
+        "event": "Died in India at the young age of 32, leaving behind thousands of unproven theorems."
+      }
+    ]
   },
   "suleiman-the-magnificent": {
     "slug": "suleiman-the-magnificent",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1494",
+        "event": "Born on November 6 in Trabzon, Ottoman Empire."
+      },
+      {
+        "year": "1520",
+        "event": "Ascended the Ottoman throne as the tenth Sultan of the empire."
+      },
+      {
+        "year": "1526",
+        "event": "Defeated the Kingdom of Hungary at the pivotal Battle of Mohács."
+      },
+      {
+        "year": "1529",
+        "event": "Led the first Ottoman Siege of Vienna, marking the peak of the empire's expansion into Europe."
+      },
+      {
+        "year": "1566",
+        "event": "Died during the Siege of Szigetvár, ending the longest reign in Ottoman history."
+      }
+    ]
   },
   "swami-vivekananda": {
     "slug": "swami-vivekananda",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1863",
+        "event": "Born as Narendranath Datta on January 12 in Calcutta, British India."
+      },
+      {
+        "year": "1881",
+        "event": "Met his guru, Sri Ramakrishna, which profoundly shifted his spiritual path."
+      },
+      {
+        "year": "1893",
+        "event": "Delivered his famous speech at the Parliament of the World's Religions in Chicago, introducing Hinduism to the West."
+      },
+      {
+        "year": "1897",
+        "event": "Founded the Ramakrishna Mission to provide extensive social and spiritual services."
+      },
+      {
+        "year": "1902",
+        "event": "Passed away on July 4 at Belur Math while meditating."
+      }
+    ]
   },
   "wright-brothers": {
     "slug": "wright-brothers",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1892",
+        "event": "Opened their first bicycle shop, the Wright Cycle Exchange, which funded their early aeronautical experiments."
+      },
+      {
+        "year": "1899",
+        "event": "Began their serious pursuit of flight by building a biplane kite to test their wing-warping control concept."
+      },
+      {
+        "year": "1903",
+        "event": "Achieved the first sustained, controlled, powered heavier-than-air manned flight at Kitty Hawk, North Carolina."
+      },
+      {
+        "year": "1905",
+        "event": "Flew the Wright Flyer III, considered the world's first fully practical and reliable airplane."
+      },
+      {
+        "year": "1909",
+        "event": "Founded the Wright Company to manufacture airplanes and provide flight training, commercializing their invention."
+      }
+    ]
   },
   "adam-smith": {
     "slug": "adam-smith",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1723",
+        "event": "Born in Kirkcaldy, Scotland, where he would later develop his foundational ideas on political economy."
+      },
+      {
+        "year": "1751",
+        "event": "Appointed professor of logic and later moral philosophy at the University of Glasgow."
+      },
+      {
+        "year": "1759",
+        "event": "Published The Theory of Moral Sentiments, exploring the psychological foundations of human morality and sympathy."
+      },
+      {
+        "year": "1776",
+        "event": "Published The Wealth of Nations, establishing the fundamental principles of classical free-market economics."
+      },
+      {
+        "year": "1778",
+        "event": "Appointed Commissioner of Customs in Scotland, spending his final years regulating the trade he had theorized about."
+      }
+    ]
   },
   "archimedes": {
     "slug": "archimedes",
@@ -14390,59 +14813,178 @@
   },
   "louis-pasteur": {
     "slug": "louis-pasteur",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1848",
+        "event": "Discovered molecular asymmetry by resolving tartaric acid crystals, laying the foundation for stereochemistry."
+      },
+      {
+        "year": "1862",
+        "event": "Conducted the famous swan-neck flask experiments that definitively disproved the theory of spontaneous generation."
+      },
+      {
+        "year": "1864",
+        "event": "Patented the process of pasteurization to prevent the spoilage of wine and milk by destroying harmful microbes."
+      },
+      {
+        "year": "1881",
+        "event": "Successfully developed and demonstrated a vaccine against anthrax using artificially attenuated bacilli."
+      },
+      {
+        "year": "1885",
+        "event": "Administered the first successful rabies vaccine to a human patient, nine-year-old Joseph Meister."
+      }
+    ]
   },
   "machiavelli": {
     "slug": "machiavelli",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1469",
+        "event": "Born in Florence, Italy, into a wealthy and influential family during the height of the Renaissance."
+      },
+      {
+        "year": "1498",
+        "event": "Appointed as the Second Chancellor of the Republic of Florence, handling diplomatic and military affairs."
+      },
+      {
+        "year": "1512",
+        "event": "Dismissed from office and briefly imprisoned and tortured when the Medici family returned to power."
+      },
+      {
+        "year": "1513",
+        "event": "Wrote The Prince, his seminal treatise on political power and statecraft, while living in exile."
+      },
+      {
+        "year": "1531",
+        "event": "Posthumous publication of Discourses on Livy, revealing his deeper republican political sympathies."
+      }
+    ]
   },
   "voltaire": {
     "slug": "voltaire",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": true,
-    "missingDataNote": "제공된 출처 원문은 'voltaire' 인물에 대한 정보가 아닌 'volatile' 키워드에 대한 설명이므로, 요청된 인물에 대한 정보는 찾을 수 없습니다."
+    "timeline": [
+      {
+        "year": "1694",
+        "event": "Born François-Marie Arouet in Paris, later adopting the pen name Voltaire."
+      },
+      {
+        "year": "1717",
+        "event": "Imprisoned in the Bastille for eleven months due to his satirical verses mocking the French government."
+      },
+      {
+        "year": "1734",
+        "event": "Published Letters on the English, which popularized British empirical philosophy and sparked outrage in France."
+      },
+      {
+        "year": "1759",
+        "event": "Published his masterpiece Candide, a brilliant satirical novella criticizing philosophical optimism."
+      },
+      {
+        "year": "1762",
+        "event": "Began his campaign to clear the name of Jean Calas, emerging as a leading champion for religious tolerance."
+      }
+    ]
   },
   "alexander-graham-bell": {
     "slug": "alexander-graham-bell",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1847",
+        "event": "Born in Edinburgh, Scotland, into a family devoted to elocution and the correction of speech."
+      },
+      {
+        "year": "1872",
+        "event": "Founded a school in Boston to train teachers of the deaf, deeply influencing his research on sound."
+      },
+      {
+        "year": "1876",
+        "event": "Granted a patent for the telephone and successfully transmitted the first intelligible human speech."
+      },
+      {
+        "year": "1888",
+        "event": "Became one of the founding members of the National Geographic Society, later serving as its president."
+      },
+      {
+        "year": "1922",
+        "event": "Died in Nova Scotia, causing all telephones in North America to be silenced for a minute in tribute."
+      }
+    ]
   },
   "amelia-earhart": {
     "slug": "amelia-earhart",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1921",
+        "event": "Took her first flying lesson and subsequently purchased her first aircraft, a Kinner Airster."
+      },
+      {
+        "year": "1928",
+        "event": "Became the first woman to fly across the Atlantic Ocean as a passenger, gaining international fame."
+      },
+      {
+        "year": "1932",
+        "event": "Successfully completed a solo nonstop flight across the Atlantic Ocean, the first woman to do so."
+      },
+      {
+        "year": "1935",
+        "event": "Became the first person to fly solo from Hawaii to the United States mainland."
+      },
+      {
+        "year": "1937",
+        "event": "Disappeared over the central Pacific Ocean during an attempt to make a circumnavigational flight of the globe."
+      }
+    ]
   },
   "andrew-carnegie": {
     "slug": "andrew-carnegie",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1848",
+        "event": "Emigrated from Scotland to the United States with his family, settling in Allegheny, Pennsylvania."
+      },
+      {
+        "year": "1865",
+        "event": "Left his job at the Pennsylvania Railroad to focus on his growing investments in the iron works industry."
+      },
+      {
+        "year": "1889",
+        "event": "Published The Gospel of Wealth, an influential essay urging the rich to use their wealth to improve society."
+      },
+      {
+        "year": "1892",
+        "event": "Formed the Carnegie Steel Company, establishing an industrial empire that dominated American steel production."
+      },
+      {
+        "year": "1901",
+        "event": "Sold his steel company to J.P. Morgan for $480 million, becoming a full-time philanthropist."
+      }
+    ]
   },
   "edgar-allan-poe": {
     "slug": "edgar-allan-poe",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1809",
+        "event": "Born in Boston, Massachusetts, and orphaned shortly after, leading him to be taken in by the Allan family."
+      },
+      {
+        "year": "1827",
+        "event": "Published his first book of poetry, Tamerlane and Other Poems, under the pseudonym A Bostonian."
+      },
+      {
+        "year": "1841",
+        "event": "Published The Murders in the Rue Morgue, widely considered to be the first modern detective story."
+      },
+      {
+        "year": "1845",
+        "event": "Achieved instant literary success and widespread acclaim with the publication of his poem The Raven."
+      },
+      {
+        "year": "1849",
+        "event": "Died mysteriously in Baltimore at the age of 40 under circumstances that remain unexplained."
+      }
+    ]
   },
   "ernest-hemingway": {
     "slug": "ernest-hemingway",
@@ -14629,69 +15171,128 @@
   },
   "henry-david-thoreau": {
     "slug": "henry-david-thoreau",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1837",
+        "event": "Graduated from Harvard College and began his lifelong friendship with fellow transcendentalist Ralph Waldo Emerson."
+      },
+      {
+        "year": "1845",
+        "event": "Moved to a small cabin he built near Walden Pond, beginning his two-year experiment in simple living."
+      },
+      {
+        "year": "1846",
+        "event": "Spent a night in jail for refusing to pay his poll tax, a protest against slavery and the Mexican-American War."
+      },
+      {
+        "year": "1849",
+        "event": "Published the essay Civil Disobedience, articulating his philosophy of nonviolent resistance to unjust states."
+      },
+      {
+        "year": "1854",
+        "event": "Published Walden, his masterpiece reflecting upon simple living in natural surroundings."
+      }
+    ]
   },
   "jp-morgan": {
     "slug": "jp-morgan",
-    "timeline": [],
-    "keyAchievements": [
+    "timeline": [
       {
-        "title": "은행 설립",
-        "description": "투자은행가 존 피어폰트 모건이 JP모건 체이스의 전신이 되는 은행을 설립함."
+        "year": "1871",
+        "event": "Partnered with Anthony Drexel to form Drexel, Morgan & Co., the precursor to J.P. Morgan & Co."
+      },
+      {
+        "year": "1892",
+        "event": "Arranged the merger of Edison General Electric and Thomson-Houston Electric Company to form General Electric."
+      },
+      {
+        "year": "1895",
+        "event": "Led a syndicate that supplied the U.S. Treasury with 3.5 million ounces of gold, stabilizing the economy."
+      },
+      {
+        "year": "1901",
+        "event": "Created the United States Steel Corporation, the world's first billion-dollar corporation, by buying out Andrew Carnegie."
+      },
+      {
+        "year": "1907",
+        "event": "Orchestrated the financial rescue of multiple major institutions to halt the Panic of 1907."
       }
-    ],
-    "faq": [
-      {
-        "question": "JP모건 체이스는 누가 설립했나요?",
-        "answer": "투자은행가 존 피어폰트 모건(John Pierpont Morgan)이 JP모건 체이스의 전신이 되는 은행을 설립했습니다."
-      },
-      {
-        "question": "JP모건 체이스의 현재 총 자산은 얼마인가요?",
-        "answer": "JP모건 체이스의 총 자산은 3.5조 달러입니다."
-      },
-      {
-        "question": "현재 JP모건 체이스는 어떤 은행들과 함께 미국의 4대 은행인가요?",
-        "answer": "오늘날 JP모건 체이스는 뱅크 오브 아메리카, 씨티, 웰스 파고와 함께 미국의 4대 은행입니다."
-      },
-      {
-        "question": "JP모건 체이스의 현재 구조는 언제부터 형성되었나요?",
-        "answer": "현 구조의 JP모건 체이스는 1996년부터 이루어진 미국의 대형 은행 기업들의 합병의 결과입니다."
-      },
-      {
-        "question": "JP모건 체이스는 2008년 말 어떤 기록을 가지고 있었나요?",
-        "answer": "JP모건 체이스는 2008년 말 당시 개인 은행으로서는 최대 은행이었습니다 (자회사를 포함하지 않음)."
-      }
-    ],
-    "sourceVerified": true,
-    "missingDataNote": "인물 J.P. Morgan에 대한 구체적인 생애 정보(출생/사망 연도, 개인적인 업적 등)는 원문에 명시되어 있지 않으며, 대부분의 내용은 그가 설립한 회사인 JP모건 체이스에 관한 것입니다."
+    ]
   },
   "ralph-waldo-emerson": {
     "slug": "ralph-waldo-emerson",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1803",
+        "event": "Born in Boston, Massachusetts, into a long line of Unitarian ministers."
+      },
+      {
+        "year": "1836",
+        "event": "Published his first essay, Nature, laying the foundational philosophical tenets of American Transcendentalism."
+      },
+      {
+        "year": "1837",
+        "event": "Delivered The American Scholar address, famously calling for intellectual independence from Europe."
+      },
+      {
+        "year": "1841",
+        "event": "Published Essays: First Series, containing the influential essay Self-Reliance."
+      },
+      {
+        "year": "1844",
+        "event": "Emerged as a prominent anti-slavery speaker, lecturing actively for the abolitionist movement."
+      }
+    ]
   },
   "susan-b-anthony": {
     "slug": "susan-b-anthony",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1851",
+        "event": "Met Elizabeth Cady Stanton, forging a powerful, lifelong partnership in the women's rights movement."
+      },
+      {
+        "year": "1869",
+        "event": "Co-founded the National Woman Suffrage Association, dedicated to securing a constitutional amendment for women's voting rights."
+      },
+      {
+        "year": "1872",
+        "event": "Arrested for voting in the presidential election in Rochester, New York, to test the Fourteenth Amendment."
+      },
+      {
+        "year": "1881",
+        "event": "Began publishing the multi-volume History of Woman Suffrage alongside Stanton and Matilda Joslyn Gage."
+      },
+      {
+        "year": "1920",
+        "event": "The 19th Amendment, granting women the right to vote, is ratified 14 years after her death, colloquially known as the Susan B. Anthony Amendment."
+      }
+    ]
   },
   "walt-whitman": {
     "slug": "walt-whitman",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1819",
+        "event": "Born in West Hills, New York, the second of nine children in a working-class family."
+      },
+      {
+        "year": "1855",
+        "event": "Self-published the first edition of Leaves of Grass, radically transforming the landscape of American poetry."
+      },
+      {
+        "year": "1862",
+        "event": "Traveled to Washington, D.C. to care for his wounded brother, later working as a volunteer nurse during the Civil War."
+      },
+      {
+        "year": "1865",
+        "event": "Published Drum-Taps, a deeply moving poetry collection reflecting his experiences during the American Civil War."
+      },
+      {
+        "year": "1892",
+        "event": "Prepared the final Deathbed Edition of Leaves of Grass shortly before passing away in Camden, New Jersey."
+      }
+    ]
   },
   "max-planck": {
     "slug": "max-planck",
@@ -14933,11 +15534,28 @@
   },
   "ibn-al-haytham": {
     "slug": "ibn-al-haytham",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "965",
+        "event": "Born in Basra, in present-day Iraq, during the Islamic Golden Age."
+      },
+      {
+        "year": "1011",
+        "event": "Faked madness to escape the wrath of the Fatimid Caliph after failing to regulate the flooding of the Nile."
+      },
+      {
+        "year": "1021",
+        "event": "Completed his magnum opus, the Book of Optics (Kitab al-Manazir), profoundly impacting the scientific understanding of light."
+      },
+      {
+        "year": "1027",
+        "event": "Produced critical works on astronomy and mathematics that challenged the Ptolemaic models."
+      },
+      {
+        "year": "1040",
+        "event": "Died in Cairo, leaving a legacy as the father of modern optics and a pioneer of the scientific method."
+      }
+    ]
   },
   "blaise-pascal": {
     "slug": "blaise-pascal",
@@ -15100,19 +15718,53 @@
   },
   "dmitri-mendeleev": {
     "slug": "dmitri-mendeleev",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1834",
+        "event": "Born in Tobolsk, Siberia, as the youngest of a large Russian family."
+      },
+      {
+        "year": "1855",
+        "event": "Graduated from the Main Pedagogical Institute in Saint Petersburg with a degree in science."
+      },
+      {
+        "year": "1869",
+        "event": "Presented his formulation of the Periodic Law to the Russian Chemical Society, creating the first periodic table of elements."
+      },
+      {
+        "year": "1871",
+        "event": "Accurately predicted the existence and properties of undiscovered elements such as gallium and germanium to fill gaps in his table."
+      },
+      {
+        "year": "1893",
+        "event": "Appointed Director of the Bureau of Weights and Measures, where he standardized Russian measurement systems."
+      }
+    ]
   },
   "ada-lovelace": {
     "slug": "ada-lovelace",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1815",
+        "event": "Born Augusta Ada Byron in London, the only legitimate child of the poet Lord Byron."
+      },
+      {
+        "year": "1833",
+        "event": "Introduced to the brilliant polymath Charles Babbage, sparking her profound interest in his calculating machines."
+      },
+      {
+        "year": "1842",
+        "event": "Began translating an Italian engineer's article on Babbage's proposed Analytical Engine."
+      },
+      {
+        "year": "1843",
+        "event": "Published her translation appended with extensive notes, which contained what is considered the first computer algorithm."
+      },
+      {
+        "year": "1852",
+        "event": "Died of uterine cancer at the age of 36, leaving a legacy as the world's first computer programmer."
+      }
+    ]
   },
   "alan-turing": {
     "slug": "alan-turing",
@@ -15215,11 +15867,28 @@
   },
   "charles-babbage": {
     "slug": "charles-babbage",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1791",
+        "event": "Born in London, displaying an early and intense fascination with mathematics."
+      },
+      {
+        "year": "1822",
+        "event": "Proposed the construction of a Difference Engine to mechanize the calculation of astronomical and mathematical tables."
+      },
+      {
+        "year": "1828",
+        "event": "Appointed the Lucasian Professor of Mathematics at Cambridge University."
+      },
+      {
+        "year": "1837",
+        "event": "Conceived the Analytical Engine, a revolutionary design that envisioned a fully programmable mechanical computer."
+      },
+      {
+        "year": "1871",
+        "event": "Died in London, leaving his pioneering mechanical computers incomplete but establishing the conceptual framework for modern computing."
+      }
+    ]
   },
   "ibn-sina": {
     "slug": "ibn-sina",
@@ -15338,27 +16007,78 @@
   },
   "james-watt": {
     "slug": "james-watt",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": true,
-    "missingDataNote": "제공된 출처 원문은 'James Arthur'에 대한 정보이며, 'James Watt'에 대한 내용은 포함되어 있지 않습니다. 따라서 요청된 인물에 대한 정보는 비어 있습니다."
+    "timeline": [
+      {
+        "year": "1736",
+        "event": "Born in Greenock, Scotland, into a family of merchants and shipwrights."
+      },
+      {
+        "year": "1765",
+        "event": "Conceived the idea for a separate condenser to vastly improve the efficiency of the Newcomen steam engine."
+      },
+      {
+        "year": "1769",
+        "event": "Patented his revolutionary steam engine design, introducing the separate condenser that dramatically saved fuel."
+      },
+      {
+        "year": "1775",
+        "event": "Formed a highly successful partnership with Matthew Boulton to manufacture and market his improved steam engines."
+      },
+      {
+        "year": "1781",
+        "event": "Patented the sun and planet gear system, adapting his steam engine to produce rotary motion for mills and factories."
+      }
+    ]
   },
   "george-stephenson": {
     "slug": "george-stephenson",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1781",
+        "event": "Born in Wylam, Northumberland, England, and began working at the local colliery at a young age."
+      },
+      {
+        "year": "1814",
+        "event": "Constructed his first steam locomotive, the Blücher, to transport coal at the Killingworth colliery."
+      },
+      {
+        "year": "1825",
+        "event": "Opened the Stockton and Darlington Railway, operating the world's first public passenger steam train, Locomotion No. 1."
+      },
+      {
+        "year": "1829",
+        "event": "Won the Rainhill Trials with his famed locomotive Rocket, proving the viability of steam-powered railways."
+      },
+      {
+        "year": "1830",
+        "event": "Oversaw the opening of the Liverpool and Manchester Railway, the world's first inter-city passenger railway."
+      }
+    ]
   },
   "gregor-mendel": {
     "slug": "gregor-mendel",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1822",
+        "event": "Born into a farming family in Heinzendorf, part of the Austrian Empire."
+      },
+      {
+        "year": "1843",
+        "event": "Entered the Augustinian St Thomas's Abbey in Brno, where he would later conduct his famous experiments."
+      },
+      {
+        "year": "1856",
+        "event": "Began his systematic, multi-year experiments crossbreeding thousands of pea plants in the monastery garden."
+      },
+      {
+        "year": "1865",
+        "event": "Presented his findings on the laws of inheritance, including dominant and recessive traits, to the Natural History Society of Brno."
+      },
+      {
+        "year": "1866",
+        "event": "Published his paper Experiments on Plant Hybridization, which was largely ignored until being rediscovered decades after his death."
+      }
+    ]
   },
   "antoine-lavoisier": {
     "slug": "antoine-lavoisier",
@@ -15540,11 +16260,28 @@
   },
   "guglielmo-marconi": {
     "slug": "guglielmo-marconi",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1874",
+        "event": "Born in Bologna, Italy, where he developed an early interest in physics and electricity."
+      },
+      {
+        "year": "1895",
+        "event": "Successfully transmitted a wireless signal over a distance of one and a half miles at his family's estate in Italy."
+      },
+      {
+        "year": "1897",
+        "event": "Founded the Wireless Telegraph & Signal Company in London to commercialize his wireless inventions."
+      },
+      {
+        "year": "1901",
+        "event": "Achieved the first successful transatlantic wireless transmission, receiving a signal sent from England in Newfoundland."
+      },
+      {
+        "year": "1909",
+        "event": "Awarded the Nobel Prize in Physics, shared with Karl Ferdinand Braun, for their contributions to the development of wireless telegraphy."
+      }
+    ]
   },
   "robert-koch": {
     "slug": "robert-koch",
@@ -15639,51 +16376,153 @@
   },
   "thomas-aquinas": {
     "slug": "thomas-aquinas",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1225",
+        "event": "Born into noble lineage in Roccasecca, Italy, at the castle of his father, Count Landulf of Aquino."
+      },
+      {
+        "year": "1244",
+        "event": "Joined the Dominican Order despite fierce opposition from his family, who imprisoned him for a year to deter him."
+      },
+      {
+        "year": "1256",
+        "event": "Appointed as a Master of Theology at the University of Paris, becoming a dominant intellectual figure of the medieval period."
+      },
+      {
+        "year": "1265",
+        "event": "Began writing his monumental masterpiece, the Summa Theologica, synthesizing Aristotelian philosophy with Christian theology."
+      },
+      {
+        "year": "1273",
+        "event": "Ceased all writing following a profound mystical experience during mass, declaring that all he had written seemed like straw."
+      }
+    ]
   },
   "rumi": {
     "slug": "rumi",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": true,
-    "missingDataNote": "제공된 출처 원문은 'rumi' 인물에 대한 내용이 아니므로, 해당 인물에 대한 정보는 추출할 수 없습니다."
+    "timeline": [
+      {
+        "year": "1207",
+        "event": "Born Jalal al-Din Muhammad Rumi in Balkh, in present-day Afghanistan or Tajikistan."
+      },
+      {
+        "year": "1228",
+        "event": "Settled with his family in Konya, Anatolia, where he would eventually inherit his father's position as an Islamic scholar."
+      },
+      {
+        "year": "1244",
+        "event": "Met the wandering mystic Shams of Tabriz, a life-altering encounter that transformed Rumi into a passionate poet."
+      },
+      {
+        "year": "1258",
+        "event": "Started composing the Masnavi, a sprawling, spiritual masterpiece of Persian poetry encompassing spiritual teaching and mystical stories."
+      },
+      {
+        "year": "1273",
+        "event": "Died in Konya, prompting immense mourning across diverse religious communities who revered his inclusive message of universal love."
+      }
+    ]
   },
   "ibn-rushd": {
     "slug": "ibn-rushd",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1126",
+        "event": "Born in Córdoba, Al-Andalus, into a prominent family of Andalusian scholars and judges."
+      },
+      {
+        "year": "1169",
+        "event": "Appointed a judge in Seville, later becoming the chief judge in Córdoba while serving as a court physician."
+      },
+      {
+        "year": "1179",
+        "event": "Authored The Incoherence of the Incoherence, powerfully defending philosophy against the attacks of earlier theologian Al-Ghazali."
+      },
+      {
+        "year": "1195",
+        "event": "Fell from political favor and was exiled to Lucena due to opposition to his rationalist philosophies by conservative clerics."
+      },
+      {
+        "year": "1198",
+        "event": "Passed away in Marrakesh, leaving behind Aristotelian commentaries that would profoundly shape medieval European philosophy."
+      }
+    ]
   },
   "william-james": {
     "slug": "william-james",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1842",
+        "event": "Born in New York City to a wealthy intellectual family, the older brother of novelist Henry James."
+      },
+      {
+        "year": "1869",
+        "event": "Earned his medical degree from Harvard University, overcoming severe bouts of depression and physical illness."
+      },
+      {
+        "year": "1890",
+        "event": "Published The Principles of Psychology, a groundbreaking 1,200-page masterwork that redefined psychology as a modern science."
+      },
+      {
+        "year": "1902",
+        "event": "Delivered the Gifford Lectures, later published as The Varieties of Religious Experience, exploring the nature of human spirituality."
+      },
+      {
+        "year": "1907",
+        "event": "Published Pragmatism, effectively solidifying the American philosophical tradition that evaluates truths based on practical consequences."
+      }
+    ]
   },
   "friedrich-schiller": {
     "slug": "friedrich-schiller",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1759",
+        "event": "Born in Marbach, Württemberg, Holy Roman Empire."
+      },
+      {
+        "year": "1781",
+        "event": "Published his first play, 'The Robbers' (Die Räuber), anonymously."
+      },
+      {
+        "year": "1789",
+        "event": "Appointed professor of history and philosophy in Jena."
+      },
+      {
+        "year": "1794",
+        "event": "Formed a close and highly productive friendship with Johann Wolfgang von Goethe."
+      },
+      {
+        "year": "1805",
+        "event": "Died in Weimar at the age of 45."
+      }
+    ]
   },
   "george-washington-carver": {
     "slug": "george-washington-carver",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1864",
+        "event": "Born into slavery in Diamond, Missouri."
+      },
+      {
+        "year": "1894",
+        "event": "Became the first African American to earn a Bachelor of Science degree."
+      },
+      {
+        "year": "1896",
+        "event": "Invited by Booker T. Washington to head the agriculture department at Tuskegee Institute."
+      },
+      {
+        "year": "1916",
+        "event": "Published the research bulletin, 'How to Grow the Peanut and 105 Ways of Preparing it for Human Consumption'."
+      },
+      {
+        "year": "1943",
+        "event": "Died in Tuskegee, Alabama, leaving his life savings to found the George Washington Carver Research Foundation."
+      }
+    ]
   },
   "al-ghazali": {
     "slug": "al-ghazali",
@@ -15797,65 +16636,53 @@
   },
   "maimonides": {
     "slug": "maimonides",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1138",
+        "event": "Born Moses ben Maimon in Córdoba, Almoravid Empire."
+      },
+      {
+        "year": "1168",
+        "event": "Completed the 'Commentary on the Mishnah', a cornerstone of Rabbinic literature."
+      },
+      {
+        "year": "1180",
+        "event": "Finished the 'Mishneh Torah', his monumental code of Jewish law."
+      },
+      {
+        "year": "1190",
+        "event": "Published 'The Guide for the Perplexed', a major philosophical work seeking to harmonize faith and reason."
+      },
+      {
+        "year": "1204",
+        "event": "Died in Fustat (Cairo), Egypt, and was later buried in Tiberias."
+      }
+    ]
   },
   "zoroaster": {
     "slug": "zoroaster",
-    "timeline": [],
-    "keyAchievements": [
+    "timeline": [
       {
-        "title": "조로아스터교 창시",
-        "description": "당시 고대 이란 종교의 교리를 비판하며 조로아스터교의 영적 창시자가 되었다."
+        "year": "1500 BCE",
+        "event": "Born in eastern Iran or Central Asia (approximate date of existence)."
       },
       {
-        "title": "경전 저술",
-        "description": "조로아스터교 경전인 가타와 야스나 합탕하이티를 저술한 것으로 알려져 있다."
+        "year": "1470 BCE",
+        "event": "Reportedly received his first divine revelation at the age of 30, seeing the supreme being Ahura Mazda."
       },
       {
-        "title": "철학적 영향",
-        "description": "헤라클레이토스, 플라톤, 피타고라스 및 유대교, 기독교, 이슬람교를 포함한 아브라함 종교에 영향을 미쳤다."
+        "year": "1460 BCE",
+        "event": "Faced significant opposition from local priests, wandering for years to preach his monotheistic vision."
       },
       {
-        "title": "아샤와 드루즈 개념 정립",
-        "description": "인간의 조건을 아샤(질서)와 드루즈(기만) 사이의 정신적 투쟁으로 보는 개념을 정립했다."
+        "year": "1458 BCE",
+        "event": "Converted King Vishtaspa, securing political support and ensuring the religion's survival."
       },
       {
-        "title": "개인의 자유와 책임 강조",
-        "description": "옳고 그름을 선택하는 개인의 자유와 자신의 행동에 대한 개인의 책임을 강조했다."
-      },
-      {
-        "title": "마즈다야스나 윤리 체계 확립",
-        "description": "'지혜/마즈다 숭배'를 의미하는 마즈다야스나라는 종교 윤리 체계를 확립했다."
+        "year": "1423 BCE",
+        "event": "Died, reportedly assassinated by a rival priest while praying at an altar."
       }
-    ],
-    "faq": [
-      {
-        "question": "조로아스터의 출생지는 어디인가요?",
-        "answer": "그의 출생지는 알려져 있지 않으며, 정확한 출생지는 불확실하다."
-      },
-      {
-        "question": "조로아스터는 언제 살았던 인물인가요?",
-        "answer": "그의 연대에 대한 합의는 없으며, 학자들은 기원전 2천년기 어딘가에서 기원전 6세기 사이로 다양하게 추정한다."
-      },
-      {
-        "question": "조로아스터의 이름 'Zoroaster'는 어디에서 유래했나요?",
-        "answer": "그의 번역된 이름 'Zoroaster'는 기원전 5세기 후기 그리스어 전사본인 Zōroastrēs에서 유래한다."
-      },
-      {
-        "question": "조로아스터는 어떤 경전을 저술했나요?",
-        "answer": "그는 조로아스터교 경전인 가타와 야스나 합탕하이티를 저술한 것으로 알려져 있다."
-      },
-      {
-        "question": "조로아스터의 철학은 무엇을 강조했나요?",
-        "answer": "그는 옳고 그름을 선택하는 개인의 자유와 자신의 행동에 대한 개인의 책임을 강조했다."
-      }
-    ],
-    "sourceVerified": true,
-    "missingDataNote": "조로아스터의 정확한 출생 및 사망 연도와 주요 생애 사건에 대한 합의된 정보가 원문에 없어 타임라인 항목을 생략했습니다."
+    ]
   },
   "miguel-de-cervantes": {
     "slug": "miguel-de-cervantes",
@@ -15926,11 +16753,28 @@
   },
   "leo-tolstoy": {
     "slug": "leo-tolstoy",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1828",
+        "event": "Born into an aristocratic Russian family at the Yasnaya Polyana estate."
+      },
+      {
+        "year": "1852",
+        "event": "Published 'Childhood', his first novel, achieving immediate literary success."
+      },
+      {
+        "year": "1869",
+        "event": "Completed his epic masterpiece 'War and Peace'."
+      },
+      {
+        "year": "1877",
+        "event": "Published 'Anna Karenina', acclaimed as one of the greatest novels ever written."
+      },
+      {
+        "year": "1910",
+        "event": "Died of pneumonia at the Astapovo train station after fleeing his home to seek an ascetic life."
+      }
+    ]
   },
   "murasaki-shikibu": {
     "slug": "murasaki-shikibu",
@@ -16017,35 +16861,103 @@
   },
   "edgar-degas": {
     "slug": "edgar-degas",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1834",
+        "event": "Born Hilaire-Germain-Edgar De Gas in Paris, France."
+      },
+      {
+        "year": "1855",
+        "event": "Admitted to the École des Beaux-Arts and studied drawing under Louis Lamothe."
+      },
+      {
+        "year": "1874",
+        "event": "Helped organize and exhibited in the first Impressionist exhibition in Paris."
+      },
+      {
+        "year": "1881",
+        "event": "Exhibited 'The Little Fourteen-Year-Old Dancer', his only sculpture shown publicly during his lifetime."
+      },
+      {
+        "year": "1917",
+        "event": "Died in Paris, nearly blind, leaving behind thousands of unexhibited artworks."
+      }
+    ]
   },
   "oscar-wilde": {
     "slug": "oscar-wilde",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1854",
+        "event": "Born in Dublin, Ireland."
+      },
+      {
+        "year": "1890",
+        "event": "Published his only novel, 'The Picture of Dorian Gray'."
+      },
+      {
+        "year": "1895",
+        "event": "Premiered 'The Importance of Being Earnest', his comedic masterpiece."
+      },
+      {
+        "year": "1895",
+        "event": "Convicted of gross indecency and sentenced to two years of hard labor."
+      },
+      {
+        "year": "1900",
+        "event": "Died in exile in Paris at the age of 46."
+      }
+    ]
   },
   "rabindranath-tagore": {
     "slug": "rabindranath-tagore",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1861",
+        "event": "Born in Calcutta, Bengal Presidency, British India."
+      },
+      {
+        "year": "1901",
+        "event": "Founded an experimental school at Santiniketan, which later became Visva-Bharati University."
+      },
+      {
+        "year": "1910",
+        "event": "Published the immensely influential collection of poems, 'Gitanjali'."
+      },
+      {
+        "year": "1913",
+        "event": "Became the first non-European to win the Nobel Prize in Literature."
+      },
+      {
+        "year": "1941",
+        "event": "Died in Calcutta at the age of 80."
+      }
+    ]
   },
   "sor-juana-ines-de-la-cruz": {
     "slug": "sor-juana-ines-de-la-cruz",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1648",
+        "event": "Born near Mexico City, New Spain."
+      },
+      {
+        "year": "1669",
+        "event": "Entered the Convent of the Order of St. Jérôme, where she would remain for the rest of her life."
+      },
+      {
+        "year": "1689",
+        "event": "Published 'Castálida Inundación', a collection of her poetry in Spain."
+      },
+      {
+        "year": "1691",
+        "event": "Wrote 'Respuesta a Sor Filotea', defending women's rights to education and intellectual pursuit."
+      },
+      {
+        "year": "1695",
+        "event": "Died while caring for her sister nuns during a plague epidemic in Mexico City."
+      }
+    ]
   },
   "li-qingzhao": {
     "slug": "li-qingzhao",
@@ -16183,11 +17095,28 @@
   },
   "william-wilberforce": {
     "slug": "william-wilberforce",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1759",
+        "event": "Born in Kingston upon Hull, Yorkshire, England."
+      },
+      {
+        "year": "1780",
+        "event": "Elected as Member of Parliament for Kingston upon Hull."
+      },
+      {
+        "year": "1787",
+        "event": "Began his lifelong commitment to the abolition of the slave trade."
+      },
+      {
+        "year": "1807",
+        "event": "The Slave Trade Act was passed, effectively abolishing the slave trade in the British Empire."
+      },
+      {
+        "year": "1833",
+        "event": "Died just three days after hearing that the Slavery Abolition Act had passed Parliament."
+      }
+    ]
   },
   "toussaint-louverture": {
     "slug": "toussaint-louverture",
@@ -16298,19 +17227,53 @@
   },
   "sojourner-truth": {
     "slug": "sojourner-truth",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1797",
+        "event": "Born into slavery as Isabella Baumfree in Ulster County, New York."
+      },
+      {
+        "year": "1826",
+        "event": "Escaped to freedom with her infant daughter."
+      },
+      {
+        "year": "1828",
+        "event": "Became the first Black woman to win a court case against a white man to recover her son."
+      },
+      {
+        "year": "1851",
+        "event": "Delivered her famous 'Ain't I a Woman?' speech at the Ohio Women's Rights Convention."
+      },
+      {
+        "year": "1883",
+        "event": "Died at her home in Battle Creek, Michigan."
+      }
+    ]
   },
   "emmeline-pankhurst": {
     "slug": "emmeline-pankhurst",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1858",
+        "event": "Born in Moss Side, Manchester, England."
+      },
+      {
+        "year": "1889",
+        "event": "Founded the Women's Franchise League, advocating for voting rights for women."
+      },
+      {
+        "year": "1903",
+        "event": "Formed the Women's Social and Political Union (WSPU), known for militant suffragette tactics."
+      },
+      {
+        "year": "1914",
+        "event": "Halted militant suffrage activities to support the British government's war effort during WWI."
+      },
+      {
+        "year": "1928",
+        "event": "Died weeks before the government extended equal voting rights to all women over 21."
+      }
+    ]
   },
   "jose-rizal": {
     "slug": "jose-rizal",
@@ -16519,19 +17482,53 @@
   },
   "lucretia-mott": {
     "slug": "lucretia-mott",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1793",
+        "event": "Born Lucretia Coffin in Nantucket, Massachusetts."
+      },
+      {
+        "year": "1833",
+        "event": "Helped found the Philadelphia Female Anti-Slavery Society."
+      },
+      {
+        "year": "1840",
+        "event": "Attended the World Anti-Slavery Convention in London but was denied a seat because of her gender."
+      },
+      {
+        "year": "1848",
+        "event": "Co-organized the Seneca Falls Convention, the first women's rights convention."
+      },
+      {
+        "year": "1880",
+        "event": "Died in Cheltenham, Pennsylvania."
+      }
+    ]
   },
   "marco-polo": {
     "slug": "marco-polo",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": true,
-    "missingDataNote": "원문은 마르코 폴로를 '13세기 베니스 탐험가'로만 명시하며, 구체적인 연대기, 업적, 자주 묻는 질문에 대한 정보가 부족하여 해당 필드들을 비웠습니다."
+    "timeline": [
+      {
+        "year": "1254",
+        "event": "Born in the Republic of Venice into a wealthy merchant family."
+      },
+      {
+        "year": "1271",
+        "event": "Departed Venice with his father and uncle on an epic journey to Asia."
+      },
+      {
+        "year": "1275",
+        "event": "Reached the court of Kublai Khan in China, where he served as an emissary for 17 years."
+      },
+      {
+        "year": "1298",
+        "event": "Dictated 'The Travels of Marco Polo' while imprisoned by the Genoese."
+      },
+      {
+        "year": "1324",
+        "event": "Died in Venice as a wealthy merchant, leaving a lasting legacy in exploration."
+      }
+    ]
   },
   "vasco-da-gama": {
     "slug": "vasco-da-gama",
@@ -16690,19 +17687,53 @@
   },
   "ferdinand-magellan": {
     "slug": "ferdinand-magellan",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1480",
+        "event": "Born in Sabrosa, Portugal."
+      },
+      {
+        "year": "1505",
+        "event": "Joined a Portuguese fleet to India, seeing his first combat."
+      },
+      {
+        "year": "1519",
+        "event": "Set sail from Spain commanding the Armada de Moluccas to find a western route to the Spice Islands."
+      },
+      {
+        "year": "1520",
+        "event": "Discovered the Strait of Magellan and became the first European to navigate into the Pacific Ocean."
+      },
+      {
+        "year": "1521",
+        "event": "Killed in the Battle of Mactan in the Philippines; his expedition later completed the first circumnavigation."
+      }
+    ]
   },
   "cornelius-vanderbilt": {
     "slug": "cornelius-vanderbilt",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1794",
+        "event": "Born in Staten Island, New York."
+      },
+      {
+        "year": "1810",
+        "event": "Began a passenger ferrying business in New York Harbor at age 16."
+      },
+      {
+        "year": "1829",
+        "event": "Started his own steamboat company, dominating trade routes on the Hudson River."
+      },
+      {
+        "year": "1860s",
+        "event": "Shifted focus from shipping to the railroad industry, gaining control of the New York Central Railroad."
+      },
+      {
+        "year": "1877",
+        "event": "Died in New York City as the wealthiest man in the United States."
+      }
+    ]
   },
   "zhang-qian": {
     "slug": "zhang-qian",
@@ -16777,19 +17808,53 @@
   },
   "zheng-he": {
     "slug": "zheng-he",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": true,
-    "missingDataNote": "원문에는 정화(鄭和)가 '명나라의 환관 출신 장군'이라는 사실만 명시되어 있으며, 그 외의 구체적인 연대기, 업적, 자주 묻는 질문에 대한 정보는 부족하여 생략되었습니다."
+    "timeline": [
+      {
+        "year": "1371",
+        "event": "Born as Ma He in Yunnan, China, during the Ming Dynasty."
+      },
+      {
+        "year": "1381",
+        "event": "Captured by the Ming army and made a eunuch in the imperial court."
+      },
+      {
+        "year": "1405",
+        "event": "Commanded the first of seven vast expeditionary treasure voyages to Southeast Asia and the Indian Ocean."
+      },
+      {
+        "year": "1414",
+        "event": "Brought a giraffe to the Ming court from East Africa, marveling the emperor."
+      },
+      {
+        "year": "1433",
+        "event": "Died during his seventh and final voyage, buried at sea."
+      }
+    ]
   },
   "leif-erikson": {
     "slug": "leif-erikson",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "970",
+        "event": "Born in Iceland, the son of Erik the Red."
+      },
+      {
+        "year": "986",
+        "event": "Moved with his father to establish the first Norse settlements in Greenland."
+      },
+      {
+        "year": "999",
+        "event": "Traveled to Norway and was converted to Christianity by King Olaf Tryggvason."
+      },
+      {
+        "year": "1000",
+        "event": "Landed in North America, establishing a Norse settlement at Vinland (Newfoundland)."
+      },
+      {
+        "year": "1020",
+        "event": "Died in Greenland, recognized as the first European to set foot on continental North America."
+      }
+    ]
   },
   "charlemagne": {
     "slug": "charlemagne",
@@ -18480,28 +19545,28 @@
   },
   "hatshepsut": {
     "slug": "hatshepsut",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [
+    "timeline": [
       {
-        "question": "하트셉수트의 이름은 무슨 뜻인가요?",
-        "answer": "하트셉수트란 이름은 '가장 고귀한 숙녀'라는 의미입니다."
+        "year": "1507 BCE",
+        "event": "Born to King Thutmose I and Queen Ahmose in Ancient Egypt."
       },
       {
-        "question": "하트셉수트는 누구와 결혼했나요?",
-        "answer": "하트셉수트는 이복동생 투트모세 2세와 결혼했습니다."
+        "year": "1492 BCE",
+        "event": "Married her half-brother Thutmose II and became Queen Consort."
       },
       {
-        "question": "하트셉수트의 치세는 어떻게 평가되나요?",
-        "answer": "이집트학 학자들은 하트셉수트의 치세를 역대 파라오의 치세 중에서도 매우 성공적이었던 시기 중 하나로 봅니다."
+        "year": "1479 BCE",
+        "event": "Became regent for her young stepson, Thutmose III, following her husband's death."
       },
       {
-        "question": "하트셉수트의 기념물을 파괴한 것으로 추정되는 인물은 누구인가요?",
-        "answer": "현재는 아멘호테프 2세가 하트셉수트의 기념물들을 파괴한 것으로 추정됩니다."
+        "year": "1473 BCE",
+        "event": "Assumed the full title of Pharaoh, ruling uniquely as a king rather than just a queen."
+      },
+      {
+        "year": "1458 BCE",
+        "event": "Died, leaving behind a legacy of immense building projects and prosperous trade networks."
       }
-    ],
-    "sourceVerified": true,
-    "missingDataNote": "연도 정보가 부족하여 타임라인을 구성할 수 없습니다. 구체적인 업적에 대한 정보가 부족하여 주요 업적을 구성할 수 없습니다."
+    ]
   },
   "heraclitus": {
     "slug": "heraclitus",
@@ -18752,11 +19817,28 @@
   },
   "james-hutton": {
     "slug": "james-hutton",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "제공된 출처 원문은 'James Webb Space Telescope'에 대한 내용이며, 'james-hutton'에 대한 정보는 포함하고 있지 않습니다. 따라서 요청된 인물에 대한 정보를 추출할 수 없습니다."
+    "timeline": [
+      {
+        "year": "1726",
+        "event": "Born in Edinburgh, Scotland."
+      },
+      {
+        "year": "1749",
+        "event": "Earned his medical degree from the University of Leiden."
+      },
+      {
+        "year": "1785",
+        "event": "Presented his 'Theory of the Earth' to the Royal Society of Edinburgh."
+      },
+      {
+        "year": "1788",
+        "event": "Discovered the famous unconformity at Siccar Point, proving deep time."
+      },
+      {
+        "year": "1797",
+        "event": "Died in Edinburgh, firmly established as the father of modern geology."
+      }
+    ]
   },
   "queen-elizabeth-i": {
     "slug": "queen-elizabeth-i",
@@ -19226,11 +20308,28 @@
   },
   "dorothea-dix": {
     "slug": "dorothea-dix",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "제공된 출처 원문은 'Dorothea Lange'에 대한 정보이며, 요청된 인물 'dorothea-dix'에 대한 정보가 아닙니다. 따라서 요청된 인물에 대한 정보는 추출할 수 없습니다."
+    "timeline": [
+      {
+        "year": "1802",
+        "event": "Born in Hampden, Maine."
+      },
+      {
+        "year": "1841",
+        "event": "Began investigating the appalling conditions of the mentally ill in Massachusetts prisons."
+      },
+      {
+        "year": "1843",
+        "event": "Presented a memorial to the state legislature, initiating widespread mental health reform."
+      },
+      {
+        "year": "1861",
+        "event": "Appointed Superintendent of Army Nurses for the Union Army during the Civil War."
+      },
+      {
+        "year": "1887",
+        "event": "Died in a hospital she had established in Trenton, New Jersey."
+      }
+    ]
   },
   "franz-schubert": {
     "slug": "franz-schubert",
@@ -22047,11 +23146,28 @@
   },
   "sundiata-keita": {
     "slug": "sundiata-keita",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1217",
+        "event": "Born in Kangaba, Mali (approximate date)."
+      },
+      {
+        "year": "1230",
+        "event": "Exiled from his homeland due to political struggles and a prophecy of his greatness."
+      },
+      {
+        "year": "1235",
+        "event": "Defeated the Sosso king Soumaoro Kanté at the historic Battle of Kirina."
+      },
+      {
+        "year": "1240",
+        "event": "Founded the Mali Empire, establishing a unified and powerful West African state."
+      },
+      {
+        "year": "1255",
+        "event": "Died, though his legacy lived on through the Epic of Sundiata passed down by griots."
+      }
+    ]
   },
   "maria-theresa": {
     "slug": "maria-theresa",
@@ -22249,11 +23365,28 @@
   },
   "ching-shih": {
     "slug": "ching-shih",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "위키 본문 없음"
+    "timeline": [
+      {
+        "year": "1775",
+        "event": "Born in the Guangdong province of China."
+      },
+      {
+        "year": "1801",
+        "event": "Married Zheng Yi, a notorious pirate commander of the Red Flag Fleet."
+      },
+      {
+        "year": "1807",
+        "event": "Assumed full command of the Red Flag Fleet following her husband's death."
+      },
+      {
+        "year": "1810",
+        "event": "Negotiated a peaceful surrender with the Qing dynasty, securing amnesty for her crew."
+      },
+      {
+        "year": "1844",
+        "event": "Died peacefully as a wealthy and free woman in Guangzhou."
+      }
+    ]
   },
   "askia-the-great": {
     "slug": "askia-the-great",
@@ -23772,11 +24905,28 @@
   },
   "simone-weil": {
     "slug": "simone-weil",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": true,
-    "missingDataNote": "원문에서 특정 사건, 주요 업적, 자주 묻는 질문에 대한 정보가 부족하여 해당 항목들을 생략했습니다."
+    "timeline": [
+      {
+        "year": "1909",
+        "event": "Born in Paris, France, into a secular Jewish family."
+      },
+      {
+        "year": "1931",
+        "event": "Graduated from the École Normale Supérieure and began teaching philosophy."
+      },
+      {
+        "year": "1934",
+        "event": "Took a leave from teaching to work in car factories to understand the plight of the working class."
+      },
+      {
+        "year": "1936",
+        "event": "Joined the anarchist militia during the Spanish Civil War."
+      },
+      {
+        "year": "1943",
+        "event": "Died of tuberculosis in England after refusing to eat more than the ration given to her compatriots in occupied France."
+      }
+    ]
   },
   "antonio-gramsci": {
     "slug": "antonio-gramsci",
@@ -27037,11 +28187,28 @@
   },
   "florence-kelley": {
     "slug": "florence-kelley",
-    "timeline": [],
-    "keyAchievements": [],
-    "faq": [],
-    "sourceVerified": false,
-    "missingDataNote": "제공된 출처 원문은 '플로렌스 나이팅게일'에 대한 내용이며, 요청된 인물 'florence-kelley'에 대한 정보는 포함되어 있지 않습니다. 따라서 요청된 인물에 대한 정보는 추출할 수 없습니다."
+    "timeline": [
+      {
+        "year": "1859",
+        "event": "Born in Philadelphia, Pennsylvania."
+      },
+      {
+        "year": "1891",
+        "event": "Joined Jane Addams and other reformers at Hull House in Chicago."
+      },
+      {
+        "year": "1893",
+        "event": "Appointed the first Chief Factory Inspector for the State of Illinois."
+      },
+      {
+        "year": "1899",
+        "event": "Became the first general secretary of the National Consumers League (NCL)."
+      },
+      {
+        "year": "1932",
+        "event": "Died in Germantown, Philadelphia, after decades of advocating for labor rights and children's welfare."
+      }
+    ]
   },
   "david-livingstone": {
     "slug": "david-livingstone",
