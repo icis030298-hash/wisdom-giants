@@ -191,6 +191,16 @@ export function BlogListClient() {
         })}
       </div>
 
+      {/* CEO Column Placeholder */}
+      <div className="mb-12 glass p-8 rounded-2xl border border-amber-500/30 bg-amber-500/5 shadow-lg">
+        <h2 className="text-2xl font-serif font-bold text-amber-400 mb-4">
+          {locale === 'ko' ? '운영자의 편지' : 'Letter from the Creator'}
+        </h2>
+        <div className="prose prose-invert max-w-none text-slate-300 italic">
+          <p>[1인칭 칼럼 영역입니다. 대표님의 글이 여기에 고정 노출됩니다.]</p>
+        </div>
+      </div>
+
       {/* Grid of Blog Cards */}
       {sortedPosts.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">

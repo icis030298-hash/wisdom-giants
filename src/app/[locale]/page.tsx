@@ -1,3 +1,4 @@
+import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
 import { FeaturedGiants } from "@/components/featured-giants"
@@ -15,113 +16,8 @@ import finalNarratives from "@/data/final-narratives.json";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return {
-    alternates: {
-      canonical: locale === 'ko' ? '/' : `/${locale}`,
-      languages: {
-        'ko': '/',
-        'en': '/en',
-        'de': '/de',
-        'ja': '/ja',
-        'es': '/es',
-        'fr': '/fr',
-        'it': '/it',
-        'pt': '/pt',
-        'x-default': '/'
-      },
-    },
-  };
-}
-
-const blogTranslations: Record<string, Record<string, string>> = {
-  ko: {
-    sectionTitle: "최신 블로그 포스트",
-    sectionSubtitle: "역사 속 위인들의 지혜와 삶을 깊이 있는 이야기로 만나보세요.",
-    viewAll: "블로그 전체 보기",
-    readTime: "분 분량",
-    read: "읽기",
-    leadership: "리더십",
-    philosophy: "철학",
-    creativity: "창의성",
-    wisdom: "지혜"
-  },
-  en: {
-    sectionTitle: "Latest from the Blog",
-    sectionSubtitle: "Discover profound wisdom and life stories from historical giants.",
-    viewAll: "View All Posts",
-    readTime: "min read",
-    read: "Read",
-    leadership: "Leadership",
-    philosophy: "Philosophy",
-    creativity: "Creativity",
-    wisdom: "Wisdom"
-  },
-  de: {
-    sectionTitle: "Neuestes aus dem Blog",
-    sectionSubtitle: "Entdecken Sie tiefe Weisheiten und Lebensgeschichten historischer Riesen.",
-    viewAll: "Alle Beiträge anzeigen",
-    readTime: "Min. Lesung",
-    read: "Lesen",
-    leadership: "Führung",
-    philosophy: "Philosophie",
-    creativity: "Kreativität",
-    wisdom: "Weisheit"
-  },
-  ja: {
-    sectionTitle: "最新のブログ記事",
-    sectionSubtitle: "歴史上の偉人たちの深い知恵と人生の物語を発見してください。",
-    viewAll: "すべての記事を表示",
-    readTime: "分 読了",
-    read: "読む",
-    leadership: "リーダーシップ",
-    philosophy: "哲学",
-    creativity: "創造性",
-    wisdom: "知恵"
-  },
-  es: {
-    sectionTitle: "Últimas del Blog",
-    sectionSubtitle: "Descubra la profunda sabiduría e historias de vida de gigantes históricos.",
-    viewAll: "Ver todo el blog",
-    readTime: "min de lectura",
-    read: "Leer",
-    leadership: "Liderazgo",
-    philosophy: "Filosofía",
-    creativity: "Creatividad",
-    wisdom: "Sabiduría"
-  },
-  fr: {
-    sectionTitle: "Derniers articles du Blog",
-    sectionSubtitle: "Découvrez la sagesse profonde et les récits de vie des géants de l'histoire.",
-    viewAll: "Voir tous les articles",
-    readTime: "min de lecture",
-    read: "Lire",
-    leadership: "Leadership",
-    philosophy: "Philosophie",
-    creativity: "Créativité",
-    wisdom: "Sagesse"
-  },
-  it: {
-    sectionTitle: "Ultimi articoli dal Blog",
-    sectionSubtitle: "Scopri la profonda saggezza e le storie di vita dei giganti storici.",
-    viewAll: "Vedi tutto il blog",
-    readTime: "min di lettura",
-    read: "Leggi",
-    leadership: "Leadership",
-    philosophy: "Filosofia",
-    creativity: "Creatività",
-    wisdom: "Saggezza"
-  },
-  pt: {
-    sectionTitle: "Últimos do Blog",
-    sectionSubtitle: "Descubra a profunda sabedoria e as histórias de vida dos gigantes históricos.",
-    viewAll: "Ver todos os posts",
-    readTime: "min de leitura",
-    read: "Ler",
-    leadership: "Liderança",
-    philosophy: "Filosofia",
-    creativity: "Criatividade",
-    wisdom: "Sabedoria"
-  }
-};
+    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
+    alternates: buildSEOAlternates('/', locale),;
 
 
 

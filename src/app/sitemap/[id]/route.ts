@@ -1,13 +1,18 @@
 import { NextResponse } from 'next/server';
 import { giants } from '@/lib/giants-data';
 import { blogPosts } from '@/data/blog-posts';
-import { LOCALES, buildHreflang } from '@/lib/locales';
+import { LOCALES } from '@/lib/locales';
+import { INDEXED_LOCALES } from '@/config/locale-status';
 
 const BASE_URL = 'https://www.giantswisdom.com';
 const GIANTS_PER_CHUNK = 80;
 
 function buildAlternates(path: string) {
-  return buildHreflang(BASE_URL, path);
+  const languages: Record<string, string> = { 'x-default': `${BASE_URL}/en${path}` };
+  for (const locale of INDEXED_LOCALES) {
+    languages[locale] = `${BASE_URL}/${locale}${path}`;
+  }
+  return languages;
 }
 
 function generateXml(entries: any[]) {
@@ -47,19 +52,19 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
       { path: '/terms' },
     ];
 
-    entries = LOCALES.flatMap((locale) =>
+    entries = INDEXED_LOCALES.flatMap((locale) =>
       staticPages.map((page) => ({
         url: `${BASE_URL}/${locale}${page.path}`,
         alternates: buildAlternates(page.path),
       }))
     );
   } else if (id === 'blog') {
-    const blogListEntries = LOCALES.map((locale) => ({
+    const blogListEntries = INDEXED_LOCALES.map((locale) => ({
       url: `${BASE_URL}/${locale}/blog`,
       alternates: buildAlternates('/blog'),
     }));
 
-    const blogPostEntries = LOCALES.flatMap((locale) =>
+    const blogPostEntries = INDEXED_LOCALES.flatMap((locale) =>
       blogPosts.map((post) => ({
         url: `${BASE_URL}/${locale}/blog/${post.slug}`,
         alternates: buildAlternates(`/blog/${post.slug}`),
@@ -74,7 +79,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
       const end = start + GIANTS_PER_CHUNK;
       const chunkGiants = giants.slice(start, end);
 
-      entries = LOCALES.flatMap((locale) =>
+      entries = INDEXED_LOCALES.flatMap((locale) =>
         chunkGiants.map((giant) => ({
           url: `${BASE_URL}/${locale}/giant/${giant.slug}`,
           alternates: buildAlternates(`/giant/${giant.slug}`),

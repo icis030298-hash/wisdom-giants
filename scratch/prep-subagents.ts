@@ -4,10 +4,17 @@ import path from 'path';
 const giants = JSON.parse(fs.readFileSync('scratch/mbti-list.json', 'utf8'));
 const imagesDir = path.resolve('public/images/giants');
 
-const missingGiants = giants.filter(g => 
-  !fs.existsSync(path.join(imagesDir, `${g.slug}.png`)) && 
-  !fs.existsSync(path.join(imagesDir, `${g.slug}.jpg`))
-);
+const missingGiants = giants.filter(g => {
+  const pngPath = path.join(imagesDir, `${g.slug}.png`);
+  const jpgPath = path.join(imagesDir, `${g.slug}.jpg`);
+  
+  if (!fs.existsSync(pngPath) && !fs.existsSync(jpgPath)) return true;
+  
+  if (fs.existsSync(pngPath) && fs.statSync(pngPath).size === 309920) return true;
+  if (fs.existsSync(jpgPath) && fs.statSync(jpgPath).size === 309920) return true;
+  
+  return false;
+});
 
 console.log(`Found ${missingGiants.length} missing images.`);
 

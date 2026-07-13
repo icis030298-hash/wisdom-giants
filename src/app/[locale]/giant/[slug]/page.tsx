@@ -1,3 +1,4 @@
+import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { giants } from "@/lib/giants-data";
@@ -31,7 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const giant = giants.find(g => g.slug === slug);
   
-  if (!giant) return {};
+  if (!giant) return {
+    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },};
 
   const messages = await getMessages({ locale });
   const giantData = (messages.Giants as any)[giant.slug] || {
@@ -92,31 +94,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale === 'ko' ? "역사 위인" : locale === 'de' ? "Historische Persönlichkeit" : locale === 'ja' ? "歴史上の偉人" : locale === 'it' ? "Figura Storica" : locale === 'pt' ? "Figura Histórica" : "Historical Figure",
       "Giants Wisdom"
     ],
-    alternates: {
-      canonical: `${BASE_URL}/${locale}/giant/${slug}`,
-      languages: hreflangLanguages,
-    },
-    openGraph: {
-      title: `${giantData.name} - Giants Wisdom`,
-      description: ogDesc,
-      url: `${BASE_URL}/${locale}/giant/${slug}`,
-      type: 'website',
-      images: [{
-        url: absoluteImageUrl,
-        width: 800,
-        height: 800,
-        alt: `${giantData.name} - Giants Wisdom`
-      }],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      site: '@GiantsWisdom',
-      creator: '@GiantsWisdom',
-      images: [absoluteImageUrl],
-      title,
-      description,
-    }
-  };
+    alternates: buildSEOAlternates(`/giant/${slug}`, locale),;
 }
 
 

@@ -1,0 +1,93 @@
+Your task is to generate illustrations for the following giants using the `generate_image` tool.
+
+Giant: 아흐메드 제브데트 파샤
+Slug: ahmed-cevdet-pasha
+
+Giant: 알라지
+Slug: rhazes-al-razi
+
+Giant: 알마문
+Slug: al-mamun
+
+Giant: 알마수디
+Slug: al-masudi
+
+Giant: 알바타니
+Slug: al-battani
+
+Giant: 알자히즈
+Slug: al-jahiz
+
+Giant: 알킨디
+Slug: al-kindi
+
+Giant: 알타바리
+Slug: al-tabari
+
+Giant: 알프 아르슬란
+Slug: alp-arslan
+
+Giant: 에블리야 첼레비
+Slug: evliya-celebi
+
+Giant: 이브라힘 뮈테페리카
+Slug: ibrahim-muteferrika
+
+Giant: 이브라힘 파샤
+Slug: ibrahim-pasha-of-egypt
+
+Giant: 이븐 아라비
+Slug: ibn-arabi
+
+Giant: 이스마일 1세
+Slug: ismail-i
+
+Giant: 자말 알딘 알아프가니
+Slug: jamal-al-din-al-afghani
+
+Giant: 자비르 이븐 하이얀
+Slug: jabir-ibn-hayyan
+
+Giant: 지야 괴칼프
+Slug: ziya-gokalp
+
+Giant: 카림 칸 잔드
+Slug: karim-khan-zand
+
+Giant: 카팁 첼레비
+Slug: katip-celebi
+
+Giant: 타비트 이븐 쿠라
+Slug: thabit-ibn-qurra
+
+Giant: 타히리
+Slug: tahirih
+
+Giant: 푸줄리
+Slug: fuzuli
+
+Giant: 피르다우시
+Slug: ferdowsi
+
+Giant: 피리 레이스
+Slug: piri-reis
+
+Giant: 하페즈
+Slug: hafez
+
+Giant: 할리데 에디프 아드바르
+Slug: halide-edib-adivar
+
+For EACH giant above, follow these exact steps:
+1. Call the `generate_image` tool with this EXACT prompt:
+"Generate a clean, modern digital illustration of a historical figure. MANDATORY AESTHETIC GUIDELINES (Style Matching): Style: Strict Flat Vector Illustration, Corporate Art style. Reference Image: The style, composition, and color blocking MUST strictly match the provided reference images of other historical figures. Clean, simple shapes with opaque colors. Line Work: Outline-less, extremely clean edges. NO painterly blending or soft brushstrokes. Color blocks must be solid and separate. Color Palette: High-contrast primary and secondary colors. Avoid soft pastels or complex color mixing. Lighting & Depth: Flat, even lighting with no complex shadows or dramatic highlights. Minimal simple, sharp highlights for very subtle depth. Character Specification: Subject: A stylized portrait of [GIANT_NAME]. Features: Must be recognizable features, simplified into a clean, geometric or organic shape. Simplified garments into clean blocks of solid color. Composition: Central three-quarter view. Do NOT include any text, letters, or words in the image."
+
+CRITICAL: You MUST replace [GIANT_NAME] with the Giant's name in the prompt.
+CRITICAL: You MUST provide the following two paths in the `ImagePaths` parameter of the `generate_image` tool call to ensure the style matches exactly:
+- "c:\Users\natey\Desktop\wisdom-giants\public\images\giants\king-sejong.jpg"
+- "c:\Users\natey\Desktop\wisdom-giants\public\images\giants\napoleon.jpg"
+Also, specify a distinct `ImageName` for each. You can invoke multiple generate_image tool calls concurrently in a single response to speed things up!
+
+2. After generating the images, use the `run_command` tool to copy the generated artifacts to `c:\Users\natey\Desktop\wisdom-giants\public\images\giants\[slug].jpg`. Use `cmd /c copy "source" "destination"`. Wait for the copy commands to succeed.
+
+Process all giants in your list. You can batch your tool calls. When completely finished with all of them, send me a message confirming completion.

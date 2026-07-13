@@ -1,0 +1,105 @@
+Your task is to generate illustrations for the following giants using the `generate_image` tool.
+
+Giant: 블라디미르 베르나츠키
+Slug: vladimir-vernadsky
+
+Giant: 세르게이 코롤료프
+Slug: sergei-korolev
+
+Giant: 세묜 데즈뇨프
+Slug: semyon-dezhnev
+
+Giant: 쇼타 루스타벨리
+Slug: shota-rustaveli
+
+Giant: 수학자 레오
+Slug: leo-the-mathematician
+
+Giant: 아바이 쿠난바울르
+Slug: abai-qunanbaiuly
+
+Giant: 아바쿰
+Slug: avvakum
+
+Giant: 아흐마드 야사위
+Slug: ahmad-yasawi
+
+Giant: 안나 콤네네
+Slug: anna-komnene
+
+Giant: 안드레이 루블료프
+Slug: andrei-rublev
+
+Giant: 알렉산드르 넵스키
+Slug: alexander-nevsky
+
+Giant: 알렉시오스 1세 콤네노스
+Slug: alexios-i-komnenos
+
+Giant: 알리셰르 나보이
+Slug: alisher-navoi
+
+Giant: 알부카리
+Slug: muhammad-al-bukhari
+
+Giant: 알파르가니
+Slug: al-farghani
+
+Giant: 야로슬라프 1세
+Slug: yaroslav-the-wise
+
+Giant: 예르마크 티모페예비치
+Slug: yermak-timofeyevich
+
+Giant: 요한 크리소스토모
+Slug: john-chrysostom
+
+Giant: 울루그 베그
+Slug: ulugh-beg
+
+Giant: 이반 3세
+Slug: ivan-iii-the-great
+
+Giant: 이반 마제파
+Slug: ivan-mazepa
+
+Giant: 이반 프랑코
+Slug: ivan-franko
+
+Giant: 이스마일 가스프린스키
+Slug: ismail-gasprinsky
+
+Giant: 잠시드 알카시
+Slug: jamshid-al-kashi
+
+Giant: 초칸 발리하노프
+Slug: shoqan-walikhanov
+
+Giant: 카시아
+Slug: kassia
+
+Giant: 콘스탄티노스 11세 팔라이올로고스
+Slug: constantine-xi-palaiologos
+
+Giant: 키예프의 안나
+Slug: anne-of-kyiv
+
+Giant: 키예프의 올가
+Slug: olga-of-kyiv
+
+Giant: 타라스 셰브첸코
+Slug: taras-shevchenko
+
+For EACH giant above, follow these exact steps:
+1. Call the `generate_image` tool with this EXACT prompt:
+"Generate a clean, modern digital illustration of a historical figure. MANDATORY AESTHETIC GUIDELINES (Style Matching): Style: Strict Flat Vector Illustration, Corporate Art style. Reference Image: The style, composition, and color blocking MUST strictly match the provided reference images of other historical figures. Clean, simple shapes with opaque colors. Line Work: Outline-less, extremely clean edges. NO painterly blending or soft brushstrokes. Color blocks must be solid and separate. Color Palette: High-contrast primary and secondary colors. Avoid soft pastels or complex color mixing. Lighting & Depth: Flat, even lighting with no complex shadows or dramatic highlights. Minimal simple, sharp highlights for very subtle depth. Character Specification: Subject: A stylized portrait of [GIANT_NAME]. Features: Must be recognizable features, simplified into a clean, geometric or organic shape. Simplified garments into clean blocks of solid color. Composition: Central three-quarter view. Do NOT include any text, letters, or words in the image."
+
+CRITICAL: You MUST replace [GIANT_NAME] with the Giant's name in the prompt.
+CRITICAL: You MUST provide the following two paths in the `ImagePaths` parameter of the `generate_image` tool call to ensure the style matches exactly:
+- "c:\Users\natey\Desktop\wisdom-giants\public\images\giants\king-sejong.jpg"
+- "c:\Users\natey\Desktop\wisdom-giants\public\images\giants\napoleon.jpg"
+Also, specify a distinct `ImageName` for each. You can invoke multiple generate_image tool calls concurrently in a single response to speed things up!
+
+2. After generating the images, use the `run_command` tool to copy the generated artifacts to `c:\Users\natey\Desktop\wisdom-giants\public\images\giants\[slug].jpg`. Use `cmd /c copy "source" "destination"`. Wait for the copy commands to succeed.
+
+Process all giants in your list. You can batch your tool calls. When completely finished with all of them, send me a message confirming completion.

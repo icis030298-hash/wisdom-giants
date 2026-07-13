@@ -1,3 +1,4 @@
+import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { Metadata } from 'next'
 import { BlogListClient } from '@/components/blog-list-client'
 import { setRequestLocale } from 'next-intl/server'
@@ -46,26 +47,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const hreflangLanguages = buildHreflang(BASE_URL, '/blog')
 
   return {
+    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     title,
     description,
-    alternates: {
-      canonical: `${BASE_URL}/${locale}/blog`,
-      languages: hreflangLanguages,
-    },
-    openGraph: {
-      title,
-      description,
-      url: `${BASE_URL}/${locale}/blog`,
-      type: 'website',
-      images: [{
-        url: `${BASE_URL}/images/og-image.png`,
-        width: 1200,
-        height: 630,
-        alt: title
-      }]
-    }
-  }
-}
+    alternates: buildSEOAlternates('/blog', locale),
 
 export default async function BlogListPage({ params }: Props) {
   const { locale } = await params

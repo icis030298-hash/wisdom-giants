@@ -1,3 +1,4 @@
+import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { ConsultClient } from "@/components/consult-client"
 import { Navigation } from "@/components/navigation"
 import { getTranslations } from "next-intl/server"
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     en: "History's greatest minds faced the same struggles you do today."
   }
   return {
+    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     title: titles[locale] || titles.en,
     description: descriptionMap[locale] || '',
     alternates: {

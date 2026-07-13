@@ -1,0 +1,105 @@
+Your task is to generate illustrations for the following giants using the `generate_image` tool.
+
+Giant: 타마르
+Slug: tamar-of-georgia
+
+Giant: 테오도라
+Slug: theodora
+
+Giant: 테오파네스
+Slug: theophanes-the-greek
+
+Giant: 토뉴쿠크
+Slug: tonyukuk
+
+Giant: 페트로 모힐라
+Slug: petro-mohyla
+
+Giant: 프로코피우스
+Slug: procopius
+
+Giant: 헤라클리우스
+Slug: heraclius
+
+Giant: 흐리호리 스코보로다
+Slug: hryhorii-skovoroda
+
+Giant: 거트루드 벨
+Slug: gertrude-bell
+
+Giant: 나디르 샤
+Slug: nader-shah
+
+Giant: 나므크 케말
+Slug: namik-kemal
+
+Giant: 나시르 알딘 알투시
+Slug: nasir-al-din-al-tusi
+
+Giant: 네부카드네자르 2세
+Slug: nebuchadnezzar-ii
+
+Giant: 니잠 알물크
+Slug: nizam-al-mulk
+
+Giant: 라시드 리다
+Slug: rashid-rida
+
+Giant: 레자 샤 팔라비
+Slug: reza-shah
+
+Giant: 마니
+Slug: mani
+
+Giant: 마흐무트 2세
+Slug: mahmud-ii
+
+Giant: 무함마드 알리 파샤
+Slug: muhammad-ali-of-egypt
+
+Giant: 무함마드 압두
+Slug: muhammad-abduh
+
+Giant: 바디 알자만 알하마다니
+Slug: badi-al-zaman-al-hamadani
+
+Giant: 바디우자만 사이드 누르시
+Slug: bediuzzaman-said-nursi
+
+Giant: 바이바르스
+Slug: baybars
+
+Giant: 사디 시라지
+Slug: saadi-shirazi
+
+Giant: 사르곤
+Slug: sargon-of-akkad
+
+Giant: 샤푸르 1세
+Slug: shapur-i
+
+Giant: 셀림 3세
+Slug: selim-iii
+
+Giant: 아바스 1세
+Slug: abbas-i-of-persia
+
+Giant: 아슈르바니팔
+Slug: ashurbanipal
+
+Giant: 아흐메드 샤키
+Slug: ahmed-shawqi
+
+For EACH giant above, follow these exact steps:
+1. Call the `generate_image` tool with this EXACT prompt:
+"Generate a clean, modern digital illustration of a historical figure. MANDATORY AESTHETIC GUIDELINES (Style Matching): Style: Strict Flat Vector Illustration, Corporate Art style. Reference Image: The style, composition, and color blocking MUST strictly match the provided reference images of other historical figures. Clean, simple shapes with opaque colors. Line Work: Outline-less, extremely clean edges. NO painterly blending or soft brushstrokes. Color blocks must be solid and separate. Color Palette: High-contrast primary and secondary colors. Avoid soft pastels or complex color mixing. Lighting & Depth: Flat, even lighting with no complex shadows or dramatic highlights. Minimal simple, sharp highlights for very subtle depth. Character Specification: Subject: A stylized portrait of [GIANT_NAME]. Features: Must be recognizable features, simplified into a clean, geometric or organic shape. Simplified garments into clean blocks of solid color. Composition: Central three-quarter view. Do NOT include any text, letters, or words in the image."
+
+CRITICAL: You MUST replace [GIANT_NAME] with the Giant's name in the prompt.
+CRITICAL: You MUST provide the following two paths in the `ImagePaths` parameter of the `generate_image` tool call to ensure the style matches exactly:
+- "c:\Users\natey\Desktop\wisdom-giants\public\images\giants\king-sejong.jpg"
+- "c:\Users\natey\Desktop\wisdom-giants\public\images\giants\napoleon.jpg"
+Also, specify a distinct `ImageName` for each. You can invoke multiple generate_image tool calls concurrently in a single response to speed things up!
+
+2. After generating the images, use the `run_command` tool to copy the generated artifacts to `c:\Users\natey\Desktop\wisdom-giants\public\images\giants\[slug].jpg`. Use `cmd /c copy "source" "destination"`. Wait for the copy commands to succeed.
+
+Process all giants in your list. You can batch your tool calls. When completely finished with all of them, send me a message confirming completion.

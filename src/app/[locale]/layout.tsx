@@ -1,3 +1,4 @@
+import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Nanum_Myeongjo, Noto_Sans_KR, Noto_Sans_Devanagari } from "next/font/google";
 import Script from "next/script";
@@ -58,25 +59,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const keywords = keywordsMap[locale] || keywordsMap['en'];
 
   return {
+    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     metadataBase: new URL('https://www.giantswisdom.com'),
-    alternates: {
-      canonical: locale === 'ko' ? '/' : `/${locale}`,
-      languages: {
-        'ko-KR': '/ko',
-        'en-US': '/en',
-        'de-DE': '/de',
-        'ja-JP': '/ja',
-        'es-ES': '/es',
-        'fr-FR': '/fr',
-        'it-IT': '/it',
-        'pt-BR': '/pt',
-        'ar-SA': '/ar',
-        'hi-IN': '/hi',
-        'ru-RU': '/ru',
-        'zh-CN': '/zh',
-        'x-default': '/'
-      }
-    },
+    alternates: buildSEOAlternates('/', locale),
     title: {
       default: t('metaTitle'),
       template: `%s | ${t('mainTitle')}`

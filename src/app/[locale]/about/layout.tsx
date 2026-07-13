@@ -1,3 +1,4 @@
+import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import type { Metadata } from 'next'
 import { buildHreflang } from '@/lib/locales'
 
@@ -37,19 +38,10 @@ export async function generateMetadata({
   const hreflangLanguages = buildHreflang(BASE_URL, '/about');
 
   return {
+    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     title,
     description,
-    alternates: {
-      canonical: `${BASE_URL}/${locale}/about`,
-      languages: hreflangLanguages,
-    },
-    openGraph: {
-      title,
-      description,
-      url: `${BASE_URL}/${locale}/about`,
-    },
-  }
-}
+    alternates: buildSEOAlternates('/about', locale),
 
 export default function AboutLayout({
   children,

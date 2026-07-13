@@ -1,3 +1,4 @@
+import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { setRequestLocale } from 'next-intl/server';
 import { Navigation } from "@/components/navigation";
 import { DebateRoomClient } from "@/components/debate-room-client";
@@ -47,6 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const ogImageUrl = `${BASE_URL}/images/debate-og.png`; // Fallback image or a custom debate OG banner if exists
 
   return {
+    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     title,
     description,
     keywords: [
@@ -56,29 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale === 'ko' ? "아리스토텔레스 니체 토론" : "Aristotle vs Nietzsche",
       "Giants Wisdom"
     ],
-    alternates: {
-      canonical: `${BASE_URL}/${locale}/debate`,
-      languages: hreflangLanguages,
-    },
-    openGraph: {
-      title,
-      description,
-      url: `${BASE_URL}/${locale}/debate`,
-      type: 'website',
-      images: [{
-        url: ogImageUrl,
-        width: 1200,
-        height: 630,
-        alt: title
-      }],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      images: [ogImageUrl],
-      title,
-      description,
-    }
-  };
+    alternates: buildSEOAlternates('/debate', locale),;
 }
 
 export default async function DebatePage({ params }: Props) {
