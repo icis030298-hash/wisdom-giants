@@ -370,6 +370,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : `${BASE_URL}/images/giants/cleopatra.png`
 
   return {
+    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     title,
     description,
     alternates: buildSEOAlternates(`/blog/${slug}`, locale),
