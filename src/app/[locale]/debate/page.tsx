@@ -58,7 +58,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale === 'ko' ? "아리스토텔레스 니체 토론" : "Aristotle vs Nietzsche",
       "Giants Wisdom"
     ],
-    alternates: buildSEOAlternates('/debate', locale),;
+    alternates: buildSEOAlternates('/debate', locale),
+  };
 }
 
 export default async function DebatePage({ params }: Props) {

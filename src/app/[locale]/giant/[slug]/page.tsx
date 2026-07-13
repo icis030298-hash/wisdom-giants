@@ -94,7 +94,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale === 'ko' ? "역사 위인" : locale === 'de' ? "Historische Persönlichkeit" : locale === 'ja' ? "歴史上の偉人" : locale === 'it' ? "Figura Storica" : locale === 'pt' ? "Figura Histórica" : "Historical Figure",
       "Giants Wisdom"
     ],
-    alternates: buildSEOAlternates(`/giant/${slug}`, locale),;
+    alternates: buildSEOAlternates(`/giant/${slug}`, locale),
+  };
 }
 
 

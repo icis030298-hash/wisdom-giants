@@ -17,7 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   return {
     robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
-    alternates: buildSEOAlternates('/', locale),;
+    alternates: buildSEOAlternates('/', locale),
+  };
 
 
 
