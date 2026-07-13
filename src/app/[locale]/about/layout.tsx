@@ -42,6 +42,9 @@ export async function generateMetadata({
     title,
     description,
     alternates: buildSEOAlternates('/about', locale),
+  };
+}
+
 
 export default function AboutLayout({
   children,

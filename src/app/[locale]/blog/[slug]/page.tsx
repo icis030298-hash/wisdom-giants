@@ -373,6 +373,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: buildSEOAlternates(`/blog/${slug}`, locale),
+  };
+}
 
 // Helper to parse inline markdown: **bold**, *italic*, [link](url)
 function renderInlineMarkdown(text: string, keyPrefix: string = 'inline'): React.ReactNode[] {

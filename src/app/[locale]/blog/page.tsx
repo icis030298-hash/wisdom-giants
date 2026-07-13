@@ -51,6 +51,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: buildSEOAlternates('/blog', locale),
+  };
+}
+
 
 export default async function BlogListPage({ params }: Props) {
   const { locale } = await params

@@ -23,8 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     title: titles[locale] || titles.en,
     description: descriptionMap[locale] || '',
-    alternates: buildSEOAlternates('/consult', locale)/consult`
-    }
+    alternates: buildSEOAlternates('/consult', locale)
   }
 }
 
