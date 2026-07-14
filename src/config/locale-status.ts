@@ -13,7 +13,7 @@ export const LOCALE_STATUS = {
   ru: { index: false },
   hi: { index: false },
   id: { index: true },
-  pl: { index: false },
+  pl: { index: true },
   sw: { index: false },
   th: { index: false },
   tr: { index: false },
