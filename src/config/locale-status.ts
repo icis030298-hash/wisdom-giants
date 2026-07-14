@@ -5,7 +5,7 @@ export const LOCALE_STATUS = {
   es: { index: true },
   ja: { index: false },
   fr: { index: false },
-  it: { index: false },
+  it: { index: true },
   pt: { index: false },
   ar: { index: false },
   zh: { index: false },
