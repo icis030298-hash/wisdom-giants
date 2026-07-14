@@ -8,7 +8,7 @@ export const LOCALE_STATUS = {
   it: { index: true },
   pt: { index: true },
   ar: { index: true },
-  zh: { index: false },
+  zh: { index: true },
   nl: { index: true },
   ru: { index: true },
   hi: { index: false },
