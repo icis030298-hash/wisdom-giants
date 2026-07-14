@@ -7,14 +7,14 @@ export const LOCALE_STATUS = {
   fr: { index: true },
   it: { index: true },
   pt: { index: true },
-  ar: { index: false },
-  zh: { index: false },
-  nl: { index: false },
-  ru: { index: false },
+  ar: { index: true },
+  zh: { index: true },
+  nl: { index: true },
+  ru: { index: true },
   hi: { index: false },
   id: { index: true },
   pl: { index: true },
-  sw: { index: false },
+  sw: { index: true },
   th: { index: false },
   tr: { index: false },
   uk: { index: false },
@@ -22,7 +22,7 @@ export const LOCALE_STATUS = {
   el: { index: false },
   fa: { index: false },
   he: { index: false },
-  ha: { index: false },
+  ha: { index: true },
 } as const;
 
 export type Locale = keyof typeof LOCALE_STATUS;
