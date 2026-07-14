@@ -20,7 +20,7 @@ export const LOCALE_STATUS = {
   uk: { index: false },
   vi: { index: false },
   el: { index: false },
-  fa: { index: false },
+  fa: { index: true },
   he: { index: false },
   ha: { index: true },
 } as const;
