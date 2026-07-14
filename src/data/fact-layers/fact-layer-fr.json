@@ -7825,7 +7825,28 @@
   },
   "buddha": {
     "slug": "buddha",
-    "timeline": [],
+    "timeline": [
+      {
+        "year": "c. 563 BC",
+        "event": "Né sous le nom de Siddhartha Gautama à Lumbini (Népal actuel) dans une famille royale."
+      },
+      {
+        "year": "c. 534 BC",
+        "event": "Il a renoncé à sa vie princière, abandonnant sa famille et son royaume pour chercher l'illumination spirituelle."
+      },
+      {
+        "year": "c. 528 BC",
+        "event": "Il a atteint l'illumination suprême sous l'arbre de la Bodhi à Bodh Gaya."
+      },
+      {
+        "year": "c. 528 BC",
+        "event": "Il a prononcé son premier sermon au Parc des Cerfs à Sarnath, mettant en mouvement la Roue du Dharma."
+      },
+      {
+        "year": "c. 483 BC",
+        "event": "Il est décédé (a atteint le Mahaparinirvana) à Kushinagar à l'âge de 80 ans."
+      }
+    ],
     "keyAchievements": [
       {
         "title": "Prédication de l'idée de devenir Bouddha (Seongbul)",
@@ -7846,8 +7867,7 @@
         "answer": "Le mot coréen « Bucheo » provient du mot sanskrit « Buddha » (붓다), introduit via les caractères chinois (hanja) 佛體 (Bulche)."
       }
     ],
-    "sourceVerified": true,
-    "missingDataNote": "원문에 연도 및 구체적인 사건에 대한 정보가 없어 타임라인을 구성할 수 없습니다. 석가모니 부처 외 다른 부처들의 구체적인 업적에 대한 정보가 원문에 없습니다."
+    "sourceVerified": true
   },
   "friedrich-nietzsche": {
     "slug": "friedrich-nietzsche",
@@ -18637,76 +18657,76 @@
     "slug": "ramesses-ii",
     "timeline": [
       {
-        "year": "1313 av. J.-C.",
-        "event": "Naissance de Ramsès II."
+        "year": "1313 BC",
+        "event": "Né comme fils de Séthi Ier et de la reine Touya"
       },
       {
-        "year": "1279 av. J.-C.",
-        "event": "Accession au trône de Ramsès II."
+        "year": "1279 BC",
+        "event": "Nommé commandant militaire à l'âge de dix ans et a assumé le rôle de corégent"
       },
       {
-        "year": "1274 av. J.-C.",
-        "event": "Bataille de Qadesh contre le roi hittite Muwatalli II."
+        "year": "1274 BC",
+        "event": "Couronné Pharaon à l'âge de 24 (ou 25) ans"
       },
       {
-        "year": "1268 av. J.-C.",
-        "event": "Signature d'un traité de paix historique entre l'Égypte et le Hatti."
+        "year": "1268 BC",
+        "event": "A construit la nouvelle capitale Pi-Ramsès dans la région du delta du Nil"
       },
       {
-        "year": "1213 av. J.-C.",
-        "event": "Décès de Ramsès II."
+        "year": "1213 BC",
+        "event": "La bataille de Qadesh a eu lieu"
       }
     ],
     "keyAchievements": [
       {
-        "title": "Expansion de l'empire égyptien",
-        "description": "Marie Stuart, reine d'Écosse, épouse Lord Darnley."
+        "title": "A construit des monuments massifs",
+        "description": "A construit les monuments les plus grandioses de l'histoire égyptienne, dont les temples d'Abou Simbel et le Ramesseum."
       },
       {
-        "title": "Paix avec les Hittites",
-        "description": "Le traité conclu avec l'Empire hittite assura la paix aux frontières orientales pendant près d'un demi-siècle."
+        "title": "A construit la nouvelle capitale Pi-Ramsès",
+        "description": "A déplacé la capitale à Pi-Ramsès dans l'est du delta du Nil, s'assurant une base militaire et commerciale stratégique."
       },
       {
-        "title": "Constructions monumentales",
-        "description": "Il fit ériger des monuments colossaux comme les temples d'Abou Simbel, l'extension du temple de Louxor et le Ramesséum."
+        "title": "Expansion et stabilité de l'Empire",
+        "description": "A sécurisé le plus vaste territoire de l'histoire égyptienne et a inauguré un âge d'or grâce à de nombreuses campagnes militaires, dont la bataille de Qadesh."
       },
       {
-        "title": "Monuments de victoire",
-        "description": "Il mena des expéditions au-delà de la première cataracte en Nubie et fit ériger de nombreuses stèles commémoratives."
+        "title": "A signé le premier traité de paix enregistré de l'histoire",
+        "description": "A signé le 'Traité de Qadesh' avec les Hittites en 1258 av. J.-C., mettant fin à des conflits de longue date et établissant une alliance."
       }
     ],
     "faq": [
       {
-        "question": "Quand Ramsès II est-il né et mort ?",
-        "answer": "Promulgation de lois pénales antirecusantes contre les catholiques."
+        "question": "Quel pharaon de la dynastie égyptienne était Ramsès II ?",
+        "answer": "Il était le troisième pharaon de la XIXe dynastie de l'Égypte antique."
       },
       {
-        "question": "Quel était le rang de Ramsès II parmi les pharaons ?",
-        "answer": "람세스 2세는 이집트 신왕국 제19왕조의 제3대 파라오였습니다."
+        "question": "Combien de temps Ramsès II a-t-il régné ?",
+        "answer": "On estime qu'il a régné pendant 66 ans, de 1279 av. J.-C. à 1213 av. J.-C."
       },
       {
-        "question": "Quelle fut la durée du règne de Ramsès II ?",
-        "answer": "람세스 2세는 기원전 1279년부터 기원전 1213년까지 재위했습니다."
+        "question": "Qu'est-ce que la bataille de Qadesh ?",
+        "answer": "Ce fut une bataille de chars à grande échelle menée en 1274 av. J.-C. contre l'Empire hittite près du fleuve Oronte en Syrie."
       },
       {
-        "question": "À quelle bataille célèbre Ramsès II a-t-il participé ?",
-        "answer": "람세스 2세는 기원전 1274년에 히타이트 왕 무와탈리 2세와 카데쉬 전투를 벌였습니다."
+        "question": "Ramsès II a-t-il réellement gagné la bataille de Qadesh ?",
+        "answer": "Bien que les Égyptiens l'aient enregistrée comme une grande victoire pour Ramsès II, les historiens modernes la considèrent comme un match nul ou une défaite tactique où il n'a pas réussi à atteindre ses objectifs stratégiques."
       },
       {
-        "question": "Quel traité majeur fut signé sous le règne de Ramsès II ?",
-        "answer": "람세스 2세는 재위 21년째인 기원전 1268년에 히타이트와 평화조약을 체결했습니다."
+        "question": "Combien de femmes et d'enfants Ramsès II a-t-il eus ?",
+        "answer": "Il a eu de nombreuses épouses, dont sa Grande Épouse Royale Néfertari, et est connu pour avoir engendré plus de 100 enfants."
       },
       {
-        "question": "Quels sont les principaux monuments construits par Ramsès II ?",
-        "answer": "람세스 2세는 아부심벨 신전, 카르나크 신전, 라메세움 등의 거대한 건축물을 이집트 전역에 건설했습니다."
+        "question": "Quels sont les principaux bâtiments construits par Ramsès II ?",
+        "answer": "Ramsès II a construit d'immenses monuments à travers l'Égypte, notamment les temples d'Abou Simbel, le temple de Karnak et le Ramesseum."
       },
       {
-        "question": "Ramsès II est-il considéré comme le pharaon de l'Exode ?",
-        "answer": "출애굽기에서는 파라오의 이름을 명시하지 않지만, 일부 성서학자들은 람세스 2세를 출애굽기의 파라오로 추정하기도 합니다."
+        "question": "Existe-t-il des affirmations selon lesquelles le pharaon de l'Exode dans la Bible serait Ramsès II ?",
+        "answer": "L'Exode ne précise pas le nom du pharaon, mais certains biblistes supposent que Ramsès II est le pharaon de l'Exode."
       },
       {
-        "question": "Que signifie le nom de Ramsès II ?",
-        "answer": "람세스라는 이름은 '라에 의해 태어났다는 의미를 가진 '라 메스 시스'의 그리스어 음입니다."
+        "question": "Quelle est la signification du nom de Ramsès II ?",
+        "answer": "Le nom Ramsès est la prononciation grecque de 'Ra-mes-sis', qui signifie 'né de Rê'."
       }
     ],
     "sourceVerified": true,
@@ -18716,39 +18736,38 @@
     "slug": "diogenes",
     "timeline": [
       {
-        "year": "Vers 460 BC",
-        "event": "Diogène d'Apollonie était un philosophe grec présocratique actif à Athènes."
+        "year": "460 BC",
+        "event": "Naissance estimée à Sinope, une colonie ionienne sur la mer Noire."
       },
       {
-        "year": "Vers 412 BC - 323 BC",
-        "event": "Diogène de Sinope était un philosophe de l'école cynique."
+        "year": "412 BC",
+        "event": "Arrêté avec son père banquier pour avoir altéré la monnaie et exilé de Sinope."
       },
       {
-        "year": "Vers 230 BC - 150 BC",
-        "event": "Diogène de Babylone était un philosophe de l'école stoïcienne."
+        "year": "230 BC",
+        "event": "A déménagé à Athènes et y a vécu."
       },
       {
-        "year": "Au IIIe siècle",
-        "event": "Diogène Laërce était un biographe et historien de la philosophie grecque antique."
+        "year": "Around 3rd Century",
+        "event": "Capturé par des pirates, amené à Corinthe comme esclave, mais libéré."
       },
       {
         "year": "",
-        "event": "Diogène Laertiad est une dénomination poétique en référence à l'Odyssée d'Homère."
+        "event": "A rencontré Alexandre le Grand."
       }
     ],
     "keyAchievements": [],
     "faq": [
       {
-        "question": "Y a-t-il eu un seul Diogène ?",
-        "answer": "아닙니다. 출처 원문에 따르면 아폴로니아의 디오게네스, 시노페의 디오게네스, 바빌로니아의 디오게네스, 디오게네스 라에르티오스, 디오게네스 라에르티아드 등 여러 인물이 존재합니다."
+        "question": "Pourquoi Diogène est-il appelé 'le Chien' ?",
+        "answer": "Il a été appelé ainsi parce qu'il pratiquait l'ascétisme, ignorait les conventions en satisfaisant ses besoins physiques en public, et aboyait et mordait les hypocrites comme un chien."
       },
       {
-        "question": "Quels philosophes célèbres s'appelaient Diogène ?",
-        "answer": "아폴로니아의 디오게네스(소크라테스 이전 철학자), 시노페의 디오게네스(키니코스 학파 철학자), 바빌로니아의 디오게네스(스토아 학파 철학자)가 있습니다."
+        "question": "Quelle est l'anecdote entre Alexandre le Grand et Diogène ?",
+        "answer": "Lorsqu'Alexandre lui rendit visite et lui demanda ce qu'il pouvait faire pour lui, Diogène fit sa célèbre réponse : 'Ôte-toi de mon soleil.'"
       }
     ],
-    "sourceVerified": true,
-    "missingDataNote": "출처 원문에는 '디오게네스'라는 이름의 여러 인물이 언급되어 있으며, 각 인물의 구체적인 업적에 대한 정보는 부족합니다."
+    "sourceVerified": true
   },
   "james-hutton": {
     "slug": "james-hutton",
@@ -19731,156 +19750,155 @@
     "slug": "charles-dickens",
     "timeline": [
       {
-        "year": "7 février 1812",
-        "event": "Naissance à Portsmouth, en Angleterre, deuxième fils de John Dickens et Elizabeth Barrow."
+        "year": "February 7, 1812",
+        "event": "Né à Portsmouth, en Angleterre"
       },
       {
         "year": "1828",
-        "event": "D'abord sténographe juridique, il devient journaliste sténographe de presse."
+        "event": "Son père John Dickens est emprisonné pour dettes ; Charles commence à travailler dans une usine de cirage"
       },
       {
         "year": "1834",
-        "event": "Reporter parlementaire pour le Morning Chronicle, il commence à signer ses chroniques sous le pseudonyme de Boz."
+        "event": "Commence sa carrière en tant que journaliste"
       },
       {
         "year": "1835",
-        "event": "Il collabore à l'Evening Chronicle avec des scènes de la vie londonienne."
+        "event": "Publie 'Esquisses de Boz'"
       },
       {
         "year": "1836",
-        "event": "Publication de son recueil 《 Sketches by Boz 》."
+        "event": "Gagne une popularité explosive avec la publication en feuilleton des 'Papiers posthumes du Pickwick Club' ; épouse Catherine Hogarth"
       },
       {
         "year": "1836",
-        "event": "Il acquiert une immense célébrité avec la publication en feuilleton des 《 Papiers posthumes du Pickwick Club 》."
+        "event": "Publie 'Oliver Twist'"
       },
       {
         "year": "1837",
-        "event": "Marqué par la mort soudaine de sa jeune belle-sœur Mary Hogarth."
+        "event": "Première visite aux États-Unis"
       },
       {
         "year": "1837-1839",
-        "event": "Publication d'《 Oliver Twist 》."
+        "event": "Publie 'Un chant de Noël'"
       },
       {
         "year": "1838-1839",
-        "event": "Publication de 《 Nicholas Nickleby 》."
+        "event": "Publie 'David Copperfield'"
       },
       {
         "year": "1840-1841",
-        "event": "Publication du 《 Magasin d'antiquités 》."
+        "event": "Achète Gad's Hill Place, une maison qu'il admirait depuis l'enfance"
       },
       {
         "year": "1841",
-        "event": "Publication de 《 Barnaby Rudge 》."
+        "event": "Se sépare de sa femme Catherine"
       },
       {
-        "year": "3 janvier 1842",
-        "event": "Voyage aux États-Unis avec son épouse Catherine à bord du Britannia."
+        "year": "January 3, 1842",
+        "event": "Publie 'Le Conte de deux cités'"
       },
       {
         "year": "1842",
-        "event": "Publication d'une histoire."
+        "event": "Publie 'De grandes espérances'"
       },
       {
         "year": "1843",
-        "event": "Publication d'《 Un chant de Noël 》."
+        "event": "Impliqué dans l'accident ferroviaire de Staplehurst"
       },
       {
         "year": "1843-1844",
-        "event": "Publication de 《 Martin Chuzzlewit 》."
+        "event": "Deuxième visite aux États-Unis et organise des tournées de lecture"
       },
       {
         "year": "1846-1848",
-        "event": "Publication de 《 Dombey et Fils 》."
+        "event": "Décède d'un accident vasculaire cérébral ; enterré dans le Coin des poètes à l'abbaye de Westminster"
       },
       {
         "year": "1849-1850",
-        "event": "Publication de 《 David Copperfield 》."
+        "event": "Il a publié 'David Copperfield'."
       },
       {
         "year": "1851-1853",
-        "event": "Publication d'《 Une histoire d'Angleterre pour les enfants 》."
+        "event": "Il a publié 'Une histoire de l'Angleterre pour les enfants'."
       },
       {
         "year": "1852-1853",
-        "event": "Publication de 《 La Maison d'Âpre-Vent 》."
+        "event": "Il a publié 'La Maison d'Âpre-Vent'."
       },
       {
         "year": "1854",
-        "event": "Publication de 《 Temps difficiles 》."
+        "event": "Il a publié 'Les Temps difficiles'."
       },
       {
         "year": "1855-1857",
-        "event": "Publication de 《 La Petite Dorrit 》."
+        "event": "Il a publié 'La Petite Dorrit'."
       },
       {
         "year": "1859",
-        "event": "Publication de 《 Le Conte de deux cités 》."
+        "event": "Il a publié 'Le Conte de deux cités'."
       },
       {
         "year": "1860-1861",
-        "event": "Publication des 《 Grandes Espérances 》."
+        "event": "Il a publié 'De grandes espérances'."
       },
       {
         "year": "1864-1865",
-        "event": "《Our Mutual Friend》를 출판했다."
+        "event": "Il a publié 'Notre ami commun'."
       },
       {
-        "year": "19 novembre 1867",
-        "event": "Deuxième tournée de lectures aux États-Unis."
+        "year": "November 19, 1867",
+        "event": "Une deuxième visite aux États-Unis a eu lieu."
       },
       {
         "year": "1870",
-        "event": "Publication du roman inachevé 《 Le Mystère d'Edwin Drood 》."
+        "event": "Il a publié 'Le Mystère d'Edwin Drood'."
       },
       {
-        "year": "9 juin 1870",
-        "event": "Il s'éteint à Gad's Hill Place à l'âge de 58 ans."
+        "year": "June 9, 1870",
+        "event": "Il a rendu son dernier soupir à Gad's Hill, à l'âge de 58 ans."
       }
     ],
     "keyAchievements": [
       {
-        "title": "Publication des Pickwick Papers et immense renommée",
-        "description": "Il devint instantanément célèbre grâce à la parution périodique illustrée des 《 Papiers posthumes du Pickwick Club 》."
+        "title": "Création de personnages mémorables",
+        "description": "A créé certains des personnages de fiction les plus célèbres au monde, dont Ebenezer Scrooge, Oliver Twist et David Copperfield."
       },
       {
-        "title": "Romancier emblématique de l'époque victorienne et critique social",
-        "description": "Il a créé certains des personnages de fiction les plus mémorables au monde et s'est imposé comme le romancier et critique social britannique emblématique de l'époque victorienne."
+        "title": "Plaidoyer pour une réforme sociale",
+        "description": "A fortement critiqué les contradictions sociales, la pauvreté et les problèmes de travail des enfants engendrés par la révolution industrielle à travers ses romans, contribuant à la réforme sociale."
       },
       {
-        "title": "Popularité publique et influence sociale",
-        "description": "Ses tournées de lectures publiques à travers le Royaume-Uni et les États-Unis ont rencontré un immense succès, et ses prises de position ont exercé une grande influence sur la société."
+        "title": "Popularisation du format de publication en feuilleton",
+        "description": "A grandement contribué à la popularisation du format de roman en feuilleton en publiant des romans en tranches hebdomadaires ou mensuelles, recevant une réponse formidable des lecteurs."
       },
       {
-        "title": "Rédaction de nombreux chefs-d'œuvre",
-        "description": "Il a rédigé de nombreux chefs-d'œuvre, dont 《 David Copperfield 》, 《 Les Grandes Espérances 》, 《 Oliver Twist 》, 《 Un chant de Noël 》 et 《 Le Conte de deux cités 》."
+        "title": "Modernisation de Noël",
+        "description": "Souvent appelé 'l'homme qui a inventé Noël', son œuvre 'Un chant de Noël' a joué un rôle important dans l'établissement de la culture moderne et du concept de Noël."
       }
     ],
     "faq": [
       {
-        "question": "Quel type d'écrivain était Charles Dickens ?",
-        "answer": "Quels sont les chefs-d'œuvre de Charles Dickens ?"
+        "question": "Quelle est l'œuvre la plus représentative de Charles Dickens ?",
+        "answer": "Ses œuvres représentatives incluent 'Oliver Twist', 'Un chant de Noël', 'David Copperfield', 'Le Conte de deux cités' et 'De grandes espérances'."
       },
       {
-        "question": "Quels sont les chefs-d'œuvre de Charles Dickens ?",
-        "answer": "Pourquoi Charles Dickens a-t-il visité les États-Unis ?"
+        "question": "À quoi ressemblait l'enfance de Dickens ?",
+        "answer": "Son père a été emprisonné pour dettes, l'obligeant à travailler dans une usine de cirage à l'âge de 12 ans. Cette dure expérience a profondément influencé ses œuvres ultérieures."
       },
       {
-        "question": "Quelle fut l'expérience d'enfance de Charles Dickens ?",
-        "answer": "Naissance le 25 décembre de Clarissa « Clara » Harlowe Barton."
+        "question": "Pourquoi les romans de Dickens étaient-ils généralement publiés sous forme de feuilleton ?",
+        "answer": "Il les a publiés dans des magazines hebdomadaires ou mensuels pour rendre ses œuvres accessibles au public à un prix abordable, et cette méthode de publication en feuilleton est devenue très populaire à l'époque victorienne."
       },
       {
-        "question": "Pourquoi Charles Dickens a-t-il visité les États-Unis ?",
-        "answer": "Fondation de la Croix-Rouge américaine"
+        "question": "Les œuvres de Dickens ont-elles réellement influencé la société ?",
+        "answer": "Oui, ses descriptions saisissantes de la détresse des pauvres et des mauvaises conditions de travail des enfants ont sensibilisé le public et contribué à de véritables réformes sociales."
       },
       {
-        "question": "Quelles sont les caractéristiques majeures de l'œuvre de Charles Dickens ?",
-        "answer": "Soins infirmiers durant la guerre de Sécession"
+        "question": "Comment Dickens est-il mort ?",
+        "answer": "Il est décédé d'un accident vasculaire cérébral à son domicile, Gad's Hill Place, le 9 juin 1870, à l'âge de 58 ans."
       }
     ],
-    "sourceVerified": true,
-    "missingDataNote": "어린 시절 가족의 이사 및 구두약 공장 취직, 변호사 사무실 사환 등의 사건은 나이만 명시되어 있고 정확한 연도가 원문에 직접 명시되어 있지 않아 타임라인에서 제외했습니다."
+    "sourceVerified": true
   },
   "clara-barton": {
     "slug": "clara-barton",
@@ -21538,39 +21556,39 @@
     "timeline": [
       {
         "year": "1815",
-        "event": "Né à Stagire, en Chalcidique (région de Thrace) dans le nord de la Grèce."
+        "event": "Naissance."
       },
       {
         "year": "1848",
-        "event": "Présentation de la Déclaration des sentiments lors de la première convention pour les droits des femmes à Seneca Falls."
+        "event": "A prononcé la Déclaration de Sentiments lors de la première convention sur les droits des femmes tenue à Seneca Falls, dans l'État de New York."
       },
       {
         "year": "1902",
-        "event": "Après la mort de son frère Kaspar, a été entraîné dans un long litige juridique avec la femme de Kaspar, Johanna, pour la garde de son fils Karl."
+        "event": "Décès."
       }
     ],
     "keyAchievements": [
       {
-        "title": "Organisation de la convention de Seneca Falls",
-        "description": "Elle a co-organisé en 1848 la convention de Seneca Falls, acte fondateur du mouvement féministe aux États-Unis."
+        "title": "A dirigé la première convention sur les droits des femmes",
+        "description": "En 1848, elle a prononcé la Déclaration de Sentiments lors de la première convention sur les droits des femmes tenue à Seneca Falls, dans l'État de New York, qui est souvent considérée comme le premier mouvement organisé pour les droits et le droit de vote des femmes."
       },
       {
-        "title": "Philosophie sur le rôle des femmes",
-        "description": "Elle affirmait que la femme est maîtresse de sa propre destinée et doit posséder les mêmes droits civiques que l'homme, ses rôles traditionnels de mère ou d'épouse étant secondaires."
+        "title": "A défendu une philosophie sur les rôles des femmes",
+        "description": "Elle soutenait qu'une femme est l'arbitre de son propre destin, qu'elle devrait avoir les mêmes droits que tous les autres membres en tant que citoyenne, et que ses rôles de 'mère, épouse, sœur, fille' ne sont qu'accessoires."
       }
     ],
     "faq": [
       {
         "question": "Qui était Elizabeth Cady Stanton ?",
-        "answer": "Création d'une statue en marbre d'Ibsen pour le musée Ibsen d'Oslo."
+        "answer": "Elizabeth Cady Stanton était une militante sociale américaine, abolitionniste et figure de proue du début du mouvement pour les droits des femmes."
       },
       {
-        "question": "Quelle fut son œuvre la plus importante ?",
-        "answer": "Elle a co-organisé en 1848 la convention de Seneca Falls, acte fondateur du mouvement féministe aux États-Unis."
+        "question": "Quelle est sa réalisation la plus importante ?",
+        "answer": "En 1848, elle a prononcé la Déclaration de Sentiments lors de la première convention sur les droits des femmes à Seneca Falls, dans l'État de New York, qui est souvent considérée comme le premier mouvement organisé pour les droits et le droit de vote des femmes."
       },
       {
-        "question": "Quelle était sa conception du rôle de la femme ?",
-        "answer": "그녀는 여성은 자기 자신의 운명의 조정자이며, 시민으로서 다른 모든 구성원과 같은 권리를 가져야 하며, '어머니, 아내, 누이, 딸'로서의 역할은 단지 부수적인 역할일 뿐이라고 주장하였다."
+        "question": "Qu'a-t-elle soutenu concernant les rôles des femmes ?",
+        "answer": "Elle soutenait qu'une femme est l'arbitre de son propre destin, qu'elle devrait posséder les mêmes droits que tous les autres citoyens, et que ses rôles de 'mère, épouse, sœur, fille' ne sont qu'accessoires."
       }
     ],
     "sourceVerified": true,
@@ -21580,176 +21598,176 @@
     "slug": "henrik-ibsen",
     "timeline": [
       {
-        "year": "20 mars 1828",
-        "event": "Henrik Johan Ibsen naît à Skien, en Norvège."
+        "year": "March 20, 1828",
+        "event": "Henrik Johan Ibsen est né à Skien, en Norvège."
       },
       {
         "year": "1846",
-        "event": "À 18 ans, il a un fils illégitime avec Else Sophie Jensdatter."
+        "event": "À 18 ans, a eu un fils, Hans Jacob Hendrichsen Birkedalen, d'une relation avec Else Sophie Jensdatter Birkedalen."
       },
       {
         "year": "1850",
-        "event": "Il publie sa première pièce 《 Catilina 》 sous pseudonyme et fait jouer sa première œuvre dramatique 《 Le Tumulus 》."
+        "event": "A publié sa première pièce, 'Catilina', sous le pseudonyme de 'Brynjolf Bjarme', et a eu sa première production théâtrale, 'Le Tertre'."
       },
       {
         "year": "1858",
-        "event": "Il devient directeur artistique du théâtre de Christiania et épouse Suzannah Thoresen."
+        "event": "Est devenu le directeur artistique du Christiania Theater et a épousé Suzannah Thoresen."
       },
       {
-        "year": "23 décembre 1859",
-        "event": "Naissance de leur fils Sigurd."
+        "year": "December 23, 1859",
+        "event": "Naissance de son fils Sigurd."
       },
       {
         "year": "1864",
-        "event": "Il quitte la Norvège pour un exil de 27 ans en Italie et en Allemagne."
+        "event": "A quitté Christiania pour Sorrente, en Italie, commençant ainsi 27 ans de vie à l'étranger."
       },
       {
         "year": "1865",
-        "event": "Il publie le drame poétique 《 Brand 》, qui lui apporte le succès critique et financier."
+        "event": "A publié la pièce 'Brand', qui lui a apporté l'acclamation de la critique et un succès financier."
       },
       {
         "year": "1867",
-        "event": "Il écrit le drame poétique 《 Peer Gynt 》, mis en musique par Edvard Grieg."
+        "event": "A publié la pièce 'Peer Gynt', pour laquelle Edvard Grieg a composé la musique de scène."
       },
       {
         "year": "1868",
-        "event": "Il quitte l'Italie pour s'installer à Dresde."
+        "event": "A déménagé de l'Italie à Dresde, en Allemagne."
       },
       {
         "year": "1871",
-        "event": "Publication de son unique recueil de poésie."
+        "event": "A publié son unique recueil de poésie, 'Poèmes' (Digte)."
       },
       {
         "year": "1873",
-        "event": "Il écrit le drame historique 《 Empereur et Galiléen 》."
+        "event": "A écrit 'Empereur et Galiléen', mettant en scène la vie de l'empereur romain Julien l'Apostat, et a été fait chevalier."
       },
       {
         "year": "1875",
-        "event": "Il s'installe à Munich et entame la rédaction de son premier drame réaliste 《 Les Soutiens de la société 》."
+        "event": "A déménagé à Munich et a commencé à travailler sur son premier drame réaliste moderne, 'Les Piliers de la société'."
       },
       {
         "year": "1877",
-        "event": "Parution et création sur scène des 《 Soutiens de la société 》."
+        "event": "Son premier drame réaliste moderne, 'Les Piliers de la société', a été publié et joué pour la première fois."
       },
       {
         "year": "1879",
-        "event": "Publication d'《 Une maison de poupée 》, qui lui apporte une gloire internationale."
+        "event": "A publié la pièce 'Une maison de poupée', qui lui a apporté une reconnaissance internationale."
       },
       {
         "year": "1881",
-        "event": "Publication des 《 Revenants 》, critique de la morale bourgeoise."
+        "event": "A publié la pièce 'Les Revenants', contenant des commentaires sur la moralité de la société d'Ibsen."
       },
       {
         "year": "1882",
-        "event": "Publication d'《 Un ennemi du peuple 》."
+        "event": "A publié la pièce 'Un ennemi du peuple', abordant des thèmes controversés."
       },
       {
         "year": "1884",
-        "event": "Publication du drame 《 Le Canard sauvage 》, considéré comme son chef-d'œuvre."
+        "event": "A publié la pièce 'Le Canard sauvage', considérée par beaucoup comme la plus belle œuvre d'Ibsen."
       },
       {
         "year": "1890",
-        "event": "Publication du drame psychologique 《 Hedda Gabler 》."
+        "event": "A publié son œuvre ultérieure 'Hedda Gabler', explorant les conflits psychologiques."
       },
       {
         "year": "1891",
-        "event": "Il retourne définitivement en Norvège après son long exil."
+        "event": "Est retourné à Christiania, en Norvège, après avoir vécu 27 ans à l'étranger."
       },
       {
         "year": "1892",
-        "event": "Publication du drame symbolique 《 Solness le constructeur 》."
+        "event": "A publié son œuvre ultérieure 'Solness le constructeur', explorant les conflits psychologiques, et a été fait Commandeur."
       },
       {
         "year": "1893",
-        "event": "Il reçoit la grand-croix de l'Ordre de Saint-Olaf."
+        "event": "A reçu la Grand-Croix de l'Ordre de Saint-Olaf."
       },
       {
-        "year": "mars 1900",
-        "event": "Il subit une série d'attaques cérébrales."
+        "year": "March 1900",
+        "event": "A subi plusieurs accidents vasculaires cérébraux."
       },
       {
         "year": "1902",
-        "event": "Il est proposé pour le prix Nobel de littérature."
+        "event": "Nominé pour le prix Nobel de littérature."
       },
       {
         "year": "1903",
-        "event": "Il est proposé pour le prix Nobel de littérature."
+        "event": "Nominé pour le prix Nobel de littérature."
       },
       {
         "year": "1904",
-        "event": "Il est proposé pour le prix Nobel de littérature."
+        "event": "Nominé pour le prix Nobel de littérature."
       },
       {
-        "year": "23 mai 1906",
-        "event": "크리스티아니아의 자택에서 78세의 나이로 사망했다."
+        "year": "May 23, 1906",
+        "event": "Est décédé chez lui à Christiania à l'âge de 78 ans."
       },
       {
         "year": "2006",
-        "event": "En 2006, le centenaire de sa mort donne lieu à l'« Année Ibsen » à travers le monde."
+        "event": "L''Année Ibsen' a été célébrée en Norvège et dans de nombreux autres pays pour commémorer le 100e anniversaire de sa mort, et 'Une maison de poupée' a été la pièce la plus jouée au monde."
       },
       {
         "year": "2008",
-        "event": "Création du Delhi Ibsen Festival annuel en Inde."
+        "event": "Le 'Festival Ibsen de Delhi' a commencé à se tenir annuellement à Delhi, en Inde."
       },
       {
         "year": "2011",
-        "event": "Le sculpteur Haakon Anton Fageras réalise deux bustes en bronze d'Ibsen."
+        "event": "Håkon Anton Fagerås a créé deux bustes en bronze d'Ibsen destinés à être installés dans le parc Ibsen à Sorrente, en Italie, et dans la municipalité de Skien."
       },
       {
         "year": "2012",
-        "event": "Création d'une statue en marbre d'Ibsen pour le musée Ibsen d'Oslo."
+        "event": "Une statue en marbre d'Ibsen a été créée pour le Musée Ibsen d'Oslo."
       },
       {
-        "year": "20 mars 2013",
-        "event": "Google célèbre le 185e anniversaire de la naissance de Henrik Ibsen avec un Doodle dédié."
+        "year": "March 20, 2013",
+        "event": "Google a présenté un Doodle célébrant le 185e anniversaire de Henrik Ibsen."
       }
     ],
     "keyAchievements": [
       {
-        "title": "Le père du drame moderne",
-        "description": "Considéré comme l'un des plus grands dramaturges du XIXe siècle, il est qualifié de « père du drame moderne »."
+        "title": "Père du drame moderne",
+        "description": "Évalué comme le plus grand dramaturge du monde du XIXe siècle et appelé le 'Père du drame moderne'."
       },
       {
         "title": "Pionnier du théâtre réaliste",
-        "description": "Bien qu'il ait écrit des drames poétiques, il a ouvert la voie au théâtre réaliste moderne."
+        "description": "Bien qu'il ait également écrit des œuvres épiques lyriques, il a été le pionnier du théâtre réaliste."
       },
       {
-        "title": "L'un des dramaturges les plus joués au monde",
-        "description": "Il est le dramaturge le plus joué au monde après William Shakespeare."
+        "title": "Le dramaturge le plus joué au monde",
+        "description": "Il est le dramaturge le plus fréquemment joué au monde après Shakespeare."
       },
       {
         "title": "Reconnaissance internationale",
-        "description": "Ses œuvres comme 《 Brand 》, 《 Peer Gynt 》 et 《 Une maison de poupée 》 lui ont valu une renommée internationale."
+        "description": "A obtenu une reconnaissance internationale avec des œuvres telles que 'Brand', 'Peer Gynt' et 'Une maison de poupée'."
       },
       {
-        "title": "Révolution des codes dramatiques",
-        "description": "À travers son réalisme sans concession, il a redéfini les règles de la tragédie et de la dramaturgie."
+        "title": "A redéfini les règles du drame",
+        "description": "A complètement réécrit les règles du drame à travers le réalisme."
       },
       {
-        "title": "Un dramaturge influent",
-        "description": "Il a exercé une influence majeure sur George Bernard Shaw, Oscar Wilde et James Joyce."
+        "title": "Dramaturge influent",
+        "description": "A influencé des personnalités telles que George Bernard Shaw, Oscar Wilde et James Joyce."
       }
     ],
     "faq": [
       {
-        "question": "Quand Henrik Ibsen est-il né et mort ?",
+        "question": "Quand Henrik Ibsen est-il né et quand est-il mort ?",
         "answer": "Il est né le 20 mars 1828 et est décédé le 23 mai 1906."
       },
       {
-        "question": "Comment Henrik Ibsen est-il considéré ?",
-        "answer": "Il est considéré comme le plus grand dramaturge du XIXe siècle et le père du théâtre moderne."
+        "question": "Comment Henrik Ibsen est-il évalué en tant que figure ?",
+        "answer": "Il est considéré comme le plus grand dramaturge du XIXe siècle et est connu sous le nom de 'Père du drame moderne'."
       },
       {
-        "question": "Quelles sont les pièces majeures de Henrik Ibsen ?",
-        "answer": "Parmi ses chefs-d'œuvre figurent 《 Une maison de poupée 》, 《 Les Revenants 》, 《 Un ennemi du peuple 》, 《 Le Canard sauvage 》 et 《 Peer Gynt 》."
+        "question": "Quelles sont les œuvres représentatives d'Henrik Ibsen ?",
+        "answer": "Ses œuvres incluent 'Une maison de poupée', 'Les Revenants', 'Un ennemi du peuple', 'Le Canard sauvage' et 'Peer Gynt'."
       },
       {
-        "question": "Henrik Ibsen a-t-il reçu le prix Nobel de littérature ?",
-        "answer": "Non, il a été nommé pour le prix Nobel de littérature en 1902, 1903 et 1904, mais ne l'a jamais obtenu."
+        "question": "Henrik Ibsen a-t-il remporté le prix Nobel de littérature ?",
+        "answer": "Il a été nominé pour le prix Nobel de littérature en 1902, 1903 et 1904."
       },
       {
-        "question": "Quelles étaient les opinions politiques de Henrik Ibsen ?",
-        "answer": "Il exprimait des opinions libertaires et individualistes proches de l'anarchisme, considérant l'État comme un obstacle à l'émancipation de l'individu."
+        "question": "Quelles étaient les opinions politiques d'Henrik Ibsen ?",
+        "answer": "Il a exprimé des opinions anarchistes, déclarant que l'État est une malédiction pour l'individu et devrait être aboli."
       }
     ],
     "sourceVerified": true,
@@ -22464,7 +22482,7 @@
     "timeline": [
       {
         "year": "1733",
-        "event": "Naissance à Fieldhead, près de Leeds, dans le Yorkshire, en Angleterre."
+        "event": "Né à Birstall Fieldhead près de Leeds, dans le West Riding du Yorkshire, en Angleterre."
       },
       {
         "year": "1739",
@@ -22472,139 +22490,139 @@
       },
       {
         "year": "1741",
-        "event": "Recueilli par sa tante Sarah Keighley après le remariage de son père."
+        "event": "Après le remariage de son père, il a été confié à sa tante Sarah Keighley et à son oncle John Keighley."
       },
       {
         "year": "1752",
-        "event": "Entrée à l'académie dissidente de Daventry, dans le Northamptonshire."
+        "event": "A intégré la Dissenting Academy à Daventry, dans le Northamptonshire."
       },
       {
         "year": "1755",
-        "event": "Nommé ministre luthérien dissident à Needham Market, dans le Suffolk."
+        "event": "Diplômé de la Daventry Academy et a commencé son ministère à Needham Market, dans le Suffolk, dans le sud de l'Angleterre."
       },
       {
         "year": "1758",
-        "event": "Il s'installe à Nantwich, dans le Cheshire, et y ouvre une école."
+        "event": "S'est installé dans une église à Nantwich, dans le Cheshire, où il a fondé une école et enseigné à des étudiants."
       },
       {
         "year": "1761",
-        "event": "Il publie ses 《 Rudiments de grammaire anglaise 》 et devient tuteur à l'académie de Warrington."
+        "event": "A écrit le manuel de grammaire 'Rudiments de grammaire anglaise' et a été employé comme tuteur en langues et littérature à la Warrington Academy."
       },
       {
         "year": "1762",
-        "event": "Ordonné ministre à Warrington et mariage avec Mary Wilkinson."
+        "event": "Est devenu ministre dissident à Warrington et a épousé Mary Wilkinson."
       },
       {
         "year": "1765",
-        "event": "Reçoit le diplôme de docteur en droit de l'université d'Édimbourg."
+        "event": "A reçu un doctorat honorifique en droit de l'Université d'Édimbourg."
       },
       {
         "year": "1766",
-        "event": "Élu membre de la Royal Society grâce à ses travaux sur l'électricité."
+        "event": "Élu membre de la Royal Society pour ses recherches sur l'électricité."
       },
       {
         "year": "1767",
-        "event": "Il publie son ouvrage sur l'électricité et prend en charge la paroisse de Mill Hill à Leeds."
+        "event": "A publié 'Histoire et état actuel de l'électricité' et a été nommé ministre de la chapelle Mill Hill à Leeds, dans le Yorkshire."
       },
       {
         "year": "1772",
-        "event": "Il invente l'eau gazeuse artificielle et publie le premier volume de son traité sur la religion."
+        "event": "A publié sa méthode de fabrication de l'eau gazeuse sous le titre 'Instructions pour imprégner l'eau avec de l'air fixe', et a publié le premier volume des 'Institutions de la religion naturelle et révélée'."
       },
       {
         "year": "1773",
-        "event": "Il reçoit la médaille Copley pour son invention de l'eau gazéifiée et s'installe à Calne."
+        "event": "A reçu la médaille Copley pour sa découverte de la fabrication de l'eau gazeuse et s'est installé à Calne, dans le Wiltshire."
       },
       {
         "year": "1774",
-        "event": "Il isole l'oxygène en chauffant de l'oxyde rouge de mercure et s'entretient avec Antoine Lavoisier à Paris."
+        "event": "A obtenu de l'oxygène en chauffant de l'oxyde mercurique rouge et a rencontré Antoine Lavoisier à Paris pour discuter de sa découverte de l'oxygène."
       },
       {
         "year": "1775",
-        "event": "Il publie sa découverte de l'« air déphlogistiqué »."
+        "event": "A annoncé la découverte de l''air déphlogistiqué' (oxygène)."
       },
       {
         "year": "1777",
-        "event": "Publication de ses essais philosophiques sur la matière et le matérialisme."
+        "event": "A publié 'Recherches sur la matière et l'esprit' et 'La Doctrine de la nécessité philosophique illustrée'."
       },
       {
         "year": "1780",
-        "event": "Il déménage à Birmingham comme ministre de la chapelle New Meeting."
+        "event": "A quitté Calne et a déménagé à Birmingham pour servir comme ministre à la New Meeting House."
       },
       {
         "year": "1782",
-        "event": "Publication de son ouvrage théologique controversé 《 L'Histoire des corruptions du christianisme 》."
+        "event": "A publié 'Une histoire des corruptions du christianisme'."
       },
       {
         "year": "1791",
-        "event": "Soutien à la Révolution française, sa maison et son laboratoire sont détruits lors des émeutes de Birmingham ; il se réfugie à Hackney."
+        "event": "A écrit un article critiquant les 'Réflexions sur la Révolution de France' d'Edmund Burke et a déménagé à Hackney près de Londres après que sa maison et son église ont été détruites lors des émeutes de Birmingham."
       },
       {
         "year": "1794",
-        "event": "Il s'exile aux États-Unis et s'établit à Northumberland, en Pennsylvanie."
+        "event": "A quitté l'Angleterre et a émigré aux États-Unis, s'installant à Northumberland, en Pennsylvanie."
       },
       {
         "year": "1800",
-        "event": "Il publie son dernier ouvrage scientifique."
+        "event": "A publié son dernier ouvrage scientifique, 'La Doctrine du phlogistique établie et celle de la composition de l'eau réfutée'."
       },
       {
         "year": "1804",
-        "event": "Décès à Northumberland, en Pennsylvanie."
+        "event": "Décès à Northumberland, en Pennsylvanie, aux États-Unis."
       }
     ],
     "keyAchievements": [
       {
         "title": "Découverte de l'oxygène",
-        "description": "Il a isolé l'oxygène gazeux en 1774 sous le nom d'air déphlogistiqué."
+        "description": "En 1774, il a obtenu un gaz en chauffant de l'oxyde mercurique rouge, qu'il a nommé 'air déphlogistiqué', a découvert l'oxygène et a caractérisé ses propriétés."
       },
       {
         "title": "Invention de l'eau gazeuse",
-        "description": "Il a 실은 물에 이산화 탄소를 녹여 소다수를 제작하는 방법을 개발하고 1772년에 발표하여 코플리 메달을 수상했습니다."
+        "description": "A développé une méthode pour produire de l'eau gazeuse en dissolvant du dioxyde de carbone dans l'eau, l'a publiée en 1772 et a reçu la médaille Copley."
       },
       {
-        "title": "Recherches sur l'électricité",
-        "description": "Ses expériences électriques l'ont conduit à formuler l'hypothèse de la loi en carré inverse de l'électrostatique."
+        "title": "Recherche sur l'électricité",
+        "description": "Est devenu membre de la Royal Society grâce à ses recherches sur l'électricité et a publié 'Histoire et état actuel de l'électricité' en 1767."
       },
       {
-        "title": "Découverte de nombreux gaz",
-        "description": "Il a identifié plus d'une dizaine de gaz majeurs dont le monoxyde d'azote et l'ammoniac."
+        "title": "Découverte de divers gaz",
+        "description": "A découvert plusieurs gaz, dont l'oxyde nitreux, l'ammoniac, le chlorure d'hydrogène, le dioxyde de soufre, le tétrafluorure de silicium, l'azote et le monoxyde de carbone."
       },
       {
-        "title": "Découverte du rôle de la végétation",
-        "description": "Il a observé que les plantes restaurent l'air vicié en produisant de l'oxygène."
+        "title": "Élucidation de la production d'oxygène par les plantes",
+        "description": "A découvert que la lumière est importante pour la croissance des plantes et que les plantes produisent de l'oxygène, jetant ainsi les bases de la recherche sur la photosynthèse."
       },
       {
-        "title": "Réformes pédagogiques",
-        "description": "Enseignant novateur, il a introduit l'histoire moderne et les sciences dans les programmes d'études."
+        "title": "Contributions pédagogiques",
+        "description": "A écrit des ouvrages éducatifs tels que 'Rudiments de grammaire anglaise' et 'Carte biographique', et a élevé le niveau éducatif de la Warrington Academy en proposant un programme d'études pratique."
       },
       {
-        "title": "Philosophie politique",
-        "description": "Son essai sur les principes du gouvernement a préconisé les droits des citoyens."
+        "title": "Établissement d'une théorie politique",
+        "description": "À travers 'Essai sur les premiers principes du gouvernement', il a défendu les droits des citoyens et le droit à la révolution, influençant la pensée utilitariste."
       }
     ],
     "faq": [
       {
         "question": "Qui était Joseph Priestley ?",
-        "answer": "Joseph Priestley était un théologien dissident, philosophe naturel, chimiste et pédagogue britannique aux talents universels."
+        "answer": "Il était un chimiste, pasteur, théologien, éducateur, théoricien politique et philosophe naturel anglais qui a contribué à divers domaines, notamment le libéralisme, la politique, la religion et la philosophie expérimentale."
       },
       {
-        "question": "Quelle est sa découverte la plus célèbre ?",
-        "answer": "Il est principalement renommé pour avoir isolé l'oxygène en 1774."
+        "question": "Quelle est sa réalisation la plus connue ?",
+        "answer": "Il est le plus connu comme le découvreur de l'oxygène, qu'il a nommé 'air déphlogistiqué' en 1774."
       },
       {
         "question": "Comment a-t-il découvert l'oxygène ?",
-        "answer": "Le 1er août 1774, il a découvert qu'un gaz obtenu en chauffant de l'oxyde rouge de mercure à l'aide d'une loupe concentrant la chaleur solaire ravivait vivement la flamme d'une bougie."
+        "answer": "Le 1er août 1774, il a découvert qu'un gaz obtenu en chauffant de l'oxyde mercurique rouge à l'aide de la chaleur solaire concentrée par une lentille convexe faisait brûler une bougie plus intensément."
       },
       {
-        "question": "Quelles étaient ses convictions religieuses et politiques ?",
-        "answer": "Sur le plan théologique, il était unitarien ; sur le plan politique, libéral ; et sur le plan philosophique, matérialiste."
+        "question": "Quelles étaient ses croyances religieuses et politiques ?",
+        "answer": "Théologiquement, il était unitarien ; politiquement, un libéral ; et philosophiquement, il a plaidé pour le matérialisme."
       },
       {
         "question": "Quelle était sa relation avec Lavoisier ?",
-        "answer": "Priestley s'est entretenu avec Lavoisier en 1774 au sujet de sa découverte de l'oxygène, mais il évitait de rejeter la théorie du phlogistique, restant fidèle à cette dernière jusqu'à sa mort."
+        "answer": "Priestley a parlé à Lavoisier de sa découverte de l'oxygène en 1774, mais il s'est lui-même accroché à la théorie du phlogistique jusqu'à la fin et a rejeté la révolution chimique de Lavoisier."
       },
       {
-        "question": "Comment s'est déroulée la fin de sa vie ?",
-        "answer": "Isolé en Angleterre après les émeutes de Birmingham en 1791, il a émigré aux États-Unis en 1794 et a passé le reste de sa vie comme ministre à Northumberland."
+        "question": "À quoi ont ressemblé ses dernières années ?",
+        "answer": "Il s'est retrouvé isolé en Angleterre suite aux émeutes de Birmingham de 1791, a émigré aux États-Unis en 1794 et a passé le reste de sa vie comme ministre à Northumberland, en Pennsylvanie."
       }
     ],
     "sourceVerified": true,
@@ -26720,51 +26738,51 @@
     "timeline": [
       {
         "year": "1805",
-        "event": "Naissance le 10 décembre à Newburyport, dans le Massachusetts."
+        "event": "Né le 10 décembre à Newburyport, dans le Massachusetts, aux États-Unis"
       },
       {
         "year": "1831",
-        "event": "Considéré comme fondateur du journal abolitionniste 《 The Liberator 》."
+        "event": "A fondé le journal 'The Liberator', militant pour l'abolition de l'esclavage"
       },
       {
         "year": "1865",
-        "event": "Fin de la parution de The Liberator à la suite de l'adoption du 13e amendement."
+        "event": "Cessation de la publication de 'The Liberator' et abolition de l'esclavage avec le 13e amendement de la Constitution des États-Unis"
       },
       {
-        "year": "Années 1870",
-        "event": "Défense du suffrage féminin."
+        "year": "1870",
+        "event": "A plaidé pour l'élargissement du droit de vote des femmes"
       },
       {
         "year": "1879",
-        "event": "Décès le 24 mai à New York."
+        "event": "Décédé le 24 mai à New York, dans l'État de New York, aux États-Unis"
       }
     ],
     "keyAchievements": [
       {
-        "title": "Fondation et publication de The Liberator",
-        "description": "Il a édité le journal antiesclavagiste 《 The Liberator 》 de 1831 à 1865."
+        "title": "Fondation et publication du journal 'The Liberator'",
+        "description": "Il a fondé le journal 'The Liberator' en faveur de l'abolition de l'esclavage en 1831 et l'a publié jusqu'en 1865, lorsque l'esclavage a été aboli par le 13e amendement de la Constitution des États-Unis."
       },
       {
-        "title": "American Anti-Slavery Society",
-        "description": "Il a cofondé l'American Anti-Slavery Society, militant pour l'abolition de l'esclavage."
+        "title": "Fondation de l'American Anti-Slavery Society",
+        "description": "En tant que l'un des fondateurs de l'American Anti-Slavery Society, il a plaidé pour l'abolition immédiate et sans compensation de l'esclavage."
       },
       {
         "title": "Mouvement pour le droit de vote des femmes",
-        "description": "Dans les années 1870, il s'est engagé en faveur du droit de vote des femmes."
+        "description": "Dans les années 1870, il a plaidé pour l'élargissement du droit de vote des femmes."
       }
     ],
     "faq": [
       {
         "question": "Qui était William Lloyd Garrison ?",
-        "answer": "William Lloyd Garrison était un journaliste et réformateur social abolitionniste américain."
+        "answer": "Il était un abolitionniste, journaliste et réformateur social américain qui a fondé le journal 'The Liberator' militant pour l'abolition de l'esclavage."
       },
       {
-        "question": "Quel était le 이름 du journal fondé par Garrison ?",
-        "answer": "Son journal s'appelait 《 The Liberator 》 (1831-1865)."
+        "question": "Quel est le nom du journal fondé par William Lloyd Garrison ?",
+        "answer": "Le journal qu'il a fondé est 'The Liberator', qui a été publié de 1831 à 1865."
       },
       {
-        "question": "Quelle était sa doctrine abolitionniste ?",
-        "answer": "Il exigeait l'abolition immédiate sans compensation, prônant d'abord la non-violence avant d'appuyer l'Union."
+        "question": "Quelle était la position de William Lloyd Garrison sur l'abolition de l'esclavage ?",
+        "answer": "Il a plaidé pour l'abolition immédiate et sans compensation de l'esclavage, initialement basée sur le pacifisme chrétien, mais a soutenu la lutte armée après le déclenchement de la guerre de Sécession."
       }
     ],
     "sourceVerified": true,
