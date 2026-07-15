@@ -18,7 +18,7 @@ export const LOCALE_STATUS = {
   th: { index: false },
   tr: { index: true },
   uk: { index: false },
-  vi: { index: false },
+  vi: { index: true },
   el: { index: false },
   fa: { index: true },
   he: { index: true },
