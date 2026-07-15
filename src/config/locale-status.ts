@@ -16,12 +16,12 @@ export const LOCALE_STATUS = {
   pl: { index: true },
   sw: { index: true },
   th: { index: false },
-  tr: { index: false },
+  tr: { index: true },
   uk: { index: false },
   vi: { index: false },
   el: { index: false },
   fa: { index: true },
-  he: { index: false },
+  he: { index: true },
   ha: { index: true },
 } as const;
 
