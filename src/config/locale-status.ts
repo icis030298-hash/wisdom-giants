@@ -11,7 +11,7 @@ export const LOCALE_STATUS = {
   zh: { index: true },
   nl: { index: true },
   ru: { index: true },
-  hi: { index: false },
+  hi: { index: true },
   id: { index: true },
   pl: { index: true },
   sw: { index: true },
