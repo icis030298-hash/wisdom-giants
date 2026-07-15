@@ -1,0 +1,552 @@
+{
+  "queen-elizabeth-i": {
+    "slug": "queen-elizabeth-i",
+    "timeline": [
+      { "year": "7 september 1533", "event": "Geboren als dochter van Hendrik VIII en Anna Boleyn" },
+      { "year": "10 september 1533", "event": "Gedoopt" },
+      { "year": "19 mei 1536", "event": "Moeder Anna Boleyn wordt geëxecuteerd" },
+      { "year": "1543", "event": "Haar status als prinses wordt hersteld door een wijziging in de opvolgingswet" },
+      { "year": "1547", "event": "Na de dood van Hendrik VIII bestijgt halfbroer Eduard VI de troon" },
+      { "year": "Mei 1548", "event": "Uit huis gezet door stiefmoeder Catharina Parr" },
+      { "year": "5 september 1548", "event": "Stiefmoeder Catharina Parr sterft" },
+      { "year": "Januari 1549", "event": "Thomas Seymour wordt wegens een ontdekt complot opgesloten in de Tower of London" },
+      { "year": "20 maart 1549", "event": "Thomas Seymour wordt onthoofd" },
+      { "year": "6 juli 1553", "event": "Eduard VI sterft" },
+      { "year": "3 augustus 1553", "event": "Trekt samen met Maria I Londen binnen" },
+      { "year": "18 maart 1554", "event": "Wordt aangewezen als het brein achter de opstand van Wyatt en opgesloten in de Tower of London" },
+      { "year": "16 november 1558", "event": "Maria I erkent Elizabeth als opvolgster" },
+      { "year": "17 november 1558", "event": "Wordt na de dood van Maria I gekroond tot monarch van Engeland en Ierland" },
+      { "year": "15 januari 1559", "event": "Kroning vindt plaats in Westminster Abbey" },
+      { "year": "8 mei 1559", "event": "Een nieuwe Akte van Suprematie wordt afgekondigd" },
+      { "year": "1560", "event": "Amy, de vrouw van Robert Dudley, sterft" },
+      { "year": "Oktober 1562", "event": "Valt Le Havre in Frankrijk binnen" },
+      { "year": "1564", "event": "Robert Dudley wordt benoemd tot graaf van Leicester" },
+      { "year": "1565", "event": "Maria I van Schotland hertrouwt met Henry Stuart, Lord Darnley" },
+      { "year": "19 juni 1566", "event": "Maria I van Schotland bevalt van zoon Jacobus" },
+      { "year": "Begin februari 1567", "event": "Lord Darnley wordt vermoord" },
+      { "year": "1568", "event": "Maria I van Schotland vlucht naar Engeland" },
+      { "year": "1569", "event": "Een grootschalige katholieke opstand breekt uit in het noorden van Engeland" },
+      { "year": "1570", "event": "Paus Pius V verklaart Elizabeth I tot onwettig kind" },
+      { "year": "1578", "event": "Robert Dudley hertrouwt met Lettice Knollys" },
+      { "year": "1581", "event": "Antikatholieke strafwetten worden aangenomen" },
+      { "year": "1582", "event": "De opstand van Gerald FitzGerald breekt uit in Munster" },
+      { "year": "1583", "event": "Humphrey Gilbert sticht een kolonie in Noord-Amerika" },
+      { "year": "1585", "event": "De Engels-Spaanse Oorlog breekt uit" },
+      { "year": "1587", "event": "Francis Drake valt Cádiz aan en vernietigt de Spaanse vloot" },
+      { "year": "8 februari 1587", "event": "Maria I van Schotland wordt onthoofd" },
+      { "year": "12 juli 1588", "event": "Spanje vormt de Spaanse Armada" },
+      { "year": "1589", "event": "Engeland stuurt een grootschalige expeditievloot (de Drake-Norris expeditie) naar Spanje" },
+      { "year": "1589", "event": "Stuurt troepen om de troonsbestijging van Hendrik IV van Frankrijk te steunen" },
+      { "year": "1591", "event": "Het Engelse expeditieleger in Frankrijk wordt vernietigd" },
+      { "year": "1594", "event": "De Negenjarige Oorlog begint in Ierland onder leiding van Hugh O'Neill" },
+      { "year": "Lente 1599", "event": "Het Engelse leger onder leiding van Robert Devereux wordt verslagen in Ierland" },
+      { "year": "31 december 1600", "event": "Verleent een oorkonde aan de Britse Oost-Indische Compagnie" },
+      { "year": "1601", "event": "Het Engelse Lagerhuis dient een petitie in om prijsafspraken af te schaffen" },
+      { "year": "25 februari 1601", "event": "Robert Devereux, graaf van Essex, wordt geëxecuteerd" },
+      { "year": "Februari 1603", "event": "Haar gezondheid gaat snel achteruit door de dood van bekenden" },
+      { "year": "24 maart 1603", "event": "Sterft in Richmond Palace" }
+    ],
+    "keyAchievements": [
+      { "title": "Lange regeerperiode en de laatste monarch van de Tudor-dynastie", "description": "Ze regeerde 44 jaar als koningin van Engeland en Ierland, van haar troonsbestijging in 1558 tot haar dood in 1603, en werd de laatste monarch van de Tudor-dynastie." },
+      { "title": "Vestiging van de Kerk van Engeland", "description": "Keerde het religieuze beleid van Maria I terug en herbevestigde de afscheiding van het katholicisme, waardoor de Kerk van Engeland stevig werd gevestigd." },
+      { "title": "Symboliek als de Maagdenkoningin", "description": "Bleef ondanks talloze huwelijksaanzoeken ongehuwd en stond bekend als de 'Maagdenkoningin' (Virgin Queen). De Amerikaanse staat Virginia werd naar haar vernoemd als eerbetoon." },
+      { "title": "Samenwerking met bekwame functionarissen", "description": "Regeerde in samenwerking met het parlement, bijgestaan door bekwame functionarissen zoals William Cecil." },
+      { "title": "Executie van Maria I van Schotland", "description": "Gebruikte de inlichtingendienst onder leiding van Francis Walsingham om complotten van Maria I van Schotland te verijdelen, die zij liet executeren om de dreiging voor haar troon weg te nemen." },
+      { "title": "Verslaan van de Spaanse Armada", "description": "Droeg bij aan de verpletterende nederlaag van de Spaanse Armada tegen de Engelse marine tijdens de Engels-Spaanse Oorlog." },
+      { "title": "Oprichting van de Britse Oost-Indische Compagnie", "description": "Verleende op 31 december 1600 een oorkonde aan de Britse Oost-Indische Compagnie, waarmee de basis werd gelegd voor overzeese koloniale expansie." }
+    ],
+    "faq": [
+      { "question": "Van wie was Elizabeth I de dochter?", "answer": "Ze werd geboren uit het huwelijk van koning Hendrik VIII en zijn tweede vrouw, Anna Boleyn." },
+      { "question": "Waarom werd Elizabeth I de 'Maagdenkoningin' genoemd?", "answer": "Omdat ze ondanks vele huwelijksaanzoeken vrijgezel bleef. In 1599 verklaarde ze dat ze 'getrouwd was met de natie'." },
+      { "question": "Hoe was het religieuze beleid van Elizabeth I?", "answer": "Ze herriep het katholieke herstelbeleid van Maria I, vestigde de Kerk van Engeland, en nam een tolerante houding aan tegenover katholieken, maar trad streng op tegen puriteinen." },
+      { "question": "Hoe was de relatie tussen Maria I van Schotland en Elizabeth I?", "answer": "Maria I van Schotland was een potentiële bedreiging omdat ze aanspraak maakte op de Engelse troon, en werd uiteindelijk onthoofd door Elizabeth I na de ontdekking van het Babington-complot." },
+      { "question": "Wat was de belangrijkste buitenlandse gebeurtenis tijdens de regeerperiode van Elizabeth I?", "answer": "De belangrijkste gebeurtenis was de nederlaag van de Spaanse Armada in de Engels-Spaanse Oorlog. Andere belangrijke gebeurtenissen waren het overzeese kolonialisme en de oprichting van de Oost-Indische Compagnie." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "ernest-shackleton": {
+    "slug": "ernest-shackleton",
+    "timeline": [
+      { "year": "1874", "event": "15 februari, geboren in Ierland" },
+      { "year": "1901", "event": "Nam deel aan de Antarctische expeditie van Robert Falcon Scott" },
+      { "year": "1901", "event": "Maart, definitief geselecteerd als lid van de Nationale Antarctische Expeditie" },
+      { "year": "1901", "event": "6 augustus, het schip Discovery vertrekt naar Antarctica" },
+      { "year": "1902", "event": "2 januari, ontdekking van een grote ijsberg" },
+      { "year": "1902", "event": "8 januari, ontsnapping uit het pakijs" },
+      { "year": "1902", "event": "20 januari, landde in Granite Harbour in South Victoria Land om rotsmonsters te verzamelen" },
+      { "year": "1902", "event": "30 januari, ontdekking van nieuw land" },
+      { "year": "1902", "event": "4 februari, nam als eerste ter wereld foto's van Antarctica vanuit een heteluchtballon op 240 meter hoogte" },
+      { "year": "1902", "event": "8 februari, voor anker gegaan nabij de McMurdo Sound" },
+      { "year": "1902", "event": "19-22 februari, landreis in Antarctica, ontdekte als eerste een route naar de Zuidpool" },
+      { "year": "1902", "event": "2 november, Scott, Wilson en Shackleton vertrekken richting de Zuidpool" },
+      { "year": "1902", "event": "19 december, op 81 graden zuiderbreedte wordt de Antarctische expeditie als mislukt verklaard" },
+      { "year": "1903", "event": "30 januari, per slee teruggebracht naar de basis" },
+      { "year": "1903", "event": "3 februari, terugkeer naar de Discovery" },
+      { "year": "1903", "event": "1 maart, teruggebracht naar Londen op een reddingsschip" },
+      { "year": "1903", "event": "12 juni, aankomst in Groot-Brittannië" },
+      { "year": "1907", "event": "Leidde zelf een Antarctische expeditie" },
+      { "year": "1907", "event": "25 maart, afronding van de fondsenwerving" },
+      { "year": "1907", "event": "7 augustus, vertrek uit Groot-Brittannië" },
+      { "year": "1907", "event": "Ontving de Koninklijke Orde van Victoria, 4e klasse" },
+      { "year": "1908", "event": "Expeditielid Edgeworth David is de eerste persoon die Mount Erebus beklimt" },
+      { "year": "1909", "event": "9 januari, bereikte 88 graden 23 minuten zuiderbreedte, destijds onbereikbaar voor de mensheid" },
+      { "year": "1909", "event": "Juni, terugkeer naar Groot-Brittannië" },
+      { "year": "1909", "event": "Ontving de Koninklijke Orde van Victoria, 3e klasse" },
+      { "year": "1909", "event": "Werd tot ridder geslagen" },
+      { "year": "1914", "event": "Zette zijn Antarctische expedities voort" },
+      { "year": "1914", "event": "5 december, hervatting van de reis met de Endurance vanaf Zuid-Georgia" },
+      { "year": "1914", "event": "8 december, eerste ontmoeting met een ijsberg" },
+      { "year": "1914", "event": "11 december, breekt door het pakijs" },
+      { "year": "1915", "event": "12 januari, aankomst bij de Coatsland-baai" },
+      { "year": "1915", "event": "15 oktober, ontsnapping uit het pakijs en koers gezet naar open zee" },
+      { "year": "1915", "event": "27 oktober, de Endurance raakt bekneld in het ijs en vergaat" },
+      { "year": "1915", "event": "7 november, het ijs smelt na 70 dagen" },
+      { "year": "1915", "event": "23 december, verlaat Ocean Camp" },
+      { "year": "1916", "event": "10 april, lanceert de boten om naar land te varen; landt op Elephant Island" },
+      { "year": "1916", "event": "24 april, een voorhoede van 6 man vertrekt naar Zuid-Georgia om hulp te halen" },
+      { "year": "1916", "event": "8 mei, aankomst aan de zuidkust van Zuid-Georgia" },
+      { "year": "1916", "event": "15 mei, Shackleton, Worsley en Crean beginnen de oversteek van Zuid-Georgia" },
+      { "year": "1916", "event": "20 mei, aankomst in het walvisvaardersstation" },
+      { "year": "1916", "event": "8 oktober, redding van alle achtergebleven bemanningsleden op Elephant Island" },
+      { "year": "1919", "event": "Ontving de Orde van het Britse Rijk, 4e klasse (militair)" },
+      { "year": "1921", "event": "Zette zijn Antarctische expedities voort" },
+      { "year": "1921", "event": "September, de Quest, met Shackleton aan boord, vertrekt naar Zuid-Georgia" },
+      { "year": "1922", "event": "4 januari, landde in de Stromnessbaai op Zuid-Georgia" },
+      { "year": "1922", "event": "5 januari, sterft aan een hartinfarct als gevolg van atheroom" }
+    ],
+    "keyAchievements": [
+      { "title": "Eerste beklimming van Mount Erebus (Expeditie)", "description": "In 1908 beklom expeditielid Edgeworth David als eerste ter wereld Mount Erebus tijdens een expeditie onder leiding van Shackleton." },
+      { "title": "Bereiken van 88° 23' zuiderbreedte", "description": "Tijdens de Nimrod-expeditie in 1909 bereikte hij 88° 23' zuiderbreedte, een ongeëvenaarde prestatie in die tijd." },
+      { "title": "Redding van de bemanning van de Endurance", "description": "Tijdens de Endurance-expeditie in 1916 wist hij, onder extreme Antarctische omstandigheden, alle 27 bemanningsleden zonder enig verlies te redden." },
+      { "title": "Fotografie van Antarctica", "description": "In 1902 nam hij als eerste ter wereld foto's van Antarctica vanuit een luchtballon op een hoogte van 240 meter." },
+      { "title": "Ontdekking van de landroute naar de Zuidpool", "description": "Tijdens een landreis op Antarctica in 1902 ontdekte hij als eerste de route naar de Zuidpool." }
+    ],
+    "faq": [
+      { "question": "Wanneer en waar werd Ernest Shackleton geboren?", "answer": "Ernest Shackleton werd op 15 februari 1874 geboren in Ierland." },
+      { "question": "Heeft Ernest Shackleton de Zuidpool bereikt?", "answer": "In 1908 moest hij op 155 km van de Zuidpool de expeditie staken wegens voedseltekort. In 1909 bereikte hij echter 88 graden 23 minuten zuiderbreedte." },
+      { "question": "Wat is de beroemdste prestatie van Ernest Shackleton?", "answer": "Zijn beroemdste prestatie was de redding van alle 27 bemanningsleden zonder slachtoffers tijdens de Endurance-expeditie in 1916, onder extreme Antarctische omstandigheden." },
+      { "question": "Hoe is Ernest Shackleton overleden?", "answer": "Hij stierf op 5 januari 1922 aan een hartinfarct tijdens de expeditie met het schip de Quest, in de Stromnessbaai op Zuid-Georgia." },
+      { "question": "Welke onderscheidingen ontving Ernest Shackleton?", "answer": "Hij ontving de Koninklijke Orde van Victoria (4e klasse) in 1907, de Koninklijke Orde van Victoria (3e klasse) en een ridderschap in 1909, en de Orde van het Britse Rijk (4e klasse, militair) in 1919." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "dorothea-dix": {
+    "slug": "dorothea-dix",
+    "timeline": [
+      { "year": "1802", "event": "Geboren in Hampden, Maine." },
+      { "year": "1841", "event": "Begon de verschrikkelijke omstandigheden van geesteszieken in de gevangenissen van Massachusetts te onderzoeken." },
+      { "year": "1843", "event": "Diende een petitie in bij de staatswetgever om een brede hervorming van de geestelijke gezondheidszorg te initiëren." },
+      { "year": "1861", "event": "Werd tijdens de Amerikaanse Burgeroorlog benoemd tot hoofdverpleegster van het leger van de Unie." },
+      { "year": "1887", "event": "Stierf in het door haar opgerichte ziekenhuis in Trenton, New Jersey." }
+    ]
+  },
+  "franz-schubert": {
+    "slug": "franz-schubert",
+    "timeline": [
+      { "year": "1797", "event": "Geboorte van Franz Peter Schubert" },
+      { "year": "1802", "event": "Begon op 5-jarige leeftijd muziekinstrumenten te leren van zijn vader" },
+      { "year": "1803", "event": "Begon zijn formele muziekopleiding op de school van zijn vader" },
+      { "year": "1804", "event": "Kreeg op 7-jarige leeftijd les van Michael Holzer; werd begeleid door Salieri" },
+      { "year": "1808", "event": "Werd als beursstudent toegelaten tot het Stadtkonvikt" },
+      { "year": "1810", "event": "Verliet op 13-jarige leeftijd de school vanwege de baard in de keel en slechte studieresultaten" },
+      { "year": "1814", "event": "Begon als assistent-leraar te werken op de basisschool van zijn vader; componeerde de Mis in F-groot" },
+      { "year": "1815", "event": "Componeerde op 18-jarige leeftijd honderden liederen; componeerde 'Erlkönig', 'Rastlose Liebe' en 'Heidenröslein'" },
+      { "year": "1816", "event": "Op aanraden van Franz von Schober begon hij bij een vriend te wonen om zich aan componeren te wijden; begin van een zwervend bestaan; vermoedelijk besmet met syfilis" },
+      { "year": "1817", "event": "Ontmoette Johann Michael Vogl" },
+      { "year": "1818", "event": "Componeerde de liederen 'Der Tod und das Mädchen' en 'Die Forelle'; werd privéleraar van de familie Esterházy" },
+      { "year": "1819", "event": "Maakte met Vogl een concertreis door Opper-Oostenrijk; zijn muziek werd voor het eerst openbaar uitgevoerd door Vogl; probeerde zonder succes leraar te worden in Laibach; componeerde het lied 'Der Wanderer' en de Symfonie nr. 5" },
+      { "year": "1822", "event": "Componeerde de Symfonie nr. 8 ('Onvoltooide')" },
+      { "year": "1823", "event": "Publiceerde 'Wanderer-Fantasie' en 'Rosamunde'; componeerde 'Die schöne Müllerin'" },
+      { "year": "1824", "event": "Werd opnieuw muziekleraar bij de familie Esterházy; componeerde 'Strijkkwartet'" },
+      { "year": "1825", "event": "Reisde met Vogl naar West-Oostenrijk; componeerde 'Ave Maria'" },
+      { "year": "1827", "event": "Componeerde op 30-jarige leeftijd 'Winterreise'; bezocht Beethoven op 19 maart; woonde de begrafenis van Beethoven bij op 26 maart" },
+      { "year": "1828", "event": "Organiseerde in maart met succes een eigen concert; voltooide Symfonie nr. 9 ('Grote Symfonie'); voltooide in augustus het merendeel van de liederen uit 'Schwanengesang'; werd op 17 november bedlegerig door een onbekende ziekte; stierf op 19 november op 31-jarige leeftijd in Wenen" }
+    ],
+    "keyAchievements": [
+      { "title": "Grondlegger van het 19e-eeuwse Duitse lied", "description": "Als grondlegger van de 19e-eeuwse Duitse liedvorm (Lied) liet hij talloze uitstekende vocale werken na." },
+      { "title": "'Koning van het Lied'", "description": "Omdat hij meer dan 600 liederen componeerde, staat hij bekend als de 'Koning van het Lied'." },
+      { "title": "Belangrijke liedcycli", "description": "Hij componeerde beroemde liedcycli zoals 'Winterreise', 'Die schöne Müllerin' en 'Schwanengesang'." },
+      { "title": "Belangrijke symfonieën", "description": "Zijn Symfonie nr. 8 ('Onvoltooide') en Symfonie nr. 9 ('Grote Symfonie') zijn bijzonder beroemd." },
+      { "title": "Pianokwintet 'Forellenkwintet'", "description": "Hij componeerde het Pianokwintet 'Forellenkwintet', dat een unieke bezetting heeft door een contrabas in plaats van een tweede viool toe te voegen aan een strijkkwartet." },
+      { "title": "Het lied 'Erlkönig'", "description": "Op 17-jarige leeftijd componeerde hij 'Erlkönig', gebaseerd op een gedicht van Goethe." }
+    ],
+    "faq": [
+      { "question": "Waarom wordt Schubert de 'Koning van het Lied' genoemd?", "answer": "Hij componeerde meer dan 600 liederen, velen daarvan excelleren in de Duitse liedvorm (Lied), en hij wordt algemeen beschouwd als de grondlegger van deze 19e-eeuwse muzikale vorm." },
+      { "question": "Waarom is er verwarring over de nummering van Schuberts symfonieën?", "answer": "Na Schuberts dood werden onuitgegeven werken herhaaldelijk ontdekt en herschikt, wat leidde tot verschillende wijzigingen. Tegenwoordig worden verschillende systemen door elkaar gebruikt." },
+      { "question": "Heeft Schubert Beethoven ooit ontmoet?", "answer": "Ja, Schubert bezocht Beethoven op 19 maart 1827, een week voor diens dood, wat hun eerste en laatste ontmoeting was." },
+      { "question": "Wat is de vermoedelijke doodsoorzaak van Schubert?", "answer": "De doodsoorzaak van Schubert is niet volledig opgehelderd, maar tegenwoordig is syfilis de meest aannemelijke theorie." },
+      { "question": "Wat zijn de belangrijkste liedcycli van Schubert?", "answer": "'Winterreise', 'Die schöne Müllerin' en de postuum gepubliceerde 'Schwanengesang' zijn zijn belangrijkste liedcycli." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "ida-b-wells": {
+    "slug": "ida-b-wells",
+    "timeline": [
+      { "year": "16 juli 1862", "event": "Geboren als dochter van slaven, James Wells en Elizabeth Warrenton, in Mississippi." },
+      { "year": "1878", "event": "Ouders stierven aan gele koorts, waardoor ze als minderjarige voor haar jongere broers en zussen moest zorgen." },
+      { "year": "4 mei 1884", "event": "Klaagde de spoorwegmaatschappij aan nadat ze uit een eersteklas treincoupé in Tennessee was gezet." },
+      { "year": "1887", "event": "Het hooggerechtshof van de staat verwierp de uitspraak van de lagere rechtbank in de spoorwegzaak, waardoor Wells de proceskosten moest vergoeden." },
+      { "year": "9 maart 1892", "event": "Haar zwarte vrienden Thomas Moss, Calvin McDowell en Henry Stewart werden door middel van een lynchpartij vermoord." },
+      { "year": "1893", "event": "Zette zich samen met Ferdinand Barnett in om de stem van zwarte mensen te laten horen op de World's Columbian Exposition in Chicago." },
+      { "year": "1893", "event": "Richtte de 'Women's Era Club' op, een burgerrechtenorganisatie voor Afro-Amerikaanse vrouwen in Chicago." },
+      { "year": "1896", "event": "Was betrokken bij de oprichting van de National Association of Colored Women's Clubs." },
+      { "year": "1909", "event": "Medeoprichter van de National Association for the Advancement of Colored People (NAACP)." },
+      { "year": "25 maart 1931", "event": "Stierf in Chicago op 68-jarige leeftijd aan uremie." },
+      { "year": "16 juli 2015", "event": "Google vierde haar 153e verjaardag met een Google Doodle." },
+      { "year": "Februari 2019", "event": "Een verordening werd goedgekeurd om de 'Congress Parkway' in Chicago te hernoemen tot 'Ida B. Wells Drive'." }
+    ],
+    "keyAchievements": [
+      { "title": "Aan de kaak stellen van lynchpartijen via de journalistiek", "description": "Publiceerde artikelen in lokale kranten waarin lynchpartijen tegen zwarten werden veroordeeld, en schreef het boek 'Southern Horrors' om de ernst van het lynchgeweld bekend te maken." },
+      { "title": "Rechtszaak tegen de spoorwegmaatschappij", "description": "Speelde een pioniersrol in de mensenrechtenbeweging van zwarte vrouwen door een spoorwegmaatschappij aan te klagen, nadat ze vanwege haar ras uit de eerste klas was gezet." },
+      { "title": "Oprichting en deelname aan sociale organisaties", "description": "Richtte de 'Women's Era Club' op, speelde een rol bij de oprichting van de 'National Association of Colored Women's Clubs' en was medeoprichter van de NAACP." }
+    ],
+    "faq": [
+      { "question": "Wie was Ida B. Wells?", "answer": "Ida B. Wells was een Amerikaanse zwarte journaliste, krantenredacteur, suffragette, sociologe, voorvechtster van vrouwenrechten en Georgiste. Ze was een leider in de vroege burgerrechtenbeweging en staat symbool voor de zwarte vrouwenbeweging in de 19e eeuw." },
+      { "question": "Bij de oprichting van welke organisaties was Ida B. Wells betrokken?", "answer": "Ze richtte in 1893 de 'Women's Era Club' op, hielp in 1896 de 'National Association of Colored Women's Clubs' op te richten en was in 1909 medeoprichter van de NAACP." },
+      { "question": "Wat deed Ida B. Wells tegen lynchpartijen?", "answer": "Naar aanleiding van de lynchmoorden op haar zwarte vrienden schreef ze artikelen in lokale kranten en publiceerde ze het boek 'Southern Horrors' om het lynchgeweld aan de kaak te stellen." },
+      { "question": "Wat is het verband tussen Ida B. Wells en Rosa Parks?", "answer": "Ze klaagde een spoorwegmaatschappij aan nadat ze vanwege haar ras uit een eersteklas coupé was gezet, waardoor ze een voorloper was van Rosa Parks, die in 1955 de Montgomery-busboycot leidde." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "charles-dickens": {
+    "slug": "charles-dickens",
+    "timeline": [
+      { "year": "7 februari 1812", "event": "Geboren in Portsmouth, Engeland, als tweede zoon van John Dickens en Elizabeth Barrow." },
+      { "year": "1828", "event": "Na als stenograaf in de rechtbank te hebben gewerkt, werd hij journalist-stenograaf voor kranten." },
+      { "year": "1834", "event": "Werd een parlementaire verslaggever voor de 'Morning Chronicle' en publiceerde artikelen onder het pseudoniem 'Boz'." },
+      { "year": "1835", "event": "Droeg stukken bij, waaronder 'Schetsen uit Londen', aan de 'Evening Chronicle', geredigeerd door George Hogarth." },
+      { "year": "1836", "event": "Publiceerde 'Sketches by Boz'." },
+      { "year": "1836", "event": "Werd beroemd door de seriële publicatie van 'The Pickwick Papers'." },
+      { "year": "1837", "event": "Was diep geschokt door de plotselinge dood van zijn schoonzus Mary als gevolg van ziekte." },
+      { "year": "1837-1839", "event": "Publiceerde 'Oliver Twist'." },
+      { "year": "1838-1839", "event": "Publiceerde 'Nicholas Nickleby'." },
+      { "year": "1840-1841", "event": "Publiceerde 'The Old Curiosity Shop'." },
+      { "year": "1841", "event": "Publiceerde 'Barnaby Rudge'." },
+      { "year": "3 januari 1842", "event": "Bezocht Amerika samen met zijn vrouw Catherine aan boord van het stoomschip Britannia." },
+      { "year": "1842", "event": "Publiceerde 'American Notes'." },
+      { "year": "1843", "event": "Publiceerde 'A Christmas Carol'." },
+      { "year": "1843-1844", "event": "Publiceerde 'Martin Chuzzlewit'." },
+      { "year": "1846-1848", "event": "Publiceerde 'Dombey and Son'." },
+      { "year": "1849-1850", "event": "Publiceerde 'David Copperfield'." },
+      { "year": "1851-1853", "event": "Publiceerde 'A Child's History of England'." },
+      { "year": "1852-1853", "event": "Publiceerde 'Bleak House'." },
+      { "year": "1854", "event": "Publiceerde 'Hard Times'." },
+      { "year": "1855-1857", "event": "Publiceerde 'Little Dorrit'." },
+      { "year": "1859", "event": "Publiceerde 'A Tale of Two Cities'." },
+      { "year": "1860-1861", "event": "Publiceerde 'Great Expectations'." },
+      { "year": "1864-1865", "event": "Publiceerde 'Our Mutual Friend'." },
+      { "year": "19 november 1867", "event": "Zijn tweede bezoek aan Amerika vond plaats." },
+      { "year": "1870", "event": "Publiceerde 'The Mystery of Edwin Drood'." },
+      { "year": "9 juni 1870", "event": "Stierf op 58-jarige leeftijd in Gads Hill." }
+    ],
+    "keyAchievements": [
+      { "title": "Publicatie van 'The Pickwick Papers' en verwerving van faam", "description": "Hij werd in één klap beroemd door de seriële uitgave van 'The Pickwick Papers', oorspronkelijk geschreven ter begeleiding van de spotprenten van tekenaar Robert Seymour." },
+      { "title": "Beroemd romanschrijver en sociaal criticus uit het Victoriaanse tijdperk", "description": "Hij creëerde een aantal van de beroemdste fictionele personages ter wereld en was actief als toonaangevende Britse romanschrijver en sociaal criticus uit het Victoriaanse tijdperk." },
+      { "title": "Publieke populariteit en maatschappelijke invloed", "description": "Hij reisde door Groot-Brittannië en Amerika voor voorleessessies van zijn boeken, wat een groot succes was; zijn meningen hadden een aanzienlijke invloed op de maatschappij." },
+      { "title": "Schrijver van vele meesterwerken", "description": "Schreef talrijke meesterwerken, waaronder 'David Copperfield', 'Great Expectations', 'Oliver Twist', 'A Christmas Carol' en 'A Tale of Two Cities'." }
+    ],
+    "faq": [
+      { "question": "Wat voor schrijver was Charles Dickens?", "answer": "Hij creëerde enkele van de beroemdste literaire personages en was de representatieve Engelse romanschrijver en maatschappijcriticus van het Victoriaanse tijdperk." },
+      { "question": "Wat zijn de belangrijkste werken van Charles Dickens?", "answer": "Zijn meesterwerken zijn onder meer 'David Copperfield', 'Great Expectations', 'Oliver Twist', 'A Christmas Carol' en 'A Tale of Two Cities'." },
+      { "question": "Welke jeugdervaringen had Charles Dickens?", "answer": "Op 12-jarige leeftijd werkte hij onder zware omstandigheden als leerjongen in een schoensmeerfabriek. Deze ervaring weerspiegelt zich in zijn autobiografische roman 'David Copperfield'." },
+      { "question": "Waarom bezocht Charles Dickens Amerika?", "answer": "Zijn eerste bezoek in 1842 was om internationale auteursrechten te bespreken; zijn tweede bezoek in 1867 was onderdeel van een leestournee." },
+      { "question": "Wat zijn de belangrijkste kenmerken van de werken van Charles Dickens?", "answer": "Zijn werken bevatten diepe sympathie voor de armen en scherpe kritiek op sociale misstanden, en blinken uit door hun toegankelijkheid en inzicht in actuele maatschappelijke thema's." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Gebeurtenissen uit zijn jeugd, zoals de verhuizing van zijn familie, zijn werk in de schoensmeerfabriek en zijn baan als loopjongen in een advocatenkantoor, vermelden enkel zijn leeftijd en niet het specifieke jaartal. Daarom zijn deze niet opgenomen in de tijdlijn."
+  },
+  "clara-barton": {
+    "slug": "clara-barton",
+    "timeline": [
+      { "year": "1821", "event": "25 december, geboorte van Clarissa \"Clara\" Harlowe Barton" },
+      { "year": "1912", "event": "12 april, overlijden van Clarissa \"Clara\" Harlowe Barton" }
+    ],
+    "keyAchievements": [
+      { "title": "Oprichting van het Amerikaanse Rode Kruis", "description": "Ze is de oprichtster van het Amerikaanse Rode Kruis." },
+      { "title": "Verpleging tijdens de Amerikaanse Burgeroorlog", "description": "Ze was actief als verpleegster tijdens de Amerikaanse Burgeroorlog." }
+    ],
+    "faq": [
+      { "question": "Wie is Clara Barton?", "answer": "Clarissa \"Clara\" Harlowe Barton is de oprichtster van het Amerikaanse Rode Kruis en werkte als verpleegster tijdens de Amerikaanse Burgeroorlog." },
+      { "question": "Wat is de belangrijkste prestatie van Clara Barton?", "answer": "Zij richtte het Amerikaanse Rode Kruis op." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Er is geen specifieke informatie in de originele tekst over haar verpleegwerk tijdens de Burgeroorlog of haar humanitaire werk voor vrouwen na de oorlog."
+  },
+  "james-cook": {
+    "slug": "james-cook",
+    "timeline": [
+      { "year": "7 november 1728", "event": "Geboren in Marton, in North Yorkshire bij Middlesbrough, Engeland" },
+      { "year": "1736", "event": "Zijn vader kreeg een baan als opzichter van een boerderij, waarna de familie naar Great Ayton verhuisde" },
+      { "year": "1741", "event": "Begon op 13-jarige leeftijd met zijn vader te werken" },
+      { "year": "1745", "event": "Op 16-jarige leeftijd begon hij als leerjongen in een winkel in het vissersdorp Staithes" },
+      { "year": "1752", "event": "Werd stuurman op een koopvaardijschip" },
+      { "year": "1755", "event": "Werd gepromoveerd tot kapitein van hetzelfde schip, maar meldde zich nog geen maand later vrijwillig aan bij de Royal Navy" },
+      { "year": "1757", "event": "Slaagde binnen twee jaar na dienstneming voor het examen om schepen van de koning te besturen" },
+      { "year": "1759", "event": "Nam tijdens de Zevenjarige Oorlog deel aan de belegering van Quebec" },
+      { "year": "1762", "event": "Trouwde op 34-jarige leeftijd met Elizabeth Batts in een kerk in Essex" },
+      { "year": "1763", "event": "Bracht het noordwesten van Newfoundland in kaart" },
+      { "year": "1764", "event": "Bracht het noordwesten van Newfoundland in kaart" },
+      { "year": "1765", "event": "Bracht de zuidkust van Newfoundland in kaart, tussen het schiereiland Burin en Cape Ray" },
+      { "year": "1766", "event": "Bracht de zuidkust van Newfoundland in kaart, tussen het schiereiland Burin en Cape Ray; werd door de Royal Society aangesteld als luitenant ter zee en voerde het bevel over de HMS Endeavour voor een expeditie naar de Stille Zuidzee om de overgang van Venus waar te nemen" },
+      { "year": "1767", "event": "Bracht de westkust van Newfoundland in kaart" },
+      { "year": "1768", "event": "Vertrok uit Engeland en begon zijn eerste grote reis" },
+      { "year": "13 april 1769", "event": "Kwam aan op Tahiti, het doel voor de waarneming van de Venusovergang" },
+      { "year": "3 juni 1769", "event": "Waarneming van de Venusovergang" },
+      { "year": "7 oktober 1769", "event": "Bereikte Nieuw-Zeeland als tweede Europeaan ooit" },
+      { "year": "20 april 1770", "event": "Nam het land waar dat hij Point Hicks noemde, en werd zo de eerste Europeaan die de oostkust van Australië bereikte" },
+      { "year": "29 april 1770", "event": "Zette voor het eerst voet aan wal in Australië (huidige Kurnell-schiereiland)" },
+      { "year": "11 juni 1770", "event": "De Endeavour liep vast op het Groot Barrièrerif ten noorden en raakte zwaar beschadigd" },
+      { "year": "22 augustus 1770", "event": "Landde op Possession Island en claimde de oostkust van Australië voor Groot-Brittannië" },
+      { "year": "1771", "event": "Keerde huiswaarts nadat veel bemanningsleden in Batavia aan malaria en dysenterie waren gestorven" },
+      { "year": "12 juni 1771", "event": "De Endeavour ging voor anker bij de Downs in Zuid-Engeland, en Cook ging aan wal in Kent" },
+      { "year": "17 januari 1773", "event": "Als eerste Europeaan passeerde hij de Zuidpoolcirkel (Tweede Reis)" },
+      { "year": "1774", "event": "Bereikte Tonga, Paaseiland, Nieuw-Caledonië en Vanuatu, zeilde om de zuidpunt van Zuid-Amerika en ontdekte Zuid-Georgia en de Zuidelijke Sandwicheilanden (Tweede Reis)" },
+      { "year": "1778", "event": "Werd de eerste Europeaan die de Hawaïaanse eilanden bezocht (Derde Reis)" },
+      { "year": "14 februari 1779", "event": "Overleden" }
+    ],
+    "keyAchievements": [
+      { "title": "Promotie tot Captain in de Royal Navy", "description": "Steeg op van burger tot de rang van Captain (Post-Captain) in de Royal Navy." },
+      { "title": "Reizen door de Stille Oceaan", "description": "Maakte drie grote ontdekkingsreizen door de Stille Oceaan." },
+      { "title": "Bereiken van de Australische oostkust", "description": "Werd de eerste Europeaan die de oostkust van Australië bereikte." },
+      { "title": "Ontdekking van de Hawaïaanse eilanden", "description": "Was de eerste Europeaan die Hawaï ontdekte." },
+      { "title": "Cartografie", "description": "Maakte kaarten van Newfoundland en Nieuw-Zeeland; hij was de eerste die uitgebreide, nauwkeurige zeekaarten van de kust van Newfoundland vervaardigde." },
+      { "title": "Eerste wereldreis zonder doden door scheurbuik", "description": "Voltooide tijdens zijn eerste reis een wereldreis zonder één enkel sterfgeval door scheurbuik." },
+      { "title": "Bijdrage aan Britse kolonisatie", "description": "Zijn verkenningen van de Stille Oceaan legden de basis voor de Britse kolonisatie in de regio." },
+      { "title": "Einde van het Tijdperk van Ontdekkingen", "description": "Zijn reizen markeerden het einde van het Tijdperk van Ontdekkingen, doordat vrijwel de hele wereld in kaart was gebracht voor de Europeanen." },
+      { "title": "Ontdekking van Straat Cook en kartering van Nieuw-Zeeland", "description": "Bracht vrijwel de gehele kustlijn van Nieuw-Zeeland in kaart en ontdekte de Straat Cook, die het Noorder- en Zuidereiland van elkaar scheidt." },
+      { "title": "Eerste oversteek van de Zuidpoolcirkel", "description": "Werd de eerste Europeaan die de Zuidpoolcirkel overstak." },
+      { "title": "Weerlegging van Terra Australis", "description": "Ondanks de ontdekking van Antarctica, toonde hij aan dat het legendarische zuidelijke continent (Terra Australis) niet op bewoonbare breedtegraden bestond." },
+      { "title": "Nauwkeurige lengtegraadbepaling", "description": "Tijdens de tweede reis bewees hij de effectiviteit van de chronometer, wat de bepaling van lengtegraden enorm verbeterde." },
+      { "title": "Kartering van de noordwestkust", "description": "Bracht het grootste deel van de noordwestkust van Amerika in kaart, van Californië tot de Beringstraat, en verkende delen van Alaska." },
+      { "title": "Verslag van wereldreis", "description": "Hield een gedetailleerd handgeschreven logboek bij van zijn wereldreis (Tweede Reis)." }
+    ],
+    "faq": [
+      { "question": "Wie was James Cook?", "answer": "James Cook was een Britse ontdekkingsreiziger, zeevaarder en cartograaf, die zich vanuit het gewone volk opwerkte tot kapitein bij de Royal Navy." },
+      { "question": "Wat zijn zijn belangrijkste prestaties?", "answer": "Hij maakte drie reizen naar de Stille Oceaan, bereikte de oostkust van Australië, ontdekte Hawaï en bracht de kusten van Newfoundland en Nieuw-Zeeland in kaart." },
+      { "question": "Hoe is hij gestorven?", "answer": "Hij werd tijdens zijn derde reis gedood door inheemse bewoners op Hawaï." },
+      { "question": "Heeft hij Australië ontdekt?", "answer": "Hij was de eerste Europeaan die de oostkust van het Australische continent bereikte." },
+      { "question": "Wat was kenmerkend aan zijn eerste reis?", "answer": "Het was de eerste wereldreis in de geschiedenis zonder doden als gevolg van scheurbuik." },
+      { "question": "Wat was het officiële doel van zijn eerste reis?", "answer": "De Royal Society stuurde hem naar de zuidelijke Stille Oceaan om de overgang van Venus waar te nemen." },
+      { "question": "Wat was het doel van zijn tweede reis?", "answer": "De Royal Society stuurde hem opnieuw op weg om het hypothetische zuidelijke continent (Terra Australis) te vinden." },
+      { "question": "Wat was het officiële doel van zijn third reis?", "answer": "Het vinden van de Noordwestelijke Doorvaart, een zeeroute die via de Noordelijke IJszee de Stille Oceaan met de Atlantische Oceaan verbindt." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "meister-eckhart": {
+    "slug": "meister-eckhart",
+    "timeline": [
+      { "year": "Rond 1260", "event": "Geboren in Hochheim, vlakbij Gotha in Thüringen." },
+      { "year": "1302", "event": "Kreeg de titel 'Magister' van de Universiteit van Parijs." },
+      { "year": "1304", "event": "Werd provinciaal overste van de Dominicanen in Saksen." },
+      { "year": "1313", "event": "Keerde terug naar Straatsburg en wijdde zich aan de prediking." },
+      { "year": "Rond 1327", "event": "Tijdstip van overlijden." },
+      { "year": "1980", "event": "Het generaal kapittel van de Dominicaner orde in Walberberg (Duitsland) besloot de Heilige Stoel te verzoeken het vonnis tegen Meister Eckhart te herzien, en richtte de Meister Eckhart Commissie op om materiaal te verzamelen." }
+    ],
+    "keyAchievements": [
+      { "title": "Verkrijging van de Magister-titel", "description": "In 1302 verkreeg hij de titel 'Magister' van de Universiteit van Parijs." },
+      { "title": "Schrijven van het 'Drievoudig Werk' (Opus Tripartitum)", "description": "Keerde terug naar Parijs en schreef zijn <Opus Tripartitum>." },
+      { "title": "Ontwikkeling van de mystiek", "description": "Streefde naar eenwording met God door contemplatief gebed en beschouwde God als een oneindige goddelijkheid die niet door het verstand begrepen kan worden." }
+    ],
+    "faq": [
+      { "question": "Wie is Meister Eckhart?", "answer": "Hij is een Duitse rooms-katholieke mysticus, ook wel Johannes Eckhart of Eckhart von Hochheim genoemd." },
+      { "question": "Wat was zijn theologische hoofdgedachte?", "answer": "Hij streefde naar eenwording met God via contemplatief gebed en zag God als een eindeloos wezen dat onbereikbaar is voor het verstand of de zintuigen." },
+      { "question": "Hoe zat het met de ketterij-aanklacht tegen Meister Eckhart?", "answer": "Hij werd door de Franciscanen van ketterij beschuldigd vanwege zijn theorie van de mens-God-eenwording door de dialectiek van zelfontkenning. Sinds 1980 is er een beweging voor zijn rehabilitatie aan de gang." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Het exacte jaartal van toetreding tot de Dominicanen (slechts vermeld als 'op 15-jarige leeftijd'), de exacte datum en inhoud van het Opus Tripartitum, en details over de strijd met de Franciscanen en de ketterij-aanklacht ontbreken in de originele tekst."
+  },
+  "vitus-bering": {
+    "slug": "vitus-bering",
+    "timeline": [
+      { "year": "5 augustus 1681", "event": "Geboren in Denemarken." },
+      { "year": "19 december 1741", "event": "Overleden aan scheurbuik op Beringeiland." }
+    ],
+    "keyAchievements": [
+      { "title": "Verkenning en benoeming van de Beringstraat", "description": "In opdracht van Peter de Grote van Rusland verkende hij de zeestraat tussen Azië en Amerika, die de Beringstraat werd genoemd." },
+      { "title": "Verkenning van de noordelijke Stille Oceaan", "description": "Verkende het schiereiland Kamtsjatka, de Komandorski-eilanden, de Aleoeten en Alaska." },
+      { "title": "Oorsprong van geografische namen", "description": "Plaatsen zoals de Beringstraat, de Beringzee en Beringeiland zijn naar Vitus Bering vernoemd." }
+    ],
+    "faq": [
+      { "question": "Uit welk land kwam Vitus Bering?", "answer": "Hij was een Deense zeevaarder en ontdekkingsreiziger." },
+      { "question": "Wat heeft Vitus Bering verkend?", "answer": "In opdracht van tsaar Peter de Grote verkende hij de zeestraat tussen Azië en Noord-Amerika. Ook verkende hij Kamtsjatka, de Komandorski-eilanden, de Aleoeten en Alaska." },
+      { "question": "Hoe stierf Vitus Bering?", "answer": "Hij stierf in 1741 aan scheurbuik op Beringeiland." },
+      { "question": "Welke geografische locaties zijn vernoemd naar Vitus Bering?", "answer": "De Beringstraat, de Beringzee en het Beringeiland behoren daartoe." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Informatie over zijn dienstperiode bij de Russische marine is beperkt. Ook ontbreken de precieze jaartallen van zijn verkenningen van de Beringstraat en van de regio's Kamtsjatka, Komandorski-eilanden, Aleoeten en Alaska in de brontekst."
+  },
+  "bartolomeu-dias": {
+    "slug": "bartolomeu-dias",
+    "timeline": [
+      { "year": "Rond 1450", "event": "Geboren nabij Lissabon." },
+      { "year": "1487", "event": "In opdracht van koning Johan II vertrokken met drie schepen om de westkust van Afrika te verkennen en Ethiopië te vinden." },
+      { "year": "1488", "event": "Bereikte met twee schepen de zuidpunt van Afrika." },
+      { "year": "1488", "event": "Rondde de Kaap de Goede Hoop tijdens een zware storm, maar keerde om wegens dreigende muiterij onder de bemanning." },
+      { "year": "1488", "event": "Ontdekte de Kaap op de terugweg en noemde het 'Kaap der Stormen'." },
+      { "year": "1497", "event": "Begeleidde Vasco da Gama tot de Kaapverdische Eilanden." },
+      { "year": "29 mei 1500", "event": "Stierf tijdens een storm op zee op een expeditie naar Brazilië, samen met Pedro Álvares Cabral." }
+    ],
+    "keyAchievements": [
+      { "title": "Bereiken van het zuidelijkste punt van Afrika", "description": "Bereikte in 1488 met twee schepen de zuidelijke punt van Afrika en legde de basis voor de zeeroute naar India." },
+      { "title": "Ontdekking van Kaap der Stormen", "description": "Ontdekte tijdens zijn terugreis een kaap en noemde deze 'Kaap der Stormen', wat later door koning Johan II veranderd werd in 'Kaap de Goede Hoop'." }
+    ],
+    "faq": [
+      { "question": "Wanneer werd Bartolomeu Dias geboren en wanneer stierf hij?", "answer": "Geboren rond 1450 nabij Lissabon, en overleden op 29 mei 1500 tijdens een expeditie naar Brazilië nadat zijn schip in een storm verging." },
+      { "question": "Wat waren de belangrijkste prestaties van Bartolomeu Dias?", "answer": "Hij legde in 1488 de basis voor de Indië-route door het uiterste zuiden van Afrika te bereiken, ontdekte de Kaap en noemde deze de 'Kaap der Stormen'." },
+      { "question": "Wie gaf de naam 'Kaap de Goede Hoop'?", "answer": "Koning Johan II hernoemde de 'Kaap der Stormen', oorspronkelijk zo genoemd door Bartolomeu Dias, tot 'Kaap de Goede Hoop'." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "edward-jenner": {
+    "slug": "edward-jenner",
+    "timeline": [
+      { "year": "17 mei 1749", "event": "Geboren als de zoon van een dominee in Berkeley, Gloucestershire." },
+      { "year": "1761", "event": "Werd leerling van chirurg Daniel Ludlow in Sodbury." },
+      { "year": "1770", "event": "Begon geneeskunde te studeren onder John Hunter aan het St George's Hospital in Londen." },
+      { "year": "1773", "event": "Vestigde zich als arts in zijn geboorteplaats." },
+      { "year": "Rond 1775", "event": "Begon zich te interesseren voor de pokken." },
+      { "year": "1778", "event": "Bundelde zijn observaties over de pokken." },
+      { "year": "1788", "event": "Trouwde met Catherine Kingscote." },
+      { "year": "1792", "event": "Behaalde zijn doctoraat in de geneeskunde aan de Universiteit van St Andrews in Schotland." },
+      { "year": "1793", "event": "De vriendschap met John Hunter eindigde met het overlijden van Hunter." },
+      { "year": "14 mei 1796", "event": "Voerde met succes de eerste koepokinenting uit bij een lokale jongen." },
+      { "year": "1798", "event": "Rapporteerde de resultaten van 23 experimenten aan de Royal Society en publiceerde zijn artikel over de oorzaken en effecten van het pokkenvaccin." },
+      { "year": "1802", "event": "Ontving een subsidie van de overheid (een deel van 30.000 pond)." },
+      { "year": "1803", "event": "De Royal Jennerian Society werd in Londen opgericht om vaccinatie te bevorderen." },
+      { "year": "1807", "event": "Ontving de rest van de overheidssubsidie." },
+      { "year": "1814", "event": "Bracht zijn laatste bezoek aan Londen." },
+      { "year": "26 januari 1823", "event": "Stierf aan een beroerte in zijn geboorteplaats." }
+    ],
+    "keyAchievements": [
+      { "title": "Ontdekking van het koepokkenvaccin", "description": "Door zijn ontdekking van de koepokinenting staat hij bekend als de peetvader van de pokkenvaccinatie." },
+      { "title": "Bedenken van de term vaccin", "description": "Bedacht de term 'vaccine' en 'vaccinatie', afgeleid van het Latijnse woord 'vacca', wat koe betekent." },
+      { "title": "Ontwikkeling en verspreiding van het pokkenvaccin", "description": "Voerde de eerste succesvolle inenting uit bij een jongen op 14 mei 1796, wat bijdroeg aan de ontwikkeling en wereldwijde verspreiding van het pokkenvaccin." }
+    ],
+    "faq": [
+      { "question": "Wie is Edward Jenner?", "answer": "Edward Jenner was een Engelse arts, de ontdekker van de koepokinenting en de peetvader van de vaccinatie tegen pokken." },
+      { "question": "Wanneer werd Edward Jenner geboren en wanneer stierf hij?", "answer": "Hij werd geboren op 17 mei 1749 en overleed op 26 januari 1823." },
+      { "question": "Waar is het woord 'vaccin' door Edward Jenner op gebaseerd?", "answer": "Jenner leidde de woorden 'vaccin' en 'vaccinatie' af van het Latijnse woord voor koe, 'vacca'." },
+      { "question": "Wat is de belangrijkste prestatie van Edward Jenner?", "answer": "Edward Jenner ontdekte de inenting met koepokken en ontwikkelde met succes het pokkenvaccin toen hij op 14 mei 1796 een jongen voor het eerst inëntte." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "emily-dickinson": {
+    "slug": "emily-dickinson",
+    "timeline": [
+      { "year": "1830", "event": "10 december, Emily Elizabeth Dickinson geboren in Amherst, Massachusetts, VS" },
+      { "year": "1886", "event": "15 mei, stierf op vijfenvijftigjarige leeftijd" }
+    ],
+    "keyAchievements": [
+      { "title": "Creatie van poëzie", "description": "Ze schreef bijna 2000 gedichten in haar leven." },
+      { "title": "Belangrijkste thema's van de gedichten", "description": "Ze schreef gedichten met belangrijke thema's zoals liefde, de dood, afscheid, de ziel en de hemel." },
+      { "title": "Tijdens leven geen publieke erkenning", "description": "Tijdens haar leven werd ze niet erkend door het publiek; slechts 4 van haar gedichten werden in gedichtenbundels gepubliceerd." },
+      { "title": "Literaire uitwisseling tijdens haar leven", "description": "Wisselde gestaag gedichten uit per brief met een handvol dichters en intellectuelen die haar talent zagen." },
+      { "title": "Postume erkenning van genialiteit", "description": "Na haar dood werden haar gedichtenbundels uitgegeven door haar jongere zus, Lavinia Norcross Dickinson, en werd haar genie breed erkend." },
+      { "title": "Muzikale herinterpretatie van haar gedichten", "description": "Haar gedichten zijn door beroemde componisten zoals Aaron Copland omgezet in vocale muziek." }
+    ],
+    "faq": [
+      { "question": "Werd Emily Dickinson tijdens haar leven erkend door het publiek?", "answer": "Nee, tijdens haar leven werd ze niet erkend en er werden slechts 4 van haar gedichten gepubliceerd." },
+      { "question": "Wat waren de belangrijkste thema's van de gedichten van Emily Dickinson?", "answer": "Liefde, de dood, afscheid, de ziel en de hemel waren veelvoorkomende thema's in haar gedichten." },
+      { "question": "Hoeveel gedichten heeft Emily Dickinson geschreven?", "answer": "Ze schreef bijna 2000 gedichten." },
+      { "question": "Leefde Emily Dickinson als een kluizenaar?", "answer": "Ze staat erom bekend extreem op zichzelf te zijn en veel binnen te blijven, hoewel ze als kind levendig was en elke dag buiten speelde met de kinderen uit de buurt." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "francisco-de-goya": {
+    "slug": "francisco-de-goya",
+    "timeline": [
+      { "year": "30 maart 1746", "event": "Geboren in Fuendetodos in de Spaanse regio Aragon." },
+      { "year": "Rond 1749", "event": "Zijn familie kocht een huis in Zaragoza en verhuisde daar enkele jaren later naartoe." },
+      { "year": "1763", "event": "Diende een aanvraag in bij de Koninklijke Academie voor Schone Kunsten, maar werd afgewezen." },
+      { "year": "1765", "event": "Werd diep ontroerd door de werken van Velázquez en Rembrandt in Madrid." },
+      { "year": "1766", "event": "Diende opnieuw een aanvraag in bij de Koninklijke Academie voor Schone Kunsten, maar werd weer afgewezen." },
+      { "year": "1771", "event": "Reisde naar Italië en won de tweede prijs op een schilderwedstrijd in Parma, keerde later dat jaar terug naar Zaragoza en werd schilder voor de Basílica del Pilar." },
+      { "year": "25 juli 1773", "event": "Trouwde met Josefa, de zus van Bayeu." },
+      { "year": "1783", "event": "Schilderde een portret van graaf Floridablanca, een vertrouweling van Karel III." },
+      { "year": "1786", "event": "Begon portretten van Karel III te schilderen." },
+      { "year": "1788", "event": "Karel III stierf." },
+      { "year": "1789", "event": "Karel IV bestijgt de troon, en Goya wordt hofschilder." },
+      { "year": "1792", "event": "Werd doof door de hoge koorts veroorzaakt door cholera." },
+      { "year": "1793-1794", "event": "Schilderde een reeks fantasierijke werken." },
+      { "year": "1798", "event": "Schilderde de fresco's van de kapel van San Antonio de la Florida in Madrid." },
+      { "year": "1799", "event": "Publiceerde de prentenreeks 'Los Caprichos' en werd benoemd tot de eerste hofschilder." },
+      { "year": "1800", "event": "Schilderde 'Karel IV en zijn familie' en 'De naakte Maja'." },
+      { "year": "1803", "event": "Schilderde 'De geklede Maja'." },
+      { "year": "1808-1814", "event": "De Spaanse Onafhankelijkheidsoorlog tegen Frankrijk brak uit, wat Goya vastlegde in zijn schilderijen." },
+      { "year": "1810-1820", "event": "Maakte de prentenreeks 'De verschrikkingen van de oorlog' (Los Desastres de la Guerra)." },
+      { "year": "1812", "event": "Zijn vrouw Josefa overleed." },
+      { "year": "1813", "event": "De Spaanse Inquisitie nam de Maja-schilderijen in beslag wegens obsceniteit." },
+      { "year": "1814", "event": "Het Franse leger trok zich terug en Ferdinand VII herstelde de troon." },
+      { "year": "1824", "event": "Verhuisde naar Bordeaux, Frankrijk." },
+      { "year": "1826", "event": "Keerde terug naar Spanje, maar ging wegens gezondheidsredenen terug naar Bordeaux." },
+      { "year": "16 april 1828", "event": "Overleed op 82-jarige leeftijd." }
+    ],
+    "keyAchievements": [
+      { "title": "Status als Romantische schilder en etser", "description": "Goya staat bekend als de toonaangevende Romantische schilder en etser van Spanje, representatief voor de Spaanse schilderkunst van de 18e eeuw en het genie dat de basis legde voor het impressionisme." },
+      { "title": "Werk als hofschilder", "description": "Werd hofschilder in 1789 en de eerste hofschilder in 1799, en schilderde vele portretten van de koning, de koningin en de adel." },
+      { "title": "Publicatie van de prentenreeks 'Los Caprichos'", "description": "Publiceerde in 1799 'Los Caprichos', een reeks aquatint-etsen die de corruptie en bijgeloof van de katholieke kerk aanklaagden." },
+      { "title": "Schilderijen en prentenreeksen van de oorlog", "description": "Creëerde de schilderijen 'De 2e mei 1808' en 'De 3e mei 1808' die de Spaanse Onafhankelijkheidsoorlog documenteerden, evenals de prentenreeks 'De verschrikkingen van de oorlog' (Los Desastres de la Guerra)." },
+      { "title": "De 'Maja' reeks", "description": "Schilderde 'De naakte Maja' en 'De geklede Maja'; 'De naakte Maja' wordt beschouwd als het eerste levensgrote vrouwelijk naakt in de westerse kunstgeschiedenis." },
+      { "title": "De Zwarte Schilderijen", "description": "In zijn laatste jaren creëerde hij de 'Zwarte Schilderijen' (Pinturas Negras) in zijn huis 'Quinta del Sordo', waarin hij de verborgen waanzin van de rede uitbeeldde. 'Saturnus die zijn zoon verslindt' is de bekendste hiervan." }
+    ],
+    "faq": [
+      { "question": "Wat voor soort schilder was Francisco Goya?", "answer": "Hij is de representatieve Spaanse Romantische schilder en graficus, de pionier van de 18e-eeuwse Spaanse schilderkunst en een briljant schilder die de voorloper was van het impressionisme." },
+      { "question": "Wanneer verloor Goya zijn gehoor?", "answer": "In 1792 werd hij doof na hoge koorts als gevolg van cholera." },
+      { "question": "Wat zijn de bekendste prentenreeksen van Goya?", "answer": "'Los Caprichos' uit 1799 en 'De verschrikkingen van de oorlog' (Los Desastres de la Guerra) uit 1810-1820." },
+      { "question": "Wat is er bijzonder aan de 'Maja' schilderijen van Goya?", "answer": "'De naakte Maja' en 'De geklede Maja' beelden dezelfde vrouw af in dezelfde houding. 'De naakte Maja' wordt gewaardeerd als het 'eerste levensgrote vrouwelijke naaktschilderij in de westerse kunst'." },
+      { "question": "Wat was kenmerkend voor de werken uit Goya's late jaren?", "answer": "Na zijn gehoorverlies in 1792 werden zijn schilderijen donkerder. Na de oorlog kregen zijn werken donkere kleuren en zware thema's, uitmondend in de 'Zwarte Schilderijen' op de muren van zijn huis, Quinta del Sordo." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "jane-austen": {
+    "slug": "jane-austen",
+    "timeline": [
+      { "year": "16 december 1775", "event": "Geboren in de parochie van Steventon, Hampshire." },
+      { "year": "1785", "event": "Kreeg onderwijs op de Reading Abbey Girls' School in Reading, Berkshire." },
+      { "year": "1789", "event": "Begon romans te schrijven op 14-jarige leeftijd." },
+      { "year": "1795", "event": "Schreef de briefroman 'Elinor and Marianne'." },
+      { "year": "1796", "event": "Ontmoette Tom Lefroy, een jonge Ier, en schreef 'First Impressions'." },
+      { "year": "November 1797", "event": "Begon met het schrijven van 'Sense and Sensibility', gebaseerd op 'Elinor and Marianne'." },
+      { "year": "1801", "event": "De vader droeg de pastorie over en de familie verhuisde naar Bath (Somerset)." },
+      { "year": "1802", "event": "Ontving een huwelijksaanzoek van Harris Bigg-Wither, maar wees dit de volgende dag af." },
+      { "year": "1803", "event": "Verkocht 'Lady Susan' aan Crosby & Co." },
+      { "year": "21 januari 1805", "event": "Haar vader overleed." },
+      { "year": "1809", "event": "Vestigde zich in Chawton met de hulp van haar broer Edward." },
+      { "year": "1811", "event": "Stuurde 'Mansfield Park' in en publiceerde anoniem 'Sense and Sensibility'." },
+      { "year": "Januari 1813", "event": "Publiceerde 'Pride and Prejudice', gebaseerd op 'First Impressions'." },
+      { "year": "Mei 1814", "event": "Publiceerde 'Mansfield Park'." },
+      { "year": "Oktober 1815", "event": "Droeg vlak voor de publicatie 'Emma' op aan de prins-regent (later koning George IV)." },
+      { "year": "1816", "event": "Werd vaak ziek en was lange tijd bedlegerig." },
+      { "year": "18 juli 1817", "event": "Stierf op 42-jarige leeftijd in Winchester tijdens het schrijven van 'Sanditon'." },
+      { "year": "1818", "event": "Postume publicatie van 'Northanger Abbey' en 'Persuasion'." }
+    ],
+    "keyAchievements": [
+      { "title": "Vroege schrijfcarrière", "description": "Ze begon met schrijven op 14-jarige leeftijd en ontwikkelde zich, met steun van haar familie, tot romanschrijfster." },
+      { "title": "Publicatie van 'Sense and Sensibility'", "description": "Een van haar eerste anoniem gepubliceerde werken uit 1811." },
+      { "title": "Publicatie van 'Pride and Prejudice'", "description": "Gepubliceerd in januari 1813, onder de oorspronkelijke titel 'First Impressions'." },
+      { "title": "Publicatie en opdraging van 'Emma'", "description": "Op verzoek van de prins-regent (later koning George IV) in oktober 1815 aan hem opgedragen en vervolgens gepubliceerd." },
+      { "title": "Grondlegger van de 'Grote Traditie' in de Engelse roman", "description": "Wordt geprezen voor het vestigen van de 'Grote Traditie' in de Engelse roman door haar subtiele observaties en geestige stijl, die het leven van de Britse vrouwen uit de hogere middenklasse in de 18e eeuw weerspiegelden." },
+      { "title": "Sociaalkritisch realisme", "description": "Creëerde een gedetailleerde realistische literaire wereld, met scherpe kritiek en satire op de materialistische en pretentieuze houding van haar tijd." },
+      { "title": "Postume herwaardering en invloed op de popcultuur", "description": "Vanaf de late 19e eeuw toegetreden tot de canon van de literatuur door lovende recensies; in de late 20e eeuw kregen haar werken een cultstatus door talloze verfilmingen en theatrale bewerkingen." }
+    ],
+    "faq": [
+      { "question": "Wanneer is Jane Austen geboren?", "answer": "Ze werd geboren op 16 december 1775 in de pastorie van Steventon, Hampshire." },
+      { "question": "Wat zijn de belangrijkste werken van Jane Austen?", "answer": "'Sense and Sensibility' (1811), 'Pride and Prejudice' (1813), 'Mansfield Park' (1814) en 'Emma' (1816) behoren tot haar meesterwerken." },
+      { "question": "Wat is het kenmerk van Jane Austen's romans?", "answer": "Haar romans worden gekenmerkt door een subtiele blik en geestige schrijfstijl, en richten zich op de levens van vrouwen uit de Engelse midden- en hogere klasse van de 18e eeuw." },
+      { "question": "Was Jane Austen beroemd tijdens haar leven?", "answer": "Tijdens haar leven was ze niet zo beroemd, maar vanaf de 20e eeuw wonnen haar werken enorm aan populariteit, inclusief diverse verfilmingen." },
+      { "question": "Is Jane Austen ooit getrouwd geweest?", "answer": "Ze had een korte romance met de Ier Tom Lefroy die op niets uitliep. In 1802 kreeg ze een aanzoek van Harris Bigg-Wither, wat ze in eerste instantie accepteerde maar een dag later weer weigerde." },
+      { "question": "Wanneer is Jane Austen overleden?", "answer": "Ze stierf op 18 juli 1817 op 42-jarige leeftijd." }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  }
+}

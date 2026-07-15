@@ -1,0 +1,1 @@
+const https = require('https'); ['el', 'ja', 'th'].forEach(lang => { https.get('https://www.giantswisdom.com/' + lang, (res) => { let data = ''; res.on('data', chunk => data += chunk); res.on('end', () => { const match = data.match(/<meta[^>]*name="robots"[^>]*content="([^"]+)"/i); console.log(lang + ': ' + (match ? match[1] : 'not found')); }); }); });

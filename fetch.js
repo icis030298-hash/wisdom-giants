@@ -1,0 +1,1 @@
+const https = require('https'); https.get('https://wisdom-giants.vercel.app/vi/giant/king-sejong', (res) => { let data = ''; res.on('data', c => data+=c); res.on('end', () => { const match = data.match(/<meta[^>]+name=[\"']robots[\"'][^>]*>/i); console.log(match ? match[0] : 'no robots tag found'); }); });

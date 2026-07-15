@@ -1,0 +1,787 @@
+import json
+
+data = {
+  "edgar-degas": {
+    "slug": "edgar-degas",
+    "timeline": [
+      {
+        "year": "Shekarar 1834",
+        "event": "An haife shi a matsayin Hilaire-Germain-Edgar De Gas a Paris, Faransa."
+      },
+      {
+        "year": "Shekarar 1855",
+        "event": "Ya shiga École des Beaux-Arts, ya karanta zane a ƙarƙashin Louis Lamothe."
+      },
+      {
+        "year": "Shekarar 1874",
+        "event": "Ya taimaka wajen shirya da baje kolin ayyukansa a bikin baje kolin Impressionist na farko a Paris."
+      },
+      {
+        "year": "Shekarar 1881",
+        "event": "Ya nuna 'Little Dancer of Fourteen Years', wanda shi ne kawai mutum-mutumin da ya nuna ga jama'a a lokacin rayuwarsa."
+      },
+      {
+        "year": "Shekarar 1917",
+        "event": "Ya mutu a Paris, kusan makaho, ya bar dubban ayyuka da ba a nuna ba."
+      }
+    ]
+  },
+  "oscar-wilde": {
+    "slug": "oscar-wilde",
+    "timeline": [
+      {
+        "year": "Shekarar 1854",
+        "event": "An haife shi a Dublin, Ireland."
+      },
+      {
+        "year": "Shekarar 1890",
+        "event": "Ya buga littafinsa na farko kuma na ƙarshe, 'The Picture of Dorian Gray'."
+      },
+      {
+        "year": "Shekarar 1895",
+        "event": "Ya fara gabatar da wasan kwaikwayonsa mai ban dariya, 'The Importance of Being Earnest'."
+      },
+      {
+        "year": "Shekarar 1895",
+        "event": "An same shi da laifin babban rashin mutunci kuma an yanke masa hukuncin ɗaurin shekaru biyu masu tsanani."
+      },
+      {
+        "year": "Shekarar 1900",
+        "event": "Ya mutu a lokacin da yake gudun hijira a Paris yana da shekaru 46."
+      }
+    ]
+  },
+  "rabindranath-tagore": {
+    "slug": "rabindranath-tagore",
+    "timeline": [
+      {
+        "year": "Shekarar 1861",
+        "event": "An haife shi a Calcutta, Bengal Presidency, British India."
+      },
+      {
+        "year": "Shekarar 1901",
+        "event": "Ya kafa makarantar gwaji a Santiniketan wacce daga baya ta zama Jami'ar Visva-Bharati."
+      },
+      {
+        "year": "Shekarar 1910",
+        "event": "Ya buga 'Gitanjali', wani tarin waƙoƙi masu tasiri sosai."
+      },
+      {
+        "year": "Shekarar 1913",
+        "event": "Ya zama wanda ba ɗan Turai ba na farko da ya lashe kyautar Nobel a fannin Adabi."
+      },
+      {
+        "year": "Shekarar 1941",
+        "event": "Ya mutu a Calcutta yana da shekaru 80."
+      }
+    ]
+  },
+  "sor-juana-ines-de-la-cruz": {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "timeline": [
+      {
+        "year": "Shekarar 1648",
+        "event": "An haife ta kusa da Mexico City, New Spain."
+      },
+      {
+        "year": "Shekarar 1669",
+        "event": "Ta shiga Convent of San Jerónimo inda ta shafe sauran rayuwarta."
+      },
+      {
+        "year": "Shekarar 1689",
+        "event": "An buga littafin waƙoƙinta na 'Inundación Castálida' a Spain."
+      },
+      {
+        "year": "Shekarar 1691",
+        "event": "Ta rubuta 'Respuesta a Sor Filotea', tana kare haƙƙin mata na neman ilimi da bincike."
+      },
+      {
+        "year": "Shekarar 1695",
+        "event": "Ta mutu tana kula da 'yan uwanta mata a lokacin wata annoba a Mexico City."
+      }
+    ]
+  },
+  "li-qingzhao": {
+    "slug": "li-qingzhao",
+    "timeline": [
+      {
+        "year": "Shekarar 1081",
+        "event": "An haife ta a matsayin 'yar Li Gefei."
+      },
+      {
+        "year": "Shekarar 1101",
+        "event": "Ta auri Zhao Mingcheng."
+      },
+      {
+        "year": "Shekarar 1102",
+        "event": "Zhao Mingcheng ya shiga cikin lamarin Yuanyou, inda suka fara rabuwa da Li Qingzhao."
+      },
+      {
+        "year": "Shekarar 1127",
+        "event": "Faduwar Daular Song ta Arewa."
+      },
+      {
+        "year": "Shekarar 1129",
+        "event": "Mutuwar Zhao Mingcheng."
+      },
+      {
+        "year": "Shekarar 1132",
+        "event": "Ta sake auren Zhang Ruzhou."
+      },
+      {
+        "year": "Wajen Shekarar 1155",
+        "event": "Ta mutu."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Rubuta \"Jinshi Lu\" (Littafin Karfe da Duwatsu)",
+        "description": "Tare da mijinta Zhao Mingcheng, sun yi nazarin rubutun karfe da duwatsu, tare da tattara \"Jinshi Lu\"."
+      },
+      {
+        "title": "Samar da waƙoƙin Song Ci",
+        "description": "Ta gabatar da ayyuka masu haske waɗanda ke bin al'adar Li Yu da Yan Jidao, tare da kyakkyawan bayani mai cike da hazaka."
+      },
+      {
+        "title": "Yin tsokaci kan mawaƙan daular Song",
+        "description": "An san ta da yin dacewar sharhi ga mawaƙan lokacin daular Song."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Wacece Li Qingzhao?",
+        "answer": "Li Qingzhao mawaƙiya ce 'yar ƙasar Sin daga lokacin Daular Song ta Kudu, wacce aka fi sani da Yi'an Jushi. An haife ta a shekarar 1081, a ƙarshen Daular Song ta Arewa."
+      },
+      {
+        "question": "Menene manyan nasarorin Li Qingzhao?",
+        "answer": "Tare da mijinta Zhao Mingcheng, sun tattara \"Jinshi Lu\". Ta sami yabo a tarihin adabi saboda ƙirƙirar waƙoƙin Song Ci, waɗanda suke da haske kuma suna nuna bayani mai cike da hazaka."
+      },
+      {
+        "question": "Yaya rayuwar Li Qingzhao ta canza?",
+        "answer": "Rayuwarta ta kasu kashi biyu bayan faduwar daular Song ta Arewa: a rabin farko, ta rubuta ayyuka masu cike da farin ciki da soyayya, yayin da a rabi na biyu, ta rubuta ayyuka da ke nuna bakin cikin lokacin da kuma na kashin kanta."
+      }
+    ],
+    "sourceVerified": True,
+    "missingDataNote": "Shekarar haihuwar Li Qingzhao ta zo daban-daban a matsayin 1084 da 1081 a ainihin rubutun, don haka mun ɗauki 1081 wanda aka ambata a cikin sashin 'rayuwa'."
+  },
+  "william-wilberforce": {
+    "slug": "william-wilberforce",
+    "timeline": [
+      {
+        "year": "Shekarar 1759",
+        "event": "An haife shi a Kingston upon Hull, Yorkshire, Ingila."
+      },
+      {
+        "year": "Shekarar 1780",
+        "event": "An zabe shi a matsayin ɗan majalisa mai wakiltar Kingston upon Hull."
+      },
+      {
+        "year": "Shekarar 1787",
+        "event": "Ya fara sadaukar da rayuwarsa domin soke cinikin bayayi."
+      },
+      {
+        "year": "Shekarar 1807",
+        "event": "An zartar da Dokar Cinikin Bayayi, wacce ta kawar da cinikin bayayi a Daular Birtaniya gaba ɗaya."
+      },
+      {
+        "year": "Shekarar 1833",
+        "event": "Ya mutu kwanaki uku kacal bayan ya ji cewa Dokar Soke Bautar ta wuce a majalisa."
+      }
+    ]
+  },
+  "toussaint-louverture": {
+    "slug": "toussaint-louverture",
+    "timeline": [
+      {
+        "year": "20 ga Mayu, 1743",
+        "event": "An haifi François-Dominique Toussaint (Toussaint Louverture)."
+      },
+      {
+        "year": "Shekarar 1789",
+        "event": "Bayan jin labarin Juyin Juya Halin Faransa, bakaken bayi sun nemi a yi amfani da ka'idojin 'Yanci, Daidaito, da 'Yan'uwanci a Saint-Domingue."
+      },
+      {
+        "year": "22 ga Agusta, 1791",
+        "event": "An fara juyin juya halin bayi a yankin Faransa na Saint-Domingue, inda Toussaint ya zama ɗaya daga cikin shugabanni."
+      },
+      {
+        "year": "Shekarar 1793",
+        "event": "Ya tattauna yarjejeniya inda Faransa ta soke bauta a yankunanta."
+      },
+      {
+        "year": "Agusta 1793",
+        "event": "Ya yi nasarar kare mamayewar da sojojin Birtaniya da na Spain suka yi."
+      },
+      {
+        "year": "4 ga Fabrairu, 1794",
+        "event": "Majalisar Kasa ta Jamhuriyar Faransa ta Farko ta ayyana soke bautar bakar fata a dukkanin yankunanta."
+      },
+      {
+        "year": "Afrilu 1796",
+        "event": "Ya gudanar da mulkin yankin da amincewar gwamnan Faransa."
+      },
+      {
+        "year": "Shekarar 1801",
+        "event": "Ya fitar da tsarin mulki wanda ya soke bauta har abada kuma ya bayyana cewa dukkan mutane suna da daidaito ba tare da la'akari da kalar fatarsu ba."
+      },
+      {
+        "year": "Shekarar 1802",
+        "event": "Napoleon I ya tura runduna mai girma don dawo da ikon mulki da sake kafa bauta."
+      },
+      {
+        "year": "Ƙarshen Shekarar 1802",
+        "event": "Toussaint ya halarci tattaunawar zaman lafiya amma aka kamo shi."
+      },
+      {
+        "year": "7 ga Afrilu, 1803",
+        "event": "Ya mutu a kurkuku a Faransa."
+      },
+      {
+        "year": "Shekarar 1803",
+        "event": "Jama'ar da suka gaji ruhin Toussaint sun 'yantar da Port-au-Prince kuma suka amince da bayanin neman 'yancin kai."
+      },
+      {
+        "year": "Shekarar 1804",
+        "event": "An kafa Jamhuriyar Haiti."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Jagorantar fafutukar neman 'yancin kan Haiti",
+        "description": "Ya kawo karshen bauta sannan ya jagoranci fafutukar neman 'yancin kan Saint-Domingue (yanzu Haiti) daga Faransa."
+      },
+      {
+        "title": "Yin aiki a matsayin Janar din sojojin Faransa kuma mai mulkin mallaka",
+        "description": "Ya yi aiki a matsayin Janar a cikin sojojin Faransa kuma mai gudanarwa na Saint-Domingue."
+      },
+      {
+        "title": "Jagorancin juyin juya halin bayi",
+        "description": "Ya kasance daya daga cikin shugabannin juyin juya halin bayin da ya faru a Saint-Domingue a 1791."
+      },
+      {
+        "title": "Tattauna kan soke bauta",
+        "description": "Ya tattauna don Faransa ta soke bauta a yankunanta a matsayin sharadin fatattakar sojojin Birtaniya da Spain."
+      },
+      {
+        "title": "Kirkiro tsarin mulki da ayyana soke bauta",
+        "description": "A shekarar 1801, ya fitar da tsarin mulki wanda ya soke bauta har abada kuma ya bayyana daidaiton dukkan mutane ba tare da la'akari da kalar fatarsu ba."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Wanene Toussaint Louverture?",
+        "answer": "Dan juyin juya hali kuma mai fafutukar neman 'yancin kan Haiti wanda ya kawo karshen bauta sannan ya jagoranci fafutukar neman 'yancin kan Saint-Domingue (yanzu Haiti) daga Faransa."
+      },
+      {
+        "question": "Menene asalin sunan Toussaint Louverture?",
+        "answer": "Sunansa François-Dominique Toussaint."
+      },
+      {
+        "question": "Ta yaya Toussaint Louverture ya zama dan juyin juya hali?",
+        "answer": "Ya zama dan juyin juya hali ta hanyar koyon Faransanci da kansa da kuma karanta littattafan masana irin su Voltaire."
+      },
+      {
+        "question": "Yaushe juyin juya halin bayin da Toussaint Louverture ya jagoranta ya faru?",
+        "answer": "Ya faru a ranar 22 ga Agusta, 1791, a yankin Faransa na Saint-Domingue."
+      },
+      {
+        "question": "Ta yaya Toussaint Louverture ya mutu?",
+        "answer": "Ya amince da tayin tattaunawar zaman lafiya da kwamandan sojojin Faransa ya yi a karshen 1802, amma aka kamo shi aka daure a Faransa, inda ya mutu a kurkuku a ranar 7 ga Afrilu, 1803."
+      },
+      {
+        "question": "Me ya faru da Haiti bayan mutuwar Toussaint Louverture?",
+        "answer": "Jean-Jacques Dessalines ya zama dan juyin juya hali kuma ya ci gaba da ruhin Toussaint. Ya 'yantar da Port-au-Prince a 1803, ya karbi bayanin neman 'yancin kai, kuma ya ayyana Jamhuriyar Haiti a 1804."
+      }
+    ],
+    "sourceVerified": True,
+    "missingDataNote": ""
+  },
+  "sojourner-truth": {
+    "slug": "sojourner-truth",
+    "timeline": [
+      {
+        "year": "Shekarar 1797",
+        "event": "An haife ta a matsayin baiwa mai suna Isabella Baumfree a Ulster County, New York."
+      },
+      {
+        "year": "Shekarar 1826",
+        "event": "Ta tsere da 'yarta jaririya don neman 'yanci."
+      },
+      {
+        "year": "Shekarar 1828",
+        "event": "Ta zama bakar mace ta farko da ta lashe shari'a kan farin namiji, don dawo da danta."
+      },
+      {
+        "year": "Shekarar 1851",
+        "event": "Ta yi shahararren jawabin ta na 'Ain't I a Woman?' a taron Hakkin Mata na Ohio."
+      },
+      {
+        "year": "Shekarar 1883",
+        "event": "Ta mutu a gidanta da ke Battle Creek, Michigan."
+      }
+    ]
+  },
+  "emmeline-pankhurst": {
+    "slug": "emmeline-pankhurst",
+    "timeline": [
+      {
+        "year": "Shekarar 1858",
+        "event": "An haife ta a Moss Side, Manchester, Ingila."
+      },
+      {
+        "year": "Shekarar 1889",
+        "event": "Ta kafa Kungiyar Neman 'Yancin Zabe ta Mata (Women's Franchise League)."
+      },
+      {
+        "year": "Shekarar 1903",
+        "event": "Ta kafa kungiyar Women's Social and Political Union (WSPU), wacce aka sani da fafutukar neman zabe ga mata."
+      },
+      {
+        "year": "Shekarar 1914",
+        "event": "Ta dakatar da gwagwarmayar neman yancin zabe don tallafawa kokarin yakin gwamnatin Birtaniya yayin yakin duniya na daya."
+      },
+      {
+        "year": "Shekarar 1928",
+        "event": "Ta mutu 'yan makwanni kadan kafin gwamnati ta ba wa dukkan mata da suka haura shekaru 21 'yancin zabe daidai da maza."
+      }
+    ]
+  },
+  "jose-rizal": {
+    "slug": "jose-rizal",
+    "timeline": [
+      {
+        "year": "1882",
+        "event": "Ya tafi Spain don yin karatu a matsayin likita."
+      },
+      {
+        "year": "1887",
+        "event": "A cikin watan Fabrairu a Berlin, ya kammala rubuta littafinsa mai suna \"Noli Me Tángere\"."
+      },
+      {
+        "year": "1892",
+        "event": "Ya kafa \"La Liga Filipina,\" wata kungiya ta jagoranci don fafutukar neman 'yancin kan Philippines."
+      },
+      {
+        "year": "1892",
+        "event": "Yayin da yake gudanar da ayyukan kungiyar, gwamnatin kasar Spain ta kama shi kuma ta yi masa gudun hijira zuwa Dapitan, tsibirin Mindanao."
+      },
+      {
+        "year": "1896",
+        "event": "An zarge shi a matsayin shugaban da ke da hannu a juyin juya halin Philippines, kuma sojojin mulkin mallaka na Spain suka harbe shi a fili a Bagumbayan kusa da Manila a ranar 30 ga Disamba."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Rubuta \"Noli Me Tángere\"",
+        "description": "Ya rubuta littafin \"Noli Me Tángere,\" wanda ya soki rikicewar mulkin mallaka kuma ya kwatanta yadda Turawan Spain ke nuna wariya ga 'yan Philippines."
+      },
+      {
+        "title": "Kafa kungiyar hadin kan kishin kasa ta Philippines",
+        "description": "Ya kafa kungiyar hadin kan kishin kasa ta Philippines don yin suka ga mulkin mallaka na Spain saboda burinsa na ganin an 'yantar da Philippines."
+      },
+      {
+        "title": "Kafa La Liga Filipina",
+        "description": "Ya kafa \"La Liga Filipina,\" wanda shi ne jagoranci don yunkurin neman 'yancin kan Philippines."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Wanene José Rizal?",
+        "answer": "Likita ne, marubuci, mawaki, dan jarida, malami, kuma dan gwagwarmayar neman 'yancin kan Philippines."
+      },
+      {
+        "question": "Me yasa aka kashe José Rizal?",
+        "answer": "An harbe shi a gaban jama'a a shekarar 1896 daga sojojin mulkin mallaka na Spain saboda an zarge shi da zama shugaban masu kula da juyin juya halin Philippines."
+      },
+      {
+        "question": "Menene shahararrun ayyukan José Rizal?",
+        "answer": "Shi ne marubucin \"Noli Me Tángere\" da \"El Filibusterismo,\" kuma ya rubuta wakoki da kasidu da dama."
+      },
+      {
+        "question": "Ta yaya ake tunawa da José Rizal a Philippines?",
+        "answer": "Ana girmama shi a matsayin uban 'yancin kan Philippines, kuma ana bikin 30 ga Disamba, ranar da ya mutu, a matsayin Ranar José Rizal."
+      }
+    ],
+    "sourceVerified": True
+  },
+  "mary-wollstonecraft": {
+    "slug": "mary-wollstonecraft",
+    "timeline": [
+      {
+        "year": "27 ga Afrilu, 1759",
+        "event": "An haife ta a matsayin 'ya ta biyu ga Edward John Wollstonecraft da Elizabeth Dickson a Spitalfields, London."
+      },
+      {
+        "year": "Shekarar 1778",
+        "event": "Ta sami 'yancin kanta ta hanyar aiki a matsayin mai tayawa Sarah Dawson hira a Bath, Somerset."
+      },
+      {
+        "year": "Shekarar 1780",
+        "event": "Ta koma gida don kasancewa da mahaifiyarta mai fama da rashin lafiya a kan gadon mutuwarta."
+      },
+      {
+        "year": "Shekarar 1784",
+        "event": "Ta gamsar da 'yar uwarta Eliza, wacce ke fama da damuwa bayan haihuwa, da ta tsere daga aurenta mara dadi."
+      },
+      {
+        "year": "Shekarar 1785",
+        "event": "Ta bar makarantar da ta kafa don bin kawarta Fanny Blood zuwa Lisbon domin ta yi jinyarta."
+      },
+      {
+        "year": "Shekarar 1787",
+        "event": "Ta buga \"Thoughts on the Education of Daughters\"; ta yanke shawarar zama marubuciya."
+      },
+      {
+        "year": "Shekarar 1788",
+        "event": "Ta buga littafinta na farko, \"Mary: A Fiction\"; kuma ta buga littafinta tilo na yara, \"Original Stories from Real Life.\""
+      },
+      {
+        "year": "Shekarar 1790",
+        "event": "Ta rubuta \"A Vindication of the Rights of Men\" a matsayin mayar da martani ga littafin Edmund Burke \"Reflections on the Revolution in France.\""
+      },
+      {
+        "year": "Shekarar 1792",
+        "event": "Ta rubuta aikinta mafi shahara kuma mai tasiri, \"A Vindication of the Rights of Woman\"; a watan Disamba ta tafi Paris, sannan ta dawo wata daya kafin kashe Louis na XVI."
+      },
+      {
+        "year": "Fabrairu 1793",
+        "event": "Faransa ta ayyana yaki akan Birtaniya."
+      },
+      {
+        "year": "Maris 1793",
+        "event": "Kwamitin Tsaron Jama'a, karkashin jagorancin Jacobins, ya dauki mulki a Faransa."
+      },
+      {
+        "year": "Shekarar 1793",
+        "event": "Ta kamu da son wani dan kasadar Amurka, Gilbert Imlay; Imlay yayi rajistarta a matsayin matarsa ta karya domin ta sami shaidar zama 'yar kasar Amurka."
+      },
+      {
+        "year": "1 ga Mayu, 1794",
+        "event": "Ta haifi 'yarta ta farko, Fanny Imlay."
+      },
+      {
+        "year": "Yuli 1794",
+        "event": "Faduwar Jacobins."
+      },
+      {
+        "year": "Disamba 1794",
+        "event": "\"An Historical and Moral View of the French Revolution,\" wanda aka rubuta a Le Havre, Arewacin Faransa, an buga shi a London."
+      },
+      {
+        "year": "7 ga Afrilu, 1795",
+        "event": "Ta bar Faransa."
+      },
+      {
+        "year": "Afrilu 1795",
+        "event": "Ta koma London don neman Imlay, amma ya ƙi amincewa su sasanta."
+      },
+      {
+        "year": "Mayu 1795",
+        "event": "Ta yi kokarin kashe kanta ta hanyar amfani da gubar laudanum, amma Imlay ya ceci ranta."
+      },
+      {
+        "year": "Shekarar 1796",
+        "event": "Ta buga \"Letters Written During a Short Residence in Sweden, Norway, and Denmark,\" tarin wasiƙun da ta rubuta wa Imlay yayin tafiye-tafiyenta a Scandinavia."
+      },
+      {
+        "year": "29 ga Maris, 1797",
+        "event": "Ta koma Somers Town, a arewa maso yammacin London, tare da William Godwin."
+      },
+      {
+        "year": "30 ga Agusta, 1797",
+        "event": "Ta haifi 'yarta ta biyu, Mary."
+      },
+      {
+        "year": "10 ga Satumba, 1797",
+        "event": "Ta mutu daga cutar zazzabin haihuwa (tana da shekaru 38)."
+      },
+      {
+        "year": "Shekarar 1798",
+        "event": "An buga littafinta da ba a kammala ba, \"Maria: or, The Wrongs of Woman,\" bayan mutuwarta."
+      },
+      {
+        "year": "Janairu 1798",
+        "event": "Mijinta, William Godwin, ya buga \"Memoirs of the Author of A Vindication of the Rights of Woman.\""
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "\"A Vindication of the Rights of Woman\" (1792)",
+        "description": "Shi ne littafin falsafar mata na farko wanda ya ba da kariya ga yancin ilimi da daidaiton yancin mata, yana jayayya cewa mata ba su gaza maza ba face kawai sun rasa ilimi ne."
+      },
+      {
+        "title": "\"A Vindication of the Rights of Men\" (1790)",
+        "description": "A matsayin mayar da martani ga Edmund Burke na \"Reflections on the Revolution in France,\" shi ne rubutun siyasa na farko kuma na masu fafutukar kare hakkin mata wanda ya kai hari ga tsarin sarauta, ya kare jamhuriya, kuma ya soki yaren da Burke ya yi amfani da shi mai nuna son zuciyar jinsi."
+      },
+      {
+        "title": "\"An Historical and Moral View of the French Revolution\" (1794)",
+        "description": "Littafi ne da ke takaita tarihin farko na juyin juya halin Faransa, inda yake mayar da martani ga yanayin kin juyin juya hali a Birtaniya, kuma yana jayayya cewa juyin juya halin ya samo asali ne daga rikicin zamantakewa, tattalin arziki, da siyasa."
+      },
+      {
+        "title": "\"Letters Written During a Short Residence in Sweden, Norway, and Denmark\" (1796)",
+        "description": "Yana da wani littafin tafiye-tafiye ne dauke da tunani game da al'umma da mutanen Scandinavia, tambayoyi kan asali, da kuma dangantakarta da Imlay, yana bincika darajar gogewar mutum da hasashe yayin da yake ba da goyon baya ga 'yancin mata da ilimi."
+      },
+      {
+        "title": "Rubuce-rubucen Ilimi",
+        "description": "Ta hanyar \"Thoughts on the Education of Daughters\" (1787) da littafin yara \"Original Stories from Real Life\" (1788), ta ce ya kamata yara su koyi yin tunani mai zurfi da kuma dabi'un aji na matsakaita."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Menene mafi shaharar littafin Mary Wollstonecraft?",
+        "answer": "Mafi shaharar littafinta shi ne \"A Vindication of the Rights of Woman,\" wanda aka buga a shekarar 1792."
+      },
+      {
+        "question": "Wane irin ra'ayi Mary Wollstonecraft ke da shi game da ilimin mata?",
+        "answer": "Ta yi jayayya cewa mata a dabi'ance ba su kasa maza ba; kawai suna bayyana a matsayin kasa da maza saboda rashin ilimi, don haka ya kamata su sami ilimi mai kyau."
+      },
+      {
+        "question": "Akwai wata shahararriyar mutum a cikin 'ya'yan Mary Wollstonecraft?",
+        "answer": "E, 'yarta ta biyu, Mary Wollstonecraft Godwin, ta auri Percy Bysshe Shelley daga baya ta zama Mary Shelley, marubuciyar littafin nan mai suna \"Frankenstein.\""
+      },
+      {
+        "question": "Wane masanin falsafa ne Mary Wollstonecraft ta yi mu'amala da shi?",
+        "answer": "Ta yi mu'amala da marubuci mai tsatsauran ra'ayi Thomas Paine, masanin falsafa William Godwin, da sauransu, kuma ta auri William Godwin musamman."
+      },
+      {
+        "question": "Menene matsayin Mary Wollstonecraft game da juyin juya halin Faransa?",
+        "answer": "Ta yi la'akari da mulkin Jacobins da Mulkin Ta'addanci, amma a lokaci guda ta ci gaba da kasancewa a kan cewa juyin juya halin babbar nasara ce."
+      }
+    ],
+    "sourceVerified": True,
+    "missingDataNote": ""
+  },
+  "lucretia-mott": {
+    "slug": "lucretia-mott",
+    "timeline": [
+      {
+        "year": "Shekarar 1793",
+        "event": "An haife ta a matsayin Lucretia Coffin a Nantucket, Massachusetts."
+      },
+      {
+        "year": "Shekarar 1833",
+        "event": "Ta taimaka wajen kafa Kungiyar Yaki da Bauta ta Mata ta Philadelphia."
+      },
+      {
+        "year": "Shekarar 1840",
+        "event": "Ta halarci Taron Yaki da Bauta na Duniya a London amma ba a ba ta gurbi ba saboda jinsinta."
+      },
+      {
+        "year": "Shekarar 1848",
+        "event": "Ta haɗa gwiwa wajen shirya Taron Seneca Falls, taron farko na yancin mata."
+      },
+      {
+        "year": "Shekarar 1880",
+        "event": "Ta mutu a Cheltenham, Pennsylvania."
+      }
+    ]
+  },
+  "marco-polo": {
+    "slug": "marco-polo",
+    "timeline": [
+      {
+        "year": "Shekarar 1254",
+        "event": "An haife shi a cikin wani dangi na masu arziki a Jamhuriyar Venice."
+      },
+      {
+        "year": "Shekarar 1271",
+        "event": "Ya bar Venice tare da mahaifinsa da baffansa don fara tafiya mai nisa zuwa Asiya."
+      },
+      {
+        "year": "Shekarar 1275",
+        "event": "Ya isa fadar Kublai Khan a kasar Sin kuma yayi aiki a matsayin jakada na tsawon shekaru 17."
+      },
+      {
+        "year": "Shekarar 1298",
+        "event": "Yayin da yake gidan yari a hannun mutanen Genoa, ya fada wa wani a rubuta littafinsa mai suna \"The Travels of Marco Polo.\""
+      },
+      {
+        "year": "Shekarar 1324",
+        "event": "Ya mutu a matsayin mai arziki a Venice, inda ya bar gado mai dorewa a fannin bincike da kewayawa."
+      }
+    ]
+  },
+  "vasco-da-gama": {
+    "slug": "vasco-da-gama",
+    "timeline": [
+      {
+        "year": "Shekarar 1469",
+        "event": "An haife shi a matsayin ɗa na uku na Estêvão da Gama a Sines, Portugal."
+      },
+      {
+        "year": "Wajen Shekarar 1480",
+        "event": "Ya shiga Order of Santiago, inda Yarima John (daga baya John II) ya kasance Babban Malami."
+      },
+      {
+        "year": "Shekarar 1492",
+        "event": "Sarki John II ya tura shi zuwa Algarve don magance rikici da Faransa."
+      },
+      {
+        "year": "8 ga Yuli, 1497",
+        "event": "Ya tashi daga tashar jiragen ruwa na Belém a Lisbon don tafiyarsa ta farko zuwa Indiya."
+      },
+      {
+        "year": "2 ga Maris, 1498",
+        "event": "Ya fara zama a wani tsibiri kusa da Mozambique."
+      },
+      {
+        "year": "7 ga Afrilu, 1498",
+        "event": "Ya isa tashar jiragen ruwa ta Mombasa."
+      },
+      {
+        "year": "14 ga Afrilu, 1498",
+        "event": "Ya isa Malindi."
+      },
+      {
+        "year": "24 ga Afrilu, 1498",
+        "event": "Ya bar Malindi zuwa Indiya tare da wani sabon matuƙin jirgin ruwa."
+      },
+      {
+        "year": "20 ga Mayu, 1498",
+        "event": "Ya isa Calicut, Indiya."
+      },
+      {
+        "year": "Karshen Agusta 1498",
+        "event": "Ya bar Calicut ya fara tafiyar dawowa gida."
+      },
+      {
+        "year": "29 ga Agusta, 1498",
+        "event": "Ya taso daga Indiya."
+      },
+      {
+        "year": "7 ga Janairu, 1499",
+        "event": "Ya isa Malindi."
+      },
+      {
+        "year": "9 ga Satumba, 1499",
+        "event": "Ya koma Lisbon."
+      },
+      {
+        "year": "12 ga Fabrairu, 1502",
+        "event": "Ya umurci tawagar farko na tafiya ta biyu zuwa Indiya kuma ya bar gida."
+      },
+      {
+        "year": "Yuni 1502",
+        "event": "Ya isa Mozambique, ya kafa wurin kasuwanci, kuma ya rattaba hannu kan yarjejeniyar ciniki da Sofala."
+      },
+      {
+        "year": "20 ga Agusta, 1502",
+        "event": "Ya isa tsibirin Anjediva kusa da Goa, Indiya."
+      },
+      {
+        "year": "29 ga Satumba, 1502",
+        "event": "An kame jirgin aikin hajji na Musulunci \"Miri,\" wanda ya haifar da kisan kiyashi."
+      },
+      {
+        "year": "18 ga Oktoba, 1502",
+        "event": "Ya koma Kannur don yin tattaunawar ciniki."
+      },
+      {
+        "year": "29 ga Oktoba, 1502",
+        "event": "Ya isa gaɓar tekun Calicut."
+      },
+      {
+        "year": "1 ga Nuwamba, 1502",
+        "event": "Ya kaddamar da harin wuta ba gaira ba dalili a tashar jirgin ruwa ta Calicut."
+      },
+      {
+        "year": "Farkon Shekarar 1503",
+        "event": "Ya jagoranci jiragen ruwa cike da kayan kamshi daga Indiya kuma ya fara tafiyar dawowa gida."
+      },
+      {
+        "year": "Wajen Satumba 1503",
+        "event": "Ya isa Lisbon."
+      },
+      {
+        "year": "Shekarar 1514",
+        "event": "An nada shi Mataimakin Sarkin Indiya; ya tashi daga Lisbon a watan Afrilu kuma ya isa Indiya a watan Satumba (Tafiyarsa ta 3)."
+      },
+      {
+        "year": "Shekarar 1519",
+        "event": "Sarki Manuel I ya ba shi lakabin Count of Vidigueira don karrama gudummawar da ya bayar wajen gano sabbin hanyoyin teku."
+      },
+      {
+        "year": "Shekarar 1521",
+        "event": "Sarki John III ya nada shi matsayin mai ba da shawara kan harkokin siyasa."
+      },
+      {
+        "year": "24 ga Disamba, 1524",
+        "event": "Ya mutu daga cutar zazzabin cizon sauro a Cochin, Indiya."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Gano Hanyar Jirgin Ruwa zuwa Indiya",
+        "description": "Bayan ganowar Cape of Good Hope da Bartolomeu Dias ya yi, ya buɗe hanyar jirgin ruwa zuwa Indiya wanda ya daɗe yana zama babban burin Portugal."
+      },
+      {
+        "title": "Turawa na Farko da suka Bude Hanyar Teku zuwa Indiya",
+        "description": "Shi ne Bature na farko da ya yi tafiya ta Tekun Atlantika da kuma tekun kudancin Afirka har zuwa Indiya."
+      },
+      {
+        "title": "Karbar Lakabin Count of Vidigueira",
+        "description": "An gane shi don nasarar gano sabbin hanyoyin jirgin ruwa kuma Sarki Manuel I ya ba shi lakabin Count na Vidigueira a 1519."
+      },
+      {
+        "title": "Yin Tafiya Zuwa Indiya Sau Uku a Jimlace",
+        "description": "A lokacin rayuwarsa, ya yi tafiya zuwa Indiya sau uku gaba ɗaya."
+      },
+      {
+        "title": "Nadin a matsayin Mataimakin Sarkin Indiya",
+        "description": "An naɗa shi a matsayin Mataimakin Sarkin Indiya a 1514 kuma yayi aiki a matsayin Mataimakin Sarki har ya mutu a 1524."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Yaushe aka haifi Vasco da Gama?",
+        "answer": "An haifi Vasco da Gama a shekarar 1469 a Sines, da ke yankin Alentejo a kudu maso yammacin kasar Portugal."
+      },
+      {
+        "question": "Menene manyan nasarorin da Vasco da Gama ya samu?",
+        "answer": "Vasco da Gama shi ne bature na farko da ya yi balaguro ta Tekun Atlantika da gabar tekun kudancin Afirka zuwa Indiya, inda ya bude hanyar teku zuwa Indiya."
+      },
+      {
+        "question": "Sau nawa Vasco da Gama ya yi tafiya zuwa Indiya?",
+        "answer": "Vasco da Gama ya yi tafiya zuwa Indiya sau uku gaba daya a rayuwarsa."
+      },
+      {
+        "question": "A ina Vasco da Gama ya mutu?",
+        "answer": "Vasco da Gama ya mutu daga cutar malariya a Cochin, Indiya, a ranar 24 ga Disamba, 1524."
+      },
+      {
+        "question": "Tsawon wane lokaci tafiyarsa ta farko zuwa Indiya ta dauka?",
+        "answer": "Balaguron farko da Vasco da Gama ya yi zuwa Indiya ya dauki tsawon shekaru 2 gaba daya, wato tun da ya bar Lisbon a watan Yuli 1497 har zuwa dawowarsa."
+      }
+    ],
+    "sourceVerified": True,
+    "missingDataNote": "An bayyana cewa asalin matuƙin jirgin ruwan da aka ɗauka aikin yi a Malindi ya sha bamban dangane da majiyar da aka dogara da ita, don haka mun cire wannan bayanin."
+  },
+  "ferdinand-magellan": {
+    "slug": "ferdinand-magellan",
+    "timeline": [
+      {
+        "year": "Shekarar 1480",
+        "event": "An haife shi a Sabrosa, Portugal."
+      },
+      {
+        "year": "Shekarar 1505",
+        "event": "Ya shiga rundunar jiragen ruwa ta Portugal, ya fuskanci yakinsa na farko yayin da suke tafiya Indiya."
+      },
+      {
+        "year": "Shekarar 1519",
+        "event": "Ya tashi daga Spain, yana jagorantar rundunar Moluccas don neman hanyar yamma zuwa tsibiran Kayan Kamshi (Spice Islands)."
+      },
+      {
+        "year": "Shekarar 1520",
+        "event": "Ya zama Bature na farko da ya gano mashigin ruwa na Magellan Strait kuma ya yi tafiya zuwa Tekun Pasifik."
+      },
+      {
+        "year": "Shekarar 1521",
+        "event": "An kashe shi a yakin Mactan a Philippines; duk da haka, daga bisani tawagarsa ta kammala kewayen duniya na farko."
+      }
+    ]
+  }
+}
+
+with open(r"c:\Users\natey\Desktop\wisdom-giants\scratch\ha_agent_10_out.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
