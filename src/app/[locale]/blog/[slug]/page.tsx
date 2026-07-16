@@ -697,14 +697,14 @@ export default async function BlogPostDetailPage({ params }: Props) {
           className="inline-flex items-center gap-2 text-slate-400 hover:text-amber-400 text-sm font-medium transition-colors mb-8 group"
         >
           <ArrowLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
-          {ui.backToBlog}
+          {ui('backToBlog')}
         </Link>
 
         {/* Article Meta Header */}
         <div className="space-y-4 mb-8">
           <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold border ${catColor}`}>
             <Tag className="w-3.5 h-3.5" />
-            {catNames[post.category]}
+            {catNames(post.category)}
           </span>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-200">
@@ -719,7 +719,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
             <span className="w-1 h-1 rounded-full bg-slate-700" />
             <span className="flex items-center gap-1.5">
               <Clock className="w-4 h-4" />
-              {readTime} {ui.readTime}
+              {readTime} {ui('readTime')}
             </span>
           </div>
         </div>
@@ -748,8 +748,8 @@ export default async function BlogPostDetailPage({ params }: Props) {
             {locale === 'ko' 
               ? `${localizedName}${getKoreanWithParticle(localizedName, "대화하기")}`
               : locale === 'ja' 
-              ? `${localizedName}${ui.chatWith}` 
-              : `${ui.chatWith}${localizedName}`}
+              ? `${localizedName}${ui('chatWith')}` 
+              : `${ui('chatWith')}${localizedName}`}
           </Link>
         </div>
 
@@ -757,7 +757,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
         <div className="flex items-start gap-3 p-4 rounded-xl bg-slate-900/60 border border-white/5 mb-8 text-xs text-slate-500">
           <Bot className="w-4 h-4 shrink-0 text-slate-600 mt-0.5" />
           <span>
-            {ui.disclaimer}
+            {ui('disclaimer')}
           </span>
         </div>
 
@@ -773,7 +773,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
         <div className="flex items-center justify-between border-y border-white/5 py-6 my-12">
           <span className="flex items-center gap-2 text-slate-400 font-bold text-sm">
             <Share2 className="w-4 h-4" />
-            {ui.share}
+            {ui('share')}
           </span>
           <div className="flex items-center gap-2">
             <a 
@@ -799,7 +799,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
             {/* Copy Link component */}
             <button 
               className="w-10 h-10 rounded-xl glass border border-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/5 transition-colors cursor-pointer"
-              title={ui.copylink}
+              title={ui('copylink')}
             >
               <Link2 className="w-4 h-4" />
             </button>
@@ -816,18 +816,18 @@ export default async function BlogPostDetailPage({ params }: Props) {
               {locale === 'ko'
                 ? `${localizedName}${getKoreanWithParticle(localizedName, "직접 대화해보기")}`
                 : locale === 'ja'
-                ? `${localizedName}${ui.ctaTitle}`
-                : `${ui.ctaTitle}${localizedName}`}
+                ? `${localizedName}${ui('ctaTitle')}`
+                : `${ui('ctaTitle')}${localizedName}`}
               </h2>
               <p className="text-white/85 text-sm md:text-base max-w-xl font-light leading-relaxed">
-                {ui.ctaDesc}
+                {ui('ctaDesc')}
               </p>
             </div>
             <Link
               href={chatHref}
               className="shrink-0 inline-flex items-center gap-2 px-6 py-4 rounded-full bg-white text-amber-900 font-bold hover:shadow-lg transition-all hover:scale-[1.02] active:scale-[0.98]"
             >
-              {ui.chatNow}
+              {ui('chatNow')}
               <ArrowRight className="w-4 h-4 text-amber-900" />
             </Link>
           </div>
@@ -840,7 +840,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <BookOpen className="w-5 h-5 text-amber-400" />
-              <h2 className="font-serif text-2xl font-bold text-white">{ui.relatedPosts}</h2>
+              <h2 className="font-serif text-2xl font-bold text-white">{ui('relatedPosts')}</h2>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -865,7 +865,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
                   >
                     <div>
                       <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold border mb-3 ${catColor}`}>
-                        {catNames[p.category]}
+                        {catNames(p.category)}
                       </span>
                       <h3 className="font-serif font-bold text-white group-hover:text-amber-400 transition-colors text-sm md:text-base leading-snug line-clamp-2 mb-2">
                         {translation.title.replace(/\*\*/g, '')}
@@ -873,7 +873,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
                     </div>
                     <div className="flex items-center justify-between text-[10px] text-slate-500 mt-4 pt-3 border-t border-white/5">
                       <span>{rLocalizedName}</span>
-                      <span>{readTime} {ui.readTime}</span>
+                      <span>{readTime} {ui('readTime')}</span>
                     </div>
                   </Link>
                 )

@@ -9,112 +9,7 @@ import { ArrowRight, BookOpen, Clock, Tag } from "lucide-react"
 import { getReadTime } from "@/utils/blog"
 import { AdSlot } from "@/components/ad-slot"
 
-const translations: Record<string, Record<string, string>> = {
-  ko: {
-    all: "전체",
-    leadership: "리더십",
-    philosophy: "철학",
-    creativity: "창의성",
-    wisdom: "지혜",
-    readTime: "분 분량",
-    read: "읽기",
-    headerTitle: "거인들의 지혜 블로그",
-    headerSubtitle: "역사 속 위인들의 철학과 지혜를 현대적 관점에서 풀어쓰다",
-    noPosts: "해당 카테고리에 포스트가 없습니다.",
-    badge: "지혜 아카이브"
-  },
-  en: {
-    all: "All",
-    leadership: "Leadership",
-    philosophy: "Philosophy",
-    creativity: "Creativity",
-    wisdom: "Wisdom",
-    readTime: "min read",
-    read: "Read",
-    headerTitle: "Wisdom Blog",
-    headerSubtitle: "Explore the philosophy and wisdom of historical giants in a modern context",
-    noPosts: "No posts found in this category.",
-    badge: "WISDOM ARCHIVE"
-  },
-  de: {
-    all: "Alle",
-    leadership: "Führung",
-    philosophy: "Philosophie",
-    creativity: "Kreativität",
-    wisdom: "Weisheit",
-    readTime: "Min. Lesung",
-    read: "Lesen",
-    headerTitle: "Weisheits-Blog",
-    headerSubtitle: "Erkunden Sie die Philosophie und Weisheit historischer Giganten im modernen Kontext",
-    noPosts: "Keine Beiträge in dieser Kategorie gefunden.",
-    badge: "WEISHEITS-ARCHIV"
-  },
-  ja: {
-    all: "すべて",
-    leadership: "リーダーシップ",
-    philosophy: "哲学",
-    creativity: "創造性",
-    wisdom: "知恵",
-    readTime: "分 読了",
-    read: "読む",
-    headerTitle: "偉人たちの知恵ブログ",
-    headerSubtitle: "歴史上の偉人たちの哲学と知恵を現代的な視点から紐解く",
-    noPosts: "このカテゴリの投稿はありません。",
-    badge: "知恵アーカイブ"
-  },
-  es: {
-    all: "Todos",
-    leadership: "Liderazgo",
-    philosophy: "Filosofía",
-    creativity: "Creatividad",
-    wisdom: "Sabiduría",
-    readTime: "min de lectura",
-    read: "Leer",
-    headerTitle: "Blog de Sabiduría",
-    headerSubtitle: "Explore la filosofía y la sabiduría de los gigantes históricos en el contexto moderno",
-    noPosts: "No se encontraron publicaciones en esta categoría.",
-    badge: "ARCHIVO DE SABIDURÍA"
-  },
-  fr: {
-    all: "Tout",
-    leadership: "Leadership",
-    philosophy: "Philosophie",
-    creativity: "Créativité",
-    wisdom: "Sagesse",
-    readTime: "min de lecture",
-    read: "Lire",
-    headerTitle: "Blog de la Sagesse",
-    headerSubtitle: "Explorez la philosophie et la sagesse des géants historiques dans un contexte moderne",
-    noPosts: "Aucun article trouvé dans cette catégorie.",
-    badge: "ARCHIVE DE LA SAGESSE"
-  },
-  it: {
-    all: "Tutti",
-    leadership: "Leadership",
-    philosophy: "Filosofia",
-    creativity: "Creatività",
-    wisdom: "Saggezza",
-    readTime: "min di lettura",
-    read: "Leggi",
-    headerTitle: "Blog della Saggezza",
-    headerSubtitle: "Esplora la filosofia e la saggezza dei giganti storici nel contesto moderno",
-    noPosts: "Nessun articolo trovato in questa categoria.",
-    badge: "ARCHIVIO DELLA SAGGEZZA"
-  },
-  pt: {
-    all: "Tudo",
-    leadership: "Liderança",
-    philosophy: "Filosofia",
-    creativity: "Criatividade",
-    wisdom: "Sabedoria",
-    readTime: "min de leitura",
-    read: "Ler",
-    headerTitle: "Blog da Sabedoria",
-    headerSubtitle: "Explore a filosofia e a sabedoria dos gigantes históricos no contexto moderno",
-    noPosts: "Nenhuma publicação encontrada nesta categoria.",
-    badge: "ARQUIVO DE SABEDORIA"
-  }
-}
+
 
 const colorMap: Record<string, string> = {
   leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
@@ -126,7 +21,7 @@ const colorMap: Record<string, string> = {
 
 export function BlogListClient() {
   const locale = useLocale()
-  const t = translations[locale] || translations["en"]
+  const t = useTranslations("BlogUI")
   const tg = useTranslations("Giants")
   const [selectedCategory, setSelectedCategory] = useState<string>("all")
 
