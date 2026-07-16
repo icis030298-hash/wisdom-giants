@@ -1,0 +1,762 @@
+{
+  "blaise-pascal": {
+    "timeline": [
+      {
+        "event": "Born in Clermont-Ferrand, France, to Etienne Pascal, a tax official in Rouen"
+      },
+      {
+        "event": "Discovered by himself that the sum of the interior angles of a triangle is 180 degrees"
+      },
+      {
+        "event": "Discovered Pascal's triangle"
+      },
+      {
+        "event": "Participated in the main regular meetings of a group of French mathematicians"
+      },
+      {
+        "event": "Proved Pascal's theorem, which is the foundation of projective geometry"
+      },
+      {
+        "event": "Derived 400 propositions using Pascal's theorem"
+      },
+      {
+        "event": "Invented the Pascaline, the first calculator"
+      },
+      {
+        "event": "Established Pascal's law, which laid the foundation for hydrostatics, through an experiment using a mercury column"
+      },
+      {
+        "event": "Conducted a vacuum experiment using various shaped tubes in Rouen"
+      },
+      {
+        "event": "His experiments were conducted in Paris by Mersenne and other scientists"
+      },
+      {
+        "event": "Published 'Discours sur le vide' (Thoughts on the Vacuum)"
+      },
+      {
+        "event": "Moved from Rouen to Paris due to failing health"
+      },
+      {
+        "event": "Debated with Descartes on the existence of a vacuum"
+      },
+      {
+        "event": "Wrote a paper titled 'Experiences nouvelles touchant le vide' (New Experiments with the Vacuum)"
+      },
+      {
+        "event": "Performed 'Pascal's experiment' observing the change in the height of a mercury column with altitude at Puy de Dome"
+      },
+      {
+        "event": "Wrote a paper summarizing the results of the Puy de Dome experiment"
+      },
+      {
+        "event": "Suspended his mathematics and science research to focus his mind on religious contemplation"
+      },
+      {
+        "event": "Explained the law of pressure (Pascal's principle) in 'Traitez de l'equilibre des liqueurs' (Treatises on the Equilibrium of Liquids)"
+      },
+      {
+        "event": "Involved in a carriage accident"
+      },
+      {
+        "event": "Wrote a confession of faith claiming to have heard a voice from heaven and became deeply involved in Christian theology"
+      },
+      {
+        "event": "Suffered mentally while battling headaches"
+      },
+      {
+        "event": "Gave his house to a poor family suffering from smallpox and moved into his sister's house"
+      },
+      {
+        "event": "Died from convulsions"
+      },
+      {
+        "event": "After his death, 'Traitez de l'equilibre des liqueurs' was published by Perier"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Pascal's triangle",
+        "description": "A geometric arrangement of binomial coefficients in the shape of a triangle in mathematics."
+      },
+      {
+        "title": "Pascal's theorem",
+        "description": "A theorem that is the foundation of projective geometry, which he proved at the age of 16."
+      },
+      {
+        "title": "Pascaline (Pascal's calculator)",
+        "description": "The world's first calculator, invented at the age of 19, capable of addition and subtraction."
+      },
+      {
+        "title": "Pascal's principle",
+        "description": "A law stating that if pressure is applied to a portion of a confined, incompressible fluid, that pressure is transmitted equally to all parts of the fluid."
+      },
+      {
+        "title": "Laid the foundation for probability theory",
+        "description": "Co-founded the foundation of probability theory through correspondence with Fermat."
+      },
+      {
+        "title": "Cycloid research",
+        "description": "Contributed to the development of mathematics by studying the cycloid to forget his headaches."
+      },
+      {
+        "title": "Authored 'Pensees'",
+        "description": "An unfinished book containing his Christian apologetics, including the famous saying, 'Man is a thinking reed.'"
+      },
+      {
+        "title": "Authored 'Provincial Letters'",
+        "description": "A book written to defend Jansenist clergy oppressed by the Jesuits, evaluated as the starting point of modern French prose."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who was Blaise Pascal?",
+        "answer": "A French psychologist, mathematician, scientist, theologian, physicist, inventor, writer, philosopher, and statistician who invested a lot of time especially in philosophy and theology."
+      },
+      {
+        "question": "What is the Pascal calculator?",
+        "answer": "The world's first calculator invented at the age of 19 to help his accountant father, capable only of addition and subtraction."
+      },
+      {
+        "question": "What is Pascal's principle?",
+        "answer": "A law stating that if pressure is applied to a portion of a confined, incompressible fluid, that pressure is transmitted equally to all parts of the fluid."
+      },
+      {
+        "question": "What is Pascal's famous saying?",
+        "answer": "He left the famous saying, 'Man is a thinking reed.'"
+      },
+      {
+        "question": "Why did Pascal stop his mathematics and science research?",
+        "answer": "At the age of 27, he focused his mind on religious contemplation and thus suspended his mathematics and science research."
+      }
+    ]
+  },
+  "alan-turing": {
+    "timeline": [
+      {
+        "event": "Born on June 23"
+      },
+      {
+        "event": "Started majoring in mathematics at the University of Cambridge"
+      },
+      {
+        "event": "Took physicist Eddington's scientific methodology class and proved the central limit theorem"
+      },
+      {
+        "event": "Left for Princeton University after providing a negative proof to the decidability problem"
+      },
+      {
+        "event": "Finished studies at Princeton University and returned to Cambridge"
+      },
+      {
+        "event": "Joined the Government Code and Cypher School (GCCS) during World War II and started cryptography research"
+      },
+      {
+        "event": "Devised the Turing machine; pushed for the creation of a mathematics department to build an electronic calculator at the National Physical Laboratory (NPL) on October 1"
+      },
+      {
+        "event": "Awarded the Officer of the Order of the British Empire (OBE)"
+      },
+      {
+        "event": "Published a paper titled 'Can Machines Think?' in the philosophy journal 'Mind'"
+      },
+      {
+        "event": "Arrested and convicted by British police on charges of homosexuality"
+      },
+      {
+        "event": "Published a paper on the Riemann zeta function"
+      },
+      {
+        "event": "Died of potassium cyanide poisoning on June 7"
+      },
+      {
+        "event": "Queen Elizabeth II pardoned Turing's homosexuality conviction on December 24"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Devised the Turing machine",
+        "description": "Formalized the concepts of algorithm and computation through an abstract model called the Turing machine, making a profound contribution to the development of computer science."
+      },
+      {
+        "title": "Proposed the Turing test",
+        "description": "Proposed an experiment to evaluate how human-like a machine's answers are with the proposition 'Can machines think?', achieving great success."
+      },
+      {
+        "title": "Cracked the Enigma code",
+        "description": "Successfully cracked the German codes during World War II by introducing a code-breaking machine called the Bombe."
+      },
+      {
+        "title": "Proved the central limit theorem",
+        "description": "Proved it in 1933 without knowing that Finnish mathematician Jarl Waldemar Lindeberg had already proved it in 1922."
+      },
+      {
+        "title": "Negative proof of the decidability problem",
+        "description": "Provided a negative proof to the decidability problem in 1936."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What fields was Alan Turing a pioneer in?",
+        "answer": "He was an English computer scientist, mathematician, cryptanalyst, logician, and a pioneering figure in computer science."
+      },
+      {
+        "question": "What is the purpose of the Turing Award?",
+        "answer": "It is an annual prize given by the ACM to those who have made significant contributions to computer science, established in 1966 to honor Turing's contributions."
+      },
+      {
+        "question": "Why is Alan Turing called the 'father of computer science'?",
+        "answer": "He is called the 'father of computer science' because he made profound contributions to theoretical computer science and artificial intelligence."
+      },
+      {
+        "question": "When was Alan Turing pardoned for his homosexuality conviction?",
+        "answer": "Queen Elizabeth II pardoned his homosexuality conviction on December 24, 2013, 59 years after his death."
+      }
+    ]
+  },
+  "ibn-sina": {
+    "timeline": [
+      {
+        "event": "Born in Afshana near Bukhara as the child of Abdullah ibn Al-Hasan, a tax collector of the Samanid Empire, and Sitara."
+      },
+      {
+        "event": "At the age of five, his family moved to Bukhara, and he entered a private school in Bukhara."
+      },
+      {
+        "event": "By the age of ten, he could already recite the Quran and many Arabic literary works from memory."
+      },
+      {
+        "event": "Started treating patients at the age of sixteen."
+      },
+      {
+        "event": "Studied on his own at eighteen and came to understand Aristotelian philosophy through Al-Farabi's commentaries."
+      },
+      {
+        "event": "At the age of eighteen, he wrote his first work, 'The Compendium of Various Sciences', for his neighbor Al-Aruzi."
+      },
+      {
+        "event": "The Samanid Empire fell due to attacks by the Ghaznavids and the Karakhanids."
+      },
+      {
+        "event": "His father Abdullah passed away."
+      },
+      {
+        "event": "At twenty-one, he wrote and presented the 20-volume encyclopedia 'The Book of Fair Judgment' for the jurist Al-Barqi."
+      },
+      {
+        "event": "Left Bukhara at twenty-two and embarked on a wandering journey."
+      },
+      {
+        "event": "Was employed by Mamun II, the ruler of Urgench in the Khwarezm region, became an official, and started writing 'The Canon of Medicine'."
+      },
+      {
+        "event": "Moved to Rey near Tehran and wrote about 30 short essays."
+      },
+      {
+        "event": "Completed 'The Canon of Medicine', which he had been writing for some time."
+      },
+      {
+        "event": "After Shams al-Dawla passed away, Ibn Sina abandoned his official post and went into seclusion."
+      },
+      {
+        "event": "Was imprisoned by Sama al-Dawla, the new ruler of Hamadan."
+      },
+      {
+        "event": "Isfahan was attacked by Mas'ud I, the ruler of the Ghaznavid Empire, and Ibn Sina's belongings, including his collection of books, were looted."
+      },
+      {
+        "event": "Died in Hamadan."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Compilation of philosophy and medicine",
+        "description": "Compiled Greek and Arabic philosophy and medicine, and had a profound impact on European medicine and philosophy by integrating Aristotelian philosophy and Neoplatonism."
+      },
+      {
+        "title": "Authored The Canon of Medicine",
+        "description": "Authored 'The Canon of Medicine', which compiled all known medical knowledge of the time and was used as a standard medical text in Europe until the 17th century."
+      },
+      {
+        "title": "Authored The Book of Healing",
+        "description": "Authored 'The Book of Healing', an encyclopedia covering all fields of study except ethics and politics."
+      },
+      {
+        "title": "Natural science research",
+        "description": "Denied the possibility of alchemical transmutation of metals, and researched various fields of natural science including mathematics, physics, astronomy, and mineralogy."
+      },
+      {
+        "title": "Influence on European academia",
+        "description": "Influenced Thomas Aquinas and became the catalyst for the revival of Aristotelianism in Europe in the late 12th century."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How is Ibn Sina evaluated as a figure?",
+        "answer": "A Persian philosopher, physician, and scientist, he is regarded as one of the greatest medical scholars of the Middle Ages and the finest intellectual produced by the Islamic world."
+      },
+      {
+        "question": "What is Ibn Sina's major medical work?",
+        "answer": "He authored 'The Canon of Medicine', which compiled all known medical knowledge of the time, and this book was used as the basic textbook of European medicine until the 17th century."
+      },
+      {
+        "question": "What philosophical contributions did Ibn Sina make?",
+        "answer": "He compiled Greek and Arabic philosophy, integrated Aristotelian philosophy and Neoplatonism, and greatly influenced European medicine and philosophy."
+      },
+      {
+        "question": "What was Ibn Sina's stance on alchemy?",
+        "answer": "He denied the possibility of metal transmutation believed by alchemists of the time, arguing that the differences between metals are profound and that precious metals created through alchemy are merely imitations."
+      }
+    ]
+  },
+  "antoine-lavoisier": {
+    "timeline": [
+      {
+        "event": "Born in Paris as the first son of Jean-Antoine Lavoisier and Emilie Lavoisier."
+      },
+      {
+        "event": "Graduated from College Mazarin."
+      },
+      {
+        "event": "Obtained a bachelor's degree in law."
+      },
+      {
+        "event": "Became a member of the French Academy of Sciences and joined the Ferme Generale, a tax collection agency."
+      },
+      {
+        "event": "Became famous by publishing a paper concluding that water cannot be transmuted into earth."
+      },
+      {
+        "event": "Married Marie-Anne Pierrette Paulze."
+      },
+      {
+        "event": "Published 'Opuscules Physiques et chimiques' (Physical and Chemical Essays)."
+      },
+      {
+        "event": "Appointed head of the Gunpowder Administration by Finance Minister Anne Robert Jacques Turgot."
+      },
+      {
+        "event": "Revealed that water is produced when hydrogen is burned, in cooperation with Pierre-Simon Laplace."
+      },
+      {
+        "event": "Became a director of the French Academy of Sciences."
+      },
+      {
+        "event": "Published 'Methode de nomenclature chimique' (Method of Chemical Nomenclature) by reforming chemical nomenclature together with Claude Louis Berthollet and others."
+      },
+      {
+        "event": "Published 'Traite Elementaire de Chimie' (Elementary Treatise on Chemistry)."
+      },
+      {
+        "event": "Participated in the creation of a unified system of weights and measures commissioned by the National Assembly."
+      },
+      {
+        "event": "Numerous academies, including the French Academy of Sciences, were closed."
+      },
+      {
+        "event": "Imprisoned along with his father-in-law Jacques Paulze."
+      },
+      {
+        "event": "Sentenced to death and beheaded at the guillotine in the Place de la Revolution."
+      },
+      {
+        "event": "Marie-Anne Lavoisier was officially able to receive Lavoisier's confiscated belongings back."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Led the Chemical Revolution",
+        "description": "Led the 18th-century chemical revolution, leaving a mark in the history of chemistry and biology."
+      },
+      {
+        "title": "Abolished the phlogiston theory and established the theory of combustion",
+        "description": "Advanced chemistry significantly by advocating a new theory of combustion, discarding the phlogiston theory, and identifying the role of oxygen."
+      },
+      {
+        "title": "Established the Law of Conservation of Mass",
+        "description": "Established the law of conservation of mass, stating that matter is neither created nor destroyed in chemical reactions, but only changes form."
+      },
+      {
+        "title": "Laid the foundation for modern chemical nomenclature",
+        "description": "Laid the foundation of modern chemistry by distinguishing between elements and compounds and leading a systematic reform of chemical nomenclature."
+      },
+      {
+        "title": "Introduced quantitative methods and compiled a list of elements",
+        "description": "Introduced quantitative methods to chemistry for the first time, compiled the first extensive list of elements, and predicted the existence of silicon."
+      }
+    ],
+    "faq": [
+      {
+        "question": "For what reason was Antoine Lavoisier executed?",
+        "answer": "During the height of the French Revolution, he was indicted for tax fraud and selling adulterated tobacco, and despite his contributions to science, he was executed by the guillotine."
+      },
+      {
+        "question": "What is Lavoisier's most important scientific achievement?",
+        "answer": "He led the chemical revolution by discarding the phlogiston theory and identifying the role of oxygen in combustion and respiration, established the law of conservation of mass, and laid the foundation for modern chemical nomenclature."
+      },
+      {
+        "question": "How did Lavoisier's wife, Marie-Anne Paulze Lavoisier, contribute to her husband's research?",
+        "answer": "As a laboratory assistant, Marie-Anne helped by drawing laboratory equipment, recording results, translating English papers, and she also participated in the development of the metric measurement system."
+      }
+    ]
+  },
+  "li-shizhen": {
+    "timeline": [
+      {
+        "event": "Born on July 3 in the 13th year of Zhengde of the Ming Dynasty"
+      },
+      {
+        "event": "Began the work of compiling standard medical texts at the age of 35"
+      },
+      {
+        "event": "Died in the 21st year of Wanli of the Ming Dynasty (at the age of 76)"
+      },
+      {
+        "event": "Publication of the 'Compendium of Materia Medica' (after Li Shizhen's death)"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Authored the Compendium of Materia Medica",
+        "description": "Authored the 'Compendium of Materia Medica' (Bencao Gangmu), which integrated herbal medicine and had a profound influence on subsequent Eastern medicine and natural history."
+      },
+      {
+        "title": "Contributed to acupuncture and diagnostics",
+        "description": "Also contributed to the fields of acupuncture and diagnostics."
+      },
+      {
+        "title": "Authored Binhu Maixue",
+        "description": "Authored 'Binhu Maixue', a book on pulse diagnosis."
+      },
+      {
+        "title": "Authored Qijing Bamai Kao",
+        "description": "Authored 'Qijing Bamai Kao', a book on the eight extraordinary meridians."
+      },
+      {
+        "title": "Authored Wuzang Tulun",
+        "description": "Authored 'Wuzang Tulun', a book on the five internal organs, which is currently lost."
+      },
+      {
+        "title": "Authored Mingmen Kao",
+        "description": "Authored 'Mingmen Kao', a book on the 'Gate of Life' (Mingmen), which is currently lost."
+      }
+    ],
+    "faq": [
+      {
+        "question": "When was Li Shizhen born and when did he die?",
+        "answer": "Li Shizhen was born on July 3, 1518, the 13th year of Zhengde of the Ming Dynasty, and died in 1593, the 21st year of Wanli of the Ming Dynasty, at the age of 76."
+      },
+      {
+        "question": "What are Li Shizhen's major works?",
+        "answer": "Li Shizhen's major work is the 'Compendium of Materia Medica', which integrated herbal medicine. In addition, he authored 'Binhu Maixue', 'Qijing Bamai Kao', and others."
+      },
+      {
+        "question": "What positions did Li Shizhen hold?",
+        "answer": "Li Shizhen served as a physician for the Prince of Chu, became an imperial physician in the royal court, and later held the position of magistrate of Huanggang, Hubei in the Ming Dynasty."
+      },
+      {
+        "question": "What was Li Shizhen's family background?",
+        "answer": "Li Shizhen's grandfather and father were doctors. His father's name was Li Yanwen, his courtesy name was Ziyu, and his pseudonym was Yuechi."
+      }
+    ]
+  },
+  "robert-koch": {
+    "timeline": [
+      {
+        "event": "Born in Clausthal, Kingdom of Hanover"
+      },
+      {
+        "event": "Graduated in medicine from the University of Göttingen"
+      },
+      {
+        "event": "Presented the results of anthrax research at the University of Breslau"
+      },
+      {
+        "event": "Clearly identified the anthrax bacillus as the specific causative agent of anthrax"
+      },
+      {
+        "event": "Moved to the Imperial Health Office in Berlin"
+      },
+      {
+        "event": "Discovered the tuberculosis bacillus for the first time"
+      },
+      {
+        "event": "Discovered the cholera pathogen while traveling through Egypt and India"
+      },
+      {
+        "event": "Clearly identified the cholera bacillus as the specific causative agent of cholera"
+      },
+      {
+        "event": "Discovered tuberculin, an antigen against the tuberculosis bacillus"
+      },
+      {
+        "event": "Became the first director of the Institute for Infectious Diseases in Berlin"
+      },
+      {
+        "event": "Awarded the Nobel Prize in Physiology or Medicine for founding bacteriology and discovering the tuberculosis bacillus"
+      },
+      {
+        "event": "Died in Baden-Baden"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Identified the causes of anthrax and cholera",
+        "description": "Clearly identified pathogenic bacteria as the specific causative agents of anthrax in 1877 and cholera in 1885, earning the evaluation as the 'father of bacteriology'."
+      },
+      {
+        "title": "Discovered the tuberculosis bacillus",
+        "description": "Discovered the tuberculosis bacillus for the first time in 1882 and revealed that it is transmitted through the air."
+      },
+      {
+        "title": "Founded bacteriological research methodology",
+        "description": "Contributed to the development of microbiology by pioneering methods for fixing, staining, and photographing bacteria under a microscope."
+      },
+      {
+        "title": "Discovered tuberculin",
+        "description": "Discovered tuberculin, an antigen against the tuberculosis bacillus, in 1890."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who was Robert Koch?",
+        "answer": "Robert Koch was a German physician and microbiologist born in 1843 and died in 1910, known as the 'father of bacteriology'."
+      },
+      {
+        "question": "What are Robert Koch's major achievements?",
+        "answer": "He identified the causative bacteria of anthrax in 1877 and cholera in 1885, and discovered the tuberculosis bacillus for the first time in 1882."
+      },
+      {
+        "question": "When did Robert Koch win the Nobel Prize?",
+        "answer": "He was awarded the Nobel Prize in Physiology or Medicine in 1905 for his contributions to founding bacteriology and discovering the tuberculosis bacillus."
+      },
+      {
+        "question": "Did Robert Koch discover tuberculin?",
+        "answer": "Yes, he discovered tuberculin, an antigen against the tuberculosis bacillus, in 1890, but his reputation temporarily declined when it was later found to be ineffective as a cure."
+      }
+    ]
+  },
+  "al-ghazali": {
+    "timeline": [
+      {
+        "event": "Born in Tus, Khorasan."
+      },
+      {
+        "event": "Abandoned his prestigious positions due to religious anguish and other causes, and traveled to Mecca and various regions as a Sufi ascetic."
+      },
+      {
+        "event": "Retired to his hometown and passed away."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Authored 'The Incoherence of the Philosophers'",
+        "description": "Wrote a book criticizing some philosophers for excessively transplanting Greek philosophy into Islam, holding thoughts that contradict the Quran."
+      },
+      {
+        "title": "Authored 'The Revival of the Religious Sciences' and 'Deliverance from Error'",
+        "description": "Left behind masterworks such as 'The Revival of the Religious Sciences' and 'Deliverance from Error' which had a great influence on future generations."
+      },
+      {
+        "title": "Harmonization of orthodox theology and Sufism",
+        "description": "Made his greatest contribution by harmonizing orthodox theology and Sufism, breathing new life into the Islamic religious system."
+      },
+      {
+        "title": "Defended orthodox Islam",
+        "description": "Contributed to adhering to orthodox Islam by criticizing Ibn Sina's philosophy."
+      },
+      {
+        "title": "Provided a turning point for Islamic scholarship",
+        "description": "Brought a turning point to Islamic religious thought by breaking away Islamic scholarship from scholastic theology and reviving the Quran and Hadith."
+      },
+      {
+        "title": "Established the status of Sufism",
+        "description": "Established the status of Sufism within Islam, making the masses of Muslims accept Sufism."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How is Al-Ghazali evaluated?",
+        "answer": "He is referred to as the greatest Muslim after Muhammad, and is a significant figure in the fields of theology, philosophy, and Sufism."
+      },
+      {
+        "question": "What are Al-Ghazali's major works?",
+        "answer": "His major works include 'The Incoherence of the Philosophers', 'The Revival of the Religious Sciences', and 'Deliverance from Error'."
+      },
+      {
+        "question": "What is Al-Ghazali's greatest contribution?",
+        "answer": "His greatest contribution is the harmonization of orthodox theology and Sufism, and the defense of orthodox Islam by criticizing the philosophy of Ibn Sina."
+      },
+      {
+        "question": "What turning point did Al-Ghazali bring to Islamic religious thought?",
+        "answer": "He broke Islamic scholarship away from scholastic theology, reintroduced esoteric elements, established the status of Sufism, and made philosophy more accessible to ordinary Muslims."
+      }
+    ]
+  },
+  "ibn-khaldun": {
+    "timeline": [
+      {
+        "event": "Birth"
+      },
+      {
+        "event": "Secluded himself in the village of Qal'at Ibn Salama in the Oran region of Algeria and devoted himself to academic research"
+      },
+      {
+        "event": "Moved to Cairo, Egypt, and engaged in active lecturing, gained the trust of the Mamluk Sultan Barquq, served as a professor in several academic institutions, and was appointed Chief Justice of the Maliki school"
+      },
+      {
+        "event": "Death"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Kitab al-'Ibar (Book of Lessons)",
+        "description": "A world history that attempts to systematize the Islamic history of West Asia, containing records and examples of the beginnings and progress of Arabs, Persians, Berbers, and other eras."
+      },
+      {
+        "title": "Muqaddimah (Prolegomena)",
+        "description": "An introduction to history included at the beginning of 'Kitab al-'Ibar', considered a world-class masterpiece that examines the circumstances and laws of societal formation and change, and seeks to answer fundamental questions of cultural history."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who is Ibn Khaldun?",
+        "answer": "Ibn Khaldun is a representative historian, thinker, and politician of the medieval Islamic world who was active from 1332 to 1406. He comes from the prominent Khaldun family, which exiled from Seville, Spain to Tunis."
+      },
+      {
+        "question": "What are Ibn Khaldun's major works?",
+        "answer": "His major works are the world history 'Kitab al-'Ibar', which attempts to systematize West Asian Islamic history, and its introduction, 'Muqaddimah'. The 'Muqaddimah' is especially evaluated as a world-class masterpiece that examines the laws of societal formation and change."
+      },
+      {
+        "question": "What was Ibn Khaldun's political career like?",
+        "answer": "He served as a secretary, diplomatic envoy, and chief justice in various Islamic regimes, including the Hafsid, Marinid, and Nasrid dynasties. However, his life was a series of wanderings due to involvement in conspiracies or being ousted by friction. These political experiences later had a huge impact on his ideological system as a scholar."
+      }
+    ]
+  },
+  "miguel-de-cervantes": {
+    "timeline": [
+      {
+        "event": "Born in Alcala de Henares, a university town in Madrid"
+      },
+      {
+        "event": "Followed an Italian cardinal to Rome, became a soldier, and participated in the Battle of Lepanto, where he suffered an injury that left his left hand crippled"
+      },
+      {
+        "event": "Captured by pirates and lived as a slave in Algiers for 5 years"
+      },
+      {
+        "event": "Paid his ransom with the help of the Trinitarian Order, returned to Madrid, and began to write"
+      },
+      {
+        "event": "Published the novel 'La Galatea', but it did not gain popularity"
+      },
+      {
+        "event": "Published Part 1 of 'Don Quixote', which gained immense popularity"
+      },
+      {
+        "event": "Completed Part 2 of 'Don Quixote'"
+      },
+      {
+        "event": "Passed away at the age of 69"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Don Quixote",
+        "description": "A work evaluated by many as the first modern novel in Europe."
+      },
+      {
+        "title": "La Galatea",
+        "description": "Published the novel 'La Galatea', but it did not attract much popularity."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Miguel de Cervantes's nickname?",
+        "answer": "He has the nickname 'Prince of Wits' (el Príncipe de los Ingenios)."
+      },
+      {
+        "question": "Where was Miguel de Cervantes born?",
+        "answer": "He was born in Alcala de Henares, a university town in Madrid."
+      },
+      {
+        "question": "What were Miguel de Cervantes's main professions?",
+        "answer": "He was a novelist, poet, and playwright."
+      },
+      {
+        "question": "How are Miguel de Cervantes's works evaluated?",
+        "answer": "His works are mentioned among the most important masterpieces in all of literature, and 'Don Quixote' in particular is evaluated as the first modern novel in Europe."
+      }
+    ]
+  },
+  "murasaki-shikibu": {
+    "timeline": [
+      {
+        "event": "Born in Heian-kyo, Japan"
+      },
+      {
+        "event": "Went to Echizen Province with her father when he was appointed as the provincial governor"
+      },
+      {
+        "event": "Returned to Kyoto and married Fujiwara no Nobutaka"
+      },
+      {
+        "event": "Daughter Kenshi (Kataiko) was born"
+      },
+      {
+        "event": "Husband Nobutaka died of cholera"
+      },
+      {
+        "event": "Wrote 'The Tale of Genji'"
+      },
+      {
+        "event": "Invited to the imperial court by Fujiwara no Michinaga to become a lady-in-waiting to Empress Shoshi"
+      },
+      {
+        "event": "Court lady Fujiwara no Kyoko is mentioned in the imperial diary (presumed to be Murasaki's real name)"
+      },
+      {
+        "event": "Died"
+      },
+      {
+        "event": "A 6-volume English translation of 'The Tale of Genji' was completed"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Authored 'The Tale of Genji'",
+        "description": "Wrote the Japanese novel 'The Tale of Genji', which is considered one of the first novels."
+      },
+      {
+        "title": "Authored 'The Diary of Lady Murasaki'",
+        "description": "Wrote the poetry collection 'The Diary of Lady Murasaki'."
+      },
+      {
+        "title": "Learning and teaching Chinese literature",
+        "description": "Learned Chinese literature, which was taboo for women in the Heian period, under her scholar father, and taught Chinese literature to Empress Shoshi."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Murasaki Shikibu's real name?",
+        "answer": "Murasaki Shikibu is a pen name. Her real name is unknown, but it is presumed to be Fujiwara no Kyoko, a court lady mentioned in the imperial diary in 1007."
+      },
+      {
+        "question": "How was Murasaki Shikibu able to learn Chinese literature?",
+        "answer": "Although women in the Heian period were traditionally not allowed to learn Chinese, she grew up under her scholar father and showed a great aptitude for it, becoming fluent in writing it."
+      },
+      {
+        "question": "When was 'The Tale of Genji' written?",
+        "answer": "'The Tale of Genji' was written between 1000 and 1012."
+      },
+      {
+        "question": "When and why did Murasaki Shikibu become a court lady?",
+        "answer": "Murasaki Shikibu was invited by Fujiwara no Michinaga to be a lady-in-waiting to Empress Shoshi in her early to mid-thirties due to her reputation as a writer."
+      },
+      {
+        "question": "What was the relationship between Sei Shonagon and Murasaki Shikibu like?",
+        "answer": "Murasaki Shikibu perceived Sei Shonagon as a rival and critically evaluated Shonagon's arrogance and showing off of her Chinese knowledge."
+      }
+    ]
+  }
+}

@@ -35,6 +35,12 @@ export const isLocaleIndexed = (locale: string) => {
   return LOCALE_STATUS[locale as Locale]?.index ?? false;
 };
 
+export const INDEXED_BLOG_LOCALES = ['en', 'ko', 'sv', 'cs', 'th', 'hi', 'ru', 'ja', 'ar', 'zh'];
+
+export const isBlogLocaleIndexed = (locale: string) => {
+  return INDEXED_BLOG_LOCALES.includes(locale) && isLocaleIndexed(locale);
+};
+
 export const buildSEOAlternates = (path: string, currentLocale: string) => {
   const languages: Record<string, string> = {
     'x-default': path

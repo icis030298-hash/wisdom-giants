@@ -1,0 +1,718 @@
+{
+  "michael-faraday": {
+    "timeline": [
+      {
+        "year": "1791",
+        "event": "Born on September 22 as the third of four children to James Faraday and Margaret in Newington."
+      },
+      {
+        "year": "1804",
+        "event": "Became an apprentice to George Riebau, a bookseller, at the age of 13."
+      },
+      {
+        "year": "1805",
+        "event": "Signed a seven-year contract as George Riebau's apprentice on August 7."
+      },
+      {
+        "year": "1806",
+        "event": "Read Jane Marcet's 'Conversations on Chemistry' and the 3rd edition of the Encyclopædia Britannica by James Tytler."
+      },
+      {
+        "year": "1809",
+        "event": "Began taking notes on articles about art and science from newspapers and magazines."
+      },
+      {
+        "year": "1812",
+        "event": "Received tickets to Humphry Davy's chemistry lectures and attended them; wrote a letter asking Davy for help."
+      },
+      {
+        "year": "1813",
+        "event": "Started working at the Royal Institution in March; began a European tour as Davy's secretary and assistant on October 13."
+      },
+      {
+        "year": "1814",
+        "event": "Traveled to Naples, Italy, climbed Mount Vesuvius, and met Alessandro Volta in Pavia."
+      },
+      {
+        "year": "1815",
+        "event": "Returned to England on April 23; re-employed as superintendent and assistant of the apparatus and mineralogical collections at the Royal Institution's laboratory in May."
+      },
+      {
+        "year": "1821",
+        "event": "Married Sarah Barnard on June 12; published an article on electromagnetic rotation in 'Annals of Philosophy'."
+      },
+      {
+        "year": "1822",
+        "event": "Left the note 'Convert magnetism into electricity' in his laboratory notebook."
+      },
+      {
+        "year": "1823",
+        "event": "Successfully liquefied chlorine."
+      },
+      {
+        "year": "1825",
+        "event": "Discovered benzene; commissioned by the Royal Society to research the optical properties of glass used for telescopes."
+      },
+      {
+        "year": "1826",
+        "event": "Determined the molecular structure of naphthalene and created two sample crystals; established the 'Christmas Lectures for Children'."
+      },
+      {
+        "year": "1827",
+        "event": "Published a paper including practical guidance on chemistry in April; began optical glass experiments with a special furnace provided by the Royal Institution."
+      },
+      {
+        "year": "1829",
+        "event": "Announced the success of his optical glass research at the Bakerian Lecture of the Royal Society."
+      },
+      {
+        "year": "1831",
+        "event": "Began electromagnetic experiments on August 29 and discovered electromagnetic induction."
+      },
+      {
+        "year": "1832",
+        "event": "Began 'Electrochemical Decomposition' research at the end of the year and discovered Faraday's first law."
+      },
+      {
+        "year": "1833",
+        "event": "Experimented with various dissolved substances in a voltameter at the end of the year and discovered Faraday's second law."
+      },
+      {
+        "year": "1836",
+        "event": "Discovered that the charge on a charged conductor resides only on its exterior surface."
+      },
+      {
+        "year": "1839",
+        "event": "Published Volume 1 of 'Experimental Researches in Electricity'."
+      },
+      {
+        "year": "1844",
+        "event": "Successfully liquefied many substances including ammonia and carbon dioxide."
+      },
+      {
+        "year": "1845",
+        "event": "Met William Thomson at Cambridge University in June; discovered the Faraday effect on September 18, defining a physical relationship between magnetism and light."
+      },
+      {
+        "year": "1848",
+        "event": "Began experiments to investigate changes in diamagnetic materials influenced by magnets, and mentioned the concept of a magnetic field."
+      },
+      {
+        "year": "1858",
+        "event": "Granted residence in a house near Hampton Court along the River Thames in London at the request of Queen Victoria."
+      },
+      {
+        "year": "1859",
+        "event": "Published 'Experimental Researches in Chemistry and Physics'."
+      },
+      {
+        "year": "1860",
+        "event": "Submitted research results on gravity and electricity to the 'Philosophical Transactions' but was advised to withdraw them; gave a lecture on 'The Chemical History of a Candle' at the Royal Institution's Christmas Lectures."
+      },
+      {
+        "year": "1861",
+        "event": "Began suffering from memory loss symptoms; gave his final lecture at Christmas."
+      },
+      {
+        "year": "1862",
+        "event": "Conducted an experiment on whether the spectrum of sodium and other metals heated by a flame is affected by an electromagnetic field."
+      },
+      {
+        "year": "1867",
+        "event": "Passed away on August 25."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Discovery of Electromagnetic Induction",
+        "description": "Discovered the principles of electromagnetic induction, diamagnetism, and the laws of electrolysis, and invented an electromagnetic rotary device that formed the foundation of the electric motor."
+      },
+      {
+        "title": "Discovery of Benzene and Introduction of Chemical Terms",
+        "description": "Discovered benzene as a chemist, investigated the clathrate hydrate of chlorine, and introduced technical terms such as anode, cathode, electrode, and ion for the first time."
+      },
+      {
+        "title": "Successful Liquefaction of Gases",
+        "description": "Successfully liquefied many substances such as chlorine, ammonia, and carbon dioxide, proving the existence of critical points and the interchangeability of states of matter."
+      },
+      {
+        "title": "Research on Manufacturing Optical Glass",
+        "description": "Researched the optical properties of glass used in telescopes and developed a method to produce uniform glass without bubbles or striae."
+      },
+      {
+        "title": "Discovery of the Faraday Effect",
+        "description": "Established the fundamental relationship between a magnetic field and light rays, showing that a magnetic field can affect light, and discovered the phenomenon of the plane of polarization rotating in a magnetic field."
+      },
+      {
+        "title": "Classification of Magnetic Materials",
+        "description": "Named diamagnetic materials that stop perpendicularly to a magnetic field and paramagnetic materials that stop parallel to it, discovering that most gases are diamagnetic while oxygen has paramagnetism."
+      },
+      {
+        "title": "Introduction of the Magnetic Field Concept",
+        "description": "Believed that lines of magnetic force had physical meaning and first mentioned the concept of a magnetic field, where the influence from two magnetic poles varies depending on the position."
+      },
+      {
+        "title": "Discovery of the Faraday Cage Principle",
+        "description": "Discovered that the electrical charge on a charged conductor resides only on its exterior and exerts no influence on anything enclosed within it."
+      },
+      {
+        "title": "Creation of the Christmas Lectures",
+        "description": "Created the 'Christmas Lectures for Children' in 1826 to popularize science, which has been passed down as a tradition of the Royal Institution in London."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What was Michael Faraday's educational background?",
+        "answer": "Faraday received little formal or higher education during his childhood, learning only the basics of reading, writing, and arithmetic. He acquired his scientific knowledge primarily through self-study."
+      },
+      {
+        "question": "Was Faraday proficient in mathematics?",
+        "answer": "Faraday lacked mathematical skills to the point that he could only do simple algebra and could not handle trigonometry, but he excelled in visual thinking and imagination. His theories were later mathematically reformulated by James Clerk Maxwell."
+      },
+      {
+        "question": "Did Faraday pursue fame or wealth?",
+        "answer": "No. He was not interested in worldly wealth, refused to publish his lectures, and declined the presidency of the Royal Society as well as a knighthood. His humility and frugality stemmed from his religious beliefs."
+      },
+      {
+        "question": "Did Faraday have children?",
+        "answer": "No. Faraday married Sarah Barnard, but they had no children throughout their lives. However, he created and participated in science lectures for children, contributing to the popularization of science."
+      },
+      {
+        "question": "How did Faraday's religion influence his scientific research?",
+        "answer": "Faraday was a devout follower of Christian fundamentalism and a member of the Sandemanian congregation. His humility, frugality, and pure pursuit of academics were closely related to this religious background."
+      }
+    ]
+  },
+  "cyrus-the-great": {
+    "timeline": [
+      {
+        "year": "576 BC",
+        "event": "Born as the only son of Cambyses I, King of Anshan of Persian descent, and Mandane, daughter of King Astyages of Media"
+      },
+      {
+        "year": "554 BC",
+        "event": "Rebelled against his maternal grandfather Astyages, starting a war with Media"
+      },
+      {
+        "year": "549 BC",
+        "event": "Conquered the Median Empire by capturing Ecbatana"
+      },
+      {
+        "year": "547 BC",
+        "event": "Marched to Sardis, the capital of Lydia"
+      },
+      {
+        "year": "546 BC",
+        "event": "Defeated King Croesus of Lydia and captured Sardis"
+      },
+      {
+        "year": "542 BC",
+        "event": "The Greek Ionian cities on the Aegean coast submitted to Persia"
+      },
+      {
+        "year": "539 BC",
+        "event": "Invaded the Neo-Babylonian Empire and captured Babylon"
+      },
+      {
+        "year": "August 530 BC",
+        "event": "Killed in action during a battle with Central Asian nomads east of the Caspian Sea"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Construction of the great Persian Empire",
+        "description": "Grew Persia into a vast empire encompassing most of Southwest and Central Asia and reaching India."
+      },
+      {
+        "title": "Conquest of the Median Empire",
+        "description": "Conquered the Median Empire by capturing Ecbatana in 549 BC."
+      },
+      {
+        "title": "Conquest of Lydia",
+        "description": "Conquered Lydia by capturing its capital Sardis in 546 BC."
+      },
+      {
+        "title": "Conquest of Neo-Babylonia",
+        "description": "Invaded Neo-Babylonia and captured Babylon in 539 BC."
+      },
+      {
+        "title": "Liberation of Jews and permission to rebuild the Temple",
+        "description": "Liberated the Jews held captive in Babylon, allowing them to return to Jerusalem and rebuild their sacred Temple in Jerusalem."
+      },
+      {
+        "title": "Policy of religious tolerance",
+        "description": "Advocated a policy of religious tolerance and inclusion to harmonize the multi-ethnic Persian Empire."
+      },
+      {
+        "title": "Cyrus Cylinder",
+        "description": "Left behind the Cyrus Cylinder, known as the first declaration of human rights that banned slavery."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Where does the name Cyrus originate?",
+        "answer": "Ancient Greek historians recorded that the name Cyrus originated from 'Kuros' meaning sun, and it is related to the meaning 'like the sun' in Old Persian."
+      },
+      {
+        "question": "How is Cyrus mentioned in the Bible?",
+        "answer": "He is recorded as 'Koresh' in the Old Testament, and appears as the king who liberated the Jews from the Babylonian captivity and allowed them to rebuild the Temple in Jerusalem."
+      },
+      {
+        "question": "How did Cyrus die?",
+        "answer": "According to ancient historians, he was killed in a battle with Central Asian nomads east of the Caspian Sea. Herodotus recorded that he died in a battle with the queen of the Massagetae."
+      },
+      {
+        "question": "What is the Cyrus Cylinder?",
+        "answer": "It is known as the first declaration of human rights that banned slavery, and is currently housed in Room 52 of the British Museum."
+      },
+      {
+        "question": "Where is the tomb of Cyrus?",
+        "answer": "It is located in Pasargadae and is registered as a UNESCO World Heritage site."
+      }
+    ]
+  },
+  "erwin-schrodinger": {
+    "timeline": [
+      {
+        "year": "August 12, 1887",
+        "event": "Born in Vienna, Austria."
+      },
+      {
+        "year": "1910",
+        "event": "Obtained a Ph.D. from the University of Vienna."
+      },
+      {
+        "year": "April 6, 1920",
+        "event": "Married Annemarie (Anny) Bertel."
+      },
+      {
+        "year": "1921",
+        "event": "Moved to the University of Zurich."
+      },
+      {
+        "year": "January 1926",
+        "event": "Published the paper 'Quantization as an Eigenvalue Problem' containing the Schrödinger equation."
+      },
+      {
+        "year": "1927",
+        "event": "Succeeded Max Planck at Friedrich Wilhelm University in Berlin."
+      },
+      {
+        "year": "1933",
+        "event": "Left Germany in opposition to Nazism."
+      },
+      {
+        "year": "1933",
+        "event": "Awarded the Nobel Prize in Physics along with Paul Dirac."
+      },
+      {
+        "year": "1935",
+        "event": "Proposed the Schrödinger's cat thought experiment."
+      },
+      {
+        "year": "1938",
+        "event": "Fired in Graz after the Austrian annexation, fled to Italy, and later relocated to Dublin."
+      },
+      {
+        "year": "1940",
+        "event": "Became the Director of the School for Theoretical Physics at the Dublin Institute for Advanced Studies."
+      },
+      {
+        "year": "1944",
+        "event": "Authored 'What Is Life?'."
+      },
+      {
+        "year": "1948",
+        "event": "Became a naturalized Irish citizen."
+      },
+      {
+        "year": "1955",
+        "event": "Retired in Dublin."
+      },
+      {
+        "year": "1956",
+        "event": "Returned to Vienna."
+      },
+      {
+        "year": "January 4, 1961",
+        "event": "Died of tuberculosis in Vienna at the age of 73."
+      },
+      {
+        "year": "January 2022",
+        "event": "The Department of Physics at Trinity College Dublin recommended removing his name from a lecture theatre considering his history of sexual abuse."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Development of the Schrödinger equation",
+        "description": "Developed an equation providing a way to calculate a system's wave function and how it changes dynamically over time, thereby developing the fundamental results of quantum mechanics."
+      },
+      {
+        "title": "Nobel Prize in Physics",
+        "description": "Awarded the Nobel Prize in Physics in 1933 along with Paul Dirac for the formulation of the Schrödinger equation."
+      },
+      {
+        "title": "Authored 'What Is Life?'",
+        "description": "Viewed life phenomena from the perspective of physics and addressed the problem of genetics, inspiring the discovery of the DNA double helix structure."
+      },
+      {
+        "title": "Proposed Schrödinger's cat thought experiment",
+        "description": "A famous thought experiment designed to mock the Copenhagen interpretation of quantum mechanics, and one of his most enduring legacies."
+      },
+      {
+        "title": "Research on unified field theory",
+        "description": "Made several attempts to construct a unified field theory integrating gravity, electromagnetism, and nuclear forces."
+      },
+      {
+        "title": "Research on color theory",
+        "description": "Showed a strong interest in psychology, particularly color perception and colorimetry, and published a series of papers in this field."
+      }
+    ],
+    "faq": [
+      {
+        "question": "For what achievement did Erwin Schrödinger win the Nobel Prize?",
+        "answer": "He was awarded the Nobel Prize in Physics in 1933 along with Paul Dirac for the formulation of the Schrödinger equation."
+      },
+      {
+        "question": "What is Schrödinger's cat?",
+        "answer": "It is a famous thought experiment designed to mock the Copenhagen interpretation of quantum mechanics."
+      },
+      {
+        "question": "What books did Schrödinger author?",
+        "answer": "He authored 'What Is Life?', which includes discussions on the genetic code of living organisms and negentropy."
+      },
+      {
+        "question": "When and where was Schrödinger born and when did he die?",
+        "answer": "He was born in Vienna, Austria on August 12, 1887, and died of tuberculosis in Vienna on January 4, 1961, at the age of 73."
+      },
+      {
+        "question": "Why did Schrödinger leave Germany?",
+        "answer": "He left Germany in 1933 because he despised the anti-Semitism of the Nazis."
+      }
+    ]
+  },
+  "giuseppe-garibaldi": {
+    "timeline": [
+      {
+        "year": "July 4, 1807",
+        "event": "Giuseppe Maria Garibaldi, an Italian general and patriot, is born."
+      },
+      {
+        "year": "1832",
+        "event": "Certified as a merchant navy captain."
+      },
+      {
+        "year": "April 1833",
+        "event": "Met Giovanni Battista Cuneo, an Italian political immigrant, in Taganrog, Russia, and joined the Young Italy movement."
+      },
+      {
+        "year": "February 1834",
+        "event": "Sentenced to death after participating in the Piedmont rebellion and fled to Marseille."
+      },
+      {
+        "year": "1835",
+        "event": "Joined the Ragamuffin rebels in Brazil and aided the independence of the Riograndense Republic."
+      },
+      {
+        "year": "October 1839",
+        "event": "Anita Ribeiro joined Garibaldi's ship 'Rio Pardo'."
+      },
+      {
+        "year": "1840",
+        "event": "First son Menotti is born."
+      },
+      {
+        "year": "1841",
+        "event": "Moved to Montevideo and worked as a trader and teacher."
+      },
+      {
+        "year": "1842",
+        "event": "Married Anita in Montevideo; commanded the Uruguayan fleet and raised the 'Italian Legion'."
+      },
+      {
+        "year": "1843",
+        "event": "Second daughter Rosita is born; formed the Italian Legion in Montevideo."
+      },
+      {
+        "year": "1845",
+        "event": "Third daughter Teresita is born."
+      },
+      {
+        "year": "1846",
+        "event": "Achieved victory at the Battles of Cerro and San Antonio."
+      },
+      {
+        "year": "January 1848",
+        "event": "Returned to his homeland Italy upon hearing news of the revolution breaking out in Palermo."
+      },
+      {
+        "year": "1849",
+        "event": "Promoted to Marshal of the Roman Republic army; fled to northern Italy after the fall of the Roman Republic; his wife Anita died during the retreat."
+      },
+      {
+        "year": "1850",
+        "event": "Became a resident of New York."
+      },
+      {
+        "year": "March 21, 1854",
+        "event": "Sailed to the mouth of the River Tyne in North East England as the master of the sailing ship Commonwealth."
+      },
+      {
+        "year": "1854",
+        "event": "Returned to Italy."
+      },
+      {
+        "year": "April 1859",
+        "event": "Outbreak of the Second Italian War of Independence; led the 'Hunters of the Alps' and captured Varese and Como."
+      },
+      {
+        "year": "May 11, 1860",
+        "event": "Landed in Marsala, Sicily leading a thousand volunteers."
+      },
+      {
+        "year": "May 13, 1860",
+        "event": "Defeated the Bourbon French garrison at Calatafimi."
+      },
+      {
+        "year": "May 27, 1860",
+        "event": "Launched a siege on Palermo."
+      },
+      {
+        "year": "September 7, 1860",
+        "event": "Entered the capital of Naples."
+      },
+      {
+        "year": "October 1, 1860",
+        "event": "The volunteers achieved success at the Battle of the Volturno."
+      },
+      {
+        "year": "October 26, 1860",
+        "event": "Met and shook hands with Victor Emmanuel II in Teano."
+      },
+      {
+        "year": "March 17, 1861",
+        "event": "The unified Kingdom of Italy was established."
+      },
+      {
+        "year": "June 1862",
+        "event": "Left Genoa, landed in Palermo, and gathered volunteers under the slogan 'Rome or Death'."
+      },
+      {
+        "year": "August 14, 1862",
+        "event": "Landed at Melito and marched into the Calabrian mountains."
+      },
+      {
+        "year": "August 28, 1862",
+        "event": "Met regular forces at the Aspromonte mountains and was taken prisoner after a battle."
+      },
+      {
+        "year": "1866",
+        "event": "With the backing of the Italian government, recruited the 'Hunters of the Alps', led them into Trentino, and defeated the Austrian army at Bezzecca."
+      },
+      {
+        "year": "1867",
+        "event": "Marched on Rome again but was stopped by the Papal army supported by French reinforcements."
+      },
+      {
+        "year": "July 1870",
+        "event": "The Franco-Prussian War broke out."
+      },
+      {
+        "year": "June 2, 1882",
+        "event": "Died on the island of Caprera."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Contribution to Italian unification",
+        "description": "Contributed to the unification of Italy and the establishment of the Kingdom of Italy."
+      },
+      {
+        "title": "Hero of Two Worlds",
+        "description": "Known as the 'Hero of Two Worlds' for his military achievements across South America and Europe."
+      },
+      {
+        "title": "Support for South American independence",
+        "description": "Joined the Ragamuffin rebels in Brazil to help the independence of the Riograndense Republic, and participated in the Uruguayan Civil War, raising the Redshirts."
+      },
+      {
+        "title": "Italian military command",
+        "description": "Appointed general by the provisional government of Milan and promoted to Marshal of the Roman Republic army."
+      },
+      {
+        "title": "Commanding the Hunters of the Alps",
+        "description": "Led the 'Hunters of the Alps' in the Second Italian War of Independence, capturing Varese and Como."
+      },
+      {
+        "title": "Success of the Expedition of the Thousand",
+        "description": "Led an expedition of a thousand volunteers to successfully annex Sicily, Southern Italy, Marche, and Umbria to the Kingdom of Sardinia."
+      },
+      {
+        "title": "Participation in the Franco-Prussian War",
+        "description": "Served as commander of the Army of the Vosges during the Franco-Prussian War."
+      },
+      {
+        "title": "International symbol",
+        "description": "Became an international symbol for realizing the ideals of national independence and republicanism."
+      },
+      {
+        "title": "Efforts to limit papal power",
+        "description": "Contributed to anti-clericalism among Latin liberals and did much to limit the temporal power of the Pope."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who was Giuseppe Garibaldi?",
+        "answer": "An Italian general and patriot who contributed to the unification of Italy and the establishment of the Kingdom of Italy."
+      },
+      {
+        "question": "Why is Garibaldi called the 'Hero of Two Worlds'?",
+        "answer": "Because his military achievements span across South America and Europe."
+      },
+      {
+        "question": "What were Garibaldi's political beliefs?",
+        "answer": "He was a republican who dedicated himself to unifying Italy under a democratic republican government."
+      },
+      {
+        "question": "What is Garibaldi's iconic attire?",
+        "answer": "It is related to the red shirts worn by his volunteers instead of uniforms."
+      },
+      {
+        "question": "What activities did Garibaldi undertake in South America?",
+        "answer": "He joined the Ragamuffin rebels in Brazil to aid the independence of the Riograndense Republic, and participated in the Uruguayan Civil War, raising the Redshirts."
+      },
+      {
+        "question": "Did Garibaldi have a chance to participate in the American Civil War?",
+        "answer": "He was offered a position as a major general in the Union Army by President Abraham Lincoln, but the offer fell through when he proposed the abolition of slavery and the position of Commander-in-Chief as conditions."
+      },
+      {
+        "question": "Where is Garibaldi's hometown?",
+        "answer": "He was born in Nice (Nizza), currently in France, while it was under French rule in 1792."
+      },
+      {
+        "question": "With whom did Garibaldi have a conflict after Italian unification?",
+        "answer": "He deeply disliked the Sardinian Prime Minister Camillo di Cavour, owing to personal resentment over Cavour's pragmatism and the selling of Nice to the French."
+      }
+    ]
+  },
+  "james-clerk-maxwell": {
+    "timeline": [
+      {
+        "year": "1831",
+        "event": "Born in Edinburgh, Scotland"
+      },
+      {
+        "year": "1839",
+        "event": "Mother died (age 8)"
+      },
+      {
+        "year": "1845",
+        "event": "Produced his first scientific work, a paper on 'Oval Curves', at age 14"
+      },
+      {
+        "year": "1847",
+        "event": "Enrolled at the University of Edinburgh"
+      },
+      {
+        "year": "1850",
+        "event": "Began studying at the University of Cambridge"
+      },
+      {
+        "year": "1854",
+        "event": "Graduated from Cambridge as Second Wrangler in the Mathematical Tripos and first in the Smith's Prize exam"
+      },
+      {
+        "year": "1855",
+        "event": "Elected as a Fellow of Trinity College to supervise experiments on electricity and magnetism and research color theory"
+      },
+      {
+        "year": "1857",
+        "event": "Published a paper on the structure of Saturn's rings"
+      },
+      {
+        "year": "1858",
+        "event": "Married Katherine Mary Dewar"
+      },
+      {
+        "year": "1859",
+        "event": "Awarded the Adams Prize for his research on Saturn's rings"
+      },
+      {
+        "year": "1860",
+        "event": "Appointed Professor of Natural Philosophy and Astronomy at King's College London, and received the Rumford Medal from the Royal Society of London for his research on color vision"
+      },
+      {
+        "year": "1861",
+        "event": "Produced the first color photograph by applying the mixing of the three primary colors"
+      },
+      {
+        "year": "1864",
+        "event": "Published 'A Dynamical Theory of the Electromagnetic Field'"
+      },
+      {
+        "year": "1865",
+        "event": "Resigned from his professorship at King's College and became a professor at Cambridge University"
+      },
+      {
+        "year": "1866",
+        "event": "Statistically formulated the kinetic theory of gases"
+      },
+      {
+        "year": "1871",
+        "event": "Researched at the Cavendish Laboratory"
+      },
+      {
+        "year": "1873",
+        "event": "Published 'A Treatise on Electricity and Magnetism'"
+      },
+      {
+        "year": "1874",
+        "event": "Began editing Henry Cavendish's unpublished electrical experiment data"
+      },
+      {
+        "year": "1879",
+        "event": "Died of stomach cancer in Cambridge at the age of 48 on November 5"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Electromagnetism",
+        "description": "Laid a unified foundation for electrical and magnetic phenomena, established electromagnetism, and proved that light is an electromagnetic wave."
+      },
+      {
+        "title": "Maxwell's equations",
+        "description": "Mathematically organized existing electromagnetic theories and established Maxwell's equations, the differential equations that form the basis of electromagnetism."
+      },
+      {
+        "title": "Kinetic theory of gases",
+        "description": "Formulated the velocity distribution law of gas molecules and introduced probabilistic concepts, laying the foundation for statistical mechanics."
+      },
+      {
+        "title": "Color theory and color photography",
+        "description": "Produced the first color photograph in 1861 by applying the principle that all colors can be expressed by mixing the three primary colors."
+      },
+      {
+        "title": "Research on Saturn's rings",
+        "description": "Showed that Saturn's rings must be composed of small particles to be stable, a prediction proven by the Voyager spacecraft in the 1980s."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who was James Clerk Maxwell?",
+        "answer": "A British theoretical physicist and mathematician born in Edinburgh, Scotland, recognized as the founder of electromagnetism for establishing a unified foundation for electrical and magnetic phenomena."
+      },
+      {
+        "question": "What is Maxwell's most important achievement?",
+        "answer": "Laying a unified foundation for electrical and magnetic phenomena and establishing electromagnetism, as well as presenting 'Maxwell's equations' that mathematically structured this."
+      },
+      {
+        "question": "What contribution did Maxwell make to color photography?",
+        "answer": "In 1861, he created the first color photograph by applying the principle that all colors can be expressed by mixing the three primary colors."
+      },
+      {
+        "question": "When and where was Maxwell born, and when did he die?",
+        "answer": "Born on June 13, 1831, in Edinburgh, Scotland, and died of stomach cancer in Cambridge on November 5, 1879, at the age of 48."
+      }
+    ]
+  }
+}

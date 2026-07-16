@@ -1,4 +1,4 @@
-import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
+import { buildSEOAlternates, isLocaleIndexed, isBlogLocaleIndexed } from "@/config/locale-status";
 import { Metadata } from 'next'
 import { BlogListClient } from '@/components/blog-list-client'
 import { setRequestLocale } from 'next-intl/server'
@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const hreflangLanguages = buildHreflang(BASE_URL, '/blog')
 
   return {
-    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
+    robots: { index: isBlogLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     title,
     description,
     alternates: buildSEOAlternates('/blog', locale),

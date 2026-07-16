@@ -1,379 +1,653 @@
 const fs = require('fs');
 
-const data = JSON.parse(fs.readFileSync('c:\\Users\\user\\OneDrive\\바탕 화면\\wisdom-giants-20260512T091146Z-3-001\\wisdom-giants\\scratch\\task3_id_retry_chunk_2.json', 'utf8'));
+const data = JSON.parse(fs.readFileSync('c:/Users/user/OneDrive/바탕 화면/wisdom-giants-20260512T091146Z-3-001/wisdom-giants/scratch/task_he_in_4.json', 'utf8'));
 
 const translations = {
-  "otto-von-bismarck": {
-    "timeline": [
-      "Lahir di Schönhausen, Prusia",
-      "Mendaftar di Plamannsche Lehranstalt di Berlin",
-      "Mendaftar di jurusan hukum Universitas Göttingen",
-      "Memulai pelatihan praktis sebagai juru tulis hukum setelah lulus dari universitas",
-      "Memulai dinas militer",
-      "Memulai kehidupan sebagai manajer pertanian setelah menyelesaikan dinas militer",
-      "Memasuki dunia politik dengan terpilih sebagai anggota Diet Bersatu Saxony",
-      "Bertindak sebagai kontra-revolusioner selama Revolusi Maret di Berlin",
-      "Terpilih sebagai anggota Diet Bersatu Prusia",
-      "Ditunjuk sebagai utusan Prusia untuk Diet Federal di Frankfurt",
-      "Ditunjuk sebagai duta besar Prusia untuk Rusia",
-      "Ditunjuk sebagai Menteri Presiden Prusia setelah menjabat sebagai duta besar untuk Prancis",
-      "Menyampaikan pidato 'Darah dan Besi' di parlemen",
-      "Kemenangan dalam Perang Schleswig Kedua melawan Denmark",
-      "Kemenangan dalam Perang Austro-Prusia dan penandatanganan Perdamaian Praha",
-      "Pembentukan Konfederasi Jerman Utara",
-      "Kemenangan dalam Perang Prancis-Prusia",
-      "Proklamasi Kekaisaran Jerman dan pengangkatan sebagai Kanselir pertama",
-      "Memulai 'Kulturkampf' (perjuangan budaya) menekan penganut Katolik di Jerman selatan",
-      "Pendirian Reichsbank (Bank Kekaisaran)",
-      "Memimpin Kongres Berlin setelah Perang Rusia-Turki",
-      "Mengesahkan 'Undang-Undang Anti-Sosialis'",
-      "Menerapkan asuransi kesehatan",
-      "Menerapkan asuransi kecelakaan dan memperoleh koloni di Togo dan Kamerun, Afrika",
-      "Memperoleh koloni Afrika Timur Jerman",
-      "Menerapkan asuransi hari tua dan cacat",
-      "Mengundurkan diri dan pensiun dari dunia politik karena konflik kebijakan dengan Wilhelm II",
-      "Meninggal dunia"
-    ],
-    "keyAchievements": [
-      {
-        "title": "Penyatuan Jerman dan Pembentukan Kekaisaran Jerman",
-        "description": "Mencapai penyatuan Jerman dan mendirikan Kekaisaran Jerman dengan memperluas militer Prusia dan memenangkan perang melawan Denmark, Austria, dan Prancis."
-      },
-      {
-        "title": "Kebijakan Darah dan Besi",
-        "description": "Mendapat julukan 'Kanselir Besi' melalui pidato yang mengadvokasi ekspansi militer saat mulai menjabat, menggunakannya sebagai dasar untuk memperkuat kekuatan militer."
-      },
-      {
-        "title": "Mempertahankan Keseimbangan Kekuatan di Eropa",
-        "description": "Sebagai Kanselir Kekaisaran Jerman, ia mendominasi diplomasi Eropa dan berusaha keras untuk mempertahankan keseimbangan kekuatan di antara negara-negara besar dengan membuat kesepakatan seperti Liga Tiga Kaisar dan Aliansi Tiga."
-      },
-      {
-        "title": "Pengenalan Sistem Jaminan Sosial",
-        "description": "Meletakkan fondasi bagi negara kesejahteraan dengan menerapkan sistem jaminan sosial pertama di dunia, termasuk asuransi kesehatan, asuransi kecelakaan, serta asuransi hari tua dan cacat."
-      },
-      {
-        "title": "Akuisisi Koloni",
-        "description": "Berkontribusi dalam mengamankan koloni Jerman di Afrika, seperti Togo, Kamerun, dan Afrika Timur Jerman, dengan mendorong perkembangan kapitalisme Jerman dan ekspansi kolonial."
-      }
-    ],
-    "faq": [
-      {
-        "question": "Mengapa Bismarck disebut 'Kanselir Besi'?",
-        "answer": "Ia mendapat julukan ini dari pidato 'Darah dan Besi' pada tahun 1862, yang mengadvokasi ekspansi militer, meskipun ia beralih ke kebijakan pasifis setelah penyatuan."
-      },
-      {
-        "question": "Bagaimana Bismarck mencapai penyatuan Jerman?",
-        "answer": "Mengikuti kebijakan 'Darah dan Besi'-nya, ia memperluas militer dan memenangkan perang melawan Denmark, Austria, dan Prancis, yang mengarah pada proklamasi Kekaisaran Jerman dan mencapai penyatuan."
-      },
-      {
-        "question": "Apa saja kebijakan domestik utama Bismarck?",
-        "answer": "Ia menerapkan 'Kulturkampf' untuk menekan umat Katolik, mengesahkan 'Undang-Undang Anti-Sosialis' untuk menekan sosialisme, dan memperkenalkan sistem jaminan sosial pertama di dunia."
-      },
-      {
-        "question": "Mengapa Bismarck mengundurkan diri dari jabatan kanselir?",
-        "answer": "Ia mengundurkan diri dan pensiun dari dunia politik pada tahun 1890 karena konflik kebijakan dengan Kaisar Wilhelm II."
-      }
-    ]
-  },
-  "peter-the-great": {
-    "timeline": [
-      "Lahir sebagai putra ketiga Tsar Alexis Mikhailovich dan istri keduanya, Natalya Kirillovna Naryshkina.",
-      "Naik takhta setelah kematian dini kakak tirinya Fyodor III, tetapi kehilangan kekuasaan karena kudeta oleh kakak tirinya Putri Sophia, dan menghabiskan masa kecil serta remajanya di Kawasan Asing.",
-      "Menikah dengan Eudoxia Lopukhina, putri seorang bangsawan Rusia.",
-      "Memanfaatkan penarikan dukungan kaum bangsawan terhadap rezim Sophia, ia melancarkan kudeta, mengasingkan Sophia ke biara, dan merebut kendali urusan negara.",
-      "Berpartisipasi dalam kampanye Azov yang dilanjutkan melawan Kesultanan Utsmaniyah sebagai artileri.",
-      "Mengorganisir angkatan laut dan menyerang Azov lagi, lalu dengan mudah merebutnya.",
-      "Menyusul kematian saudara tirinya Ivan V, ia menjadi penguasa tunggal Ketsaran Rusia.",
-      "Bergabung dengan aliansi bersama Denmark dan Polandia melawan Charles XII dari Swedia dan memasuki Perang Utara Raya.",
-      "Memulai pembangunan ibu kota baru, St. Petersburg, di tanah pesisir gersang Laut Baltik yang diperoleh sebagai hasil Perang Utara.",
-      "Memberikan kekalahan telak pada tentara Swedia, yang dikomandoi langsung oleh Charles XII, di Poltava.",
-      "Kesultanan Utsmaniyah menyatakan perang terhadap Ketsaran Rusia setelah Charles XII membentuk aliansi dengan mereka.",
-      "Saat dikepung oleh pasukan Utsmaniyah di sepanjang Sungai Pruth, ia menyerah untuk meminimalkan korban jiwa, dengan menyerahkan armada Azov dan Laut Hitam sebagai gantinya.",
-      "Mengalahkan armada Swedia dalam Pertempuran Gangut.",
-      "Saingan utamanya Charles XII tewas dalam pertempuran tanpa pewaris takhta.",
-      "Satu-satunya putranya, Tsarevich Alexei Petrovich, meninggal di penjara karena efek samping penyiksaan.",
-      "Perang Utara Raya berakhir dengan kemenangan Rusia, Ketsaran Rusia diproklamasikan sebagai Kekaisaran Rusia, dan Peter diberi gelar Imperator.",
-      "Saat menginspeksi lokasi pembangunan St. Petersburg, ia melompat ke air untuk menyelamatkan seorang prajurit yang tenggelam dan menderita pneumonia.",
-      "Meninggal dunia akibat komplikasi pneumonia."
-    ],
-    "keyAchievements": [
-      {
-        "title": "Peluncuran dan Pengembangan Kekaisaran Rusia",
-        "description": "Ia memajukan Ketsaran Rusia melalui kebijakan Westernisasi dan perluasan wilayah, serta meluncurkan Kekaisaran Rusia dengan mengadopsi gelar Imperator."
-      },
-      {
-        "title": "Promosi Kebijakan Westernisasi",
-        "description": "Untuk memodernisasi Rusia, yang masih memiliki sisa-sisa kuat Kekaisaran Mongol, ia mempromosikan kebijakan Westernisasi secara menyeluruh, termasuk perubahan pada pakaian wanita, pajak janggut, dan reformasi administrasi."
-      },
-      {
-        "title": "Penciptaan dan Penguatan Angkatan Laut",
-        "description": "Menyadari kebutuhan akan armada laut selama kampanye Azov, ia mengatur angkatan laut yang kuat dan secara krusial berkontribusi pada perebutan Azov serta kemenangan dalam Perang Utara Raya."
-      },
-      {
-        "title": "Kemenangan dalam Perang Utara Raya",
-        "description": "Ia mengamankan rute perdagangan ke Laut Baltik dengan memenangkan Perang Utara Raya melawan Swedia, mengubah Rusia menjadi kekuatan utama di pesisir Baltik."
-      },
-      {
-        "title": "Pembangunan St. Petersburg",
-        "description": "Membangun ibu kota baru, St. Petersburg, di tanah gersang Laut Baltik yang diperoleh dari Perang Utara, menciptakan kota yang melambangkan Westernisasi Rusia."
-      },
-      {
-        "title": "Reformasi Administrasi dan Akademik",
-        "description": "Membentuk badan administratif permanen yang meniru model Prusia, menetapkan Tabel Pangkat, menyederhanakan alfabet Sirilik, dan mendorong beasiswa dengan mendirikan institusi akademik."
-      }
-    ],
-    "faq": [
-      {
-        "question": "Mengapa Peter I mempromosikan kebijakan Westernisasi?",
-        "answer": "Ia memprioritaskan kebijakan Westernisasi untuk memodernisasi Rusia, yang tertinggal dalam pembangunan dibandingkan dengan Eropa Barat dan masih memiliki sisa-sisa kuat Kekaisaran Mongol."
-      },
-      {
-        "question": "Bagaimana Peter I bisa menciptakan angkatan laut?",
-        "answer": "Mengalami kesulitan dalam mengepung benteng tanpa armada laut selama kampanye Azov melawan Kesultanan Utsmaniyah, ia mengejar pembangunan armada menggunakan pengetahuan yang telah ia peroleh sejak kecil."
-      },
-      {
-        "question": "Apa yang terjadi pada putra Peter I?",
-        "answer": "Putra satu-satunya, Tsarevich Alexei Petrovich, menentang kebijakan Westernisasi ayahnya dan mencoba mendalangi pembunuhan. Setelah ketahuan, ia melarikan diri ke pengasingan namun akhirnya kembali, dan meninggal di penjara karena efek samping penyiksaan."
-      },
-      {
-        "question": "Bagaimana Peter I meninggal?",
-        "answer": "Pada bulan Desember 1724, saat menginspeksi lokasi pembangunan St. Petersburg, ia melompat ke air untuk menyelamatkan seorang prajurit yang tenggelam. Hal ini menyebabkannya menderita pneumonia, yang berujung pada kematiannya pada 8 Februari tahun berikutnya."
-      }
-    ]
-  },
-  "ataturk": {
-    "timeline": [
-      "Lahir di vilayet Salonica (sekarang Thessaloniki, Yunani) di bawah kekuasaan Kekaisaran Utsmaniyah.",
-      "Mendaftar di Sekolah Militer Salonica.",
-      "Mendaftar di Sekolah Menengah Militer Manastir.",
-      "Mendaftar di Akademi Militer Utsmaniyah.",
-      "Lulus dari Akademi Militer Utsmaniyah.",
-      "Lulus dari Perguruan Tinggi Militer Utsmaniyah.",
-      "Dipromosikan menjadi Kapten Senior.",
-      "Ditugaskan di markas besar Angkatan Darat Ketiga di Manastir.",
-      "Ditunjuk sebagai inspektur kereta api Utsmaniyah di Rumelia Timur.",
-      "Bergabung dengan Revolusi Turki Muda.",
-      "Kembali ke Istanbul setelah menekan pemberontakan suku.",
-      "Berkontribusi pada penekanan Insiden 31 Maret, sebuah kudeta balasan di Istanbul.",
-      "Ditugaskan ke Albania Utsmaniyah.",
-      "Berpartisipasi dalam manuver militer skala besar di Picardy, Prancis, sebagai perwira pengamat Utsmaniyah.",
-      "Bertugas secara singkat di Kementerian Perang Utsmaniyah di Istanbul.",
-      "Dikerahkan ke Tripolitania Utsmaniyah (sekarang Libya) dan bertempur dalam Perang Italia-Turki.",
-      "Meraih kemenangan besar dalam Pertempuran Tobruk.",
-      "Menderita gangguan penglihatan di mata kirinya akibat cedera yang dialami pada Pertempuran Derna.",
-      "Ditunjuk sebagai komandan pasukan Utsmaniyah di Derna.",
-      "Kembali dari garis depan Perang Italia-Turki saat pecahnya Perang Balkan.",
-      "Perang Italia-Turki berakhir, dan berdasarkan Perjanjian Ouchy, Tripolitania Utsmaniyah serta wilayah lainnya diserahkan kepada Kerajaan Italia.",
-      "Meraih kemenangan telak dalam Pertempuran Sakarya, yang mengakhiri Gagasan Megali (Yunani Raya).",
-      "Tanggal kemenangan besar melawan Yunani, yang dirayakan sebagai hari libur nasional di Turki.",
-      "Menghapus Kesultanan dan menggulingkan Mehmed VI.",
-      "Menandatangani perjanjian baru (Perjanjian Lausanne) dengan Blok Sekutu.",
-      "Memindahkan ibu kota dari Istanbul ke Ankara, memproklamasikan republik, dan menjadi Presiden pertama.",
-      "Menghapuskan Kekhalifahan, sebuah institusi yang telah ada selama 1.300 tahun sejak tahun 632.",
-      "Menerapkan reformasi pakaian untuk membebaskan pakaian wanita, melembagakan kesetaraan pendidikan bersama (koedukasi), dan mengganti kalender Hijriah dengan kalender Masehi.",
-      "Mengamandemen hukum perdata untuk melarang poligami dan menetapkan monogami.",
-      "Menghapuskan aksara Arab untuk bahasa Turki dan menggantinya dengan alfabet berbasis Latin.",
-      "Memberikan hak pilih kepada perempuan.",
-      "Parlemen Turki menganugerahkan kepadanya nama belakang 'Atatürk', yang berarti 'Bapak Bangsa Turki'.",
-      "Tanda-tanda kesehatan Atatürk yang memburuk mulai muncul.",
-      "Menderita penyakit parah saat bepergian ke Yalova dan didiagnosis menderita sirosis hati.",
-      "Meninggal dunia pada usia 57 tahun di Istana Dolmabahçe."
-    ],
-    "keyAchievements": [
-      {
-        "title": "Pendiri dan Presiden Pertama Republik Turki",
-        "description": "Sebagai pendiri dan Presiden pertama Republik Turki, ia memimpin Perang Kemerdekaan Turki."
-      },
-      {
-        "title": "Kemenangan di Pertempuran Gallipoli",
-        "description": "Seorang jenderal luar biasa yang berhasil menghentikan serangan pasukan Inggris dan Prancis pada Pertempuran Gallipoli selama Perang Dunia I."
-      },
-      {
-        "title": "Penghapusan Kesultanan dan Kekhalifahan",
-        "description": "Menghapus Kesultanan pada tahun 1922, menggulingkan Mehmed VI, dan menghapuskan Kekhalifahan pada tahun 1924."
-      },
-      {
-        "title": "Legislasi Sekularisme",
-        "description": "Menetapkan sekularisme, prinsip pendirian Republik Turki, ke dalam hukum."
-      },
-      {
-        "title": "Reformasi Pakaian dan Penjaminan Hak Perempuan Atas Pendidikan",
-        "description": "Memberlakukan reformasi pakaian untuk membebaskan pakaian perempuan dan menjamin hak perempuan untuk mendapatkan pendidikan yang sebelumnya terlarang, serta melembagakan kesetaraan koedukasi."
-      },
-      {
-        "title": "Penghapusan Kalender Islam dan Pengenalan Kalender Gregorian",
-        "description": "Mengganti kalender Islam (Hijriah) dengan kalender Gregorian Eropa (Masehi)."
-      },
-      {
-        "title": "Revisi Hukum Perdata dan Penetapan Monogami",
-        "description": "Mengamandemen hukum perdata untuk melarang poligami dan menetapkan monogami."
-      },
-      {
-        "title": "Pengenalan Alfabet Latin",
-        "description": "Menghapus aksara Arab yang digunakan untuk menulis bahasa Turki dan menggantinya dengan alfabet berbasis Latin."
-      },
-      {
-        "title": "Pemberian Hak Pilih kepada Perempuan",
-        "description": "Memberikan perempuan hak pilih pada tahun 1930."
-      }
-    ],
-    "faq": [
-      {
-        "question": "Siapa nama asli Atatürk?",
-        "answer": "Nama masa kecilnya adalah Mustafa. Nama 'Kemal' diberikan kepadanya oleh guru matematikanya, yang memuji kemampuan matematikanya dan sikapnya yang dewasa."
-      },
-      {
-        "question": "Apa arti gelar 'Atatürk' dan kapan dianugerahkan?",
-        "answer": "Gelar 'Atatürk' berarti 'Bapak Bangsa Turki' dan dianugerahkan kepadanya oleh parlemen Turki pada tahun 1934."
-      },
-      {
-        "question": "Apa status Atatürk di Republik Turki?",
-        "answer": "Ia dipuja di Turki sebagai pahlawan kemerdekaan dan bapak pendiri bangsa. Parlemen Turki memberinya gelar kehormatan 'Atatürk', dan ia adalah satu-satunya individu yang ditampilkan di uang kertas Turki."
-      },
-      {
-        "question": "Kapan Atatürk meninggal dan apa penyebab kematiannya?",
-        "answer": "Ia meninggal pada tanggal 10 November 1938 pada usia 57 tahun. Ia telah didiagnosis menderita sirosis hati pada awal tahun 1938."
-      },
-      {
-        "question": "Apa saja kebijakan reformasi utama yang dilaksanakan oleh Atatürk?",
-        "answer": "Ia menerapkan banyak reformasi, termasuk penghapusan Kekhalifahan, legislasi sekularisme, reformasi pakaian, penjaminan hak perempuan atas pendidikan, penghapusan kalender Islam, pelarangan poligami, peralihan ke alfabet Latin, dan pemberian hak pilih kepada perempuan."
-      }
-    ]
-  },
-  "florence-nightingale": {
-    "timeline": [
-      "Lahir sebagai putri kedua dari William Edward Nightingale dan Frances Nightingale.",
-      "Bertemu sosialis Swiss, Sismondi, saat bepergian di Italia.",
-      "Mengamati sebuah rumah sakit di Alexandria saat bepergian ke Mesir dan menyadari pentingnya pendidikan keperawatan formal.",
-      "Mempelajari keperawatan di sekolah Protestan di Kaiserswerth, Jerman, dan menjadi pengawas sebuah rumah sakit wanita di London.",
-      "Bertugas sebagai perawat militer di rumah sakit lapangan di Scutari selama Perang Krimea.",
-      "Terpilih sebagai anggota wanita pertama di Royal Statistical Society.",
-      "Mendirikan Sekolah Perawat Nightingale dan menulis buku-buku teks keperawatan profesional.",
-      "Dianugerahi Dame of Grace dari Ordo St John (DStJ).",
-      "Menjadi wanita pertama yang menerima Order of Merit dari Raja Edward VII.",
-      "Meninggal dunia pada usia 90 tahun."
-    ],
-    "keyAchievements": [
-      {
-        "title": "Membangun Profesi Keperawatan",
-        "description": "Dengan mengabdi sebagai perawat militer dalam Perang Krimea, ia mempopulerkan profesi keperawatan dan mematangkannya menjadi bidang yang terspesialisasi."
-      },
-      {
-        "title": "Meningkatkan Kebersihan Rumah Sakit",
-        "description": "Menerapkan kedisiplinan dan kondisi sanitasi di rumah sakit lapangan yang kacau di Scutari selama Perang Krimea, sehingga menurunkan tingkat kematian dari 42 persen menjadi 2 persen."
-      },
-      {
-        "title": "Membangun Sistem Pendidikan Keperawatan",
-        "description": "Meletakkan fondasi pendidikan keperawatan dengan mendirikan Sekolah Perawat Nightingale pada tahun 1860 dan menulis buku teks keperawatan profesional."
-      },
-      {
-        "title": "Mengusulkan Konsep Unit Perawatan Intensif (ICU)",
-        "description": "Pertama kali mengusulkan konsep unit perawatan intensif (ICU) selama Perang Krimea, menyarankan agar pasien kritis diisolasi untuk mendapatkan perawatan khusus."
-      },
-      {
-        "title": "Analisis Statistik",
-        "description": "Menggunakan analisis data dari Perang Krimea untuk memperdebatkan pentingnya kebersihan rumah sakit, menjadikannya anggota wanita pertama di Royal Statistical Society."
-      },
-      {
-        "title": "Karya Sastra",
-        "description": "Buku tulisannya 'Catatan tentang Keperawatan' berfungsi sebagai teks dasar untuk praktik dan pendidikan keperawatan, dan Ikrar Nightingale masih diucapkan oleh para perawat di seluruh dunia."
-      }
-    ],
-    "faq": [
-      {
-        "question": "Apakah ada pandangan kritis terhadap pemujaan Nightingale?",
-        "answer": "Pada tahun 1999, serikat sektor publik Inggris, UNISON, menentang pemujaan terhadap Nightingale, dengan argumen bahwa hal itu menghambat kemandirian keperawatan dan berkontribusi pada upah yang rendah, serta mengabaikan pencapaian perawat lainnya."
-      },
-      {
-        "question": "Apakah ada perawat terkemuka lainnya yang aktif di masa Nightingale?",
-        "answer": "Mary Seacole dari Jamaika aktif pada periode yang sama, tetapi karena diskriminasi rasial, ia tidak dapat bekerja berdampingan dengan Nightingale dan hidup dalam kemiskinan."
-      }
-    ]
-  },
-  "yu-gwan-sun": {
-    "timeline": [
-      "Lahir sebagai anak kedua dari tiga putra dan satu putri dari pasangan Yu Jung-gwon dan Lee So-je di Byeongcheon-myeon, Cheonan, Provinsi Chungcheong Selatan.",
-      "Pindah ke tahun ke-3 pendidikan umum di Ewha Haktang sebagai siswa penerima beasiswa atas rekomendasi Alice Sharp, seorang misionaris Metodis Amerika.",
-      "Lulus dari pendidikan umum di Ewha Haktang dan mendaftar di pendidikan tinggi.",
-      "Berpartisipasi dalam Gerakan 1 Maret di Seoul.",
-      "Berpartisipasi dalam demonstrasi Manse (kemerdekaan) di Seoul.",
-      "Kembali ke kampung halamannya di Cheonan bersama sepupunya Yu Ye-do setelah Ewha Haktang ditutup atas perintah Gubernur Jenderal.",
-      "Ditangkap oleh Jepang saat memainkan peran utama dalam demonstrasi Manse di Pasar Aunae di Cheonan.",
-      "Dihukum 5 tahun penjara oleh Pengadilan Distrik Gongju atas tuduhan hasutan dan pelanggaran Undang-Undang Keamanan.",
-      "Dihukum 3 tahun penjara oleh Pengadilan Banding Gyeongseong; hukuman tersebut dikonfirmasi setelah ia mencabut bandingnya.",
-      "Meninggal di Penjara Seodaemun karena kandung kemih yang pecah.",
-      "Menyusul protes dari staf Ewha Haktang, jenazahnya diterima dari Penjara Seodaemun dan dikenakan kain kafan.",
-      "Upacara pemakaman diadakan di Gereja Metodis Jeongdong, dan ia dimakamkan di pemakaman umum Itaewon.",
-      "Dianugerahi secara anumerta Order of Merit untuk Pendirian Nasional, Medali Kemerdekaan.",
-      "Karena jenazahnya hilang, sebuah tugu peringatan (Chohonmyo) didirikan di tengah Gunung Maebongsan di Byeongcheon-myeon, Cheonan.",
-      "Tempat kelahirannya di Yongdu-ri, Byeongcheon-myeon, Dongnam-gu, Kota Cheonan, Provinsi Chungcheong Selatan, dipugar dan ditetapkan sebagai Situs Bersejarah No. 230.",
-      "Sekolah Menengah Atas Putri Ewha menganugerahkan diploma kehormatan kepadanya.",
-      "Balai Peringatan Yu Gwan-sun dibuka di Byeongcheon-myeon, Cheonan, Provinsi Chungcheong Selatan, untuk menandai peringatan 100 tahun kelahirannya.",
-      "Dianugerahi secara anumerta Order of Merit untuk Pendirian Nasional, Medali Republik Korea."
-    ],
-    "keyAchievements": [
-      {
-        "title": "Partisipasi dan Kepemimpinan dalam Gerakan 1 Maret",
-        "description": "Berpartisipasi dalam Gerakan 1 Maret di Seoul pada tahun 1919 dan, setelah kembali ke kampung halamannya di Cheonan, mengambil peran utama dalam mengorganisir demonstrasi Manse di Pasar Aunae."
-      },
-      {
-        "title": "Kemartiran untuk Gerakan Kemerdekaan",
-        "description": "Ditangkap oleh Jepang dan meninggal sebagai martir di Penjara Seodaemun karena kandung kemih yang pecah akibat penyiksaan parah, menunjukkan komitmen teguh yang tak tergoyahkan terhadap gerakan kemerdekaan."
-      },
-      {
-        "title": "Simbol Semangat Kemerdekaan",
-        "description": "Dikenang sebagai tokoh simbolis gerakan kemerdekaan, ia secara anumerta dianugerahi Order of Merit untuk Pendirian Nasional (Medali Kemerdekaan dan Medali Republik Korea), serta berbagai proyek peringatan telah didirikan untuk menghormatinya."
-      }
-    ],
-    "faq": [
-      {
-        "question": "Apa klan keluarga (bon-gwan) Yu Gwan-sun?",
-        "answer": "Klan keluarga Yu Gwan-sun adalah Goheung."
-      },
-      {
-        "question": "Apakah ada kontroversi mengenai ejaan namanya?",
-        "answer": "Dulu ada perdebatan tentang apakah mengeja nama belakangnya sebagai 'Yu' atau 'Ryu' karena aturan bunyi awal dalam bahasa Korea. Sejak tahun 2014, secara resmi dieja sebagai 'Yu Gwan-sun' untuk mengurangi kebingungan publik."
-      },
-      {
-        "question": "Apa hukuman Yu Gwan-sun pada sidang pertama?",
-        "answer": "Pada tanggal 9 Mei 1919, Pengadilan Distrik Gongju menjatuhkan hukuman 5 tahun penjara karena penghasutan dan pelanggaran Undang-Undang Keamanan."
-      },
-      {
-        "question": "Apa penyebab kematian Yu Gwan-sun?",
-        "answer": "Ia meninggal di penjara pada 28 September 1920 akibat kandung kemih yang pecah karena penyiksaan yang dialaminya saat menjalani hukuman di Penjara Seodaemun."
-      },
-      {
-        "question": "Di mana jenazah Yu Gwan-sun berada?",
-        "answer": "Jenazahnya hilang selama relokasi pemakaman umum Itaewon. Saat ini, ada tugu peringatan (Chohonmyo) yang didirikan di tengah Gunung Maebongsan di kampung halamannya di Byeongcheon-myeon, Cheonan."
-      },
-      {
-        "question": "Bagaimana orang tua Yu Gwan-sun meninggal?",
-        "answer": "Ayahnya, Yu Jung-gwon, dan ibunya, Lee So-je, dibunuh di tempat oleh tentara Jepang selama demonstrasi Aunae Manse pada 1 April 1919."
-      }
-    ]
-  }
+  // ralph-waldo-emerson
+  "1803년": "1803",
+  "매사추세츠주 보스턴의 유니테리언 목사 가문에서 태어났습니다.": "נולד למשפחה של כומר אוניטרי בבוסטון, מסצ'וסטס.",
+  "1836년": "1836",
+  "미국 초월주의의 근본적인 철학적 신조를 세운 그의 첫 번째 에세이 자연을 출판했습니다.": "פרסם את חיבורו הראשון, 'הטבע', שביסס את העקרונות הפילוסופיים הבסיסיים של הטרנסצנדנטליזם האמריקאי.",
+  "1837년": "1837",
+  "유럽으로부터의 지적 독립을 유명하게 촉구한 미국의 학자 연설을 했습니다.": "נשא את הנאום המפורסם 'המלומד האמריקאי', שבו קרא לעצמאות אינטלקטואלית מאירופה.",
+  "1841년": "1841",
+  "영향력 있는 에세이 자기 신뢰가 수록된 에세이 제1집을 출판했습니다.": "פרסם את ספרו 'מסות: סדרה ראשונה', הכולל את החיבור המשפיע 'הסתמכות עצמית'.",
+  "1844년": "1844",
+  "저명한 반노예제 연사로 부상하여 노예제 폐지 운동을 위해 활발하게 강연했습니다.": "הפך לדובר בולט נגד העבדות והרצה באופן פעיל למען התנועה לביטול העבדות.",
+
+  // susan-b-anthony
+  "1851년": "1851",
+  "엘리자베스 캐디 스탠턴을 만나 여성 권리 운동에서 강력하고 평생 지속되는 파트너십을 맺었습니다.": "פגשה את אליזבת קיידי סטנטון ויצרה שותפות חזקה ולכל החיים בתנועה לזכויות האישה.",
+  "1869년": "1869",
+  "여성 투표권을 위한 헌법 개정 확보에 헌신하는 전국 여성 참정권 협회를 공동 설립했습니다.": "הייתה שותפה להקמת 'האגודה הלאומית למען זכות בחירה לנשים', שהוקדשה להבטחת תיקון לחוקה למען זכות בחירה לנשים.",
+  "1872년": "1872",
+  "수정 헌법 제14조를 시험하기 위해 뉴욕주 로체스터에서 열린 대통령 선거에서 투표했다가 체포되었습니다.": "נעצרה לאחר שהצביעה בבחירות לנשיאות ברוצ'סטר, ניו יורק, כדי לבחון את התיקון ה-14 לחוקה.",
+  "1881년": "1881",
+  "스탠턴, 마틸다 조슬린 게이지와 함께 다권으로 구성된 여성 참정권의 역사를 출판하기 시작했습니다.": "החלה לפרסם את הסדרה מרובת הכרכים 'תולדות זכות הבחירה לנשים' יחד עם סטנטון ומטילדה ג'וסלין גייג'.",
+  "1920년": "1920",
+  "그녀가 사망한 지 14년 후, 여성에게 투표권을 부여하는 수정 헌법 제19조가 비준되었으며, 이는 흔히 수잔 B. 앤서니 수정안으로 알려져 있습니다.": "14 שנים לאחר מותה, אושר התיקון ה-19 לחוקה המעניק זכות בחירה לנשים, המוכר לרוב כ'תיקון סוזן ב. אנתוני'.",
+
+  // walt-whitman
+  "1819년": "1819",
+  "뉴욕주 웨스트 힐스의 노동자 계급 가정에서 아홉 자녀 중 둘째로 태어났습니다.": "נולד כילד השני מתוך תשעה למשפחה ממעמד הפועלים בווסט הילס, ניו יורק.",
+  "1855년": "1855",
+  "미국 시의 지형을 급격히 변화시킨 풀잎 초판을 자비로 출판했습니다.": "פרסם במימונו האישי את המהדורה הראשונה של 'עלי עשב', ששינתה באופן קיצוני את נוף השירה האמריקאית.",
+  "1862년": "1862",
+  "부상당한 형제를 돌보기 위해 워싱턴 D.C.로 여행을 갔으며, 이후 남북전쟁 기간 동안 자원 간호사로 일했습니다.": "נסע לוושינגטון הבירה כדי לטפל באחיו הפצוע, ולאחר מכן שימש כאח מתנדב במהלך מלחמת האזרחים.",
+  "1865년": "1865",
+  "미국 남북전쟁 당시의 경험을 반영한 깊은 감동을 주는 시집 드럼 탭스를 출판했습니다.": "פרסם את 'הקשות תוף', אוסף שירים מרגש עמוקות המשקף את חוויותיו במהלך מלחמת האזרחים האמריקאית.",
+  "1892년": "1892",
+  "뉴저지주 캠던에서 세상을 떠나기 직전 풀잎의 마지막 임종판을 준비했습니다.": "הכין את 'מהדורת ערש הדווי' האחרונה של 'עלי עשב' זמן קצר לפני מותו בקמדן, ניו ג'רזי.",
+
+  // ibn-al-haytham
+  "965년": "965",
+  "이슬람 황금기 시대에 오늘날 이라크의 바스라에서 태어났습니다.": "נולד בבצרה שבעיראק של ימינו, במהלך תור הזהב של האסלאם.",
+  "1011년": "1011",
+  "나일강의 범람을 통제하는 데 실패한 후 파티마 왕조 칼리프의 분노를 피하기 위해 미친 척했습니다.": "העמיד פני משוגע כדי לחמוק מזעמו של הח'ליף הפאטמי לאחר שנכשל בניסיונו לווסת את הצפות נהר הנילוס.",
+  "1021년": "1021",
+  "빛에 대한 과학적 이해에 지대한 영향을 미친 대작 광학서(키탑 알-마나지르)를 완성했습니다.": "השלים את יצירת המופת שלו, 'ספר האופטיקה' (כתאב אל-מנאט'ר), שהשפיעה עמוקות על ההבנה המדעית של האור.",
+  "1027년": "1027",
+  "프톨레마이오스 모델에 도전하는 천문학과 수학에 관한 비판적 저작들을 저술했습니다.": "כתב חיבורים ביקורתיים באסטרונומיה ומתמטיקה שקראו תיגר על המודל של תלמי.",
+  "1040년": "1040",
+  "현대 광학의 아버지이자 과학적 방법론의 선구자로서 유산을 남기고 카이로에서 사망했습니다.": "נפטר בקהיר והותיר אחריו מורשת כאבי האופטיקה המודרנית וכחלוץ השיטה המדעית.",
+
+  // blaise-pascal
+  "1623년 6월 19일": "19 ביוני 1623",
+  "프랑스 클레르몽페랑 지방에서 루앙의 세무공무원 에티엔 파스칼의 아들로 태어남": "נולד בקלרמון-פראן שבצרפת, בנו של אטיין פסקל, פקיד מס ברואן.",
+  "약 1635년 (12세)": "בסביבות 1635 (גיל 12)",
+  "삼각형의 내각의 합이 180도라는 사실을 스스로 발견함": "גילה בעצמו שסכום הזוויות במשולש הוא 180 מעלות.",
+  "약 1636년 (13세)": "בסביבות 1636 (גיל 13)",
+  "블레즈 파스칼의 삼각형을 발형함": "המציא את משולש פסקל.",
+  "약 1637년 (14세)": "בסביבות 1637 (גיל 14)",
+  "프랑스 수학자 단체의 주 정기 회동에 참가함": "השתתף בפגישות השבועיות של קבוצת מתמטיקאים צרפתים.",
+  "약 1639년 (16세)": "בסביבות 1639 (גיל 16)",
+  "사영기하학의 기초가 되는 블레즈 파스칼의 정리를 증명함": "הוכיח את משפט פסקל, המהווה בסיס לגאומטריה פרויקטיבית.",
+  "약 1640년 (17세)": "בסביבות 1640 (גיל 17)",
+  "블레즈 파스칼의 정리를 이용하여 명제 400개를 유도함": "הסיק 400 טענות באמצעות משפט פסקל.",
+  "약 1642년 (19세)": "בסביבות 1642 (גיל 19)",
+  "최초 계산기인 파스칼 계산기를 발명함": "המציא את הפסקליין, מכונת החישוב הראשונה.",
+  "약 1644년 (21세)": "בסביבות 1644 (גיל 21)",
+  "수은기둥을 사용한 실험으로 유체정역학의 기초를 다지는 파스칼의 법칙을 정립함": "ניסח את חוק פסקל, שהניח את היסודות להידרוסטטיקה, באמצעות ניסויים עם עמוד כספית.",
+  "1647년 1월과 2월": "ינואר ופברואר 1647",
+  "루앙에서 여러 모양의 관을 이용해 진공 실험을 수행함": "ביצע ניסויי ריק (ואקום) ברואן באמצעות צינורות בצורות שונות.",
+  "1647년 봄": "אביב 1647",
+  "파리에서 메르센을 비롯한 여러 과학자들에 의해 그의 실험들이 행해짐": "הניסויים שלו שוחזרו בפריז על ידי מדענים שונים, ביניהם מרסן.",
+  "1647년 8월": "אוגוסט 1647",
+  "《진공에 관한 견해》 (Discours sur le vide)를 출간함": "פרסם את 'שיח על הריק' (Discours sur le vide).",
+  "1647년 여름": "קיץ 1647",
+  "건강이 나빠져 루앙을 떠나 파리로 이사함": "עבר מרואן לפריז עקב בריאות לקויה.",
+  "1647년 9월 23, 24일": "23-24 בספטמבר 1647",
+  "데카르트와 진공의 존재유무에 관한 논쟁을 벌임": "ניהל ויכוח עם דקארט על קיומו של ריק (ואקום).",
+  "1647년 10월": "אוקטובר 1647",
+  "《진공에 대한 새 실험》 (Experiences nouvelles touchant le vide)이라는 논문을 씀": "כתב את החיבור 'ניסויים חדשים הנוגעים לריק' (Experiences nouvelles touchant le vide).",
+  "1648년 9월 19일": "19 בספטמבר 1648",
+  "퓌드돔 산에서 고도에 따른 수은 기둥의 높이 변화를 관찰하는 '파스칼의 실험'을 수행함": "ביצע את 'הניסוי של פסקל' בהר פוי דה דום, ובו צפה בשינויים בגובה עמוד הכספית בהתאם לגובה מהקרקע.",
+  "1648년 가을": "סתיו 1648",
+  "퓌드돔 산 실험 결과를 정리해 논문을 작성함": "כתב מאמר המסכם את תוצאות הניסוי בהר פוי דה דום.",
+  "약 1650년 (27세)": "בסביבות 1650 (גיל 27)",
+  "종교상 고찰에 정신을 집중하여 수학과 과학 연구를 중단함": "הפסיק את מחקריו במתמטיקה ובמדעים כדי להתמקד בהגות דתית.",
+  "1653년": "1653",
+  "《액체의 평형에 관한 논문집》에서 압력의 법칙(파스칼의 원리)을 설명함": "הסביר את חוק הלחץ (עקרון פסקל) ב'מסות על שיווי משקל של נוזלים'.",
+  "1654년": "1654",
+  "마차 사고가 발생함": "עבר תאונת כרכרה.",
+  "하늘에서 내려온 목소리를 들었다며 신앙을 고백하는 글을 쓰고 기독교 신학에 빠져들게 됨": "כתב וידוי אמונה וטען ששמע קולות מן השמיים, והתעמק בתאולוגיה נוצרית.",
+  "1658년": "1658",
+  "두통에 시달리면서 정신적으로 고통받음": "סבל מכאבי ראש וממצוקה נפשית.",
+  "1662년 6월": "יוני 1662",
+  "천연두에 걸린 가난한 가족에게 집을 내주고 누이의 집에 들어가 지냄": "פינה את ביתו למשפחה ענייה שחלתה באבעבועות שחורות, ועבר לגור בבית אחותו.",
+  "1662년 8월 19일": "19 באוגוסט 1662",
+  "경련 발작으로 사망함": "נפטר כתוצאה מהתקף עוויתות.",
+  "1663년": "1663",
+  "그가 죽은 후 페리에에 의해 《액체의 평형에 관한 논문집》 (Traitez de l'equilibre des liqueurs)이 출간됨": "החיבור 'מסות על שיווי משקל של נוזלים' (Traitez de l'equilibre des liqueurs) יצא לאור על ידי פרייה לאחר מותו.",
+
+  "파스칼 삼각형": "משולש פסקל",
+  "수학에서 이항계수를 삼각형 모양의 기하학적 형태로 배열한 것입니다.": "במתמטיקה, סידור גאומטרי בצורת משולש של מקדמי הבינום.",
+  "파스칼의 정리": "משפט פסקל",
+  "사영기하학의 기초가 되는 정리로, 16세 때 증명했습니다.": "משפט המהווה בסיס לגאומטריה פרויקטיבית, שאותו הוכיח בגיל 16.",
+  "파스칼라인 (파스칼 계산기)": "פסקליין (מכונת החישוב של פסקל)",
+  "19세에 발명한 세계 최초의 계산기로, 덧셈과 뺄셈이 가능했습니다.": "מכונת החישוב הראשונה בעולם שהמציא בגיל 19, אשר אפשרה חיבור וחיסור.",
+  "파스칼의 원리": "עקרון פסקל",
+  "밀폐용기 내부의 움직이지 않는 유체의 일부에 압력을 가하면 그 압력이 유체 내의 모든 곳에 같은 크기로 전달된다는 법칙입니다.": "החוק הקובע שלחץ המופעל על נוזל במנוחה בכלי סגור, מועבר במידה שווה לכל נקודה בתוך הנוזל.",
+  "확률론 기초 다짐": "הנחת היסודות לתורת ההסתברות",
+  "페르마와 서신을 주고받으면서 확률론의 기초를 같이 다졌습니다.": "הניח את היסודות לתורת ההסתברות דרך חליפת מכתבים עם פרמה.",
+  "사이클로이드 연구": "חקר הציקלואידה",
+  "두통을 잊고자 사이클로이드를 연구하여 수학 발전에 기여했습니다.": "תרם להתפתחות המתמטיקה על ידי חקר הציקלואידה כדי להסיח את דעתו מכאבי הראש שלו.",
+  "《팡세》 저술": "כתיבת 'הגיגים' (Pensees)",
+  "그의 기독교적 변증이 담겨져 있는 미완성 저서로, '인간은 생각하는 갈대이다'라는 유명한 말이 포함되어 있습니다.": "יצירתו הלא גמורה המכילה אפולוגטיקה נוצרית, וכוללת את האמירה המפורסמת 'האדם אינו אלא קנה רצוץ, אך הוא קנה חושב'.",
+  "《시골 벗에게 부치는 편지》 저술": "כתיבת 'מכתבים פרובינציאליים'",
+  "예수회로부터 탄압받던 얀센주의 성직자들을 변론하며 쓴 책으로, 프랑스 근대 산문의 출발점으로 평가받습니다.": "ספר שנכתב להגנת אנשי כמורה יאנסניסטים שהיו נתונים לרדיפות מצד הישועים, ונחשב לנקודת ההתחלה של הפרוזה הצרפתית המודרנית.",
+
+  "블레즈 파스칼은 어떤 인물인가요?": "מי היה בלז פסקל?",
+  "프랑스의 심리학자, 수학자, 과학자, 신학자, 물리학자, 발명가, 작가, 철학자, 통계학자이며, 특히 철학과 신학에 많은 시간을 투자했습니다.": "הוא היה פסיכולוג, מתמטיקאי, מדען, תאולוג, פיזיקאי, ממציא, סופר, פילוסוף וסטטיסטיקאי צרפתי, שהקדיש זמן רב במיוחד לפילוסופיה ולתאולוגיה.",
+  "파스칼 계산기는 무엇인가요?": "מהי מכונת החישוב של פסקל?",
+  "19세에 회계사인 아버지의 일을 돕고자 발명한 세계 최초의 계산기로, 덧셈과 뺄셈만이 가능했습니다.": "מכונת החישוב הראשונה בעולם שהומצאה בגיל 19 כדי לעזור בעבודתו של אביו כרואה חשבון, ואפשרה רק חיבור וחיסור.",
+  "파스칼의 유명한 말은 무엇인가요?": "מהי האמירה המפורסמת של פסקל?",
+  "'인간은 생각하는 갈대이다.'라는 유명한 말을 남겼습니다.": "הוא הותיר אחריו את האמירה המפורסמת 'האדם הוא קנה חושב'.",
+  "파스칼은 왜 수학과 과학 연구를 중단했었나요?": "מדוע הפסיק פסקל את מחקריו במתמטיקה ובמדעים?",
+  "27세 때 종교상 고찰에 정신을 집중하여 천착하였으므로 수학과 과학 연구를 중단했습니다.": "בגיל 27 הוא הפסיק את מחקריו במתמטיקה ובמדעים מאחר שהתמקד והתעמק בהגות דתית.",
+  "": "",
+
+  // dmitri-mendeleev
+  "시베리아 토볼스크에서 대가족의 막내로 태어났습니다.": "נולד בטובולסק שבסיביר, כילד הצעיר במשפחה גדולה.",
+  "상트페테르부르크의 중앙 사범 대학에서 과학 학위로 졸업했습니다.": "סיים את לימודיו במכון הפדגוגי הראשי בסנקט פטרבורג עם תואר במדעים.",
+  "러시아 화학회에서 원소의 주기율을 발표하여 최초의 원소 주기율표를 만들었습니다.": "יצר את הטבלה המחזורית הראשונה של היסודות על ידי הצגת החוק המחזורי בפני החברה הכימית הרוסית.",
+  "1871년": "1871",
+  "주기율표의 빈칸을 채우기 위해 갈륨과 저마늄 같은 아직 발견되지 않은 원소들의 존재와 성질을 정확하게 예측했습니다.": "חזה במדויק את קיומם ותכונותיהם של יסודות שטרם התגלו דוגמת גליום וגרמניום, כדי למלא פערים בטבלה המחזורית.",
+  "1893년": "1893",
+  "러시아의 도량형 국장으로 임명되어 러시아의 측정 시스템을 표준화했습니다.": "מונה למנהל הלשכה למידות ומשקלות, והוביל לתקינה של מערכת המדידות ברוסיה.",
+
+  // ada-lovelace
+  "1815년": "1815",
+  "런던에서 시인 조지 고든 바이런의 유일한 적출 자녀인 어거스타 에이다 바이런으로 태어났습니다.": "נולדה בלונדון בשם אוגוסטה עדה ביירון, בתו החוקית היחידה של המשורר ג'ורג' גורדון ביירון.",
+  "1833년": "1833",
+  "탁월한 박식가인 찰스 배비지를 소개받아 그의 계산기에 깊은 흥미를 느끼게 되었습니다.": "הוצגה בפני איש האשכולות הבולט צ'ארלס בבג', ופיתחה עניין רב במכונות החישוב שלו.",
+  "1842년": "1842",
+  "배비지가 제안한 해석기관에 관한 이탈리아 엔지니어의 논문을 번역하기 시작했습니다.": "החלה לתרגם מאמר של מהנדס איטלקי על המנוע האנליטי שהציע בבג'.",
+  "1843년": "1843",
+  "최초의 컴퓨터 알고리즘으로 여겨지는 내용이 담긴 방대한 주석을 덧붙여 번역본을 출판했습니다.": "פרסמה את התרגום יחד עם הערות נרחבות, הכוללות את מה שנחשב לאלגוריתם המחשב הראשון.",
+  "1852년": "1852",
+  "세계 최초의 컴퓨터 프로그래머라는 유산을 남기고 36세의 나이에 자궁암으로 사망했습니다.": "נפטרה מסרטן הרחם בגיל 36, והותירה אחריה מורשת כמתכנתת המחשבים הראשונה בעולם.",
+
+  // alan-turing
+  "1912": "1912",
+  "6월 23일 출생": "נולד ב-23 ביוני.",
+  "1931": "1931",
+  "케임브리지 대학교에서 수학 전공 시작": "החל ללמוד מתמטיקה באוניברסיטת קיימברידג'.",
+  "1933": "1933",
+  "물리학자 에딩턴의 과학적 방법론 수강 및 중심극한정리 증명": "לקח קורס במתודולוגיה מדעית מפי הפיזיקאי אדינגטון והוכיח את משפט הגבול המרכזי.",
+  "1936": "1936",
+  "결정가능성 문제에 대한 부정적 증명을 해낸 후 프린스턴 대학교로 떠남": "הוכיח הוכחה שלילית לבעיית ההכרעה ולאחר מכן נסע לאוניברסיטת פרינסטון.",
+  "1939": "1939",
+  "프린스턴 대학교 학업을 마치고 케임브리지로 돌아옴": "סיים את לימודיו באוניברסיטת פרינסטון וחזר לקיימברידג'.",
+  "1940": "1940",
+  "제2차 세계 대전 중 암호학 부서(GCCS)에 들어가 암호학 연구 시작": "הצטרף למחלקת הקריפטוגרפיה (GCCS) במהלך מלחמת העולם השנייה והחל בחקר הצפנה.",
+  "1945": "1945",
+  "튜링 머신 고안; 10월 1일 국립물리연구소(NPL)에서 전자 계산기 제작을 위한 수학 부서 창설 추진": "המציא את מכונת טיורינג; ב-1 באוקטובר דחף להקמת מחלקה מתמטית במעבדה הלאומית לפיזיקה (NPL) לשם בניית מחשב אלקטרוני.",
+  "1946": "1946",
+  "대영 제국 훈장 4등급(OBE) 수훈": "זכה במסדר האימפריה הבריטית בדרגת קצין (OBE).",
+  "1950": "1950",
+  "철학 저널 '마인드'에 '기계가 생각할 수 있는가?'라는 주제의 논문을 발표": "פרסם מאמר בכתב העת לפילוסופיה 'מיינד' בנושא 'האם מכונות יכולות לחשוב?'",
+  "1952": "1952",
+  "동성애 혐의로 영국 경찰에 체포돼 유죄 판결을 받음": "נעצר על ידי משטרת בריטניה באשמת הומוסקסואליות והורשע בדין.",
+  "1953": "1953",
+  "제타 함수에 대한 논문을 발표": "פרסם מאמר על פונקציית זטא.",
+  "1954": "1954",
+  "6월 7일 사이안화 칼륨에 중독되어 사망": "נפטר מהרעלת ציאניד ב-7 ביוני.",
+  "2013": "2013",
+  "12월 24일 엘리자베스 2세 여왕이 튜링의 동성애 죄를 사면": "ב-24 בדצמבר, המלכה אליזבת השנייה העניקה לטיורינג חנינה על הרשעתו בהומוסקסואליות.",
+
+  "튜링 기계 고안": "המצאת מכונת טיורינג",
+  "알고리즘과 계산 개념을 튜링 기계라는 추상 모델을 통해 형식화하여 컴퓨터 과학 발전에 지대한 공헌을 했습니다.": "תרם תרומה עמוקה להתפתחות מדעי המחשב על ידי מיסוד המושגים של אלגוריתמים וחישוב באמצעות המודל המופשט של מכונת טיורינג.",
+  "튜링 테스트 제안": "הצעת מבחן טיורינג",
+  "'기계가 생각하는 것이 가능한가?'라는 명제로 기계의 답이 얼마나 인간다운지 평가하는 실험을 제안하여 성과를 거두었습니다.": "הציע ניסוי שנועד להעריך עד כמה תשובותיה של מכונה הן אנושיות, תחת ההנחה של 'האם מכונות יכולות לחשוב?', וזכה להצלחה גדולה.",
+  "에니그마 해독": "פיצוח האניגמה",
+  "제2차 세계 대전 동안 독일군의 암호를 해독하기 위해 봄베라는 암호 해독기를 도입하여 해독에 성공했습니다.": "במהלך מלחמת העולם השנייה הכניס לשימוש מכונת פענוח בשם 'בומב' כדי לפצח את הצפנים הצבאיים הגרמניים, והצליח בכך.",
+  "중심극한정리 증명": "הוכחת משפט הגבול המרכזי",
+  "1933년에 핀란드의 수학자 얄 발데마르 린데베리가 1922년에 먼저 증명한 내용을 모르는 상태에서 이를 증명했습니다.": "בשנת 1933, הוא הוכיח את המשפט מבלי לדעת שהמתמטיקאי הפיני יארל ולדמר לינדברג כבר הוכיח אותו לפניו בשנת 1922.",
+  "결정가능성 문제 부정적 증명": "הוכחה שלילית לבעיית ההכרעה",
+  "1936년에 결정가능성 문제에 대한 부정적 증명을 해냈습니다.": "סיפק הוכחה שלילית לבעיית ההכרעה בשנת 1936.",
+
+  "앨런 튜링은 어떤 분야의 선구적 인물인가요?": "באיזה תחום אלן טיורינג היה דמות חלוצית?",
+  "잉글랜드의 컴퓨터 과학자, 수학자, 암호학자, 논리학자이며 컴퓨터 과학의 선구적 인물입니다.": "הוא היה מדען מחשב, מתמטיקאי, קריפטוגרף ולוגיקאי אנגלי, ודמות חלוצית במדעי המחשב.",
+  "튜링상은 무엇을 기리기 위해 제정되었나요?": "לזכר מה הוקם פרס טיורינג?",
+  "ACM에서 컴퓨터 과학에 중요한 업적을 남긴 사람들에게 매년 시상하는 상으로, 튜링의 공로를 기리기 위해 1966년부터 제정되었습니다.": "זהו פרס המוענק מדי שנה על ידי ה-ACM לאישים שהגיעו להישגים חשובים במדעי המחשב; הוא הוקם בשנת 1966 כדי להוקיר את תרומתו של טיורינג.",
+  "앨런 튜링은 왜 '컴퓨터 과학의 아버지'라고 불리나요?": "מדוע אלן טיורינג מכונה 'אבי מדעי המחשב'?",
+  "이론 컴퓨터 과학과 인공지능 분야에 지대한 공헌을 했기 때문에 '컴퓨터 과학의 아버지'라고 불립니다.": "הוא מכונה 'אבי מדעי המחשב' משום שתרם תרומות כבירות לתחומים של מדעי המחשב התאורטיים ובינה מלאכותית.",
+  "앨런 튜링의 동성애 죄는 언제 사면되었나요?": "מתי קיבל אלן טיורינג חנינה על הרשעתו בהומוסקסואליות?",
+  "사후 59년만인 2013년 12월 24일에 엘리자베스 2세 여왕이 튜링의 동성애 죄를 사면하였습니다.": "ב-24 בדצמבר 2013, 59 שנים לאחר מותו, המלכה אליזבת השנייה העניקה לטיורינג חנינה על הרשעתו בהומוסקסואליות.",
+
+  // charles-babbage
+  "런던에서 태어나 일찍부터 수학에 강렬한 매력을 보였습니다.": "נולד בלונדון והפגין משיכה עזה למתמטיקה מגיל צעיר.",
+  "1822년": "1822",
+  "천문학 및 수학 표 계산을 기계화하기 위해 차분기관 제작을 제안했습니다.": "הציע לבנות את מנוע ההפרשים כדי למכן את חישובן של טבלאות אסטרונומיות ומתמטיות.",
+  "1828년": "1828",
+  "케임브리지 대학교의 루카스 수학 석좌 교수로 임명되었습니다.": "מונה לפרופסור למתמטיקה על שם לוקאס באוניברסיטת קיימברידג'.",
+  "1837년": "1837",
+  "완전히 프로그래밍 가능한 기계식 컴퓨터를 구상한 혁명적인 디자인인 해석기관을 고안했습니다.": "הגה את המנוע האנליטי, תכנון מהפכני שחזה מחשב מכני הניתן לתכנות במלואו.",
+  "1871년": "1871",
+  "선구적인 기계식 컴퓨터를 미완성으로 남긴 채 런던에서 사망했지만, 현대 컴퓨팅의 개념적 틀을 확립했습니다.": "נפטר בלונדון כשהוא מותיר את המחשבים המכניים החלוציים שלו לא גמורים, אך ייסד את המסגרת המושגית של המחשוב המודרני.",
+
+  // ibn-sina
+  "980년": "980",
+  "사만 왕조의 징세관 압둘라흐 이븐 알 하산과 시타라의 자식으로 부하라 근교의 아프샤나에서 태어났다.": "נולד באפשנה ליד בוכרה, בנם של עבדאללה אבן אל-חסן, גובה מס מטעם השושלת הסאמאנית, וסיטארה.",
+  "985년": "985",
+  "다섯 살 때 일가가 부하라로 이주하였고, 부하라의 사숙에 들어갔다.": "בגיל חמש עברה משפחתו לבוכרה, והוא החל ללמוד בבית ספר שם.",
+  "990년": "990",
+  "열 살 때 이미 아랍의 많은 문학 작품과 꾸란을 암송할 수 있었다.": "בגיל עשר כבר ידע בעל פה יצירות ספרות ערביות רבות ואת הקוראן.",
+  "996년": "996",
+  "열여섯 살 때 환자를 진료하기 시작했다.": "בגיל שש עשרה החל לטפל בחולים.",
+  "998년": "998",
+  "열여덟 살 때 독학을 하였고, 알 파라비의 주석서를 통해 아리스토텔레스 철학을 이해하게 되었다.": "בגיל שמונה עשרה למד בכוחות עצמו והחל להבין את הפילוסופיה האריסטוטלית דרך פירושיו של אל-פאראבי.",
+  "열여덟 살 때 이웃 알-아루디를 위해 최초의 저작 《여러 학문의 집성》을 저술하였다.": "בגיל שמונה עשרה כתב את חיבורו הראשון, 'האוסף של מדעים שונים', עבור שכנו אל-ערודי.",
+  "999년": "999",
+  "사만 왕조가 가즈나 왕조와 카라한 왕조의 공격으로 멸망하였다.": "השושלת הסאמאנית נפלה תחת מתקפות מצד השושלות הע'זנווית והקראח'אנית.",
+  "아버지 압둘라흐가 세상을 떠났다.": "אביו עבדאללה נפטר.",
+  "스물한 살 때 법학자 알 바르키를 위해 전20권의 백과사전 《공정한 판단의 서》를 써서 올렸다.": "בגיל עשרים ואחת כתב והקדיש אנציקלופדיה בת 20 כרכים בשם 'ספר השיפוט ההוגן' למשפטן אל-ברקי.",
+  "1002년": "1002",
+  "스물두 살 때 부하라를 떠나 방랑길에 올랐다.": "בגיל עשרים ושתיים עזב את בוכרה והחל בנדודיו.",
+  "1012년": "1012",
+  "호라즘 지방의 우르겐치 통치자 마문 2세에게 기용되어 관리가 되었고, 《의학전범》의 집필을 시작하였다.": "נשכר על ידי אבו אל-עבאס מאמון השני, שליט אורגנץ' שבח'ווארזם, הפך לפקיד ממשל והחל לכתוב את 'הקאנון של הרפואה'.",
+  "1014년": "1014",
+  "테헤란 근교의 레이로 옮겨 30여 편의 단편을 써 냈다.": "עבר לראי, ליד טהראן, וכתב כ-30 חיבורים קצרים.",
+  "1020년": "1020",
+  "이전부터 집필해 오던 《의학전범》을 완성시켰다.": "השלים את 'הקאנון של הרפואה', שעליו עבד זמן רב.",
+  "1021년": "1021",
+  "샴스 웃다울라가 세상을 떠나고, 이븐 시나는 관직을 버리고 은거하였다.": "לאחר מותו של שמס א-דוולה, עזב אבן סינא את משרתו ופרש להתבודדות.",
+  "1021년 이후": "אחרי 1021",
+  "하마단의 새로운 군주 사마 웃다울라에 의해 감옥에 갇혔다.": "נכלא על ידי סמאא א-דוולה, השליט החדש של המדאן.",
+  "1030년": "1030",
+  "이스파한이 가즈나 왕조의 군주 마스우드 1세의 공격을 받아 이븐 시나의 장서를 포함한 소유물들이 빼앗겼다.": "אספהאן הותקפה על ידי מסעוד הראשון מהשושלת הע'זנווית, ורכושו של אבן סינא, כולל ספרייתו, נבזז.",
+  "1037년 6월 18일": "18 ביוני 1037",
+  "하마단에서 사망하였다.": "נפטר בהמדאן.",
+
+  "철학 및 의학 집대성": "שילוב בין פילוסופיה ורפואה",
+  "그리스와 아라비아의 철학과 의학을 집대성하였으며, 아리스토텔레스 철학과 신플라톤주의를 통합하여 유럽의 의학, 철학에 큰 영향을 미쳤다.": "הוא ריכז את הפילוסופיה והרפואה היוונית והערבית, ושילב פילוסופיה אריסטוטלית עם נאופלאטוניזם, מה שהשפיע עמוקות על הרפואה והפילוסופיה האירופאית.",
+  "의학 전범 저술": "כתיבת 'הקאנון של הרפואה'",
+  "당시 알려진 모든 의학 정보를 집대성한 《의학 전범》을 저술하여 17세기에 이르기까지 유럽 의학의 기본서로 사용되었다.": "כתב את 'הקאנון של הרפואה', אשר ריכז את כל הידע הרפואי שהיה ידוע באותה עת ושימש כטקסט יסוד לרפואה באירופה עד המאה ה-17.",
+  "치유의 서 저술": "כתיבת 'ספר הריפוי'",
+  "윤리학과 정치학을 제외한 모든 영역의 학문을 포괄하는 백과사전인 《치유의 서》를 저술하였다.": "כתב את 'ספר הריפוי', אנציקלופדיה המקיפה את כל תחומי המדע למעט אתיקה ופוליטיקה.",
+  "자연과학 연구": "מחקר במדעי הטבע",
+  "연금술의 금속 변환 가능성을 부정하고, 수학, 물리학, 천문학, 광물학 등 다양한 자연과학 분야를 연구하였다.": "הוא שלל את האפשרות האלכימית של התמרת מתכות וחקר תחומים שונים של מדעי הטבע, כגון מתמטיקה, פיזיקה, אסטרונומיה ומינרלוגיה.",
+  "유럽 학계 영향": "השפעה על האקדמיה באירופה",
+  "토마스 아퀴나스에게 영향을 주었으며, 12세기 후반 유럽의 아리스토텔레스 부흥운동의 계기가 되었다.": "הוא השפיע על תומאס אקווינס ושימש כזרז לתחיית האריסטוטליות באירופה בשלהי המאה ה-12.",
+
+  "이븐 시나는 어떤 인물로 평가받나요?": "כיצד מוערך אבן סינא?",
+  "페르시아 제국의 철학자이자 의학자, 과학자로, 중세 최대 의학자 중 한 명이며 이슬람 세계가 낳은 최고의 지식인으로 평가받습니다.": "הוא פילוסוף, רופא ומדען פרסי המוערך כאחד מגדולי הרופאים בימי הביניים ובתור איש האשכולות הגדול ביותר שהעולם האסלאמי יצר.",
+  "이븐 시나의 주요 의학 저서는 무엇인가요?": "מהו חיבורו הרפואי העיקרי של אבן סינא?",
+  "당시 알려진 모든 의학 정보를 집대성한 《의학 전범》을 저술하였으며, 이 책은 17세기에 이르기까지 유럽 의학의 기본서로 사용되었습니다.": "הוא כתב את 'הקאנון של הרפואה', שריכז את כל הידע הרפואי שהיה קיים בזמנו. ספר זה שימש כטקסט יסוד לרפואה באירופה עד המאה ה-17.",
+  "이븐 시나는 어떤 철학적 기여를 했나요?": "מהן תרומותיו הפילוסופיות של אבן סינא?",
+  "그리스와 아라비아의 철학을 집대성하고 아리스토텔레스 철학과 신플라톤주의를 통합하여 유럽의 의학 및 철학에 큰 영향을 미쳤습니다.": "הוא ריכז את הפילוסופיה היוונית והערבית ושילב את הפילוסופיה האריסטוטלית עם נאופלאטוניזם, מה שהשפיע עמוקות על הרפואה והפילוסופיה האירופאית.",
+  "이븐 시나는 연금술에 대해 어떤 입장이었나요?": "מה הייתה עמדתו של אבן סינא לגבי אלכימיה?",
+  "당시 연금술사들이 신봉하던 금속 변환의 가능성을 부정하며, 금속의 차이가 심오하여 연금술로 만든 귀금속은 모조품에 불과하다고 주장했습니다.": "הוא דחה את האפשרות של התמרת מתכות, שבה האמינו אלכימאים בני זמנו, וטען שההבדלים בין המתכות כה עמוקים עד שמתכות יקרות שנוצרו באמצעות אלכימיה אינן אלא זיוף.",
+
+  // james-watt
+  "1736년": "1736",
+  "스코틀랜드 그리녹에서 상인과 조선공 가문에서 태어났습니다.": "נולד בגרינוק, סקוטלנד, למשפחה של סוחרים ובוני ספינות.",
+  "1765년": "1765",
+  "뉴코먼 증기 기관의 효율을 크게 높이기 위해 분리형 응축기에 대한 아이디어를 고안했습니다.": "הגה את רעיון המעבה הנפרד על מנת להגביר משמעותית את יעילות מנוע הקיטור של ניוקומן.",
+  "1769년": "1769",
+  "연료를 획기적으로 절약하는 분리형 응축기를 도입한 혁신적인 증기 기관 설계로 특허를 획득했습니다.": "רשם פטנט על העיצוב החדשני למנוע הקיטור, ששילב מעבה נפרד שהביא לחיסכון דרמטי בדלק.",
+  "1775년": "1775",
+  "매튜 볼턴과 함께 성공적인 파트너십을 맺고 개선된 증기 기관을 제조 및 판매했습니다.": "יצר שותפות מוצלחת עם מת'יו בולטון לייצור ושיווק מנוע הקיטור המשופר שלו.",
+  "1781년": "1781",
+  "태양과 행성 기어 시스템의 특허를 획득하여 증기 기관이 제분소와 공장을 위한 회전 운동을 생성하도록 개조했습니다.": "רשם פטנט על מערכת גיר שמש וכוכב הלכת (Sun and planet gear), והתאים את מנוע הקיטור לייצור תנועה סיבובית עבור טחנות ומפעלים.",
+
+  // george-stephenson
+  "잉글랜드 노섬벌랜드주 와일럼에서 태어나 어린 나이에 지역 탄광에서 일하기 시작했습니다.": "נולד בוויאלם, נורת'מברלנד שבאנגליה, והחל לעבוד במכרה פחם מקומי בגיל צעיר.",
+  "1814년": "1814",
+  "킬링워스 탄광에서 석탄을 운반하기 위해 첫 번째 증기 기관차인 블뤼허를 제작했습니다.": "בנה את 'בליכר' (Blücher), קטר הקיטור הראשון שלו, כדי לשנע פחם במכרה קילינגוורת'.",
+  "1825년": "1825",
+  "스톡턴-달링턴 철도를 개통하여 세계 최초의 공공 여객 증기 열차인 로코모션 1호를 운행했습니다.": "פתח את מסילת הרכבת של סטוקטון ודרלינגטון, והפעיל בה את ה-'לוקומושן מס' 1', רכבת הנוסעים הציבורית הראשונה בעולם המונעת בקיטור.",
+  "1829년": "1829",
+  "유명한 기관차 로켓호로 레인힐 트라이얼에서 우승하여 증기 동력 철도의 실행 가능성을 입증했습니다.": "זכה במבחני ריינהיל עם הקטר המפורסם 'הרוקט', והוכיח את כדאיותן של מסילות רכבת מבוססות קיטור.",
+  "1830년": "1830",
+  "세계 최초의 도시간 여객 철도인 리버풀-맨체스터 철도의 개통을 감독했습니다.": "פיקח על פתיחת מסילת הרכבת מליברפול למנצ'סטר, רכבת הנוסעים הבין-עירונית הראשונה בעולם.",
+
+  // gregor-mendel
+  "오스트리아 제국의 하인첸도르프에서 농부의 아들로 태어났습니다.": "נולד למשפחת חקלאים בהיינצנדורף שבאמפריה האוסטרית.",
+  "1843년": "1843",
+  "브르노의 아우구스티노회 성 토마스 수도원에 들어갔으며, 훗날 이곳에서 유명한 실험을 수행하게 됩니다.": "נכנס למנזר האוגוסטיני של תומאס הקדוש בברנו, שם יערוך מאוחר יותר את הניסויים המפורסמים שלו.",
+  "1856년": "1856",
+  "수도원 정원에서 수천 그루의 완두콩을 교배하는 체계적인 다년 간의 실험을 시작했습니다.": "החל בניסויים שיטתיים וארוכי טווח במסגרתם הכליא אלפי צמחי אפונה בגן המנזר.",
+  "1865년": "1865",
+  "브르노 자연사 협회에 우성 및 열성 형질을 포함한 유전 법칙에 대한 연구 결과를 발표했습니다.": "הציג את ממצאיו בנושא חוקי התורשה, כולל תכונות דומיננטיות ורצסיביות, בפני האגודה להיסטוריה של הטבע בברנו.",
+  "1866년": "1866",
+  "식물 잡종에 관한 실험 논문을 발표했지만, 그가 사망한 지 수십 년 후에 재발견될 때까지 크게 무시되었습니다.": "פרסם את חיבורו 'ניסויים בהכלאת צמחים', אך העבודה זכתה להתעלמות רבה עד שהתגלתה מחדש עשרות שנים לאחר מותו.",
+
+  // li-shizhen
+  "1518": "1518",
+  "명나라 정덕 13년 7월 3일 출생": "נולד ב-3 ביולי בשנת 13 לשלטון ז'נגדה בשושלת מינג.",
+  "1553": "1553",
+  "35세에 약물 기준서 집대성 작업 착수": "בגיל 35 החל במשימת ריכוז המדריך הבסיסי לתרופות.",
+  "1593": "1593",
+  "명나라 만력 21년 사망 (향년 76세)": "נפטר בשנת ה-21 לשלטון ואן-לי בשושלת מינג (בגיל 76).",
+  "1596": "1596",
+  "《본초강목》 간행 (이시진 사망 후)": "פרסום 'בנקאו גאנגמו' (קומפנדיום מטריה מדיקה) לאחר מותו של לי שיז'ן.",
+
+  "본초강목 저술": "כתיבת 'בנקאו גאנגמו'",
+  "본초학을 집대성한 《본초강목》을 저술하여 후대의 동양의학과 박물학에 지대한 영향을 주었다.": "כתב את 'בנקאו גאנגמו', אוסף מקיף על חקר הצמחים והתרופות המסורתיות, שהשפיע עמוקות על הרפואה המזרחית ועל חקר הטבע בדורות הבאים.",
+  "침구학 및 진단학 기여": "תרומה לאקופונקטורה ואבחון",
+  "침구학과 진단학 분야에도 기여했다.": "תרם לתחומי הדיקור הסיני (אקופונקטורה) והאבחון הרפואי.",
+  "빈호맥학 저술": "כתיבת 'בינהו מאיהסואה'",
+  "맥학에 대한 저서인 《빈호맥학》을 저술했다.": "כתב את 'בינהו מאיהסואה', ספר העוסק בחקר הדופק.",
+  "기경팔맥고 저술": "כתיבת 'קיג'ינג באמאי קאו'",
+  "기경팔맥에 대한 저서인 《기경팔맥고》를 저술했다.": "כתב את 'קיג'ינג באמאי קאו', ספר על שמונת המרידיאנים החריגים.",
+  "오장도론 저술": "כתיבת 'ווזאנג טולון'",
+  "오장에 대한 저서인 《오장도론》을 저술했으나, 현재는 없어졌다.": "כתב את 'ווזאנג טולון', ספר על חמשת האיברים הפנימיים, אך כיום הוא אבוד.",
+  "명문고 저술": "כתיבת 'מינגמן קאו'",
+  "명문에 대한 저서인 《명문고》를 저술했으나, 현재는 없어졌다.": "כתב את 'מינגמן קאו', ספר על 'שער החיים' (מינגמן), אך כיום הוא אבוד.",
+
+  "이시진은 언제 태어나고 사망했나요?": "מתי לי שיז'ן נולד ונפטר?",
+  "이시진은 명나라 정덕 13년인 1518년 7월 3일에 태어나 명나라 만력 21년인 1593년에 76세의 나이로 사망했습니다.": "לי שיז'ן נולד ב-3 ביולי 1518, השנה ה-13 לשלטונו של ז'נגדה בשושלת מינג, ונפטר ב-1593, השנה ה-21 לשלטונו של ואן-לי, בגיל 76.",
+  "이시진의 주요 저서는 무엇인가요?": "מהן יצירותיו העיקריות של לי שיז'ן?",
+  "이시진의 주요 저서는 본초학을 집대성한 《본초강목》이며, 이 외에도 《빈호맥학》, 《기경팔맥고》 등을 저술했습니다.": "יצירתו העיקרית של לי שיז'ן היא 'בנקאו גאנגמו', המסכמת את חקר התרופות והצמחים. בנוסף כתב יצירות כגון 'בינהו מאיהסואה' ו-'קיג'ינג באמאי קאו'.",
+  "이시진은 어떤 직책을 지냈나요?": "באילו תפקידים כיהן לי שיז'ן?",
+  "이시진은 초왕부의 의원이었으며, 조정의 태의가 되었고, 훗날 명나라 후베이 황강 태수 직책을 지낸 전력이 있습니다.": "לי שיז'ן שימש כרופא באחוזת הנסיך משו, הפך לרופא ראשי בחצר הקיסר, ומאוחר יותר כיהן כמושל הוואנג-גאנג בהוביי תחת שושלת מינג.",
+  "이시진의 가족 관계는 어떻게 되나요?": "מה הרקע המשפחתי של לי שיז'ן?",
+  "이시진의 할아버지와 아버지는 의사였으며, 부친의 이름은 이언문이고 자는 나욱, 호는 월지입니다.": "סבו ואביו של לי שיז'ן היו רופאים. שמו של אביו היה לי יאנוון, שם הכבוד שלו היה לי לואוקי, ושם העט שלו היה צ'ואן. (הערה: קריאת השמות המדויקת עלולה להשתנות מעט).",
+
+  "명나라 후베이 황강 태수 직책과 조정의 태의가 된 정확한 연도가 원문에 명시되어 있지 않아 타임라인에 포함하지 않았습니다.": "השנים המדויקות בהן מונה למושל הוואנג-גאנג בהוביי במהלך שושלת מינג ולרופא ראשי בחצר הקיסר אינן מצוינות בטקסט המקורי, ולכן לא נכללו בציר הזמן.",
+
+  // guglielmo-marconi
+  "1874년": "1874",
+  "이탈리아 볼로냐에서 태어나 일찍부터 물리학과 전기에 관심을 가졌습니다.": "נולד בבולוניה שבאיטליה, והפגין עניין מוקדם בפיזיקה וחשמל.",
+  "1895년": "1895",
+  "이탈리아에 있는 가족 사유지에서 1.5마일 떨어진 곳에 무선 신호를 전송하는 데 성공했습니다.": "הצליח לשדר אותות אלחוטיים למרחק של כ-2.5 קילומטר (1.5 מייל) באחוזת משפחתו באיטליה.",
+  "1897년": "1897",
+  "자신의 무선 발명품을 상업화하기 위해 런던에 무선 전신 및 신호 회사를 설립했습니다.": "הקים בלונדון את החברה לטלגרף ואותות אלחוטיים, כדי למסחר את המצאותיו האלחוטיות.",
+  "1901년": "1901",
+  "최초로 대서양 횡단 무선 전송에 성공하여, 영국에서 보낸 신호를 뉴펀들랜드에서 수신했습니다.": "ביצע את השידור האלחוטי הטרנס-אטלנטי המוצלח הראשון, וקלט בניופאונדלנד אות שנשלח מאנגליה.",
+  "1909년": "1909",
+  "무선 전신 개발에 기여한 공로로 카를 페르디난트 브라운과 함께 노벨 물리학상을 공동 수상했습니다.": "זכה בפרס נובל לפיזיקה במשותף עם קרל פרדיננד בראון על תרומתם לפיתוח הטלגרפיה האלחוטית.",
+
+  // robert-koch
+  "1843년 12월 11일": "11 בדצמבר 1843",
+  "하노버 왕국 클라우스탈에서 출생": "נולד בקלאוסטל, ממלכת הנובר.",
+  "1866년": "1866",
+  "괴팅겐 대학교 의학 졸업": "סיים לימודי רפואה באוניברסיטת גטינגן.",
+  "1876년": "1876",
+  "브레슬라우 대학교에서 탄저 연구 결과 발표": "הציג את תוצאות מחקרו על הגחלת (אנתרקס) באוניברסיטת ברסלאו.",
+  "1877년": "1877",
+  "탄저병의 구체적인 원인물질이 탄저균임을 명확히 규명": "זיהה בבירור את חיידק הגחלת (אנתרקס) כגורם הספציפי למחלת הגחלת.",
+  "1881년": "1881",
+  "베를린 국립 위생원으로 자리를 옮김": "עבר לעבוד במשרד הבריאות האימפריאלי בברלין.",
+  "1882년 3월 24일": "24 במרץ 1882",
+  "결핵균을 최초로 발견": "גילה לראשונה את חיידק השחפת.",
+  "1883년": "1883",
+  "이집트와 인도를 여행하며 콜레라 병원균을 발견": "נסע למצרים ובהודו וגילה את חיידק הכולרה.",
+  "1885년": "1885",
+  "콜레라의 구체적인 원인물질이 콜레라균임을 명확히 규명": "זיהה בבירור שחיידק הכולרה הוא הגורם הספציפי למחלת הכולרה.",
+  "1890년": "1890",
+  "결핵균에 대한 항원인 투베르쿨린을 발견": "גילה את הטוברקולין, אנטיגן נגד חיידק השחפת.",
+  "1891년": "1891",
+  "베를린 국립전염병연구소의 초대 소장이 됨": "הפך למנהלו הראשון של המכון האימפריאלי למחלות זיהומיות בברלין.",
+  "1905년": "1905",
+  "세균학 창시 및 결핵균 발견 공로로 노벨 생리학·의학상을 수상": "זכה בפרס נובל לפיזיולוגיה או לרפואה על ייסוד הבקטריולוגיה וגילוי חיידק השחפת.",
+  "1910년 5월 27일": "27 במאי 1910",
+  "바덴바덴에서 사망": "נפטר בבאדן-באדן.",
+
+  "탄저병 및 콜레라 원인 규명": "זיהוי הגורמים לגחלת (אנתרקס) ולכולרה",
+  "1877년 탄저병, 1885년 콜레라의 구체적인 원인물질이 병원균임을 명확히 규명하여 '세균학의 아버지'라는 평가를 받았다.": "הוא הבהיר באופן חד משמעי את הפתוגנים הספציפיים למחלת הגחלת ב-1877 ולמחלת הכולרה ב-1885, מה שזיכה אותו בתואר 'אבי הבקטריולוגיה'.",
+  "결핵균 발견": "גילוי חיידק השחפת",
+  "1882년에 결핵균을 최초로 발견했으며, 공기를 통해 전염된다는 사실도 밝혀냈다.": "בשנת 1882, הוא היה הראשון לגלות את חיידק השחפת והוכיח כי המחלה מועברת באוויר.",
+  "세균 연구 방법론 창시": "יצירת מתודולוגיה לחקר חיידקים",
+  "세균의 표본 고정법, 염색법, 현미경 촬영법을 창시하여 미생물학 발전에 공헌하였다.": "תרם להתפתחות המיקרוביולוגיה על ידי המצאת שיטות לקיבוע, צביעה וצילום מיקרוסקופי של חיידקים.",
+  "투베르쿨린 발견": "גילוי טוברקולין",
+  "1890년 결핵균에 대한 항원인 투베르쿨린을 발견했다.": "בשנת 1890, הוא גילה את הטוברקולין, אנטיגן נגד חיידק השחפת.",
+
+  "로베르트 코흐는 어떤 인물인가요?": "מי היה רוברט קוך?",
+  "로베르트 코흐는 1843년에 태어나 1910년에 사망한 독일의 의사이자 미생물학자로, '세균학의 아버지'로 불립니다.": "רוברט קוך היה רופא ומיקרוביולוג גרמני, נולד ב-1843 ונפטר ב-1910. הוא מוכר כ'אבי הבקטריולוגיה'.",
+  "로베르트 코흐의 주요 업적은 무엇인가요?": "מה היו הישגיו העיקריים של רוברט קוך?",
+  "그는 1877년 탄저병과 1885년 콜레라의 원인균을 규명했으며, 1882년에는 결핵균을 최초로 발견했습니다.": "הוא זיהה את החיידקים הגורמים לגחלת (1877) ולכולרה (1885), והיה הראשון שגילה את חיידק השחפת ב-1882.",
+  "로베르트 코흐는 언제 노벨상을 수상했나요?": "מתי קיבל רוברט קוך את פרס נובל?",
+  "그는 1905년에 세균학 창시 및 결핵균 발견에 대한 공로로 노벨 생리학·의학상을 수상했습니다.": "בשנת 1905 הוא קיבל את פרס נובל לפיזיולוגיה או רפואה על תרומתו לייסוד הבקטריולוגיה וגילוי חיידק השחפת.",
+  "로베르트 코흐는 투베르쿨린을 발견했나요?": "האם רוברט קוך גילה את הטוברקולין?",
+  "네, 1890년에 결핵균에 대한 항원인 투베르쿨린을 발견했지만, 이후 효과가 없음이 드러나 명성이 일시적으로 하락했습니다.": "כן, בשנת 1890 הוא גילה את הטוברקולין כאנטיגן נגד חיידק השחפת. אולם, כאשר התברר מאוחר יותר שהוא אינו יעיל כתרופה, המוניטין שלו ספג פגיעה זמנית.",
+
+  "프로이센-프랑스 전쟁 당시 군의관 근무 및 시골 의사 근무에 대한 구체적인 연도는 원문에 명시되어 있지 않아 생략했습니다. 베를린 대학교에서의 미생물 연구 시점도 구체적인 연도가 없어 생략했습니다.": "השנים המדויקות לשירותו כרופא צבאי במהלך מלחמת צרפת-פרוסיה ולעבודתו כרופא כפרי אינן מצוינות בטקסט המקורי ולכן הושמטו. כמו כן, חסרה שנה ספציפית לתחילת מחקריו במיקרוביולוגיה באוניברסיטת ברלין ולכן הושמטה.",
+
+  // thomas-aquinas
+  "1225년": "1225",
+  "이탈리아 로카세카에 있는 아버지 란둘포 디 아퀴노 백작의 성에서 귀족 가문의 아들로 태어났습니다.": "נולד למשפחת אצולה בטירת אביו, הרוזן לנדולף מאקווינו, ברוקאסקה שבאיטליה.",
+  "1244년": "1244",
+  "그를 막기 위해 1년 동안 감금했던 가족들의 맹렬한 반대에도 불구하고 도미니코회에 입단했습니다.": "הצטרף למסדר הדומיניקני על אף ההתנגדות העזה של משפחתו, שכלאה אותו למשך שנה בניסיון לעצור בעדו.",
+  "1256년": "1256",
+  "파리 대학교의 신학 석사로 임명되어 중세 시대의 지배적인 지식인으로 자리 잡았습니다.": "מונה למגיסטר בתאולוגיה באוניברסיטת פריז, וביסס את מעמדו כאיש הרוח המוביל בימי הביניים.",
+  "1265년": "1265",
+  "아리스토텔레스 철학과 기독교 신학을 종합한 기념비적인 대작 신학 대전을 집필하기 시작했습니다.": "החל בכתיבת 'מכלול התאולוגיה' (סומה תאולוגיקה), עבודתו המונומנטלית ששילבה פילוסופיה אריסטוטלית עם תאולוגיה נוצרית.",
+  "1273년": "1273",
+  "미사 중에 깊은 신비적 체험을 한 후, 자신이 쓴 모든 것이 지푸라기 같다고 선언하며 집필을 중단했습니다.": "עבר חוויה מיסטית עמוקה במהלך מיסה, ולאחריה חדל לכתוב בהכריזו כי כל מה שכתב נראה כקש ותבן.",
+
+  // rumi
+  "1207년": "1207",
+  "현재 아프가니스탄 또는 타지키스탄 지역인 발흐에서 잘랄 알 딘 무함마드 루미로 태어났습니다.": "נולד כג'לאל א-דין מוחמד רומי בבאלח', אזור השייך כיום לאפגניסטן או לטג'יקיסטן.",
+  "1228년": "1228",
+  "아나톨리아의 코냐에 가족과 함께 정착했으며, 그곳에서 아버지를 이어 이슬람 학자가 되었습니다.": "התיישב עם משפחתו בקוניה שבאנטוליה, שם המשיך בדרכו של אביו והפך לחכם דת מוסלמי.",
+  "1244년": "1244",
+  "떠돌이 신비주의자 샴스 알 딘 타브리지와의 운명적인 만남을 통해 열정적인 시인으로 변모했습니다.": "המפגש הגורלי עם המיסטיקן הנודד שמס א-דין תבריזי הפך אותו למשורר נלהב.",
+  "1258년": "1258",
+  "영적 가르침과 신비로운 이야기들을 담고 있는 페르시아 시의 영적 대작인 방대한 마스나비를 짓기 시작했습니다.": "החל לחבר את 'המסנאווי' הרחב, יצירת מופת רוחנית בשירה הפרסית המכילה תורות רוחניות וסיפורים מיסטיים.",
+  "1273년": "1273",
+  "코냐에서 사망했으며, 보편적 사랑이라는 그의 포용적 메시지를 존경했던 다양한 종교 공동체에서 큰 애도를 표했습니다.": "נפטר בקוניה, ואבל כבד ירד על קהילות דתיות מגוונות שהעריכו את המסר המכיל שלו לאהבה אוניברסלית.",
+
+  // ibn-rushd
+  "1126년": "1126",
+  "알안달루스의 코르도바에서 안달루시아 학자와 판사들로 구성된 명문가에서 태어났습니다.": "נולד בקורדובה שבאל-אנדלוס, למשפחה בולטת של חכמים ושופטים אנדלוסים.",
+  "1169년": "1169",
+  "세비야의 판사로 임명되었고, 이후 궁정 의사로 봉사하면서 코르도바의 수석 판사가 되었습니다.": "מונה לשופט בסביליה, ולאחר מכן לשופט ראשי בקורדובה תוך כדי שירות כרופא חצר.",
+  "1179년": "1179",
+  "이전 신학자 알 가잘리의 공격에 맞서 철학을 강력하게 옹호한 모순의 모순을 저술했습니다.": "כתב את 'אי-העקביות של אי-העקביות' (תַהָאפוּת אל-תַהָאפוּת), הגנה חריפה על הפילוסופיה מול ההתקפות של התאולוג אל-ע'זאלי.",
+  "1195년": "1195",
+  "보수 성직자들이 그의 합리주의 철학을 반대하면서 정치적 총애를 잃고 루세나로 추방되었습니다.": "איבד את חינו הפוליטי והוגלה ללוסנה, לאחר שאנשי דת שמרניים יצאו נגד הפילוסופיה הרציונליסטית שלו.",
+  "1198년": "1198",
+  "마라케시에서 세상을 떠났지만, 중세 유럽 철학에 지대한 영향을 미칠 아리스토텔레스 주석을 남겼습니다.": "נפטר במרקש, אך הותיר אחריו פירושים לאריסטו שתהיה להם השפעה עצומה על הפילוסופיה של ימי הביניים באירופה.",
+
+  // william-james
+  "1842년": "1842",
+  "뉴욕의 부유한 지식인 가정에서 소설가 헨리 제임스의 형으로 태어났습니다.": "נולד בניו יורק למשפחה אינטלקטואלית עשירה, כאחיו הבכור של הסופר הנרי ג'יימס.",
+  "1869년": "1869",
+  "심각한 우울증과 신체적 질병을 극복하고 하버드 대학교에서 의학 학위를 받았습니다.": "קיבל את תוארו ברפואה מאוניברסיטת הרווארד לאחר שהתגבר על דיכאון קשה ומחלה גופנית.",
+  "1890년": "1890",
+  "심리학을 현대 과학으로 재정의한 획기적인 1,200쪽 분량의 대작 심리학의 원리를 출판했습니다.": "פרסם את יצירתו פורצת הדרך בת 1,200 העמודים 'עקרונות הפסיכולוגיה', שהגדירה מחדש את הפסיכולוגיה כמדע מודרני.",
+  "1902년": "1902",
+  "인간의 영성 본질을 탐구한, 기퍼드 강연을 바탕으로 한 종교적 경험의 다양성을 출판했습니다.": "פרסם את 'החוויה הדתית לסוגיה', המבוסס על הרצאות גיפורד, אשר חקר את טבעה של הרוחניות האנושית.",
+  "1907년": "1907",
+  "실제적 결과를 바탕으로 진리를 평가하는 미국 철학의 전통을 확고히 다진 실용주의를 출판했습니다.": "פרסם את 'פרגמטיזם', ובכך ביסס מסורת פילוסופית אמריקאית שבוחנת אמת על סמך תוצאותיה המעשיות.",
+
+  // friedrich-schiller
+  "1759년": "1759",
+  "신성 로마 제국 뷔르템베르크의 마르바흐에서 태어남.": "נולד במארבך שבדוכסות וירטמברג, האימפריה הרומית הקדושה.",
+  "1781년": "1781",
+  "그의 첫 희곡 '군도'를 익명으로 출판함.": "פרסם בעילום שם את מחזהו הראשון, 'השודדים'.",
+  "1789년": "1789",
+  "예나 대학교의 역사 및 철학 교수로 임명됨.": "מונה לפרופסור להיסטוריה ופילוסופיה באוניברסיטת ינה.",
+  "1794년": "1794",
+  "요한 볼프강 폰 괴테와 친밀하고 매우 생산적인 우정을 맺음.": "יצר ידידות קרובה ופורייה ביותר עם יוהאן וולפגנג פון גתה.",
+  "1805년": "1805",
+  "바이마르에서 45세의 나이로 사망함.": "נפטר בוויימאר בגיל 45.",
+
+  // george-washington-carver
+  "1864년": "1864",
+  "미주리주 다이아몬드에서 노예로 태어남.": "נולד כעבד בדיאמונד, מיזורי.",
+  "1894년": "1894",
+  "아프리카계 미국인 최초로 이학 학사 학위를 받음.": "הפך לאפרו-אמריקאי הראשון שקיבל תואר בוגר במדעים.",
+  "1896년": "1896",
+  "부커 T. 워싱턴의 초청으로 터스키기 연구소의 농업 부서 책임자가 됨.": "הפך למנהל מחלקת החקלאות במכון טסקיגי, בהזמנתו של בוקר טי. וושינגטון.",
+  "1916년": "1916",
+  "연구 회보 '땅콩 재배법 및 인간이 섭취할 수 있는 105가지 조리법'을 출판함.": "פרסם עלון מחקר בשם 'כיצד לגדל את הבוטן ומאה וחמישה דרכים להכנתו למאכל אדם'.",
+  "1943년": "1943",
+  "조지 워싱턴 카버 연구 재단을 설립하기 위해 평생 모은 저축을 남기고 앨라배마주 터스키기에서 사망함.": "נפטר בטסקיגי, אלבמה, כשהוא מוריש את חסכונות חייו להקמת קרן המחקר על שם ג'ורג' וושינגטון קארבר.",
+
+  // al-ghazali
+  "1058": "1058",
+  "호라산의 투스에서 태어났다.": "נולד בתוס, ח'וראסאן.",
+  "1095": "1095",
+  "종교상의 번뇌와 기타 다른 원인으로 명성에도 불구하고 영직을 버리고 수피행자로서 메카와 여러 지방을 편력하였다.": "בשל משבר רוחני וסיבות אחרות, ועל אף המוניטין שלו, הוא נטש את משרתו הדתית ויצא כצופי נודד למכה ולאזורים נוספים.",
+  "1111": "1111",
+  "고향으로 은퇴하여 세상을 떠났다.": "פרש לעיר הולדתו ונפטר.",
+
+  "《철학자의 모순》 저술": "כתיבת 'הפלת הפילוסופים'",
+  "일부 철학자들이 그리스 철학을 지나치게 이슬람에 이식하여 쿠란과 모순을 일으키는 사상을 가졌다고 비판하는 내용을 담은 책을 저술했다.": "הוא חיבר ספר המבקר כמה פילוסופים על כך ששילבו יתר על המידה את הפילוסופיה היוונית אל תוך האסלאם, וכך הגיעו לרעיונות הסותרים את הקוראן.",
+  "《종교 제학의 소생》 및 《미혹으로부터의 해방》 저술": "כתיבת 'תחיית מדעי הדת' ו-'המציל מן התעייה'",
+  "후세에 큰 영향을 미친 《종교 제학의 소생》과 《미혹으로부터의 해방》 등의 명저를 남겼다.": "הוא הותיר אחריו יצירות מופת כמו 'תחיית מדעי הדת' ו-'המציל מן התעייה', שהשפיעו רבות על הדורות הבאים.",
+  "정통파 신학과 수피즘의 조화": "הרמוניזציה בין תאולוגיה אורתודוקסית וצופיות",
+  "정통파 신학과 수피즘을 조화시켜 이슬람 종교 체계에 새로운 생명을 불어넣는 데 가장 큰 공적을 세웠다.": "הישגו הגדול ביותר היה שילוב התאולוגיה האורתודוקסית עם הצופיות, ובכך החייה מחדש את המערכת הדתית האסלאמית.",
+  "정통파 이슬람 고수": "דבקות באסלאם אורתודוקסי",
+  "이븐 시나의 철학을 비판함으로써 정통파 이슬람을 고수하는 데 기여했다.": "תרם לשימור האסלאם האורתודוקסי בכך שביקר את הפילוסופיה של אבן סינא.",
+  "이슬람 학문의 전환점 마련": "יצירת נקודת מפנה בלמדנות האסלאמית",
+  "이슬람의 학문을 스콜라 신학으로부터 탈피시키고 《꾸란》과 하디스를 부활시켜 이슬람 종교사상에 전환점을 가져왔다.": "הוא הרחיק את הלמדנות האסלאמית מהתאולוגיה הסכולסטית, החיה מחדש את הקוראן והחדית', והביא לנקודת מפנה בהגות הדתית האסלאמית.",
+  "수피즘의 지위 확립": "ביסוס מעמד הצופיות",
+  "수피즘의 지위를 이슬람교 내에 확립하여 이슬람 교도 대중이 수피즘을 받아들이도록 만들었다.": "ביסס את מעמדה של הצופיות בתוך האסלאם, והביא לכך שהמוני המוסלמים יקבלו אותה.",
+
+  "알가잘리는 어떤 인물로 평가받나요?": "כיצד מוערך אל-ע'זאלי?",
+  "그는 무함마드 이후의 가장 위대한 무슬림으로 일컬어지는 신학자이자 철학, 수피즘 분야에서 중요한 인물입니다.": "הוא נחשב למוסלמי הגדול ביותר לאחר מוחמד, והוא תאולוג ודמות מרכזית בתחומי הפילוסופיה והצופיות.",
+  "알가잘리의 주요 저서는 무엇인가요?": "מהן יצירותיו העיקריות של אל-ע'זאלי?",
+  "그의 주요 저서로는 《철학자의 모순》, 《종교 제학의 소생》, 《미혹으로부터의 해방》 등이 있습니다.": "יצירותיו העיקריות כוללות את 'הפלת הפילוסופים', 'תחיית מדעי הדת' ו-'המציל מן התעייה'.",
+  "알가잘리의 가장 큰 공적은 무엇인가요?": "מהו הישגו הגדול ביותר של אל-ע'זאלי?",
+  "그의 가장 큰 공적은 정통파 신학과 수피즘을 조화시킨 것이며, 이븐 시나의 철학을 비판하여 정통파 이슬람을 고수한 것입니다.": "הישגו הגדול ביותר היה ההרמוניזציה בין תאולוגיה אורתודוקסית לצופיות, ושמירה על האסלאם האורתודוקסי באמצעות ביקורת על הפילוסופיה של אבן סינא.",
+  "알가잘리가 이슬람 종교사상에 어떤 전환점을 가져왔나요?": "איזו נקודת מפנה הביא אל-ע'זאלי להגות הדתית האסלאמית?",
+  "그는 이슬람 학문을 스콜라 신학으로부터 탈피시키고, 외경 요소를 재도입했으며, 수피즘의 지위를 확립하고 철학을 일반 이슬람 교도에 접근시켰습니다.": "הוא הרחיק את הלמדנות האסלאמית מהתאולוגיה הסכולסטית, שילב מחדש יסודות של יראת שמיים, ביסס את מעמד הצופיות, והנגיש את הפילוסופיה לכלל המוסלמים.",
+
+  "바그다드 니자미야 학원 교수 재임 시작 연도 및 《철학자의 모순》 저술 연도는 원문에 명시되어 있지 않습니다.": "שנת תחילת כהונתו כפרופסור במדרשת ניזאמיה בבגדד ושנת כתיבת 'הפלת הפילוסופים' אינן מצוינות בטקסט המקורי.",
+
+  // maimonides
+  "1138년": "1138",
+  "무라비트 제국의 코르도바에서 모세 벤 마이몬으로 태어남.": "נולד כרבי משה בן מימון בקורדובה שבאימפריה המוראביטית.",
+  "1168년": "1168",
+  "랍비 문학의 초석인 '미슈나 주해'를 완성함.": "השלים את 'פירוש המשנה', אבן דרך בספרות הרבנית.",
+  "1180년": "1180",
+  "유대법의 기념비적 법전인 '미슈네 토라'를 완성함.": "השלים את 'משנה תורה', קודקס מונומנטלי של ההלכה היהודית.",
+  "1190년": "1190",
+  "신앙과 이성의 조화를 모색한 주요 철학 저서 '미혹된 자들을 위한 안내서'를 출판함.": "פרסם את חיבורו הפילוסופי המרכזי 'מורה הנבוכים', אשר ניסה ליישב בין אמונה ושכל.",
+  "1204년": "1204",
+  "이집트 푸스타트(카이로)에서 사망하고 후에 티베리아스에 안장됨.": "נפטר בפוסטאט (קהיר) שבמצרים, ומאוחר יותר הובא לקבורה בטבריה.",
+
+  // zoroaster
+  "기원전 1500년": "1500 לפנה\"ס",
+  "동부 이란이나 중앙아시아에서 태어남 (대략적인 생존 시기).": "נולד במזרח איראן או במרכז אסיה (זמן חיותו המוערך).",
+  "기원전 1470년": "1470 לפנה\"ס",
+  "30세의 나이에 최고신 아후라 마즈다를 보는 첫 번째 신성한 계시를 받았다고 전해짐.": "מסופר כי בגיל 30 חווה את ההתגלות האלוהית הראשונה שבה חזה באל העליון, אהורה מאזדה.",
+  "기원전 1460년": "1460 לפנה\"ס",
+  "지역 사제들의 강한 반대에 부딪혀 다년간 방랑하며 일신교적 비전을 설파함.": "נתקל בהתנגדות עזה מצד כוהנים מקומיים, נדד במשך שנים רבות, והטיף לחזונו המונותאיסטי.",
+  "기원전 1458년": "1458 לפנה\"ס",
+  "비슈타스파 왕을 개종시켜 정치적 지원을 확보하고 종교의 생존을 보장받음.": "הבטיח גיבוי פוליטי והבטיח את הישרדות דתו על ידי המרת דתו של המלך וישטאספא.",
+  "기원전 1423년": "1423 לפנה\"ס",
+  "제단에서 기도하던 중 경쟁 사제에게 암살당하여 사망했다고 전해짐.": "מסופר כי נרצח בידי כוהן יריב בעת שהתפלל במזבח.",
+
+  // miguel-de-cervantes
+  "1547": "1547",
+  "마드리드의 대학가 알칼라 데 에나레스에서 태어남": "נולד בעיר האוניברסיטאית אלקלה דה אנארס שליד מדריד.",
+  "1570": "1570",
+  "이탈리아의 추기경을 따라 로마로 건너가 군인이 되어 레판토 해전에 참가했으며, 부상으로 왼손에 장애를 가지게 됨": "נסע לרומא בעקבות חשמן איטלקי, הפך לחייל והשתתף בקרב לפנטו, שם נפצע ואיבד את היכולת להשתמש בידו השמאלית.",
+  "1575": "1575",
+  "해적에게 잡혀 알제리에서 5년간 노예로 생활함": "נשבה על ידי שודדי ים וחי כעבד באלג'יריה במשך 5 שנים.",
+  "1580": "1580",
+  "성 삼위일체 수도회의 도움으로 몸값을 지급하고 마드리드로 돌아와 글을 쓰기 시작함": "שילם כופר בעזרת מסדר השילוש הקדוש, חזר למדריד והחל לכתוב.",
+  "1585": "1585",
+  "소설 《라 갈라테아》를 출판하였으나 인기를 끌지 못함": "פרסם את הרומן 'לה גלתיאה' אך הוא לא זכה לפופולריות רבה.",
+  "1605": "1605",
+  "《돈 키호테》 제1부를 발표하여 대단한 인기를 모음": "פרסם את החלק הראשון של 'דון קישוט' וזכה לפופולריות עצומה.",
+  "1615": "1615",
+  "《돈 키호테》 제2부를 완성함": "השלים את החלק השני של 'דון קישוט'.",
+  "1616": "1616",
+  "향년 69세로 세상을 떠남": "נפטר בגיל 69.",
+
+  "돈 키호테": "דון קישוט",
+  "많은 사람들에게서 유럽 최초의 근대 소설이라고 평가받는 작품입니다.": "יצירה שרבים רואים בה את הרומן המודרני הראשון באירופה.",
+  "라 갈라테아": "לה גלתיאה",
+  "소설 《라 갈라테아》를 출판하였으나 인기를 별로 끌지 못했습니다.": "הוא פרסם את הרומן 'לה גלתיאה', אך הוא לא זכה לאהדה רבה.",
+
+  "미겔 데 세르반테스의 별명은 무엇인가요?": "מה היה כינויו של מיגל דה סרוואנטס?",
+  "'지혜의 왕자'(el Príncipe de los Ingenios)라는 별명이 있습니다.": "כינויו היה 'נסיך המוחות' (el Príncipe de los Ingenios).",
+  "미겔 데 세르반테스는 어디에서 태어났나요?": "היכן נולד מיגל דה סרוואנטס?",
+  "마드리드의 대학가 알칼라 데 에나레스에서 태어났습니다.": "הוא נולד באלקלה דה אנארס, עיר אוניברסיטאית ליד מדריד.",
+  "미겔 데 세르반테스의 주요 직업은 무엇이었나요?": "מה היה המקצוע העיקרי של מיגל דה סרוואנטס?",
+  "그는 소설가, 시인, 극작가였습니다.": "הוא היה סופר, משורר ומחזאי.",
+  "미겔 데 세르반테스의 작품은 어떻게 평가받나요?": "כיצד מוערכות יצירותיו של מיגל דה סרוואנטס?",
+  "그의 작품은 문학 전체를 통틀어 가장 중요한 명작에 속한다고 언급되며, 특히 《돈 키호테》는 유럽 최초의 근대 소설로 평가받습니다.": "יצירותיו נחשבות ליצירות מופת מהחשובות בספרות כולה, ובמיוחד 'דון קישוט' המוערך כרומן המודרני הראשון של אירופה.",
+
+  "어린 시절에 대한 정보가 거의 알려지지 않았습니다.": "כמעט ואין מידע ידוע על תקופת ילדותו.",
+
+  // leo-tolstoy
+  "1828년": "1828",
+  "야스나야 폴랴나 영지의 러시아 귀족 가문에서 태어남.": "נולד למשפחת אצולה רוסית באחוזת יסניה פוליאנה.",
+  "1852년": "1852",
+  "첫 소설 '유년 시대'를 출판하여 즉각적인 문학적 성공을 거둠.": "פרסם את הרומן הראשון שלו, 'ילדות', וזכה להצלחה ספרותית מיידית.",
+  "1869년": "1869",
+  "그의 서사적 걸작인 '전쟁과 평화'를 완성함.": "השלים את יצירת המופת האפית שלו, 'מלחמה ושלום'.",
+  "1877년": "1877",
+  "역사상 가장 위대한 소설 중 하나로 칭송받는 '안나 카레니나'를 출판함.": "פרסם את 'אנה קארנינה', שזוכה להערכה כאחד מהרומנים הגדולים בהיסטוריה.",
+  "1910년": "1910",
+  "금욕적인 삶을 추구하기 위해 집을 떠난 후 아스타포보 기차역에서 폐렴으로 사망함.": "נפטר מדלקת ריאות בתחנת הרכבת אסטאפובו, לאחר שעזב את ביתו בחיפוש אחר חיים סגפניים.",
+
+  // murasaki-shikibu
+  "973년": "973",
+  "일본 헤이안쿄에서 태어남": "נולדה בהייאן-קיו שביפן.",
+  "996년": "996",
+  "아버지가 에치젠국 지방관으로 부임하여 함께 에치젠국으로 감": "נסעה לאצ'יזן עם אביה, כאשר מונה למושל מחוז אצ'יזן.",
+  "998년": "998",
+  "교토로 돌아와 후지와라 노부타카와 혼인함": "חזרה לקיוטו ונישאה לפוג'יווארה נובוטקה.",
+  "999년": "999",
+  "딸 겐시(가타이코)가 태어남": "נולדה בתה קנשי (דאייני נו סאנמי).",
+  "1001년": "1001",
+  "남편 노부타카가 콜레라로 사망함": "בעלה נובוטקה נפטר מכולרה.",
+  "1000년~1012년": "1000–1012",
+  "《겐지모노가타리》를 집필함": "כתבה את 'מעשה גנג'י'.",
+  "1005년경": "בסביבות 1005",
+  "후지와라노 미치나가에 의해 황실로 초빙되어 쇼시 황후의 시녀가 됨": "הוזמנה לחצר הקיסרות על ידי פוג'יווארה נו מיצ'ינאגה, והפכה לבת לווייתה של הקיסרית שושי.",
+  "1007년": "1007",
+  "황실 일기에서 궁녀 후지와라노 교코(藤原香子)가 언급됨 (무라사키의 본명으로 추정)": "יומן החצר מאזכר את גבירת החצר פוג'יווארה קאורוקו (כנראה שמה האמיתי של מורסקי).",
+  "1014년경": "בסביבות 1014",
+  "사망함": "נפטרה.",
+  "1933년": "1933",
+  "《겐지모노가타리》의 6권 분량 영어 번역이 완역됨": "הושלם התרגום המלא לאנגלית של ששת הכרכים של 'מעשה גנג'י'.",
+
+  "《겐지모노가타리》 집필": "כתיבת 'מעשה גנג'י'",
+  "최초 소설 중 하나로 여겨지는 일본어 소설 《겐지모노가타리》를 집필했습니다.": "כתבה את 'מעשה גנג'י', רומן יפני הנחשב לאחד הרומנים הראשונים בעולם.",
+  "《무라사키 시키부 일기》 집필": "כתיבת 'יומנה של מורסקי שיקיבו'",
+  "시집 《무라사키 시키부 일기》를 썼습니다.": "כתבה את ספר השירים 'יומנה של מורסקי שיקיבו'.",
+  "한문 학습 및 교육": "לימוד והוראת סינית קלאסית",
+  "헤이안 시대 여성에게 금기시되던 한문을 학자였던 아버지 슬하에서 익혔고, 쇼시 황후에게 한문을 가르쳤습니다.": "למדה סינית קלאסית בחסות אביה המלומד, על אף שהדבר נחשב כטאבו עבור נשים בתקופת הייאן, ולימדה את השפה את הקיסרית שושי.",
+
+  "무라사키 시키부의 본명은 무엇인가요?": "מה היה שמה האמיתי של מורסקי שיקיבו?",
+  "무라사키 시키부는 필명이며, 본명은 알려지지 않았지만 1007년 황실 일기에서 언급된 궁녀 후지와라노 교코(藤原香子)로 추정됩니다.": "מורסקי שיקיבו הוא שם עט. שמה האמיתי אינו ידוע בוודאות, אך מעריכים כי היא גבירת החצר פוג'יווארה קאורוקו, שהוזכרה ביומן חצר משנת 1007.",
+  "무라사키 시키부는 어떻게 한문을 배울 수 있었나요?": "כיצד הצליחה מורסקי שיקיבו ללמוד סינית קלאסית?",
+  "헤이안 시대 여성은 전통적으로 한문 학습을 받지 못했지만, 학자였던 아버지 슬하에서 자라 한문에 뛰어난 소질을 보여 유창하게 쓸 수 있게 되었습니다.": "למרות שנשים בתקופת הייאן לא קיבלו חינוך מסורתי בסינית קלאסית, היא גדלה אצל אביה המלומד והפגינה כישרון יוצא דופן בסינית, עד שהייתה מסוגלת לכתוב בה באופן שוטף.",
+  "《겐지모노가타리》는 언제 집필되었나요?": "מתי נכתב 'מעשה גנג'י'?",
+  "《겐지모노가타리》는 1000년에서 1012년 사이에 집필되었습니다.": "'מעשה גנג'י' נכתב בין השנים 1000 ל-1012.",
+  "무라사키 시키부가 궁녀가 된 시기와 이유는 무엇인가요?": "מתי ומדוע הפכה מורסקי שיקיבו לגבירת חצר?",
+  "무라사키 시키부는 30대 초반에서 중반 사이에 작가로서의 명성 때문에 후지와라노 미치나가에 의해 쇼시 황후의 시녀로 초빙되었습니다.": "מורסקי שיקיבו הוזמנה, בשנות השלושים המוקדמות או האמצעיות לחייה, להיות בת לווייתה של הקיסרית שושי על ידי פוג'יווארה נו מיצ'ינאגה, בזכות המוניטין שלה כסופרת.",
+  "세이 쇼나곤과 무라사키 시키부의 관계는 어떠했나요?": "מה הייתה מערכת היחסים בין סיי שונאגון ומורסקי שיקיבו?",
+  "무라사키 시키부는 세이 쇼나곤을 경쟁 상대로 인식했으며, 쇼나곤의 거만함과 한문 과시를 비판적으로 평가했습니다.": "מורסקי שיקיבו ראתה בסיי שונאגון מתחרה, ומתחה ביקורת נוקבת על יהירותה ועל התרברבותה בידיעת סינית קלאסית.",
+
+  "무라사키 시키부의 정확한 출생 연도는 970년경 또는 978년경으로도 추정되며, 사망 연도 또한 1025년경 또는 1031년까지 생존했다는 설이 있습니다. 무라사키 시키부가 《겐지모노가타리》의 집필을 시작한 시기는 확실하지 않으며, 남편 후지와라 노부타카의 다른 아내와 자식들의 수는 알려지지 않았습니다. 무라사키가 미치나가의 첩으로 궁정에 끌려갔다는 증거는 없습니다.": "שנת הולדתה המדויקת של מורסקי שיקיבו משוערת כ-970 או 978 בערך, וישנן גם תאוריות לפיהן היא שרדה עד 1025 או 1031. התאריך המדויק בו החלה לכתוב את 'מעשה גנג'י' אינו ברור, ומספר הנשים האחרות וילדיו של בעלה פוג'יווארה נובוטקה אינו ידוע. אין ראיות לכך שמורסקי הובאה לחצר כפילגשו של מיצ'ינאגה.",
+
+  // edgar-degas
+  "1834년": "1834",
+  "프랑스 파리에서 일레르 제르맹 에드가 드 가로 태어남.": "נולד בפריז, צרפת, בשם אילר-ז'רמן-אדגר דה גא.",
+  "1855년": "1855",
+  "에콜 데 보자르에 입학하여 루이 라모트 밑에서 드로잉을 공부함.": "התקבל לאקול דה בוז-אר (בית הספר לאמנויות יפות) ולמד רישום תחת לואי לאמוט.",
+  "1874년": "1874",
+  "파리에서 열린 제1회 인상주의 전시회를 조직하고 작품을 전시함.": "ארגן והציג עבודות בתערוכה האימפרסיוניסטית הראשונה בפריז.",
+  "1881년": "1881",
+  "생전에 대중에게 공개된 유일한 조각품인 '14세의 어린 무용수'를 전시함.": "הציג את 'רקדנית קטנה בת ארבע עשרה', הפסל היחיד שהוצג בפומבי במהלך חייו.",
+  "1917년": "1917",
+  "거의 실명 상태로 수천 점의 미전시 작품들을 남기고 파리에서 사망함.": "נפטר בפריז, כשהוא כמעט עיוור, ומותיר אחריו אלפי יצירות שלא הוצגו."
 };
 
-for (const person in data) {
-  if (translations[person]) {
-    for (let i = 0; i < data[person].timeline.length; i++) {
-      if (translations[person].timeline[i]) {
-        data[person].timeline[i].event = translations[person].timeline[i];
-      }
-    }
-    for (let i = 0; i < data[person].keyAchievements.length; i++) {
-      if (translations[person].keyAchievements[i]) {
-        data[person].keyAchievements[i].title = translations[person].keyAchievements[i].title;
-        data[person].keyAchievements[i].description = translations[person].keyAchievements[i].description;
-      }
-    }
-    for (let i = 0; i < data[person].faq.length; i++) {
-      if (translations[person].faq[i]) {
-        data[person].faq[i].question = translations[person].faq[i].question;
-        data[person].faq[i].answer = translations[person].faq[i].answer;
-      }
-    }
+function translateText(text) {
+  if (typeof text !== 'string') return text;
+  return translations[text] !== undefined ? translations[text] : text;
+}
+
+for (const slug in data) {
+  const obj = data[slug];
+  
+  if (obj.timeline) {
+    obj.timeline.forEach(item => {
+      if (item.year) item.year = translateText(item.year);
+      if (item.event) item.event = translateText(item.event);
+    });
+  }
+  
+  if (obj.keyAchievements) {
+    obj.keyAchievements.forEach(item => {
+      if (item.title) item.title = translateText(item.title);
+      if (item.description) item.description = translateText(item.description);
+    });
+  }
+  
+  if (obj.faq) {
+    obj.faq.forEach(item => {
+      if (item.question) item.question = translateText(item.question);
+      if (item.answer) item.answer = translateText(item.answer);
+    });
+  }
+  
+  if (obj.missingDataNote) {
+    obj.missingDataNote = translateText(obj.missingDataNote);
   }
 }
 
-fs.writeFileSync('c:\\Users\\user\\OneDrive\\바탕 화면\\wisdom-giants-20260512T091146Z-3-001\\wisdom-giants\\scratch\\task3_id_retry_out_2.json', JSON.stringify(data, null, 2), 'utf8');
+fs.writeFileSync('c:/Users/user/OneDrive/바탕 화면/wisdom-giants-20260512T091146Z-3-001/wisdom-giants/scratch/task_he_out_4.json', JSON.stringify(data, null, 2), 'utf8');
+console.log('Done');

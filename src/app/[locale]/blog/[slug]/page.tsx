@@ -1,4 +1,4 @@
-import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
+import { buildSEOAlternates, isLocaleIndexed, isBlogLocaleIndexed } from "@/config/locale-status";
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { Link } from '@/i18n/routing'
@@ -356,7 +356,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params
   const post = blogPosts.find(p => p.slug === slug)
   if (!post) return {
-    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },}
+    robots: { index: isBlogLocaleIndexed(locale), follow: isLocaleIndexed(locale) },}
 
   const translation = post.translations[locale] || post.translations['en']
   const title = `${translation.title.replace(/\*\*/g, '')} | Giants Wisdom`
@@ -370,7 +370,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : `${BASE_URL}/images/giants/cleopatra.png`
 
   return {
-    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
+    robots: { index: isBlogLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     title,
     description,
     alternates: buildSEOAlternates(`/blog/${slug}`, locale),

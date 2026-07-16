@@ -1,0 +1,654 @@
+{
+  "jane-austen": {
+    "timeline": [
+      {
+        "year": "December 16, 1775",
+        "event": "Lahir di pastoran di Steventon, Hampshire."
+      },
+      {
+        "year": "1785",
+        "event": "Belajar di Reading Abbey Girls' School di Reading, Berkshire."
+      },
+      {
+        "year": "1789",
+        "event": "Mulai menulis novel pada usia 14 tahun."
+      },
+      {
+        "year": "1795",
+        "event": "Menulis novel epistoler 'Elinor and Marianne'."
+      },
+      {
+        "year": "1796",
+        "event": "Bertemu dengan seorang pemuda Irlandia bernama Tom Lefroy dan menulis 'First Impressions'."
+      },
+      {
+        "year": "November 1797",
+        "event": "Mulai menulis 'Sense and Sensibility' berdasarkan 'Elinor and Marianne'."
+      },
+      {
+        "year": "1801",
+        "event": "Ayahnya melepaskan pastorannya dan keluarganya pindah ke Bath, Somerset."
+      },
+      {
+        "year": "1802",
+        "event": "Menerima lamaran pernikahan dari Harris Bigg-Wither tetapi menolaknya keesokan harinya."
+      },
+      {
+        "year": "1803",
+        "event": "Menjual 'Lady Susan' kepada Crosby & Co."
+      },
+      {
+        "year": "January 21, 1805",
+        "event": "Ayahnya meninggal dunia."
+      },
+      {
+        "year": "1809",
+        "event": "Menetap di sebuah pondok di Chawton dengan bantuan saudara ketiganya, Edward."
+      },
+      {
+        "year": "1811",
+        "event": "Menyerahkan 'Mansfield Park' dan menerbitkan 'Sense and Sensibility' secara anonim."
+      },
+      {
+        "year": "January 1813",
+        "event": "Menerbitkan 'Pride and Prejudice', berdasarkan 'First Impressions'."
+      },
+      {
+        "year": "May 1814",
+        "event": "Menerbitkan 'Mansfield Park'."
+      },
+      {
+        "year": "October 1815",
+        "event": "Mendedikasikan 'Emma' kepada Pangeran Bupati (kemudian menjadi George IV) tidak lama sebelum diterbitkan."
+      },
+      {
+        "year": "1816",
+        "event": "Kesehatannya sering memburuk, membuatnya harus terbaring di tempat tidur untuk waktu yang lama."
+      },
+      {
+        "year": "July 18, 1817",
+        "event": "Meninggal di Winchester pada usia 42 tahun saat sedang menulis 'Sanditon'."
+      },
+      {
+        "year": "1818",
+        "event": "'Northanger Abbey' dan 'Persuasion' diterbitkan secara anumerta."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Mulai Menulis Novel",
+        "description": "Mulai menulis cerita pada usia 14 tahun dan berkembang sebagai novelis dengan dukungan keluarganya."
+      },
+      {
+        "title": "Penerbitan 'Sense and Sensibility'",
+        "description": "Salah satu karya pertamanya yang diterbitkan secara anonim pada tahun 1811."
+      },
+      {
+        "title": "Penerbitan 'Pride and Prejudice'",
+        "description": "Diterbitkan pada Januari 1813; draf aslinya berjudul 'First Impressions'."
+      },
+      {
+        "title": "Penerbitan dan Dedikasi 'Emma'",
+        "description": "Didedikasikan kepada Pangeran Bupati (kemudian George IV) dan diterbitkan pada Desember 1815."
+      },
+      {
+        "title": "Pendiri 'Tradisi Besar' Novel Inggris",
+        "description": "Dievaluasi karena telah mendirikan 'Tradisi Besar' novel Inggris dengan membahas kehidupan wanita kelas atas dan menengah di Inggris abad ke-18 dengan pandangan yang halus dan gaya yang cerdas."
+      },
+      {
+        "title": "Sastra Realisme Kritis Sosial",
+        "description": "Menciptakan dunia sastra yang canggih berdasarkan realisme, menyindir tren yang berorientasi pada materi dan kemunafikan masyarakat kontemporer dengan pengamatan yang tajam dan perspektif kritis yang tajam."
+      },
+      {
+        "title": "Evaluasi Ulang Sastra Anumerta dan Pengaruh Budaya Pop",
+        "description": "Diangkat menjadi kanon sastra melalui pujian para kritikus dari akhir abad ke-19 dan seterusnya, dan pada akhir abad ke-20, karya-karyanya menjadi fenomena kultus yang populer, diadaptasi menjadi film dan drama."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kapan Jane Austen lahir?",
+        "answer": "Dia lahir pada 16 Desember 1775, di pastoran di Steventon, Hampshire."
+      },
+      {
+        "question": "Apa saja karya representatif Jane Austen?",
+        "answer": "Karya-karyanya antara lain 'Sense and Sensibility' (1811), 'Pride and Prejudice' (1813), 'Mansfield Park' (1814), dan 'Emma' (1816)."
+      },
+      {
+        "question": "Apa karakteristik novel-novel Jane Austen?",
+        "answer": "Novel-novelnya dicirikan dengan menggambarkan kehidupan wanita kelas atas dan menengah di Inggris abad ke-18 dengan pandangan yang halus dan gaya yang cerdas."
+      },
+      {
+        "question": "Apakah Jane Austen terkenal selama hidupnya?",
+        "answer": "Dia tidak terlalu terkenal selama hidupnya, tetapi pada abad ke-20, karya-karyanya mendapatkan popularitas yang luar biasa dan diadaptasi ke dalam film berkali-kali."
+      },
+      {
+        "question": "Apakah Jane Austen pernah menikah?",
+        "answer": "Dia memiliki kisah asmara dengan seorang pemuda bernama Tom Lefroy, tetapi itu tidak mengarah pada pernikahan. Dia menerima lamaran dari Harris Bigg-Wither pada tahun 1802 tetapi menolaknya keesokan harinya."
+      },
+      {
+        "question": "Kapan Jane Austen meninggal?",
+        "answer": "Dia meninggal pada 18 Juli 1817, pada usia 42 tahun."
+      }
+    ]
+  },
+  "john-stuart-mill": {
+    "timeline": [
+      {
+        "year": "May 20, 1806",
+        "event": "Lahir di Pentonville, London, Inggris."
+      },
+      {
+        "year": "Age 3",
+        "event": "Mulai belajar bahasa Yunani."
+      },
+      {
+        "year": "Age 8",
+        "event": "Mulai belajar bahasa Latin, Euclid, dan aljabar, serta bertindak sebagai tutor untuk adik-adiknya."
+      },
+      {
+        "year": "Age 10",
+        "event": "Mencapai tingkat kemampuan untuk membaca teks asli Plato dan Demosthenes."
+      },
+      {
+        "year": "1818",
+        "event": "Mulai mempelajari logika skolastik dan teks asli dari logika Aristoteles."
+      },
+      {
+        "year": "1819",
+        "event": "Mulai mempelajari ekonomi politik."
+      },
+      {
+        "year": "Age 14",
+        "event": "Tinggal di Prancis selama satu tahun dan mengambil kursus kimia, zoologi, dan logika di Fakultas Ilmu Pengetahuan di Montpellier."
+      },
+      {
+        "year": "Age 21",
+        "event": "Menderita gangguan saraf."
+      },
+      {
+        "year": "1823",
+        "event": "Mendirikan Utilitarian Society bersama teman-temannya."
+      },
+      {
+        "year": "1843",
+        "event": "Menerbitkan 'A System of Logic'."
+      },
+      {
+        "year": "1844",
+        "event": "Menerbitkan 'Essays on Some Unsettled Questions of Political Economy'."
+      },
+      {
+        "year": "1848",
+        "event": "Menerbitkan 'Principles of Political Economy'."
+      },
+      {
+        "year": "1851",
+        "event": "Menikah dengan Harriet Taylor."
+      },
+      {
+        "year": "1858",
+        "event": "Harriet Taylor meninggal dunia, dan ia pensiun dari East India Company."
+      },
+      {
+        "year": "1859",
+        "event": "Menerbitkan 'On Liberty'."
+      },
+      {
+        "year": "1861",
+        "event": "Menerbitkan 'Utilitarianism' dan 'Considerations on Representative Government'."
+      },
+      {
+        "year": "1865",
+        "event": "Terpilih sebagai Rektor Lord di University of St Andrews dan terpilih ke dalam House of Commons sebagai Anggota Parlemen untuk City of Westminster."
+      },
+      {
+        "year": "1868",
+        "event": "Masa jabatan sebagai Anggota Parlemen berakhir."
+      },
+      {
+        "year": "1869",
+        "event": "Menjadi orang pertama di Parlemen yang mengadvokasi hak perempuan untuk memilih, dan menerbitkan 'The Subjection of Women'."
+      },
+      {
+        "year": "May 7, 1873",
+        "event": "Meninggal di Avignon, Prancis, dan 'Autobiography' diterbitkan."
+      },
+      {
+        "year": "1874",
+        "event": "Menerbitkan 'Three Essays on Religion'."
+      },
+      {
+        "year": "1879",
+        "event": "Menerbitkan 'Chapters on Socialism'."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Penyelesaian System of Logic",
+        "description": "Menerbitkan 'A System of Logic' pada tahun 1843, melengkapi logika induktif Bacon dan menghadirkan metodologi terobosan untuk penelitian ilmu alam."
+      },
+      {
+        "title": "Pembentukan Teori Politik Liberal",
+        "description": "Meninggalkan karya klasik tentang konsep kebebasan melalui 'On Liberty', menghadirkan prinsip-prinsip dasar demokrasi liberal modern dengan membela kebebasan berekspresi sebagai hak fundamental warga negara."
+      },
+      {
+        "title": "Pengembangan Utilitarianisme",
+        "description": "Mengembangkan utilitarianisme Bentham, ayah baptis dan gurunya, ke dalam sistemnya sendiri dengan menambahkan Saint-Simonianisme dan Romantisisme."
+      },
+      {
+        "title": "Advokasi Hak-Hak Perempuan dan Reformasi Sosial",
+        "description": "Sebagai Anggota Parlemen, ia mengadvokasi berbagai reformasi sosial termasuk hak-hak perempuan, representasi proporsional, serikat pekerja, dan organisasi kerja sama pertanian, dan merupakan orang pertama yang menuntut hak pilih perempuan di Parlemen."
+      },
+      {
+        "title": "Pelopor Teori Sosialisme Pasar",
+        "description": "Dianggap sebagai salah satu ahli teori sosialisme pasar awal karena mengadvokasi penggantian perusahaan kapitalis dengan koperasi pekerja."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Bagaimana John Stuart Mill menempuh pendidikan?",
+        "answer": "Dia dididik terutama oleh ayahnya, James Mill, dan merupakan anak yang cerdas sebelum waktunya, belajar bahasa Yunani pada usia tiga tahun serta bahasa Latin dan matematika tingkat lanjut pada usia delapan tahun."
+      },
+      {
+        "question": "Apa pandangan Mill tentang agama?",
+        "answer": "Dia kritis terhadap agama itu sendiri, tidak pernah memiliki keyakinan agama, menyangkal doktrin Kristen, dan memandang agama sebagai musuh terbesar kebebasan."
+      },
+      {
+        "question": "Bagaimana Harriet Taylor memengaruhi John Stuart Mill?",
+        "answer": "Harriet sangat memengaruhi pemikiran Mill, terutama dalam memperkuat advokasinya untuk hak-hak perempuan, dan memengaruhi penulisan 'On Liberty' serta 'The Subjection of Women'."
+      },
+      {
+        "question": "Apa pendapat John Stuart Mill tentang 'keadaan stasioner'?",
+        "answer": "Dia percaya bahwa keadaan stasioner dari modal dan kekayaan mungkin tidak mengerikan, tetapi sebenarnya bisa menjadi keadaan yang jauh lebih maju dan lebih bahagia daripada masa kini, mengantisipasi bahwa umat manusia akan kurang peduli pada uang dan lebih fokus pada nilai-nilai seperti martabat, integritas, dan keadilan."
+      },
+      {
+        "question": "Apakah John Stuart Mill seorang sosialis?",
+        "answer": "Dia menyebut dirinya sebagai seorang sosialis dan dianggap sebagai salah satu ahli teori sosialis pasar awal karena mengadvokasi penggantian bisnis kapitalis dengan koperasi pekerja."
+      }
+    ]
+  },
+  "olympe-de-gouges": {
+    "timeline": [
+      {
+        "year": "1748",
+        "event": "Lahir di sebuah desa terpencil di Prancis."
+      },
+      {
+        "year": "1773",
+        "event": "Bertemu dengan Jacques Biétrix de Rozières dan menjalin hubungan asmara yang panjang."
+      },
+      {
+        "year": "1784",
+        "event": "Pada tahun ayah kandungnya meninggal, ia memulai karirnya sebagai intelektual publik dan menulis drama 'Zamore and Mirza', sebuah karya anti-perbudakan."
+      },
+      {
+        "year": "1788",
+        "event": "Menerbitkan pamflet 'Letters to the People'."
+      },
+      {
+        "year": "1789",
+        "event": "'Zamore and Mirza' tidak dipentaskan; menulis lakon lain berjudul 'The Black Market'."
+      },
+      {
+        "year": "1791",
+        "event": "Menjadi anggota 'Klub Sosial' atau 'Masyarakat Sahabat Kebenaran' dan mulai menulis 'Declaration of the Rights of Woman and of the Female Citizen'."
+      },
+      {
+        "year": "June 2, 1793",
+        "event": "Geng Jacobin menangkap dan memenjarakan sekutunya, para anggota Girondin."
+      },
+      {
+        "year": "October 1793",
+        "event": "Para anggota Girondin dieksekusi dengan guillotine."
+      },
+      {
+        "year": "November 2, 1793",
+        "event": "Dijatuhi hukuman mati oleh kaum Jacobin."
+      },
+      {
+        "year": "November 3, 1793",
+        "event": "Dieksekusi."
+      },
+      {
+        "year": "March 6, 2004",
+        "event": "Sebuah persimpangan di Paris diberi nama 'Olympe de Gouges' untuk menghormatinya."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Advokasi Hak Pilih Perempuan",
+        "description": "Mengajukan argumen inovatif selama Revolusi Prancis bahwa perempuan juga harus diberikan hak untuk memilih."
+      },
+      {
+        "title": "Penulis 'Declaration of the Rights of Woman and of the Female Citizen'",
+        "description": "Menyusun sebuah deklarasi yang menyuarakan persamaan hak perempuan pada tahun 1791 karena kekhawatiran bahwa Konstitusi Prancis gagal membahas hak pilih perempuan."
+      },
+      {
+        "title": "Aktivisme Anti-Perbudakan",
+        "description": "Mengadvokasi hak-hak orang kulit hitam, menulis drama anti-perbudakan 'Zamore and Mirza' pada tahun 1784 dan 'The Black Market' pada tahun 1789."
+      },
+      {
+        "title": "Proposal untuk Kontrak Pernikahan dan Perlindungan Perempuan",
+        "description": "Mendukung pembagian kekayaan yang sama antara suami dan istri, pembagian harta yang sama jika terjadi perceraian, dan hukum untuk melindungi perempuan miskin serta anak-anak mereka."
+      },
+      {
+        "title": "Pembelaan Monarki",
+        "description": "Menentang penghapusan monarki selama Revolusi Prancis dan mengambil sikap membela Raja Louis XVI dan Ratu Marie Antoinette."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Siapakah Olympe de Gouges?",
+        "answer": "Olympe de Gouges adalah seorang aktivis sipil yang inovatif dan pendukung radikal hak-hak perempuan yang berpendapat bahwa perempuan juga harus diberikan hak pilih selama Revolusi Prancis."
+      },
+      {
+        "question": "Apa karyanya yang paling terkenal?",
+        "answer": "Karyanya yang paling terkenal adalah 'Declaration of the Rights of Woman and of the Female Citizen', yang ditulis pada tahun 1791."
+      },
+      {
+        "question": "Mengapa dia dieksekusi?",
+        "answer": "Dia dieksekusi pada tahun 1793 oleh kaum Jacobin atas tuduhan perilaku tidak pantas dan upaya untuk memulihkan monarki, mengutip isi brosurnya 'The Three Urns, or the Salvation of the Fatherland, by an Aerial Traveler' dan lakonnya yang belum selesai 'France Saved, or the Tyrant Dethroned'."
+      },
+      {
+        "question": "Bagaimana pendiriannya tentang hak-hak orang kulit hitam?",
+        "answer": "Dia berbicara menentang perbudakan kulit hitam dengan menulis naskah untuk lakon anti-perbudakan 'Zamore and Mirza' pada tahun 1784 dan menulis 'The Black Market' pada tahun 1789."
+      },
+      {
+        "question": "Bagaimana sikapnya terhadap Revolusi Prancis?",
+        "answer": "Dia menyambut baik Revolusi Prancis tetapi menjadi kecewa karena hak-hak kesetaraan yang diperjuangkannya tidak diperluas kepada perempuan. Dia menentang upaya kaum revolusioner untuk menghapus monarki dan mendukung kelestariannya."
+      }
+    ]
+  },
+  "henrik-ibsen": {
+    "timeline": [
+      {
+        "year": "March 20, 1828",
+        "event": "Henrik Johan Ibsen lahir di Skien, Norwegia."
+      },
+      {
+        "year": "1846",
+        "event": "Pada usia 18 tahun, memiliki seorang putra, Hans Jacob Hendrichsen Birkedalen, dari hubungannya dengan Else Sophie Jensdatter Birkedalen."
+      },
+      {
+        "year": "1850",
+        "event": "Menerbitkan lakon pertamanya, 'Catiline', dengan nama samaran 'Brynjolf Bjarme', dan memiliki produksi panggung pertamanya, 'The Burial Mound'."
+      },
+      {
+        "year": "1858",
+        "event": "Menjadi direktur artistik Teater Christiania dan menikah dengan Suzannah Thoresen."
+      },
+      {
+        "year": "December 23, 1859",
+        "event": "Putranya Sigurd lahir."
+      },
+      {
+        "year": "1864",
+        "event": "Meninggalkan Christiania menuju Sorrento, Italia, memulai masa 27 tahun tinggal di luar negeri."
+      },
+      {
+        "year": "1865",
+        "event": "Menerbitkan lakon 'Brand', yang memberinya pujian kritis dan kesuksesan finansial."
+      },
+      {
+        "year": "1867",
+        "event": "Menerbitkan lakon 'Peer Gynt', di mana Edvard Grieg menggubah musik insidentalnya."
+      },
+      {
+        "year": "1868",
+        "event": "Pindah dari Italia ke Dresden, Jerman."
+      },
+      {
+        "year": "1871",
+        "event": "Menerbitkan satu-satunya koleksi puisinya, 'Poems' (Digte)."
+      },
+      {
+        "year": "1873",
+        "event": "Menulis 'Emperor and Galilean', mendramatisasi kehidupan Kaisar Romawi Julian the Apostate, dan dianugerahi gelar kebangsawanan."
+      },
+      {
+        "year": "1875",
+        "event": "Pindah ke Munich dan mulai mengerjakan drama realistis modern pertamanya, 'The Pillars of Society'."
+      },
+      {
+        "year": "1877",
+        "event": "Drama realistis modern pertamanya, 'The Pillars of Society', diterbitkan dan pertama kali dipentaskan."
+      },
+      {
+        "year": "1879",
+        "event": "Menerbitkan lakon 'A Doll's House', yang memberinya pengakuan internasional."
+      },
+      {
+        "year": "1881",
+        "event": "Menerbitkan lakon 'Ghosts', yang memuat komentar tentang moralitas masyarakat Ibsen."
+      },
+      {
+        "year": "1882",
+        "event": "Menerbitkan lakon 'An Enemy of the People', yang membahas tema-tema kontroversial."
+      },
+      {
+        "year": "1884",
+        "event": "Menerbitkan lakon 'The Wild Duck', yang dianggap oleh banyak orang sebagai karya terbaik Ibsen."
+      },
+      {
+        "year": "1890",
+        "event": "Menerbitkan karya berikutnya 'Hedda Gabler', yang mengeksplorasi konflik psikologis."
+      },
+      {
+        "year": "1891",
+        "event": "Kembali ke Christiania, Norwegia, setelah 27 tahun tinggal di luar negeri."
+      },
+      {
+        "year": "1892",
+        "event": "Menerbitkan karya berikutnya 'The Master Builder', mengeksplorasi konflik psikologis, dan diangkat sebagai Komandan."
+      },
+      {
+        "year": "1893",
+        "event": "Menerima Salib Agung Ordo Santo Olav."
+      },
+      {
+        "year": "March 1900",
+        "event": "Menderita beberapa kali stroke."
+      },
+      {
+        "year": "1902",
+        "event": "Dinominasikan untuk Penghargaan Nobel Sastra."
+      },
+      {
+        "year": "1903",
+        "event": "Dinominasikan untuk Penghargaan Nobel Sastra."
+      },
+      {
+        "year": "1904",
+        "event": "Dinominasikan untuk Penghargaan Nobel Sastra."
+      },
+      {
+        "year": "May 23, 1906",
+        "event": "Meninggal di rumahnya di Christiania pada usia 78 tahun."
+      },
+      {
+        "year": "2006",
+        "event": "'Ibsen Year' dirayakan di Norwegia dan banyak negara lain untuk memperingati 100 tahun kematiannya, dan 'A Doll's House' adalah drama yang paling banyak dipentaskan di dunia."
+      },
+      {
+        "year": "2008",
+        "event": "'Delhi Ibsen Festival' mulai diadakan setiap tahun di Delhi, India."
+      },
+      {
+        "year": "2011",
+        "event": "Håkon Anton Fagerås menciptakan dua patung perunggu Ibsen untuk dipasang di Ibsen Park di Sorrento, Italia, dan di munisipalitas Skien."
+      },
+      {
+        "year": "2012",
+        "event": "Patung marmer Ibsen dibuat untuk Museum Ibsen di Oslo."
+      },
+      {
+        "year": "March 20, 2013",
+        "event": "Google menampilkan Doodle untuk merayakan ulang tahun ke-185 Henrik Ibsen."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Bapak Drama Modern",
+        "description": "Dievaluasi sebagai dramawan terbesar di dunia pada abad ke-19 dan disebut sebagai 'Bapak Drama Modern'."
+      },
+      {
+        "title": "Mempelopori Teater Realistis",
+        "description": "Meski ia juga menulis karya-karya epik liris, ia memelopori teater realistis."
+      },
+      {
+        "title": "Dramawan yang Paling Banyak Dipentaskan di Dunia",
+        "description": "Dia adalah penulis naskah drama yang paling sering dipentaskan di dunia setelah Shakespeare."
+      },
+      {
+        "title": "Pengakuan Internasional",
+        "description": "Mendapat pengakuan internasional melalui karya-karyanya seperti 'Brand', 'Peer Gynt', dan 'A Doll's House'."
+      },
+      {
+        "title": "Mendefinisikan Ulang Aturan Drama",
+        "description": "Sepenuhnya menulis ulang aturan drama melalui realisme."
+      },
+      {
+        "title": "Dramawan Berpengaruh",
+        "description": "Memengaruhi tokoh-tokoh seperti George Bernard Shaw, Oscar Wilde, dan James Joyce."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kapan Henrik Ibsen lahir dan kapan dia meninggal?",
+        "answer": "Dia lahir pada tanggal 20 Maret 1828, dan meninggal pada tanggal 23 Mei 1906."
+      },
+      {
+        "question": "Bagaimana Henrik Ibsen dinilai sebagai seorang tokoh?",
+        "answer": "Dia dianggap sebagai penulis naskah drama terhebat di dunia pada abad ke-19 dan dikenal sebagai 'Bapak Drama Modern'."
+      },
+      {
+        "question": "Apa saja karya perwakilan Henrik Ibsen?",
+        "answer": "Karya-karyanya antara lain 'A Doll's House', 'Ghosts', 'An Enemy of the People', 'The Wild Duck', dan 'Peer Gynt'."
+      },
+      {
+        "question": "Apakah Henrik Ibsen pernah memenangkan Hadiah Nobel dalam bidang Sastra?",
+        "answer": "Dia dinominasikan untuk Penghargaan Nobel di bidang Sastra pada tahun 1902, 1903, dan 1904."
+      },
+      {
+        "question": "Apa pandangan politik Henrik Ibsen?",
+        "answer": "Dia mengungkapkan pandangan anarkistis, dengan menyatakan bahwa negara adalah kutukan bagi individu dan harus dihapuskan."
+      }
+    ]
+  },
+  "alexander-von-humboldt": {
+    "timeline": [
+      {
+        "year": "September 14, 1769",
+        "event": "Lahir dalam keluarga bangsawan Prusia di Berlin."
+      },
+      {
+        "year": "1779",
+        "event": "Mulai menempuh pendidikan setelah ayahnya meninggal."
+      },
+      {
+        "year": "1789",
+        "event": "Dididik oleh seorang tutor bersama kakak laki-lakinya."
+      },
+      {
+        "year": "1791",
+        "event": "Lulus dari Freiberg School of Mines dan menjadi pegawai negeri di Departemen Pertambangan Prusia."
+      },
+      {
+        "year": "1792",
+        "event": "Berkeliling mengunjungi daerah pertambangan garam batu di berbagai negara di Eropa Tengah."
+      },
+      {
+        "year": "November 19, 1796",
+        "event": "Mewarisi kekayaan yang besar setelah ibunya meninggal."
+      },
+      {
+        "year": "1799",
+        "event": "Memulai ekspedisinya ke Amerika Spanyol dengan dukungan dari Perdana Menteri Spanyol."
+      },
+      {
+        "year": "1804",
+        "event": "Kembali dari Amerika Selatan."
+      },
+      {
+        "year": "1805",
+        "event": "Menerbitkan 23 volume 'Personal Narrative of Travels to the Equinoctial Regions of the New Continent'."
+      },
+      {
+        "year": "1807",
+        "event": "Menerbitkan 'Views of Nature' (Ansichten der Natur) di Berlin."
+      },
+      {
+        "year": "1817",
+        "event": "Menunjukkan gagasan dan metode perbandingan kondisi iklim di berbagai negara melalui 'Pembuatan Garis Isotermal'."
+      },
+      {
+        "year": "1829",
+        "event": "Mengajar geografi fisik di Universitas Wina."
+      },
+      {
+        "year": "1859",
+        "event": "Meninggal dunia pada usia 90 tahun dan dihormati dengan pemakaman kenegaraan."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Penulis 'Kosmos'",
+        "description": "Setelah mengamati geografi fisik dan ekologi selama ekspedisinya ke Amerika Selatan dan Asia Tengah, ia mengumpulkan sejumlah besar data untuk menulis 'Kosmos', sebuah mahakarya yang dianggap sebagai karya monumental dalam geografi modern."
+      },
+      {
+        "title": "Pendiri Geografi Modern",
+        "description": "Menjadi pendiri geografi modern bersama Carl Ritter."
+      },
+      {
+        "title": "Penamaan Arus Humboldt",
+        "description": "Arus laut yang mengalir di sepanjang pantai Peru dinamakan Arus Humboldt untuk menghormati penyelidikannya."
+      },
+      {
+        "title": "Meletakkan Dasar bagi Geografi Fisik dan Geofisika",
+        "description": "Meletakkan dasar geografi fisik dan geofisika melalui penyelidikannya terhadap pegunungan di Amerika tropis."
+      },
+      {
+        "title": "Pengamatan dan Studi tentang Hujan Meteor",
+        "description": "Melakukan pengamatan hujan meteor dari Tenerife di Kepulauan Canary; penelitiannya mengenai periodisitas hal tersebut menjadi fondasi observasi astronomi modern."
+      },
+      {
+        "title": "Penerbitan 'Views of Nature'",
+        "description": "Menyelidiki dan mempelajari Gunung Vesuvius di Italia serta menerbitkan 'Views of Nature' di Berlin pada tahun 1807."
+      },
+      {
+        "title": "Pembuatan Garis Isotermal",
+        "description": "Menunjukkan metode perbandingan kondisi iklim berbagai negara dalam 'Des Lignes Isothermes' (1817) dan menemukan tingkat penurunan suhu seiring bertambahnya ketinggian."
+      },
+      {
+        "title": "Penelitian tentang Kemagnetan Bumi",
+        "description": "Menemukan bahwa kekuatan medan magnet Bumi berkurang dari kutub menuju ekuator."
+      },
+      {
+        "title": "Pendirian Observatorium Magnetik dan Institut Meteorologi Internasional",
+        "description": "Menciptakan jaringan internasional observatorium magnetik dan mendirikan institut meteorologi di Prusia."
+      },
+      {
+        "title": "Koleksi Spesimen dan Penelitian yang Luas",
+        "description": "Menyelidiki hubungan antara tanaman dan lingkungannya, mengumpulkan herbarium besar yang terdiri dari 60.000 spesimen, yang mencakup ribuan spesies dan genus baru."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Siapakah Alexander von Humboldt?",
+        "answer": "Dia adalah seorang ahli geografi, ilmuwan alam, naturalis, dan penjelajah asal Jerman, yang bersama Carl Ritter, menjadi pendiri geografi modern."
+      },
+      {
+        "question": "Apa karya representatifnya?",
+        "answer": "Karya besarnya adalah 'Kosmos', berdasarkan data dari ekspedisinya di Amerika Selatan dan Asia Tengah, yang dianggap sebagai pencapaian monumental dalam geografi modern."
+      },
+      {
+        "question": "Bagaimana Arus Humboldt berkaitan dengannya?",
+        "answer": "Arus Humboldt dinamai demikian untuk menghormatinya demi mengenang penyelidikannya terhadap arus laut yang mengalir di sepanjang pantai Peru."
+      },
+      {
+        "question": "Di bidang apa saja dia meninggalkan warisan?",
+        "answer": "Dia memberikan kontribusi yang sangat besar pada berbagai bidang termasuk flora dan fauna, astronomi, iklim, mineralogi, dan oseanografi, di samping geografi, ilmu pengetahuan alam, sejarah alam, dan eksplorasi."
+      }
+    ]
+  }
+}

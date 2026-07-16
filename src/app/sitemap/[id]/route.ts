@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { giants } from '@/lib/giants-data';
 import { blogPosts } from '@/data/blog-posts';
 import { LOCALES } from '@/lib/locales';
-import { INDEXED_LOCALES } from '@/config/locale-status';
+import { INDEXED_LOCALES, INDEXED_BLOG_LOCALES } from '@/config/locale-status';
 
 const BASE_URL = 'https://www.giantswisdom.com';
 const GIANTS_PER_CHUNK = 80;
@@ -74,14 +74,14 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
       })
     );
   } else if (id === 'blog') {
-    const blogListEntries = INDEXED_LOCALES.map((locale) => ({
+    const blogListEntries = INDEXED_BLOG_LOCALES.map((locale) => ({
       url: `${BASE_URL}/${locale}/blog`,
       alternates: buildAlternates('/blog'),
       priority: '0.8',
       changefreq: 'weekly',
     }));
 
-    const blogPostEntries = INDEXED_LOCALES.flatMap((locale) =>
+    const blogPostEntries = INDEXED_BLOG_LOCALES.flatMap((locale) =>
       blogPosts.map((post) => ({
         url: `${BASE_URL}/${locale}/blog/${post.slug}`,
         alternates: buildAlternates(`/blog/${post.slug}`),

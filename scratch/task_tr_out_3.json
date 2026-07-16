@@ -1,0 +1,1246 @@
+{
+  "dmitri-mendeleev": {
+    "slug": "dmitri-mendeleev",
+    "timeline": [
+      {
+        "year": "1834",
+        "event": "Sibirya, Tobolsk'ta büyük bir ailenin en küçük çocuğu olarak doğdu."
+      },
+      {
+        "year": "1855",
+        "event": "Sankt-Peterburg'daki Ana Pedagoji Enstitüsü'nden bilim derecesiyle mezun oldu."
+      },
+      {
+        "year": "1869",
+        "event": "Rus Kimya Derneği'nde elementlerin periyodikliğini sunarak ilk periyodik element tablosunu oluşturdu."
+      },
+      {
+        "year": "1871",
+        "event": "Periyodik tablodaki boşlukları doldurmak için, galyum ve germanyum gibi henüz keşfedilmemiş elementlerin varlığını ve özelliklerini doğru bir şekilde tahmin etti."
+      },
+      {
+        "year": "1893",
+        "event": "Rusya Ağırlıklar ve Ölçüler Bürosu Müdürü olarak atanarak Rusya'nın ölçüm sistemini standartlaştırdı."
+      }
+    ]
+  },
+  "ada-lovelace": {
+    "slug": "ada-lovelace",
+    "timeline": [
+      {
+        "year": "1815",
+        "event": "Londra'da şair George Gordon Byron'ın tek meşru çocuğu olan Augusta Ada Byron olarak doğdu."
+      },
+      {
+        "year": "1833",
+        "event": "Seçkin hezârfen Charles Babbage ile tanıştı ve onun hesap makinesine derin bir ilgi duymaya başladı."
+      },
+      {
+        "year": "1842",
+        "event": "Babbage'ın önerdiği Analitik Makine üzerine İtalyan bir mühendisin makalesini çevirmeye başladı."
+      },
+      {
+        "year": "1843",
+        "event": "İlk bilgisayar algoritması olarak kabul edilen içeriğin yer aldığı kapsamlı notlar ekleyerek çeviriyi yayımladı."
+      },
+      {
+        "year": "1852",
+        "event": "Dünyanın ilk bilgisayar programcısı mirasını bırakarak 36 yaşında rahim kanserinden öldü."
+      }
+    ]
+  },
+  "alan-turing": {
+    "slug": "alan-turing",
+    "timeline": [
+      {
+        "year": "1912",
+        "event": "23 Haziran'da doğdu"
+      },
+      {
+        "year": "1931",
+        "event": "Cambridge Üniversitesi'nde matematik öğrenimine başladı"
+      },
+      {
+        "year": "1933",
+        "event": "Fizikçi Eddington'ın bilimsel metodoloji dersini aldı ve Merkezi Limit Teoremi'ni kanıtladı"
+      },
+      {
+        "year": "1936",
+        "event": "Karar verilebilirlik problemine dair olumsuz kanıtı sunduktan sonra Princeton Üniversitesi'ne gitti"
+      },
+      {
+        "year": "1939",
+        "event": "Princeton Üniversitesi'ndeki eğitimini tamamlayıp Cambridge'e döndü"
+      },
+      {
+        "year": "1940",
+        "event": "İkinci Dünya Savaşı sırasında kriptografi bölümüne (GCCS) katıldı ve kriptografi araştırmalarına başladı"
+      },
+      {
+        "year": "1945",
+        "event": "Turing makinesini tasarladı; 1 Ekim'de Ulusal Fizik Laboratuvarı'nda (NPL) elektronik hesap makinesi yapımı için matematik bölümünün kurulmasını teşvik etti"
+      },
+      {
+        "year": "1946",
+        "event": "Britanya İmparatorluk Nişanı (OBE) ile onurlandırıldı"
+      },
+      {
+        "year": "1950",
+        "event": "'Mind' felsefe dergisinde 'Makineler düşünebilir mi?' konulu bir makale yayımladı"
+      },
+      {
+        "year": "1952",
+        "event": "Eşcinsellik suçlamasıyla İngiliz polisi tarafından tutuklandı ve suçlu bulundu"
+      },
+      {
+        "year": "1953",
+        "event": "Zeta fonksiyonu üzerine bir makale yayımladı"
+      },
+      {
+        "year": "1954",
+        "event": "7 Haziran'da potasyum siyanür zehirlenmesinden öldü"
+      },
+      {
+        "year": "2013",
+        "event": "24 Aralık'ta Kraliçe II. Elizabeth, Turing'in eşcinsellik suçunu affetti"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Turing makinesinin icadı",
+        "description": "Algoritma ve hesaplama kavramlarını Turing makinesi adlı soyut bir model aracılığıyla resmileştirerek bilgisayar biliminin gelişimine büyük katkıda bulundu."
+      },
+      {
+        "title": "Turing testinin önerilmesi",
+        "description": "'Makineler düşünebilir mi?' önermesiyle, bir makinenin yanıtlarının ne kadar insansı olduğunu değerlendiren bir deney önerdi ve başarılı oldu."
+      },
+      {
+        "title": "Enigma'nın şifresinin çözülmesi",
+        "description": "İkinci Dünya Savaşı sırasında Alman askeri şifrelerini kırmak için Bombe adlı bir şifre çözücü makineyi kullanarak şifreleri çözmeyi başardı."
+      },
+      {
+        "title": "Merkezi Limit Teoremi'nin ispatı",
+        "description": "1933'te Finlandiyalı matematikçi Jarl Waldemar Lindeberg'in 1922'de kanıtladığından habersiz olarak bunu ispatladı."
+      },
+      {
+        "title": "Karar verilebilirlik problemine dair olumsuz ispat",
+        "description": "1936'da karar verilebilirlik problemine dair olumsuz bir kanıt sundu."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Alan Turing hangi alanda öncü bir isimdir?",
+        "answer": "İngiliz bir bilgisayar bilimcisi, matematikçi, kriptolog ve mantıkçı olup bilgisayar biliminin öncülerindendir."
+      },
+      {
+        "question": "Turing Ödülü neyi onurlandırmak için verilmeye başlandı?",
+        "answer": "ACM tarafından bilgisayar bilimine önemli katkılar sağlayanlara her yıl verilen bir ödül olup, Turing'in başarılarını onurlandırmak amacıyla 1966'da oluşturulmuştur."
+      },
+      {
+        "question": "Alan Turing neden 'bilgisayar biliminin babası' olarak adlandırılır?",
+        "answer": "Teorik bilgisayar bilimi ve yapay zeka alanlarına yaptığı devasa katkılardan dolayı 'bilgisayar biliminin babası' olarak adlandırılır."
+      },
+      {
+        "question": "Alan Turing'in eşcinsellik suçu ne zaman affedildi?",
+        "answer": "Ölümünden 59 yıl sonra, 24 Aralık 2013'te Kraliçe II. Elizabeth, Turing'in eşcinsellik suçunu affetti."
+      }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "charles-babbage": {
+    "slug": "charles-babbage",
+    "timeline": [
+      {
+        "year": "1791",
+        "event": "Londra'da doğdu ve erken yaşlardan itibaren matematiğe karşı güçlü bir ilgi gösterdi."
+      },
+      {
+        "year": "1822",
+        "event": "Astronomi ve matematik tablolarının hesaplanmasını makineleştirmek için Fark Makinesi'nin (Difference Engine) yapımını önerdi."
+      },
+      {
+        "year": "1828",
+        "event": "Cambridge Üniversitesi'nde Lucasian Matematik Profesörü olarak atandı."
+      },
+      {
+        "year": "1837",
+        "event": "Tamamen programlanabilir mekanik bir bilgisayarı tasvir eden devrim niteliğinde bir tasarım olan Analitik Makine'yi (Analytical Engine) icat etti."
+      },
+      {
+        "year": "1871",
+        "event": "Öncü mekanik bilgisayarını yarım bırakarak Londra'da öldü, ancak modern bilgi işlemin kavramsal çerçevesini oluşturdu."
+      }
+    ]
+  },
+  "ibn-sina": {
+    "slug": "ibn-sina",
+    "timeline": [
+      {
+        "year": "980",
+        "event": "Sâmânîler döneminde vergi tahsildarı Abdullah İbn el-Hasan ve Sitara'nın çocuğu olarak Buhara yakınlarındaki Afşana'da doğdu."
+      },
+      {
+        "year": "985",
+        "event": "Beş yaşındayken ailesi Buhara'ya taşındı ve Buhara'daki özel bir okula girdi."
+      },
+      {
+        "year": "990",
+        "event": "On yaşında, birçok Arap edebi eserini ve Kur'an'ı ezberleyebiliyordu."
+      },
+      {
+        "year": "996",
+        "event": "On altı yaşında hastaları tedavi etmeye başladı."
+      },
+      {
+        "year": "998",
+        "event": "On sekiz yaşında kendi kendini eğitti ve Farabi'nin yorumları aracılığıyla Aristoteles felsefesini anlamaya başladı."
+      },
+      {
+        "year": "998",
+        "event": "On sekiz yaşındayken komşusu el-Arudi için ilk eseri olan 'Çeşitli Bilimlerin Derlemesi'ni yazdı."
+      },
+      {
+        "year": "999",
+        "event": "Sâmânîler, Gazneliler ve Karahanlıların saldırılarıyla yıkıldı."
+      },
+      {
+        "year": "999",
+        "event": "Babası Abdullah vefat etti."
+      },
+      {
+        "year": "999",
+        "event": "Yirmi bir yaşındayken fakih el-Barki için 20 ciltlik 'Adil Hüküm Kitabı' ansiklopedisini yazdı."
+      },
+      {
+        "year": "1002",
+        "event": "Yirmi iki yaşında Buhara'dan ayrılıp gezgin bir hayata atıldı."
+      },
+      {
+        "year": "1012",
+        "event": "Harezm bölgesindeki Ürgenç hükümdarı II. Memun tarafından memur olarak atandı ve 'El-Kanun fi't-Tıb'ı yazmaya başladı."
+      },
+      {
+        "year": "1014",
+        "event": "Tahran yakınlarındaki Rey'e taşındı ve 30'dan fazla kısa eser yazdı."
+      },
+      {
+        "year": "1020",
+        "event": "Önceden yazmaya başladığı 'El-Kanun fi't-Tıb'ı tamamladı."
+      },
+      {
+        "year": "1021",
+        "event": "Şemseddevle vefat etti ve İbn-i Sina görevinden ayrılarak inzivaya çekildi."
+      },
+      {
+        "year": "1021'den sonra",
+        "event": "Hemedan'ın yeni hükümdarı Semaüddevle tarafından hapse atıldı."
+      },
+      {
+        "year": "1030",
+        "event": "İsfahan, Gazneli hükümdar I. Mesud'un saldırısına uğradı ve İbn-i Sina'nın kütüphanesi dahil eşyaları yağmalandı."
+      },
+      {
+        "year": "18 Haziran 1037",
+        "event": "Hemedan'da vefat etti."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Felsefe ve Tıbbın Sentezi",
+        "description": "Yunan ve Arap felsefesi ve tıbbını sentezledi, Aristoteles felsefesi ile Yeni Platonculuğu birleştirerek Avrupa tıbbı ve felsefesi üzerinde büyük bir etki yarattı."
+      },
+      {
+        "title": "El-Kanun fi't-Tıb'ın Yazılması",
+        "description": "O dönemde bilinen tüm tıbbi bilgileri bir araya getiren 'El-Kanun fi't-Tıb'ı yazdı; bu eser 17. yüzyıla kadar Avrupa'da temel tıp kitabı olarak kullanıldı."
+      },
+      {
+        "title": "Şifa Kitabı'nın (Kitabu'ş-Şifa) Yazılması",
+        "description": "Ahlak ve siyaset hariç, tüm bilim alanlarını kapsayan bir ansiklopedi olan 'Şifa Kitabı'nı yazdı."
+      },
+      {
+        "title": "Doğa Bilimleri Araştırmaları",
+        "description": "Simyanın metalleri dönüştürme olasılığını reddetti ve matematik, fizik, astronomi ve mineraloji gibi çeşitli doğa bilimleri alanlarında araştırmalar yaptı."
+      },
+      {
+        "title": "Avrupa Akademik Çevrelerine Etkisi",
+        "description": "Thomas Aquinas'ı etkiledi ve 12. yüzyılın sonlarında Avrupa'daki Aristoteles rönesansına zemin hazırladı."
+      }
+    ],
+    "faq": [
+      {
+        "question": "İbn-i Sina nasıl bir figür olarak değerlendirilir?",
+        "answer": "Fars bir filozof, doktor ve bilim insanı olarak, Orta Çağ'ın en büyük tıp uzmanlarından biri ve İslam dünyasının yetiştirdiği en iyi entelektüellerden biri olarak kabul edilir."
+      },
+      {
+        "question": "İbn-i Sina'nın başlıca tıbbi eseri hangisidir?",
+        "answer": "O dönemde bilinen tüm tıbbi bilgileri içeren 'El-Kanun fi't-Tıb'ı yazdı ve bu kitap 17. yüzyıla kadar Avrupa tıbbının temel kitabı olarak kullanıldı."
+      },
+      {
+        "question": "İbn-i Sina felsefi olarak ne gibi katkılarda bulundu?",
+        "answer": "Yunan ve Arap felsefesini bir araya getirip Aristoteles felsefesi ile Yeni Platonculuğu birleştirerek Avrupa tıbbı ve felsefesini derinden etkiledi."
+      },
+      {
+        "question": "İbn-i Sina'nın simyaya karşı tutumu nasıldı?",
+        "answer": "Dönemin simyacılarının inandığı metal dönüşümü olasılığını reddederek, metaller arasındaki farkların çok derin olduğunu ve simya ile yapılan değerli metallerin yalnızca birer taklit olduğunu savundu."
+      }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "james-watt": {
+    "slug": "james-watt",
+    "timeline": [
+      {
+        "year": "1736",
+        "event": "İskoçya'nın Greenock şehrinde tüccar ve gemi yapımcısı bir ailede doğdu."
+      },
+      {
+        "year": "1765",
+        "event": "Newcomen buhar makinesinin verimliliğini büyük ölçüde artırmak için ayrı bir yoğuşturucu (kondenser) fikrini geliştirdi."
+      },
+      {
+        "year": "1769",
+        "event": "Yakıtı önemli ölçüde tasarruf sağlayan ayrı bir yoğuşturucuya sahip yenilikçi bir buhar makinesi tasarımıyla patent aldı."
+      },
+      {
+        "year": "1775",
+        "event": "Matthew Boulton ile başarılı bir ortaklık kurarak geliştirilmiş buhar makinesini üretti ve sattı."
+      },
+      {
+        "year": "1781",
+        "event": "Buhar makinesinin değirmenler ve fabrikalar için dairesel hareket üretmesini sağlayan güneş ve gezegen dişli sisteminin patentini aldı."
+      }
+    ]
+  },
+  "george-stephenson": {
+    "slug": "george-stephenson",
+    "timeline": [
+      {
+        "year": "1781",
+        "event": "İngiltere'nin Northumberland kentindeki Wylam'da doğdu ve küçük yaşta yerel bir kömür madeninde çalışmaya başladı."
+      },
+      {
+        "year": "1814",
+        "event": "Killingworth Kömür Madeni'nde kömür taşımak için ilk buharlı lokomotif olan Blücher'i üretti."
+      },
+      {
+        "year": "1825",
+        "event": "Stockton-Darlington Demiryolu'nu açarak dünyanın ilk halka açık yolcu buharlı treni Locomotion No. 1'i işletti."
+      },
+      {
+        "year": "1829",
+        "event": "Ünlü lokomotifi Rocket ile Rainhill Denemelerini kazanarak buhar gücüyle çalışan demiryollarının uygulanabilirliğini kanıtladı."
+      },
+      {
+        "year": "1830",
+        "event": "Dünyanın ilk şehirlerarası yolcu demiryolu olan Liverpool-Manchester Demiryolu'nun açılışını yönetti."
+      }
+    ]
+  },
+  "gregor-mendel": {
+    "slug": "gregor-mendel",
+    "timeline": [
+      {
+        "year": "1822",
+        "event": "Avusturya İmparatorluğu'nun Heinzendorf kasabasında bir çiftçinin oğlu olarak doğdu."
+      },
+      {
+        "year": "1843",
+        "event": "Daha sonra ünlü deneylerini gerçekleştireceği Brno'daki Augustinusçu Aziz Thomas Manastırı'na girdi."
+      },
+      {
+        "year": "1856",
+        "event": "Manastırın bahçesinde binlerce bezelye bitkisini melezleyerek sistematik ve yıllar süren deneylerine başladı."
+      },
+      {
+        "year": "1865",
+        "event": "Brno Doğa Tarihi Topluluğu'nda baskın ve çekinik özellikler de dahil olmak üzere kalıtım yasaları hakkındaki araştırmasının sonuçlarını sundu."
+      },
+      {
+        "year": "1866",
+        "event": "Bitki melezleri üzerine deneylerle ilgili makalesini yayımladı, ancak ölümünden onlarca yıl sonra yeniden keşfedilene dek büyük ölçüde göz ardı edildi."
+      }
+    ]
+  },
+  "li-shizhen": {
+    "slug": "li-shizhen",
+    "timeline": [
+      {
+        "year": "1518",
+        "event": "Ming Hanedanı, Zhengde döneminin 13. yılında, 3 Temmuz'da doğdu"
+      },
+      {
+        "year": "1553",
+        "event": "35 yaşında farmakoloji referans kitabını derleme çalışmalarına başladı"
+      },
+      {
+        "year": "1593",
+        "event": "Ming Hanedanı, Wanli döneminin 21. yılında öldü (76 yaşında)"
+      },
+      {
+        "year": "1596",
+        "event": "Bencao Gangmu yayımlandı (Li Shizhen'in ölümünden sonra)"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Bencao Gangmu'nun Yazılması",
+        "description": "Farmakolojiyi derleyen 'Bencao Gangmu'yu (Büyük Materia Medica Derlemesi) yazarak sonraki dönemlerde Doğu tıbbı ve doğa tarihini derinden etkiledi."
+      },
+      {
+        "title": "Akupunktur ve Teşhis Bilimine Katkı",
+        "description": "Akupunktur ve tıbbi teşhis alanlarına da katkıda bulundu."
+      },
+      {
+        "title": "Binhu Maixue'nin Yazılması",
+        "description": "Nabız bilimi üzerine 'Binhu Maixue' (Binhu'nun Nabız Bilimi Çalışması) adlı eseri yazdı."
+      },
+      {
+        "title": "Qijing Bamaikao'nun Yazılması",
+        "description": "Sekiz Olağanüstü Meridyen üzerine 'Qijing Bamaikao' adlı eseri yazdı."
+      },
+      {
+        "title": "Wuzang Tulun'un Yazılması",
+        "description": "Beş iç organ üzerine 'Wuzang Tulun' adlı eseri yazdı, ancak bu eser günümüzde kayıptır."
+      },
+      {
+        "title": "Mingmenkao'nun Yazılması",
+        "description": "Mingmen (Yaşam Kapısı) üzerine 'Mingmenkao' adlı eseri yazdı, ancak bu eser günümüzde kayıptır."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Li Shizhen ne zaman doğdu ve ne zaman öldü?",
+        "answer": "Li Shizhen, Ming Hanedanı Zhengde döneminin 13. yılında, 3 Temmuz 1518'de doğdu ve Ming Hanedanı Wanli döneminin 21. yılı olan 1593'te 76 yaşında öldü."
+      },
+      {
+        "question": "Li Shizhen'in başlıca eserleri nelerdir?",
+        "answer": "Li Shizhen'in başlıca eseri farmakolojiyi derlediği 'Bencao Gangmu'dur. Bunun dışında 'Binhu Maixue' ve 'Qijing Bamaikao' gibi eserler de yazmıştır."
+      },
+      {
+        "question": "Li Shizhen hangi görevlerde bulunmuştur?",
+        "answer": "Li Shizhen, Chu Prensi'nin sarayında doktordu, imparatorluk doktoru oldu ve daha sonra Ming Hanedanı döneminde Hubei, Huanggang Valisi olarak görev yaptı."
+      },
+      {
+        "question": "Li Shizhen'in aile geçmişi nasıldır?",
+        "answer": "Li Shizhen'in büyükbabası ve babası da doktordu. Babasının adı Li Yanwen, nezaket adı Zixu, takma adı ise Yuechi idi."
+      }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Ming Hanedanlığı'nda Hubei Huanggang Valisi ve imparatorluk doktoru olduğu kesin yıllar orijinal metinde belirtilmediğinden zaman çizelgesine dahil edilmemiştir."
+  },
+  "guglielmo-marconi": {
+    "slug": "guglielmo-marconi",
+    "timeline": [
+      {
+        "year": "1874",
+        "event": "İtalya, Bologna'da doğdu ve erken yaşlardan itibaren fizik ile elektriğe ilgi duydu."
+      },
+      {
+        "year": "1895",
+        "event": "İtalya'daki aile arazisinde 1.5 mil mesafeye kablosuz sinyal iletmeyi başardı."
+      },
+      {
+        "year": "1897",
+        "event": "Kablosuz icadını ticarileştirmek için Londra'da Telsiz Telgraf ve Sinyal Şirketi'ni kurdu."
+      },
+      {
+        "year": "1901",
+        "event": "İlk transatlantik telsiz yayınını başarıyla gerçekleştirerek İngiltere'den gönderilen sinyali Newfoundland'dan aldı."
+      },
+      {
+        "year": "1909",
+        "event": "Telsiz telgrafın gelişimine katkılarından dolayı Karl Ferdinand Braun ile birlikte Nobel Fizik Ödülü'nü paylaştı."
+      }
+    ]
+  },
+  "robert-koch": {
+    "slug": "robert-koch",
+    "timeline": [
+      {
+        "year": "11 Aralık 1843",
+        "event": "Hannover Krallığı, Clausthal'de doğdu"
+      },
+      {
+        "year": "1866",
+        "event": "Göttingen Üniversitesi'nden tıp diplomasıyla mezun oldu"
+      },
+      {
+        "year": "1876",
+        "event": "Breslau Üniversitesi'nde şarbon araştırmalarının sonuçlarını sundu"
+      },
+      {
+        "year": "1877",
+        "event": "Şarbon hastalığının spesifik nedeninin şarbon basili (Bacillus anthracis) olduğunu açıkça belirledi"
+      },
+      {
+        "year": "1881",
+        "event": "Berlin'deki İmparatorluk Sağlık Ofisi'ne taşındı"
+      },
+      {
+        "year": "24 Mart 1882",
+        "event": "Tüberküloz basilini ilk kez keşfetti"
+      },
+      {
+        "year": "1883",
+        "event": "Mısır ve Hindistan'a seyahat ederek kolera patojenini keşfetti"
+      },
+      {
+        "year": "1885",
+        "event": "Koleranın spesifik nedeninin kolera basili (Vibrio cholerae) olduğunu açıkça kanıtladı"
+      },
+      {
+        "year": "1890",
+        "event": "Tüberküloz basiline karşı bir antijen olan tüberkülin'i keşfetti"
+      },
+      {
+        "year": "1891",
+        "event": "Berlin Bulaşıcı Hastalıklar Enstitüsü'nün ilk müdürü oldu"
+      },
+      {
+        "year": "1905",
+        "event": "Bakteriyolojiyi kurması ve tüberküloz basilini keşfetmesi nedeniyle Nobel Fizyoloji veya Tıp Ödülü'nü aldı"
+      },
+      {
+        "year": "27 Mayıs 1910",
+        "event": "Baden-Baden'de öldü"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Şarbon ve Koleranın Nedenlerinin Belirlenmesi",
+        "description": "1877'de şarbonun ve 1885'te koleranın spesifik nedeninin patojenler olduğunu net bir şekilde kanıtlayarak 'bakteriyolojinin babası' olarak değerlendirildi."
+      },
+      {
+        "title": "Tüberküloz Basilinin Keşfi",
+        "description": "1882'de tüberküloz basilini ilk kez keşfetti ve hastalığın hava yoluyla bulaştığını ortaya çıkardı."
+      },
+      {
+        "title": "Bakteri Araştırma Metodolojisinin Kurulması",
+        "description": "Bakterilerin sabitlenmesi, boyanması ve mikroskobik fotoğraflanması yöntemlerini geliştirerek mikrobiyolojinin ilerlemesine katkıda bulundu."
+      },
+      {
+        "title": "Tüberkülinin Keşfi",
+        "description": "1890 yılında, tüberküloz basiline karşı bir antijen olan tüberkülin'i keşfetti."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Robert Koch nasıl bir figürdü?",
+        "answer": "Robert Koch, 1843'te doğup 1910'da ölen, 'bakteriyolojinin babası' olarak bilinen Alman bir doktor ve mikrobiyologdur."
+      },
+      {
+        "question": "Robert Koch'un başlıca başarıları nelerdir?",
+        "answer": "1877'de şarbon ve 1885'te koleraya neden olan bakterileri belirledi ve 1882'de tüberküloz basilini (Mycobacterium tuberculosis) ilk kez keşfetti."
+      },
+      {
+        "question": "Robert Koch Nobel Ödülü'nü ne zaman aldı?",
+        "answer": "1905'te bakteriyolojiyi kurması ve tüberküloz basilini keşfetmesinden dolayı Nobel Fizyoloji veya Tıp Ödülü'ne layık görüldü."
+      },
+      {
+        "question": "Robert Koch tüberkülin'i keşfetti mi?",
+        "answer": "Evet, 1890'da tüberküloz basiline karşı bir antijen olan tüberkülin'i keşfetti, ancak daha sonra etkisiz olduğu ortaya çıkınca ünü geçici olarak sarsıldı."
+      }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Fransa-Prusya Savaşı sırasında askeri doktor olarak hizmet ettiği ve kırsal doktor olarak çalıştığı kesin yıllar orijinal metinde belirtilmediğinden çıkarılmıştır. Ayrıca, Berlin Üniversitesi'ndeki mikrobiyolojik araştırmalarına başladığı tarih de kesin yıl verilmediği için atlanmıştır."
+  },
+  "thomas-aquinas": {
+    "slug": "thomas-aquinas",
+    "timeline": [
+      {
+        "year": "1225",
+        "event": "İtalya'nın Roccasecca kentinde, babası Kont Landulf Aquino'nun kalesinde soylu bir ailenin oğlu olarak doğdu."
+      },
+      {
+        "year": "1244",
+        "event": "Onu durdurmak için kendisini bir yıl boyunca hapseden ailesinin şiddetli muhalefetine rağmen Dominiken tarikatına katıldı."
+      },
+      {
+        "year": "1256",
+        "event": "Paris Üniversitesi'nde İlahiyat Yüksek Lisansına atandı ve Orta Çağ'ın baskın entelektüellerinden biri olarak kendini kanıtladı."
+      },
+      {
+        "year": "1265",
+        "event": "Aristoteles felsefesi ile Hıristiyan teolojisini sentezleyen anıtsal bir başyapıt olan 'Summa Theologica'yı yazmaya başladı."
+      },
+      {
+        "year": "1273",
+        "event": "Ayin sırasında derin bir mistik deneyim yaşadıktan sonra, yazdığı her şeyin saman gibi olduğunu ilan ederek yazmayı bıraktı."
+      }
+    ]
+  },
+  "rumi": {
+    "slug": "rumi",
+    "timeline": [
+      {
+        "year": "1207",
+        "event": "Bugün Afganistan veya Tacikistan sınırları içinde olan Belh'te Celâleddîn Muhammed Rûmî olarak doğdu."
+      },
+      {
+        "year": "1228",
+        "event": "Ailesiyle birlikte Anadolu'daki Konya'ya yerleşti ve burada babasının izinden giderek İslam alimi oldu."
+      },
+      {
+        "year": "1244",
+        "event": "Gezgin mutasavvıf Şems-i Tebrizi ile olan kader buluşmasıyla tutkulu bir şaire dönüştü."
+      },
+      {
+        "year": "1258",
+        "event": "Manevi öğretiler ve mistik hikâyeler barındıran Fars şiirinin manevi şaheseri, kapsamlı Mesnevi'yi yazmaya başladı."
+      },
+      {
+        "year": "1273",
+        "event": "Konya'da öldü ve evrensel sevgi hakkındaki kapsayıcı mesajına saygı duyan çeşitli dini topluluklar tarafından büyük bir üzüntüyle anıldı."
+      }
+    ]
+  },
+  "ibn-rushd": {
+    "slug": "ibn-rushd",
+    "timeline": [
+      {
+        "year": "1126",
+        "event": "Endülüs'teki Kurtuba'da, Endülüslü alimler ve kadılardan oluşan saygın bir ailede doğdu."
+      },
+      {
+        "year": "1169",
+        "event": "İşbiye'ye (Sevilla) kadı olarak atandı ve daha sonra saray hekimi olarak görev yaparken Kurtuba'nın baş kadısı oldu."
+      },
+      {
+        "year": "1179",
+        "event": "Önceki teolog Gazâlî'nin saldırılarına karşı felsefeyi güçlü bir şekilde savunan 'Tutarsızlığın Tutarsızlığı'nı (Tehâfütü't-Tehâfüt) yazdı."
+      },
+      {
+        "year": "1195",
+        "event": "Muhafazakâr din adamlarının akılcı felsefesine karşı çıkmasıyla siyasi gözden düştü ve Lucena'ya sürgüne gönderildi."
+      },
+      {
+        "year": "1198",
+        "event": "Marakeş'te vefat etti, ancak Orta Çağ Avrupa felsefesini derinden etkileyecek olan Aristoteles şerhlerini geride bıraktı."
+      }
+    ]
+  },
+  "william-james": {
+    "slug": "william-james",
+    "timeline": [
+      {
+        "year": "1842",
+        "event": "New York'ta zengin bir entelektüel ailede, romancı Henry James'in ağabeyi olarak doğdu."
+      },
+      {
+        "year": "1869",
+        "event": "Şiddetli depresyon ve fiziksel hastalıkları yenerek Harvard Üniversitesi'nden tıp diploması aldı."
+      },
+      {
+        "year": "1890",
+        "event": "Psikolojiyi modern bir bilim olarak yeniden tanımlayan devrim niteliğindeki 1.200 sayfalık 'Psikolojinin İlkeleri' başyapıtını yayımladı."
+      },
+      {
+        "year": "1902",
+        "event": "İnsan maneviyatının doğasını inceleyen Gifford Dersleri'ne dayanan 'Dini Deneyimin Çeşitleri'ni yayımladı."
+      },
+      {
+        "year": "1907",
+        "event": "Hakikati pratik sonuçlarına göre değerlendiren Amerikan felsefe geleneğini sağlamlaştıran 'Pragmatizm'i yayımladı."
+      }
+    ]
+  },
+  "friedrich-schiller": {
+    "slug": "friedrich-schiller",
+    "timeline": [
+      {
+        "year": "1759",
+        "event": "Kutsal Roma İmparatorluğu'nda Württemberg'e bağlı Marbach'ta doğdu."
+      },
+      {
+        "year": "1781",
+        "event": "İlk oyunu 'Haydutlar'ı isimsiz olarak yayımladı."
+      },
+      {
+        "year": "1789",
+        "event": "Jena Üniversitesi'nde tarih ve felsefe profesörü olarak atandı."
+      },
+      {
+        "year": "1794",
+        "event": "Johann Wolfgang von Goethe ile yakın ve oldukça üretken bir dostluk kurdu."
+      },
+      {
+        "year": "1805",
+        "event": "Weimar'da 45 yaşında öldü."
+      }
+    ]
+  },
+  "george-washington-carver": {
+    "slug": "george-washington-carver",
+    "timeline": [
+      {
+        "year": "1864",
+        "event": "Missouri eyaletinin Diamond kentinde bir köle olarak doğdu."
+      },
+      {
+        "year": "1894",
+        "event": "Bilim Lisansı (B.S.) derecesi alan ilk Afrikalı Amerikalı oldu."
+      },
+      {
+        "year": "1896",
+        "event": "Booker T. Washington'ın daveti üzerine Tuskegee Enstitüsü'nde tarım bölümünün başkanı oldu."
+      },
+      {
+        "year": "1916",
+        "event": "'Yer Fıstığı Nasıl Yetiştirilir ve İnsan Tüketimi İçin 105 Hazırlama Yöntemi' adlı araştırma bültenini yayımladı."
+      },
+      {
+        "year": "1943",
+        "event": "George Washington Carver Araştırma Vakfı'nı kurmak için ömür boyu birikimini bırakarak Alabama, Tuskegee'de öldü."
+      }
+    ]
+  },
+  "al-ghazali": {
+    "slug": "al-ghazali",
+    "timeline": [
+      {
+        "year": "1058",
+        "event": "Horasan'daki Tûs şehrinde doğdu."
+      },
+      {
+        "year": "1095",
+        "event": "Dini şüpheler ve diğer nedenlerden dolayı, şöhretine rağmen akademik unvanlarını bırakıp bir sufi dervişi olarak Mekke ve çeşitli bölgeleri dolaştı."
+      },
+      {
+        "year": "1111",
+        "event": "Memleketine çekildi ve vefat etti."
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Tehâfütü'l-Felâsife'nin (Filozofların Tutarsızlığı) Yazılması",
+        "description": "Bazı filozofların Yunan felsefesini İslam'a aşırı derecede aktararak Kur'an ile çelişen düşüncelere sahip olmalarını eleştiren bir kitap yazdı."
+      },
+      {
+        "title": "İhyâ-ü Ulûmi'd-Dîn ve El-Münkız mine'd-Dalâl'in Yazılması",
+        "description": "Gelecek nesilleri büyük ölçüde etkileyen 'İhyâ-ü Ulûmi'd-Dîn' (Dini İlimlerin İhyası) ve 'El-Münkız mine'd-Dalâl' (Dalaletten Kurtuluş) gibi başyapıtlar bıraktı."
+      },
+      {
+        "title": "Ortodoks Teoloji ile Sufizmin Sentezi",
+        "description": "Ortodoks (Sünni) teolojiyi Sufizm ile sentezleyerek İslami dini sisteme yeni bir soluk getirmekte en büyük başarıyı elde etti."
+      },
+      {
+        "title": "Ortodoks İslam'ın Savunulması",
+        "description": "İbn-i Sina'nın felsefesini eleştirerek Ortodoks (Sünni) İslam'ın korunmasına katkıda bulundu."
+      },
+      {
+        "title": "İslami İlimlerde Bir Dönüm Noktası Yaratmak",
+        "description": "İslami ilimleri skolastik teolojiden kurtarıp Kur'an ve hadisleri canlandırarak İslami dini düşüncede bir dönüm noktası yarattı."
+      },
+      {
+        "title": "Sufizmin Konumunun Kurulması",
+        "description": "İslam'da Sufizmin konumunu sağlamlaştırarak Müslüman kitlelerin Sufizmi benimsemesini sağladı."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Gazâlî nasıl bir figür olarak değerlendirilir?",
+        "answer": "Muhammed'den sonraki en büyük Müslüman olarak adlandırılan, felsefe ve Sufizm alanlarında önemli bir teolog ve figürdür."
+      },
+      {
+        "question": "Gazâlî'nin başlıca eserleri nelerdir?",
+        "answer": "Başlıca eserleri arasında 'Tehâfütü'l-Felâsife' (Filozofların Tutarsızlığı), 'İhyâ-ü Ulûmi'd-Dîn' (Dini İlimlerin İhyası) ve 'El-Münkız mine'd-Dalâl' (Dalaletten Kurtuluş) bulunmaktadır."
+      },
+      {
+        "question": "Gazâlî'nin en büyük başarısı nedir?",
+        "answer": "En büyük başarısı, Ortodoks (Sünni) teoloji ile Sufizmi sentezlemesi ve İbn-i Sina'nın felsefesini eleştirerek Ortodoks (Sünni) İslam'ı savunmasıdır."
+      },
+      {
+        "question": "Gazâlî, İslami dini düşünceye nasıl bir dönüm noktası getirdi?",
+        "answer": "İslami ilimleri skolastik teolojiden uzaklaştırdı, Kur'an ve sünnetin merkezi rolünü yeniden canlandırdı, Sufizmin statüsünü sağlamlaştırdı ve felsefeyi sıradan Müslümanlar için erişilebilir kıldı."
+      }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Bağdat Nizamiye Medresesi'ndeki profesörlüğe başlama yılı ve 'Tehâfütü'l-Felâsife'nin yazılış yılı orijinal metinde belirtilmemiştir."
+  },
+  "maimonides": {
+    "slug": "maimonides",
+    "timeline": [
+      {
+        "year": "1138",
+        "event": "Murabıtlar Devleti'nin Kurtuba kentinde Musa bin Meymun olarak doğdu."
+      },
+      {
+        "year": "1168",
+        "event": "Haham edebiyatının temel taşı olan 'Mişna Şerhi'ni tamamladı."
+      },
+      {
+        "year": "1180",
+        "event": "Yahudi hukukunun anıtsal kanunu olan 'Mişne Tora'yı tamamladı."
+      },
+      {
+        "year": "1190",
+        "event": "İnanç ve aklın uyumunu arayan temel felsefi eseri 'Şaşkınlara Kılavuz'u yayımladı."
+      },
+      {
+        "year": "1204",
+        "event": "Mısır'ın Fustat (Kahire) kentinde öldü ve daha sonra Taberiye'de defnedildi."
+      }
+    ]
+  },
+  "zoroaster": {
+    "slug": "zoroaster",
+    "timeline": [
+      {
+        "year": "MÖ 1500",
+        "event": "Doğu İran veya Orta Asya'da doğdu (tahmini yaşam süresi)."
+      },
+      {
+        "year": "MÖ 1470",
+        "event": "30 yaşındayken yüce tanrı Ahura Mazda'yı gördüğü ilk ilahi vahyi aldığı söylenir."
+      },
+      {
+        "year": "MÖ 1460",
+        "event": "Yerel rahiplerin güçlü muhalefetiyle karşılaştı, tek tanrılı vizyonunu vaaz ederek yıllarca dolaştı."
+      },
+      {
+        "year": "MÖ 1458",
+        "event": "Kral Viştaspa'yı dinine döndürerek siyasi destek sağladı ve dininin hayatta kalmasını güvence altına aldı."
+      },
+      {
+        "year": "MÖ 1423",
+        "event": "Söylentiye göre, sunakta dua ederken rakip bir rahip tarafından suikaste uğrayarak öldü."
+      }
+    ]
+  },
+  "miguel-de-cervantes": {
+    "slug": "miguel-de-cervantes",
+    "timeline": [
+      {
+        "year": "1547",
+        "event": "Madrid'in üniversite şehri Alcalá de Henares'te doğdu"
+      },
+      {
+        "year": "1570",
+        "event": "İtalyan bir kardinali takip ederek Roma'ya gitti, asker oldu, İnebahtı (Lepanto) Deniz Muharebesi'ne katıldı ve yaralanarak sol elini kullanamaz hale geldi"
+      },
+      {
+        "year": "1575",
+        "event": "Korsanlar tarafından esir alındı ve Cezayir'de 5 yıl köle olarak yaşadı"
+      },
+      {
+        "year": "1580",
+        "event": "Kutsal Üçlü (Trinitarian) tarikatının yardımıyla fidyesi ödendi, Madrid'e döndü ve yazmaya başladı"
+      },
+      {
+        "year": "1585",
+        "event": "'La Galatea' romanını yayımladı ancak pek ilgi görmedi"
+      },
+      {
+        "year": "1605",
+        "event": "'Don Kişot'un 1. bölümünü yayımladı ve büyük bir popülerlik kazandı"
+      },
+      {
+        "year": "1615",
+        "event": "'Don Kişot'un 2. bölümünü tamamladı"
+      },
+      {
+        "year": "1616",
+        "event": "69 yaşında vefat etti"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Don Kişot",
+        "description": "Birçok kişi tarafından Avrupa'nın ilk modern romanı olarak kabul edilen bir eserdir."
+      },
+      {
+        "title": "La Galatea",
+        "description": "'La Galatea' romanını yayımladı ancak fazla ilgi çekmedi."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Miguel de Cervantes'in takma adı nedir?",
+        "answer": "'Zekâ Prensi' (el Príncipe de los Ingenios) lakabına sahiptir."
+      },
+      {
+        "question": "Miguel de Cervantes nerede doğdu?",
+        "answer": "Madrid'in üniversite şehri Alcalá de Henares'te doğdu."
+      },
+      {
+        "question": "Miguel de Cervantes'in asıl mesleği neydi?",
+        "answer": "O bir romancı, şair ve oyun yazarıydı."
+      },
+      {
+        "question": "Miguel de Cervantes'in eserleri nasıl değerlendirilir?",
+        "answer": "Eserlerinin tüm edebiyat tarihinin en önemli başyapıtları arasında olduğu belirtilir, özellikle 'Don Kişot' Avrupa'nın ilk modern romanı olarak değerlendirilir."
+      }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Çocukluğuna dair bilgiler neredeyse hiç bilinmemektedir."
+  },
+  "leo-tolstoy": {
+    "slug": "leo-tolstoy",
+    "timeline": [
+      {
+        "year": "1828",
+        "event": "Yasnaya Polyana malikanesinde Rus soylu bir ailede doğdu."
+      },
+      {
+        "year": "1852",
+        "event": "İlk romanı 'Çocukluk'u yayımladı ve anında edebi bir başarı elde etti."
+      },
+      {
+        "year": "1869",
+        "event": "Destansı başyapıtı 'Savaş ve Barış'ı tamamladı."
+      },
+      {
+        "year": "1877",
+        "event": "Tarihin en büyük romanlarından biri olarak övülen 'Anna Karenina'yı yayımladı."
+      },
+      {
+        "year": "1910",
+        "event": "Çileci bir yaşam sürmek için evden ayrıldıktan sonra Astapovo tren istasyonunda zatürreden öldü."
+      }
+    ]
+  },
+  "murasaki-shikibu": {
+    "slug": "murasaki-shikibu",
+    "timeline": [
+      {
+        "year": "973",
+        "event": "Japonya'nın Heian-kyo (Kyoto) şehrinde doğdu"
+      },
+      {
+        "year": "996",
+        "event": "Babası Echizen Eyaleti'ne vali olarak atandı ve birlikte oraya gittiler"
+      },
+      {
+        "year": "998",
+        "event": "Kyoto'ya döndü ve Fujiwara no Nobutaka ile evlendi"
+      },
+      {
+        "year": "999",
+        "event": "Kızı Kenshi (Kataiko) doğdu"
+      },
+      {
+        "year": "1001",
+        "event": "Kocası Nobutaka koleradan öldü"
+      },
+      {
+        "year": "1000-1012",
+        "event": "'Genji Monogatari'yi (Genji'nin Hikâyesi) yazdı"
+      },
+      {
+        "year": "1005 civarı",
+        "event": "Fujiwara no Michinaga tarafından saraya davet edildi ve İmparatoriçe Shoshi'nin nedimesi oldu"
+      },
+      {
+        "year": "1007",
+        "event": "Saray günlüğünde Fujiwara no Kyoshi (Takako/Kaoruko) adlı nedimeden bahsedildi (Murasaki'nin gerçek adı olduğu tahmin ediliyor)"
+      },
+      {
+        "year": "1014 civarı",
+        "event": "Öldü"
+      },
+      {
+        "year": "1933",
+        "event": "'Genji Monogatari'nin 6 ciltlik İngilizce çevirisi tamamlandı"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Genji Monogatari'nin Yazılması",
+        "description": "İlk romanlardan biri olarak kabul edilen Japonca 'Genji Monogatari' (Genji'nin Hikâyesi) romanını yazdı."
+      },
+      {
+        "title": "Murasaki Shikibu'nun Günlüğü'nün Yazılması",
+        "description": "'Murasaki Shikibu'nun Günlüğü' adlı şiirsel günlüğü yazdı."
+      },
+      {
+        "title": "Çince Karakter Öğrenimi ve Eğitimi",
+        "description": "Heian döneminde kadınlara yasak olan Çince karakterleri (Kanbun) bilgin babasından öğrendi ve İmparatoriçe Shoshi'ye öğretti."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Murasaki Shikibu'nun gerçek adı nedir?",
+        "answer": "Murasaki Shikibu bir mahlas olup gerçek adı bilinmemektedir, ancak 1007 yılındaki saray günlüğünde adı geçen Fujiwara no Kyoshi olduğu tahmin edilmektedir."
+      },
+      {
+        "question": "Murasaki Shikibu Çince karakterleri (Kanbun) nasıl öğrenebildi?",
+        "answer": "Heian dönemi kadınları geleneksel olarak Kanbun eğitimi almazdı, ancak bilgin bir babanın gözetiminde büyüdü, Çinceye büyük yetenek gösterdi ve akıcı bir şekilde yazabilmeye başladı."
+      },
+      {
+        "question": "Genji Monogatari ne zaman yazıldı?",
+        "answer": "Genji Monogatari, 1000 ile 1012 yılları arasında yazılmıştır."
+      },
+      {
+        "question": "Murasaki Shikibu ne zaman ve neden nedime oldu?",
+        "answer": "Murasaki Shikibu, 30'lu yaşlarının başında veya ortasında bir yazar olarak ünü nedeniyle Fujiwara no Michinaga tarafından İmparatoriçe Shoshi'ye nedime olması için davet edildi."
+      },
+      {
+        "question": "Sei Shonagon ile Murasaki Shikibu arasındaki ilişki nasıldı?",
+        "answer": "Murasaki Shikibu, Sei Shonagon'u bir rakip olarak gördü, onun kibrini ve Çince bilgisini gösteriş yapmasını eleştirdi."
+      }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Murasaki Shikibu'nun kesin doğum yılının 970 civarı veya 978 civarı olduğu düşünülmektedir, ayrıca 1025 civarında öldüğü veya 1031'e kadar yaşadığına dair teoriler de vardır. Murasaki Shikibu'nun 'Genji Monogatari'yi yazmaya başladığı zaman belirsizdir ve kocası Fujiwara no Nobutaka'nın diğer eşlerinin ve çocuklarının sayısı bilinmemektedir. Murasaki'nin Michinaga'nın cariyesi olarak saraya getirildiğine dair hiçbir kanıt yoktur."
+  },
+  "edgar-degas": {
+    "slug": "edgar-degas",
+    "timeline": [
+      {
+        "year": "1834",
+        "event": "Fransa'nın Paris kentinde Hilaire-Germain-Edgar De Gas olarak doğdu."
+      },
+      {
+        "year": "1855",
+        "event": "École des Beaux-Arts'a girdi ve Louis Lamothe'un yanında çizim eğitimi aldı."
+      },
+      {
+        "year": "1874",
+        "event": "Paris'te düzenlenen ilk Empresyonist Sergiyi organize etti ve eserlerini sergiledi."
+      },
+      {
+        "year": "1881",
+        "event": "Yaşarken halka sergilenen tek heykeli olan 'On Dört Yaşındaki Küçük Dansçı'yı sergiledi."
+      },
+      {
+        "year": "1917",
+        "event": "Neredeyse kör bir halde, sergilenmemiş binlerce eser bırakarak Paris'te öldü."
+      }
+    ]
+  },
+  "oscar-wilde": {
+    "slug": "oscar-wilde",
+    "timeline": [
+      {
+        "year": "1854",
+        "event": "İrlanda'nın Dublin kentinde doğdu."
+      },
+      {
+        "year": "1890",
+        "event": "Tek romanı 'Dorian Gray'in Portresi'ni yayımladı."
+      },
+      {
+        "year": "1895",
+        "event": "Komedi başyapıtı 'Ciddi Olmanın Önemi'nin prömiyerini yaptı."
+      },
+      {
+        "year": "1895",
+        "event": "Ahlaksızlık suçundan mahkûm edildi ve iki yıl ağır çalışma cezasına çarptırıldı."
+      },
+      {
+        "year": "1900",
+        "event": "Sürgündeyken Paris'te 46 yaşında öldü."
+      }
+    ]
+  },
+  "rabindranath-tagore": {
+    "slug": "rabindranath-tagore",
+    "timeline": [
+      {
+        "year": "1861",
+        "event": "Britanya Hindistanı'nın Bengal eyaletindeki Kalküta'da doğdu."
+      },
+      {
+        "year": "1901",
+        "event": "Daha sonra Visva-Bharati Üniversitesi olacak olan Santiniketan'da deneysel bir okul kurdu."
+      },
+      {
+        "year": "1910",
+        "event": "Derin bir etkiye sahip 'Gitanjali' adlı şiir koleksiyonunu yayımladı."
+      },
+      {
+        "year": "1913",
+        "event": "Nobel Edebiyat Ödülü'nü kazanan ilk Avrupalı olmayan kişi oldu."
+      },
+      {
+        "year": "1941",
+        "event": "Kalküta'da 80 yaşında öldü."
+      }
+    ]
+  },
+  "sor-juana-ines-de-la-cruz": {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "timeline": [
+      {
+        "year": "1648",
+        "event": "Yeni İspanya'da, Mexico City yakınlarında doğdu."
+      },
+      {
+        "year": "1669",
+        "event": "Aziz Hieronymus Tarikatı'na katılarak hayatının geri kalanını orada geçirdi."
+      },
+      {
+        "year": "1689",
+        "event": "İspanya'da 'Castálida'nın Taşan Suları' (Inundación Castálida) adlı şiir kitabını yayımladı."
+      },
+      {
+        "year": "1691",
+        "event": "Kadınların eğitim ve entelektüel arayış haklarını savunan 'Rahibe Filotea'ya Cevap'ı (Respuesta a Sor Filotea de la Cruz) yazdı."
+      },
+      {
+        "year": "1695",
+        "event": "Mexico City'deki bir salgın sırasında rahibe arkadaşlarının bakımını üstlenirken hastalığa yakalanıp öldü."
+      }
+    ]
+  },
+  "li-qingzhao": {
+    "slug": "li-qingzhao",
+    "timeline": [
+      {
+        "year": "1081",
+        "event": "Li Gefei'nin kızı olarak doğdu"
+      },
+      {
+        "year": "1101",
+        "event": "Zhao Mingcheng ile evlendi"
+      },
+      {
+        "year": "1102",
+        "event": "Zhao Mingcheng, Yuanyou hizbiyet olayına karıştığı için Li Qingzhao'dan ilk kez ayrıldı"
+      },
+      {
+        "year": "1127",
+        "event": "Kuzey Song rejimi çöktü"
+      },
+      {
+        "year": "1129",
+        "event": "Kocası Zhao Mingcheng öldü"
+      },
+      {
+        "year": "1132",
+        "event": "Zhang Ruzhou ile yeniden evlendi"
+      },
+      {
+        "year": "1155 civarı",
+        "event": "Öldü"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Jinshi Lu'nun Derlenmesi",
+        "description": "Kocası Zhao Mingcheng ile birlikte bronz ve taş yazıtlar (Jinshi) üzerinde çalışarak 'Jinshi Lu'yu (Bronz ve Taş Yazıtlar Kataloğu) derledi."
+      },
+      {
+        "title": "Song Ci (Song Hanedanı Şiiri) Yazımı",
+        "description": "Li Yu ve Yan Jidao geleneğini takip eden net ve zarif eserlerle zeka dolu mükemmel ifadeler sergiledi."
+      },
+      {
+        "title": "Song Dönemi Şairlerinin Eleştirisi",
+        "description": "Song Hanedanı ci şairleri üzerine yerinde ve kısa eleştiriler yapmasıyla tanınır."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Li Qingzhao nasıl biriydi?",
+        "answer": "Li Qingzhao, Çin'in Güney Song döneminden bir kadın şairdi; Yi'an Jushi (Kolaylık ve Huzur Evi Sakini) lakabıyla da bilinirdi ve Kuzey Song'un sonlarında, 1081'de doğdu."
+      },
+      {
+        "question": "Li Qingzhao'nun başlıca başarıları nelerdir?",
+        "answer": "Kocası Zhao Mingcheng ile birlikte 'Jinshi Lu'yu derledi ve edebi tarihinde ün kazanmasını sağlayan, net ve zeka dolu ifadelerle öne çıkan ci şiirleri yazdı."
+      },
+      {
+        "question": "Li Qingzhao'nun hayatı nasıl değişti?",
+        "answer": "Kuzey Song Hanedanlığı'nın çöküşü hayatını ikiye böler; ilk yarısında mutlu ve romantik eserler yazarken, ikinci yarısında dönemin ve kişisel talihsizliğin hüznünü güçlü bir şekilde yansıtan eserler yazdı."
+      }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": "Li Qingzhao'nun doğum yılı orijinal metinde 1084 ve 1081 olarak iki farklı şekilde belirtilmiştir, bu nedenle 'biyografi' bölümünde bahsedilen 1081 kabul edilmiştir."
+  },
+  "matsuo-basho": {
+    "slug": "matsuo-basho",
+    "timeline": [
+      {
+        "year": "1644",
+        "event": "Doğdu"
+      },
+      {
+        "year": "1685",
+        "event": "Başyapıtları olan 'Inochi futatsu no naka ni ikitaru sakura kana' ve 'Kumo oriori hito wo yasumuru tsukimi kana' şiirlerini yazdı"
+      },
+      {
+        "year": "1686",
+        "event": "Başyapıtı olan 'Furuike ya kawazu tobikomu mizu no oto' şiirini yazdı"
+      },
+      {
+        "year": "1694",
+        "event": "Öldü (28 Kasım, ay takvimine göre 10. ayın 12. günü)"
+      }
+    ],
+    "keyAchievements": [
+      {
+        "title": "Haikai-no-renga Tarzının Tanınması",
+        "description": "Yaşamı boyunca ortaklaşa yazılan haikai-no-renga tarzındaki eserleriyle tanındı."
+      },
+      {
+        "title": "Haiku Ustası",
+        "description": "Günümüzde, o dönemde hokku olarak adlandırılan haiku'nun en büyük ustası olarak kabul edilmektedir."
+      },
+      {
+        "title": "Uluslararası Ün Sahibi Şair",
+        "description": "Şiirleri uluslararası düzeyde üne sahiptir ve Japonya'daki anıtlar ve tarihi yerlerde şiirlerinin çoğu yeniden üretilmiştir."
+      },
+      {
+        "title": "Tüm Japonya'da Ün",
+        "description": "Şiir sanatına küçük yaşta başladı ve kendini Edo'nun entelektüel çevresine entegre ederek tüm Japonya'da ünlü oldu."
+      },
+      {
+        "title": "Seyahatler Aracılığıyla İlham",
+        "description": "Eserleri için ilham almak amacıyla kuzey, doğu ve batı dahil olmak üzere tüm Japonya'yı dolaştı."
+      },
+      {
+        "title": "Doğa Deneyimine Dayalı Şiirler",
+        "description": "Şiirleri çevresindeki dünyaya dair doğrudan deneyimlerinden etkilendi ve manzaralara yönelik duygularını basit unsurlar aracılığıyla yoğunlaştırdı."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Matsuo Basho nasıl biriydi?",
+        "answer": "Matsuo Basho, 1644'te doğup 28 Kasım 1694'te (ay takvimine göre 10. ayın 12'sinde) vefat eden erken Edo dönemi şairiydi. Çocukluk adı Kinsaku'ydu ve ayrıca Matsuo Chuemon Munefusa olarak da adlandırıldı."
+      },
+      {
+        "question": "Matsuo Basho'nun başlıca başarıları nelerdir?",
+        "answer": "Yaşamı boyunca işbirlikçi haikai-no-renga formunda tanındı ve günümüzde haikunun ustası sayılmaktadır. Şiirleri uluslararası düzeyde tanınır ve Japonya genelindeki anıtlarda veya tarihi mekanlarda yaşatılmaktadır."
+      },
+      {
+        "question": "Matsuo Basho'nun başyapıtları nelerdir?",
+        "answer": "Başyapıtları arasında 1685 yılına ait 'Inochi futatsu no naka ni ikitaru sakura kana', 'Kumo oriori hito wo yasumuru tsukimi kana' ve 1686 yılına ait 'Furuike ya kawazu tobikomu mizu no oto' şiirleri yer almaktadır."
+      },
+      {
+        "question": "Matsuo Basho nasıl eserler üretirdi?",
+        "answer": "Öğretmenlik yaparak geçimini sağlarken, ilham almak için edebi çevrenin sosyal ve kentsel yaşamından koparak Japonya'nın dört bir yanını dolaştı. Şiirleri etrafındaki dünyaya dair doğrudan gözlemlerinden etkilendi ve manzara karşısındaki duygularını özlü bir şekilde yansıttı."
+      },
+      {
+        "question": "Matsuo Basho en çok hangi eserine önem verirdi?",
+        "answer": "En iyi eserlerinin renku'ya (bağlantılı dizelere) katılmak ve onu yönetmek olduğuna inanırdı; hokku yerine dizelerin birbiriyle bağlantısına daha fazla önem veriyordu."
+      }
+    ],
+    "sourceVerified": true,
+    "missingDataNote": ""
+  },
+  "william-wilberforce": {
+    "slug": "william-wilberforce",
+    "timeline": [
+      {
+        "year": "1759",
+        "event": "İngiltere'nin Yorkshire bölgesindeki Kingston upon Hull'da doğdu."
+      },
+      {
+        "year": "1780",
+        "event": "Kingston upon Hull'dan Parlamento Üyesi olarak seçildi."
+      },
+      {
+        "year": "1787",
+        "event": "Köle ticaretinin kaldırılması için hayat boyu sürecek mücadelesine başladı."
+      },
+      {
+        "year": "1807",
+        "event": "Köle Ticareti Yasası kabul edilerek Britanya İmparatorluğu'nda köle ticareti fiilen kaldırıldı."
+      },
+      {
+        "year": "1833",
+        "event": "Köleliği Kaldırma Yasası'nın Parlamentodan geçtiği haberini duyduktan sadece üç gün sonra öldü."
+      }
+    ]
+  }
+}
