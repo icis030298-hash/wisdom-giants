@@ -1,7 +1,7 @@
 import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
-import { FeaturedGiants } from "@/components/featured-giants"
+
 import { GiantsGrid } from "@/components/giants-grid"
 import { ProjectPhilosophy } from "@/components/project-philosophy"
 import { giants } from "@/lib/giants-data"
@@ -243,8 +243,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         </Link>
       </div>
       
-      {/* Featured Giants - Bento Grid */}
-      <FeaturedGiants giants={giants} />
       
       {/* All Giants Grid */}
       <div id="giants">
