@@ -35,7 +35,7 @@ export const isLocaleIndexed = (locale: string) => {
   return LOCALE_STATUS[locale as Locale]?.index ?? false;
 };
 
-export const INDEXED_BLOG_LOCALES = ['ko', 'en', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ru'];
+export const INDEXED_BLOG_LOCALES = ['ko', 'en', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ru', 'ar', 'zh', 'nl', 'hi', 'id', 'pl', 'sw', 'th', 'tr', 'uk', 'vi', 'el', 'fa', 'he', 'ha'];
 
 export const isBlogLocaleIndexed = (locale: string) => {
   return INDEXED_BLOG_LOCALES.includes(locale) && isLocaleIndexed(locale);
