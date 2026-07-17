@@ -9,128 +9,27 @@ import { ArrowRight, BookOpen, Clock, Tag } from "lucide-react"
 import { getReadTime } from "@/utils/blog"
 import { AdSlot } from "@/components/ad-slot"
 
-const translations: Record<string, Record<string, string>> = {
-  ko: {
-    all: "전체",
-    leadership: "리더십",
-    philosophy: "철학",
-    creativity: "창의성",
-    wisdom: "지혜",
-    readTime: "분 분량",
-    read: "읽기",
-    headerTitle: "거인들의 지혜 블로그",
-    headerSubtitle: "역사 속 위인들의 철학과 지혜를 현대적 관점에서 풀어쓰다",
-    noPosts: "해당 카테고리에 포스트가 없습니다.",
-    badge: "지혜 아카이브"
-  },
-  en: {
-    all: "All",
-    leadership: "Leadership",
-    philosophy: "Philosophy",
-    creativity: "Creativity",
-    wisdom: "Wisdom",
-    readTime: "min read",
-    read: "Read",
-    headerTitle: "Wisdom Blog",
-    headerSubtitle: "Explore the philosophy and wisdom of historical giants in a modern context",
-    noPosts: "No posts found in this category.",
-    badge: "WISDOM ARCHIVE"
-  },
-  de: {
-    all: "Alle",
-    leadership: "Führung",
-    philosophy: "Philosophie",
-    creativity: "Kreativität",
-    wisdom: "Weisheit",
-    readTime: "Min. Lesung",
-    read: "Lesen",
-    headerTitle: "Weisheits-Blog",
-    headerSubtitle: "Erkunden Sie die Philosophie und Weisheit historischer Giganten im modernen Kontext",
-    noPosts: "Keine Beiträge in dieser Kategorie gefunden.",
-    badge: "WEISHEITS-ARCHIV"
-  },
-  ja: {
-    all: "すべて",
-    leadership: "リーダーシップ",
-    philosophy: "哲学",
-    creativity: "創造性",
-    wisdom: "知恵",
-    readTime: "分 読了",
-    read: "読む",
-    headerTitle: "偉人たちの知恵ブログ",
-    headerSubtitle: "歴史上の偉人たちの哲学と知恵を現代的な視点から紐解く",
-    noPosts: "このカテゴリの投稿はありません。",
-    badge: "知恵アーカイブ"
-  },
-  es: {
-    all: "Todos",
-    leadership: "Liderazgo",
-    philosophy: "Filosofía",
-    creativity: "Creatividad",
-    wisdom: "Sabiduría",
-    readTime: "min de lectura",
-    read: "Leer",
-    headerTitle: "Blog de Sabiduría",
-    headerSubtitle: "Explore la filosofía y la sabiduría de los gigantes históricos en el contexto moderno",
-    noPosts: "No se encontraron publicaciones en esta categoría.",
-    badge: "ARCHIVO DE SABIDURÍA"
-  },
-  fr: {
-    all: "Tout",
-    leadership: "Leadership",
-    philosophy: "Philosophie",
-    creativity: "Créativité",
-    wisdom: "Sagesse",
-    readTime: "min de lecture",
-    read: "Lire",
-    headerTitle: "Blog de la Sagesse",
-    headerSubtitle: "Explorez la philosophie et la sagesse des géants historiques dans un contexte moderne",
-    noPosts: "Aucun article trouvé dans cette catégorie.",
-    badge: "ARCHIVE DE LA SAGESSE"
-  },
-  it: {
-    all: "Tutti",
-    leadership: "Leadership",
-    philosophy: "Filosofia",
-    creativity: "Creatività",
-    wisdom: "Saggezza",
-    readTime: "min di lettura",
-    read: "Leggi",
-    headerTitle: "Blog della Saggezza",
-    headerSubtitle: "Esplora la filosofia e la saggezza dei giganti storici nel contesto moderno",
-    noPosts: "Nessun articolo trovato in questa categoria.",
-    badge: "ARCHIVIO DELLA SAGGEZZA"
-  },
-  pt: {
-    all: "Tudo",
-    leadership: "Liderança",
-    philosophy: "Filosofia",
-    creativity: "Criatividade",
-    wisdom: "Sabedoria",
-    readTime: "min de leitura",
-    read: "Ler",
-    headerTitle: "Blog da Sabedoria",
-    headerSubtitle: "Explore a filosofia e a sabedoria dos gigantes históricos no contexto moderno",
-    noPosts: "Nenhuma publicação encontrada nesta categoria.",
-    badge: "ARQUIVO DE SABEDORIA"
-  }
-}
+
 
 const colorMap: Record<string, string> = {
   leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
   philosophy: "from-emerald-500/20 to-teal-500/20 text-emerald-300 border-emerald-500/30",
   creativity: "from-purple-500/20 to-indigo-500/20 text-purple-300 border-purple-500/30",
-  wisdom: "from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-500/30"
+  wisdom: "from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-500/30",
+  science: "from-cyan-500/20 to-blue-500/20 text-cyan-300 border-cyan-500/30",
+  arts: "from-rose-500/20 to-pink-500/20 text-rose-300 border-rose-500/30",
+  society: "from-teal-500/20 to-emerald-500/20 text-teal-300 border-teal-500/30",
+  business: "from-yellow-500/20 to-amber-500/20 text-yellow-300 border-yellow-500/30"
 }
 
 
 export function BlogListClient() {
   const locale = useLocale()
-  const t = translations[locale] || translations["en"]
+  const t = useTranslations("BlogUI")
   const tg = useTranslations("Giants")
   const [selectedCategory, setSelectedCategory] = useState<string>("all")
 
-  const categories = ["all", "leadership", "philosophy", "creativity", "wisdom"]
+  const categories = ["all", "leadership", "philosophy", "creativity", "wisdom", "science", "arts", "society", "business"]
 
   const filteredPosts = blogPosts.filter((post) => {
     if (selectedCategory === "all") return true
@@ -194,22 +93,12 @@ export function BlogListClient() {
       {/* CEO Column Placeholder */}
       <div className="mb-12 glass p-8 rounded-2xl border border-amber-500/30 bg-amber-500/5 shadow-lg">
         <h2 className="text-2xl font-serif font-bold text-amber-400 mb-4">
-          {locale === 'ko' ? '운영자의 편지' : 'Letter from the Creator'}
+          {t('creatorLetterTitle')}
         </h2>
         <div className="prose prose-invert max-w-none text-slate-300 font-light leading-relaxed space-y-4">
-          {locale === 'ko' ? (
-            <>
-              <p>세상은 유례없이 빠르게 발전하고 있지만, 우리는 그 어느 때보다 깊은 고립감과 불안을 느끼며 살아갑니다. 밤잠을 설치며 인생의 방향을 고민하던 어느 날, 저는 우연히 펼친 오래된 역사책 속에서 놀라운 위안을 얻었습니다.</p>
-              <p>수백, 수천 년 전의 위인들 역시 지금의 우리와 똑같은 두려움에 떨었고, 실패에 좌절했으며, 뼈를 깎는 고독 속에서 자신의 길을 개척해 나갔다는 사실이었습니다.</p>
-              <p>시대를 초월한 거인들의 철학과 경험은, 오늘날 우리가 직면한 멘탈 위기를 극복할 가장 강력한 해독제가 될 수 있습니다. 당신이 길을 잃었을 때, 아인슈타인의 유쾌한 조언이, 링컨의 묵묵한 위로가 당신을 다시 일으켜 세울 것입니다. 수많은 거인들이 이미 그 길을 걸었고, 이제 이 곳에서 당신의 손을 잡아줄 것입니다. 당신의 찬란한 내일을 응원합니다.</p>
-            </>
-          ) : (
-            <>
-              <p>The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.</p>
-              <p>I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.</p>
-              <p>The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow.</p>
-            </>
-          )}
+          <p>{t('creatorLetterP1')}</p>
+          <p>{t('creatorLetterP2')}</p>
+          <p>{t('creatorLetterP3')}</p>
         </div>
       </div>
 
