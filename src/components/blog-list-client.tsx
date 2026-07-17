@@ -62,10 +62,10 @@ export function BlogListClient() {
         
         <div className="relative z-10 space-y-4 max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight leading-tight">
-            {t.headerTitle}
+            {t('headerTitle')}
           </h1>
           <p className="text-slate-400 text-lg md:text-xl font-light">
-            {t.headerSubtitle}
+            {t('headerSubtitle')}
           </p>
         </div>
       </div>
@@ -84,7 +84,7 @@ export function BlogListClient() {
                   : "glass border border-white/5 text-slate-400 hover:text-white hover:bg-white/5"
               }`}
             >
-              {t[cat]}
+              {t(cat)}
             </button>
           )
         })}
@@ -133,11 +133,11 @@ export function BlogListClient() {
                   <div className="flex items-center justify-between gap-4 mb-6">
                     <span className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold border ${catColor}`}>
                       <Tag className="w-3 h-3" />
-                      {t[post.category]}
+                      {t(post.category)}
                     </span>
                     <div className="flex items-center gap-1.5 text-xs text-slate-500">
                       <Clock className="w-3.5 h-3.5" />
-                      {readTime} {t.readTime}
+                      {readTime} {t('readTime')}
                     </div>
                   </div>
 
@@ -177,7 +177,7 @@ export function BlogListClient() {
                     href={`/blog/${post.slug}`}
                     className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 transition-colors border border-amber-500/20 hover:border-amber-400/40"
                   >
-                    {t.read}
+                    {t('read')}
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                   </Link>
                 </div>
@@ -187,7 +187,7 @@ export function BlogListClient() {
         </div>
       ) : (
         <div className="text-center py-20 bg-slate-950 rounded-2xl border border-white/5">
-          <p className="text-slate-500 text-lg">{t.noPosts}</p>
+          <p className="text-slate-500 text-lg">{t('noPosts')}</p>
         </div>
       )}
 
