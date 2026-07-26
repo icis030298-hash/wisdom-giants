@@ -1,0 +1,65 @@
+import "../globals.css";
+import Link from 'next/link';
+import { Sparkles, ArrowLeft, HelpCircle } from 'lucide-react';
+import { Nanum_Myeongjo, Noto_Sans_KR } from "next/font/google";
+import { useTranslations } from "next-intl";
+
+const nanumMyeongjo = Nanum_Myeongjo({
+  weight: ['400', '700', '800'],
+  subsets: ['latin'],
+  variable: '--font-nanum-myeongjo',
+  display: 'swap',
+});
+
+const notoSans = Noto_Sans_KR({
+  weight: ['400', '700', '900'],
+  subsets: ['latin'],
+  variable: '--font-noto-sans',
+  display: 'swap',
+});
+
+export default function NotFound() {
+  const t = useTranslations('NotFound');
+
+  return (
+    <div className={`bg-[#020617] text-[#f8fafc] font-sans antialiased min-h-screen overflow-x-hidden flex items-center justify-center ${nanumMyeongjo.variable} ${notoSans.variable}`}>
+      <div className="relative w-full max-w-lg px-6 py-12 text-center flex flex-col items-center justify-center z-10">
+        {/* Subtle Golden Glow Effects */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-full bg-amber-500/10 blur-[100px] pointer-events-none -z-10" />
+        
+        {/* Icon Header */}
+        <div className="mb-8 w-20 h-20 rounded-3xl bg-amber-500/10 flex items-center justify-center border border-amber-500/20 shadow-[0_0_30px_rgba(245,158,11,0.1)] relative">
+          <HelpCircle className="w-10 h-10 text-amber-400" />
+          <span className="absolute -top-1 -right-1 flex h-3 w-3">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
+          </span>
+        </div>
+
+        {/* Large Glowing Title */}
+        <h1 className="text-8xl font-serif font-black text-transparent bg-clip-text bg-gradient-to-b from-amber-300 via-amber-500 to-amber-600 mb-4 drop-shadow-[0_0_20px_rgba(245,158,11,0.25)] select-none">
+          404
+        </h1>
+
+        <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-4">
+          {t('title')}
+        </h2>
+
+        <p className="text-sm md:text-base text-muted-foreground/80 mb-10 max-w-md leading-relaxed font-normal">
+          {t('desc')}
+          <br />
+          {t('sub')}
+        </p>
+
+        <Link
+          href="/"
+          className="flex items-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] transition-all transform hover:-translate-y-1 active:scale-95 group"
+        >
+          <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+          <span>{t('back')}</span>
+          <Sparkles className="w-4 h-4 opacity-70" />
+        </Link>
+      </div>
+    </div>
+  );
+}

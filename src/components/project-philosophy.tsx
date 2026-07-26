@@ -36,7 +36,7 @@ export function ProjectPhilosophy() {
                 현대 사회는 정보의 과잉과 극단적인 주의력 파편화 시대를 겪고 있습니다. 우리는 매일 수많은 뉴스와 알고리즘에 노출되지만, 복잡한 삶의 본질적인 질문들에 대해 깊이 있게 고찰할 기회는 점점 줄어들고 있습니다. &ldquo;돈으로 행복을 살 수 있을까?&rdquo;, &ldquo;개인의 자유는 어디까지 보장되어야 하는가?&rdquo;와 같은 철학적 아젠다는 인류 역사상 수많은 천재들이 일생을 바쳐 탐구했던 핵심 논제들입니다.
               </p>
               <p className="text-xs md:text-sm text-slate-400 leading-relaxed text-justify">
-                Giants Wisdom은 이러한 깊은 질문들에 대해, 소크라테스, 니체, 아리스토텔레스, 아우렐리우스 등 101명의 역사적 거인들의 목소리를 빌려 직접 소통하고 탐색할 수 있는 가상 포럼을 제공합니다. 이는 단순한 단답형 질문 검색이 아닌, 역사적 인물들이 지녔던 철학적 사상과 가치관, 고유한 어법과 문체를 바탕으로 가상 공간에서 실시간 끝장 토론과 1:1 대화를 전개함으로써 사용자가 능동적으로 지혜를 터득하도록 돕는 인문학 복원 프로젝트입니다.
+                Giants Wisdom은 이러한 깊은 질문들에 대해, 소크라테스, 니체, 아리스토텔레스, 아우렐리우스 등 493명의 역사적 거인들의 목소리를 빌려 직접 소통하고 탐색할 수 있는 가상 포럼을 제공합니다. 이는 단순한 단답형 질문 검색이 아닌, 역사적 인물들이 지녔던 철학적 사상과 가치관, 고유한 어법과 문체를 바탕으로 가상 공간에서 실시간 끝장 토론과 1:1 대화를 전개함으로써 사용자가 능동적으로 지혜를 터득하도록 돕는 인문학 복원 프로젝트입니다.
               </p>
             </div>
 
@@ -110,7 +110,7 @@ export function ProjectPhilosophy() {
                 Modern society experiences a massive overload of information accompanied by severe fragmentation of attention. We are constantly exposed to rapid-fire algorithmic snippets, leaving virtually no room to contemplate fundamental questions of human life. Inquiries such as &ldquo;Does wealth equate to happiness?&rdquo; or &ldquo;How should individual liberty be balanced with societal order?&rdquo; are core intellectual questions that historical geniuses spent lifetimes investigating.
               </p>
               <p className="text-xs md:text-sm text-slate-400 leading-relaxed text-justify">
-                Giants Wisdom resolves this gap by engineering virtual debate chambers and conversational rooms featuring 101 historical luminaries, including Socrates, Friedrich Nietzsche, Aristotle, and Marcus Aurelius. This is not a simple, single-turn query search. Instead, users can experience real-time debates and direct dialogue powered by the verified philosophies, writing styles, and personal tones of historical pioneers, encouraging active participation and intellectual critical thinking.
+                Giants Wisdom resolves this gap by engineering virtual debate chambers and conversational rooms featuring 493 historical luminaries, including Socrates, Friedrich Nietzsche, Aristotle, and Marcus Aurelius. This is not a simple, single-turn query search. Instead, users can experience real-time debates and direct dialogue powered by the verified philosophies, writing styles, and personal tones of historical pioneers, encouraging active participation and intellectual critical thinking.
               </p>
             </div>
 

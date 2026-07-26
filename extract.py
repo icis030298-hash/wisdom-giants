@@ -1,26 +1,18 @@
-import json
+﻿import json
+import os
+import glob
 
-data_path = r"c:\Users\user\OneDrive\바탕 화면\wisdom-giants-20260512T091146Z-3-001\wisdom-giants\src\data\final-narratives.json"
-slugs = ["charles-darwin","michelangelo","claude-monet","fyodor-dostoevsky","victor-hugo","anton-chekhov","frederic-chopin","katsushika-hokusai","agatha-christie","mark-twain","goethe","mary-shelley"]
+slugs = ["rockefeller-monopoly-guide", "carnegie-gospel-wealth", "disney-imagination-market", "sun-tzu-alexander-conquest", "caesar-caocao-pragmatism", "elizabeth-wu-zetian-iron-queens", "oppenheimer-genius-regret", "lincoln-leadership-depression", "feynman-technique-learning", "poe-obsession-psychology"]
+tasks_dir = "C:/Users/user/.gemini/antigravity/brain/45f5002d-398c-41ef-8740-cf257710e53c/scratch/pipeline/id/tasks/"
 
-with open(data_path, "r", encoding="utf-8") as f:
-    data = json.load(f)
-
-extracted = {}
+res = {}
 for slug in slugs:
-    if slug in data:
-        g = data[slug]
-        extracted[slug] = {
-            "epic_en": g.get("epic_en", ""),
-            "trials_en": g.get("trials_en", ""),
-            "overcoming_en": g.get("overcoming_en", ""),
-            "wisdom": []
-        }
-        for w in g.get("wisdom", []):
-            extracted[slug]["wisdom"].append({
-                "quote_en": w.get("quote_en", ""),
-                "meaning_en": w.get("meaning_en", "")
-            })
+    for f in glob.glob(tasks_dir + slug + "*.json"):
+        with open(f, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            res[os.path.basename(f)] = data['text']
 
-with open("extracted.json", "w", encoding="utf-8") as f:
-    json.dump(extracted, f, indent=2, ensure_ascii=False)
+with open('C:/Users/user/.gemini/antigravity/brain/45f5002d-398c-41ef-8740-cf257710e53c/scratch/pipeline/id/all_texts.json', 'w', encoding='utf-8') as f:
+    json.dump(res, f, ensure_ascii=False, indent=2)
+
+print(f'Total extracted: {len(res)}')
