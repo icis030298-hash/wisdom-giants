@@ -941,8 +941,12 @@ export function DebateRoomClient() {
                     {sampleTopics.map((item: string, i: number) => (
                       <button
                         key={i}
-                        onClick={() => setTopic(item)}
-                        className="px-3 py-1.5 rounded-xl text-xs glass border border-white/5 text-slate-400 hover:text-amber-300 hover:border-amber-500/30 transition-all whitespace-nowrap cursor-pointer"
+                        type="button"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setTopic(item);
+                        }}
+                        className="px-3 py-1.5 rounded-xl text-xs glass border border-white/5 text-slate-400 hover:text-amber-300 hover:border-amber-500/30 transition-all whitespace-nowrap cursor-pointer z-10 relative"
                       >
                         {item}
                       </button>
@@ -1088,13 +1092,13 @@ export function DebateRoomClient() {
 
             {/* Right Column: Sticky Summary & Action Panel */}
             <div className="space-y-6">
-              <div className="glass-card p-6 rounded-3xl border border-white/10 bg-slate-900/50 sticky top-24 space-y-6 shadow-xl shadow-slate-950/50">
-                <h3 className="text-sm font-bold uppercase tracking-wider text-slate-400 pb-3 border-b border-white/5">
+              <div className="glass-card p-6 rounded-3xl border border-white/10 bg-slate-900/50 sticky top-24 max-h-[calc(100vh-120px)] overflow-y-auto custom-scrollbar flex flex-col space-y-6 shadow-xl shadow-slate-950/50">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-slate-400 pb-3 border-b border-white/5 shrink-0">
                   {locale === "ko" ? "토론방 개요" : "Debate Setup Overview"}
                 </h3>
 
                 {/* Panel Details */}
-                <div className="space-y-4">
+                <div className="space-y-4 flex-1">
                   <div>
                     <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block mb-1">
                       {t("enterTopic")}

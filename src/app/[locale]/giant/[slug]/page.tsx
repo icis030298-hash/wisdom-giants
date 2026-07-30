@@ -49,14 +49,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // Full multilingual title & description
   const titleMap: Record<string, string> = {
-    ko: `${giantData.name} | AI 대화 - Giants Wisdom`,
-    de: `${giantData.name} | KI Chat - Giants Wisdom`,
-    ja: `${giantData.name} | AIチャット - Giants Wisdom`,
-    es: `${giantData.name} | Chat IA - Giants Wisdom`,
-    fr: `${giantData.name} | Chat IA - Giants Wisdom`,
-    it: `${giantData.name} | Chat IA - Giants Wisdom`,
-    pt: `${giantData.name} | Chat IA - Giants Wisdom`,
-    en: `${giantData.name} | AI Chat - Giants Wisdom`,
+    ko: giantData.name,
+    de: giantData.name,
+    ja: giantData.name,
+    es: giantData.name,
+    fr: giantData.name,
+    it: giantData.name,
+    pt: giantData.name,
+    en: giantData.name,
   };
   const descMap: Record<string, string> = {
     ko: `${slicedDesc} ${giantData.name}와 AI로 직접 대화하고 지혜를 얻어보세요.`,

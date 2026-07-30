@@ -6,14 +6,14 @@ import { getTranslations } from "next-intl/server"
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const titles: Record<string, string> = {
-    ko: '고민 상담 | Giants Wisdom',
-    en: 'Get Advice | Giants Wisdom',
-    de: 'Beratung | Giants Wisdom',
-    ja: '相談する | Giants Wisdom',
-    es: 'Consultar | Giants Wisdom',
-    fr: 'Consulter | Giants Wisdom',
-    it: 'Consulta | Giants Wisdom',
-    pt: 'Consultar | Giants Wisdom'
+    ko: '고민 상담',
+    en: 'Get Advice',
+    de: 'Beratung',
+    ja: '相談する',
+    es: 'Consultar',
+    fr: 'Consulter',
+    it: 'Consulta',
+    pt: 'Consultar'
   }
   const descriptionMap: Record<string, string> = {
     ko: '역사상 가장 위대한 사람들도 당신과 같은 고통을 겪었습니다.',

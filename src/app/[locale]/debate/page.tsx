@@ -18,14 +18,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // Multilingual metadata mapping
   const titleMap: Record<string, string> = {
-    ko: `${t("title")} | Giants Wisdom`,
-    en: `${t("title")} | Giants Wisdom`,
-    de: `${t("title")} | Giants Wisdom`,
-    ja: `${t("title")} | Giants Wisdom`,
-    es: `${t("title")} | Giants Wisdom`,
-    fr: `${t("title")} | Giants Wisdom`,
-    it: `${t("title")} | Giants Wisdom`,
-    pt: `${t("title")} | Giants Wisdom`,
+    ko: t("title"),
+    en: t("title"),
+    de: t("title"),
+    ja: t("title"),
+    es: t("title"),
+    fr: t("title"),
+    it: t("title"),
+    pt: t("title"),
   };
 
   const descMap: Record<string, string> = {

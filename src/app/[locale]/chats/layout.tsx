@@ -6,35 +6,35 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const metaMap: Record<string, { title: string; description: string }> = {
     ko: {
-      title: '내 대화 목록 | Giants Wisdom',
+      title: '내 대화 목록',
       description: '역사 속 위인들과 나눈 대화를 확인하세요.'
     },
     en: {
-      title: 'My Conversations | Giants Wisdom',
+      title: 'My Conversations',
       description: 'View your conversations with historical giants.'
     },
     de: {
-      title: 'Meine Gespräche | Giants Wisdom',
+      title: 'Meine Gespräche',
       description: 'Sehen Sie Ihre Gespräche mit historischen Persönlichkeiten.'
     },
     ja: {
-      title: '私の会話 | Giants Wisdom',
+      title: '私の会話',
       description: '歴史上の偉人との会話を確認しましょう。'
     },
     es: {
-      title: 'Mis Conversaciones | Giants Wisdom',
+      title: 'Mis Conversaciones',
       description: 'Ve tus conversaciones con figuras históricas.'
     },
     fr: {
-      title: 'Mes Conversations | Giants Wisdom',
+      title: 'Mes Conversations',
       description: 'Consultez vos conversations avec les grandes figures historiques.'
     },
     it: {
-      title: 'Le Mie Conversazioni | Giants Wisdom',
+      title: 'Le Mie Conversazioni',
       description: 'Visualizza le tue conversazioni con le figure storiche.'
     },
     pt: {
-      title: 'Minhas Conversas | Giants Wisdom',
+      title: 'Minhas Conversas',
       description: 'Veja suas conversas com as grandes figuras históricas.'
     }
   }

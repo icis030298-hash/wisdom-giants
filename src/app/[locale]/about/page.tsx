@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     pt: 'Sobre',
     en: 'About'
   }
-  const pageTitle = `${titleMap[locale] || 'About'} | Giants Wisdom`
+  const pageTitle = titleMap[locale] || 'About'
   
   const description = isKorean
     ? '역사를 바꾼 500여 명의 위인들과 AI로 대화하세요.'

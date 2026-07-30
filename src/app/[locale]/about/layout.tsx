@@ -16,12 +16,12 @@ export async function generateMetadata({
   const BASE_URL = 'https://www.giantswisdom.com';
 
   const titleMap: Record<string, string> = {
-    ko: '시대를 초월한 거인들의 전당 | 거인의 어깨',
-    de: 'Halle der Riesen | Giants Wisdom',
-    ja: '偉大な先人たちの殿堂 | Giants Wisdom',
-    es: 'Salón de los Gigantes | Giants Wisdom',
-    fr: 'Le Panthéon des Géants | Giants Wisdom',
-    en: 'Hall of Giants | Giants Wisdom',
+    ko: '시대를 초월한 거인들의 전당',
+    de: 'Halle der Riesen',
+    ja: '偉大な先人たちの殿堂',
+    es: 'Salón de los Gigantes',
+    fr: 'Le Panthéon des Géants',
+    en: 'Hall of Giants',
   };
 
   const descMap: Record<string, string> = {

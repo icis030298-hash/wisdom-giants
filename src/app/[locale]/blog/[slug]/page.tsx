@@ -359,7 +359,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     robots: { index: isBlogLocaleIndexed(locale), follow: isLocaleIndexed(locale) },}
 
   const translation = post.translations[locale] || post.translations['en']
-  const title = `${translation.title.replace(/\*\*/g, '')} | Giants Wisdom`
+  const title = translation.title.replace(/\*\*/g, '')
   const description = translation.description
 
   const hreflangLanguages = buildHreflang(BASE_URL, `/blog/${slug}`)

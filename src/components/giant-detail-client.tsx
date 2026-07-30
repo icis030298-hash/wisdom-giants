@@ -566,9 +566,9 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
       </div>
 
       {/* Content Section */}
-      <div className="max-w-6xl mx-auto px-4 md:px-8 py-10 md:py-16 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
-        {/* Left Column: Sagas */}
-        <div className="lg:col-span-2 space-y-20">
+      <div className="max-w-4xl mx-auto px-4 md:px-8 py-10 md:py-16">
+        {/* Main Content: Sagas */}
+        <div className="space-y-20">
           {/* 1. Epic Narrative Section */}
           {epicContent && (() => {
             const paragraphs = parseParagraphs(epicContent).filter(Boolean);

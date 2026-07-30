@@ -20,14 +20,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
   
   const titleMap: Record<string, string> = {
-    ko: "거인들의 지혜 블로그 | Giants Wisdom",
-    en: "Wisdom Blog | Giants Wisdom",
-    de: "Weisheits-Blog | Giants Wisdom",
-    ja: "偉人たちの知恵ブログ | Giants Wisdom",
-    es: "Blog de Sabiduría | Giants Wisdom",
-    fr: "Blog de la Sagesse | Giants Wisdom",
-    it: "Blog della Saggezza | Giants Wisdom",
-    pt: "Blog da Sabedoria | Giants Wisdom",
+    ko: "거인들의 지혜 블로그",
+    en: "Wisdom Blog",
+    de: "Weisheits-Blog",
+    ja: "偉人たちの知恵ブログ",
+    es: "Blog de Sabiduría",
+    fr: "Blog de la Sagesse",
+    it: "Blog della Saggezza",
+    pt: "Blog da Sabedoria",
   }
 
   const descMap: Record<string, string> = {
