@@ -169,7 +169,7 @@ export default async function GiantDetailPage({ params }: Props) {
     trials: hasNarrativeLocale ? getFieldText(narrative, 'trials') : undefined,
     overcoming: hasNarrativeLocale ? getFieldText(narrative, 'overcoming') : undefined,
     era: hasNarrativeLocale ? getFieldText(narrative, 'era') : undefined,
-    wisdom: (narrative.wisdom || []).map((w: any) => ({
+    wisdom: (Array.isArray(narrative.wisdom) ? narrative.wisdom : []).map((w: any) => ({
       quote: getFieldText(w, 'quote'),
       meaning: getFieldText(w, 'meaning')
     })),
