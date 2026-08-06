@@ -1,3 +1,4 @@
+import { NextResponse } from 'next/server';
 import incompleteGiants from '@/config/incomplete-giants.json';
 
 const incompleteGiantsSet = new Set(incompleteGiants);
