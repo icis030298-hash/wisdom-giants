@@ -128,11 +128,13 @@ export default async function GiantDetailPage({ params }: Props) {
 
   const messages = await getMessages({ locale });
   
-  // Find standardized narrative data dynamically (NFT compliant)
+  // Find standardized narrative data
   let narrative: any = null;
   try {
-    const narrativeModule = await import(`@/data/narratives/${slug}.json`);
-    narrative = narrativeModule.default || narrativeModule;
+    const narrativePath = path.join(process.cwd(), 'src/data/narratives', `${slug}.json`);
+    if (fs.existsSync(narrativePath)) {
+      narrative = JSON.parse(fs.readFileSync(narrativePath, 'utf-8'));
+    }
   } catch (error) {
     console.warn(`Could not load narrative for ${slug}`);
   }
