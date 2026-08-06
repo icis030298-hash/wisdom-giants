@@ -6,6 +6,7 @@ import { giants } from '@/lib/giants-data';
 import { blogPosts } from '@/data/blog-posts';
 import { LOCALES } from '@/lib/locales';
 import { INDEXED_LOCALES, INDEXED_BLOG_LOCALES } from '@/config/locale-status';
+import { isBlogTranslationMissing } from '@/lib/translation-status';
 
 const BASE_URL = 'https://www.giantswisdom.com';
 const GIANTS_PER_CHUNK = 80;
@@ -95,7 +96,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
         totalEvaluated++;
         const enTr = p.translations['en'];
         const tr = p.translations[loc];
-        if (!tr || (enTr && tr.title === enTr.title)) {
+        if (isBlogTranslationMissing(tr, enTr)) {
           untranslatedCount++;
         }
       }
@@ -113,8 +114,8 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
           if (locale === 'en') return true;
           const tr = post.translations[locale];
           const enTr = post.translations['en'];
-          if (!tr) return false;
-          if (enTr && tr.title === enTr.title) return false; // Exclude untranslated posts
+          // Exclude missing / empty-shell / placeholder / stub translations.
+          if (isBlogTranslationMissing(tr, enTr)) return false;
           return true;
         })
         .map((post) => ({

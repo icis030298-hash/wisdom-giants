@@ -1,4 +1,5 @@
 import { buildSEOAlternates, isLocaleIndexed, isBlogLocaleIndexed } from "@/config/locale-status";
+import { isBlogTranslationMissing } from "@/lib/translation-status";
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { Link } from '@/i18n/routing'
@@ -369,7 +370,7 @@ function checkCircuitBreaker(): boolean {
       totalEvaluated++;
       const enTr = post.translations['en'];
       const tr = post.translations[locale];
-      if (!tr || (enTr && tr.title === enTr.title)) {
+      if (isBlogTranslationMissing(tr, enTr)) {
         untranslatedCount++;
       }
     }
@@ -396,17 +397,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const enTranslation = post.translations['en']
   const currentTranslation = post.translations[locale]
 
-  // If locale is not 'en', and current translation is missing or has title equal to 'en' title, mark as untranslated
-  const isUntranslated = locale !== 'en' && (
-    !currentTranslation ||
-    (enTranslation && currentTranslation.title === enTranslation.title)
-  );
+  // Mark as untranslated when the locale is not 'en' and the translation is
+  // missing, an empty shell, a title-equals-English placeholder, or a broken
+  // stub. See @/lib/translation-status for the exact rules.
+  const isUntranslated = locale !== 'en' && isBlogTranslationMissing(currentTranslation, enTranslation);
 
   const circuitBreakerTripped = checkCircuitBreaker();
   const defaultIndex = isBlogLocaleIndexed(locale);
   const shouldIndex = circuitBreakerTripped ? defaultIndex : (defaultIndex && !isUntranslated);
 
-  const translation = currentTranslation || enTranslation
+  // For stub/untranslated locales fall back to the English copy so the
+  // (noindexed) page still emits a sensible, non-empty title/description.
+  const translation = (isUntranslated ? enTranslation : currentTranslation) || enTranslation
   const title = translation.title.replace(/\*\*/g, '')
   const description = translation.description
 
