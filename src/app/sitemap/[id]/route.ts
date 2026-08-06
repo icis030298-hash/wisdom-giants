@@ -26,10 +26,11 @@ function generateXml(entries: any[]) {
         altXml += `\n    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}"/>`;
       }
     }
+    const lastmodXml = entry.lastmod ? `\n    <lastmod>${entry.lastmod}</lastmod>` : '';
     const priorityXml = entry.priority ? `\n    <priority>${entry.priority}</priority>` : '';
     const changefreqXml = entry.changefreq ? `\n    <changefreq>${entry.changefreq}</changefreq>` : '';
     return `  <url>
-    <loc>${entry.url}</loc>${altXml}${priorityXml}${changefreqXml}
+    <loc>${entry.url}</loc>${lastmodXml}${altXml}${priorityXml}${changefreqXml}
   </url>`;
   }).join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -71,6 +72,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
         return {
           url: `${BASE_URL}/${locale}${page.path}`,
           alternates: buildAlternates(page.path),
+          lastmod: '2026-08-01',
           priority,
           changefreq,
         };
@@ -84,13 +86,44 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
       changefreq: 'weekly',
     }));
 
+    // Circuit Breaker Check
+    let untranslatedCount = 0;
+    let totalEvaluated = 0;
+    for (const loc of INDEXED_BLOG_LOCALES) {
+      if (loc === 'en') continue;
+      for (const p of blogPosts) {
+        totalEvaluated++;
+        const enTr = p.translations['en'];
+        const tr = p.translations[loc];
+        if (!tr || (enTr && tr.title === enTr.title)) {
+          untranslatedCount++;
+        }
+      }
+    }
+
+    const circuitBreakerTripped = totalEvaluated > 0 && (untranslatedCount / totalEvaluated) > 0.6;
+    if (circuitBreakerTripped) {
+      console.error(`[Sitemap Circuit Breaker Tripped] Untranslated ratio is ${(untranslatedCount / totalEvaluated * 100).toFixed(1)}% (>60%). Data load suspicious!`);
+    }
+
     const blogPostEntries = INDEXED_BLOG_LOCALES.flatMap((locale) =>
-      blogPosts.map((post) => ({
-        url: `${BASE_URL}/${locale}/blog/${post.slug}`,
-        alternates: buildAlternates(`/blog/${post.slug}`),
-        priority: '0.7',
-        changefreq: 'monthly',
-      }))
+      blogPosts
+        .filter((post) => {
+          if (circuitBreakerTripped) return true; // Keep all if circuit breaker tripped
+          if (locale === 'en') return true;
+          const tr = post.translations[locale];
+          const enTr = post.translations['en'];
+          if (!tr) return false;
+          if (enTr && tr.title === enTr.title) return false; // Exclude untranslated posts
+          return true;
+        })
+        .map((post) => ({
+          url: `${BASE_URL}/${locale}/blog/${post.slug}`,
+          alternates: buildAlternates(`/blog/${post.slug}`),
+          lastmod: post.publishedAt || undefined,
+          priority: '0.7',
+          changefreq: 'monthly',
+        }))
     );
 
     entries = [...blogListEntries, ...blogPostEntries];
@@ -107,6 +140,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
         chunkGiants.map((giant) => ({
           url: `${BASE_URL}/${locale}/giant/${giant.slug}`,
           alternates: buildAlternates(`/giant/${giant.slug}`),
+          lastmod: (giant as any).updatedAt || undefined,
           priority: '0.7',
           changefreq: 'weekly',
         }))

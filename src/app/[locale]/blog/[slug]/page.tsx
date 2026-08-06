@@ -352,17 +352,63 @@ const colorMap: Record<string, string> = {
   business: "from-yellow-500/20 to-amber-500/20 text-yellow-300 border-yellow-500/30"
 }
 
+let isCircuitBreakerTrippedCache: boolean | null = null;
+
+function checkCircuitBreaker(): boolean {
+  if (isCircuitBreakerTrippedCache !== null) {
+    return isCircuitBreakerTrippedCache;
+  }
+
+  let untranslatedCount = 0;
+  let totalEvaluated = 0;
+  const indexedLocales = ['ko', 'en', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ru', 'he', 'el', 'ha', 'sw', 'uk', 'pl', 'id'];
+
+  for (const locale of indexedLocales) {
+    if (locale === 'en') continue;
+    for (const post of blogPosts) {
+      totalEvaluated++;
+      const enTr = post.translations['en'];
+      const tr = post.translations[locale];
+      if (!tr || (enTr && tr.title === enTr.title)) {
+        untranslatedCount++;
+      }
+    }
+  }
+
+  const ratio = totalEvaluated > 0 ? untranslatedCount / totalEvaluated : 0;
+  if (ratio > 0.6) {
+    console.error(`[Circuit Breaker Tripped] Untranslated ratio is ${(ratio * 100).toFixed(1)}% (>60%). Data load suspicious!`);
+    isCircuitBreakerTrippedCache = true;
+    return true;
+  }
+
+  isCircuitBreakerTrippedCache = false;
+  return false;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params
   const post = blogPosts.find(p => p.slug === slug)
   if (!post) return {
-    robots: { index: isBlogLocaleIndexed(locale), follow: isLocaleIndexed(locale) },}
+    robots: { index: false, follow: false },
+  }
 
-  const translation = post.translations[locale] || post.translations['en']
+  const enTranslation = post.translations['en']
+  const currentTranslation = post.translations[locale]
+
+  // If locale is not 'en', and current translation is missing or has title equal to 'en' title, mark as untranslated
+  const isUntranslated = locale !== 'en' && (
+    !currentTranslation ||
+    (enTranslation && currentTranslation.title === enTranslation.title)
+  );
+
+  const circuitBreakerTripped = checkCircuitBreaker();
+  const defaultIndex = isBlogLocaleIndexed(locale);
+  const shouldIndex = circuitBreakerTripped ? defaultIndex : (defaultIndex && !isUntranslated);
+
+  const translation = currentTranslation || enTranslation
   const title = translation.title.replace(/\*\*/g, '')
   const description = translation.description
-
-  const hreflangLanguages = buildHreflang(BASE_URL, `/blog/${slug}`)
 
   const giant = giants.find(g => g.slug === post.giantSlug)
   const absoluteImageUrl = giant
@@ -370,7 +416,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : `${BASE_URL}/images/giants/cleopatra.png`
 
   return {
-    robots: { index: isBlogLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
+    robots: {
+      index: shouldIndex,
+      follow: true,
+    },
     title,
     description,
     alternates: buildSEOAlternates(`/blog/${slug}`, locale),
