@@ -160,6 +160,8 @@ export function BlogListClient() {
                       <img
                         src={absoluteImageUrl}
                         alt={localizedName}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover transform scale-110 group-hover:scale-125 transition-transform duration-500"
                         onError={(e) => {
                           // Standard fallback if image loading fails

@@ -9,6 +9,7 @@ import path from 'path';
 import { buildHreflang } from '@/lib/locales';
 import { blogPosts } from "@/data/blog-posts";
 import incompleteGiants from '@/config/incomplete-giants.json';
+import { getKoreanJosa } from "@/lib/korean-josa";
 
 const incompleteGiantsSet = new Set(incompleteGiants);
 
@@ -47,8 +48,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const BASE_URL = 'https://www.giantswisdom.com';
 
-  const baseDesc = giantData.shortDescription || '';
-  const slicedDesc = baseDesc.length > 120 ? baseDesc.slice(0, 120) + '...' : baseDesc;
+  const koNameWithJosa = getKoreanJosa(giantData.name, 'wa/gwa');
+  const baseBio = (giantData.headline ? `${giantData.headline}. ` : '') + (giantData.shortDescription || '');
+  const fullBio = baseBio.length > 90 ? baseBio.slice(0, 87) + '...' : baseBio;
 
   // Full multilingual title & description
   const titleMap: Record<string, string> = {
@@ -62,14 +64,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     en: giantData.name,
   };
   const descMap: Record<string, string> = {
-    ko: `${slicedDesc} ${giantData.name}와 AI로 직접 대화하고 지혜를 얻어보세요.`,
-    de: `${slicedDesc} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`,
-    ja: `${slicedDesc} AIで${giantData.name}と直接対話し、知恵を得てください。`,
-    es: `${slicedDesc} Chatea directamente con ${giantData.name} a través de IA para ganar sabiduría.`,
-    fr: `${slicedDesc} Chattez directement avec ${giantData.name} via l'IA pour acquérir de la sagesse.`,
-    it: `${slicedDesc} Chatta direttamente con ${giantData.name} tramite IA per acquisire saggezza.`,
-    pt: `${slicedDesc} Converse diretamente com ${giantData.name} via IA para obter sabedoria.`,
-    en: `${slicedDesc} Chat directly with ${giantData.name} via AI to gain wisdom.`,
+    ko: `${giantData.name} (${giant.era})의 삶과 지혜. ${fullBio} ${koNameWithJosa} AI로 직접 실시간 대화하며 깊은 인생 통찰을 전수받아 보세요.`,
+    de: `${giantData.name} (${giant.era}) - Leben und Weisheit. ${fullBio} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`,
+    ja: `${giantData.name}（${giant.era}）の生涯と知恵。${fullBio} AIで${giantData.name}と直接対話し、人生のヒントを得てください。`,
+    es: `${giantData.name} (${giant.era}) - Vida y sabiduría. ${fullBio} Chatea directamente con ${giantData.name} a través de IA para ganar sabiduría.`,
+    fr: `${giantData.name} (${giant.era}) - Vie et sagesse. ${fullBio} Chattez directement avec ${giantData.name} via l'IA pour acquérir de la sagesse.`,
+    it: `${giantData.name} (${giant.era}) - Vita e saggezza. ${fullBio} Chatta direttamente con ${giantData.name} tramite IA per acquisire saggezza.`,
+    pt: `${giantData.name} (${giant.era}) - Vida e sabedoria. ${fullBio} Converse diretamente com ${giantData.name} via IA para obter sabedoria.`,
+    en: `${giantData.name} (${giant.era}) - Life & wisdom. ${fullBio} Chat directly with ${giantData.name} via AI to gain timeless life wisdom.`,
   };
   const title = titleMap[locale] ?? titleMap['en'];
   const rawDescription = descMap[locale] ?? descMap['en'];
@@ -277,6 +279,26 @@ export default async function GiantDetailPage({ params }: Props) {
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
+
+      {/* Server-rendered Semantic HTML Content for SEO Crawlers & Initial Payloads */}
+      <article className="sr-only">
+        <h1>{giantTranslation.name || giant.name}</h1>
+        <h2>{giantTranslation.headline || giant.headline}</h2>
+        <p>{giantTranslation.shortDescription || giant.shortDescription}</p>
+        <img src={giant.imageUrl} alt={`${giantTranslation.name || giant.name} - Giants Wisdom`} />
+        {formattedNarrative?.epic && (
+          <section>
+            <h2>{giantTranslation.name} - {locale === 'ko' ? '대서사시' : 'Epic Narrative'}</h2>
+            <p>{formattedNarrative.epic}</p>
+          </section>
+        )}
+        {giantTranslation.quote && (
+          <blockquote>
+            <p>{giantTranslation.quote}</p>
+          </blockquote>
+        )}
+      </article>
+
       <GiantDetailClient 
         giant={giant} 
         translations={translations} 

@@ -122,8 +122,24 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, 3);
 
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Giants Wisdom',
+    url: `https://www.giantswisdom.com/${locale}`,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `https://www.giantswisdom.com/${locale}?q={search_term_string}`
+      },
+      'query-input': 'required name=search_term_string'
+    }
+  };
+
   return (
     <main className="min-h-screen bg-background">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <ConditionalAdSense />
       {/* Navigation */}
       <Navigation />

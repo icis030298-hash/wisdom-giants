@@ -1092,7 +1092,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
 
                 <div className="space-y-2">
                   <h2 className="text-sm font-bold text-amber-500 uppercase tracking-[0.3em]">Perfect Match Found</h2>
-                  <h1 className="text-4xl md:text-5xl font-serif font-bold text-foreground">{tt("result.matchFound")}</h1>
+                  <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground">{tt("result.matchFound")}</h2>
                 </div>
 
                 {/* Archetype Card */}
@@ -1272,9 +1272,9 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                           <span style={{ color: '#f59e0b', fontSize: '22px', letterSpacing: '0.3em', fontWeight: 'bold' }}>
                             {locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : 'MY HERITAGE DNA'}
                           </span>
-                          <h1 style={{ color: '#FEF3C7', fontSize: '54px', fontWeight: '800', fontFamily: 'Georgia, serif', lineHeight: '1.2', margin: '10px 0' }}>
+                          <h2 style={{ color: '#FEF3C7', fontSize: '54px', fontWeight: '800', fontFamily: 'Georgia, serif', lineHeight: '1.2', margin: '10px 0' }}>
                             {dna ? archetypes[dna]?.name[activeLocale] : ''}
-                          </h1>
+                          </h2>
                           <p style={{ color: '#94A3B8', fontSize: '32px', fontWeight: '500' }}>
                             {tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}
                           </p>
