@@ -87,6 +87,67 @@ export function validateTranslationItem(
     }
   }
 
+  // (i) Script Leak & Script Ratio Check
+  if (item.title || item.content) {
+    const fullText = (item.title || "") + " " + (item.content || "");
+    const totalChars = fullText.replace(/\s+/g, "").length;
+
+    // Zero tolerance: Korean in Japanese
+    if (item.locale === "ja") {
+      if (/[\uAC00-\uD7A3\u1100-\u11FF\u3130-\u318F]/.test(fullText)) {
+        reasons.push("Japanese translation contains Korean Hangul characters");
+      }
+    }
+
+    // Zero tolerance: Kana in Korean
+    if (item.locale === "ko") {
+      if (/[\u3040-\u30FF]/.test(fullText)) {
+        reasons.push("Korean translation contains Japanese Kana characters");
+      }
+    }
+
+    // Majority script checks for non-Latin locales
+    if (totalChars > 0) {
+      if (item.locale === "uk" || item.locale === "ru") {
+        const cyrillicMatch = fullText.match(/[\u0400-\u04FF]/g);
+        const cyrillicCount = cyrillicMatch ? cyrillicMatch.length : 0;
+        if (cyrillicCount / totalChars < 0.3) {
+          reasons.push(`Cyrillic character ratio (${(cyrillicCount / totalChars).toFixed(2)}) is below 0.3 for ${item.locale}`);
+        }
+      } else if (item.locale === "el") {
+        const greekMatch = fullText.match(/[\u0370-\u03FF]/g);
+        const greekCount = greekMatch ? greekMatch.length : 0;
+        if (greekCount / totalChars < 0.3) {
+          reasons.push(`Greek character ratio (${(greekCount / totalChars).toFixed(2)}) is below 0.3`);
+        }
+      } else if (item.locale === "he") {
+        const hebrewMatch = fullText.match(/[\u0590-\u05FF]/g);
+        const hebrewCount = hebrewMatch ? hebrewMatch.length : 0;
+        if (hebrewCount / totalChars < 0.3) {
+          reasons.push(`Hebrew character ratio (${(hebrewCount / totalChars).toFixed(2)}) is below 0.3`);
+        }
+      } else if (item.locale === "ar" || item.locale === "fa") {
+        const arabicMatch = fullText.match(/[\u0600-\u06FF]/g);
+        const arabicCount = arabicMatch ? arabicMatch.length : 0;
+        if (arabicCount / totalChars < 0.3) {
+          reasons.push(`Arabic character ratio (${(arabicCount / totalChars).toFixed(2)}) is below 0.3 for ${item.locale}`);
+        }
+      } else if (item.locale === "th") {
+        const thaiMatch = fullText.match(/[\u0E00-\u0E7F]/g);
+        const thaiCount = thaiMatch ? thaiMatch.length : 0;
+        if (thaiCount / totalChars < 0.3) {
+          reasons.push(`Thai character ratio (${(thaiCount / totalChars).toFixed(2)}) is below 0.3`);
+        }
+      } else if (item.locale === "zh") {
+        const cjkMatch = fullText.match(/[\u4E00-\u9FFF]/g);
+        const cjkCount = cjkMatch ? cjkMatch.length : 0;
+        if (cjkCount / totalChars < 0.3) {
+          reasons.push(`CJK character ratio (${(cjkCount / totalChars).toFixed(2)}) is below 0.3`);
+        }
+      }
+    }
+  }
+
   return {
     valid: reasons.length === 0,
     reasons,
