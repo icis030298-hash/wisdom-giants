@@ -11,9 +11,7 @@ import { blogPosts } from "@/data/blog-posts";
 import incompleteGiants from '@/config/incomplete-giants.json';
 import { getKoreanJosa } from "@/lib/korean-josa";
 
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
-export const fetchCache = 'force-no-store';
+export const revalidate = 3600;
 
 const incompleteGiantsSet = new Set(incompleteGiants);
 
@@ -256,10 +254,11 @@ export default async function GiantDetailPage({ params }: Props) {
     ],
   };
 
-  const quotationSchema = locale === 'ko' ? {
+  const quoteText = giantTranslation.quote || giant.quote;
+  const quotationSchema = quoteText ? {
     '@context': 'https://schema.org',
     '@type': 'Quotation',
-    'text': giantTranslation.quote || giant.quote,
+    'text': quoteText,
     'creator': {
       '@type': 'Person',
       'name': giantTranslation.name || giant.name
@@ -289,25 +288,6 @@ export default async function GiantDetailPage({ params }: Props) {
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
-
-      {/* Server-rendered Semantic HTML Content for SEO Crawlers & Initial Payloads */}
-      <article className="sr-only">
-        <h1>{giantTranslation.name || giant.name}</h1>
-        <h2>{giantTranslation.headline || giant.headline}</h2>
-        <p>{giantTranslation.shortDescription || giant.shortDescription}</p>
-        <img src={giant.imageUrl} alt={`${giantTranslation.name || giant.name} - Giants Wisdom`} />
-        {formattedNarrative?.epic && (
-          <section>
-            <h2>{giantTranslation.name} - {locale === 'ko' ? '대서사시' : 'Epic Narrative'}</h2>
-            <p>{formattedNarrative.epic}</p>
-          </section>
-        )}
-        {giantTranslation.quote && (
-          <blockquote>
-            <p>{giantTranslation.quote}</p>
-          </blockquote>
-        )}
-      </article>
 
       <GiantDetailClient 
         giant={giant} 
