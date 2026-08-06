@@ -10,6 +10,7 @@ import { buildHreflang } from '@/lib/locales';
 import { blogPosts } from "@/data/blog-posts";
 import incompleteGiants from '@/config/incomplete-giants.json';
 import { getKoreanJosa } from "@/lib/korean-josa";
+import { Link } from "@/i18n/routing";
 
 export const revalidate = 3600;
 
@@ -288,6 +289,53 @@ export default async function GiantDetailPage({ params }: Props) {
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
+
+      {/* Visual Server-Rendered Hero Section for Instant SSR & Crawlers */}
+      <div className="relative w-full h-[55vh] md:h-[60vh] overflow-hidden bg-slate-950">
+        <img
+          src={giant.imageUrl.startsWith('http') ? giant.imageUrl : `${BASE_URL}${giant.imageUrl}`}
+          alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+
+        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-16 max-w-6xl mx-auto">
+          {/* Breadcrumb Navigation */}
+          <nav aria-label="breadcrumb" className="mb-4 flex items-center">
+            <ol className="flex items-center space-x-2 text-xs md:text-sm text-zinc-400 font-sans">
+              <li>
+                <Link href="/" className="hover:text-amber-400 transition-colors">
+                  {locale === 'ko' ? '홈' : 'Home'}
+                </Link>
+              </li>
+              <li className="text-zinc-600">/</li>
+              <li>
+                <Link href="/#giants" className="hover:text-amber-400 transition-colors">
+                  {locale === 'ko' ? '거인들의 전당' : 'Hall of Giants'}
+                </Link>
+              </li>
+              <li className="text-zinc-600">/</li>
+              <li className="text-amber-400 font-semibold truncate" aria-current="page">
+                {giantTranslation.name || giant.name}
+              </li>
+            </ol>
+          </nav>
+
+          <div className="space-y-3">
+            <span className="px-4 py-1.5 rounded-full bg-amber-500 text-black text-xs font-bold uppercase tracking-widest border border-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
+              {giant.category}
+            </span>
+            <h1 className="text-4xl md:text-7xl font-serif font-bold text-foreground leading-tight">
+              {giantTranslation.name || giant.name}
+            </h1>
+            {giantTranslation.quote && (
+              <h2 className="text-lg md:text-2xl text-amber-400/90 font-serif italic max-w-3xl leading-relaxed">
+                &ldquo;{giantTranslation.quote}&rdquo;
+              </h2>
+            )}
+          </div>
+        </div>
+      </div>
 
       <GiantDetailClient 
         giant={giant} 

@@ -479,90 +479,27 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
   }
 
   return (
-    <main className="min-h-screen bg-background">
+    <div className="bg-background min-h-screen">
       <ConditionalAdSense />
-      <Navigation />
       
-      {/* Hero Section */}
-      <div className="relative w-full h-[60vh] overflow-hidden">
-      {!imageError ? (
-        <Image 
-          src={giant.imageUrl} 
-          alt={tg.name}
-          fill
-          sizes="100vw"
-          className="object-cover"
-          priority={true}
-          onError={() => setImageError(true)}
-        />
-      ) : (
-        <div className="absolute inset-0 flex items-center justify-center bg-slate-950">
-          <GiantAvatar slug={giant.slug} category={giant.category} size={250} />
-        </div>
-      )}
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-        
-        <div className="absolute bottom-0 left-0 right-0 p-8 md:p-16 max-w-6xl mx-auto">
-          {/* Breadcrumb Navigation */}
-          <nav aria-label="breadcrumb" className="mb-6 flex items-center">
-            <ol className="flex items-center space-x-2 text-xs md:text-sm text-zinc-400 font-sans">
-              <li>
-                <Link href="/" className="hover:text-amber-400 transition-colors">
-                  {locale === 'ko' ? '홈' : 'Home'}
-                </Link>
-              </li>
-              <li className="text-zinc-600">/</li>
-              <li>
-                <Link href="/#giants" className="hover:text-amber-400 transition-colors">
-                  {locale === 'ko' ? '거인들의 전당' : 'Hall of Giants'}
-                </Link>
-              </li>
-              <li className="text-zinc-600">/</li>
-              <li className="text-amber-400 font-semibold truncate max-w-[150px] md:max-w-none" aria-current="page">
-                {tg.name}
-              </li>
-            </ol>
-          </nav>
-
-          <button 
-            onClick={() => router.push("/")}
-            className="flex items-center gap-2 text-amber-400 mb-6 hover:text-amber-300 transition-colors"
-          >
-            <ArrowLeft className="w-5 h-5" />
-            <span>{t.returnToSquare}</span>
-          </button>
-          
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
-            <div className="space-y-4">
-              <span className="px-4 py-1.5 rounded-full bg-amber-500 text-black text-xs font-bold uppercase tracking-widest border border-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
-                {categoryLabel}
-              </span>
-              <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground leading-tight">
-                {tg.name}
-              </h1>
-              <p className="text-xl md:text-2xl text-amber-400/90 font-serif italic max-w-3xl leading-relaxed">
-                &ldquo;{tg.quote}&rdquo;
-              </p>
-            </div>
-            
-            <button 
-              onClick={() => setIsChatOpen(true)}
-              className="flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] transition-all transform hover:-translate-y-1"
-            >
-              <MessageCircle className="w-6 h-6" />
-              <span>
-                {locale === 'ko' ? (() => {
-                  const name = (tg.name || "").split(" ")[0];
-                  const lastChar = name.charCodeAt(name.length - 1);
-                  const hasBatchim = lastChar >= 0xAC00 && lastChar <= 0xD7A3 && (lastChar - 0xAC00) % 28 > 0;
-                  const particle = hasBatchim ? '과' : '와';
-                  return `${name}${particle} 대화하기`;
-                })() : t.chatWith.replace("{name}", (tg.name || "").split(" ")[0])}
-              </span>
-              <Sparkles className="w-4 h-4 opacity-70" />
-            </button>
-          </div>
-        </div>
+      {/* Interactive Bar */}
+      <div className="max-w-6xl mx-auto px-6 md:px-16 pt-6 pb-2 flex justify-end">
+        <button 
+          onClick={() => setIsChatOpen(true)}
+          className="flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-lg hover:shadow-[0_0_30px_rgba(245,158,11,0.4)] transition-all transform hover:-translate-y-1 cursor-pointer"
+        >
+          <MessageCircle className="w-6 h-6" />
+          <span>
+            {locale === 'ko' ? (() => {
+              const name = (tg.name || "").split(" ")[0];
+              const lastChar = name.charCodeAt(name.length - 1);
+              const hasBatchim = lastChar >= 0xAC00 && lastChar <= 0xD7A3 && (lastChar - 0xAC00) % 28 > 0;
+              const particle = hasBatchim ? '과' : '와';
+              return `${name}${particle} 대화하기`;
+            })() : t.chatWith.replace("{name}", (tg.name || "").split(" ")[0])}
+          </span>
+          <Sparkles className="w-4 h-4 opacity-70" />
+        </button>
       </div>
 
       {/* Content Section */}
