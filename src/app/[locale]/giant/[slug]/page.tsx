@@ -79,6 +79,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? giant.imageUrl
     : `${BASE_URL}${giant.imageUrl}`;
 
+  // Helper to check data completeness dynamically
+  let isComplete = false;
+  try {
+    const narrativePath = path.join(process.cwd(), 'src/data/narratives', `${slug}.json`);
+    if (fs.existsSync(narrativePath)) {
+      const narrativeData = JSON.parse(fs.readFileSync(narrativePath, 'utf-8'));
+      isComplete = Array.isArray(narrativeData?.wisdom) && narrativeData.wisdom.length > 0 && !!narrativeData?.fact_box;
+    }
+  } catch (e) {
+    isComplete = false;
+  }
+
+  const shouldIndex = isComplete && isLocaleIndexed(locale);
+
   // Build full hreflang alternates for all locales
   const hreflangLanguages = buildHreflang(BASE_URL, `/giant/${slug}`);
 
@@ -93,7 +107,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale === 'ko' ? "역사 위인" : locale === 'de' ? "Historische Persönlichkeit" : locale === 'ja' ? "歴史上の偉人" : locale === 'it' ? "Figura Storica" : locale === 'pt' ? "Figura Histórica" : "Historical Figure",
       "Giants Wisdom"
     ],
-    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
+    robots: { index: shouldIndex, follow: true },
     alternates: buildSEOAlternates(`/giant/${slug}`, locale),
   };
 }

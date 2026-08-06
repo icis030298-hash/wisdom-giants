@@ -94,9 +94,23 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
   } else if (id.startsWith('giants-')) {
     const chunkIndex = parseInt(id.replace('giants-', ''), 10);
     if (!isNaN(chunkIndex)) {
+      const fs = require('fs');
+      const path = require('path');
+      
+      const validGiants = giants.filter((giant) => {
+        try {
+          const narrativePath = path.join(process.cwd(), 'src/data/narratives', `${giant.slug}.json`);
+          if (!fs.existsSync(narrativePath)) return false;
+          const narrativeData = JSON.parse(fs.readFileSync(narrativePath, 'utf-8'));
+          return Array.isArray(narrativeData?.wisdom) && narrativeData.wisdom.length > 0 && !!narrativeData?.fact_box;
+        } catch {
+          return false;
+        }
+      });
+
       const start = chunkIndex * GIANTS_PER_CHUNK;
       const end = start + GIANTS_PER_CHUNK;
-      const chunkGiants = giants.slice(start, end);
+      const chunkGiants = validGiants.slice(start, end);
 
       entries = INDEXED_LOCALES.flatMap((locale) =>
         chunkGiants.map((giant) => ({
