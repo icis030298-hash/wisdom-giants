@@ -24,6 +24,12 @@ interface BlogTranslationLike {
 // characters; empty shells are 0. 500 sits safely between the two.
 export const MIN_CONTENT_CHARS = 500;
 
+// Minimum title length (trimmed characters). A batch-inject bug split the model
+// response on the code-fence backtick, leaving 16 pt posts with garbage titles
+// like "`, `" or ",". Real article titles across all 24 locales are >= 10 chars;
+// an audit found no legitimate title below this floor.
+export const MIN_TITLE_CHARS = 10;
+
 /**
  * Returns true when the given translation should be treated as missing /
  * untranslated for indexing purposes.
@@ -43,6 +49,13 @@ export function isBlogTranslationMissing(
 
   // Any empty / whitespace-only field => stub, never a publishable article.
   if (!title || !description || !content) return true;
+
+  // A backtick anywhere in the title means a code-fence fragment leaked in
+  // (e.g. the "`, `" pt garbage). No real headline in the dataset contains one.
+  if ((current.title ?? '').includes('`')) return true;
+
+  // Absurdly short title => broken split artifact (e.g. ",").
+  if (title.length < MIN_TITLE_CHARS) return true;
 
   // Title identical to English => placeholder that was never translated.
   if (en && typeof en.title === 'string' && current.title === en.title) return true;
