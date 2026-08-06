@@ -11,7 +11,17 @@ import { blogPosts } from "@/data/blog-posts";
 import incompleteGiants from '@/config/incomplete-giants.json';
 import { getKoreanJosa } from "@/lib/korean-josa";
 
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+export const fetchCache = 'force-no-store';
+
 const incompleteGiantsSet = new Set(incompleteGiants);
+
+function cleanEraString(era: string): string {
+  if (!era) return '';
+  // Remove outer and inner parentheses to prevent double nested parens like ((18세기 ~ 19세기))
+  return era.replace(/[()]/g, '').trim();
+}
 
 // Load large JSON files dynamically to prevent Next.js from bundling them into JS modules
 
@@ -20,8 +30,6 @@ let wikipediaLinks: any = {};
 if (fs.existsSync(wikiLinksPath)) {
   wikipediaLinks = JSON.parse(fs.readFileSync(wikiLinksPath, 'utf-8'));
 }
-
-// Fact layer is now loaded dynamically per locale inside the component
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -51,6 +59,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const koNameWithJosa = getKoreanJosa(giantData.name, 'wa/gwa');
   const baseBio = (giantData.headline ? `${giantData.headline}. ` : '') + (giantData.shortDescription || '');
   const fullBio = baseBio.length > 90 ? baseBio.slice(0, 87) + '...' : baseBio;
+  const eraClean = cleanEraString(giantData.era || giant.era || '');
+  const eraDisplay = eraClean ? ` (${eraClean})` : '';
 
   // Full multilingual title & description
   const titleMap: Record<string, string> = {
@@ -64,14 +74,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     en: giantData.name,
   };
   const descMap: Record<string, string> = {
-    ko: `${giantData.name} (${giant.era})의 삶과 지혜. ${fullBio} ${koNameWithJosa} AI로 직접 실시간 대화하며 깊은 인생 통찰을 전수받아 보세요.`,
-    de: `${giantData.name} (${giant.era}) - Leben und Weisheit. ${fullBio} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`,
-    ja: `${giantData.name}（${giant.era}）の生涯と知恵。${fullBio} AIで${giantData.name}と直接対話し、人生のヒントを得てください。`,
-    es: `${giantData.name} (${giant.era}) - Vida y sabiduría. ${fullBio} Chatea directamente con ${giantData.name} a través de IA para ganar sabiduría.`,
-    fr: `${giantData.name} (${giant.era}) - Vie et sagesse. ${fullBio} Chattez directement avec ${giantData.name} via l'IA pour acquérir de la sagesse.`,
-    it: `${giantData.name} (${giant.era}) - Vita e saggezza. ${fullBio} Chatta direttamente con ${giantData.name} tramite IA per acquisire saggezza.`,
-    pt: `${giantData.name} (${giant.era}) - Vida e sabedoria. ${fullBio} Converse diretamente com ${giantData.name} via IA para obter sabedoria.`,
-    en: `${giantData.name} (${giant.era}) - Life & wisdom. ${fullBio} Chat directly with ${giantData.name} via AI to gain timeless life wisdom.`,
+    ko: `${giantData.name}${eraDisplay}의 삶과 지혜. ${fullBio} ${koNameWithJosa} AI로 직접 실시간 대화하며 깊은 인생 통찰을 전수받아 보세요.`,
+    de: `${giantData.name}${eraDisplay} - Leben und Weisheit. ${fullBio} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`,
+    ja: `${giantData.name}${eraDisplay}の生涯と知恵。${fullBio} AIで${giantData.name}と直接対話し、人生のヒントを得てください。`,
+    es: `${giantData.name}${eraDisplay} - Vida y sabiduría. ${fullBio} Chatea directamente con ${giantData.name} a través de IA para ganar sabiduría.`,
+    fr: `${giantData.name}${eraDisplay} - Vie et sagesse. ${fullBio} Chattez directement avec ${giantData.name} via l'IA pour acquérir de la sagesse.`,
+    it: `${giantData.name}${eraDisplay} - Vita e saggezza. ${fullBio} Chatta direttamente con ${giantData.name} tramite IA per acquisire saggezza.`,
+    pt: `${giantData.name}${eraDisplay} - Vida e sabedoria. ${fullBio} Converse diretamente com ${giantData.name} via IA para obter sabedoria.`,
+    en: `${giantData.name}${eraDisplay} - Life & wisdom. ${fullBio} Chat directly with ${giantData.name} via AI to gain timeless life wisdom.`,
   };
   const title = titleMap[locale] ?? titleMap['en'];
   const rawDescription = descMap[locale] ?? descMap['en'];
