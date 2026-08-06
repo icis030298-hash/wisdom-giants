@@ -106,6 +106,27 @@ export function validateTranslationItem(
       }
     }
 
+    // Zero tolerance: Title must contain target script characters for non-Latin locales
+    if (item.title && item.locale !== "en") {
+      const nonLatinScriptMap: Record<string, RegExp> = {
+        ja: /[\u3040-\u30FF\u4E00-\u9FFF]/,
+        ko: /[\uAC00-\uD7A3\u1100-\u11FF\u3130-\u318F]/,
+        uk: /[\u0400-\u04FF]/,
+        ru: /[\u0400-\u04FF]/,
+        el: /[\u0370-\u03FF]/,
+        he: /[\u0590-\u05FF]/,
+        ar: /[\u0600-\u06FF]/,
+        fa: /[\u0600-\u06FF]/,
+        th: /[\u0E00-\u0E7F]/,
+        zh: /[\u4E00-\u9FFF]/,
+      };
+
+      const scriptRegex = nonLatinScriptMap[item.locale];
+      if (scriptRegex && !scriptRegex.test(item.title)) {
+        reasons.push(`Title contains 0 target script characters for non-Latin locale '${item.locale}' (untranslated/English title)`);
+      }
+    }
+
     // Majority script checks for non-Latin locales
     if (totalChars > 0) {
       if (item.locale === "uk" || item.locale === "ru") {
