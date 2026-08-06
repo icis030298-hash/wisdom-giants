@@ -63,7 +63,7 @@ export const buildSEOAlternates = (path: string, currentLocale: string) => {
   });
 
   return {
-    canonical: currentLocale === 'ko' ? path : `/${currentLocale}${path === '/' ? '' : path}`,
+    canonical: `/${currentLocale}${path === '/' ? '' : path}`,
     languages
   };
 };
