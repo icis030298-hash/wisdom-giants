@@ -1370,6 +1370,6 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
           {locale === 'ko' ? '복사 완료!' : 'Copied!'}
         </div>
       )}
-    </main>
+    </div>
   )
 }
