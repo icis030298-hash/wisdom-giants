@@ -1,4 +1,6 @@
-import { NextResponse } from 'next/server';
+import incompleteGiants from '@/config/incomplete-giants.json';
+
+const incompleteGiantsSet = new Set(incompleteGiants);
 import { giants } from '@/lib/giants-data';
 import { blogPosts } from '@/data/blog-posts';
 import { LOCALES } from '@/lib/locales';
@@ -94,19 +96,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
   } else if (id.startsWith('giants-')) {
     const chunkIndex = parseInt(id.replace('giants-', ''), 10);
     if (!isNaN(chunkIndex)) {
-      const fs = require('fs');
-      const path = require('path');
-      
-      const validGiants = giants.filter((giant) => {
-        try {
-          const narrativePath = path.join(process.cwd(), 'src/data/narratives', `${giant.slug}.json`);
-          if (!fs.existsSync(narrativePath)) return false;
-          const narrativeData = JSON.parse(fs.readFileSync(narrativePath, 'utf-8'));
-          return Array.isArray(narrativeData?.wisdom) && narrativeData.wisdom.length > 0 && !!narrativeData?.fact_box;
-        } catch {
-          return false;
-        }
-      });
+      const validGiants = giants.filter(giant => !incompleteGiantsSet.has(giant.slug));
 
       const start = chunkIndex * GIANTS_PER_CHUNK;
       const end = start + GIANTS_PER_CHUNK;

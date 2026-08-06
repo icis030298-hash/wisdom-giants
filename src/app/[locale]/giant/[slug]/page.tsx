@@ -8,6 +8,9 @@ import fs from 'fs';
 import path from 'path';
 import { buildHreflang } from '@/lib/locales';
 import { blogPosts } from "@/data/blog-posts";
+import incompleteGiants from '@/config/incomplete-giants.json';
+
+const incompleteGiantsSet = new Set(incompleteGiants);
 
 // Load large JSON files dynamically to prevent Next.js from bundling them into JS modules
 
@@ -79,19 +82,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? giant.imageUrl
     : `${BASE_URL}${giant.imageUrl}`;
 
-  // Helper to check data completeness dynamically
-  let isComplete = false;
-  try {
-    const narrativePath = path.join(process.cwd(), 'src/data/narratives', `${slug}.json`);
-    if (fs.existsSync(narrativePath)) {
-      const narrativeData = JSON.parse(fs.readFileSync(narrativePath, 'utf-8'));
-      isComplete = Array.isArray(narrativeData?.wisdom) && narrativeData.wisdom.length > 0 && !!narrativeData?.fact_box;
-    }
-  } catch (e) {
-    isComplete = false;
-  }
-
-  const shouldIndex = isComplete && isLocaleIndexed(locale);
+  // Check if giant is incomplete statically
+  const isIncomplete = incompleteGiantsSet.has(slug);
+  const shouldIndex = !isIncomplete && isLocaleIndexed(locale);
 
   // Build full hreflang alternates for all locales
   const hreflangLanguages = buildHreflang(BASE_URL, `/giant/${slug}`);
@@ -132,17 +125,14 @@ export default async function GiantDetailPage({ params }: Props) {
     console.warn(`Could not load fact-layer-${locale}.json`);
   }
   const factLayer = factLayerAll[slug] || null;
-  console.log(`[Server Check] Locale: ${locale}, Slug: ${slug}, FactLayer Loaded: ${factLayer ? 'YES' : 'NO'} (Timeline items: ${factLayer?.timeline?.length || 0})`);
 
   const messages = await getMessages({ locale });
   
-  // Find standardized narrative data
+  // Find standardized narrative data dynamically (NFT compliant)
   let narrative: any = null;
   try {
-    const narrativePath = path.join(process.cwd(), 'src/data/narratives', `${slug}.json`);
-    if (fs.existsSync(narrativePath)) {
-      narrative = JSON.parse(fs.readFileSync(narrativePath, 'utf-8'));
-    }
+    const narrativeModule = await import(`@/data/narratives/${slug}.json`);
+    narrative = narrativeModule.default || narrativeModule;
   } catch (error) {
     console.warn(`Could not load narrative for ${slug}`);
   }
