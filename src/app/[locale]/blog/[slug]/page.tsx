@@ -524,11 +524,11 @@ function parseMarkdown(content: string) {
     }
 
     if (trimmed.startsWith('###')) {
-      // H3: 골드 언더라인 포인트
+      // H3: 골드 언더라인 포인트 (SEO: h2)
       elements.push(
-        <h3 key={`h3-${index}`} className="text-xl font-bold font-serif mt-10 mb-4 tracking-tight pb-1.5 inline-block" style={{ color: '#f5e6c8', borderBottom: '2px solid rgba(245,158,11,0.45)' }}>
+        <h2 key={`h3-${index}`} className="text-xl font-bold font-serif mt-10 mb-4 tracking-tight pb-1.5 inline-block" style={{ color: '#f5e6c8', borderBottom: '2px solid rgba(245,158,11,0.45)' }}>
           {trimmed.slice(3).trim()}
-        </h3>
+        </h2>
       )
     } else if (trimmed.startsWith('##')) {
       // H2: 앰버 오렌지 시그니처 컬러
@@ -538,11 +538,11 @@ function parseMarkdown(content: string) {
         </h2>
       )
     } else if (trimmed.startsWith('#')) {
-      // H1: 샴페인 골드 그라디언트
+      // H1: 샴페인 골드 그라디언트 (SEO: h2)
       elements.push(
-        <h1 key={`h1-${index}`} className="text-3xl md:text-4xl font-serif font-bold mt-12 mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-200">
+        <h2 key={`h1-${index}`} className="text-3xl md:text-4xl font-serif font-bold mt-12 mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-200">
           {trimmed.slice(1).trim()}
-        </h1>
+        </h2>
       )
     } else if (trimmed.startsWith('- ') || (trimmed.startsWith('* ') && !trimmed.startsWith('**'))) {
       // List item
