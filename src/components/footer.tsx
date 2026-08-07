@@ -94,7 +94,7 @@ export default function Footer() {
 
             {/* Explore links */}
             <div>
-              <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">{t('sections.explore')}</h4>
+              <p className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">{t('sections.explore')}</p>
               <ul className="space-y-4">
                 {footerLinks.explore.map((link) => (
                   <li key={link.label}>
@@ -108,7 +108,7 @@ export default function Footer() {
 
             {/* Info links */}
             <div>
-              <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">{t('sections.info')}</h4>
+              <p className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">{t('sections.info')}</p>
               <ul className="space-y-4">
                 {footerLinks.info.map((link) => (
                   <li key={link.label}>
