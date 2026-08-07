@@ -51,7 +51,6 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
   if (id === 'pages') {
     const staticPages = [
       { path: '' },
-      { path: '/test' },
       { path: '/about' },
       { path: '/chats' },
       { path: '/debate' },
@@ -66,9 +65,6 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
         if (page.path === '') {
           priority = '1.0';
           changefreq = 'daily';
-        } else if (page.path === '/test') {
-          priority = '0.8';
-          changefreq = 'weekly';
         }
         return {
           url: `${BASE_URL}/${locale}${page.path}`,

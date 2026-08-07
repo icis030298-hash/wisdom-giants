@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { AboutPageClient } from './about-client'
+import { Navigation } from '@/components/navigation'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -50,5 +51,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function AboutPage() {
-  return <AboutPageClient />
+  return (
+    <>
+      <Navigation />
+      <AboutPageClient />
+    </>
+  )
 }
