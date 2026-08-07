@@ -787,7 +787,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
               />
             </div>
             <div>
-              <h3 className="text-white font-serif font-bold">{localizedName}</h3>
+              <p className="text-white font-serif font-bold text-lg">{localizedName}</p>
               <p className="text-xs text-slate-500 font-light">{getEraTranslation(post.giantSlug || "", giant?.era || "") || (locale === 'ko' ? '기원전 1세기' : '1st Century BC')}</p>
             </div>
           </div>
@@ -919,9 +919,9 @@ export default async function BlogPostDetailPage({ params }: Props) {
                       <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold border mb-3 ${catColor}`}>
                         {catNames[p.category]}
                       </span>
-                      <h3 className="font-serif font-bold text-white group-hover:text-amber-400 transition-colors text-sm md:text-base leading-snug line-clamp-2 mb-2">
+                      <p className="font-serif font-bold text-white group-hover:text-amber-400 transition-colors text-sm md:text-base leading-snug line-clamp-2 mb-2">
                         {translation.title.replace(/\*\*/g, '')}
-                      </h3>
+                      </p>
                     </div>
                     <div className="flex items-center justify-between text-[10px] text-slate-500 mt-4 pt-3 border-t border-white/5">
                       <span>{rLocalizedName}</span>

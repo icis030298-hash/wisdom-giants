@@ -7,35 +7,35 @@ export async function generateMetadata(
   const metaMap: Record<string, { title: string; description: string }> = {
     ko: {
       title: '내 대화 목록',
-      description: '역사 속 위인들과 나눈 대화를 확인하세요.'
+      description: '과거의 지혜를 빌려 현재의 문제를 해결하세요. 역사 속 위인들과 나눈 대화 기록을 한눈에 확인하고 이어서 대화를 진행해 보세요.'
     },
     en: {
       title: 'My Conversations',
-      description: 'View your conversations with historical giants.'
+      description: 'View and resume your past conversations with historical giants and discover their wisdom.'
     },
     de: {
       title: 'Meine Gespräche',
-      description: 'Sehen Sie Ihre Gespräche mit historischen Persönlichkeiten.'
+      description: 'Sehen Sie Ihre Gespräche mit historischen Persönlichkeiten und führen Sie diese jederzeit fort.'
     },
     ja: {
       title: '私の会話',
-      description: '歴史上の偉人との会話を確認しましょう。'
+      description: '過去の知恵を借りて現在の問題を解決しましょう。歴史上の偉人との会話記録を一覧で確認し、いつでも会話を再開できます。'
     },
     es: {
       title: 'Mis Conversaciones',
-      description: 'Ve tus conversaciones con figuras históricas.'
+      description: 'Revisa y continúa tus conversaciones anteriores con las grandes figuras históricas del pasado.'
     },
     fr: {
       title: 'Mes Conversations',
-      description: 'Consultez vos conversations avec les grandes figures historiques.'
+      description: 'Consultez et reprenez vos conversations avec les grandes figures historiques du passé.'
     },
     it: {
       title: 'Le Mie Conversazioni',
-      description: 'Visualizza le tue conversazioni con le figure storiche.'
+      description: 'Visualizza e riprendi le tue conversazioni con le grandi figure storiche del passato.'
     },
     pt: {
       title: 'Minhas Conversas',
-      description: 'Veja suas conversas com as grandes figuras históricas.'
+      description: 'Veja e retome suas conversas anteriores com as grandes figuras históricas do passado.'
     }
   }
   const { locale } = await params;
@@ -55,14 +55,14 @@ export async function generateMetadata(
 export default async function ChatsLayout({ children, params }: { children: React.ReactNode, params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const metaMap: Record<string, { title: string; description: string }> = {
-    ko: { title: '내 대화 목록', description: '역사 속 위인들과 나눈 대화를 확인하세요.' },
-    en: { title: 'My Conversations', description: 'View your conversations with historical giants.' },
-    de: { title: 'Meine Gespräche', description: 'Sehen Sie Ihre Gespräche mit historischen Persönlichkeiten.' },
-    ja: { title: '私の会話', description: '歴史上の偉人との会話を確認しましょう。' },
-    es: { title: 'Mis Conversaciones', description: 'Ve tus conversaciones con figuras históricas.' },
-    fr: { title: 'Mes Conversations', description: 'Consultez vos conversations avec les grandes figures historiques.' },
-    it: { title: 'Le Mie Conversazioni', description: 'Visualizza le tue conversazioni con le figure storiche.' },
-    pt: { title: 'Minhas Conversas', description: 'Veja suas conversas com as grandes figuras históricas.' }
+    ko: { title: '내 대화 목록', description: '과거의 지혜를 빌려 현재의 문제를 해결하세요. 역사 속 위인들과 나눈 대화 기록을 한눈에 확인하고 이어서 대화를 진행해 보세요.' },
+    en: { title: 'My Conversations', description: 'View and resume your past conversations with historical giants and discover their wisdom.' },
+    de: { title: 'Meine Gespräche', description: 'Sehen Sie Ihre Gespräche mit historischen Persönlichkeiten und führen Sie diese jederzeit fort.' },
+    ja: { title: '私の会話', description: '過去の知恵を借りて現在の問題を解決しましょう。歴史上の偉人との会話記録を一覧で確認し、いつでも会話を再開できます。' },
+    es: { title: 'Mis Conversaciones', description: 'Revisa y continúa tus conversaciones anteriores con las grandes figuras históricas del pasado.' },
+    fr: { title: 'Mes Conversations', description: 'Consultez et reprenez vos conversations avec les grandes figures historiques du passé.' },
+    it: { title: 'Le Mie Conversazioni', description: 'Visualizza e riprendi le tue conversazioni con le grandi figure storiche del passato.' },
+    pt: { title: 'Minhas Conversas', description: 'Veja e retome suas conversas anteriores com as grandes figuras históricas do passado.' }
   }
   const meta = metaMap[locale] || metaMap['en'];
   const schema = {

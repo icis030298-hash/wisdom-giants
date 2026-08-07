@@ -47,17 +47,17 @@ const formatMessage = (content: string) => {
 };
 
 // Helper for Korean grammatical particle selection (Unicode batchim detection)
-const getKoreanParticle = (name: string, type: '이가' | '과와' | '은는' | '을를'): string => {
+const getKoreanParticle = (name: string, type: '?��?' | '과�?' | '?�?? | '?��?'): string => {
   if (!name) return "";
   const lastChar = name.charCodeAt(name.length - 1);
   if (lastChar >= 0xAC00 && lastChar <= 0xD7A3) {
     const hasBatchim = (lastChar - 0xAC00) % 28 > 0;
-    if (type === '이가') return hasBatchim ? '이' : '가';
-    if (type === '과와') return hasBatchim ? '과' : '와';
-    if (type === '은는') return hasBatchim ? '은' : '는';
-    if (type === '을를') return hasBatchim ? '을' : '를';
+    if (type === '?��?') return hasBatchim ? '?? : '가';
+    if (type === '과�?') return hasBatchim ? '�? : '?�';
+    if (type === '?�??) return hasBatchim ? '?�' : '??;
+    if (type === '?��?') return hasBatchim ? '?? : '�?;
   }
-  return type === '이가' ? '이(가)' : type === '과와' ? '과(와)' : '';
+  return type === '?��?' ? '??가)' : type === '과�?' ? '�??�)' : '';
 };
 
 // Highly optimized custom golden confetti canvas explosion component
@@ -238,7 +238,7 @@ export function DebateRoomClient() {
   const [phoneCarrier, setPhoneCarrier] = useState("SKT")
   const [phoneNumber, setPhoneNumber] = useState("")
   const [paymentProcessing, setPaymentProcessing] = useState(false)
-  const [paymentStep, setPaymentStep] = useState(0) // 0: 입력 폼, 1: 2초 지연 로딩 연출, 2: 성공 완료
+  const [paymentStep, setPaymentStep] = useState(0) // 0: ?�력 ?? 1: 2�?지??로딩 ?�출, 2: ?�공 ?�료
   const [paymentStepText, setPaymentStepText] = useState("")
   
   // AI Recommendation state
@@ -280,21 +280,21 @@ export function DebateRoomClient() {
 
   // Categories translation mapping
   const categoryNames: Record<string, string> = {
-    "All Giants": locale === "ko" ? "전체 위인" : "All Giants",
-    "leadership": locale === "ko" ? "정치·리더십" : "Leadership",
-    "science": locale === "ko" ? "과학·혁신" : "Science",
-    "philosophy": locale === "ko" ? "철학·사상" : "Philosophy",
-    "arts": locale === "ko" ? "문학·예술" : "Arts",
-    "society": locale === "ko" ? "인권·사회" : "Society",
-    "business": locale === "ko" ? "탐험·비즈니스" : "Business"
+    "All Giants": locale === "ko" ? "?�체 ?�인" : "All Giants",
+    "leadership": locale === "ko" ? "?�치·리더?? : "Leadership",
+    "science": locale === "ko" ? "과학·?�신" : "Science",
+    "philosophy": locale === "ko" ? "철학·?�상" : "Philosophy",
+    "arts": locale === "ko" ? "문학·?�술" : "Arts",
+    "society": locale === "ko" ? "?�권·?�회" : "Society",
+    "business": locale === "ko" ? "?�험·비즈?�스" : "Business"
   }
 
   const sampleTopics = t.raw("suggestedTopics") || [
-    "돈과 행복, 어느 것이 먼저인가?",
-    "현대 민주주의는 완벽한 제도인가?",
-    "AI가 인류를 구원할 것인가, 위협할 것인가?",
-    "전쟁은 때로 정당화될 수 있는가?",
-    "개인의 자유와 사회의 질서, 무엇이 우선인가?"
+    "?�과 ?�복, ?�느 것이 먼�??��??",
+    "?��? 민주주의???�벽???�도?��??",
+    "AI가 ?�류�?구원??것인가, ?�협??것인가?",
+    "?�쟁?� ?�로 ?�당?�될 ???�는가?",
+    "개인???�유?� ?�회??질서, 무엇???�선?��??"
   ]
   // Setup default giants for sample quickstart
   useEffect(() => {
@@ -380,8 +380,8 @@ export function DebateRoomClient() {
     const container = scrollContainerRef.current;
 
     if (isTypewriting) {
-      // 타이핑 중(스트리밍)일 때는 behavior: "auto" 로 부드러운 애니메이션 없이 즉시 스크롤하여
-      // 브라우저의 스크롤 스레드가 과부하 걸리지 않게 하고 사용자 휠 조작을 방해하지 않습니다.
+      // ?�?�핑 �??�트리밍)???�는 behavior: "auto" �?부?�러???�니메이???�이 즉시 ?�크롤하??
+      // 브라?��????�크�??�레?��? 과�???걸리지 ?�게 ?�고 ?�용????조작??방해?��? ?�습?�다.
       isAutoScrollingRef.current = true;
       container.scrollTop = container.scrollHeight;
       
@@ -389,7 +389,7 @@ export function DebateRoomClient() {
         isAutoScrollingRef.current = false;
       });
     } else {
-      // 메시지가 새로 추가되거나 상태가 끝났을 때는 부드럽게 스크롤
+      // 메시지가 ?�로 추�??�거???�태가 ?�났???�는 부?�럽�??�크�?
       isAutoScrollingRef.current = true;
       container.scrollTo({
         top: container.scrollHeight,
@@ -409,7 +409,7 @@ export function DebateRoomClient() {
     const container = scrollContainerRef.current;
     if (!container) return;
 
-    // 프로그램이 자동으로 스크롤을 처리하는 동안은 감지 무시
+    // ?�로그램???�동?�로 ?�크롤을 처리?�는 ?�안?� 감�? 무시
     if (isAutoScrollingRef.current) return;
 
     // If the distance from bottom is less than 60px, consider the user to be at the bottom
@@ -422,14 +422,14 @@ export function DebateRoomClient() {
     }
   }
 
-  // 사용자의 명시적인 마우스 휠 및 모바일 터치 이벤트 감지
+  // ?�용?�의 명시?�인 마우????�?모바???�치 ?�벤??감�?
   useEffect(() => {
     const container = scrollContainerRef.current;
     if (!container || stage !== 2) return;
 
     const handleWheel = (e: WheelEvent) => {
       if (e.deltaY < 0) {
-        // 위로 휠을 굴렸을 때 즉시 감지하여 자동 스크롤 일시 정지
+        // ?�로 ?�을 굴렸????즉시 감�??�여 ?�동 ?�크�??�시 ?��?
         setUserScrolledUp(true);
       }
     };
@@ -441,7 +441,7 @@ export function DebateRoomClient() {
 
     const handleTouchMove = (e: TouchEvent) => {
       const touchEndY = e.touches[0].clientY;
-      // 손가락을 아래로 쓸어내려 화면을 위로 올린 경우 (과거 메시지 스크롤 업)
+      // ?��??�을 ?�래�??�어?�려 ?�면???�로 ?�린 경우 (과거 메시지 ?�크�???
       if (touchEndY > touchStartY + 5) {
         setUserScrolledUp(true);
       }
@@ -458,12 +458,12 @@ export function DebateRoomClient() {
     };
   }, [stage]);
 
-  // 상태 변경 시 레이아웃 리플로우(Reflow)로 인한 스크롤 오판 방지용 잠금 훅
+  // ?�태 변�????�이?�웃 리플로우(Reflow)�??�한 ?�크�??�판 방�????�금 ??
   useEffect(() => {
     isAutoScrollingRef.current = true;
     const timer = setTimeout(() => {
       isAutoScrollingRef.current = false;
-    }, 150); // 레이아웃 재배치가 완전히 끝날 때까지 150ms 동안 스크롤 감지 잠금
+    }, 150); // ?�이?�웃 ?�배치�? ?�전???�날 ?�까지 150ms ?�안 ?�크�?감�? ?�금
     
     return () => clearTimeout(timer);
   }, [history, isTypewriting, isAiContemplating]);
@@ -590,7 +590,7 @@ export function DebateRoomClient() {
     } catch (err) {
       console.error("Debate engine error:", err);
       // Fallback response in case of API failure (display 'Thinking for a moment...')
-      const fallbackMsg = locale === "ko" ? "잠시 생각 중입니다..." : "Thinking for a moment...";
+      const fallbackMsg = locale === "ko" ? "?�시 ?�각 중입?�다..." : "Thinking for a moment...";
       startTypewriterAnimation(fallbackMsg, speaker);
     } finally {
       setIsAiContemplating(false);
@@ -605,7 +605,7 @@ export function DebateRoomClient() {
     const speed = 25; // ms per char
 
     const interval = setInterval(() => {
-      // slice 방식을 사용하여 리액트 비동기 batching에 의한 첫 글자 잘림 현상을 완벽 차단합니다.
+      // slice 방식???�용?�여 리액??비동�?batching???�한 �?글???�림 ?�상???�벽 차단?�니??
       setDisplayedText(fullText.slice(0, index + 1));
       index++;
 
@@ -615,7 +615,7 @@ export function DebateRoomClient() {
       }
     }, speed);
 
-    // 즉시 스킵 핸들러를 바인딩하여 유저가 탭하면 전체 텍스트가 완성되도록 돕습니다.
+    // 즉시 ?�킵 ?�들?��? 바인?�하???��?가 ??���??�체 ?�스?��? ?�성?�도�??�습?�다.
     typewriterIntervalRef.current = interval;
     typewriterSkipRef.current = () => {
       clearInterval(interval);
@@ -623,7 +623,7 @@ export function DebateRoomClient() {
     };
   }
 
-  // 대화 완료 및 히스토리 정식 등록 공통 처리 함수
+  // ?�???�료 �??�스?�리 ?�식 ?�록 공통 처리 ?�수
   const finalizeSpeech = (fullText: string, speaker: Giant) => {
     const newMsg: DebateMessage = {
       id: Date.now().toString(),
@@ -646,7 +646,7 @@ export function DebateRoomClient() {
           setStage(3);
         }, 1000);
       } else if (giantRounds % 3 === 0) {
-        // 3라운드 주기 관객 참여 세션 체크 (3, 6, 9라운드 완료 시)
+        // 3?�운??주기 관�?참여 ?�션 체크 (3, 6, 9?�운???�료 ??
         setTimeout(() => {
           setAutoDebateActive(false);
           setShowInteractionPrompt(true);
@@ -654,11 +654,11 @@ export function DebateRoomClient() {
           const moderatorMsg: DebateMessage = {
             id: (Date.now() + 1).toString(),
             speaker: "moderator",
-            speakerName: locale === "ko" ? "토론 사회자" : "Debate Moderator",
+            speakerName: locale === "ko" ? "?�론 ?�회?? : "Debate Moderator",
             speakerImage: "/images/moderator-avatar.png",
             speakerColor: "from-amber-500/20 to-yellow-500/20",
             content: locale === "ko" 
-              ? "자, 위인들의 열띤 논쟁이 이어지고 있습니다. 이 흥미진진한 주제에 대해 귀하의 생각은 어떠신가요? 혹시 할 말씀이 있으신가요?"
+              ? "?? ?�인?�의 ?�띤 ?�쟁???�어지�??�습?�다. ???��?진진??주제???�??귀?�의 ?�각?� ?�떠?��??? ?�시 ??말�????�으?��???"
               : "The debate is heating up! What are your thoughts on this fascinating topic? Would you like to share your perspective?",
             timestamp: new Date()
           };
@@ -686,8 +686,8 @@ export function DebateRoomClient() {
     sendingInterjectionRef.current = true;
     setShowInteractionPrompt(false);
 
-    // 만약 현재 다른 위인이 타이핑 중(isTypewriting)이라면, 
-    // 하던 말을 즉시 완료(Skip) 처리하고 유저 개입 대화를 그 아래에 즉각 주입합니다.
+    // 만약 ?�재 ?�른 ?�인???�?�핑 �?isTypewriting)?�라�? 
+    // ?�던 말을 즉시 ?�료(Skip) 처리?�고 ?��? 개입 ?�?��? �??�래??즉각 주입?�니??
     if (isTypewriting && typewriterSkipRef.current) {
       typewriterSkipRef.current();
     }
@@ -696,7 +696,7 @@ export function DebateRoomClient() {
     const userMessage: DebateMessage = {
       id: Date.now().toString(),
       speaker: "user",
-      speakerName: locale === "ko" ? "관객 (나)" : "Audience (You)",
+      speakerName: locale === "ko" ? "관�?(??" : "Audience (You)",
       speakerImage: "/images/user-avatar.png", // Fallback or placeholder
       speakerColor: "from-amber-500/20 to-orange-500/20",
       content: interjectInput,
@@ -756,20 +756,20 @@ export function DebateRoomClient() {
   const handleProcessPayment = () => {
     setPaymentProcessing(true);
     setPaymentStep(1);
-    setPaymentStepText(locale === "ko" ? "🔒 안전한 결제 게이트웨이 연결 중..." : "🔒 Connecting to secure gateway...");
+    setPaymentStepText(locale === "ko" ? "?�� ?�전??결제 게이?�웨???�결 �?.." : "?�� Connecting to secure gateway...");
 
-    // Step 1.1: 700ms 후 카드사/통신사 승인 단계 노출
+    // Step 1.1: 700ms ??카드???�신???�인 ?�계 ?�출
     setTimeout(() => {
       setPaymentStepText(
         paymentMethod === "card"
-          ? (locale === "ko" ? "💳 카드사 거래 승인 요청 중..." : "💳 Requesting card issuer approval...")
-          : (locale === "ko" ? "📱 통신사 한도 조회 및 인증 확인 중..." : "📱 Verifying carrier authentication...")
+          ? (locale === "ko" ? "?�� 카드??거래 ?�인 ?�청 �?.." : "?�� Requesting card issuer approval...")
+          : (locale === "ko" ? "?�� ?�신???�도 조회 �??�증 ?�인 �?.." : "?�� Verifying carrier authentication...")
       );
     }, 700);
 
-    // Step 1.2: 1400ms 후 락 해제 단계 노출
+    // Step 1.2: 1400ms ?????�제 ?�계 ?�출
     setTimeout(() => {
-      setPaymentStepText(locale === "ko" ? "✨ 최종 토론 데이터 락 해제 중..." : "✨ Unlocking debate data...");
+      setPaymentStepText(locale === "ko" ? "??최종 ?�론 ?�이?????�제 �?.." : "??Unlocking debate data...");
     }, 1400);
 
     // Simulate multi-step secure payment server verification delay (2000ms total)
@@ -887,7 +887,7 @@ export function DebateRoomClient() {
                   }`}
                 >
                   <Users className="w-4 h-4" />
-                  {locale === "ko" ? "위인 직접 선택" : t("selfSelect")}
+                  {locale === "ko" ? "?�인 직접 ?�택" : t("selfSelect")}
                 </button>
                 <button
                   onClick={() => setSetupMode("ai")}
@@ -898,7 +898,7 @@ export function DebateRoomClient() {
                   }`}
                 >
                   <Sparkles className="w-4 h-4" />
-                  {locale === "ko" ? "AI 위인 추천" : t("aiRecommend")}
+                  {locale === "ko" ? "AI ?�인 추천" : t("aiRecommend")}
                 </button>
               </div>
 
@@ -920,7 +920,7 @@ export function DebateRoomClient() {
                       ) : (
                         <Sparkles className="w-3.5 h-3.5" />
                       )}
-                      {locale === "ko" ? "토론 패널 구성하기" : t("aiRecommend")}
+                      {locale === "ko" ? "?�론 ?�널 구성?�기" : t("aiRecommend")}
                     </button>
                   )}
                 </div>
@@ -935,7 +935,7 @@ export function DebateRoomClient() {
                 {/* Sample Topics Chip list */}
                 <div className="space-y-2">
                   <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block">
-                    {locale === "ko" ? "💡 이런 주제로 토론해 보세요" : "💡 Suggested Topics"}
+                    {locale === "ko" ? "?�� ?�런 주제�??�론??보세?? : "?�� Suggested Topics"}
                   </span>
                   <div className="flex flex-wrap gap-2">
                     {sampleTopics.map((item: string, i: number) => (
@@ -959,10 +959,10 @@ export function DebateRoomClient() {
               {setupMode === "self" && (
                 <div className="glass-card p-6 rounded-3xl border border-white/10 space-y-6 bg-slate-900/30">
                   <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-                    <h3 className="text-sm font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2">
+                    <p className="text-sm font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2">
                       <Users className="w-4 h-4 text-amber-400/60" />
                       {t("selectGiants")}
-                    </h3>
+                    </p>
                     <span className="text-xs font-semibold px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-300">
                       {t("selectedCount", { count: selectedGiants.length })}
                     </span>
@@ -972,7 +972,7 @@ export function DebateRoomClient() {
                   <div className="flex flex-col sm:flex-row gap-3">
                     <input
                       type="text"
-                      placeholder={tc("searchPlaceholder") || "위인 이름으로 검색..."}
+                      placeholder={tc("searchPlaceholder") || "?�인 ?�름?�로 검??.."}
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
                       className="flex-1 px-4 py-2.5 rounded-xl glass bg-slate-950/60 border border-white/10 text-xs focus:outline-none focus:border-amber-500/40"
@@ -1041,15 +1041,15 @@ export function DebateRoomClient() {
               {/* AI Recommendation Mode results UI */}
               {setupMode === "ai" && (topic.trim() && (aiIntro || aiLoading || aiRecommendations.length > 0)) && (
                 <div className="glass-card p-6 rounded-3xl border border-white/10 space-y-4 bg-slate-900/30">
-                  <h3 className="text-sm font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2">
+                  <p className="text-sm font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2">
                     <Sparkles className="w-4 h-4 text-amber-400/60" />
                     {t("aiRecommendTitle")}
-                  </h3>
+                  </p>
 
                   {aiLoading ? (
                     <div className="flex flex-col items-center justify-center py-12 gap-3 text-slate-400">
                       <div className="w-8 h-8 border-4 border-amber-500/30 border-t-amber-500 rounded-full animate-spin" />
-                      <span className="text-xs font-semibold">{locale === "ko" ? "최고의 토론 패널을 구성하는 중..." : "Selecting the best debate panel..."}</span>
+                      <span className="text-xs font-semibold">{locale === "ko" ? "최고???�론 ?�널??구성?�는 �?.." : "Selecting the best debate panel..."}</span>
                     </div>
                   ) : aiError ? (
                     <div className="flex items-center gap-2 p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-400 text-xs">
@@ -1093,9 +1093,9 @@ export function DebateRoomClient() {
             {/* Right Column: Sticky Summary & Action Panel */}
             <div className="space-y-6">
               <div className="glass-card p-6 rounded-3xl border border-white/10 bg-slate-900/50 sticky top-24 max-h-[calc(100vh-120px)] overflow-y-auto custom-scrollbar flex flex-col space-y-6 shadow-xl shadow-slate-950/50">
-                <h3 className="text-sm font-bold uppercase tracking-wider text-slate-400 pb-3 border-b border-white/5 shrink-0">
-                  {locale === "ko" ? "토론방 개요" : "Debate Setup Overview"}
-                </h3>
+                <p className="text-sm font-bold uppercase tracking-wider text-slate-400 pb-3 border-b border-white/5 shrink-0">
+                  {locale === "ko" ? "?�론�?개요" : "Debate Setup Overview"}
+                </p>
 
                 {/* Panel Details */}
                 <div className="space-y-4 flex-1">
@@ -1104,13 +1104,13 @@ export function DebateRoomClient() {
                       {t("enterTopic")}
                     </span>
                     <p className="text-sm text-slate-200 line-clamp-3 bg-slate-950/40 p-3 rounded-xl border border-white/5 min-h-[50px] leading-relaxed">
-                      {topic.trim() ? topic : (locale === "ko" ? "아직 주제가 설정되지 않았습니다." : "No topic set yet.")}
+                      {topic.trim() ? topic : (locale === "ko" ? "?�직 주제가 ?�정?��? ?�았?�니??" : "No topic set yet.")}
                     </p>
                   </div>
 
                   <div>
                     <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider block mb-2">
-                      {locale === "ko" ? "참여 위인 목록" : "Participating Giants"}
+                      {locale === "ko" ? "참여 ?�인 목록" : "Participating Giants"}
                     </span>
                     {selectedGiants.length > 0 ? (
                       <div className="space-y-2">
@@ -1135,7 +1135,7 @@ export function DebateRoomClient() {
                     ) : (
                       <div className="p-4 rounded-xl border border-dashed border-white/10 text-center text-xs text-slate-300 leading-relaxed bg-slate-950/20">
                         {setupMode === "ai" 
-                          ? (locale === "ko" ? "💡 토론 주제를 입력하고 [토론 패널 구성하기]를 누르면 AI가 완벽한 위인들을 매칭해 줍니다!" : "💡 Enter a topic and click [Match Debate Panel] to let AI select the giants!") 
+                          ? (locale === "ko" ? "?�� ?�론 주제�??�력?�고 [?�론 ?�널 구성?�기]�??�르�?AI가 ?�벽???�인?�을 매칭??줍니??" : "?�� Enter a topic and click [Match Debate Panel] to let AI select the giants!") 
                           : t("minRequired")}
                       </div>
                     )}
@@ -1172,7 +1172,7 @@ export function DebateRoomClient() {
                   {t("title")}
                 </span>
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400">
-                  {locale === "ko" ? `토론 라운드: ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / ${maxRounds}` : `Round: ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / ${maxRounds}`}
+                  {locale === "ko" ? `?�론 ?�운?? ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / ${maxRounds}` : `Round: ${history.filter(h => h.speaker !== "user" && h.speaker !== "moderator").length} / ${maxRounds}`}
                 </span>
               </div>
               <h2 className="font-serif font-black text-slate-200 text-base md:text-lg leading-tight line-clamp-2">
@@ -1214,8 +1214,8 @@ export function DebateRoomClient() {
                   <Swords className="w-6 h-6 text-amber-400" />
                 </div>
                 <div className="space-y-1">
-                  <h4 className="font-bold text-sm text-slate-300">{locale === "ko" ? "토론이 곧 시작됩니다" : "Debate is about to begin"}</h4>
-                  <p className="text-xs max-w-xs">{locale === "ko" ? "위인들이 첫 마디를 나누기 위해 생각을 가다듬고 있습니다." : "Giants are collecting their thoughts for the opening arguments."}</p>
+                  <h4 className="font-bold text-sm text-slate-300">{locale === "ko" ? "?�론??�??�작?�니?? : "Debate is about to begin"}</h4>
+                  <p className="text-xs max-w-xs">{locale === "ko" ? "?�인?�이 �?마디�??�누�??�해 ?�각??가?�듬�??�습?�다." : "Giants are collecting their thoughts for the opening arguments."}</p>
                 </div>
               </div>
             )}
@@ -1231,7 +1231,7 @@ export function DebateRoomClient() {
                     <div className="max-w-xl w-full text-center space-y-3 px-4">
                       {/* Host Header */}
                       <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-amber-500/15 via-purple-500/15 to-amber-500/15 border border-amber-500/40 text-amber-400 text-[10px] font-black uppercase tracking-wider shadow-sm">
-                        <span className="animate-pulse">🎙️</span>
+                        <span className="animate-pulse">?���?/span>
                         {msg.speakerName}
                       </div>
                       
@@ -1254,7 +1254,7 @@ export function DebateRoomClient() {
                     <div className="max-w-xl w-full text-center space-y-2 px-4">
                       {/* Audience (Me) Header */}
                       <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 text-[9px] font-black uppercase tracking-wider">
-                        <span>👤</span>
+                        <span>?��</span>
                         {msg.speakerName}
                       </div>
                       
@@ -1328,11 +1328,11 @@ export function DebateRoomClient() {
                     className={`px-5 py-4 rounded-3xl shadow-lg leading-relaxed border border-amber-500/30 text-slate-100 text-sm bg-slate-900/60 cursor-pointer hover:border-amber-400 transition-colors relative group ${
                       history.length % 2 === 0 ? "rounded-tl-none" : "rounded-tr-none"
                     }`}
-                    title={locale === "ko" ? "클릭 시 즉시 전체 보기" : "Click to view full text immediately"}
+                    title={locale === "ko" ? "?�릭 ??즉시 ?�체 보기" : "Click to view full text immediately"}
                   >
                     <p className="whitespace-pre-wrap">{formatMessage(displayedText)}</p>
                     <span className="absolute bottom-1.5 right-3 text-[9px] text-amber-500/40 opacity-0 group-hover:opacity-100 transition-opacity">
-                      {locale === "ko" ? "클릭 시 건너뛰기 ⚡" : "Click to Skip ⚡"}
+                      {locale === "ko" ? "?�릭 ??건너?�기 ?? : "Click to Skip ??}
                     </span>
                   </div>
                 </div>
@@ -1351,7 +1351,7 @@ export function DebateRoomClient() {
                     </div>
                     <span className="text-[11px] text-slate-400 ml-2 font-medium">
                       {locale === "ko"
-                        ? `${(tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0]}${getKoreanParticle((tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0], "이가")} 생각 중...`
+                        ? `${(tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0]}${getKoreanParticle((tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0], "?��?")} ?�각 �?..`
                         : t("thinking", { name: (tg(`${selectedGiants[currentSpeakerIndex].slug}.name`) || selectedGiants[currentSpeakerIndex].name).split(" ")[0] })}
                     </span>
                   </div>
@@ -1380,7 +1380,7 @@ export function DebateRoomClient() {
                 className="px-4 py-2 rounded-full bg-amber-500 text-slate-950 font-black text-xs shadow-xl shadow-amber-500/20 border border-amber-400/50 hover:bg-amber-400 active:scale-95 transition-all flex items-center gap-1.5 cursor-pointer"
               >
                 <ChevronDown className="w-3.5 h-3.5" />
-                {locale === "ko" ? "최근 토론 내용으로 가기" : "Scroll to Bottom"}
+                {locale === "ko" ? "최근 ?�론 ?�용?�로 가�? : "Scroll to Bottom"}
               </button>
             </div>
           )}
@@ -1396,8 +1396,8 @@ export function DebateRoomClient() {
                   }}
                   className="flex-1 py-3 px-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-extrabold text-xs transition-all flex items-center justify-center gap-2 shadow-lg shadow-amber-500/10 cursor-pointer"
                 >
-                  <span>📝</span>
-                  {locale === "ko" ? "직접 의견 적어 개입하기" : "Share My Own Opinion"}
+                  <span>?��</span>
+                  {locale === "ko" ? "직접 ?�견 ?�어 개입?�기" : "Share My Own Opinion"}
                 </button>
                 <button
                   onClick={() => {
@@ -1406,8 +1406,8 @@ export function DebateRoomClient() {
                   }}
                   className="flex-1 py-3 px-4 rounded-2xl glass hover:bg-white/5 text-slate-200 border border-white/10 font-bold text-xs transition-all flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <span>⏭️</span>
-                  {locale === "ko" ? "AI 토론 계속 감상하기" : "Continue AI Debate"}
+                  <span>??��</span>
+                  {locale === "ko" ? "AI ?�론 계속 감상?�기" : "Continue AI Debate"}
                 </button>
               </div>
             )}
@@ -1463,7 +1463,7 @@ export function DebateRoomClient() {
                 }}
                 className="px-4 py-2 rounded-xl text-slate-400 hover:text-slate-200 text-xs font-semibold hover:bg-white/5 transition-all cursor-pointer"
               >
-                {locale === "ko" ? "← 설정으로" : "← Back to Setup"}
+                {locale === "ko" ? "???�정?�로" : "??Back to Setup"}
               </button>
               
               <div className="flex items-center gap-2">
@@ -1485,7 +1485,7 @@ export function DebateRoomClient() {
           <div className="text-center space-y-3">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold uppercase tracking-widest">
               <Trophy className="w-3.5 h-3.5" />
-              {locale === "ko" ? "토론이 종료되었습니다" : "Debate Concluded"}
+              {locale === "ko" ? "?�론??종료?�었?�니?? : "Debate Concluded"}
             </div>
             <h1 className="text-3xl md:text-5xl font-serif font-black text-slate-200">
               {t("summaryTitle")}
@@ -1496,68 +1496,68 @@ export function DebateRoomClient() {
           </div>
 
           <div className="relative rounded-[2.5rem] overflow-hidden">
-            {/* 1. 프리미엄 잠금 화면 */}
+            {/* 1. ?�리미엄 ?�금 ?�면 */}
             {!hasPremiumPass && (
               <div className="absolute inset-0 z-30 flex items-center justify-center p-4 bg-slate-950/45 backdrop-blur-[6px] rounded-[2.5rem] animate-fade-in transition-all duration-700">
                 <div className="max-w-md w-full glass-card p-8 rounded-[2rem] border border-amber-500/30 bg-slate-950/95 shadow-2xl text-center space-y-6 animate-slide-up">
-                  {/* 자물쇠 골드 아이콘 */}
+                  {/* ?�물??골드 ?�이�?*/}
                   <div className="mx-auto w-14 h-14 rounded-full bg-gradient-to-tr from-amber-500 to-yellow-400 flex items-center justify-center shadow-lg shadow-amber-500/20 animate-pulse">
-                    <span className="text-xl">🔒</span>
+                    <span className="text-xl">?��</span>
                   </div>
                   
                   <div className="space-y-2">
-                    <h3 className="text-lg font-serif font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-400">
-                      {locale === "ko" ? "토론 분석 및 카드 다운로드 잠김" : "Debate Analysis & Card Locked"}
-                    </h3>
+                    <p className="text-lg font-serif font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-400">
+                      {locale === "ko" ? "?�론 분석 �?카드 ?�운로드 ?��?" : "Debate Analysis & Card Locked"}
+                    </p>
                     <p className="text-slate-400 text-[11px] leading-relaxed">
                       {locale === "ko" 
-                        ? "위인들의 심도 깊은 통찰이 집약된 최종 분석 리포트와 소셜 공유용 고화질 카드를 이용해 보세요." 
+                        ? "?�인?�의 ?�도 깊�? ?�찰??집약??최종 분석 리포?��? ?�셜 공유??고화�?카드�??�용??보세??" 
                         : "Unlock key summary reports of historical giants and premium sharing card download features."}
                     </p>
                   </div>
 
-                  {/* 상품 카드 구성 */}
+                  {/* ?�품 카드 구성 */}
                   <div className="space-y-3">
-                    {/* 상품 A: 5라운드 연장 */}
+                    {/* ?�품 A: 5?�운???�장 */}
                     <button 
                       onClick={() => handleOpenCheckout("extend")}
                       className="w-full p-4 rounded-2xl border border-white/10 hover:border-amber-500/40 bg-white/5 hover:bg-amber-500/5 transition-all text-left flex justify-between items-center group cursor-pointer"
                     >
                       <div className="pr-4">
                         <div className="font-bold text-xs text-slate-200">
-                          {locale === "ko" ? "[1회 토론 5라운드 더 연장하기] — ₩990" : "[Extend 5 More Rounds for This Debate] — ₩990"}
+                          {locale === "ko" ? "[1???�론 5?�운?????�장?�기] ????90" : "[Extend 5 More Rounds for This Debate] ????90"}
                         </div>
                         <div className="text-[9px] text-slate-500 mt-0.5 text-left leading-normal">
                           {locale === "ko" 
-                            ? "현재 토론을 5라운드 더 추가하여 대화를 이어갑니다." 
+                            ? "?�재 ?�론??5?�운????추�??�여 ?�?��? ?�어갑니??" 
                             : "Add 5 more rounds to the current debate and resume discussion."}
                         </div>
                       </div>
                       <div className="text-right shrink-0">
-                        <div className="text-xs font-black text-amber-400">₩990</div>
+                        <div className="text-xs font-black text-amber-400">??90</div>
                       </div>
                     </button>
 
-                    {/* 상품 B: 무제한 패스 */}
+                    {/* ?�품 B: 무제???�스 */}
                     <button 
                       onClick={() => handleOpenCheckout("unlimited")}
                       className="w-full p-4 rounded-2xl border-2 border-amber-500/20 hover:border-amber-500/50 bg-gradient-to-r from-amber-500/5 to-orange-500/5 hover:from-amber-500/10 hover:to-orange-500/10 transition-all text-left flex justify-between items-center group cursor-pointer relative overflow-hidden"
                     >
                       <div className="absolute top-0 right-10 px-2 py-0.5 bg-amber-500 text-slate-950 font-black text-[7px] rounded-b uppercase tracking-widest">
-                        BEST 🔥
+                        BEST ?��
                       </div>
                       <div className="pr-4">
                         <div className="font-bold text-xs text-amber-300">
-                          {locale === "ko" ? "[무제한 프리미엄 패스 구독] — ₩4,900/월" : "[Unlimited Premium Pass Subscription] — ₩4,900/mo"}
+                          {locale === "ko" ? "[무제???�리미엄 ?�스 구독] ????,900/?? : "[Unlimited Premium Pass Subscription] ????,900/mo"}
                         </div>
                         <div className="text-[9px] text-slate-400 mt-0.5 text-left leading-normal">
                           {locale === "ko" 
-                            ? "평생 모든 토론 요약 해제 및 무제한 이미지 다운로드" 
+                            ? "?�생 모든 ?�론 ?�약 ?�제 �?무제???��?지 ?�운로드" 
                             : "Permanently unlock all debate summaries and unlimited card downloads."}
                         </div>
                       </div>
                       <div className="text-right shrink-0">
-                        <div className="text-xs font-black text-amber-400">{locale === "ko" ? "₩4,900/월" : "₩4,900/mo"}</div>
+                        <div className="text-xs font-black text-amber-400">{locale === "ko" ? "??,900/?? : "??,900/mo"}</div>
                       </div>
                     </button>
                   </div>
@@ -1565,7 +1565,7 @@ export function DebateRoomClient() {
               </div>
             )}
 
-            {/* 2. 블러 처리될 기존 결과 콘텐츠 */}
+            {/* 2. 블러 처리??기존 결과 콘텐�?*/}
             <div 
               style={{ transitionTimingFunction: "cubic-bezier(0.16, 1, 0.3, 1)" }}
               className={`grid grid-cols-1 md:grid-cols-12 gap-8 items-start transition-all duration-1000 ${
@@ -1588,9 +1588,9 @@ export function DebateRoomClient() {
                     <span className="text-[10px] font-black tracking-widest text-amber-400 uppercase">
                       Giants Wisdom
                     </span>
-                    <h3 className="font-serif font-extrabold text-lg text-slate-200">
-                      ⚔️ {locale === "ko" ? "역사의 토론" : "Historical Debate"}
-                    </h3>
+                    <p className="font-serif font-extrabold text-lg text-slate-200">
+                      ?�️ {locale === "ko" ? "??��???�론" : "Historical Debate"}
+                    </p>
                   </div>
                   <div className="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center shrink-0">
                     <Swords className="w-5 h-5 text-slate-950 stroke-[2.5]" />
@@ -1601,7 +1601,7 @@ export function DebateRoomClient() {
                 <div className="relative z-10 flex-1 flex flex-col justify-center py-6 space-y-6">
                   <div className="space-y-2">
                     <span className="text-[9px] font-extrabold text-slate-500 tracking-wider uppercase block">
-                      {locale === "ko" ? "토론 주제" : "Debate Topic"}
+                      {locale === "ko" ? "?�론 주제" : "Debate Topic"}
                     </span>
                     <h2 className="font-serif font-black text-xl md:text-2xl text-slate-100 leading-tight">
                       &ldquo;{topic}&rdquo;
@@ -1639,7 +1639,7 @@ export function DebateRoomClient() {
                 <div className="relative z-10 pt-6 border-t border-white/10 flex items-center justify-between gap-4">
                   <div className="space-y-0.5">
                     <p className="text-[9px] font-extrabold text-slate-400 uppercase tracking-widest">
-                      {locale === "ko" ? "나와 닮은 위인과 대화하고 싶다면?" : "Want to chat with your giant match?"}
+                      {locale === "ko" ? "?��? ??? ?�인�??�?�하�??�다�?" : "Want to chat with your giant match?"}
                     </p>
                     <p className="text-xs font-bold text-amber-400">giantswisdom.com/{locale}/debate</p>
                   </div>
@@ -1656,7 +1656,7 @@ export function DebateRoomClient() {
                   className="flex-1 py-4 rounded-2xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm tracking-wider flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-amber-500/10"
                 >
                   <Download className="w-4 h-4" />
-                  {locale === "ko" ? "카드 저장하기" : "Save Image Card"}
+                  {locale === "ko" ? "카드 ?�?�하�? : "Save Image Card"}
                 </button>
                 <button
                   onClick={() => setStage(1)}
@@ -1670,10 +1670,10 @@ export function DebateRoomClient() {
             {/* Right: Key highlights summary text panel */}
             <div className="md:col-span-5 space-y-6">
               <div className="glass-card p-6 rounded-3xl border border-white/10 bg-slate-900/50 space-y-4">
-                <h3 className="text-sm font-bold uppercase tracking-wider text-amber-400 pb-3 border-b border-white/5 flex items-center gap-2">
+                <p className="text-sm font-bold uppercase tracking-wider text-amber-400 pb-3 border-b border-white/5 flex items-center gap-2">
                   <Compass className="w-4 h-4 text-amber-400/60" />
-                  {locale === "ko" ? "토론 핵심 분석" : "Key Arguments Log"}
-                </h3>
+                  {locale === "ko" ? "?�론 ?�심 분석" : "Key Arguments Log"}
+                </p>
 
                 <div className="space-y-4 max-h-[420px] overflow-y-auto pr-2 custom-scrollbar">
                   {history
@@ -1704,13 +1704,13 @@ export function DebateRoomClient() {
             <div className="flex items-center justify-between pb-3 border-b border-white/5 relative z-10">
               <div className="space-y-1">
                 <span className="text-[9px] font-extrabold uppercase tracking-widest text-amber-500 flex items-center gap-1.5">
-                  🛡️ Secure Checkout
+                  ?���?Secure Checkout
                 </span>
-                <h3 className="font-serif font-black text-slate-200 text-base">
+                <p className="font-serif font-black text-slate-200 text-base">
                   {paymentType === "extend" 
-                    ? (locale === "ko" ? "5라운드 토론 더 연장" : "Extend 5 Debate Rounds")
-                    : (locale === "ko" ? "무제한 토론 패스 개방" : "Unlimited Debate Pass")}
-                </h3>
+                    ? (locale === "ko" ? "5?�운???�론 ???�장" : "Extend 5 Debate Rounds")
+                    : (locale === "ko" ? "무제???�론 ?�스 개방" : "Unlimited Debate Pass")}
+                </p>
               </div>
               <button 
                 onClick={() => !paymentProcessing && setShowPaymentModal(false)}
@@ -1734,7 +1734,7 @@ export function DebateRoomClient() {
                         : "text-slate-400 hover:text-slate-200"
                     }`}
                   >
-                    {locale === "ko" ? "신용/체크카드" : "Credit Card"}
+                    {locale === "ko" ? "?�용/체크카드" : "Credit Card"}
                   </button>
                   <button
                     onClick={() => setPaymentMethod("phone")}
@@ -1744,7 +1744,7 @@ export function DebateRoomClient() {
                         : "text-slate-400 hover:text-slate-200"
                     }`}
                   >
-                    {locale === "ko" ? "휴대폰 소액결제" : "Mobile Payment"}
+                    {locale === "ko" ? "?��????�액결제" : "Mobile Payment"}
                   </button>
                 </div>
 
@@ -1766,7 +1766,7 @@ export function DebateRoomClient() {
                     <div className="grid grid-cols-2 gap-4">
                       <div className="space-y-1.5">
                         <label className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
-                          {locale === "ko" ? "유효기간" : "Expiry Date"}
+                          {locale === "ko" ? "?�효기간" : "Expiry Date"}
                         </label>
                         <input
                           type="text"
@@ -1795,7 +1795,7 @@ export function DebateRoomClient() {
                   <div className="space-y-4">
                     <div className="space-y-1.5">
                       <label className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
-                        {locale === "ko" ? "통신사" : "Carrier"}
+                        {locale === "ko" ? "?�신?? : "Carrier"}
                       </label>
                       <select
                         value={phoneCarrier}
@@ -1805,12 +1805,12 @@ export function DebateRoomClient() {
                         <option value="SKT">SKT</option>
                         <option value="KT">KT</option>
                         <option value="LGU+">LG U+</option>
-                        <option value="HELLOMOBILE">{locale === "ko" ? "알뜰폰" : "MVNO"}</option>
+                        <option value="HELLOMOBILE">{locale === "ko" ? "?�뜰?? : "MVNO"}</option>
                       </select>
                     </div>
                     <div className="space-y-1.5">
                       <label className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">
-                        {locale === "ko" ? "휴대폰 번호" : "Phone Number"}
+                        {locale === "ko" ? "?��???번호" : "Phone Number"}
                       </label>
                       <input
                         type="text"
@@ -1835,8 +1835,8 @@ export function DebateRoomClient() {
                 >
                   <Check className="w-4 h-4 stroke-[3]" />
                   {paymentType === "extend" 
-                    ? (locale === "ko" ? "₩990 안전 결제하기" : "Pay ₩990 Securely")
-                    : (locale === "ko" ? "₩4,900/월 안전 결제하기" : "Pay ₩4,900/mo Securely")}
+                    ? (locale === "ko" ? "??90 ?�전 결제?�기" : "Pay ??90 Securely")
+                    : (locale === "ko" ? "??,900/???�전 결제?�기" : "Pay ??,900/mo Securely")}
                 </button>
               </div>
             )}
@@ -1850,7 +1850,7 @@ export function DebateRoomClient() {
                 </div>
                 <div className="space-y-1">
                   <h4 className="font-bold text-xs text-slate-300">
-                    {locale === "ko" ? "결제 승인 중..." : "Processing Payment..."}
+                    {locale === "ko" ? "결제 ?�인 �?.." : "Processing Payment..."}
                   </h4>
                   <p className="text-[10px] text-slate-500 animate-pulse">
                     {paymentStepText}
@@ -1867,12 +1867,12 @@ export function DebateRoomClient() {
                 </div>
                 <div className="space-y-1">
                   <h4 className="font-serif font-black text-emerald-400 text-sm">
-                    {locale === "ko" ? "결제 성공! 🎉" : "Payment Successful! 🎉"}
+                    {locale === "ko" ? "결제 ?�공! ?��" : "Payment Successful! ?��"}
                   </h4>
                   <p className="text-[10px] text-slate-400">
                     {paymentType === "extend"
-                      ? (locale === "ko" ? "5라운드가 연장되어 토론이 곧 재개됩니다." : "5 rounds extended. Debate will resume shortly.")
-                      : (locale === "ko" ? "위인들의 모든 요약 보고서 락이 해제되었습니다." : "All premium features successfully unlocked.")}
+                      ? (locale === "ko" ? "5?�운?��? ?�장?�어 ?�론??�??�개?�니??" : "5 rounds extended. Debate will resume shortly.")
+                      : (locale === "ko" ? "?�인?�의 모든 ?�약 보고???�이 ?�제?�었?�니??" : "All premium features successfully unlocked.")}
                   </p>
                 </div>
               </div>

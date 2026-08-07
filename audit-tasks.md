@@ -1,15 +1,15 @@
 # Site audit — actionable tasks
 
-- Target: `https://www.giantswisdom.com`
-- Run: 2026-08-07T11:17:22.628Z → 2026-08-07T11:25:20.145Z
+- Target: `http://localhost:3001`
+- Run: 2026-08-07T12:47:06.178Z → 2026-08-07T13:08:03.608Z
 - Stages: 1, 2, 3, 4
-- Findings: **1555** across **8** types
+- Findings: **470** across **5** types
 
 Detail for every finding is in `audit-report.json`.
 
 ## Heading levels skip a level
 
-`heading-skip` — **984** affected
+`heading-skip` — **344** affected
 
 **What is wrong.** Screen-reader users navigate by heading level; a jump from h2 to h4 hides structure. Lighthouse accessibility flags it. Note the checker reports only the FIRST skip per page, so one page can hide several — fix the earliest and re-run.
 
@@ -19,17 +19,17 @@ Detail for every finding is in `audit-report.json`.
 
 **Examples**
 
-- `https://www.giantswisdom.com/ar/giant/katsushika-hokusai` — h2 followed by h4 — full order: h1 > h2 > h2 > h4 > h4
-- `https://www.giantswisdom.com/ar/giant/sun-yat-sen` — h2 followed by h4 — full order: h1 > h2 > h2 > h4 > h4
-- `https://www.giantswisdom.com/ar/giant/harriet-beecher-stowe` — h2 followed by h4 — full order: h1 > h2 > h2 > h4 > h4
-- `https://www.giantswisdom.com/ar/giant/machiavelli` — h2 followed by h4 — full order: h1 > h2 > h2 > h4 > h4
-- `https://www.giantswisdom.com/ar/giant/napoleon-bonaparte` — h2 followed by h4 — full order: h1 > h2 > h2 > h4 > h4
-- …and 979 more (see audit-report.json)
+- `http://localhost:3001/ar/debate` — h1 followed by h3 — full order: h1 > h3 > h3 > h2 > h3 > h3 > h3 > h3 > h2
+- `http://localhost:3001/de/blog/rockefeller-monopoly-guide` — h1 followed by h3 — full order: h1 > h3 > h2 > h2 > h2 > h2 > h2 > h2 > h3 > h3 > h3 > h2
+- `http://localhost:3001/de/blog/feynman-technique-learning` — h1 followed by h3 — full order: h1 > h3 > h2 > h2 > h2 > h2 > h2 > h2 > h2 > h3 > h3 > h3 > h2
+- `http://localhost:3001/de/blog/da-vinci-time-management` — h1 followed by h3 — full order: h1 > h3 > h2 > h2 > h2 > h2 > h2 > h2 > h2 > h3 > h3 > h3 > h2
+- `http://localhost:3001/de/blog/overwhelm-focus` — h1 followed by h3 — full order: h1 > h3 > h2 > h2 > h2 > h2 > h2 > h2 > h2 > h3 > h3 > h3 > h2
+- …and 339 more (see audit-report.json)
 
 **Reproduce**
 
 ```bash
-curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "https://www.giantswisdom.com/ar/giant/katsushika-hokusai" > /tmp/page.html
+curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "http://localhost:3001/ar/debate" > /tmp/page.html
 ```
 
 **Confirm it is fixed.** Re-run this audit; the reported "full order" must have no gaps.
@@ -38,7 +38,7 @@ curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.h
 
 ## Meta description outside 50–160 characters
 
-`meta-description-length` — **324** affected
+`meta-description-length` — **74** affected
 
 **What is wrong.** Too short wastes the snippet; too long is truncated mid-sentence.
 
@@ -48,78 +48,20 @@ curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.h
 
 **Examples**
 
-- `https://www.giantswisdom.com/ar/giant/al-kindi` — 169 chars (want 50–160)
-- `https://www.giantswisdom.com/ar/chats` — 47 chars (want 50–160)
-- `https://www.giantswisdom.com/ar/terms` — 176 chars (want 50–160)
-- `https://www.giantswisdom.com/ar/privacy` — 186 chars (want 50–160)
-- `https://www.giantswisdom.com/de/blog/rockefeller-monopoly-guide` — 178 chars (want 50–160)
-- …and 319 more (see audit-report.json)
+- `http://localhost:3001/ar/chats` — 47 chars (want 50–160)
+- `http://localhost:3001/ar/privacy` — 186 chars (want 50–160)
+- `http://localhost:3001/ar/terms` — 176 chars (want 50–160)
+- `http://localhost:3001/de/privacy` — 230 chars (want 50–160)
+- `http://localhost:3001/de/terms` — 244 chars (want 50–160)
+- …and 69 more (see audit-report.json)
 
 **Reproduce**
 
 ```bash
-curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "https://www.giantswisdom.com/ar/giant/al-kindi" > /tmp/page.html
+curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "http://localhost:3001/ar/chats" > /tmp/page.html
 ```
 
 **Confirm it is fixed.** Re-run this audit.
-
----
-
-## No JSON-LD in the served HTML
-
-`jsonld-missing` — **144** affected
-
-**What is wrong.** Without structured data the page cannot earn rich results.
-
-**Where to look.** The page component. Note: JSON-LD present only inside the self.__next_f flight payload does NOT count — it is not in the DOM the crawler parses.
-
-**Fix.** Render <script type="application/ld+json"> from the server component, outside any Suspense boundary that bails.
-
-**Examples**
-
-- `https://www.giantswisdom.com/ar/test` — no <script type="application/ld+json"> in HTML
-- `https://www.giantswisdom.com/ar/chats` — no <script type="application/ld+json"> in HTML
-- `https://www.giantswisdom.com/ar/terms` — no <script type="application/ld+json"> in HTML
-- `https://www.giantswisdom.com/ar/debate` — no <script type="application/ld+json"> in HTML
-- `https://www.giantswisdom.com/ar/privacy` — no <script type="application/ld+json"> in HTML
-- …and 139 more (see audit-report.json)
-
-**Reproduce**
-
-```bash
-curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "https://www.giantswisdom.com/ar/test" > /tmp/page.html
-```
-
-**Confirm it is fixed.** Re-run this audit; jsonLdTags must be > 0 and every block must JSON.parse.
-
----
-
-## No navigation links in the served HTML
-
-`nav-missing` — **48** affected
-
-**What is wrong.** Crawlers discover the rest of the site through these links, and users cannot leave the page.
-
-**Where to look.** The page component — <Navigation /> must be rendered from the server component, not from inside a Suspense boundary that bails to CSR.
-
-**Fix.** Render <Navigation /> in page.tsx, as [locale]/page.tsx and blog/[slug]/page.tsx do.
-
-**Examples**
-
-- `https://www.giantswisdom.com/ar/test` — no links inside any <nav>
-- `https://www.giantswisdom.com/ar/about` — no links inside any <nav>
-- `https://www.giantswisdom.com/de/test` — no links inside any <nav>
-- `https://www.giantswisdom.com/de/about` — no links inside any <nav>
-- `https://www.giantswisdom.com/el/test` — no links inside any <nav>
-- …and 43 more (see audit-report.json)
-
-**Reproduce**
-
-```bash
-curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "https://www.giantswisdom.com/ar/test" > /tmp/page.html
-```
-
-**Confirm it is fixed.** Re-run this audit; navLinks should match the other page types.
 
 ---
 
@@ -166,32 +108,6 @@ curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.h
 - …and 5 more (see audit-report.json)
 
 **Confirm it is fixed.** STAGES=3 node scripts/site-audit.js
-
----
-
-## Page does not have exactly one h1
-
-`h1-count` — **3** affected
-
-**What is wrong.** Zero h1 usually means the content never reached the HTML; more than one dilutes the page topic and trips Lighthouse SEO.
-
-**Where to look.** The page component and any shared layout/hero that also renders a heading.
-
-**Fix.** Keep a single h1 per page; demote the rest to h2.
-
-**Examples**
-
-- `https://www.giantswisdom.com/de/blog/al-ghazali-wisdom` — expected exactly 1 h1, found 2
-- `https://www.giantswisdom.com/id/blog/ibn-sina-wisdom` — expected exactly 1 h1, found 2
-- `https://www.giantswisdom.com/ru/blog/al-ghazali-wisdom` — expected exactly 1 h1, found 2
-
-**Reproduce**
-
-```bash
-curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "https://www.giantswisdom.com/de/blog/al-ghazali-wisdom" > /tmp/page.html
-```
-
-**Confirm it is fixed.** Re-run this audit — h1Count must be 1.
 
 ---
 

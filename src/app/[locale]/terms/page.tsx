@@ -7,7 +7,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'Terms' })
   return {
     title: `${t('title')} | Giants Wisdom`,
-    description: t('intro')
+    description: (t('intro') || '').slice(0, 145)
   }
 }
 
