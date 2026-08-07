@@ -3,6 +3,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { giants } from "@/lib/giants-data";
 import { GiantDetailClient } from "@/components/giant-detail-client";
+import { Navigation } from "@/components/navigation";
 import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
@@ -317,6 +318,8 @@ export default async function GiantDetailPage({ params }: Props) {
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
+
+      <Navigation />
 
       {/* Visual Server-Rendered Hero Section for Instant SSR & Crawlers */}
       <div className="relative w-full h-[55vh] md:h-[60vh] overflow-hidden bg-slate-950">
