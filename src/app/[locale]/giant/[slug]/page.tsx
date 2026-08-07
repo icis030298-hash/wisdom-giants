@@ -11,10 +11,38 @@ import { blogPosts } from "@/data/blog-posts";
 import incompleteGiants from '@/config/incomplete-giants.json';
 import { getKoreanJosa } from "@/lib/korean-josa";
 import { Link } from "@/i18n/routing";
+import { Suspense } from 'react';
 
 export const revalidate = 3600;
 
 const incompleteGiantsSet = new Set(incompleteGiants);
+
+// In-flow skeleton for the interactive body below the server-rendered hero.
+// GiantDetailClient calls useSearchParams(), which bails its subtree out of
+// prerendering; isolating it in Suspense keeps the hero (h1/img) and the
+// JSON-LD schemas in the static HTML. Must not cover the viewport.
+function GiantBodySkeleton() {
+  return (
+    <div
+      role="status"
+      aria-label="Loading"
+      className="max-w-6xl mx-auto px-6 md:px-16 py-16 space-y-8"
+    >
+      <div className="flex justify-end">
+        <div className="h-14 w-56 rounded-2xl bg-amber-500/10 animate-pulse" />
+      </div>
+      <div className="space-y-4">
+        <div className="h-4 w-full rounded bg-muted/40 animate-pulse" />
+        <div className="h-4 w-11/12 rounded bg-muted/40 animate-pulse" />
+        <div className="h-4 w-9/12 rounded bg-muted/40 animate-pulse" />
+      </div>
+      <div className="grid gap-6 md:grid-cols-2">
+        <div className="h-40 rounded-3xl bg-muted/30 animate-pulse" />
+        <div className="h-40 rounded-3xl bg-muted/30 animate-pulse" />
+      </div>
+    </div>
+  );
+}
 
 function cleanEraString(era: string): string {
   if (!era) return '';
@@ -337,12 +365,14 @@ export default async function GiantDetailPage({ params }: Props) {
         </div>
       </div>
 
-      <GiantDetailClient 
-        giant={giant} 
-        translations={translations} 
-        relatedBlogPosts={blogPosts.filter(post => post.relatedGiants?.includes(giant.slug))}
-        wikipediaUrl={((wikipediaLinks as any)[giant.slug]?.[locale] || (wikipediaLinks as any)[giant.slug]?.['en'] || null)}
-      />
+      <Suspense fallback={<GiantBodySkeleton />}>
+        <GiantDetailClient
+          giant={giant}
+          translations={translations}
+          relatedBlogPosts={blogPosts.filter(post => post.relatedGiants?.includes(giant.slug))}
+          wikipediaUrl={((wikipediaLinks as any)[giant.slug]?.[locale] || (wikipediaLinks as any)[giant.slug]?.['en'] || null)}
+        />
+      </Suspense>
     </>
   );
 }
