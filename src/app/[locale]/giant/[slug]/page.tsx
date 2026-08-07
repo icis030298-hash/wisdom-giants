@@ -113,7 +113,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
   const title = titleMap[locale] ?? titleMap['en'];
   const rawDescription = descMap[locale] ?? descMap['en'];
-  const description = rawDescription.length > 155 ? rawDescription.slice(0, 152) + '...' : rawDescription;
+  const description = rawDescription.length > 145 ? rawDescription.slice(0, 142) + '...' : rawDescription;
 
   const ogRawDesc = giantData.quote || description;
   const ogDesc = ogRawDesc.length > 155 ? ogRawDesc.slice(0, 152) + '...' : ogRawDesc;

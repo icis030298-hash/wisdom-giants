@@ -410,7 +410,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // (noindexed) page still emits a sensible, non-empty title/description.
   const translation = (isUntranslated ? enTranslation : currentTranslation) || enTranslation
   const title = translation.title.replace(/\*\*/g, '')
-  const description = translation.description
+  const rawDesc = translation.description || '';
+  const description = rawDesc.length > 145 ? rawDesc.slice(0, 142) + '...' : rawDesc;
 
   const giant = giants.find(g => g.slug === post.giantSlug)
   const absoluteImageUrl = giant
