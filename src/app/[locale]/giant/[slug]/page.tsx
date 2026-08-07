@@ -3,14 +3,53 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { giants } from "@/lib/giants-data";
 import { GiantDetailClient } from "@/components/giant-detail-client";
+import { Navigation } from "@/components/navigation";
 import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
 import { buildHreflang } from '@/lib/locales';
 import { blogPosts } from "@/data/blog-posts";
 import incompleteGiants from '@/config/incomplete-giants.json';
+import { getKoreanJosa } from "@/lib/korean-josa";
+import { Link } from "@/i18n/routing";
+import { Suspense } from 'react';
+
+export const revalidate = 3600;
 
 const incompleteGiantsSet = new Set(incompleteGiants);
+
+// In-flow skeleton for the interactive body below the server-rendered hero.
+// GiantDetailClient calls useSearchParams(), which bails its subtree out of
+// prerendering; isolating it in Suspense keeps the hero (h1/img) and the
+// JSON-LD schemas in the static HTML. Must not cover the viewport.
+function GiantBodySkeleton() {
+  return (
+    <div
+      role="status"
+      aria-label="Loading"
+      className="max-w-6xl mx-auto px-6 md:px-16 py-16 space-y-8"
+    >
+      <div className="flex justify-end">
+        <div className="h-14 w-56 rounded-2xl bg-amber-500/10 animate-pulse" />
+      </div>
+      <div className="space-y-4">
+        <div className="h-4 w-full rounded bg-muted/40 animate-pulse" />
+        <div className="h-4 w-11/12 rounded bg-muted/40 animate-pulse" />
+        <div className="h-4 w-9/12 rounded bg-muted/40 animate-pulse" />
+      </div>
+      <div className="grid gap-6 md:grid-cols-2">
+        <div className="h-40 rounded-3xl bg-muted/30 animate-pulse" />
+        <div className="h-40 rounded-3xl bg-muted/30 animate-pulse" />
+      </div>
+    </div>
+  );
+}
+
+function cleanEraString(era: string): string {
+  if (!era) return '';
+  // Remove outer and inner parentheses to prevent double nested parens like ((18세기 ~ 19세기))
+  return era.replace(/[()]/g, '').trim();
+}
 
 // Load large JSON files dynamically to prevent Next.js from bundling them into JS modules
 
@@ -19,8 +58,6 @@ let wikipediaLinks: any = {};
 if (fs.existsSync(wikiLinksPath)) {
   wikipediaLinks = JSON.parse(fs.readFileSync(wikiLinksPath, 'utf-8'));
 }
-
-// Fact layer is now loaded dynamically per locale inside the component
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -47,8 +84,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const BASE_URL = 'https://www.giantswisdom.com';
 
-  const baseDesc = giantData.shortDescription || '';
-  const slicedDesc = baseDesc.length > 120 ? baseDesc.slice(0, 120) + '...' : baseDesc;
+  const koNameWithJosa = getKoreanJosa(giantData.name, 'wa/gwa');
+  const baseBio = (giantData.headline ? `${giantData.headline}. ` : '') + (giantData.shortDescription || '');
+  const fullBio = baseBio.length > 90 ? baseBio.slice(0, 87) + '...' : baseBio;
+  const eraClean = cleanEraString(giantData.era || giant.era || '');
+  const eraDisplay = eraClean ? ` (${eraClean})` : '';
 
   // Full multilingual title & description
   const titleMap: Record<string, string> = {
@@ -62,14 +102,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     en: giantData.name,
   };
   const descMap: Record<string, string> = {
-    ko: `${slicedDesc} ${giantData.name}와 AI로 직접 대화하고 지혜를 얻어보세요.`,
-    de: `${slicedDesc} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`,
-    ja: `${slicedDesc} AIで${giantData.name}と直接対話し、知恵を得てください。`,
-    es: `${slicedDesc} Chatea directamente con ${giantData.name} a través de IA para ganar sabiduría.`,
-    fr: `${slicedDesc} Chattez directement avec ${giantData.name} via l'IA pour acquérir de la sagesse.`,
-    it: `${slicedDesc} Chatta direttamente con ${giantData.name} tramite IA per acquisire saggezza.`,
-    pt: `${slicedDesc} Converse diretamente com ${giantData.name} via IA para obter sabedoria.`,
-    en: `${slicedDesc} Chat directly with ${giantData.name} via AI to gain wisdom.`,
+    ko: `${giantData.name}${eraDisplay}의 삶과 지혜. ${fullBio} ${koNameWithJosa} AI로 직접 실시간 대화하며 깊은 인생 통찰을 전수받아 보세요.`,
+    de: `${giantData.name}${eraDisplay} - Leben und Weisheit. ${fullBio} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`,
+    ja: `${giantData.name}${eraDisplay}の生涯と知恵。${fullBio} AIで${giantData.name}と直接対話し、人生のヒントを得てください。`,
+    es: `${giantData.name}${eraDisplay} - Vida y sabiduría. ${fullBio} Chatea directamente con ${giantData.name} a través de IA para ganar sabiduría.`,
+    fr: `${giantData.name}${eraDisplay} - Vie et sagesse. ${fullBio} Chattez directement avec ${giantData.name} via l'IA pour acquérir de la sagesse.`,
+    it: `${giantData.name}${eraDisplay} - Vita e saggezza. ${fullBio} Chatta direttamente con ${giantData.name} tramite IA per acquisire saggezza.`,
+    pt: `${giantData.name}${eraDisplay} - Vida e sabedoria. ${fullBio} Converse diretamente com ${giantData.name} via IA para obter sabedoria.`,
+    en: `${giantData.name}${eraDisplay} - Life & wisdom. ${fullBio} Chat directly with ${giantData.name} via AI to gain timeless life wisdom.`,
   };
   const title = titleMap[locale] ?? titleMap['en'];
   const rawDescription = descMap[locale] ?? descMap['en'];
@@ -244,10 +284,11 @@ export default async function GiantDetailPage({ params }: Props) {
     ],
   };
 
-  const quotationSchema = locale === 'ko' ? {
+  const quoteText = giantTranslation.quote || giant.quote;
+  const quotationSchema = quoteText ? {
     '@context': 'https://schema.org',
     '@type': 'Quotation',
-    'text': giantTranslation.quote || giant.quote,
+    'text': quoteText,
     'creator': {
       '@type': 'Person',
       'name': giantTranslation.name || giant.name
@@ -277,12 +318,64 @@ export default async function GiantDetailPage({ params }: Props) {
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
-      <GiantDetailClient 
-        giant={giant} 
-        translations={translations} 
-        relatedBlogPosts={blogPosts.filter(post => post.relatedGiants?.includes(giant.slug))}
-        wikipediaUrl={((wikipediaLinks as any)[giant.slug]?.[locale] || (wikipediaLinks as any)[giant.slug]?.['en'] || null)}
-      />
+
+      <Navigation />
+
+      {/* Visual Server-Rendered Hero Section for Instant SSR & Crawlers */}
+      <div className="relative w-full h-[55vh] md:h-[60vh] overflow-hidden bg-slate-950">
+        <img
+          src={giant.imageUrl.startsWith('http') ? giant.imageUrl : `${BASE_URL}${giant.imageUrl}`}
+          alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
+
+        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-16 max-w-6xl mx-auto">
+          {/* Breadcrumb Navigation */}
+          <nav aria-label="breadcrumb" className="mb-4 flex items-center">
+            <ol className="flex items-center space-x-2 text-xs md:text-sm text-zinc-400 font-sans">
+              <li>
+                <Link href="/" className="hover:text-amber-400 transition-colors">
+                  {locale === 'ko' ? '홈' : 'Home'}
+                </Link>
+              </li>
+              <li className="text-zinc-600">/</li>
+              <li>
+                <Link href="/#giants" className="hover:text-amber-400 transition-colors">
+                  {locale === 'ko' ? '거인들의 전당' : 'Hall of Giants'}
+                </Link>
+              </li>
+              <li className="text-zinc-600">/</li>
+              <li className="text-amber-400 font-semibold truncate" aria-current="page">
+                {giantTranslation.name || giant.name}
+              </li>
+            </ol>
+          </nav>
+
+          <div className="space-y-3">
+            <span className="px-4 py-1.5 rounded-full bg-amber-500 text-black text-xs font-bold uppercase tracking-widest border border-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
+              {giant.category}
+            </span>
+            <h1 className="text-4xl md:text-7xl font-serif font-bold text-foreground leading-tight">
+              {giantTranslation.name || giant.name}
+            </h1>
+            {giantTranslation.quote && (
+              <h2 className="text-lg md:text-2xl text-amber-400/90 font-serif italic max-w-3xl leading-relaxed">
+                &ldquo;{giantTranslation.quote}&rdquo;
+              </h2>
+            )}
+          </div>
+        </div>
+      </div>
+
+      <Suspense fallback={<GiantBodySkeleton />}>
+        <GiantDetailClient
+          giant={giant}
+          translations={translations}
+          relatedBlogPosts={blogPosts.filter(post => post.relatedGiants?.includes(giant.slug))}
+          wikipediaUrl={((wikipediaLinks as any)[giant.slug]?.[locale] || (wikipediaLinks as any)[giant.slug]?.['en'] || null)}
+        />
+      </Suspense>
     </>
   );
 }
