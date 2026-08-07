@@ -50,9 +50,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default function AboutPage() {
+export default async function AboutPage({ params }: Props) {
+  const { locale } = await params;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Giants Wisdom",
+    "url": `https://www.giantswisdom.com/${locale}/about`,
+    "description": "A global humanities platform sharing the timeless wisdom of 493 historical giants through AI conversations."
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <Navigation />
       <AboutPageClient />
     </>

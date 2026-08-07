@@ -15,9 +15,20 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
   const { locale } = await params;
   setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'Privacy' })
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": `${t('title')} | Giants Wisdom`,
+    "description": t('summaryDesc'),
+    "url": `https://www.giantswisdom.com/${locale}/privacy`
+  };
 
   return (
     <main className="min-h-screen bg-[#0B0F1A] text-slate-200">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <Navigation />
       
       <div className="max-w-4xl mx-auto px-6 py-24 md:py-32">

@@ -64,12 +64,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function DebatePage({ params }: Props) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Debate" });
 
   // setRequestLocale ensures next-intl works seamlessly in static generation mode
   setRequestLocale(locale);
 
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": `${t("title")} | Giants Wisdom`,
+    "description": t("description"),
+    "url": `https://www.giantswisdom.com/${locale}/debate`
+  };
+
   return (
     <main className="min-h-screen bg-slate-950">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <Navigation />
       <DebateRoomClient />
     </main>
