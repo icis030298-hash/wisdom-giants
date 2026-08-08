@@ -10,7 +10,7 @@ import path from 'path';
 import { buildHreflang } from '@/lib/locales';
 import { blogPosts } from "@/data/blog-posts";
 import incompleteGiants from '@/config/incomplete-giants.json';
-import { getKoreanJosa } from "@/lib/korean-josa";
+
 import { Link } from "@/i18n/routing";
 import { Suspense } from 'react';
 
@@ -152,7 +152,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     pt: 'Converse diretamente via IA.',
   };
   const cta = ctaMap[locale] || 'Chat directly via AI.';
-  const koJosa = locale === 'ko' ? getKoreanJosa(name, 'wa/gwa') + ' ' : '';
+
   
   let descBio = giantData.shortDescription || giantData.headline || '';
   // Drop legacy repetitive strings or epic intros from the description
@@ -164,22 +164,42 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   let quotePart = quote ? `"${quote}" — ` : '';
-  let rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio}${koJosa}${cta}`;
+  let rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio}${cta}`;
+
+  if (rawDesc.length > 155 && descBio) {
+    descBio = '';
+    rawDesc = `${quotePart}${name}${eraDisplay}. ${cta}`;
+  }
+
+  if (rawDesc.length > 155 && quote) {
+    const baseLen = rawDesc.length - quote.length;
+    const maxQuoteLen = 155 - baseLen - 3;
+    if (maxQuoteLen > 10) {
+      let truncated = quote.slice(0, maxQuoteLen);
+      // Try to break at punctuation first
+      const lastPunctuation = truncated.match(/.*[.?!,;]/);
+      if (lastPunctuation) {
+        truncated = lastPunctuation[0];
+      } else {
+        // Fallback to last word boundary
+        const lastSpace = truncated.lastIndexOf(' ');
+        if (lastSpace > 0) {
+          truncated = truncated.slice(0, lastSpace);
+        }
+      }
+      // Remove trailing punctuation before appending ellipsis to avoid "...."
+      truncated = truncated.replace(/[.?!,;]$/, '');
+      quote = truncated + '...';
+      quotePart = `"${quote}" — `;
+      rawDesc = `${quotePart}${name}${eraDisplay}. ${cta}`;
+    } else {
+      quotePart = '';
+      rawDesc = `${name}${eraDisplay}. ${cta}`;
+    }
+  }
 
   if (rawDesc.length > 155) {
-    if (quote.length > 60) {
-      quote = quote.slice(0, 57) + '...';
-      quotePart = `"${quote}" — `;
-      rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio}${koJosa}${cta}`;
-    }
-    if (rawDesc.length > 155) {
-       // If still too long, drop descBio entirely instead of slicing
-       rawDesc = `${quotePart}${name}${eraDisplay}. ${koJosa}${cta}`;
-    }
-    if (rawDesc.length > 155) {
-       // Extreme fallback
-       rawDesc = `${name}${eraDisplay}. ${koJosa}${cta}`;
-    }
+     rawDesc = `${name}${eraDisplay}. ${cta}`;
   }
   
   const description = rawDesc;
