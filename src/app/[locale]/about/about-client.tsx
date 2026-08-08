@@ -2,13 +2,16 @@
 
 import { useLocale } from "next-intl"
 import { aboutTranslations } from "@/data/about-translations"
+import { Navigation } from "@/components/navigation"
 
 export function AboutPageClient() {
   const locale = useLocale()
   const t = aboutTranslations[locale] || aboutTranslations['en'] || aboutTranslations['ko']
 
   return (
-    <div className="min-h-screen bg-[#0B0F1A] text-foreground pt-32 pb-20 px-4">
+    <div className="min-h-screen bg-[#0B0F1A] text-foreground">
+      <Navigation />
+      <div className="pt-32 pb-20 px-4">
       <div className="max-w-3xl mx-auto space-y-12">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-amber-400 mb-8">
