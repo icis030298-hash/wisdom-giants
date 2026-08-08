@@ -10,33 +10,54 @@ export function AboutPageClient() {
   return (
     <div className="min-h-screen bg-[#0B0F1A] text-foreground pt-32 pb-20 px-4">
       <div className="max-w-3xl mx-auto space-y-12">
-        {/* CEO Column Placeholder (User will fill this in) */}
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-amber-400 mb-8">
-            {locale === 'ko' ? `${giantsData.length}명의 삶을 컴파일하며 발견한 것: 시련을 넘어선 위대한 지혜` : `What I Discovered Compiling ${giantsData.length} Lives: Great Wisdom Beyond Trials`}
+            {locale === 'ko' ? '거인의 어깨 위에서' : 'Standing on the Shoulders of Giants'}
           </h1>
           <div className="prose prose-invert prose-amber max-w-none font-light leading-relaxed space-y-6">
             {locale === 'ko' ? (
               <>
-                <p>지난 몇 달간, {giantsData.length}명에 달하는 역사적 거인들의 삶을 24개 언어의 데이터베이스로 구축하는 거대한 파이프라인과 씨름했다. 런타임 에러, 85MB가 넘는 방대한 JSON 데이터 파싱, 그리고 수없이 마주했던 서버 배포 실패까지. 모니터 앞에서의 시간은 끝없는 문제 해결의 연속이었다.</p>
-                <p>하지만 밤을 새워가며 그들의 trials(시련)와 overcoming(극복) 필드에 쌓인 데이터의 오염을 걷어내고 정제하던 어느 새벽, 나는 모니터에 떠오른 것이 단순한 문자열이 아니라 치열하게 살아낸 인간의 궤적이라는 사실을 깨달았다.</p>
-                <p>존 F. 케네디의 데이터를 교정할 때였다. 그의 시련(Trials) 필드에는 '쿠바 미사일 위기'라는 단어가 새겨져 있었다. 핵전쟁의 시곗바늘이 자정을 향해 가던 13일간의 피 말리는 압박감. 전 세계의 운명이 자신의 결정 하나에 달려있던 그 숨 막히는 고립감 속에서도, 그는 이성을 잃지 않는 서늘한 결단력으로 기어이 평화를 끌어냈다.</p>
-                <p>세종대왕의 서사를 빚어낼 때는 숙연해지기까지 했다. 한글 창제는 그저 위대한 문화적 업적이 아니었다. 그것은 기득권 세력의 맹렬한 반대와 서서히 시력을 잃어가는 육체적 고통 속에서 홀로 싸워야 했던 고독한 투쟁이었다. 그럼에도 불구하고 백성의 눈을 뜨게 하겠다는 굽히지 않는 애민정신으로 기어이 세상에 없던 빛을 만들어낸 그의 기록은, 시대를 관통하는 묵직한 울림을 주었다.</p>
-                <p>이 거대한 시스템을 설계하며 분명하게 깨달은 것이 있다. 역사를 바꾼 {giantsData.length}명의 거인 중 단 한 명도 처음부터 완벽하지 않았다는 사실이다. 그들은 매일 우리와 똑같이 절망하고, 고립되었으며, 앞이 보이지 않는 뼈아픈 시련을 겪었다. 내가 시스템의 얽힌 버그를 잡기 위해 고군분투하듯, 그들 역시 자신의 시대가 던진 벅찬 에러(Error)들을 온몸으로 디버깅(Debugging)하며 앞으로 나아갔던 평범하고도 위대한 사람들이었다.</p>
-                <p>Giants Wisdom은 딱딱하고 지루한 역사 사전이 아니다. 24개국의 언어로 {giantsData.length}명의 멘토를 현실의 모니터 앞으로 호출해, 오늘날 우리가 직면한 삶의 벽 앞에서 어떻게 나아가야 할지 묻고 답을 얻는 디지털 살롱이다.</p>
-                <p>오늘 당신이 마주한 막막한 문제의 해답 역시, 이 거대한 시련과 극복의 데이터베이스 어딘가에 반드시 숨어있을 것이라 확신한다.</p>
-                <p className="text-right font-serif text-amber-500 mt-8">- Giants Wisdom Architect</p>
+                <p>AI는 지금 가늠하기 어려운 속도로 발전하고 있습니다. 우리는 그 어느 때보다 쉽게 정보를 얻고, 무엇이든 만들어낼 수 있게 되었습니다.</p>
+                <p>그러나 정보가 늘어난 만큼 노이즈도 늘었습니다. 무엇이 진짜 중요한지 가려내기는 오히려 더 어려워졌습니다.</p>
+                
+                <h2 className="text-xl font-bold text-amber-300 pt-4 mb-2">Giants Wisdom은 뉴턴의 말에서 시작되었습니다.</h2>
+                <blockquote className="border-l-2 border-amber-500/50 pl-4 py-2 italic text-amber-200/90 my-4 bg-amber-500/[0.03] rounded-r-lg">
+                  &ldquo;내가 더 멀리 보았다면, 그것은 거인들의 어깨 위에 올라섰기 때문이다.&rdquo;
+                </blockquote>
+                
+                <p>평생을 배워도 이 시대의 정보를 다 익힐 수는 없습니다. 그래서 저는 이런 때일수록 과거의 위대한 인물들을 다시 바라볼 필요가 있다고 생각했습니다. 그들이 남긴 것은 정보가 아니라 지혜이기 때문입니다.</p>
+                
+                <h2 className="text-xl font-bold text-amber-300 pt-4 mb-2">Giants Wisdom은 정보를 나열하는 곳이 아닙니다.</h2>
+                <p>위인이라는 말은 현대인에게 어쩌면 진부하게 들릴지 모릅니다. 그래서 더 쉽게 다가갈 수 있는 방법을 고민했습니다. 직접 대화를 나누고, 서로 다른 시대의 인물들이 토론하는 모습을 지켜보고, 나와 닮은 거인을 찾아보는 것. 지혜를 얻는 과정이 즐거울 수 있도록 설계했습니다.</p>
+                
+                <h2 className="text-xl font-bold text-amber-300 pt-4 mb-2">그리고 24개 언어로 만들었습니다.</h2>
+                <p>시대를 관통한 지혜에 성별도, 국적도, 나이도 없습니다. 어느 대륙에 있든 자기 언어로 편안하게 만날 수 있어야 한다고 생각했습니다.</p>
+                
+                <p className="pt-4">세계 곳곳의 더 많은 사람들이 이곳에서 자신에게 필요한 지혜를 발견하기를 바랍니다.</p>
+                
+                <p className="text-right font-serif text-amber-500 mt-10 text-lg">— Giants Wisdom 창립자</p>
               </>
             ) : (
               <>
-                <p>For the past few months, I wrestled with a massive pipeline building a database of the lives of nearly {giantsData.length} historical giants in 24 languages. Runtime errors, parsing over 85MB of massive JSON data, and countless server deployment failures—my time in front of the monitor was a never-ending series of problem-solving.</p>
-                <p>However, one dawn, while staying up all night purifying the polluted data accumulated in their 'trials' and 'overcoming' fields, I realized that what appeared on the monitor were not mere strings of text, but the trajectories of humans who lived fiercely.</p>
-                <p>It happened when I was correcting John F. Kennedy's data. The words "Cuban Missile Crisis" were engraved in his Trials field. The blood-drying pressure of 13 days when the hands of the nuclear clock ticked towards midnight. Even in that suffocating isolation where the fate of the entire world depended on his single decision, he managed to draw out peace with a cold determination without losing his reason.</p>
-                <p>When crafting the narrative of King Sejong the Great, I even felt solemn. The creation of Hangul was not just a great cultural achievement. It was a lonely struggle that had to be fought alone amidst fierce opposition from vested interests and the physical agony of gradually losing his eyesight. Nevertheless, his record of ultimately creating a light that did not exist in the world with his unyielding love for the people to open their eyes, delivered a heavy resonance that pierces through the ages.</p>
-                <p>Designing this massive system, I realized one thing clearly. Not a single one of the {giantsData.length} giants who changed history was perfect from the beginning. They despaired every day just like us, were isolated, and suffered agonizing trials where they couldn't see the way forward. Just as I struggled to catch tangled bugs in the system, they too were ordinary yet great people who moved forward by debugging the overwhelming 'Errors' thrown at them by their era with their entire beings.</p>
-                <p>Giants Wisdom is not a stiff and boring history dictionary. It is a digital salon that summons {giantsData.length} mentors in 24 languages in front of your real-world monitor, to ask and get answers on how to move forward when faced with the walls of life today.</p>
-                <p>I am absolutely certain that the answer to the daunting problem you face today is also hidden somewhere in this massive database of trials and overcoming.</p>
-                <p className="text-right font-serif text-amber-500 mt-8">- Giants Wisdom Architect</p>
+                <p>AI is advancing at an unimaginable speed today. We can acquire information and create almost anything more easily than ever before.</p>
+                <p>However, as information has increased, so has the noise. Distinguishing what is truly important has become even more difficult.</p>
+                
+                <h2 className="text-xl font-bold text-amber-300 pt-4 mb-2">Giants Wisdom began with Newton&apos;s words.</h2>
+                <blockquote className="border-l-2 border-amber-500/50 pl-4 py-2 italic text-amber-200/90 my-4 bg-amber-500/[0.03] rounded-r-lg">
+                  &ldquo;If I have seen further it is by standing on the shoulders of Giants.&rdquo;
+                </blockquote>
+                
+                <p>No matter how long we learn, we cannot master all the information of this era. That is why I believed that in times like these, we need to look back at the great figures of the past. What they left behind is not mere information, but timeless wisdom.</p>
+                
+                <h2 className="text-xl font-bold text-amber-300 pt-4 mb-2">Giants Wisdom is not a place that merely lists information.</h2>
+                <p>The term &apos;historical giant&apos; might sound cliché to modern people. So I pondered ways to make wisdom more accessible: chatting directly with them, watching figures from different eras debate, and finding the giant who resembles you. We designed the process of gaining wisdom to be inspiring and enjoyable.</p>
+                
+                <h2 className="text-xl font-bold text-amber-300 pt-4 mb-2">And we built it in 24 languages.</h2>
+                <p>Wisdom that transcends time has no gender, nationality, or age. I believed that people on any continent should be able to meet it comfortably in their own native language.</p>
+                
+                <p className="pt-4">I hope that more people around the world discover the wisdom they need right here.</p>
+                
+                <p className="text-right font-serif text-amber-500 mt-10 text-lg">— Founder, Giants Wisdom</p>
               </>
             )}
           </div>
