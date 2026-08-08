@@ -618,15 +618,16 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                   )}
                 </div>
 
-                {/* Scroll CTA on final page */}
+                {/* Open Chat CTA on final page */}
                 {currentParaIdx === totalParas - 1 && (
                   <div className="flex justify-center animate-in fade-in slide-in-from-top-2 duration-500 mt-2">
                     <button 
-                      onClick={scrollToChat}
-                      className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-300 text-xs font-semibold hover:bg-amber-500/20 hover:border-amber-500/50 hover:scale-105 transition-all shadow-[0_0_15px_rgba(245,158,11,0.1)] active:scale-95"
+                      onClick={() => setIsChatOpen(true)}
+                      className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-300 text-xs font-semibold hover:bg-amber-500/20 hover:border-amber-500/50 hover:scale-105 transition-all shadow-[0_0_15px_rgba(245,158,11,0.1)] active:scale-95 cursor-pointer"
                     >
-                      <span>{locale === 'ko' ? '거인과 대화하기' : 'Talk with Giant'}</span>
-                      <span className="animate-bounce">↓</span>
+                      <MessageCircle className="w-4 h-4 text-amber-400" />
+                      <span>{locale === 'ko' ? `${displayName}와 대화하기` : `Talk with ${displayName}`}</span>
+                      <Sparkles className="w-3.5 h-3.5 text-amber-400" />
                     </button>
                   </div>
                 )}
