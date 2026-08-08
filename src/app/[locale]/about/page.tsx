@@ -49,6 +49,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default function AboutPage() {
-  return <AboutPageClient />
+import { setRequestLocale } from 'next-intl/server'
+
+export default async function AboutPage({ params }: Props) {
+  const { locale } = await params
+  setRequestLocale(locale)
+  return <AboutPageClient locale={locale} />
 }

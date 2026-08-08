@@ -4,9 +4,9 @@ import { useLocale } from "next-intl"
 import { aboutTranslations } from "@/data/about-translations"
 import { Navigation } from "@/components/navigation"
 
-export function AboutPageClient() {
-  const locale = useLocale()
-  const t = aboutTranslations[locale] || aboutTranslations['en'] || aboutTranslations['ko']
+export function AboutPageClient({ locale: propLocale }: { locale?: string }) {
+  const currentLocale = propLocale || useLocale() || 'ko'
+  const t = aboutTranslations[currentLocale] || aboutTranslations['en'] || aboutTranslations['ko']
 
   return (
     <div className="min-h-screen bg-[#0B0F1A] text-foreground">
