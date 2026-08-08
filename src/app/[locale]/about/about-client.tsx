@@ -40,6 +40,7 @@ export function AboutPageClient() {
           </div>
         </div>
       </div>
+      </div>
     </div>
   )
 }
