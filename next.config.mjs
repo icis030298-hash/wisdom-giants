@@ -4,6 +4,13 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  outputFileTracingIncludes: {
+    '/[locale]/giant/[slug]': [
+      './src/data/narratives/**/*',
+      './src/data/fact-layers/**/*',
+      './src/data/wikipedia-links.json'
+    ],
+  },
   experimental: {
   },
   async redirects() {
