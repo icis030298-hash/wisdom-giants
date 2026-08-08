@@ -88,6 +88,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const BASE_URL = 'https://www.giantswisdom.com';
   const name = giantData.name;
 
+  // Load narrative to get the TRUE quote if available
+  let narrative: any = null;
+  try {
+    const narrativePath = path.join(process.cwd(), 'src/data/narratives', `${slug}.json`);
+    if (fs.existsSync(narrativePath)) {
+      narrative = JSON.parse(fs.readFileSync(narrativePath, 'utf-8'));
+    }
+  } catch (error) {}
+
   // 1. Emoji Mapping
   const emojiMap: Record<string, string> = {
     'leadership': '👑',
@@ -101,21 +110,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // 2. Construct Title
   let shortBio = giantData.headline || giantData.shortDescription || '';
-  let titleBio = shortBio;
-  let titleStr = `${emoji} ${name} – ${titleBio} | ${brandName}`;
+  
+  // If shortBio is obviously a long narrative or epic intro (starts with a year or is very long), drop it.
+  if (shortBio.length > 50 || /^\d{4}년|기원전/.test(shortBio)) {
+    shortBio = '';
+  }
+
+  let titleStr = shortBio ? `${emoji} ${name} – ${shortBio} | ${brandName}` : `${emoji} ${name} | ${brandName}`;
   
   if (titleStr.length > 60) {
-    const maxBioLen = 60 - (`${emoji} ${name} –  | ${brandName}`.length);
-    if (maxBioLen > 5) {
-      titleBio = titleBio.slice(0, maxBioLen) + '...';
-      titleStr = `${emoji} ${name} – ${titleBio} | ${brandName}`;
-    } else {
-      titleStr = `${emoji} ${name} | ${brandName}`;
-    }
+    // If the combined title is still too long for SEO, drop the identity entirely.
+    // The user explicitly prefers "🔬 마리 퀴리 | 거인의 어깨" over a truncated sentence.
+    titleStr = `${emoji} ${name} | ${brandName}`;
   }
 
   // 3. Construct Description
   let quote = giantData.quote || giant.quote || '';
+  // Override with true quote from narrative if available
+  if (narrative && narrative.wisdom && narrative.wisdom[0]) {
+    const quoteKey = `quote_${locale}`;
+    const enKey = `quote_en`;
+    const trueQuote = narrative.wisdom[0][quoteKey] || narrative.wisdom[0][enKey];
+    if (trueQuote && trueQuote.trim().length > 10) {
+      quote = trueQuote.replace(/^\[(?:RTL\s+)?[a-z]{2,3}\]\s*/i, '').trim();
+    }
+  }
+
   const eraClean = cleanEraString(giantData.era || giant.era || '');
   const eraDisplay = eraClean ? `(${eraClean})` : '';
 
@@ -133,25 +153,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
   const cta = ctaMap[locale] || 'Chat directly via AI.';
   const koJosa = locale === 'ko' ? getKoreanJosa(name, 'wa/gwa') + ' ' : '';
+  
   let descBio = giantData.shortDescription || giantData.headline || '';
+  // Drop legacy repetitive strings or epic intros from the description
+  if (descBio.includes('일대기와 지혜') || descBio.length > 80) {
+    descBio = '';
+  }
+  if (descBio) {
+     descBio = `${descBio} `;
+  }
 
   let quotePart = quote ? `"${quote}" — ` : '';
-  let rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio} ${koJosa}${cta}`;
+  let rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio}${koJosa}${cta}`;
 
   if (rawDesc.length > 155) {
     if (quote.length > 60) {
       quote = quote.slice(0, 57) + '...';
       quotePart = `"${quote}" — `;
-      rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio} ${koJosa}${cta}`;
+      rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio}${koJosa}${cta}`;
     }
     if (rawDesc.length > 155) {
-       const allowedBioLen = descBio.length - (rawDesc.length - 152);
-       if (allowedBioLen > 0) {
-          descBio = descBio.slice(0, allowedBioLen) + '...';
-          rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio} ${koJosa}${cta}`;
-       } else {
-          rawDesc = `${quotePart}${name}${eraDisplay}. ${koJosa}${cta}`;
-       }
+       // If still too long, drop descBio entirely instead of slicing
+       rawDesc = `${quotePart}${name}${eraDisplay}. ${koJosa}${cta}`;
+    }
+    if (rawDesc.length > 155) {
+       // Extreme fallback
+       rawDesc = `${name}${eraDisplay}. ${koJosa}${cta}`;
     }
   }
   
