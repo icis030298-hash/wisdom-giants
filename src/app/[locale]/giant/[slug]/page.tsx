@@ -1,5 +1,5 @@
 import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
-import { getMessages, setRequestLocale } from 'next-intl/server';
+import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { giants } from "@/lib/giants-data";
 import { GiantDetailClient } from "@/components/giant-detail-client";
@@ -75,6 +75,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },};
 
   const messages = await getMessages({ locale });
+  const tBrand = await getTranslations({ locale, namespace: 'brand' });
+  const brandName = tBrand('mainTitle') || 'Giants Wisdom';
+
   const giantData = (messages.Giants as any)[giant.slug] || {
     name: giant.name,
     headline: giant.headline,
@@ -83,40 +86,77 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 
   const BASE_URL = 'https://www.giantswisdom.com';
+  const name = giantData.name;
 
-  const koNameWithJosa = getKoreanJosa(giantData.name, 'wa/gwa');
-  const baseBio = (giantData.headline ? `${giantData.headline}. ` : '') + (giantData.shortDescription || '');
-  const fullBio = baseBio.length > 90 ? baseBio.slice(0, 87) + '...' : baseBio;
+  // 1. Emoji Mapping
+  const emojiMap: Record<string, string> = {
+    'leadership': '👑',
+    'science': '🔬',
+    'philosophy': '🏛️',
+    'arts': '🎨',
+    'society': '⚖️',
+    'business': '⚓',
+  };
+  const emoji = emojiMap[giant.category] || '💡';
+
+  // 2. Construct Title
+  let shortBio = giantData.headline || giantData.shortDescription || '';
+  let titleBio = shortBio;
+  let titleStr = `${emoji} ${name} – ${titleBio} | ${brandName}`;
+  
+  if (titleStr.length > 60) {
+    const maxBioLen = 60 - (`${emoji} ${name} –  | ${brandName}`.length);
+    if (maxBioLen > 5) {
+      titleBio = titleBio.slice(0, maxBioLen) + '...';
+      titleStr = `${emoji} ${name} – ${titleBio} | ${brandName}`;
+    } else {
+      titleStr = `${emoji} ${name} | ${brandName}`;
+    }
+  }
+
+  // 3. Construct Description
+  let quote = giantData.quote || giant.quote || '';
   const eraClean = cleanEraString(giantData.era || giant.era || '');
-  const eraDisplay = eraClean ? ` (${eraClean})` : '';
+  const eraDisplay = eraClean ? `(${eraClean})` : '';
 
-  // Full multilingual title & description
-  const titleMap: Record<string, string> = {
-    ko: giantData.name,
-    de: giantData.name,
-    ja: giantData.name,
-    es: giantData.name,
-    fr: giantData.name,
-    it: giantData.name,
-    pt: giantData.name,
-    en: giantData.name,
+  const ctaMap: Record<string, string> = {
+    ko: 'AI로 직접 대화해보세요.',
+    en: 'Chat directly via AI.',
+    ja: 'AIで直接対話してみてください。',
+    ar: 'تحدث مباشرة عبر الذكاء الاصطناعي.',
+    he: 'שוחח ישירות באמצעות בינה מלאכותית.',
+    de: 'Chatten Sie direkt per KI.',
+    es: 'Chatea directamente a través de IA.',
+    fr: 'Chattez directement via l\'IA.',
+    it: 'Chatta direttamente tramite IA.',
+    pt: 'Converse diretamente via IA.',
   };
-  const descMap: Record<string, string> = {
-    ko: `${giantData.name}${eraDisplay}의 삶과 지혜. ${fullBio} ${koNameWithJosa} AI로 직접 실시간 대화하며 깊은 인생 통찰을 전수받아 보세요.`,
-    de: `${giantData.name}${eraDisplay} - Leben und Weisheit. ${fullBio} Chatten Sie per KI direkt mit ${giantData.name}, um Weisheit zu erlangen.`,
-    ja: `${giantData.name}${eraDisplay}の生涯と知恵。${fullBio} AIで${giantData.name}と直接対話し、人生のヒントを得てください。`,
-    es: `${giantData.name}${eraDisplay} - Vida y sabiduría. ${fullBio} Chatea directamente con ${giantData.name} a través de IA para ganar sabiduría.`,
-    fr: `${giantData.name}${eraDisplay} - Vie et sagesse. ${fullBio} Chattez directement avec ${giantData.name} via l'IA pour acquérir de la sagesse.`,
-    it: `${giantData.name}${eraDisplay} - Vita e saggezza. ${fullBio} Chatta direttamente con ${giantData.name} tramite IA per acquisire saggezza.`,
-    pt: `${giantData.name}${eraDisplay} - Vida e sabedoria. ${fullBio} Converse diretamente com ${giantData.name} via IA para obter sabedoria.`,
-    en: `${giantData.name}${eraDisplay} - Life & wisdom. ${fullBio} Chat directly with ${giantData.name} via AI to gain timeless life wisdom.`,
-  };
-  const title = titleMap[locale] ?? titleMap['en'];
-  const rawDescription = descMap[locale] ?? descMap['en'];
-  const description = rawDescription.length > 155 ? rawDescription.slice(0, 152) + '...' : rawDescription;
+  const cta = ctaMap[locale] || 'Chat directly via AI.';
+  const koJosa = locale === 'ko' ? getKoreanJosa(name, 'wa/gwa') + ' ' : '';
+  let descBio = giantData.shortDescription || giantData.headline || '';
 
-  const ogRawDesc = giantData.quote || description;
-  const ogDesc = ogRawDesc.length > 155 ? ogRawDesc.slice(0, 152) + '...' : ogRawDesc;
+  let quotePart = quote ? `"${quote}" — ` : '';
+  let rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio} ${koJosa}${cta}`;
+
+  if (rawDesc.length > 155) {
+    if (quote.length > 60) {
+      quote = quote.slice(0, 57) + '...';
+      quotePart = `"${quote}" — `;
+      rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio} ${koJosa}${cta}`;
+    }
+    if (rawDesc.length > 155) {
+       const allowedBioLen = descBio.length - (rawDesc.length - 152);
+       if (allowedBioLen > 0) {
+          descBio = descBio.slice(0, allowedBioLen) + '...';
+          rawDesc = `${quotePart}${name}${eraDisplay}. ${descBio} ${koJosa}${cta}`;
+       } else {
+          rawDesc = `${quotePart}${name}${eraDisplay}. ${koJosa}${cta}`;
+       }
+    }
+  }
+  
+  const description = rawDesc;
+  const ogDesc = description;
 
   const absoluteImageUrl = giant.imageUrl.startsWith('http')
     ? giant.imageUrl
@@ -130,15 +170,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const hreflangLanguages = buildHreflang(BASE_URL, `/giant/${slug}`);
 
   return {
-    title,
+    title: { absolute: titleStr },
     description,
     keywords: [
-      giantData.name,
+      name,
       giant.era,
       giant.field,
-      locale === 'ko' ? "AI 대화" : locale === 'de' ? "KI Chat" : locale === 'ja' ? "AIチャット" : locale === 'it' ? "Chat IA" : locale === 'pt' ? "Chat IA" : "AI Chat",
       locale === 'ko' ? "역사 위인" : locale === 'de' ? "Historische Persönlichkeit" : locale === 'ja' ? "歴史上の偉人" : locale === 'it' ? "Figura Storica" : locale === 'pt' ? "Figura Histórica" : "Historical Figure",
-      "Giants Wisdom"
+      brandName
     ],
     robots: { index: shouldIndex, follow: true },
     alternates: buildSEOAlternates(`/giant/${slug}`, locale),
