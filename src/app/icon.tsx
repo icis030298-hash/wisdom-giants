@@ -33,17 +33,10 @@ export default function Icon({ id }: { id: string }) {
           borderRadius: w * 0.22,
         }}
       >
-        {isSmall ? (
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="100%" height="100%">
-            <circle cx="8" cy="8" r="7" fill="#F59E0B"/>
-            <path d="M 9 3 C 6 3, 5 4, 5 6 L 4 8 L 5 9 L 4 10 L 5 11 L 6 12 C 6 14, 11 14, 11 12 C 10 10, 11 8, 10 7 C 11 5, 11 3, 9 3 Z" fill="#0B0F19"/>
-          </svg>
-        ) : (
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
-            <circle cx="256" cy="256" r="220" fill="#F59E0B"/>
-            <path d={silhouettePath} fill="#0B0F19"/>
-          </svg>
-        )}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+          <circle cx="256" cy="256" r="220" fill="#F59E0B"/>
+          <path d={silhouettePath} fill="#0B0F19"/>
+        </svg>
       </div>
     ),
     { width: w, height: w }
