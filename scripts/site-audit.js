@@ -512,7 +512,8 @@ async function stage2(sitemapUrls) {
 function loadBlogPosts() {
   const file = path.join(process.cwd(), 'src/data/blog-posts.ts');
   let src = fs.readFileSync(file, 'utf8');
-  src = src.replace(/^\s*import[^;]*;\s*$/m, '');
+  src = src.replace(/^\s*import[^;]*;\s*$/gm, '');
+  src = src.replace(/^export interface[\s\S]*?(?=export const blogPosts)/m, '');
   const before = src;
   src = src.replace(/export\s+const\s+blogPosts\s*:\s*[A-Za-z0-9_[\]]+\s*=/, 'const blogPosts =');
   if (src === before) {
