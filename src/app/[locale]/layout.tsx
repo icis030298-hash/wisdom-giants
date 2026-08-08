@@ -1,4 +1,5 @@
 import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
+import { giantsData } from "@/data/giants";
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Nanum_Myeongjo, Noto_Sans_KR, Noto_Sans_Devanagari } from "next/font/google";
 import Script from "next/script";
@@ -66,13 +67,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       default: t('metaTitle'),
       template: `%s | ${t('mainTitle')}`
     },
-    description: t('metaDescription'),
+    description: t('metaDescription', { count: giantsData.length }),
     keywords,
     authors: [{ name: 'Giants Wisdom Team' }],
 
     openGraph: {
       title: t('metaTitle'),
-      description: t('metaDescription'),
+      description: t('metaDescription', { count: giantsData.length }),
       siteName: t('mainTitle'),
       type: 'website',
       locale: locale,
@@ -89,7 +90,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       creator: '@GiantsWisdom',
       images: ['https://www.giantswisdom.com/og-default.jpg'],
       title: t('metaTitle'),
-      description: t('metaDescription'),
+      description: t('metaDescription', { count: giantsData.length }),
     },
 
     verification: {
@@ -99,10 +100,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     other: {
       "google-adsense-account": "ca-pub-2081809442345110",
-    },
-    icons: {
-      icon: '/icon.svg',
-      apple: '/icon.svg',
     },
   };
 }

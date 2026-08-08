@@ -7987,7 +7987,7 @@
     "subIntro": "Nafasi ya kujitenga na kelele na kukabiliana na hekima ya kweli.",
     "visionTitle": "Kusimama Mabegani mwa Majitu",
     "visionDesc": "“Kama nimeona mbali zaidi, ni kwa kusimama mabegani mwa majitu.” - Isaac Newton. Tulianza na imani kwamba majibu ya matatizo yetu magumu ya kisasa yanaweza tayari kuunganishwa katika maisha ya majitu makuu ya historia.",
-    "epicTitle": "Hadithi Kuu za Majitu 500",
+    "epicTitle": "Hadithi Kuu za Majitu {count}",
     "epicDesc": "Nenda zaidi ya ukweli wa kihistoria tu. Pata uzoefu wa saga kuu ya majitu yaliyoshinda matatizo ili kuunda upya historia ya binadamu.",
     "chatTitle": "Majadiliano Katika Zama Tofauti",
     "chatDesc": "Shiriki katika mazungumzo ya wakati halisi na saini zilizorejeshwa za majitu zinazoendeshwa na AI ya hali ya juu (Gemini 2.5 Flash) kutafuta ufahamu mkali kwa matatizo yako ya kisasa.",
@@ -8179,7 +8179,7 @@
     "mainTitle": "Mabega ya Majitu",
     "subTitle": "Ongea na hekima kubwa",
     "metaTitle": "Mabega ya Majitu | Gumzo la Hekima la AI",
-    "metaDescription": "Ongea na Sejong, Socrates, Napoleon... watu 300 mashuhuri wa kihistoria kupitia AI. Bure kabisa."
+    "metaDescription": "Ongea na Sejong, Socrates, Napoleon... watu {count} mashuhuri wa kihistoria kupitia AI. Bure kabisa."
   },
   "BlogUI": {
     "all": "Yote",

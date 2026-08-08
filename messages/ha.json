@@ -7999,7 +7999,7 @@
     "subIntro": "Wuri don nisanta kai daga hayaniya da fuskantar hikima ta gaskiya.",
     "visionTitle": "Tsaye a Kan Kafaɗun Manyan Mutane",
     "visionDesc": "“Idan na ga nesa, saboda tsayawa ne a kan kafaɗun manyan mutane.” - Isaac Newton. Mun fara ne da imani cewa amsoshin matsalolinmu na zamani masu rikitarwa watakila an riga an saƙa su cikin rayuwar manyan mutanen tarihi.",
-    "epicTitle": "Manyan Labaran Jarumai na Manyan Mutane 500",
+    "epicTitle": "Manyan Labaran Jarumai na Manyan Mutane {count}",
     "epicDesc": "Wuce gaskiyar tarihi kawai. Kware manyan labaran jarumai na manyan mutane waɗanda suka shawo kan matsaloli don sake fasalin tarihin ɗan adam.",
     "chatTitle": "Tattaunawa Tsakanin Zamani",
     "chatDesc": "Yi tattaunawa ta ainihin lokaci tare da sa hannun manyan mutane da aka maido da su, waɗanda AI mai ci gaba (Gemini 2.5 Flash) ke sarrafawa don neman zurfafa tunani don matsalolinku na zamani.",
@@ -8191,7 +8191,7 @@
     "mainTitle": "Kafadun Manyan Mutane",
     "subTitle": "Tattaunawa da babban hikima",
     "metaTitle": "Kafadun Manyan Mutane | Tattaunawar Hikima ta AI",
-    "metaDescription": "Yi magana da Sejong, Socrates, Napoleon... Fitattun mutane 300 na tarihi ta hanyar AI. Kyauta ce gaba daya."
+    "metaDescription": "Yi magana da Sejong, Socrates, Napoleon... Fitattun mutane {count} na tarihi ta hanyar AI. Kyauta ce gaba daya."
   },
   "BlogUI": {
     "all": "Duka",
