@@ -18,6 +18,8 @@ export default function Icon({ id }: { id: string }) {
   if (isNaN(w)) w = 512;
   const isSmall = w <= 16;
 
+  const silhouettePath = `M 260 110 C 230 110, 210 130, 200 170 L 170 230 C 165 240, 175 245, 175 245 L 170 250 L 180 250 L 175 260 C 170 270, 180 280, 185 280 C 170 290, 170 310, 170 310 L 185 340 L 210 350 L 220 380 C 200 420, 210 450, 265 450 C 320 450, 330 420, 310 380 C 300 370, 300 350, 300 340 C 310 330, 320 320, 320 320 C 310 310, 310 300, 310 300 C 330 290, 330 280, 330 280 C 320 270, 320 260, 320 260 C 340 240, 340 230, 340 230 C 330 210, 330 200, 330 200 C 320 180, 320 170, 320 170 C 300 140, 290 120, 260 110 Z`;
+
   return new ImageResponse(
     (
       <div
@@ -33,16 +35,13 @@ export default function Icon({ id }: { id: string }) {
       >
         {isSmall ? (
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="100%" height="100%">
-            <path d="M 2 15 Q 8 7 14 15 Z" fill="#F59E0B"/>
-            <rect x="6" y="6" width="2" height="3" fill="#F59E0B"/>
+            <circle cx="8" cy="8" r="7" fill="#F59E0B"/>
+            <path d="M 9 3 C 6 3, 5 4, 5 6 L 4 8 L 5 9 L 4 10 L 5 11 L 6 12 C 6 14, 11 14, 11 12 C 10 10, 11 8, 10 7 C 11 5, 11 3, 9 3 Z" fill="#0B0F19"/>
           </svg>
         ) : (
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
-            <path d="M 120 450 Q 256 300 392 450 Z" fill="#F59E0B" opacity="0.8"/>
-            <circle cx="256" cy="280" r="40" fill="#F59E0B" opacity="0.8"/>
-            <circle cx="210" cy="300" r="15" fill="#F59E0B"/>
-            <rect x="205" y="320" width="10" height="30" fill="#F59E0B"/>
-            <path d="M 210 350 L 200 390 M 210 350 L 220 390" stroke="#F59E0B" strokeWidth="6" strokeLinecap="round"/>
+            <circle cx="256" cy="256" r="220" fill="#F59E0B"/>
+            <path d={silhouettePath} fill="#0B0F19"/>
           </svg>
         )}
       </div>
