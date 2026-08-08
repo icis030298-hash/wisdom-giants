@@ -35,7 +35,10 @@ export default async function middleware(request: NextRequest) {
     pathname.includes('.') ||
     pathname === '/favicon.ico' ||
     pathname === '/robots.txt' ||
-    pathname === '/sitemap.xml';
+    pathname === '/sitemap.xml' ||
+    pathname === '/icon' ||
+    pathname === '/apple-icon' ||
+    pathname === '/manifest.webmanifest';
 
   if (isStaticOrApi) {
     return NextResponse.next();
@@ -67,5 +70,5 @@ export default async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
+  matcher: ['/((?!api|_next|_vercel|icon|apple-icon|manifest.webmanifest|.*\\..*).*)']
 };

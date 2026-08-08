@@ -1,10 +1,19 @@
 import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
-export const size = { width: 512, height: 512 }
 export const contentType = 'image/png'
 
-export default function Icon() {
+export function generateImageMetadata() {
+  return [
+    { id: '180', size: { width: 180, height: 180 }, alt: 'Apple Icon 180x180' },
+    { id: '512', size: { width: 512, height: 512 }, alt: 'Apple Icon 512x512' },
+  ]
+}
+
+export default function Icon({ id }: { id: string }) {
+  let w = parseInt(id, 10);
+  if (isNaN(w)) w = 512;
+
   return new ImageResponse(
     (
       <div
@@ -26,6 +35,6 @@ export default function Icon() {
         </svg>
       </div>
     ),
-    { ...size }
+    { width: w, height: w }
   )
 }
