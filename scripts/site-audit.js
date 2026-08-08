@@ -609,15 +609,17 @@ async function stage3() {
         addFinding('narrative-missing-en-epic', slug, 'epic_en is empty — every locale falls back to nothing');
       }
       const missing = VALID_LOCALES.filter(l => {
-        const v = data[`epic_${l}`];
-        return !v || !String(v).trim();
+        const epic = data[`epic_${l}`];
+        const trials = data[`trials_${l}`];
+        const overcoming = data[`overcoming_${l}`];
+        return !epic || !String(epic).trim() || !trials || !String(trials).trim() || !overcoming || !String(overcoming).trim();
       });
       if (missing.length) {
         narrativeIssues++;
         addFinding(
           'narrative-locale-fallback',
           slug,
-          `${missing.length}/${VALID_LOCALES.length} locales have no epic_<locale> and fall back to English: ${missing.join(', ')}`,
+          `${missing.length}/${VALID_LOCALES.length} locales are missing narrative fields (epic/trials/overcoming): ${missing.join(', ')}`,
           { slug, missingLocales: missing }
         );
       }
