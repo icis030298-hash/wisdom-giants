@@ -625,9 +625,15 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                       onClick={() => setIsChatOpen(true)}
                       className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-300 text-xs font-semibold hover:bg-amber-500/20 hover:border-amber-500/50 hover:scale-105 transition-all shadow-[0_0_15px_rgba(245,158,11,0.1)] active:scale-95 cursor-pointer"
                     >
-                      <MessageCircle className="w-4 h-4 text-amber-400" />
-                      <span>{locale === 'ko' ? `${displayName}와 대화하기` : `Talk with ${displayName}`}</span>
-                      <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                      <span>
+                        {locale === 'ko' ? (() => {
+                          const name = (tg.name || giant.name || "").split(" ")[0];
+                          const lastChar = name.charCodeAt(name.length - 1);
+                          const hasBatchim = lastChar >= 0xAC00 && lastChar <= 0xD7A3 && (lastChar - 0xAC00) % 28 > 0;
+                          const particle = hasBatchim ? '과' : '와';
+                          return `${name}${particle} 대화하기`;
+                        })() : `Talk with ${(tg.name || giant.name || "").split(" ")[0]}`}
+                      </span>
                     </button>
                   </div>
                 )}
