@@ -1,0 +1,460 @@
+{
+  "ar": {
+    "totalMissing": 85,
+    "pilotDone": 3,
+    "remaining": 82,
+    "batches": [
+      {
+        "batchNum": 1,
+        "inputFile": "scratch\\batches\\in_ar_b1.json",
+        "outputFile": "scratch\\batches\\out_ar_b1.json",
+        "count": 10
+      },
+      {
+        "batchNum": 2,
+        "inputFile": "scratch\\batches\\in_ar_b2.json",
+        "outputFile": "scratch\\batches\\out_ar_b2.json",
+        "count": 10
+      },
+      {
+        "batchNum": 3,
+        "inputFile": "scratch\\batches\\in_ar_b3.json",
+        "outputFile": "scratch\\batches\\out_ar_b3.json",
+        "count": 10
+      },
+      {
+        "batchNum": 4,
+        "inputFile": "scratch\\batches\\in_ar_b4.json",
+        "outputFile": "scratch\\batches\\out_ar_b4.json",
+        "count": 10
+      },
+      {
+        "batchNum": 5,
+        "inputFile": "scratch\\batches\\in_ar_b5.json",
+        "outputFile": "scratch\\batches\\out_ar_b5.json",
+        "count": 10
+      },
+      {
+        "batchNum": 6,
+        "inputFile": "scratch\\batches\\in_ar_b6.json",
+        "outputFile": "scratch\\batches\\out_ar_b6.json",
+        "count": 10
+      },
+      {
+        "batchNum": 7,
+        "inputFile": "scratch\\batches\\in_ar_b7.json",
+        "outputFile": "scratch\\batches\\out_ar_b7.json",
+        "count": 10
+      },
+      {
+        "batchNum": 8,
+        "inputFile": "scratch\\batches\\in_ar_b8.json",
+        "outputFile": "scratch\\batches\\out_ar_b8.json",
+        "count": 10
+      },
+      {
+        "batchNum": 9,
+        "inputFile": "scratch\\batches\\in_ar_b9.json",
+        "outputFile": "scratch\\batches\\out_ar_b9.json",
+        "count": 2
+      }
+    ]
+  },
+  "th": {
+    "totalMissing": 85,
+    "pilotDone": 3,
+    "remaining": 82,
+    "batches": [
+      {
+        "batchNum": 1,
+        "inputFile": "scratch\\batches\\in_th_b1.json",
+        "outputFile": "scratch\\batches\\out_th_b1.json",
+        "count": 10
+      },
+      {
+        "batchNum": 2,
+        "inputFile": "scratch\\batches\\in_th_b2.json",
+        "outputFile": "scratch\\batches\\out_th_b2.json",
+        "count": 10
+      },
+      {
+        "batchNum": 3,
+        "inputFile": "scratch\\batches\\in_th_b3.json",
+        "outputFile": "scratch\\batches\\out_th_b3.json",
+        "count": 10
+      },
+      {
+        "batchNum": 4,
+        "inputFile": "scratch\\batches\\in_th_b4.json",
+        "outputFile": "scratch\\batches\\out_th_b4.json",
+        "count": 10
+      },
+      {
+        "batchNum": 5,
+        "inputFile": "scratch\\batches\\in_th_b5.json",
+        "outputFile": "scratch\\batches\\out_th_b5.json",
+        "count": 10
+      },
+      {
+        "batchNum": 6,
+        "inputFile": "scratch\\batches\\in_th_b6.json",
+        "outputFile": "scratch\\batches\\out_th_b6.json",
+        "count": 10
+      },
+      {
+        "batchNum": 7,
+        "inputFile": "scratch\\batches\\in_th_b7.json",
+        "outputFile": "scratch\\batches\\out_th_b7.json",
+        "count": 10
+      },
+      {
+        "batchNum": 8,
+        "inputFile": "scratch\\batches\\in_th_b8.json",
+        "outputFile": "scratch\\batches\\out_th_b8.json",
+        "count": 10
+      },
+      {
+        "batchNum": 9,
+        "inputFile": "scratch\\batches\\in_th_b9.json",
+        "outputFile": "scratch\\batches\\out_th_b9.json",
+        "count": 2
+      }
+    ]
+  },
+  "hi": {
+    "totalMissing": 84,
+    "pilotDone": 3,
+    "remaining": 81,
+    "batches": [
+      {
+        "batchNum": 1,
+        "inputFile": "scratch\\batches\\in_hi_b1.json",
+        "outputFile": "scratch\\batches\\out_hi_b1.json",
+        "count": 10
+      },
+      {
+        "batchNum": 2,
+        "inputFile": "scratch\\batches\\in_hi_b2.json",
+        "outputFile": "scratch\\batches\\out_hi_b2.json",
+        "count": 10
+      },
+      {
+        "batchNum": 3,
+        "inputFile": "scratch\\batches\\in_hi_b3.json",
+        "outputFile": "scratch\\batches\\out_hi_b3.json",
+        "count": 10
+      },
+      {
+        "batchNum": 4,
+        "inputFile": "scratch\\batches\\in_hi_b4.json",
+        "outputFile": "scratch\\batches\\out_hi_b4.json",
+        "count": 10
+      },
+      {
+        "batchNum": 5,
+        "inputFile": "scratch\\batches\\in_hi_b5.json",
+        "outputFile": "scratch\\batches\\out_hi_b5.json",
+        "count": 10
+      },
+      {
+        "batchNum": 6,
+        "inputFile": "scratch\\batches\\in_hi_b6.json",
+        "outputFile": "scratch\\batches\\out_hi_b6.json",
+        "count": 10
+      },
+      {
+        "batchNum": 7,
+        "inputFile": "scratch\\batches\\in_hi_b7.json",
+        "outputFile": "scratch\\batches\\out_hi_b7.json",
+        "count": 10
+      },
+      {
+        "batchNum": 8,
+        "inputFile": "scratch\\batches\\in_hi_b8.json",
+        "outputFile": "scratch\\batches\\out_hi_b8.json",
+        "count": 10
+      },
+      {
+        "batchNum": 9,
+        "inputFile": "scratch\\batches\\in_hi_b9.json",
+        "outputFile": "scratch\\batches\\out_hi_b9.json",
+        "count": 1
+      }
+    ]
+  },
+  "fa": {
+    "totalMissing": 75,
+    "pilotDone": 3,
+    "remaining": 72,
+    "batches": [
+      {
+        "batchNum": 1,
+        "inputFile": "scratch\\batches\\in_fa_b1.json",
+        "outputFile": "scratch\\batches\\out_fa_b1.json",
+        "count": 10
+      },
+      {
+        "batchNum": 2,
+        "inputFile": "scratch\\batches\\in_fa_b2.json",
+        "outputFile": "scratch\\batches\\out_fa_b2.json",
+        "count": 10
+      },
+      {
+        "batchNum": 3,
+        "inputFile": "scratch\\batches\\in_fa_b3.json",
+        "outputFile": "scratch\\batches\\out_fa_b3.json",
+        "count": 10
+      },
+      {
+        "batchNum": 4,
+        "inputFile": "scratch\\batches\\in_fa_b4.json",
+        "outputFile": "scratch\\batches\\out_fa_b4.json",
+        "count": 10
+      },
+      {
+        "batchNum": 5,
+        "inputFile": "scratch\\batches\\in_fa_b5.json",
+        "outputFile": "scratch\\batches\\out_fa_b5.json",
+        "count": 10
+      },
+      {
+        "batchNum": 6,
+        "inputFile": "scratch\\batches\\in_fa_b6.json",
+        "outputFile": "scratch\\batches\\out_fa_b6.json",
+        "count": 10
+      },
+      {
+        "batchNum": 7,
+        "inputFile": "scratch\\batches\\in_fa_b7.json",
+        "outputFile": "scratch\\batches\\out_fa_b7.json",
+        "count": 10
+      },
+      {
+        "batchNum": 8,
+        "inputFile": "scratch\\batches\\in_fa_b8.json",
+        "outputFile": "scratch\\batches\\out_fa_b8.json",
+        "count": 2
+      }
+    ]
+  },
+  "nl": {
+    "totalMissing": 75,
+    "pilotDone": 3,
+    "remaining": 72,
+    "batches": [
+      {
+        "batchNum": 1,
+        "inputFile": "scratch\\batches\\in_nl_b1.json",
+        "outputFile": "scratch\\batches\\out_nl_b1.json",
+        "count": 10
+      },
+      {
+        "batchNum": 2,
+        "inputFile": "scratch\\batches\\in_nl_b2.json",
+        "outputFile": "scratch\\batches\\out_nl_b2.json",
+        "count": 10
+      },
+      {
+        "batchNum": 3,
+        "inputFile": "scratch\\batches\\in_nl_b3.json",
+        "outputFile": "scratch\\batches\\out_nl_b3.json",
+        "count": 10
+      },
+      {
+        "batchNum": 4,
+        "inputFile": "scratch\\batches\\in_nl_b4.json",
+        "outputFile": "scratch\\batches\\out_nl_b4.json",
+        "count": 10
+      },
+      {
+        "batchNum": 5,
+        "inputFile": "scratch\\batches\\in_nl_b5.json",
+        "outputFile": "scratch\\batches\\out_nl_b5.json",
+        "count": 10
+      },
+      {
+        "batchNum": 6,
+        "inputFile": "scratch\\batches\\in_nl_b6.json",
+        "outputFile": "scratch\\batches\\out_nl_b6.json",
+        "count": 10
+      },
+      {
+        "batchNum": 7,
+        "inputFile": "scratch\\batches\\in_nl_b7.json",
+        "outputFile": "scratch\\batches\\out_nl_b7.json",
+        "count": 10
+      },
+      {
+        "batchNum": 8,
+        "inputFile": "scratch\\batches\\in_nl_b8.json",
+        "outputFile": "scratch\\batches\\out_nl_b8.json",
+        "count": 2
+      }
+    ]
+  },
+  "tr": {
+    "totalMissing": 75,
+    "pilotDone": 3,
+    "remaining": 72,
+    "batches": [
+      {
+        "batchNum": 1,
+        "inputFile": "scratch\\batches\\in_tr_b1.json",
+        "outputFile": "scratch\\batches\\out_tr_b1.json",
+        "count": 10
+      },
+      {
+        "batchNum": 2,
+        "inputFile": "scratch\\batches\\in_tr_b2.json",
+        "outputFile": "scratch\\batches\\out_tr_b2.json",
+        "count": 10
+      },
+      {
+        "batchNum": 3,
+        "inputFile": "scratch\\batches\\in_tr_b3.json",
+        "outputFile": "scratch\\batches\\out_tr_b3.json",
+        "count": 10
+      },
+      {
+        "batchNum": 4,
+        "inputFile": "scratch\\batches\\in_tr_b4.json",
+        "outputFile": "scratch\\batches\\out_tr_b4.json",
+        "count": 10
+      },
+      {
+        "batchNum": 5,
+        "inputFile": "scratch\\batches\\in_tr_b5.json",
+        "outputFile": "scratch\\batches\\out_tr_b5.json",
+        "count": 10
+      },
+      {
+        "batchNum": 6,
+        "inputFile": "scratch\\batches\\in_tr_b6.json",
+        "outputFile": "scratch\\batches\\out_tr_b6.json",
+        "count": 10
+      },
+      {
+        "batchNum": 7,
+        "inputFile": "scratch\\batches\\in_tr_b7.json",
+        "outputFile": "scratch\\batches\\out_tr_b7.json",
+        "count": 10
+      },
+      {
+        "batchNum": 8,
+        "inputFile": "scratch\\batches\\in_tr_b8.json",
+        "outputFile": "scratch\\batches\\out_tr_b8.json",
+        "count": 2
+      }
+    ]
+  },
+  "vi": {
+    "totalMissing": 75,
+    "pilotDone": 3,
+    "remaining": 72,
+    "batches": [
+      {
+        "batchNum": 1,
+        "inputFile": "scratch\\batches\\in_vi_b1.json",
+        "outputFile": "scratch\\batches\\out_vi_b1.json",
+        "count": 10
+      },
+      {
+        "batchNum": 2,
+        "inputFile": "scratch\\batches\\in_vi_b2.json",
+        "outputFile": "scratch\\batches\\out_vi_b2.json",
+        "count": 10
+      },
+      {
+        "batchNum": 3,
+        "inputFile": "scratch\\batches\\in_vi_b3.json",
+        "outputFile": "scratch\\batches\\out_vi_b3.json",
+        "count": 10
+      },
+      {
+        "batchNum": 4,
+        "inputFile": "scratch\\batches\\in_vi_b4.json",
+        "outputFile": "scratch\\batches\\out_vi_b4.json",
+        "count": 10
+      },
+      {
+        "batchNum": 5,
+        "inputFile": "scratch\\batches\\in_vi_b5.json",
+        "outputFile": "scratch\\batches\\out_vi_b5.json",
+        "count": 10
+      },
+      {
+        "batchNum": 6,
+        "inputFile": "scratch\\batches\\in_vi_b6.json",
+        "outputFile": "scratch\\batches\\out_vi_b6.json",
+        "count": 10
+      },
+      {
+        "batchNum": 7,
+        "inputFile": "scratch\\batches\\in_vi_b7.json",
+        "outputFile": "scratch\\batches\\out_vi_b7.json",
+        "count": 10
+      },
+      {
+        "batchNum": 8,
+        "inputFile": "scratch\\batches\\in_vi_b8.json",
+        "outputFile": "scratch\\batches\\out_vi_b8.json",
+        "count": 2
+      }
+    ]
+  },
+  "zh": {
+    "totalMissing": 75,
+    "pilotDone": 3,
+    "remaining": 72,
+    "batches": [
+      {
+        "batchNum": 1,
+        "inputFile": "scratch\\batches\\in_zh_b1.json",
+        "outputFile": "scratch\\batches\\out_zh_b1.json",
+        "count": 10
+      },
+      {
+        "batchNum": 2,
+        "inputFile": "scratch\\batches\\in_zh_b2.json",
+        "outputFile": "scratch\\batches\\out_zh_b2.json",
+        "count": 10
+      },
+      {
+        "batchNum": 3,
+        "inputFile": "scratch\\batches\\in_zh_b3.json",
+        "outputFile": "scratch\\batches\\out_zh_b3.json",
+        "count": 10
+      },
+      {
+        "batchNum": 4,
+        "inputFile": "scratch\\batches\\in_zh_b4.json",
+        "outputFile": "scratch\\batches\\out_zh_b4.json",
+        "count": 10
+      },
+      {
+        "batchNum": 5,
+        "inputFile": "scratch\\batches\\in_zh_b5.json",
+        "outputFile": "scratch\\batches\\out_zh_b5.json",
+        "count": 10
+      },
+      {
+        "batchNum": 6,
+        "inputFile": "scratch\\batches\\in_zh_b6.json",
+        "outputFile": "scratch\\batches\\out_zh_b6.json",
+        "count": 10
+      },
+      {
+        "batchNum": 7,
+        "inputFile": "scratch\\batches\\in_zh_b7.json",
+        "outputFile": "scratch\\batches\\out_zh_b7.json",
+        "count": 10
+      },
+      {
+        "batchNum": 8,
+        "inputFile": "scratch\\batches\\in_zh_b8.json",
+        "outputFile": "scratch\\batches\\out_zh_b8.json",
+        "count": 2
+      }
+    ]
+  }
+}
