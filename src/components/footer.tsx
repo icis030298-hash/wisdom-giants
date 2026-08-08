@@ -5,6 +5,7 @@ import { Sparkles, Mail } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import { ContactForm } from '@/components/contact-form'
+import { BrandMark } from '@/components/brand-mark'
 import { useLocale } from 'next-intl'
 
 export default function Footer() {
@@ -42,9 +43,7 @@ export default function Footer() {
             {/* Brand */}
             <div className="lg:col-span-2">
               <Link href="/" className="flex items-center gap-3 mb-6 group">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center transition-transform group-hover:scale-110 shadow-lg shadow-amber-500/20">
-                  <Sparkles className="w-5 h-5 text-primary-foreground" />
-                </div>
+                <BrandMark className="w-11 h-11 transition-transform group-hover:scale-110 drop-shadow-[0_4px_12px_rgba(245,158,11,0.2)]" />
                 <div>
                   <span className="font-serif text-xl font-bold text-foreground/90 tracking-tight">
                     Giants Wisdom

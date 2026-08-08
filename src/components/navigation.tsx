@@ -5,6 +5,7 @@ import { Menu, X, Sparkles, Users, MessageCircle, Info, Languages, ChevronDown, 
 import { useTranslations, useLocale } from "next-intl"
 import { usePathname, useRouter, Link } from "@/i18n/routing"
 import { AuthButton } from "@/components/auth-button"
+import { BrandMark } from "@/components/brand-mark"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -96,9 +97,7 @@ export function Navigation() {
         <div className="max-w-7xl mx-auto px-3 md:px-4 flex items-center justify-between w-full max-w-full overflow-hidden">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 md:gap-3 group flex-shrink min-w-0 max-w-[60%]">
-            <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center flex-shrink-0">
-              <Sparkles className="w-4 h-4 md:w-5 md:h-5 text-primary-foreground" />
-            </div>
+            <BrandMark className="w-9 h-9 md:w-11 md:h-11 flex-shrink-0 transition-transform group-hover:scale-105 drop-shadow-[0_4px_12px_rgba(245,158,11,0.15)]" />
             <div className="hidden sm:block min-w-0">
               <span className={`text-lg font-bold text-foreground group-hover:text-amber-200 transition-colors block leading-none pr-2 ${locale === 'hi' ? 'font-[family-name:var(--font-devanagari)]' : 'font-serif'}`}>
                 {tBrand("mainTitle")}
