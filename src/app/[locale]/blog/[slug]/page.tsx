@@ -1,4 +1,4 @@
-import { buildSEOAlternates, isLocaleIndexed, isBlogLocaleIndexed } from "@/config/locale-status";
+import { buildSEOAlternates, isLocaleIndexed, isBlogLocaleIndexed, INDEXED_BLOG_LOCALES } from "@/config/locale-status";
 import { isBlogTranslationMissing } from "@/lib/translation-status";
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
@@ -362,7 +362,7 @@ function checkCircuitBreaker(): boolean {
 
   let untranslatedCount = 0;
   let totalEvaluated = 0;
-  const indexedLocales = ['ko', 'en', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ru', 'he', 'el', 'ha', 'sw', 'uk', 'pl', 'id'];
+  const indexedLocales = INDEXED_BLOG_LOCALES;
 
   for (const locale of indexedLocales) {
     if (locale === 'en') continue;

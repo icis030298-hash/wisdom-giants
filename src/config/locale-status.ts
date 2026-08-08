@@ -38,6 +38,7 @@ export const isLocaleIndexed = (locale: string) => {
 export const INDEXED_BLOG_LOCALES = [
   'ko', 'en', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ru',
   'he', 'el', 'ha', 'sw', 'uk', 'pl', 'id',
+  'ar', 'th', 'hi', 'fa', 'nl', 'tr', 'vi', 'zh',
 ];
 
 export const isBlogLocaleIndexed = (locale: string) => {
