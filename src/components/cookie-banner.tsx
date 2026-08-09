@@ -30,7 +30,7 @@ export function CookieBanner() {
       analytics: true,
       advertising: true,
     }
-    localStorage.setItem("giants_cookie_consent", JSON.stringify(preferences))
+    localStorage.setItem("giants_cookie_consent", JSON.stringify(preferences)); window.dispatchEvent(new Event("consent_updated"))
     setShowBanner(false)
   }
 
@@ -40,7 +40,7 @@ export function CookieBanner() {
       analytics: false,
       advertising: false,
     }
-    localStorage.setItem("giants_cookie_consent", JSON.stringify(preferences))
+    localStorage.setItem("giants_cookie_consent", JSON.stringify(preferences)); window.dispatchEvent(new Event("consent_updated"))
     setShowBanner(false)
   }
 
@@ -50,7 +50,7 @@ export function CookieBanner() {
       analytics: analyticsConsent,
       advertising: advertisingConsent,
     }
-    localStorage.setItem("giants_cookie_consent", JSON.stringify(preferences))
+    localStorage.setItem("giants_cookie_consent", JSON.stringify(preferences)); window.dispatchEvent(new Event("consent_updated"))
     setShowBanner(false)
   }
 
@@ -227,3 +227,70 @@ export function CookieBanner() {
     </div>
   )
 }
+
+
+export function ConsentScripts() {
+  useEffect(() => {
+    const loadScript = (src: string, id: string, crossOrigin?: string, content?: string) => {
+      if (document.getElementById(id)) return
+      const script = document.createElement("script")
+      script.id = id
+      if (src) script.src = src
+      if (crossOrigin) script.crossOrigin = crossOrigin
+      script.async = true
+      if (content) script.innerHTML = content
+      document.body.appendChild(script)
+    }
+
+    const checkConsent = () => {
+      try {
+        const raw = localStorage.getItem("giants_cookie_consent")
+        if (raw) {
+          const consent = JSON.parse(raw)
+          if (consent.advertising) {
+            loadScript(
+              "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2081809442345110",
+              "adsense-script",
+              "anonymous"
+            )
+          }
+          if (consent.analytics) {
+            loadScript(
+              "https://www.googletagmanager.com/gtag/js?id=G-MKP0G1YD64",
+              "ga-script"
+            )
+            loadScript(
+              "",
+              "ga-inline",
+              undefined,
+              `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-MKP0G1YD64', {
+                  page_path: window.location.pathname,
+                });
+              `
+            )
+          }
+        }
+      } catch (e) {}
+    }
+    
+    checkConsent()
+    
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === "giants_cookie_consent") checkConsent()
+    }
+    
+    window.addEventListener("storage", onStorage)
+    window.addEventListener("consent_updated", checkConsent)
+    return () => {
+      window.removeEventListener("storage", onStorage)
+      window.removeEventListener("consent_updated", checkConsent)
+    }
+  }, [])
+
+  return null
+}
+

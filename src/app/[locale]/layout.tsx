@@ -6,7 +6,7 @@ import Script from "next/script";
 import { LazyMotion, domAnimation } from "framer-motion";
 import "../globals.css";
 import Footer from "@/components/footer";
-import { CookieBanner } from "@/components/cookie-banner";
+import { CookieBanner, ConsentScripts } from "@/components/cookie-banner";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -143,28 +143,7 @@ export default async function RootLayout({
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages} locale={locale}>
           <div className="flex flex-col min-h-screen overflow-x-hidden">
-            {/* Google AdSense Auto Ads Setup */}
-            <Script
-              async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2081809442345110"
-              crossOrigin="anonymous"
-              strategy="afterInteractive"
-            />
-            {/* Google Analytics 4 Setup */}
-            <Script
-              src="https://www.googletagmanager.com/gtag/js?id=G-MKP0G1YD64"
-              strategy="afterInteractive"
-            />
-            <Script id="google-analytics" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-MKP0G1YD64', {
-                  page_path: window.location.pathname,
-                });
-              `}
-            </Script>
+
             {/* Kakao SDK Setup */}
             <Script
               src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js"
@@ -177,6 +156,7 @@ export default async function RootLayout({
                 {children}
               </LazyMotion>
             </div>
+            <ConsentScripts />
             <Footer />
             <CookieBanner />
           </div>
