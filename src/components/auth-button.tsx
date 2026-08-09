@@ -1,11 +1,12 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { auth } from "@/lib/firebase"
-import { onAuthStateChanged, signOut, User } from "firebase/auth"
+import { auth, db } from "@/lib/firebase"
+import { collection, query, where, getDocs, deleteDoc, doc } from "firebase/firestore"
+import { onAuthStateChanged, signOut, User, deleteUser } from "firebase/auth"
 import { toast } from "sonner"
 import { useRouter } from "@/i18n/routing"
-import { useTranslations } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -15,7 +16,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { ChevronDown, MessageCircle, LogOut, Loader2 } from "lucide-react"
+import { ChevronDown, MessageCircle, LogOut, Loader2, AlertTriangle } from "lucide-react"
 import { Link } from "@/i18n/routing"
 import { LoginModal } from "./login-modal"
 
@@ -40,6 +41,52 @@ export function AuthButton() {
 
     return () => unsubscribe()
   }, [])
+
+  
+  const locale = useLocale()
+  
+  const handleDeleteAccount = async () => {
+    if (!auth || !user || !db) return
+    const isKo = locale === 'ko'
+    if (!confirm(isKo ? '정말 계정을 삭제하시겠습니까? 모든 대화 기록이 영구적으로 삭제되며 복구할 수 없습니다.' : 'Are you sure you want to delete your account? All chat history will be permanently deleted and cannot be recovered.')) {
+      return
+    }
+
+    try {
+      toast.loading(isKo ? '계정 삭제 중...' : 'Deleting account...')
+      // 1. Delete all user chats and their messages subcollections
+      const chatsRef = collection(db, 'chats')
+      const q = query(chatsRef, where('userId', '==', user.uid))
+      const querySnapshot = await getDocs(q)
+      
+      const deletePromises = []
+      for (const chatDoc of querySnapshot.docs) {
+        // Delete messages subcollection
+        const messagesRef = collection(db, `chats/${chatDoc.id}/messages`)
+        const messagesSnapshot = await getDocs(messagesRef)
+        messagesSnapshot.forEach(msgDoc => {
+          deletePromises.push(deleteDoc(doc(db, `chats/${chatDoc.id}/messages`, msgDoc.id)))
+        })
+        // Delete the chat document itself
+        deletePromises.push(deleteDoc(doc(db, 'chats', chatDoc.id)))
+      }
+      await Promise.all(deletePromises)
+
+      // 2. Delete user auth
+      await deleteUser(user)
+      toast.dismiss()
+      toast.success(isKo ? '계정이 성공적으로 삭제되었습니다.' : 'Account deleted successfully')
+      router.push('/')
+    } catch (error: any) {
+      toast.dismiss()
+      if (error.code === 'auth/requires-recent-login') {
+        toast.error(isKo ? '보안을 위해 다시 로그인한 후 탈퇴해주세요.' : 'Please log in again to delete your account for security reasons.')
+        await signOut(auth)
+      } else {
+        toast.error(error.message)
+      }
+    }
+  }
 
   const handleSignOut = async () => {
     if (!auth) return
@@ -99,6 +146,15 @@ export function AuthButton() {
           >
             <LogOut className="w-4 h-4 text-rose-500/50 group-hover:text-rose-400" />
             <span>{t("logout")}</span>
+          </DropdownMenuItem>
+        
+          <DropdownMenuSeparator className="bg-white/10" />
+          <DropdownMenuItem 
+            onClick={handleDeleteAccount}
+            className="cursor-pointer flex items-center gap-3 p-3 rounded-lg text-red-500 focus:text-red-400 focus:bg-red-500/10 transition-colors group"
+          >
+            <AlertTriangle className="w-4 h-4 text-red-500/70 group-hover:text-red-400" />
+            <span>{locale === 'ko' ? '회원 탈퇴' : 'Delete Account'}</span>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
