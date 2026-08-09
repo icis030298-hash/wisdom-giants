@@ -1,0 +1,362 @@
+[
+  {
+    "expected_live_slug": "pyotr-ilyich-tchaikovsky",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "408",
+      "candidate_name": "Pyotr Ilyich Tchaikovsky",
+      "qid": "Q7315",
+      "matched_live_slug": "pyotr-ilyich-tchaikovsky"
+    }
+  },
+  {
+    "expected_live_slug": "amina-of-zazzau",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "58",
+      "candidate_name": "Amina of Zazzau",
+      "qid": "Q2843390",
+      "matched_live_slug": "amina-of-zazzau"
+    }
+  },
+  {
+    "expected_live_slug": "baybars",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "486",
+      "candidate_name": "Baybars",
+      "qid": "Q192960",
+      "matched_live_slug": "baybars"
+    }
+  },
+  {
+    "expected_live_slug": "giuseppe-garibaldi",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "210",
+      "candidate_name": "Giuseppe Garibaldi",
+      "qid": "Q539",
+      "matched_live_slug": "giuseppe-garibaldi"
+    }
+  },
+  {
+    "expected_live_slug": "gwanggaeto-the-great",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "139",
+      "candidate_name": "Gwanggaeto the Great",
+      "qid": "Q498791",
+      "matched_live_slug": "gwanggaeto-the-great"
+    }
+  },
+  {
+    "expected_live_slug": "mustafa-kemal-ataturk",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "201",
+      "candidate_name": "Mustafa Kemal Atatürk",
+      "qid": "Q5152",
+      "matched_live_slug": "mustafa-kemal-ataturk"
+    }
+  },
+  {
+    "expected_live_slug": "nader-shah",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "490",
+      "candidate_name": "Nader Shah",
+      "qid": "Q192868",
+      "matched_live_slug": "nader-shah"
+    }
+  },
+  {
+    "expected_live_slug": "nzinga-of-ndongo-and-matamba",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "441",
+      "candidate_name": "Nzinga of Ndongo and Matamba",
+      "qid": "Q467650",
+      "matched_live_slug": "nzinga-of-ndongo-and-matamba"
+    }
+  },
+  {
+    "expected_live_slug": "ramesses-ii",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "202",
+      "candidate_name": "Ramesses II",
+      "qid": "Q1523",
+      "matched_live_slug": "ramesses-ii"
+    }
+  },
+  {
+    "expected_live_slug": "rene-descartes",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "163",
+      "candidate_name": "René Descartes",
+      "qid": "Q9191",
+      "matched_live_slug": "rene-descartes"
+    }
+  },
+  {
+    "expected_live_slug": "soren-kierkegaard",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "172",
+      "candidate_name": "Søren Kierkegaard",
+      "qid": "Q6512",
+      "matched_live_slug": "soren-kierkegaard"
+    }
+  },
+  {
+    "expected_live_slug": "helen-keller",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "228",
+      "candidate_name": "Helen Keller",
+      "qid": "Q38203",
+      "matched_live_slug": "helen-keller"
+    }
+  },
+  {
+    "expected_live_slug": "yu-gwan-sun",
+    "status": "MISSING ❌",
+    "matched_candidate": null
+  },
+  {
+    "expected_live_slug": "francisco-de-goya",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "371",
+      "candidate_name": "Francisco Goya",
+      "qid": "Q5432",
+      "matched_live_slug": "francisco-de-goya"
+    }
+  },
+  {
+    "expected_live_slug": "abbas-i-of-persia",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "483",
+      "candidate_name": "Abbas the Great",
+      "qid": "Q171349",
+      "matched_live_slug": "abbas-i-of-persia"
+    }
+  },
+  {
+    "expected_live_slug": "akbar-the-great",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "154",
+      "candidate_name": "Akbar",
+      "qid": "Q8597",
+      "matched_live_slug": "akbar-the-great"
+    }
+  },
+  {
+    "expected_live_slug": "ahn-jung-geun",
+    "status": "MISSING ❌",
+    "matched_candidate": null
+  },
+  {
+    "expected_live_slug": "ashoka-the-great",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "153",
+      "candidate_name": "Ashoka",
+      "qid": "Q8589",
+      "matched_live_slug": "ashoka-the-great"
+    }
+  },
+  {
+    "expected_live_slug": "cleopatra-vii",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "186",
+      "candidate_name": "Cleopatra",
+      "qid": "Q635",
+      "matched_live_slug": "cleopatra-vii"
+    }
+  },
+  {
+    "expected_live_slug": "darius-i",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "200",
+      "candidate_name": "Darius the Great",
+      "qid": "Q44387",
+      "matched_live_slug": "darius-i"
+    }
+  },
+  {
+    "expected_live_slug": "mehmed-the-conqueror",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "481",
+      "candidate_name": "Mehmed II",
+      "qid": "Q34503",
+      "matched_live_slug": "mehmed-the-conqueror"
+    }
+  },
+  {
+    "expected_live_slug": "king-sejong",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "187",
+      "candidate_name": "Sejong the Great",
+      "qid": "Q37682",
+      "matched_live_slug": "king-sejong"
+    }
+  },
+  {
+    "expected_live_slug": "timur-tamerlane",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "487",
+      "candidate_name": "Timur",
+      "qid": "Q8462",
+      "matched_live_slug": "timur-tamerlane"
+    }
+  },
+  {
+    "expected_live_slug": "empress-wu-zetian",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "144",
+      "candidate_name": "Wu Zetian",
+      "qid": "Q9738",
+      "matched_live_slug": "empress-wu-zetian"
+    }
+  },
+  {
+    "expected_live_slug": "nasir-al-din-al-tusi",
+    "status": "MISSING ❌",
+    "matched_candidate": null
+  },
+  {
+    "expected_live_slug": "robert-oppenheimer",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "236",
+      "candidate_name": "J. Robert Oppenheimer",
+      "qid": "Q132537",
+      "matched_live_slug": "robert-oppenheimer"
+    }
+  },
+  {
+    "expected_live_slug": "br-ambedkar",
+    "status": "MISSING ❌",
+    "matched_candidate": null
+  },
+  {
+    "expected_live_slug": "chaucer",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "348",
+      "candidate_name": "Geoffrey Chaucer",
+      "qid": "Q5683",
+      "matched_live_slug": "chaucer"
+    }
+  },
+  {
+    "expected_live_slug": "goethe",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "165",
+      "candidate_name": "Johann Wolfgang von Goethe",
+      "qid": "Q5879",
+      "matched_live_slug": "goethe"
+    }
+  },
+  {
+    "expected_live_slug": "beethoven",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "404",
+      "candidate_name": "Ludwig van Beethoven",
+      "qid": "Q255",
+      "matched_live_slug": "beethoven"
+    }
+  },
+  {
+    "expected_live_slug": "mozart",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "403",
+      "candidate_name": "Wolfgang Amadeus Mozart",
+      "qid": "Q254",
+      "matched_live_slug": "mozart"
+    }
+  },
+  {
+    "expected_live_slug": "machiavelli",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "342",
+      "candidate_name": "Niccolò Machiavelli",
+      "qid": "Q1399",
+      "matched_live_slug": "machiavelli"
+    }
+  },
+  {
+    "expected_live_slug": "gottfried-leibniz",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "75",
+      "candidate_name": "Gottfried Wilhelm Leibniz",
+      "qid": "Q9047",
+      "matched_live_slug": "gottfried-leibniz"
+    }
+  },
+  {
+    "expected_live_slug": "copernicus",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "317",
+      "candidate_name": "Nicolaus Copernicus",
+      "qid": "Q619",
+      "matched_live_slug": "copernicus"
+    }
+  },
+  {
+    "expected_live_slug": "boudicca",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "216",
+      "candidate_name": "Boudica",
+      "qid": "Q184634",
+      "matched_live_slug": "boudicca"
+    }
+  },
+  {
+    "expected_live_slug": "lao-tzu",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "148",
+      "candidate_name": "Laozi",
+      "qid": "Q9333",
+      "matched_live_slug": "lao-tzu"
+    }
+  },
+  {
+    "expected_live_slug": "ibn-rushd",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "160",
+      "candidate_name": "Averroes",
+      "qid": "Q39837",
+      "matched_live_slug": "averroes-ibn-rushd"
+    }
+  },
+  {
+    "expected_live_slug": "ibn-sina",
+    "status": "DETECTED ✅",
+    "matched_candidate": {
+      "candidate_no": "159",
+      "candidate_name": "Avicenna",
+      "qid": "Q8011",
+      "matched_live_slug": "avicenna-ibn-sina"
+    }
+  }
+]

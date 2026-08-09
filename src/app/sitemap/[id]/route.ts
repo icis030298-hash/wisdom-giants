@@ -128,10 +128,19 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
     );
 
     entries = [...blogListEntries, ...blogPostEntries];
+const duplicateGiantsSet = new Set([
+  'ataturk',
+  'queen-elizabeth-i',
+  'averroes-ibn-rushd',
+  'avicenna-ibn-sina',
+  'zarathushtra',
+  'queen-nzinga'
+]);
+
   } else if (id.startsWith('giants-')) {
     const chunkIndex = parseInt(id.replace('giants-', ''), 10);
     if (!isNaN(chunkIndex)) {
-      const validGiants = giants.filter(giant => !incompleteGiantsSet.has(giant.slug));
+      const validGiants = giants.filter(giant => !incompleteGiantsSet.has(giant.slug) && !duplicateGiantsSet.has(giant.slug));
 
       const start = chunkIndex * GIANTS_PER_CHUNK;
       const end = start + GIANTS_PER_CHUNK;

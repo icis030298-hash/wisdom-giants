@@ -71,7 +71,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const giant = giants.find(g => g.slug === slug);
   
-  if (!giant) notFound();
+  if (!giant) {
+    return {
+      title: 'Not Found | Giants Wisdom',
+      robots: { index: false, follow: false },
+    };
+  }
 
   const messages = await getMessages({ locale });
   const tBrand = await getTranslations({ locale, namespace: 'brand' });

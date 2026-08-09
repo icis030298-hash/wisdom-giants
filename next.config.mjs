@@ -44,7 +44,7 @@ const nextConfig = {
       locales.map(locale => ({
         source: `/${locale}/giant/${from}`,
         destination: `/${locale}/giant/${to}`,
-        statusCode: 301,
+        permanent: true,
       }))
     );
 
