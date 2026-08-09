@@ -1,0 +1,962 @@
+[
+  {
+    "slug": "shin-saimdang",
+    "nameEn": "Shin Saimdang",
+    "nameKo": "신사임당",
+    "era": "1504 ~ 1551",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "F",
+    "reason": "조선 최고의 여성 예술가이자 시인, 학문과 예술의 조화를 이룬 인물"
+  },
+  {
+    "slug": "heo-jun",
+    "nameEn": "Heo Jun",
+    "nameKo": "허준",
+    "era": "1539 ~ 1615",
+    "region": "아시아 (한국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "동의보감을 집필하여 의학의 대중화와 인술(仁術)을 실천한 명의"
+  },
+  {
+    "slug": "kim-man-deok",
+    "nameEn": "Kim Man-deok",
+    "nameKo": "김만덕",
+    "era": "1739 ~ 1812",
+    "region": "아시아 (한국)",
+    "category": "business",
+    "gender": "F",
+    "reason": "제주도 기근 당시 전 재산을 털어 백성을 구휼한 거상이자 노블레스 오블리주"
+  },
+  {
+    "slug": "na-hye-sok",
+    "nameEn": "Na Hye-sok",
+    "nameKo": "나혜석",
+    "era": "1896 ~ 1948",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "F",
+    "reason": "한국 최초의 여성 서양화가이자 가부장제에 맞선 선구적 페미니스트"
+  },
+  {
+    "slug": "yi-hwang-toegye",
+    "nameEn": "Yi Hwang (Toegye)",
+    "nameKo": "이황",
+    "era": "1501 ~ 1570",
+    "region": "아시아 (한국)",
+    "category": "philosophy",
+    "gender": "M",
+    "reason": "동방의 주자로 불리며 성리학을 집대성하고 유교적 덕목을 실천한 철학자"
+  },
+  {
+    "slug": "yi-i-yulgok",
+    "nameEn": "Yi I (Yulgok)",
+    "nameKo": "이이",
+    "era": "1536 ~ 1584",
+    "region": "아시아 (한국)",
+    "category": "philosophy",
+    "gender": "M",
+    "reason": "십만양병설과 개혁안을 제시하며 사회적 개혁과 학문을 조화시킨 사상가"
+  },
+  {
+    "slug": "wonhyo",
+    "nameEn": "Wonhyo",
+    "nameKo": "원효",
+    "era": "617 ~ 686",
+    "region": "아시아 (한국)",
+    "category": "philosophy",
+    "gender": "M",
+    "reason": "해골물 일체유심조 깨달음을 얻고 화쟁사상으로 대중 불교를 전파한 사상가"
+  },
+  {
+    "slug": "uisang",
+    "nameEn": "Uisang",
+    "nameKo": "의상",
+    "era": "625 ~ 702",
+    "region": "아시아 (한국)",
+    "category": "philosophy",
+    "gender": "M",
+    "reason": "화엄종을 창시하고 부석사를 건립하여 화엄 사상을 집대성한 대사"
+  },
+  {
+    "slug": "eulji-mundeok",
+    "nameEn": "Eulji Mundeok",
+    "nameKo": "을지문덕",
+    "era": "550 ~ 620",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "살수대첩에서 수나라 30만 대군을 퇴치한 고구려 명장"
+  },
+  {
+    "slug": "gang-gam-chan",
+    "nameEn": "Gang Gam-chan",
+    "nameKo": "강감찬",
+    "era": "948 ~ 1031",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "귀주대첩을 통해 거란의 침략을 격퇴하고 고려의 평화를 지킨 구국 장군"
+  },
+  {
+    "slug": "choe-museon",
+    "nameEn": "Choe Museon",
+    "nameKo": "최무선",
+    "era": "1325 ~ 1395",
+    "region": "아시아 (한국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "화약을 최초로 개발하고 진포대첩에서 왜구를 궤멸시킨 과학자"
+  },
+  {
+    "slug": "seo-hui",
+    "nameEn": "Seo Hui",
+    "nameKo": "서희",
+    "era": "942 ~ 998",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "외교적 담판만으로 거란 대군을 물리치고 강동 6주를 획득한 외교가"
+  },
+  {
+    "slug": "gim-yu-sin",
+    "nameEn": "Gim Yu-sin",
+    "nameKo": "김유신",
+    "era": "595 ~ 673",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "삼국통일의 주역이자 화랑도 정신을 몸소 실천한 신라의 명장"
+  },
+  {
+    "slug": "park-eun-sik",
+    "nameEn": "Park Eun-sik",
+    "nameKo": "박은식",
+    "era": "1859 ~ 1925",
+    "region": "아시아 (한국)",
+    "category": "society",
+    "gender": "M",
+    "reason": "'한국통사'와 '한국독립운동지혈사'를 써서 독립 의식을 일깨운 역사학자"
+  },
+  {
+    "slug": "shin-chae-ho",
+    "nameEn": "Shin Chae-ho",
+    "nameKo": "신채호",
+    "era": "1880 ~ 1936",
+    "region": "아시아 (한국)",
+    "category": "society",
+    "gender": "M",
+    "reason": "역사를 '아와 비아의 투쟁'으로 정의하고 민족주의 사상을 확립한 사상가"
+  },
+  {
+    "slug": "ju-si-gyeong",
+    "nameEn": "Ju Si-gyeong",
+    "nameKo": "주시경",
+    "era": "1876 ~ 1914",
+    "region": "아시아 (한국)",
+    "category": "society",
+    "gender": "M",
+    "reason": "한글이라는 명칭을 제정하고 국어학 연구에 평생을 바친 한글학자"
+  },
+  {
+    "slug": "bang-jeong-hwan",
+    "nameEn": "Bang Jeong-hwan",
+    "nameKo": "방정환",
+    "era": "1899 ~ 1931",
+    "region": "아시아 (한국)",
+    "category": "society",
+    "gender": "M",
+    "reason": "어린이날을 제정하고 아동 인권 확립과 동화 보급에 앞장선 선구자"
+  },
+  {
+    "slug": "han-yong-un",
+    "nameEn": "Han Yong-un",
+    "nameKo": "한용운",
+    "era": "1879 ~ 1944",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "M",
+    "reason": "'님의 침묵'을 써서 민족의 한과 지조를 노래한 독립운동가 시인"
+  },
+  {
+    "slug": "lee-sang",
+    "nameEn": "Lee Sang",
+    "nameKo": "이상",
+    "era": "1910 ~ 1937",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "M",
+    "reason": "'오감도', '날개'를 통해 모더니즘 문학의 파격적인 지평을 연 작가"
+  },
+  {
+    "slug": "kim-sowol",
+    "nameEn": "Kim Sowol",
+    "nameKo": "김소월",
+    "era": "1902 ~ 1934",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "M",
+    "reason": "'진달래꽃'으로 한국 전통 정서를 시로 승화시킨 국민 시인"
+  },
+  {
+    "slug": "kim-hong-do",
+    "nameEn": "Kim Hong-do",
+    "nameKo": "김홍도",
+    "era": "1745 ~ 1806",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "M",
+    "reason": "조선 서민들의 삶과 풍속을 정겹게 그려낸 단원 풍속화의 거장"
+  },
+  {
+    "slug": "sin-yun-bok",
+    "nameEn": "Sin Yun-bok",
+    "nameKo": "신윤복",
+    "era": "1758 ~ 1813",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "M",
+    "reason": "혜원 풍속화로 남녀 간의 사랑과 미학을 화려한 색채로 표현한 화가"
+  },
+  {
+    "slug": "jeong-seon",
+    "nameEn": "Jeong Seon",
+    "nameKo": "정선",
+    "era": "1676 ~ 1759",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "M",
+    "reason": "진경산수화를 창시하여 한국의 아름다운 산천을 독창적으로 표현한 거장"
+  },
+  {
+    "slug": "an-gyeon",
+    "nameEn": "An Gyeon",
+    "nameKo": "안견",
+    "era": "1400 ~ 1470",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "M",
+    "reason": "몽유도원도를 그려 조선 전기 산수화의 전성기를 연 궁중 화가"
+  },
+  {
+    "slug": "heo-nanseolheon",
+    "nameEn": "Heo Nanseolheon",
+    "nameKo": "허난설헌",
+    "era": "1563 ~ 1589",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "F",
+    "reason": "조선의 가부장적 한계를 넘어 천재적 시재를 발휘한 시인"
+  },
+  {
+    "slug": "im-yunjidang",
+    "nameEn": "Im Yunjidang",
+    "nameKo": "임윤지당",
+    "era": "1721 ~ 1793",
+    "region": "아시아 (한국)",
+    "category": "philosophy",
+    "gender": "F",
+    "reason": "여성도 성인이 될 수 있다는 남녀평등적 성리학 사상을 주장한 사상가"
+  },
+  {
+    "slug": "kang-jeong-ildang",
+    "nameEn": "Kang Jeong-ildang",
+    "nameKo": "강정일당",
+    "era": "1772 ~ 1832",
+    "region": "아시아 (한국)",
+    "category": "philosophy",
+    "gender": "F",
+    "reason": "시문과 성리학에 뛰어났던 조선 후기 대표적 여성 학자"
+  },
+  {
+    "slug": "seo-jang-ok",
+    "nameEn": "Seo Jang-ok",
+    "nameKo": "서장옥",
+    "era": "1840 ~ 1900",
+    "region": "아시아 (한국)",
+    "category": "society",
+    "gender": "M",
+    "reason": "동학의 2대 접주로서 민중 운동과 사회 평등에 기여한 지도자"
+  },
+  {
+    "slug": "kim-jeong-ho",
+    "nameEn": "Kim Jeong-ho",
+    "nameKo": "김정호",
+    "era": "1804 ~ 1866",
+    "region": "아시아 (한국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "대동여지도를 제작하여 조선의 국토를 정밀하게 지도화한 지리학자"
+  },
+  {
+    "slug": "jeong-yak-jeon",
+    "nameEn": "Jeong Yak-jeon",
+    "nameKo": "정약전",
+    "era": "1758 ~ 1816",
+    "region": "아시아 (한국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "흑산도 유배지에서 어류 종합 백과사전 '자산어보'를 집필한 학자"
+  },
+  {
+    "slug": "ji-seok-young",
+    "nameEn": "Ji Seok-young",
+    "nameKo": "지석영",
+    "era": "1855 ~ 1935",
+    "region": "아시아 (한국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "우두법을 도입하여 종두법을 보급하고 천연두로부터 백성을 구한 의학자"
+  },
+  {
+    "slug": "an-chang-ho",
+    "nameEn": "An Chang-ho",
+    "nameKo": "안창호",
+    "era": "1878 ~ 1938",
+    "region": "아시아 (한국)",
+    "category": "society",
+    "gender": "M",
+    "reason": "흥사단을 창립하고 무실역행 정신으로 민족 개조와 교육에 힘쓴 지도자"
+  },
+  {
+    "slug": "lee-bong-chang",
+    "nameEn": "Lee Bong-chang",
+    "nameKo": "이봉창",
+    "era": "1900 ~ 1932",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "도쿄 의거로 의열 투쟁의 기치를 높여 조국 독립 의지를 떨친 열사"
+  },
+  {
+    "slug": "yun-bong-gil",
+    "nameEn": "Yun Bong-gil",
+    "nameKo": "윤봉길",
+    "era": "1908 ~ 1932",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "상하이 훙커우 공원 의거로 전 세계에 한국의 독립 열망을 각인시킨 열사"
+  },
+  {
+    "slug": "lee-sang-jae",
+    "nameEn": "Lee Sang-jae",
+    "nameKo": "이상재",
+    "era": "1850 ~ 1927",
+    "region": "아시아 (한국)",
+    "category": "society",
+    "gender": "M",
+    "reason": "YMCA를 중심으로 청년 운동과 민립대학 설립 운동을 이끈 계몽가"
+  },
+  {
+    "slug": "seo-jae-pil",
+    "nameEn": "Seo Jae-pil",
+    "nameKo": "서재필",
+    "era": "1864 ~ 1951",
+    "region": "아시아 (한국)",
+    "category": "society",
+    "gender": "M",
+    "reason": "독립신문을 창간하고 독립문을 건립하여 자주독립 정신을 전파한 언론인"
+  },
+  {
+    "slug": "yi-sang-seol",
+    "nameEn": "Yi Sang-seol",
+    "nameKo": "이상설",
+    "era": "1870 ~ 1917",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "헤이그 특사로서 일제의 침략을 전 세계에 알린 자주독립 외교가"
+  },
+  {
+    "slug": "yi-jun",
+    "nameEn": "Yi Jun",
+    "nameKo": "이준",
+    "era": "1859 ~ 1907",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "헤이그 만국평화회의에서 조국 국권 회복을 위해 순국한 특사"
+  },
+  {
+    "slug": "park-je-ga",
+    "nameEn": "Park Je-ga",
+    "nameKo": "박제가",
+    "era": "1750 ~ 1805",
+    "region": "아시아 (한국)",
+    "category": "philosophy",
+    "gender": "M",
+    "reason": "'북학의'를 써서 청나라의 선진 문물 도입과 상공업 진흥을 주장한 실학자"
+  },
+  {
+    "slug": "hong-dae-yong",
+    "nameEn": "Hong Dae-yong",
+    "nameKo": "홍대용",
+    "era": "1731 ~ 1783",
+    "region": "아시아 (한국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "지전설과 무한우주론을 주장하여 유교적 우주관을 깨뜨린 실학자"
+  },
+  {
+    "slug": "yi-deok-mu",
+    "nameEn": "Yi Deok-mu",
+    "nameKo": "이덕무",
+    "era": "1741 ~ 1793",
+    "region": "아시아 (한국)",
+    "category": "philosophy",
+    "gender": "M",
+    "reason": "규장각 검서관으로서 박학다식함과 아름다운 문장을 남긴 실학자"
+  },
+  {
+    "slug": "yoo-deuk-gong",
+    "nameEn": "Yoo Deuk-gong",
+    "nameKo": "유득공",
+    "era": "1748 ~ 1807",
+    "region": "아시아 (한국)",
+    "category": "society",
+    "gender": "M",
+    "reason": "'발해고'를 집필하여 발해사를 우리 역사에 포섭한 역사학자"
+  },
+  {
+    "slug": "seong-sam-mun",
+    "nameEn": "Seong Sam-mun",
+    "nameKo": "성삼문",
+    "era": "1418 ~ 1456",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "단종 복위를 도모하다 단형을 당한 사육신의 대표적 지조의 선비"
+  },
+  {
+    "slug": "park-paeng-nyeon",
+    "nameEn": "Park Paeng-nyeon",
+    "nameKo": "박팽년",
+    "era": "1417 ~ 1456",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "지조와 절개를 끝까지 지키며 옥중에서 순절한 사육신의 문신"
+  },
+  {
+    "slug": "gim-si-seup",
+    "nameEn": "Gim Si-seup",
+    "nameKo": "김시습",
+    "era": "1435 ~ 1493",
+    "region": "아시아 (한국)",
+    "category": "arts",
+    "gender": "M",
+    "reason": "생육신의 한 사람이자 한국 최초의 한문 소설 '금오신화'의 저자"
+  },
+  {
+    "slug": "maeng-sa-seong",
+    "nameEn": "Maeng Sa-seong",
+    "nameKo": "맹사성",
+    "era": "1360 ~ 1438",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "조선 초기 청백리의 대명사이자 음악과 행정에 두루 능했던 재상"
+  },
+  {
+    "slug": "hwang-hui",
+    "nameEn": "Hwang Hui",
+    "nameKo": "황희",
+    "era": "1363 ~ 1452",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "세종대왕을 도와 24년간 영의정으로 국정을 안정시킨 최고의 명재상"
+  },
+  {
+    "slug": "ryu-seong-ryong",
+    "nameEn": "Ryu Seong-ryong",
+    "nameKo": "류성룡",
+    "era": "1542 ~ 1607",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "임진왜란의 기록인 '징비록'을 써서 과거의 과오를 반성하고 대책을 세운 재상"
+  },
+  {
+    "slug": "gwon-yul",
+    "nameEn": "Gwon Yul",
+    "nameKo": "권율",
+    "era": "1537 ~ 1599",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "행주대첩에서 민관군을 이끌고 왜군 대군을 격퇴한 도원수"
+  },
+  {
+    "slug": "gwak-jae-u",
+    "nameEn": "Gwak Jae-u",
+    "nameKo": "곽재우",
+    "era": "1552 ~ 1617",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "임진왜란 최초로 의병을 일으켜 붉은 옷을 입고 왜군을 격퇴한 홍의장군"
+  },
+  {
+    "slug": "kim-si-min",
+    "nameEn": "Kim Si-min",
+    "nameKo": "김시민",
+    "era": "1554 ~ 1592",
+    "region": "아시아 (한국)",
+    "category": "leadership",
+    "gender": "M",
+    "reason": "진주대첩에서 3천 군사로 2만 왜군을 물리치고 진주성을 수호한 명장"
+  },
+  {
+    "slug": "laura-bassi",
+    "nameEn": "Laura Bassi",
+    "nameKo": "라우라 바시",
+    "era": "1711 ~ 1778",
+    "region": "유럽 (이탈리아)",
+    "category": "science",
+    "gender": "F",
+    "reason": "유럽 대학 최초의 정교수 물리학자"
+  },
+  {
+    "slug": "maria-gaetana-agnesi",
+    "nameEn": "Maria Gaetana Agnesi",
+    "nameKo": "마리아 가에타나 아녜시",
+    "era": "1718 ~ 1799",
+    "region": "유럽 (이탈리아)",
+    "category": "science",
+    "gender": "F",
+    "reason": "세계 최초의 미적분학 교재를 저술한 수학자"
+  },
+  {
+    "slug": "maria-sibylla-merian",
+    "nameEn": "Maria Sibylla Merian",
+    "nameKo": "마리아 시빌라 메리안",
+    "era": "1647 ~ 1717",
+    "region": "유럽 (독일)",
+    "category": "science",
+    "gender": "F",
+    "reason": "곤충 변태 세밀화로 현대 곤충학을 개척한 과학자"
+  },
+  {
+    "slug": "caroline-herschel",
+    "nameEn": "Caroline Herschel",
+    "nameKo": "캐롤라인 허셜",
+    "era": "1750 ~ 1848",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "F",
+    "reason": "혜성을 8개 발견한 최초의 여성 천문학자"
+  },
+  {
+    "slug": "mary-anning",
+    "nameEn": "Mary Anning",
+    "nameKo": "메리 애닝",
+    "era": "1799 ~ 1847",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "F",
+    "reason": "어룡 화석을 독학으로 발견한 고생물학자"
+  },
+  {
+    "slug": "rosalind-franklin",
+    "nameEn": "Rosalind Franklin",
+    "nameKo": "로잘린드 프랭클린",
+    "era": "1920 ~ 1958",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "F",
+    "reason": "DNA 이중나선 사진 51번을 촬영한 결정학자"
+  },
+  {
+    "slug": "sonya-kovalevskaya",
+    "nameEn": "Sonya Kovalevskaya",
+    "nameKo": "소피아 코발렙스카야",
+    "era": "1850 ~ 1891",
+    "region": "유럽 (러시아)",
+    "category": "science",
+    "gender": "F",
+    "reason": "북유럽 최초의 여성 정교수 수학자"
+  },
+  {
+    "slug": "lucy-stone",
+    "nameEn": "Lucy Stone",
+    "nameKo": "루시 스톤",
+    "era": "1818 ~ 1893",
+    "region": "아메리카 (미국)",
+    "category": "society",
+    "gender": "F",
+    "reason": "결혼 후 본 성을 유지한 최초 여성 언론인"
+  },
+  {
+    "slug": "frances-willard",
+    "nameEn": "Frances Willard",
+    "nameKo": "프랜시스 윌러드",
+    "era": "1839 ~ 1898",
+    "region": "아메리카 (미국)",
+    "category": "society",
+    "gender": "F",
+    "reason": "8시간 노동제와 여성 참정권 사회 개혁가"
+  },
+  {
+    "slug": "julia-ward-howe",
+    "nameEn": "Julia Ward Howe",
+    "nameKo": "줄리아 워드 하우",
+    "era": "1819 ~ 1910",
+    "region": "아메리카 (미국)",
+    "category": "society",
+    "gender": "F",
+    "reason": "'공화국 찬가' 작사 시인 운동가"
+  },
+  {
+    "slug": "emma-lazarus",
+    "nameEn": "Emma Lazarus",
+    "nameKo": "에마 라자루스",
+    "era": "1849 ~ 1887",
+    "region": "아메리카 (미국)",
+    "category": "arts",
+    "gender": "F",
+    "reason": "자유의 여신상 시 '새로운 거상' 작가"
+  },
+  {
+    "slug": "sarah-grimk",
+    "nameEn": "Sarah Grimké",
+    "nameKo": "사라 그림케",
+    "era": "1792 ~ 1873",
+    "region": "아메리카 (미국)",
+    "category": "society",
+    "gender": "F",
+    "reason": "남부 출신 노예제 반대 및 남녀 평등 운동가"
+  },
+  {
+    "slug": "angelina-grimk",
+    "nameEn": "Angelina Grimké",
+    "nameKo": "엔젤리나 그림케",
+    "era": "1805 ~ 1879",
+    "region": "아메리카 (미국)",
+    "category": "society",
+    "gender": "F",
+    "reason": "미국 의회 연설 최초 여성 반노예 연설가"
+  },
+  {
+    "slug": "rachel-carson",
+    "nameEn": "Rachel Carson",
+    "nameKo": "레이첼 카슨",
+    "era": "1907 ~ 1964",
+    "region": "아메리카 (미국)",
+    "category": "science",
+    "gender": "F",
+    "reason": "'침묵의 봄'을 써서 현대 환경 운동을 촉발한 생물학자"
+  },
+  {
+    "slug": "gerty-cori",
+    "nameEn": "Gerty Cori",
+    "nameKo": "거티 코리",
+    "era": "1896 ~ 1957",
+    "region": "아메리카 (미국)",
+    "category": "science",
+    "gender": "F",
+    "reason": "글리코겐 대사 코리 회로를 밝혀낸 노벨 의학상 과학자"
+  },
+  {
+    "slug": "ir-ne-joliot-curie",
+    "nameEn": "Irène Joliot-Curie",
+    "nameKo": "이렌 조리오 퀴리",
+    "era": "1897 ~ 1956",
+    "region": "유럽 (프랑스)",
+    "category": "science",
+    "gender": "F",
+    "reason": "인공 방사성 원소를 합성해 낸 노벨 화학상 수상자"
+  },
+  {
+    "slug": "nettie-stevens",
+    "nameEn": "Nettie Stevens",
+    "nameKo": "네티 스티븐스",
+    "era": "1861 ~ 1912",
+    "region": "아메리카 (미국)",
+    "category": "science",
+    "gender": "F",
+    "reason": "성염색체(XY)가 성별을 결정한다는 사실을 발견한 유전학자"
+  },
+  {
+    "slug": "henrietta-leavitt",
+    "nameEn": "Henrietta Leavitt",
+    "nameKo": "헨리에타 리비트",
+    "era": "1868 ~ 1921",
+    "region": "아메리카 (미국)",
+    "category": "science",
+    "gender": "F",
+    "reason": "세페이드 변광성 주기-광도 관계를 발견해 우주 크기를 측정한 천문학자"
+  },
+  {
+    "slug": "annie-jump-cannon",
+    "nameEn": "Annie Jump Cannon",
+    "nameKo": "애니 점프 캐넌",
+    "era": "1863 ~ 1941",
+    "region": "아메리카 (미국)",
+    "category": "science",
+    "gender": "F",
+    "reason": "35만 개의 항성을 스펙트럼으로 분류한 현대 별 분류의 거장"
+  },
+  {
+    "slug": "christiaan-huygens",
+    "nameEn": "Christiaan Huygens",
+    "nameKo": "크리스티안 하이헌스",
+    "era": "1629 ~ 1695",
+    "region": "유럽 (네덜란드)",
+    "category": "science",
+    "gender": "M",
+    "reason": "빛의 파동설을 주창하고 진자시계를 발명한 물리학자"
+  },
+  {
+    "slug": "antonie-van-leeuwenhoek",
+    "nameEn": "Antonie van Leeuwenhoek",
+    "nameKo": "안토니 판 레이우엔후크",
+    "era": "1632 ~ 1723",
+    "region": "유럽 (네덜란드)",
+    "category": "science",
+    "gender": "M",
+    "reason": "현미경으로 미생물과 세균을 최초 관찰한 학자"
+  },
+  {
+    "slug": "robert-hooke",
+    "nameEn": "Robert Hooke",
+    "nameKo": "로버트 훅",
+    "era": "1635 ~ 1703",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "세포(Cell)를 발견하고 훅의 법칙을 발견한 과학자"
+  },
+  {
+    "slug": "marcello-malpighi",
+    "nameEn": "Marcello Malpighi",
+    "nameKo": "마르첼로 말피기",
+    "era": "1628 ~ 1694",
+    "region": "유럽 (이탈리아)",
+    "category": "science",
+    "gender": "M",
+    "reason": "현미경으로 세포 조직학과 해부학을 창시한 의학자"
+  },
+  {
+    "slug": "andreas-vesalius",
+    "nameEn": "Andreas Vesalius",
+    "nameKo": "안드레아스 베살리우스",
+    "era": "1514 ~ 1564",
+    "region": "유럽 (벨기에)",
+    "category": "science",
+    "gender": "M",
+    "reason": "인체 해부학 교과서를 집필한 현대 해부학의 거장"
+  },
+  {
+    "slug": "paracelsus",
+    "nameEn": "Paracelsus",
+    "nameKo": "파라켈수스",
+    "era": "1493 ~ 1541",
+    "region": "유럽 (스위스)",
+    "category": "science",
+    "gender": "M",
+    "reason": "독성학과 독물 의학의 기초를 놓은 의학자"
+  },
+  {
+    "slug": "ambroise-par",
+    "nameEn": "Ambroise Paré",
+    "nameKo": "앙브루아즈 파레",
+    "era": "1510 ~ 1590",
+    "region": "유럽 (프랑스)",
+    "category": "science",
+    "gender": "M",
+    "reason": "외상 치료법과 동맥 결찰법을 도입한 외과의 명의"
+  },
+  {
+    "slug": "joseph-lister",
+    "nameEn": "Joseph Lister",
+    "nameKo": "조지프 리스터",
+    "era": "1827 ~ 1912",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "무균 소독 수술법을 개발하여 수술 감염률을 낮춘 의학자"
+  },
+  {
+    "slug": "wilhelm-r-ntgen",
+    "nameEn": "Wilhelm Röntgen",
+    "nameKo": "빌헬름 뢴트겐",
+    "era": "1845 ~ 1923",
+    "region": "유럽 (독일)",
+    "category": "science",
+    "gender": "M",
+    "reason": "X선을 발견하여 노벨 물리학상을 받은 진단 의학 거장"
+  },
+  {
+    "slug": "heinrich-hertz",
+    "nameEn": "Heinrich Hertz",
+    "nameKo": "하인리히 헤르츠",
+    "era": "1857 ~ 1894",
+    "region": "유럽 (독일)",
+    "category": "science",
+    "gender": "M",
+    "reason": "전자기파 존재를 실험으로 증명한 물리학자"
+  },
+  {
+    "slug": "humphry-davy",
+    "nameEn": "Humphry Davy",
+    "nameKo": "험프리 데이비",
+    "era": "1778 ~ 1829",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "전기분해로 나트륨, 칼륨을 발견한 화학자"
+  },
+  {
+    "slug": "john-dalton",
+    "nameEn": "John Dalton",
+    "nameKo": "존 돌턴",
+    "era": "1766 ~ 1844",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "근대 원자설을 정립하여 현대 화학의 이정표를 세운 학자"
+  },
+  {
+    "slug": "marie-anne-paulze-lavoisier",
+    "nameEn": "Marie-Anne Paulze Lavoisier",
+    "nameKo": "마리앙 폴즈 라부아지에",
+    "era": "1758 ~ 1836",
+    "region": "유럽 (프랑스)",
+    "category": "science",
+    "gender": "F",
+    "reason": "실험 기구 그림 기록과 번역을 담당한 동반자 화학자"
+  },
+  {
+    "slug": "alessandro-volta",
+    "nameEn": "Alessandro Volta",
+    "nameKo": "알레산드로 볼타",
+    "era": "1745 ~ 1827",
+    "region": "유럽 (이탈리아)",
+    "category": "science",
+    "gender": "M",
+    "reason": "볼타 전지를 발명하여 연속 전류 시대를 연 물리학자"
+  },
+  {
+    "slug": "luigi-galvani",
+    "nameEn": "Luigi Galvani",
+    "nameKo": "루이지 갈바니",
+    "era": "1737 ~ 1798",
+    "region": "유럽 (이탈리아)",
+    "category": "science",
+    "gender": "M",
+    "reason": "개구리 다리 실험으로 생체 전기를 발견한 학자"
+  },
+  {
+    "slug": "andr-marie-amp-re",
+    "nameEn": "André-Marie Ampère",
+    "nameKo": "앙드레마리 앙페르",
+    "era": "1775 ~ 1836",
+    "region": "유럽 (프랑스)",
+    "category": "science",
+    "gender": "M",
+    "reason": "앙페르 법칙을 발견하여 전자기학의 초석을 다진 물리학자"
+  },
+  {
+    "slug": "georg-ohm",
+    "nameEn": "Georg Ohm",
+    "nameKo": "게오르크 옴",
+    "era": "1789 ~ 1854",
+    "region": "유럽 (독일)",
+    "category": "science",
+    "gender": "M",
+    "reason": "옴의 법칙을 밝혀낸 물리학자"
+  },
+  {
+    "slug": "sadi-carnot",
+    "nameEn": "Sadi Carnot",
+    "nameKo": "사디 카르노",
+    "era": "1796 ~ 1832",
+    "region": "유럽 (프랑스)",
+    "category": "science",
+    "gender": "M",
+    "reason": "카르노 사이클로 열역학 제2법칙을 확립한 공학자"
+  },
+  {
+    "slug": "ludwig-boltzmann",
+    "nameEn": "Ludwig Boltzmann",
+    "nameKo": "루트비히 볼츠만",
+    "era": "1844 ~ 1906",
+    "region": "유럽 (오스트리아)",
+    "category": "science",
+    "gender": "M",
+    "reason": "통계역학을 창시하고 엔트로피의 의미를 해석한 물리학자"
+  },
+  {
+    "slug": "lord-kelvin-william-thomson",
+    "nameEn": "Lord Kelvin (William Thomson)",
+    "nameKo": "캘빈 경",
+    "era": "1824 ~ 1907",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "절대온도 체계를 정립하고 해저 케이블 성공을 이끈 학자"
+  },
+  {
+    "slug": "james-prescott-joule",
+    "nameEn": "James Prescott Joule",
+    "nameKo": "제임스 프레스콧 줄",
+    "era": "1818 ~ 1889",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "열과 일의 당량성을 실험으로 증명한 학자"
+  },
+  {
+    "slug": "hermann-von-helmholtz",
+    "nameEn": "Hermann von Helmholtz",
+    "nameKo": "헤르만 폰 헬름홀츠",
+    "era": "1821 ~ 1894",
+    "region": "유럽 (독일)",
+    "category": "science",
+    "gender": "M",
+    "reason": "에너지 보존 법칙을 수학적으로 정립한 물리학자"
+  },
+  {
+    "slug": "august-kekul",
+    "nameEn": "August Kekulé",
+    "nameKo": "아우구스트 케쿨레",
+    "era": "1829 ~ 1896",
+    "region": "유럽 (독일)",
+    "category": "science",
+    "gender": "M",
+    "reason": "벤젠의 고리 구조를 규명한 유기화학자"
+  },
+  {
+    "slug": "jean-baptiste-lamarck",
+    "nameEn": "Jean-Baptiste Lamarck",
+    "nameKo": "장바티스트 라마르크",
+    "era": "1744 ~ 1829",
+    "region": "유럽 (프랑스)",
+    "category": "science",
+    "gender": "M",
+    "reason": "무척추동물 분류 및 진화론 기틀을 마련한 학자"
+  },
+  {
+    "slug": "thomas-henry-huxley",
+    "nameEn": "Thomas Henry Huxley",
+    "nameKo": "토머스 헨리 헉슬리",
+    "era": "1825 ~ 1895",
+    "region": "유럽 (영국)",
+    "category": "science",
+    "gender": "M",
+    "reason": "진화론 보급과 불가지론 철학을 전파한 과학자"
+  },
+  {
+    "slug": "ernst-haeckel",
+    "nameEn": "Ernst Haeckel",
+    "nameKo": "에른스트 헤켈",
+    "era": "1834 ~ 1919",
+    "region": "유럽 (독일)",
+    "category": "science",
+    "gender": "M",
+    "reason": "생태학(Ecology)이라는 단어를 최초로 제정한 과학자"
+  }
+]

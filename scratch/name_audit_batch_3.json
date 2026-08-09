@@ -1,0 +1,752 @@
+[
+  {
+    "slug": "oda-nobunaga",
+    "nameEn": "Oda Nobunaga",
+    "names": {
+      "fr": "Oda Nobunaga",
+      "ko": "오다 노부나가",
+      "en": "Oda Nobunaga",
+      "id": "Oda Nobunaga",
+      "fa": "اودا نوبوناگا",
+      "es": "Oda Nobunaga",
+      "ru": "Ода Нобунага",
+      "zh": "織田信長",
+      "ja": "織田信長"
+    }
+  },
+  {
+    "slug": "sun-yat-sen",
+    "nameEn": "Sun Yat Sen",
+    "names": {
+      "fr": "Sun Yat-sen",
+      "ko": "쑨원",
+      "en": "Sun Yat Sen",
+      "id": "Sun Yat-sen",
+      "fa": "سون یات سن",
+      "es": "Sun Yat-sen",
+      "ru": "Сунь Ятсен",
+      "zh": "孙中山",
+      "ja": "孫文 (ソン・ブン)"
+    }
+  },
+  {
+    "slug": "tokugawa-ieyasu",
+    "nameEn": "Tokugawa Ieyasu",
+    "names": {
+      "fr": "Tokugawa Ieyasu",
+      "ko": "도쿠가와 이에야스",
+      "en": "Tokugawa Ieyasu",
+      "id": "Tokugawa Ieyasu",
+      "fa": "توکوگاوا ایه‌یاسو",
+      "es": "Tokugawa Ieyasu",
+      "ru": "Токугава Иэясу",
+      "zh": "徳川家康",
+      "ja": "徳川家康"
+    }
+  },
+  {
+    "slug": "toyotomi-hideyoshi",
+    "nameEn": "Toyotomi Hideyoshi",
+    "names": {
+      "fr": "Toyota Hideyoshi",
+      "ko": "도요토미 히데요시",
+      "en": "Toyotomi Hideyoshi",
+      "id": "Toyotomi Hideyoshi",
+      "fa": "تویوتومی هیده‌یوشی",
+      "es": "Toyotomi Hideyoshi",
+      "ru": "Тоётоми Хидэёси",
+      "zh": "丰臣秀吉",
+      "ja": "豊臣秀吉"
+    }
+  },
+  {
+    "slug": "chulalongkorn",
+    "nameEn": "Chulalongkorn",
+    "names": {
+      "fr": "Chulalongkorn",
+      "ko": "출라롱꼰",
+      "en": "Chulalongkorn",
+      "id": "Chulalongkorn (Rama V dari Siam)",
+      "fa": "چولالونگ کورن",
+      "es": "Chulalongkorn",
+      "ru": "Чхулалонгкорн",
+      "zh": "朱拉隆功",
+      "ja": "チュラロンコン"
+    }
+  },
+  {
+    "slug": "hannibal-barca",
+    "nameEn": "Hannibal Barca",
+    "names": {
+      "fr": "Hannibal Barça",
+      "ko": "한니발 바르카",
+      "en": "Hannibal Barca",
+      "id": "Hannibal",
+      "fa": "هانیبال",
+      "es": "Aníbal Barca",
+      "ru": "Ганнибал Барка",
+      "zh": "汉尼拔·巴卡",
+      "ja": "ハンニバル・バルカ"
+    }
+  },
+  {
+    "slug": "ibn-battuta",
+    "nameEn": "Ibn Battuta",
+    "names": {
+      "fr": "Ibn Battouta",
+      "ko": "이븐 바투타",
+      "en": "Ibn Battuta",
+      "id": "Ibnu Batutah",
+      "fa": "ابن بطوطه",
+      "es": "Ibn Battuta",
+      "ru": "Ибн Баттута",
+      "zh": "伊本·巴图塔",
+      "ja": "イブン・バトゥータ"
+    }
+  },
+  {
+    "slug": "jayavarman-vii",
+    "nameEn": "Jayavarman VII",
+    "names": {
+      "fr": "Jayavarman VII",
+      "ko": "자야바르만 7세",
+      "en": "Jayavarman VII",
+      "id": "Jayawarman VII",
+      "fa": "جیاوارمان هفتم",
+      "es": "Jayavarman VII",
+      "ru": "Джаяварман VII",
+      "zh": "阇耶跋摩七世",
+      "ja": "ジャヤヴァルマン7世"
+    }
+  },
+  {
+    "slug": "mansa-musa",
+    "nameEn": "Mansa Musa",
+    "names": {
+      "fr": "Mansa Moussa",
+      "ko": "만사 무사",
+      "en": "Mansa Musa",
+      "id": "Mansa Musa",
+      "fa": "مانسا موسی",
+      "es": "Mansa Musa",
+      "ru": "Манса Муса",
+      "zh": "曼萨·穆萨",
+      "ja": "マンサ・ムーサ"
+    }
+  },
+  {
+    "slug": "shaka-zulu",
+    "nameEn": "Shaka Zulu",
+    "names": {
+      "fr": "Shaka Zulu",
+      "ko": "샤카 줄루",
+      "en": "Shaka Zulu",
+      "id": "Shaka",
+      "fa": "شاکا",
+      "es": "Shaka Zulu",
+      "ru": "Шака Зулу",
+      "zh": "夏卡·祖鲁",
+      "ja": "シャカ・ズールー"
+    }
+  },
+  {
+    "slug": "al-khwarizmi",
+    "nameEn": "Al Khwarizmi",
+    "names": {
+      "fr": "Al-Khwarizmi",
+      "ko": "알콰리즈미",
+      "en": "Al Khwarizmi",
+      "id": "Al-Khawarizmi",
+      "fa": "خوارزمی",
+      "es": "Al-Juarismi",
+      "ru": "Аль-Хорезми",
+      "zh": "花拉子米",
+      "ja": "アル・フワーリズミー"
+    }
+  },
+  {
+    "slug": "br-ambedkar",
+    "nameEn": "Br Ambedkar",
+    "names": {
+      "fr": "F. Ambedkar",
+      "ko": "B. R. 암베드카르",
+      "en": "Br Ambedkar",
+      "id": "Bhimrao Ramji Ambedkar",
+      "fa": "بهیمراو رامجی آمبدکار",
+      "es": "B.R. Ambedkar",
+      "ru": "Б. Р. Амбедкар",
+      "zh": "B.R. 安贝德卡",
+      "ja": "B.R.アンベードカル"
+    }
+  },
+  {
+    "slug": "chandragupta-maurya",
+    "nameEn": "Chandragupta Maurya",
+    "names": {
+      "fr": "Chandragupta Maurya",
+      "ko": "찬드라굽타 마우리아",
+      "en": "Chandragupta Maurya",
+      "id": "Candragupta Maurya",
+      "fa": "چاندراگوپتا مائوریا",
+      "es": "Chandragupta Maurya",
+      "ru": "Чандрагупта Маурья",
+      "zh": "旃陀罗笈多·孔雀",
+      "ja": "チャンドラグプタ・マウリヤ"
+    }
+  },
+  {
+    "slug": "omar-khayyam",
+    "nameEn": "Omar Khayyam",
+    "names": {
+      "fr": "Omar Khayam",
+      "ko": "오마르 하이얌",
+      "en": "Omar Khayyam",
+      "id": "'Umar Khayyam",
+      "fa": "خیام",
+      "es": "Omar Khayyam",
+      "ru": "Омар Хайям",
+      "zh": "奥马尔·海亚姆",
+      "ja": "オマル・ハイヤーム"
+    }
+  },
+  {
+    "slug": "robert-oppenheimer",
+    "nameEn": "Robert Oppenheimer",
+    "names": {
+      "fr": "Robert Oppenheimer",
+      "ko": "로버트 오펜하이머",
+      "en": "Robert Oppenheimer",
+      "id": "Julius Robert Oppenheimer",
+      "fa": "جی. رابرت اوپنهایمر",
+      "es": "Robert Oppenheimer",
+      "ru": "Роберт Оппенгеймер",
+      "zh": "罗伯特·奥本海默",
+      "ja": "ロバート・オッペンハイマー"
+    }
+  },
+  {
+    "slug": "saladin",
+    "nameEn": "Saladin",
+    "names": {
+      "fr": "Saladin",
+      "ko": "살라딘",
+      "en": "Saladin",
+      "id": "Salahuddin Ayyubi",
+      "fa": "صلاح‌الدین ایوبی",
+      "es": "Saladino",
+      "ru": "Саладин",
+      "zh": "萨拉丁",
+      "ja": "サラディン"
+    }
+  },
+  {
+    "slug": "srinivasa-ramanujan",
+    "nameEn": "Srinivasa Ramanujan",
+    "names": {
+      "fr": "Srinivasa Ramanujan",
+      "ko": "스리니바사 라마누잔",
+      "en": "Srinivasa Ramanujan",
+      "id": "Srinivasa Ramanujan",
+      "fa": "سرینیواسا رامانوجان",
+      "es": "Srinivasa Ramanujan",
+      "ru": "Шриниваса Рамануджан",
+      "zh": "斯里尼瓦瑟·拉马努金",
+      "ja": "スリニヴァーサ・ラマヌジャン"
+    }
+  },
+  {
+    "slug": "suleiman-the-magnificent",
+    "nameEn": "Suleiman The Magnificent",
+    "names": {
+      "fr": "Soliman le Magnifique",
+      "ko": "쉴레이만 1세",
+      "en": "Suleiman The Magnificent",
+      "id": "Süleyman I",
+      "fa": "سلیمان یکم",
+      "es": "Solimán el Magnífico",
+      "ru": "Сулейман Великолепный",
+      "zh": "苏莱曼一世",
+      "ja": "スレイマン1世"
+    }
+  },
+  {
+    "slug": "swami-vivekananda",
+    "nameEn": "Swami Vivekananda",
+    "names": {
+      "fr": "Swami Vivekananda",
+      "ko": "스와미 비베카난다",
+      "en": "Swami Vivekananda",
+      "id": "Swami Vivekananda",
+      "fa": "ویوکاناندا",
+      "es": "Swami Vivekananda",
+      "ru": "Swami Vivekananda",
+      "zh": "斯瓦米·辨喜",
+      "ja": "スワミ・ヴィヴェーカーナンダ"
+    }
+  },
+  {
+    "slug": "wright-brothers",
+    "nameEn": "Wright Brothers",
+    "names": {
+      "fr": "Frères Wright",
+      "ko": "라이트 형제",
+      "en": "Wright Brothers",
+      "id": "Wright Bersaudara",
+      "fa": "برادران رایت",
+      "es": "Hermanos Wright",
+      "ru": "Братья Райт",
+      "zh": "莱特兄弟",
+      "ja": "ライト兄弟"
+    }
+  },
+  {
+    "slug": "adam-smith",
+    "nameEn": "Adam Smith",
+    "names": {
+      "fr": "Adam Smith",
+      "ko": "애덤 스미스",
+      "en": "Adam Smith",
+      "id": "Adam Smith",
+      "fa": "آدام اسمیت",
+      "es": "Adam Smith",
+      "ru": "Адам Смит",
+      "zh": "亚当·斯密",
+      "ja": "アダム・スミス"
+    }
+  },
+  {
+    "slug": "archimedes",
+    "nameEn": "Archimedes",
+    "names": {
+      "fr": "Archimède",
+      "ko": "아르키메데스",
+      "en": "Archimedes",
+      "id": "Archimedes",
+      "fa": "ارشمیدس",
+      "es": "Arquímedes",
+      "ru": "Архимед",
+      "zh": "阿基米德",
+      "ja": "アルキメデス"
+    }
+  },
+  {
+    "slug": "copernicus",
+    "nameEn": "Copernicus",
+    "names": {
+      "fr": "Nicolas Copernic",
+      "ko": "니콜라우스 코페르니쿠스",
+      "en": "Copernicus",
+      "id": "Nicolaus Copernicus",
+      "fa": "نیکلاس کوپرنیک",
+      "es": "Nicolás Copérnico",
+      "ru": "Николай Коперник",
+      "zh": "尼古拉·哥白尼",
+      "ja": "ニコラウス・コペルニクス"
+    }
+  },
+  {
+    "slug": "dante-alighieri",
+    "nameEn": "Dante Alighieri",
+    "names": {
+      "fr": "Dante Alighieri",
+      "ko": "단테 알리기에리",
+      "en": "Dante Alighieri",
+      "id": "Dante Alighieri",
+      "fa": "دانته آلیگیری",
+      "es": "Dante Alighieri",
+      "ru": "Данте Алигьери",
+      "zh": "但丁·阿利吉耶里",
+      "ja": "ダンテ・アリギエーリ"
+    }
+  },
+  {
+    "slug": "johannes-gutenberg",
+    "nameEn": "Johannes Gutenberg",
+    "names": {
+      "fr": "Johannes Gutenberg",
+      "ko": "요하네스 구텐베르크",
+      "en": "Johannes Gutenberg",
+      "id": "Johannes Gutenberg",
+      "fa": "یوهانس گوتنبرگ",
+      "es": "Johannes Gutenberg",
+      "ru": "Иоганн Гутенберг",
+      "zh": "约翰内斯·古腾堡",
+      "ja": "ヨハネス・グーテンベルク"
+    }
+  },
+  {
+    "slug": "louis-pasteur",
+    "nameEn": "Louis Pasteur",
+    "names": {
+      "fr": "Louis Pasteur",
+      "ko": "루이 파스퇴르",
+      "en": "Louis Pasteur",
+      "id": "Louis Pasteur",
+      "fa": "لویی پاستور",
+      "es": "Louis Pasteur",
+      "ru": "Луи Пастер",
+      "zh": "路易·巴斯德",
+      "ja": "ルイ・パスツール"
+    }
+  },
+  {
+    "slug": "machiavelli",
+    "nameEn": "Machiavelli",
+    "names": {
+      "fr": "Machiavel",
+      "ko": "니콜로 마키아벨리",
+      "en": "Machiavelli",
+      "id": "Machiavelli",
+      "fa": "نیکولو ماکیاولی",
+      "es": "Niccolò Machiavelli",
+      "ru": "Никколо Макиавелли",
+      "zh": "尼可罗·马基雅维利",
+      "ja": "ニッコロ・マキャヴェッリ"
+    }
+  },
+  {
+    "slug": "voltaire",
+    "nameEn": "Voltaire",
+    "names": {
+      "fr": "Voltaire",
+      "ko": "볼테르",
+      "en": "Voltaire",
+      "id": "Voltaire",
+      "fa": "ولتر",
+      "es": "Voltaire",
+      "ru": "Вольтер",
+      "zh": "伏尔泰",
+      "ja": "ヴォルテール"
+    }
+  },
+  {
+    "slug": "alexander-graham-bell",
+    "nameEn": "Alexander Graham Bell",
+    "names": {
+      "fr": "Alexandre Graham Bell",
+      "ko": "알렉산더 그레이엄 벨",
+      "en": "Alexander Graham Bell",
+      "id": "Alexander Graham Bell",
+      "fa": "الکساندر گراهام بل",
+      "es": "Alexander Graham Bell",
+      "ru": "Александр Грэм Белл",
+      "zh": "亚历山大·格拉汉姆·贝尔",
+      "ja": "アレクサンダー・グラハム・ベル"
+    }
+  },
+  {
+    "slug": "amelia-earhart",
+    "nameEn": "Amelia Earhart",
+    "names": {
+      "fr": "Amélie Earhart",
+      "ko": "아멜리아 에어하트",
+      "en": "Amelia Earhart",
+      "id": "Amelia Earhart",
+      "fa": "آملیا ارهارت",
+      "es": "Amelia Earhart",
+      "ru": "Амелия Эрхарт",
+      "zh": "阿梅莉亚·埃尔哈特",
+      "ja": "アメリア・エアハート"
+    }
+  },
+  {
+    "slug": "andrew-carnegie",
+    "nameEn": "Andrew Carnegie",
+    "names": {
+      "fr": "Andrew Carnegie",
+      "ko": "앤드루 카네기",
+      "en": "Andrew Carnegie",
+      "id": "Andrew Carnegie",
+      "fa": "اندرو کارنگی",
+      "es": "Andrew Carnegie",
+      "ru": "Эндрю Карнеги",
+      "zh": "安德鲁·卡内基",
+      "ja": "アンドリュー・カーネギー"
+    }
+  },
+  {
+    "slug": "edgar-allan-poe",
+    "nameEn": "Edgar Allan Poe",
+    "names": {
+      "fr": "Edgar Allan Poe",
+      "ko": "에드거 앨런 포",
+      "en": "Edgar Allan Poe",
+      "id": "Edgar Allan Poe",
+      "fa": "ادگار آلن پو",
+      "es": "Edgar Allan Poe",
+      "ru": "Эдгар Аллан По",
+      "zh": "埃德加·爱伦·坡",
+      "ja": "エドガー・アラン・ポー"
+    }
+  },
+  {
+    "slug": "ernest-hemingway",
+    "nameEn": "Ernest Hemingway",
+    "names": {
+      "fr": "Ernest Hemingway",
+      "ko": "어니스트 헤밍웨이",
+      "en": "Ernest Hemingway",
+      "id": "Ernest Hemingway",
+      "fa": "ارنست همینگوی",
+      "es": "Ernest Hemingway",
+      "ru": "Эрнест Хемингуэй",
+      "zh": "欧内斯特·海明威",
+      "ja": "アーネスト・ヘミングウェイ"
+    }
+  },
+  {
+    "slug": "henry-david-thoreau",
+    "nameEn": "Henry David Thoreau",
+    "names": {
+      "fr": "Henri David Thoreau",
+      "ko": "헨리 데이비드 소로",
+      "en": "Henry David Thoreau",
+      "id": "Henry David Thoreau",
+      "fa": "هنری دیوید ثورو",
+      "es": "Henry David Thoreau",
+      "ru": "Генри Дэвид Торо",
+      "zh": "亨利·戴维·梭罗",
+      "ja": "ヘンリー・デイヴィッド・ソロー"
+    }
+  },
+  {
+    "slug": "jp-morgan",
+    "nameEn": "Jp Morgan",
+    "names": {
+      "fr": "J.P. Morgan",
+      "ko": "J. P. 모건",
+      "en": "Jp Morgan",
+      "id": "JPMorgan Chase",
+      "fa": "جی‌پی مورگان چیس",
+      "es": "J.P. Morgan",
+      "ru": "Дж. П. Морган",
+      "zh": "J.P. 摩根",
+      "ja": "J.P.モルガン"
+    }
+  },
+  {
+    "slug": "ralph-waldo-emerson",
+    "nameEn": "Ralph Waldo Emerson",
+    "names": {
+      "fr": "Ralph Waldo Emerson",
+      "ko": "랠프 월도 에머슨",
+      "en": "Ralph Waldo Emerson",
+      "id": "Ralph Waldo Emerson",
+      "fa": "رالف والدو امرسون",
+      "es": "Ralph Waldo Emerson",
+      "ru": "Ральф Waldo Эмерсон",
+      "zh": "拉尔夫·沃尔多·爱默生",
+      "ja": "ラルフ・ワルド・エマーソン"
+    }
+  },
+  {
+    "slug": "susan-b-anthony",
+    "nameEn": "Susan B Anthony",
+    "names": {
+      "fr": "Susan B Anthony",
+      "ko": "수잔 B. 앤서니",
+      "en": "Susan B Anthony",
+      "id": "Susan B Anthony",
+      "fa": "سوزان آنتونی",
+      "es": "Susan B. Anthony",
+      "ru": "Сьюзен Б. Энтони",
+      "zh": "苏珊·B·安东尼",
+      "ja": "スーザン・B・アンソニー"
+    }
+  },
+  {
+    "slug": "walt-whitman",
+    "nameEn": "Walt Whitman",
+    "names": {
+      "fr": "Walt Whitman",
+      "ko": "월트 휘트먼",
+      "en": "Walt Whitman",
+      "id": "Walter Whitman",
+      "fa": "والت ویتمن",
+      "es": "Walt Whitman",
+      "ru": "Уолт Уитмен",
+      "zh": "沃尔特·惠特曼",
+      "ja": "ウォルト・ホイットマン"
+    }
+  },
+  {
+    "slug": "max-planck",
+    "nameEn": "Max Planck",
+    "names": {
+      "fr": "Max Planck",
+      "ko": "막스 플랑크",
+      "en": "Max Planck",
+      "id": "Max Planck",
+      "fa": "ماکس پلانک",
+      "es": "Max Planck",
+      "ru": "Макс Планк",
+      "zh": "马克斯·普朗克",
+      "ja": "マックス・プランク"
+    }
+  },
+  {
+    "slug": "hypatia",
+    "nameEn": "Hypatia",
+    "names": {
+      "fr": "Hypatie",
+      "ko": "히파티아",
+      "en": "Hypatia",
+      "id": "Hipatia",
+      "fa": "هیپاتیا",
+      "es": "Hipatia",
+      "ru": "Гипатия",
+      "zh": "希帕蒂亚",
+      "ja": "ヒパティア"
+    }
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "nameEn": "Ibn Al Haytham",
+    "names": {
+      "fr": "Ibn Al Haytham",
+      "ko": "이븐 알하이삼",
+      "en": "Ibn Al Haytham",
+      "id": "Ibnu al-Haitsam",
+      "fa": "ابن هیثم",
+      "es": "Ibn Al Haytham",
+      "ru": "Ибн аль-Хайсам",
+      "zh": "伊本·海塞姆",
+      "ja": "イブン・アル＝ハイサム"
+    }
+  },
+  {
+    "slug": "blaise-pascal",
+    "nameEn": "Blaise Pascal",
+    "names": {
+      "fr": "Blaise Pascal",
+      "ko": "블레즈 파스칼",
+      "en": "Blaise Pascal",
+      "id": "Blaise Pascal",
+      "fa": "بلز پاسکال",
+      "es": "Blaise Pascal",
+      "ru": "Блез Паскаль",
+      "zh": "布莱兹·帕斯卡",
+      "ja": "ブレーズ・パスカル"
+    }
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "nameEn": "Dmitri Ivanovich Mendeleev",
+    "names": {
+      "fr": "Dmitri Ivanovitch Mendeleïev",
+      "ko": "드미트리 멘델레예프",
+      "en": "Dmitri Ivanovich Mendeleev",
+      "id": "Dmitri Mendeleev",
+      "fa": "دمیتری مندلیف",
+      "es": "Dmitri Ivánovich Mendeléyev",
+      "ru": "Дмитрий Иванович Менделеев",
+      "zh": "德米特里·伊万诺维奇·门捷列夫",
+      "ja": "ドミトリ・メンデレーエフ"
+    }
+  },
+  {
+    "slug": "ada-lovelace",
+    "nameEn": "Ada Lovelace",
+    "names": {
+      "fr": "Ada Lovelace",
+      "ko": "에이다 러브레이스",
+      "en": "Ada Lovelace",
+      "id": "Ada Lovelace",
+      "fa": "ایدا لاولیس",
+      "es": "Ada Lovelace",
+      "ru": "Ада Лавлейс",
+      "zh": "埃达·洛夫莱斯",
+      "ja": "エイダ・ラブレス"
+    }
+  },
+  {
+    "slug": "alan-turing",
+    "nameEn": "Alan Turing",
+    "names": {
+      "fr": "Alan Turing",
+      "ko": "앨런 튜링",
+      "en": "Alan Turing",
+      "id": "Alan Turing",
+      "fa": "آلن تورینگ",
+      "es": "Alan Turing",
+      "ru": "Алан Тьюринг",
+      "zh": "艾伦·图灵",
+      "ja": "アラン・チューリング"
+    }
+  },
+  {
+    "slug": "charles-babbage",
+    "nameEn": "Charles Babbage",
+    "names": {
+      "fr": "Charles Babbage",
+      "ko": "찰스 배비지",
+      "en": "Charles Babbage",
+      "id": "Charles Babbage",
+      "fa": "چارلز ببیج",
+      "es": "Charles Babbage",
+      "ru": "Чарльз Бэббидж",
+      "zh": "查尔斯·巴贝奇",
+      "ja": "チャールズ・バベッジ"
+    }
+  },
+  {
+    "slug": "ibn-sina",
+    "nameEn": "Ibn Sina",
+    "names": {
+      "fr": "Ibn Sina",
+      "ko": "이븐 시나",
+      "en": "Ibn Sina",
+      "id": "Ibnu Sina",
+      "fa": "ابن سینا",
+      "es": "Ibn Sina",
+      "ru": "Ибн Сина",
+      "zh": "伊本·西那",
+      "ja": "イブン・シーナ"
+    }
+  },
+  {
+    "slug": "james-watt",
+    "nameEn": "James Watt",
+    "names": {
+      "fr": "James Watt",
+      "ko": "제임스 와트",
+      "en": "James Watt",
+      "id": "James Watt",
+      "fa": "جیمز وات",
+      "es": "James Watt",
+      "ru": "Джеймс Уатт",
+      "zh": "詹姆斯·瓦特",
+      "ja": "ジェームズ・ワット"
+    }
+  },
+  {
+    "slug": "george-stephenson",
+    "nameEn": "George Stephenson",
+    "names": {
+      "fr": "Georges Stephenson",
+      "ko": "조지 스티븐슨",
+      "en": "George Stephenson",
+      "id": "George Stephenson",
+      "fa": "جرج استیونسن",
+      "es": "George Stephenson",
+      "ru": "Джордж Стефенсон",
+      "zh": "乔治·斯蒂芬森",
+      "ja": "ジョージ・スティーブンソン"
+    }
+  },
+  {
+    "slug": "gregor-mendel",
+    "nameEn": "Gregor Mendel",
+    "names": {
+      "fr": "Grégor Mendel",
+      "ko": "그레고어 멘델",
+      "en": "Gregor Mendel",
+      "id": "Gregor Mendel",
+      "fa": "گرگور مندل",
+      "es": "Gregor Mendel",
+      "ru": "Грегор Мендель",
+      "zh": "格雷戈尔·孟德尔",
+      "ja": "グレゴール・メンデル"
+    }
+  }
+]

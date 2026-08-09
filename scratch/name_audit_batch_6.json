@@ -1,0 +1,752 @@
+[
+  {
+    "slug": "tycho-brahe",
+    "nameEn": "Tycho Brahe",
+    "names": {
+      "fr": "Tycho Brahé",
+      "ko": "튀코 브라헤",
+      "en": "Tycho Brahe",
+      "id": "Tycho Brahe",
+      "fa": "تیکو براهه",
+      "es": "Tycho Brahe",
+      "ru": "Тихо Браге",
+      "zh": "第谷·布拉赫",
+      "ja": "ティコ・ブラーエ"
+    }
+  },
+  {
+    "slug": "john-muir",
+    "nameEn": "John Muir",
+    "names": {
+      "fr": "John Muir",
+      "ko": "존 뮤어",
+      "en": "John Muir",
+      "id": "John Muir",
+      "fa": "جان مویر",
+      "es": "John Muir",
+      "ru": "Джон Мьюир",
+      "zh": "约翰·穆尔",
+      "ja": "ジョン・ミューア"
+    }
+  },
+  {
+    "slug": "alfred-russel-wallace",
+    "nameEn": "Alfred Russel Wallace",
+    "names": {
+      "fr": "Alfred Russel Wallace",
+      "ko": "앨프리드 러셀 월리스",
+      "en": "Alfred Russel Wallace",
+      "id": "Alfred Russel Wallace",
+      "fa": "آلفرد راسل والاس",
+      "es": "Alfred Russel Wallace",
+      "ru": "Альфред Рассел Уоллес",
+      "zh": "阿尔弗雷德·罗素·华莱士",
+      "ja": "アルフレッド・ラッセル・ウォレス"
+    }
+  },
+  {
+    "slug": "pierre-curie",
+    "nameEn": "Pierre Curie",
+    "names": {
+      "fr": "Pierre Curie",
+      "ko": "피에르 퀴리",
+      "en": "Pierre Curie",
+      "id": "Pierre Curie",
+      "fa": "پیر کوری",
+      "es": "Pierre Curie",
+      "ru": "Пьер Кюри",
+      "zh": "皮埃尔·居里",
+      "ja": "ピエール・キュリー"
+    }
+  },
+  {
+    "slug": "charles-lyell",
+    "nameEn": "Charles Lyell",
+    "names": {
+      "fr": "Charles Lyell",
+      "ko": "찰스 라이엘",
+      "en": "Charles Lyell",
+      "id": "Charles Lyell",
+      "fa": "چارلز لایل",
+      "es": "Charles Lyell",
+      "ru": "Чарльз Лайель",
+      "zh": "查尔斯·莱尔",
+      "ja": "チャールズ・ライエル"
+    }
+  },
+  {
+    "slug": "al-farabi",
+    "nameEn": "Al-Farabi",
+    "names": {
+      "fr": "Al-Farabi",
+      "ko": "알파라비",
+      "en": "Al-Farabi",
+      "id": "Al-Farabi",
+      "fa": "فارابی",
+      "es": "Al-Farabi",
+      "ru": "Аль-Фараби",
+      "zh": "阿尔法拉比",
+      "ja": "アル＝ファーラービー"
+    }
+  },
+  {
+    "slug": "thomas-more",
+    "nameEn": "Thomas More",
+    "names": {
+      "fr": "ThomasPlus",
+      "ko": "토마스 모어",
+      "en": "Thomas More",
+      "id": "Thomas More",
+      "fa": "تامس مور",
+      "es": "Tomás Moro",
+      "ru": "Томас Мор",
+      "zh": "托马斯·莫尔",
+      "ja": "トマス・モア"
+    }
+  },
+  {
+    "slug": "simone-weil",
+    "nameEn": "Simone Weil",
+    "names": {
+      "fr": "Simone Weil",
+      "ko": "시몬 베유",
+      "en": "Simone Weil",
+      "id": "Simone Weil",
+      "fa": "سیمون وی",
+      "es": "Simone Weil",
+      "ru": "Симона Вейль",
+      "zh": "西蒙娜·韦伊",
+      "ja": "シモーヌ・ヴェーユ"
+    }
+  },
+  {
+    "slug": "antonio-gramsci",
+    "nameEn": "Antonio Gramsci",
+    "names": {
+      "fr": "Antonio Gramsci",
+      "ko": "안토니오 그람시",
+      "en": "Antonio Gramsci",
+      "id": "Antonio Gramsci",
+      "fa": "آنتونیو گرامشی",
+      "es": "Antonio Gramsci",
+      "ru": "Антонио Грамши",
+      "zh": "安东尼奥·葛兰西",
+      "ja": "アントニオ・グラムシ"
+    }
+  },
+  {
+    "slug": "rosa-luxemburg",
+    "nameEn": "Rosa Luxemburg",
+    "names": {
+      "fr": "Rosa Luxembourg",
+      "ko": "로자 룩셈부르크",
+      "en": "Rosa Luxemburg",
+      "id": "Rosa Luxemburg",
+      "fa": "رزا لوکزامبورگ",
+      "es": "Rosa Luxemburgo",
+      "ru": "Роза Люксембург",
+      "zh": "罗莎·卢森堡",
+      "ja": "ローザ・ルクセンブルク"
+    }
+  },
+  {
+    "slug": "george-santayana",
+    "nameEn": "George Santayana",
+    "names": {
+      "fr": "Georges Santayana",
+      "ko": "조지 산타야나",
+      "en": "George Santayana",
+      "id": "George Santayana",
+      "fa": "جرج سانتایانا",
+      "es": "George Santayana",
+      "ru": "Джордж Сантаяна",
+      "zh": "乔治·桑塔亚那",
+      "ja": "ジョージ・サンタヤナ"
+    }
+  },
+  {
+    "slug": "henri-bergson",
+    "nameEn": "Henri Bergson",
+    "names": {
+      "fr": "Henri Bergson",
+      "ko": "앙리 베르그송",
+      "en": "Henri Bergson",
+      "id": "Henri Bergson",
+      "fa": "آنری برگسون",
+      "es": "Henri Bergson",
+      "ru": "Анри Бергсон",
+      "zh": "亨利·柏格森",
+      "ja": "アンリ・ベルクソン"
+    }
+  },
+  {
+    "slug": "william-of-ockham",
+    "nameEn": "William of Ockham",
+    "names": {
+      "fr": "Guillaume d'Ockham",
+      "ko": "오컴의 윌리엄",
+      "en": "William of Ockham",
+      "id": "William dari Ockham",
+      "fa": "ویلیام اکام",
+      "es": "Guillermo de Ockham",
+      "ru": "Уильям Оккам",
+      "zh": "威廉·奥卡姆",
+      "ja": "ウィリアム・オブ・オッカム"
+    }
+  },
+  {
+    "slug": "ernst-mach",
+    "nameEn": "Ernst Mach",
+    "names": {
+      "fr": "Ernst Mach",
+      "ko": "에른스트 마흐",
+      "en": "Ernst Mach",
+      "id": "Ernst Mach",
+      "fa": "ارنست ماخ",
+      "es": "Ernst Mach",
+      "ru": "Эрнст Мах",
+      "zh": "恩斯特·马赫",
+      "ja": "エルンスト・マッハ"
+    }
+  },
+  {
+    "slug": "william-tyndale",
+    "nameEn": "William Tyndale",
+    "names": {
+      "fr": "William Tyndale",
+      "ko": "윌리엄 틴들",
+      "en": "William Tyndale",
+      "id": "William Tyndale",
+      "fa": "ویلیام تیندل",
+      "es": "William Tyndale",
+      "ru": "Уильям Тиндейл",
+      "zh": "威廉·廷代尔",
+      "ja": "ウィリアム・ティンダル"
+    }
+  },
+  {
+    "slug": "chaucer",
+    "nameEn": "Geoffrey Chaucer",
+    "names": {
+      "fr": "Geoffrey Chaucer",
+      "ko": "제프리 초서",
+      "en": "Geoffrey Chaucer",
+      "id": "Geoffrey Chaucer",
+      "fa": "جفری چاوسر",
+      "es": "Geoffrey Chaucer",
+      "ru": "Джеффри Чосер",
+      "zh": "杰弗里·乔叟",
+      "ja": "ジェフリー・チョーサー"
+    }
+  },
+  {
+    "slug": "jonathan-swift",
+    "nameEn": "Jonathan Swift",
+    "names": {
+      "fr": "Jonathan Swift",
+      "ko": "조너선 스위프트",
+      "en": "Jonathan Swift",
+      "id": "Jonathan Swift",
+      "fa": "جاناتان سوییفت",
+      "es": "Jonathan Swift",
+      "ru": "Джонатан Свифт",
+      "zh": "乔纳森·斯威夫特",
+      "ja": "ジョナサン・スウィフト"
+    }
+  },
+  {
+    "slug": "george-sand",
+    "nameEn": "George Sand",
+    "names": {
+      "fr": "Georges Sand",
+      "ko": "조르주 상",
+      "en": "George Sand",
+      "id": "George Sand",
+      "fa": "ژرژ ساند",
+      "es": "George Sand",
+      "ru": "Жорж Санд",
+      "zh": "乔治·桑德",
+      "ja": "ジョルジュ・サンド"
+    }
+  },
+  {
+    "slug": "paul-cezanne",
+    "nameEn": "Paul Cézanne",
+    "names": {
+      "fr": "Paul Cézanne",
+      "ko": "폴 세잔",
+      "en": "Paul Cézanne",
+      "id": "Paul Cézanne",
+      "fa": "پل سزان",
+      "es": "Paul Cézanne",
+      "ru": "Поль Сезанн",
+      "zh": "保罗·塞尚",
+      "ja": "ポール・セザンヌ"
+    }
+  },
+  {
+    "slug": "auguste-rodin",
+    "nameEn": "Auguste Rodin",
+    "names": {
+      "fr": "Auguste Rodin",
+      "ko": "오귀스트 로댕",
+      "en": "Auguste Rodin",
+      "id": "Auguste Rodin",
+      "fa": "اگوست رودن",
+      "es": "Auguste Rodin",
+      "ru": "Огюст Роден",
+      "zh": "奥古斯特·罗丹",
+      "ja": "オーギュスト・ロダン"
+    }
+  },
+  {
+    "slug": "claude-debussy",
+    "nameEn": "Claude Debussy",
+    "names": {
+      "fr": "Claude Debussy",
+      "ko": "클로드 드뷔시",
+      "en": "Claude Debussy",
+      "id": "Claude Debussy",
+      "fa": "کلود دبوسی",
+      "es": "Claude Debussy",
+      "ru": "Клод Дебюсси",
+      "zh": "克洛德·德彪西",
+      "ja": "クロード・ドビュッシー"
+    }
+  },
+  {
+    "slug": "virginia-woolf",
+    "nameEn": "Virginia Woolf",
+    "names": {
+      "fr": "Virginie Woolf",
+      "ko": "버지니아 울프",
+      "en": "Virginia Woolf",
+      "id": "Virginia Woolf",
+      "fa": "ویرجینیا وولف",
+      "es": "Virginia Woolf",
+      "ru": "Вирджиния Вулф",
+      "zh": "弗吉尼亚·伍尔夫",
+      "ja": "ヴァージニア・ウルフ"
+    }
+  },
+  {
+    "slug": "franz-kafka",
+    "nameEn": "Franz Kafka",
+    "names": {
+      "fr": "Franz Kafka",
+      "ko": "프란츠 카프카",
+      "en": "Franz Kafka",
+      "id": "Franz Kafka",
+      "fa": "فرانتس کافکا",
+      "es": "Franz Kafka",
+      "ru": "Франц Кафка",
+      "zh": "弗兰茨·卡夫卡",
+      "ja": "フランツ・カフカ"
+    }
+  },
+  {
+    "slug": "james-joyce",
+    "nameEn": "James Joyce",
+    "names": {
+      "fr": "James Joyce",
+      "ko": "제임스 조이스",
+      "en": "James Joyce",
+      "id": "James Joyce",
+      "fa": "جیمز جویس",
+      "es": "James Joyce",
+      "ru": "Джеймс Джойс",
+      "zh": "詹姆斯·乔伊斯",
+      "ja": "ジェイムズ・ジョイス"
+    }
+  },
+  {
+    "slug": "giacomo-puccini",
+    "nameEn": "Giacomo Puccini",
+    "names": {
+      "fr": "Giacomo Puccini",
+      "ko": "자코모 푸치니",
+      "en": "Giacomo Puccini",
+      "id": "Giacomo Puccini",
+      "fa": "جاکومو پوچینی",
+      "es": "Giacomo Puccini",
+      "ru": "Джакомо Пуччини",
+      "zh": "贾科莫·普契尼",
+      "ja": "ジャコモ・プッチーニ"
+    }
+  },
+  {
+    "slug": "charles-baudelaire",
+    "nameEn": "Charles Baudelaire",
+    "names": {
+      "fr": "Charles Baudelaire",
+      "ko": "샤를 보들레르",
+      "en": "Charles Baudelaire",
+      "id": "Charles Baudelaire",
+      "fa": "شارل بودلر",
+      "es": "Charles Baudelaire",
+      "ru": "Шарль Бодлер",
+      "zh": "夏尔·波德莱尔",
+      "ja": "シャルル・ボードレール"
+    }
+  },
+  {
+    "slug": "wassily-kandinsky",
+    "nameEn": "Wassily Kandinsky",
+    "names": {
+      "fr": "Vassily Kandinsky",
+      "ko": "바실리 칸딘스키",
+      "en": "Wassily Kandinsky",
+      "id": "Wassily Kandinsky",
+      "fa": "واسیلی کاندینسکی",
+      "es": "Wassily Kandinsky",
+      "ru": "Василий Кандинский",
+      "zh": "瓦西里·康定斯基",
+      "ja": "ワシリー・カンディンスキー"
+    }
+  },
+  {
+    "slug": "paul-gauguin",
+    "nameEn": "Paul Gauguin",
+    "names": {
+      "fr": "Paul Gauguin",
+      "ko": "폴 고갱",
+      "en": "Paul Gauguin",
+      "id": "Paul Gauguin",
+      "fa": "پل گوگن",
+      "es": "Paul Gauguin",
+      "ru": "Поль Гоген",
+      "zh": "保罗·高更",
+      "ja": "ポール・ゴーギャン"
+    }
+  },
+  {
+    "slug": "william-blake",
+    "nameEn": "William Blake",
+    "names": {
+      "fr": "William Blake",
+      "ko": "윌리엄 블레이크",
+      "en": "William Blake",
+      "id": "William Blake",
+      "fa": "ویلیام بلیک",
+      "es": "William Blake",
+      "ru": "Уильям Блейк",
+      "zh": "威廉·布莱克",
+      "ja": "ウィリアム・ブレイク"
+    }
+  },
+  {
+    "slug": "hans-christian-andersen",
+    "nameEn": "Hans Christian Andersen",
+    "names": {
+      "fr": "Hans Christian Andersen",
+      "ko": "한스 크리스티안 안데르센",
+      "en": "Hans Christian Andersen",
+      "id": "Hans Christian Anderson",
+      "fa": "هانس کریستیان آندرسن",
+      "es": "Hans Christian Andersen",
+      "ru": "Ганс Христиан Андерсен",
+      "zh": "汉斯·克里斯蒂安·安徒生",
+      "ja": "ハンス・クリスチャン・アンデルセン"
+    }
+  },
+  {
+    "slug": "rudyard-kipling",
+    "nameEn": "Rudyard Kipling",
+    "names": {
+      "fr": "Rudyard Kipling",
+      "ko": "러디어드 키플링",
+      "en": "Rudyard Kipling",
+      "id": "Rudyard Kipling",
+      "fa": "رودیارد کیپلینگ",
+      "es": "Rudyard Kipling",
+      "ru": "Редьярд Киплинг",
+      "zh": "鲁德亚德·吉卜林",
+      "ja": "ラドヤード・キップリング"
+    }
+  },
+  {
+    "slug": "dorothea-lange",
+    "nameEn": "Dorothea Lange",
+    "names": {
+      "fr": "Dorothée Lange",
+      "ko": "도로시어 랭",
+      "en": "Dorothea Lange",
+      "id": "Dorothea Lange",
+      "fa": "دوروتیا لنگ",
+      "es": "Dorothea Lange",
+      "ru": "Доротея Ланж",
+      "zh": "多萝西娅·兰格",
+      "ja": "ドロシア・ラング"
+    }
+  },
+  {
+    "slug": "clara-schumann",
+    "nameEn": "Clara Schumann",
+    "names": {
+      "fr": "Clara Schumann",
+      "ko": "클라라 슈만",
+      "en": "Clara Schumann",
+      "id": "Clara Schumann",
+      "fa": "کلارا شومان",
+      "es": "Clara Schumann",
+      "ru": "Клара Шуман",
+      "zh": "克拉拉·舒曼",
+      "ja": "クララ・シューマン"
+    }
+  },
+  {
+    "slug": "jane-addams",
+    "nameEn": "Jane Addams",
+    "names": {
+      "fr": "Jane Addams",
+      "ko": "제인 애덤스",
+      "en": "Jane Addams",
+      "id": "Laura Jane Addams",
+      "fa": "جین آدامز",
+      "es": "Jane Addams",
+      "ru": "Джейн Аддамс",
+      "zh": "简·亚当斯",
+      "ja": "ジェーン・アダムズ"
+    }
+  },
+  {
+    "slug": "maria-montessori",
+    "nameEn": "Maria Montessori",
+    "names": {
+      "fr": "Marie Montessori",
+      "ko": "마리아 몬테소리",
+      "en": "Maria Montessori",
+      "id": "Maria Montessori",
+      "fa": "ماریا مونته‌سوری",
+      "es": "Maria Montessori",
+      "ru": "Мария Монтессори",
+      "zh": "玛丽亚·蒙台梭利",
+      "ja": "マリア・モンテッソーリ"
+    }
+  },
+  {
+    "slug": "william-lloyd-garrison",
+    "nameEn": "William Lloyd Garrison",
+    "names": {
+      "fr": "Garnison William Lloyd",
+      "ko": "윌리엄 로이드 개리슨",
+      "en": "William Lloyd Garrison",
+      "id": "William Lloyd Garrison",
+      "fa": "ویلیام لوید گریسون",
+      "es": "William Lloyd Garrison",
+      "ru": "Уильям Ллойд Гаррисон",
+      "zh": "威廉·劳埃德·加里森",
+      "ja": "ウィリアム・ロイド・ギャリソン"
+    }
+  },
+  {
+    "slug": "albert-schweitzer",
+    "nameEn": "Albert Schweitzer",
+    "names": {
+      "fr": "Albert Schweitzer",
+      "ko": "알베르트 슈바이처",
+      "en": "Albert Schweitzer",
+      "id": "Albert Schweitzer",
+      "fa": "آلبرت شوایتزر",
+      "es": "Albert Schweitzer",
+      "ru": "Альберт Швейцер",
+      "zh": "阿尔伯特·史怀哲",
+      "ja": "アルベルト・シュヴァイツァー"
+    }
+  },
+  {
+    "slug": "pandita-ramabai",
+    "nameEn": "Pandita Ramabai",
+    "names": {
+      "fr": "Révérend Ramabai",
+      "ko": "판디타 라마바이",
+      "en": "Pandita Ramabai",
+      "id": "Pandita Ramabai",
+      "fa": "پاندیتا رامابای",
+      "es": "Pandita Ramabai",
+      "ru": "Пандита Рамабай",
+      "zh": "潘迪特·拉玛拜",
+      "ja": "パンディタ・ラマバイ"
+    }
+  },
+  {
+    "slug": "elizabeth-blackwell",
+    "nameEn": "Elizabeth Blackwell",
+    "names": {
+      "fr": "Elizabeth Blackwell",
+      "ko": "엘리자베스 블랙웰",
+      "en": "Elizabeth Blackwell",
+      "id": "Elizabeth Blackwell",
+      "fa": "الیزابت بلکول",
+      "es": "Elizabeth Blackwell",
+      "ru": "Элизабет Блэкуэлл",
+      "zh": "伊丽莎白·布莱克韦尔",
+      "ja": "エリザベス・ブラックウェル"
+    }
+  },
+  {
+    "slug": "florence-kelley",
+    "nameEn": "Florence Kelley",
+    "names": {
+      "fr": "Florence Kelley",
+      "ko": "플로렌스 켈리",
+      "en": "Florence Kelley",
+      "id": "Florence Kelley",
+      "fa": "فلورانس کلی",
+      "es": "Florence Kelley",
+      "ru": "Флоренс Келли",
+      "zh": "弗洛伦斯·凯利",
+      "ja": "フローレンス・ケリー"
+    }
+  },
+  {
+    "slug": "david-livingstone",
+    "nameEn": "David Livingstone",
+    "names": {
+      "fr": "David Livingston",
+      "ko": "데이비드 리빙스턴",
+      "en": "David Livingstone",
+      "id": "David Livingstone",
+      "fa": "دیوید لیوینگستون (کاشف)",
+      "es": "David Livingstone",
+      "ru": "Дэвид Ливингстон",
+      "zh": "大卫·利文斯顿",
+      "ja": "デイビッド・リヴィングストン"
+    }
+  },
+  {
+    "slug": "alfred-nobel",
+    "nameEn": "Alfred Nobel",
+    "names": {
+      "fr": "Alfred Nobel",
+      "ko": "알프레드 노벨",
+      "en": "Alfred Nobel",
+      "id": "Alfred Nobel",
+      "fa": "آلفرد نوبل",
+      "es": "Alfred Nobel",
+      "ru": "Альфред Нобель",
+      "zh": "阿尔弗雷德·诺贝尔",
+      "ja": "アルフレッド・ノーベル"
+    }
+  },
+  {
+    "slug": "pierre-de-coubertin",
+    "nameEn": "Pierre de Coubertin",
+    "names": {
+      "fr": "Pierre de Coubertin",
+      "ko": "피에르 드 쿠베르탱",
+      "en": "Pierre de Coubertin",
+      "id": "Pierre de Coubertin",
+      "fa": "پیر دو کوبرتن",
+      "es": "Pierre de Coubertin",
+      "ru": "Пьер де Кубертен",
+      "zh": "皮埃尔·德·顾拜旦",
+      "ja": "ピエール・ド・クーベルタン"
+    }
+  },
+  {
+    "slug": "fridtjof-nansen",
+    "nameEn": "Fridtjof Nansen",
+    "names": {
+      "fr": "Fridtjof Nansen",
+      "ko": "프리드쇼프 난센",
+      "en": "Fridtjof Nansen",
+      "id": "Fridtjof Wedel-Jarlsberg Nansen",
+      "fa": "فریتیوف نانسن",
+      "es": "Fridtjof Nansen",
+      "ru": "Фритьоф Нансен",
+      "zh": "弗里乔夫·南森",
+      "ja": "フリチョフ・ナンセン"
+    }
+  },
+  {
+    "slug": "george-eastman",
+    "nameEn": "George Eastman",
+    "names": {
+      "fr": "Georges Eastman",
+      "ko": "조지 이스트먼",
+      "en": "George Eastman",
+      "id": "George Eastman",
+      "fa": "جرج ایستمن",
+      "es": "George Eastman",
+      "ru": "Джордж Истмен",
+      "zh": "乔治·伊士曼",
+      "ja": "ジョージ・イーストマン"
+    }
+  },
+  {
+    "slug": "elisha-otis",
+    "nameEn": "Elisha Otis",
+    "names": {
+      "fr": "Élisée Otis",
+      "ko": "엘리샤 오티스",
+      "en": "Elisha Otis",
+      "id": "Elisha Otis",
+      "fa": "الیشا اوتیس",
+      "es": "Elisha Otis",
+      "ru": "Элиша Отис",
+      "zh": "伊莱沙·奥的斯",
+      "ja": "エリシャ・オーチス"
+    }
+  },
+  {
+    "slug": "jang-yeong-sil",
+    "nameEn": "Jang Yeong-sil",
+    "names": {
+      "fr": "Jang Yeong-sil",
+      "ko": "장영실",
+      "en": "Jang Yeong-sil",
+      "id": "Jang Yeong-sil",
+      "fa": "جانگ یونگ شیل",
+      "es": "Jang Yeong-sil",
+      "ru": "Чан Ён Силь",
+      "zh": "张英实",
+      "ja": "チャン・ヨンシル"
+    }
+  },
+  {
+    "slug": "yun-dong-ju",
+    "nameEn": "Yun Dong-ju",
+    "names": {
+      "fr": "Yun Dong-ju",
+      "ko": "윤동주",
+      "en": "Yun Dong-ju",
+      "id": "Yun Dong-ju",
+      "fa": "یون دونگ جو",
+      "es": "Yun Dong-ju",
+      "ru": "Юн Дон-джу",
+      "zh": "尹东柱",
+      "ja": "尹東柱"
+    }
+  },
+  {
+    "slug": "sophocles",
+    "nameEn": "Sophocles",
+    "names": {
+      "fr": "Sophocle",
+      "ko": "소포클레스",
+      "en": "Sophocles",
+      "id": "Sofokles",
+      "fa": "سوفوکل",
+      "es": "Sófocles",
+      "ru": "Софокл",
+      "zh": "索福克勒斯",
+      "ja": "ソフォクレス"
+    }
+  },
+  {
+    "slug": "euclid",
+    "nameEn": "Euclid",
+    "names": {
+      "fr": "Euclide",
+      "ko": "유클리드",
+      "en": "Euclid",
+      "id": "Euklides",
+      "fa": "اقلیدس",
+      "es": "Euclides",
+      "ru": "Евклид",
+      "zh": "欧几里得",
+      "ja": "ユークリッド"
+    }
+  }
+]

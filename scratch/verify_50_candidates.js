@@ -1,0 +1,81 @@
+const fs = require('fs');
+
+const existingSlugs = new Set(JSON.parse(fs.readFileSync('scratch/existing_slugs.json', 'utf8')));
+
+const candidates = [
+  // Asia (15)
+  { slug: "shin-saimdang", nameEn: "Shin Saimdang", nameKo: "신사임당", era: "1504 ~ 1551", region: "Korea (Asia)", category: "arts", gender: "F", reason: "조선 최고의 여성 예술가이자 시인, 학문과 예술의 조화를 이룬 인물" },
+  { slug: "heo-jun", nameEn: "Heo Jun", nameKo: "허준", era: "1539 ~ 1615", region: "Korea (Asia)", category: "science", gender: "M", reason: "동의보감을 집필하여 의학의 대중화와 인술(仁術)을 실천한 명의" },
+  { slug: "kim-man-deok", nameEn: "Kim Man-deok", nameKo: "김만덕", era: "1739 ~ 1812", region: "Korea (Asia)", category: "business", gender: "F", reason: "제주도 기근 당시 전 재산을 털어 백성을 구휼한 거상이자 노블레스 오블리주" },
+  { slug: "na-hye-sok", nameEn: "Na Hye-sok", nameKo: "나혜석", era: "1896 ~ 1948", region: "Korea (Asia)", category: "arts", gender: "F", reason: "한국 최초의 여성 서양화가이자 가부장제에 맞선 선구적 페미니스트" },
+  { slug: "sei-shonagon", nameEn: "Sei Shonagon", nameKo: "세이 쇼나곤", era: "966 ~ 1025", region: "Japan (Asia)", category: "arts", gender: "F", reason: "'마쿠라노소시'를 쓴 일본 고전 수필 문학의 여왕" },
+  { slug: "minamoto-no-yoshitsune", nameEn: "Minamoto no Yoshitsune", nameKo: "미나모토 노 요시츠네", era: "1159 ~ 1189", region: "Japan (Asia)", category: "leadership", gender: "M", reason: "비극적 전설과 무사도 정신의 상징적 군사 전술가" },
+  { slug: "ban-zhao", nameEn: "Ban Zhao", nameKo: "반소", era: "45 ~ 116", region: "China (Asia)", category: "philosophy", gender: "F", reason: "한나라 시대 여성 최초의 역사학자이자 독보적 여성 학자" },
+  { slug: "cai-lun", nameEn: "Cai Lun", nameKo: "채륜", era: "50 ~ 121", region: "China (Asia)", category: "science", gender: "M", reason: "종이(제지술)를 발명하여 인류 지식 전파의 혁명을 일으킨 인물" },
+  { slug: "zeami-motokiyo", nameEn: "Zeami Motokiyo", nameKo: "제아미 모토키요", era: "1363 ~ 1443", region: "Japan (Asia)", category: "arts", gender: "M", reason: "일본 '노(能)' 극예술을 완성하고 미학 이론서 '풍자화전'을 남긴 예술가" },
+  { slug: "aryabhata", nameEn: "Aryabhata", nameKo: "아리아바타", era: "476 ~ 550", region: "India (Asia)", category: "science", gender: "M", reason: "숫자 0의 개념과 지구가 자전한다는 천문학적 진실을 밝힌 천재 수학자" },
+  { slug: "chanakya", nameEn: "Chanakya", nameKo: "차나키야", era: "375 ~ 283 BC", region: "India (Asia)", category: "leadership", gender: "M", reason: "마우리아 제국을 통일한 전략가이자 정치학 고전 '아르타샤스트라' 저자" },
+  { slug: "mirabai", nameEn: "Mirabai", nameKo: "미라바이", era: "1498 ~ 1547", region: "India (Asia)", category: "arts", gender: "F", reason: "신분과 계급을 넘어 자유와 영성을 노래한 신비주의 영성 시인" },
+  { slug: "sarojini-naidu", nameEn: "Sarojini Naidu", nameKo: "사로지니 나이두", era: "1879 ~ 1949", region: "India (Asia)", category: "arts", gender: "F", reason: "'인도의 나이팅게일'로 불린 시인이자 여성 인권 및 독립 운동가" },
+  { slug: "al-jazari", nameEn: "Al-Jazari", nameKo: "알 자자리", era: "1136 ~ 1206", region: "Turkey/Middle East (Asia)", category: "science", gender: "M", reason: "자동 기계와 공학 장치를 고안한 현대 로봇공학 및 기계공학의 아버지" },
+  { slug: "ibn-al-nafis", nameEn: "Ibn al-Nafis", nameKo: "이븐 알 나피스", era: "1213 ~ 1288", region: "Syria/Egypt (Middle East)", category: "science", gender: "M", reason: "폐순환(혈액 순환)의 원리를 최초로 발견한 이슬람 의학의 거장" },
+
+  // Africa & Indigenous Peoples (10)
+  { slug: "madam-tinubu", nameEn: "Madam Tinubu", nameKo: "마담 티누부", era: "1805 ~ 1887", region: "Nigeria (Africa)", category: "business", gender: "F", reason: "서아프리카 무역을 주도하고 영국의 구속에 맞선 거상 정치운동가" },
+  { slug: "queen-nandi", nameEn: "Queen Nandi", nameKo: "난디 여왕", era: "1760 ~ 1827", region: "South Africa (Africa)", category: "leadership", gender: "F", reason: "줄루족의 전설적인 왕후이자 강인한 리더십으로 부족을 지킨 어머니 지도자" },
+  { slug: "king-sobhuza-i", nameEn: "King Sobhuza I", nameKo: "소부자 1세", era: "1780 ~ 1839", region: "Eswatini (Africa)", category: "leadership", gender: "M", reason: "외교적 지혜와 군사적 통합으로 에스와티니 민족의 기틀을 다진 군주" },
+  { slug: "queen-majaji", nameEn: "Queen Majaji", nameKo: "마자지 여왕", era: "1800 ~ 1854", region: "South Africa (Africa)", category: "leadership", gender: "F", reason: "발로베두 부족을 이끌며 평화와 평등을 지켜낸 아프리카의 신비로운 리더" },
+  { slug: "jean-jacques-dessalines", nameEn: "Jean-Jacques Dessalines", nameKo: "장자크 드살린", era: "1758 ~ 1806", region: "Haiti (Americas/Africa)", category: "leadership", gender: "M", reason: "노예제를 폐쇄하고 아이티 독립 공화국을 설립한 창건자" },
+  { slug: "ptahhotep", nameEn: "Ptahhotep", nameKo: "프타호테프", era: "2500 BC", region: "Egypt (Africa)", category: "philosophy", gender: "M", reason: "인류 역사상 가장 오래된 지혜 문학 '프타호테프의 교훈'의 저자" },
+  { slug: "queen-hatshepsut", nameEn: "Hatshepsut", nameKo: "하트셰프수트", era: "1507 ~ 1458 BC", region: "Egypt (Africa)", category: "leadership", gender: "F", reason: "이집트 무역과 건축의 황금기를 이끈 강력한 여성 파라오" },
+  { slug: "queen-amina", nameEn: "Queen Amina", nameKo: "아미나 여왕", era: "1533 ~ 1610", region: "Nigeria (Africa)", category: "leadership", gender: "F", reason: "서아프리카 무역로를 개척하고 군대를 이끈 하우사의 여전사 군주" },
+  { slug: "geronimo", nameEn: "Geronimo", nameKo: "제로니모", era: "1829 ~ 1909", region: "North America (Indigenous)", category: "leadership", gender: "M", reason: "아메리카 원주민의 자유와 존엄을 끝까지 지킨 아파치 족의 전설적 지도자" },
+  { slug: "tecumseh", nameEn: "Tecumseh", nameKo: "테쿰세", era: "1768 ~ 1813", region: "North America (Indigenous)", category: "society", gender: "M", reason: "원주민 연합을 구축하여 부족의 토지와 문화 통합을 외친 연설가 지도자" },
+
+  // Americas (10)
+  { slug: "mary-church-terrell", nameEn: "Mary Church Terrell", nameKo: "메리 처치 테렐", era: "1863 ~ 1954", region: "USA (Americas)", category: "society", gender: "F", reason: "미국 흑인 여성 참정권 운동을 주도하고 인종 분리에 맞선 인권 운동가" },
+  { slug: "leona-vicario", nameEn: "Leona Vicario", nameKo: "레오나 비카리오", era: "1789 ~ 1842", region: "Mexico (Americas)", category: "leadership", gender: "F", reason: "멕시코 독립 전쟁의 어머니이자 최초의 여성 언론인" },
+  { slug: "jose-de-san-martin", nameEn: "José de San Martín", nameKo: "호세 데 산마르틴", era: "1778 ~ 1850", region: "Argentina (Americas)", category: "leadership", gender: "M", reason: "남미 대륙의 스페인 지배 해방을 이끈 청렴하고 고결한 장군" },
+  { slug: "louisa-may-alcott", nameEn: "Louisa May Alcott", nameKo: "루이자 메이 올콧", era: "1832 ~ 1888", region: "USA (Americas)", category: "arts", gender: "F", reason: "'작은 아씨들'을 통해 주체적인 여성의 삶을 제시한 세계적 문학가" },
+  { slug: "pedro-ii-of-brazil", nameEn: "Pedro II of Brazil", nameKo: "페두루 2세", era: "1825 ~ 1891", region: "Brazil (Americas)", category: "leadership", gender: "M", reason: "학문과 예술을 후원하고 브라질 노예제를 폐지한 계몽 군주" },
+  { slug: "alice-hamilton", nameEn: "Alice Hamilton", nameKo: "앨리스 해밀턴", era: "1869 ~ 1970", region: "USA (Americas)", category: "science", gender: "F", reason: "산업 의학과 독성학의 개척자이자 하버드 의대 최초의 여성 교수" },
+  { slug: "percy-julian", nameEn: "Percy Julian", nameKo: "퍼시 줄리안", era: "1899 ~ 1965", region: "USA (Americas)", category: "science", gender: "M", reason: "식물 기반의 의약품 합성으로 현대 호르몬 치료의 길을 연 천재 화학자" },
+  { slug: "machado-de-assis", nameEn: "Machado de Assis", nameKo: "마샤두 디 아시스", era: "1839 ~ 1908", region: "Brazil (Americas)", category: "arts", gender: "M", reason: "라틴아메리카 리얼리즘 문학을 개척한 브라질 최고의 문호" },
+  { slug: "edith-wharton", nameEn: "Edith Wharton", nameKo: "에디스 워튼", era: "1862 ~ 1937", region: "USA (Americas)", category: "arts", gender: "F", reason: "여성 최초 퓰리처상 수상작 '순수의 시대'로 미국 사회를 날카롭게 관찰한 작가" },
+  { slug: "george-catlin", nameEn: "George Catlin", nameKo: "조지 캐틀린", era: "1796 ~ 1872", region: "USA (Americas)", category: "arts", gender: "M", reason: "사라져가는 아메리카 원주민의 삶과 문화를 화폭과 기록으로 남긴 화가" },
+
+  // Europe (15)
+  { slug: "trota-of-salerno", nameEn: "Trota of Salerno", nameKo: "트로타", era: "1090 ~ 1160", region: "Italy (Europe)", category: "science", gender: "F", reason: "중세 의학의 중심지 살레르노에서 여성 의학의 기초를 확립한 의사" },
+  { slug: "hildegard-von-bingen", nameEn: "Hildegard von Bingen", nameKo: "힐데가르트 폰 빙엔", era: "1098 ~ 1179", region: "Germany (Europe)", category: "arts", gender: "F", reason: "중세 음악, 의학, 신학에서 시대를 앞서간 여성 백과사전적 학자" },
+  { slug: "mary-somerville", nameEn: "Mary Somerville", nameKo: "메리 서머빌", era: "1780 ~ 1872", region: "UK (Europe)", category: "science", gender: "F", reason: "'과학자(Scientist)'라는 단어를 탄생시킨 천문학 및 수학의 거장" },
+  { slug: "joseph-louis-lagrange", nameEn: "Joseph-Louis Lagrange", nameKo: "조제프루이 라그랑주", era: "1736 ~ 1813", region: "France (Europe)", category: "science", gender: "M", reason: "라그랑주 역학을 창시하여 해석역학의 금탑을 쌓은 수학자" },
+  { slug: "gottfried-wilhelm-leibniz", nameEn: "Gottfried Wilhelm Leibniz", nameKo: "고트프리트 라이프니츠", era: "1646 ~ 1716", region: "Germany (Europe)", category: "science", gender: "M", reason: "미적분학을 창시하고 2진법과 현대 컴퓨터의 기초를 놓은 박학다식한 학자" },
+  { slug: "giovanni-boccaccio", nameEn: "Giovanni Boccaccio", nameKo: "조반니 보카치오", era: "1313 ~ 1375", region: "Italy (Europe)", category: "arts", gender: "M", reason: "'데카메론'을 통해 인간 중심 르네상스 휴머니즘 문학의 탄생을 알린 작가" },
+  { slug: "colette", nameEn: "Colette", nameKo: "콜레트", era: "1873 ~ 1954", region: "France (Europe)", category: "arts", gender: "F", reason: "여성의 독립과 감성을 열정적으로 그려낸 프랑스의 대문호" },
+  { slug: "giorgio-vasari", nameEn: "Giorgio Vasari", nameKo: "조르조 바사리", era: "1511 ~ 1574", region: "Italy (Europe)", category: "arts", gender: "M", reason: "르네상스 거장들의 삶을 기록하여 세계 최초의 미술사학을 개척한 화가" },
+  { slug: "emilie-du-chatelet", nameEn: "Émilie du Châtelet", nameKo: "에밀리 뒤 샤틀레", era: "1706 ~ 1749", region: "France (Europe)", category: "science", gender: "F", reason: "뉴턴의 프린키피아를 번역·주석하고 에너지 보존 법칙을 예견한 여성 물리학자" },
+  { slug: "montesquieu", nameEn: "Montesquieu", nameKo: "몽테스키외", era: "1689 ~ 1755", region: "France (Europe)", category: "philosophy", gender: "M", reason: "'법의 정신'을 통해 입법·사법·행정의 3권 분립 사상을 확립한 계몽 철학자" },
+  { slug: "erik-satie", nameEn: "Erik Satie", nameKo: "에릭 사티", era: "1866 ~ 1925", region: "France (Europe)", category: "arts", gender: "M", reason: "'짐노페디'를 통해 고정관념을 깨고 현대 미니멀리즘 음악을 개척한 작곡가" },
+  { slug: "antonio-vivaldi", nameEn: "Antonio Vivaldi", nameKo: "안토니오 비발디", era: "1678 ~ 1741", region: "Italy (Europe)", category: "arts", gender: "M", reason: "'사계'를 비롯한 수많은 협주곡으로 바로크 음악의 경지를 연 작곡가" },
+  { slug: "jan-van-eyck", nameEn: "Jan van Eyck", nameKo: "얀 반 에이크", era: "1390 ~ 1441", region: "Netherlands (Europe)", category: "arts", gender: "M", reason: "유화 기법을 완벽히 발전시켜 북유럽 르네상스 미술의 혁명을 일으킨 거장" },
+  { slug: "sophie-germain", nameEn: "Sophie Germain", nameKo: "소피 제르맹", era: "1776 ~ 1831", region: "France (Europe)", category: "science", gender: "F", reason: "여성에 대한 편견에 맞서 탄성 이론과 페르마의 마지막 정리 연구에 기여한 수학자" },
+  { slug: "lazzaro-spallanzani", nameEn: "Lazzaro Spallanzani", nameKo: "라차로 스팔란차니", era: "1729 ~ 1799", region: "Italy (Europe)", category: "science", gender: "M", reason: "자연발생설을 반박하고 장기 보존 및 생물학 시험관 실험의 초석을 다진 생물학자" }
+];
+
+console.log(`Checking ${candidates.length} candidates against existing ${existingSlugs.size} slugs...`);
+
+let conflicts = 0;
+candidates.forEach((c, idx) => {
+  if (existingSlugs.has(c.slug.toLowerCase())) {
+    console.error(`[CONFLICT] Line ${idx + 1}: ${c.slug} (${c.nameEn}) already exists!`);
+    conflicts++;
+  }
+});
+
+const femaleCount = candidates.filter(c => c.gender === 'F').length;
+console.log(`Female count: ${femaleCount}/${candidates.length} (${(femaleCount/candidates.length*100).toFixed(1)}%)`);
+
+if (conflicts === 0) {
+  console.log('🎉 PERFECT SUCCESS! ALL 50 CANDIDATES ARE 100% BRAND NEW AND UNIQUE WITH ZERO CONFLICTS!');
+  fs.writeFileSync('scratch/pilot_50_candidates.json', JSON.stringify(candidates, null, 2));
+}

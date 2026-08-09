@@ -1,0 +1,752 @@
+[
+  {
+    "slug": "alexios-i-komnenos",
+    "nameEn": "Alexios I Komnenos",
+    "names": {
+      "fr": "Alexis Ier Comnène",
+      "ko": "알렉시오스 1세 콤네노스",
+      "en": "Alexios I Komnenos",
+      "id": "Aleksius I Komnenus",
+      "fa": "آلکسیوس یکم",
+      "es": "Alejo I Comneno",
+      "ru": "Алексей I Комнин",
+      "zh": "阿莱克修斯一世·科穆宁",
+      "ja": "アレクシオス1世コムネノス"
+    }
+  },
+  {
+    "slug": "alisher-navoi",
+    "nameEn": "Alisher Navoi",
+    "names": {
+      "fr": "Alicher Navoï",
+      "ko": "알리셰르 나보이",
+      "en": "Alisher Navoi",
+      "id": "Ali-Shir Nava'i",
+      "fa": "علی‌شیر نوایی",
+      "es": "Alisher Navoí",
+      "ru": "Алишер Навои",
+      "zh": "阿里希尔·纳沃伊",
+      "ja": "アリシェル・ナヴォイ"
+    }
+  },
+  {
+    "slug": "muhammad-al-bukhari",
+    "nameEn": "Muhammad al-Bukhari",
+    "names": {
+      "fr": "Mohammed al-Boukhari",
+      "ko": "알부카리",
+      "en": "Muhammad al-Bukhari",
+      "id": "Muhammad bin Ismail al-Bukhari",
+      "fa": "محمد بخاری",
+      "es": "Muhammad al-Bujari",
+      "ru": "Мухаммад аль-Бухари",
+      "zh": "穆罕默德·布哈里",
+      "ja": "ムハンマド・アル＝ブハーリー"
+    }
+  },
+  {
+    "slug": "al-farghani",
+    "nameEn": "Al-Farghani",
+    "names": {
+      "fr": "Al-Farghani",
+      "ko": "알파르가니",
+      "en": "Al-Farghani",
+      "id": "Al-Farghani",
+      "fa": "ابن کثیر فرغانی",
+      "es": "Al-Fargani",
+      "ru": "Аль-Фергани",
+      "zh": "法尔甘尼",
+      "ja": "アル＝ファルガーニー"
+    }
+  },
+  {
+    "slug": "yaroslav-the-wise",
+    "nameEn": "Yaroslav the Wise",
+    "names": {
+      "fr": "Iaroslav le Sage",
+      "ko": "야로슬라프 1세",
+      "en": "Yaroslav the Wise",
+      "id": "Yaroslav sang Bijak",
+      "fa": "یاروسلاو خردمند",
+      "es": "Yaroslav el Sabio",
+      "ru": "Ярослав Мудрый",
+      "zh": "雅罗斯拉夫一世（智者）",
+      "ja": "ヤロスラフ1世（賢公）"
+    }
+  },
+  {
+    "slug": "yermak-timofeyevich",
+    "nameEn": "Yermak Timofeyevich",
+    "names": {
+      "fr": "Iermak Timofeïévitch",
+      "ko": "예르마크 티모페예비치",
+      "en": "Yermak Timofeyevich",
+      "id": "Yermak Timofeyevich",
+      "fa": "یرماک",
+      "es": "Yermak Timoféyevich",
+      "ru": "Ермак Тимофеевич",
+      "zh": "叶尔马克·季莫费耶维奇",
+      "ja": "イェルマーク・チモフェーイェヴィチ"
+    }
+  },
+  {
+    "slug": "john-chrysostom",
+    "nameEn": "John Chrysostom",
+    "names": {
+      "fr": "Jean Chrysostome",
+      "ko": "요한 크리소스토모",
+      "en": "John Chrysostom",
+      "id": "Yohanes Krisostomus",
+      "fa": "جان کریسوستوم",
+      "es": "Juan Crisóstomo",
+      "ru": "Иоанн Златоуст",
+      "zh": "约翰·克里索斯托",
+      "ja": "ヨハネス・クリュソストモス"
+    }
+  },
+  {
+    "slug": "ulugh-beg",
+    "nameEn": "Ulugh Beg",
+    "names": {
+      "fr": "Ulugh Beg",
+      "ko": "울루그 베그",
+      "en": "Ulugh Beg",
+      "id": "Ulugh Beg",
+      "fa": "الغ‌بیگ",
+      "es": "Ulugh Beg",
+      "ru": "Улугбек",
+      "zh": "兀鲁伯",
+      "ja": "ウルグ・ベク"
+    }
+  },
+  {
+    "slug": "justinian-i",
+    "nameEn": "Justinian I",
+    "names": {
+      "fr": "Justinien Ier",
+      "ko": "유스티니아누스 1세",
+      "en": "Justinian I",
+      "id": "Yustinianus I",
+      "fa": "ژوستینین یکم",
+      "es": "Justiniano I",
+      "ru": "Юстиниан I",
+      "zh": "查士丁尼一世",
+      "ja": "ユスティニアヌス1世"
+    }
+  },
+  {
+    "slug": "ivan-iii-the-great",
+    "nameEn": "Ivan III (the Great)",
+    "names": {
+      "fr": "Ivan III (le Grand)",
+      "ko": "이반 3세",
+      "en": "Ivan III (the Great)",
+      "id": "Ivan III dari Rusia",
+      "fa": "ایوان سوم",
+      "es": "Iván III (el Grande)",
+      "ru": "Иван III (Великий)",
+      "zh": "伊凡三世（大帝）",
+      "ja": "イヴァン3世（大帝）"
+    }
+  },
+  {
+    "slug": "ivan-iv-the-terrible",
+    "nameEn": "Ivan IV (the Terrible)",
+    "names": {
+      "fr": "Ivan IV (le Terrible)",
+      "ko": "이반 4세",
+      "en": "Ivan IV (the Terrible)",
+      "id": "Ivan IV Vasilyevich",
+      "fa": "ایوان مخوف",
+      "es": "Iván IV (el Terrible)",
+      "ru": "Иван IV (Грозный)",
+      "zh": "伊凡四世（恐怖的）",
+      "ja": "イヴァン4世（雷帝）"
+    }
+  },
+  {
+    "slug": "ivan-mazepa",
+    "nameEn": "Ivan Mazepa",
+    "names": {
+      "fr": "Ivan Mazépa",
+      "ko": "이반 마제파",
+      "en": "Ivan Mazepa",
+      "id": "Ivan Mazepa",
+      "fa": "ایوان مازپا",
+      "es": "Iván Mazepa",
+      "ru": "Иван Мазепа",
+      "zh": "伊凡·马泽帕",
+      "ja": "イヴァン・マゼーパ"
+    }
+  },
+  {
+    "slug": "ivan-franko",
+    "nameEn": "Ivan Franko",
+    "names": {
+      "fr": "Ivan Franko",
+      "ko": "이반 프랑코",
+      "en": "Ivan Franko",
+      "id": "Ivan Franko",
+      "fa": "ایوان فرانکو",
+      "es": "Iván Frankó",
+      "ru": "Иван Франко",
+      "zh": "伊凡·佛朗哥",
+      "ja": "イヴァン・フランコ"
+    }
+  },
+  {
+    "slug": "ismail-gasprinsky",
+    "nameEn": "Ismail Gasprinsky",
+    "names": {
+      "fr": "Ismaïl Gasprinski",
+      "ko": "이스마일 가스프린스키",
+      "en": "Ismail Gasprinsky",
+      "id": "Ismail Gasprinsky",
+      "fa": "اسماعیل غصپرینسکی",
+      "es": "Ismaíl Gasprinski",
+      "ru": "Исмаил Гаспринский",
+      "zh": "伊斯梅尔·加斯普林斯基",
+      "ja": "イスマイル・ガスプリンスキー"
+    }
+  },
+  {
+    "slug": "jamshid-al-kashi",
+    "nameEn": "Jamshid al-Kashi",
+    "names": {
+      "fr": "Ghiyath ad-Din Jamshid al-Kashi",
+      "ko": "잠시드 알카시",
+      "en": "Jamshid al-Kashi",
+      "id": "Jamsyid al-Kasyi",
+      "fa": "غیاث‌الدین جمشید کاشانی",
+      "es": "Ghiyath al-Din Jamshid al-Kashi",
+      "ru": "Джамшид аль-Каши",
+      "zh": "卡西",
+      "ja": "ジャムシード・アル＝カーシー"
+    }
+  },
+  {
+    "slug": "shoqan-walikhanov",
+    "nameEn": "Shoqan Walikhanov",
+    "names": {
+      "fr": "Tchokan Valikhanov",
+      "ko": "초칸 발리하노프",
+      "en": "Shoqan Walikhanov",
+      "id": "Shoqan Walikhanov",
+      "fa": "چوکان ولی‌خان‌اف",
+      "es": "Shokán Walijánov",
+      "ru": "Чокан Валиханов",
+      "zh": "乔坎·瓦里汉诺夫",
+      "ja": "ショカン・ワリハーノフ"
+    }
+  },
+  {
+    "slug": "kassia",
+    "nameEn": "Kassia",
+    "names": {
+      "fr": "Kassia",
+      "ko": "카시아",
+      "en": "Kassia",
+      "id": "Kassia",
+      "fa": "کاسیا",
+      "es": "Kassia",
+      "ru": "Кассия",
+      "zh": "卡西亚",
+      "ja": "カッ시아"
+    }
+  },
+  {
+    "slug": "constantine-xi-palaiologos",
+    "nameEn": "Constantine XI Palaiologos",
+    "names": {
+      "fr": "Constantin XI Paléologue",
+      "ko": "콘스탄티노스 11세 팔라이올로고스",
+      "en": "Constantine XI Palaiologos",
+      "id": "Konstantinus XI Palaiologos",
+      "fa": "کنستانتین یازدهم",
+      "es": "Constantino XI Paleólogo",
+      "ru": "Константин XI Палеолог",
+      "zh": "君士坦丁十一世·帕里奥洛गो斯",
+      "ja": "コンスタンティノス11世パレオロゴス"
+    }
+  },
+  {
+    "slug": "kublai-khan",
+    "nameEn": "Kublai Khan",
+    "names": {
+      "fr": "Kubilai Khan",
+      "ko": "쿠빌라이 칸",
+      "en": "Kublai Khan",
+      "id": "Kubilai Khan",
+      "fa": "قوبلای خان",
+      "es": "Kublai Kan",
+      "ru": "Хубилай",
+      "zh": "忽必烈",
+      "ja": "クビライ・カン"
+    }
+  },
+  {
+    "slug": "anne-of-kyiv",
+    "nameEn": "Anne of Kyiv",
+    "names": {
+      "fr": "Anne de Kiev",
+      "ko": "키예프의 안나",
+      "en": "Anne of Kyiv",
+      "id": "Anna dari Kiev",
+      "fa": "آنا یاروسلاونا",
+      "es": "Ana de Kiev",
+      "ru": "Анна Ярославна",
+      "zh": "基辅的安娜",
+      "ja": "アンナ・ヤロスラヴナ"
+    }
+  },
+  {
+    "slug": "olga-of-kyiv",
+    "nameEn": "Olga of Kyiv",
+    "names": {
+      "fr": "Olga de Kiev",
+      "ko": "키예프의 올가",
+      "en": "Olga of Kyiv",
+      "id": "Olga",
+      "fa": "اولگا کی‌یف",
+      "es": "Olga de Kiev",
+      "ru": "Ольга Киевская",
+      "zh": "基辅的奥尔加",
+      "ja": "キエフのオリガ"
+    }
+  },
+  {
+    "slug": "taras-shevchenko",
+    "nameEn": "Taras Shevchenko",
+    "names": {
+      "fr": "Taras Chevtchenko",
+      "ko": "타라스 셰브첸코",
+      "en": "Taras Shevchenko",
+      "id": "Taras Shevchenko",
+      "fa": "تاراس شوچنکو",
+      "es": "Tarás Shevchenko",
+      "ru": "Тарас Шевченко",
+      "zh": "塔拉斯·舍甫琴科",
+      "ja": "タラス・シェフチェンコ"
+    }
+  },
+  {
+    "slug": "tamar-of-georgia",
+    "nameEn": "Tamar of Georgia",
+    "names": {
+      "fr": "Thamar de Géorgie",
+      "ko": "타마르",
+      "en": "Tamar of Georgia",
+      "id": "Tamar dari Georgia",
+      "fa": "ملکه تامار",
+      "es": "Tamar de Georgia",
+      "ru": "Тамара Грузинская",
+      "zh": "格鲁吉亚的塔玛尔",
+      "ja": "タマル女王"
+    }
+  },
+  {
+    "slug": "theodora",
+    "nameEn": "Theodora",
+    "names": {
+      "fr": "Théodora",
+      "ko": "테오도라",
+      "en": "Theodora",
+      "id": "Theodora (istri Yustinianus I)",
+      "fa": "تئودورا (همسر ژوستینین یکم)",
+      "es": "Teodora",
+      "ru": "Феодора",
+      "zh": "狄奥多拉",
+      "ja": "テオドラ"
+    }
+  },
+  {
+    "slug": "theophanes-the-greek",
+    "nameEn": "Theophanes the Greek",
+    "names": {
+      "fr": "Théophane le Grec",
+      "ko": "테오파네스",
+      "en": "Theophanes the Greek",
+      "id": "Theophanes the Greek",
+      "fa": "تئوفان یونانی",
+      "es": "Teófanes el Griego",
+      "ru": "Феофан Грек",
+      "zh": "希腊的塞奥法尼斯",
+      "ja": "ギリシャのテオファネス"
+    }
+  },
+  {
+    "slug": "tonyukuk",
+    "nameEn": "Tonyukuk",
+    "names": {
+      "fr": "Tonyukuk",
+      "ko": "토뉴쿠크",
+      "en": "Tonyukuk",
+      "id": "Tonyukuk",
+      "fa": "تونیوکوک",
+      "es": "Tonyukuk",
+      "ru": "Тоньюкук",
+      "zh": "暾欲谷",
+      "ja": "トニュクク"
+    }
+  },
+  {
+    "slug": "timur-tamerlane",
+    "nameEn": "Timur (Tamerlane)",
+    "names": {
+      "fr": "Timour (Tamerlan)",
+      "ko": "티무르",
+      "en": "Timur (Tamerlane)",
+      "id": "Timur Lenk",
+      "fa": "تیمور",
+      "es": "Timur (Tamerlán)",
+      "ru": "Тимур (Тамерлан)",
+      "zh": "帖木儿",
+      "ja": "ティムール（タメルラン）"
+    }
+  },
+  {
+    "slug": "petro-mohyla",
+    "nameEn": "Petro Mohyla",
+    "names": {
+      "fr": "Petro Mohyla",
+      "ko": "페트로 모힐라",
+      "en": "Petro Mohyla",
+      "id": "Petro Mohyla",
+      "fa": "پترو موهیلا",
+      "es": "Petró Mohyla",
+      "ru": "Пётр Могила",
+      "zh": "佩特罗·莫吉拉",
+      "ja": "ペトロ・モヒラ"
+    }
+  },
+  {
+    "slug": "pyotr-ilyich-tchaikovsky",
+    "nameEn": "Pyotr Ilyich Tchaikovsky",
+    "names": {
+      "fr": "Piotr Ilitch Tchaïkovski",
+      "ko": "표트르 차이콥스키",
+      "en": "Pyotr Ilyich Tchaikovsky",
+      "id": "Pyotr Ilyich Tchaikovsky",
+      "fa": "پیوتر ایلیچ چایکوفسکی",
+      "es": "Piotr Ilich Chaikovski",
+      "ru": "Пётр Ильич Чайковский",
+      "zh": "彼得·伊里奇·柴可夫斯基",
+      "ja": "ピョートル・チャイコフスキー"
+    }
+  },
+  {
+    "slug": "procopius",
+    "nameEn": "Procopius",
+    "names": {
+      "fr": "Procope de Césarée",
+      "ko": "프로코피우스",
+      "en": "Procopius",
+      "id": "Prokopios",
+      "fa": "پروکوپیوس",
+      "es": "Procopio de Cesarea",
+      "ru": "Прокопий Кесарийский",
+      "zh": "普罗科匹厄斯",
+      "ja": "プロコピオス"
+    }
+  },
+  {
+    "slug": "heraclius",
+    "nameEn": "Heraclius",
+    "names": {
+      "fr": "Héraclius",
+      "ko": "헤라클리우스",
+      "en": "Heraclius",
+      "id": "Heraklius",
+      "fa": "هراکلیوس",
+      "es": "Heraclio",
+      "ru": "Ираклий",
+      "zh": "希拉克略",
+      "ja": "ヘラクレイオス"
+    }
+  },
+  {
+    "slug": "xuanzang",
+    "nameEn": "Xuanzang",
+    "names": {
+      "fr": "Xuanzang",
+      "ko": "현장",
+      "en": "Xuanzang",
+      "id": "Xuanzang",
+      "fa": "هیون تسیانگ",
+      "es": "Xuanzang",
+      "ru": "Сюаньцзан",
+      "zh": "玄奘",
+      "ja": "玄奘"
+    }
+  },
+  {
+    "slug": "hryhorii-skovoroda",
+    "nameEn": "Hryhorii Skovoroda",
+    "names": {
+      "fr": "Hryhori Skovoroda",
+      "ko": "흐리호리 스코보로다",
+      "en": "Hryhorii Skovoroda",
+      "id": "Hryhorii Skovoroda",
+      "fa": "گرگوری اسکوورودا",
+      "es": "Hryhorii Skovorodá",
+      "ru": "Григорий Сковорода",
+      "zh": "赫里霍里·斯科沃罗达",
+      "ja": "グリゴリー・スコヴォロダ"
+    }
+  },
+  {
+    "slug": "gertrude-bell",
+    "nameEn": "Gertrude Bell",
+    "names": {
+      "fr": "Gertrude Bell",
+      "ko": "거트루드 벨",
+      "en": "Gertrude Bell",
+      "id": "Gertrude Bell",
+      "fa": "گرترود بل",
+      "es": "Gertrude Bell",
+      "ru": "Гертруда Белл",
+      "zh": "格特鲁德·贝尔",
+      "ja": "ガートルード・ベル"
+    }
+  },
+  {
+    "slug": "nader-shah",
+    "nameEn": "Nader Shah",
+    "names": {
+      "fr": "Nader Chah",
+      "ko": "나디르 샤",
+      "en": "Nader Shah",
+      "id": "Nader Shah",
+      "fa": "نادرشاه",
+      "es": "Nader Shah",
+      "ru": "Надир-шах",
+      "zh": "纳迪尔沙",
+      "ja": "ナーディル・シャー"
+    }
+  },
+  {
+    "slug": "namik-kemal",
+    "nameEn": "Namık Kemal",
+    "names": {
+      "fr": "Namik Kemal",
+      "ko": "나므크 케말",
+      "en": "Namık Kemal",
+      "id": "Namık Kemal",
+      "fa": "نامق کمال",
+      "es": "Namık Kemal",
+      "ru": "Намык Кемаль",
+      "zh": "纳米克·凯末尔",
+      "ja": "ナムク・ケマル"
+    }
+  },
+  {
+    "slug": "nasir-al-din-al-tusi",
+    "nameEn": "Nasir al-Din al-Tusi",
+    "names": {
+      "fr": "Nasir al-Din al-Tusi",
+      "ko": "나시르 알딘 알투시",
+      "en": "Nasir al-Din al-Tusi",
+      "id": "Nashiruddin ath-Thusi",
+      "fa": "خواجه نصیرالدین طوسی",
+      "es": "Nasir al-Din al-Tusi",
+      "ru": "Насир ад-Дин ат-Туси",
+      "zh": "纳西尔丁·图西",
+      "ja": "ナシル・アルディン・アル・トゥシ"
+    }
+  },
+  {
+    "slug": "nebuchadnezzar-ii",
+    "nameEn": "Nebuchadnezzar II",
+    "names": {
+      "fr": "Nabuchodonosor II",
+      "ko": "네부카드네자르 2세",
+      "en": "Nebuchadnezzar II",
+      "id": "Nebukadnezar II",
+      "fa": "نبوکدنصر دوم",
+      "es": "Nabucodonosor II",
+      "ru": "Навуходоносор II",
+      "zh": "尼布甲尼撒二世",
+      "ja": "ネブカドネザル2世"
+    }
+  },
+  {
+    "slug": "nizam-al-mulk",
+    "nameEn": "Nizam al-Mulk",
+    "names": {
+      "fr": "Nizam al-Mulk",
+      "ko": "니잠 알물크",
+      "en": "Nizam al-Mulk",
+      "id": "Nizham al-Mulk",
+      "fa": "نظام‌الملک",
+      "es": "Nizam al-Mulk",
+      "ru": "Низам аль-Мульк",
+      "zh": "尼扎姆·穆勒克",
+      "ja": "ニザーム・アル＝ムルク"
+    }
+  },
+  {
+    "slug": "darius-i",
+    "nameEn": "Darius I",
+    "names": {
+      "fr": "Darius Ier",
+      "ko": "다리우스 1세",
+      "en": "Darius I",
+      "id": "Darius I dari Persia",
+      "fa": "داریوش بزرگ",
+      "es": "Darío I",
+      "ru": "Дарий I",
+      "zh": "大流士一世",
+      "ja": "ダレイオス1世"
+    }
+  },
+  {
+    "slug": "rashid-rida",
+    "nameEn": "Rashid Rida",
+    "names": {
+      "fr": "Rachid Rida",
+      "ko": "라시드 리다",
+      "en": "Rashid Rida",
+      "id": "Rasyid Ridha",
+      "fa": "محمد رشید رضا",
+      "es": "Rashid Rida",
+      "ru": "Рашид Рида",
+      "zh": "拉希德·里达",
+      "ja": "ラシード・リダー"
+    }
+  },
+  {
+    "slug": "reza-shah",
+    "nameEn": "Reza Shah",
+    "names": {
+      "fr": "Reza Chah",
+      "ko": "레자 샤 팔라비",
+      "en": "Reza Shah",
+      "id": "Reza Shah",
+      "fa": "رضاشاه",
+      "es": "Reza Shah",
+      "ru": "Реза-шах Пехлеви",
+      "zh": "礼萨·沙·巴列维",
+      "ja": "レザー・シャー"
+    }
+  },
+  {
+    "slug": "mani",
+    "nameEn": "Mani",
+    "names": {
+      "fr": "Mani",
+      "ko": "마니",
+      "en": "Mani",
+      "id": "Mani (nabi)",
+      "fa": "مانی",
+      "es": "Mani",
+      "ru": "Мани",
+      "zh": "摩尼",
+      "ja": "マニ"
+    }
+  },
+  {
+    "slug": "mahmud-ii",
+    "nameEn": "Mahmud II",
+    "names": {
+      "fr": "Mahmud II",
+      "ko": "마흐무트 2세",
+      "en": "Mahmud II",
+      "id": "Mahmud II",
+      "fa": "محمود دوم",
+      "es": "Mahmud II",
+      "ru": "Махмуд II",
+      "zh": "马哈茂德二世",
+      "ja": "マフムト2世"
+    }
+  },
+  {
+    "slug": "mehmed-the-conqueror",
+    "nameEn": "Mehmed the Conqueror",
+    "names": {
+      "fr": "Mehmed II le Conquérant",
+      "ko": "메흐메트 2세",
+      "en": "Mehmed the Conqueror",
+      "id": "Mehmed II",
+      "fa": "محمد دوم",
+      "es": "Mehmed el Conquistador",
+      "ru": "Мехмед II Завоеватель",
+      "zh": "穆罕默德二世 (征服者)",
+      "ja": "メフメト2世"
+    }
+  },
+  {
+    "slug": "mustafa-kemal-ataturk",
+    "nameEn": "Mustafa Kemal Atatürk",
+    "names": {
+      "fr": "Mustafa Kemal Atatürk",
+      "ko": "무스타파 케말 아타튀르크",
+      "en": "Mustafa Kemal Atatürk",
+      "id": "Mustafa Kemal Atatürk",
+      "fa": "مصطفی کمال آتاترک",
+      "es": "Mustafa Kemal Atatürk",
+      "ru": "Мустафа Кемаль Ататюрк",
+      "zh": "穆斯塔法·凯末尔·阿塔图尔克",
+      "ja": "ムスタファ・ケマル・アタテュルク"
+    }
+  },
+  {
+    "slug": "muhammad-ali-of-egypt",
+    "nameEn": "Muhammad Ali of Egypt",
+    "names": {
+      "fr": "Méhémet Ali",
+      "ko": "무함마드 알리 파샤",
+      "en": "Muhammad Ali of Egypt",
+      "id": "Muhammad Ali dari Mesir",
+      "fa": "محمدعلی پاشا",
+      "es": "Muhammad Ali de Egipto",
+      "ru": "Мухаммед Али Египетский",
+      "zh": "埃及的穆罕默德·阿里",
+      "ja": "ムハンマド・アリー"
+    }
+  },
+  {
+    "slug": "muhammad-abduh",
+    "nameEn": "Muhammad Abduh",
+    "names": {
+      "fr": "Mohammed Abduh",
+      "ko": "무함마드 압두",
+      "en": "Muhammad Abduh",
+      "id": "Muhammad Abduh",
+      "fa": "محمد عبده",
+      "es": "Muhammad Abduh",
+      "ru": "Мухаммад Абдо",
+      "zh": "穆罕默德·阿布杜",
+      "ja": "ムハンマド・アブドゥフ"
+    }
+  },
+  {
+    "slug": "mimar-sinan",
+    "nameEn": "Mimar Sinan",
+    "names": {
+      "fr": "Mimar Sinan",
+      "ko": "미마르 시난",
+      "en": "Mimar Sinan",
+      "id": "Mimar Sinan",
+      "fa": "معمار سنان",
+      "es": "Mimar Sinan",
+      "ru": "Мимар Синан",
+      "zh": "米马尔·希南",
+      "ja": "ミマール・シナン"
+    }
+  },
+  {
+    "slug": "badi-al-zaman-al-hamadani",
+    "nameEn": "Badi' al-Zaman al-Hamadani",
+    "names": {
+      "fr": "Badi' al-Zaman al-Hamadani",
+      "ko": "바디 알자만 알하마다니",
+      "en": "Badi' al-Zaman al-Hamadani",
+      "id": "Badi' al-Zaman al-Hamadani",
+      "fa": "بدیع‌الزمان همدانی",
+      "es": "Badi' al-Zaman al-Hamadani",
+      "ru": "Бади аз-Заман аль-Хамадани",
+      "zh": "拜迪·宰曼·哈马达尼",
+      "ja": "バディー・アッザマーン・アルハマザーニー"
+    }
+  }
+]

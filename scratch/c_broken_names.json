@@ -1,0 +1,4048 @@
+[
+  {
+    "slug": "napoleon-bonaparte",
+    "locale": "it",
+    "category": "C",
+    "localName": "Napoleon Bonaparte",
+    "correctName": "Napoleone Bonaparte"
+  },
+  {
+    "slug": "king-sejong",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Sejong Thế Tông",
+    "correctName": "Triều Tiên Thế Tông"
+  },
+  {
+    "slug": "julius-caesar",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Julius Kaisar",
+    "correctName": "Julius Caesar"
+  },
+  {
+    "slug": "julius-caesar",
+    "locale": "sw",
+    "category": "C",
+    "localName": "Julius Kaisari",
+    "correctName": "Julius Caesar"
+  },
+  {
+    "slug": "helen-keller",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Hélène Keller",
+    "correctName": "Helen Keller"
+  },
+  {
+    "slug": "beethoven",
+    "locale": "hi",
+    "category": "C",
+    "localName": "लुडविग वैन बीथोवेन",
+    "correctName": "लुडविग वान बीथोवेन"
+  },
+  {
+    "slug": "lao-tzu",
+    "locale": "hi",
+    "category": "C",
+    "localName": "लाओ त्ज़ु",
+    "correctName": "लाओ त्ज़ू"
+  },
+  {
+    "slug": "leonardo-da-vinci",
+    "locale": "hi",
+    "category": "C",
+    "localName": "लियोनार्डो दा विंची",
+    "correctName": "लिओनार्दो दा विंची"
+  },
+  {
+    "slug": "william-shakespeare",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Guillaume Shakespeare",
+    "correctName": "William Shakespeare"
+  },
+  {
+    "slug": "vincent-van-gogh",
+    "locale": "hi",
+    "category": "C",
+    "localName": "विन्सेंट वैन गॉग",
+    "correctName": "विन्सेंट वैन गो"
+  },
+  {
+    "slug": "yi-sun-shin",
+    "locale": "hi",
+    "category": "C",
+    "localName": "यी सन-शिन",
+    "correctName": "यी सुन सिन"
+  },
+  {
+    "slug": "yi-sun-shin",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Адмирал Ли Сунсин",
+    "correctName": "Ли Сунсин"
+  },
+  {
+    "slug": "gwanggaeto-the-great",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Gwanggaeto le Grand",
+    "correctName": "Kwanggaet'o Wang"
+  },
+  {
+    "slug": "gwanggaeto-the-great",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Квангэтхо Великий",
+    "correctName": "Квангэтхо"
+  },
+  {
+    "slug": "winston-churchill",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Winston Churchill ne",
+    "correctName": "Winston Churchill"
+  },
+  {
+    "slug": "qin-shi-huang",
+    "locale": "hi",
+    "category": "C",
+    "localName": "किन शी हुआंग",
+    "correctName": "चिन शी हुआंग"
+  },
+  {
+    "slug": "otto-von-bismarck",
+    "locale": "hi",
+    "category": "C",
+    "localName": "ओटो वॉन बिस्मार्क",
+    "correctName": "बिस्मार्क"
+  },
+  {
+    "slug": "peter-the-great",
+    "locale": "hi",
+    "category": "C",
+    "localName": "पीटर द ग्रेट",
+    "correctName": "पीटर महान"
+  },
+  {
+    "slug": "catherine-the-great",
+    "locale": "hi",
+    "category": "C",
+    "localName": "कैथरीन द ग्रेट",
+    "correctName": "महारानी काथरिन"
+  },
+  {
+    "slug": "simon-bolivar",
+    "locale": "hi",
+    "category": "C",
+    "localName": "साइमन बोलिवर",
+    "correctName": "सिमोन बोलिवर"
+  },
+  {
+    "slug": "john-d-rockefeller",
+    "locale": "de",
+    "category": "C",
+    "localName": "John D Rockefeller",
+    "correctName": "John D. Rockefeller"
+  },
+  {
+    "slug": "john-d-rockefeller",
+    "locale": "it",
+    "category": "C",
+    "localName": "John D Rockefeller",
+    "correctName": "John Davison Rockefeller"
+  },
+  {
+    "slug": "john-d-rockefeller",
+    "locale": "pt",
+    "category": "C",
+    "localName": "John D Rockefeller",
+    "correctName": "John D. Rockefeller"
+  },
+  {
+    "slug": "ataturk",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Ataturk",
+    "correctName": "Mustafa Kamal Atatürk"
+  },
+  {
+    "slug": "ataturk",
+    "locale": "th",
+    "category": "C",
+    "localName": "อาตาเติร์ก",
+    "correctName": "มุสทาฟา เคมัล อาทาทืร์ค"
+  },
+  {
+    "slug": "theodore-roosevelt",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Theodore Roosevelt ne adam wata",
+    "correctName": "Theodore Roosevelt"
+  },
+  {
+    "slug": "frederick-douglass",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Frédéric Douglass",
+    "correctName": "Frederick Douglass"
+  },
+  {
+    "slug": "frederick-douglass",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Frederick Doulass",
+    "correctName": "Frederick Douglass"
+  },
+  {
+    "slug": "harriet-tubman",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हैरियट टबमैन",
+    "correctName": "हेरियट टूबमेन"
+  },
+  {
+    "slug": "florence-nightingale",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Florence Rossignol",
+    "correctName": "Florence Nightingale"
+  },
+  {
+    "slug": "florence-nightingale",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Chim sơn ca Florence",
+    "correctName": "Florence Nightingale"
+  },
+  {
+    "slug": "louis-braille",
+    "locale": "ko",
+    "category": "C",
+    "localName": "루이 브라이유",
+    "correctName": "루이 브라유"
+  },
+  {
+    "slug": "louis-braille",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Chữ nổi Louis",
+    "correctName": "Louis Braille"
+  },
+  {
+    "slug": "joan-of-arc",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Joan Of Arc",
+    "correctName": "Joana d'Arc"
+  },
+  {
+    "slug": "harriet-beecher-stowe",
+    "locale": "ar",
+    "category": "C",
+    "localName": "هاريت بيتشر ستو",
+    "correctName": "هيريت ستو"
+  },
+  {
+    "slug": "harriet-beecher-stowe",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Harriet Beecher-Stowe",
+    "correctName": "Harriet Beecher Stowe"
+  },
+  {
+    "slug": "kim-gu",
+    "locale": "ar",
+    "category": "C",
+    "localName": "كيم جو",
+    "correctName": "كيم كوو"
+  },
+  {
+    "slug": "buddha",
+    "locale": "uk",
+    "category": "C",
+    "localName": "Готама Будда",
+    "correctName": "Сіддгартха Ґаутама"
+  },
+  {
+    "slug": "buddha",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Gotama Buda",
+    "correctName": "Thích-ca Mâu-ni"
+  },
+  {
+    "slug": "friedrich-nietzsche",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Friedrich Nietzsche ne adam wata",
+    "correctName": "Friedrich Nietzsche"
+  },
+  {
+    "slug": "jean-jacques-rousseau",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जीन जैक्स रूसो",
+    "correctName": "रूसो"
+  },
+  {
+    "slug": "sigmund-freud",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Sigmond Freud",
+    "correctName": "Sigmund Freud"
+  },
+  {
+    "slug": "carl-jung",
+    "locale": "hi",
+    "category": "C",
+    "localName": "कार्ल जंग",
+    "correctName": "कार्ल गुस्टाफ युंग"
+  },
+  {
+    "slug": "baruch-spinoza",
+    "locale": "hi",
+    "category": "C",
+    "localName": "बारूच स्पिनोज़ा",
+    "correctName": "बारूथ स्पिनोज़ा"
+  },
+  {
+    "slug": "baruch-spinoza",
+    "locale": "ja",
+    "category": "C",
+    "localName": "バルーク スピノザ",
+    "correctName": "バールーフ・デ・スピノザ"
+  },
+  {
+    "slug": "sun-tzu",
+    "locale": "hi",
+    "category": "C",
+    "localName": "सुन त्ज़ु",
+    "correctName": "सून त्ज़ू"
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "locale": "de",
+    "category": "C",
+    "localName": "Simone De Beauvoir",
+    "correctName": "Simone de Beauvoir"
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "locale": "es",
+    "category": "C",
+    "localName": "Simone De Beauvoir",
+    "correctName": "Simone de Beauvoir"
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Simone De Beauvoir",
+    "correctName": "Simone de Beauvoir"
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "locale": "id",
+    "category": "C",
+    "localName": "Simone De Beauvoir",
+    "correctName": "Simone de Beauvoir"
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Simone De Beauvoir",
+    "correctName": "Simone de Beauvoir"
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "locale": "sw",
+    "category": "C",
+    "localName": "Simone De Beauvoir",
+    "correctName": "Simone de Beauvoir"
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "locale": "th",
+    "category": "C",
+    "localName": "ซีโมน เดอ โบวัวร์",
+    "correctName": "ซีมอน เดอ โบวัวร์"
+  },
+  {
+    "slug": "hannah-arendt",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हन्ना एरंड्ट",
+    "correctName": "हाना आरेंट"
+  },
+  {
+    "slug": "soren-kierkegaard",
+    "locale": "de",
+    "category": "C",
+    "localName": "Soren Kierkegaard",
+    "correctName": "Søren Kierkegaard"
+  },
+  {
+    "slug": "soren-kierkegaard",
+    "locale": "hi",
+    "category": "C",
+    "localName": "सोरेन कीर्केगार्ड",
+    "correctName": "सॉरन किअर्केगार्ड"
+  },
+  {
+    "slug": "soren-kierkegaard",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ソーレン・キェルケゴール",
+    "correctName": "セーレン・キェルケゴール"
+  },
+  {
+    "slug": "isaac-newton",
+    "locale": "hi",
+    "category": "C",
+    "localName": "आइजैक न्यूटन",
+    "correctName": "आइज़क न्यूटन"
+  },
+  {
+    "slug": "claude-monet",
+    "locale": "hi",
+    "category": "C",
+    "localName": "क्लाउड मोनेट",
+    "correctName": "क्लाद मोने"
+  },
+  {
+    "slug": "fyodor-dostoevsky",
+    "locale": "hi",
+    "category": "C",
+    "localName": "फ्योदोर दोस्तोयेव्स्की",
+    "correctName": "फ़्योदोर दोस्तोयेव्स्की"
+  },
+  {
+    "slug": "anton-chekhov",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एंटोन चेखव",
+    "correctName": "आंतोन चेखव"
+  },
+  {
+    "slug": "frederic-chopin",
+    "locale": "hi",
+    "category": "C",
+    "localName": "फ्रेडरिक चोपिन",
+    "correctName": "फ़्रेडरिक चॉपिन"
+  },
+  {
+    "slug": "katsushika-hokusai",
+    "locale": "ar",
+    "category": "C",
+    "localName": "كاتسوشيكا هوكوساي",
+    "correctName": "هوكوساي"
+  },
+  {
+    "slug": "katsushika-hokusai",
+    "locale": "hi",
+    "category": "C",
+    "localName": "कात्सुशिका होकुसाई",
+    "correctName": "होकुसाई"
+  },
+  {
+    "slug": "agatha-christie",
+    "locale": "ko",
+    "category": "C",
+    "localName": "애가사 크리스티",
+    "correctName": "애거사 크리스티"
+  },
+  {
+    "slug": "goethe",
+    "locale": "hi",
+    "category": "C",
+    "localName": "गोएथे",
+    "correctName": "योहान वुल्फगांग फान गेटे"
+  },
+  {
+    "slug": "mary-shelley",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Marie Shelley",
+    "correctName": "Mary Shelley"
+  },
+  {
+    "slug": "alexander-fleming",
+    "locale": "ar",
+    "category": "C",
+    "localName": "ألكساندر فليمنغ",
+    "correctName": "ألكسندر فلمنج"
+  },
+  {
+    "slug": "alexander-hamilton",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Alexandre Hamilton",
+    "correctName": "Alexander Hamilton"
+  },
+  {
+    "slug": "alexander-hamilton",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अलेक्जेंडर हैमिल्टन",
+    "correctName": "ऐलॅक्ज़ैण्डर हैमिलटन"
+  },
+  {
+    "slug": "francis-bacon",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Francis thịt xông khói",
+    "correctName": "Francis Bacon"
+  },
+  {
+    "slug": "johannes-kepler",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Johannes Kepler ne adam wata",
+    "correctName": "Johannes Kepler"
+  },
+  {
+    "slug": "johannes-kepler",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जोहान्स केप्लर",
+    "correctName": "योहानेस केप्लर"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "ar",
+    "category": "C",
+    "localName": "الإمبراطورة وو تسيتيان",
+    "correctName": "وو شتيان"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "de",
+    "category": "C",
+    "localName": "Kaiserin Wu Zetian",
+    "correctName": "Wu Zetian"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "es",
+    "category": "C",
+    "localName": "Emperatriz Wu Zetian",
+    "correctName": "Wu Zetian"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Impératrice Wu Zetian",
+    "correctName": "Wu Zetian"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "it",
+    "category": "C",
+    "localName": "Imperatrice Wu Zetian",
+    "correctName": "Imperatrice Wu"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "ja",
+    "category": "C",
+    "localName": "則天武后 (武則天)",
+    "correctName": "武則天"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Imperatriz Wu Zetian",
+    "correctName": "Wu Zetian"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Императрица У Цзэтянь",
+    "correctName": "У Цзэтянь"
+  },
+  {
+    "slug": "sima-qian",
+    "locale": "ar",
+    "category": "C",
+    "localName": "سوما تشيان",
+    "correctName": "سيما شيان"
+  },
+  {
+    "slug": "sima-qian",
+    "locale": "hi",
+    "category": "C",
+    "localName": "सिमा कियान",
+    "correctName": "सीमा चिआन"
+  },
+  {
+    "slug": "sima-qian",
+    "locale": "ja",
+    "category": "C",
+    "localName": "司馬遷 (しません)",
+    "correctName": "司馬遷"
+  },
+  {
+    "slug": "zhuge-liang",
+    "locale": "ar",
+    "category": "C",
+    "localName": "تشوغيه ليانغ",
+    "correctName": "تشوغ ليانغ"
+  },
+  {
+    "slug": "zhuge-liang",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Чжугэ Лян (Zhuge Liang)",
+    "correctName": "Чжугэ Лян"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أشوكا العظيم",
+    "correctName": "أشوكا"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "de",
+    "category": "C",
+    "localName": "König Jeongjo",
+    "correctName": "Jeongjo"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "es",
+    "category": "C",
+    "localName": "Rey Jeongjo",
+    "correctName": "Jeongjo"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Roi Jeongjo",
+    "correctName": "Jeongjo"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "it",
+    "category": "C",
+    "localName": "Re Jeongjo",
+    "correctName": "Jeongjo di Joseon"
+  },
+  {
+    "slug": "li-bai",
+    "locale": "hi",
+    "category": "C",
+    "localName": "ली बाई",
+    "correctName": "ली बै"
+  },
+  {
+    "slug": "li-bai",
+    "locale": "ja",
+    "category": "C",
+    "localName": "李白 (りはく)",
+    "correctName": "李白"
+  },
+  {
+    "slug": "miyamoto-musashi",
+    "locale": "ja",
+    "category": "C",
+    "localName": "宮本 武蔵",
+    "correctName": "宮本武蔵"
+  },
+  {
+    "slug": "miyamoto-musashi",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Miyamoto Musashi",
+    "correctName": "Миямото Мусаси"
+  },
+  {
+    "slug": "sun-yat-sen",
+    "locale": "ja",
+    "category": "C",
+    "localName": "孫文 (ソン・ブン)",
+    "correctName": "孫文"
+  },
+  {
+    "slug": "tokugawa-ieyasu",
+    "locale": "hi",
+    "category": "C",
+    "localName": "तोकुगावा इयासु",
+    "correctName": "तोकुगावा इयासू"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "ar",
+    "category": "C",
+    "localName": "الملك تشولالونغكورن",
+    "correctName": "راما الخامس"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "hi",
+    "category": "C",
+    "localName": "चुलालोंगकोर्न",
+    "correctName": "चुललंगकरण"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Чхулалонгкорн",
+    "correctName": "Рама V"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "ar",
+    "category": "C",
+    "localName": "حنبعل برقا",
+    "correctName": "حنبعل"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Hannibal Barça",
+    "correctName": "Hannibal Barca"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हैनिबल बार्का",
+    "correctName": "हान्निबल"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "zh",
+    "category": "C",
+    "localName": "汉尼拔·巴卡",
+    "correctName": "汉尼拔"
+  },
+  {
+    "slug": "jayavarman-vii",
+    "locale": "de",
+    "category": "C",
+    "localName": "Jayavarman VII",
+    "correctName": "Jayavarman VII."
+  },
+  {
+    "slug": "mansa-musa",
+    "locale": "hi",
+    "category": "C",
+    "localName": "मंसा मूसा",
+    "correctName": "मानसा मूसा"
+  },
+  {
+    "slug": "shaka-zulu",
+    "locale": "hi",
+    "category": "C",
+    "localName": "शाका ज़ुलु",
+    "correctName": "शाका ज़ूलू"
+  },
+  {
+    "slug": "chandragupta-maurya",
+    "locale": "ar",
+    "category": "C",
+    "localName": "تشاندراغوبتا موريا",
+    "correctName": "تشاندراغبت موريا"
+  },
+  {
+    "slug": "robert-oppenheimer",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जे. रॉबर्ट ओपेनहाइमर",
+    "correctName": "रॉबर्ट ओपेनहाइमर"
+  },
+  {
+    "slug": "srinivasa-ramanujan",
+    "locale": "ja",
+    "category": "C",
+    "localName": "スリニヴァーサ・ラマヌジャン",
+    "correctName": "シュリニヴァーサ・ラマヌジャン"
+  },
+  {
+    "slug": "srinivasa-ramanujan",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Шриниваса Рамануджан",
+    "correctName": "Сриниваса Рамануджан"
+  },
+  {
+    "slug": "suleiman-the-magnificent",
+    "locale": "hi",
+    "category": "C",
+    "localName": "सुलेमान द मैग्नीफिसेंट",
+    "correctName": "सुलेमान प्रथम"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "ar",
+    "category": "C",
+    "localName": "سوامي فيفيكاناندا",
+    "correctName": "سوامي فيفي كاناندا"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "ja",
+    "category": "C",
+    "localName": "スワミ・ヴィヴェーカーナンダ",
+    "correctName": "ヴィヴェーカーナンダ"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Swami Vivekananda",
+    "correctName": "Вивекананда"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "zh",
+    "category": "C",
+    "localName": "斯瓦米·辨喜",
+    "correctName": "辨喜"
+  },
+  {
+    "slug": "dante-alighieri",
+    "locale": "hi",
+    "category": "C",
+    "localName": "दांते अलिघिएरी",
+    "correctName": "दांते एलीगियरी"
+  },
+  {
+    "slug": "johannes-gutenberg",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जोहान्स गुटेनबर्ग",
+    "correctName": "योहानेस गुटेनबर्ग"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "ar",
+    "category": "C",
+    "localName": "نيقولا مكيافيلي",
+    "correctName": "نيكولو مكيافيلي"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "hi",
+    "category": "C",
+    "localName": "निकॉलो मैकियावेली",
+    "correctName": "निकोलो मैकियावेली"
+  },
+  {
+    "slug": "voltaire",
+    "locale": "hi",
+    "category": "C",
+    "localName": "वॉल्टेयर",
+    "correctName": "वोल्टेयर"
+  },
+  {
+    "slug": "alexander-graham-bell",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अलेक्जेंडर ग्राहम बेल",
+    "correctName": "ऐलेक्ज़ैन्डर ग्राहम बेल"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أمريكا إيرهارت",
+    "correctName": "أميليا إيرهارت"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Amélie Earhart",
+    "correctName": "Amelia Earhart"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Amelia Earhart ne adam wata",
+    "correctName": "Amelia Earhart"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अमेलिया ईयरहार्ट",
+    "correctName": "अमीलिया एरहार्ट"
+  },
+  {
+    "slug": "andrew-carnegie",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أندرو كارنيجي",
+    "correctName": "أندرو كارنيغي"
+  },
+  {
+    "slug": "andrew-carnegie",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Andrew Carnegie ne adam wata",
+    "correctName": "Andrew Carnegie"
+  },
+  {
+    "slug": "andrew-carnegie",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एंड्रयू कार्नेगी",
+    "correctName": "ऐंड्रू कार्नेगी"
+  },
+  {
+    "slug": "edgar-allan-poe",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एडगर एलन पो",
+    "correctName": "एडगर ऍलन पो"
+  },
+  {
+    "slug": "ralph-waldo-emerson",
+    "locale": "hi",
+    "category": "C",
+    "localName": "राल्फ वाल्डो एमर्सन",
+    "correctName": "राल्फ वाल्डो इमर्सन"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "ar",
+    "category": "C",
+    "localName": "سوزان ب. أنتوني",
+    "correctName": "سوزان أنتوني"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Susan B Anthony",
+    "correctName": "Susan B. Anthony"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "hi",
+    "category": "C",
+    "localName": "सुज़ैन बी. एंथनी",
+    "correctName": "सुसान बी. एंथनी"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "id",
+    "category": "C",
+    "localName": "Susan B Anthony",
+    "correctName": "Susan B. Anthony"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "ko",
+    "category": "C",
+    "localName": "수잔 B. 앤서니",
+    "correctName": "수전 B. 앤서니"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "sw",
+    "category": "C",
+    "localName": "Susan B Anthony",
+    "correctName": "Susan B. Anthony"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Susan B Anthony",
+    "correctName": "Susan B. Anthony"
+  },
+  {
+    "slug": "walt-whitman",
+    "locale": "hi",
+    "category": "C",
+    "localName": "वॉल्ट व्हिटमैन",
+    "correctName": "वाल्ट ह्विटमैन"
+  },
+  {
+    "slug": "hypatia",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हिपाटिया",
+    "correctName": "हाईपेशिया"
+  },
+  {
+    "slug": "hypatia",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ヒパティア",
+    "correctName": "ヒュパティア"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "es",
+    "category": "C",
+    "localName": "Ibn Al Haytham",
+    "correctName": "Alhacén"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "hi",
+    "category": "C",
+    "localName": "इब्न अल-हैथम",
+    "correctName": "इब्न अल-हेथम"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "it",
+    "category": "C",
+    "localName": "Ibn Al Haytham",
+    "correctName": "Alhazen"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Ibn Al Haytham",
+    "correctName": "Alhazém"
+  },
+  {
+    "slug": "blaise-pascal",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Blaise Pascal ne adam wata",
+    "correctName": "Blaise Pascal"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "ar",
+    "category": "C",
+    "localName": "دميتري إيفانوفيتش مندلييف",
+    "correctName": "ديميتري مندلييف"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Dmitri Ivanovitch Mendeleïev",
+    "correctName": "Dmitri Mendeleïev"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "hi",
+    "category": "C",
+    "localName": "दिमित्री इवानोविच मेंडेलीव",
+    "correctName": "मेंडलीफ"
+  },
+  {
+    "slug": "alan-turing",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एलन ट्यूरिंग",
+    "correctName": "एलेन ट्यूरिंग"
+  },
+  {
+    "slug": "james-watt",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जेम्स वॉट",
+    "correctName": "जेम्स वाट"
+  },
+  {
+    "slug": "george-stephenson",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Georges Stephenson",
+    "correctName": "George Stephenson"
+  },
+  {
+    "slug": "george-stephenson",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जॉर्ज स्टीफेंसन",
+    "correctName": "जार्ज स्टीफेन्सन"
+  },
+  {
+    "slug": "gregor-mendel",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Grégor Mendel",
+    "correctName": "Gregor Mendel"
+  },
+  {
+    "slug": "antoine-lavoisier",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एंटोनी लैवोइज़ियर",
+    "correctName": "एंटोनी लेवोज़ियर"
+  },
+  {
+    "slug": "li-shizhen",
+    "locale": "ar",
+    "category": "C",
+    "localName": "لي شيزين",
+    "correctName": "لي سايجن"
+  },
+  {
+    "slug": "li-shizhen",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Ли Шижэнь",
+    "correctName": "Ли Шичжэнь"
+  },
+  {
+    "slug": "guglielmo-marconi",
+    "locale": "hi",
+    "category": "C",
+    "localName": "गुग्लिल्मो मार्कोनी",
+    "correctName": "गुल्येल्मो मार्कोनी"
+  },
+  {
+    "slug": "robert-koch",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Robert Cook",
+    "correctName": "Robert Koch"
+  },
+  {
+    "slug": "robert-koch",
+    "locale": "sw",
+    "category": "C",
+    "localName": "Robert Cook",
+    "correctName": "Robert Koch"
+  },
+  {
+    "slug": "robert-koch",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Robert Cook",
+    "correctName": "Robert Koch"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "hi",
+    "category": "C",
+    "localName": "इब्न रुश्द",
+    "correctName": "इब्न रश्द"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Ibn Rushd",
+    "correctName": "Averróis"
+  },
+  {
+    "slug": "friedrich-schiller",
+    "locale": "hi",
+    "category": "C",
+    "localName": "फ्रीड्रिख शिलर",
+    "correctName": "फ्रेडरिक शिलर"
+  },
+  {
+    "slug": "george-washington-carver",
+    "locale": "ar",
+    "category": "C",
+    "localName": "جورج واشنطن كارفير",
+    "correctName": "جورج واشنطن كارفر"
+  },
+  {
+    "slug": "george-washington-carver",
+    "locale": "fr",
+    "category": "C",
+    "localName": "George Washington sculpteur",
+    "correctName": "George Washington Carver"
+  },
+  {
+    "slug": "george-washington-carver",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ジョージ・ワシントン・カーター",
+    "correctName": "ジョージ・ワシントン・カーヴァー"
+  },
+  {
+    "slug": "al-ghazali",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अल-ग़ज़ाली",
+    "correctName": "अल ग़ज़ाली"
+  },
+  {
+    "slug": "al-ghazali",
+    "locale": "zh",
+    "category": "C",
+    "localName": "阿尔-加扎利",
+    "correctName": "安萨里"
+  },
+  {
+    "slug": "maimonides",
+    "locale": "hi",
+    "category": "C",
+    "localName": "माइमोनाइड्स",
+    "correctName": "मैमोनिदेस"
+  },
+  {
+    "slug": "leo-tolstoy",
+    "locale": "hi",
+    "category": "C",
+    "localName": "लियो टॉल्स्टॉय",
+    "correctName": "लेव तोलस्तोय"
+  },
+  {
+    "slug": "murasaki-shikibu",
+    "locale": "hi",
+    "category": "C",
+    "localName": "मुरासाकी शिकिबु",
+    "correctName": "मुरासाकि शिकिबु"
+  },
+  {
+    "slug": "edgar-degas",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एडगर डेगा",
+    "correctName": "एद्गर देगास"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "ar",
+    "category": "C",
+    "localName": "ثور خوانا إينيس دي لا كروز",
+    "correctName": "خوانا إينيس دي لا كروث"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Sor Juana Inès de la Cruz",
+    "correctName": "Juana Inés de la Cruz"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "it",
+    "category": "C",
+    "localName": "Sor Juana Inés de la Cruz",
+    "correctName": "Juana Inés de la Cruz"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ソル・フアナ・イネス・デ・ラ・クルス",
+    "correctName": "ソル・フアナ＝イネス・デ・ラ・クルス"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "ko",
+    "category": "C",
+    "localName": "소르 후아나 이네스 데 라 크루스",
+    "correctName": "후아나 이네스 데 라 크루스"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Sor Juana Inês de la Cruz",
+    "correctName": "Juana Inés de la Cruz"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Со́р Хуа́на Ине́с де ла Кру́с",
+    "correctName": "Хуана Инес де ла Крус"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "zh",
+    "category": "C",
+    "localName": "索尔·胡安娜·伊内斯·德·拉·克鲁斯",
+    "correctName": "胡安娜·伊内斯·德拉克鲁兹"
+  },
+  {
+    "slug": "li-qingzhao",
+    "locale": "fa",
+    "category": "C",
+    "localName": "لی چینگ‌ژائو",
+    "correctName": "لی کینگژائو"
+  },
+  {
+    "slug": "toussaint-louverture",
+    "locale": "hi",
+    "category": "C",
+    "localName": "तूसैन-लुवरच्यर",
+    "correctName": "तोसेंट लौवर्चर"
+  },
+  {
+    "slug": "toussaint-louverture",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Tháp Toussaint",
+    "correctName": "Toussaint Louverture"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Vérité du séjour",
+    "correctName": "Sojourner Truth"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Gaskiya Baƙo",
+    "correctName": "Sojourner Truth"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ソジャーナ―・トゥルース",
+    "correctName": "ソジャーナ・トゥルース"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "sw",
+    "category": "C",
+    "localName": "Ukweli Mgeni",
+    "correctName": "Sojourner Truth"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Sự thật về khách du lịch",
+    "correctName": "Sojourner Truth"
+  },
+  {
+    "slug": "emmeline-pankhurst",
+    "locale": "ar",
+    "category": "C",
+    "localName": "إيميلين بانكيرست",
+    "correctName": "إميلين بانكيرست"
+  },
+  {
+    "slug": "emmeline-pankhurst",
+    "locale": "zh",
+    "category": "C",
+    "localName": "艾米琳·潘克赫斯特",
+    "correctName": "艾米琳·潘克斯特"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जोस रिज़ल",
+    "correctName": "होसे रिसाल"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "it",
+    "category": "C",
+    "localName": "Jose Rizal",
+    "correctName": "José Rizal"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Jose Rizal",
+    "correctName": "José Rizal"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "zh",
+    "category": "C",
+    "localName": "何塞·黎刹",
+    "correctName": "黎剎"
+  },
+  {
+    "slug": "mary-wollstonecraft",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Marie Wollstonecraft",
+    "correctName": "Mary Wollstonecraft"
+  },
+  {
+    "slug": "mary-wollstonecraft",
+    "locale": "hi",
+    "category": "C",
+    "localName": "मैरी वोलस्टोनक्राफ्ट",
+    "correctName": "मैरी वोलस्टोनक्राफ़्ट"
+  },
+  {
+    "slug": "lucretia-mott",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Lucrèce Mott",
+    "correctName": "Lucretia Mott"
+  },
+  {
+    "slug": "lucretia-mott",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ルクレティア・モット",
+    "correctName": "ルクレシア・モット"
+  },
+  {
+    "slug": "lucretia-mott",
+    "locale": "zh",
+    "category": "C",
+    "localName": "卢克蕾蒂亚·莫特",
+    "correctName": "柳克丽霞·莫特"
+  },
+  {
+    "slug": "vasco-da-gama",
+    "locale": "de",
+    "category": "C",
+    "localName": "Vasco Da Gama",
+    "correctName": "Vasco da Gama"
+  },
+  {
+    "slug": "vasco-da-gama",
+    "locale": "es",
+    "category": "C",
+    "localName": "Vasco Da Gama",
+    "correctName": "Vasco da Gama"
+  },
+  {
+    "slug": "vasco-da-gama",
+    "locale": "hi",
+    "category": "C",
+    "localName": "वास्को डी गामा",
+    "correctName": "वास्को द गामा"
+  },
+  {
+    "slug": "vasco-da-gama",
+    "locale": "it",
+    "category": "C",
+    "localName": "Vasco Da Gama",
+    "correctName": "Vasco da Gama"
+  },
+  {
+    "slug": "ferdinand-magellan",
+    "locale": "hi",
+    "category": "C",
+    "localName": "फर्डिनेंड मैगेलन",
+    "correctName": "फ़र्दिनान्द मैगलन"
+  },
+  {
+    "slug": "cornelius-vanderbilt",
+    "locale": "ar",
+    "category": "C",
+    "localName": "كورنيليوس فاندربيلت",
+    "correctName": "كورنليوس فاندربلت"
+  },
+  {
+    "slug": "zhang-qian",
+    "locale": "ja",
+    "category": "C",
+    "localName": "張騫 (ちょうけん)",
+    "correctName": "張騫"
+  },
+  {
+    "slug": "zheng-he",
+    "locale": "ja",
+    "category": "C",
+    "localName": "鄭和 (テイワ)",
+    "correctName": "鄭和"
+  },
+  {
+    "slug": "pachacuti",
+    "locale": "ar",
+    "category": "C",
+    "localName": "باشا كوتي",
+    "correctName": "باتشاكوتي"
+  },
+  {
+    "slug": "epicurus",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एपिकुरस",
+    "correctName": "एपिकुरुस"
+  },
+  {
+    "slug": "michael-faraday",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Michel Faraday",
+    "correctName": "Michael Faraday"
+  },
+  {
+    "slug": "william-the-conqueror",
+    "locale": "hi",
+    "category": "C",
+    "localName": "विलियम द कॉन्करर",
+    "correctName": "विलियम द कॉङ्करर"
+  },
+  {
+    "slug": "erwin-schrodinger",
+    "locale": "ar",
+    "category": "C",
+    "localName": "إرفين شرودنجر",
+    "correctName": "إرفين شرودنغر"
+  },
+  {
+    "slug": "erwin-schrodinger",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एर्विन श्रोडिंगर",
+    "correctName": "अर्विन श्रोडिन्गर"
+  },
+  {
+    "slug": "giuseppe-garibaldi",
+    "locale": "hi",
+    "category": "C",
+    "localName": "ग्यूसेप गैरीबाल्डी",
+    "correctName": "जुज़ॅप्पे गारिबाल्दि"
+  },
+  {
+    "slug": "moctezuma-ii",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Mộctezuma II",
+    "correctName": "Moctezuma II"
+  },
+  {
+    "slug": "tran-hung-dao",
+    "locale": "ar",
+    "category": "C",
+    "localName": "تران هونغ داو",
+    "correctName": "تران هونج داوو"
+  },
+  {
+    "slug": "zenobia",
+    "locale": "hi",
+    "category": "C",
+    "localName": "ज़ेनोबिया",
+    "correctName": "जेनोबिया"
+  },
+  {
+    "slug": "hatshepsut",
+    "locale": "ar",
+    "category": "C",
+    "localName": "حتبسوت",
+    "correctName": "حتشبسوت"
+  },
+  {
+    "slug": "heraclitus",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हेराक्लिटस",
+    "correctName": "हेरक्लिटस"
+  },
+  {
+    "slug": "ramesses-ii",
+    "locale": "hi",
+    "category": "C",
+    "localName": "रामसेस द्वितीय",
+    "correctName": "रामेसेस द्वितीय"
+  },
+  {
+    "slug": "james-hutton",
+    "locale": "ar",
+    "category": "C",
+    "localName": "جيمس هاتون",
+    "correctName": "جيمس هوتون"
+  },
+  {
+    "slug": "james-hutton",
+    "locale": "ko",
+    "category": "C",
+    "localName": "제임스 허튼",
+    "correctName": "제임스 허턴"
+  },
+  {
+    "slug": "queen-elizabeth-i",
+    "locale": "hi",
+    "category": "C",
+    "localName": "महारानी एलिजाबेथ प्रथम",
+    "correctName": "एलिज़ाबेथ प्रथम"
+  },
+  {
+    "slug": "dorothea-dix",
+    "locale": "ar",
+    "category": "C",
+    "localName": "دورثيا ديكس",
+    "correctName": "دوروثيا ديكس"
+  },
+  {
+    "slug": "dorothea-dix",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Dorothée Dix",
+    "correctName": "Dorothea Dix"
+  },
+  {
+    "slug": "frederick-the-great",
+    "locale": "hi",
+    "category": "C",
+    "localName": "फ्रेडरिक महान",
+    "correctName": "फ्रेडरिक महान्"
+  },
+  {
+    "slug": "ida-b-wells",
+    "locale": "ar",
+    "category": "C",
+    "localName": "آيدا بي. ويلز",
+    "correctName": "إيدا ويلز"
+  },
+  {
+    "slug": "ida-b-wells",
+    "locale": "hi",
+    "category": "C",
+    "localName": "आइडा बी. वेल्स",
+    "correctName": "इडा बी. वेल्स"
+  },
+  {
+    "slug": "ida-b-wells",
+    "locale": "ko",
+    "category": "C",
+    "localName": "아이다 B. 웰스",
+    "correctName": "아이다 벨 웰스"
+  },
+  {
+    "slug": "gottfried-leibniz",
+    "locale": "hi",
+    "category": "C",
+    "localName": "गॉटफ्रीड लाइबनिज",
+    "correctName": "गॉटफ्रीड लाइब्निज़"
+  },
+  {
+    "slug": "meister-eckhart",
+    "locale": "ar",
+    "category": "C",
+    "localName": "مايستر إكهارت",
+    "correctName": "ميستر إكهرت"
+  },
+  {
+    "slug": "meister-eckhart",
+    "locale": "zh",
+    "category": "C",
+    "localName": "迈斯特·埃克哈特",
+    "correctName": "埃克哈特大师"
+  },
+  {
+    "slug": "vitus-bering",
+    "locale": "ar",
+    "category": "C",
+    "localName": "فيتوس بيرينغ",
+    "correctName": "فيتوس بيرنغ"
+  },
+  {
+    "slug": "bartolomeu-dias",
+    "locale": "hi",
+    "category": "C",
+    "localName": "बार्टोलोमियू डियास",
+    "correctName": "बारटोलोमीयु डियास"
+  },
+  {
+    "slug": "edward-jenner",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Édouard Jenner",
+    "correctName": "Edward Jenner"
+  },
+  {
+    "slug": "edward-jenner",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एडवर्ड जेनर",
+    "correctName": "एडवार्ड जेनर"
+  },
+  {
+    "slug": "emily-dickinson",
+    "locale": "ar",
+    "category": "C",
+    "localName": "إميلي ديكنسون",
+    "correctName": "إيميلي ديكنسون"
+  },
+  {
+    "slug": "emily-dickinson",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Émilie Dickinson",
+    "correctName": "Emily Dickinson"
+  },
+  {
+    "slug": "francisco-de-goya",
+    "locale": "ar",
+    "category": "C",
+    "localName": "فرانسيسكو دي غويا",
+    "correctName": "فرانثيسكو غويا"
+  },
+  {
+    "slug": "francisco-de-goya",
+    "locale": "de",
+    "category": "C",
+    "localName": "Francisco De Goya",
+    "correctName": "Francisco de Goya"
+  },
+  {
+    "slug": "francisco-de-goya",
+    "locale": "es",
+    "category": "C",
+    "localName": "Francisco De Goya",
+    "correctName": "Francisco de Goya"
+  },
+  {
+    "slug": "francisco-de-goya",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Francisco De Goya",
+    "correctName": "Francisco de Goya"
+  },
+  {
+    "slug": "francisco-de-goya",
+    "locale": "hi",
+    "category": "C",
+    "localName": "फ्रांसिस्को डे गोया",
+    "correctName": "फ्रांसिस्को डि गोया"
+  },
+  {
+    "slug": "francisco-de-goya",
+    "locale": "it",
+    "category": "C",
+    "localName": "Francisco De Goya",
+    "correctName": "Francisco Goya"
+  },
+  {
+    "slug": "francisco-de-goya",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Francisco De Goya",
+    "correctName": "Francisco de Goya"
+  },
+  {
+    "slug": "george-eliot",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Georges Eliot",
+    "correctName": "George Eliot"
+  },
+  {
+    "slug": "george-eliot",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जॉर्ज एलियट",
+    "correctName": "जॉर्ज इलियट"
+  },
+  {
+    "slug": "henry-hudson",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Henri Hudson",
+    "correctName": "Henry Hudson"
+  },
+  {
+    "slug": "olympe-de-gouges",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أوليمب دي غوج",
+    "correctName": "أوليمب دو غوج"
+  },
+  {
+    "slug": "olympe-de-gouges",
+    "locale": "de",
+    "category": "C",
+    "localName": "Olympe De Gouges",
+    "correctName": "Olympe de Gouges"
+  },
+  {
+    "slug": "olympe-de-gouges",
+    "locale": "es",
+    "category": "C",
+    "localName": "Olympe De Gouges",
+    "correctName": "Olympe de Gouges"
+  },
+  {
+    "slug": "olympe-de-gouges",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Olympe De Gouges",
+    "correctName": "Olympe de Gouges"
+  },
+  {
+    "slug": "olympe-de-gouges",
+    "locale": "it",
+    "category": "C",
+    "localName": "Olympe De Gouges",
+    "correctName": "Olympe de Gouges"
+  },
+  {
+    "slug": "olympe-de-gouges",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Olympe De Gouges",
+    "correctName": "Olympe de Gouges"
+  },
+  {
+    "slug": "plotinus",
+    "locale": "ar",
+    "category": "C",
+    "localName": "بلوتينوس",
+    "correctName": "أفلوطين"
+  },
+  {
+    "slug": "roald-amundsen",
+    "locale": "hi",
+    "category": "C",
+    "localName": "रोआल्ड अमुंडसेन",
+    "correctName": "रुआल आमुन्सन"
+  },
+  {
+    "slug": "roald-amundsen",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ロアル・アムンセン",
+    "correctName": "ロアール・アムンセン"
+  },
+  {
+    "slug": "henrik-ibsen",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हेनरिक इबसेन",
+    "correctName": "हेनरिक इबसन"
+  },
+  {
+    "slug": "eleanor-of-aquitaine",
+    "locale": "ar",
+    "category": "C",
+    "localName": "إليانور الأكيتانية",
+    "correctName": "إليانور آكيتاين"
+  },
+  {
+    "slug": "sundiata-keita",
+    "locale": "ar",
+    "category": "C",
+    "localName": "سونجاتا كييتا",
+    "correctName": "سوندياتا كيتا"
+  },
+  {
+    "slug": "sundiata-keita",
+    "locale": "hi",
+    "category": "C",
+    "localName": "सुंदियाता कीटा",
+    "correctName": "सुनडिआटा का महाकाव्य"
+  },
+  {
+    "slug": "boudicca",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Буддика",
+    "correctName": "Боудикка"
+  },
+  {
+    "slug": "ching-shih",
+    "locale": "ar",
+    "category": "C",
+    "localName": "تشينغ شي",
+    "correctName": "تشينغ شيه"
+  },
+  {
+    "slug": "ching-shih",
+    "locale": "ja",
+    "category": "C",
+    "localName": "清朝（チンシー）",
+    "correctName": "鄭一嫂"
+  },
+  {
+    "slug": "askia-the-great",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أسكيا الكبير",
+    "correctName": "أسكيا محمد"
+  },
+  {
+    "slug": "askia-the-great",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Askia le Grand",
+    "correctName": "Askia Mohammed"
+  },
+  {
+    "slug": "askia-the-great",
+    "locale": "zh",
+    "category": "C",
+    "localName": "阿斯基亚大帝",
+    "correctName": "阿斯基亚·穆罕默德一世"
+  },
+  {
+    "slug": "al-biruni",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अल-बिरूनी",
+    "correctName": "अल बेरुनी"
+  },
+  {
+    "slug": "al-biruni",
+    "locale": "ja",
+    "category": "C",
+    "localName": "アル＝ビールーニー",
+    "correctName": "ビールーニー"
+  },
+  {
+    "slug": "william-harvey",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ウィリアム・ハーベー",
+    "correctName": "ウイリアム・ハーベー"
+  },
+  {
+    "slug": "joseph-priestley",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जोसेफ प्रीस्टली",
+    "correctName": "जोज़ेफ़ प्रीस्टलि"
+  },
+  {
+    "slug": "carl-linnaeus",
+    "locale": "hi",
+    "category": "C",
+    "localName": "कार्ल लिनिअस",
+    "correctName": "कार्ल लीनियस"
+  },
+  {
+    "slug": "emmy-noether",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एमी नोदर",
+    "correctName": "एमी नोटर"
+  },
+  {
+    "slug": "tycho-brahe",
+    "locale": "hi",
+    "category": "C",
+    "localName": "टायको ब्राहे",
+    "correctName": "टैको ब्राहे"
+  },
+  {
+    "slug": "alfred-russel-wallace",
+    "locale": "zh",
+    "category": "C",
+    "localName": "阿尔弗雷德·罗素·华莱士",
+    "correctName": "阿尔弗雷德·拉塞尔·华莱士"
+  },
+  {
+    "slug": "al-farabi",
+    "locale": "zh",
+    "category": "C",
+    "localName": "阿尔法拉比",
+    "correctName": "法拉比"
+  },
+  {
+    "slug": "thomas-more",
+    "locale": "hi",
+    "category": "C",
+    "localName": "थॉमस मोर",
+    "correctName": "टामस मोर"
+  },
+  {
+    "slug": "antonio-gramsci",
+    "locale": "hi",
+    "category": "C",
+    "localName": "एंटोनियो ग्राम्शी",
+    "correctName": "अंतोनियो ग्राम्शी"
+  },
+  {
+    "slug": "rosa-luxemburg",
+    "locale": "hi",
+    "category": "C",
+    "localName": "रोजा लक्समबर्ग",
+    "correctName": "रोज़ा लुक्सेम्बुर्ग"
+  },
+  {
+    "slug": "rosa-luxemburg",
+    "locale": "sw",
+    "category": "C",
+    "localName": "Rosa Luxembourg",
+    "correctName": "Rosa Luxemburg"
+  },
+  {
+    "slug": "rosa-luxemburg",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Rosa Luxembourg",
+    "correctName": "Rosa Luxemburg"
+  },
+  {
+    "slug": "george-santayana",
+    "locale": "ar",
+    "category": "C",
+    "localName": "جورج سانتایانا",
+    "correctName": "خورخي سانتايانا"
+  },
+  {
+    "slug": "george-santayana",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Georges Santayana",
+    "correctName": "George Santayana"
+  },
+  {
+    "slug": "george-santayana",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जॉर्ज संतायना",
+    "correctName": "जॉर्ज संतायाना"
+  },
+  {
+    "slug": "henri-bergson",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हेनरी बर्गसन",
+    "correctName": "आन्रि बर्गसां"
+  },
+  {
+    "slug": "william-of-ockham",
+    "locale": "ar",
+    "category": "C",
+    "localName": "ويليام الأوكامي",
+    "correctName": "وليم الأوكامي"
+  },
+  {
+    "slug": "william-of-ockham",
+    "locale": "hi",
+    "category": "C",
+    "localName": "विलियम ऑफ ओखम",
+    "correctName": "ओकम के विलियम"
+  },
+  {
+    "slug": "ernst-mach",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अर्न्स्ट माख",
+    "correctName": "अर्न्स्ट माक"
+  },
+  {
+    "slug": "william-tyndale",
+    "locale": "hi",
+    "category": "C",
+    "localName": "विलियम टिंडेल",
+    "correctName": "विलियम टिन्डेल"
+  },
+  {
+    "slug": "chaucer",
+    "locale": "hi",
+    "category": "C",
+    "localName": "جoffrey Chaucer",
+    "correctName": "जेफ्री चासर"
+  },
+  {
+    "slug": "jonathan-swift",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जोनाथन स्विफ़्ट",
+    "correctName": "जोनाथन स्विफ्ट"
+  },
+  {
+    "slug": "george-sand",
+    "locale": "ko",
+    "category": "C",
+    "localName": "조르주 상",
+    "correctName": "조르주 상드"
+  },
+  {
+    "slug": "george-sand",
+    "locale": "zh",
+    "category": "C",
+    "localName": "乔治·桑德",
+    "correctName": "乔治·桑"
+  },
+  {
+    "slug": "paul-cezanne",
+    "locale": "hi",
+    "category": "C",
+    "localName": "পল সেজান",
+    "correctName": "पाल सेजान"
+  },
+  {
+    "slug": "auguste-rodin",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أوغست رودان",
+    "correctName": "أوغوست رودان"
+  },
+  {
+    "slug": "auguste-rodin",
+    "locale": "hi",
+    "category": "C",
+    "localName": "ऑगस्टे रोडिन",
+    "correctName": "अगस्टे रोडिन"
+  },
+  {
+    "slug": "virginia-woolf",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Virginie Woolf",
+    "correctName": "Virginia Woolf"
+  },
+  {
+    "slug": "virginia-woolf",
+    "locale": "hi",
+    "category": "C",
+    "localName": "वर्جينिया वूल्फ",
+    "correctName": "वर्जिनिया वुल्फ़"
+  },
+  {
+    "slug": "franz-kafka",
+    "locale": "hi",
+    "category": "C",
+    "localName": "फ्रांत्स काफ्का",
+    "correctName": "फ्रैंज काफ्का"
+  },
+  {
+    "slug": "paul-gauguin",
+    "locale": "hi",
+    "category": "C",
+    "localName": "पॉल गोगिन",
+    "correctName": "पॉल गौगुइन"
+  },
+  {
+    "slug": "hans-christian-andersen",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हंस क्रिश्चियन एंडरसन",
+    "correctName": "हैंस क्रिश्चियन एंडर्सन"
+  },
+  {
+    "slug": "hans-christian-andersen",
+    "locale": "id",
+    "category": "C",
+    "localName": "Hans Christian Anderson",
+    "correctName": "Hans Christian Andersen"
+  },
+  {
+    "slug": "rudyard-kipling",
+    "locale": "hi",
+    "category": "C",
+    "localName": "रूडयार्ड किपलिंग",
+    "correctName": "रुडयार्ड किपलिंग"
+  },
+  {
+    "slug": "dorothea-lange",
+    "locale": "ar",
+    "category": "C",
+    "localName": "دورثيا لانج",
+    "correctName": "دوروثي لانج"
+  },
+  {
+    "slug": "dorothea-lange",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Dorothée Lange",
+    "correctName": "Dorothea Lange"
+  },
+  {
+    "slug": "dorothea-lange",
+    "locale": "ko",
+    "category": "C",
+    "localName": "도로시어 랭",
+    "correctName": "도로시아 랭"
+  },
+  {
+    "slug": "maria-montessori",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Marie Montessori",
+    "correctName": "Maria Montessori"
+  },
+  {
+    "slug": "maria-montessori",
+    "locale": "hi",
+    "category": "C",
+    "localName": "मारिया मोंटेसरी",
+    "correctName": "मारिया मांटेसरी"
+  },
+  {
+    "slug": "william-lloyd-garrison",
+    "locale": "ar",
+    "category": "C",
+    "localName": "وليام لويد غاريسون",
+    "correctName": "وليم لويد غاريسون"
+  },
+  {
+    "slug": "albert-schweitzer",
+    "locale": "ar",
+    "category": "C",
+    "localName": "ألبرت شفايتسر",
+    "correctName": "ألبرت شفايتزر"
+  },
+  {
+    "slug": "pandita-ramabai",
+    "locale": "fa",
+    "category": "C",
+    "localName": "پاندیتا رامابای",
+    "correctName": "پاندیتا رمابای"
+  },
+  {
+    "slug": "pandita-ramabai",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Révérend Ramabai",
+    "correctName": "Ramabai Medhavi"
+  },
+  {
+    "slug": "pandita-ramabai",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Rev. Ramabai",
+    "correctName": "Pandita Ramabai"
+  },
+  {
+    "slug": "david-livingstone",
+    "locale": "fr",
+    "category": "C",
+    "localName": "David Livingston",
+    "correctName": "David Livingstone"
+  },
+  {
+    "slug": "alfred-nobel",
+    "locale": "el",
+    "category": "C",
+    "localName": "Άλμπερτ Νομπέλ",
+    "correctName": "Άλφρεντ Νομπέλ"
+  },
+  {
+    "slug": "pierre-de-coubertin",
+    "locale": "hi",
+    "category": "C",
+    "localName": "पियरे डी कूपर्टिन",
+    "correctName": "पियरे डे कोबेर्टिन"
+  },
+  {
+    "slug": "fridtjof-nansen",
+    "locale": "ar",
+    "category": "C",
+    "localName": "فريدتوف نانسن",
+    "correctName": "فريتيوف نانسين"
+  },
+  {
+    "slug": "fridtjof-nansen",
+    "locale": "hi",
+    "category": "C",
+    "localName": "फ्रिड्ट्योफ नान्सेन",
+    "correctName": "फ्रिडचॉफ नानसेन"
+  },
+  {
+    "slug": "elisha-otis",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Élisée Otis",
+    "correctName": "Elisha Otis"
+  },
+  {
+    "slug": "jang-yeong-sil",
+    "locale": "ja",
+    "category": "C",
+    "localName": "チャン・ヨンシル",
+    "correctName": "蔣英実"
+  },
+  {
+    "slug": "yun-dong-ju",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Юн Дон-джу",
+    "correctName": "Юн Дончжу"
+  },
+  {
+    "slug": "yun-dong-ju",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Yun Dong Ju",
+    "correctName": "Yun Dong-ju"
+  },
+  {
+    "slug": "sophocles",
+    "locale": "hi",
+    "category": "C",
+    "localName": "सोफोकल्स",
+    "correctName": "सोफोक्लेस"
+  },
+  {
+    "slug": "gungunhana",
+    "locale": "es",
+    "category": "C",
+    "localName": "Gungunhana",
+    "correctName": "Ngungunhane"
+  },
+  {
+    "slug": "nana-asmau",
+    "locale": "es",
+    "category": "C",
+    "localName": "Nana Asma'u",
+    "correctName": "Nana Asma’u"
+  },
+  {
+    "slug": "nana-asmau",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Nana Asma'u",
+    "correctName": "Nana Asma’u"
+  },
+  {
+    "slug": "nana-asmau",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Nana Asma'u",
+    "correctName": "Nana Asmaʼu"
+  },
+  {
+    "slug": "nefertiti",
+    "locale": "hi",
+    "category": "C",
+    "localName": "नेफ़रतिती",
+    "correctName": "नफ़र्तीती"
+  },
+  {
+    "slug": "gebre-mesqel-lalibela",
+    "locale": "ar",
+    "category": "C",
+    "localName": "جبره مسكل لاليبلا",
+    "correctName": "جيبري مسقيل لاليبيلا"
+  },
+  {
+    "slug": "gebre-mesqel-lalibela",
+    "locale": "de",
+    "category": "C",
+    "localName": "Gebre Mesqel Lalibela",
+    "correctName": "Gebra Maskal Lalibela"
+  },
+  {
+    "slug": "muhammad-ahmad",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Muhammad Ahmed",
+    "correctName": "Muhammad Ahmad"
+  },
+  {
+    "slug": "muhammad-ahmad",
+    "locale": "ko",
+    "category": "C",
+    "localName": "무함마드 아흐마드",
+    "correctName": "무함마드 아마드"
+  },
+  {
+    "slug": "saad-zaghloul",
+    "locale": "hi",
+    "category": "C",
+    "localName": "साद ज़गलुल",
+    "correctName": "साद जगलुल"
+  },
+  {
+    "slug": "samori-toure",
+    "locale": "it",
+    "category": "C",
+    "localName": "Samori Touré",
+    "correctName": "Samori Toure"
+  },
+  {
+    "slug": "sayyid-mohammed-abdullah-hassan",
+    "locale": "ar",
+    "category": "C",
+    "localName": "السيد محمد عبد الله حسن",
+    "correctName": "محمد بن عبد الله حسن"
+  },
+  {
+    "slug": "sayyid-mohammed-abdullah-hassan",
+    "locale": "de",
+    "category": "C",
+    "localName": "Sayyid Mohammed Abdullah Hassan",
+    "correctName": "Mohammed Abdullah Hassan"
+  },
+  {
+    "slug": "sayyid-mohammed-abdullah-hassan",
+    "locale": "es",
+    "category": "C",
+    "localName": "Sayyid Mohammed Abdullah Hassan",
+    "correctName": "Mohamed Abdulá Hassan"
+  },
+  {
+    "slug": "sayyid-mohammed-abdullah-hassan",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Sayyid Mohammed Abdallah Hassan",
+    "correctName": "Mohammed Abdullah Hassan"
+  },
+  {
+    "slug": "sayyid-mohammed-abdullah-hassan",
+    "locale": "it",
+    "category": "C",
+    "localName": "Sayyid Mohammed Abdullah Hassan",
+    "correctName": "Mohammed Abdullah Hassan"
+  },
+  {
+    "slug": "sayyid-mohammed-abdullah-hassan",
+    "locale": "ko",
+    "category": "C",
+    "localName": "사이드 모하메드 압둘라 하산",
+    "correctName": "모하메드 압둘라 하산"
+  },
+  {
+    "slug": "sayyid-mohammed-abdullah-hassan",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Саид Мохаммед Абдулла Хасан",
+    "correctName": "Саид Мохаммед Абдилле Хасан"
+  },
+  {
+    "slug": "amanirenas",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Amanirénas",
+    "correctName": "Amanirenas"
+  },
+  {
+    "slug": "ezana-of-axum",
+    "locale": "ar",
+    "category": "C",
+    "localName": "عيزانا ملك أكسوم",
+    "correctName": "عيزانا"
+  },
+  {
+    "slug": "ezana-of-axum",
+    "locale": "de",
+    "category": "C",
+    "localName": "Ezana von Aksum",
+    "correctName": "Ezana"
+  },
+  {
+    "slug": "ezana-of-axum",
+    "locale": "es",
+    "category": "C",
+    "localName": "Ezana de Aksum",
+    "correctName": "Ezana"
+  },
+  {
+    "slug": "ezana-of-axum",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Ezana d'Axoum",
+    "correctName": "Ezana"
+  },
+  {
+    "slug": "ezana-of-axum",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Ezana de Axum",
+    "correctName": "Ezana"
+  },
+  {
+    "slug": "ezana-of-axum",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Эзана из Аксума",
+    "correctName": "Эзана"
+  },
+  {
+    "slug": "anton-wilhelm-amo",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أنطون فيلهلم آمو",
+    "correctName": "أنطون ويلهلم أمو"
+  },
+  {
+    "slug": "athanasius-of-alexandria",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أثناسيوس الإسكندري",
+    "correctName": "أثناسيوس الأول"
+  },
+  {
+    "slug": "abd-al-rahman-al-jabarti",
+    "locale": "de",
+    "category": "C",
+    "localName": "Abd al-Rahman al-Jabarti",
+    "correctName": "Abd ar-Rahman al-Dschabarti"
+  },
+  {
+    "slug": "abd-al-rahman-al-jabarti",
+    "locale": "it",
+    "category": "C",
+    "localName": "Abd al-Rahman al-Jabarti",
+    "correctName": "Al-Jabarti"
+  },
+  {
+    "slug": "abd-al-rahman-al-jabarti",
+    "locale": "ja",
+    "category": "C",
+    "localName": "アブド・アッラフマーン・アル＝ジャバルティー",
+    "correctName": "アル・ジャバルティー"
+  },
+  {
+    "slug": "abd-al-mumin",
+    "locale": "ja",
+    "category": "C",
+    "localName": "アブド・アル＝ムウミン",
+    "correctName": "アブドゥルムウミン"
+  },
+  {
+    "slug": "abdelkader-el-djezairi",
+    "locale": "de",
+    "category": "C",
+    "localName": "Abd al-Qadir al-Dschazairi",
+    "correctName": "Abd el-Kader"
+  },
+  {
+    "slug": "abdelkader-el-djezairi",
+    "locale": "ja",
+    "category": "C",
+    "localName": "アブド・アルカーディル・アル＝ジャザーイリー",
+    "correctName": "アブド・アルカーディル"
+  },
+  {
+    "slug": "abdelkader-el-djezairi",
+    "locale": "ko",
+    "category": "C",
+    "localName": "압드 알카디르 알자자이리",
+    "correctName": "아브델카데르 태수"
+  },
+  {
+    "slug": "yaa-asantewaa",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Ya Asantewaa",
+    "correctName": "Yaa Asantewaa"
+  },
+  {
+    "slug": "yaa-asantewaa",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ヤー・アサンテワ",
+    "correctName": "ヤァ・アサンテワァ"
+  },
+  {
+    "slug": "yaa-asantewaa",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Яаа Асантеваа",
+    "correctName": "Яаа Асантева"
+  },
+  {
+    "slug": "yaa-asantewaa",
+    "locale": "vi",
+    "category": "C",
+    "localName": "O Asantewaa",
+    "correctName": "Yaa Asantewaa"
+  },
+  {
+    "slug": "origen-of-alexandria",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أوريجانوس السكندري",
+    "correctName": "أوريجانوس"
+  },
+  {
+    "slug": "origen-of-alexandria",
+    "locale": "de",
+    "category": "C",
+    "localName": "Origenes von Alexandria",
+    "correctName": "Origenes"
+  },
+  {
+    "slug": "origen-of-alexandria",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अलेक्जेंड्रिया का ओरिजेन",
+    "correctName": "ओरीगेन"
+  },
+  {
+    "slug": "origen-of-alexandria",
+    "locale": "ja",
+    "category": "C",
+    "localName": "アレクサンドリアのオリゲネス",
+    "correctName": "オリゲネス"
+  },
+  {
+    "slug": "usman-dan-fodio",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Усман дан Фодио",
+    "correctName": "Осман дан Фодио"
+  },
+  {
+    "slug": "nzinga-of-ndongo-and-matamba",
+    "locale": "ar",
+    "category": "C",
+    "localName": "نزينغا من ندونغو وماتامبا",
+    "correctName": "آنا دي سوزا"
+  },
+  {
+    "slug": "nzinga-of-ndongo-and-matamba",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Nzinga de Ndongo et Matamba",
+    "correctName": "Njinga du Ndongo et du Matamba"
+  },
+  {
+    "slug": "nzinga-of-ndongo-and-matamba",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Nzinga de Ndongo e Matamba",
+    "correctName": "Mwene Nzinga Mbandi"
+  },
+  {
+    "slug": "nzinga-of-ndongo-and-matamba",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Нзинга из Ндонго и Матамбы",
+    "correctName": "Нзинга Мбанди Нгола"
+  },
+  {
+    "slug": "idris-alooma",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Idris Alooma",
+    "correctName": "Idrīs Alaoma"
+  },
+  {
+    "slug": "idris-alooma",
+    "locale": "ja",
+    "category": "C",
+    "localName": "イドリス・アルーマ",
+    "correctName": "イドリス・アローマ"
+  },
+  {
+    "slug": "idris-alooma",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Идрис Алума",
+    "correctName": "Идрис Алаома"
+  },
+  {
+    "slug": "amina-of-zazzau",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أمينة من زازاو",
+    "correctName": "الملكة أمينة"
+  },
+  {
+    "slug": "amina-of-zazzau",
+    "locale": "es",
+    "category": "C",
+    "localName": "Amina de Zazzau",
+    "correctName": "Amina de Zaria"
+  },
+  {
+    "slug": "amina-of-zazzau",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Amina de Zazzau",
+    "correctName": "Amina de Zaria"
+  },
+  {
+    "slug": "amina-of-zazzau",
+    "locale": "hi",
+    "category": "C",
+    "localName": "ज़ज़्ज़ाउ की अमीना",
+    "correctName": "अमीना"
+  },
+  {
+    "slug": "amina-of-zazzau",
+    "locale": "it",
+    "category": "C",
+    "localName": "Amina di Zazzau",
+    "correctName": "Amina di Zaria"
+  },
+  {
+    "slug": "amina-of-zazzau",
+    "locale": "vi",
+    "category": "C",
+    "localName": "Amina xứ Zazzau",
+    "correctName": "Amina"
+  },
+  {
+    "slug": "zera-yacob",
+    "locale": "ar",
+    "category": "C",
+    "localName": "زيرا يعقوب",
+    "correctName": "زرع يعقوب"
+  },
+  {
+    "slug": "zera-yacob",
+    "locale": "de",
+    "category": "C",
+    "localName": "Zera Yacob",
+    "correctName": "Zara Yaqob"
+  },
+  {
+    "slug": "zera-yacob",
+    "locale": "id",
+    "category": "C",
+    "localName": "Zera Yacob",
+    "correctName": "Zara Yaqob"
+  },
+  {
+    "slug": "zera-yacob",
+    "locale": "pl",
+    "category": "C",
+    "localName": "Zera Jakub",
+    "correctName": "Zara Jaykob Konstantyn"
+  },
+  {
+    "slug": "cetshwayo-kampande",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Кетчвайо каМпанде",
+    "correctName": "Кетчвайо"
+  },
+  {
+    "slug": "cleopatra-vii",
+    "locale": "hi",
+    "category": "C",
+    "localName": "क्लियोपेट्रा सप्तम",
+    "correctName": "क्लियोपाट्रा ७"
+  },
+  {
+    "slug": "tariq-ibn-ziyad",
+    "locale": "hi",
+    "category": "C",
+    "localName": "तारिक़ इब्न ज़ियाद",
+    "correctName": "तारिक इब्न ज़ियाद"
+  },
+  {
+    "slug": "taytu-betul",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Taytu Betul",
+    "correctName": "Taitu Bitul"
+  },
+  {
+    "slug": "taytu-betul",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Тайту Бетул",
+    "correctName": "Таиту Бетул"
+  },
+  {
+    "slug": "abubakar-tafawa-balewa",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أبو بكر تافاوا باليوا",
+    "correctName": "أبو بكر تفاوى باعليوه"
+  },
+  {
+    "slug": "abubakar-tafawa-balewa",
+    "locale": "ko",
+    "category": "C",
+    "localName": "타파와 발레와",
+    "correctName": "아부바카르 타파와 발레와"
+  },
+  {
+    "slug": "taharqa",
+    "locale": "ar",
+    "category": "C",
+    "localName": "تهارقا",
+    "correctName": "طهارقة"
+  },
+  {
+    "slug": "tutankhamun",
+    "locale": "hi",
+    "category": "C",
+    "localName": "तूतनखामेन",
+    "correctName": "तुथंखमुन"
+  },
+  {
+    "slug": "prempeh-i",
+    "locale": "es",
+    "category": "C",
+    "localName": "Prempeh I",
+    "correctName": "Prempeh"
+  },
+  {
+    "slug": "piye",
+    "locale": "de",
+    "category": "C",
+    "localName": "Piye",
+    "correctName": "Pije"
+  },
+  {
+    "slug": "herbert-macaulay",
+    "locale": "ar",
+    "category": "C",
+    "localName": "هربرت ماكولي",
+    "correctName": "هربرت ماكولاي"
+  },
+  {
+    "slug": "huda-shaarawi",
+    "locale": "it",
+    "category": "C",
+    "localName": "Huda Sha'arawi",
+    "correctName": "Hoda Sha'rawi"
+  },
+  {
+    "slug": "huda-shaarawi",
+    "locale": "ja",
+    "category": "C",
+    "localName": "フーダ・シャアラーウィ",
+    "correctName": "フダー・シャアラーウィー"
+  },
+  {
+    "slug": "huda-shaarawi",
+    "locale": "ko",
+    "category": "C",
+    "localName": "후다 샤라위",
+    "correctName": "후다 샤아라위"
+  },
+  {
+    "slug": "augustine-of-hippo",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أوغسطينوس من هيبو",
+    "correctName": "أوغسطينوس"
+  },
+  {
+    "slug": "augustine-of-hippo",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हिप्पो के ऑगस्टिन",
+    "correctName": "हिप्पो का ऍगस्टीन"
+  },
+  {
+    "slug": "j-e-casely-hayford",
+    "locale": "fr",
+    "category": "C",
+    "localName": "J.E. Casely Hayford",
+    "correctName": "J. E. Casely Hayford"
+  },
+  {
+    "slug": "w-e-b-du-bois",
+    "locale": "ar",
+    "category": "C",
+    "localName": "دو بويز",
+    "correctName": "دي بوا"
+  },
+  {
+    "slug": "george-gemistos-plethon",
+    "locale": "ar",
+    "category": "C",
+    "localName": "جورجيوس جيمستوس بليثون",
+    "correctName": "جيمستوس بليثو"
+  },
+  {
+    "slug": "george-gemistos-plethon",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Jorge Gemisto Pletão",
+    "correctName": "Gemisto Pletão"
+  },
+  {
+    "slug": "nikolai-vavilov",
+    "locale": "ar",
+    "category": "C",
+    "localName": "نيكولاي فافيلوف",
+    "correctName": "نيقولاي فافيلوف"
+  },
+  {
+    "slug": "nikolai-przhevalsky",
+    "locale": "ar",
+    "category": "C",
+    "localName": "نيكولاي برزيفالسكي",
+    "correctName": "نيقولاي برجفالسكي"
+  },
+  {
+    "slug": "nikolai-przhevalsky",
+    "locale": "it",
+    "category": "C",
+    "localName": "Nikolaj Przewalski",
+    "correctName": "Nikolaj Michajlovič Prževal'skij"
+  },
+  {
+    "slug": "danylo-halytskyi",
+    "locale": "ar",
+    "category": "C",
+    "localName": "دانيلو هاليتسكي",
+    "correctName": "دانيال ملك غاليسيا"
+  },
+  {
+    "slug": "danylo-halytskyi",
+    "locale": "de",
+    "category": "C",
+    "localName": "Daniel von Galizien",
+    "correctName": "Daniel Romanowitsch"
+  },
+  {
+    "slug": "danylo-halytskyi",
+    "locale": "it",
+    "category": "C",
+    "localName": "Danylo Halytskyi",
+    "correctName": "Danilo di Galizia"
+  },
+  {
+    "slug": "danylo-halytskyi",
+    "locale": "ko",
+    "category": "C",
+    "localName": "다닐로 할리츠키",
+    "correctName": "다닐로 로마노비치"
+  },
+  {
+    "slug": "david-iv-of-georgia",
+    "locale": "ar",
+    "category": "C",
+    "localName": "ديفيد الرابع ملك جورجيا",
+    "correctName": "ديفيد الرابع"
+  },
+  {
+    "slug": "david-iv-of-georgia",
+    "locale": "hi",
+    "category": "C",
+    "localName": "डेविड चतुर्थ, जॉर्जिया के राजा",
+    "correctName": "दाऊद निर्माता"
+  },
+  {
+    "slug": "rabban-bar-sauma",
+    "locale": "ar",
+    "category": "C",
+    "localName": "ربان بار صوما",
+    "correctName": "رابان صاوما"
+  },
+  {
+    "slug": "lesya-ukrainka",
+    "locale": "ar",
+    "category": "C",
+    "localName": "ليسيا أوكراينكا",
+    "correctName": "ليسيا أوكرينكا"
+  },
+  {
+    "slug": "rudaki",
+    "locale": "es",
+    "category": "C",
+    "localName": "Rūdakí",
+    "correctName": "Rudakí"
+  },
+  {
+    "slug": "rudaki",
+    "locale": "hi",
+    "category": "C",
+    "localName": "रूदाकी",
+    "correctName": "रूदकी"
+  },
+  {
+    "slug": "mahmud-al-kashgari",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Mahmoud al-Kashgari",
+    "correctName": "Mahmoud de Kachgar"
+  },
+  {
+    "slug": "mahmud-al-kashgari",
+    "locale": "hi",
+    "category": "C",
+    "localName": "महमूद अल-काशगरी",
+    "correctName": "महमूद काश्गरी"
+  },
+  {
+    "slug": "mahmud-al-kashgari",
+    "locale": "it",
+    "category": "C",
+    "localName": "Mahmud al-Kashgari",
+    "correctName": "Mahmud di Kashgar"
+  },
+  {
+    "slug": "michael-psellos",
+    "locale": "ar",
+    "category": "C",
+    "localName": "ميخائيل بسيلوس",
+    "correctName": "مايكل بسيلوس"
+  },
+  {
+    "slug": "mykhailo-drahomanov",
+    "locale": "ar",
+    "category": "C",
+    "localName": "ميخايلو دراهومانوف",
+    "correctName": "ميخائيل دراهومانوف"
+  },
+  {
+    "slug": "mykhailo-drahomanov",
+    "locale": "es",
+    "category": "C",
+    "localName": "Mijailo Drahománov",
+    "correctName": "Mijailo Drahomanov"
+  },
+  {
+    "slug": "bohdan-khmelnytsky",
+    "locale": "ar",
+    "category": "C",
+    "localName": "بوهدان خميلنيتسكي",
+    "correctName": "بوهدان خميلينتسكي"
+  },
+  {
+    "slug": "bohdan-khmelnytsky",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Bohdan Khmelnitski",
+    "correctName": "Bogdan Khmelnitski"
+  },
+  {
+    "slug": "bohdan-khmelnytsky",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Bohdan Khmelnytsky",
+    "correctName": "Bohdan Khmelnytskyi"
+  },
+  {
+    "slug": "bumin-qaghan",
+    "locale": "ar",
+    "category": "C",
+    "localName": "بومين خاقان",
+    "correctName": "الخاقان بومين"
+  },
+  {
+    "slug": "bumin-qaghan",
+    "locale": "de",
+    "category": "C",
+    "localName": "Bumin Khagan",
+    "correctName": "Bumın Kagan"
+  },
+  {
+    "slug": "bumin-qaghan",
+    "locale": "es",
+    "category": "C",
+    "localName": "Bumin Qagan",
+    "correctName": "Bumin"
+  },
+  {
+    "slug": "bumin-qaghan",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Bumin Qaghan",
+    "correctName": "Bumin"
+  },
+  {
+    "slug": "bumin-qaghan",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ブミン・カガン",
+    "correctName": "伊利可汗"
+  },
+  {
+    "slug": "bumin-qaghan",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Bumin Cã",
+    "correctName": "Bumim"
+  },
+  {
+    "slug": "vladimir-the-great",
+    "locale": "hi",
+    "category": "C",
+    "localName": "व्लादिमीर महान",
+    "correctName": "व्लादिमीर द ग्रेट"
+  },
+  {
+    "slug": "sergei-korolev",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Sergey Korolev",
+    "correctName": "Sergei Korolev"
+  },
+  {
+    "slug": "semyon-dezhnev",
+    "locale": "ar",
+    "category": "C",
+    "localName": "سيميون ديجنيف",
+    "correctName": "سيمون ديزهنيوف"
+  },
+  {
+    "slug": "semyon-dezhnev",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Sémion Dejnev",
+    "correctName": "Simon Dejnev"
+  },
+  {
+    "slug": "semyon-dezhnev",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Semyon Dezhnev",
+    "correctName": "Semion Dejniov"
+  },
+  {
+    "slug": "shota-rustaveli",
+    "locale": "hi",
+    "category": "C",
+    "localName": "शोता रुस्तवेली",
+    "correctName": "शोथा रुस्थावेली"
+  },
+  {
+    "slug": "abai-qunanbaiuly",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أباي كونانباييف",
+    "correctName": "آباي كونانباييف"
+  },
+  {
+    "slug": "abai-qunanbaiuly",
+    "locale": "de",
+    "category": "C",
+    "localName": "Abai Qunanbaiuly",
+    "correctName": "Abai Qunanbajuly"
+  },
+  {
+    "slug": "abai-qunanbaiuly",
+    "locale": "it",
+    "category": "C",
+    "localName": "Abai Kunanbayuly",
+    "correctName": "Abai Qūnanbaiūly"
+  },
+  {
+    "slug": "abai-qunanbaiuly",
+    "locale": "ko",
+    "category": "C",
+    "localName": "아바이 쿠난바울르",
+    "correctName": "아바이 쿠난바이울리"
+  },
+  {
+    "slug": "avvakum",
+    "locale": "de",
+    "category": "C",
+    "localName": "Awakum",
+    "correctName": "Awwakum"
+  },
+  {
+    "slug": "attila-the-hun",
+    "locale": "de",
+    "category": "C",
+    "localName": "Attila der Hunne",
+    "correctName": "Attila"
+  },
+  {
+    "slug": "attila-the-hun",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Attila da Hun",
+    "correctName": "Attila the Hun"
+  },
+  {
+    "slug": "attila-the-hun",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अत्तिला हूण",
+    "correctName": "अत्तिला"
+  },
+  {
+    "slug": "attila-the-hun",
+    "locale": "it",
+    "category": "C",
+    "localName": "Attila l'Unno",
+    "correctName": "Attila"
+  },
+  {
+    "slug": "ahmad-yasawi",
+    "locale": "de",
+    "category": "C",
+    "localName": "Ahmet Yesevi",
+    "correctName": "Ahmed Yesevi"
+  },
+  {
+    "slug": "ahmad-yasawi",
+    "locale": "es",
+    "category": "C",
+    "localName": "Ahmed Yasawi",
+    "correctName": "Ahmad Yasavi"
+  },
+  {
+    "slug": "andrei-rublev",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أندريه روبليف",
+    "correctName": "أندريه روبليوف"
+  },
+  {
+    "slug": "alexander-pushkin",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अलेक्जेंडर पुश्किन",
+    "correctName": "अलेक्सांद्र पूश्किन"
+  },
+  {
+    "slug": "alisher-navoi",
+    "locale": "es",
+    "category": "C",
+    "localName": "Alisher Navoí",
+    "correctName": "Ali-Shir Nava'i"
+  },
+  {
+    "slug": "alisher-navoi",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अली-शीर नवोई",
+    "correctName": "अलीशेर नवाई"
+  },
+  {
+    "slug": "alisher-navoi",
+    "locale": "it",
+    "category": "C",
+    "localName": "Alisher Navoiy",
+    "correctName": "Ali-Shir Nava'i"
+  },
+  {
+    "slug": "alisher-navoi",
+    "locale": "ja",
+    "category": "C",
+    "localName": "アリシェル・ナヴォイ",
+    "correctName": "ミール・アリー・シール・ナヴァーイー"
+  },
+  {
+    "slug": "muhammad-al-bukhari",
+    "locale": "de",
+    "category": "C",
+    "localName": "Muhammad al-Buchari",
+    "correctName": "Al-Buchārī"
+  },
+  {
+    "slug": "muhammad-al-bukhari",
+    "locale": "hi",
+    "category": "C",
+    "localName": "मुहम्मद अल-बुखारी",
+    "correctName": "मुहम्मद अल-बुख़ारी"
+  },
+  {
+    "slug": "muhammad-al-bukhari",
+    "locale": "it",
+    "category": "C",
+    "localName": "Muhammad al-Bukhari",
+    "correctName": "Bukhari"
+  },
+  {
+    "slug": "muhammad-al-bukhari",
+    "locale": "ko",
+    "category": "C",
+    "localName": "알부카리",
+    "correctName": "무함마드 알부카리"
+  },
+  {
+    "slug": "muhammad-al-bukhari",
+    "locale": "zh",
+    "category": "C",
+    "localName": "穆罕默德·布哈里",
+    "correctName": "穆罕默德·伊本·伊斯梅尔·布哈里"
+  },
+  {
+    "slug": "al-farghani",
+    "locale": "es",
+    "category": "C",
+    "localName": "Al-Fargani",
+    "correctName": "Al-Farghani"
+  },
+  {
+    "slug": "al-farghani",
+    "locale": "ja",
+    "category": "C",
+    "localName": "アル＝ファルガーニー",
+    "correctName": "アルフラガヌス"
+  },
+  {
+    "slug": "yaroslav-the-wise",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ヤロスラフ1世（賢公）",
+    "correctName": "ヤロスラフ1世"
+  },
+  {
+    "slug": "yaroslav-the-wise",
+    "locale": "zh",
+    "category": "C",
+    "localName": "雅罗斯拉夫一世（智者）",
+    "correctName": "智者雅罗斯拉夫"
+  },
+  {
+    "slug": "yermak-timofeyevich",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Iermak Timofeïévitch",
+    "correctName": "Ermak Timofeïévitch"
+  },
+  {
+    "slug": "yermak-timofeyevich",
+    "locale": "hi",
+    "category": "C",
+    "localName": "येरमाक तिमोफेयेविच",
+    "correctName": "यरमक टिमोफ़ेयेविच"
+  },
+  {
+    "slug": "john-chrysostom",
+    "locale": "zh",
+    "category": "C",
+    "localName": "约翰·克里索斯托",
+    "correctName": "聖金口約翰"
+  },
+  {
+    "slug": "ulugh-beg",
+    "locale": "hi",
+    "category": "C",
+    "localName": "उलुग बेग",
+    "correctName": "उलूग बेग"
+  },
+  {
+    "slug": "ivan-mazepa",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Ivan Mazépa",
+    "correctName": "Ivan Mazepa"
+  },
+  {
+    "slug": "ivan-franko",
+    "locale": "ko",
+    "category": "C",
+    "localName": "이반 프랑코",
+    "correctName": "이반 프란코"
+  },
+  {
+    "slug": "ismail-gasprinsky",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Ismaïl Gasprinski",
+    "correctName": "Ismail Gasprinski"
+  },
+  {
+    "slug": "jamshid-al-kashi",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Ghiyath ad-Din Jamshid al-Kashi",
+    "correctName": "Al-Kashi"
+  },
+  {
+    "slug": "jamshid-al-kashi",
+    "locale": "it",
+    "category": "C",
+    "localName": "Ghiyath al-Din Jamshid al-Kashi",
+    "correctName": "Al-Kashi"
+  },
+  {
+    "slug": "jamshid-al-kashi",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ジャムシード・アル＝カーシー",
+    "correctName": "アル＝カーシー"
+  },
+  {
+    "slug": "shoqan-walikhanov",
+    "locale": "ar",
+    "category": "C",
+    "localName": "شوقان واليخانوف",
+    "correctName": "شوقان ولي خانوف"
+  },
+  {
+    "slug": "shoqan-walikhanov",
+    "locale": "de",
+    "category": "C",
+    "localName": "Schokan Walichanow",
+    "correctName": "Schoqan Uälichanuly"
+  },
+  {
+    "slug": "shoqan-walikhanov",
+    "locale": "es",
+    "category": "C",
+    "localName": "Shokán Walijánov",
+    "correctName": "Shoqán Valijánov"
+  },
+  {
+    "slug": "shoqan-walikhanov",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ショカン・ワリハーノフ",
+    "correctName": "チョカン・ワリハーノフ"
+  },
+  {
+    "slug": "shoqan-walikhanov",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Shoqan Walikhanov",
+    "correctName": "Chokan Valikhanov"
+  },
+  {
+    "slug": "constantine-xi-palaiologos",
+    "locale": "ar",
+    "category": "C",
+    "localName": "قسطنطين الحادي عشر باليولوج",
+    "correctName": "قسطنطين الحادي عشر"
+  },
+  {
+    "slug": "kublai-khan",
+    "locale": "hi",
+    "category": "C",
+    "localName": "कुबलाई खान",
+    "correctName": "कुबलई ख़ान"
+  },
+  {
+    "slug": "anne-of-kyiv",
+    "locale": "ko",
+    "category": "C",
+    "localName": "키예프의 안나",
+    "correctName": "안나 야로슬라브나"
+  },
+  {
+    "slug": "tamar-of-georgia",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Thamar de Géorgie",
+    "correctName": "Tamar Ire"
+  },
+  {
+    "slug": "tamar-of-georgia",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Tamar da Geórgia",
+    "correctName": "Tamara da Geórgia"
+  },
+  {
+    "slug": "tamar-of-georgia",
+    "locale": "zh",
+    "category": "C",
+    "localName": "格鲁吉亚的塔玛尔",
+    "correctName": "塔瑪爾"
+  },
+  {
+    "slug": "theophanes-the-greek",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ギリシャのテオファネス",
+    "correctName": "フェオファン・グレク"
+  },
+  {
+    "slug": "tonyukuk",
+    "locale": "ko",
+    "category": "C",
+    "localName": "토뉴쿠크",
+    "correctName": "투뉴쿠크"
+  },
+  {
+    "slug": "timur-tamerlane",
+    "locale": "de",
+    "category": "C",
+    "localName": "Timur (Tamerlan)",
+    "correctName": "Timur"
+  },
+  {
+    "slug": "timur-tamerlane",
+    "locale": "es",
+    "category": "C",
+    "localName": "Timur (Tamerlán)",
+    "correctName": "Tamerlán"
+  },
+  {
+    "slug": "timur-tamerlane",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Timour (Tamerlan)",
+    "correctName": "Tamerlan"
+  },
+  {
+    "slug": "timur-tamerlane",
+    "locale": "hi",
+    "category": "C",
+    "localName": "तैमूर (तामेरलेन)",
+    "correctName": "तैमूरलंग"
+  },
+  {
+    "slug": "timur-tamerlane",
+    "locale": "it",
+    "category": "C",
+    "localName": "Tamerlano (Timur)",
+    "correctName": "Tamerlano"
+  },
+  {
+    "slug": "timur-tamerlane",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ティムール（タメルラン）",
+    "correctName": "ティムール"
+  },
+  {
+    "slug": "timur-tamerlane",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Timur (Tamerlão)",
+    "correctName": "Tamerlão"
+  },
+  {
+    "slug": "timur-tamerlane",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Тимур (Тамерлан)",
+    "correctName": "Тамерлан"
+  },
+  {
+    "slug": "petro-mohyla",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Petro Mohyla",
+    "correctName": "Pierre Movilă"
+  },
+  {
+    "slug": "petro-mohyla",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Petro Mohyla",
+    "correctName": "Pedro Moguila"
+  },
+  {
+    "slug": "petro-mohyla",
+    "locale": "zh",
+    "category": "C",
+    "localName": "佩特罗·莫吉拉",
+    "correctName": "佩卓·莫訶拉"
+  },
+  {
+    "slug": "pyotr-ilyich-tchaikovsky",
+    "locale": "ar",
+    "category": "C",
+    "localName": "بيوتر إليتش تشايكوفسكي",
+    "correctName": "بيتر إليتش تشايكوفسكي"
+  },
+  {
+    "slug": "xuanzang",
+    "locale": "ar",
+    "category": "C",
+    "localName": "شوان زانغ",
+    "correctName": "تشيونتسانغ"
+  },
+  {
+    "slug": "hryhorii-skovoroda",
+    "locale": "es",
+    "category": "C",
+    "localName": "Hryhorii Skovorodá",
+    "correctName": "Grigoriy Skovorodá"
+  },
+  {
+    "slug": "hryhorii-skovoroda",
+    "locale": "hi",
+    "category": "C",
+    "localName": "ह्रिहोरि स्कोवोरोदा",
+    "correctName": "ह्रीहोरी स्कोवोरोडा"
+  },
+  {
+    "slug": "hryhorii-skovoroda",
+    "locale": "ja",
+    "category": "C",
+    "localName": "グリゴリー・スコヴォロダ",
+    "correctName": "フルィホーリイ・スコヴォロダ"
+  },
+  {
+    "slug": "nasir-al-din-al-tusi",
+    "locale": "hi",
+    "category": "C",
+    "localName": "नासिर अल-दीन अल-तुसी",
+    "correctName": "नासिरुद्दीन तूसी"
+  },
+  {
+    "slug": "nasir-al-din-al-tusi",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ナシル・アルディン・アル・トゥシ",
+    "correctName": "ナスィールッディーン・トゥースィー"
+  },
+  {
+    "slug": "darius-i",
+    "locale": "hi",
+    "category": "C",
+    "localName": "दारियस प्रथम",
+    "correctName": "दारा प्रथम"
+  },
+  {
+    "slug": "rashid-rida",
+    "locale": "zh",
+    "category": "C",
+    "localName": "拉希德·里达",
+    "correctName": "穆罕默德·拉希德·里达"
+  },
+  {
+    "slug": "reza-shah",
+    "locale": "hi",
+    "category": "C",
+    "localName": "रज़ा शाह पहलवी",
+    "correctName": "रजा शाह पहलवी"
+  },
+  {
+    "slug": "mehmed-the-conqueror",
+    "locale": "hi",
+    "category": "C",
+    "localName": "मेहमेद द्वितीय (विजेता)",
+    "correctName": "महमद द्वितीय"
+  },
+  {
+    "slug": "muhammad-ali-of-egypt",
+    "locale": "de",
+    "category": "C",
+    "localName": "Muhammad Ali Pascha von Ägypten",
+    "correctName": "Muhammad Ali Pascha"
+  },
+  {
+    "slug": "muhammad-ali-of-egypt",
+    "locale": "zh",
+    "category": "C",
+    "localName": "埃及的穆罕默德·阿里",
+    "correctName": "穆罕默德·阿里帕夏"
+  },
+  {
+    "slug": "badi-al-zaman-al-hamadani",
+    "locale": "de",
+    "category": "C",
+    "localName": "Badi' al-Zaman al-Hamadani",
+    "correctName": "Badi' az-Zaman al-Hamadhani"
+  },
+  {
+    "slug": "badi-al-zaman-al-hamadani",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Badi' al-Zaman al-Hamadani",
+    "correctName": "Al-Hamadhani"
+  },
+  {
+    "slug": "badi-al-zaman-al-hamadani",
+    "locale": "it",
+    "category": "C",
+    "localName": "Badi' al-Zaman al-Hamadani",
+    "correctName": "Badi' al-Zaman al-Hamadhani"
+  },
+  {
+    "slug": "badi-al-zaman-al-hamadani",
+    "locale": "ja",
+    "category": "C",
+    "localName": "バディー・アッザマーン・アルハマザーニー",
+    "correctName": "ハマザーニー"
+  },
+  {
+    "slug": "bediuzzaman-said-nursi",
+    "locale": "es",
+    "category": "C",
+    "localName": "Bediüzzaman Said Nursi",
+    "correctName": "Said Nursî"
+  },
+  {
+    "slug": "bediuzzaman-said-nursi",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Bediuzzaman Saïd Nursi",
+    "correctName": "Saïd Nursî"
+  },
+  {
+    "slug": "bediuzzaman-said-nursi",
+    "locale": "it",
+    "category": "C",
+    "localName": "Bediüzzaman Said Nursi",
+    "correctName": "Said Nursi"
+  },
+  {
+    "slug": "bediuzzaman-said-nursi",
+    "locale": "zh",
+    "category": "C",
+    "localName": "巴迪乌札曼·赛义德·努尔西",
+    "correctName": "赛义德·努尔西"
+  },
+  {
+    "slug": "baybars",
+    "locale": "hi",
+    "category": "C",
+    "localName": "बायबर्स",
+    "correctName": "रुकनुद्दीन बेबर्स"
+  },
+  {
+    "slug": "saadi-shirazi",
+    "locale": "de",
+    "category": "C",
+    "localName": "Saadi Schirazi",
+    "correctName": "Saadi"
+  },
+  {
+    "slug": "saadi-shirazi",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Saadi de Chiraz",
+    "correctName": "Saadi"
+  },
+  {
+    "slug": "saadi-shirazi",
+    "locale": "hi",
+    "category": "C",
+    "localName": "सादी शीराज़ी",
+    "correctName": "शेख़ सादी"
+  },
+  {
+    "slug": "saadi-shirazi",
+    "locale": "it",
+    "category": "C",
+    "localName": "Saadi di Shiraz",
+    "correctName": "Saʿdi"
+  },
+  {
+    "slug": "saadi-shirazi",
+    "locale": "ja",
+    "category": "C",
+    "localName": "サアディー・シーラーズィー",
+    "correctName": "サアディー"
+  },
+  {
+    "slug": "shapur-i",
+    "locale": "hi",
+    "category": "C",
+    "localName": "शापुर प्रथम",
+    "correctName": "शापूर प्रथम"
+  },
+  {
+    "slug": "selim-iii",
+    "locale": "hi",
+    "category": "C",
+    "localName": "सेलिम तृतीय",
+    "correctName": "सलीम तृतीय"
+  },
+  {
+    "slug": "abbas-i-of-persia",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Abbas Ier de Perse",
+    "correctName": "Abbas Ier le Grand"
+  },
+  {
+    "slug": "abbas-i-of-persia",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अब्बास प्रथम (फारस)",
+    "correctName": "अब्बास प्रथम"
+  },
+  {
+    "slug": "ashurbanipal",
+    "locale": "de",
+    "category": "C",
+    "localName": "Aššurbanipal",
+    "correctName": "Aššur-bāni-apli"
+  },
+  {
+    "slug": "ahmed-shawqi",
+    "locale": "es",
+    "category": "C",
+    "localName": "Ahmed Shawqi",
+    "correctName": "Ahmad Sawqi"
+  },
+  {
+    "slug": "ahmed-shawqi",
+    "locale": "ko",
+    "category": "C",
+    "localName": "아흐메드 샤키",
+    "correctName": "아마드 샤우키"
+  },
+  {
+    "slug": "ahmed-cevdet-pasha",
+    "locale": "zh",
+    "category": "C",
+    "localName": "艾哈迈德·杰夫代特帕夏",
+    "correctName": "艾哈迈德·杰夫代特"
+  },
+  {
+    "slug": "al-mamun",
+    "locale": "ja",
+    "category": "C",
+    "localName": "アル＝マアムーン",
+    "correctName": "マアムーン"
+  },
+  {
+    "slug": "al-battani",
+    "locale": "ko",
+    "category": "C",
+    "localName": "알바타니",
+    "correctName": "바타니"
+  },
+  {
+    "slug": "al-jahiz",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अल-जाहिज",
+    "correctName": "अल-जाहिज़"
+  },
+  {
+    "slug": "al-tabari",
+    "locale": "hi",
+    "category": "C",
+    "localName": "अल-तबरी",
+    "correctName": "तबरी"
+  },
+  {
+    "slug": "evliya-celebi",
+    "locale": "ar",
+    "category": "C",
+    "localName": "أوليا چلبي",
+    "correctName": "أوليا جلبي"
+  },
+  {
+    "slug": "ibrahim-pasha-of-egypt",
+    "locale": "de",
+    "category": "C",
+    "localName": "Ibrahim Pascha von Ägypten",
+    "correctName": "Ibrahim Pascha"
+  },
+  {
+    "slug": "ibrahim-pasha-of-egypt",
+    "locale": "es",
+    "category": "C",
+    "localName": "Ibrahim Bajá de Egipto",
+    "correctName": "Ibrahim Bajá"
+  },
+  {
+    "slug": "ibrahim-pasha-of-egypt",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Ibrahim Pacha d'Égypte",
+    "correctName": "Ibrahim Pacha"
+  },
+  {
+    "slug": "ibrahim-pasha-of-egypt",
+    "locale": "it",
+    "category": "C",
+    "localName": "Ibrahim Pascià d'Egitto",
+    "correctName": "Ibrāhīm Pascià"
+  },
+  {
+    "slug": "ibrahim-pasha-of-egypt",
+    "locale": "zh",
+    "category": "C",
+    "localName": "埃及的易卜拉欣帕夏",
+    "correctName": "易卜拉欣帕夏"
+  },
+  {
+    "slug": "ibn-arabi",
+    "locale": "el",
+    "category": "C",
+    "localName": "Ιμπν Αράμπι",
+    "correctName": "Ιμπν Αραμπί"
+  },
+  {
+    "slug": "ismail-i",
+    "locale": "hi",
+    "category": "C",
+    "localName": "इस्माइल प्रथम",
+    "correctName": "इस्माईल प्रथम"
+  },
+  {
+    "slug": "zarathushtra",
+    "locale": "ha",
+    "category": "C",
+    "localName": "Zarathushtra",
+    "correctName": "Zoroaster"
+  },
+  {
+    "slug": "zarathushtra",
+    "locale": "sw",
+    "category": "C",
+    "localName": "Zarathushtra",
+    "correctName": "Zoroasta"
+  },
+  {
+    "slug": "zarathushtra",
+    "locale": "th",
+    "category": "C",
+    "localName": "ซาราธุชตรา",
+    "correctName": "ซาราธุสตรา"
+  },
+  {
+    "slug": "zarathushtra",
+    "locale": "zh",
+    "category": "C",
+    "localName": "查拉图斯特拉",
+    "correctName": "琐罗亚斯德"
+  },
+  {
+    "slug": "jamal-al-din-al-afghani",
+    "locale": "es",
+    "category": "C",
+    "localName": "Yamal al-Din al-Afgani",
+    "correctName": "Jamal al-Din al-Afghani"
+  },
+  {
+    "slug": "jamal-al-din-al-afghani",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Djamāl al-Dīn al-Afghānī",
+    "correctName": "Djemâl ad-Dîn al-Afghâni"
+  },
+  {
+    "slug": "jamal-al-din-al-afghani",
+    "locale": "ko",
+    "category": "C",
+    "localName": "자말 알딘 알아프가니",
+    "correctName": "자말 압딘 알아프가니"
+  },
+  {
+    "slug": "jamal-al-din-al-afghani",
+    "locale": "ru",
+    "category": "C",
+    "localName": "Джамаль ад-Дин аль-Афгани",
+    "correctName": "Джамалуддин аль-Афгани"
+  },
+  {
+    "slug": "jabir-ibn-hayyan",
+    "locale": "es",
+    "category": "C",
+    "localName": "Yabir ibn Hayyan",
+    "correctName": "Ŷabir ibn Hayyan"
+  },
+  {
+    "slug": "jabir-ibn-hayyan",
+    "locale": "hi",
+    "category": "C",
+    "localName": "जाबिर इब्न हायन",
+    "correctName": "जाविर-इबन"
+  },
+  {
+    "slug": "jabir-ibn-hayyan",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Jabir ibn Hayyan",
+    "correctName": "Jabir ibne Haiane"
+  },
+  {
+    "slug": "ziya-gokalp",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Ziya Gokalp",
+    "correctName": "Ziya Gökalp"
+  },
+  {
+    "slug": "karim-khan-zand",
+    "locale": "es",
+    "category": "C",
+    "localName": "Karim Kan Zand",
+    "correctName": "Mohammad Karim Jan"
+  },
+  {
+    "slug": "karim-khan-zand",
+    "locale": "zh",
+    "category": "C",
+    "localName": "卡里姆汗·赞德",
+    "correctName": "卡里姆汗"
+  },
+  {
+    "slug": "katip-celebi",
+    "locale": "es",
+    "category": "C",
+    "localName": "Katip Çelebi",
+    "correctName": "Kâtip Çelebi"
+  },
+  {
+    "slug": "katip-celebi",
+    "locale": "ja",
+    "category": "C",
+    "localName": "カティプ・チェレビ",
+    "correctName": "キャーティプ・チェレビー"
+  },
+  {
+    "slug": "katip-celebi",
+    "locale": "ko",
+    "category": "C",
+    "localName": "카팁 첼레비",
+    "correctName": "카티프 첼레비"
+  },
+  {
+    "slug": "katip-celebi",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Katip Çelebi",
+    "correctName": "Cátibe Chelebi"
+  },
+  {
+    "slug": "xerxes-i",
+    "locale": "hi",
+    "category": "C",
+    "localName": "ज़र्क्सीस प्रथम",
+    "correctName": "क्षयार्ष"
+  },
+  {
+    "slug": "tahirih",
+    "locale": "ar",
+    "category": "C",
+    "localName": "طاهرة",
+    "correctName": "قرة العين القزوينية"
+  },
+  {
+    "slug": "tahirih",
+    "locale": "es",
+    "category": "C",
+    "localName": "Tahirih",
+    "correctName": "Táhirih"
+  },
+  {
+    "slug": "tahirih",
+    "locale": "fr",
+    "category": "C",
+    "localName": "Tahirih",
+    "correctName": "Fatemeh"
+  },
+  {
+    "slug": "tahirih",
+    "locale": "ja",
+    "category": "C",
+    "localName": "ターヒリ",
+    "correctName": "ファーテメ・バラガーニー"
+  },
+  {
+    "slug": "tahirih",
+    "locale": "pt",
+    "category": "C",
+    "localName": "Tahirih",
+    "correctName": "Táhirih"
+  },
+  {
+    "slug": "piri-reis",
+    "locale": "ar",
+    "category": "C",
+    "localName": "پیري رئیس",
+    "correctName": "بيري ريس"
+  },
+  {
+    "slug": "harun-al-rashid",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हारून अल-रशीद",
+    "correctName": "हारून अल रशीद"
+  },
+  {
+    "slug": "halide-edib-adivar",
+    "locale": "ar",
+    "category": "C",
+    "localName": "خالدة أديب أديفار",
+    "correctName": "خالدة أديب"
+  },
+  {
+    "slug": "halide-edib-adivar",
+    "locale": "es",
+    "category": "C",
+    "localName": "Halide Edib Adıvar",
+    "correctName": "Halide Edib"
+  },
+  {
+    "slug": "halide-edib-adivar",
+    "locale": "ko",
+    "category": "C",
+    "localName": "할리데 에디프 아드바르",
+    "correctName": "할리데 에디프 아드와르"
+  },
+  {
+    "slug": "hammurabi",
+    "locale": "hi",
+    "category": "C",
+    "localName": "हम्मुराबी",
+    "correctName": "हाम्मुरबी"
+  },
+  {
+    "slug": "t-e-lawrence",
+    "locale": "hi",
+    "category": "C",
+    "localName": "टी. ई. लॉरेंस",
+    "correctName": "टामस एडवर्ड लॉरेंस"
+  },
+  {
+    "slug": "t-e-lawrence",
+    "locale": "zh",
+    "category": "C",
+    "localName": "T. E. 劳伦斯",
+    "correctName": "T·E·劳伦斯"
+  }
+]

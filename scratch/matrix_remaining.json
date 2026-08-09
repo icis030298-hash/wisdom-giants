@@ -1,0 +1,98 @@
+{
+  "중남미": {
+    "arts": 15,
+    "science": 10,
+    "society": 15,
+    "business": 10,
+    "philosophy": 5,
+    "leadership": 5
+  },
+  "동남아": {
+    "arts": 10,
+    "science": 10,
+    "society": 15,
+    "business": 15,
+    "philosophy": 5,
+    "leadership": 0
+  },
+  "남아시아/인도": {
+    "arts": 15,
+    "science": 10,
+    "society": 15,
+    "business": 5,
+    "philosophy": 10,
+    "leadership": 0
+  },
+  "일본": {
+    "arts": 10,
+    "science": 10,
+    "society": 5,
+    "business": 10,
+    "philosophy": 10,
+    "leadership": 0
+  },
+  "중국": {
+    "arts": 10,
+    "science": 15,
+    "society": 5,
+    "business": 10,
+    "philosophy": 5,
+    "leadership": 0
+  },
+  "아프리카": {
+    "arts": 10,
+    "science": 10,
+    "society": 10,
+    "business": 5,
+    "philosophy": 5,
+    "leadership": 5
+  },
+  "북미": {
+    "arts": 10,
+    "science": 10,
+    "society": 10,
+    "business": 10,
+    "philosophy": 0,
+    "leadership": 0
+  },
+  "한국": {
+    "arts": -1,
+    "science": 4,
+    "society": -4,
+    "business": 4,
+    "philosophy": -3,
+    "leadership": -16
+  },
+  "유럽": {
+    "arts": 9,
+    "science": -23,
+    "society": 0,
+    "business": 5,
+    "philosophy": 0,
+    "leadership": 0
+  },
+  "중동/페르시아": {
+    "arts": 5,
+    "science": 5,
+    "society": 5,
+    "business": 5,
+    "philosophy": 10,
+    "leadership": 0
+  },
+  "러시아/동유럽": {
+    "arts": 5,
+    "science": 4,
+    "society": 5,
+    "business": 5,
+    "philosophy": 5,
+    "leadership": 5
+  },
+  "중앙아시아": {
+    "arts": 0,
+    "science": 0,
+    "society": 5,
+    "business": 5,
+    "philosophy": 5,
+    "leadership": 10
+  }
+}

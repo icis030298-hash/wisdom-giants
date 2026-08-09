@@ -1,0 +1,2456 @@
+[
+  {
+    "slug": "john-f-kennedy",
+    "locale": "hi",
+    "localName": "जॉन एफ. केनेडी",
+    "correctName": "जॉन एफ॰ केनेडी"
+  },
+  {
+    "slug": "john-f-kennedy",
+    "locale": "it",
+    "localName": "John F. Kennedy",
+    "correctName": "John Fitzgerald Kennedy"
+  },
+  {
+    "slug": "john-f-kennedy",
+    "locale": "ru",
+    "localName": "Джон Ф. Кеннеди",
+    "correctName": "Кеннеди, Джон Фицджералд"
+  },
+  {
+    "slug": "queen-victoria",
+    "locale": "ar",
+    "localName": "الملكة فيكتوريا",
+    "correctName": "فكتوريا ملكة المملكة المتحدة"
+  },
+  {
+    "slug": "queen-victoria",
+    "locale": "de",
+    "localName": "Königin Victoria",
+    "correctName": "Victoria (Vereinigtes Königreich)"
+  },
+  {
+    "slug": "queen-victoria",
+    "locale": "es",
+    "localName": "Reina Victoria",
+    "correctName": "Victoria del Reino Unido"
+  },
+  {
+    "slug": "queen-victoria",
+    "locale": "fr",
+    "localName": "Reine Victoria",
+    "correctName": "Victoria (reine)"
+  },
+  {
+    "slug": "queen-victoria",
+    "locale": "hi",
+    "localName": "महारानी विक्टोरिया",
+    "correctName": "विक्टोरिया"
+  },
+  {
+    "slug": "queen-victoria",
+    "locale": "it",
+    "localName": "Regina Vittoria",
+    "correctName": "Vittoria del Regno Unito"
+  },
+  {
+    "slug": "queen-victoria",
+    "locale": "ja",
+    "localName": "ヴィクトリア女王",
+    "correctName": "ヴィクトリア (イギリス女王)"
+  },
+  {
+    "slug": "queen-victoria",
+    "locale": "pt",
+    "localName": "Rainha Vitória",
+    "correctName": "Vitória do Reino Unido"
+  },
+  {
+    "slug": "queen-victoria",
+    "locale": "ru",
+    "localName": "Королева Виктория",
+    "correctName": "Виктория (королева Великобритании)"
+  },
+  {
+    "slug": "thomas-jefferson",
+    "locale": "ar",
+    "localName": "توماس جيفرسون",
+    "correctName": "توماس جفرسون"
+  },
+  {
+    "slug": "thomas-jefferson",
+    "locale": "hi",
+    "localName": "थॉमस जेफरसन",
+    "correctName": "थॉमस जेफ़र्सन"
+  },
+  {
+    "slug": "thomas-jefferson",
+    "locale": "ru",
+    "localName": "Томас Джефферсон",
+    "correctName": "Джефферсон, Томас"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "ar",
+    "localName": "الإمبراطورة وو تسيتيان",
+    "correctName": "وو شتيان"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "de",
+    "localName": "Kaiserin Wu Zetian",
+    "correctName": "Wu Zetian"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "es",
+    "localName": "Emperatriz Wu Zetian",
+    "correctName": "Wu Zetian"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "fr",
+    "localName": "Impératrice Wu Zetian",
+    "correctName": "Wu Zetian"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "it",
+    "localName": "Imperatrice Wu Zetian",
+    "correctName": "Imperatrice Wu"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "ja",
+    "localName": "則天武后 (武則天)",
+    "correctName": "武則天"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "pt",
+    "localName": "Imperatriz Wu Zetian",
+    "correctName": "Wu Zetian"
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "locale": "ru",
+    "localName": "Императрица У Цзэтянь",
+    "correctName": "У Цзэтянь"
+  },
+  {
+    "slug": "mencius",
+    "locale": "ar",
+    "localName": "منشيوس",
+    "correctName": "منسيوس"
+  },
+  {
+    "slug": "mencius",
+    "locale": "de",
+    "localName": "Mencius",
+    "correctName": "Mengzi"
+  },
+  {
+    "slug": "sima-qian",
+    "locale": "ar",
+    "localName": "سوما تشيان",
+    "correctName": "سيما شيان"
+  },
+  {
+    "slug": "sima-qian",
+    "locale": "hi",
+    "localName": "सिमा कियान",
+    "correctName": "सीमा चिआन"
+  },
+  {
+    "slug": "sima-qian",
+    "locale": "ja",
+    "localName": "司馬遷 (しません)",
+    "correctName": "司馬遷"
+  },
+  {
+    "slug": "sima-qian",
+    "locale": "zh",
+    "localName": "司马迁",
+    "correctName": "司馬遷"
+  },
+  {
+    "slug": "zhuge-liang",
+    "locale": "ar",
+    "localName": "تشوغيه ليانغ",
+    "correctName": "تشوغ ليانغ"
+  },
+  {
+    "slug": "zhuge-liang",
+    "locale": "ru",
+    "localName": "Чжугэ Лян (Zhuge Liang)",
+    "correctName": "Чжугэ Лян"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "ar",
+    "localName": "أشوكا العظيم",
+    "correctName": "أشوكا"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "de",
+    "localName": "Ashoka der Große",
+    "correctName": "Ashoka"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "es",
+    "localName": "Ashoka el Grande",
+    "correctName": "Aśoka"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "fr",
+    "localName": "Ashoka le Grand",
+    "correctName": "Ashoka"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "hi",
+    "localName": "सम्राट अशोक",
+    "correctName": "अशोक"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "it",
+    "localName": "Ashoka il Grande",
+    "correctName": "Aśoka"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "ja",
+    "localName": "アショーカ王",
+    "correctName": "アショーカ"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "ko",
+    "localName": "아소카 대왕",
+    "correctName": "아소카"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "pt",
+    "localName": "Ashoka, o Grande",
+    "correctName": "Açoca"
+  },
+  {
+    "slug": "ashoka-the-great",
+    "locale": "ru",
+    "localName": "Ашока Великий",
+    "correctName": "Ашока"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "ar",
+    "localName": "الملك جونغجو",
+    "correctName": "جونغجو ملك جوسون"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "de",
+    "localName": "König Jeongjo",
+    "correctName": "Jeongjo"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "es",
+    "localName": "Rey Jeongjo",
+    "correctName": "Jeongjo"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "fr",
+    "localName": "Roi Jeongjo",
+    "correctName": "Jeongjo"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "it",
+    "localName": "Re Jeongjo",
+    "correctName": "Jeongjo di Joseon"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "ja",
+    "localName": "正祖 (チョンジョ)",
+    "correctName": "正祖"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "ru",
+    "localName": "Король Чонджо",
+    "correctName": "Чонджо (ван Чосона)"
+  },
+  {
+    "slug": "king-jeongjo",
+    "locale": "zh",
+    "localName": "朝鲜正祖",
+    "correctName": "朝鮮正祖"
+  },
+  {
+    "slug": "li-bai",
+    "locale": "hi",
+    "localName": "ली बाई",
+    "correctName": "ली बै"
+  },
+  {
+    "slug": "li-bai",
+    "locale": "ja",
+    "localName": "李白 (りはく)",
+    "correctName": "李白"
+  },
+  {
+    "slug": "miyamoto-musashi",
+    "locale": "ja",
+    "localName": "宮本 武蔵",
+    "correctName": "宮本武蔵"
+  },
+  {
+    "slug": "miyamoto-musashi",
+    "locale": "ru",
+    "localName": "Miyamoto Musashi",
+    "correctName": "Миямото Мусаси"
+  },
+  {
+    "slug": "miyamoto-musashi",
+    "locale": "zh",
+    "localName": "宫本武藏",
+    "correctName": "宮本武藏"
+  },
+  {
+    "slug": "sun-yat-sen",
+    "locale": "ar",
+    "localName": "صن يات سين",
+    "correctName": "سون يات سين"
+  },
+  {
+    "slug": "sun-yat-sen",
+    "locale": "hi",
+    "localName": "सन यात-सेन",
+    "correctName": "सुन यात-सेन"
+  },
+  {
+    "slug": "sun-yat-sen",
+    "locale": "ja",
+    "localName": "孫文 (ソン・ブン)",
+    "correctName": "孫文"
+  },
+  {
+    "slug": "sun-yat-sen",
+    "locale": "zh",
+    "localName": "孙中山",
+    "correctName": "孫中山"
+  },
+  {
+    "slug": "tokugawa-ieyasu",
+    "locale": "ar",
+    "localName": "توكوغاوا إياسو",
+    "correctName": "توكوغاوا إيه-ياسو"
+  },
+  {
+    "slug": "tokugawa-ieyasu",
+    "locale": "hi",
+    "localName": "तोकुगावा इयासु",
+    "correctName": "तोकुगावा इयासू"
+  },
+  {
+    "slug": "tokugawa-ieyasu",
+    "locale": "zh",
+    "localName": "徳川家康",
+    "correctName": "德川家康"
+  },
+  {
+    "slug": "toyotomi-hideyoshi",
+    "locale": "fr",
+    "localName": "Toyota Hideyoshi",
+    "correctName": "Toyotomi Hideyoshi"
+  },
+  {
+    "slug": "toyotomi-hideyoshi",
+    "locale": "vi",
+    "localName": "Toyota Hideyoshi",
+    "correctName": "Toyotomi Hideyoshi"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "ar",
+    "localName": "الملك تشولالونغكورن",
+    "correctName": "راما الخامس"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "fr",
+    "localName": "Chulalongkorn",
+    "correctName": "Rama V"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "hi",
+    "localName": "चुलालोंगकोर्न",
+    "correctName": "चुललंगकरण"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "ja",
+    "localName": "チュラロンコン",
+    "correctName": "ラーマ5世"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "ko",
+    "localName": "출라롱꼰",
+    "correctName": "쭐랄롱꼰"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "ru",
+    "localName": "Чхулалонгкорн",
+    "correctName": "Рама V"
+  },
+  {
+    "slug": "chulalongkorn",
+    "locale": "zh",
+    "localName": "朱拉隆功",
+    "correctName": "拉玛五世"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "ar",
+    "localName": "حنبعل برقا",
+    "correctName": "حنبعل"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "de",
+    "localName": "Hannibal Barkas",
+    "correctName": "Hannibal"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "es",
+    "localName": "Aníbal Barca",
+    "correctName": "Aníbal"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "fr",
+    "localName": "Hannibal Barça",
+    "correctName": "Hannibal Barca"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "hi",
+    "localName": "हैनिबल बार्का",
+    "correctName": "हान्निबल"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "it",
+    "localName": "Annibale Barca",
+    "correctName": "Annibale"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "ja",
+    "localName": "ハンニバル・バルカ",
+    "correctName": "ハンニバル"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "ko",
+    "localName": "한니발 바르카",
+    "correctName": "한니발"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "pt",
+    "localName": "Aníbal Barca",
+    "correctName": "Aníbal"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "ru",
+    "localName": "Ганнибал Барка",
+    "correctName": "Ганнибал"
+  },
+  {
+    "slug": "hannibal-barca",
+    "locale": "zh",
+    "localName": "汉尼拔·巴卡",
+    "correctName": "汉尼拔"
+  },
+  {
+    "slug": "ibn-battuta",
+    "locale": "de",
+    "localName": "Ibn Battuta",
+    "correctName": "Ibn Battūta"
+  },
+  {
+    "slug": "ibn-battuta",
+    "locale": "fr",
+    "localName": "Ibn Battouta",
+    "correctName": "Ibn Battûta"
+  },
+  {
+    "slug": "ibn-battuta",
+    "locale": "hi",
+    "localName": "इब्न बतूता",
+    "correctName": "इब्न-बतूता"
+  },
+  {
+    "slug": "ibn-battuta",
+    "locale": "it",
+    "localName": "Ibn Battuta",
+    "correctName": "Ibn Baṭṭūṭa"
+  },
+  {
+    "slug": "ibn-battuta",
+    "locale": "ja",
+    "localName": "イブン・バトゥータ",
+    "correctName": "イブン・バットゥータ"
+  },
+  {
+    "slug": "ibn-battuta",
+    "locale": "pt",
+    "localName": "Ibn Battuta",
+    "correctName": "Ibne Batuta"
+  },
+  {
+    "slug": "ibn-battuta",
+    "locale": "zh",
+    "localName": "伊本·巴图塔",
+    "correctName": "伊本·白图泰"
+  },
+  {
+    "slug": "jayavarman-vii",
+    "locale": "de",
+    "localName": "Jayavarman VII",
+    "correctName": "Jayavarman VII."
+  },
+  {
+    "slug": "jayavarman-vii",
+    "locale": "hi",
+    "localName": "जयवर्मन सप्तम",
+    "correctName": "सप्तम जयवर्मन"
+  },
+  {
+    "slug": "jayavarman-vii",
+    "locale": "ja",
+    "localName": "ジャヤヴァルマン7世",
+    "correctName": "ジャヤーヴァルマン7世"
+  },
+  {
+    "slug": "jayavarman-vii",
+    "locale": "pt",
+    "localName": "Jayavarman VII",
+    "correctName": "Jaiavarmã VII"
+  },
+  {
+    "slug": "jayavarman-vii",
+    "locale": "ru",
+    "localName": "Джаяварман VII",
+    "correctName": "Джайаварман VII"
+  },
+  {
+    "slug": "mansa-musa",
+    "locale": "hi",
+    "localName": "मंसा मूसा",
+    "correctName": "मानसा मूसा"
+  },
+  {
+    "slug": "mansa-musa",
+    "locale": "it",
+    "localName": "Mansa Musa",
+    "correctName": "Musa I del Mali"
+  },
+  {
+    "slug": "mansa-musa",
+    "locale": "ko",
+    "localName": "만사 무사",
+    "correctName": "칸쿠 무사"
+  },
+  {
+    "slug": "mansa-musa",
+    "locale": "pt",
+    "localName": "Mansa Musa",
+    "correctName": "Mansa Muça"
+  },
+  {
+    "slug": "shaka-zulu",
+    "locale": "de",
+    "localName": "Shaka Zulu",
+    "correctName": "Shaka"
+  },
+  {
+    "slug": "shaka-zulu",
+    "locale": "es",
+    "localName": "Shaka Zulu",
+    "correctName": "Shaka"
+  },
+  {
+    "slug": "shaka-zulu",
+    "locale": "fr",
+    "localName": "Shaka Zulu",
+    "correctName": "Chaka (roi zoulou)"
+  },
+  {
+    "slug": "shaka-zulu",
+    "locale": "hi",
+    "localName": "शाका ज़ुलु",
+    "correctName": "शाका ज़ूलू"
+  },
+  {
+    "slug": "shaka-zulu",
+    "locale": "it",
+    "localName": "Shaka Zulu",
+    "correctName": "Shaka"
+  },
+  {
+    "slug": "shaka-zulu",
+    "locale": "ko",
+    "localName": "샤카 줄루",
+    "correctName": "샤카 카센잔가코나"
+  },
+  {
+    "slug": "shaka-zulu",
+    "locale": "ru",
+    "localName": "Шака Зулу",
+    "correctName": "Чака"
+  },
+  {
+    "slug": "shaka-zulu",
+    "locale": "zh",
+    "localName": "夏卡·祖鲁",
+    "correctName": "恰卡"
+  },
+  {
+    "slug": "al-khwarizmi",
+    "locale": "ar",
+    "localName": "الخوارزمي",
+    "correctName": "محمد بن موسى الخوارزمي"
+  },
+  {
+    "slug": "al-khwarizmi",
+    "locale": "fr",
+    "localName": "Al-Khwarizmi",
+    "correctName": "Al-Khwârizmî"
+  },
+  {
+    "slug": "al-khwarizmi",
+    "locale": "hi",
+    "localName": "अल-ख़्वारिज़्मी",
+    "correctName": "मुहम्मद इब्न मूसा अल-ख़्वारिज़्मी"
+  },
+  {
+    "slug": "al-khwarizmi",
+    "locale": "it",
+    "localName": "Al-Khwarizmi",
+    "correctName": "Muḥammad ibn Mūsā al-Khwārizmī"
+  },
+  {
+    "slug": "al-khwarizmi",
+    "locale": "ja",
+    "localName": "アル・フワーリズミー",
+    "correctName": "フワーリズミー"
+  },
+  {
+    "slug": "al-khwarizmi",
+    "locale": "ko",
+    "localName": "알콰리즈미",
+    "correctName": "콰리즈미"
+  },
+  {
+    "slug": "al-khwarizmi",
+    "locale": "pt",
+    "localName": "Al-Khwarizmi",
+    "correctName": "Alcuarismi"
+  },
+  {
+    "slug": "chandragupta-maurya",
+    "locale": "ar",
+    "localName": "تشاندراغوبتا موريا",
+    "correctName": "تشاندراغبت موريا"
+  },
+  {
+    "slug": "chandragupta-maurya",
+    "locale": "it",
+    "localName": "Chandragupta Maurya",
+    "correctName": "Candragupta Maurya"
+  },
+  {
+    "slug": "chandragupta-maurya",
+    "locale": "ja",
+    "localName": "チャンドラグプタ・マウリヤ",
+    "correctName": "チャンドラグプタ (マウリヤ朝)"
+  },
+  {
+    "slug": "chandragupta-maurya",
+    "locale": "pt",
+    "localName": "Chandragupta Maurya",
+    "correctName": "Chandragupta Máuria"
+  },
+  {
+    "slug": "chandragupta-maurya",
+    "locale": "zh",
+    "localName": "旃陀罗笈多·孔雀",
+    "correctName": "旃陀罗笈多 (孔雀王朝)"
+  },
+  {
+    "slug": "omar-khayyam",
+    "locale": "de",
+    "localName": "Omar Chayyam",
+    "correctName": "Omar Chayyām"
+  },
+  {
+    "slug": "omar-khayyam",
+    "locale": "es",
+    "localName": "Omar Khayyam",
+    "correctName": "Omar Jayam"
+  },
+  {
+    "slug": "omar-khayyam",
+    "locale": "fr",
+    "localName": "Omar Khayam",
+    "correctName": "Omar Khayyam"
+  },
+  {
+    "slug": "omar-khayyam",
+    "locale": "hi",
+    "localName": "उमर खय्याम",
+    "correctName": "उमर ख़य्याम"
+  },
+  {
+    "slug": "omar-khayyam",
+    "locale": "it",
+    "localName": "Omar Khayyam",
+    "correctName": "ʿUmar Khayyām"
+  },
+  {
+    "slug": "omar-khayyam",
+    "locale": "ja",
+    "localName": "オマル・ハイヤーム",
+    "correctName": "ウマル・ハイヤーム"
+  },
+  {
+    "slug": "omar-khayyam",
+    "locale": "pt",
+    "localName": "Omar Khayyam",
+    "correctName": "Omar Caiame"
+  },
+  {
+    "slug": "robert-oppenheimer",
+    "locale": "ar",
+    "localName": "روبرت أوبنهايمر",
+    "correctName": "ج. روبرت أوبينهايمر"
+  },
+  {
+    "slug": "robert-oppenheimer",
+    "locale": "hi",
+    "localName": "जे. रॉबर्ट ओपेनहाइमर",
+    "correctName": "रॉबर्ट ओपेनहाइमर"
+  },
+  {
+    "slug": "robert-oppenheimer",
+    "locale": "it",
+    "localName": "Robert Oppenheimer",
+    "correctName": "J. Robert Oppenheimer"
+  },
+  {
+    "slug": "robert-oppenheimer",
+    "locale": "ko",
+    "localName": "로버트 오펜하이머",
+    "correctName": "J. 로버트 오펜하이머"
+  },
+  {
+    "slug": "robert-oppenheimer",
+    "locale": "ru",
+    "localName": "Роберт Оппенгеймер",
+    "correctName": "Оппенгеймер, Роберт"
+  },
+  {
+    "slug": "saladin",
+    "locale": "hi",
+    "localName": "सलादीन",
+    "correctName": "सलाउद्दीन"
+  },
+  {
+    "slug": "saladin",
+    "locale": "ja",
+    "localName": "サラディン",
+    "correctName": "サラーフッディーン"
+  },
+  {
+    "slug": "saladin",
+    "locale": "ru",
+    "localName": "Саладин",
+    "correctName": "Салах ад-Дин"
+  },
+  {
+    "slug": "srinivasa-ramanujan",
+    "locale": "ar",
+    "localName": "سرينيفاسا رامانوجان",
+    "correctName": "سرينفاسا رامانوجان"
+  },
+  {
+    "slug": "srinivasa-ramanujan",
+    "locale": "hi",
+    "localName": "श्रीनिवास रामानुजन",
+    "correctName": "श्रीनिवास रामानुजन्"
+  },
+  {
+    "slug": "srinivasa-ramanujan",
+    "locale": "ja",
+    "localName": "スリニヴァーサ・ラマヌジャン",
+    "correctName": "シュリニヴァーサ・ラマヌジャン"
+  },
+  {
+    "slug": "srinivasa-ramanujan",
+    "locale": "pt",
+    "localName": "Srinivasa Ramanujan",
+    "correctName": "Srinivāsa Rāmānujan"
+  },
+  {
+    "slug": "srinivasa-ramanujan",
+    "locale": "ru",
+    "localName": "Шриниваса Рамануджан",
+    "correctName": "Сриниваса Рамануджан"
+  },
+  {
+    "slug": "suleiman-the-magnificent",
+    "locale": "de",
+    "localName": "Süleyman der Prächtige",
+    "correctName": "Süleyman I."
+  },
+  {
+    "slug": "suleiman-the-magnificent",
+    "locale": "hi",
+    "localName": "सुलेमान द मैग्नीफिसेंट",
+    "correctName": "सुलेमान प्रथम"
+  },
+  {
+    "slug": "suleiman-the-magnificent",
+    "locale": "ru",
+    "localName": "Сулейман Великолепный",
+    "correctName": "Сулейман I"
+  },
+  {
+    "slug": "suleiman-the-magnificent",
+    "locale": "zh",
+    "localName": "苏莱曼一世",
+    "correctName": "苏莱曼一世 (奥斯曼帝国)"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "ar",
+    "localName": "سوامي فيفيكاناندا",
+    "correctName": "سوامي فيفي كاناندا"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "de",
+    "localName": "Swami Vivekananda",
+    "correctName": "Vivekananda"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "fr",
+    "localName": "Swami Vivekananda",
+    "correctName": "Vivekananda"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "it",
+    "localName": "Swami Vivekananda",
+    "correctName": "Vivekananda"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "ja",
+    "localName": "スワミ・ヴィヴェーカーナンダ",
+    "correctName": "ヴィヴェーカーナンダ"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "ko",
+    "localName": "스와미 비베카난다",
+    "correctName": "비베카난다"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "ru",
+    "localName": "Swami Vivekananda",
+    "correctName": "Вивекананда"
+  },
+  {
+    "slug": "swami-vivekananda",
+    "locale": "zh",
+    "localName": "斯瓦米·辨喜",
+    "correctName": "辨喜"
+  },
+  {
+    "slug": "wright-brothers",
+    "locale": "de",
+    "localName": "Gebrüder Wright",
+    "correctName": "Brüder Wright"
+  },
+  {
+    "slug": "wright-brothers",
+    "locale": "fr",
+    "localName": "Frères Wright",
+    "correctName": "Orville et Wilbur Wright"
+  },
+  {
+    "slug": "adam-smith",
+    "locale": "ru",
+    "localName": "Адам Смит",
+    "correctName": "Смит, Адам"
+  },
+  {
+    "slug": "copernicus",
+    "locale": "ru",
+    "localName": "Николай Коперник",
+    "correctName": "Коперник, Николай"
+  },
+  {
+    "slug": "dante-alighieri",
+    "locale": "hi",
+    "localName": "दांते अलिघिएरी",
+    "correctName": "दांते एलीगियरी"
+  },
+  {
+    "slug": "johannes-gutenberg",
+    "locale": "ar",
+    "localName": "يوهانس غوتنبرغ",
+    "correctName": "يوهان غوتنبرغ"
+  },
+  {
+    "slug": "johannes-gutenberg",
+    "locale": "hi",
+    "localName": "जोहान्स गुटेनबर्ग",
+    "correctName": "योहानेस गुटेनबर्ग"
+  },
+  {
+    "slug": "johannes-gutenberg",
+    "locale": "ru",
+    "localName": "Иоганн Гутенберг",
+    "correctName": "Гутенберг, Иоганн"
+  },
+  {
+    "slug": "johannes-gutenberg",
+    "locale": "zh",
+    "localName": "约翰内斯·古腾堡",
+    "correctName": "约翰内斯·谷登堡"
+  },
+  {
+    "slug": "louis-pasteur",
+    "locale": "hi",
+    "localName": "लुई पाश्चर",
+    "correctName": "लुई पास्चर"
+  },
+  {
+    "slug": "louis-pasteur",
+    "locale": "ru",
+    "localName": "Луи Пастер",
+    "correctName": "Пастер, Луи"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "ar",
+    "localName": "نيقولا مكيافيلي",
+    "correctName": "نيكولو مكيافيلي"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "es",
+    "localName": "Niccolò Machiavelli",
+    "correctName": "Nicolás Maquiavelo"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "fr",
+    "localName": "Machiavel",
+    "correctName": "Nicolas Machiavel"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "hi",
+    "localName": "निकॉलो मैकियावेली",
+    "correctName": "निकोलो मैकियावेली"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "id",
+    "localName": "Machiavelli",
+    "correctName": "Niccolò Machiavelli"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "nl",
+    "localName": "Machiavelli",
+    "correctName": "Niccolò Machiavelli"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "pl",
+    "localName": "Machiavelli",
+    "correctName": "Niccolò Machiavelli"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "pt",
+    "localName": "Niccolò Machiavelli",
+    "correctName": "Nicolau Maquiavel"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "ru",
+    "localName": "Никколо Макиавелли",
+    "correctName": "Макиавелли, Никколо"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "tr",
+    "localName": "Machiavelli",
+    "correctName": "Niccolò Machiavelli"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "vi",
+    "localName": "Machiavelli",
+    "correctName": "Niccolò Machiavelli"
+  },
+  {
+    "slug": "machiavelli",
+    "locale": "zh",
+    "localName": "尼可罗·马基雅维利",
+    "correctName": "尼古洛·馬基雅維利"
+  },
+  {
+    "slug": "voltaire",
+    "locale": "hi",
+    "localName": "वॉल्टेयर",
+    "correctName": "वोल्टेयर"
+  },
+  {
+    "slug": "voltaire",
+    "locale": "zh",
+    "localName": "伏尔泰",
+    "correctName": "伏爾泰"
+  },
+  {
+    "slug": "alexander-graham-bell",
+    "locale": "ar",
+    "localName": "ألكسندر جراهام بيل",
+    "correctName": "ألكسندر غراهام بل"
+  },
+  {
+    "slug": "alexander-graham-bell",
+    "locale": "fr",
+    "localName": "Alexandre Graham Bell",
+    "correctName": "Alexander Graham Bell"
+  },
+  {
+    "slug": "alexander-graham-bell",
+    "locale": "hi",
+    "localName": "अलेक्जेंडर ग्राहम बेल",
+    "correctName": "ऐलेक्ज़ैन्डर ग्राहम बेल"
+  },
+  {
+    "slug": "alexander-graham-bell",
+    "locale": "ru",
+    "localName": "Александр Грэм Белл",
+    "correctName": "Белл, Александр Грейам"
+  },
+  {
+    "slug": "alexander-graham-bell",
+    "locale": "zh",
+    "localName": "亚历山大·格拉汉姆·贝尔",
+    "correctName": "亚历山大·格雷厄姆·贝尔"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "ar",
+    "localName": "أمريكا إيرهارت",
+    "correctName": "أميليا إيرهارت"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "fr",
+    "localName": "Amélie Earhart",
+    "correctName": "Amelia Earhart"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "ha",
+    "localName": "Amelia Earhart ne adam wata",
+    "correctName": "Amelia Earhart"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "hi",
+    "localName": "अमेलिया ईयरहार्ट",
+    "correctName": "अमीलिया एरहार्ट"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "ja",
+    "localName": "アメリア・エアハート",
+    "correctName": "アメリア・イアハート"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "ko",
+    "localName": "아멜리아 에어하트",
+    "correctName": "어밀리아 에어하트"
+  },
+  {
+    "slug": "amelia-earhart",
+    "locale": "ru",
+    "localName": "Амелия Эрхарт",
+    "correctName": "Эрхарт, Амелия"
+  },
+  {
+    "slug": "andrew-carnegie",
+    "locale": "ar",
+    "localName": "أندرو كارنيجي",
+    "correctName": "أندرو كارنيغي"
+  },
+  {
+    "slug": "andrew-carnegie",
+    "locale": "ha",
+    "localName": "Andrew Carnegie ne adam wata",
+    "correctName": "Andrew Carnegie"
+  },
+  {
+    "slug": "andrew-carnegie",
+    "locale": "hi",
+    "localName": "एंड्रयू कार्नेगी",
+    "correctName": "ऐंड्रू कार्नेगी"
+  },
+  {
+    "slug": "andrew-carnegie",
+    "locale": "ru",
+    "localName": "Эндрю Карнеги",
+    "correctName": "Карнеги, Эндрю"
+  },
+  {
+    "slug": "edgar-allan-poe",
+    "locale": "hi",
+    "localName": "एडगर एलन पो",
+    "correctName": "एडगर ऍलन पो"
+  },
+  {
+    "slug": "edgar-allan-poe",
+    "locale": "ru",
+    "localName": "Эдгар Аллан По",
+    "correctName": "По, Эдгар Аллан"
+  },
+  {
+    "slug": "edgar-allan-poe",
+    "locale": "zh",
+    "localName": "埃德加·爱伦·坡",
+    "correctName": "艾德加·愛倫·坡"
+  },
+  {
+    "slug": "ernest-hemingway",
+    "locale": "ar",
+    "localName": "إرنست همنغواي",
+    "correctName": "إرنست همينغوي"
+  },
+  {
+    "slug": "ernest-hemingway",
+    "locale": "ru",
+    "localName": "Эрнест Хемингуэй",
+    "correctName": "Хемингуэй, Эрнест"
+  },
+  {
+    "slug": "henry-david-thoreau",
+    "locale": "ar",
+    "localName": "هنري ديفيد ثورو",
+    "correctName": "هنري ديفد ثورو"
+  },
+  {
+    "slug": "henry-david-thoreau",
+    "locale": "fr",
+    "localName": "Henri David Thoreau",
+    "correctName": "Henry David Thoreau"
+  },
+  {
+    "slug": "henry-david-thoreau",
+    "locale": "ru",
+    "localName": "Генри Дэвид Торо",
+    "correctName": "Торо, Генри"
+  },
+  {
+    "slug": "ralph-waldo-emerson",
+    "locale": "hi",
+    "localName": "राल्फ वाल्डो एमर्सन",
+    "correctName": "राल्फ वाल्डो इमर्सन"
+  },
+  {
+    "slug": "ralph-waldo-emerson",
+    "locale": "ru",
+    "localName": "Ральф Waldo Эмерсон",
+    "correctName": "Эмерсон, Ральф Уолдо"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "ar",
+    "localName": "سوزان ب. أنتوني",
+    "correctName": "سوزان أنتوني"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "fr",
+    "localName": "Susan B Anthony",
+    "correctName": "Susan B. Anthony"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "hi",
+    "localName": "सुज़ैन बी. एंथनी",
+    "correctName": "सुसान बी. एंथनी"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "id",
+    "localName": "Susan B Anthony",
+    "correctName": "Susan B. Anthony"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "ko",
+    "localName": "수잔 B. 앤서니",
+    "correctName": "수전 B. 앤서니"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "ru",
+    "localName": "Сьюзен Б. Энтони",
+    "correctName": "Энтони, Сьюзен"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "sw",
+    "localName": "Susan B Anthony",
+    "correctName": "Susan B. Anthony"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "tr",
+    "localName": "Susan B Anthony",
+    "correctName": "Susan B. Anthony"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "vi",
+    "localName": "Susan B Anthony",
+    "correctName": "Susan B. Anthony"
+  },
+  {
+    "slug": "susan-b-anthony",
+    "locale": "zh",
+    "localName": "苏珊·B·安东尼",
+    "correctName": "苏珊·安东尼"
+  },
+  {
+    "slug": "walt-whitman",
+    "locale": "hi",
+    "localName": "वॉल्ट व्हिटमैन",
+    "correctName": "वाल्ट ह्विटमैन"
+  },
+  {
+    "slug": "walt-whitman",
+    "locale": "ru",
+    "localName": "Уолт Уитмен",
+    "correctName": "Уитмен, Уолт"
+  },
+  {
+    "slug": "max-planck",
+    "locale": "hi",
+    "localName": "मैक्स प्लैंक",
+    "correctName": "मैक्स प्लांक"
+  },
+  {
+    "slug": "max-planck",
+    "locale": "ru",
+    "localName": "Макс Планк",
+    "correctName": "Планк, Макс"
+  },
+  {
+    "slug": "hypatia",
+    "locale": "hi",
+    "localName": "हिपाटिया",
+    "correctName": "हाईपेशिया"
+  },
+  {
+    "slug": "hypatia",
+    "locale": "ja",
+    "localName": "ヒパティア",
+    "correctName": "ヒュパティア"
+  },
+  {
+    "slug": "hypatia",
+    "locale": "zh",
+    "localName": "希帕蒂亚",
+    "correctName": "希帕蒂娅"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "de",
+    "localName": "Ibn al-Haytham",
+    "correctName": "Alhazen"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "es",
+    "localName": "Ibn Al Haytham",
+    "correctName": "Alhacén"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "fr",
+    "localName": "Ibn Al Haytham",
+    "correctName": "Alhazen"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "hi",
+    "localName": "इब्न अल-हैथम",
+    "correctName": "इब्न अल-हेथम"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "it",
+    "localName": "Ibn Al Haytham",
+    "correctName": "Alhazen"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "ja",
+    "localName": "イブン・アル＝ハイサム",
+    "correctName": "イブン・ハイサム"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "pt",
+    "localName": "Ibn Al Haytham",
+    "correctName": "Alhazém"
+  },
+  {
+    "slug": "ibn-al-haytham",
+    "locale": "zh",
+    "localName": "伊本·海塞姆",
+    "correctName": "伊本·海什木"
+  },
+  {
+    "slug": "blaise-pascal",
+    "locale": "ha",
+    "localName": "Blaise Pascal ne adam wata",
+    "correctName": "Blaise Pascal"
+  },
+  {
+    "slug": "blaise-pascal",
+    "locale": "ru",
+    "localName": "Блез Паскаль",
+    "correctName": "Паскаль, Блез"
+  },
+  {
+    "slug": "blaise-pascal",
+    "locale": "zh",
+    "localName": "布莱兹·帕斯卡",
+    "correctName": "布莱斯·帕斯卡"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "ar",
+    "localName": "دميتري إيفانوفيتش مندلييف",
+    "correctName": "ديميتري مندلييف"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "es",
+    "localName": "Dmitri Ivánovich Mendeléyev",
+    "correctName": "Dmitri Mendeléyev"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "fr",
+    "localName": "Dmitri Ivanovitch Mendeleïev",
+    "correctName": "Dmitri Mendeleïev"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "hi",
+    "localName": "दिमित्री इवानोविच मेंडेलीव",
+    "correctName": "मेंडलीफ"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "it",
+    "localName": "Dmitri Ivanovič Mendeleev",
+    "correctName": "Dmitrij Ivanovič Mendeleev"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "pt",
+    "localName": "Dmitri Ivanovich Mendeleev",
+    "correctName": "Dmitri Mendeleiev"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "ru",
+    "localName": "Дмитрий Иванович Менделеев",
+    "correctName": "Менделеев, Дмитрий Иванович"
+  },
+  {
+    "slug": "dmitri-mendeleev",
+    "locale": "zh",
+    "localName": "德米特里·伊万诺维奇·门捷列夫",
+    "correctName": "德米特里·门捷列夫"
+  },
+  {
+    "slug": "ada-lovelace",
+    "locale": "ru",
+    "localName": "Ада Лавлейс",
+    "correctName": "Лавлейс, Ада"
+  },
+  {
+    "slug": "ada-lovelace",
+    "locale": "zh",
+    "localName": "埃达·洛夫莱斯",
+    "correctName": "愛達·勒芙蕾絲"
+  },
+  {
+    "slug": "alan-turing",
+    "locale": "ar",
+    "localName": "آلان تورينج",
+    "correctName": "آلان تورنغ"
+  },
+  {
+    "slug": "alan-turing",
+    "locale": "hi",
+    "localName": "एलन ट्यूरिंग",
+    "correctName": "एलेन ट्यूरिंग"
+  },
+  {
+    "slug": "alan-turing",
+    "locale": "ru",
+    "localName": "Алан Тьюринг",
+    "correctName": "Тьюринг, Алан"
+  },
+  {
+    "slug": "charles-babbage",
+    "locale": "ru",
+    "localName": "Чарльз Бэббидж",
+    "correctName": "Бэббидж, Чарлз"
+  },
+  {
+    "slug": "ibn-sina",
+    "locale": "de",
+    "localName": "Ibn Sina",
+    "correctName": "Avicenna"
+  },
+  {
+    "slug": "ibn-sina",
+    "locale": "es",
+    "localName": "Ibn Sina",
+    "correctName": "Avicena"
+  },
+  {
+    "slug": "ibn-sina",
+    "locale": "fr",
+    "localName": "Ibn Sina",
+    "correctName": "Avicenne"
+  },
+  {
+    "slug": "ibn-sina",
+    "locale": "it",
+    "localName": "Ibn Sina",
+    "correctName": "Avicenna"
+  },
+  {
+    "slug": "ibn-sina",
+    "locale": "ja",
+    "localName": "イブン・シーナ",
+    "correctName": "イブン・スィーナー"
+  },
+  {
+    "slug": "ibn-sina",
+    "locale": "pt",
+    "localName": "Ibn Sina",
+    "correctName": "Avicena"
+  },
+  {
+    "slug": "james-watt",
+    "locale": "ar",
+    "localName": "جيمس وات",
+    "correctName": "جيمس واط"
+  },
+  {
+    "slug": "james-watt",
+    "locale": "hi",
+    "localName": "जेम्स वॉट",
+    "correctName": "जेम्स वाट"
+  },
+  {
+    "slug": "james-watt",
+    "locale": "ru",
+    "localName": "Джеймс Уатт",
+    "correctName": "Уатт, Джеймс"
+  },
+  {
+    "slug": "george-stephenson",
+    "locale": "fr",
+    "localName": "Georges Stephenson",
+    "correctName": "George Stephenson"
+  },
+  {
+    "slug": "george-stephenson",
+    "locale": "hi",
+    "localName": "जॉर्ज स्टीफेंसन",
+    "correctName": "जार्ज स्टीफेन्सन"
+  },
+  {
+    "slug": "george-stephenson",
+    "locale": "ja",
+    "localName": "ジョージ・スティーブンソン",
+    "correctName": "ジョージ・スチーブンソン"
+  },
+  {
+    "slug": "george-stephenson",
+    "locale": "ru",
+    "localName": "Джордж Стефенсон",
+    "correctName": "Стефенсон, Джордж"
+  },
+  {
+    "slug": "george-stephenson",
+    "locale": "zh",
+    "localName": "乔治·斯蒂芬森",
+    "correctName": "喬治·史蒂芬生"
+  },
+  {
+    "slug": "gregor-mendel",
+    "locale": "fr",
+    "localName": "Grégor Mendel",
+    "correctName": "Gregor Mendel"
+  },
+  {
+    "slug": "gregor-mendel",
+    "locale": "hi",
+    "localName": "ग्रेगर मेंडल",
+    "correctName": "ग्रेगर जॉन मेंडल"
+  },
+  {
+    "slug": "gregor-mendel",
+    "locale": "ja",
+    "localName": "グレゴール・メンデル",
+    "correctName": "グレゴール・ヨハン・メンデル"
+  },
+  {
+    "slug": "gregor-mendel",
+    "locale": "ru",
+    "localName": "Грегор Мендель",
+    "correctName": "Мендель, Грегор Иоганн"
+  },
+  {
+    "slug": "gregor-mendel",
+    "locale": "zh",
+    "localName": "格雷戈尔·孟德尔",
+    "correctName": "格雷戈爾·孟德爾"
+  },
+  {
+    "slug": "antoine-lavoisier",
+    "locale": "de",
+    "localName": "Antoine Lavoisier",
+    "correctName": "Antoine Laurent de Lavoisier"
+  },
+  {
+    "slug": "antoine-lavoisier",
+    "locale": "hi",
+    "localName": "एंटोनी लैवोइज़ियर",
+    "correctName": "एंटोनी लेवोज़ियर"
+  },
+  {
+    "slug": "antoine-lavoisier",
+    "locale": "it",
+    "localName": "Antoine Lavoisier",
+    "correctName": "Antoine-Laurent de Lavoisier"
+  },
+  {
+    "slug": "antoine-lavoisier",
+    "locale": "ru",
+    "localName": "Антуан Лавуазье",
+    "correctName": "Лавуазье, Антуан"
+  },
+  {
+    "slug": "li-shizhen",
+    "locale": "ar",
+    "localName": "لي شيزين",
+    "correctName": "لي سايجن"
+  },
+  {
+    "slug": "li-shizhen",
+    "locale": "ru",
+    "localName": "Ли Шижэнь",
+    "correctName": "Ли Шичжэнь"
+  },
+  {
+    "slug": "guglielmo-marconi",
+    "locale": "hi",
+    "localName": "गुग्लिल्मो मार्कोनी",
+    "correctName": "गुल्येल्मो मार्कोनी"
+  },
+  {
+    "slug": "guglielmo-marconi",
+    "locale": "ru",
+    "localName": "Гульельмо Маркони",
+    "correctName": "Маркони, Гульельмо"
+  },
+  {
+    "slug": "robert-koch",
+    "locale": "fr",
+    "localName": "Robert Cook",
+    "correctName": "Robert Koch"
+  },
+  {
+    "slug": "robert-koch",
+    "locale": "hi",
+    "localName": "रॉबर्ट कोच",
+    "correctName": "रॉबर्ट कॉख"
+  },
+  {
+    "slug": "robert-koch",
+    "locale": "ru",
+    "localName": "Роберт Кох",
+    "correctName": "Кох, Роберт"
+  },
+  {
+    "slug": "robert-koch",
+    "locale": "sw",
+    "localName": "Robert Cook",
+    "correctName": "Robert Koch"
+  },
+  {
+    "slug": "robert-koch",
+    "locale": "vi",
+    "localName": "Robert Cook",
+    "correctName": "Robert Koch"
+  },
+  {
+    "slug": "rumi",
+    "locale": "ar",
+    "localName": "رومي",
+    "correctName": "جلال الدين الرومي"
+  },
+  {
+    "slug": "rumi",
+    "locale": "de",
+    "localName": "Rumi",
+    "correctName": "Rumi (Dichter)"
+  },
+  {
+    "slug": "rumi",
+    "locale": "fr",
+    "localName": "Rumi",
+    "correctName": "Rûmî"
+  },
+  {
+    "slug": "rumi",
+    "locale": "hi",
+    "localName": "रूमी",
+    "correctName": "जलालुद्दीन रूमी"
+  },
+  {
+    "slug": "rumi",
+    "locale": "it",
+    "localName": "Rumi",
+    "correctName": "Jalal al-Din Rumi"
+  },
+  {
+    "slug": "rumi",
+    "locale": "ja",
+    "localName": "ルーミー",
+    "correctName": "ジャラール・ウッディーン・ルーミー"
+  },
+  {
+    "slug": "rumi",
+    "locale": "pt",
+    "localName": "Rumi",
+    "correctName": "Jalaladim Maomé Rumi"
+  },
+  {
+    "slug": "rumi",
+    "locale": "ru",
+    "localName": "Руми",
+    "correctName": "Джалаладдин Руми"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "de",
+    "localName": "Ibn Rushd",
+    "correctName": "Averroes"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "es",
+    "localName": "Ibn Rushd",
+    "correctName": "Averroes"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "fr",
+    "localName": "Ibn Rushd",
+    "correctName": "Averroès"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "hi",
+    "localName": "इब्न रुश्द",
+    "correctName": "इब्न रश्द"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "it",
+    "localName": "Ibn Rushd",
+    "correctName": "Averroè"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "ko",
+    "localName": "이븐 루슈드",
+    "correctName": "이븐 루시드"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "pt",
+    "localName": "Ibn Rushd",
+    "correctName": "Averróis"
+  },
+  {
+    "slug": "ibn-rushd",
+    "locale": "zh",
+    "localName": "伊本·鲁世德",
+    "correctName": "伊本·魯世德"
+  },
+  {
+    "slug": "william-james",
+    "locale": "ar",
+    "localName": "ويليام جيمس",
+    "correctName": "وليم جيمس"
+  },
+  {
+    "slug": "william-james",
+    "locale": "ru",
+    "localName": "Уильям Джеймс",
+    "correctName": "Джеймс, Уильям"
+  },
+  {
+    "slug": "william-james",
+    "locale": "zh",
+    "localName": "威廉·詹姆斯",
+    "correctName": "威廉·詹姆士"
+  },
+  {
+    "slug": "friedrich-schiller",
+    "locale": "ar",
+    "localName": "فريدرش شيلر",
+    "correctName": "فريدريك شيلر"
+  },
+  {
+    "slug": "friedrich-schiller",
+    "locale": "fr",
+    "localName": "Frédéric Schiller",
+    "correctName": "Friedrich Schiller"
+  },
+  {
+    "slug": "friedrich-schiller",
+    "locale": "hi",
+    "localName": "फ्रीड्रिख शिलर",
+    "correctName": "फ्रेडरिक शिलर"
+  },
+  {
+    "slug": "friedrich-schiller",
+    "locale": "ja",
+    "localName": "フリードリヒ・シラー",
+    "correctName": "フリードリヒ・フォン・シラー"
+  },
+  {
+    "slug": "friedrich-schiller",
+    "locale": "ru",
+    "localName": "Фридрих Шиллер",
+    "correctName": "Шиллер, Фридрих"
+  },
+  {
+    "slug": "george-washington-carver",
+    "locale": "ar",
+    "localName": "جورج واشنطن كارفير",
+    "correctName": "جورج واشنطن كارفر"
+  },
+  {
+    "slug": "george-washington-carver",
+    "locale": "fr",
+    "localName": "George Washington sculpteur",
+    "correctName": "George Washington Carver"
+  },
+  {
+    "slug": "george-washington-carver",
+    "locale": "ja",
+    "localName": "ジョージ・ワシントン・カーター",
+    "correctName": "ジョージ・ワシントン・カーヴァー"
+  },
+  {
+    "slug": "george-washington-carver",
+    "locale": "ko",
+    "localName": "조지 워싱턴 ��버",
+    "correctName": "조지 워싱턴 카버"
+  },
+  {
+    "slug": "george-washington-carver",
+    "locale": "ru",
+    "localName": "Джордж Вашингтон Карвер",
+    "correctName": "Карвер, Джордж Вашингтон"
+  },
+  {
+    "slug": "george-washington-carver",
+    "locale": "zh",
+    "localName": "乔治·华盛顿·卡弗",
+    "correctName": "喬治·華盛頓·卡弗"
+  },
+  {
+    "slug": "al-ghazali",
+    "locale": "de",
+    "localName": "Al-Ghazali",
+    "correctName": "Al-Ghazālī"
+  },
+  {
+    "slug": "al-ghazali",
+    "locale": "hi",
+    "localName": "अल-ग़ज़ाली",
+    "correctName": "अल ग़ज़ाली"
+  },
+  {
+    "slug": "al-ghazali",
+    "locale": "ja",
+    "localName": "アル・ガザーリー",
+    "correctName": "ガザーリー"
+  },
+  {
+    "slug": "al-ghazali",
+    "locale": "ko",
+    "localName": "알 가잘리",
+    "correctName": "가잘리"
+  },
+  {
+    "slug": "al-ghazali",
+    "locale": "pt",
+    "localName": "Al-Ghazali",
+    "correctName": "Algazali"
+  },
+  {
+    "slug": "al-ghazali",
+    "locale": "ru",
+    "localName": "Аль-Газали",
+    "correctName": "Абу Хамид аль-Газали"
+  },
+  {
+    "slug": "al-ghazali",
+    "locale": "zh",
+    "localName": "阿尔-加扎利",
+    "correctName": "安萨里"
+  },
+  {
+    "slug": "ibn-khaldun",
+    "locale": "de",
+    "localName": "Ibn Khaldun",
+    "correctName": "Ibn Chaldūn"
+  },
+  {
+    "slug": "ibn-khaldun",
+    "locale": "es",
+    "localName": "Ibn Khaldun",
+    "correctName": "Ibn Jaldún"
+  },
+  {
+    "slug": "ibn-khaldun",
+    "locale": "pt",
+    "localName": "Ibn Khaldun",
+    "correctName": "Ibne Caldune"
+  },
+  {
+    "slug": "maimonides",
+    "locale": "fr",
+    "localName": "Maïmonide",
+    "correctName": "Moïse Maïmonide"
+  },
+  {
+    "slug": "maimonides",
+    "locale": "hi",
+    "localName": "माइमोनाइड्स",
+    "correctName": "मैमोनिदेस"
+  },
+  {
+    "slug": "maimonides",
+    "locale": "it",
+    "localName": "Maimonide",
+    "correctName": "Mosè Maimonide"
+  },
+  {
+    "slug": "maimonides",
+    "locale": "ja",
+    "localName": "マイモニデス",
+    "correctName": "モーシェ・ベン＝マイモーン"
+  },
+  {
+    "slug": "maimonides",
+    "locale": "zh",
+    "localName": "迈蒙尼德",
+    "correctName": "邁蒙尼德"
+  },
+  {
+    "slug": "zoroaster",
+    "locale": "hi",
+    "localName": "जरथुस्त्र",
+    "correctName": "ज़रथुश्त्र"
+  },
+  {
+    "slug": "zoroaster",
+    "locale": "it",
+    "localName": "Zoroastro",
+    "correctName": "Zaratustra"
+  },
+  {
+    "slug": "zoroaster",
+    "locale": "ja",
+    "localName": "ゾロアスター",
+    "correctName": "ザラスシュトラ"
+  },
+  {
+    "slug": "zoroaster",
+    "locale": "ko",
+    "localName": "조로아스터",
+    "correctName": "자라투스트라"
+  },
+  {
+    "slug": "zoroaster",
+    "locale": "pt",
+    "localName": "Zoroastro",
+    "correctName": "Zaratustra"
+  },
+  {
+    "slug": "zoroaster",
+    "locale": "ru",
+    "localName": "Зороастр",
+    "correctName": "Заратуштра"
+  },
+  {
+    "slug": "miguel-de-cervantes",
+    "locale": "ru",
+    "localName": "Мигель де Сервантес",
+    "correctName": "Сервантес, Мигель де"
+  },
+  {
+    "slug": "leo-tolstoy",
+    "locale": "de",
+    "localName": "Leo Tolstoi",
+    "correctName": "Lew Nikolajewitsch Tolstoi"
+  },
+  {
+    "slug": "leo-tolstoy",
+    "locale": "hi",
+    "localName": "लियो टॉल्स्टॉय",
+    "correctName": "लेव तोलस्तोय"
+  },
+  {
+    "slug": "leo-tolstoy",
+    "locale": "ru",
+    "localName": "Лев Толстой",
+    "correctName": "Толстой, Лев Николаевич"
+  },
+  {
+    "slug": "leo-tolstoy",
+    "locale": "zh",
+    "localName": "列夫·托尔斯泰",
+    "correctName": "列夫·托爾斯泰"
+  },
+  {
+    "slug": "murasaki-shikibu",
+    "locale": "hi",
+    "localName": "मुरासाकी शिकिबु",
+    "correctName": "मुरासाकि शिकिबु"
+  },
+  {
+    "slug": "edgar-degas",
+    "locale": "hi",
+    "localName": "एडगर डेगा",
+    "correctName": "एद्गर देगास"
+  },
+  {
+    "slug": "edgar-degas",
+    "locale": "ru",
+    "localName": "Эдгар Дега",
+    "correctName": "Дега, Эдгар"
+  },
+  {
+    "slug": "oscar-wilde",
+    "locale": "ru",
+    "localName": "Оскар Уайльд",
+    "correctName": "Уайльд, Оскар"
+  },
+  {
+    "slug": "rabindranath-tagore",
+    "locale": "ar",
+    "localName": "رابندرانات طاغور",
+    "correctName": "روبندرونات طاغور"
+  },
+  {
+    "slug": "rabindranath-tagore",
+    "locale": "hi",
+    "localName": "रबीन्द्रनाथ टैगोर",
+    "correctName": "रबीन्द्रनाथ ठाकुर"
+  },
+  {
+    "slug": "rabindranath-tagore",
+    "locale": "ru",
+    "localName": "Рабиндранат Тагор",
+    "correctName": "Тагор, Рабиндранат"
+  },
+  {
+    "slug": "rabindranath-tagore",
+    "locale": "zh",
+    "localName": "拉宾德拉纳特·泰戈尔",
+    "correctName": "罗宾德拉纳特·泰戈尔"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "ar",
+    "localName": "ثور خوانا إينيس دي لا كروز",
+    "correctName": "خوانا إينيس دي لا كروث"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "de",
+    "localName": "Sor Juana Ines de la Cruz",
+    "correctName": "Juana Inés de la Cruz"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "es",
+    "localName": "Sor Juana Inés de la Cruz",
+    "correctName": "Juana Inés de la Cruz"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "fr",
+    "localName": "Sor Juana Inès de la Cruz",
+    "correctName": "Juana Inés de la Cruz"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "it",
+    "localName": "Sor Juana Inés de la Cruz",
+    "correctName": "Juana Inés de la Cruz"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "ja",
+    "localName": "ソル・フアナ・イネス・デ・ラ・クルス",
+    "correctName": "ソル・フアナ＝イネス・デ・ラ・クルス"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "ko",
+    "localName": "소르 후아나 이네스 데 라 크루스",
+    "correctName": "후아나 이네스 데 라 크루스"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "pt",
+    "localName": "Sor Juana Inês de la Cruz",
+    "correctName": "Juana Inés de la Cruz"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "ru",
+    "localName": "Со́р Хуа́на Ине́с де ла Кру́с",
+    "correctName": "Хуана Инес де ла Крус"
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "locale": "zh",
+    "localName": "索尔·胡安娜·伊内斯·德·拉·克鲁斯",
+    "correctName": "胡安娜·伊内斯·德拉克鲁兹"
+  },
+  {
+    "slug": "li-qingzhao",
+    "locale": "fa",
+    "localName": "لی چینگ‌ژائو",
+    "correctName": "لی کینگژائو"
+  },
+  {
+    "slug": "matsuo-basho",
+    "locale": "de",
+    "localName": "Matsuo Basho",
+    "correctName": "Matsuo Bashō"
+  },
+  {
+    "slug": "matsuo-basho",
+    "locale": "es",
+    "localName": "Matsuo Basho",
+    "correctName": "Matsuo Bashō"
+  },
+  {
+    "slug": "matsuo-basho",
+    "locale": "fr",
+    "localName": "Matsuo Basho",
+    "correctName": "Matsuo Bashō"
+  },
+  {
+    "slug": "matsuo-basho",
+    "locale": "it",
+    "localName": "Matsuo Basho",
+    "correctName": "Matsuo Bashō"
+  },
+  {
+    "slug": "matsuo-basho",
+    "locale": "pt",
+    "localName": "Matsuo Basho",
+    "correctName": "Matsuo Bashō"
+  },
+  {
+    "slug": "matsuo-basho",
+    "locale": "ru",
+    "localName": "Мацуо Басё",
+    "correctName": "Басё"
+  },
+  {
+    "slug": "william-wilberforce",
+    "locale": "ru",
+    "localName": "Уильям Уилберфорс",
+    "correctName": "Уилберфорс, Уильям"
+  },
+  {
+    "slug": "william-wilberforce",
+    "locale": "zh",
+    "localName": "威廉·威尔伯福斯",
+    "correctName": "威廉·威伯福斯"
+  },
+  {
+    "slug": "toussaint-louverture",
+    "locale": "hi",
+    "localName": "तूसैन-लुवरच्यर",
+    "correctName": "तोसेंट लौवर्चर"
+  },
+  {
+    "slug": "toussaint-louverture",
+    "locale": "ja",
+    "localName": "トゥサン・ルヴェルチュール",
+    "correctName": "トゥーサン・ルーヴェルチュール"
+  },
+  {
+    "slug": "toussaint-louverture",
+    "locale": "ru",
+    "localName": "Туссен-Лувертю́р",
+    "correctName": "Туссен-Лувертюр, Франсуа Доминик"
+  },
+  {
+    "slug": "toussaint-louverture",
+    "locale": "vi",
+    "localName": "Tháp Toussaint",
+    "correctName": "Toussaint Louverture"
+  },
+  {
+    "slug": "toussaint-louverture",
+    "locale": "zh",
+    "localName": "图森·卢维杜尔",
+    "correctName": "杜桑·盧維杜爾"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "fr",
+    "localName": "Vérité du séjour",
+    "correctName": "Sojourner Truth"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "ha",
+    "localName": "Gaskiya Baƙo",
+    "correctName": "Sojourner Truth"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "ja",
+    "localName": "ソジャーナ―・トゥルース",
+    "correctName": "ソジャーナ・トゥルース"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "sw",
+    "localName": "Ukweli Mgeni",
+    "correctName": "Sojourner Truth"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "vi",
+    "localName": "Sự thật về khách du lịch",
+    "correctName": "Sojourner Truth"
+  },
+  {
+    "slug": "sojourner-truth",
+    "locale": "zh",
+    "localName": "索杰纳·特鲁斯",
+    "correctName": "索杰纳·特鲁思"
+  },
+  {
+    "slug": "emmeline-pankhurst",
+    "locale": "ar",
+    "localName": "إيميلين بانكيرست",
+    "correctName": "إميلين بانكيرست"
+  },
+  {
+    "slug": "emmeline-pankhurst",
+    "locale": "ru",
+    "localName": "Эммелин Панкхёрст",
+    "correctName": "Панкхёрст, Эммелин"
+  },
+  {
+    "slug": "emmeline-pankhurst",
+    "locale": "zh",
+    "localName": "艾米琳·潘克赫斯特",
+    "correctName": "艾米琳·潘克斯特"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "de",
+    "localName": "Jose Rizal",
+    "correctName": "José Rizal"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "es",
+    "localName": "Jose Rizal",
+    "correctName": "José Rizal"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "fr",
+    "localName": "Jose Rizal",
+    "correctName": "José Rizal"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "hi",
+    "localName": "जोस रिज़ल",
+    "correctName": "होसे रिसाल"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "it",
+    "localName": "Jose Rizal",
+    "correctName": "José Rizal"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "pt",
+    "localName": "Jose Rizal",
+    "correctName": "José Rizal"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "ru",
+    "localName": "Хосе Рисаль",
+    "correctName": "Рисаль, Хосе"
+  },
+  {
+    "slug": "jose-rizal",
+    "locale": "zh",
+    "localName": "何塞·黎刹",
+    "correctName": "黎剎"
+  },
+  {
+    "slug": "mary-wollstonecraft",
+    "locale": "fr",
+    "localName": "Marie Wollstonecraft",
+    "correctName": "Mary Wollstonecraft"
+  },
+  {
+    "slug": "mary-wollstonecraft",
+    "locale": "hi",
+    "localName": "मैरी वोलस्टोनक्राफ्ट",
+    "correctName": "मैरी वोलस्टोनक्राफ़्ट"
+  },
+  {
+    "slug": "mary-wollstonecraft",
+    "locale": "ru",
+    "localName": "Мэри Уолстонкрафт",
+    "correctName": "Уолстонкрафт, Мэри"
+  },
+  {
+    "slug": "lucretia-mott",
+    "locale": "fr",
+    "localName": "Lucrèce Mott",
+    "correctName": "Lucretia Mott"
+  },
+  {
+    "slug": "lucretia-mott",
+    "locale": "ja",
+    "localName": "ルクレティア・モット",
+    "correctName": "ルクレシア・モット"
+  },
+  {
+    "slug": "lucretia-mott",
+    "locale": "ko",
+    "localName": "루크레티아 모트",
+    "correctName": "루크리셔 모트"
+  },
+  {
+    "slug": "lucretia-mott",
+    "locale": "ru",
+    "localName": "Лукреция Мотт",
+    "correctName": "Мотт, Лукреция"
+  },
+  {
+    "slug": "lucretia-mott",
+    "locale": "zh",
+    "localName": "卢克蕾蒂亚·莫特",
+    "correctName": "柳克丽霞·莫特"
+  },
+  {
+    "slug": "marco-polo",
+    "locale": "ru",
+    "localName": "Марко Поло",
+    "correctName": "Поло, Марко"
+  },
+  {
+    "slug": "vasco-da-gama",
+    "locale": "de",
+    "localName": "Vasco Da Gama",
+    "correctName": "Vasco da Gama"
+  },
+  {
+    "slug": "vasco-da-gama",
+    "locale": "es",
+    "localName": "Vasco Da Gama",
+    "correctName": "Vasco da Gama"
+  },
+  {
+    "slug": "vasco-da-gama",
+    "locale": "hi",
+    "localName": "वास्को डी गामा",
+    "correctName": "वास्को द गामा"
+  },
+  {
+    "slug": "vasco-da-gama",
+    "locale": "it",
+    "localName": "Vasco Da Gama",
+    "correctName": "Vasco da Gama"
+  },
+  {
+    "slug": "vasco-da-gama",
+    "locale": "zh",
+    "localName": "瓦斯科·达·伽马",
+    "correctName": "瓦斯科·達伽馬"
+  },
+  {
+    "slug": "ferdinand-magellan",
+    "locale": "ar",
+    "localName": "فرديناند ماجلان",
+    "correctName": "فرناندو ماجلان"
+  },
+  {
+    "slug": "ferdinand-magellan",
+    "locale": "hi",
+    "localName": "फर्डिनेंड मैगेलन",
+    "correctName": "फ़र्दिनान्द मैगलन"
+  },
+  {
+    "slug": "ferdinand-magellan",
+    "locale": "ru",
+    "localName": "Фердинанд Магеллан",
+    "correctName": "Магеллан, Фернан"
+  },
+  {
+    "slug": "ferdinand-magellan",
+    "locale": "zh",
+    "localName": "费迪南·麦哲伦",
+    "correctName": "斐迪南·麥哲倫"
+  },
+  {
+    "slug": "cornelius-vanderbilt",
+    "locale": "ar",
+    "localName": "كورنيليوس فاندربيلت",
+    "correctName": "كورنليوس فاندربلت"
+  },
+  {
+    "slug": "cornelius-vanderbilt",
+    "locale": "ko",
+    "localName": "코르넬리우스 밴더빌트",
+    "correctName": "코닐리어스 밴더빌트"
+  },
+  {
+    "slug": "cornelius-vanderbilt",
+    "locale": "ru",
+    "localName": "Корнелиус Вандербильт",
+    "correctName": "Вандербильт, Корнелиус"
+  },
+  {
+    "slug": "cornelius-vanderbilt",
+    "locale": "zh",
+    "localName": "科尼利厄斯·范德比尔特",
+    "correctName": "康内留斯·范德比尔特"
+  },
+  {
+    "slug": "zhang-qian",
+    "locale": "ja",
+    "localName": "張騫 (ちょうけん)",
+    "correctName": "張騫"
+  },
+  {
+    "slug": "zhang-qian",
+    "locale": "zh",
+    "localName": "张骞",
+    "correctName": "張騫"
+  },
+  {
+    "slug": "zheng-he",
+    "locale": "ja",
+    "localName": "鄭和 (テイワ)",
+    "correctName": "鄭和"
+  },
+  {
+    "slug": "zheng-he",
+    "locale": "ko",
+    "localName": "정화",
+    "correctName": "정화 (명나라)"
+  },
+  {
+    "slug": "zheng-he",
+    "locale": "zh",
+    "localName": "郑和",
+    "correctName": "鄭和"
+  },
+  {
+    "slug": "leif-erikson",
+    "locale": "pt",
+    "localName": "Leif Erikson",
+    "correctName": "Leif Eriksson"
+  },
+  {
+    "slug": "leif-erikson",
+    "locale": "ru",
+    "localName": "Лейф Эрикссон",
+    "correctName": "Лейф"
+  },
+  {
+    "slug": "leif-erikson",
+    "locale": "zh",
+    "localName": "雷夫·埃里克森",
+    "correctName": "萊夫·埃里克松"
+  }
+]

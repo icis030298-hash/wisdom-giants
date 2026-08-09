@@ -71,8 +71,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const giant = giants.find(g => g.slug === slug);
   
-  if (!giant) return {
-    robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },};
+  if (!giant) notFound();
 
   const messages = await getMessages({ locale });
   const tBrand = await getTranslations({ locale, namespace: 'brand' });

@@ -1,0 +1,752 @@
+[
+  {
+    "slug": "antoine-lavoisier",
+    "nameEn": "Antoine Lavoisier",
+    "names": {
+      "fr": "Antoine Lavoisier",
+      "ko": "앙투안 라부아지에",
+      "en": "Antoine Lavoisier",
+      "id": "Antoine Lavoisier",
+      "fa": "آنتوان لاووازیه",
+      "es": "Antoine Lavoisier",
+      "ru": "Антуан Лавуазье",
+      "zh": "安托万·拉瓦锡",
+      "ja": "アントワーヌ・ラヴォアジエ"
+    }
+  },
+  {
+    "slug": "li-shizhen",
+    "nameEn": "Li Shizhen",
+    "names": {
+      "fr": "Li Shizhen",
+      "ko": "이시진",
+      "en": "Li Shizhen",
+      "id": "Li Shizhen",
+      "fa": "لی شیژن",
+      "es": "Li Shizhen",
+      "ru": "Ли Шижэнь",
+      "zh": "李时珍",
+      "ja": "李時珍"
+    }
+  },
+  {
+    "slug": "guglielmo-marconi",
+    "nameEn": "Guglielmo Marconi",
+    "names": {
+      "fr": "Guglielmo Marconi",
+      "ko": "굴리엘모 마르코니",
+      "en": "Guglielmo Marconi",
+      "id": "Guglielmo Marconi",
+      "fa": "گولیلمو مارکونی",
+      "es": "Guglielmo Marconi",
+      "ru": "Гульельмо Маркони",
+      "zh": "古列尔莫·马可尼",
+      "ja": "グリエルモ・マルコーニ"
+    }
+  },
+  {
+    "slug": "robert-koch",
+    "nameEn": "Robert Koch",
+    "names": {
+      "fr": "Robert Cook",
+      "ko": "로베르트 코흐",
+      "en": "Robert Koch",
+      "id": "Robert Koch",
+      "fa": "روبرت کخ",
+      "es": "Robert Koch",
+      "ru": "Роберт Кох",
+      "zh": "罗伯特·科赫",
+      "ja": "ロベルト・コッホ"
+    }
+  },
+  {
+    "slug": "thomas-aquinas",
+    "nameEn": "Thomas Aquinas",
+    "names": {
+      "fr": "Thomas d'Aquin",
+      "ko": "토마스 아퀴나스",
+      "en": "Thomas Aquinas",
+      "id": "Thomas Aquinas",
+      "fa": "توماس آکویناس",
+      "es": "Tomás de Aquino",
+      "ru": "Фома Аквинский",
+      "zh": "托马斯·阿奎那",
+      "ja": "トマス・アクィナス"
+    }
+  },
+  {
+    "slug": "rumi",
+    "nameEn": "Rumi",
+    "names": {
+      "fr": "Rumi",
+      "ko": "루미",
+      "en": "Rumi",
+      "id": "Jalaluddin Rumi",
+      "fa": "مولوی",
+      "es": "Rumi",
+      "ru": "Руми",
+      "zh": "鲁米",
+      "ja": "ルーミー"
+    }
+  },
+  {
+    "slug": "ibn-rushd",
+    "nameEn": "Ibn Rushd",
+    "names": {
+      "fr": "Ibn Rushd",
+      "ko": "이븐 루슈드",
+      "en": "Ibn Rushd",
+      "id": "Ibnu Rusyd",
+      "fa": "ابن رشد",
+      "es": "Ibn Rushd",
+      "ru": "Ибн Рушд",
+      "zh": "伊本·鲁世德",
+      "ja": "イブン・ルシュド"
+    }
+  },
+  {
+    "slug": "william-james",
+    "nameEn": "William James",
+    "names": {
+      "fr": "William James",
+      "ko": "윌리엄 제임스",
+      "en": "William James",
+      "id": "William James",
+      "fa": "ویلیام جیمز",
+      "es": "William James",
+      "ru": "Уильям Джеймс",
+      "zh": "威廉·詹姆斯",
+      "ja": "ウィリアム・ジェームズ"
+    }
+  },
+  {
+    "slug": "friedrich-schiller",
+    "nameEn": "Friedrich Schiller",
+    "names": {
+      "fr": "Frédéric Schiller",
+      "ko": "프리드리히 실러",
+      "en": "Friedrich Schiller",
+      "id": "Friedrich Schiller",
+      "fa": "فریدریش شیلر",
+      "es": "Friedrich Schiller",
+      "ru": "Фридрих Шиллер",
+      "zh": "弗里德里希·席勒",
+      "ja": "フリードリヒ・シラー"
+    }
+  },
+  {
+    "slug": "george-washington-carver",
+    "nameEn": "George Washington Carver",
+    "names": {
+      "fr": "George Washington sculpteur",
+      "ko": "조지 워싱턴 ��버",
+      "en": "George Washington Carver",
+      "id": "George Washington Carver",
+      "fa": "جرج واشینگتن کارور",
+      "es": "George Washington Carver",
+      "ru": "Джордж Вашингтон Карвер",
+      "zh": "乔治·华盛顿·卡弗",
+      "ja": "ジョージ・ワシントン・カーター"
+    }
+  },
+  {
+    "slug": "al-ghazali",
+    "nameEn": "Al Ghazali",
+    "names": {
+      "fr": "Al-Ghazali",
+      "ko": "알 가잘리",
+      "en": "Al Ghazali",
+      "id": "Al-Ghazali",
+      "fa": "غزالی",
+      "es": "Al-Ghazali",
+      "ru": "Аль-Газали",
+      "zh": "阿尔-加扎利",
+      "ja": "アル・ガザーリー"
+    }
+  },
+  {
+    "slug": "ibn-khaldun",
+    "nameEn": "Ibn Khaldun",
+    "names": {
+      "fr": "Ibn Khaldoun",
+      "ko": "이븐 할둔",
+      "en": "Ibn Khaldun",
+      "id": "Ibnu Khaldun",
+      "fa": "ابن خلدون",
+      "es": "Ibn Khaldun",
+      "ru": "Ибн Хальдун",
+      "zh": "伊本·赫勒敦",
+      "ja": "イブン・ハルドゥーン"
+    }
+  },
+  {
+    "slug": "maimonides",
+    "nameEn": "Maimonides",
+    "names": {
+      "fr": "Maïmonide",
+      "ko": "마이모니데스",
+      "en": "Maimonides",
+      "id": "Moshe ben Maimon",
+      "fa": "ابن میمون",
+      "es": "Maimónides",
+      "ru": "Маймонид",
+      "zh": "迈蒙尼德",
+      "ja": "マイモニデス"
+    }
+  },
+  {
+    "slug": "zoroaster",
+    "nameEn": "Zoroaster",
+    "names": {
+      "fr": "Zoroastre",
+      "ko": "조로아스터",
+      "en": "Zoroaster",
+      "id": "Zarathustra",
+      "fa": "زرتشت",
+      "es": "Zoroastro",
+      "ru": "Зороастр",
+      "zh": "琐罗亚斯德",
+      "ja": "ゾロアスター"
+    }
+  },
+  {
+    "slug": "miguel-de-cervantes",
+    "nameEn": "Miguel De Cervantes",
+    "names": {
+      "fr": "Miguel de Cervantes",
+      "ko": "미겔 데 세르반테스",
+      "en": "Miguel De Cervantes",
+      "id": "Miguel de Cervantes",
+      "fa": "میگل د سروانتس",
+      "es": "Miguel de Cervantes",
+      "ru": "Мигель де Сервантес",
+      "zh": "米格尔·德·塞万提斯",
+      "ja": "ミゲル・デ・セルバンテス"
+    }
+  },
+  {
+    "slug": "leo-tolstoy",
+    "nameEn": "Leo Tolstoy",
+    "names": {
+      "fr": "Léon Tolstoï",
+      "ko": "레프 톨스토이",
+      "en": "Leo Tolstoy",
+      "id": "Leo Tolstoy",
+      "fa": "لئو تولستوی",
+      "es": "León Tolstói",
+      "ru": "Лев Толстой",
+      "zh": "列夫·托尔斯泰",
+      "ja": "レフ・トルストイ"
+    }
+  },
+  {
+    "slug": "murasaki-shikibu",
+    "nameEn": "Murasaki Shikibu",
+    "names": {
+      "fr": "Murasaki Shikibu",
+      "ko": "무라사키 시키부",
+      "en": "Murasaki Shikibu",
+      "id": "Murasaki Shikibu",
+      "fa": "موراساکی شیکیبو",
+      "es": "Murasaki Shikibu",
+      "ru": "Мурасаки Сикибу",
+      "zh": "紫式部",
+      "ja": "紫式部"
+    }
+  },
+  {
+    "slug": "edgar-degas",
+    "nameEn": "Edgar Degas",
+    "names": {
+      "fr": "Edgar Degas",
+      "ko": "에드가 드가",
+      "en": "Edgar Degas",
+      "id": "Edgar Degas",
+      "fa": "ادگار دگا",
+      "es": "Edgar Degas",
+      "ru": "Эдгар Дега",
+      "zh": "埃德加·德加",
+      "ja": "エドガー・ドガ"
+    }
+  },
+  {
+    "slug": "oscar-wilde",
+    "nameEn": "Oscar Wilde",
+    "names": {
+      "fr": "Oscar Wilde",
+      "ko": "오스카 와일드",
+      "en": "Oscar Wilde",
+      "id": "Oscar Wilde",
+      "fa": "اسکار وایلد",
+      "es": "Oscar Wilde",
+      "ru": "Оскар Уайльд",
+      "zh": "奥斯卡·王尔德",
+      "ja": "オスカー・ワイルド"
+    }
+  },
+  {
+    "slug": "rabindranath-tagore",
+    "nameEn": "Rabindranath Tagore",
+    "names": {
+      "fr": "Rabindranath Tagore",
+      "ko": "라빈드라나트 타고르",
+      "en": "Rabindranath Tagore",
+      "id": "Rabindranath Tagore",
+      "fa": "رابیندرانات تاگور",
+      "es": "Rabindranath Tagore",
+      "ru": "Рабиндранат Тагор",
+      "zh": "拉宾德拉纳特·泰戈尔",
+      "ja": "ラビンドラナート・タゴール"
+    }
+  },
+  {
+    "slug": "sor-juana-ines-de-la-cruz",
+    "nameEn": "Sor Juana Ines De La Cruz",
+    "names": {
+      "fr": "Sor Juana Inès de la Cruz",
+      "ko": "소르 후아나 이네스 데 라 크루스",
+      "en": "Sor Juana Ines De La Cruz",
+      "id": "Juana Inés de la Cruz",
+      "fa": "خوانا اینس د لا کروز",
+      "es": "Sor Juana Inés de la Cruz",
+      "ru": "Со́р Хуа́на Ине́с де ла Кру́с",
+      "zh": "索尔·胡安娜·伊内斯·德·拉·克鲁斯",
+      "ja": "ソル・フアナ・イネス・デ・ラ・クルス"
+    }
+  },
+  {
+    "slug": "li-qingzhao",
+    "nameEn": "Li Qingzhao",
+    "names": {
+      "fr": "Li Qingzhao",
+      "ko": "이청조",
+      "en": "Li Qingzhao",
+      "id": "Li Qingzhao",
+      "fa": "لی چینگ‌ژائو",
+      "es": "Li Qingzhao",
+      "ru": "Ли Цинчжао",
+      "zh": "李清照",
+      "ja": "李清照"
+    }
+  },
+  {
+    "slug": "matsuo-basho",
+    "nameEn": "Matsuo Basho",
+    "names": {
+      "fr": "Matsuo Basho",
+      "ko": "마쓰오 바쇼",
+      "en": "Matsuo Basho",
+      "id": "Matsuo Bashō",
+      "fa": "ماتسوئو باشو",
+      "es": "Matsuo Basho",
+      "ru": "Мацуо Басё",
+      "zh": "松尾芭蕉",
+      "ja": "松尾芭蕉"
+    }
+  },
+  {
+    "slug": "william-wilberforce",
+    "nameEn": "William Wilberforce",
+    "names": {
+      "fr": "William Wilberforce",
+      "ko": "윌리엄 윌버포스",
+      "en": "William Wilberforce",
+      "id": "William Wilberforce",
+      "fa": "ویلیام ویلبرفورس",
+      "es": "William Wilberforce",
+      "ru": "Уильям Уилберфорс",
+      "zh": "威廉·威尔伯福斯",
+      "ja": "ウィリアム・ウィルバーフォース"
+    }
+  },
+  {
+    "slug": "toussaint-louverture",
+    "nameEn": "Toussaint Louverture",
+    "names": {
+      "fr": "Toussaint Louverture",
+      "ko": "투생 루베르튀르",
+      "en": "Toussaint Louverture",
+      "id": "Toussaint Louverture",
+      "fa": "توسان لوورتیور",
+      "es": "Toussaint Louverture",
+      "ru": "Туссен-Лувертю́р",
+      "zh": "图森·卢维杜尔",
+      "ja": "トゥサン・ルヴェルチュール"
+    }
+  },
+  {
+    "slug": "sojourner-truth",
+    "nameEn": "Sojourner Truth",
+    "names": {
+      "fr": "Vérité du séjour",
+      "ko": "소저너 트루스",
+      "en": "Sojourner Truth",
+      "id": "Sojourner Truth",
+      "fa": "سوجرنر تروث",
+      "es": "Sojourner Truth",
+      "ru": "Соджорнер Трут",
+      "zh": "索杰纳·特鲁斯",
+      "ja": "ソジャーナ―・トゥルース"
+    }
+  },
+  {
+    "slug": "emmeline-pankhurst",
+    "nameEn": "Emmeline Pankhurst",
+    "names": {
+      "fr": "Emmeline Pankhurst",
+      "ko": "에멀린 팽크허스트",
+      "en": "Emmeline Pankhurst",
+      "id": "Emmeline Pankhurst",
+      "fa": "املین پنکهرست",
+      "es": "Emmeline Pankhurst",
+      "ru": "Эммелин Панкхёрст",
+      "zh": "艾米琳·潘克赫斯特",
+      "ja": "エメリン・パンクハースト"
+    }
+  },
+  {
+    "slug": "jose-rizal",
+    "nameEn": "Jose Rizal",
+    "names": {
+      "fr": "Jose Rizal",
+      "ko": "호세 리살",
+      "en": "Jose Rizal",
+      "id": "José Rizal",
+      "fa": "خوزه ریزال",
+      "es": "Jose Rizal",
+      "ru": "Хосе Рисаль",
+      "zh": "何塞·黎刹",
+      "ja": "ホセ・リサール"
+    }
+  },
+  {
+    "slug": "mary-wollstonecraft",
+    "nameEn": "Mary Wollstonecraft",
+    "names": {
+      "fr": "Marie Wollstonecraft",
+      "ko": "메리 울스턴크래프트",
+      "en": "Mary Wollstonecraft",
+      "id": "Mary Wollstonecraft",
+      "fa": "مری ولستون‌کرافت",
+      "es": "Mary Wollstonecraft",
+      "ru": "Мэри Уолстонкрафт",
+      "zh": "玛丽·沃斯通克拉夫特",
+      "ja": "メアリ・ウルストンクラフト"
+    }
+  },
+  {
+    "slug": "lucretia-mott",
+    "nameEn": "Lucretia Mott",
+    "names": {
+      "fr": "Lucrèce Mott",
+      "ko": "루크레티아 모트",
+      "en": "Lucretia Mott",
+      "id": "Lucretia Mott",
+      "fa": "لوکرشیا مات",
+      "es": "Lucretia Mott",
+      "ru": "Лукреция Мотт",
+      "zh": "卢克蕾蒂亚·莫特",
+      "ja": "ルクレティア・モット"
+    }
+  },
+  {
+    "slug": "marco-polo",
+    "nameEn": "Marco Polo",
+    "names": {
+      "fr": "Marco Polo",
+      "ko": "마르코 폴로",
+      "en": "Marco Polo",
+      "id": "Marco Polo",
+      "fa": "مارکو پولو",
+      "es": "Marco Polo",
+      "ru": "Марко Поло",
+      "zh": "马可·波罗",
+      "ja": "マルコ・ポーロ"
+    }
+  },
+  {
+    "slug": "vasco-da-gama",
+    "nameEn": "Vasco Da Gama",
+    "names": {
+      "fr": "Vasco de Gama",
+      "ko": "바스쿠 다 가마",
+      "en": "Vasco Da Gama",
+      "id": "Vasco da Gama",
+      "fa": "واسکو دو گاما",
+      "es": "Vasco Da Gama",
+      "ru": "Васко да Гама",
+      "zh": "瓦斯科·达·伽马",
+      "ja": "ヴァスコ・ダ・ガマ"
+    }
+  },
+  {
+    "slug": "ferdinand-magellan",
+    "nameEn": "Ferdinand Magellan",
+    "names": {
+      "fr": "Fernand de Magellan",
+      "ko": "페르디난드 마젤란",
+      "en": "Ferdinand Magellan",
+      "id": "Fernando de Magelhaens",
+      "fa": "فردیناند ماژلان",
+      "es": "Fernando de Magallanes",
+      "ru": "Фердинанд Магеллан",
+      "zh": "费迪南·麦哲伦",
+      "ja": "フェルディナンド・マゼラン"
+    }
+  },
+  {
+    "slug": "cornelius-vanderbilt",
+    "nameEn": "Cornelius Vanderbilt",
+    "names": {
+      "fr": "Cornelius Vanderbilt",
+      "ko": "코르넬리우스 밴더빌트",
+      "en": "Cornelius Vanderbilt",
+      "id": "Cornelius Vanderbilt",
+      "fa": "کرنلیوس وندربیلت",
+      "es": "Cornelius Vanderbilt",
+      "ru": "Корнелиус Вандербильт",
+      "zh": "科尼利厄斯·范德比尔特",
+      "ja": "コーネリアス・ヴァンダービルト"
+    }
+  },
+  {
+    "slug": "zhang-qian",
+    "nameEn": "Zhang Qian",
+    "names": {
+      "fr": "Zhang Qian",
+      "ko": "장건",
+      "en": "Zhang Qian",
+      "id": "Zhang Qian",
+      "fa": "ژانگ چیان",
+      "es": "Zhang Qian",
+      "ru": "Чжан Цянь",
+      "zh": "张骞",
+      "ja": "張騫 (ちょうけん)"
+    }
+  },
+  {
+    "slug": "zheng-he",
+    "nameEn": "Zheng He",
+    "names": {
+      "fr": "Zheng He",
+      "ko": "정화",
+      "en": "Zheng He",
+      "id": "Cheng Ho",
+      "fa": "چنگ هه",
+      "es": "Zheng He",
+      "ru": "Чжэн Хэ",
+      "zh": "郑和",
+      "ja": "鄭和 (テイワ)"
+    }
+  },
+  {
+    "slug": "leif-erikson",
+    "nameEn": "Leif Erikson",
+    "names": {
+      "fr": "Leif Erikson",
+      "ko": "레이프 에이릭손",
+      "en": "Leif Erikson",
+      "id": "Leif Erikson",
+      "fa": "لیف اریکسون",
+      "es": "Leif Erikson",
+      "ru": "Лейф Эрикссон",
+      "zh": "雷夫·埃里克森",
+      "ja": "レイフ・エリクソン"
+    }
+  },
+  {
+    "slug": "charlemagne",
+    "nameEn": "Charlemagne",
+    "names": {
+      "fr": "Charlemagne",
+      "ko": "샤를마뉴",
+      "en": "Charlemagne",
+      "id": "Karolus Agung",
+      "fa": "شارلمانی",
+      "es": "Carlomagno",
+      "ru": "Карл Великий",
+      "zh": "查理曼大帝",
+      "ja": "カール大帝"
+    }
+  },
+  {
+    "slug": "pachacuti",
+    "nameEn": "Pachacuti",
+    "names": {
+      "fr": "Pachacuti",
+      "ko": "파차쿠티",
+      "en": "Pachacuti",
+      "id": "Pachacuti",
+      "fa": "پاچاکوتی",
+      "es": "Pachacútec",
+      "ru": "Пачакути",
+      "zh": "帕查库特克",
+      "ja": "パチャクテク"
+    }
+  },
+  {
+    "slug": "akbar-the-great",
+    "nameEn": "Akbar the Great",
+    "names": {
+      "fr": "Akbar le Grand",
+      "ko": "악바르 대제",
+      "en": "Akbar the Great",
+      "id": "Akbar yang Agung",
+      "fa": "اکبر کبیر",
+      "es": "Akbar el Grande",
+      "ru": "Акбар Великий",
+      "zh": "阿克巴大帝",
+      "ja": "アクバル大帝"
+    }
+  },
+  {
+    "slug": "queen-nzinga",
+    "nameEn": "Queen Nzinga",
+    "names": {
+      "fr": "Reine Nzinga",
+      "ko": "은징가 여왕",
+      "en": "Queen Nzinga",
+      "id": "Ratu Nzinga",
+      "fa": "ملکه انزینگا",
+      "es": "Reina Nzinga",
+      "ru": "Королева Нзинга",
+      "zh": "恩津加女王",
+      "ja": "ンジンガ女王"
+    }
+  },
+  {
+    "slug": "epicurus",
+    "nameEn": "Epicurus",
+    "names": {
+      "fr": "Épicure",
+      "ko": "에피쿠로스",
+      "en": "Epicurus",
+      "id": "Epikuros",
+      "fa": "اپیکور",
+      "es": "Epicuro",
+      "ru": "Эпикур",
+      "zh": "伊壁鸠鲁",
+      "ja": "エピクロス"
+    }
+  },
+  {
+    "slug": "michael-faraday",
+    "nameEn": "Michael Faraday",
+    "names": {
+      "fr": "Michel Faraday",
+      "ko": "마이클 패러데이",
+      "en": "Michael Faraday",
+      "id": "Michael Faraday",
+      "fa": "مایکل فارادی",
+      "es": "Michael Faraday",
+      "ru": "Майкл Фарадей",
+      "zh": "迈克尔·法拉第",
+      "ja": "マイケル・ファラデー"
+    }
+  },
+  {
+    "slug": "william-the-conqueror",
+    "nameEn": "William The Conqueror",
+    "names": {
+      "fr": "Guillaume le Conquérant",
+      "ko": "정복왕 윌리엄",
+      "en": "William The Conqueror",
+      "id": "William sang Penakluk",
+      "fa": "ویلیام فاتح",
+      "es": "Guillermo el Conquistador",
+      "ru": "Вильгельм Завоеватель",
+      "zh": "征服者威廉",
+      "ja": "征服王ウィリアム"
+    }
+  },
+  {
+    "slug": "cyrus-the-great",
+    "nameEn": "Cyrus The Great",
+    "names": {
+      "fr": "Cyrus le Grand",
+      "ko": "키루스 대왕",
+      "en": "Cyrus The Great",
+      "id": "Koresh Agung",
+      "fa": "کوروش بزرگ",
+      "es": "Ciro el Grande",
+      "ru": "Кир Великий",
+      "zh": "居鲁士大帝",
+      "ja": "キュロス大王"
+    }
+  },
+  {
+    "slug": "erwin-schrodinger",
+    "nameEn": "Erwin Schrodinger",
+    "names": {
+      "fr": "Erwin Schrödinger",
+      "ko": "에르빈 슈뢰딩거",
+      "en": "Erwin Schrodinger",
+      "id": "Erwin Schrödinger",
+      "fa": "اروین شرودینگر",
+      "es": "Erwin Schrödinger",
+      "ru": "Эрвин Шрёдингер",
+      "zh": "埃尔文·薛定谔",
+      "ja": "エルヴィン・シュレーディンガー"
+    }
+  },
+  {
+    "slug": "giuseppe-garibaldi",
+    "nameEn": "Giuseppe Garibaldi",
+    "names": {
+      "fr": "Giuseppe Garibaldi",
+      "ko": "주세페 가리발디",
+      "en": "Giuseppe Garibaldi",
+      "id": "Giuseppe Garibaldi",
+      "fa": "جوزپه گاریبالدی",
+      "es": "Giuseppe Garibaldi",
+      "ru": "Джузеппе Гарибальди",
+      "zh": "朱塞佩·加里波第",
+      "ja": "ジュゼッペ・ガリバルディ"
+    }
+  },
+  {
+    "slug": "james-clerk-maxwell",
+    "nameEn": "James Clerk Maxwell",
+    "names": {
+      "fr": "James Clerk Maxwell",
+      "ko": "제임스 클럭 맥스웰",
+      "en": "James Clerk Maxwell",
+      "id": "James Clerk Maxwell",
+      "fa": "جیمز کلارک ماکسول",
+      "es": "James Clerk Maxwell",
+      "ru": "Джеймс Клерк Максвелл",
+      "zh": "詹姆斯·克拉克·麦克斯韦",
+      "ja": "ジェームズ・クラーク・マクスウェル"
+    }
+  },
+  {
+    "slug": "moctezuma-ii",
+    "nameEn": "Moctezuma II",
+    "names": {
+      "fr": "Moctezuma II",
+      "ko": "몬테수마 2세",
+      "en": "Moctezuma II",
+      "id": "Motecuzoma II",
+      "fa": "موکتزومای دوم",
+      "es": "Moctezuma II",
+      "ru": "Монтесума II",
+      "zh": "蒙特苏马二世",
+      "ja": "モンテスマ2世"
+    }
+  },
+  {
+    "slug": "tran-hung-dao",
+    "nameEn": "Tran Hung Dao",
+    "names": {
+      "fr": "Trần Hưng Đạo",
+      "ko": "쩐흥다오",
+      "en": "Tran Hung Dao",
+      "id": "Trần Hưng Đạo",
+      "fa": "تران هونگ دائو",
+      "es": "Trần Hưng Đạo",
+      "ru": "Чан Хынг Дао",
+      "zh": "陈兴道",
+      "ja": "陳興道 (チン・フン・ダオ)"
+    }
+  }
+]

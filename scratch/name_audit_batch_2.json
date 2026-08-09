@@ -1,0 +1,752 @@
+[
+  {
+    "slug": "harriet-beecher-stowe",
+    "nameEn": "Harriet Beecher Stowe",
+    "names": {
+      "fr": "Harriet Beecher-Stowe",
+      "ko": "해리엇 비처 스토",
+      "en": "Harriet Beecher Stowe",
+      "id": "Harriet Beecher Stowe",
+      "fa": "هریت بیچر استو",
+      "es": "Harriet Beecher Stowe",
+      "ru": "Гарриет Бичер-Стоу",
+      "zh": "哈丽雅特·比彻·斯托",
+      "ja": "ハリエット・ビーチャー・ストウ"
+    }
+  },
+  {
+    "slug": "kim-gu",
+    "nameEn": "Kim Gu",
+    "names": {
+      "fr": "Kim Gu",
+      "ko": "김구",
+      "en": "Kim Gu",
+      "id": "Kim Koo",
+      "fa": "کیم کو",
+      "es": "Kim Gu",
+      "ru": "Ким Гу",
+      "zh": "金九",
+      "ja": "キム・グ"
+    }
+  },
+  {
+    "slug": "buddha",
+    "nameEn": "Buddha",
+    "names": {
+      "fr": "Bouddha",
+      "ko": "붓다",
+      "en": "Buddha",
+      "id": "Siddhattha Gotama",
+      "fa": "گوتاما بودا",
+      "es": "Buda",
+      "ru": "Будда",
+      "zh": "佛陀",
+      "ja": "仏"
+    }
+  },
+  {
+    "slug": "friedrich-nietzsche",
+    "nameEn": "Friedrich Nietzsche",
+    "names": {
+      "fr": "Frédéric Nietzsche",
+      "ko": "프리드리히 니체",
+      "en": "Friedrich Nietzsche",
+      "id": "Friedrich Nietzsche",
+      "fa": "فریدریش نیچه",
+      "es": "Friedrich Nietzsche",
+      "ru": "Фридрих Ницше",
+      "zh": "弗里德里希·尼采",
+      "ja": "フリードリヒ・ニーチェ"
+    }
+  },
+  {
+    "slug": "immanuel-kant",
+    "nameEn": "Immanuel Kant",
+    "names": {
+      "fr": "Emmanuel Kant",
+      "ko": "이마누엘 칸트",
+      "en": "Immanuel Kant",
+      "id": "Immanuel Kant",
+      "fa": "ایمانوئل کانت",
+      "es": "Immanuel Kant",
+      "ru": "Иммануил Кант",
+      "zh": "伊曼努尔·康德",
+      "ja": "イマヌエル・カント"
+    }
+  },
+  {
+    "slug": "rene-descartes",
+    "nameEn": "Rene Descartes",
+    "names": {
+      "fr": "René Descartes",
+      "ko": "르네 데카르트",
+      "en": "Rene Descartes",
+      "id": "René Descartes",
+      "fa": "رنه دکارت",
+      "es": "René Descartes",
+      "ru": "Рене Декарт",
+      "zh": "勒内·笛卡尔",
+      "ja": "ルネ・デカルト"
+    }
+  },
+  {
+    "slug": "jean-jacques-rousseau",
+    "nameEn": "Jean Jacques Rousseau",
+    "names": {
+      "fr": "Jean-Jacques Rousseau",
+      "ko": "장 자크 루소",
+      "en": "Jean Jacques Rousseau",
+      "id": "Jean-Jacques Rousseau",
+      "fa": "ژان-ژاک روسو",
+      "es": "Jean Jacques Rousseau",
+      "ru": "Жан-Жак Руссо",
+      "zh": "让-雅克·卢梭",
+      "ja": "ジャン・ジャック・ルソー"
+    }
+  },
+  {
+    "slug": "sigmund-freud",
+    "nameEn": "Sigmund Freud",
+    "names": {
+      "fr": "Sigmond Freud",
+      "ko": "지그문트 프로이트",
+      "en": "Sigmund Freud",
+      "id": "Sigmund Freud",
+      "fa": "زیگموند فروید",
+      "es": "Sigmund Freud",
+      "ru": "Зигмунд Фрейд",
+      "zh": "西格蒙德·弗洛伊德",
+      "ja": "ジークムント・フロイト"
+    }
+  },
+  {
+    "slug": "carl-jung",
+    "nameEn": "Carl Jung",
+    "names": {
+      "fr": "Carl Jung",
+      "ko": "칼 융",
+      "en": "Carl Jung",
+      "id": "Carl Gustav Jung",
+      "fa": "کارل گوستاو یونگ",
+      "es": "Carl Jung",
+      "ru": "Карл Юнг",
+      "zh": "卡尔·荣格",
+      "ja": "カール・ユング"
+    }
+  },
+  {
+    "slug": "baruch-spinoza",
+    "nameEn": "Baruch Spinoza",
+    "names": {
+      "fr": "Baruch Spinoza",
+      "ko": "바뤼흐 스피노자",
+      "en": "Baruch Spinoza",
+      "id": "Baruch de Spinoza",
+      "fa": "باروخ اسپینوزا",
+      "es": "Baruch Spinoza",
+      "ru": "Бенедикт Спиноза",
+      "zh": "巴鲁赫·斯宾诺莎",
+      "ja": "バルーク スピノザ"
+    }
+  },
+  {
+    "slug": "sun-tzu",
+    "nameEn": "Sun Tzu",
+    "names": {
+      "fr": "Sun Tzu",
+      "ko": "손무",
+      "en": "Sun Tzu",
+      "id": "Sun Zi",
+      "fa": "سون تزو",
+      "es": "Sun Tzu",
+      "ru": "Сунь-цзы",
+      "zh": "孙子",
+      "ja": "孫子"
+    }
+  },
+  {
+    "slug": "david-hume",
+    "nameEn": "David Hume",
+    "names": {
+      "fr": "David Hume",
+      "ko": "데이비드 흄",
+      "en": "David Hume",
+      "id": "David Hume",
+      "fa": "دیوید هیوم",
+      "es": "David Hume",
+      "ru": "Дэвид Юм",
+      "zh": "大卫·休谟",
+      "ja": "デビッド・ヒューム"
+    }
+  },
+  {
+    "slug": "john-locke",
+    "nameEn": "John Locke",
+    "names": {
+      "fr": "John Locke",
+      "ko": "존 로크",
+      "en": "John Locke",
+      "id": "John Locke",
+      "fa": "جان لاک",
+      "es": "John Locke",
+      "ru": "Джон Локк",
+      "zh": "约翰·洛克",
+      "ja": "ジョン・ロック"
+    }
+  },
+  {
+    "slug": "simone-de-beauvoir",
+    "nameEn": "Simone De Beauvoir",
+    "names": {
+      "fr": "Simone De Beauvoir",
+      "ko": "시몬 드 보부아르",
+      "en": "Simone De Beauvoir",
+      "id": "Simone De Beauvoir",
+      "fa": "سیمون دوبووار",
+      "es": "Simone De Beauvoir",
+      "ru": "Симона де Бовуар",
+      "zh": "西蒙娜·德·波伏娃",
+      "ja": "シモーヌ・ド・ボーヴォワール"
+    }
+  },
+  {
+    "slug": "hannah-arendt",
+    "nameEn": "Hannah Arendt",
+    "names": {
+      "fr": "Hannah Arendt",
+      "ko": "한나 아렌트",
+      "en": "Hannah Arendt",
+      "id": "Hannah Arendt",
+      "fa": "هانا آرنت",
+      "es": "Hannah Arendt",
+      "ru": "Ханна Арендт",
+      "zh": "汉娜·阿伦特",
+      "ja": "ハンナ・アーレント"
+    }
+  },
+  {
+    "slug": "soren-kierkegaard",
+    "nameEn": "Soren Kierkegaard",
+    "names": {
+      "fr": "Soren Kierkegaard",
+      "ko": "쇠렌 키에르케고르",
+      "en": "Soren Kierkegaard",
+      "id": "Søren Kierkegaard",
+      "fa": "سورن کی‌یرکگور",
+      "es": "Soren Kierkegaard",
+      "ru": "Сёрен Кьеркегор",
+      "zh": "索伦·克尔凯郭尔",
+      "ja": "ソーレン・キェルケゴール"
+    }
+  },
+  {
+    "slug": "arthur-schopenhauer",
+    "nameEn": "Arthur Schopenhauer",
+    "names": {
+      "fr": "Arthur Schopenhauer",
+      "ko": "아르투어 쇼펜하우어",
+      "en": "Arthur Schopenhauer",
+      "id": "Arthur Schopenhauer",
+      "fa": "آرتور شوپنهاور",
+      "es": "Arthur Schopenhauer",
+      "ru": "Артур Шопенгауэр",
+      "zh": "阿图尔·叔本华",
+      "ja": "アルトゥール・ショーペンハウアー"
+    }
+  },
+  {
+    "slug": "isaac-newton",
+    "nameEn": "Isaac Newton",
+    "names": {
+      "fr": "Isaac Newton",
+      "ko": "아이작 뉴턴",
+      "en": "Isaac Newton",
+      "id": "Isaac Newton",
+      "fa": "آیزاک نیوتن",
+      "es": "Isaac Newton",
+      "ru": "Исаак Ньютон",
+      "zh": "艾萨克·牛顿",
+      "ja": "アイザック・ニュートン"
+    }
+  },
+  {
+    "slug": "galileo-galilei",
+    "nameEn": "Galileo Galilei",
+    "names": {
+      "fr": "Galilée Galilée",
+      "ko": "갈릴레오 갈릴레이",
+      "en": "Galileo Galilei",
+      "id": "Galileo Galilei",
+      "fa": "گالیلئو گالیله",
+      "es": "Galileo Galilei",
+      "ru": "Галилео Галилей",
+      "zh": "伽利略·伽利莱",
+      "ja": "ガリレオ・ガリレイ"
+    }
+  },
+  {
+    "slug": "charles-darwin",
+    "nameEn": "Charles Darwin",
+    "names": {
+      "fr": "Charles Darwin",
+      "ko": "찰스 다윈",
+      "en": "Charles Darwin",
+      "id": "Charles Darwin",
+      "fa": "چارلز داروین",
+      "es": "Charles Darwin",
+      "ru": "Чарльз Дарвин",
+      "zh": "查尔斯·达尔文",
+      "ja": "チャールズ・ダーウィン"
+    }
+  },
+  {
+    "slug": "michelangelo",
+    "nameEn": "Michelangelo",
+    "names": {
+      "fr": "Michel-Ange",
+      "ko": "미켈란젤로",
+      "en": "Michelangelo",
+      "id": "Michelangelo Buonarroti",
+      "fa": "میکل‌آنژ",
+      "es": "Miguel Ángel",
+      "ru": "Микеланджело",
+      "zh": "米开朗琪罗",
+      "ja": "ミケランジェロ"
+    }
+  },
+  {
+    "slug": "claude-monet",
+    "nameEn": "Claude Monet",
+    "names": {
+      "fr": "Claude Monet",
+      "ko": "클로드 모네",
+      "en": "Claude Monet",
+      "id": "Claude Monet",
+      "fa": "کلود مونه",
+      "es": "Claude Monet",
+      "ru": "Клод Моне",
+      "zh": "克劳德·莫奈",
+      "ja": "クロード・モネ"
+    }
+  },
+  {
+    "slug": "fyodor-dostoevsky",
+    "nameEn": "Fyodor Dostoevsky",
+    "names": {
+      "fr": "Fiodor Dostoïevski",
+      "ko": "표도르 도스토옙스키",
+      "en": "Fyodor Dostoevsky",
+      "id": "Fyodor Dostoyevsky",
+      "fa": "فیودور داستایفسکی",
+      "es": "Fiódor Dostoyevski",
+      "ru": "Фёдор Достоевский",
+      "zh": "费奥多尔·陀思妥耶夫斯基",
+      "ja": "フョードル・ドストエフスキー"
+    }
+  },
+  {
+    "slug": "victor-hugo",
+    "nameEn": "Victor Hugo",
+    "names": {
+      "fr": "Victor Hugo",
+      "ko": "빅토르 위고",
+      "en": "Victor Hugo",
+      "id": "Victor Hugo",
+      "fa": "ویکتور هوگو",
+      "es": "Victor Hugo",
+      "ru": "Виктор Гюго",
+      "zh": "维克多·雨果",
+      "ja": "ヴィクトル・ユゴー"
+    }
+  },
+  {
+    "slug": "anton-chekhov",
+    "nameEn": "Anton Chekhov",
+    "names": {
+      "fr": "Anton Tchekhov",
+      "ko": "안톤 체호프",
+      "en": "Anton Chekhov",
+      "id": "Anton Chekhov",
+      "fa": "آنتون چخوف",
+      "es": "Antón Chéjov",
+      "ru": "Антон Чехов",
+      "zh": "安东·契诃夫",
+      "ja": "アントン・チェーホフ"
+    }
+  },
+  {
+    "slug": "frederic-chopin",
+    "nameEn": "Frederic Chopin",
+    "names": {
+      "fr": "Frédéric Chopin",
+      "ko": "프레데리크 쇼팽",
+      "en": "Frederic Chopin",
+      "id": "Frédéric Chopin",
+      "fa": "فردریک شوپن",
+      "es": "Frédéric Chopin",
+      "ru": "Фредерик Шопен",
+      "zh": "弗雷德里克·肖邦",
+      "ja": "フレデリック・ショパン"
+    }
+  },
+  {
+    "slug": "katsushika-hokusai",
+    "nameEn": "Katsushika Hokusai",
+    "names": {
+      "fr": "Katsushika Hokusai",
+      "ko": "카츠시카 호쿠사이",
+      "en": "Katsushika Hokusai",
+      "id": "Katsushika Hokusai",
+      "fa": "کاتسوشیکا هوکوسائی",
+      "es": "Katsushika Hokusai",
+      "ru": "Кацусика Хокусай",
+      "zh": "葛饰北斋",
+      "ja": "葛飾北斎"
+    }
+  },
+  {
+    "slug": "agatha-christie",
+    "nameEn": "Agatha Christie",
+    "names": {
+      "fr": "Agatha Christie",
+      "ko": "애가사 크리스티",
+      "en": "Agatha Christie",
+      "id": "Agatha Christie",
+      "fa": "آگاتا کریستی",
+      "es": "Agatha Christie",
+      "ru": "Агата Кристи",
+      "zh": "阿加莎·克里斯蒂",
+      "ja": "アガサ・クリスティ"
+    }
+  },
+  {
+    "slug": "mark-twain",
+    "nameEn": "Mark Twain",
+    "names": {
+      "fr": "Mark Twain",
+      "ko": "마크 트웨인",
+      "en": "Mark Twain",
+      "id": "Mark Twain",
+      "fa": "مارک تواین",
+      "es": "Mark Twain",
+      "ru": "Марк Твен",
+      "zh": "马克·吐温",
+      "ja": "マーク・トウェイン"
+    }
+  },
+  {
+    "slug": "goethe",
+    "nameEn": "Goethe",
+    "names": {
+      "fr": "Goethe",
+      "ko": "요한 볼프강 폰 괴테",
+      "en": "Goethe",
+      "id": "Johann Wolfgang von Goethe",
+      "fa": "یوهان ولفگانگ فون گوته",
+      "es": "Goethe",
+      "ru": "Иоганн Вольфганг фон Гёте",
+      "zh": "歌德",
+      "ja": "ゲーテ"
+    }
+  },
+  {
+    "slug": "mary-shelley",
+    "nameEn": "Mary Shelley",
+    "names": {
+      "fr": "Marie Shelley",
+      "ko": "메리 셸리",
+      "en": "Mary Shelley",
+      "id": "Mary Shelley",
+      "fa": "مری شلی",
+      "es": "Mary Shelley",
+      "ru": "Мэри Шелли",
+      "zh": "玛丽·雪莱",
+      "ja": "メアリー・シェリー"
+    }
+  },
+  {
+    "slug": "alexander-fleming",
+    "nameEn": "Alexander Fleming",
+    "names": {
+      "fr": "Alexandre Fleming",
+      "ko": "알렉산더 플레밍",
+      "en": "Alexander Fleming",
+      "id": "Alexander Fleming",
+      "fa": "الکساندر فلمینگ",
+      "es": "Alexander Fleming",
+      "ru": "Александр Флеминг",
+      "zh": "亚历山大·弗莱明",
+      "ja": "アレクサンダー・フレミング"
+    }
+  },
+  {
+    "slug": "alexander-hamilton",
+    "nameEn": "Alexander Hamilton",
+    "names": {
+      "fr": "Alexandre Hamilton",
+      "ko": "알렉산더 해밀턴",
+      "en": "Alexander Hamilton",
+      "id": "Alexander Hamilton",
+      "fa": "الکساندر همیلتون",
+      "es": "Alexander Hamilton",
+      "ru": "Александр Гамильтон",
+      "zh": "亚历山大·汉密尔顿",
+      "ja": "アレクサンダー・ハミルトン"
+    }
+  },
+  {
+    "slug": "benjamin-franklin",
+    "nameEn": "Benjamin Franklin",
+    "names": {
+      "fr": "Benjamin Franklin",
+      "ko": "벤저민 프랭클린",
+      "en": "Benjamin Franklin",
+      "id": "Benjamin Franklin",
+      "fa": "بنجامین فرانکلین",
+      "es": "Benjamin Franklin",
+      "ru": "Бенджамин Франклин",
+      "zh": "本杰明·富兰克林",
+      "ja": "ベンジャミン・フランクリン"
+    }
+  },
+  {
+    "slug": "francis-bacon",
+    "nameEn": "Francis Bacon",
+    "names": {
+      "fr": "François Bacon",
+      "ko": "프랜시스 베이컨",
+      "en": "Francis Bacon",
+      "id": "Francis Bacon",
+      "fa": "فرانسیس بیکن",
+      "es": "Francis Bacon",
+      "ru": "Фрэнсис Бэкон",
+      "zh": "弗朗西斯·培根",
+      "ja": "フランシス・ベーコン"
+    }
+  },
+  {
+    "slug": "johannes-kepler",
+    "nameEn": "Johannes Kepler",
+    "names": {
+      "fr": "Johannes Kepler",
+      "ko": "요하네스 케플러",
+      "en": "Johannes Kepler",
+      "id": "Johannes Kepler",
+      "fa": "یوهانس کپلر",
+      "es": "Johannes Kepler",
+      "ru": "Иоганн Кеплер",
+      "zh": "约翰内斯·开普勒",
+      "ja": "ヨハネス・ケプラー"
+    }
+  },
+  {
+    "slug": "john-f-kennedy",
+    "nameEn": "John F Kennedy",
+    "names": {
+      "fr": "John F. Kennedy",
+      "ko": "존 F. 케네디",
+      "en": "John F Kennedy",
+      "id": "John F. Kennedy",
+      "fa": "جان اف. کندی",
+      "es": "John F. Kennedy",
+      "ru": "Джон Ф. Кеннеди",
+      "zh": "约翰·肯尼迪",
+      "ja": "ジョン・F・ケネディ"
+    }
+  },
+  {
+    "slug": "queen-victoria",
+    "nameEn": "Queen Victoria",
+    "names": {
+      "fr": "Reine Victoria",
+      "ko": "빅토리아 여왕",
+      "en": "Queen Victoria",
+      "id": "Victoria dari Britania Raya",
+      "fa": "ملکه ویکتوریا",
+      "es": "Reina Victoria",
+      "ru": "Королева Виктория",
+      "zh": "维多利亚女王",
+      "ja": "ヴィクトリア女王"
+    }
+  },
+  {
+    "slug": "thomas-jefferson",
+    "nameEn": "Thomas Jefferson",
+    "names": {
+      "fr": "Thomas Jefferson",
+      "ko": "토머스 제퍼슨",
+      "en": "Thomas Jefferson",
+      "id": "Thomas Jefferson",
+      "fa": "توماس جفرسون",
+      "es": "Thomas Jefferson",
+      "ru": "Томас Джефферсон",
+      "zh": "托马斯·杰斐逊",
+      "ja": "トーマス・ジェファーソン"
+    }
+  },
+  {
+    "slug": "ahn-jung-geun",
+    "nameEn": "Ahn Jung Geun",
+    "names": {
+      "fr": "Ahn Jung Geun",
+      "ko": "안중근",
+      "en": "Ahn Jung Geun",
+      "id": "An Jung-Geun",
+      "fa": "آن جونگ گون",
+      "es": "Ahn Jung Geun",
+      "ru": "Ан Чжун Гын",
+      "zh": "安重根",
+      "ja": "安重根"
+    }
+  },
+  {
+    "slug": "empress-wu-zetian",
+    "nameEn": "Empress Wu Zetian",
+    "names": {
+      "fr": "Impératrice Wu Zetian",
+      "ko": "측천무후",
+      "en": "Empress Wu Zetian",
+      "id": "Wu Zetian",
+      "fa": "وو زتیان",
+      "es": "Emperatriz Wu Zetian",
+      "ru": "Императрица У Цзэтянь",
+      "zh": "武则天",
+      "ja": "則天武后 (武則天)"
+    }
+  },
+  {
+    "slug": "jeong-yak-yong",
+    "nameEn": "Jeong Yak Yong",
+    "names": {
+      "fr": "Jeong Yak Yong",
+      "ko": "정약용",
+      "en": "Jeong Yak Yong",
+      "id": "Jeong Yak-yong",
+      "fa": "جونگ یاک یونگ",
+      "es": "Jeong Yak Yong",
+      "ru": "Чон Як Ён",
+      "zh": "丁若镛",
+      "ja": "丁若鏞 (チョン・ヤギョン)"
+    }
+  },
+  {
+    "slug": "mencius",
+    "nameEn": "Mencius",
+    "names": {
+      "fr": "Mencius",
+      "ko": "맹자",
+      "en": "Mencius",
+      "id": "Mengzi",
+      "fa": "منسیوس",
+      "es": "Mencio",
+      "ru": "Мэн-цзы",
+      "zh": "孟子",
+      "ja": "孟子"
+    }
+  },
+  {
+    "slug": "sima-qian",
+    "nameEn": "Sima Qian",
+    "names": {
+      "fr": "Sima Qian",
+      "ko": "사마천",
+      "en": "Sima Qian",
+      "id": "Sima Qian",
+      "fa": "سیما چیان",
+      "es": "Sima Qian",
+      "ru": "Сыма Цянь",
+      "zh": "司马迁",
+      "ja": "司馬遷 (しません)"
+    }
+  },
+  {
+    "slug": "zhuangzi",
+    "nameEn": "Zhuangzi",
+    "names": {
+      "fr": "Zhuangzi",
+      "ko": "장자",
+      "en": "Zhuangzi",
+      "id": "Zhuangzi",
+      "fa": "ژوانگزی",
+      "es": "Zhuangzi",
+      "ru": "Чжуан-цзы",
+      "zh": "庄子",
+      "ja": "荘子 (そうじ)"
+    }
+  },
+  {
+    "slug": "zhuge-liang",
+    "nameEn": "Zhuge Liang",
+    "names": {
+      "fr": "Zhuge Liang",
+      "ko": "제갈량",
+      "en": "Zhuge Liang",
+      "id": "Zhuge Liang",
+      "fa": "ژوگه لیانگ",
+      "es": "Zhuge Liang",
+      "ru": "Чжугэ Лян (Zhuge Liang)",
+      "zh": "诸葛亮",
+      "ja": "諸葛亮"
+    }
+  },
+  {
+    "slug": "ashoka-the-great",
+    "nameEn": "Ashoka The Great",
+    "names": {
+      "fr": "Ashoka le Grand",
+      "ko": "아소카 대왕",
+      "en": "Ashoka The Great",
+      "id": "Asoka",
+      "fa": "آشوکا",
+      "es": "Ashoka el Grande",
+      "ru": "Ашока Великий",
+      "zh": "阿育王",
+      "ja": "アショーカ王"
+    }
+  },
+  {
+    "slug": "king-jeongjo",
+    "nameEn": "King Jeongjo",
+    "names": {
+      "fr": "Roi Jeongjo",
+      "ko": "정조",
+      "en": "King Jeongjo",
+      "id": "Jeongjo dari Joseon",
+      "fa": "جونگ‌جو چوسان",
+      "es": "Rey Jeongjo",
+      "ru": "Король Чонджо",
+      "zh": "朝鲜正祖",
+      "ja": "正祖 (チョンジョ)"
+    }
+  },
+  {
+    "slug": "li-bai",
+    "nameEn": "Li Bai",
+    "names": {
+      "fr": "Li Bai",
+      "ko": "이백",
+      "en": "Li Bai",
+      "id": "Li Bai",
+      "fa": "لی‌پو",
+      "es": "Li Bai",
+      "ru": "Ли Бо",
+      "zh": "李白",
+      "ja": "李白 (りはく)"
+    }
+  },
+  {
+    "slug": "miyamoto-musashi",
+    "nameEn": "Miyamoto Musashi",
+    "names": {
+      "fr": "Miyamoto Musashi",
+      "ko": "미야모토 무사시",
+      "en": "Miyamoto Musashi",
+      "id": "Miyamoto Musashi",
+      "fa": "میاموتو موساشی",
+      "es": "Miyamoto Musashi",
+      "ru": "Miyamoto Musashi",
+      "zh": "宫本武藏",
+      "ja": "宮本 武蔵"
+    }
+  }
+]

@@ -304,21 +304,15 @@ export function DebateRoomClient() {
       setAiRecommendations([]);
       setAiIntro("");
     }
-  }, [setupMode])
-
-  // Load premium pass state and active debate session on mount
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    
-    // Unconditionally enable premium pass for all users during AdSense review phase to prevent policy flags
-    setHasPremiumPass(true);
-    
-    // Restore active debate session
+     // Restore active debate session
     try {
       const activeSession = localStorage.getItem("giants_debate_active_session");
       if (activeSession) {
         const session = JSON.parse(activeSession);
-        if (session.stage && session.selectedGiants && session.topic) {
+        // Only restore if session matches current locale
+        if (session.locale && session.locale !== locale) {
+          localStorage.removeItem("giants_debate_active_session");
+        } else if (session.stage && session.selectedGiants && session.topic) {
           setRoomId(session.roomId || "room_" + Math.random().toString(36).substring(2, 15));
           setStage(session.stage);
           setSelectedGiants(session.selectedGiants);
@@ -334,19 +328,13 @@ export function DebateRoomClient() {
     } catch (e) {
       console.error("Failed to restore debate session:", e);
     }
-  }, []);
+  }, [locale]);
 
   // Save active debate session to localStorage
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    
-    if (stage === 1) {
-      localStorage.removeItem("giants_debate_active_session");
-      return;
-    }
-
-    try {
+    if (stage !== 1) {
       const session = {
+        locale,
         roomId,
         stage,
         selectedGiants,
@@ -356,10 +344,10 @@ export function DebateRoomClient() {
         additionalRounds
       };
       localStorage.setItem("giants_debate_active_session", JSON.stringify(session));
-    } catch (e) {
-      console.error("Failed to save debate session:", e);
+    } else {
+      localStorage.removeItem("giants_debate_active_session");
     }
-  }, [roomId, stage, selectedGiants, topic, history, currentSpeakerIndex, additionalRounds]);
+  }, [locale, roomId, stage, selectedGiants, topic, history, currentSpeakerIndex, additionalRounds]);
 
   // Check premium lock for the current roomId
   useEffect(() => {

@@ -30,8 +30,25 @@ const nextConfig = {
       destination: `/${locale}/dna`,
       statusCode: 301,
     }));
-    
-    return [...slugRedirects, ...testToDnaRedirects];
+
+    const duplicatePairs = [
+      { from: 'ataturk', to: 'mustafa-kemal-ataturk' },
+      { from: 'queen-elizabeth-i', to: 'elizabeth-i' },
+      { from: 'averroes-ibn-rushd', to: 'ibn-rushd' },
+      { from: 'avicenna-ibn-sina', to: 'ibn-sina' },
+      { from: 'zarathushtra', to: 'zoroaster' },
+      { from: 'queen-nzinga', to: 'nzinga-of-ndongo-and-matamba' },
+    ];
+
+    const duplicateRedirects = duplicatePairs.flatMap(({ from, to }) =>
+      locales.map(locale => ({
+        source: `/${locale}/giant/${from}`,
+        destination: `/${locale}/giant/${to}`,
+        statusCode: 301,
+      }))
+    );
+
+    return [...slugRedirects, ...testToDnaRedirects, ...duplicateRedirects];
   },
   images: {
     formats: ['image/webp'],

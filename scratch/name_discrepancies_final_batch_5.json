@@ -1,0 +1,824 @@
+[
+  {
+    "slug": "zenobia",
+    "locale": "fr",
+    "localName": "Zénobie",
+    "correctName": "Septimia Bathzabbai Zénobie"
+  },
+  {
+    "slug": "zenobia",
+    "locale": "hi",
+    "localName": "ज़ेनोबिया",
+    "correctName": "जेनोबिया"
+  },
+  {
+    "slug": "zenobia",
+    "locale": "zh",
+    "localName": "泽诺比娅",
+    "correctName": "芝诺比娅"
+  },
+  {
+    "slug": "georges-cuvier",
+    "locale": "ru",
+    "localName": "Жорж Кювье",
+    "correctName": "Кювье, Жорж Леопольд"
+  },
+  {
+    "slug": "georges-cuvier",
+    "locale": "zh",
+    "localName": "乔治·居维叶",
+    "correctName": "喬治·居維葉"
+  },
+  {
+    "slug": "hatshepsut",
+    "locale": "ar",
+    "localName": "حتبسوت",
+    "correctName": "حتشبسوت"
+  },
+  {
+    "slug": "heraclitus",
+    "locale": "ar",
+    "localName": "هيراقليطس",
+    "correctName": "هرقليطس"
+  },
+  {
+    "slug": "heraclitus",
+    "locale": "hi",
+    "localName": "हेराक्लिटस",
+    "correctName": "हेरक्लिटस"
+  },
+  {
+    "slug": "ramesses-ii",
+    "locale": "hi",
+    "localName": "रामसेस द्वितीय",
+    "correctName": "रामेसेस द्वितीय"
+  },
+  {
+    "slug": "ramesses-ii",
+    "locale": "pt",
+    "localName": "Ramsés II",
+    "correctName": "Ramessés II"
+  },
+  {
+    "slug": "diogenes",
+    "locale": "ar",
+    "localName": "ديوجينس",
+    "correctName": "ديوجانس الكلبي"
+  },
+  {
+    "slug": "diogenes",
+    "locale": "de",
+    "localName": "Diogenes",
+    "correctName": "Diogenes von Sinope"
+  },
+  {
+    "slug": "diogenes",
+    "locale": "es",
+    "localName": "Diógenes",
+    "correctName": "Diógenes de Sinope"
+  },
+  {
+    "slug": "diogenes",
+    "locale": "fr",
+    "localName": "Diogène",
+    "correctName": "Diogène de Sinope"
+  },
+  {
+    "slug": "diogenes",
+    "locale": "it",
+    "localName": "Diogene",
+    "correctName": "Diogene di Sinope"
+  },
+  {
+    "slug": "diogenes",
+    "locale": "ja",
+    "localName": "ディオゲネス",
+    "correctName": "ディオゲネス (犬儒学派)"
+  },
+  {
+    "slug": "diogenes",
+    "locale": "ko",
+    "localName": "디오게네스",
+    "correctName": "시노페의 디오예니스"
+  },
+  {
+    "slug": "diogenes",
+    "locale": "pt",
+    "localName": "Diogenes",
+    "correctName": "Diógenes de Sinope"
+  },
+  {
+    "slug": "diogenes",
+    "locale": "zh",
+    "localName": "第欧根尼",
+    "correctName": "锡诺普的第欧根尼"
+  },
+  {
+    "slug": "james-hutton",
+    "locale": "ar",
+    "localName": "جيمس هاتون",
+    "correctName": "جيمس هوتون"
+  },
+  {
+    "slug": "james-hutton",
+    "locale": "ko",
+    "localName": "제임스 허튼",
+    "correctName": "제임스 허턴"
+  },
+  {
+    "slug": "james-hutton",
+    "locale": "ru",
+    "localName": "Джеймс Хаттон",
+    "correctName": "Геттон, Джеймс"
+  },
+  {
+    "slug": "ernest-shackleton",
+    "locale": "ha",
+    "localName": "Ernest Shackleton ne adam wata",
+    "correctName": "Ernest Shackleton"
+  },
+  {
+    "slug": "ernest-shackleton",
+    "locale": "pt",
+    "localName": "Ernest Shackleton",
+    "correctName": "Ernest Henry Shackleton"
+  },
+  {
+    "slug": "ernest-shackleton",
+    "locale": "ru",
+    "localName": "Эрнест Шеклтон",
+    "correctName": "Шеклтон, Эрнест"
+  },
+  {
+    "slug": "dorothea-dix",
+    "locale": "ar",
+    "localName": "دورثيا ديكس",
+    "correctName": "دوروثيا ديكس"
+  },
+  {
+    "slug": "dorothea-dix",
+    "locale": "de",
+    "localName": "Dorothea Dix",
+    "correctName": "Dorothea Lynde Dix"
+  },
+  {
+    "slug": "dorothea-dix",
+    "locale": "fr",
+    "localName": "Dorothée Dix",
+    "correctName": "Dorothea Dix"
+  },
+  {
+    "slug": "dorothea-dix",
+    "locale": "ru",
+    "localName": "Доротея Дикс",
+    "correctName": "Дикс, Доротея Линда"
+  },
+  {
+    "slug": "franz-schubert",
+    "locale": "ru",
+    "localName": "Франц Шуберт",
+    "correctName": "Шуберт, Франц"
+  },
+  {
+    "slug": "franz-schubert",
+    "locale": "zh",
+    "localName": "弗兰茨·舒伯特",
+    "correctName": "弗朗茨·舒伯特"
+  },
+  {
+    "slug": "harriet-martineau",
+    "locale": "ru",
+    "localName": "Гарриет Мартино",
+    "correctName": "Мартино, Гарриет"
+  },
+  {
+    "slug": "ida-b-wells",
+    "locale": "ar",
+    "localName": "آيدا بي. ويلز",
+    "correctName": "إيدا ويلز"
+  },
+  {
+    "slug": "ida-b-wells",
+    "locale": "hi",
+    "localName": "आइडा बी. वेल्स",
+    "correctName": "इडा बी. वेल्स"
+  },
+  {
+    "slug": "ida-b-wells",
+    "locale": "ko",
+    "localName": "아이다 B. 웰스",
+    "correctName": "아이다 벨 웰스"
+  },
+  {
+    "slug": "ida-b-wells",
+    "locale": "ru",
+    "localName": "Айда Б. Уэллс",
+    "correctName": "Уэллс-Барнетт, Ида Белл"
+  },
+  {
+    "slug": "ida-b-wells",
+    "locale": "zh",
+    "localName": "艾达·B·韦尔斯",
+    "correctName": "艾達·貝爾·韋爾斯"
+  },
+  {
+    "slug": "rembrandt",
+    "locale": "ar",
+    "localName": "رمبرانت",
+    "correctName": "رامبرانت"
+  },
+  {
+    "slug": "rembrandt",
+    "locale": "de",
+    "localName": "Rembrandt",
+    "correctName": "Rembrandt van Rijn"
+  },
+  {
+    "slug": "rembrandt",
+    "locale": "hi",
+    "localName": "रेम्ब्रांट",
+    "correctName": "रैम्ब्राण्ट"
+  },
+  {
+    "slug": "rembrandt",
+    "locale": "ja",
+    "localName": "レンブラント",
+    "correctName": "レンブラント・ファン・レイン"
+  },
+  {
+    "slug": "charles-dickens",
+    "locale": "ru",
+    "localName": "Чарльз Диккенс",
+    "correctName": "Диккенс, Чарльз"
+  },
+  {
+    "slug": "clara-barton",
+    "locale": "ru",
+    "localName": "Клара Бартон",
+    "correctName": "Бартон, Клара"
+  },
+  {
+    "slug": "clara-barton",
+    "locale": "zh",
+    "localName": "克拉拉·巴顿",
+    "correctName": "克拉拉·巴頓"
+  },
+  {
+    "slug": "james-cook",
+    "locale": "ru",
+    "localName": "Джеймс Кук",
+    "correctName": "Кук, Джеймс"
+  },
+  {
+    "slug": "james-cook",
+    "locale": "zh",
+    "localName": "詹姆斯·库克",
+    "correctName": "詹姆斯·庫克"
+  },
+  {
+    "slug": "meister-eckhart",
+    "locale": "ar",
+    "localName": "مايستر إكهارت",
+    "correctName": "ميستر إكهرت"
+  },
+  {
+    "slug": "meister-eckhart",
+    "locale": "es",
+    "localName": "Meister Eckhart",
+    "correctName": "Maestro Eckhart"
+  },
+  {
+    "slug": "meister-eckhart",
+    "locale": "it",
+    "localName": "Maestro Eckhart",
+    "correctName": "Meister Eckhart"
+  },
+  {
+    "slug": "meister-eckhart",
+    "locale": "zh",
+    "localName": "迈斯特·埃克哈特",
+    "correctName": "埃克哈特大师"
+  },
+  {
+    "slug": "vitus-bering",
+    "locale": "ar",
+    "localName": "فيتوس بيرينغ",
+    "correctName": "فيتوس بيرنغ"
+  },
+  {
+    "slug": "vitus-bering",
+    "locale": "ru",
+    "localName": "Витус Беринг",
+    "correctName": "Беринг, Витус Ионассен"
+  },
+  {
+    "slug": "vitus-bering",
+    "locale": "zh",
+    "localName": "维图斯·贝林",
+    "correctName": "维图斯·白令"
+  },
+  {
+    "slug": "bartolomeu-dias",
+    "locale": "hi",
+    "localName": "बार्टोलोमियू डियास",
+    "correctName": "बारटोलोमीयु डियास"
+  },
+  {
+    "slug": "bartolomeu-dias",
+    "locale": "it",
+    "localName": "Bartolomeu Dias",
+    "correctName": "Bartolomeo Diaz"
+  },
+  {
+    "slug": "bartolomeu-dias",
+    "locale": "ko",
+    "localName": "바르톨로뮤 디아스",
+    "correctName": "바르톨로메우 디아스"
+  },
+  {
+    "slug": "bartolomeu-dias",
+    "locale": "ru",
+    "localName": "Бартоломеу Диаш",
+    "correctName": "Диаш, Бартоломеу"
+  },
+  {
+    "slug": "bartolomeu-dias",
+    "locale": "zh",
+    "localName": "巴尔托洛缪·迪亚士",
+    "correctName": "巴爾托洛梅烏·迪亞士"
+  },
+  {
+    "slug": "edward-jenner",
+    "locale": "fr",
+    "localName": "Édouard Jenner",
+    "correctName": "Edward Jenner"
+  },
+  {
+    "slug": "edward-jenner",
+    "locale": "hi",
+    "localName": "एडवर्ड जेनर",
+    "correctName": "एडवार्ड जेनर"
+  },
+  {
+    "slug": "edward-jenner",
+    "locale": "ru",
+    "localName": "Эдвард Дженнер",
+    "correctName": "Дженнер, Эдвард"
+  },
+  {
+    "slug": "edward-jenner",
+    "locale": "zh",
+    "localName": "爱德华·詹纳",
+    "correctName": "愛德華·詹納"
+  },
+  {
+    "slug": "emily-dickinson",
+    "locale": "ar",
+    "localName": "إميلي ديكنسون",
+    "correctName": "إيميلي ديكنسون"
+  },
+  {
+    "slug": "emily-dickinson",
+    "locale": "fr",
+    "localName": "Émilie Dickinson",
+    "correctName": "Emily Dickinson"
+  },
+  {
+    "slug": "emily-dickinson",
+    "locale": "ru",
+    "localName": "Эмили Дикинсон",
+    "correctName": "Дикинсон, Эмили"
+  },
+  {
+    "slug": "emily-dickinson",
+    "locale": "zh",
+    "localName": "艾米莉·狄金森",
+    "correctName": "艾蜜莉·狄金生"
+  },
+  {
+    "slug": "george-eliot",
+    "locale": "fr",
+    "localName": "Georges Eliot",
+    "correctName": "George Eliot"
+  },
+  {
+    "slug": "george-eliot",
+    "locale": "hi",
+    "localName": "जॉर्ज एलियट",
+    "correctName": "जॉर्ज इलियट"
+  },
+  {
+    "slug": "henry-hudson",
+    "locale": "fr",
+    "localName": "Henri Hudson",
+    "correctName": "Henry Hudson"
+  },
+  {
+    "slug": "henry-hudson",
+    "locale": "ru",
+    "localName": "Генри Хадсон",
+    "correctName": "Гудзон, Генри"
+  },
+  {
+    "slug": "henry-hudson",
+    "locale": "zh",
+    "localName": "亨利·哈德逊",
+    "correctName": "亨利·哈德遜"
+  },
+  {
+    "slug": "homer",
+    "locale": "ja",
+    "localName": "ホメロス",
+    "correctName": "ホメーロス"
+  },
+  {
+    "slug": "jane-austen",
+    "locale": "ar",
+    "localName": "جين أوستن",
+    "correctName": "جاين أوستن"
+  },
+  {
+    "slug": "jane-austen",
+    "locale": "hi",
+    "localName": "जेन ऑस्टेन",
+    "correctName": "जेन आस्टिन"
+  },
+  {
+    "slug": "jane-austen",
+    "locale": "ru",
+    "localName": "Джейн Остин",
+    "correctName": "Остин, Джейн"
+  },
+  {
+    "slug": "john-stuart-mill",
+    "locale": "ar",
+    "localName": "جون ستيوارت ميل",
+    "correctName": "جون ستيوارت مل"
+  },
+  {
+    "slug": "john-stuart-mill",
+    "locale": "fr",
+    "localName": "Moulin John Stuart",
+    "correctName": "John Stuart Mill"
+  },
+  {
+    "slug": "john-stuart-mill",
+    "locale": "hi",
+    "localName": "जॉन स्टुअर्ट मिल",
+    "correctName": "जॉन स्टूवर्ट मिल"
+  },
+  {
+    "slug": "john-stuart-mill",
+    "locale": "ru",
+    "localName": "Джон Стюарт Милль",
+    "correctName": "Милль, Джон Стюарт"
+  },
+  {
+    "slug": "plotinus",
+    "locale": "ar",
+    "localName": "بلوتينوس",
+    "correctName": "أفلوطين"
+  },
+  {
+    "slug": "roald-amundsen",
+    "locale": "ha",
+    "localName": "Roald Amundsen ne adam wata",
+    "correctName": "Roald Amundsen"
+  },
+  {
+    "slug": "roald-amundsen",
+    "locale": "hi",
+    "localName": "रोआल्ड अमुंडसेन",
+    "correctName": "रुआल आमुन्सन"
+  },
+  {
+    "slug": "roald-amundsen",
+    "locale": "ja",
+    "localName": "ロアル・アムンセン",
+    "correctName": "ロアール・アムンセン"
+  },
+  {
+    "slug": "roald-amundsen",
+    "locale": "ru",
+    "localName": "Руаль Амундсен",
+    "correctName": "Амундсен, Руаль"
+  },
+  {
+    "slug": "roald-amundsen",
+    "locale": "zh",
+    "localName": "罗尔德·阿蒙森",
+    "correctName": "罗阿尔·阿蒙森"
+  },
+  {
+    "slug": "elizabeth-cady-stanton",
+    "locale": "ru",
+    "localName": "Элизабет Кейди Стэнтон",
+    "correctName": "Стэнтон, Элизабет Кейди"
+  },
+  {
+    "slug": "elizabeth-cady-stanton",
+    "locale": "zh",
+    "localName": "伊丽莎白·凯迪·斯坦顿",
+    "correctName": "伊麗莎白·凱迪·斯坦頓"
+  },
+  {
+    "slug": "henrik-ibsen",
+    "locale": "hi",
+    "localName": "हेनरिक इबसेन",
+    "correctName": "हेनरिक इबसन"
+  },
+  {
+    "slug": "henrik-ibsen",
+    "locale": "ru",
+    "localName": "Генрик Ибсен",
+    "correctName": "Ибсен, Генрик"
+  },
+  {
+    "slug": "henrik-ibsen",
+    "locale": "zh",
+    "localName": "亨利克·易卜生",
+    "correctName": "亨里克·易卜生"
+  },
+  {
+    "slug": "virgil",
+    "locale": "it",
+    "localName": "Virgilio",
+    "correctName": "Publio Virgilio Marone"
+  },
+  {
+    "slug": "eleanor-of-aquitaine",
+    "locale": "ar",
+    "localName": "إليانور الأكيتانية",
+    "correctName": "إليانور آكيتاين"
+  },
+  {
+    "slug": "eleanor-of-aquitaine",
+    "locale": "ko",
+    "localName": "알리에노르 다키텐",
+    "correctName": "엘레오노르 다키텐 여공작"
+  },
+  {
+    "slug": "eleanor-of-aquitaine",
+    "locale": "pt",
+    "localName": "Leonor de Aquitânia",
+    "correctName": "Leonor da Aquitânia"
+  },
+  {
+    "slug": "eleanor-of-aquitaine",
+    "locale": "ru",
+    "localName": "Элеонора Аквитанская",
+    "correctName": "Алиенора Аквитанская"
+  },
+  {
+    "slug": "eleanor-of-aquitaine",
+    "locale": "zh",
+    "localName": "埃莉诺",
+    "correctName": "阿基坦的埃莉诺"
+  },
+  {
+    "slug": "sundiata-keita",
+    "locale": "ar",
+    "localName": "سونجاتا كييتا",
+    "correctName": "سوندياتا كيتا"
+  },
+  {
+    "slug": "sundiata-keita",
+    "locale": "de",
+    "localName": "Sundiata Keita",
+    "correctName": "Sundiata Keïta"
+  },
+  {
+    "slug": "sundiata-keita",
+    "locale": "hi",
+    "localName": "सुंदियाता कीटा",
+    "correctName": "सुनडिआटा का महाकाव्य"
+  },
+  {
+    "slug": "sundiata-keita",
+    "locale": "it",
+    "localName": "Sundiata Keita",
+    "correctName": "Sundjata Keïta"
+  },
+  {
+    "slug": "sundiata-keita",
+    "locale": "pt",
+    "localName": "Sundiata Keita",
+    "correctName": "Sundiata Queita"
+  },
+  {
+    "slug": "sundiata-keita",
+    "locale": "ru",
+    "localName": "Сундиата Кейта",
+    "correctName": "Сундьята"
+  },
+  {
+    "slug": "sundiata-keita",
+    "locale": "zh",
+    "localName": "桑迪亚塔·凯塔",
+    "correctName": "松迪亚塔·凯塔"
+  },
+  {
+    "slug": "maria-theresa",
+    "locale": "es",
+    "localName": "María Teresa",
+    "correctName": "María Teresa I de Austria"
+  },
+  {
+    "slug": "maria-theresa",
+    "locale": "fr",
+    "localName": "Marie-Thérèse",
+    "correctName": "Marie-Thérèse d'Autriche (1717-1780)"
+  },
+  {
+    "slug": "maria-theresa",
+    "locale": "it",
+    "localName": "Maria Teresa",
+    "correctName": "Maria Teresa d'Austria"
+  },
+  {
+    "slug": "maria-theresa",
+    "locale": "pt",
+    "localName": "Maria Teresa",
+    "correctName": "Maria Teresa da Áustria"
+  },
+  {
+    "slug": "maria-theresa",
+    "locale": "zh",
+    "localName": "玛丽亚·特蕾莎",
+    "correctName": "玛丽亚·特蕾西亚"
+  },
+  {
+    "slug": "al-biruni",
+    "locale": "ar",
+    "localName": "البيروني",
+    "correctName": "أبو الريحان البيروني"
+  },
+  {
+    "slug": "al-biruni",
+    "locale": "de",
+    "localName": "Al-Biruni",
+    "correctName": "Al-Bīrūnī"
+  },
+  {
+    "slug": "al-biruni",
+    "locale": "hi",
+    "localName": "अल-बिरूनी",
+    "correctName": "अल बेरुनी"
+  },
+  {
+    "slug": "al-biruni",
+    "locale": "ja",
+    "localName": "アル＝ビールーニー",
+    "correctName": "ビールーニー"
+  },
+  {
+    "slug": "al-biruni",
+    "locale": "ko",
+    "localName": "알비루니",
+    "correctName": "비루니"
+  },
+  {
+    "slug": "al-biruni",
+    "locale": "pt",
+    "localName": "Al-Biruni",
+    "correctName": "Albiruni"
+  },
+  {
+    "slug": "al-biruni",
+    "locale": "zh",
+    "localName": "阿尔-比鲁尼",
+    "correctName": "比魯尼"
+  },
+  {
+    "slug": "william-harvey",
+    "locale": "ar",
+    "localName": "وليام هارفي",
+    "correctName": "ويليام هارفي"
+  },
+  {
+    "slug": "william-harvey",
+    "locale": "ja",
+    "localName": "ウィリアム・ハーベー",
+    "correctName": "ウイリアム・ハーベー"
+  },
+  {
+    "slug": "william-harvey",
+    "locale": "ru",
+    "localName": "Уильям Гарвей",
+    "correctName": "Гарвей, Уильям"
+  },
+  {
+    "slug": "joseph-priestley",
+    "locale": "hi",
+    "localName": "जोसेफ प्रीस्टली",
+    "correctName": "जोज़ेफ़ प्रीस्टलि"
+  },
+  {
+    "slug": "joseph-priestley",
+    "locale": "ja",
+    "localName": "ジョセフ・プリーストリー",
+    "correctName": "ジョゼフ・プリーストリー"
+  },
+  {
+    "slug": "joseph-priestley",
+    "locale": "ru",
+    "localName": "Джозеф Пристли",
+    "correctName": "Пристли, Джозеф"
+  },
+  {
+    "slug": "joseph-priestley",
+    "locale": "zh",
+    "localName": "约瑟夫·普利斯特里",
+    "correctName": "约瑟夫·普里斯特利"
+  },
+  {
+    "slug": "carl-linnaeus",
+    "locale": "ar",
+    "localName": "كارل لينيوس",
+    "correctName": "كارولوس لينيوس"
+  },
+  {
+    "slug": "carl-linnaeus",
+    "locale": "es",
+    "localName": "Carl von Linné",
+    "correctName": "Carlos Linneo"
+  },
+  {
+    "slug": "carl-linnaeus",
+    "locale": "hi",
+    "localName": "कार्ल लिनिअस",
+    "correctName": "कार्ल लीनियस"
+  },
+  {
+    "slug": "carl-linnaeus",
+    "locale": "it",
+    "localName": "Carl von Linné",
+    "correctName": "Linneo"
+  },
+  {
+    "slug": "carl-linnaeus",
+    "locale": "ko",
+    "localName": "칼 린네",
+    "correctName": "칼 폰 린네"
+  },
+  {
+    "slug": "carl-linnaeus",
+    "locale": "pt",
+    "localName": "Carl von Linné",
+    "correctName": "Lineu"
+  },
+  {
+    "slug": "carl-linnaeus",
+    "locale": "ru",
+    "localName": "Карл Линней",
+    "correctName": "Линней, Карл"
+  },
+  {
+    "slug": "lise-meitner",
+    "locale": "ru",
+    "localName": "Лиза Мейтнер",
+    "correctName": "Мейтнер, Лиза"
+  },
+  {
+    "slug": "emmy-noether",
+    "locale": "ar",
+    "localName": "إيمي نويثر",
+    "correctName": "إيمي نوتر"
+  },
+  {
+    "slug": "emmy-noether",
+    "locale": "hi",
+    "localName": "एमी नोदर",
+    "correctName": "एमी नोटर"
+  },
+  {
+    "slug": "emmy-noether",
+    "locale": "ru",
+    "localName": "Эмми Нётер",
+    "correctName": "Нётер, Эмми"
+  },
+  {
+    "slug": "alexander-von-humboldt",
+    "locale": "fr",
+    "localName": "Alexandre von Humboldt",
+    "correctName": "Alexander von Humboldt"
+  },
+  {
+    "slug": "alexander-von-humboldt",
+    "locale": "ha",
+    "localName": "Alexander von Humboldt asalin",
+    "correctName": "Alexander von Humboldt"
+  },
+  {
+    "slug": "alexander-von-humboldt",
+    "locale": "hi",
+    "localName": "अलेक्जेंडर वॉन हम्बोल्ट",
+    "correctName": "अलेक्जेण्डर वॉन हम्बोल्ट"
+  },
+  {
+    "slug": "alexander-von-humboldt",
+    "locale": "ru",
+    "localName": "Александр фон Гумбольдт",
+    "correctName": "Гумбольдт, Александр фон"
+  }
+]
