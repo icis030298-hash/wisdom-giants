@@ -139,6 +139,39 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSans.variable} ${notoSansDevanagari.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
+        {/* Google Consent Mode v2 — gtag.js보다 먼저 동기 실행되어야 함 */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              window.gtag = gtag;
+
+              gtag('consent', 'default', {
+                ad_storage: 'denied',
+                ad_user_data: 'denied',
+                ad_personalization: 'denied',
+                analytics_storage: 'denied',
+                wait_for_update: 500
+              });
+
+              try {
+                var c = JSON.parse(localStorage.getItem('giants_cookie_consent'));
+                if (c) {
+                  gtag('consent', 'update', {
+                    analytics_storage: c.analytics ? 'granted' : 'denied',
+                    ad_storage: c.advertising ? 'granted' : 'denied',
+                    ad_user_data: c.advertising ? 'granted' : 'denied',
+                    ad_personalization: c.advertising ? 'granted' : 'denied'
+                  });
+                }
+              } catch (e) {}
+
+              gtag('js', new Date());
+              gtag('config', 'G-MKP0G1YD64');
+            `,
+          }}
+        />
       </head>
       <body className="font-sans antialiased min-h-screen overflow-x-hidden">
         <NextIntlClientProvider messages={messages} locale={locale}>
@@ -149,6 +182,11 @@ export default async function RootLayout({
               src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js"
               integrity="sha384-TiCUE00h649CAMonG018J2ujOgDKW/kVWlChEuu4jK2vxfAAD0eZxzCKakxg55G4"
               crossOrigin="anonymous"
+              strategy="afterInteractive"
+            />
+            {/* Google Analytics 4 — 항상 로드. 실제 계측 여부는 위 Consent Mode가 제어 */}
+            <Script
+              src="https://www.googletagmanager.com/gtag/js?id=G-MKP0G1YD64"
               strategy="afterInteractive"
             />
             <div className="flex-grow">

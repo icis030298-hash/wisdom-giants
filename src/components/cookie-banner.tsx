@@ -254,26 +254,15 @@ export function ConsentScripts() {
               "anonymous"
             )
           }
-          if (consent.analytics) {
-            loadScript(
-              "https://www.googletagmanager.com/gtag/js?id=G-MKP0G1YD64",
-              "ga-script"
-            )
-            // GA4 initialization
-            if (!document.getElementById("ga-inline")) {
-              const inlineScript = document.createElement("script")
-              inlineScript.id = "ga-inline"
-              inlineScript.innerHTML = `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                window.gtag = gtag;
-                gtag('js', new Date());
-                gtag('config', 'G-MKP0G1YD64', {
-                  page_path: window.location.pathname,
-                });
-              `
-              document.body.appendChild(inlineScript)
-            }
+          // Consent Mode v2: 스크립트를 주입하지 않고 동의 상태만 갱신한다.
+          // gtag는 layout.tsx에서 이미 로드되어 있다.
+          if (typeof (window as any).gtag === 'function') {
+            (window as any).gtag('consent', 'update', {
+              analytics_storage: consent.analytics ? 'granted' : 'denied',
+              ad_storage: consent.advertising ? 'granted' : 'denied',
+              ad_user_data: consent.advertising ? 'granted' : 'denied',
+              ad_personalization: consent.advertising ? 'granted' : 'denied',
+            });
           }
         }
       } catch (e) {}
