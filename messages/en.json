@@ -7945,19 +7945,19 @@
   },
   "Privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 16, 2026",
+    "lastUpdated": "Last Updated: August 8, 2026",
     "summaryTitle": "1. Key Summary",
     "summaryDesc": "At Giants Wisdom, we never sell or inappropriately share your personal data. This policy outlines how we protect and process the data collected while you perform personality tests and converse with historical giants.",
     "collectionTitle": "2. Data We Collect and How We Collect It",
     "collectionDesc": "Our website can be explored entirely anonymously without creating an account. However, during your interactions, the following data may be processed:\n- Voluntarily Provided Data: Heritage DNA Test answers, input texts entered during AI chats, and email addresses (only if subscribing to our newsletter).\n- Automatically Logged Data: Device type, browser specifications, IP address, and interaction history recorded safely via Cookies.",
     "purposeTitle": "3. How We Use the Information",
-    "purposeDesc": "Collected data is used strictly for the following objectives:\n- Compiling 15-question test results to determine your closest historical giant persona.\n- Rendering dynamic, real-time historical chat responses powered cleanly by the Gemini 2.5 Flash API.\n- Statistical, non-identifiable analysis to refine our personality archetype metrics.\n- Running safe customized banner displays through Google AdSense.",
+    "purposeDesc": "This service entrusts data processing to trusted third-party platforms to provide infrastructure and core functionalities (AI chatbot, concern counseling, personalized advertising):\n1. Google Cloud (Firebase): Processing of Google social login authentication and secure storage of user-specific real-time chat databases (Firestore).\n2. Google AI Studio (Gemini API): Real-time conversation and concern counseling text analysis. (Conversations and counseling content entered by the user are transmitted to Google for AI response generation and may be used by Google to improve its models, subject to current service tier policies.)\n3. Google AdSense: Placement of personalized and non-personalized advertisements and traffic analysis.",
     "adsenseTitle": "4. Google AdSense and Third-Party Cookies Policy",
     "adsenseDesc": "This website displays advertisements integrated through Google AdSense. Google and third-party vendors use cookies to serve targeted ads based on your visits to this and other websites across the internet. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visit to this site and/or other sites on the Internet. You can easily opt out of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Alternatively, you can opt out of third-party vendors' cookies for personalized advertising by visiting www.aboutads.info.",
     "retentionTitle": "5. Data Retention and Destruction",
-    "retentionDesc": "Anonymous test results and chat inputs are either erased upon session close or stripped entirely of identifying markers (anonymized) for permanent aggregate study. Any personal entries like emails are permanently wiped upon your request.",
+    "retentionDesc": "As a matter of principle, users' personal information is promptly destroyed upon achievement of the purpose:\n- Membership registration and authentication information: Immediately and permanently destroyed upon account withdrawal.\n- Chat logs with AI Giant: Permanently destroyed along with account withdrawal to maintain the conversation list within My Dashboard.\n- Concern counseling content: Only transmitted once to AI for counseling results and is never stored in the service database (Firestore).",
     "rightsTitle": "6. Your Rights and Contact Information",
-    "rightsDesc": "You reserve full authority to view, modify, or permanently delete any snippets of data linked to your identity. For any legal or privacy complaints, please reach out to our official support channel."
+    "rightsDesc": "You may at any time request to view, modify, or delete your personal information (account withdrawal). Account deletion and data destruction can be requested through the withdrawal function within the service or by official email (contact@giantswisdom.com). Requests received via email will be processed and the results notified within 7 business days."
   },
   "Footer": {
     "brand": {

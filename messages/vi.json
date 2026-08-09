@@ -7945,19 +7945,19 @@
   },
   "Privacy": {
     "title": "Chính sách quyền riêng tư",
-    "lastUpdated": "Cập nhật lần cuối: Ngày 16 tháng 5 năm 2026",
+    "lastUpdated": "Cập nhật lần cuối: 8 tháng 8 năm 2026",
     "summaryTitle": "1. Tóm tắt chính",
     "summaryDesc": "Tại Tri Thức Vĩ Đại, chúng tôi không bao giờ bán hoặc chia sẻ dữ liệu cá nhân của bạn một cách không phù hợp. Chính sách này nêu rõ cách chúng tôi bảo vệ và xử lý dữ liệu được thu thập khi bạn thực hiện các bài kiểm tra tính cách và trò chuyện với những vĩ nhân lịch sử.",
     "collectionTitle": "2. Dữ liệu chúng tôi thu thập và cách chúng tôi thu thập",
     "collectionDesc": "Trang web của chúng tôi có thể được khám phá hoàn toàn ẩn danh mà không cần tạo tài khoản. Tuy nhiên, trong quá trình tương tác của bạn, các dữ liệu sau có thể được xử lý:\n- Dữ liệu cung cấp tự nguyện: Câu trả lời kiểm tra DNA di sản, văn bản nhập vào trong các cuộc trò chuyện AI và địa chỉ email (chỉ khi đăng ký nhận bản tin của chúng tôi).\n- Dữ liệu được ghi tự động: Loại thiết bị, thông số trình duyệt, địa chỉ IP và lịch sử tương tác được ghi lại an toàn qua Cookie.",
     "purposeTitle": "3. Cách chúng tôi sử dụng thông tin",
-    "purposeDesc": "Dữ liệu thu thập được sử dụng nghiêm ngặt cho các mục đích sau:\n- Biên soạn kết quả kiểm tra 15 câu hỏi để xác định nhân cách vĩ nhân lịch sử gần gũi nhất với bạn.\n- Hiển thị các phản hồi trò chuyện lịch sử động, thời gian thực được hỗ trợ một cách tinh gọn bởi API Gemini 2.5 Flash.\n- Phân tích thống kê, không thể nhận dạng để tinh chỉnh các chỉ số nguyên mẫu tính cách của chúng tôi.\n- Chạy các hiển thị biểu ngữ tùy chỉnh an toàn thông qua Google AdSense.",
+    "purposeDesc": "Dịch vụ này ủy thác xử lý dữ liệu cho các nền tảng bên thứ ba đáng tin cậy để cung cấp cơ sở hạ tầng và các chức năng chính (chatbot AI, tư vấn, quảng cáo tùy chỉnh):\n1. Google Cloud (Firebase): Xác thực đăng nhập Google và lưu trữ an toàn cơ sở dữ liệu trò chuyện thời gian thực (Firestore)\n2. Google AI Studio (Gemini API): Phân tích văn bản trò chuyện và tư vấn theo thời gian thực. (Nội dung bạn nhập được gửi tới Google để tạo phản hồi AI và có thể được sử dụng để cải thiện mô hình của Google theo chính sách cấp dịch vụ hiện tại.)\n3. Google AdSense: Phân tích lưu lượng truy cập và quảng cáo tùy chỉnh/không tùy chỉnh",
     "adsenseTitle": "4. Chính sách Google AdSense và Cookie của bên thứ ba",
     "adsenseDesc": "Trang web này hiển thị quảng cáo được tích hợp thông qua Google AdSense. Google và các nhà cung cấp bên thứ ba sử dụng cookie để phân phát quảng cáo được nhắm mục tiêu dựa trên lượt truy cập của bạn vào trang web này và các trang web khác trên internet. Việc Google sử dụng cookie quảng cáo cho phép họ và các đối tác phân phát quảng cáo cho người dùng dựa trên lượt truy cập của họ vào trang web này và/hoặc các trang web khác trên Internet. Bạn có thể dễ dàng từ chối quảng cáo được cá nhân hóa bằng cách truy cập Cài đặt quảng cáo của Google (https://www.google.com/settings/ads). Ngoài ra, bạn có thể từ chối cookie của các nhà cung cấp bên thứ ba cho quảng cáo được cá nhân hóa bằng cách truy cập www.aboutads.info.",
     "retentionTitle": "5. Lưu trữ và hủy bỏ dữ liệu",
-    "retentionDesc": "Kết quả kiểm tra ẩn danh và dữ liệu trò chuyện được xóa khi kết thúc phiên hoặc bị loại bỏ hoàn toàn các dấu hiệu nhận dạng (ẩn danh hóa) để nghiên cứu tổng hợp vĩnh viễn. Mọi thông tin cá nhân như email sẽ bị xóa vĩnh viễn theo yêu cầu của bạn.",
+    "retentionDesc": "Thông tin cá nhân được hủy bỏ ngay lập tức khi đạt được mục đích:\n- Thông tin đăng ký và xác thực: Hủy bỏ vĩnh viễn ngay khi xóa tài khoản\n- Nhật ký trò chuyện với Người khổng lồ AI: Hủy bỏ vĩnh viễn khi xóa tài khoản\n- Nội dung tư vấn: Chỉ được gửi đến AI một lần để lấy kết quả và không bao giờ được lưu trữ trong cơ sở dữ liệu dịch vụ (Firestore).",
     "rightsTitle": "6. Quyền của bạn và thông tin liên hệ",
-    "rightsDesc": "Bạn có toàn quyền xem, sửa đổi hoặc xóa vĩnh viễn bất kỳ đoạn dữ liệu nào liên quan đến danh tính của bạn. Đối với bất kỳ khiếu nại pháp lý hoặc quyền riêng tư nào, vui lòng liên hệ với kênh hỗ trợ chính thức của chúng tôi."
+    "rightsDesc": "Bạn có thể yêu cầu xem, sửa đổi hoặc xóa thông tin cá nhân của mình (xóa tài khoản) bất cứ lúc nào. Bạn có thể xóa tài khoản và dữ liệu thông qua chức năng trong ứng dụng hoặc bằng cách gửi email chính thức (contact@giantswisdom.com). Chúng tôi sẽ xử lý yêu cầu của bạn trong vòng 7 ngày làm việc."
   },
   "Footer": {
     "brand": {

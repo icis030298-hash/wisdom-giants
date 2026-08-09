@@ -7944,19 +7944,19 @@
   },
   "Privacy": {
     "title": "Informativa sulla Privacy",
-    "lastUpdated": "Ultimo Aggiornamento: 16 Maggio 2026",
+    "lastUpdated": "Ultimo aggiornamento: 8 agosto 2026",
     "summaryTitle": "1. Riepilogo Principale",
     "summaryDesc": "Su Giants Wisdom non vendiamo né condividiamo in modo inappropriato i tuoi dati personali. Questa informativa delinea come proteggiamo e trattiamo i dati raccolti durante i test di personalità e le conversazioni.",
     "collectionTitle": "2. Quali Dati Raccogliamo e Come Li Raccogliamo",
     "collectionDesc": "Il nostro sito può essere esplorato completamente in modo anonimo. Tuttavia, potrebbero essere trattati: Dati Forniti Volontariamente (risposte al Test, testi nelle chat) e Dati Registrati Automaticamente (dispositivo, browser, IP).",
     "purposeTitle": "3. Come Utilizziamo le Informazioni",
-    "purposeDesc": "I dati raccolti vengono utilizzati per compilare i risultati del test in 15 domande, fornire risposte dinamiche storiche via IA (Gemini 2.5 Flash), analisi statistiche e mostrare annunci sicuri tramite Google AdSense.",
+    "purposeDesc": "Questo servizio elabora i dati tramite piattaforme di terze parti affidabili per fornire infrastrutture e funzionalità chiave (chatbot AI, consulenza per problemi, pubblicità personalizzata):\n1. Google Cloud (Firebase): Gestione dell'autenticazione tramite accesso sociale Google e archiviazione sicura del database di chat in tempo reale (Firestore) per ciascun utente.\n2. Google AI Studio (API Gemini): Analisi del testo di conversazioni in tempo reale e consulenza per problemi. (Le conversazioni e i contenuti di consulenza inseriti dall'utente vengono trasmessi a Google per la generazione di risposte AI e possono essere utilizzati per migliorare i modelli di Google in base alle attuali politiche di livello del servizio.)\n3. Google AdSense: Pubblicazione di annunci personalizzati e non personalizzati e analisi del traffico.",
     "adsenseTitle": "4. Google AdSense e Cookie di Terze Parti",
     "adsenseDesc": "Questo sito web mostra annunci tramite Google AdSense. Google e fornitori terzi utilizzano cookie per mostrare annunci mirati in base alle visite precedenti a questo o altri siti web. L'uso dei cookie pubblicitari da parte di Google consente a Google e ai suoi partner di mostrare annunci in base alla visita a questo e/o ad altri siti su Internet. È possibile disattivare la pubblicità personalizzata nelle impostazioni degli annunci Google (https://www.google.com/settings/ads). In alternativa, è possibile disattivare l'uso dei cookie da parte di fornitori terzi per la pubblicità personalizzata visitando www.aboutads.info.",
     "retentionTitle": "5. Conservazione e Distruzione dei Dati",
-    "retentionDesc": "I risultati anonimi dei test e le chat vengono cancellati alla chiusura della sessione o resi anonimi per studi aggregati.",
+    "retentionDesc": "I dati personali dell'utente vengono distrutti senza indugio una volta raggiunto lo scopo per cui sono stati raccolti, secondo il seguente principio:\n- Informazioni di registrazione e autenticazione dell'account: Distrutte immediatamente e permanentemente al momento della cancellazione dell'account.\n- Log delle chat con il gigante AI: Distrutti permanentemente insieme alla cancellazione dell'account per mantenere l'elenco delle conversazioni nella tua dashboard.\n- Contenuti della consulenza per problemi: Vengono trasmessi una tantum all'AI per ottenere un risultato di consulenza e non vengono mai memorizzati nel database del servizio (Firestore).",
     "rightsTitle": "6. I Tuoi Diritti e Informazioni di Contatto",
-    "rightsDesc": "Ti riservi l'autorità completa per visualizzare, modificare o eliminare permanentemente qualsiasi dato legato alla tua identità. Per reclami, contatta il nostro canale di supporto ufficiale."
+    "rightsDesc": "L'utente ha il diritto di richiedere in qualsiasi momento l'accesso, la rettifica o la cancellazione del proprio account (recesso) per i propri dati personali. La cancellazione dell'account e la distruzione dei dati possono essere richieste utilizzando la funzione di recesso all'interno del servizio o inviando una richiesta all'email ufficiale (contact@giantswisdom.com). Le richieste via email saranno elaborate entro 7 giorni lavorativi e l'esito sarà comunicato."
   },
   "Footer": {
     "brand": {

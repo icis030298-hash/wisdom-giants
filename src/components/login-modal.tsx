@@ -2,6 +2,7 @@
 
 import { auth, googleProvider } from "@/lib/firebase"
 import { signInWithPopup } from "firebase/auth"
+import { Checkbox } from "@/components/ui/checkbox"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
 import { useTranslations } from "next-intl"
 import { Sparkles } from "lucide-react"
