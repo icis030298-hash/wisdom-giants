@@ -259,19 +259,21 @@ export function ConsentScripts() {
               "https://www.googletagmanager.com/gtag/js?id=G-MKP0G1YD64",
               "ga-script"
             )
-            loadScript(
-              "",
-              "ga-inline",
-              undefined,
-              `
+            // GA4 initialization
+            if (!document.getElementById("ga-inline")) {
+              const inlineScript = document.createElement("script")
+              inlineScript.id = "ga-inline"
+              inlineScript.innerHTML = `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
+                window.gtag = gtag;
                 gtag('js', new Date());
                 gtag('config', 'G-MKP0G1YD64', {
                   page_path: window.location.pathname,
                 });
               `
-            )
+              document.body.appendChild(inlineScript)
+            }
           }
         }
       } catch (e) {}

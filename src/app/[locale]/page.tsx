@@ -183,7 +183,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* Heritage DNA Test CTA - Premium Dark Card */}
       <div className="max-w-6xl mx-auto px-4 pb-4">
         <Link
-          href="/test"
+          href="/dna"
           className="block group"
         >
           <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-slate-950 via-indigo-950/30 to-slate-950 border border-amber-500/25 p-8 md:p-12 shadow-2xl transition-all hover:scale-[1.01] active:scale-[0.99] hover:border-amber-400/50 hover:shadow-[0_0_50px_rgba(245,158,11,0.15)]">

@@ -25,6 +25,7 @@ import React from 'react'
 import { InArticleAd } from '@/components/ad-slot'
 import GiantAvatar from '@/components/GiantAvatar'
 import { buildHreflang } from '@/lib/locales'
+import { BlogCTA } from '@/components/blog-cta'
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -813,7 +814,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
         </div>
 
         {/* Article Body (Markdown parsed) — Premium serif reading experience */}
-        <div className="max-w-[720px] mx-auto">
+        <div className="prose prose-invert prose-amber max-w-none">
           {parseMarkdown(translation.content)}
         </div>
 
@@ -883,8 +884,14 @@ export default async function BlogPostDetailPage({ params }: Props) {
             </Link>
           </div>
         </div>
-
         </div>
+
+        <BlogCTA 
+          giantSlug={effectiveSlug || ''} 
+          locale={locale} 
+          giantName={localizedName} 
+          chatHref={chatHref} 
+        />
 
         {/* Related Posts */}
         {related.length > 0 && (

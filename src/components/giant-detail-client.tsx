@@ -22,13 +22,16 @@ import {
   Link2,
   Share2,
   BookOpen,
-  ArrowRight
+  ArrowRight,
+  MessageCircleHeart,
+  Swords
 } from "lucide-react"
 import { archetypes } from "@/data/heritage-test"
 import { giants } from "@/lib/giants-data"
 import { ConditionalAdSense } from "@/components/conditional-adsense"
 import { AdSlot } from "@/components/ad-slot"
 import GiantAvatar from "@/components/GiantAvatar"
+import { trackCTAEvent } from "@/lib/analytics"
 
 interface GiantDetailClientProps {
   giant: any;
@@ -298,7 +301,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
       : locale === 'ja'
       ? `私に最も似ている歴史上の偉人は「${archetypeName}」です！あなたはどの偉人に似ていますか？`
       : locale === 'pt' ? `Minha figura histórica é ${archetypeName}! Com qual personagem histórico você se parece?` : `My historical match is ${archetypeName}! Which historical giant do you resemble?`
-    const shareUrl = `${window.location.origin}/${locale}/test`
+    const shareUrl = `${window.location.origin}/${locale}/dna`
     
     if (navigator.share) {
       try {
@@ -330,10 +333,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
     const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
     const text = locale === 'ko' 
-      ? `나와 닮은 역사 속 위인은 ${giantName}! 당신은 어떤 위인과 닮았나요? 👉 https://www.giantswisdom.com/ko/test`
+      ? `나와 닮은 역사 속 위인은 ${giantName}! 당신은 어떤 위인과 닮았나요? 👉 https://www.giantswisdom.com/ko/dna`
       : locale === 'de'
-      ? `Mein historischer Zwilling ist ${giantName}! Welchem Riesen ähneln Sie? 👉 https://www.giantswisdom.com/de/test`
-      : locale === 'pt' ? `Minha figura histórica é ${giantName}! Com qual personagem histórico você se parece? 👉 https://www.giantswisdom.com/pt/test` : `My historical match is ${giantName}! Who's your historical match? 👉 https://www.giantswisdom.com/en/test`;
+      ? `Mein historischer Zwilling ist ${giantName}! Welchem Riesen ähneln Sie? 👉 https://www.giantswisdom.com/de/dna`
+      : locale === 'pt' ? `Minha figura histórica é ${giantName}! Com qual personagem histórico você se parece? 👉 https://www.giantswisdom.com/pt/dna` : `My historical match is ${giantName}! Who's your historical match? 👉 https://www.giantswisdom.com/en/dna`;
     
     try {
       await navigator.clipboard.writeText(text);
@@ -362,10 +365,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
       : locale === 'pt' ? `Meu DNA histórico é do tipo ${giantName}! 🏛️\nCom qual figura histórica você se parece?\n#GiantsWisdom #História #Sabedoria` : `My historical match is ${giantName} 🏛️\nWho's your historical match?\n#GiantsWisdom #HistoricalMatch`;
     
     const url = locale === 'ko'
-      ? 'https://www.giantswisdom.com/ko/test'
+      ? 'https://www.giantswisdom.com/ko/dna'
       : locale === 'de'
-      ? 'https://www.giantswisdom.com/de/test'
-      : 'https://www.giantswisdom.com/en/test';
+      ? 'https://www.giantswisdom.com/de/dna'
+      : 'https://www.giantswisdom.com/en/dna';
     
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
@@ -378,10 +381,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
     const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
     const url = locale === 'ko'
-      ? 'https://www.giantswisdom.com/ko/test'
+      ? 'https://www.giantswisdom.com/ko/dna'
       : locale === 'de'
-      ? 'https://www.giantswisdom.com/de/test'
-      : 'https://www.giantswisdom.com/en/test';
+      ? 'https://www.giantswisdom.com/de/dna'
+      : 'https://www.giantswisdom.com/en/dna';
     
     window.open(
       `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(
@@ -445,8 +448,8 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
           {
             title: locale === 'ko' ? '나도 테스트하기' : 'Try Test Too',
             link: {
-              mobileWebUrl: `https://www.giantswisdom.com/${locale}/test`,
-              webUrl: `https://www.giantswisdom.com/${locale}/test`,
+              mobileWebUrl: `https://www.giantswisdom.com/${locale}/dna`,
+              webUrl: `https://www.giantswisdom.com/${locale}/dna`,
             },
           },
         ],
@@ -942,6 +945,51 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
         </div>
       )}
 
+      {/* Engagement CTAs */}
+      <div className="max-w-4xl mx-auto px-6 mb-24">
+        <div className="flex flex-col items-center gap-4 text-center mb-10">
+          <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground">
+            {locale === 'ko' ? '이 거인과 더 깊이' : 'Dive Deeper'}
+          </h2>
+          <div className="w-16 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <Link
+            href={`/debate?giant=${giant.slug}`}
+            onClick={() => trackCTAEvent('giant_page', 'debate', locale, giant.slug)}
+            className="flex flex-col items-center text-center p-6 rounded-2xl glass-card border border-white/5 hover:border-amber-500/30 hover:bg-amber-500/5 transition-all group"
+          >
+            <div className="w-12 h-12 rounded-full bg-red-500/10 flex items-center justify-center mb-4 text-red-400 group-hover:scale-110 transition-transform">
+              <Swords className="w-6 h-6" />
+            </div>
+            <h3 className="font-bold text-foreground mb-2">{locale === 'ko' ? '토론방' : 'Debate Room'}</h3>
+            <p className="text-xs text-muted-foreground">{locale === 'ko' ? '거인의 사상과 논쟁해보세요' : 'Argue with the giant'}</p>
+          </Link>
+          <Link
+            href={`/consult?giant=${giant.slug}`}
+            onClick={() => trackCTAEvent('giant_page', 'counsel', locale, giant.slug)}
+            className="flex flex-col items-center text-center p-6 rounded-2xl glass-card border border-white/5 hover:border-amber-500/30 hover:bg-amber-500/5 transition-all group"
+          >
+            <div className="w-12 h-12 rounded-full bg-pink-500/10 flex items-center justify-center mb-4 text-pink-400 group-hover:scale-110 transition-transform">
+              <MessageCircleHeart className="w-6 h-6" />
+            </div>
+            <h3 className="font-bold text-foreground mb-2">{locale === 'ko' ? '고민상담' : 'Counseling'}</h3>
+            <p className="text-xs text-muted-foreground">{locale === 'ko' ? '거인에게 해답을 구하세요' : 'Seek answers from the giant'}</p>
+          </Link>
+          <Link
+            href="/?mode=match"
+            onClick={() => trackCTAEvent('giant_page', 'dna', locale, giant.slug)}
+            className="flex flex-col items-center text-center p-6 rounded-2xl glass-card border border-white/5 hover:border-amber-500/30 hover:bg-amber-500/5 transition-all group"
+          >
+            <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center mb-4 text-cyan-400 group-hover:scale-110 transition-transform">
+              <Dna className="w-6 h-6" />
+            </div>
+            <h3 className="font-bold text-foreground mb-2">{locale === 'ko' ? 'DNA 테스트' : 'DNA Test'}</h3>
+            <p className="text-xs text-muted-foreground">{locale === 'ko' ? '나와 닮은 거인은?' : 'Find your giant match'}</p>
+          </Link>
+        </div>
+      </div>
+
       {/* Related Giants Recommendation */}
       {relatedGiants.length > 0 && (
         <div className="max-w-6xl mx-auto px-8 pb-24 space-y-12">
@@ -1251,9 +1299,9 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                           <span style={{ color: '#f59e0b', fontSize: '36px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '8px' }}>
                             {locale === 'ko' ? '지금 테스트하기' : locale === 'de' ? 'Jetzt testen' : 'Test Now'} <span style={{ fontSize: '30px' }}>→</span>
                           </span>
-                          <span style={{ color: '#475569', fontSize: '24px', marginTop: '4px' }}>
-                            giantswisdom.com/test
-                          </span>
+                          <a href={`/${locale}/dna`} className="text-amber-500 hover:underline break-all block truncate w-40 sm:w-auto">
+                            giantswisdom.com/dna
+                          </a>
                         </div>
 
                       </div>

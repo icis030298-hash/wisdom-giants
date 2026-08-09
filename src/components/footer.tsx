@@ -16,7 +16,7 @@ export default function Footer() {
   const footerLinks = {
     explore: [
       { label: t('links.allGiants'), href: '/#giants' },
-      { label: t('links.dnaTest'), href: '/test' },
+      { label: t('links.dnaTest'), href: '/dna' },
       { label: t('links.debate'), href: '/debate' },
       { label: t('links.blog'), href: '/blog' },
       { label: t('links.consult'), href: '/consult' },

@@ -106,7 +106,7 @@ export function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-amber-600 to-amber-500 opacity-0 group-hover:opacity-100 transition-opacity" />
           </Link>
 
-          <Link href="/test" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
+          <Link href="/dna" className="px-8 py-4 glass-card rounded-xl font-medium text-lg text-foreground border border-amber-500/20 hover:border-amber-500/40 hover:bg-amber-500/5 transition-all">
             {t("startTest")}
           </Link>
 
