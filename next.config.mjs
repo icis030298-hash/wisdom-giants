@@ -16,13 +16,22 @@ const nextConfig = {
   async redirects() {
     const removedSlugs = ['elon-musk', 'oprah-winfrey', 'jk-rowling', 'malala-yousafzai', 'rigoberta-menchu'];
     const locales = ['ko', 'en', 'ar', 'zh', 'nl', 'fr', 'de', 'el', 'ha', 'he', 'hi', 'id', 'it', 'ja', 'fa', 'pl', 'pt', 'ru', 'es', 'sw', 'th', 'tr', 'uk', 'vi'];
-    return removedSlugs.flatMap(slug =>
+    
+    const slugRedirects = removedSlugs.flatMap(slug =>
       locales.map(locale => ({
         source: `/${locale}/giant/${slug}`,
         destination: `/${locale}#giants`,
         permanent: false,
       }))
     );
+    
+    const testToDnaRedirects = locales.map(locale => ({
+      source: `/${locale}/test`,
+      destination: `/${locale}/dna`,
+      statusCode: 301,
+    }));
+    
+    return [...slugRedirects, ...testToDnaRedirects];
   },
   images: {
     formats: ['image/webp'],
