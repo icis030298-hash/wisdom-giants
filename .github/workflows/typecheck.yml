@@ -1,0 +1,32 @@
+name: Typecheck
+
+# next.config.mjs sets typescript.ignoreBuildErrors + eslint.ignoreDuringBuilds,
+# so `next build` will happily ship code that fails to compile (e.g. a const
+# referenced outside its block scope -> runtime ReferenceError in production).
+# This workflow is the gate that catches those before they reach main.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript check
+        run: npx tsc --noEmit
+
+      - name: Sitemap integrity check
+        run: node scripts/verify-sitemap.js

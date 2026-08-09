@@ -2,6 +2,17 @@ import { NextResponse } from 'next/server';
 import incompleteGiants from '@/config/incomplete-giants.json';
 
 const incompleteGiantsSet = new Set(incompleteGiants);
+
+// Duplicate slugs that 301-redirect to a canonical slug (see next.config.mjs).
+// Must never appear in the sitemap.
+const duplicateGiantsSet = new Set([
+  'ataturk',
+  'queen-elizabeth-i',
+  'averroes-ibn-rushd',
+  'avicenna-ibn-sina',
+  'zarathushtra',
+  'queen-nzinga',
+]);
 import { giants } from '@/lib/giants-data';
 import { blogPosts } from '@/data/blog-posts';
 import { LOCALES } from '@/lib/locales';
@@ -128,15 +139,6 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
     );
 
     entries = [...blogListEntries, ...blogPostEntries];
-const duplicateGiantsSet = new Set([
-  'ataturk',
-  'queen-elizabeth-i',
-  'averroes-ibn-rushd',
-  'avicenna-ibn-sina',
-  'zarathushtra',
-  'queen-nzinga'
-]);
-
   } else if (id.startsWith('giants-')) {
     const chunkIndex = parseInt(id.replace('giants-', ''), 10);
     if (!isNaN(chunkIndex)) {
