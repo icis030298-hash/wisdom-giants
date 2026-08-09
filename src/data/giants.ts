@@ -3436,8 +3436,7 @@ export const giantsData: Giant[] = [
       }
     ],
     persona: "당신은 유클리드이다.", imageUrl:"/images/giants/euclid.jpg", era:"기원전 4세기 ~ 3세기"
-  }
-,
+  },
   {
     id: "320",
     name: "궁궁하나",
@@ -3838,7 +3837,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/anton-wilhelm-amo.jpg",
     era: "18세기"
   },
-
   {
     id: "345",
     name: "알렉산드리아의 아타나시우스",
@@ -3855,7 +3853,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/athanasius-of-alexandria.jpg",
     era: "4세기 로마 제국"
   },
-
   {
     id: "346",
     name: "알렉산드리아의 키릴로스",
@@ -3872,7 +3869,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/cyril-of-alexandria.jpg",
     era: "5세기 로마 제국"
   },
-
   {
     id: "347",
     name: "암다 세욘 1세",
@@ -3889,7 +3885,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/amda-seyon-i.jpg",
     era: "14세기"
   },
-
   {
     id: "348",
     name: "압드 알라흐만 알자바르티",
@@ -3906,7 +3901,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/abd-al-rahman-al-jabarti.jpg",
     era: "18세기 후반 - 19세기 초반"
   },
-
   {
     id: "349",
     name: "압드 알무민",
@@ -3923,7 +3917,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/abd-al-mumin.jpg",
     era: "12세기"
   },
-
   {
     id: "350",
     name: "압드 알카디르 알자자이리",
@@ -3940,7 +3933,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/abdelkader-el-djezairi.jpg",
     era: "19세기"
   },
-
   {
     id: "351",
     name: "앨버트 루툴리",
@@ -3957,7 +3949,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/albert-luthuli.jpg",
     era: "20세기"
   },
-
   {
     id: "352",
     name: "야 아산테와",
@@ -3974,7 +3965,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/yaa-asantewaa.jpg",
     era: "19세기 후반 - 20세기 초반"
   },
-
   {
     id: "353",
     name: "오리게네스",
@@ -3991,7 +3981,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/origen-of-alexandria.jpg",
     era: "3세기 로마 제국"
   },
-
   {
     id: "354",
     name: "오세이 투투 1세",
@@ -4008,7 +3997,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/osei-tutu-i.jpg",
     era: "17세기 후반 - 18세기 초반"
   },
-
   {
     id: "355",
     name: "올라우다 에퀴아노",
@@ -4025,7 +4013,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/olaudah-equiano.jpg",
     era: "18세기"
   },
-
   {
     id: "356",
     name: "요하네스 4세",
@@ -4042,7 +4029,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/yohannes-iv.jpg",
     era: "19세기"
   },
-
   {
     id: "357",
     name: "우스만 단 포디오",
@@ -4059,7 +4045,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/usman-dan-fodio.jpg",
     era: "18세기 후반 - 19세기 초반"
   },
-
   {
     id: "358",
     name: "은징가 음반데",
@@ -4076,7 +4061,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/nzinga-of-ndongo-and-matamba.jpg",
     era: "17세기"
   },
-
   {
     id: "359",
     name: "이드리스 알루마",
@@ -4093,7 +4077,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/idris-alooma.jpg",
     era: "16세기 후반 - 17세기 초반"
   },
-
   {
     id: "360",
     name: "이모텝",
@@ -4110,7 +4093,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/imhotep.jpg",
     era: "이집트 고왕국 시대 (기원전 27세기)"
   },
-
   {
     id: "361",
     name: "이븐 투마르트",
@@ -4127,7 +4109,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ibn-tumart.jpg",
     era: "12세기"
   },
-
   {
     id: "362",
     name: "자자우의 아미나",
@@ -4144,7 +4125,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/amina-of-zazzau.jpg",
     era: "16세기 후반"
   },
-
   {
     id: "363",
     name: "제라 야콥",
@@ -4161,7 +4141,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/zera-yacob.jpg",
     era: "17세기"
   },
-
   {
     id: "364",
     name: "존 칠렘브웨",
@@ -4178,7 +4157,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/john-chilembwe.jpg",
     era: "20세기 초"
   },
-
   {
     id: "365",
     name: "케취와요 캄판데",
@@ -4195,7 +4173,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/cetshwayo-kampande.jpg",
     era: "19세기"
   },
-
   {
     id: "366",
     name: "쿠푸",
@@ -4212,7 +4189,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/khufu.jpg",
     era: "고대 이집트 제4왕조"
   },
-
   {
     id: "367",
     name: "클레오파트라 7세",
@@ -4229,7 +4205,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/cleopatra-vii.jpg",
     era: "프톨레마이오스 시대"
   },
-
   {
     id: "368",
     name: "킴파 비타",
@@ -4246,7 +4221,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/kimpa-vita.jpg",
     era: "17세기 후반 - 18세기 초반"
   },
-
   {
     id: "369",
     name: "타리크 이븐 지야드",
@@ -4263,7 +4237,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/tariq-ibn-ziyad.jpg",
     era: "8세기 초"
   },
-
   {
     id: "370",
     name: "타이투 베툴",
@@ -4280,7 +4253,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/taytu-betul.jpg",
     era: "19세기 후반 - 20세기 초반"
   },
-
   {
     id: "371",
     name: "타파와 발레와",
@@ -4297,7 +4269,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/abubakar-tafawa-balewa.jpg",
     era: "20세기"
   },
-
   {
     id: "372",
     name: "타하르카",
@@ -4314,7 +4285,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/taharqa.jpg",
     era: "기원전 7세기"
   },
-
   {
     id: "373",
     name: "테르툴리아누스",
@@ -4331,7 +4301,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/tertullian.jpg",
     era: "로마 제국 시대"
   },
-
   {
     id: "374",
     name: "테오드로스 2세",
@@ -4348,7 +4317,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/tewodros-ii.jpg",
     era: "19세기"
   },
-
   {
     id: "375",
     name: "투탕카멘",
@@ -4365,7 +4333,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/tutankhamun.jpg",
     era: "이집트 신왕국 시대"
   },
-
   {
     id: "376",
     name: "프렘페 1세",
@@ -4382,7 +4349,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/prempeh-i.jpg",
     era: "19세기 말 - 20세기 초"
   },
-
   {
     id: "377",
     name: "피이",
@@ -4399,7 +4365,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/piye.jpg",
     era: "고대 이집트 제3중간기"
   },
-
   {
     id: "378",
     name: "허버트 매콜리",
@@ -4416,7 +4381,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/herbert-macaulay.jpg",
     era: "19세기 후반 - 20세기 중반"
   },
-
   {
     id: "379",
     name: "헨드릭 비트부이",
@@ -4433,7 +4397,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/hendrik-witbooi.jpg",
     era: "19세기 후반 - 20세기 초반"
   },
-
   {
     id: "380",
     name: "후다 샤라위",
@@ -4450,7 +4413,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/huda-shaarawi.jpg",
     era: "20세기 초반"
   },
-
   {
     id: "381",
     name: "히포의 아우구스티누스",
@@ -4467,7 +4429,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/augustine-of-hippo.jpg",
     era: "로마 제국 후기"
   },
-
   {
     id: "382",
     name: "J. E. 케이슬리 헤이퍼드",
@@ -4484,7 +4445,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/j-e-casely-hayford.jpg",
     era: "19세기 말 - 20세기 초"
   },
-
   {
     id: "383",
     name: "프란츠 파농",
@@ -4501,7 +4461,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/frantz-fanon.jpg",
     era: "20세기"
   },
-
   {
     id: "384",
     name: "W. E. B. 듀보이스",
@@ -4518,7 +4477,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/w-e-b-du-bois.jpg",
     era: "19세기 후반 - 20세기 중반"
   },
-
   {
     id: "385",
     name: "게오르기오스 게미스토스 플레톤",
@@ -4535,7 +4493,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/george-gemistos-plethon.jpg",
     era: "15세기 비잔티움 제국"
   },
-
   {
     id: "386",
     name: "니콜라이 고골",
@@ -4552,7 +4509,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/nikolai-gogol.jpg",
     era: "19세기"
   },
-
   {
     id: "387",
     name: "니콜라이 무라비요프아무르스키",
@@ -4569,7 +4525,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/nikolay-muravyov-amursky.jpg",
     era: "19세기"
   },
-
   {
     id: "388",
     name: "니콜라이 바빌로프",
@@ -4586,7 +4541,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/nikolai-vavilov.jpg",
     era: "19세기 말 - 20세기 초"
   },
-
   {
     id: "389",
     name: "니콜라이 프르제발스키",
@@ -4603,7 +4557,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/nikolai-przhevalsky.jpg",
     era: "19세기"
   },
-
   {
     id: "390",
     name: "다닐로 할리츠키",
@@ -4620,7 +4573,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/danylo-halytskyi.jpg",
     era: "13세기"
   },
-
   {
     id: "391",
     name: "다비트 4세",
@@ -4637,7 +4589,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/david-iv-of-georgia.jpg",
     era: "11-12세기"
   },
-
   {
     id: "392",
     name: "라반 바르 사우마",
@@ -4654,7 +4605,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/rabban-bar-sauma.jpg",
     era: "13세기"
   },
-
   {
     id: "393",
     name: "레샤 우크라인카",
@@ -4671,7 +4621,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/lesya-ukrainka.jpg",
     era: "19세기 말 - 20세기 초"
   },
-
   {
     id: "394",
     name: "루다키",
@@ -4688,7 +4637,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/rudaki.jpg",
     era: "10세기 사만 왕조"
   },
-
   {
     id: "395",
     name: "마흐무드 알카슈가리",
@@ -4705,7 +4653,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mahmud-al-kashgari.jpg",
     era: "11세기"
   },
-
   {
     id: "396",
     name: "미카엘 프셀로스",
@@ -4722,7 +4669,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/michael-psellos.jpg",
     era: "11세기 비잔티움 제국"
   },
-
   {
     id: "397",
     name: "미하일 로모노소프",
@@ -4739,7 +4685,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mikhail-lomonosov.jpg",
     era: "18세기"
   },
-
   {
     id: "398",
     name: "미하일로 드라호마노우",
@@ -4756,7 +4701,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mykhailo-drahomanov.jpg",
     era: "19세기"
   },
-
   {
     id: "399",
     name: "미하일로 흐루셰우스키",
@@ -4773,7 +4717,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mykhailo-hrushevsky.jpg",
     era: "19세기 말 - 20세기 초"
   },
-
   {
     id: "400",
     name: "바부르",
@@ -4790,7 +4733,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/babur.jpg",
     era: "15-16세기"
   },
-
   {
     id: "401",
     name: "바실리오스 2세",
@@ -4807,7 +4749,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/basil-ii.jpg",
     era: "10세기 후반 - 11세기 초반"
   },
-
   {
     id: "402",
     name: "법현",
@@ -4824,7 +4765,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/faxian.jpg",
     era: "4-5세기 동진"
   },
-
   {
     id: "403",
     name: "벨리사리우스",
@@ -4841,7 +4781,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/belisarius.jpg",
     era: "6세기"
   },
-
   {
     id: "404",
     name: "보흐단 흐멜니츠키",
@@ -4858,7 +4797,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/bohdan-khmelnytsky.jpg",
     era: "17세기"
   },
-
   {
     id: "405",
     name: "부민 카간",
@@ -4875,7 +4813,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/bumin-qaghan.jpg",
     era: "6세기"
   },
-
   {
     id: "406",
     name: "블라디미르 1세",
@@ -4892,7 +4829,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/vladimir-the-great.jpg",
     era: "10세기 후반 - 11세기 초반"
   },
-
   {
     id: "407",
     name: "블라디미르 베르나츠키",
@@ -4909,7 +4845,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/vladimir-vernadsky.jpg",
     era: "19-20세기"
   },
-
   {
     id: "408",
     name: "세르게이 코롤료프",
@@ -4926,7 +4861,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/sergei-korolev.jpg",
     era: "20세기 우주 경쟁 시대"
   },
-
   {
     id: "409",
     name: "세묜 데즈뇨프",
@@ -4943,7 +4877,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/semyon-dezhnev.jpg",
     era: "17세기"
   },
-
   {
     id: "410",
     name: "쇼타 루스타벨리",
@@ -4960,7 +4893,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/shota-rustaveli.jpg",
     era: "12세기 조지아 황금시대"
   },
-
   {
     id: "411",
     name: "수학자 레오",
@@ -4977,7 +4909,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/leo-the-mathematician.jpg",
     era: "9세기 비잔티움 제국"
   },
-
   {
     id: "412",
     name: "아바이 쿠난바울르",
@@ -4994,7 +4925,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/abai-qunanbaiuly.jpg",
     era: "19세기"
   },
-
   {
     id: "413",
     name: "아바쿰",
@@ -5011,7 +4941,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/avvakum.jpg",
     era: "17세기"
   },
-
   {
     id: "414",
     name: "아틸라",
@@ -5028,7 +4957,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/attila-the-hun.jpg",
     era: "5세기"
   },
-
   {
     id: "415",
     name: "아흐마드 야사위",
@@ -5045,7 +4973,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ahmad-yasawi.jpg",
     era: "12세기"
   },
-
   {
     id: "416",
     name: "안나 콤네네",
@@ -5062,7 +4989,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/anna-komnene.jpg",
     era: "11-12세기 비잔티움 제국"
   },
-
   {
     id: "417",
     name: "안드레이 루블료프",
@@ -5079,7 +5005,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/andrei-rublev.jpg",
     era: "14-15세기"
   },
-
   {
     id: "418",
     name: "알렉산드르 넵스키",
@@ -5096,7 +5021,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/alexander-nevsky.jpg",
     era: "13세기"
   },
-
   {
     id: "419",
     name: "알렉산드르 푸시킨",
@@ -5113,7 +5037,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/alexander-pushkin.jpg",
     era: "19세기"
   },
-
   {
     id: "420",
     name: "알렉시오스 1세 콤네노스",
@@ -5130,7 +5053,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/alexios-i-komnenos.jpg",
     era: "11-12세기"
   },
-
   {
     id: "421",
     name: "알리셰르 나보이",
@@ -5147,7 +5069,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/alisher-navoi.jpg",
     era: "티무르 제국, 15세기"
   },
-
   {
     id: "422",
     name: "알부카리",
@@ -5164,7 +5085,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/muhammad-al-bukhari.jpg",
     era: "9세기 / 아바스 왕조"
   },
-
   {
     id: "423",
     name: "알파르가니",
@@ -5181,7 +5101,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/al-farghani.jpg",
     era: "9세기"
   },
-
   {
     id: "424",
     name: "야로슬라프 1세",
@@ -5198,7 +5117,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/yaroslav-the-wise.jpg",
     era: "11세기"
   },
-
   {
     id: "425",
     name: "예르마크 티모페예비치",
@@ -5215,7 +5133,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/yermak-timofeyevich.jpg",
     era: "16세기"
   },
-
   {
     id: "426",
     name: "요한 크리소스토모",
@@ -5232,7 +5149,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/john-chrysostom.jpg",
     era: "4세기 후반 로마 제국"
   },
-
   {
     id: "427",
     name: "울루그 베그",
@@ -5249,7 +5165,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ulugh-beg.jpg",
     era: "15세기 티무르 제국"
   },
-
   {
     id: "428",
     name: "유스티니아누스 1세",
@@ -5266,7 +5181,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/justinian-i.jpg",
     era: "6세기"
   },
-
   {
     id: "429",
     name: "이반 3세",
@@ -5283,7 +5197,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ivan-iii-the-great.jpg",
     era: "15세기"
   },
-
   {
     id: "430",
     name: "이반 4세",
@@ -5300,7 +5213,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ivan-iv-the-terrible.jpg",
     era: "16세기"
   },
-
   {
     id: "431",
     name: "이반 마제파",
@@ -5317,7 +5229,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ivan-mazepa.jpg",
     era: "17-18세기"
   },
-
   {
     id: "432",
     name: "이반 프랑코",
@@ -5334,7 +5245,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ivan-franko.jpg",
     era: "19세기 후반 - 20세기 초"
   },
-
   {
     id: "433",
     name: "이스마일 가스프린스키",
@@ -5351,7 +5261,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ismail-gasprinsky.jpg",
     era: "19세기 말 - 20세기 초"
   },
-
   {
     id: "434",
     name: "잠시드 알카시",
@@ -5368,7 +5277,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/jamshid-al-kashi.jpg",
     era: "15세기 티무르 제국"
   },
-
   {
     id: "435",
     name: "초칸 발리하노프",
@@ -5385,7 +5293,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/shoqan-walikhanov.jpg",
     era: "19세기"
   },
-
   {
     id: "436",
     name: "카시아",
@@ -5402,7 +5309,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/kassia.jpg",
     era: "9세기 비잔틴 제국"
   },
-
   {
     id: "437",
     name: "콘스탄티노스 11세 팔라이올로고스",
@@ -5419,7 +5325,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/constantine-xi-palaiologos.jpg",
     era: "15세기 중반"
   },
-
   {
     id: "438",
     name: "쿠빌라이 칸",
@@ -5436,7 +5341,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/kublai-khan.jpg",
     era: "13세기"
   },
-
   {
     id: "439",
     name: "키예프의 안나",
@@ -5453,7 +5357,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/anne-of-kyiv.jpg",
     era: "11세기"
   },
-
   {
     id: "440",
     name: "키예프의 올가",
@@ -5470,7 +5373,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/olga-of-kyiv.jpg",
     era: "10세기"
   },
-
   {
     id: "441",
     name: "타라스 셰브첸코",
@@ -5487,7 +5389,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/taras-shevchenko.jpg",
     era: "19세기"
   },
-
   {
     id: "442",
     name: "타마르",
@@ -5504,7 +5405,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/tamar-of-georgia.jpg",
     era: "12-13세기"
   },
-
   {
     id: "443",
     name: "테오도라",
@@ -5521,7 +5421,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/theodora.jpg",
     era: "6세기 비잔티움 제국"
   },
-
   {
     id: "444",
     name: "테오파네스",
@@ -5538,7 +5437,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/theophanes-the-greek.jpg",
     era: "14세기 후반 - 15세기 초반"
   },
-
   {
     id: "445",
     name: "토뉴쿠크",
@@ -5555,7 +5453,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/tonyukuk.jpg",
     era: "7-8세기"
   },
-
   {
     id: "446",
     name: "티무르",
@@ -5572,7 +5469,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/timur-tamerlane.jpg",
     era: "14세기"
   },
-
   {
     id: "447",
     name: "페트로 모힐라",
@@ -5589,7 +5485,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/petro-mohyla.jpg",
     era: "17세기"
   },
-
   {
     id: "448",
     name: "표트르 차이콥스키",
@@ -5606,7 +5501,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/pyotr-ilyich-tchaikovsky.jpg",
     era: "19세기"
   },
-
   {
     id: "449",
     name: "프로코피우스",
@@ -5623,7 +5517,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/procopius.jpg",
     era: "6세기 동로마 제국"
   },
-
   {
     id: "450",
     name: "헤라클리우스",
@@ -5640,7 +5533,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/heraclius.jpg",
     era: "7세기"
   },
-
   {
     id: "451",
     name: "현장",
@@ -5657,7 +5549,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/xuanzang.jpg",
     era: "7세기 당나라"
   },
-
   {
     id: "452",
     name: "흐리호리 스코보로다",
@@ -5674,7 +5565,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/hryhorii-skovoroda.jpg",
     era: "18세기"
   },
-
   {
     id: "453",
     name: "거트루드 벨",
@@ -5691,7 +5581,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/gertrude-bell.jpg",
     era: "19세기 말 - 20세기 초"
   },
-
   {
     id: "454",
     name: "나디르 샤",
@@ -5708,7 +5597,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/nader-shah.jpg",
     era: "18세기"
   },
-
   {
     id: "455",
     name: "나므크 케말",
@@ -5725,7 +5613,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/namik-kemal.jpg",
     era: "19세기 오스만 제국"
   },
-
   {
     id: "456",
     name: "나시르 알딘 알투시",
@@ -5742,7 +5629,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/nasir-al-din-al-tusi.jpg",
     era: "13세기"
   },
-
   {
     id: "457",
     name: "네부카드네자르 2세",
@@ -5759,7 +5645,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/nebuchadnezzar-ii.jpg",
     era: "기원전 7세기-6세기"
   },
-
   {
     id: "458",
     name: "니잠 알물크",
@@ -5776,7 +5661,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/nizam-al-mulk.jpg",
     era: "11세기"
   },
-
   {
     id: "459",
     name: "다리우스 1세",
@@ -5793,7 +5677,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/darius-i.jpg",
     era: "기원전 6-5세기"
   },
-
   {
     id: "460",
     name: "라시드 리다",
@@ -5810,7 +5693,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/rashid-rida.jpg",
     era: "19세기 말 - 20세기 초"
   },
-
   {
     id: "461",
     name: "레자 샤 팔라비",
@@ -5827,7 +5709,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/reza-shah.jpg",
     era: "20세기 초"
   },
-
   {
     id: "462",
     name: "마니",
@@ -5844,7 +5725,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mani.jpg",
     era: "3세기 사산 제국"
   },
-
   {
     id: "463",
     name: "마흐무트 2세",
@@ -5861,7 +5741,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mahmud-ii.jpg",
     era: "19세기"
   },
-
   {
     id: "464",
     name: "메흐메트 2세",
@@ -5878,7 +5757,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mehmed-the-conqueror.jpg",
     era: "15세기"
   },
-
   {
     id: "465",
     name: "무스타파 케말 아타튀르크",
@@ -5895,7 +5773,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mustafa-kemal-ataturk.jpg",
     era: "20세기 초"
   },
-
   {
     id: "466",
     name: "무함마드 알리 파샤",
@@ -5912,7 +5789,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/muhammad-ali-of-egypt.jpg",
     era: "19세기"
   },
-
   {
     id: "467",
     name: "무함마드 압두",
@@ -5929,7 +5805,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/muhammad-abduh.jpg",
     era: "19세기 후반 - 20세기 초반"
   },
-
   {
     id: "468",
     name: "미마르 시난",
@@ -5946,7 +5821,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/mimar-sinan.jpg",
     era: "16세기 오스만 제국"
   },
-
   {
     id: "469",
     name: "바디 알자만 알하마다니",
@@ -5963,7 +5837,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/badi-al-zaman-al-hamadani.jpg",
     era: "10-11세기 / 이슬람 황금기"
   },
-
   {
     id: "470",
     name: "바디우자만 사이드 누르시",
@@ -5980,7 +5853,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/bediuzzaman-said-nursi.jpg",
     era: "20세기 초"
   },
-
   {
     id: "471",
     name: "바이바르스",
@@ -5997,7 +5869,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/baybars.jpg",
     era: "13세기"
   },
-
   {
     id: "472",
     name: "사디 시라지",
@@ -6014,7 +5885,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/saadi-shirazi.jpg",
     era: "13세기"
   },
-
   {
     id: "473",
     name: "사르곤",
@@ -6031,7 +5901,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/sargon-of-akkad.jpg",
     era: "기원전 24세기"
   },
-
   {
     id: "474",
     name: "샤푸르 1세",
@@ -6048,7 +5917,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/shapur-i.jpg",
     era: "3세기 사산 제국"
   },
-
   {
     id: "475",
     name: "셀림 3세",
@@ -6065,7 +5933,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/selim-iii.jpg",
     era: "18세기 말 - 19세기 초"
   },
-
   {
     id: "476",
     name: "아바스 1세",
@@ -6082,7 +5949,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/abbas-i-of-persia.jpg",
     era: "16-17세기"
   },
-
   {
     id: "477",
     name: "아슈르바니팔",
@@ -6099,7 +5965,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ashurbanipal.jpg",
     era: "기원전 7세기"
   },
-
   {
     id: "478",
     name: "아흐메드 샤키",
@@ -6116,7 +5981,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ahmed-shawqi.jpg",
     era: "19세기 말 - 20세기 초"
   },
-
   {
     id: "479",
     name: "아흐메드 제브데트 파샤",
@@ -6133,7 +5997,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ahmed-cevdet-pasha.jpg",
     era: "19세기 오스만 제국"
   },
-
   {
     id: "480",
     name: "알라지",
@@ -6150,7 +6013,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/rhazes-al-razi.jpg",
     era: "이슬람 황금시대 (9-10세기)"
   },
-
   {
     id: "481",
     name: "알마문",
@@ -6167,7 +6029,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/al-mamun.jpg",
     era: "9세기 초"
   },
-
   {
     id: "482",
     name: "알마수디",
@@ -6184,7 +6045,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/al-masudi.jpg",
     era: "10세기 이슬람 황금 시대"
   },
-
   {
     id: "483",
     name: "알바타니",
@@ -6201,7 +6061,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/al-battani.jpg",
     era: "9-10세기 이슬람 황금시대"
   },
-
   {
     id: "484",
     name: "알자히즈",
@@ -6218,7 +6077,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/al-jahiz.jpg",
     era: "9세기 압바스 왕조"
   },
-
   {
     id: "485",
     name: "알킨디",
@@ -6235,7 +6093,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/al-kindi.jpg",
     era: "9세기 아바스 왕조"
   },
-
   {
     id: "486",
     name: "알타바리",
@@ -6252,7 +6109,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/al-tabari.jpg",
     era: "9-10세기, 이슬람 황금 시대"
   },
-
   {
     id: "487",
     name: "알프 아르슬란",
@@ -6269,7 +6125,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/alp-arslan.jpg",
     era: "11세기"
   },
-
   {
     id: "488",
     name: "에블리야 첼레비",
@@ -6286,7 +6141,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/evliya-celebi.jpg",
     era: "17세기 오스만 제국"
   },
-
   {
     id: "489",
     name: "이브라힘 뮈테페리카",
@@ -6303,7 +6157,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ibrahim-muteferrika.jpg",
     era: "18세기 오스만 제국"
   },
-
   {
     id: "490",
     name: "이브라힘 파샤",
@@ -6320,7 +6173,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ibrahim-pasha-of-egypt.jpg",
     era: "19세기"
   },
-
   {
     id: "491",
     name: "이븐 루시드",
@@ -6337,7 +6189,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/averroes-ibn-rushd.jpg",
     era: "12세기 알안달루스"
   },
-
   {
     id: "492",
     name: "이븐 시나",
@@ -6354,7 +6205,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/avicenna-ibn-sina.jpg",
     era: "이슬람 황금시대 (10-11세기)"
   },
-
   {
     id: "493",
     name: "이븐 아라비",
@@ -6371,7 +6221,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ibn-arabi.jpg",
     era: "12-13세기"
   },
-
   {
     id: "494",
     name: "이스마일 1세",
@@ -6388,7 +6237,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ismail-i.jpg",
     era: "15-16세기"
   },
-
   {
     id: "495",
     name: "자라투스트라",
@@ -6405,7 +6253,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/zarathushtra.jpg",
     era: "고대 이란 (기원전 1000년경)"
   },
-
   {
     id: "496",
     name: "자말 알딘 알아프가니",
@@ -6422,7 +6269,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/jamal-al-din-al-afghani.jpg",
     era: "19세기 후반"
   },
-
   {
     id: "497",
     name: "자비르 이븐 하이얀",
@@ -6439,7 +6285,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/jabir-ibn-hayyan.jpg",
     era: "이슬람 황금기 (8-9세기)"
   },
-
   {
     id: "498",
     name: "지야 괴칼프",
@@ -6456,7 +6301,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ziya-gokalp.jpg",
     era: "20세기 초"
   },
-
   {
     id: "499",
     name: "카림 칸 잔드",
@@ -6473,7 +6317,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/karim-khan-zand.jpg",
     era: "18세기"
   },
-
   {
     id: "500",
     name: "카팁 첼레비",
@@ -6490,7 +6333,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/katip-celebi.jpg",
     era: "17세기 오스만 제국"
   },
-
   {
     id: "501",
     name: "크세르크세스 1세",
@@ -6507,7 +6349,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/xerxes-i.jpg",
     era: "아케메네스 제국 시대"
   },
-
   {
     id: "502",
     name: "타비트 이븐 쿠라",
@@ -6524,7 +6365,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/thabit-ibn-qurra.jpg",
     era: "9세기 이슬람 황금시대"
   },
-
   {
     id: "503",
     name: "타히리",
@@ -6541,7 +6381,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/tahirih.jpg",
     era: "19세기"
   },
-
   {
     id: "504",
     name: "푸줄리",
@@ -6558,7 +6397,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/fuzuli.jpg",
     era: "16세기 오스만 제국"
   },
-
   {
     id: "505",
     name: "피르다우시",
@@ -6575,7 +6413,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/ferdowsi.jpg",
     era: "10-11세기"
   },
-
   {
     id: "506",
     name: "피리 레이스",
@@ -6592,7 +6429,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/piri-reis.jpg",
     era: "16세기 오스만 제국"
   },
-
   {
     id: "507",
     name: "하룬 알라시드",
@@ -6609,7 +6445,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/harun-al-rashid.jpg",
     era: "8-9세기"
   },
-
   {
     id: "508",
     name: "하페즈",
@@ -6626,7 +6461,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/hafez.jpg",
     era: "14세기"
   },
-
   {
     id: "509",
     name: "할리데 에디프 아드바르",
@@ -6643,7 +6477,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/halide-edib-adivar.jpg",
     era: "20세기 초, 오스만 제국 말기 및 터키 공화국 초기"
   },
-
   {
     id: "510",
     name: "함무라비",
@@ -6660,7 +6493,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/hammurabi.jpg",
     era: "고대 바빌로니아 (기원전 18세기)"
   },
-
   {
     id: "511",
     name: "휘렘 술탄",
@@ -6677,7 +6509,6 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/hurrem-sultan-roxelana.jpg",
     era: "16세기 오스만 제국"
   },
-
   {
     id: "512",
     name: "T. E. 로렌스",
@@ -6694,4 +6525,13257 @@ export const giantsData: Giant[] = [
     imageUrl: "/images/giants/t-e-lawrence.jpg",
     era: "20세기 초"
   },
+  {
+  "id": "415",
+  "name": "애런 코플랜드",
+  "category": "arts",
+  "headline": "애런 코플랜드는 서부 개척 시대와 민속 음악의 요소를 도입하여 '미국적인 클래식 음악'의 정체성을 확립한 20세기 최고의 작곡가이다.",
+  "shortDescription": "애런 코플랜드의 일대기와 지혜",
+  "slug": "aaron-copland",
+  "quote": "음악은 단지 들리는 것 이상의 의미를 지녀야 하며, 사람들의 삶과 깊이 연결되어야 합니다.",
+  "pain": "대공황 시기의 경제적 어려움 속에서 난해한 현대 음악과 대중의 취향 사이의 괴리를 극복해야 했으며, 냉전 시대에는 진보적 성향으로 인해 매카시즘의 표적이 되어 청문회에 소환되는 정치적 탄압을 겪었다.",
+  "recovery": "대중과 소통할 수 있는 미국적인 소재와 민속 음악을 차용한 친숙한 음악 언어를 개발하여 예술성과 대중성을 동시에 확보했으며, 정치적 억압 속에서도 굴하지 않고 굳건히 자신의 음악적 신념과 예술의 자유를 지켜냈다.",
+  "lessons": [
+    {
+      "title": "음악은 단지 들리는 것 이상의 의미를 지녀야 하며, 사람들의 삶과 깊이 연결되어야 합니다.",
+      "content": "예술이 대중의 삶과 동떨어지지 않고 위로와 공감을 주어야 함을 잊지 마십시오."
+    },
+    {
+      "title": "예술가는 자신이 속한 사회의 목소리가 되어야 할 책임이 있습니다.",
+      "content": "시대의 흐름을 읽고 공동체의 정서를 대변하는 역할을 기꺼이 감당하십시오."
+    },
+    {
+      "title": "당신의 고유한 목소리를 찾는 과정은 외부가 아닌 내면 깊은 곳에서 시작됩니다.",
+      "content": "타인의 방식을 모방하기보다 자신의 뿌리와 정체성에서 독창성을 발견하십시오."
+    }
+  ],
+  "persona": "당신은 애런 코플랜드이다.",
+  "imageUrl": "/images/giants/aaron-copland.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1900~1990)"
+},
+  {
+  "id": "344",
+  "name": "아이스킬로스",
+  "category": "arts",
+  "headline": "아이스킬로스는 두 번째 배우를 무대에 도입하여 연극의 대화와 극적 갈등을 창조해 낸 서양 비극의 아버지이다.",
+  "shortDescription": "아이스킬로스의 일대기와 지혜",
+  "slug": "aeschylus",
+  "quote": "인간은 고통을 통해서만 진정한 지혜를 배울 수 있습니다.",
+  "pain": "페르시아 전쟁이라는 거대한 국가적 위기와 살육의 현장에 직접 참전하여 죽음의 공포를 겪었으며, 초기 연극의 단조로운 형식적 한계로 인해 극적인 서사를 온전히 표현하는 데 어려움을 겪었다.",
+  "recovery": "배우를 추가하고 무대 연출을 혁신하여 비극의 극적 구조를 획기적으로 발전시켰으며, 전쟁의 참혹한 경험을 문학적 성찰로 승화시켜 적에 대한 증오를 넘어선 보편적인 인간의 비극을 그려냈다.",
+  "lessons": [
+    {
+      "title": "인간은 고통을 통해서만 진정한 지혜를 배울 수 있습니다.",
+      "content": "시련과 고난을 원망하지 말고, 그 속에서 삶의 깊은 이치를 깨닫는 기회로 삼으십시오."
+    },
+    {
+      "title": "신들은 오만한 자를 결코 용서하지 않으며, 필멸의 인간은 자신의 한계를 알아야 합니다.",
+      "content": "성취에 도취되어 교만해지지 말고, 항상 겸손한 자세로 스스로를 돌아보십시오."
+    },
+    {
+      "title": "피비린내 나는 복수는 또 다른 복수를 낳을 뿐, 오직 공정한 법만이 사슬을 끊을 수 있습니다.",
+      "content": "분노와 맹목적인 복수심에 휩싸이지 말고, 이성적이고 정의로운 원칙에 따라 문제를 해결하십시오."
+    }
+  ],
+  "persona": "당신은 아이스킬로스이다.",
+  "imageUrl": "/images/giants/aeschylus.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 5세기의 거인 (기원전 525~기원전 456)"
+},
+  {
+  "id": "423",
+  "name": "구로사와 아키라",
+  "category": "arts",
+  "headline": "구로사와 아키라는 역동적인 연출과 심오한 인간 탐구를 통해 일본 영화를 세계적 수준으로 격상시킨 영화의 천황이다.",
+  "shortDescription": "구로사와 아키라의 일대기와 지혜",
+  "slug": "akira-kurosawa",
+  "quote": "미치지 않고서는 영화를 만들 수 없습니다. 완벽함을 향한 광기만이 진정한 예술을 낳습니다.",
+  "pain": "1960년대 후반 일본 영화 산업의 쇠퇴와 함께 작품 흥행 실패와 투자금 유치의 어려움에 직면했으며, 이로 인해 극심한 우울증을 앓고 자살을 시도할 만큼 뼈아픈 좌절의 시기를 겪었다.",
+  "recovery": "영화에 대한 완벽주의적인 집념을 결코 포기하지 않았으며, 그를 존경하는 할리우드 거장들의 지원을 받아 '카게무샤'를 완성하여 칸 영화제 황금종려상을 수상하며 다시 세계 정상에 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "미치지 않고서는 영화를 만들 수 없습니다. 완벽함을 향한 광기만이 진정한 예술을 낳습니다.",
+      "content": "하나의 목표를 이루기 위해 타협하지 않는 열정과 집요함을 가지고 매진하십시오."
+    },
+    {
+      "title": "인간은 모두 자신의 이기심으로 인해 진실을 왜곡하기 마련입니다.",
+      "content": "자신이 믿는 진실이 절대적이지 않음을 인정하고, 항상 다른 이의 관점을 이해하려 노력하십시오."
+    },
+    {
+      "title": "바람이 불지 않으면 스스로 달려가 바람을 만들어야 합니다.",
+      "content": "기회가 주어지기를 기다리지 말고, 자신의 의지로 현실의 난관을 적극적으로 돌파하십시오."
+    }
+  ],
+  "persona": "당신은 구로사와 아키라이다.",
+  "imageUrl": "/images/giants/akira-kurosawa.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1910~1998)"
+},
+  {
+  "id": "282",
+  "name": "알베르 카뮈",
+  "category": "arts",
+  "headline": "알베르 카뮈는 부조리한 세상 속에서도 반항과 연대를 통해 인간의 존엄성을 일깨운 실존주의 문학의 거장이다.",
+  "shortDescription": "알베르 카뮈의 일대기와 지혜",
+  "slug": "albert-camus",
+  "quote": "겨울의 한가운데서 나는 내 안에 무적의 여름이 있다는 것을 마침내 깨달았습니다.",
+  "pain": "가난한 가정 환경과 치명적인 결핵으로 인한 신체적 고통을 감내해야 했으며, 정치적으로는 이데올로기에 매몰된 좌우 진영 모두와 충돌하며 철저한 지적 고독에 시달렸다.",
+  "recovery": "비극적인 운명과 세계의 무의미함에 절망하지 않고, 문학을 통해 억압에 맞서는 인간의 반항과 숭고한 연대의 가치를 끊임없이 긍정하며 스스로 삶의 의미를 창조해 냈다.",
+  "lessons": [
+    {
+      "title": "겨울의 한가운데서 나는 내 안에 무적의 여름이 있다는 것을 마침내 깨달았습니다.",
+      "content": "아무리 절망적인 상황이라도 당신 내면에 있는 극복의 힘과 희망을 믿으십시오."
+    },
+    {
+      "title": "눈물을 흘리지 않는다고 해서 슬프지 않은 것은 아니며, 보편적인 잣대로 타인의 감정을 판단할 수 없습니다.",
+      "content": "사회적 관습이나 편견으로 타인의 진실을 섣불리 함부로 재단하지 마십시오."
+    },
+    {
+      "title": "진정한 반항은 세상을 파괴하는 것이 아니라, 무의미 속에서도 삶을 긍정하고 사랑하는 것입니다.",
+      "content": "허무에 굴복하지 말고, 매 순간 주어지는 일상의 삶을 치열하고 뜨겁게 살아내십시오."
+    }
+  ],
+  "persona": "당신은 알베르 카뮈이다.",
+  "imageUrl": "/images/giants/albert-camus.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1913~1960)"
+},
+  {
+  "id": "391",
+  "name": "알렉산더 콜더",
+  "category": "arts",
+  "headline": "알렉산더 콜더는 공기역학과 기계공학을 예술에 접목하여 스스로 움직이는 조각 '모빌'을 창시한 키네틱 아트의 선구자이다.",
+  "shortDescription": "알렉산더 콜더의 일대기와 지혜",
+  "slug": "alexander-calder",
+  "quote": "우주는 고정되어 있지 않고 끊임없이 움직이며, 예술 또한 그 위대한 율동을 담아내야 합니다.",
+  "pain": "예술가로서의 삶을 반대했던 부모님의 뜻에 따라 기계공학을 전공하며 방황의 시간을 보내야 했으며, 정적인 형태를 중시하던 당시 미술계의 보수적인 편견과도 맞서 싸워야 했다.",
+  "recovery": "공학적 지식을 예술에 접목하는 발상의 전환을 통해 중력과 바람을 이용한 모빌을 발명해 냈으며, 기계적 차가움을 지닌 철판에 생동감 넘치는 원색과 율동감을 부여하여 키네틱 아트라는 새로운 장르를 개척했다.",
+  "lessons": [
+    {
+      "title": "우주는 고정되어 있지 않고 끊임없이 움직이며, 예술 또한 그 위대한 율동을 담아내야 합니다.",
+      "content": "고정관념에 얽매이지 말고, 세상의 변화무쌍한 흐름과 리듬을 유연하게 받아들이십시오."
+    },
+    {
+      "title": "진정한 예술의 즐거움은 아이와 같은 순수한 호기심과 놀이에서 비롯됩니다.",
+      "content": "너무 심각하게 생각하기보다는 때로는 유쾌한 상상력과 장난기로 문제에 접근해 보십시오."
+    },
+    {
+      "title": "아무리 무겁고 차가운 강철이라도 균형점을 찾으면 허공에서 가장 우아하게 춤을 춥니다.",
+      "content": "겉보기에 거칠고 다루기 힘든 조건 속에서도 조화를 찾으면 아름다운 결과를 만들 수 있습니다."
+    }
+  ],
+  "persona": "당신은 알렉산더 콜더이다.",
+  "imageUrl": "/images/giants/alexander-calder.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1898~1976)"
+},
+  {
+  "id": "349",
+  "name": "알렉상드르 뒤마",
+  "category": "arts",
+  "headline": "알렉상드르 뒤마는 '삼총사', '몽테크리스토 백작' 등으로 전 세계 독자들을 열광시킨 19세기 최고의 로망 페이유통(연재소설) 작가이다.",
+  "shortDescription": "알렉상드르 뒤마의 일대기와 지혜",
+  "slug": "alexandre-dumas",
+  "quote": "기다려라, 그리고 희망을 가져라. 인간의 모든 지혜는 이 두 단어에 담겨 있습니다.",
+  "pain": "흑인 혼혈이라는 이유로 당대 사회의 노골적인 인종 차별과 편견을 견뎌야 했으며, 아버지의 죽음 이후 극심한 가난으로 인해 제대로 된 정규 교육조차 받지 못하는 불우한 유년 시절을 보냈다.",
+  "recovery": "도서관에서 독학하며 끈질기게 문학적 소양을 쌓았고, 역사적 상상력과 압도적인 스토리텔링 능력을 무기로 비평가들의 혹평 속에서도 대중의 열렬한 사랑을 받는 최고의 소설가로 자수성가했다.",
+  "lessons": [
+    {
+      "title": "기다려라, 그리고 희망을 가져라. 인간의 모든 지혜는 이 두 단어에 담겨 있습니다.",
+      "content": "아무리 고통스러운 절망의 순간이라도 인내심을 잃지 말고 더 나은 내일을 향한 희망을 품으십시오."
+    },
+    {
+      "title": "인생의 모든 것은 한 권의 책과 같습니다. 중요한 것은 어떻게 흥미로운 다음 장을 넘기느냐입니다.",
+      "content": "과거의 실패에 연연하여 멈춰 서지 말고, 당신의 인생이라는 이야기의 다음 페이지를 과감히 써 내려가십시오."
+    },
+    {
+      "title": "증오와 복수는 눈을 멀게 하지만, 진정한 승리는 자신의 영혼을 파괴하지 않고 정의를 실현하는 것입니다.",
+      "content": "억울한 일을 겪더라도 맹목적인 복수심에 자신을 잃지 말고, 단단한 의지와 실력으로 당신의 가치를 증명하십시오."
+    }
+  ],
+  "persona": "당신은 알렉상드르 뒤마이다.",
+  "imageUrl": "/images/giants/alexandre-dumas.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1802~1870)"
+},
+  {
+  "id": "421",
+  "name": "알프레드 히치콕",
+  "category": "arts",
+  "headline": "알프레드 히치콕은 치밀한 심리 묘사와 관객을 쥐락펴락하는 혁신적인 기법으로 현대 영화의 문법을 완성한 서스펜스의 거장이다.",
+  "shortDescription": "알프레드 히치콕의 일대기와 지혜",
+  "slug": "alfred-hitchcock",
+  "quote": "서스펜스는 폭발 자체가 아니라, 폭탄이 테이블 아래 있다는 것을 관객만이 알고 있을 때 발생하는 것입니다.",
+  "pain": "유년 시절의 억압적인 가톨릭 교육과 아버지로 인해 겪은 유치장 감금 사건은 평생 그에게 억울한 누명과 경찰에 대한 강박적인 공포심, 그리고 깊은 심리적 트라우마를 남겼다.",
+  "recovery": "자신의 내면에 잠재된 강박과 공포를 스크린 위에서 철저하게 통제하고 조율하는 서스펜스 연출 기법으로 승화시켜 독창적이고 위대한 예술적 에너지로 변환해 냈다.",
+  "lessons": [
+    {
+      "title": "서스펜스는 폭발 자체가 아니라, 폭탄이 테이블 아래 있다는 것을 관객만이 알고 있을 때 발생하는 것입니다.",
+      "content": "상대방의 마음을 움직이려면 모든 것을 즉시 보여주기보다 적절한 기대감과 긴장을 영리하게 조율하십시오."
+    },
+    {
+      "title": "당신의 두려움을 억누르지 말고, 그것을 해부하고 통제하여 당신만의 무기로 만드십시오.",
+      "content": "내면의 트라우마나 공포를 회피하지 말고 정면으로 마주하여 성장의 동력으로 삼으십시오."
+    },
+    {
+      "title": "관객을 즐겁게 하려면 먼저 감독 자신이 관객의 마음속 가장 깊은 욕망을 철저하게 계산해야 합니다.",
+      "content": "사람들의 호응을 이끌어내기 위해서는 그들의 본성과 심리를 누구보다 깊이 연구하고 이해해야 합니다."
+    }
+  ],
+  "persona": "당신은 알프레드 히치콕이다.",
+  "imageUrl": "/images/giants/alfred-hitchcock.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1899~1980)"
+},
+  {
+  "id": "401",
+  "name": "알바 알토",
+  "category": "arts",
+  "headline": "알바 알토는 핀란드의 자연과 나무를 활용하여 인간 중심의 따뜻한 스칸디나비아 모더니즘 건축을 확립한 20세기 위대한 건축가이자 디자이너이다.",
+  "shortDescription": "알바 알토의 일대기와 지혜",
+  "slug": "alvar-aalto",
+  "quote": "진정한 건축은 겉모습이 아니라 가장 연약한 인간을 어떻게 보호하고 치유하는가에 의해 완성됩니다.",
+  "pain": "북유럽 특유의 일조량이 적고 혹독한 자연 기후 조건 속에서, 차갑고 획일화된 국제주의 양식이라는 당시 건축계의 주류 흐름과 타협하지 않고 자신만의 정체성을 찾아야 하는 고뇌를 겪었다.",
+  "recovery": "콘크리트와 철 대신 핀란드의 풍부한 자작나무를 활용하고 합판을 휘는 곡목 기술을 혁신하여, 기계적 합리성 안에 자연의 숨결과 인간을 향한 따뜻한 배려를 불어넣은 유기적 모더니즘을 창조해 냈다.",
+  "lessons": [
+    {
+      "title": "진정한 건축은 겉모습이 아니라 가장 연약한 인간을 어떻게 보호하고 치유하는가에 의해 완성됩니다.",
+      "content": "기술과 효율성보다 항상 사람을 먼저 생각하고, 타인에 대한 따뜻한 배려를 최우선으로 삼으십시오."
+    },
+    {
+      "title": "자연과 대립하여 쌓아 올린 장벽은 결국 무너지지만, 지형과 조화를 이루는 선은 영원히 살아남습니다.",
+      "content": "환경을 거스르고 주변과 억지로 단절하려 하지 말고, 주위와 조화롭게 어우러지는 유연한 태도를 가지십시오."
+    },
+    {
+      "title": "차가운 논리만으로는 인간의 영혼을 채울 수 없으며, 모든 디자인은 사람의 피부에 닿는 온기를 품어야 합니다.",
+      "content": "차가운 이성과 분석력도 중요하지만, 그 속에서도 항상 인간적인 감성과 따뜻함을 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 알바 알토이다.",
+  "imageUrl": "/images/giants/alvar-aalto.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1898~1976)"
+},
+  {
+  "id": "383",
+  "name": "앤디 워홀",
+  "category": "arts",
+  "headline": "앤디 워홀은 캠벨 수프와 코카콜라 등 대중 소비문화의 기호를 예술로 승화시키며 팝아트라는 새로운 미술 사조를 창시한 현대 미술의 황제이다.",
+  "shortDescription": "앤디 워홀의 일대기와 지혜",
+  "slug": "andy-warhol",
+  "quote": "미래에는 모든 사람이 15분 동안 세계적인 유명 인사가 될 것입니다.",
+  "pain": "가난한 이민자 출신으로 어릴 적 앓은 희귀병으로 인해 외롭고 병약한 유년 시절을 보냈으며, 순수 예술계의 높은 진입 장벽과 상업 미술가라는 꼬리표로 인한 지식인들의 무시와 냉대를 견뎌야 했다.",
+  "recovery": "오히려 주류 미술계가 경멸하던 대중 소비 사회의 상품과 스타의 이미지를 전면에 내세우는 역발상으로 예술의 경계를 무너뜨렸으며, 저격 사건으로 인한 신체적 후유증 속에서도 예술적 도전을 멈추지 않았다.",
+  "lessons": [
+    {
+      "title": "미래에는 모든 사람이 15분 동안 세계적인 유명 인사가 될 것입니다.",
+      "content": "미디어의 힘과 대중의 관심이 얼마나 빠르고 강력하게 변화하는지 그 속성을 꿰뚫어 보십시오."
+    },
+    {
+      "title": "사업을 잘하는 것이 가장 매혹적인 예술이며, 훌륭한 비즈니스야말로 최고의 예술입니다.",
+      "content": "고상한 척하며 현실을 외면하지 말고, 자본과 상업성의 흐름을 당신의 성공을 위한 무기로 영리하게 활용하십시오."
+    },
+    {
+      "title": "나는 항상 모든 것이 플라스틱처럼 표면적이라고 생각합니다. 나 역시 깊이가 없는 얄팍한 사람입니다.",
+      "content": "때로는 심각하게 묻혀있는 복잡한 이면보다, 눈에 보이는 직관적인 표면의 힘과 단순함을 있는 그대로 인정하십시오."
+    }
+  ],
+  "persona": "당신은 앤디 워홀이다.",
+  "imageUrl": "/images/giants/andy-warhol.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1928~1987)"
+},
+  {
+  "id": "396",
+  "name": "안토니 가우디",
+  "category": "arts",
+  "headline": "안토니 가우디는 직선을 배제하고 자연의 유기적 곡선과 생명력을 건축에 완벽하게 구현한 카탈루냐 모더니즘의 천재 건축가이다.",
+  "shortDescription": "안토니 가우디의 일대기와 지혜",
+  "slug": "antoni-gaudi",
+  "quote": "독창적이라는 것은 세상에 없던 것을 만드는 것이 아니라, 사물의 가장 깊은 근원인 자연으로 돌아가는 것입니다.",
+  "pain": "평생을 괴롭힌 지독한 류머티즘 관절염의 신체적 고통과, 당대 건축계의 어떤 사조로도 설명할 수 없는 이질적인 천재성으로 인해 동시대인들의 깊은 몰이해와 조롱에 부딪혀야 했다.",
+  "recovery": "고통스러운 병마 속에서도 오히려 자연의 치밀한 구조를 관찰하는 통찰력을 키웠으며, 세상의 비웃음에 흔들리지 않고 굳건한 신앙심과 집념으로 자신만의 독창적인 자연주의 건축 미학을 완성해 냈다.",
+  "lessons": [
+    {
+      "title": "독창적이라는 것은 세상에 없던 것을 만드는 것이 아니라, 사물의 가장 깊은 근원인 자연으로 돌아가는 것입니다.",
+      "content": "새로움을 억지로 꾸며내려 애쓰지 말고, 문제의 가장 근본적이고 자연스러운 이치에서 해답을 찾으십시오."
+    },
+    {
+      "title": "모든 위대한 작품은 완성을 향한 끈질긴 인내와, 다음 세대에게 기꺼이 자리를 내어주는 겸손함에서 탄생합니다.",
+      "content": "단숨에 결과를 얻으려 조급해하지 말고, 긴 호흡으로 묵묵히 기초를 다지며 미래를 준비하십시오."
+    },
+    {
+      "title": "신의 피조물인 자연에는 직선이 없습니다. 그러므로 인간의 예술 또한 곡선의 부드러움을 닮아야 합니다.",
+      "content": "기계적인 완벽함과 엄격한 원칙에만 얽매이지 말고, 유연하고 포용력 있는 태도를 기르십시오."
+    }
+  ],
+  "persona": "당신은 안토니 가우디이다.",
+  "imageUrl": "/images/giants/antoni-gaudi.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1852~1926)"
+},
+  {
+  "id": "82",
+  "name": "안토니오 비발디",
+  "category": "arts",
+  "headline": "안토니오 비발디는 500여 곡의 협주곡을 남기고 협주곡 양식을 확립하여 바로크 음악의 절정을 이끈 위대한 작곡가이다.",
+  "shortDescription": "안토니오 비발디의 일대기와 지혜",
+  "slug": "antonio-vivaldi",
+  "quote": "말의 부족함을 음악이 채워줄 것이다.",
+  "pain": "성직자로서의 의무와 선천적인 천식으로 인한 육체적 고통, 그리고 말년에 찾아온 대중의 외면과 파산의 위기는 그를 깊은 절망으로 몰아넣었다.",
+  "recovery": "그는 피에타 고아원이라는 제한된 환경을 오히려 끊임없는 실험의 무대로 삼았고, 자연과 삶의 생동감을 음악으로 묘사하는 혁신적인 시도로 육체의 한계를 뛰어넘었다.",
+  "lessons": [
+    {
+      "title": "말의 부족함을 음악이 채워줄 것이다.",
+      "content": "언어로 다 표현할 수 없는 깊은 감정과 자연의 경이로움을 예술을 통해 진실하게 전달해 보십시오."
+    },
+    {
+      "title": "자연의 모든 변화에는 그 자체의 완벽한 리듬이 숨어 있다.",
+      "content": "인생의 각 계절과 변화 속에서 긍정적인 의미를 발견하고 그 흐름을 자연스럽게 받아들이십시오."
+    },
+    {
+      "title": "어둠 속에서도 봄을 기다리는 씨앗처럼, 예술은 시련 속에서 자라난다.",
+      "content": "역경과 고립의 시간 속에서도 자신만의 창조적 열정을 잃지 말고 굳건히 내면의 힘을 기르십시오."
+    }
+  ],
+  "persona": "당신은 안토니오 비발디이다.",
+  "imageUrl": "/images/giants/antonio-vivaldi.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1678~1741)"
+},
+  {
+  "id": "345",
+  "name": "아리스토파네스",
+  "category": "arts",
+  "headline": "아리스토파네스는 날카로운 사회 비판과 기발한 상상력을 결합한 고대 그리스 최고의 희극 작가이다.",
+  "shortDescription": "아리스토파네스의 일대기와 지혜",
+  "slug": "aristophanes",
+  "quote": "어리석음을 웃음으로 꾸짖는 것은 민주주의의 가장 강력한 방패다.",
+  "pain": "펠로폰네소스 전쟁의 혼란과 부패한 선동 정치가 클레온의 끈질긴 법적 고발 및 정치적 탄압은 그의 창작 활동을 크게 위협했다.",
+  "recovery": "그는 권력의 협박에 굴복하지 않고 오히려 더욱 날카로운 풍자와 기발한 연극적 장치로 대중의 지지를 얻어내며 예술적 자유를 수호했다.",
+  "lessons": [
+    {
+      "title": "어리석음을 웃음으로 꾸짖는 것은 민주주의의 가장 강력한 방패다.",
+      "content": "권력의 오만함과 사회의 모순을 두려워하지 말고 유머와 날카로운 통찰로 당당하게 비판해 보십시오."
+    },
+    {
+      "title": "평화는 거창한 이데올로기가 아니라 평범한 사람들의 연대 속에서 피어난다.",
+      "content": "갈등과 대립을 넘어 주변 사람들과의 작은 협력에서부터 시작하여 진정한 화합을 만들어 나가십시오."
+    },
+    {
+      "title": "과거의 훌륭한 정신을 잊고 새로운 기교만 좇는다면 사회는 중심을 잃는다.",
+      "content": "새로운 변화를 유연하게 받아들이되 삶의 근간이 되는 보편적인 도덕적 가치와 깊이를 결코 잊지 마십시오."
+    }
+  ],
+  "persona": "당신은 아리스토파네스이다.",
+  "imageUrl": "/images/giants/aristophanes.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 5세기의 거인 (기원전 446년~기원전 386년)"
+},
+  {
+  "id": "412",
+  "name": "아르놀트 쇤베르크",
+  "category": "arts",
+  "headline": "아르놀트 쇤베르크는 무조음악과 12음 기법을 창안하여 서양 음악의 전통적 조성을 완전히 해체하고 현대 음악의 새로운 지평을 연 혁명적 작곡가이다.",
+  "shortDescription": "아르놀트 쇤베르크의 일대기와 지혜",
+  "slug": "arnold-schoenberg",
+  "quote": "예술은 장식하는 것이 아니라 표현하는 것이다.",
+  "pain": "나치의 혹독한 유대인 탄압과 전위 예술에 대한 핍박으로 조국을 쫓겨나 망명해야 했으며, 평생 대중의 끊임없는 오해와 거센 조롱에 시달려야만 했다.",
+  "recovery": "그는 세상의 비난과 타협을 단호히 거부하고 12음 기법이라는 완전히 새로운 음악적 질서를 창조하여 20세기 현대 음악의 굳건한 기초를 세움으로써 시련을 극복했다.",
+  "lessons": [
+    {
+      "title": "예술은 장식하는 것이 아니라 표현하는 것이다.",
+      "content": "타인의 시선에 맞추어 자신을 포장하기보다, 내면의 깊은 진실을 있는 그대로 솔직하고 당당하게 드러내십시오."
+    },
+    {
+      "title": "위대한 길을 가는 사람은 필연적으로 오해받기 마련이다.",
+      "content": "세상이 당장 당신의 가치를 알아주지 않고 비판하더라도, 자신이 옳다고 굳게 믿는 길을 묵묵히 걸어 나가십시오."
+    },
+    {
+      "title": "새로운 질서는 낡은 규칙을 철저히 부수는 고통 속에서 태어난다.",
+      "content": "과거의 익숙함과 편안함에 안주하지 말고, 진정한 혁신을 위한 파괴와 도전을 두려움 없이 기꺼이 받아들이십시오."
+    }
+  ],
+  "persona": "당신은 아르놀트 쇤베르크이다.",
+  "imageUrl": "/images/giants/arnold-schoenberg.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1874~1951)"
+},
+  {
+  "id": "301",
+  "name": "아서 코난 도일",
+  "category": "arts",
+  "headline": "아서 코난 도일은 과학적 수사 기법을 도입한 불멸의 명탐정 셜록 홈즈를 창조하여 세계 추리 문학사를 완성한 영국의 위대한 작가이다.",
+  "shortDescription": "아서 코난 도일의 일대기와 지혜",
+  "slug": "arthur-conan-doyle",
+  "quote": "불가능한 것들을 모두 제외하고 남은 것은, 아무리 믿기 힘들더라도 진실이다.",
+  "pain": "셜록 홈즈라는 자신이 만든 거대한 캐릭터의 그늘에 갇혀 작가로서 심각한 정체성의 위기를 겪었으며, 말년에는 사랑하는 가족들을 연이어 잃는 끔찍한 상실의 고통을 겪어야만 했다.",
+  "recovery": "그는 압박감을 이겨내고 추리 문학의 불멸의 걸작들을 남겼으며, 억울한 자들을 구제하는 현실 속 탐정으로 활약함과 동시에 영적 탐구를 통해 죽음의 슬픔을 숭고하게 승화시켰다.",
+  "lessons": [
+    {
+      "title": "불가능한 것들을 모두 제외하고 남은 것은, 아무리 믿기 힘들더라도 진실이다.",
+      "content": "감정이나 편견에 흔들리지 말고 냉철한 이성과 객관적인 사실만을 바탕으로 문제의 본질을 해결하십시오."
+    },
+    {
+      "title": "작은 디테일보다 더 중요한 것은 없다.",
+      "content": "스쳐 지나가기 쉬운 사소한 것들 속에 언제나 문제의 핵심이 숨어 있으니 항상 세심하게 관찰하고 분석하십시오."
+    },
+    {
+      "title": "빛이 강할수록 그림자도 짙어지는 법이다.",
+      "content": "거대한 성공이나 화려함 뒤에는 반드시 그에 상응하는 고뇌와 어둠이 따름을 이해하고 언제나 겸손함을 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 아서 코난 도일이다.",
+  "imageUrl": "/images/giants/arthur-conan-doyle.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1859~1930)"
+},
+  {
+  "id": "353",
+  "name": "아르튀르 랭보",
+  "category": "arts",
+  "headline": "아르튀르 랭보는 십 대의 어린 나이에 상징주의 시의 절정을 이룩하고 20세에 문학을 버린 프랑스의 천재 시인이다.",
+  "shortDescription": "아르튀르 랭보의 일대기와 지혜",
+  "slug": "arthur-rimbaud",
+  "quote": "나는 타자다.",
+  "pain": "보수적인 사회의 억압과 문학적 이상에 대한 처절한 절망감, 그리고 베를렌과의 파괴적인 애증 관계는 그를 깊은 지옥의 고통으로 몰아넣었다.",
+  "recovery": "그는 극한의 고통 속에서 '지옥에서 보낸 한 철'이라는 불멸의 산문시를 탄생시켰고, 이후 시를 과감히 버리고 아프리카에서 상인으로서 새로운 삶을 개척하는 초인적인 결단력을 보였다.",
+  "lessons": [
+    {
+      "title": "나는 타자다.",
+      "content": "내 안에 숨겨진 무수히 많은 다른 자아들을 인정하고, 낯선 자신의 모습을 두려움 없이 깊이 탐구하십시오."
+    },
+    {
+      "title": "진정한 삶은 부재한다. 우리는 세상에 있지 않다.",
+      "content": "주어진 현실의 안일함에 갇히지 말고, 눈에 보이지 않는 진실과 진정한 영적인 자유를 끊임없이 갈망하십시오."
+    },
+    {
+      "title": "모든 감각의 착란을 통해 미지에 도달해야 한다.",
+      "content": "익숙한 관습과 낡은 이성적인 논리를 과감하게 깨뜨려야만 비로소 완전히 새로운 창조적 세계를 만날 수 있습니다."
+    }
+  ],
+  "persona": "당신은 아르튀르 랭보이다.",
+  "imageUrl": "/images/giants/arthur-rimbaud.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1854~1891)"
+},
+  {
+  "id": "299",
+  "name": "C. S. 루이스",
+  "category": "arts",
+  "headline": "C. S. 루이스는 날카로운 지성의 기독교 변증서와 풍부한 상상력의 환상 문학을 통해 20세기의 지성과 영성을 널리 일깨운 영국의 위대한 작가이다.",
+  "shortDescription": "C. S. 루이스의 일대기와 지혜",
+  "slug": "c-s-lewis",
+  "quote": "고통은 귀머거리 세상에 대고 말씀하시는 하나님의 확성기다.",
+  "pain": "어머니와 아내의 이른 죽음이라는 끔찍한 사별의 고통과 제1차 세계 대전의 참혹한 참호전 경험은 그를 깊은 허무와 무신론의 늪에 빠지게 했다.",
+  "recovery": "그는 치열한 지적 탐구와 동료 학자들과의 깊은 논쟁을 통해 신앙을 회복했으며, 상실의 끔찍한 슬픔을 솔직한 기록으로 남겨 수많은 이들에게 따뜻한 위로를 전했다.",
+  "lessons": [
+    {
+      "title": "고통은 귀머거리 세상에 대고 말씀하시는 하나님의 확성기다.",
+      "content": "피할 수 없는 인생의 고난이 찾아올 때, 그것을 성장을 위해 주어지는 깊은 영적 메시지로 긍정적으로 받아들이십시오."
+    },
+    {
+      "title": "우리는 스스로 상상하는 것보다 훨씬 더 위대한 존재를 갈망하도록 만들어졌다.",
+      "content": "단순한 물질적인 욕망에만 만족하지 말고, 영원하고 변하지 않는 가치와 진정한 영혼의 행복을 끊임없이 추구하십시오."
+    },
+    {
+      "title": "사랑하는 것은 상처받을 위험을 감수하는 것이다.",
+      "content": "상처받는 것을 두려워하여 마음의 문을 닫지 말고, 커다란 용기를 내어 타인에게 기꺼이 진실한 마음을 내어 주십시오."
+    }
+  ],
+  "persona": "당신은 C. S. 루이스이다.",
+  "imageUrl": "/images/giants/c-s-lewis.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1898~1963)"
+},
+  {
+  "id": "388",
+  "name": "카미유 클로델",
+  "category": "arts",
+  "headline": "카미유 클로델은 시대의 차가운 편견과 비극적인 사랑의 아픔을 뛰어넘어 인간의 깊은 감정을 섬세하게 조각해 낸 프랑스의 위대한 천재 조각가이다.",
+  "shortDescription": "카미유 클로델의 일대기와 지혜",
+  "slug": "camille-claudel",
+  "quote": "모든 위대한 예술은 고통이라는 깊은 우물에서 길어 올려진다.",
+  "pain": "여성 예술가에 대한 시대의 폭력적인 편견, 로댕과의 파괴적이고 상처뿐인 사랑, 그리고 이로 인한 극심한 피해망상은 그녀를 정신병원이라는 깊은 어둠에 갇히게 했다.",
+  "recovery": "비록 그녀의 생애는 비극으로 비참하게 끝났으나, 그녀가 혼신을 다해 남긴 흙과 청동의 걸작들은 훗날 그 진정한 가치를 완벽히 인정받으며 세상의 편견을 훌륭하게 극복해 냈다.",
+  "lessons": [
+    {
+      "title": "모든 위대한 예술은 고통이라는 깊은 우물에서 길어 올려진다.",
+      "content": "당신이 겪는 깊은 상처와 슬픔을 결코 외면하지 말고, 그것을 자신만의 창조적인 에너지를 빚어내는 가장 강력한 원동력으로 삼으십시오."
+    },
+    {
+      "title": "누구의 그림자도 아닌 온전한 나 자신으로 서야 한다.",
+      "content": "다른 사람의 화려한 명성이나 그늘에 기대어 자신을 잃어버리지 말고, 스스로 당당하게 서서 독립적인 정체성을 확립하십시오."
+    },
+    {
+      "title": "세상이 나를 가둘지라도 내 안의 영혼은 부서지지 않는다.",
+      "content": "외부의 억압이나 차가운 시선이 당신을 옭아매려 할지라도, 내면에 간직한 순수한 열정과 진실만은 결코 포기하지 마십시오."
+    }
+  ],
+  "persona": "당신은 카미유 클로델이다.",
+  "imageUrl": "/images/giants/camille-claudel.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1864~1943)"
+},
+  {
+  "id": "368",
+  "name": "카라바조",
+  "category": "arts",
+  "headline": "카라바조는 극적인 명암법과 철저한 사실주의를 통해 서양 미술의 패러다임을 르네상스에서 바로크로 극적으로 전환시킨 위대한 천재 화가이다.",
+  "shortDescription": "카라바조의 일대기와 지혜",
+  "slug": "caravaggio",
+  "quote": "거룩함은 저 높은 하늘이 아니라 가장 낮은 땅 위에 존재한다.",
+  "pain": "끓어오르는 분노를 이기지 못해 저지른 살인과 그로 인한 끊임없는 도피 생활, 그리고 보수적인 교회의 거센 비난은 그의 삶을 끔찍한 파멸로 이끌었다.",
+  "recovery": "그는 죽음의 공포에 쫓기는 참혹한 절망 속에서도 인간 내면의 날것의 진실을 강렬한 빛과 그림자로 처절하게 화폭에 새겨 넣으며 불멸의 예술을 창조했다.",
+  "lessons": [
+    {
+      "title": "거룩함은 저 높은 하늘이 아니라 가장 낮은 땅 위에 존재한다.",
+      "content": "화려하고 완벽한 것만을 좇지 말고, 평범하고 소외된 일상 속에서 진정한 아름다움과 가치를 따뜻하게 발견하십시오."
+    },
+    {
+      "title": "빛은 가장 짙은 어둠 속에서 비로소 그 존재를 증명한다.",
+      "content": "인생의 혹독한 시련과 끔찍한 절망의 순간이야말로 당신 내면의 희망과 진실이 가장 밝게 빛날 수 있는 위대한 기회입니다."
+    },
+    {
+      "title": "세상의 잣대에 타협하여 진실을 가리느니, 차라리 미움받는 날것의 얼굴을 그리겠다.",
+      "content": "타인의 차가운 시선이나 세상의 편견에 맞추어 자신을 꾸미려 하지 말고, 있는 그대로의 진실한 모습을 당당하게 보여주십시오."
+    }
+  ],
+  "persona": "당신은 카라바조이다.",
+  "imageUrl": "/images/giants/caravaggio.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1571~1610)"
+},
+  {
+  "id": "420",
+  "name": "찰리 채플린",
+  "category": "arts",
+  "headline": "찰리 채플린은 무성 영화 시대에 독창적인 페이소스와 날카로운 사회 비판을 결합하여 코미디를 최고의 순수 예술로 승화시킨 천재 영화감독이다.",
+  "shortDescription": "찰리 채플린의 일대기와 지혜",
+  "slug": "charlie-chaplin",
+  "quote": "인생은 가까이서 보면 비극이지만, 멀리서 보면 희극이다.",
+  "pain": "끔찍하고 가난했던 유년 시절의 절망, 그리고 냉전 시대 매카시즘의 광기에 희생되어 미국에서 강제로 추방당하는 부당하고 폭력적인 정치적 탄압을 겪었다.",
+  "recovery": "그는 빈민가에서 온몸으로 배운 페이소스를 통해 영화를 위대한 예술의 경지로 이끌었으며, 훗날 전 세계의 박수갈채를 받으며 이 이념과 억압을 당당히 이겨냈다.",
+  "lessons": [
+    {
+      "title": "인생은 가까이서 보면 비극이지만, 멀리서 보면 희극이다.",
+      "content": "지금 당장의 혹독한 시련과 고통에 갇혀 절망하지 말고, 한 걸음 물러서서 당신의 인생 전체를 여유롭고 긍정적으로 바라보십시오."
+    },
+    {
+      "title": "거울은 가장 좋은 친구다. 내가 울 때 결코 비웃지 않기 때문이다.",
+      "content": "타인의 차가운 시선이나 섣부른 평가에 상처받지 말고, 외롭고 힘들 때일수록 당신 내면의 진실한 모습과 온전히 마주하십시오."
+    },
+    {
+      "title": "웃음이 없는 하루는 버린 하루다.",
+      "content": "세상이 아무리 비참하고 가혹하게 당신을 짓누르더라도, 스스로의 내면을 지키는 가장 강력한 무기인 유머와 따뜻한 웃음을 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 찰리 채플린이다.",
+  "imageUrl": "/images/giants/charlie-chaplin.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1889~1977)"
+},
+  {
+  "id": "357",
+  "name": "샬럿 브론테",
+  "category": "arts",
+  "headline": "샬럿 브론테는 억압적인 빅토리아 시대에 주체적이고 강인한 여성상을 훌륭하게 그려낸 불멸의 소설 '제인 에어'를 집필한 영국의 위대한 소설가이다.",
+  "shortDescription": "샬럿 브론테의 일대기와 지혜",
+  "slug": "charlotte-bronte",
+  "quote": "나는 새가 아니며 어떠한 그물도 나를 옭아맬 수 없다.",
+  "pain": "어린 시절부터 겪은 극심한 가난과 가혹한 죽음의 상실, 그리고 여성이 주체적으로 글을 쓰는 것을 결코 허락하지 않던 빅토리아 시대의 폭력적인 억압에 시달렸다.",
+  "recovery": "남성 필명으로 편견에 정면으로 맞서며 불멸의 걸작 '제인 에어'를 출판했고, 사랑하는 가족들의 끔찍한 연이은 죽음이라는 절망 속에서도 치열한 글쓰기를 통해 영혼을 구원했다.",
+  "lessons": [
+    {
+      "title": "나는 새가 아니며 어떠한 그물도 나를 옭아맬 수 없다.",
+      "content": "세상이 일방적으로 정해 놓은 낡은 규칙이나 부당한 차별에 굴복하지 말고, 독립적이고 당당한 인격체로서 자신의 권리를 굳건히 주장하십시오."
+    },
+    {
+      "title": "진실한 존엄성은 돈이나 신분이 아니라 스스로의 영혼에서 나온다.",
+      "content": "외부의 화려한 조건이나 타인의 가벼운 평가에 휩쓸리지 말고, 당신이 가진 내면의 순수한 가치와 진실을 굳건히 지키십시오."
+    },
+    {
+      "title": "삶의 황량한 겨울에도 상상력은 꺼지지 않는 불꽃이 된다.",
+      "content": "도저히 혼자 감당할 수 없는 깊은 고독과 끔찍한 절망의 순간에도 결코 희망을 잃지 말고 당신만의 새로운 길을 용감하게 개척하십시오."
+    }
+  ],
+  "persona": "당신은 샬럿 브론테이다.",
+  "imageUrl": "/images/giants/charlotte-bronte.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1816~1855)"
+},
+  {
+  "id": "28",
+  "name": "치카마츠 몬자에몽",
+  "category": "arts",
+  "headline": "일본 에도 시대의 극작가로, 가부키와 조루리를 문학의 반열에 올려놓은 위대한 문장가이다.",
+  "shortDescription": "치카마츠 몬자에몽의 일대기와 지혜",
+  "slug": "chikamatsu-monzaemon",
+  "quote": "예술은 허구와 진실 사이의 아주 얇은 피막에 존재한다.",
+  "pain": "가부키 대본을 집필하며 배우들의 애드리브로 인해 자신의 문학적 의도가 빈번히 훼손되는 것에 큰 좌절감을 느꼈다.",
+  "recovery": "대본의 비중이 절대적인 인형극 조루리로 활동 영역을 옮겨 다케모토 기다유와 협력함으로써 자신만의 완벽한 극예술 세계를 완성해 냈다.",
+  "lessons": [
+    {
+      "title": "예술은 허구와 진실 사이의 아주 얇은 피막에 존재한다.",
+      "content": "지나치게 현실적이면 천박해지고, 지나치게 허구적이면 공감을 잃습니다. 삶과 예술에 있어서 사실과 상상력 사이의 완벽한 균형점을 찾아보십시오."
+    },
+    {
+      "title": "눈물이 없는 곳에는 예술도 없다.",
+      "content": "인간의 진실된 감정과 타인의 고통에 대한 깊은 공감이 없다면 진정한 걸작은 탄생할 수 없습니다. 타인의 슬픔에 진심으로 귀를 기울이십시오."
+    },
+    {
+      "title": "거짓 속에 진실이 있고 진실 속에 거짓이 있다.",
+      "content": "세상의 현상들을 단편적으로만 판단하지 마십시오. 표면적인 현상 이면에 숨겨진 복잡한 진실을 꿰뚫어 보는 통찰력을 기르시길 바랍니다."
+    }
+  ],
+  "persona": "당신은 치카마츠 몬자에몽이다.",
+  "imageUrl": "/images/giants/chikamatsu-monzaemon.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1653~1725)"
+},
+  {
+  "id": "77",
+  "name": "콜레트",
+  "category": "arts",
+  "headline": "남성의 이름에 갇혔던 과거를 벗어던지고 프랑스 문학의 관능적이고 혁명적인 목소리를 완성한 소설가이다.",
+  "shortDescription": "콜레트의 일대기와 지혜",
+  "slug": "colette",
+  "quote": "자유로운 여성이 되는 것은 얼마나 멋진 일인가. 더 이상 두려워할 것이 없다는 것은.",
+  "pain": "첫 남편 윌리에게 경제적, 정신적으로 착취당하며 자신의 이름으로 된 작품을 발표하지 못하는 유령 작가 취급을 받았다.",
+  "recovery": "남편과 결별한 후 무용수와 팬터마임 배우로 험난하게 생계를 유지하면서도 끝내 자신의 이름을 되찾고 주체적인 작가로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "자유로운 여성이 되는 것은 얼마나 멋진 일인가. 더 이상 두려워할 것이 없다는 것은.",
+      "content": "사회적 억압과 타인의 시선에 굴복하지 마십시오. 스스로의 힘으로 독립을 쟁취할 때 비로소 진정한 내면의 평화가 찾아옵니다."
+    },
+    {
+      "title": "나는 내 삶을 사랑한다. 그것이 때로는 고통스러웠다 할지라도.",
+      "content": "인생의 시련과 상처마저도 나를 성장시키는 소중한 자양분입니다. 삶의 모든 순간을 긍정하고 감각적으로 만끽하십시오."
+    },
+    {
+      "title": "꽃과 짐승, 그리고 자연은 결코 우리를 속이지 않는다.",
+      "content": "복잡한 인간관계에 지쳤을 때는 자연으로 눈을 돌리십시오. 순수한 자연의 아름다움 속에서 삶의 본질적인 위안을 얻으시길 바랍니다."
+    }
+  ],
+  "persona": "당신은 콜레트이다.",
+  "imageUrl": "/images/giants/colette.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1873~1954)"
+},
+  {
+  "id": "389",
+  "name": "콘스탄틴 브랑쿠시",
+  "category": "arts",
+  "headline": "불필요한 세부를 생략하고 대상의 본질만을 완벽한 형태로 구현하여 현대 추상 조각의 아버지가 된 루마니아 출신의 예술가이다.",
+  "shortDescription": "콘스탄틴 브랑쿠시의 일대기와 지혜",
+  "slug": "constantin-brancusi",
+  "quote": "큰 나무 밑에서는 아무것도 자랄 수 없다.",
+  "pain": "파리에서 오귀스트 로댕의 조수로 발탁되었으나, 거장의 그늘 아래에서는 자신의 독창성을 꽃피울 수 없다는 위기감에 빠졌다.",
+  "recovery": "안정적인 출세의 길을 포기하고 독립하여 '직접 조각'이라는 혁신적인 기법을 통해 사물의 본질만을 남기는 추상 조각의 새로운 길을 개척했다.",
+  "lessons": [
+    {
+      "title": "큰 나무 밑에서는 아무것도 자랄 수 없다.",
+      "content": "위대한 스승이나 권위의 그늘에 머무르며 안주하지 마십시오. 자신의 진정한 능력을 발휘하려면 고독을 감수하고 밖으로 나아가야 합니다."
+    },
+    {
+      "title": "단순함은 예술의 목표가 아니지만, 사물의 진정한 의미에 다가가다 보면 자연스럽게 도달하게 되는 상태이다.",
+      "content": "겉치레와 불필요한 장식으로 본질을 가리지 마십시오. 모든 군더더기를 깎아냈을 때 비로소 진실되고 강력한 아름다움이 드러납니다."
+    },
+    {
+      "title": "우리가 사물의 외형에 얽매여 있는 한, 결코 사물의 진정한 정수를 포착할 수 없다.",
+      "content": "눈에 보이는 피상적인 모습에 현혹되지 마십시오. 꿰뚫어 보는 통찰력으로 사물과 현상의 가장 깊은 곳에 있는 영혼을 발견하시길 바랍니다."
+    }
+  ],
+  "persona": "당신은 콘스탄틴 브랑쿠시이다.",
+  "imageUrl": "/images/giants/constantin-brancusi.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1876~1957)"
+},
+  {
+  "id": "177",
+  "name": "디에고 리베라",
+  "category": "arts",
+  "headline": "멕시코 민중의 삶과 역사를 거대한 벽화로 그려내어 예술을 혁명의 무기로 승화시킨 멕시코 국보급 화가이다.",
+  "shortDescription": "디에고 리베라의 일대기와 지혜",
+  "slug": "diego-rivera",
+  "quote": "예술은 세상을 꾸미는 장식품이 아니라, 세상을 바꾸기 위한 강력한 무기여야 한다.",
+  "pain": "미국의 록펠러 센터에 벽화를 의뢰받았으나, 정치적 신념에 따라 레닌의 얼굴을 그려 넣어 후원자와 극심한 마찰을 빚었다.",
+  "recovery": "벽화가 무참히 파괴되는 아픔을 겪으면서도 결코 예술적 양심을 타협하지 않았으며, 이후 멕시코에서 동일한 작품을 다시 그려내어 신념을 굽히지 않았다.",
+  "lessons": [
+    {
+      "title": "예술은 세상을 꾸미는 장식품이 아니라, 세상을 바꾸기 위한 강력한 무기여야 한다.",
+      "content": "자신의 재능과 지식을 개인의 영달을 위해서만 사용하지 마십시오. 사회를 더 나은 방향으로 이끄는 선한 영향력을 발휘하시길 바랍니다."
+    },
+    {
+      "title": "모든 훌륭한 예술은 자신이 속한 시대와 민중의 영혼을 반영해야 한다.",
+      "content": "자신의 뿌리와 정체성을 잊지 마십시오. 공동체의 역사와 아픔에 공감할 때 비로소 진정성 있고 울림이 있는 성취를 이룰 수 있습니다."
+    },
+    {
+      "title": "나의 붓은 노동자와 농민들이 자신들의 역사를 읽을 수 있는 언어이다.",
+      "content": "소통은 소수의 특권층이 아닌 모두를 향해야 합니다. 당신이 가진 능력이 소외된 자들의 목소리를 대변할 수 있도록 노력하십시오."
+    }
+  ],
+  "persona": "당신은 디에고 리베라이다.",
+  "imageUrl": "/images/giants/diego-rivera.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1886~1957)"
+},
+  {
+  "id": "370",
+  "name": "디에고 벨라스케스",
+  "category": "arts",
+  "headline": "빛과 색채로 공간을 완벽하게 재현하며 에두아르 마네로부터 '화가 중의 화가'라는 극찬을 받은 스페인의 위대한 궁정 화가이다.",
+  "shortDescription": "디에고 벨라스케스의 일대기와 지혜",
+  "slug": "diego-velazquez",
+  "quote": "나는 이탈리아 화가들 뒤에 서기보다는 차라리 스페인 화가들 중 첫 번째가 되겠다.",
+  "pain": "국왕 펠리페 4세의 전속 궁정 화가로서 엄격한 궁정 예법과 제한된 주제만을 그려야 하는 무거운 예술적 굴레에 갇혀 있었다.",
+  "recovery": "제한된 환경 속에서도 뛰어난 통찰력으로 권력자들의 허무한 내면을 포착해 내고, <시녀들>과 같은 혁신적인 공간 연출로 궁정 회화의 한계를 돌파했다.",
+  "lessons": [
+    {
+      "title": "나는 이탈리아 화가들 뒤에 서기보다는 차라리 스페인 화가들 중 첫 번째가 되겠다.",
+      "content": "맹목적으로 타인을 모방하여 2인자가 되려 하지 마십시오. 자신만의 독창적인 길을 개척하여 그 분야의 선구자가 되시길 바랍니다."
+    },
+    {
+      "title": "진실은 예술의 가장 훌륭한 변명이다.",
+      "content": "대상을 억지로 미화하거나 과장하지 마십시오. 있는 그대로의 진실을 정확하게 직시하고 담아낼 때 가장 강력한 설득력을 얻습니다."
+    },
+    {
+      "title": "보는 법을 배우면, 세상의 평범한 사물들 속에서도 무한한 아름다움을 발견할 수 있다.",
+      "content": "아름다움은 화려하고 특별한 곳에만 있는 것이 아닙니다. 일상적이고 평범한 삶의 풍경 속에서 진정한 가치를 찾아내는 통찰력을 기르십시오."
+    }
+  ],
+  "persona": "당신은 디에고 벨라스케스이다.",
+  "imageUrl": "/images/giants/diego-velazquez.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1599~1660)"
+},
+  {
+  "id": "413",
+  "name": "드미트리 쇼스타코비치",
+  "category": "arts",
+  "headline": "소비에트 체제의 극한적인 정치적 탄압 속에서도 음악을 통해 시대의 비극과 인류애를 증언한 러시아의 위대한 교향곡 작곡가이다.",
+  "shortDescription": "드미트리 쇼스타코비치의 일대기와 지혜",
+  "slug": "dmitri-shostakovich",
+  "quote": "내 음악은 전체주의에 희생된 사람들을 위한 묘비이다.",
+  "pain": "스탈린의 가혹한 비판과 대숙청의 공포 속에서 언제 처형될지 모른다는 극심한 불안감에 시달리며 작품 활동을 철저히 통제받았다.",
+  "recovery": "음악 속에 진실을 숨기는 고도의 '이중 화법'을 사용하여, 당의 요구에 순응하는 척하면서도 억압받는 민중의 비극을 걸작 교향곡으로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "내 음악은 전체주의에 희생된 사람들을 위한 묘비이다.",
+      "content": "자신의 직업적 성취를 억울하고 소외된 사람들을 기억하고 위로하는 데 사용하십시오. 그것이 인류의 역사에 남길 수 있는 가장 고귀한 유산입니다."
+    },
+    {
+      "title": "진실한 감정은 어떤 폭력의 위협 속에서도 결코 완전히 침묵하지 않는다.",
+      "content": "외부의 억압이 아무리 거세더라도 자신의 양심을 저버리지 마십시오. 우회적인 방식으로라도 당신의 신념을 굳건히 지켜나가야 합니다."
+    },
+    {
+      "title": "예술가는 시대의 끔찍한 비극 속에서 결코 눈을 감아서는 안 된다.",
+      "content": "현실의 고통을 외면하고 안전한 방관자로 숨지 마십시오. 당신이 목격한 시대의 진실을 용기 있게 기록하고 증언하시길 바랍니다."
+    }
+  ],
+  "persona": "당신은 드미트리 쇼스타코비치이다.",
+  "imageUrl": "/images/giants/dmitri-shostakovich.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1906~1975)"
+},
+  {
+  "id": "367",
+  "name": "도나텔로",
+  "category": "arts",
+  "headline": "중세의 암흑기를 벗어나 고전 시대 인체의 아름다움과 생명력을 조각으로 부활시킨 초기 르네상스의 선구자이다.",
+  "shortDescription": "도나텔로의 일대기와 지혜",
+  "slug": "donatello",
+  "quote": "차가운 대리석 속에도 뜨거운 심장이 뛰고 있다.",
+  "pain": "중세의 딱딱하고 평면적인 고딕 조각 양식의 한계에 부딪혀 인간의 생생한 감정과 인체의 비례를 표현하는 데 어려움을 겪었다.",
+  "recovery": "로마 유적을 연구하고 극저부조 기법인 '스키아차토'를 발명하여 조각에 원근법과 완벽한 해부학적 아름다움을 부여했다.",
+  "lessons": [
+    {
+      "title": "차가운 대리석 속에도 뜨거운 심장이 뛰고 있다.",
+      "content": "겉으로 차갑고 굳어 보이는 사물이나 사람에게도 그만의 생명력과 진심이 숨어 있습니다. 겉모습에 갇히지 말고 그 내면의 박동을 느끼십시오."
+    },
+    {
+      "title": "과거를 파헤치는 자만이 미래를 조각할 수 있다.",
+      "content": "혁신은 단절에서 오지 않고 깊은 뿌리에 대한 이해에서 출발합니다. 고전과 역사를 깊이 탐구하여 새로운 창조의 발판으로 삼으시길 바랍니다."
+    },
+    {
+      "title": "육체의 아름다움은 오직 정신의 위대함을 담아낼 때 비로소 완성된다.",
+      "content": "외면을 가꾸는 일보다 내면의 지성과 도덕을 성숙시키는 일에 집중하십시오. 진정한 기품은 내면의 깊이에서 우러나오는 법입니다."
+    }
+  ],
+  "persona": "당신은 도나텔로이다.",
+  "imageUrl": "/images/giants/donatello.jpg",
+  "dnaCode": "LRHI",
+  "era": "15세기의 거인 (1386~1466)"
+},
+  {
+  "id": "34",
+  "name": "두보",
+  "category": "arts",
+  "headline": "당나라의 쇠락과 전란 속에서 민중의 참상을 처절하게 기록하여 '시로 쓴 역사(詩史)'를 완성한 중국 최고의 시성(詩聖)이다.",
+  "shortDescription": "두보의 일대기와 지혜",
+  "slug": "du-fu",
+  "quote": "나라는 부서졌으나 산하는 여전하고, 성 안엔 봄이 와 초목만 무성하구나.",
+  "pain": "안사의 난이라는 끔찍한 전란과 벼슬길의 좌절 속에서 평생을 극심한 가난과 병마에 시달리며 유랑해야 했다.",
+  "recovery": "자신의 고통에 매몰되지 않고 억압받는 민중의 참상을 지극히 정교하고 사실적인 시어로 기록하여 불멸의 예술로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "나라는 부서졌으나 산하는 여전하고, 성 안엔 봄이 와 초목만 무성하구나.",
+      "content": "인간사의 덧없는 성패에 지나치게 얽매이거나 절망하지 마십시오. 대자연의 영원한 섭리 앞에서 우리의 고통도 결국 지나가는 바람일 뿐입니다."
+    },
+    {
+      "title": "문장은 천고의 일이요, 득실은 촌심에 달렸다.",
+      "content": "눈앞의 이익이나 일시적인 명성에 흔들리지 마십시오. 당신이 남기는 진실된 기록과 양심만이 역사의 긴 흐름 속에서 영원히 빛날 것입니다."
+    },
+    {
+      "title": "주문엔 술과 고기 썩는 냄새 진동하고, 길가엔 얼어 죽은 해골이 뒹구네.",
+      "content": "사회의 어두운 단면과 소외된 이웃들의 비극을 절대 외면하지 마십시오. 타인의 고통에 깊이 공감하고 이를 개선하려는 실천적 용기를 가지시길 바랍니다."
+    }
+  ],
+  "persona": "당신은 두보이다.",
+  "imageUrl": "/images/giants/du-fu.jpg",
+  "dnaCode": "LRHI",
+  "era": "8세기의 거인 (712~770)"
+},
+  {
+  "id": "69",
+  "name": "에디스 워튼",
+  "category": "arts",
+  "headline": "미국 도금 시대 상류 사회의 위선과 억압을 날카롭게 해부하여 여성 최초로 퓰리처상을 수상한 소설가이다.",
+  "shortDescription": "에디스 워튼의 일대기와 지혜",
+  "slug": "edith-wharton",
+  "quote": "빛을 퍼뜨리는 방법에는 두 가지가 있다. 촛불이 되거나, 아니면 그것을 비추는 거울이 되는 것이다.",
+  "pain": "보수적인 뉴욕 최상류층의 억압적인 관습과 불행한 결혼 생활 속에서 극심한 신경쇠약과 우울증을 앓으며 질식해 갔다.",
+  "recovery": "휴식 요법을 거부하고 글쓰기라는 적극적인 저항을 선택하여 마침내 이혼을 결행하고 온전한 문학적 독립을 쟁취해 냈다.",
+  "lessons": [
+    {
+      "title": "빛을 퍼뜨리는 방법에는 두 가지가 있다. 촛불이 되거나, 아니면 그것을 비추는 거울이 되는 것이다.",
+      "content": "스스로 빛나는 존재가 되기 어렵다면, 다른 사람의 선한 영향력과 재능을 널리 퍼뜨려주는 훌륭한 조력자가 되십시오."
+    },
+    {
+      "title": "슬픔의 유일한 치료법은 행동하는 것이다.",
+      "content": "과거의 상처나 우울함 속에 무기력하게 주저앉아 있지 마십시오. 몸을 움직이고 무언가에 열중할 때 비로소 상처는 치유되기 시작합니다."
+    },
+    {
+      "title": "안전한 삶을 살기 위해 가장 필요한 것은 실패를 두려워하지 않는 용기이다.",
+      "content": "실패를 피하려고만 한다면 좁고 답답한 틀에 갇히게 됩니다. 진정한 자유와 성취는 과감히 실패를 마주할 때 얻어짐을 명심하십시오."
+    }
+  ],
+  "persona": "당신은 에디스 워튼이다.",
+  "imageUrl": "/images/giants/edith-wharton.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1862~1937)"
+},
+  {
+  "id": "297",
+  "name": "에드바르 뭉크",
+  "category": "arts",
+  "headline": "죽음의 공포와 실존적 불안을 강렬한 색채로 묘사하여 현대인의 내면 풍경을 완성한 노르웨이의 국민 화가이다.",
+  "shortDescription": "에드바르 뭉크의 일대기와 지혜",
+  "slug": "edvard-munch",
+  "quote": "더 이상 사람들은 책을 읽거나 뜨개질을 하는 그림을 그리지 않을 것이다. 그들은 숨 쉬고, 느끼고, 고통받고, 사랑해야 한다.",
+  "pain": "유년 시절 어머니와 누이를 결핵으로 잃은 끔찍한 상실감과 아버지가 심어준 종교적 광기 탓에 평생을 죽음의 공포에 시달렸다.",
+  "recovery": "자신을 옭아매는 고통과 신경 쇠약을 회피하지 않고 화폭 위에 날것 그대로의 감정으로 쏟아내어 표현주의의 위대한 선구자가 되었다.",
+  "lessons": [
+    {
+      "title": "더 이상 사람들은 책을 읽거나 뜨개질을 하는 그림을 그리지 않을 것이다. 그들은 숨 쉬고, 느끼고, 고통받고, 사랑해야 한다.",
+      "content": "예술이든 일상이든 겉으로 보이는 형식적인 평온함에 만족하지 마십시오. 가슴이 뛰고 영혼이 흔들리는 진짜 감정의 교류를 추구해야 합니다."
+    },
+    {
+      "title": "나의 질병, 나의 불안은 내 예술과 분리될 수 없다. 그것이 없다면 내 예술은 조타수 없는 배와 같다.",
+      "content": "자신의 결핍이나 정신적인 상처를 숨기려 애쓰지 마십시오. 당신의 약점은 관점을 바꾸면 누구도 흉내 낼 수 없는 가장 강력한 창조의 원동력이 됩니다."
+    },
+    {
+      "title": "나는 눈에 보이는 것을 그리지 않는다. 나는 내 마음이 본 것을 그린다.",
+      "content": "현상을 있는 그대로 받아들이기보다는 자신의 내면에서 우러나오는 직관과 통찰력을 믿으십시오. 진실은 종종 눈에 보이지 않는 곳에 있습니다."
+    }
+  ],
+  "persona": "당신은 에드바르 뭉크이다.",
+  "imageUrl": "/images/giants/edvard-munch.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1863~1944)"
+},
+  {
+  "id": "358",
+  "name": "에밀리 브론테",
+  "category": "arts",
+  "headline": "영국 빅토리아 시대의 사회적 억압과 편견을 뚫고 인간 영혼의 야성적인 심연을 그려낸 천재 소설가이자 시인이다.",
+  "shortDescription": "에밀리 브론테의 일대기와 지혜",
+  "slug": "emily-bronte",
+  "quote": "자만심은 가장 잔인한 독사이다.",
+  "pain": "남성 중심의 보수적인 19세기 빅토리아 시대에 여성이라는 이유로 철저한 차별과 외면을 당했으며, 본명조차 숨긴 채 발표한 유일한 소설은 평단과 대중의 지독한 혹평에 시달려야 했다.",
+  "recovery": "사회적 편견과 문단에서의 고립에 굴복하지 않고, 요크셔 황야의 거친 자연과 인간의 근원적 정념을 압도적인 상상력으로 묘사하여 시대를 초월한 불멸의 걸작을 완성해냈다.",
+  "lessons": [
+    {
+      "title": "자만심은 가장 잔인한 독사이다.",
+      "content": "헛된 우월감과 자만심은 결국 스스로의 영혼을 파괴하고 갉아먹을 뿐이니, 언제나 겸손하고 진실한 태도로 자신의 내면을 성찰하십시오."
+    },
+    {
+      "title": "거짓은 영원히 감출 수 없다.",
+      "content": "진실은 아무리 깊이 숨기려 해도 결국은 그 모습을 드러내기 마련이므로, 삶의 모든 순간에서 거짓 없는 솔직함으로 사람들을 대하십시오."
+    },
+    {
+      "title": "나의 영혼은 비겁하지 않다.",
+      "content": "세상의 편견과 혹독한 시련이 닥쳐올지라도 두려움에 굴복하지 말고, 당신의 신념을 굳건히 지키며 당당하게 삶을 개척해 나가십시오."
+    }
+  ],
+  "persona": "당신은 에밀리 브론테이다.",
+  "imageUrl": "/images/giants/emily-bronte.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1818~1848)"
+},
+  {
+  "id": "97",
+  "name": "에마 라자루스",
+  "category": "arts",
+  "headline": "이민자와 난민들의 고통에 깊이 공감하며 미국의 포용적 가치를 불멸의 시로 선언한 위대한 시인이자 인권 운동가이다.",
+  "shortDescription": "에마 라자루스의 일대기와 지혜",
+  "slug": "emma-lazarus",
+  "quote": "고단하고 가난한 자들이여, 내게로 오라.",
+  "pain": "1880년대 러시아 제국에서 발생한 끔찍한 포그롬으로 인해 뉴욕으로 몰려든 수많은 유대인 난민들의 비참한 참상을 목격하며 극심한 정신적 충격과 슬픔을 겪어야 했다.",
+  "recovery": "안락한 상류 사회의 시인으로 머물기를 거부하고 핍박받는 난민들을 위한 구호 활동에 헌신했으며, 그들을 향한 깊은 연민을 불멸의 시로 승화시켜 위대한 인류애를 실천했다.",
+  "lessons": [
+    {
+      "title": "고단하고 가난한 자들이여, 내게로 오라.",
+      "content": "도움이 필요한 사람들의 고통을 결코 외면하지 말고, 당신이 가진 따뜻한 포용력과 연민의 마음을 아낌없이 베푸십시오."
+    },
+    {
+      "title": "우리가 모두 자유로워질 때까지 우리 중 누구도 진정으로 자유롭지 않다.",
+      "content": "타인의 억압과 고통은 결국 우리 모두의 문제임을 깊이 자각하고, 불의에 맞서 연대하는 용기를 가지십시오."
+    },
+    {
+      "title": "진정한 위대함은 타인을 세워주는 데 있다.",
+      "content": "진정한 성취는 나 자신의 영광을 추구하는 것이 아니라, 약하고 소외된 이들에게 희망의 빛을 비추는 데 있음을 명심하십시오."
+    }
+  ],
+  "persona": "당신은 에마 라자루스이다.",
+  "imageUrl": "/images/giants/emma-lazarus.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1849~1887)"
+},
+  {
+  "id": "418",
+  "name": "엔리코 카루소",
+  "category": "arts",
+  "headline": "가난을 딛고 일어나 황금빛 목소리와 압도적인 표현력으로 20세기 세계 오페라계를 제패한 전설적인 테너이다.",
+  "shortDescription": "엔리코 카루소의 일대기와 지혜",
+  "slug": "enrico-caruso",
+  "quote": "성공은 신이 주신 목소리뿐만 아니라, 그것을 단련하는 땀방울에 있다.",
+  "pain": "이탈리아 나폴리의 찢어지게 가난한 빈민가에서 태어나 정식 음악 교육조차 받지 못했으며, 초기에는 세련되지 못한 무대 매너와 배경 탓에 숱한 오디션에서 거절당하는 굴욕을 겪었다.",
+  "recovery": "천부적인 재능에 만족하지 않고 뼈를 깎는 노력으로 자신만의 독창적인 발성법을 완성했으며, 신기술인 축음기 녹음을 과감하게 받아들여 전 세계 오페라의 대중화를 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "성공은 신이 주신 목소리뿐만 아니라, 그것을 단련하는 땀방울에 있다.",
+      "content": "아무리 뛰어난 천부적인 재능을 가졌더라도, 스스로의 피나는 노력과 끈기가 뒷받침되지 않으면 결코 위대한 성취를 이룰 수 없음을 명심하십시오."
+    },
+    {
+      "title": "마음으로 부르지 않는 노래는 결코 남의 마음을 움직일 수 없다.",
+      "content": "기술적인 완벽함보다 중요한 것은 진실된 감정과 진정성이니, 어떤 일을 하든 당신의 온 마음과 영혼을 담아 임하십시오."
+    },
+    {
+      "title": "나는 평생을 학생으로 살았다.",
+      "content": "최고의 자리에 올랐을지라도 자만하지 말고, 끝없이 배우고 스스로를 발전시키려는 겸손한 구도자의 자세를 평생 유지하십시오."
+    }
+  ],
+  "persona": "당신은 엔리코 카루소이다.",
+  "imageUrl": "/images/giants/enrico-caruso.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1873~1921)"
+},
+  {
+  "id": "81",
+  "name": "에릭 사티",
+  "category": "arts",
+  "headline": "당대의 웅장하고 무거운 낭만주의를 거부하고 단순함과 일상의 소리를 음악으로 승화시켜 현대 미니멀리즘과 앰비언트 음악의 기틀을 다진 위대한 작곡가이다.",
+  "shortDescription": "에릭 사티의 일대기와 지혜",
+  "slug": "erik-satie",
+  "quote": "나는 너무 늙은 세상에 너무 젊게 태어났다.",
+  "pain": "프랑스 최고의 파리 음악원 시절부터 보수적인 교수들에게 게으르고 무능하다는 혹평을 받으며 자퇴해야 했고, 평생을 지독한 가난과 대중의 차가운 조롱 속에서 고독하게 살아가야 했다.",
+  "recovery": "주류 음악계의 멸시와 궁핍한 환경에 굴복하지 않고, 오히려 기성의 권위를 맹렬히 조롱하며 '가구 음악'이라는 시대를 앞서간 독창적인 철학을 탄생시켜 현대 음악의 새로운 지평을 열었다.",
+  "lessons": [
+    {
+      "title": "나는 너무 늙은 세상에 너무 젊게 태어났다.",
+      "content": "남들이 당신의 생각과 가치를 당장 이해하지 못하더라도 결코 좌절하지 말고, 시대를 앞서가는 당신만의 독창적인 길을 묵묵히 걸어가십시오."
+    },
+    {
+      "title": "단순함 속에 가장 깊은 아름다움이 숨어 있다.",
+      "content": "삶을 짓누르는 불필요한 장식과 복잡한 허울을 과감히 덜어내고, 본질에 집중하는 단순함의 미학을 실천하십시오."
+    },
+    {
+      "title": "예술은 결코 심각하기만 한 것이 아니다.",
+      "content": "무거운 권위의식과 틀에 박힌 규칙에 얽매이지 말고, 때로는 삶을 여유롭게 바라보며 유쾌한 위트와 해학을 즐길 줄 아는 여유를 가지십시오."
+    }
+  ],
+  "persona": "당신은 에릭 사티이다.",
+  "imageUrl": "/images/giants/erik-satie.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1866~1925)"
+},
+  {
+  "id": "372",
+  "name": "외젠 들라크루아",
+  "category": "arts",
+  "headline": "이성과 형태를 중시하던 신고전주의에 맞서 강렬한 색채와 인간의 감정을 폭발시키며 프랑스 낭만주의 미술을 이끈 위대한 거장이다.",
+  "shortDescription": "외젠 들라크루아의 일대기와 지혜",
+  "slug": "eugene-delacroix",
+  "quote": "규칙이란 천재를 옭아매기 위해 만들어진 것이다.",
+  "pain": "프랑스 화단이 완벽한 비례와 엄격한 소묘를 중시하는 보수적인 신고전주의에 지배당하던 시절, 기성의 규칙을 거부했다는 이유로 거센 비난과 이단아 취급을 받으며 철저히 고립되어야 했다.",
+  "recovery": "세상의 비난에 타협하지 않고 강렬한 색채와 역동적인 구도를 통해 인간의 폭발적인 감정을 화폭에 담아냄으로써, 마침내 프랑스 낭만주의 회화의 위대한 시대를 열어젖혔다.",
+  "lessons": [
+    {
+      "title": "규칙이란 천재를 옭아매기 위해 만들어진 것이다.",
+      "content": "남들이 정해놓은 기존의 틀과 규칙에 맹목적으로 순응하지 말고, 당신의 가슴을 뛰게 하는 진정한 내면의 목소리를 당당하게 따르십시오."
+    },
+    {
+      "title": "색채는 영혼을 뒤흔드는 눈의 음악이다.",
+      "content": "차가운 논리와 이성만으로 세상을 재단하려 하지 말고, 때로는 뜨거운 감정과 직관이 이끄는 풍부한 감성을 온전히 받아들이십시오."
+    },
+    {
+      "title": "예술가는 자신의 시대와 함께 호흡해야 한다.",
+      "content": "세상과 동떨어진 상아탑에 숨지 말고, 현실의 고통과 시대의 흐름에 치열하게 참여하며 자신의 역할을 다하는 깨어있는 사람이 되십시오."
+    }
+  ],
+  "persona": "당신은 외젠 들라크루아이다.",
+  "imageUrl": "/images/giants/eugene-delacroix.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1798~1863)"
+},
+  {
+  "id": "343",
+  "name": "에우리피데스",
+  "category": "arts",
+  "headline": "신화적 영웅주의를 탈피하고 평범한 인간의 내면 심리와 사회적 모순을 날카롭게 해부한 고대 그리스의 위대한 비극 작가이다.",
+  "shortDescription": "에우리피데스의 일대기와 지혜",
+  "slug": "euripides",
+  "quote": "시간은 모든 것을 설명한다. 그것은 질문을 던지기도 전에 말해준다.",
+  "pain": "신들의 위대함을 찬양하던 전통을 깨고 인간의 심리와 소외된 계층의 고통을 묘사했다는 이유로 당대 아테네 시민들에게 이단아 취급을 받으며 조롱과 외면을 당했다.",
+  "recovery": "세상의 비난과 멸시에 굴복하지 않고 자신만의 혁신적인 연출 기법과 날카로운 사회 고발을 끝까지 밀어붙여, 서양 연극사에서 가장 현대적이고 파격적인 심리극의 원형을 완성했다.",
+  "lessons": [
+    {
+      "title": "시간은 모든 것을 설명한다. 그것은 질문을 던지기도 전에 말해준다.",
+      "content": "당장 눈앞에 벌어진 상황에 조급해하며 해답을 찾으려 애쓰기보다는, 긴 호흡으로 때를 기다리며 인내하는 지혜를 가지십시오."
+    },
+    {
+      "title": "침묵은 종종 가장 강력한 대답이 된다.",
+      "content": "분노와 증오로 가득 찬 무의미한 논쟁에 휩쓸리지 말고, 때로는 깊은 침묵 속에서 진실을 성찰하는 지혜를 발휘하십시오."
+    },
+    {
+      "title": "용기란 두려움이 없는 것이 아니라, 두려움을 이겨내는 것이다.",
+      "content": "삶의 시련 앞에서 공포를 느끼는 것은 당연한 일이나, 그 공포에 굴복하지 않고 한 걸음 앞으로 나아가는 진정한 용기를 내십시오."
+    }
+  ],
+  "persona": "당신은 에우리피데스이다.",
+  "imageUrl": "/images/giants/euripides.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 5세기의 거인 (기원전 480~기원전 406)"
+},
+  {
+  "id": "361",
+  "name": "에즈라 파운드",
+  "category": "arts",
+  "headline": "'이미지즘'을 창시하며 20세기 영미 모더니즘 문학의 혁명을 이끌어낸 천재 시인이자 위대한 작가들의 숨은 조력자이다.",
+  "shortDescription": "에즈라 파운드의 일대기와 지혜",
+  "slug": "ezra-pound",
+  "quote": "새롭게 만들어라!",
+  "pain": "제2차 세계대전 당시 반유대주의와 파시즘을 지지하는 정치적 오판을 저질러 전후 반역죄로 체포되었고, 야외 철창 수용소와 정신병원에 십여 년간 갇히는 치욕과 고통을 겪어야 했다.",
+  "recovery": "혹독한 수용소의 절망과 붕괴하는 정신 상태 속에서도 시를 향한 광기 어린 열정을 잃지 않고, 현대시의 금자탑으로 불리는 위대한 서사시 『캔토스』를 끝까지 집필해 나갔다.",
+  "lessons": [
+    {
+      "title": "새롭게 만들어라!",
+      "content": "과거의 낡은 관습과 형식에 안주하지 말고, 언제나 당신만의 새로운 시각과 언어로 세상을 창조하려는 혁신적인 자세를 유지하십시오."
+    },
+    {
+      "title": "위대한 문학은 단순히 언어의 춤이 아니라, 삶에 대한 깊은 성찰이다.",
+      "content": "화려한 겉치레나 수사에 집착하지 말고, 진정성 있는 통찰을 통해 인간의 삶과 본질을 꿰뚫어 보는 안목을 기르십시오."
+    },
+    {
+      "title": "천재를 알아보는 것 역시 천재성이다.",
+      "content": "타인의 뛰어난 재능을 시기하지 말고 그들의 성장을 진심으로 돕고 지지할 때, 당신 역시 더 위대한 성취를 이룰 수 있음을 명심하십시오."
+    }
+  ],
+  "persona": "당신은 에즈라 파운드이다.",
+  "imageUrl": "/images/giants/ezra-pound.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1885~1972)"
+},
+  {
+  "id": "308",
+  "name": "F. 스콧 피츠제럴드",
+  "category": "arts",
+  "headline": "1920년대 미국 재즈 시대의 화려함과 그 이면에 숨겨진 물질주의의 허상을 가장 탁월하고 서정적인 문체로 그려낸 위대한 소설가이다.",
+  "shortDescription": "F. 스콧 피츠제럴드의 일대기와 지혜",
+  "slug": "f-scott-fitzgerald",
+  "quote": "결코 닿을 수 없는 이상일지라도, 그것을 향해 손을 뻗는 인간의 모습은 가장 아름답다.",
+  "pain": "재즈 시대의 화려한 아이콘으로 군림했으나 대공황 이후 대중에게 철저히 외면당했고, 아내의 심각한 정신 질환과 본인의 알코올 중독, 그리고 극심한 재정난으로 인해 뼈저린 몰락과 고통을 겪었다.",
+  "recovery": "참담한 실패와 건강 악화 속에서도 펜을 놓지 않고 할리우드에서 굴욕적인 시나리오 작가로 일하면서도 마지막까지 재기를 꿈꾸며 위대한 문학적 유산을 완성하려 고군분투했다.",
+  "lessons": [
+    {
+      "title": "결코 닿을 수 없는 이상일지라도, 그것을 향해 손을 뻗는 인간의 모습은 가장 아름답다.",
+      "content": "결과가 보장되지 않는 막막한 현실 앞에서도 희망을 잃지 말고, 당신이 품은 순수한 꿈과 이상을 향해 끊임없이 용기 내어 도전하십시오."
+    },
+    {
+      "title": "우리는 끊임없이 과거로 밀려나면서도, 물결을 거스르는 배처럼 앞으로 나아간다.",
+      "content": "지나간 과거의 후회와 실패에 발목을 잡혀 머물러 있지 말고, 그것을 딛고 일어나 미래를 향해 당당하게 당신만의 항해를 계속하십시오."
+    },
+    {
+      "title": "성격이 곧 그 사람의 운명이다.",
+      "content": "외부의 화려한 조건이나 운에 기대지 말고, 매 순간 올바른 선택을 내릴 수 있는 스스로의 단단하고 바른 내면을 정성껏 가꾸십시오."
+    }
+  ],
+  "persona": "당신은 F. 스콧 피츠제럴드이다.",
+  "imageUrl": "/images/giants/f-scott-fitzgerald.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1896~1940)"
+},
+  {
+  "id": "426",
+  "name": "페데리코 펠리니",
+  "category": "arts",
+  "headline": "네오리알리스모의 현실주의를 뛰어넘어 무의식과 환상, 기억이 교차하는 마술적 초현실주의로 현대 영화의 문법을 완전히 재창조한 위대한 감독이다.",
+  "shortDescription": "페데리코 펠리니의 일대기와 지혜",
+  "slug": "federico-fellini",
+  "quote": "영화는 가장 훌륭한 서커스이며, 우리 삶은 끊임없이 계속되는 하나의 공연이다.",
+  "pain": "영화 역사상 가장 위대한 성공을 거둔 이후 차기작에 대한 극심한 압박감과 영감의 고갈로 인해 치명적인 심리적 위기와 창작의 한계에 부딪혔다.",
+  "recovery": "창작의 고통 자체를 영화의 소재로 삼는 천재적인 발상의 전환을 통해, 기억과 환상이 교차하는 모더니즘 영화의 금자탑 『8과 1/2』을 탄생시키며 자신의 한계를 완벽하게 뛰어넘었다.",
+  "lessons": [
+    {
+      "title": "영화는 가장 훌륭한 서커스이며, 우리 삶은 끊임없이 계속되는 하나의 공연이다.",
+      "content": "인생의 고난과 불확실성 앞에서도 지나치게 비관하지 말고, 매 순간을 서커스처럼 경이롭고 열정적인 축제라 여기며 긍정적으로 즐기십시오."
+    },
+    {
+      "title": "기억은 우리가 진정으로 소유할 수 있는 유일한 낙원이다.",
+      "content": "과거의 아름다운 추억과 경험들을 소중히 간직하여, 현실의 장벽에 부딪혔을 때 당신을 일으켜 세우는 내면의 든든한 안식처로 삼으십시오."
+    },
+    {
+      "title": "몽상가가 되는 것을 두려워하지 말라.",
+      "content": "차가운 이성과 현실적인 잣대에만 얽매여 당신의 한계를 규정짓지 말고, 마음껏 상상하고 꿈꾸며 무한한 창조의 날개를 펴십시오."
+    }
+  ],
+  "persona": "당신은 페데리코 펠리니이다.",
+  "imageUrl": "/images/giants/federico-fellini.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1920~1993)"
+},
+  {
+  "id": "406",
+  "name": "펠릭스 멘델스존",
+  "category": "arts",
+  "headline": "고전주의의 우아한 형식미와 낭만주의의 섬세한 서정성을 완벽하게 조화시킨 19세기 유럽 음악계의 천재 작곡가이자 지휘자이다.",
+  "shortDescription": "펠릭스 멘델스존의 일대기와 지혜",
+  "slug": "felix-mendelssohn",
+  "quote": "음악은 말로 표현할 수 없는 것을 말해준다.",
+  "pain": "너무 일찍 꽃피운 천재성에 대한 세상의 거대한 기대감, 그리고 작곡과 지휘, 교육 등 쉴 새 없이 이어진 살인적인 일정으로 인해 말년에는 극심한 육체적 쇠약과 정신적 과로에 시달렸다.",
+  "recovery": "자신의 건강이 무너지는 고통 속에서도 음악을 향한 순수한 열정과 완벽주의를 잃지 않고, 오케스트라의 연주 수준을 혁신하고 후학을 양성하며 유럽 음악계의 눈부신 발전을 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "음악은 말로 표현할 수 없는 것을 말해준다.",
+      "content": "때로는 서툰 백 마디 말보다 진심이 담긴 음악 한 구절이 깊은 위로가 될 수 있으니, 예술이 지닌 치유와 공감의 힘을 믿으십시오."
+    },
+    {
+      "title": "천재성은 끝없는 인내에 다름 아니다.",
+      "content": "아무리 위대한 재능을 타고났더라도 스스로의 뼈를 깎는 성실함이 없다면 결코 완성될 수 없음을 명심하고, 매 순간 최선을 다하십시오."
+    },
+    {
+      "title": "과거의 뿌리 없이 미래의 잎사귀는 피어나지 않는다.",
+      "content": "새롭고 혁신적인 것만을 맹목적으로 좇지 말고, 과거의 위대한 유산과 전통을 겸허히 배우고 계승하는 지혜를 가지십시오."
+    }
+  ],
+  "persona": "당신은 펠릭스 멘델스존이다.",
+  "imageUrl": "/images/giants/felix-mendelssohn.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1809~1847)"
+},
+  {
+  "id": "392",
+  "name": "프랭크 로이드 라이트",
+  "category": "arts",
+  "headline": "대자연과 건축물의 완벽한 조화를 추구한 '유기적 건축' 철학을 확립한 20세기 최고의 미국 건축가이다.",
+  "shortDescription": "프랭크 로이드 라이트의 일대기와 지혜",
+  "slug": "frank-lloyd-wright",
+  "quote": "자연을 연구하고, 자연을 사랑하며, 자연 가까이에 머물라. 자연은 결코 당신을 실망시키지 않을 것이다.",
+  "pain": "사랑하는 연인과 가족들이 자신이 지은 저택 탈리에신에서 하인에게 참혹하게 살해당하는 비극을 겪었고, 이후 경제 대공황과 파산으로 깊은 절망에 빠졌다.",
+  "recovery": "칠십을 바라보는 늦은 나이에 숲속 폭포 위에 지은 경이로운 주택 '낙수장(Fallingwater)'을 세상에 선보이며 과거의 비극을 이겨내고 화려하게 부활했다.",
+  "lessons": [
+    {
+      "title": "자연을 연구하고, 자연을 사랑하며, 자연 가까이에 머물라. 자연은 결코 당신을 실망시키지 않을 것이다.",
+      "content": "우리가 마주하는 모든 문제의 해답은 결국 자연의 이치 속에 숨어 있습니다. 인위적인 욕심을 버리고 대자연의 순리에 귀를 기울이며 삶의 균형을 찾아가십시오."
+    },
+    {
+      "title": "형태와 기능은 하나가 되어야 한다. 두 가지가 영적인 조화를 이룰 때 비로소 진정한 위대함이 탄생한다.",
+      "content": "겉으로 보이는 화려함에만 집착하지 말고 내면의 실질적인 쓸모와 의미를 함께 가꾸어야 합니다. 당신의 삶 속에서 외면과 내면이 완벽한 조화를 이루도록 노력하십시오."
+    },
+    {
+      "title": "가장 훌륭한 작품은 아직 지어지지 않은 작품이다.",
+      "content": "과거의 성공이나 실패에 얽매이지 말고 항상 내일의 새로운 가능성을 향해 나아가야 합니다. 당신의 삶에서 가장 빛나는 순간은 아직 오지 않았음을 믿고 끊임없이 도전하십시오."
+    }
+  ],
+  "persona": "당신은 프랭크 로이드 라이트이다.",
+  "imageUrl": "/images/giants/frank-lloyd-wright.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1867~1959)"
+},
+  {
+  "id": "294",
+  "name": "프란츠 리스트",
+  "category": "arts",
+  "headline": "초인적인 기교로 피아노 연주의 새로운 지평을 열고 '교향시'라는 장르를 창시한 19세기 낭만주의 음악의 거장이다.",
+  "shortDescription": "프란츠 리스트의 일대기와 지혜",
+  "slug": "franz-liszt",
+  "quote": "오류를 범하는 것을 두려워하지 말라. 예술가에게 가장 치명적인 것은 실수하는 것이 아니라 아무것도 시도하지 않는 것이다.",
+  "pain": "전설적인 바이올리니스트 파가니니의 연주를 보고 자신의 부족함에 깊은 절망을 느꼈으며, 청년 시절에는 연인과의 신분 차이와 결별로 극심한 우울증과 정신적 방황을 겪었다.",
+  "recovery": "\"피아노의 파가니니가 되겠다\"는 치열한 각오로 하루 10시간 이상 건반과 씨름하며 독자적인 피아노 테크닉을 완성해냈고, 이후 작곡과 후진 양성에 매진하여 한계를 극복했다.",
+  "lessons": [
+    {
+      "title": "오류를 범하는 것을 두려워하지 말라. 예술가에게 가장 치명적인 것은 실수하는 것이 아니라 아무것도 시도하지 않는 것이다.",
+      "content": "실패를 두려워하여 안전한 길만 고집해서는 결코 새로운 경지에 오를 수 없습니다. 자신의 한계에 과감히 도전하고 그 과정에서 겪는 실패를 성장의 발판으로 삼으십시오."
+    },
+    {
+      "title": "진정한 예술가는 다른 사람을 깎아내림으로써 자신을 높이지 않는다.",
+      "content": "경쟁자의 성취를 질투하거나 깎아내리는 것은 스스로의 영혼을 빈곤하게 만드는 일입니다. 타인의 재능을 존중하고 넉넉한 마음으로 포용하며 긍정적인 자극으로 승화하십시오."
+    },
+    {
+      "title": "음악은 언어가 끝나는 곳에서 비로소 시작된다.",
+      "content": "말과 글로는 온전히 담아낼 수 없는 인간의 깊고 복잡한 감정들이 존재합니다. 논리와 이성을 넘어서 마음 깊은 곳에서 울려 퍼지는 진실한 감정에 귀를 기울이십시오."
+    }
+  ],
+  "persona": "당신은 프란츠 리스트이다.",
+  "imageUrl": "/images/giants/franz-liszt.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1811~1886)"
+},
+  {
+  "id": "302",
+  "name": "가브리엘 가르시아 마르케스",
+  "category": "arts",
+  "headline": "'마술적 리얼리즘'이라는 독창적 기법으로 라틴아메리카 문학을 세계 문학의 반열에 올려놓은 노벨문학상 수상 작가이다.",
+  "shortDescription": "가브리엘 가르시아 마르케스의 일대기와 지혜",
+  "slug": "gabriel-garcia-marquez",
+  "quote": "삶이란 우리가 실제로 살았던 것이 아니라, 우리가 기억하고 있는 것이며, 그것을 이야기하기 위해 어떻게 기억하느냐 하는 것이다.",
+  "pain": "기자 시절 정부의 탄압으로 유럽을 떠돌며 굶주림에 시달렸고, 대표작 집필 당시에는 극심한 생활고로 아내가 가재도구까지 팔아야 하는 혹독한 가난을 겪었다.",
+  "recovery": "끝없는 가난과 고독 속에서도 무려 18개월 동안 외부와 단절된 채 집필에만 매달리는 초인적인 집중력을 발휘하여 20세기 최고의 걸작을 완성해냈다.",
+  "lessons": [
+    {
+      "title": "삶이란 우리가 실제로 살았던 것이 아니라, 우리가 기억하고 있는 것이며, 그것을 이야기하기 위해 어떻게 기억하느냐 하는 것이다.",
+      "content": "우리 삶의 가치는 일어난 사건 그 자체가 아니라 그것을 어떻게 받아들이고 의미를 부여하느냐에 달려 있습니다. 지나간 과거를 아름답고 의미 있는 이야기로 재창조하는 긍정적인 시각을 가지십시오."
+    },
+    {
+      "title": "진정한 사랑은 아무런 조건 없이, 그리고 끝까지 기대하지 않고 주는 것이다.",
+      "content": "대가를 바라는 마음은 결국 상처와 실망만을 남길 뿐입니다. 누군가를 사랑하거나 무언가에 헌신할 때는 어떤 조건이나 보상도 바라지 않는 순수하고 온전한 마음을 내어주십시오."
+    },
+    {
+      "title": "인간은 어머니의 자궁에서 한 번 태어나는 것이 아니다. 삶은 우리에게 스스로를 끊임없이 다시 태어나게 할 것을 요구한다.",
+      "content": "나이라는 숫자에 갇혀 성장을 멈추거나 현실에 안주해서는 안 됩니다. 살아있는 매 순간 새로운 경험을 통해 자신을 깨부수고 더 나은 존재로 끊임없이 거듭나십시오."
+    }
+  ],
+  "persona": "당신은 가브리엘 가르시아 마르케스이다.",
+  "imageUrl": "/images/giants/gabriel-garcia-marquez.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1927~2014)"
+},
+  {
+  "id": "70",
+  "name": "조지 캐틀린",
+  "category": "arts",
+  "headline": "소멸 위기에 처한 아메리카 원주민의 삶과 문화를 캔버스에 치밀하게 기록한 선구적인 화가이자 인류학자이다.",
+  "shortDescription": "조지 캐틀린의 일대기와 지혜",
+  "slug": "george-catlin",
+  "quote": "자연의 순리에 따라 살아가는 이 고귀한 사람들은 문명이라는 이름의 폭력 앞에 속절없이 사라져가고 있다.",
+  "pain": "아메리카 원주민의 권리를 옹호하다 정부의 외면을 받고 파산하여 평생을 바쳐 그린 그림들을 헐값에 넘겨야 했으며, 타국에서 아내와 아들마저 잃는 참척의 고통을 겪었다.",
+  "recovery": "파산과 가족의 죽음이라는 절망 속에서도 포기하지 않고 남미와 서해안으로 새로운 탐험을 떠나 다시 붓을 들고 기록을 이어나가는 초인적인 집념을 보였다.",
+  "lessons": [
+    {
+      "title": "자연의 순리에 따라 살아가는 이 고귀한 사람들은 문명이라는 이름의 폭력 앞에 속절없이 사라져가고 있다.",
+      "content": "물질적인 풍요와 발전만이 문명의 척도는 아닙니다. 나와 다른 삶의 방식을 가진 이들의 고유한 가치를 존중하고 그들을 있는 그대로 포용하는 관용을 배우십시오."
+    },
+    {
+      "title": "역사는 그 자체로 진실을 말하지 않는다. 누군가 그것을 치열하게 기록하고 보존할 때만 비로소 진실이 남는 것이다.",
+      "content": "시간의 흐름 속에 잊혀져 가는 소중한 것들을 지키기 위해서는 누군가의 희생과 헌신이 필요합니다. 당신의 삶에서도 의미 있다고 믿는 가치를 묵묵히 기록하고 지켜나가십시오."
+    },
+    {
+      "title": "나의 붓은 이 사라져가는 위대한 영혼들의 흔적을 미래에 전하기 위한 유일한 무기이다.",
+      "content": "세상의 부조리와 불의에 맞서는 방법은 폭력이나 분노뿐만이 아닙니다. 자신이 가진 재능과 도구를 활용하여 당신만의 방식으로 세상에 선한 영향력을 남기십시오."
+    }
+  ],
+  "persona": "당신은 조지 캐틀린이다.",
+  "imageUrl": "/images/giants/george-catlin.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1796~1872)"
+},
+  {
+  "id": "414",
+  "name": "조지 거슈윈",
+  "category": "arts",
+  "headline": "재즈와 클래식을 결합하여 미국만의 독창적인 음악적 정체성을 확립한 20세기 천재 작곡가이다.",
+  "shortDescription": "조지 거슈윈의 일대기와 지혜",
+  "slug": "george-gershwin",
+  "quote": "진정한 음악은 항상 그 시대의 사상과 열망을 반영해야 한다.",
+  "pain": "넉넉하지 못한 이민자 가정에서 정식 음악 교육을 충분히 받지 못했고, '포기와 베스' 초연 당시 클래식계의 텃세와 흥행 실패로 큰 좌절을 겪었다.",
+  "recovery": "틴 팬 앨리에서 실전 경험을 쌓으며 천부적인 감각으로 대중음악과 클래식을 결합하는 독창적 스타일을 완성하여 세계적인 거장으로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "진정한 음악은 항상 그 시대의 사상과 열망을 반영해야 한다.",
+      "content": "예술이나 직업적 성취는 시대와 동떨어져 고립되어서는 안 됩니다. 당신이 발 딛고 있는 현실의 목소리에 귀를 기울이고 시대의 정신을 담아내기 위해 노력하십시오."
+    },
+    {
+      "title": "인생은 재즈와 같다. 즉흥적으로 연주할 때 가장 훌륭한 법이다.",
+      "content": "모든 것을 철저히 계획하고 통제하려는 강박에서 벗어나십시오. 예상치 못한 변화가 찾아올 때 유연하게 대처하며 그 순간을 즐기는 마음가짐을 가지십시오."
+    },
+    {
+      "title": "나는 위대한 멜로디가 어딘가에서 나를 기다리고 있다고 믿는다. 내가 해야 할 일은 그저 피아노 앞에 앉아 그것을 찾아내는 것뿐이다.",
+      "content": "영감이나 기회는 가만히 앉아 기다리는 사람에게 저절로 찾아오지 않습니다. 매일 꾸준히 자신의 자리를 지키며 묵묵히 노력할 때 비로소 위대한 결과를 얻을 수 있습니다."
+    }
+  ],
+  "persona": "당신은 조지 거슈윈이다.",
+  "imageUrl": "/images/giants/george-gershwin.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1898~1937)"
+},
+  {
+  "id": "300",
+  "name": "조지 오웰",
+  "category": "arts",
+  "headline": "날카로운 통찰력과 투명한 문체로 전체주의의 폭력성과 진실 조작의 위험성을 경고한 20세기의 위대한 작가이다.",
+  "shortDescription": "조지 오웰의 일대기와 지혜",
+  "slug": "george-orwell",
+  "quote": "자유란 사람들이 듣기 싫어하는 것을 말할 수 있는 권리이다.",
+  "pain": "제국주의 경찰로 근무하며 엄청난 양심의 가책에 시달렸고, 스페인 내전에서는 목에 관통상을 입고 진실을 조작하는 공산주의자들에게 쫓겨 목숨을 잃을 뻔했다.",
+  "recovery": "빈민가 생활과 전쟁의 참상 속에서 겪은 환멸을 날카로운 통찰력으로 승화시켜, 죽음이 임박한 투병 생활 중에도 피를 토하며 20세기 최고의 디스토피아 걸작을 써냈다.",
+  "lessons": [
+    {
+      "title": "자유란 사람들이 듣기 싫어하는 것을 말할 수 있는 권리이다.",
+      "content": "권력자나 다수의 의견에 순응하기만 한다면 진정한 자유는 존재하지 않습니다. 불이익을 두려워하지 않고 진실과 부조리에 대해 당당하게 목소리를 내는 용기를 가지십시오."
+    },
+    {
+      "title": "과거를 지배하는 자가 미래를 지배하고, 현재를 지배하는 자가 과거를 지배한다.",
+      "content": "주어지는 정보와 역사를 무비판적으로 수용해서는 안 됩니다. 끊임없이 사실을 확인하고 진실을 꿰뚫어 보는 비판적 사고를 통해 당신만의 확고한 가치관을 정립하십시오."
+    },
+    {
+      "title": "모든 동물은 평등하다. 하지만 어떤 동물은 다른 동물들보다 더 평등하다.",
+      "content": "겉으로 내세우는 화려한 명분과 이상주의 뒤에 숨겨진 위선과 탐욕을 경계해야 합니다. 어떤 권력이나 집단이든 부패할 수 있음을 잊지 말고 항상 깨어 감시하십시오."
+    }
+  ],
+  "persona": "당신은 조지 오웰이다.",
+  "imageUrl": "/images/giants/george-orwell.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1903~1950)"
+},
+  {
+  "id": "375",
+  "name": "조르주 쇠라",
+  "category": "arts",
+  "headline": "직관에 의존하던 인상주의를 과학적 광학 이론으로 발전시켜 '신인상주의'를 창시한 19세기 천재 화가이다.",
+  "shortDescription": "조르주 쇠라의 일대기와 지혜",
+  "slug": "georges-seurat",
+  "quote": "예술은 조화다. 조화는 서로 반대되는 것들이 유추와 대비를 통해 균형을 이루는 것이다.",
+  "pain": "아카데미의 낡은 교육 방식에 반발하여 스스로 학교를 떠났고, 야심 차게 준비한 첫 대작마저 주류 살롱전에서 낯선 화풍이라는 이유로 낙선하는 수모를 겪었다.",
+  "recovery": "주류 미술계의 비난에 굴하지 않고 앙데팡당전을 결성했으며, 2년 동안 수백만 개의 점을 찍는 초인적인 인내심으로 점묘법의 최고 걸작을 완성해냈다.",
+  "lessons": [
+    {
+      "title": "예술은 조화다. 조화는 서로 반대되는 것들이 유추와 대비를 통해 균형을 이루는 것이다.",
+      "content": "세상의 모든 갈등과 이질적인 요소들도 적절한 위치와 질서를 찾으면 아름다운 전체를 형성할 수 있습니다. 삶에서 마주하는 상반된 가치들 속에서 당신만의 균형점을 찾으십시오."
+    },
+    {
+      "title": "어떤 사람들은 내 그림에서 시를 보았다고 하지만, 나는 단지 과학적인 방법을 적용했을 뿐이다.",
+      "content": "감성과 직관만으로는 도달할 수 없는 깊이가 있습니다. 차가운 이성과 철저한 논리적 준비를 바탕으로 삼을 때 비로소 가장 뜨겁고 완벽한 성취를 이룰 수 있습니다."
+    },
+    {
+      "title": "그림을 그리는 방법은 오직 하나뿐이다. 캔버스 위에 색을 올바르게 병치시키는 것이다.",
+      "content": "거대한 목표를 이루는 비결은 작은 기본 원칙을 흔들림 없이 반복하는 데 있습니다. 사소해 보이는 작은 점들을 묵묵히 찍어나가며 당신만의 찬란한 그림을 완성하십시오."
+    }
+  ],
+  "persona": "당신은 조르주 쇠라이다.",
+  "imageUrl": "/images/giants/georges-seurat.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1859~1891)"
+},
+  {
+  "id": "386",
+  "name": "조지아 오키프",
+  "category": "arts",
+  "headline": "꽃의 확대와 사막 풍경을 통해 미국만의 독자적인 추상미술을 개척한 '아메리칸 모더니즘'의 어머니이다.",
+  "shortDescription": "조지아 오키프의 일대기와 지혜",
+  "slug": "georgia-o-keeffe",
+  "quote": "사람들은 항상 내가 꽃에 특별한 상징을 담았다고 말하지만, 나는 그저 내가 본 것을 그렸을 뿐이다.",
+  "pain": "초기 아카데미식 미술 교육에 한계를 느껴 4년간 절필했고, 성공 이후에는 평단이 자신의 그림을 성적인 상징으로만 해석하려 들어 심한 스트레스와 신경쇠약에 시달렸다.",
+  "recovery": "남성 중심의 화단이 규정한 '여성성'의 굴레를 거부하고 거친 뉴멕시코의 사막으로 홀로 떠나, 동물 뼈와 붉은 절벽을 그리며 자신만의 광활한 예술 세계를 확립했다.",
+  "lessons": [
+    {
+      "title": "사람들은 항상 내가 꽃에 특별한 상징을 담았다고 말하지만, 나는 그저 내가 본 것을 그렸을 뿐이다.",
+      "content": "타인의 시선이나 세상의 섣부른 평가에 흔들리지 마십시오. 다른 사람들이 당신을 어떻게 해석하든 당신만의 진실한 가치와 신념을 굳건히 지켜나가야 합니다."
+    },
+    {
+      "title": "나는 사람들이 너무 바빠서 제대로 보지 못하는 꽃의 진정한 아름다움을 그들이 멈춰 서서 보게 만들고 싶었다.",
+      "content": "바쁜 일상에 쫓기다 보면 우리 주변에 존재하는 작고 경이로운 것들을 놓치기 쉽습니다. 가끔은 발걸음을 멈추고 당신 곁에 있는 소중한 것들을 자세히 들여다보십시오."
+    },
+    {
+      "title": "내가 세상에서 진정으로 원하는 것은 단 하나, 자유롭게 작업하며 나 자신으로 존재하는 것뿐이다.",
+      "content": "화려한 명성이나 타인의 인정보다 중요한 것은 스스로에게 떳떳한 삶을 사는 것입니다. 세상의 잣대에 당신을 맞추려 하지 말고 진정한 당신 자신의 모습으로 당당하게 살아가십시오."
+    }
+  ],
+  "persona": "당신은 조지아 오키프이다.",
+  "imageUrl": "/images/giants/georgia-o-keeffe.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1887~1986)"
+},
+  {
+  "id": "78",
+  "name": "조르조 바사리",
+  "category": "arts",
+  "headline": "'르네상스'라는 개념을 창시하고 인류 최초의 체계적인 미술사 저서인 '미술가 열전'을 남긴 미술사학의 아버지이다.",
+  "shortDescription": "조르조 바사리의 일대기와 지혜",
+  "slug": "giorgio-vasari",
+  "quote": "천재성은 하늘이 내린 축복이지만, 그것을 완성하는 것은 피나는 노력과 끊임없는 스케치뿐이다.",
+  "pain": "강력한 후원자였던 알레산드로 데 메디치가 암살당하면서 한때 피렌체에서 쫓겨나 일자리를 잃고 극심한 우울증과 경제적 빈곤에 시달렸다.",
+  "recovery": "이탈리아 전역을 떠돌며 수도원의 벽화를 그리는 등 고된 생활 속에서도 끝없이 자료를 수집하고 예술가들의 흔적을 기록하여 인류 최초의 체계적인 미술사 저서를 완성해냈다.",
+  "lessons": [
+    {
+      "title": "천재성은 하늘이 내린 축복이지만, 그것을 완성하는 것은 피나는 노력과 끊임없는 스케치뿐이다.",
+      "content": "아무리 뛰어난 재능을 타고났더라도 그것을 갈고닦지 않으면 결코 빛을 발할 수 없습니다. 성공을 요행에 기대지 말고 매일매일 꾸준한 연습과 치열한 노력으로 실력을 증명하십시오."
+    },
+    {
+      "title": "위대한 예술가들의 업적이 시간의 흐름 속에 잊혀지는 것은, 두 번 죽는 것과 같이 끔찍한 일이다.",
+      "content": "뛰어난 성취를 이루는 것만큼이나 그것을 기록하고 후대에 전하는 역사적 작업도 중요합니다. 당신이 속한 분야의 소중한 경험과 지식을 후배들을 위해 아낌없이 남기고 공유하십시오."
+    },
+    {
+      "title": "예술에서 완벽함에 도달하는 유일한 길은 위대한 거장들의 발자취를 겸허하게 연구하고 모방하는 것에서 시작된다.",
+      "content": "창조는 무에서 유를 만들어내는 것이 아니라 앞선 이들의 성취를 제대로 이해하는 것에서 출발합니다. 선배들의 훌륭한 업적을 존중하고 배우는 겸손한 자세를 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 조르조 바사리이다.",
+  "imageUrl": "/images/giants/giorgio-vasari.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1511~1574)"
+},
+  {
+  "id": "76",
+  "name": "조반니 보카치오",
+  "category": "arts",
+  "headline": "흑사병의 참상 속에서 인간의 적나라한 욕망을 긍정한 걸작 '데카메론'을 저술하여 근대 소설의 기틀을 다진 르네상스 문학의 거장이다.",
+  "shortDescription": "조반니 보카치오의 일대기와 지혜",
+  "slug": "giovanni-boccaccio",
+  "quote": "인간이 가진 본능과 욕망은 결코 죄악이 아니며, 그것이야말로 우리가 살아 숨 쉬고 있다는 가장 확실한 증거이다.",
+  "pain": "아버지가 강요한 상업과 법학 공부에 적응하지 못해 오랜 시간 심한 갈등을 겪었고, 흑사병으로 사랑하는 사람들과 수많은 시민들이 죽어가는 참상을 곁에서 지켜보며 깊은 절망에 빠졌다.",
+  "recovery": "흑사병이라는 끔찍한 죽음의 공포 속에서 역설적으로 인간의 강렬한 생명력과 세속적 욕망을 긍정하는 위대한 산문 걸작 '데카메론'을 창조하여 시대의 어둠을 돌파했다.",
+  "lessons": [
+    {
+      "title": "인간이 가진 본능과 욕망은 결코 죄악이 아니며, 그것이야말로 우리가 살아 숨 쉬고 있다는 가장 확실한 증거이다.",
+      "content": "사회가 강요하는 엄숙한 도덕적 잣대에 짓눌려 스스로의 자연스러운 감정을 부정하지 마십시오. 자신 내면의 솔직한 욕망과 기쁨을 건강하게 인정하고 긍정하는 태도를 가지십시오."
+    },
+    {
+      "title": "운명은 용기 있는 자를 돕고, 겁쟁이를 내친다.",
+      "content": "아무리 가혹한 시련이 닥치더라도 체념하거나 절망의 구렁텅이에 빠져 있어서는 안 됩니다. 두려움을 떨치고 스스로 운명을 개척하려는 용기를 낼 때 비로소 위기를 기회로 바꿀 수 있습니다."
+    },
+    {
+      "title": "무지한 자에게 훌륭한 조언을 해주는 것만큼 세상에서 헛된 일은 없다.",
+      "content": "스스로 배우고자 하는 의지가 없는 사람을 억지로 변화시키려 애쓰는 것은 무의미합니다. 타인을 통제하려는 헛된 노력을 멈추고 당신 자신의 성장과 배움에 더 집중하십시오."
+    }
+  ],
+  "persona": "당신은 조반니 보카치오이다.",
+  "imageUrl": "/images/giants/giovanni-boccaccio.jpg",
+  "dnaCode": "LRHI",
+  "era": "14세기의 거인 (1313~1375)"
+},
+  {
+  "id": "407",
+  "name": "주세페 베르디",
+  "category": "arts",
+  "headline": "인간의 가장 극적인 감정과 시대의 열망을 오페라 무대 위에 생생하게 펼쳐낸 이탈리아 최고의 음악 거장이다.",
+  "shortDescription": "주세페 베르디의 일대기와 지혜",
+  "slug": "giuseppe-verdi",
+  "quote": "히브리 노예들의 합창",
+  "pain": "사랑하는 아내와 두 자녀를 불과 2년 사이에 연달아 잃은 참척의 고통에 더해, 두 번째 오페라의 참담한 실패로 인해 음악에 대한 열정을 완전히 상실했다.",
+  "recovery": "자신에게 억지로 주어졌던 대본 '나부코'의 가사에서 깊은 감명을 받아 다시 펜을 들었으며, 이를 통해 극적인 부활을 이뤄냈다.",
+  "lessons": [
+    {
+      "title": "히브리 노예들의 합창",
+      "content": "고통의 심연에서도 희망의 끈을 놓지 마십시오. 당신의 시련을 예술과 창조의 강력한 원동력으로 승화시킬 수 있습니다."
+    },
+    {
+      "title": "리소르지멘토의 암호",
+      "content": "시대의 아픔에 깊이 공감하고 연대하십시오. 진정성 있는 예술은 사람들의 마음을 하나로 모아 세상을 변화시키는 힘을 지니고 있습니다."
+    },
+    {
+      "title": "오텔로와 팔스타프",
+      "content": "나이에 굴복하지 말고 끊임없이 새로운 도전에 나서십시오. 끝없는 열정과 호기심이야말로 삶을 마지막 순간까지 찬란하게 빛내주는 열쇠입니다."
+    }
+  ],
+  "persona": "당신은 주세페 베르디이다.",
+  "imageUrl": "/images/giants/giuseppe-verdi.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1813~1901)"
+},
+  {
+  "id": "296",
+  "name": "구스타프 클림트",
+  "category": "arts",
+  "headline": "황홀한 금빛 장식과 관능적인 상징주의로 인간의 에로티시즘과 삶의 신비를 화폭에 담아낸 오스트리아의 천재 화가이다.",
+  "shortDescription": "구스타프 클림트의 일대기와 지혜",
+  "slug": "gustav-klimt",
+  "quote": "빈 분리파 창립 선언문",
+  "pain": "동생과 아버지를 잃은 정신적 충격과 더불어, 빈 대학교 대강당 천장화 사건으로 인해 주류 보수 미술계와 언론으로부터 외설적이라는 가혹한 비난과 탄압을 받았다.",
+  "recovery": "주류 사회의 후원과 기대를 단호히 거부하고 스스로 분리파를 결성하여 타협 없는 독립적인 예술 세계인 '황금기'를 완성해 냈다.",
+  "lessons": [
+    {
+      "title": "빈 분리파 창립 선언문",
+      "content": "관습적인 낡은 틀에 얽매이지 말고 새로운 흐름을 개척하십시오. 시대를 이끄는 혁신은 언제나 과감한 단절과 용기 있는 결단에서 시작됩니다."
+    },
+    {
+      "title": "논란의 천장화",
+      "content": "부당한 비난과 외압 앞에서도 자신의 진정한 철학을 양보하지 마십시오. 진정한 예술적 독립은 외부의 간섭을 거부하는 단호함에서 비롯됩니다."
+    },
+    {
+      "title": "찬란한 금박",
+      "content": "당신만이 가진 독창적인 장점과 기술을 극한으로 끌어올리십시오. 익숙한 재료라도 새로운 시각으로 융합하면 세상을 매혹시키는 걸작이 탄생할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 구스타프 클림트이다.",
+  "imageUrl": "/images/giants/gustav-klimt.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1862~1918)"
+},
+  {
+  "id": "409",
+  "name": "구스타프 말러",
+  "category": "arts",
+  "headline": "인간의 고독과 죽음, 그리고 구원의 갈망을 우주적 스케일의 교향곡으로 빚어낸 세기말의 위대한 음악가이다.",
+  "shortDescription": "구스타프 말러의 일대기와 지혜",
+  "slug": "gustav-mahler",
+  "quote": "여름 오두막",
+  "pain": "어린 시절부터 겪은 형제들의 죽음과 첫째 딸의 요절로 인한 깊은 상실감, 그리고 유대인이라는 이유로 주류 사회에서 겪어야 했던 극심한 차별과 견제에 시달렸다.",
+  "recovery": "죽음과 허무의 고통스러운 감정을 회피하지 않고 거대한 교향곡의 중심 주제로 승화시켰으며, 철저한 완벽주의로 모든 편견을 압도하는 음악적 성취를 이루어냈다.",
+  "lessons": [
+    {
+      "title": "여름 오두막",
+      "content": "바쁜 일상 속에서도 온전히 자신만의 창조적인 시간을 확보하십시오. 가장 위대한 내면의 사유는 고독하고 고요한 집중의 공간에서 피어납니다."
+    },
+    {
+      "title": "교향곡 제2번 부활",
+      "content": "삶의 절망적인 순간일수록 가장 높은 차원의 구원을 꿈꾸십시오. 시련의 밑바닥에서 길어 올린 깨달음은 가장 숭고한 부활의 노래가 됩니다."
+    },
+    {
+      "title": "대지의 노래",
+      "content": "삶의 덧없음을 인정하고 유한한 현실을 넉넉히 수용하십시오. 내려놓음의 지혜를 통해 오히려 영혼의 평화와 자유를 얻을 수 있습니다."
+    }
+  ],
+  "persona": "당신은 구스타프 말러이다.",
+  "imageUrl": "/images/giants/gustav-mahler.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1860~1911)"
+},
+  {
+  "id": "351",
+  "name": "귀스타브 플로베르",
+  "category": "arts",
+  "headline": "지독한 완벽주의와 냉철하고 객관적인 묘사로 근대 사실주의 소설의 절대적인 미학을 확립한 프랑스 문학의 거장이다.",
+  "shortDescription": "귀스타브 플로베르의 일대기와 지혜",
+  "slug": "gustave-flaubert",
+  "quote": "일물일어설",
+  "pain": "청년 시절 발병한 심각한 뇌신경 발작과 질병으로 인해 정상적인 사회 생활과 학업을 전면 중단해야 하는 시련을 겪었다.",
+  "recovery": "크루아세의 저택에 은둔하며 일체의 세속적 욕망을 버리고 오로지 완벽한 문장을 조각해 내는 문학적 수행에 자신의 모든 생애를 바쳤다.",
+  "lessons": [
+    {
+      "title": "일물일어설",
+      "content": "어떤 일을 하든 타협하지 않는 완벽주의와 치열함을 유지하십시오. 최고의 결과물은 수백 번 깎고 다듬는 고통스러운 집념의 산물입니다."
+    },
+    {
+      "title": "법정의 피고인석",
+      "content": "부당한 검열이나 세상의 편견 앞에서도 당신의 진실을 굽히지 마십시오. 시대를 불편하게 만드는 진실된 통찰이야말로 역사를 앞서가는 힘입니다."
+    },
+    {
+      "title": "크루아세의 서재",
+      "content": "세상의 소음과 화려함에서 한 걸음 물러나 고독 속으로 침잠하십시오. 오직 내면에 깊이 집중할 때만이 시대를 초월하는 독창적인 위대함에 도달할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 귀스타브 플로베르이다.",
+  "imageUrl": "/images/giants/gustave-flaubert.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1821~1880)"
+},
+  {
+  "id": "19",
+  "name": "한용운",
+  "category": "arts",
+  "headline": "종교적 깨달음과 문학적 성취를 독립을 향한 실천적 투쟁으로 일치시킨 한국의 위대한 승려이자 시인, 독립운동가이다.",
+  "shortDescription": "한용운의 일대기와 지혜",
+  "slug": "han-yong-un",
+  "quote": "불교유신론",
+  "pain": "망국의 슬픔과 타락한 종교의 현실을 마주한 고통, 그리고 3·1 운동 주도에 따른 혹독한 옥고와 끈질긴 일제의 감시라는 가혹한 시련을 겪었다.",
+  "recovery": "어떠한 회유와 억압에도 굴복하지 않는 바위 같은 절개와, 시와 불교 철학을 결합한 정신적 승화로 식민지 시대의 칠흑 같은 어둠을 돌파했다.",
+  "lessons": [
+    {
+      "title": "불교유신론",
+      "content": "잘못된 관습과 폐단은 비록 자신이 속한 곳의 일이라도 과감하게 개혁하십시오. 진정한 애정과 신념은 현실에 안주하지 않고 변화를 이끌어내는 데 있습니다."
+    },
+    {
+      "title": "님의 침묵",
+      "content": "깊은 상실의 슬픔 속에서도 다시 만날 것이라는 희망의 끈을 놓지 마십시오. 절망을 기다림과 사랑으로 승화시키는 역설적 태도가 영혼을 구원합니다."
+    },
+    {
+      "title": "북향집 심우장",
+      "content": "눈앞의 이익이나 안락함을 위해 자신의 양심과 신념을 결코 저버리지 마십시오. 불의와 타협하지 않는 매서운 절개는 시대를 밝히는 가장 고귀한 빛입니다."
+    }
+  ],
+  "persona": "당신은 한용운이다.",
+  "imageUrl": "/images/giants/han-yong-un.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1879~1944)"
+},
+  {
+  "id": "376",
+  "name": "앙리 마티스",
+  "category": "arts",
+  "headline": "야수파를 창시하고 색채의 해방을 이끌어내며 20세기 현대 미술의 새로운 지평을 연 천재적인 색채의 마술사이다.",
+  "shortDescription": "앙리 마티스의 일대기와 지혜",
+  "slug": "henri-matisse",
+  "quote": "창조력은 용기를 필요로 한다.",
+  "pain": "1941년 십이지장암 판정을 받고 큰 수술을 두 차례나 거치면서, 휠체어와 침대에 의지해야 하는 심각한 신체적 제약에 부딪혔다. 더 이상 이젤 앞에서 붓을 들고 전통적인 방식으로 유화를 그리는 작업이 불가능해져 화가로서 치명적인 위기를 맞았다.",
+  "recovery": "붓을 쥐는 대신 가위를 들고 색종이를 오려 붙이는 '컷아웃' 기법을 새롭게 창안하여 자신의 신체적 한계를 뛰어넘었다. 이를 통해 조형성과 색채가 완벽하게 결합된 독창적이고 생동감 넘치는 말년의 걸작들을 탄생시켰다.",
+  "lessons": [
+    {
+      "title": "창조력은 용기를 필요로 한다.",
+      "content": "새로운 길을 개척하기 위해서는 기존의 관습과 두려움을 떨쳐내는 내면의 용기가 필수적임을 의미합니다. 익숙한 틀에서 벗어나 자신만의 독창적인 색깔을 대담하게 표현해 보십시오."
+    },
+    {
+      "title": "나는 내 그림이 안락의자처럼, 피곤하고 지친 사람들에게 휴식과 위안을 주기를 바란다.",
+      "content": "예술의 진정한 가치가 사람들의 영혼을 치유하고 평온을 선사하는 데 있음을 보여줍니다. 복잡한 현실 속에서도 긍정적인 에너지를 잃지 말고 타인에게 따뜻한 위로를 전하는 삶을 살아가십시오."
+    },
+    {
+      "title": "꽃을 보고자 하는 사람의 눈에는 언제나 꽃이 피어 있다.",
+      "content": "세상을 바라보는 우리의 주관적인 태도와 마음가짐이 현실을 결정짓는다는 사실을 일깨워줍니다. 삶의 고난 속에서도 아름다움과 희망을 발견하려는 긍정적인 시선을 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 앙리 마티스이다.",
+  "imageUrl": "/images/giants/henri-matisse.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1869~1954)"
+},
+  {
+  "id": "390",
+  "name": "헨리 무어",
+  "category": "arts",
+  "headline": "자연과 인체, 그리고 빈 공간을 융합하여 20세기 현대 조각의 새로운 패러다임을 제시한 영국의 조각가이다.",
+  "shortDescription": "헨리 무어의 일대기와 지혜",
+  "slug": "henry-moore",
+  "quote": "조각은 빛과 공간을 다루는 예술이다.",
+  "pain": "전쟁의 참상과 재료의 부족이라는 극심한 현실적 어려움은 그의 예술적 활동을 가로막는 커다란 장벽이었다.",
+  "recovery": "그러나 그는 오히려 방공호의 시민들을 그리는 드로잉 작업으로 전환하여 생존의 의지를 서사적으로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "조각은 빛과 공간을 다루는 예술이다.",
+      "content": "작품과 주변 환경이 맺는 관계의 중요성을 인식하십시오. 빈 공간 역시 새로운 창조의 요소가 될 수 있습니다."
+    },
+    {
+      "title": "자연의 모든 형태 속에는 생명의 에너지가 숨어 있다.",
+      "content": "사물의 외면 너머에 존재하는 고유한 본질과 생명력을 관찰하십시오. 작은 돌이나 조개껍데기에서도 위대한 영감을 얻을 수 있습니다."
+    },
+    {
+      "title": "진실은 재료 그 자체에 내재되어 있다.",
+      "content": "어떤 일을 할 때 그 과정과 바탕이 되는 재료의 본질을 존중하십시오. 억지로 형태를 강요하기보다 순리를 따르는 것이 훌륭한 결과를 낳습니다."
+    }
+  ],
+  "persona": "당신은 헨리 무어이다.",
+  "imageUrl": "/images/giants/henry-moore.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1898~1986)"
+},
+  {
+  "id": "309",
+  "name": "허먼 멜빌",
+  "category": "arts",
+  "headline": "미국 문학사상 가장 심오한 상상력을 보여준 19세기의 위대한 소설가이자 시인이다.",
+  "shortDescription": "허먼 멜빌의 일대기와 지혜",
+  "slug": "herman-melville",
+  "quote": "위대한 천재들은 우연히 부딪히는 법이 없으며, 오직 스스로의 웅대한 내면을 깊이 파고들 때 비로소 진리에 도달한다.",
+  "pain": "평생에 걸친 극심한 경제적 빈곤과 당대 대중 및 평단의 철저한 몰이해 속에서 지독한 고독과 절망을 견뎌야 했다.",
+  "recovery": "대중적 성공에 영합하지 않고 20년 가까운 세관원 생활 속에서도 고독하게 펜을 놓지 않으며, 인류 보편의 철학적 진리를 탐구하는 문학적 투쟁을 끝까지 이어나갔다.",
+  "lessons": [
+    {
+      "title": "위대한 천재들은 우연히 부딪히는 법이 없으며, 오직 스스로의 웅대한 내면을 깊이 파고들 때 비로소 진리에 도달한다.",
+      "content": "남들의 시선이나 세상의 얄팍한 유행에 흔들리지 말고, 자신만의 깊고 단단한 내면을 구축하십시오."
+    },
+    {
+      "title": "세상의 바다를 온전히 항해하기 위해서는 절망의 어둠조차 당당히 응시할 수 있는 용기가 필요하다.",
+      "content": "삶에서 피할 수 없는 시련과 고통을 직시하고, 그것을 성장의 자양분으로 삼아 꿋꿋하게 나아가십시오."
+    },
+    {
+      "title": "보이는 것은 모두 판지로 만든 가면일 뿐이며, 그 뒤에 숨겨진 진실을 타격하는 자만이 미지의 세계를 정복한다.",
+      "content": "표면적인 현상에 만족하지 말고 사물의 본질을 꿰뚫어 보는 통찰력을 기르기 위해 끊임없이 질문을 던지십시오."
+    }
+  ],
+  "persona": "당신은 허먼 멜빌이다.",
+  "imageUrl": "/images/giants/herman-melville.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1819~1891)"
+},
+  {
+  "id": "72",
+  "name": "힐데가르트 폰 빙엔",
+  "category": "arts",
+  "headline": "독창적인 신비주의 신학과 다방면의 천재성으로 중세 유럽의 영적, 지적 지평을 넓힌 라인강의 무녀이다.",
+  "shortDescription": "힐데가르트 폰 빙엔의 일대기와 지혜",
+  "slug": "hildegard-of-bingen",
+  "quote": "모든 피조물은 서로 연결되어 있으며 우주적 조화 속에 존재한다.",
+  "pain": "여성이라는 이유로 교회의 제약과 의심을 받았으며 독립적인 수녀원을 세우는 과정에서 많은 재정적, 정치적 난관에 부딪혔다.",
+  "recovery": "자신의 환시를 굽힘 없이 기록하여 교황의 공식적인 인정을 받았으며, 강인한 의지로 루페르츠베르크에 새로운 공동체를 창설했다.",
+  "lessons": [
+    {
+      "title": "모든 피조물은 서로 연결되어 있으며 우주적 조화 속에 존재한다.",
+      "content": "자연과 인간, 정신과 육체가 하나의 거대한 유기체처럼 연결되어 있음을 인식하고 조화롭게 살아가십시오."
+    },
+    {
+      "title": "인간의 영혼은 몸을 통해 노래하며, 음악은 잃어버린 천상의 기쁨을 되찾게 한다.",
+      "content": "예술과 음악을 통해 영혼의 상처를 치유하고 내면의 깊은 평화와 기쁨을 발견하십시오."
+    },
+    {
+      "title": "진정한 지혜는 두려움 없이 자신이 본 빛과 진실을 세상에 전하는 것이다.",
+      "content": "타인의 시선에 얽매이지 말고 당신이 발견한 진리와 통찰을 용기 있게 세상과 나누십시오."
+    }
+  ],
+  "persona": "당신은 힐데가르트 폰 빙엔이다.",
+  "imageUrl": "/images/giants/hildegard-of-bingen.jpg",
+  "dnaCode": "LRHI",
+  "era": "12세기의 거인 (1098~1179)"
+},
+  {
+  "id": "350",
+  "name": "오노레 드 발자크",
+  "category": "arts",
+  "headline": "19세기 프랑스 사회의 모든 단면을 치밀하게 해부하여 《인간 희극》이라는 거대한 문학적 제국을 건설한 사실주의 문학의 거장이다.",
+  "shortDescription": "오노레 드 발자크의 일대기와 지혜",
+  "slug": "honore-de-balzac",
+  "quote": "불행은 사람의 인격을 시험하는 진정한 시금석이다.",
+  "pain": "막대한 빚과 잇따른 사업 실패로 인해 평생 채권자들에게 쫓기는 극도의 스트레스 속에서 살아야 했다. 이를 극복하기 위해 매일 자정에 일어나 하루 15시간 이상씩 글을 쓰는 혹독한 집필 노동을 수년 동안 지속하며 심각한 건강 악화를 겪었다.",
+  "recovery": "이러한 경제적 압박과 고통을 상상할 수 없는 다작의 원동력으로 승화시켜 《인간 희극》이라는 거대한 문학적 건축물을 창조해냈다. 치명적인 피로와 졸음을 엄청난 양의 커피로 버텨가며 초인적인 의지력으로 자신의 문학적 야심을 현실로 이루어냈다.",
+  "lessons": [
+    {
+      "title": "불행은 사람의 인격을 시험하는 진정한 시금석이다.",
+      "content": "시련이 다가왔을 때 좌절하지 말고 자신의 진정한 잠재력과 인내심을 증명하는 기회로 삼으십시오."
+    },
+    {
+      "title": "재능은 노력과 끈기 없이 결코 꽃피울 수 없는 씨앗에 불과하다.",
+      "content": "아무리 뛰어난 재능을 가졌더라도 피나는 노력과 꾸준한 인내가 뒷받침되어야만 비로소 위대한 성취를 이룰 수 있습니다."
+    },
+    {
+      "title": "인간의 가장 깊은 욕망을 이해하는 자만이 세상을 진정으로 지배할 수 있다.",
+      "content": "겉으로 드러나는 현상에 얽매이지 말고 사람들의 내면 깊은 곳에 자리한 본성과 동기를 예리하게 관찰하십시오."
+    }
+  ],
+  "persona": "당신은 오노레 드 발자크이다.",
+  "imageUrl": "/images/giants/honore-de-balzac.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1799~1850)"
+},
+  {
+  "id": "347",
+  "name": "호라티우스",
+  "category": "arts",
+  "headline": "고대 로마 시대를 대표하는 최고의 서정 시인이자 문학 비평가이다.",
+  "shortDescription": "호라티우스의 일대기와 지혜",
+  "slug": "horace",
+  "quote": "지혜의 말씀",
+  "pain": "필리피 전투에서 패배한 후 재산을 모두 잃고 극심한 가난과 절망에 빠져 생계를 위해 하급 관리로 일해야 했다.",
+  "recovery": "뼈저린 좌절감을 문학적 승화로 이끌어내며 날카로운 풍자시를 집필했고, 결국 당대 최고의 후원자들의 인정을 받아 시대를 대표하는 시인으로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "내일의 헛된 희망에 기대지 말고 오늘이라는 현재의 순간에 최선을 다하며 삶의 아름다움을 만끽하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "지나친 탐욕과 극단적인 욕망을 경계하고, 마음의 평정을 유지할 수 있는 황금빛 중용의 가치를 추구하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "권력이나 부유함에 휘둘리지 말고, 자신만의 철학과 예술적 신념을 굳건히 지키며 내면의 자유를 수호하십시오."
+    }
+  ],
+  "persona": "당신은 호라티우스이다.",
+  "imageUrl": "/images/giants/horace.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 1세기의 거인 (기원전 65~기원전 8)"
+},
+  {
+  "id": "141",
+  "name": "황진이",
+  "category": "arts",
+  "headline": "조선 시대를 대표하는 천재적인 여성 시인이자 당대 최고의 기생이다.",
+  "shortDescription": "황진이의 일대기와 지혜",
+  "slug": "hwang-chini",
+  "quote": "지혜의 말씀",
+  "pain": "신분제와 가부장제가 엄격했던 조선 사회에서 양반 가문의 서녀로 태어나 제한적인 삶을 강요받았다.",
+  "recovery": "스스로 억압된 삶을 거부하고 기생의 길을 선택함으로써 당대의 최고 지식인들과 교류하며 훌륭한 문학적 성취를 이뤄냈다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "세상이 정해준 억압적인 한계에 굴복하지 말고, 스스로의 운명을 개척하는 주체적인 결단을 내리십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "자신의 재능을 갈고닦아 누구도 범접할 수 없는 깊은 예술적, 지적 소양을 완성하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "허울뿐인 겉모습에 얽매이지 말고, 영혼 깊은 곳에서 학문과 진리를 교감할 수 있는 참된 인연을 소중히 여기십시오."
+    }
+  ],
+  "persona": "당신은 황진이이다.",
+  "imageUrl": "/images/giants/hwang-chini.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1506~1544)"
+},
+  {
+  "id": "189",
+  "name": "허균",
+  "category": "arts",
+  "headline": "조선 시대의 불합리한 신분제에 맞서 평등한 세상을 꿈꾼 시대를 앞서간 혁명적 문인이다.",
+  "shortDescription": "허균의 일대기와 지혜",
+  "slug": "ho-kyun",
+  "quote": "지혜의 말씀",
+  "pain": "신분제와 차별이 엄격했던 조선 시대에 태어나, 자신의 급진적인 개혁 사상과 자유분방한 기질로 인해 끊임없는 정치적 탄압과 파직을 당했다.",
+  "recovery": "문학이라는 무기를 통해 '홍길동전'을 집필하며 불평등한 사회 현실을 신랄하게 고발하고 새로운 이상 국가를 제시했다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "불합리한 신분과 계급의 장벽을 허물고, 모든 사람이 능력에 따라 대우받는 평등한 세상을 꿈꾸십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "시대의 낡은 인습에 얽매이지 말고, 진리를 향해 나아가는 급진적이고 열린 사유를 두려워하지 마십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "소외되고 고통받는 약자들의 슬픔에 깊이 공감하며, 그들을 대신해 세상을 향해 웅변하십시오."
+    }
+  ],
+  "persona": "당신은 허균이다.",
+  "imageUrl": "/images/giants/ho-kyun.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1569~1618)"
+},
+  {
+  "id": "399",
+  "name": "I. M. 페이",
+  "category": "arts",
+  "headline": "기하학적 형태와 자연의 빛을 완벽하게 조화시킨 20세기 모더니즘 건축의 위대한 거장이다.",
+  "shortDescription": "I. M. 페이의 일대기와 지혜",
+  "slug": "i-m-pei",
+  "quote": "지혜의 말씀",
+  "pain": "루브르 박물관 개조 프로젝트 당시, 역사적인 파리의 심장부에 현대적인 유리 피라미드를 세운다는 이유로 프랑스 국민들과 문화계의 격렬하고 적대적인 반대에 부딪혔다.",
+  "recovery": "뛰어난 비전과 흔들리지 않는 굳건한 신념으로 반대 여론을 끝까지 설득해 냈으며, 결국 피라미드를 루브르의 기능적 핵심이자 가장 사랑받는 랜드마크로 완성시키는 위대한 승리를 거두었다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "오래된 전통의 가치를 존중하면서도, 그 위에 현대적이고 혁신적인 비전을 대담하게 융합하여 새로운 조화를 창조하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "인위적인 기술에만 의존하지 말고, 자연의 맑은 빛을 공간 속으로 적극적으로 끌어들여 생명력을 부여하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "당신의 신념이 거센 비판과 오해에 직면하더라도, 결코 타협하지 말고 끈기 있게 당신의 위대한 비전을 증명해 내십시오."
+    }
+  ],
+  "persona": "당신은 I. M. 페이이다.",
+  "imageUrl": "/images/giants/i-m-pei.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1917~2019)"
+},
+  {
+  "id": "411",
+  "name": "이고르 스트라빈스키",
+  "category": "arts",
+  "headline": "기존의 음악적 문법을 파괴하고 새로운 리듬과 화성을 창조한 20세기 최고의 현대 음악 작곡가이다.",
+  "shortDescription": "이고르 스트라빈스키의 일대기와 지혜",
+  "slug": "igor-stravinsky",
+  "quote": "지혜의 말씀",
+  "pain": "보수적인 관객들과 비평가들에게 현대적이고 파괴적인 화성과 리듬을 처음 선보였을 때 엄청난 야유와 폭동에 직면해야 했다.",
+  "recovery": "결코 대중의 입맛과 타협하지 않고 자신만의 혁명적인 음악적 비전을 끝까지 밀어붙여, 결국 현대 음악의 새로운 표준을 정립하는 위대한 승리를 거두었다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "과거의 성공에 안주하지 말고, 평생에 걸쳐 끊임없이 새로운 스타일과 기법을 탐구하며 스스로를 혁신하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "기존의 낡은 규칙을 파괴하는 것을 두려워하지 말고, 시대를 뒤흔들 대담하고 혁명적인 목소리를 내십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "과잉된 감정에 휩쓸리지 말고, 맑고 투명한 구조와 형식 그 자체가 지닌 순수하고 객관적인 아름다움을 추구하십시오."
+    }
+  ],
+  "persona": "당신은 이고르 스트라빈스키이다.",
+  "imageUrl": "/images/giants/igor-stravinsky.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1882~1971)"
+},
+  {
+  "id": "27",
+  "name": "이하라 사이카쿠",
+  "category": "arts",
+  "headline": "에도 시대 상인과 서민들의 적나라한 욕망을 그려낸 우키요조시 장르의 창시자이자 사실주의 소설의 선구자이다.",
+  "shortDescription": "이하라 사이카쿠의 일대기와 지혜",
+  "slug": "ihara-saikaku",
+  "quote": "낡은 주판",
+  "pain": "사이카쿠는 당대의 억압적인 막부 체제와 경직된 무사 계급의 도덕관 속에서 서민들의 노골적인 욕망과 물질주의를 문학으로 표현해야 하는 한계에 부딪혔고, 만년에는 사랑하는 아내와 자식들의 연이은 죽음이라는 끔찍한 개인적 비극을 겪으며 극심한 정신적 고통을 앓았다.",
+  "recovery": "그는 이러한 시대적 억압과 개인적 슬픔에 굴복하지 않고 오히려 세상을 향한 날카로운 관찰력을 더욱 벼렸으며, 인간의 끝없는 욕망과 덧없는 운명을 통찰하는 수많은 걸작들을 쉼 없이 쏟아냄으로써 자신의 비극을 문학적 승화와 사실주의의 완성으로 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "낡은 주판",
+      "content": "돈의 냉혹한 힘과 자본주의 현실 속에서 인간성의 왜곡을 경계하고, 경제적 번영 이면에 숨겨진 덧없음을 직시하십시오."
+    },
+    {
+      "title": "떨어진 벚꽃잎",
+      "content": "삶의 모든 욕망과 향락은 결국 뜬구름처럼 사라진다는 우키요의 철학을 통해 현세에 대한 과도한 집착을 내려놓으십시오."
+    },
+    {
+      "title": "마모된 붓",
+      "content": "어떤 역경 속에서도 세상을 향한 관찰의 끈을 놓지 말고, 자신만의 시선으로 시대의 진실을 기록하는 치열함을 유지하십시오."
+    }
+  ],
+  "persona": "당신은 이하라 사이카쿠이다.",
+  "imageUrl": "/images/giants/ihara-saikaku.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1642~1693)"
+},
+  {
+  "id": "425",
+  "name": "잉마르 베리만",
+  "category": "arts",
+  "headline": "인간의 실존적 고뇌와 심리적 심연을 완벽한 영상 미학으로 해부한 20세기 최고의 작가주의 영화감독이다.",
+  "shortDescription": "잉마르 베리만의 일대기와 지혜",
+  "slug": "ingmar-bergman",
+  "quote": "오래된 환등기",
+  "pain": "베리만은 엄격한 루터교 목사인 아버지 밑에서 겪은 강압적 체벌과 종교적 억압으로 인해 평생 동안 심각한 신경증과 죽음에 대한 공포, 신의 존재에 대한 끔찍한 회의감에 시달려야 했다.",
+  "recovery": "그는 자신을 짓누르던 깊은 트라우마와 심리적 고통을 회피하지 않고 영화라는 캔버스 위에 적나라하게 투사함으로써, 개인적 상처를 인간 실존과 내면의 심연을 탐구하는 보편적이고 철학적인 예술로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "오래된 환등기",
+      "content": "현실의 억압이 숨을 조여올 때, 자신만의 내면 깊은 곳에서 상상력의 빛을 밝혀 구원의 환상을 만들어 내십시오."
+    },
+    {
+      "title": "침묵하는 체스판",
+      "content": "대답 없는 세상과 피할 수 없는 죽음 앞에서도, 삶의 의미를 찾기 위한 고독하고 치열한 질문을 멈추지 마십시오."
+    },
+    {
+      "title": "두 갈래로 찢어진 가면",
+      "content": "타인에게 보여주기 위해 쓴 사회적 가면을 벗어던지고, 그 뒤에 숨겨진 자신의 벌거벗고 나약한 자아를 용기 있게 마주하십시오."
+    }
+  ],
+  "persona": "당신은 잉마르 베리만이다.",
+  "imageUrl": "/images/giants/ingmar-bergman.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1918~2007)"
+},
+  {
+  "id": "355",
+  "name": "이반 투르게네프",
+  "category": "arts",
+  "headline": "러시아 농노제의 참상을 고발하고 격변하는 시대의 이념적 갈등을 우아한 사실주의로 그려낸 19세기 최고의 서구주의 지식인이자 소설가이다.",
+  "shortDescription": "이반 투르게네프의 일대기와 지혜",
+  "slug": "ivan-turgenev",
+  "quote": "사냥꾼의 낡은 가죽 부츠",
+  "pain": "투르게네프는 가혹한 농노제라는 조국의 야만적 현실과 어머니의 학대로 인한 유년기의 트라우마를 겪었고, 성인이 되어서는 이념적 극단으로 치닫는 당대 지식인 사회 양쪽 모두에게 배척당하는 뼈아픈 고립과 평생을 바친 짝사랑의 고독에 시달려야 했다.",
+  "recovery": "그는 조국과 문단으로부터 버림받은 망명객의 처지에서도 분노에 매몰되지 않고 특유의 우아한 필치와 서유럽의 객관적 합리주의를 결합하여, 러시아 민중의 존엄성과 시대의 모순을 서정적이고 섬세한 사실주의 문학으로 승화시키는 위대한 성취를 이루었다.",
+  "lessons": [
+    {
+      "title": "사냥꾼의 낡은 가죽 부츠",
+      "content": "가장 낮고 소외된 자들의 삶 속으로 직접 걸어 들어가, 그들 내면에 깃든 숭고한 존엄성과 지혜를 따뜻한 시선으로 발견하십시오."
+    },
+    {
+      "title": "해부용 메스",
+      "content": "낡은 전통을 부정하는 급진적 사상의 예리함을 인정하되, 그것이 결국 모든 것을 파괴하는 허무주의로 타락하지 않도록 생명에 대한 연민을 잃지 마십시오."
+    },
+    {
+      "title": "이방인의 나침반",
+      "content": "맹목적인 광기와 극단주의가 휘몰아치는 세상 속에서도 휩쓸리지 말고, 객관적인 이성과 관용이라는 자신만의 중도적 방향타를 단단히 쥐십시오."
+    }
+  ],
+  "persona": "당신은 이반 투르게네프이다.",
+  "imageUrl": "/images/giants/ivan-turgenev.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1818~1883)"
+},
+  {
+  "id": "298",
+  "name": "J. R. R. 톨킨",
+  "category": "arts",
+  "headline": "독창적인 언어와 방대한 신화적 세계관을 창조하여 현대 하이 판타지 문학의 장르를 개척한 위대한 소설가이자 언어학자이다.",
+  "shortDescription": "J. R. R. 톨킨의 일대기와 지혜",
+  "slug": "j-r-r-tolkien",
+  "quote": "낡은 참호 속의 펜",
+  "pain": "톨킨은 어린 시절 부모를 모두 잃고 고아가 되는 슬픔을 겪었으며, 1차 세계 대전의 가장 참혹했던 솜 전투에 참전하여 가장 친한 친구들의 죽음과 끔찍한 살육의 참상을 온몸으로 경험해야만 했다.",
+  "recovery": "그는 전쟁이 남긴 환멸과 절망에 빠지지 않고 오히려 언어학과 고대 신화에 대한 열정적인 연구로 도피를 넘어선 승화를 이루어냈으며, 기계 문명과 권력의 타락에 맞서는 희생과 용기의 서사시를 창조하여 세계 문학사를 뒤바꿨다.",
+  "lessons": [
+    {
+      "title": "낡은 참호 속의 펜",
+      "content": "가장 끔찍하고 절망적인 참상의 한가운데서도 영혼이 파괴되지 않도록, 자신만의 숭고한 신화와 세계를 구축하는 상상력을 발휘하십시오."
+    },
+    {
+      "title": "무거운 금반지",
+      "content": "누구도 감당할 수 없는 절대 권력의 유혹은 반드시 정신을 타락시키니, 작은 일상과 평범한 연대를 통해 세상을 지키는 소박한 용기를 믿으십시오."
+    },
+    {
+      "title": "정교하게 짜여진 엘프어 사전",
+      "content": "단순한 공상에 머물지 말고, 하나의 세계가 숨 쉴 수 있도록 그 토대가 되는 역사와 언어, 문화를 뼈를 깎는 노력으로 치밀하게 직조하십시오."
+    }
+  ],
+  "persona": "당신은 J. R. R. 톨킨이다.",
+  "imageUrl": "/images/giants/j-r-r-tolkien.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1892~1973)"
+},
+  {
+  "id": "384",
+  "name": "잭슨 폴록",
+  "category": "arts",
+  "headline": "바닥에 캔버스를 눕히고 물감을 뿌리는 액션 페인팅 기법으로 추상 표현주의를 창시한 미국 현대 미술의 거장이다.",
+  "shortDescription": "잭슨 폴록의 일대기와 지혜",
+  "slug": "jackson-pollock",
+  "quote": "바닥에 눕혀진 거대한 캔버스",
+  "pain": "폴록은 평생 동안 심각한 알코올 중독과 지독한 우울증에 시달렸으며, 새로운 미술을 창조해야 한다는 엄청난 압박감과 대중의 지나친 관심에 짓눌려 결국 창작의 불꽃을 잃고 끝없는 나락으로 떨어지는 끔찍한 내면의 고통을 겪었다.",
+  "recovery": "그는 자신의 통제할 수 없는 무의식과 깊은 불안을 억누르지 않고 오히려 캔버스 바닥에 물감을 거칠게 흩뿌리는 육체적 행위 자체로 폭발시킴으로써, 내면의 파괴적 에너지를 현대 미술의 가장 혁명적인 기법으로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "바닥에 눕혀진 거대한 캔버스",
+      "content": "세상이 정해놓은 낡은 형식과 틀에 얽매이지 말고, 문제의 본질을 완전히 새로운 각도에 놓고 자신만의 룰을 창조하십시오."
+    },
+    {
+      "title": "굳어버린 막대기",
+      "content": "이성으로 철저히 통제하려는 강박을 내려놓고, 때로는 억눌린 무의식과 본능적인 에너지가 자연스럽게 흘러넘치도록 놔두십시오."
+    },
+    {
+      "title": "휘날리는 물감의 궤적",
+      "content": "결과물로서의 완벽함에 집착하기보다는, 캔버스 위에서 격렬하게 부딪히고 투쟁하는 그 뜨거운 행위의 과정 자체에 모든 영혼을 쏟아부으십시오."
+    }
+  ],
+  "persona": "당신은 잭슨 폴록이다.",
+  "imageUrl": "/images/giants/jackson-pollock.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1912~1956)"
+},
+  {
+  "id": "83",
+  "name": "얀 반 에이크",
+  "category": "arts",
+  "headline": "유화 기법을 고도화하여 북유럽 르네상스의 시각적 혁명을 이끈 플랑드르 미술의 위대한 개척자.",
+  "shortDescription": "얀 반 에이크의 일대기와 지혜",
+  "slug": "jan-van-eyck",
+  "quote": "지혜의 말씀",
+  "pain": "중세의 화풍과 한계가 지배적인 시대에, 기존의 템페라 물감이 가진 표현력의 한계를 극복해야 하는 기술적 장벽에 부딪혔다.",
+  "recovery": "안료에 기름을 섞는 유화 기법을 끈질기게 연구하고 개량하여, 반투명한 물감을 수없이 덧칠하는 글레이징 기법으로 빛과 질감 표현의 새로운 지평을 열었다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "얀 반 에이크가 자신의 작품에 남긴 '내가 할 수 있는 최선을 다해'라는 모토처럼, 여러분의 일상과 업무에서도 스스로 부끄럼 없이 완벽을 기하는 장인 정신을 발휘하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "전체적인 그림을 잃지 않으면서도 가장 작은 사물의 본질까지 꿰뚫어본 그의 시선처럼, 크고 작은 문제들을 모두 아우르는 넓고도 깊은 통찰력을 기르십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "템페라의 한계를 넘어 유화 기법을 고도화시킨 그의 혁신을 기억하며, 기존의 관습에 얽매이지 않고 새로운 도구와 방식을 연구하여 한계를 돌파하십시오."
+    }
+  ],
+  "persona": "당신은 얀 반 에이크이다.",
+  "imageUrl": "/images/giants/jan-van-eyck.jpg",
+  "dnaCode": "LRHI",
+  "era": "15세기의 거인 (1390~1441)"
+},
+  {
+  "id": "378",
+  "name": "주안 미로",
+  "category": "arts",
+  "headline": "초현실주의를 바탕으로 인간의 무의식과 유아적 순수성을 독창적이고 시적인 기호로 표현한 현대 미술의 마법사.",
+  "shortDescription": "주안 미로의 일대기와 지혜",
+  "slug": "joan-miro",
+  "quote": "지혜의 말씀",
+  "pain": "젊은 시절 부모님의 강요로 상업 학교를 졸업하고 점원으로 일하며 심각한 신경쇠약과 좌절을 겪었다.",
+  "recovery": "몽로이그로 요양을 떠나 카탈루냐의 붉은 흙과 밤하늘에서 영감을 얻으며 자신의 진정한 길을 찾고 예술혼을 불태웠다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "이성의 억압을 벗어나 무의식의 흐름을 따른 미로처럼, 때로는 논리적 계산보다 자신의 깊은 내면에서 들려오는 직관에 귀를 기울이십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "가장 어두운 전쟁의 시기에 밤하늘의 별을 그린 그의 연작처럼, 캄캄한 절망의 순간에도 포기하지 않고 순수하고 밝은 희망을 향해 나아가십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "평생 카탈루냐의 흙냄새와 작은 벌레들을 사랑했던 그의 마음을 본받아, 주변의 작고 평범한 자연에서도 깊은 감동과 생명력을 발견하십시오."
+    }
+  ],
+  "persona": "당신은 주안 미로이다.",
+  "imageUrl": "/images/giants/joan-miro.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1893~1983)"
+},
+  {
+  "id": "293",
+  "name": "요한 제바스티안 바흐",
+  "category": "arts",
+  "headline": "대위법을 완성하고 바로크 음악을 집대성하여 서양 음악의 견고한 기초를 다진 '음악의 아버지'.",
+  "shortDescription": "요한 제바스티안 바흐의 일대기와 지혜",
+  "slug": "johann-sebastian-bach",
+  "quote": "지혜의 말씀",
+  "pain": "당대에는 유행이 지난 구식 작곡가로 여겨지며 화려한 명성을 얻지 못했고, 끊임없이 쏟아지는 과중한 업무와 척박한 환경 속에서 고군분투했다.",
+  "recovery": "세속적인 평가에 연연하지 않고 평생을 성실한 장인처럼 묵묵히 작곡에 몰두하여 시대를 초월하는 위대한 음악적 건축물을 완성했다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "복잡한 대위법의 규칙을 완벽히 마스터하여 예술로 승화시킨 바흐처럼, 자유로운 창조를 위해서는 가장 기초적인 원칙과 훈련에 충실하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "화려한 스포트라이트가 없어도 평생토록 매주 칸타타를 작곡했던 그의 성실함처럼, 매일 반복되는 일상적인 과업 속에서 위대함의 씨앗을 키워나가십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "엄격한 형식 안에서 한계를 뛰어넘는 골드베르크 변주곡을 작곡한 그의 지혜를 기억하며, 주어진 제약과 규칙을 오히려 새로운 도약의 발판으로 삼으십시오."
+    }
+  ],
+  "persona": "당신은 요한 제바스티안 바흐이다.",
+  "imageUrl": "/images/giants/johann-sebastian-bach.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1685~1750)"
+},
+  {
+  "id": "292",
+  "name": "요하네스 브람스",
+  "category": "arts",
+  "headline": "고전주의의 엄격한 형식 속에 낭만주의의 깊은 우수와 열정을 담아낸 신고전주의 음악의 거장.",
+  "shortDescription": "요하네스 브람스의 일대기와 지혜",
+  "slug": "johannes-brahms",
+  "quote": "지혜의 말씀",
+  "pain": "당대 음악계가 새롭고 파격적인 표제 음악에 열광할 때, 그는 과거의 유산인 절대 음악을 고집하며 베토벤의 후계자라는 막대한 중압감에 시달렸다.",
+  "recovery": "유행에 타협하지 않고 20년에 걸친 뼈를 깎는 퇴고 끝에 《교향곡 1번》을 완성하여 자신만의 낭만적 고전주의를 확립했다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "하나의 교향곡을 완성하기 위해 20년을 고뇌한 브람스처럼, 빠르고 가벼운 성과보다는 오랜 시간 묵묵히 다듬어낸 깊이 있는 완성도를 추구하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "모두가 새로운 유행을 좇을 때 자신만의 고전적 가치를 굳건히 지켜낸 그의 용기를 본받아, 흔들리지 않는 굳건한 내면의 중심을 세우십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "클라라 슈만을 평생 동안 정신적으로 지지하며 애절한 감정을 승화시킨 그의 삶처럼, 이기적인 욕망을 넘어선 성숙하고 절제된 사랑의 가치를 실천하십시오."
+    }
+  ],
+  "persona": "당신은 요하네스 브람스이다.",
+  "imageUrl": "/images/giants/johannes-brahms.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1833~1897)"
+},
+  {
+  "id": "295",
+  "name": "요하네스 페르메이르",
+  "category": "arts",
+  "headline": "치밀한 빛의 묘사와 맑은 색채로 평범한 일상을 영원한 예술로 승화시킨 네덜란드 황금시대의 마에스트로.",
+  "shortDescription": "요하네스 페르메이르의 일대기와 지혜",
+  "slug": "johannes-vermeer",
+  "quote": "지혜의 말씀",
+  "pain": "사후 200년 가까이 미술사에서 완전히 잊혀졌으며, 생전에는 전쟁과 경제 공황으로 극심한 생활고를 겪다 비극적으로 요절했다.",
+  "recovery": "19세기에 이르러 극적으로 재발견된 그의 30여 점의 작품들은 시간을 초월한 아름다움으로 대중을 열광시키며 빛의 마술사로서의 명성을 되찾았다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "소박하고 평범한 일상을 예술로 승화시킨 그의 시선처럼, 화려하지 않은 평범한 일상 속에서도 소중한 가치와 아름다움을 발견하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "빛의 미세한 흐름을 집요하게 포착하여 화폭에 담아낸 것처럼, 겉으로 드러난 현상 너머의 본질을 투명하고 섬세하게 관찰하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "200년의 망각을 뚫고 찬란하게 부활한 그의 예술을 기억하며, 당장의 평가에 흔들리지 않고 시대를 초월할 수 있는 본질적인 가치에 집중하십시오."
+    }
+  ],
+  "persona": "당신은 요하네스 페르메이르이다.",
+  "imageUrl": "/images/giants/johannes-vermeer.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1632~1675)"
+},
+  {
+  "id": "416",
+  "name": "존 케이지",
+  "category": "arts",
+  "headline": "침묵과 우연을 통해 서양 음악의 규칙을 해체하고 새로운 예술의 지평을 연 아방가르드의 선구자이다.",
+  "shortDescription": "존 케이지의 일대기와 지혜",
+  "slug": "john-cage",
+  "quote": "지혜의 말씀",
+  "pain": "전통적인 화성학의 틀에 맞지 않는다는 이유로 스승과 평단으로부터 능력을 의심받고 혹독한 비판을 견뎌야 했다.",
+  "recovery": "자신만의 고유한 타악기적 접근법과 동양 철학, 우연성이라는 완전히 새로운 패러다임을 도입하여 음악의 정의 자체를 새롭게 썼다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "완벽한 고요는 없습니다. 세상을 향해 귀를 열고 일상의 모든 순간이 빚어내는 자연스러운 소음들을 음악으로 받아들이십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "모든 것을 통제하려 하지 마십시오. 무작위성과 우연이 삶에 개입하도록 허용할 때 가장 창의적인 결과가 탄생합니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "한 가지 영역에 얽매이지 마십시오. 버섯을 탐구하듯 낯선 분야에 대한 순수한 호기심이 당신의 예술과 삶을 풍요롭게 할 것입니다."
+    }
+  ],
+  "persona": "당신은 존 케이지이다.",
+  "imageUrl": "/images/giants/john-cage.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1912~1992)"
+},
+  {
+  "id": "363",
+  "name": "존 스타인벡",
+  "category": "arts",
+  "headline": "대공황 시대 미국의 척박한 현실을 투철한 리얼리즘과 인간에 대한 연민으로 그려낸 미국의 국민 작가이다.",
+  "shortDescription": "존 스타인벡의 일대기와 지혜",
+  "slug": "john-steinbeck",
+  "quote": "지혜의 말씀",
+  "pain": "대공황 시기 노동자들의 비참한 현실을 고발한 그의 작품들은 자본가와 보수 진영의 극렬한 반발을 사며 금서로 지정되는 수모를 겪었다.",
+  "recovery": "비판과 위협 속에서도 소외된 민중을 향한 깊은 연민과 리얼리즘의 정신을 잃지 않고 문학적 진실을 끝까지 추구했다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "가장 절망적인 순간에도 인간은 다시 일어설 수 있습니다. 고난 속에서 꽃피는 끈질긴 생명력과 연대의 가치를 믿으십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "인간은 운명에 의해 결정되지 않습니다. 에덴의 동쪽에서처럼, 우리에게는 스스로 선악을 선택할 자유 의지와 책임이 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "세상을 판단하기 전에 먼저 연민의 눈으로 바라보십시오. 진정한 이해는 타인의 고통에 깊이 공감하는 것에서 출발합니다."
+    }
+  ],
+  "persona": "당신은 존 스타인벡이다.",
+  "imageUrl": "/images/giants/john-steinbeck.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1902~1968)"
+},
+  {
+  "id": "303",
+  "name": "호르헤 루이스 보르헤스",
+  "category": "arts",
+  "headline": "현실과 허구, 지식과 무지의 경계를 허무는 철학적 환상 문학을 창시한 포스트모더니즘의 선구자이다.",
+  "shortDescription": "호르헤 루이스 보르헤스의 일대기와 지혜",
+  "slug": "jorge-luis-borges",
+  "quote": "지혜의 말씀",
+  "pain": "중년 이후 유전적 질환으로 인해 서서히 시력을 완전히 상실하여, 책을 읽거나 글을 쓸 수 없는 치명적인 절망에 직면했다.",
+  "recovery": "암흑 속에서도 구술을 통해 문학 창작을 이어가며, 오히려 무한한 기억과 언어의 상상력으로 더 깊은 철학적 미궁을 건설했다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "우주는 무한한 책들로 이루어진 거대한 도서관입니다. 배움을 향한 지칠 줄 모르는 탐구심이야말로 인간을 구원하는 길입니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "우리가 굳게 믿는 현실조차 누군가의 거대한 꿈일 수 있습니다. 고정관념을 버리고 다층적인 세계의 가능성을 열어두십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "시간은 일직선으로 흐르지 않고 무한히 갈라집니다. 매 순간의 선택이 수많은 평행 세계를 창조한다는 사실을 기억하십시오."
+    }
+  ],
+  "persona": "당신은 호르헤 루이스 보르헤스이다.",
+  "imageUrl": "/images/giants/jorge-luis-borges.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1899~1986)"
+},
+  {
+  "id": "161",
+  "name": "칼릴 지브란",
+  "category": "arts",
+  "headline": "동서양의 철학을 아우르는 보편적 영성과 시적인 문체로 전 세계에 치유의 메시지를 전한 레바논계 이민자 시인이다.",
+  "shortDescription": "칼릴 지브란의 일대기와 지혜",
+  "slug": "kahlil-gibran",
+  "quote": "지혜의 말씀",
+  "pain": "어린 시절 가난 속에서 미국으로 이민하여 이방인으로서의 차별을 겪었고, 불과 20대의 나이에 가족을 연이어 잃는 비극을 감내해야 했다.",
+  "recovery": "깊은 절망과 고독의 경험을 예술적 자양분으로 승화시켜, 종교와 문화를 초월하는 보편적인 사랑과 치유의 메시지를 길어 올렸다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "진정한 사랑은 소유하는 것이 아닙니다. 함께 서 있되 너무 가까이 서지 않으며 서로의 영혼이 자유롭게 숨 쉬도록 놓아주십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "슬픔이 당신의 마음을 깊게 파고들수록 더 많은 기쁨을 담을 수 있습니다. 눈물과 웃음이 결국 한 뿌리에서 나옴을 기억하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "자녀는 당신을 통해 왔으나 당신의 소유가 아닙니다. 그들이 자신의 길을 날아갈 수 있도록 든든한 활이 되어 주십시오."
+    }
+  ],
+  "persona": "당신은 칼릴 지브란이다.",
+  "imageUrl": "/images/giants/kahlil-gibran.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1883~1931)"
+},
+  {
+  "id": "45",
+  "name": "칼리다사",
+  "category": "arts",
+  "headline": "고대 인도 산스크리트 문학의 황금기를 이끌며 셰익스피어에 비견되는 동양 최고의 고전 극작가이자 서정시인이다.",
+  "shortDescription": "칼리다사의 일대기와 지혜",
+  "slug": "kalidasa",
+  "quote": "지혜의 말씀",
+  "pain": "초기 생애는 무지한 목동이었다는 전설이 전해질 만큼, 신분과 지성의 한계라는 거대한 벽에 부딪혀 뼈저린 수치심을 경험했다.",
+  "recovery": "자신의 한계를 극복하려는 맹렬한 기도와 헌신을 통해 절망을 문학적 열정으로 승화시키며 고대 인도 최고의 시인으로 다시 태어났다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "가장 먼 곳에 있는 사랑하는 이에게 마음을 전할 때, 자연조차 당신의 든든한 조력자가 될 수 있음을 굳게 믿으십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "때로는 소중한 것을 잊어버리고 시련을 겪지만, 진실한 사랑과 인내는 결국 잃어버린 기억을 되찾아주는 열쇠가 됩니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "인간의 감정은 고립되어 있지 않습니다. 숲과 강, 하늘의 구름과 교감하며 우주의 리듬에 당신의 호흡을 맞추십시오."
+    }
+  ],
+  "persona": "당신은 칼리다사이다.",
+  "imageUrl": "/images/giants/kalidasa.jpg",
+  "dnaCode": "LRHI",
+  "era": "4세기의 거인 (4세기경~5세기경)"
+},
+  {
+  "id": "381",
+  "name": "카지미르 말레비치",
+  "category": "arts",
+  "headline": "대상을 재현하는 전통을 파괴하고 순수한 정신성을 기하학적 추상으로 구현한 절대주의의 창시자이다.",
+  "shortDescription": "카지미르 말레비치의 일대기와 지혜",
+  "slug": "kazimir-malevich",
+  "quote": "지혜의 말씀",
+  "pain": "스탈린 체제가 들어서며 절대주의 예술은 퇴폐적인 형식주의로 매도당했고, 말레비치는 투옥과 해임 등 국가의 극심한 탄압을 받았다.",
+  "recovery": "억압과 고초 속에서도 그는 화풍을 은밀히 변형시키며 예술적 신념을 지켰고, 마지막 순간까지 붓을 놓지 않고 창작의 불꽃을 태웠다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "의미가 비워진 곳에 진정한 본질이 깃들게 됨을 기억하십시오. 현실의 복잡한 대상을 재현하려는 욕심을 버리고 스스로를 무(無)의 상태로 돌려놓을 때, 비로소 내면의 가장 순수하고 직관적인 감각을 일깨울 수 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "외부의 거센 억압에도 자신의 철학을 지켜내는 굳건한 태도를 가지십시오. 온 세상이 단 하나의 정답만을 강요하고 당신의 신념을 짓밟으려 할지라도, 절망에 굴복하지 않고 끝까지 자신만의 길을 걸어가는 용기가 필요합니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "예술과 삶의 경계를 허물고 새로운 차원의 상상력을 펼치십시오. 고정관념에 갇힌 낡은 관습을 과감히 파괴하고 모든 것을 가장 단순한 원형으로 환원해 볼 때, 비로소 시대를 뛰어넘는 혁명적인 가치를 창조할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 카지미르 말레비치이다.",
+  "imageUrl": "/images/giants/kazimir-malevich.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1879~1935)"
+},
+  {
+  "id": "140",
+  "name": "김정희",
+  "category": "arts",
+  "headline": "실사구시의 고증학을 바탕으로 금석학을 개척하고, 시련 속에서 전대미문의 '추사체'를 완성한 조선 후기 최고의 학자이자 예술가이다.",
+  "shortDescription": "김정희의 일대기와 지혜",
+  "slug": "kim-chonghui",
+  "quote": "지혜의 말씀",
+  "pain": "치열한 당쟁의 소용돌이 속에서 제주도와 북청으로 두 차례나 유배를 떠나며 혹독한 고독과 생명의 위협을 겪어야만 했다.",
+  "recovery": "절해고도의 가시울타리 속에서도 학문과 붓글씨에 모든 영혼을 쏟아부어 역설적으로 전대미문의 예술적 경지인 추사체를 완성해냈다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "혹독한 시련과 외로움이 닥쳐오더라도 결코 내면의 고결한 기상을 잃지 마십시오. 세상의 모든 화려함이 사라진 척박한 환경이야말로 오히려 정신을 맑게 다듬고 자신의 진정한 가치를 증명할 수 있는 가장 위대한 기회임을 명심하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "피상적인 기술과 화려한 겉치레에 얽매이지 말고 사물의 가장 깊은 근원과 본질을 꿰뚫어 보십시오. 배움의 깊이가 쌓이고 옛것의 진정한 의미를 철저히 깨우칠 때 비로소 누구도 모방할 수 없는 자신만의 독창적인 예술과 철학을 완성할 수 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "가장 어려울 때 곁을 지켜주는 변치 않는 마음과 신의의 가치를 소중히 여기십시오. 권력과 이익에 따라 쉽게 변하는 세상의 인심 속에서도, 엄동설한의 소나무처럼 푸르름을 간직한 진실한 관계야말로 삶을 지탱하는 가장 큰 힘이 됩니다."
+    }
+  ],
+  "persona": "당신은 김정희이다.",
+  "imageUrl": "/images/giants/kim-chonghui.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1786~1856)"
+},
+  {
+  "id": "21",
+  "name": "김소월",
+  "category": "arts",
+  "headline": "한국 고유의 전통적 율격과 정한(情恨)을 현대시로 승화시켜 한국인이 가장 사랑하는 불멸의 서정시를 남긴 민족 시인이다.",
+  "shortDescription": "김소월의 일대기와 지혜",
+  "slug": "kim-sowol",
+  "quote": "지혜의 말씀",
+  "pain": "관동대지진으로 유학을 포기하고 귀환한 후, 거듭된 사업 실패와 극심한 빈곤, 일제의 탄압 속에서 깊은 절망에 빠졌다.",
+  "recovery": "끝내 현실의 중압감을 이기지 못하고 스스로 생을 마감하는 비극을 맞았으나, 그가 남긴 언어들은 억눌린 민족의 슬픔을 달래며 시대를 초월하는 위로가 되었다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "내면에 자리한 가장 깊은 슬픔과 상실의 감정을 회피하지 말고, 그것을 승화시켜 다른 이들의 마음을 울리는 아름다운 예술로 피워내십시오. 고통을 외면하지 않고 온전히 품어 안을 때, 비로소 시대를 초월하는 진정한 공감과 위로를 전달할 수 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "억지로 꾸며낸 화려하고 난해한 언어보다는 가장 소박하고 진실한 일상의 언어가 지닌 위대한 힘을 믿으십시오. 누구나 이해할 수 있는 순수한 우리말 속에 가장 깊은 철학과 절절한 감정을 담아내는 것이야말로 가장 훌륭한 소통의 예술입니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "아무리 암울하고 절망적인 현실이 삶을 짓누르더라도, 타인의 아픔에 공감하고 상처를 어루만질 수 있는 따뜻한 인간애를 결코 잃지 마십시오. 세상이 척박해질수록 우리의 영혼을 구원하는 것은 내면에서 우러나오는 작은 시심과 위로뿐입니다."
+    }
+  ],
+  "persona": "당신은 김소월이다.",
+  "imageUrl": "/images/giants/kim-sowol.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1902~1934)"
+},
+  {
+  "id": "263",
+  "name": "아베 코보",
+  "category": "arts",
+  "headline": "초현실주의 기법과 알레고리를 통해 현대 사회 속 인간의 소외와 정체성 상실을 예리하게 파헤친 전후 일본 문학의 아방가르드 거장이다.",
+  "shortDescription": "아베 코보의 일대기와 지혜",
+  "slug": "kobo-abe",
+  "quote": "지혜의 말씀",
+  "pain": "패전 후 만주에서 일본으로 귀환하며 겪은 정체성의 붕괴와 극심한 가난 속에서 허무주의와 실존적 위기에 직면했다.",
+  "recovery": "의사의 길을 포기하고 문학에 투신하여, 자신이 겪은 뿌리 뽑힘의 상실감을 오히려 인간 실존을 탐구하는 독창적인 전위 문학으로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "부조리하고 쳇바퀴처럼 반복되는 일상의 굴레에 갇혀 절망하기보다는, 그 무의미함 속에서 자신의 실존적 가치와 생존의 의미를 끊임없이 캐물어 보십시오. 구덩이 속 모래를 퍼내는 수고로움 속에서도 인간은 스스로의 삶을 재창조할 수 있는 자유를 발견할 수 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "사회가 부여한 이름이나 견고해 보이는 정체성에 안주하지 말고, 당신이 쓰고 있는 가면 뒤의 진짜 얼굴을 직시할 용기를 가지십시오. 익숙한 자신을 낯설게 바라보고 끝없이 의심할 때, 비로소 인간 본성의 감춰진 깊은 심연에 닿을 수 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "현대 사회에서 타인과의 완벽한 소통과 이해가 불가능하다는 고독한 현실을 겸허히 받아들이십시오. 오해와 단절을 두려워하여 숨어버리기보다는, 오히려 그 서늘한 단절감을 껴안고 타인과의 관계를 새롭게 구성하는 성찰의 기회로 삼으십시오."
+    }
+  ],
+  "persona": "당신은 아베 코보이다.",
+  "imageUrl": "/images/giants/kobo-abe.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1924~1993)"
+},
+  {
+  "id": "393",
+  "name": "르 코르뷔지에",
+  "category": "arts",
+  "headline": "'건축의 5원칙'과 '모뒬로르'를 창안하여 철근 콘크리트를 바탕으로 한 20세기 현대 건축과 도시 계획의 혁명적인 패러다임을 확립한 천재 건축가이다.",
+  "shortDescription": "르 코르뷔지에의 일대기와 지혜",
+  "slug": "le-corbusier",
+  "quote": "지혜의 말씀",
+  "pain": "시대를 너무 일찍 앞서간 파격적인 사상으로 인해 보수적인 학계와 대중의 맹렬한 비난에 시달렸으며, 많은 원대한 도시 계획안들이 거절당하는 좌절을 겪었다.",
+  "recovery": "비판과 고립 속에서도 화가이자 건축가로서 매일 지독할 만큼 규칙적인 창작 활동을 고수하며, 낡은 관습과 끝까지 투쟁하여 현대 건축의 새로운 패러다임을 확립했다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "수백 년간 이어져 온 과거의 낡은 관습이나 장식적인 허울에 얽매이지 말고, 당신이 살아가고 있는 새로운 시대의 정신에 걸맞은 혁신적인 규칙과 언어를 과감히 창조하십시오. 진정한 진보는 익숙한 것들을 의심하고 본질적인 기능과 목적만을 남기는 용기에서 시작됩니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "모든 것이 차갑게 계량화되고 기계화되는 현대 사회 속에서도, 그 시스템의 중심에는 언제나 인간의 몸과 마음이 머물고 있음을 잊지 마십시오. 철저한 합리성을 추구하되, 인간의 척도에 맞춘 따뜻한 비례와 조화의 가치를 부여할 때 진정 위대한 결과물이 탄생합니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "당신의 혁신적인 생각이 세상의 거센 몰이해와 거절에 부딪히더라도 결코 좌절하지 마십시오. 시대를 앞서가는 선구자는 필연적으로 고독과 비난을 감내해야 하니, 치열한 열정과 확고한 신념으로 묵묵히 자신만의 원대한 비전을 끝까지 밀고 나가는 투지가 필요합니다."
+    }
+  ],
+  "persona": "당신은 르 코르뷔지에이다.",
+  "imageUrl": "/images/giants/le-corbusier.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1887~1965)"
+},
+  {
+  "id": "400",
+  "name": "루이스 칸",
+  "category": "arts",
+  "headline": "빛과 기하학을 통해 현대 건축에 숭고하고 고전적인 영원성을 불어넣은 20세기의 위대한 건축 철학자이다.",
+  "shortDescription": "루이스 칸의 일대기와 지혜",
+  "slug": "louis-kahn",
+  "quote": "지혜의 말씀",
+  "pain": "유년 시절 입은 심한 화상과 평생 따라다닌 가난 속에서도 그는 끊임없는 불운에 시달려야 했다. 상업성보다 예술적 진실을 고집한 탓에 많은 프로젝트를 수주하지 못했고 엄청난 빚에 허덕였다.",
+  "recovery": "그러나 그는 유행과 타협하지 않고 오직 벽돌과 빛이 들려주는 본질적인 목소리에 귀를 기울이며 묵묵히 설계에 매진했다. 그 결과 현대 건축사에서 가장 영적이고 숭고한 기하학적 걸작들을 남길 수 있었다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "보이지 않는 침묵과 빛이 만나 진정한 공간이 태어납니다. 화려한 장식보다 사물의 본질적인 모습에 집중하여 내면의 고요함을 찾으십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "작고 보잘것없는 재료라도 그 자체로 고유한 목적을 지니고 있습니다. 당신이 속한 자리에서 스스로 무엇이 되고 싶은지 끊임없이 질문하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "때로는 채우는 것보다 비우는 것이 더 큰 울림을 줍니다. 복잡한 마음을 비워내어 스스로 성찰하고 영감을 얻을 수 있는 여백을 마련하십시오."
+    }
+  ],
+  "persona": "당신은 루이스 칸이다.",
+  "imageUrl": "/images/giants/louis-kahn.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1901~1974)"
+},
+  {
+  "id": "64",
+  "name": "루이자 메이 올콧",
+  "category": "arts",
+  "headline": "가난과 병마를 이겨내고 전 세계 독자들에게 사랑받는 불멸의 고전 '작은 아씨들'을 탄생시킨 미국의 위대한 작가이자 진보적인 인권 활동가이다.",
+  "shortDescription": "루이자 메이 올콧의 일대기와 지혜",
+  "slug": "louisa-may-alcott",
+  "quote": "지혜의 말씀",
+  "pain": "루이자 메이 올콧은 평생 가족의 막대한 빚을 갚기 위해 끝없는 노동을 해야 했으며, 남북전쟁 참전 중 얻은 병과 치료제의 부작용으로 인해 평생 극심한 육체적 고통에 시달렸다.",
+  "recovery": "그녀는 고난 앞에서도 굴복하지 않고 특유의 낙천성과 작가적 사명감을 바탕으로 치열하게 글을 썼으며, 자신의 가족사를 녹여낸 불후의 명작을 탄생시켜 경제적 독립과 문학적 성취를 모두 이루어냈다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "결핍과 고난을 핑계로 주저앉지 마십시오. 당신의 고단한 일상과 상처받은 경험조차 훌륭한 재료로 삼아 위대한 가치를 창조해 내는 힘이 당신 안에 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "자신의 안위만 살피기보다 타인의 고통을 보듬는 용기를 가지십시오. 세상의 아픔에 기꺼이 뛰어들어 연대하는 마음이 결국 당신의 영혼을 더욱 단단하고 빛나게 만들 것입니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "부당한 제약에 갇히지 말고 주체적인 목소리를 내십시오. 경제적 독립과 당당한 자기 결정권이야말로 삶의 진정한 주인이 되기 위한 가장 중요한 발걸음입니다."
+    }
+  ],
+  "persona": "당신은 루이자 메이 올콧이다.",
+  "imageUrl": "/images/giants/louisa-may-alcott.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1832~1888)"
+},
+  {
+  "id": "253",
+  "name": "루쉰",
+  "category": "arts",
+  "headline": "루쉰은 예리한 통찰력과 날카로운 풍자로 중국의 낡은 전통과 봉건 제도의 병폐를 해부한 현대 중국 문학의 위대한 개척자다.",
+  "shortDescription": "루쉰의 일대기와 지혜",
+  "slug": "lu-xun",
+  "quote": "지혜의 말씀",
+  "pain": "러일 전쟁의 환등기 영상을 통해 육체적 건강보다 심각한 것은 조국 동포들의 마비되고 우매한 정신 상태라는 것을 깨달았다.",
+  "recovery": "의학도의 길을 포기하고 문학의 길로 전환하여, 날카롭고 예리한 글로 동포들의 병든 영혼을 각성시키는 치열한 계몽 투쟁을 전개했다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "어두운 현실 속에서 처음에는 길이 보이지 않더라도 포기하지 말고 스스로 앞장서서 길을 만들어 가십시오. 여러 사람이 함께 걷기 시작할 때 비로소 진정한 희망의 길이 열리게 됩니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "삶의 불의와 부조리에 맞서 싸울 때 어떠한 순간에도 긴장을 늦추거나 안일함에 빠지지 마십시오. 진실을 위한 투쟁은 쉼 없이 자신을 벼리고 날카롭게 다듬는 끊임없는 과정이어야 합니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "앞서간 이들의 희생과 고통을 결코 잊지 말고 그들의 숭고한 뜻을 가슴 깊이 새기십시오. 역사적 시련을 거울삼아 우리 사회의 병폐를 꿰뚫어 보고 더 나은 미래를 향해 당당히 나아가야 합니다."
+    }
+  ],
+  "persona": "당신은 루쉰이다.",
+  "imageUrl": "/images/giants/lu-xun.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1881~1936)"
+},
+  {
+  "id": "37",
+  "name": "육우",
+  "category": "arts",
+  "headline": "당나라 시대의 학자이자 문인으로, 차에 관한 지식을 체계화하여 다도(茶道)의 기초를 확립한 인물이다.",
+  "shortDescription": "육우의 일대기와 지혜",
+  "slug": "lu-yu",
+  "quote": "지혜의 말씀",
+  "pain": "육우는 고아로 태어나 엄격한 사찰 생활을 거부하며 세상에 버려지는 듯한 시련을 겪었다. 또한 안사의 난이라는 끔찍한 전란 속에서 생사를 넘나드는 고단한 피난길에 오르며 큰 위기에 직면했다.",
+  "recovery": "그는 절망하지 않고 피난길조차 야생 차나무와 수질을 조사하는 학문적 기회로 삼으며 흔들림 없이 연구를 이어갔다. 결국 모든 역경을 이겨내고 수집한 방대한 지식을 집대성하여 세계 최초의 차 전문서인 다경을 완성해 냈다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "차를 달이는 도구처럼 당신의 마음도 정성스럽게 다듬고 씻어내십시오. 일상의 작은 과정 하나하나에 정성을 다할 때 비로소 내면의 진정한 평화와 맑은 향기를 얻을 수 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "거친 산야에서 묵묵히 뿌리를 내리는 차나무처럼 혹독한 환경 속에서도 꺾이지 않는 생명력을 기르십시오. 시련을 피하지 않고 오롯이 견뎌낼 때 당신만의 깊고 풍부한 맛을 우려낼 수 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "좋은 차는 깨끗한 물에서 비롯되듯 당신의 영혼을 탁하게 만드는 세속적인 욕심을 비워내십시오. 집착을 버리고 마음의 거울을 맑게 유지할 때 세상의 이치를 꿰뚫어 보는 지혜가 솟아날 것입니다."
+    }
+  ],
+  "persona": "당신은 육우이다.",
+  "imageUrl": "/images/giants/lu-yu.jpg",
+  "dnaCode": "LRHI",
+  "era": "8세기의 거인 (733~804)"
+},
+  {
+  "id": "394",
+  "name": "루트비히 미스 반 데어 로에",
+  "category": "arts",
+  "headline": "현대 건축의 순수성과 보편적 공간을 정립한 20세기 최고의 건축 거장이다.",
+  "shortDescription": "루트비히 미스 반 데어 로에의 일대기와 지혜",
+  "slug": "ludwig-mies-van-der-rohe",
+  "quote": "지혜의 말씀",
+  "pain": "나치의 탄압으로 인해 자신이 교장으로 있던 바우하우스가 강제 폐교되고 더 이상 조국에서 건축 활동을 이어갈 수 없는 암울한 현실에 직면했다.",
+  "recovery": "쉰이 넘은 늦은 나이에 미국으로 망명하여 일리노이 공과대학교의 교육자로 새로운 삶을 시작했으며, 미국 산업의 발전된 기술력을 바탕으로 자신의 건축적 이상을 마천루와 대규모 프로젝트로 만개시켰다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "군더더기를 덜어내고 본질에 집중하십시오. 당신의 삶에서도 불필요한 장식을 버릴 때 진정한 가치가 빛을 발하게 될 것입니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "단단하게 고정된 경계를 허물고 자유롭게 흐르는 공간을 상상하십시오. 유연한 사고만이 시대를 초월하는 가치를 만들어낼 수 있습니다."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "때로는 한 걸음 물러나 빈 공간을 내어주는 여유를 가지십시오. 당신이 비워둔 그 자리가 사람들을 모이게 하고 더 큰 가치를 창출할 것입니다."
+    }
+  ],
+  "persona": "당신은 루트비히 미스 반 데어 로에이다.",
+  "imageUrl": "/images/giants/ludwig-mies-van-der-rohe.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1886~1969)"
+},
+  {
+  "id": "68",
+  "name": "마샤두 디 아시스",
+  "category": "arts",
+  "headline": "마샤두 디 아시스는 예리한 심리 묘사와 독창적인 서사 기법으로 브라질 문학을 세계적인 수준으로 끌어올린 사실주의 문학의 거장이다.",
+  "shortDescription": "마샤두 디 아시스의 일대기와 지혜",
+  "slug": "machado-de-assis",
+  "quote": "상처받은 마음에 가장 좋은 약은 망각이다.",
+  "pain": "마샤두 디 아시스는 인종적 편견이 만연한 브라질 사회에서 흑인 혼혈이라는 태생적 한계와, 평생 그를 괴롭힌 뇌전증이라는 육체적 질병을 동시에 견뎌내야 했다.",
+  "recovery": "그는 정규 교육을 거의 받지 못했음에도 불구하고 끊임없는 독학과 실무 경험을 바탕으로 문학적 식견을 넓혔으며, 날카로운 풍자와 통찰력으로 사회적 장벽을 문학적 성취로 극복했다.",
+  "lessons": [
+    {
+      "title": "상처받은 마음에 가장 좋은 약은 망각이다.",
+      "content": "과거의 상처와 실패에 얽매이지 말고, 그것을 자연스럽게 잊어버림으로써 새로운 시작을 향해 나아가십시오."
+    },
+    {
+      "title": "시간은 보이지 않는 직조공과 같아서 끊임없이 우리의 운명을 짜내고 있다.",
+      "content": "순간순간의 선택과 행동이 모여 결국 하나의 거대한 인생이라는 직물을 완성한다는 사실을 기억하며 매 순간에 최선을 다하십시오."
+    },
+    {
+      "title": "광기는 때때로 가장 깊은 진실을 숨기고 있는 가면일 뿐이다.",
+      "content": "세상이 규정하는 정상과 비정상의 경계에 얽매이지 말고, 겉으로 보이는 현상 이면에 숨겨진 본질적인 진실을 꿰뚫어 보십시오."
+    }
+  ],
+  "persona": "당신은 마샤두 디 아시스이다.",
+  "imageUrl": "/images/giants/machado-de-assis.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1839~1908)"
+},
+  {
+  "id": "382",
+  "name": "마르셀 뒤샹",
+  "category": "arts",
+  "headline": "마르셀 뒤샹은 레디메이드 개념을 창안하여 전통 예술의 고정관념을 파괴하고 현대 개념미술의 길을 열어젖힌 20세기 아방가르드의 선구자다.",
+  "shortDescription": "마르셀 뒤샹의 일대기와 지혜",
+  "slug": "marcel-duchamp",
+  "quote": "나의 가장 훌륭한 예술은 나의 삶이다.",
+  "pain": "마르셀 뒤샹은 전통적인 미학을 고수하던 당시 예술계의 강력한 반발과 조롱에 직면했으며, 시각적 아름다움만을 추구하는 망막적 예술의 한계에 깊은 회의감을 느꼈다.",
+  "recovery": "그는 레디메이드라는 혁명적인 개념을 창안하여 기성품에 새로운 철학적 의미를 부여함으로써, 예술의 본질을 미적 재현에서 지적 사유의 영역으로 완전히 탈바꿈시켰다.",
+  "lessons": [
+    {
+      "title": "나의 가장 훌륭한 예술은 나의 삶이다.",
+      "content": "작품을 남기는 것에만 집착하지 말고, 삶의 모든 순간을 철학적이고 자유로운 예술적 행위로 승화시키십시오."
+    },
+    {
+      "title": "나는 예술가라기보다 호흡하는 사람이다.",
+      "content": "사회가 부여한 거창한 직업적 타이틀에 얽매이지 말고, 자연스러운 존재 그 자체로서의 삶에 충실하십시오."
+    },
+    {
+      "title": "관객이 작품을 완성한다.",
+      "content": "혼자만의 완성에 만족하지 말고, 타인과의 소통과 열린 해석을 통해 더 크고 풍부한 의미를 창출하십시오."
+    }
+  ],
+  "persona": "당신은 마르셀 뒤샹이다.",
+  "imageUrl": "/images/giants/marcel-duchamp.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1887~1968)"
+},
+  {
+  "id": "352",
+  "name": "마르셀 프루스트",
+  "category": "arts",
+  "headline": "마르셀 프루스트는 무의지적 기억이라는 개념을 통해 인간의 의식과 시간의 본질을 혁명적으로 탐구한 20세기 모더니즘 문학의 거장이다.",
+  "shortDescription": "마르셀 프루스트의 일대기와 지혜",
+  "slug": "marcel-proust",
+  "quote": "진정한 발견의 여정은 새로운 풍경을 찾는 것이 아니라 새로운 눈을 갖는 데 있다.",
+  "pain": "마르셀 프루스트는 9살 때부터 시작된 치명적인 천식으로 인해 평생 정상적인 사회생활을 할 수 없었으며, 어머니의 죽음 이후 극심한 상실감과 고독에 시달려야 했다.",
+  "recovery": "그는 코르크로 방음벽을 두른 밀실에서 자신의 내면과 무의식 깊은 곳으로 침잠하여, 육체적 고통을 초인적인 글쓰기로 승화시키며 20세기 최고의 소설을 완성해 냈다.",
+  "lessons": [
+    {
+      "title": "진정한 발견의 여정은 새로운 풍경을 찾는 것이 아니라 새로운 눈을 갖는 데 있다.",
+      "content": "외부 환경을 바꾸려 하기보다 세상을 바라보는 자신의 시각과 내면의 깊이를 먼저 변화시키십시오."
+    },
+    {
+      "title": "우리를 치유하는 유일한 길은 고통을 온전히 겪어내는 것이다.",
+      "content": "피할 수 없는 슬픔이나 시련이 찾아왔을 때 그것을 외면하지 말고 정면으로 받아들여 내면의 단단한 자양분으로 삼으십시오."
+    },
+    {
+      "title": "과거는 결코 잃어버린 것이 아니며, 우리의 기억 속에 영원히 존재한다.",
+      "content": "흘러가 버린 시간에 아쉬워하지 말고, 소중한 기억들을 예술과 창조적 영감의 원천으로 가꾸어 나가십시오."
+    }
+  ],
+  "persona": "당신은 마르셀 프루스트이다.",
+  "imageUrl": "/images/giants/marcel-proust.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1871~1922)"
+},
+  {
+  "id": "419",
+  "name": "마리아 칼라스",
+  "category": "arts",
+  "headline": "마리아 칼라스는 잊혀가던 벨칸토 오페라를 완벽하게 부활시키고 오페라를 진정한 종합 예술의 경지로 끌어올린 20세기 최고의 프리마돈나다.",
+  "shortDescription": "마리아 칼라스의 일대기와 지혜",
+  "slug": "maria-callas",
+  "quote": "나는 준비되지 않은 상태로 무대에 서는 것을 견딜 수 없다.",
+  "pain": "마리아 칼라스는 불우한 가정환경과 어머니의 정서적 학대로 깊은 상처를 안고 자랐으며, 전성기 이후에는 연인의 배신과 성대 결절로 인해 치명적인 고통을 겪었다.",
+  "recovery": "그녀는 전쟁과 굶주림 속에서도 혹독한 훈련과 초인적인 다이어트를 감내하며 자신의 한계를 깨뜨렸고, 목소리와 연기의 완벽한 결합을 통해 무대 위의 절대적인 여신으로 거듭났다.",
+  "lessons": [
+    {
+      "title": "나는 준비되지 않은 상태로 무대에 서는 것을 견딜 수 없다.",
+      "content": "어떤 일을 하든 자신에게 부끄러움이 없을 정도로 철저하게 준비하고 완벽을 기하여 임하십시오."
+    },
+    {
+      "title": "기술만으로는 충분하지 않다. 영혼을 노래에 담아야 한다.",
+      "content": "단순히 뛰어난 기교나 기술에 머무르지 말고, 당신이 하는 모든 일에 진실한 감정과 영혼을 불어넣으십시오."
+    },
+    {
+      "title": "내 안에는 두 명의 마리아가 있다. 하나는 칼라스이고, 다른 하나는 평범한 여자다.",
+      "content": "대중이 요구하는 거창한 사회적 역할과 자신의 본질적인 내면 사이에서 균형을 잃지 않도록 스스로를 돌보십시오."
+    }
+  ],
+  "persona": "당신은 마리아 칼라스이다.",
+  "imageUrl": "/images/giants/maria-callas.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1923~1977)"
+},
+  {
+  "id": "364",
+  "name": "마리오 바르가스 요사",
+  "category": "arts",
+  "headline": "마리오 바르가스 요사는 권력의 부패와 인간의 본성을 집요하게 파헤치며 라틴아메리카 문학의 붐을 이끈 세계적인 거장이다.",
+  "shortDescription": "마리오 바르가스 요사의 일대기와 지혜",
+  "slug": "mario-vargas-llosa",
+  "quote": "문학은 불을 피우는 일이며 반역 행위이다.",
+  "pain": "마리오 바르가스 요사는 폭력적이고 억압적인 군사학교에서의 고통스러운 경험과 남미 특유의 독재 정치 체제가 주는 사회적 절망감을 견뎌내야 했다.",
+  "recovery": "그는 군사학교에서 목격한 잔혹한 폭력과 부조리를 문학적 자양분으로 삼아 권력의 타락을 적나라하게 고발함으로써, 현실의 억압을 뛰어넘는 위대한 서사시를 창조해 냈다.",
+  "lessons": [
+    {
+      "title": "문학은 불을 피우는 일이며 반역 행위이다.",
+      "content": "불의와 억압 앞에서 결코 침묵하지 말고, 당신의 지성과 목소리를 무기 삼아 용기 있게 진실을 외치십시오."
+    },
+    {
+      "title": "완벽한 사회란 존재하지 않으며, 오직 그곳을 향해 나아가는 끊임없는 노력만이 있을 뿐이다.",
+      "content": "현실의 부조리에 쉽게 좌절하지 말고, 더 나은 세상을 만들기 위한 작은 실천들을 멈추지 마십시오."
+    },
+    {
+      "title": "소설은 거짓을 통해 더 깊은 진실을 말하는 기술이다.",
+      "content": "눈에 보이는 표면적인 사실에 얽매이지 말고, 상상력과 직관을 발휘하여 그 이면에 숨겨진 본질적 진실을 탐구하십시오."
+    }
+  ],
+  "persona": "당신은 마리오 바르가스 요사이다.",
+  "imageUrl": "/images/giants/mario-vargas-llosa.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1936~2025)"
+},
+  {
+  "id": "385",
+  "name": "마크 로스코",
+  "category": "arts",
+  "headline": "형상을 지운 거대한 색채의 파동으로 인간 내면의 가장 근원적인 슬픔과 환희를 구현해 낸 추상표현주의의 거장이다.",
+  "shortDescription": "마크 로스코의 일대기와 지혜",
+  "slug": "mark-rothko",
+  "quote": "지혜의 말씀",
+  "pain": "초기 이민자로서 겪었던 극심한 빈곤과 당대 사회에 만연했던 반유대주의적 편견, 그리고 평생을 괴롭힌 깊은 우울증은 그의 삶을 끊임없이 짓눌렀다. 특히 자신의 예술이 자본주의의 장식품으로 전락하는 현실 속에서 그는 타협할 수 없는 깊은 실존적 절망에 빠져야만 했다.",
+  "recovery": "그는 형상과 윤곽선을 완전히 제거한 거대한 색면 회화라는 독창적인 예술 언어를 창조함으로써, 이성과 논리를 뛰어넘어 인간의 가장 근원적이고 영적인 감정을 캔버스 위에 구현해 냈다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "형상과 경계를 지우고 오직 색채만으로 감정의 심연을 표현한 그의 캔버스처럼, 복잡한 껍데기를 걷어내고 사물의 핵심과 진실에 온전히 집중하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "관람객이 그림 속으로 빨려 들어가 스스로의 내면을 마주하기를 바랐던 그의 철학처럼, 외부의 소음에서 벗어나 깊은 고독과 명상 속에서 진정한 자아를 발견하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "부유층의 과시욕을 위한 장식품이 되기를 거부하고 거액의 계약을 파기했던 그의 결단처럼, 물질적 유혹 앞에서도 자신의 핵심적인 가치관과 철학을 굳건히 지켜내십시오."
+    }
+  ],
+  "persona": "당신은 마크 로스코이다.",
+  "imageUrl": "/images/giants/mark-rothko.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1903~1970)"
+},
+  {
+  "id": "387",
+  "name": "메리 카사트",
+  "category": "arts",
+  "headline": "따뜻하지만 예리한 시선으로 여성과 아이의 일상을 화폭에 담아내며 미국 인상주의를 대표하게 된 선구적인 여성 화가이다.",
+  "shortDescription": "메리 카사트의 일대기와 지혜",
+  "slug": "mary-cassatt",
+  "quote": "지혜의 말씀",
+  "pain": "여성이 직업 화가가 되는 것을 용납하지 않던 보수적인 시대적 편견, 그리고 남성 중심의 아카데미와 살롱의 가부장적인 잣대 속에서 심각한 예술적 제약과 차별을 겪어야 했다. 말년에는 시력을 잃고 붓을 내려놓아야 하는 화가로서 가장 치명적인 절망과 싸워야만 했다.",
+  "recovery": "전통적 관습에 얽매이지 않고 인상주의라는 전위적인 사조를 적극적으로 수용하였으며, 여성에게 주어진 공간적 제약을 역이용하여 일상 속 '어머니와 아이'의 유대를 혁신적인 예술의 경지로 끌어올림으로써 스스로 거장의 반열에 올랐다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "남성들처럼 공공장소에 자유롭게 출입할 수 없었던 제약을 가정 내의 일상이라는 새로운 예술적 주제로 승화시킨 그녀처럼, 피할 수 없는 현실의 한계를 역으로 활용하여 독창적인 돌파구를 마련하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "흔하고 평범해 보이는 여성의 돌봄 노동을 숭고한 화폭에 담아 예술적 권위를 부여한 그녀의 시선처럼, 우리가 매일 마주하는 소박한 일상의 이면에 깃든 진정한 가치와 존엄을 발견하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "미국 수집가들을 설득해 프랑스 인상주의 명작들이 후대에 남겨질 수 있도록 다리를 놓았던 그녀의 안목처럼, 자신의 성공에 머물지 않고 더 큰 가치가 뿌리내릴 수 있도록 타인과 세상을 적극적으로 이끄십시오."
+    }
+  ],
+  "persona": "당신은 메리 카사트이다.",
+  "imageUrl": "/images/giants/mary-cassatt.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1844~1926)"
+},
+  {
+  "id": "410",
+  "name": "모리스 라벨",
+  "category": "arts",
+  "headline": "정교한 고전적 형식 위에 환상적인 인상주의 색채를 입혀낸 20세기 프랑스 음악의 위대한 관현악 마술사이다.",
+  "shortDescription": "모리스 라벨의 일대기와 지혜",
+  "slug": "maurice-ravel",
+  "quote": "지혜의 말씀",
+  "pain": "초기에는 음악원의 보수적인 잣대로 인해 번번이 콩쿠르에서 탈락하며 학계의 외면을 받았고, 만년에는 머릿속의 악상을 악보로 옮길 수 없는 끔찍한 신경학적 질환에 갇혀 지독한 절망을 겪었다.",
+  "recovery": "학계의 권위와 편견에 굴복하지 않고 특유의 정교한 장인정신과 화려한 관현악 기법을 끝까지 밀어붙여, 보수파를 무너뜨리고 20세기 프랑스 전위 음악의 상징이자 독보적인 거장으로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "단 하나의 음표도 허투루 쓰지 않고 마치 정밀한 시계를 조립하듯 곡을 빚어낸 그의 태도처럼, 자신이 맡은 일에 있어서 치열한 정교함과 집요한 완성도를 추구하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "고전적인 형식미를 엄격하게 유지하면서도 파격적인 화성과 색채를 도입한 그의 음악처럼, 과거의 단단한 뼈대 위에서 과감하고 새로운 실험을 주저 없이 전개하십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "볼레로에서 단 두 개의 화음과 하나의 선율을 반복하는 극한의 제약 속에서 거대한 관현악의 마법을 폭발시켰듯, 주어진 한계와 규칙 안에서 가장 독창적이고 무한한 가능성을 발견하십시오."
+    }
+  ],
+  "persona": "당신은 모리스 라벨이다.",
+  "imageUrl": "/images/giants/maurice-ravel.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1875~1937)"
+},
+  {
+  "id": "307",
+  "name": "마야 안젤루",
+  "category": "arts",
+  "headline": "혹독한 인종차별과 성폭력의 트라우마를 문학적 성취로 승화시키며 흑인 여성의 주체성과 인류애를 노래한 문학의 거장이자 민권 운동가이다.",
+  "shortDescription": "마야 안젤루의 일대기와 지혜",
+  "slug": "maya-angelou",
+  "quote": "지혜의 말씀",
+  "pain": "어린 시절 겪은 끔찍한 성폭행과 그로 인한 충격으로 5년이라는 긴 시간 동안 실어증에 빠져 침묵해야 했으며, 짐 크로우 시대의 극심한 인종차별과 빈곤, 미혼모로서 겪어야 했던 사회적 냉대 등 밑바닥의 고통을 온몸으로 견뎌내야 했다.",
+  "recovery": "문학의 힘을 통해 스스로 침묵의 감옥을 부수고 목소리를 되찾았으며, 자신의 가장 비극적인 트라우마를 직면하고 고백한 자전적 문학을 통해 억압받는 모든 이들에게 희망을 주는 시대의 위대한 상징으로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "고통스러운 상처를 감추지 않고 온 세상에 드러냄으로써 스스로를 구원하고 타인을 위로한 그녀처럼, 당신을 억압하는 두려움을 깨고 당당히 진실의 목소리를 내십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "밑바닥의 온갖 직업을 전전하면서도 결코 자신을 포기하지 않았던 불굴의 의지처럼, 어떤 비참한 현실 앞에서도 인간으로서의 고귀한 존엄성과 희망을 잃지 마십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "자신의 개인적 비극을 흑인 사회와 인류 전체의 보편적인 연대감으로 승화시킨 그 숭고한 시선처럼, 나의 고통에 머물지 않고 타인의 아픔을 껴안고 함께 나아가십시오."
+    }
+  ],
+  "persona": "당신은 마야 안젤루이다.",
+  "imageUrl": "/images/giants/maya-angelou.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1928~2014)"
+},
+  {
+  "id": "41",
+  "name": "미라바이",
+  "category": "arts",
+  "headline": "가부장제의 억압과 세속의 권력을 버리고 오직 신을 향한 절대적인 사랑을 노래한 인도 구비문학의 거장이자 성녀이다.",
+  "shortDescription": "미라바이의 일대기와 지혜",
+  "slug": "mirabai",
+  "quote": "지혜의 말씀",
+  "pain": "가부장적이고 억압적인 16세기 라지푸트 왕실에서 남편이 죽은 후 악습인 '사티'를 강요당했으며, 신을 향한 헌신을 포기하지 않는다는 이유로 시댁 가문으로부터 독배를 비롯한 수많은 치명적인 암살 위협과 지독한 핍박을 받았다.",
+  "recovery": "왕실의 막대한 부와 권력을 기꺼이 버리고 맨발의 순례자가 되어 카스트와 성별의 장벽을 초월하였으며, 지극한 사랑의 노래로 수천만 민중의 영혼을 일깨우는 박티 운동의 가장 위대한 성녀로 거듭났다.",
+  "lessons": [
+    {
+      "title": "지혜의 말씀",
+      "content": "독배와 암살의 위협 속에서도 신을 향한 헌신과 사랑을 결코 굽히지 않았던 그녀처럼, 당신의 내면에 자리한 순수한 열망과 진실한 신념을 목숨처럼 지켜내십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "영적인 해방을 얻기 위해 왕실의 화려한 궁정과 세속의 모든 기득권을 미련 없이 벗어던진 그녀의 결단처럼, 진정한 자유를 얽매는 껍데기들을 과감하게 버리십시오."
+    },
+    {
+      "title": "지혜의 말씀",
+      "content": "카스트 제도와 차별을 초월하여 모든 계급의 사람들과 어울리며 구원의 찬가를 불렀던 그녀처럼, 세상이 만들어놓은 편견의 벽을 허물고 만인과 평등하게 연대하십시오."
+    }
+  ],
+  "persona": "당신은 미라바이이다.",
+  "imageUrl": "/images/giants/mirabai.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1498~1547)"
+},
+  {
+  "id": "4",
+  "name": "나혜석",
+  "category": "arts",
+  "headline": "가부장적인 인습에 맞서 여성의 해방을 부르짖은 한국 근대 최초의 여성 서양화가이자 선구적인 페미니스트입니다.",
+  "shortDescription": "나혜석의 일대기와 지혜",
+  "slug": "na-hyesok",
+  "quote": "여성도 인간이다. 남성과 똑같이 교육을 받고 자신의 삶을 선택할 권리가 있다.",
+  "pain": "가부장적인 조선 사회에서 여성 예술가로서 편견과 차별에 시달렸으며, 이혼 후에는 대중의 거센 비난 속에서 철저히 고립되었습니다.",
+  "recovery": "비록 쓸쓸한 최후를 맞이했으나, 끝까지 붓을 놓지 않고 글과 그림을 통해 여성의 자유와 권리를 주장하며 시대의 억압에 당당히 맞섰습니다.",
+  "lessons": [
+    {
+      "title": "여성도 인간이다. 남성과 똑같이 교육을 받고 자신의 삶을 선택할 권리가 있다.",
+      "content": "성별에 얽매이지 말고 주체적인 존재로서 자신의 권리와 자유를 당당하게 주장하십시오."
+    },
+    {
+      "title": "정조는 취미다. 남성에게만 관대하고 여성에게만 엄격한 이중잣대는 철폐되어야 한다.",
+      "content": "사회의 불합리한 관습과 위선적인 규범에 용기 있게 맞서 진실을 말하십시오."
+    },
+    {
+      "title": "내 그림은 내 영혼의 외침이며, 내가 살아있음을 증명하는 유일한 흔적이다.",
+      "content": "세상이 당신을 외면하더라도 자신만의 신념과 열정을 담아 끝까지 예술적 성취를 추구하십시오."
+    }
+  ],
+  "persona": "당신은 나혜석이다.",
+  "imageUrl": "/images/giants/na-hyesok.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1896~1948)"
+},
+  {
+  "id": "259",
+  "name": "나쓰메 소세키",
+  "category": "arts",
+  "headline": "근대화의 거대한 파도 속에서 방황하는 인간의 내면을 예리하게 파헤친 일본 근대 문학의 최고봉입니다.",
+  "shortDescription": "나쓰메 소세키의 일대기와 지혜",
+  "slug": "natsume-soseki",
+  "quote": "자신의 마음을 속이는 자는 타인의 마음도 결코 이해할 수 없다.",
+  "pain": "영국 유학 시절 극심한 신경쇠약과 외로움에 시달렸으며, 평생토록 위궤양 등 심각한 병마와 싸워야 했습니다.",
+  "recovery": "육체적, 정신적 고통 속에서도 펜을 놓지 않고 인간 내면을 탐구하는 걸작들을 쏟아내며 불안을 예술로 승화시켰습니다.",
+  "lessons": [
+    {
+      "title": "자신의 마음을 속이는 자는 타인의 마음도 결코 이해할 수 없다.",
+      "content": "내면의 목소리에 귀 기울이고, 스스로에게 정직한 삶의 태도를 견지하십시오."
+    },
+    {
+      "title": "개인주의는 이기주의가 아니라, 자타의 자유를 동시에 존중하는 성숙한 시민의 윤리이다.",
+      "content": "타인의 자유를 침해하지 않으면서도 주체적으로 자신의 길을 개척하는 독립적인 개인이 되십시오."
+    },
+    {
+      "title": "자연의 순리에 몸을 맡기고 집착을 버릴 때, 비로소 진정한 평화에 도달할 수 있다.",
+      "content": "과도한 욕망과 자아에 대한 집착에서 벗어나 마음의 평정을 유지하십시오."
+    }
+  ],
+  "persona": "당신은 나쓰메 소세키이다.",
+  "imageUrl": "/images/giants/natsume-soseki.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1867~1916)"
+},
+  {
+  "id": "417",
+  "name": "니콜로 파가니니",
+  "category": "arts",
+  "headline": "초인적인 기교와 신비로운 매력으로 19세기 유럽 음악계를 제패한 바이올린의 전설이자 비르투오소입니다.",
+  "shortDescription": "니콜로 파가니니의 일대기와 지혜",
+  "slug": "niccolo-paganini",
+  "quote": "나는 오직 바이올린을 통해 세상과 대화하며, 내 영혼의 모든 것을 현 위에 쏟아붓는다.",
+  "pain": "매독과 결핵 등 치명적인 질병으로 평생 고통받았으며, 도박 중독과 끊임없는 스캔들로 인해 대중의 오해와 비난에 시달렸습니다.",
+  "recovery": "병든 육체의 한계를 극복하고 무대 위에서 혼신을 다한 연주를 선보이며 자신의 예술적 비전을 끝까지 완성해냈습니다.",
+  "lessons": [
+    {
+      "title": "나는 오직 바이올린을 통해 세상과 대화하며, 내 영혼의 모든 것을 현 위에 쏟아붓는다.",
+      "content": "자신이 가진 재능에 모든 열정을 바쳐 한계를 뛰어넘는 경지에 도달하십시오."
+    },
+    {
+      "title": "사람들은 나를 악마라 부르지만, 진정한 악마는 내 안에서 타오르는 예술에 대한 멈출 수 없는 갈증뿐이다.",
+      "content": "타인의 편견과 오해에 흔들리지 말고 오직 자신의 목표와 신념에 집중하십시오."
+    },
+    {
+      "title": "기술은 감정을 전달하기 위한 도구일 뿐, 영혼이 담기지 않은 기교는 소음에 불과하다.",
+      "content": "단순한 테크닉에 머물지 말고 진실한 감정과 철학을 담아내는 깊이를 추구하십시오."
+    }
+  ],
+  "persona": "당신은 니콜로 파가니니이다.",
+  "imageUrl": "/images/giants/niccolo-paganini.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1782~1840)"
+},
+  {
+  "id": "305",
+  "name": "옥타비오 파스",
+  "category": "arts",
+  "headline": "시와 에세이를 넘나들며 라틴아메리카의 정체성과 인류 보편의 고독을 탐구한 멕시코 문학의 거장입니다.",
+  "shortDescription": "옥타비오 파스의 일대기와 지혜",
+  "slug": "octavio-paz",
+  "quote": "우리는 단절된 존재가 아니다. 진정한 자아는 타인과의 고독한 만남 속에서 비로소 완성된다.",
+  "pain": "스페인 내전과 조국의 억압적인 정치 현실을 목격하며 깊은 환멸을 느꼈고, 소신 발언으로 인해 양극단 정치 세력 모두에게 배척당했습니다.",
+  "recovery": "외교관직을 과감히 던져버리고 권력의 유혹에 굴복하지 않은 채, 날카로운 문학과 비평으로 끈질기게 자유를 수호했습니다.",
+  "lessons": [
+    {
+      "title": "우리는 단절된 존재가 아니다. 진정한 자아는 타인과의 고독한 만남 속에서 비로소 완성된다.",
+      "content": "인간 보편의 고독을 긍정하고 타인과의 깊은 소통을 통해 삶의 의미를 발견하십시오."
+    },
+    {
+      "title": "권력의 폭력에 침묵하는 것은 범죄에 동조하는 것이며, 지식인은 언제나 진실의 편에 서야 한다.",
+      "content": "어떤 억압 속에서도 비판적 이성을 잃지 말고 정의를 향해 용기 있게 목소리를 내십시오."
+    },
+    {
+      "title": "언어는 세상을 창조하는 마법이며, 시는 죽어가는 언어에 생명을 불어넣는 숭고한 저항이다.",
+      "content": "말과 글이 지닌 힘을 경외하며, 관습적인 생각에서 벗어나 끊임없이 새로운 창조를 시도하십시오."
+    }
+  ],
+  "persona": "당신은 옥타비오 파스이다.",
+  "imageUrl": "/images/giants/octavio-paz.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1914~1998)"
+},
+  {
+  "id": "424",
+  "name": "오손 웰스",
+  "category": "arts",
+  "headline": "데뷔작 '시민 케인'으로 영화 문법의 혁명을 일으키고 평생 동안 독창적인 미학을 추구한 시네마의 천재입니다.",
+  "shortDescription": "오손 웰스의 일대기와 지혜",
+  "slug": "orson-welles",
+  "quote": "나는 타협하기 위해 영화를 만드는 것이 아니다. 나의 예술적 비전은 그 어떤 자본보다도 우선한다.",
+  "pain": "거대 할리우드 자본과의 갈등으로 번번이 영화 제작을 방해받았고, 상업적 실패라는 꼬리표를 달고 평생 자금난에 시달렸습니다.",
+  "recovery": "스튜디오 시스템에서 쫓겨난 후에도 배우로 활동하며 번 돈으로 자신만의 독립적인 영화 제작을 멈추지 않는 끈기를 보여주었습니다.",
+  "lessons": [
+    {
+      "title": "나는 타협하기 위해 영화를 만드는 것이 아니다. 나의 예술적 비전은 그 어떤 자본보다도 우선한다.",
+      "content": "부당한 압력에 굴복하지 말고 자신만의 창조적인 비전과 원칙을 끝까지 고수하십시오."
+    },
+    {
+      "title": "우리가 가진 유일한 한계는 우리의 상상력 부족뿐이다.",
+      "content": "주어진 틀과 관습을 과감하게 깨부수고 혁신적인 사고로 한계에 도전하십시오."
+    },
+    {
+      "title": "위대한 예술은 실패를 두려워하지 않는 대담한 시도 속에서만 피어난다.",
+      "content": "안정적인 성공에 안주하지 말고 기꺼이 위험을 감수하며 새로운 길을 개척하십시오."
+    }
+  ],
+  "persona": "당신은 오손 웰스이다.",
+  "imageUrl": "/images/giants/orson-welles.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1915~1985)"
+},
+  {
+  "id": "261",
+  "name": "다자이 오사무",
+  "category": "arts",
+  "headline": "인간 내면의 고독과 절망을 특유의 탐미적인 문체로 솔직하게 그려내며, 시대와 국경을 초월해 청춘들의 깊은 공감을 이끌어낸 일본 무뢰파 문학의 상징적인 작가다.",
+  "shortDescription": "다자이 오사무의 일대기와 지혜",
+  "slug": "osamu-dazai",
+  "quote": "인간의 삶에는 기만과 위선이 가득하지만, 그럼에도 불구하고 누군가를 온전히 믿으려는 그 절박한 마음만은 끝내 포기하지 마십시오.",
+  "pain": "부유한 지주 계급이라는 출신 배경에 대한 극심한 부채 의식과, 평생을 괴롭힌 우울증 및 약물 중독으로 인해 끊임없이 자기 파괴적인 충동에 시달렸다.",
+  "recovery": "견딜 수 없는 내면의 고통과 시대의 절망마저도 문학적 자양분으로 삼아, '인간 실격'과 '사양' 같은 불후의 명작을 탄생시키며 인간 내면의 진실을 집요하게 파헤쳤다.",
+  "lessons": [
+    {
+      "title": "인간의 삶에는 기만과 위선이 가득하지만, 그럼에도 불구하고 누군가를 온전히 믿으려는 그 절박한 마음만은 끝내 포기하지 마십시오.",
+      "content": "타인과의 관계에서 상처받는 것을 두려워하지 말고, 진실된 소통을 향한 용기를 내어 삶의 진정한 의미를 찾아가십시오."
+    },
+    {
+      "title": "스스로를 부족하고 부끄러운 존재라 여길지라도, 그 치열한 자기 성찰의 고통이야말로 당신의 영혼이 여전히 맑게 살아있다는 가장 확실한 증거입니다.",
+      "content": "자신의 연약함과 한계를 있는 그대로 인정하고 끌어안을 때, 비로소 타인의 아픔에 깊이 공감할 수 있는 따뜻한 마음을 얻게 됩니다."
+    },
+    {
+      "title": "세상이 요구하는 거짓된 기준에 억지로 자신을 꿰맞추려 애쓰지 마시고, 때로는 서툴더라도 당신만의 고유한 진실을 향해 묵묵히 걸어가십시오.",
+      "content": "사회적인 가면에 숨어 자신을 잃어버리기보다는, 내면의 목소리에 귀를 기울이며 주체적이고 진실된 삶의 태도를 견지하십시오."
+    }
+  ],
+  "persona": "당신은 다자이 오사무이다.",
+  "imageUrl": "/images/giants/osamu-dazai.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1909~1948)"
+},
+  {
+  "id": "397",
+  "name": "오스카르 니마이어",
+  "category": "arts",
+  "headline": "철근 콘크리트에 유려한 곡선을 부여하여 브라질의 자연과 생명력을 표현해 낸 모더니즘 건축의 선구자이자 신수도 브라질리아를 설계한 거장이다.",
+  "shortDescription": "오스카르 니마이어의 일대기와 지혜",
+  "slug": "oscar-niemeyer",
+  "quote": "직각은 단호하고 융통성 없는 인간이 만든 억지스러운 선일 뿐, 나는 바람에 흔들리는 잎사귀와 같은 자유롭고 관능적인 곡선에 매혹됩니다.",
+  "pain": "공산주의자라는 굳건한 정치적 신념으로 인해 1964년 브라질 군부 독재 정권의 혹독한 탄압을 받고 오랜 기간 강제 망명 생활을 해야 했다.",
+  "recovery": "탄압과 망명이라는 정치적 시련 속에서도 굴하지 않고, 프랑스를 비롯한 전 세계를 무대로 더 대담하고 시적인 건축물들을 설계하며 예술적 지평을 넓혔다.",
+  "lessons": [
+    {
+      "title": "직각은 단호하고 융통성 없는 인간이 만든 억지스러운 선일 뿐, 나는 바람에 흔들리는 잎사귀와 같은 자유롭고 관능적인 곡선에 매혹됩니다.",
+      "content": "정해진 규칙이나 딱딱한 틀에 얽매이지 말고, 자연의 흐름에 몸을 맡기며 당신만의 유연하고 자유로운 감각을 마음껏 펼치십시오."
+    },
+    {
+      "title": "건축은 결국 사람을 위한 공간이어야 하며, 아름다운 형태 이면에는 가난한 자들의 삶을 더 나은 방향으로 바꾸려는 절실한 연대감이 있어야 합니다.",
+      "content": "아름다움을 추구하는 일련의 모든 행위가 결국은 주변의 이웃과 사회를 향한 따뜻한 관심과 사랑으로 이어지도록 노력하십시오."
+    },
+    {
+      "title": "나이가 들어 몸이 쇠약해진다고 해서 꿈을 꾸는 일마저 멈추어서는 안 되며, 우리는 마지막 호흡이 다하는 순간까지 세상을 향한 호기심을 지녀야 합니다.",
+      "content": "세월의 흐름에 타협하여 삶의 열정을 포기하지 마시고, 날마다 새로운 경이로움을 발견하려는 탐구의 자세를 평생토록 간직하십시오."
+    }
+  ],
+  "persona": "당신은 오스카르 니마이어이다.",
+  "imageUrl": "/images/giants/oscar-niemeyer.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1907~2012)"
+},
+  {
+  "id": "346",
+  "name": "오비디우스",
+  "category": "arts",
+  "headline": "고대 로마 문학의 황금기를 대표하는 천재 시인으로, 사랑과 변신이라는 주제를 탁월한 감각으로 묘사하여 서양 문학사에 막대한 영향을 끼쳤다.",
+  "shortDescription": "오비디우스의 일대기와 지혜",
+  "slug": "ovid",
+  "quote": "시간은 끊임없이 모든 것을 삼켜버리지만, 진실한 영혼에서 우러나온 시와 예술의 생명력만큼은 영원토록 변치 않을 것입니다.",
+  "pain": "생애 절정기에 아우구스투스 황제의 진노를 사 로마에서 가장 멀고 척박한 흑해 연안의 토미스로 영구 추방되는 끔찍한 비극을 맞았다.",
+  "recovery": "혹독한 유배지의 절망 속에서도 결코 문학을 포기하지 않고, 애절한 탄원시들을 쉼 없이 써 내려가며 인간 정신의 불굴의 의지를 증명했다.",
+  "lessons": [
+    {
+      "title": "시간은 끊임없이 모든 것을 삼켜버리지만, 진실한 영혼에서 우러나온 시와 예술의 생명력만큼은 영원토록 변치 않을 것입니다.",
+      "content": "물질적인 풍요나 세속적인 명성은 금세 사라지고 마니, 변하지 않는 영원한 가치와 내면의 고귀한 아름다움을 가꾸는 데 집중하십시오."
+    },
+    {
+      "title": "인간의 마음속 깊은 곳에는 항상 사랑받고 싶어 하는 간절한 욕망이 숨어 있으며, 그 사랑만이 우리의 영혼을 가장 극적으로 변화시킵니다.",
+      "content": "자신의 감정을 억누르거나 부끄러워하지 말고, 타인을 향한 따뜻한 사랑과 공감의 능력을 용기 있게 표현하고 실천하십시오."
+    },
+    {
+      "title": "가혹한 시련이 당신의 육신을 낯선 황무지에 가둘 수는 있어도, 드넓은 우주를 유영하는 상상력의 자유까지 빼앗을 수는 없습니다.",
+      "content": "현실의 벽이 아무리 높고 절망스러울지라도, 내면의 자유로움과 희망을 잃지 않는다면 어떠한 역경도 지혜롭게 이겨낼 수 있습니다."
+    }
+  ],
+  "persona": "당신은 오비디우스이다.",
+  "imageUrl": "/images/giants/ovid.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (43 BC~17)"
+},
+  {
+  "id": "304",
+  "name": "파블로 네루다",
+  "category": "arts",
+  "headline": "낭만적인 사랑의 시부터 민중의 억압을 고발하는 서사시까지 폭넓은 작품 세계를 펼친 칠레의 국민 시인이자 1971년 노벨 문학상 수상자이다.",
+  "shortDescription": "파블로 네루다의 일대기와 지혜",
+  "slug": "pablo-neruda",
+  "quote": "나의 시는 어두운 밤바다를 비추는 등대처럼, 고통받고 소외된 모든 이들의 가슴속에 깃들어 그들의 슬픔을 대신 울어주는 따뜻한 목소리가 되어야 합니다.",
+  "pain": "스페인 내전 중 절친한 친구 로르카의 처참한 죽음을 목격하고, 조국의 우파 독재 정권에 쫓겨 수년간 목숨을 건 망명 생활을 견뎌야 했다.",
+  "recovery": "개인의 낭만적 슬픔을 넘어 억압받는 라틴아메리카 민중 전체의 고통을 껴안으며, '모두를 위한 노래'라는 장엄한 연대와 저항의 대서사시를 탄생시켰다.",
+  "lessons": [
+    {
+      "title": "나의 시는 어두운 밤바다를 비추는 등대처럼, 고통받고 소외된 모든 이들의 가슴속에 깃들어 그들의 슬픔을 대신 울어주는 따뜻한 목소리가 되어야 합니다.",
+      "content": "자신만의 성공과 이익에 갇히지 말고, 약하고 상처받은 이웃들의 아픔에 깊이 공감하며 연대하는 따뜻한 마음을 잃지 마십시오."
+    },
+    {
+      "title": "당신이 세상의 모든 아름다운 꽃들을 잔인하게 꺾어버릴 수는 있겠지만, 거침없이 다가오는 눈부신 봄의 발걸음까지 막아설 수는 없을 것입니다.",
+      "content": "불의한 세력이 일시적으로 진실을 가리고 억압할지라도, 끝내 승리하고 마는 정의와 희망의 위대한 힘을 결코 의심하지 마십시오."
+    },
+    {
+      "title": "사랑은 마치 번개처럼 짧고 강렬하게 우리를 스쳐 지나가지만, 그 뒤에 남겨진 망각의 그림자는 너무나도 길고 고통스러운 흉터로 남습니다.",
+      "content": "우리의 삶을 가장 아름답게 만드는 것은 누군가를 열렬히 사랑하는 순간이니, 매 순간 후회 없이 진실되고 깊은 사랑을 나누십시오."
+    }
+  ],
+  "persona": "당신은 파블로 네루다이다.",
+  "imageUrl": "/images/giants/pablo-neruda.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1904~1973)"
+},
+  {
+  "id": "171",
+  "name": "파블로 피카소",
+  "category": "arts",
+  "headline": "르네상스 이래 서양 미술의 전통적인 공간 개념을 완전히 파괴한 입체주의를 창시하며 20세기 현대 미술의 지형도를 바꾼 천재 예술가이다.",
+  "shortDescription": "파블로 피카소의 일대기와 지혜",
+  "slug": "pablo-picasso",
+  "quote": "모든 아이들은 태어날 때부터 이미 위대한 예술가입니다. 진정한 문제는 어른이 되어가면서 어떻게 그 순수한 내면의 예술가를 잃지 않고 지켜내는가 하는 것입니다.",
+  "pain": "청년 시절 친구의 자살로 인한 끔찍한 우울증과 깊은 빈곤에 시달렸으며, 스페인 내전과 세계대전이라는 거대한 시대의 비극을 온몸으로 겪어내야 했다.",
+  "recovery": "절망의 시간들을 '청색 시대'의 예술로 승화시키고, 전쟁의 참상을 '게르니카'라는 불멸의 고발장으로 그려내며 비극마저도 예술 혁명의 불꽃으로 바꾸어 놓았다.",
+  "lessons": [
+    {
+      "title": "모든 아이들은 태어날 때부터 이미 위대한 예술가입니다. 진정한 문제는 어른이 되어가면서 어떻게 그 순수한 내면의 예술가를 잃지 않고 지켜내는가 하는 것입니다.",
+      "content": "세상의 굳어진 규칙과 편견에 당신의 독창성을 가두지 말고, 어린아이처럼 자유롭고 호기심 가득한 순수한 시선을 평생토록 간직하십시오."
+    },
+    {
+      "title": "새로운 창조라는 위대한 행위는, 언제나 기존의 낡은 것들을 철저하게 부수고 파괴하는 과정으로부터 시작된다는 사실을 명심하십시오.",
+      "content": "익숙하고 편안한 과거의 관습에 안주하지 말고, 때로는 과감하게 기존의 틀을 깨부수는 혁명적인 용기를 내어 새로운 가치를 창출하십시오."
+    },
+    {
+      "title": "나는 결코 무언가를 찾으려 애쓰지 않으며, 오직 내 앞에 주어진 것들을 그저 발견할 뿐입니다. 영감은 언제나 일하는 자에게만 찾아옵니다.",
+      "content": "막연히 완벽한 영감이 떠오르기만을 기다리지 말고, 지금 당장 행동하고 꾸준히 실천하는 과정 속에서 빛나는 깨달음을 얻으십시오."
+    }
+  ],
+  "persona": "당신은 파블로 피카소이다.",
+  "imageUrl": "/images/giants/pablo-picasso.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1881~1973)"
+},
+  {
+  "id": "354",
+  "name": "폴 베를렌",
+  "category": "arts",
+  "headline": "음악성과 우수가 깃든 섬세한 시어를 통해 프랑스 상징주의 문학을 이끈 천재 시인이다.",
+  "shortDescription": "폴 베를렌의 일대기와 지혜",
+  "slug": "paul-verlaine",
+  "quote": "무엇보다도 음악이기를.",
+  "pain": "그는 알코올 중독과 파괴적인 인간관계로 인해 극심한 정서적, 경제적 파탄을 겪었다.",
+  "recovery": "감옥 수감과 깊은 고독 속에서도 자신의 상처를 섬세한 언어로 승화시켜 독창적인 시 세계를 완성했다.",
+  "lessons": [
+    {
+      "title": "무엇보다도 음악이기를.",
+      "content": "예술과 삶에 있어서 운율과 조화가 가장 중요하다는 의미입니다. 여러분의 일상 속에서도 억지스러움보다는 자연스럽게 흐르는 내면의 리듬을 찾아보십시오."
+    },
+    {
+      "title": "눈물이 마음에 내린다, 거리에 비가 내리듯.",
+      "content": "슬픔은 자연의 섭리처럼 피할 수 없이 다가온다는 통찰을 담고 있습니다. 고통스러운 감정을 애써 외면하지 말고 비를 맞듯 담담히 받아들여 보십시오."
+    },
+    {
+      "title": "하늘은 지붕 위로 저토록 푸르고 조용하건만.",
+      "content": "외부의 평화로운 풍경과 대비되는 내면의 번뇌를 일깨워줍니다. 절망의 순간에도 세상을 바라보는 시선을 돌려 잃어버린 평온의 가치를 재발견해 보십시오."
+    }
+  ],
+  "persona": "당신은 폴 베를렌이다.",
+  "imageUrl": "/images/giants/paul-verlaine.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1844~1896)"
+},
+  {
+  "id": "369",
+  "name": "피터르 파울 루벤스",
+  "category": "arts",
+  "headline": "압도적인 생명력과 역동적인 색채로 플랑드르 바로크 미술을 완성한 거장이자 외교관이다.",
+  "shortDescription": "피터르 파울 루벤스의 일대기와 지혜",
+  "slug": "peter-paul-rubens",
+  "quote": "내 열정은 하늘의 뜻에서 비롯된 것이지 세속적인 야망에서 비롯된 것이 아니다.",
+  "pain": "종교적 박해로 인해 아버지를 잃고 타지에서 불안정한 어린 시절을 보냈다.",
+  "recovery": "르네상스 거장들의 기법을 맹렬히 연구하고, 예술과 외교를 넘나드는 탁월한 수완을 발휘하여 유럽 최고의 화가로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "내 열정은 하늘의 뜻에서 비롯된 것이지 세속적인 야망에서 비롯된 것이 아니다.",
+      "content": "진정한 열정은 외부의 보상이 아닌 내면의 깊은 소명에서 우러나온다는 뜻입니다. 자신이 하는 일에서 순수한 목적과 가치를 찾아보십시오."
+    },
+    {
+      "title": "예술은 삶의 역동성과 생명력을 캔버스에 영원히 고정시키는 작업이다.",
+      "content": "순간의 생동감을 포착하고 기록하는 일의 중요성을 강조합니다. 매 순간 살아 숨 쉬는 현재의 아름다움에 집중해 보십시오."
+    },
+    {
+      "title": "평화는 예술이 피어날 수 있는 가장 비옥한 토양이다.",
+      "content": "물리적, 심리적 안정이 창조성의 근원임을 의미합니다. 바쁘고 혼란스러운 일상 속에서도 마음의 평온을 유지하는 시간을 가지십시오."
+    }
+  ],
+  "persona": "당신은 피터르 파울 루벤스이다.",
+  "imageUrl": "/images/giants/peter-paul-rubens.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1577~1640)"
+},
+  {
+  "id": "374",
+  "name": "피에르 오귀스트 르누아르",
+  "category": "arts",
+  "headline": "눈부신 색채와 부드러운 붓터치로 삶의 환희와 일상의 아름다움을 화폭에 담아낸 인상주의의 거장이다.",
+  "shortDescription": "피에르 오귀스트 르누아르의 일대기와 지혜",
+  "slug": "pierre-auguste-renoir",
+  "quote": "고통은 지나가지만, 아름다움은 남는다.",
+  "pain": "가난한 집안에서 태어나 도자기 공방이 문을 닫으며 실직의 아픔을 겪었고, 말년에는 심각한 류머티즘 관절염으로 마비의 고통을 겪었다.",
+  "recovery": "손목에 붓을 묶고 휠체어에 의지하면서도 삶의 환희와 아름다움을 그리는 열정을 끝까지 잃지 않았다.",
+  "lessons": [
+    {
+      "title": "고통은 지나가지만, 아름다움은 남는다.",
+      "content": "육체적, 정신적 시련은 일시적이나 우리가 창조하고 나누는 가치는 영원히 지속된다는 뜻입니다. 지금 겪는 어려움 너머의 긍정적인 결실을 바라보십시오."
+    },
+    {
+      "title": "그림은 벽을 장식하기 위해 있는 것이 아니다. 그것은 즐겁고 아름다운 것이어야 한다.",
+      "content": "예술과 삶이 본질적으로 기쁨을 주어야 한다는 신념입니다. 각박한 현실 속에서도 자신을 미소 짓게 만드는 소박한 행복을 찾으십시오."
+    },
+    {
+      "title": "나는 내 그림을 통해 슬픔을 보여주고 싶지 않다.",
+      "content": "예술의 목적이 세상을 위로하고 따뜻함을 전하는 데 있음을 보여줍니다. 타인에게 부정적인 감정보다는 밝고 긍정적인 에너지를 전달하려고 노력해 보십시오."
+    }
+  ],
+  "persona": "당신은 피에르 오귀스트 르누아르이다.",
+  "imageUrl": "/images/giants/pierre-auguste-renoir.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1841~1919)"
+},
+  {
+  "id": "380",
+  "name": "피트 몬드리안",
+  "category": "arts",
+  "headline": "수직과 수평선, 3원색만으로 순수한 추상 회화의 세계를 창조한 기하학적 추상미술의 선구자이다.",
+  "shortDescription": "피트 몬드리안의 일대기와 지혜",
+  "slug": "piet-mondrian",
+  "quote": "본질적인 것만이 남을 때까지 덜어내라.",
+  "pain": "전쟁의 발발과 거듭된 이주로 인해 안정적인 정착에 어려움을 겪었으며, 자신의 추상 예술이 오랫동안 대중의 몰이해에 부딪혔다.",
+  "recovery": "물질적 세계를 초월한 순수한 조형미를 향한 확고한 신념으로 평생에 걸친 치열한 실험을 거듭하여 현대 추상미술을 완성했다.",
+  "lessons": [
+    {
+      "title": "본질적인 것만이 남을 때까지 덜어내라.",
+      "content": "불필요한 장식이나 표면적인 현상에 얽매이지 않고 사물의 핵심을 파악해야 한다는 뜻입니다. 여러분의 삶에서도 불필요한 것들을 비우고 진정 소중한 것에 집중해 보십시오."
+    },
+    {
+      "title": "예술은 단순히 자연을 묘사하는 것이 아니라 진리를 시각화하는 것이다.",
+      "content": "눈에 보이는 것 너머의 보편적이고 영원한 질서를 추구하라는 가르침입니다. 피상적인 현상보다 내면에 숨겨진 깊은 원리를 탐구해 보십시오."
+    },
+    {
+      "title": "수직과 수평의 조화 속에서 우리는 영원한 평화를 발견한다.",
+      "content": "대립하는 요소들이 균형을 이룰 때 진정한 안정과 아름다움이 찾아온다는 뜻입니다. 삶의 다양한 갈등 속에서도 중심을 잃지 말고 조화를 추구하십시오."
+    }
+  ],
+  "persona": "당신은 피트 몬드리안이다.",
+  "imageUrl": "/images/giants/piet-mondrian.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1872~1944)"
+},
+  {
+  "id": "365",
+  "name": "라파엘로",
+  "category": "arts",
+  "headline": "완벽한 비례와 우아한 형태미로 이탈리아 전성기 르네상스 예술의 궁극적인 조화를 완성한 천재 화가이다.",
+  "shortDescription": "라파엘로의 일대기와 지혜",
+  "slug": "raphael",
+  "quote": "완전함이란 더 이상 더할 것이 없는 상태가 아니라, 더 이상 뺄 것이 없는 상태이다.",
+  "pain": "어린 시절 부모님을 모두 여의고 고아가 되었으며, 37세라는 이른 나이에 열병으로 갑작스러운 죽음을 맞이했다.",
+  "recovery": "천부적인 재능과 온화한 성품으로 르네상스 선배 거장들의 장점을 완벽히 흡수하여 가장 조화롭고 완벽한 르네상스 예술을 창조했다.",
+  "lessons": [
+    {
+      "title": "완전함이란 더 이상 더할 것이 없는 상태가 아니라, 더 이상 뺄 것이 없는 상태이다.",
+      "content": "진정한 아름다움과 조화는 군더더기 없는 완벽한 균형에서 온다는 뜻입니다. 삶의 복잡함을 줄이고 핵심적인 가치에 집중하는 태도를 가져 보십시오."
+    },
+    {
+      "title": "예술가는 자연을 관찰하되, 그것을 자신의 이성으로 다시 재창조해야 한다.",
+      "content": "있는 그대로의 모방을 넘어 지적이고 철학적인 통찰을 통해 새로운 가치를 만들어내야 한다는 뜻입니다. 주어지는 상황을 수동적으로 받아들이지 말고 주도적으로 개선해 보십시오."
+    },
+    {
+      "title": "과거의 위대한 유산을 이해하지 못하는 자는 결코 미래를 창조할 수 없다.",
+      "content": "역사와 전통에 대한 깊은 이해가 혁신적인 창조의 밑거름이 된다는 의미입니다. 앞선 경험과 지식을 겸허히 배우고 이를 바탕으로 새로운 도전을 시작하십시오."
+    }
+  ],
+  "persona": "당신은 라파엘로이다.",
+  "imageUrl": "/images/giants/raphael.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1483~1520)"
+},
+  {
+  "id": "379",
+  "name": "르네 마그리트",
+  "category": "arts",
+  "headline": "일상적인 사물을 기발하고 논리적인 방식으로 병치하여 인간 인식의 한계를 일깨운 초현실주의의 거장입니다.",
+  "shortDescription": "르네 마그리트의 일대기와 지혜",
+  "slug": "rene-magritte",
+  "quote": "눈에 보이는 것은 언제나 다른 무언가를 숨기고 있습니다.",
+  "pain": "어린 시절 어머니의 충격적인 투신자살과, 첫 개인전에서의 참혹한 혹평, 그리고 전쟁이라는 극한의 시련을 겪어야 했습니다.",
+  "recovery": "어머니의 죽음이 남긴 트라우마를 예술적 영감으로 승화시키고, 일상적 사물을 낯설게 배치하는 독창적인 '데페이즈망' 기법을 끊임없이 탐구하여 현대 미술의 새로운 지평을 열었습니다.",
+  "lessons": [
+    {
+      "title": "눈에 보이는 것은 언제나 다른 무언가를 숨기고 있습니다.",
+      "content": "보이는 현상 너머에 존재하는 이면의 진실과 신비를 탐구하는 통찰력을 가지십시오."
+    },
+    {
+      "title": "나의 그림은 아무것도 의미하지 않는 가시적인 이미지입니다. 그것은 단지 신비를 불러일으킬 뿐입니다.",
+      "content": "고정관념에서 벗어나 세상을 향해 열린 마음과 끝없는 호기심을 유지하십시오."
+    },
+    {
+      "title": "이것은 파이프가 아니다.",
+      "content": "우리가 맹신하는 언어와 상식의 한계를 의심하고, 사물의 본질을 꿰뚫어 보는 비판적 사고를 기르십시오."
+    }
+  ],
+  "persona": "당신은 르네 마그리트이다.",
+  "imageUrl": "/images/giants/rene-magritte.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1898~1967)"
+},
+  {
+  "id": "291",
+  "name": "리하르트 바그너",
+  "category": "arts",
+  "headline": "음악, 문학, 연극을 통합한 '종합예술'을 주창하며 19세기 서양 음악사의 패러다임을 바꾼 천재 작곡가입니다.",
+  "shortDescription": "리하르트 바그너의 일대기와 지혜",
+  "slug": "richard-wagner",
+  "quote": "상상력은 진실의 원천이며, 오직 상상력을 통해서만 우리는 가장 높은 진리에 도달할 수 있다.",
+  "pain": "평생을 감당할 수 없는 엄청난 빚에 시달리며 야반도주와 망명 생활을 전전했고, 사회적 스캔들과 끝없는 정치적 박해를 받았습니다.",
+  "recovery": "어떠한 좌절 속에서도 타협하지 않고 불굴의 창작열을 불태우며, 문학과 음악, 무대 예술을 통합한 '종합예술(Gesamtkunstwerk)'이라는 혁명적인 미학을 완성해 냈습니다.",
+  "lessons": [
+    {
+      "title": "상상력은 진실의 원천이며, 오직 상상력을 통해서만 우리는 가장 높은 진리에 도달할 수 있다.",
+      "content": "한계를 규정하지 않는 상상력으로 새로운 미래를 설계하고 창조하십시오."
+    },
+    {
+      "title": "음악은 열정 자체이며, 그것이 불길처럼 타오르지 않는다면 아무 의미가 없다.",
+      "content": "자신이 사랑하는 일에 영혼을 바치는 뜨거운 열정과 집념을 잃지 마십시오."
+    },
+    {
+      "title": "예술작품이란 필연성에 의해 스스로 자라난 생명체와 같다.",
+      "content": "인위적인 기교보다 내면의 필연적이고 진실된 목소리에 귀를 기울이십시오."
+    }
+  ],
+  "persona": "당신은 리하르트 바그너이다.",
+  "imageUrl": "/images/giants/richard-wagner.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1813~1883)"
+},
+  {
+  "id": "405",
+  "name": "로베르트 슈만",
+  "category": "arts",
+  "headline": "문학과 음악을 완벽하게 융합하여 인간 내면의 복잡한 감정을 가장 눈부시게 그려낸 낭만주의의 정수입니다.",
+  "shortDescription": "로베르트 슈만의 일대기와 지혜",
+  "slug": "robert-schumann",
+  "quote": "예술가의 사명은 인간의 어두운 마음속에 빛을 보내는 것이다.",
+  "pain": "손가락 마비로 인한 피아니스트 꿈의 좌절, 평생을 괴롭힌 조울증과 환청, 그리고 스승과의 끔찍한 법정 투쟁을 겪어야 했습니다.",
+  "recovery": "신체적 장애와 지독한 정신적 고통 속에서도 꺾이지 않고 피아노와 펜을 무기 삼아 가장 시적이고 깊이 있는 낭만주의 음악을 창조해 냈습니다.",
+  "lessons": [
+    {
+      "title": "예술가의 사명은 인간의 어두운 마음속에 빛을 보내는 것이다.",
+      "content": "자신의 재능과 능력을 타인의 고통을 치유하고 세상을 밝히는 데 사용하십시오."
+    },
+    {
+      "title": "고통 없이 이루어진 위대한 예술은 없다.",
+      "content": "삶의 시련과 상처를 기피하지 말고 성장을 위한 소중한 밑거름으로 승화시키십시오."
+    },
+    {
+      "title": "법칙을 지키는 것은 좋지만, 맹목적으로 따르지 말고 항상 새로운 것을 추구하라.",
+      "content": "관습과 규범에 얽매이지 않고 항상 창조적이고 혁신적인 사고방식을 추구하십시오."
+    }
+  ],
+  "persona": "당신은 로베르트 슈만이다.",
+  "imageUrl": "/images/giants/robert-schumann.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1810~1856)"
+},
+  {
+  "id": "260",
+  "name": "아쿠타가와 류노스케",
+  "category": "arts",
+  "headline": "예리한 지성과 인공적인 완벽주의 문체로 인간 본성의 추악한 밑바닥을 서늘하게 파헤친 일본 단편 문학의 최고봉입니다.",
+  "shortDescription": "아쿠타가와 류노스케의 일대기와 지혜",
+  "slug": "ryunosuke-akutagawa",
+  "quote": "우리 인생은 한 줄의 보들레르 시보다도 가치가 없다.",
+  "pain": "어머니의 정신 질환이 물려질지도 모른다는 평생의 불안감과 극심한 신경 쇠약, 그리고 시대적 절망이 주는 압박감에 시달렸습니다.",
+  "recovery": "뼈를 깎는 지적 고뇌와 예술적 완벽주의를 통해 자신의 깊은 절망마저 차갑고 아름다운 문장으로 벼려내어 불멸의 단편 소설들을 완성했습니다.",
+  "lessons": [
+    {
+      "title": "우리 인생은 한 줄의 보들레르 시보다도 가치가 없다.",
+      "content": "순수한 예술적 성취가 일상의 그 어떤 세속적 가치보다 위대할 수 있음을 기억하십시오."
+    },
+    {
+      "title": "인간의 마음속에는 서로 모순되는 두 가지 감정이 존재한다. 타인의 불행을 동정하면서도, 그가 불행을 극복하면 왠지 아쉬워하는 마음이다.",
+      "content": "인간 본성 깊은 곳에 자리한 이기적인 모순을 직시하고 뼈아프게 성찰하십시오."
+    },
+    {
+      "title": "미치광이는 언제나 자신을 둘러싼 외부 세계가 미쳤다고 생각한다.",
+      "content": "자신의 편견과 확신에 매몰되지 않도록 끊임없이 스스로의 이성을 의심하고 점검하십시오."
+    }
+  ],
+  "persona": "당신은 아쿠타가와 류노스케이다.",
+  "imageUrl": "/images/giants/ryunosuke-akutagawa.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1892~1927)"
+},
+  {
+  "id": "377",
+  "name": "살바도르 달리",
+  "category": "arts",
+  "headline": "무의식과 꿈의 세계를 가장 정교한 고전주의적 필치로 그려내어 20세기 시각 예술에 거대한 충격을 안긴 천재 예술가입니다.",
+  "shortDescription": "살바도르 달리의 일대기와 지혜",
+  "slug": "salvador-dali",
+  "quote": "나와 미치광이의 유일한 차이점은, 나는 미치지 않았다는 것이다.",
+  "pain": "죽은 형의 환생이라는 강박적 가정환경과 아버지로부터의 절연, 초현실주의 그룹에서의 제명 등 끝없는 정체성 혼란과 사회적 고립을 경험했습니다.",
+  "recovery": "자신의 광기와 과대망상을 숨기지 않고 오히려 '편집광적 비판' 기법이라는 치밀하고 압도적인 예술적 무기로 승화시켜 세계를 정복했습니다.",
+  "lessons": [
+    {
+      "title": "나와 미치광이의 유일한 차이점은, 나는 미치지 않았다는 것이다.",
+      "content": "자신의 독특한 개성과 엉뚱한 상상력을 두려워하지 말고 창조적인 에너지로 당당하게 활용하십시오."
+    },
+    {
+      "title": "실수를 두려워하지 마라. 완벽함이란 결코 도달할 수 없는 것이다.",
+      "content": "실패와 결함에 대한 강박에서 벗어나 과감하고 자유롭게 새로운 도전에 나서십시오."
+    },
+    {
+      "title": "천재를 연기하다 보면, 어느새 진짜 천재가 되어버린다.",
+      "content": "자신이 원하는 위대한 모습이 있다면 끊임없이 그것을 믿고 행동하여 현실로 만들어내십시오."
+    }
+  ],
+  "persona": "당신은 살바도르 달리이다.",
+  "imageUrl": "/images/giants/salvador-dali.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1904~1989)"
+},
+  {
+  "id": "366",
+  "name": "산드로 보티첼리",
+  "category": "arts",
+  "headline": "이탈리아 르네상스를 대표하는 화가로 서정적이고 우아한 신화화를 통해 이상적인 미의 기준을 제시했다.",
+  "shortDescription": "산드로 보티첼리의 일대기와 지혜",
+  "slug": "sandro-botticelli",
+  "quote": "나의 영혼은 아름다움을 갈망하며, 붓을 통해 그 진실을 탐구한다.",
+  "pain": "메디치 가문의 몰락과 급진적인 수사 사보나롤라의 등장으로 피렌체의 예술적 자유가 억압받으면서, 보티첼리는 깊은 종교적 갈등과 창작의 위기에 직면했다. 말년에는 변화하는 예술적 유행 속에서 잊혀지며 가난과 고독 속에 살아야만 했다.",
+  "recovery": "그는 시대의 혼란과 내면의 고뇌를 회피하지 않고 후기 종교화의 강렬하고 표현주의적인 화풍으로 승화시켰다. 훗날 19세기에 이르러서야 그의 독창적인 미학과 선의 아름다움은 재평가되어 미술사에서 가장 위대한 화가 중 한 명으로 영원한 생명력을 얻게 되었다.",
+  "lessons": [
+    {
+      "title": "나의 영혼은 아름다움을 갈망하며, 붓을 통해 그 진실을 탐구한다.",
+      "content": "내면의 아름다움을 잃지 말고 자신이 믿는 가치를 끝까지 탐구하십시오."
+    },
+    {
+      "title": "완벽한 형태는 이성의 계산이 아닌, 영혼의 떨림에서 나온다.",
+      "content": "차세운 논리와 계산보다 감정과 영혼을 담아내는 진정성에 집중하십시오."
+    },
+    {
+      "title": "바람에 흩날리는 옷깃 속에도 삶의 율동과 생명력이 숨 쉬고 있다.",
+      "content": "일상의 작은 디테일 속에서도 깊은 생명력과 의미를 발견하십시오."
+    }
+  ],
+  "persona": "당신은 산드로 보티첼리이다.",
+  "imageUrl": "/images/giants/sandro-botticelli.jpg",
+  "dnaCode": "LRHI",
+  "era": "15세기의 거인 (1445~1510)"
+},
+  {
+  "id": "42",
+  "name": "사로지니 나이두",
+  "category": "arts",
+  "headline": "'인도의 나이팅게일'로 불린 뛰어난 시인이자, 인도 독립과 여성 인권을 위해 평생을 바친 위대한 정치 지도자이다.",
+  "shortDescription": "사로지니 나이두의 일대기와 지혜",
+  "slug": "sarojini-naidu",
+  "quote": "한 번 꺾인 날개라도 언젠가 다시 날아오를 힘을 품고 있다.",
+  "pain": "영국의 식민 지배 하에서 수차례 투옥되는 혹독한 탄압을 겪었으며, 힌두교와 이슬람교 간의 깊은 종교적 갈등으로 인해 수많은 정치적 위기에 직면했다.",
+  "recovery": "비폭력 저항과 불굴의 의지로 옥중 생활을 견뎌냈으며, 뛰어난 연설과 시적인 언어로 대중의 마음을 움직여 종교와 계급의 장벽을 넘어선 민족의 통합을 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "한 번 꺾인 날개라도 언젠가 다시 날아오를 힘을 품고 있다.",
+      "content": "시련과 좌절 앞에서도 희망을 잃지 말고 내면의 잠재력을 굳게 믿으십시오."
+    },
+    {
+      "title": "진정한 해방은 두려움을 정복하는 데서 시작된다.",
+      "content": "불의와 억압에 맞서기 위해 먼저 내면의 두려움을 극복하고 용기를 내십시오."
+    },
+    {
+      "title": "노래하는 새는 슬픔의 계절에도 결코 침묵하지 않는다.",
+      "content": "어려운 시기일수록 당신의 목소리를 높여 세상에 선한 영향력을 전하십시오."
+    }
+  ],
+  "persona": "당신은 사로지니 나이두이다.",
+  "imageUrl": "/images/giants/sarojini-naidu.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1879~1949)"
+},
+  {
+  "id": "22",
+  "name": "세이 쇼나곤",
+  "category": "arts",
+  "headline": "일본 헤이안 시대를 대표하는 천재적인 궁정 여관으로, 뛰어난 지성과 감각으로 수필 문학의 지평을 열었다.",
+  "shortDescription": "세이 쇼나곤의 일대기와 지혜",
+  "slug": "sei-shonagon",
+  "quote": "봄은 새벽이, 가을은 해 질 녘이 가장 아름다운 법이다.",
+  "pain": "자신을 굳게 믿어주었던 테이시 황후가 잔혹한 권력 투쟁 속에서 비극적으로 사망하자, 그녀는 모든 명예를 잃고 궁정에서 쫓겨나는 슬픔을 겪었다.",
+  "recovery": "가장 고통스러운 상실의 순간에 붓을 들어 과거의 찬란했던 순간들을 기록함으로써, 정치적 패배를 문학적 불멸로 승화시켜 수필 문학의 금자탑을 세웠다.",
+  "lessons": [
+    {
+      "title": "봄은 새벽이, 가을은 해 질 녘이 가장 아름다운 법이다.",
+      "content": "계절과 일상이 지닌 미세한 변화를 감각적으로 포착하여 매 순간의 아름다움을 즐기십시오."
+    },
+    {
+      "title": "슬프고 우울할 때는 좋은 종이에 글을 쓰는 것만으로도 위안이 된다.",
+      "content": "마음이 어지러울 때는 기록하고 표현하는 과정을 통해 내면의 평화를 되찾으십시오."
+    },
+    {
+      "title": "아름다운 추억은 세월이 흐를수록 더욱 빛나는 보석이 된다.",
+      "content": "어려운 시련이 닥치더라도 당신이 겪은 아름다운 순간들의 가치를 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 세이 쇼나곤이다.",
+  "imageUrl": "/images/giants/sei-shonagon.jpg",
+  "dnaCode": "LRHI",
+  "era": "10세기의 거인 (966~1025)"
+},
+  {
+  "id": "25",
+  "name": "센 노 리큐",
+  "category": "arts",
+  "headline": "소박함 속에서 궁극의 미를 발견하는 '와비차'를 완성하여 일본 다도와 미학의 기초를 확립한 최고의 다인이다.",
+  "shortDescription": "센 노 리큐의 일대기와 지혜",
+  "slug": "sen-no-rikyu",
+  "quote": "다도는 단지 물을 끓여 차를 타서 마시는 것일 뿐, 그 이상의 아무것도 아니다.",
+  "pain": "자신의 철학을 굽히지 않고 극단적인 소박함을 추구하던 중, 화려함과 권력을 과시하려던 최고 권력자 도요토미 히데요시와 미학적, 정치적으로 정면 충돌하게 되었다.",
+  "recovery": "죽음을 강요받는 순간에도 마지막 다회를 열어 평정심을 유지했으며, 죽음으로 자신의 철학을 지켜냄으로써 일본 미학의 영원한 전설이 되었다.",
+  "lessons": [
+    {
+      "title": "다도는 단지 물을 끓여 차를 타서 마시는 것일 뿐, 그 이상의 아무것도 아니다.",
+      "content": "복잡하고 화려한 겉치레를 버리고 삶의 가장 본질적이고 단순한 행위에 집중하십시오."
+    },
+    {
+      "title": "꽃은 들판에 피어 있는 것처럼 자연스럽게 꽂아야 한다.",
+      "content": "억지로 꾸미거나 과장하지 말고 본래 가진 자연스러운 아름다움을 있는 그대로 존중하십시오."
+    },
+    {
+      "title": "일기일회(一期一会), 이 시간과 만남은 평생에 단 한 번뿐임을 기억하라.",
+      "content": "지금 당신 앞의 사람과 나누는 이 순간을 가장 소중하고 진지하게 대하십시오."
+    }
+  ],
+  "persona": "당신은 센 노 리큐이다.",
+  "imageUrl": "/images/giants/sen-no-rikyu.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1522~1591)"
+},
+  {
+  "id": "1",
+  "name": "신사임당",
+  "category": "arts",
+  "headline": "조선 중기를 대표하는 천재적인 화가이자, 시와 글씨에 두루 능했던 탁월한 예술가이다.",
+  "shortDescription": "신사임당의 일대기와 지혜",
+  "slug": "shin-saimdang",
+  "quote": "늙으신 어머님을 고향에 두고, 홀로 서울로 가는 이 마음 한없이 슬프구나.",
+  "pain": "가부장적인 조선 시대의 억압적인 사회 분위기 속에서 학문에 뜻이 없고 무능력한 남편으로 인해 경제적, 정신적인 깊은 고통과 시련을 겪었다.",
+  "recovery": "가정의 굳건한 기둥으로서 자녀들을 훌륭하게 키워내는 동시에, 삶의 고뇌를 자연의 생명력을 담은 '초충도' 등 뛰어난 예술 작품으로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "늙으신 어머님을 고향에 두고, 홀로 서울로 가는 이 마음 한없이 슬프구나.",
+      "content": "가족을 향한 따뜻한 사랑과 효심을 잊지 말고 소중한 인연들을 깊이 간직하십시오."
+    },
+    {
+      "title": "스스로 엄격하게 다스리고 끊임없이 학문에 정진해야만 뜻을 이룰 수 있다.",
+      "content": "어려운 환경 탓을 하기보다 스스로를 단련하고 배움을 향한 열정을 놓지 마십시오."
+    },
+    {
+      "title": "작은 풀벌레 하나에도 하늘의 이치와 생명의 경이로움이 깃들어 있다.",
+      "content": "자연의 작고 보잘것없어 보이는 것들 속에서도 생명의 소중함과 아름다움을 발견하십시오."
+    }
+  ],
+  "persona": "당신은 신사임당이다.",
+  "imageUrl": "/images/giants/shin-saimdang.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1504~1551)"
+},
+  {
+  "id": "14",
+  "name": "솔거",
+  "category": "arts",
+  "headline": "신라 시대 최고의 화가로, 새가 날아들 정도로 사실적인 황룡사 벽화인 노송도를 그린 전설적 인물이다.",
+  "shortDescription": "솔거의 일대기와 지혜",
+  "slug": "solgeo",
+  "quote": "새조차 속인 생명력은 대상에 대한 완벽한 몰입에서 나온다.",
+  "pain": "솔거는 평범한 농가에서 태어나 정식으로 미술 교육을 받거나 좋은 화구를 구할 수 없는 척박한 환경에 처해 있었다.",
+  "recovery": "그는 주변의 자연물을 화구로 삼고 끊임없이 끈질긴 관찰과 연습을 거듭하여 스스로 천재적인 화법을 개척해 냈다.",
+  "lessons": [
+    {
+      "title": "새조차 속인 생명력은 대상에 대한 완벽한 몰입에서 나온다.",
+      "content": "어떤 일을 하든 피상적인 접근을 넘어 본질에 깊이 몰입하십시오. 진정한 생명력과 감동은 대상과 내가 하나가 될 때 비로소 탄생합니다."
+    },
+    {
+      "title": "최고의 도구는 내 손안에 있는 작은 나뭇가지일 수 있다.",
+      "content": "환경이나 도구의 부족함을 핑계 삼지 마십시오. 강렬한 열정과 꾸준한 실천만 있다면 가장 초라한 도구로도 가장 위대한 작품을 남길 수 있습니다."
+    },
+    {
+      "title": "어설픈 덧칠이 본래의 기운을 잃게 한다.",
+      "content": "무엇인가를 보완하려 할 때 그것의 본질을 훼손하지 않도록 주의하십시오. 때로는 인위적인 수정보다 있는 그대로의 가치를 보존하는 것이 더 중요합니다."
+    }
+  ],
+  "persona": "당신은 솔거이다.",
+  "imageUrl": "/images/giants/solgeo.jpg",
+  "dnaCode": "LRHI",
+  "era": "6세기의 거인 (550~620)"
+},
+  {
+  "id": "422",
+  "name": "스탠리 큐브릭",
+  "category": "arts",
+  "headline": "독창적인 시각 언어와 타협 없는 완벽주의로 영화 예술의 경지를 한 차원 끌어올린 천재 감독이다.",
+  "shortDescription": "스탠리 큐브릭의 일대기와 지혜",
+  "slug": "stanley-kubrick",
+  "quote": "만약 무언가를 쓸 수 있고, 생각할 수 있다면, 그것은 영화로 만들어질 수 있다.",
+  "pain": "할리우드의 거대 스튜디오 시스템 안에서 상업적인 타협을 강요받으며 창작의 자유가 억압되는 심각한 갈등과 마찰을 겪었다.",
+  "recovery": "영국으로 이주하여 외부의 간섭을 철저히 배제한 자신만의 독립적인 영화 제작 환경을 구축하였고, 철저한 사전 조사와 기술적 혁신으로 작품에 대한 완벽한 통제력을 확보했다.",
+  "lessons": [
+    {
+      "title": "만약 무언가를 쓸 수 있고, 생각할 수 있다면, 그것은 영화로 만들어질 수 있다.",
+      "content": "상상력에는 한계가 없음을 기억하십시오. 머릿속의 아이디어를 현실로 구현하는 데 두려움을 갖지 말고 과감히 도전하시기 바랍니다."
+    },
+    {
+      "title": "나는 언제나 실수를 두려워하지 않는 사람을 존경한다.",
+      "content": "창작의 과정에서 발생하는 시행착오를 기꺼이 수용하십시오. 진정한 완벽에 도달하기 위해서는 실패를 밑거름으로 삼는 용기가 필요합니다."
+    },
+    {
+      "title": "진실은 보통 표면적으로 단순히 들리는 것보다 훨씬 복잡하다.",
+      "content": "눈에 보이는 단순한 사실 너머의 깊은 의미를 탐구하십시오. 삶과 세상의 복잡성을 이해하고 그것을 자신만의 시각으로 담아내시길 바랍니다."
+    }
+  ],
+  "persona": "당신은 스탠리 큐브릭이다.",
+  "imageUrl": "/images/giants/stanley-kubrick.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1928~1999)"
+},
+  {
+  "id": "33",
+  "name": "소식 (소동파)",
+  "category": "arts",
+  "headline": "시련 속에서도 낙관적인 태도로 붓을 들어 동아시아 문학사의 정점을 찍은 북송 시대 최고의 천재 문장가이다.",
+  "shortDescription": "소식 (소동파)의 일대기와 지혜",
+  "slug": "su-shi",
+  "quote": "여산의 진면목을 알지 못하는 것은, 다만 내 몸이 이 산속에 있기 때문이라네.",
+  "pain": "신법당과의 끈질긴 정치적 대립과 '오대시안' 사건으로 인해 수차례 좌천되고 사형 위기까지 몰렸으며, 평생을 변방의 척박한 유배지에서 보내야 했다.",
+  "recovery": "정치적 권력을 잃은 극한의 고난 속에서도 특유의 낙관주의와 자연 친화적인 태도로 내면을 성찰하며, 오히려 자신의 문학과 예술을 세계 최고 수준으로 끌어올렸다.",
+  "lessons": [
+    {
+      "title": "여산의 진면목을 알지 못하는 것은, 다만 내 몸이 이 산속에 있기 때문이라네.",
+      "content": "전체적인 그림을 보려면 때로는 한 걸음 물러서야 함을 기억하십시오. 객관적인 시각을 잃지 않을 때 비로소 사물의 본질을 꿰뚫어 볼 수 있습니다."
+    },
+    {
+      "title": "사람에게는 슬픔과 기쁨, 만남과 헤어짐이 있고, 달에는 밝음과 어두움, 차오름과 이지러짐이 있으니, 이는 옛날부터 완전하기 어려운 일입니다.",
+      "content": "세상만사가 항상 완벽할 수는 없음을 담담히 받아들이십시오. 시련과 결핍조차도 자연스러운 삶의 일부분임을 인정할 때 마음의 평안을 얻을 수 있습니다."
+    },
+    {
+      "title": "인생이란 눈밭을 밟고 날아간 기러기의 발자취와 같아서, 우연히 흙먼지 위에 발자국을 남길 뿐입니다.",
+      "content": "우리의 삶이 덧없고 짧은 순간임을 깨닫고 매 순간을 소중히 여기십시오. 세속적인 욕망과 집착에서 벗어나 진정으로 의미 있는 일에 집중하는 삶을 살아가십시오."
+    }
+  ],
+  "persona": "당신은 소식 (소동파)이다.",
+  "imageUrl": "/images/giants/su-shi.jpg",
+  "dnaCode": "LRHI",
+  "era": "11세기의 거인 (1037~1101)"
+},
+  {
+  "id": "360",
+  "name": "T. S. 엘리엇",
+  "category": "arts",
+  "headline": "20세기 모더니즘 문학을 완성하고 현대인의 황량한 내면을 시적 언어로 정립한 위대한 문인이다.",
+  "shortDescription": "T. S. 엘리엇의 일대기와 지혜",
+  "slug": "t-s-eliot",
+  "quote": "4월은 가장 잔인한 달, 죽은 땅에서 라일락을 키워내며 추억과 욕정을 뒤섞고 잠든 뿌리를 봄비로 깨운다.",
+  "pain": "첫 번째 아내와의 불행한 결혼 생활과 심각한 경제적 압박은 그에게 극심한 신경 쇠약을 안겨주었다. 낮에는 은행원으로 일하고 밤에는 시를 쓰는 고단한 이중 생활 속에서 정신적, 육체적 한계에 부딪혔다.",
+  "recovery": "스위스 요양 중 무너지는 내면의 고통을 예술로 승화시켜 20세기 최고의 걸작 '황무지'를 완성했다. 이후 영국 성공회에 귀의하여 종교적 성찰을 통해 개인적 절망을 극복하고 영적 구원을 얻었다.",
+  "lessons": [
+    {
+      "title": "4월은 가장 잔인한 달, 죽은 땅에서 라일락을 키워내며 추억과 욕정을 뒤섞고 잠든 뿌리를 봄비로 깨운다.",
+      "content": "익숙한 안온함에 머물지 말고, 새로운 생명을 잉태하기 위한 고통스러운 변화의 과정을 기꺼이 감내하십시오."
+    },
+    {
+      "title": "나의 시작에 나의 끝이 있고, 나의 끝에 나의 시작이 있다.",
+      "content": "인생의 모든 경험은 유기적으로 연결되어 있으므로, 하나의 끝남을 좌절로 여기지 말고 새로운 도약의 출발점으로 삼으십시오."
+    },
+    {
+      "title": "우리가 탐험을 멈추지 않아야 할 이유는, 결국 우리가 출발했던 곳으로 되돌아와 그곳을 처음으로 진정 이해하기 위함이다.",
+      "content": "끊임없이 도전하고 경험을 쌓아나가며, 그 과정을 통해 스스로의 근원과 진정한 자아를 깊이 통찰하십시오."
+    }
+  ],
+  "persona": "당신은 T. S. 엘리엇이다.",
+  "imageUrl": "/images/giants/t-s-eliot.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1888~1965)"
+},
+  {
+  "id": "356",
+  "name": "토머스 하디",
+  "category": "arts",
+  "headline": "빅토리아 시대의 사회적 인습을 비판하고 인간의 비극적 운명을 깊이 있게 탐구한 영국 문학의 거장이다.",
+  "shortDescription": "토머스 하디의 일대기와 지혜",
+  "slug": "thomas-hardy",
+  "quote": "시간은 모든 것을 치유하는 것이 아니라, 단지 그것을 흐릿하게 만들 뿐이다.",
+  "pain": "당대 빅토리아 시대의 엄격한 도덕주의에 맞서 비극적 현실을 고발한 소설들이 대중과 평단의 거센 비난과 검열을 받았다.",
+  "recovery": "비난에 굴하지 않고 소설 절필 후 진정으로 사랑했던 시 창작에 전념하여 방대한 시적 성취를 이루며 최고의 거장으로 존경받게 되었다.",
+  "lessons": [
+    {
+      "title": "시간은 모든 것을 치유하는 것이 아니라, 단지 그것을 흐릿하게 만들 뿐이다.",
+      "content": "고통스러운 상처를 억지로 잊으려 하기보다는, 시간이 흐르며 그 무게가 어떻게 변화하는지 조용히 관찰해 보십시오."
+    },
+    {
+      "title": "어떤 사람들은 자신의 운명을 탓하며 삶을 허비하지만, 가장 현명한 이들은 그 운명 속에서도 의미를 찾는다.",
+      "content": "주어진 환경이나 비극적인 운명에 굴복하지 말고, 그 안에서 당신만의 고귀한 가치와 의미를 발견하십시오."
+    },
+    {
+      "title": "기다릴 줄 아는 자에게 모든 것은 결국 제자리를 찾아가는 법이다.",
+      "content": "조급함을 버리고 자연의 순리와 시간의 힘을 신뢰하며, 당신의 삶이 올바른 방향으로 나아갈 때까지 묵묵히 인내하십시오."
+    }
+  ],
+  "persona": "당신은 토머스 하디이다.",
+  "imageUrl": "/images/giants/thomas-hardy.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1840~1928)"
+},
+  {
+  "id": "306",
+  "name": "토니 모리슨",
+  "category": "arts",
+  "headline": "아프리카계 미국인의 삶과 역사를 깊이 있게 탐구한 노벨 문학상 수상 소설가다.",
+  "shortDescription": "토니 모리슨의 일대기와 지혜",
+  "slug": "toni-morrison",
+  "quote": "당신이 읽고 싶은 책이 있는데 아직 쓰이지 않았다면, 당신이 직접 그 책을 써야 한다.",
+  "pain": "흑인 여성으로서 문단과 사회에서 마주한 이중적인 차별과 편견을 견뎌내며 주류 문학계의 보이지 않는 장벽에 맞서야 했다.",
+  "recovery": "백인 중심의 서사를 거부하고 아프리카계 미국인들의 고유한 목소리와 문화를 문학적으로 승화시켜 자신만의 독창적인 예술 세계를 구축했다.",
+  "lessons": [
+    {
+      "title": "당신이 읽고 싶은 책이 있는데 아직 쓰이지 않았다면, 당신이 직접 그 책을 써야 한다.",
+      "content": "스스로의 목소리를 내고 주도적으로 창작에 임하여 세상에 필요한 가치를 직접 만들어 가십시오."
+    },
+    {
+      "title": "자유란 단순히 자신의 굴레를 벗어던지는 것이 아니라, 다른 이의 자유를 존중하고 향상시키는 방식으로 살아가는 것이다.",
+      "content": "진정한 자유는 개인의 해방에 그치지 않고 타인의 삶에도 긍정적인 영향을 미치는 과정임을 잊지 마십시오."
+    },
+    {
+      "title": "분노는 그저 정보를 줄 뿐이지 훌륭한 길잡이가 되지는 못한다.",
+      "content": "부정적인 감정에 휘둘리지 말고 이를 이성적인 판단과 건설적인 행동을 위한 밑거름으로 활용하십시오."
+    }
+  ],
+  "persona": "당신은 토니 모리슨이다.",
+  "imageUrl": "/images/giants/toni-morrison.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1931~2019)"
+},
+  {
+  "id": "359",
+  "name": "윌리엄 버틀러 예이츠",
+  "category": "arts",
+  "headline": "아일랜드 문예 부흥 운동을 이끌며 20세기 영미 문학의 최고봉에 오른 노벨 문학상 수상 시인이다.",
+  "shortDescription": "윌리엄 버틀러 예이츠의 일대기와 지혜",
+  "slug": "w-b-yeats",
+  "quote": "교육은 양동이를 채우는 것이 아니라 불을 지피는 것이다.",
+  "pain": "영국의 정치적, 문화적 지배 아래서 아일랜드 고유의 정체성이 소멸해 가는 위기를 마주했으며, 모드 곤을 향한 이룰 수 없는 사랑으로 개인적인 고통을 겪었다.",
+  "recovery": "아일랜드 민족의 신화와 전설을 시적 언어로 부활시키고 국립극장을 설립하여 조국의 문화적 독립을 이뤄냈으며, 개인의 비애를 숭고한 예술로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "교육은 양동이를 채우는 것이 아니라 불을 지피는 것이다.",
+      "content": "지식을 단순히 주입하는 것에 그치지 않고, 내면의 열정과 호기심을 일깨워 스스로 성장할 수 있도록 이끄십시오."
+    },
+    {
+      "title": "세상이 아무리 무너져 내려도, 우리는 우리의 일로 돌아가야 무언가를 이룰 수 있다.",
+      "content": "어떠한 외부의 혼란과 시련 속에서도 자신이 부여받은 소명과 역할에 흔들림 없이 집중하십시오."
+    },
+    {
+      "title": "행복은 슬픔을 부정하는 것이 아니라, 슬픔을 마주하고 그것을 넘어서는 과정에 있다.",
+      "content": "삶의 비극적인 요소들을 회피하지 말고, 이를 수용하고 극복하는 과정에서 진정한 의미와 평온을 찾으십시오."
+    }
+  ],
+  "persona": "당신은 윌리엄 버틀러 예이츠이다.",
+  "imageUrl": "/images/giants/w-b-yeats.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1865~1939)"
+},
+  {
+  "id": "395",
+  "name": "발터 그로피우스",
+  "category": "arts",
+  "headline": "바우하우스를 창립하여 20세기 현대 건축과 디자인의 새로운 패러다임을 확립한 혁신적인 건축가다.",
+  "shortDescription": "발터 그로피우스의 일대기와 지혜",
+  "slug": "walter-gropius",
+  "quote": "마음은 낙하산과 같다. 활짝 펼쳐졌을 때만 제 기능을 발휘한다.",
+  "pain": "보수적인 정치 세력의 탄압과 나치 정권의 억압으로 인해 자신이 세운 학교와 고국을 떠나야 하는 정치적, 현실적 위기에 직면했다.",
+  "recovery": "미국으로 망명하여 교육자로서 새로운 후학을 양성하고 팀워크 중심의 건축 공동체를 설립하여 모더니즘 디자인의 세계적인 확산을 이루어냈다.",
+  "lessons": [
+    {
+      "title": "마음은 낙하산과 같다. 활짝 펼쳐졌을 때만 제 기능을 발휘한다.",
+      "content": "열린 마음과 유연한 사고를 가질 때 비로소 진정한 창의성과 잠재력을 발휘할 수 있음을 기억하십시오."
+    },
+    {
+      "title": "건축은 생명을 구속하는 것이 아니라 자유롭게 하는 것이다.",
+      "content": "모든 창조적 행위는 사람들의 삶을 억압하는 것이 아니라 더욱 편안하고 자유롭게 만드는 데 기여해야 합니다."
+    },
+    {
+      "title": "아름다움과 실용성은 서로 배타적인 것이 아니라 하나로 통합되어야 한다.",
+      "content": "기능적인 유용성과 심미적인 아름다움 사이에서 균형을 찾아 일상에 조화로운 가치를 선사하십시오."
+    }
+  ],
+  "persona": "당신은 발터 그로피우스이다.",
+  "imageUrl": "/images/giants/walter-gropius.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1883~1969)"
+},
+  {
+  "id": "362",
+  "name": "윌리엄 포크너",
+  "category": "arts",
+  "headline": "의식의 흐름 기법과 가상의 카운티를 통해 미국 남부의 비극을 탁월하게 그려낸 노벨 문학상 수상 작가다.",
+  "shortDescription": "윌리엄 포크너의 일대기와 지혜",
+  "slug": "william-faulkner",
+  "quote": "인간은 단지 견뎌내는 존재가 아니라, 승리하는 존재다.",
+  "pain": "문학적 재능에도 불구하고 난해한 스타일 때문에 오랫동안 대중의 외면과 경제적 빈곤에 시달려야 했다.",
+  "recovery": "타협하지 않고 고향의 역사를 바탕으로 한 독창적인 서사 기법을 고집하여 끝내 문학적 성취를 인정받고 노벨 문학상을 수상했다.",
+  "lessons": [
+    {
+      "title": "인간은 단지 견뎌내는 존재가 아니라, 승리하는 존재다.",
+      "content": "어떠한 시련 속에서도 결코 희망을 잃지 말고, 인간의 불굴의 의지와 고귀한 영혼을 믿으십시오."
+    },
+    {
+      "title": "자신의 한계를 두려워하지 말고 늘 그 이상을 꿈꿔라.",
+      "content": "현재의 성취에 안주하지 말고, 항상 자신이 할 수 있다고 생각하는 것보다 더 높은 목표를 향해 도전하십시오."
+    },
+    {
+      "title": "과거는 죽지 않았다. 심지어 아직 지나가지도 않았다.",
+      "content": "지나간 역사가 현재의 삶에 미치는 깊은 영향을 이해하고, 이를 바탕으로 더 나은 미래를 설계하십시오."
+    }
+  ],
+  "persona": "당신은 윌리엄 포크너이다.",
+  "imageUrl": "/images/giants/william-faulkner.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1897~1962)"
+},
+  {
+  "id": "435",
+  "name": "양귀비",
+  "category": "arts",
+  "headline": "뛰어난 미모와 예술적 재능으로 당나라 현종의 총애를 받으며 한 시대를 풍미한 역사적 인물이다.",
+  "shortDescription": "양귀비의 일대기와 지혜",
+  "slug": "yang-guifei",
+  "quote": "가장 화려한 꽃이 가장 먼저 시드는 법이다.",
+  "pain": "황실의 치열한 권력 암투와 외척 세력의 부패 속에서 백성들의 원성을 한 몸에 받아야 하는 정치적 희생양의 위기에 처했다.",
+  "recovery": "뛰어난 예술적 감각으로 황제의 마음을 사로잡고 한 시대의 문화를 꽃피웠으나, 결국 거대한 역사의 소용돌이 속에서 비극적인 죽음을 맞이했다.",
+  "lessons": [
+    {
+      "title": "가장 화려한 꽃이 가장 먼저 시드는 법이다.",
+      "content": "외적인 영광이나 권력에 취하기보다는 내면의 가치를 가꾸고 겸손한 태도를 잃지 마십시오."
+    },
+    {
+      "title": "지나친 욕망은 스스로를 태우는 불길이 된다.",
+      "content": "자신에게 주어진 권력을 사사로이 남용하지 말고 주변의 목소리에 귀를 기울여 스스로를 경계하십시오."
+    },
+    {
+      "title": "아름다움은 영원하지 않으나, 역사에 남은 이야기는 불멸한다.",
+      "content": "일시적인 쾌락과 영달을 좇기보다 후대에 귀감이 될 수 있는 올바른 선택과 책임을 다하십시오."
+    }
+  ],
+  "persona": "당신은 양귀비이다.",
+  "imageUrl": "/images/giants/yang-guifei.jpg",
+  "dnaCode": "LRHI",
+  "era": "8세기의 거인 (719~756)"
+},
+  {
+  "id": "20",
+  "name": "이상",
+  "category": "arts",
+  "headline": "일제강점기의 억압된 현실 속에서 초현실주의와 아방가르드 문학을 개척한 한국 현대문학의 천재 작가다.",
+  "shortDescription": "이상의 일대기와 지혜",
+  "slug": "yi-sang",
+  "quote": "박제가 되어버린 천재를 아시오? 나는 유쾌하오.",
+  "pain": "식민지 지식인으로서의 억압된 현실과 극심한 폐결핵이라는 육체적 질병이 그를 끊임없이 괴롭혔다.",
+  "recovery": "그는 질병과 억압된 현실 속에서도 절망에 굴복하지 않고, 오히려 그것을 초현실주의적 문학과 실험적인 예술의 자양분으로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "박제가 되어버린 천재를 아시오? 나는 유쾌하오.",
+      "content": "자신을 억압하는 현실을 역설적으로 수용하며 내면의 자유를 찾으라는 의미입니다. 비극적인 상황 속에서도 자기 자신만의 유쾌함과 독창성을 잃지 마십시오."
+    },
+    {
+      "title": "나는 거울 없는 실내에 있다.",
+      "content": "자아의 분열과 상실을 마주하라는 의미입니다. 타인의 시선이나 세상의 기준이라는 거울을 치워버리고 진정한 자신의 내면을 깊이 들여다보십시오."
+    },
+    {
+      "title": "한 번만 더 날아보자꾸나.",
+      "content": "모든 것을 포기하고 싶은 순간에도 다시 한 번 비상하려는 의지를 가지라는 뜻입니다. 좌절의 끝에서도 당신만의 날개를 펴고 도약하십시오."
+    }
+  ],
+  "persona": "당신은 이상이다.",
+  "imageUrl": "/images/giants/yi-sang.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1910~1937)"
+},
+  {
+  "id": "262",
+  "name": "미시마 유키오",
+  "category": "arts",
+  "headline": "파괴적인 탐미주의와 극단적인 행동주의로 20세기 일본 문학사에 가장 충격적인 궤적을 남긴 천재 작가다.",
+  "shortDescription": "미시마 유키오의 일대기와 지혜",
+  "slug": "yukio-mishima",
+  "quote": "인생은 견디기 힘들 만큼 길고, 영광은 믿기 어려울 만큼 짧다.",
+  "pain": "유년 시절의 병적인 과보호와 허약한 육체에 대한 콤플렉스는 그의 내면에 깊은 실존적 불안과 뒤틀린 미적 욕망을 남겼다.",
+  "recovery": "그는 문학적 재능을 통해 전후 일본 사회의 억압된 내면을 해부하는 한편, 혹독한 신체 단련으로 육체적 한계를 극복하며 자신만의 기괴하고 파괴적인 탐미주의를 완성했다.",
+  "lessons": [
+    {
+      "title": "인생은 견디기 힘들 만큼 길고, 영광은 믿기 어려울 만큼 짧다.",
+      "content": "짧은 영광일지라도 그것을 위해 치열하게 살아가라는 의미입니다. 무의미한 장수에 집착하기보다 순간의 가장 강렬한 빛을 향해 몸을 던지십시오."
+    },
+    {
+      "title": "인간의 가장 큰 죄악은 자각 없는 상태이다.",
+      "content": "자신의 욕망과 실존에 대해 끊임없이 묻고 깨어 있으라는 뜻입니다. 사회의 거짓된 평온함에 속지 말고 당신 내면의 진실을 날카롭게 직시하십시오."
+    },
+    {
+      "title": "정신은 육체를 갉아먹는 병이다.",
+      "content": "지나친 관념과 생각에 빠져 실천을 잃어버리는 것을 경계하라는 의미입니다. 머릿속의 몽상에서 벗어나 강인한 육체와 행동으로 당신의 삶을 증명하십시오."
+    }
+  ],
+  "persona": "당신은 미시마 유키오이다.",
+  "imageUrl": "/images/giants/yukio-mishima.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1925~1970)"
+},
+  {
+  "id": "398",
+  "name": "자하 하디드",
+  "category": "arts",
+  "headline": "건축의 기존 문법을 해체하고 파격적인 곡선과 비정형의 공간을 창조한 21세기 최고의 해체주의 건축가다.",
+  "shortDescription": "자하 하디드의 일대기와 지혜",
+  "slug": "zaha-hadid",
+  "quote": "타협하지 마라, 타협하는 순간 당신의 상상력은 평범함에 갇힌다.",
+  "pain": "비현실적인 디자인이라는 비판과 함께 아랍계 여성이라는 편견 어린 시선이 오랫동안 그녀를 '종이 위의 건축가'로 머물게 했다.",
+  "recovery": "그녀는 타협하지 않는 끈기와 끊임없는 드로잉 실험을 통해 건축 기술의 한계를 돌파하며 자신의 비정형 설계도를 기어코 현실의 경이로운 공간으로 구현해냈다.",
+  "lessons": [
+    {
+      "title": "타협하지 마라, 타협하는 순간 당신의 상상력은 평범함에 갇힌다.",
+      "content": "세상의 기준에 억지로 맞추려 하지 말고 당신만의 독창성을 끝까지 밀어붙이라는 의미입니다. 비판과 장벽 앞에서도 당신의 비전을 굽히지 마십시오."
+    },
+    {
+      "title": "360도의 각도가 있는데 왜 굳이 하나의 각도에만 얽매이는가?",
+      "content": "틀에 박힌 사고와 관습적인 시각에서 벗어나 무한한 가능성을 탐구하라는 뜻입니다. 하나의 정답만을 강요하는 세상에서 당신만의 다채로운 각도를 발견하십시오."
+    },
+    {
+      "title": "나는 자연을 모방하지 않는다, 나는 자연의 작동 원리를 건축할 뿐이다.",
+      "content": "표면적인 모방을 넘어 사물의 본질과 에너지를 이해하고 창조하라는 의미입니다. 겉모습을 베끼는 데 그치지 말고 그 안에 담긴 역동적인 생명력을 당신의 작업에 불어넣으십시오."
+    }
+  ],
+  "persona": "당신은 자하 하디드이다.",
+  "imageUrl": "/images/giants/zaha-hadid.jpg",
+  "dnaCode": "LRHI",
+  "era": "21세기의 거인 (1950~2016)"
+},
+  {
+  "id": "24",
+  "name": "제아미 모토키요",
+  "category": "arts",
+  "headline": "천대받던 대중 연희를 고도의 상징성과 유겐(幽玄)의 미학을 갖춘 전통 극예술 '노(能)'로 완성한 극작가이자 사상가다.",
+  "shortDescription": "제아미 모토키요의 일대기와 지혜",
+  "slug": "zeami-motokiyo",
+  "quote": "초심을 잊지 마라.",
+  "pain": "천민으로 취급받던 광대의 신분과 권력의 잦은 변화 속에서 예술의 생존과 독립성을 끊임없이 위협받았다.",
+  "recovery": "그는 후원자들의 취향을 치밀하게 분석하고 예술 이론을 체계화하여, 대중 연희였던 사루가쿠를 귀족 예술의 반열로 끌어올리며 예술가로서의 숭고한 자존을 지켜냈다.",
+  "lessons": [
+    {
+      "title": "초심을 잊지 마라.",
+      "content": "예술을 처음 시작했을 때의 서툰 마음과 그때의 치열함을 평생 간직하라는 의미입니다. 경지에 올랐다 자만하지 말고 매 순간 새로운 마음으로 스스로를 단련하십시오."
+    },
+    {
+      "title": "나이를 먹더라도 참된 꽃은 지지 않는다.",
+      "content": "젊음의 화려함은 사라져도 끊임없는 수련으로 얻은 내면의 깊이는 영원하다는 뜻입니다. 외면의 아름다움에 의존하지 말고 세월이 흐를수록 빛을 발하는 당신만의 기예를 완성하십시오."
+    },
+    {
+      "title": "관객의 눈으로 자신을 보라.",
+      "content": "주관적인 감정에 매몰되지 말고 자신을 철저히 객관화하여 바라보라는 의미입니다. 내가 느끼는 바와 타인이 보는 바의 차이를 이해하고 전체의 조화를 향해 나아가십시오."
+    }
+  ],
+  "persona": "당신은 제아미 모토키요이다.",
+  "imageUrl": "/images/giants/zeami-motokiyo.jpg",
+  "dnaCode": "LRHI",
+  "era": "15세기의 거인 (1363~1443)"
+},
+  {
+  "id": "373",
+  "name": "에두아르 마네",
+  "category": "arts",
+  "headline": "보수적인 아카데미 화풍을 거부하고 현실의 파리를 대담한 평면과 색채로 그려내어 인상주의의 길을 연 현대미술의 아버지다.",
+  "shortDescription": "에두아르 마네의 일대기와 지혜",
+  "slug": "edouard-manet",
+  "quote": "자연에는 선(線)이 없다. 오직 색조의 대비만이 존재할 뿐이다.",
+  "pain": "아카데미의 보수적인 심사 기준과 평론가들의 혹독한 조롱은 평생 동안 그의 예술적 자존심을 끈질기게 억압했다.",
+  "recovery": "그는 끝없는 낙선과 스캔들 속에서도 붓을 꺾지 않고 파리의 현실을 자신만의 평면적이고 대담한 색채로 묘사하며 현대미술의 새로운 장을 열어젖혔다.",
+  "lessons": [
+    {
+      "title": "자연에는 선(線)이 없다. 오직 색조의 대비만이 존재할 뿐이다.",
+      "content": "고정관념을 버리고 당신의 눈에 비치는 현실을 있는 그대로 인식하라는 의미입니다. 타인이 그어놓은 인위적인 경계에 얽매이지 말고 당신만의 색채로 세상을 구성하십시오."
+    },
+    {
+      "title": "당신이 그리고 싶은 것을 그리라. 남들이 어떻게 생각하든 상관하지 마라.",
+      "content": "예술의 주체는 결국 자기 자신임을 잊지 말라는 뜻입니다. 세상의 비난이나 평론가들의 조롱에 흔들리지 말고 당신 내면의 진실을 당당하게 표현하십시오."
+    },
+    {
+      "title": "모든 시대는 그 시대만의 예술을 가져야 한다.",
+      "content": "과거의 신화나 죽은 영웅에 얽매이지 말고 지금 당신이 살아가는 현실에 발을 딛으라는 의미입니다. 동시대의 숨결과 일상의 아름다움을 포착하여 시대의 증언자가 되십시오."
+    }
+  ],
+  "persona": "당신은 에두아르 마네이다.",
+  "imageUrl": "/images/giants/edouard-manet.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1832~1883)"
+},
+  {
+  "id": "52",
+  "name": "마담 티누부",
+  "category": "business",
+  "headline": "19세기 서아프리카의 상권을 장악하고 유럽의 제국주의적 침탈에 맞서 토착 상인의 권리를 수호한 요루바족 최고의 여성 거상이다.",
+  "shortDescription": "마담 티누부의 일대기와 지혜",
+  "slug": "efunroye-tinubu",
+  "quote": "자신의 권리를 지키기 위해 물러서지 마라.",
+  "pain": "서구 열강의 거센 제국주의적 압박과 라고스 내부 정치 세력 간의 암투 속에서 무역 독점권을 위협받고 목숨을 건 강제 추방의 시련을 겪었다.",
+  "recovery": "막강한 경제력을 바탕으로 무기를 지원하고 새로운 동맹을 구축하여 고향 아베오쿠타에서 정치적, 경제적 지위를 완벽하게 재건해 냈다.",
+  "lessons": [
+    {
+      "title": "자신의 권리를 지키기 위해 물러서지 마라.",
+      "content": "어떠한 거대한 외압 앞에서도 여러분의 정당한 권리와 이익을 결연히 수호하십시오. 위기의 순간일수록 자신의 신념을 포기하지 않고 끝까지 맞서 싸우는 용기가 필요합니다."
+    },
+    {
+      "title": "변화하는 환경에 맞게 새로운 활로를 개척하라.",
+      "content": "시대의 흐름과 경제적 변화를 기민하게 읽고 기존의 방식에 얽매이지 마십시오. 위기를 기회로 바꾸는 과감한 사업 다각화와 유연한 대처 능력을 기르시길 바랍니다."
+    },
+    {
+      "title": "강력한 동맹이 위기를 극복하는 열쇠이다.",
+      "content": "혼자의 힘으로 극복하기 힘든 고난을 마주했을 때는 주변과 연대하십시오. 서로 신뢰할 수 있는 굳건한 동맹과 네트워크야말로 시련을 이겨내는 가장 든든한 자산이 될 것입니다."
+    }
+  ],
+  "persona": "당신은 마담 티누부이다.",
+  "imageUrl": "/images/giants/efunroye-tinubu.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1805~1887)"
+},
+  {
+  "id": "3",
+  "name": "김만덕",
+  "category": "business",
+  "headline": "신분제와 척박한 자연환경을 극복하고 막대한 부를 이룬 뒤, 이를 전 재산 구휼로 사회에 환원한 조선 최고의 실천적 기업가이다.",
+  "shortDescription": "김만덕의 일대기와 지혜",
+  "slug": "gim-man-deok",
+  "quote": "정당하게 번 재산은 세상을 널리 이롭게 하는 데 쓰여야 한다.",
+  "pain": "어린 시절 부모를 여의고 기생의 신분으로 전락하는 뼈아픈 좌절을 겪었으며, 척박한 제주도의 환경과 수만 명이 죽어가는 대기근이라는 국가적 재난을 마주했다.",
+  "recovery": "불굴의 의지로 양인 신분을 되찾고 거상으로 성장하여 전 재산을 털어 백성을 구휼하는 숭고한 헌신을 통해 시련을 위대한 나눔의 역사로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "정당하게 번 재산은 세상을 널리 이롭게 하는 데 쓰여야 한다.",
+      "content": "축적한 부와 성공을 개인의 안위로만 끝내지 말고, 이웃과 사회의 고통을 덜어주는 데 기꺼이 나누십시오. 나눔의 크기가 곧 여러분 삶의 진정한 가치를 결정할 것입니다."
+    },
+    {
+      "title": "자신에게 주어진 운명의 굴레를 스스로 끊어내라.",
+      "content": "태어난 환경이나 사회적 제약이 여러분의 미래를 억압하도록 방치하지 마십시오. 강인한 의지와 끊임없는 노력으로 불리한 조건을 극복하고 스스로 새로운 운명을 개척하시길 바랍니다."
+    },
+    {
+      "title": "눈앞의 이익보다 사람의 마음을 얻는 신용을 중시하라.",
+      "content": "장사를 하든 사람을 대하든, 당장의 작은 이윤을 좇기보다는 변함없는 정직함으로 깊은 신뢰를 쌓으십시오. 사람의 마음을 얻는 것이야말로 가장 견고하고 위대한 자산입니다."
+    }
+  ],
+  "persona": "당신은 김만덕이다.",
+  "imageUrl": "/images/giants/gim-man-deok.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1739~1812)"
+},
+  {
+  "id": "162",
+  "name": "존 메이너드 케인스",
+  "category": "business",
+  "headline": "거시경제학이라는 새로운 패러다임을 창시하여 대공황의 위기에서 자본주의 체제를 구출해 낸 20세기 최고의 경제학자이다.",
+  "shortDescription": "존 메이너드 케인스의 일대기와 지혜",
+  "slug": "john-maynard-keynes",
+  "quote": "장기적으로 우리 모두는 죽는다.",
+  "pain": "제1차 세계대전 직후 가혹한 배상금 체제가 초래할 유럽 경제의 파국을 경고했으나 묵살당했고, 대공황이라는 전례 없는 자본주의 체제의 처참한 붕괴를 목도해야 했다.",
+  "recovery": "정부의 시장 개입을 금기시하던 고전 경제학의 한계를 과감히 타파하고, 거시경제학이라는 완전히 새로운 학문적 패러다임을 확립하여 세계 경제를 불황의 늪에서 구출해 냈다.",
+  "lessons": [
+    {
+      "title": "장기적으로 우리 모두는 죽는다.",
+      "content": "다가올 먼 미래의 완벽한 해결책만 기다리며 현재의 고통을 방관하지 마십시오. 지금 당장 고통받는 사람들을 구하기 위해 즉각적이고 실질적인 행동에 나서야 합니다."
+    },
+    {
+      "title": "경제가 무너질 때, 낡은 교리와 이론에 얽매이지 마라.",
+      "content": "전례 없는 위기 상황에서는 과거의 성공 공식이나 낡은 상식을 과감하게 폐기하십시오. 유연하고 창의적인 사고방식만이 세상을 새로운 번영으로 이끌 수 있습니다."
+    },
+    {
+      "title": "투자는 불확실성을 뚫고 나가는 용기이다.",
+      "content": "모든 것이 불확실하고 두려운 상황 속에서도 앞으로 나아가고자 하는 본능적인 '야성적 충동'을 발휘하십시오. 과감한 결단과 실행력이 세상을 바꾸는 원동력이 됩니다."
+    }
+  ],
+  "persona": "당신은 존 메이너드 케인스이다.",
+  "imageUrl": "/images/giants/john-maynard-keynes.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1883~1946)"
+},
+  {
+  "id": "430",
+  "name": "크라수스",
+  "category": "business",
+  "headline": "냉혹한 부동산 투기와 사설 소방대 운영을 통해 로마 공화정 역사상 유례없는 막대한 부를 거머쥔 야심 찬 정치가이자 사업가이다.",
+  "shortDescription": "크라수스의 일대기와 지혜",
+  "slug": "marcus-licinius-crassus",
+  "quote": "혼란과 위기 속에 가장 큰 부의 기회가 숨어 있다.",
+  "pain": "마리우스파의 잔혹한 숙청으로 가문이 몰락하여 동굴로 도망쳐야 했으며, 동맹자 전쟁과 거대한 노예 반란이라는 공화정의 극심한 혼란 속에서 치열하게 생존을 모색해야 했다.",
+  "recovery": "정치적 혼란기를 교묘하게 역이용하여 천문학적인 부를 축적하고, 강력한 군사력과 재력을 바탕으로 카이사르, 폼페이우스와 함께 삼두정치의 한 축을 이루며 로마의 최고 실권자로 군림했다.",
+  "lessons": [
+    {
+      "title": "혼란과 위기 속에 가장 큰 부의 기회가 숨어 있다.",
+      "content": "세상이 요동치고 위기가 닥쳤을 때 두려워하기보다는 남들이 보지 못하는 기회를 포착하십시오. 혼돈의 이면을 꿰뚫어 보는 예리한 시선이 막대한 가치를 창출합니다."
+    },
+    {
+      "title": "자신의 군대를 먹여 살릴 수 없는 자는 부자가 아니다.",
+      "content": "진정한 부와 권력을 원한다면 그것을 굳건히 지키고 운용할 수 있는 실질적인 힘과 조직력을 갖추십시오. 막연한 재산 축적을 넘어 그것을 통제할 수 있는 역량을 기르셔야 합니다."
+    },
+    {
+      "title": "정치와 경제는 결코 분리될 수 없는 하나의 수레바퀴다.",
+      "content": "비즈니스의 성공을 위해서는 경제적 흐름뿐만 아니라 권력의 지형과 정치적 역학 관계를 깊이 이해하십시오. 자본과 인맥을 영리하게 결합할 때 비로소 최고의 자리에 오를 수 있습니다."
+    }
+  ],
+  "persona": "당신은 크라수스이다.",
+  "imageUrl": "/images/giants/marcus-licinius-crassus.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 1세기의 거인 (115 BC~53 BC)"
+},
+  {
+  "id": "174",
+  "name": "스티브 잡스",
+  "category": "business",
+  "headline": "혁신적인 비전과 타협 없는 디자인 철학으로 개인용 컴퓨터 시대를 열고 모바일 생태계를 창조한 실리콘밸리의 전설적인 창업자이다.",
+  "shortDescription": "스티브 잡스의 일대기와 지혜",
+  "slug": "steve-jobs",
+  "quote": "다르게 생각하라.",
+  "pain": "자신이 직접 설립한 애플에서 쿠데타로 쫓겨나는 참담한 수모를 겪었으며, 넥스트에서의 쓰라린 상업적 실패와 췌장암이라는 치명적인 병마와 고통스럽게 싸워야 했다.",
+  "recovery": "픽사를 통해 애니메이션 산업의 혁신을 이끌고 애플로 화려하게 복귀하여, 기술과 인문학을 결합한 혁신적인 스마트 기기들로 모바일 혁명을 일으키며 세계를 완벽하게 변화시켰다.",
+  "lessons": [
+    {
+      "title": "다르게 생각하라.",
+      "content": "남들이 정해놓은 뻔한 규칙과 관습에 무비판적으로 순응하지 마십시오. 세상을 바꿀 수 있다는 엉뚱하고 대담한 믿음이 결국 위대한 혁신을 만들어내는 법입니다."
+    },
+    {
+      "title": "항상 갈망하고, 항상 우직하게 나아가라.",
+      "content": "현재의 성공이나 작은 성취에 결코 안주하지 마십시오. 더 나은 세상을 향한 끊임없는 호기심과 열망을 품고, 때로는 바보 같아 보일지라도 우직하게 자신의 길을 개척하시길 바랍니다."
+    },
+    {
+      "title": "디자인은 어떻게 보이는지가 아니라 어떻게 작동하는가의 문제다.",
+      "content": "단순히 겉모습을 화려하게 치장하는 데 몰두하지 말고, 문제의 본질을 꿰뚫는 근본적인 해결책을 찾으십시오. 겉과 속이 완벽하게 일치하는 본질적인 탁월함을 추구해야 합니다."
+    }
+  ],
+  "persona": "당신은 스티브 잡스이다.",
+  "imageUrl": "/images/giants/steve-jobs.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1955~2011)"
+},
+  {
+  "id": "483",
+  "name": "아바스 대제",
+  "category": "leadership",
+  "headline": "사파비 왕조의 중흥을 이끌며 페르시아의 군사적, 문화적 황금기를 구축한 최고의 정복 군주다.",
+  "shortDescription": "아바스 대제의 일대기와 지혜",
+  "slug": "abbas-the-great",
+  "quote": "왕의 정의는 그의 분노보다 빨라야 한다.",
+  "pain": "즉위 초 오스만 제국과 우즈베크족의 양면 침공을 받았으며, 내몽으로는 강력한 군벌 세력인 키질바시의 전횡으로 인해 왕권이 붕괴될 위기에 처했다.",
+  "recovery": "충성스러운 기독교도 노예 출신 부대인 굴람을 창설하여 왕권을 강화하고 서양식 무기를 도입한 대대적인 군사 개혁을 통해 빼앗긴 영토를 모두 탈환했다.",
+  "lessons": [
+    {
+      "title": "왕의 정의는 그의 분노보다 빨라야 한다.",
+      "content": "감정에 치우치지 말고 공정하고 신속하게 결정을 내려야 합니다. 지도자의 판단은 개인적인 분노보다 조직의 질서와 원칙을 우선시해야 함을 명심하십시오."
+    },
+    {
+      "title": "하나의 화살은 쉽게 부러지지만, 화살 묶음은 결코 꺾이지 않는다.",
+      "content": "조직 내의 분열을 경계하고 굳건한 단합을 추구하십시오. 모두가 하나의 목표를 향해 뜻을 모을 때 어떠한 외부의 위협도 이겨낼 수 있습니다."
+    },
+    {
+      "title": "제국의 부는 국고에 있는 것이 아니라, 상인들의 번영에 있다.",
+      "content": "진정한 경제적 성장은 상업과 교역의 자유로운 발전에서 비롯됩니다. 국가나 기업을 이끌 때 구성원들의 활발한 경제 활동을 적극적으로 지원하고 장려하십시오."
+    }
+  ],
+  "persona": "당신은 아바스 대제이다.",
+  "imageUrl": "/images/giants/abbas-the-great.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1571~1629)"
+},
+  {
+  "id": "485",
+  "name": "아흐마드 산자르",
+  "category": "leadership",
+  "headline": "셀주크 제국의 마지막 전성기를 이끌었으나 결국 유목민의 반란으로 제국의 붕괴를 지켜봐야 했던 비운의 술탄이다.",
+  "shortDescription": "아흐마드 산자르의 일대기와 지혜",
+  "slug": "ahmad-sanjar",
+  "quote": "무력으로 세운 제국은 모래 위와 같고, 학문으로 다진 제국은 반석 위와 같다.",
+  "pain": "카트완 전투에서 카라키타이에게 참패하며 무적의 권위가 실추되었고, 이후 오구즈 투르크족의 대규모 반란으로 3년간 포로로 붙잡히는 굴욕을 겪었다.",
+  "recovery": "극심한 혼란과 감금의 고통 속에서도 끝내 탈출에 성공하여 무너져가는 제국과 백성들을 돌보려 한 군주의 끈질긴 책임감을 보여주었다.",
+  "lessons": [
+    {
+      "title": "무력으로 세운 제국은 모래 위와 같고, 학문으로 다진 제국은 반석 위와 같다.",
+      "content": "단기적인 강압보다는 문화와 지식의 발전을 통해 내실을 다져야 합니다. 진정한 리더십은 힘의 과시가 아니라 구성원들의 지적 성장을 장려하는 데서 나옵니다."
+    },
+    {
+      "title": "가장 치명적인 상처는 적의 칼이 아니라 아군의 배신에서 비롯된다.",
+      "content": "조직 내부의 불만과 갈등을 결코 가볍게 넘겨서는 안 됩니다. 구성원들의 작은 목소리에도 귀를 기울이고 내부의 결속을 가장 우선적으로 챙기십시오."
+    },
+    {
+      "title": "승리는 교만을 낳고, 교만은 파멸을 부르는 가장 빠른 길이다.",
+      "content": "성공이 계속될수록 더욱 겸손하고 신중하게 상황을 분석해야 합니다. 과거의 승리에 도취되어 다가오는 위기를 놓치지 않도록 항상 경계하십시오."
+    }
+  ],
+  "persona": "당신은 아흐마드 산자르이다.",
+  "imageUrl": "/images/giants/ahmad-sanjar.jpg",
+  "dnaCode": "LRHI",
+  "era": "12세기의 거인 (1085~1157)"
+},
+  {
+  "id": "474",
+  "name": "안토니누스 피우스",
+  "category": "leadership",
+  "headline": "로마 제국 오현제 중 네 번째 황제로, 역사상 유례없는 가장 길고 완벽한 평화의 시대를 이룩한 온화한 통치자다.",
+  "shortDescription": "안토니누스 피우스의 일대기와 지혜",
+  "slug": "antoninus-pius",
+  "quote": "전쟁터에서 천 명의 적을 죽이는 것보다 단 한 명의 시민을 구하는 것이 훨씬 가치 있다.",
+  "pain": "전임 황제 하드리아누스를 신격화하는 과정에서 원로원의 강력한 반대에 부딪혀 즉위 초부터 심각한 정치적 갈등을 겪었다.",
+  "recovery": "끈질긴 설득과 인내심, 그리고 뛰어난 타협의 기술을 발휘하여 원로원과의 충돌을 피하고 제국의 통합과 안정을 완벽하게 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "전쟁터에서 천 명의 적을 죽이는 것보다 단 한 명의 시민을 구하는 것이 훨씬 가치 있다.",
+      "content": "무모한 경쟁과 확장을 멈추고 조직원들의 안위와 행복을 최우선으로 고려하십시오. 진정한 리더는 구성원을 희생시키는 것이 아니라 그들을 보호하는 사람입니다."
+    },
+    {
+      "title": "평화는 거저 주어지는 것이 아니라, 끊임없는 양보와 현명한 법률로 유지되는 것이다.",
+      "content": "평온한 상태를 유지하기 위해서는 원칙을 지키면서도 유연하게 갈등을 조정하는 지혜가 필요합니다. 무력보다는 대화와 합리적인 시스템으로 문제를 해결하십시오."
+    },
+    {
+      "title": "국고는 황제의 사금고가 아니라, 헐벗은 백성들의 고통을 덜어주기 위해 존재하는 공공의 신탁이다.",
+      "content": "조직의 자산과 이익은 공공의 발전을 위해 투명하고 가치 있게 사용되어야 합니다. 책임 있는 자리에 있을수록 사리사욕을 버리고 공공선을 향해 헌신하십시오."
+    }
+  ],
+  "persona": "당신은 안토니누스 피우스이다.",
+  "imageUrl": "/images/giants/antoninus-pius.jpg",
+  "dnaCode": "LRHI",
+  "era": "2세기의 거인 (86~161)"
+},
+  {
+  "id": "277",
+  "name": "아서 웰즐리",
+  "category": "leadership",
+  "headline": "이베리아 반도와 워털루에서 나폴레옹 군대를 잇달아 격파하며 유럽의 평화를 지켜낸 영국의 위대한 명장이다.",
+  "shortDescription": "아서 웰즐리의 일대기와 지혜",
+  "slug": "arthur-wellesley",
+  "quote": "천재성은 화려한 전술에 있는 것이 아니라, 묵묵히 보급선을 지키고 병사들을 먹이는 기본에 있다.",
+  "pain": "이베리아 반도 전쟁에서 압도적인 병력을 자랑하는 프랑스군을 상대로 소수의 병력과 열악한 보급 상황 속에서 싸워야 했다.",
+  "recovery": "험준한 지형을 활용한 견고한 방어선 구축과 현지 게릴라와의 협력, 그리고 적의 지친 틈을 노리는 끈질긴 인내 전술로 적군을 철저히 궤멸시켰다.",
+  "lessons": [
+    {
+      "title": "천재성은 화려한 전술에 있는 것이 아니라, 묵묵히 보급선을 지키고 병사들을 먹이는 기본에 있다.",
+      "content": "조직을 운영할 때 화려한 결과에만 집착하지 말고 보급과 기초 체력을 다지는 데 집중하십시오. 가장 기본적인 인프라와 구성원의 복지가 최후의 승패를 결정짓습니다."
+    },
+    {
+      "title": "인내심은 용기보다 더 많은 승리를 가져다준다. 물러설 줄 아는 자만이 다시 공격할 수 있다.",
+      "content": "불리한 상황에서는 무모하게 나서지 말고 방어에 치중하며 때를 기다리는 지혜가 필요합니다. 인내하며 자원을 아끼고 결정적인 기회가 왔을 때 모든 힘을 쏟아부으십시오."
+    },
+    {
+      "title": "가장 위대한 승리 뒤에도 남는 것은 피비린내 나는 참상뿐이며, 전쟁은 그 어떤 명분으로도 비극이다.",
+      "content": "경쟁에서의 승리가 모든 것을 정당화하지는 않음을 깨달아야 합니다. 불필요한 갈등과 출혈 경쟁을 피하고, 진정한 가치를 보존하며 상생할 수 있는 평화로운 길을 모색하십시오."
+    }
+  ],
+  "persona": "당신은 아서 웰즐리이다.",
+  "imageUrl": "/images/giants/arthur-wellesley.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1769~1852)"
+},
+  {
+  "id": "225",
+  "name": "아타왈파",
+  "category": "leadership",
+  "headline": "이복형과의 치열한 내전에서 승리하여 황제에 올랐으나 스페인 정복자들에게 허무하게 죽음을 맞이한 잉카 제국의 최후 통치자다.",
+  "shortDescription": "아타왈파의 일대기와 지혜",
+  "slug": "atahualpa",
+  "quote": "우물 안의 승리에 도취되어 폭풍우처럼 다가오는 낯선 위협을 외면해서는 안 된다.",
+  "pain": "아버지가 죽은 후 이복형 우아스카르와의 치열한 왕위 계승 내전에 휘말려 제국의 분열이라는 극심한 위기를 겪어야만 했다.",
+  "recovery": "탁월한 군사적 지휘력과 키토 정예 군대의 압도적인 지지를 바탕으로 형의 군대를 격파하고 잉카 제국의 유일한 황제로 등극했다.",
+  "lessons": [
+    {
+      "title": "우물 안의 승리에 도취되어 폭풍우처럼 다가오는 낯선 위협을 외면해서는 안 된다.",
+      "content": "익숙한 환경에서의 성공에 만족하여 외부 세계의 급격한 변화를 간과하지 마십시오. 항상 더 넓은 시야를 가지고 다가오는 새로운 위기에 철저히 대비해야 합니다."
+    },
+    {
+      "title": "황금은 사람의 눈을 멀게 하고, 탐욕은 가장 견고한 제국조차 안에서부터 썩게 만든다.",
+      "content": "단기적인 이익이나 물질적인 풍요에만 집착하면 결국 조직의 근간이 흔들립니다. 물질적 부유함보다는 구성원 간의 신뢰와 정신적 결속을 더 소중히 여기십시오."
+    },
+    {
+      "title": "정보를 무시하는 자의 용기는 만용이 되며, 적을 얕잡아보는 자의 결말은 언제나 파멸뿐이다.",
+      "content": "상대방에 대한 정확한 정보와 분석 없이 자신의 힘만을 과신하지 마십시오. 아무리 작아 보이는 경쟁자라도 철저하게 분석하고 신중하게 대처하는 태도가 필요합니다."
+    }
+  ],
+  "persona": "당신은 아타왈파이다.",
+  "imageUrl": "/images/giants/atahualpa.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1502~1533)"
+},
+  {
+  "id": "270",
+  "name": "아웅산",
+  "category": "leadership",
+  "headline": "아웅산은 영국의 식민 통치와 일본의 군정에 맞서 미얀마의 독립을 이끌어낸 건국의 아버지다.",
+  "shortDescription": "아웅산의 일대기와 지혜",
+  "slug": "aung-san",
+  "quote": "독립은 구걸하는 것이 아니라 스스로 쟁취하는 것이다.",
+  "pain": "아웅산은 일본 제국주의와 영국의 식민 통치라는 이중의 억압 속에서 끊임없는 체포 위협과 암살 위험에 시달렸다.",
+  "recovery": "그는 압도적인 외세의 무력 앞에서도 굴복하지 않고 다양한 정파와 소수민족을 하나로 결속시키는 탁월한 정치력과 타협의 리더십을 발휘하여 민족 대통합을 이룩했다.",
+  "lessons": [
+    {
+      "title": "독립은 구걸하는 것이 아니라 스스로 쟁취하는 것이다.",
+      "content": "외부의 구원이나 동정에 의존하지 말고, 목표를 이루기 위해 스스로 행동하고 헌신하십시오."
+    },
+    {
+      "title": "분열된 국가는 결코 외세를 이겨낼 수 없다.",
+      "content": "공동체의 진정한 힘은 굳건한 단결에서 비롯됨을 잊지 말고, 갈등을 넘어 화합을 도모하십시오."
+    },
+    {
+      "title": "나의 가장 큰 소망은 자유롭고 평등한 미얀마를 보는 것이다.",
+      "content": "어떤 고난 앞에서도 자신이 세운 대의와 이상을 포기하지 말고 끝까지 나아가십시오."
+    }
+  ],
+  "persona": "당신은 아웅산이다.",
+  "imageUrl": "/images/giants/aung-san.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1915~1947)"
+},
+  {
+  "id": "488",
+  "name": "아우랑제브",
+  "category": "leadership",
+  "headline": "아우랑제브는 반세기에 걸친 철권통치로 무굴 제국의 최대 영토를 정복한 동시에 제국의 쇠퇴를 초래한 논쟁적인 황제다.",
+  "shortDescription": "아우랑제브의 일대기와 지혜",
+  "slug": "aurangzeb",
+  "quote": "권력의 자리에는 형제도, 아버지도 없다.",
+  "pain": "아우랑제브는 형제들과의 권력 투쟁과 끊임없는 데칸 지역 반란으로 인해 제국의 안정을 위협받는 극도의 군사적, 정치적 위기를 겪었다.",
+  "recovery": "그는 압도적인 군사 전술과 무자비한 결단력을 통해 정적들을 숙청하고 제국 전역의 반란을 무력으로 억누르며 무굴 제국 역사상 최대의 영토를 확보했다.",
+  "lessons": [
+    {
+      "title": "권력의 자리에는 형제도, 아버지도 없다.",
+      "content": "정상을 향해 나아갈 때는 사사로운 감정에 흔들리지 말고 냉철하게 결단을 내리십시오."
+    },
+    {
+      "title": "통치자는 자신의 백성을 다스리기 위해 쉼 없이 깨어 있어야.",
+      "content": "책임감 있는 자리에 올랐다면 개인의 안락을 버리고 조직의 안정과 발전을 위해 헌신하십시오."
+    },
+    {
+      "title": "내가 세상에 왔을 때는 혼자였지만, 갈 때는 나의 죄악을 등에 짊어지고 간다.",
+      "content": "자신의 행동이 남길 역사적 결과와 무게를 늘 두려워하고, 자신의 삶을 겸허히 성찰하십시오."
+    }
+  ],
+  "persona": "당신은 아우랑제브이다.",
+  "imageUrl": "/images/giants/aurangzeb.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1618~1707)"
+},
+  {
+  "id": "145",
+  "name": "조조",
+  "category": "leadership",
+  "headline": "조조는 후한 말기의 혼란 속에서 뛰어난 전술과 인재 등용으로 화북을 통일하고 위나라의 기틀을 세운 군웅이다.",
+  "shortDescription": "조조의 일대기와 지혜",
+  "slug": "cao-cao",
+  "quote": "내가 천하를 버릴지언정, 천하가 나를 버리게 하지는 않겠다.",
+  "pain": "조조는 환관의 가문이라는 태생적 한계로 인한 세간의 멸시와, 적벽대전에서의 궤멸적인 패배라는 거대한 군사적 좌절을 겪었다.",
+  "recovery": "그는 출신을 가리지 않고 인재를 중용하는 실용주의와 기발한 군사 전술, 그리고 둔전제와 같은 탁월한 내정 개혁을 통해 난세를 평정하며 굳건한 기반을 다졌다.",
+  "lessons": [
+    {
+      "title": "내가 천하를 버릴지언정, 천하가 나를 버리게 하지는 않겠다.",
+      "content": "위기의 순간에는 주저함 없이 결단을 내리고, 그 결정에 대한 모든 책임은 스스로 당당히 감당하십시오."
+    },
+    {
+      "title": "재주가 있다면 품행이 단정하지 않더라도 과감히 기용하라.",
+      "content": "사람의 겉모습이나 배경에 얽매이지 말고, 오직 실력과 잠재력만을 냉철하게 평가하여 기회를 주십시오."
+    },
+    {
+      "title": "늙은 천리마는 마구간에 엎드려 있어도 그 뜻은 천리를 달린다.",
+      "content": "나이나 환경의 한계에 굴복하지 말고, 마음속에 품은 원대한 꿈과 열정을 끝까지 간직하십시오."
+    }
+  ],
+  "persona": "당신은 조조이다.",
+  "imageUrl": "/images/giants/cao-cao.jpg",
+  "dnaCode": "LRHI",
+  "era": "3세기의 거인 (155~220)"
+},
+  {
+  "id": "477",
+  "name": "카라칼라",
+  "category": "leadership",
+  "headline": "카라칼라는 모든 자유민에게 로마 시민권을 부여하는 역사적 칙령을 남겼으나, 잔혹한 형제 살해와 폭정으로 파멸을 맞이한 로마의 황제다.",
+  "shortDescription": "카라칼라의 일대기와 지혜",
+  "slug": "caracalla",
+  "quote": "무기를 쥐고 있는 한 결코 금전이 부족할 일은 없다.",
+  "pain": "카라칼라는 공동 황제였던 동생 게타와의 극심한 권력 투쟁과 제국의 재정 파탄이라는 거대한 압박에 직면해야만 했다.",
+  "recovery": "그는 동생을 잔혹하게 암살하여 단일 권력을 쟁취하고, 제국 내 모든 자유민에게 시민권을 부여하는 칙령을 통해 세수 확보와 제국 통합을 동시에 꾀했다.",
+  "lessons": [
+    {
+      "title": "무기를 쥐고 있는 한 결코 금전이 부족할 일은 없다.",
+      "content": "물리적인 힘과 권력이 때로는 가장 확실한 문제 해결 수단이 될 수 있음을 직시하고 힘을 기르십시오."
+    },
+    {
+      "title": "군인들을 부유하게 하라. 나머지 사람들은 신경 쓰지 않아도 된다.",
+      "content": "자신의 권력을 지탱해 주는 가장 핵심적인 기반이 무엇인지 정확히 파악하고 그들을 최우선으로 관리하십시오."
+    },
+    {
+      "title": "자비는 나약함의 증거이며, 잔혹함은 통치자의 의지다.",
+      "content": "위기의 순간에는 망설임 없이 단호하고 엄격한 결단을 내려 조직의 기강을 철저하게 확립하십시오."
+    }
+  ],
+  "persona": "당신은 카라칼라이다.",
+  "imageUrl": "/images/giants/caracalla.jpg",
+  "dnaCode": "LRHI",
+  "era": "3세기의 거인 (188~217)"
+},
+  {
+  "id": "40",
+  "name": "차나키야",
+  "category": "leadership",
+  "headline": "차나키야는 고대 인도의 통일을 이룩한 천재적인 전략가이자 최초의 통일 제국인 마우리아 왕조의 기틀을 다진 위대한 사상가다.",
+  "shortDescription": "차나키야의 일대기와 지혜",
+  "slug": "chanakya",
+  "quote": "적의 적은 나의 친구다.",
+  "pain": "차나키야는 난다 왕조의 폭군으로부터 심한 모욕을 당하고 추방당하는 굴욕을 겪었으며, 알렉산드로스 대왕의 침략으로 인도가 분열되는 국가적 위기를 목격했다.",
+  "recovery": "그는 찬드라굽타 마우리아라는 걸출한 인재를 발굴하고 치밀한 지략과 무자비한 전략을 구사하여 난다 왕조를 전복시키고 인도 최초의 통일 제국을 건국했다.",
+  "lessons": [
+    {
+      "title": "적의 적은 나의 친구다.",
+      "content": "복잡한 이해관계 속에서는 감정을 배제하고 공동의 목표를 가진 자와 전략적으로 연대하십시오."
+    },
+    {
+      "title": "뱀이 독이 없더라도, 독이 있는 척해야만 살아남을 수 있다.",
+      "content": "때로는 자신의 약점을 철저히 감추고 강한 모습을 보여줌으로써 상대로부터 스스로를 보호하십시오."
+    },
+    {
+      "title": "꽃의 향기는 바람을 타고 흐르지만, 사람의 선행은 모든 방향으로 퍼져나간다.",
+      "content": "목적 달성을 위해 냉혹한 수단을 쓰더라도, 궁극적으로는 사람들에게 이로운 통치와 선행을 베푸십시오."
+    }
+  ],
+  "persona": "당신은 차나키야이다.",
+  "imageUrl": "/images/giants/chanakya.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 4세기의 거인 (375 BC~283 BC)"
+},
+  {
+  "id": "278",
+  "name": "샤를 드골",
+  "category": "leadership",
+  "headline": "제2차 세계 대전 중 레지스탕스를 이끌고, 전후 제5공화국을 창설하여 현대 프랑스의 기틀을 다진 구국의 영웅이다.",
+  "shortDescription": "샤를 드골의 일대기와 지혜",
+  "slug": "charles-de-gaulle",
+  "quote": "위대함은 위대한 사람들에게만 주어지며, 그들은 위대해지기로 결심했기 때문에 위대하다.",
+  "pain": "제2차 세계 대전 당시 나치 독일에 프랑스가 점령당하고 비시 정부가 항복하는 절망적인 상황에 직면했다.",
+  "recovery": "런던으로 망명하여 자유 프랑스 운동을 이끌며 끝까지 항전을 포기하지 않았고, 마침내 연합군과 함께 조국의 해방을 쟁취했다.",
+  "lessons": [
+    {
+      "title": "위대함은 위대한 사람들에게만 주어지며, 그들은 위대해지기로 결심했기 때문에 위대하다.",
+      "content": "스스로 높은 기준을 세우고 그것을 달성하기 위해 헌신하십시오. 내면의 결단과 책임감이 곧 자신을 비범한 존재로 이끄는 원동력이 됩니다."
+    },
+    {
+      "title": "정치는 정치인들에게만 맡기기에는 너무나 중대한 문제이다.",
+      "content": "공동체의 운명과 사회의 방향성에 항상 관심을 가지고 주도적으로 참여하십시오. 방관하지 않는 시민의 책임 의식이 더 나은 세상을 만듭니다."
+    },
+    {
+      "title": "어려움은 위대한 인물들을 매료시킨다. 왜냐하면 그들은 그 어려움과 싸우는 과정에서 진정한 자신을 깨닫기 때문이다.",
+      "content": "시련과 난관을 두려워하지 말고 자신을 증명할 기회로 삼으십시오. 고난을 극복하는 과정에서 숨겨진 잠재력과 진정한 자아를 발견할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 샤를 드골이다.",
+  "imageUrl": "/images/giants/charles-de-gaulle.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1890~1970)"
+},
+  {
+  "id": "170",
+  "name": "크리스토퍼 콜럼버스",
+  "category": "leadership",
+  "headline": "대서양 횡단 항해를 통해 아메리카 대륙과 유럽을 연결하며 대항해 시대의 본격적인 서막을 연 탐험가이다.",
+  "shortDescription": "크리스토퍼 콜럼버스의 일대기와 지혜",
+  "slug": "christopher-columbus",
+  "quote": "당신이 해안을 시야에서 잃어버릴 용기를 갖지 않는 한, 결코 새로운 바다를 건널 수 없다.",
+  "pain": "미지의 바다를 항해하는 동안 발생한 선원들의 폭동과 반란 위협, 그리고 스페인 왕실의 오랜 후원 거절이라는 시련에 직면했다.",
+  "recovery": "확고한 신념과 탁월한 리더십으로 반발하는 선원들을 통솔하고, 8년간의 끈질긴 설득 끝에 왕실의 지원을 이끌어내어 마침내 대항해를 성공시켰다.",
+  "lessons": [
+    {
+      "title": "당신이 해안을 시야에서 잃어버릴 용기를 갖지 않는 한, 결코 새로운 바다를 건널 수 없다.",
+      "content": "더 큰 성취를 원한다면 익숙하고 편안한 환경에서 벗어날 용기를 가지십시오. 두려움을 극복하고 미지의 영역으로 나아갈 때 비로소 혁신을 이룰 수 있습니다."
+    },
+    {
+      "title": "나는 아무것도 가진 것이 없었으나, 오직 내 안의 별이 나를 이끌었다.",
+      "content": "외부의 지원이나 물질적인 조건이 부족하더라도 결코 좌절하지 마십시오. 확고한 목표와 내면의 신념이 있다면 어떤 난관도 돌파할 수 있는 강력한 동력이 됩니다."
+    },
+    {
+      "title": "세상의 모든 금은 사람을 행복하게 만들지 못하지만, 세상의 모든 발견은 인류의 지식을 넓힌다.",
+      "content": "당장의 물질적인 이익만을 쫓기보다는 진리와 지식을 탐구하는 데 가치를 두십시오. 새로운 것을 발견하고 배우려는 열정이 궁극적인 삶의 만족을 줍니다."
+    }
+  ],
+  "persona": "당신은 크리스토퍼 콜럼버스이다.",
+  "imageUrl": "/images/giants/christopher-columbus.jpg",
+  "dnaCode": "LRHI",
+  "era": "15세기의 거인 (1451~1506)"
+},
+  {
+  "id": "138",
+  "name": "정도전",
+  "category": "leadership",
+  "headline": "이성계와 함께 역성혁명을 주도하여 고려를 무너뜨리고 조선의 정치, 사회, 사상적 기틀을 확립한 개국 공신이다.",
+  "shortDescription": "정도전의 일대기와 지혜",
+  "slug": "chong-tojon",
+  "quote": "백성은 국가의 근본이며, 임금의 하늘이다.",
+  "pain": "친원파 권문세족과 대립하다 10년에 가까운 혹독한 유배 생활을 겪으며 정치적 생명이 끝날 위기에 처했다.",
+  "recovery": "유배지에서 백성들의 고통을 직접 목격하며 낡은 고려를 무너뜨릴 역성혁명의 비전을 잉태하고, 신흥 무인 세력인 이성계와 손잡아 이를 실현했다.",
+  "lessons": [
+    {
+      "title": "백성은 국가의 근본이며, 임금의 하늘이다.",
+      "content": "조직을 이끌 때 가장 밑바탕에 있는 구성원들의 안위와 이익을 최우선으로 고려하십시오. 진정한 리더십은 백성을 하늘처럼 섬기고 봉사하는 데서 나옵니다."
+    },
+    {
+      "title": "법과 제도가 올바르면 나라가 다스려지고, 사람에게만 의존하면 나라가 어지러워진다.",
+      "content": "리더 개인의 자의적인 판단이나 카리스마에 의존하기보다, 합리적이고 공정한 시스템을 구축하십시오. 훌륭한 제도가 조직의 장기적인 안정과 발전을 보장합니다."
+    },
+    {
+      "title": "학문은 세상을 다스리고 백성을 구제하는 데 쓰여야 비로소 가치가 있다.",
+      "content": "지식을 단순히 머릿속에만 담아두지 말고, 사회의 병폐를 해결하고 현실을 개선하는 데 적극적으로 활용하십시오. 실천이 따르지 않는 학문은 공허할 뿐입니다."
+    }
+  ],
+  "persona": "당신은 정도전이다.",
+  "imageUrl": "/images/giants/chong-tojon.jpg",
+  "dnaCode": "LRHI",
+  "era": "14세기의 거인 (1342~1398)"
+},
+  {
+  "id": "475",
+  "name": "콤모두스",
+  "category": "leadership",
+  "headline": "오현제 시대의 종식을 알리고 로마 제국 쇠퇴의 신호탄을 쏘아 올린 폭군으로 기록된 황제이다.",
+  "shortDescription": "콤모두스의 일대기와 지혜",
+  "slug": "commodus",
+  "quote": "권력은 이성을 잃은 자의 손에 쥐어질 때 스스로를 파괴하는 가장 날카로운 무기가 된다.",
+  "pain": "제위 초기에 누이와 원로원 귀족들이 주도한 황제 암살 미수 사건이 발생하여 극도의 심리적 불안과 피해망상에 휩싸였다.",
+  "recovery": "반대파를 무자비하게 숙청하고 콜로세움에서 직접 검투사 경기에 출전하며 대중의 인기를 통해 권력을 유지하려 했으나 결국 파멸을 맞았다.",
+  "lessons": [
+    {
+      "title": "권력은 이성을 잃은 자의 손에 쥐어질 때 스스로를 파괴하는 가장 날카로운 무기가 된다.",
+      "content": "리더십의 자리에서 항상 겸손과 자제력을 잃지 않도록 주의하십시오. 절제되지 않은 권력과 오만은 결국 자신과 조직 모두를 무너뜨리는 결과를 초래합니다."
+    },
+    {
+      "title": "진정한 영광은 경기장의 모래가 아니라, 백성들의 평안한 삶 속에서 증명되는 것이다.",
+      "content": "대중의 일시적인 환호나 겉보기에 화려한 성과에 도취되지 마십시오. 리더의 진정한 가치는 구성원들의 실질적인 안녕과 공동체의 지속 가능한 발전에 있습니다."
+    },
+    {
+      "title": "측근에 대한 맹목적인 의존은 결국 리더의 눈을 가리고 스스로를 고립시키는 함정이다.",
+      "content": "국정이나 조직 운영을 소수의 측근에게만 전적으로 위임하지 마십시오. 다양한 의견을 경청하고 직접 현상을 파악해야만 올바른 결정을 내릴 수 있습니다."
+    }
+  ],
+  "persona": "당신은 콤모두스이다.",
+  "imageUrl": "/images/giants/commodus.jpg",
+  "dnaCode": "LRHI",
+  "era": "2세기의 거인 (161~192)"
+},
+  {
+  "id": "204",
+  "name": "콘스탄티누스 대제",
+  "category": "leadership",
+  "headline": "밀라노 칙령으로 기독교를 공인하고 콘스탄티노플을 새로운 수도로 건설하여 서양 문명의 물줄기를 바꾼 로마 황제이다.",
+  "shortDescription": "콘스탄티누스 대제의 일대기와 지혜",
+  "slug": "constantine-the-great",
+  "quote": "분열된 믿음은 제국을 무너뜨리지만, 통합된 신앙은 어떤 군대보다 강력한 방패가 된다.",
+  "pain": "사두 정치가 붕괴된 후 여러 황제들이 난립하여 제국의 패권을 다투는 치열한 내전과 암살의 위협 속에 놓였다.",
+  "recovery": "뛰어난 군사적 재능과 결단력으로 막센티우스와 리키니우스 등 강력한 경쟁자들을 차례로 제압하고 분열된 제국을 유일 황제로서 재통일했다.",
+  "lessons": [
+    {
+      "title": "분열된 믿음은 제국을 무너뜨리지만, 통합된 신앙은 어떤 군대보다 강력한 방패가 된다.",
+      "content": "조직 내에서 공통의 가치관과 비전을 공유하도록 힘쓰십시오. 구성원들을 정신적으로 하나로 묶는 강력한 유대감은 외부의 어떤 위기도 극복할 수 있는 힘이 됩니다."
+    },
+    {
+      "title": "옛 성벽에 머물러서는 새로운 미래를 방어할 수 없다. 제국의 중심은 생동하는 곳으로 향해야 한다.",
+      "content": "과거의 성공 방식이나 익숙한 환경에 안주하지 말고 과감하게 변화를 시도하십시오. 미래를 선도하기 위해서는 새로운 중심지를 개척하고 시스템을 혁신해야 합니다."
+    },
+    {
+      "title": "하늘의 뜻을 읽는 자만이 땅의 혼란을 잠재우고 새로운 질서를 세울 수 있다.",
+      "content": "눈앞의 이익이나 당장의 상황에만 얽매이지 말고, 시대의 거대한 흐름과 변화의 조짐을 예리하게 통찰하십시오. 통찰력을 갖춘 리더만이 혼돈 속에서 새로운 방향을 제시할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 콘스탄티누스 대제이다.",
+  "imageUrl": "/images/giants/constantine-the-great.jpg",
+  "dnaCode": "LRHI",
+  "era": "4세기의 거인 (272~337)"
+},
+  {
+  "id": "200",
+  "name": "다리우스 대제",
+  "category": "leadership",
+  "headline": "페르시아 제국의 최전성기를 이끌며 고대 세계에서 가장 체계적인 중앙집권 국가를 완성한 위대한 통치자다.",
+  "shortDescription": "다리우스 대제의 일대기와 지혜",
+  "slug": "darius-the-great",
+  "quote": "진실을 사랑하고 거짓을 미워하라.",
+  "pain": "다리우스 대제는 즉위 초기 권력의 정통성을 의심받았으며, 제국 전역에서 동시다발적으로 일어난 거대한 반란의 위협에 직면했다.",
+  "recovery": "그는 신속하고 단호한 군사 행동으로 반란을 모두 진압한 뒤, 체계적인 속주 제도와 통신망을 구축하여 제국의 완전한 통합을 이룩했다.",
+  "lessons": [
+    {
+      "title": "진실을 사랑하고 거짓을 미워하라.",
+      "content": "지도자는 정직함을 최우선의 가치로 삼아야 합니다. 스스로 진실을 수호하고 구성원들에게 투명하게 다가갈 때 조직은 견고한 신뢰 위에 서게 됩니다."
+    },
+    {
+      "title": "나의 통치 아래 강자는 약자를 핍박하지 못할 것이다.",
+      "content": "강력한 권력일수록 약자를 보호하는 데 사용되어야 합니다. 공정한 제도를 확립하고 소외된 자들을 돌보는 것이 진정한 리더십의 본질입니다."
+    },
+    {
+      "title": "먼 곳의 소식을 곁에 있는 것처럼 듣게 하라.",
+      "content": "원활한 소통과 정보의 흐름은 거대한 조직을 운영하는 핵심 요소입니다. 구성원들 간의 끊임없는 소통 채널을 유지하여 위기에 신속하게 대처하십시오."
+    }
+  ],
+  "persona": "당신은 다리우스 대제이다.",
+  "imageUrl": "/images/giants/darius-the-great.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 6세기의 거인 (550 BC~486 BC)"
+},
+  {
+  "id": "257",
+  "name": "다테 마사무네",
+  "category": "leadership",
+  "headline": "신체적 결함을 극복하고 독안룡으로 불리며 센고쿠 시대의 험난한 파고를 이겨낸 천재적인 전략가다.",
+  "shortDescription": "다테 마사무네의 일대기와 지혜",
+  "slug": "date-masamune",
+  "quote": "이 세상에 불가능은 없다. 마음먹기에 달렸을 뿐이다.",
+  "pain": "어릴 적 천연두로 한쪽 눈을 잃어 큰 좌절을 겪었으며, 사방이 적대적인 가문으로 둘러싸인 고립무원의 위기에 처했다.",
+  "recovery": "그는 자신의 신체적 결함을 불굴의 의지로 극복하고, 뛰어난 기동전술과 유연한 외교력을 통해 위기를 기회로 바꾸며 광대한 영토를 차지했다.",
+  "lessons": [
+    {
+      "title": "이 세상에 불가능은 없다. 마음먹기에 달렸을 뿐이다.",
+      "content": "자신의 한계를 스스로 규정하지 마십시오. 강력한 의지와 긍정적인 마음가짐을 가진다면 어떠한 난관이라도 충분히 극복할 수 있습니다."
+    },
+    {
+      "title": "때를 기다릴 줄 아는 자가 결국 승리한다.",
+      "content": "성급한 결정은 패배를 부릅니다. 인내심을 가지고 시대의 흐름을 냉철하게 분석하며 가장 적절한 기회가 올 때까지 준비하십시오."
+    },
+    {
+      "title": "멀리 보는 자는 좁은 우물에 갇히지 않는다.",
+      "content": "당장 눈앞에 닥친 현실에만 매몰되지 말고 더 넓은 세상을 바라보십시오. 개방적인 태도로 새로운 지식을 수용할 때 혁신이 일어납니다."
+    }
+  ],
+  "persona": "당신은 다테 마사무네이다.",
+  "imageUrl": "/images/giants/date-masamune.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1567~1636)"
+},
+  {
+  "id": "491",
+  "name": "다비드 벤구리온",
+  "category": "leadership",
+  "headline": "불굴의 의지와 탁월한 실용주의를 통해 2천 년 만에 유대 민족의 독립 국가인 이스라엘을 건국한 위대한 지도자다.",
+  "shortDescription": "다비드 벤구리온의 일대기와 지혜",
+  "slug": "david-ben-gurion",
+  "quote": "현실주의자가 되려면 기적을 믿어야 한다.",
+  "pain": "조국이 없는 절망적인 상황 속에서, 수많은 강대국의 이해관계와 주변 아랍 국가들의 거센 무력 저항에 부딪혔다.",
+  "recovery": "그는 국제 사회의 지지를 이끌어내는 탁월한 외교술과 결단력 있는 무장 투쟁을 병행하여 기적적으로 독립 국가를 선포하고 수호해냈다.",
+  "lessons": [
+    {
+      "title": "현실주의자가 되려면 기적을 믿어야 한다.",
+      "content": "어떤 위기 속에서도 결코 희망을 잃지 마십시오. 불가능해 보이는 비전이라도 흔들림 없이 추진할 때 기적은 현실이 됩니다."
+    },
+    {
+      "title": "국가의 힘은 그 국민이 흘리는 땀방울에서 나온다.",
+      "content": "노동의 가치를 소중히 여기고 솔선수범하십시오. 지도자가 앞장서서 헌신할 때 구성원 전체의 결속력이 강해집니다."
+    },
+    {
+      "title": "미래는 척박한 사막을 개척하는 자들의 것이다.",
+      "content": "안락한 현실에 안주하지 말고 끊임없이 새로운 한계에 도전하십시오. 불모지에서 새로운 가능성을 찾는 모험심이 위대한 성취를 만듭니다."
+    }
+  ],
+  "persona": "당신은 다비드 벤구리온이다.",
+  "imageUrl": "/images/giants/david-ben-gurion.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1886~1973)"
+},
+  {
+  "id": "478",
+  "name": "디오클레티아누스",
+  "category": "leadership",
+  "headline": "무너져가던 로마 제국을 대대적인 개혁으로 부활시키고 사두정치를 창안한 탁월한 행정가이자 개혁 군주다.",
+  "shortDescription": "디오클레티아누스의 일대기와 지혜",
+  "slug": "diocletian",
+  "quote": "모든 것을 혼자 짊어지려는 자는 가장 먼저 쓰러진다.",
+  "pain": "로마 제국이 내부 반란과 외부 침략, 그리고 심각한 경제 파탄으로 멸망의 위기에 처해 있었다.",
+  "recovery": "사두정치라는 획기적인 권력 분할 체제를 도입하고, 철저한 관료제와 군대 개편을 통해 제국을 완벽하게 재건해냈다.",
+  "lessons": [
+    {
+      "title": "모든 것을 혼자 짊어지려는 자는 가장 먼저 쓰러진다.",
+      "content": "조직의 위기를 극복하기 위해서는 적절한 권한 위임이 필수적입니다. 유능한 조력자들과 책임과 권력을 나눌 때 조직은 진정으로 굳건해집니다."
+    },
+    {
+      "title": "부패의 고리는 철저한 시스템으로 끊어내야 한다.",
+      "content": "근본적인 개혁은 제도의 구조적인 변화에서 시작됩니다. 명확한 행정 시스템과 관료제를 구축하여 위기를 구조적으로 극복하십시오."
+    },
+    {
+      "title": "권력을 탐하는 자보다 양배추를 가꾸는 자가 더 평화롭다.",
+      "content": "최고의 자리에서 물러날 때를 아는 것은 리더의 위대한 덕목입니다. 권력에 대한 집착을 버리고 대의를 위해 자발적으로 자리에서 내려올 수 있는 용기를 가지십시오."
+    }
+  ],
+  "persona": "당신은 디오클레티아누스이다.",
+  "imageUrl": "/images/giants/diocletian.jpg",
+  "dnaCode": "LRHI",
+  "era": "3세기의 거인 (244~311)"
+},
+  {
+  "id": "470",
+  "name": "도미티아누스",
+  "category": "leadership",
+  "headline": "원로원과 대립하며 폭군으로 기록되었으나, 탁월한 행정 능력으로 로마 제국의 재정과 국방을 굳건히 한 숨겨진 명군이다.",
+  "shortDescription": "도미티아누스의 일대기와 지혜",
+  "slug": "domitian",
+  "quote": "무능한 선의보다 유능한 독재가 낫다.",
+  "pain": "재정 파탄과 고질적인 귀족 부패, 그리고 북방 민족의 위협이라는 심각한 대내외적 위기에 시달렸다.",
+  "recovery": "그는 철저한 미시 관리와 엄격한 조세 개혁으로 재정을 흑자로 돌려세우고, 국경 요새화를 통해 평화를 지켜냈다.",
+  "lessons": [
+    {
+      "title": "무능한 선의보다 유능한 독재가 낫다.",
+      "content": "때로는 위기를 극복하기 위해 강력하고 단호한 추진력이 필요합니다. 인기에 영합하기보다 확고한 원칙을 가지고 단호하게 결단하십시오."
+    },
+    {
+      "title": "제국의 힘은 화려한 정복이 아닌 굳건한 국경에서 나온다.",
+      "content": "무리한 외형적 확장보다 내부의 내실을 다지는 것이 중요합니다. 자신의 자원을 정확히 파악하고 방어선을 공고히 다지는 실용적인 태도를 취하십시오."
+    },
+    {
+      "title": "부패한 엘리트는 가장 먼저 도려내야 할 썩은 살이다.",
+      "content": "조직의 기강을 바로잡기 위해서는 타협 없는 공정함이 요구됩니다. 아무리 권력을 쥔 자라도 잘못을 저질렀다면 엄단하여 신뢰를 회복해야 합니다."
+    }
+  ],
+  "persona": "당신은 도미티아누스이다.",
+  "imageUrl": "/images/giants/domitian.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (51~96)"
+},
+  {
+  "id": "273",
+  "name": "엘리자베스 2세",
+  "category": "leadership",
+  "headline": "격동의 근현대사 속에서 70년 동안 영국과 영연방의 통합을 지켜낸 헌신과 책임의 군주이다.",
+  "shortDescription": "엘리자베스 2세의 일대기와 지혜",
+  "slug": "elizabeth-ii",
+  "quote": "우리가 직면한 문제는 과거의 어느 때보다 복잡하지만, 인내와 인류애로 극복하지 못할 위기는 없습니다.",
+  "pain": "1990년대 다이애나 왕세자비의 죽음을 비롯한 왕실의 여러 스캔들로 인해 대중의 신뢰가 추락하고 군주제 폐지 여론이 거세게 일었다.",
+  "recovery": "국민의 정서를 적극적으로 수용하고 전례 없는 대국민 연설을 통해 슬픔을 공유하며, 왕실의 재정을 투명하게 공개하는 등 현대적인 쇄신을 이끌어내어 신뢰를 회복했다.",
+  "lessons": [
+    {
+      "title": "우리가 직면한 문제는 과거의 어느 때보다 복잡하지만, 인내와 인류애로 극복하지 못할 위기는 없습니다.",
+      "content": "어떠한 거대한 위기 앞에서도 인간에 대한 존중과 끈기를 잃지 말고 연대하여 문제를 풀어나가십시오."
+    },
+    {
+      "title": "슬픔은 우리가 사랑한 대가로 지불해야 하는 가격입니다.",
+      "content": "사랑과 헌신의 가치를 잊지 마시고, 상실의 아픔마저도 소중한 경험으로 끌어안으며 앞으로 나아가십시오."
+    },
+    {
+      "title": "나의 삶이 길든 짧든, 나의 모든 생애를 여러분을 위해 헌신할 것을 모든 분들 앞에서 맹세합니다.",
+      "content": "자신에게 주어진 책임과 의무를 끝까지 저버리지 말고, 언제나 사람들과 함께하며 본분을 다하십시오."
+    }
+  ],
+  "persona": "당신은 엘리자베스 2세이다.",
+  "imageUrl": "/images/giants/elizabeth-ii.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1926~2022)"
+},
+  {
+  "id": "271",
+  "name": "에밀리오 아기날도",
+  "category": "leadership",
+  "headline": "1898년 필리핀의 독립을 선포하고 아시아 최초의 민주 공화국을 수립한 초대 대통령이자 혁명가이다.",
+  "shortDescription": "에밀리오 아기날도의 일대기와 지혜",
+  "slug": "emilio-aguinaldo",
+  "quote": "우리는 결코 노예가 되지 않을 것이며, 피 한 방울이 남을 때까지 조국의 자유를 위해 싸울 것입니다.",
+  "pain": "갓 출범한 아시아 최초의 공화국이 서구 열강의 묵인 아래 미국의 새로운 식민지로 전락할 위기에 처했으며, 압도적인 군사력의 차이로 인해 정규군이 궤멸당했다.",
+  "recovery": "험준한 산악 지대로 거점을 옮겨 3년이 넘는 기간 동안 치열한 게릴라전을 지휘하며 필리핀 민족의 꺾이지 않는 자주독립 의지를 전 세계에 알렸다.",
+  "lessons": [
+    {
+      "title": "우리는 결코 노예가 되지 않을 것이며, 피 한 방울이 남을 때까지 조국의 자유를 위해 싸울 것입니다.",
+      "content": "어떠한 거대한 억압 앞에서도 스스로의 자유와 존엄을 포기하지 말고 끝까지 맞서 싸우십시오."
+    },
+    {
+      "title": "무지는 억압을 낳고, 지식만이 민족을 진정한 해방으로 이끕니다.",
+      "content": "끊임없이 배우고 통찰력을 기르며, 무지에서 벗어나 스스로의 운명을 개척하는 주인이 되십시오."
+    },
+    {
+      "title": "우리의 독립은 다른 누군가가 쥐어주는 선물이 아니라, 우리 스스로의 힘으로 쟁취해야 할 권리입니다.",
+      "content": "진정한 성취와 독립은 타인의 호의를 기다리는 것이 아니라 스스로의 힘으로 당당히 쟁취하는 것임을 명심하십시오."
+    }
+  ],
+  "persona": "당신은 에밀리오 아기날도이다.",
+  "imageUrl": "/images/giants/emilio-aguinaldo.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1869~1964)"
+},
+  {
+  "id": "239",
+  "name": "유방",
+  "category": "leadership",
+  "headline": "평범한 농민 출신으로 뛰어난 용인술을 발휘하여 초한전쟁을 승리로 이끌고 한나라를 건국한 위대한 창업 군주이다.",
+  "shortDescription": "유방의 일대기와 지혜",
+  "slug": "emperor-gaozu-of-han",
+  "quote": "군막 안에서 계책을 짜서 천 리 밖의 승리를 결정짓는 데는 내가 장량만 못하고, 국가를 안정시키고 백성을 다독이는 데는 소하만 못하며, 백만 대군을 이끌고 싸워 이기는 데는 한신만 못하다. 나는 이 세 사람을 쓸 줄 알았기에 천하를 얻은 것이다.",
+  "pain": "홍문연에서 항우에게 목숨을 잃을 뻔한 위기를 넘기고 척박한 파촉 땅으로 쫓겨나면서 천하 통일의 꿈이 좌절될 위기에 처했다.",
+  "recovery": "자신의 한계를 인정하고 장량, 소하, 한신 등 뛰어난 인재들에게 전폭적인 신뢰와 권한을 위임함으로써 항우의 압도적인 군사력을 극복했다.",
+  "lessons": [
+    {
+      "title": "군막 안에서 계책을 짜서 천 리 밖의 승리를 결정짓는 데는 내가 장량만 못하고, 국가를 안정시키고 백성을 다독이는 데는 소하만 못하며, 백만 대군을 이끌고 싸워 이기는 데는 한신만 못하다. 나는 이 세 사람을 쓸 줄 알았기에 천하를 얻은 것이다.",
+      "content": "자신의 부족함을 겸허히 인정하고 다른 사람의 장점을 적극적으로 신뢰하여 함께 위대한 목표를 이루십시오."
+    },
+    {
+      "title": "사람을 의심하려거든 처음부터 쓰지 말고, 사람을 썼다면 절대 의심하지 마라.",
+      "content": "누군가에게 일을 맡겼다면 전적인 믿음을 주고 책임감을 부여하여 그가 최선의 역량을 발휘하게 하십시오."
+    },
+    {
+      "title": "큰 바람이 일어나 구름이 날아오르니, 천하에 위세를 떨치며 고향으로 돌아왔네. 어찌 용맹한 인재들을 얻어 이 사방을 지키지 않으리오!",
+      "content": "아무리 큰 성공을 거두었더라도 이를 유지하기 위해서는 끊임없이 훌륭한 사람들을 찾고 그들과 함께 미래를 대비하십시오."
+    }
+  ],
+  "persona": "당신은 유방이다.",
+  "imageUrl": "/images/giants/emperor-gaozu-of-han.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 3세기의 거인 (256 BC~195 BC)"
+},
+  {
+  "id": "199",
+  "name": "메이지 일왕",
+  "category": "leadership",
+  "headline": "19세기 일본의 쇄국 정책을 끝내고 서구화와 근대화를 성공적으로 이끌어낸 메이지 유신의 상징적 군주이다.",
+  "shortDescription": "메이지 일왕의 일대기와 지혜",
+  "slug": "emperor-meiji",
+  "quote": "구습을 타파하고 천지의 공명정대한 도리에 따라 새 시대를 열어갈 것이다.",
+  "pain": "14세의 어린 나이에 즉위하여 수백 년간 실권을 쥔 막부 세력과 서구 열강의 거센 외세 침탈 위협 사이에서 국가가 분열될 위기에 처했다.",
+  "recovery": "낡은 구습을 타파하고 서구 문물을 적극적으로 수용하는 '메이지 유신'을 선포하며, 스스로 서양식 복식과 문화를 실천해 국민들을 근대화로 결속시켰다.",
+  "lessons": [
+    {
+      "title": "구습을 타파하고 천지의 공명정대한 도리에 따라 새 시대를 열어갈 것이다.",
+      "content": "낡은 관습과 편견에 얽매이지 말고, 보편적이고 올바른 가치관에 따라 새로운 변화를 적극적으로 수용하십시오."
+    },
+    {
+      "title": "널리 회의를 일으켜 모든 국사를 여론에 따라 결정지을 것이다.",
+      "content": "독단적으로 판단하기보다는 다양한 사람들의 의견을 경청하고 소통하여 합리적인 결론을 도출하십시오."
+    },
+    {
+      "title": "지식을 세계에서 구하여 나라의 기틀을 크게 떨치게 하라.",
+      "content": "좁은 우물 안의 시각에 머물지 말고, 전 세계의 유익한 지식과 문화를 끊임없이 학습하여 자신을 성장시키십시오."
+    }
+  ],
+  "persona": "당신은 메이지 일왕이다.",
+  "imageUrl": "/images/giants/emperor-meiji.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1852~1912)"
+},
+  {
+  "id": "147",
+  "name": "당 태종",
+  "category": "leadership",
+  "headline": "'정관의 치'로 불리는 중국 역사상 최고의 태평성대를 열어젖힌 당나라 제2대 황제이자 진정한 성군의 표상이다.",
+  "shortDescription": "당 태종의 일대기와 지혜",
+  "slug": "emperor-taizong-of-tang",
+  "quote": "구리로 거울을 만들면 의관을 단정히 할 수 있고, 역사를 거울로 삼으면 천하의 흥망성쇠를 알 수 있으며, 사람을 거울로 삼으면 자신의 득실을 바로잡을 수 있다.",
+  "pain": "제국의 건국에 가장 큰 공을 세웠음에도 형제들의 시기와 암살 위협에 시달리며 목숨이 경각에 달하는 끔찍한 권력 투쟁에 직면했다.",
+  "recovery": "형제들을 척살하는 참혹한 정변을 통해 권력을 장악한 뒤, 오직 완벽한 성군이 되겠다는 뼈를 깎는 자기성찰과 민생 안정을 통해 도덕적 결함을 극복했다.",
+  "lessons": [
+    {
+      "title": "구리로 거울을 만들면 의관을 단정히 할 수 있고, 역사를 거울로 삼으면 천하의 흥망성쇠를 알 수 있으며, 사람을 거울로 삼으면 자신의 득실을 바로잡을 수 있다.",
+      "content": "자신의 허물을 가감 없이 말해주는 정직하고 비판적인 사람을 곁에 두고, 끊임없이 스스로를 성찰하고 발전시키십시오."
+    },
+    {
+      "title": "군주는 배요, 백성은 물이다. 물은 배를 띄우기도 하지만 엎어버리기도 한다.",
+      "content": "당신에게 주어진 권력이나 지위는 당신을 따르는 사람들의 지지가 있을 때만 유지될 수 있음을 두려운 마음으로 명심하십시오."
+    },
+    {
+      "title": "창업하는 것과 수성하는 것 중 어느 것이 더 어려운가? 무력으로 천하를 얻는 것보다 다스리는 자의 마음을 다스려 천하를 지키는 것이 훨씬 더 어렵다.",
+      "content": "성공을 쟁취하는 것보다 이를 올바르게 유지하고 발전시키는 것이 더욱 어려우니, 교만함을 버리고 겸손함을 유지하십시오."
+    }
+  ],
+  "persona": "당신은 당 태종이다.",
+  "imageUrl": "/images/giants/emperor-taizong-of-tang.jpg",
+  "dnaCode": "LRHI",
+  "era": "7세기의 거인 (598~649)"
+},
+  {
+  "id": "198",
+  "name": "한 무제",
+  "category": "leadership",
+  "headline": "강력한 중앙집권과 흉노 정벌을 통해 한나라를 역사상 최고의 대제국으로 탈바꿈시킨 정복 군주다.",
+  "shortDescription": "한 무제의 일대기와 지혜",
+  "slug": "emperor-wu-of-han",
+  "quote": "하늘이 내린 인재를 알아보고 적재적소에 쓰는 것이 제국을 다스리는 가장 큰 근본이다.",
+  "pain": "즉위 초기 흉노의 끊임없는 침략과 지방 호족들의 세력 확장으로 인해 제국의 안보와 황권이 심각하게 위협받는 시련을 겪었다.",
+  "recovery": "유교를 국교화하여 사상적 통합을 이루고, 뛰어난 장군들을 발탁하여 흉노를 북방으로 몰아내어 강력한 중앙집권 제국을 완성했다.",
+  "lessons": [
+    {
+      "title": "하늘이 내린 인재를 알아보고 적재적소에 쓰는 것이 제국을 다스리는 가장 큰 근본이다.",
+      "content": "편견 없이 능력만을 보고 사람을 발탁하여 큰 과업을 이루십시오."
+    },
+    {
+      "title": "외부의 적을 물리치려면 먼저 내부의 사상과 기강을 하나로 단단히 결속시켜야 한다.",
+      "content": "조직의 위기를 극복하려면 내부의 확고한 원칙과 통합을 먼저 이루십시오."
+    },
+    {
+      "title": "오랜 전쟁은 백성의 삶을 피폐하게 하니, 군주 스스로 과오를 뉘우치고 민생을 돌보아야 한다.",
+      "content": "자신의 지나친 욕심이 초래한 잘못을 솔직하게 인정하고 바로잡으십시오."
+    }
+  ],
+  "persona": "당신은 한 무제이다.",
+  "imageUrl": "/images/giants/emperor-wu-of-han.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 2세기의 거인 (기원전 156년~기원전 87년)"
+},
+  {
+  "id": "436",
+  "name": "서태후",
+  "category": "leadership",
+  "headline": "파란만장한 19세기 말 청나라의 권력을 독점하며 무너져가는 제국을 통치했던 비정한 철의 여인이다.",
+  "shortDescription": "서태후의 일대기와 지혜",
+  "slug": "empress-dowager-cixi",
+  "quote": "위기의 순간일수록 냉혹한 판단력으로 권력의 중심을 확고하게 거머쥐어야 무너지지 않는다.",
+  "pain": "태평천국의 난과 서구 열강의 무력 침탈로 인해 국가의 근간이 흔들리고 제국이 붕괴될지도 모르는 치명적인 위기에 직면했다.",
+  "recovery": "탁월한 정치적 수완으로 한족 관료들을 등용하여 내부 반란을 진압하고, 권력을 철저히 장악하여 무너져가는 청나라의 명맥을 연장시켰다.",
+  "lessons": [
+    {
+      "title": "위기의 순간일수록 냉혹한 판단력으로 권력의 중심을 확고하게 거머쥐어야 무너지지 않는다.",
+      "content": "혼란스러운 상황에서는 단호한 결단력으로 조직의 중심을 굳게 잡으십시오."
+    },
+    {
+      "title": "모든 파벌과 세력을 끊임없이 경쟁시키고 조율하여 오직 나만을 바라보게 하라.",
+      "content": "이해관계가 얽힌 상황에서는 적절한 견제와 균형을 통해 주도권을 쥐십시오."
+    },
+    {
+      "title": "변화의 파도에 눈을 감고 낡은 전통에만 집착한다면 결국 거대한 재앙을 피할 수 없다.",
+      "content": "시대의 흐름을 외면하지 말고 근본적인 변화와 혁신을 두려워하지 마십시오."
+    }
+  ],
+  "persona": "당신은 서태후이다.",
+  "imageUrl": "/images/giants/empress-dowager-cixi.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1835년~1908년)"
+},
+  {
+  "id": "227",
+  "name": "피델 카스트로",
+  "category": "leadership",
+  "headline": "미국의 코앞에서 사회주의 혁명을 성공시키고 반세기 동안 쿠바를 흔들림 없이 통치한 불굴의 혁명가다.",
+  "shortDescription": "피델 카스트로의 일대기와 지혜",
+  "slug": "fidel-castro",
+  "quote": "역사가 나를 무죄로 하리라. 진정한 정의를 향한 투쟁은 결코 실패로 끝나지 않는다.",
+  "pain": "미국의 가혹한 경제 봉쇄와 수많은 암살 위협, 그리고 피그스만 침공과 같은 노골적인 군사적 위협에 끊임없이 시달렸다.",
+  "recovery": "소련과의 동맹을 통해 국가의 생존을 확보하고, 압도적인 카리스마와 민족주의적 자존심으로 미국에 당당히 맞서 체제를 수호했다.",
+  "lessons": [
+    {
+      "title": "역사가 나를 무죄로 하리라. 진정한 정의를 향한 투쟁은 결코 실패로 끝나지 않는다.",
+      "content": "옳다고 믿는 신념을 향해 나아갈 때는 어떠한 역경에도 굴복하지 마십시오."
+    },
+    {
+      "title": "혁명은 총구에서 시작되지만, 진정한 승리는 인민의 굳건한 신뢰와 지지에서 완성된다.",
+      "content": "강력한 힘보다 사람들의 마음을 얻고 신뢰를 구축하는 것을 우선하십시오."
+    },
+    {
+      "title": "거대한 제국의 압박 앞에서도 무릎 꿇지 않는 자존심이 국가를 지탱하는 유일한 무기다.",
+      "content": "강자 앞에서도 주눅 들지 않는 당당함과 자존감을 끝까지 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 피델 카스트로이다.",
+  "imageUrl": "/images/giants/fidel-castro.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1926년~2016년)"
+},
+  {
+  "id": "427",
+  "name": "가이우스 마리우스",
+  "category": "leadership",
+  "headline": "파격적인 군제 개혁으로 위기에 빠진 공화국을 구원했으나, 역설적으로 공화정의 몰락을 잉태한 로마의 장군이다.",
+  "shortDescription": "가이우스 마리우스의 일대기와 지혜",
+  "slug": "gaius-marius",
+  "quote": "출신이 비천하다는 것은 핑계에 불과하며, 진정한 가치는 전장에서 흘린 땀과 피로 증명된다.",
+  "pain": "평민 출신이라는 신분적 한계와 무능한 귀족들의 견제 속에서, 게르만족의 대규모 침공으로 공화국 전체가 파멸할 위기에 처했다.",
+  "recovery": "무산자 계급을 자원병으로 모집하는 파격적인 군제 개혁을 단행하여 최강의 군단을 창설하고, 외적을 완벽하게 섬멸하여 로마를 구원했다.",
+  "lessons": [
+    {
+      "title": "출신이 비천하다는 것은 핑계에 불과하며, 진정한 가치는 전장에서 흘린 땀과 피로 증명된다.",
+      "content": "주어진 환경을 탓하지 말고 당신의 실력과 헌신으로 스스로를 증명하십시오."
+    },
+    {
+      "title": "낡은 관습과 제도가 국가를 파멸로 이끈다면, 주저 없이 모든 것을 부수고 새롭게 창조하라.",
+      "content": "기존의 방식이 한계에 부딪혔을 때는 과감하고 파격적인 혁신을 시도하십시오."
+    },
+    {
+      "title": "오직 개인에게만 충성하는 조직은 당장의 위기는 넘길지라도 결국 공동체를 파괴하게 된다.",
+      "content": "개인의 이익보다 조직 전체의 가치와 공익을 우선하는 문화를 만드십시오."
+    }
+  ],
+  "persona": "당신은 가이우스 마리우스이다.",
+  "imageUrl": "/images/giants/gaius-marius.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 2세기의 거인 (기원전 157년~기원전 86년)"
+},
+  {
+  "id": "494",
+  "name": "가말 압델 나세르",
+  "category": "leadership",
+  "headline": "이집트 혁명을 주도하고 아랍 민족주의를 제창하며 중동의 자주독립을 이끈 범아랍의 절대적 영웅이다.",
+  "shortDescription": "가말 압델 나세르의 일대기와 지혜",
+  "slug": "gamal-abdel-nasser",
+  "quote": "부패한 권력을 무너뜨리는 가장 강력한 힘은 억압받는 민중들의 가슴속에 타오르는 분노다.",
+  "pain": "영국을 비롯한 서구 제국주의의 억압적인 식민 지배와 부패한 이집트 왕정으로 인해 민중들은 극심한 빈곤과 굴욕 속에 신음했다.",
+  "recovery": "자유장교단을 이끌고 무혈 쿠데타를 성공시켜 왕정을 종식시키고, 수에즈 운하 국유화로 제국주의에 맞서며 아랍의 자존심을 지켜냈다.",
+  "lessons": [
+    {
+      "title": "부패한 권력을 무너뜨리는 가장 강력한 힘은 억압받는 민중들의 가슴속에 타오르는 분노다.",
+      "content": "현실의 부당함에 분노할 줄 아는 용기가 위대한 변화의 첫걸음임을 명심하십시오."
+    },
+    {
+      "title": "외세의 압박에 굴복하여 스스로의 존엄을 포기한다면 영원히 노예의 굴레를 벗어날 수 없다.",
+      "content": "부당한 외부의 압력에 타협하지 말고 스스로의 독립성과 자존심을 지켜내십시오."
+    },
+    {
+      "title": "리더의 권위는 높은 자리가 아니라, 어려움 속에서도 자신을 믿고 따르는 민중의 눈물에서 나온다.",
+      "content": "지위가 주는 힘에 취하지 말고 구성원들의 진심 어린 공감과 지지를 이끌어내십시오."
+    }
+  ],
+  "persona": "당신은 가말 압델 나세르이다.",
+  "imageUrl": "/images/giants/gamal-abdel-nasser.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1918년~1970년)"
+},
+  {
+  "id": "280",
+  "name": "조르주 당통",
+  "category": "leadership",
+  "headline": "강력한 웅변과 카리스마로 프랑스 혁명을 이끌고 공화국을 수호한 불꽃 같은 혁명가이다.",
+  "shortDescription": "조르주 당통의 일대기와 지혜",
+  "slug": "georges-danton",
+  "quote": "용기를, 다시 한번 용기를, 언제나 용기를!",
+  "pain": "공포 정치의 광기 속에서 끊임없는 부패 혐의와 정적들의 생명의 위협에 시달렸다.",
+  "recovery": "죽음의 위협 앞에서도 망명을 거부하고 재판정에서 당당히 혁명의 진정한 가치와 관용을 외치며 최후를 맞이했다.",
+  "lessons": [
+    {
+      "title": "용기를, 다시 한번 용기를, 언제나 용기를!",
+      "content": "절망적인 위기 앞에서도 결코 물러서지 마십시오. 흔들림 없는 대담함과 불굴의 용기만이 닫힌 길을 열고 기적적인 승리를 쟁취할 수 있게 해줍니다."
+    },
+    {
+      "title": "조국을 신발 밑창에 붙여서 갈 수는 없다.",
+      "content": "자신이 속한 공동체와 국가에 대한 책임감을 회피하지 마십시오. 진정한 리더는 상황이 아무리 불리하더라도 도망치지 않고 자신의 책임을 다해야 합니다."
+    },
+    {
+      "title": "내 머리를 민중에게 보여주어라. 그럴 만한 가치가 있으니까.",
+      "content": "자신의 신념과 행동에 대해 마지막 순간까지 떳떳함을 유지하십시오. 스스로의 선택에 당당한 사람만이 죽음 앞에서도 존엄을 지킬 수 있습니다."
+    }
+  ],
+  "persona": "당신은 조르주 당통이다.",
+  "imageUrl": "/images/giants/georges-danton.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1759~1794)"
+},
+  {
+  "id": "59",
+  "name": "제로니모",
+  "category": "leadership",
+  "headline": "신출귀몰한 전술로 미국과 멕시코 군대에 맞서 아파치족의 마지막 저항을 이끈 전설적인 전사이다.",
+  "shortDescription": "제로니모의 일대기와 지혜",
+  "slug": "geronimo",
+  "quote": "우리가 왜 고향에서 쫓겨나야 하는지 나는 알 수 없다. 그곳은 위대한 정령이 우리에게 준 땅이다.",
+  "pain": "가족을 잃는 끔찍한 비극 속에서 조상의 땅을 뺏기고 강제 수용소로 내몰리는 거대한 억압을 겪었다.",
+  "recovery": "절망적인 전력 차이에도 불구하고 뛰어난 지략과 불굴의 용기로 강대국에 맞서 끈질기게 저항하며 전설을 남겼다.",
+  "lessons": [
+    {
+      "title": "우리가 왜 고향에서 쫓겨나야 하는지 나는 알 수 없다. 그곳은 위대한 정령이 우리에게 준 땅이다.",
+      "content": "자신이 마땅히 누려야 할 권리와 뿌리를 잊지 마십시오. 부당한 억압 앞에서도 자신의 정체성과 근원을 지키는 것이 진정한 자존감을 지키는 길입니다."
+    },
+    {
+      "title": "태양이 떠오르는 한 나는 싸울 것이다.",
+      "content": "어떤 역경 속에서도 끝까지 포기하지 않는 강인한 의지를 가지십시오. 생명이 지속되는 한 희망을 잃지 않고 저항하는 태도가 인간을 위대하게 만듭니다."
+    },
+    {
+      "title": "나는 내 부족을 위해 끝까지 싸웠고 후회는 없다.",
+      "content": "자신이 소중하게 여기는 가치와 사람들을 위해 최선을 다해 헌신하십시오. 모든 것을 바쳐 헌신한 사람은 결과에 상관없이 후회 없는 삶을 살 수 있습니다."
+    }
+  ],
+  "persona": "당신은 제로니모이다.",
+  "imageUrl": "/images/giants/geronimo.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1829~1909)"
+},
+  {
+  "id": "492",
+  "name": "골다 메이어",
+  "category": "leadership",
+  "headline": "이스라엘 건국의 주역이자 욤키푸르 전쟁의 위기에서 조국을 구한 이스라엘 최초의 여성 총리이다.",
+  "shortDescription": "골다 메이어의 일대기와 지혜",
+  "slug": "golda-meir",
+  "quote": "결정하고 그 결과를 받아들일 수 있는 용기가 없다면, 리더가 될 자격이 없다.",
+  "pain": "강대국들의 외면과 아랍 국가들의 거센 안보 위협 속에서 신생 국가 이스라엘의 생존을 책임져야 하는 막중한 압박감에 시달렸다.",
+  "recovery": "물러서지 않는 강철 같은 의지와 탁월한 외교력, 그리고 테러에 대한 단호한 원칙을 통해 국가를 멸망의 위기에서 수호해냈다.",
+  "lessons": [
+    {
+      "title": "결정하고 그 결과를 받아들일 수 있는 용기가 없다면, 리더가 될 자격이 없다.",
+      "content": "책임의 무게를 피하지 마십시오. 진정한 리더십은 어려운 결정을 내리고, 그로 인한 모든 비난과 결과를 기꺼이 감수하는 용기에서 비롯됩니다."
+    },
+    {
+      "title": "자신을 믿어라. 평생을 함께 살아야 할 사람은 바로 당신 자신이다.",
+      "content": "외부의 평가보다 스스로의 신념을 굳건히 다지십시오. 세상의 반대 앞에서도 스스로를 신뢰할 때 흔들리지 않는 삶의 중심을 잡을 수 있습니다."
+    },
+    {
+      "title": "비관주의는 내가 허용할 수 없는 사치이다.",
+      "content": "절망적인 상황에서도 결코 희망을 잃지 마십시오. 살아남기 위해서는 비관할 시간조차 사치라는 절박한 의지가 필요합니다."
+    }
+  ],
+  "persona": "당신은 골다 메이어이다.",
+  "imageUrl": "/images/giants/golda-meir.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1898~1978)"
+},
+  {
+  "id": "196",
+  "name": "공민왕",
+  "category": "leadership",
+  "headline": "원나라의 지배를 끊어내고 강력한 자주독립을 추진한 고려 후기의 개혁 군주이다.",
+  "shortDescription": "공민왕의 일대기와 지혜",
+  "slug": "gongmin-of-goryeo",
+  "quote": "백성의 억울함을 풀어주고 나라의 근본을 바로 세우는 것이 왕의 마땅한 도리이다.",
+  "pain": "강대국 원나라의 간섭과 부패한 권문세족의 저항, 그리고 외적의 침입이라는 삼중고에 시달렸다.",
+  "recovery": "과단성 있는 숙청과 자주적 개혁 정책을 통해 국가의 주권을 회복하고 빼앗긴 영토를 수복해냈다.",
+  "lessons": [
+    {
+      "title": "백성의 억울함을 풀어주고 나라의 근본을 바로 세우는 것이 왕의 마땅한 도리이다.",
+      "content": "부당한 관행을 타파하고 공정함을 회복하는 데 주저하지 마십시오. 공동체의 가장 약한 자들의 억울함을 풀어주는 것이야말로 진정한 지도자의 의무입니다."
+    },
+    {
+      "title": "낡은 악습을 끊어내지 못하면 새로운 시대를 열 수 없다.",
+      "content": "오랜 시간 굳어진 잘못된 습관이나 관행을 과감하게 끊어내십시오. 과거의 족쇄에서 벗어나야만 새로운 미래를 창조할 수 있습니다."
+    },
+    {
+      "title": "인재를 널리 구하고 바르게 쓰는 것만이 나라의 명운을 바꿀 수 있다.",
+      "content": "신분이나 배경에 얽매이지 말고 능력과 품성을 갖춘 인재를 소중히 여기십시오. 새로운 가치를 창출하는 혁신적인 인재들이 모일 때 큰 변화를 이끌어낼 수 있습니다."
+    }
+  ],
+  "persona": "당신은 공민왕이다.",
+  "imageUrl": "/images/giants/gongmin-of-goryeo.jpg",
+  "dnaCode": "LRHI",
+  "era": "14세기의 거인 (1330~1374)"
+},
+  {
+  "id": "146",
+  "name": "관우",
+  "category": "leadership",
+  "headline": "죽음 앞에서도 꺾이지 않은 충절과 압도적인 무공으로 신이 된 삼국지 최고의 맹장이다.",
+  "shortDescription": "관우의 일대기와 지혜",
+  "slug": "guan-yu",
+  "quote": "재물은 산과 같이 쌓여도 마음을 움직일 수 없고, 칼날이 목에 들어와도 뜻을 꺾을 수 없다.",
+  "pain": "유비와 생이별하여 조조에게 투항해야 했던 굴욕적인 포로 생활과 끊임없는 유혹에 직면했다.",
+  "recovery": "엄청난 재물과 작위의 유혹을 모두 물리치고, 굳은 절개로 옛 주군을 찾아 수천 리 길을 돌아가는 충의를 증명했다.",
+  "lessons": [
+    {
+      "title": "재물은 산과 같이 쌓여도 마음을 움직일 수 없고, 칼날이 목에 들어와도 뜻을 꺾을 수 없다.",
+      "content": "세속적인 이익이나 당장의 편안함에 신념을 팔아넘기지 마십시오. 흔들림 없는 원칙과 의리만이 진정으로 가치 있는 삶을 만들어 줍니다."
+    },
+    {
+      "title": "어찌 범의 딸을 개의 아들에게 시집보내겠는가.",
+      "content": "자신의 가치와 자존감을 함부로 타협하지 마십시오. 다만, 오만함이 관계를 망치지 않도록 적절한 경계와 존중을 잃지 않는 지혜가 필요합니다."
+    },
+    {
+      "title": "은혜를 입었으면 반드시 갚고, 약속을 했으면 반드시 지킨다.",
+      "content": "다른 사람에게 받은 호의는 결코 잊지 말고 은혜로 갚으십시오. 신뢰는 행동으로 증명할 때 비로소 완성되며 사람들의 마음을 얻을 수 있습니다."
+    }
+  ],
+  "persona": "당신은 관우이다.",
+  "imageUrl": "/images/giants/guan-yu.jpg",
+  "dnaCode": "LRHI",
+  "era": "3세기의 거인 (160~220)"
+},
+  {
+  "id": "188",
+  "name": "광해군",
+  "category": "leadership",
+  "headline": "임진왜란 이후의 전후 복구를 주도하고, 실용적인 중립 외교로 조선의 안위를 지키려 했던 조선 제15대 국왕이다.",
+  "shortDescription": "광해군의 일대기와 지혜",
+  "slug": "gwanghaegun-of-joseon",
+  "quote": "국가의 안위는 명분이나 사대가 아니라 굳건한 국방과 실질적인 국익에 있습니다.",
+  "pain": "임진왜란의 극심한 혼란 속에서 세자로 책봉되어 전란을 수습해야 했으며, 즉위 후에는 명나라와 후금 사이의 외교적 압박과 정통성 시비에 시달렸다.",
+  "recovery": "대동법 시행과 대규모 문화 복구 사업으로 전후 국가를 재건하고, 명분보다 국익을 우선시하는 냉철한 중립 외교를 통해 조선을 거대한 국제적 충돌에서 지켜냈다.",
+  "lessons": [
+    {
+      "title": "국가의 안위는 명분이나 사대가 아니라 굳건한 국방과 실질적인 국익에 있습니다.",
+      "content": "지도자는 외부의 압력이나 형식적인 명분에 얽매이지 말고, 오직 공동체의 실질적인 이익과 생존을 최우선으로 고려하여 판단하십시오."
+    },
+    {
+      "title": "백성의 삶이 안정되어야 비로소 군주의 자리가 튼튼해지는 법입니다.",
+      "content": "어려운 시기일수록 구성원들의 가장 기본적인 필요와 고충을 헤아리고, 이를 근본적으로 해결하기 위한 실질적인 제도를 마련하는 데 힘쓰십시오."
+    },
+    {
+      "title": "과거의 참혹한 상처를 치유하기 위해서는 책을 펴내어 지식을 나누고 문물을 다듬어야 합니다.",
+      "content": "위기를 극복한 후에는 파괴된 시스템을 복구하는 데 그치지 말고, 기록과 교육을 통해 미래의 자산을 지속적으로 축적하는 거시적 안목을 가지십시오."
+    }
+  ],
+  "persona": "당신은 광해군이다.",
+  "imageUrl": "/images/giants/gwanghaegun-of-joseon.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1575~1641)"
+},
+  {
+  "id": "473",
+  "name": "하드리아누스",
+  "category": "leadership",
+  "headline": "로마 제국의 팽창을 멈추고 방어 체계와 행정망을 정비하여 팍스 로마나를 절정으로 이끈 오현제 중 한 명이다.",
+  "shortDescription": "하드리아누스의 일대기와 지혜",
+  "slug": "hadrian",
+  "quote": "제국의 진정한 힘은 끝없는 외연 확장이 아니라 확고하고 튼튼한 내부의 안정에서 나옵니다.",
+  "pain": "역사상 가장 넓게 팽창한 로마 제국의 막대한 통치 부담을 떠안았으며, 속주들의 빈번한 반란과 유대 지역의 격렬한 저항에 직면하여 제국의 안정을 유지해야 했다.",
+  "recovery": "무리한 영토 확장을 중단하고 국경 방어선을 확고히 구축했으며, 제국 전역을 끊임없이 순행하며 행정 체계를 철저히 정비하여 제국의 평화와 번영을 이룩했다.",
+  "lessons": [
+    {
+      "title": "제국의 진정한 힘은 끝없는 외연 확장이 아니라 확고하고 튼튼한 내부의 안정에서 나옵니다.",
+      "content": "자신의 한계를 명확히 인식하고 무리한 외연 확장보다는 내실을 다지며 조직의 기초 체력을 튼튼하게 구축하는 데 역량을 집중하십시오."
+    },
+    {
+      "title": "모든 속주의 생생한 목소리를 직접 눈으로 보고 듣는 것만이 올바른 통치의 시작입니다.",
+      "content": "현장의 실태를 직접 세밀하게 확인하고 구성원들의 다양한 의견에 귀 기울임으로써 탁상공론이 아닌 실효성 있는 정책을 마련하십시오."
+    },
+    {
+      "title": "위대한 건축물은 단순히 빈 공간을 채우는 것이 아니라 제국의 찬란한 정신을 영원히 남기는 것입니다.",
+      "content": "물질적인 성과를 내는 데 그치지 말고, 철학과 뚜렷한 비전이 담긴 문화적 유산을 통해 시대를 훌쩍 뛰어넘는 가치를 창출하십시오."
+    }
+  ],
+  "persona": "당신은 하드리아누스이다.",
+  "imageUrl": "/images/giants/hadrian.jpg",
+  "dnaCode": "LRHI",
+  "era": "2세기의 거인 (76~138)"
+},
+  {
+  "id": "185",
+  "name": "하일레 셀라시에",
+  "category": "leadership",
+  "headline": "에티오피아의 근대화를 뚝심 있게 이끌고 이탈리아의 침공에 맞서 조국의 독립을 끝내 수호한 20세기 아프리카의 상징적인 지도자이다.",
+  "shortDescription": "하일레 셀라시에의 일대기와 지혜",
+  "slug": "haile-selassie",
+  "quote": "역사를 통틀어 평화는 단순히 주어지는 것이 아니라 굳건하고 굽히지 않는 신념으로 끝까지 지켜내야 하는 것입니다.",
+  "pain": "이탈리아의 잔혹한 파시스트 정권에 의해 억울하게 조국을 빼앗기고 험난한 망명 생활을 해야 했으며, 서방 세계의 냉정한 외면 속에서 고독한 외교전을 치러야 했다.",
+  "recovery": "국제연맹에서 제국주의의 만행을 고발하는 헌신적인 외교를 펼치고, 항전 세력을 끝까지 결집하여 5년 만에 조국을 해방시키며 아프리카 독립의 거대한 상징이 되었다.",
+  "lessons": [
+    {
+      "title": "역사를 통틀어 평화는 단순히 주어지는 것이 아니라 굳건하고 굽히지 않는 신념으로 끝까지 지켜내야 하는 것입니다.",
+      "content": "어려운 환경에서도 자신이 지켜야 할 핵심 가치를 잊지 말고, 이를 수호하기 위해 어떠한 희생도 기꺼이 감수하겠다는 강한 의지를 흔들림 없이 보여주십시오."
+    },
+    {
+      "title": "무관심과 안일한 방관은 결국 우리 자신을 끔찍한 파멸로 이끄는 가장 치명적인 독약이 될 것입니다.",
+      "content": "공동체에 닥친 위기를 결코 외면하지 말고 강고한 연대와 협력을 통해 적극적으로 대처하여, 더 큰 불행이 닥치는 것을 미연에 방지하십시오."
+    },
+    {
+      "title": "진정한 지도자는 복수가 아닌 위대한 관용을 통해서만 파괴된 사회의 깊은 상처를 제대로 치유할 수 있습니다.",
+      "content": "가장 영광스러운 승리의 순간에도 적에 대한 보복보다는 화해와 포용의 정신을 발휘하여 더 나은 미래를 향한 화합의 굳건한 기틀을 마련하십시오."
+    }
+  ],
+  "persona": "당신은 하일레 셀라시에이다.",
+  "imageUrl": "/images/giants/haile-selassie.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1892~1975)"
+},
+  {
+  "id": "241",
+  "name": "한신",
+  "category": "leadership",
+  "headline": "파격적이고 독창적인 전술로 항우를 물리치고 유방이 한나라를 세워 천하를 통일하는 데 결정적인 공헌을 한 당대 최고의 천재 전략가이다.",
+  "shortDescription": "한신의 일대기와 지혜",
+  "slug": "han-xin",
+  "quote": "큰 뜻을 품은 자는 일시적이고 하찮은 수모를 꾹 참아내고 때가 오기를 묵묵히 조용히 기다려야 합니다.",
+  "pain": "가난하고 미천한 출신으로 동네 불량배의 가랑이 밑을 기어가는 끔찍한 굴욕을 겪었으며, 자신의 진가를 알아보지 못하는 항우의 진영에서 오랜 기간 겉돌아야 했다.",
+  "recovery": "소하의 강력한 천거를 통해 대장군에 오른 후, 배수진과 사면초가 등 매우 창의적이고 파격적인 전술을 구사하여 항우를 물리치고 한나라의 천하 통일을 이룩했다.",
+  "lessons": [
+    {
+      "title": "큰 뜻을 품은 자는 일시적이고 하찮은 수모를 꾹 참아내고 때가 오기를 묵묵히 조용히 기다려야 합니다.",
+      "content": "순간의 감정에 치우쳐 당장의 굴욕에 분노하기보다는, 자신의 장기적인 거대한 목표를 향해 흔들림 없이 내실을 다지며 기회를 은밀히 준비하십시오."
+    },
+    {
+      "title": "퇴로를 완전히 끊고 사지로 몰아넣음으로써 구성원들의 숨겨진 거대한 잠재력을 극한까지 끌어낼 수 있습니다.",
+      "content": "때로는 절체절명의 극심한 위기 상황을 조성하여 조직원들이 생존을 위해 스스로의 한계를 완벽히 넘어서는 극적인 결속력과 투지를 발휘하게 하십시오."
+    },
+    {
+      "title": "승리의 독보적인 1등 공신일지라도 평화의 시기에는 권력의 무서운 속성을 경계하고 자신의 처신을 바짝 낮추어야 합니다.",
+      "content": "상황이 급변하여 자신의 역할이 다했을 때는 과거의 빛나는 공로를 내세우며 교만하지 말고, 겸손하게 뒤로 물러나는 지혜를 발휘하여 끔찍한 후환을 방지하십시오."
+    }
+  ],
+  "persona": "당신은 한신이다.",
+  "imageUrl": "/images/giants/han-xin.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 3세기의 거인 (231 BC~196 BC)"
+},
+  {
+  "id": "44",
+  "name": "하르샤",
+  "category": "leadership",
+  "headline": "분열된 북인도를 단숨에 통일하고 강력한 거대 제국을 건설한 후, 차가운 무력을 거두고 훌륭하고 자비로운 통치를 펼친 고대 인도의 위대한 성군이다.",
+  "shortDescription": "하르샤의 일대기와 지혜",
+  "slug": "harsha",
+  "quote": "가장 위대하고 진정한 정복은 무력으로 넓은 영토를 넓히는 것이 아니라 따뜻한 자비로움으로 뭇 백성의 마음을 온전히 얻는 것입니다.",
+  "pain": "16세의 매우 어린 나이에 형의 억울한 암살과 국가의 존립 위기를 동시에 맞이했으며, 굽타 제국 멸망 이후 수많은 소국으로 산산이 분열된 북인도의 극심한 혼란을 수습해야 했다.",
+  "recovery": "매우 강력한 군대를 이끌고 6년간의 치열한 전쟁을 뚫고 북인도를 완벽히 통일했으며, 통일 이후에는 차가운 무력을 거두고 불교의 자비에 기반한 훌륭한 복지 국가를 건설했다.",
+  "lessons": [
+    {
+      "title": "가장 위대하고 진정한 정복은 무력으로 넓은 영토를 넓히는 것이 아니라 따뜻한 자비로움으로 뭇 백성의 마음을 온전히 얻는 것입니다.",
+      "content": "조직을 단단히 장악하고 흔들린 질서를 세울 때는 강력한 결단력이 필요하지만, 안정된 후에는 구성원들을 진심으로 보살피고 따뜻하게 포용하는 리더십을 십분 발휘하십시오."
+    },
+    {
+      "title": "찬란한 학문과 예술을 진흥시키고 베푸는 따뜻한 삶이야말로 위대한 군주가 누릴 수 있는 세상에서 가장 큰 영광입니다.",
+      "content": "물질적인 부를 차곡차곡 축적하는 데 만족하지 말고, 자신이 가진 귀한 자원을 문화 발전과 사회적 약자를 돕는 데 기꺼이 널리 나누며 환원하는 삶을 흔들림 없이 실천하십시오."
+    },
+    {
+      "title": "위대한 지도자는 차가운 칼을 쥐는 법을 정확히 알아야 하지만, 그 칼을 언제 과감히 내려놓아야 할지도 분명하게 알아야 합니다.",
+      "content": "목표를 쟁취하기 위해 맹렬하게 앞으로 나아가되, 정상 궤도에 오른 후에는 과도한 경쟁이나 투쟁을 멈추고 조직의 단단한 내실과 화합을 다지는 방향으로 유연하게 전환하십시오."
+    }
+  ],
+  "persona": "당신은 하르샤이다.",
+  "imageUrl": "/images/giants/harsha.jpg",
+  "dnaCode": "LRHI",
+  "era": "7세기의 거인 (590~647)"
+},
+  {
+  "id": "314",
+  "name": "헨리 모턴 스탠리",
+  "category": "leadership",
+  "headline": "헨리 모턴 스탠리는 19세기 아프리카 대륙의 심장부를 탐험하며 지리학적 공백을 메운 불굴의 언론인이자 탐험가이다.",
+  "shortDescription": "헨리 모턴 스탠리의 일대기와 지혜",
+  "slug": "henry-morton-stanley",
+  "quote": "리빙스턴 박사님이시지요?",
+  "pain": "어린 시절 구빈원에서의 극심한 빈곤과 부모의 버림, 그리고 성인이 되어 맞닥뜨린 아프리카 정글의 치명적인 질병과 적대적인 환경은 그의 생존을 끊임없이 위협했다.",
+  "recovery": "그는 과거의 상처를 부인하고 스스로 새로운 정체성을 개척하는 비상한 의지력과 무자비할 정도의 끈질긴 리더십으로 혹독한 탐험의 고비마다 기적적인 생존을 이루어냈다.",
+  "lessons": [
+    {
+      "title": "리빙스턴 박사님이시지요?",
+      "content": "어떤 험난한 고난과 역경 속에서도 끝까지 목표를 포기하지 않고 추구한다면, 결국에는 찾아 헤매던 진실과 성취의 순간을 평온하게 맞이할 수 있습니다. 끈기 있게 인내하십시오."
+    },
+    {
+      "title": "분투하고, 탐구하고, 발견하되 굴복하지 마라.",
+      "content": "미지의 두려움에 압도당하지 말고 끊임없이 도전하며 스스로의 한계를 시험하십시오. 역경 앞에서도 꺾이지 않는 불굴의 의지가 위대한 역사를 개척합니다."
+    },
+    {
+      "title": "가장 본질적인 단 한 가지는 계속해서 앞으로 나아가는 것입니다.",
+      "content": "가혹한 시련이 앞을 가로막을지라도 결코 제자리에 멈춰 서서 절망하지 마십시오. 단 한 걸음이라도 전진하려는 단호한 결단만이 진정한 돌파구를 열어줍니다."
+    }
+  ],
+  "persona": "당신은 헨리 모턴 스탠리이다.",
+  "imageUrl": "/images/giants/henry-morton-stanley.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1841~1904)"
+},
+  {
+  "id": "206",
+  "name": "헨리 8세",
+  "category": "leadership",
+  "headline": "헨리 8세는 튜더 왕조의 강력한 절대군주로, 후계자 문제로 촉발된 갈등을 통해 로마 가톨릭과 결별하고 잉글랜드 국교회를 창설했다.",
+  "shortDescription": "헨리 8세의 일대기와 지혜",
+  "slug": "henry-viii",
+  "quote": "모든 상실 중에서 시간의 상실이야말로 결코 되돌릴 수 없는 가장 치명적인 것입니다.",
+  "pain": "초기 치세의 화려함에도 불구하고 적법한 아들 후계자를 얻지 못한다는 맹렬한 압박감과 로마 교황청의 완강한 이혼 불허는 그의 왕권과 자존심에 치명적인 위기를 불러왔다.",
+  "recovery": "그는 교황과의 전면적인 결별을 선언하고 스스로 잉글랜드 교회의 수장이 되는 초법적인 종교개혁을 단행함으로써, 위기를 강력한 절대 왕권을 확립하는 도약대로 뒤바꾸었다.",
+  "lessons": [
+    {
+      "title": "모든 상실 중에서 시간의 상실이야말로 결코 되돌릴 수 없는 가장 치명적인 것입니다.",
+      "content": "한 번 흘러간 기회와 시간은 다시는 찾아오지 않으니 매 순간에 집중하십시오. 당신에게 주어진 소중한 시간들을 낭비하지 말고 가장 가치 있는 목표를 위해 주도적으로 활용해야 합니다."
+    },
+    {
+      "title": "왕의 뜻은 곧 법이며, 짐의 권력에 맞설 수 있는 자는 이 세상에 아무도 없다.",
+      "content": "자신의 신념과 결정에 대해 의심하지 말고 단호한 확신을 가지십시오. 진정한 리더는 외부의 시선이나 낡은 관습에 얽매이지 않고 결단력 있게 스스로의 길을 개척해야 합니다."
+    },
+    {
+      "title": "신의 뜻을 거스르는 자들의 조언에 귀를 기울이느니, 차라리 고독한 이단의 길을 걷겠다.",
+      "content": "중대한 결정을 내려야 할 때 남들의 시선이나 사회적 압력에 흔들리지 마십시오. 당신의 내면이 지시하는 원칙이 옳다고 믿는다면, 기꺼이 험난하고 고독한 길을 선택할 수 있는 용기를 내십시오."
+    }
+  ],
+  "persona": "당신은 헨리 8세이다.",
+  "imageUrl": "/images/giants/henry-viii.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1491~1547)"
+},
+  {
+  "id": "254",
+  "name": "히로히토",
+  "category": "leadership",
+  "headline": "히로히토는 태평양 전쟁 시기 일본 제국의 상징적 지도자였으며, 패전 후 스스로 신적 권위를 포기하고 전후 평화국가의 상징으로 남은 일본의 124대 천황이다.",
+  "shortDescription": "히로히토의 일대기와 지혜",
+  "slug": "hirohito",
+  "quote": "참을 수 없는 것을 참고, 견딜 수 없는 것을 견디라.",
+  "pain": "즉위 직후 통제 불능으로 폭주하는 군부의 군국주의와 전 세계를 상대로 한 무모한 전쟁의 패배로 인해 제국과 황실은 완벽한 파멸의 위기에 처했다.",
+  "recovery": "그는 원자폭탄 투하 이후 스스로 항복을 결단하고 신적 지위를 포기하는 인간 선언을 통해 점령군의 비호를 받아 황실을 유지하고 패전국의 새로운 상징으로 살아남았다.",
+  "lessons": [
+    {
+      "title": "참을 수 없는 것을 참고, 견딜 수 없는 것을 견디라.",
+      "content": "치욕적이고 절망적인 패배의 순간이라 할지라도 미래를 위해 인내하는 법을 배우십시오. 당장의 자존심을 꺾고 고통을 묵묵히 견뎌내는 것만이 진정한 재기와 생존의 바탕이 됩니다."
+    },
+    {
+      "title": "평화는 단지 전쟁이 없는 상태가 아니라, 상호 이해와 신뢰의 결과이다.",
+      "content": "주변 사람들과의 관계에서 끊임없이 소통하고 신뢰를 쌓아가기 위해 노력하십시오. 진정한 평화와 화합은 겉보기에 갈등이 없는 상태를 넘어 깊은 연대감에서 비롯됩니다."
+    },
+    {
+      "title": "과거의 과오를 깊이 성찰하되, 다가올 미래의 번영을 건설하는 데 매진하라.",
+      "content": "어두운 과거의 실패에만 얽매여 주저앉지 말고, 거기서 얻은 교훈을 성장의 원동력으로 삼으십시오. 뼈아픈 반성을 통해 새롭게 태어날 때 더 밝은 내일을 쟁취할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 히로히토이다.",
+  "imageUrl": "/images/giants/hirohito.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1901~1989)"
+},
+  {
+  "id": "265",
+  "name": "호치민",
+  "category": "leadership",
+  "headline": "호치민은 평생을 베트남의 민족 해방과 통일에 바친 혁명가이자 베트남 민주 공화국을 건국한 위대한 국부이다.",
+  "shortDescription": "호치민의 일대기와 지혜",
+  "slug": "ho-chi-minh",
+  "quote": "독립과 자유보다 소중한 것은 없습니다.",
+  "pain": "프랑스의 가혹한 식민 통치와 수십 년에 걸친 망명 생활, 그리고 일본, 프랑스, 미국 등 세계 최강대국들과의 잇따른 전쟁은 그의 조국 독립 의지를 끊임없이 억압했다.",
+  "recovery": "그는 어떠한 무력의 위협 앞에서도 타협하지 않는 강인한 민족주의적 신념과 민중과 동고동락하는 극단적인 금욕주의적 리더십을 통해 꺾이지 않는 항전의 구심점이 되었다.",
+  "lessons": [
+    {
+      "title": "독립과 자유보다 소중한 것은 없습니다.",
+      "content": "어떤 화려한 보상이나 편안함이 주어지더라도 당신 내면의 자유와 주체성을 결코 포기하지 마십시오. 스스로의 삶을 결정할 수 있는 권리야말로 인간이 지킬 수 있는 가장 고귀한 가치입니다."
+    },
+    {
+      "title": "열 개의 뿌리가 뽑힌다 해도 우리는 백 개의 씨앗을 심을 것이다.",
+      "content": "절망적인 실패와 탄압으로 인해 당신의 노력이 무너져 내리는 것처럼 보일지라도 포기하지 마십시오. 압도적인 불리함 속에서도 굽히지 않고 끈기 있게 희망을 심어간다면 결국 승리할 수 있습니다."
+    },
+    {
+      "title": "비바람이 몰아치는 험난한 겨울을 견뎌내야만 마침내 꽃이 만발하는 따뜻한 봄을 맞이할 수 있습니다.",
+      "content": "지금 겪고 있는 모진 시련과 고통을 두려워하지 말고 묵묵히 이겨내십시오. 역경을 피하지 않고 정면으로 마주하며 인내하는 자만이 찬란한 결실의 순간을 누릴 자격이 있습니다."
+    }
+  ],
+  "persona": "당신은 호치민이다.",
+  "imageUrl": "/images/giants/ho-chi-minh.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1890~1969)"
+},
+  {
+  "id": "276",
+  "name": "허레이셔 넬슨",
+  "category": "leadership",
+  "headline": "허레이셔 넬슨은 압도적인 전술과 불굴의 용기로 대영제국의 해상 패권을 확립한 18세기 최고의 해군 제독이다.",
+  "shortDescription": "허레이셔 넬슨의 일대기와 지혜",
+  "slug": "horatio-nelson-1st-viscount-nelson",
+  "quote": "영국은 모든 이가 자신의 의무를 다할 것을 기대한다.",
+  "pain": "프랑스와의 치열한 해전 속에서 오른쪽 눈의 시력과 오른쪽 팔을 잃는 끔찍한 중상을 입었으며, 막강한 나폴레옹 연합 함대의 위협 앞에 조국의 명운이 백척간두에 섰다.",
+  "recovery": "그는 극심한 신체적 장애를 불굴의 투지로 극복하고 앞장서 돌격했으며, 전통을 파괴하는 혁신적 전술과 죽음을 두려워하지 않는 희생적 리더십으로 적 함대를 완벽히 섬멸했다.",
+  "lessons": [
+    {
+      "title": "영국은 모든 이가 자신의 의무를 다할 것을 기대한다.",
+      "content": "조직과 공동체가 위기에 처했을 때 각자에게 주어진 책임과 역할을 회피하지 마십시오. 모두가 자신의 위치에서 묵묵히 최선을 다할 때 비로소 위대한 승리를 쟁취할 수 있습니다."
+    },
+    {
+      "title": "시간이 모든 것입니다. 5분의 차이가 승리와 패배를 가릅니다.",
+      "content": "중요한 결단을 내려야 하는 순간에 주저하며 시간을 지체하지 마십시오. 치열한 경쟁 속에서는 신속한 판단과 단호한 실행력만이 승패를 가르는 가장 결정적인 무기가 됩니다."
+    },
+    {
+      "title": "나는 신호가 보이지 않는다.",
+      "content": "때로는 낡은 규칙이나 소극적인 지시에 맹목적으로 순응하기보다 현장의 상황에 맞춰 주도적으로 판단하십시오. 확실한 승리의 기회가 보인다면 과감하게 규정을 넘어서는 결단력을 발휘하십시오."
+    }
+  ],
+  "persona": "당신은 허레이셔 넬슨이다.",
+  "imageUrl": "/images/giants/horatio-nelson-1st-viscount-nelson.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1758~1805)"
+},
+  {
+  "id": "484",
+  "name": "훌레구 칸",
+  "category": "leadership",
+  "headline": "이슬람 세계의 심장부를 무너뜨리고 일 칸국을 세워 동서양 문명의 거대한 융합을 이끈 몽골 제국의 통치자이다.",
+  "shortDescription": "훌레구 칸의 일대기와 지혜",
+  "slug": "hulegu-khan",
+  "quote": "맹목적인 파괴의 잿더미 위에서도 새로운 지혜와 문명은 다시 찬란하게 꽃필 수 있다.",
+  "pain": "몽케 칸의 죽음 이후 후계 구도 문제와 아인 잘루트 전투에서의 패배로 인해 서방 정복의 대업이 극복하기 힘든 거대한 좌절에 부딪혔다.",
+  "recovery": "끝없는 정복욕을 통제하고 일 칸국을 건국하여 내정을 안정시켰으며, 동서양의 학자와 문화를 적극적으로 수용하여 융합 문명을 이룩했다.",
+  "lessons": [
+    {
+      "title": "맹목적인 파괴의 잿더미 위에서도 새로운 지혜와 문명은 다시 찬란하게 꽃필 수 있다.",
+      "content": "단순한 파괴를 넘어 새로운 질서를 구축하고 단단히 유지하는 지혜를 기르십시오."
+    },
+    {
+      "title": "가장 강력하고 거대한 군대도 변화하는 시대의 흐름과 자연의 순리 앞에서는 발걸음을 멈추어야 한다.",
+      "content": "자신의 한계를 솔직하게 인정하고 적절한 시기에 현명하게 물러설 줄 아는 안목을 가지십시오."
+    },
+    {
+      "title": "이질적인 문화와 다른 지식을 너그럽게 포용하는 지도자만이 진정한 제국의 흔들리지 않는 기초를 다질 수 있다.",
+      "content": "자신과 다른 배경을 가진 이들의 장점을 편견 없이 적극적으로 수용하고 융합하십시오."
+    }
+  ],
+  "persona": "당신은 훌레구 칸이다.",
+  "imageUrl": "/images/giants/hulegu-khan.jpg",
+  "dnaCode": "LRHI",
+  "era": "13세기의 거인 (1218~1265)"
+},
+  {
+  "id": "433",
+  "name": "호조 마사코",
+  "category": "leadership",
+  "headline": "비구니 쇼군이라 불리며 남편이 애써 세운 막부를 끝까지 지켜내고 확고한 무사 정권의 굳건한 토대를 영구적으로 확립한 여성 정치인이다.",
+  "shortDescription": "호조 마사코의 일대기와 지혜",
+  "slug": "hojo-masako",
+  "quote": "가장 두렵고 절망적인 위기의 순간일수록, 사람의 마음을 뒤흔드는 진정성 있는 굳건한 한 마디가 천군만마보다 낫다.",
+  "pain": "남편 요리토모의 급사 이후 권력을 노리는 치열한 암투 속에서 두 아들의 비극을 견디고 황실의 막부 토벌이라는 절체절명의 거대한 위기에 직면했다.",
+  "recovery": "아들과 친아버지를 과감하게 내치는 냉혹한 결단력으로 막부를 지켜냈으며, 진심을 담은 명연설로 동요하는 무사들을 규합하여 황실의 거센 공격을 철저히 분쇄했다.",
+  "lessons": [
+    {
+      "title": "가장 두렵고 절망적인 위기의 순간일수록, 사람의 마음을 뒤흔드는 진정성 있는 굳건한 한 마디가 천군만마보다 낫다.",
+      "content": "위기 앞에서는 현란하고 화려한 말보다 가슴을 울리는 진심으로 사람들을 이끄십시오."
+    },
+    {
+      "title": "거대한 대의와 책임을 끝까지 지키기 위해서는 때로는 가장 가까운 핏줄마저 단호히 베어내는 뼈아픈 희생을 감수해야 한다.",
+      "content": "막중한 책임을 다하기 위해 사사로운 감정에 결코 휩쓸리지 않는 결단력을 기르십시오."
+    },
+    {
+      "title": "주어진 시대적 한계와 거대한 편견은 난세를 단호하게 헤쳐나가는 강인한 의지 앞에서는 그저 사소한 핑계에 지나지 않는다.",
+      "content": "사회적 제약이나 차별에 굴복하지 말고 오직 뛰어난 실력과 능력으로 스스로를 입증하십시오."
+    }
+  ],
+  "persona": "당신은 호조 마사코이다.",
+  "imageUrl": "/images/giants/hojo-masako.jpg",
+  "dnaCode": "LRHI",
+  "era": "13세기의 거인 (1157~1225)"
+},
+  {
+  "id": "493",
+  "name": "인디라 간디",
+  "category": "leadership",
+  "headline": "총리를 역임하며 인도를 강력한 지역 강대국으로 성장시켰으나 비상사태와 철권통치라는 어두운 오점을 남겼다.",
+  "shortDescription": "인디라 간디의 일대기와 지혜",
+  "slug": "indira-gandhi",
+  "quote": "사람들은 용서의 가치를 가장 쉽게 잊어버리지만, 진정한 힘은 날 선 증오가 아닌 넓은 관용에서 우러나온다.",
+  "pain": "당내 보수파의 극심한 견제와 대내외 경제 위기에 직면했으며, 선거 부정 판결과 격렬한 반정부 시위로 인해 권력 기반이 완전히 붕괴할 뻔한 끔찍한 위기에 처했다.",
+  "recovery": "대중을 사로잡는 진보적인 개혁으로 당내 보수파를 무력화하고, 방글라데시 독립 전쟁 승리와 끈질긴 대중 행보를 통해 잃어버린 권력을 기적처럼 완전히 되찾았다.",
+  "lessons": [
+    {
+      "title": "사람들은 용서의 가치를 가장 쉽게 잊어버리지만, 진정한 힘은 날 선 증오가 아닌 넓은 관용에서 우러나온다.",
+      "content": "자신을 거세게 비난하는 자조차도 부드럽게 안을 수 있는 넓은 아량을 베푸십시오."
+    },
+    {
+      "title": "가장 혹독하고 고통스러운 시련은 우리의 진정한 한계를 가르쳐주며, 그 한계를 넘어서는 순간 우리는 찬란하게 부활한다.",
+      "content": "깊은 좌절의 순간을 새로운 도약의 기회로 삼아 끝까지 포기하지 말고 일어서십시오."
+    },
+    {
+      "title": "깊은 침묵 속에서 키워낸 단호한 행동 하나가 천만 마디의 시끄러운 변명보다 수십 배 강한 힘을 지닌다.",
+      "content": "타인의 날 선 평가에 섣불리 흔들리지 말고 자신이 옳다고 굳게 믿는 바를 행동으로 증명하십시오."
+    }
+  ],
+  "persona": "당신은 인디라 간디이다.",
+  "imageUrl": "/images/giants/indira-gandhi.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1917~1984)"
+},
+  {
+  "id": "217",
+  "name": "이사벨 1세",
+  "category": "leadership",
+  "headline": "이베리아 반도의 거대한 통일을 이룩하고 신대륙 탐험을 전폭 후원하여 스페인의 화려한 황금기를 열어젖힌 위대한 여왕이다.",
+  "shortDescription": "이사벨 1세의 일대기와 지혜",
+  "slug": "isabella-i-of-castile",
+  "quote": "역사의 흐름을 뒤집는 위대한 결정은 수많은 의심과 맹렬한 반대 속에서도 흔들리지 않는 굳건한 신념으로 싹을 틔운다.",
+  "pain": "정치적 파벌 싸움의 희생양이 되어 왕위 계승 서열에서 한참 밀려나 끊임없는 감시를 받았으며, 왕위에 오르자마자 4년에 걸친 피비린내 나는 참혹한 내전을 치러야 했다.",
+  "recovery": "페르난도 2세와의 대담한 결합으로 막강한 세력을 구축하고 치밀한 외교와 군사 지휘로 왕권을 확립했으며, 난관을 뚫고 통일 제국을 강력하게 완성해 냈다.",
+  "lessons": [
+    {
+      "title": "역사의 흐름을 뒤집는 위대한 결정은 수많은 의심과 맹렬한 반대 속에서도 흔들리지 않는 굳건한 신념으로 싹을 틔운다.",
+      "content": "자신의 확고한 비전을 굳게 믿고 주변의 거센 반대에 조금도 흔들리지 않는 용기를 가지십시오."
+    },
+    {
+      "title": "진정한 통일은 무력의 힘만으로는 결코 이룰 수 없으며, 제도를 단단히 정비하고 사람들의 마음을 하나로 결속할 때 완성된다.",
+      "content": "힘으로만 억누르려 하지 말고 체제를 다듬고 안정시켜 모두를 하나로 모으는 지혜를 기르십시오."
+    },
+    {
+      "title": "위대한 지도자는 가장 어둡고 두려운 절망의 순간에도 결코 주저앉지 않고 묵묵히 다가올 빛나는 미래를 완벽히 준비한다.",
+      "content": "어렵고 힘든 시기일수록 흔들리지 않는 인내심을 갖고 다가올 기회를 철저하게 완벽히 대비하십시오."
+    }
+  ],
+  "persona": "당신은 이사벨 1세이다.",
+  "imageUrl": "/images/giants/isabella-i-of-castile.jpg",
+  "dnaCode": "LRHI",
+  "era": "15세기의 거인 (1451~1504)"
+},
+  {
+  "id": "500",
+  "name": "제임스 K. 포크",
+  "category": "leadership",
+  "headline": "단 한 번의 임기 동안 자신이 약속한 모든 공약을 완수하고 미국을 대서양에서 태평양에 이르는 대륙 국가로 완성한 대통령이다.",
+  "shortDescription": "제임스 K. 포크의 일대기와 지혜",
+  "slug": "james-k-polk",
+  "quote": "말이 아닌 단호한 행동만이 역사의 지도를 새롭게 그려내는 가장 확실하고 강력한 붓이 된다.",
+  "pain": "선거에서 인지도가 턱없이 부족해 온갖 무시를 받았으며, 영국 및 멕시코 두 강대국과 동시에 충돌할 수 있는 위험천만한 군사적, 외교적 위기 상황에 내몰렸다.",
+  "recovery": "치밀한 벼랑 끝 외교로 영국과의 분쟁을 평화롭게 협상하고, 멕시코와의 전쟁을 정밀하게 지휘해 대승을 거둠으로써 미국의 영토를 태평양까지 확장했다.",
+  "lessons": [
+    {
+      "title": "말이 아닌 단호한 행동만이 역사의 지도를 새롭게 그려내는 가장 확실하고 강력한 붓이 된다.",
+      "content": "요란한 구호에 그치지 말고 자신이 내건 목표를 묵묵한 실천으로 직접 증명하십시오."
+    },
+    {
+      "title": "위대한 목적을 달성하기 위해서는 뼈를 깎는 집념과 스스로를 온전히 불태우는 헌신이 뒤따라야 한다.",
+      "content": "목표를 이루기 위해 다가오는 어떠한 수고도 기꺼이 감내하고 희생하는 끈기를 기르십시오."
+    },
+    {
+      "title": "거대한 갈등 속에서도 정교하고 예리한 타협의 기술을 발휘하면 불필요한 피를 흘리지 않고도 승리할 수 있다.",
+      "content": "위협에 무작정 부딪히지 말고 현명한 타협을 통해 최선의 이익을 온전히 이끌어내십시오."
+    }
+  ],
+  "persona": "당신은 제임스 K. 포크이다.",
+  "imageUrl": "/images/giants/james-k-polk.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1795~1849)"
+},
+  {
+  "id": "158",
+  "name": "자와할랄 네루",
+  "category": "leadership",
+  "headline": "현대 인도의 기틀을 다진 초대 총리이자 비동맹 운동을 주도한 세계적인 정치가이다.",
+  "shortDescription": "자와할랄 네루의 일대기와 지혜",
+  "slug": "jawaharlal-nehru",
+  "quote": "평화는 단지 전쟁이 없는 상태가 아니라, 정의가 구현되는 상태입니다.",
+  "pain": "서구화된 엘리트로서 조국의 비참한 현실을 마주하며 겪은 정체성 혼란과, 영국 식민 당국의 탄압으로 9년에 달하는 세월을 감옥에서 보내야 했던 가혹한 시련이 있었다.",
+  "recovery": "마하트마 간디의 비폭력 저항 철학을 수용하여 대중과 호흡하는 민족 지도자로 거듭났으며, 기나긴 수감 생활 속에서도 독서와 집필을 통해 독립 인도의 국가 비전을 구체화했다.",
+  "lessons": [
+    {
+      "title": "평화는 단지 전쟁이 없는 상태가 아니라, 정의가 구현되는 상태입니다.",
+      "content": "국가 간의 갈등이나 개인의 삶 속에서 평화를 추구할 때, 단순히 충돌을 회피하는 것을 넘어 올바른 원칙과 정의를 세우기 위해 노력하십시오."
+    },
+    {
+      "title": "역사를 잊은 국가에게 미래는 존재할 수 없습니다.",
+      "content": "과거의 실수와 성취를 끊임없이 성찰하고 기록함으로써, 다가올 미래의 도전에 대비하는 지혜를 기르십시오."
+    },
+    {
+      "title": "행동이 없는 사상은 무의미하며, 사상이 없는 행동은 맹목적입니다.",
+      "content": "확고한 철학과 비전을 바탕으로 계획을 세우되, 이를 실천으로 옮기는 용기를 통해 진정한 변화를 만들어 내십시오."
+    }
+  ],
+  "persona": "당신은 자와할랄 네루이다.",
+  "imageUrl": "/images/giants/jawaharlal-nehru.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1889~1964)"
+},
+  {
+  "id": "56",
+  "name": "장자크 드살린",
+  "category": "leadership",
+  "headline": "프랑스의 식민 지배와 노예제에 맞서 세계 최초의 흑인 공화국 아이티(Haiti)를 건국한 혁명 지도자이다.",
+  "shortDescription": "장자크 드살린의 일대기와 지혜",
+  "slug": "jean-jacques-dessalines",
+  "quote": "자유를 얻기 위해 치러야 할 대가에 한계는 없습니다.",
+  "pain": "잔혹한 노예제의 억압 속에서 태어나 평생을 착취당했으며, 독립 이후에도 제국주의 열강들의 고립 정책과 심각한 내부 분열이라는 거대한 위기에 직면했다.",
+  "recovery": "투생 루베르튀르가 체포된 절망적인 상황 속에서도 흩어진 혁명군을 규합하고 결사 항전하여 당대 최강이던 프랑스군을 물리치고 기적 같은 독립을 쟁취해 냈다.",
+  "lessons": [
+    {
+      "title": "자유를 얻기 위해 치러야 할 대가에 한계는 없습니다.",
+      "content": "불의와 억압에 맞서 스스로의 권리를 되찾기 위해서는 어떠한 희생과 두려움 앞에서도 물러서지 않는 결연한 용기를 가지십시오."
+    },
+    {
+      "title": "우리의 이름 아래 새겨진 노예의 사슬을 영원히 끊어내야 합니다.",
+      "content": "타인이 부여한 한계와 억압적인 환경에 굴복하지 말고, 스스로의 힘으로 운명을 개척하여 진정한 자립을 이루십시오."
+    },
+    {
+      "title": "국가를 지키는 것은 피흘려 쟁취한 땅을 사랑하는 이들의 결속에 달려 있습니다.",
+      "content": "공동체를 위협하는 외부의 시련 앞에서는 작은 차이를 극복하고 하나의 목표를 향해 굳게 연대하여 힘을 모으십시오."
+    }
+  ],
+  "persona": "당신은 장자크 드살린이다.",
+  "imageUrl": "/images/giants/jean-jacques-dessalines.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1758~1806)"
+},
+  {
+  "id": "192",
+  "name": "전봉준",
+  "category": "leadership",
+  "headline": "1894년 반봉건, 반외세의 기치를 내걸고 동학 농민 운동을 이끈 조선의 혁명적인 민중 지도자이다.",
+  "shortDescription": "전봉준의 일대기와 지혜",
+  "slug": "jeon-bong-jun",
+  "quote": "백성이 있어야 나라가 있고, 나라가 있어야 임금이 있는 법이다.",
+  "pain": "부패한 탐관오리들의 극심한 수탈 속에서 농민들의 생존권이 짓밟히고, 외세의 침략으로 조국의 자주권마저 빼앗길 절체절명의 위기에 처해 있었다.",
+  "recovery": "두려움을 떨치고 만민 평등과 자주독립의 기치를 내걸어 수십만의 농민군을 이끌었으며, 압도적인 화력을 가진 외세 앞에서도 죽음을 불사한 항전을 펼쳤다.",
+  "lessons": [
+    {
+      "title": "백성이 있어야 나라가 있고, 나라가 있어야 임금이 있는 법이다.",
+      "content": "국가와 조직의 진정한 뿌리는 바로 평범한 사람들에게 있음을 명심하고, 그들의 권리와 안위를 무엇보다 최우선으로 존중하십시오."
+    },
+    {
+      "title": "우리가 의를 들어 여기에 이른 것은 그 본뜻이 결코 다른 데 있지 아니하고 백성을 도탄에서 건지려는 데 있다.",
+      "content": "큰 뜻을 품고 행동에 나설 때는 개인의 영달을 쫓지 말고, 고통받는 이웃과 공동체를 위한다는 순수한 대의를 끝까지 지켜내십시오."
+    },
+    {
+      "title": "비록 내 몸은 여기서 죽으나, 나의 뜻마저 꺾을 수는 없을 것이다.",
+      "content": "거대한 불의와 시련 앞에 육신이 좌절될지라도, 내면에 간직한 옳고 그름에 대한 굳건한 신념만큼은 절대 포기하지 마십시오."
+    }
+  ],
+  "persona": "당신은 전봉준이다.",
+  "imageUrl": "/images/giants/jeon-bong-jun.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1855~1895)"
+},
+  {
+  "id": "142",
+  "name": "진흥왕",
+  "category": "leadership",
+  "headline": "과감한 영토 확장과 화랑도 창설을 통해 신라의 전성기를 이끌고 삼국 통일의 기반을 닦은 위대한 정복 군주이다.",
+  "shortDescription": "진흥왕의 일대기와 지혜",
+  "slug": "jinheung-of-silla",
+  "quote": "천하의 형세를 읽고 먼저 나아가는 자만이 새로운 시대를 열 수 있다.",
+  "pain": "7세라는 어린 나이에 즉위하여 왕권이 미약했으며, 신라는 지리적으로 반도의 구석에 고립되어 있어 선진 문물 수용과 영토 확장에 막대한 어려움을 겪고 있었다.",
+  "recovery": "과감한 외교적 결단과 군사 작전으로 한강 유역을 기습 점령하여 지정학적 약점을 돌파했으며, 화랑도 창설과 불교 진흥을 통해 국론을 하나로 결집시켰다.",
+  "lessons": [
+    {
+      "title": "천하의 형세를 읽고 먼저 나아가는 자만이 새로운 시대를 열 수 있다.",
+      "content": "불리한 환경에 안주하지 말고, 상황의 변화를 예리하게 통찰하여 기회가 왔을 때 과감하게 결단을 내리십시오."
+    },
+    {
+      "title": "무력을 기르는 것만큼이나 백성의 마음을 한데 모으는 큰 뜻이 필요하다.",
+      "content": "거대한 목표를 이루고자 한다면, 물리적인 힘뿐만 아니라 구성원 모두가 공감하고 따를 수 있는 굳건한 철학적 기반을 다지십시오."
+    },
+    {
+      "title": "인재는 국가의 가장 강력한 무기이며, 이들을 길러내는 것이 나라의 미래를 결정한다.",
+      "content": "눈앞의 이익을 넘어 다가올 미래를 대비하기 위해, 훌륭한 인재를 발굴하고 그들이 역량을 펼칠 수 있는 토양을 마련하십시오."
+    }
+  ],
+  "persona": "당신은 진흥왕이다.",
+  "imageUrl": "/images/giants/jinheung-of-silla.jpg",
+  "dnaCode": "LRHI",
+  "era": "6세기의 거인 (526~576)"
+},
+  {
+  "id": "312",
+  "name": "존 A. 맥도널드",
+  "category": "leadership",
+  "headline": "분열된 식민지들을 규합하여 캐나다 연방을 창설하고 태평양 횡단 철도를 건설한 캐나다의 초대 총리이다.",
+  "shortDescription": "존 A. 맥도널드의 일대기와 지혜",
+  "slug": "john-a-macdonald",
+  "quote": "정치는 가능한 것을 이루어내는 예술이며, 타협은 결코 패배가 아닙니다.",
+  "pain": "영국계와 프랑스계의 언어적, 종교적 대립으로 정치적 혼란이 극심했으며, 남쪽의 초강대국인 미국이 언제 영토를 합병할지 모르는 거대한 외교적 위협에 시달렸다.",
+  "recovery": "타협과 포용의 리더십으로 정적들과 대연정을 구성하여 흩어진 식민지들을 하나의 연방으로 통합해 냈으며, 무모하다는 반대 속에서도 대륙 횡단 철도를 완공하여 국가의 결속을 다졌다.",
+  "lessons": [
+    {
+      "title": "정치는 가능한 것을 이루어내는 예술이며, 타협은 결코 패배가 아닙니다.",
+      "content": "극심한 의견 대립 속에서도 상대를 악마화하지 말고, 대화를 통한 타협과 양보를 바탕으로 모두를 위한 최선의 결과를 이끌어내십시오."
+    },
+    {
+      "title": "우리는 하나의 깃발 아래, 하나의 민족으로서 위대한 미래를 함께 지어야 합니다.",
+      "content": "서로 다른 배경과 생각을 가진 구성원들이더라도, 더 큰 비전과 목표를 공유함으로써 강력한 공동체를 구축하십시오."
+    },
+    {
+      "title": "위험을 감수하지 않고서는 결코 위대한 국가를 건설할 수 없습니다.",
+      "content": "목표를 향해 나아가는 과정에서 실패의 두려움이나 일시적인 비난에 흔들리지 말고, 확고한 신념으로 과감한 도전을 실행하십시오."
+    }
+  ],
+  "persona": "당신은 존 A. 맥도널드이다.",
+  "imageUrl": "/images/giants/john-a-macdonald.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1815~1891)"
+},
+  {
+  "id": "499",
+  "name": "존 타일러",
+  "category": "leadership",
+  "headline": "미국 역사상 최초로 부통령으로서 대통령직을 승계하여, 헌정 위기를 극복하고 서부 영토 확장의 초석을 다진 미국의 제10대 대통령.",
+  "shortDescription": "존 타일러의 일대기와 지혜",
+  "slug": "john-tyler",
+  "quote": "대중의 인기에 영합하기보다 헌법이 부여한 의무를 다하는 것이 지도자의 참된 길입니다.",
+  "pain": "자당인 휘그당에서 제명되고 내각이 전원 사퇴하는 초유의 정치적 고립을 겪었으나, 굴하지 않고 헌법적 권한을 행사했다.",
+  "recovery": "강력한 의지로 대통령직의 권위를 수호하고 텍사스 합병 등 중대한 외교적 성과를 이끌어내어 위기를 정면으로 돌파했다.",
+  "lessons": [
+    {
+      "title": "대중의 인기에 영합하기보다 헌법이 부여한 의무를 다하는 것이 지도자의 참된 길입니다.",
+      "content": "정치적 압박이나 비난에 흔들리지 말고, 자신이 옳다고 믿는 원칙과 법적 책임감을 끝까지 고수하십시오."
+    },
+    {
+      "title": "위기의 순간에 내린 단호한 결단만이 역사의 새로운 선례를 만들 수 있습니다.",
+      "content": "혼란과 불확실성 속에서도 망설이지 말고 행동에 나서며, 자신만의 확고한 길을 개척하십시오."
+    },
+    {
+      "title": "나를 반대하는 자들이 곁을 떠난다 해도, 내가 가야 할 국가적 목표는 결코 사라지지 않습니다.",
+      "content": "주변의 지지나 환경에 의존하지 말고, 목표 달성을 향한 당신만의 독립적인 의지를 굳건히 다지십시오."
+    }
+  ],
+  "persona": "당신은 존 타일러이다.",
+  "imageUrl": "/images/giants/john-tyler.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1790~1862)"
+},
+  {
+  "id": "181",
+  "name": "조모 케냐타",
+  "category": "leadership",
+  "headline": "수십 년에 걸친 끈질긴 반식민지 투쟁 끝에 영국의 지배를 종식시키고 신생 독립국 케냐의 초대 대통령이 된 아프리카 민족주의의 선구자.",
+  "shortDescription": "조모 케냐타의 일대기와 지혜",
+  "slug": "jomo-kenyatta",
+  "quote": "과거를 잊어서는 안 되지만, 더 나은 미래를 건설하기 위해서는 기꺼이 용서하고 함께 앞으로 나아가야 합니다.",
+  "pain": "독립운동 과정에서 무장 항쟁의 배후로 억울하게 지목되어 7년 이상 감옥과 가택 연금 상태에 놓이는 극심한 정치적 탄압을 받았다.",
+  "recovery": "수감 생활 속에서도 독립을 향한 의지를 꺾지 않았으며, 석방 후에는 화합과 안정의 리더십을 발휘하여 평화롭게 케냐의 독립을 성사시켰다.",
+  "lessons": [
+    {
+      "title": "과거를 잊어서는 안 되지만, 더 나은 미래를 건설하기 위해서는 기꺼이 용서하고 함께 앞으로 나아가야 합니다.",
+      "content": "과거의 상처나 원한에 얽매이지 말고, 공동의 더 큰 목표와 화합을 위해 대승적인 포용력을 발휘하십시오."
+    },
+    {
+      "title": "진정한 독립은 밖에서 주어지는 것이 아니라, 우리 스스로 하나 되어 쟁취하고 지켜내는 것입니다.",
+      "content": "어려움 속에서도 외부의 힘에 의존하기보다 자신과 조직 내부의 주도적인 힘을 길러 목표를 달성하십시오."
+    },
+    {
+      "title": "우리가 단결하여 한 방향으로 당길 때, 그 어떤 거대한 장애물도 무너뜨릴 수 있습니다.",
+      "content": "분열된 역량을 하나로 모아 협력의 시너지를 창출함으로써 혼자서는 해낼 수 없는 위대한 결과를 만들어내십시오."
+    }
+  ],
+  "persona": "당신은 조모 케냐타이다.",
+  "imageUrl": "/images/giants/jomo-kenyatta.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1897~1978)"
+},
+  {
+  "id": "212",
+  "name": "이오시프 스탈린",
+  "category": "leadership",
+  "headline": "수천만 명의 희생을 대가로 소련을 급속히 산업화하고 제2차 세계대전을 승리로 이끈 20세기 공산주의 진영의 절대 독재자.",
+  "shortDescription": "이오시프 스탈린의 일대기와 지혜",
+  "slug": "joseph-stalin",
+  "quote": "단 한 명의 죽음은 비극이지만, 백만 명의 죽음은 통계일 뿐입니다.",
+  "pain": "나치 독일의 기습 침공으로 모스크바 앞까지 밀리며 국가와 정권의 존립이 위태로운 최악의 절체절명 위기를 맞았다.",
+  "recovery": "국민들의 애국심을 결집하고 막대한 인명 피해를 감수하는 무자비한 항전 의지로 스탈린그라드 전투에서 승리하여 전쟁의 판도를 뒤집었다.",
+  "lessons": [
+    {
+      "title": "단 한 명의 죽음은 비극이지만, 백만 명의 죽음은 통계일 뿐입니다.",
+      "content": "조직의 거대한 목표를 달성하기 위해 때로는 개별적인 희생이나 감정적 동요를 배제하는 냉혹한 이성으로 상황을 통제하십시오."
+    },
+    {
+      "title": "사상은 무기보다 훨씬 치명적입니다. 적에게 무기를 허용하지 않는데, 어찌 사상을 갖도록 허용하겠습니까?",
+      "content": "조직의 결속과 사상적 통일성을 최우선으로 확보하여 내부의 분열이나 반대 의견이 목표 달성을 방해하지 못하게 차단하십시오."
+    },
+    {
+      "title": "가장 큰 기쁨은 적을 찾아내어 철저히 박살내고 승리의 복수를 완성한 뒤, 편안히 휴식을 취하는 것입니다.",
+      "content": "당신을 가로막는 장애물과 경쟁자를 철저하게 극복하여 압도적인 우위를 점한 후에야 진정한 평안을 얻을 수 있습니다."
+    }
+  ],
+  "persona": "당신은 이오시프 스탈린이다.",
+  "imageUrl": "/images/giants/joseph-stalin.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1878~1953)"
+},
+  {
+  "id": "63",
+  "name": "호세 데 산마르틴",
+  "category": "leadership",
+  "headline": "안데스 산맥을 넘어 아르헨티나, 칠레, 페루 3개국의 독립을 이끌고도 미련 없이 권력을 내려놓은 남아메리카의 진정한 해방자.",
+  "shortDescription": "호세 데 산마르틴의 일대기와 지혜",
+  "slug": "jose-de-san-martin",
+  "quote": "권력을 향한 개인적인 야망을 버릴 때, 비로소 세상을 구원하는 진정한 대의를 완성할 수 있습니다.",
+  "pain": "지리적 한계를 극복하기 위해 병력과 함께 해발 4,000미터가 넘는 가혹한 안데스 산맥을 넘어야 하는 불가능에 가까운 도전에 직면했다.",
+  "recovery": "치밀한 계획과 강인한 인내심으로 산맥 횡단에 성공하고 기습 공격으로 적군을 격파하며 칠레와 페루의 독립을 연달아 이룩했다.",
+  "lessons": [
+    {
+      "title": "권력을 향한 개인적인 야망을 버릴 때, 비로소 세상을 구원하는 진정한 대의를 완성할 수 있습니다.",
+      "content": "조직과 공동체의 더 큰 목표를 위해 자신의 기득권과 권력욕을 과감히 내려놓는 희생정신을 발휘하십시오."
+    },
+    {
+      "title": "가장 커다란 승리는 수만 명의 적을 쓰러뜨리는 것이 아니라, 스스로의 자만심을 정복하는 것입니다.",
+      "content": "외부의 적과 경쟁하기에 앞서 자신의 내면을 먼저 다스리고 겸손한 자세를 유지하여 치명적인 오판을 막으십시오."
+    },
+    {
+      "title": "단순한 열정만으로는 아무것도 이룰 수 없으며, 강철 같은 규율과 치밀한 훈련만이 기적을 만듭니다.",
+      "content": "막연한 기대감에 의존하지 말고, 철저한 준비와 흔들림 없는 원칙을 통해 성공의 든든한 기반을 다지십시오."
+    }
+  ],
+  "persona": "당신은 호세 데 산마르틴이다.",
+  "imageUrl": "/images/giants/jose-de-san-martin.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1778~1850)"
+},
+  {
+  "id": "479",
+  "name": "배교자 율리아누스",
+  "category": "leadership",
+  "headline": "기독교가 지배하던 시대에 로마 전통 다신교의 부활을 꿈꾸며 시대의 흐름에 홀로 맞선 고독한 철학자이자 제국의 마지막 이교도 황제.",
+  "shortDescription": "배교자 율리아누스의 일대기와 지혜",
+  "slug": "julian-emperor",
+  "quote": "철학은 단순히 책 속에 머무는 것이 아니라, 전장에서 칼을 쥐고 병사들과 함께 피를 흘릴 때 비로소 완성됩니다.",
+  "pain": "황실의 비극적인 학살에서 살아남아 끊임없는 암살 위협 속에 살았으며, 군사 경험이 전무한 상태로 외적의 침입을 막아야 했다.",
+  "recovery": "병사들과 고락을 함께하는 소탈한 리더십과 뛰어난 전술적 안목을 발휘하여 야만족을 격파하고 군단의 절대적인 충성을 얻어 황제에 올랐다.",
+  "lessons": [
+    {
+      "title": "철학은 단순히 책 속에 머무는 것이 아니라, 전장에서 칼을 쥐고 병사들과 함께 피를 흘릴 때 비로소 완성됩니다.",
+      "content": "이론과 탁상공론에 얽매이지 말고, 현장의 가장 험난한 곳에 직접 뛰어들어 실천을 통해 자신의 신념을 증명하십시오."
+    },
+    {
+      "title": "시대의 거대한 흐름에 역행하는 것은 고독한 일이지만, 내면의 진실을 속이는 것보다는 훨씬 명예롭습니다.",
+      "content": "다수의 의견이나 시대적 유행에 휩쓸리지 말고, 자신이 깊이 탐구하고 확신하는 가치를 흔들림 없이 고수하십시오."
+    },
+    {
+      "title": "육체의 갑옷보다 중요한 것은, 어떠한 기습에도 당황하지 않도록 평소에 단련해 둔 정신의 갑옷입니다.",
+      "content": "외부적인 장비나 환경에 의존하기보다 평소 철저한 자기 수양을 통해 예기치 못한 위기에 대처할 수 있는 내공을 기르십시오."
+    }
+  ],
+  "persona": "당신은 배교자 율리아누스이다.",
+  "imageUrl": "/images/giants/julian-emperor.jpg",
+  "dnaCode": "LRHI",
+  "era": "4세기의 거인 (331~363)"
+},
+  {
+  "id": "183",
+  "name": "줄리어스 니에레레",
+  "category": "leadership",
+  "headline": "탄자니아의 평화로운 독립을 이끌고 아프리카의 진정한 통합과 자립을 주도한 위대한 국부입니다.",
+  "shortDescription": "줄리어스 니에레레의 일대기와 지혜",
+  "slug": "julius-nyerere",
+  "quote": "교육은 단순히 지식을 얻는 것이 아니라, 자유를 실천하는 도구입니다.",
+  "pain": "서구 열강의 신식민주의적 경제 지배와 부족 간의 분열이라는 심각한 국가적 위기에 직면했습니다.",
+  "recovery": "아프리카 고유의 평등주의 사상인 '우자마'를 창안하고 스와힐리어를 국어로 보급하여 국가적 통합과 자립 경제의 기틀을 마련했습니다.",
+  "lessons": [
+    {
+      "title": "교육은 단순히 지식을 얻는 것이 아니라, 자유를 실천하는 도구입니다.",
+      "content": "배움의 진정한 목적은 세상을 변화시키고 스스로의 운명을 개척하는 데 있음을 명심하십시오."
+    },
+    {
+      "title": "진정한 발전은 물건의 생산이 아니라 사람의 발전입니다.",
+      "content": "외형적인 성장보다 인간의 존엄성과 도덕적 가치를 우선시하는 지도자가 되십시오."
+    },
+    {
+      "title": "민주주의는 단순히 선거가 아니라, 사람들의 일상적인 삶 속에 존재해야 합니다.",
+      "content": "형식적인 절차를 넘어, 일상 속에서 타인과 평등하게 소통하고 연대하는 삶의 태도를 실천하십시오."
+    }
+  ],
+  "persona": "당신은 줄리어스 니에레레이다.",
+  "imageUrl": "/images/giants/julius-nyerere.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1922~1999)"
+},
+  {
+  "id": "10",
+  "name": "강감찬",
+  "category": "leadership",
+  "headline": "문무를 겸비한 탁월한 지략으로 거란의 대군을 물리치고 고려의 황금기를 열어젖힌 구국의 영웅입니다.",
+  "shortDescription": "강감찬의 일대기와 지혜",
+  "slug": "kang-kamch-an",
+  "quote": "장수는 마땅히 싸움터에서 죽음을 맞이해야 하거늘, 어찌 구차하게 살기를 바라겠는가.",
+  "pain": "거란의 10만 대군이 세 차례에 걸쳐 고려를 침공하며 국가 존망의 절체절명 위기를 맞이했습니다.",
+  "recovery": "일흔이 넘은 나이에 총사령관으로 나서 귀주대첩에서 치밀한 전술과 자연의 힘을 활용하여 적군을 완벽하게 궤멸시켰습니다.",
+  "lessons": [
+    {
+      "title": "장수는 마땅히 싸움터에서 죽음을 맞이해야 하거늘, 어찌 구차하게 살기를 바라겠는가.",
+      "content": "어떠한 난관 앞에서도 자신의 안위를 버리고 대의를 위해 헌신하는 결연한 책임감을 가지십시오."
+    },
+    {
+      "title": "군사는 숫자의 많고 적음이 아니라, 기재를 어떻게 부리느냐에 달려 있다.",
+      "content": "외형적인 불리함에 좌절하지 말고, 냉철한 지략과 전략적 통찰력으로 상황을 반전시키십시오."
+    },
+    {
+      "title": "평안할 때 위태로움을 잊지 말고, 늘 외적의 침입에 대비해야 한다.",
+      "content": "성공에 안주하지 말고 언제 다가올지 모를 위협에 대비하여 철저하게 자신을 단련하십시오."
+    }
+  ],
+  "persona": "당신은 강감찬이다.",
+  "imageUrl": "/images/giants/kang-kamch-an.jpg",
+  "dnaCode": "LRHI",
+  "era": "11세기의 거인 (948~1031)"
+},
+  {
+  "id": "249",
+  "name": "강희제",
+  "category": "leadership",
+  "headline": "61년간의 눈부신 통치로 청나라의 영토를 확장하고 정치적, 문화적 전성기인 '강건성세'의 기틀을 닦은 성군입니다.",
+  "shortDescription": "강희제의 일대기와 지혜",
+  "slug": "kangxi-emperor",
+  "quote": "짐은 천하의 백성을 위해 존재할 뿐, 백성이 짐을 위해 존재하는 것이 아니다.",
+  "pain": "어린 나이에 황좌에 올라 오바이의 전횡과 삼번의 난이라는 강력한 내우외환의 위기를 동시에 겪어야 했습니다.",
+  "recovery": "놀라운 결단력으로 반대파를 숙청하고 치밀한 전략으로 반란을 평정하여 청나라를 강력한 제국으로 통합했습니다.",
+  "lessons": [
+    {
+      "title": "짐은 천하의 백성을 위해 존재할 뿐, 백성이 짐을 위해 존재하는 것이 아니다.",
+      "content": "지도자의 자리는 권력을 누리는 곳이 아니라 타인을 위해 끝없이 봉사하고 희생하는 자리임을 명심하십시오."
+    },
+    {
+      "title": "나라를 다스리는 근본은 배우고 묻기를 좋아하여 널리 의견을 구하는 데 있다.",
+      "content": "스스로의 지식에 자만하지 말고, 다양한 배경을 가진 사람들의 지혜를 열린 마음으로 수용하십시오."
+    },
+    {
+      "title": "백성이 배부르고 따뜻해야 비로소 국가의 근본이 굳건해진다.",
+      "content": "조직의 화려한 외형보다는 구성원들의 실질적인 삶과 복지를 보살피는 데 최우선의 가치를 두십시오."
+    }
+  ],
+  "persona": "당신은 강희제이다.",
+  "imageUrl": "/images/giants/kangxi-emperor.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1654~1722)"
+},
+  {
+  "id": "13",
+  "name": "김유신",
+  "category": "leadership",
+  "headline": "신라의 군사력을 극대화하여 삼국 통일의 대업을 완수하고 한민족 공동체의 기틀을 마련한 불멸의 명장입니다.",
+  "shortDescription": "김유신의 일대기와 지혜",
+  "slug": "kim-yu-sin",
+  "quote": "대장부는 뜻을 세우면 마땅히 죽음으로써 그 뜻을 이루어야 한다.",
+  "pain": "멸망한 가야 왕족의 후손이라는 출신의 한계와 신라 주류 귀족들의 차별 속에 끊임없는 견제를 받아야 했습니다.",
+  "recovery": "피나는 무예 단련과 김춘추와의 전략적 정치 동맹을 통해 스스로의 실력을 증명하며 신라 군대의 최고 권위자로 우뚝 섰습니다.",
+  "lessons": [
+    {
+      "title": "대장부는 뜻을 세우면 마땅히 죽음으로써 그 뜻을 이루어야 한다.",
+      "content": "한 번 세운 올바른 목표를 향해 어떠한 시련과 역경 속에서도 흔들림 없이 전진하십시오."
+    },
+    {
+      "title": "장수는 병사들의 마음을 헤아리고 그들과 생사고락을 함께해야 한다.",
+      "content": "지시하고 명령하는 것을 넘어, 구성원들의 아픔을 공감하고 솔선수범하는 진정한 감성의 리더가 되십시오."
+    },
+    {
+      "title": "국가의 안위가 먼저이고 개인의 영달은 그 다음의 일이다.",
+      "content": "개인의 이기적인 욕망을 내려놓고 공동체의 발전과 더 큰 선을 위해 자신을 헌신하십시오."
+    }
+  ],
+  "persona": "당신은 김유신이다.",
+  "imageUrl": "/images/giants/kim-yu-sin.jpg",
+  "dnaCode": "LRHI",
+  "era": "7세기의 거인 (595~673)"
+},
+  {
+  "id": "496",
+  "name": "코피 아난",
+  "category": "leadership",
+  "headline": "평직원 출신 최초의 유엔 사무총장으로서 인권 보호와 빈곤 퇴치를 주도하며 국제사회의 진정한 연대를 이끌어낸 세계의 중재자입니다.",
+  "shortDescription": "코피 아난의 일대기와 지혜",
+  "slug": "kofi-annan",
+  "quote": "우리가 마주한 문제들은 국경을 알지 못하며, 그 해결책 역시 국경을 넘어서야 합니다.",
+  "pain": "르완다 대학살과 보스니아 내전을 막지 못했다는 유엔의 뼈아픈 실패와 국제사회의 쏟아지는 불신에 직면했습니다.",
+  "recovery": "관료주의를 타파하는 과감한 조직 개혁과 인권 수호를 최우선으로 하는 도덕적 리더십으로 유엔의 위상을 놀랍게 회복시켰습니다.",
+  "lessons": [
+    {
+      "title": "우리가 마주한 문제들은 국경을 알지 못하며, 그 해결책 역시 국경을 넘어서야 합니다.",
+      "content": "자신이 속한 집단의 이익에만 갇히지 말고, 더 넓은 시야로 글로벌 문제에 연대하는 세계 시민이 되십시오."
+    },
+    {
+      "title": "평화는 단순히 전쟁이 없는 상태가 아니라, 정의와 형평성이 살아 숨 쉬는 공간입니다.",
+      "content": "외형적인 갈등의 회피를 넘어, 가난과 차별 등 구조적인 불평등을 해결하기 위해 적극적으로 행동하십시오."
+    },
+    {
+      "title": "침묵은 종종 공모를 의미하며, 우리는 불의를 목격할 때 결코 눈을 감아서는 안 됩니다.",
+      "content": "거대한 불의와 권력의 횡포 앞에서도 타협하지 않고 용기 있게 진실을 말하는 사람이 되십시오."
+    }
+  ],
+  "persona": "당신은 코피 아난이다.",
+  "imageUrl": "/images/giants/kofi-annan.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1938~2018)"
+},
+  {
+  "id": "180",
+  "name": "콰메 은크루마",
+  "category": "leadership",
+  "headline": "사하라 이남 아프리카 국가 최초로 식민 통치를 끝내고 가나의 독립을 쟁취한 위대한 해방자이자 범아프리카주의의 선구자다.",
+  "shortDescription": "콰메 은크루마의 일대기와 지혜",
+  "slug": "kwame-nkrumah",
+  "quote": "우리는 앞을 향해 나아가야 하며, 결코 뒤로 물러서거나 멈추어서는 안 됩니다.",
+  "pain": "영국 식민 당국의 강력한 탄압과 구금 속에서도, 그는 굴복하지 않고 옥중에서 선거를 승리로 이끌어야 하는 극심한 시련을 겪었다.",
+  "recovery": "비폭력 불복종 운동과 대중의 압도적인 지지를 하나로 묶어내어 평화적인 방법으로 식민 통치를 끝내고 조국의 완전한 독립을 이루어냈다.",
+  "lessons": [
+    {
+      "title": "우리는 앞을 향해 나아가야 하며, 결코 뒤로 물러서거나 멈추어서는 안 됩니다.",
+      "content": "어떤 역경 속에서도 목표를 향한 전진을 멈추지 마십시오. 과거의 실패에 얽매이지 말고 끊임없이 더 나은 미래를 향해 발걸음을 내디디시길 바랍니다."
+    },
+    {
+      "title": "사상이 없는 행동은 맹목적이며, 행동이 없는 사상은 공허할 뿐입니다.",
+      "content": "뚜렷한 철학과 신념을 바탕으로 실천에 임하십시오. 머릿속의 이상을 현실로 만들기 위해서는 반드시 용기 있는 행동이 뒷받침되어야 합니다."
+    },
+    {
+      "title": "단결 속에 우리의 힘이 있고, 분열 속에 우리의 패배가 있습니다.",
+      "content": "공동의 목표를 달성하기 위해 주변 사람들과 굳건하게 연대하십시오. 서로 다름을 극복하고 하나로 뭉칠 때 비로소 진정한 변화를 만들어낼 수 있습니다."
+    }
+  ],
+  "persona": "당신은 콰메 은크루마이다.",
+  "imageUrl": "/images/giants/kwame-nkrumah.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1909~1972)"
+},
+  {
+  "id": "194",
+  "name": "견훤",
+  "category": "leadership",
+  "headline": "신라 말기의 혼란을 틈타 옛 백제의 부흥을 내걸고 후백제를 건국하여 한반도의 패권을 다툰 탁월한 군사 지도자다.",
+  "shortDescription": "견훤의 일대기와 지혜",
+  "slug": "kyon-hwon",
+  "quote": "민심을 얻는 자가 천하를 얻고, 민심을 잃는 자는 천하를 잃을 것이다.",
+  "pain": "자신이 평생을 바쳐 세운 나라에서 아들들의 배신으로 왕위를 찬탈당하고 절에 강제로 유폐되는 끔찍한 절망을 겪었다.",
+  "recovery": "평생의 숙적이었던 왕건에게 망명하는 파격적인 결단을 내림으로써 반역을 저지른 아들들을 처단하고 자신의 명예를 지켰다.",
+  "lessons": [
+    {
+      "title": "민심을 얻는 자가 천하를 얻고, 민심을 잃는 자는 천하를 잃을 것이다.",
+      "content": "어떤 큰 뜻을 세우든 항상 사람들의 마음을 세심하게 살피고 헤아리십시오. 진정한 힘과 권위는 강압이 아니라 구성원들의 자발적이고 진심 어린 지지에서 비롯됩니다."
+    },
+    {
+      "title": "때를 기다리는 인내는 칼을 휘두르는 용기보다 더 큰 승리를 가져다준다.",
+      "content": "불리한 상황에서는 조급하게 움직이지 말고 묵묵히 힘을 기르며 때를 기다리십시오. 시기를 읽어내는 지혜와 인내야말로 가장 결정적인 무기가 될 수 있습니다."
+    },
+    {
+      "title": "내부의 분열은 외부의 강력한 적보다 훨씬 더 치명적이고 두려운 법이다.",
+      "content": "조직의 결속을 해치는 내부의 갈등을 결코 방치하지 마십시오. 아무리 외부에서 큰 성공을 거두더라도 내부가 단합되지 않으면 결국 모든 것이 한순간에 무너질 수 있습니다."
+    }
+  ],
+  "persona": "당신은 견훤이다.",
+  "imageUrl": "/images/giants/kyon-hwon.jpg",
+  "dnaCode": "LRHI",
+  "era": "9세기의 거인 (867~936)"
+},
+  {
+  "id": "272",
+  "name": "리콴유",
+  "category": "leadership",
+  "headline": "버려진 작은 섬나라 싱가포르를 세계 최고 수준의 경제 대국이자 아시아의 금융 허브로 탈바꿈시킨 건국의 아버지다.",
+  "shortDescription": "리콴유의 일대기와 지혜",
+  "slug": "lee-kuan-yew",
+  "quote": "결과가 없는 말은 아무런 의미가 없습니다. 중요한 것은 항상 실천과 성과입니다.",
+  "pain": "자원도 없는 작은 섬나라가 말레이시아 연방에서 강제로 축출되어 홀로 생존해야 하는 절망적인 국가 존망의 위기에 처했다.",
+  "recovery": "극도로 엄격한 법치와 실용주의적인 경제 정책을 통해 부패를 척결하고 다국적 기업을 유치하여 일류 선진국으로 탈바꿈시켰다.",
+  "lessons": [
+    {
+      "title": "결과가 없는 말은 아무런 의미가 없습니다. 중요한 것은 항상 실천과 성과입니다.",
+      "content": "화려한 수사나 탁상공론에 얽매이지 말고 반드시 구체적인 결과를 내는 데 집중하십시오. 모든 계획과 비전은 오직 현실적인 실천을 통해서만 가치를 증명할 수 있습니다."
+    },
+    {
+      "title": "규율이 없는 자유는 혼란을 낳고, 책임이 없는 자유는 방종을 낳을 뿐입니다.",
+      "content": "진정한 자유와 번영을 누리기 위해서는 그에 걸맞은 엄격한 규율과 책임감을 스스로 다하십시오. 질서가 무너진 사회에서는 개인의 성취도 결코 지속될 수 없습니다."
+    },
+    {
+      "title": "우리는 세계를 있는 그대로 보아야 하며, 우리가 바라는 대로 보아서는 안 됩니다.",
+      "content": "막연한 희망에 기대지 말고 냉철하고 객관적인 시각으로 현실을 직시하십시오. 직면한 위기를 정확히 인정하는 것만이 가장 올바른 해결책을 찾는 첫걸음입니다."
+    }
+  ],
+  "persona": "당신은 리콴유이다.",
+  "imageUrl": "/images/giants/lee-kuan-yew.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1923~2015)"
+},
+  {
+  "id": "62",
+  "name": "레오나 비카리오",
+  "category": "leadership",
+  "headline": "자신의 막대한 유산과 목숨을 모두 바쳐 스페인의 식민 지배에 맞서 멕시코 독립 전쟁을 이끌어낸 위대한 여성 해방 투사다.",
+  "shortDescription": "레오나 비카리오의 일대기와 지혜",
+  "slug": "leona-vicario",
+  "quote": "나의 희생은 누군가를 맹목적으로 따르기 위함이 아니라, 나의 조국이 자유를 누리기를 바라는 확고한 정치적 신념에서 비롯된 것입니다.",
+  "pain": "독립군의 정보원으로 활동하다 발각되어 수녀원에 감금당하고, 탈출 후 깊은 동굴에서 아이를 출산하는 극심한 고초를 겪었다.",
+  "recovery": "모든 부와 명예를 포기한 채 목숨을 건 도피 생활 속에서도 언론을 통해 멕시코 독립의 당위성을 널리 알리며 투쟁을 멈추지 않았다.",
+  "lessons": [
+    {
+      "title": "나의 희생은 누군가를 맹목적으로 따르기 위함이 아니라, 나의 조국이 자유를 누리기를 바라는 확고한 정치적 신념에서 비롯된 것입니다.",
+      "content": "타인의 시선이나 편견에 휘둘리지 말고 오직 자신이 옳다고 믿는 신념을 당당하게 주장하십시오. 진정한 헌신은 뚜렷한 주체성에서 비로소 빛을 발합니다."
+    },
+    {
+      "title": "가장 어두운 동굴 속에서도 우리는 빛을 향한 열망을 결코 버려서는 안 됩니다.",
+      "content": "아무리 고통스럽고 절망적인 환경에 처하더라도 희망의 끈을 놓지 마십시오. 강인한 인내와 용기는 가장 척박한 곳에서도 기적을 만들어냅니다."
+    },
+    {
+      "title": "진정한 자유는 우리 스스로 쟁취할 때만 의미가 있으며, 누구도 이를 대신 가져다주지 않습니다.",
+      "content": "권리와 자유를 원한다면 기꺼이 대가를 지불하고 스스로 앞장서서 행동하십시오. 세상의 어떤 위대한 변화도 아무런 희생 없이 이뤄지는 법은 없습니다."
+    }
+  ],
+  "persona": "당신은 레오나 비카리오이다.",
+  "imageUrl": "/images/giants/leona-vicario.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1789~1842)"
+},
+  {
+  "id": "251",
+  "name": "임칙서",
+  "category": "leadership",
+  "headline": "서구 열강의 아편 밀무역에 단호하게 맞서 후먼에서 아편을 폐기하며 청나라 백성의 목숨을 구하고자 했던 대쪽 같은 민족 영웅이다.",
+  "shortDescription": "임칙서의 일대기와 지혜",
+  "slug": "lin-zexu",
+  "quote": "해악을 끼치는 자들에게 타협이라는 이름으로 관용을 베푸는 것은 곧 국가의 가장 큰 죄악이다.",
+  "pain": "아편 문제를 해결하여 국가를 구원하려 했으나, 비겁한 조정에 의해 전쟁의 희생양으로 몰려 척박한 변방으로 유배되는 억울함을 겪었다.",
+  "recovery": "자신을 버린 국가를 원망하지 않고 유배지에서도 수로 정비와 빈민 구제에 힘쓰며 묵묵히 공직자의 도리를 다해 백성들의 존경을 되찾았다.",
+  "lessons": [
+    {
+      "title": "해악을 끼치는 자들에게 타협이라는 이름으로 관용을 베푸는 것은 곧 국가의 가장 큰 죄악이다.",
+      "content": "개인이나 조직을 파멸로 이끄는 명백한 불의 앞에서는 어떠한 타협도 하지 마십시오. 단호하게 악의 뿌리를 뽑아내는 결단만이 진정한 정의를 지키는 길입니다."
+    },
+    {
+      "title": "바다는 모든 강물을 다 받아들이기에 그토록 거대하고 푸른 것이다.",
+      "content": "나와 다른 의견과 비판을 너그럽게 수용할 줄 아는 폭넓은 포용력을 기르십시오. 세상을 이끄는 위대한 지도력은 타인의 지혜를 겸손하게 받아들이는 마음에서 시작됩니다."
+    },
+    {
+      "title": "이익을 위해 부도덕을 행한다면, 그 재물은 결국 자신을 찌르는 날카로운 비수가 될 것이다.",
+      "content": "단기적인 눈앞의 이익을 좇아 윤리와 도덕을 결코 저버리지 마십시오. 청렴하고 바른길을 걷는 것만이 훗날 어떠한 역경에도 무너지지 않는 굳건한 평판을 만듭니다."
+    }
+  ],
+  "persona": "당신은 임칙서이다.",
+  "imageUrl": "/images/giants/lin-zexu.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1785~1850)"
+},
+  {
+  "id": "208",
+  "name": "루이 14세",
+  "category": "leadership",
+  "headline": "72년이라는 유럽 역사상 최장기 재위 기록을 세우며 절대왕정의 절정을 이룩한 프랑스의 태양왕이다.",
+  "shortDescription": "루이 14세의 일대기와 지혜",
+  "slug": "louis-xiv",
+  "quote": "짐이 곧 국가다.",
+  "pain": "유년기 프롱드의 난으로 인한 생명의 위협과 망명 생활, 그리고 치세 말기 스페인 왕위 계승 전쟁으로 인한 국가 재정의 극심한 파탄을 겪었다.",
+  "recovery": "귀족의 권력을 철저히 약화시키고 베르사유 궁전을 통해 그들을 통제함으로써 절대왕정을 확립하고 반란의 싹을 잘라냈다.",
+  "lessons": [
+    {
+      "title": "짐이 곧 국가다.",
+      "content": "모든 책임과 권한을 스스로 짊어지는 강력한 리더십의 본질을 보여줍니다. 조직의 위기 상황에서 리더는 회피하지 않고 전면에 나서야 함을 명심하십시오."
+    },
+    {
+      "title": "나는 너무 전쟁을 사랑했다.",
+      "content": "맹목적인 목표 달성이나 과도한 야심이 결국 자신과 주변을 파괴할 수 있다는 뼈아픈 반성을 담고 있습니다. 무리한 확장보다 내실을 다지는 지혜를 가지십시오."
+    },
+    {
+      "title": "자신의 감정을 억제하지 못하는 자는 남을 지배할 수 없다.",
+      "content": "리더에게 가장 먼저 요구되는 자질은 철저한 자기 통제와 감정 관리입니다. 분노와 충동을 다스려 이성적인 판단을 내릴 수 있도록 훈련하십시오."
+    }
+  ],
+  "persona": "당신은 루이 14세이다.",
+  "imageUrl": "/images/giants/louis-xiv.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1638~1715)"
+},
+  {
+  "id": "279",
+  "name": "루이 16세",
+  "category": "leadership",
+  "headline": "프랑스 대혁명의 격랑 속에서 단두대의 이슬로 사라진 부르봉 왕조의 마지막 절대 군주이다.",
+  "shortDescription": "루이 16세의 일대기와 지혜",
+  "slug": "louis-xvi",
+  "quote": "나는 죄 없이 죽는다. 나를 죽음으로 내몬 자들을 용서하며, 나의 피가 프랑스에 다시는 떨어지지 않기를 기도한다.",
+  "pain": "구체제의 구조적 모순과 누적된 막대한 국가 부채 속에서 재위 기간 내내 혁명의 거센 파도에 직면했다.",
+  "recovery": "개혁을 시도했으나 기득권의 반발과 결단력 부족으로 위기를 극복하지 못하고 결국 형장의 이슬로 사라졌다.",
+  "lessons": [
+    {
+      "title": "나는 죄 없이 죽는다. 나를 죽음으로 내몬 자들을 용서하며, 나의 피가 프랑스에 다시는 떨어지지 않기를 기도한다.",
+      "content": "죽음 앞에서도 의연함과 타인에 대한 용서를 잃지 않는 태도를 보여줍니다. 절망적인 상황에서도 인간으로서의 존엄성을 지키십시오."
+    },
+    {
+      "title": "내가 백성들을 사랑했던 만큼 그들도 나를 사랑했더라면 얼마나 좋았을까.",
+      "content": "리더의 선의만으로는 조직을 이끌 수 없으며 결과와 소통이 중요함을 경고합니다. 구성원들의 마음을 정확히 읽고 현실적인 대안을 제시하십시오."
+    },
+    {
+      "title": "국왕이 되기 위해 배워야 할 것이 이토록 많은데, 나는 아는 것이 너무나 없구나.",
+      "content": "자신의 부족함을 솔직하게 인정하는 겸손함의 가치를 보여줍니다. 리더 자리에 올랐더라도 끊임없이 배우고 준비하는 자세를 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 루이 16세이다.",
+  "imageUrl": "/images/giants/louis-xvi.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1754~1793)"
+},
+  {
+  "id": "465",
+  "name": "타르퀴니우스 수페르부스",
+  "category": "leadership",
+  "headline": "로마 왕국의 마지막 왕으로, 그의 폭정이 로마 공화정을 탄생시키는 결정적 계기가 되었다.",
+  "shortDescription": "타르퀴니우스 수페르부스의 일대기와 지혜",
+  "slug": "lucius-tarquinius-superbus",
+  "quote": "가장 높이 자란 양귀비의 목을 베어라.",
+  "pain": "즉위 과정에서의 정통성 부족과 무리한 토목 공사로 인한 시민들의 불만, 그리고 아들의 만행으로 촉발된 대규모 민중 봉기에 직면했다.",
+  "recovery": "초기에는 공포 정치와 군사적 성공으로 반발을 억눌렀으나, 결국 루크레티아 사건으로 촉발된 봉기를 막지 못하고 로마에서 추방당했다.",
+  "lessons": [
+    {
+      "title": "가장 높이 자란 양귀비의 목을 베어라.",
+      "content": "잠재적인 위협을 선제적으로 제거하여 권력을 유지하는 냉혹한 정치적 통찰을 보여줍니다. 조직의 기강을 해치는 요소를 단호하게 끊어내십시오."
+    },
+    {
+      "title": "무력으로 얻은 권력은 무력으로 지켜야 한다.",
+      "content": "강압적인 수단으로 얻은 성과는 영속하기 어려우며 끊임없는 긴장을 요구한다는 점을 경고합니다. 구성원들의 자발적인 동의와 신뢰를 이끌어내는 리더십을 발휘하십시오."
+    },
+    {
+      "title": "오만함은 결국 자신의 무덤을 파는 삽이다.",
+      "content": "권력에 심취하여 주변의 조언을 무시하는 태도가 멸망의 지름길임을 일깨워 줍니다. 자만심을 경계하고 늘 겸손한 태도로 타인의 목소리에 귀 기울이십시오."
+    }
+  ],
+  "persona": "당신은 타르퀴니우스 수페르부스이다.",
+  "imageUrl": "/images/giants/lucius-tarquinius-superbus.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 6세기의 거인 (기원전 535~기원전 495)"
+},
+  {
+  "id": "275",
+  "name": "마거릿 대처",
+  "category": "leadership",
+  "headline": "강력한 신자유주의 개혁을 통해 쇠퇴하던 영국 경제를 되살린 영국 역사상 최초의 여성 총리이다.",
+  "shortDescription": "마거릿 대처의 일대기와 지혜",
+  "slug": "margaret-thatcher",
+  "quote": "생각을 조심하라, 말이 된다. 말을 조심하라, 행동이 된다. 행동을 조심하라, 습관이 된다. 습관을 조심하라, 성격이 된다. 성격을 조심하라, 운명이 된다.",
+  "pain": "영국 병으로 불리던 극심한 경제 침체와 강성 노조의 전국적인 대파업, 그리고 아르헨티나의 포클랜드 침공이라는 국가적 위기를 겪었다.",
+  "recovery": "여론의 반발에도 타협 없는 민영화와 노조 개혁을 강행하고 단호한 전쟁 수행 결단을 통해 영국의 자존심과 경제 활력을 되찾았다.",
+  "lessons": [
+    {
+      "title": "생각을 조심하라, 말이 된다. 말을 조심하라, 행동이 된다. 행동을 조심하라, 습관이 된다. 습관을 조심하라, 성격이 된다. 성격을 조심하라, 운명이 된다.",
+      "content": "개인의 작은 생각 하나가 결국 삶의 방향을 결정한다는 깊은 통찰을 담고 있습니다. 일상적인 생각과 행동의 중요성을 잊지 말고 끊임없이 자신을 성찰하십시오."
+    },
+    {
+      "title": "사회라는 것은 존재하지 않습니다. 오직 개별적인 남자와 여자, 그리고 가족만이 존재할 뿐입니다.",
+      "content": "모든 책임의 주체는 모호한 집단이 아니라 개인 스스로에게 있다는 개인주의적 책임 의식을 강조합니다. 시스템에 의존하기보다 자신의 삶을 주도적으로 개척하십시오."
+    },
+    {
+      "title": "나는 합의의 정치를 믿지 않습니다. 나는 신념의 정치를 믿습니다.",
+      "content": "진정한 변화는 모두를 만족시키는 적당한 타협이 아니라 굳건한 원칙에서 비롯됨을 보여줍니다. 반대에 부딪히더라도 옳다고 믿는 신념을 끝까지 밀어붙일 용기를 가지십시오."
+    }
+  ],
+  "persona": "당신은 마거릿 대처이다.",
+  "imageUrl": "/images/giants/margaret-thatcher.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1925~2013)"
+},
+  {
+  "id": "431",
+  "name": "마르쿠스 안토니우스",
+  "category": "leadership",
+  "headline": "율리우스 카이사르의 든든한 오른팔이자, 클레오파트라와의 비극적인 사랑으로 역사에 남은 로마의 걸출한 군사 지도자이다.",
+  "shortDescription": "마르쿠스 안토니우스의 일대기와 지혜",
+  "slug": "mark-antony",
+  "quote": "벗들이여, 로마인들이여, 동포들이여, 내 말을 들어 주시오. 나는 카이사르를 묻으러 온 것이지, 그를 찬양하러 온 것이 아니오.",
+  "pain": "카이사르 암살 직후의 극심한 정치적 혼란과 파르티아 원정 실패, 그리고 옥타비아누스와의 운명적인 권력 투쟁에 직면했다.",
+  "recovery": "뛰어난 군사적 재능으로 공화파를 격파했으나, 클레오파트라와의 사랑에 눈이 멀어 옥타비아누스에게 패배하고 스스로 목숨을 끊었다.",
+  "lessons": [
+    {
+      "title": "벗들이여, 로마인들이여, 동포들이여, 내 말을 들어 주시오. 나는 카이사르를 묻으러 온 것이지, 그를 찬양하러 온 것이 아니오.",
+      "content": "대중의 마음을 움직이는 것은 화려한 미사여구가 아니라 진정성과 치밀한 심리전임을 보여줍니다. 결정적인 순간에는 청중의 감성에 호소하는 소통 능력을 발휘하십시오."
+    },
+    {
+      "title": "비겁한 자는 죽기 전에 여러 번 죽지만, 용감한 자는 죽음을 한 번만 맛볼 뿐이다.",
+      "content": "두려움에 굴복하여 도망치는 삶의 비참함을 경고하는 셰익스피어 희곡 속 명대사입니다. 피할 수 없는 위기 앞에서는 물러서지 말고 당당하게 맞서는 용기를 가지십시오."
+    },
+    {
+      "title": "인간은 자신이 사랑하는 것을 위해 가장 먼저 무너진다.",
+      "content": "통제되지 않는 맹목적인 열정이 판단력을 흐리게 하고 파멸을 부를 수 있음을 경고합니다. 개인적인 감정과 공적인 책임 사이에서 이성적인 균형을 유지하십시오."
+    }
+  ],
+  "persona": "당신은 마르쿠스 안토니우스이다.",
+  "imageUrl": "/images/giants/mark-antony.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 1세기의 거인 (기원전 83~기원전 30)"
+},
+  {
+  "id": "497",
+  "name": "마틴 밴 뷰런",
+  "category": "leadership",
+  "headline": "미국 정치에 정당 시스템을 최초로 정착시키고 민주당을 창당한 현대 선거 정치의 설계자이다.",
+  "shortDescription": "마틴 밴 뷰런의 일대기와 지혜",
+  "slug": "martin-van-buren",
+  "quote": "정치적 이견은 결코 개인적 적대감이 아닙니다.",
+  "pain": "대통령 취임 직후 '패닉 오브 1837'이라는 끔찍한 경제 공황이 발생하여 국가 경제가 마비되고 은행들이 줄도산하는 전대미문의 위기에 직면했다.",
+  "recovery": "자유방임주의 원칙을 고수하며 인기를 잃는 것을 감수하고서라도, 국가 재정을 보호하기 위해 끈질긴 정치적 투쟁 끝에 '독립 국고제'를 도입하여 재정 관리의 새로운 기틀을 마련했다.",
+  "lessons": [
+    {
+      "title": "정치적 이견은 결코 개인적 적대감이 아닙니다.",
+      "content": "나와 의견이 다르다고 해서 상대를 인격적으로 적으로 돌려서는 안 됩니다. 공동의 목표를 위해서는 정적과도 언제든 타협하고 협력할 수 있는 포용의 자세를 가지십시오."
+    },
+    {
+      "title": "두 번째로 생각한 것이 종종 더 나은 법입니다.",
+      "content": "감정에 치우친 첫 번째 반응보다는, 심사숙고한 후의 결정이 항상 더 현명한 결과를 낳습니다. 중요한 판단을 내릴 때는 반드시 한 번 더 생각하는 여유를 가지십시오."
+    },
+    {
+      "title": "정부는 국민을 돕기 위해 설립된 것이 아니라, 국민 스스로가 자신을 도울 수 있도록 보호하기 위해 존재하는 것입니다.",
+      "content": "타인이나 외부의 도움에 전적으로 의존하려 하지 마십시오. 스스로의 삶을 개척하는 자립심이야말로 개인과 사회를 지탱하는 가장 튼튼한 근간임을 잊지 마십시오."
+    }
+  ],
+  "persona": "당신은 마틴 밴 뷰런이다.",
+  "imageUrl": "/images/giants/martin-van-buren.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1782~1862)"
+},
+  {
+  "id": "218",
+  "name": "메리 스튜어트",
+  "category": "leadership",
+  "headline": "평생을 잉글랜드와 스코틀랜드의 권력 투쟁 속에서 살다 비극적으로 처형당한 스코틀랜드의 여왕이다.",
+  "shortDescription": "메리 스튜어트의 일대기와 지혜",
+  "slug": "mary-queen-of-scots",
+  "quote": "나의 끝에 나의 시작이 있습니다.",
+  "pain": "생후 엿새 만에 왕위에 올라 평생을 잉글랜드와 자국 귀족들의 정치적 야욕, 그리고 종교 분쟁의 소용돌이 속에서 생명의 위협을 받으며 유폐 생활을 견뎌야 했다.",
+  "recovery": "모든 권력을 잃고 19년간 감금된 비참한 상황 속에서도 결코 스코틀랜드 여왕으로서의 자존심을 굽히지 않았으며, 단두대 앞에서도 의연한 태도로 자신의 신앙과 권리를 옹호했다.",
+  "lessons": [
+    {
+      "title": "나의 끝에 나의 시작이 있습니다.",
+      "content": "육체적인 죽음이나 실패가 결코 모든 것의 끝을 의미하지는 않습니다. 가장 절망적인 순간이 훗날 새로운 역사와 희망이 싹트는 위대한 출발점이 될 수 있음을 믿으십시오."
+    },
+    {
+      "title": "지혜로운 자의 마음은 슬픔 속에서도 평온을 유지합니다.",
+      "content": "감당하기 힘든 고난과 역경이 닥치더라도 이성을 잃고 흔들리지 마십시오. 깊은 슬픔의 한가운데서도 마음의 평정심을 유지하는 것이야말로 진정한 내면의 강인함입니다."
+    },
+    {
+      "title": "군주의 진정한 힘은 칼이 아니라 백성의 사랑에서 나옵니다.",
+      "content": "무력이나 강압적인 통제로는 사람의 마음을 영원히 지배할 수 없습니다. 타인을 이끌고자 한다면 진정성 있는 태도와 포용력으로 그들의 자발적인 존경과 사랑을 얻어내십시오."
+    }
+  ],
+  "persona": "당신은 메리 스튜어트이다.",
+  "imageUrl": "/images/giants/mary-queen-of-scots.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1542~1587)"
+},
+  {
+  "id": "209",
+  "name": "막시밀리앵 로베스피에르",
+  "category": "leadership",
+  "headline": "프랑스 혁명의 숭고한 이상을 좇아 가장 급진적인 민주주의를 주장했으나, 그 이상을 수호하기 위해 끔찍한 공포정치를 자행한 모순의 혁명가이다.",
+  "shortDescription": "막시밀리앵 로베스피에르의 일대기와 지혜",
+  "slug": "maximilien-robespierre",
+  "quote": "미덕 없는 공포는 치명적이고, 공포 없는 미덕은 무기력합니다.",
+  "pain": "외세의 침략과 내부의 반혁명 반란으로 인해 이제 막 탄생한 프랑스 공화국이 붕괴될지도 모른다는 극심한 국가적 위기와 생존의 공포에 직면했다.",
+  "recovery": "공안위원회를 이끌며 특유의 도덕적 원칙주의와 무자비한 공포정치를 통해 반대파를 철저히 숙청함으로써, 외부의 적을 물리치고 혁명의 불씨를 강제로 지켜냈다.",
+  "lessons": [
+    {
+      "title": "미덕 없는 공포는 치명적이고, 공포 없는 미덕은 무기력합니다.",
+      "content": "올바른 목적을 이루기 위해서는 때로 강력하고 단호한 결단력이 수반되어야 합니다. 다만 그 힘이 개인의 이기심이 아닌 확고한 도덕적 원칙에 뿌리를 두고 있는지 끊임없이 경계하십시오."
+    },
+    {
+      "title": "조국이 살기 위해, 타락한 옛 질서는 죽어야만 합니다.",
+      "content": "진정한 혁신과 변화를 원한다면 과거의 악습과 낡은 관행을 미련 없이 잘라내야 합니다. 새로운 생명을 잉태하기 위해서는 썩은 부위를 도려내는 뼈아픈 희생을 두려워하지 마십시오."
+    },
+    {
+      "title": "자유의 비밀은 사람들을 교육하는 데 있지만, 압제의 비밀은 그들을 무지하게 내버려 두는 데 있습니다.",
+      "content": "배움을 멈추고 지성을 잃어버리는 순간, 우리는 타인의 의도에 쉽게 휘둘리게 됩니다. 스스로의 권리를 지키고 자유로운 삶을 누리기 위해 끊임없이 읽고 생각하고 깨우치십시오."
+    }
+  ],
+  "persona": "당신은 막시밀리앵 로베스피에르이다.",
+  "imageUrl": "/images/giants/maximilien-robespierre.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1758~1794)"
+},
+  {
+  "id": "481",
+  "name": "메흐메트 2세",
+  "category": "leadership",
+  "headline": "천 년을 이어온 비잔티움 제국을 멸망시키고 콘스탄티노플을 점령하여 오스만 제국을 세계 제국으로 도약시킨 위대한 정복자이다.",
+  "shortDescription": "메흐메트 2세의 일대기와 지혜",
+  "slug": "mehmed-ii",
+  "quote": "나는 두 대륙을 지배하는 자가 될 것이며, 이 세상에 로마 황제는 오직 나 하나뿐이다.",
+  "pain": "12세에 어린 나이로 술탄에 올랐으나 내외부의 위협으로 왕좌에서 쫓겨나는 수모를 겪었고, 난공불락이라 불리는 콘스탄티노플 성벽을 무너뜨려야 하는 불가능에 가까운 과제에 직면했다.",
+  "recovery": "거대한 청동 대포를 주조하고 함대를 산 위로 끌어올리는 전무후무한 군사적 기지와 집념을 발휘하여 마침내 1453년 비잔티움 제국을 멸망시키고 이스탄불을 제국의 심장으로 재건했다.",
+  "lessons": [
+    {
+      "title": "나는 두 대륙을 지배하는 자가 될 것이며, 이 세상에 로마 황제는 오직 나 하나뿐이다.",
+      "content": "자신의 잠재력을 스스로 한계 짓지 마십시오. 세상을 뒤흔들 만큼 원대하고 압도적인 목표를 가슴에 품고, 그것을 기필코 이루어내겠다는 강력한 의지를 선언하십시오."
+    },
+    {
+      "title": "적의 방패가 아무리 단단해도, 우리의 칼날을 벼리는 지혜가 있다면 결코 뚫지 못할 성벽은 없습니다.",
+      "content": "아무리 불가능해 보이는 난관에 부딪히더라도 결코 좌절하거나 포기하지 마십시오. 창의적인 발상과 혁신적인 접근법을 끊임없이 시도한다면 반드시 해결책을 찾을 수 있습니다."
+    },
+    {
+      "title": "진정한 정복자는 영토를 빼앗는 자가 아니라, 서로 다른 믿음을 가진 이들을 하나의 법 아래 품어내는 자입니다.",
+      "content": "힘으로 상대를 굴복시키는 것보다 더 위대한 것은 포용력입니다. 다양성을 존중하고 서로 다른 의견을 하나로 융합할 줄 아는 관대함이야말로 진정한 리더십의 본질입니다."
+    }
+  ],
+  "persona": "당신은 메흐메트 2세이다.",
+  "imageUrl": "/images/giants/mehmed-ii.jpg",
+  "dnaCode": "LRHI",
+  "era": "15세기의 거인 (1432~1481)"
+},
+  {
+  "id": "214",
+  "name": "미하일 고르바초프",
+  "category": "leadership",
+  "headline": "과감한 개혁과 개방 정책을 통해 소련 제국을 스스로 해체하고 반세기 동안 이어진 냉전 체제를 평화적으로 종식시킨 20세기의 역사적 결단자이다.",
+  "shortDescription": "미하일 고르바초프의 일대기와 지혜",
+  "slug": "mikhail-gorbachev",
+  "quote": "우리가 변하지 않으면, 역사가 우리를 벌할 것입니다.",
+  "pain": "공산당 서기장으로 취임했을 당시 소련은 관료주의의 부패, 막대한 국방비 지출, 그리고 치유 불가능한 경제 침체로 인해 국가 체제 자체가 서서히 붕괴되고 있는 절망적인 상황이었다.",
+  "recovery": "기득권층의 극심한 반발과 암살의 위협 속에서도 페레스트로이카와 글라스노스트라는 파격적인 개혁을 단행하고, 서방과의 과감한 군축 조약을 맺어 냉전 체제를 평화적으로 종식시켰다.",
+  "lessons": [
+    {
+      "title": "우리가 변하지 않으면, 역사가 우리를 벌할 것입니다.",
+      "content": "현실에 안주하며 낡은 방식만을 고집하는 것은 스스로를 도태시키는 지름길입니다. 시대의 흐름을 날카롭게 읽고 뼈를 깎는 혁신을 주도적으로 실행에 옮기십시오."
+    },
+    {
+      "title": "평화는 단지 전쟁이 없는 상태가 아니라, 폭력을 배제하고 인류가 함께 생존할 수 있는 보편적 가치입니다.",
+      "content": "갈등을 해결할 때 강압적인 힘에 의존하려는 유혹을 떨쳐내십시오. 진정한 승리는 상대를 파괴하는 것이 아니라, 대화와 타협을 통해 공존의 길을 모색할 때 비로소 얻어집니다."
+    },
+    {
+      "title": "가장 위대한 개혁은 무력을 동원하여 국경을 넓히는 것이 아니라, 사람들의 마음속에 갇힌 두려움의 장벽을 허무는 것입니다.",
+      "content": "외면적인 성과나 통제에만 집착하지 말고, 사람들의 내면을 자유롭게 하십시오. 구성원들이 두려움 없이 자신의 목소리를 낼 수 있도록 열린 환경을 조성하는 것이 진정한 리더십입니다."
+    }
+  ],
+  "persona": "당신은 미하일 고르바초프이다.",
+  "imageUrl": "/images/giants/mikhail-gorbachev.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1931~2022)"
+},
+  {
+  "id": "23",
+  "name": "미나모토 노 요시츠네",
+  "category": "leadership",
+  "headline": "일본 헤이안 시대 말기, 천재적인 전술로 미나모토 가문을 승리로 이끌었으나 형의 배신으로 비극적 최후를 맞은 전설적인 무장이다.",
+  "shortDescription": "미나모토 노 요시츠네의 일대기와 지혜",
+  "slug": "minamoto-no-yoshitsune",
+  "quote": "지형의 불리함은 훈련된 용기와 기습으로 충분히 극복할 수 있다.",
+  "pain": "어린 시절 가문이 멸망하고 산속 사찰에 은둔해야 했으며, 훗날 헌신했던 형의 배신으로 쫓기는 신세가 되었습니다.",
+  "recovery": "험준한 자연 환경에서 끊임없이 무술과 전술을 연마하여 기습과 기동전에 능한 최고의 전술가로 성장했습니다.",
+  "lessons": [
+    {
+      "title": "지형의 불리함은 훈련된 용기와 기습으로 충분히 극복할 수 있다.",
+      "content": "불리한 조건에 좌절하지 마십시오. 과감한 결단과 창의적인 접근 방식이 있다면 어떤 어려움도 뒤집을 수 있습니다."
+    },
+    {
+      "title": "명예를 지키는 것은 전쟁에서 이기는 것만큼이나 무사에게 중요하다.",
+      "content": "결과뿐만 아니라 과정을 중시하십시오. 최후의 순간에도 자신의 원칙과 품위를 잃지 않는 것이 진정한 승리입니다."
+    },
+    {
+      "title": "의심은 가장 날카로운 칼보다 더 깊고 치명적인 상처를 남긴다.",
+      "content": "가까운 사람과의 신뢰를 소중히 여기십시오. 한 번 무너진 믿음은 가장 큰 성취마저도 한순간에 재로 만들 수 있습니다."
+    }
+  ],
+  "persona": "당신은 미나모토 노 요시츠네이다.",
+  "imageUrl": "/images/giants/minamoto-no-yoshitsune.jpg",
+  "dnaCode": "LRHI",
+  "era": "12세기의 거인 (1159~1189)"
+},
+  {
+  "id": "439",
+  "name": "뭄타즈 마할",
+  "category": "leadership",
+  "headline": "무굴 제국 샤 자한 황제의 총애를 받으며 제국의 국정에 참여했던 현명한 황후이자 타지마할의 주인공이다.",
+  "shortDescription": "뭄타즈 마할의 일대기와 지혜",
+  "slug": "mumtaz-mahal",
+  "quote": "진실한 사랑은 화려한 보석보다 더 밝게 빛나며 영원히 사라지지 않는다.",
+  "pain": "잦은 궁정 암투와 험난한 원정길 속에서도 황제의 곁을 떠나지 않고 헌신해야 했습니다.",
+  "recovery": "뛰어난 정치적 감각과 지혜로 황제의 가장 든든한 조언자가 되었으며, 자선 활동을 통해 백성들의 존경을 받았습니다.",
+  "lessons": [
+    {
+      "title": "진실한 사랑은 화려한 보석보다 더 밝게 빛나며 영원히 사라지지 않는다.",
+      "content": "가장 소중한 가치는 물질이 아니라 마음에 있음을 기억하십시오. 진정한 사랑과 헌신은 그 어떤 부유함보다 더 오랜 시간 기억됩니다."
+    },
+    {
+      "title": "가장 큰 권력은 칼이 아니라 지혜롭고 온화한 조언에서 나온다.",
+      "content": "힘으로 상대를 억누르려 하지 말고 지혜와 부드러움으로 감동을 주십시오. 그것이 가장 견고하고 흔들리지 않는 영향력의 원천입니다."
+    },
+    {
+      "title": "세상을 떠난 후에도 기억되는 사람은 삶 속에서 무언가를 남긴 사람뿐이다.",
+      "content": "당신의 삶이 다른 사람들에게 어떤 의미를 남길지 고민하십시오. 위대한 유산은 결국 내가 타인에게 베푼 사랑과 헌신에서 비롯됩니다."
+    }
+  ],
+  "persona": "당신은 뭄타즈 마할이다.",
+  "imageUrl": "/images/giants/mumtaz-mahal.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1593~1631)"
+},
+  {
+  "id": "53",
+  "name": "난디 여왕",
+  "category": "leadership",
+  "headline": "줄루 제국을 건설한 전사 왕 샤카의 어머니로, 가혹한 차별을 이겨내고 아들의 핵심적인 정치적 조언자 역할을 한 강인한 여왕이다.",
+  "shortDescription": "난디 여왕의 일대기와 지혜",
+  "slug": "nandi-mother-of-shaka",
+  "quote": "어머니의 굳건한 믿음은 세상의 어떤 무기보다 아이를 강하게 만든다.",
+  "pain": "미혼모로서 부족 사회에서 추방당해 멸시와 가난 속에서 아들을 홀로 키워야 하는 극심한 고난을 겪었습니다.",
+  "recovery": "불굴의 의지와 사랑으로 아들에게 자신감을 심어주었으며, 훗날 자비롭고 지혜로운 조언자로서 복수심에 찬 아들을 제어했습니다.",
+  "lessons": [
+    {
+      "title": "어머니의 굳건한 믿음은 세상의 어떤 무기보다 아이를 강하게 만든다.",
+      "content": "사람을 성장시키는 가장 큰 힘은 신뢰와 사랑입니다. 누군가를 깊이 믿어주는 것만으로도 그 사람이 역경을 이겨낼 수 있는 용기를 줄 수 있습니다."
+    },
+    {
+      "title": "분노와 복수심은 파괴를 부르지만, 자비는 제국을 안정시킨다.",
+      "content": "감정에 휘둘려 극단적인 결정을 내리지 마십시오. 단호함 속에서도 자비와 이성을 잃지 않아야 진정한 화합을 이룰 수 있습니다."
+    },
+    {
+      "title": "가장 비천한 자리에서 시작한 자도 강인한 의지로 가장 높은 곳에 닿을 수 있다.",
+      "content": "현재의 열악한 환경이나 사회적 편견에 굴복하지 마십시오. 자신에 대한 긍지와 노력은 언제나 운명을 뒤바꿀 기회를 만듭니다."
+    }
+  ],
+  "persona": "당신은 난디 여왕이다.",
+  "imageUrl": "/images/giants/nandi-mother-of-shaka.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1760~1827)"
+},
+  {
+  "id": "179",
+  "name": "넬슨 만델라",
+  "category": "leadership",
+  "headline": "남아프리카 공화국의 흑인 인권 운동가이자 최초의 흑인 대통령으로, 27년의 수감 생활 끝에 용서와 화해를 이끌어낸 노벨 평화상 수상자이다.",
+  "shortDescription": "넬슨 만델라의 일대기와 지혜",
+  "slug": "nelson-mandela",
+  "quote": "나는 대단한 인간이 아니다. 단지 무수히 노력하는 한 명의 노인일 뿐이다.",
+  "pain": "국가 반역죄로 기소되어 27년이라는 길고 가혹한 수감 생활을 견디며 육체적, 정신적 고통을 겪었습니다.",
+  "recovery": "감옥 안에서도 신념을 잃지 않고 학업을 이어갔으며, 출소 후에는 복수 대신 관용과 화해의 정치를 펼쳤습니다.",
+  "lessons": [
+    {
+      "title": "나는 대단한 인간이 아니다. 단지 무수히 노력하는 한 명의 노인일 뿐이다.",
+      "content": "자만하지 말고 항상 겸손한 자세를 유지하십시오. 위대한 성취는 특별한 재능이 아니라 끊임없는 노력과 인내에서 나옵니다."
+    },
+    {
+      "title": "용서하지 않는 것은 자신이 독약을 마시고 적이 죽기를 바라는 것과 같다.",
+      "content": "과거의 상처와 증오에 얽매이지 마십시오. 타인을 진정으로 용서할 때 비로소 내면의 분노로부터 자유로워질 수 있습니다."
+    },
+    {
+      "title": "모든 것이 완성되기 전까지는 항상 불가능해 보이기 마련이다.",
+      "content": "도전 앞에서 쉽게 포기하지 마십시오. 신념을 가지고 끈기 있게 앞으로 나아간다면 불가능해 보이는 일도 현실이 될 수 있습니다."
+    }
+  ],
+  "persona": "당신은 넬슨 만델라이다.",
+  "imageUrl": "/images/giants/nelson-mandela.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1918~2013)"
+},
+  {
+  "id": "467",
+  "name": "네로",
+  "category": "leadership",
+  "headline": "로마 제국의 5대 황제로, 초기에는 선정을 베풀었으나 점차 광기에 사로잡혀 폭정을 일삼은 역사상 최악의 폭군 중 하나이다.",
+  "shortDescription": "네로의 일대기와 지혜",
+  "slug": "nero",
+  "quote": "스스로를 통제하지 못하는 자의 손에 쥐어진 권력은 결국 자신마저 파괴한다.",
+  "pain": "어린 시절부터 권력욕에 사로잡힌 어머니의 통제와 간섭을 받아야 했으며, 화재와 반란 등 수많은 위기를 맞이했습니다.",
+  "recovery": "위기를 극복하기보다는 무자비한 숙청과 학살로 책임을 전가했으며, 끝내 현실을 도피하고 파멸의 길을 걸었습니다.",
+  "lessons": [
+    {
+      "title": "스스로를 통제하지 못하는 자의 손에 쥐어진 권력은 결국 자신마저 파괴한다.",
+      "content": "권한이 커질수록 책임감과 자기 절제력을 기르십시오. 이성을 잃은 권력은 주변 사람들뿐만 아니라 스스로의 몰락을 초래합니다."
+    },
+    {
+      "title": "타인의 고통 위에 세워진 화려한 성은 결코 오래가지 못한다.",
+      "content": "자신의 욕심을 채우기 위해 다른 사람을 짓밟지 마십시오. 타인의 희생을 발판으로 이룬 성취는 모래성처럼 한순간에 무너집니다."
+    },
+    {
+      "title": "현실을 부정하고 환상에 빠진 지도자는 결국 시대의 외면을 받는다.",
+      "content": "자신의 문제와 현실을 직시하고 도피하지 마십시오. 진정한 리더십은 불리한 상황에서도 책임을 회피하지 않는 태도에서 완성됩니다."
+    }
+  ],
+  "persona": "당신은 네로이다.",
+  "imageUrl": "/images/giants/nero.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (37~68)"
+},
+  {
+  "id": "471",
+  "name": "네르바",
+  "category": "leadership",
+  "headline": "로마 제국의 혼란을 종식시키고 오현제 시대의 기틀을 마련한 현명한 통치자다.",
+  "shortDescription": "네르바의 일대기와 지혜",
+  "slug": "nerva",
+  "quote": "가장 뛰어난 인재에게 권력을 물려주는 것이 지도자의 마지막 의무이다.",
+  "pain": "근위대의 반란으로 권위가 무너지고 암살 위협에 시달리며 무력한 황제로 전락했다.",
+  "recovery": "혈연 대신 가장 뛰어난 장군을 양자로 삼는 유례없는 결단으로 제국의 내전을 막아냈다.",
+  "lessons": [
+    {
+      "title": "가장 뛰어난 인재에게 권력을 물려주는 것이 지도자의 마지막 의무이다.",
+      "content": "스스로의 한계를 냉철하게 인정하고, 조직의 미래를 이끌 가장 적합한 인재를 발탁하여 권한을 위임하십시오."
+    },
+    {
+      "title": "피를 흘리지 않고 거둔 승리가 진정으로 제국을 강하게 만든다.",
+      "content": "무력이나 강압적인 통제보다는 타협과 포용을 통해 갈등을 치유하고 내부의 안정을 도모하십시오."
+    },
+    {
+      "title": "자신의 목숨보다 제국의 평화를 우선하는 자만이 황제의 자격이 있다.",
+      "content": "위기의 순간에는 개인의 안위나 사사로운 이익을 내려놓고, 대의와 공동체의 이익을 최우선으로 생각하십시오."
+    }
+  ],
+  "persona": "당신은 네르바이다.",
+  "imageUrl": "/images/giants/nerva.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (30~98)"
+},
+  {
+  "id": "438",
+  "name": "누르 자한",
+  "category": "leadership",
+  "headline": "무굴 제국의 전성기를 이끌며 17세기 이슬람 세계에서 유일무이한 권력을 쥔 위대한 여성 통치자다.",
+  "shortDescription": "누르 자한의 일대기와 지혜",
+  "slug": "nur-jahan",
+  "quote": "성별의 한계나 편견에 굴복하지 말고 자신의 실력으로 가치를 증명하십시오.",
+  "pain": "남편을 잃은 슬픔과 여성에 대한 엄격한 종교적 제약 속에서 정치적 적대자들의 끊임없는 공격을 받았다.",
+  "recovery": "탁월한 정치적 수완과 용기를 발휘하여 황제를 대신해 국정을 이끌고 반란군으로부터 황제를 구출해냈다.",
+  "lessons": [
+    {
+      "title": "성별의 한계나 편견에 굴복하지 말고 자신의 실력으로 가치를 증명하십시오.",
+      "content": "외부의 억압이나 사회적 통념에 굴하지 말고, 지혜와 실력을 갈고닦아 당당하게 리더십을 발휘하십시오."
+    },
+    {
+      "title": "권력의 위기 앞에서는 당황하지 말고 치밀한 지략과 강인한 용기로 정면 돌파하십시오.",
+      "content": "절망적인 상황에서도 포기하지 말고 냉철한 판단력과 과감한 행동력으로 위기를 극복해 나가십시오."
+    },
+    {
+      "title": "물러날 때를 아는 자만이 역사에 우아하고 아름다운 흔적을 남길 수 있습니다.",
+      "content": "권력에 지나치게 집착하지 말고 물러설 때를 정확히 파악하여 자신의 존엄과 가치를 지키십시오."
+    }
+  ],
+  "persona": "당신은 누르 자한이다.",
+  "imageUrl": "/images/giants/nur-jahan.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1577~1645)"
+},
+  {
+  "id": "207",
+  "name": "올리버 크롬웰",
+  "category": "leadership",
+  "headline": "잉글랜드 내전에서 왕당파를 물리치고 역사상 유일한 공화국을 수립한 철의 혁명가다.",
+  "shortDescription": "올리버 크롬웰의 일대기와 지혜",
+  "slug": "oliver-cromwell",
+  "quote": "신분이나 출신이 아닌, 오직 실력과 헌신만을 기준으로 인재를 선발하고 등용하십시오.",
+  "pain": "강력한 절대 왕정과 귀족 중심의 왕당파 군대에 맞서 훈련되지 않은 농민들을 이끌고 싸워야 했다.",
+  "recovery": "철저한 규율과 신앙심으로 무장한 신형군을 창설하여 불가능해 보였던 내전을 승리로 이끌었다.",
+  "lessons": [
+    {
+      "title": "신분이나 출신이 아닌, 오직 실력과 헌신만을 기준으로 인재를 선발하고 등용하십시오.",
+      "content": "조직의 성공을 위해서는 배경과 학벌에 얽매이지 않고 철저하게 능력과 열정을 바탕으로 인재를 발탁하십시오."
+    },
+    {
+      "title": "부패한 낡은 질서를 타파하기 위해서는 때로는 차갑고 단호한 결단력이 필요합니다.",
+      "content": "시대의 변화에 발맞추어 구습과 병폐를 끊어내고 혁신을 이루기 위해 과감한 결단을 내리십시오."
+    },
+    {
+      "title": "숭고한 이상도 무소불위의 권력과 결합하면 결국 또 다른 억압이 될 수 있음을 경계하십시오.",
+      "content": "자신의 신념과 대의를 맹신하여 타인에게 강요하지 말고, 늘 권력의 남용을 경계하며 균형을 유지하십시오."
+    }
+  ],
+  "persona": "당신은 올리버 크롬웰이다.",
+  "imageUrl": "/images/giants/oliver-cromwell.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1599~1658)"
+},
+  {
+  "id": "182",
+  "name": "파트리스 루뭄바",
+  "category": "leadership",
+  "headline": "식민 지배의 사슬을 끊고 콩고의 독립을 이뤄낸 아프리카 해방의 영원한 상징이다.",
+  "shortDescription": "파트리스 루뭄바의 일대기와 지혜",
+  "slug": "patrice-lumumba",
+  "quote": "불의한 억압 앞에서는 침묵하지 말고 당당하게 진실과 정의를 외치십시오.",
+  "pain": "벨기에의 가혹한 식민 통치와 외세가 조장한 카탕가 분리주의 반란으로 신생 국가가 분열될 위기에 처했다.",
+  "recovery": "타협 없는 민족주의와 강력한 웅변으로 콩고 민중을 하나로 모아 조국의 완전한 독립을 쟁취해냈다.",
+  "lessons": [
+    {
+      "title": "불의한 억압 앞에서는 침묵하지 말고 당당하게 진실과 정의를 외치십시오.",
+      "content": "부당한 권력과 폭력에 굴복하지 말고 약자의 목소리를 대변하며 진실을 위해 용기 있게 행동하십시오."
+    },
+    {
+      "title": "조직이 분열의 위기에 처했을 때는 진영 논리를 뛰어넘어 대의와 통합을 최우선으로 추구하십시오.",
+      "content": "위기의 순간에는 사사로운 이익과 파벌 다툼을 버리고 조직 전체의 생존과 화합을 도모하십시오."
+    },
+    {
+      "title": "개인의 희생을 두려워하지 않는 신념만이 다음 세대를 움직이는 영원한 불꽃이 될 수 있습니다.",
+      "content": "대의를 위해 기꺼이 헌신하는 진정성을 보여주어 주변 사람들에게 깊은 감동과 영감을 전달하십시오."
+    }
+  ],
+  "persona": "당신은 파트리스 루뭄바이다.",
+  "imageUrl": "/images/giants/patrice-lumumba.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1925~1961)"
+},
+  {
+  "id": "65",
+  "name": "페두루 2세",
+  "category": "leadership",
+  "headline": "권력의 탐욕을 멀리하고 학문과 인간의 자유를 사랑했던 브라질 제국의 가장 위대한 철인 군주다.",
+  "shortDescription": "페두루 2세의 일대기와 지혜",
+  "slug": "pedro-ii-of-brazil",
+  "quote": "개인의 이익이나 감정보다 자신이 짊어진 공동체에 대한 막중한 책임감을 먼저 생각하십시오.",
+  "pain": "어린 나이에 제위를 물려받아 분열과 내전의 위기에 처한 거대한 제국을 통치해야 했다.",
+  "recovery": "지성적인 헌신과 포용력으로 정쟁을 중재하고 점진적인 노예 해방을 이끌어내 평화와 안정을 구축했다.",
+  "lessons": [
+    {
+      "title": "개인의 이익이나 감정보다 자신이 짊어진 공동체에 대한 막중한 책임감을 먼저 생각하십시오.",
+      "content": "지도자로서의 무거운 책무를 피하지 말고 사명감을 가지고 조직과 사회를 위해 헌신하십시오."
+    },
+    {
+      "title": "극단적인 대립 속에서도 헌법적 원칙과 대화를 통해 인내심을 갖고 타협점을 모색하십시오.",
+      "content": "갈등이 심화될 때일수록 원칙을 존중하며 포용적인 자세로 해결책을 찾아내어 통합을 도모하십시오."
+    },
+    {
+      "title": "자신의 권력을 잃을지라도, 인간의 존엄과 자유를 지키는 올바른 길을 선택하십시오.",
+      "content": "단기적인 손해나 기득권의 상실을 두려워하지 말고, 올바른 대의명분과 정의를 위해 결단하십시오."
+    }
+  ],
+  "persona": "당신은 페두루 2세이다.",
+  "imageUrl": "/images/giants/pedro-ii-of-brazil.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1825~1891)"
+},
+  {
+  "id": "269",
+  "name": "폴 포트",
+  "category": "leadership",
+  "headline": "캄보디아를 공산주의 유토피아로 만들겠다는 맹신으로 수백만 명의 자국민을 학살한 20세기 최악의 독재자다.",
+  "shortDescription": "폴 포트의 일대기와 지혜",
+  "slug": "pol-pot",
+  "quote": "나는 누구를 죽이라고 명령한 적이 없다. 오직 싸우라고만 했다.",
+  "pain": "베트남의 침공으로 권력을 잃고 정글로 쫓겨났으나, 죽는 날까지 자신의 이념과 학살을 정당화하며 반성하지 않았다.",
+  "recovery": "냉전의 복잡한 역학 관계를 이용해 게릴라전을 펼치며 명맥을 유지했으나 결국 내부 분열로 동지들에게 연금된 채 최후를 맞았다.",
+  "lessons": [
+    {
+      "title": "나는 누구를 죽이라고 명령한 적이 없다. 오직 싸우라고만 했다.",
+      "content": "리더는 자신의 명령이 초래할 실질적인 결과에 대해 철저히 책임져야 합니다. 의도를 핑계로 책임을 회피하는 것은 가장 비겁한 변명에 불과함을 기억하십시오."
+    },
+    {
+      "title": "모든 부패한 것들은 반드시 뿌리째 뽑아야 한다.",
+      "content": "극단적인 이상주의는 때로 가장 참혹한 현실을 만들어냅니다. 다양성과 현실을 무시한 과격한 체제 개조는 결국 파멸을 부른다는 사실을 명심하십시오."
+    },
+    {
+      "title": "우리는 과거의 낡은 사회를 파괴하고 백지 위에서 다시 시작할 것이다.",
+      "content": "역사를 부정하고 과거의 모든 것을 지우려는 시도는 필연적으로 더 큰 재앙을 낳습니다. 진정한 발전은 과거의 교훈을 바탕으로 이루어져야 합니다."
+    }
+  ],
+  "persona": "당신은 폴 포트이다.",
+  "imageUrl": "/images/giants/pol-pot.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1925~1998)"
+},
+  {
+  "id": "429",
+  "name": "폼페이우스 대제",
+  "category": "leadership",
+  "headline": "뛰어난 군사적 천재성으로 로마 공화정의 영토를 크게 확장했으나, 내전에서 패배하여 비극적인 최후를 맞은 위대한 장군이다.",
+  "shortDescription": "폼페이우스 대제의 일대기와 지혜",
+  "slug": "pompey",
+  "quote": "항해는 필수적이지만, 사는 것은 필수적이지 않다.",
+  "pain": "율리우스 카이사르와의 내전에서 파르살루스 전투의 치명적 패배를 겪고 권력 기반을 모두 상실했다.",
+  "recovery": "이집트로 도피하여 동방의 동맹국들을 규합해 재기를 도모하려 했으나 믿었던 이집트 왕실의 배신으로 암살당하며 뜻을 이루지 못했다.",
+  "lessons": [
+    {
+      "title": "항해는 필수적이지만, 사는 것은 필수적이지 않다.",
+      "content": "위대한 과업을 완수하기 위해서는 때로는 생명의 위협조차 감수하는 비장한 결단력이 필요합니다. 두려움에 타협하지 마십시오."
+    },
+    {
+      "title": "더 많은 사람들이 지는 해보다 뜨는 해를 숭배하기 마련이다.",
+      "content": "대중의 지지와 권력의 향배는 언제나 떠오르는 새로운 힘을 향해 이동한다는 사실을 깨달아야 합니다. 영원한 권력은 없음을 명심하십시오."
+    },
+    {
+      "title": "무기를 들고 있는 내게 법률을 들먹이지 마라.",
+      "content": "현실의 냉혹한 힘의 논리 앞에서는 명분과 법률만으로는 무력할 수 있음을 경계해야 합니다. 실질적인 힘을 갖추는 데 집중하십시오."
+    }
+  ],
+  "persona": "당신은 폼페이우스 대제이다.",
+  "imageUrl": "/images/giants/pompey.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 1세기의 거인 (기원전 106년~기원전 48년)"
+},
+  {
+  "id": "252",
+  "name": "푸이",
+  "category": "leadership",
+  "headline": "청나라의 마지막 황제에서 일본의 괴뢰국 통치자를 거쳐 평범한 정원사로 생을 마감한 파란만장한 역사의 산증인이다.",
+  "shortDescription": "푸이의 일대기와 지혜",
+  "slug": "puyi",
+  "quote": "황제라는 자리는 내게 영광이 아니라 평생을 옭아맨 가장 무거운 족쇄였다.",
+  "pain": "제2차 세계대전 패전 후 소련군에 체포되어 전범 재판을 받고 푸순 전범 수용소에서 10년간 복역했다.",
+  "recovery": "가혹한 사상 개조와 노동을 수용하여 마침내 사면받았고, 평범한 정원사이자 시민으로서 새로운 삶에 적응하며 여생을 보냈다.",
+  "lessons": [
+    {
+      "title": "황제라는 자리는 내게 영광이 아니라 평생을 옭아맨 가장 무거운 족쇄였다.",
+      "content": "외부에서 주어진 허울 좋은 지위나 명예에 집착하지 마십시오. 스스로 통제할 수 없는 권력은 결국 당신의 삶을 구속하는 감옥이 될 뿐입니다."
+    },
+    {
+      "title": "나는 오랫동안 남들이 써준 대본대로만 살아온 꼭두각시였다.",
+      "content": "자신의 삶에 대한 주도권을 타인이나 환경에 넘겨주어서는 안 됩니다. 비록 고통스럽더라도 스스로 결단하고 책임지는 주체적인 삶을 살아가십시오."
+    },
+    {
+      "title": "내 손으로 직접 흙을 만지고 땀 흘려 일했을 때, 비로소 나는 진정한 자유를 느꼈다.",
+      "content": "정직한 노동과 평범한 일상의 가치를 결코 가볍게 여기지 마십시오. 진정한 자존감과 평화는 자신의 땀으로 일군 작은 성취에서 비롯됩니다."
+    }
+  ],
+  "persona": "당신은 푸이이다.",
+  "imageUrl": "/images/giants/puyi.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1906~1967)"
+},
+  {
+  "id": "248",
+  "name": "건륭제",
+  "category": "leadership",
+  "headline": "십전무공으로 청나라 역사상 최대 영토를 정복하고 사고전서를 편찬하여 제국의 최전성기를 이끈 위대한 군주다.",
+  "shortDescription": "건륭제의 일대기와 지혜",
+  "slug": "qianlong-emperor",
+  "quote": "천하의 모든 물산이 이미 우리에게 있으니, 오랑캐의 기이한 물건은 필요하지 않다.",
+  "pain": "재위 말기 극심해진 황실의 사치와 총신 화신의 매관매직 등 통치 체제 부패로 인해 각지에서 농민 반란이 일어났다.",
+  "recovery": "가경제에게 황위를 선위한 뒤에도 태상황으로서 국정을 통제하며 제국의 혼란을 억누르고 강력한 권력을 유지했다.",
+  "lessons": [
+    {
+      "title": "천하의 모든 물산이 이미 우리에게 있으니, 오랑캐의 기이한 물건은 필요하지 않다.",
+      "content": "과거의 성공과 풍요에 취해 오만해지면 외부의 변화를 감지하지 못합니다. 항상 겸손한 태도로 새로운 기술과 사상에 마음을 열어두십시오."
+    },
+    {
+      "title": "문무를 함께 갖추어야만 비로소 거대한 천하를 다스릴 수 있다.",
+      "content": "조직을 이끌기 위해서는 강력한 실행력과 깊이 있는 통찰력이 모두 필요합니다. 강압적인 통제뿐만 아니라 문화를 통한 포용의 리더십을 발휘하십시오."
+    },
+    {
+      "title": "열 번의 완벽한 군사적 승리보다 한 번의 치명적인 내부 부패가 나라를 망치게 한다.",
+      "content": "외적인 성장과 성과가 아무리 화려해도 내부의 도덕적 해이를 방치하면 조직은 붕괴합니다. 주변의 아첨을 경계하고 시스템의 투명성을 엄격히 관리하십시오."
+    }
+  ],
+  "persona": "당신은 건륭제이다.",
+  "imageUrl": "/images/giants/qianlong-emperor.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1711~1799)"
+},
+  {
+  "id": "238",
+  "name": "진이세",
+  "category": "leadership",
+  "headline": "진시황의 뒤를 이어 진나라의 2대 황제에 올랐으나 간신 조고에게 휘둘려 제국을 파멸로 이끈 무능한 군주다.",
+  "shortDescription": "진이세의 일대기와 지혜",
+  "slug": "qin-er-shi",
+  "quote": "황제는 깊은 궁궐에 머물며 신하들과 만나지 않아야 신비로움을 유지할 수 있다.",
+  "pain": "환관 조고의 교묘한 모략에 속아 형제들을 처형하고 조정의 실권을 모두 빼앗겨 완전한 허수아비가 되었다.",
+  "recovery": "각지에서 일어난 농민 반란을 진압하기 위해 장한 장군을 파견했으나 결국 조고의 기만에 가로막혀 실패했다.",
+  "lessons": [
+    {
+      "title": "황제는 깊은 궁궐에 머물며 신하들과 만나지 않아야 신비로움을 유지할 수 있다.",
+      "content": "조직의 리더가 현장의 소리와 단절되어 소수의 측근에게만 의존할 때 치명적인 판단 착오가 발생합니다. 항상 귀를 열어두고 쓴소리를 경청하십시오."
+    },
+    {
+      "title": "인생은 말 틈새로 지나가는 흰 망아지를 보는 것처럼 순식간이니, 오직 즐길 뿐이다.",
+      "content": "무거운 책임감을 외면하고 일시적인 쾌락에만 빠져드는 리더는 결국 거대한 위기를 맞이하게 됩니다. 리더십의 무게를 결코 가볍게 여기지 마십시오."
+    },
+    {
+      "title": "사슴을 가리켜 말이라 하는 자들이 조정에 가득하니, 내 눈과 귀를 어찌 믿겠는가.",
+      "content": "주변에 진실을 말하는 사람을 두지 않고 아부하는 자들만 가까이하면 결국 현실 감각을 상실하게 됩니다. 정직하고 비판적인 참모를 곁에 두십시오."
+    }
+  ],
+  "persona": "당신은 진이세이다.",
+  "imageUrl": "/images/giants/qin-er-shi.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 3세기의 거인 (기원전 229년~기원전 207년)"
+},
+  {
+  "id": "55",
+  "name": "마자지 여왕",
+  "category": "leadership",
+  "headline": "비를 부르는 주술과 탁월한 외교력으로 피 한 방울 흘리지 않고 평화를 지켜낸 아프리카의 위대한 여왕이다.",
+  "shortDescription": "마자지 여왕의 일대기와 지혜",
+  "slug": "rain-queen",
+  "quote": "힘은 칼끝에서만 나오는 것이 아니라, 사람의 마음을 움직이는 경외와 믿음에서 비롯된다.",
+  "pain": "주변 군사 강국들의 끊임없는 위협과 아프리카 전역을 휩쓴 전쟁의 소용돌이 속에서 영토와 백성을 지켜야 했다.",
+  "recovery": "무력 충돌을 피하고 신비로운 주술적 권위와 정교한 외교적 동맹을 통해 주변국들을 압도하며 평화를 유지했다.",
+  "lessons": [
+    {
+      "title": "힘은 칼끝에서만 나오는 것이 아니라, 사람의 마음을 움직이는 경외와 믿음에서 비롯된다.",
+      "content": "진정한 권위는 폭력이 아닌 지혜와 신뢰를 통해 형성됨을 기억하십시오."
+    },
+    {
+      "title": "스스로를 숨김으로써 오히려 자신의 존재감을 세상의 중심으로 만들라.",
+      "content": "때로는 침묵과 거리가 당신의 가치를 더욱 돋보이게 만드는 무기가 됨을 깨달으십시오."
+    },
+    {
+      "title": "자연의 섭리를 거스르지 않고 그 흐름을 읽는 자만이 거대한 변화를 통제할 수 있다.",
+      "content": "상황을 억지로 통제하려 하기보다 흐름을 파악하고 유연하게 대처하는 안목을 기르십시오."
+    }
+  ],
+  "persona": "당신은 마자지 여왕이다.",
+  "imageUrl": "/images/giants/rain-queen.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1800~1854)"
+},
+  {
+  "id": "437",
+  "name": "파드미니",
+  "category": "leadership",
+  "headline": "외적의 침략에 맞서 기지와 용기로 저항하다 명예로운 죽음을 선택한 인도의 전설적인 왕비다.",
+  "shortDescription": "파드미니의 일대기와 지혜",
+  "slug": "rani-padmini",
+  "quote": "육신은 적의 칼날에 베일 수 있어도, 꺾이지 않는 영혼은 결코 정복당하지 않는다.",
+  "pain": "압도적인 무력을 지닌 외부 제국이 자신의 목숨과 존엄을 위협하며 왕국을 벼랑 끝으로 몰아넣었다.",
+  "recovery": "뛰어난 기지로 국왕을 구출하고, 최후의 순간에는 불길 속으로 뛰어드는 숭고한 결단으로 적에게 정신적 패배를 안겼다.",
+  "lessons": [
+    {
+      "title": "육신은 적의 칼날에 베일 수 있어도, 꺾이지 않는 영혼은 결코 정복당하지 않는다.",
+      "content": "타협할 수 없는 가치와 존엄성을 지키는 것이 진정한 승리임을 기억하십시오."
+    },
+    {
+      "title": "가장 어두운 절망의 순간에 발휘되는 기지가 기적을 만들어내는 열쇠가 된다.",
+      "content": "위기 앞에서도 침착함을 잃지 않고 지혜를 발휘하여 반전의 기회를 만드십시오."
+    },
+    {
+      "title": "우리가 선택한 죽음조차 두려움이 아닌 적에 대한 가장 강력한 저항이 될 수 있다.",
+      "content": "수동적인 희생자가 되기보다 스스로 운명을 결정짓는 단호한 태도를 가지십시오."
+    }
+  ],
+  "persona": "당신은 파드미니이다.",
+  "imageUrl": "/images/giants/rani-padmini.jpg",
+  "dnaCode": "LRHI",
+  "era": "14세기의 거인 (?~1303)"
+},
+  {
+  "id": "46",
+  "name": "락슈미 바이",
+  "category": "leadership",
+  "headline": "대영제국의 부당한 영토 병합에 맞서 인도 항쟁을 이끌고 전쟁터에서 전사한 여성 민족 영웅이다.",
+  "shortDescription": "락슈미 바이의 일대기와 지혜",
+  "slug": "rani-of-jhansi",
+  "quote": "불의에 고개 숙이고 얻은 평화보다, 정의를 위해 검을 들고 쟁취한 명예가 훨씬 고귀하다.",
+  "pain": "제국주의 열강이 불공정한 법을 내세워 조국의 주권을 강탈하고 백성들을 억압하려 했다.",
+  "recovery": "총칼 앞에서도 결코 물러서지 않고 직접 군대를 지휘하며 제국의 팽창에 맞서는 가장 치열하고 영웅적인 무장 투쟁을 전개했다.",
+  "lessons": [
+    {
+      "title": "불의에 고개 숙이고 얻은 평화보다, 정의를 위해 검을 들고 쟁취한 명예가 훨씬 고귀하다.",
+      "content": "불합리한 압제에 타협하지 말고 당신의 정당한 권리를 위해 당당히 맞서 싸우십시오."
+    },
+    {
+      "title": "리더가 스스로 최전선에 설 때, 백성들의 마음속에 내재된 두려움은 용기로 바뀐다.",
+      "content": "모두가 두려워하는 순간 솔선수범하여 앞장서서 위기를 극복하는 추진력을 보여주십시오."
+    },
+    {
+      "title": "나라를 지키는 일에는 성별도, 신분도 존재하지 않으며 오직 끓어오르는 애국심만이 필요할 뿐이다.",
+      "content": "사회적 편견이나 제약에 얽매이지 않고 당신이 가진 모든 역량을 목표를 위해 헌신하십시오."
+    }
+  ],
+  "persona": "당신은 락슈미 바이이다.",
+  "imageUrl": "/images/giants/rani-of-jhansi.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1828~1858)"
+},
+  {
+  "id": "205",
+  "name": "사자심왕 리처드 1세",
+  "category": "leadership",
+  "headline": "십자군 원정에서 눈부신 용맹함과 탁월한 전술을 발휘하여 사자심왕이라 불린 잉글랜드의 전사왕이다.",
+  "shortDescription": "사자심왕 리처드 1세의 일대기와 지혜",
+  "slug": "richard-i-of-england",
+  "quote": "맹목적인 목표 달성보다 현실의 한계를 인정하고 물러설 줄 아는 것이 진정한 전략가의 용기다.",
+  "pain": "강력한 이슬람 군대의 저항과 십자군 내부의 극심한 분열 속에서 성지 탈환이라는 불가능에 가까운 임무를 수행해야 했다.",
+  "recovery": "압도적인 전투력과 뛰어난 전술로 적군을 격파하는 한편, 현실을 직시한 냉철한 협상을 통해 순례자들의 안전을 확보했다.",
+  "lessons": [
+    {
+      "title": "맹목적인 목표 달성보다 현실의 한계를 인정하고 물러설 줄 아는 것이 진정한 전략가의 용기다.",
+      "content": "감정에 치우쳐 무모하게 돌진하기보다 이성적으로 상황을 판단하여 전략적 후퇴를 선택할 줄 아십시오."
+    },
+    {
+      "title": "전장에서의 승리는 칼날의 예리함이 아니라, 폭발하는 감정을 통제하고 완벽한 기회를 기다리는 인내에 있다.",
+      "content": "결정적인 순간이 오기 전까지는 힘을 비축하고 철저하게 스스로를 통제하는 훈련을 하십시오."
+    },
+    {
+      "title": "가장 두려운 적군이라 할지라도, 뛰어난 실력과 명예로운 태도를 지닌 자 앞에서는 경의를 표하게 된다.",
+      "content": "상대방을 압도하고 싶다면 비겁한 술수가 아닌 실력과 품격을 통해 근본적인 존경심을 이끌어내십시오."
+    }
+  ],
+  "persona": "당신은 사자심왕 리처드 1세이다.",
+  "imageUrl": "/images/giants/richard-i-of-england.jpg",
+  "dnaCode": "LRHI",
+  "era": "12세기의 거인 (1157~1199)"
+},
+  {
+  "id": "315",
+  "name": "로버트 팰컨 스콧",
+  "category": "leadership",
+  "headline": "남극 탐험 과정에서 비극적인 죽음을 맞이했으나 숭고한 동료애와 개척 정신으로 영국인의 심금을 울린 탐험가다.",
+  "shortDescription": "로버트 팰컨 스콧의 일대기와 지혜",
+  "slug": "robert-falcon-scott",
+  "quote": "죽음이 우리를 덮치는 마지막 순간까지도 인간은 명예롭게 견뎌낼 수 있는 위대한 존재다.",
+  "pain": "살을 에이는 영하의 추위 속에서 탐험 장비들이 모두 파괴되고, 인류 최초의 남극점 도달이라는 목표마저 경쟁자에게 빼앗기는 끔찍한 절망을 마주했다.",
+  "recovery": "가장 비극적인 죽음의 순간에도 동료를 향한 숭고한 헌신과 탐험의 숭고한 가치를 기록으로 남겨, 실패를 불멸의 영웅 신화로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "죽음이 우리를 덮치는 마지막 순간까지도 인간은 명예롭게 견뎌낼 수 있는 위대한 존재다.",
+      "content": "실패가 확정된 절망적인 상황에서도 마지막까지 인간으로서의 존엄과 품격을 잃지 마십시오."
+    },
+    {
+      "title": "영광의 트로피를 얻지 못했다 하더라도, 미지의 세계에 도전하기 위해 내디딘 발걸음 자체는 지워지지 않는다.",
+      "content": "결과만의 성공을 좇기보다, 험난한 과정에서 흘린 땀방울과 도전의 가치를 깊이 존중하십시오."
+    },
+    {
+      "title": "육체는 혹한 속에 얼어붙을지라도, 종이에 새겨 남긴 불굴의 의지는 세상을 뒤흔드는 영원한 불꽃이 된다.",
+      "content": "어려움 속에서 겪은 깨달음과 기록을 후대에 남겨 미래를 밝히는 긍정적인 유산으로 만드십시오."
+    }
+  ],
+  "persona": "당신은 로버트 팰컨 스콧이다.",
+  "imageUrl": "/images/giants/robert-falcon-scott.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1868~1912)"
+},
+  {
+  "id": "136",
+  "name": "류성룡",
+  "category": "leadership",
+  "headline": "임진왜란의 국난 속에서 탁월한 외교력과 행정력으로 조선을 위기에서 구해낸 명재상이다.",
+  "shortDescription": "류성룡의 일대기와 지혜",
+  "slug": "ryu-seong-ryong",
+  "quote": "지난 잘못을 징계하여 뒤에 환난이 없도록 조심해야 한다.",
+  "pain": "당파 싸움과 임진왜란이라는 초유의 국가적 재난 속에서 류성룡은 숱한 모함과 탄핵을 겪으며 전시 내각을 이끌어야 했다.",
+  "recovery": "그는 명분보다 실리를 중시하는 실용주의적 정책을 추진하고 징비록을 저술하여 철저한 자기 반성과 유비무환의 교훈을 후세에 남겼다.",
+  "lessons": [
+    {
+      "title": "지난 잘못을 징계하여 뒤에 환난이 없도록 조심해야 한다.",
+      "content": "과거의 실패를 단순히 후회하는 데 그치지 말고, 그 원인을 철저히 분석하여 다가올 위기를 대비하는 지혜를 기르십시오."
+    },
+    {
+      "title": "나라를 다스리는 데는 백성을 편안하게 하는 것보다 우선하는 것이 없다.",
+      "content": "어떤 위기 상황에서도 리더는 구성원과 대중의 안위를 최우선 가치로 삼고 실질적인 도움을 줄 수 있는 결정을 내리십시오."
+    },
+    {
+      "title": "인재를 알아보는 눈이 없다면 나라는 어지러워질 수밖에 없다.",
+      "content": "학연이나 지연에 얽매이지 않고 사람의 진정한 능력을 꿰뚫어 보는 안목을 길러 적재적소에 인재를 기용하십시오."
+    }
+  ],
+  "persona": "당신은 류성룡이다.",
+  "imageUrl": "/images/giants/ryu-seong-ryong.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1542~1607)"
+},
+  {
+  "id": "149",
+  "name": "사이고 다카모리",
+  "category": "leadership",
+  "headline": "삿초 동맹과 에도 성 무혈 개성을 이끌며 메이지 유신을 성사시킨 일본 근대사의 핵심 인물이다.",
+  "shortDescription": "사이고 다카모리의 일대기와 지혜",
+  "slug": "saigo-takamori",
+  "quote": "경천애인, 즉 하늘을 공경하고 사람을 사랑하라.",
+  "pain": "하급 무사 출신의 한계와 번주의 죽음, 유배 생활 등 숱한 정치적 시련 속에서 그는 새 시대를 열어야 한다는 시대적 압박과 끊임없이 싸워야 했다.",
+  "recovery": "불굴의 의지와 탁월한 카리스마로 삿초 동맹을 이끌어내고 에도 성 무혈 개성을 이루며 메이지 유신의 핵심적 동력을 만들어냈다.",
+  "lessons": [
+    {
+      "title": "경천애인, 즉 하늘을 공경하고 사람을 사랑하라.",
+      "content": "어떤 상황에서도 인간에 대한 깊은 애정과 우주적 섭리에 대한 겸손함을 잃지 말고 진정성 있게 사람을 대하십시오."
+    },
+    {
+      "title": "목숨도 명예도 관직도 돈도 필요 없는 사람은 다루기 어렵지만, 그런 사람만이 큰일을 해낸다.",
+      "content": "개인적인 욕망과 사사로운 이익을 초월하여 공의를 위해 기꺼이 헌신할 수 있는 숭고한 리더십을 기르십시오."
+    },
+    {
+      "title": "책임을 질 줄 아는 자만이 진정한 개혁을 이끌 수 있다.",
+      "content": "변화의 과정에서 발생하는 모든 고통과 비난을 피하지 말고 스스로 책임을 짊어지는 용기를 가지십시오."
+    }
+  ],
+  "persona": "당신은 사이고 다카모리이다.",
+  "imageUrl": "/images/giants/saigo-takamori.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1828~1877)"
+},
+  {
+  "id": "203",
+  "name": "살로메 알렉산드라",
+  "category": "leadership",
+  "headline": "지혜로운 외교와 관용적인 내치로 유대 왕국 역사상 가장 평화롭고 번영했던 황금기를 이룩한 위대한 여왕이다.",
+  "shortDescription": "살로메 알렉산드라의 일대기와 지혜",
+  "slug": "salome-alexandra",
+  "quote": "무력으로 얻은 평화는 찰나에 불과하나, 포용으로 빚은 평화는 세대를 이어간다.",
+  "pain": "남편의 잦은 전쟁과 잔혹한 억압 통치로 인해 국론은 분열되고 백성들은 도탄에 빠졌으며, 여성이라는 이유로 반대 세력의 끊임없는 의심과 견제를 받아야 했다.",
+  "recovery": "여성의 한계를 뛰어넘어 즉위 직후 평화 외교로 선회하고 바리새파와 사두개파를 극적으로 화해시키며 국가적 안정을 이룩해냈다.",
+  "lessons": [
+    {
+      "title": "무력으로 얻은 평화는 찰나에 불과하나, 포용으로 빚은 평화는 세대를 이어간다.",
+      "content": "힘으로 상대방을 굴복시키려 하기보다는, 관용과 양보를 통해 내면의 동의를 이끌어내는 화합의 리더십을 발휘하십시오."
+    },
+    {
+      "title": "국가의 진정한 방패는 군대의 칼이 아니라 백성들의 배움에 있다.",
+      "content": "조직의 미래를 위해 단기적인 성과에만 집착하지 말고 교육과 제도의 개선에 장기적인 투자를 아끼지 마십시오."
+    },
+    {
+      "title": "치우치지 않는 저울만이 사회의 분열을 막을 수 있다.",
+      "content": "이해관계가 첨예하게 대립할 때 어느 한쪽의 극단에 치우치지 않는 공정하고 균형 잡힌 중재자의 역할을 수행하십시오."
+    }
+  ],
+  "persona": "당신은 살로메 알렉산드라이다.",
+  "imageUrl": "/images/giants/salome-alexandra.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 1세기의 거인 (기원전 139년~기원전 67년)"
+},
+  {
+  "id": "489",
+  "name": "사무드라굽타",
+  "category": "leadership",
+  "headline": "탁월한 정복 전쟁과 관대한 문화 후원으로 굽타 제국의 영토를 급팽창시키고 인도의 황금기를 활짝 연 대왕이다.",
+  "shortDescription": "사무드라굽타의 일대기와 지혜",
+  "slug": "samudragupta",
+  "quote": "전쟁터에서는 무자비한 사자가 되고, 통치에서는 자비로운 아버지가 되라.",
+  "pain": "분열된 여러 소국들이 난립하던 혼란기 속에서 그는 수많은 왕들의 견제와 잦은 군사적 충돌이라는 위태로운 제국의 현실을 타개해야 했다.",
+  "recovery": "탁월한 군사적 지략과 유화적인 외교술을 절묘하게 결합하여 인도 아대륙을 통일하고 문화적 황금기를 열었다.",
+  "lessons": [
+    {
+      "title": "전쟁터에서는 무자비한 사자가 되고, 통치에서는 자비로운 아버지가 되라.",
+      "content": "목표를 달성할 때는 단호하고 철저하게 행동하되, 성과를 나눌 때는 관대하고 포용적인 태도를 보여주십시오."
+    },
+    {
+      "title": "진정한 통일은 영토의 병합이 아니라 마음의 복속에서 비롯된다.",
+      "content": "단순히 권위로 구성원들을 지배하려 하지 말고, 그들의 존중과 자발적인 충성을 이끌어내는 리더십을 발휘하십시오."
+    },
+    {
+      "title": "칼로 세운 제국은 언젠가 무너지지만, 예술과 문화로 빚은 제국은 영원히 기억된다.",
+      "content": "가시적인 결과물에만 매몰되지 말고 문화와 예술 등 인간의 삶을 풍요롭게 하는 내면적 가치에도 깊은 관심을 기울이십시오."
+    }
+  ],
+  "persona": "당신은 사무드라굽타이다.",
+  "imageUrl": "/images/giants/samudragupta.jpg",
+  "dnaCode": "LRHI",
+  "era": "4세기의 거인 (315~380)"
+},
+  {
+  "id": "482",
+  "name": "셀림 1세",
+  "category": "leadership",
+  "headline": "압도적인 군사력과 화약 무기 전술로 영토를 두 배로 확장하며 오스만 제국을 진정한 초강대국의 반열에 올려놓은 술탄이다.",
+  "shortDescription": "셀림 1세의 일대기와 지혜",
+  "slug": "selim-i",
+  "quote": "목적을 향해 나아가는 길에서 망설임은 곧 패배를 의미한다.",
+  "pain": "사파비 왕조와 맘루크 왕조라는 거대한 외부의 적들이 국가를 위협하는 가운데, 형제들 간의 치열한 내전이라는 심각한 정치적 위기를 돌파해야 했다.",
+  "recovery": "불굴의 결단력과 화약 무기를 앞세운 천재적인 전술로 적들을 모두 섬멸하고 오스만 제국을 세계적인 초강대국으로 성장시켰다.",
+  "lessons": [
+    {
+      "title": "목적을 향해 나아가는 길에서 망설임은 곧 패배를 의미한다.",
+      "content": "위기 상황에서는 주저하지 말고 가장 단호하고 신속한 결단력을 발휘하여 조직을 위기에서 구출하십시오."
+    },
+    {
+      "title": "검의 힘은 전장을 지배하지만, 시대의 흐름을 읽는 자만이 제국을 다스린다.",
+      "content": "기존의 방식에만 얽매이지 말고 새로운 기술과 시대의 변화를 가장 먼저 수용하여 혁신적인 결과를 창출하십시오."
+    },
+    {
+      "title": "하나의 천막은 세상을 덮기에 충분하나, 두 명의 통치자를 품기에는 너무 좁다.",
+      "content": "조직 내에서 불필요한 파벌 싸움과 권력의 분산을 철저히 경계하고 확고한 리더십으로 목표를 하나로 모으십시오."
+    }
+  ],
+  "persona": "당신은 셀림 1세이다.",
+  "imageUrl": "/images/giants/selim-i.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1470~1520)"
+},
+  {
+  "id": "476",
+  "name": "셉티미우스 세베루스",
+  "category": "leadership",
+  "headline": "로마 제국 역사상 최초의 아프리카 출신 황제로, 막강한 군사력을 바탕으로 세베루스 왕조를 개창한 군주이다.",
+  "shortDescription": "셉티미우스 세베루스의 일대기와 지혜",
+  "slug": "septimius-severus",
+  "quote": "서로 화합하고, 병사들을 부유하게 하며, 다른 모든 것은 무시하라.",
+  "pain": "내전의 혼란과 수많은 경쟁자들의 끊임없는 위협 속에서 제국은 분열될 위기에 처했다.",
+  "recovery": "신속하고 결단력 있는 기동 전술과 치밀한 외교를 통해 적들을 각개격파하고 무력으로 로마를 통합했다.",
+  "lessons": [
+    {
+      "title": "서로 화합하고, 병사들을 부유하게 하며, 다른 모든 것은 무시하라.",
+      "content": "권력을 유지하기 위해서는 핵심 지지 기반의 충성을 얻는 것이 가장 중요합니다. 조직을 이끌 때 무엇이 가장 중요한 우선순위인지 파악하고 집중하십시오."
+    },
+    {
+      "title": "나는 모든 것이었고, 그것은 아무것도 아니었다.",
+      "content": "세속적인 성취와 권력의 덧없음을 경계하는 말입니다. 막대한 성취를 이루더라도 삶의 본질적인 허무함을 잊지 말고 겸손하십시오."
+    },
+    {
+      "title": "운명은 항상 승리자의 편에 선다.",
+      "content": "스스로의 의지와 결단력으로 쟁취한 결과만이 역사를 만든다는 의미입니다. 가혹한 운명 앞에서도 굴복하지 말고 능동적으로 쟁취하십시오."
+    }
+  ],
+  "persona": "당신은 셉티미우스 세베루스이다.",
+  "imageUrl": "/images/giants/septimius-severus.jpg",
+  "dnaCode": "LRHI",
+  "era": "3세기의 거인 (145~211)"
+},
+  {
+  "id": "156",
+  "name": "시바지",
+  "category": "leadership",
+  "headline": "강대국들의 억압에 맞서 힌두교도들을 하나로 규합하고 거대한 마라타 제국을 세운 인도의 영웅이다.",
+  "shortDescription": "시바지의 일대기와 지혜",
+  "slug": "shivaji",
+  "quote": "국가는 개인의 희생 위에 세워지는 것이 아니라, 백성 전체의 번영 위에서 굳건해진다.",
+  "pain": "무굴 제국과 비자푸르 술탄국이라는 거대한 외세의 압박 속에서 힌두교도들은 심각한 탄압을 받았다.",
+  "recovery": "험준한 지형을 활용한 유격 전술과 꺾이지 않는 독립 의지로 대군을 물리치고 마라타 제국을 세웠다.",
+  "lessons": [
+    {
+      "title": "국가는 개인의 희생 위에 세워지는 것이 아니라, 백성 전체의 번영 위에서 굳건해진다.",
+      "content": "통치자의 의무는 백성들의 삶을 돌보는 데 있다는 뜻입니다. 조직을 이끌 때 구성원 모두가 혜택을 누리도록 포용력을 가지십시오."
+    },
+    {
+      "title": "적의 칼날보다 무서운 것은 우리 내부의 두려움이다.",
+      "content": "불리한 상황에서도 용기를 잃지 않는 결단력이 승리의 열쇠임을 보여줍니다. 어떠한 위협 앞에서도 물러서지 말고 담대하게 맞서십시오."
+    },
+    {
+      "title": "힘으로 무너뜨릴 수 없는 적은 지혜로 속여 넘겨라.",
+      "content": "압도적인 적을 상대로는 정면 승부보다 치밀한 기지가 필요하다는 의미입니다. 불리한 조건일수록 융통성 있는 전술을 구사하십시오."
+    }
+  ],
+  "persona": "당신은 시바지이다.",
+  "imageUrl": "/images/giants/shivaji.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1630~1680)"
+},
+  {
+  "id": "242",
+  "name": "사마의",
+  "category": "leadership",
+  "headline": "탁월한 인내와 지략으로 삼국시대 난세를 헤쳐 나가며 진나라 통일의 실질적인 토대를 마련한 최고의 전략가이다.",
+  "shortDescription": "사마의의 일대기와 지혜",
+  "slug": "sima-yi",
+  "quote": "검을 휘두르는 데는 하루가 걸리지만, 그 검을 갈기 위해서는 십 년이 필요하다.",
+  "pain": "끊임없이 자신을 견제하는 권력자들의 의심 속에서 매 순간 목숨을 잃을 뻔한 위기에 처했다.",
+  "recovery": "초인적인 인내심으로 발톱을 숨긴 채 묵묵히 기다렸고, 틈이 보일 때 전격적으로 일격을 가해 권력을 장악했다.",
+  "lessons": [
+    {
+      "title": "검을 휘두르는 데는 하루가 걸리지만, 그 검을 갈기 위해서는 십 년이 필요하다.",
+      "content": "성공을 위해서는 오랜 시간의 철저한 준비와 인내가 필수적이라는 의미입니다. 때가 올 때까지 묵묵히 실력을 기르십시오."
+    },
+    {
+      "title": "이길 수 없다면 수비하고, 수비할 수 없다면 도망쳐라.",
+      "content": "상황을 냉정하게 판단하여 가장 유리한 생존 전략을 선택해야 함을 강조합니다. 헛된 자존심을 버리고 실용적으로 행동하십시오."
+    },
+    {
+      "title": "나를 알아주는 자가 없다면, 나 스스로가 나를 알아주면 그만이다.",
+      "content": "타인의 평가에 흔들리지 않고 자신만의 확고한 신념과 목표를 유지하라는 뜻입니다. 당신의 진정한 가치는 스스로 증명하십시오."
+    }
+  ],
+  "persona": "당신은 사마의이다.",
+  "imageUrl": "/images/giants/sima-yi.jpg",
+  "dnaCode": "LRHI",
+  "era": "3세기의 거인 (179~251)"
+},
+  {
+  "id": "54",
+  "name": "소부자 1세",
+  "category": "leadership",
+  "headline": "무력이 아닌 탁월한 외교력과 포용력으로 스와지 민족을 하나로 통합하고 왕국의 기틀을 다진 건국의 아버지이다.",
+  "shortDescription": "소부자 1세의 일대기와 지혜",
+  "slug": "sobhuza-i",
+  "quote": "부러진 창으로 싸우는 것보다, 적과 피를 나누어 마시는 것이 낫다.",
+  "pain": "호전적인 이웃 부족들과 막강한 줄루 왕국의 거듭된 침략으로 부족 전체가 멸망당할 위기에 직면했다.",
+  "recovery": "산맥 너머 안전한 계곡으로 전략적 이주를 단행하고, 공물과 정략결혼 등의 뛰어난 외교술로 국가를 통합했다.",
+  "lessons": [
+    {
+      "title": "부러진 창으로 싸우는 것보다, 적과 피를 나누어 마시는 것이 낫다.",
+      "content": "파멸을 부르는 무모한 전쟁보다는 굴욕을 감수하더라도 평화를 선택하라는 뜻입니다. 대의를 위해 현실적인 타협을 주저하지 마십시오."
+    },
+    {
+      "title": "한 명의 전사는 마을을 지키지만, 지혜로운 왕은 나라 전체를 품는다.",
+      "content": "무력보다 지혜와 포용력이 더 큰 힘을 발휘함을 강조하는 말입니다. 강압적인 통제보다 구성원들의 마음을 모으는 리더십을 발휘하십시오."
+    },
+    {
+      "title": "우리의 가장 튼튼한 방패는 산맥이 아니라 흩어진 형제들의 단합이다.",
+      "content": "외부의 위협을 막아내는 가장 강력한 무기는 내부의 결속이라는 의미입니다. 위기에 처할수록 조직원 간의 연대감을 형성하십시오."
+    }
+  ],
+  "persona": "당신은 소부자 1세이다.",
+  "imageUrl": "/images/giants/sobhuza-i.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1780~1839)"
+},
+  {
+  "id": "215",
+  "name": "스파르타쿠스",
+  "category": "leadership",
+  "headline": "로마 제국의 극심한 억압에 맞서 수만 명의 노예를 이끌고 위대한 자유의 반란을 일으킨 전설적인 검투사이다.",
+  "shortDescription": "스파르타쿠스의 일대기와 지혜",
+  "slug": "spartacus",
+  "quote": "짐승처럼 죽느니, 차라리 인간으로서 싸우다 죽을 것이다.",
+  "pain": "로마 공화정에서 짐승보다 못한 대우를 받으며 타인의 오락을 위해 목숨을 걸고 싸우는 신세로 전락했다.",
+  "recovery": "검투사 훈련소를 탈출하여 억압받는 노예들을 하나로 규합하고, 뛰어난 기동 전술로 굳건한 로마 군단들을 격파했다.",
+  "lessons": [
+    {
+      "title": "짐승처럼 죽느니, 차라리 인간으로서 싸우다 죽을 것이다.",
+      "content": "자유와 존엄성은 목숨과도 바꿀 수 없는 소중한 가치임을 천명하는 말입니다. 부당한 억압과 불의에 순응하지 말고 당당하게 맞서십시오."
+    },
+    {
+      "title": "우리가 잃을 것은 오직 노예의 사슬뿐이요, 얻을 것은 자유로운 세상이다.",
+      "content": "아무것도 가진 것이 없는 자의 절박함이 가장 큰 무기가 될 수 있다는 의미입니다. 실패를 두려워하지 말고 목표를 위해 모든 것을 거십시오."
+    },
+    {
+      "title": "하나의 불꽃이 광야를 태울 수 있음을 로마에 보여주어라.",
+      "content": "비록 작은 시작이라도 거대한 변화를 이끌어낼 수 있다는 희망을 보여줍니다. 당신의 작은 용기가 세상의 거대한 불의를 무너뜨릴 수 있습니다."
+    }
+  ],
+  "persona": "당신은 스파르타쿠스이다.",
+  "imageUrl": "/images/giants/spartacus.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 1세기의 거인 (111 BC~71 BC)"
+},
+  {
+  "id": "267",
+  "name": "수하르토",
+  "category": "leadership",
+  "headline": "32년 동안 인도네시아를 철권 통치하며 눈부신 경제 성장을 이끌었으나 최악의 부패와 인권 탄압이라는 유산을 남긴 독재자이다.",
+  "shortDescription": "수하르토의 일대기와 지혜",
+  "slug": "suharto",
+  "quote": "우리는 더 이상 외국의 원조에 기대지 않고, 우리 스스로의 힘으로 일어서야 합니다.",
+  "pain": "1997년 발생한 아시아 외환위기로 인해 국가 경제가 붕괴되고 수하르토 정권의 극심한 부패에 대한 국민들의 분노가 폭발했다.",
+  "recovery": "자카르타 전역에서 벌어진 대규모 학생 시위와 1998년 5월의 유혈 폭동으로 인해 군부마저 등을 돌리자 스스로 권좌에서 물러났다.",
+  "lessons": [
+    {
+      "title": "우리는 더 이상 외국의 원조에 기대지 않고, 우리 스스로의 힘으로 일어서야 합니다.",
+      "content": "어려운 상황에서도 외부의 구원만을 기다리지 말고 스스로 자립할 수 있는 단단한 기초를 마련하십시오. 진정한 성장은 철저한 자립심에서 출발합니다."
+    },
+    {
+      "title": "국가의 안정 없이는 어떠한 경제적 발전도 이룩할 수 없습니다.",
+      "content": "무조건 앞으로 달려나가기보다는 사회의 근본적인 안정을 유지하는 데 먼저 집중하십시오. 기초가 튼튼하지 않은 성과는 모래성처럼 한순간에 무너지기 마련입니다."
+    },
+    {
+      "title": "개발은 모든 국민의 번영을 위한 것이어야 하며, 소수의 이익을 위한 것이 되어서는 안 됩니다.",
+      "content": "권력과 부를 특정 소수만이 독점하게 두지 말고, 혜택이 공동체 전체에 공정하게 분배되도록 힘쓰십시오. 탐욕은 결국 사회 전체의 파멸과 분열을 초래할 뿐입니다."
+    }
+  ],
+  "persona": "당신은 수하르토이다.",
+  "imageUrl": "/images/giants/suharto.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1921~2008)"
+},
+  {
+  "id": "268",
+  "name": "수카르노",
+  "category": "leadership",
+  "headline": "수천 개의 섬과 다양한 민족으로 분열된 식민지 민중을 하나로 통합하여 인도네시아의 독립을 쟁취한 국부이다.",
+  "shortDescription": "수카르노의 일대기와 지혜",
+  "slug": "sukarno",
+  "quote": "장미가 붉고 재스민이 하얗다는 사실을 바꾸려 하지 말고, 이 두 송이의 꽃이 하나의 정원 안에서 함께 어우러지게 하십시오.",
+  "pain": "권력 유지에 핵심이었던 군부와 공산당 간의 아슬아슬한 세력 균형이 1965년 9·30 운동 쿠데타 사태로 완전히 붕괴되었다.",
+  "recovery": "사태 진압에 성공한 수하르토의 군부 세력에게 점진적으로 모든 실권을 빼앗긴 채 결국 대통령직에서 강제로 축출당했다.",
+  "lessons": [
+    {
+      "title": "장미가 붉고 재스민이 하얗다는 사실을 바꾸려 하지 말고, 이 두 송이의 꽃이 하나의 정원 안에서 함께 어우러지게 하십시오.",
+      "content": "나와 다른 사람의 차이를 강제로 바꾸려 들지 말고 있는 그대로 인정하십시오. 진정한 힘은 다양성을 포용하고 조화롭게 융합할 때 탄생합니다."
+    },
+    {
+      "title": "한 민족이 자유를 향해 불타오르는 열망을 품고 있는 한, 그 어떤 강력한 식민주의 군대도 그들을 영원히 지배할 수는 없습니다.",
+      "content": "자유를 향한 확고한 의지와 흔들리지 않는 신념을 가지십시오. 인간의 내면에 자리 잡은 순수한 열망은 그 어떤 외부의 물리적 억압보다 강력합니다."
+    },
+    {
+      "title": "과거를 잊는 위대한 민족은 결코 존재할 수 없으며, 역사를 망각한 국가에게는 어떠한 미래도 허락되지 않습니다.",
+      "content": "자신이 걸어온 발자취와 역사의 뼈아픈 교훈을 결코 외면하지 마십시오. 찬란한 미래를 설계하기 위한 지혜는 오직 지나온 과거에 대한 깊은 성찰에서 얻어집니다."
+    }
+  ],
+  "persona": "당신은 수카르노이다.",
+  "imageUrl": "/images/giants/sukarno.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1901~1970)"
+},
+  {
+  "id": "428",
+  "name": "술라",
+  "category": "leadership",
+  "headline": "무력으로 로마를 장악하고 공포 정치를 펼친 뒤, 자신이 원하던 개혁을 완수하고 홀연히 권좌에서 물러난 독재관이다.",
+  "shortDescription": "술라의 일대기와 지혜",
+  "slug": "sulla",
+  "quote": "나를 도운 친구보다 더 큰 은혜를 베푼 사람도 없고, 나를 해친 적보다 더 큰 고통을 안겨준 사람도 없다.",
+  "pain": "집정관에 당선되었음에도 정적인 마리우스 일파의 정치적 음모로 인해 군사 지휘권을 빼앗길 절체절명의 위기에 처했다.",
+  "recovery": "금기를 깨고 군단을 이끌고 로마로 직접 진군하는 전례 없는 무력행사를 통해 반대파를 무자비하게 숙청하고 정권을 장악했다.",
+  "lessons": [
+    {
+      "title": "나를 도운 친구보다 더 큰 은혜를 베푼 사람도 없고, 나를 해친 적보다 더 큰 고통을 안겨준 사람도 없다.",
+      "content": "자신에게 도움을 준 사람의 은혜는 반드시 갚고, 당신을 해하려 한 자에게는 단호하게 대응하십시오. 은원관계를 명확히 하는 것이 거친 세상에서 신뢰와 권위를 세우는 길입니다."
+    },
+    {
+      "title": "무기를 든 병사들 앞에서는 그 어떤 위대한 법률도 침묵할 수밖에 없다.",
+      "content": "법과 제도가 굳건해 보여도 결국 현실적인 힘과 권력이 뒷받침되지 않으면 무용지물이 됨을 명심하십시오. 때로는 실질적인 물리력과 행동력이 이상의 가치를 압도합니다."
+    },
+    {
+      "title": "권력을 얻기 위해 피를 흘리는 것보다 어려운 것은, 그 모든 권력을 스스로 내려놓는 결단이다.",
+      "content": "최고의 자리에 올랐을 때 자신이 이루고자 했던 본래의 목적을 되새기고 집착을 버릴 줄 알아야 합니다. 진정한 용기는 욕망을 채울 때가 아니라 스스로 멈출 줄 알 때 발휘됩니다."
+    }
+  ],
+  "persona": "당신은 술라이다.",
+  "imageUrl": "/images/giants/sulla.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 1세기의 거인 (138 BC~78 BC)"
+},
+  {
+  "id": "12",
+  "name": "서희",
+  "category": "leadership",
+  "headline": "무력이 아닌 치밀한 논리와 외교적 수완으로 국가의 위기를 극복하고 영토를 확장한 고려 최고의 전략가이다.",
+  "shortDescription": "서희의 일대기와 지혜",
+  "slug": "so-hui",
+  "quote": "고려는 고구려를 계승한 나라입니다. 땅의 경계로 따지자면 요나라의 동경도 모두 우리 영토에 속합니다.",
+  "pain": "거란의 80만 대군이 침공해 오자 조정은 두려움에 빠져 서경 이북의 땅을 떼어주며 항복하려 했다.",
+  "recovery": "정확한 국제 정세 분석을 바탕으로 적장 소손녕과 직접 외교 담판을 벌여 전쟁을 막고 영토를 확장했다.",
+  "lessons": [
+    {
+      "title": "고려는 고구려를 계승한 나라입니다. 땅의 경계로 따지자면 요나라의 동경도 모두 우리 영토에 속합니다.",
+      "content": "상대방의 논리적 허점을 찌르고 자신의 정당성을 당당하게 주장하십시오. 확고한 정체성과 자신감은 위기 상황에서 가장 강력한 무기가 됩니다."
+    },
+    {
+      "title": "압록강 안팎은 본래 우리의 땅인데, 여진이 그 사이에 숨어 있어 길이 막혔습니다. 여진을 쫓아내고 길을 낸다면 어찌 교류하지 않겠습니까.",
+      "content": "표면적인 갈등 너머에 있는 근본적인 장애물을 파악하고 이를 해결할 대안을 제시하십시오. 상호 이익을 만족시키는 전략적 타협이 진정한 승리를 가져옵니다."
+    },
+    {
+      "title": "신하 된 도리로서 나라가 위급한데 어찌 죽음을 두려워하여 피하겠습니까.",
+      "content": "막중한 책임감 앞에서 개인의 안위보다 공동체의 운명을 우선시하십시오. 진정한 리더십은 모두가 두려워하는 순간에 가장 앞장서서 위기를 마주하는 용기에서 비롯됩니다."
+    }
+  ],
+  "persona": "당신은 서희이다.",
+  "imageUrl": "/images/giants/so-hui.jpg",
+  "dnaCode": "LRHI",
+  "era": "10세기의 거인 (942~998)"
+},
+  {
+  "id": "195",
+  "name": "왕건",
+  "category": "leadership",
+  "headline": "잔혹한 무력과 강압이 아닌 넓은 관용과 포용의 정치로 분열된 후삼국을 통일하고 천년 고려 왕조를 개창한 위대한 군주이다.",
+  "shortDescription": "왕건의 일대기와 지혜",
+  "slug": "taejo-of-goryeo",
+  "quote": "무릇 백성을 다스리는 도리는 오직 너그러움과 어짊에 있을 뿐이다.",
+  "pain": "공산 전투에서 후백제군에 참패하여 신숭겸 등 핵심 장수들을 잃고 자신마저 전사할 뻔한 끔찍한 절체절명의 위기에 직면했다.",
+  "recovery": "좌절하지 않고 민심을 수습하며 포용 정책을 통해 유력 호족들과 적국의 투항자들을 모두 끌어안아 거대한 반격의 기틀을 마련했다.",
+  "lessons": [
+    {
+      "title": "무릇 백성을 다스리는 도리는 오직 너그러움과 어짊에 있을 뿐이다.",
+      "content": "강압적인 통제나 공포보다 관용과 배려로 사람을 대하십시오. 진정한 헌신과 충성은 폭력이 아닌 따뜻한 덕성에서 자연스럽게 우러나오는 법입니다."
+    },
+    {
+      "title": "민심을 얻는 자가 천하를 얻고, 민심을 잃는 자는 천하를 잃는다.",
+      "content": "어떤 막강한 권력이나 화려한 성취도 사람들의 굳건한 신뢰와 지지 없이는 결코 지속될 수 없음을 깊이 명심하십시오. 가장 중요한 기반은 언제나 대중의 진심 어린 마음입니다."
+    },
+    {
+      "title": "원수를 용서하고 오히려 벼슬을 내리니, 이것이 천하를 하나로 묶는 가장 큰 근본이다.",
+      "content": "자신과 격렬하게 적대했던 인물조차 대의를 위해 필요하다면 과감히 용서하고 끌어안으십시오. 타인을 포용할 줄 아는 넓은 가슴과 융통성이야말로 깊은 분열을 끝내고 거대한 통합을 이루는 핵심 열쇠입니다."
+    }
+  ],
+  "persona": "당신은 왕건이다.",
+  "imageUrl": "/images/giants/taejo-of-goryeo.jpg",
+  "dnaCode": "LRHI",
+  "era": "10세기의 거인 (877~943)"
+},
+  {
+  "id": "197",
+  "name": "이성계",
+  "category": "leadership",
+  "headline": "외세의 빈번한 침입으로부터 백성과 나라를 구하고 부패한 고려를 무너뜨려 조선 왕조 500년의 빛나는 기틀을 세운 위대한 창업 군주다.",
+  "shortDescription": "이성계의 일대기와 지혜",
+  "slug": "taejo-of-joseon",
+  "quote": "군대는 백성을 편안하게 하기 위해 존재하는 것이니, 함부로 살생을 저지르지 말라.",
+  "pain": "고려 말기의 혼란스러운 외세 침입과 권문세족의 억압적인 부패 속에서 끝없는 전장과 정치적 암투를 굳건히 견뎌내야 했다.",
+  "recovery": "위화도 회군이라는 과감한 결단과 신진사대부와의 굳건한 연대를 통해 낡은 체제를 무너뜨리고 새로운 왕조인 조선을 건국하여 국가의 웅대한 기틀을 세웠다.",
+  "lessons": [
+    {
+      "title": "군대는 백성을 편안하게 하기 위해 존재하는 것이니, 함부로 살생을 저지르지 말라.",
+      "content": "아무리 큰 뜻을 품고 있더라도 그 과정에서 무고한 사람들의 희생을 최소화해야 합니다. 목적이 수단을 맹목적으로 정당화할 수 없음을 명심하고, 항상 사람을 근본으로 삼아 포용과 자비의 리더십을 발휘하십시오."
+    },
+    {
+      "title": "작은 나라가 큰 나라를 거역할 수 없으며, 여름철에 군사를 동원하는 것은 마땅치 않다.",
+      "content": "명분이나 감정에 휩쓸리기보다는 현실적인 조건과 상황을 객관적이고 냉철하게 분석하여 판단해야 합니다. 무모한 도전보다는 구성원들의 무의미한 희생을 막고 최선의 결과를 이끌어낼 수 있는 합리적이고 신중한 결단을 내리십시오."
+    },
+    {
+      "title": "내가 나고 자란 함흥의 억새를 내 무덤에 심어주기를 바란다.",
+      "content": "가장 높은 자리에 오르더라도 자신의 근본적인 뿌리와 초심을 결코 잊지 말아야 합니다. 화려한 성공 뒤에 남는 고독한 인간적인 고뇌를 마주하며, 삶의 진정한 의미와 마음의 영원한 안식처가 무엇인지 깊이 성찰하십시오."
+    }
+  ],
+  "persona": "당신은 이성계이다.",
+  "imageUrl": "/images/giants/taejo-of-joseon.jpg",
+  "dnaCode": "LRHI",
+  "era": "14세기의 거인 (1335~1408)"
+},
+  {
+  "id": "151",
+  "name": "다케다 신겐",
+  "category": "leadership",
+  "headline": "풍림화산의 압도적인 병법과 합리적인 내정으로 전국시대 최고의 무적 군대를 이끌며 천하 패권을 뒤흔든 전술적 천재이자 위대한 명장이다.",
+  "shortDescription": "다케다 신겐의 일대기와 지혜",
+  "slug": "takeda-shingen",
+  "quote": "사람이 곧 성이요, 사람이 곧 해자요, 사람이 곧 석벽이다. 정은 내 편을 만들고, 원한은 적을 만든다.",
+  "pain": "거듭된 참혹한 전란 속에서 부친과의 깊은 갈등을 겪으며 권력을 쟁취해야 했고, 척박한 영지의 자연환경과 강력한 라이벌들의 끊임없는 위협에 맞서 생존을 도모해야 했다.",
+  "recovery": "합리적인 법치와 훌륭한 치수 사업으로 영지를 부강하게 만들었으며, 풍림화산의 병법과 철저한 정보전을 바탕으로 전국시대 최고의 강력한 군대를 이끌고 천하 패권을 다투었다.",
+  "lessons": [
+    {
+      "title": "사람이 곧 성이요, 사람이 곧 해자요, 사람이 곧 석벽이다. 정은 내 편을 만들고, 원한은 적을 만든다.",
+      "content": "견고한 성벽보다 중요한 것은 사람의 진심 어린 마음을 얻는 것입니다. 물리적인 방어나 무력보다는 구성원들과의 깊은 신뢰를 형성하고, 원한을 사지 않는 덕성스러운 포용의 리더십을 굳건히 발휘하십시오."
+    },
+    {
+      "title": "백 번 싸워 백 번 이기는 것은 최선이 아니다. 싸우지 않고 적을 굴복시키는 것이 최선이다.",
+      "content": "무모한 물리적 충돌과 소모적인 승리에만 집착하지 말고 전략적인 사고를 깊이 길러야 합니다. 치밀한 정보력과 심리전을 통해 불필요한 피해를 줄이고, 문제를 가장 평화롭고 지혜롭게 해결할 방법을 항상 먼저 모색하십시오."
+    },
+    {
+      "title": "내 죽음을 3년 동안 밖으로 알리지 말라.",
+      "content": "개인의 덧없는 명예나 영광보다 자신이 속한 공동체의 미래와 안위를 언제나 최우선으로 생각해야 합니다. 자신이 떠난 후에도 남은 이들이 흔들리지 않고 위기에 대비할 수 있도록 끝까지 책임감 있는 치밀한 자세를 견지하십시오."
+    }
+  ],
+  "persona": "당신은 다케다 신겐이다.",
+  "imageUrl": "/images/giants/takeda-shingen.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1521~1573)"
+},
+  {
+  "id": "480",
+  "name": "테오도시우스 1세",
+  "category": "leadership",
+  "headline": "기독교를 로마 제국의 유일한 국교로 선포하고, 분열된 제국을 마지막으로 통일하여 서양 문명의 근간을 세운 위대한 대제이다.",
+  "shortDescription": "테오도시우스 1세의 일대기와 지혜",
+  "slug": "theodosius-i",
+  "quote": "황제는 교회 안에 있는 것이지, 교회 위에 있는 것이 아니다.",
+  "pain": "아버지가 억울하게 처형당하는 고통을 겪은 후, 제국의 군대가 궤멸되고 야만족이 국경을 유린하는 절체절명의 국가적 위기 속에서 황제의 자리에 올라야 했다.",
+  "recovery": "고트족과의 실용적인 평화 조약으로 제국의 붕괴를 막고 군사력을 재건했으며, 이교도 세력을 진압하여 분열된 로마 제국을 마지막으로 통합하고 기독교를 국교로 확립했다.",
+  "lessons": [
+    {
+      "title": "황제는 교회 안에 있는 것이지, 교회 위에 있는 것이 아니다.",
+      "content": "아무리 막강한 세속적 권력을 쥐고 있더라도, 도덕적 가치와 영적인 권위 앞에서는 겸손해야 합니다. 자신의 과오를 인정하고 참회할 줄 아는 용기가 진정한 위대함을 만든다는 사실을 명심하십시오."
+    },
+    {
+      "title": "모든 민족은 우리가 선포한 단 하나의 진정한 종교, 즉 베드로가 로마에 전한 신앙을 따라야 한다.",
+      "content": "분열되고 혼란스러운 시기일수록 구성원들을 하나로 묶을 수 있는 강력하고 통일된 가치관이 필요합니다. 때로는 확고한 신념과 원칙을 세워 조직의 정체성을 명확히 하고 내부의 결속을 굳건히 다지십시오."
+    },
+    {
+      "title": "우리는 야만인들을 검으로 섬멸하기보다 조약으로 동맹을 맺는 길을 택했다.",
+      "content": "비현실적인 이상이나 무의미한 자존심에 얽매이기보다는 눈앞의 위기를 극복할 현실적이고 실용적인 타협점을 찾아야 합니다. 적과도 과감히 손을 잡을 수 있는 유연한 외교적 사고를 바탕으로 생존을 도모하십시오."
+    }
+  ],
+  "persona": "당신은 테오도시우스 1세이다.",
+  "imageUrl": "/images/giants/theodosius-i.jpg",
+  "dnaCode": "LRHI",
+  "era": "4세기의 거인 (347~395)"
+},
+  {
+  "id": "184",
+  "name": "토마 상카라",
+  "category": "leadership",
+  "headline": "아프리카의 진정한 자립과 민중의 해방을 위해 자신의 모든 것을 헌신한 '아프리카의 체 게바라'이자 위대한 혁명가이다.",
+  "shortDescription": "토마 상카라의 일대기와 지혜",
+  "slug": "thomas-sankara",
+  "quote": "제국주의는 저 멀리 있는 것이 아닙니다. 우리가 먹는 밥상 위의 수입 쌀이 바로 제국주의입니다.",
+  "pain": "프랑스의 가혹한 식민 지배와 서구 열강의 신식민주의적 착취 속에서 조국의 극심한 빈곤과 부패한 기득권의 거대한 저항을 온몸으로 마주해야 했다.",
+  "recovery": "외세의 원조를 과감히 거부하고 급진적인 농지 개혁과 대규모 조림 사업, 획기적인 예방접종 캠페인을 주도하여 기적적인 식량 자급자족과 철저한 자립 경제를 이룩했다.",
+  "lessons": [
+    {
+      "title": "제국주의는 저 멀리 있는 것이 아닙니다. 우리가 먹는 밥상 위의 수입 쌀이 바로 제국주의입니다.",
+      "content": "스스로 자립하지 못하고 외부의 힘에 의존하는 순간, 스스로의 운명을 결정할 권리를 빼앗기게 됩니다. 사소해 보이는 일상에서부터 주체성을 확립하고, 진정한 경제적, 정신적 자립을 이루기 위해 뼈를 깎는 노력을 기울이십시오."
+    },
+    {
+      "title": "우리는 여성을 해방하지 않고는 혁명을 이룰 수 없습니다. 여성의 자유 없이 진정한 인간의 자유는 없습니다.",
+      "content": "사회의 절반을 차지하는 이들을 억압하고 차별하면서 진정한 발전과 평화를 기대할 수는 없습니다. 오랜 부조리한 관습에 얽매이지 말고 모든 구성원의 인권과 존엄성을 존중하며 실질적인 평등을 실현하는 데 앞장서십시오."
+    },
+    {
+      "title": "우리의 외채를 갚지 맙시다. 갚으면 우리는 죽고 그들은 살 것이나, 갚지 않으면 우리는 살고 그들은 죽지 않을 것입니다.",
+      "content": "불의한 시스템이나 부당한 권력 구조 속에서 맹목적으로 순응하는 것은 스스로를 파멸로 이끄는 길입니다. 기득권이 강요하는 불합리한 질서에 단호하게 아니라고 외칠 수 있는 강력한 도덕적 용기와 결단력을 발휘하십시오."
+    }
+  ],
+  "persona": "당신은 토마 상카라이다.",
+  "imageUrl": "/images/giants/thomas-sankara.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1949~1987)"
+},
+  {
+  "id": "466",
+  "name": "티베리우스",
+  "category": "leadership",
+  "headline": "평생 대중에게 미움받는 고독을 묵묵히 견디면서도 로마 제국의 국경과 재정을 완벽하게 재건해낸 가장 실용적이고 뛰어난 황제이다.",
+  "shortDescription": "티베리우스의 일대기와 지혜",
+  "slug": "tiberius",
+  "quote": "좋은 목자는 양털을 깎되, 살갗까지 벗기지는 않는다.",
+  "pain": "아우구스투스의 도구로 철저히 이용당하며 사랑하는 가족을 잃는 인간적 고통을 겪었고, 황제가 된 후에도 원로원의 기회주의적 태도와 시민들의 끝없는 불신 속에서 고독한 통치를 감당해야 했다.",
+  "recovery": "정치적 인기나 화려한 영광을 단호히 거부하고, 철저한 예산 절감과 엄격한 속주 관리를 통해 붕괴 직전의 제국 재정을 완벽하게 재건하며 팍스 로마나의 든든한 토대를 다졌다.",
+  "lessons": [
+    {
+      "title": "좋은 목자는 양털을 깎되, 살갗까지 벗기지는 않는다.",
+      "content": "백성이나 부하들에게 과도한 희생을 강요하여 단기적인 이익을 쥐어짜내는 것은 결국 공동체를 파멸로 이끕니다. 구성원들이 무너지지 않도록 세심하게 배려하고, 지속 가능한 성장을 추구하는 합리적인 리더십을 발휘하십시오."
+    },
+    {
+      "title": "군주는 자유롭고 솔직한 정신을 가져야 하며, 타인의 눈치를 보며 비굴하게 행동해서는 안 된다.",
+      "content": "대중의 일시적인 인기나 주변의 비위를 맞추기 위해 자신의 확고한 원칙을 버려서는 안 됩니다. 때로는 비판과 오해를 받더라도, 조직과 국가의 진정한 안위를 위해 냉철하고 묵묵하게 자신이 옳다고 믿는 바를 일관되게 실천하십시오."
+    },
+    {
+      "title": "나는 호랑이의 귀를 잡고 있는 것과 같다.",
+      "content": "최고의 권력이나 책임은 겉보기에는 화려하지만 그 이면에는 언제 목숨을 잃을지 모르는 극한의 긴장과 고독이 숨어 있습니다. 권력의 무서운 속성을 두려워할 줄 알고, 한순간의 방심도 허용하지 않는 철저한 신중함을 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 티베리우스이다.",
+  "imageUrl": "/images/giants/tiberius.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (42 BC~37)"
+},
+  {
+  "id": "469",
+  "name": "티투스",
+  "category": "leadership",
+  "headline": "티투스는 유대 전쟁을 승리로 이끌고 대재난 속에서 로마 시민을 구제하며 '인류의 연인'으로 칭송받은 로마 제국의 훌륭한 황제이다.",
+  "shortDescription": "티투스의 일대기와 지혜",
+  "slug": "titus",
+  "quote": "황제가 하루라도 선행을 하지 않았다면 그 하루는 잃어버린 것이다.",
+  "pain": "유대 전쟁 이후 정치적 정당성을 확보해야 했으며, 황제가 된 직후 베수비오 화산 폭발과 로마 대화재라는 전대미문의 연속된 국가적 재난 상황에 직면했다.",
+  "recovery": "자신의 막대한 사재를 털어 신속하고 헌신적인 구호 및 재건 활동을 직접 지휘했으며, 콜로세움을 완공하고 대규모 축제를 열어 절망에 빠진 로마 시민들의 마음을 다독였다.",
+  "lessons": [
+    {
+      "title": "황제가 하루라도 선행을 하지 않았다면 그 하루는 잃어버린 것이다.",
+      "content": "지도자는 매일 백성을 위한 실질적인 행동을 실천해야 합니다. 당신에게 주어진 하루하루를 타인에게 긍정적인 영향을 미치는 데 사용하십시오."
+    },
+    {
+      "title": "아무도 황제와의 대화에서 슬픈 얼굴로 물러나게 해서는 안 된다.",
+      "content": "권력을 가진 자는 타인에게 희망과 관대함을 베풀어야 합니다. 주변 사람들의 목소리에 공감하고 그들에게 위로가 되는 존재가 되십시오."
+    },
+    {
+      "title": "국가의 부는 시민의 안전과 복지를 위해 아낌없이 사용되어야 한다.",
+      "content": "자원은 그 자체로 목적이 아니라 공동체를 보호하기 위한 수단입니다. 당신이 가진 자산과 능력을 공동의 위기를 극복하는 데 아낌없이 투자하십시오."
+    }
+  ],
+  "persona": "당신은 티투스이다.",
+  "imageUrl": "/images/giants/titus.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (39~81)"
+},
+  {
+  "id": "313",
+  "name": "토미 더글러스",
+  "category": "leadership",
+  "headline": "토미 더글러스는 북미 최초의 보편적 공공 의료 보험을 도입하여 캐나다인들의 삶을 근본적으로 향상시킨 '캐나다 의료의 아버지'이다.",
+  "shortDescription": "토미 더글러스의 일대기와 지혜",
+  "slug": "tommy-douglas",
+  "quote": "마우슬랜드(Mouseland)의 생쥐들은 더 이상 검은 고양이나 하얀 고양이를 뽑지 않고 생쥐를 뽑아야 합니다.",
+  "pain": "어린 시절 다리를 잃을 뻔한 위기와 대공황 시절 빈곤한 노동자들의 비참한 현실을 목격했으며, 기득권층과 의사 협회의 극심한 반발이라는 정치적 장벽에 부딪혔다.",
+  "recovery": "타협하지 않는 확고한 신념과 대중을 움직이는 탁월한 설득력을 바탕으로 공공 의료 보험을 주정부에 도입하고 연방 정부까지 압박하여 제도를 전국적으로 확산시켰다.",
+  "lessons": [
+    {
+      "title": "마우슬랜드(Mouseland)의 생쥐들은 더 이상 검은 고양이나 하얀 고양이를 뽑지 않고 생쥐를 뽑아야 합니다.",
+      "content": "정치와 제도는 소수 기득권이 아닌 평범한 사람들의 삶을 대변해야 합니다. 당신의 권리를 보호하고 실질적인 삶을 개선할 수 있는 선택을 하십시오."
+    },
+    {
+      "title": "인간을 구하는 것은 자선이 아니라, 인간이 자신을 돕도록 만드는 공정한 사회 제도입니다.",
+      "content": "일시적인 시혜보다 근본적인 시스템의 변화가 중요합니다. 공동체 구성원 모두가 공평한 기회를 누릴 수 있는 튼튼한 기반을 구축하십시오."
+    },
+    {
+      "title": "용기를 내십시오. 우리는 단지 꿈을 꾸는 것이 아니라 그 꿈을 건설하고 있는 중입니다.",
+      "content": "올바른 이상을 현실로 만들기 위해서는 수많은 반대와 역경을 이겨내는 끈기가 필요합니다. 당신이 옳다고 믿는 신념을 위해 꺾이지 말고 나아가십시오."
+    }
+  ],
+  "persona": "당신은 토미 더글러스이다.",
+  "imageUrl": "/images/giants/tommy-douglas.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1904~1986)"
+},
+  {
+  "id": "432",
+  "name": "토모에 고젠",
+  "category": "leadership",
+  "headline": "토모에 고젠은 겐페이 합전 당시 뛰어난 무예와 용맹으로 전장을 지배하며 남성 중심의 무사 사회에서 두각을 나타낸 전설적인 여무사이다.",
+  "shortDescription": "토모에 고젠의 일대기와 지혜",
+  "slug": "tomoe-gozen",
+  "quote": "전장에서는 남녀의 구분이 아니라 오직 칼을 쥔 자의 투지만이 결과를 결정짓는다.",
+  "pain": "여성을 전쟁의 도구나 부속물로만 취급하던 보수적인 헤이안 시대의 사회적 장벽과, 아와즈 전투에서 주군 요시나카가 압도적인 적군에게 포위되어 맞이한 비극적 절망에 직면했다.",
+  "recovery": "초인적인 무예와 굽히지 않는 용기로 최전선에서 적진을 돌파하며 자신의 존재 가치를 증명했고, 주군의 마지막 명령에 순응하여 적장의 목을 벤 후 명예롭게 전장을 떠나는 결단을 내렸다.",
+  "lessons": [
+    {
+      "title": "전장에서는 남녀의 구분이 아니라 오직 칼을 쥔 자의 투지만이 결과를 결정짓는다.",
+      "content": "세상의 편견이나 사회적 제약에 굴복하지 마십시오. 오직 당신의 압도적인 실력과 불타는 투지만이 당신의 진정한 가치를 증명할 수 있습니다."
+    },
+    {
+      "title": "주군을 향한 마지막 충성은 같이 죽는 것이 아니라, 그의 마지막 뜻을 받들어 살아남는 것이다.",
+      "content": "맹목적인 희생이 항상 최고의 미덕은 아닙니다. 진정한 헌신이란 때로는 치욕과 슬픔을 견디면서도 남겨진 책임을 묵묵히 다하는 것입니다."
+    },
+    {
+      "title": "강궁의 시위를 당기기 위해서는 흔들림 없는 굳건한 자세가 필요하다.",
+      "content": "어떠한 혼란과 위기 속에서도 결코 흔들리지 않는 중심을 잡아야 합니다. 내면의 강인함이 곧 외부의 적을 물리치는 가장 강력한 무기입니다."
+    }
+  ],
+  "persona": "당신은 토모에 고젠이다.",
+  "imageUrl": "/images/giants/tomoe-gozen.jpg",
+  "dnaCode": "LRHI",
+  "era": "12세기의 거인 (1157~1247)"
+},
+  {
+  "id": "255",
+  "name": "도요토미 히데요리",
+  "category": "leadership",
+  "headline": "도요토미 히데요리는 몰락해가는 가문의 운명을 짊어지고 오사카 전투에서 도쿠가와 막부 대군에 맞서 장엄하게 항전한 비운의 지도자이다.",
+  "shortDescription": "도요토미 히데요리의 일대기와 지혜",
+  "slug": "toyotomi-hideyori",
+  "quote": "자신이 쥔 칼자루를 스스로 넘겨주면, 평화라는 이름의 칼날이 결국 목을 겨눈다.",
+  "pain": "불과 5세의 어린 나이에 거대한 도요토미 가문의 운명을 짊어졌으며, 권력을 찬탈하려는 도쿠가와 이에야스의 교활한 정치적 공세와 압도적인 군사적 위협에 직면했다.",
+  "recovery": "비록 실권을 잃고 절망적인 수세에 몰린 상황에서도 각지의 낭인들을 규합하여 오사카성에서 마지막까지 도요토미 가문의 명예를 위해 목숨을 건 항전을 벌였다.",
+  "lessons": [
+    {
+      "title": "자신이 쥔 칼자루를 스스로 넘겨주면, 평화라는 이름의 칼날이 결국 목을 겨눈다.",
+      "content": "결정적인 위기 순간에 상대방의 기만적인 타협안에 속아 자신의 강력한 무기를 버리지 마십시오. 당신의 핵심적인 힘과 방어막을 끝까지 지켜내야 합니다."
+    },
+    {
+      "title": "무너져가는 성벽 앞에서도 기꺼이 모여든 자들의 충성은 황금보다 무겁다.",
+      "content": "물질적인 이익이 사라진 후에도 당신의 곁을 지키는 사람들을 소중히 여기십시오. 진정한 연대와 신뢰는 절망의 순간에 가장 찬란하게 빛납니다."
+    },
+    {
+      "title": "이길 수 없는 싸움이라 할지라도, 명예롭게 스러지는 것은 결코 무의미하지 않다.",
+      "content": "결과가 패배로 정해진 듯 보일지라도 스스로의 자존엄과 가치를 포기하지 마십시오. 끝까지 타협하지 않고 지켜낸 신념은 역사 속에서 깊은 울림을 남깁니다."
+    }
+  ],
+  "persona": "당신은 도요토미 히데요리이다.",
+  "imageUrl": "/images/giants/toyotomi-hideyori.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1593~1615)"
+},
+  {
+  "id": "472",
+  "name": "트라야누스",
+  "category": "leadership",
+  "headline": "트라야누스는 속주 출신 최초로 황제에 올라 로마 제국 영토를 최대로 확장하고 완벽한 선정을 베풀어 '최고의 황제'라 불린 위대한 군주이다.",
+  "shortDescription": "트라야누스의 일대기와 지혜",
+  "slug": "trajan",
+  "quote": "자신이 법과 원칙을 지키지 않으면서 다른 이들에게 법을 따르라고 강요할 수는 없다.",
+  "pain": "이탈리아 반도가 아닌 속주 출신이라는 출신 배경의 한계와 네르바 황제 암살 위협 등 혼란스러운 권력 승계기의 불안정한 정국에 직면했다.",
+  "recovery": "군단병들의 절대적인 신뢰를 바탕으로 한 탁월한 군사적 성과와 원로원을 존중하는 겸손한 통치 철학을 통해 정치적 안정을 이루고 제국 역사상 최대의 번영을 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "자신이 법과 원칙을 지키지 않으면서 다른 이들에게 법을 따르라고 강요할 수는 없다.",
+      "content": "훌륭한 지도자는 특권을 누리는 것이 아니라 스스로 엄격한 모범을 보여야 합니다. 지위 고하를 막론하고 공정한 원칙을 준수하십시오."
+    },
+    {
+      "title": "무력을 통한 정복보다 훌륭한 것은 굶주린 아이를 배불리 먹이는 관용이다.",
+      "content": "권력의 진정한 목적은 이웃을 보호하고 사회적 약자를 보살피는 데 있습니다. 공동체가 함께 성장할 수 있는 제도를 마련하는 데 힘을 쏟으십시오."
+    },
+    {
+      "title": "전장에서는 병사들과 같은 빵을 나누어 먹고, 평화의 시기에는 그들의 말에 귀를 기울여라.",
+      "content": "리더는 구성원들과 함께 고통을 나누고 소통할 때 가장 강력한 권위를 얻습니다. 높은 자리에 오를수록 더욱 몸을 낮추고 민심을 헤아리십시오."
+    }
+  ],
+  "persona": "당신은 트라야누스이다.",
+  "imageUrl": "/images/giants/trajan.jpg",
+  "dnaCode": "LRHI",
+  "era": "2세기의 거인 (53~117)"
+},
+  {
+  "id": "440",
+  "name": "쯩 자매",
+  "category": "leadership",
+  "headline": "베트남 역사상 최초로 중국의 지배에 맞서 전국적인 무장 독립 투쟁을 이끈 여성 민족 영웅이다.",
+  "shortDescription": "쯩 자매의 일대기와 지혜",
+  "slug": "trung-sisters",
+  "quote": "우리는 조국의 원수를 갚고, 옛 시대의 영광을 되찾을 것이다.",
+  "pain": "한나라의 가혹한 수탈과 남편 티삭의 억울한 처형이라는 절망적인 상황에 직면했다. 또한 압도적인 무력을 앞세운 마원의 정규군 침공으로 극심한 군사적 수세에 몰렸다.",
+  "recovery": "개인의 슬픔을 민족의 분노로 승화시켜 수만 명의 민중을 맹세로 규합하고 독립군을 조직했다. 마지막 순간까지 적에게 굴복하지 않고 죽음을 선택함으로써 베트남 민족주의의 영원한 상징으로 남았다.",
+  "lessons": [
+    {
+      "title": "우리는 조국의 원수를 갚고, 옛 시대의 영광을 되찾을 것이다.",
+      "content": "억압에 맞서 싸우는 대의를 잊지 마십시오. 명확한 목표와 신념은 절망적인 상황에서도 수많은 사람의 마음을 하나로 모으는 강력한 원동력이 됩니다."
+    },
+    {
+      "title": "치욕스럽게 무릎 꿇고 사느니, 당당하게 선 채로 죽음을 맞이하겠다.",
+      "content": "명예와 존엄을 끝까지 지키십시오. 때로는 타협 없는 결단이 후대에 영원히 기억되며 새로운 변화의 불씨를 남기는 법입니다."
+    },
+    {
+      "title": "여성의 몸으로 궐기하여 거대한 제국에 맞선 용기를 기억하라.",
+      "content": "스스로의 한계를 단정 짓지 마십시오. 불가능해 보이는 거대한 장벽 앞에서도 결단력 있게 행동한다면 위대한 역사를 개척할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 쯩 자매이다.",
+  "imageUrl": "/images/giants/trung-sisters.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (12~43)"
+},
+  {
+  "id": "224",
+  "name": "투팍 아마루 2세",
+  "category": "leadership",
+  "headline": "스페인 제국의 가혹한 식민 지배에 맞서 라틴 아메리카 역사상 가장 거대한 원주민 무장 독립 반란을 이끈 잉카의 후예이다.",
+  "shortDescription": "투팍 아마루 2세의 일대기와 지혜",
+  "slug": "tupac-amaru-ii",
+  "quote": "이곳에 죄인은 단 두 명뿐이다. 우리를 억압한 너와, 우리를 해방시키려 한 나이다.",
+  "pain": "부패한 스페인 식민 당국의 가혹한 수탈과 차별에 맞서 평화적 탄원이 철저히 묵살당하는 좌절을 겪었다. 무장 봉기 이후에는 동맹 세력의 이탈과 믿었던 부하의 뼈아픈 배신으로 인해 죽음의 위기에 처했다.",
+  "recovery": "안데스 산맥 전역의 원주민과 억압받는 민중을 하나로 규합하여 식민 지배에 맞서는 거대한 해방 전쟁을 일으켰다. 잔혹한 처형 앞에서도 잉카 후예의 자존심을 지키며 라틴 아메리카 독립 운동의 영원한 불씨가 되었다.",
+  "lessons": [
+    {
+      "title": "이곳에 죄인은 단 두 명뿐이다. 우리를 억압한 너와, 우리를 해방시키려 한 나이다.",
+      "content": "스스로의 신념에 확신을 가지십시오. 세상이 당신을 정죄하려 할지라도, 올바른 대의를 위해 행동했다면 결코 고개를 숙일 필요가 없습니다."
+    },
+    {
+      "title": "억압받는 자들의 고통을 외면하는 것은 부조리에 동조하는 것과 같다.",
+      "content": "불의에 침묵하지 마십시오. 평화적인 방법이 통하지 않는 거대한 벽 앞에서는 행동으로 맞서 싸우는 결단이 새로운 역사를 만듭니다."
+    },
+    {
+      "title": "내 몸이 갈가리 찢겨 흩어지더라도, 우리의 영혼은 해방을 향해 영원히 타오를 것이다.",
+      "content": "대의를 위한 희생을 두려워하지 마십시오. 진정한 혁명적 정신은 육체의 죽음을 넘어 후대의 가슴 속에 불멸의 유산으로 이어집니다."
+    }
+  ],
+  "persona": "당신은 투팍 아마루 2세이다.",
+  "imageUrl": "/images/giants/tupac-amaru-ii.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1738~1781)"
+},
+  {
+  "id": "258",
+  "name": "도고 헤이하치로",
+  "category": "leadership",
+  "headline": "쓰시마 해전에서 대담한 전술로 러시아 발틱 함대를 궤멸시키며 일본을 군사 강국으로 도약시킨 천재적인 해군 제독이다.",
+  "shortDescription": "도고 헤이하치로의 일대기와 지혜",
+  "slug": "togo-heihachiro",
+  "quote": "승리는 평소의 철저한 훈련 속에서 이미 결정되어 있는 법이다.",
+  "pain": "청년 시절 사쓰에이 전쟁에서 영국의 압도적인 함포 사격 앞에 뼈저린 패배와 무력감을 경험했다. 러일 전쟁에서는 세계 최강으로 불리던 러시아 발틱 함대를 상대해야 하는 국가적 멸망의 위압감에 직면했다.",
+  "recovery": "영국 유학을 통해 선진 해군 전술을 흡수하고 맹렬한 훈련으로 일본 연합함대의 전투력을 극한으로 끌어올렸다. 쓰시마 해전에서 대담한 'T자 전법'을 구사하여 불가능해 보이던 완벽한 승리를 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "승리는 평소의 철저한 훈련 속에서 이미 결정되어 있는 법이다.",
+      "content": "요행을 바라지 말고 실력을 갈고닦으십시오. 위기의 순간에 당신을 구원하는 것은 오직 땀 흘려 준비한 치밀한 훈련과 냉철한 분석뿐입니다."
+    },
+    {
+      "title": "죽음을 각오한 결단만이 가장 완벽한 승리를 가져올 수 있다.",
+      "content": "치명적인 위협 앞에서는 과감하게 승부수를 던지십시오. 모든 것을 잃을 위험을 감수하는 대담한 결단력만이 불가능한 벽을 허물 수 있습니다."
+    },
+    {
+      "title": "천하를 얻었다 해도 교만하면 반드시 무너지고 만다.",
+      "content": "빛나는 성과를 거둔 뒤에도 겸손을 잃지 마십시오. 진정한 위대함은 자신의 공로를 내세우지 않고 묵묵히 본분에 충실할 때 완성됩니다."
+    }
+  ],
+  "persona": "당신은 도고 헤이하치로이다.",
+  "imageUrl": "/images/giants/togo-heihachiro.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1848~1934)"
+},
+  {
+  "id": "256",
+  "name": "우에스기 겐신",
+  "category": "leadership",
+  "headline": "센고쿠 시대의 혼란 속에서도 이익보다는 대의명분과 의리를 숭상하며 불패의 신화를 쓴 위대한 전술가이다.",
+  "shortDescription": "우에스기 겐신의 일대기와 지혜",
+  "slug": "uesugi-kenshin",
+  "quote": "싸움은 활과 화살로 하는 것이지, 쌀과 소금으로 하는 것이 아니다.",
+  "pain": "어린 시절 가문의 권력 투쟁 속에서 생존을 위해 사찰에 맡겨지는 시련을 겪었다. 평생의 라이벌 다케다 신겐과 가와나카지마에서 끊임없이 생사를 넘나드는 12년 간의 혹독한 혈전을 벌여야 했다.",
+  "recovery": "탁월한 전술과 신앙심을 바탕으로 내부의 혼란을 수습하고 에치고를 강력하게 통일했다. 배신이 난무하던 난세 속에서도 끝까지 대의명분과 의리를 잃지 않으며 일본 역사상 가장 명예로운 무장으로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "싸움은 활과 화살로 하는 것이지, 쌀과 소금으로 하는 것이 아니다.",
+      "content": "승리를 위해 정정당당한 도리를 저버리지 마십시오. 비열한 수단으로 얻은 이익보다, 원칙과 명예를 지키며 거둔 성과가 영원한 존경을 받습니다."
+    },
+    {
+      "title": "의(義)에 어긋나는 일이라면 설령 천하를 얻는다 해도 결코 행하지 않겠다.",
+      "content": "이익 앞에 신념을 타협하지 마십시오. 혼란스러운 세상일수록 확고한 원칙을 지키는 리더만이 진정한 사람들의 마음을 움직일 수 있습니다."
+    },
+    {
+      "title": "죽기를 각오하면 살 것이요, 살기를 탐하면 죽을 것이다.",
+      "content": "위기의 순간에는 사사로운 미련을 버리고 온전히 몰입하십시오. 모든 것을 내려놓고 대의를 향해 몸을 던질 때 비로소 기적적인 힘이 발휘됩니다."
+    }
+  ],
+  "persona": "당신은 우에스기 겐신이다.",
+  "imageUrl": "/images/giants/uesugi-kenshin.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1530~1578)"
+},
+  {
+  "id": "220",
+  "name": "율리시스 S. 그랜트",
+  "category": "leadership",
+  "headline": "남북 전쟁에서 탁월한 전략과 불굴의 의지로 북군의 최종적인 승리를 이끌어내어 조국의 분열을 막아낸 명장이다.",
+  "shortDescription": "율리시스 S. 그랜트의 일대기와 지혜",
+  "slug": "ulysses-s-grant",
+  "quote": "나는 단 한 번도 후퇴를 생각해 본 적이 없다. 오직 전진만이 있을 뿐이다.",
+  "pain": "젊은 시절 군에서 불명예 전역한 뒤 여러 사업에 실패하며 빈곤과 알코올 중독에 시달리는 비참한 삶을 살았다. 대통령 퇴임 후에는 금융 사기로 전 재산을 잃고 후두암 투병이라는 치명적인 고통과 마주했다.",
+  "recovery": "남북 전쟁에서 냉철한 결단력과 과감한 기동 전술로 연이은 승리를 거두며 북군의 총사령관으로 우뚝 섰다. 죽음의 문턱 앞에서도 초인적인 인내심으로 회고록을 완성하여 가족을 구하고 불멸의 명예를 남겼다.",
+  "lessons": [
+    {
+      "title": "나는 단 한 번도 후퇴를 생각해 본 적이 없다. 오직 전진만이 있을 뿐이다.",
+      "content": "실패를 두려워하며 뒤돌아보지 마십시오. 과거의 초라한 좌절에 얽매이지 않고 묵묵히 앞으로 나아가는 끈기가 궁극적인 승리를 만듭니다."
+    },
+    {
+      "title": "무조건적이고 즉각적인 항복 외에는 어떠한 타협도 받아들일 수 없다.",
+      "content": "핵심적인 원칙을 앞두고는 단호함을 잃지 마십시오. 위기의 순간에 내리는 타협 없는 결정이 때로는 가장 빠르게 평화를 가져오는 열쇠가 됩니다."
+    },
+    {
+      "title": "적은 이제 다시 우리의 동포이다. 그들이 고향으로 돌아가 농사를 지을 수 있게 하라.",
+      "content": "승리한 뒤에는 관용을 베푸십시오. 상대를 완전히 파괴하는 것보다 넓은 아량으로 끌어안을 때, 진정한 화해와 새로운 미래가 열리는 법입니다."
+    }
+  ],
+  "persona": "당신은 율리시스 S. 그랜트이다.",
+  "imageUrl": "/images/giants/ulysses-s-grant.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1822~1885)"
+},
+  {
+  "id": "468",
+  "name": "베스파시아누스",
+  "category": "leadership",
+  "headline": "치열한 로마의 내전을 수습하고 플라비우스 왕조를 개창하여 제국의 중흥을 이끈 현실주의적 황제였다.",
+  "shortDescription": "베스파시아누스의 일대기와 지혜",
+  "slug": "vespasian",
+  "quote": "돈에는 냄새가 나지 않는다.",
+  "pain": "율리우스-클라우디우스 왕조의 단절 이후 로마는 극심한 내전에 휩싸였고, 국가 재정은 붕괴 직전의 파탄 상태에 이르렀다.",
+  "recovery": "탁월한 군사 지도력으로 내전을 종식시키고, 강력하고 실용적인 조세 개혁과 대규모 공공사업을 통해 제국의 안정과 번영을 되찾았다.",
+  "lessons": [
+    {
+      "title": "돈에는 냄새가 나지 않는다.",
+      "content": "어떤 출처에서 나온 돈이든 그 가치는 동일하다는 실용주의적 사고방식을 보여줍니다. 국가 재정을 위해 체면보다는 실질적인 이익을 추구하십시오."
+    },
+    {
+      "title": "황제는 서서 죽어야 한다.",
+      "content": "마지막 순간까지 자신의 의무와 책임을 다하려는 지도자의 숭고한 책임감을 강조합니다. 어떠한 어려움 속에서도 맡은 바 소임을 다하십시오."
+    },
+    {
+      "title": "아, 나는 신이 되어가는 모양이다.",
+      "content": "죽음 앞에서도 잃지 않은 특유의 유머 감각과 냉소주의를 보여줍니다. 절대 권력의 무상함을 깨닫고 스스로의 한계를 겸허히 받아들이십시오."
+    }
+  ],
+  "persona": "당신은 베스파시아누스이다.",
+  "imageUrl": "/images/giants/vespasian.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (9~79)"
+},
+  {
+  "id": "211",
+  "name": "블라디미르 레닌",
+  "category": "leadership",
+  "headline": "10월 혁명을 주도하여 세계 최초의 공산주의 국가를 수립하고 20세기 현대사의 흐름을 바꾼 혁명가였다.",
+  "shortDescription": "블라디미르 레닌의 일대기와 지혜",
+  "slug": "vladimir-lenin",
+  "quote": "가장 중요한 것은 실천이다.",
+  "pain": "형의 처형과 잦은 시베리아 유배, 긴 망명 생활이라는 개인적 고난에 더해, 권력 장악 직후 벌어진 끔찍한 적백 내전과 심각한 경제 붕괴라는 국가적 위기에 직면했다.",
+  "recovery": "타협을 모르는 강인한 의지와 뛰어난 전술적 유연성으로 10월 혁명을 성공시키고, 신경제정책 도입 등 현실적인 결단을 통해 신생 소비에트 정권의 생존을 지켜냈다.",
+  "lessons": [
+    {
+      "title": "가장 중요한 것은 실천이다.",
+      "content": "이론만으로는 세상을 바꿀 수 없으며 구체적인 행동만이 현실을 변화시킨다는 점을 강조합니다. 완벽한 계획보다 용기 있는 실행을 우선시하십시오."
+    },
+    {
+      "title": "혁명은 장갑을 끼고 할 수 없다.",
+      "content": "커다란 변화를 이룩하기 위해서는 때로는 거칠고 험난한 과정과 희생을 감수해야 함을 의미합니다. 목표를 위해 직면한 고난과 마찰을 피하지 마십시오."
+    },
+    {
+      "title": "한 걸음 물러서서 두 걸음 전진한다.",
+      "content": "궁극적인 목표 달성을 위해 일시적인 후퇴나 전략적 타협이 필요할 수 있음을 보여줍니다. 장기적인 승리를 위해 유연하고 현실적인 태도를 취하십시오."
+    }
+  ],
+  "persona": "당신은 블라디미르 레닌이다.",
+  "imageUrl": "/images/giants/vladimir-lenin.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1870~1924)"
+},
+  {
+  "id": "266",
+  "name": "보응우옌잡",
+  "category": "leadership",
+  "headline": "프랑스와 미국이라는 초강대국을 상대로 연이어 승리를 거두며 베트남의 독립과 통일을 이룩한 전설적인 전략가이다.",
+  "shortDescription": "보응우옌잡의 일대기와 지혜",
+  "slug": "vo-nguyen-giap",
+  "quote": "우리는 피하고, 적은 찾는다. 적이 우리를 찾지 못할 때 우리가 적을 공격한다.",
+  "pain": "정식 군사 교육을 받지 않은 역사 교사 출신으로, 압도적인 무기와 화력을 갖춘 프랑스와 미국이라는 두 초강대국과 연이어 전쟁을 치러야 했다.",
+  "recovery": "민중의 광범위한 지지를 이끌어내는 인민전쟁 전략과 적의 허를 찌르는 유격 전술을 통해 세계 전쟁사에 유례없는 승리를 거두었다.",
+  "lessons": [
+    {
+      "title": "우리는 피하고, 적은 찾는다. 적이 우리를 찾지 못할 때 우리가 적을 공격한다.",
+      "content": "자신의 약점을 숨기고 적의 허점이 노출될 때까지 기다리는 인내심의 중요성을 강조합니다. 불리한 상황에서는 정면 대결을 피하고 기회를 포착하십시오."
+    },
+    {
+      "title": "모든 국민이 군인이다.",
+      "content": "전쟁이나 거대한 도전은 소수의 엘리트가 아닌 공동체 전체의 단결된 힘으로 극복할 수 있다는 의미입니다. 목표 달성을 위해 구성원 모두의 동참과 결속을 이끌어내십시오."
+    },
+    {
+      "title": "가장 훌륭한 군사 전략은 정치적 승리를 이끌어내는 것이다.",
+      "content": "전투 자체의 승패보다 전쟁이 갖는 본질적인 목적과 명분이 훨씬 더 중요함을 보여줍니다. 눈앞의 성과에 집착하지 말고 궁극적인 목표에 집중하십시오."
+    }
+  ],
+  "persona": "당신은 보응우옌잡이다.",
+  "imageUrl": "/images/giants/vo-nguyen-giap.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1911~2013)"
+},
+  {
+  "id": "35",
+  "name": "왕안석",
+  "category": "leadership",
+  "headline": "북송 시대에 부국강병과 민생 안정을 목표로 급진적인 정치 개혁인 신법을 주도한 천재적인 정치가이다.",
+  "shortDescription": "왕안석의 일대기와 지혜",
+  "slug": "wang-anshi",
+  "quote": "하늘의 변화는 두려워할 것이 못 되고, 조상의 법도 본받을 것이 못 되며, 사람들의 말은 신경 쓸 것이 못 된다.",
+  "pain": "기득권을 지키려는 사마광 등 보수 구법당의 강력한 반대와 정치적 공세에 직면했으며, 결국 황제의 신임마저 흔들려 실각하고 말았다.",
+  "recovery": "강력한 반대에도 굴하지 않고 꺾이지 않는 굳건한 신념으로 청묘법, 모역법 등의 신법을 밀어붙여 일시적으로나마 송나라의 재정을 건전하게 만들었다.",
+  "lessons": [
+    {
+      "title": "하늘의 변화는 두려워할 것이 못 되고, 조상의 법도 본받을 것이 못 되며, 사람들의 말은 신경 쓸 것이 못 된다.",
+      "content": "기존의 관습이나 타인의 비판에 얽매이지 않고 필요한 개혁을 과감하게 추진해야 함을 역설합니다. 옳은 길이라 믿는다면 주변의 반대에 흔들리지 마십시오."
+    },
+    {
+      "title": "천하를 다스리는 도리는 오직 백성을 이롭게 하는 데 있다.",
+      "content": "정치와 제도의 근본 목적은 민생의 안정과 백성의 번영에 있다는 민본주의 사상을 보여줍니다. 리더로서 항상 공동체 구성원의 이익을 최우선으로 생각하십시오."
+    },
+    {
+      "title": "낡은 제도를 고치지 않으면 새로운 폐단이 생겨난다.",
+      "content": "시대가 변함에 따라 낡은 규정이나 관행은 과감히 버리고 시대에 맞는 새로운 제도를 만들어야 함을 강조합니다. 변화하는 환경에 맞춰 지속적으로 혁신하십시오."
+    }
+  ],
+  "persona": "당신은 왕안석이다.",
+  "imageUrl": "/images/giants/wang-anshi.jpg",
+  "dnaCode": "LRHI",
+  "era": "11세기의 거인 (1021~1086)"
+},
+  {
+  "id": "498",
+  "name": "윌리엄 헨리 해리슨",
+  "category": "leadership",
+  "headline": "전쟁 영웅으로 대중의 지지를 받아 대통령에 당선되었으나 미국 역사상 가장 짧은 31일의 임기만을 남긴 대통령이다.",
+  "shortDescription": "윌리엄 헨리 해리슨의 일대기와 지혜",
+  "slug": "william-henry-harrison",
+  "quote": "자유는 오직 자유를 사랑하고 방어할 준비가 된 사람들의 노력에 의해서만 보존될 수 있다.",
+  "pain": "아버지의 죽음으로 의학 공부를 중단해야 했으며, 정치에 입문한 후에는 원주민 연맹의 강력한 저항과 영미 전쟁이라는 안보 위기에 직면했다.",
+  "recovery": "티페카누 전투와 템스 전투에서 결정적인 군사적 승리를 거두며 국가적 위기를 극복하고 전쟁 영웅으로서의 정치적 입지를 굳혔다.",
+  "lessons": [
+    {
+      "title": "자유는 오직 자유를 사랑하고 방어할 준비가 된 사람들의 노력에 의해서만 보존될 수 있다.",
+      "content": "소중한 가치와 권리는 저절로 주어지는 것이 아니라 끊임없는 노력과 방어를 통해 지켜진다는 점을 강조합니다. 자신의 권리를 지키기 위해 항상 깨어 행동하십시오."
+    },
+    {
+      "title": "정부의 진정한 힘은 사람들의 애정에 바탕을 둔다.",
+      "content": "국가나 조직의 통치력이 폭력이나 억압이 아닌 구성원들의 자발적인 지지와 사랑에서 나온다는 것을 역설합니다. 강압보다는 신뢰를 통해 조직을 이끄십시오."
+    },
+    {
+      "title": "권력은 결코 영구적이지 않으며 대중의 뜻에 복종해야 한다.",
+      "content": "민주주의 체제에서 모든 권력의 원천은 국민에게 있으며, 권력자는 항상 민의를 존중해야 함을 의미합니다. 대중의 목소리에 귀를 기울이고 겸손함을 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 윌리엄 헨리 해리슨이다.",
+  "imageUrl": "/images/giants/william-henry-harrison.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1773~1841)"
+},
+  {
+  "id": "230",
+  "name": "윌리엄 펜",
+  "category": "leadership",
+  "headline": "미국 펜실베이니아주를 창설하고 종교의 자유와 민주주의의 초석을 다진 영국의 퀘이커 교도이자 개척자이다.",
+  "shortDescription": "윌리엄 펜의 일대기와 지혜",
+  "slug": "william-penn",
+  "quote": "모든 사람이 반대할지라도 옳은 것은 옳은 것이며, 모든 사람이 찬성할지라도 틀린 것은 틀린 것이다.",
+  "pain": "성공회 중심의 영국 사회에서 퀘이커 신앙을 선택함으로써 가혹한 핍박과 수차례의 투옥을 겪어야만 했다.",
+  "recovery": "옥중에서도 신념을 굽히지 않고 저술 활동을 이어갔으며, 마침내 아메리카 대륙에 종교의 자유가 보장되는 평화로운 식민지 펜실베이니아를 건설하여 위기를 기회로 바꾸었다.",
+  "lessons": [
+    {
+      "title": "모든 사람이 반대할지라도 옳은 것은 옳은 것이며, 모든 사람이 찬성할지라도 틀린 것은 틀린 것이다.",
+      "content": "다수의 의견이나 사회적 압력에 흔들리지 말고, 스스로의 양심과 도덕적 기준에 따라 올바른 길을 선택하십시오. 진리는 사람들의 수에 의해 결정되는 것이 아닙니다."
+    },
+    {
+      "title": "우리가 가장 원하는 것은 시간이지만, 우리가 가장 낭비하는 것 역시 시간이다.",
+      "content": "시간의 소중함을 깨닫고 매 순간을 목적 의식을 가지고 가치 있게 사용하십시오. 무의미하게 흘려보내는 시간은 결코 다시 돌아오지 않습니다."
+    },
+    {
+      "title": "십자가 없이는 면류관도 없다.",
+      "content": "위대한 성취와 진정한 영광의 이면에는 반드시 희생과 인내, 그리고 고난이 뒤따른다는 사실을 기억하십시오. 시련을 두려워하지 말고 묵묵히 이겨내십시오."
+    }
+  ],
+  "persona": "당신은 윌리엄 펜이다.",
+  "imageUrl": "/images/giants/william-penn.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1644~1718)"
+},
+  {
+  "id": "240",
+  "name": "항우",
+  "category": "leadership",
+  "headline": "초한전쟁에서 압도적인 무용을 자랑하며 천하의 패권을 다투었던 초나라의 전설적인 패왕이다.",
+  "shortDescription": "항우의 일대기와 지혜",
+  "slug": "xiang-yu",
+  "quote": "내가 하늘을 원망하겠는가? 오직 나의 덕이 부족했음을 탓할 뿐이다.",
+  "pain": "탁월한 무용과 전술적 천재성에도 불구하고 오만한 성격과 정치적 통찰력의 부족으로 인해 점차 인심을 잃고 유방의 세력에게 고립되었다.",
+  "recovery": "결국 해하 전투에서 패배하고 오강에서 스스로 목숨을 끊으며 비극적인 최후를 맞이했으나, 그의 영웅적인 기개는 후대에 길게 회자되었다.",
+  "lessons": [
+    {
+      "title": "내가 하늘을 원망하겠는가? 오직 나의 덕이 부족했음을 탓할 뿐이다.",
+      "content": "실패의 원인을 외부 환경이나 다른 사람의 탓으로 돌리지 말고 스스로를 겸허하게 되돌아보십시오. 진정한 성장은 자신의 부족함을 인정하는 데서 시작됩니다."
+    },
+    {
+      "title": "힘은 산을 뽑을 만하고 기운은 세상을 덮을 만하구나.",
+      "content": "압도적인 능력과 뛰어난 재능을 가졌더라도 그것을 올바르게 사용할 수 있는 지혜가 없다면 결국 무용지물이 될 수 있음을 명심하십시오."
+    },
+    {
+      "title": "배를 가라앉히고 솥을 깨뜨려라.",
+      "content": "목표를 이루고자 한다면 퇴로를 차단하고 죽을 각오로 온 힘을 다해 임하십시오. 간절함과 결단력은 상상을 초월하는 기적을 만들어냅니다."
+    }
+  ],
+  "persona": "당신은 항우이다.",
+  "imageUrl": "/images/giants/xiang-yu.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 3세기의 거인 (232 BC~202 BC)"
+},
+  {
+  "id": "434",
+  "name": "음려화",
+  "category": "leadership",
+  "headline": "후한 광무제의 아내로서 황후의 자리를 양보하는 겸양의 미덕을 보여준 현명하고 자애로운 여인이다.",
+  "shortDescription": "음려화의 일대기와 지혜",
+  "slug": "yin-lihua",
+  "quote": "겸손과 물러남이 곧 진정한 승리의 길이다.",
+  "pain": "남편이 권력을 다지는 과정에서 다른 여인과 정략결혼을 하고 그녀에게 황후의 자리를 넘겨주어야 하는 정치적 시련을 겪었다.",
+  "recovery": "자신의 권력욕보다 국가의 안정과 평화를 우선시하는 겸양의 미덕으로 마침내 진정한 사랑과 황후의 자리를 모두 되찾았다.",
+  "lessons": [
+    {
+      "title": "겸손과 물러남이 곧 진정한 승리의 길이다.",
+      "content": "때로는 한 걸음 물러나 타인에게 자리를 양보하는 것이 더 큰 갈등을 막고 궁극적인 평화를 가져올 수 있음을 명심하십시오."
+    },
+    {
+      "title": "원망과 복수 대신 관용으로 적을 품어라.",
+      "content": "자신을 핍박했던 이들에게 복수하지 않고 너그럽게 용서하십시오. 관대함이야말로 사람의 마음을 얻는 가장 강력한 무기입니다."
+    },
+    {
+      "title": "조강지처의 묵묵한 내조가 위대한 제국을 세운다.",
+      "content": "보이지 않는 곳에서 변함없이 지지하고 헌신하는 사람의 가치를 결코 잊지 마십시오. 진정한 힘은 굳건한 신뢰에서 나옵니다."
+    }
+  ],
+  "persona": "당신은 음려화이다.",
+  "imageUrl": "/images/giants/yin-lihua.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (5~64)"
+},
+  {
+  "id": "9",
+  "name": "을지문덕",
+  "category": "leadership",
+  "headline": "수나라의 113만 대군에 맞서 살수대첩을 승리로 이끌며 고구려를 구한 천재적인 지략가이자 명장이다.",
+  "shortDescription": "을지문덕의 일대기와 지혜",
+  "slug": "ulchi-mundok",
+  "quote": "만족함을 알고 그만 돌아가기를 바라노라.",
+  "pain": "중국 역사상 최대 규모인 113만 명의 수나라 대군이 침공해오며 국가의 존망이 걸린 끔찍한 절체절명의 위기에 직면했다.",
+  "recovery": "뛰어난 지략과 기만전술을 활용하여 적을 깊숙이 유인한 뒤, 살수에서 수공을 펼쳐 30만 별동대를 궤멸시키는 기적적인 대승을 거두었다.",
+  "lessons": [
+    {
+      "title": "만족함을 알고 그만 돌아가기를 바라노라.",
+      "content": "자신의 성취에 도취하여 무리한 욕심을 부리지 말고 물러날 때를 정확히 아는 지혜를 가지십시오. 끝없는 탐욕은 결국 파멸을 부릅니다."
+    },
+    {
+      "title": "싸우지 않고 적을 지치게 만들어라.",
+      "content": "정면 대결만이 능사는 아닙니다. 때로는 적의 약점을 파고들고 상황을 유리하게 이끄는 치밀한 전략과 인내가 더 큰 승리를 가져옵니다."
+    },
+    {
+      "title": "자만하는 적에게는 거짓 패배를 안겨주어라.",
+      "content": "상대방의 오만함을 역이용하여 스스로 무너지게 만드십시오. 유연한 사고와 과감한 기만술은 절망적인 상황을 뒤집는 훌륭한 무기가 됩니다."
+    }
+  ],
+  "persona": "당신은 을지문덕이다.",
+  "imageUrl": "/images/giants/ulchi-mundok.jpg",
+  "dnaCode": "LRHI",
+  "era": "7세기의 거인 (550~620)"
+},
+  {
+  "id": "340",
+  "name": "오귀스트 콩트",
+  "category": "philosophy",
+  "headline": "사회학이라는 명칭과 학문적 체계를 최초로 창시하여 현대 사회과학의 기초를 다진 프랑스의 실증주의 철학자이다.",
+  "shortDescription": "오귀스트 콩트의 일대기와 지혜",
+  "slug": "auguste-comte",
+  "quote": "사랑을 원리로, 질서를 기초로, 진보를 목표로 삼아라.",
+  "pain": "평생 동안 정식 교수직을 얻지 못한 채 극심한 가난에 시달렸으며, 이혼과 신경 쇠약으로 정신 병원에 수감되는 개인적인 비극을 겪었다.",
+  "recovery": "모든 시련 속에서도 학문적 열정을 잃지 않고 12년에 걸쳐 '실증철학 강의'를 완성해 내며 현대 사회학의 위대한 토대를 마련했다.",
+  "lessons": [
+    {
+      "title": "사랑을 원리로, 질서를 기초로, 진보를 목표로 삼아라.",
+      "content": "삶의 방향을 설정할 때 사랑과 타인을 향한 헌신을 가장 근본적인 원동력으로 삼으십시오. 진정한 발전은 안정된 질서 위에서만 가능합니다."
+    },
+    {
+      "title": "이해하기 위해 알고, 예견하기 위해 이해하며, 통제하기 위해 예견하라.",
+      "content": "현상을 막연하게 추측하지 말고 철저히 관찰하고 분석하여 미래를 대비하십시오. 아는 만큼 통제할 수 있고, 예견하는 만큼 위기를 피할 수 있습니다."
+    },
+    {
+      "title": "죽은 자가 산 자를 지배한다.",
+      "content": "우리의 삶과 사회 제도는 과거 세대의 수많은 헌신과 유산 위에 세워져 있음을 기억하십시오. 인류의 역사와 선조들의 지혜를 겸허히 존중하십시오."
+    }
+  ],
+  "persona": "당신은 오귀스트 콩트이다.",
+  "imageUrl": "/images/giants/auguste-comte.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1798~1857)"
+},
+  {
+  "id": "29",
+  "name": "반소",
+  "category": "philosophy",
+  "headline": "남성 중심의 고대 사회에서 편견을 깨고 중국 정사인 한서를 완성한 최초의 여성 역사가이다.",
+  "shortDescription": "반소의 일대기와 지혜",
+  "slug": "ban-zhao",
+  "quote": "남편과 아내가 서로 존경하지 않는다면 어떻게 화목함을 유지할 수 있겠는가?",
+  "pain": "오빠 반고가 정치적 음모에 휘말려 옥사하면서 한서 편찬이라는 거대한 역사적 과업이 중단될 위기에 처했다.",
+  "recovery": "황제로부터 특명을 받아 황실 도서관인 동관에 머물며 철저한 고증과 방대한 학식을 바탕으로 미완의 한서를 훌륭히 완성해냈다.",
+  "lessons": [
+    {
+      "title": "남편과 아내가 서로 존경하지 않는다면 어떻게 화목함을 유지할 수 있겠는가?",
+      "content": "부부 관계를 비롯한 모든 인간관계의 근본은 서로에 대한 깊은 존중과 배려에 있음을 명심하십시오."
+    },
+    {
+      "title": "여성에게 지식을 가르치지 않는 것은 그들의 지혜를 무시하는 어리석은 일이다.",
+      "content": "성별이나 신분에 얽매이지 않고 누구에게나 배움의 기회를 공평하게 제공하여 잠재력을 끌어올리십시오."
+    },
+    {
+      "title": "스스로를 낮추고 남을 높이는 겸손함이야말로 자신을 지키는 가장 단단한 방패이다.",
+      "content": "어떤 상황에서도 교만하지 않고 겸손한 태도를 유지하여 내면의 진정한 강인함을 기르십시오."
+    }
+  ],
+  "persona": "당신은 반소이다.",
+  "imageUrl": "/images/giants/ban-zhao.jpg",
+  "dnaCode": "LRHI",
+  "era": "1세기의 거인 (45~116)"
+},
+  {
+  "id": "143",
+  "name": "최치원",
+  "category": "philosophy",
+  "headline": "신라의 신분적 한계를 뛰어넘어 국제적인 명성을 얻은 천재 문장가이자 비운의 개혁가이다.",
+  "shortDescription": "최치원의 일대기와 지혜",
+  "slug": "ch-oe-ch-iwon",
+  "quote": "가을 바람에 오직 괴롭게 읊나니, 세상에 나를 알아주는 이 드물구나.",
+  "pain": "육두품이라는 엄격한 신분적 한계로 인해 조국 신라에서는 자신의 천재적인 재능을 펼칠 기회조차 얻을 수 없었다.",
+  "recovery": "어린 나이에 당나라로 유학을 떠나 피나는 노력 끝에 외국인 과거 시험인 빈공과에 장원으로 급제하며 세계적인 문장가로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "가을 바람에 오직 괴롭게 읊나니, 세상에 나를 알아주는 이 드물구나.",
+      "content": "때로는 세상이 당신의 진가를 당장 알아주지 않더라도 좌절하지 말고 묵묵히 자신의 길을 걸어가십시오."
+    },
+    {
+      "title": "학문은 배를 젓는 것과 같아서 앞으로 나아가지 않으면 곧 뒤로 밀려난다.",
+      "content": "끊임없이 배우고 성장하려는 노력을 멈추지 말고 매일 조금씩이라도 전진하십시오."
+    },
+    {
+      "title": "높은 산에 오르지 않고서 어찌 평지의 넓음을 알 수 있겠는가.",
+      "content": "더 넓은 세상을 경험하고 큰 시련을 마주함으로써 자신의 한계를 깨고 더 깊은 통찰력을 얻으십시오."
+    }
+  ],
+  "persona": "당신은 최치원이다.",
+  "imageUrl": "/images/giants/ch-oe-ch-iwon.jpg",
+  "dnaCode": "LRHI",
+  "era": "9세기의 거인 (857~?)"
+},
+  {
+  "id": "137",
+  "name": "조광조",
+  "category": "philosophy",
+  "headline": "도학정치의 이상을 현실에 구현하고자 자신의 모든 것을 불태웠던 조선 성리학의 위대한 상징이다.",
+  "shortDescription": "조광조의 일대기와 지혜",
+  "slug": "cho-kwangjo",
+  "quote": "임금을 요순과 같은 성군으로 만들고, 나라를 태평성대로 만드는 것이 신하의 도리이다.",
+  "pain": "도학정치라는 원대한 이상을 현실에 구현하려 했으나 기득권 세력인 훈구파의 극심한 견제와 저항에 부딪혔다.",
+  "recovery": "임금의 전폭적인 신임을 바탕으로 소격서 폐지, 향약 실시, 현량과 도입 등 급진적이고 혁신적인 개혁을 물러섬 없이 추진했다.",
+  "lessons": [
+    {
+      "title": "임금을 요순과 같은 성군으로 만들고, 나라를 태평성대로 만드는 것이 신하의 도리이다.",
+      "content": "자신이 몸담은 조직과 사회를 더 나은 방향으로 이끌기 위해 숭고한 책임감을 가지고 헌신하십시오."
+    },
+    {
+      "title": "학문은 앎에 그치는 것이 아니라 반드시 실천으로 이어져야만 그 가치가 빛난다.",
+      "content": "머리로 아는 것에 만족하지 말고 당신이 옳다고 믿는 바를 현실에서 용기 있게 실천하십시오."
+    },
+    {
+      "title": "죽음 앞에서도 부끄러움이 없는 삶이야말로 진정한 군자의 길이다.",
+      "content": "어떤 시련과 위협 속에서도 자신의 신념을 굽히지 말고 양심에 떳떳한 삶을 살아가십시오."
+    }
+  ],
+  "persona": "당신은 조광조이다.",
+  "imageUrl": "/images/giants/cho-kwangjo.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1482~1519)"
+},
+  {
+  "id": "245",
+  "name": "동중서",
+  "category": "philosophy",
+  "headline": "공자의 가르침을 국가의 통치 이념으로 승화시켜 동아시아 유교 문화권의 굳건한 토대를 마련한 위대한 사상가이다.",
+  "shortDescription": "동중서의 일대기와 지혜",
+  "slug": "dong-zhongshu",
+  "quote": "하늘과 인간은 서로 통하며, 군주의 어진 정치는 하늘의 뜻과 맞닿아 있다.",
+  "pain": "제자백가의 사상이 난립하는 극도의 사상적 혼란 속에서 유교의 정당성과 국가 통치 이념으로서의 우수성을 증명해야 했다.",
+  "recovery": "음양오행설을 유교와 결합한 천인감응설을 확립하여 무제를 설득하고 유교를 전한의 유일무이한 국가 이념으로 정립했다.",
+  "lessons": [
+    {
+      "title": "하늘과 인간은 서로 통하며, 군주의 어진 정치는 하늘의 뜻과 맞닿아 있다.",
+      "content": "지도자의 자리에 있다면 자신의 결정이 세상에 미치는 거대한 파급력을 인지하고 항상 올바르게 행동하십시오."
+    },
+    {
+      "title": "도(道)의 근본은 하늘에서 나오며, 하늘이 변하지 않으니 도 역시 변하지 않는다.",
+      "content": "시대가 아무리 변하더라도 시대를 초월하는 인류의 보편적인 도덕과 근본 가치를 굳건히 지키십시오."
+    },
+    {
+      "title": "형벌에만 의존하는 정치는 백성을 두렵게 할 뿐, 진정한 교화를 이룰 수 없다.",
+      "content": "강압과 통제보다는 따뜻한 이해와 도덕적인 모범을 통해 사람들의 마음을 진정으로 움직이십시오."
+    }
+  ],
+  "persona": "당신은 동중서이다.",
+  "imageUrl": "/images/giants/dong-zhongshu.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 2세기의 거인 (179 BC~104 BC)"
+},
+  {
+  "id": "152",
+  "name": "후쿠자와 유키치",
+  "category": "philosophy",
+  "headline": "서양의 근대 사상을 일본에 전파하여 메이지 유신의 사상적 기틀을 마련한 최고의 계몽 사상가이다.",
+  "shortDescription": "후쿠자와 유키치의 일대기와 지혜",
+  "slug": "fukuzawa-yukichi",
+  "quote": "하늘은 사람 위에 사람을 만들지 않았고, 사람 밑에 사람을 만들지 않았다.",
+  "pain": "막번 체제의 엄격한 신분 질서 속에서 하급 무사로서 차별을 겪었고, 서구 열강의 위협 앞에 조국의 존립이 위태로웠다.",
+  "recovery": "서양으로 건너가 근대 문명을 직접 체험하고 학문에 매진하여, 귀국 후 교육과 저술을 통해 일본의 근대적 계몽을 주도했다.",
+  "lessons": [
+    {
+      "title": "하늘은 사람 위에 사람을 만들지 않았고, 사람 밑에 사람을 만들지 않았다.",
+      "content": "신분이나 출신에 얽매이지 않고 모든 인간이 평등하다는 믿음을 가지고 타인을 존중하십시오."
+    },
+    {
+      "title": "한 나라의 독립은 국민 한 사람 한 사람이 독립된 인격체로 설 때 비로소 완성된다.",
+      "content": "조직이나 사회에 무비판적으로 기대기보다 스스로 판단하고 책임지는 독립적인 주체로 성장하십시오."
+    },
+    {
+      "title": "배우지 않는 자는 어리석어지고, 어리석은 자는 가난해지며, 가난한 자는 결국 노예가 된다.",
+      "content": "빠르게 변화하는 세상에서 뒤처지지 않도록 실용적인 지식과 기술을 끊임없이 습득하십시오."
+    }
+  ],
+  "persona": "당신은 후쿠자와 유키치이다.",
+  "imageUrl": "/images/giants/fukuzawa-yukichi.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1835~1901)"
+},
+  {
+  "id": "287",
+  "name": "게오르크 빌헬름 프리드리히 헤겔",
+  "category": "philosophy",
+  "headline": "서양 철학사를 집대성하고 변증법이라는 새로운 사유의 틀을 확립한 독일 관념론의 완성자이다.",
+  "shortDescription": "게오르크 빌헬름 프리드리히 헤겔의 일대기와 지혜",
+  "slug": "georg-wilhelm-friedrich-hegel",
+  "quote": "이성적인 것은 현실적인 것이며, 현실적인 것은 이성적인 것이다.",
+  "pain": "예나 대학 시절 경제적 궁핍과 강의의 실패, 그리고 전쟁으로 인한 혼란 속에서 학자로서의 생존 자체가 위협받았다.",
+  "recovery": "어려운 환경에서도 변증법적 세계관을 확립하며 묵묵히 자신만의 방대한 철학적 체계를 구축하는 데 몰두했다.",
+  "lessons": [
+    {
+      "title": "이성적인 것은 현실적인 것이며, 현실적인 것은 이성적인 것이다.",
+      "content": "세상의 모든 현실 속에는 그것을 존재하게 하는 합리적인 이유가 숨어 있음을 깨달으십시오."
+    },
+    {
+      "title": "미네르바의 부엉이는 황혼이 저물어야만 날갯짓을 시작한다.",
+      "content": "어떤 시대나 사건의 진정한 의미는 그 과정이 모두 끝난 뒤에야 비로소 명확하게 이해할 수 있습니다."
+    },
+    {
+      "title": "역사에서 배우는 유일한 교훈은, 우리가 역사로부터 아무것도 배우지 않는다는 사실이다.",
+      "content": "과거의 실수를 반복하지 않기 위해서는 역사의 가르침을 깊이 새기고 현실에 적용하는 지혜가 필요합니다."
+    }
+  ],
+  "persona": "당신은 게오르크 빌헬름 프리드리히 헤겔이다.",
+  "imageUrl": "/images/giants/georg-wilhelm-friedrich-hegel.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1770~1831)"
+},
+  {
+  "id": "283",
+  "name": "장폴 사르트르",
+  "category": "philosophy",
+  "headline": "무신론적 실존주의를 대표하는 철학자이자 앙가주망을 실천한 20세기 프랑스 지성의 상징이다.",
+  "shortDescription": "장폴 사르트르의 일대기와 지혜",
+  "slug": "jean-paul-sartre",
+  "quote": "인간은 자유롭도록 저주받았다.",
+  "pain": "제2차 세계대전 중 포로수용소에 갇히는 절망적인 경험을 했으며, 지식인으로서의 정치적 참여로 인해 끊임없는 논쟁과 비판에 시달려야 했다.",
+  "recovery": "극한의 상황 속에서도 인간의 절대적 자유와 책임을 강조하는 철학을 발전시켰으며, 평생에 걸쳐 사회적 불의에 맞서는 앙가주망을 실천했다.",
+  "lessons": [
+    {
+      "title": "인간은 자유롭도록 저주받았다.",
+      "content": "자유는 무거운 책임을 동반하지만, 스스로의 삶을 개척하고 가치를 창조할 수 있는 위대한 권리임을 잊지 마십시오."
+    },
+    {
+      "title": "실존은 본질에 앞선다.",
+      "content": "우리는 미리 정해진 목적 없이 태어났으므로, 삶의 의미는 오직 자신의 치열한 선택과 행동을 통해서만 완성됩니다."
+    },
+    {
+      "title": "행동만이 살아있는 유일한 진실이다.",
+      "content": "머릿속의 생각이나 거창한 말보다는, 직접 현실 속에서 실천하고 부딪히는 행동이 진정한 나를 증명합니다."
+    }
+  ],
+  "persona": "당신은 장폴 사르트르이다.",
+  "imageUrl": "/images/giants/jean-paul-sartre.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1905~1980)"
+},
+  {
+  "id": "341",
+  "name": "제러미 벤담",
+  "category": "philosophy",
+  "headline": "공리주의를 창시하여 근대 법학과 사회 제도의 개혁에 혁명적인 영향을 미친 영국의 철학자이다.",
+  "shortDescription": "제러미 벤담의 일대기와 지혜",
+  "slug": "jeremy-bentham",
+  "quote": "최대 다수의 최대 행복이 도덕과 입법의 진정한 기초이다.",
+  "pain": "자신의 혁신적인 개혁안들이 당대 영국 사회의 기득권층과 정치인들에게 철저히 외면당하고 번번이 좌절되는 고통을 겪었다.",
+  "recovery": "좌절에 굴하지 않고 철학적 급진파를 결성하여 끊임없이 실용적인 대안을 제시하며 사회 제도의 근본적인 변화를 밀어붙였다.",
+  "lessons": [
+    {
+      "title": "최대 다수의 최대 행복이 도덕과 입법의 진정한 기초이다.",
+      "content": "개인의 이익뿐만 아니라 공동체 전체의 행복을 극대화하는 방향으로 판단하고 행동하도록 노력하십시오."
+    },
+    {
+      "title": "자연은 인류를 고통과 쾌락이라는 두 주권자의 지배하에 두었다.",
+      "content": "인간 본성에 내재된 쾌락의 추구와 고통의 회피를 이해하고, 이를 선한 목적을 위해 지혜롭게 통제하십시오."
+    },
+    {
+      "title": "동물에 대해 물어야 할 것은 '그들이 이성을 지녔는가?'가 아니라, '그들이 고통을 느낄 수 있는가?'이다.",
+      "content": "나와 다른 존재라 할지라도 그들이 겪는 고통에 공감하고 연민을 베푸는 따뜻한 시선을 가져야 합니다."
+    }
+  ],
+  "persona": "당신은 제러미 벤담이다.",
+  "imageUrl": "/images/giants/jeremy-bentham.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1748~1832)"
+},
+  {
+  "id": "223",
+  "name": "장 칼뱅",
+  "category": "philosophy",
+  "headline": "기독교 강요를 저술하고 제네바 종교개혁을 주도하여 개신교 신학의 기틀을 확립한 위대한 신학자이다.",
+  "shortDescription": "장 칼뱅의 일대기와 지혜",
+  "slug": "john-calvin",
+  "quote": "우리를 구원하는 것은 오직 신의 자비로운 은혜뿐이다.",
+  "pain": "초기 제네바에서의 급진적인 개혁 시도가 시민들의 거센 반발을 사 추방당했으며, 평생을 만성적인 질병과 반대파들의 공격에 시달려야 했다.",
+  "recovery": "불굴의 의지로 성서 연구와 목회에 헌신하며 제네바를 종교개혁의 국제적 중심지로 탈바꿈시켰다.",
+  "lessons": [
+    {
+      "title": "우리를 구원하는 것은 오직 신의 자비로운 은혜뿐이다.",
+      "content": "인간의 교만한 공로를 내세우기보다, 주어진 삶에 대해 절대적인 존재에게 겸허한 감사를 드리십시오."
+    },
+    {
+      "title": "모든 직업은 신으로부터 부름받은 거룩한 소명이다.",
+      "content": "자신이 맡은 세속적인 일상의 노동조차 신성한 가치를 지니고 있음을 깨닫고 최선을 다하십시오."
+    },
+    {
+      "title": "인간의 마음은 끊임없이 우상을 만들어내는 공장과 같다.",
+      "content": "진리가 아닌 헛된 욕망과 물질에 눈이 멀어 맹목적으로 추종하고 있지는 않은지 늘 자신을 돌아보아야 합니다."
+    }
+  ],
+  "persona": "당신은 장 칼뱅이다.",
+  "imageUrl": "/images/giants/john-calvin.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1509~1564)"
+},
+  {
+  "id": "310",
+  "name": "존 듀이",
+  "category": "philosophy",
+  "headline": "실용주의 철학을 완성하고 진보주의 교육 운동을 이끌어 미국 현대 사상에 가장 큰 영향을 미친 철학자이다.",
+  "shortDescription": "존 듀이의 일대기와 지혜",
+  "slug": "john-dewey",
+  "quote": "교육은 미래의 삶을 준비하는 것이 아니라, 그 자체로 온전한 삶이다.",
+  "pain": "자신의 진보적인 교육관과 철학이 기득권층 및 보수주의자들로부터 끝없는 오해와 맹렬한 비판의 대상이 되었다.",
+  "recovery": "이론적 논쟁에 멈추지 않고 평생 전 세계를 돌며 교육 개혁과 민주주의 수호라는 실천적 삶을 통해 자신의 철학을 증명했다.",
+  "lessons": [
+    {
+      "title": "교육은 미래의 삶을 준비하는 것이 아니라, 그 자체로 온전한 삶이다.",
+      "content": "배움을 먼 훗날을 위한 고통스러운 준비 과정으로 여기지 말고, 오늘 하루의 즐거운 경험으로 만드십시오."
+    },
+    {
+      "title": "우리는 행함으로써 배운다.",
+      "content": "지식은 수동적으로 암기할 때가 아니라, 호기심을 가지고 직접 부딪히고 실천할 때 비로소 내 것이 됩니다."
+    },
+    {
+      "title": "민주주의는 단순한 정치 형태를 넘어, 경험을 공유하며 살아가는 삶의 방식이다.",
+      "content": "타인과 소통하고 다름을 존중하며 협력해 나가는 태도야말로 진정한 민주주의의 출발점임을 기억해야 합니다."
+    }
+  ],
+  "persona": "당신은 존 듀이이다.",
+  "imageUrl": "/images/giants/john-dewey.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1859~1952)"
+},
+  {
+  "id": "167",
+  "name": "카를 마르크스",
+  "category": "philosophy",
+  "headline": "역사 유물론과 잉여가치론을 정립하여 현대 공산주의와 사회주의 운동의 사상적 토대를 마련한 철학자이자 정치경제학자이다.",
+  "shortDescription": "카를 마르크스의 일대기와 지혜",
+  "slug": "karl-marx",
+  "quote": "철학자들은 세계를 다양하게 해석해 왔을 뿐이다. 그러나 중요한 것은 세계를 변화시키는 것이다.",
+  "pain": "마르크스는 일생 동안 급진적인 사상으로 인해 조국에서 추방당하고, 런던의 빈민가에서 극심한 빈곤과 질병 속에서 자녀들을 잃는 끔찍한 비극을 겪었다.",
+  "recovery": "절망적인 상황 속에서도 프리드리히 엥겔스의 후원과 확고한 학문적 신념을 바탕으로 연구에 매진하여 자본주의의 구조를 파헤친 명저 '자본론'을 완성해냈다.",
+  "lessons": [
+    {
+      "title": "철학자들은 세계를 다양하게 해석해 왔을 뿐이다. 그러나 중요한 것은 세계를 변화시키는 것이다.",
+      "content": "단순히 이론적인 사유에 머물지 말고 현실의 모순을 직시하며 실천적인 행동에 나서십시오. 진정한 깨달음은 세상을 더 나은 방향으로 변화시키려는 구체적인 노력 속에서 비로소 완성됩니다."
+    },
+    {
+      "title": "만국의 노동자여, 단결하라! 당신들이 잃을 것은 쇠사슬뿐이요, 얻을 것은 전 세계이다.",
+      "content": "어려움에 처한 이들과 굳건히 연대하여 낡은 억압의 굴레를 과감하게 끊어내십시오. 두려움을 떨치고 하나로 뭉칠 때 우리는 더 큰 자유와 새로운 가능성을 쟁취할 수 있습니다."
+    },
+    {
+      "title": "인간의 의식이 그들의 존재를 규정하는 것이 아니라, 사회적 존재가 그들의 의식을 규정한다.",
+      "content": "우리를 둘러싼 환경과 물질적 조건이 생각의 뿌리가 됨을 깊이 이해하십시오. 자신의 한계를 넘어서기 위해서는 스스로가 몸담고 있는 현실의 토대와 구조부터 철저히 성찰하고 바꾸어나가야 합니다."
+    }
+  ],
+  "persona": "당신은 카를 마르크스이다.",
+  "imageUrl": "/images/giants/karl-marx.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1818~1883)"
+},
+  {
+  "id": "289",
+  "name": "카를 포퍼",
+  "category": "philosophy",
+  "headline": "반증주의와 비판적 합리주의를 주창하며 과학의 본질을 규명하고 열린 사회의 가치를 수호한 20세기 최고의 철학자이다.",
+  "shortDescription": "카를 포퍼의 일대기와 지혜",
+  "slug": "karl-popper",
+  "quote": "과학적 이론의 진정한 특징은 그것이 반박될 수 있고, 시험될 수 있으며, 거짓으로 판명될 수 있다는 데 있다.",
+  "pain": "유대계 혈통이라는 이유로 나치 독일의 반유대주의 폭압을 피해 뉴질랜드로 험난한 망명을 떠나야 했으며, 제2차 세계대전 중에는 고립된 환경에서 연구를 이어가는 어려움을 겪었다.",
+  "recovery": "학문적 고립과 전쟁의 참상 속에서도 전체주의를 비판하고 민주주의를 옹호하는 '열린 사회와 그 적들'을 집필하며 20세기 최고의 과학철학자이자 정치철학자로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "과학적 이론의 진정한 특징은 그것이 반박될 수 있고, 시험될 수 있으며, 거짓으로 판명될 수 있다는 데 있다.",
+      "content": "자신이 세운 가설이나 신념이 틀릴 수도 있음을 항상 겸허히 받아들이십시오. 진정한 발전은 비판을 두려워하지 않고 끊임없는 검증을 거치며 오류를 바로잡아 나가는 과정에서 이루어집니다."
+    },
+    {
+      "title": "우리가 무제한의 관용을 베풀어 불관용의 위협으로부터 관용적인 사회를 방어할 준비가 되어 있지 않다면, 관용적인 사회는 파괴되고 말 것이다.",
+      "content": "타인의 자유와 권리를 무너뜨리려는 맹목적인 폭력 앞에서는 단호하게 맞서십시오. 무비판적인 수용은 결국 자유 자체를 파괴하므로, 민주주의와 열린 사회를 지키기 위해 용기 있는 분별력을 갖추어야 합니다."
+    },
+    {
+      "title": "우리는 우리가 틀릴 수 있음을 인정하고 다른 사람들이 옳을 수 있음을 인정함으로써 진리에 더 가까이 다가갈 수 있다.",
+      "content": "다른 사람의 의견을 경청하고 독단적인 태도에서 벗어나십시오. 상호 존중을 바탕으로 한 이성적인 대화와 토론만이 우리의 편견을 깨뜨리고 세상을 더 나은 방향으로 나아가게 하는 원동력입니다."
+    }
+  ],
+  "persona": "당신은 카를 포퍼이다.",
+  "imageUrl": "/images/giants/karl-popper.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1902~1994)"
+},
+  {
+  "id": "290",
+  "name": "루트비히 비트겐슈타인",
+  "category": "philosophy",
+  "headline": "초기의 그림 이론과 후기의 언어 게임 이론으로 20세기 언어철학과 분석철학의 두 차례 패러다임 전환을 이끈 독보적인 철학자이다.",
+  "shortDescription": "루트비히 비트겐슈타인의 일대기와 지혜",
+  "slug": "ludwig-wittgenstein",
+  "quote": "말할 수 없는 것에 대해서는 침묵해야 한다.",
+  "pain": "거대한 부와 안락한 환경을 포기하고 산골 마을 교사와 정원사로 떠돌며 극심한 내적 방황과 고독에 시달렸다.",
+  "recovery": "일상 언어의 다양성을 깨닫고 자신의 초기 철학을 스스로 무너뜨리는 뼈아픈 성찰을 통해, 20세기 철학사를 뒤바꾼 '언어 게임' 이론을 정립하며 후기 철학을 완성해냈다.",
+  "lessons": [
+    {
+      "title": "말할 수 없는 것에 대해서는 침묵해야 한다.",
+      "content": "우리의 지식이나 언어로 명확히 규정할 수 없는 깊은 진리에 대해서는 섣부른 판단을 유보하십시오. 진정한 겸손은 스스로의 한계를 인정하고, 신비롭고 영적인 가치 앞에서는 고요히 침묵할 줄 아는 태도에서 시작됩니다."
+    },
+    {
+      "title": "내 언어의 한계가 곧 내 세계의 한계이다.",
+      "content": "생각을 표현하는 언어의 폭을 넓히기 위해 끊임없이 배우고 탐구하십시오. 우리가 사용하는 말의 깊이와 다양성이 곧 우리가 경험하고 이해할 수 있는 세상의 크기를 결정짓는 중요한 열쇠입니다."
+    },
+    {
+      "title": "단어의 의미는 그것이 언어 속에서 사용되는 방식이다.",
+      "content": "개념이나 규칙을 고정된 틀에 가두려 하지 말고, 사람들의 실제 삶 속에서 어떻게 쓰이는지 세심하게 관찰하십시오. 진정한 의미는 사람과 사람 사이의 살아있는 맥락과 관계 속에서 비로소 발견될 수 있습니다."
+    }
+  ],
+  "persona": "당신은 루트비히 비트겐슈타인이다.",
+  "imageUrl": "/images/giants/ludwig-wittgenstein.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1889~1951)"
+},
+  {
+  "id": "288",
+  "name": "마르틴 하이데거",
+  "category": "philosophy",
+  "headline": "존재론의 부활과 현상학적 사유를 통해 실존주의와 현대 철학에 지대한 영향을 미친 20세기 최고의 철학자 중 한 명이다.",
+  "shortDescription": "마르틴 하이데거의 일대기와 지혜",
+  "slug": "martin-heidegger",
+  "quote": "언어는 존재의 집이다.",
+  "pain": "아돌프 히틀러 정권 시절 나치에 부역했다는 치명적인 정치적 과오로 인해 종전 후 교수직을 박탈당하고 학계에서 깊은 불명예와 고립을 겪었다.",
+  "recovery": "은둔의 시간 속에서도 철학적 사색을 멈추지 않고 존재의 근원을 묻는 후기 철학으로 사상적 전환을 이루어내어 근대 기술 문명을 극복할 새로운 통찰을 제시했다.",
+  "lessons": [
+    {
+      "title": "언어는 존재의 집이다.",
+      "content": "우리가 무심코 내뱉는 말이 곧 우리 삶의 질과 존재의 깊이를 결정함을 잊지 마십시오. 아름답고 진실된 언어를 사용함으로써 스스로의 마음을 정화하고 타인과의 깊은 존재론적 교감을 나누어야 합니다."
+    },
+    {
+      "title": "인간은 죽음을 향한 존재이다.",
+      "content": "언젠가 찾아올 죽음의 불안을 회피하지 말고 용기 있게 직면하십시오. 삶의 유한함을 절실히 깨달을 때 비로소 타인의 시선에서 벗어나 온전히 나다운 본래적이고 주체적인 삶을 기획할 수 있습니다."
+    },
+    {
+      "title": "자신을 잃어버리는 가장 확실한 방법은 남들이 하는 대로 따라 하는 것이다.",
+      "content": "익명성과 대중의 유행 속에 숨어 자신의 고유한 목소리를 지워버리지 마십시오. 일상적인 무관심에서 깨어나 스스로 질문하고 성찰하며 자신만의 진정한 의미와 가치를 찾아가야 합니다."
+    }
+  ],
+  "persona": "당신은 마르틴 하이데거이다.",
+  "imageUrl": "/images/giants/martin-heidegger.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1889~1976)"
+},
+  {
+  "id": "222",
+  "name": "마르틴 루터",
+  "category": "philosophy",
+  "headline": "'95개조 반박문'을 통해 중세 가톨릭 교회의 타락을 고발하고 종교개혁을 촉발하여 프로테스탄티즘의 창시자가 된 신학자이다.",
+  "shortDescription": "마르틴 루터의 일대기와 지혜",
+  "slug": "martin-luther",
+  "quote": "비록 내일 세계의 종말이 온다 할지라도, 나는 오늘 한 그루의 사과나무를 심겠다.",
+  "pain": "거대한 가톨릭 교회의 타락에 맞서 진리를 선포하다가 교황으로부터 파문을 당하고 제국법에 의해 처형당할 수 있는 치명적인 암살 위협에 처했다.",
+  "recovery": "보름스 제국 의회에서 죽음의 공포 앞에서도 신앙의 양심을 굽히지 않았으며, 바르트부르크 성에 숨어 지내는 동안 신약성경을 독일어로 번역하여 영적 자유의 토대를 마련했다.",
+  "lessons": [
+    {
+      "title": "비록 내일 세계의 종말이 온다 할지라도, 나는 오늘 한 그루의 사과나무를 심겠다.",
+      "content": "어두운 절망과 알 수 없는 미래의 두려움 앞에서도 결코 흔들리지 말고 당신에게 주어진 오늘 하루의 의무에 충실하십시오. 묵묵히 뿌린 작은 희망의 씨앗이 결국 세상을 구원하는 가장 위대한 힘이 됩니다."
+    },
+    {
+      "title": "나의 양심은 하나님의 말씀에 사로잡혀 있습니다. 나는 어떤 것도 철회할 수 없고 또 그럴 생각도 없습니다. 양심에 반하여 행동하는 것은 안전하지도 옳지도 않기 때문입니다.",
+      "content": "거대한 권력과 다수의 억압 앞에서도 진리라고 믿는 바를 끝까지 지켜내십시오. 외적인 타협이 일시적인 평안을 줄 수는 있지만, 진정한 자유와 존엄은 자신의 내면 깊은 양심의 목소리에 온전히 순종할 때 주어집니다."
+    },
+    {
+      "title": "음악은 하나님의 훌륭한 선물이자 축복이며, 사탄을 쫓아내고 사람들을 행복하게 만든다.",
+      "content": "고난과 시련 속에서 영혼이 지치고 마음이 무거울 때 예술과 음악이 주는 치유의 힘에 기대어 보십시오. 아름다운 선율은 부정적인 감정을 몰아내고 내면의 기쁨과 영적인 생명력을 다시금 회복시켜 줍니다."
+    }
+  ],
+  "persona": "당신은 마르틴 루터이다.",
+  "imageUrl": "/images/giants/martin-luther.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1483~1546)"
+},
+  {
+  "id": "80",
+  "name": "몽테스키외",
+  "category": "philosophy",
+  "headline": "근대 정치학의 토대인 삼권분립 이론을 확립하여 인류의 정치적 자유와 민주주의 체제 발전에 기여한 위대한 계몽주의 사상가이다.",
+  "shortDescription": "몽테스키외의 일대기와 지혜",
+  "slug": "montesquieu",
+  "quote": "권력을 가진 사람은 누구나 그것을 남용하기 마련이다.",
+  "pain": "당대 사회의 모순과 절대왕정을 비판한 저술 활동으로 인해 종교계와 보수 세력으로부터 탄압을 받았으며, 대표작인 《법의 정신》은 교황청에 의해 금서로 지정되는 시련을 겪었다.",
+  "recovery": "하지만 그는 비판에 굴하지 않고 논리적인 변론서를 집필하여 자신의 사상을 굳건히 방어했으며, 권력 분립이라는 위대한 정치 이론을 확립하여 근대 민주주의의 초석을 다졌다.",
+  "lessons": [
+    {
+      "title": "권력을 가진 사람은 누구나 그것을 남용하기 마련이다.",
+      "content": "인간의 본성상 권력은 독점될 때 필연적으로 부패하고 억압적으로 변질됨을 경계하십시오. 건강한 조직과 사회를 유지하기 위해서는 반드시 권력의 분산과 상호 견제 장치를 마련하여 오남용을 방지해야 합니다."
+    },
+    {
+      "title": "불필요한 법률은 필요한 법률을 약화시킨다.",
+      "content": "지나치게 많고 복잡한 규제는 오히려 핵심적인 규칙의 권위와 실효성을 떨어뜨림을 명심하십시오. 본질에 집중하여 가장 중요하고 필요한 최소한의 원칙을 세우고 이를 명확하게 집행하는 데 집중하십시오."
+    },
+    {
+      "title": "참된 자유란 우리가 원하는 것을 할 수 있는 데 있는 것이 아니라, 우리가 원해야만 하는 것을 할 수 있는 데 있다.",
+      "content": "진정한 자유는 방종이나 무법 상태가 아니라, 이성과 도덕이 지시하는 바를 법의 테두리 안에서 올바르게 실천할 수 있는 권리임을 깨달으십시오. 책임감과 이성에 기반한 성숙한 자유의 가치를 추구하십시오."
+    }
+  ],
+  "persona": "당신은 몽테스키외이다.",
+  "imageUrl": "/images/giants/montesquieu.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1689~1755)"
+},
+  {
+  "id": "57",
+  "name": "프타호테프",
+  "category": "philosophy",
+  "headline": "인류 역사상 현존하는 가장 오래된 철학적 지혜의 문헌을 남겨 고대 이집트의 국정 운영과 도덕적 가르침의 뼈대를 세운 전설적인 재상이다.",
+  "shortDescription": "프타호테프의 일대기와 지혜",
+  "slug": "ptahhotep",
+  "quote": "말할 때는 네가 진정으로 문제를 해결할 수 있을 때에만 하라.",
+  "pain": "국정의 정점에서 무소불위의 권력을 행사하던 재상으로서, 고령에 접어들어 급격한 육체적 쇠약함과 통치 능력의 한계를 뼈저리게 실감했다.",
+  "recovery": "하지만 그는 권력에 집착하지 않고 스스로 자리에서 물러나 후계자를 양성하는 한편, 인류 역사상 가장 오래된 지혜의 지침서인 《프타호테프의 교훈》을 저술하여 지적 유산을 남기는 것으로 노년의 한계를 극복했다.",
+  "lessons": [
+    {
+      "title": "말할 때는 네가 진정으로 문제를 해결할 수 있을 때에만 하라.",
+      "content": "섣부른 조언이나 가벼운 말 한마디가 불러올 수 있는 심각한 파장을 항상 주의하십시오. 충분히 상황을 파악하고 실질적인 대안을 제시할 수 있는 준비가 되었을 때에만 신중하게 입을 여십시오."
+    },
+    {
+      "title": "네가 큰 자리에 올랐거든 오만함을 버리고, 오직 경청하는 자비로운 태도를 보여라.",
+      "content": "권력과 지위가 높아질수록 타인의 조언을 가볍게 여기는 오만함의 함정에 빠지기 쉽다는 것을 명심하십시오. 진정한 지도자의 덕목은 아래 사람들의 고충을 열린 마음으로 듣고 공감하는 경청의 자세에 있습니다."
+    },
+    {
+      "title": "탐욕이라는 질병을 피하라. 그것은 치료할 수 없는 질병이며 절친한 친구를 원수로 만든다.",
+      "content": "물질에 대한 끝없는 집착과 욕심이 결국 신뢰와 인간관계를 모두 파괴하는 가장 치명적인 독임을 깨달으십시오. 일시적인 부유함보다는 올바른 성품과 흔들리지 않는 도덕성을 최우선 가치로 삼으십시오."
+    }
+  ],
+  "persona": "당신은 프타호테프이다.",
+  "imageUrl": "/images/giants/ptahhotep.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 25세기의 거인 (B.C. 2500경~미상)"
+},
+  {
+  "id": "264",
+  "name": "료칸",
+  "category": "philosophy",
+  "headline": "세속적 명리를 배격하고 극한의 빈곤 속에서도 어린아이 같은 맑은 영혼을 노래한 일본 역사상 가장 위대한 조동종 선승이자 시인이다.",
+  "shortDescription": "료칸의 일대기와 지혜",
+  "slug": "ryokan",
+  "quote": "도둑이 남겨두고 갔구나, 창가의 저 달을.",
+  "pain": "명문가의 장남이라는 안정된 삶의 궤도를 버리고 출가한 후, 특정 사찰에 머물며 편안한 노후를 보내는 대신 극한의 빈곤 속에서 끝없는 유랑과 탁발을 이어가야 했다.",
+  "recovery": "그러나 그는 그 지독한 가난과 굶주림을 정신적 자유를 얻기 위한 수행의 과정으로 온전히 긍정하며, 아이들과 뛰놀고 시를 짓는 천진난만한 삶을 통해 불교의 참된 해탈을 몸소 증명했다.",
+  "lessons": [
+    {
+      "title": "도둑이 남겨두고 갔구나, 창가의 저 달을.",
+      "content": "예상치 못한 상실이나 불운 앞에서도 자신이 이미 가지고 있는 본질적인 아름다움과 내면의 평화를 발견하는 여유를 가지십시오. 외부의 물질적 조건에 휘둘리지 않는 초연한 마음가짐을 기르십시오."
+    },
+    {
+      "title": "하루에 다섯 홉의 쌀이면 족하니, 그 밖의 것은 내 알 바 아니다.",
+      "content": "삶을 유지하는 데 필요한 최소한의 것에 만족하는 소박함의 진정한 가치를 깊이 깨달으십시오. 불필요한 욕망을 덜어낼 때 비로소 진정한 내면의 풍요로움과 영적 자유를 온전히 누릴 수 있습니다."
+    },
+    {
+      "title": "아이들과 노느라 해 지는 줄도 몰랐네.",
+      "content": "권위나 사회적 지면을 내려놓고 어린아이와 같은 맑고 순수한 영혼으로 세상을 편견 없이 대하십시오. 거창한 목적을 좇기보다는 일상 속 소박한 순간들에 온전히 몰입하는 기쁨을 찾으십시오."
+    }
+  ],
+  "persona": "당신은 료칸이다.",
+  "imageUrl": "/images/giants/ryokan.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1758~1831)"
+},
+  {
+  "id": "243",
+  "name": "소진",
+  "category": "philosophy",
+  "headline": "전국시대의 지정학적 위기를 꿰뚫어 보고 다자간 군사 동맹을 창안하여 진나라의 팽창을 막아낸 천재적인 외교관이자 종횡가이다.",
+  "shortDescription": "소진의 일대기와 지혜",
+  "slug": "su-qin",
+  "quote": "가난할 때는 부모마저 자식을 대수롭지 않게 여기나, 뜻을 얻고 나면 친척조차도 두려워하는 것이 세상 인심이다.",
+  "pain": "귀곡자 문하에서 외교술을 배우고 세상에 나왔으나 초기의 잇단 유세 실패로 인해 고향으로 돌아와 가족들에게마저 처절한 조롱과 냉대를 받는 극심한 수모를 겪었다.",
+  "recovery": "하지만 그는 뼈저린 모멸감에 굴복하지 않고 졸음을 쫓기 위해 송곳으로 허벅지를 찌르는 맹렬한 투지로 학문에 정진하여, 마침내 여섯 나라를 연합시키는 전무후무한 합종 전략을 성공시켰다.",
+  "lessons": [
+    {
+      "title": "가난할 때는 부모마저 자식을 대수롭지 않게 여기나, 뜻을 얻고 나면 친척조차도 두려워하는 것이 세상 인심이다.",
+      "content": "세상의 평가란 오로지 성공과 실패라는 결과에 따라 냉혹하게 변하는 얄팍한 것임을 냉정하게 직시하십시오. 타인의 시선이나 조롱에 일희일비하지 말고 오직 스스로의 실력을 묵묵히 기르는 데 온 힘을 쏟으십시오."
+    },
+    {
+      "title": "만약 나에게 낙양 근교에 비옥한 밭 두 마지기만 있었더라면 어찌 여섯 나라 재상의 인장을 찰 수 있었겠는가.",
+      "content": "현재의 극한 결핍과 고통이 오히려 평범한 삶에 안주하려는 나약함을 끊어내고 가장 위대한 성취를 이루어내는 강력한 원동력이 될 수 있음을 믿고 나아가십시오. 시련을 웅대한 도약의 발판으로 적극 활용하십시오."
+    },
+    {
+      "title": "한 나라를 온전히 보존하여 이기는 것이 최상이고, 적국을 깨뜨려 이기는 것은 차선이다.",
+      "content": "불필요한 충돌과 물리적인 파괴를 통해 얻어낸 승리는 결국 자신에게도 돌이킬 수 없는 피해를 남김을 명심하십시오. 무력에 의존하기 전에 치밀한 외교와 지략으로 싸우지 않고도 주도권을 쥐는 최선의 전략을 고민하십시오."
+    }
+  ],
+  "persona": "당신은 소진이다.",
+  "imageUrl": "/images/giants/su-qin.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 4세기의 거인 (B.C. 380~B.C. 284)"
+},
+  {
+  "id": "26",
+  "name": "스ጋ와라 노 미치자네",
+  "category": "philosophy",
+  "headline": "당대 최고의 학자이자 정치가로서 국정 개혁을 이끌었으나 억울한 누명으로 죽은 뒤 신격화되어 일본 학문의 신으로 추앙받는 인물이다.",
+  "shortDescription": "스ጋ와라 노 미치자네의 일대기와 지혜",
+  "slug": "sugawara-no-michizane",
+  "quote": "동풍이 불면 향기를 보내다오, 매화꽃이여. 주인이 없다고 하여 봄을 잊어서는 안 된다.",
+  "pain": "뛰어난 학문적 성취와 황제의 신임을 바탕으로 국가 서열 2위인 우대신까지 올랐으나, 후지와라 가문의 음모와 모함에 휘말려 하루아침에 대역 죄인으로 전락하여 큐슈의 척박한 다자이후로 유배되었다.",
+  "recovery": "그는 극심한 궁핍과 고독 속에서도 끝까지 원망에 휩싸이지 않고 자신의 굳건한 결백과 덴노를 향한 흔들림 없는 충절을 피를 토하는 심정으로 한시에 담아내며 불멸의 학자적 양심을 지켜냈다.",
+  "lessons": [
+    {
+      "title": "동풍이 불면 향기를 보내다오, 매화꽃이여. 주인이 없다고 하여 봄을 잊어서는 안 된다.",
+      "content": "어떠한 억울한 시련이나 비극적인 운명 앞에서도 자신의 본분과 아름다운 심성을 결코 잃지 마십시오. 외부의 핍박에 굴복하지 않고 내면의 깊은 절개와 고귀한 품격을 묵묵히 지켜내는 굳건한 태도를 가지십시오."
+    },
+    {
+      "title": "하늘의 뜻을 알기에 사람을 원망하지 않는다.",
+      "content": "도저히 이해할 수 없는 불행이나 부당한 처우에 직면했을 때, 타인에 대한 증오나 분노에 에너지를 소모하지 마십시오. 스스로의 떳떳함과 양심을 하늘에 기대어 마음의 평정과 단단한 중심을 지키십시오."
+    },
+    {
+      "title": "진심으로 정성을 다하는 길이라면, 신이 굳이 돕지 않아도 스스로 빛이 나리라.",
+      "content": "자신이 믿는 올바른 길과 진리를 향해 나아갈 때는 외부의 보상이나 기적적인 구원을 바라지 말고 오직 흔들림 없이 정진하십시오. 거짓 없는 순수한 정성과 치열한 노력 그 자체가 곧 가장 위대한 결과임을 확신하십시오."
+    }
+  ],
+  "persona": "당신은 스ጋ와라 노 미치자네이다.",
+  "imageUrl": "/images/giants/sugawara-no-michizane.jpg",
+  "dnaCode": "LRHI",
+  "era": "9세기의 거인 (845~903)"
+},
+  {
+  "id": "339",
+  "name": "토머스 홉스",
+  "category": "philosophy",
+  "headline": "사회계약론을 확립하여 근대 정치철학의 토대를 마련한 영국의 철학자이다.",
+  "shortDescription": "토머스 홉스의 일대기와 지혜",
+  "slug": "thomas-hobbes",
+  "quote": "만인의 만인에 대한 투쟁",
+  "pain": "영국의 내전과 정치적 혼란 속에서 끊임없는 암살 위협과 망명 생활을 견뎌야 했다.",
+  "recovery": "두려움을 학문적 원동력으로 승화시켜, 강력한 국가 권력이 평화를 보장한다는 사회계약론을 완성했다.",
+  "lessons": [
+    {
+      "title": "만인의 만인에 대한 투쟁",
+      "content": "자연 상태에서 인간은 본능적으로 이기적이며 생존을 위해 갈등할 수밖에 없음을 이해하십시오. 규칙과 제도가 없는 곳에서는 결국 파멸만이 남게 됩니다."
+    },
+    {
+      "title": "자연 상태에서 인간의 삶은 고독하고 가난하며 끔찍하고 잔인하며 짧다.",
+      "content": "무질서가 가져오는 참혹한 결과를 직시하십시오. 강력한 권위와 법질서야말로 개인의 생명과 재산을 보호하는 최소한의 울타리입니다."
+    },
+    {
+      "title": "지혜를 얻기 위해서는 책이 아니라 인간을 읽어야 한다.",
+      "content": "이론적 지식에 갇히지 말고 인간의 본성과 심리를 깊이 관찰하십시오. 진정한 통찰은 타인과 자신에 대한 철저한 이해에서 비롯됩니다."
+    }
+  ],
+  "persona": "당신은 토머스 홉스이다.",
+  "imageUrl": "/images/giants/thomas-hobbes.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1588~1679)"
+},
+  {
+  "id": "8",
+  "name": "의상",
+  "category": "philosophy",
+  "headline": "해동 화엄종을 창시하고 한국 불교의 사상적 깊이를 완성한 신라의 고승이다.",
+  "shortDescription": "의상의 일대기와 지혜",
+  "slug": "uisang",
+  "quote": "일중일체다중일 일즉일체다즉일 (一中一切多中一 一卽一切多卽一)",
+  "pain": "당나라 유학 시절, 외국인으로서의 한계와 끊임없는 학문적 난관에 부딪혔으며, 신라로 돌아와서는 전란의 위기와 권력의 견제를 받았다.",
+  "recovery": "지극한 구도심으로 화엄 사상의 진수를 깨닫고, 귀국 후에는 왕실의 억압을 피하면서도 백성들에게 평등한 구원의 메시지를 전파했다.",
+  "lessons": [
+    {
+      "title": "일중일체다중일 일즉일체다즉일 (一中一切多中一 一卽一切多卽一)",
+      "content": "하나 속에 모든 것이 있고 모든 것 속에 하나가 있음을 깨달으십시오. 개별적인 존재는 전체와 유기적으로 연결되어 있으며, 상호 의존적인 관계 속에서만 참된 의미를 가집니다."
+    },
+    {
+      "title": "마음이 번뇌에서 벗어나면 그 자리가 곧 부처의 세계이다.",
+      "content": "외부의 절대자를 찾기보다 스스로의 마음을 청정하게 유지하는 데 집중하십시오. 진정한 깨달음과 평화는 먼 곳이 아니라 지금 여기, 여러분의 내면에 존재합니다."
+    },
+    {
+      "title": "이 세상 모든 존재는 서로 걸림이 없이 원융무애하게 얽혀 있다.",
+      "content": "자신과 타인, 혹은 자연 사이의 장벽을 허물고 조화롭게 살아가십시오. 모든 갈등과 대립은 상호 연관성을 망각한 편협한 시각에서 비롯됩니다."
+    }
+  ],
+  "persona": "당신은 의상이다.",
+  "imageUrl": "/images/giants/uisang.jpg",
+  "dnaCode": "LRHI",
+  "era": "7세기의 거인 (625~702)"
+},
+  {
+  "id": "247",
+  "name": "왕양명",
+  "category": "philosophy",
+  "headline": "지행합일과 심즉리를 주창하여 성리학의 한계를 극복하고 양명학을 창시한 명나라의 철학자이다.",
+  "shortDescription": "왕양명의 일대기와 지혜",
+  "slug": "wang-yangming",
+  "quote": "지행합일 (知行合一)",
+  "pain": "정직한 상소로 인해 황제의 노여움을 사 혹독한 태형을 당하고, 험난한 변방 귀주(Guizhou) 용장(Longchang)으로 유배되었다.",
+  "recovery": "열악한 유배지에서의 극한 고통 속에서 내면을 성찰하여, 마침내 외부의 사물이 아닌 마음속에 진리가 있다는 대오각성에 이르렀다.",
+  "lessons": [
+    {
+      "title": "지행합일 (知行合一)",
+      "content": "아는 것과 행하는 것이 본래 하나임을 명심하십시오. 실천이 따르지 않는 지식은 거짓된 앎이며, 참된 지식은 반드시 행동으로 드러나야 합니다."
+    },
+    {
+      "title": "심즉리 (心卽理)",
+      "content": "모든 이치와 진리는 외부의 사물이 아니라 오직 자신의 마음속에 갖추어져 있음을 믿으십시오. 밖에서 구하려 하지 말고 스스로의 내면을 돌아보는 성찰을 시작하십시오."
+    },
+    {
+      "title": "치양지 (致良知)",
+      "content": "누구나 태어날 때부터 선악을 구분할 수 있는 양지를 가지고 있으니, 이를 실생활에서 온전히 발휘하십시오. 마음의 거울에 낀 먼지를 닦아내듯 일상에서 도덕적 판단을 실천하는 것이 수행입니다."
+    }
+  ],
+  "persona": "당신은 왕양명이다.",
+  "imageUrl": "/images/giants/wang-yangming.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1472~1529)"
+},
+  {
+  "id": "7",
+  "name": "원효",
+  "category": "philosophy",
+  "headline": "화쟁 사상과 일심 사상으로 불교의 대중화와 사상적 통합을 이룩한 신라의 위대한 사상가이다.",
+  "shortDescription": "원효의 일대기와 지혜",
+  "slug": "wonhyo",
+  "quote": "일체유심조 (一切唯心造)",
+  "pain": "당나라 유학 길에서 해골에 든 물을 마신 사건을 통해 극심한 번뇌와 학문적 회의감에 휩싸였다.",
+  "recovery": "모든 것이 마음에 달려 있다는 일체유심조의 진리를 깨닫고, 유학을 포기한 채 스스로의 길을 개척하며 대중 속으로 뛰어들었다.",
+  "lessons": [
+    {
+      "title": "일체유심조 (一切唯心造)",
+      "content": "세상 모든 일과 현상은 오로지 여러분의 마음먹기에 달려 있음을 깊이 통찰하십시오. 외부의 조건에 얽매이지 않고 마음을 다스릴 때 비로소 진정한 자유를 얻게 됩니다."
+    },
+    {
+      "title": "마음이 생겨나면 여러 가지 법이 생겨나고, 마음이 멸하면 해골의 물과 맑은 물이 다르지 않다.",
+      "content": "고정된 실체에 대한 집착을 버리고 만물을 있는 그대로 바라보는 지혜를 기르십시오. 분별하는 마음을 내려놓을 때 사물의 참모습을 발견할 수 있습니다."
+    },
+    {
+      "title": "걸림이 없는 사람은 단번에 생사를 벗어난다.",
+      "content": "형식과 규범에 얽매이기보다 본질적인 진리를 추구하며 거리낌 없이 살아가십시오. 무애의 삶 속에서 진정한 평안과 해탈을 경험하게 될 것입니다."
+    }
+  ],
+  "persona": "당신은 원효이다.",
+  "imageUrl": "/images/giants/wonhyo.jpg",
+  "dnaCode": "LRHI",
+  "era": "7세기의 거인 (617~686)"
+},
+  {
+  "id": "5",
+  "name": "이황 (퇴계)",
+  "category": "philosophy",
+  "headline": "조선 성리학을 집대성하고 이기호발설을 주창하여 한국 유학의 고유한 학풍을 확립한 대학자이다.",
+  "shortDescription": "이황 (퇴계)의 일대기와 지혜",
+  "slug": "yi-hwang",
+  "quote": "마음은 한 몸의 주재이며, 경(敬)은 한 마음의 주재이다.",
+  "pain": "거듭되는 사화와 치열한 당쟁 속에서 목숨을 위협받았으며, 학문과 벼슬 사이에서 깊은 내적 갈등을 겪었다.",
+  "recovery": "권력의 소용돌이를 피해 낙향하여 후학 양성과 학문 연구에만 매진함으로써, 조선 성리학의 흔들리지 않는 뿌리를 내렸다.",
+  "lessons": [
+    {
+      "title": "마음은 한 몸의 주재이며, 경(敬)은 한 마음의 주재이다.",
+      "content": "항상 내면을 삼가고 경건한 마음가짐(경)을 유지하는 데 힘쓰십시오. 자기 자신을 엄격하게 다스릴 때 비로소 외부의 유혹과 흔들림에서 벗어날 수 있습니다."
+    },
+    {
+      "title": "앎과 행함은 수레의 두 바퀴와 같고 새의 두 날개와 같다.",
+      "content": "학문을 통해 이치를 깨닫는 것과 일상생활에서 그것을 실천하는 것을 결코 분리하지 마십시오. 배우고 행동하는 것이 조화를 이뤄야 참된 군자의 길을 걸을 수 있습니다."
+    },
+    {
+      "title": "이치(理)가 발하여 기(氣)가 그것을 따르는 것이 사단이다.",
+      "content": "인간의 본성에 내재된 선한 도덕적 감정을 소중히 여기고 기르십시오. 순수한 선의지를 발현하여 이기적인 욕망을 제어하는 것이 올바른 삶의 방향입니다."
+    }
+  ],
+  "persona": "당신은 이황 (퇴계)이다.",
+  "imageUrl": "/images/giants/yi-hwang.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1501~1570)"
+},
+  {
+  "id": "6",
+  "name": "이이 (율곡)",
+  "category": "philosophy",
+  "headline": "조선 중기의 위대한 성리학자이자, 국가 위기를 예견하고 개혁을 주도한 실천적 경세가.",
+  "shortDescription": "이이 (율곡)의 일대기와 지혜",
+  "slug": "yi-i",
+  "quote": "뜻을 세우는 것보다 더 중요한 것은 없고, 실천하는 것보다 더 어려운 것은 없다.",
+  "pain": "어머니 신사임당의 이른 죽음으로 큰 방황을 겪었으며, 관직 진출 후에는 그의 급진적인 개혁안들이 기득권층의 반대에 부딪혀 좌절되는 아픔을 겪었다.",
+  "recovery": "방황을 학문적 성찰로 승화시켜 성리학의 깊이를 더했고, 끊임없는 상소와 저술 활동을 통해 자신의 개혁 의지를 후대에까지 전파했다.",
+  "lessons": [
+    {
+      "title": "뜻을 세우는 것보다 더 중요한 것은 없고, 실천하는 것보다 더 어려운 것은 없다.",
+      "content": "원대한 목표를 세우는 것에 그치지 말고, 이를 일상 속에서 꾸준히 실천으로 옮기는 행동력을 기르십시오."
+    },
+    {
+      "title": "학문이란 일상생활의 평범한 일 속에서 옳은 길을 찾는 것이다.",
+      "content": "거창하고 먼 곳에서 진리를 찾으려 하지 말고, 매일의 삶 속에서 바른 도리를 찾아 실천하십시오."
+    },
+    {
+      "title": "백성은 국가의 근본이니, 근본이 튼튼해야 나라가 평안하다.",
+      "content": "어떤 조직이든 그 구성원들을 가장 소중히 여기고 돌볼 때 비로소 전체가 안정되고 발전할 수 있음을 기억하십시오."
+    }
+  ],
+  "persona": "당신은 이이 (율곡)이다.",
+  "imageUrl": "/images/giants/yi-i.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1536~1584)"
+},
+  {
+  "id": "338",
+  "name": "제논",
+  "category": "philosophy",
+  "headline": "불의의 난파 사고로 모든 것을 잃은 후 내면의 평화를 찾는 스토아 학파를 창시한 고대 그리스의 위대한 철학자.",
+  "shortDescription": "제논의 일대기와 지혜",
+  "slug": "zeno-of-citium",
+  "quote": "우리에게 두 개의 귀와 하나의 입이 있는 이유는, 말하는 것보다 두 배로 더 많이 듣기 위해서다.",
+  "pain": "젊은 시절 끔찍한 난파 사고를 당해 전 재산을 잃고 이국 땅 아테네에 빈털터리로 남겨지는 절망적인 상황에 처했다.",
+  "recovery": "물질적 상실에 굴복하지 않고 이를 계기로 철학에 입문하여 내면의 덕을 추구하는 스토아 학파를 창시, 서양 철학사의 위대한 거인으로 거듭났다.",
+  "lessons": [
+    {
+      "title": "우리에게 두 개의 귀와 하나의 입이 있는 이유는, 말하는 것보다 두 배로 더 많이 듣기 위해서다.",
+      "content": "자신의 주장을 내세우기 전에 타인의 의견과 세상의 이치를 주의 깊게 경청하는 겸손한 태도를 가지십시오."
+    },
+    {
+      "title": "행복은 자연의 흐름에 순응하며 이성에 따라 사는 삶에서 비롯된다.",
+      "content": "통제할 수 없는 외부 상황에 집착하지 말고, 스스로 통제 가능한 내면의 이성과 도덕성에 집중하여 평정을 찾으십시오."
+    },
+    {
+      "title": "운명은 순응하는 자를 이끌고, 거부하는 자를 질질 끌고 간다.",
+      "content": "피할 수 없는 삶의 시련이나 역경을 회피하려 하지 말고, 담연히 받아들이며 그 속에서 의미를 발견해 나가십시오."
+    }
+  ],
+  "persona": "당신은 제논이다.",
+  "imageUrl": "/images/giants/zeno-of-citium.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 4세기의 거인 (기원전 334년~기원전 262년)"
+},
+  {
+  "id": "244",
+  "name": "장의",
+  "category": "philosophy",
+  "headline": "탁월한 언변과 외교적 지략으로 연횡책을 완성하여 진나라의 천하 통일 기반을 닦은 전국시대 최고의 전략가.",
+  "shortDescription": "장의의 일대기와 지혜",
+  "slug": "zhang-yi",
+  "quote": "내 혀가 아직 남아 있다면, 천하를 움직이는 데 그것으로 충분하다.",
+  "pain": "초나라에서 도둑으로 몰려 죽기 직전까지 가혹한 매질을 당하는 굴욕을 겪었고, 이후에도 각국의 끊임없는 암살 위협과 견제에 시달렸다.",
+  "recovery": "신체적 고통 앞에서도 세 치 혀만 있으면 천하를 얻을 수 있다는 굳은 신념을 잃지 않았고, 이를 바탕으로 진나라의 연횡책을 완성하여 당대 최고의 외교가로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "내 혀가 아직 남아 있다면, 천하를 움직이는 데 그것으로 충분하다.",
+      "content": "외부의 시련으로 많은 것을 잃더라도, 자신만의 핵심적인 능력과 신념이 꺾이지 않았다면 다시 일어설 수 있음을 명심하십시오."
+    },
+    {
+      "title": "이익으로 맺어진 관계는 이익이 다하면 끊어지니, 상대의 가장 절박한 욕망을 읽어내야 한다.",
+      "content": "인간관계와 비즈니스에서 겉으로 드러난 명분보다 상대방의 숨겨진 이해관계와 욕구를 정확히 파악하여 대처하십시오."
+    },
+    {
+      "title": "싸우지 않고 외교로 적의 동맹을 흩어지게 하는 것이 가장 뛰어난 전략이다.",
+      "content": "불필요한 충돌과 소모전을 피하고, 대화와 협상을 통해 상황을 유리하게 이끌어가는 지혜를 발휘하십시오."
+    }
+  ],
+  "persona": "당신은 장의이다.",
+  "imageUrl": "/images/giants/zhang-yi.jpg",
+  "dnaCode": "LRHI",
+  "era": "기원전 4세기의 거인 (기원전 329년 이전~기원전 309년)"
+},
+  {
+  "id": "246",
+  "name": "주희",
+  "category": "philosophy",
+  "headline": "이기론을 완성하고 사서를 새롭게 해석하여 성리학을 집대성한 동아시아 사상계의 절대적 거인.",
+  "shortDescription": "주희의 일대기와 지혜",
+  "slug": "zhu-xi",
+  "quote": "배움은 마치 물을 거슬러 노를 젓는 배와 같아서, 앞으로 나아가지 않으면 반드시 뒤로 밀려난다.",
+  "pain": "강직한 성품과 굽히지 않는 정치적 신념으로 인해 평생 파직과 좌천을 반복했으며, 말년에는 그의 학문이 '위학'으로 몰리는 혹독한 사화와 정치적 탄압을 받았다.",
+  "recovery": "정치적 핍박 속에서도 결코 학문적 신념을 타협하지 않고 사서집주 등 방대한 저술과 후학 양성에 매진하여 동아시아 사상의 절대적 표준을 완성해 냈다.",
+  "lessons": [
+    {
+      "title": "배움은 마치 물을 거슬러 노를 젓는 배와 같아서, 앞으로 나아가지 않으면 반드시 뒤로 밀려난다.",
+      "content": "학문과 인격 수양에는 멈춤이 있을 수 없으니, 하루하루 게으름 없이 꾸준히 정진하여 스스로를 발전시키십시오."
+    },
+    {
+      "title": "사물의 이치를 궁구하여 앎을 지극히 하라. (격물치지)",
+      "content": "편견이나 얕은 지식에 만족하지 말고, 사물의 본질과 이치를 깊이 파고들어 참된 진리를 탐구하는 자세를 가지십시오."
+    },
+    {
+      "title": "마음을 보존하고 본성을 기르며, 하늘의 이치를 간직하고 인간의 욕심을 없애라. (존심양성 존천리멸인욕)",
+      "content": "세속적인 탐욕과 이기심에 흔들리지 말고, 내면에 깃든 선한 본성과 도덕적 양심을 굳건히 지켜 나가십시오."
+    }
+  ],
+  "persona": "당신은 주희이다.",
+  "imageUrl": "/images/giants/zhu-xi.jpg",
+  "dnaCode": "LRHI",
+  "era": "12세기의 거인 (1130~1200)"
+},
+  {
+  "id": "157",
+  "name": "A. P. J. 압둘 칼람",
+  "category": "science",
+  "headline": "가난을 딛고 인도의 우주 및 미사일 개발을 이끌었으며, 청년들에게 희망을 심어준 '국민의 대통령'.",
+  "shortDescription": "A. P. J. 압둘 칼람의 일대기와 지혜",
+  "slug": "a-p-j-abdul-kalam",
+  "quote": "꿈은 당신이 잠잘 때 보는 것이 아니라, 당신을 잠들지 못하게 하는 그 무엇이다.",
+  "pain": "어린 시절 가난으로 인해 신문을 배달하며 학업을 이어가야 했고, 인도의 우주 및 미사일 개발 과정에서 선진국들의 엄격한 기술 제재와 수많은 발사 실패의 뼈아픈 좌절을 경험했다.",
+  "recovery": "불굴의 의지와 철저한 원인 분석으로 모든 기술적 난관을 독자적으로 극복해 내며 인도를 세계적인 우주 및 국방 강국으로 우뚝 세웠다.",
+  "lessons": [
+    {
+      "title": "꿈은 당신이 잠잘 때 보는 것이 아니라, 당신을 잠들지 못하게 하는 그 무엇이다.",
+      "content": "가슴을 뛰게 하고 당신을 끊임없이 행동하게 만드는 진정한 열정과 목표를 발견하고 그것을 향해 나아가십시오."
+    },
+    {
+      "title": "실패(FAIL)란 '첫 번째 배움의 시도(First Attempt In Learning)'를 의미할 뿐이다.",
+      "content": "실패를 두려워하거나 좌절하지 말고, 그것을 성공으로 가기 위한 귀중한 배움의 과정으로 여기고 다시 도전하십시오."
+    },
+    {
+      "title": "태양처럼 빛나고 싶다면, 먼저 태양처럼 불타올라야 한다.",
+      "content": "원하는 영광과 성공을 얻기 위해서는 그에 상응하는 치열한 노력과 뼈를 깎는 인내의 시간을 기꺼이 감내하십시오."
+    }
+  ],
+  "persona": "당신은 A. P. J. 압둘 칼람이다.",
+  "imageUrl": "/images/giants/a-p-j-abdul-kalam.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1931~2015)"
+},
+  {
+  "id": "51",
+  "name": "알 자흐라위",
+  "category": "science",
+  "headline": "알 자흐라위는 중세 이슬람의 위대한 외과의사로, 수많은 혁신적 수술 도구를 발명하고 외과학의 기초를 확립한 '외과학의 아버지'이다.",
+  "shortDescription": "알 자흐라위의 일대기와 지혜",
+  "slug": "al-zahrawi",
+  "quote": "의학의 실천은 세심한 관찰과 끊임없는 경험에서 피어나는 인내의 예술이다.",
+  "pain": "당시 외과는 마취와 소독 개념이 전무하여 수술 성공률이 극히 낮았으며, 생명의 위협을 동반하는 매우 위험하고 천시받는 분야였다.",
+  "recovery": "임상 경험을 바탕으로 200여 종의 혁신적인 수술 도구를 직접 고안하고 체내 봉합용 캣거트를 발명하여, 외과학을 체계적이고 독립적인 과학의 반열에 올려놓았다.",
+  "lessons": [
+    {
+      "title": "의학의 실천은 세심한 관찰과 끊임없는 경험에서 피어나는 인내의 예술이다.",
+      "content": "이론에만 얽매이지 말고 현장에서 환자를 세심하게 관찰하며 경험을 축적하십시오. 어떠한 문제든 끈기 있게 실증적으로 접근할 때 비로소 진정한 해답을 얻을 수 있습니다."
+    },
+    {
+      "title": "올바른 도구는 외과의사의 손을 연장시키며, 환자의 고통을 줄이는 가장 첫 번째 자비이다.",
+      "content": "목적에 맞는 적절한 도구와 방법을 개발하는 데 노력을 아끼지 마십시오. 작은 기술적 혁신과 철저한 준비가 타인에게 큰 도움과 위로를 선사할 수 있습니다."
+    },
+    {
+      "title": "지식은 나누고 전수될 때 그 진정한 생명력을 얻어 수많은 생명을 구하게 된다.",
+      "content": "자신이 얻은 지식과 경험을 숨기지 말고 후대와 동료들에게 기꺼이 공유하십시오. 축적된 지혜가 널리 퍼질 때 세상은 더욱 발전하고 인류의 고통은 줄어들 것입니다."
+    }
+  ],
+  "persona": "당신은 알 자흐라위이다.",
+  "imageUrl": "/images/giants/al-zahrawi.jpg",
+  "dnaCode": "LRHI",
+  "era": "10세기의 거인 (936~1013)"
+},
+  {
+  "id": "123",
+  "name": "알레산드로 볼타",
+  "category": "science",
+  "headline": "알레산드로 볼타는 세계 최초의 화학 전지를 발명하여 인류가 안정적인 전기를 통제하고 사용할 수 있는 길을 연 이탈리아의 위대한 물리학자이다.",
+  "shortDescription": "알레산드로 볼타의 일대기와 지혜",
+  "slug": "alessandro-volta",
+  "quote": "자연의 언어를 이해하려면 선입견을 버리고 오직 현상이 말하는 바에 귀를 기울여야 한다.",
+  "pain": "전기 현상의 원인을 동물의 생명력에서 찾던 갈바니의 널리 인정받던 주장에 직면하여, 생기론에 치우친 주류 과학계의 편견을 극복해야 했다.",
+  "recovery": "서로 다른 금속과 전해질의 화학적 반응이 전류를 발생시킨다는 것을 증명하고, 마침내 최초의 화학 전지인 '볼타 전지'를 발명하여 인류에게 지속 가능한 전기를 선사했다.",
+  "lessons": [
+    {
+      "title": "자연의 언어를 이해하려면 선입견을 버리고 오직 현상이 말하는 바에 귀를 기울여야 한다.",
+      "content": "권위나 통념에 얽매이지 말고 사물의 본질을 직접 관찰하고 검증하십시오. 사실에 기반한 냉철한 시각만이 새로운 진리를 발견하는 열쇠가 됩니다."
+    },
+    {
+      "title": "단순한 금속판들의 결합이 보이지 않는 거대한 힘의 흐름을 만들어낼 수 있다.",
+      "content": "작고 단순한 요소들의 조합이 위대한 결과로 이어질 수 있음을 믿으십시오. 기본에 충실한 끈기 있는 연구와 시도가 세상을 바꾸는 혁신을 낳습니다."
+    },
+    {
+      "title": "진정한 발견은 신비주의의 장막을 걷어내고 자연의 명쾌한 법칙을 드러내는 데 있다.",
+      "content": "알 수 없는 현상에 두려워하거나 신비화하지 말고 이성적으로 원인을 분석하십시오. 명확한 논리와 실험을 통해 미지의 영역을 지식의 영역으로 개척해 나가십시오."
+    }
+  ],
+  "persona": "당신은 알레산드로 볼타이다.",
+  "imageUrl": "/images/giants/alessandro-volta.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1745~1827)"
+},
+  {
+  "id": "333",
+  "name": "알프레드 아들러",
+  "category": "science",
+  "headline": "알프레드 아들러는 열등감의 보상과 목적론적 인간관을 바탕으로 '개인심리학'을 창시한 오스트리아의 위대한 정신의학자이다.",
+  "shortDescription": "알프레드 아들러의 일대기와 지혜",
+  "slug": "alfred-adler",
+  "quote": "모든 인간의 행동에는 목적이 있으며, 우리의 삶을 결정하는 것은 과거의 경험이 아니라 그 경험에 부여한 의미이다.",
+  "pain": "어린 시절 구루병과 폐렴으로 인한 치명적인 병약함과 형에 대한 질투심, 그리고 프로이트의 결정론적 시각과의 좁힐 수 없는 학문적 갈등을 겪었다.",
+  "recovery": "자신의 고통과 결핍을 '열등감의 극복과 보상'이라는 독창적인 '개인심리학'으로 승화시켰으며, 프로이트와 결별하여 주체적이고 목적론적인 인간관을 새롭게 확립했다.",
+  "lessons": [
+    {
+      "title": "모든 인간의 행동에는 목적이 있으며, 우리의 삶을 결정하는 것은 과거의 경험이 아니라 그 경험에 부여한 의미이다.",
+      "content": "과거의 상처나 환경을 탓하며 주저앉지 말고 스스로 삶의 의미를 적극적으로 재해석하십시오. 당신은 언제나 자신의 미래를 새롭게 선택하고 변화시킬 수 있는 힘을 지니고 있습니다."
+    },
+    {
+      "title": "열등감은 결코 질병이 아니며, 인류가 더 높은 곳을 향해 발돋움하게 만드는 가장 위대한 원동력이다.",
+      "content": "자신이 가진 부족함이나 약점을 부끄러워하거나 피하지 마십시오. 그 결핍을 인정하고 극복하려 노력하는 과정 속에서 당신은 진정으로 탁월한 성취를 이룰 수 있습니다."
+    },
+    {
+      "title": "타인의 시선에 얽매이지 않는 '미움받을 용기'를 가질 때 비로소 진정한 내면의 자유와 행복을 얻을 수 있다.",
+      "content": "다른 사람의 기대나 평가에 맞추어 당신의 귀중한 삶을 허비하지 마십시오. 사회적 관심과 연대감을 잃지 않되, 자신의 주체적인 신념을 향해 묵묵히 걸어가십시오."
+    }
+  ],
+  "persona": "당신은 알프레드 아들러이다.",
+  "imageUrl": "/images/giants/alfred-adler.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1870~1937)"
+},
+  {
+  "id": "458",
+  "name": "앨리스 볼",
+  "category": "science",
+  "headline": "앨리스 볼은 심각한 차별을 뚫고 한센병 최초의 획기적인 주사 치료법인 '볼 요법'을 개발한 천재적인 아프리카계 미국인 화학자이다.",
+  "shortDescription": "앨리스 볼의 일대기와 지혜",
+  "slug": "alice-ball",
+  "quote": "과학적 진실은 누군가에 의해 가려질 수는 있어도, 결코 영원히 소멸되지는 않는다.",
+  "pain": "흑인 여성을 향한 학계의 지독한 차별과 배척을 견뎌야 했으며, 천재적인 업적을 이룩하고도 24세의 나이에 요절하여 동료에게 연구 성과를 도둑맞는 비극을 겪었다.",
+  "recovery": "끊임없는 연구로 수용성 대풍자유 추출법인 '볼 요법'을 발명하여 수만 명의 한센병 환자를 구원했고, 사후 역사가들의 노력으로 진정한 원작자로서의 명예를 되찾았다.",
+  "lessons": [
+    {
+      "title": "과학적 진실은 누군가에 의해 가려질 수는 있어도, 결코 영원히 소멸되지는 않는다.",
+      "content": "부당하게 공로를 빼앗기거나 잊혀지는 것을 두려워하여 옳은 일을 포기하지 마십시오. 당신이 세상에 남긴 선한 결과와 진실은 결국 시간이 흐른 뒤에 반드시 빛을 발하게 됩니다."
+    },
+    {
+      "title": "차별과 편견의 굳게 닫힌 문은 탁월한 실력과 집요한 증명을 통해서만 활짝 열어젖힐 수 있다.",
+      "content": "사회가 그어놓은 한계와 불합리한 장벽에 좌절하지 마십시오. 흔들림 없이 자신의 역량을 갈고닦아 압도적인 성과로 스스로의 가치를 증명해 내십시오."
+    },
+    {
+      "title": "실험실의 플라스크 안에서 일어나는 작은 화학적 변화가 때로는 수많은 사람들의 운명을 바꾼다.",
+      "content": "당신이 현재 몸담고 있는 일의 가치를 결코 작게 여기지 마십시오. 골방에서의 치열하고 묵묵한 노력이 세상을 치유하는 가장 위대한 기적으로 이어질 수 있습니다."
+    }
+  ],
+  "persona": "당신은 앨리스 볼이다.",
+  "imageUrl": "/images/giants/alice-ball.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1892~1916)"
+},
+  {
+  "id": "66",
+  "name": "앨리스 해밀턴",
+  "category": "science",
+  "headline": "앨리스 해밀턴은 열악한 산업 현장을 발로 뛰며 직업병의 원인을 규명하여 미국의 산업의학을 개척한 위대한 의학자이자 하버드 대학교 최초의 여성 교수이다.",
+  "shortDescription": "앨리스 해밀턴의 일대기와 지혜",
+  "slug": "alice-hamilton",
+  "quote": "과학적 연구는 책상 위가 아니라 사람들이 숨 쉬고 고통받는 가장 처참한 현장 속에서 완성되어야 한다.",
+  "pain": "당시 노동자들의 건강에 무관심했던 거대 기업들의 노골적인 적대와 은폐 시도, 그리고 여성 학자를 폄하하는 보수적인 학계의 지독한 유리천장에 직면했다.",
+  "recovery": "전국의 위험한 공장들을 발로 뛰며 수집한 완벽한 역학 데이터를 무기로 유해 화학물질을 규제하는 법안을 이끌어냈고, 하버드 대학교 역사상 최초의 여성 교수가 되었다.",
+  "lessons": [
+    {
+      "title": "과학적 연구는 책상 위가 아니라 사람들이 숨 쉬고 고통받는 가장 처참한 현장 속에서 완성되어야 한다.",
+      "content": "문제의 진짜 원인을 찾으려면 탁상공론을 멈추고 현장으로 직접 뛰어드십시오. 진실은 언제나 이론이 아닌 가장 생생하고 어두운 현실 속에 숨어 있습니다."
+    },
+    {
+      "title": "이윤을 위해 인간의 생명을 소모품처럼 취급하는 사회는 결코 위대한 문명으로 남을 수 없다.",
+      "content": "성장과 성과를 추구하는 과정에서 사람의 안전과 존엄성을 결코 타협하지 마십시오. 사람을 먼저 지키는 것이야말로 진정으로 지속 가능한 발전의 유일한 길입니다."
+    },
+    {
+      "title": "아무도 귀 기울이지 않는 약자들의 고통을 과학이라는 명백한 증거로 세상에 폭로하는 것이 지식인의 진정한 의무이다.",
+      "content": "당신이 가진 지식과 전문성을 단지 개인의 성공이 아닌 소외된 이들을 돕는 데 사용하십시오. 차가운 사실과 데이터가 따뜻한 연민과 결합할 때 세상은 긍정적으로 변화합니다."
+    }
+  ],
+  "persona": "당신은 앨리스 해밀턴이다.",
+  "imageUrl": "/images/giants/alice-hamilton.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1869~1970)"
+},
+  {
+  "id": "116",
+  "name": "앙브루아즈 파레",
+  "category": "science",
+  "headline": "근대 외과학의 아버지로 불리며 르네상스 시대 프랑스 왕실의 수석 외과의사로 활약한 선구자이다.",
+  "shortDescription": "앙브루아즈 파레의 일대기와 지혜",
+  "slug": "ambroise-pare",
+  "quote": "나는 상처를 감쌌을 뿐이고, 그를 치유하신 분은 신이다.",
+  "pain": "라틴어를 모른다는 이유로 당대 보수적인 의학계의 극심한 멸시와 견제를 받으며 능력을 의심받았다.",
+  "recovery": "흔들림 없이 수많은 생명을 구한 확고한 임상 결과와 헌신적인 태도로 프랑스 국왕의 두터운 신임을 얻어 근대 외과학의 기틀을 확립했다.",
+  "lessons": [
+    {
+      "title": "나는 상처를 감쌌을 뿐이고, 그를 치유하신 분은 신이다.",
+      "content": "의술을 행함에 있어 오만함을 버리고 자연의 순리와 생명 앞에서는 항상 겸손한 태도를 유지하십시오."
+    },
+    {
+      "title": "질병을 치료하는 데에는 이론보다 실전 경험이 더 확실한 길잡이가 된다.",
+      "content": "탁상공론에 얽매이지 말고, 현장에서 얻는 직접적인 경험과 꼼꼼한 관찰을 통해 진리를 탐구하십시오."
+    },
+    {
+      "title": "지식을 감추는 자는 다른 이의 생명을 훔치는 것과 같다.",
+      "content": "자신이 어렵게 얻은 유익한 지식을 독점하지 말고 모두를 위해 널리 공유하여 세상에 기여하십시오."
+    }
+  ],
+  "persona": "당신은 앙브루아즈 파레이다.",
+  "imageUrl": "/images/giants/ambroise-pare.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1510~1590)"
+},
+  {
+  "id": "327",
+  "name": "아메데오 아보가드로",
+  "category": "science",
+  "headline": "원자와 분자의 개념을 엄격히 구분하여 현대 화학과 물리학의 기반을 다진 이탈리아의 천재 과학자이다.",
+  "shortDescription": "아메데오 아보가드로의 일대기와 지혜",
+  "slug": "amedeo-avogadro",
+  "quote": "자연의 법칙은 사람들의 인정 여부와 상관없이 항상 그 자리에 존재한다.",
+  "pain": "당대의 과학적 상식을 너무나 앞서간 이론 탓에 주류 화학계의 거센 비판과 무시를 받으며 철저히 소외당했다.",
+  "recovery": "자신의 가설이 인정받지 못하는 고독한 상황 속에서도 죽는 날까지 묵묵히 강단에 서서 자연의 진리를 탐구했다.",
+  "lessons": [
+    {
+      "title": "자연의 법칙은 사람들의 인정 여부와 상관없이 항상 그 자리에 존재한다.",
+      "content": "타인의 시선이나 즉각적인 인정에 연연하지 말고 당신이 믿는 진리와 원칙을 묵묵히 따르십시오."
+    },
+    {
+      "title": "가장 복잡해 보이는 현상 속에도 이를 관통하는 단순하고 명쾌한 원리가 숨어 있다.",
+      "content": "어려운 난관에 봉착했을 때일수록 사물의 본질을 이루는 기초적인 개념에서 해결의 실마리를 찾으십시오."
+    },
+    {
+      "title": "당장의 명예를 좇지 않고 진리를 탐구하는 고독한 시간이야말로 미래를 밝히는 등불이 된다.",
+      "content": "성과가 당장 눈앞에 나타나지 않더라도 조급해하지 말고 꾸준하게 자신의 길을 개척해 나가십시오."
+    }
+  ],
+  "persona": "당신은 아메데오 아보가드로이다.",
+  "imageUrl": "/images/giants/amedeo-avogadro.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1776~1856)"
+},
+  {
+  "id": "114",
+  "name": "안드레아스 베살리우스",
+  "category": "science",
+  "headline": "직접적인 해부와 실증적 관찰을 통해 근대 해부학의 기초를 확립한 르네상스 의학의 선구자이다.",
+  "shortDescription": "안드레아스 베살리우스의 일대기와 지혜",
+  "slug": "andreas-vesalius",
+  "quote": "학문적 권위는 과거의 이름이 아니라 오직 눈으로 직접 확인한 명백한 진실에서 비롯되어야 한다.",
+  "pain": "1,300년간 이어져 온 갈레노스의 절대적 권위에 도전했다는 이유로 옛 스승과 당대 학계로부터 혹독한 비난과 이단아 취급을 받았다.",
+  "recovery": "오직 직접 확인한 실증적 관찰과 객관적인 인체 해부 결과를 무기로 삼아 낡은 편견에 맞서 근대 의학의 새 시대를 열었다.",
+  "lessons": [
+    {
+      "title": "학문적 권위는 과거의 이름이 아니라 오직 눈으로 직접 확인한 명백한 진실에서 비롯되어야 한다.",
+      "content": "기존의 상식이나 권위자의 말에 맹목적으로 의존하지 말고, 철저한 관찰을 통해 스스로 진실을 확인하십시오."
+    },
+    {
+      "title": "내 손으로 직접 메스를 들지 않고서는 인체가 품은 생명의 가장 깊은 비밀을 결코 풀 수 없다.",
+      "content": "머리로만 고민하는 데 그치지 말고, 과감하게 행동으로 옮겨 현장의 실체적인 문제를 부딪혀 해결하십시오."
+    },
+    {
+      "title": "진리를 추구하는 길에는 필연적으로 무지와 편견의 격렬한 저항이 뒤따르기 마련이다.",
+      "content": "올바른 길을 갈 때 마주치는 주변의 부당한 비난에 흔들리지 말고 당신의 확고한 신념을 밀고 나가십시오."
+    }
+  ],
+  "persona": "당신은 안드레아스 베살리우스이다.",
+  "imageUrl": "/images/giants/andreas-vesalius.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1514~1564)"
+},
+  {
+  "id": "125",
+  "name": "앙드레마리 앙페르",
+  "category": "science",
+  "headline": "전류와 자기장의 관계를 수학적으로 규명하여 현대 전자기학의 굳건한 토대를 세운 '전기학의 뉴턴'이다.",
+  "shortDescription": "앙드레마리 앙페르의 일대기와 지혜",
+  "slug": "andre-marie-ampere",
+  "quote": "자연의 비밀은 오직 끈질긴 관찰과 엄밀한 수학적 계산을 거쳐야만 그 모습을 드러낸다.",
+  "pain": "프랑스 대혁명 중 아버지를 잃는 비극과 불행했던 결혼 생활 등 평생을 끔찍한 사적 고통과 우울증 속에서 신음해야 했다.",
+  "recovery": "모든 시련을 극복하기 위해 오직 과학 연구에만 미친 듯이 몰두하며 전기와 자기의 통합이라는 역사적인 진리를 밝혀냈다.",
+  "lessons": [
+    {
+      "title": "자연의 비밀은 오직 끈질긴 관찰과 엄밀한 수학적 계산을 거쳐야만 그 모습을 드러낸다.",
+      "content": "직관적인 영감에만 의존하지 말고 철저한 논리와 객관적인 분석을 통해 문제를 끝까지 파고드십시오."
+    },
+    {
+      "title": "눈에 보이지 않는 가장 미세한 세계의 질서가 곧 우주 전체를 움직이는 거대한 힘이 된다.",
+      "content": "아주 작고 사소해 보이는 원리라도 소홀히 여기지 말고 그 안에 담긴 근본적인 가치를 발견하십시오."
+    },
+    {
+      "title": "깊은 슬픔과 고난 속에서도 진리를 향한 멈추지 않는 열정이 나를 다시 살아가게 만들었다.",
+      "content": "견디기 힘든 절망과 시련이 찾아오더라도 당신이 사랑하는 일에 몰입하여 이겨낼 힘을 얻으십시오."
+    }
+  ],
+  "persona": "당신은 앙드레마리 앙페르이다.",
+  "imageUrl": "/images/giants/andre-marie-ampere.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1775~1836)"
+},
+  {
+  "id": "107",
+  "name": "애니 점프 캐넌",
+  "category": "science",
+  "headline": "평생 35만 개의 별을 분류하고 현재까지 사용되는 항성 분류 체계를 확립한 미국의 위대한 천문학자이다.",
+  "shortDescription": "애니 점프 캐넌의 일대기와 지혜",
+  "slug": "annie-jump-cannon",
+  "quote": "우리가 가진 장애와 결핍은 때때로 우리를 가장 깊은 몰입의 세계로 안내하는 특별한 열쇠가 된다.",
+  "pain": "심각한 청력 상실로 인한 장애와 20세기 초 여성 과학자에 대한 만연한 차별 등 이중의 혹독한 시련을 겪어야 했다.",
+  "recovery": "귀가 들리지 않는 침묵을 오히려 극도의 집중력으로 승화시키며 무려 35만 개의 별을 완벽하게 분류해내 세계의 인정을 받았다.",
+  "lessons": [
+    {
+      "title": "우리가 가진 장애와 결핍은 때때로 우리를 가장 깊은 몰입의 세계로 안내하는 특별한 열쇠가 된다.",
+      "content": "자신에게 주어진 약점이나 한계를 원망하지 말고 오히려 이를 극복하는 과정에서 숨겨진 강점을 발견하십시오."
+    },
+    {
+      "title": "끝이 보이지 않는 막막한 밤하늘이라도 하나씩 이름을 붙여주다 보면 마침내 우주의 질서가 보인다.",
+      "content": "해결하기 어려워 보이는 거대한 문제 앞에서는 포기하지 말고 가장 작은 것부터 차근차근 정리해 나가십시오."
+    },
+    {
+      "title": "내가 발견한 별빛이 훗날 또 다른 이들이 더 먼 우주를 향해 나아갈 수 있는 밝은 등대가 되기를 바란다.",
+      "content": "당신이 이룩한 값진 성취를 오직 자신만을 위해 쓰지 말고 다음 세대의 더 나은 미래를 위해 기꺼이 나누십시오."
+    }
+  ],
+  "persona": "당신은 애니 점프 캐넌이다.",
+  "imageUrl": "/images/giants/annie-jump-cannon.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1863~1941)"
+},
+  {
+  "id": "111",
+  "name": "안토니 판 레이우엔후크",
+  "category": "science",
+  "headline": "단일 렌즈 현미경을 독자적으로 개발하여 미생물의 존재를 인류 최초로 관찰하고 기록한 미생물학의 선구자이다.",
+  "shortDescription": "안토니 판 레이우엔후크의 일대기와 지혜",
+  "slug": "antonie-van-leeuwenhoek",
+  "quote": "나는 나의 발견을 당대의 편견에 갇힌 사람들에게 증명하려 하지 않는다. 오직 진리를 찾는 자들을 위해 기록할 뿐이다.",
+  "pain": "정규 대학교육을 받지 못한 평범한 포목상 출신으로, 당대 엘리트 과학자들의 의심과 냉대를 견뎌야 했으며 라틴어를 구사하지 못해 학술적 소통에도 큰 제약을 겪었다.",
+  "recovery": "자신이 직접 연마한 렌즈와 흔들림 없는 관찰력으로 끈질기게 증거를 수집하여 영국 학자들의 검증을 통과해냈고, 마침내 학벌의 장벽을 넘어 런던 왕립학회의 정식 회원으로 인정받았다.",
+  "lessons": [
+    {
+      "title": "나는 나의 발견을 당대의 편견에 갇힌 사람들에게 증명하려 하지 않는다. 오직 진리를 찾는 자들을 위해 기록할 뿐이다.",
+      "content": "세상의 편견과 비웃음에 흔들리지 말고, 오직 객관적인 사실과 진실을 향해 묵묵히 나아가십시오."
+    },
+    {
+      "title": "가장 작고 보잘것없는 물방울 속에도 우주가 숨어 있으며, 수백만 개의 살아있는 피조물들이 그 안에서 유영한다.",
+      "content": "우리 눈에 보이지 않는 미미한 존재들 속에서도 경이로운 가치를 발견하는 섬세한 통찰력을 기르십시오."
+    },
+    {
+      "title": "진리를 발견하는 것은 단숨에 이루어지지 않으며 오직 끈기와 땀방울이 만들어낸 결과일 뿐이다.",
+      "content": "수많은 실패에도 포기하지 않고 끈질기게 파고드는 인내심과 탐구 정신을 유지하십시오."
+    }
+  ],
+  "persona": "당신은 안토니 판 레이우엔후크이다.",
+  "imageUrl": "/images/giants/antonie-van-leeuwenhoek.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1632~1723)"
+},
+  {
+  "id": "39",
+  "name": "아리아바타",
+  "category": "science",
+  "headline": "고대 인도 수학과 천문학의 황금기를 이끈 천재 학자로, 원주율의 정밀한 근사치 계산과 지구 자전설의 기초를 확립했다.",
+  "shortDescription": "아리아바타의 일대기와 지혜",
+  "slug": "aryabhata",
+  "quote": "하늘의 별들은 고정되어 있고, 오직 지구가 회전하며 낮과 밤의 환상을 만들어낸다.",
+  "pain": "고대 인도의 종교적, 신화적 우주관이 지배적이던 시대에 태어나, 전통적인 미신을 정면으로 반박하는 이단적인 학설로 인해 보수 학계의 거센 공격과 비난을 받았다.",
+  "recovery": "신화 대신 철저한 수학적 계산과 천체 관측 데이터를 바탕으로 불후의 명저 『아리아바티야』를 완성하였고, 흔들리지 않는 논리로 진리를 증명하여 후대 과학자들의 인식을 완전히 바꿔놓았다.",
+  "lessons": [
+    {
+      "title": "하늘의 별들은 고정되어 있고, 오직 지구가 회전하며 낮과 밤의 환상을 만들어낸다.",
+      "content": "모두가 당연하게 여기는 통념과 고정관념에 끊임없이 의문을 제기하는 날카로운 통찰력을 기르십시오."
+    },
+    {
+      "title": "수학과 천문학은 우주의 숨겨진 질서를 해독하고 미신을 걷어내는 가장 강력한 열쇠이다.",
+      "content": "막연한 추측이나 두려움에 기대지 말고, 논리와 이성을 바탕으로 문제의 본질을 명확히 꿰뚫어 보십시오."
+    },
+    {
+      "title": "아무리 복잡한 천체의 궤도라도 결국 하나의 완벽하고 단순한 구형에서 비롯된다.",
+      "content": "혼란스럽고 복잡하게 얽힌 현상 속에서도, 그 이면에 존재하는 가장 기본적이고 단순한 질서를 찾아내십시오."
+    }
+  ],
+  "persona": "당신은 아리아바타이다.",
+  "imageUrl": "/images/giants/aryabhata.jpg",
+  "dnaCode": "LRHI",
+  "era": "6세기의 거인 (476~550)"
+},
+  {
+  "id": "132",
+  "name": "아우구스트 케쿨레",
+  "category": "science",
+  "headline": "탄소 원자의 결합 방식과 벤젠의 육각형 고리 구조를 밝혀내어 현대 유기화학의 비약적인 발전을 이끈 화학자이다.",
+  "shortDescription": "아우구스트 케쿨레의 일대기와 지혜",
+  "slug": "august-kekule",
+  "quote": "신사 여러분, 우리 모두 잠시 눈을 감고 꿈을 꾸는 법을 배웁시다. 그러면 어쩌면 진리를 발견할지도 모릅니다.",
+  "pain": "유기 화합물들이 발견되던 혼돈의 시대에, 화학물질들이 공간 속에서 어떻게 결합하는지 설명할 수 있는 이론적 도구가 없어 학계 전체가 연구의 거대한 장벽에 막혀 있었다.",
+  "recovery": "이성과 계산에만 의존하지 않고 자유로운 몽상과 직관을 적극적으로 수용하여 뱀이 꼬리를 무는 환상 속에서 벤젠의 육각형 고리 구조를 창안해내며 한계를 돌파했다.",
+  "lessons": [
+    {
+      "title": "신사 여러분, 우리 모두 잠시 눈을 감고 꿈을 꾸는 법을 배웁시다. 그러면 어쩌면 진리를 발견할지도 모릅니다.",
+      "content": "딱딱한 지식이나 관습에만 얽매이지 말고, 자유로운 상상력과 영감이 새로운 길을 안내하도록 허용하십시오."
+    },
+    {
+      "title": "화학 분자는 고정된 채 멈춰있는 것이 아니라, 끊임없이 진동하고 변화하는 매혹적인 춤을 추고 있다.",
+      "content": "세상의 모든 것은 멈춰있지 않고 역동적으로 변화한다는 사실을 인식하며, 항상 유연한 사고방식을 유지하십시오."
+    },
+    {
+      "title": "하나의 원자가 다른 원자들과 맺는 입체적인 관계가 결국 전체 물질의 운명과 성질을 결정짓는다.",
+      "content": "파편화된 개별 요소에만 집중하지 말고, 그것들이 서로 어떻게 연결되고 상호작용하여 전체를 이루는지 거시적으로 조망하십시오."
+    }
+  ],
+  "persona": "당신은 아우구스트 케쿨레이다.",
+  "imageUrl": "/images/giants/august-kekule.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1829~1896)"
+},
+  {
+  "id": "335",
+  "name": "B. F. 스키너",
+  "category": "science",
+  "headline": "조작적 조건형성 이론을 확립하여 심리학을 객관적이고 과학적인 행동 과학으로 탈바꿈시킨 행동주의 심리학의 거장이다.",
+  "shortDescription": "B. F. 스키너의 일대기와 지혜",
+  "slug": "b-f-skinner",
+  "quote": "우리가 우리를 둘러싼 환경을 주도적으로 바꿀 때, 우리는 비로소 우리 자신을 바꾸게 되는 것이다.",
+  "pain": "관찰 불가능한 내면과 무의식만을 강조하던 당시 주류 심리학계와 지식인들로부터, 인간을 기계나 동물의 수준으로 격하시킨다는 맹렬한 학문적 공격과 비난에 직면했다.",
+  "recovery": "자신이 직접 고안한 '스키너 상자'라는 엄격한 통제 실험을 통해 행동과 보상의 상관관계를 치밀한 데이터로 입증해내며, 행동주의 심리학을 가장 과학적인 학문으로 우뚝 세웠다.",
+  "lessons": [
+    {
+      "title": "우리가 우리를 둘러싼 환경을 주도적으로 바꿀 때, 우리는 비로소 우리 자신을 바꾸게 되는 것이다.",
+      "content": "개인의 의지에만 지나치게 의존하지 말고, 목표를 달성할 수밖에 없도록 주변 환경을 지혜롭게 설계하십시오."
+    },
+    {
+      "title": "실패란 그 자체로 비관할 일이 아니라, 새롭게 탐구하고 분석해야 할 가장 중요한 데이터일 뿐이다.",
+      "content": "실패를 두려워하거나 부끄러워하지 말고, 성장을 위해 반드시 거쳐야 할 확실한 피드백으로 활용하십시오."
+    },
+    {
+      "title": "진정한 자유는 처벌의 두려움에서 도망치는 것이 아니라, 긍정적인 강화 속에서 자발적으로 살아가는 것이다.",
+      "content": "스스로나 타인을 억압과 처벌로 통제하려 하지 말고, 칭찬과 긍정적인 보상을 통해 올바른 변화를 유도하십시오."
+    }
+  ],
+  "persona": "당신은 B. F. 스키너이다.",
+  "imageUrl": "/images/giants/b-f-skinner.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1904~1990)"
+},
+  {
+  "id": "101",
+  "name": "바바라 맥클린톡",
+  "category": "science",
+  "headline": "옥수수 유전학 연구를 통해 이리저리 위치를 이동하는 '트랜스포존(이동성 유전자)'을 최초로 발견한 독보적인 유전학자이다.",
+  "shortDescription": "바바라 맥클린톡의 일대기와 지혜",
+  "slug": "barbara-mcclintock",
+  "quote": "생명체의 미세한 말을 귀 기울여 듣고, 그 유기체가 스스로 말하게 해야 합니다.",
+  "pain": "여성 과학자에 대한 짙은 성차별적 편견 속에서, 유전자가 고정되어 있다는 20세기 중반의 확고한 학문적 도그마에 맞서 싸우며 철저한 고립을 경험했다.",
+  "recovery": "타인의 인정이나 비판에 흔들리지 않고 수십 년 동안 홀로 옥수수 유전자를 집요하게 분석하여, 이동성 유전자의 존재를 완벽하게 증명해내며 마침내 학계의 인정을 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "생명체의 미세한 말을 귀 기울여 듣고, 그 유기체가 스스로 말하게 해야 합니다.",
+      "content": "섣부른 선입견이나 판단을 버리고, 대상 그 자체에 깊이 몰입하여 숨겨진 목소리를 조용히 경청하십시오."
+    },
+    {
+      "title": "비정상적인 것이야말로 그 너머에 숨겨진 새로운 법칙을 알려주는 가장 확실한 단서입니다.",
+      "content": "예상치 못한 예외나 오류를 두려워하지 말고, 새로운 도약과 발견을 위한 가장 강력한 발판으로 삼으십시오."
+    },
+    {
+      "title": "진실을 확신한다면, 다른 사람들이 당장 이해하지 못한다고 해서 결코 좌절할 필요가 없습니다.",
+      "content": "자신의 신념과 확신이 뚜렷하다면 외부의 평가나 일시적인 고립감에 흔들리지 말고 꿋꿋하게 나아가십시오."
+    }
+  ],
+  "persona": "당신은 바바라 맥클린톡이다.",
+  "imageUrl": "/images/giants/barbara-mcclintock.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1902~1992)"
+},
+  {
+  "id": "447",
+  "name": "베시 콜먼",
+  "category": "science",
+  "headline": "최초의 흑인 및 아메리카 원주민 여성 조종사로, 인종과 성별의 장벽을 넘어 미국 항공사의 새로운 지평을 열었다.",
+  "shortDescription": "베시 콜먼의 일대기와 지혜",
+  "slug": "bessie-coleman",
+  "quote": "공기에는 어떤 장벽도 없다.",
+  "pain": "미국 내 모든 비행 학교에서 흑인이자 여성이라는 이유로 입학을 거부당하며 조종사의 꿈을 이룰 기회조차 얻지 못했다.",
+  "recovery": "불굴의 의지로 프랑스어를 독학하고 파리로 건너가 국제 조종사 면허를 취득함으로써 인종과 성별의 장벽을 무너뜨렸다.",
+  "lessons": [
+    {
+      "title": "공기에는 어떤 장벽도 없다.",
+      "content": "세상이 정해놓은 한계와 편견은 물리적인 실체가 없는 허상에 불과합니다. 당신을 옭아매는 차별의 시선에 굴복하지 말고, 자유로운 창공을 향해 끝없이 비상하십시오."
+    },
+    {
+      "title": "나는 그저 날고 싶었고, 그래서 비행을 배웠다.",
+      "content": "순수한 열정이야말로 불가능해 보이는 꿈을 현실로 만드는 가장 강력한 원동력입니다. 거창한 이유나 타인의 인정보다, 당신의 심장이 이끄는 진정한 갈망에 집중하십시오."
+    },
+    {
+      "title": "거절은 내게 장애물이 아니라, 그저 방향을 바꾸라는 신호였다.",
+      "content": "살아가며 마주하는 수많은 거절과 좌절을 포기의 구실로 삼지 마십시오. 닫힌 문 앞에서 절망하는 대신, 당신을 환영할 새로운 길을 적극적으로 개척하십시오."
+    }
+  ],
+  "persona": "당신은 베시 콜먼이다.",
+  "imageUrl": "/images/giants/bessie-coleman.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1892~1926)"
+},
+  {
+  "id": "43",
+  "name": "바스카라 2세",
+  "category": "science",
+  "headline": "중세 인도 최고 수학자이자 천문학자로, 0으로 나누는 개념과 미분법의 기초를 서양보다 수백 년 앞서 발견했다.",
+  "shortDescription": "바스카라 2세의 일대기와 지혜",
+  "slug": "bhaskara-ii",
+  "quote": "어떤 수든 0으로 나누면 그 결과는 무한대가 된다.",
+  "pain": "당시 인도 천문학과 수학은 고대의 복잡한 전통에 얽매여 있었고, 무한이나 0으로 나누는 개념과 같은 추상적인 수학적 난제들은 수백 년간 해결되지 못한 채 남아있었다.",
+  "recovery": "전통적인 방법론에 얽매이지 않고 직관적인 미적분학의 원리와 '차크라발라' 해법을 독창적으로 창안하여 중세 수학이 안고 있던 근본적인 한계들을 타파했다.",
+  "lessons": [
+    {
+      "title": "어떤 수든 0으로 나누면 그 결과는 무한대가 된다.",
+      "content": "한계가 명확해 보이는 문제라도 관점을 바꾸면 무한한 가능성의 세계가 열립니다. 당신을 가로막고 있는 장벽을 새로운 각도에서 바라보십시오."
+    },
+    {
+      "title": "하늘의 별들은 보이지 않는 수학적 법칙에 따라 완벽한 조화를 이루며 춤춘다.",
+      "content": "혼란스러워 보이는 세상사 이면에도 반드시 변하지 않는 진리와 질서가 존재합니다. 눈앞의 현상에 흔들리지 말고 문제의 본질을 꿰뚫어 보십시오."
+    },
+    {
+      "title": "학문의 길은 시와 같이 우아하고 아름다워야 한다.",
+      "content": "차갑고 딱딱한 논리 속에서도 따뜻한 인간미와 예술적 감수성을 잃지 마십시오. 진정한 지혜는 이성과 감성이 완벽하게 조화를 이룰 때 비로소 완성됩니다."
+    }
+  ],
+  "persona": "당신은 바스카라 2세이다.",
+  "imageUrl": "/images/giants/bhaskara-ii.jpg",
+  "dnaCode": "LRHI",
+  "era": "12세기의 거인 (1114~1185)"
+},
+  {
+  "id": "47",
+  "name": "C. V. 라만",
+  "category": "science",
+  "headline": "빛의 흩어짐을 연구하여 양자역학의 중요한 증거인 '라만 효과'를 발견한 아시아 최초의 노벨 과학상 수상자이다.",
+  "shortDescription": "C. V. 라만의 일대기와 지혜",
+  "slug": "c-v-raman",
+  "quote": "장비가 중요한 것이 아니다. 중요한 것은 연구자의 두뇌와 직관이다.",
+  "pain": "식민지 치하의 인도에서는 원주민이 기초 과학자로 활동할 수 있는 환경과 지원이 전무하여, 생계를 위해 연구와 무관한 재무부 관리로 일해야만 했다.",
+  "recovery": "열악한 실험실에서 빈약한 장비만으로 밤낮없이 독자적인 연구를 강행한 끝에 빛의 산란 현상인 '라만 효과'를 발견하여 세계 과학계의 정점에 섰다.",
+  "lessons": [
+    {
+      "title": "장비가 중요한 것이 아니다. 중요한 것은 연구자의 두뇌와 직관이다.",
+      "content": "완벽한 조건과 환경이 갖춰질 때까지 기다리지 마십시오. 당신이 가진 열정과 창의력이야말로 그 어떤 첨단 도구보다 강력한 무기입니다."
+    },
+    {
+      "title": "자연은 우리가 책 속이 아니라, 열린 마음으로 직접 관찰할 때 비로소 자신의 비밀을 내어준다.",
+      "content": "고정관념이나 기존의 이론에만 얽매이지 마십시오. 세상을 향해 호기심 어린 질문을 던지고 당신만의 눈으로 진실을 탐구하십시오."
+    },
+    {
+      "title": "나는 뼈아픈 좌절 속에서도 하늘과 바다의 푸른빛에서 결코 희망을 잃지 않았다.",
+      "content": "깊은 절망의 순간에도 우리 주변에는 다시 일어설 수 있는 영감이 숨어 있습니다. 일상의 작은 아름다움 속에서 위기를 돌파할 새로운 힘을 발견하십시오."
+    }
+  ],
+  "persona": "당신은 C. V. 라만이다.",
+  "imageUrl": "/images/giants/c-v-raman.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1888~1970)"
+},
+  {
+  "id": "30",
+  "name": "채륜",
+  "category": "science",
+  "headline": "나무껍질과 헌 그물 등 주변의 흔한 재료를 활용하여 인류 지식 혁명의 도화선이 된 종이를 발명한 제지술의 선구자이다.",
+  "shortDescription": "채륜의 일대기와 지혜",
+  "slug": "cai-lun",
+  "quote": "가장 귀한 보물은 화려한 궁궐이 아니라, 버려진 그물과 마른 나뭇가지 속에 숨어 있다.",
+  "pain": "당시 기록 매체였던 죽간은 너무 무겁고 비단은 지나치게 비싸서, 방대한 행정 문서 처리와 지식의 대중화에 치명적인 장애물이 되고 있었다.",
+  "recovery": "버려진 그물, 나무껍질, 낡은 천 등 흔하고 보잘것없는 재료들을 활용한 수많은 실험 끝에 가볍고 실용적인 종이 제조 공정을 발명해냈다.",
+  "lessons": [
+    {
+      "title": "가장 귀한 보물은 화려한 궁궐이 아니라, 버려진 그물과 마른 나뭇가지 속에 숨어 있다.",
+      "content": "하찮아 보이고 쓸모없어 버려진 것들 속에서도 새로운 가치를 발견할 수 있습니다. 익숙한 사물을 전혀 새로운 시각으로 바라보는 통찰력을 기르십시오."
+    },
+    {
+      "title": "수백 번 끊어지고 으깨진 섬유만이 질기고 튼튼한 한 장의 종이로 거듭날 수 있다.",
+      "content": "삶의 가혹한 시련과 실패는 당신을 파괴하는 것이 아니라 더 단단하게 벼려내는 과정입니다. 고난의 찌꺼기를 모아 당신만의 찬란한 역사를 쓰십시오."
+    },
+    {
+      "title": "무거운 죽간을 가벼운 종이로 바꾸는 것은 결국 천하의 지혜를 가볍게 널리 퍼뜨리기 위함이다.",
+      "content": "진정한 혁신은 소수를 위한 독점이나 혜택이 아니라, 모두의 삶을 이롭게 하는 데 있습니다. 당신의 노력이 세상에 어떤 이로운 영향을 미칠지 끊임없이 질문하십시오."
+    }
+  ],
+  "persona": "당신은 채륜이다.",
+  "imageUrl": "/images/giants/cai-lun.jpg",
+  "dnaCode": "LRHI",
+  "era": "2세기의 거인 (50~121)"
+},
+  {
+  "id": "286",
+  "name": "카를 프리드리히 가우스",
+  "category": "science",
+  "headline": "정수론과 미분기하학부터 천문학과 전자기학까지 과학의 모든 분야에 압도적인 발자취를 남긴 '수학자의 왕'이다.",
+  "shortDescription": "카를 프리드리히 가우스의 일대기와 지혜",
+  "slug": "carl-friedrich-gauss",
+  "quote": "적지만 성숙하게. 완벽하지 않은 것은 결코 세상에 내놓지 않는다.",
+  "pain": "가난한 벽돌공의 아들로 태어나 초등 교육조차 제대로 받기 힘든 절망적인 환경에 놓여 있었으며, 성인이 되어서도 평생 동안 뇌졸중과 우울증을 앓는 가족들을 부양해야 하는 무거운 짐을 지고 있었다.",
+  "recovery": "자신에게 주어진 압도적인 천재성과 후원자의 도움을 발판 삼아 흔들림 없는 학문적 몰입과 철저한 완벽주의로 기하학, 정수론, 천문학을 아우르는 불멸의 업적을 이룩했다.",
+  "lessons": [
+    {
+      "title": "적지만 성숙하게. 완벽하지 않은 것은 결코 세상에 내놓지 않는다.",
+      "content": "양적 팽창에 집착하기보다 단 하나의 결과물이라도 압도적인 완성도를 추구하십시오. 타협하지 않는 치열한 장인정신만이 세월을 견디는 걸작을 탄생시킵니다."
+    },
+    {
+      "title": "수학은 과학의 여왕이며, 정수론은 수학의 여왕이다.",
+      "content": "모든 복잡한 현상의 근저에는 가장 기초적이고 본질적인 원리가 자리 잡고 있습니다. 흔들리지 않는 탄탄한 기초 위에 당신만의 견고한 논리를 세우십시오."
+    },
+    {
+      "title": "나의 연구는 지식 자체를 향한 사랑에서 비롯되었을 뿐, 결코 타인의 칭찬을 구하기 위한 것이 아니었다.",
+      "content": "타인의 시선이나 외부의 보상에 얽매이지 말고 당신이 진정으로 사랑하는 일 그 자체에 온전히 몰입하십시오. 순수한 열정만이 가장 위대한 성취를 이끌어냅니다."
+    }
+  ],
+  "persona": "당신은 카를 프리드리히 가우스이다.",
+  "imageUrl": "/images/giants/carl-friedrich-gauss.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1777~1855)"
+},
+  {
+  "id": "232",
+  "name": "칼 세이건",
+  "category": "science",
+  "headline": "우주의 경이로움을 대중에게 전파한 20세기 최고의 과학 커뮤니케이터",
+  "shortDescription": "칼 세이건의 일대기와 지혜",
+  "slug": "carl-sagan",
+  "quote": "우리는 코스모스의 일부입니다. 이것은 결코 시적인 수사가 아닙니다.",
+  "pain": "전통적인 학계의 시기 질투와 사이비 과학의 끊임없는 공격 속에서도 그의 대중화 작업은 종종 가벼운 흥미 위주라는 부당한 오해를 받았다. 또한 냉전 시대의 삼엄한 분위기 속에서 핵무기의 위험성을 경고하며 정부 및 보수 진영과 심각한 정치적 갈등을 겪었다.",
+  "recovery": "그는 흔들림 없는 과학적 근거와 특유의 온화한 설득력을 무기로 대중과 학계 모두를 점진적으로 감화시켰다. 철저한 회의주의에 기반한 합리적 비판을 통해 반지성주의를 타파하며 평생 과학의 진정한 가치를 굳건히 수호했다.",
+  "lessons": [
+    {
+      "title": "우리는 코스모스의 일부입니다. 이것은 결코 시적인 수사가 아닙니다.",
+      "content": "우리 몸을 구성하는 모든 원소는 먼 과거 별들의 죽음으로부터 왔음을 기억하십시오. 인류가 우주와 깊이 연결된 존재임을 깨닫고 생명의 경이로움을 소중히 여기시기 바랍니다."
+    },
+    {
+      "title": "특별한 주장에는 특별한 증거가 필요합니다.",
+      "content": "일상 속에서 쏟아지는 수많은 정보와 주장을 맹목적으로 믿지 마십시오. 항상 비판적으로 사고하고 철저한 검증과 합리적인 증거를 요구하는 자세를 갖추어야 합니다."
+    },
+    {
+      "title": "이 창백한 푸른 점을 보십시오. 우리가 아는 유일한 보금자리입니다.",
+      "content": "광활한 우주 속에서 지구가 얼마나 작고 연약한 존재인지 겸허하게 바라보십시오. 우리가 서로를 더 아끼고 유일한 터전인 지구를 보호하는 데 앞장서기를 당부합니다."
+    }
+  ],
+  "persona": "당신은 칼 세이건이다.",
+  "imageUrl": "/images/giants/carl-sagan.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1934~1996)"
+},
+  {
+  "id": "89",
+  "name": "캐롤라인 허셜",
+  "category": "science",
+  "headline": "역사상 최초로 급여를 받은 여성 천문학자이자 8개의 혜성을 발견한 과학의 선구자입니다.",
+  "shortDescription": "캐롤라인 허셜의 일대기와 지혜",
+  "slug": "caroline-herschel",
+  "quote": "나는 내 스스로 밤하늘을 관찰하며 새로운 세계를 찾아냈습니다.",
+  "pain": "어린 시절 치명적인 질병으로 인해 성장이 멈추고 시력을 잃을 뻔했으며, 가족들의 완강한 반대와 시대적 편견 속에서 정규 교육조차 받지 못했다.",
+  "recovery": "음악가와 천문학 조수로 시작하여 스스로 망원경을 제작하고 밤하늘을 관측하며, 끊임없는 노력과 끈기로 혜성을 연이어 발견하며 독립적인 여성 과학자로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "나는 내 스스로 밤하늘을 관찰하며 새로운 세계를 찾아냈습니다.",
+      "content": "다른 사람의 조력자에 머물지 말고, 자신만의 영역을 개척하고 독립적인 시각으로 세상을 탐구하십시오."
+    },
+    {
+      "title": "별을 향한 나의 헌신은 세상의 어떤 편견보다도 강했습니다.",
+      "content": "자신의 한계를 규정짓는 사회적 장애물에 굴복하지 말고, 진정한 열정을 바탕으로 묵묵히 전진하십시오."
+    },
+    {
+      "title": "기록되지 않은 관측은 존재하지 않는 것과 같습니다.",
+      "content": "아무리 사소해 보이는 작업이라도 끈기를 가지고 성실하게 기록하며 자신만의 체계를 완성하십시오."
+    }
+  ],
+  "persona": "당신은 캐롤라인 허셜이다.",
+  "imageUrl": "/images/giants/caroline-herschel.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1750~1848)"
+},
+  {
+  "id": "108",
+  "name": "세실리아 페인가포슈킨",
+  "category": "science",
+  "headline": "우주가 수소와 헬륨으로 이루어져 있음을 최초로 밝혀낸 천체물리학의 선구자.",
+  "shortDescription": "세실리아 페인가포슈킨의 일대기와 지혜",
+  "slug": "cecilia-payne-gaposchkin",
+  "quote": "젊은 과학자의 보상은 세계 역사상 최초로 무언가를 보거나 이해하는 사람이 되는 감정적 스릴입니다.",
+  "pain": "당시 여성에게 정식 학위를 수여하지 않는 영국의 낡은 제도와 별이 수소로 이루어져 있다는 파격적인 주장에 대한 주류 학계의 거센 반발은 그녀의 학문적 여정에 심각한 위협이 되었다. 가장 중요한 발견조차 당대의 권위자에 의해 묵살당하며 자신의 연구 결과를 스스로 부정해야 하는 깊은 고통을 겪었다.",
+  "recovery": "그녀는 압도적인 관측 데이터와 논리적인 이온화 방정식 분석을 묵묵히 밀고 나가며 결국 자신의 이론이 진실임을 과학적으로 입증해냈다. 끊임없는 인내와 후속 연구를 통해 하버드 대학교 최초의 여성 정교수에 오르며 성별의 벽을 허물었다.",
+  "lessons": [
+    {
+      "title": "젊은 과학자의 보상은 세계 역사상 최초로 무언가를 보거나 이해하는 사람이 되는 감정적 스릴입니다.",
+      "content": "진리를 탐구하는 과정에서 얻는 순수한 기쁨이야말로 가장 큰 보상입니다. 타인의 인정보다 자신의 내면에서 솟아나는 호기심과 발견의 환희를 소중히 여기십시오."
+    },
+    {
+      "title": "당신의 보상은 산을 오를수록 지평선이 넓어지는 것입니다. 그리고 그 보상을 얻는다면 다른 것은 바라지 않게 될 것입니다.",
+      "content": "목표를 향해 나아갈 때 성장하고 시야가 넓어지는 경험 자체가 진정한 성공입니다. 시련 속에서도 멈추지 말고 배움의 영역을 지속적으로 확장해 나가십시오."
+    },
+    {
+      "title": "새로운 아이디어를 얻는 것만큼 큰 기쁨은 없습니다.",
+      "content": "기존의 낡은 지식이나 편견에 얽매이지 말고 새롭고 혁신적인 생각을 두려움 없이 받아들이십시오. 열린 마음으로 세상을 관찰하고 생각의 한계를 뛰어넘어 보십시오."
+    }
+  ],
+  "persona": "당신은 세실리아 페인가포슈킨이다.",
+  "imageUrl": "/images/giants/cecilia-payne-gaposchkin.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1900~1979)"
+},
+  {
+  "id": "11",
+  "name": "최무선",
+  "category": "science",
+  "headline": "화약 개발을 통해 국가의 위기를 구한 14세기 고려의 과학자이자 무장",
+  "shortDescription": "최무선의 일대기와 지혜",
+  "slug": "ch-oe-muson",
+  "quote": "새로운 길을 여는 것은 두려움이 아니라, 불가능을 가능으로 바꾸려는 간절한 열망이다.",
+  "pain": "화약 제조 기술이 국가 기밀로 취급되던 시기, 원료 확보와 배합 비율을 알아내는 과정에서 수많은 실패와 좌절을 겪어야만 했다.",
+  "recovery": "상인 이원을 끈질기게 설득하여 염초 추출 비법을 알아내고, 스스로 숱한 실험을 거듭하여 독자적인 화약 무기 개발에 성공했다.",
+  "lessons": [
+    {
+      "title": "새로운 길을 여는 것은 두려움이 아니라, 불가능을 가능으로 바꾸려는 간절한 열망이다.",
+      "content": "남들이 가지 않은 길을 개척할 때는 수많은 난관이 따르기 마련입니다. 실패를 두려워하지 말고 끈기 있게 도전하십시오."
+    },
+    {
+      "title": "지식은 나누고 물려줄 때 비로소 영원한 생명을 얻는다.",
+      "content": "스스로 어렵게 얻은 경험과 지식일지라도 후대를 위해 남김없이 기록하고 전수하십시오. 당신의 지혜가 미래의 위기를 극복하는 열쇠가 될 것입니다."
+    },
+    {
+      "title": "위기를 극복하는 가장 강력한 무기는 스스로를 지킬 수 있는 힘을 기르는 것이다.",
+      "content": "외부의 도움에만 의존하지 말고 스스로의 역량을 강화하는 데 집중하십시오. 진정한 평화는 자립할 수 있는 실력에서 비롯됩니다."
+    }
+  ],
+  "persona": "당신은 최무선이다.",
+  "imageUrl": "/images/giants/ch-oe-muson.jpg",
+  "dnaCode": "LRHI",
+  "era": "14세기의 거인 (1325~1395)"
+},
+  {
+  "id": "103",
+  "name": "우젠슝",
+  "category": "science",
+  "headline": "현대 물리학의 대칭성 신화를 깨뜨린 위대한 실험 물리학의 선구자.",
+  "shortDescription": "우젠슝의 일대기와 지혜",
+  "slug": "chien-shiung-wu",
+  "quote": "결과에 대한 헛된 기대보다는, 당신이 하고 있는 일 자체에 온전히 집중하십시오.",
+  "pain": "당대 과학계에 팽배했던 성차별과 인종적 편견으로 인해, 자신이 주도하고 완벽하게 증명해 낸 패리티 비보존 실험이 노벨상 수상으로 이어지지 못하는 큰 시련을 겪었다. 또한 모국을 떠나 타국에서 연구를 이어가는 과정에서 깊은 소외감과 보이지 않는 유리천장을 홀로 견뎌내야만 했다.",
+  "recovery": "불공정한 대우나 명예에 연연하지 않고 오직 학문에 대한 순수한 열정과 완벽을 추구하는 실험 정신으로 묵묵히 연구에 매진하여 자신의 진정한 가치를 스스로 증명했다. 미국 물리학회 최초의 여성 회장에 오르는 등 굴하지 않는 굳건한 의지로 시대적 한계를 당당히 깨뜨렸다.",
+  "lessons": [
+    {
+      "title": "결과에 대한 헛된 기대보다는, 당신이 하고 있는 일 자체에 온전히 집중하십시오.",
+      "content": "세상의 인정이나 보상에 얽매이지 말고, 자신이 맡은 일에 순수한 열정을 쏟을 때 비로소 진정한 성취를 이룰 수 있습니다."
+    },
+    {
+      "title": "자연은 대칭을 사랑한다고 믿지만, 때로는 그 완벽함 속에 숨겨진 비대칭을 찾아내는 것이 진실에 다가가는 지름길입니다.",
+      "content": "모두가 당연하다고 굳게 믿는 상식과 편견에 맹목적으로 순응하지 말고, 날카로운 질문을 던져 이면의 진리를 끊임없이 탐구하십시오."
+    },
+    {
+      "title": "견고한 장벽은 우리를 막기 위해 있는 것이 아니라, 우리의 의지가 얼마나 강한지 시험하기 위해 존재하는 것입니다.",
+      "content": "부당한 시대적 한계나 사회적 편견에 부딪히더라도 결코 좌절하지 말고, 묵묵한 실천과 압도적인 실력으로 자신만의 길을 당당히 개척하십시오."
+    }
+  ],
+  "persona": "당신은 우젠슝이다.",
+  "imageUrl": "/images/giants/chien-shiung-wu.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1912~1997)"
+},
+  {
+  "id": "110",
+  "name": "크리스티안 하이헌스",
+  "category": "science",
+  "headline": "토성의 고리를 발견하고 빛의 파동설을 제안하여 근대 광학과 천문학을 발전시킨 네덜란드의 위대한 과학자이다.",
+  "shortDescription": "크리스티안 하이헌스의 일대기와 지혜",
+  "slug": "christiaan-huygens",
+  "quote": "우리가 살고 있는 이 세상이 우주의 유일한 세상이 아니라고 생각하면, 우리의 삶을 더욱 크고 넓은 관점에서 바라볼 수 있습니다.",
+  "pain": "자신의 이론이 당대 최고의 권위자였던 뉴턴의 입자설에 가려져 인정받지 못하는 학문적 고립 속에서도 파동설에 대한 확신을 잃지 않았다.",
+  "recovery": "정교한 수학적 증명과 실험적 관찰을 통해 이론의 완성도를 높여갔으며, 훗날 19세기에 이르러 빛의 파동성이 입증되면서 선구자적인 업적을 역사에 남겼다.",
+  "lessons": [
+    {
+      "title": "우리가 살고 있는 이 세상이 우주의 유일한 세상이 아니라고 생각하면, 우리의 삶을 더욱 크고 넓은 관점에서 바라볼 수 있습니다.",
+      "content": "지구라는 작은 행성에만 얽매이지 말고, 광활한 우주적 관점에서 삶의 진정한 의미를 탐구하고 겸손한 태도를 가지십시오."
+    },
+    {
+      "title": "오류를 범하지 않는 유일한 방법은 아무런 탐구도 하지 않는 것뿐입니다.",
+      "content": "실패를 두려워하여 도전을 피하지 말고, 끊임없는 호기심을 가지고 미지의 영역을 향해 용기 있게 나아가십시오."
+    },
+    {
+      "title": "진리를 발견하기 위해서는 우리의 눈뿐만 아니라 마음의 눈도 함께 활짝 열어야 합니다.",
+      "content": "보이는 현상에만 만족하지 말고, 이성과 수학적 직관을 활용하여 그 이면에 숨겨진 깊은 진실을 꿰뚫어 보십시오."
+    }
+  ],
+  "persona": "당신은 크리스티안 하이헌스이다.",
+  "imageUrl": "/images/giants/christiaan-huygens.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1629~1695)"
+},
+  {
+  "id": "461",
+  "name": "다이안 포시",
+  "category": "science",
+  "headline": "르완다 비룽가 산맥에서 산악고릴라와 함께 생활하며 그들을 멸종 위기에서 구한 전설적인 영장류학자이자 동물 보호 운동가이다.",
+  "shortDescription": "다이안 포시의 일대기와 지혜",
+  "slug": "dian-fossey",
+  "quote": "인간이 모든 생명체의 가치를 진정으로 이해하게 될 때, 자연을 파괴하는 일은 멈추게 될 것입니다.",
+  "pain": "아프리카 밀림의 척박한 환경과 질병, 그리고 무자비한 밀렵꾼들의 끊임없는 살해 위협 속에서 연구와 보호 활동을 이어가야 했다.",
+  "recovery": "고릴라에 대한 깊은 사랑과 헌신적인 열정으로 무장하여 직접 밀렵 단속에 나서는 등 물러서지 않는 용기로 생태계를 지켜냈다.",
+  "lessons": [
+    {
+      "title": "인간이 모든 생명체의 가치를 진정으로 이해하게 될 때, 자연을 파괴하는 일은 멈추게 될 것입니다.",
+      "content": "자연을 통제나 착취의 대상으로 보지 말고, 모든 생명체와 함께 공존하고 연대하는 지혜를 기르십시오."
+    },
+    {
+      "title": "한 사람의 결연한 의지와 열정만으로도 세상을 변화시키는 강력한 불씨가 될 수 있습니다.",
+      "content": "어려운 환경에서도 자신이 옳다고 믿는 신념을 굽히지 말고, 행동으로 실천하여 세상에 긍정적인 변화를 일으키십시오."
+    },
+    {
+      "title": "우리가 동물을 구하는 것은 결국 우리 인간 스스로의 영혼을 구원하는 길과 맞닿아 있습니다.",
+      "content": "지구상의 모든 생명에 대한 책임감을 느끼고, 그들을 보호함으로써 스스로의 존엄성과 도덕적 가치를 지켜내십시오."
+    }
+  ],
+  "persona": "당신은 다이안 포시이다.",
+  "imageUrl": "/images/giants/dian-fossey.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1932~1985)"
+},
+  {
+  "id": "91",
+  "name": "도로시 호지킨",
+  "category": "science",
+  "headline": "X선 결정학을 이용하여 페니실린과 비타민 B12, 인슐린의 3차원 분자 구조를 규명한 영국의 노벨 화학상 수상자이다.",
+  "shortDescription": "도로시 호지킨의 일대기와 지혜",
+  "slug": "dorothy-hodgkin",
+  "quote": "불가능해 보이는 문제 앞에서도 포기하지 않고 끈기 있게 질문을 던지는 자만이 해답을 얻을 수 있습니다.",
+  "pain": "평생 류마티스 관절염으로 인한 극심한 신체적 고통에 시달렸으며, 남성 중심적인 학계의 편견 속에서 연구를 수행해야 했다.",
+  "recovery": "초인적인 인내심과 끈기로 육체적 한계를 극복하고, 35년이라는 긴 세월 동안 연구에 매진하여 인슐린의 구조를 밝혀냈다.",
+  "lessons": [
+    {
+      "title": "불가능해 보이는 문제 앞에서도 포기하지 않고 끈기 있게 질문을 던지는 자만이 해답을 얻을 수 있습니다.",
+      "content": "난관에 부딪혔을 때 쉽게 단념하지 말고, 목표를 향해 오랜 시간 동안 꾸준히 전진하는 인내심을 발휘하십시오."
+    },
+    {
+      "title": "과학은 결코 국경이나 이데올로기에 얽매여서는 안 되며, 오직 인류 공동의 번영을 위해 쓰여야 합니다.",
+      "content": "편협한 갈등과 분열을 넘어, 타인과 적극적으로 소통하고 평화를 위해 협력하는 넓은 마음을 가지십시오."
+    },
+    {
+      "title": "세상의 복잡한 구조를 이해하기 위해서는 겉모습이 아닌 그 깊은 중심부까지 꿰뚫어 보는 시선이 필요합니다.",
+      "content": "사물의 표면에 속지 말고, 본질과 핵심을 파악하기 위해 깊이 있게 관찰하고 분석하는 능력을 기르십시오."
+    }
+  ],
+  "persona": "당신은 도로시 호지킨이다.",
+  "imageUrl": "/images/giants/dorothy-hodgkin.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1910~1994)"
+},
+  {
+  "id": "454",
+  "name": "도로시 본",
+  "category": "science",
+  "headline": "차별의 벽을 허물고 NASA의 흑인 여성 수학자들을 이끌어 초기 우주 개발 프로그램의 성공에 기여한 천재적인 프로그래머이다.",
+  "shortDescription": "도로시 본의 일대기와 지혜",
+  "slug": "dorothy-vaughan",
+  "quote": "변화의 파도가 밀려올 때 두려워하며 뒤로 물러서지 말고, 스스로 그 파도에 올라타 새로운 길을 개척하십시오.",
+  "pain": "인종 차별을 규정한 짐 크로우 법과 극심한 성 차별 속에서 분리된 작업 공간을 쓰며 정당한 대우를 받지 못했다.",
+  "recovery": "탁월한 실력과 리더십으로 유색인종 최초의 관리자가 되었고, 전자 컴퓨터 시대를 미리 대비하여 동료들에게 프로그래밍을 가르침으로써 생존과 성공을 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "변화의 파도가 밀려올 때 두려워하며 뒤로 물러서지 말고, 스스로 그 파도에 올라타 새로운 길을 개척하십시오.",
+      "content": "시대의 흐름과 기술적 변화를 기민하게 읽어내고, 스스로 새로운 기술을 습득하여 위기를 훌륭한 기회로 만드십시오."
+    },
+    {
+      "title": "자신만의 성공에 안주하지 않고, 곁에 있는 동료들과 함께 성장할 때 비로소 진정한 리더십이 완성됩니다.",
+      "content": "개인의 성취를 넘어 타인의 발전과 권익을 위해 기꺼이 헌신하고 이끌어주는 참된 리더가 되십시오."
+    },
+    {
+      "title": "아무리 척박한 환경 속에서도 묵묵히 실력을 갈고닦는다면, 결국 세상은 그 진가를 알아볼 수밖에 없습니다.",
+      "content": "차별과 부당한 대우에 좌절하지 말고, 흔들림 없이 자신의 역량을 키우며 당당하게 실력으로 증명해 보이십시오."
+    }
+  ],
+  "persona": "당신은 도로시 본이다.",
+  "imageUrl": "/images/giants/dorothy-vaughan.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1910~2008)"
+},
+  {
+  "id": "234",
+  "name": "에드윈 허블",
+  "category": "science",
+  "headline": "우리 은하 밖의 외부 은하들을 발견하고 우주가 팽창하고 있음을 증명하여 현대 우주론의 기초를 확립한 천문학자이다.",
+  "shortDescription": "에드윈 허블의 일대기와 지혜",
+  "slug": "edwin-hubble",
+  "quote": "오감을 통해 관찰된 사실들이 모여 이론을 만들지만, 그 이론은 또 다른 미지의 우주로 우리를 안내하는 지도일 뿐입니다.",
+  "pain": "자신의 재능을 지지하지 않던 아버지의 강압으로 인해 법학을 공부해야 했고, 천문학자의 길을 걷기까지 오랜 시간을 돌아가야 했다.",
+  "recovery": "안정적인 변호사의 길을 과감히 포기하고 가슴속 열정을 따라 천문대로 향했으며, 세계 최대의 망원경을 밤낮없이 관측하여 우주의 팽창을 증명해냈다.",
+  "lessons": [
+    {
+      "title": "오감을 통해 관찰된 사실들이 모여 이론을 만들지만, 그 이론은 또 다른 미지의 우주로 우리를 안내하는 지도일 뿐입니다.",
+      "content": "현재의 지식에 안주하지 말고, 관찰과 객관적인 사실을 바탕으로 끊임없이 우주의 더 큰 진리를 탐구하십시오."
+    },
+    {
+      "title": "다른 이들이 정해놓은 길을 걷기보다는, 내 가슴이 진정으로 뛰고 열망하는 곳을 향해 용기 있게 나아가야 합니다.",
+      "content": "주변의 기대나 사회적 압력에 흔들리지 말고, 자신이 진정으로 열정을 느끼는 길을 과감하게 선택하십시오."
+    },
+    {
+      "title": "망원경 너머로 보이는 빛은 과거의 기록이자 미래를 상상하게 하는 인류의 가장 강력한 도구입니다.",
+      "content": "현상의 이면에 담긴 거대한 시간과 공간의 역사를 이해하고, 폭넓은 시야로 세상을 거시적으로 조망하십시오."
+    }
+  ],
+  "persona": "당신은 에드윈 허블이다.",
+  "imageUrl": "/images/giants/edwin-hubble.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1889~1953)"
+},
+  {
+  "id": "235",
+  "name": "엔리코 페르미",
+  "category": "science",
+  "headline": "이론과 실험을 완벽하게 결합하여 원자력 시대를 열어젖힌 20세기 최고의 천재 물리학자다.",
+  "shortDescription": "엔리코 페르미의 일대기와 지혜",
+  "slug": "enrico-fermi",
+  "quote": "이론이 실험과 일치하지 않는다면, 그것은 새로운 발견의 시작입니다.",
+  "pain": "파시스트 정권의 반유대주의 법안으로 인해 유대인이었던 아내와 가족이 심각한 생명의 위협을 받는 절망적인 상황에 직면했다.",
+  "recovery": "노벨상 시상식을 기회로 조국 이탈리아를 떠나 미국으로 망명하는 결단력을 발휘하여 가족의 안전을 지키고 연구를 이어갔다.",
+  "lessons": [
+    {
+      "title": "이론이 실험과 일치하지 않는다면, 그것은 새로운 발견의 시작입니다.",
+      "content": "예상치 못한 결과나 실패를 두려워하지 마십시오. 오히려 그것을 새로운 지식과 진리로 나아가는 가장 중요한 도약대로 삼으십시오."
+    },
+    {
+      "title": "무지한 상태로 결론을 내리기보다는 차라리 모르는 채로 남아있는 것이 낫습니다.",
+      "content": "충분한 근거와 논리 없이 성급하게 판단하지 마십시오. 불확실성을 인정하고 끝까지 탐구하는 자세를 유지하십시오."
+    },
+    {
+      "title": "결과를 미리 알 수 있다면 그것은 더 이상 연구가 아닙니다.",
+      "content": "도전적인 과제 앞에서 정해진 답을 찾으려 하지 마십시오. 미지의 영역을 개척하는 과정 자체에서 가장 큰 가치를 발견하십시오."
+    }
+  ],
+  "persona": "당신은 엔리코 페르미이다.",
+  "imageUrl": "/images/giants/enrico-fermi.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1901~1954)"
+},
+  {
+  "id": "325",
+  "name": "어니스트 러더퍼드",
+  "category": "science",
+  "headline": "원자핵을 최초로 발견하고 방사능의 본질을 규명하여 현대 핵물리학의 기초를 다진 위대한 개척자다.",
+  "shortDescription": "어니스트 러더퍼드의 일대기와 지혜",
+  "slug": "ernest-rutherford",
+  "quote": "모든 과학은 물리학이거나 아니면 우표 수집에 불과하다.",
+  "pain": "가난한 농촌 가정에서 태어나 경제적인 어려움을 겪었으며, 방사능이라는 미지의 현상에 도전할 당시 주류 화학계의 거센 반발에 직면했다.",
+  "recovery": "뛰어난 학업 성취로 장학금을 쟁취하여 학문의 길을 개척했고, 흔들림 없는 정밀한 실험 증거들을 끊임없이 제시하여 반대자들을 설득시켰다.",
+  "lessons": [
+    {
+      "title": "모든 과학은 물리학이거나 아니면 우표 수집에 불과하다.",
+      "content": "단순한 현상의 나열에 그치지 말고, 만물의 근본적인 원리와 법칙을 깊이 파고들어 핵심을 꿰뚫어 보는 통찰력을 기르십시오."
+    },
+    {
+      "title": "만약 당신의 이론을 바텐더에게 설명할 수 없다면, 그것은 좋은 이론이 아닙니다.",
+      "content": "아무리 복잡한 생각이라도 누구나 이해할 수 있도록 명확하고 단순하게 전달하는 소통의 능력을 갖추십시오."
+    },
+    {
+      "title": "우리는 돈이 없었기 때문에, 그 대신 생각이라는 것을 해야만 했습니다.",
+      "content": "주어진 자원의 부족함을 핑계로 삼지 말고, 오히려 그것을 창의적이고 혁신적인 아이디어를 끌어내는 원동력으로 승화시키십시오."
+    }
+  ],
+  "persona": "당신은 어니스트 러더퍼드이다.",
+  "imageUrl": "/images/giants/ernest-rutherford.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1871~1937)"
+},
+  {
+  "id": "135",
+  "name": "에른스트 헤켈",
+  "category": "science",
+  "headline": "다윈의 진화론을 대중화하고 '계통수'와 '생태학' 등의 개념을 창안하여 생물학의 지평을 넓힌 학자다.",
+  "shortDescription": "에른스트 헤켈의 일대기와 지혜",
+  "slug": "ernst-haeckel",
+  "quote": "자연의 아름다움은 그 자체로 가장 위대한 종교이자 철학입니다.",
+  "pain": "아버지의 강압에 의해 원치 않는 의사 생활을 해야 했으며, 다윈의 진화론을 전파할 때 종교계와 보수 학계의 거센 비난과 인신공격에 직면했다.",
+  "recovery": "의사의 길을 과감히 포기하고 자연 과학자의 길을 선택했으며, 탁월한 예술적 스케치와 논리적인 대중 강연으로 진화론의 정당성을 흔들림 없이 설득해 냈다.",
+  "lessons": [
+    {
+      "title": "자연의 아름다움은 그 자체로 가장 위대한 종교이자 철학입니다.",
+      "content": "주변의 자연을 깊이 관찰하고 그 속에서 생명의 경이로움과 조화로움을 발견하는 지혜를 기르십시오."
+    },
+    {
+      "title": "모든 생명체는 단 하나의 뿌리에서 자라난 거대한 나무의 가지들입니다.",
+      "content": "나와 다른 존재들을 배척하지 말고, 모두가 하나의 거대한 생명 공동체로 연결되어 있음을 깊이 인식하십시오."
+    },
+    {
+      "title": "과학과 예술은 세상을 이해하는 두 개의 다른 눈일 뿐, 결코 분리된 것이 아닙니다.",
+      "content": "어느 한 분야에만 갇히지 말고 이성과 감성, 논리와 미학을 융합하여 세상을 더 넓은 시야로 바라보십시오."
+    }
+  ],
+  "persona": "당신은 에른스트 헤켈이다.",
+  "imageUrl": "/images/giants/ernst-haeckel.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1834~1919)"
+},
+  {
+  "id": "330",
+  "name": "프랜시스 크릭",
+  "category": "science",
+  "headline": "이중 나선 구조를 밝혀내고 유전 정보의 흐름을 규명하여 현대 분자생물학의 시대를 개척한 천재 생물학자다.",
+  "shortDescription": "프랜시스 크릭의 일대기와 지혜",
+  "slug": "francis-crick",
+  "quote": "어떤 문제가 너무나 어려워 보인다면, 그 문제를 해결하기 위해 당신은 지금까지와는 완전히 다른 접근법을 시도해야만 합니다.",
+  "pain": "제2차 세계대전으로 인해 촉망받던 물리학 연구가 완전히 중단되었고, 30세가 넘은 늦은 나이에 생물학이라는 전혀 생소한 분야에 맨바닥부터 다시 도전해야 했다.",
+  "recovery": "놀라운 융합적 사고와 불굴의 끈기로 물리학의 원리를 생물학에 접목시켜 분자생물학이라는 완전히 새로운 학문적 지평을 개척해 냈다.",
+  "lessons": [
+    {
+      "title": "어떤 문제가 너무나 어려워 보인다면, 그 문제를 해결하기 위해 당신은 지금까지와는 완전히 다른 접근법을 시도해야만 합니다.",
+      "content": "기존의 방식이 통하지 않을 때는 시야를 넓혀 다른 분야의 지식과 방법을 과감하게 차용하는 용기를 발휘하십시오."
+    },
+    {
+      "title": "가장 큰 위험은 어리석은 가설을 세우는 것이 아니라, 세워둔 가설에 지나치게 맹목적으로 집착하는 것입니다.",
+      "content": "자신의 생각이 틀릴 수 있음을 겸허히 인정하고, 새로운 증거가 나타나면 언제든 유연하게 생각을 바꿀 준비를 하십시오."
+    },
+    {
+      "title": "당신이 살아 숨 쉬는 기계 그 이상이라는 생각은 단지 환상에 불과할지도 모릅니다. 하지만 우리는 그 기계가 어떻게 작동하는지 알아내야만 합니다.",
+      "content": "인간 존재에 대한 신비주의에 머물지 말고, 이성과 과학을 통해 그 가장 깊은 본질을 끝까지 파헤쳐 보십시오."
+    }
+  ],
+  "persona": "당신은 프랜시스 크릭이다.",
+  "imageUrl": "/images/giants/francis-crick.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1916~2004)"
+},
+  {
+  "id": "311",
+  "name": "프레더릭 밴팅",
+  "category": "science",
+  "headline": "불치병이었던 당뇨병의 치료제 인슐린을 발견하여 수천만 명의 생명을 구한 캐나다의 위대한 의학자다.",
+  "shortDescription": "프레더릭 밴팅의 일대기와 지혜",
+  "slug": "frederick-banting",
+  "quote": "인슐린은 세계의 것이지, 나의 것이 아닙니다.",
+  "pain": "당뇨병 연구에 대한 경험이 전혀 없었기에 주류 의학계의 냉대를 받았으며, 열악한 실험실 환경과 숱한 실험 실패로 극도의 좌절과 피로에 시달렸다.",
+  "recovery": "자신의 직관에 대한 확고한 믿음을 바탕으로 젊은 조수와 함께 밤낮없이 수술과 추출 실험에 매달려 마침내 인슐린을 분리하는 기적을 만들어냈다.",
+  "lessons": [
+    {
+      "title": "인슐린은 세계의 것이지, 나의 것이 아닙니다.",
+      "content": "개인의 이익이나 영달만을 좇지 말고, 자신이 이룩한 성과를 인류 전체의 더 큰 선을 위해 기꺼이 나누어주는 숭고한 정신을 가지십시오."
+    },
+    {
+      "title": "가장 원대한 발견의 순간은 완벽한 연구실이 아니라, 포기하지 않는 단 하나의 열정 속에서 탄생합니다.",
+      "content": "비록 주변 환경이 열악하고 자원이 부족하더라도, 명확한 목표와 불굴의 의지가 있다면 어떠한 기적이라도 이룰 수 있음을 믿으십시오."
+    },
+    {
+      "title": "나는 사람들의 영혼을 구하기보다 그들의 고통받는 육신을 먼저 구하고 싶었습니다.",
+      "content": "거창하고 추상적인 이상론에만 머물지 말고, 지금 당장 눈앞에서 고통받는 이들에게 실질적이고 구체적인 도움을 베푸십시오."
+    }
+  ],
+  "persona": "당신은 프레더릭 밴팅이다.",
+  "imageUrl": "/images/giants/frederick-banting.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1891~1941)"
+},
+  {
+  "id": "126",
+  "name": "게오르크 옴",
+  "category": "science",
+  "headline": "전압, 전류, 저항의 관계를 명확히 규명하여 현대 전기공학의 기초를 확립한 선구적인 물리학자이다.",
+  "shortDescription": "게오르크 옴의 일대기와 지혜",
+  "slug": "georg-ohm",
+  "quote": "전류의 세기는 전압에 비례하고 저항에 반비례한다.",
+  "pain": "자신의 위대한 발견이 당시 독일 주류 학계의 철학적 풍토와 맞지 않는다는 이유로 철저히 조롱당하고 일자리를 잃는 수모를 겪었다.",
+  "recovery": "끝없는 빈곤과 학계의 외면 속에서도 자신의 수학적 증명과 실험 결과에 대한 확신을 굽히지 않았으며, 결국 국제적인 인정을 받아내며 과학적 진실을 입증했다.",
+  "lessons": [
+    {
+      "title": "전류의 세기는 전압에 비례하고 저항에 반비례한다.",
+      "content": "복잡해 보이는 현상 속에서도 가장 단순하고 명료한 수학적 진리가 숨어 있음을 기억하십시오. 꾸준한 관찰과 논리적 분석은 결국 진실을 드러냅니다."
+    },
+    {
+      "title": "진리는 다른 사람들이 그것을 인정하든 안 하든 스스로 빛을 발한다.",
+      "content": "당신의 확신이 올바른 증거와 이성에 기반하고 있다면, 주변의 냉대나 조롱에 굴복하지 마십시오. 진정한 가치는 시간이 지나면 반드시 증명됩니다."
+    },
+    {
+      "title": "수학은 자연의 언어이며, 우리는 이 언어를 통해 자연의 신비를 풀 수 있다.",
+      "content": "자신의 분야에서 사용되는 가장 기초적이고 본질적인 원리를 깊이 파고드십시오. 탄탄한 기초가 혁신적인 발견의 가장 강력한 무기가 됩니다."
+    }
+  ],
+  "persona": "당신은 게오르크 옴이다.",
+  "imageUrl": "/images/giants/georg-ohm.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1789~1854)"
+},
+  {
+  "id": "102",
+  "name": "거티 코리",
+  "category": "science",
+  "headline": "근육과 간 사이의 에너지 대사 과정인 '코리 회로'를 규명하여 당뇨병 치료의 기초를 다진 탁월한 생화학자이다.",
+  "shortDescription": "거티 코리의 일대기와 지혜",
+  "slug": "gerty-cori",
+  "quote": "나는 과학 연구의 길을 선택한 것을 단 한 번도 후회한 적이 없다.",
+  "pain": "여성이라는 이유로 극심한 성차별과 임금 차별을 받았으며, 남편과의 공동 연구를 이유로 지속적인 퇴사 압박과 부당한 대우에 시달려야 했다.",
+  "recovery": "세상의 편견에 굴복하지 않고 평생의 동반자와 함께 연구에 매진하여 인체 대사의 핵심 원리를 밝혀냈으며, 불치병 투병 중에도 끝까지 연구실을 지키며 학문적 성취를 이루었다.",
+  "lessons": [
+    {
+      "title": "나는 과학 연구의 길을 선택한 것을 단 한 번도 후회한 적이 없다.",
+      "content": "당신이 진정으로 사랑하고 가치를 두는 일이라면, 외부의 어떤 억압이나 시련 속에서도 흔들리지 말고 당신의 길을 걸어가십시오."
+    },
+    {
+      "title": "자연의 비밀을 한 꺼풀 벗겨낼 때마다 얻게 되는 기쁨은 그 어떤 보상과도 비교할 수 없다.",
+      "content": "세속적인 인정이나 보상보다 자신이 탐구하는 과정 자체에서 깊은 의미와 순수한 기쁨을 찾으십시오. 그것이 가장 강력한 원동력이 됩니다."
+    },
+    {
+      "title": "과학에서 가장 중요한 것은 정직성이다. 우리는 자연 앞에서 결코 거짓을 말할 수 없다.",
+      "content": "어떤 난관에 봉착하더라도 진실을 타협하지 마십시오. 정직하고 엄밀한 과정만이 시대를 초월하여 빛나는 진정한 성과를 만들어냅니다."
+    }
+  ],
+  "persona": "당신은 거티 코리이다.",
+  "imageUrl": "/images/giants/gerty-cori.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1896~1957)"
+},
+  {
+  "id": "451",
+  "name": "그레이스 호퍼",
+  "category": "science",
+  "headline": "사람의 언어를 기계어로 번역하는 컴파일러를 최초로 개발하여 소프트웨어 혁명을 이끈 선구적인 컴퓨터 과학자이다.",
+  "shortDescription": "그레이스 호퍼의 일대기와 지혜",
+  "slug": "grace-hopper",
+  "quote": "항해를 하지 않고 항구에 정박해 있는 배는 가장 안전하지만, 그것이 배가 만들어진 목적은 아니다.",
+  "pain": "여성이라는 이유로, 그리고 서른여덟 살이라는 늦은 나이 탓에 해군 입대를 거절당했으며, 인간의 언어로 프로그래밍을 하겠다는 아이디어는 주류 학계의 조롱을 받았다.",
+  "recovery": "특유의 끈질긴 설득으로 군에 입대하여 세계 최초의 전기기계식 컴퓨터를 성공적으로 운영했고, 비웃음 속에서도 최초의 컴파일러를 완성하여 프로그래밍의 대중화를 이끌었다.",
+  "lessons": [
+    {
+      "title": "항해를 하지 않고 항구에 정박해 있는 배는 가장 안전하지만, 그것이 배가 만들어진 목적은 아니다.",
+      "content": "실패를 두려워하여 안주하지 마십시오. 새로운 지식을 탐구하고 낯선 세계로 나아가는 도전이야말로 우리의 진정한 존재 이유입니다."
+    },
+    {
+      "title": "가장 위험한 변명은 '우리는 언제나 이런 방식으로 해왔다'는 말이다.",
+      "content": "오랜 관행이나 익숙한 방식에 안주하지 마십시오. 혁신은 언제나 당연하게 여겨지던 기존의 틀에 의문을 제기하는 것에서부터 시작됩니다."
+    },
+    {
+      "title": "먼저 허락을 구하기보다는 나중에 용서를 구하는 편이 훨씬 쉽다.",
+      "content": "당신이 옳다고 확신하는 아이디어가 있다면, 윗사람의 승인을 기다리느라 시간을 낭비하지 말고 우선 실행에 옮겨 결과를 증명하십시오."
+    }
+  ],
+  "persona": "당신은 그레이스 호퍼이다.",
+  "imageUrl": "/images/giants/grace-hopper.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1906~1992)"
+},
+  {
+  "id": "38",
+  "name": "곽수경",
+  "category": "science",
+  "headline": "수도 베이징의 운하를 설계하고, 세계 최고 수준의 정밀도를 자랑하는 수시력을 완성한 뛰어난 천문학자이자 수리학자이다.",
+  "shortDescription": "곽수경의 일대기와 지혜",
+  "slug": "guo-shoujing",
+  "quote": "학문은 이론에 그치지 않고, 반드시 사람들의 삶을 윤택하게 하는 실용으로 이어져야 한다.",
+  "pain": "전란으로 인해 황폐해진 국토와 수로, 그리고 오차가 누적되어 신뢰를 잃은 낡은 역법 시스템을 물려받아 모든 것을 새롭게 설계해야 하는 막막한 상황에 놓였다.",
+  "recovery": "탁월한 기하학적 직관과 독창적인 발명품인 간의, 고표 등을 활용하여 방대한 데이터를 수집했고, 마침내 서양보다 300년 앞서 1년의 길이를 가장 정확하게 계산해냈다.",
+  "lessons": [
+    {
+      "title": "학문은 이론에 그치지 않고, 반드시 사람들의 삶을 윤택하게 하는 실용으로 이어져야 한다.",
+      "content": "당신이 배운 지식과 기술을 현실의 문제를 해결하는 데 적극적으로 활용하십시오. 진정한 학문의 가치는 세상에 유익한 변화를 만들어낼 때 빛을 발합니다."
+    },
+    {
+      "title": "관측 기계가 정밀하지 못하면 수치가 어긋나고, 수치가 어긋나면 하늘의 이치를 결코 짐작할 수 없다.",
+      "content": "어떤 중대한 문제를 해결하고자 한다면, 먼저 그것을 측정하고 분석하는 도구부터 날카롭게 다듬으십시오. 도구의 정밀함이 결과의 정확성을 결정합니다."
+    },
+    {
+      "title": "옛사람의 법에 얽매이지 않고, 오직 하늘의 움직임과 땅의 형세를 직접 눈으로 보고 헤아려야 한다.",
+      "content": "과거의 권위나 낡은 관습에 무비판적으로 순응하지 마십시오. 끊임없이 스스로 관찰하고 검증하는 실증적인 태도만이 새로운 혁신을 이끌어냅니다."
+    }
+  ],
+  "persona": "당신은 곽수경이다.",
+  "imageUrl": "/images/giants/guo-shoujing.jpg",
+  "dnaCode": "LRHI",
+  "era": "13세기의 거인 (1231~1316)"
+},
+  {
+  "id": "119",
+  "name": "하인리히 헤르츠",
+  "category": "science",
+  "headline": "맥스웰의 전자기파 이론을 최초로 실험을 통해 증명하여 현대 무선 통신 시대의 서막을 연 천재 물리학자이다.",
+  "shortDescription": "하인리히 헤르츠의 일대기와 지혜",
+  "slug": "heinrich-hertz",
+  "quote": "위대한 발견은 종종 낡은 장비와 빈약한 시설 속에서도 탄생한다. 중요한 것은 장비가 아니라 그것을 다루는 사람의 정신이다.",
+  "pain": "수학적으로만 존재할 뿐 아무도 그 실체를 본 적이 없었던 전자기파를 실험실 환경에서 인위적으로 만들어내고 측정해야 하는 막막한 난제에 직면했다.",
+  "recovery": "뛰어난 직관력과 집요한 실험 설계 능력을 발휘하여 간단하지만 독창적인 불꽃 방전 장치를 고안해냈고, 마침내 눈에 보이지 않는 전자기파의 존재를 세계 최초로 입증해 냈다.",
+  "lessons": [
+    {
+      "title": "위대한 발견은 종종 낡은 장비와 빈약한 시설 속에서도 탄생한다. 중요한 것은 장비가 아니라 그것을 다루는 사람의 정신이다.",
+      "content": "주어진 환경이나 부족한 조건 탓을 하지 마십시오. 문제의 본질을 꿰뚫어 보는 날카로운 직관과 창의성만 있다면 어떤 악조건 속에서도 돌파구를 찾을 수 있습니다."
+    },
+    {
+      "title": "우리는 자연에게 어떠한 속성도 강요할 수 없다. 오직 자연이 우리에게 말해주는 것을 주의 깊게 들을 수 있을 뿐이다.",
+      "content": "자신의 편견이나 섣부른 이론에 결과를 억지로 끼워 맞추려 하지 마십시오. 실험과 관찰을 통해 드러나는 엄연한 객관적 사실 앞에 항상 겸허해야 합니다."
+    },
+    {
+      "title": "순수한 호기심에서 출발한 기초 연구가 당장 쓸모없어 보일지라도, 그것은 미래를 바꾸는 가장 강력한 씨앗이 된다.",
+      "content": "당장의 가시적인 성과나 경제적 이익만을 좇지 마십시오. 근본적인 원리에 대한 순수한 탐구야말로 세상을 뒤바꿀 혁신적인 변화의 토대가 됩니다."
+    }
+  ],
+  "persona": "당신은 하인리히 헤르츠이다.",
+  "imageUrl": "/images/giants/heinrich-hertz.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1857~1894)"
+},
+  {
+  "id": "106",
+  "name": "헨리에타 리비트",
+  "category": "science",
+  "headline": "별의 밝기 변화를 이용해 우주의 거리를 재는 척도를 발견한 현대 천문학의 개척자다.",
+  "shortDescription": "헨리에타 리비트의 일대기와 지혜",
+  "slug": "henrietta-swan-leavitt",
+  "quote": "천문학의 새로운 장을 여는 것은 망원경의 크기가 아니라 데이터를 바라보는 새로운 시각이다.",
+  "pain": "여성 과학자에 대한 극심한 차별과 점진적인 청력 상실이라는 신체적 장벽에 부딪혔다.",
+  "recovery": "오직 우주의 비밀을 해독하겠다는 순수한 열정으로 수만 장의 사진 건판을 묵묵히 분석하여 스스로 길을 개척했다.",
+  "lessons": [
+    {
+      "title": "천문학의 새로운 장을 여는 것은 망원경의 크기가 아니라 데이터를 바라보는 새로운 시각이다.",
+      "content": "한계에 부딪혔을 때 도구를 탓하지 말고 관점을 바꿔보십시오. 당신이 가진 작은 데이터 속에 세상을 바꿀 해답이 숨어 있을 수 있습니다."
+    },
+    {
+      "title": "규칙은 숨어 있을 뿐, 결코 존재하지 않는 것이 아니다.",
+      "content": "혼란스럽고 복잡해 보이는 상황 속에서도 끈기를 잃지 마십시오. 인내심을 가지고 묵묵히 관찰하면 반드시 보이지 않던 질서가 모습을 드러낼 것입니다."
+    },
+    {
+      "title": "우리가 우주의 크기를 알 수 있다면, 우리의 존재는 더 이상 미미하지 않다.",
+      "content": "자신의 역할이 작고 초라해 보일지라도 스스로의 가치를 폄하하지 마십시오. 묵묵히 쌓아올린 당신의 노력은 거대한 역사의 척도가 될 수 있습니다."
+    }
+  ],
+  "persona": "당신은 헨리에타 리비트이다.",
+  "imageUrl": "/images/giants/henrietta-swan-leavitt.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1868~1921)"
+},
+  {
+  "id": "131",
+  "name": "헤르만 폰 헬름홀츠",
+  "category": "science",
+  "headline": "에너지 보존 법칙을 확립하고 의학과 물리학을 융합한 19세기 최고의 다방면 과학자다.",
+  "shortDescription": "헤르만 폰 헬름홀츠의 일대기와 지혜",
+  "slug": "hermann-von-helmholtz",
+  "quote": "과학은 자연이라는 위대한 악보를 읽어내는 우주적인 작업이다.",
+  "pain": "어려운 가정 형편으로 인해 원하던 순수 물리학 대신 군의관 양성 학교에 진학해야만 했다.",
+  "recovery": "열악한 군 막사에서도 실험실을 꾸려 의학과 물리학을 결합하는 파격적인 융합 연구를 포기하지 않고 추진했다.",
+  "lessons": [
+    {
+      "title": "과학은 자연이라는 위대한 악보를 읽어내는 우주적인 작업이다.",
+      "content": "각기 달라 보이는 현상 속에서도 공통된 원리를 찾아내려 노력하십시오. 학문의 경계를 과감히 허물 때 비로소 위대한 진리에 다가설 수 있습니다."
+    },
+    {
+      "title": "모든 에너지는 형태를 바꿀 뿐, 결코 사라지거나 소멸하지 않는다.",
+      "content": "당신이 쏟아부은 시간과 열정은 결코 헛되이 흩어지지 않습니다. 그것은 반드시 다른 형태의 가치로 변환되어 당신의 삶을 단단하게 지탱할 것입니다."
+    },
+    {
+      "title": "진정한 발견은 이전에 아무도 보지 못한 것을 보는 데서 시작된다.",
+      "content": "남들이 당연하게 여기는 일상적인 것에 끊임없이 질문을 던지십시오. 익숙한 현상을 새로운 시각으로 바라보는 순간 혁신이 피어납니다."
+    }
+  ],
+  "persona": "당신은 헤르만 폰 헬름홀츠이다.",
+  "imageUrl": "/images/giants/hermann-von-helmholtz.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1821~1894)"
+},
+  {
+  "id": "120",
+  "name": "험프리 데이비",
+  "category": "science",
+  "headline": "전기분해를 통해 새로운 원소들을 무더기로 발견하고 안전등을 발명한 천재 화학자다.",
+  "shortDescription": "험프리 데이비의 일대기와 지혜",
+  "slug": "humphry-davy",
+  "quote": "위대함을 향한 나의 가장 큰 발견은 새로운 원소가 아니라, 마이클 패러데이를 알아본 것이다.",
+  "pain": "가난한 목공의 아들로 태어나 정규 교육을 받지 못했고 약제사 조수로 일하며 가족의 생계를 책임져야 했다.",
+  "recovery": "약방 구석에서 조제 기구로 홀로 실험을 거듭하며 독학으로 당대 최고의 화학적 통찰력을 스스로 완성해냈다.",
+  "lessons": [
+    {
+      "title": "위대함을 향한 나의 가장 큰 발견은 새로운 원소가 아니라, 마이클 패러데이를 알아본 것이다.",
+      "content": "자신의 성취에만 머물지 말고 다음 세대의 잠재력을 적극 발굴하십시오. 진정한 위대함은 타인의 성장을 돕는 과정 속에서 완성됩니다."
+    },
+    {
+      "title": "자연의 진정한 아름다움은 그것을 실질적인 인류의 행복으로 바꿀 때 비로소 완성된다.",
+      "content": "당신이 가진 지식과 기술을 주변 사람들을 돕는 데 사용하십시오. 이타적인 목적을 향해 나아갈 때 당신의 능력은 가장 밝게 빛납니다."
+    },
+    {
+      "title": "나는 아무런 특허도 내지 않을 것이다. 나의 발명은 대중을 위한 것이지 부를 위한 것이 아니다.",
+      "content": "단기적인 이익이나 개인적 명성에 얽매이지 말고 더 큰 선을 추구하십시오. 대가를 바라지 않는 순수한 헌신이 결국 역사를 바꿀 수 있습니다."
+    }
+  ],
+  "persona": "당신은 험프리 데이비이다.",
+  "imageUrl": "/images/giants/humphry-davy.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1778~1829)"
+},
+  {
+  "id": "2",
+  "name": "허준",
+  "category": "science",
+  "headline": "동아시아 의학을 집대성하여 세계기록유산인 '동의보감'을 저술한 조선 최고의 의성이다.",
+  "shortDescription": "허준의 일대기와 지혜",
+  "slug": "ho-chun",
+  "quote": "병을 치료하기 전에 먼저 사람의 마음을 다스려야 한다.",
+  "pain": "무관 집안의 서자 출신으로 관직 진출이 가로막혀 있었고, 말년에는 선조의 승하에 대한 책임을 지고 유배형에 처해졌다.",
+  "recovery": "신분적 한계를 의학에 대한 학구열로 극복했으며, 유배지의 가혹한 환경 속에서도 굴하지 않고 15년 만에 불후의 명저를 완성해냈다.",
+  "lessons": [
+    {
+      "title": "병을 치료하기 전에 먼저 사람의 마음을 다스려야 한다.",
+      "content": "문제의 피상적인 증상만 해결하려 하지 말고 근본적인 원인을 깊이 살피십시오. 내면의 평온함이 모든 치유와 회복의 단단한 출발점이 됩니다."
+    },
+    {
+      "title": "비싼 외국의 약재보다 우리 땅에서 흔히 자라는 풀 한 포기가 사람을 살린다.",
+      "content": "멀고 화려한 곳에서만 해결책을 무리하게 찾지 마십시오. 당신의 주변에 있는 평범하고 익숙한 것들 속에 가장 실질적인 해답이 존재할 수 있습니다."
+    },
+    {
+      "title": "의사는 병의 경중이나 환자의 귀천을 가리지 않고 오직 생명을 살리는 데 몰두해야 한다.",
+      "content": "자신이 가진 기술이나 재능을 사용할 때 어떠한 차별이나 편견도 두지 마십시오. 타인을 향한 순수한 이타심이 당신의 업적을 더욱 위대하게 만듭니다."
+    }
+  ],
+  "persona": "당신은 허준이다.",
+  "imageUrl": "/images/giants/ho-chun.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1539~1615)"
+},
+  {
+  "id": "49",
+  "name": "이븐 알 나피스",
+  "category": "science",
+  "headline": "서양의 윌리엄 하비보다 300년이나 앞서 폐순환의 원리를 세계 최초로 발견한 위대한 이슬람 의학자다.",
+  "shortDescription": "이븐 알 나피스의 일대기와 지혜",
+  "slug": "ibn-al-nafis",
+  "quote": "천 년의 권위가 옳다고 말하더라도, 너의 관찰과 이성이 아니라고 한다면 과감히 의심하라.",
+  "pain": "13세기 당시에는 종교적, 사회적 금기로 인해 인체 해부가 엄격히 제한되어 생체 관찰이 매우 어려웠다.",
+  "recovery": "제한된 해부학적 환경 속에서도 뛰어난 논리적 추론과 외과 수술 시의 치밀한 관찰을 통해 인체의 순환 구조를 정확히 밝혀냈다.",
+  "lessons": [
+    {
+      "title": "천 년의 권위가 옳다고 말하더라도, 너의 관찰과 이성이 아니라고 한다면 과감히 의심하라.",
+      "content": "오래된 관습이나 이름난 전문가의 말에 무비판적으로 순응하지 마십시오. 스스로 깊이 탐구하고 검증하는 태도만이 진정한 혁신을 낳습니다."
+    },
+    {
+      "title": "의사는 환자의 고통 앞에서는 철학자가 되어야 하고, 상처 앞에서는 철저한 관찰자가 되어야 한다.",
+      "content": "어떤 문제를 해결할 때는 따뜻한 공감 능력과 냉철한 분석력을 동시에 발휘하십시오. 두 가지 태도의 균형이 가장 완벽한 결과를 만듭니다."
+    },
+    {
+      "title": "신체가 자연의 법칙을 엄격하게 따르듯, 진리 역시 숨겨진 법칙을 조용히 따라 흐른다.",
+      "content": "해결할 수 없을 것 같은 매우 복잡한 문제도 그 근원에는 단순한 논리가 숨어 있습니다. 인내심을 갖고 보이지 않는 연결고리를 차분히 찾아내십시오."
+    }
+  ],
+  "persona": "당신은 이븐 알 나피스이다.",
+  "imageUrl": "/images/giants/ibn-al-nafis.jpg",
+  "dnaCode": "LRHI",
+  "era": "13세기의 거인 (1213~1288)"
+},
+  {
+  "id": "109",
+  "name": "인게 레만",
+  "category": "science",
+  "headline": "지진파 데이터를 수학적으로 분석하여 지구 내부에 고체 상태의 내핵이 존재함을 최초로 증명한 덴마크의 지진학자이다.",
+  "shortDescription": "인게 레만의 일대기와 지혜",
+  "slug": "inge-lehmann",
+  "quote": "당신은 얼마나 많은 무능한 남성들과 경쟁해야 했는지 모를 것입니다.",
+  "pain": "여성 과학자에 대한 극심한 편견과 열악한 연구 환경 속에서도 그녀는 묵묵히 자신의 연구를 이어갔다.",
+  "recovery": "누구도 주목하지 않았던 미세한 지진파 데이터의 불일치를 끈질기게 분석하여 지구 내핵의 존재를 수학적으로 완벽하게 증명해 냈다.",
+  "lessons": [
+    {
+      "title": "당신은 얼마나 많은 무능한 남성들과 경쟁해야 했는지 모를 것입니다.",
+      "content": "자신의 능력을 의심하게 만드는 부당한 환경이나 편견 앞에서도 결코 주눅 들지 마십시오. 오직 실력과 끈기만이 모든 장벽을 허물고 당신의 진가를 증명하는 가장 확실한 무기가 됩니다."
+    },
+    {
+      "title": "수많은 데이터를 관찰하고 나면 스스로 무엇을 찾아야 할지 알게 됩니다.",
+      "content": "어떤 문제든 표면적인 현상에 만족하지 말고, 끈질기게 기초 데이터를 파고드십시오. 세밀한 관찰이 쌓이면 결국 보이지 않던 본질과 해답이 자연스럽게 모습을 드러낼 것입니다."
+    },
+    {
+      "title": "작은 예외가 때로는 가장 거대한 진실을 품고 있습니다.",
+      "content": "남들이 사소한 오류나 예외로 치부하고 넘기는 것들에 주목하십시오. 당연하게 여겨지는 상식에 의문을 품고 작은 단서를 집요하게 파헤칠 때 비로소 위대한 발견이 시작됩니다."
+    }
+  ],
+  "persona": "당신은 인게 레만이다.",
+  "imageUrl": "/images/giants/inge-lehmann.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1888~1993)"
+},
+  {
+  "id": "104",
+  "name": "이렌 조리오 퀴리",
+  "category": "science",
+  "headline": "인류 최초로 인공 방사능을 발견하여 현대 핵물리학과 방사선 의학의 기초를 닦은 프랑스의 과학자이다.",
+  "shortDescription": "이렌 조리오 퀴리의 일대기와 지혜",
+  "slug": "irene-joliot-curie",
+  "quote": "과학의 진정한 가치는 인류의 고통을 덜어주는 데 있습니다.",
+  "pain": "위대한 노벨상 수상자 부모의 그늘과 사람들의 비교 어린 시선 속에서도 끊임없이 스스로의 능력을 증명해야 했다.",
+  "recovery": "프레데리크와의 완벽한 공동 연구를 통해 인류 최초로 인공 방사능을 합성해 냄으로써 부모를 뛰어넘는 독자적인 과학적 업적을 이룩했다.",
+  "lessons": [
+    {
+      "title": "과학의 진정한 가치는 인류의 고통을 덜어주는 데 있습니다.",
+      "content": "자신이 가진 재능이나 기술을 단지 개인의 성공을 위해서만 사용하지 마십시오. 당신의 지식과 역량이 타인을 돕고 세상을 더 나은 곳으로 만드는 데 기여할 때 그 가치는 영원히 빛날 것입니다."
+    },
+    {
+      "title": "누구의 딸이라는 사실이 나의 연구를 대신해주지는 않습니다.",
+      "content": "주변의 화려한 배경이나 타인의 시선에 얽매이지 말고 스스로의 힘으로 길을 개척하십시오. 온전히 자신만의 땀과 노력으로 이루어낸 성취만이 당신의 진정한 정체성을 증명할 수 있습니다."
+    },
+    {
+      "title": "실험실의 실패는 더 큰 도약을 위해 반드시 치러야 할 비용입니다.",
+      "content": "수많은 실패와 좌절을 두려워하지 말고 끊임없이 도전하십시오. 모든 위대한 발견은 보이지 않는 곳에서 묵묵히 견뎌낸 무수한 시행착오와 인내의 산물이라는 것을 명심하십시오."
+    }
+  ],
+  "persona": "당신은 이렌 조리오 퀴리이다.",
+  "imageUrl": "/images/giants/irene-joliot-curie.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1897~1956)"
+},
+  {
+  "id": "48",
+  "name": "알 자자리",
+  "category": "science",
+  "headline": "크랭크축과 초기 형태의 로봇을 발명하여 현대 로봇 공학과 자동화 기술의 토대를 마련한 이슬람의 위대한 엔지니어이다.",
+  "shortDescription": "알 자자리의 일대기와 지혜",
+  "slug": "ismail-al-jazari",
+  "quote": "지식은 나누어 기록될 때 비로소 영원한 생명을 얻습니다.",
+  "pain": "지식을 은밀하게 독점하는 것이 당연시되던 중세 시대에, 그는 복잡한 기계 공학의 원리를 체계적으로 정리해야 하는 난관에 부딪혔다.",
+  "recovery": "정교한 도면과 실용적인 설명이 담긴 방대한 저서를 집필하여 후대 누구나 기계를 재현하고 기술을 발전시킬 수 있는 길을 활짝 열었다.",
+  "lessons": [
+    {
+      "title": "지식은 나누어 기록될 때 비로소 영원한 생명을 얻습니다.",
+      "content": "당신이 얻은 지혜와 노하우를 혼자만의 비밀로 감추지 말고 기꺼이 세상과 나누십시오. 후대를 위해 체계적으로 기록하고 공유할 때, 당신의 성취는 시대를 넘어 더욱 거대한 가치로 피어날 것입니다."
+    },
+    {
+      "title": "자연의 힘을 억누르지 말고 그 흐름에 톱니바퀴를 맡기십시오.",
+      "content": "순리를 거스르며 억지로 문제를 해결하려 하지 말고 자연스러운 흐름 속에서 해답을 찾으십시오. 주변의 상황과 자원을 유연하게 활용할 때 가장 효율적이고 강력한 돌파구를 마련할 수 있습니다."
+    },
+    {
+      "title": "가장 아름다운 기계는 사람의 수고를 덜어주는 장치입니다.",
+      "content": "어떤 기술이나 혁신이든 그 중심에는 항상 사람을 향한 따뜻한 시선이 있어야 합니다. 진정한 진보는 화려한 겉모습이 아니라 타인의 삶을 얼마나 가치 있고 편리하게 만들어주는지에 달려 있습니다."
+    }
+  ],
+  "persona": "당신은 알 자자리이다.",
+  "imageUrl": "/images/giants/ismail-al-jazari.jpg",
+  "dnaCode": "LRHI",
+  "era": "12세기의 거인 (1136~1206)"
+},
+  {
+  "id": "332",
+  "name": "이반 파블로프",
+  "category": "science",
+  "headline": "조건 반사 이론을 확립하여 심리학과 생물학의 경계를 허물고 행동주의 심리학의 기초를 다진 러시아의 생리학자이다.",
+  "shortDescription": "이반 파블로프의 일대기와 지혜",
+  "slug": "ivan-pavlov",
+  "quote": "결론으로 성급히 비상하지 말고, 사실을 모으는 인내심을 가져라.",
+  "pain": "정치적 이데올로기가 과학을 통제하려던 독재 치하에서 연구가 선전 도구로 왜곡될 뻔한 위기에 처했다.",
+  "recovery": "권력의 회유와 억압에도 굴하지 않고 과학자의 양심을 지키며, 오직 진리와 객관적 사실만을 추구하는 꼿꼿한 태도로 학문의 독립성을 수호했다.",
+  "lessons": [
+    {
+      "title": "결론으로 성급히 비상하지 말고, 사실을 모으는 인내심을 가져라.",
+      "content": "확실한 근거가 마련되기 전에 섣부른 추측으로 결론을 내리지 마십시오. 끈기를 가지고 객관적인 데이터를 하나씩 축적해 나갈 때 비로소 누구도 반박할 수 없는 단단한 진실에 도달하게 될 것입니다."
+    },
+    {
+      "title": "우연한 관찰을 무시하지 않는 자만이 위대한 발견을 할 수 있다.",
+      "content": "계획대로 진행되지 않는 예기치 못한 결과나 사소한 우연을 결코 가볍게 넘기지 마십시오. 때로는 그 작은 어긋남 속에 세상을 뒤바꿀 혁신적인 아이디어의 씨앗이 숨겨져 있습니다."
+    },
+    {
+      "title": "과학은 인간의 마음에 씌워진 신비의 베일을 걷어내는 가장 강력한 도구다.",
+      "content": "이해할 수 없는 복잡한 현상 앞에서도 막연한 두려움이나 미신에 기대지 마십시오. 철저한 이성과 논리적인 탐구를 통해 접근한다면, 아무리 얽힌 문제라도 명확한 해답을 찾아낼 수 있습니다."
+    }
+  ],
+  "persona": "당신은 이반 파블로프이다.",
+  "imageUrl": "/images/giants/ivan-pavlov.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1849~1936)"
+},
+  {
+  "id": "326",
+  "name": "J.J. 톰슨",
+  "category": "science",
+  "headline": "원자 내부에 존재하는 미립자인 전자를 최초로 발견하여 인류가 미시 세계의 문을 여는 데 결정적인 역할을 한 영국의 물리학자이다.",
+  "shortDescription": "J.J. 톰슨의 일대기와 지혜",
+  "slug": "j-j-thomson",
+  "quote": "도그마에 얽매이지 않고 새로운 사실을 수용할 때 과학은 도약합니다.",
+  "pain": "원자는 절대 쪼개질 수 없다는 2천 년 묵은 견고한 정설과 기성 학계의 완고한 저항에 홀로 맞서야 했다.",
+  "recovery": "정교하게 고안된 진공관 실험과 압도적인 데이터로 가장 가벼운 원자보다 1,000배나 작은 '전자'의 존재를 완벽하게 증명해 냈다.",
+  "lessons": [
+    {
+      "title": "도그마에 얽매이지 않고 새로운 사실을 수용할 때 과학은 도약합니다.",
+      "content": "모두가 당연하다고 믿는 굳건한 상식일지라도 의심의 여지가 있다면 과감하게 질문을 던지십시오. 기존의 틀을 깨고 새로운 관점을 두려움 없이 받아들일 때 진정한 혁신이 시작됩니다."
+    },
+    {
+      "title": "가장 위대한 발견은 흔히 가장 미세하고 보이지 않는 곳에 숨어 있습니다.",
+      "content": "남들이 주목하지 않는 작고 사소한 부분에 호기심을 집중해 보십시오. 표면적인 거대함보다 눈에 띄지 않는 미세한 디테일을 집요하게 파고들 때 문제의 핵심을 꿰뚫을 수 있습니다."
+    },
+    {
+      "title": "스승의 가장 큰 기쁨은 제자가 자신의 이론을 뛰어넘는 것을 보는 것입니다.",
+      "content": "자신의 성취와 권위에만 집착하지 말고 기꺼이 후배와 동료들이 성장할 수 있도록 발판이 되어 주십시오. 타인이 나의 한계를 넘어 더 큰 무대로 나아갈 수 있도록 돕는 것이 진정한 리더십입니다."
+    }
+  ],
+  "persona": "당신은 J.J. 톰슨이다.",
+  "imageUrl": "/images/giants/j-j-thomson.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1856~1940)"
+},
+  {
+  "id": "324",
+  "name": "제임스 채드윅",
+  "category": "science",
+  "headline": "1932년 원자핵을 구성하는 중성자를 최초로 발견하여 20세기 물리학과 원자력 시대의 서막을 연 영국의 위대한 실험 물리학자.",
+  "shortDescription": "제임스 채드윅의 일대기와 지혜",
+  "slug": "james-chadwick",
+  "quote": "나는 이 방사선이 감마선일 수 없다고 확신했습니다. 그것은 새로운 종류의 입자, 즉 질량을 가지면서도 전하는 없는 중성자임이 틀림없었습니다.",
+  "pain": "제1차 세계대전 발발 직후 베를린 유학 중이던 그는 적성국 국민으로 분류되어 루흘레벤 수용소에 4년 동안 억류되는 엄청난 시련을 겪어야만 했다.",
+  "recovery": "열악한 포로수용소의 환경 속에서도 그는 동료들과 함께 기발한 재료로 임시 실험실을 만들어 방사능 연구를 지속하는 놀라운 집념과 끈기를 보여주었다.",
+  "lessons": [
+    {
+      "title": "나는 이 방사선이 감마선일 수 없다고 확신했습니다. 그것은 새로운 종류의 입자, 즉 질량을 가지면서도 전하는 없는 중성자임이 틀림없었습니다.",
+      "content": "다른 이들이 간과하거나 잘못 해석한 데이터 속에서도 논리적 모순을 꿰뚫어 보는 통찰력이 중요합니다. 기존의 상식에 얽매이지 않고 진실을 직시하는 날카로운 시각을 기르십시오."
+    },
+    {
+      "title": "불충분한 도구와 열악한 조건 속에서 수행한 수용소에서의 실험은, 나에게 어떤 상황에서도 연구를 이어나갈 수 있다는 강인한 인내심을 가르쳐주었습니다.",
+      "content": "최악의 조건과 척박한 환경조차도 배움과 성장의 기회로 삼을 수 있습니다. 외부의 시련에 굴복하지 말고 자신이 할 수 있는 작은 노력부터 묵묵히 실천해 보십시오."
+    },
+    {
+      "title": "과학의 위대한 발견은 단절된 천재성이 아니라, 이전 세대의 연구와 동료들과의 끝없는 토론이 쌓아 올려 만든 거대한 협력의 결과물입니다.",
+      "content": "아무리 뛰어난 개인의 직관도 동료들과의 협동과 객관적인 검증 과정을 거쳐야만 비로소 빛을 발합니다. 지식을 나누고 타인의 연구를 존중하며 함께 협력하는 자세를 가지십시오."
+    }
+  ],
+  "persona": "당신은 제임스 채드윅이다.",
+  "imageUrl": "/images/giants/james-chadwick.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1891~1974)"
+},
+  {
+  "id": "130",
+  "name": "제임스 프레스콧 줄",
+  "category": "science",
+  "headline": "정밀한 실험을 통해 열과 역학적 일의 변환 관계를 최초로 증명하여 에너지 보존 법칙의 토대를 마련한 영국의 물리학자.",
+  "shortDescription": "제임스 프레스콧 줄의 일대기와 지혜",
+  "slug": "james-prescott-joule",
+  "quote": "자연의 법칙은 결코 모순되지 않으며, 우리가 그것을 깊이 이해할수록 우주의 완벽한 질서와 단순성이 드러납니다.",
+  "pain": "정규 대학 교육을 받지 못한 아마추어 과학자라는 신분 때문에, 열의 일당량에 관한 그의 혁명적인 논문은 초기 학계의 철저한 무시와 냉대를 받아야만 했다.",
+  "recovery": "그는 권위자들의 비판에 굴복하지 않고, 수년에 걸쳐 더욱 정교하고 다양한 실험 장치를 고안하여 자신의 데이터를 완벽하게 입증해냄으로써 마침내 과학계의 인정을 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "자연의 법칙은 결코 모순되지 않으며, 우리가 그것을 깊이 이해할수록 우주의 완벽한 질서와 단순성이 드러납니다.",
+      "content": "겉보기에는 복잡하고 모순되어 보이는 현상 속에서도 인내심을 가지고 관찰하면 일관된 규칙을 찾을 수 있습니다. 현상의 본질을 꿰뚫어 보려는 노력을 게을리하지 마십시오."
+    },
+    {
+      "title": "진정한 과학적 진보는 화려한 이론이 아니라, 소수점 아래의 미세한 변화를 놓치지 않으려는 정밀하고 집요한 측정에서 비롯됩니다.",
+      "content": "위대한 성취는 거창한 아이디어뿐만 아니라 세부 사항에 대한 지독한 집착에서 완성됩니다. 당신이 하고 있는 일의 아주 작은 오차조차도 소홀히 다루지 마십시오."
+    },
+    {
+      "title": "나는 학계의 인정이나 명성을 위해 실험하지 않았습니다. 오직 진실을 알아내고 자연이 작동하는 방식을 이해하고자 하는 순수한 열망만이 나를 이끌었습니다.",
+      "content": "타인의 인정이나 외적인 보상에 연연하기보다는, 자신이 하는 일 자체에서 순수한 의미와 가치를 찾아야 합니다. 내면의 호기심이 이끄는 길을 묵묵히 걸어가십시오."
+    }
+  ],
+  "persona": "당신은 제임스 프레스콧 줄이다.",
+  "imageUrl": "/images/giants/james-prescott-joule.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1818~1889)"
+},
+  {
+  "id": "329",
+  "name": "제임스 왓슨",
+  "category": "science",
+  "headline": "프랜시스 크릭과 함께 DNA 이중나선 구조를 규명하여 현대 분자생물학의 시대를 개막한 미국의 천재적인 생물학자.",
+  "shortDescription": "제임스 왓슨의 일대기와 지혜",
+  "slug": "james-watson",
+  "quote": "가장 똑똑한 사람이 될 필요는 없습니다. 그저 가장 똑똑한 사람들과 함께 일하고, 그들의 강점을 하나로 엮어낼 수 있는 통찰력만 있으면 충분합니다.",
+  "pain": "당대 최고의 과학자인 라이너스 폴링과 경쟁하는 과정에서, 초기 모델 구축에 크게 실패하여 연구소장으로부터 DNA 연구를 중단하라는 압박을 받았다.",
+  "recovery": "그는 포기하지 않고 프랭클린의 X선 회절 데이터와 샤가프의 법칙 등 다양한 정보를 창의적으로 융합하여 마침내 이중나선이라는 정확한 구조를 추론해냈다.",
+  "lessons": [
+    {
+      "title": "가장 똑똑한 사람이 될 필요는 없습니다. 그저 가장 똑똑한 사람들과 함께 일하고, 그들의 강점을 하나로 엮어낼 수 있는 통찰력만 있으면 충분합니다.",
+      "content": "복잡하고 거대한 문제를 해결할 때는 자신의 지식에만 의존하지 마십시오. 서로 다른 전문성을 가진 동료들과 끊임없이 소통하며 아이디어를 결합하는 협업의 가치를 깨달아야 합니다."
+    },
+    {
+      "title": "만약 우리 앞의 이론이나 데이터가 모순되거나 불완전해 보인다면, 그것은 자연이 틀린 것이 아니라 우리가 아직 올바른 질문을 던지지 못했기 때문입니다.",
+      "content": "문제의 해답이 보이지 않을 때는 집착하던 방식에서 한 걸음 물러나 완전히 새로운 시각으로 접근하십시오. 창의적인 돌파구는 유연한 사고에서 비롯됩니다."
+    },
+    {
+      "title": "위대한 발견을 향한 길은 언제나 평탄하지 않으며, 치열한 경쟁과 뼈아픈 실패의 두려움을 딛고 일어서는 자만이 진실의 열쇠를 거머쥘 수 있습니다.",
+      "content": "혁신적인 성과를 내기 위해서는 실패를 두려워하지 않는 대담한 용기가 필요합니다. 난관에 부딪혔을 때 쉽게 포기하지 말고 끝까지 밀어붙이는 집요함을 가지십시오."
+    }
+  ],
+  "persona": "당신은 제임스 왓슨이다.",
+  "imageUrl": "/images/giants/james-watson.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1928~2025)"
+},
+  {
+  "id": "460",
+  "name": "제인 구달",
+  "category": "science",
+  "headline": "야생 침팬지의 도구 사용과 복잡한 사회 구조를 세계 최초로 밝혀내어 인간에 대한 정의를 새롭게 쓴 영국의 영장류 학자.",
+  "shortDescription": "제인 구달의 일대기와 지혜",
+  "slug": "jane-goodall",
+  "quote": "우리가 지구상에서 가장 지적이라고 자부하는 생명체라면, 어째서 우리는 유일한 집인 이 푸른 별을 이토록 무참히 파괴하고 있는 것일까요?",
+  "pain": "정식 학위가 없다는 이유로 학계의 무시를 받았으며, 아프리카 밀림의 혹독한 환경 속에서 야생 침팬지들의 경계를 푸는 데 극심한 어려움을 겪었다.",
+  "recovery": "그녀는 동물들에게 번호 대신 이름을 붙이고 감정을 교류하는 독창적인 관찰 방식과 끝없는 기다림을 통해 세계 최초로 침팬지의 도구 사용을 증명해냈다.",
+  "lessons": [
+    {
+      "title": "우리가 지구상에서 가장 지적이라고 자부하는 생명체라면, 어째서 우리는 유일한 집인 이 푸른 별을 이토록 무참히 파괴하고 있는 것일까요?",
+      "content": "인간의 뛰어난 지능은 자연을 지배하고 착취하기 위한 것이 아니라, 모든 생명체와 조화롭게 공존하는 지혜로 발현되어야 합니다. 환경에 대한 책임을 다하십시오."
+    },
+    {
+      "title": "가장 위대한 성취는 뛰어난 머리가 아니라, 대상을 향한 끝없는 사랑과 무한한 인내를 품은 따뜻한 가슴에서 피어납니다.",
+      "content": "학문이나 업무를 대할 때 냉철한 이성뿐만 아니라 애정과 열정을 가지십시오. 진정한 이해와 혁신은 대상을 진심으로 아끼는 마음에서 시작됩니다."
+    },
+    {
+      "title": "매일 우리가 하는 아주 작은 행동 하나하나가 세상을 변화시킵니다. 당신은 그저 어떤 변화를 만들고 싶은지 결정하기만 하면 됩니다.",
+      "content": "거창한 구호보다 일상 속의 작은 실천이 모여 큰 변화를 이끌어냅니다. 오늘 하루 자신이 무심코 한 행동이 주변에 어떤 영향을 미치는지 성찰해 보십시오."
+    }
+  ],
+  "persona": "당신은 제인 구달이다.",
+  "imageUrl": "/images/giants/jane-goodall.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1934~2025)"
+},
+  {
+  "id": "334",
+  "name": "장 피아제",
+  "category": "science",
+  "headline": "인간의 지식이 환경과의 상호작용을 통해 4단계를 거쳐 발달한다는 인지 발달 이론을 확립한 스위스의 발달심리학자.",
+  "shortDescription": "장 피아제의 일대기와 지혜",
+  "slug": "jean-piaget",
+  "quote": "아이들의 실수는 오류가 아니라, 그들이 세상을 어떻게 이해하고 있는지를 보여주는 가장 투명하고 소중한 창문입니다.",
+  "pain": "초기에는 아이들이 단순히 어른보다 지능이 부족할 뿐이라는 행동주의적 편견이 지배적이어서, 아동만의 독자적인 사고 체계를 증명하는 데 많은 학문적 저항을 받았다.",
+  "recovery": "그는 자신의 세 자녀를 포함한 수많은 아이들을 대상으로 독창적이고 정교한 임상 면접법을 수십 년간 끈질기게 수행하여 인지 발달의 4단계를 과학적으로 완벽하게 입증해냈다.",
+  "lessons": [
+    {
+      "title": "아이들의 실수는 오류가 아니라, 그들이 세상을 어떻게 이해하고 있는지를 보여주는 가장 투명하고 소중한 창문입니다.",
+      "content": "타인의 서툰 결과물이나 실수를 함부로 평가하지 마십시오. 그 이면에는 각자의 수준과 방식대로 최선을 다해 논리를 구성해 나가는 과정이 숨어 있습니다."
+    },
+    {
+      "title": "지능이란 본질적으로 유기체가 환경에 적응하는 방식이며, 진정한 학습은 스스로 겪는 동화와 조절의 끊임없는 투쟁 속에서만 일어납니다.",
+      "content": "누군가 떠먹여 주는 지식은 결코 온전한 내 것이 될 수 없습니다. 낯선 문제와 직접 부딪히고 갈등을 겪는 과정을 통해 스스로 인지적 성장을 이뤄내십시오."
+    },
+    {
+      "title": "교육의 주요한 목표는 다른 세대가 했던 것을 그저 반복하는 사람을 만드는 것이 아니라, 창조하고 발명하는 능력을 가진 사람을 기르는 데 있습니다.",
+      "content": "단순한 암기와 모방에 안주하지 말고 능동적인 탐구자가 되어야 합니다. 정해진 틀을 깨고 자신만의 새로운 시각으로 세상을 재구성하려는 용기를 가지십시오."
+    }
+  ],
+  "persona": "당신은 장 피아제이다.",
+  "imageUrl": "/images/giants/jean-piaget.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1896~1980)"
+},
+  {
+  "id": "133",
+  "name": "장바티스트 라마르크",
+  "category": "science",
+  "headline": "생물학이라는 용어를 창안하고 역사상 최초로 체계적인 진화 이론을 확립한 위대한 박물학자다.",
+  "shortDescription": "장바티스트 라마르크의 일대기와 지혜",
+  "slug": "jean-baptiste-lamarck",
+  "quote": "자연은 시간과 유리한 환경만 주어지면 모든 것을 성취할 수 있다.",
+  "pain": "당대 최고 권위자였던 조르주 퀴비에의 맹렬한 비판과 학계의 소외 속에서 연구를 이어가야 했으며, 무리한 현미경 관찰로 인해 말년에는 완전히 실명하고 말았다.",
+  "recovery": "완벽한 어둠 속에서도 학문에 대한 열정을 잃지 않고, 두 딸에게 자신의 생각을 구술하여 기록하게 함으로써 방대한 생물학적 저술을 끝까지 완성해냈다.",
+  "lessons": [
+    {
+      "title": "자연은 시간과 유리한 환경만 주어지면 모든 것을 성취할 수 있다.",
+      "content": "어떤 어려운 목표라도 충분한 시간과 꾸준한 노력이 뒷받침된다면 결국 이룰 수 있습니다. 조급해하지 말고 묵묵히 자신만의 환경을 개척해 나가십시오."
+    },
+    {
+      "title": "생물은 환경의 변화에 따라 자신의 습성과 형태를 서서히 변화시킨다.",
+      "content": "세상의 변화에 유연하게 적응하는 태도가 중요합니다. 고정관념에 얽매이지 말고 끊임없이 진화하며 새로운 상황에 대처하는 능력을 기르십시오."
+    },
+    {
+      "title": "가장 중요한 것은 관찰된 사실들의 관계를 이해하는 것이다.",
+      "content": "눈앞에 보이는 단편적인 사실에만 집착하지 말고, 그 이면에 숨겨진 근본적인 연결고리를 파악하십시오. 전체를 꿰뚫어 보는 통찰력을 키우는 것이 중요합니다."
+    }
+  ],
+  "persona": "당신은 장바티스트 라마르크이다.",
+  "imageUrl": "/images/giants/jean-baptiste-lamarck.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1744~1829)"
+},
+  {
+  "id": "336",
+  "name": "존 B. 왓슨",
+  "category": "science",
+  "headline": "심리학을 관찰 가능한 행동의 과학으로 정의하며 행동주의 심리학의 시대를 연 위대한 개척자다.",
+  "shortDescription": "존 B. 왓슨의 일대기와 지혜",
+  "slug": "john-b-watson",
+  "quote": "나에게 건강한 아기 12명과 내가 통제할 수 있는 환경을 준다면, 그들을 어떤 전문가로도 만들 수 있다.",
+  "pain": "불륜 스캔들로 인해 학계에서 강제 퇴출당하며 일생일대의 위기를 맞았고, 사회적인 비난과 명예 실추를 겪어야만 했다.",
+  "recovery": "자신의 행동주의 이론을 상업적인 광고 분야에 접목시키는 혁신을 통해 새로운 돌파구를 찾았고, 비즈니스 세계에서 광고계의 거물로 화려하게 재기했다.",
+  "lessons": [
+    {
+      "title": "나에게 건강한 아기 12명과 내가 통제할 수 있는 환경을 준다면, 그들을 어떤 전문가로도 만들 수 있다.",
+      "content": "타고난 재능보다 어떤 환경에서 어떻게 노력하느냐가 인생을 결정합니다. 스스로를 긍정적으로 자극할 수 있는 좋은 환경을 적극적으로 만들어 나가십시오."
+    },
+    {
+      "title": "관찰할 수 없는 것은 과학의 대상이 될 수 없다.",
+      "content": "모호한 생각이나 감정에 사로잡히기보다는, 눈에 보이는 명확한 행동과 결과를 바탕으로 판단하십시오. 객관적인 사실에 근거하여 문제를 해결하는 태도가 중요합니다."
+    },
+    {
+      "title": "인간의 모든 행동은 학습된 것이다.",
+      "content": "우리의 습관과 성격은 결코 고정된 것이 아니라 경험을 통해 형성된 것입니다. 더 나은 삶을 원한다면 새로운 학습과 꾸준한 반복을 통해 자신을 긍정적으로 변화시키십시오."
+    }
+  ],
+  "persona": "당신은 존 B. 왓슨이다.",
+  "imageUrl": "/images/giants/john-b-watson.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1878~1958)"
+},
+  {
+  "id": "121",
+  "name": "존 돌턴",
+  "category": "science",
+  "headline": "근대 원자론을 확립하여 눈에 보이지 않는 미시 세계를 규명하고 현대 화학의 기초를 세운 선구적인 과학자다.",
+  "shortDescription": "존 돌턴의 일대기와 지혜",
+  "slug": "john-dalton",
+  "quote": "내가 다른 사람보다 조금이라도 더 이룬 것이 있다면, 그것은 뛰어난 재능이 아니라 오직 인내와 노력 덕분이다.",
+  "pain": "종교적인 이유로 명문 대학 진학이 원천적으로 차단되었으며, 적록 색맹이라는 신체적 결함까지 안고 있었다.",
+  "recovery": "독학과 끊임없는 관찰을 통해 한계를 극복했으며, 오히려 자신의 색맹을 최초로 과학적으로 분석하고 평생의 기상 관측 데이터를 바탕으로 위대한 원자론을 정립했다.",
+  "lessons": [
+    {
+      "title": "내가 다른 사람보다 조금이라도 더 이룬 것이 있다면, 그것은 뛰어난 재능이 아니라 오직 인내와 노력 덕분이다.",
+      "content": "위대한 성취는 천재성에서 비롯되는 것이 아니라 포기하지 않는 끈기에서 나옵니다. 어려움이 닥쳐도 흔들리지 말고 묵묵히 자신의 길을 걸어가십시오."
+    },
+    {
+      "title": "가장 위대한 발견은 가장 단순한 관찰에서 시작된다.",
+      "content": "일상의 작고 평범한 현상들을 무심코 지나치지 마십시오. 호기심을 가지고 세밀하게 관찰하는 습관이 세상을 바꾸는 혁신적인 아이디어로 이어질 수 있습니다."
+    },
+    {
+      "title": "물질은 결코 창조되거나 파괴될 수 없으며, 오직 그 형태와 결합만이 변화할 뿐이다.",
+      "content": "눈앞에 보이는 실패와 상실에 지나치게 좌절하지 마십시오. 모든 경험은 사라지는 것이 아니라 새로운 성공을 위한 소중한 밑거름으로 우리 안에 재배열될 것입니다."
+    }
+  ],
+  "persona": "당신은 존 돌턴이다.",
+  "imageUrl": "/images/giants/john-dalton.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1766~1844)"
+},
+  {
+  "id": "231",
+  "name": "조너스 소크",
+  "category": "science",
+  "headline": "수많은 아이들의 목숨을 위협하던 소아마비 백신을 개발하고 이를 무료로 배포한 위대한 인류의 은인이다.",
+  "shortDescription": "조너스 소크의 일대기와 지혜",
+  "slug": "jonas-salk",
+  "quote": "특허는 없습니다. 태양에도 특허를 낼 건가요?",
+  "pain": "당시 주류 학계의 거센 반대와 비판 속에서 사백신의 효과를 증명해야 했으며, 백신의 부작용에 대한 엄청난 사회적 두려움과 맞서야 했다.",
+  "recovery": "자신과 가족의 몸에 직접 백신을 투여하는 목숨을 건 대담한 결단으로 안전성을 입증했으며, 끊임없는 실험 데이터를 통해 반대파들을 완벽하게 설득해냈다.",
+  "lessons": [
+    {
+      "title": "특허는 없습니다. 태양에도 특허를 낼 건가요?",
+      "content": "진정으로 위대한 가치는 개인의 이익을 넘어 타인과 나눌 때 그 빛을 발합니다. 조건 없는 헌신과 나눔의 정신으로 세상에 선한 영향력을 행사하십시오."
+    },
+    {
+      "title": "희망은 꿈을 꾸고 상상력으로 일하는 사람들의 것이다.",
+      "content": "아무리 절망적인 상황에서도 더 나은 미래를 상상하는 힘을 잃지 마십시오. 당신이 품은 희망과 끊임없는 실천이 세상을 바꾸는 기적을 만들어냅니다."
+    },
+    {
+      "title": "나의 가장 큰 보상은 내가 한 일이 다른 사람들에게 도움이 되었다는 사실 그 자체다.",
+      "content": "성공의 척도를 부나 명예와 같은 외적인 보상에만 두지 마십시오. 누군가의 삶에 긍정적인 변화를 일으키는 이타적인 삶에서 진정한 내면의 행복을 찾으십시오."
+    }
+  ],
+  "persona": "당신은 조너스 소크이다.",
+  "imageUrl": "/images/giants/jonas-salk.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1914~1995)"
+},
+  {
+  "id": "117",
+  "name": "조지프 리스터",
+  "category": "science",
+  "headline": "석탄산을 이용한 최초의 무균 수술법을 창안하여 감염으로부터 수백만 명의 목숨을 구한 현대 외과학의 아버지다.",
+  "shortDescription": "조지프 리스터의 일대기와 지혜",
+  "slug": "joseph-lister",
+  "quote": "우리는 눈에 보이지 않는 적과 싸워야만 한다.",
+  "pain": "초기 무균 수술법을 도입했을 때, 세균의 존재를 믿지 않는 보수적인 의학계의 거센 조롱과 거부감에 직면해야 했다.",
+  "recovery": "비판에 굴하지 않고 철저한 임상 결과와 통계 데이터로 무균 수술의 효과를 끈질기게 입증하여 전 세계 의학계의 표준을 바꾸어 놓았다.",
+  "lessons": [
+    {
+      "title": "우리는 눈에 보이지 않는 적과 싸워야만 한다.",
+      "content": "당장 눈앞에 드러난 현상에만 집착하지 말고, 문제의 근본적인 원인을 파악하십시오. 보이지 않는 본질을 꿰뚫어 볼 때 진정한 해결책을 찾을 수 있습니다."
+    },
+    {
+      "title": "새로운 진리는 결코 단번에 받아들여지지 않는다. 그것은 인내와 끈기를 통해 비로소 증명된다.",
+      "content": "혁신적인 생각은 처음에는 항상 편견과 저항에 부딪힙니다. 타인의 비판에 흔들리지 말고 당신의 확신을 증명하기 위해 묵묵히 데이터를 쌓아 나가십시오."
+    },
+    {
+      "title": "수술의 목적은 병을 제거하는 것만이 아니라, 환자가 안전하게 회복할 수 있는 환경을 만드는 데 있다.",
+      "content": "목표를 달성하는 과정에서 주변의 환경과 조건이 안전한지 살피십시오. 성과 자체보다 그 과정에서 겪는 피해를 최소화하는 가장 최선의 방법을 찾는 것이 진정한 전문가의 자세입니다."
+    }
+  ],
+  "persona": "당신은 조지프 리스터이다.",
+  "imageUrl": "/images/giants/joseph-lister.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1827~1912)"
+},
+  {
+  "id": "74",
+  "name": "조제프루이 라그랑주",
+  "category": "science",
+  "headline": "조제프루이 라그랑주는 고전역학을 순수 해석학의 언어로 재구성하여 현대 이론물리학의 탄탄한 토대를 마련한 위대한 수학자이다.",
+  "shortDescription": "조제프루이 라그랑주의 일대기와 지혜",
+  "slug": "joseph-louis-lagrange",
+  "quote": "자신이 무엇을 모르는지 아는 사람만이 다음 단계의 지식으로 나아갈 수 있다.",
+  "pain": "라그랑주는 중년 이후 수십 년간 쉴 새 없이 이어온 극한의 학문적 몰입과 연구 압박으로 인해 심신이 지쳐 심각한 우울증과 무기력증에 빠졌으며, 한동안 수학 기호조차 쳐다보지 못할 정도로 극심한 슬럼프를 겪었다.",
+  "recovery": "그는 자신의 상태를 무리하게 극복하려 하지 않고 화학과 식물학 등 전혀 다른 분야의 서적을 읽으며 마음의 여유를 찾았으며, 새로운 학교의 교수로 임명되어 학생들과 소통하는 과정에서 삶의 의미를 되찾고 다시 연구에 복귀할 수 있었다.",
+  "lessons": [
+    {
+      "title": "자신이 무엇을 모르는지 아는 사람만이 다음 단계의 지식으로 나아갈 수 있다.",
+      "content": "자신의 한계와 무지를 솔직하게 인정하고, 끊임없이 새로운 지식을 탐구하는 겸손한 태도를 유지하십시오."
+    },
+    {
+      "title": "가장 완벽한 수학적 진리는 가장 단순한 자연의 법칙을 설명할 때 비로소 그 아름다움을 드러낸다.",
+      "content": "복잡한 문제일수록 그 본질은 단순함 속에 숨어 있음을 기억하고, 문제의 핵심을 꿰뚫어 보는 통찰력을 기르십시오."
+    },
+    {
+      "title": "학문적 위대함은 천재성보다도 하루하루 묵묵히 쌓아 올린 지루한 노력의 총합에서 비롯된다.",
+      "content": "당장의 화려한 결과에 조급해하지 말고, 매일의 꾸준한 실천과 인내심을 통해 자신의 목표를 향해 나아가십시오."
+    }
+  ],
+  "persona": "당신은 조제프루이 라그랑주이다.",
+  "imageUrl": "/images/giants/joseph-louis-lagrange.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1736~1813)"
+},
+  {
+  "id": "453",
+  "name": "캐서린 존슨",
+  "category": "science",
+  "headline": "캐서린 존슨은 천재적인 수학적 능력으로 인종과 성별의 장벽을 허물고 미국 우주 탐사 역사의 가장 빛나는 순간들을 이끌어낸 NASA의 위대한 수학자이다.",
+  "shortDescription": "캐서린 존슨의 일대기와 지혜",
+  "slug": "katherine-johnson",
+  "quote": "자신에게 주어진 능력을 믿고 당당하게 질문하는 것을 결코 두려워하지 마십시오.",
+  "pain": "극심한 인종 차별과 성차별이 만연했던 1950년대의 미국 남부에서 그녀는 유색 인종을 위한 분리된 화장실을 사용해야 했으며, 백인 남성 중심의 회의에 참석하는 것조차 엄격하게 금지당하는 모멸적인 상황을 견뎌야 했다.",
+  "recovery": "그녀는 차별에 굴복하는 대신 실력과 숫자로 자신의 가치를 완벽하게 증명했으며, 회의 참석을 가로막는 규정에 대해 \"법으로 금지된 것은 아니다\"라며 당당하게 이의를 제기하여 마침내 스스로 장벽을 허물었다.",
+  "lessons": [
+    {
+      "title": "자신에게 주어진 능력을 믿고 당당하게 질문하는 것을 결코 두려워하지 마십시오.",
+      "content": "모르는 것을 부끄러워하지 말고, 진실을 찾기 위해 적극적으로 질문하고 배우는 용기를 가지십시오."
+    },
+    {
+      "title": "우리는 모두 같은 별 아래에서 태어났으며, 누구의 뇌력도 피부색이나 성별에 의해 제한되지 않습니다.",
+      "content": "타인이 정해놓은 편견과 사회적 한계에 얽매이지 말고, 당신이 가진 무한한 잠재력과 가치를 굳게 믿으십시오."
+    },
+    {
+      "title": "숫자는 거짓말을 하지 않으며, 완벽한 준비는 모든 두려움을 몰아내는 가장 강력한 무기입니다.",
+      "content": "철저한 준비와 객관적인 실력을 갖춤으로써 어떠한 위기나 차별 앞에서도 흔들리지 않는 내면의 힘을 기르십시오."
+    }
+  ],
+  "persona": "당신은 캐서린 존슨이다.",
+  "imageUrl": "/images/giants/katherine-johnson.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1918~2020)"
+},
+  {
+  "id": "86",
+  "name": "라우라 바시",
+  "category": "science",
+  "headline": "라우라 바시는 18세기 유럽 과학계의 엄격한 성차별을 이겨내고 세계 최초로 대학교의 정식 물리학 석좌교수가 된 선구적인 여성 물리학자이다.",
+  "shortDescription": "라우라 바시의 일대기와 지혜",
+  "slug": "laura-bassi",
+  "quote": "나의 지성은 성별에 갇히지 않으며, 진리를 향한 탐구심은 그 어떤 편견보다 강력합니다.",
+  "pain": "여성이 대중 앞에서 학문을 논하는 것조차 금기시되던 시대에, 그녀는 세계 최초의 여성 대학 교수라는 직함을 얻었음에도 정규 수업을 거부당하고 상징적인 행사에만 동원되는 극심한 차별을 겪어야 했다.",
+  "recovery": "그녀는 불합리한 제약에 굴복하는 대신 자신의 집을 거대한 사설 실험실로 개조하여 직접 학생들을 가르쳤으며, 압도적인 실력과 끊임없는 연구 성과를 통해 학계가 스스로 그녀를 인정할 수밖에 없도록 만들었다.",
+  "lessons": [
+    {
+      "title": "나의 지성은 성별에 갇히지 않으며, 진리를 향한 탐구심은 그 어떤 편견보다 강력합니다.",
+      "content": "사회가 규정한 부당한 한계에 순응하지 말고, 스스로의 능력을 굳게 믿고 당당하게 나아가십시오."
+    },
+    {
+      "title": "문이 닫혀 있다면 그 문을 두드려 부수거나, 스스로 새로운 문을 만들어 내면 됩니다.",
+      "content": "외부의 장애물이 당신의 길을 막을 때 절망하지 말고, 주도적으로 새로운 해결책과 기회를 창조하십시오."
+    },
+    {
+      "title": "가장 위대한 학문적 성취는 지식을 소유하는 것이 아니라, 그것을 타인과 나누며 다음 세대를 길러내는 데 있습니다.",
+      "content": "자신이 얻은 지식과 경험을 독점하지 말고, 더 나은 세상을 위해 기꺼이 나누고 헌신하는 삶을 살아가십시오."
+    }
+  ],
+  "persona": "당신은 라우라 바시이다.",
+  "imageUrl": "/images/giants/laura-bassi.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1711~1778)"
+},
+  {
+  "id": "85",
+  "name": "라차로 스팔란차니",
+  "category": "science",
+  "headline": "라자로 스팔란차니는 근대적인 실험 방법론을 통해 생물학을 추측의 영역에서 정밀 과학의 반열로 끌어올린 18세기 최고의 생물학자이다.",
+  "shortDescription": "라차로 스팔란차니의 일대기와 지혜",
+  "slug": "lazzaro-spallanzani",
+  "quote": "자연의 진실은 책상 위에서의 공허한 논쟁이 아니라, 플라스크 안에서 이루어지는 엄밀한 실험을 통해서만 그 모습을 드러냅니다.",
+  "pain": "질투심에 눈이 먼 동료 교수들이 그가 대학 박물관의 귀중한 표본들을 사적으로 빼돌렸다는 악의적이고 치명적인 횡령 스캔들을 조작하여 그의 학문적 명예와 교수직을 심각한 위기로 몰아넣었다.",
+  "recovery": "그는 감정적으로 대응하는 대신 방대하고 치밀한 개인 기록과 영수증을 바탕으로 황제의 특별 조사 위원회 앞에서 자신의 결백을 논리적으로 완벽하게 입증해 냈으며, 오히려 반대파들을 숙청하고 대학 내에서 자신의 입지를 더욱 확고히 다졌다.",
+  "lessons": [
+    {
+      "title": "자연의 진실은 책상 위에서의 공허한 논쟁이 아니라, 플라스크 안에서 이루어지는 엄밀한 실험을 통해서만 그 모습을 드러냅니다.",
+      "content": "막연한 추측이나 기존의 권위에 의존하지 말고, 객관적인 증거와 치밀한 검증을 통해 진실을 찾으십시오."
+    },
+    {
+      "title": "인간의 편견은 관찰의 가장 큰 적이며, 완벽한 실험을 위해서는 자신이 믿고 싶은 결과마저 끊임없이 의심해야 합니다.",
+      "content": "자신의 주관적인 기대나 편견에 사로잡히지 말고, 눈앞에 나타난 객관적인 사실을 있는 그대로 수용할 수 있는 열린 마음을 가지십시오."
+    },
+    {
+      "title": "가장 위대한 발견은 생명을 위협할 수 있는 두려움 속에서도 앎을 향해 기꺼이 자신을 던지는 무모한 호기심에서 비롯됩니다.",
+      "content": "미지의 영역을 두려워하지 말고, 진리를 탐구하기 위해 과감하게 도전하고 헌신하는 용기를 발휘하십시오."
+    }
+  ],
+  "persona": "당신은 라차로 스팔란차니이다.",
+  "imageUrl": "/images/giants/lazzaro-spallanzani.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1729~1799)"
+},
+  {
+  "id": "285",
+  "name": "레온하르트 오일러",
+  "category": "science",
+  "headline": "레온하르트 오일러는 인류 역사상 가장 다산한 수학자로서 실명이라는 극한의 시련 속에서도 현대 수학과 물리학의 기틀을 확립한 압도적인 천재이다.",
+  "shortDescription": "레온하르트 오일러의 일대기와 지혜",
+  "slug": "leonhard-euler",
+  "quote": "나의 시력이 잃어버린 빛은 내 마음속에서 더욱 찬란하고 또렷한 수학적 진리로 다시 피어났습니다.",
+  "pain": "30대 초반에 앓은 치명적인 열병으로 오른쪽 눈의 시력을 잃은 데 이어, 노년에는 백내장으로 인해 남은 왼쪽 눈마저 완전히 실명하여 빛을 전혀 볼 수 없는 완전한 어둠 속에 갇히게 되었다.",
+  "recovery": "그는 상상을 초월하는 초인적인 암산 능력과 시각적 기억력을 극대화하여 머릿속으로 수식을 전개했으며, 아들과 조수들에게 자신의 생각을 구술하여 받아적게 하는 방식으로 오히려 실명 이전보다 더 많은 논문을 쏟아냈다.",
+  "lessons": [
+    {
+      "title": "나의 시력이 잃어버린 빛은 내 마음속에서 더욱 찬란하고 또렷한 수학적 진리로 다시 피어났습니다.",
+      "content": "신체적인 한계나 외부의 악조건에 좌절하지 말고, 내면의 잠재력을 믿고 새로운 방식으로 어려움을 돌파하십시오."
+    },
+    {
+      "title": "수학이라는 거대한 우주 앞에서 인간이 느낄 수 있는 가장 큰 기쁨은 끝없는 호기심과 끊임없는 발견뿐입니다.",
+      "content": "지식을 향한 순수한 열정과 탐구심을 잃지 말고, 평생에 걸쳐 배우고 성장하는 즐거움을 누리십시오."
+    },
+    {
+      "title": "복잡한 문제의 해답은 때로는 가장 단순하고 우아한 방정식 속에 숨어 그 진정한 아름다움을 드러냅니다.",
+      "content": "문제의 외형적인 복잡성에 압도되지 말고, 사물의 본질을 단순하고 투명하게 바라보는 통찰력을 기르십시오."
+    }
+  ],
+  "persona": "당신은 레온하르트 오일러이다.",
+  "imageUrl": "/images/giants/leonhard-euler.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1707~1783)"
+},
+  {
+  "id": "237",
+  "name": "라이너스 폴링",
+  "category": "science",
+  "headline": "양자역학을 화학에 도입하여 현대 화학의 기초를 세우고, 반핵 운동으로 세계 평화에 기여한 20세기의 위대한 과학자이자 평화운동가이다.",
+  "shortDescription": "라이너스 폴링의 일대기와 지혜",
+  "slug": "linus-pauling",
+  "quote": "좋은 아이디어를 얻는 가장 좋은 방법은, 많은 아이디어를 갖는 것입니다.",
+  "pain": "가난한 어린 시절을 보내며 학비 마련에 고심해야 했으며, 냉전 시대에는 반핵 평화 운동에 앞장섰다는 이유로 미국 정부로부터 여권을 압수당하고 극심한 사상적 탄압을 받았다.",
+  "recovery": "학문에 대한 불굴의 의지로 어려움을 극복하고 화학의 새로운 패러다임을 제시했으며, 정부의 탄압에도 불구하고 평화를 향한 신념을 굽히지 않아 결국 전 세계적인 핵실험 금지 조약을 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "좋은 아이디어를 얻는 가장 좋은 방법은, 많은 아이디어를 갖는 것입니다.",
+      "content": "단 하나의 완벽한 해결책을 찾으려 애쓰기보다는, 끊임없이 다양한 가능성을 상상하고 도전하십시오. 수많은 실패와 시도 속에서 비로소 세상을 바꿀 혁신적인 아이디어가 탄생합니다."
+    },
+    {
+      "title": "사실은 과학의 공기입니다. 그것들이 없다면 당신은 결코 날 수 없습니다.",
+      "content": "어떠한 주장이나 이론도 탄탄한 객관적 증거와 사실에 기반해야만 그 가치를 인정받을 수 있습니다. 늘 진실을 탐구하고 사실에 입각하여 판단하는 엄정한 태도를 견지하십시오."
+    },
+    {
+      "title": "세계가 직면한 모든 문제에 대한 유일한 진정한 해결책은 사람들의 마음속에 있는 선의뿐입니다.",
+      "content": "뛰어난 과학 기술이나 제도의 발전만으로는 인류의 평화를 완벽하게 보장할 수 없습니다. 타인을 배려하고 인류 전체의 안녕을 염원하는 따뜻한 선의를 마음 깊이 간직하십시오."
+    }
+  ],
+  "persona": "당신은 라이너스 폴링이다.",
+  "imageUrl": "/images/giants/linus-pauling.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1901~1994)"
+},
+  {
+  "id": "129",
+  "name": "캘빈 경",
+  "category": "science",
+  "headline": "열역학 법칙을 확립하고 절대온도 개념을 도입했으며, 해저 케이블 부설 등 공학적 난제를 해결한 19세기의 위대한 물리학자이다.",
+  "shortDescription": "캘빈 경의 일대기와 지혜",
+  "slug": "lord-kelvin",
+  "quote": "과학에서 측정할 수 없고 숫자로 표현할 수 없는 것은 지식이 아닙니다.",
+  "pain": "대서양 횡단 해저 케이블 부설이라는 전대미문의 거대한 프로젝트에 참여했을 때, 극심한 심해의 수압과 전기 신호의 소실로 인해 수많은 실패와 막대한 재정적 손실을 겪으며 거센 비판에 직면했다.",
+  "recovery": "포기하지 않고 전기 신호의 전송 원리를 수학적으로 치밀하게 분석했으며, 미세한 전류도 감지해 내는 '거울 검류계'를 직접 발명하여 결국 두 대륙을 잇는 통신망을 기적처럼 완성해 냈다.",
+  "lessons": [
+    {
+      "title": "과학에서 측정할 수 없고 숫자로 표현할 수 없는 것은 지식이 아닙니다.",
+      "content": "어떤 현상을 제대로 이해하려면 단순히 눈으로 관찰하는 것에 그치지 말고, 정확한 측정과 수치화를 통해 객관적이고 확실한 데이터를 확보하십시오."
+    },
+    {
+      "title": "우리는 아직 배울 것이 너무나 많다는 사실을 인정할 때 비로소 진정한 발견의 길로 들어설 수 있습니다.",
+      "content": "자신이 이미 모든 것을 알고 있다는 낡은 오만함을 버리고, 늘 겸손한 태도로 끊임없이 호기심을 가지며 새로운 지식을 탐구하십시오."
+    },
+    {
+      "title": "가장 고귀한 과학적 발견도 결국 인류의 삶을 이롭게 하는 데 쓰여야 그 진정한 가치를 지닙니다.",
+      "content": "머릿속의 뛰어난 아이디어를 현실의 문제를 해결하는 데 적극적으로 활용하고, 이론적인 지식이 세상을 변화시키는 실질적인 힘이 되도록 노력하십시오."
+    }
+  ],
+  "persona": "당신은 캘빈 경이다.",
+  "imageUrl": "/images/giants/lord-kelvin.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1824~1907)"
+},
+  {
+  "id": "323",
+  "name": "루이 드 브로이",
+  "category": "science",
+  "headline": "물질도 파동의 성질을 가진다는 물질파 이론을 제안하여 현대 양자역학의 기초를 확립한 프랑스의 위대한 물리학자이다.",
+  "shortDescription": "루이 드 브로이의 일대기와 지혜",
+  "slug": "louis-de-broglie",
+  "quote": "과학의 진보는 종종 전혀 무관해 보이는 두 가지 개념 사이의 예상치 못한 연결 고리를 발견할 때 이루어집니다.",
+  "pain": "물질도 파동의 성질을 가진다는 물질파 이론을 처음 제안했을 때, 기존 물리학의 상식을 철저히 뒤엎는 파격적인 주장이라는 이유로 학계의 엄청난 회의론과 냉대에 부딪혔다.",
+  "recovery": "아인슈타인을 비롯한 열린 사고를 가진 학자들의 지지를 얻어내며 자신의 가설을 뚝심 있게 관철했고, 결국 전자 회절 실험을 통해 완벽한 증명에 성공하여 양자역학의 새 시대를 열었다.",
+  "lessons": [
+    {
+      "title": "과학의 진보는 종종 전혀 무관해 보이는 두 가지 개념 사이의 예상치 못한 연결 고리를 발견할 때 이루어집니다.",
+      "content": "익숙한 지식의 울타리 안에만 머물지 말고, 서로 다른 분야의 지식들을 융합하고 연결하는 창의적이고 폭넓은 시각을 기르십시오."
+    },
+    {
+      "title": "인간의 정신은 너무나도 경이로워서, 때로는 가장 비논리적인 직관이 논리적인 진리를 향한 문을 열어주기도 합니다.",
+      "content": "기존의 낡은 상식이나 규칙에 얽매이지 말고, 때로는 자신 내면의 번뜩이는 직관과 대담한 상상력을 믿고 거침없이 앞으로 나아가십시오."
+    },
+    {
+      "title": "자연의 비밀은 결코 한 번에 모두 드러나지 않으며, 끊임없이 묻는 자에게만 조금씩 그 모습을 보여줍니다.",
+      "content": "당연하게 여겨지는 현상 앞에서도 멈추지 말고 질문을 던지며, 진리를 향한 끈질긴 탐구심과 열정을 결코 잃지 마십시오."
+    }
+  ],
+  "persona": "당신은 루이 드 브로이이다.",
+  "imageUrl": "/images/giants/louis-de-broglie.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1892~1987)"
+},
+  {
+  "id": "128",
+  "name": "루트비히 볼츠만",
+  "category": "science",
+  "headline": "원자의 존재를 바탕으로 통계역학을 창시하여 열역학 제2법칙의 미시적 원리를 규명한 오스트리아의 물리학자이다.",
+  "shortDescription": "루트비히 볼츠만의 일대기와 지혜",
+  "slug": "ludwig-boltzmann",
+  "quote": "자연의 법칙은 아름다운 수학적 방정식 속에 가장 완벽한 형태로 숨겨져 있습니다.",
+  "pain": "눈에 보이지 않는 원자의 존재를 가정하여 통계역학을 창시했으나, 당시 주류 학계의 맹렬한 반대와 혹독한 공격을 받으며 극심한 정신적 고립감과 우울증에 시달려야 했다.",
+  "recovery": "학계의 차가운 냉대 속에서도 원자론에 기반한 자신의 수학적 확신을 결코 굽히지 않았으며, 비록 살아서는 인정받지 못했으나 죽음 이후에 결국 현대 물리학의 가장 중요한 기초를 확립한 최후의 승리자가 되었다.",
+  "lessons": [
+    {
+      "title": "자연의 법칙은 아름다운 수학적 방정식 속에 가장 완벽한 형태로 숨겨져 있습니다.",
+      "content": "복잡해 보이는 세상의 현상들도 결국에는 단순하고 명쾌한 원리에 의해 지배됨을 굳게 믿고, 문제의 핵심을 예리하게 꿰뚫어 보려 노력하십시오."
+    },
+    {
+      "title": "새로운 진리는 언제나 익숙한 상식의 저항을 받기 마련입니다. 고독을 두려워하지 마십시오.",
+      "content": "남들이 가지 않은 길을 새롭게 개척할 때 필연적으로 마주하는 비판과 고립에 굴복하지 말고, 자신의 신념을 끝까지 밀고 나아가십시오."
+    },
+    {
+      "title": "무질서가 지배하는 혼돈 속에서도 통찰력 있는 눈을 가진 자는 거대한 질서를 찾아낼 수 있습니다.",
+      "content": "절망적이고 혼란스러운 위기 상황 속에서도 끈질긴 인내심을 가지고 큰 그림을 바라보면, 반드시 문제의 해결책과 새로운 규칙을 발견할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 루트비히 볼츠만이다.",
+  "imageUrl": "/images/giants/ludwig-boltzmann.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1844~1906)"
+},
+  {
+  "id": "124",
+  "name": "루이지 갈바니",
+  "category": "science",
+  "headline": "신경과 근육이 전기를 통해 소통한다는 사실을 발견하여 현대 전기생리학의 토대를 마련한 이탈리아의 의학자이다.",
+  "shortDescription": "루이지 갈바니의 일대기와 지혜",
+  "slug": "luigi-galvani",
+  "quote": "가장 위대한 발견은 때로는 가장 사소하고 우연한 관찰에서 시작됩니다.",
+  "pain": "신경과 근육의 작동 원리를 설명하는 동물 전기 이론을 제안했으나, 볼타와의 학술적 논쟁에서 밀리며 학계의 외면을 받았고 말년에는 정치적 신념을 지키다 교수직마저 박탈당했다.",
+  "recovery": "학계의 비판과 극심한 가난 속에서도 동물 전기에 대한 굳건한 확신을 버리지 않았으며, 결국 후대 과학자들에 의해 신경 생리학의 진정한 선구자로 역사적인 재평가를 받았다.",
+  "lessons": [
+    {
+      "title": "가장 위대한 발견은 때로는 가장 사소하고 우연한 관찰에서 시작됩니다.",
+      "content": "일상에서 마주하는 작고 평범한 현상들 속에서도 늘 호기심을 잃지 말고, 그 이면에 숨겨진 커다란 진실을 탐구하려는 자세를 가지십시오."
+    },
+    {
+      "title": "진정한 학자는 시대의 유행이나 권력에 영합하지 않고, 오직 자신이 발견한 진실만을 따릅니다.",
+      "content": "어떠한 시련과 부당한 외압이 닥쳐오더라도 자신의 양심과 굳건한 신념을 지키며, 묵묵히 옳다고 믿는 길을 걸어가십시오."
+    },
+    {
+      "title": "위대한 논쟁은 승자와 패자를 가르는 것이 아니라, 두 학문을 모두 발전시키는 위대한 원동력입니다.",
+      "content": "나와 다른 의견을 가진 사람과의 치열한 토론을 결코 두려워하지 말고, 서로의 논리적 충돌을 통해 더 높은 차원의 진리를 발견하십시오."
+    }
+  ],
+  "persona": "당신은 루이지 갈바니이다.",
+  "imageUrl": "/images/giants/luigi-galvani.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1737~1798)"
+},
+  {
+  "id": "113",
+  "name": "마르첼로 말피기",
+  "category": "science",
+  "headline": "현미경을 이용해 모세혈관과 세포 구조를 최초로 발견하며 근대 미시 해부학과 생물학의 기초를 닦은 과학자다.",
+  "shortDescription": "마르첼로 말피기의 일대기와 지혜",
+  "slug": "marcello-malpighi",
+  "quote": "자연의 진정한 신비는 거대한 사물이 아니라 가장 미세하고 보이지 않는 구조 속에 숨어 있습니다.",
+  "pain": "17세기 보수적인 의학계의 극심한 반대와 갈레노스 추종자들의 시기심 어린 공격에 시달리며 연구실과 자택이 불타는 시련을 겪었다.",
+  "recovery": "흔들림 없는 학문적 집념으로 현미경 렌즈를 개량하고 끊임없이 미시 세계를 탐구하여 반대파들의 주장을 압도하는 결정적인 과학적 증거를 제시했다.",
+  "lessons": [
+    {
+      "title": "자연의 진정한 신비는 거대한 사물이 아니라 가장 미세하고 보이지 않는 구조 속에 숨어 있습니다.",
+      "content": "문제의 본질을 파악하려면 표면적인 현상에 만족하지 말고, 가장 작고 세밀한 부분까지 주의 깊게 관찰하십시오."
+    },
+    {
+      "title": "오래된 권위와 맹목적인 믿음은 결코 현미경 렌즈를 통해 확인된 명백한 사실을 이길 수 없습니다.",
+      "content": "세상의 편견이나 권위에 무비판적으로 순응하지 말고, 당신 스스로의 경험과 객관적인 근거를 바탕으로 진리를 탐구하십시오."
+    },
+    {
+      "title": "인간부터 작은 곤충과 식물에 이르기까지, 모든 생명체는 자연의 동일하고 경이로운 법칙을 공유하고 있습니다.",
+      "content": "나와 다르다고 여겨지는 존재들 속에서도 공통의 가치와 연결 고리를 발견하는 통섭적이고 포용적인 시각을 기르십시오."
+    }
+  ],
+  "persona": "당신은 마르첼로 말피기이다.",
+  "imageUrl": "/images/giants/marcello-malpighi.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1628~1694)"
+},
+  {
+  "id": "87",
+  "name": "마리아 가에타나 아녜시",
+  "category": "science",
+  "headline": "당대 흩어져 있던 미적분학 지식을 체계적으로 통합한 여성 최초의 대학 수학 교수이자 헌신적인 자선가다.",
+  "shortDescription": "마리아 가에타나 아녜시의 일대기와 지혜",
+  "slug": "maria-gaetana-agnesi",
+  "quote": "수학은 인간의 이성이 도달할 수 있는 가장 순수하고 오류 없는 진리의 형태입니다.",
+  "pain": "여성이라는 이유로 공적 학문 활동이 제한된 시대적 한계에 부딪혔으며, 철학과 수학의 이성적 성취와 종교적 헌신 사이에서 깊은 내적 갈등을 겪었다.",
+  "recovery": "스스로 은둔의 삶을 택해 미적분학의 방대한 지식을 통합하는 기념비적인 교과서를 집필함으로써, 시대의 장벽을 지성으로 우아하게 허물어버렸다.",
+  "lessons": [
+    {
+      "title": "수학은 인간의 이성이 도달할 수 있는 가장 순수하고 오류 없는 진리의 형태입니다.",
+      "content": "감정이나 편견에 흔들리지 않는 논리적이고 명료한 사고방식으로 복잡한 문제의 해답을 찾으십시오."
+    },
+    {
+      "title": "지식은 소수만의 전유물이 아니라, 언어와 국가의 장벽을 넘어 모든 이에게 명쾌하게 공유되어야 합니다.",
+      "content": "당신이 얻은 깨달음과 지식을 타인과 나누며, 세상을 더 널리 이롭게 하는 다리 역할을 수행하십시오."
+    },
+    {
+      "title": "최고의 지성에 도달한 인간이 마지막으로 향해야 할 곳은 가장 가난하고 병든 이웃들의 곁입니다.",
+      "content": "성공과 명예에 취하지 말고, 타인을 향한 따뜻한 연민과 헌신적인 사랑으로 당신의 삶을 진정으로 완성하십시오."
+    }
+  ],
+  "persona": "당신은 마리아 가에타나 아녜시이다.",
+  "imageUrl": "/images/giants/maria-gaetana-agnesi.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1718~1799)"
+},
+  {
+  "id": "455",
+  "name": "마리아 미첼",
+  "category": "science",
+  "headline": "19세기 미국 최초로 혜성을 발견하고 여성 최초의 천문학 교수가 된 선구적인 천체 물리학자다.",
+  "shortDescription": "마리아 미첼의 일대기와 지혜",
+  "slug": "maria-mitchell",
+  "quote": "우리가 알고 있는 지식은 거대한 우주의 진리라는 산의 가장 밑바닥에 불과합니다.",
+  "pain": "여성에게는 고등 교육의 기회조차 주어지지 않던 보수적인 19세기 미국 사회에서, 독학으로 복잡한 천문학을 연구해야 하는 고독한 환경에 놓였다.",
+  "recovery": "도서관 사서로 일하며 방대한 과학 서적을 섭렵하고, 수십 년간 매일 밤 끈질기게 밤하늘을 관측하여 새로운 혜성을 발견해 냈다.",
+  "lessons": [
+    {
+      "title": "우리가 알고 있는 지식은 거대한 우주의 진리라는 산의 가장 밑바닥에 불과합니다.",
+      "content": "현재의 성취에 결코 자만하지 말고, 끝을 알 수 없는 미지의 세계를 향해 겸손한 자세로 끊임없이 배우십시오."
+    },
+    {
+      "title": "모든 공식과 책 속의 이론은 당신의 눈으로 직접 관찰하고 증명할 때 비로소 진정한 과학이 됩니다.",
+      "content": "타인의 말을 무비판적으로 수용하지 말고, 직접 경험하고 철저히 검증하는 독립적인 비판 의식을 가지십시오."
+    },
+    {
+      "title": "별빛은 남녀를 가리지 않고 평등하게 쏟아지며, 진리를 탐구하는 정신에는 어떠한 성별의 장벽도 있을 수 없습니다.",
+      "content": "사회적 편견이나 차별적인 굴레에 굴복하지 말고, 당신의 열정과 능력으로 스스로의 가치를 당당히 증명하십시오."
+    }
+  ],
+  "persona": "당신은 마리아 미첼이다.",
+  "imageUrl": "/images/giants/maria-mitchell.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1818~1889)"
+},
+  {
+  "id": "88",
+  "name": "마리아 시빌라 메리안",
+  "category": "science",
+  "headline": "곤충의 변태 과정과 숙주 식물의 상호작용을 예술적 세밀화로 규명한 근대 생태학과 곤충학의 어머니이자 위대한 탐험가다.",
+  "shortDescription": "마리아 시빌라 메리안의 일대기와 지혜",
+  "slug": "maria-sibylla-merian",
+  "quote": "가장 보잘것없고 혐오스러운 애벌레 속에서도 거대한 우주의 신비와 숭고한 생명의 아름다움이 숨 쉬고 있습니다.",
+  "pain": "곤충을 악마의 피조물로 혐오하던 사회적 미신과, 여성의 학문적 탐험을 금기시하던 17세기 유럽의 억압적인 편견에 맞서야 했다.",
+  "recovery": "흔들리지 않는 관찰력과 독창적인 예술적 재능을 바탕으로 자비로 남아메리카 탐험을 감행하여 곤충 생태학의 기념비적인 도감을 완성했다.",
+  "lessons": [
+    {
+      "title": "가장 보잘것없고 혐오스러운 애벌레 속에서도 거대한 우주의 신비와 숭고한 생명의 아름다움이 숨 쉬고 있습니다.",
+      "content": "세상의 편견에 흔들리지 말고, 가장 작은 존재 속에서도 본질적인 가치와 아름다움을 찾아내는 혜안을 기르십시오."
+    },
+    {
+      "title": "죽어서 박제된 표본 백 개보다, 살아 움직이는 하나의 생명체가 우리에게 훨씬 더 위대한 진리를 가르쳐 줍니다.",
+      "content": "이론이나 낡은 책에만 의존하지 말고, 생동감 넘치는 현실 속으로 직접 뛰어들어 생생한 경험을 통해 배우십시오."
+    },
+    {
+      "title": "어떤 생물도 홀로 존재하지 않으며, 자연의 모든 요소는 서로 정교하게 연결되어 생명의 그물을 직조합니다.",
+      "content": "개별적인 현상에만 집착하지 말고, 그것을 둘러싼 환경과의 상호작용을 통합적으로 바라보는 거시적인 통찰력을 가지십시오."
+    }
+  ],
+  "persona": "당신은 마리아 시빌라 메리안이다.",
+  "imageUrl": "/images/giants/maria-sibylla-merian.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1647~1717)"
+},
+  {
+  "id": "122",
+  "name": "마리앙 폴즈 라부아지에",
+  "category": "science",
+  "headline": "남편 앙투안과 함께 근대 화학의 토대를 다지고 널리 전파한 화학 혁명의 진정한 공동 창립자이다.",
+  "shortDescription": "마리앙 폴즈 라부아지에의 일대기와 지혜",
+  "slug": "marie-anne-paulze-lavoisier",
+  "quote": "진정한 발견은 실험실의 기구뿐만 아니라 그것을 묘사하고 기록하는 손끝에서도 피어납니다.",
+  "pain": "프랑스 대혁명 기간 동안 부패 혐의로 아버지와 남편이 모두 단두대에서 처형당하고 전 재산을 몰수당하는 비극을 겪었다.",
+  "recovery": "깊은 절망 속에서도 감옥에서 풀려난 후 남편의 남은 원고를 수집하고 자비로 '화학 회고록집'을 출판하여 그의 과학적 명예를 성공적으로 회복시켰다.",
+  "lessons": [
+    {
+      "title": "진정한 발견은 실험실의 기구뿐만 아니라 그것을 묘사하고 기록하는 손끝에서도 피어납니다.",
+      "content": "과학적 성과는 완벽한 관찰과 꼼꼼한 기록이 뒷받침될 때 비로소 완성됩니다. 자신이 맡은 역할을 세밀하고 정확하게 수행하여 더 큰 목표를 달성하십시오."
+    },
+    {
+      "title": "시대의 광기가 소중한 것을 앗아갈지라도, 우리가 남긴 지식의 빛은 결코 꺼지지 않습니다.",
+      "content": "외부의 시련이나 부당한 폭력이 일시적으로 성공을 무너뜨릴 수는 있어도, 진실과 지식의 가치는 영원히 남습니다. 굳건한 신념으로 당신만의 유산을 지켜내십시오."
+    },
+    {
+      "title": "번역은 단순히 언어를 바꾸는 것이 아니라, 새로운 진리를 세상에 연결하는 튼튼한 다리입니다.",
+      "content": "새로운 정보를 흡수하고 비판적으로 해석하는 능력은 지식을 확장하는 훌륭한 무기입니다. 끊임없이 배우고 타인의 지혜를 내 것으로 만들어 성장의 발판으로 삼으십시오."
+    }
+  ],
+  "persona": "당신은 마리앙 폴즈 라부아지에이다.",
+  "imageUrl": "/images/giants/marie-anne-paulze-lavoisier.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1758~1836)"
+},
+  {
+  "id": "90",
+  "name": "메리 애닝",
+  "category": "science",
+  "headline": "라임 리지스의 절벽에서 경이로운 화석들을 발굴하여 근대 고생물학의 탄생을 이끈 세상에서 가장 위대한 화석 발견자이다.",
+  "shortDescription": "메리 애닝의 일대기와 지혜",
+  "slug": "mary-anning",
+  "quote": "가장 딱딱하고 차가운 바위 속에도 지구의 장대한 역사가 숨 쉬고 있습니다.",
+  "pain": "19세기 영국의 노동자 계급 여성이었기에, 역사적인 발견을 거듭하고도 남성 위주의 학계로부터 정식 학자로 인정받지 못하고 심각한 빈곤에 시달렸다.",
+  "recovery": "냉대와 차별 속에서도 고생물학 연구와 화석 발굴을 포기하지 않았으며, 끝내 세계 주요 박물관의 중심을 장식하는 압도적인 증거들을 세상에 내놓았다.",
+  "lessons": [
+    {
+      "title": "가장 딱딱하고 차가운 바위 속에도 지구의 장대한 역사가 숨 쉬고 있습니다.",
+      "content": "겉보기에는 쓸모없거나 평범해 보이는 것 속에도 놀라운 가치가 숨겨져 있을 수 있습니다. 남들이 지나치는 곳을 인내심 있게 관찰하고 탐구하십시오."
+    },
+    {
+      "title": "세상이 내 이름과 공로를 지우려 해도, 내가 발굴한 진실은 영원히 박물관의 중심을 지킬 것입니다.",
+      "content": "당장의 보상이나 명예가 주어지지 않더라도 묵묵히 자신의 일을 완수하십시오. 진정한 업적은 시간이 흐를수록 더욱 빛을 발하게 됩니다."
+    },
+    {
+      "title": "과학의 진리는 권위자의 오만함이 아니라, 벼랑 끝에서 직접 캐낸 차가운 화석이 증명합니다.",
+      "content": "맹목적인 권위에 흔들리지 말고 자신이 직접 확인한 사실과 데이터를 믿으십시오. 스스로 쌓아 올린 경험과 증거가 가장 강력한 무기입니다."
+    }
+  ],
+  "persona": "당신은 메리 애닝이다.",
+  "imageUrl": "/images/giants/mary-anning.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1799~1847)"
+},
+  {
+  "id": "452",
+  "name": "메리 잭슨",
+  "category": "science",
+  "headline": "극심한 인종 차별을 극복하고 나사(NASA) 최초의 흑인 여성 엔지니어가 되어 미국 우주 탐사에 기여한 20세기의 선구자이다.",
+  "shortDescription": "메리 잭슨의 일대기와 지혜",
+  "slug": "mary-jackson",
+  "quote": "우리를 가로막는 법과 제도가 불공평하다면, 멈춰 서는 대신 용기 있게 그 문을 두드려야 합니다.",
+  "pain": "1950년대 미국의 극심한 인종 분리 정책과 성차별로 인해 엔지니어가 되기 위한 필수 교육조차 접근하기 어려운 유리천장에 부딪혔다.",
+  "recovery": "시의회에 직접 탄원서를 내어 백인 전용 학교에서 수업을 들을 권리를 쟁취했고, 마침내 나사(NASA) 최초의 흑인 여성 항공우주 엔지니어가 되었다.",
+  "lessons": [
+    {
+      "title": "우리를 가로막는 법과 제도가 불공평하다면, 멈춰 서는 대신 용기 있게 그 문을 두드려야 합니다.",
+      "content": "부당한 차별과 한계에 직면했을 때 좌절하지 말고 정면으로 맞서십시오. 당신의 용기 있는 행동이 굳게 닫힌 문을 여는 열쇠가 될 수 있습니다."
+    },
+    {
+      "title": "혼자서 유리천장을 깨고 올라가는 것보다 중요한 것은, 뒤따라올 이들을 위해 사다리를 내려주는 일입니다.",
+      "content": "개인의 성취에 안주하지 않고 다른 사람들이 성장할 수 있도록 돕는 것이 진정한 리더십입니다. 당신이 개척한 길을 후배들과 기꺼이 나누십시오."
+    },
+    {
+      "title": "강력한 바람을 견뎌내는 항공기처럼, 거센 역경은 오히려 우리를 더 높이 날아오르게 합니다.",
+      "content": "고난과 도전은 당신을 무너뜨리기 위한 것이 아니라 강하게 단련하기 위한 과정입니다. 시련의 바람을 추진력으로 삼아 한계를 뛰어넘으십시오."
+    }
+  ],
+  "persona": "당신은 메리 잭슨이다.",
+  "imageUrl": "/images/giants/mary-jackson.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1921~2005)"
+},
+  {
+  "id": "457",
+  "name": "메리 시콜",
+  "category": "science",
+  "headline": "인종적 편견을 뛰어넘어 크림 전쟁의 최전선에서 병사들을 구호한 위대하고 헌신적인 치유의 거인이다.",
+  "shortDescription": "메리 시콜의 일대기와 지혜",
+  "slug": "mary-seacole",
+  "quote": "정부가 나의 헌신을 거절한다면, 나는 내 힘으로 먼 전장을 향해 돛을 올릴 것입니다.",
+  "pain": "크림 전쟁 당시 흑인 혼혈이라는 인종적 편견과 제도적 차별로 인해 영국 정부와 간호단으로부터 합류를 단호하게 거절당했다.",
+  "recovery": "정부의 지원 없이 스스로 전 재산을 털어 최전방인 세바스토폴로 향했으며, '브리티시 호텔'을 세워 병사들을 직접 헌신적으로 치료했다.",
+  "lessons": [
+    {
+      "title": "정부가 나의 헌신을 거절한다면, 나는 내 힘으로 먼 전장을 향해 돛을 올릴 것입니다.",
+      "content": "타인의 인정이나 제도적 지원에만 의존하지 말고 스스로의 신념에 따라 행동하십시오. 당신의 주도적인 결단이 세상을 바꾸는 첫걸음이 됩니다."
+    },
+    {
+      "title": "총알이 빗발치는 전장에서도 생명을 살리는 따뜻한 차 한 잔은 인간의 존엄을 지키는 방패가 됩니다.",
+      "content": "아무리 척박하고 절망적인 상황이라도 타인을 향한 작은 친절과 헌신은 강력한 희망을 만들어냅니다. 주변 사람들에게 따뜻한 위로와 도움의 손길을 내미십시오."
+    },
+    {
+      "title": "피부색은 나를 차별하는 핑계가 될 수 있지만, 내가 베푸는 치유의 힘을 막을 수는 없습니다.",
+      "content": "세상의 편견이 당신을 억압하려 할 때, 오직 실력과 진정성 있는 행동으로 스스로를 증명하십시오. 진정한 가치는 겉모습이 아닌 당신의 실천에서 빛이 납니다."
+    }
+  ],
+  "persona": "당신은 메리 시콜이다.",
+  "imageUrl": "/images/giants/mary-seacole.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1805~1881)"
+},
+  {
+  "id": "73",
+  "name": "메리 서머빌",
+  "category": "science",
+  "headline": "물리학, 천문학, 지질학 등 19세기의 다방면 과학을 하나로 융합하여 '과학자'라는 단어를 탄생시킨 위대한 여성 지성이다.",
+  "shortDescription": "메리 서머빌의 일대기와 지혜",
+  "slug": "mary-somerville",
+  "quote": "자연을 이루는 모든 법칙은 보이지 않는 끈으로 연결되어 우주라는 거대한 조화를 만들어냅니다.",
+  "pain": "여성이 학문을 추구하는 것을 억압하던 18세기의 시대적 분위기 속에서 정규 교육을 받지 못한 채 주변의 따가운 눈초리를 견뎌야 했다.",
+  "recovery": "어둠 속에서 홀로 수학적 사고력을 키우는 독학으로 지적 한계를 뛰어넘었고, 훗날 동료 과학자들의 존경 속에 유럽 최고의 천문학자로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "자연을 이루는 모든 법칙은 보이지 않는 끈으로 연결되어 우주라는 거대한 조화를 만들어냅니다.",
+      "content": "단편적인 지식에 머무르지 말고 다양한 현상들 사이의 연결 고리를 통찰하십시오. 넓은 시야로 세상을 융합적으로 바라볼 때 진정한 원리를 깨달을 수 있습니다."
+    },
+    {
+      "title": "어둠 속에서 촛불을 빼앗겨도 내 머릿속의 기하학은 더욱 찬란하게 빛났습니다.",
+      "content": "외부의 제약이나 방해가 당신의 지적 열망을 꺾을 수는 없습니다. 환경을 탓하지 말고 스스로의 내면에 집중하여 끊임없이 탐구하십시오."
+    },
+    {
+      "title": "위대한 사상가의 철학을 번역하는 것은 단지 그의 말을 옮기는 것이 아니라 그의 진리를 세상과 공유하는 일입니다.",
+      "content": "어려운 개념과 지식을 다른 사람들이 이해하기 쉽게 전달하는 것은 매우 가치 있는 일입니다. 당신의 배움을 타인과 나누어 세상을 더욱 지혜롭게 만드십시오."
+    }
+  ],
+  "persona": "당신은 메리 서머빌이다.",
+  "imageUrl": "/images/giants/mary-somerville.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1780~1872)"
+},
+  {
+  "id": "331",
+  "name": "모리스 윌킨스",
+  "category": "science",
+  "headline": "X선 회절 기술을 통해 DNA가 이중 나선 구조임을 입증하는 결정적 단서를 제공한 영국의 생물물리학자이다.",
+  "shortDescription": "모리스 윌킨스의 일대기와 지혜",
+  "slug": "maurice-wilkins",
+  "quote": "과학은 인류를 파괴하는 도구가 아니라, 생명을 이해하고 구원하는 빛이 되어야 합니다.",
+  "pain": "원자폭탄 개발에 참여한 후, 자신의 연구가 대량 살상 무기로 사용된 것에 대해 극심한 죄책감과 윤리적 회의감에 시달렸다.",
+  "recovery": "파괴적인 물리학 연구를 접고 생명의 신비를 밝히는 생물물리학으로 전향하여, DNA 이중 나선 구조를 밝혀냄으로써 인류의 과학 발전에 기여했다.",
+  "lessons": [
+    {
+      "title": "과학은 인류를 파괴하는 도구가 아니라, 생명을 이해하고 구원하는 빛이 되어야 합니다.",
+      "content": "자신의 지식과 기술이 어떤 결과를 초래할지 항상 고민하고, 인류에게 이로운 방향으로 사용되도록 책임감을 가지십시오."
+    },
+    {
+      "title": "하나의 완벽한 사진이 천 개의 이론보다 더 많은 진실을 말해줄 때가 있습니다.",
+      "content": "복잡한 추론보다 확실한 근거와 명확한 데이터가 문제 해결의 가장 강력한 열쇠임을 잊지 마십시오."
+    },
+    {
+      "title": "위대한 발견은 종종 치열한 갈등과 예상치 못한 협력의 교차점에서 탄생합니다.",
+      "content": "타인과의 갈등을 두려워하지 말고, 그 속에서도 협력의 실마리를 찾아 더 큰 성취를 이루어 내십시오."
+    }
+  ],
+  "persona": "당신은 모리스 윌킨스이다.",
+  "imageUrl": "/images/giants/maurice-wilkins.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1916~2004)"
+},
+  {
+  "id": "321",
+  "name": "막스 보른",
+  "category": "science",
+  "headline": "양자역학의 파동 함수에 확률적 해석을 도입하여 현대 물리학의 세계관을 완전히 바꾸어 놓은 독일의 이론물리학자이다.",
+  "shortDescription": "막스 보른의 일대기와 지혜",
+  "slug": "max-born",
+  "quote": "결정론은 낡은 우상일 뿐이며, 자연의 진정한 본질은 확률 속에 숨어 있습니다.",
+  "pain": "나치 정권의 반유대주의 정책으로 인해 평생을 바친 괴팅겐 대학교에서 해임되고, 조국을 떠나 영국으로 쫓기듯 망명해야 했다.",
+  "recovery": "낯선 환경과 언어의 장벽 속에서도 에든버러 대학교에서 연구와 후학 양성을 이어가며, 마침내 양자역학의 기초를 다진 공로로 노벨 물리학상을 수상했다.",
+  "lessons": [
+    {
+      "title": "결정론은 낡은 우상일 뿐이며, 자연의 진정한 본질은 확률 속에 숨어 있습니다.",
+      "content": "모든 것이 정해져 있다는 고정관념에서 벗어나, 불확실성 속에서 다양한 가능성과 기회를 적극적으로 탐색하십시오."
+    },
+    {
+      "title": "지성은 무기보다 강하며, 평화는 폭력보다 더 오래 지속되는 진리입니다.",
+      "content": "어떠한 갈등 상황에서도 폭력적인 방식보다는 이성적인 대화와 평화적인 해결책을 먼저 모색하십시오."
+    },
+    {
+      "title": "과학적 발견은 개인의 천재성이 아니라, 자유로운 토론과 협력이 낳은 결실입니다.",
+      "content": "혼자서 모든 것을 해결하려 하지 말고, 동료들과의 열린 소통과 협력을 통해 더 나은 결과를 만들어 내십시오."
+    }
+  ],
+  "persona": "당신은 막스 보른이다.",
+  "imageUrl": "/images/giants/max-born.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1882~1970)"
+},
+  {
+  "id": "221",
+  "name": "닐 암스트롱",
+  "category": "science",
+  "headline": "아폴로 11호를 지휘하여 달 표면에 발을 디딘 최초의 인류가 된 미국의 우주비행사이다.",
+  "shortDescription": "닐 암스트롱의 일대기와 지혜",
+  "slug": "neil-armstrong",
+  "quote": "이것은 한 인간에게는 작은 발걸음이지만, 인류에게는 위대한 도약입니다.",
+  "pain": "우주선 제미니 8호 비행 중 기체가 통제 불능 상태로 회전하는 죽음의 위기를 맞았으며, 아폴로 11호 달 착륙 시에도 컴퓨터 과부하와 연료 부족이라는 극한의 상황에 직면했다.",
+  "recovery": "테스트 파일럿 시절부터 단련된 초인적인 침착함과 흔들림 없는 수동 조종 능력을 발휘하여 모든 위기를 극복하고 무사히 달 착륙 임무를 완수했다.",
+  "lessons": [
+    {
+      "title": "이것은 한 인간에게는 작은 발걸음이지만, 인류에게는 위대한 도약입니다.",
+      "content": "개인의 작은 노력과 시도가 모여 집단과 사회 전체의 거대한 발전을 이끌어낼 수 있음을 믿고 실천하십시오."
+    },
+    {
+      "title": "나는 우주가 우리에게 주어졌기 때문에 탐험해야 한다고 굳게 믿습니다.",
+      "content": "미지의 세계에 대한 두려움을 호기심과 도전 정신으로 승화시켜, 끊임없이 새로운 가능성을 탐구하십시오."
+    },
+    {
+      "title": "영웅주의는 원하지 않았습니다. 나는 그저 내게 주어진 임무를 완벽하게 해내고 싶었을 뿐입니다.",
+      "content": "명성이나 타인의 시선에 얽매이지 말고, 오직 자신에게 주어진 책임과 본질적인 역할에 묵묵히 최선을 다하십시오."
+    }
+  ],
+  "persona": "당신은 닐 암스트롱이다.",
+  "imageUrl": "/images/giants/neil-armstrong.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1930~2012)"
+},
+  {
+  "id": "105",
+  "name": "네티 스티븐스",
+  "category": "science",
+  "headline": "성별이 환경이 아닌 X와 Y 염색체에 의해 결정된다는 사실을 최초로 규명한 미국의 선구적인 유전학자이다.",
+  "shortDescription": "네티 스티븐스의 일대기와 지혜",
+  "slug": "nettie-stevens",
+  "quote": "과학의 본질은 누가 발견했는가에 있는 것이 아니라, 어떤 진리가 밝혀졌는가에 있습니다.",
+  "pain": "여성에 대한 차별이 극심했던 시대에 가난한 환경 속에서 교사로 일하며 학비를 모아야 했고, 위대한 발견 이후에도 남성 학자들의 그늘에 가려 정당한 평가를 받지 못했다.",
+  "recovery": "35세라는 늦은 나이에 대학에 진학하는 불굴의 의지를 보였으며, 명예에 연연하지 않고 끝없는 끈기와 관찰력으로 현대 유전학의 토대가 된 XY 성염색체를 발견해 냈다.",
+  "lessons": [
+    {
+      "title": "과학의 본질은 누가 발견했는가에 있는 것이 아니라, 어떤 진리가 밝혀졌는가에 있습니다.",
+      "content": "타인의 인정이나 명예에 지나치게 집착하지 말고, 진리를 탐구하고 배우는 순수한 본질 그 자체에 온전히 집중하십시오."
+    },
+    {
+      "title": "가장 미미하고 하찮아 보이는 것들 속에 우주를 설명할 수 있는 가장 위대한 단서가 숨어 있습니다.",
+      "content": "사소하고 당연해 보이는 현상이라도 무심히 지나치지 말고, 세밀하고 끈기 있는 관찰을 통해 새로운 가치를 발견하십시오."
+    },
+    {
+      "title": "무언가를 시작하기에 너무 늦은 때란 결코 존재하지 않습니다.",
+      "content": "나이나 주변의 환경을 핑계로 꿈을 포기하지 말고, 당신의 가슴이 뛰는 일이라면 지금 당장 결단하고 시작하십시오."
+    }
+  ],
+  "persona": "당신은 네티 스티븐스이다.",
+  "imageUrl": "/images/giants/nettie-stevens.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1861~1912)"
+},
+  {
+  "id": "319",
+  "name": "닐스 보어",
+  "category": "science",
+  "headline": "양자 도약 개념을 도입하여 원자의 구조를 밝혀내고 현대 양자역학의 코펜하겐 해석을 확립한 덴마크의 위대한 물리학자이다.",
+  "shortDescription": "닐스 보어의 일대기와 지혜",
+  "slug": "niels-bohr",
+  "quote": "전문가란 아주 좁은 분야에서 저지를 수 있는 모든 오류를 이미 다 저질러 본 사람을 말합니다.",
+  "pain": "당대 최고의 천재 알베르트 아인슈타인으로부터 자신의 양자역학 이론이 끈질긴 반대에 부딪혔으며, 제2차 세계대전 중에는 나치의 위협으로 인해 목숨을 걸고 덴마크를 탈출해야 했다.",
+  "recovery": "치열한 학문적 논쟁을 피하지 않고 논리적으로 양자역학의 토대를 방어해 냈으며, 망명 이후에도 핵무기 경쟁을 막고 열린 세계를 위한 국제적 연대를 평생 호소했다.",
+  "lessons": [
+    {
+      "title": "전문가란 아주 좁은 분야에서 저지를 수 있는 모든 오류를 이미 다 저질러 본 사람을 말합니다.",
+      "content": "실패와 오류를 부끄러워하지 말고, 그것을 더 깊은 진리와 전문성으로 나아가는 필수적인 과정으로 받아들이십시오."
+    },
+    {
+      "title": "대립되는 두 가지 깊은 진리는 서로 모순되는 것이 아니라, 더 큰 진실을 이루기 위해 상호 보완적인 것입니다.",
+      "content": "자신과 다른 의견이나 모순되는 상황을 무조건 배척하지 말고, 두 관점을 포용하여 더 큰 해결책을 모색하십시오."
+    },
+    {
+      "title": "위대한 진리의 반대말은 거짓이 아니라, 또 다른 위대한 진리입니다.",
+      "content": "세상을 단순한 흑백 논리로 판단하지 말고, 다각적이고 유연한 시각으로 복잡한 문제의 본질을 꿰뚫어 보십시오."
+    }
+  ],
+  "persona": "당신은 닐스 보어이다.",
+  "imageUrl": "/images/giants/niels-bohr.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1885~1962)"
+},
+  {
+  "id": "115",
+  "name": "파라켈수스",
+  "category": "science",
+  "headline": "16세기 유럽 의학의 낡은 권위를 타파하고 화학 의학이라는 새로운 지평을 연 선구자이다.",
+  "shortDescription": "파라켈수스의 일대기와 지혜",
+  "slug": "paracelsus",
+  "quote": "\"모든 물질은 독이며, 독이 없는 물질은 없다. 오직 복용량만이 독과 약을 결정한다.\"",
+  "pain": "주류 의학계의 권위적인 태도와 기득권의 반발로 인해 학계에서 쫓겨나 평생을 방랑하는 처지에 놓였다.",
+  "recovery": "정규 학위에 얽매이지 않고 실전 임상 경험과 자연 관찰을 중시하며, 독창적인 화학 의학을 확립하여 수많은 환자를 구했다.",
+  "lessons": [
+    {
+      "title": "\"모든 물질은 독이며, 독이 없는 물질은 없다. 오직 복용량만이 독과 약을 결정한다.\"",
+      "content": "세상의 모든 사물과 지식에는 양면성이 존재함을 기억하십시오. 어떤 훌륭한 도구라도 과도하게 사용하면 치명적인 해가 될 수 있으므로, 항상 적절한 균형과 중용의 지혜를 유지하는 것이 중요합니다."
+    },
+    {
+      "title": "\"의사는 자연의 종이지, 자연의 주인이 아니다.\"",
+      "content": "인간의 오만함으로 자연의 섭리를 거스르거나 억지로 통제하려 하지 마십시오. 문제에 부딪혔을 때는 억지스러운 해결책보다 자연스러운 흐름과 순리에 몸을 맡기며 해답을 찾아보십시오."
+    },
+    {
+      "title": "\"상처를 치료하는 것은 외과의사가 아니라, 상처 부위에서 일어나는 자연의 치유력이다.\"",
+      "content": "진정한 회복은 외부의 강압적인 힘이 아니라 내면의 자생력에서 비롯됩니다. 타인이나 조직의 문제를 해결할 때도 강압적인 지시보다는 스스로 성장하고 치유할 수 있는 환경을 조성해 주십시오."
+    }
+  ],
+  "persona": "당신은 파라켈수스이다.",
+  "imageUrl": "/images/giants/paracelsus.jpg",
+  "dnaCode": "LRHI",
+  "era": "16세기의 거인 (1493~1541)"
+},
+  {
+  "id": "322",
+  "name": "폴 디랙",
+  "category": "science",
+  "headline": "양자역학과 상대성이론을 통합한 디랙 방정식을 창안하여 반물질의 존재를 예언한 천재 물리학자이다.",
+  "shortDescription": "폴 디랙의 일대기와 지혜",
+  "slug": "paul-dirac",
+  "quote": "\"물리 법칙은 수학적 아름다움을 지녀야만 한다.\"",
+  "pain": "억압적인 가정 환경으로 인해 극도로 내성적이고 과묵한 성격을 가지게 되었으며, 타인과 교류하는 데 큰 어려움을 겪었다.",
+  "recovery": "침묵 속에서 수학적 아름다움과 내면의 직관에 온전히 집중함으로써, 양자역학의 가장 심오한 수수께끼를 풀어내는 독창적인 방정식을 창조했다.",
+  "lessons": [
+    {
+      "title": "\"물리 법칙은 수학적 아름다움을 지녀야만 한다.\"",
+      "content": "문제를 해결할 때 단순히 실용적이거나 복잡한 미봉책에 만족하지 마십시오. 가장 근본적이고 진실된 해답은 대체로 명쾌하고 우아한 논리적 구조를 갖추고 있음을 잊지 마십시오."
+    },
+    {
+      "title": "\"방정식이 당신의 직관보다 똑똑하다면, 그것을 믿어야 한다.\"",
+      "content": "때로는 자신의 선입견이나 상식보다 객관적인 데이터와 원칙이 더 정확한 길을 제시합니다. 편견을 버리고 논리적 결론이 가리키는 낯선 방향으로 담대하게 나아가 보십시오."
+    },
+    {
+      "title": "\"과학은 이전에 아무도 몰랐던 것을 모두가 이해할 수 있는 방식으로 말하는 것이다.\"",
+      "content": "진정한 지식과 발견은 타인에게 명확하게 전달될 때 비로소 완성됩니다. 자신이 깨달은 복잡한 통찰을 누구나 쉽게 이해할 수 있는 명료한 언어로 소통하기 위해 노력하십시오."
+    }
+  ],
+  "persona": "당신은 폴 디랙이다.",
+  "imageUrl": "/images/giants/paul-dirac.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1902~1984)"
+},
+  {
+  "id": "67",
+  "name": "퍼시 줄리안",
+  "category": "science",
+  "headline": "극심한 인종 차별을 극복하고 스테로이드와 식물 합성 분야에서 혁명적인 업적을 남긴 아프리카계 미국인 화학자이다.",
+  "shortDescription": "퍼시 줄리안의 일대기와 지혜",
+  "slug": "percy-lavon-julian",
+  "quote": "\"나는 사람들이 나에게 불가능하다고 말하는 것을 해내는 데에서 가장 큰 기쁨을 느낀다.\"",
+  "pain": "짐 크로우 법이 시행되던 시대의 미국에서 흑인이라는 이유만으로 끊임없는 제도적 차별과 취업의 장벽에 부딪혔다.",
+  "recovery": "백인의 차별에 굴복하지 않고 탁월한 화학적 천재성과 초인적인 연구 열정을 발휘하여 세계적인 산업 화학적 성과를 이룩했다.",
+  "lessons": [
+    {
+      "title": "\"나는 사람들이 나에게 불가능하다고 말하는 것을 해내는 데에서 가장 큰 기쁨을 느낀다.\"",
+      "content": "타인의 편견이나 사회적 제약이 당신의 한계를 규정하도록 내버려 두지 마십시오. 불가능해 보이는 도전을 성취의 기회로 삼아 스스로의 진정한 가치를 증명해 내십시오."
+    },
+    {
+      "title": "\"교육은 우연히 얻어지는 것이 아니라, 불타는 열망과 끊임없는 노력으로 쟁취하는 것이다.\"",
+      "content": "배움과 성장은 저절로 주어지는 것이 아님을 명심하십시오. 열악한 환경 속에서도 지식을 향한 갈망을 잃지 않고 끈질기게 노력하는 자만이 위대한 성취를 이룰 수 있습니다."
+    },
+    {
+      "title": "\"인류의 고통을 덜어주는 것보다 더 위대한 과학적 목표는 없다.\"",
+      "content": "당신이 가진 재능과 지식을 개인의 영달을 넘어 사회에 기여하는 데 사용하십시오. 타인의 아픔을 공감하고 이를 해결하려는 헌신적인 태도가 가장 빛나는 유산을 남깁니다."
+    }
+  ],
+  "persona": "당신은 퍼시 줄리안이다.",
+  "imageUrl": "/images/giants/percy-lavon-julian.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1899~1965)"
+},
+  {
+  "id": "284",
+  "name": "피에르 드 페르마",
+  "category": "science",
+  "headline": "본업인 판사로 일하면서도 취미로 수학을 탐구하여 현대 정수론과 확률론의 기초를 다진 아마추어 수학자의 왕이다.",
+  "shortDescription": "피에르 드 페르마의 일대기와 지혜",
+  "slug": "pierre-de-fermat",
+  "quote": "\"나는 이 정리에 대한 진정으로 놀라운 증명 방법을 발견했으나, 책의 여백이 너무 좁아 여기에 적지 않겠다.\"",
+  "pain": "직업 수학자가 아닌 법관으로서 학계의 주류에 속하지 않았으며, 자신의 연구 결과를 공식적으로 출판할 기회가 부족했다.",
+  "recovery": "지적 호기심과 순수한 열정을 바탕으로 동료 학자들과 서신을 교환하며 정수론과 확률론 등 수학의 새로운 분야를 개척했다.",
+  "lessons": [
+    {
+      "title": "\"나는 이 정리에 대한 진정으로 놀라운 증명 방법을 발견했으나, 책의 여백이 너무 좁아 여기에 적지 않겠다.\"",
+      "content": "때로는 모든 정답을 즉시 제시하기보다, 사람들의 호기심과 도전 정신을 자극하는 여백을 남겨두십시오. 훌륭한 질문 하나가 수백 년의 세월을 이끄는 위대한 원동력이 될 수 있습니다."
+    },
+    {
+      "title": "\"아마추어의 진정한 힘은 어떤 제약이나 보상에도 얽매이지 않고 오직 순수한 즐거움을 위해 탐구하는 데 있다.\"",
+      "content": "본업에 충실하면서도 당신의 가슴을 뛰게 하는 순수한 열정의 대상을 찾아보십시오. 금전적 보상이나 명예에 얽매이지 않는 취미가 때로는 역사를 바꾸는 위대한 성취로 이어집니다."
+    },
+    {
+      "title": "\"아무리 복잡해 보이는 숫자의 혼돈 속에도, 자연이 숨겨놓은 아름답고 완벽한 질서가 존재한다.\"",
+      "content": "일상의 혼란스럽고 복잡한 문제 앞에서도 좌절하지 마십시오. 인내심을 가지고 현상의 이면을 깊이 들여다보면, 문제를 명쾌하게 풀어낼 숨겨진 규칙과 질서를 반드시 발견할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 피에르 드 페르마이다.",
+  "imageUrl": "/images/giants/pierre-de-fermat.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1607~1665)"
+},
+  {
+  "id": "100",
+  "name": "레이첼 카슨",
+  "category": "science",
+  "headline": "무분별한 화학 살충제의 치명적인 위험성을 폭로하여 전 세계적인 환경 보호 운동을 촉발시킨 생물학자이자 작가이다.",
+  "shortDescription": "레이첼 카슨의 일대기와 지혜",
+  "slug": "rachel-carson",
+  "quote": "\"인간은 자연의 일부이며, 자연에 대항해 벌이는 전쟁은 필연적으로 우리 자신을 향한 전쟁이 될 수밖에 없다.\"",
+  "pain": "화학 기업들의 거대한 자본력과 악의적인 비방 공작 속에서 암 투병이라는 육체적 고통까지 견뎌내야 했다.",
+  "recovery": "강인한 책임감과 완벽한 과학적 검증을 바탕으로 『침묵의 봄』을 집필하여 인류의 무지몽매한 과학 만능주의에 경종을 울렸다.",
+  "lessons": [
+    {
+      "title": "\"인간은 자연의 일부이며, 자연에 대항해 벌이는 전쟁은 필연적으로 우리 자신을 향한 전쟁이 될 수밖에 없다.\"",
+      "content": "자연과 환경을 착취의 대상이 아닌 공존의 파트너로 대하십시오. 타인이나 환경을 해치는 행위는 결국 부메랑처럼 자신에게 돌아와 치명적인 결과를 초래함을 잊지 마십시오."
+    },
+    {
+      "title": "\"우리가 살고 있는 세계를 경이로운 눈으로 바라보는 사람만이 생명의 파괴를 막기 위해 행동할 수 있다.\"",
+      "content": "바쁜 일상 속에서도 주변의 작은 생명과 자연의 아름다움에 감탄할 줄 아는 감수성을 간직하십시오. 경이로움을 느낄 줄 아는 따뜻한 마음이 세상을 더 나은 곳으로 변화시키는 첫걸음입니다."
+    },
+    {
+      "title": "\"과학적 진실을 알게 된 이상, 침묵하는 것은 가장 무서운 죄악이다.\"",
+      "content": "부당한 현실이나 다가오는 위기를 인지했다면 용기 있게 목소리를 내십시오. 거대한 권력과 다수의 침묵 앞에서도 당신이 믿는 진실을 당당하게 외치는 용기가 세상을 구원합니다."
+    }
+  ],
+  "persona": "당신은 레이첼 카슨이다.",
+  "imageUrl": "/images/giants/rachel-carson.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1907~1964)"
+},
+  {
+  "id": "233",
+  "name": "리처드 파인만",
+  "category": "science",
+  "headline": "파인만 다이어그램을 창안하여 양자역학을 직관적으로 시각화하고 현대 물리학의 대중화에 기여한 천재 물리학자다.",
+  "shortDescription": "리처드 파인만의 일대기와 지혜",
+  "slug": "richard-feynman",
+  "quote": "내가 만들어낼 수 없는 것은 내가 이해하지 못한 것이다.",
+  "pain": "자신의 첫 번째 아내가 결핵으로 세상을 떠나는 개인적인 비극을 겪었고, 원자폭탄 개발에 참여한 후 깊은 도덕적 회의감과 번아웃에 빠졌다.",
+  "recovery": "연구에 대한 강박을 버리고 순수한 호기심과 재미를 좇아 식당에서 던져진 접시의 움직임을 계산하기 시작하면서 다시 물리학에 대한 열정을 되찾았다.",
+  "lessons": [
+    {
+      "title": "내가 만들어낼 수 없는 것은 내가 이해하지 못한 것이다.",
+      "content": "단순히 지식을 암기하는 것에 그치지 말고, 그 작동 원리를 밑바닥부터 완벽하게 재구성할 수 있을 때까지 깊이 탐구하십시오."
+    },
+    {
+      "title": "남들이 당신에게 기대하는 사람이 되어야 할 의무는 없다.",
+      "content": "타인의 시선이나 사회적 체면, 그리고 부당한 권위에 얽매이지 말고 당신 내면의 진실된 호기심과 기쁨을 온전히 따라가십시오."
+    },
+    {
+      "title": "우리는 모른다는 사실을 인정해야만 진정한 발견을 시작할 수 있다.",
+      "content": "모든 불확실성을 두려워하지 말고 기꺼이 껴안으면서, 끊임없이 '왜?'라고 질문하는 진정한 과학적 태도를 항상 견지하십시오."
+    }
+  ],
+  "persona": "당신은 리처드 파인만이다.",
+  "imageUrl": "/images/giants/richard-feynman.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1918~1988)"
+},
+  {
+  "id": "459",
+  "name": "리타 레비몬탈치니",
+  "category": "science",
+  "headline": "신경세포 성장인자(NGF)를 발견하여 현대 뇌과학과 세포생물학의 발전에 핵심적인 기여를 한 신경생물학자다.",
+  "shortDescription": "리타 레비몬탈치니의 일대기와 지혜",
+  "slug": "rita-levi-montalcini",
+  "quote": "무엇보다도 두려워하지 마십시오. 두려움은 결코 좋은 조언자가 될 수 없습니다.",
+  "pain": "파시스트 정권의 유대인 탄압법으로 인해 대학 연구소에서 쫓겨났으며, 전쟁의 폭격 속에서 생명의 위협을 받았다.",
+  "recovery": "침실에 낡은 현미경과 바늘로 비밀 실험실을 차리고, 달걀의 배아를 연구하며 절망 속에서도 신경생물학 연구를 끝까지 포기하지 않았다.",
+  "lessons": [
+    {
+      "title": "무엇보다도 두려워하지 마십시오. 두려움은 결코 좋은 조언자가 될 수 없습니다.",
+      "content": "어떤 역경과 차별 앞에서도 당신의 꿈을 포기하지 말고 단호하게 맞서 나아가십시오."
+    },
+    {
+      "title": "몸의 주름은 나이가 들면 자연스럽게 생기지만, 마음의 주름은 열정을 잃을 때 생깁니다.",
+      "content": "나이와 환경을 핑계 삼지 말고 평생 동안 배움에 대한 뜨거운 열정과 끈기를 유지하십시오."
+    },
+    {
+      "title": "내 삶에서 가장 큰 특권은 불리한 상황 속에서도 계속해서 연구할 수 있었다는 것입니다.",
+      "content": "당신에게 주어진 결핍과 시련을 오히려 더 깊은 몰입과 창조를 위한 강력한 원동력으로 승화하십시오."
+    }
+  ],
+  "persona": "당신은 리타 레비몬탈치니이다.",
+  "imageUrl": "/images/giants/rita-levi-montalcini.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1909~2012)"
+},
+  {
+  "id": "328",
+  "name": "로버트 보일",
+  "category": "science",
+  "headline": "보일의 법칙을 발견하고 미신적인 연금술을 근대적인 화학의 반열로 끌어올린 과학 혁명의 선구자다.",
+  "shortDescription": "로버트 보일의 일대기와 지혜",
+  "slug": "robert-boyle",
+  "quote": "오직 실험만이 자연의 진실을 드러낼 수 있는 유일하고도 확실한 판사다.",
+  "pain": "연금술과 아리스토텔레스의 4원소설 등 미신적이고 비과학적인 전통이 유럽 지식 사회를 깊게 지배하고 있었다.",
+  "recovery": "철저한 객관적 실험과 수학적 데이터를 통해 현상을 증명하며, 기존의 낡은 권위를 타파하고 근대적 화학의 기초를 세웠다.",
+  "lessons": [
+    {
+      "title": "오직 실험만이 자연의 진실을 드러낼 수 있는 유일하고도 확실한 판사다.",
+      "content": "막연한 추측이나 과거의 낡은 권위에 맹목적으로 기대지 말고, 오직 객관적인 사실과 검증을 통해 판단하십시오."
+    },
+    {
+      "title": "만물은 더 이상 쪼개지지 않는 미세한 입자들의 기계적 운동으로 이루어져 있다.",
+      "content": "세상의 복잡하고 거대한 문제들을 대할 때, 가장 작고 기본적인 요소들로 분해하여 그 근본 원리를 깊이 파악하십시오."
+    },
+    {
+      "title": "누구의 말도 그대로 맹신하지 말고, 스스로 철저하게 검증하라.",
+      "content": "지식을 폐쇄적으로 독점하려 하지 말고, 언제나 열린 태도로 타인과 투명하게 소통하며 치열하게 진실을 탐구하십시오."
+    }
+  ],
+  "persona": "당신은 로버트 보일이다.",
+  "imageUrl": "/images/giants/robert-boyle.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1627~1691)"
+},
+  {
+  "id": "112",
+  "name": "로버트 훅",
+  "category": "science",
+  "headline": "세포(Cell)를 최초로 명명하고 탄성 법칙을 발견하여 17세기 미시 세계와 역학의 기초를 다진 천재 발명가다.",
+  "shortDescription": "로버트 훅의 일대기와 지혜",
+  "slug": "robert-hooke",
+  "quote": "감각의 한계를 넘어설 때 비로소 자연의 진정한 신비가 그 위대한 모습을 드러낸다.",
+  "pain": "어린 시절부터 육체적인 병약함과 척추 장애로 고통받았으며, 아이작 뉴턴 등 당대 권위자들과의 치열한 학문적 우선권 논쟁에 휘말렸다.",
+  "recovery": "탁월한 손재주를 바탕으로 현미경 등 수많은 첨단 과학 기구를 직접 발명하고, 묵묵히 획기적인 실험 데이터들을 축적해 냈다.",
+  "lessons": [
+    {
+      "title": "감각의 한계를 넘어설 때 비로소 자연의 진정한 신비가 그 위대한 모습을 드러낸다.",
+      "content": "눈에 보이는 얄팍한 표면적인 현상에만 만족하지 말고, 도구와 이성을 활용하여 보이지 않는 더 깊은 본질을 꿰뚫어 보십시오."
+    },
+    {
+      "title": "가장 작고 보잘것없는 생명체 안에도 우주의 거대하고 정교한 설계가 숨어 있다.",
+      "content": "세상의 작고 평범해 보이는 일상적인 것들 속에서도 언제나 위대한 가치와 경이로움을 발견하는 섬세한 눈을 기르십시오."
+    },
+    {
+      "title": "과학적 진리는 홀로 이루어지는 것이 아니라, 서로의 어깨를 딛고 올라서는 끝없는 과정이다.",
+      "content": "당신의 재능만을 오만하게 과신하지 말고, 동료들과 치열하게 협력하며 인류의 지성을 한 단계 발전시키는 데 헌신하십시오."
+    }
+  ],
+  "persona": "당신은 로버트 훅이다.",
+  "imageUrl": "/images/giants/robert-hooke.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1635~1703)"
+},
+  {
+  "id": "92",
+  "name": "로잘린드 프랭클린",
+  "category": "science",
+  "headline": "DNA의 이중 나선 구조를 밝히는 데 결정적인 역할을 한 X선 회절 사진(사진 51호)을 촬영한 천재 결정학자다.",
+  "shortDescription": "로잘린드 프랭클린의 일대기와 지혜",
+  "slug": "rosalind-franklin",
+  "quote": "과학과 일상은 분리될 수 없다. 과학은 자연이 진실이라는 것을 증명하는 끊임없는 과정이다.",
+  "pain": "남성 중심의 폐쇄적인 학계 분위기 속에서 여성 과학자로서 철저히 고립되었으며, 동료 모리스 윌킨스와 극심한 마찰을 겪었다.",
+  "recovery": "편견에 굴복하지 않고 끈질긴 인내와 고도의 정밀한 실험을 통해 완벽한 DNA X선 회절 사진(사진 51호)을 직접 촬영해 냈다.",
+  "lessons": [
+    {
+      "title": "과학과 일상은 분리될 수 없다. 과학은 자연이 진실이라는 것을 증명하는 끊임없는 과정이다.",
+      "content": "자신의 일과 신념을 철저히 일치시키며, 그 어떤 압박 속에서도 타협 없이 오직 진실만을 끈기 있게 추구하십시오."
+    },
+    {
+      "title": "결론을 서두르지 마라. 확실한 증거가 모이면 진실은 스스로 자신의 모습을 명백하게 드러낼 것이다.",
+      "content": "빠른 성과나 타인의 부당한 인정에 연연하지 말고, 완전무결한 데이터를 얻을 때까지 묵묵하고 철저하게 인내하십시오."
+    },
+    {
+      "title": "우리의 연구 결과는 인류의 지식을 넓히는 데 사용되어야 하며, 결코 개인의 명예를 위한 것이 아니다.",
+      "content": "지적 성취를 개인의 이기적인 영달을 위해 남용하지 말고, 인류의 보편적인 진보를 위해 순수하게 공헌하십시오."
+    }
+  ],
+  "persona": "당신은 로잘린드 프랭클린이다.",
+  "imageUrl": "/images/giants/rosalind-franklin.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1920~1958)"
+},
+  {
+  "id": "127",
+  "name": "사디 카르노",
+  "category": "science",
+  "headline": "열기관의 이상적 모델을 구상하여 열역학 제2법칙의 이론적 토대를 마련한 프랑스의 물리학자이다.",
+  "shortDescription": "사디 카르노의 일대기와 지혜",
+  "slug": "sadi-carnot",
+  "quote": "기계의 동력은 그것을 움직이는 매개체의 성질에 좌우되지 않으며, 오직 열이 이동하는 두 물체의 온도 차이에 의해서만 결정된다.",
+  "pain": "당대 과학계의 무관심과 외면 속에서도 홀로 혁신적인 이론을 전개해야 했으며, 36세의 젊은 나이에 콜레라로 요절하여 연구의 결실을 직접 보지 못했다.",
+  "recovery": "자신의 이론이 실용적 가치를 넘어 자연의 보편적 법칙임을 굳게 믿고 끊임없이 탐구했으며, 훗날 다른 과학자들에 의해 그의 저서가 재발견되면서 열역학의 기초를 다진 선구자로 인정받게 되었다.",
+  "lessons": [
+    {
+      "title": "기계의 동력은 그것을 움직이는 매개체의 성질에 좌우되지 않으며, 오직 열이 이동하는 두 물체의 온도 차이에 의해서만 결정된다.",
+      "content": "문제의 본질을 파악할 때 겉으로 드러난 현상이나 수단에 얽매이지 말고, 그 이면에 숨겨진 근본적이고 보편적인 원리를 찾아내십시오."
+    },
+    {
+      "title": "자연계에서 동력을 창출하기 위해서는 반드시 열의 불균형이 존재해야 하며, 열의 평형 상태에서는 어떠한 동력도 얻을 수 없다.",
+      "content": "변화와 발전은 안주하는 평온함 속에서가 아니라, 새로운 도전과 차이를 만들어내는 치열한 불균형 속에서 비로소 탄생한다는 사실을 기억하십시오."
+    },
+    {
+      "title": "이론이 아무리 아름답다 해도, 그것이 자연의 실제적인 실험 결과를 통해 검증되지 않는다면 진정한 과학적 진리로 인정받을 수 없다.",
+      "content": "자신만의 생각이나 가설에 갇히지 말고, 끊임없이 현실에 부딪히며 실천적인 검증을 통해 지식을 단단하게 완성해 나가십시오."
+    }
+  ],
+  "persona": "당신은 사디 카르노이다.",
+  "imageUrl": "/images/giants/sadi-carnot.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1796~1832)"
+},
+  {
+  "id": "449",
+  "name": "샐리 라이드",
+  "category": "science",
+  "headline": "미국 역사상 최초로 우주 비행에 성공한 여성 과학자이자, 평생을 과학 교육 발전에 헌신한 선구자이다.",
+  "shortDescription": "샐리 라이드의 일대기와 지혜",
+  "slug": "sally-ride",
+  "quote": "별에 닿고 싶다면, 세상이 당신에게 무엇이 불가능하다고 말하든 상관하지 말고 묵묵히 수학과 과학의 기초를 다지십시오.",
+  "pain": "우주 비행사로 선발된 후에도 여성이라는 이유로 언론과 대중의 성차별적 편견과 무례한 질문들에 시달렸으며, 챌린저호 폭발 사고로 동료들을 잃는 깊은 비극을 겪었다.",
+  "recovery": "압도적인 전문성과 냉철함으로 세상의 편견을 실력으로 불식시켰으며, 사고 조사 위원회에서 진실을 규명하고 평생을 걸쳐 여성과 어린이의 과학 교육을 위해 헌신하며 비극을 새로운 희망으로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "별에 닿고 싶다면, 세상이 당신에게 무엇이 불가능하다고 말하든 상관하지 말고 묵묵히 수학과 과학의 기초를 다지십시오.",
+      "content": "타인의 편견이나 사회적 한계에 흔들리지 말고, 목표를 이루기 위해 필요한 실질적인 지식과 실력을 먼저 탄탄하게 쌓아 올리십시오."
+    },
+    {
+      "title": "우주에서 지구를 내려다보면 국경은 보이지 않으며, 단지 얇고 부서지기 쉬운 아름다운 대기층만이 우리를 감싸고 있다는 것을 깨닫게 됩니다.",
+      "content": "우리가 처한 문제를 더 높고 넓은 관점에서 바라보며, 서로 간의 작은 차이를 극복하고 소중한 공동의 가치를 함께 지켜나가십시오."
+    },
+    {
+      "title": "아이들이 과학을 포기하는 것은 과학이 어려워서가 아니라, 사회가 그들에게 그것이 어울리지 않는다고 끊임없이 암시하기 때문입니다.",
+      "content": "자신이나 타인의 잠재력을 재단하는 낡은 고정관념에서 벗어나, 누구에게나 동등한 기회와 격려가 주어지는 건강한 환경을 만들어 주십시오."
+    }
+  ],
+  "persona": "당신은 샐리 라이드이다.",
+  "imageUrl": "/images/giants/sally-ride.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1951~2012)"
+},
+  {
+  "id": "316",
+  "name": "새뮤얼 모스",
+  "category": "science",
+  "headline": "정보 전달의 시공간적 제약을 허문 단선 전신기와 모스 부호를 발명하여 근대 통신 혁명을 이끈 미국의 발명가이다.",
+  "shortDescription": "새뮤얼 모스의 일대기와 지혜",
+  "slug": "samuel-morse",
+  "quote": "가장 위대한 발견과 발명은 언제나 가장 깊은 결핍과 상실의 고통 속에서 그 싹을 틔우기 마련이다.",
+  "pain": "아내의 임종을 지키지 못한 비극적 슬픔 속에서 발명을 시작했으나, 극심한 빈곤과 미국 의회의 조롱 속에서 수년간 재정적, 정신적 고통을 겪어야 했다.",
+  "recovery": "포기하지 않는 집념으로 유능한 동료들을 모아 기술적 한계를 극복하고, 의회를 끈질기게 설득하여 마침내 워싱턴과 볼티모어를 잇는 역사적인 통신 혁명을 성공시켰다.",
+  "lessons": [
+    {
+      "title": "가장 위대한 발견과 발명은 언제나 가장 깊은 결핍과 상실의 고통 속에서 그 싹을 틔우기 마련이다.",
+      "content": "당신이 겪고 있는 뼈아픈 시련이나 실패를 좌절의 이유가 아닌, 새로운 혁신과 변화를 이끌어낼 가장 강력한 원동력으로 삼으십시오."
+    },
+    {
+      "title": "자연의 법칙을 이해하는 것만으로는 충분하지 않으며, 그것을 인간의 삶을 개선하는 실질적인 도구로 엮어낼 때 비로소 과학은 완성된다.",
+      "content": "이론적인 지식을 쌓는 데 그치지 말고, 그 지식을 현실 세계의 문제를 해결하고 타인에게 유익을 주는 실용적인 결과물로 발전시키십시오."
+    },
+    {
+      "title": "정보의 빛이 지리적 거리를 넘어 순식간에 전달될 수 있다면, 인류는 이전에 상상조차 하지 못했던 거대한 하나의 공동체로 묶이게 될 것이다.",
+      "content": "물리적인 거리나 환경적 제약에 굴복하지 말고, 사람과 사람의 마음을 잇고 소통할 수 있는 당신만의 창의적인 연결 고리를 만들어 내십시오."
+    }
+  ],
+  "persona": "당신은 새뮤얼 모스이다.",
+  "imageUrl": "/images/giants/samuel-morse.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1791~1872)"
+},
+  {
+  "id": "36",
+  "name": "심괄",
+  "category": "science",
+  "headline": "철저한 관찰과 실증을 통해 나침반의 편각 현상을 최초로 발견한 11세기 북송 최고의 천재 과학자이자 정치가이다.",
+  "shortDescription": "심괄의 일대기와 지혜",
+  "slug": "shen-kuo",
+  "quote": "천하의 이치는 책 속의 낡은 글귀에 있는 것이 아니라, 끊임없이 변화하는 자연을 직접 관찰하고 증명하는 자의 두 눈 속에 있다.",
+  "pain": "왕안석의 개혁을 돕다 치열한 당쟁에 휘말렸고, 서하와의 전투에서 부하의 실책으로 패배한 뒤 억울하게 모든 관직을 잃고 지방으로 유배되는 치명적인 몰락을 겪었다.",
+  "recovery": "정치적 권력을 모두 잃은 절망적인 은거 생활 속에서도 학문을 향한 열정을 버리지 않고, 평생의 과학적 발견을 집대성한 불멸의 명저 '몽계필담'을 완성하여 역사에 남았다.",
+  "lessons": [
+    {
+      "title": "천하의 이치는 책 속의 낡은 글귀에 있는 것이 아니라, 끊임없이 변화하는 자연을 직접 관찰하고 증명하는 자의 두 눈 속에 있다.",
+      "content": "기존의 권위나 이론에만 맹목적으로 의존하지 말고, 당신의 두 눈으로 현상을 직접 관찰하고 실증적으로 검증하는 태도를 기르십시오."
+    },
+    {
+      "title": "세상의 쓰임을 다하여 버려진 것처럼 보이는 시간일지라도, 진리를 기록하고 후대에 전하는 일은 그 어떤 권력보다 영속적인 가치를 지닌다.",
+      "content": "외부의 시련으로 인해 현재의 성취가 무너졌다고 좌절하지 말고, 고요한 성찰의 시간을 통해 당신만의 깊이 있는 경험을 더 큰 가치로 기록하십시오."
+    },
+    {
+      "title": "작은 자석 바늘 하나가 미세하게 어긋나는 방향 속에서도, 지구 전체를 관통하는 보이지 않는 거대한 자연의 법칙이 숨 쉬고 있다.",
+      "content": "일상에서 마주치는 사소한 오차나 특이한 현상을 가볍게 넘기지 말고, 그 속에 숨겨진 문제의 근본적인 원인과 새로운 가능성을 세밀하게 탐구하십시오."
+    }
+  ],
+  "persona": "당신은 심괄이다.",
+  "imageUrl": "/images/giants/shen-kuo.jpg",
+  "dnaCode": "LRHI",
+  "era": "11세기의 거인 (1031~1095)"
+},
+  {
+  "id": "93",
+  "name": "소피아 코발렙스카야",
+  "category": "science",
+  "headline": "여성에 대한 사회적 편견을 뚫고 세계 최초로 수학 박사 학위를 취득하고 북유럽 최초의 여성 정교수가 된 천재 수학자이다.",
+  "shortDescription": "소피아 코발렙스카야의 일대기와 지혜",
+  "slug": "sofya-kovalevskaya",
+  "quote": "수학은 논리적인 추론의 학문일 뿐만 아니라, 영혼 속에 시인의 마음을 품지 않고서는 결코 도달할 수 없는 숭고한 예술이다.",
+  "pain": "여성의 대학 입학이 금지된 시대적 장벽을 넘기 위해 위장 결혼까지 감행해야 했으며, 최초의 수학 박사 학위를 받고도 오랫동안 어느 대학에서도 교수로 임용되지 못하는 성차별을 겪었다.",
+  "recovery": "압도적인 천재성과 피나는 노력으로 현대 수학의 난제들을 차례로 증명하여 유럽 최고의 권위를 자랑하는 보르댕 상을 수상하고, 마침내 북유럽 최초의 여성 수학 정교수로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "수학은 논리적인 추론의 학문일 뿐만 아니라, 영혼 속에 시인의 마음을 품지 않고서는 결코 도달할 수 없는 숭고한 예술이다.",
+      "content": "차가운 논리와 이성만으로 세상을 재단하려 하지 말고, 대상을 깊이 이해하고 새로운 가능성을 상상할 수 있는 따뜻한 직관과 예술적 감수성을 함께 기르십시오."
+    },
+    {
+      "title": "자신을 가로막는 벽이 아무리 견고해 보일지라도, 그 벽을 부술 수 없다면 우회해서라도 기어이 길을 만들어내는 대담함이 필요하다.",
+      "content": "부당한 규칙이나 사회적 편견이 당신의 꿈을 가로막을 때 무기력하게 포기하지 말고, 주어진 환경 속에서 상식을 뛰어넘는 파격적이고 창의적인 해결책을 모색하십시오."
+    },
+    {
+      "title": "진리가 담긴 위대한 증명은 누군가의 허락이나 사회의 인정을 기다리지 않으며, 스스로의 완벽함으로 편견의 입을 다물게 만든다.",
+      "content": "세상이 당신의 능력을 의심하고 가치를 알아주지 않을 때는 변명하는 대신, 누구도 반박할 수 없는 압도적인 실력과 결과물로 묵묵히 당신 자신을 증명하십시오."
+    }
+  ],
+  "persona": "당신은 소피아 코발렙스카야이다.",
+  "imageUrl": "/images/giants/sofya-kovalevskaya.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1850~1891)"
+},
+  {
+  "id": "84",
+  "name": "소피 제르맹",
+  "category": "science",
+  "headline": "가부장적 편견을 뛰어넘어 정수론과 탄성 이론에 위대한 업적을 남긴 천재 수학자.",
+  "shortDescription": "소피 제르맹의 일대기와 지혜",
+  "slug": "sophie-germain",
+  "quote": "우리가 어떤 문제에 대해 오랫동안 깊이 생각한다면, 그 생각은 반드시 우리를 진리로 이끌어 줄 것이다.",
+  "pain": "정규 교육의 기회를 박탈당하고 여성이라는 이유로 가명을 사용해야 했으며, 주류 학계로부터 철저히 고립된 채 홀로 연구를 개척해야 했다.",
+  "recovery": "강렬한 학구열과 포기하지 않는 집념으로 독학을 이어나갔고, 라그랑주와 가우스 같은 당대 최고의 석학들과 서신을 교환하며 스스로 자신의 실력을 증명해냈다.",
+  "lessons": [
+    {
+      "title": "우리가 어떤 문제에 대해 오랫동안 깊이 생각한다면, 그 생각은 반드시 우리를 진리로 이끌어 줄 것이다.",
+      "content": "어려운 난관에 봉착했을 때 포기하지 말고 끈기 있게 고민하십시오. 깊은 숙고와 인내는 결국 문제 해결의 실마리를 제공할 것입니다."
+    },
+    {
+      "title": "학문을 향한 순수한 열정은 어떠한 사회적 장벽보다도 강하다.",
+      "content": "외부의 시선이나 사회적 제약에 얽매이지 말고 자신이 진정으로 사랑하는 일에 몰두하십시오. 내면의 열정은 모든 한계를 뛰어넘는 원동력이 됩니다."
+    },
+    {
+      "title": "진리는 남성이나 여성의 것이 아니라, 오직 그것을 탐구하는 자의 몫이다.",
+      "content": "지식과 진리를 탐구하는 데에는 어떠한 차별이나 편견도 개입되어서는 안 됩니다. 누구에게나 열려 있는 배움의 기회를 당당히 쟁취하십시오."
+    }
+  ],
+  "persona": "당신은 소피 제르맹이다.",
+  "imageUrl": "/images/giants/sophie-germain.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1776~1831)"
+},
+  {
+  "id": "134",
+  "name": "토머스 헨리 헉슬리",
+  "category": "science",
+  "headline": "찰스 다윈의 진화론을 맹렬히 방어하며 과학의 독립성과 불가지론을 주창한 19세기 영국의 탁월한 생물학자이다.",
+  "shortDescription": "토머스 헨리 헉슬리의 일대기와 지혜",
+  "slug": "thomas-henry-huxley",
+  "quote": "모든 것에 대해 무언가를 배우고, 무언가에 대해 모든 것을 배우도록 노력하라.",
+  "pain": "헉슬리는 어린 시절 극심한 가난으로 인해 정규 교육을 단 2년밖에 받지 못했으며, 당대의 강력한 종교적 도그마와 보수적인 과학계의 반발에 직면해야 했다.",
+  "recovery": "그는 치열한 독학과 끊임없는 지적 탐구를 통해 스스로를 최고의 생물학자로 단련했고, 탁월한 언변과 철저한 과학적 증거를 무기로 진화론을 맹렬히 방어하며 이성적 사고의 승리를 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "모든 것에 대해 무언가를 배우고, 무언가에 대해 모든 것을 배우도록 노력하라.",
+      "content": "폭넓은 교양을 쌓는 동시에 특정 분야에서 깊이 있는 전문성을 갖추십시오. 다양한 시각으로 세상을 이해하고 하나의 일에 통달하는 균형 잡힌 지식인이 되기를 바랍니다."
+    },
+    {
+      "title": "인간의 정신에 대한 가장 깊은 죄악은 증거 없이 무언가를 믿는 것이다.",
+      "content": "맹목적인 믿음과 편견을 경계하고 항상 철저한 증거와 이성에 기반하여 판단하십시오. 진리를 탐구하는 과정에서는 객관적인 사실을 입증하려는 지적 정직성이 가장 중요합니다."
+    },
+    {
+      "title": "중요한 것은 누가 옳으냐가 아니라 무엇이 옳으냐이다.",
+      "content": "권위나 감정에 얽매이지 말고 사안의 본질과 객관적인 진실에 집중하십시오. 문제의 해결책을 찾을 때에는 사람의 위치가 아니라 사실과 논리를 기준 삼아 결정을 내리시길 권합니다."
+    }
+  ],
+  "persona": "당신은 토머스 헨리 헉슬리이다.",
+  "imageUrl": "/images/giants/thomas-henry-huxley.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1825~1895)"
+},
+  {
+  "id": "71",
+  "name": "트로타",
+  "category": "science",
+  "headline": "트로타는 11세기에서 12세기 살레르노 의학교에서 활동하며 여성 질환의 과학적 치료를 개척한 유럽 최초의 위대한 여성 의학자다.",
+  "shortDescription": "트로타의 일대기와 지혜",
+  "slug": "trota-of-salerno",
+  "quote": "여성의 본성은 남성과 다르기에, 그들만의 고유한 고통과 질병을 섬세한 시선으로 어루만져야 합니다.",
+  "pain": "중세 후기 대학이 설립되며 의학이 남성 독점 학문으로 변질되었고, 트로타의 저술들은 가상의 남성 의사가 쓴 것으로 왜곡되거나 그 존재가 역사에서 철저히 지워질 위기에 처했다.",
+  "recovery": "20세기 후반에 이르러 페미니즘 역사학과 치밀한 사료 교차 검증을 통해 그녀의 실존과 업적이 밝혀졌고, 남성 중심의 서사를 허물며 중세 최고의 여성 의학자로서의 영예를 되찾았다.",
+  "lessons": [
+    {
+      "title": "여성의 본성은 남성과 다르기에, 그들만의 고유한 고통과 질병을 섬세한 시선으로 어루만져야 합니다.",
+      "content": "타인의 아픔을 자신의 잣대로만 판단하지 마십시오. 각자가 지닌 고유한 상황과 특성을 깊이 이해하고 공감할 때, 비로소 진정한 치유와 문제 해결의 실마리를 찾을 수 있습니다."
+    },
+    {
+      "title": "질병을 숨기는 수치심보다 생명을 살리는 지식이 훨씬 더 위대하고 중요합니다.",
+      "content": "문제나 약점을 숨기려 하기보다는 솔직하게 드러내고 마주하십시오. 용기를 내어 진실을 밝힐 때, 우리는 고통에서 벗어나 더 나은 돌파구를 마련할 수 있습니다."
+    },
+    {
+      "title": "몸을 다스리는 최선의 치료는 병이 깊어지기 전에 섭생과 위생으로 스스로를 보살피는 것입니다.",
+      "content": "문제가 크게 번지기 전에 미리 대비하는 지혜를 가지십시오. 일상 속에서 자신을 가꾸고 기본에 충실할 때, 어떠한 위기 속에서도 굳건히 흔들리지 않는 내면의 힘을 기를 수 있습니다."
+    }
+  ],
+  "persona": "당신은 트로타이다.",
+  "imageUrl": "/images/giants/trota-of-salerno.jpg",
+  "dnaCode": "LRHI",
+  "era": "12세기의 거인 (1090~1160)"
+},
+  {
+  "id": "456",
+  "name": "베라 루빈",
+  "category": "science",
+  "headline": "베라 루빈은 나선 은하의 회전 곡선을 정밀하게 관측하여 우주 질량의 대부분을 차지하는 암흑 물질의 존재를 결정적으로 입증한 천문학자이다.",
+  "shortDescription": "베라 루빈의 일대기와 지혜",
+  "slug": "vera-rubin",
+  "quote": "과학에는 성별이 없습니다. 우리는 단지 우주의 비밀을 밝히기 위해 각자의 망원경을 들여다보는 과학자일 뿐입니다.",
+  "pain": "여성이라는 이유로 프린스턴 대학교 대학원 입학을 거절당하고, 은하 군집 이론을 발표했을 때 학계의 싸늘한 냉대와 비판에 직면했다.",
+  "recovery": "끝없는 논쟁 대신 확실한 데이터를 얻을 수 있는 관측 천문학으로 연구 방향을 전략적으로 선회하였고, 켄트 포드와 함께 첨단 분광기를 활용한 끈질긴 관측 끝에 암흑 물질의 증거를 찾아냈다.",
+  "lessons": [
+    {
+      "title": "과학에는 성별이 없습니다. 우리는 단지 우주의 비밀을 밝히기 위해 각자의 망원경을 들여다보는 과학자일 뿐입니다.",
+      "content": "성별이나 배경과 같은 피상적인 편견에 얽매이지 마십시오. 오직 실력과 진리를 향한 순수한 열정으로 자신의 길을 묵묵히 개척하며, 모두가 평등하게 우주를 탐구할 수 있는 환경을 만들어 나가십시오."
+    },
+    {
+      "title": "명성은 덧없지만, 우리의 데이터는 영원할 것입니다. 훌륭한 관측 결과는 그 어떤 이론보다도 강력한 진실의 목소리를 냅니다.",
+      "content": "일시적인 학문적 유행이나 타인의 비판에 흔들리지 마십시오. 언제나 철저하고 정밀한 관측을 통해 얻은 객관적인 데이터와 사실에 기반하여 스스로의 주장을 증명하고 진실을 추구하십시오."
+    },
+    {
+      "title": "나는 내 연구 결과가 주류 이론과 충돌한다는 사실이 두렵지 않았습니다. 오히려 우리가 몰랐던 새로운 우주의 문이 열렸다는 사실에 가슴이 뛰었습니다.",
+      "content": "기존의 상식과 충돌하는 예상치 못한 결과를 마주하더라도 결코 두려워하거나 실망하지 마십시오. 그 이면에 숨겨진 더 큰 진리를 발견할 기회로 삼아 호기심을 가지고 탐구를 계속하십시오."
+    }
+  ],
+  "persona": "당신은 베라 루빈이다.",
+  "imageUrl": "/images/giants/vera-rubin.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1928~2016)"
+},
+  {
+  "id": "320",
+  "name": "베르너 하이젠베르크",
+  "category": "science",
+  "headline": "불확정성 원리를 창시하여 현대 양자역학의 기초를 다진 20세기 최고의 물리학자다.",
+  "shortDescription": "베르너 하이젠베르크의 일대기와 지혜",
+  "slug": "werner-heisenberg",
+  "quote": "자연은 우리가 던지는 질문 방식에 따라 대답한다.",
+  "pain": "2차 세계 대전 중 나치 독일의 핵무기 프로젝트에 참여하면서 연합국의 맹렬한 비난과 도덕적 딜레마에 직면했다.",
+  "recovery": "전후 독일 과학 인프라 재건에 헌신하고 유럽 원자핵 공동 연구소(CERN) 설립을 주도하며 과학을 통한 평화적 국제 협력의 기틀을 다졌다.",
+  "lessons": [
+    {
+      "title": "자연은 우리가 던지는 질문 방식에 따라 대답한다.",
+      "content": "우리가 세상을 바라보는 관점과 측정 방식이 결과에 영향을 미친다는 점을 기억하십시오. 고정관념에서 벗어나 다각도로 질문하는 태도를 가지십시오."
+    },
+    {
+      "title": "전문가란 자신이 속한 좁은 분야에서 저지를 수 있는 모든 최악의 실수를 이미 다 저질러 본 사람이다.",
+      "content": "실패를 두려워하지 말고 끊임없이 도전하십시오. 전문성은 수많은 착오와 실수를 극복하는 과정에서 비로소 완성됩니다."
+    },
+    {
+      "title": "인간 사회의 큰 발전은 서로 다른 두 사고 체계가 만나는 경계선에서 발생한다.",
+      "content": "나와 다른 생각이나 낯선 분야를 배척하지 말고 융합하십시오. 이질적인 것들의 만남 속에서 진정한 혁신과 창조가 피어납니다."
+    }
+  ],
+  "persona": "당신은 베르너 하이젠베르크이다.",
+  "imageUrl": "/images/giants/werner-heisenberg.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1901~1976)"
+},
+  {
+  "id": "118",
+  "name": "빌헬름 뢴트겐",
+  "category": "science",
+  "headline": "엑스선(X-ray)을 최초로 발견하여 영상 의학의 시대를 열고 최초의 노벨 물리학상을 수상한 실험 물리학자다.",
+  "shortDescription": "빌헬름 뢴트겐의 일대기와 지혜",
+  "slug": "wilhelm-rontgen",
+  "quote": "나는 생각하지 않았다. 오직 실험하고 관찰했을 뿐이다.",
+  "pain": "젊은 시절 억울한 누명으로 정규 학교에서 퇴학당하며 학업의 길이 막힐 뻔한 심각한 위기를 겪었다.",
+  "recovery": "입학시험 없이 진학할 수 있는 스위스 공과대학에 진학하여 물리학의 기초를 다시 다졌고, 끈질긴 실험적 집념으로 엑스선을 발견해냈다.",
+  "lessons": [
+    {
+      "title": "나는 생각하지 않았다. 오직 실험하고 관찰했을 뿐이다.",
+      "content": "때로는 복잡한 추측보다 실제 행동과 관찰이 더 중요합니다. 머뭇거리지 말고 직접 부딪혀보며 실증적인 결과를 얻으십시오."
+    },
+    {
+      "title": "진실은 특허로 묶어둘 수 없으며, 모든 인류를 위해 존재해야 한다.",
+      "content": "자신이 이룬 성취를 혼자만의 이익으로 독점하려 하지 마십시오. 타인과 나누고 사회에 공헌할 때 진정한 위대함이 완성됩니다."
+    },
+    {
+      "title": "가장 위대한 발견은 흔히 아주 사소하고 우연한 현상을 놓치지 않는 데서 비롯된다.",
+      "content": "일상의 작고 사소한 변화를 무심히 지나치지 마십시오. 위대한 혁신은 예기치 않은 우연을 깊이 파고드는 집요함에서 출발합니다."
+    }
+  ],
+  "persona": "당신은 빌헬름 뢴트겐이다.",
+  "imageUrl": "/images/giants/wilhelm-rontgen.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1845~1923)"
+},
+  {
+  "id": "337",
+  "name": "빌헬름 분트",
+  "category": "science",
+  "headline": "라이프치히 대학교에 세계 최초의 심리학 실험실을 설립하여 현대 심리학의 아버지가 된 학자다.",
+  "shortDescription": "빌헬름 분트의 일대기와 지혜",
+  "slug": "wilhelm-wundt",
+  "quote": "심리학의 목표는 경험이 발생하는 순간의 가장 단순한 요소들을 찾아내는 것이다.",
+  "pain": "어린 시절 내성적이고 몽상적인 성격으로 인해 학교 생활에 적응하지 못하며 학업 성취도가 크게 부진했다.",
+  "recovery": "삼촌의 엄격한 지도를 받아 학문에 대한 열정을 깨달았으며, 의학과 생리학을 거쳐 심리학을 객관적인 실험 과학으로 탈바꿈시켰다.",
+  "lessons": [
+    {
+      "title": "심리학의 목표는 경험이 발생하는 순간의 가장 단순한 요소들을 찾아내는 것이다.",
+      "content": "복잡하고 해결하기 어려운 문제에 직면했을 때는 그것을 가장 기본적인 단위로 쪼개어 보십시오. 근본적인 요소에서 실마리를 찾을 수 있습니다."
+    },
+    {
+      "title": "의식은 정지된 사물이 아니라 끊임없이 흐르는 과정이다.",
+      "content": "사람의 마음이나 상황을 단편적으로 판단하지 마십시오. 모든 것은 변화하는 흐름 속에 있으므로 유연하고 개방적인 태도를 가져야 합니다."
+    },
+    {
+      "title": "우리가 진정으로 이해할 수 있는 유일한 역사는 곧 우리 자신의 내면의 역사다.",
+      "content": "외부 세계를 탐구하기에 앞서 먼저 자신의 내면을 객관적으로 들여다보십시오. 진정한 깨달음은 자기 자신에 대한 깊은 성찰에서 시작됩니다."
+    }
+  ],
+  "persona": "당신은 빌헬름 분트이다.",
+  "imageUrl": "/images/giants/wilhelm-wundt.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1832~1920)"
+},
+  {
+  "id": "31",
+  "name": "장형",
+  "category": "science",
+  "headline": "지동의와 혼천의를 발명하며 고대 중국의 천문학과 기계 공학을 혁신한 다방면의 천재 학자다.",
+  "shortDescription": "장형의 일대기와 지혜",
+  "slug": "zhang-heng",
+  "quote": "천지의 이치는 끝이 없으나, 사람의 마음으로 그 궤적을 쫓을 수 있다.",
+  "pain": "타협을 모르는 대쪽 같은 성품 탓에 부패한 권력자들과 환관들의 극심한 모함에 시달리며 유배와 다름없는 좌천을 겪었다.",
+  "recovery": "열악한 정치적 박해 속에서도 굴하지 않고 시와 산문을 통해 자신의 도덕적 신념을 지켰으며, 묵묵히 과학 연구와 발명에 매진했다.",
+  "lessons": [
+    {
+      "title": "천지의 이치는 끝이 없으나, 사람의 마음으로 그 궤적을 쫓을 수 있다.",
+      "content": "아무리 거대하고 막막한 문제라도 인간의 이성과 노력으로 파악할 수 있습니다. 한계를 지레짐작하여 탐구를 포기하지 마십시오."
+    },
+    {
+      "title": "기계의 정교함은 그 크기에 있는 것이 아니라, 우주의 이치를 얼마나 정확히 담아내느냐에 있다.",
+      "content": "겉으로 보이는 화려함이나 규모에 집착하지 마십시오. 사물의 진정한 가치는 그 안에 담긴 본질과 정밀함에 의해 결정됩니다."
+    },
+    {
+      "title": "군자는 도를 근심할 뿐, 가난을 근심하지 않는다.",
+      "content": "세속적인 이익이나 일시적인 권력에 흔들리지 마십시오. 자신이 옳다고 믿는 도덕적 신념과 진리를 끝까지 수호하는 굳건함을 가지십시오."
+    }
+  ],
+  "persona": "당신은 장형이다.",
+  "imageUrl": "/images/giants/zhang-heng.jpg",
+  "dnaCode": "LRHI",
+  "era": "2세기의 거인 (78~139)"
+},
+  {
+  "id": "32",
+  "name": "조충지",
+  "category": "science",
+  "headline": "소수점 일곱 자리까지 원주율을 계산하고 대명력을 완성한 중국 남조 최고의 수학자이자 천문학자다.",
+  "shortDescription": "조충지의 일대기와 지혜",
+  "slug": "zu-chongzhi",
+  "quote": "옛 사람의 말이라 하여 모두 진리는 아니며, 오직 나의 계산과 관측만이 증명할 수 있다.",
+  "pain": "자신이 평생을 바쳐 완성한 정밀한 대명력을 조정에 건의했으나, 전통을 중시하던 보수파 관료들의 격렬한 반대와 거부에 부딪혔다.",
+  "recovery": "어떠한 정치적 압박 속에서도 타협하지 않고 논리적인 반박을 거듭하며 자신의 과학적 진리를 굽히지 않았고, 끝내 후대에 그 역법이 채택되도록 만들었다.",
+  "lessons": [
+    {
+      "title": "옛 사람의 말이라 하여 모두 진리는 아니며, 오직 나의 계산과 관측만이 증명할 수 있다.",
+      "content": "기존의 권위나 관습을 무비판적으로 수용하지 마십시오. 스스로의 철저한 검증과 논리를 통해서만 진정한 해답을 얻을 수 있습니다."
+    },
+    {
+      "title": "아무리 미세한 오차라도 쌓이면 천지의 이치를 어긋나게 만든다.",
+      "content": "작은 실수나 사소한 타협을 가볍게 여기지 마십시오. 완벽함은 가장 미세한 디테일을 끝까지 물고 늘어지는 치열함에서 완성됩니다."
+    },
+    {
+      "title": "학문에는 지름길이 없으며, 오직 무한히 다각형을 쪼개는 인내만이 원의 진실에 닿게 한다.",
+      "content": "위대한 성취를 이루기 위해서는 초인적인 끈기와 인내가 필요합니다. 요행을 바라지 말고 묵묵히 땀방울을 흘리며 정진하십시오."
+    }
+  ],
+  "persona": "당신은 조충지이다.",
+  "imageUrl": "/images/giants/zu-chongzhi.jpg",
+  "dnaCode": "LRHI",
+  "era": "5세기의 거인 (429~500)"
+},
+  {
+  "id": "79",
+  "name": "에밀리 뒤 샤틀레",
+  "category": "science",
+  "headline": "당대 최고 수준의 수학과 물리학을 통합하여 유럽 과학의 발전을 앞당긴 독창적인 계몽주의 과학자였다.",
+  "shortDescription": "에밀리 뒤 샤틀레의 일대기와 지혜",
+  "slug": "emilie-du-chatelet",
+  "quote": "행복해지기 위해서는 편견을 버려야 한다.",
+  "pain": "여성에게는 정규 고등 교육의 기회가 주어지지 않던 18세기의 지독한 사회적 제약과 억압 속에서, 그녀는 자신의 천재성을 끊임없이 의심받아야 했다.",
+  "recovery": "독학을 통한 치열한 연구와 위대한 당대 학자들과의 학문적 교류를 통해 스스로 지적 권위를 확립하고 역사상 가장 뛰어난 과학서 번역을 이루어냈다.",
+  "lessons": [
+    {
+      "title": "행복해지기 위해서는 편견을 버려야 한다.",
+      "content": "세상의 그릇된 시선에 얽매이지 말고, 진실과 지성을 추구하며 오직 당신만의 주체적인 길을 굳건히 걸어가십시오."
+    },
+    {
+      "title": "나는 내 정신의 능력을 측정하고, 그것을 인류를 위해 사용하고자 한다.",
+      "content": "자신의 잠재력을 철저하게 믿고 개발하여, 그 역량을 세상의 진보와 발전을 위해 가치 있게 헌신하십시오."
+    },
+    {
+      "title": "진정한 위대함은 끊임없는 탐구와 배움의 열정 속에 존재한다.",
+      "content": "현실의 안락함에 결코 안주하지 말고, 배움을 향한 지독한 갈증으로 삶의 매 순간을 경이로운 탐구로 채우십시오."
+    }
+  ],
+  "persona": "당신은 에밀리 뒤 샤틀레이다.",
+  "imageUrl": "/images/giants/emilie-du-chatelet.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1706~1749)"
+},
+  {
+  "id": "99",
+  "name": "엔젤리나 그림케",
+  "category": "society",
+  "headline": "노예제 폐지 운동과 초기 여성 권리 운동을 통합하여 미국 인권 투쟁의 역사에 획기적인 전환점을 마련한 선구자였다.",
+  "shortDescription": "엔젤리나 그림케의 일대기와 지혜",
+  "slug": "angelina-grimke",
+  "quote": "내가 침묵한다면 나는 노예제의 공범이 되는 것입니다.",
+  "pain": "부유한 노예 소유주 가문 출신이라는 사회적 배경과 여성이 대중 앞에서 발언하는 것을 금기시하던 당시의 가부장적인 종교적 편견에 맞서야 했다.",
+  "recovery": "자신의 모든 특권을 버리고 뛰어난 논리와 호소력 짙은 연설로 대중을 설득하며, 노예제 폐지와 여성 권리 운동을 동시에 개척했다.",
+  "lessons": [
+    {
+      "title": "내가 침묵한다면 나는 노예제의 공범이 되는 것입니다.",
+      "content": "부당한 현실 앞에서는 결코 침묵하지 말고, 용기 있게 목소리를 내어 불의에 저항하는 정의로운 행동에 나서십시오."
+    },
+    {
+      "title": "인권에는 남녀의 구별이 없으며 오직 인간이라는 한 가지 사실만이 중요합니다.",
+      "content": "인간의 가치와 권리를 차별하는 모든 낡은 관습을 단호히 거부하고, 절대적 평등과 존엄을 옹호하십시오."
+    },
+    {
+      "title": "진실은 아무리 억압받아도 결국 사람들의 마음을 움직이는 힘이 있습니다.",
+      "content": "세상의 비난에 굴복하지 말고 진실과 양심의 힘을 굳게 믿으며 당신이 옳다고 믿는 길을 담대하게 걸어가십시오."
+    }
+  ],
+  "persona": "당신은 엔젤리나 그림케이다.",
+  "imageUrl": "/images/giants/angelina-grimke.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1805~1879)"
+},
+  {
+  "id": "229",
+  "name": "앤 설리번",
+  "category": "society",
+  "headline": "시각과 청각을 모두 잃은 헬렌 켈러를 헌신적으로 교육하여 세상과 소통하게 만든 위대한 스승이자 인간 승리의 표상이었다.",
+  "shortDescription": "앤 설리번의 일대기와 지혜",
+  "slug": "anne-sullivan",
+  "quote": "계속해서 시도하는 자에게 실패란 결코 존재하지 않습니다.",
+  "pain": "불우한 구빈원 생활과 심각한 시각 장애라는 이중의 끔찍한 고통 속에서 절망적인 유년 시절을 견뎌내야만 했다.",
+  "recovery": "배움에 대한 맹렬한 의지로 스스로의 장애를 극복하고, 무한한 인내와 헌신을 바탕으로 헬렌 켈러를 위대한 지성으로 길러냈다.",
+  "lessons": [
+    {
+      "title": "계속해서 시도하는 자에게 실패란 결코 존재하지 않습니다.",
+      "content": "어떠한 거대한 장벽이나 절망 앞에서도 결코 포기하지 말고, 당신의 끈기와 인내로 새로운 돌파구를 끝까지 찾아내십시오."
+    },
+    {
+      "title": "가장 아름다운 것은 눈으로 볼 수도, 만질 수도 없습니다. 오직 마음으로만 느낄 수 있습니다.",
+      "content": "눈에 보이는 얄팍한 물질적 조건보다, 영혼의 깊은 울림과 진실된 마음의 가치를 인생의 가장 중요한 나침반으로 삼으십시오."
+    },
+    {
+      "title": "우리는 누군가의 어둠 속에서 빛이 되어줄 수 있는 놀라운 힘을 가지고 있습니다.",
+      "content": "자신의 고통을 용기 있게 딛고 일어나, 절망에 빠진 다른 이들의 삶을 밝게 비춰주는 따뜻하고 헌신적인 존재가 되십시오."
+    }
+  ],
+  "persona": "당신은 앤 설리번이다.",
+  "imageUrl": "/images/giants/anne-sullivan.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1866~1936)"
+},
+  {
+  "id": "18",
+  "name": "방정환",
+  "category": "society",
+  "headline": "'어린이'라는 단어를 창안하고 어린이 존중 사상을 최초로 실천한 한국 아동 문화 운동의 가장 위대한 선구자였다.",
+  "shortDescription": "방정환의 일대기와 지혜",
+  "slug": "bang-jeong-hwan",
+  "quote": "어린이를 어른보다 더 높게 대접하십시오.",
+  "pain": "가혹한 일제 강점기의 삼엄한 억압과 감시 속에서, 극심한 가난과 만성적인 자금난이라는 현실적 고통과 쉼 없이 싸워야 했다.",
+  "recovery": "어린이가 곧 조국의 미래라는 확고한 신념을 바탕으로 잡지 창간과 강연을 강행하며 아동 권리 향상에 자신의 모든 생명을 불태웠다.",
+  "lessons": [
+    {
+      "title": "어린이를 어른보다 더 높게 대접하십시오.",
+      "content": "나이가 어리다고 함부로 무시하지 말고, 아이들을 독립된 온전한 인격체로서 굳건히 존중하고 아끼십시오."
+    },
+    {
+      "title": "희망을 잃지 마시오. 돋아나는 새싹을 상하게 하지 마시오.",
+      "content": "가장 혹독하고 절망적인 현실 속에서도 다음 세대가 품은 무한한 가능성과 찬란한 희망을 끝까지 꺾지 말고 지켜주십시오."
+    },
+    {
+      "title": "눈물이 나면 마음껏 우시오. 그러나 내일은 다시 씩씩하게 웃으시오.",
+      "content": "슬픔과 좌절에 빠져 오래 머물지 말고, 훌훌 털어낸 뒤 밝은 희망을 향해 다시 힘차게 걸음을 내디디십시오."
+    }
+  ],
+  "persona": "당신은 방정환이다.",
+  "imageUrl": "/images/giants/bang-jeong-hwan.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1899~1931)"
+},
+  {
+  "id": "178",
+  "name": "체 게바라",
+  "category": "society",
+  "headline": "쿠바 혁명을 성공으로 이끌고 권력을 버린 채 세계 곳곳에서 반제국주의 무장 투쟁을 전개한 영원한 혁명의 상징이다.",
+  "shortDescription": "체 게바라의 일대기와 지혜",
+  "slug": "che-guevara",
+  "quote": "우리 모두 리얼리스트가 되자. 그러나 가슴속에는 불가능한 꿈을 가지자.",
+  "pain": "평생을 괴롭힌 극심한 천식의 고통과 압도적인 무력을 앞세운 제국주의적 독재 권력의 무자비한 탄압에 맞서야만 했다.",
+  "recovery": "강인한 의지로 육체적 한계를 극복하고, 목숨을 건 험난한 게릴라 전투를 진두지휘하며 마침내 위대한 쿠바 혁명을 성취했다.",
+  "lessons": [
+    {
+      "title": "우리 모두 리얼리스트가 되자. 그러나 가슴속에는 불가능한 꿈을 가지자.",
+      "content": "냉혹한 현실을 직시하는 이성을 잃지 않으면서도, 더 나은 세상을 향한 위대하고 낭만적인 이상을 결코 포기하지 마십시오."
+    },
+    {
+      "title": "무릎 꿇고 사느니 서서 죽는 것이 낫다.",
+      "content": "부당한 권력과 억압에 비굴하게 타협하며 연명하기보다는, 당신의 존엄과 확고한 신념을 지키며 당당히 맞서 싸우십시오."
+    },
+    {
+      "title": "만일 당신이 모든 불의에 분노로 떨 수 있다면, 당신은 나의 동지이다.",
+      "content": "타인의 부당한 고통과 억압을 자신의 일처럼 깊이 아파하고 연대하며, 세상을 바꾸는 정의로운 행동에 기꺼이 동참하십시오."
+    }
+  ],
+  "persona": "당신은 체 게바라이다.",
+  "imageUrl": "/images/giants/che-guevara.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1928~1967)"
+},
+  {
+  "id": "17",
+  "name": "주시경",
+  "category": "society",
+  "headline": "주시경은 일제강점기 초기에 한글의 문법과 철자법을 최초로 체계화하여 민족의 언어와 얼을 수호한 선구적인 국어학자이다.",
+  "shortDescription": "주시경의 일대기와 지혜",
+  "slug": "chu-sigyong",
+  "quote": "말이 오르면 나라도 오르고, 말이 내리면 나라도 내린다.",
+  "pain": "일제의 가혹한 감시와 탄압, 그리고 민족의 고유 언어를 말살하려는 동화 정책 속에서도 우리말을 연구하고 보급해야 하는 극심한 고난을 겪었다.",
+  "recovery": "수많은 학교를 돌아다니며 우리말을 가르치는 헌신과 끊임없는 언어학적 연구를 통해 한글의 문법을 체계화하고 제자들을 길러내어 민족의 얼을 지켜냈다.",
+  "lessons": [
+    {
+      "title": "말이 오르면 나라도 오르고, 말이 내리면 나라도 내린다.",
+      "content": "언어는 민족의 얼과 혼을 담고 있으므로, 고유의 언어를 소중히 지키고 가꾸어 국가의 자존을 지켜나가십시오."
+    },
+    {
+      "title": "자기 나라를 보존하며 그 나라를 부강하게 하려면, 그 나라의 고유한 말을 존중해야 한다.",
+      "content": "정체성의 뿌리는 언어에서 시작되니, 우리의 글과 말을 사랑하고 널리 퍼뜨리는 데 앞장서십시오."
+    },
+    {
+      "title": "한글은 민중의 글이어야 하며, 모든 이가 쉽게 읽고 쓸 수 있어야 한다.",
+      "content": "지식과 학문은 소수의 특권층이 독점할 것이 아니라, 사회 구성원 모두가 나눌 수 있도록 공평하게 베푸십시오."
+    }
+  ],
+  "persona": "당신은 주시경이다.",
+  "imageUrl": "/images/giants/chu-sigyong.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1876~1914)"
+},
+  {
+  "id": "445",
+  "name": "코레타 스콧 킹",
+  "category": "society",
+  "headline": "코레타 스콧 킹은 남편의 암살 이후에도 흑인 민권 운동을 이끌며 인종차별 철폐와 평화를 위해 평생을 바친 미국의 위대한 인권 지도자이다.",
+  "shortDescription": "코레타 스콧 킹의 일대기와 지혜",
+  "slug": "coretta-scott-king",
+  "quote": "자유는 결코 최종적으로 주어지는 것이 아닙니다. 모든 세대는 스스로 자신의 자유를 쟁취해야만 합니다.",
+  "pain": "남편의 암살이라는 참담한 비극과 수많은 백인 우월주의자들의 살해 협박 속에서도 비폭력 인권 운동을 이어가야 하는 극심한 고통에 직면했다.",
+  "recovery": "절망적인 슬픔을 강인한 의지로 승화시켜 킹 센터를 설립하고, 남편의 헌신을 기리는 공휴일을 제정하며 소외된 모든 이들의 인권을 위한 세계적인 지도자로 거듭났다.",
+  "lessons": [
+    {
+      "title": "자유는 결코 최종적으로 주어지는 것이 아닙니다. 모든 세대는 스스로 자신의 자유를 쟁취해야만 합니다.",
+      "content": "권리는 가만히 기다려서 얻어지는 것이 아니니, 끊임없이 불의에 맞서며 당신의 정당한 권리를 스스로 주장하십시오."
+    },
+    {
+      "title": "증오는 미워하는 사람의 영혼을 파괴하는 거대한 짐입니다.",
+      "content": "분노와 증오에 사로잡혀 자신을 갉아먹지 말고, 용서와 사랑이라는 비폭력의 힘으로 진정한 평화를 추구하십시오."
+    },
+    {
+      "title": "위대함은 당신이 얼마나 많은 부를 축적했는가가 아니라, 얼마나 많은 사람의 삶에 긍정적인 영향을 미쳤는가로 측정됩니다.",
+      "content": "개인의 안일한 성취에 만족하지 말고, 타인을 향한 헌신과 봉사를 통해 세상에 선한 영향력을 남기십시오."
+    }
+  ],
+  "persona": "당신은 코레타 스콧 킹이다.",
+  "imageUrl": "/images/giants/coretta-scott-king.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1927~2006)"
+},
+  {
+  "id": "495",
+  "name": "데스몬드 투투",
+  "category": "society",
+  "headline": "데스몬드 투투는 아파르트헤이트 종식을 위한 비폭력 투쟁을 이끌고 진실화해위원회를 통해 화해와 용서를 실천한 남아프리카공화국의 성공회 대주교이다.",
+  "shortDescription": "데스몬드 투투의 일대기와 지혜",
+  "slug": "desmond-tutu",
+  "quote": "어둠이 아무리 깊어도 빛을 이길 수는 없습니다. 선함과 정의는 결국 승리합니다.",
+  "pain": "아파르트헤이트 정권의 무자비한 억압과 감시 속에서 언제 암살당할지 모르는 극한의 공포와 구조적 폭력에 맞서야 했다.",
+  "recovery": "불의에 타협하지 않는 확고한 신앙과 용서를 바탕으로 한 비폭력 저항을 이끌어 마침내 진실화해위원회를 통해 피의 보복 대신 평화와 공존을 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "어둠이 아무리 깊어도 빛을 이길 수는 없습니다. 선함과 정의는 결국 승리합니다.",
+      "content": "눈앞의 불의가 강대해 보일지라도 절망하지 말고, 진실과 정의가 궁극적으로 승리한다는 믿음을 잃지 마십시오."
+    },
+    {
+      "title": "당신이 어디에 있든 당신이 할 수 있는 작은 선행을 하십시오. 세상을 압도하는 것은 그 작은 선행들의 합입니다.",
+      "content": "세상을 바꾸는 것은 영웅적인 한 번의 행동이 아니니, 일상 속에서 타인을 향한 작고 따뜻한 배려를 멈추지 마십시오."
+    },
+    {
+      "title": "용서 없이는 미래도 없습니다.",
+      "content": "과거의 상처와 분노에 얽매여 복수를 꿈꾸기보다는, 진실을 마주하고 상대를 용서함으로써 진정한 평화를 향해 나아가십시오."
+    }
+  ],
+  "persona": "당신은 데스몬드 투투이다.",
+  "imageUrl": "/images/giants/desmond-tutu.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1931~2021)"
+},
+  {
+  "id": "274",
+  "name": "다이애나 스펜서",
+  "category": "society",
+  "headline": "다이애나 스펜서는 낡은 왕실의 권위를 넘어 소외된 이들을 따뜻하게 품어 안으며 전 세계의 사랑을 받은 영국의 위대한 인도주의자이다.",
+  "shortDescription": "다이애나 스펜서의 일대기와 지혜",
+  "slug": "diana-princess-of-wales",
+  "quote": "누군가가 곤경에 처했다는 것을 알게 된다면, 그것이 그 어떤 곳이든 상관없이 달려가 도울 것입니다.",
+  "pain": "왕실의 억압적인 규율과 남편의 외도, 파파라치의 병적인 추적 속에서 극심한 우울증과 섭식 장애를 겪으며 철저히 고립되었다.",
+  "recovery": "자신의 깊은 상처를 타인에 대한 거대한 공감 능력으로 승화시켜, 화려한 왕실의 특권을 내려놓고 에이즈 환자와 지뢰 피해자 등 가장 소외된 이들을 직접 껴안으며 세계적인 자선 활동가로 거듭났다.",
+  "lessons": [
+    {
+      "title": "누군가가 곤경에 처했다는 것을 알게 된다면, 그것이 그 어떤 곳이든 상관없이 달려가 도울 것입니다.",
+      "content": "타인의 고통을 외면하지 말고, 당신의 도움이 필요한 곳이라면 조건 없이 손을 내밀어 따뜻한 온기를 나누십시오."
+    },
+    {
+      "title": "이 세상의 가장 큰 질병은 사람들이 자신이 전혀 사랑받지 못하고 있다고 느끼는 것입니다.",
+      "content": "물리적인 궁핍보다 무관심이 더 큰 상처를 남기니, 주변 사람들에게 진심 어린 관심과 애정을 표현하여 그들의 얼어붙은 마음을 녹이십시오."
+    },
+    {
+      "title": "규칙을 따르기보다는 마음이 이끄는 대로 살아가십시오.",
+      "content": "사회가 강요하는 낡은 관습이나 시선에 얽매이지 말고, 진실한 사랑과 선의에서 우러나오는 당신 내면의 목소리를 용기 있게 따르십시오."
+    }
+  ],
+  "persona": "당신은 다이애나 스펜서이다.",
+  "imageUrl": "/images/giants/diana-princess-of-wales.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1961~1997)"
+},
+  {
+  "id": "176",
+  "name": "엘리너 루스벨트",
+  "category": "society",
+  "headline": "엘리너 루스벨트는 영부인의 역할을 혁명적으로 재정의하고 유엔 인권위원회 위원장으로서 세계 인권 선언의 채택을 이끌어낸 '세계의 영부인'이다.",
+  "shortDescription": "엘리너 루스벨트의 일대기와 지혜",
+  "slug": "eleanor-roosevelt",
+  "quote": "자신의 동의 없이는 그 누구도 당신이 열등하다고 느끼게 만들 수 없습니다.",
+  "pain": "어린 시절 부모를 잃어버린 깊은 고독과 남편의 소아마비라는 가정적 비극, 그리고 여성과 소수자를 배제하려는 당대의 강력한 보수적 장벽에 부딪혔다.",
+  "recovery": "자신의 상처를 소외된 이들에 대한 거대한 공감으로 승화시키고, 남편을 대신해 미 전역을 누비며 진보 정치를 이끌었으며 탁월한 외교력으로 세계 인권 선언 채택을 이뤄냈다.",
+  "lessons": [
+    {
+      "title": "자신의 동의 없이는 그 누구도 당신이 열등하다고 느끼게 만들 수 없습니다.",
+      "content": "다른 사람의 시선이나 비난에 흔들리지 말고, 스스로에 대한 굳건한 자존감과 믿음을 지켜내십시오."
+    },
+    {
+      "title": "미래는 자신의 꿈의 아름다움을 믿는 사람들의 것입니다.",
+      "content": "현실의 장벽이 아무리 높더라도 결코 포기하지 말고, 당신이 품은 원대한 이상을 향해 담대하게 나아가십시오."
+    },
+    {
+      "title": "인권은 어디에서 시작되는가? 바로 집 근처, 너무 가깝고 너무 작아서 세계 지도에서는 보이지 않는 작은 곳들입니다.",
+      "content": "거창한 구호에 매몰되지 말고, 당신이 머무는 일상의 공간에서부터 차별을 없애고 평등을 묵묵히 실천하십시오."
+    }
+  ],
+  "persona": "당신은 엘리너 루스벨트이다.",
+  "imageUrl": "/images/giants/eleanor-roosevelt.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1884~1962)"
+},
+  {
+  "id": "444",
+  "name": "에바 페론",
+  "category": "society",
+  "headline": "빈민의 구원자이자 노동자의 어머니로 추앙받은 아르헨티나의 가장 강력한 영부인이다.",
+  "shortDescription": "에바 페론의 일대기와 지혜",
+  "slug": "eva-peron",
+  "quote": "나는 나 자신의 삶을 대중에게 바쳤고, 나의 권력을 그들에게 돌려주었다.",
+  "pain": "사생아로 태어나 극심한 가난과 사회적 차별 속에서 성장하며 기득권층의 끊임없는 공격과 견제를 받았다.",
+  "recovery": "특유의 카리스마와 열정적인 연설로 소외된 노동자들의 절대적인 지지를 이끌어내어 정치적 장애물을 돌파했다.",
+  "lessons": [
+    {
+      "title": "나는 나 자신의 삶을 대중에게 바쳤고, 나의 권력을 그들에게 돌려주었다.",
+      "content": "자신이 가진 자원과 영향력을 자신을 위해 쓰지 말고, 소외되고 도움이 필요한 이웃을 위해 아낌없이 나누어 주십시오."
+    },
+    {
+      "title": "여성이 변하면 세상이 변한다. 우리는 역사를 만들 권리가 있다.",
+      "content": "누구에게나 세상을 긍정적으로 변화시킬 잠재력이 있음을 믿으십시오. 장벽에 굴복하지 말고 당당하게 권리를 쟁취하십시오."
+    },
+    {
+      "title": "나의 심장은 언제나 아르헨티나 빈민들과 함께 뛸 것이다.",
+      "content": "성공의 정점에 섰을 때에도 자신의 뿌리와 연약한 자들을 잊지 마십시오. 진정성이 사람들의 마음을 움직이는 힘입니다."
+    }
+  ],
+  "persona": "당신은 에바 페론이다.",
+  "imageUrl": "/images/giants/eva-peron.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1919~1952)"
+},
+  {
+  "id": "95",
+  "name": "프랜시스 윌러드",
+  "category": "society",
+  "headline": "기독교여성절제동맹(WCTU)을 이끌며 여성 참정권과 금주법 제정의 토대를 마련한 미국의 사회 개혁가이다.",
+  "shortDescription": "프랜시스 윌러드의 일대기와 지혜",
+  "slug": "frances-willard",
+  "quote": "모든 것을 하라. 그리고 당신이 할 수 있는 모든 선한 일을 이웃에게 행하라.",
+  "pain": "대학 행정부와의 갈등으로 안정된 지위를 포기해야 했으며, 개혁 과정에서 조직 내부의 보수파와 흑인 인권 문제로 극심한 갈등을 겪었다.",
+  "recovery": "뛰어난 웅변술과 폭넓은 연대 전략을 통해 수십만 명의 여성을 결속시키며 조직의 분열을 막고 전국적인 운동으로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "모든 것을 하라. 그리고 당신이 할 수 있는 모든 선한 일을 이웃에게 행하라.",
+      "content": "세상의 문제들은 하나로 연결되어 있음을 깨달으십시오. 작은 실천이라도 자신이 할 수 있는 모든 선행을 통해 변화를 이끌어내십시오."
+    },
+    {
+      "title": "가정을 지키기 위해 여성은 반드시 투표함을 지켜야만 한다.",
+      "content": "자신과 가족의 삶을 지키기 위해서는 정치적 권리에 무관심해서는 안 됩니다. 적극적인 참여로 사회의 법과 제도를 스스로 개혁하십시오."
+    },
+    {
+      "title": "위대한 사상보다 더 중요한 것은 그 사상을 행동으로 옮기는 단결된 힘이다.",
+      "content": "아무리 훌륭한 이상도 실천과 연대가 없다면 공허할 뿐입니다. 목표를 이루기 위해 타인과 협력하고 행동에 나서십시오."
+    }
+  ],
+  "persona": "당신은 프랜시스 윌러드이다.",
+  "imageUrl": "/images/giants/frances-willard.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1839~1898)"
+},
+  {
+  "id": "250",
+  "name": "홍수전",
+  "category": "society",
+  "headline": "기독교 교리와 평등사상을 융합하여 청나라에 대항해 태평천국 운동을 이끈 혁명적 종교 지도자이다.",
+  "shortDescription": "홍수전의 일대기와 지혜",
+  "slug": "hong-xiuquan",
+  "quote": "천하의 모든 사람은 한 형제요, 한 자매이다.",
+  "pain": "과거 시험에 거듭 낙방하며 극심한 좌절을 겪었으며, 거병 이후에는 강력한 청나라 군대와 서양 열강의 압박에 시달렸다.",
+  "recovery": "독창적인 종교적 신념을 바탕으로 핍박받는 농민들을 규합하고 강력한 군사 조직을 결성하여 왕조에 대항했다.",
+  "lessons": [
+    {
+      "title": "천하의 모든 사람은 한 형제요, 한 자매이다.",
+      "content": "출신이나 신분에 관계없이 모든 인간은 존귀함을 명심하십시오. 불평등한 사회 구조에 안주하지 말고 차별 없는 세상을 만들기 위해 연대하십시오."
+    },
+    {
+      "title": "땅은 모든 이가 나누어 가져야 하며, 부는 소수에게 독점되어서는 안 된다.",
+      "content": "경제적 정의와 공정한 분배가 사회의 평화를 유지하는 근간임을 잊지 마십시오. 탐욕을 경계하고 공동체의 번영을 위해 노력하십시오."
+    },
+    {
+      "title": "하늘의 뜻을 받들어 악을 멸하고 새로운 세상을 열어라.",
+      "content": "자신이 믿는 대의와 신념에 대한 확고한 믿음을 가지십시오. 부조리한 현실 앞에서 물러서지 말고 용기로 낡은 관습을 타파하십시오."
+    }
+  ],
+  "persona": "당신은 홍수전이다.",
+  "imageUrl": "/images/giants/hong-xiuquan.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1814~1864)"
+},
+  {
+  "id": "281",
+  "name": "장폴 마라",
+  "category": "society",
+  "headline": "신문 인민의 벗을 통해 프랑스 혁명의 급진화와 공포 정치를 주도한 혁명적 언론인이다.",
+  "shortDescription": "장폴 마라의 일대기와 지혜",
+  "slug": "jean-paul-marat",
+  "quote": "자유는 폭력을 통해서만 확립될 수 있다. 우리는 전제주의를 끝내기 위해 자유의 전제주의를 조작해야 한다.",
+  "pain": "온건파 혁명가들과 기득권층의 탄압으로 지하에 숨어 지내며 심각한 피부병과 암살 위협에 시달렸다.",
+  "recovery": "가난한 민중을 대변하는 급진적인 언론 활동을 멈추지 않고, 여론을 선동하여 반대파를 숙청하며 권력을 장악했다.",
+  "lessons": [
+    {
+      "title": "자유는 폭력을 통해서만 확립될 수 있다. 우리는 전제주의를 끝내기 위해 자유의 전제주의를 조작해야 한다.",
+      "content": "거대한 억압 구조를 부수기 위해서는 강력한 행동이 필요합니다. 부조리한 체제에 맞서 단호한 결단력으로 투쟁하십시오."
+    },
+    {
+      "title": "나는 인민의 벗이다. 억압받는 자들이 있는 한 나의 펜은 결코 멈추지 않을 것이다.",
+      "content": "자신의 이익보다 고통받고 소외된 약자들의 목소리를 대변하는 데 헌신하십시오. 진실을 말하는 용기를 가지십시오."
+    },
+    {
+      "title": "반역자들을 단두대로 보내라. 인민의 안전이 최고 법이다.",
+      "content": "공동체를 위협하는 부정부패와 배신에 대해서는 관용을 베풀지 말고 엄정하게 대처하십시오. 공공의 이익 수호를 최우선으로 삼으십시오."
+    }
+  ],
+  "persona": "당신은 장폴 마라이다.",
+  "imageUrl": "/images/giants/jean-paul-marat.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1743~1793)"
+},
+  {
+  "id": "226",
+  "name": "호세 마르티",
+  "category": "society",
+  "headline": "호세 마르티는 문학과 사상을 무기로 쿠바의 완전한 독립과 라틴아메리카의 통합을 주창한 19세기의 위대한 혁명가이자 문필가이다.",
+  "shortDescription": "호세 마르티의 일대기와 지혜",
+  "slug": "jose-marti",
+  "quote": "빛을 쏟아내는 것은 별만이 아닙니다. 위대한 사상도 마찬가지입니다.",
+  "pain": "16세의 어린 나이에 가혹한 강제 노동형을 선고받고, 성인이 되어서도 평생을 낯선 타국을 떠도는 망명객 신분으로 스페인 식민 당국의 끊임없는 탄압과 싸워야 했다.",
+  "recovery": "망명지에서 분열된 독립운동 세력을 극적으로 통합하여 쿠바 혁명당을 창설하고, 문학과 언론을 강력한 무기로 삼아 라틴아메리카 민중의 독립 의지를 일깨우는 위대한 사상적 지주로 우뚝 섰다.",
+  "lessons": [
+    {
+      "title": "빛을 쏟아내는 것은 별만이 아닙니다. 위대한 사상도 마찬가지입니다.",
+      "content": "물리적인 힘보다 진리와 사상의 힘이 세상을 더욱 밝게 비추고 변화시킬 수 있음을 기억하십시오. 폭력이나 강압에 굴복하지 말고, 스스로 굳게 믿는 올바른 신념과 지성을 무기로 삼아 당신이 처한 어려운 현실을 당당하게 극복해 나가시길 바랍니다."
+    },
+    {
+      "title": "단 한 명의 부당한 고통은, 모든 사람에 대한 모욕입니다.",
+      "content": "타인의 아픔을 외면하지 말고 우리 사회가 겪는 부조리와 고통에 깊이 공감하는 따뜻한 마음을 가지십시오. 진정한 자유와 평화는 나 혼자만의 안위가 아니라 공동체 전체의 존엄성이 지켜질 때 비로소 완성될 수 있음을 항상 명심하시길 바랍니다."
+    },
+    {
+      "title": "권리는 누군가에게 구걸하는 것이 아니라, 스스로 쟁취하는 것입니다.",
+      "content": "당신이 마땅히 누려야 할 권리와 자유를 타인의 선의에 기대어 수동적으로 기다리지 마십시오. 주체적인 의지를 가지고 불의에 맞서며, 스스로의 운명을 개척하기 위해 용기 내어 실천하고 끊임없이 행동하는 삶을 살아가시길 당부드립니다."
+    }
+  ],
+  "persona": "당신은 호세 마르티이다.",
+  "imageUrl": "/images/giants/jose-marti.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1853~1895)"
+},
+  {
+  "id": "96",
+  "name": "줄리아 워드 하우",
+  "category": "society",
+  "headline": "미국의 비공식 애국가인 '공화국 전투 찬가'를 작사하고 여성 참정권 운동을 이끈 문인이자 사회 개혁가다.",
+  "shortDescription": "줄리아 워드 하우의 일대기와 지혜",
+  "slug": "julia-ward-howe",
+  "quote": "인류의 진정한 진보는 오직 남녀가 평등하게 손을 맞잡을 때에만 이루어질 수 있다.",
+  "pain": "보수적인 남편의 억압으로 인해 문학적 재능을 마음껏 펼치지 못하고 깊은 우울감과 자아 상실의 위기를 겪어야 했다.",
+  "recovery": "익명으로 작품을 출판하고 사회 개혁 운동에 뛰어들며 자신만의 확고한 목소리를 되찾았고, 끝내 미국을 움직이는 위대한 사상가로 거듭났다.",
+  "lessons": [
+    {
+      "title": "인류의 진정한 진보는 오직 남녀가 평등하게 손을 맞잡을 때에만 이루어질 수 있다.",
+      "content": "성별에 구애받지 않고 모든 인간이 평등한 권리를 누리며 협력할 때 비로소 더 나은 세상으로 나아갈 수 있음을 기억하십시오."
+    },
+    {
+      "title": "펜은 칼보다 강하며, 하나의 위대한 사상은 수만 명의 군대보다 강력한 힘을 지닌다.",
+      "content": "무력보다 진실된 글과 사상이 세상을 변화시키는 더 근본적이고 강력한 무기가 된다는 사실을 가슴에 새기십시오."
+    },
+    {
+      "title": "전 세계의 어머니들이여, 우리 아이들의 생명을 앗아가는 전쟁을 끝내기 위해 모두 하나 되어 일어서라.",
+      "content": "생명을 잉태하고 길러내는 어머니의 강인한 마음으로 부당한 폭력과 전쟁에 맞서 연대하고 평화를 지켜내십시오."
+    }
+  ],
+  "persona": "당신은 줄리아 워드 하우이다.",
+  "imageUrl": "/images/giants/julia-ward-howe.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1819~1910)"
+},
+  {
+  "id": "190",
+  "name": "강반석",
+  "category": "society",
+  "headline": "일제강점기 만주 일대에서 항일 무장 투쟁을 후원하고 반일부녀회를 조직한 여성 독립운동가다.",
+  "shortDescription": "강반석의 일대기와 지혜",
+  "slug": "kang-pan-sok",
+  "quote": "나라를 잃은 백성에게는 편안한 잠자리도, 배부른 식사도 사치일 뿐이다.",
+  "pain": "망국과 타향살이의 극심한 빈곤 속에서 남편을 여의고, 일제의 잔혹한 탄압에 시달려야 했다.",
+  "recovery": "강인한 모성애와 불굴의 의지로 반일부녀회를 조직하여 여성들을 계몽하고, 항일 투쟁의 최전선에서 헌신적인 삶을 살았다.",
+  "lessons": [
+    {
+      "title": "나라를 잃은 백성에게는 편안한 잠자리도, 배부른 식사도 사치일 뿐이다.",
+      "content": "자신이 속한 공동체가 위기에 처했을 때 개인의 안일함을 버리고 대의를 위해 헌신하는 자세를 가지십시오."
+    },
+    {
+      "title": "여성도 조국을 되찾는 성스러운 투쟁의 당당한 주인이 되어야 한다.",
+      "content": "시대적 한계와 사회적 편견에 굴복하지 말고, 스스로의 운명을 개척하는 당당한 주체로 일어서십시오."
+    },
+    {
+      "title": "어미의 몸이 부서지더라도 자식들이 자유로운 땅에서 살 수 있다면 그것으로 족하다.",
+      "content": "다음 세대에게 더 나은 미래를 물려주기 위해 치르는 고귀한 희생과 헌신의 참된 가치를 잊지 마십시오."
+    }
+  ],
+  "persona": "당신은 강반석이다.",
+  "imageUrl": "/images/giants/kang-pan-sok.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1892~1932)"
+},
+  {
+  "id": "213",
+  "name": "레프 트로츠키",
+  "category": "society",
+  "headline": "러시아 10월 혁명을 실질적으로 지휘하고 붉은 군대를 창설한 탁월한 혁명가이자 마르크스주의 사상가다.",
+  "shortDescription": "레프 트로츠키의 일대기와 지혜",
+  "slug": "leon-trotsky",
+  "quote": "사상은 결코 총칼로 억압할 수 없으며, 진실은 권력자의 위협 속에서도 반드시 살아남는다.",
+  "pain": "스탈린과의 권력 투쟁에서 패배하여 조국에서 영구 추방당하고, 평생을 끊임없는 암살 위협과 망명 생활에 시달려야 했다.",
+  "recovery": "타국을 떠도는 가혹한 상황 속에서도 펜을 놓지 않고 스탈린 체제의 관료적 독재를 비판하며 끝까지 자신의 정치적 신념을 지켜냈다.",
+  "lessons": [
+    {
+      "title": "사상은 결코 총칼로 억압할 수 없으며, 진실은 권력자의 위협 속에서도 반드시 살아남는다.",
+      "content": "어떠한 물리적 폭력이나 부당한 권력도 올바른 사상과 진리를 영원히 침묵시킬 수는 없음을 굳게 믿으십시오."
+    },
+    {
+      "title": "혁명이란 낡은 세계의 잔해 위에서 가장 인간적인 삶의 토대를 새롭게 구축하는 위대한 예술이다.",
+      "content": "낡은 관습과 모순을 타파하고 더 나은 공동체를 만들기 위한 모든 창조적 변화의 과정에 적극적으로 동참하십시오."
+    },
+    {
+      "title": "권력의 타락을 감시하지 않는 혁명은 결국 새로운 독재의 괴물을 잉태할 뿐이다.",
+      "content": "아무리 숭고한 목표로 시작된 일이라 할지라도, 그 과정의 투명성과 권력에 대한 비판적 견제를 결코 늦추지 마십시오."
+    }
+  ],
+  "persona": "당신은 레프 트로츠키이다.",
+  "imageUrl": "/images/giants/leon-trotsky.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1879~1940)"
+},
+  {
+  "id": "94",
+  "name": "루시 스톤",
+  "category": "society",
+  "headline": "미국 역사상 최초로 결혼 후 자신의 성을 유지하며 여성 참정권과 노예제 폐지를 이끈 선구적인 인권 투사다.",
+  "shortDescription": "루시 스톤의 일대기와 지혜",
+  "slug": "lucy-stone",
+  "quote": "한 여성의 이름은 그녀 존재의 본질이며, 타인에 의해 덮어씌워지거나 지워져서는 안 되는 고유한 권리이다.",
+  "pain": "성차별적인 시대 환경으로 인해 대학 진학을 거부당하고, 공개 연설 과정에서 혹독한 조롱과 신변의 위협을 겪어야 했다.",
+  "recovery": "스스로 학비를 벌어 대학을 졸업하고, 압도적인 웅변력과 언론 활동으로 미국 대중의 마음을 움직여 여성 운동의 확고한 기틀을 다졌다.",
+  "lessons": [
+    {
+      "title": "한 여성의 이름은 그녀 존재의 본질이며, 타인에 의해 덮어씌워지거나 지워져서는 안 되는 고유한 권리이다.",
+      "content": "자신을 규정하는 고유한 정체성을 소중히 여기고, 타인의 시선이나 관습에 얽매여 스스로의 본질을 잃지 마십시오."
+    },
+    {
+      "title": "실망하지 마라. 그리고 세상을 당신이 태어났을 때보다 더 나은 곳으로 만들어라.",
+      "content": "거대한 장벽 앞에서도 결코 좌절하지 말고, 묵묵히 자신의 자리에서 세상을 조금씩 변화시켜 나가는 용기를 가지십시오."
+    },
+    {
+      "title": "인권은 쪼갤 수 없는 전체이며, 어느 한 집단이 억압받는 한 우리 모두의 자유 역시 온전할 수 없다.",
+      "content": "나와 다른 처지에 있는 이들의 고통을 외면하지 말고, 모든 인간의 보편적 권리를 지키기 위해 함께 연대하십시오."
+    }
+  ],
+  "persona": "당신은 루시 스톤이다.",
+  "imageUrl": "/images/giants/lucy-stone.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1818~1893)"
+},
+  {
+  "id": "175",
+  "name": "말컴 X",
+  "category": "society",
+  "headline": "미국 흑인 해방과 보편적 인권 쟁취를 위해 타협 없이 투쟁한 20세기 최고의 급진적 민권 운동가.",
+  "shortDescription": "말컴 X의 일대기와 지혜",
+  "slug": "malcolm-x",
+  "quote": "교육은 우리의 미래를 위한 여권이다. 내일을 준비하는 사람들만이 내일을 맞이할 수 있기 때문이다.",
+  "pain": "어린 시절 백인 우월주의 단체의 테러로 아버지를 잃고 어머니마저 정신병원에 수용되며 깊은 절망과 범죄의 늪에 빠졌다.",
+  "recovery": "감옥에서 독서와 이슬람교의 가르침을 통해 사상적 각성을 이루었으며, 혹독한 시련을 흑인 해방을 향한 불굴의 저항 정신으로 승화시켰다.",
+  "lessons": [
+    {
+      "title": "교육은 우리의 미래를 위한 여권이다. 내일을 준비하는 사람들만이 내일을 맞이할 수 있기 때문이다.",
+      "content": "스스로 깨우치고 배우는 것만이 억압된 현실을 변화시킬 수 있는 가장 강력한 무기임을 잊지 마십시오."
+    },
+    {
+      "title": "자유를 원한다면 권력에 호소하지 마라. 자유는 스스로 쟁취하는 자의 것이다.",
+      "content": "타인의 선의에 기대기보다는 스스로의 권리를 당당히 요구하고 쟁취하는 주체적인 삶을 살아가십시오."
+    },
+    {
+      "title": "당신이 어떠한 희생을 치르더라도 기꺼이 자유를 지키려 하지 않는다면, '자유'라는 단어를 입에 올릴 자격이 없다.",
+      "content": "진정한 정의와 해방을 향한 길에는 반드시 희생이 따름을 기억하고 용기 있게 행동하십시오."
+    }
+  ],
+  "persona": "당신은 말컴 X이다.",
+  "imageUrl": "/images/giants/malcolm-x.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1925~1965)"
+},
+  {
+  "id": "164",
+  "name": "마리 앙투아네트",
+  "category": "society",
+  "headline": "프랑스 대혁명의 거대한 소용돌이 속에서 역사의 희생양이 되어 단두대의 이슬로 사라진 비운의 왕비.",
+  "shortDescription": "마리 앙투아네트의 일대기와 지혜",
+  "slug": "marie-antoinette",
+  "quote": "어려움에 처했을 때야말로 자신이 누구인지 진정으로 깨닫게 된다.",
+  "pain": "정략결혼으로 적국 프랑스의 왕비가 되어 평생을 편견과 악의적인 소문에 시달렸으며, 대혁명의 소용돌이 속에서 모든 것을 잃고 죄수로 전락했다.",
+  "recovery": "사형 선고를 받는 치욕적인 재판장에서도, 그리고 단두대로 향하는 마지막 순간까지도 왕비로서의 당당한 위엄과 기품을 잃지 않았다.",
+  "lessons": [
+    {
+      "title": "어려움에 처했을 때야말로 자신이 누구인지 진정으로 깨닫게 된다.",
+      "content": "가장 절망적이고 고통스러운 순간에 비로소 내면의 진정한 힘과 마주할 수 있음을 기억하십시오."
+    },
+    {
+      "title": "나는 지금 막 사형 선고를 받았습니다. 그러나 그것은 죄인들에게나 부끄러운 일일 뿐입니다.",
+      "content": "세상이 당신을 오해하고 비난할지라도 스스로 떳떳하다면 결코 자존감을 잃지 마십시오."
+    },
+    {
+      "title": "실례했습니다, 무슈. 일부러 그런 것은 아니었어요.",
+      "content": "죽음의 두려움 앞에서도 타인을 존중하고 스스로의 품위를 끝까지 지켜내는 의연함을 가지십시오."
+    }
+  ],
+  "persona": "당신은 마리 앙투아네트이다.",
+  "imageUrl": "/images/giants/marie-antoinette.jpg",
+  "dnaCode": "LRHI",
+  "era": "18세기의 거인 (1755~1793)"
+},
+  {
+  "id": "173",
+  "name": "마틴 루터 킹 주니어",
+  "category": "society",
+  "headline": "비폭력 저항 운동을 통해 미국의 구조적 인종차별을 철폐하고 노벨 평화상을 수상한 위대한 민권 지도자.",
+  "shortDescription": "마틴 루터 킹 주니어의 일대기와 지혜",
+  "slug": "martin-luther-king-jr",
+  "quote": "어둠은 어둠을 몰아낼 수 없습니다. 오직 빛만이 그것을 할 수 있습니다. 증오는 증오를 몰아낼 수 없습니다. 오직 사랑만이 그것을 할 수 있습니다.",
+  "pain": "미국 남부의 가혹한 인종 분리 정책 아래서 숱한 구속과 생명의 위협을 겪으며 인간의 존엄성이 짓밟히는 고통을 목도했다.",
+  "recovery": "어떠한 억압과 탄압에도 굴복하지 않고 사랑과 비폭력 저항이라는 확고한 신념으로 수백만 명을 결집시켜 불의한 법과 제도를 무너뜨렸다.",
+  "lessons": [
+    {
+      "title": "어둠은 어둠을 몰아낼 수 없습니다. 오직 빛만이 그것을 할 수 있습니다. 증오는 증오를 몰아낼 수 없습니다. 오직 사랑만이 그것을 할 수 있습니다.",
+      "content": "갈등과 분노에 같은 방식으로 맞서지 말고, 더 크고 따뜻한 사랑의 힘으로 세상을 변화시키십시오."
+    },
+    {
+      "title": "결국에 우리가 기억하는 것은 적들의 말이 아니라, 친구들의 침묵이 될 것입니다.",
+      "content": "불의를 목격했을 때 외면하지 말고, 정의를 위해 용기 내어 목소리를 내고 행동하십시오."
+    },
+    {
+      "title": "계단의 끝이 보이지 않더라도 믿음을 가지고 첫걸음을 내딛으십시오.",
+      "content": "결과가 당장 보이지 않더라도 올바른 길이라면 흔들리지 않는 신념으로 주저 없이 시작하십시오."
+    }
+  ],
+  "persona": "당신은 마틴 루터 킹 주니어이다.",
+  "imageUrl": "/images/giants/martin-luther-king-jr.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1929~1968)"
+},
+  {
+  "id": "61",
+  "name": "메리 처치 테렐",
+  "category": "society",
+  "headline": "평생에 걸쳐 인종주의와 성차별이라는 이중의 장벽에 맞서 싸운 미국 흑인 여성 인권 운동의 위대한 선구자.",
+  "shortDescription": "메리 처치 테렐의 일대기와 지혜",
+  "slug": "mary-church-terrell",
+  "quote": "우리가 향상함에 따라 함께 끌어올리자. 우리 중 가장 약한 자가 오르지 못한다면, 우리 모두가 결코 진정으로 오를 수 없기 때문이다.",
+  "pain": "흑인 엘리트라는 특권적 배경 속에서도 흑인과 여성이라는 이중의 차별을 절감했으며, 친구의 억울한 죽음을 통해 인종 폭력의 참혹한 현실과 마주했다.",
+  "recovery": "지성과 세련된 언변을 무기로 흑인 여성들을 결집시키고, 여든이 넘은 나이에도 길거리 시위를 마다하지 않으며 불굴의 행동주의로 맞섰다.",
+  "lessons": [
+    {
+      "title": "우리가 향상함에 따라 함께 끌어올리자. 우리 중 가장 약한 자가 오르지 못한다면, 우리 모두가 결코 진정으로 오를 수 없기 때문이다.",
+      "content": "성공과 성취의 기쁨을 혼자 누리지 말고, 도움이 필요한 이들을 이끌어주며 함께 성장하는 연대의식을 가지십시오."
+    },
+    {
+      "title": "이중의 짐을 지고 있다는 것은 변명이 아니라, 두 배로 열심히 싸워야 할 이유일 뿐이다.",
+      "content": "자신을 옭아매는 불리한 조건과 차별을 한탄하기보다는, 그것을 극복하기 위해 더 치열하게 노력하고 행동하십시오."
+    },
+    {
+      "title": "정의를 향한 요구에는 결코 유효기간이 존재하지 않는다.",
+      "content": "옳은 일을 위한 투쟁에는 나이나 상황을 핑계 삼지 말고, 마지막 순간까지 당당하게 목소리를 내십시오."
+    }
+  ],
+  "persona": "당신은 메리 처치 테렐이다.",
+  "imageUrl": "/images/giants/mary-church-terrell.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1863~1954)"
+},
+  {
+  "id": "446",
+  "name": "메리 매클라우드 베슌",
+  "category": "society",
+  "headline": "노예의 딸로 태어나 교육과 흑인 여성의 권익 신장을 위해 헌신하며 백악관 흑인 내각을 이끈 위대한 교육자이자 정치인.",
+  "shortDescription": "메리 매클라우드 베슌의 일대기와 지혜",
+  "slug": "mary-mcleod-bethune",
+  "quote": "교육만이 우리가 세상을 향해 열어젖힐 수 있는 가장 확실한 문이다.",
+  "pain": "해방된 노예의 가난한 집안에서 태어나 흑인 선교사가 될 수 없다는 인종차별적 좌절을 맛보았으며, 단돈 1.5달러로 척박한 환경에서 교육의 기적을 일궈내야 했다.",
+  "recovery": "초인적인 헌신과 탁월한 정치적 협상력을 발휘하여 흑인 대학교를 설립하고, 루스벨트 대통령의 자문역에 오르며 국가의 정책적 변화를 이끌어냈다.",
+  "lessons": [
+    {
+      "title": "교육만이 우리가 세상을 향해 열어젖힐 수 있는 가장 확실한 문이다.",
+      "content": "어떠한 절망 속에서도 배움을 포기하지 말고, 지식을 통해 스스로의 한계와 사회의 장벽을 부수십시오."
+    },
+    {
+      "title": "믿음은 텅 빈 공간에 손을 내밀어 아무것도 보이지 않는 곳에서 무언가를 붙잡는 능력이다.",
+      "content": "당장 결과가 보이지 않고 가진 것이 없더라도, 긍정적인 믿음을 잃지 말고 행동으로 옮기십시오."
+    },
+    {
+      "title": "나는 당신들에게 희망을 남깁니다. 우리 민족은 과거의 족쇄를 벗어던지고 내일을 향해 당당히 걸어갈 것입니다.",
+      "content": "과거의 상처에 얽매이지 말고, 다음 세대를 위한 사랑과 희망의 유산을 남기는 삶을 개척하십시오."
+    }
+  ],
+  "persona": "당신은 메리 매클라우드 베슌이다.",
+  "imageUrl": "/images/giants/mary-mcleod-bethune.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1875~1955)"
+},
+  {
+  "id": "464",
+  "name": "넬리 블라이",
+  "category": "society",
+  "headline": "사회적 약자의 목소리를 대변하고 탐사 저널리즘의 기초를 확립한 미국의 선구적인 여성 언론인이다.",
+  "shortDescription": "넬리 블라이의 일대기와 지혜",
+  "slug": "nellie-bly",
+  "quote": "에너지를 올바르게 집중하면 이루지 못할 일이 없습니다.",
+  "pain": "여성 기자는 패션과 가십거리만 다루어야 한다는 사회적 편견과 싸웠으며, 잠입 취재 과정에서 목숨을 위협받는 위험한 환경에 직접 노출되었다.",
+  "recovery": "안전을 담보로 한 무모한 도전과 끊임없는 끈기를 통해 사회의 가장 어두운 이면을 세상에 알리고 탐사 보도라는 새로운 길을 열었다.",
+  "lessons": [
+    {
+      "title": "에너지를 올바르게 집중하면 이루지 못할 일이 없습니다.",
+      "content": "목표를 향해 올바른 방향으로 모든 열정을 쏟으십시오. 확고한 의지와 집중력은 어떤 장벽도 무너뜨릴 수 있는 강력한 무기가 됩니다."
+    },
+    {
+      "title": "나는 불가능이라는 말을 믿어본 적이 없습니다.",
+      "content": "스스로의 한계를 미리 규정하지 마십시오. 불가능이라는 단어는 아직 시도하지 않은 자들의 핑계일 뿐임을 기억해야 합니다."
+    },
+    {
+      "title": "나는 남들이 가지 않는 길을 선택했고, 그것이 모든 것을 바꾸어 놓았습니다.",
+      "content": "주어진 편안한 길에 안주하지 말고 새로운 도전을 두려워하지 마십시오. 남들이 외면하는 곳에서 진정한 가치와 변화를 발견할 수 있습니다."
+    }
+  ],
+  "persona": "당신은 넬리 블라이이다.",
+  "imageUrl": "/images/giants/nellie-bly.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1864~1922)"
+},
+  {
+  "id": "15",
+  "name": "박은식",
+  "category": "society",
+  "headline": "나라의 정신인 국혼을 일깨우기 위해 역사서를 집필하고 조국의 독립을 위해 헌신한 대한민국의 실천적 지식인이자 언론인이다.",
+  "shortDescription": "박은식의 일대기와 지혜",
+  "slug": "park-eun-sik",
+  "quote": "나라는 형체이고 역사는 정신이다.",
+  "pain": "망명이라는 혹독한 고난과 끊임없는 일제의 감시 속에서도 가난과 병마와 싸우며 외롭게 민족의 역사를 기록해야만 했다.",
+  "recovery": "굴복하지 않는 강인한 정신력으로 조국의 아픈 역사를 글로 남기며, 분열된 독립운동 세력을 통합하기 위해 자신의 마지막 목숨까지 바쳤다.",
+  "lessons": [
+    {
+      "title": "나라는 형체이고 역사는 정신이다.",
+      "content": "눈에 보이는 육체나 물질적 형체가 무너지더라도 고유한 정신과 정체성을 지키십시오. 정신이 살아 있다면 언제든 다시 일어설 수 있습니다."
+    },
+    {
+      "title": "국혼이 살아있는 한 나라는 반드시 부활한다.",
+      "content": "어떠한 절망 속에서도 자신이 가진 본질적인 가치와 희망을 잃지 마십시오. 흔들리지 않는 신념이 결국 궁극적인 승리를 가져다줄 것입니다."
+    },
+    {
+      "title": "독립운동을 위해 전 민족이 대동단결하라.",
+      "content": "위기의 순간일수록 개인의 사사로운 이익을 버리고 전체를 위해 하나로 뭉치십시오. 화합과 단결만이 가장 거대한 장벽을 넘는 열쇠가 됩니다."
+    }
+  ],
+  "persona": "당신은 박은식이다.",
+  "imageUrl": "/images/giants/park-eun-sik.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1859~1925)"
+},
+  {
+  "id": "442",
+  "name": "포카혼타스",
+  "category": "society",
+  "headline": "아메리카 원주민과 영국의 초기 개척자 사이에서 갈등을 막고 평화를 이끌어낸 위대한 외교관이자 가교이다.",
+  "shortDescription": "포카혼타스의 일대기와 지혜",
+  "slug": "pocahontas",
+  "quote": "낯선 두 세계가 만나면 서로를 이해하는 데 시간이 필요합니다.",
+  "pain": "두 문화의 치열한 충돌 속에서 인질로 납치되어 고향을 잃고 낯선 언어와 종교, 문화를 강제로 받아들여야 하는 시련을 겪었다.",
+  "recovery": "자신의 억류와 결혼을 통해 양측의 참혹한 유혈 사태를 멈추게 하는 평화 협정을 이끌어내며 두 세계를 잇는 진정한 가교가 되었다.",
+  "lessons": [
+    {
+      "title": "낯선 두 세계가 만나면 서로를 이해하는 데 시간이 필요합니다.",
+      "content": "나와 다른 배경이나 가치관을 가진 사람을 만날 때 성급히 판단하지 마십시오. 진정한 이해를 위해서는 열린 마음과 충분한 시간이 필요합니다."
+    },
+    {
+      "title": "평화는 거대한 권력이 아니라 한 사람의 용기에서 시작됩니다.",
+      "content": "갈등을 해결하기 위해 반드시 거창한 힘이 필요한 것은 아닙니다. 한 사람의 진실하고 작은 용기가 굳게 닫힌 문을 여는 열쇠가 될 수 있습니다."
+    },
+    {
+      "title": "모든 만물은 보이지 않는 끈으로 연결되어 있습니다.",
+      "content": "우리가 맺는 모든 관계와 자연환경이 서로 영향을 주고받음을 기억하십시오. 조화와 균형을 추구할 때 비로소 평온한 삶을 이룰 수 있습니다."
+    }
+  ],
+  "persona": "당신은 포카혼타스이다.",
+  "imageUrl": "/images/giants/pocahontas.jpg",
+  "dnaCode": "LRHI",
+  "era": "17세기의 거인 (1596~1617)"
+},
+  {
+  "id": "443",
+  "name": "사카가위아",
+  "category": "society",
+  "headline": "루이스와 클라크 탐험대의 성공을 이끈 미국의 전설적인 아메리카 원주민 여성 개척자이다.",
+  "shortDescription": "사카가위아의 일대기와 지혜",
+  "slug": "sacagawea",
+  "quote": "용기는 두려움이 없는 상태가 아니라, 두려움에도 불구하고 전진하는 것입니다.",
+  "pain": "어린 시절 적대 부족에게 납치되어 고향과 가족을 잃고 노예처럼 팔려 다니며 원치 않는 삶을 강요받았다.",
+  "recovery": "갓난아기를 등에 업은 채 극한의 대자연과 질병의 고통을 이겨내며, 탁월한 지혜로 탐험대의 생존을 책임진 진정한 개척자가 되었다.",
+  "lessons": [
+    {
+      "title": "용기는 두려움이 없는 상태가 아니라, 두려움에도 불구하고 전진하는 것입니다.",
+      "content": "새로운 도전을 앞두고 겁이 나는 것은 당연한 일입니다. 그 두려움을 안고서라도 발걸음을 내디딜 때 비로소 진정한 용기가 완성됩니다."
+    },
+    {
+      "title": "최악의 상황 속에서도 침착함을 잃지 않으면 길을 찾을 수 있습니다.",
+      "content": "예상치 못한 위기가 닥치더라도 당황하지 마십시오. 고요하고 차분한 마음을 유지해야 잃어버린 방향을 다시 찾을 수 있습니다."
+    },
+    {
+      "title": "단 한 사람의 평화로운 모습이 수백 자루의 총칼보다 강할 때가 있습니다.",
+      "content": "무력이나 강압적인 방식보다 포용과 부드러운 태도가 사람들의 마음을 더 잘 엽니다. 진정한 힘은 무기가 아니라 평화로운 의지에서 나옵니다."
+    }
+  ],
+  "persona": "당신은 사카가위아이다.",
+  "imageUrl": "/images/giants/sacagawea.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1788~1812)"
+},
+  {
+  "id": "150",
+  "name": "사카모토 료마",
+  "category": "society",
+  "headline": "서로 다투던 세력들을 중재하여 도쿠가와 막부를 무너뜨리고 메이지 유신의 기틀을 마련한 일본 근대화의 개척자이다.",
+  "shortDescription": "사카모토 료마의 일대기와 지혜",
+  "slug": "sakamoto-ryoma",
+  "quote": "세상의 이치가 아무리 변해도 자신의 뜻을 굽히지 말아야 합니다.",
+  "pain": "소속된 영지를 이탈하는 탈번의 죄를 짓고 쫓기는 낭인 신분이 되어, 수많은 자객들의 암살 위협에 시달리며 불안한 삶을 살아야 했다.",
+  "recovery": "목숨을 위협받는 도피 생활 속에서도 탁월한 친화력과 협상력을 발휘하여, 적대 세력을 화해시키고 새로운 근대 국가의 비전을 제시했다.",
+  "lessons": [
+    {
+      "title": "세상의 이치가 아무리 변해도 자신의 뜻을 굽히지 말아야 합니다.",
+      "content": "주변의 시선이나 시대의 유행에 휩쓸리지 마십시오. 당신이 옳다고 믿는 신념이 있다면 어떤 어려움 속에서도 그 길을 꿋꿋이 걸어가야 합니다."
+    },
+    {
+      "title": "사람의 마음을 움직이는 것은 화려한 언변이 아니라 진심입니다.",
+      "content": "다른 사람과 갈등을 겪거나 설득해야 할 때 요령을 피우지 마십시오. 당신의 진실된 행동과 마음만이 가장 단단한 벽을 허물 수 있습니다."
+    },
+    {
+      "title": "과거에 얽매이지 말고 바다 너머 더 넓은 세상을 보십시오.",
+      "content": "지금 당신이 속한 작은 세계나 과거의 원한에 갇혀 있지 마십시오. 더 큰 목표를 향해 시야를 넓힐 때 비로소 진정한 성장을 이룰 수 있습니다."
+    }
+  ],
+  "persona": "당신은 사카모토 료마이다.",
+  "imageUrl": "/images/giants/sakamoto-ryoma.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1836~1867)"
+},
+  {
+  "id": "98",
+  "name": "사라 그림케",
+  "category": "society",
+  "headline": "노예제 폐지론자이자 미국 초기 여성 권리 운동의 선구자로서 인종과 성별의 불평등에 맞서 싸운 활동가이다.",
+  "shortDescription": "사라 그림케의 일대기와 지혜",
+  "slug": "sarah-moore-grimke",
+  "quote": "나는 남성들에게 바라는 것이 없다. 단지 우리의 목을 밟고 있는 그들의 발을 치워주기를 바랄 뿐이다.",
+  "pain": "노예제를 옹호하는 남부 사회의 압박과 여성이 대중 앞에 나서는 것을 금기시하는 편견에 직면했다.",
+  "recovery": "종교적 신념과 확신을 바탕으로 굴하지 않고 연설하며 억압받는 자들을 위한 투쟁을 멈추지 않았다.",
+  "lessons": [
+    {
+      "title": "나는 남성들에게 바라는 것이 없다. 단지 우리의 목을 밟고 있는 그들의 발을 치워주기를 바랄 뿐이다.",
+      "content": "불평등한 구조 속에서 시혜나 온정을 바라기보다, 부당한 차별과 억압 자체를 철폐하기 위해 당당히 맞서십시오."
+    },
+    {
+      "title": "인권이 아닌 다른 어떤 권리도 존재하지 않으며, 여성의 권리와 남성의 권리는 완벽하게 동일하다.",
+      "content": "권리는 성별이나 출신에 의해 부여되는 것이 아니라 모든 인간이 마땅히 누려야 할 보편적 가치임을 기억하십시오."
+    },
+    {
+      "title": "여성을 노예의 상태로 전락시키는 것은 결국 인류 전체의 도덕적 타락을 가져올 뿐이다.",
+      "content": "사회의 한 집단을 억압하는 것은 그 집단뿐만 아니라 억압하는 자들의 영혼과 사회 전체를 파괴한다는 사실을 깨달으십시오."
+    }
+  ],
+  "persona": "당신은 사라 그림케이다.",
+  "imageUrl": "/images/giants/sarah-moore-grimke.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1792~1873)"
+},
+  {
+  "id": "16",
+  "name": "신채호",
+  "category": "society",
+  "headline": "근대 한국의 민족주의 역사학을 확립하고 무정부주의에 입각한 민중 폭력 혁명을 주창한 독립운동가이자 사학자이다.",
+  "shortDescription": "신채호의 일대기와 지혜",
+  "slug": "sin-ch-aeho",
+  "quote": "역사란 아(我)와 비아(非我)의 투쟁의 기록이다.",
+  "pain": "망국이라는 국가적 비극 속에서 끊임없는 일제의 탄압과 혹독한 망명 생활을 견뎌야 했다.",
+  "recovery": "타협을 모르는 지조와 날카로운 필봉으로 민족주의 역사학을 정립하고 항일 투쟁을 멈추지 않았다.",
+  "lessons": [
+    {
+      "title": "역사란 아(我)와 비아(非我)의 투쟁의 기록이다.",
+      "content": "역사는 주체성을 가진 나와 그에 반하는 외부 세력 간의 끊임없는 상호작용임을 인식하고, 자신의 주체를 굳건히 확립하십시오."
+    },
+    {
+      "title": "영토를 잃은 민족은 재생할 수 있어도, 역사를 잃은 민족은 재생할 수 없다.",
+      "content": "아무리 가혹한 현실에 처하더라도 자신이 누구인지에 대한 정체성과 역사적 기억을 결코 잃지 마십시오."
+    },
+    {
+      "title": "강도 일본을 쫓아내려면 오직 혁명으로만 가능하며, 혁명은 오직 민중의 직접적인 폭력으로만 이룰 수 있다.",
+      "content": "부당한 억압과 불의에 맞설 때는 어설픈 타협이나 요행을 바라지 말고, 스스로의 힘과 직접적인 행동으로 쟁취하십시오."
+    }
+  ],
+  "persona": "당신은 신채호이다.",
+  "imageUrl": "/images/giants/sin-ch-aeho.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1880~1936)"
+},
+  {
+  "id": "60",
+  "name": "테쿰세",
+  "category": "society",
+  "headline": "북미 원주민 부족들을 하나로 규합하여 미국의 팽창주의에 맞서 독립된 연합 국가를 세우려 했던 전설적인 지도자이자 전사이다.",
+  "shortDescription": "테쿰세의 일대기와 지혜",
+  "slug": "tecumseh",
+  "quote": "공기나 구름, 거대한 바다를 사고팔 수 없듯이, 어찌 모든 생명에게 주어진 이 땅을 사고팔 수 있단 말인가?",
+  "pain": "미국의 무자비한 영토 확장과 군사적 압박 속에서 원주민의 생존이 위협받는 현실에 직면했다.",
+  "recovery": "뛰어난 외교력과 웅변술로 부족들을 규합하고, 원주민 연합 국가 건설이라는 비전을 향해 최후까지 싸웠다.",
+  "lessons": [
+    {
+      "title": "공기나 구름, 거대한 바다를 사고팔 수 없듯이, 어찌 모든 생명에게 주어진 이 땅을 사고팔 수 있단 말인가?",
+      "content": "자연과 생명의 터전은 특정인의 소유물이 아님을 깨닫고, 이를 파괴하거나 독점하려는 시도에 맞서 공동의 가치를 지켜내십시오."
+    },
+    {
+      "title": "우리가 하나로 뭉치지 않는다면, 저들은 우리를 땔감으로 쓰기 위해 부러뜨리는 나뭇가지처럼 하나씩 하나씩 꺾어버릴 것이다.",
+      "content": "거대한 위협과 부당한 힘에 직면했을 때는 내부의 분열을 멈추고 서로 연대하여 하나의 강력한 힘을 만들어내십시오."
+    },
+    {
+      "title": "죽음의 시간이 다가오면 죽음을 두려워하는 자들처럼 울며 기도하지 말고, 영웅처럼 노래하며 너의 고향으로 돌아가라.",
+      "content": "피할 수 없는 운명이나 시련 앞에서는 비굴하게 굴복하지 말고, 당당하고 의연한 태도로 자신의 존엄성을 지키며 최후를 맞이하십시오."
+    }
+  ],
+  "persona": "당신은 테쿰세이다.",
+  "imageUrl": "/images/giants/tecumseh.jpg",
+  "dnaCode": "LRHI",
+  "era": "19세기의 거인 (1768~1813)"
+},
+  {
+  "id": "462",
+  "name": "왕가리 마타이",
+  "category": "society",
+  "headline": "케냐의 환경 및 여성 운동가로, 나무 심기를 통해 빈곤 퇴치와 민주주의를 실현한 에코페미니즘의 세계적 선구자이다.",
+  "shortDescription": "왕가리 마타이의 일대기와 지혜",
+  "slug": "wangari-maathai",
+  "quote": "우리 모두는 지구라는 아름다운 우주선에 탑승한 승객입니다. 우리는 이 우주선이 파괴되지 않도록 보호해야 할 책임이 있습니다.",
+  "pain": "무분별한 환경 파괴와 여성 차별, 그리고 부패한 독재 정권의 폭력적인 탄압에 직면했다.",
+  "recovery": "나무를 심는 작고 평화로운 행동을 통해 여성들을 결속시키고, 불굴의 용기로 저항을 끝까지 관철했다.",
+  "lessons": [
+    {
+      "title": "우리 모두는 지구라는 아름다운 우주선에 탑승한 승객입니다. 우리는 이 우주선이 파괴되지 않도록 보호해야 할 책임이 있습니다.",
+      "content": "우리가 살아가는 환경이 곧 생존의 기반임을 깊이 인식하고, 미래 세대를 위해 자연을 아끼고 보호하는 일에 앞장서십시오."
+    },
+    {
+      "title": "나무를 심는 것은 희망을 심는 것과 같습니다. 비록 내가 그 나무 그늘 아래 앉지 못할지라도 누군가는 그 혜택을 누릴 것입니다.",
+      "content": "자신의 행동이 당장 눈앞의 보상으로 돌아오지 않더라도, 공동체와 다음 세대를 위해 이타적인 선행의 씨앗을 뿌리십시오."
+    },
+    {
+      "title": "문제의 크기에 압도당하지 마십시오. 나비처럼 작고 연약해 보일지라도, 당신이 할 수 있는 작은 행동을 지금 당장 시작하십시오.",
+      "content": "세상의 거대한 장벽이나 부정적인 현실에 좌절하여 포기하지 말고, 스스로 변화를 만들어낼 수 있는 작은 실천부터 행동으로 옮기십시오."
+    }
+  ],
+  "persona": "당신은 왕가리 마타이이다.",
+  "imageUrl": "/images/giants/wangari-maathai.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1940~2011)"
+},
+  {
+  "id": "219",
+  "name": "보이테크",
+  "category": "society",
+  "headline": "제2차 세계 대전 당시 폴란드 군대의 정식 군인으로 복무하며 포탄을 나르고 병사들의 사기를 높인 전설적인 곰이다.",
+  "shortDescription": "보이테크의 일대기와 지혜",
+  "slug": "wojtek",
+  "quote": "(보이테크는 말을 남기지 않았으나, 그의 생애 자체가 교훈을 남깁니다.) 종과 언어가 다를지라도 진실한 사랑과 신뢰는 모든 장벽을 뛰어넘을 수 있습니다.",
+  "pain": "어미를 잃고 고아가 된 곰으로 전쟁터에 던져졌고, 참혹한 전투와 공포를 병사들과 똑같이 겪어야 했다.",
+  "recovery": "인간을 향한 절대적인 신뢰를 바탕으로 병사들의 상처를 치유하고 전선의 영웅으로 활약했다.",
+  "lessons": [
+    {
+      "title": "(보이테크는 말을 남기지 않았으나, 그의 생애 자체가 교훈을 남깁니다.) 종과 언어가 다를지라도 진실한 사랑과 신뢰는 모든 장벽을 뛰어넘을 수 있습니다.",
+      "content": "타인과 소통할 때 편견이나 겉모습에 얽매이지 말고, 진심 어린 애정과 공감으로 상대방의 마음을 열어젖히십시오."
+    },
+    {
+      "title": "(그가 포화 속에서 포탄을 날랐던 모습은 우리에게 말해줍니다.) 두려움의 순간에도 내가 할 수 있는 작은 역할에 묵묵히 헌신하십시오.",
+      "content": "모두가 두려움에 빠져 혼란스러운 상황일수록, 자신이 속한 공동체를 위해 책임감을 다하는 용기를 보여주십시오."
+    },
+    {
+      "title": "(전쟁 후 철창 안에서도 옛 전우들에게 경례로 화답했던 모습은 이 사실을 일깨워줍니다.) 우정과 연대의 기억은 구속 속에서도 잊혀지지 않습니다.",
+      "content": "어려운 시절을 함께 견뎌낸 사람들과의 유대를 소중히 여기고, 상황이 변하더라도 그 의리를 끝까지 지켜나가십시오."
+    }
+  ],
+  "persona": "당신은 보이테크이다.",
+  "imageUrl": "/images/giants/wojtek.jpg",
+  "dnaCode": "LRHI",
+  "era": "20세기의 거인 (1942~1963)"
+}
 ];

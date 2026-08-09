@@ -7,15 +7,21 @@
   "wisdom": [
     {
       "quote_ko": "과학에서 측정할 수 없고 숫자로 표현할 수 없는 것은 지식이 아닙니다.",
-      "meaning_ko": "어떤 현상을 제대로 이해하려면 단순히 눈으로 관찰하는 것에 그치지 말고, 정확한 측정과 수치화를 통해 객관적이고 확실한 데이터를 확보하십시오."
+      "meaning_ko": "어떤 현상을 제대로 이해하려면 단순히 눈으로 관찰하는 것에 그치지 말고, 정확한 측정과 수치화를 통해 객관적이고 확실한 데이터를 확보하십시오.",
+      "quote_en": "In physical science the first essential step in the direction of learning any subject is to find numerical methods and proper devices for measuring something connected with it.",
+      "meaning_en": "To truly understand any phenomenon, do not stop at superficial observation; secure objective and definite data through precise measurement and quantification."
     },
     {
       "quote_ko": "우리는 아직 배울 것이 너무나 많다는 사실을 인정할 때 비로소 진정한 발견의 길로 들어설 수 있습니다.",
-      "meaning_ko": "자신이 이미 모든 것을 알고 있다는 낡은 오만함을 버리고, 늘 겸손한 태도로 끊임없이 호기심을 가지며 새로운 지식을 탐구하십시오."
+      "meaning_ko": "자신이 이미 모든 것을 알고 있다는 낡은 오만함을 버리고, 늘 겸손한 태도로 끊임없이 호기심을 가지며 새로운 지식을 탐구하십시오.",
+      "quote_en": "When you can measure what you are speaking about, and express it in numbers, you know something about it; but when you cannot measure it, your knowledge is of a meager and unsatisfactory kind.",
+      "meaning_en": "Discard the arrogance of believing you already know everything, and constantly seek new knowledge with humility and endless curiosity."
     },
     {
       "quote_ko": "가장 고귀한 과학적 발견도 결국 인류의 삶을 이롭게 하는 데 쓰여야 그 진정한 가치를 지닙니다.",
-      "meaning_ko": "머릿속의 뛰어난 아이디어를 현실의 문제를 해결하는 데 적극적으로 활용하고, 이론적인 지식이 세상을 변화시키는 실질적인 힘이 되도록 노력하십시오."
+      "meaning_ko": "머릿속의 뛰어난 아이디어를 현실의 문제를 해결하는 데 적극적으로 활용하고, 이론적인 지식이 세상을 변화시키는 실질적인 힘이 되도록 노력하십시오.",
+      "quote_en": "The grandest scientific discoveries only achieve true value when applied to benefit human life.",
+      "meaning_en": "Actively apply brilliant ideas to solve real-world problems, striving to make theoretical knowledge a practical force for changing the world."
     }
   ],
   "fact_box": {
@@ -26,5 +32,18 @@
       "선박용 정밀 나침반과 조수 예측기를 발명하여 해양 항해의 안전성을 획기적으로 개선하고 실용화했다."
     ],
     "legacy_statement": "이론 물리학의 심오한 진리를 실생활의 유용한 공학 기술로 완벽하게 융합시킨 선구자로, 영국 과학자 최초로 귀족 반열에 오른 불멸의 거장이다."
+  },
+  "era_en": "19th Century Giant (1824~1907)",
+  "epic_en": "William Thomson, later widely known as Lord Kelvin, was born in 1824 in Belfast, Ireland, and left an overwhelming, enduring mark on mathematics and physics. Thanks to the rigorous and dedicated instruction of his father, a professor of mathematics, he demonstrated exceptional mathematical talent from a very early age, matriculating at the University of Glasgow at the astonishing age of ten. After finishing his studies there, he proceeded to the University of Cambridge to delve into the essence of mathematics, and at the young age of twenty-two, was appointed Professor of Natural Philosophy at the University of Glasgow—a position he held for an incredible 53 years. Rather than merely teaching theory from the lectern, he established the first physical laboratory for students to encourage empirical research, overcoming contemporary British physics' over-reliance on mathematical abstraction and establishing a solid foundation for modern physics education where theory and experiment harmonized perfectly.\n\nHis most brilliant scientific achievements occurred in thermodynamics, unlocking the nature of heat and energy. At the time, the caloric theory—viewing heat as an invisible fluid—was widespread, but Thomson, deeply inspired by James Prescott Joule's experiments, realized that heat was a form of kinetic energy. Through close collaboration with Joule, Thomson contributed decisively to mathematically formulating the First and Second Laws of Thermodynamics, introducing for the first time the clear concept of energy dissipation—that while energy is conserved, useful energy gradually dissipates into unusable thermal energy. Crucially in 1848, based on the concept of absolute zero where gas volume theoretically becomes zero, he proposed an absolute temperature scale independent of specific material properties. This temperature system was later named Kelvin (K) after his title and remains an indispensable international standard unit in scientific research and industry worldwide.\n\nAs a remarkable physicist and outstanding inventor, he developed practical instruments that dramatically improved maritime safety, directly benefiting human lives. When the introduction of iron ships caused severe compass interference due to ship magnetic fields, he designed an entirely new ship compass capable of precise calibration, transforming maritime navigation. Furthermore, he invented the Tide Predicting Machine—an early analog computer that accurately calculated complex marine tides—contributing immensely to port operations and safe vessel navigation. Intriguing as well, he applied heat conduction equations to calculate Earth's cooling rate to estimate the age of the Earth and the universe. Though lacking knowledge of radioactive decay as an internal heat source led him to underestimate Earth's age to tens of millions of years—sparking intense debates with supporters of Charles Darwin's evolutionary theory—his rigorous physical approach served as a vital stepping stone for geophysics.\n\nLord Kelvin published over 660 scientific papers and filed over 70 innovative patents throughout his life, demonstrating unflagging intellectual curiosity and zeal for learning. While he played a key role in completing the grand edifice of 19th-century classical physics, he exhibited conservative skepticism toward revolutionary late-19th-century discoveries like X-rays and radioactivity, illustrating the limitations of his era. Nevertheless, his pure passion for truth and scientific achievements remain timelessly immortal. When he passed away in 1907 at age 83, the British monarch and countless scientists mourned deeply, and he was laid to rest in Westminster Abbey in London beside Sir Isaac Newton. Unifying the profound truths of theoretical physics with practical real-world technology to accelerate human civilization, he is forever recorded in history as the greatest pioneer who bridged science and engineering.",
+  "trials_en": "When participating in the unprecedented project of laying the transatlantic telegraph cable, he faced severe criticism following numerous failures and immense financial losses caused by deep-sea pressures and signal loss.",
+  "overcoming_en": "Refusing to give up, he rigorously analyzed signal transmission principles mathematically and invented the mirror galvanometer to detect tiny electrical currents, miraculously completing the communications network linking two continents.",
+  "fact_box_en": {
+    "one_line_summary": "A great 19th-century physicist who established the laws of thermodynamics, introduced absolute temperature, and solved engineering challenges like transatlantic cable laying.",
+    "key_achievements": [
+      "Mathematically formulated the First and Second Laws of Thermodynamics and established the Absolute Temperature (K) scale, laying the foundation of modern physics.",
+      "Invented the ultra-sensitive mirror galvanometer, leading the historic transatlantic submarine telegraph cable project to success and sparking a global communications revolution.",
+      "Invented precision marine compasses and tide predicting machines, dramatically improving and practicalizing maritime navigation safety."
+    ],
+    "legacy_statement": "An immortal master who seamlessly fused the deep truths of theoretical physics with useful practical engineering, becoming the first British scientist raised to the peerage."
   }
 }
