@@ -1,13 +1,11 @@
 "use client"
 
 import { useState } from "react"
-import { MessageCircle, Sparkles } from "lucide-react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import GiantAvatar from "@/components/GiantAvatar"
 import { Link } from "@/i18n/routing"
 import type { Giant } from "@/lib/giants-data"
-import { useGiantHistory } from "@/hooks/useGiantHistory"
 
 interface GiantCardProps {
   giant: Giant
@@ -18,17 +16,11 @@ interface GiantCardProps {
 export function GiantCard({ giant, index, dbData }: GiantCardProps) {
   const t = useTranslations("Giants")
   const gt = useTranslations("GiantsGrid")
-  const { hasChattedWith } = useGiantHistory()
-  const chatted = hasChattedWith(giant.slug)
-  const [isHovered, setIsHovered] = useState(false)
   const [imageError, setImageError] = useState(false)
 
-  // Helper to get translated text with fallback to raw data
   const getTranslation = (key: string, fallback: string) => {
     try {
       const translated = t(key);
-      // Detect untranslated: next-intl returns key path like "Giants.albert-einstein.name"
-      // We check exact equality with the namespaced key, OR if result starts with Giants.<slug>.
       const namespacedKey = `Giants.${key}`;
       const slugPrefix = `Giants.${giant.id}.`;
       
@@ -44,54 +36,39 @@ export function GiantCard({ giant, index, dbData }: GiantCardProps) {
   }
   
   const name = getTranslation(`${giant.id}.name`, giant.name)
-  const headline = getTranslation(`${giant.id}.headline`, giant.title)
+  const rawEra = dbData?.era || getTranslation(`${giant.id}.era`, giant.era)
   
-  return (
-    <Link
-      href={`/giant/${giant.slug}`}
-      className={`group relative glass-card rounded-2xl cursor-pointer transition-all duration-500 hover:scale-[1.02] hover:bg-white/[0.02] hover:border-amber-500/30 animate-fade-in-up overflow-hidden flex flex-col h-full items-center text-center`}
-      style={{ animationDelay: `${index * 50}ms` }}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      {chatted && (
-        <span className="absolute top-4 right-4 w-6 h-6 rounded-full bg-amber-500 flex items-center justify-center text-xs text-black font-extrabold z-10 shadow-md shadow-black/35">
-          ✓
-        </span>
-      )}
+  const regionText = giant.region ? gt(`regions.${giant.region}`) : '';
+  const centuryMatch = rawEra.match(/(\d+)(세기|th century| century|c)/i);
+  const centuryText = centuryMatch ? `${centuryMatch[1]}C` : '';
+  const formattedEra = [regionText, centuryText].filter(Boolean).join(' ');
 
-      {/* Header Image */}
-      <div className="flex justify-center pt-8 pb-4 shrink-0">
-        <div className="relative w-40 h-40 transition-all">
+  return (
+    <Link href={`/giant/${giant.slug}`} className="block cursor-pointer outline-none">
+      <article className="group">
+        <div className="relative w-full aspect-square bg-[#161614] rounded-[12px] mb-[7px] transition-all hover:outline hover:outline-1 hover:outline-[#3A362E] overflow-hidden">
           {!imageError ? (
             <Image 
               src={giant.imageUrl} 
               alt={name}
               fill
-              sizes="160px"
-              className="object-contain transition-transform duration-700 group-hover:scale-105 drop-shadow-xl"
+              sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 15vw"
+              className="object-contain"
               onError={() => setImageError(true)}
             />
           ) : (
-            <div className="w-full h-full flex items-center justify-center bg-transparent">
-              <GiantAvatar slug={giant.slug} category={giant.category} size={120} />
+            <div className="w-full h-full flex items-center justify-center">
+              <GiantAvatar slug={giant.slug} category={giant.category} size={80} />
             </div>
           )}
         </div>
-      </div>
-
-      {/* Content */}
-      <div className="p-6 pt-2 flex flex-col flex-1 w-full items-center">
-        <div className="mb-2">
-          <span className="px-3 py-1 text-[10px] uppercase tracking-widest rounded-full border border-amber-500/20 text-amber-500/80 font-medium mb-4 inline-block">
-            {gt(`categories.${giant.category}`)}
-          </span>
-          <h3 className="font-serif text-xl font-medium text-foreground group-hover:text-amber-200 transition-colors leading-snug">
-            {name}
-          </h3>
-          <p className="text-sm text-muted-foreground mt-2 line-clamp-2 max-w-[200px] mx-auto">{headline}</p>
-        </div>
-      </div>
+        <h3 className="font-serif text-[13px] font-normal leading-[1.35] text-[#E8E0D0] m-0 mb-[2px]">
+          {name}
+        </h3>
+        <p className="text-[11px] text-[#7A7365] m-0 whitespace-nowrap overflow-hidden text-ellipsis">
+          {formattedEra || rawEra}
+        </p>
+      </article>
     </Link>
   )
 }
