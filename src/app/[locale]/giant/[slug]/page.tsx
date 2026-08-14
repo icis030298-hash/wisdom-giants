@@ -373,8 +373,8 @@ export default async function GiantDetailPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: locale === 'ko' ? '홈' : locale === 'it' ? 'Home' : locale === 'pt' ? 'Início' : 'Home', item: `${BASE_URL}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: locale === 'ko' ? '거인들의 전당' : locale === 'it' ? 'Sala delle Grandi Menti' : locale === 'pt' ? 'Salão das Grandes Mentes' : 'Hall of Giants', item: `${BASE_URL}/${locale}#giants` },
+      { '@type': 'ListItem', position: 1, name: tUI('home'), item: `${BASE_URL}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: tUI('hallOfGiants'), item: `${BASE_URL}/${locale}#giants` },
       { '@type': 'ListItem', position: 3, name: giantTranslation.name || giant.name, item: `${BASE_URL}/${locale}/giant/${giant.slug}` },
     ],
   };
