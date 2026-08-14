@@ -1,0 +1,170 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   Redesign token layer — DEFINITIONS ONLY
+   ─────────────────────────────────────────────────────────────────────────────
+
+   Nothing in this file is applied to any element. Every declaration here is a
+   custom property; custom properties have no rendering effect until something
+   references them with var(). No selector in this file sets a real CSS
+   property, so including it cannot change the current output.
+
+   ── Why the --rd- prefix ────────────────────────────────────────────────────
+   The redesign spec names one token `--border`, and globals.css already
+   defines `--border: rgba(148,163,184,0.2)`, which is wired into Tailwind via
+   `@theme inline { --color-border: var(--border) }` and applied globally by
+   `@layer base { * { @apply border-border } }`. Redefining that name on :root
+   would silently repaint every border on the site cream.
+
+   Rather than special-case one token, the whole set carries an `--rd-` prefix.
+   The mapping to the spec names is 1:1 — drop the prefix and you have the spec:
+
+     --rd-bg-base        <-  --bg-base
+     --rd-surface        <-  --surface
+     --rd-text-ink       <-  --text-ink
+     --rd-text-body      <-  --text-body
+     --rd-text-muted     <-  --text-muted
+     --rd-accent-brown   <-  --accent-brown
+     --rd-border         <-  --border      (the collision)
+     --rd-divider-faint  <-  --divider-faint
+
+   Stage 2 removes the legacy dark theme; at that point the prefix can be
+   dropped in one pass (`--rd-` -> ``) with no ambiguity.
+
+   Only `--border` actually collided; the other seven names are currently
+   unused in the codebase. The prefix is applied uniformly for consistency.
+   ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── B-1. Color ───────────────────────────────────────────────────────── */
+  --rd-bg-base: #faf7f0; /* page background, every page */
+  --rd-surface: #fffdf8; /* cards, inputs, chips */
+  --rd-text-ink: #2a2320; /* names, titles          contrast 15.3:1 */
+  --rd-text-body: #4a3f38; /* body copy              contrast  9.5:1 */
+  --rd-text-muted: #6b5d52; /* dates, captions        contrast  5.9:1 — never body */
+  --rd-accent-brown: #6b3f2a; /* headings, links, rules contrast  8.3:1 */
+  --rd-border: #e3dacb; /* card border, header rule (1px) */
+  --rd-divider-faint: #efe8da; /* table row rules, thumbnail placeholders */
+
+  /* ── B-2. Type scale ──────────────────────────────────────────────────────
+     Each step carries its own tracking and leading. There is deliberately no
+     global letter-spacing: a single value is wrong at some size.
+     Sizes are rem so they follow the user's text-size setting.
+     Desktop values here; the mobile overrides live in the media query below. */
+
+  /* display — giant detail name */
+  --rd-display-size: 2.75rem; /* 44px */
+  --rd-display-weight: 600;
+  --rd-display-tracking: -0.02em;
+  --rd-display-leading: 1.15;
+
+  /* h1 — main intro heading */
+  --rd-h1-size: 1.75rem; /* 28px */
+  --rd-h1-weight: 600;
+  --rd-h1-tracking: -0.015em;
+  --rd-h1-leading: 1.25;
+
+  /* lede — one-line intro, set in accent brown */
+  --rd-lede-size: 1.1875rem; /* 19px */
+  --rd-lede-weight: 400;
+  --rd-lede-tracking: 0;
+  --rd-lede-leading: 1.6;
+
+  /* body-lg — detail page narrative */
+  --rd-body-lg-size: 1.1875rem; /* 19px */
+  --rd-body-lg-weight: 400;
+  --rd-body-lg-tracking: 0;
+  --rd-body-lg-leading: 1.85;
+
+  /* body — main intro paragraph */
+  --rd-body-size: 0.96875rem; /* 15.5px */
+  --rd-body-weight: 400;
+  --rd-body-tracking: 0;
+  --rd-body-leading: 1.7;
+
+  /* card-name */
+  --rd-card-name-size: 1.0625rem; /* 17px */
+  --rd-card-name-weight: 600;
+  --rd-card-name-tracking: -0.005em;
+  --rd-card-name-leading: 1.35;
+
+  /* card-intro */
+  --rd-card-intro-size: 0.875rem; /* 14px */
+  --rd-card-intro-weight: 400;
+  --rd-card-intro-tracking: 0;
+  --rd-card-intro-leading: 1.6;
+
+  /* caption — dates, counts, filters, meta */
+  --rd-caption-size: 0.78125rem; /* 12.5px */
+  --rd-caption-weight: 400;
+  --rd-caption-tracking: 0.02em;
+  --rd-caption-leading: 1.5;
+
+  /* category — card era/field label */
+  --rd-category-size: 0.75rem; /* 12px */
+  --rd-category-weight: 600;
+  --rd-category-tracking: 0;
+  --rd-category-leading: 1.5;
+
+  /* sidebar-label — timeline / achievements / FAQ block titles */
+  --rd-sidebar-label-size: 0.8125rem; /* 13px */
+  --rd-sidebar-label-weight: 600;
+  --rd-sidebar-label-tracking: 0;
+  --rd-sidebar-label-leading: 1.5;
+
+  /* ── B-3. Script-specific body leading ────────────────────────────────────
+     Default. The [lang] rules below raise it for scripts with tall
+     ascenders/descenders and lower it for CJK. */
+  --rd-leading-body: 1.85;
+
+  /* ── B-4. Layout constants (desktop) ──────────────────────────────────── */
+  --rd-container: 75rem; /* 1200px */
+  --rd-grid-columns: 5;
+  --rd-grid-gutter: 1.25rem; /* 20px */
+  --rd-card-width: 14rem; /* 224px */
+  --rd-card-pad-top: 0.8125rem; /* 13px */
+  --rd-card-pad-x: 0.9375rem; /* 15px */
+  --rd-card-pad-bottom: 0.9375rem; /* 15px */
+  --rd-card-radius: 0.1875rem; /* 3px */
+
+  /* detail page */
+  --rd-detail-main: 47.5rem; /* 760px */
+  --rd-detail-sidebar: 20rem; /* 320px */
+  --rd-detail-gap: 3.5rem; /* 56px */
+  --rd-portrait-width: 7rem; /* 112px */
+  --rd-portrait-height: 8.75rem; /* 140px */
+}
+
+/* ── B-2/B-4. Mobile overrides (375px reference frame) ──────────────────── */
+@media (max-width: 767px) {
+  :root {
+    --rd-display-size: 1.875rem; /* 30px */
+    --rd-h1-size: 1.3125rem; /* 21px */
+    --rd-lede-size: 1.03125rem; /* 16.5px */
+    --rd-body-lg-size: 1.0625rem; /* 17px */
+    --rd-body-lg-leading: 1.8;
+    --rd-card-name-size: 1rem; /* 16px */
+    --rd-card-intro-size: 0.84375rem; /* 13.5px */
+    --rd-category-size: 0.71875rem; /* 11.5px */
+
+    --rd-page-pad-x: 1rem; /* 16px */
+    --rd-grid-gutter: 0.75rem; /* 12px */
+    --rd-grid-columns: 2;
+    --rd-card-width: 10.34375rem; /* 165.5px */
+    --rd-card-pad-top: 0.75rem; /* 12px */
+    --rd-card-pad-x: 0.8125rem; /* 13px */
+    --rd-card-pad-bottom: 0.8125rem; /* 13px */
+  }
+}
+
+/* ── B-3. Scripts with tall ascenders/descenders need more leading ──────── */
+:root:lang(th),
+:root:lang(hi),
+:root:lang(ne) {
+  --rd-leading-body: 2.05;
+}
+
+/* ── B-3. CJK sits on a tighter line ────────────────────────────────────── */
+:root:lang(ko),
+:root:lang(ja),
+:root:lang(zh) {
+  --rd-leading-body: 1.85;
+}
