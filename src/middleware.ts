@@ -1,8 +1,15 @@
 import { updateSession } from '@/utils/supabase/middleware'
 import { NextRequest, NextResponse } from 'next/server'
+import removedGiants from '@/config/removed-giants.json'
 
 const LOCALES = ['ko', 'en', 'ar', 'zh', 'nl', 'fr', 'de', 'el', 'ha', 'he', 'hi', 'id', 'it', 'ja', 'fa', 'pl', 'pt', 'ru', 'es', 'sw', 'th', 'tr', 'uk', 'vi'] as const;
 const DEFAULT_LOCALE = 'ko';
+
+// Giants removed in 2026-08 (no fact layer, no dedicated illustration).
+// The route would otherwise render its not-found page with HTTP 200, i.e. a soft
+// 404 across 24 locales. 410 tells crawlers the removal is deliberate.
+const removedGiantsSet = new Set<string>(removedGiants);
+const GIANT_PATH = /^\/([a-z]{2})\/giant\/([a-z0-9-]+)\/?$/;
 
 function detectLocale(acceptLanguage: string): string {
   if (!acceptLanguage) return DEFAULT_LOCALE;
@@ -42,6 +49,15 @@ export default async function middleware(request: NextRequest) {
 
   if (isStaticOrApi) {
     return NextResponse.next();
+  }
+
+  // Permanently removed giants: answer 410 Gone instead of a soft 404.
+  const giantMatch = pathname.match(GIANT_PATH);
+  if (giantMatch && removedGiantsSet.has(giantMatch[2])) {
+    return new NextResponse(null, {
+      status: 410,
+      headers: { 'x-robots-tag': 'noindex' },
+    });
   }
 
   // Check if pathname already has a valid locale prefix
