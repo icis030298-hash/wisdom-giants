@@ -2,13 +2,11 @@
 
 import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
-import { useSearchParams } from "next/navigation"
 import { m, AnimatePresence } from "framer-motion"
 import { ChatInterface } from "@/components/chat-interface"
 import { useTranslations, useLocale } from "next-intl"
-import { useRouter, Link } from "@/i18n/routing"
+import { useRouter, usePathname, Link } from "@/i18n/routing"
 import { 
-  ArrowLeft,
   MessageCircle,
   Sparkles,
   History,
@@ -98,16 +96,26 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
   const [isChatOpen, setIsChatOpen] = useState(false)
   const [showMatchOverlay, setShowMatchOverlay] = useState(false)
   const [imageError, setImageError] = useState(false)
-  const [currentParaIdx, setCurrentParaIdx] = useState(0)
   const router = useRouter()
   const locale = useLocale()
   const activeLocale = (locale === 'ko' ? 'ko' : locale === 'de' ? 'de' : locale === 'ja' ? 'ja' : 'en') as 'ko' | 'en' | 'de' | 'ja';
   const tt = useTranslations("Test")
-  const searchParams = useSearchParams()
-  const chatParam = searchParams.get('chat')
-  const chatId = searchParams.get('chatId')
-  const mode = searchParams.get('mode')
-  const dna = searchParams.get('dna')
+  // Query params are read from the browser instead of useSearchParams() on purpose:
+  // useSearchParams() opts this entire subtree out of prerendering, which stripped the
+  // narrative, trials, wisdom and fact-layer text out of the server-rendered HTML.
+  // All params below only drive modals/overlays that start closed, so resolving them
+  // one tick after hydration is harmless.
+  const pathname = usePathname()
+  const [queryParams, setQueryParams] = useState(() => new URLSearchParams())
+
+  useEffect(() => {
+    setQueryParams(new URLSearchParams(window.location.search))
+  }, [pathname])
+
+  const chatParam = queryParams.get('chat')
+  const chatId = queryParams.get('chatId')
+  const mode = queryParams.get('mode')
+  const dna = queryParams.get('dna')
 
   // Related Giants Logic: filter by same category, exclude current giant, show 3 random
   const currentCategory = giant.category;
@@ -159,10 +167,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
 
   // Automatically open chat if redirected from chat history or problem consult
   useEffect(() => {
-    if (chatParam === 'true' || searchParams.get('problem')) {
+    if (chatParam === 'true' || queryParams.get('problem')) {
       setIsChatOpen(true)
     }
-  }, [chatParam, searchParams])
+  }, [chatParam, queryParams])
 
   // Initialize Kakao SDK safely
   useEffect(() => {
@@ -511,30 +519,6 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
           {/* 1. Epic Narrative Section */}
           {epicContent && (() => {
             const paragraphs = parseParagraphs(epicContent).filter(Boolean);
-            const totalParas = paragraphs.length;
-
-            const handlePrev = () => {
-              if (currentParaIdx > 0) {
-                setCurrentParaIdx(currentParaIdx - 1);
-              }
-            };
-
-            const handleNext = () => {
-              if (currentParaIdx < totalParas - 1) {
-                setCurrentParaIdx(currentParaIdx + 1);
-              }
-            };
-
-            const scrollToChat = () => {
-              const chatButton = document.querySelector('button[onClick*="setIsChatOpen(true)"]');
-              if (chatButton) {
-                chatButton.scrollIntoView({ behavior: 'smooth', block: 'center' });
-              } else {
-                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-              }
-            };
-
-            const currentParagraph = paragraphs[currentParaIdx];
 
             return (
               <section className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
@@ -546,84 +530,47 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 </div>
                 
                 {/* Story Card Wrapper */}
-                <div className="glass-card p-6 md:p-12 lg:p-16 rounded-2xl md:rounded-[3rem] border border-white/[0.08] bg-gradient-to-br from-white/[0.05] to-transparent shadow-2xl relative overflow-hidden group min-h-[300px] flex flex-col justify-center">
+                <div className="glass-card p-6 md:p-12 lg:p-16 rounded-2xl md:rounded-[3rem] border border-white/[0.08] bg-gradient-to-br from-white/[0.05] to-transparent shadow-2xl relative overflow-hidden group">
                   <div className="absolute -top-20 -right-20 w-64 h-64 bg-amber-500/[0.02] rounded-full blur-[100px]" />
                   
-                  <div className="relative z-10 max-w-2xl mx-auto w-full">
-                    <AnimatePresence mode="wait">
-                      <m.div
-                        key={currentParaIdx}
-                        initial={{ opacity: 0, x: 15 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: -15 }}
-                        transition={{ duration: 0.35, ease: "easeInOut" }}
-                      >
-                        {currentParaIdx === 0 ? (() => {
-                          let cleaned = currentParagraph.trim();
-                          cleaned = cleaned.replace(/^[\s*#_~`‘“"'"]+/g, '');
-                          cleaned = cleaned.replace(/\*\*/g, '').replace(/\*/g, '');
-                          
-                          const firstLetter = cleaned.substring(0, 1);
-                          const restOfText = cleaned.substring(1);
-                          
-                          return (
-                            <p className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep break-words ${alignClass}`}>
-                              <span className={`text-5xl md:text-6xl font-serif text-amber-400 font-black leading-none mt-1 md:mt-2 ${
-                                isRTL ? 'ml-3 md:ml-4 float-right' : 'mr-3 md:mr-4 float-left'
-                              }`}>
-                                {firstLetter}
-                              </span>
-                              {restOfText}
-                            </p>
-                          );
-                        })() : (
-                          <p className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep break-words ${alignClass}`}>
-                            {currentParagraph}
+                  {/* All paragraphs are rendered continuously (no pagination) so that
+                      crawlers and non-JS clients receive the full narrative text. */}
+                  <div className="relative z-10 max-w-2xl mx-auto w-full space-y-6 md:space-y-8">
+                    {paragraphs.map((para: string, idx: number) => {
+                      if (idx === 0) {
+                        let cleaned = para.trim();
+                        cleaned = cleaned.replace(/^[\s*#_~`‘“"'"]+/g, '');
+                        cleaned = cleaned.replace(/\*\*/g, '').replace(/\*/g, '');
+
+                        const firstLetter = cleaned.substring(0, 1);
+                        const restOfText = cleaned.substring(1);
+
+                        return (
+                          <p key={idx} className={`text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep break-words ${alignClass}`}>
+                            <span className={`text-5xl md:text-6xl font-serif text-amber-400 font-black leading-none mt-1 md:mt-2 ${
+                              isRTL ? 'ml-3 md:ml-4 float-right' : 'mr-3 md:mr-4 float-left'
+                            }`}>
+                              {firstLetter}
+                            </span>
+                            {restOfText}
                           </p>
-                        )}
-                      </m.div>
-                    </AnimatePresence>
+                        );
+                      }
+
+                      // clear-both keeps the first paragraph's drop cap from bleeding into
+                      // the next paragraph when the opening paragraph is unusually short.
+                      return (
+                        <p key={idx} className={`clear-both text-base md:text-lg lg:text-xl text-slate-200 leading-[2.1] tracking-tight font-normal break-keep break-words ${alignClass}`}>
+                          {para}
+                        </p>
+                      );
+                    })}
                   </div>
                 </div>
 
-                {/* Navigation Controls */}
-                <div className="flex items-center justify-center gap-6 mt-6">
-                  {/* Prev Button */}
-                  <button
-                    onClick={handlePrev}
-                    disabled={currentParaIdx === 0}
-                    className={`flex items-center justify-center w-12 h-12 rounded-full border border-amber-500/20 bg-amber-500/5 text-amber-400 transition-all duration-300 ${
-                      currentParaIdx === 0 
-                        ? 'opacity-0 cursor-default pointer-events-none' 
-                        : 'opacity-40 hover:opacity-100 hover:scale-105 hover:bg-amber-500/10 active:scale-95'
-                    }`}
-                    aria-label="Previous story page"
-                  >
-                    {isRTL ? <ArrowRight className="w-5 h-5" /> : <ArrowLeft className="w-5 h-5" />}
-                  </button>
-
-                  {/* Indicator */}
-                  <span className="text-sm font-mono tracking-widest text-amber-400/80 bg-amber-500/5 px-4 py-1.5 rounded-full border border-amber-500/10">
-                    {String(currentParaIdx + 1).padStart(2, '0')} / {String(totalParas).padStart(2, '0')}
-                  </span>
-
-                  {/* Next / Action Button */}
-                  {currentParaIdx < totalParas - 1 ? (
-                    <button
-                      onClick={handleNext}
-                      className="flex items-center justify-center w-12 h-12 rounded-full border border-amber-500/20 bg-amber-500/5 text-amber-400 transition-all duration-300 opacity-40 hover:opacity-100 hover:scale-105 hover:bg-amber-500/10 active:scale-95"
-                      aria-label="Next story page"
-                    >
-                      {isRTL ? <ArrowLeft className="w-5 h-5" /> : <ArrowRight className="w-5 h-5" />}
-                    </button>
-                  ) : (
-                    <div className="w-12 h-12 opacity-0 pointer-events-none" />
-                  )}
-                </div>
-
-                {/* Open Chat CTA on final page */}
-                {currentParaIdx === totalParas - 1 && (
-                  <div className="flex justify-center animate-in fade-in slide-in-from-top-2 duration-500 mt-2">
+                {/* Open Chat CTA */}
+                {paragraphs.length > 0 && (
+                  <div className="flex justify-center mt-2">
                     <button 
                       onClick={() => setIsChatOpen(true)}
                       className="flex items-center gap-2 px-5 py-2.5 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-300 text-xs font-semibold hover:bg-amber-500/20 hover:border-amber-500/50 hover:scale-105 transition-all shadow-[0_0_15px_rgba(245,158,11,0.1)] active:scale-95 cursor-pointer"
@@ -1031,16 +978,19 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
           onClose={() => {
             setIsChatOpen(false)
             // clean up query parameters to avoid re-opening
-            const newParams = new URLSearchParams(searchParams.toString())
+            const newParams = new URLSearchParams(queryParams.toString())
             newParams.delete('chat')
             newParams.delete('chatId')
             newParams.delete('mode')
             newParams.delete('problem')
             const qs = newParams.toString()
             router.replace(`/giant/${giant.slug}${qs ? `?${qs}` : ''}`, { scroll: false })
+            // pathname is unchanged by this replace, so the sync effect will not re-run:
+            // keep local state aligned with the cleaned URL explicitly.
+            setQueryParams(newParams)
           }}
           initialChatId={chatId || undefined}
-          problemId={searchParams.get('problem') || undefined}
+          problemId={queryParams.get('problem') || undefined}
         />
       )}
 
