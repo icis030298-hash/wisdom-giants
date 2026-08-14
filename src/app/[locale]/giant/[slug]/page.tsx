@@ -14,7 +14,11 @@ import incompleteGiants from '@/config/incomplete-giants.json';
 import { Link } from "@/i18n/routing";
 import { Suspense } from 'react';
 
-export const revalidate = 3600;
+// Giant biographies are effectively static: they only change when the data files
+// change, and a data change ships with a deploy (which invalidates the ISR cache
+// anyway). A 1 hour window meant every one of the ~22,800 locale/giant pages could
+// regenerate 24x/day, which is what drove ISR writes to ~13.4M/month.
+export const revalidate = 604800; // 1 week
 
 const incompleteGiantsSet = new Set(incompleteGiants);
 
@@ -257,7 +261,8 @@ export default async function GiantDetailPage({ params }: Props) {
   const factLayer = factLayerAll[slug] || null;
 
   const messages = await getMessages({ locale });
-  
+  const tUI = await getTranslations({ locale, namespace: 'UI' });
+
   // Find standardized narrative data
   let narrative: any = null;
   try {
@@ -426,13 +431,13 @@ export default async function GiantDetailPage({ params }: Props) {
             <ol className="flex items-center space-x-2 text-xs md:text-sm text-zinc-400 font-sans">
               <li>
                 <Link href="/" className="hover:text-amber-400 transition-colors">
-                  {locale === 'ko' ? '홈' : 'Home'}
+                  {tUI('home')}
                 </Link>
               </li>
               <li className="text-zinc-600">/</li>
               <li>
                 <Link href="/#giants" className="hover:text-amber-400 transition-colors">
-                  {locale === 'ko' ? '거인들의 전당' : 'Hall of Giants'}
+                  {tUI('hallOfGiants')}
                 </Link>
               </li>
               <li className="text-zinc-600">/</li>

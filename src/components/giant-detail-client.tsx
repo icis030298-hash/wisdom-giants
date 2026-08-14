@@ -48,6 +48,7 @@ interface GiantDetailClientProps {
 
 function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related: any; locale: string; getRelatedTranslation: any }) {
   const [imgErr, setImgErr] = useState(false);
+  const tUI = useTranslations("UI");
   return (
     <Link
       href={`/giant/${related.slug}`}
@@ -85,7 +86,7 @@ function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related:
       </p>
       
       <div className="mt-auto w-full py-3.5 rounded-xl bg-amber-500/10 group-hover:bg-amber-500/20 text-amber-300 text-xs font-semibold transition-all border border-amber-500/20 group-hover:border-amber-500/40 text-center flex items-center justify-center gap-1">
-        <span>{locale === 'ko' ? '대서사시 읽기' : 'Read Epic'}</span>
+        <span>{tUI('readEpic')}</span>
         <span className="group-hover:translate-x-1 transition-transform">→</span>
       </div>
     </Link>
@@ -100,6 +101,8 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
   const locale = useLocale()
   const activeLocale = (locale === 'ko' ? 'ko' : locale === 'de' ? 'de' : locale === 'ja' ? 'ja' : 'en') as 'ko' | 'en' | 'de' | 'ja';
   const tt = useTranslations("Test")
+  const tUI = useTranslations("UI")
+  const tNav = useTranslations("Navigation")
   // Query params are read from the browser instead of useSearchParams() on purpose:
   // useSearchParams() opts this entire subtree out of prerendering, which stripped the
   // narrative, trials, wisdom and fact-layer text out of the server-rendered HTML.
@@ -614,7 +617,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 {/* Key Achievements */}
                 <div className="space-y-3 pt-2">
                   <h3 className="text-xs font-bold text-amber-500/60 uppercase tracking-[0.1em]">
-                    {locale === 'ko' ? '핵심 업적' : 'Key Achievements'}
+                    {tUI('keyAchievements')}
                   </h3>
                   <ul className="space-y-3">
                     {narrative.fact_box.key_achievements.map((ach: string, idx: number) => (
@@ -830,7 +833,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 className="w-full py-3.5 rounded-xl border border-white/10 hover:border-white/20 text-stone-300 hover:text-white font-medium text-sm transition-all flex items-center justify-center gap-2 group active:scale-95 bg-white/[0.02] cursor-pointer"
               >
                 <span>🌐</span>
-                <span>{getRelatedTranslation('detail', 'learnMoreWikipedia', locale === 'ko' ? '위키백과에서 알아보기' : 'Learn more on Wikipedia')}</span>
+                <span>{getRelatedTranslation('detail', 'learnMoreWikipedia', tUI('learnMoreOnWikipedia'))}</span>
               </a>
             )}
 
@@ -909,7 +912,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             <div className="w-12 h-12 rounded-full bg-red-500/10 flex items-center justify-center mb-4 text-red-400 group-hover:scale-110 transition-transform">
               <Swords className="w-6 h-6" />
             </div>
-            <h3 className="font-bold text-foreground mb-2">{locale === 'ko' ? '토론방' : 'Debate Room'}</h3>
+            <h3 className="font-bold text-foreground mb-2">{tUI('debateRoom')}</h3>
             <p className="text-xs text-muted-foreground">{locale === 'ko' ? '거인의 사상과 논쟁해보세요' : 'Argue with the giant'}</p>
           </Link>
           <Link
@@ -920,7 +923,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             <div className="w-12 h-12 rounded-full bg-pink-500/10 flex items-center justify-center mb-4 text-pink-400 group-hover:scale-110 transition-transform">
               <MessageCircleHeart className="w-6 h-6" />
             </div>
-            <h3 className="font-bold text-foreground mb-2">{locale === 'ko' ? '고민상담' : 'Counseling'}</h3>
+            <h3 className="font-bold text-foreground mb-2">{tNav('consult')}</h3>
             <p className="text-xs text-muted-foreground">{locale === 'ko' ? '거인에게 해답을 구하세요' : 'Seek answers from the giant'}</p>
           </Link>
           <Link
@@ -931,7 +934,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center mb-4 text-cyan-400 group-hover:scale-110 transition-transform">
               <Dna className="w-6 h-6" />
             </div>
-            <h3 className="font-bold text-foreground mb-2">{locale === 'ko' ? 'DNA 테스트' : 'DNA Test'}</h3>
+            <h3 className="font-bold text-foreground mb-2">{tNav('dnaTest')}</h3>
             <p className="text-xs text-muted-foreground">{locale === 'ko' ? '나와 닮은 거인은?' : 'Find your giant match'}</p>
           </Link>
         </div>
@@ -945,7 +948,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
               <Sparkles className="w-6 h-6 text-amber-400" />
             </div>
             <h2 className="text-3xl font-serif font-bold text-foreground">
-              {locale === 'ko' ? '관련 거인 추천' : 'Recommended Giants'}
+              {tUI('recommendedGiants')}
             </h2>
             <p className="text-sm text-muted-foreground max-w-lg">
               {locale === 'ko' 
@@ -1089,7 +1092,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
 
               {/* 결과 공유하기 */}
               <div className="border-t border-white/10 pt-6 space-y-4">
-                <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold">{locale === 'ko' ? '결과 공유하기' : 'Share Results'}</p>
+                <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold">{tUI('shareResults')}</p>
 
                 {/* Card Type Toggle */}
                 <div className="flex justify-center gap-4 mb-4">
@@ -1102,7 +1105,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     }`}
                   >
                     <span>📱</span>
-                    <span>{locale === 'ko' ? '스토리형 (9:16)' : 'Story (9:16)'}</span>
+                    <span>{tUI('storyFormat')}</span>
                   </button>
                   <button
                     onClick={() => setShareCardType('square')}
