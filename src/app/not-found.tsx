@@ -1,14 +1,7 @@
 import "./globals.css";
 import Link from 'next/link';
 import { Sparkles, ArrowLeft, HelpCircle } from 'lucide-react';
-import { Nanum_Myeongjo } from "next/font/google";
-
-const nanumMyeongjo = Nanum_Myeongjo({
-  weight: ['400', '700', '800'],
-  subsets: ['latin'],
-  variable: '--font-nanum-myeongjo',
-  display: 'swap',
-});
+import { nanumMyeongjo } from "./fonts";
 
 export default function NotFound() {
   return (

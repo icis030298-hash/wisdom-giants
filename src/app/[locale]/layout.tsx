@@ -1,7 +1,7 @@
 import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { giantsData } from "@/data/giants";
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Nanum_Myeongjo, Noto_Sans_Devanagari } from "next/font/google";
+import { playfair, nanumMyeongjo, notoSansDevanagari } from "../fonts";
 import Script from "next/script";
 import { LazyMotion, domAnimation } from "framer-motion";
 import "../globals.css";
@@ -11,26 +11,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-
-const playfair = Playfair_Display({ 
-  subsets: ["latin"],
-  variable: '--font-playfair',
-  display: 'swap',
-});
-
-const nanumMyeongjo = Nanum_Myeongjo({
-  weight: ['400', '700', '800'],
-  subsets: ['latin'],
-  variable: '--font-nanum-myeongjo',
-  display: 'swap',
-});
-
-const notoSansDevanagari = Noto_Sans_Devanagari({
-  weight: ['400', '700'],
-  subsets: ['devanagari'],
-  variable: '--font-devanagari',
-  display: 'swap',
-});
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
