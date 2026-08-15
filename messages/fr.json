@@ -8245,5 +8245,11 @@
     "desc": "La page que vous avez demandée a disparu dans l'histoire, ou l'adresse est incorrecte.",
     "sub": "Retournez à la Salle de la Sagesse et rencontrez les grands géants.",
     "back": "Retour à la Salle des Géants"
+  },
+  "LanguageSwitcher": {
+    "panelTitle": "Choisir la langue",
+    "searchPlaceholder": "Saisir un nom de langue",
+    "currentTag": "Langue actuelle",
+    "noResults": "Aucun résultat"
   }
 }

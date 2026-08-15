@@ -1,7 +1,7 @@
 import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { giantsData } from "@/data/giants";
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Nanum_Myeongjo, Noto_Sans_KR, Noto_Sans_Devanagari } from "next/font/google";
+import { Playfair_Display, Nanum_Myeongjo, Noto_Sans_Devanagari } from "next/font/google";
 import Script from "next/script";
 import { LazyMotion, domAnimation } from "framer-motion";
 import "../globals.css";
@@ -22,13 +22,6 @@ const nanumMyeongjo = Nanum_Myeongjo({
   weight: ['400', '700', '800'],
   subsets: ['latin'],
   variable: '--font-nanum-myeongjo',
-  display: 'swap',
-});
-
-const notoSans = Noto_Sans_KR({
-  weight: ['300', '400', '500', '700', '900'],
-  subsets: ['latin'],
-  variable: '--font-noto-sans',
   display: 'swap',
 });
 
@@ -137,7 +130,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSans.variable} ${notoSansDevanagari.variable} motion-safe:scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+    <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSansDevanagari.variable} motion-safe:scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
         {/* Google Consent Mode v2 — gtag.js보다 먼저 동기 실행되어야 함 */}
         <script

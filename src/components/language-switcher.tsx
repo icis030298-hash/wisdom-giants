@@ -46,33 +46,55 @@ const LOCALES: LocaleEntry[] = [
 
 const SCRIPT_ORDER = ["Latn", "Hang", "Jpan", "Hans", "Arab", "Hebr", "Cyrl", "Grek", "Deva", "Thai"]
 
+// Fallback headings for when Intl.DisplayNames has no script data. Written in
+// the script itself rather than in any one language, so the group is still
+// recognisable to every reader instead of showing a raw "Latn"/"Hang" code.
+const SCRIPT_FALLBACK: Record<string, string> = {
+  Latn: "Aa",
+  Hang: "한글",
+  Jpan: "あ / 漢",
+  Hans: "汉",
+  Arab: "ا ب",
+  Hebr: "א ב",
+  Cyrl: "Аа",
+  Grek: "Αα",
+  Deva: "अ",
+  Thai: "ก",
+}
+
 function useDisplayNames(locale: string) {
   return useMemo(() => {
-    const safe = <T,>(fn: () => T, fallback: T) => {
+    // Intl.DisplayNames coverage varies by engine. Older Android WebViews and
+    // reduced-ICU builds may not support type:"script" at all — the
+    // constructor can throw, or .of() can hand back the raw subtag. Both cases
+    // fall through to the endonym / script sample below so the menu stays
+    // readable instead of showing "Latn" or blowing up on open.
+    const make = (type: "language" | "script") => {
       try {
-        return fn()
+        if (typeof Intl === "undefined" || typeof Intl.DisplayNames !== "function") return null
+        return new Intl.DisplayNames([locale], { type })
       } catch {
-        return fallback
+        return null
       }
     }
-    const language = safe(
-      () => new Intl.DisplayNames([locale], { type: "language" }),
-      null as Intl.DisplayNames | null
-    )
-    const script = safe(
-      () => new Intl.DisplayNames([locale], { type: "script" }),
-      null as Intl.DisplayNames | null
-    )
+    const language = make("language")
+    const script = make("script")
+
+    const resolve = (dn: Intl.DisplayNames | null, code: string) => {
+      if (!dn) return null
+      try {
+        const name = dn.of(code)
+        // A result equal to the input means the engine had no data for it.
+        return name && name !== code ? name : null
+      } catch {
+        return null
+      }
+    }
+
     return {
       // Reads as e.g. "독일어" for a Korean reader, "German" for an English one.
-      languageOf: (code: string) => {
-        const name = safe(() => language?.of(code), undefined)
-        return name && name !== code ? name : null
-      },
-      scriptOf: (code: string) => {
-        const name = safe(() => script?.of(code), undefined)
-        return name && name !== code ? name : null
-      },
+      languageOf: (code: string) => resolve(language, code),
+      scriptOf: (code: string) => resolve(script, code) ?? SCRIPT_FALLBACK[code] ?? null,
     }
   }, [locale])
 }

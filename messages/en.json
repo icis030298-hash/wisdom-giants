@@ -14187,5 +14187,11 @@
     "desc": "The page you requested has vanished into history, or the address is incorrect.",
     "sub": "Return to the Hall of Wisdom and meet the great giants.",
     "back": "Back to Hall of Giants"
+  },
+  "LanguageSwitcher": {
+    "panelTitle": "Select language",
+    "searchPlaceholder": "Type a language name",
+    "currentTag": "Current language",
+    "noResults": "No matches"
   }
 }

@@ -26,8 +26,11 @@
      --rd-border         <-  --border      (the collision)
      --rd-divider-faint  <-  --divider-faint
 
-   Stage 2 removes the legacy dark theme; at that point the prefix can be
-   dropped in one pass (`--rd-` -> ``) with no ambiguity.
+   The prefix stays. Renaming `--rd-border` back to `--border` would mean
+   repainting every border on the site in a single commit, which is not a risk
+   worth taking mid-redesign. The two token sets coexist; once the redesign is
+   finished the legacy set falls out of use on its own and can be deleted in a
+   dedicated cleanup pass.
 
    Only `--border` actually collided; the other seven names are currently
    unused in the codebase. The prefix is applied uniformly for consistency.
@@ -126,8 +129,8 @@
 
      Deliberately not a Tailwind `font-sans` override: `@theme inline` inlines
      that value at build time, so a :lang() rule could never reach it. */
-  --rd-font-sans: 'Pretendard', var(--font-noto-sans), -apple-system,
-    BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  --rd-font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui,
+    Roboto, sans-serif;
 
   /* ── B-4. Layout constants (desktop) ──────────────────────────────────── */
   --rd-container: 75rem; /* 1200px */

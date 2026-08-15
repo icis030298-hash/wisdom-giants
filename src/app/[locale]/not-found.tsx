@@ -1,7 +1,7 @@
 import "../globals.css";
 import Link from 'next/link';
 import { Sparkles, ArrowLeft, HelpCircle } from 'lucide-react';
-import { Nanum_Myeongjo, Noto_Sans_KR } from "next/font/google";
+import { Nanum_Myeongjo } from "next/font/google";
 import { useTranslations } from "next-intl";
 
 const nanumMyeongjo = Nanum_Myeongjo({
@@ -11,18 +11,11 @@ const nanumMyeongjo = Nanum_Myeongjo({
   display: 'swap',
 });
 
-const notoSans = Noto_Sans_KR({
-  weight: ['400', '700', '900'],
-  subsets: ['latin'],
-  variable: '--font-noto-sans',
-  display: 'swap',
-});
-
 export default function NotFound() {
   const t = useTranslations('NotFound');
 
   return (
-    <div className={`bg-[#020617] text-[#f8fafc] font-sans antialiased min-h-screen overflow-x-hidden flex items-center justify-center ${nanumMyeongjo.variable} ${notoSans.variable}`}>
+    <div className={`bg-[#020617] text-[#f8fafc] font-sans antialiased min-h-screen overflow-x-hidden flex items-center justify-center ${nanumMyeongjo.variable}`}>
       <div className="relative w-full max-w-lg px-6 py-12 text-center flex flex-col items-center justify-center z-10">
         {/* Subtle Golden Glow Effects */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-full bg-amber-500/10 blur-[100px] pointer-events-none -z-10" />

@@ -1,7 +1,7 @@
 import "./globals.css";
 import Link from 'next/link';
 import { Sparkles, ArrowLeft, HelpCircle } from 'lucide-react';
-import { Nanum_Myeongjo, Noto_Sans_KR } from "next/font/google";
+import { Nanum_Myeongjo } from "next/font/google";
 
 const nanumMyeongjo = Nanum_Myeongjo({
   weight: ['400', '700', '800'],
@@ -10,16 +10,9 @@ const nanumMyeongjo = Nanum_Myeongjo({
   display: 'swap',
 });
 
-const notoSans = Noto_Sans_KR({
-  weight: ['400', '700', '900'],
-  subsets: ['latin'],
-  variable: '--font-noto-sans',
-  display: 'swap',
-});
-
 export default function NotFound() {
   return (
-    <html lang="en" className={`dark ${nanumMyeongjo.variable} ${notoSans.variable}`}>
+    <html lang="en" className={`dark ${nanumMyeongjo.variable}`}>
       <head>
       </head>
       <body className="bg-[#020617] text-[#f8fafc] font-sans antialiased min-h-screen overflow-x-hidden flex items-center justify-center">
