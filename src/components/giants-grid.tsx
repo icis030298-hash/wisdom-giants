@@ -48,7 +48,11 @@ export function GiantsGrid({ dbCardData }: GiantsGridProps) {
   const [selectedRegion, setSelectedRegion] = useState("all")
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid")
   const [currentPage, setCurrentPage] = useState(1)
-  const ITEMS_PER_PAGE = 12
+  // 5 columns x 5 rows, so the last row is never a partial one. 493 giants
+  // divide into 20 pages with 18 on the last. Kept identical across
+  // breakpoints on purpose: if mobile paged differently, page 3 would point at
+  // different people depending on the device.
+  const ITEMS_PER_PAGE = 25
 
   const regions = [
     "all",
@@ -265,8 +269,8 @@ export function GiantsGrid({ dbCardData }: GiantsGridProps) {
               <Link
                 key={giant.id}
                 href={`/giant/${giant.slug}`}
-                className="p-3 flex items-center gap-4 cursor-pointer transition-colors active:scale-[0.99] block" style={{ background: "var(--rd-surface)", border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}
-                style={{ animationDelay: `${index * 30}ms` }}
+                className="p-3 flex items-center gap-4 cursor-pointer transition-colors active:scale-[0.99] block"
+                style={{ background: "var(--rd-surface)", border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}
               >
                 <div className="relative w-12 h-12 overflow-hidden shrink-0 flex items-center justify-center" style={{ background: "var(--rd-divider-faint)", borderRadius: "var(--rd-card-radius)" }}>
                   <Image 
