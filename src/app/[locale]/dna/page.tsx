@@ -162,7 +162,7 @@ export default function HeritageTestPage() {
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-8">
                 {[
-                  { icon: History, label: "15 Situations" },
+                  { icon: History, label: `${questions.length} Situations` },
                   { icon: Dna, label: "Heritage DNA" },
                   { icon: BrainCircuit, label: "Soul Analysis" },
                   { icon: ShieldCheck, label: `${giants.length}+ Giants` }

@@ -3,6 +3,8 @@
 import { useTranslations, useLocale } from "next-intl"
 import { giants } from "@/lib/giants-data"
 import { useGiantHistory } from "@/hooks/useGiantHistory"
+import { questions } from "@/data/heritage-test"
+import { routing } from "@/i18n/routing"
 
 export function HeroSection() {
   const t = useTranslations("Hero")
@@ -10,12 +12,13 @@ export function HeroSection() {
   const locale = useLocale()
   const { totalChatted } = useGiantHistory()
 
-  // The stats trio already exists in all 24 locales; reusing it as the meta
-  // column avoids inventing new copy.
+  // Every figure is derived, never typed. The header used to claim 24 test
+  // questions while the card below it and /dna both said 15 — a number written
+  // in three places drifts in two of them.
   const meta = [
     { value: `${giants.length}`, label: t("stats.minds") },
-    { value: "24", label: t("stats.questions") },
-    { value: t("stats.freeValue"), label: t("stats.free") },
+    { value: `${questions.length}`, label: t("stats.questions") },
+    { value: `${routing.locales.length}`, label: t("stats.languages") },
   ]
 
   return (
