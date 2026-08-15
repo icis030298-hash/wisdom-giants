@@ -61,9 +61,9 @@ function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related:
   return (
     <Link
       href={`/giant/${related.slug}`}
-      className="group relative rounded-3xl p-6 border rd-hairline hover:rd-hairline transition-all duration-500 flex flex-col h-full hover:scale-[1.02] bg-gradient-to-br from-white/[0.02] to-transparent overflow-hidden animate-fade-in-up"
+      className="group relative rounded-3xl p-6 border rd-hairline hover:opacity-90 transition-all duration-500 flex flex-col h-full hover:scale-[1.02] overflow-hidden animate-fade-in-up"
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-amber-500/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       
       <div className="relative w-full h-44 rounded-2xl overflow-hidden mb-6 bg-muted">
         {!imgErr ? (
@@ -80,10 +80,10 @@ function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related:
             <GiantAvatar slug={related.slug} category={related.category} size={100} />
           </div>
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
+        <div className="absolute inset-0" />
       </div>
       
-      <h3 className="font-serif text-xl font-bold rd-text-ink group-hover:rd-accent transition-colors mb-1">
+      <h3 className="font-serif text-xl font-bold rd-text-ink group-hover:opacity-90 transition-colors mb-1">
         {getRelatedTranslation(related.slug, 'name', related.name)}
       </h3>
       <p className="text-xs rd-accent mb-4 font-medium">
@@ -94,7 +94,7 @@ function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related:
         {getRelatedTranslation(related.slug, 'shortDescription', related.description)}
       </p>
       
-      <div className="mt-auto w-full py-3.5 rounded-xl rd-bg-accent group-hover:rd-bg-accent rd-accent text-xs font-semibold transition-all border rd-hairline group-hover:rd-hairline text-center flex items-center justify-center gap-1">
+      <div className="mt-auto w-full py-3.5 rounded-xl rd-bg-accent group-hover:opacity-90 rd-accent text-xs font-semibold transition-all border rd-hairline group-hover:opacity-90 text-center flex items-center justify-center gap-1">
         <span>{tUI('readEpic')}</span>
         <span className="group-hover:translate-x-1 transition-transform">→</span>
       </div>
@@ -503,14 +503,14 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
   }
 
   return (
-    <div className="bg-background min-h-screen">
+    <div className="min-h-screen">
       <ConditionalAdSense />
       
       {/* Interactive Bar */}
       <div className="max-w-6xl mx-auto px-6 md:px-16 pt-6 pb-2 flex justify-end">
         <button 
           onClick={() => setIsChatOpen(true)}
-          className="flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-lg hover: transition-all transform hover:-translate-y-1 cursor-pointer"
+          className="flex items-center justify-center gap-3 px-8 py-4 rd-bg-accent transition-colors cursor-pointer active:scale-[0.99]"
         >
           <MessageCircle className="w-6 h-6" />
           <span>
@@ -549,7 +549,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 </div>
                 
                 {/* Story Card Wrapper */}
-                <div className="p-6 md:p-12 lg:p-16 rounded-2xl md:rounded-[3rem] border rd-hairline bg-gradient-to-br from-white/[0.05] to-transparent relative overflow-hidden group">
+                <div className="p-6 md:p-12 lg:p-16 rounded-2xl md:rounded-[3rem] border rd-hairline relative overflow-hidden group">
                   <div className="absolute -top-20 -right-20 w-64 h-64 rd-bg-accent rounded-full blur-[100px]" />
                   
                   {/* All paragraphs are rendered continuously (no pagination) so that
@@ -567,8 +567,8 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                         return (
                           <p key={idx} className={`text-base md:text-lg lg:text-xl rd-text-body leading-[2.1] tracking-tight font-normal break-keep break-words ${alignClass}`}>
                             <span className={`text-5xl md:text-6xl font-serif rd-accent font-black leading-none mt-1 md:mt-2 ${
-                              isRTL ? 'ml-3 md:ml-4 float-right' : 'mr-3 md:mr-4 float-left'
-                            }`}>
+ isRTL ? 'ml-3 md:ml-4 float-right' : 'mr-3 md:mr-4 float-left'
+ }`}>
                               {firstLetter}
                             </span>
                             {restOfText}
@@ -592,7 +592,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                   <div className="flex justify-center mt-2">
                     <button 
                       onClick={() => setIsChatOpen(true)}
-                      className="flex items-center gap-2 px-5 py-2.5 rounded-full border rd-hairline rd-bg-accent rd-accent text-xs font-semibold hover:rd-bg-accent hover:rd-hairline hover:scale-105 transition-all active:scale-95 cursor-pointer"
+                      className="flex items-center gap-2 px-5 py-2.5 rounded-full border rd-hairline rd-bg-accent rd-accent text-xs font-semibold hover:opacity-90 hover:opacity-90 hover:scale-105 transition-all active:scale-95 cursor-pointer"
                     >
                       <span>
                         {locale === 'ko' ? (() => {
@@ -621,7 +621,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                   {locale === 'ko' ? '요약 & 주요 업적' : 'Quick Facts & Achievements'}
                 </h2>
               </div>
-              <div className="p-6 md:p-8 rounded-2xl border rd-hairline bg-gradient-to-br from-white/[0.03] to-transparent space-y-6">
+              <div className="p-6 md:p-8 rounded-2xl border rd-hairline space-y-6">
                 {/* One Line Summary */}
                 <div className="space-y-2">
                   <h3 className="text-xs font-bold rd-accent">
@@ -669,7 +669,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 <h2 className="text-sm font-bold">{t.thePain}</h2>
               </div>
               <div className="flex-1 p-6 md:p-8 rounded-2xl md:rounded-[2rem] border rd-hairline rd-bg-surface relative group overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-red-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-3 md:space-y-4">
                   {parseParagraphs(trialsContent).map((p: string, i: number) => (
                     p ? (
@@ -689,7 +689,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 <h2 className="text-sm font-bold">{t.theRecovery}</h2>
               </div>
               <div className="flex-1 p-6 md:p-8 rounded-2xl md:rounded-[2rem] border rd-hairline rd-bg-surface relative group overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/[0.05] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="relative z-10 space-y-3 md:space-y-4">
                   {parseParagraphs(overcomingContent).map((p: string, i: number) => (
                     p ? (
@@ -710,21 +710,21 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 <Lightbulb className="w-8 h-8 rd-accent" />
               </div>
               <h2 className="text-3xl font-serif font-bold rd-text-ink">{t.wisdomLessons}</h2>
-              <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+              <div className="w-24 h-1" />
             </div>
 
             <div className="grid grid-cols-1 gap-4 md:gap-6">
               {wisdomList.length > 0 ? (
                 wisdomList.map((item: any, index: number) => (
-                  <div key={index} className="p-6 md:p-8 rounded-2xl md:rounded-[2rem] border rd-hairline hover:rd-hairline transition-all duration-500 group relative overflow-hidden">
-                    <div className="absolute -top-10 -left-10 w-40 h-40 rd-bg-accent rounded-full group-hover:rd-bg-accent transition-colors" />
+                  <div key={index} className="p-6 md:p-8 rounded-2xl md:rounded-[2rem] border rd-hairline hover:opacity-90 transition-all duration-500 group relative overflow-hidden">
+                    <div className="absolute -top-10 -left-10 w-40 h-40 rd-bg-accent rounded-full group-hover:opacity-90 transition-colors" />
                     
                     <div className="relative z-10">
                       <div className="flex items-center gap-6 mb-6 md:mb-10">
                         <span className="text-4xl md:text-5xl font-black rd-accent select-none">
                           0{index + 1}
                         </span>
-                        <div className="h-px flex-1 bg-gradient-to-r from-amber-500/20 to-transparent" />
+                        <div className="h-px flex-1" />
                       </div>
                       
                       <blockquote className="text-lg md:text-2xl lg:text-3xl font-serif italic rd-accent mb-6 md:mb-10 leading-[1.4] tracking-tight whitespace-pre-wrap">
@@ -732,7 +732,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                       </blockquote>
                       
                       <div className="relative pl-5 md:pl-8">
-                        <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-amber-500/40 to-transparent rounded-full" />
+                        <div className="absolute left-0 top-0 bottom-0 w-1 rounded-full" />
                         <p className="text-sm md:text-base lg:text-lg rd-text-body leading-relaxed font-normal whitespace-pre-wrap">
                           {formatContent(item.meaning)}
                         </p>
@@ -742,7 +742,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 ))
               ) : (
                 (tg.lessons || []).map((lesson: any, index: number) => (
-                  <div key={index} className="p-6 md:p-8 rounded-xl md:rounded-2xl border rd-hairline hover:rd-hairline transition-all group">
+                  <div key={index} className="p-6 md:p-8 rounded-xl md:rounded-2xl border rd-hairline hover:opacity-90 transition-all group">
                     <h3 className="text-lg md:text-xl font-bold rd-text-ink mb-2">{lesson.title}</h3>
                     <p className="text-sm md:text-base rd-text-muted leading-relaxed">
                       {lesson.content}
@@ -783,7 +783,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 href={wikipediaUrl}
                 target="_blank"
                 rel="nofollow noopener noreferrer"
-                className="w-full py-3.5 rounded-xl border rd-hairline hover:rd-hairline rd-text-muted hover:rd-text-ink font-medium text-sm transition-all flex items-center justify-center gap-2 group active:scale-95 rd-bg-surface cursor-pointer"
+                className="w-full py-3.5 rounded-xl border rd-hairline hover:opacity-90 rd-text-muted hover:opacity-90 font-medium text-sm transition-all flex items-center justify-center gap-2 group active:scale-95 rd-bg-surface cursor-pointer"
               >
                 <span>🌐</span>
                 <span>{getRelatedTranslation('detail', 'learnMoreWikipedia', tUI('learnMoreOnWikipedia'))}</span>
@@ -874,7 +874,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             <h2 className="text-3xl font-serif font-bold rd-text-ink">
               {giantBlogLink.title}
             </h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+            <div className="w-24 h-1" />
           </div>
 
           <div className="space-y-3 max-w-3xl mx-auto">
@@ -894,10 +894,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 <Link
                   href={`/blog/${post.slug}`}
                   key={post.slug}
-                  className="flex items-start gap-4 p-4 rounded-xl bg-stone-900/50 border border-stone-800 hover:rd-hairline transition-colors group"
+                  className="flex items-start gap-4 p-4 rounded-xl rd-bg-surface border rd-hairline hover:opacity-90 transition-colors group"
                 >
                   <div className="flex-1">
-                    <p className="rd-text-ink text-sm font-medium group-hover:rd-accent transition-colors">
+                    <p className="rd-text-ink text-sm font-medium group-hover:opacity-90 transition-colors">
                       {trans.title}
                     </p>
                     <p className="rd-text-muted text-xs mt-1">
@@ -920,13 +920,13 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
           <h2 className="text-2xl md:text-3xl font-serif font-bold rd-text-ink">
             {locale === 'ko' ? '이 거인과 더 깊이' : 'Dive Deeper'}
           </h2>
-          <div className="w-16 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+          <div className="w-16 h-1" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <Link
             href={`/debate?giant=${giant.slug}`}
             onClick={() => trackCTAEvent('giant_page', 'debate', locale, giant.slug)}
-            className="flex flex-col items-center text-center p-6 rounded-2xl border rd-hairline hover:rd-hairline hover:rd-bg-accent transition-all group"
+            className="flex flex-col items-center text-center p-6 rounded-2xl border rd-hairline hover:opacity-90 hover:opacity-90 transition-all group"
           >
             <div className="w-12 h-12 rounded-full rd-bg-surface flex items-center justify-center mb-4 rd-accent group-hover:scale-110 transition-transform">
               <Swords className="w-6 h-6" />
@@ -937,7 +937,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
           <Link
             href={`/consult?giant=${giant.slug}`}
             onClick={() => trackCTAEvent('giant_page', 'counsel', locale, giant.slug)}
-            className="flex flex-col items-center text-center p-6 rounded-2xl border rd-hairline hover:rd-hairline hover:rd-bg-accent transition-all group"
+            className="flex flex-col items-center text-center p-6 rounded-2xl border rd-hairline hover:opacity-90 hover:opacity-90 transition-all group"
           >
             <div className="w-12 h-12 rounded-full bg-pink-500/10 flex items-center justify-center mb-4 text-pink-400 group-hover:scale-110 transition-transform">
               <MessageCircleHeart className="w-6 h-6" />
@@ -948,7 +948,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
           <Link
             href="/?mode=match"
             onClick={() => trackCTAEvent('giant_page', 'dna', locale, giant.slug)}
-            className="flex flex-col items-center text-center p-6 rounded-2xl border rd-hairline hover:rd-hairline hover:rd-bg-accent transition-all group"
+            className="flex flex-col items-center text-center p-6 rounded-2xl border rd-hairline hover:opacity-90 hover:opacity-90 transition-all group"
           >
             <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center mb-4 text-cyan-400 group-hover:scale-110 transition-transform">
               <Dna className="w-6 h-6" />
@@ -974,7 +974,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 ? '동일한 분야에서 뜻을 품고 역경을 이겨내며 인류에 기여한 거인들을 만나보세요.' 
                 : 'Explore the legacy of other giants who walked a similar path in this field.'}
             </p>
-            <div className="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
+            <div className="w-24 h-1" />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -1023,11 +1023,11 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-background/95"
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-[color:color-mix(in_srgb,var(--rd-text-ink)_45%,transparent)]"
           >
             {/* Background Effects */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-br ${giant.color} opacity-20 blur-[120px]`} />
+              <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full opacity-20 blur-[120px]`} />
             </div>
 
             <m.div
@@ -1038,7 +1038,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             >
               <button 
                 onClick={() => setShowMatchOverlay(false)}
-                className="absolute top-6 right-6 p-2 rounded-full hover:rd-bg-surface transition-colors"
+                className="absolute top-6 right-6 p-2 rounded-full hover:opacity-90 transition-colors"
               >
                 <X className="w-6 h-6 rd-text-muted" />
               </button>
@@ -1091,7 +1091,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                     <button
                       onClick={() => setShowMatchOverlay(false)}
-                      className="py-4 px-6 rounded-2xl hover:rd-bg-surface rd-text-ink font-bold transition-all border rd-hairline"
+                      className="py-4 px-6 rounded-2xl hover:opacity-90 rd-text-ink font-bold transition-all border rd-hairline"
                     >
                       {tt("result.readEpic")}
                     </button>
@@ -1100,7 +1100,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                         setShowMatchOverlay(false)
                         setIsChatOpen(true)
                       }}
-                      className="py-4 px-6 rounded-2xl rd-bg-accent hover:rd-bg-accent text-black font-bold transition-all flex items-center justify-center gap-2 shadow-amber-500/20"
+                      className="py-4 px-6 rounded-2xl rd-bg-accent hover:opacity-90 text-black font-bold transition-all flex items-center justify-center gap-2 shadow-amber-500/20"
                     >
                       <MessageCircle className="w-5 h-5" />
                       {tt("result.chatNow")}
@@ -1118,10 +1118,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                   <button
                     onClick={() => setShareCardType('story')}
                     className={`flex-1 max-w-[170px] min-h-[48px] px-4 py-2.5 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
-                      shareCardType === 'story'
-                        ? 'rd-bg-accent text-black rd-hairline  shadow-amber-500/20'
-                        : 'rd-bg-surface rd-text-muted rd-hairline hover:rd-bg-surface hover:rd-text-ink'
-                    }`}
+ shareCardType === 'story'
+ ? 'rd-bg-accent text-black rd-hairline shadow-amber-500/20'
+ : 'rd-bg-surface rd-text-muted rd-hairline hover:opacity-90 hover:opacity-90'
+ }`}
                   >
                     <span>📱</span>
                     <span>{tUI('storyFormat')}</span>
@@ -1129,10 +1129,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                   <button
                     onClick={() => setShareCardType('square')}
                     className={`flex-1 max-w-[170px] min-h-[48px] px-4 py-2.5 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
-                      shareCardType === 'square'
-                        ? 'rd-bg-accent text-black rd-hairline  shadow-amber-500/20'
-                        : 'rd-bg-surface rd-text-muted rd-hairline hover:rd-bg-surface hover:rd-text-ink'
-                    }`}
+ shareCardType === 'square'
+ ? 'rd-bg-accent text-black rd-hairline shadow-amber-500/20'
+ : 'rd-bg-surface rd-text-muted rd-hairline hover:opacity-90 hover:opacity-90'
+ }`}
                   >
                     <span>⬜</span>
                     <span>{locale === 'ko' ? '정방형 (1:1)' : 'Square (1:1)'}</span>
@@ -1318,7 +1318,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                   {/* Save as Image */}
                   <button
                     onClick={handleSaveImage}
-                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl rd-bg-surface hover:rd-bg-surface border rd-hairline text-sm font-bold rd-text-ink transition-all active:scale-95 min-h-[48px]"
+                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl rd-bg-surface hover:opacity-90 border rd-hairline text-sm font-bold rd-text-ink transition-all active:scale-95 min-h-[48px]"
                   >
                     <Download className="w-4 h-4" />
                     {locale === 'ko' ? '이미지로 저장' : 'Save as Image'}
@@ -1339,10 +1339,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     <button
                       onClick={handleCopyLink}
                       className={`flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold transition-all active:scale-95 min-h-[48px] border cursor-pointer ${
-                        copied 
-                          ? 'rd-bg-surface rd-accent rd-hairline' 
-                          : 'rd-bg-surface hover:rd-bg-surface rd-hairline rd-text-ink'
-                      }`}
+ copied 
+ ? 'rd-bg-surface rd-accent rd-hairline' 
+ : 'rd-bg-surface hover:opacity-90 rd-hairline rd-text-ink'
+ }`}
                     >
                       <Link2 className="w-4 h-4" />
                       {copied 
@@ -1378,7 +1378,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                   {/* Native Share */}
                   <button
                     onClick={handleNativeShare}
-                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl rd-bg-accent hover:rd-bg-accent border rd-hairline text-sm font-bold rd-accent transition-all active:scale-95 min-h-[48px] cursor-pointer"
+                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl rd-bg-accent hover:opacity-90 border rd-hairline text-sm font-bold rd-accent transition-all active:scale-95 min-h-[48px] cursor-pointer"
                   >
                     <Share2 className="w-4 h-4" />
                     {locale === 'ko' ? '공유하기' : 'Share'}
