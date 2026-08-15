@@ -72,8 +72,11 @@
   --rd-h1-tracking: -0.015em;
   --rd-h1-leading: 1.25;
 
-  /* lede — one-line intro, set in accent brown */
-  --rd-lede-size: 1.1875rem; /* 19px */
+  /* lede — one-line intro, set in accent brown.
+     Sits deliberately above the running text it introduces. The giant page
+     sets its narrative at Tailwind's lg:text-xl (20px), so at the old 19px
+     the pull quote was the smaller of the two and read as a caption. */
+  --rd-lede-size: 1.28125rem; /* 20.5px */
   --rd-lede-weight: 400;
   --rd-lede-tracking: 0;
   --rd-lede-leading: 1.6;
@@ -168,8 +171,10 @@
   --rd-detail-main: 47.5rem; /* 760px */
   --rd-detail-sidebar: 20rem; /* 320px */
   --rd-detail-gap: 3.5rem; /* 56px */
+  /* The hero portrait is square: the plates are drawn as discs and a 4:5 frame
+     left background showing in the corners. Only the width remains — the
+     height token had this one call site. */
   --rd-portrait-width: 7rem; /* 112px */
-  --rd-portrait-height: 8.75rem; /* 140px */
 
   /* blog post and static document pages — single column, no sidebar.
      700px at 19px body copy lands at roughly 70-75 Latin characters per line,
