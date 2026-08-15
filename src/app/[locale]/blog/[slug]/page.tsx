@@ -17,6 +17,28 @@ import { buildHreflang } from '@/lib/locales'
 import { BlogCTA } from '@/components/blog-cta'
 import fs from 'fs'
 import path from 'path'
+
+// Portrait lookup for posts whose giant is no longer in the roster. The old
+// fallback pointed at a Supabase object that returns nothing (naturalWidth 0)
+// on both this page and the list; anything served here has to exist on disk.
+const blogPortraitDir = path.join(process.cwd(), 'public/images/giants')
+let blogPortraitFiles: Set<string> = new Set()
+try {
+  blogPortraitFiles = new Set(fs.readdirSync(blogPortraitDir))
+} catch {
+  blogPortraitFiles = new Set()
+}
+
+function resolveBlogPortrait(slug: string | undefined | null): string | null {
+  if (!slug) return null
+  const match = giants.find((g) => g.slug === slug)
+  if (match?.imageUrl) return match.imageUrl
+  for (const ext of ['jpg', 'png', 'webp']) {
+    if (blogPortraitFiles.has(`${slug}.${ext}`)) return `/images/giants/${slug}.${ext}`
+  }
+  return null
+}
+
 import { eraForLocale, lifespan } from '@/lib/era'
 
 // Same source the cards and the giant detail page read. messages.Giants.<slug>
@@ -407,9 +429,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = translation.description
 
   const giant = giants.find(g => g.slug === post.giantSlug)
-  const absoluteImageUrl = giant
-    ? (giant.imageUrl.startsWith('http') ? giant.imageUrl : `${BASE_URL}${giant.imageUrl}`)
-    : `${BASE_URL}/images/giants/cleopatra.png`
+  const metaPortrait = resolveBlogPortrait(post.giantSlug)
+  const absoluteImageUrl = metaPortrait
+    ? (metaPortrait.startsWith('http') ? metaPortrait : `${BASE_URL}${metaPortrait}`)
+    : `${BASE_URL}/og-default.jpg`
 
   return {
     robots: {
@@ -612,9 +635,12 @@ export default async function BlogPostDetailPage({ params }: Props) {
        locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
     : getTranslation(effectiveSlug || "", giant?.name || effectiveSlug || "Giants")
 
-  const absoluteImageUrl = giant
-    ? giant.imageUrl
-    : "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
+  const portrait = resolveBlogPortrait(effectiveSlug)
+  // Schema.org wants an image, so it falls back to the brand card; the byline
+  // avatar renders an empty slot instead of an unrelated face.
+  const absoluteImageUrl = portrait
+    ? (portrait.startsWith('http') ? portrait : `${BASE_URL}${portrait}`)
+    : `${BASE_URL}/og-default.jpg`
 
   // Dates rather than an era phrase, so the line under the portrait here reads
   // the same as the one on the giant cards.
@@ -787,11 +813,13 @@ export default async function BlogPostDetailPage({ params }: Props) {
               className="w-11 h-11 rounded-full overflow-hidden shrink-0"
               style={{ background: "var(--rd-divider-faint)", border: "1px solid var(--rd-border)" }}
             >
-              <img
-                src={absoluteImageUrl}
-                alt=""
-                className="w-full h-full object-cover"
-              />
+              {portrait && (
+                <img
+                  src={portrait}
+                  alt=""
+                  className="w-full h-full object-cover"
+                />
+              )}
             </div>
             <div>
               <h3 className="rd-text-ink" style={{ fontSize: "var(--rd-card-name-size)", fontWeight: "var(--rd-card-name-weight)" }}>{localizedName}</h3>

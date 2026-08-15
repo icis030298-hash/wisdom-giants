@@ -1,47 +1,30 @@
 "use client"
 
-import { useState } from "react"
-import { useLocale, useTranslations } from "next-intl"
+import { useMemo, useState } from "react"
+import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
-import { blogPosts } from "@/data/blog-posts"
-import { giants } from "@/lib/giants-data"
-import { getReadTime } from "@/utils/blog"
 import { AdSlot } from "@/components/ad-slot"
+import type { BlogCardData } from "@/types/blog-card"
 
 // The eight per-category colour ramps that used to live here are gone. On a
 // cream page a row of eight differently tinted pills is the loudest thing on
 // screen, and it encodes nothing the label itself does not already say, so the
 // category is now the same quiet brown caption the giant cards use.
 
-export function BlogListClient() {
-  const locale = useLocale()
+// Cards arrive fully resolved from the server. The only state left here is
+// which category is selected.
+export function BlogListClient({ posts }: { posts: BlogCardData[] }) {
   const t = useTranslations("BlogUI")
-  const tg = useTranslations("Giants")
   const [selectedCategory, setSelectedCategory] = useState<string>("all")
 
   const categories = ["all", "leadership", "philosophy", "creativity", "wisdom", "science", "arts", "society", "business"]
 
-  const filteredPosts = blogPosts.filter((post) => {
-    if (selectedCategory === "all") return true
-    return post.category === selectedCategory
-  })
-
-  // Sort posts: publishedAt descending
-  const sortedPosts = [...filteredPosts].sort(
-    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  )
-
-  const getTranslation = (slug: string, fallback: string) => {
-    try {
-      const rawData = tg.raw(slug);
-      if (rawData && typeof rawData === 'object' && 'name' in rawData) {
-        return (rawData as any).name;
-      }
-      return fallback;
-    } catch (e) {
-      return fallback;
-    }
-  }
+  const sortedPosts = useMemo(() => {
+    const filtered = selectedCategory === "all"
+      ? posts
+      : posts.filter((post) => post.category === selectedCategory)
+    return [...filtered].sort((a, b) => b.publishedAtTime - a.publishedAtTime)
+  }, [posts, selectedCategory])
 
   return (
     <div
@@ -113,21 +96,8 @@ export function BlogListClient() {
       {sortedPosts.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {sortedPosts.map((post) => {
-            const translation = post.translations[locale] || post.translations["en"]
-            const effectiveSlug = post.giantSlug || (post.giantSlugs && post.giantSlugs[0]);
-            const giant = giants.find((g) => g.slug === effectiveSlug)
-            const readTime = getReadTime(translation.content, locale)
-
-            const absoluteImageUrl = giant
-              ? giant.imageUrl
-              : "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
-
-            const localizedName = effectiveSlug === 'cleopatra'
-              ? (locale === 'ko' ? '클레오파트라' :
-                 locale === 'ja' ? 'クレオパトラ' :
-                 locale === 'de' ? 'Kleopatra' :
-                 locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
-              : getTranslation(effectiveSlug || "", giant?.name || effectiveSlug || "Giants")
+            const readTime = post.readTime
+            const localizedName = post.giantName
 
             return (
               <article
@@ -172,7 +142,7 @@ export function BlogListClient() {
                         lineHeight: "var(--rd-card-name-leading)",
                       }}
                     >
-                      {translation.title.replace(/\*\*/g, '')}
+                      {post.title}
                     </h2>
                   </Link>
 
@@ -184,7 +154,7 @@ export function BlogListClient() {
                       lineHeight: "var(--rd-card-intro-leading)",
                     }}
                   >
-                    {translation.description}
+                    {post.description}
                   </p>
                 </div>
 
@@ -197,17 +167,19 @@ export function BlogListClient() {
                       className="w-8 h-8 rounded-full overflow-hidden shrink-0"
                       style={{ background: "var(--rd-divider-faint)", border: "1px solid var(--rd-border)" }}
                     >
-                      <img
-                        src={absoluteImageUrl}
-                        alt=""
-                        loading="lazy"
-                        decoding="async"
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          // Standard fallback if image loading fails
-                          (e.target as HTMLImageElement).src = "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
-                        }}
-                      />
+                      {post.giantImage && (
+                        // No remote fallback: the old one pointed at a Supabase
+                        // object that returns nothing (naturalWidth 0). When
+                        // there is no portrait the styled circle stands on its
+                        // own rather than showing an unrelated face.
+                        <img
+                          src={post.giantImage}
+                          alt=""
+                          loading="lazy"
+                          decoding="async"
+                          className="w-full h-full object-cover"
+                        />
+                      )}
                     </div>
                     <div className="min-w-0">
                       <p className="rd-caption truncate" style={{ color: "var(--rd-text-body)" }}>{localizedName}</p>
