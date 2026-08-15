@@ -358,7 +358,13 @@
    달라진다. /chats /dna /reels /debate /consult 의 초상은 6단계에서 해당
    페이지가 크림으로 바뀔 때 함께 붙인다. */
 .rd-portrait {
-  filter: saturate(.5) sepia(.3) contrast(.93) brightness(1.04);
+  /* Retuned after the regeneration pass. The original .5/.3 was calibrated
+     against plates whose saturation ran 0.45-0.65; the set now averages 0.169,
+     and pressing that hard turned the ones that were already right — Confucius
+     sits at 0.084 — the colour of mud. .7/.12 still pulls in the 147 plates
+     that have not been redrawn yet (0.20-0.28) while leaving the new ones the
+     colour they were drawn in. */
+  filter: saturate(.7) sepia(.12) contrast(.96) brightness(1.02);
 }
 
 /* Custom animations */
