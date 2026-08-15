@@ -8,6 +8,7 @@ import { Metadata } from 'next';
 import fs from 'fs';
 import path from 'path';
 import { buildHreflang } from '@/lib/locales';
+import { eraForLocale, eraLabel, lifespan } from '@/lib/era';
 import { blogPosts } from "@/data/blog-posts";
 import incompleteGiants from '@/config/incomplete-giants.json';
 
@@ -61,6 +62,16 @@ const wikiLinksPath = path.join(process.cwd(), 'src/data/wikipedia-links.json');
 let wikipediaLinks: any = {};
 if (fs.existsSync(wikiLinksPath)) {
   wikipediaLinks = JSON.parse(fs.readFileSync(wikiLinksPath, 'utf-8'));
+}
+
+// Era comes from giants-summary.json for both the cards and this page.
+// messages.Giants.<slug>.era carries a "Giants of History" placeholder for 44
+// giants, which was leaking into their meta description; era_* here is
+// complete and already verified across all 24 locales.
+const summaryPath = path.join(process.cwd(), 'src/data/giants-summary.json');
+let giantsSummary: any = {};
+if (fs.existsSync(summaryPath)) {
+  giantsSummary = JSON.parse(fs.readFileSync(summaryPath, 'utf-8'));
 }
 
 interface Props {
@@ -144,7 +155,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
   }
 
-  const eraClean = cleanEraString(giantData.era || giant.era || '');
+  const summaryEra = eraForLocale(giantsSummary[giant.slug], locale);
+  const eraClean = cleanEraString(lifespan(summaryEra) || giantData.era || giant.era || '');
   const eraDisplay = eraClean ? `(${eraClean})` : '';
 
   const ctaMap: Record<string, string> = {
@@ -329,6 +341,8 @@ export default async function GiantDetailPage({ params }: Props) {
     era: "역사의 거인"
   };
 
+  const summaryEra = eraForLocale(giantsSummary[giant.slug], locale);
+
   const translations = {
     giantDetail: messages.GiantDetail,
     giants: giantTranslation,
@@ -336,7 +350,9 @@ export default async function GiantDetailPage({ params }: Props) {
     narrative: formattedNarrative,
     factLayer: factLayer,
     giantBlogLink: messages.GiantBlogLink,
-    ui: messages.UI
+    ui: messages.UI,
+    // Era for the sidebar, from the same source the cards use.
+    eraLabel: eraLabel(summaryEra) || giantTranslation.era || giant.era || null
   };
 
   const BASE_URL = 'https://www.giantswisdom.com';
@@ -348,7 +364,7 @@ export default async function GiantDetailPage({ params }: Props) {
     'society': ['Society', 'Human Rights', 'Activism', 'Justice'],
     'business': ['Business', 'Exploration', 'Entrepreneurship', 'Trade'],
   };
-  const localizedEra = giantTranslation.era || giant.era || '';
+  const localizedEra = summaryEra || giantTranslation.era || giant.era || '';
   const eraYearMatch = localizedEra.match(/\((\d{1,4})(?:[^~\-–]*)?[~\-–]\s*(\d{1,4})/);
   const isBC = localizedEra.toLowerCase().includes('a.c.') || localizedEra.toLowerCase().includes('bc');
   
@@ -416,52 +432,103 @@ export default async function GiantDetailPage({ params }: Props) {
 
       <Navigation />
 
-      {/* Visual Server-Rendered Hero Section for Instant SSR & Crawlers */}
-      <div className="relative w-full h-[55vh] md:h-[60vh] overflow-hidden bg-slate-950">
-        <img
-          src={giant.imageUrl.startsWith('http') ? giant.imageUrl : `${BASE_URL}${giant.imageUrl}`}
-          alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-16 max-w-6xl mx-auto">
-          {/* Breadcrumb Navigation */}
-          <nav aria-label="breadcrumb" className="mb-4 flex items-center">
-            <ol className="flex items-center space-x-2 text-xs md:text-sm text-zinc-400 font-sans">
+      {/* Server-rendered header. The portrait is 112x140 instead of a 55vh
+          full-bleed image, so the name and lede sit above the fold. */}
+      <header className="pt-20 pb-6" style={{ borderBottom: "1px solid var(--rd-divider-faint)" }}>
+        <div className="mx-auto px-4 md:px-6" style={{ maxWidth: "calc(var(--rd-detail-main) + var(--rd-detail-sidebar) + var(--rd-detail-gap))" }}>
+          {/* Breadcrumb */}
+          <nav aria-label="breadcrumb" className="mb-4">
+            <ol
+              className="flex items-center gap-2"
+              style={{ color: "var(--rd-text-muted)", fontSize: "var(--rd-caption-size)", letterSpacing: "var(--rd-caption-tracking)" }}
+            >
               <li>
-                <Link href="/" className="hover:text-amber-400 transition-colors">
-                  {tUI('home')}
-                </Link>
+                <Link href="/" className="hover:underline">{tUI('home')}</Link>
               </li>
-              <li className="text-zinc-600">/</li>
+              <li aria-hidden="true">/</li>
               <li>
-                <Link href="/#giants" className="hover:text-amber-400 transition-colors">
-                  {tUI('hallOfGiants')}
-                </Link>
+                <Link href="/#giants" className="hover:underline">{tUI('hallOfGiants')}</Link>
               </li>
-              <li className="text-zinc-600">/</li>
-              <li className="text-amber-400 font-semibold truncate" aria-current="page">
+              <li aria-hidden="true">/</li>
+              <li className="truncate" aria-current="page" style={{ color: "var(--rd-text-body)" }}>
                 {giantTranslation.name || giant.name}
               </li>
             </ol>
           </nav>
 
-          <div className="space-y-3">
-            <span className="px-4 py-1.5 rounded-full bg-amber-500 text-black text-xs font-bold uppercase tracking-widest border border-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
-              {giant.category}
-            </span>
-            <h1 className="text-4xl md:text-7xl font-serif font-bold text-foreground leading-tight">
-              {giantTranslation.name || giant.name}
-            </h1>
-            {giantTranslation.quote && (
-              <h2 className="text-lg md:text-2xl text-amber-400/90 font-serif italic max-w-3xl leading-relaxed">
-                &ldquo;{giantTranslation.quote}&rdquo;
-              </h2>
-            )}
+          <div className="flex items-start gap-5">
+            <img
+              src={giant.imageUrl.startsWith('http') ? giant.imageUrl : `${BASE_URL}${giant.imageUrl}`}
+              alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
+              width={112}
+              height={140}
+              className="shrink-0 object-cover object-top"
+              style={{
+                width: "var(--rd-portrait-width)",
+                height: "var(--rd-portrait-height)",
+                background: "var(--rd-divider-faint)",
+                borderRadius: "var(--rd-card-radius)",
+              }}
+            />
+
+            <div className="min-w-0">
+              {/* Category: the field axis, in the reader's language. No uppercase. */}
+              <span
+                style={{
+                  color: "var(--rd-accent-brown)",
+                  fontSize: "var(--rd-category-size)",
+                  fontWeight: "var(--rd-category-weight)",
+                  letterSpacing: "var(--rd-category-tracking)",
+                  lineHeight: "var(--rd-category-leading)",
+                }}
+              >
+                {(messages.GiantsGrid as any)?.categories?.[giant.category] || giant.category}
+              </span>
+
+              <h1
+                className="font-serif mt-0.5"
+                style={{
+                  color: "var(--rd-text-ink)",
+                  fontSize: "var(--rd-display-size)",
+                  fontWeight: "var(--rd-display-weight)",
+                  letterSpacing: "var(--rd-display-tracking)",
+                  lineHeight: "var(--rd-display-leading)",
+                }}
+              >
+                {giantTranslation.name || giant.name}
+              </h1>
+
+              {(lifespan(localizedEra) || eraLabel(localizedEra)) && (
+                <p
+                  className="mt-1"
+                  style={{
+                    color: "var(--rd-text-muted)",
+                    fontSize: "var(--rd-caption-size)",
+                    letterSpacing: "var(--rd-caption-tracking)",
+                    lineHeight: "var(--rd-caption-leading)",
+                  }}
+                >
+                  {lifespan(localizedEra)}
+                </p>
+              )}
+
+              {giantTranslation.quote && (
+                <h2
+                  className="font-serif italic mt-2 max-w-3xl break-keep"
+                  style={{
+                    color: "var(--rd-accent-brown)",
+                    fontSize: "var(--rd-lede-size)",
+                    fontWeight: "var(--rd-lede-weight)",
+                    lineHeight: "var(--rd-lede-leading)",
+                  }}
+                >
+                  &ldquo;{giantTranslation.quote}&rdquo;
+                </h2>
+              )}
+            </div>
           </div>
         </div>
-      </div>
+      </header>
 
       <Suspense fallback={<GiantBodySkeleton />}>
         <GiantDetailClient

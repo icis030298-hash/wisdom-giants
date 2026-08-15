@@ -153,6 +153,17 @@
   border-bottom: 1px solid var(--rd-border);
 }
 
+/* Colour utilities for the detail page. Named rather than inlined because that
+   component carries ~90 of them; keeping the mapping here means the palette
+   still has exactly one definition. */
+.rd-text-ink { color: var(--rd-text-ink); }
+.rd-text-body { color: var(--rd-text-body); }
+.rd-text-muted { color: var(--rd-text-muted); }
+.rd-accent { color: var(--rd-accent-brown); }
+.rd-bg-surface { background-color: var(--rd-surface); }
+.rd-bg-accent { background-color: var(--rd-accent-brown); color: var(--rd-surface); }
+.rd-hairline { border-color: var(--rd-border); }
+
 /* Custom animations */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
