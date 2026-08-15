@@ -369,34 +369,32 @@ export default function ReelsDemoPage() {
   }, [currentGiant])
 
   return (
-    <div className="min-h-screen bg-slate-950 text-foreground flex flex-col relative overflow-hidden font-sans">
-      {/* Background radial lights */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-amber-500/10 via-slate-950 to-slate-950 pointer-events-none z-0" />
+    <div className="min-h-screen flex flex-col relative overflow-hidden font-sans" style={{ background: "var(--rd-bg-base)", color: "var(--rd-text-body)" }}>
       
       {/* Sticky Header - Hides in full screen mode for screen recording */}
       {!isFullscreen && (
-        <header className="w-full px-6 py-4 border-b border-border/40 bg-slate-900/80 backdrop-blur-md flex items-center justify-between z-20 shrink-0">
+        <header className="w-full px-6 py-4 rd-hairline-bottom rd-bg-surface flex items-center justify-between z-20 shrink-0">
           <div className="flex items-center gap-3">
-            <Link href={`/${locale}`} className="p-2 rounded-lg glass hover:bg-muted/80 text-muted-foreground hover:text-foreground transition-all">
+            <Link href={`/${locale}`} className="p-2 rounded-lg border rd-hairline rd-bg-surface rd-text-muted hover:opacity-70 transition-opacity">
               <ArrowLeft className="w-4 h-4" />
             </Link>
             <div>
-              <h1 className="font-serif text-lg font-bold flex items-center gap-1.5">
-                <Sparkles className="w-4 h-4 text-amber-400" />
+              <h1 className="font-serif text-lg font-bold flex items-center gap-1.5 rd-text-ink">
+                <Sparkles className="w-4 h-4 rd-accent" />
                 {isKo ? "거인의 점심 추천 릴스 메이커" : "Giants' Lunch Reels Maker"}
               </h1>
-              <p className="text-[10px] text-muted-foreground uppercase tracking-wider">Instagram Reels 9:16 Mockup Studio</p>
+              <p className="rd-caption">Instagram Reels 9:16 Mockup Studio</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <button 
               onClick={() => setAudioEnabled(!audioEnabled)}
-              className="p-2 rounded-lg glass text-muted-foreground hover:text-foreground cursor-pointer"
+              className="p-2 rounded-lg border rd-hairline rd-bg-surface rd-text-muted hover:opacity-70 transition-opacity cursor-pointer"
               title="Toggle sound effects"
             >
-              {audioEnabled ? <Volume2 className="w-4 h-4 text-amber-400" /> : <VolumeX className="w-4 h-4" />}
+              {audioEnabled ? <Volume2 className="w-4 h-4 rd-accent" /> : <VolumeX className="w-4 h-4" />}
             </button>
-            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-500/10 border border-amber-500/20 text-amber-300">
+            <span className="px-2 py-0.5 rounded rd-caption font-bold border rd-hairline rd-accent" style={{ background: "var(--rd-divider-faint)" }}>
               STABLE v1.0
             </span>
           </div>
@@ -411,7 +409,6 @@ export default function ReelsDemoPage() {
           isFullscreen ? "w-full max-w-[430px] h-[92vh] max-h-[850px] md:scale-100 scale-95" : "w-[360px] h-[640px] md:w-[410px] md:h-[730px]"
         }`}>
           {/* Neon border glow surrounding phone body */}
-          <div className="absolute inset-0 bg-gradient-to-tr from-amber-500/20 to-purple-500/20 rounded-[40px] blur-xl opacity-70 pointer-events-none scale-105" />
           
           {/* Virtual Phone Mockup Body */}
           <div className="relative w-full h-full bg-slate-900 border-[10px] border-slate-800 rounded-[38px] overflow-hidden flex flex-col shadow-2xl ring-4 ring-amber-500/10">
@@ -550,7 +547,7 @@ export default function ReelsDemoPage() {
           {isFullscreen && (
             <button 
               onClick={() => setIsFullscreen(false)}
-              className="absolute -top-4 -right-4 bg-slate-900 border border-border text-foreground hover:bg-slate-800 p-2.5 rounded-full cursor-pointer z-50 shadow-lg"
+              className="absolute -top-4 -right-4 rd-surface rd-text-ink hover:opacity-90 transition-opacity p-2.5 rounded-full cursor-pointer z-50"
               title="Exit Fullscreen Mode"
             >
               <Smartphone className="w-4 h-4" />
@@ -563,9 +560,9 @@ export default function ReelsDemoPage() {
           <div className="flex-1 max-w-md w-full flex flex-col gap-6 md:p-2">
             
             {/* 1. Character Slider Panel */}
-            <div className="glass-card p-5 rounded-2xl border border-border/60">
-              <h3 className="text-sm font-bold text-muted-foreground uppercase tracking-widest mb-3 flex items-center gap-1.5">
-                <Award className="w-4 h-4 text-amber-400" />
+            <div className="rd-surface p-5" style={{ borderRadius: "var(--rd-card-radius)" }}>
+              <h3 className="text-sm font-bold rd-text-body mb-3 flex items-center gap-1.5">
+                <Award className="w-4 h-4 rd-accent" />
                 {isKo ? "위인 선택" : "Select Giant"}
               </h3>
               <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5">
@@ -581,12 +578,12 @@ export default function ReelsDemoPage() {
                         resetTimeline()
                       }}
                       className={`flex items-center gap-2 p-2 rounded-xl border transition-all cursor-pointer ${
-                        isSelected 
-                          ? "bg-amber-500/10 border-amber-500 text-amber-300 shadow-md shadow-amber-500/5" 
-                          : "bg-slate-900/50 border-border hover:border-muted-foreground/50 text-muted-foreground hover:text-foreground"
+                        isSelected
+                          ? "rd-selected"
+                          : "rd-bg-surface rd-hairline rd-text-body hover:opacity-80"
                       }`}
                     >
-                      <div className="relative w-8 h-8 rounded-full overflow-hidden shrink-0 border border-white/10">
+                      <div className="relative w-8 h-8 rounded-full overflow-hidden shrink-0 border rd-hairline">
                         <Image 
                           src={item.avatar} 
                           alt={name} 
@@ -603,9 +600,9 @@ export default function ReelsDemoPage() {
             </div>
 
             {/* 2. Timeline Controls Panel */}
-            <div className="glass-card p-5 rounded-2xl border border-border/60 flex flex-col gap-4">
-              <h3 className="text-sm font-bold text-muted-foreground uppercase tracking-widest flex items-center gap-1.5">
-                <Play className="w-4 h-4 text-amber-400" />
+            <div className="rd-surface p-5 flex flex-col gap-4" style={{ borderRadius: "var(--rd-card-radius)" }}>
+              <h3 className="text-sm font-bold rd-text-body flex items-center gap-1.5">
+                <Play className="w-4 h-4 rd-accent" />
                 {isKo ? "시뮬레이터 제어" : "Simulator Timeline"}
               </h3>
               
@@ -613,7 +610,8 @@ export default function ReelsDemoPage() {
                 <button
                   onClick={startReel}
                   disabled={isPlaying || isRecording}
-                  className="flex-1 min-w-[120px] py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-bold hover:shadow-lg hover:shadow-amber-500/25 disabled:opacity-50 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-2 cursor-pointer text-sm"
+                  className="flex-1 min-w-[120px] py-3 px-4 rd-bg-accent border font-bold hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-opacity flex items-center justify-center gap-2 cursor-pointer text-sm"
+                  style={{ borderRadius: "var(--rd-card-radius)", borderColor: "var(--rd-accent-brown)" }}
                 >
                   <Play className="w-4 h-4 fill-current" />
                   {isKo ? "릴스 재생" : "Play Reel"}
@@ -621,7 +619,8 @@ export default function ReelsDemoPage() {
                 <button
                   onClick={resetTimeline}
                   disabled={isRecording}
-                  className="py-3 px-4 rounded-xl glass hover:bg-muted text-foreground transition-all flex items-center justify-center gap-2 cursor-pointer text-sm border border-border disabled:opacity-50"
+                  className="py-3 px-4 border rd-hairline rd-bg-surface rd-text-body hover:opacity-80 transition-opacity flex items-center justify-center gap-2 cursor-pointer text-sm disabled:opacity-50"
+                  style={{ borderRadius: "var(--rd-card-radius)" }}
                 >
                   <RotateCcw className="w-4 h-4" />
                   {isKo ? "초기화" : "Reset"}
@@ -630,13 +629,13 @@ export default function ReelsDemoPage() {
 
               {/* 🎥 Real-time In-browser Recording Controls */}
               {recordingSupported && (
-                <div className="border-t border-border/40 pt-4 flex flex-col gap-2.5">
+                <div className="pt-4 flex flex-col gap-2.5" style={{ borderTop: "1px solid var(--rd-border)" }}>
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">{isKo ? "브라우저 화면 녹화 (1번 방식)" : "Browser Recording (Method 1)"}</span>
+                    <span className="text-xs font-bold rd-text-body">{isKo ? "브라우저 화면 녹화 (1번 방식)" : "Browser Recording (Method 1)"}</span>
                     {isRecording && (
                       <span className="flex items-center gap-1">
-                        <span className="w-2 h-2 rounded-full bg-red-500 animate-ping" />
-                        <span className="text-[10px] text-red-400 font-extrabold uppercase">REC</span>
+                        <span className="w-2 h-2 rounded-full animate-ping" style={{ background: "var(--rd-error)" }} />
+                        <span className="text-[10px] font-extrabold" style={{ color: "var(--rd-error)" }}>REC</span>
                       </span>
                     )}
                   </div>
@@ -646,9 +645,9 @@ export default function ReelsDemoPage() {
                       onClick={startRecording}
                       disabled={isRecording}
                       className={`flex-1 py-2.5 px-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 cursor-pointer text-xs ${
-                        isRecording 
-                          ? "bg-red-500/10 border border-red-500/30 text-red-400" 
-                          : "bg-red-600 hover:bg-red-500 text-white hover:shadow-lg hover:shadow-red-500/20"
+                        isRecording
+                          ? "rd-rec-active"
+                          : "rd-rec-idle"
                       }`}
                     >
                       <Smartphone className="w-3.5 h-3.5" />
@@ -657,7 +656,8 @@ export default function ReelsDemoPage() {
                     {isRecording && (
                       <button
                         onClick={stopRecording}
-                        className="py-2.5 px-4 rounded-xl bg-slate-900 border border-red-500 text-red-500 hover:bg-red-500/10 transition-all flex items-center justify-center gap-1.5 cursor-pointer text-xs"
+                        className="py-2.5 px-4 rd-bg-surface border hover:opacity-80 transition-opacity flex items-center justify-center gap-1.5 cursor-pointer text-xs"
+                        style={{ borderRadius: "var(--rd-card-radius)", borderColor: "var(--rd-error)", color: "var(--rd-error)" }}
                       >
                         {isKo ? "녹화 중지" : "Stop"}
                       </button>
@@ -670,9 +670,9 @@ export default function ReelsDemoPage() {
               <div className="grid grid-cols-2 gap-2 mt-2">
                 <button
                   onClick={() => setIsFullscreen(true)}
-                  className="py-2.5 px-3 rounded-lg border border-border bg-slate-900/40 hover:bg-slate-900 hover:text-foreground text-muted-foreground text-xs flex items-center justify-center gap-1.5 cursor-pointer transition-all"
+                  className="py-2.5 px-3 rounded-lg border rd-hairline rd-bg-surface rd-text-body hover:opacity-80 text-xs flex items-center justify-center gap-1.5 cursor-pointer transition-opacity"
                 >
-                  <Monitor className="w-3.5 h-3.5 text-amber-400" />
+                  <Monitor className="w-3.5 h-3.5 rd-accent" />
                   {isKo ? "풀스크린 녹화 모드" : "Fullscreen Record"}
                 </button>
                 <button
@@ -683,17 +683,17 @@ export default function ReelsDemoPage() {
                       : "1. Click 'One-Click Record' to see the sharing prompt.\n2. Make sure to select 'Current Tab' so that the 9:16 layout gets accurately cropped.\n3. Once the simulation concludes, the recording stops automatically and downloads the video (.webm)."
                     )
                   }}
-                  className="py-2.5 px-3 rounded-lg border border-border bg-slate-900/40 hover:bg-slate-900 hover:text-foreground text-muted-foreground text-xs flex items-center justify-center gap-1.5 cursor-pointer transition-all"
+                  className="py-2.5 px-3 rounded-lg border rd-hairline rd-bg-surface rd-text-body hover:opacity-80 text-xs flex items-center justify-center gap-1.5 cursor-pointer transition-opacity"
                 >
-                  <Download className="w-3.5 h-3.5 text-amber-400" />
+                  <Download className="w-3.5 h-3.5 rd-accent" />
                   {isKo ? "녹화 상세 가이드" : "Recording Guide"}
                 </button>
               </div>
             </div>
 
             {/* 3. Pro Tips Panel */}
-            <div className="p-4 rounded-xl bg-amber-500/5 border border-amber-500/10 text-[11px] text-muted-foreground/80 leading-relaxed flex flex-col gap-1.5">
-              <span className="font-bold text-amber-400/90 text-xs flex items-center gap-1">
+            <div className="p-4 border rd-hairline text-[11px] rd-text-body leading-relaxed flex flex-col gap-1.5" style={{ background: "var(--rd-divider-faint)", borderRadius: "var(--rd-card-radius)" }}>
+              <span className="font-bold rd-accent text-xs flex items-center gap-1">
                 <Sparkles className="w-3.5 h-3.5" />
                 {isKo ? "프로 릴스 제작자 팁" : "Pro Reels Creator Tips"}
               </span>

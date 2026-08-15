@@ -271,6 +271,27 @@
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--rd-error) 30%, transparent);
 }
 
+/* ── Stage 6: selected chip and the recorder button ────────────────────────
+   Selection carries a filled border as well as a tint, so it survives being
+   viewed in greyscale. The record button keeps red — it is the one control
+   on the site where the convention outweighs the palette, and it is paired
+   with a text label rather than standing on colour alone. */
+.rd-selected {
+  background-color: var(--rd-divider-faint);
+  border-color: var(--rd-accent-brown);
+  color: var(--rd-accent-brown);
+}
+.rd-rec-idle {
+  background-color: var(--rd-error);
+  border: 1px solid var(--rd-error);
+  color: var(--rd-surface);
+}
+.rd-rec-active {
+  background-color: var(--rd-error-bg);
+  border: 1px solid var(--rd-error);
+  color: var(--rd-error);
+}
+
 /* ── Stage 6: chat bubbles ─────────────────────────────────────────────────
    Four signals separate the two speakers, and only one of them is colour:
    which side the row is aligned to, which top corner is squared off, the
