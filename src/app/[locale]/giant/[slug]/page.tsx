@@ -461,13 +461,23 @@ export default async function GiantDetailPage({ params }: Props) {
               src={giant.imageUrl.startsWith('http') ? giant.imageUrl : `${BASE_URL}${giant.imageUrl}`}
               alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
               width={112}
-              height={140}
-              className="rd-portrait shrink-0 object-cover object-top"
+              height={112}
+              /* Square, and round. The plates are drawn as discs with 8-10%
+                 margin all round, so a 4:5 frame left the corners showing the
+                 plate's own background — and that background is not one colour
+                 to match against: 43% of the set is pure white, 30% cream, the
+                 rest various. Filling the rectangle instead would mean scaling
+                 the disc 1.41x and cropping into the face.
+                 A 1:1 source in a 1:1 circular frame crops nothing.
+                 The hairline matters: an unbordered circle reads as a social
+                 avatar, while a rule around it reads as a plate. */
+              className="rd-portrait shrink-0 object-cover"
               style={{
                 width: "var(--rd-portrait-width)",
-                height: "var(--rd-portrait-height)",
+                height: "var(--rd-portrait-width)",
                 background: "var(--rd-divider-faint)",
-                borderRadius: "var(--rd-card-radius)",
+                borderRadius: "9999px",
+                border: "1px solid var(--rd-border)",
               }}
             />
 
