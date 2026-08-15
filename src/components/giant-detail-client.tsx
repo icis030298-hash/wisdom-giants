@@ -707,37 +707,53 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
           <section className="space-y-8">
             <div className="flex flex-col items-center gap-4 text-center">
               <div className="w-16 h-16 rounded-full rd-bg-accent flex items-center justify-center border rd-hairline">
-                <Lightbulb className="w-8 h-8 rd-accent" />
+                {/* No rd-accent here: the parent .rd-bg-accent is that same
+                    brown, so the icon was brown on brown. It inherits the
+                    surface colour the parent already sets. */}
+                <Lightbulb className="w-8 h-8" />
               </div>
               <h2 className="text-3xl font-serif font-bold rd-text-ink">{t.wisdomLessons}</h2>
               <div className="w-24 h-1" />
             </div>
 
-            <div className="grid grid-cols-1 gap-4 md:gap-6">
+            {/* The card shell is gone. This section was the last one still
+                carrying pre-redesign dimensions — a 32px radius against the
+                3px card token, 32px padding, and a 30px quote that matches no
+                step in the scale. The rule-and-indent treatment is the one the
+                fact-layer sidebar and the blog's editor letter already use, so
+                nothing new is invented and the section loses most of its
+                height.
+
+                border-inline-start, not border-left: in Arabic, Persian and
+                Hebrew the rule has to sit on the right. */}
+            <div className="grid grid-cols-1 gap-8">
               {wisdomList.length > 0 ? (
                 wisdomList.map((item: any, index: number) => (
-                  <div key={index} className="p-6 md:p-8 rounded-2xl md:rounded-[2rem] border rd-hairline hover:opacity-90 transition-all duration-500 group relative overflow-hidden">
-                    <div className="absolute -top-10 -left-10 w-40 h-40 rd-bg-accent rounded-full group-hover:opacity-90 transition-colors" />
-                    
-                    <div className="relative z-10">
-                      <div className="flex items-center gap-6 mb-6 md:mb-10">
-                        <span className="text-4xl md:text-5xl font-black rd-accent select-none">
-                          0{index + 1}
-                        </span>
-                        <div className="h-px flex-1" />
-                      </div>
-                      
-                      <blockquote className="text-lg md:text-2xl lg:text-3xl font-serif rd-accent mb-6 md:mb-10 leading-[1.4] tracking-tight whitespace-pre-wrap">
-                        &ldquo;{formatContent(item.quote)}&rdquo;
-                      </blockquote>
-                      
-                      <div className="relative pl-5 md:pl-8">
-                        <div className="absolute left-0 top-0 bottom-0 w-1 rounded-full" />
-                        <p className="text-sm md:text-base lg:text-lg rd-text-body leading-relaxed font-normal whitespace-pre-wrap">
-                          {formatContent(item.meaning)}
-                        </p>
-                      </div>
-                    </div>
+                  <div key={index}>
+                    <blockquote
+                      className="whitespace-pre-wrap"
+                      style={{
+                        borderInlineStart: "2px solid var(--rd-accent-brown)",
+                        paddingInlineStart: "1.25rem",
+                        color: "var(--rd-accent-brown)",
+                        fontSize: "var(--rd-body-lg-size)",
+                        lineHeight: "var(--rd-body-lg-leading)",
+                        fontStyle: "normal",
+                      }}
+                    >
+                      &ldquo;{formatContent(item.quote)}&rdquo;
+                    </blockquote>
+                    <p
+                      className="mt-2 whitespace-pre-wrap"
+                      style={{
+                        paddingInlineStart: "1.25rem",
+                        color: "var(--rd-text-body)",
+                        fontSize: "var(--rd-card-intro-size)",
+                        lineHeight: "var(--rd-card-intro-leading)",
+                      }}
+                    >
+                      {formatContent(item.meaning)}
+                    </p>
                   </div>
                 ))
               ) : (
