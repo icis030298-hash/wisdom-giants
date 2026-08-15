@@ -830,7 +830,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
                 <img
                   src={portrait}
                   alt=""
-                  className="w-full h-full object-cover"
+                  className="rd-portrait w-full h-full object-cover"
                 />
               )}
             </div>

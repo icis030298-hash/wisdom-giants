@@ -177,7 +177,7 @@ export function BlogListClient({ posts }: { posts: BlogCardData[] }) {
                           alt=""
                           loading="lazy"
                           decoding="async"
-                          className="w-full h-full object-cover"
+                          className="rd-portrait w-full h-full object-cover"
                         />
                       )}
                     </div>

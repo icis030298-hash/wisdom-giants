@@ -462,7 +462,7 @@ export default async function GiantDetailPage({ params }: Props) {
               alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
               width={112}
               height={140}
-              className="shrink-0 object-cover object-top"
+              className="rd-portrait shrink-0 object-cover object-top"
               style={{
                 width: "var(--rd-portrait-width)",
                 height: "var(--rd-portrait-height)",

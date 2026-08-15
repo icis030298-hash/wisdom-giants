@@ -72,7 +72,7 @@ function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related:
             alt={`${related.name} - Giants Wisdom`}
             fill
             sizes="(max-width: 768px) 100vw, 33vw"
-            className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+            className="rd-portrait object-cover object-top transition-transform duration-700 group-hover:scale-105"
             onError={() => setImgErr(true)}
           />
         ) : (
@@ -1073,7 +1073,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
 
                 <div className="flex flex-col items-center gap-6">
                   <div className="flex items-center gap-4">
-                    <div className="relative w-16 h-16 rounded-full overflow-hidden ring-4 ring-amber-500/20">
+                    <div className="relative w-16 h-16 rounded-full overflow-hidden" style={{ boxShadow: "0 0 0 4px var(--rd-border)" }}>
                       <Image 
                         src={giant.imageUrl} 
                         alt={tg.name}
@@ -1100,7 +1100,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                         setShowMatchOverlay(false)
                         setIsChatOpen(true)
                       }}
-                      className="py-4 px-6 rounded-2xl rd-bg-accent hover:opacity-90 text-black font-bold transition-all flex items-center justify-center gap-2 shadow-amber-500/20"
+                      className="py-4 px-6 rounded-2xl rd-bg-accent hover:opacity-90 font-bold transition-opacity flex items-center justify-center gap-2"
                     >
                       <MessageCircle className="w-5 h-5" />
                       {tt("result.chatNow")}
@@ -1119,7 +1119,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     onClick={() => setShareCardType('story')}
                     className={`flex-1 max-w-[170px] min-h-[48px] px-4 py-2.5 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
  shareCardType === 'story'
- ? 'rd-bg-accent text-black rd-hairline shadow-amber-500/20'
+ ? 'rd-bg-accent rd-hairline'
  : 'rd-bg-surface rd-text-muted rd-hairline hover:opacity-90 hover:opacity-90'
  }`}
                   >
@@ -1130,7 +1130,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     onClick={() => setShareCardType('square')}
                     className={`flex-1 max-w-[170px] min-h-[48px] px-4 py-2.5 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
  shareCardType === 'square'
- ? 'rd-bg-accent text-black rd-hairline shadow-amber-500/20'
+ ? 'rd-bg-accent rd-hairline'
  : 'rd-bg-surface rd-text-muted rd-hairline hover:opacity-90 hover:opacity-90'
  }`}
                   >
@@ -1392,7 +1392,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
 
       {/* Copy-link toast */}
       {showToast && (
-        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[200] px-6 py-3 rounded-full rd-bg-accent text-black font-bold text-sm shadow-amber-500/30 animate-in fade-in slide-in-from-bottom-2 duration-200">
+        <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[200] px-6 py-3 rounded-full rd-bg-accent font-bold text-sm animate-in fade-in slide-in-from-bottom-2 duration-200">
           {locale === 'ko' ? '복사 완료!' : 'Copied!'}
         </div>
       )}

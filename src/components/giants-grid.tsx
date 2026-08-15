@@ -278,7 +278,7 @@ export function GiantsGrid({ dbCardData }: GiantsGridProps) {
                     alt={tg(`${giant.slug}.name`)}
                     fill
                     sizes="56px"
-                    className="object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
+                    className="rd-portrait object-cover object-top transition-transform duration-700 group-hover:scale-110 rounded-t-xl"
                   />
                 </div>
                 

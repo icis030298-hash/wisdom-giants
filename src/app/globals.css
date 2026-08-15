@@ -244,6 +244,19 @@
   font-style: normal;
 }
 
+/* 위인 초상 통일 보정. 에셋은 여러 세대에 걸쳐 생성돼 원판 색과 배경이
+   제각각이라, 한 장씩은 멀쩡해도 격자에 모이면 온도가 어긋난다. 채도를
+   눌러 종이 쪽으로 당기면 493장이 한 세트로 읽힌다.
+   에셋 자체는 손대지 않으므로 이 한 줄을 지우면 원상 복구된다.
+
+   내보내기 카드(ShareCard, DNA 공유 카드, debate 하이라이트)에는 절대 붙이지
+   말 것 — html2canvas 계열이 CSS filter를 래스터화하지 못해 화면과 PNG가
+   달라진다. /chats /dna /reels /debate /consult 의 초상은 6단계에서 해당
+   페이지가 크림으로 바뀔 때 함께 붙인다. */
+.rd-portrait {
+  filter: saturate(.5) sepia(.3) contrast(.93) brightness(1.04);
+}
+
 /* Custom animations */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
