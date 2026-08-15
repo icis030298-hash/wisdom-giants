@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Sparkles, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/routing'
 import { ContactForm } from '@/components/contact-form'
@@ -34,41 +34,64 @@ export default function Footer() {
     <>
       <ContactForm isOpen={contactOpen} onClose={() => setContactOpen(false)} />
 
-      <footer className="relative py-24 px-6 border-t border-border/30 overflow-hidden">
-        {/* Ambient glow */}
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-gradient-to-t from-amber-500/5 to-transparent blur-3xl pointer-events-none" />
-
+      <footer
+        className="relative py-16 px-6 overflow-hidden"
+        style={{
+          background: "var(--rd-surface)",
+          borderTop: "1px solid var(--rd-border)",
+          color: "var(--rd-text-body)",
+        }}
+      >
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
             {/* Brand */}
             <div className="lg:col-span-2">
               <Link href="/" className="flex items-center gap-3 mb-6 group">
-                <BrandMark className="w-11 h-11 transition-transform group-hover:scale-110 drop-shadow-[0_4px_12px_rgba(245,158,11,0.2)]" />
+                <BrandMark className="w-10 h-10" />
                 <div>
-                  <span className="font-serif text-xl font-bold text-foreground/90 tracking-tight">
+                  <span
+                    className="font-serif block"
+                    style={{
+                      color: "var(--rd-text-ink)",
+                      fontSize: "var(--rd-h1-size)",
+                      fontWeight: "var(--rd-h1-weight)",
+                      letterSpacing: "var(--rd-h1-tracking)",
+                      lineHeight: "var(--rd-h1-leading)",
+                    }}
+                  >
                     Giants Wisdom
                   </span>
-                  <p className="text-[10px] text-muted-foreground/60 tracking-wider uppercase">{t('brand.subtitle')}</p>
+                  {/* No uppercase, no wide tracking. */}
+                  <p
+                    style={{
+                      color: "var(--rd-text-muted)",
+                      fontSize: "var(--rd-caption-size)",
+                      letterSpacing: "var(--rd-caption-tracking)",
+                      lineHeight: "var(--rd-caption-leading)",
+                    }}
+                  >
+                    {t('brand.subtitle')}
+                  </p>
                 </div>
               </Link>
-              <p className="text-muted-foreground/70 text-sm leading-relaxed mb-8 max-w-sm">
+              <p className="mb-8 max-w-sm" style={{ color: "var(--rd-text-body)", fontSize: "var(--rd-body-size)", lineHeight: "var(--rd-body-leading)" }}>
                 {t('brand.description')}
               </p>
               {/* Email / Contact icon */}
               <div className="flex items-center gap-4">
                 <a
                   href="mailto:contact@giantswisdom.com"
-                  className="text-muted-foreground/50 hover:text-amber-400/80 transition-all flex items-center gap-2"
+                  className="flex items-center gap-2 transition-colors hover:opacity-70" style={{ color: "var(--rd-text-muted)" }}
                   aria-label="Contact us via email"
                 >
                   <Mail className="w-5 h-5" />
-                  <span className="text-xs font-light">contact@giantswisdom.com</span>
+                  <span style={{ fontSize: "var(--rd-caption-size)", letterSpacing: "var(--rd-caption-tracking)" }}>contact@giantswisdom.com</span>
                 </a>
                 <a
                   href="https://www.instagram.com/giantswisdom/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-muted-foreground/50 hover:text-amber-400/80 transition-all"
+                  className="transition-colors hover:opacity-70" style={{ color: "var(--rd-text-muted)" }}
                   aria-label="Instagram"
                 >
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
@@ -81,7 +104,7 @@ export default function Footer() {
                   href="https://x.com/GiantsWisdom"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-muted-foreground/50 hover:text-amber-400/80 transition-all"
+                  className="transition-colors hover:opacity-70" style={{ color: "var(--rd-text-muted)" }}
                   aria-label="X (Twitter)"
                 >
                   <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -93,11 +116,22 @@ export default function Footer() {
 
             {/* Explore links */}
             <div>
-              <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">{t('sections.explore')}</h4>
+              {/* No uppercase, no wide tracking. */}
+              <h4
+                className="mb-5"
+                style={{
+                  color: "var(--rd-text-ink)",
+                  fontSize: "var(--rd-sidebar-label-size)",
+                  fontWeight: "var(--rd-sidebar-label-weight)",
+                  lineHeight: "var(--rd-sidebar-label-leading)",
+                }}
+              >
+                {t('sections.explore')}
+              </h4>
               <ul className="space-y-4">
                 {footerLinks.explore.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href as any} className="text-muted-foreground/60 hover:text-amber-400/80 transition-colors text-sm font-light">
+                    <Link href={link.href as any} className="transition-colors hover:underline" style={{ color: "var(--rd-text-body)", fontSize: "var(--rd-body-size)", lineHeight: "var(--rd-body-leading)" }}>
                       {link.label}
                     </Link>
                   </li>
@@ -107,11 +141,21 @@ export default function Footer() {
 
             {/* Info links */}
             <div>
-              <h4 className="text-xs font-semibold text-foreground/70 uppercase tracking-widest mb-6">{t('sections.info')}</h4>
+              <h4
+                className="mb-5"
+                style={{
+                  color: "var(--rd-text-ink)",
+                  fontSize: "var(--rd-sidebar-label-size)",
+                  fontWeight: "var(--rd-sidebar-label-weight)",
+                  lineHeight: "var(--rd-sidebar-label-leading)",
+                }}
+              >
+                {t('sections.info')}
+              </h4>
               <ul className="space-y-4">
                 {footerLinks.info.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href as any} className="text-muted-foreground/60 hover:text-amber-400/80 transition-colors text-sm font-light">
+                    <Link href={link.href as any} className="transition-colors hover:underline" style={{ color: "var(--rd-text-body)", fontSize: "var(--rd-body-size)", lineHeight: "var(--rd-body-leading)" }}>
                       {link.label}
                     </Link>
                   </li>
@@ -122,8 +166,8 @@ export default function Footer() {
           </div>
 
           {/* Bottom bar */}
-          <div className="pt-10 border-t border-border/20 flex flex-col items-center justify-center gap-4 mt-16 text-center">
-            <p className="text-xs text-muted-foreground/40 font-light tracking-wide">
+          <div className="pt-8 flex flex-col items-center justify-center gap-4 mt-12 text-center" style={{ borderTop: "1px solid var(--rd-divider-faint)" }}>
+            <p style={{ color: "var(--rd-text-muted)", fontSize: "var(--rd-caption-size)", letterSpacing: "var(--rd-caption-tracking)" }}>
               &copy; 2026 Giants Wisdom. {
                 locale === 'ko' ? '모든 권리 보유.' :
                 locale === 'ja' ? '無断複写・転載を禁じます。' :

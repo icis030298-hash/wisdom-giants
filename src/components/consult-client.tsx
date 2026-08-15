@@ -7,9 +7,15 @@ import { PROBLEM_CATEGORIES } from "@/data/problems"
 import { PROBLEM_GIANT_MAP } from "@/data/problem-giant-map"
 import { useTranslations } from "next-intl"
 import { ArrowLeft, MessageSquare, Sparkles, AlertCircle } from "lucide-react"
+import { lifespan } from "@/lib/era"
 
 interface ConsultClientProps {
   locale: string
+  /** Era phrase per slug, resolved from giants-summary.json on the server.
+   *  messages.Giants.<slug>.era carried a "Giants of History" placeholder for
+   *  44 of the 493, and the summary file is 10.8MB so it cannot be imported
+   *  into a client bundle. */
+  eraBySlug?: Record<string, string>
 }
 
 function GiantAvatar({ slug, name }: { slug: string; name: string }) {
@@ -25,7 +31,7 @@ function GiantAvatar({ slug, name }: { slug: string; name: string }) {
   
   if (imgError) {
     return (
-      <div className="w-20 h-20 rounded-full bg-amber-900 flex items-center justify-center text-amber-400 font-bold text-xl mb-3 shadow-lg group-hover:scale-105 transition-transform duration-500">
+      <div className="w-20 h-20 rounded-full flex items-center justify-center rd-accent font-bold text-xl mb-3 border rd-hairline" style={{ background: "var(--rd-divider-faint)" }}>
         {initials}
       </div>
     )
@@ -37,7 +43,7 @@ function GiantAvatar({ slug, name }: { slug: string; name: string }) {
       alt={name}
       onError={() => setImgError(true)}
       loading="lazy"
-      className="w-20 h-20 rounded-full object-cover mb-3 border border-amber-500/20 shadow-lg group-hover:scale-105 transition-transform duration-500"
+      className="rd-portrait w-20 h-20 rounded-full object-cover mb-3 border rd-hairline"
     />
   )
 }
@@ -261,7 +267,7 @@ const tMap: Record<string, any> = {
   }
 };
 
-export function ConsultClient({ locale }: ConsultClientProps) {
+export function ConsultClient({ locale, eraBySlug }: ConsultClientProps) {
   const router = useRouter()
   const tg = useTranslations("Giants")
   const [selectedProblemId, setSelectedProblemId] = useState<string | null>(null)
@@ -376,39 +382,35 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   const matchedGiants = matchedGiantsRaw.map((mg: any) => {
     const info = giants.find(g => g.slug === mg.slug)
     const name = tg(`${mg.slug}.name`) || info?.name || mg.slug
-    const era = tg(`${mg.slug}.era`) || info?.era || ""
+    const era = eraBySlug?.[mg.slug] || info?.era || ""
     const imageUrl = info?.imageUrl || `/images/giants/${mg.slug}.jpg`
-    const color = info?.era ? "from-amber-500/10 to-orange-500/10" : "from-stone-900 to-stone-800"
     
     return {
       ...mg,
       name,
       era,
-      imageUrl,
-      color
+      imageUrl
     }
   })
 
   // Skeleton UI Loader for optimizing visual speed (First Contentful Paint)
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-stone-950 text-foreground relative overflow-hidden flex flex-col justify-between">
-        {/* Background glow effects */}
-        <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-amber-500/[0.03] rounded-full blur-[120px] pointer-events-none" />
-        <div className="absolute bottom-10 right-1/4 w-[600px] h-[600px] bg-stone-800/10 rounded-full blur-[150px] pointer-events-none" />
+      <div className="min-h-screen relative overflow-hidden flex flex-col justify-between" style={{ background: "var(--rd-bg-base)", color: "var(--rd-text-body)" }}>
         
         <div className="max-w-6xl mx-auto w-full px-4 md:px-8 py-24 flex-1 flex flex-col justify-center animate-pulse">
           <div className="text-center max-w-xl mx-auto mb-16 space-y-4">
-            <div className="w-12 h-12 rounded-full bg-stone-900 mx-auto mb-4" />
-            <div className="h-10 bg-stone-900 w-3/4 mx-auto rounded-lg" />
-            <div className="h-6 bg-stone-900 w-1/2 mx-auto rounded-lg mt-2" />
+            <div className="w-12 h-12 rounded-full mx-auto mb-4" style={{ background: "var(--rd-divider-faint)" }} />
+            <div className="h-10 w-3/4 mx-auto rounded-lg" style={{ background: "var(--rd-divider-faint)" }} />
+            <div className="h-6 w-1/2 mx-auto rounded-lg mt-2" style={{ background: "var(--rd-divider-faint)" }} />
           </div>
           
           <div className="flex flex-wrap justify-center gap-6 w-full max-w-5xl">
             {[...Array(6)].map((_, i) => (
               <div
                 key={i}
-                className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] h-64 bg-stone-900/40 rounded-3xl border border-stone-800/60 p-8"
+                className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] h-64 rd-surface p-8"
+                style={{ borderRadius: "var(--rd-card-radius)" }}
               />
             ))}
           </div>
@@ -418,10 +420,8 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   }
 
   return (
-    <div className="min-h-screen bg-stone-950 text-foreground relative overflow-hidden flex flex-col justify-between">
+    <div className="min-h-screen relative overflow-hidden flex flex-col justify-between" style={{ background: "var(--rd-bg-base)", color: "var(--rd-text-body)" }}>
       {/* Background glow effects */}
-      <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-amber-500/[0.03] rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-10 right-1/4 w-[600px] h-[600px] bg-stone-800/10 rounded-full blur-[150px] pointer-events-none" />
       
       <div className="max-w-6xl mx-auto w-full px-4 md:px-8 py-24 flex-1 flex flex-col justify-center">
         <AnimatePresence mode="wait" initial={false}>
@@ -436,10 +436,9 @@ export function ConsultClient({ locale }: ConsultClientProps) {
             >
               <div className="flex flex-col items-center gap-8">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-amber-500/20 blur-xl rounded-full" />
-                  <div className="animate-spin w-16 h-16 border-4 border-stone-800 border-t-amber-500 rounded-full relative z-10" />
+                  <div className="animate-spin w-16 h-16 rounded-full relative z-10" style={{ border: "4px solid var(--rd-divider-faint)", borderTopColor: "var(--rd-accent-brown)" }} />
                 </div>
-                <p className="text-stone-300 font-medium text-lg animate-pulse tracking-wide">
+                <p className="rd-text-body font-medium text-lg">
                   {labels.analyzing || "당신의 고민과 닮은 거인을 찾고 있어요..."}
                 </p>
               </div>
@@ -458,17 +457,18 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                 <m.div 
                   initial={false}
                   animate={{ scale: 1 }} 
-                  className="w-12 h-12 rounded-full bg-amber-500/10 border border-amber-500/20 flex items-center justify-center mx-auto mb-4"
+                  className="w-12 h-12 rounded-full border rd-hairline flex items-center justify-center mx-auto mb-4"
+                  style={{ background: "var(--rd-divider-faint)" }}
                 >
-                  <Sparkles className="w-5 h-5 text-amber-400" />
+                  <Sparkles className="w-5 h-5 rd-accent" />
                 </m.div>
-                <h1 className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight text-center leading-tight">
+                <h1 className="text-4xl md:text-5xl font-serif font-bold rd-text-ink text-center leading-tight">
                   {labels.title}
                 </h1>
-                <p className="text-stone-400 text-lg">
+                <p className="rd-lede">
                   {labels.subtitle}
                 </p>
-                <div className="w-20 h-0.5 bg-gradient-to-r from-transparent via-amber-500/30 to-transparent mx-auto pt-2" />
+                <div className="w-20 mx-auto mt-4" style={{ borderTop: "1px solid var(--rd-border)" }} />
               </div>
 
 
@@ -482,15 +482,17 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                       key={problem.id}
                       onClick={() => handleProblemSelect(problem.id)}
                       disabled={isMatching}
-                      className="group p-6 rounded-[2rem] border border-stone-800 bg-stone-900/30 hover:bg-stone-800/50 hover:border-amber-500/50 hover:-translate-y-1 hover:shadow-[0_8px_25px_rgba(245,158,11,0.15)] transition-all duration-300 text-left flex flex-col cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 disabled:hover:border-stone-800"
+                      className="group p-6 rd-surface hover:opacity-90 transition-opacity text-left flex flex-col cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                      style={{ borderRadius: "var(--rd-card-radius)", transitionDuration: "120ms" }}
                     >
-                      <div className="text-3xl mb-4 bg-stone-950 w-12 h-12 rounded-full flex items-center justify-center border border-white/5 group-hover:scale-110 group-hover:border-amber-500/30 transition-all duration-300 shadow-sm">
+                      <div className="text-3xl mb-4 w-12 h-12 rounded-full flex items-center justify-center border rd-hairline"
+                        style={{ background: "var(--rd-divider-faint)" }}>
                         {problem.emoji}
                       </div>
-                      <h3 className="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors duration-300">
+                      <h3 className="text-lg font-bold rd-text-ink mb-2">
                         {t.title}
                       </h3>
-                      <p className="text-stone-400 text-sm leading-relaxed">
+                      <p className="rd-text-body text-sm leading-relaxed">
                         {t.subtitle}
                       </p>
                     </button>
@@ -499,31 +501,31 @@ export function ConsultClient({ locale }: ConsultClientProps) {
               </div>
 
               {/* Custom Problem Input Section */}
-              <div className="w-full max-w-4xl mx-auto p-8 rounded-[2rem] border border-amber-500/10 bg-stone-900/40 backdrop-blur-sm relative overflow-hidden text-center shadow-2xl">
-                <div className="absolute top-0 right-0 w-32 h-32 bg-amber-500/[0.02] rounded-full blur-2xl pointer-events-none" />
-                <h3 className="text-white font-serif font-bold text-xl mb-2 flex items-center justify-center gap-2">
-                  <MessageSquare className="w-5 h-5 text-amber-400" />
+              <div className="w-full max-w-4xl mx-auto p-8 rd-surface relative overflow-hidden text-center" style={{ borderRadius: "var(--rd-card-radius)" }}>
+                <h3 className="rd-text-ink font-serif font-bold text-xl mb-2 flex items-center justify-center gap-2">
+                  <MessageSquare className="w-5 h-5 rd-accent" />
                   {labels.customTitle}
                 </h3>
-                <p className="text-stone-400 text-sm mb-6 max-w-md mx-auto">
+                <p className="rd-text-body text-sm mb-6 max-w-md mx-auto">
                   {labels.customDesc}
                 </p>
                 <textarea
                   value={customProblemText}
                   onChange={(e) => setCustomProblemText(e.target.value.slice(0, 300))}
                   placeholder={labels.customPlaceholder}
-                  className="w-full h-32 px-5 py-4 rounded-2xl bg-stone-950/80 border border-stone-800 text-foreground text-sm focus:outline-none focus:border-amber-500/40 transition-colors resize-none placeholder:text-stone-700 mb-4 shadow-inner"
+                  className="w-full h-32 px-5 py-4 border rd-input rd-bg-surface rd-text-ink text-sm focus:outline-none transition-all resize-none mb-4"
                 />
                 <div className="flex items-center justify-between">
-                  <span className="text-[10px] text-stone-600 font-semibold tracking-wider">{customProblemText.length} / 300</span>
+                  <span className="rd-caption font-semibold">{customProblemText.length} / 300</span>
                   <button
                     onClick={handleCustomProblemSubmit}
                     disabled={!customProblemText.trim() || isMatching}
-                    className="bg-amber-500 hover:bg-amber-400 disabled:opacity-50 text-stone-950 font-black px-6 py-3 rounded-2xl transition-all text-xs flex items-center gap-2 shadow-[0_4px_15px_rgba(245,158,11,0.15)] cursor-pointer disabled:cursor-not-allowed"
+                    className="rd-bg-accent border disabled:opacity-50 font-bold px-6 py-3 hover:opacity-90 transition-opacity text-xs flex items-center gap-2 cursor-pointer disabled:cursor-not-allowed"
+                    style={{ borderRadius: "var(--rd-card-radius)", borderColor: "var(--rd-accent-brown)" }}
                   >
                     {isMatching ? (
                       <>
-                        <span className="animate-spin w-3.5 h-3.5 border-2 border-stone-950 border-t-transparent rounded-full" />
+                        <span className="animate-spin w-3.5 h-3.5 rounded-full" style={{ border: "2px solid var(--rd-surface)", borderTopColor: "transparent" }} />
                         <span>{labels.analyzing}</span>
                       </>
                     ) : (
@@ -549,7 +551,8 @@ export function ConsultClient({ locale }: ConsultClientProps) {
               >
                 <button
                   onClick={handleGoBack}
-                  className="group flex items-center gap-2 text-stone-400 hover:text-amber-400 transition-colors mb-12 text-sm font-semibold py-2 px-4 rounded-xl border border-stone-800 hover:border-amber-500/20 bg-stone-900/30 cursor-pointer"
+                  className="group flex items-center gap-2 rd-text-body hover:opacity-80 transition-opacity mb-12 text-sm font-semibold py-2 px-4 border rd-hairline rd-bg-surface cursor-pointer"
+                  style={{ borderRadius: "var(--rd-card-radius)" }}
                 >
                   <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
                   <span>{labels.back}</span>
@@ -559,16 +562,16 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                   <div className="text-6xl mb-4 filter drop-shadow-[0_6px_15px_rgba(0,0,0,0.6)]">
                     {isCustomProblemMode ? "💭" : selectedProblem?.emoji}
                   </div>
-                  <h2 className="text-3xl md:text-4xl font-serif text-white font-bold">
+                  <h2 className="text-3xl md:text-4xl font-serif rd-text-ink font-bold">
                     {isCustomProblemMode ? labels.customResultTitle : (selectedProblem?.translations[activeLocale]?.title || selectedProblem?.translations['en']?.title)}
                   </h2>
-                  <p className="text-amber-400/90 font-medium text-lg">
+                  <p className="rd-lede">
                     {labels.notAlone}
                   </p>
-                  <p className="text-stone-400 max-w-xl mx-auto text-base">
+                  <p className="rd-text-body max-w-xl mx-auto text-base">
                     {isCustomProblemMode ? labels.customResultDesc : labels.overcoming}
                   </p>
-                  <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-amber-500/40 to-transparent mx-auto pt-2" />
+                  <div className="w-24 mx-auto mt-4" style={{ borderTop: "1px solid var(--rd-border)" }} />
                 </div>
 
                 <div className="space-y-6">
@@ -577,30 +580,29 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                       key={giant.slug}
                       initial={false}
                       animate={{ opacity: 1, x: 0 }}
-                      className="bg-stone-900/50 border border-stone-800 hover:border-white/[0.08] rounded-[2rem] p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start relative overflow-hidden group backdrop-blur-sm shadow-xl"
+                      className="rd-surface p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 items-center md:items-start relative overflow-hidden group"
+                      style={{ borderRadius: "var(--rd-card-radius)" }}
                     >
-                      {/* Ambient background blur */}
-                      <div className="absolute top-0 right-0 w-48 h-48 bg-amber-500/[0.01] rounded-full blur-[80px]" />
                       
                       {/* Giant Avatar & Details */}
                       <div className="flex flex-col items-center shrink-0 w-full md:w-36">
                         <GiantAvatar slug={giant?.slug} name={tg(`${giant?.slug}.name`).includes(`${giant?.slug}.`) ? (giant?.name || 'Unknown') : tg(`${giant?.slug}.name`)} />
-                        <p className="text-white font-serif font-bold text-lg text-center leading-tight">
+                        <p className="rd-text-ink font-serif font-bold text-lg text-center leading-tight">
                           {tg(`${giant?.slug}.name`).includes(`${giant?.slug}.`) ? (giant?.name || 'Unknown') : tg(`${giant?.slug}.name`)}
                         </p>
-                        <p className="text-stone-500 text-xs text-center mt-1 truncate max-w-full">
-                          {tg(`${giant?.slug}.era`).includes(`${giant?.slug}.`) ? (giant?.era || '') : tg(`${giant?.slug}.era`)}
+                        <p className="rd-caption text-center mt-1 truncate max-w-full">
+                          {lifespan(giant?.era) || ''}
                         </p>
                       </div>
 
                       {/* Pain & Action Button */}
                       <div className="flex-1 flex flex-col justify-between h-full text-center md:text-left">
                         <div className="space-y-3 mb-6">
-                          <div className="flex items-center justify-center md:justify-start gap-2 text-stone-500 uppercase tracking-widest text-[10px] font-bold">
-                            <AlertCircle className="w-3.5 h-3.5 text-stone-600" />
+                          <div className="flex items-center justify-center md:justify-start gap-2 rd-caption font-bold">
+                            <AlertCircle className="w-3.5 h-3.5" />
                             <span>{labels.sufferedTogether}</span>
                           </div>
-                          <p className="text-stone-200 text-base leading-relaxed whitespace-pre-line font-serif italic pl-0 md:pl-2 border-l-0 md:border-l-2 border-amber-500/20 py-1">
+                          <p className="rd-quote text-base leading-relaxed whitespace-pre-line font-serif py-1">
                             &ldquo;{giant?.reason || giant?.historicalPain?.[activeLocale] || giant?.historicalPain?.['en'] || ''}&rdquo;
                           </p>
                         </div>
@@ -608,7 +610,8 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                         <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
                           <button
                             onClick={() => handleStartConsult(giant?.slug)}
-                            className="bg-amber-500 hover:bg-amber-400 text-stone-950 font-black px-6 py-3 rounded-2xl transition-all text-sm flex items-center gap-2 shadow-[0_4px_20px_rgba(245,158,11,0.15)] hover:shadow-[0_4px_25px_rgba(245,158,11,0.3)] hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
+                            className="rd-bg-accent border font-bold px-6 py-3 hover:opacity-90 transition-opacity text-sm flex items-center gap-2 cursor-pointer"
+                            style={{ borderRadius: "var(--rd-card-radius)", borderColor: "var(--rd-accent-brown)" }}
                           >
                             <MessageSquare className="w-4 h-4" />
                             <span>{getChatButtonText(giant?.name || '', activeLocale)}</span>
@@ -617,9 +620,10 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                           
                           <button
                             onClick={() => handleGoToEpic(giant?.slug)}
-                            className="border border-amber-500/20 hover:border-amber-500/50 hover:bg-amber-500/10 text-amber-300 font-bold px-6 py-3 rounded-2xl transition-all text-sm flex items-center gap-2 hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
+                            className="border rd-hairline rd-bg-surface rd-accent font-bold px-6 py-3 hover:opacity-80 transition-opacity text-sm flex items-center gap-2 cursor-pointer"
+                            style={{ borderRadius: "var(--rd-card-radius)" }}
                           >
-                            <Sparkles className="w-4 h-4 text-amber-400/80" />
+                            <Sparkles className="w-4 h-4" />
                             <span>{getEpicButtonText(giant.name, activeLocale)}</span>
                           </button>
                         </div>

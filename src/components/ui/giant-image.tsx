@@ -18,7 +18,7 @@ export function GiantImage({ src, alt, fallbackText, containerClassName, classNa
 
   if (!src || imgError) {
     return (
-      <div className={`flex items-center justify-center bg-muted text-amber-100 font-serif font-bold ${containerClassName}`}>
+      <div className={`flex items-center justify-center rd-bg-faint rd-accent font-serif font-bold ${containerClassName}`}>
         {fallbackText}
       </div>
     )

@@ -1,6 +1,9 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css");
 @import 'tailwindcss';
 @import 'tw-animate-css';
+/* Redesign token definitions. Custom properties only — nothing in that file is
+   applied to an element, so it cannot affect the current rendering. */
+@import './design-tokens.css';
 
 
 @custom-variant dark (&:is(.dark *));
@@ -71,8 +74,23 @@
 }
 
 @theme inline {
-  --font-sans: 'Pretendard', var(--font-noto-sans), -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
-  --font-serif: var(--font-nanum-myeongjo), var(--font-playfair), 'Nanum Myeongjo', serif;
+  /* Points at the script-aware stack so the `font-sans` utility inherits the
+     :lang() overrides too. `@theme inline` writes this value into the utility
+     verbatim, which keeps it a live var() reference rather than freezing the
+     font list at build time. */
+  --font-sans: var(--rd-font-sans);
+  /* Headings render in Pretendard, the same family as the body, with weight
+     carrying the hierarchy — which is what the --rd-*-weight steps were built
+     for. The serif stack could not do that job: the Nanum Myeongjo webfont is
+     a latin subset of 21KB whose @font-face still claims U+0-10FFFF, so the
+     browser tried to draw Hangul with it, found no glyph, and fell back per
+     character to Batang or whatever system serif was around. Every Korean
+     heading on the site was rendering in a font nobody chose.
+
+     The utility name stays `font-serif` because 68 usages across 22 files
+     still reference it and several of those files were only just stabilised.
+     Retiring the utility itself is a separate pass. */
+  --font-serif: var(--rd-font-sans);
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -120,10 +138,233 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground font-sans;
-    letter-spacing: -0.02em;
+  html {
+    background-color: var(--rd-bg-base);
   }
+  body {
+    background-color: var(--rd-bg-base);
+    color: var(--rd-text-body);
+    font-family: var(--rd-font-sans);
+    /* No global letter-spacing. A single value is wrong at some size, and a
+       negative one breaks cursive joining in Arabic and Persian and cluster
+       shaping in Thai and Devanagari. Tracking now belongs to each type step
+       (--rd-*-tracking); see design-tokens.css. */
+  }
+}
+
+/* ── Redesign surface ──────────────────────────────────────────────────────
+   Replaces the translucent .glass treatment for the chrome. Opaque so text
+   over it never competes with whatever scrolls underneath. */
+.rd-surface {
+  background-color: var(--rd-surface);
+  border: 1px solid var(--rd-border);
+}
+
+.rd-hairline-bottom {
+  border-bottom: 1px solid var(--rd-border);
+}
+
+/* Colour utilities for the detail page. Named rather than inlined because that
+   component carries ~90 of them; keeping the mapping here means the palette
+   still has exactly one definition. */
+.rd-text-ink { color: var(--rd-text-ink); }
+.rd-text-body { color: var(--rd-text-body); }
+.rd-text-muted { color: var(--rd-text-muted); }
+.rd-accent { color: var(--rd-accent-brown); }
+.rd-bg-surface { background-color: var(--rd-surface); }
+.rd-bg-accent { background-color: var(--rd-accent-brown); color: var(--rd-surface); }
+.rd-hairline { border-color: var(--rd-border); }
+
+/* ── Stage 5: blog posts and static documents ──────────────────────────────
+   These pages are a single column of prose with no sidebar, so the only thing
+   holding them together is the measure and the type steps. Both live here
+   rather than in each page, which is what kept /privacy, /terms and
+   /disclaimer from drifting apart the last time they were touched
+   independently. */
+.rd-reading {
+  max-width: var(--rd-reading);
+  margin-inline: auto;
+}
+
+.rd-body-lg {
+  color: var(--rd-text-body);
+  font-size: var(--rd-body-lg-size);
+  font-weight: var(--rd-body-lg-weight);
+  letter-spacing: var(--rd-body-lg-tracking);
+  line-height: var(--rd-leading-body);
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.rd-lede {
+  color: var(--rd-accent-brown);
+  font-size: var(--rd-lede-size);
+  font-weight: var(--rd-lede-weight);
+  letter-spacing: var(--rd-lede-tracking);
+  line-height: var(--rd-lede-leading);
+  word-break: keep-all;
+}
+
+.rd-doc-h2 {
+  color: var(--rd-accent-brown);
+  font-size: var(--rd-doc-h2-size);
+  font-weight: var(--rd-doc-h2-weight);
+  letter-spacing: var(--rd-doc-h2-tracking);
+  line-height: var(--rd-doc-h2-leading);
+  word-break: keep-all;
+}
+
+.rd-doc-h3 {
+  color: var(--rd-text-ink);
+  font-size: var(--rd-doc-h3-size);
+  font-weight: var(--rd-doc-h3-weight);
+  letter-spacing: var(--rd-doc-h3-tracking);
+  line-height: var(--rd-doc-h3-leading);
+  word-break: keep-all;
+}
+
+.rd-caption {
+  color: var(--rd-text-muted);
+  font-size: var(--rd-caption-size);
+  letter-spacing: var(--rd-caption-tracking);
+  line-height: var(--rd-caption-leading);
+}
+
+/* Underline offset rather than a colour-only link: colour alone is not a
+   sufficient affordance, and the brown against cream is close enough in
+   lightness that it would fail on its own. */
+.rd-link {
+  color: var(--rd-accent-brown);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+}
+.rd-link:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* A pull quote, not a block divider, so this rule is 2px and accent-coloured
+   where the sidebar block rules are 1px and border-coloured.
+   Deliberately not italic: italic is a Latin convention. Applied to Hangul,
+   Kana, Arabic or Devanagari the browser synthesises an oblique, which shears
+   the glyphs and, in Arabic, breaks cursive joining. */
+.rd-quote {
+  border-inline-start: 2px solid var(--rd-accent-brown);
+  padding-inline-start: 1.25rem;
+  color: var(--rd-text-body);
+  font-style: normal;
+}
+
+/* ── Stage 6: form fields ──────────────────────────────────────────────────
+   The first inputs on the cream palette. The focus state is a ring rather
+   than a border-colour swap: against cream the resting and focused border
+   are close in lightness, so colour alone would not carry it. The error
+   state changes the ring as well as the border for the same reason — and
+   the message beside the field is what actually says what is wrong. */
+.rd-input {
+  border-color: var(--rd-border);
+  border-radius: var(--rd-card-radius);
+}
+.rd-input::placeholder,
+.rd-input-error::placeholder {
+  color: var(--rd-text-muted);
+  opacity: 0.7;
+}
+.rd-input:focus {
+  border-color: var(--rd-accent-brown);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--rd-accent-brown) 30%, transparent);
+}
+.rd-input-error {
+  border-color: var(--rd-error);
+  border-radius: var(--rd-card-radius);
+}
+.rd-input-error:focus {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--rd-error) 30%, transparent);
+}
+
+/* The scrim behind every modal. Warm rather than neutral black: over cream a
+   pure black wash reads as a hole in the page, and the same value is used by
+   the chat overlay and the contact form so the two never diverge. */
+.rd-scrim { background-color: rgba(44, 34, 26, 0.45); }
+
+/* ── Stage 6: the remaining fills and status colours ───────────────────────
+   The debate room alone carried about three hundred colour utilities. Naming
+   the handful of roles it actually uses is what let that file be converted
+   without inventing a new colour per panel. */
+.rd-bg-page { background-color: var(--rd-bg-base); }
+.rd-bg-faint { background-color: var(--rd-divider-faint); }
+.rd-border-accent { border-color: var(--rd-accent-brown); }
+.rd-text-error { color: var(--rd-error); }
+.rd-bg-error { background-color: var(--rd-error-bg); }
+.rd-border-error { border-color: var(--rd-error); }
+
+/* ── Stage 6: selected chip and the recorder button ────────────────────────
+   Selection carries a filled border as well as a tint, so it survives being
+   viewed in greyscale. The record button keeps red — it is the one control
+   on the site where the convention outweighs the palette, and it is paired
+   with a text label rather than standing on colour alone. */
+.rd-selected {
+  background-color: var(--rd-divider-faint);
+  border-color: var(--rd-accent-brown);
+  color: var(--rd-accent-brown);
+}
+.rd-rec-idle {
+  background-color: var(--rd-error);
+  border: 1px solid var(--rd-error);
+  color: var(--rd-surface);
+}
+.rd-rec-active {
+  background-color: var(--rd-error-bg);
+  border: 1px solid var(--rd-error);
+  color: var(--rd-error);
+}
+
+/* ── Stage 6: chat bubbles ─────────────────────────────────────────────────
+   Four signals separate the two speakers, and only one of them is colour:
+   which side the row is aligned to, which top corner is squared off, the
+   border, and the fill. On the dark build the amber tint alone did most of
+   the work; on cream the two fills are only a few percent apart in lightness,
+   so it could not be allowed to carry the distinction by itself. */
+.rd-bubble-user {
+  background-color: var(--rd-divider-faint);
+  border: 1px solid var(--rd-accent-brown);
+  color: var(--rd-text-ink);
+}
+.rd-bubble-giant {
+  background-color: var(--rd-surface);
+  border: 1px solid var(--rd-border);
+  color: var(--rd-text-body);
+}
+
+/* 무한 회전·펄스가 15개 파일에 흩어져 있다. 개별로 끄는 대신 한 곳에서
+   전역으로 차단한다. 0이 아니라 0.01ms인 것은, 애니메이션 종료에 의존하는
+   JS(transitionend 등)가 영영 기다리지 않게 하기 위해서다. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 위인 초상 통일 보정. 에셋은 여러 세대에 걸쳐 생성돼 원판 색과 배경이
+   제각각이라, 한 장씩은 멀쩡해도 격자에 모이면 온도가 어긋난다. 채도를
+   눌러 종이 쪽으로 당기면 493장이 한 세트로 읽힌다.
+   에셋 자체는 손대지 않으므로 이 한 줄을 지우면 원상 복구된다.
+
+   내보내기 카드(ShareCard, DNA 공유 카드, debate 하이라이트)에는 절대 붙이지
+   말 것 — html2canvas 계열이 CSS filter를 래스터화하지 못해 화면과 PNG가
+   달라진다. /chats /dna /reels /debate /consult 의 초상은 6단계에서 해당
+   페이지가 크림으로 바뀔 때 함께 붙인다. */
+.rd-portrait {
+  /* Retuned after the regeneration pass. The original .5/.3 was calibrated
+     against plates whose saturation ran 0.45-0.65; the set now averages 0.169,
+     and pressing that hard turned the ones that were already right — Confucius
+     sits at 0.084 — the colour of mud. .7/.12 still pulls in the 147 plates
+     that have not been redrawn yet (0.20-0.28) while leaving the new ones the
+     colour they were drawn in. */
+  filter: saturate(.7) sepia(.12) contrast(.96) brightness(1.02);
 }
 
 /* Custom animations */
@@ -164,21 +405,6 @@
   animation: fade-in-up 0.6s ease-out forwards;
 }
 
-/* Glassmorphism utilities */
-.glass {
-  background: rgba(15, 23, 42, 0.4);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(148, 163, 184, 0.15);
-}
-
-.glass-card {
-  background: rgba(15, 23, 42, 0.5);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(148, 163, 184, 0.1);
-}
-
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
@@ -186,16 +412,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(15, 23, 42, 0.5);
+  background: var(--rd-divider-faint);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(245, 158, 11, 0.3);
+  background: var(--rd-border);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(245, 158, 11, 0.5);
+  background: var(--rd-text-muted);
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -207,12 +433,12 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(245, 158, 11, 0.2);
+  background: var(--rd-border);
   border-radius: 20px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(245, 158, 11, 0.4);
+  background: var(--rd-text-muted);
 }
 
 /* Radial gradient utility */
@@ -222,13 +448,13 @@
 
 /* Text selection */
 ::selection {
-  background: rgba(245, 158, 11, 0.3);
-  color: #fef3c7;
+  background: rgba(107, 63, 42, 0.18); /* --rd-accent-brown at low alpha */
+  color: var(--rd-text-ink);
 }
 
 /* Focus visible styles */
 :focus-visible {
-  outline: 2px solid rgba(245, 158, 11, 0.5);
+  outline: 2px solid var(--rd-accent-brown);
   outline-offset: 2px;
 }
 
@@ -251,47 +477,8 @@
   animation: fade-in 0.6s ease-out forwards;
 }
 
-/* Readability typography overrides for blog and epics */
-.prose-readability {
-  font-size: 17.5px !important;
-  line-height: 1.95 !important;
-  letter-spacing: -0.01em !important;
-}
-
-.prose-readability p, 
-.prose-readability li {
-  color: rgb(226, 232, 240) !important; /* slate-200 */
-  line-height: 1.95 !important;
-  word-break: keep-all;
-  overflow-wrap: break-word;
-}
-
-.prose-readability h2 {
-  font-size: 1.5rem !important; /* ~24px */
-  font-weight: 700 !important;
-  line-height: 1.4 !important;
-  margin-top: 2.75rem !important;
-  margin-bottom: 1.25rem !important;
-}
-
-.prose-readability h3 {
-  font-size: 1.25rem !important; /* ~20px */
-  font-weight: 600 !important;
-  line-height: 1.4 !important;
-  margin-top: 2.25rem !important;
-  margin-bottom: 1rem !important;
-  color: #fbbf24 !important; /* amber-400 */
-}
-
-.prose-readability blockquote {
-  font-size: 17px !important;
-  line-height: 1.85 !important;
-  padding: 1.25rem 1.5rem !important;
-  border-left: 3px solid #f59e0b !important;
-  background: rgba(245, 158, 11, 0.03) !important;
-  border-radius: 0 12px 12px 0;
-  margin: 2rem 0 !important;
-  font-style: italic;
-  color: rgb(251, 191, 36) !important; /* amber-400 */
-}
-
+/* .prose-readability lived here: a dark-theme override block (slate-200 body,
+   amber-400 h3, amber blockquote) written for the old blog layout. Stage 5
+   replaced that layout, and a repo-wide search finds no remaining reference,
+   so the block is gone rather than left to rot in light mode. The type steps
+   it hard-coded now live in design-tokens.css as --rd-doc-h2/h3. */

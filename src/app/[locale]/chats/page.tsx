@@ -162,56 +162,58 @@ export default function ChatsPage() {
   const dateLocale = locale === "ko" ? ko : enUS
 
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen" style={{ background: "var(--rd-bg-base)" }}>
       <Navigation />
       
       <div className="max-w-5xl mx-auto px-4 pt-32 pb-20">
         <div className="mb-12">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold rd-text-ink mb-4">
             {t("title")}
           </h1>
-          <p className="text-muted-foreground text-lg max-w-3xl break-keep">
+          <p className="rd-lede max-w-3xl">
             {t("description")}
           </p>
         </div>
 
         {!user ? (
-          <div className="glass-card rounded-[2rem] p-12 flex flex-col items-center text-center border-amber-500/10">
-            <div className="w-20 h-20 rounded-2xl bg-amber-500/10 flex items-center justify-center mb-6">
-              <Lock className="w-10 h-10 text-amber-500" />
+          <div className="rd-surface p-12 flex flex-col items-center text-center" style={{ borderRadius: "var(--rd-card-radius)" }}>
+            <div className="w-20 h-20 flex items-center justify-center mb-6 rd-accent" style={{ background: "var(--rd-divider-faint)", borderRadius: "var(--rd-card-radius)" }}>
+              <Lock className="w-10 h-10" />
             </div>
-            <h2 className="text-2xl font-serif font-bold text-foreground mb-4">
+            <h2 className="text-2xl font-serif font-bold rd-text-ink mb-4">
               {authT("signInRequired")}
             </h2>
-            <p className="text-muted-foreground mb-8 max-w-md">
+            <p className="rd-text-body mb-8 max-w-md">
               {authT("loginModalDescription")}
             </p>
             <Link 
               href="/"
-              className="px-8 py-3 rounded-xl bg-amber-500 text-black font-bold hover:bg-amber-600 transition-all shadow-[0_10px_20px_rgba(245,158,11,0.2)]"
+              className="px-8 py-3 rd-bg-accent border font-bold hover:opacity-90 transition-opacity"
+              style={{ borderRadius: "var(--rd-card-radius)", borderColor: "var(--rd-accent-brown)" }}
             >
               {authT("continueWithGoogle")}
             </Link>
           </div>
         ) : loading ? (
           <div className="flex flex-col items-center justify-center py-20">
-            <Loader2 className="w-10 h-10 text-amber-500 animate-spin mb-4" />
-            <p className="text-muted-foreground animate-pulse">Loading your wisdom echoes...</p>
+            <Loader2 className="w-10 h-10 rd-accent animate-spin mb-4" />
+            <p className="rd-text-body">Loading your wisdom echoes...</p>
           </div>
         ) : chats.length === 0 ? (
-          <div className="glass-card rounded-[2rem] p-12 flex flex-col items-center text-center border-white/5">
-            <div className="w-16 h-16 rounded-full bg-zinc-900 flex items-center justify-center mb-6">
-              <MessageCircle className="w-8 h-8 text-zinc-600" />
+          <div className="rd-surface p-12 flex flex-col items-center text-center" style={{ borderRadius: "var(--rd-card-radius)" }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6 rd-text-muted" style={{ background: "var(--rd-divider-faint)" }}>
+              <MessageCircle className="w-8 h-8" />
             </div>
-            <h2 className="text-xl font-serif font-bold text-foreground mb-2">
+            <h2 className="text-xl font-serif font-bold rd-text-ink mb-2">
               {t("emptyTitle")}
             </h2>
-            <p className="text-muted-foreground mb-8">
+            <p className="rd-text-body mb-8">
               {t("emptyDescription")}
             </p>
             <Link 
               href="/#giants"
-              className="px-6 py-2.5 rounded-xl border border-white/10 hover:bg-white/5 transition-all text-sm font-medium"
+              className="px-6 py-2.5 border rd-hairline rd-bg-surface rd-text-body hover:opacity-80 transition-opacity text-sm font-medium"
+              style={{ borderRadius: "var(--rd-card-radius)" }}
             >
               {t("startFirstChat")}
             </Link>
@@ -224,51 +226,51 @@ export default function ChatsPage() {
                 <div key={chat.id} className="relative group/row">
                   <Link
                     href={`/giant/${chat.giantSlug || chat.giantId}?chat=true&chatId=${chat.id}`}
-                    className="group relative overflow-hidden rounded-2xl glass border border-white/5 hover:border-amber-500/30 transition-all p-5 flex items-center gap-5 pr-14"
+                    className="group relative overflow-hidden rd-surface transition-colors p-5 flex items-center gap-5 pr-14"
+                    style={{ borderRadius: "var(--rd-card-radius)", transitionDuration: "120ms" }}
                   >
-                    <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 via-amber-500/0 to-amber-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-
-                    <Avatar className="w-14 h-14 border border-white/10 shadow-lg overflow-hidden relative">
+                    <Avatar className="w-14 h-14 border rd-hairline overflow-hidden relative">
                       <Image
                         src={chat.giantImage || `/images/giants/${chat.giantSlug || chat.giantId}.jpg`}
                         alt={localizedName}
                         fill
                         sizes="56px"
-                        className="object-cover"
+                        className="rd-portrait object-cover"
                       />
-                      <AvatarFallback className="bg-amber-500/10 text-amber-500 font-serif">
+                      <AvatarFallback className="rd-accent font-serif" style={{ background: "var(--rd-divider-faint)" }}>
                         {localizedName.charAt(0)}
                       </AvatarFallback>
                     </Avatar>
 
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center justify-between mb-1">
-                        <h3 className="font-serif font-bold text-lg text-foreground group-hover:text-amber-200 transition-colors truncate">
+                        <h3 className="font-serif font-bold text-lg rd-text-ink truncate">
                           {localizedName}
                         </h3>
-                      <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                      <div className="flex items-center gap-1.5 rd-caption">
                         <Clock className="w-3 h-3" />
                         {chat.updatedAt
                           ? formatDistanceToNow(chat.updatedAt.toDate(), { addSuffix: true, locale: dateLocale })
                           : (locale === "ko" ? "방금 전" : "just now")}
                       </div>
                     </div>
-                    <p className="text-sm text-muted-foreground line-clamp-1 group-hover:text-zinc-300 transition-colors">
+                    <p className="text-sm rd-text-body line-clamp-1">
                       {chat.lastMessage}
                     </p>
                     <div className="flex items-center gap-3 mt-2">
-                      <span className="text-[10px] uppercase tracking-widest text-amber-500/50 font-bold">
+                      <span className="rd-caption rd-accent font-bold">
                         {chat.messageCount} {t("messages")}
                       </span>
                     </div>
                   </div>
 
-                  <ChevronRight className="w-5 h-5 text-muted-foreground group-hover:text-amber-500 group-hover:translate-x-1 transition-all flex-shrink-0" />
+                  <ChevronRight className="w-5 h-5 rd-text-muted flex-shrink-0" />
                 </Link>
 
                 <button
                   onClick={() => handleDelete(chat.id)}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-lg opacity-0 group-hover/row:opacity-100 text-red-400 hover:text-red-600 hover:bg-red-500/10 transition-all z-10"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-lg opacity-0 group-hover/row:opacity-100 focus:opacity-100 hover:opacity-80 transition-opacity z-10"
+                  style={{ color: "var(--rd-error)" }}
                   aria-label={locale === 'ko' ? '대화 삭제' : 'Delete conversation'}
                 >
                   <Trash2 className="w-4 h-4" />

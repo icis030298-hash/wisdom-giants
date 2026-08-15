@@ -58,46 +58,59 @@ export function CookieBanner() {
 
   return (
     <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[9999] w-[calc(100%-2rem)] max-w-2xl transition-all duration-500 ease-out animate-fade-in-up">
-      <div className="bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-3xl p-6 shadow-[0_20px_50px_rgba(0,0,0,0.6)] relative overflow-hidden group">
-        {/* Glowing Decorative Orbs */}
-        <div className="absolute top-0 left-0 w-32 h-32 bg-amber-500/10 rounded-full blur-3xl -translate-y-1/2 -translate-x-1/2 group-hover:bg-amber-500/20 transition-all duration-700" />
-        <div className="absolute bottom-0 right-0 w-32 h-32 bg-amber-500/5 rounded-full blur-3xl translate-y-1/2 translate-x-1/2 group-hover:bg-amber-500/15 transition-all duration-700" />
-
+      {/* The two amber blur orbs are gone: on a dark slab they read as a glow,
+          on cream they read as a stain. */}
+      <div
+        className="rd-surface p-6 shadow-[0_12px_32px_rgba(60,42,28,0.12)] relative overflow-hidden"
+        style={{ borderRadius: "var(--rd-card-radius)" }}
+      >
         <div className="relative z-10 space-y-6">
           {/* Default view */}
           {!showCustomize ? (
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
               <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-2xl bg-amber-500/10 flex items-center justify-center border border-amber-500/20 shrink-0 text-amber-500">
-                  <Cookie className="w-6 h-6 animate-pulse" />
+                <div
+                  className="w-12 h-12 flex items-center justify-center border rd-hairline shrink-0 rd-accent"
+                  style={{ background: "var(--rd-divider-faint)", borderRadius: "var(--rd-card-radius)" }}
+                >
+                  {/* No pulse: a consent notice should sit still and be read. */}
+                  <Cookie className="w-6 h-6" />
                 </div>
                 <div className="space-y-1.5">
-                  <h4 className="text-white font-serif font-bold text-lg flex items-center gap-2">
+                  <h4 className="rd-text-ink font-serif font-bold text-lg flex items-center gap-2">
                     {t("title")}
                   </h4>
-                  <p className="text-zinc-300 text-sm leading-relaxed font-light">
+                  <p className="rd-text-body text-sm leading-relaxed">
                     {t("description")}
                   </p>
                 </div>
               </div>
 
+              {/* The three-way weighting is unchanged on purpose: "customize"
+                  and "reject all" stay one identical secondary treatment and
+                  "accept all" stays the single filled button. Making refusal
+                  quieter than consent would undermine the validity of the
+                  consent collected. Only the colours moved to tokens. */}
               <div className="flex flex-wrap gap-2 w-full md:w-auto shrink-0 justify-end">
                 <button
                   onClick={() => setShowCustomize(true)}
-                  className="px-4 py-2.5 rounded-xl border border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800 transition-all text-xs font-semibold flex items-center gap-1.5"
+                  className="px-4 py-2.5 border rd-hairline rd-bg-surface rd-text-body hover:opacity-80 transition-opacity text-xs font-semibold flex items-center gap-1.5"
+                  style={{ borderRadius: "var(--rd-card-radius)", transitionDuration: "120ms" }}
                 >
                   <Settings className="w-3.5 h-3.5" />
                   {t("customize")}
                 </button>
                 <button
                   onClick={handleRejectAll}
-                  className="px-4 py-2.5 rounded-xl border border-zinc-800 text-zinc-400 hover:text-white hover:bg-zinc-800 transition-all text-xs font-semibold"
+                  className="px-4 py-2.5 border rd-hairline rd-bg-surface rd-text-body hover:opacity-80 transition-opacity text-xs font-semibold"
+                  style={{ borderRadius: "var(--rd-card-radius)", transitionDuration: "120ms" }}
                 >
                   {t("rejectAll")}
                 </button>
                 <button
                   onClick={handleAcceptAll}
-                  className="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black font-bold text-xs shadow-lg shadow-amber-500/25 transition-all hover:scale-[1.03] active:scale-[0.97]"
+                  className="px-5 py-2.5 rd-bg-accent border font-bold text-xs hover:opacity-90 transition-opacity"
+                  style={{ borderRadius: "var(--rd-card-radius)", borderColor: "var(--rd-accent-brown)", transitionDuration: "120ms" }}
                 >
                   {t("acceptAll")}
                 </button>
@@ -109,14 +122,14 @@ export function CookieBanner() {
               {/* Header */}
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2.5">
-                  <Settings className="w-5 h-5 text-amber-500" />
-                  <h4 className="text-white font-serif font-bold text-lg">
+                  <Settings className="w-5 h-5 rd-accent" />
+                  <h4 className="rd-text-ink font-serif font-bold text-lg">
                     {t("title")}
                   </h4>
                 </div>
                 <button
                   onClick={() => setShowCustomize(false)}
-                  className="p-1.5 rounded-lg text-zinc-500 hover:text-white hover:bg-zinc-800 transition-colors"
+                  className="p-1.5 rounded-lg rd-text-muted hover:opacity-70 transition-opacity"
                 >
                   <X className="w-4 h-4" />
                 </button>
@@ -125,72 +138,94 @@ export function CookieBanner() {
               {/* Cookie options */}
               <div className="space-y-4">
                 {/* Necessary Cookies */}
-                <div className="flex items-start justify-between gap-4 p-4 rounded-2xl bg-zinc-950/60 border border-zinc-800/60">
+                <div
+                  className="flex items-start justify-between gap-4 p-4 border rd-hairline"
+                  style={{ background: "var(--rd-bg-base)", borderRadius: "var(--rd-card-radius)" }}
+                >
                   <div className="flex gap-3">
-                    <div className="w-9 h-9 rounded-xl bg-zinc-800/80 flex items-center justify-center text-zinc-400 shrink-0">
+                    <div
+                      className="w-9 h-9 flex items-center justify-center rd-text-muted shrink-0"
+                      style={{ background: "var(--rd-divider-faint)", borderRadius: "var(--rd-card-radius)" }}
+                    >
                       <Shield className="w-4.5 h-4.5" />
                     </div>
                     <div className="space-y-1">
-                      <h5 className="text-white text-sm font-semibold">{t("necessary")}</h5>
-                      <p className="text-zinc-400 text-xs font-light">{t("necessaryDesc")}</p>
+                      <h5 className="rd-text-ink text-sm font-semibold">{t("necessary")}</h5>
+                      <p className="rd-text-body text-xs">{t("necessaryDesc")}</p>
                     </div>
                   </div>
                   <div className="flex items-center h-9">
-                    <span className="text-xs text-amber-500 font-semibold px-2.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/20">
+                    <span className="text-xs rd-accent font-semibold px-2.5 py-1 rounded-full border rd-hairline" style={{ background: "var(--rd-divider-faint)" }}>
                       Always Active
                     </span>
                   </div>
                 </div>
 
                 {/* Analytics Cookies */}
-                <div className="flex items-start justify-between gap-4 p-4 rounded-2xl bg-zinc-950/60 border border-zinc-800/60">
+                <div
+                  className="flex items-start justify-between gap-4 p-4 border rd-hairline"
+                  style={{ background: "var(--rd-bg-base)", borderRadius: "var(--rd-card-radius)" }}
+                >
                   <div className="flex gap-3">
-                    <div className="w-9 h-9 rounded-xl bg-zinc-800/80 flex items-center justify-center text-zinc-400 shrink-0">
+                    <div
+                      className="w-9 h-9 flex items-center justify-center rd-text-muted shrink-0"
+                      style={{ background: "var(--rd-divider-faint)", borderRadius: "var(--rd-card-radius)" }}
+                    >
                       <BarChart3 className="w-4.5 h-4.5" />
                     </div>
                     <div className="space-y-1">
-                      <h5 className="text-white text-sm font-semibold">{t("analytics")}</h5>
-                      <p className="text-zinc-400 text-xs font-light">{t("analyticsDesc")}</p>
+                      <h5 className="rd-text-ink text-sm font-semibold">{t("analytics")}</h5>
+                      <p className="rd-text-body text-xs">{t("analyticsDesc")}</p>
                     </div>
                   </div>
                   <div className="flex items-center h-9">
                     <button
                       onClick={() => setAnalyticsConsent(!analyticsConsent)}
-                      className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${
-                        analyticsConsent ? 'bg-amber-500' : 'bg-zinc-800'
-                      }`}
+                      className="relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none"
+                      style={{ background: analyticsConsent ? 'var(--rd-accent-brown)' : 'var(--rd-divider-faint)' }}
+                      role="switch"
+                      aria-checked={analyticsConsent}
                     >
                       <span
-                        className={`pointer-events-none inline-block h-5 w-5 transform rounded-full bg-black shadow-lg ring-0 transition duration-200 ease-in-out ${
+                        className={`pointer-events-none inline-block h-5 w-5 transform rounded-full shadow-sm ring-0 transition duration-200 ease-in-out ${
                           analyticsConsent ? 'translate-x-5' : 'translate-x-0'
                         }`}
+                        style={{ background: 'var(--rd-surface)', border: '1px solid var(--rd-border)' }}
                       />
                     </button>
                   </div>
                 </div>
 
                 {/* Advertising Cookies */}
-                <div className="flex items-start justify-between gap-4 p-4 rounded-2xl bg-zinc-950/60 border border-zinc-800/60">
+                <div
+                  className="flex items-start justify-between gap-4 p-4 border rd-hairline"
+                  style={{ background: "var(--rd-bg-base)", borderRadius: "var(--rd-card-radius)" }}
+                >
                   <div className="flex gap-3">
-                    <div className="w-9 h-9 rounded-xl bg-zinc-800/80 flex items-center justify-center text-zinc-400 shrink-0">
+                    <div
+                      className="w-9 h-9 flex items-center justify-center rd-text-muted shrink-0"
+                      style={{ background: "var(--rd-divider-faint)", borderRadius: "var(--rd-card-radius)" }}
+                    >
                       <Megaphone className="w-4.5 h-4.5" />
                     </div>
                     <div className="space-y-1">
-                      <h5 className="text-white text-sm font-semibold">{t("advertising")}</h5>
-                      <p className="text-zinc-400 text-xs font-light">{t("advertisingDesc")}</p>
+                      <h5 className="rd-text-ink text-sm font-semibold">{t("advertising")}</h5>
+                      <p className="rd-text-body text-xs">{t("advertisingDesc")}</p>
                     </div>
                   </div>
                   <div className="flex items-center h-9">
                     <button
                       onClick={() => setAdvertisingConsent(!advertisingConsent)}
-                      className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${
-                        advertisingConsent ? 'bg-amber-500' : 'bg-zinc-800'
-                      }`}
+                      className="relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none"
+                      style={{ background: advertisingConsent ? 'var(--rd-accent-brown)' : 'var(--rd-divider-faint)' }}
+                      role="switch"
+                      aria-checked={advertisingConsent}
                     >
                       <span
-                        className={`pointer-events-none inline-block h-5 w-5 transform rounded-full bg-black shadow-lg ring-0 transition duration-200 ease-in-out ${
+                        className={`pointer-events-none inline-block h-5 w-5 transform rounded-full shadow-sm ring-0 transition duration-200 ease-in-out ${
                           advertisingConsent ? 'translate-x-5' : 'translate-x-0'
                         }`}
+                        style={{ background: 'var(--rd-surface)', border: '1px solid var(--rd-border)' }}
                       />
                     </button>
                   </div>
@@ -198,23 +233,23 @@ export function CookieBanner() {
               </div>
 
               {/* Actions */}
-              <div className="flex flex-wrap gap-2 justify-between items-center border-t border-zinc-800 pt-4">
+              <div className="flex flex-wrap gap-2 justify-between items-center border-t rd-hairline pt-4">
                 <button
                   onClick={() => setShowCustomize(false)}
-                  className="px-4 py-2 rounded-xl text-zinc-400 hover:text-white hover:bg-zinc-800 transition-all text-xs font-semibold"
+                  className="px-4 py-2 rounded-xl rd-text-body hover:opacity-80 transition-opacity text-xs font-semibold"
                 >
                   Back
                 </button>
                 <div className="flex gap-2">
                   <button
                     onClick={handleSavePreferences}
-                    className="px-4 py-2.5 rounded-xl border border-zinc-800 text-zinc-300 hover:text-white hover:bg-zinc-800 transition-all text-xs font-semibold"
+                    className="px-4 py-2.5 border rd-hairline rd-bg-surface rd-text-body hover:opacity-80 transition-opacity text-xs font-semibold" style={{ borderRadius: "var(--rd-card-radius)" }}
                   >
                     {t("savePreferences")}
                   </button>
                   <button
                     onClick={handleAcceptAll}
-                    className="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black font-bold text-xs shadow-lg shadow-amber-500/25 transition-all hover:scale-[1.03] active:scale-[0.97]"
+                    className="px-5 py-2.5 rd-bg-accent border font-bold text-xs hover:opacity-90 transition-opacity" style={{ borderRadius: "var(--rd-card-radius)", borderColor: "var(--rd-accent-brown)" }}
                   >
                     {t("acceptAll")}
                   </button>

@@ -102,8 +102,8 @@ export function AuthButton() {
 
   if (status === "loading") {
     return (
-      <div className="w-[100px] h-10 rounded-xl glass border border-white/5 animate-pulse flex items-center justify-center">
-        <Loader2 className="w-4 h-4 text-amber-500/20 animate-spin" />
+      <div className="w-[100px] h-10 rd-bg-surface animate-pulse flex items-center justify-center" style={{ border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}>
+        <Loader2 className="w-4 h-4 rd-text-muted animate-spin" />
       </div>
     )
   }
@@ -112,34 +112,34 @@ export function AuthButton() {
     return (
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <button className="flex items-center gap-3 pl-1 pr-3 py-1 rounded-full glass border border-white/10 hover:bg-white/5 transition-all outline-none group">
-            <Avatar className="w-8 h-8 border border-white/10 shadow-[0_0_10px_rgba(245,158,11,0.2)]">
+          <button className="flex items-center gap-3 pl-1 pr-3 py-1 rounded-full rd-bg-surface rd-hairline border transition-colors hover:opacity-80 outline-none group">
+            <Avatar className="w-8 h-8 border rd-hairline">
               <AvatarImage src={user.photoURL || ""} />
-              <AvatarFallback className="bg-amber-500/20 text-amber-200 text-[10px]">
+              <AvatarFallback className="rd-bg-accent text-[10px]">
                 {user.displayName?.charAt(0)}
               </AvatarFallback>
             </Avatar>
-            <span className="hidden sm:inline text-sm font-medium text-foreground group-hover:text-amber-200 transition-colors">
+            <span className="hidden sm:inline text-sm font-medium rd-text-ink transition-colors">
               {user.displayName?.split(" ")[0]}
             </span>
             <ChevronDown className="w-3 h-3 text-muted-foreground" />
           </button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent align="end" className="w-64 glass border-white/10 p-2 mt-2 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+        <DropdownMenuContent align="end" className="w-64 rd-bg-surface rd-hairline p-2 mt-2">
           <DropdownMenuLabel className="font-normal">
             <div className="flex flex-col space-y-1 p-1">
               <p className="text-sm font-medium leading-none text-foreground">{user.displayName}</p>
               <p className="text-xs leading-none text-muted-foreground">{user.email}</p>
             </div>
           </DropdownMenuLabel>
-          <DropdownMenuSeparator className="bg-white/10" />
+          <DropdownMenuSeparator style={{ backgroundColor: "var(--rd-divider-faint)" }} />
           <DropdownMenuItem asChild>
-            <Link href="/chats" className="cursor-pointer flex items-center gap-3 p-3 rounded-lg text-muted-foreground hover:text-amber-200 hover:bg-amber-500/10 transition-colors group">
-              <MessageCircle className="w-4 h-4 text-amber-500/50 group-hover:text-amber-400" />
+            <Link href="/chats" className="cursor-pointer flex items-center gap-3 p-3 rounded-lg rd-text-body hover:opacity-80 transition-opacity group">
+              <MessageCircle className="w-4 h-4 rd-accent" />
               <span>{t("chatList")}</span>
             </Link>
           </DropdownMenuItem>
-          <DropdownMenuSeparator className="bg-white/10" />
+          <DropdownMenuSeparator style={{ backgroundColor: "var(--rd-divider-faint)" }} />
           <DropdownMenuItem 
             onClick={handleSignOut}
             className="cursor-pointer flex items-center gap-3 p-3 rounded-lg text-rose-400 focus:text-rose-300 focus:bg-rose-500/10 transition-colors group"
@@ -148,7 +148,7 @@ export function AuthButton() {
             <span>{t("logout")}</span>
           </DropdownMenuItem>
         
-          <DropdownMenuSeparator className="bg-white/10" />
+          <DropdownMenuSeparator style={{ backgroundColor: "var(--rd-divider-faint)" }} />
           <DropdownMenuItem 
             onClick={handleDeleteAccount}
             className="cursor-pointer flex items-center gap-3 p-3 rounded-lg text-red-500 focus:text-red-400 focus:bg-red-500/10 transition-colors group"
@@ -165,7 +165,8 @@ export function AuthButton() {
     <>
       <button 
         onClick={() => setIsLoginModalOpen(true)}
-        className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-sm hover:shadow-[0_0_20px_rgba(245,158,11,0.3)] transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+        className="px-6 py-2.5 rd-bg-accent font-semibold text-sm transition-opacity hover:opacity-90 active:scale-[0.99]"
+        style={{ borderRadius: "var(--rd-card-radius)" }}
       >
         {navT("login")}
       </button>

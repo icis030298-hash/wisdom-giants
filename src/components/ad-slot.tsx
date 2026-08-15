@@ -53,7 +53,7 @@ export function AdSlot({ slot, format = "auto", responsive = true, className = "
 
   return (
     <div className={`w-full ${className}`} ref={adRef}>
-      <p className="text-[10px] font-semibold text-slate-600 uppercase tracking-widest text-center mb-1">
+      <p className="rd-caption font-semibold tracking-widest text-center mb-1">
         {label}
       </p>
       <ins

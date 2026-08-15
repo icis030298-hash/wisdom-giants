@@ -7,8 +7,11 @@ export default function manifest(): MetadataRoute.Manifest {
     description: 'Talk with historical figures via AI',
     start_url: '/',
     display: 'standalone',
-    background_color: '#0B0F19',
-    theme_color: '#0B0F19',
+    // theme_color tints the mobile address bar. Left at navy it would have
+    // been the last place the retired palette still showed, and on a cream
+    // site a dark bar reads as a different app.
+    background_color: '#faf7f0',
+    theme_color: '#faf7f0',
     icons: [
       {
         src: '/favicon.ico',

@@ -1,0 +1,244 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   Redesign token layer — DEFINITIONS ONLY
+   ─────────────────────────────────────────────────────────────────────────────
+
+   Nothing in this file is applied to any element. Every declaration here is a
+   custom property; custom properties have no rendering effect until something
+   references them with var(). No selector in this file sets a real CSS
+   property, so including it cannot change the current output.
+
+   ── Why the --rd- prefix ────────────────────────────────────────────────────
+   The redesign spec names one token `--border`, and globals.css already
+   defines `--border: rgba(148,163,184,0.2)`, which is wired into Tailwind via
+   `@theme inline { --color-border: var(--border) }` and applied globally by
+   `@layer base { * { @apply border-border } }`. Redefining that name on :root
+   would silently repaint every border on the site cream.
+
+   Rather than special-case one token, the whole set carries an `--rd-` prefix.
+   The mapping to the spec names is 1:1 — drop the prefix and you have the spec:
+
+     --rd-bg-base        <-  --bg-base
+     --rd-surface        <-  --surface
+     --rd-text-ink       <-  --text-ink
+     --rd-text-body      <-  --text-body
+     --rd-text-muted     <-  --text-muted
+     --rd-accent-brown   <-  --accent-brown
+     --rd-border         <-  --border      (the collision)
+     --rd-divider-faint  <-  --divider-faint
+
+   The prefix stays. Renaming `--rd-border` back to `--border` would mean
+   repainting every border on the site in a single commit, which is not a risk
+   worth taking mid-redesign. The two token sets coexist; once the redesign is
+   finished the legacy set falls out of use on its own and can be deleted in a
+   dedicated cleanup pass.
+
+   Only `--border` actually collided; the other seven names are currently
+   unused in the codebase. The prefix is applied uniformly for consistency.
+   ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── B-1. Color ───────────────────────────────────────────────────────── */
+  --rd-bg-base: #faf7f0; /* page background, every page */
+  --rd-surface: #fffdf8; /* cards, inputs, chips */
+  --rd-text-ink: #2a2320; /* names, titles          contrast 15.3:1 */
+  --rd-text-body: #4a3f38; /* body copy              contrast  9.5:1 */
+  --rd-text-muted: #6b5d52; /* dates, captions        contrast  5.9:1 — never body */
+  --rd-accent-brown: #6b3f2a; /* headings, links, rules contrast  8.3:1 */
+  --rd-border: #e3dacb; /* card border, header rule (1px) */
+  --rd-divider-faint: #efe8da; /* table row rules, thumbnail placeholders */
+
+  /* Stage 6 adds the first forms to the cream palette. Stage 5 had no input
+     and no error state, so these two are the only genuinely new colours. The
+     red is pulled toward the warm end so it belongs to this palette rather
+     than reading as a browser default. */
+  --rd-error: #a33a2a; /* invalid field, error banner  contrast 5.6:1 on surface */
+  --rd-error-bg: #fbf0ed; /* error banner fill */
+
+  /* ── B-2. Type scale ──────────────────────────────────────────────────────
+     Each step carries its own tracking and leading. There is deliberately no
+     global letter-spacing: a single value is wrong at some size.
+     Sizes are rem so they follow the user's text-size setting.
+     Desktop values here; the mobile overrides live in the media query below. */
+
+  /* display — giant detail name */
+  --rd-display-size: 2.75rem; /* 44px */
+  --rd-display-weight: 600;
+  --rd-display-tracking: -0.02em;
+  --rd-display-leading: 1.15;
+
+  /* h1 — main intro heading */
+  --rd-h1-size: 1.75rem; /* 28px */
+  --rd-h1-weight: 600;
+  --rd-h1-tracking: -0.015em;
+  --rd-h1-leading: 1.25;
+
+  /* lede — one-line intro, set in accent brown.
+     Sits deliberately above the running text it introduces. The giant page
+     sets its narrative at Tailwind's lg:text-xl (20px), so at the old 19px
+     the pull quote was the smaller of the two and read as a caption. */
+  --rd-lede-size: 1.28125rem; /* 20.5px */
+  --rd-lede-weight: 400;
+  --rd-lede-tracking: 0;
+  --rd-lede-leading: 1.6;
+
+  /* body-lg — detail page narrative */
+  --rd-body-lg-size: 1.1875rem; /* 19px */
+  --rd-body-lg-weight: 400;
+  --rd-body-lg-tracking: 0;
+  --rd-body-lg-leading: 1.85;
+
+  /* body — main intro paragraph */
+  --rd-body-size: 0.96875rem; /* 15.5px */
+  --rd-body-weight: 400;
+  --rd-body-tracking: 0;
+  --rd-body-leading: 1.7;
+
+  /* card-name */
+  --rd-card-name-size: 1.0625rem; /* 17px */
+  --rd-card-name-weight: 600;
+  --rd-card-name-tracking: -0.005em;
+  --rd-card-name-leading: 1.35;
+
+  /* card-intro */
+  --rd-card-intro-size: 0.875rem; /* 14px */
+  --rd-card-intro-weight: 400;
+  --rd-card-intro-tracking: 0;
+  --rd-card-intro-leading: 1.6;
+
+  /* caption — dates, counts, filters, meta */
+  --rd-caption-size: 0.78125rem; /* 12.5px */
+  --rd-caption-weight: 400;
+  --rd-caption-tracking: 0.02em;
+  --rd-caption-leading: 1.5;
+
+  /* category — card era/field label */
+  --rd-category-size: 0.75rem; /* 12px */
+  --rd-category-weight: 600;
+  --rd-category-tracking: 0;
+  --rd-category-leading: 1.5;
+
+  /* sidebar-label — timeline / achievements / FAQ block titles */
+  --rd-sidebar-label-size: 0.8125rem; /* 13px */
+  --rd-sidebar-label-weight: 600;
+  --rd-sidebar-label-tracking: 0;
+  --rd-sidebar-label-leading: 1.5;
+
+  /* doc-h2 / doc-h3 — section headings inside a blog post or a static
+     document. The giant detail page has no in-body subheadings, so these two
+     steps only exist from stage 5 on. They sit deliberately below
+     --rd-display: a section marker inside prose should not compete with the
+     article title above it. */
+  --rd-doc-h2-size: 1.375rem; /* 22px */
+  --rd-doc-h2-weight: 600;
+  --rd-doc-h2-tracking: -0.01em;
+  --rd-doc-h2-leading: 1.35;
+
+  --rd-doc-h3-size: 1.125rem; /* 18px */
+  --rd-doc-h3-weight: 600;
+  --rd-doc-h3-tracking: -0.005em;
+  --rd-doc-h3-leading: 1.4;
+
+  /* ── B-3. Script-specific body leading ────────────────────────────────────
+     Default. The [lang] rules below raise it for scripts with tall
+     ascenders/descenders and lower it for CJK. */
+  --rd-leading-body: 1.85;
+
+  /* ── Font stack ───────────────────────────────────────────────────────────
+     Pretendard covers Latin and Hangul. Verified against its CDN stylesheet:
+     of 3,459 unicode-ranges it has zero coverage for Cyrillic (U+0400-04FF),
+     Hebrew (U+0590-05FF), Arabic (U+0600-06FF), Devanagari (U+0900-097F) and
+     Thai (U+0E00-0E7F), and only the bare Greek letterforms (U+391-3A9,
+     U+3B1-3C9) with none of the accented vowels — so Greek prose mixes two
+     faces mid-word. Those locales are better served by the platform font,
+     which ships proper shaping for their script.
+
+     Deliberately not a Tailwind `font-sans` override: `@theme inline` inlines
+     that value at build time, so a :lang() rule could never reach it. */
+  --rd-font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui,
+    Roboto, sans-serif;
+
+  /* ── B-4. Layout constants (desktop) ──────────────────────────────────── */
+  --rd-container: 75rem; /* 1200px */
+  --rd-grid-columns: 5;
+  --rd-grid-gutter: 1.25rem; /* 20px */
+  --rd-card-width: 14rem; /* 224px */
+  --rd-card-pad-top: 0.8125rem; /* 13px */
+  --rd-card-pad-x: 0.9375rem; /* 15px */
+  --rd-card-pad-bottom: 0.9375rem; /* 15px */
+  --rd-card-radius: 0.1875rem; /* 3px */
+
+  /* detail page */
+  --rd-detail-main: 47.5rem; /* 760px */
+  --rd-detail-sidebar: 20rem; /* 320px */
+  --rd-detail-gap: 3.5rem; /* 56px */
+  /* The hero portrait is square: the plates are drawn as discs and a 4:5 frame
+     left background showing in the corners. Only the width remains — the
+     height token had this one call site. */
+  --rd-portrait-width: 7rem; /* 112px */
+
+  /* blog post and static document pages — single column, no sidebar.
+     700px at 19px body copy lands at roughly 70-75 Latin characters per line,
+     which is the range long-form prose is comfortable at. The giant detail
+     page keeps its wider 760px body because it is paired with a sidebar. */
+  --rd-reading: 43.75rem; /* 700px */
+}
+
+/* ── B-2/B-4. Mobile overrides (375px reference frame) ──────────────────── */
+@media (max-width: 767px) {
+  :root {
+    --rd-display-size: 1.875rem; /* 30px */
+    --rd-h1-size: 1.3125rem; /* 21px */
+    /* The lede has to stay at least as large as the body it introduces. At
+       16.5px against a 17px body it was the smaller of the two, so the pull
+       quote on a giant page read as a caption on phones — the opposite of
+       what the step is for. */
+    --rd-lede-size: 1.09375rem; /* 17.5px */
+    --rd-body-lg-size: 1.0625rem; /* 17px */
+    --rd-body-lg-leading: 1.8;
+    --rd-card-name-size: 1rem; /* 16px */
+    --rd-card-intro-size: 0.84375rem; /* 13.5px */
+    --rd-category-size: 0.71875rem; /* 11.5px */
+    --rd-doc-h2-size: 1.25rem; /* 20px */
+    --rd-doc-h3-size: 1.0625rem; /* 17px */
+
+    --rd-page-pad-x: 1rem; /* 16px */
+    --rd-grid-gutter: 0.75rem; /* 12px */
+    --rd-grid-columns: 2;
+    --rd-card-width: 10.34375rem; /* 165.5px */
+    --rd-card-pad-top: 0.75rem; /* 12px */
+    --rd-card-pad-x: 0.8125rem; /* 13px */
+    --rd-card-pad-bottom: 0.8125rem; /* 13px */
+  }
+}
+
+/* ── B-3. Scripts with tall ascenders/descenders need more leading ──────── */
+:root:lang(th),
+:root:lang(hi),
+:root:lang(ne) {
+  --rd-leading-body: 2.05;
+}
+
+/* ── B-3. CJK sits on a tighter line ────────────────────────────────────── */
+:root:lang(ko),
+:root:lang(ja),
+:root:lang(zh) {
+  --rd-leading-body: 1.85;
+}
+
+/* ── Scripts Pretendard does not cover: hand them to the platform font ──── */
+:root:lang(ar),
+:root:lang(fa),
+:root:lang(he),
+:root:lang(th),
+:root:lang(el),
+:root:lang(ru),
+:root:lang(uk) {
+  --rd-font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Noto Sans', sans-serif;
+}
+
+/* Devanagari already has a loaded face; keep it ahead of the platform font. */
+:root:lang(hi) {
+  --rd-font-sans: var(--font-devanagari), system-ui, -apple-system, 'Noto Sans',
+    sans-serif;
+}

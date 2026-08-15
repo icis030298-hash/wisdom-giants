@@ -1,88 +1,75 @@
 "use client"
 
-import { useState } from "react"
-import { useLocale, useTranslations } from "next-intl"
+import { useMemo, useState } from "react"
+import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
-import { blogPosts, BlogPost } from "@/data/blog-posts"
-import { giants } from "@/lib/giants-data"
-import { ArrowRight, BookOpen, Clock, Tag } from "lucide-react"
-import { getReadTime } from "@/utils/blog"
 import { AdSlot } from "@/components/ad-slot"
+import type { BlogCardData } from "@/types/blog-card"
 
+// The eight per-category colour ramps that used to live here are gone. On a
+// cream page a row of eight differently tinted pills is the loudest thing on
+// screen, and it encodes nothing the label itself does not already say, so the
+// category is now the same quiet brown caption the giant cards use.
 
-
-const colorMap: Record<string, string> = {
-  leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
-  philosophy: "from-emerald-500/20 to-teal-500/20 text-emerald-300 border-emerald-500/30",
-  creativity: "from-purple-500/20 to-indigo-500/20 text-purple-300 border-purple-500/30",
-  wisdom: "from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-500/30",
-  science: "from-cyan-500/20 to-blue-500/20 text-cyan-300 border-cyan-500/30",
-  arts: "from-rose-500/20 to-pink-500/20 text-rose-300 border-rose-500/30",
-  society: "from-teal-500/20 to-emerald-500/20 text-teal-300 border-teal-500/30",
-  business: "from-yellow-500/20 to-amber-500/20 text-yellow-300 border-yellow-500/30"
-}
-
-
-export function BlogListClient() {
-  const locale = useLocale()
+// Cards arrive fully resolved from the server. The only state left here is
+// which category is selected.
+export function BlogListClient({ posts }: { posts: BlogCardData[] }) {
   const t = useTranslations("BlogUI")
-  const tg = useTranslations("Giants")
   const [selectedCategory, setSelectedCategory] = useState<string>("all")
 
   const categories = ["all", "leadership", "philosophy", "creativity", "wisdom", "science", "arts", "society", "business"]
 
-  const filteredPosts = blogPosts.filter((post) => {
-    if (selectedCategory === "all") return true
-    return post.category === selectedCategory
-  })
-
-  // Sort posts: publishedAt descending
-  const sortedPosts = [...filteredPosts].sort(
-    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  )
-
-  const getTranslation = (slug: string, fallback: string) => {
-    try {
-      const rawData = tg.raw(slug);
-      if (rawData && typeof rawData === 'object' && 'name' in rawData) {
-        return (rawData as any).name;
-      }
-      return fallback;
-    } catch (e) {
-      return fallback;
-    }
-  }
+  const sortedPosts = useMemo(() => {
+    const filtered = selectedCategory === "all"
+      ? posts
+      : posts.filter((post) => post.category === selectedCategory)
+    return [...filtered].sort((a, b) => b.publishedAtTime - a.publishedAtTime)
+  }, [posts, selectedCategory])
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
-      {/* Header section with gradient mesh background */}
-      <div className="relative overflow-hidden rounded-3xl bg-slate-950 border border-white/5 p-8 md:p-12 mb-12 text-center shadow-2xl">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/3" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/3" />
-        
-        <div className="relative z-10 space-y-4 max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-white tracking-tight leading-tight">
-            {t('headerTitle')}
-          </h1>
-          <p className="text-slate-400 text-lg md:text-xl font-light">
-            {t('headerSubtitle')}
-          </p>
-        </div>
-      </div>
+    <div
+      className="mx-auto px-4 md:px-6 py-12 md:py-16"
+      style={{ maxWidth: "var(--rd-container)" }}
+    >
+      {/* Header. No mesh gradient, no blur orbs, no dark slab — the page
+          background is the surface now, so the title only needs a rule under
+          it to read as a header. */}
+      <header className="pb-8 mb-10 rd-hairline-bottom">
+        <h1
+          style={{
+            color: "var(--rd-text-ink)",
+            fontSize: "var(--rd-h1-size)",
+            fontWeight: "var(--rd-h1-weight)",
+            letterSpacing: "var(--rd-h1-tracking)",
+            lineHeight: "var(--rd-h1-leading)",
+          }}
+        >
+          {t('headerTitle')}
+        </h1>
+        <p className="rd-lede mt-3 max-w-2xl">
+          {t('headerSubtitle')}
+        </p>
+      </header>
 
-      {/* Category Tabs */}
-      <div className="flex flex-wrap justify-center gap-2 mb-12">
+      {/* Category filter */}
+      <div className="flex flex-wrap gap-2 mb-10">
         {categories.map((cat) => {
           const isActive = selectedCategory === cat
           return (
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all cursor-pointer ${
-                isActive
-                  ? "bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground font-semibold shadow-lg shadow-amber-500/20 scale-[1.03]"
-                  : "glass border border-white/5 text-slate-400 hover:text-white hover:bg-white/5"
+              className={`px-3.5 py-1.5 border transition-colors cursor-pointer ${
+                isActive ? "rd-bg-accent" : "rd-bg-surface rd-text-body hover:opacity-80"
               }`}
+              style={{
+                borderColor: isActive ? "var(--rd-accent-brown)" : "var(--rd-border)",
+                borderRadius: "var(--rd-card-radius)",
+                fontSize: "var(--rd-caption-size)",
+                letterSpacing: "var(--rd-caption-tracking)",
+                transitionDuration: "120ms",
+              }}
+              aria-pressed={isActive}
             >
               {t(cat)}
             </button>
@@ -90,97 +77,122 @@ export function BlogListClient() {
         })}
       </div>
 
-      {/* CEO Column Placeholder */}
-      <div className="mb-12 glass p-8 rounded-2xl border border-amber-500/30 bg-amber-500/5 shadow-lg">
-        <h2 className="text-2xl font-serif font-bold text-amber-400 mb-4">
-          {t('creatorLetterTitle')}
-        </h2>
-        <div className="prose prose-invert max-w-none text-slate-300 font-light leading-relaxed space-y-4">
-          <p>{t('creatorLetterP1')}</p>
-          <p>{t('creatorLetterP2')}</p>
-          <p>{t('creatorLetterP3')}</p>
+      {/* Editor's letter. A single inline-start rule rather than a tinted,
+          amber-bordered card — the same treatment the fact-layer blocks on the
+          giant detail page use. */}
+      <section
+        className="mb-12 ps-4"
+        style={{ borderInlineStart: "2px solid var(--rd-accent-brown)" }}
+      >
+        <h2 className="rd-doc-h2">{t('creatorLetterTitle')}</h2>
+        <div className="mt-3 space-y-3 max-w-2xl">
+          <p className="rd-body-lg">{t('creatorLetterP1')}</p>
+          <p className="rd-body-lg">{t('creatorLetterP2')}</p>
+          <p className="rd-body-lg">{t('creatorLetterP3')}</p>
         </div>
-      </div>
+      </section>
 
       {/* Grid of Blog Cards */}
       {sortedPosts.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {sortedPosts.map((post) => {
-            const translation = post.translations[locale] || post.translations["en"]
-            const effectiveSlug = post.giantSlug || (post.giantSlugs && post.giantSlugs[0]);
-            const giant = giants.find((g) => g.slug === effectiveSlug)
-            const readTime = getReadTime(translation.content, locale)
-            const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30"
-
-            const absoluteImageUrl = giant
-              ? giant.imageUrl
-              : "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
-
-            const localizedName = effectiveSlug === 'cleopatra'
-              ? (locale === 'ko' ? '클레오파트라' :
-                 locale === 'ja' ? 'クレオパトラ' :
-                 locale === 'de' ? 'Kleopatra' :
-                 locale === 'fr' ? 'Cléopâtre' : 'Cleopatra')
-              : getTranslation(effectiveSlug || "", giant?.name || effectiveSlug || "Giants")
+            const readTime = post.readTime
+            const localizedName = post.giantName
 
             return (
               <article
                 key={post.slug}
-                className="group flex flex-col justify-between rounded-2xl bg-slate-950 border border-white/5 hover:border-amber-500/30 p-6 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-amber-500/5"
+                className="flex flex-col justify-between transition-colors"
+                style={{
+                  background: "var(--rd-surface)",
+                  border: "1px solid var(--rd-border)",
+                  borderRadius: "var(--rd-card-radius)",
+                  paddingTop: "var(--rd-card-pad-top)",
+                  paddingInline: "var(--rd-card-pad-x)",
+                  paddingBottom: "var(--rd-card-pad-bottom)",
+                  transitionDuration: "120ms",
+                }}
               >
                 <div>
-                  {/* Category and Read time info */}
-                  <div className="flex items-center justify-between gap-4 mb-6">
-                    <span className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold border ${catColor}`}>
-                      <Tag className="w-3 h-3" />
+                  <div className="flex items-baseline justify-between gap-3">
+                    <span
+                      style={{
+                        color: "var(--rd-accent-brown)",
+                        fontSize: "var(--rd-category-size)",
+                        fontWeight: "var(--rd-category-weight)",
+                        letterSpacing: "var(--rd-category-tracking)",
+                        lineHeight: "var(--rd-category-leading)",
+                      }}
+                    >
                       {t(post.category)}
                     </span>
-                    <div className="flex items-center gap-1.5 text-xs text-slate-500">
-                      <Clock className="w-3.5 h-3.5" />
+                    <span className="rd-caption shrink-0">
                       {readTime} {t('readTime')}
-                    </div>
+                    </span>
                   </div>
 
-                  {/* Title and description */}
-                  <Link href={`/blog/${post.slug}`} className="block group/link">
-                    <h2 className="text-xl font-serif font-bold text-white mb-3 group-hover/link:text-amber-400 transition-colors line-clamp-2 min-h-[3.5rem]">
-                      {translation.title.replace(/\*\*/g, '')}
+                  <Link href={`/blog/${post.slug}`} className="block mt-2">
+                    <h2
+                      className="line-clamp-2 break-keep"
+                      style={{
+                        color: "var(--rd-text-ink)",
+                        fontSize: "var(--rd-card-name-size)",
+                        fontWeight: "var(--rd-card-name-weight)",
+                        letterSpacing: "var(--rd-card-name-tracking)",
+                        lineHeight: "var(--rd-card-name-leading)",
+                      }}
+                    >
+                      {post.title}
                     </h2>
                   </Link>
-                  
-                  <p className="text-slate-400 text-sm leading-relaxed mb-6 line-clamp-3 min-h-[4.5rem]">
-                    {translation.description}
+
+                  <p
+                    className="mt-2 line-clamp-3 break-keep"
+                    style={{
+                      color: "var(--rd-text-body)",
+                      fontSize: "var(--rd-card-intro-size)",
+                      lineHeight: "var(--rd-card-intro-leading)",
+                    }}
+                  >
+                    {post.description}
                   </p>
                 </div>
 
-                {/* Giant Avatar & CTA button */}
-                <div className="flex items-center justify-between border-t border-white/5 pt-4 mt-4">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full overflow-hidden bg-slate-800 border border-white/10 shrink-0">
-                      <img
-                        src={absoluteImageUrl}
-                        alt={localizedName}
-                        loading="lazy"
-                        decoding="async"
-                        className="w-full h-full object-cover transform scale-110 group-hover:scale-125 transition-transform duration-500"
-                        onError={(e) => {
-                          // Standard fallback if image loading fails
-                          (e.target as HTMLImageElement).src = "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
-                        }}
-                      />
+                <div
+                  className="flex items-center justify-between gap-3 mt-4 pt-3"
+                  style={{ borderTop: "1px solid var(--rd-divider-faint)" }}
+                >
+                  <div className="flex items-center gap-2.5 min-w-0">
+                    <div
+                      className="w-8 h-8 rounded-full overflow-hidden shrink-0"
+                      style={{ background: "var(--rd-divider-faint)", border: "1px solid var(--rd-border)" }}
+                    >
+                      {post.giantImage && (
+                        // No remote fallback: the old one pointed at a Supabase
+                        // object that returns nothing (naturalWidth 0). When
+                        // there is no portrait the styled circle stands on its
+                        // own rather than showing an unrelated face.
+                        <img
+                          src={post.giantImage}
+                          alt=""
+                          loading="lazy"
+                          decoding="async"
+                          className="rd-portrait w-full h-full object-cover"
+                        />
+                      )}
                     </div>
-                    <div className="text-xs">
-                      <p className="text-slate-400 font-semibold">{localizedName}</p>
-                      <p className="text-slate-600 text-[10px]">{post.publishedAt}</p>
+                    <div className="min-w-0">
+                      <p className="rd-caption truncate" style={{ color: "var(--rd-text-body)" }}>{localizedName}</p>
+                      <p className="rd-caption">{post.publishedAt}</p>
                     </div>
                   </div>
 
                   <Link
                     href={`/blog/${post.slug}`}
-                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 transition-colors border border-amber-500/20 hover:border-amber-400/40"
+                    className="rd-link shrink-0"
+                    style={{ fontSize: "var(--rd-caption-size)" }}
                   >
                     {t('read')}
-                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
                   </Link>
                 </div>
               </article>
@@ -188,13 +200,19 @@ export function BlogListClient() {
           })}
         </div>
       ) : (
-        <div className="text-center py-20 bg-slate-950 rounded-2xl border border-white/5">
-          <p className="text-slate-500 text-lg">{t('noPosts')}</p>
+        <div
+          className="py-20 text-center rd-bg-surface"
+          style={{ border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}
+        >
+          <p className="rd-text-muted">{t('noPosts')}</p>
         </div>
       )}
 
       {/* AdSpace Container with safe margin */}
-      <div className="max-w-6xl mx-auto px-4 py-12 flex justify-center border-t border-white/5 my-12">
+      <div
+        className="mt-16 pt-12 flex justify-center"
+        style={{ borderTop: "1px solid var(--rd-border)" }}
+      >
         <AdSlot slot="4898120960" format="horizontal" />
       </div>
     </div>
