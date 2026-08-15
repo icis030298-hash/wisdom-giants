@@ -271,6 +271,23 @@
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--rd-error) 30%, transparent);
 }
 
+/* ── Stage 6: chat bubbles ─────────────────────────────────────────────────
+   Four signals separate the two speakers, and only one of them is colour:
+   which side the row is aligned to, which top corner is squared off, the
+   border, and the fill. On the dark build the amber tint alone did most of
+   the work; on cream the two fills are only a few percent apart in lightness,
+   so it could not be allowed to carry the distinction by itself. */
+.rd-bubble-user {
+  background-color: var(--rd-divider-faint);
+  border: 1px solid var(--rd-accent-brown);
+  color: var(--rd-text-ink);
+}
+.rd-bubble-giant {
+  background-color: var(--rd-surface);
+  border: 1px solid var(--rd-border);
+  color: var(--rd-text-body);
+}
+
 /* 무한 회전·펄스가 15개 파일에 흩어져 있다. 개별로 끄는 대신 한 곳에서
    전역으로 차단한다. 0이 아니라 0.01ms인 것은, 애니메이션 종료에 의존하는
    JS(transitionend 등)가 영영 기다리지 않게 하기 위해서다. */
