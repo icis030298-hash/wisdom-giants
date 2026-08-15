@@ -1,6 +1,7 @@
 {
   "build": {
     "env": {
+      "NODE_OPTIONS": "--max-old-space-size=7168",
       "VERCEL_SUPPORT_LARGE_FUNCTIONS": "1"
     }
   }
