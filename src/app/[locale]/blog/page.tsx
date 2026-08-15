@@ -100,7 +100,10 @@ export default async function BlogListPage({ params }: Props) {
 
   const dateFormatter = (() => {
     try {
-      return new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'long', day: 'numeric' })
+      // Pinned to UTC so the printed day always matches the stored timestamp,
+      // the sitemap's lastmod and the JSON-LD datePublished. Without it a
+      // 20:00Z post reads as the next day on any server east of UTC.
+      return new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
     } catch {
       return null
     }

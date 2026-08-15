@@ -604,6 +604,19 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const ui = uiTranslations[locale] || uiTranslations['en']
   const catNames = categoryNames[locale] || categoryNames['en']
 
+  // The byline used to print the stored value verbatim, so readers saw
+  // "2026-06-09T14:22:00.000Z". The JSON-LD and the sitemap still want the
+  // machine form, so only the visible string is formatted.
+  const publishedDisplay = (() => {
+    const parsed = new Date(post.publishedAt)
+    if (Number.isNaN(parsed.getTime())) return String(post.publishedAt ?? '')
+    try {
+      return new Intl.DateTimeFormat(locale, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }).format(parsed)
+    } catch {
+      return String(post.publishedAt)
+    }
+  })()
+
   const tg = await getTranslations({ locale, namespace: "Giants" })
   const getTranslation = (slug: string, fallback: string) => {
     try {
@@ -797,7 +810,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
           </h1>
 
           <div className="rd-caption flex flex-wrap items-center gap-2 mt-3">
-            <span>{post.publishedAt}</span>
+            <span>{publishedDisplay}</span>
             <span aria-hidden="true">·</span>
             <span>{readTime} {ui.readTime}</span>
           </div>
