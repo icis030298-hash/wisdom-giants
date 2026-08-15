@@ -79,7 +79,18 @@
      verbatim, which keeps it a live var() reference rather than freezing the
      font list at build time. */
   --font-sans: var(--rd-font-sans);
-  --font-serif: var(--font-nanum-myeongjo), var(--font-playfair), 'Nanum Myeongjo', serif;
+  /* Headings render in Pretendard, the same family as the body, with weight
+     carrying the hierarchy — which is what the --rd-*-weight steps were built
+     for. The serif stack could not do that job: the Nanum Myeongjo webfont is
+     a latin subset of 21KB whose @font-face still claims U+0-10FFFF, so the
+     browser tried to draw Hangul with it, found no glyph, and fell back per
+     character to Batang or whatever system serif was around. Every Korean
+     heading on the site was rendering in a font nobody chose.
+
+     The utility name stays `font-serif` because 68 usages across 22 files
+     still reference it and several of those files were only just stabilised.
+     Retiring the utility itself is a separate pass. */
+  --font-serif: var(--rd-font-sans);
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
   --color-foreground: var(--foreground);

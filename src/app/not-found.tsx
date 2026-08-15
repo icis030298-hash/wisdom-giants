@@ -1,11 +1,10 @@
 import "./globals.css";
 import Link from 'next/link';
 import { Sparkles, ArrowLeft, HelpCircle } from 'lucide-react';
-import { nanumMyeongjo } from "./fonts";
 
 export default function NotFound() {
   return (
-    <html lang="en" className={nanumMyeongjo.variable}>
+    <html lang="en">
       <head>
       </head>
       <body

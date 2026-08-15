@@ -1,7 +1,6 @@
 import "../globals.css";
 import Link from 'next/link';
 import { Sparkles, ArrowLeft, HelpCircle } from 'lucide-react';
-import { nanumMyeongjo } from "../fonts";
 import { useTranslations } from "next-intl";
 
 export default function NotFound() {
@@ -9,7 +8,7 @@ export default function NotFound() {
 
   return (
     <div
-      className={`font-sans antialiased min-h-screen overflow-x-hidden flex items-center justify-center ${nanumMyeongjo.variable}`}
+      className="font-sans antialiased min-h-screen overflow-x-hidden flex items-center justify-center"
       style={{ background: "var(--rd-bg-base)", color: "var(--rd-text-body)" }}
     >
       <div className="relative w-full max-w-lg px-6 py-12 text-center flex flex-col items-center justify-center">

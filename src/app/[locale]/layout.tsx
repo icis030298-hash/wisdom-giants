@@ -1,7 +1,7 @@
 import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { giantsData } from "@/data/giants";
 import type { Metadata, Viewport } from "next";
-import { playfair, nanumMyeongjo, notoSansDevanagari } from "../fonts";
+import { notoSansDevanagari } from "../fonts";
 import Script from "next/script";
 import { LazyMotion, domAnimation } from "framer-motion";
 import "../globals.css";
@@ -110,7 +110,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSansDevanagari.variable} motion-safe:scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+    <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${notoSansDevanagari.variable} motion-safe:scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
         {/* Google Consent Mode v2 — gtag.js보다 먼저 동기 실행되어야 함 */}
         <script
