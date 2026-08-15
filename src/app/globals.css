@@ -74,7 +74,11 @@
 }
 
 @theme inline {
-  --font-sans: 'Pretendard', var(--font-noto-sans), -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  /* Points at the script-aware stack so the `font-sans` utility inherits the
+     :lang() overrides too. `@theme inline` writes this value into the utility
+     verbatim, which keeps it a live var() reference rather than freezing the
+     font list at build time. */
+  --font-sans: var(--rd-font-sans);
   --font-serif: var(--font-nanum-myeongjo), var(--font-playfair), 'Nanum Myeongjo', serif;
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
@@ -123,10 +127,30 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground font-sans;
-    letter-spacing: -0.02em;
+  html {
+    background-color: var(--rd-bg-base);
   }
+  body {
+    background-color: var(--rd-bg-base);
+    color: var(--rd-text-body);
+    font-family: var(--rd-font-sans);
+    /* No global letter-spacing. A single value is wrong at some size, and a
+       negative one breaks cursive joining in Arabic and Persian and cluster
+       shaping in Thai and Devanagari. Tracking now belongs to each type step
+       (--rd-*-tracking); see design-tokens.css. */
+  }
+}
+
+/* ── Redesign surface ──────────────────────────────────────────────────────
+   Replaces the translucent .glass treatment for the chrome. Opaque so text
+   over it never competes with whatever scrolls underneath. */
+.rd-surface {
+  background-color: var(--rd-surface);
+  border: 1px solid var(--rd-border);
+}
+
+.rd-hairline-bottom {
+  border-bottom: 1px solid var(--rd-border);
 }
 
 /* Custom animations */

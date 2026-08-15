@@ -115,6 +115,20 @@
      ascenders/descenders and lower it for CJK. */
   --rd-leading-body: 1.85;
 
+  /* ── Font stack ───────────────────────────────────────────────────────────
+     Pretendard covers Latin and Hangul. Verified against its CDN stylesheet:
+     of 3,459 unicode-ranges it has zero coverage for Cyrillic (U+0400-04FF),
+     Hebrew (U+0590-05FF), Arabic (U+0600-06FF), Devanagari (U+0900-097F) and
+     Thai (U+0E00-0E7F), and only the bare Greek letterforms (U+391-3A9,
+     U+3B1-3C9) with none of the accented vowels — so Greek prose mixes two
+     faces mid-word. Those locales are better served by the platform font,
+     which ships proper shaping for their script.
+
+     Deliberately not a Tailwind `font-sans` override: `@theme inline` inlines
+     that value at build time, so a :lang() rule could never reach it. */
+  --rd-font-sans: 'Pretendard', var(--font-noto-sans), -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+
   /* ── B-4. Layout constants (desktop) ──────────────────────────────────── */
   --rd-container: 75rem; /* 1200px */
   --rd-grid-columns: 5;
@@ -167,4 +181,22 @@
 :root:lang(ja),
 :root:lang(zh) {
   --rd-leading-body: 1.85;
+}
+
+/* ── Scripts Pretendard does not cover: hand them to the platform font ──── */
+:root:lang(ar),
+:root:lang(fa),
+:root:lang(he),
+:root:lang(th),
+:root:lang(el),
+:root:lang(ru),
+:root:lang(uk) {
+  --rd-font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Noto Sans', sans-serif;
+}
+
+/* Devanagari already has a loaded face; keep it ahead of the platform font. */
+:root:lang(hi) {
+  --rd-font-sans: var(--font-devanagari), system-ui, -apple-system, 'Noto Sans',
+    sans-serif;
 }

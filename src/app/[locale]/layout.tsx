@@ -105,8 +105,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export const viewport: Viewport = {
-  themeColor: '#020617',
-  colorScheme: 'dark',
+  themeColor: '#FAF7F0',
+  colorScheme: 'light',
   width: 'device-width',
   initialScale: 1,
 };
@@ -137,7 +137,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSans.variable} ${notoSansDevanagari.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+    <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSans.variable} ${notoSansDevanagari.variable} motion-safe:scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
         {/* Google Consent Mode v2 — gtag.js보다 먼저 동기 실행되어야 함 */}
         <script
