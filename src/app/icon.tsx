@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og'
-import { SILHOUETTE_PATH } from '@/components/brand-mark'
+import { BRAND_SOLID_DATA_URI } from '@/components/brand-art'
 
 export const runtime = 'edge'
 export const contentType = 'image/png'
@@ -15,9 +15,13 @@ export function generateImageMetadata() {
 }
 
 export default function Icon({ id }: { id: string }) {
-  let w = parseInt(id, 10);
-  if (isNaN(w)) w = 512;
+  let w = parseInt(id, 10)
+  if (isNaN(w)) w = 512
 
+  // The disc is the icon. There is no plate behind it any more — the old one
+  // was a navy rounded square, a colour the site no longer uses anywhere, and
+  // a square around a circle only shrinks the circle. Transparent lets the
+  // mark sit on whatever the OS or the browser tab puts behind it.
   return new ImageResponse(
     (
       <div
@@ -27,14 +31,11 @@ export default function Icon({ id }: { id: string }) {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          background: '#0B0F19',
-          borderRadius: w * 0.22,
+          background: 'transparent',
         }}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
-          <circle cx="256" cy="256" r="220" fill="#F59E0B"/>
-          <path d={SILHOUETTE_PATH} fill="#0B0F19"/>
-        </svg>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={BRAND_SOLID_DATA_URI} width={w} height={w} alt="" />
       </div>
     ),
     { width: w, height: w }
