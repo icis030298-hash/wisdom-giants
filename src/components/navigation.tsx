@@ -46,7 +46,7 @@ export function Navigation() {
             <BrandMark className="w-9 h-9 md:w-10 md:h-10 flex-shrink-0" />
             <div className="hidden sm:block min-w-0">
               <span
-                className={`block leading-none pr-2 ${locale === 'hi' ? 'font-[family-name:var(--font-devanagari)]' : 'font-serif'}`}
+                className={`block leading-none pe-2 ${locale === 'hi' ? 'font-[family-name:var(--font-devanagari)]' : 'font-serif'}`}
                 style={{
                   color: "var(--rd-text-ink)",
                   fontSize: "var(--rd-card-name-size)",
@@ -103,7 +103,7 @@ export function Navigation() {
           </div>
 
           {/* Mobile actions */}
-          <div className="flex-shrink-0 flex items-center gap-1.5 ml-auto md:hidden">
+          <div className="flex-shrink-0 flex items-center gap-1.5 ms-auto md:hidden">
             <LanguageSwitcher variant="mobile" />
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -126,7 +126,7 @@ export function Navigation() {
             onClick={() => setIsMobileMenuOpen(false)}
           />
           <div
-            className="absolute top-16 left-4 right-4 rd-surface p-3"
+            className="absolute top-16 inset-x-4 rd-surface p-3"
             style={{ borderRadius: 6 }}
           >
             <div className="flex flex-col">
