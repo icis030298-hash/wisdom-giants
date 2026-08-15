@@ -271,6 +271,17 @@
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--rd-error) 30%, transparent);
 }
 
+/* ── Stage 6: the remaining fills and status colours ───────────────────────
+   The debate room alone carried about three hundred colour utilities. Naming
+   the handful of roles it actually uses is what let that file be converted
+   without inventing a new colour per panel. */
+.rd-bg-page { background-color: var(--rd-bg-base); }
+.rd-bg-faint { background-color: var(--rd-divider-faint); }
+.rd-border-accent { border-color: var(--rd-accent-brown); }
+.rd-text-error { color: var(--rd-error); }
+.rd-bg-error { background-color: var(--rd-error-bg); }
+.rd-border-error { border-color: var(--rd-error); }
+
 /* ── Stage 6: selected chip and the recorder button ────────────────────────
    Selection carries a filled border as well as a tint, so it survives being
    viewed in greyscale. The record button keeps red — it is the one control
