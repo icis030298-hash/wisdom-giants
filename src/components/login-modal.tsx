@@ -38,26 +38,37 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[420px] glass border-amber-500/20 p-0 overflow-hidden bg-zinc-950/90 backdrop-blur-2xl">
-        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-500/50 to-transparent" />
-        
+      {/* This opens over a cream page, so a translucent near-black panel with
+          an amber hairline on top of it was the single most jarring thing left
+          in the header. Opaque surface, one border, no gradient strip. */}
+      <DialogContent
+        className="sm:max-w-[420px] rd-surface p-0 overflow-hidden"
+        style={{ borderRadius: "var(--rd-card-radius)" }}
+      >
         <div className="p-8 flex flex-col items-center text-center">
-          <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center mb-6 shadow-[0_0_30px_rgba(245,158,11,0.3)]">
-            <Sparkles className="w-8 h-8 text-black" />
+          <div
+            className="w-16 h-16 flex items-center justify-center mb-6 rd-bg-accent"
+            style={{ borderRadius: "var(--rd-card-radius)" }}
+          >
+            <Sparkles className="w-8 h-8" />
           </div>
-          
+
           <DialogHeader className="space-y-3 mb-8">
-            <DialogTitle className="text-2xl font-serif font-bold text-amber-100">
+            <DialogTitle className="text-2xl font-serif font-bold rd-text-ink">
               {t("loginModalTitle")}
             </DialogTitle>
-            <DialogDescription className="text-zinc-400 text-base leading-relaxed">
+            <DialogDescription className="rd-text-body text-base leading-relaxed">
               {t("loginModalDescription")}
             </DialogDescription>
           </DialogHeader>
 
+          {/* Google's brand guidelines require the button keep a white face and
+              the coloured mark, so this one stays white on purpose — it is a
+              third-party affordance, not part of the palette. */}
           <button
             onClick={handleGoogleLogin}
-            className="w-full flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-white text-black font-bold text-base hover:bg-zinc-100 transition-all transform hover:-translate-y-1 active:translate-y-0 shadow-[0_10px_20px_rgba(255,255,255,0.1)] group"
+            className="w-full flex items-center justify-center gap-3 px-6 py-4 bg-white border rd-hairline font-bold text-base hover:opacity-90 transition-opacity"
+            style={{ borderRadius: "var(--rd-card-radius)", color: "#3c4043", transitionDuration: "120ms" }}
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24">
               <path
@@ -80,8 +91,8 @@ export function LoginModal({ isOpen, onClose }: LoginModalProps) {
             {t("continueWithGoogle")}
           </button>
           
-          <p className="mt-8 text-xs text-zinc-500">
-            By continuing, you agree to our <span className="text-amber-500/50">Terms of Service</span> and <span className="text-amber-500/50">Privacy Policy</span>.
+          <p className="mt-8 rd-caption">
+            By continuing, you agree to our <span className="rd-accent">Terms of Service</span> and <span className="rd-accent">Privacy Policy</span>.
           </p>
         </div>
       </DialogContent>

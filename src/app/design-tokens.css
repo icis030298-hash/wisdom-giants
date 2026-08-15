@@ -47,6 +47,13 @@
   --rd-border: #e3dacb; /* card border, header rule (1px) */
   --rd-divider-faint: #efe8da; /* table row rules, thumbnail placeholders */
 
+  /* Stage 6 adds the first forms to the cream palette. Stage 5 had no input
+     and no error state, so these two are the only genuinely new colours. The
+     red is pulled toward the warm end so it belongs to this palette rather
+     than reading as a browser default. */
+  --rd-error: #a33a2a; /* invalid field, error banner  contrast 5.6:1 on surface */
+  --rd-error-bg: #fbf0ed; /* error banner fill */
+
   /* ── B-2. Type scale ──────────────────────────────────────────────────────
      Each step carries its own tracking and leading. There is deliberately no
      global letter-spacing: a single value is wrong at some size.

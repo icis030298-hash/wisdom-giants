@@ -244,6 +244,45 @@
   font-style: normal;
 }
 
+/* ── Stage 6: form fields ──────────────────────────────────────────────────
+   The first inputs on the cream palette. The focus state is a ring rather
+   than a border-colour swap: against cream the resting and focused border
+   are close in lightness, so colour alone would not carry it. The error
+   state changes the ring as well as the border for the same reason — and
+   the message beside the field is what actually says what is wrong. */
+.rd-input {
+  border-color: var(--rd-border);
+  border-radius: var(--rd-card-radius);
+}
+.rd-input::placeholder,
+.rd-input-error::placeholder {
+  color: var(--rd-text-muted);
+  opacity: 0.7;
+}
+.rd-input:focus {
+  border-color: var(--rd-accent-brown);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--rd-accent-brown) 30%, transparent);
+}
+.rd-input-error {
+  border-color: var(--rd-error);
+  border-radius: var(--rd-card-radius);
+}
+.rd-input-error:focus {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--rd-error) 30%, transparent);
+}
+
+/* 무한 회전·펄스가 15개 파일에 흩어져 있다. 개별로 끄는 대신 한 곳에서
+   전역으로 차단한다. 0이 아니라 0.01ms인 것은, 애니메이션 종료에 의존하는
+   JS(transitionend 등)가 영영 기다리지 않게 하기 위해서다. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* 위인 초상 통일 보정. 에셋은 여러 세대에 걸쳐 생성돼 원판 색과 배경이
    제각각이라, 한 장씩은 멀쩡해도 격자에 모이면 온도가 어긋난다. 채도를
    눌러 종이 쪽으로 당기면 493장이 한 세트로 읽힌다.
