@@ -164,6 +164,86 @@
 .rd-bg-accent { background-color: var(--rd-accent-brown); color: var(--rd-surface); }
 .rd-hairline { border-color: var(--rd-border); }
 
+/* ── Stage 5: blog posts and static documents ──────────────────────────────
+   These pages are a single column of prose with no sidebar, so the only thing
+   holding them together is the measure and the type steps. Both live here
+   rather than in each page, which is what kept /privacy, /terms and
+   /disclaimer from drifting apart the last time they were touched
+   independently. */
+.rd-reading {
+  max-width: var(--rd-reading);
+  margin-inline: auto;
+}
+
+.rd-body-lg {
+  color: var(--rd-text-body);
+  font-size: var(--rd-body-lg-size);
+  font-weight: var(--rd-body-lg-weight);
+  letter-spacing: var(--rd-body-lg-tracking);
+  line-height: var(--rd-leading-body);
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.rd-lede {
+  color: var(--rd-accent-brown);
+  font-size: var(--rd-lede-size);
+  font-weight: var(--rd-lede-weight);
+  letter-spacing: var(--rd-lede-tracking);
+  line-height: var(--rd-lede-leading);
+  word-break: keep-all;
+}
+
+.rd-doc-h2 {
+  color: var(--rd-accent-brown);
+  font-size: var(--rd-doc-h2-size);
+  font-weight: var(--rd-doc-h2-weight);
+  letter-spacing: var(--rd-doc-h2-tracking);
+  line-height: var(--rd-doc-h2-leading);
+  word-break: keep-all;
+}
+
+.rd-doc-h3 {
+  color: var(--rd-text-ink);
+  font-size: var(--rd-doc-h3-size);
+  font-weight: var(--rd-doc-h3-weight);
+  letter-spacing: var(--rd-doc-h3-tracking);
+  line-height: var(--rd-doc-h3-leading);
+  word-break: keep-all;
+}
+
+.rd-caption {
+  color: var(--rd-text-muted);
+  font-size: var(--rd-caption-size);
+  letter-spacing: var(--rd-caption-tracking);
+  line-height: var(--rd-caption-leading);
+}
+
+/* Underline offset rather than a colour-only link: colour alone is not a
+   sufficient affordance, and the brown against cream is close enough in
+   lightness that it would fail on its own. */
+.rd-link {
+  color: var(--rd-accent-brown);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+}
+.rd-link:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* A pull quote, not a block divider, so this rule is 2px and accent-coloured
+   where the sidebar block rules are 1px and border-coloured.
+   Deliberately not italic: italic is a Latin convention. Applied to Hangul,
+   Kana, Arabic or Devanagari the browser synthesises an oblique, which shears
+   the glyphs and, in Arabic, breaks cursive joining. */
+.rd-quote {
+  border-inline-start: 2px solid var(--rd-accent-brown);
+  padding-inline-start: 1.25rem;
+  color: var(--rd-text-body);
+  font-style: normal;
+}
+
 /* Custom animations */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
@@ -202,7 +282,13 @@
   animation: fade-in-up 0.6s ease-out forwards;
 }
 
-/* Glassmorphism utilities */
+/* Glassmorphism utilities — dark-theme leftovers.
+   Stage 5 removed the last reference from the blog, the static documents and
+   the shared chrome (auth button, login modal, contact form). The definitions
+   stay because /chats, /dna, /reels, /debate and chat-interface still carry
+   ~40 references between them and have not been redesigned yet; deleting the
+   rules now would strip those panels to transparent over the cream page
+   rather than leaving them merely dated. They go with stage 6. */
 .glass {
   background: rgba(15, 23, 42, 0.4);
   backdrop-filter: blur(8px);
@@ -224,16 +310,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(15, 23, 42, 0.5);
+  background: var(--rd-divider-faint);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(245, 158, 11, 0.3);
+  background: var(--rd-border);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(245, 158, 11, 0.5);
+  background: var(--rd-text-muted);
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -245,12 +331,12 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(245, 158, 11, 0.2);
+  background: var(--rd-border);
   border-radius: 20px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(245, 158, 11, 0.4);
+  background: var(--rd-text-muted);
 }
 
 /* Radial gradient utility */
@@ -260,13 +346,13 @@
 
 /* Text selection */
 ::selection {
-  background: rgba(245, 158, 11, 0.3);
-  color: #fef3c7;
+  background: rgba(107, 63, 42, 0.18); /* --rd-accent-brown at low alpha */
+  color: var(--rd-text-ink);
 }
 
 /* Focus visible styles */
 :focus-visible {
-  outline: 2px solid rgba(245, 158, 11, 0.5);
+  outline: 2px solid var(--rd-accent-brown);
   outline-offset: 2px;
 }
 
@@ -289,47 +375,8 @@
   animation: fade-in 0.6s ease-out forwards;
 }
 
-/* Readability typography overrides for blog and epics */
-.prose-readability {
-  font-size: 17.5px !important;
-  line-height: 1.95 !important;
-  letter-spacing: -0.01em !important;
-}
-
-.prose-readability p, 
-.prose-readability li {
-  color: rgb(226, 232, 240) !important; /* slate-200 */
-  line-height: 1.95 !important;
-  word-break: keep-all;
-  overflow-wrap: break-word;
-}
-
-.prose-readability h2 {
-  font-size: 1.5rem !important; /* ~24px */
-  font-weight: 700 !important;
-  line-height: 1.4 !important;
-  margin-top: 2.75rem !important;
-  margin-bottom: 1.25rem !important;
-}
-
-.prose-readability h3 {
-  font-size: 1.25rem !important; /* ~20px */
-  font-weight: 600 !important;
-  line-height: 1.4 !important;
-  margin-top: 2.25rem !important;
-  margin-bottom: 1rem !important;
-  color: #fbbf24 !important; /* amber-400 */
-}
-
-.prose-readability blockquote {
-  font-size: 17px !important;
-  line-height: 1.85 !important;
-  padding: 1.25rem 1.5rem !important;
-  border-left: 3px solid #f59e0b !important;
-  background: rgba(245, 158, 11, 0.03) !important;
-  border-radius: 0 12px 12px 0;
-  margin: 2rem 0 !important;
-  font-style: italic;
-  color: rgb(251, 191, 36) !important; /* amber-400 */
-}
-
+/* .prose-readability lived here: a dark-theme override block (slate-200 body,
+   amber-400 h3, amber blockquote) written for the old blog layout. Stage 5
+   replaced that layout, and a repo-wide search finds no remaining reference,
+   so the block is gone rather than left to rot in light mode. The type steps
+   it hard-coded now live in design-tokens.css as --rd-doc-h2/h3. */

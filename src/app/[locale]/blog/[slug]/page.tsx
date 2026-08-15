@@ -9,23 +9,24 @@ import { giants } from '@/lib/giants-data'
 import { ConditionalAdSense } from '@/components/conditional-adsense'
 import { Navigation } from '@/components/navigation'
 import { getReadTime } from '@/utils/blog'
-import { 
-  ArrowLeft, 
-  Calendar, 
-  Clock, 
-  MessageSquare, 
-  Share2, 
-  Link2, 
-  Tag, 
-  ArrowRight,
-  BookOpen,
-  Bot
-} from 'lucide-react'
+import { ArrowLeft, Share2, Link2 } from 'lucide-react'
 import React from 'react'
 import { InArticleAd } from '@/components/ad-slot'
 import GiantAvatar from '@/components/GiantAvatar'
 import { buildHreflang } from '@/lib/locales'
 import { BlogCTA } from '@/components/blog-cta'
+import fs from 'fs'
+import path from 'path'
+import { eraForLocale, lifespan } from '@/lib/era'
+
+// Same source the cards and the giant detail page read. messages.Giants.<slug>
+// .era still carries the "Giants of History" placeholder for 44 giants, which
+// is what used to show up under the portrait here.
+const summaryPath = path.join(process.cwd(), 'src/data/giants-summary.json')
+let giantsSummary: any = {}
+if (fs.existsSync(summaryPath)) {
+  giantsSummary = JSON.parse(fs.readFileSync(summaryPath, 'utf-8'))
+}
 
 export const dynamic = 'force-dynamic'
 export const revalidate = 0
@@ -343,16 +344,8 @@ const categoryNames: Record<string, Record<string, string>> = {
   zh: { leadership: "领导力", philosophy: "哲学", creativity: "创造力", wisdom: "智慧", science: "科学", arts: "艺术", society: "社会", business: "商业" }
 }
 
-const colorMap: Record<string, string> = {
-  leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
-  philosophy: "from-emerald-500/20 to-teal-500/20 text-emerald-300 border-emerald-500/30",
-  creativity: "from-purple-500/20 to-indigo-500/20 text-purple-300 border-purple-500/30",
-  wisdom: "from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-500/30",
-  science: "from-cyan-500/20 to-blue-500/20 text-cyan-300 border-cyan-500/30",
-  arts: "from-rose-500/20 to-pink-500/20 text-rose-300 border-rose-500/30",
-  society: "from-teal-500/20 to-emerald-500/20 text-teal-300 border-teal-500/30",
-  business: "from-yellow-500/20 to-amber-500/20 text-yellow-300 border-yellow-500/30"
-}
+// The per-category colour ramps are gone with the pills that used them; the
+// category is a brown caption now, the same one the cards carry.
 
 let isCircuitBreakerTrippedCache: boolean | null = null;
 
@@ -445,14 +438,14 @@ function renderInlineMarkdown(text: string, keyPrefix: string = 'inline'): React
     if (match[1] !== undefined) {
       // Bold: **text**
       parts.push(
-        <strong key={`${keyPrefix}-bold-${keyIdx++}`} className="font-bold text-white">
+        <strong key={`${keyPrefix}-bold-${keyIdx++}`} className="font-semibold rd-text-ink">
           {match[1]}
         </strong>
       );
     } else if (match[2] !== undefined) {
       // Italic: *text*
       parts.push(
-        <em key={`${keyPrefix}-em-${keyIdx++}`} className="italic text-slate-200">
+        <em key={`${keyPrefix}-em-${keyIdx++}`} className="italic">
           {match[2]}
         </em>
       );
@@ -462,7 +455,7 @@ function renderInlineMarkdown(text: string, keyPrefix: string = 'inline'): React
         <Link
           key={`${keyPrefix}-link-${keyIdx++}`}
           href={match[4]}
-          className="text-amber-400 hover:text-amber-300 underline font-semibold transition-colors"
+          className="rd-link"
         >
           {match[3]}
         </Link>
@@ -495,7 +488,7 @@ function parseMarkdown(content: string) {
     if (blockquoteLines.length > 0) {
       const fullText = blockquoteLines.join(' ');
       elements.push(
-        <blockquote key={`bq-${key}`} className="border-l-[3px] border-amber-500 bg-gradient-to-r from-amber-500/8 to-transparent px-6 py-5 my-10 rounded-r-2xl leading-[1.9] font-serif italic" style={{ color: '#d4b896', fontSize: '1.05rem' }}>
+        <blockquote key={`bq-${key}`} className="rd-quote rd-body-lg my-10">
           {renderParagraphWithLinks(fullText)}
         </blockquote>
       )
@@ -525,23 +518,26 @@ function parseMarkdown(content: string) {
     }
 
     if (trimmed.startsWith('###')) {
-      // H3: 골드 언더라인 포인트
+      // H3: ink, no rule. The rule belongs to H2 so the two levels stay
+      // distinguishable without colour.
       elements.push(
-        <h3 key={`h3-${index}`} className="text-xl font-bold font-serif mt-10 mb-4 tracking-tight pb-1.5 inline-block" style={{ color: '#f5e6c8', borderBottom: '2px solid rgba(245,158,11,0.45)' }}>
+        <h3 key={`h3-${index}`} className="rd-doc-h3 mt-10 mb-3">
           {trimmed.slice(3).trim()}
         </h3>
       )
     } else if (trimmed.startsWith('##')) {
-      // H2: 앰버 오렌지 시그니처 컬러
+      // H2: accent brown with a hairline under it.
       elements.push(
-        <h2 key={`h2-${index}`} className="text-2xl md:text-3xl font-serif font-bold mt-14 mb-6 border-b pb-3" style={{ color: '#f59e0b', borderColor: 'rgba(245,158,11,0.2)' }}>
+        <h2 key={`h2-${index}`} className="rd-doc-h2 mt-14 mb-5 pb-2 rd-hairline-bottom">
           {trimmed.slice(2).trim()}
         </h2>
       )
     } else if (trimmed.startsWith('#')) {
-      // H1: 샴페인 골드 그라디언트
+      // H1 inside the body. The tag is deliberately not demoted: some posts
+      // open with one, and silently changing the level would shift the
+      // document outline against every other locale of the same post.
       elements.push(
-        <h1 key={`h1-${index}`} className="text-3xl md:text-4xl font-serif font-bold mt-12 mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-200">
+        <h1 key={`h1-${index}`} className="mt-12 mb-6" style={{ color: 'var(--rd-text-ink)', fontSize: 'var(--rd-display-size)', fontWeight: 'var(--rd-display-weight)', letterSpacing: 'var(--rd-display-tracking)', lineHeight: 'var(--rd-display-leading)' }}>
           {trimmed.slice(1).trim()}
         </h1>
       )
@@ -549,14 +545,15 @@ function parseMarkdown(content: string) {
       // List item
       const liContent = trimmed.startsWith('- ') ? trimmed.slice(2).trim() : trimmed.slice(2).trim()
       elements.push(
-        <li key={`li-${index}`} className="font-serif leading-[1.8] ml-6 mb-4 list-disc" style={{ color: '#e0e0e0', fontSize: '1.0625rem' }}>
+        <li key={`li-${index}`} className="rd-body-lg ms-6 mb-3 list-disc">
           {renderInlineMarkdown(liContent, `li-${index}`)}
         </li>
       )
     } else if (trimmed !== '') {
-      // 본문 p: 세리프, 오프화이트, 행간 1.8, 문단 간격 넉넉히
+      // Body paragraph. Leading comes from --rd-leading-body, which the
+      // :lang() rules raise for Thai/Devanagari and tighten for CJK.
       elements.push(
-        <p key={`p-${index}`} className="font-serif leading-[1.85] mb-8" style={{ color: '#e0e0e0', fontSize: '1.0625rem' }}>
+        <p key={`p-${index}`} className="rd-body-lg mb-7">
           {renderInlineMarkdown(trimmed, `p-${index}`)}
         </p>
       )
@@ -583,7 +580,6 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const readTime = getReadTime(translation.content, locale)
   const ui = uiTranslations[locale] || uiTranslations['en']
   const catNames = categoryNames[locale] || categoryNames['en']
-  const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30"
 
   const tg = await getTranslations({ locale, namespace: "Giants" })
   const getTranslation = (slug: string, fallback: string) => {
@@ -591,18 +587,6 @@ export default async function BlogPostDetailPage({ params }: Props) {
       const rawData = tg.raw(slug);
       if (rawData && typeof rawData === 'object' && 'name' in rawData) {
         return (rawData as any).name;
-      }
-      return fallback;
-    } catch (e) {
-      return fallback;
-    }
-  }
-
-  const getEraTranslation = (slug: string, fallback: string) => {
-    try {
-      const rawData = tg.raw(slug);
-      if (rawData && typeof rawData === 'object' && 'era' in rawData) {
-        return (rawData as any).era;
       }
       return fallback;
     } catch (e) {
@@ -631,6 +615,10 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const absoluteImageUrl = giant
     ? giant.imageUrl
     : "https://yrqageqpxzltprtuvnpl.supabase.co/storage/v1/object/public/giants/napoleon-bonaparte.jpg"
+
+  // Dates rather than an era phrase, so the line under the portrait here reads
+  // the same as the one on the giant cards.
+  const giantYears = lifespan(eraForLocale(giantsSummary[effectiveSlug || ''], locale))
 
   // Related posts (same category, up to 3 excluding current)
   const related = blogPosts
@@ -726,7 +714,7 @@ export default async function BlogPostDetailPage({ params }: Props) {
   } : null
 
   return (
-    <div className="min-h-screen bg-background pb-24">
+    <div className="min-h-screen pb-24">
       <ConditionalAdSense />
       <script
         type="application/ld+json"
@@ -740,63 +728,82 @@ export default async function BlogPostDetailPage({ params }: Props) {
       )}
       <Navigation />
       {/* Article Container */}
-      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 md:pt-36">
-        
-        <div className="max-w-2xl mx-auto">
+      {/* One column. A blog post has no fact layer to put in a sidebar, so
+          the reading measure is the whole layout. */}
+      <article className="rd-reading px-4 md:px-6 pt-12 md:pt-16">
+
+        <div>
           {/* Back Button */}
           <Link 
           href="/blog" 
-          className="inline-flex items-center gap-2 text-slate-400 hover:text-amber-400 text-sm font-medium transition-colors mb-8 group"
+          className="inline-flex items-center gap-1.5 rd-text-muted hover:opacity-80 transition-opacity mb-8"
+          style={{ fontSize: "var(--rd-caption-size)" }}
         >
-          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
+          <ArrowLeft className="w-3.5 h-3.5" />
           {ui.backToBlog}
         </Link>
 
         {/* Article Meta Header */}
-        <div className="space-y-4 mb-8">
-          <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold border ${catColor}`}>
-            <Tag className="w-3.5 h-3.5" />
+        <div className="mb-8">
+          <span
+            style={{
+              color: "var(--rd-accent-brown)",
+              fontSize: "var(--rd-category-size)",
+              fontWeight: "var(--rd-category-weight)",
+              letterSpacing: "var(--rd-category-tracking)",
+              lineHeight: "var(--rd-category-leading)",
+            }}
+          >
             {catNames[post.category]}
           </span>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-amber-100 via-amber-300 to-amber-200">
+          <h1
+            className="mt-2 break-keep"
+            style={{
+              color: "var(--rd-text-ink)",
+              fontSize: "var(--rd-display-size)",
+              fontWeight: "var(--rd-display-weight)",
+              letterSpacing: "var(--rd-display-tracking)",
+              lineHeight: "var(--rd-display-leading)",
+            }}
+          >
             {translation.title}
           </h1>
 
-          <div className="flex flex-wrap items-center gap-4 text-xs md:text-sm text-slate-500">
-            <span className="flex items-center gap-1.5">
-              <Calendar className="w-4 h-4" />
-              {post.publishedAt}
-            </span>
-            <span className="w-1 h-1 rounded-full bg-slate-700" />
-            <span className="flex items-center gap-1.5">
-              <Clock className="w-4 h-4" />
-              {readTime} {ui.readTime}
-            </span>
+          <div className="rd-caption flex flex-wrap items-center gap-2 mt-3">
+            <span>{post.publishedAt}</span>
+            <span aria-hidden="true">·</span>
+            <span>{readTime} {ui.readTime}</span>
           </div>
         </div>
 
         {/* Giant Avatar & Quick Chat Direct Button */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-5 rounded-2xl bg-slate-950 border border-white/5 mb-10 shadow-lg">
-          <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-full overflow-hidden bg-slate-800 border border-white/10 shrink-0">
+        <div
+          className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 py-5 mb-10"
+          style={{ borderTop: "1px solid var(--rd-border)", borderBottom: "1px solid var(--rd-border)" }}
+        >
+          <div className="flex items-center gap-3">
+            <div
+              className="w-11 h-11 rounded-full overflow-hidden shrink-0"
+              style={{ background: "var(--rd-divider-faint)", border: "1px solid var(--rd-border)" }}
+            >
               <img
                 src={absoluteImageUrl}
-                alt={localizedName}
-                className="w-full h-full object-cover scale-110"
+                alt=""
+                className="w-full h-full object-cover"
               />
             </div>
             <div>
-              <h3 className="text-white font-serif font-bold">{localizedName}</h3>
-              <p className="text-xs text-slate-500 font-light">{getEraTranslation(post.giantSlug || "", giant?.era || "") || (locale === 'ko' ? '기원전 1세기' : '1st Century BC')}</p>
+              <h3 className="rd-text-ink" style={{ fontSize: "var(--rd-card-name-size)", fontWeight: "var(--rd-card-name-weight)" }}>{localizedName}</h3>
+              {giantYears && <p className="rd-caption">{giantYears}</p>}
             </div>
           </div>
-          
+
           <Link
             href={chatHref}
-            className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground font-semibold text-xs shadow-md shadow-amber-500/10 hover:shadow-lg hover:shadow-amber-500/25 transition-all scale-[1.01]"
+            className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rd-bg-accent transition-opacity hover:opacity-90"
+            style={{ borderRadius: "var(--rd-card-radius)", fontSize: "var(--rd-caption-size)", fontWeight: 600 }}
           >
-            <MessageSquare className="w-4 h-4" />
             {locale === 'ko' 
               ? `${localizedName}${getKoreanWithParticle(localizedName, "대화하기")}`
               : locale === 'ja' 
@@ -806,15 +813,18 @@ export default async function BlogPostDetailPage({ params }: Props) {
         </div>
 
         {/* AI Content Disclaimer */}
-        <div className="flex items-start gap-3 p-4 rounded-xl bg-slate-900/60 border border-white/5 mb-8 text-xs text-slate-500">
-          <Bot className="w-4 h-4 shrink-0 text-slate-600 mt-0.5" />
-          <span>
-            {ui.disclaimer}
-          </span>
-        </div>
+        <p
+          className="rd-caption mb-10 ps-3"
+          style={{ borderInlineStart: "1px solid var(--rd-border)" }}
+        >
+          {ui.disclaimer}
+        </p>
 
         {/* Article Body (Markdown parsed) — Premium serif reading experience */}
-        <div className="prose prose-invert prose-amber max-w-none">
+        {/* No prose plugin: every element parseMarkdown emits already carries
+            its own token-driven class, and prose-invert would fight all of
+            them for colour. */}
+        <div>
           {parseMarkdown(translation.content)}
         </div>
 
@@ -822,9 +832,12 @@ export default async function BlogPostDetailPage({ params }: Props) {
         <InArticleAd />
 
         {/* Social Share Buttons */}
-        <div className="flex items-center justify-between border-y border-white/5 py-6 my-12">
-          <span className="flex items-center gap-2 text-slate-400 font-bold text-sm">
-            <Share2 className="w-4 h-4" />
+        <div
+          className="flex items-center justify-between py-5 my-12"
+          style={{ borderTop: "1px solid var(--rd-border)", borderBottom: "1px solid var(--rd-border)" }}
+        >
+          <span className="flex items-center gap-2 rd-text-muted" style={{ fontSize: "var(--rd-caption-size)" }}>
+            <Share2 className="w-3.5 h-3.5" />
             {ui.share}
           </span>
           <div className="flex items-center gap-2">
@@ -832,7 +845,8 @@ export default async function BlogPostDetailPage({ params }: Props) {
               href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(postUrl)}&text=${encodeURIComponent(postTitle)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-xl glass border border-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/5 transition-colors cursor-pointer"
+              className="w-9 h-9 rd-bg-surface rd-text-muted flex items-center justify-center transition-opacity hover:opacity-70 cursor-pointer"
+              style={{ border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}
             >
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
@@ -842,7 +856,8 @@ export default async function BlogPostDetailPage({ params }: Props) {
               href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-xl glass border border-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/5 transition-colors cursor-pointer"
+              className="w-9 h-9 rd-bg-surface rd-text-muted flex items-center justify-center transition-opacity hover:opacity-70 cursor-pointer"
+              style={{ border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}
             >
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                 <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1V12h3v3h-3v6.8c4.56-.93 8-4.96 8-9.8z" />
@@ -850,7 +865,8 @@ export default async function BlogPostDetailPage({ params }: Props) {
             </a>
             {/* Copy Link component */}
             <button 
-              className="w-10 h-10 rounded-xl glass border border-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/5 transition-colors cursor-pointer"
+              className="w-9 h-9 rd-bg-surface rd-text-muted flex items-center justify-center transition-opacity hover:opacity-70 cursor-pointer"
+              style={{ border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}
               title={ui.copylink}
             >
               <Link2 className="w-4 h-4" />
@@ -859,28 +875,29 @@ export default async function BlogPostDetailPage({ params }: Props) {
         </div>
 
         {/* CTA Card linking to giant's chat page */}
-        <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-r from-amber-500 to-amber-600 p-8 md:p-10 shadow-2xl shadow-amber-500/20 text-center sm:text-left mb-16">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
-          
-          <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="space-y-3">
-              <h2 className="text-2xl md:text-3xl font-serif font-bold text-white tracking-tight leading-tight">
+        <div
+          className="p-6 md:p-8 mb-16 rd-bg-surface"
+          style={{ border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}
+        >
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div className="space-y-2">
+              <h2 className="rd-doc-h2 break-keep">
               {locale === 'ko'
                 ? `${localizedName}${getKoreanWithParticle(localizedName, "직접 대화해보기")}`
                 : locale === 'ja'
                 ? `${localizedName}${ui.ctaTitle}`
                 : `${ui.ctaTitle}${localizedName}`}
               </h2>
-              <p className="text-white/85 text-sm md:text-base max-w-xl font-light leading-relaxed">
+              <p className="rd-text-body break-keep" style={{ fontSize: "var(--rd-card-intro-size)", lineHeight: "var(--rd-card-intro-leading)" }}>
                 {ui.ctaDesc}
               </p>
             </div>
             <Link
               href={chatHref}
-              className="shrink-0 inline-flex items-center gap-2 px-6 py-4 rounded-full bg-white text-amber-900 font-bold hover:shadow-lg transition-all hover:scale-[1.02] active:scale-[0.98]"
+              className="shrink-0 inline-flex items-center justify-center gap-2 px-6 py-3.5 rd-bg-accent transition-opacity hover:opacity-90"
+              style={{ borderRadius: "var(--rd-card-radius)", fontSize: "var(--rd-caption-size)", fontWeight: 600 }}
             >
               {ui.chatNow}
-              <ArrowRight className="w-4 h-4 text-amber-900" />
             </Link>
           </div>
         </div>
@@ -896,17 +913,13 @@ export default async function BlogPostDetailPage({ params }: Props) {
         {/* Related Posts */}
         {related.length > 0 && (
           <div className="space-y-6">
-            <div className="flex items-center gap-3">
-              <BookOpen className="w-5 h-5 text-amber-400" />
-              <h2 className="font-serif text-2xl font-bold text-white">{ui.relatedPosts}</h2>
-            </div>
+            <h2 className="rd-doc-h2 pb-2 rd-hairline-bottom">{ui.relatedPosts}</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {related.map(p => {
                 const translation = p.translations[locale] || p.translations['en']
                 const rGiant = giants.find(g => g.slug === p.giantSlug)
                 const readTime = getReadTime(translation.content, locale)
-                const catColor = colorMap[p.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30"
 
                 const rLocalizedName = p.giantSlug === 'cleopatra'
                   ? (locale === 'ko' ? '클레오파트라' :
@@ -919,19 +932,46 @@ export default async function BlogPostDetailPage({ params }: Props) {
                   <Link 
                     key={p.slug} 
                     href={`/blog/${p.slug}`}
-                    className="group flex flex-col justify-between rounded-xl bg-slate-950 border border-white/5 hover:border-amber-500/30 p-5 shadow-lg transition-all duration-300 hover:-translate-y-0.5"
+                    className="flex flex-col justify-between transition-colors"
+                    style={{
+                      background: "var(--rd-surface)",
+                      border: "1px solid var(--rd-border)",
+                      borderRadius: "var(--rd-card-radius)",
+                      paddingTop: "var(--rd-card-pad-top)",
+                      paddingInline: "var(--rd-card-pad-x)",
+                      paddingBottom: "var(--rd-card-pad-bottom)",
+                      transitionDuration: "120ms",
+                    }}
                   >
                     <div>
-                      <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold border mb-3 ${catColor}`}>
+                      <span
+                        style={{
+                          color: "var(--rd-accent-brown)",
+                          fontSize: "var(--rd-category-size)",
+                          fontWeight: "var(--rd-category-weight)",
+                          lineHeight: "var(--rd-category-leading)",
+                        }}
+                      >
                         {catNames[p.category]}
                       </span>
-                      <h3 className="font-serif font-bold text-white group-hover:text-amber-400 transition-colors text-sm md:text-base leading-snug line-clamp-2 mb-2">
+                      <h3
+                        className="mt-1.5 line-clamp-2 break-keep"
+                        style={{
+                          color: "var(--rd-text-ink)",
+                          fontSize: "var(--rd-card-name-size)",
+                          fontWeight: "var(--rd-card-name-weight)",
+                          lineHeight: "var(--rd-card-name-leading)",
+                        }}
+                      >
                         {translation.title.replace(/\*\*/g, '')}
                       </h3>
                     </div>
-                    <div className="flex items-center justify-between text-[10px] text-slate-500 mt-4 pt-3 border-t border-white/5">
-                      <span>{rLocalizedName}</span>
-                      <span>{readTime} {ui.readTime}</span>
+                    <div
+                      className="rd-caption flex items-center justify-between gap-2 mt-4 pt-3"
+                      style={{ borderTop: "1px solid var(--rd-divider-faint)" }}
+                    >
+                      <span className="truncate">{rLocalizedName}</span>
+                      <span className="shrink-0">{readTime} {ui.readTime}</span>
                     </div>
                   </Link>
                 )

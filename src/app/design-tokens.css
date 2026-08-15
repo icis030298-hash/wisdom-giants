@@ -113,6 +113,21 @@
   --rd-sidebar-label-tracking: 0;
   --rd-sidebar-label-leading: 1.5;
 
+  /* doc-h2 / doc-h3 — section headings inside a blog post or a static
+     document. The giant detail page has no in-body subheadings, so these two
+     steps only exist from stage 5 on. They sit deliberately below
+     --rd-display: a section marker inside prose should not compete with the
+     article title above it. */
+  --rd-doc-h2-size: 1.375rem; /* 22px */
+  --rd-doc-h2-weight: 600;
+  --rd-doc-h2-tracking: -0.01em;
+  --rd-doc-h2-leading: 1.35;
+
+  --rd-doc-h3-size: 1.125rem; /* 18px */
+  --rd-doc-h3-weight: 600;
+  --rd-doc-h3-tracking: -0.005em;
+  --rd-doc-h3-leading: 1.4;
+
   /* ── B-3. Script-specific body leading ────────────────────────────────────
      Default. The [lang] rules below raise it for scripts with tall
      ascenders/descenders and lower it for CJK. */
@@ -148,6 +163,12 @@
   --rd-detail-gap: 3.5rem; /* 56px */
   --rd-portrait-width: 7rem; /* 112px */
   --rd-portrait-height: 8.75rem; /* 140px */
+
+  /* blog post and static document pages — single column, no sidebar.
+     700px at 19px body copy lands at roughly 70-75 Latin characters per line,
+     which is the range long-form prose is comfortable at. The giant detail
+     page keeps its wider 760px body because it is paired with a sidebar. */
+  --rd-reading: 43.75rem; /* 700px */
 }
 
 /* ── B-2/B-4. Mobile overrides (375px reference frame) ──────────────────── */
@@ -161,6 +182,8 @@
     --rd-card-name-size: 1rem; /* 16px */
     --rd-card-intro-size: 0.84375rem; /* 13.5px */
     --rd-category-size: 0.71875rem; /* 11.5px */
+    --rd-doc-h2-size: 1.25rem; /* 20px */
+    --rd-doc-h3-size: 1.0625rem; /* 17px */
 
     --rd-page-pad-x: 1rem; /* 16px */
     --rd-grid-gutter: 0.75rem; /* 12px */
