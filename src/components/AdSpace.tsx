@@ -15,8 +15,8 @@ const AdSpace: React.FC<AdSpaceProps> = ({
 }) => {
   return (
     <div className={`w-full my-8 flex flex-col items-center justify-center ${className}`}>
-      <span className="text-[10px] text-slate-500 mb-2 tracking-widest">{label}</span>
-      <div className="w-full min-h-[100px] bg-navy-light/30 border border-gold-antique/10 flex items-center justify-center text-slate-600 italic text-sm">
+      <span className="rd-caption mb-2">{label}</span>
+      <div className="w-full min-h-[100px] rd-bg-faint border rd-hairline flex items-center justify-center rd-text-muted italic text-sm">
         {/* Google AdSense will be injected here */}
         <ins className="adsbygoogle"
              style={{ display: 'block' }}

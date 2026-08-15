@@ -939,7 +939,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             onClick={() => trackCTAEvent('giant_page', 'counsel', locale, giant.slug)}
             className="flex flex-col items-center text-center p-6 rounded-2xl border rd-hairline hover:opacity-90 hover:opacity-90 transition-all group"
           >
-            <div className="w-12 h-12 rounded-full bg-pink-500/10 flex items-center justify-center mb-4 text-pink-400 group-hover:scale-110 transition-transform">
+            <div className="w-12 h-12 rounded-full rd-bg-faint flex items-center justify-center mb-4 rd-accent group-hover:scale-110 transition-transform">
               <MessageCircleHeart className="w-6 h-6" />
             </div>
             <h3 className="font-bold rd-text-ink mb-2">{tNav('consult')}</h3>
@@ -950,7 +950,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             onClick={() => trackCTAEvent('giant_page', 'dna', locale, giant.slug)}
             className="flex flex-col items-center text-center p-6 rounded-2xl border rd-hairline hover:opacity-90 hover:opacity-90 transition-all group"
           >
-            <div className="w-12 h-12 rounded-full bg-cyan-500/10 flex items-center justify-center mb-4 text-cyan-400 group-hover:scale-110 transition-transform">
+            <div className="w-12 h-12 rounded-full rd-bg-faint flex items-center justify-center mb-4 rd-accent group-hover:scale-110 transition-transform">
               <Dna className="w-6 h-6" />
             </div>
             <h3 className="font-bold rd-text-ink mb-2">{tNav('dnaTest')}</h3>
@@ -997,6 +997,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
       {isChatOpen && (
         <ChatInterface
           giant={giant}
+          era={eraContent}
           onClose={() => {
             setIsChatOpen(false)
             // clean up query parameters to avoid re-opening

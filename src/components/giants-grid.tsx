@@ -8,6 +8,7 @@ import { GiantCard } from "./giant-card"
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
 import { useGiantHistory } from "@/hooks/useGiantHistory"
+import { lifespan } from "@/lib/era"
 
 interface GiantsGridProps {
   dbCardData?: Record<string, { shortDescription?: string; era?: string; quote?: string }>
@@ -288,7 +289,7 @@ export function GiantsGrid({ dbCardData }: GiantsGridProps) {
                       {tg(`${giant.slug}.name`).includes(`${giant.slug}.`) ? giant.name : tg(`${giant.slug}.name`)}
                     </h3>
                     <span style={{ color: "var(--rd-text-muted)", fontSize: "var(--rd-caption-size)" }}>
-                      {dbCardData?.[giant.slug]?.era || (tg(`${giant.slug}.era`).includes(`${giant.slug}.`) ? giant.era : tg(`${giant.slug}.era`))}
+                      {lifespan(dbCardData?.[giant.slug]?.era || giant.era)}
                     </span>
                   </div>
                   <p style={{ color: "var(--rd-accent-brown)", fontSize: "var(--rd-caption-size)" }}>

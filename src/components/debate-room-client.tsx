@@ -863,7 +863,7 @@ export function DebateRoomClient() {
             {/* Left/Middle Columns: Selection & Controls */}
             <div className="lg:col-span-2 space-y-6">
               {/* Toggle Selection Method */}
-              <div className="glass-card p-1.5 rounded-2xl flex border rd-hairline rd-bg-surface">
+              <div className="p-1.5 rounded-2xl flex border rd-hairline rd-bg-surface">
                 <button
                   onClick={() => setSetupMode("self")}
                   className={`flex-1 py-3 px-4 rounded-xl text-sm font-semibold transition-all flex items-center justify-center gap-2 ${
@@ -889,7 +889,7 @@ export function DebateRoomClient() {
               </div>
 
               {/* Topic Input Box */}
-              <div className="glass-card p-6 rounded-3xl border rd-hairline space-y-4 rd-bg-surface relative">
+              <div className="p-6 rounded-3xl border rd-hairline space-y-4 rd-bg-surface relative">
                 <div className="flex items-center justify-between">
                   <label className="text-sm font-bold rd-accent flex items-center gap-2">
                     <Lightbulb className="w-4 h-4 rd-accent" />
@@ -932,7 +932,7 @@ export function DebateRoomClient() {
                           e.preventDefault();
                           setTopic(item);
                         }}
-                        className="px-3 py-1.5 rounded-xl text-xs glass border rd-hairline rd-text-body hover:opacity-80 hover:opacity-90 transition-all whitespace-nowrap cursor-pointer z-10 relative"
+                        className="px-3 py-1.5 rounded-xl text-xs border rd-hairline rd-text-body hover:opacity-80 hover:opacity-90 transition-all whitespace-nowrap cursor-pointer z-10 relative"
                       >
                         {item}
                       </button>
@@ -943,7 +943,7 @@ export function DebateRoomClient() {
 
               {/* Setup Mode: Custom Selector list of Giants */}
               {setupMode === "self" && (
-                <div className="glass-card p-6 rounded-3xl border rd-hairline space-y-6 rd-bg-surface">
+                <div className="p-6 rounded-3xl border rd-hairline space-y-6 rd-bg-surface">
                   <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                     <h3 className="text-sm font-bold rd-accent flex items-center gap-2">
                       <Users className="w-4 h-4 rd-accent" />
@@ -961,7 +961,7 @@ export function DebateRoomClient() {
                       placeholder={tc("searchPlaceholder") || "위인 이름으로 검색..."}
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className="flex-1 px-4 py-2.5 rounded-xl glass rd-bg-surface border rd-hairline text-xs focus:outline-none"
+                      className="flex-1 px-4 py-2.5 rounded-xl rd-bg-surface border rd-hairline text-xs focus:outline-none"
                     />
                     <div className="flex overflow-x-auto gap-1 pb-1 scrollbar-thin">
                       {Object.keys(categoryNames).map((cat) => (
@@ -971,7 +971,7 @@ export function DebateRoomClient() {
                           className={`px-3 py-2 rounded-xl text-xs whitespace-nowrap transition-all cursor-pointer ${
                             activeCategory === cat 
                               ? "rd-bg-faint rd-accent border rd-hairline font-bold" 
-                              : "glass rd-text-body hover:opacity-80 border-transparent"
+                              : " rd-text-body hover:opacity-80 border-transparent"
                           }`}
                         >
                           {categoryNames[cat]}
@@ -991,12 +991,12 @@ export function DebateRoomClient() {
                           className={`relative group flex flex-col items-center p-3 rounded-2xl border text-center transition-all cursor-pointer ${
                             isSelected 
                               ? "rd-bg-faint rd-border-accent shadow-md  scale-[1.02]" 
-                              : "glass hover:opacity-80 rd-hairline"
+                              : " hover:opacity-80 rd-hairline"
                           }`}
                         >
                           {/* Selected Check overlay */}
                           {isSelected && (
-                            <div className="absolute top-2 right-2 w-5 h-5 rounded-full rd-bg-accent flex items-center justify-center shadow-lg animate-scale-up">
+                            <div className="absolute top-2 right-2 w-5 h-5 rounded-full rd-bg-accent flex items-center justify-center animate-scale-up">
                               <Check className="w-3.5 h-3.5 stroke-[3]" />
                             </div>
                           )}
@@ -1007,7 +1007,7 @@ export function DebateRoomClient() {
                               alt={tg(`${giant.slug}.name`) || giant.name}
                               fill
                               sizes="56px"
-                              className="object-cover object-top group-hover:scale-105 transition-all"
+                              className="rd-portrait object-cover object-top group-hover:scale-105 transition-all"
                             />
                           </div>
 
@@ -1026,7 +1026,7 @@ export function DebateRoomClient() {
 
               {/* AI Recommendation Mode results UI */}
               {setupMode === "ai" && (topic.trim() && (aiIntro || aiLoading || aiRecommendations.length > 0)) && (
-                <div className="glass-card p-6 rounded-3xl border rd-hairline space-y-4 rd-bg-surface">
+                <div className="p-6 rounded-3xl border rd-hairline space-y-4 rd-bg-surface">
                   <h3 className="text-sm font-bold rd-accent flex items-center gap-2">
                     <Sparkles className="w-4 h-4 rd-accent" />
                     {t("aiRecommendTitle")}
@@ -1053,14 +1053,14 @@ export function DebateRoomClient() {
                           const giant = giants.find((g) => g.slug === rec.slug);
                           if (!giant) return null;
                           return (
-                            <div key={rec.slug} className="glass-card p-4 rounded-2xl border rd-hairline rd-bg-faint flex flex-col items-center text-center">
+                            <div key={rec.slug} className="p-4 rounded-2xl border rd-hairline rd-bg-faint flex flex-col items-center text-center">
                               <div className="relative w-16 h-16 rounded-full overflow-hidden mb-3 ring-2 rd-hairline rd-bg-faint">
                                 <Image
                                   src={giant.imageUrl}
                                   alt={tg(`${giant.slug}.name`)}
                                   fill
                                   sizes="64px"
-                                  className="object-cover object-top"
+                                  className="rd-portrait object-cover object-top"
                                 />
                               </div>
                               <h4 className="font-bold text-sm rd-text-ink">{tg(`${giant.slug}.name`)}</h4>
@@ -1078,7 +1078,7 @@ export function DebateRoomClient() {
 
             {/* Right Column: Sticky Summary & Action Panel */}
             <div className="space-y-6">
-              <div className="glass-card p-6 rounded-3xl border rd-hairline rd-bg-surface sticky top-24 max-h-[calc(100vh-120px)] overflow-y-auto custom-scrollbar flex flex-col space-y-6 shadow-xl">
+              <div className="p-6 rounded-3xl border rd-hairline rd-bg-surface sticky top-24 max-h-[calc(100vh-120px)] overflow-y-auto custom-scrollbar flex flex-col space-y-6 shadow-xl">
                 <h3 className="text-sm font-bold rd-text-body pb-3 border-b rd-hairline shrink-0">
                   {locale === "ko" ? "토론방 개요" : "Debate Setup Overview"}
                 </h3>
@@ -1108,7 +1108,7 @@ export function DebateRoomClient() {
                                 alt={tg(`${giant.slug}.name`)}
                                 fill
                                 sizes="32px"
-                                className="object-cover object-top"
+                                className="rd-portrait object-cover object-top"
                               />
                             </div>
                             <div className="min-w-0">
@@ -1132,7 +1132,7 @@ export function DebateRoomClient() {
                 <button
                   disabled={selectedGiants.length < 2 || !topic.trim()}
                   onClick={handleStartDebate}
-                  className="w-full py-4 rounded-2xl rd-bg-accent font-black text-sm shadow-lg active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100 transition-all flex items-center justify-center gap-2 cursor-pointer"
+                  className="w-full py-4 rounded-2xl rd-bg-accent font-black text-sm active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100 transition-all flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <Play className="w-4 h-4 fill-current stroke-none" />
                   {t("startDebate")}
@@ -1150,7 +1150,7 @@ export function DebateRoomClient() {
       {stage === 2 && (
         <div className="max-w-4xl mx-auto flex flex-col h-[calc(100vh-140px)] animate-fade-in-up relative">
           {/* Header topic banner */}
-          <div className="glass-card p-4 md:p-6 rounded-3xl border rd-hairline rd-bg-surface backdrop-blur-xl mb-4 relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-xl">
+          <div className="p-4 md:p-6 rounded-3xl border rd-hairline rd-bg-surface backdrop-blur-xl mb-4 relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-xl">
             <div className="space-y-1">
               <div className="flex items-center gap-3 flex-wrap">
                 <span className="text-[9px] font-extrabold rd-accent flex items-center gap-1.5">
@@ -1181,7 +1181,7 @@ export function DebateRoomClient() {
                     alt={tg(`${g.slug}.name`)}
                     fill
                     sizes="32px"
-                    className="object-cover object-top"
+                    className="rd-portrait object-cover object-top"
                   />
                 </div>
               ))}
@@ -1192,7 +1192,7 @@ export function DebateRoomClient() {
           <div 
             ref={scrollContainerRef}
             onScroll={handleScrollEvent}
-            className="flex-1 overflow-y-auto p-4 md:p-6 space-y-6 glass-card border rd-hairline rounded-3xl rd-bg-faint backdrop-blur-md mb-4 custom-scrollbar"
+            className="flex-1 overflow-y-auto p-4 md:p-6 space-y-6 border rd-hairline rounded-3xl rd-bg-faint backdrop-blur-md mb-4 custom-scrollbar"
           >
             {history.length === 0 && !isAiContemplating && !isTypewriting && (
               <div className="flex flex-col items-center justify-center h-full gap-4 rd-text-muted text-center">
@@ -1245,7 +1245,7 @@ export function DebateRoomClient() {
                       </div>
                       
                       {/* Premium Bubble */}
-                      <div className="px-5 py-4 rounded-3xl rd-bg-faint rd-text-ink border rd-border-accent text-sm italic inline-block mx-auto shadow-lg max-w-lg">
+                      <div className="px-5 py-4 rounded-3xl rd-bg-faint rd-text-ink border rd-border-accent text-sm italic inline-block mx-auto max-w-lg">
                         <p className="whitespace-pre-wrap">{formatMessage(msg.content)}</p>
                       </div>
                     </div>
@@ -1267,7 +1267,7 @@ export function DebateRoomClient() {
                           alt={msg.speakerName}
                           fill
                           sizes="24px"
-                          className="object-cover object-top"
+                          className="rd-portrait object-cover object-top"
                         />
                       </div>
                       <span className="text-[10px] rd-accent font-black">
@@ -1277,7 +1277,7 @@ export function DebateRoomClient() {
 
                     {/* Bubble */}
                     <div 
-                      className={`px-5 py-4 rounded-3xl shadow-lg leading-relaxed glass border rd-hairline rd-text-ink text-sm ${
+                      className={`px-5 py-4 rounded-3xl  leading-relaxed  border rd-hairline rd-text-ink text-sm ${
                         idx % 2 === 0 ? "rounded-tl-none rd-bg-surface" : "rounded-tr-none rd-bg-surface"
                       }`}
                     >
@@ -1300,7 +1300,7 @@ export function DebateRoomClient() {
                         alt={selectedGiants[currentSpeakerIndex].name}
                         fill
                         sizes="24px"
-                        className="object-cover object-top"
+                        className="rd-portrait object-cover object-top"
                       />
                     </div>
                     <span className="text-[10px] rd-accent font-black">
@@ -1311,7 +1311,7 @@ export function DebateRoomClient() {
                   {/* Typing content */}
                   <div 
                     onClick={() => typewriterSkipRef.current?.()}
-                    className={`px-5 py-4 rounded-3xl shadow-lg leading-relaxed border rd-hairline rd-text-ink text-sm rd-bg-surface cursor-pointer hover:opacity-90 transition-colors relative group ${
+                    className={`px-5 py-4 rounded-3xl  leading-relaxed border rd-hairline rd-text-ink text-sm rd-bg-surface cursor-pointer hover:opacity-90 transition-colors relative group ${
                       history.length % 2 === 0 ? "rounded-tl-none" : "rounded-tr-none"
                     }`}
                     title={locale === "ko" ? "클릭 시 즉시 전체 보기" : "Click to view full text immediately"}
@@ -1328,7 +1328,7 @@ export function DebateRoomClient() {
             {/* AI thinking state */}
             {isAiContemplating && (
               <div className={`flex w-full ${history.length % 2 === 0 ? "justify-start" : "justify-end"}`}>
-                <div className="glass rounded-3xl px-5 py-4 border rd-hairline rd-bg-surface">
+                <div className="rounded-3xl px-5 py-4 border rd-hairline rd-bg-surface">
                   <div className="flex items-center gap-2">
                     <div className="flex gap-1.5 shrink-0">
                       <span className="w-1.5 h-1.5 rd-bg-accent rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
@@ -1372,7 +1372,7 @@ export function DebateRoomClient() {
           )}
 
           {/* User Interjection Panel */}
-          <div className="glass-card p-4 rounded-3xl border rd-hairline rd-bg-surface backdrop-blur-xl space-y-4 shadow-xl z-10">
+          <div className="p-4 rounded-3xl border rd-hairline rd-bg-surface backdrop-blur-xl space-y-4 shadow-xl z-10">
             {showInteractionPrompt && (
               <div className="flex flex-col sm:flex-row gap-3 pb-3 border-b rd-hairline animate-fade-in-up">
                 <button
@@ -1380,7 +1380,7 @@ export function DebateRoomClient() {
                     setShowInteractionPrompt(false);
                     inputRef.current?.focus();
                   }}
-                  className="flex-1 py-3 px-4 rounded-2xl rd-bg-accent hover:opacity-90 font-extrabold text-xs transition-all flex items-center justify-center gap-2 shadow-lg cursor-pointer"
+                  className="flex-1 py-3 px-4 rounded-2xl rd-bg-accent hover:opacity-90 font-extrabold text-xs transition-all flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <span>📝</span>
                   {locale === "ko" ? "직접 의견 적어 개입하기" : "Share My Own Opinion"}
@@ -1390,7 +1390,7 @@ export function DebateRoomClient() {
                     setShowInteractionPrompt(false);
                     setAutoDebateActive(true);
                   }}
-                  className="flex-1 py-3 px-4 rounded-2xl glass hover:opacity-80 rd-text-ink border rd-hairline font-bold text-xs transition-all flex items-center justify-center gap-2 cursor-pointer"
+                  className="flex-1 py-3 px-4 rounded-2xl hover:opacity-80 rd-text-ink border rd-hairline font-bold text-xs transition-all flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <span>⏭️</span>
                   {locale === "ko" ? "AI 토론 계속 감상하기" : "Continue AI Debate"}
@@ -1485,9 +1485,9 @@ export function DebateRoomClient() {
             {/* 1. 프리미엄 잠금 화면 */}
             {!hasPremiumPass && (
               <div className="absolute inset-0 z-30 flex items-center justify-center p-4 rd-bg-surface backdrop-blur-[6px] rounded-[2.5rem] animate-fade-in transition-all duration-700">
-                <div className="max-w-md w-full glass-card p-8 rounded-[2rem] border rd-hairline rd-bg-surface shadow-2xl text-center space-y-6 animate-slide-up">
+                <div className="max-w-md w-full p-8 rounded-[2rem] border rd-hairline rd-bg-surface shadow-2xl text-center space-y-6 animate-slide-up">
                   {/* 자물쇠 골드 아이콘 */}
-                  <div className="mx-auto w-14 h-14 rounded-full rd-bg-accent flex items-center justify-center shadow-lg animate-pulse">
+                  <div className="mx-auto w-14 h-14 rounded-full rd-bg-accent flex items-center justify-center animate-pulse">
                     <span className="text-xl">🔒</span>
                   </div>
                   
@@ -1639,14 +1639,14 @@ export function DebateRoomClient() {
               <div className="flex gap-4">
                 <button
                   onClick={handleDownloadCard}
-                  className="flex-1 py-4 rounded-2xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm tracking-wider flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-amber-500/10"
+                  className="flex-1 py-4 rounded-2xl rd-bg-accent hover:opacity-90 font-bold text-sm flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <Download className="w-4 h-4" />
                   {locale === "ko" ? "카드 저장하기" : "Save Image Card"}
                 </button>
                 <button
                   onClick={() => setStage(1)}
-                  className="py-4 px-6 rounded-2xl glass hover:bg-white/5 text-slate-200 border border-white/10 text-sm font-semibold transition-all cursor-pointer"
+                  className="py-4 px-6 rounded-2xl hover:opacity-80 rd-text-ink border rd-hairline text-sm font-semibold transition-all cursor-pointer"
                 >
                   {t("newDebate")}
                 </button>
@@ -1655,7 +1655,7 @@ export function DebateRoomClient() {
 
             {/* Right: Key highlights summary text panel */}
             <div className="md:col-span-5 space-y-6">
-              <div className="glass-card p-6 rounded-3xl border rd-hairline rd-bg-surface space-y-4">
+              <div className="p-6 rounded-3xl border rd-hairline rd-bg-surface space-y-4">
                 <h3 className="text-sm font-bold rd-accent pb-3 border-b rd-hairline flex items-center gap-2">
                   <Compass className="w-4 h-4 rd-accent" />
                   {locale === "ko" ? "토론 핵심 분석" : "Key Arguments Log"}
@@ -1746,7 +1746,7 @@ export function DebateRoomClient() {
                         placeholder="1234-5678-1234-5678"
                         value={cardNumber}
                         onChange={handleCardNumberChange}
-                        className="w-full px-4 py-2.5 rounded-xl glass rd-bg-surface border rd-hairline text-xs focus:outline-none text-center tracking-widest font-mono rd-text-ink"
+                        className="w-full px-4 py-2.5 rounded-xl rd-bg-surface border rd-hairline text-xs focus:outline-none text-center tracking-widest font-mono rd-text-ink"
                       />
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -1759,7 +1759,7 @@ export function DebateRoomClient() {
                           placeholder="MM/YY"
                           value={cardExpiry}
                           onChange={handleCardExpiryChange}
-                          className="w-full px-4 py-2.5 rounded-xl glass rd-bg-surface border rd-hairline text-xs focus:outline-none text-center font-mono rd-text-ink"
+                          className="w-full px-4 py-2.5 rounded-xl rd-bg-surface border rd-hairline text-xs focus:outline-none text-center font-mono rd-text-ink"
                         />
                       </div>
                       <div className="space-y-1.5">
@@ -1771,7 +1771,7 @@ export function DebateRoomClient() {
                           placeholder="***"
                           value={cardCvc}
                           onChange={handleCardCvcChange}
-                          className="w-full px-4 py-2.5 rounded-xl glass rd-bg-surface border rd-hairline text-xs focus:outline-none text-center font-mono rd-text-ink"
+                          className="w-full px-4 py-2.5 rounded-xl rd-bg-surface border rd-hairline text-xs focus:outline-none text-center font-mono rd-text-ink"
                         />
                       </div>
                     </div>
@@ -1786,7 +1786,7 @@ export function DebateRoomClient() {
                       <select
                         value={phoneCarrier}
                         onChange={(e) => setPhoneCarrier(e.target.value)}
-                        className="w-full px-4 py-2.5 rounded-xl glass rd-bg-page border rd-hairline text-xs focus:outline-none rd-text-ink cursor-pointer"
+                        className="w-full px-4 py-2.5 rounded-xl rd-bg-page border rd-hairline text-xs focus:outline-none rd-text-ink cursor-pointer"
                       >
                         <option value="SKT">SKT</option>
                         <option value="KT">KT</option>
@@ -1803,7 +1803,7 @@ export function DebateRoomClient() {
                         placeholder="010-1234-5678"
                         value={phoneNumber}
                         onChange={handlePhoneNumberChange}
-                        className="w-full px-4 py-2.5 rounded-xl glass rd-bg-surface border rd-hairline text-xs focus:outline-none text-center font-mono rd-text-ink"
+                        className="w-full px-4 py-2.5 rounded-xl rd-bg-surface border rd-hairline text-xs focus:outline-none text-center font-mono rd-text-ink"
                       />
                     </div>
                   </div>
@@ -1817,7 +1817,7 @@ export function DebateRoomClient() {
                       ? cardNumber.length < 19 || cardExpiry.length < 5 || cardCvc.length < 3
                       : phoneNumber.length < 12
                   }
-                  className="w-full py-3.5 rounded-2xl rd-bg-accent font-black text-xs shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer flex items-center justify-center gap-1.5 animate-pulse"
+                  className="w-full py-3.5 rounded-2xl rd-bg-accent font-black text-xs transition-all disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer flex items-center justify-center gap-1.5 animate-pulse"
                 >
                   <Check className="w-4 h-4 stroke-[3]" />
                   {paymentType === "extend" 
@@ -1848,7 +1848,7 @@ export function DebateRoomClient() {
             {/* Success state */}
             {paymentStep === 2 && (
               <div className="py-8 flex flex-col items-center justify-center gap-4 text-center relative z-10 animate-scale-up">
-                <div className="w-14 h-14 rounded-full rd-bg-faint border rd-border-accent flex items-center justify-center rd-accent shadow-lg animate-bounce">
+                <div className="w-14 h-14 rounded-full rd-bg-faint border rd-border-accent flex items-center justify-center rd-accent animate-bounce">
                   <Check className="w-8 h-8 stroke-[3]" />
                 </div>
                 <div className="space-y-1">

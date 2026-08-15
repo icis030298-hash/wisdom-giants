@@ -589,7 +589,7 @@ export default function ReelsDemoPage() {
                           alt={name} 
                           fill
                           sizes="32px"
-                          className="object-cover object-top"
+                          className="rd-portrait object-cover object-top"
                         />
                       </div>
                       <span className="text-xs font-medium tracking-tight truncate">{name}</span>

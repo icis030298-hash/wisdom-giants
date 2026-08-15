@@ -7,9 +7,15 @@ import { PROBLEM_CATEGORIES } from "@/data/problems"
 import { PROBLEM_GIANT_MAP } from "@/data/problem-giant-map"
 import { useTranslations } from "next-intl"
 import { ArrowLeft, MessageSquare, Sparkles, AlertCircle } from "lucide-react"
+import { lifespan } from "@/lib/era"
 
 interface ConsultClientProps {
   locale: string
+  /** Era phrase per slug, resolved from giants-summary.json on the server.
+   *  messages.Giants.<slug>.era carried a "Giants of History" placeholder for
+   *  44 of the 493, and the summary file is 10.8MB so it cannot be imported
+   *  into a client bundle. */
+  eraBySlug?: Record<string, string>
 }
 
 function GiantAvatar({ slug, name }: { slug: string; name: string }) {
@@ -261,7 +267,7 @@ const tMap: Record<string, any> = {
   }
 };
 
-export function ConsultClient({ locale }: ConsultClientProps) {
+export function ConsultClient({ locale, eraBySlug }: ConsultClientProps) {
   const router = useRouter()
   const tg = useTranslations("Giants")
   const [selectedProblemId, setSelectedProblemId] = useState<string | null>(null)
@@ -376,7 +382,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
   const matchedGiants = matchedGiantsRaw.map((mg: any) => {
     const info = giants.find(g => g.slug === mg.slug)
     const name = tg(`${mg.slug}.name`) || info?.name || mg.slug
-    const era = tg(`${mg.slug}.era`) || info?.era || ""
+    const era = eraBySlug?.[mg.slug] || info?.era || ""
     const imageUrl = info?.imageUrl || `/images/giants/${mg.slug}.jpg`
     
     return {
@@ -585,7 +591,7 @@ export function ConsultClient({ locale }: ConsultClientProps) {
                           {tg(`${giant?.slug}.name`).includes(`${giant?.slug}.`) ? (giant?.name || 'Unknown') : tg(`${giant?.slug}.name`)}
                         </p>
                         <p className="rd-caption text-center mt-1 truncate max-w-full">
-                          {tg(`${giant?.slug}.era`).includes(`${giant?.slug}.`) ? (giant?.era || '') : tg(`${giant?.slug}.era`)}
+                          {lifespan(giant?.era) || ''}
                         </p>
                       </div>
 

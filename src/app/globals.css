@@ -271,6 +271,11 @@
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--rd-error) 30%, transparent);
 }
 
+/* The scrim behind every modal. Warm rather than neutral black: over cream a
+   pure black wash reads as a hole in the page, and the same value is used by
+   the chat overlay and the contact form so the two never diverge. */
+.rd-scrim { background-color: rgba(44, 34, 26, 0.45); }
+
 /* ── Stage 6: the remaining fills and status colours ───────────────────────
    The debate room alone carried about three hundred colour utilities. Naming
    the handful of roles it actually uses is what let that file be converted
@@ -381,27 +386,6 @@
 
 .animate-fade-in-up {
   animation: fade-in-up 0.6s ease-out forwards;
-}
-
-/* Glassmorphism utilities — dark-theme leftovers.
-   Stage 5 removed the last reference from the blog, the static documents and
-   the shared chrome (auth button, login modal, contact form). The definitions
-   stay because /chats, /dna, /reels, /debate and chat-interface still carry
-   ~40 references between them and have not been redesigned yet; deleting the
-   rules now would strip those panels to transparent over the cream page
-   rather than leaving them merely dated. They go with stage 6. */
-.glass {
-  background: rgba(15, 23, 42, 0.4);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(148, 163, 184, 0.15);
-}
-
-.glass-card {
-  background: rgba(15, 23, 42, 0.5);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(148, 163, 184, 0.1);
 }
 
 /* Scrollbar styling */

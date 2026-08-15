@@ -128,7 +128,6 @@ export default function HeritageTestPage() {
     <div className="min-h-screen flex flex-col items-center justify-center p-4 py-20 relative overflow-hidden" style={{ background: "var(--rd-bg-base)" }}>
       {/* Ambient backgrounds */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full bg-orange-500/10 blur-[120px]" />
       </div>
 
       <div className="max-w-4xl w-full">

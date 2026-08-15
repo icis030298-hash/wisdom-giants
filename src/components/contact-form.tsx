@@ -103,8 +103,7 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
     <div
       ref={overlayRef}
       onClick={handleOverlayClick}
-      className="fixed inset-0 z-[200] flex items-center justify-center p-4 animate-fade-in"
-      style={{ background: "rgba(44, 34, 26, 0.45)" }}
+      className="fixed inset-0 z-[200] flex items-center justify-center p-4 animate-fade-in rd-scrim"
       role="dialog"
       aria-modal="true"
       aria-label={t('title')}

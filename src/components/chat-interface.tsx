@@ -5,6 +5,7 @@ import Image from "next/image"
 import { GiantImage } from "./ui/giant-image"
 import { X, Send, Sparkles, RefreshCw, Lightbulb, History } from "lucide-react"
 import type { Giant } from "@/lib/giants-data"
+import { eraLabel } from "@/lib/era"
 import { ShareCard } from "./chat/ShareCard"
 import { getGiantResponse } from "@/lib/gemini"
 import { giantsData } from "@/data/giants"
@@ -27,6 +28,10 @@ interface ChatInterfaceProps {
   onClose: () => void
   initialChatId?: string
   problemId?: string
+  /** Era phrase resolved from giants-summary.json by the caller. The messages
+   *  catalogue carried a "Giants of History" placeholder for 44 of the 493,
+   *  and giants-summary.json is 10.8MB, so it cannot be read from here. */
+  era?: string
 }
 
 // Helper to render markdown bold (**text**) as <strong> elements
@@ -55,7 +60,7 @@ const getKoreanParticle = (name: string, type: '이가' | '과와' | '은는' | 
   return type === '이가' ? '이(가)' : type === '과와' ? '과(와)' : '';
 };
 
-function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProblemId }: ChatInterfaceProps) {
+function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProblemId, era }: ChatInterfaceProps) {
   const t = useTranslations("Chat")
   const tg = useTranslations("Giants")
   const tgGrid = useTranslations("GiantsGrid")
@@ -370,8 +375,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
       } as any)[giant.category.toLowerCase()] : null) || giant.category;
   
   return (
-    <div className="fixed inset-0 z-50 flex flex-col md:items-center md:justify-center p-0 md:p-4 overflow-hidden h-[100dvh] overscroll-contain"
-      style={{ background: "rgba(44, 34, 26, 0.45)" }}>
+    <div className="fixed inset-0 z-50 flex flex-col md:items-center md:justify-center p-0 md:p-4 overflow-hidden h-[100dvh] overscroll-contain rd-scrim">
       {/* Ambient glow */}
       
       <div className="relative w-full max-w-md mx-auto md:max-w-5xl h-full md:h-[90vh] md:max-h-[800px] rd-surface overflow-hidden flex flex-col md:flex-row animate-fade-in-up flex-1 md:flex-none">
@@ -383,7 +387,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
               alt={tg(`${giant.slug}.name`)}
               fill
               sizes="(max-width: 768px) 100vw, 384px"
-              className="object-cover object-top"
+              className="rd-portrait object-cover object-top"
               unoptimized={true}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
@@ -396,7 +400,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
           <div className="p-6 space-y-6 overflow-y-auto flex-1">
             <div>
               <h4 className="rd-caption font-bold mb-2">{t("historyEra")}</h4>
-              <p className="text-sm rd-text-body leading-relaxed">{tg(`${giant.slug}.era`)}</p>
+              <p className="text-sm rd-text-body leading-relaxed">{eraLabel(era || giant.era)}</p>
             </div>
             
             <div>
@@ -432,13 +436,13 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                   alt={tg(`${giant.slug}.name`)}
                   fill
                   sizes="40px"
-                  className="object-cover object-top"
+                  className="rd-portrait object-cover object-top"
                 />
               </div>
               <div>
                 <h3 className="font-serif text-lg font-semibold rd-text-ink leading-tight">{tg(`${giant.slug}.name`)}</h3>
                 <div className="flex items-center gap-1.5 mt-0.5">
-                  <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                  <div className="w-1.5 h-1.5 rounded-full" style={{ background: "var(--rd-accent-brown)" }} />
                   <span className="rd-caption">{t("wisdomActive")}</span>
                 </div>
               </div>
@@ -504,7 +508,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                           alt={tg(`${giant.slug}.name`)}
                           fill
                           sizes="24px"
-                          className="object-cover object-top"
+                          className="rd-portrait object-cover object-top"
                         />
                       </div>
                       <span className="rd-caption">

@@ -35,7 +35,7 @@ function GiantBodySkeleton() {
       className="max-w-6xl mx-auto px-6 md:px-16 py-16 space-y-8"
     >
       <div className="flex justify-end">
-        <div className="h-14 w-56 rounded-2xl bg-amber-500/10 animate-pulse" />
+        <div className="h-14 w-56 rounded-2xl rd-bg-faint animate-pulse" />
       </div>
       <div className="space-y-4">
         <div className="h-4 w-full rounded bg-muted/40 animate-pulse" />
