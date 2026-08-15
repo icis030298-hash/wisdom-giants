@@ -514,7 +514,7 @@ export default async function GiantDetailPage({ params }: Props) {
 
               {giantTranslation.quote && (
                 <h2
-                  className="font-serif italic mt-2 max-w-3xl break-keep"
+                  className="font-serif mt-2 max-w-3xl break-keep"
                   style={{
                     color: "var(--rd-accent-brown)",
                     fontSize: "var(--rd-lede-size)",

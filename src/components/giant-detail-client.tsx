@@ -651,7 +651,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     <h3 className="text-xs font-bold rd-accent">
                       {locale === 'ko' ? '영향 및 유산' : 'Impact & Legacy'}
                     </h3>
-                    <p className="rd-text-body text-sm md:text-base leading-relaxed italic">
+                    <p className="rd-text-body text-sm md:text-base leading-relaxed">
                       "{narrative.fact_box.legacy_statement}"
                     </p>
                   </div>
@@ -727,7 +727,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                         <div className="h-px flex-1" />
                       </div>
                       
-                      <blockquote className="text-lg md:text-2xl lg:text-3xl font-serif italic rd-accent mb-6 md:mb-10 leading-[1.4] tracking-tight whitespace-pre-wrap">
+                      <blockquote className="text-lg md:text-2xl lg:text-3xl font-serif rd-accent mb-6 md:mb-10 leading-[1.4] tracking-tight whitespace-pre-wrap">
                         &ldquo;{formatContent(item.quote)}&rdquo;
                       </blockquote>
                       

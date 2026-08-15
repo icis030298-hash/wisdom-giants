@@ -1044,7 +1044,7 @@ export function DebateRoomClient() {
                     </div>
                   ) : (
                     <div className="space-y-4 animate-fade-in-up">
-                      <p className="rd-text-body text-sm leading-relaxed italic rd-bg-surface p-4 rounded-xl border rd-hairline">
+                      <p className="rd-text-body text-sm leading-relaxed rd-bg-surface p-4 rounded-xl border rd-hairline">
                         &ldquo;{aiIntro}&rdquo;
                       </p>
 
@@ -1225,7 +1225,7 @@ export function DebateRoomClient() {
                       <div className="px-6 py-5 rounded-[2.5rem] rd-bg-surface border-2 rd-hairline rd-accent text-sm leading-relaxed shadow-2xl relative overflow-hidden backdrop-blur-md">
                         {/* Elegant light rays background */}
                         <div className="absolute inset-0 rd-bg-faint pointer-events-none" />
-                        <p className="font-semibold whitespace-pre-wrap italic">
+                        <p className="font-semibold whitespace-pre-wrap">
                           &ldquo;{formatMessage(msg.content)}&rdquo;
                         </p>
                       </div>
@@ -1245,7 +1245,7 @@ export function DebateRoomClient() {
                       </div>
                       
                       {/* Premium Bubble */}
-                      <div className="px-5 py-4 rounded-3xl rd-bg-faint rd-text-ink border rd-border-accent text-sm italic inline-block mx-auto max-w-lg">
+                      <div className="px-5 py-4 rounded-3xl rd-bg-faint rd-text-ink border rd-border-accent text-sm inline-block mx-auto max-w-lg">
                         <p className="whitespace-pre-wrap">{formatMessage(msg.content)}</p>
                       </div>
                     </div>
@@ -1668,7 +1668,7 @@ export function DebateRoomClient() {
                       <div key={i} className="space-y-1.5 relative pl-4 border-l rd-hairline">
                         <div className="absolute top-1.5 left-0 -translate-x-1/2 w-1.5 h-1.5 rounded-full rd-bg-accent" />
                         <h5 className="text-[11px] font-bold rd-text-body">{msg.speakerName}</h5>
-                        <p className="text-xs rd-text-body leading-relaxed italic">&ldquo;{msg.content}&rdquo;</p>
+                        <p className="text-xs rd-text-body leading-relaxed">&ldquo;{msg.content}&rdquo;</p>
                       </div>
                     ))}
                 </div>
