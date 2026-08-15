@@ -27,7 +27,16 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/*/chats', '/scratch/'],
+        // Interactive AI routes. Their server HTML is 400-700 characters of
+        // shell — the actual experience renders client-side — so there is
+        // nothing to index, and crawling them only spends crawl budget and
+        // origin transfer.
+        //
+        // /debate is deliberately NOT here: unlike the others it serves
+        // ~16,000 characters of server HTML, including the ProjectPhilosophy
+        // section (the same high-density copy the home page carries for
+        // AdSense review). Blocking it would hide that from crawlers.
+        disallow: ['/api/', '/scratch/', '/*/chats', '/*/consult', '/*/dna', '/*/reels'],
       },
       {
         userAgent: 'Mediapartners-Google',
