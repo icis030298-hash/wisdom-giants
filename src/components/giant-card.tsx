@@ -11,13 +11,22 @@ interface GiantCardProps {
   dbData?: { shortDescription?: string; era?: string; quote?: string }
 }
 
-// The era string arrives as e.g. "20세기의 거인 (1900~1990)". The parenthetical
-// is the life span; when there is none, show the era phrase itself rather than
-// leaving the line empty.
+// Era strings come in two shapes:
+//   "20세기의 거인 (1900~1990)"        -> the parenthetical holds the life span
+//   "기원전 5세기 (그리스)"             -> the parenthetical holds a place or period,
+//                                        and the span itself is the leading phrase
+// Taking the parenthetical unconditionally showed "그리스" for Socrates and
+// "춘추시대" for Confucius, so only use it when it actually carries digits.
+// Digits are matched across the numeral systems the data uses (ASCII, Arabic-
+// Indic, Persian, Devanagari, Thai and CJK forms).
+const HAS_DIGITS = /[0-9٠-٩۰-۹०-९๐-๙０-９一二三四五六七八九十]/
+
 function lifespan(era?: string) {
   if (!era) return null
-  const inner = era.match(/\(([^)]+)\)/)
-  return (inner ? inner[1] : era).trim() || null
+  const match = era.match(/\(([^)]+)\)/)
+  if (match && HAS_DIGITS.test(match[1])) return match[1].trim() || null
+  const lead = era.replace(/\s*\([^)]*\)\s*/g, " ").trim()
+  return lead || match?.[1].trim() || null
 }
 
 export function GiantCard({ giant, dbData }: GiantCardProps) {
