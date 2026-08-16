@@ -3,6 +3,7 @@ import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantsData } from "@/data/giants";
 import { respondInLanguage } from "@/lib/response-language";
 import { apiError } from "@/lib/api-errors";
+import { checkRateLimit, clientIdFrom, noteProviderRejection, providerRetryAfter, isProviderRateLimit } from "@/lib/rate-limit";
 
 export async function POST(req: Request) {
   // Hoisted so the catch can still answer in the caller's language.
@@ -10,6 +11,16 @@ export async function POST(req: Request) {
   try {
     const { giants, topic, history, currentSpeaker, locale, userMessage } = await req.json();
     reqLocale = locale;
+
+    // Shared 20/min provider pool: refuse here, with a Retry-After, rather
+    // than letting the provider return its own 429 with no guidance.
+    const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)));
+    if (!rl.ok) {
+      return NextResponse.json(
+        { error: apiError(rl.scope === "global" ? "busy" : "tooFast", locale) },
+        { status: 429, headers: { "Retry-After": String(rl.retryAfter) } }
+      );
+    }
 
     if (!currentSpeaker || !topic) {
       return NextResponse.json({ error: apiError('missingParams', locale) }, { status: 400 });
@@ -159,6 +170,8 @@ ${userMessage ? `\n=== 관객(사용자)의 개입 ===\n사용자가 토론에 �
       } catch (err: any) {
         lastError = err;
         console.warn(`[Debate API] Failed utilizing model [${modelId}]:`, err.message);
+        const m = err.message || String(err);
+        if (isProviderRateLimit(m)) noteProviderRejection(providerRetryAfter(m));
       }
     }
 

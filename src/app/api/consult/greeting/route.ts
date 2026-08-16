@@ -3,10 +3,20 @@ import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
 import { respondInLanguage } from "@/lib/response-language";
+import { apiError } from "@/lib/api-errors";
+import { checkRateLimit, clientIdFrom } from "@/lib/rate-limit";
 
 export async function POST(req: NextRequest) {
   try {
     const { giantSlug, customText, locale = 'en' } = await req.json();
+
+    const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)));
+    if (!rl.ok) {
+      return NextResponse.json(
+        { error: apiError(rl.scope === "global" ? "busy" : "tooFast", locale) },
+        { status: 429, headers: { "Retry-After": String(rl.retryAfter) } }
+      );
+    }
     if (!giantSlug || !customText) {
       return NextResponse.json({ error: "Invalid parameters" }, { status: 400 });
     }

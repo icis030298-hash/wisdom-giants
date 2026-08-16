@@ -3,6 +3,7 @@ import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantsData } from "@/data/giants";
 import { responseLanguage } from "@/lib/response-language";
 import { apiError } from "@/lib/api-errors";
+import { checkRateLimit, clientIdFrom, noteProviderRejection, providerRetryAfter, isProviderRateLimit } from "@/lib/rate-limit";
 
 export async function POST(req: Request) {
   // Hoisted so the catch can still answer in the caller's language.
@@ -10,6 +11,16 @@ export async function POST(req: Request) {
   try {
     const { topic, locale } = await req.json();
     reqLocale = locale;
+
+    // Shared 20/min provider pool: refuse here, with a Retry-After, rather
+    // than letting the provider return its own 429 with no guidance.
+    const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)));
+    if (!rl.ok) {
+      return NextResponse.json(
+        { error: apiError(rl.scope === "global" ? "busy" : "tooFast", locale) },
+        { status: 429, headers: { "Retry-After": String(rl.retryAfter) } }
+      );
+    }
 
     if (!topic) {
       return NextResponse.json({ error: apiError('missingTopic', locale) }, { status: 400 });
@@ -85,6 +96,8 @@ Instructions:
       } catch (err: any) {
         lastError = err;
         console.warn(`[Recommend API] Failed utilizing model [${modelId}]:`, err.message);
+        const m = err.message || String(err);
+        if (isProviderRateLimit(m)) noteProviderRejection(providerRetryAfter(m));
       }
     }
 

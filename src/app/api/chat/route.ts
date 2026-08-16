@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
 import { respondInLanguage } from "@/lib/response-language";
 import { apiError } from "@/lib/api-errors";
+import { checkRateLimit, clientIdFrom } from "@/lib/rate-limit";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
 import { giantsData } from "@/data/giants";
@@ -18,6 +19,16 @@ export async function POST(req: Request) {
   try {
     const { prompt, giantName, persona, messages, locale, slug, problemId, customText } = await req.json();
     reqLocale = locale;
+
+    // Shared 20/min provider pool: refuse here, with a Retry-After, rather
+    // than letting the provider return its own 429 with no guidance.
+    const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)));
+    if (!rl.ok) {
+      return NextResponse.json(
+        { error: apiError(rl.scope === "global" ? "busy" : "tooFast", locale) },
+        { status: 429, headers: { "Retry-After": String(rl.retryAfter) } }
+      );
+    }
 
     if (!prompt) {
       return NextResponse.json({ error: apiError('missingPrompt', locale) }, { status: 400 });

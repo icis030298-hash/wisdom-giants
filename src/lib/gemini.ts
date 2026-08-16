@@ -5,6 +5,9 @@ import { deepPersonas } from '@/data/personas/personas';
 import { giantPersonas } from '@/data/giant-personas';
 import { giantsData } from '@/data/giants';
 import { respondInLanguage } from './response-language';
+import { checkRateLimit, clientIdFrom, noteProviderRejection, providerRetryAfter, isProviderRateLimit } from './rate-limit';
+import { apiError } from './api-errors';
+import { headers } from 'next/headers';
 
 import generatedPersonas from '@/data/personas/generated-personas.json';
 import fs from 'fs';
@@ -15,6 +18,13 @@ import path from 'path';
  */
 export async function getGiantResponse(giantSlug: string, persona: string, message: string, giantName: string, history: any[] = [], locale: string = 'ko', problemId?: string, customText?: string) {
 
+  // This server action, not /api/chat, is what the chat UI actually calls, so
+  // the limit has to live here. Returning the message as normal text keeps the
+  // caller unchanged — it renders whatever string comes back.
+  const verdict = checkRateLimit(clientIdFrom(await headers()))
+  if (!verdict.ok) {
+    return apiError(verdict.scope === 'global' ? 'busy' : 'tooFast', locale)
+  }
 
   const coreRules = `
 [ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
@@ -581,6 +591,8 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
     } catch (error: any) {
       lastError = error;
       console.warn(`[Gemini Error]: Failed utilizing model [${modelId}]`, error.message);
+        const m = error.message || String(error);
+        if (isProviderRateLimit(m)) noteProviderRejection(providerRetryAfter(m));
       continue;
     }
   }

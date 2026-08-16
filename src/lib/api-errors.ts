@@ -14,7 +14,7 @@
  * response-language map does.
  */
 
-type ErrorKey = 'generationFailed' | 'missingPrompt' | 'missingTopic' | 'missingParams'
+type ErrorKey = 'generationFailed' | 'missingPrompt' | 'missingTopic' | 'missingParams' | 'busy' | 'tooFast'
 
 const MESSAGES: Record<ErrorKey, Record<string, string>> = {
   generationFailed: {
@@ -120,6 +120,58 @@ const MESSAGES: Record<ErrorKey, Record<string, string>> = {
     fa: 'یک پارامتر الزامی وجود ندارد.',
     sw: 'Kigezo kinachohitajika hakipo.',
     ha: 'An rasa sigar da ake buƙata.',
+  },
+  busy: {
+    en: "A lot of people are talking right now. Please try again in a moment.",
+    ko: "지금 이용자가 많습니다. 잠시 후 다시 시도해 주세요.",
+    ja: "現在アクセスが集中しています。しばらくしてからもう一度お試しください。",
+    zh: "当前使用人数较多，请稍后再试。",
+    es: "Ahora mismo hay mucha gente conversando. Inténtalo de nuevo en un momento.",
+    de: "Gerade sind viele Menschen im Gespräch. Bitte versuche es gleich noch einmal.",
+    fr: "Beaucoup de personnes discutent en ce moment. Veuillez réessayer dans un instant.",
+    it: "In questo momento ci sono molte conversazioni in corso. Riprova tra poco.",
+    pt: "Há muitas conversas acontecendo agora. Tente novamente em instantes.",
+    ru: "Сейчас много одновременных бесед. Повторите попытку через некоторое время.",
+    ar: "هناك عدد كبير من المحادثات الآن. يرجى المحاولة مرة أخرى بعد قليل.",
+    hi: "अभी बहुत से लोग बातचीत कर रहे हैं। कृपया कुछ देर बाद पुनः प्रयास करें।",
+    th: "ขณะนี้มีผู้ใช้งานจำนวนมาก กรุณาลองใหม่อีกครั้งในภายหลัง",
+    vi: "Hiện có rất nhiều người đang trò chuyện. Vui lòng thử lại sau giây lát.",
+    id: "Saat ini banyak yang sedang mengobrol. Silakan coba lagi sebentar lagi.",
+    tr: "Şu anda pek çok kişi sohbet ediyor. Lütfen birazdan tekrar deneyin.",
+    pl: "W tej chwili trwa wiele rozmów. Spróbuj ponownie za chwilę.",
+    nl: "Er zijn op dit moment veel gesprekken bezig. Probeer het zo meteen opnieuw.",
+    uk: "Зараз триває багато розмов. Спробуйте ще раз за мить.",
+    el: "Αυτή τη στιγμή γίνονται πολλές συνομιλίες. Δοκιμάστε ξανά σε λίγο.",
+    he: "כרגע מתנהלות שיחות רבות. נסו שוב בעוד רגע.",
+    fa: "در حال حاضر گفت‌وگوهای زیادی در جریان است. لطفاً کمی بعد دوباره تلاش کنید.",
+    sw: "Kwa sasa kuna mazungumzo mengi yanayoendelea. Tafadhali jaribu tena baada ya muda mfupi.",
+    ha: "A yanzu akwai tattaunawa da yawa. Da fatan za a sake gwadawa nan da kadan.",
+  },
+  tooFast: {
+    en: "That was a lot of messages at once. Please wait a moment before sending another.",
+    ko: "짧은 시간에 너무 많이 보내셨습니다. 잠시 후 다시 보내 주세요.",
+    ja: "短時間に送信が集中しました。少し待ってからもう一度お送りください。",
+    zh: "短时间内发送过多，请稍候再发。",
+    es: "Has enviado muchos mensajes seguidos. Espera un momento antes de enviar otro.",
+    de: "Das waren viele Nachrichten auf einmal. Bitte warte einen Moment.",
+    fr: "Beaucoup de messages coup sur coup. Patientez un instant avant d’en envoyer un autre.",
+    it: "Troppi messaggi in poco tempo. Attendi un momento prima di inviarne un altro.",
+    pt: "Foram muitas mensagens seguidas. Aguarde um momento antes de enviar outra.",
+    ru: "Слишком много сообщений подряд. Подождите немного перед следующим.",
+    ar: "أرسلت رسائل كثيرة في وقت قصير. انتظر قليلاً قبل إرسال رسالة أخرى.",
+    hi: "कम समय में बहुत सारे संदेश भेजे गए। अगला भेजने से पहले थोड़ा प्रतीक्षा करें।",
+    th: "ส่งข้อความถี่เกินไป กรุณารอสักครู่ก่อนส่งใหม่",
+    vi: "Bạn đã gửi quá nhiều tin nhắn liên tiếp. Vui lòng đợi một lát.",
+    id: "Terlalu banyak pesan dalam waktu singkat. Tunggu sebentar sebelum mengirim lagi.",
+    tr: "Kısa sürede çok fazla mesaj gönderdiniz. Yenisini göndermeden önce biraz bekleyin.",
+    pl: "Zbyt wiele wiadomości w krótkim czasie. Odczekaj chwilę przed kolejną.",
+    nl: "Dat waren veel berichten achter elkaar. Wacht even voordat je er nog een stuurt.",
+    uk: "Забагато повідомлень поспіль. Зачекайте трохи перед наступним.",
+    el: "Πολλά μηνύματα σε σύντομο διάστημα. Περιμένετε λίγο πριν στείλετε ξανά.",
+    he: "נשלחו הודעות רבות בזמן קצר. המתינו רגע לפני שליחה נוספת.",
+    fa: "پیام‌های زیادی در زمان کوتاه ارسال شد. کمی صبر کنید و دوباره بفرستید.",
+    sw: "Umetuma ujumbe mwingi kwa muda mfupi. Subiri kidogo kabla ya kutuma tena.",
+    ha: "Kun aika saƙonni da yawa cikin ɗan lokaci. Ku jira kaɗan kafin sake aikawa.",
   },
 }
 
