@@ -22,6 +22,29 @@
  * worth it until traffic makes the difference visible.
  */
 
+/**
+ * ⚠ These numbers are per MINUTE. The provider's limit is per DAY.
+ *
+ * The 429 body says so in a field, not in prose:
+ *
+ *   quotaId:    GenerateRequestsPerDayPerProjectPerModel-FreeTier
+ *   quotaValue: 20
+ *
+ * so a per-minute limiter cannot enforce it. Eighteen a minute is 1,080 an
+ * hour; a 20-per-day budget disappears in the first minute at any per-minute
+ * number worth having — even three a minute empties it in seven.
+ *
+ * What this still buys, and why it ships anyway: one client can no longer take
+ * the whole budget in one burst, the provider's own 429 closes the pool instead
+ * of being retried into, and the refusal arrives as a sentence in the reader's
+ * language with a Retry-After instead of a raw error. Insufficient, not
+ * harmful.
+ *
+ * Enforcing the real ceiling needs a daily counter that survives restarts —
+ * Supabase, not this module's memory. Until then this is a stopgap, and the
+ * rejection totals below are the measurement that tells you when the daily
+ * budget is actually being hit.
+ */
 const WINDOW_MS = 60_000
 
 /**
