@@ -24,8 +24,23 @@
 
 const WINDOW_MS = 60_000
 
-/** Per client per minute. Ordinary conversation does not approach this. */
-const PER_CLIENT = 4
+/**
+ * Per client per minute, by what they are doing.
+ *
+ * Chat is turn-taking: read a reply, think, answer. Four a minute is more than
+ * a person types.
+ *
+ * A debate is not. Starting one fires a call per speaker per round without the
+ * user touching anything — four giants over three rounds is twelve calls — so
+ * the chat allowance would cut a debate off in its first round. It gets its own
+ * ceiling sized to one full debate.
+ */
+const PER_CLIENT: Record<Kind, number> = {
+  chat: 4,
+  debate: 14,
+}
+
+export type Kind = 'chat' | 'debate'
 
 /** Just under the provider's 20, so we refuse before they do. */
 const GLOBAL = 18
@@ -56,8 +71,9 @@ export type Verdict =
 
 /**
  * @param clientId a stable-enough identity: session id if there is one, else IP.
+ * @param kind 'debate' gets the larger allowance; see PER_CLIENT.
  */
-export function checkRateLimit(clientId: string): Verdict {
+export function checkRateLimit(clientId: string, kind: Kind = 'chat'): Verdict {
   const now = Date.now()
 
   // Sweep expired client buckets so the map cannot grow without bound on a
@@ -66,13 +82,14 @@ export function checkRateLimit(clientId: string): Verdict {
     for (const [k, b] of clients) if (now >= b.resetAt) clients.delete(k)
   }
 
-  let bucket = clients.get(clientId)
+  const bucketKey = kind + ':' + clientId
+  let bucket = clients.get(bucketKey)
   if (!bucket) {
     bucket = { count: 0, resetAt: now + WINDOW_MS }
-    clients.set(clientId, bucket)
+    clients.set(bucketKey, bucket)
   }
 
-  const perClient = take(bucket, PER_CLIENT, now)
+  const perClient = take(bucket, PER_CLIENT[kind], now)
   if (!perClient.ok) {
     rejections.client++
     logRejection('client', clientId)

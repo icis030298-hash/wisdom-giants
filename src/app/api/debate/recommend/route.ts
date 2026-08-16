@@ -14,7 +14,7 @@ export async function POST(req: Request) {
 
     // Shared 20/min provider pool: refuse here, with a Retry-After, rather
     // than letting the provider return its own 429 with no guidance.
-    const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)));
+    const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)), "debate");
     if (!rl.ok) {
       return NextResponse.json(
         { error: apiError(rl.scope === "global" ? "busy" : "tooFast", locale) },

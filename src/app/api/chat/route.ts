@@ -20,6 +20,12 @@ export async function POST(req: Request) {
     const { prompt, giantName, persona, messages, locale, slug, problemId, customText } = await req.json();
     reqLocale = locale;
 
+    // Nothing in this repo calls this route — the chat UI uses the
+    // getGiantResponse server action. Logged rather than deleted: a caller
+    // could exist outside the repo, and a log line is cheap where removing a
+    // route is not reversible. If a week passes with no hits, delete it.
+    console.warn(`[api/chat] called (no in-repo caller) ua=${req.headers.get("user-agent") || "?"} ref=${req.headers.get("referer") || "-"}`);
+
     // Shared 20/min provider pool: refuse here, with a Retry-After, rather
     // than letting the provider return its own 429 with no guidance.
     const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)));
