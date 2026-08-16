@@ -11,11 +11,13 @@
     "logout": "Uitloggen",
     "myProfile": "Mijn profiel",
     "signInRequired": "Inloggen vereist om chatgeschiedenis te bekijken.",
-    "debate": "Debatruimte",
+    "debate": "Debat",
     "blog": "Blog",
-    "consult": "Advies vragen",
-    "disclaimer": "Disclaimer",
-    "dnaTest": "Historische Match Test"
+    "consult": "Consultatie",
+    "disclaimer": "Disclaimer & Voorwaarden",
+    "dnaTest": "Historische Match Test",
+    "home": "Home",
+    "giants": "Grootheden"
   },
   "Auth": {
     "loginModalTitle": "Welkom in de Hal van Reuzen",
@@ -68,7 +70,7 @@
     "lastChat": "Laatste chat"
   },
   "Hero": {
-    "badge": "De Hal van Grote Geesten",
+    "badge": "Intelligente Dialoog van de Wereldgeschiedenis",
     "quote": "Als ik verder heb gezien, is het door op de schouders van reuzen te staan.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Begin de reis",
@@ -7357,8 +7359,12 @@
       "debate": "AI Debatruimte",
       "blog": "Blog",
       "consult": "Krijg Advies",
-      "disclaimer": "Disclaimer"
-    }
+      "disclaimer": "Disclaimer & Voorwaarden"
+    },
+    "about": "Over ons",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "contact": "Contact"
   },
   "About": {
     "intro": "Voor hen die verdwalen in de\novervloed aan eindeloze informatie.",
@@ -7468,7 +7474,7 @@
       "title": "Disclaimer | Wijsheid van Reuzen",
       "description": "Gelieve te lezen voordat u Wijsheid van Reuzen gebruikt."
     },
-    "pageTitle": "Disclaimer",
+    "pageTitle": "Disclaimer & Juridische Kennisgeving",
     "lastUpdated": "Laatst bijgewerkt: juni 2026",
     "sections": [
       {
@@ -7488,7 +7494,9 @@
         "content": "Alle inhoud op Wijsheid van Reuzen (tekst, ontwerp, AI-conversatiesystemen, enz.) is het intellectuele eigendom van Wijsheid van Reuzen. Reproductie, distributie of wijziging voor commerciële doeleinden zonder voorafgaande schriftelijke toestemming is verboden. Voor educatief, niet-commercieel gebruik, gelieve de bron duidelijk te vermelden."
       }
     ],
-    "contact": "Voor vragen over deze disclaimer kunt u contact opnemen met contact@giantswisdom.com."
+    "contact": "Voor vragen over deze disclaimer kunt u contact opnemen met contact@giantswisdom.com.",
+    "title": "Disclaimer",
+    "text": "AI-gegenereerde inhoud is uitsluitend bedoeld voor educatieve doeleinden."
   },
   "BlogAuthorBox": {
     "authorLabel": "Geschreven door",
@@ -7568,9 +7576,9 @@
     "aiDebate": "AI Debat",
     "historicalGiantsDebate": "Debat tussen Historische Giganten",
     "aristotleVsNietzsche": "Aristoteles vs Nietzsche",
-    "aiChat": "AI Chat",
+    "aiChat": "AI-gesprek",
     "historicalFigure": "Historisch Figuur",
-    "home": "Home",
+    "home": "Startpagina",
     "hallOfGiants": "Hal der Giganten",
     "continuePreviousChat": "Vervolg vorige chat",
     "loadingChatHistory": "Chatgeschiedenis laden...",
@@ -7597,7 +7605,7 @@
     "read": "Lezen",
     "headerTitle": "Wijsheidsblog",
     "headerSubtitle": "Verken de filosofie en wijsheid van historische giganten in een moderne context",
-    "noPosts": "Geen berichten gevonden in deze categorie.",
+    "noPosts": "Geen artikelen gevonden.",
     "badge": "WIJSHEID ARCHIEF",
     "backToBlog": "Wijsheidsblog",
     "titleSEO": "Wijsheidsblog | Giants Wisdom",
@@ -7613,10 +7621,12 @@
     "arts": "Kunsten",
     "society": "Maatschappij",
     "business": "Zaken",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "Brief van de Oprichter",
+    "creatorLetterP1": "De wereld verandert in hoog tempo, maar paradoxaal genoeg ervaren we meer eenzaamheid en onzekerheid dan ooit. Tijdens een rusteloze nacht vol zorgen over de toekomst vond ik onverwachte troost in een oud geschiedenisboek.",
+    "creatorLetterP2": "Ik realiseerde me dat de grote denkers uit het verleden met precies dezelfde angsten worstelden, pijnlijke tegenslagen kenden en in eenzaamheid hun pad moesten banen.",
+    "creatorLetterP3": "De tijdloze wijsheid van deze grootheden biedt krachtige steun bij hedendaagse uitdagingen. Wanneer u twijfelt, kunnen Einsteins inzichten en Lincolns doorzettingsvermogen nieuwe moed geven. Velen gingen u voor op dit pad en reiken u nu de hand.",
+    "featured": "Uitgelicht",
+    "latest": "Nieuwste"
   },
   "NotFound": {
     "title": "Pagina niet gevonden",
@@ -7629,5 +7639,35 @@
     "searchPlaceholder": "Typ een taalnaam",
     "currentTag": "Huidige taal",
     "noResults": "Geen resultaten"
+  },
+  "Philosophy": {
+    "badge": "Filosofisch Onderzoek & Technologische Innovatie",
+    "title": "Wijsheidsdialogen met de Grote Geesten van de Mensheid",
+    "subtitle": "Giants Wisdom is een wereldwijd edutech-platform dat de tijdloze wijsheid van historische denkers combineert dengan geavanceerde multi-agent AI, waardoor diepgaande humanistische debatten en interactieve dialogen over tijd en ruimte mogelijk worden.",
+    "card1": {
+      "title": "1. Historische Achtergrond en Humanistische Missie",
+      "p1": "De moderne samenleving ervaart een overvloed aan informatie en een sterke fragmentatie van de aandacht. Hoewel we dagelijks worden blootgesteld aan algoritmen en snelle updates, blijft er nauwelijks ruimte over om na te denken over fundamentele levensvragen. Kwesties zoals “Kan geld geluk kopen?” of “Waar liggen de grenzen van individuele vrijheid?” zijn kernthema's waaraan historische genieën hun leven wijdden.",
+      "p2": "Giants Wisdom biedt een virtueel forum om rechtstreeks met 493 historische grootheden in gesprek te gaan over deze wezenlijke vraagstukken. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Dit is geen eenvoudige zoekmachine voor korte antwoorden, maar een humanistisch herstelproject dat authentieke filosofieën en schrijfstijlen tot leven brengt via realtime debatten en 1-op-1-gesprekken."
+    },
+    "card2": {
+      "title": "2. AI Multi-Agent Orchestratie & Caching-Engine",
+      "p1": "Om deze virtuele debatkamer aan te sturen, hebben we een multi-agent architectuur ontworpen op basis van de Google Gemini 2.5 Flash-Lite en Gemini 2.5 Flash API's. Elke historische figuur fungeert als een autonome intelligente agent die realtime een gecertificeerde kennisbank (Giants Master Database) met historische werken en biografieën raadpleegt.",
+      "p2": "Tijdens debatten analyseren de agenten tegenargumenten grondig en formuleren zij gestructureerde, overtuigende betogen. We maximaliseren Prefix Caching om latentie en tokenkosten te minimaliseren, met een beurtelings rekenmodel dat de diepgang van klassieke academische symposia waarborgt."
+    },
+    "card3": {
+      "title": "3. Strikte Historische Nauwkeurigheid & 24 Talen",
+      "p1": "Om hallucinaties te voorkomen en wetenschappelijke integriteit te borgen, is onze kennisarchitectuur gebaseerd op peer-reviewed literatuur en erkende historische bronnen. Hierdoor kunnen studenten interdisciplinaire inzichten verwerven op het snijvlak van filosofie, geschiedenis, wetenschap en staatskunde.",
+      "p2": "We bieden volledige ondersteuning voor 24 talen via het Next-Intl routeringssysteem. Alle citaten en profielen worden vloeiend en natuurgetrouw vertaald, zodat lerenden wereldwijd zonder taalbarrières toegang hebben tot de fundamenten van het menselijk denken."
+    },
+    "card4": {
+      "title": "4. Naleving van het Google Uitgeversbeleid & Beveiliging",
+      "p1": "Giants Wisdom houdt zich strikt aan de Google Publisher Policies en de DMCA-richtlijnen om een veilige en verantwoorde leeromgeving te bieden. Voor gedetailleerde informatie over ons gegevensbeleid verwijzen wij naar ons <privacyLink>Privacybeleid</privacyLink> en de <termsLink>Gebruiksvoorwaarden</termsLink>."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "Meer wijsheid nodig van {giantName}?",
+    "chatDirectlyWithThe": "Praat rechtstreeks met deze historische grootheid of ontdek uw verborgen potentieel.",
+    "chatNow": "Nu chatten",
+    "dnaTest": "DNA-test"
   }
 }

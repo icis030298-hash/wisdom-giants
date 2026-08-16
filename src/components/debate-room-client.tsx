@@ -9,7 +9,6 @@ import {
   Swords, MessageSquare, Send, Sparkles, RefreshCw, Check, Download, 
   Share2, Compass, Play, ChevronRight, ChevronDown, Users, Trophy, Lightbulb, X, AlertCircle
 } from "lucide-react"
-import { ProjectPhilosophy } from "@/components/project-philosophy"
 
 // Dynamic import for html2canvas to avoid SSR errors
 let html2canvas: any = null;
@@ -1140,9 +1139,6 @@ export function DebateRoomClient() {
               </div>
             </div>
           </div>
-          
-          {/* High-density Project Philosophy for SEO and AdSense Compliance */}
-          <ProjectPhilosophy />
         </div>
       )}
 

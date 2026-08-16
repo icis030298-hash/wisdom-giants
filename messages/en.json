@@ -13245,5 +13245,29 @@
     "chatDirectlyWithThe": "Chat directly with the giant or discover your hidden potential.",
     "chatNow": "Chat Now",
     "dnaTest": "DNA Test"
+  },
+  "Philosophy": {
+    "badge": "Philosophical Inquiry & Tech Innovation",
+    "title": "Dialogue with the Great Minds of Humanity",
+    "subtitle": "Giants Wisdom is a global edutech platform that merges the profound teachings of historical pioneers with cutting-edge artificial intelligence, facilitating timeless intellectual debates and personalized interactive learning.",
+    "card1": {
+      "title": "1. Contextual Heritage and Humanistic Mission",
+      "p1": "Modern society experiences a massive overload of information accompanied by severe fragmentation of attention. We are constantly exposed to rapid-fire algorithmic snippets, leaving virtually no room to contemplate fundamental questions of human life. Inquiries such as “Does wealth equate to happiness?” or “How should individual liberty be balanced with societal order?” are core intellectual questions that historical geniuses spent lifetimes investigating.",
+      "p2": "Giants Wisdom addresses these profound questions by providing a virtual forum to directly engage with 493 historical giants. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Rather than simple single-turn search queries, users experience real-time debates and 1:1 dialogue grounded in each pioneer's authentic philosophy, style, and worldview, actively reviving humanistic wisdom."
+    },
+    "card2": {
+      "title": "2. AI Multi-Agent Orchestration & Caching Engine",
+      "p1": "To power this real-time debate arena, we designed a customized multi-agent orchestration architecture leveraging the Google Gemini 2.5 Flash-Lite and Gemini 2.5 Flash API frameworks. Each individual giant is modeled as an autonomous intelligent agent referencing high-fidelity master knowledge bases (Giants Master Database) containing their compiled historical works, core literature, biographic journals, and intellectual achievements.",
+      "p2": "When a debate begins, agents critically process preceding arguments, maintain consistent philosophical grounding, and stream persuasive viewpoints in real time. We maximize Prefix Caching to minimize latency and token load, implementing a multi-agent round-robin discourse engine that recreates the depth and rigor of classical academic symposia."
+    },
+    "card3": {
+      "title": "3. Rigorous Curation & Global Language Accessibility",
+      "p1": "To eliminate hallucinations and ensure scholarly integrity, our knowledge architecture is curated using peer-reviewed biographies and authoritative historical publications. Learners can explore interconnected insights across history, philosophy, science, and statecraft, experiencing classical wisdom far beyond standard textbook summaries.",
+      "p2": "We provide comprehensive multi-language support across 24 global locales. Powered by Next-Intl routing, every profile, quote, and debate is natively localized, ensuring learners worldwide can freely explore the foundations of human thought without linguistic or geographical barriers."
+    },
+    "card4": {
+      "title": "4. Adherence to Google Publisher Policies",
+      "p1": "Giants Wisdom strictly complies with Google Publisher Policies, DMCA requirements, and digital safety standards to maintain a secure and trustworthy educational environment. For complete details on user protection and data policies, please review our <privacyLink>Privacy Policy</privacyLink> and <termsLink>Terms of Service</termsLink>."
+    }
   }
 }

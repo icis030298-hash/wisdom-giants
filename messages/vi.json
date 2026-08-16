@@ -11,11 +11,13 @@
     "logout": "Đăng Xuất",
     "myProfile": "Hồ Sơ Của Tôi",
     "signInRequired": "Cần đăng nhập để xem lịch sử trò chuyện.",
-    "debate": "Phòng Tranh Luận",
-    "blog": "Blog",
-    "consult": "Nhận Lời Khuyên",
+    "debate": "Tranh luận",
+    "blog": "Bài viết & Blog",
+    "consult": "Tư vấn",
     "disclaimer": "Miễn Trừ Trách Nhiệm",
-    "dnaTest": "Bài kiểm tra đối chiếu lịch sử"
+    "dnaTest": "Bài kiểm tra đối chiếu lịch sử",
+    "home": "Trang chủ",
+    "giants": "Vĩ nhân"
   },
   "Auth": {
     "loginModalTitle": "Chào mừng đến với Đại Sảnh Vĩ Nhân",
@@ -68,7 +70,7 @@
     "lastChat": "Trò chuyện gần đây nhất"
   },
   "Hero": {
-    "badge": "Đại Sảnh Các Bậc Vĩ Nhân",
+    "badge": "Đối thoại Trí tuệ Lịch sử Thế giới",
     "quote": "Nếu tôi nhìn xa hơn, đó là nhờ đứng trên vai những người khổng lồ.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Bắt Đầu Hành Trình",
@@ -7481,10 +7483,14 @@
       "contact": "Liên hệ",
       "dnaTest": "Bài kiểm tra đối chiếu lịch sử",
       "debate": "Phòng tranh luận AI",
-      "blog": "Blog",
+      "blog": "Bài viết & Blog",
       "consult": "Nhận lời khuyên",
       "disclaimer": "Tuyên bố từ chối trách nhiệm"
-    }
+    },
+    "about": "Giới thiệu",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản",
+    "contact": "Liên hệ"
   },
   "About": {
     "intro": "Dành cho những ai đang lạc lối trong\nbiển thông tin vô tận.",
@@ -7531,9 +7537,9 @@
     "advertisingDesc": "Được sử dụng để hiển thị quảng cáo cá nhân hóa thông qua Google AdSense."
   },
   "Contact": {
-    "title": "Liên hệ Với Chúng tôi",
+    "title": "Liên hệ với chúng tôi",
     "name": "Tên",
-    "email": "Email",
+    "email": "Địa chỉ Email",
     "subject": "Chủ đề (tùy chọn)",
     "message": "Tin nhắn",
     "send": "Gửi Tin nhắn",
@@ -7723,7 +7729,7 @@
     "read": "Đọc",
     "headerTitle": "Blog Trí tuệ",
     "headerSubtitle": "Khám phá triết học và trí tuệ của những người khổng lồ lịch sử trong bối cảnh hiện đại",
-    "noPosts": "Không tìm thấy bài viết nào trong danh mục này.",
+    "noPosts": "Không tìm thấy bài viết nào.",
     "badge": "LƯU TRỮ TRÍ TUỆ",
     "backToBlog": "Blog Trí tuệ",
     "titleSEO": "Blog Trí tuệ | Giants Wisdom",
@@ -7739,10 +7745,12 @@
     "arts": "Nghệ thuật",
     "society": "Xã hội",
     "business": "Kinh doanh",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "Tâm Thư Từ Nhà Sáng Lập",
+    "creatorLetterP1": "Thế giới đang biến đổi không ngừng, nhưng trớ trêu thay chúng ta lại thường xuyên cảm thấy cô đơn và âu lo hơn bao giờ hết. Vào một đêm trăn trở về tương lai, tôi đã tìm thấy sự an ủi bất ngờ từ một cuốn sách lịch sử xưa.",
+    "creatorLetterP2": "Tôi nhận ra rằng các bậc tiền nhân vĩ đại hàng trăm năm trước cũng từng trải qua những nỗi sợ hãi tương tự, từng nếm trải thất bại đau đớn và âm thầm kiên định bước đi trên con đường của riêng mình.",
+    "creatorLetterP3": "Triết lý vượt thời gian của các vĩ nhân chính là liều thuốc tinh thần quý giá cho những thách thức của thời đại. Khi bạn mất phương hướng, sự lạc quan của Einstein và sự kiên định của Lincoln sẽ tiếp thêm nghị lực cho bạn. Rất nhiều bậc hiền triết đã đi qua con đường này và họ luôn sẵn sàng đồng hành cùng bạn.",
+    "featured": "Nổi bật",
+    "latest": "Mới nhất"
   },
   "NotFound": {
     "title": "Không tìm thấy trang",
@@ -7755,5 +7763,35 @@
     "searchPlaceholder": "Nhập tên ngôn ngữ",
     "currentTag": "Ngôn ngữ hiện tại",
     "noResults": "Không có kết quả"
+  },
+  "Philosophy": {
+    "badge": "Khám Phá Triết Học & Đổi Mới Công Nghệ",
+    "title": "Đối Thoại Trí Tuệ cùng Những Vĩ Nhân của Nhân Loại",
+    "subtitle": "Giants Wisdom là nền tảng edutech toàn cầu kết hợp trí tuệ trường tồn của các bậc tiền nhân lịch sử với công nghệ trí tuệ nhân tạo (AI) đa tác tử tiên tiến, mang đến những cuộc tranh luận và đối thoại nhân văn sâu sắc vượt qua mọi giới hạn không gian và thời gian.",
+    "card1": {
+      "title": "1. Bối Cảnh Ra Đời và Sứ Mệnh Nhân Văn",
+      "p1": "Xã hội hiện đại đang trải qua thời kỳ quá tải thông tin và sự phân mảnh chú ý nghiêm trọng. Dù hàng ngày tiếp xúc với vô số thuật toán và tin tức, cơ hội để chúng ta chiêm nghiệm những câu hỏi cốt lõi của cuộc sống ngày càng ít đi. Những vấn đề như “Tiền có mua được hạnh phúc?” hay “Đâu là ranh giới của tự do cá nhân?” là những chủ đề mà các thiên tài lịch sử đã dành cả đời để nghiên cứu.",
+      "p2": "Giants Wisdom mang đến diễn đàn ảo để đối thoại trực tiếp với 493 vĩ nhân lịch sử về những câu hỏi lớn này. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Đây không chỉ là công cụ tìm kiếm câu trả lời ngắn gọn, mà là dự án phục hưng nhân văn tái hiện tư tưởng và phong cách nguyên bản của các tác giả qua các cuộc tranh luận trực tiếp và trò chuyện 1:1."
+    },
+    "card2": {
+      "title": "2. Động Cơ Đa Tác Tử AI & Kiến Trúc Bộ Nhớ Đệm",
+      "p1": "Để vận hành phòng tranh luận ảo này, chúng tôi đã phát triển kiến trúc điều phối đa tác tử dựa trên API Google Gemini 2.5 Flash-Lite và Gemini 2.5 Flash. Mỗi vĩ nhân được mô hình hóa thành một tác tử thông minh độc lập, tham chiếu thời gian thực vào cơ sở dữ liệu tri thức chuẩn (Giants Master Database) gồm các tác phẩm và tư liệu tiểu sử.",
+      "p2": "Trong quá trình thảo luận, các tác tử phân tích sâu sắc luận điểm phản biện và truyền tải các lập luận logic một cách thuyết phục. Chúng tôi tối ưu hóa Prefix Caching để giảm độ trễ và chi phí tính toán, tái hiện chuẩn mực tranh biện của các hội thảo học thuật kinh điển."
+    },
+    "card3": {
+      "title": "3. Tính Xác Thực Lịch Sử & Hỗ Trợ 24 Ngôn Ngữ Toàn Cầu",
+      "p1": "Nhằm ngăn chặn hiện tượng sai lệch thông tin (Hallucination) và đảm bảo tính học thuật, cấu trúc tri thức của chúng tôi được xây dựng dựa trên các tài liệu lịch sử và nghiên cứu đã qua bình duyệt. Người học có thể tiếp cận đa chiều các kiến thức về triết học, lịch sử, khoa học và quản trị.",
+      "p2": "Chúng tôi hỗ trợ toàn diện 24 ngôn ngữ thông qua hệ thống định tuyến Next-Intl. Toàn bộ danh ngôn, hồ sơ và đối thoại đều được bản địa hóa mượt mà, giúp người học trên toàn thế giới tiếp cận tinh hoa triết học cổ điển mà không gặp rào cản địa lý hay ngôn ngữ."
+    },
+    "card4": {
+      "title": "4. Tuân Thủ Chính Sách Dành Cho Nhà Xuất Bản Của Google",
+      "p1": "Giants Wisdom tuân thủ nghiêm ngặt Google Publisher Policies và các quy định DMCA để duy trì một môi trường giáo dục an toàn và đáng tin cậy. Để biết chi tiết đầy đủ về bảo vệ dữ liệu và điều khoản dịch vụ, vui lòng xem <privacyLink>Chính Sách Quyền Riêng Tư</privacyLink> và <termsLink>Điều Khoản Dịch Vụ</termsLink> của chúng tôi."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "Bạn muốn tiếp thu thêm trí tuệ từ {giantName}?",
+    "chatDirectlyWithThe": "Trò chuyện trực tiếp với vĩ nhân này hoặc khám phá tiềm năng ẩn giấu của chính bạn.",
+    "chatNow": "Trò chuyện ngay",
+    "dnaTest": "Trắc nghiệm DNA"
   }
 }

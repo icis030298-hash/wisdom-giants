@@ -11,11 +11,13 @@
     "logout": "Wyloguj się",
     "myProfile": "Mój profil",
     "signInRequired": "Logowanie wymagane do przeglądania historii czatów.",
-    "debate": "Pokój Debat",
+    "debate": "Debata",
     "blog": "Blog",
-    "consult": "Uzyskaj Poradę",
+    "consult": "Konsultacja",
     "disclaimer": "Zastrzeżenie",
-    "dnaTest": "Test historycznego dopasowania"
+    "dnaTest": "Test historycznego dopasowania",
+    "home": "Strona główna",
+    "giants": "Postacie"
   },
   "Auth": {
     "loginModalTitle": "Witaj w Sali Olbrzymów",
@@ -68,7 +70,7 @@
     "lastChat": "Ostatni czat"
   },
   "Hero": {
-    "badge": "Sala Wielkich Umysłów",
+    "badge": "Inteligentny Dialog Historii Świata",
     "quote": "Jeśli widziałem dalej, to dlatego, że stałem na ramionach olbrzymów.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Rozpocznij Podróż",
@@ -7484,7 +7486,11 @@
       "blog": "Blog",
       "consult": "Uzyskaj Poradę",
       "disclaimer": "Zastrzeżenie"
-    }
+    },
+    "about": "O nas",
+    "privacy": "Prywatność",
+    "terms": "Regulamin",
+    "contact": "Kontakt"
   },
   "About": {
     "intro": "Dla tych, którzy zagubili się w\nnadmiarze niekończących się informacji.",
@@ -7723,7 +7729,7 @@
     "read": "Czytaj",
     "headerTitle": "Blog Mądrości",
     "headerSubtitle": "Odkryj filozofię i mądrość historycznych gigantów w nowoczesnym kontekście",
-    "noPosts": "Nie znaleziono wpisów w tej kategorii.",
+    "noPosts": "Nie znaleziono artykułów.",
     "badge": "ARCHIWUM MĄDROŚCI",
     "backToBlog": "Blog Mądrości",
     "titleSEO": "Blog Mądrości | Giants Wisdom",
@@ -7739,10 +7745,12 @@
     "arts": "Sztuka",
     "society": "Społeczeństwo",
     "business": "Biznes",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "List od Twórcy",
+    "creatorLetterP1": "Świat rozwija się w zawrotnym tempie, a jednak paradoksalnie zmagamy się z poczuciem izolacji i niepewności bardziej niż kiedykolwiek. Pewnej nocy pełnej trosk o przyszłość znalazłem ukojenie w starej książce historycznej.",
+    "creatorLetterP2": "Zrozumiałem, że wybitne postacie sprzed stuleci odczuwały dokładnie te same lęki, cierpiały z powodu bolesnych porażek i kroczyły swoją drogą w samotności, tak jak my dzisiaj.",
+    "creatorLetterP3": "Ponadczasowa mądrość tych myślicieli jest cennym lekarstwem na współczesne wyzwania. Kiedy tracisz orientację, optymizm Einsteina i siła Lincolna pomogą Ci odnaleźć równowagę. Wielu przeszło tę drogę przed Tobą i dziś podaje Ci pomocną dłoń.",
+    "featured": "Wyróżnione",
+    "latest": "Najnowsze"
   },
   "NotFound": {
     "title": "Nie znaleziono strony",
@@ -7755,5 +7763,35 @@
     "searchPlaceholder": "Wpisz nazwę języka",
     "currentTag": "Bieżący język",
     "noResults": "Brak wyników"
+  },
+  "Philosophy": {
+    "badge": "Dociekania Filozoficzne i Innowacje Technologiczne",
+    "title": "Dialog Mądrości z Wielkimi Umysłami Ludzkości",
+    "subtitle": "Giants Wisdom to globalna platforma edukacyjna, która łączy ponadczasową mądrość myślicieli z zaawansowaną sztuczną inteligencją wieloagentową, umożliwiając pogłębione debaty humanistyczne ponad granicami czasu i przestrzeni.",
+    "card1": {
+      "title": "1. Geneza Projektu i Misja Humanistyczna",
+      "p1": "Współczesne społeczeństwo zmaga się z przesytem informacji i skrajnym rozproszeniem uwagi. Mimo ciągłego kontaktu z algorytmami i szybkimi wiadomościami, rzadko mamy okazję zastanowić się nad fundamentalnymi pytaniami egzystencji. Kwestie takie jak „Czy pieniądze dają szczęście?” lub „Gdzie leżą granice wolności jednostki?” stanowiły sedno rozważań geniuszy na przestrzeni wieków.",
+      "p2": "Giants Wisdom tworzy wirtualne forum umożliwiające bezpośredni dialog z 493 postaciami historycznymi na temat tych fundamentalnych zagadnień. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Nie jest to zwykła wyszukiwarka krótkich odpowiedzi, lecz projekt odnowy humanistycznej, który odtwarza autentyczne idee i styl myślicieli w debatach na żywo oraz rozmowach indywidualnych."
+    },
+    "card2": {
+      "title": "2. Silnik Wieloagentowy AI i Architektura Buforowania",
+      "p1": "Aby zasilić tę wirtualną przestrzeń dyskusyjną, stworzyliśmy architekturę wieloagentową opartą na interfejsach Google Gemini 2.5 Flash-Lite oraz Gemini 2.5 Flash API. Każda postać działa jako autonomiczny agent odwołujący się w czasie rzeczywistym do zweryfikowanej bazy wiedzy (Giants Master Database) zawierającej dzieła i źródła biograficzne.",
+      "p2": "W trakcie debaty agenci analizują kontrargumenty i prezentują spójne, przekonujące stanowiska. W celu optymalizacji opóźnień i kosztów przetwarzania maksymalizujemy wykorzystanie Prefix Caching oraz sekwencyjnego modelu wypowiedzi, zachowując poziom klasycznych dysput akademickich."
+    },
+    "card3": {
+      "title": "3. Rzetelność Historyczna i Dostępność w 24 Językach",
+      "p1": "W celu wyeliminowania halucynacji i zapewnienia wiarygodności merytorycznej, nasza struktura wiedzy opiera się na recenzowanych publikacjach i źródłach akademickich. Pozwala to użytkownikom poznawać interdyscyplinarne powiązania między filozofią, historią, nauką i polityką.",
+      "p2": "Zapewniamy pełną obsługę 24 języków dzięki routingowi Next-Intl. Wszystkie cytaty i profile są naturalnie zlokalizowane, dając uczącym się na całym świecie swobodny dostęp do fundamentów myśli klasycznej bez barier językowych."
+    },
+    "card4": {
+      "title": "4. Zgodność z Zasadami dla Wydawców Google",
+      "p1": "Giants Wisdom ściśle przestrzega Google Publisher Policies oraz przepisów DMCA, aby zapewnić bezpieczne i rzetelne środowisko edukacyjne. Szczegółowe zasady ochrony danych i warunki korzystania znajdują się w naszej <privacyLink>Polityce Prywatności</privacyLink> oraz <termsLink>Regulaminie</termsLink>."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "Potrzebujesz więcej mądrości od {giantName}?",
+    "chatDirectlyWithThe": "Porozmawiaj bezpośrednio z tą wielką postacią lub odkryj swój ukryty potencjał.",
+    "chatNow": "Rozmawiaj teraz",
+    "dnaTest": "Test DNA"
   }
 }

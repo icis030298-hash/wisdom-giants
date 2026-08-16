@@ -7965,7 +7965,7 @@
     "read": "اقرأ",
     "headerTitle": "مدونة الحكمة",
     "headerSubtitle": "اكتشف فلسفة وحكمة عمالقة التاريخ في سياق حديث",
-    "noPosts": "لم يتم العثور على منشورات في هذه الفئة.",
+    "noPosts": "لم يتم العثور على مقالات.",
     "badge": "أرشيف الحكمة",
     "backToBlog": "مدونة الحكمة",
     "titleSEO": "مدونة الحكمة | Giants Wisdom",
@@ -7981,10 +7981,12 @@
     "arts": "الفنون",
     "society": "المجتمع",
     "business": "الأعمال",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "رسالة من المؤسس",
+    "creatorLetterP1": "يتطور العالم بوتيرة غير مسبوقة، ومع ذلك نعيش بمشاعر أعمق من العزلة والقلق. في ليلة عصف بي فيها القلق بشأن مستقبلي، وجدت عزاءً غير متوقع في كتاب تاريخ قديم.",
+    "creatorLetterP2": "أدركت أن عظماء التاريخ عبر آلاف السنين شعروا بنفس المخاوف وتألموا من الإخفاقات ومضوا في دروبهم رغم العزلة، تماماً كما نمر به اليوم.",
+    "creatorLetterP3": "إن حكمة هؤلاء العظماء وتجاربهم الحية تمثل أصدق دواء للتحديات النفسية في عصرنا. عندما تضل الطريق، ستلهمك نصيحة أينشتاين ومواساة لينكولن للمضي قدماً. آلاف العظماء ساروا في طريقك من قبل، وهم اليوم هنا ليمدوا أيديهم إليك. نتمنى لك غداً مشرقاً من أعماق قلوبنا.",
+    "featured": "مميز",
+    "latest": "الأحدث"
   },
   "NotFound": {
     "title": "الصفحة غير موجودة",
@@ -7997,5 +7999,35 @@
     "searchPlaceholder": "اكتب اسم اللغة",
     "currentTag": "اللغة الحالية",
     "noResults": "لا توجد نتائج"
+  },
+  "Philosophy": {
+    "badge": "البحث الفلسفي والابتكار التقني",
+    "title": "حوار الحكمة مع عظماء الإنسانية",
+    "subtitle": "منصة Giants Wisdom هي منصة تعليمية عالمية تدمج حكمة رواد التاريخ الخالدين مع أحدث تقنيات الذكاء الاصطناعي متعدد الوكلاء، لتوفير مناظرات فكرية وحوارات فلسفية عميقة تتجاوز حدود الزمان والمكان.",
+    "card1": {
+      "title": "1. خلفية المشروع ورسالته الإنسانية",
+      "p1": "يعيش المجتمع المعاصر في عصر يشهد فيضاً هائلاً من المعلومات وتشتتاً حاداً في الانتباه. ورغم تعرضنا اليومي للأنباء والخوارزميات، تتضاءل فرص التأمل العميق في الأسئلة الوجودية الكبرى. إن قضايا مثل “هل يشتري المال السعادة؟” و“ما هي حدود الحرية الفردية؟” كانت ولا تزال من أهم المحاور التي كرس عباقرة التاريخ حياتهم لدراستها.",
+      "p2": "توفر منصة Giants Wisdom منتدى افتراضياً يتيح التواصل المباشر مع 493 شخصية تاريخية رائدة لاستكشاف هذه الأسئلة الكبرى. {socrates} · {nietzsche} · {aristotle} · {aurelius} — ليس هذا مجرد محرك بحث يقدم إجابات جاهزة، بل هو مشروع لإحياء الفكر الإنساني يعتمد على الفلسفات الأصلية والأسلوب الفريد لكل شخصية لإجراء مناظرات حية وحوارات تفاعلية تمكّن المستخدم من اكتساب الحكمة بنفسه."
+    },
+    "card2": {
+      "title": "2. محرك الذكاء الاصطناعي متعدد الوكلاء ونظام التخزين المؤقت",
+      "p1": "لتشغيل ساحة النقاش الافتراضية هذه، اعتمدنا بنية تنظيمية مبتكرة متعددة الوكلاء تعتمد على واجهتي برمجة التطبيقات Gemini 2.5 Flash-Lite وGemini 2.5 Flash من Google. يتم نمذجة كل شخصية كوكيل ذكي مستقل يرجع باستمرار إلى قاعدة معرفية رئيسية ثابتة وموثقة (Giants Master Database) تضم مؤلفاتها وسيرتها وإنجازاتها التاريخية.",
+      "p2": "عند بدء المناظرة، يحلل الوكلاء الحجج المتبادلة بدقة ويقدمون أفكارهم بتدفق منطقي مقنع مع الحفاظ على مرتكزاتهم الفلسفية. ولتقليل استهلاك الذاكرة وتكلفة معالجة الرموز (Tokens)، قمنا بتعظيم تقنية Prefix Caching وتطبيق نظام المداورة (Round-robin) ليحاكي النقاشات الأكاديمية والمناظرات الفلسفية الكلاسيكية بأعلى درجات الدقة."
+    },
+    "card3": {
+      "title": "3. التوثيق التاريخي الدقيق وإتاحة اللغات العالمية",
+      "p1": "حرصاً على منع التلفيق (Hallucination) وضمان موثوقية المحتوى، قمنا بتصميم البنية المعرفية بالاعتماد على المصادر الأكاديمية المعتمدة والأبحاث التاريخية المحكمة. يتيح ذلك للدارسين استيعاب المعارف المتنوعة في الفلسفة والتاريخ والعلوم والسياسة بصورة حية وشاملة تتجاوز الكتب المدرسية التقليدية.",
+      "p2": "كما نوفر دعماً كاملاً لـ 24 لغة عالمية عبر نظام التوجيه Next-Intl. يتم توطين أقوال وسير الشخصيات بلغة طبيعية تناسب المتحدثين الأصليين، مما يتيح للمتعلمين في مختلف أنحاء العالم الوصول غير المحدود إلى ينابيع الفكر الكلاسيكي دون عوائق جغرافية أو لغوية."
+    },
+    "card4": {
+      "title": "4. الالتزام بسياسات ناشري Google وحماية المستخدم",
+      "p1": "تلتزم منصة Giants Wisdom التزاماً صارماً بـ Google Publisher Policies وقوانين الملكية الفكرية بما في ذلك DMCA لضمان بيئة رقمية آمنة وبناءة. للاطلاع على كامل سياسات حماية البيانات وخصوصية المستخدم، يرجى زيارة <privacyLink>سياسة الخصوصية</privacyLink> و<termsLink>شروط الاستخدام</termsLink>."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "هل تحتاج إلى مزيد من الحكمة من {giantName}؟",
+    "chatDirectlyWithThe": "تحدث مباشرة مع هذه الشخصية العظيمة أو اكتشف إمكاناتك الكامنة.",
+    "chatNow": "تحدث الآن",
+    "dnaTest": "اختبار DNA"
   }
 }

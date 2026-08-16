@@ -11,11 +11,13 @@
     "logout": "Sair",
     "myProfile": "Meu Perfil",
     "signInRequired": "Login necessário para ver o histórico de conversas.",
-    "debate": "Sala de Debate",
+    "debate": "Debate",
     "blog": "Blog",
-    "consult": "Consultar",
+    "consult": "Consulta",
     "disclaimer": "Aviso Legal",
-    "dnaTest": "Teste de DNA Histórico"
+    "dnaTest": "Teste de DNA Histórico",
+    "home": "Início",
+    "giants": "Personagens"
   },
   "Auth": {
     "loginModalTitle": "Bem-vindo ao Salão das Grandes Mentes",
@@ -68,7 +70,7 @@
     "lastChat": "Última conversa"
   },
   "Hero": {
-    "badge": "O Salão das Grandes Mentes",
+    "badge": "Diálogo Inteligente da História Mundial",
     "quote": "Se vi mais longe, foi por estar de pé sobre ombros de gigantes.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Iniciar Jornada",
@@ -229,7 +231,11 @@
       "blog": "Blog",
       "consult": "Consultar",
       "disclaimer": "Aviso Legal"
-    }
+    },
+    "about": "Sobre",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "contact": "Contato"
   },
   "About": {
     "intro": "Para aqueles perdidos no\nexcesso de informações intermináveis.",
@@ -7738,10 +7744,10 @@
     "arts": "Artes",
     "society": "Sociedade",
     "business": "Negócios",
-    "creatorLetterTitle": "Carta do Criador",
-    "creatorLetterP1": "O mundo está avançando a um ritmo sem precedentes, mas, paradoxalmente, vivemos com um senso mais profundo de isolamento e ansiedade do que nunca. Uma noite, rolando de um lado para o outro com preocupações sobre meu futuro, encontrei um consolo inesperado em um antigo livro de história.",
-    "creatorLetterP2": "Percebi que as grandes figuras de centenas e milhares de anos atrás tremiam com os mesmos medos exatos, se desesperavam com fracassos dolorosos e abriam seus caminhos através de uma solidão angustiante, assim como nós hoje.",
-    "creatorLetterP3": "A filosofia atemporal e as experiências vívidas desses gigantes históricos podem ser o antídoto mais poderoso para as crises de saúde mental que enfrentamos hoje. Quando você se perder, o conselho alegre de Einstein e o conforto silencioso de Lincoln elevarão seu espírito mais uma vez. Incontáveis gigantes já percorreram o caminho em que você está, e agora estão aqui para segurar sua mão. Estou torcendo pelo seu amanhã brilhante."
+    "creatorLetterTitle": "Carta do Fundador",
+    "creatorLetterP1": "O mundo avança a passos largos, mas paradoxalmente sentimos mais solidão e ansiedade do que nunca. Numa noite de incertezas sobre o futuro, encontrei um conforto inesperado num antigo livro de história.",
+    "creatorLetterP2": "Percebi que os grandes nomes do passado enfrentaram exatamente os mesmos medos, sofreram derrotas amargas e trilharam os seus caminhos na solidão, tal como nós hoje.",
+    "creatorLetterP3": "A sabedoria intemporal destes pensadores é um bálsamo poderoso para as inquietações modernas. Quando se sentir desorientado, os conselhos de Einstein e o exemplo de Lincoln trarão nova inspiração. Inúmeros vultos históricos já percorreram este caminho e estendem-lhe agora a mão."
   },
   "NotFound": {
     "title": "Página não encontrada",
@@ -7754,5 +7760,35 @@
     "searchPlaceholder": "Digite o nome de um idioma",
     "currentTag": "Idioma atual",
     "noResults": "Nenhum resultado"
+  },
+  "Philosophy": {
+    "badge": "Investigação Filosófica & Inovação Tecnológica",
+    "title": "Diálogos de Sabedoria com as Grandes Mentes da Humanidade",
+    "subtitle": "Giants Wisdom é uma plataforma educacional global que une a sabedoria atemporal de pioneiros da história à inteligência artificial multiagente de ponta, promovendo debates intelectuais profundos e diálogos humanísticos além do tempo e espaço.",
+    "card1": {
+      "title": "1. Contexto Histórico e Missão Humanística",
+      "p1": "A sociedade moderna enfrenta uma sobrecarga de informações e uma grave fragmentação da atenção. Constantemente expostos a algoritmos rápidos, temos cada vez menos espaço para contemplar as questões fundamentais da vida. Indagações como “O dinheiro compra a felicidade?” ou “Quais são os limites da liberdade individual?” foram temas aos quais grandes gênios dedicaram suas vidas.",
+      "p2": "O Giants Wisdom oferece um fórum virtual para dialogar diretamente com 493 figuras históricas sobre esses grandes dilemas. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Longe de ser um mero buscador de respostas breves, trata-se de um projeto de restauração humanística que recria o pensamento genuíno e o estilo de cada autor em debates em tempo real e diálogos 1:1."
+    },
+    "card2": {
+      "title": "2. Motor Multiagente de IA & Estrutura de Caching",
+      "p1": "Para impulsionar esta arena de debates virtuais, desenvolvemos uma arquitetura multiagente baseada nas APIs Google Gemini 2.5 Flash-Lite e Gemini 2.5 Flash. Cada figura é modelada como um agente inteligente autônomo que consulta em tempo real uma base de conhecimento mestre (Giants Master Database) com obras originais, biografias e registros históricos.",
+      "p2": "Durante os debates, os agentes analisam os contra-argumentos e apresentam teses persuasivas e estruturadas. Maximizamos o Prefix Caching para reduzir a latência e o consumo de tokens, com uma lógica de rodízio que reproduz fielmente a densidade dos simpósios acadêmicos clássicos."
+    },
+    "card3": {
+      "title": "3. Rigor Histórico & Acessibilidade em 24 Idiomas",
+      "p1": "Para evitar alucinações e garantir a precisão intelectual, nossa base conceitual fundamenta-se em biografias revisadas por pares e publicações acadêmicas consagradas. Isso permite aos estudantes explorar de forma integrada a filosofia, a história, a ciência e a teoria política.",
+      "p2": "Oferecemos suporte completo a 24 idiomas através do roteamento Next-Intl. Todas as citações, perfis e diálogos contam com localização nativa, permitindo que estudantes do mundo todo acessem os alicerces do pensamento humano sem barreiras linguísticas."
+    },
+    "card4": {
+      "title": "4. Conformidade com as Políticas para Editores do Google",
+      "p1": "O Giants Wisdom cumpre rigorosamente as Google Publisher Policies e os padrões do DMCA para assegurar um ecossistema educativo seguro e confiável. Para mais detalhes sobre a proteção de dados e diretrizes de uso, consulte nossa <privacyLink>Política de Privacidade</privacyLink> e os <termsLink>Termos de Serviço</termsLink>."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "Deseja mais sabedoria de {giantName}?",
+    "chatDirectlyWithThe": "Converse diretamente com esta grande figura histórica ou descubra o seu potencial oculto.",
+    "chatNow": "Conversar agora",
+    "dnaTest": "Teste de DNA"
   }
 }

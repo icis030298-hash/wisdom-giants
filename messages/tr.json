@@ -11,11 +11,13 @@
     "logout": "Çıkış Yap",
     "myProfile": "Profilim",
     "signInRequired": "Sohbet geçmişini görüntülemek için giriş yapmanız gerekmektedir.",
-    "debate": "Münazara Odası",
+    "debate": "Münazara",
     "blog": "Blog",
-    "consult": "Danışmanlık Al",
+    "consult": "Danışmanlık",
     "disclaimer": "Yasal Uyarı",
-    "dnaTest": "Tarihi Eşleşme Testi"
+    "dnaTest": "Tarihi Eşleşme Testi",
+    "home": "Ana Sayfa",
+    "giants": "Şahsiyetler"
   },
   "Auth": {
     "loginModalTitle": "Devler Salonu'na Hoş Geldiniz",
@@ -68,7 +70,7 @@
     "lastChat": "Son sohbet"
   },
   "Hero": {
-    "badge": "Büyük Zihinler Salonu",
+    "badge": "Dünya Tarihinin Akıllı Diyaloğu",
     "quote": "Eğer daha ileriyi görebildiysem, bu devlerin omuzlarında durduğum içindir.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Yolculuğa Başla",
@@ -7484,7 +7486,11 @@
       "blog": "Blog",
       "consult": "Tavsiye Al",
       "disclaimer": "Yasal Uyarı"
-    }
+    },
+    "about": "Hakkımızda",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar",
+    "contact": "İletişim"
   },
   "About": {
     "intro": "Sonsuz bilgi akışında\nkaybolanlara.",
@@ -7723,7 +7729,7 @@
     "read": "Oku",
     "headerTitle": "Bilgelik Blogu",
     "headerSubtitle": "Tarihi devlerin felsefesini ve bilgeliğini modern bir bağlamda keşfedin",
-    "noPosts": "Bu kategoride yazı bulunamadı.",
+    "noPosts": "Makale bulunamadı.",
     "badge": "BİLGELİK ARŞİVİ",
     "backToBlog": "Bilgelik Blogu",
     "titleSEO": "Bilgelik Blogu | Giants Wisdom",
@@ -7739,10 +7745,12 @@
     "arts": "Sanat",
     "society": "Toplum",
     "business": "İş",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "Kurucunun Mektubu",
+    "creatorLetterP1": "Dünya hızla ilerliyor ancak paradoksal olarak kendimizi her zamankinden daha yalnız ve endişeli hissediyoruz. Gelecek kaygısıyla uyuyamadığım bir gece, eski bir tarih kitabında beklenmedik bir teselli buldum.",
+    "creatorLetterP2": "Geçmişin büyük şahsiyetlerinin de tıpkı bizim gibi aynı korkuları yaşadığını, acı yenilgilerle yüzleştiğini ve yalnızlık içinde kendi yollarını çizdiğini fark ettim.",
+    "creatorLetterP3": "Bu düşünürlerin zamansız felsefesi, günümüzün manevi zorluklarına karşı en güçlü dayanaktır. Yolunuzu kaybettiğinizi hissettiğinizde Einstein'ın rehberliği ve Lincoln'ün vakarı size güç verecektir. Birçok bilge bu yoldan geçti ve şimdi size eşlik etmek için buradalar.",
+    "featured": "Öne Çıkanlar",
+    "latest": "En Yeniler"
   },
   "NotFound": {
     "title": "Sayfa Bulunamadı",
@@ -7755,5 +7763,35 @@
     "searchPlaceholder": "Dil adı yazın",
     "currentTag": "Geçerli dil",
     "noResults": "Sonuç yok"
+  },
+  "Philosophy": {
+    "badge": "Felsefi Sorgulama ve Teknolojik İnovasyon",
+    "title": "İnsanlığın Büyük Zihinleriyle Bilgelik Diyalogları",
+    "subtitle": "Giants Wisdom, tarihe yön veren düşünürlerin zamansız bilgeliğini modern çoklu ajan yapay zeka teknolojisiyle birleştiren, zaman ve mekan sınırlarını aşan derin felsefi tartışmalar sunan küresel bir eğitim teknolojisi platformudur.",
+    "card1": {
+      "title": "1. Projenin Doğuşu ve İnsani Misyonu",
+      "p1": "Modern toplum, bilgi kirliliği ve dikkat dağınıklığı çağını yaşamaktadır. Her gün sayısız algoritma ve habere maruz kalırken, yaşamın temel soruları üzerine derinlemesine düşünme fırsatımız azalmaktadır. “Para mutluluk satın alabilir mi?” veya “Bireysel özgürlüğün sınırları nerede başlar?” gibi sorular, tarihteki dâhilerin ömürlerini adadıkları temel meselelerdir.",
+      "p2": "Giants Wisdom, bu derin sorular üzerine 493 tarihi şahsiyetle doğrudan diyalog kurulabilecek sanal bir forum sunar. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Bu sadece kısa yanıtlar veren bir arama motoru değil; düşünürlerin özgün felsefesini ve üslubunu yansıtan canlı tartışmalar yoluyla kullanıcının bilgeliği aktif olarak keşfetmesini sağlayan bir hümanist canlanma projesidir."
+    },
+    "card2": {
+      "title": "2. AI Çoklu Ajan Orkestrasyonu ve Önbellek Motoru",
+      "p1": "Bu sanal tartışma alanını yönetmek için Google Gemini 2.5 Flash-Lite ve Gemini 2.5 Flash API'lerine dayanan özgün bir çoklu ajan mimarisi geliştirdik. Her tarihi figür, orijinal eserlerini ve biyografilerini içeren ana bilgi tabanına (Giants Master Database) gerçek zamanlı başvuran bağımsız bir yapay zeka ajanı olarak modellenmiştir.",
+      "p2": "Tartışma başladığında ajanlar karşı tezleri titizlikle analiz eder ve mantıksal temellere dayalı görüşlerini kesintisiz aktarır. Gecikmeyi ve token maliyetini en aza indirmek için Prefix Caching yöntemini optimize ederek klasik akademik sempozyumların derinliğini eksiksiz yansıtıyoruz."
+    },
+    "card3": {
+      "title": "3. Titiz Tarihsel Doğruluk ve 24 Dilde Küresel Erişim",
+      "p1": "Bilgi çarpıtmalarını (Hallucination) önlemek ve akademik güvenilirliği sağlamak amacıyla bilgi yapımız, hakemli akademik kaynaklar ve muteber tarihi yayınlar temelinde tasarlanmıştır. Bu sayede öğrenciler felsefe, tarih, bilim ve siyaset arasındaki disiplinlerarası bağı derinlemesine öğrenebilir.",
+      "p2": "Ayrıca Next-Intl yönlendirme altyapısıyla 24 dilde tam destek sunuyoruz. Tüm alıntılar ve biyografiler ana dil akıcılığında yerelleştirilmiş olup, dünyadaki tüm öğrenicilerin klasik felsefeye coğrafi ve dilsel engeller olmadan erişmesini sağlıyoruz."
+    },
+    "card4": {
+      "title": "4. Google Yayıncı Politikalarına Uyum ve Güvenlik",
+      "p1": "Giants Wisdom, güvenli ve saygın bir dijital eğitim ortamı sağlamak için Google Publisher Policies ve DMCA telif hakkı düzenlemelerine eksiksiz uymaktadır. Veri koruma ve hizmet koşullarımızın tüm detayları için lütfen <privacyLink>Gizlilik Politikası</privacyLink> ve <termsLink>Kullanım Koşulları</termsLink> sayfalarımızı inceleyin."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "{giantName} tarafından sunulan bilgeliği daha fazla keşfetmek ister misiniz?",
+    "chatDirectlyWithThe": "Bu büyük tarihi şahsiyetle doğrudan sohbet edin veya içinizdeki gizli potansiyeli keşfedin.",
+    "chatNow": "Hemen Sohbet Et",
+    "dnaTest": "DNA Testi"
   }
 }

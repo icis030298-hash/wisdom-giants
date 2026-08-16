@@ -1,7 +1,7 @@
 {
   "Navigation": {
     "hallOfGems": "Sala delle Grandi Menti",
-    "wisdomArchive": "Home",
+    "wisdomArchive": "Archivio della Saggezza",
     "chatList": "Le Mie Conversazioni",
     "about": "Chi Siamo",
     "startExploring": "Esplora la Sala",
@@ -11,11 +11,13 @@
     "logout": "Esci",
     "myProfile": "Il Mio Profilo",
     "signInRequired": "Accesso richiesto per visualizzare la cronologia.",
-    "debate": "Sala Dibattiti",
+    "debate": "Dibattito",
     "blog": "Blog",
-    "consult": "Consulta",
-    "disclaimer": "Disclaimer",
-    "dnaTest": "Test DNA Storico"
+    "consult": "Consulenza",
+    "disclaimer": "Avvertenze Legali",
+    "dnaTest": "Test DNA Storico",
+    "home": "Home",
+    "giants": "Personaggi"
   },
   "Auth": {
     "loginModalTitle": "Benvenuto nella Sala delle Grandi Menti",
@@ -68,7 +70,7 @@
     "lastChat": "Ultima chat"
   },
   "Hero": {
-    "badge": "La Sala delle Grandi Menti",
+    "badge": "Dialogo Intelligente della Storia Mondiale",
     "quote": "Se ho visto più lontano, è perché stavo sulle spalle di giganti.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Inizia il Viaggio",
@@ -111,7 +113,7 @@
       "philosophy": "Filosofia",
       "arts": "Arte",
       "society": "Società",
-      "business": "Business"
+      "business": "Impresa & Economia"
     },
     "resultsCount": "Trovate {filtered} figure storiche su {total}",
     "readEpic": "Leggi la Biografia ✨",
@@ -133,7 +135,9 @@
       "middle-east-turkey": "Medio Oriente e Turchia",
       "africa": "Africa",
       "south-southeast-asia": "Asia meridionale e sud-orientale"
-    }
+    },
+    "allEras": "Tutte le epoche",
+    "allCategories": "Tutte le categorie"
   },
   "GiantDetail": {
     "returnToSquare": "Torna alla Sala",
@@ -7482,8 +7486,12 @@
       "debate": "Sala di dibattito IA",
       "blog": "Blog",
       "consult": "Consulta",
-      "disclaimer": "Disclaimer"
-    }
+      "disclaimer": "Avvertenze Legali"
+    },
+    "about": "Chi siamo",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "contact": "Contatto"
   },
   "About": {
     "intro": "A coloro che si sentono persi nel\nflusso infinito di informazioni.",
@@ -7532,7 +7540,7 @@
   "Contact": {
     "title": "Contattaci",
     "name": "Nome",
-    "email": "Email",
+    "email": "Indirizzo Email",
     "subject": "Oggetto (facoltativo)",
     "message": "Messaggio",
     "send": "Invia Messaggio",
@@ -7590,10 +7598,10 @@
   },
   "Disclaimer": {
     "meta": {
-      "title": "Disclaimer | Giants Wisdom",
+      "title": "Avvertenze Legali | Giants Wisdom",
       "description": "Si prega di leggere prima di utilizzare Giants Wisdom."
     },
-    "pageTitle": "Disclaimer",
+    "pageTitle": "Avvertenze Legali",
     "lastUpdated": "Ultimo aggiornamento: giugno 2026",
     "sections": [
       {
@@ -7613,7 +7621,9 @@
         "content": "Tutti i contenuti di Giants Wisdom sono proprietà intellettuale di Giants Wisdom. La riproduzione o distribuzione per scopi commerciali senza previa autorizzazione scritta è vietata."
       }
     ],
-    "contact": "Per domande su questo disclaimer, contattare contact@giantswisdom.com."
+    "contact": "Per domande su questo disclaimer, contattare contact@giantswisdom.com.",
+    "title": "Avvertenza",
+    "text": "I contenuti generati dall'AI hanno scopo puramente educativo."
   },
   "BlogAuthorBox": {
     "authorLabel": "Scritto da",
@@ -7695,7 +7705,7 @@
     "aristotleVsNietzsche": "Aristotele vs Nietzsche",
     "aiChat": "Chat AI",
     "historicalFigure": "Personaggio storico",
-    "home": "Home",
+    "home": "Pagina Iniziale",
     "hallOfGiants": "Sala dei Giganti",
     "continuePreviousChat": "Continua conversazione precedente",
     "loadingChatHistory": "Caricamento cronologia chat...",
@@ -7722,7 +7732,7 @@
     "read": "Leggi",
     "headerTitle": "Blog della Saggezza",
     "headerSubtitle": "Esplora la filosofia e la saggezza dei giganti storici nel contesto moderno",
-    "noPosts": "Nessun articolo trovato in questa categoria.",
+    "noPosts": "Nessun articolo trovato.",
     "badge": "ARCHIVIO DELLA SAGGEZZA",
     "backToBlog": "Blog della Saggezza",
     "titleSEO": "Blog della Saggezza | Giants Wisdom",
@@ -7738,10 +7748,12 @@
     "arts": "Arti",
     "society": "Società",
     "business": "Affari",
-    "creatorLetterTitle": "Lettera del Creatore",
-    "creatorLetterP1": "Il mondo avanza a un ritmo senza precedenti, eppure paradossalmente viviamo con un senso di isolamento e ansia più profondo che mai. Una notte, rigirandomi nel letto preoccupato per il mio futuro, ho trovato un conforto inaspettato in un vecchio libro di storia.",
-    "creatorLetterP2": "Mi sono reso conto che le grandi figure di centinaia e migliaia di anni fa tremavano per le stesse identiche paure, si disperavano per dolorosi fallimenti e si facevano strada attraverso una solitudine straziante, proprio come noi oggi.",
-    "creatorLetterP3": "La filosofia senza tempo e le vivide esperienze di questi giganti storici possono essere l'antidoto più potente alle crisi di salute mentale che affrontiamo oggi. Quando perderai la strada, i consigli allegri di Einstein e il silenzioso conforto di Lincoln rianimeranno il tuo spirito. Innumerevoli giganti hanno già percorso la strada su cui ti trovi, e ora sono qui per tenerti per mano. Faccio il tifo per il tuo brillante domani."
+    "creatorLetterTitle": "Lettera del Fondatore",
+    "creatorLetterP1": "Il mondo corre a ritmi frenetici, eppure ci sentiamo spesso più isolati e ansiosi che mai. In una notte dominata dai dubbi sul futuro, ho trovato un inaspettato conforto in un antico testo storico.",
+    "creatorLetterP2": "Ho compreso che le grandi menti del passato hanno provato le nostre stesse paure, hanno sofferto per dolorosi fallimenti e hanno forgiato il loro cammino nella solitudine.",
+    "creatorLetterP3": "La filosofia senza tempo di questi maestri rappresenta un faro prezioso per le sfide interiori del nostro tempo. Nei momenti di smarrimento, l'acume di Einstein e la compostezza di Lincoln vi ridaranno fiducia. Molti illustri pensatori hanno già percorso la vostra strada e sono pronti a guidarvi.",
+    "featured": "In evidenza",
+    "latest": "Recenti"
   },
   "NotFound": {
     "title": "Pagina non trovata",
@@ -7754,5 +7766,35 @@
     "searchPlaceholder": "Digita il nome di una lingua",
     "currentTag": "Lingua attuale",
     "noResults": "Nessun risultato"
+  },
+  "Philosophy": {
+    "badge": "Indagine Filosofica & Innovazione Tecnologica",
+    "title": "Dialoghi di Saggezza con le Grandi Menti dell'Umanità",
+    "subtitle": "Giants Wisdom è una piattaforma edutech globale che unisce la saggezza senza tempo dei pensatori storici all'intelligenza artificiale multi-agente all'avanguardia, favorendo dibattiti intellettuali e dialoghi umanistici profondi oltre i confini del tempo.",
+    "card1": {
+      "title": "1. Origine del Progetto e Missione Umanistica",
+      "p1": "La società contemporanea vive un sovraccarico informativo e una grave frammentazione dell'attenzione. Pur esposti continuamente ad algoritmi e notizie rapide, abbiamo sempre meno spazio per riflettere sui dilemmi fondamentali dell'esistenza. Quesiti come “Il denaro può comprare la felicità?” o “Quali sono i limiti della libertà individuale?” hanno impegnato i più grandi geni della storia per l'intera vita.",
+      "p2": "Giants Wisdom offre un forum virtuale per dialogare direttamente con 493 figure storiche su queste grandi questioni. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Non si tratta di un semplice motore di risposte rapide, bensì di un progetto di rinascita umanistica che fa rivivere il pensiero autentico e lo stile di ciascun autore attraverso dibattiti in tempo reale e confronti interattivi."
+    },
+    "card2": {
+      "title": "2. Motore Multi-Agente AI e Architettura di Caching",
+      "p1": "Per alimentare quest'arena di dibattito virtuale, abbiamo sviluppato un'architettura di orchestrazione multi-agente basata sulle API Google Gemini 2.5 Flash-Lite e Gemini 2.5 Flash. Ogni personaggio agisce come agente intelligente autonomo, consultando in tempo reale un database di conoscenza certificato (Giants Master Database) contenente opere, biografie e documenti storici.",
+      "p2": "Durante i dibattiti, gli agenti analizzano con precisione le tesi avversarie e formulano argomentazioni rigorose e persuasive. Massimizziamo l'uso del Prefix Caching per ridurre latenza e consumo di token, implementando una computazione a turni che riproduce fedelmente l'alto livello dei simposi accademici classici."
+    },
+    "card3": {
+      "title": "3. Rigore Storico & Accessibilità in 24 Lingue Globali",
+      "p1": "Per prevenire allucinazioni e garantire l'accuratezza scientifica, la nostra struttura concettuale si fonda su biografie sottoposte a revisione paritaria e pubblicazioni autorevoli. Gli utenti possono così approfondire i legami tra filosofia, storia, scienza ed economia in modo organico.",
+      "p2": "Supportiamo nativamente 24 lingue grazie al sistema di instradamento Next-Intl. Tutte le citazioni, i profili e i dialoghi sono localizzati con naturalezza madrelingua, offrendo agli studiosi di tutto il mondo un accesso libero ai fondamenti del pensiero umano senza barriere linguistiche."
+    },
+    "card4": {
+      "title": "4. Conformità alle Norme per i Publisher di Google",
+      "p1": "Giants Wisdom rispetta rigorosamente le Google Publisher Policies e le direttive DMCA per garantire un ambiente educativo sicuro e trasparente. Per tutti i dettagli relativi al trattamento dei dati personali, vi invitiamo a consultare la nostra <privacyLink>Informativa sulla Privacy</privacyLink> e i <termsLink>Termini di Servizio</termsLink>."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "Vuoi approfondire la saggezza di {giantName}?",
+    "chatDirectlyWithThe": "Parla direttamente con questa grande figura storica o scopri il tuo potenziale nascosto.",
+    "chatNow": "Avvia Chat",
+    "dnaTest": "Test del DNA"
   }
 }

@@ -11,11 +11,13 @@
     "logout": "Keluar",
     "myProfile": "Profil Saya",
     "signInRequired": "Login diperlukan untuk melihat riwayat obrolan.",
-    "debate": "Ruang Debat",
-    "blog": "Blog",
-    "consult": "Dapatkan Nasihat",
+    "debate": "Debat",
+    "blog": "Artikel & Blog",
+    "consult": "Konsultasi",
     "disclaimer": "Penyangkalan",
-    "dnaTest": "Tes Kecocokan Sejarah"
+    "dnaTest": "Tes Kecocokan Sejarah",
+    "home": "Beranda",
+    "giants": "Tokoh"
   },
   "Auth": {
     "loginModalTitle": "Selamat Datang di Balai Para Raksasa",
@@ -68,7 +70,7 @@
     "lastChat": "Obrolan terakhir"
   },
   "Hero": {
-    "badge": "Balai Para Pemikir Hebat",
+    "badge": "Dialog Cerdas Sejarah Dunia",
     "quote": "Jika saya bisa melihat lebih jauh, itu karena saya berdiri di atas bahu Raksasa.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Mulai Petualangan",
@@ -7493,10 +7495,14 @@
       "contact": "Kontak",
       "dnaTest": "Tes Kecocokan Sejarah",
       "debate": "Ruang Debat AI",
-      "blog": "Blog",
+      "blog": "Artikel & Blog",
       "consult": "Dapatkan Nasihat",
       "disclaimer": "Pernyataan Penyangkalan"
-    }
+    },
+    "about": "Tentang Kami",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "contact": "Kontak"
   },
   "About": {
     "intro": "Untuk mereka yang tersesat dalam\nbanyaknya informasi tanpa henti.",
@@ -7545,7 +7551,7 @@
   "Contact": {
     "title": "Hubungi Kami",
     "name": "Nama",
-    "email": "Email",
+    "email": "Alamat Email",
     "subject": "Subjek (opsional)",
     "message": "Pesan",
     "send": "Kirim Pesan",
@@ -7735,7 +7741,7 @@
     "read": "Baca",
     "headerTitle": "Blog Kebijaksanaan",
     "headerSubtitle": "Jelajahi filosofi dan kebijaksanaan raksasa sejarah dalam konteks modern",
-    "noPosts": "Tidak ada postingan di kategori ini.",
+    "noPosts": "Artikel tidak ditemukan.",
     "badge": "ARSIP KEBIJAKSANAAN",
     "backToBlog": "Blog Kebijaksanaan",
     "titleSEO": "Blog Kebijaksanaan | Giants Wisdom",
@@ -7751,10 +7757,12 @@
     "arts": "Seni",
     "society": "Masyarakat",
     "business": "Bisnis",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "Surat dari Pendiri",
+    "creatorLetterP1": "Dunia berkembang pesat, namun ironisnya kita sering merasakan kesepian dan kecemasan yang mendalam. Di suatu malam yang penuh kegelisahan tentang masa depan, saya menemukan ketenangan tak terduga dari sebuah buku sejarah tua.",
+    "creatorLetterP2": "Saya menyadari bahwa para tokoh besar berabad-abad lalu mengalami ketakutan yang persis sama, menghadapi kegagalan yang menyakitkan, dan menempuh jalan mereka dalam kesunyian, sama seperti kita saat ini.",
+    "creatorLetterP3": "Filosofi abadi dan pengalaman hidup para tokoh ini adalah penawar terbaik bagi tantangan mental di era modern. Saat Anda merasa tersesat, kebijaksanaan Einstein dan keteguhan Lincoln akan membangkitkan kembali semangat Anda. Banyak tokoh besar telah menempuh jalan ini, dan kini mereka hadir untuk mendampingi langkah Anda.",
+    "featured": "Unggulan",
+    "latest": "Terbaru"
   },
   "NotFound": {
     "title": "Halaman Tidak Ditemukan",
@@ -7767,5 +7775,35 @@
     "searchPlaceholder": "Ketik nama bahasa",
     "currentTag": "Bahasa saat ini",
     "noResults": "Tidak ada hasil"
+  },
+  "Philosophy": {
+    "badge": "Eksplorasi Filosofis & Inovasi Teknologi",
+    "title": "Dialog Kebijaksanaan dengan Tokoh-Tokoh Besar Kemanusiaan",
+    "subtitle": "Giants Wisdom adalah platform edutech global yang memadukan kearifan abadi para pemikir sejarah dengan kecerdasan buatan multi-agen mutakhir, menghadirkan debat intelektual mendalam dan pembelajaran interaktif lintas ruang dan waktu.",
+    "card1": {
+      "title": "1. Latar Belakang dan Misi Humanistik Proyek",
+      "p1": "Masyarakat modern menghadapi kelebihan informasi dan fragmentasi perhatian yang ekstrem. Meskipun kita terpapar arus berita dan algoritma setiap hari, ruang untuk merenungkan pertanyaan-pertanyaan mendasar tentang kehidupan semakin menyusut. Pertanyaan seperti “Apakah uang dapat membeli kebahagiaan?” atau “Sejauh mana kebebasan individu harus dijamin?” merupakan inti pencarian yang dikaji para genius sepanjang hayat mereka.",
+      "p2": "Giants Wisdom menyediakan forum virtual untuk berdialog langsung dengan 493 tokoh besar sejarah guna mengeksplorasi pertanyaan-pertanyaan ini. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Ini bukan sekadar mesin pencari jawaban singkat, melainkan proyek restorasi humaniora yang menghidupkan kembali pemikiran orisinal dan gaya tutur para filsuf melalui debat langsung dan dialog 1:1."
+    },
+    "card2": {
+      "title": "2. Mesin Orkestrasi Multi-Agen AI & Sistem Caching",
+      "p1": "Untuk menggerakkan ruang diskusi virtual ini, kami merancang arsitektur orkestrasi multi-agen berbasis API Google Gemini 2.5 Flash-Lite dan Gemini 2.5 Flash. Setiap tokoh dimodelkan sebagai agen cerdas mandiri yang merujuk pada basis data pengetahuan induk (Giants Master Database) yang mencakup karya otentik, biografi, dan catatan sejarah.",
+      "p2": "Ketika debat berlangsung, para agen menganalisis sanggahan secara kritis dan menyampaikan argumen logis secara terstruktur. Kami mengoptimalkan Prefix Caching untuk meminimalkan latensi dan konsumsi token, menerapkan sistem giliran yang merekonstruksi kedalaman simposium akademik klasik dengan kualitas prima."
+    },
+    "card3": {
+      "title": "3. Kurasi Sejarah yang Ketat & Dukungan 24 Bahasa",
+      "p1": "Guna mencegah halusinasi informasi dan menjamin akurasi ilmiah, struktur pengetahuan kami dirancang berdasarkan literatur sejarah dan riset akademis yang telah ditinjau sejawat. Hal ini memungkinkan pengguna mempelajari hubungan multidisipliner antara filsafat, sejarah, sains, dan tata negara secara komprehensif.",
+      "p2": "Kami menyediakan dukungan penuh untuk 24 bahasa dunia melalui perutean Next-Intl. Seluruh profil, kutipan, dan transkrip debat disajikan dalam lokalisasi yang alami, memungkinkan pembelajar di seluruh dunia mengakses pemikiran klasik tanpa batasan geografis maupun bahasa."
+    },
+    "card4": {
+      "title": "4. Kepatuhan terhadap Kebijakan Penerbit Google",
+      "p1": "Giants Wisdom mematuhi sepenuhnya Google Publisher Policies dan regulasi hak cipta DMCA guna memastikan ekosistem digital yang aman dan tepercaya. Untuk rincian lengkap mengenai pelindungan data dan ketentuan layanan, silakan baca <privacyLink>Kebijakan Privasi</privacyLink> dan <termsLink>Ketentuan Penggunaan</termsLink> kami."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "Butuh lebih banyak kebijaksanaan dari {giantName}?",
+    "chatDirectlyWithThe": "Bicara langsung dengan tokoh besar ini atau temukan potensi terpendam dalam diri Anda.",
+    "chatNow": "Mulai Obrolan",
+    "dnaTest": "Tes DNA"
   }
 }

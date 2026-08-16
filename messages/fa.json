@@ -7747,7 +7747,7 @@
     "read": "خواندن",
     "headerTitle": "وبلاگ حکمت",
     "headerSubtitle": "فلسفه و حکمت غول‌های تاریخی را در بستری مدرن کاوش کنید",
-    "noPosts": "هیچ پستی در این دسته یافت نشد.",
+    "noPosts": "مقاله‌ای یافت نشد.",
     "badge": "آرشیو حکمت",
     "backToBlog": "وبلاگ حکمت",
     "titleSEO": "وبلاگ حکمت | Giants Wisdom",
@@ -7763,10 +7763,12 @@
     "arts": "هنرها",
     "society": "جامعه",
     "business": "کسب و کار",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "نامه‌ای از بنیان‌گذار",
+    "creatorLetterP1": "جهان با شتابی بی‌سابقه در حال دگرگونی است، اما با این حال انسان امروز بیش از هر زمان دیگری با انزوا و اضطراب دست به گریبان است. شبی در اوج نگرانی برای آینده، در کتابی تاریخی به آرامشی شگفت‌انگیز دست یافتم.",
+    "creatorLetterP2": "دریافتم که بزرگان تاریخ نیز درست با همین ترس‌ها روبه‌رو شدند، از شکست‌ها رنج بردند و در تنهایی مسیر موفقیت را ساختند.",
+    "creatorLetterP3": "حکمت جاودانه و تجارب زیسته این فرزانگان والاترین پناه برای چالش‌های روحی امروز ماست. هر زمان راه خود را گم کردید، بینش اینشتین و آرامش لینکلن به شما امید خواهد بخشید. بزرگان فراوانی پیش از شما این مسیر را پیموده‌اند و اکنون همراه شما هستند.",
+    "featured": "برگزیده",
+    "latest": "تازه‌ترین"
   },
   "NotFound": {
     "title": "صفحه پیدا نشد",
@@ -7779,5 +7781,35 @@
     "searchPlaceholder": "نام زبان را بنویسید",
     "currentTag": "زبان فعلی",
     "noResults": "نتیجه‌ای یافت نشد"
+  },
+  "Philosophy": {
+    "badge": "کاوش فلسفی و نوآوری فناورانه",
+    "title": "گفت‌وگوی حکمت با بزرگان تاریخ بشریت",
+    "subtitle": "پلتفرم Giants Wisdom یک بستر آموزشی جهانی است که حکمت جاودانه اندیشمندان تاریخ را با فناوری هوش مصنوعی چندعاملی پیوند می‌زند تا فضایی عمیق برای مباحثات فکری و گفت‌وگوهای فرامکانی و فرازمانی فراهم سازد.",
+    "card1": {
+      "title": "۱. پیشینه پروژه و رسالت علوم انسانی",
+      "p1": "جامعه معاصر با سرریز اطلاعات و پراکندگی شدید توجه روبه‌رو است. با وجود قرارگیری روزمره در معرض اخبار و الگوریتم‌ها، فرصت تامل در پرسش‌های بنیادین زندگی کاهش یافته است. مسائلی همچون «آیا ثروت شادی‌آفرین است؟» و «مرزهای آزادی فردی کجاست؟» از جمله پرسش‌هایی هستند که نوابغ تاریخ عمر خود را صرف بررسی آن‌ها کردند.",
+      "p2": "پلتفرم Giants Wisdom فضایی مجازی برای تعامل و هم‌اندیشی مستقیم با ۴۹۳ چهره برجسته تاریخی درباره این پرسش‌ها ایجاد کرده است. {socrates} · {nietzsche} · {aristotle} · {aurelius} — این سامانه صرفاً یک موتور جستجوی پاسخ‌های کوتاه نیست، بلکه پروژه‌ای برای احیای علوم انسانی است که با اتکا به فلسفه اصیل و لحن نگارش هر اندیشمند، مناظرات زنده و گفت‌وگوهای تعاملی را شکل می‌دهد."
+    },
+    "card2": {
+      "title": "۲. موتور هوش مصنوعی چندعاملی و بهینه‌سازی حافظه موقت",
+      "p1": "برای راه‌اندازی این مجمع گفت‌وگوی زنده، معماری یکپارچه‌ای بر پایه رابط‌های برنامه‌نویسی Gemini 2.5 Flash-Lite و Gemini 2.5 Flash گوگل طراحی شده است. هر شخصیت تاریخی در قالب یک عامل هوشمند مستقل تعریف شده که به صورت لحظه‌ای به پایگاه داده جامع (Giants Master Database) شامل آثار و زندگی‌نامه مستند دسترسی دارد.",
+      "p2": "هنگام شروع مباحثه، عامل‌ها استدلال‌های یکدیگر را به دقت واکاوی کرده و دیدگاه‌های خود را بر پایه مبانی فکری‌شان به صورت پیوسته ارائه می‌دهند. ما با بهره‌گیری حداکثری از Prefix Caching و ساختار نوبت‌بندی مشارکتی، بار محاسباتی را بهینه کرده و کیفیتی هم‌سطح مجامع علمی کلاسیک ارائه می‌دهیم."
+    },
+    "card3": {
+      "title": "۳. بازنمایی دقیق تاریخی و پشتیبانی از ۲۴ زبان جهانی",
+      "p1": "به منظور پیشگیری از خطاهای شناختی (Hallucination) و اطمینان از اصالت علمی، زیرساخت دانشی ما بر اساس منابع معتبر تاریخی و مقالات پژوهشی تدوین شده است. بدین ترتیب پژوهشگران می‌توانند پیوند میان تاریخ، فلسفه، علوم و اقتصاد را به شکلی کاربردی بیاموزند.",
+      "p2": "ما همچنین از ۲۴ زبان زنده دنیا با بهره‌گیری از سیستم مسیریابی Next-Intl پشتیبانی می‌کنیم. تمامی نقل‌قول‌ها، پروفایل‌ها و مباحثات به زبان طبیعی بومی‌سازی شده‌اند تا دسترسی آزاد و همگانی به مبانی اندیشه بشری بدون مرزهای زبانی و جغرافیایی فراهم گردد."
+    },
+    "card4": {
+      "title": "۴. پایبندی به مقررات ناشران گوگل و امنیت کاربران",
+      "p1": "پلتفرم Giants Wisdom به طور کامل از Google Publisher Policies و ضوابط مالکیت معنوی DMCA پیروی می‌کند تا محیطی امن و مطمئن برای آموزش فراهم سازد. برای آگاهی از خط‌مشی‌های صیانت از داده‌ها و شرایط استفاده، لطفاً <privacyLink>سیاست حفظ حریم خصوصی</privacyLink> و <termsLink>شرایط خدمات</termsLink> را مطالعه فرمایید."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "آیا به حکمت بیشتری از {giantName} نیاز دارید؟",
+    "chatDirectlyWithThe": "مستقیماً با این شخصیت بزرگ گفت‌وگو کنید یا استعدادهای پنهان خود را کشف نمایید.",
+    "chatNow": "گفت‌وگوی زنده",
+    "dnaTest": "آزمون DNA"
   }
 }

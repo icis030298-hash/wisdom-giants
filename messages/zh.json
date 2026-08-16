@@ -7722,7 +7722,7 @@
     "read": "阅读",
     "headerTitle": "智慧博客",
     "headerSubtitle": "在现代语境下探索历史巨人的哲学与智慧",
-    "noPosts": "该分类下没有文章。",
+    "noPosts": "未找到相关文章。",
     "badge": "智慧档案馆",
     "backToBlog": "智慧博客",
     "titleSEO": "智慧博客 | Giants Wisdom",
@@ -7738,10 +7738,12 @@
     "arts": "艺术",
     "society": "社会",
     "business": "商业",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "创作者寄语",
+    "creatorLetterP1": "世界正在飞速发展，然而我们却时常感到前所未有的孤独与焦虑。在一个对未来充满迷茫的辗转难眠之夜，我偶然在一本泛黄的历史书中找到了意想不到的心灵慰藉。",
+    "creatorLetterP2": "我豁然开朗：数百年甚至数千年前的先贤们，同样经历过对未知未来的恐惧，品尝过刻骨铭心的挫折，并在漫长的孤独中坚韧前行，正如今日的我们一样。",
+    "creatorLetterP3": "先贤们历久弥新的思想与真实人生阅历，正是抚慰当代人心灵困境的最佳良方。当您感到迷茫困惑时，爱因斯坦的睿智点拨与林肯的从容坚守定能让您重拾前行的力量。无数伟人曾走过您脚下的路，如今他们在此与您携手同行，真诚祝愿您拥有更加璀璨的明天。",
+    "featured": "精选文章",
+    "latest": "最新发布"
   },
   "NotFound": {
     "title": "页面未找到",
@@ -7754,5 +7756,35 @@
     "searchPlaceholder": "输入语言名称",
     "currentTag": "当前语言",
     "noResults": "没有匹配结果"
+  },
+  "Philosophy": {
+    "badge": "哲学探求与技术创新",
+    "title": "与人类先贤共话智慧之声",
+    "subtitle": "Giants Wisdom 是一个全球教育科技平台，将历史先贤的永恒智慧与尖端多智能体人工智能（AI）技术相融合，提供跨越时空的深层人文学术探讨与智慧对话。",
+    "card1": {
+      "title": "1. 项目诞生背景与人文学术使命",
+      "p1": "当代社会正面临信息过载与注意力严重碎片化的挑战。尽管我们每天接触海量资讯与算法推送，但深入思考人生本质问题的机会却日益匮乏。“金钱能买来幸福吗？”或“个人自由的边界何在？”等哲学命题，正是历史上众多思想巨擘倾其一生探索的核心议题。",
+      "p2": "Giants Wisdom 搭建了虚拟研讨空间，让用户能与 493 位历史先贤就这些重大问题展开直接对话。{socrates} · {nietzsche} · {aristotle} · {aurelius} — 这不仅是一个提供简短解答的搜索引擎，更是一项旨在复兴人文精神的工程，通过还原思想家的原著体系与论述风格，展开实时多方研讨与一对一互动。"
+    },
+    "card2": {
+      "title": "2. AI 多智能体协同引擎与缓存优化架构",
+      "p1": "为了驱动该虚拟研讨空间，我们基于 Google Gemini 2.5 Flash-Lite 及 Gemini 2.5 Flash API 构建了多智能体协同架构。每位先贤均被建模为独立的智能体，实时查阅包含其原著著作、生平传记与历史文献的权威数据库（Giants Master Database）。",
+      "p2": "在辩论过程中，各智能体能够严密剖析对立观点，并在坚守其核心哲学立场的同时持续输出逻辑严谨的论据。我们充分利用 Prefix Caching 技术以降低延迟与算力开销，完美重现高水平学术论坛与古典哲学会饮的思辨深度。"
+    },
+    "card3": {
+      "title": "3. 严谨的历史考证与 24 种全球语言支持",
+      "p1": "为杜绝生成式幻觉（Hallucination）并确保学术权威性，我们的知识体系均基于同行评审学术专著与权威历史文献构建。学习者可立体式探索哲学、历史、科学与政治经济等跨学科知识，获得超越常规教科书的深层洞察。",
+      "p2": "我们依托 Next-Intl 路由体系提供涵盖 24 种全球语言的原生支持。所有名言、人物生平与辩论内容均经过地道本地化处理，使全球学者与学习者皆可跨越语言与地理阻隔，自由探索人类文明的思想基石。"
+    },
+    "card4": {
+      "title": "4. 恪守 Google 发布商政策与生态合规",
+      "p1": "Giants Wisdom 严格遵守 Google Publisher Policies 及 DMCA 知识产权规范，全力维护安全可靠的数字化教育生态。关于用户权益保护与数据处理的完整准则，请参阅我们的<privacyLink>隐私政策</privacyLink>与<termsLink>服务条款</termsLink>。"
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "想获取更多来自 {giantName} 的智慧启迪吗？",
+    "chatDirectlyWithThe": "与先贤展开深度对话，或探索您内在的潜能特质。",
+    "chatNow": "立即对话",
+    "dnaTest": "DNA 测试"
   }
 }

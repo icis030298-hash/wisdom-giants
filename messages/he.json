@@ -7693,7 +7693,7 @@
     "read": "קרא",
     "headerTitle": "בלוג החוכמה",
     "headerSubtitle": "חקור את הפילוסופיה והחוכמה של ענקים היסטוריים בהקשר מודרני",
-    "noPosts": "לא נמצאו פוסטים בקטגוריה זו.",
+    "noPosts": "לא נמצאו מאמרים.",
     "badge": "ארכיון החוכמה",
     "backToBlog": "בלוג החוכמה",
     "titleSEO": "בלוג החוכמה | Giants Wisdom",
@@ -7709,10 +7709,12 @@
     "arts": "אמנויות",
     "society": "חברה",
     "business": "עסקים",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "מכתב מהיוצר",
+    "creatorLetterP1": "העולם מתפתח במהירות חסרת תקדים, אך באופן פרדוקסלי אנו חשים בדידות וחרדה עמוקות מאי פעם. בלילה של דאגות אודות העתיד, מצאתי נחמה בספר היסטוריה ישן.",
+    "creatorLetterP2": "הבנתי שגדולי הרוח שליוו את האנושות התמודדו עם אותם פחדים ממש, חוו כישלונות כואבים וסללו את דרכם מתוך בדידות, בדיוק כמונו כיום.",
+    "creatorLetterP3": "משנתם הנצחית של הוגים אלו היא המענה המשמעותי ביותר למצוקות דורנו. בעתות של ספק, עצתו של איינשטיין ונחישותו של לינקולן ישיבו לכם את הביטחון. דמויות רבות צעדו בנתיב זה לפניכם, וכעת הן מושיטות לכם יד.",
+    "featured": "נבחרים",
+    "latest": "אחרונים"
   },
   "NotFound": {
     "title": "הדף לא נמצא",
@@ -7725,5 +7727,63 @@
     "searchPlaceholder": "הקלידו שם של שפה",
     "currentTag": "השפה הנוכחית",
     "noResults": "אין תוצאות"
+  },
+  "Philosophy": {
+    "badge": "חקירה פילוסופית וחדשנות טכנולוגית",
+    "title": "שיח חוכמה עם גדולי הרוח של האנושות",
+    "subtitle": "פלטפורמת Giants Wisdom היא פלטפורמת אדו-טק עולמית המשלבת את חוכמתם הנצחית של הוגי הדעות בהיסטוריה עם בינה מלאכותית מרובת-סוכנים מתקדמת, ומאפשרת דיונים הומניסטיים מעמיקים החוצים גבולות של זמן ומקום.",
+    "card1": {
+      "title": "1. רקע הפרויקט והשליחות ההומניסטית",
+      "p1": "החברה המודרנית חווה עומס מידע חסר תקדים ופיצול קיצוני של הקשב. על אף חשיפתנו היומיומית לאלגוריתמים ולמבזקים, ההזדמנויות להרהר בשאלות הקיומיות העמוקות הולכות ומתמעטות. סוגיות כגון “האם כסף קונה אושר?” או “מהם גבולות החירות האישית?” היו בליבת פועלם של ענקי הרוח לאורך הדורות.",
+      "p2": "פלטפורמת Giants Wisdom מעמידה לרשותכם פורום וירטואלי המאפשר לקיים דיאלוג ישיר עם 493 אישים היסטוריים אודות שאלות אלו. {socrates} · {nietzsche} · {aristotle} · {aurelius} — אין מדובר במנוע חיפוש לתשובות שטחיות, אלא במיזם להחייאת ההומניזם הנשען על משנתם המקורית וסגנונם הייחודי של ההוגים בדיונים חיים ובשיח אישי."
+    },
+    "card2": {
+      "title": "2. מנוע רב-סוכני מבוסס AI ומערך זיכרון מטמון",
+      "p1": "בכדי להפעיל מרחב דיונים זה, פיתחנו ארכיטקטורה רב-סוכנית מתקדמת המבוססת על ממשקי Google Gemini 2.5 Flash-Lite ו-Gemini 2.5 Flash. כל דמות מעוצבת כסוכן עצמאי בעל אינטליגנציה, הניגש בזמן אמת למאגר ידע מאומת (Giants Master Database) המכיל כתבים, ביוגרפיות ותעודות היסטוריות.",
+      "p2": "במהלך הדיון, הסוכנים מנתחים היטב את טיעוני הצד שכנגד ומציגים טיעונים מנומקים ועקביים. כדי למזער את זמני ההמתנה ועלויות העיבוד, אנו ממטבים את מנגנון ה-Prefix Caching ומיישמים חישוב סבבי מדויק המדמה את עומקם של פולמוסים אקדמיים מסורתיים."
+    },
+    "card3": {
+      "title": "3. דיוק היסטורי קפדני ונגישות ב-24 שפות",
+      "p1": "כדי למנוע הזיות מידע (Hallucinations) ולהבטיח דיוק מחקרי, מבנה הידע שלנו מבוסס על ספרות אקדמית מבוקרת עמיתים ומחקרים היסטוריים מוסמכים. כך יכולים הלומדים להיחשף לקשרים שבין פילוסופיה, היסטוריה, מדע וממשל בצורה מעמיקה.",
+      "p2": "בנוסף, אנו תומכים ב-24 שפות גלובליות באמצעות מנגנון הניתוב של Next-Intl. כל הציטוטים והביוגרפיות זוכים לתרגום טבעי ומדויק, המאפשר לכל אדם ברחבי העולם גישה ישירה ליסודות המחשבה האנושית ללא מחסומים לשוניים."
+    },
+    "card4": {
+      "title": "4. עמידה במדיניות המפרסמים של Google ואבטחה",
+      "p1": "פלטפורמת Giants Wisdom מקפידה על מילוי מדויק של Google Publisher Policies ותקנות זכויות היוצרים לרבות DMCA במטרה לקיים מרחב למידה מוגן וראוי. לקריאת הפירוט המלא אודות הגנת הנתונים, אנא עיינו ב<privacyLink>מדיניות הפרטיות</privacyLink> וב<termsLink>תנאי השימוש</termsLink>."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "זקוקים לחוכמה נוספת מ-{giantName}?",
+    "chatDirectlyWithThe": "שוחחו ישירות עם הדמות ההיסטורית או גלו את הפוטנציאל החבוי בכם.",
+    "chatNow": "שוחחו עכשיו",
+    "dnaTest": "מבחן DNA"
+  },
+  "UI": {
+    "about": "אודות",
+    "quotesCollection": "אוסף ציטוטים",
+    "deleteConversationConfirm": "למחוק שיחה זו? לא ניתן לשחזר פעולה זו.",
+    "deleteConversation": "מחיקת שיחה",
+    "debateRoom": "חדר הדיונים",
+    "aiDebate": "דיון AI",
+    "historicalGiantsDebate": "דיון דמויות היסטוריות",
+    "aristotleVsNietzsche": "אריסטו נגד ניטשה",
+    "aiChat": "שיחת AI",
+    "historicalFigure": "דמות היסטורית",
+    "home": "בית",
+    "hallOfGiants": "היכל הדמויות",
+    "continuePreviousChat": "המשך שיחה קודמת",
+    "loadingChatHistory": "טוען היסטוריית שיחה...",
+    "recommendedGiants": "דמויות מומלצות",
+    "learnMoreOnWikipedia": "קראו עוד בוויקיפדיה",
+    "exploreLegacyOfOtherGiants": "גלו את מורשתן של דמויות נוספות שצעדו בנתיב דומה.",
+    "shareResults": "שיתוף תוצאות",
+    "storyFormat": "סטורי (9:16)",
+    "talkWithGiant": "שוחחו עם הדמות",
+    "timelineAndFacts": "ציר זמן ועובדות",
+    "timeline": "ציר זמן",
+    "keyAchievements": "הישגים מרכזיים",
+    "readEpic": "קראו את הסיפור",
+    "warningAiMistakes": "Giants Wisdom הינו צ'אטבוט AI ועלול לטעות. יש לאמת מידע חשוב באמצעות מקורות היסטוריים מוסמכים.",
+    "echoesOfPast": "הדי העבר • חוכמה החוצה את גבולות הזמן"
   }
 }

@@ -11,11 +11,13 @@
     "logout": "Abmelden",
     "myProfile": "Mein Profil",
     "signInRequired": "Anmeldung erforderlich, um den Gesprächsverlauf anzuzeigen.",
-    "debate": "Debattierclub",
+    "debate": "Debatte",
     "blog": "Blog",
     "consult": "Beratung",
     "disclaimer": "Haftungsausschluss",
-    "dnaTest": "Historischer Zwilling Test"
+    "dnaTest": "Historischer Zwilling Test",
+    "home": "Startseite",
+    "giants": "Persönlichkeiten"
   },
   "Auth": {
     "loginModalTitle": "Willkommen in der Halle der großen Persönlichkeiten",
@@ -68,7 +70,7 @@
     "lastChat": "Letzter Chat"
   },
   "Hero": {
-    "badge": "Die Halle der großen Denker",
+    "badge": "Intelligenter Dialog der Weltgeschichte",
     "quote": "Wenn ich weitergesehen habe, so deshalb, weil ich auf den Schultern von Riesen stand.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Reise beginnen",
@@ -111,7 +113,7 @@
       "philosophy": "Philosophie",
       "arts": "Kunst",
       "society": "Gesellschaft",
-      "business": "Business"
+      "business": "Wirtschaft & Unternehmen"
     },
     "resultsCount": "{filtered} von {total} großen Denkern gefunden",
     "readEpic": "Biografie lesen ✨",
@@ -133,7 +135,9 @@
       "middle-east-turkey": "Naher Osten & Türkei",
       "africa": "Afrika",
       "south-southeast-asia": "Süd- & Südostasien"
-    }
+    },
+    "allEras": "Alle Epochen",
+    "allCategories": "Alle Kategorien"
   },
   "GiantDetail": {
     "returnToSquare": "Zurück zum Platz",
@@ -236,7 +240,11 @@
       "blog": "Blog",
       "consult": "Beratung",
       "disclaimer": "Haftungsausschluss"
-    }
+    },
+    "about": "Über uns",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt"
   },
   "Giants": {
     "walt-disney": {
@@ -7493,7 +7501,7 @@
     }
   },
   "Contact": {
-    "title": "Kontakt",
+    "title": "Kontaktieren Sie uns",
     "name": "Name",
     "email": "E-Mail",
     "subject": "Betreff (optional)",
@@ -7748,9 +7756,9 @@
     "society": "Gesellschaft",
     "business": "Geschäft",
     "creatorLetterTitle": "Brief des Gründers",
-    "creatorLetterP1": "Die Welt entwickelt sich in einem beispiellosen Tempo, doch paradoxerweise leben wir mit einem tieferen Gefühl von Isolation und Angst als je zuvor. Eines Nachts, als ich mich vor Sorgen um meine Zukunft hin und her warf, fand ich in einem alten Geschichtsbuch unerwarteten Trost.",
-    "creatorLetterP2": "Ich erkannte, dass die großen Persönlichkeiten vor Hunderten und Tausenden von Jahren genau denselben Ängsten zitterten, an schmerzhaften Misserfolgen verzweifelten und ihre Wege durch quälende Einsamkeit bahnten – genau wie wir heute.",
-    "creatorLetterP3": "Die zeitlose Philosophie und die lebendigen Erfahrungen dieser historischen Riesen können das stärkste Gegenmittel für die psychischen Krisen sein, denen wir heute gegenüberstehen. Wenn Sie sich verirren, werden Einsteins heiterer Rat und Lincolns stiller Trost Ihren Geist wieder aufrichten. Unzählige Riesen sind diesen Weg bereits vor Ihnen gegangen, und nun sind sie hier, um Ihre Hand zu halten. Ich feuere Sie für Ihr strahlendes Morgen an."
+    "creatorLetterP1": "Die Welt entwickelt sich rasant, doch paradoxerweise fühlen wir uns oft isolierter und besorgter denn je. In einer schlaflosen Nacht voller Zukunftsängste fand ich unerwarteten Trost in einem alten Geschichtsbuch.",
+    "creatorLetterP2": "Ich erkannte, dass die großen Persönlichkeiten vergangener Jahrhunderte von genau denselben Ängsten geplagt wurden, an schmerzhaften Rückschlägen verzweifelten und ihren Weg in Einsamkeit meisterten.",
+    "creatorLetterP3": "Die zeitlose Philosophie und die lebendigen Erfahrungen dieser Denker sind eine kraftvolle Antwort auf heutige Krisen. Wenn Sie den Weg suchen, können Einsteins Rat und Lincolns Zuspruch neuen Mut schenken. Unzählige Denker gingen diesen Weg vor Ihnen – und stehen Ihnen nun zur Seite."
   },
   "NotFound": {
     "title": "Seite nicht gefunden",
@@ -7763,5 +7771,35 @@
     "searchPlaceholder": "Sprachnamen eingeben",
     "currentTag": "Aktuelle Sprache",
     "noResults": "Keine Treffer"
+  },
+  "Philosophy": {
+    "badge": "Philosophische Erkundung & Technische Innovation",
+    "title": "Weisheitsdialoge mit den großen Geistern der Menschheit",
+    "subtitle": "Giants Wisdom ist eine globale Edutech-Plattform, die die zeitlose Weisheit historischer Denker mit modernster Multi-Agenten-KI verbindet, um tiefgründige humanistische Debatten und Dialoge über Raum und Zeit hinweg zu ermöglichen.",
+    "card1": {
+      "title": "1. Entstehungskontext und humanistische Mission",
+      "p1": "Die moderne Gesellschaft leidet unter einer Informationsüberflutung und extremer Aufmerksamkeitsfragmentierung. Obwohl wir täglich Algorithmen und Kurzzeitnachrichten ausgesetzt sind, fehlt uns der Raum für fundamentale Lebensfragen. Themen wie „Kann Geld Glück kaufen?“ oder „Wo enden die Grenzen individueller Freiheit?“ sind Kernfragen, denen historische Genies ihr Lebenswerk widmeten.",
+      "p2": "Giants Wisdom bietet ein virtuelles Forum, um mithilfe von 493 historischen Persönlichkeiten direkt in den Dialog über diese existenziellen Fragen zu treten. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Es handelt sich nicht um eine bloße Kurzantwort-Suche, sondern um ein Bildungsprojekt, das auf den authentischen Philosophien und Schriften der Denker basiert und durch Echtzeit-Debatten und 1:1-Gespräche aktives Lernen fördert."
+    },
+    "card2": {
+      "title": "2. KI-Multi-Agenten-Orchestrierung & Caching-Engine",
+      "p1": "Für diese virtuelle Diskussionsarena haben wir eine Multi-Agenten-Orchestrierungsarchitektur entwickelt, die auf den APIs von Google Gemini 2.5 Flash-Lite und Gemini 2.5 Flash basiert. Jede Persönlichkeit agiert als autonomer Agent und greift in Echtzeit auf eine fundierte Master-Wissensdatenbank (Giants Master Database) mit Originalwerken, Biografien und historischen Schriften zu.",
+      "p2": "In Debatten analysieren die Agenten Gegenargumente präzise, wahren ihre philosophischen Grundsätze und streamen logisch fundierte Aussagen. Um Serverlast und Tokenkosten zu minimieren, maximieren wir Prefix Caching und nutzen eine strukturierte Round-Robin-Rechenlogik, die die Qualität anspruchsvoller akademischer Symposien detailgetreu nachbildet."
+    },
+    "card3": {
+      "title": "3. Strenge historische Rekonstruktion & 24 Sprachen",
+      "p1": "Um Halluzinationen zu verhindern und höchste Verlässlichkeit zu garantieren, stützt sich unsere Wissensarchitektur auf begutachtete Fachliteratur und anerkannte historische Quellen. Dies ermöglicht ein lebendiges, multidisziplinäres Verständnis von Philosophie, Geschichte, Wissenschaft und Staatstheorie weit über herkömmliche Lehrbücher hinaus.",
+      "p2": "Zudem unterstützen wir 24 weltweite Sprachen über das Next-Intl-Routing. Sämtliche Zitate und Profile werden muttersprachlich und präzise lokalisiert, sodass Lernende weltweit ohne geografische oder sprachliche Hürden Zugang zu den Grundlagen der Zivilisationsgeschichte erhalten."
+    },
+    "card4": {
+      "title": "4. Einhaltung der Google Publisher Policies & Schutzrichtlinien",
+      "p1": "Giants Wisdom hält sich strikt an die Google Publisher Policies sowie DMCA-Bestimmungen, um eine sichere und integre Bildungsplattform zu gewährleisten. Ausführliche Informationen zum Datenschutz und zu den Nutzungsbedingungen finden Sie in unserer <privacyLink>Datenschutzerklärung</privacyLink> und den <termsLink>Nutzungsbedingungen</termsLink>."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "Möchten Sie mehr Weisheit von {giantName}?",
+    "chatDirectlyWithThe": "Sprechen Sie direkt mit der historischen Persönlichkeit oder entdecken Sie Ihr verborgenes Potenzial.",
+    "chatNow": "Jetzt chatten",
+    "dnaTest": "DNA-Test"
   }
 }

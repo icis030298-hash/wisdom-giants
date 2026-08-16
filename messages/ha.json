@@ -11,11 +11,13 @@
     "logout": "Fita",
     "myProfile": "Bayanan martaba na",
     "signInRequired": "Ana buƙatar shiga don ganin tarihin taɗi.",
-    "debate": "Ɗakin Muhawara",
-    "blog": "Blog",
-    "consult": "Nemi Shawara",
+    "debate": "Muhawara",
+    "blog": "Shafin Rubutu",
+    "consult": "Shawara",
     "disclaimer": "Sanarwa ta Musamman",
-    "dnaTest": "Gwajin Daidaitaccen Tarihi"
+    "dnaTest": "Gwajin Daidaitaccen Tarihi",
+    "home": "Gida",
+    "giants": "Masana"
   },
   "Auth": {
     "loginModalTitle": "Barka da zuwa Zauren Gawawwaki",
@@ -68,7 +70,7 @@
     "lastChat": "Taɗi na ƙarshe"
   },
   "Hero": {
-    "badge": "Zauren Manyan Fikra",
+    "badge": "Tattaunawa Mai Hikima ta Tarihin Duniya",
     "quote": "Idan na ga nesa, saboda tsayawa ne a kan kafadun Gawawwaki.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Fara Tafiya",
@@ -7496,7 +7498,11 @@
       "blog": "Blog",
       "consult": "Nemi Shawara",
       "disclaimer": "Sanarwa"
-    }
+    },
+    "about": "Game da Mu",
+    "privacy": "Sirri",
+    "terms": "Sharudda",
+    "contact": "Tuntube Mu"
   },
   "About": {
     "intro": "Ga waɗanda suka ɓace a cikin\nruɗani na bayanai marasa iyaka.",
@@ -7707,7 +7713,7 @@
     "read": "Karanta",
     "headerTitle": "Shafin Hikima",
     "headerSubtitle": "Binciko falsafa da hikimar manyan tarihi a cikin yanayi na zamani",
-    "noPosts": "Babu wasu rubuce-rubuce da aka samu a wannan rukunin.",
+    "noPosts": "Babu wani rubutu da aka samu.",
     "badge": "TASKAR HIKIMA",
     "backToBlog": "Shafin Hikima",
     "titleSEO": "Shafin Hikima | Giants Wisdom",
@@ -7723,10 +7729,12 @@
     "arts": "Fasaha",
     "society": "Alummma",
     "business": "Kasuwanci",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "Wasika Daga Wanda Ya Samar da Manhaja",
+    "creatorLetterP1": "Duniya tana ci gaba da sauri, amma a lokaci guda muna fuskantar damuwa da kadaici fiye da kowane lokaci. Wata dare yayin da nake tunanin makomara, na sami nutsuwa a cikin wani tsohon littafin tarihi.",
+    "creatorLetterP2": "Na fahimci cewa manyan mutane na tarihi sun fuskanci irin wadannan tsoro da kalubale, sun fuskanci gazawa, kuma sun bi tafarkinsu cikin juriya kamar yadda muke yi a yau.",
+    "creatorLetterP3": "Hikimar wadannan masana za ta iya zama babban magani ga damuwar da muke ciki a yau. Idan kuka shiga damuwa, shawarar Einstein da kalaman Lincoln za su ba ku karfin gwiwa. Manyan mutane da yawa sun riga sun bi wannan hanya kuma suna shirye su taimaka muku wajen gina kyakkyawar makoma.",
+    "featured": "Zababbun Rubutu",
+    "latest": "Sababbi"
   },
   "NotFound": {
     "title": "Ba A Sami Shafin Ba",
@@ -7739,5 +7747,63 @@
     "searchPlaceholder": "Rubuta sunan harshe",
     "currentTag": "Harshen yanzu",
     "noResults": "Babu sakamako"
+  },
+  "Philosophy": {
+    "badge": "Binciken Falsafa da Sabbin Dabaru",
+    "title": "Tattaunawar Hikima Tare da Manyan Masana na Tarihi",
+    "subtitle": "Giants Wisdom wata kafa ce ta ilimi a duniya da ke hada hikimar manyan masana na tarihi da fasahar basirar kere-kere (AI) mai rassa da yawa, domin samar da tattaunawa mai zurfi a kowane lokaci da wuri.",
+    "card1": {
+      "title": "1. Dalilin Fara Aiki da Manufar Ilimin Dan Adam",
+      "p1": "A wannan zamani, akwai yawaitar bayanai da kuma rarrabuwar hankali. Ko da yake muna fuskantar labarai da ka'idojin kwamfuta a kowace rana, damar yin tunani mai zurfi a kan manyan tambayoyin rayuwa tana raguwa. Tambayoyi kamar “Shin kudi na iya siyan farin ciki?” ko “Ina iyakokin 'yancin dan adam suke?” manyan batutuwa ne da masana tarihi suka kwashe rayuwarsu suna bincike a kansu.",
+      "p2": "Giants Wisdom tana samar da wata kafa ta musamman domin tattaunawa kai tsaye da manyan mutane 493 na tarihi game da wadannan muhimman tambayoyi. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Wannan ba kawai neman gajerun amsoshi ba ne, aiki ne na farfado da ilimin dan adam da ke amfani da ainihin tunani da salon rubutun kowane masani a cikin tattaunawa ta kai tsaye."
+    },
+    "card2": {
+      "title": "2. Injin AI Mai Aiki Tare da Tsarin Ajiye Bayanai",
+      "p1": "Domin gudanar da wannan dakin tattaunawa, mun kera wani tsari na musamman ta amfani da fasahar Google Gemini 2.5 Flash-Lite da Gemini 2.5 Flash API. An tsara kowane masani a matsayin mai ba da amsa mai cin gashin kansa wanda ke komawa ga babban ma'ajiyar ilimi (Giants Master Database) da ke dauke da ayyukansu da tarihin rayuwarsu.",
+      "p2": "Idan tattaunawa ta fara, tsarin na yin nazari sosai kan hujjojin da aka gabatar tare da bayyana ra'ayoyi a jere cikin tsari. Muna amfani da Prefix Caching domin rage jinkiri da kudaden aiki, tare da tabbatar da ingantaccen tsarin tattaunawa mai inganci irin wanda ake gani a manyan dakunan karatu na jami'o'i."
+    },
+    "card3": {
+      "title": "3. Tabbatar da Ingancin Tarihi da Harsuna 24 na Duniya",
+      "p1": "Domin kare kuskuren bayanai da kuma tabbatar da ingancin ilimi, an tsara ma'ajiyar iliminmu bisa ingantattun littattafan tarihi da binciken masana. Wannan yana bai wa dalibai damar fahimtar alakar da ke tsakanin falsafa, tarihi, kimiyya da tsarin mulki.",
+      "p2": "Muna kuma goyon bayan harsuna 24 na duniya ta hanyar tsarin Next-Intl. Dukkan bayanan masana da kalaman hikima an fassara su daidai da harshen asali, domin bai wa kowa a fadin duniya damar samun ilimin falsafa ba tare da shingen yare ko yanki ba."
+    },
+    "card4": {
+      "title": "4. Bin Dokokin Masu Buga Labarai na Google",
+      "p1": "Giants Wisdom tana bin dukkan Google Publisher Policies da dokokin kare hakkin mallaka na DMCA sau da kafa domin samar da ingantaccen dandalin ilimi. Domin karanta cikakkun bayanan kariya da tsare-tsaren bayanai, da fatan za a duba <privacyLink>Ka'idojin Tsare Sirri</privacyLink> da <termsLink>Sharuddan Aiki</termsLink>."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "Kuna bukatar karin hikima daga {giantName}?",
+    "chatDirectlyWithThe": "Yi magana kai tsaye da wannan babban mutum ko kuma gano basirar da ke boye a cikinku.",
+    "chatNow": "Fara Tattaunawa",
+    "dnaTest": "Gwajin DNA"
+  },
+  "UI": {
+    "about": "GAME DA MU",
+    "quotesCollection": "Tarin Kalaman Hikima",
+    "deleteConversationConfirm": "Kuna son share wannan tattaunawa? Ba za a iya dawo da ita ba.",
+    "deleteConversation": "Share tattaunawa",
+    "debateRoom": "Dakin Muhawara",
+    "aiDebate": "Muhawarar AI",
+    "historicalGiantsDebate": "Muhawarar Masana Tarihi",
+    "aristotleVsNietzsche": "Aristotle da Nietzsche",
+    "aiChat": "Tattaunawar AI",
+    "historicalFigure": "Babban Mutum na Tarihi",
+    "home": "Gida",
+    "hallOfGiants": "Dakin Manyan Masana",
+    "continuePreviousChat": "Ci gaba da Tattaunawar Baya",
+    "loadingChatHistory": "Ana loda tarihin tattaunawa...",
+    "recommendedGiants": "Masana da Aka Shawarta",
+    "learnMoreOnWikipedia": "Koyi karin bayani a Wikipedia",
+    "exploreLegacyOfOtherGiants": "Binciki gadon sauran manyan mutane da suka bi irin wannan tafarki.",
+    "shareResults": "Raba Sakamako",
+    "storyFormat": "Tsarin Labari (9:16)",
+    "talkWithGiant": "Yi Magana da Masani",
+    "timelineAndFacts": "Tarihi da Muhimman Batutuwa",
+    "timeline": "Tsarin Lokaci",
+    "keyAchievements": "Muhimman Nasarori",
+    "readEpic": "Karanta Labari",
+    "warningAiMistakes": "Giants Wisdom manhaja ce ta AI kuma tana iya yin kuskure. Da fatan za a tabbatar da muhimman bayanai daga ingantattun littattafan tarihi.",
+    "echoesOfPast": "Muryoyin da suka gabata • Hikimar da ta zarce zamani"
   }
 }

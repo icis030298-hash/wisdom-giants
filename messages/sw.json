@@ -68,7 +68,7 @@
     "lastChat": "Gumzo la mwisho"
   },
   "Hero": {
-    "badge": "Ukumbi wa Akili Kubwa",
+    "badge": "Mazungumzo Yenye Hekima ya Historia ya Dunia",
     "quote": "Ikiwa nimeona mbali zaidi, ni kwa kusimama kwenye mabega ya Majitu.",
     "quoteAuthor": "Isaac Newton",
     "startJourney": "Anza Safari",
@@ -7695,7 +7695,7 @@
     "read": "Soma",
     "headerTitle": "Blogu ya Hekima",
     "headerSubtitle": "Gundua falsafa na hekima ya vigogo wa kihistoria katika muktadha wa kisasa",
-    "noPosts": "Hakuna machapisho yaliyopatikana katika kategoria hii.",
+    "noPosts": "Hakuna makala yaliyopatikana.",
     "badge": "HIFADHI YA HEKIMA",
     "backToBlog": "Blogu ya Hekima",
     "titleSEO": "Blogu ya Hekima | Giants Wisdom",
@@ -7711,10 +7711,12 @@
     "arts": "Sanaa",
     "society": "Jamii",
     "business": "Biashara",
-    "creatorLetterTitle": "Letter from the Creator",
-    "creatorLetterP1": "The world is advancing at an unprecedented pace, yet paradoxically, we are living with a deeper sense of isolation and anxiety than ever before. One night, tossing and turning with worries about my future, I found unexpected solace in an old history book.",
-    "creatorLetterP2": "I realized that the great figures of hundreds and thousands of years ago trembled with the exact same fears, despaired over painful failures, and forged their paths through agonizing solitude, just as we do today.",
-    "creatorLetterP3": "The timeless philosophy and vivid experiences of these historical giants can be the most powerful antidote to the mental health crises we face today. When you lose your way, Einstein's cheerful advice and Lincoln's silent comfort will raise your spirit once again. Countless giants have already walked the path you are on, and now they are here to hold your hand. I am cheering for your brilliant tomorrow."
+    "creatorLetterTitle": "Barua Kutoka kwa Mwanzilishi",
+    "creatorLetterP1": "Ulimwengu unabadilika kwa kasi, lakini mara nyingi tunakabiliwa na upweke na wasiwasi mwingi. Usiku mmoja nikiwa na wasiwasi kuhusu siku zijazo, nilipata faraja katika kitabu cha kale cha historia.",
+    "creatorLetterP2": "Niligundua kuwa magwiji wa zamani walipitia hofu hizi hizi, walikabiliwa na magumu, na walipambana kwa uvumilivu kama tunavyofanya leo.",
+    "creatorLetterP3": "Hekima ya wanazuoni hawa ni jibu madhubuti kwa changamoto za kisaikolojia za sasa. Unapokosa mwelekeo, ushauri wa Einstein na uthabiti wa Lincoln vitakupa nguvu mpya. Wengi wamepita njia hii kabla yako na wako tayari kukushika mkono.",
+    "featured": "Vilivyoangaziwa",
+    "latest": "Vya Hivi Karibuni"
   },
   "NotFound": {
     "title": "Ukurasa Haukupatikana",
@@ -7727,5 +7729,63 @@
     "searchPlaceholder": "Andika jina la lugha",
     "currentTag": "Lugha ya sasa",
     "noResults": "Hakuna matokeo"
+  },
+  "Philosophy": {
+    "badge": "Utafiti wa Kifalsafa na Ubunifu wa Kiteknolojia",
+    "title": "Mazungumzo ya Hekima na Wanafikra Wakuu wa Historia",
+    "subtitle": "Giants Wisdom ni jukwaa la kimataifa la elimu linalochanganya hekima ya wanazuoni wa kihistoria na akili mnemba (AI) ya kisasa, likiwezesha mijadala ya kina ya kibinadamu na mafunzo shirikishi bila mipaka ya wakati na mahali.",
+    "card1": {
+      "title": "1. Asili ya Mradi na Wajibu wa Kibinadamu",
+      "p1": "Jamii ya kisasa inakabiliwa na mrundikano wa habari na kupungua kwa umakini. Ingawa tunakutana na taarifa nyingi kila siku, nafasi ya kutafakari maswali ya kimsingi ya maisha inapungua. Maswali kama “Je, fedha zinaweza kununua furaha?” au “Je, mipaka ya uhuru wa kibinafsi iko wapi?” yalikuwa kiini cha tafiti za magwiji wa kihistoria katika maisha yao yote.",
+      "p2": "Giants Wisdom inatoa ukumbi wa kidijitali wa kufanya mazungumzo ya moja kwa moja na magwiji 493 wa kihistoria kuhusu maswali haya mazito. {socrates} · {nietzsche} · {aristotle} · {aurelius} — Huu si mtambo wa majibu mafupi tu, bali ni mradi wa kuhuisha maarifa ya kibinadamu unaotegemea falsafa halisi na mtindo wa uandishi wa kila mwanazuoni katika mijadala na mazungumzo ya ana kwa ana."
+    },
+    "card2": {
+      "title": "2. Injini ya AI ya Mawakala Wengi na Mfumo wa Caching",
+      "p1": "Ili kuendesha uwanja huu wa mijadala, tulibuni mfumo unaotumia Google Gemini 2.5 Flash-Lite na Gemini 2.5 Flash API. Kila gwiji anahesabiwa kama wakala huru mwenye akili anayerejelea kanzidata kuu iliyothibitishwa (Giants Master Database) yenye maandiko, wasifu na kumbukumbu za kihistoria.",
+      "p2": "Mjadala unapoanza, mawakala huchambua hoja za wenzao kwa umakini na kutoa mitazamo thabiti yenye mantiki. Tunatumia Prefix Caching ili kupunguza ucheleweshaji na gharama za uchakataji, tukiweka utaratibu wa zamu unaoakisi mijadala ya kina ya kitaaluma."
+    },
+    "card3": {
+      "title": "3. Usahihi wa Kihistoria na Usaidizi wa Lugha 24",
+      "p1": "Ili kuzuia upotoshaji wa taarifa na kuhakikisha uaminifu wa kielimu, muundo wetu wa maarifa umejengwa kwa kutumia machapisho na tafiti za kihistoria zilizoidhinishwa. Hii inawawezesha wanafunzi kujifunza uhusiano kati ya falsafa, historia, sayansi na uongozi.",
+      "p2": "Tunasaidia lugha 24 duniani kupitia mfumo wa Next-Intl. Nukuu na wasifu wote umetafsiriwa kwa ufasaha wa asili, na kuwapa wanafunzi ulimwenguni kote fursa ya kujifunza misingi ya fikra za binadamu bila vizuizi vya lugha."
+    },
+    "card4": {
+      "title": "4. Kuzingatia Sera za Wachapishaji wa Google",
+      "p1": "Giants Wisdom inazingatia kikamilifu Google Publisher Policies na sheria za hakimiliki za DMCA ili kudumisha mazingira salama ya kujifunzia. Kwa maelezo kamili kuhusu ulinzi wa data na masharti ya huduma, tafadhali soma <privacyLink>Sera yetu ya Faragha</privacyLink> na <termsLink>Masharti ya Matumizi</termsLink>."
+    }
+  },
+  "BlogCTA": {
+    "needMoreWisdomFrom": "Je, unahitaji hekima zaidi kutoka kwa {giantName}?",
+    "chatDirectlyWithThe": "Ongea moja kwa moja na gwiji huyu au tambua uwezo wako uliofichika.",
+    "chatNow": "Anza Mazungumzo",
+    "dnaTest": "Kipimo cha DNA"
+  },
+  "UI": {
+    "about": "KUHUSU",
+    "quotesCollection": "Mkusanyiko wa Nukuu",
+    "deleteConversationConfirm": "Futa mazungumzo haya? Hatua hii haiwezi kutenguliwa.",
+    "deleteConversation": "Futa mazungumzo",
+    "debateRoom": "Chumba cha Mijadala",
+    "aiDebate": "Mjadala wa AI",
+    "historicalGiantsDebate": "Mjadala wa Magwiji wa Historia",
+    "aristotleVsNietzsche": "Aristotle dhidi ya Nietzsche",
+    "aiChat": "Mazungumzo ya AI",
+    "historicalFigure": "Mtu Mashuhuri wa Historia",
+    "home": "Nyumbani",
+    "hallOfGiants": "Ukumbi wa Magwiji",
+    "continuePreviousChat": "Endelea na Mazungumzo ya Awali",
+    "loadingChatHistory": "Inapakia kumbukumbu za mazungumzo...",
+    "recommendedGiants": "Magwiji Wanaopendekezwa",
+    "learnMoreOnWikipedia": "Jifunze zaidi kwenye Wikipedia",
+    "exploreLegacyOfOtherGiants": "Gundua urithi wa magwiji wengine waliopita njia sawa katika fani hii.",
+    "shareResults": "Shiriki Matokeo",
+    "storyFormat": "Umbizo la Hadithi (9:16)",
+    "talkWithGiant": "Ongea na Gwiji",
+    "timelineAndFacts": "Mlolongo wa Matukio na Ukweli",
+    "timeline": "Mlolongo wa Matukio",
+    "keyAchievements": "Mafanikio Muhimu",
+    "readEpic": "Soma Simulizi Kuu",
+    "warningAiMistakes": "Giants Wisdom ni roboti ya AI na inaweza kufanya makosa. Tafadhali thibitisha taarifa muhimu kupitia kumbukumbu halisi za kihistoria.",
+    "echoesOfPast": "Mwangwi wa zamani • Hekima inayovuka mipaka ya wakati"
   }
 }
