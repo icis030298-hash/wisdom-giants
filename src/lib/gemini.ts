@@ -518,12 +518,8 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
   // Try Gemini models for stability and speed
   const modelsToTry = [
     'gemini-2.0-flash',
-    'gemini-1.5-flash',
-    'gemini-1.5-pro',
     'gemini-2.5-flash-lite',
     'gemini-2.5-flash',
-    'gemini-1.5-flash-latest',
-    'gemini-1.5-flash-002'
   ];
   
   const vAI = getVertexAIInstance();

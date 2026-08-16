@@ -141,7 +141,6 @@ ${userMessage ? `\n=== 관객(사용자)의 개입 ===\n사용자가 토론에 �
     // Vertex AI models fallback
     const modelsToTry = [
       "gemini-2.0-flash",
-      "gemini-1.5-flash",
       "gemini-2.5-flash-lite",
       "gemini-2.5-flash"
     ];

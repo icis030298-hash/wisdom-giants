@@ -90,7 +90,7 @@ ${signatureRules}
 
 오직 위인의 목소리로 된 **첫 문장 하나**만 텍스트로 출력해 주십시오. 마크다운 장식이나 설명 없이 출력하십시오.`;
 
-    const modelsToTry = ['gemini-2.0-flash', 'gemini-1.5-flash'];
+    const modelsToTry = ['gemini-2.0-flash'];
     let greetingText = "";
     let lastError = null;
 
