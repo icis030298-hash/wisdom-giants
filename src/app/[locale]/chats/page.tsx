@@ -12,6 +12,7 @@ import { MessageCircle, Clock, ChevronRight, Loader2, Lock, Trash2 } from "lucid
 import { formatDistanceToNow } from "date-fns"
 import { ko, enUS } from "date-fns/locale"
 import { Link } from "@/i18n/routing"
+import { giants } from "@/lib/giants-data"
 
 interface ChatHistory {
   id: string
@@ -222,6 +223,12 @@ export default function ChatsPage() {
           <div className="grid gap-4">
             {chats.map((chat) => {
               const localizedName = tg(`${chat.giantSlug}.name`) || chat.giantName;
+              // The roster's imageUrl, never `${slug}.jpg`: that assembled a
+              // second set of files that had drifted to a different picture.
+              const portrait =
+                chat.giantImage ||
+                giants.find((g) => g.slug === (chat.giantSlug || chat.giantId))?.imageUrl ||
+                null;
               return (
                 <div key={chat.id} className="relative group/row">
                   <Link
@@ -230,13 +237,15 @@ export default function ChatsPage() {
                     style={{ borderRadius: "var(--rd-card-radius)", transitionDuration: "120ms" }}
                   >
                     <Avatar className="w-14 h-14 border rd-hairline overflow-hidden relative">
-                      <Image
-                        src={chat.giantImage || `/images/giants/${chat.giantSlug || chat.giantId}.jpg`}
-                        alt={localizedName}
-                        fill
-                        sizes="56px"
-                        className="rd-portrait object-cover"
-                      />
+                      {portrait && (
+                        <Image
+                          src={portrait}
+                          alt={localizedName}
+                          fill
+                          sizes="56px"
+                          className="rd-portrait object-cover"
+                        />
+                      )}
                       <AvatarFallback className="rd-accent font-serif" style={{ background: "var(--rd-divider-faint)" }}>
                         {localizedName.charAt(0)}
                       </AvatarFallback>

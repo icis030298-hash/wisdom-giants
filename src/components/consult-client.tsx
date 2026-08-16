@@ -18,7 +18,7 @@ interface ConsultClientProps {
   eraBySlug?: Record<string, string>
 }
 
-function GiantAvatar({ slug, name }: { slug: string; name: string }) {
+function GiantAvatar({ imageUrl, name }: { imageUrl: string | null; name: string }) {
   const [imgError, setImgError] = useState(false)
   const initials = /[a-zA-Z]/.test(name)
     ? name
@@ -29,7 +29,7 @@ function GiantAvatar({ slug, name }: { slug: string; name: string }) {
         .toUpperCase()
     : name.substring(0, 2);
   
-  if (imgError) {
+  if (imgError || !imageUrl) {
     return (
       <div className="w-20 h-20 rounded-full flex items-center justify-center rd-accent font-bold text-xl mb-3 border rd-hairline" style={{ background: "var(--rd-divider-faint)" }}>
         {initials}
@@ -39,7 +39,7 @@ function GiantAvatar({ slug, name }: { slug: string; name: string }) {
   
   return (
     <img
-      src={`/images/giants/${slug}.jpg`}
+      src={imageUrl}
       alt={name}
       onError={() => setImgError(true)}
       loading="lazy"
@@ -383,7 +383,9 @@ export function ConsultClient({ locale, eraBySlug }: ConsultClientProps) {
     const info = giants.find(g => g.slug === mg.slug)
     const name = tg(`${mg.slug}.name`) || info?.name || mg.slug
     const era = eraBySlug?.[mg.slug] || info?.era || ""
-    const imageUrl = info?.imageUrl || `/images/giants/${mg.slug}.jpg`
+    // No ${slug}.jpg fallback: those files are a second, unreviewed set that
+    // drifted away from the portraits giants.ts actually points at.
+    const imageUrl = info?.imageUrl || null
     
     return {
       ...mg,
@@ -586,7 +588,7 @@ export function ConsultClient({ locale, eraBySlug }: ConsultClientProps) {
                       
                       {/* Giant Avatar & Details */}
                       <div className="flex flex-col items-center shrink-0 w-full md:w-36">
-                        <GiantAvatar slug={giant?.slug} name={tg(`${giant?.slug}.name`).includes(`${giant?.slug}.`) ? (giant?.name || 'Unknown') : tg(`${giant?.slug}.name`)} />
+                        <GiantAvatar imageUrl={giant?.imageUrl ?? null} name={tg(`${giant?.slug}.name`).includes(`${giant?.slug}.`) ? (giant?.name || 'Unknown') : tg(`${giant?.slug}.name`)} />
                         <p className="rd-text-ink font-serif font-bold text-lg text-center leading-tight">
                           {tg(`${giant?.slug}.name`).includes(`${giant?.slug}.`) ? (giant?.name || 'Unknown') : tg(`${giant?.slug}.name`)}
                         </p>

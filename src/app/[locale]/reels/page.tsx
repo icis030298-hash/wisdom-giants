@@ -56,7 +56,9 @@ const REELS_SCENARIOS: Record<string, ReelScenario> = {
     slug: "napoleon-bonaparte",
     nameKo: "나폴레옹 보나파르트",
     nameEn: "Napoleon Bonaparte",
-    avatar: "/images/giants/napoleon-bonaparte.jpg",
+    // The roster stores this slug's portrait as napoleon.jpg; the
+    // napoleon-bonaparte.jpg on disk is a different, unreviewed file.
+    avatar: "/images/giants/napoleon.jpg",
     userQuestionKo: "황제님, 오늘 뭐 먹을까요?",
     userQuestionEn: "Your Majesty, what should I eat today?",
     giantAnswerKo: "승리는 움직이는 자의 것이며, 행군을 지체해선 안 되오! 한 손에 쥐고 돌격하면서 뜯어 먹을 수 있는 단단한 '바게트 빵'과 찬 고기 조각이면 충분하오. 돌격!",
@@ -84,7 +86,8 @@ const REELS_SCENARIOS: Record<string, ReelScenario> = {
     slug: "yi-sun-shin",
     nameKo: "이순신",
     nameEn: "Yi Sun-shin",
-    avatar: "/images/giants/yi-sun-shin.jpg",
+    // .png, not .jpg: the .jpg here is the retired orange-toned version.
+    avatar: "/images/giants/yi-sun-shin.png",
     userQuestionKo: "장군님, 오늘 점심 식사 메뉴를 청합니다.",
     userQuestionEn: "General, I request a lunch menu suggestion.",
     giantAnswerKo: "바다의 풍랑 속에서도 아군의 기운이 꺾이지 않아야 승리하는 법. 척박한 전장에서도 굳건히 견딜 수 있도록 든든한 '보리밥'과 힘을 복돋우는 '생선구이'로 기운을 차리시오.",

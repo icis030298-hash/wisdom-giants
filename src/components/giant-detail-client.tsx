@@ -486,9 +486,11 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
 
     const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name
     const giantName = tg.name
-    const giantSlug = giant.slug
-    const ext = giant.imageUrl.split('.').pop() || 'jpg'
-    const imageUrl = `https://www.giantswisdom.com/images/giants/${giantSlug}.${ext}`
+    // imageUrl is already the path we want. The previous version took the
+    // extension off it and rebuilt `${slug}.${ext}`, which for a portrait
+    // stored as abraham-lincoln-sticker.png resolved to abraham-lincoln.png —
+    // a different file, and one nobody had reviewed.
+    const imageUrl = `https://www.giantswisdom.com${giant.imageUrl}`
 
     try {
       Kakao.Share.sendDefault({
