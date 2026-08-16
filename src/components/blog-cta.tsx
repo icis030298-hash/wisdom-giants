@@ -1,12 +1,14 @@
 "use client"
 
+
+import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
 import { trackCTAEvent } from "@/lib/analytics"
 import { MessageSquare, Dna } from "lucide-react"
 
 export function BlogCTA({ giantSlug, locale, giantName, chatHref }: { giantSlug: string, locale: string, giantName: string, chatHref: string }) {
-  const isKo = locale === 'ko'
-  
+  const t = useTranslations("BlogCTA")
+
   return (
     <div className="max-w-3xl mx-auto mt-16 mb-24 px-4 sm:px-6">
       {/* Was a .glass-card with an amber gradient wash and a blur orb. On cream
@@ -19,12 +21,10 @@ export function BlogCTA({ giantSlug, locale, giantName, chatHref }: { giantSlug:
         <div className="flex flex-col items-center text-center gap-6">
           <div className="space-y-2">
             <h3 className="text-2xl font-serif font-bold rd-text-ink">
-              {isKo ? `${giantName}의 지혜가 더 필요하신가요?` : `Need more wisdom from ${giantName}?`}
+              {t('needMoreWisdomFrom', { giantName: giantName })}
             </h3>
             <p className="rd-text-body">
-              {isKo
-                ? '거인과 직접 대화를 나누거나, 내 안의 거인 DNA를 확인해보세요.'
-                : 'Chat directly with the giant or discover your hidden potential.'}
+              {t('chatDirectlyWithThe')}
             </p>
           </div>
 
@@ -36,7 +36,7 @@ export function BlogCTA({ giantSlug, locale, giantName, chatHref }: { giantSlug:
               style={{ borderRadius: "var(--rd-card-radius)", borderColor: "var(--rd-accent-brown)", transitionDuration: "120ms" }}
             >
               <MessageSquare className="w-5 h-5" />
-              {isKo ? '실시간 대화하기' : 'Chat Now'}
+              {t('chatNow')}
             </Link>
 
             <Link
@@ -47,7 +47,7 @@ export function BlogCTA({ giantSlug, locale, giantName, chatHref }: { giantSlug:
             >
               {/* The cyan icon was the only cool colour left on the page. */}
               <Dna className="w-5 h-5 rd-accent" />
-              {isKo ? 'DNA 테스트' : 'DNA Test'}
+              {t('dnaTest')}
             </Link>
           </div>
         </div>
