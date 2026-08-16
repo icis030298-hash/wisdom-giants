@@ -34,5 +34,11 @@ export const notoSansDevanagari = localFont({
   ],
   variable: '--font-devanagari',
   display: 'swap',
+  // The variable class sits on <html> for every locale, so next/font emitted a
+  // preload link for this face on all 24 of them. Only `hi` ever draws a
+  // Devanagari glyph; the other 23 downloaded 121KB and never used it. Without
+  // the preload the @font-face still stands, so `hi` still gets the font -- it
+  // arrives on demand rather than ahead of the first paint.
+  preload: false,
   fallback: ['Noto Sans Devanagari', 'Nirmala UI', 'sans-serif'],
 })
