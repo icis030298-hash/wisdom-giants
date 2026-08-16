@@ -42,8 +42,13 @@ const CHIP_OFF = {
 export function GiantsGrid({ dbCardData }: GiantsGridProps) {
   const t = useTranslations("GiantsGrid")
   const tg = useTranslations("Giants")
-  const { totalChatted } = useGiantHistory()
-  const progress = Math.round((totalChatted / giants.length) * 100)
+  const { totalRead } = useGiantHistory()
+  // One giant out of ~494 is 0.2%, so Math.round left the label reading "0%
+  // 달성" and the bar at width:0 for the first four giants -- the gauge looked
+  // broken rather than early. Ceil keeps the label off zero once anything has
+  // been read; the bar carries its own minimum width below.
+  const rawProgress = giants.length > 0 ? (totalRead / giants.length) * 100 : 0
+  const progress = totalRead > 0 ? Math.max(1, Math.ceil(rawProgress)) : 0
   const [searchQuery, setSearchQuery] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("All Giants")
   const [selectedRegion, setSelectedRegion] = useState("all")
@@ -162,18 +167,27 @@ export function GiantsGrid({ dbCardData }: GiantsGridProps) {
           {t("description")}
         </p>
 
-        {totalChatted > 0 && (
+        {totalRead > 0 && (
           <div className="mt-4 p-4 max-w-2xl" style={{ background: "var(--rd-surface)", border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}>
             <div className="flex justify-between mb-2" style={{ fontSize: "var(--rd-caption-size)" }}>
               <span style={{ color: "var(--rd-text-muted)" }}>{t("progressLabel")}</span>
               <span style={{ color: "var(--rd-accent-brown)", fontWeight: 600 }}>
-                {totalChatted} / {giants.length}
+                {totalRead} / {giants.length}
               </span>
             </div>
             <div className="h-1.5 overflow-hidden" style={{ background: "var(--rd-divider-faint)", borderRadius: 999 }}>
+              {/* Width comes from the unrounded ratio, but never renders thinner
+                  than the bar is tall. At one giant read the true width is 0.2%
+                  -- a sub-pixel sliver on a phone -- so the minimum turns it
+                  into a visible dot that grows from there. */}
               <div
                 className="h-full motion-safe:transition-all motion-safe:duration-700"
-                style={{ background: "var(--rd-accent-brown)", borderRadius: 999, width: `${progress}%` }}
+                style={{
+                  background: "var(--rd-accent-brown)",
+                  borderRadius: 999,
+                  width: `${rawProgress}%`,
+                  minWidth: "0.375rem",
+                }}
               />
             </div>
             <p className="mt-2" style={{ color: "var(--rd-text-muted)", fontSize: "var(--rd-caption-size)" }}>
