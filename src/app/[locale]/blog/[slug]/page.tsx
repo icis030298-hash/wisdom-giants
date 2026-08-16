@@ -698,9 +698,12 @@ export default async function BlogPostDetailPage({ params }: Props) {
       "@type": "Organization",
       "name": "Giants Wisdom",
       "url": "https://www.giantswisdom.com",
+      // /icon.svg has never existed — it 500s. brand-solid.svg is the same
+      // mark the favicon and the icon routes draw, kept in public/ as a
+      // standalone file for exactly this kind of absolute reference.
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.giantswisdom.com/icon.svg"
+        "url": "https://www.giantswisdom.com/brand-solid.svg"
       }
     },
     "mainEntityOfPage": {
