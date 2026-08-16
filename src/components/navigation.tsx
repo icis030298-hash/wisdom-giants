@@ -45,8 +45,11 @@ export function Navigation() {
           <Link href="/" className="flex items-center gap-2 md:gap-3 group flex-shrink min-w-0 max-w-[60%]">
             <BrandMark className="w-9 h-9 md:w-10 md:h-10 flex-shrink-0" />
             <div className="hidden sm:block min-w-0">
+              {/* 브랜드가 큰 글씨, 현지어 문구가 작은 글씨입니다. 브랜드는 라틴
+                  문자 고정이므로 데바나가리 폰트 분기는 현지어를 받는 아래 span
+                  쪽에 붙습니다 (hi의 mainTitle은 दिग्गजों के कंधे). */}
               <span
-                className={`block leading-none pe-2 ${locale === 'hi' ? 'font-[family-name:var(--font-devanagari)]' : 'font-serif'}`}
+                className="block leading-none pe-2 font-serif"
                 style={{
                   color: "var(--rd-text-ink)",
                   fontSize: "var(--rd-card-name-size)",
@@ -54,11 +57,11 @@ export function Navigation() {
                   letterSpacing: "var(--rd-card-name-tracking)",
                 }}
               >
-                {tBrand("mainTitle")}
+                Giants Wisdom
               </span>
               {/* No uppercase, no wide tracking. */}
               <span
-                className="block mt-0.5"
+                className={`block mt-0.5 ${locale === 'hi' ? 'font-[family-name:var(--font-devanagari)]' : ''}`}
                 style={{
                   color: "var(--rd-text-muted)",
                   fontSize: "var(--rd-caption-size)",
@@ -66,7 +69,7 @@ export function Navigation() {
                   lineHeight: "var(--rd-caption-leading)",
                 }}
               >
-                Giants Wisdom
+                {tBrand("mainTitle")}
               </span>
             </div>
           </Link>

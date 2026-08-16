@@ -29,8 +29,10 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between md:gap-10">
           <div className="min-w-0 max-w-2xl">
+            {/* H1은 브랜드 표기라 라틴 문자로 고정입니다. 데바나가리 폰트 분기는
+                현지어 문구를 받는 아래 <p>로 옮겼습니다. */}
             <h1
-              className={locale === 'hi' ? 'font-[family-name:var(--font-devanagari)]' : 'font-serif'}
+              className="font-serif"
               style={{
                 color: "var(--rd-text-ink)",
                 fontSize: "var(--rd-h1-size)",
@@ -39,11 +41,22 @@ export function HeroSection() {
                 lineHeight: "var(--rd-h1-leading)",
               }}
             >
-              {tBrand("mainTitle")}
+              Giants Wisdom
             </h1>
 
             <p
-              className="mt-2 break-keep"
+              className={`mt-1 ${locale === 'hi' ? 'font-[family-name:var(--font-devanagari)]' : 'font-serif'}`}
+              style={{
+                color: "var(--rd-text-muted)",
+                fontSize: "var(--rd-lede-size)",
+                lineHeight: "var(--rd-lede-leading)",
+              }}
+            >
+              {tBrand("mainTitle")}
+            </p>
+
+            <p
+              className="mt-2 rd-card-intro"
               style={{
                 color: "var(--rd-text-body)",
                 fontSize: "var(--rd-body-size)",

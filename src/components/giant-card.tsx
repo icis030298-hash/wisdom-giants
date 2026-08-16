@@ -107,7 +107,7 @@ export function GiantCard({ giant, dbData }: GiantCardProps) {
       )}
 
       <p
-        className="mt-2 break-keep"
+        className="mt-2 rd-card-intro"
         style={{
           color: "var(--rd-text-body)",
           fontSize: "var(--rd-card-intro-size)",

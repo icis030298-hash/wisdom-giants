@@ -1306,8 +1306,11 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                             fontSize: '32px', 
                             fontStyle: 'italic', 
                             fontFamily: 'Georgia, serif', 
-                            lineHeight: '1.6', 
-                            wordBreak: 'keep-all',
+                            lineHeight: '1.6',
+                            /* keep-all은 한국어에서만. 공백 없는 일본어·중국어·
+                               태국어에 걸면 인용문 전체가 한 덩어리가 됩니다. */
+                            wordBreak: locale === 'ko' ? 'keep-all' : 'normal',
+                            overflowWrap: 'break-word',
                           }}>
                             &ldquo;{tg.quote}&rdquo;
                           </p>
@@ -1355,7 +1358,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     </p>
                     <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}</p>
                     <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 0', marginBottom: '18px' }}>
-                      <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: 'keep-all' }}>
+                      <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: locale === 'ko' ? 'keep-all' : 'normal', overflowWrap: 'break-word' }}>
                         &ldquo;{(tg.quote || '').slice(0, 70)}{(tg.quote || '').length > 70 ? '...' : ''}&rdquo;
                       </p>
                     </div>

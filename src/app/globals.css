@@ -191,8 +191,6 @@
   font-weight: var(--rd-body-lg-weight);
   letter-spacing: var(--rd-body-lg-tracking);
   line-height: var(--rd-leading-body);
-  word-break: keep-all;
-  overflow-wrap: break-word;
 }
 
 .rd-lede {
@@ -201,7 +199,6 @@
   font-weight: var(--rd-lede-weight);
   letter-spacing: var(--rd-lede-tracking);
   line-height: var(--rd-lede-leading);
-  word-break: keep-all;
 }
 
 .rd-doc-h2 {
@@ -210,7 +207,6 @@
   font-weight: var(--rd-doc-h2-weight);
   letter-spacing: var(--rd-doc-h2-tracking);
   line-height: var(--rd-doc-h2-leading);
-  word-break: keep-all;
 }
 
 .rd-doc-h3 {
@@ -219,6 +215,30 @@
   font-weight: var(--rd-doc-h3-weight);
   letter-spacing: var(--rd-doc-h3-tracking);
   line-height: var(--rd-doc-h3-leading);
+}
+
+/* ── 줄바꿈 ────────────────────────────────────────────────────────────────
+   keep-all은 한국어 조판 규칙입니다. 어절 중간을 끊지 못하게 막고, 한국어에는
+   대신 끊을 수 있는 어절 사이 공백이 있습니다. 일본어·중국어·태국어에는 그
+   공백이 없어서, keep-all이 걸리면 문장 전체가 끊을 수 없는 한 덩어리가 되고
+   컨테이너를 넘칩니다. 220px 카드에 일본어 한 문장을 넣으면 scrollWidth가
+   328px까지 벌어집니다. 기본은 일반 줄바꿈으로 두고 한국어만 lang으로
+   옵트인합니다.
+
+   .break-keep은 Tailwind 유틸리티지만 여기서 다시 정의합니다. 호출부가 38곳
+   이라 하나씩 바꾸면 빠뜨리는 쪽이 확실하고, 어차피 전부 같은 판단을 받아야
+   하기 때문입니다. 이 블록은 @layer 바깥이라 레이어드 유틸리티를 이깁니다. */
+.rd-body-lg,
+.rd-lede,
+.rd-doc-h2,
+.rd-doc-h3,
+.rd-card-intro,
+.break-keep {
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+html[lang="ko"] :is(.rd-body-lg, .rd-lede, .rd-doc-h2, .rd-doc-h3, .rd-card-intro, .break-keep) {
   word-break: keep-all;
 }
 
