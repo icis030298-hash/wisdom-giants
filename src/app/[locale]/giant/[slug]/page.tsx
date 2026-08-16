@@ -468,6 +468,12 @@ export default async function GiantDetailPage({ params }: Props) {
               alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
               width={112}
               height={112}
+              /* The <img> this replaced was eager, because that is what a plain
+                 <img> is. next/image defaults to lazy, so the swap quietly moved
+                 the one portrait on the page -- 115px down a 756px viewport,
+                 above the fold on every device -- behind a layout pass. priority
+                 restores eager and adds the preload the old markup never had. */
+              priority
               /* Square, and round. The plates are drawn as discs with 8-10%
                  margin all round, so a 4:5 frame left the corners showing the
                  plate's own background — and that background is not one colour
