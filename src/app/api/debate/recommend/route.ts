@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantsData } from "@/data/giants";
+import { responseLanguage } from "@/lib/response-language";
 
 export async function POST(req: Request) {
   try {
@@ -17,14 +18,8 @@ export async function POST(req: Request) {
       category: g.category
     }));
 
-    const langName = locale === 'ko' ? 'Korean (한국어)' 
-                   : locale === 'ja' ? 'Japanese (日本語)'
-                   : locale === 'de' ? 'German (Deutsch)'
-                   : locale === 'es' ? 'Spanish (Español)'
-                   : locale === 'fr' ? 'French (Français)'
-                   : locale === 'it' ? 'Italian (Italiano)'
-                   : locale === 'pt' ? 'Portuguese (Português)'
-                   : 'English';
+    // Was a seven-branch chain naming the same languages this map already has.
+    const langName = responseLanguage(locale);
 
     // 2. Build the system instruction to force strict JSON matching
     const systemPrompt = `

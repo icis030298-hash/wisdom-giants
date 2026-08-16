@@ -4,6 +4,7 @@ import { getVertexAIInstance } from './vertexai';
 import { deepPersonas } from '@/data/personas/personas';
 import { giantPersonas } from '@/data/giant-personas';
 import { giantsData } from '@/data/giants';
+import { respondInLanguage } from './response-language';
 
 import generatedPersonas from '@/data/personas/generated-personas.json';
 import fs from 'fs';
@@ -486,7 +487,12 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
   };
 
   const l = (locale === 'ko' || locale === 'en' || locale === 'de' || locale === 'ja' || locale === 'es' || locale === 'fr' || locale === 'it' || locale === 'pt') ? locale : 'en';
-  const sysPromptBase = promptMap[locale] || promptMap['en'];
+  // promptMap covers eight locales and falls back to the English prompt, so
+  // the other sixteen were answered in English rather than their own language.
+  // The English prompt is a fine base — it just has to name the right language.
+  const sysPromptBase = promptMap[locale]
+    ? promptMap[locale]
+    : `${promptMap['en']}\n${respondInLanguage(locale)}`;
   const dynamicInstruction = (dynamicInstructionMap[locale] || dynamicInstructionMap['en'])[mode];
   let sysPrompt = sysPromptBase + dynamicInstruction;
 

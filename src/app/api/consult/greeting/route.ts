@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
+import { respondInLanguage } from "@/lib/response-language";
 
 export async function POST(req: NextRequest) {
   try {
@@ -70,7 +71,7 @@ ${customPersonaText}
 ${signatureRules}
 
 [인사말 작성 준수 규칙 — 필수]
-1. 답변은 반드시 **[한국어 또는 사용자의 언어]**로 작성해 주십시오. (지정된 언어: "${locale}")
+1. ${respondInLanguage(locale)} (지정된 언어: "${locale}")
 2. **[무조건 단 1문장(공백 포함 80자 이내)]**으로만 대답하십시오. 배경 설명, 업적 자랑, 장황한 도입부는 일절 생략하십시오.
 3. 당신은 교사가 아닙니다. 가르치려 하거나 훈계하지 말고, 고통을 먼저 겪어본 동반자로서 공감해 주십시오.
 4. 문장의 끝부분에는 사용자의 구체적인 고민 상황을 자극하여 자발적 답변을 유도하는 **[날카롭고 심플한 질문 한 줄]**을 담아내십시오.

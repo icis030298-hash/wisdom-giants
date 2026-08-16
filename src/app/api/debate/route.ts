@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantsData } from "@/data/giants";
+import { respondInLanguage } from "@/lib/response-language";
 
 export async function POST(req: Request) {
   try {
@@ -84,11 +85,20 @@ ${baseGuidelines}
 Responda sempre em português brasileiro e natural. Use "você".
 Personalidade e filosofia:
 ${persona}`;
-    } else {
+    } else if (locale === 'ko') {
       systemPrompt = `당신은 ${giantName}입니다.
 ${baseGuidelines}
 반드시 깊이 있고 품격 있는 '한국어'로 대답하십시오. 자신의 철학과 신념에 기반하여 상대방의 의견을 반박하거나 동조하십시오.
 당신의 성격과 철학(Persona):
+${persona}`;
+    } else {
+      // Same Korean else the chat route had: sixteen locales were debating in
+      // Korean regardless of who asked.
+      systemPrompt = `You are ${giantName}.
+${baseGuidelines}
+${respondInLanguage(locale)}
+Argue from your own philosophy and convictions — rebut or agree with the other speakers on those grounds.
+Personality and Philosophy (Persona):
 ${persona}`;
     }
 

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
+import { respondInLanguage } from "@/lib/response-language";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
 import { giantsData } from "@/data/giants";
@@ -268,12 +269,22 @@ Você está conversando com um usuário brasileiro. Use um tom caloroso, natural
 RÈGLE CRUCIALE PARA O PORTUGUÊS : Use o tratamento informal "você".
 Personalidade e filosofia (Persona):
 ${customPersonaText}${customNeverDoes}`;
-    } else {
-      systemPrompt = `당신은 역사 속의 위대한 거인, ${giantName}입니다. 
+    } else if (locale === 'ko') {
+      systemPrompt = `당신은 역사 속의 위대한 거인, ${giantName}입니다.
 ${baseGuidelines}
 반드시 품격 있고 깊이 있는 고풍스러운 '한국어'로만 답변하십시오.
 역사적 인물로서의 엄숙함, 어휘, 말투를 완벽히 고수하십시오. 현대적인 유행어나 가벼운 말투는 철저히 배제하고, 미래에서 당신의 지혜를 구하러 찾아온 여행자를 대하듯 대화하십시오.
 당신의 성격과 철학(Persona)입니다:
+${customPersonaText}${customNeverDoes}`;
+    } else {
+      // The branches above hand-write a prompt in each of eight languages. The
+      // other sixteen locales used to land in the Korean one, so a Thai user
+      // got Korean back. They get their own language named instead.
+      systemPrompt = `You are ${giantName}, a giant of history.
+${baseGuidelines}
+${respondInLanguage(locale)}
+Hold to the gravity, vocabulary and cadence of your own era. Avoid modern slang and casual register. Speak as to a traveller who has come from the future seeking your wisdom.
+Personality and Philosophy (Persona):
 ${customPersonaText}${customNeverDoes}`;
     }
 
