@@ -2,13 +2,17 @@ import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantsData } from "@/data/giants";
 import { respondInLanguage } from "@/lib/response-language";
+import { apiError } from "@/lib/api-errors";
 
 export async function POST(req: Request) {
+  // Hoisted so the catch can still answer in the caller's language.
+  let reqLocale: string | undefined;
   try {
     const { giants, topic, history, currentSpeaker, locale, userMessage } = await req.json();
+    reqLocale = locale;
 
     if (!currentSpeaker || !topic) {
-      return NextResponse.json({ error: "필수 파라미터가 누락되었습니다." }, { status: 400 });
+      return NextResponse.json({ error: apiError('missingParams', locale) }, { status: 400 });
     }
 
     // Find current speaker details
@@ -170,7 +174,7 @@ ${userMessage ? `\n=== 관객(사용자)의 개입 ===\n사용자가 토론에 �
   } catch (error: any) {
     console.error("[Debate API Error]:", error);
     return NextResponse.json({
-      error: "토론 답변을 생성하는 도중 오류가 발생했습니다.",
+      error: apiError('generationFailed', reqLocale),
       details: error.message || String(error)
     }, { status: 500 });
   }

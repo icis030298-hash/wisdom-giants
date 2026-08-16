@@ -2,13 +2,17 @@ import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantsData } from "@/data/giants";
 import { responseLanguage } from "@/lib/response-language";
+import { apiError } from "@/lib/api-errors";
 
 export async function POST(req: Request) {
+  // Hoisted so the catch can still answer in the caller's language.
+  let reqLocale: string | undefined;
   try {
     const { topic, locale } = await req.json();
+    reqLocale = locale;
 
     if (!topic) {
-      return NextResponse.json({ error: "토론 주제가 비어있습니다." }, { status: 400 });
+      return NextResponse.json({ error: apiError('missingTopic', locale) }, { status: 400 });
     }
 
     // 1. Get all available giant slugs and names to feed into the recommendation pool
@@ -123,7 +127,7 @@ Instructions:
   } catch (error: any) {
     console.error("[Recommend API Error]:", error);
     return NextResponse.json({
-      error: "추천 위인을 생성하는 도중 오류가 발생했습니다.",
+      error: apiError('generationFailed', reqLocale),
       details: error.message || String(error)
     }, { status: 500 });
   }

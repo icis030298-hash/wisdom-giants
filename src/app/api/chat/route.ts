@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
 import { respondInLanguage } from "@/lib/response-language";
+import { apiError } from "@/lib/api-errors";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
 import { giantsData } from "@/data/giants";
@@ -10,11 +11,16 @@ import fs from "fs";
 import path from "path";
 
 export async function POST(req: Request) {
+  // Hoisted so the catch below can still answer in the caller's language; the
+  // moment a request fails is the worst one to hand someone a script they
+  // cannot read.
+  let reqLocale: string | undefined;
   try {
     const { prompt, giantName, persona, messages, locale, slug, problemId, customText } = await req.json();
+    reqLocale = locale;
 
     if (!prompt) {
-      return NextResponse.json({ error: "질문 내용이 없습니다." }, { status: 400 });
+      return NextResponse.json({ error: apiError('missingPrompt', locale) }, { status: 400 });
     }
 
     const vAI = getVertexAIInstance();
@@ -438,7 +444,10 @@ ${customPersonaText}${customNeverDoes}`;
   } catch (error: any) {
     console.error("[Gemini API Error] Full Details:", error);
     return NextResponse.json({ 
-      error: "제미나이 응답을 가져오는 중 오류가 발생했습니다.",
+      // No vendor name: which model backs this is an implementation detail,
+      // and a user who cannot get a reply is not helped by learning whose
+      // fault it is.
+      error: apiError('generationFailed', reqLocale),
       details: error.message || String(error),
       stack: process.env.NODE_ENV === 'development' ? error.stack : undefined
     }, { status: 500 });

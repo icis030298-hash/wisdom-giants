@@ -119,6 +119,9 @@ export function validateTranslationItem(
         fa: /[\u0600-\u06FF]/,
         th: /[\u0E00-\u0E7F]/,
         zh: /[\u4E00-\u9FFF]/,
+        // Devanagari. Hindi was the one non-Latin locale missing from this
+        // map, so an English title in a Hindi row passed the gate silently.
+        hi: /[\u0900-\u097F]/,
       };
 
       const scriptRegex = nonLatinScriptMap[item.locale];
