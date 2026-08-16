@@ -24,7 +24,12 @@
     "loginSuccess": "거인들의 전당에 입장하셨습니다.",
     "logout": "로그아웃",
     "chatList": "내 대화 목록",
-    "signInRequired": "로그인이 필요합니다"
+    "signInRequired": "로그인이 필요합니다",
+    "areYouSureYou": "정말 계정을 삭제하시겠습니까? 모든 대화 기록이 영구적으로 삭제되며 복구할 수 없습니다.",
+    "deletingAccount": "계정 삭제 중...",
+    "accountDeletedSuccessfully": "계정이 성공적으로 삭제되었습니다.",
+    "pleaseLogInAgain": "보안을 위해 다시 로그인한 후 탈퇴해주세요.",
+    "deleteAccount": "회원 탈퇴"
   },
   "Test": {
     "title": "당신의 영혼에 흐르는 위대한 유산을 찾으세요",
@@ -12967,7 +12972,8 @@
       "blog": "블로그",
       "consult": "고민 상담",
       "disclaimer": "면책고지"
-    }
+    },
+    "allRightsReserved": "모든 권리 보유."
   },
   "About": {
     "intro": "넘쳐나는 정보 속에서\n길을 잃은 당신에게.",
@@ -13149,7 +13155,8 @@
     "downloadButton": "이미지로 저장하기",
     "shareButton2": "공유하기",
     "generating": "생성 중...",
-    "saved": "저장 완료!"
+    "saved": "저장 완료!",
+    "close": "닫기"
   },
   "Newsletter": {
     "badge": "📬 매주 수요일 발행",
@@ -13268,5 +13275,24 @@
       "title": "4. 구글 게시자 정책 및 건전한 생태계 준수",
       "p1": "Giants Wisdom은 건전하고 안전한 디지털 미디어 생태계를 만들기 위해 Google Publisher Policies 및 DMCA 규정을 엄격히 준수합니다. 이용자 보호 및 개인정보 처리에 관한 상세 방침은 <privacyLink>개인정보처리방침</privacyLink>과 <termsLink>이용약관</termsLink>에서 확인하실 수 있습니다."
     }
+  },
+  "DnaPage": {
+    "en": "ko"
+  },
+  "ContactForm": {
+    "enterAValidEmail": "올바른 이메일을 입력하세요",
+    "thisWindowWillClose": "잠시 후 창이 닫힙니다."
+  },
+  "ChatsPage": {
+    "deleteThisConversationThis": "이 대화를 삭제하시겠습니까? 복구할 수 없습니다.",
+    "justNow": "방금 전",
+    "deleteConversation": "대화 삭제"
+  },
+  "ChatUI": {
+    "continuePreviousChat": "이전 대화 이어가기",
+    "theGiantIsQuietly": "위인이 자네의 고민을 조용히 읽어내려가며 생각을 정리하고 있네...",
+    "loadingChatHistory": "대화 기록을 불러오는 중...",
+    "giantsWisdomMayDisplay": "Giants Wisdom은 AI 챗봇으로서 실수를 할 수 있으므로, 중요한 정보는 위인의 실제 역사적 기록을 통해 한 번 더 확인하시기 바랍니다.",
+    "echoesOfThePast": "과거의 메아리 • 시간을 초월한 지혜"
   }
 }

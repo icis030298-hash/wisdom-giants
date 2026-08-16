@@ -62,6 +62,7 @@ const getKoreanParticle = (name: string, type: '이가' | '과와' | '은는' | 
 
 function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProblemId, era }: ChatInterfaceProps) {
   const t = useTranslations("Chat")
+  const tChatUI = useTranslations("ChatUI")
   const tg = useTranslations("Giants")
   const tgGrid = useTranslations("GiantsGrid")
   const tShare = useTranslations("ShareCard")
@@ -468,7 +469,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
             <div className="px-5 py-2 rd-hairline-bottom flex items-center justify-center gap-2 text-xs rd-accent font-medium shrink-0"
               style={{ background: "var(--rd-divider-faint)" }}>
               <History className="w-3 h-3" />
-              {locale === 'ko' ? '이전 대화 이어가기' : 'Continue Previous Chat'}
+              {tChatUI('continuePreviousChat')}
             </div>
           )}
 
@@ -479,22 +480,8 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                 <div className="w-6 h-6 rounded-full animate-spin" style={{ border: "2px solid var(--rd-divider-faint)", borderTopColor: "var(--rd-accent-brown)" }} />
                 <span className="text-xs max-w-xs leading-relaxed">
                   {problemId === 'custom' && !isRestoredChat
-                    ? (locale === 'ko' 
-                        ? '위인이 자네의 고민을 조용히 읽어내려가며 생각을 정리하고 있네...' 
-                        : locale === 'ja'
-                        ? '偉人があなたの悩みを静かに読み下しながら、考えをまとめています...'
-                        : locale === 'de'
-                        ? 'Der Riese liest schweigend deine Sorgen und sammelt seine Gedanken...'
-                        : locale === 'es'
-                        ? 'El gigante está leyendo en silencio tu preocupación y reuniendo sus pensamientos...'
-                        : locale === 'fr'
-                        ? 'Le géant lit silencieusement votre inquiétude et rassemble ses pensées...'
-                        : locale === 'it'
-                        ? 'Il gigante sta leggendo in silenzio la tua preocupazione e sta raccogliendo i suoi pensieri...'
-                        : locale === 'pt'
-                        ? 'O gigante está lendo silenciosamente sua preocupação e reunindo seus pensamentos...'
-                        : 'The giant is quietly reading your worry and gathering their thoughts...')
-                    : (locale === 'ko' ? '대화 기록을 불러오는 중...' : 'Loading chat history...')}
+                    ? (tChatUI('theGiantIsQuietly'))
+                    : (tChatUI('loadingChatHistory'))}
                 </span>
               </div>
             ) : messages.map((message) => (
@@ -654,20 +641,11 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
             </div>
             
             <p className="text-center rd-caption max-w-md mx-auto leading-relaxed mt-3">
-              {locale === 'ko' ? "Giants Wisdom은 AI 챗봇으로서 실수를 할 수 있으므로, 중요한 정보는 위인의 실제 역사적 기록을 통해 한 번 더 확인하시기 바랍니다."
-               : locale === 'ja' ? "Giants WisdomはAI chatbotであり、誤った情報を表示することがあります。重要な情報は実際の歴史的記録でご確認ください。"
-               : "Giants Wisdom may display inaccurate info, including about people, so double-check its responses with historical records."}
+              {tChatUI('giantsWisdomMayDisplay')}
             </p>
             
             <p className="text-center rd-caption mt-2 font-medium">
-              {locale === 'ko' ? "과거의 메아리 • 시간을 초월한 지혜"
-               : locale === 'ja' ? "過去の残響 • 時を超える知恵"
-               : locale === 'de' ? "Echos der Vergangenheit • Weisheit durch die Zeit"
-               : locale === 'es' ? "Ecos del pasado • Sabiduría a través del tempo"
-               : locale === 'fr' ? "Échos du passé • Sagesse à travers le temps"
-               : locale === 'it' ? "Echi del passato • Saggezza attraverso il tempo"
-               : locale === 'pt' ? "Ecos do passado • Sabedoria através do tempo"
-               : "Echoes of the Past • Wisdom Through Time"}
+              {tChatUI('echoesOfThePast')}
             </p>
           </div>
         </div>

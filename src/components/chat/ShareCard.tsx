@@ -387,7 +387,7 @@ export function ShareCard({
             onClick={onClose}
             className="w-full py-2.5 text-stone-500 hover:text-stone-400 text-sm font-medium transition-colors cursor-pointer"
           >
-            {locale === "ko" ? "닫기" : "Close"}
+            {t('close')}
           </button>
         </div>
       </div>

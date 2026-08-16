@@ -24,7 +24,12 @@
     "loginSuccess": "Welcome to the Hall of Great Minds.",
     "logout": "Log Out",
     "chatList": "My Conversations",
-    "signInRequired": "Sign In Required"
+    "signInRequired": "Sign In Required",
+    "areYouSureYou": "Are you sure you want to delete your account? All chat history will be permanently deleted and cannot be recovered.",
+    "deletingAccount": "Deleting account...",
+    "accountDeletedSuccessfully": "Account deleted successfully",
+    "pleaseLogInAgain": "Please log in again to delete your account for security reasons.",
+    "deleteAccount": "Delete Account"
   },
   "Test": {
     "title": "Find the Great Legacy Flowing in Your Soul",
@@ -12968,7 +12973,8 @@
       "blog": "Blog",
       "consult": "Get Advice",
       "disclaimer": "Disclaimer"
-    }
+    },
+    "allRightsReserved": "All rights reserved."
   },
   "About": {
     "intro": "To those lost in the\noverflow of endless information.",
@@ -13150,7 +13156,8 @@
     "downloadButton": "Save as image",
     "shareButton2": "Share",
     "generating": "Generating...",
-    "saved": "Saved!"
+    "saved": "Saved!",
+    "close": "Close"
   },
   "Newsletter": {
     "badge": "📬 Every Wednesday",
@@ -13269,5 +13276,24 @@
       "title": "4. Adherence to Google Publisher Policies",
       "p1": "Giants Wisdom strictly complies with Google Publisher Policies, DMCA requirements, and digital safety standards to maintain a secure and trustworthy educational environment. For complete details on user protection and data policies, please review our <privacyLink>Privacy Policy</privacyLink> and <termsLink>Terms of Service</termsLink>."
     }
+  },
+  "DnaPage": {
+    "en": "en"
+  },
+  "ContactForm": {
+    "enterAValidEmail": "Enter a valid email",
+    "thisWindowWillClose": "This window will close shortly."
+  },
+  "ChatsPage": {
+    "deleteThisConversationThis": "Delete this conversation? This cannot be undone.",
+    "justNow": "just now",
+    "deleteConversation": "Delete conversation"
+  },
+  "ChatUI": {
+    "continuePreviousChat": "Continue Previous Chat",
+    "theGiantIsQuietly": "The giant is quietly reading your worry and gathering their thoughts...",
+    "loadingChatHistory": "Loading chat history...",
+    "giantsWisdomMayDisplay": "Giants Wisdom may display inaccurate info, including about people, so double-check its responses with historical records.",
+    "echoesOfThePast": "Echoes of the Past • Wisdom Through Time"
   }
 }

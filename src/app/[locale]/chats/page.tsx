@@ -28,6 +28,7 @@ interface ChatHistory {
 
 export default function ChatsPage() {
   const t = useTranslations("Chats")
+  const tChatsPage = useTranslations("ChatsPage")
   const authT = useTranslations("Auth")
   const tg = useTranslations("Giants")
   const locale = useLocale()
@@ -151,7 +152,7 @@ export default function ChatsPage() {
   };
 
   const handleDelete = async (chatId: string) => {
-    if (!confirm(locale === 'ko' ? "이 대화를 삭제하시겠습니까? 복구할 수 없습니다." : "Delete this conversation? This cannot be undone.")) return
+    if (!confirm(tChatsPage('deleteThisConversationThis'))) return
     setChats(prev => prev.filter(c => c.id !== chatId))
     try {
       await deleteDoc(doc(db, "chats", chatId))
@@ -260,7 +261,7 @@ export default function ChatsPage() {
                         <Clock className="w-3 h-3" />
                         {chat.updatedAt
                           ? formatDistanceToNow(chat.updatedAt.toDate(), { addSuffix: true, locale: dateLocale })
-                          : (locale === "ko" ? "방금 전" : "just now")}
+                          : (tChatsPage('justNow'))}
                       </div>
                     </div>
                     <p className="text-sm rd-text-body line-clamp-1">
@@ -280,7 +281,7 @@ export default function ChatsPage() {
                   onClick={() => handleDelete(chat.id)}
                   className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-lg opacity-0 group-hover/row:opacity-100 focus:opacity-100 hover:opacity-80 transition-opacity z-10"
                   style={{ color: "var(--rd-error)" }}
-                  aria-label={locale === 'ko' ? '대화 삭제' : 'Delete conversation'}
+                  aria-label={tChatsPage('deleteConversation')}
                 >
                   <Trash2 className="w-4 h-4" />
                 </button>

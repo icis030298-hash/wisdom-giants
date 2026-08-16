@@ -169,18 +169,7 @@ export default function Footer() {
           <div className="pt-8 flex flex-col items-center justify-center gap-4 mt-12 text-center" style={{ borderTop: "1px solid var(--rd-divider-faint)" }}>
             <p style={{ color: "var(--rd-text-muted)", fontSize: "var(--rd-caption-size)", letterSpacing: "var(--rd-caption-tracking)" }}>
               &copy; 2026 Giants Wisdom. {
-                locale === 'ko' ? '모든 권리 보유.' :
-                locale === 'ja' ? '無断複写・転載を禁じます。' :
-                locale === 'de' ? 'Alle Rechte vorbehalten.' :
-                locale === 'es' ? 'Todos los derechos reservados.' :
-                locale === 'fr' ? 'Tous droits réservés.' :
-                locale === 'it' ? 'Tutti i diritti riservati.' :
-                locale === 'pt' ? 'Todos os direitos reservados.' :
-                locale === 'ar' ? 'كل الحقوق محفوظة.' :
-                locale === 'hi' ? 'सर्वाधिकार सुरक्षित।' :
-                locale === 'ru' ? 'Все права защищены.' :
-                locale === 'zh' ? '版权所有。' :
-                'All rights reserved.'
+                t('allRightsReserved')
               }
             </p>
           </div>

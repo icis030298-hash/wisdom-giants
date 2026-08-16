@@ -11,8 +11,9 @@ import { giants } from "@/lib/giants-data"
 
 export default function HeritageTestPage() {
   const t = useTranslations("Test")
+  const tDnaPage = useTranslations("DnaPage")
   const locale = useLocale()
-  const activeLocale = (locale === 'ko' ? 'ko' : 'en') as 'ko' | 'en';
+  const activeLocale = (tDnaPage('en')) as 'ko' | 'en';
   const router = useRouter()
   
   const [step, setStep] = useState<'intro' | 'questions' | 'analyzing' | 'adBreak'>('intro')

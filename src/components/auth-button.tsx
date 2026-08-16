@@ -47,13 +47,13 @@ export function AuthButton() {
   
   const handleDeleteAccount = async () => {
     if (!auth || !user || !db) return
-    const isKo = locale === 'ko'
-    if (!confirm(isKo ? '정말 계정을 삭제하시겠습니까? 모든 대화 기록이 영구적으로 삭제되며 복구할 수 없습니다.' : 'Are you sure you want to delete your account? All chat history will be permanently deleted and cannot be recovered.')) {
+
+    if (!confirm(t('areYouSureYou'))) {
       return
     }
 
     try {
-      toast.loading(isKo ? '계정 삭제 중...' : 'Deleting account...')
+      toast.loading(t('deletingAccount'))
       // 1. Delete all user chats and their messages subcollections
       const chatsRef = collection(db, 'chats')
       const q = query(chatsRef, where('userId', '==', user.uid))
@@ -75,12 +75,12 @@ export function AuthButton() {
       // 2. Delete user auth
       await deleteUser(user)
       toast.dismiss()
-      toast.success(isKo ? '계정이 성공적으로 삭제되었습니다.' : 'Account deleted successfully')
+      toast.success(t('accountDeletedSuccessfully'))
       router.push('/')
     } catch (error: any) {
       toast.dismiss()
       if (error.code === 'auth/requires-recent-login') {
-        toast.error(isKo ? '보안을 위해 다시 로그인한 후 탈퇴해주세요.' : 'Please log in again to delete your account for security reasons.')
+        toast.error(t('pleaseLogInAgain'))
         await signOut(auth)
       } else {
         toast.error(error.message)
@@ -154,7 +154,7 @@ export function AuthButton() {
             className="cursor-pointer flex items-center gap-3 p-3 rounded-lg text-red-500 focus:text-red-400 focus:bg-red-500/10 transition-colors group"
           >
             <AlertTriangle className="w-4 h-4 text-red-500/70 group-hover:text-red-400" />
-            <span>{locale === 'ko' ? '회원 탈퇴' : 'Delete Account'}</span>
+            <span>{t('deleteAccount')}</span>
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>

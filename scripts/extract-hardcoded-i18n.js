@@ -41,6 +41,29 @@ if (!file || !namespace) {
 
 const src = fs.readFileSync(file, 'utf8')
 
+// Two shapes this cannot safely rewrite. Both are refusals rather than
+// best-effort attempts: a file that is half converted looks converted.
+const blockers = []
+if (!/^["']use client["']/m.test(src)) {
+  // useTranslations is a hook. A server component needs getTranslations and an
+  // await, which is a different edit than the one below.
+  blockers.push('서버 컴포넌트 (useTranslations 불가 — getTranslations 필요)')
+}
+// A file that already declares `t` is already using next-intl. That is not a
+// reason to refuse — the new keys just need a hook variable that does not
+// shadow the existing one. If the existing hook is already on this namespace,
+// reuse it rather than declaring a second one for the same thing.
+const existing = src.match(
+  new RegExp(`const\\s+([A-Za-z_$][\\w$]*)\\s*=\\s*useTranslations\\(\\s*['"]${namespace}['"]\\s*\\)`)
+)
+const HOOK = existing ? existing[1] : /\bconst\s+t\s*=/.test(src) ? 't' + namespace : 't'
+
+if (blockers.length) {
+  console.log(`${file}`)
+  for (const b of blockers) console.log(`  건너뜀: ${b}`)
+  process.exit(0)
+}
+
 /** Read a quoted or backticked literal starting at i. Returns null if not one. */
 function readLiteral(s, i) {
   const q = s[i]
@@ -127,6 +150,11 @@ while ((m = COND.exec(src))) {
     skipped.push({ at: src.slice(0, condStart).split('\n').length, why: '리터럴이 아닌 분기', snippet })
     continue
   }
+  // Resume scanning past the whole chain. Without this the regex picks up the
+  // second and third conditions of the same chain as if they were new ones,
+  // and the resulting edit ranges overlap — which is what tore the JSX apart
+  // in footer.tsx: one twelve-arm chain came back as eleven "branches".
+  COND.lastIndex = i
   found.push({ start: condStart, end: i, chain, snippet })
 }
 
@@ -169,7 +197,7 @@ for (const f of found) {
   messages.en[key] = en
   messages.ko[key] = byLocale.ko ?? en
   const args = params.length ? `, { ${params.map((p) => `${p.name}: ${p.expr}`).join(', ')} }` : ''
-  edits.push({ ...f, key, replacement: `t('${key}'${args})` })
+  edits.push({ ...f, key, replacement: `${HOOK}('${key}'${args})` })
 }
 
 console.log(`${file}`)
@@ -203,13 +231,19 @@ for (const e of [...edits].sort((a, b) => b.start - a.start)) {
 // Drop the now-unused isKo/isEn declarations.
 out = out.replace(/^\s*const\s+is(?:Ko|En)\s*=\s*locale\s*===\s*['"][a-z]{2}['"]\s*;?\s*$/gm, '')
 
-// Add the useTranslations hook if it is not already there.
-if (!/useTranslations\(\s*["']${namespace}["']\s*\)/.test(out)) {
-  if (!/from ["']next-intl["']/.test(out)) {
-    out = out.replace(/(^"use client"\s*\n)/, `$1\nimport { useTranslations } from "next-intl"\n`)
-  }
-  out = out.replace(/(\n)(\s*)(return \()/, `$1$2const t = useTranslations("${namespace}")\n\n$2$3`)
-}
+// The hook declaration is NOT inserted automatically.
+//
+// Two attempts at it went wrong the same way. "Put it before the first
+// `return (`" lands inside a nested helper in chat-interface, after the first
+// use in dna/page, and nowhere at all in chats/page — the declaration ends up
+// out of scope or below the code that needs it, and tsc reports a name that
+// does not exist. Finding the component body properly needs an AST, not a
+// regex, and a wrong guess here produces a file that looks converted and does
+// not compile.
+//
+// Extraction is the part worth automating; adding one line per file is not.
+const needsHook = !new RegExp(`const\\s+${HOOK}\\s*=`).test(out)
+const needsImport = !/from ["']next-intl["']/.test(out)
 
 fs.writeFileSync(file, out, 'utf8')
 
@@ -221,3 +255,8 @@ for (const loc of ['ko', 'en']) {
   fs.writeFileSync(p, JSON.stringify(json, null, 2) + '\n', 'utf8')
 }
 console.log(`\n  적용 완료. messages/ko.json · en.json 의 ${namespace} 네임스페이스에 ${edits.length}개 키.`)
+if (needsHook || needsImport) {
+  console.log('\n  ⚠ 아래 두 줄을 손으로 넣으세요 (컴포넌트 본문 최상단):')
+  if (needsImport) console.log(`      import { useTranslations } from "next-intl"`)
+  if (needsHook) console.log(`      const ${HOOK} = useTranslations("${namespace}")`)
+}

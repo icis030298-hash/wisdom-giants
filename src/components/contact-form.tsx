@@ -11,6 +11,7 @@ interface ContactFormProps {
 
 export function ContactForm({ isOpen, onClose }: ContactFormProps) {
   const t = useTranslations('Contact')
+  const tContactForm = useTranslations("ContactForm")
   const locale = useLocale()
 
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
@@ -63,7 +64,7 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
     if (!form.name.trim()) newErrors.name = t('name') + ' required'
     if (!form.email.trim()) newErrors.email = t('email') + ' required'
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email))
-      newErrors.email = locale === 'ko' ? '올바른 이메일을 입력하세요' : locale === 'de' ? 'Gültige E-Mail eingeben' : 'Enter a valid email'
+      newErrors.email = tContactForm('enterAValidEmail')
     if (!form.message.trim()) newErrors.message = t('message') + ' required'
     setErrors(newErrors)
     return Object.keys(newErrors).length === 0
@@ -135,7 +136,7 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
             </div>
             <p className="text-lg font-semibold rd-text-ink">{t('success')}</p>
             <p className="text-sm rd-text-body">
-              {locale === 'ko' ? '잠시 후 창이 닫힙니다.' : locale === 'de' ? 'Das Fenster wird gleich geschlossen.' : 'This window will close shortly.'}
+              {tContactForm('thisWindowWillClose')}
             </p>
           </div>
         ) : (
