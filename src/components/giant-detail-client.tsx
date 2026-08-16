@@ -6,6 +6,7 @@ import { m, AnimatePresence } from "framer-motion"
 import { ChatInterface } from "@/components/chat-interface"
 import { useTranslations, useLocale } from "next-intl"
 import { useRouter, usePathname, Link } from "@/i18n/routing"
+import { useGiantHistory } from "@/hooks/useGiantHistory"
 import { 
   MessageCircle,
   Sparkles,
@@ -123,6 +124,41 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
   useEffect(() => {
     setQueryParams(new URLSearchParams(window.location.search))
   }, [pathname])
+
+  // The exploration gauge counts giants whose story you have read. "Read" is
+  // the narrative section reaching the viewport, not merely landing on the
+  // page: a mis-tap that bounces straight back should not count, and the
+  // narrative sits below the portrait so it takes a deliberate scroll.
+  const { markGiantRead } = useGiantHistory()
+  const narrativeRef = useRef<HTMLElement | null>(null)
+
+  useEffect(() => {
+    const node = narrativeRef.current
+    if (!node) return
+
+    // Older Safari and any non-JS/bot client simply never records. That is the
+    // right failure direction -- the gauge is a personal keepsake, so missing a
+    // giant is better than crediting one that was never read.
+    if (typeof IntersectionObserver === 'undefined') return
+
+    const observer = new IntersectionObserver(
+      entries => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            markGiantRead(giant.slug)
+            observer.disconnect()
+            break
+          }
+        }
+      },
+      // A quarter of the section on screen. Enough that the prose is genuinely
+      // in view, low enough that a short narrative on a tall phone still trips.
+      { threshold: 0.25 }
+    )
+
+    observer.observe(node)
+    return () => observer.disconnect()
+  }, [giant.slug, markGiantRead])
 
   const chatParam = queryParams.get('chat')
   const chatId = queryParams.get('chatId')
@@ -540,7 +576,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             const paragraphs = parseParagraphs(epicContent).filter(Boolean);
 
             return (
-              <section className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
+              <section ref={narrativeRef} className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
                 <div className="flex items-center gap-4 rd-accent">
                   <div className="w-10 h-10 rounded-xl rd-bg-accent flex items-center justify-center border rd-hairline">
                     <Sparkles className="w-5 h-5" />

@@ -5,6 +5,7 @@ import { giants } from "@/lib/giants-data";
 import { GiantDetailClient } from "@/components/giant-detail-client";
 import { Navigation } from "@/components/navigation";
 import { Metadata } from 'next';
+import Image from 'next/image';
 import fs from 'fs';
 import path from 'path';
 import { buildHreflang } from '@/lib/locales';
@@ -457,11 +458,22 @@ export default async function GiantDetailPage({ params }: Props) {
           </nav>
 
           <div className="flex items-start gap-5">
-            <img
-              src={giant.imageUrl.startsWith('http') ? giant.imageUrl : `${BASE_URL}${giant.imageUrl}`}
+            <Image
+              /* Relative, not `${BASE_URL}${...}`. The absolute form pointed the
+                 hero at the production domain, which meant a preview deploy drew
+                 its portraits from production -- the one element on this page a
+                 preview could not actually verify. Every imageUrl in giants.ts
+                 is a local path, so there is nothing to make absolute. */
+              src={giant.imageUrl}
               alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
               width={112}
               height={112}
+              /* The <img> this replaced was eager, because that is what a plain
+                 <img> is. next/image defaults to lazy, so the swap quietly moved
+                 the one portrait on the page -- 115px down a 756px viewport,
+                 above the fold on every device -- behind a layout pass. priority
+                 restores eager and adds the preload the old markup never had. */
+              priority
               /* Square, and round. The plates are drawn as discs with 8-10%
                  margin all round, so a 4:5 frame left the corners showing the
                  plate's own background — and that background is not one colour

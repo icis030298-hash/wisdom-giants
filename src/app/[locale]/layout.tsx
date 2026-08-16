@@ -112,6 +112,20 @@ export default async function RootLayout({
   return (
     <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${notoSansDevanagari.variable} motion-safe:scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
+        {/* Pretendard arrived through an @import at the top of globals.css,
+            which made the browser fetch globals.css, parse it, fetch the CDN
+            stylesheet, parse that, and only then fetch the subset -- three
+            serial round trips before the first glyph could be drawn in the
+            right face. As a link here the stylesheet request starts alongside
+            globals.css rather than after it, and the preconnect opens the CDN
+            connection while that is in flight. Self-hosting would remove the
+            third party altogether; that is a separate change. */}
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css"
+        />
+
         {/* Google Consent Mode v2 — gtag.js보다 먼저 동기 실행되어야 함 */}
         <script
           dangerouslySetInnerHTML={{

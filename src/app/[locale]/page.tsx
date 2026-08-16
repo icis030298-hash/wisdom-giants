@@ -5,7 +5,7 @@ import { HeroSection } from "@/components/hero-section"
 import { GiantsGrid } from "@/components/giants-grid"
 import { ProjectPhilosophy } from "@/components/project-philosophy"
 import { giants } from "@/lib/giants-data"
-import { ArrowRight, Clock } from "lucide-react"
+import { ArrowRight, Clock, MessageCircleHeart, Dna, Swords } from "lucide-react"
 import { Link } from "@/i18n/routing"
 import { getTranslations } from "next-intl/server"
 import { blogPosts } from "@/data/blog-posts"
@@ -143,24 +143,31 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* Primary CTAs — one compact row. Routes and links unchanged. */}
       <div className="max-w-7xl mx-auto px-4 md:px-6 pt-5">
         <div className="grid grid-cols-1 sm:grid-cols-3" style={{ gap: "var(--rd-grid-gutter)" }}>
+          {/* The three cards ran off one array with no per-card fields, so they
+              rendered as identical surfaces and read as one repeated card. Each
+              now carries the icon the nav already uses for that route, and the
+              inline-start rule the wisdom quotes use, which is why the mark is
+              a border-inline-start and not a border-left: in Arabic and Hebrew
+              it has to sit on the other side. No new copy, so no translations. */}
           {[
-            { href: "/consult", title: tc("title"), desc: tc("desc"), cta: tc("button") },
-            { href: "/dna", title: t("banner.title"), desc: t("banner.desc"), cta: t("banner.button") },
-            { href: "/debate", title: `${td("titlePre")} ${td("titlePost")}`, desc: td("desc"), cta: td("button") },
+            { href: "/consult", title: tc("title"), desc: tc("desc"), cta: tc("button"), Icon: MessageCircleHeart },
+            { href: "/dna", title: t("banner.title"), desc: t("banner.desc"), cta: t("banner.button"), Icon: Dna },
+            { href: "/debate", title: `${td("titlePre")} ${td("titlePost")}`, desc: td("desc"), cta: td("button"), Icon: Swords },
           ].map((card) => (
             <Link
               key={card.href}
               href={card.href as any}
-              className="group flex flex-col p-4 transition-colors active:scale-[0.99]"
+              className="group flex flex-col p-4 ps-5 transition-colors active:scale-[0.99]"
               style={{
                 background: "var(--rd-surface)",
                 border: "1px solid var(--rd-border)",
+                borderInlineStart: "2px solid var(--rd-accent-brown)",
                 borderRadius: "var(--rd-card-radius)",
                 transitionDuration: "120ms",
               }}
             >
               <h2
-                className="font-serif whitespace-pre-line"
+                className="font-serif whitespace-pre-line flex items-start gap-2"
                 style={{
                   color: "var(--rd-text-ink)",
                   fontSize: "var(--rd-card-name-size)",
@@ -169,7 +176,12 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                   lineHeight: "var(--rd-card-name-leading)",
                 }}
               >
-                {card.title}
+                <card.Icon
+                  className="w-4 h-4 shrink-0 mt-1"
+                  style={{ color: "var(--rd-accent-brown)" }}
+                  aria-hidden="true"
+                />
+                <span>{card.title}</span>
               </h2>
               <p
                 className="mt-1 line-clamp-2 break-keep whitespace-pre-line"

@@ -88,15 +88,20 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
   const [isRestoredChat, setIsRestoredChat] = useState(false)
   const [shareData, setShareData] = useState<{ userMessage: string; giantResponse: string } | null>(null)
   
-  const { addGiant } = useGiantHistory()
+  const { markGiantRead } = useGiantHistory()
 
-  // Record meeting this giant if the user has typed at least one message
+  // Record meeting this giant if the user has typed at least one message.
+  //
+  // Reading the story is the main way the gauge moves now (see the observer in
+  // giant-detail-client), but this stays: /consult lets you talk to a giant
+  // without ever opening their detail page, and dropping it would quietly stop
+  // counting those.
   useEffect(() => {
     const hasUserSpoken = messages.some(m => m.role === "user");
     if (hasUserSpoken) {
-      addGiant(giant.slug);
+      markGiantRead(giant.slug);
     }
-  }, [messages, giant.slug, addGiant]);
+  }, [messages, giant.slug, markGiantRead]);
 
   const getPrecedingUserMessage = (msgId: string) => {
     const currentIndex = messages.findIndex(m => m.id === msgId);

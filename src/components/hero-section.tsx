@@ -10,7 +10,7 @@ export function HeroSection() {
   const t = useTranslations("Hero")
   const tBrand = useTranslations("brand")
   const locale = useLocale()
-  const { totalChatted } = useGiantHistory()
+  const { totalRead } = useGiantHistory()
 
   // Every figure is derived, never typed. The header used to claim 24 test
   // questions while the card below it and /dna both said 15 — a number written
@@ -84,7 +84,7 @@ export function HeroSection() {
           </dl>
         </div>
 
-        {totalChatted > 0 && (
+        {totalRead > 0 && (
           <p
             className="mt-3"
             style={{
@@ -93,8 +93,8 @@ export function HeroSection() {
               letterSpacing: "var(--rd-caption-tracking)",
             }}
           >
-            <span style={{ color: "var(--rd-accent-brown)", fontWeight: 600 }}>{totalChatted}</span>{" "}
-            {t("chatProgress", { total: giants.length })}
+            <span style={{ color: "var(--rd-accent-brown)", fontWeight: 600 }}>{totalRead}</span>{" "}
+            {t("exploreProgress", { total: giants.length })}
           </p>
         )}
       </div>

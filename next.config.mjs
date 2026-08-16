@@ -4,12 +4,21 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Per-route, not global. blog-posts.json is read with fs at module load, so
+  // every route that imports @/data/blog-posts has to name it here. A route
+  // left out still builds and still works locally -- it serves empty data in
+  // production only, which is why all five importers are listed explicitly.
   outputFileTracingIncludes: {
     '/[locale]/giant/[slug]': [
       './src/data/narratives/**/*',
       './src/data/fact-layers/**/*',
-      './src/data/wikipedia-links.json'
+      './src/data/wikipedia-links.json',
+      './src/data/blog-posts.json'
     ],
+    '/[locale]/blog': ['./src/data/blog-posts.json'],
+    '/[locale]/blog/[slug]': ['./src/data/blog-posts.json'],
+    '/[locale]': ['./src/data/blog-posts.json'],
+    '/sitemap/[id]': ['./src/data/blog-posts.json'],
   },
   experimental: {
     // Generate the static pages in one worker instead of one per core.

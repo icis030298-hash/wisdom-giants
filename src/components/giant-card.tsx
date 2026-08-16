@@ -15,8 +15,8 @@ interface GiantCardProps {
 export function GiantCard({ giant, dbData }: GiantCardProps) {
   const t = useTranslations("Giants")
   const gt = useTranslations("GiantsGrid")
-  const { hasChattedWith } = useGiantHistory()
-  const chatted = hasChattedWith(giant.slug)
+  const { hasRead } = useGiantHistory()
+  const explored = hasRead(giant.slug)
 
   // Helper to get translated text with fallback to raw data
   const getTranslation = (key: string, fallback: string) => {
@@ -56,7 +56,7 @@ export function GiantCard({ giant, dbData }: GiantCardProps) {
         transitionDuration: "120ms",
       }}
     >
-      {chatted && (
+      {explored && (
         <span
           className="absolute top-2 end-2 w-4 h-4 rounded-full flex items-center justify-center"
           style={{ background: "var(--rd-accent-brown)", color: "var(--rd-surface)", fontSize: 10 }}
