@@ -96,7 +96,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const messages = await getMessages({ locale });
   const tBrand = await getTranslations({ locale, namespace: 'brand' });
-  const brandName = tBrand('mainTitle') || 'Giants Wisdom';
+  // The localized phrase still earns its place as a keyword; it just no longer
+  // rides along in the <title>, which follows the root template in putting the
+  // brand — and only the brand — after the page's own name.
+  const brandKeyword = tBrand('mainTitle') || 'Giants Wisdom';
+  const brandName = 'Giants Wisdom';
 
   const giantData = (messages.Giants as any)[giant.slug] || {
     name: giant.name,
@@ -245,7 +249,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       giant.era,
       giant.field,
       locale === 'ko' ? "역사 위인" : locale === 'de' ? "Historische Persönlichkeit" : locale === 'ja' ? "歴史上の偉人" : locale === 'it' ? "Figura Storica" : locale === 'pt' ? "Figura Histórica" : "Historical Figure",
-      brandName
+      brandKeyword
     ],
     robots: { index: shouldIndex, follow: true },
     alternates: buildSEOAlternates(`/giant/${slug}`, locale),

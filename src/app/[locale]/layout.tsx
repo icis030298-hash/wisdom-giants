@@ -36,9 +36,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     metadataBase: new URL('https://www.giantswisdom.com'),
     alternates: buildSEOAlternates('/', locale),
+    // Sub-page titles carry the brand, not the localized phrase: they read
+    // better short, and the localized keyword is already covered by keywords
+    // below and by the home <title>.
     title: {
       default: t('metaTitle'),
-      template: `%s | ${t('mainTitle')}`
+      template: '%s | Giants Wisdom'
     },
     description: t('metaDescription', { count: giantsData.length }),
     keywords,
@@ -47,14 +50,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: t('metaTitle'),
       description: t('metaDescription', { count: giantsData.length }),
-      siteName: t('mainTitle'),
+      // siteName is the site attribution a social card prints above the
+      // thumbnail, not a page title. Localizing it would make one site look
+      // like 24 different ones to Kakao, Facebook and LinkedIn.
+      siteName: 'Giants Wisdom',
       type: 'website',
       locale: locale,
       images: [{
         url: 'https://www.giantswisdom.com/og-default.jpg',
         width: 1200,
         height: 630,
-        alt: `${t('mainTitle')} - AI Historical Mentors & Wisdom Archive`
+        alt: `Giants Wisdom — ${t('mainTitle')}`
       }]
     },
     twitter: {
