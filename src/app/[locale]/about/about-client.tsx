@@ -9,37 +9,48 @@ export function AboutPageClient({ locale: propLocale }: { locale?: string }) {
   const t = aboutTranslations[currentLocale] || aboutTranslations['en'] || aboutTranslations['ko']
 
   return (
-    <div className="min-h-screen bg-[#0B0F1A] text-foreground">
+    <div className="min-h-screen">
       <Navigation />
-      <div className="pt-32 pb-20 px-4">
-      <div className="max-w-3xl mx-auto space-y-12">
+
+      <div className="rd-reading px-4 md:px-6 py-12 md:py-16">
+        <h1
+          className="pb-6 mb-10 rd-hairline-bottom break-keep"
+          style={{
+            color: "var(--rd-text-ink)",
+            fontSize: "var(--rd-display-size)",
+            fontWeight: "var(--rd-display-weight)",
+            letterSpacing: "var(--rd-display-tracking)",
+            lineHeight: "var(--rd-display-leading)",
+          }}
+        >
+          {t.title}
+        </h1>
+
         <div className="space-y-6">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-amber-400 mb-8">
-            {t.title}
-          </h1>
-          <div className="prose prose-invert prose-amber max-w-none font-light leading-relaxed space-y-6">
-            <p>{t.p1}</p>
-            <p>{t.p2}</p>
-            
-            <h2 className="text-xl font-bold text-amber-300 pt-4 mb-2">{t.h1}</h2>
-            <blockquote className="border-l-2 border-amber-500/50 pl-4 py-2 italic text-amber-200/90 my-4 bg-amber-500/[0.03] rounded-r-lg">
-              {t.quote}
-            </blockquote>
-            
-            <p>{t.p3}</p>
-            
-            <h2 className="text-xl font-bold text-amber-300 pt-4 mb-2">{t.h2}</h2>
-            <p>{t.p4}</p>
-            
-            <h2 className="text-xl font-bold text-amber-300 pt-4 mb-2">{t.h3}</h2>
-            <p>{t.p5}</p>
-            
-            <p className="pt-4">{t.p6}</p>
-            
-            <p className="text-right font-serif text-amber-500 mt-10 text-lg">{t.signature}</p>
-          </div>
+          <p className="rd-body-lg">{t.p1}</p>
+          <p className="rd-body-lg">{t.p2}</p>
+
+          <h2 className="rd-doc-h2 pt-6">{t.h1}</h2>
+          <blockquote className="rd-quote rd-body-lg">
+            {t.quote}
+          </blockquote>
+
+          <p className="rd-body-lg">{t.p3}</p>
+
+          <h2 className="rd-doc-h2 pt-6">{t.h2}</h2>
+          <p className="rd-body-lg">{t.p4}</p>
+
+          <h2 className="rd-doc-h2 pt-6">{t.h3}</h2>
+          <p className="rd-body-lg">{t.p5}</p>
+
+          <p className="rd-body-lg pt-2">{t.p6}</p>
+
+          {/* text-end rather than text-right so the signature stays on the
+              trailing edge in Arabic and Hebrew too. */}
+          <p className="rd-text-muted text-end pt-8" style={{ fontSize: "var(--rd-card-intro-size)" }}>
+            {t.signature}
+          </p>
         </div>
-      </div>
       </div>
     </div>
   )

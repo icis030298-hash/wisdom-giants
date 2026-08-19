@@ -11,6 +11,7 @@ interface ContactFormProps {
 
 export function ContactForm({ isOpen, onClose }: ContactFormProps) {
   const t = useTranslations('Contact')
+  const tContactForm = useTranslations("ContactForm")
   const locale = useLocale()
 
   const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' })
@@ -63,7 +64,7 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
     if (!form.name.trim()) newErrors.name = t('name') + ' required'
     if (!form.email.trim()) newErrors.email = t('email') + ' required'
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email))
-      newErrors.email = locale === 'ko' ? '올바른 이메일을 입력하세요' : locale === 'de' ? 'Gültige E-Mail eingeben' : 'Enter a valid email'
+      newErrors.email = tContactForm('enterAValidEmail')
     if (!form.message.trim()) newErrors.message = t('message') + ' required'
     setErrors(newErrors)
     return Object.keys(newErrors).length === 0
@@ -91,30 +92,36 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
     if (e.target === overlayRef.current) onClose()
   }
 
+  // The focus ring is the accent brown rather than amber, and it stays a
+  // ring rather than only a border colour: on cream the two border states are
+  // close enough in lightness that colour alone would not carry the error.
   const inputClass = (field: string) =>
-    `w-full px-4 py-3 rounded-xl bg-white/5 border text-sm text-foreground placeholder:text-muted-foreground/50 outline-none transition-all focus:ring-2 focus:ring-amber-500/40 ${
-      errors[field] ? 'border-red-500/60' : 'border-white/10 focus:border-amber-500/40'
+    `w-full px-4 py-3 border text-sm rd-bg-surface rd-text-ink outline-none transition-all ${
+      errors[field] ? 'rd-input-error' : 'rd-input'
     }`
 
   return (
     <div
       ref={overlayRef}
       onClick={handleOverlayClick}
-      className="fixed inset-0 z-[200] flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-[200] flex items-center justify-center p-4 animate-fade-in rd-scrim"
       role="dialog"
       aria-modal="true"
       aria-label={t('title')}
     >
-      <div className="relative w-full max-w-lg glass-card rounded-2xl shadow-2xl shadow-black/50 border border-white/10 overflow-hidden animate-fade-in-up">
+      <div
+        className="relative w-full max-w-lg rd-surface overflow-hidden animate-fade-in-up shadow-[0_16px_40px_rgba(60,42,28,0.18)]"
+        style={{ borderRadius: "var(--rd-card-radius)" }}
+      >
         {/* Header */}
-        <div className="flex items-center justify-between px-6 py-5 border-b border-white/10 bg-gradient-to-r from-amber-500/10 to-transparent">
+        <div className="flex items-center justify-between px-6 py-5 rd-hairline-bottom">
           <div>
-            <h2 className="font-serif text-lg font-bold text-foreground">{t('title')}</h2>
-            <p className="text-xs text-muted-foreground mt-0.5">contact@giantswisdom.com</p>
+            <h2 className="font-serif text-lg font-bold rd-text-ink">{t('title')}</h2>
+            <p className="rd-caption mt-0.5">contact@giantswisdom.com</p>
           </div>
           <button
             onClick={onClose}
-            className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-white/10 transition-all"
+            className="p-2 rounded-lg rd-text-muted hover:opacity-70 transition-opacity"
             aria-label="Close"
           >
             <X className="w-5 h-5" />
@@ -124,12 +131,12 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
         {/* Success state */}
         {status === 'success' ? (
           <div className="flex flex-col items-center justify-center py-16 px-6 text-center gap-4">
-            <div className="w-16 h-16 rounded-full bg-green-500/20 flex items-center justify-center">
-              <CheckCircle className="w-8 h-8 text-green-400" />
+            <div className="w-16 h-16 rounded-full flex items-center justify-center" style={{ background: "var(--rd-divider-faint)" }}>
+              <CheckCircle className="w-8 h-8" style={{ color: "#2f6b46" }} />
             </div>
-            <p className="text-lg font-semibold text-foreground">{t('success')}</p>
-            <p className="text-sm text-muted-foreground">
-              {locale === 'ko' ? '잠시 후 창이 닫힙니다.' : locale === 'de' ? 'Das Fenster wird gleich geschlossen.' : 'This window will close shortly.'}
+            <p className="text-lg font-semibold rd-text-ink">{t('success')}</p>
+            <p className="text-sm rd-text-body">
+              {tContactForm('thisWindowWillClose')}
             </p>
           </div>
         ) : (
@@ -137,7 +144,7 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
             {/* Name + Email row */}
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-medium text-muted-foreground mb-1.5 uppercase tracking-wider">{t('name')} *</label>
+                <label className="block text-xs font-medium rd-text-body mb-1.5">{t('name')} *</label>
                 <input
                   ref={firstInputRef}
                   type="text"
@@ -147,10 +154,10 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
                   className={inputClass('name')}
                   disabled={status === 'sending'}
                 />
-                {errors.name && <p className="text-xs text-red-400 mt-1">{errors.name}</p>}
+                {errors.name && <p className="text-xs mt-1" style={{ color: "var(--rd-error)" }}>{errors.name}</p>}
               </div>
               <div>
-                <label className="block text-xs font-medium text-muted-foreground mb-1.5 uppercase tracking-wider">{t('email')} *</label>
+                <label className="block text-xs font-medium rd-text-body mb-1.5">{t('email')} *</label>
                 <input
                   type="email"
                   value={form.email}
@@ -159,13 +166,13 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
                   className={inputClass('email')}
                   disabled={status === 'sending'}
                 />
-                {errors.email && <p className="text-xs text-red-400 mt-1">{errors.email}</p>}
+                {errors.email && <p className="text-xs mt-1" style={{ color: "var(--rd-error)" }}>{errors.email}</p>}
               </div>
             </div>
 
             {/* Subject */}
             <div>
-              <label className="block text-xs font-medium text-muted-foreground mb-1.5 uppercase tracking-wider">{t('subject')}</label>
+              <label className="block text-xs font-medium rd-text-body mb-1.5">{t('subject')}</label>
               <input
                 type="text"
                 value={form.subject}
@@ -178,7 +185,7 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
 
             {/* Message */}
             <div>
-              <label className="block text-xs font-medium text-muted-foreground mb-1.5 uppercase tracking-wider">{t('message')} *</label>
+              <label className="block text-xs font-medium rd-text-body mb-1.5">{t('message')} *</label>
               <textarea
                 value={form.message}
                 onChange={e => setForm(f => ({ ...f, message: e.target.value }))}
@@ -187,12 +194,12 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
                 className={`${inputClass('message')} resize-none`}
                 disabled={status === 'sending'}
               />
-              {errors.message && <p className="text-xs text-red-400 mt-1">{errors.message}</p>}
+              {errors.message && <p className="text-xs mt-1" style={{ color: "var(--rd-error)" }}>{errors.message}</p>}
             </div>
 
             {/* Error banner */}
             {status === 'error' && (
-              <div className="flex items-center gap-2 px-4 py-3 rounded-xl bg-red-500/10 border border-red-500/30 text-sm text-red-400">
+              <div className="flex items-center gap-2 px-4 py-3 text-sm" style={{ background: "var(--rd-error-bg)", border: "1px solid var(--rd-error)", borderRadius: "var(--rd-card-radius)", color: "var(--rd-error)" }}>
                 <AlertCircle className="w-4 h-4 shrink-0" />
                 {t('error')}
               </div>
@@ -202,7 +209,8 @@ export function ContactForm({ isOpen, onClose }: ContactFormProps) {
             <button
               type="submit"
               disabled={status === 'sending'}
-              className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-black font-semibold text-sm transition-all disabled:opacity-60 disabled:cursor-not-allowed shadow-lg shadow-amber-500/20"
+              className="w-full flex items-center justify-center gap-2 py-3.5 rd-bg-accent border font-semibold text-sm hover:opacity-90 transition-opacity disabled:opacity-60 disabled:cursor-not-allowed"
+              style={{ borderRadius: "var(--rd-card-radius)", borderColor: "var(--rd-accent-brown)", transitionDuration: "120ms" }}
             >
               {status === 'sending' ? (
                 <>

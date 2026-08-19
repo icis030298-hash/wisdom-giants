@@ -4,6 +4,10 @@ import { getVertexAIInstance } from './vertexai';
 import { deepPersonas } from '@/data/personas/personas';
 import { giantPersonas } from '@/data/giant-personas';
 import { giantsData } from '@/data/giants';
+import { respondInLanguage } from './response-language';
+import { checkRateLimit, clientIdFrom, noteProviderRejection, providerRetryAfter, isProviderRateLimit } from './rate-limit';
+import { apiError } from './api-errors';
+import { headers } from 'next/headers';
 
 import generatedPersonas from '@/data/personas/generated-personas.json';
 import fs from 'fs';
@@ -14,6 +18,13 @@ import path from 'path';
  */
 export async function getGiantResponse(giantSlug: string, persona: string, message: string, giantName: string, history: any[] = [], locale: string = 'ko', problemId?: string, customText?: string) {
 
+  // This server action, not /api/chat, is what the chat UI actually calls, so
+  // the limit has to live here. Returning the message as normal text keeps the
+  // caller unchanged — it renders whatever string comes back.
+  const verdict = checkRateLimit(clientIdFrom(await headers()))
+  if (!verdict.ok) {
+    return apiError(verdict.scope === 'global' ? 'busy' : 'tooFast', locale)
+  }
 
   const coreRules = `
 [ABSOLUTE BEHAVIOR RULES — READ CAREFULLY]
@@ -486,7 +497,12 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
   };
 
   const l = (locale === 'ko' || locale === 'en' || locale === 'de' || locale === 'ja' || locale === 'es' || locale === 'fr' || locale === 'it' || locale === 'pt') ? locale : 'en';
-  const sysPromptBase = promptMap[locale] || promptMap['en'];
+  // promptMap covers eight locales and falls back to the English prompt, so
+  // the other sixteen were answered in English rather than their own language.
+  // The English prompt is a fine base — it just has to name the right language.
+  const sysPromptBase = promptMap[locale]
+    ? promptMap[locale]
+    : `${promptMap['en']}\n${respondInLanguage(locale)}`;
   const dynamicInstruction = (dynamicInstructionMap[locale] || dynamicInstructionMap['en'])[mode];
   let sysPrompt = sysPromptBase + dynamicInstruction;
 
@@ -502,12 +518,8 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
   // Try Gemini models for stability and speed
   const modelsToTry = [
     'gemini-2.0-flash',
-    'gemini-1.5-flash',
-    'gemini-1.5-pro',
     'gemini-2.5-flash-lite',
     'gemini-2.5-flash',
-    'gemini-1.5-flash-latest',
-    'gemini-1.5-flash-002'
   ];
   
   const vAI = getVertexAIInstance();
@@ -575,6 +587,8 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
     } catch (error: any) {
       lastError = error;
       console.warn(`[Gemini Error]: Failed utilizing model [${modelId}]`, error.message);
+        const m = error.message || String(error);
+        if (isProviderRateLimit(m)) noteProviderRejection(providerRetryAfter(m));
       continue;
     }
   }

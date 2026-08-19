@@ -1,5 +1,5 @@
 import { ImageResponse } from 'next/og'
-import { SILHOUETTE_PATH } from '@/components/brand-mark'
+import { BRAND_SOLID_DATA_URI } from '@/components/brand-art'
 
 export const runtime = 'edge'
 export const contentType = 'image/png'
@@ -12,9 +12,12 @@ export function generateImageMetadata() {
 }
 
 export default function Icon({ id }: { id: string }) {
-  let w = parseInt(id, 10);
-  if (isNaN(w)) w = 512;
+  let w = parseInt(id, 10)
+  if (isNaN(w)) w = 512
 
+  // iOS composites its own rounded-rect mask and does not honour
+  // transparency, so this one keeps a filled ground. Cream rather than the
+  // old navy: on a home screen the mark should read as the site does.
   return new ImageResponse(
     (
       <div
@@ -24,13 +27,11 @@ export default function Icon({ id }: { id: string }) {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          background: '#0B0F19',
+          background: '#faf7f0',
         }}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
-          <circle cx="256" cy="256" r="220" fill="#F59E0B"/>
-          <path d={SILHOUETTE_PATH} fill="#0B0F19"/>
-        </svg>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={BRAND_SOLID_DATA_URI} width={Math.round(w * 0.82)} height={Math.round(w * 0.82)} alt="" />
       </div>
     ),
     { width: w, height: w }

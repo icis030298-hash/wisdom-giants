@@ -14,43 +14,46 @@ export default function Loading() {
   } else if (locale === 'de') {
     loadingText = 'Erwecke zeitlose Weisheit...'
   }
+  // This screen sits between every cream page and the next, so anything dark
+  // here flashes black on each navigation. That flash is what "the loading
+  // screen is still the old one" referred to. The two amber blur circles are
+  // gone: on cream they read as smudges rather than glow.
   return (
-    <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-background">
-      <div className="relative w-24 h-24 mb-8">
-        {/* Animated outer ring */}
-        <div className="absolute inset-0 border-4 border-amber-500/20 rounded-full" />
-        <div className="absolute inset-0 border-4 border-amber-500 border-t-transparent rounded-full animate-spin" />
-        
-        {/* Pulsing center icon container */}
-        <div className="absolute inset-2 bg-gradient-to-br from-amber-500 to-amber-600 rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(245,158,11,0.3)] animate-pulse">
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="2" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            className="w-8 h-8 text-black"
-          >
-            <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
-          </svg>
-        </div>
+    <div
+      className="fixed inset-0 z-50 flex flex-col items-center justify-center"
+      style={{ background: "var(--rd-bg-base)" }}
+    >
+      <div className="relative w-16 h-16 mb-8">
+        <div
+          className="absolute inset-0 rounded-full"
+          style={{ border: "3px solid var(--rd-divider-faint)" }}
+        />
+        <div
+          className="absolute inset-0 rounded-full animate-spin"
+          style={{
+            border: "3px solid var(--rd-accent-brown)",
+            borderTopColor: "transparent",
+          }}
+        />
       </div>
-      
-      <div className="text-center space-y-4">
-        <h2 className="text-2xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500 animate-pulse">
+
+      <div className="text-center space-y-3">
+        <h2
+          className="font-serif"
+          style={{
+            color: "var(--rd-text-ink)",
+            fontSize: "var(--rd-h1-size)",
+            fontWeight: "var(--rd-h1-weight)",
+            letterSpacing: "var(--rd-h1-tracking)",
+            lineHeight: "var(--rd-h1-leading)",
+          }}
+        >
           Giants Wisdom
         </h2>
-        <p className="text-muted-foreground text-sm tracking-widest uppercase animate-pulse delay-75">
+        {/* No uppercase, no wide tracking: this string is translated. */}
+        <p className="rd-caption">
           {loadingText}
         </p>
-      </div>
-      
-      {/* Skeleton-like background elements for texture */}
-      <div className="absolute inset-0 pointer-events-none opacity-5">
-        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-amber-500 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-amber-500 rounded-full blur-3xl" />
       </div>
     </div>
   )

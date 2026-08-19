@@ -1,13 +1,29 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantsData } from "@/data/giants";
+import { respondInLanguage } from "@/lib/response-language";
+import { apiError } from "@/lib/api-errors";
+import { checkRateLimit, clientIdFrom, noteProviderRejection, providerRetryAfter, isProviderRateLimit } from "@/lib/rate-limit";
 
 export async function POST(req: Request) {
+  // Hoisted so the catch can still answer in the caller's language.
+  let reqLocale: string | undefined;
   try {
     const { giants, topic, history, currentSpeaker, locale, userMessage } = await req.json();
+    reqLocale = locale;
+
+    // Shared 20/min provider pool: refuse here, with a Retry-After, rather
+    // than letting the provider return its own 429 with no guidance.
+    const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)), "debate");
+    if (!rl.ok) {
+      return NextResponse.json(
+        { error: apiError(rl.scope === "global" ? "busy" : "tooFast", locale) },
+        { status: 429, headers: { "Retry-After": String(rl.retryAfter) } }
+      );
+    }
 
     if (!currentSpeaker || !topic) {
-      return NextResponse.json({ error: "필수 파라미터가 누락되었습니다." }, { status: 400 });
+      return NextResponse.json({ error: apiError('missingParams', locale) }, { status: 400 });
     }
 
     // Find current speaker details
@@ -84,11 +100,20 @@ ${baseGuidelines}
 Responda sempre em português brasileiro e natural. Use "você".
 Personalidade e filosofia:
 ${persona}`;
-    } else {
+    } else if (locale === 'ko') {
       systemPrompt = `당신은 ${giantName}입니다.
 ${baseGuidelines}
 반드시 깊이 있고 품격 있는 '한국어'로 대답하십시오. 자신의 철학과 신념에 기반하여 상대방의 의견을 반박하거나 동조하십시오.
 당신의 성격과 철학(Persona):
+${persona}`;
+    } else {
+      // Same Korean else the chat route had: sixteen locales were debating in
+      // Korean regardless of who asked.
+      systemPrompt = `You are ${giantName}.
+${baseGuidelines}
+${respondInLanguage(locale)}
+Argue from your own philosophy and convictions — rebut or agree with the other speakers on those grounds.
+Personality and Philosophy (Persona):
 ${persona}`;
     }
 
@@ -116,7 +141,6 @@ ${userMessage ? `\n=== 관객(사용자)의 개입 ===\n사용자가 토론에 �
     // Vertex AI models fallback
     const modelsToTry = [
       "gemini-2.0-flash",
-      "gemini-1.5-flash",
       "gemini-2.5-flash-lite",
       "gemini-2.5-flash"
     ];
@@ -145,6 +169,8 @@ ${userMessage ? `\n=== 관객(사용자)의 개입 ===\n사용자가 토론에 �
       } catch (err: any) {
         lastError = err;
         console.warn(`[Debate API] Failed utilizing model [${modelId}]:`, err.message);
+        const m = err.message || String(err);
+        if (isProviderRateLimit(m)) noteProviderRejection(providerRetryAfter(m));
       }
     }
 
@@ -160,7 +186,7 @@ ${userMessage ? `\n=== 관객(사용자)의 개입 ===\n사용자가 토론에 �
   } catch (error: any) {
     console.error("[Debate API Error]:", error);
     return NextResponse.json({
-      error: "토론 답변을 생성하는 도중 오류가 발생했습니다.",
+      error: apiError('generationFailed', reqLocale),
       details: error.message || String(error)
     }, { status: 500 });
   }

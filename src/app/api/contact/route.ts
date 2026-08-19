@@ -1,5 +1,6 @@
 import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
+import { responseLanguage } from '@/lib/response-language';
 
 export async function POST(request: NextRequest) {
   const resend = new Resend(process.env.RESEND_API_KEY || 'placeholder');
@@ -22,7 +23,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const localeName = locale === 'ko' ? '한국어' : locale === 'de' ? 'Deutsch' : 'English';
+    // Named for the human reading the contact email, so all 24 belong here too.
+    const localeName = responseLanguage(locale);
 
     await resend.emails.send({
       from: 'Giants Wisdom <contact@giantswisdom.com>',

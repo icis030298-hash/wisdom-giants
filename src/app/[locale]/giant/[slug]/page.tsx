@@ -5,16 +5,23 @@ import { giants } from "@/lib/giants-data";
 import { GiantDetailClient } from "@/components/giant-detail-client";
 import { Navigation } from "@/components/navigation";
 import { Metadata } from 'next';
+import Image from 'next/image';
 import fs from 'fs';
 import path from 'path';
 import { buildHreflang } from '@/lib/locales';
+import { eraForLocale, eraLabel, lifespan } from '@/lib/era';
 import { blogPosts } from "@/data/blog-posts";
 import incompleteGiants from '@/config/incomplete-giants.json';
 
 import { Link } from "@/i18n/routing";
 import { Suspense } from 'react';
 
-export const revalidate = 604800; // 7 days: cache static pages to prevent crawler ISR write bursts
+// Giant biographies are effectively static: they only change when the data files
+// change, and a data change ships with a deploy (which invalidates the ISR cache
+// anyway). A 1 hour window meant every one of the ~22,800 locale/giant pages could
+// regenerate 24x/day, which is what drove ISR writes to ~13.4M/month.
+export const revalidate = 604800; // 1 week
+
 
 const incompleteGiantsSet = new Set(incompleteGiants);
 
@@ -30,7 +37,7 @@ function GiantBodySkeleton() {
       className="max-w-6xl mx-auto px-6 md:px-16 py-16 space-y-8"
     >
       <div className="flex justify-end">
-        <div className="h-14 w-56 rounded-2xl bg-amber-500/10 animate-pulse" />
+        <div className="h-14 w-56 rounded-2xl rd-bg-faint animate-pulse" />
       </div>
       <div className="space-y-4">
         <div className="h-4 w-full rounded bg-muted/40 animate-pulse" />
@@ -59,6 +66,16 @@ if (fs.existsSync(wikiLinksPath)) {
   wikipediaLinks = JSON.parse(fs.readFileSync(wikiLinksPath, 'utf-8'));
 }
 
+// Era comes from giants-summary.json for both the cards and this page.
+// messages.Giants.<slug>.era carries a "Giants of History" placeholder for 44
+// giants, which was leaking into their meta description; era_* here is
+// complete and already verified across all 24 locales.
+const summaryPath = path.join(process.cwd(), 'src/data/giants-summary.json');
+let giantsSummary: any = {};
+if (fs.existsSync(summaryPath)) {
+  giantsSummary = JSON.parse(fs.readFileSync(summaryPath, 'utf-8'));
+}
+
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
@@ -80,7 +97,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const messages = await getMessages({ locale });
   const tBrand = await getTranslations({ locale, namespace: 'brand' });
-  const brandName = tBrand('mainTitle') || 'Giants Wisdom';
+  // The localized phrase still earns its place as a keyword; it just no longer
+  // rides along in the <title>, which follows the root template in putting the
+  // brand — and only the brand — after the page's own name.
+  const brandKeyword = tBrand('mainTitle') || 'Giants Wisdom';
+  const brandName = 'Giants Wisdom';
 
   const giantData = (messages.Giants as any)[giant.slug] || {
     name: giant.name,
@@ -140,7 +161,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
   }
 
-  const eraClean = cleanEraString(giantData.era || giant.era || '');
+  const summaryEra = eraForLocale(giantsSummary[giant.slug], locale);
+  const eraClean = cleanEraString(lifespan(summaryEra) || giantData.era || giant.era || '');
   const eraDisplay = eraClean ? `(${eraClean})` : '';
 
   const ctaMap: Record<string, string> = {
@@ -228,7 +250,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       giant.era,
       giant.field,
       locale === 'ko' ? "역사 위인" : locale === 'de' ? "Historische Persönlichkeit" : locale === 'ja' ? "歴史上の偉人" : locale === 'it' ? "Figura Storica" : locale === 'pt' ? "Figura Histórica" : "Historical Figure",
-      brandName
+      brandKeyword
     ],
     robots: { index: shouldIndex, follow: true },
     alternates: buildSEOAlternates(`/giant/${slug}`, locale),
@@ -257,7 +279,8 @@ export default async function GiantDetailPage({ params }: Props) {
   const factLayer = factLayerAll[slug] || null;
 
   const messages = await getMessages({ locale });
-  
+  const tUI = await getTranslations({ locale, namespace: 'UI' });
+
   // Find standardized narrative data
   let narrative: any = null;
   try {
@@ -324,6 +347,8 @@ export default async function GiantDetailPage({ params }: Props) {
     era: "역사의 거인"
   };
 
+  const summaryEra = eraForLocale(giantsSummary[giant.slug], locale);
+
   const translations = {
     giantDetail: messages.GiantDetail,
     giants: giantTranslation,
@@ -331,7 +356,9 @@ export default async function GiantDetailPage({ params }: Props) {
     narrative: formattedNarrative,
     factLayer: factLayer,
     giantBlogLink: messages.GiantBlogLink,
-    ui: messages.UI
+    ui: messages.UI,
+    // Era for the sidebar, from the same source the cards use.
+    eraLabel: eraLabel(summaryEra) || giantTranslation.era || giant.era || null
   };
 
   const BASE_URL = 'https://www.giantswisdom.com';
@@ -343,7 +370,7 @@ export default async function GiantDetailPage({ params }: Props) {
     'society': ['Society', 'Human Rights', 'Activism', 'Justice'],
     'business': ['Business', 'Exploration', 'Entrepreneurship', 'Trade'],
   };
-  const localizedEra = giantTranslation.era || giant.era || '';
+  const localizedEra = summaryEra || giantTranslation.era || giant.era || '';
   const eraYearMatch = localizedEra.match(/\((\d{1,4})(?:[^~\-–]*)?[~\-–]\s*(\d{1,4})/);
   const isBC = localizedEra.toLowerCase().includes('a.c.') || localizedEra.toLowerCase().includes('bc');
   
@@ -368,8 +395,8 @@ export default async function GiantDetailPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: locale === 'ko' ? '홈' : locale === 'it' ? 'Home' : locale === 'pt' ? 'Início' : 'Home', item: `${BASE_URL}/${locale}` },
-      { '@type': 'ListItem', position: 2, name: locale === 'ko' ? '거인들의 전당' : locale === 'it' ? 'Sala delle Grandi Menti' : locale === 'pt' ? 'Salão das Grandes Mentes' : 'Hall of Giants', item: `${BASE_URL}/${locale}#giants` },
+      { '@type': 'ListItem', position: 1, name: tUI('home'), item: `${BASE_URL}/${locale}` },
+      { '@type': 'ListItem', position: 2, name: tUI('hallOfGiants'), item: `${BASE_URL}/${locale}#giants` },
       { '@type': 'ListItem', position: 3, name: giantTranslation.name || giant.name, item: `${BASE_URL}/${locale}/giant/${giant.slug}` },
     ],
   };
@@ -411,52 +438,124 @@ export default async function GiantDetailPage({ params }: Props) {
 
       <Navigation />
 
-      {/* Visual Server-Rendered Hero Section for Instant SSR & Crawlers */}
-      <div className="relative w-full h-[55vh] md:h-[60vh] overflow-hidden bg-slate-950">
-        <img
-          src={giant.imageUrl.startsWith('http') ? giant.imageUrl : `${BASE_URL}${giant.imageUrl}`}
-          alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
-
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-16 max-w-6xl mx-auto">
-          {/* Breadcrumb Navigation */}
-          <nav aria-label="breadcrumb" className="mb-4 flex items-center">
-            <ol className="flex items-center space-x-2 text-xs md:text-sm text-zinc-400 font-sans">
+      {/* Server-rendered header. The portrait is 112x140 instead of a 55vh
+          full-bleed image, so the name and lede sit above the fold. */}
+      <header className="pt-20 pb-6" style={{ borderBottom: "1px solid var(--rd-divider-faint)" }}>
+        <div className="mx-auto px-4 md:px-6" style={{ maxWidth: "calc(var(--rd-detail-main) + var(--rd-detail-sidebar) + var(--rd-detail-gap))" }}>
+          {/* Breadcrumb */}
+          <nav aria-label="breadcrumb" className="mb-4">
+            <ol
+              className="flex items-center gap-2"
+              style={{ color: "var(--rd-text-muted)", fontSize: "var(--rd-caption-size)", letterSpacing: "var(--rd-caption-tracking)" }}
+            >
               <li>
-                <Link href="/" className="hover:text-amber-400 transition-colors">
-                  {locale === 'ko' ? '홈' : 'Home'}
-                </Link>
+                <Link href="/" className="hover:underline">{tUI('home')}</Link>
               </li>
-              <li className="text-zinc-600">/</li>
+              <li aria-hidden="true">/</li>
               <li>
-                <Link href="/#giants" className="hover:text-amber-400 transition-colors">
-                  {locale === 'ko' ? '거인들의 전당' : 'Hall of Giants'}
-                </Link>
+                <Link href="/#giants" className="hover:underline">{tUI('hallOfGiants')}</Link>
               </li>
-              <li className="text-zinc-600">/</li>
-              <li className="text-amber-400 font-semibold truncate" aria-current="page">
+              <li aria-hidden="true">/</li>
+              <li className="truncate" aria-current="page" style={{ color: "var(--rd-text-body)" }}>
                 {giantTranslation.name || giant.name}
               </li>
             </ol>
           </nav>
 
-          <div className="space-y-3">
-            <span className="px-4 py-1.5 rounded-full bg-amber-500 text-black text-xs font-bold uppercase tracking-widest border border-amber-400 shadow-[0_0_15px_rgba(245,158,11,0.3)]">
-              {giant.category}
-            </span>
-            <h1 className="text-4xl md:text-7xl font-serif font-bold text-foreground leading-tight">
-              {giantTranslation.name || giant.name}
-            </h1>
-            {giantTranslation.quote && (
-              <h2 className="text-lg md:text-2xl text-amber-400/90 font-serif italic max-w-3xl leading-relaxed">
-                &ldquo;{giantTranslation.quote}&rdquo;
-              </h2>
-            )}
+          <div className="flex items-start gap-5">
+            <Image
+              /* Relative, not `${BASE_URL}${...}`. The absolute form pointed the
+                 hero at the production domain, which meant a preview deploy drew
+                 its portraits from production -- the one element on this page a
+                 preview could not actually verify. Every imageUrl in giants.ts
+                 is a local path, so there is nothing to make absolute. */
+              src={giant.imageUrl}
+              alt={`${giantTranslation.name || giant.name} - Giants Wisdom`}
+              width={112}
+              height={112}
+              /* The <img> this replaced was eager, because that is what a plain
+                 <img> is. next/image defaults to lazy, so the swap quietly moved
+                 the one portrait on the page -- 115px down a 756px viewport,
+                 above the fold on every device -- behind a layout pass. priority
+                 restores eager and adds the preload the old markup never had. */
+              priority
+              /* Square, and round. The plates are drawn as discs with 8-10%
+                 margin all round, so a 4:5 frame left the corners showing the
+                 plate's own background — and that background is not one colour
+                 to match against: 43% of the set is pure white, 30% cream, the
+                 rest various. Filling the rectangle instead would mean scaling
+                 the disc 1.41x and cropping into the face.
+                 A 1:1 source in a 1:1 circular frame crops nothing.
+                 The hairline matters: an unbordered circle reads as a social
+                 avatar, while a rule around it reads as a plate. */
+              className="rd-portrait shrink-0 object-cover"
+              style={{
+                width: "var(--rd-portrait-width)",
+                height: "var(--rd-portrait-width)",
+                background: "var(--rd-divider-faint)",
+                borderRadius: "9999px",
+                border: "1px solid var(--rd-border)",
+              }}
+            />
+
+            <div className="min-w-0">
+              {/* Category: the field axis, in the reader's language. No uppercase. */}
+              <span
+                style={{
+                  color: "var(--rd-accent-brown)",
+                  fontSize: "var(--rd-category-size)",
+                  fontWeight: "var(--rd-category-weight)",
+                  letterSpacing: "var(--rd-category-tracking)",
+                  lineHeight: "var(--rd-category-leading)",
+                }}
+              >
+                {(messages.GiantsGrid as any)?.categories?.[giant.category] || giant.category}
+              </span>
+
+              <h1
+                className="font-serif mt-0.5"
+                style={{
+                  color: "var(--rd-text-ink)",
+                  fontSize: "var(--rd-display-size)",
+                  fontWeight: "var(--rd-display-weight)",
+                  letterSpacing: "var(--rd-display-tracking)",
+                  lineHeight: "var(--rd-display-leading)",
+                }}
+              >
+                {giantTranslation.name || giant.name}
+              </h1>
+
+              {(lifespan(localizedEra) || eraLabel(localizedEra)) && (
+                <p
+                  className="mt-1"
+                  style={{
+                    color: "var(--rd-text-muted)",
+                    fontSize: "var(--rd-caption-size)",
+                    letterSpacing: "var(--rd-caption-tracking)",
+                    lineHeight: "var(--rd-caption-leading)",
+                  }}
+                >
+                  {lifespan(localizedEra)}
+                </p>
+              )}
+
+              {giantTranslation.quote && (
+                <h2
+                  className="font-serif mt-2 max-w-3xl break-keep"
+                  style={{
+                    color: "var(--rd-accent-brown)",
+                    fontSize: "var(--rd-lede-size)",
+                    fontWeight: "var(--rd-lede-weight)",
+                    lineHeight: "var(--rd-lede-leading)",
+                  }}
+                >
+                  &ldquo;{giantTranslation.quote}&rdquo;
+                </h2>
+              )}
+            </div>
           </div>
         </div>
-      </div>
+      </header>
 
       <Suspense fallback={<GiantBodySkeleton />}>
         <GiantDetailClient

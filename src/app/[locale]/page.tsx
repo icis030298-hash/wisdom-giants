@@ -5,7 +5,7 @@ import { HeroSection } from "@/components/hero-section"
 import { GiantsGrid } from "@/components/giants-grid"
 import { ProjectPhilosophy } from "@/components/project-philosophy"
 import { giants } from "@/lib/giants-data"
-import { Dna, ArrowRight, BookOpen, Clock } from "lucide-react"
+import { ArrowRight, Clock, MessageCircleHeart, Dna, Swords } from "lucide-react"
 import { Link } from "@/i18n/routing"
 import { getTranslations } from "next-intl/server"
 import { blogPosts } from "@/data/blog-posts"
@@ -22,13 +22,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 
-
-const colorMap: Record<string, string> = {
-  leadership: "from-amber-500/20 to-orange-500/20 text-amber-300 border-amber-500/30",
-  philosophy: "from-emerald-500/20 to-teal-500/20 text-emerald-300 border-emerald-500/30",
-  creativity: "from-purple-500/20 to-indigo-500/20 text-purple-300 border-purple-500/30",
-  wisdom: "from-blue-500/20 to-cyan-500/20 text-blue-300 border-blue-500/30"
-};
 
 
 const blogTranslations: Record<string, any> = {
@@ -138,7 +131,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   };
 
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <ConditionalAdSense />
       {/* Navigation */}
@@ -147,119 +140,75 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       {/* Hero Section */}
       <HeroSection />
 
-      {/* Consultation (고민 상담) CTA Section - Promoted to Orange Big Card */}
-      <div className="max-w-6xl mx-auto px-4 py-12">
-        <Link 
-          href="/consult"
-          className="block group"
-        >
-          <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-r from-amber-500 to-amber-600 p-8 md:p-12 shadow-2xl shadow-amber-500/20 transition-transform hover:scale-[1.01] active:scale-[0.99]">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2" />
-            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
-              <div className="space-y-4 text-center md:text-left">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/20 text-white text-xs font-bold uppercase tracking-widest">
-                  🔥 HOT
-                </div>
-                <h2 className="text-3xl md:text-4xl font-serif font-bold text-white leading-tight whitespace-pre-wrap">
-                  {tc("title")}
-                </h2>
-                <p className="text-white/80 text-lg max-w-md whitespace-pre-line">
-                  {tc("desc")}
-                </p>
-              </div>
-              <div className="shrink-0 flex flex-col items-center gap-4">
-                <div className="w-20 h-20 rounded-2xl bg-white/20 flex items-center justify-center backdrop-blur-md border border-white/30">
-                  <span className="text-4xl">💭</span>
-                </div>
-                <div className="flex items-center gap-2 text-white font-bold group-hover:gap-4 transition-all">
-                  {tc("button")} <ArrowRight className="w-5 h-5" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </Link>
+      {/* Primary CTAs — one compact row. Routes and links unchanged. */}
+      <div className="max-w-7xl mx-auto px-4 md:px-6 pt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-3" style={{ gap: "var(--rd-grid-gutter)" }}>
+          {/* The three cards ran off one array with no per-card fields, so they
+              rendered as identical surfaces and read as one repeated card. Each
+              now carries the icon the nav already uses for that route, and the
+              inline-start rule the wisdom quotes use, which is why the mark is
+              a border-inline-start and not a border-left: in Arabic and Hebrew
+              it has to sit on the other side. No new copy, so no translations. */}
+          {[
+            { href: "/consult", title: tc("title"), desc: tc("desc"), cta: tc("button"), Icon: MessageCircleHeart },
+            { href: "/dna", title: t("banner.title"), desc: t("banner.desc"), cta: t("banner.button"), Icon: Dna },
+            { href: "/debate", title: `${td("titlePre")} ${td("titlePost")}`, desc: td("desc"), cta: td("button"), Icon: Swords },
+          ].map((card) => (
+            <Link
+              key={card.href}
+              href={card.href as any}
+              className="group flex flex-col p-4 ps-5 transition-colors active:scale-[0.99]"
+              style={{
+                background: "var(--rd-surface)",
+                border: "1px solid var(--rd-border)",
+                borderInlineStart: "2px solid var(--rd-accent-brown)",
+                borderRadius: "var(--rd-card-radius)",
+                transitionDuration: "120ms",
+              }}
+            >
+              <h2
+                className="font-serif whitespace-pre-line flex items-start gap-2"
+                style={{
+                  color: "var(--rd-text-ink)",
+                  fontSize: "var(--rd-card-name-size)",
+                  fontWeight: "var(--rd-card-name-weight)",
+                  letterSpacing: "var(--rd-card-name-tracking)",
+                  lineHeight: "var(--rd-card-name-leading)",
+                }}
+              >
+                <card.Icon
+                  className="w-4 h-4 shrink-0 mt-1"
+                  style={{ color: "var(--rd-accent-brown)" }}
+                  aria-hidden="true"
+                />
+                <span>{card.title}</span>
+              </h2>
+              <p
+                className="mt-1 line-clamp-2 break-keep whitespace-pre-line"
+                style={{
+                  color: "var(--rd-text-body)",
+                  fontSize: "var(--rd-card-intro-size)",
+                  lineHeight: "var(--rd-card-intro-leading)",
+                }}
+              >
+                {card.desc}
+              </p>
+              <span
+                className="mt-2 inline-flex items-center gap-1"
+                style={{
+                  color: "var(--rd-accent-brown)",
+                  fontSize: "var(--rd-caption-size)",
+                  fontWeight: 600,
+                }}
+              >
+                {card.cta}
+                <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
+              </span>
+            </Link>
+          ))}
+        </div>
       </div>
 
-      {/* Heritage DNA Test CTA - Premium Dark Card */}
-      <div className="max-w-6xl mx-auto px-4 pb-4">
-        <Link
-          href="/dna"
-          className="block group"
-        >
-          <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-slate-950 via-indigo-950/30 to-slate-950 border border-amber-500/25 p-8 md:p-12 shadow-2xl transition-all hover:scale-[1.01] active:scale-[0.99] hover:border-amber-400/50 hover:shadow-[0_0_50px_rgba(245,158,11,0.15)]">
-            {/* Background glows */}
-            <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-amber-500/8 to-transparent rounded-full blur-[80px] -translate-y-1/2 -translate-x-1/2 group-hover:from-amber-400/15 transition-all duration-500" />
-            <div className="absolute bottom-0 right-0 w-64 h-64 bg-gradient-to-tl from-indigo-500/8 to-transparent rounded-full blur-[70px] translate-y-1/2 translate-x-1/2 pointer-events-none" />
-            {/* DNA helix decorative */}
-            <div className="absolute right-8 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-2 opacity-20 group-hover:opacity-30 transition-opacity">
-              {[...Array(8)].map((_, i) => (
-                <div key={i} className="flex gap-2 items-center">
-                  <div className={`w-2 h-2 rounded-full bg-amber-400 ${i % 2 === 0 ? 'translate-x-2' : '-translate-x-2'}`} />
-                  <div className="w-8 h-px bg-amber-400/50" />
-                  <div className={`w-2 h-2 rounded-full bg-amber-400 ${i % 2 === 0 ? '-translate-x-2' : 'translate-x-2'}`} />
-                </div>
-              ))}
-            </div>
-
-            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
-              <div className="space-y-4 text-center md:text-left">
-                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 text-amber-300 text-xs font-bold uppercase tracking-widest border border-amber-500/30">
-                  <span>🧬</span> {t("banner.new")}
-                </div>
-                <h2 className="text-3xl md:text-4xl font-serif font-bold text-white leading-tight whitespace-pre-wrap">
-                  {t("banner.title")}
-                </h2>
-                <p className="text-slate-300 text-lg max-w-xl whitespace-pre-line leading-relaxed">
-                  {t("banner.desc")}
-                </p>
-              </div>
-              <div className="shrink-0 flex flex-col items-center gap-4">
-                <div className="flex items-center gap-2 text-amber-400 font-bold group-hover:gap-4 transition-all bg-amber-500/10 px-6 py-4 rounded-full border border-amber-500/30 group-hover:bg-amber-500/20 shadow-[0_0_20px_rgba(245,158,11,0.1)] text-lg">
-                  {t("banner.button")} <ArrowRight className="w-5 h-5" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </Link>
-      </div>
-
-      {/* Debate Room CTA */}
-      <div className="max-w-6xl mx-auto px-4 pb-12">
-        <Link 
-          href="/debate"
-          className="block group"
-        >
-          <div className="relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-slate-950 via-purple-950/20 to-slate-950 border border-amber-500/30 p-8 md:p-12 shadow-2xl shadow-purple-900/20 transition-all hover:scale-[1.01] active:scale-[0.99] hover:border-amber-400 hover:shadow-[0_0_40px_rgba(245,158,11,0.25)]">
-            {/* Elegant light rays and double glow overlays */}
-            <div className="absolute top-0 right-0 w-80 h-80 bg-gradient-to-br from-amber-500/10 to-purple-500/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 group-hover:from-amber-400/20 group-hover:to-purple-400/20 transition-all duration-500" />
-            <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/5 rounded-full blur-[70px] translate-y-1/2 -translate-x-1/2 pointer-events-none" />
-            
-            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
-              <div className="space-y-4 text-center md:text-left">
-                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-500/10 text-amber-300 text-xs font-bold uppercase tracking-widest border border-amber-500/30 shadow-[0_0_15px_rgba(245,158,11,0.15)]">
-                  <span className="text-sm">🔥</span> {td("badge")}
-                </div>
-                <h2 className="text-3xl md:text-4xl font-serif font-bold text-white leading-tight whitespace-pre-wrap">
-                  {td("titlePre")}<br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-400 to-amber-300">
-                    {td("titlePost")}
-                  </span>
-                </h2>
-                <p className="text-slate-300 text-lg max-w-xl">
-                  {td("desc")}
-                </p>
-              </div>
-              <div className="shrink-0 flex flex-col items-center gap-4">
-                <div className="flex items-center gap-2 text-amber-400 font-bold group-hover:gap-4 transition-all bg-amber-500/10 px-6 py-4 rounded-full border border-amber-500/30 group-hover:bg-amber-500/20 shadow-[0_0_20px_rgba(245,158,11,0.1)]">
-                  {td("button")} <ArrowRight className="w-5 h-5 animate-pulse" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </Link>
-      </div>
-      
-      
       {/* All Giants Grid */}
       <div id="giants">
         <GiantsGrid dbCardData={dbCardData} />
@@ -267,31 +216,27 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
       {/* Latest Blog Section */}
       {latestPosts.length > 0 && (
-        <div className="max-w-6xl mx-auto px-4 py-16 md:py-24 border-t border-white/5">
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 py-12" style={{ borderTop: "1px solid var(--rd-divider-faint)" }}>
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
             <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 text-amber-300 text-xs font-bold uppercase tracking-widest border border-amber-500/20">
-                <BookOpen className="w-3.5 h-3.5" />
-                BLOG FEED
-              </div>
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-white tracking-tight leading-tight">
+              <h2 className="font-serif" style={{ color: "var(--rd-text-ink)", fontSize: "var(--rd-h1-size)", fontWeight: "var(--rd-h1-weight)", letterSpacing: "var(--rd-h1-tracking)", lineHeight: "var(--rd-h1-leading)" }}>
                 {bt.sectionTitle}
               </h2>
-              <p className="text-slate-400 text-lg font-light max-w-xl">
+              <p className="max-w-xl mt-1" style={{ color: "var(--rd-text-body)", fontSize: "var(--rd-body-size)", lineHeight: "var(--rd-body-leading)" }}>
                 {bt.sectionSubtitle}
               </p>
             </div>
             
             <Link 
               href="/blog" 
-              className="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 font-bold transition-colors text-sm uppercase tracking-wider group shrink-0"
+              className="inline-flex items-center gap-1 group shrink-0" style={{ color: "var(--rd-accent-brown)", fontSize: "var(--rd-caption-size)", fontWeight: 600 }}
             >
               {bt.viewAll}
               <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 items-start" style={{ gap: "var(--rd-grid-gutter)" }}>
             {latestPosts.map((post) => {
               const trans = post.translations[locale] || post.translations['en'];
               const giant = giants.find(g => g.slug === post.giantSlug);
@@ -305,7 +250,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 readTime = Math.max(1, Math.ceil(words / 200));
               }
               
-              const catColor = colorMap[post.category] || "from-slate-500/20 to-zinc-500/20 text-slate-300 border-slate-500/30";
 
               const localizedName = post.giantSlug === 'cleopatra'
                 ? (locale === 'ko' ? '클레오파트라' :
@@ -318,32 +262,32 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
                 <Link 
                   key={post.slug}
                   href={`/blog/${post.slug}`}
-                  className="group flex flex-col justify-between rounded-2xl bg-slate-950 border border-white/5 hover:border-amber-500/30 p-6 shadow-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-amber-500/5"
+                  className="group flex flex-col justify-between p-4 transition-colors active:scale-[0.99]" style={{ background: "var(--rd-surface)", border: "1px solid var(--rd-border)", borderRadius: "var(--rd-card-radius)" }}
                 >
                   <div>
                     {/* Badge and read time */}
-                    <div className="flex items-center justify-between gap-4 mb-5">
-                      <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${catColor}`}>
+                    <div className="flex items-center justify-between gap-3 mb-2">
+                      <span style={{ color: "var(--rd-accent-brown)", fontSize: "var(--rd-category-size)", fontWeight: "var(--rd-category-weight)" }}>
                         {bt[post.category]}
                       </span>
-                      <span className="flex items-center gap-1 text-[10px] text-slate-500 font-medium">
+                      <span className="flex items-center gap-1" style={{ color: "var(--rd-text-muted)", fontSize: "var(--rd-caption-size)" }}>
                         <Clock className="w-3.5 h-3.5" />
                         {readTime} {bt.readTime}
                       </span>
                     </div>
 
-                    <h3 className="text-xl font-serif font-bold text-white group-hover:text-amber-400 transition-colors line-clamp-2 min-h-[3.5rem] mb-3 leading-snug">
+                    <h3 className="font-serif line-clamp-2 mb-1" style={{ color: "var(--rd-text-ink)", fontSize: "var(--rd-card-name-size)", fontWeight: "var(--rd-card-name-weight)", letterSpacing: "var(--rd-card-name-tracking)", lineHeight: "var(--rd-card-name-leading)" }}>
                       {trans.title}
                     </h3>
                     
-                    <p className="text-slate-400 text-sm leading-relaxed line-clamp-3 min-h-[4.5rem]">
+                    <p className="line-clamp-3 break-keep" style={{ color: "var(--rd-text-body)", fontSize: "var(--rd-card-intro-size)", lineHeight: "var(--rd-card-intro-leading)" }}>
                       {trans.description}
                     </p>
                   </div>
 
-                  <div className="flex items-center justify-between text-xs text-slate-500 mt-6 pt-4 border-t border-white/5">
+                  <div className="flex items-center justify-between mt-3 pt-3" style={{ borderTop: "1px solid var(--rd-divider-faint)", color: "var(--rd-text-muted)", fontSize: "var(--rd-caption-size)" }}>
                     <span>{localizedName}</span>
-                    <span className="inline-flex items-center gap-1 text-amber-400 font-bold group-hover:gap-2 transition-all">
+                    <span className="inline-flex items-center gap-1" style={{ color: "var(--rd-accent-brown)", fontWeight: 600 }}>
                       {bt.read} <ArrowRight className="w-3.5 h-3.5" />
                     </span>
                   </div>
@@ -355,7 +299,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       )}
 
       {/* AdSpace Container with safe margin */}
-      <div className="max-w-6xl mx-auto px-4 py-12 flex justify-center border-t border-white/5 my-12">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-8 flex justify-center" style={{ borderTop: "1px solid var(--rd-divider-faint)" }}>
         <AdSlot slot="4898120960" format="horizontal" />
       </div>
 

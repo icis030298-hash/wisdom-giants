@@ -69,7 +69,7 @@ export default async function DebatePage({ params }: Props) {
   setRequestLocale(locale);
 
   return (
-    <main className="min-h-screen bg-slate-950">
+    <main className="min-h-screen rd-bg-page">
       <Navigation />
       <DebateRoomClient />
     </main>

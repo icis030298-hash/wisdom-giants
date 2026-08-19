@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/update-incomplete-giants.js",
+    "prebuild": "node scripts/update-incomplete-giants.js && node scripts/generate-giant-slugs.js",
     "build": "next build",
     "build:cf": "npx @cloudflare/next-on-pages",
     "postbuild": "node -e \"require('fs').rmSync('.next/cache', { recursive: true, force: true })\"",

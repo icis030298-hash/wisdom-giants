@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
+import { respondInLanguage } from "@/lib/response-language";
+import { apiError } from "@/lib/api-errors";
+import { checkRateLimit, clientIdFrom } from "@/lib/rate-limit";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
 import { giantsData } from "@/data/giants";
@@ -9,11 +12,32 @@ import fs from "fs";
 import path from "path";
 
 export async function POST(req: Request) {
+  // Hoisted so the catch below can still answer in the caller's language; the
+  // moment a request fails is the worst one to hand someone a script they
+  // cannot read.
+  let reqLocale: string | undefined;
   try {
     const { prompt, giantName, persona, messages, locale, slug, problemId, customText } = await req.json();
+    reqLocale = locale;
+
+    // Nothing in this repo calls this route — the chat UI uses the
+    // getGiantResponse server action. Logged rather than deleted: a caller
+    // could exist outside the repo, and a log line is cheap where removing a
+    // route is not reversible. If a week passes with no hits, delete it.
+    console.warn(`[api/chat] called (no in-repo caller) ua=${req.headers.get("user-agent") || "?"} ref=${req.headers.get("referer") || "-"}`);
+
+    // Shared 20/min provider pool: refuse here, with a Retry-After, rather
+    // than letting the provider return its own 429 with no guidance.
+    const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)));
+    if (!rl.ok) {
+      return NextResponse.json(
+        { error: apiError(rl.scope === "global" ? "busy" : "tooFast", locale) },
+        { status: 429, headers: { "Retry-After": String(rl.retryAfter) } }
+      );
+    }
 
     if (!prompt) {
-      return NextResponse.json({ error: "질문 내용이 없습니다." }, { status: 400 });
+      return NextResponse.json({ error: apiError('missingPrompt', locale) }, { status: 400 });
     }
 
     const vAI = getVertexAIInstance();
@@ -268,12 +292,22 @@ Você está conversando com um usuário brasileiro. Use um tom caloroso, natural
 RÈGLE CRUCIALE PARA O PORTUGUÊS : Use o tratamento informal "você".
 Personalidade e filosofia (Persona):
 ${customPersonaText}${customNeverDoes}`;
-    } else {
-      systemPrompt = `당신은 역사 속의 위대한 거인, ${giantName}입니다. 
+    } else if (locale === 'ko') {
+      systemPrompt = `당신은 역사 속의 위대한 거인, ${giantName}입니다.
 ${baseGuidelines}
 반드시 품격 있고 깊이 있는 고풍스러운 '한국어'로만 답변하십시오.
 역사적 인물로서의 엄숙함, 어휘, 말투를 완벽히 고수하십시오. 현대적인 유행어나 가벼운 말투는 철저히 배제하고, 미래에서 당신의 지혜를 구하러 찾아온 여행자를 대하듯 대화하십시오.
 당신의 성격과 철학(Persona)입니다:
+${customPersonaText}${customNeverDoes}`;
+    } else {
+      // The branches above hand-write a prompt in each of eight languages. The
+      // other sixteen locales used to land in the Korean one, so a Thai user
+      // got Korean back. They get their own language named instead.
+      systemPrompt = `You are ${giantName}, a giant of history.
+${baseGuidelines}
+${respondInLanguage(locale)}
+Hold to the gravity, vocabulary and cadence of your own era. Avoid modern slang and casual register. Speak as to a traveller who has come from the future seeking your wisdom.
+Personality and Philosophy (Persona):
 ${customPersonaText}${customNeverDoes}`;
     }
 
@@ -427,7 +461,10 @@ ${customPersonaText}${customNeverDoes}`;
   } catch (error: any) {
     console.error("[Gemini API Error] Full Details:", error);
     return NextResponse.json({ 
-      error: "제미나이 응답을 가져오는 중 오류가 발생했습니다.",
+      // No vendor name: which model backs this is an implementation detail,
+      // and a user who cannot get a reply is not helped by learning whose
+      // fault it is.
+      error: apiError('generationFailed', reqLocale),
       details: error.message || String(error),
       stack: process.env.NODE_ENV === 'development' ? error.stack : undefined
     }, { status: 500 });

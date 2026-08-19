@@ -1,13 +1,29 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
 import { giantsData } from "@/data/giants";
+import { responseLanguage } from "@/lib/response-language";
+import { apiError } from "@/lib/api-errors";
+import { checkRateLimit, clientIdFrom, noteProviderRejection, providerRetryAfter, isProviderRateLimit } from "@/lib/rate-limit";
 
 export async function POST(req: Request) {
+  // Hoisted so the catch can still answer in the caller's language.
+  let reqLocale: string | undefined;
   try {
     const { topic, locale } = await req.json();
+    reqLocale = locale;
+
+    // Shared 20/min provider pool: refuse here, with a Retry-After, rather
+    // than letting the provider return its own 429 with no guidance.
+    const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)), "debate");
+    if (!rl.ok) {
+      return NextResponse.json(
+        { error: apiError(rl.scope === "global" ? "busy" : "tooFast", locale) },
+        { status: 429, headers: { "Retry-After": String(rl.retryAfter) } }
+      );
+    }
 
     if (!topic) {
-      return NextResponse.json({ error: "토론 주제가 비어있습니다." }, { status: 400 });
+      return NextResponse.json({ error: apiError('missingTopic', locale) }, { status: 400 });
     }
 
     // 1. Get all available giant slugs and names to feed into the recommendation pool
@@ -17,14 +33,8 @@ export async function POST(req: Request) {
       category: g.category
     }));
 
-    const langName = locale === 'ko' ? 'Korean (한국어)' 
-                   : locale === 'ja' ? 'Japanese (日本語)'
-                   : locale === 'de' ? 'German (Deutsch)'
-                   : locale === 'es' ? 'Spanish (Español)'
-                   : locale === 'fr' ? 'French (Français)'
-                   : locale === 'it' ? 'Italian (Italiano)'
-                   : locale === 'pt' ? 'Portuguese (Português)'
-                   : 'English';
+    // Was a seven-branch chain naming the same languages this map already has.
+    const langName = responseLanguage(locale);
 
     // 2. Build the system instruction to force strict JSON matching
     const systemPrompt = `
@@ -57,7 +67,6 @@ Instructions:
     const vAI = getVertexAIInstance();
     const modelsToTry = [
       "gemini-2.0-flash",
-      "gemini-1.5-flash",
       "gemini-2.5-flash-lite",
       "gemini-2.5-flash"
     ];
@@ -86,6 +95,8 @@ Instructions:
       } catch (err: any) {
         lastError = err;
         console.warn(`[Recommend API] Failed utilizing model [${modelId}]:`, err.message);
+        const m = err.message || String(err);
+        if (isProviderRateLimit(m)) noteProviderRejection(providerRetryAfter(m));
       }
     }
 
@@ -128,7 +139,7 @@ Instructions:
   } catch (error: any) {
     console.error("[Recommend API Error]:", error);
     return NextResponse.json({
-      error: "추천 위인을 생성하는 도중 오류가 발생했습니다.",
+      error: apiError('generationFailed', reqLocale),
       details: error.message || String(error)
     }, { status: 500 });
   }

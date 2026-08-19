@@ -1,12 +1,63 @@
-import React from 'react';
+'use client'
 
-export const SILHOUETTE_PATH = `M 260 110 C 230 110, 210 130, 200 170 L 170 230 C 165 240, 175 245, 175 245 L 170 250 L 180 250 L 175 260 C 170 270, 180 280, 185 280 C 170 290, 170 310, 170 310 L 185 340 L 210 350 L 220 380 C 200 420, 210 450, 265 450 C 320 450, 330 420, 310 380 C 300 370, 300 350, 300 340 C 310 330, 320 320, 320 320 C 310 310, 310 300, 310 300 C 330 290, 330 280, 330 280 C 320 270, 320 260, 320 260 C 340 240, 340 230, 340 230 C 330 210, 330 200, 330 200 C 320 180, 320 170, 320 170 C 300 140, 290 120, 260 110 Z`;
+import React, { useId } from 'react'
+import {
+  BRAND_BROWN,
+  BRAND_CREAM,
+  HEAD_CENTER,
+  SHOULDER_PATH,
+  TORSO_PATH,
+} from '@/components/brand-art'
 
+/**
+ * Two cuts of the same drawing. The ring is for 24px and up, where a stroke
+ * still reads and echoes the circular portrait frames on the giant pages. The
+ * solid is for favicons and app icons, where a 25/512 stroke thins to nothing
+ * and the shape has to survive on mass alone.
+ *
+ * The geometry lives in brand-art.ts so the edge icon routes can import it
+ * without crossing the client boundary.
+ */
+const scene = (fill: string) => (
+  <>
+    <path d={SHOULDER_PATH} fill={fill} />
+    <circle cx={HEAD_CENTER.cx} cy={HEAD_CENTER.cy} r={HEAD_CENTER.r} fill={fill} />
+    <path d={TORSO_PATH} fill={fill} />
+  </>
+)
+
+/** 24px and up — the outlined seal. */
 export function BrandMark({ className }: { className?: string }) {
+  // The header and the footer both render this, and two identical clipPath
+  // ids in one document is invalid markup: a browser resolves url(#id) to
+  // whichever came first, so removing one instance can silently break the
+  // other. useId gives each render its own.
+  const clip = useId()
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className={className}>
-      <circle cx="256" cy="256" r="220" fill="#F59E0B" />
-      <path d={SILHOUETTE_PATH} fill="#0B0F19" />
+      <defs>
+        <clipPath id={clip}>
+          <circle cx="256" cy="256" r="213" />
+        </clipPath>
+      </defs>
+      <circle cx="256" cy="256" r="226" fill="none" stroke={BRAND_BROWN} strokeWidth="25" />
+      <g clipPath={`url(#${clip})`}>{scene(BRAND_BROWN)}</g>
     </svg>
-  );
+  )
+}
+
+/** Under 24px and app icons — a filled disc with the figure cut out of it. */
+export function BrandMarkSolid({ className }: { className?: string }) {
+  const clip = useId()
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className={className}>
+      <defs>
+        <clipPath id={clip}>
+          <circle cx="256" cy="256" r="240" />
+        </clipPath>
+      </defs>
+      <circle cx="256" cy="256" r="240" fill={BRAND_BROWN} />
+      <g clipPath={`url(#${clip})`}>{scene(BRAND_CREAM)}</g>
+    </svg>
+  )
 }

@@ -4,14 +4,41 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Per-route, not global. blog-posts.json is read with fs at module load, so
+  // every route that imports @/data/blog-posts has to name it here. A route
+  // left out still builds and still works locally -- it serves empty data in
+  // production only, which is why all five importers are listed explicitly.
   outputFileTracingIncludes: {
     '/[locale]/giant/[slug]': [
       './src/data/narratives/**/*',
       './src/data/fact-layers/**/*',
-      './src/data/wikipedia-links.json'
+      './src/data/wikipedia-links.json',
+      './src/data/blog-posts.json'
     ],
+    '/[locale]/blog': ['./src/data/blog-posts.json'],
+    '/[locale]/blog/[slug]': ['./src/data/blog-posts.json'],
+    '/[locale]': ['./src/data/blog-posts.json'],
+    '/sitemap/[id]': ['./src/data/blog-posts.json'],
   },
   experimental: {
+    // Generate the static pages in one worker instead of one per core.
+    //
+    // vercel.json sets NODE_OPTIONS=--max-old-space-size=7168 so the compile
+    // step survives the 61MB blog-posts.ts. NODE_OPTIONS is inherited by every
+    // child process, so on a 4-core / 8GB build machine the default three
+    // static-generation workers each believe they may grow to 7GB. They do not
+    // reach it, but they stop collecting early enough that the box starts
+    // swapping, and the build sits at "Generating static pages (0/304)"
+    // indefinitely rather than failing.
+    //
+    // One worker at 7GB fits. 304 pages generate sequentially, which is slower
+    // than three-way parallelism but finishes, and the compile step is
+    // unaffected because it is a single process either way.
+    //
+    // This is treating the symptom. The cause is that every worker has to load
+    // a 61MB TypeScript literal; moving that file to .json is the real fix.
+    cpus: 1,
+    workerThreads: false,
   },
   async redirects() {
     const removedSlugs = ['elon-musk', 'oprah-winfrey', 'jk-rowling', 'malala-yousafzai', 'rigoberta-menchu'];

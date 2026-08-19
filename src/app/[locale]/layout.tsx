@@ -1,37 +1,7 @@
 import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { giantsData } from "@/data/giants";
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Nanum_Myeongjo, Noto_Sans_KR } from "next/font/google";
-import Script from "next/script";
-import { LazyMotion, domAnimation } from "framer-motion";
-import "../globals.css";
-import Footer from "@/components/footer";
-import { CookieBanner, ConsentScripts } from "@/components/cookie-banner";
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
-import { notFound } from 'next/navigation';
-import { routing } from '@/i18n/routing';
-
-const playfair = Playfair_Display({ 
-  subsets: ["latin"],
-  variable: '--font-playfair',
-  display: 'swap',
-});
-
-const nanumMyeongjo = Nanum_Myeongjo({
-  weight: ['400', '700', '800'],
-  subsets: ['latin'],
-  variable: '--font-nanum-myeongjo',
-  display: 'swap',
-});
-
-const notoSans = Noto_Sans_KR({
-  weight: ['300', '400', '500', '700', '900'],
-  subsets: ['latin'],
-  variable: '--font-noto-sans',
-  display: 'swap',
-});
-
+import { notoSansDevanagari } from "../fonts";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({
@@ -56,9 +26,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     robots: { index: isLocaleIndexed(locale), follow: isLocaleIndexed(locale) },
     metadataBase: new URL('https://www.giantswisdom.com'),
     alternates: buildSEOAlternates('/', locale),
+    // Sub-page titles carry the brand, not the localized phrase: they read
+    // better short, and the localized keyword is already covered by keywords
+    // below and by the home <title>.
     title: {
       default: t('metaTitle'),
-      template: `%s | ${t('mainTitle')}`
+      template: '%s | Giants Wisdom'
     },
     description: t('metaDescription', { count: giantsData.length }),
     keywords,
@@ -67,14 +40,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     openGraph: {
       title: t('metaTitle'),
       description: t('metaDescription', { count: giantsData.length }),
-      siteName: t('mainTitle'),
+      // siteName is the site attribution a social card prints above the
+      // thumbnail, not a page title. Localizing it would make one site look
+      // like 24 different ones to Kakao, Facebook and LinkedIn.
+      siteName: 'Giants Wisdom',
       type: 'website',
       locale: locale,
       images: [{
         url: 'https://www.giantswisdom.com/og-default.jpg',
         width: 1200,
         height: 630,
-        alt: `${t('mainTitle')} - AI Historical Mentors & Wisdom Archive`
+        alt: `Giants Wisdom — ${t('mainTitle')}`
       }]
     },
     twitter: {
@@ -98,8 +74,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export const viewport: Viewport = {
+<<<<<<< HEAD
   themeColor: '#0B0B0C',
   colorScheme: 'dark',
+=======
+  themeColor: '#FAF7F0',
+  colorScheme: 'light',
+>>>>>>> origin/main
   width: 'device-width',
   initialScale: 1,
 };
@@ -130,8 +111,22 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${playfair.variable} ${nanumMyeongjo.variable} ${notoSans.variable} bg-background scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
+    <html lang={locale} dir={['ar', 'fa', 'he'].includes(locale) ? 'rtl' : 'ltr'} className={`${notoSansDevanagari.variable} motion-safe:scroll-smooth overflow-x-hidden`} suppressHydrationWarning>
       <head>
+        {/* Pretendard arrived through an @import at the top of globals.css,
+            which made the browser fetch globals.css, parse it, fetch the CDN
+            stylesheet, parse that, and only then fetch the subset -- three
+            serial round trips before the first glyph could be drawn in the
+            right face. As a link here the stylesheet request starts alongside
+            globals.css rather than after it, and the preconnect opens the CDN
+            connection while that is in flight. Self-hosting would remove the
+            third party altogether; that is a separate change. */}
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css"
+        />
+
         {/* Google Consent Mode v2 — gtag.js보다 먼저 동기 실행되어야 함 */}
         <script
           dangerouslySetInnerHTML={{

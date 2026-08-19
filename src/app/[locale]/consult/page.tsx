@@ -2,6 +2,29 @@ import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { ConsultClient } from "@/components/consult-client"
 import { Navigation } from "@/components/navigation"
 import { getTranslations } from "next-intl/server"
+import { eraForLocale } from "@/lib/era"
+import fs from "fs"
+import path from "path"
+
+// The era phrases come from giants-summary.json, the same source the giant
+// detail page, the cards and the blog read. They used to come from
+// messages.Giants.<slug>.era, which still holds a "Giants of History"
+// placeholder for 44 of the 493. The file is 10.8MB, so it is read here and
+// only the resolved strings — roughly 20KB — travel to the client.
+const summaryPath = path.join(process.cwd(), "src/data/giants-summary.json")
+let giantsSummary: Record<string, any> = {}
+if (fs.existsSync(summaryPath)) {
+  giantsSummary = JSON.parse(fs.readFileSync(summaryPath, "utf-8"))
+}
+
+function buildEraMap(locale: string): Record<string, string> {
+  const map: Record<string, string> = {}
+  for (const slug of Object.keys(giantsSummary)) {
+    const era = eraForLocale(giantsSummary[slug], locale)
+    if (era) map[slug] = era.replace(/^\[(?:RTL\s+)?[a-z]{2,3}\]\s*/i, "").trim()
+  }
+  return map
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -32,7 +55,7 @@ export default async function ConsultPage({ params }: { params: Promise<{ locale
   return (
     <>
       <Navigation />
-      <ConsultClient locale={locale} />
+      <ConsultClient locale={locale} eraBySlug={buildEraMap(locale)} />
     </>
   );
 }

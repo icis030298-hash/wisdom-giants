@@ -5,6 +5,7 @@ import Image from "next/image"
 import { GiantImage } from "./ui/giant-image"
 import { X, Send, Sparkles, RefreshCw, Lightbulb, History } from "lucide-react"
 import type { Giant } from "@/lib/giants-data"
+import { eraLabel } from "@/lib/era"
 import { ShareCard } from "./chat/ShareCard"
 import { getGiantResponse } from "@/lib/gemini"
 import { giantsData } from "@/data/giants"
@@ -27,6 +28,10 @@ interface ChatInterfaceProps {
   onClose: () => void
   initialChatId?: string
   problemId?: string
+  /** Era phrase resolved from giants-summary.json by the caller. The messages
+   *  catalogue carried a "Giants of History" placeholder for 44 of the 493,
+   *  and giants-summary.json is 10.8MB, so it cannot be read from here. */
+  era?: string
 }
 
 // Helper to render markdown bold (**text**) as <strong> elements
@@ -35,7 +40,7 @@ const formatMessage = (content: string) => {
   const parts = content.split(/(\*\*.*?\*\*)/g);
   return parts.map((part, idx) => {
     if (part.startsWith("**") && part.endsWith("**")) {
-      return <strong key={idx} className="font-bold text-amber-300">{part.slice(2, -2)}</strong>;
+      return <strong key={idx} className="font-bold rd-text-ink">{part.slice(2, -2)}</strong>;
     }
     return part;
   });
@@ -55,8 +60,9 @@ const getKoreanParticle = (name: string, type: '이가' | '과와' | '은는' | 
   return type === '이가' ? '이(가)' : type === '과와' ? '과(와)' : '';
 };
 
-function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProblemId }: ChatInterfaceProps) {
+function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProblemId, era }: ChatInterfaceProps) {
   const t = useTranslations("Chat")
+  const tChatUI = useTranslations("ChatUI")
   const tg = useTranslations("Giants")
   const tgGrid = useTranslations("GiantsGrid")
   const tShare = useTranslations("ShareCard")
@@ -83,15 +89,20 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
   const [isRestoredChat, setIsRestoredChat] = useState(false)
   const [shareData, setShareData] = useState<{ userMessage: string; giantResponse: string } | null>(null)
   
-  const { addGiant } = useGiantHistory()
+  const { markGiantRead } = useGiantHistory()
 
-  // Record meeting this giant if the user has typed at least one message
+  // Record meeting this giant if the user has typed at least one message.
+  //
+  // Reading the story is the main way the gauge moves now (see the observer in
+  // giant-detail-client), but this stays: /consult lets you talk to a giant
+  // without ever opening their detail page, and dropping it would quietly stop
+  // counting those.
   useEffect(() => {
     const hasUserSpoken = messages.some(m => m.role === "user");
     if (hasUserSpoken) {
-      addGiant(giant.slug);
+      markGiantRead(giant.slug);
     }
-  }, [messages, giant.slug, addGiant]);
+  }, [messages, giant.slug, markGiantRead]);
 
   const getPrecedingUserMessage = (msgId: string) => {
     const currentIndex = messages.findIndex(m => m.id === msgId);
@@ -370,11 +381,10 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
       } as any)[giant.category.toLowerCase()] : null) || giant.category;
   
   return (
-    <div className="fixed inset-0 z-50 flex flex-col md:items-center md:justify-center p-0 md:p-4 bg-background/85 md:backdrop-blur-xl overflow-hidden h-[100dvh] overscroll-contain">
+    <div className="fixed inset-0 z-50 flex flex-col md:items-center md:justify-center p-0 md:p-4 overflow-hidden h-[100dvh] overscroll-contain rd-scrim">
       {/* Ambient glow */}
-      <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-gradient-to-br ${giant.color} opacity-30 blur-3xl pointer-events-none`} />
       
-      <div className="relative w-full max-w-md mx-auto md:max-w-5xl h-full md:h-[90vh] md:max-h-[800px] glass-card rounded-none md:rounded-3xl overflow-hidden flex flex-col md:flex-row animate-fade-in-up flex-1 md:flex-none">
+      <div className="relative w-full max-w-md mx-auto md:max-w-5xl h-full md:h-[90vh] md:max-h-[800px] rd-surface overflow-hidden flex flex-col md:flex-row animate-fade-in-up flex-1 md:flex-none">
         {/* Detail View (Left on desktop) */}
         <div className="hidden md:flex w-80 lg:w-96 border-r border-border/50 flex-col bg-muted/30 shrink-0">
           <div className="relative aspect-[4/5] w-full overflow-hidden">
@@ -383,62 +393,63 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
               alt={tg(`${giant.slug}.name`)}
               fill
               sizes="(max-width: 768px) 100vw, 384px"
-              className="object-cover object-top"
+              className="rd-portrait object-cover object-top"
               unoptimized={true}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">
-              <h2 className="font-serif text-3xl font-bold text-foreground mb-1">{tg(`${giant.slug}.name`)}</h2>
-              <p className="text-amber-400 font-medium">{tg(`${giant.slug}.headline`)}</p>
+              <h2 className="font-serif text-3xl font-bold rd-text-ink mb-1">{tg(`${giant.slug}.name`)}</h2>
+              <p className="rd-accent font-medium">{tg(`${giant.slug}.headline`)}</p>
             </div>
           </div>
           
           <div className="p-6 space-y-6 overflow-y-auto flex-1">
             <div>
-              <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2">{t("historyEra")}</h4>
-              <p className="text-sm text-foreground leading-relaxed">{tg(`${giant.slug}.era`)}</p>
+              <h4 className="rd-caption font-bold mb-2">{t("historyEra")}</h4>
+              <p className="text-sm rd-text-body leading-relaxed">{eraLabel(era || giant.era)}</p>
             </div>
             
             <div>
-              <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2">{t("fieldOfWisdom")}</h4>
-              <span className="px-2 py-1 rounded-md bg-amber-500/10 text-amber-300 text-xs border border-amber-500/20 inline-block">
+              <h4 className="rd-caption font-bold mb-2">{t("fieldOfWisdom")}</h4>
+              <span className="px-2 py-1 rounded-md rd-accent text-xs border rd-hairline inline-block" style={{ background: "var(--rd-divider-faint)" }}>
                 {categoryLabel}
               </span>
             </div>
             
             <div>
-              <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2">{t("famousQuote")}</h4>
-              <blockquote className="text-sm italic text-muted-foreground border-l-2 border-amber-500/30 pl-4 py-1">
+              <h4 className="rd-caption font-bold mb-2">{t("famousQuote")}</h4>
+              <blockquote className="text-sm rd-quote py-1">
                 &ldquo;{tg(`${giant.slug}.quote`)}&rdquo;
               </blockquote>
             </div>
             
             <div>
-              <h4 className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-2">{t("description")}</h4>
-              <p className="text-xs text-muted-foreground/80 leading-relaxed">{tg(`${giant.slug}.shortDescription`)}</p>
+              <h4 className="rd-caption font-bold mb-2">{t("description")}</h4>
+              <p className="text-xs rd-text-body leading-relaxed">{tg(`${giant.slug}.shortDescription`)}</p>
             </div>
           </div>
         </div>
 
         {/* Chat Area (Right on desktop) */}
-        <div className="flex-1 flex flex-col min-w-0 bg-background/50 h-full overflow-hidden relative">
+        <div className="flex-1 flex flex-col min-w-0 h-full overflow-hidden relative" style={{ background: "var(--rd-bg-base)" }}>
           {/* Pinned Sticky Header */}
-          <div className="px-6 py-4 border-b border-border/50 flex items-center justify-between gap-4 bg-background/95 backdrop-blur-md sticky top-0 z-20 shrink-0">
+          <div className="px-6 py-4 rd-hairline-bottom flex items-center justify-between gap-4 rd-bg-surface sticky top-0 z-20 shrink-0">
             <div className="flex items-center gap-3">
-              <div className="relative w-10 h-10 rounded-full overflow-hidden bg-muted flex items-center justify-center shrink-0 ring-2 ring-amber-500/20">
+              <div className="relative w-10 h-10 rounded-full overflow-hidden flex items-center justify-center shrink-0 border rd-hairline"
+              style={{ background: "var(--rd-divider-faint)" }}>
                 <Image 
                   src={giant.imageUrl} 
                   alt={tg(`${giant.slug}.name`)}
                   fill
                   sizes="40px"
-                  className="object-cover object-top"
+                  className="rd-portrait object-cover object-top"
                 />
               </div>
               <div>
-                <h3 className="font-serif text-lg font-semibold text-foreground leading-tight">{tg(`${giant.slug}.name`)}</h3>
+                <h3 className="font-serif text-lg font-semibold rd-text-ink leading-tight">{tg(`${giant.slug}.name`)}</h3>
                 <div className="flex items-center gap-1.5 mt-0.5">
-                  <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                  <span className="text-[10px] text-muted-foreground uppercase tracking-tighter">{t("wisdomActive")}</span>
+                  <div className="w-1.5 h-1.5 rounded-full" style={{ background: "var(--rd-accent-brown)" }} />
+                  <span className="rd-caption">{t("wisdomActive")}</span>
                 </div>
               </div>
             </div>
@@ -446,7 +457,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
             <div className="flex items-center gap-2">
               <button 
                 onClick={onClose}
-                className="p-2 rounded-lg glass hover:bg-red-500/10 text-muted-foreground hover:text-red-400 transition-all cursor-pointer"
+                className="p-2 rounded-lg border rd-hairline rd-bg-surface rd-text-muted hover:opacity-70 transition-opacity cursor-pointer"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -455,35 +466,22 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
           
           {/* Restored chat badge */}
           {isRestoredChat && (
-            <div className="px-5 py-2 bg-amber-500/10 border-b border-amber-500/20 flex items-center justify-center gap-2 text-xs text-amber-400 font-medium shrink-0">
+            <div className="px-5 py-2 rd-hairline-bottom flex items-center justify-center gap-2 text-xs rd-accent font-medium shrink-0"
+              style={{ background: "var(--rd-divider-faint)" }}>
               <History className="w-3 h-3" />
-              {locale === 'ko' ? '이전 대화 이어가기' : 'Continue Previous Chat'}
+              {tChatUI('continuePreviousChat')}
             </div>
           )}
 
           {/* Independently Scrollable Messages Area */}
           <div className="flex-1 overflow-y-auto p-6 space-y-6 custom-scrollbar min-h-0 overscroll-contain">
             {isLoadingHistory ? (
-              <div className="flex flex-col items-center justify-center h-full gap-3 text-muted-foreground px-6 text-center">
-                <div className="w-6 h-6 border-2 border-amber-500/40 border-t-amber-500 rounded-full animate-spin" />
+              <div className="flex flex-col items-center justify-center h-full gap-3 rd-text-muted px-6 text-center">
+                <div className="w-6 h-6 rounded-full animate-spin" style={{ border: "2px solid var(--rd-divider-faint)", borderTopColor: "var(--rd-accent-brown)" }} />
                 <span className="text-xs max-w-xs leading-relaxed">
                   {problemId === 'custom' && !isRestoredChat
-                    ? (locale === 'ko' 
-                        ? '위인이 자네의 고민을 조용히 읽어내려가며 생각을 정리하고 있네...' 
-                        : locale === 'ja'
-                        ? '偉人があなたの悩みを静かに読み下しながら、考えをまとめています...'
-                        : locale === 'de'
-                        ? 'Der Riese liest schweigend deine Sorgen und sammelt seine Gedanken...'
-                        : locale === 'es'
-                        ? 'El gigante está leyendo en silencio tu preocupación y reuniendo sus pensamientos...'
-                        : locale === 'fr'
-                        ? 'Le géant lit silencieusement votre inquiétude et rassemble ses pensées...'
-                        : locale === 'it'
-                        ? 'Il gigante sta leggendo in silenzio la tua preocupazione e sta raccogliendo i suoi pensieri...'
-                        : locale === 'pt'
-                        ? 'O gigante está lendo silenciosamente sua preocupação e reunindo seus pensamentos...'
-                        : 'The giant is quietly reading your worry and gathering their thoughts...')
-                    : (locale === 'ko' ? '대화 기록을 불러오는 중...' : 'Loading chat history...')}
+                    ? (tChatUI('theGiantIsQuietly'))
+                    : (tChatUI('loadingChatHistory'))}
                 </span>
               </div>
             ) : messages.map((message) => (
@@ -495,16 +493,17 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                   {/* Avatar for giant */}
                   {message.role === "giant" && (
                     <div className="flex items-center gap-2 mb-2 ml-1">
-                      <div className="relative w-6 h-6 rounded-md overflow-hidden bg-muted flex items-center justify-center ring-1 ring-amber-500/20">
+                      <div className="relative w-6 h-6 rounded-md overflow-hidden flex items-center justify-center border rd-hairline"
+                      style={{ background: "var(--rd-divider-faint)" }}>
                         <Image 
                           src={giant.imageUrl} 
                           alt={tg(`${giant.slug}.name`)}
                           fill
                           sizes="24px"
-                          className="object-cover object-top"
+                          className="rd-portrait object-cover object-top"
                         />
                       </div>
-                      <span className="text-[10px] text-muted-foreground">
+                      <span className="rd-caption">
                         {(tg(`${giant.slug}.name`) || "").split(" ")[0]}
                       </span>
                     </div>
@@ -513,8 +512,8 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                   <div
                     className={`rounded-2xl px-5 py-3.5 shadow-sm ${
                       message.role === "user"
-                        ? "bg-amber-500/10 text-foreground border border-amber-500/30 rounded-tr-sm"
-                        : "glass border border-border/50 rounded-tl-sm"
+                        ? "rd-bubble-user rounded-tr-sm"
+                        : "rd-bubble-giant rounded-tl-sm"
                     }`}
                   >
                     <p className="text-sm leading-relaxed whitespace-pre-wrap">
@@ -523,7 +522,8 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                     {message.role === "giant" && message.content === t("error") && (
                       <button
                         onClick={handleRetry}
-                        className="mt-3 flex items-center gap-2 text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors py-1 px-2 rounded-md bg-amber-500/10 border border-amber-500/20"
+                        className="mt-3 flex items-center gap-2 text-xs font-bold rd-accent hover:opacity-80 transition-opacity py-1 px-2 rounded-md border rd-hairline"
+                        style={{ background: "var(--rd-divider-faint)" }}
                       >
                         <RefreshCw className="w-3 h-3" />
                         {t("retry") || "Retry"}
@@ -532,7 +532,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                   </div>
                   
                   <div className={`flex items-center gap-2 mt-1.5 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
-                    <span className="text-[10px] text-muted-foreground">
+                    <span className="rd-caption">
                       {message.timestamp.toLocaleTimeString(locale, { hour: "2-digit", minute: "2-digit" })}
                     </span>
                     {message.role === "giant" && message.content !== t("error") && (
@@ -544,7 +544,7 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                             giantResponse: message.content
                           });
                         }}
-                        className="text-[10px] text-muted-foreground hover:text-amber-400 transition-colors flex items-center gap-1 px-1.5 py-0.5 rounded hover:bg-amber-500/10 border border-transparent hover:border-amber-500/20 cursor-pointer"
+                        className="rd-caption hover:opacity-70 transition-opacity flex items-center gap-1 px-1.5 py-0.5 rounded cursor-pointer"
                       >
                         <span>📤</span>
                         <span>{tShare("shareButton")}</span>
@@ -558,14 +558,14 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
             {/* Typing indicator */}
             {isTyping && (
               <div className="flex justify-start">
-                <div className="glass rounded-2xl rounded-tl-sm px-5 py-4 border border-border/50">
+                <div className="rd-bubble-giant rounded-tl-sm px-5 py-4">
                   <div className="flex items-center gap-2">
                     <div className="flex gap-1">
-                      <span className="w-2 h-2 bg-amber-400/60 rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
-                      <span className="w-2 h-2 bg-amber-400/60 rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
-                      <span className="w-2 h-2 bg-amber-400/60 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
+                      <span className="w-2 h-2 rounded-full animate-bounce" style={{ background: "var(--rd-text-muted)" }} style={{ animationDelay: "0ms" }} />
+                      <span className="w-2 h-2 rounded-full animate-bounce" style={{ background: "var(--rd-text-muted)" }} style={{ animationDelay: "150ms" }} />
+                      <span className="w-2 h-2 rounded-full animate-bounce" style={{ background: "var(--rd-text-muted)" }} style={{ animationDelay: "300ms" }} />
                     </div>
-                    <span className="text-xs text-muted-foreground ml-2">
+                    <span className="text-xs rd-text-muted ml-2">
                       {locale === 'ko'
                         ? `${(tg(`${giant.slug}.name`) || "").split(" ")[0]}${getKoreanParticle((tg(`${giant.slug}.name`) || "").split(" ")[0], '이가')} 생각 중입니다...`
                         : t("contemplating", { name: (tg(`${giant.slug}.name`) || "").split(" ")[0] })}
@@ -580,17 +580,17 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
           
           {/* Suggested questions (disappears instantly on first submit for clean layout) */}
           {messages.length === 1 && (
-            <div className="px-6 py-3 border-t border-border/50 bg-amber-500/5 shrink-0">
+            <div className="px-6 py-3 shrink-0" style={{ borderTop: "1px solid var(--rd-border)", background: "var(--rd-divider-faint)" }}>
               <div className="flex items-center gap-2 mb-2">
-                <Lightbulb className="w-4 h-4 text-amber-400/60" />
-                <span className="text-[10px] text-muted-foreground uppercase font-bold tracking-tight">{t("suggestedQuestions")}</span>
+                <Lightbulb className="w-4 h-4 rd-accent" />
+                <span className="rd-caption font-bold">{t("suggestedQuestions")}</span>
               </div>
               <div className="flex flex-wrap gap-2 pb-1">
                 {Array.isArray(suggestedQuestions) && suggestedQuestions.map((question, i) => (
                   <button
                     key={i}
                     onClick={(e) => handleSuggestedQuestion(question, e)}
-                    className="px-3 py-2 text-xs glass rounded-lg text-muted-foreground hover:text-foreground hover:bg-amber-500/10 transition-all text-left whitespace-normal max-w-full cursor-pointer"
+                    className="px-3 py-2 text-xs border rd-hairline rd-bg-surface rd-text-body hover:opacity-80 transition-opacity rounded-lg text-left whitespace-normal max-w-full cursor-pointer"
                   >
                     {question}
                   </button>
@@ -600,9 +600,9 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
           )}
           
           {/* Pinned Sticky Input Area */}
-          <div className="px-6 py-4 border-t border-border/50 bg-background/95 backdrop-blur-md relative z-10 shrink-0 sticky bottom-0">
+          <div className="px-6 py-4 rd-bg-surface relative z-10 shrink-0 sticky bottom-0" style={{ borderTop: "1px solid var(--rd-border)" }}>
             <div className="flex items-center gap-3">
-              <button className="p-2.5 rounded-xl glass hover:bg-amber-500/10 text-muted-foreground hover:text-amber-400 transition-all cursor-pointer">
+              <button className="p-2.5 rounded-xl border rd-hairline rd-bg-surface rd-text-muted hover:opacity-70 transition-opacity cursor-pointer">
                 <RefreshCw className="w-5 h-5" />
               </button>
               
@@ -624,37 +624,28 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                     }
                   }}
                   placeholder={t("inputPlaceholder", { name: (tg(`${giant.slug}.name`) || "").split(" ")[0] })}
-                  className="w-full px-5 py-3 rounded-xl glass-card bg-transparent border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-amber-500/50 focus:ring-1 focus:ring-amber-500/20 transition-all pr-12 text-sm resize-none custom-scrollbar"
+                  className="w-full px-5 py-3 border rd-input rd-bg-surface rd-text-ink focus:outline-none transition-all pr-12 text-sm resize-none custom-scrollbar"
                   rows={1}
                   style={{ minHeight: "46px", maxHeight: "150px" }}
                 />
-                <Sparkles className="absolute right-4 bottom-[15px] w-4 h-4 text-amber-400/40 pointer-events-none" />
               </div>
               
               <button
                 onClick={handleSend}
                 disabled={!input.trim() || isTyping}
-                className="p-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-primary-foreground hover:shadow-lg hover:shadow-amber-500/25 disabled:opacity-50 disabled:cursor-not-allowed transition-all cursor-pointer"
+                className="p-3 rounded-xl rd-bg-accent border hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-opacity cursor-pointer"
+                style={{ borderColor: "var(--rd-accent-brown)" }}
               >
                 <Send className="w-5 h-5" />
               </button>
             </div>
             
-            <p className="text-center text-[10px] text-muted-foreground/60 max-w-md mx-auto leading-relaxed mt-3">
-              {locale === 'ko' ? "Giants Wisdom은 AI 챗봇으로서 실수를 할 수 있으므로, 중요한 정보는 위인의 실제 역사적 기록을 통해 한 번 더 확인하시기 바랍니다."
-               : locale === 'ja' ? "Giants WisdomはAI chatbotであり、誤った情報を表示することがあります。重要な情報は実際の歴史的記録でご確認ください。"
-               : "Giants Wisdom may display inaccurate info, including about people, so double-check its responses with historical records."}
+            <p className="text-center rd-caption max-w-md mx-auto leading-relaxed mt-3">
+              {tChatUI('giantsWisdomMayDisplay')}
             </p>
             
-            <p className="text-center text-[10px] text-muted-foreground mt-2 uppercase tracking-widest font-medium opacity-50">
-              {locale === 'ko' ? "과거의 메아리 • 시간을 초월한 지혜"
-               : locale === 'ja' ? "過去の残響 • 時を超える知恵"
-               : locale === 'de' ? "Echos der Vergangenheit • Weisheit durch die Zeit"
-               : locale === 'es' ? "Ecos del pasado • Sabiduría a través del tempo"
-               : locale === 'fr' ? "Échos du passé • Sagesse à travers le temps"
-               : locale === 'it' ? "Echi del passato • Saggezza attraverso il tempo"
-               : locale === 'pt' ? "Ecos do passado • Sabedoria através do tempo"
-               : "Echoes of the Past • Wisdom Through Time"}
+            <p className="text-center rd-caption mt-2 font-medium">
+              {tChatUI('echoesOfThePast')}
             </p>
           </div>
         </div>
