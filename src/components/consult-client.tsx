@@ -478,7 +478,7 @@ export function ConsultClient({ locale, eraBySlug }: ConsultClientProps) {
               {/* Predefined Categories (First 3) */}
               <div className="w-full max-w-4xl mx-auto mb-8 grid grid-cols-1 md:grid-cols-3 gap-4">
                 {PROBLEM_CATEGORIES.slice(0, 3).map((problem) => {
-                  const t = problem.translations[locale] || problem.translations['en']
+                  const t = (problem.translations as any)[locale] || problem.translations['en']
                   return (
                     <button
                       key={problem.id}
@@ -577,7 +577,7 @@ export function ConsultClient({ locale, eraBySlug }: ConsultClientProps) {
                 </div>
 
                 <div className="space-y-6">
-                  {matchedGiants.map((giant) => (
+                  {matchedGiants.map((giant: any) => (
                     <m.div
                       key={giant.slug}
                       initial={false}

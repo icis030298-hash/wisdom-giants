@@ -561,9 +561,9 @@ function ChatInterfaceInner({ giant, onClose, initialChatId, problemId: propProb
                 <div className="rd-bubble-giant rounded-tl-sm px-5 py-4">
                   <div className="flex items-center gap-2">
                     <div className="flex gap-1">
-                      <span className="w-2 h-2 rounded-full animate-bounce" style={{ background: "var(--rd-text-muted)" }} style={{ animationDelay: "0ms" }} />
-                      <span className="w-2 h-2 rounded-full animate-bounce" style={{ background: "var(--rd-text-muted)" }} style={{ animationDelay: "150ms" }} />
-                      <span className="w-2 h-2 rounded-full animate-bounce" style={{ background: "var(--rd-text-muted)" }} style={{ animationDelay: "300ms" }} />
+                      <span className="w-2 h-2 rounded-full animate-bounce" style={{ background: "var(--rd-text-muted)", animationDelay: "0ms" }} />
+                      <span className="w-2 h-2 rounded-full animate-bounce" style={{ background: "var(--rd-text-muted)", animationDelay: "150ms" }} />
+                      <span className="w-2 h-2 rounded-full animate-bounce" style={{ background: "var(--rd-text-muted)", animationDelay: "300ms" }} />
                     </div>
                     <span className="text-xs rd-text-muted ml-2">
                       {locale === 'ko'

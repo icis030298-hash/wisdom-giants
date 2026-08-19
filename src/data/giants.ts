@@ -18,6 +18,7 @@ export interface Giant {
   imageUrl: string;
   dnaCode: string;
   era?: string;
+  tagline?: string;
 }
 
 export const giantsData: Giant[] = [

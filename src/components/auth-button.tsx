@@ -46,7 +46,7 @@ export function AuthButton() {
   const locale = useLocale()
   
   const handleDeleteAccount = async () => {
-    if (!auth || !user || !db) return
+    if (!user || !db || !auth) return
 
     if (!confirm(t('areYouSureYou'))) {
       return

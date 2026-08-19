@@ -105,8 +105,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const giantData = (messages.Giants as any)[giant.slug] || {
     name: giant.name,
-    headline: giant.headline,
-    shortDescription: giant.shortDescription,
+    headline: (giant as any).headline || "",
+    shortDescription: (giant as any).shortDescription || giant.description,
     quote: giant.quote
   };
 
@@ -337,8 +337,8 @@ export default async function GiantDetailPage({ params }: Props) {
 
   const giantTranslation = (messages.Giants as any)[giant.slug] || {
     name: giant.name,
-    headline: giant.headline,
-    shortDescription: giant.shortDescription,
+    headline: (giant as any).headline || "",
+    shortDescription: (giant as any).shortDescription || giant.description,
     pain: "Data being updated.",
     recovery: "Data being updated.",
     lessons: [],

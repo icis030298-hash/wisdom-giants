@@ -33,7 +33,7 @@ export async function POST(req: NextRequest) {
     let giantName = giantSlug;
 
     if (gp) {
-      giantName = gp.name;
+      giantName = (gp as any).name || giantSlug;
       const detail = lang === 'ko' ? gp.ko : gp.en;
       customPersonaText = `
 [Core Philosophy]
@@ -55,7 +55,7 @@ ${detail.style}
 `;
       }
     } else if (deepPersona) {
-      giantName = deepPersona.name?.[lang] || giantSlug;
+      giantName = (deepPersona as any).name?.[lang] || giantSlug;
       customPersonaText = `
 [Core Philosophy]
 ${deepPersona.corePhilosophy[lang]}
