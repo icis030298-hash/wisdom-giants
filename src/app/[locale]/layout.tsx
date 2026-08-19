@@ -2,6 +2,16 @@ import { buildSEOAlternates, isLocaleIndexed } from "@/config/locale-status";
 import { giantsData } from "@/data/giants";
 import type { Metadata, Viewport } from "next";
 import { notoSansDevanagari } from "../fonts";
+import Script from "next/script";
+import { LazyMotion, domAnimation } from "framer-motion";
+import "../globals.css";
+import Footer from "@/components/footer";
+import { CookieBanner, ConsentScripts } from "@/components/cookie-banner";
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+import { routing } from '@/i18n/routing';
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({
@@ -74,13 +84,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export const viewport: Viewport = {
-<<<<<<< HEAD
-  themeColor: '#0B0B0C',
-  colorScheme: 'dark',
-=======
   themeColor: '#FAF7F0',
   colorScheme: 'light',
->>>>>>> origin/main
   width: 'device-width',
   initialScale: 1,
 };
