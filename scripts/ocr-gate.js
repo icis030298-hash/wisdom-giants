@@ -4,7 +4,8 @@ let worker = null;
 
 async function getWorker() {
   if (!worker) {
-    worker = await createWorker(['eng', 'chi_sim']);
+    // eng+chi_sim+jpn+kor+ara+deu+fra+hin+rus
+    worker = await createWorker(['eng', 'chi_sim', 'jpn', 'kor', 'ara', 'deu', 'fra', 'hin', 'rus']);
   }
   return worker;
 }
