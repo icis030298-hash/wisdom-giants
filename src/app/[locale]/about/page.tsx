@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
 import { AboutPageClient } from './about-client'
 
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
-export const fetchCache = 'force-no-store'
+export const revalidate = 604800; // 7 days: cache static about page
 
 interface Props {
   params: Promise<{ locale: string }>

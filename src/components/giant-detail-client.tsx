@@ -1051,7 +1051,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-background/95 backdrop-blur-2xl"
+            className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-4 md:p-6 bg-black/85 backdrop-blur-lg"
           >
             {/* Background Effects */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -1059,49 +1059,51 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
             </div>
 
             <m.div
-              initial={{ scale: 0.9, y: 20 }}
+              initial={{ scale: 0.95, y: 20 }}
               animate={{ scale: 1, y: 0 }}
-              exit={{ scale: 0.9, y: 20 }}
-              className="relative w-full max-w-2xl glass-card rounded-[3rem] p-8 md:p-12 border border-amber-500/30 text-center shadow-[0_0_50px_rgba(245,158,11,0.2)] overflow-y-auto max-h-[90vh]"
+              exit={{ scale: 0.95, y: 20 }}
+              className="relative w-full max-w-2xl bg-slate-900/95 border border-amber-500/30 rounded-3xl shadow-2xl shadow-black/80 flex flex-col max-h-[90vh] overflow-hidden"
             >
               <button 
                 onClick={() => setShowMatchOverlay(false)}
-                className="absolute top-6 right-6 p-2 rounded-full hover:bg-white/5 transition-colors"
+                className="absolute top-4 right-4 z-20 p-2 rounded-full bg-slate-800/80 hover:bg-slate-700 text-slate-400 hover:text-slate-100 transition-colors border border-white/5 cursor-pointer"
               >
-                <X className="w-6 h-6 text-muted-foreground" />
+                <X className="w-5 h-5" />
               </button>
 
-              <div className="space-y-8">
+              <div className="overflow-y-auto custom-scrollbar p-6 md:p-10 space-y-6 text-center">
                 <m.div
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ type: "spring", delay: 0.2 }}
-                  className="w-20 h-20 rounded-2xl bg-amber-500/20 flex items-center justify-center border border-amber-500/40 mx-auto"
+                  className="w-16 h-16 rounded-2xl bg-amber-500/10 flex items-center justify-center border border-amber-500/30 mx-auto shadow-lg shadow-amber-500/10"
                 >
-                  <Dna className="w-10 h-10 text-amber-400" />
+                  <Dna className="w-8 h-8 text-amber-400" />
                 </m.div>
 
-                <div className="space-y-2">
-                  <h2 className="text-sm font-bold text-amber-500 uppercase tracking-[0.3em]">Perfect Match Found</h2>
-                  <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground">{tt("result.matchFound")}</h2>
+                <div className="space-y-1.5">
+                  <span className="inline-block px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-xs font-bold text-amber-400 uppercase tracking-[0.25em]">
+                    Perfect Match Found
+                  </span>
+                  <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-100">{tt("result.matchFound")}</h2>
                 </div>
 
                 {/* Archetype Card */}
-                <div className="p-8 rounded-[2rem] bg-white/5 border border-white/10 space-y-4">
-                  <div className="flex flex-col items-center gap-2">
-                    <span className="text-[10px] text-muted-foreground uppercase tracking-widest font-bold">{tt("result.archetype")}</span>
-                    <h3 className="text-2xl font-serif font-bold text-amber-300">
+                <div className="p-6 md:p-8 rounded-2xl bg-slate-950/70 border border-amber-500/20 space-y-3 shadow-inner">
+                  <div className="flex flex-col items-center gap-1">
+                    <span className="text-[11px] text-amber-400/80 uppercase tracking-widest font-semibold">{tt("result.archetype")}</span>
+                    <h3 className="text-2xl md:text-3xl font-serif font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-amber-300 to-amber-400">
                       {dna && archetypes[dna]?.name[activeLocale]}
                     </h3>
                   </div>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-slate-300 text-sm md:text-base leading-relaxed max-w-xl mx-auto">
                     {dna && archetypes[dna]?.description[activeLocale]}
                   </p>
                 </div>
 
                 <div className="flex flex-col items-center gap-6">
-                  <div className="flex items-center gap-4">
-                    <div className="relative w-16 h-16 rounded-full overflow-hidden ring-4 ring-amber-500/20 shadow-xl">
+                  <div className="flex items-center gap-4 px-5 py-3 rounded-2xl bg-slate-950/40 border border-amber-500/20">
+                    <div className="relative w-16 h-16 rounded-full overflow-hidden ring-2 ring-amber-500/40 shadow-xl shrink-0">
                       <Image 
                         src={giant.imageUrl} 
                         alt={tg.name}
@@ -1111,15 +1113,15 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                       />
                     </div>
                     <div className="text-left">
-                      <p className="text-xs text-muted-foreground">{tt("result.matchedGiant")}</p>
-                      <p className="text-xl font-bold text-foreground">{tg.name}</p>
+                      <p className="text-xs text-amber-400/80 uppercase font-medium tracking-wide">{tt("result.matchedGiant")}</p>
+                      <p className="text-xl font-serif font-bold text-slate-100">{tg.name}</p>
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full max-w-md">
                     <button
                       onClick={() => setShowMatchOverlay(false)}
-                      className="py-4 px-6 rounded-2xl glass hover:bg-white/5 text-foreground font-bold transition-all border border-white/10"
+                      className="py-3.5 px-6 rounded-xl bg-slate-800/90 hover:bg-slate-700 text-slate-200 font-bold transition-all border border-amber-500/20 shadow-md cursor-pointer"
                     >
                       {tt("result.readEpic")}
                     </button>
@@ -1128,289 +1130,290 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                         setShowMatchOverlay(false)
                         setIsChatOpen(true)
                       }}
-                      className="py-4 px-6 rounded-2xl bg-amber-500 hover:bg-amber-400 text-black font-bold transition-all flex items-center justify-center gap-2 shadow-lg shadow-amber-500/20"
+                      className="py-3.5 px-6 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold transition-all flex items-center justify-center gap-2 shadow-lg shadow-amber-500/20 cursor-pointer"
                     >
                       <MessageCircle className="w-5 h-5" />
                       {tt("result.chatNow")}
                     </button>
                   </div>
                 </div>
-              </div>
 
-              {/* 결과 공유하기 */}
-              <div className="border-t border-white/10 pt-6 space-y-4">
-                <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold">{locale === 'ko' ? '결과 공유하기' : 'Share Results'}</p>
+                {/* 결과 공유하기 */}
+                <div className="border-t border-amber-500/20 pt-6 space-y-4">
+                  <p className="text-xs text-amber-400/80 uppercase tracking-widest font-bold">{locale === 'ko' ? '결과 공유하기' : 'Share Results'}</p>
 
-                {/* Card Type Toggle */}
-                <div className="flex justify-center gap-4 mb-4">
-                  <button
-                    onClick={() => setShareCardType('story')}
-                    className={`flex-1 max-w-[170px] min-h-[48px] px-4 py-2.5 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
-                      shareCardType === 'story'
-                        ? 'bg-amber-500 text-black border-amber-500 shadow-md shadow-amber-500/20'
-                        : 'bg-white/5 text-muted-foreground border-white/10 hover:bg-white/10 hover:text-foreground'
-                    }`}
-                  >
-                    <span>📱</span>
-                    <span>{locale === 'ko' ? '스토리형 (9:16)' : 'Story (9:16)'}</span>
-                  </button>
-                  <button
-                    onClick={() => setShareCardType('square')}
-                    className={`flex-1 max-w-[170px] min-h-[48px] px-4 py-2.5 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
-                      shareCardType === 'square'
-                        ? 'bg-amber-500 text-black border-amber-500 shadow-md shadow-amber-500/20'
-                        : 'bg-white/5 text-muted-foreground border-white/10 hover:bg-white/10 hover:text-foreground'
-                    }`}
-                  >
-                    <span>⬜</span>
-                    <span>{locale === 'ko' ? '정방형 (1:1)' : 'Square (1:1)'}</span>
-                  </button>
-                </div>
-
-                {/* Share Cards */}
-                {shareCardType === 'story' ? (
-                  /* Story card container & preview scale wrapper */
-                  <div 
-                    ref={containerRef} 
-                    className="w-full max-w-[340px] aspect-[9/16] relative overflow-hidden mx-auto rounded-3xl border border-amber-500/30 bg-[#020617] shadow-2xl"
-                    style={{ height: `${340 * 16 / 9}px` }}
-                  >
-                    <div 
-                      ref={storyCardRef}
-                      style={{ 
-                        transform: `scale(${cardScale})`, 
-                        transformOrigin: 'top left', 
-                        width: '1080px', 
-                        height: '1920px',
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                      }}
-                    >
-                      {/* Background Ambient and Stars */}
-                      <div style={{
-                        position: 'absolute',
-                        inset: 0,
-                        background: 'linear-gradient(to bottom, #020617 0%, #0f172a 100%)',
-                        overflow: 'hidden',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'space-between',
-                        padding: '120px 80px',
-                        color: '#ffffff',
-                        fontFamily: 'sans-serif',
-                      }}>
-                        {/* Gradient Ambient Blob */}
-                        <div style={{
-                          position: 'absolute',
-                          top: '30%',
-                          left: '50%',
-                          transform: 'translate(-50%, -50%)',
-                          width: '800px',
-                          height: '800px',
-                          borderRadius: '50%',
-                          background: 'radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, transparent 70%)',
-                          pointerEvents: 'none',
-                        }} />
-                        
-                        {/* Delicate Particle Stars */}
-                        {[
-                          { top: '15%', left: '20%', size: '8px', opacity: 0.4 },
-                          { top: '25%', left: '80%', size: '10px', opacity: 0.6 },
-                          { top: '45%', left: '15%', size: '6px', opacity: 0.3 },
-                          { top: '60%', left: '85%', size: '12px', opacity: 0.5 },
-                          { top: '75%', left: '25%', size: '8px', opacity: 0.4 },
-                          { top: '85%', left: '70%', size: '10px', opacity: 0.5 },
-                        ].map((star, idx) => (
-                          <div key={idx} style={{
-                            position: 'absolute',
-                            top: star.top,
-                            left: star.left,
-                            width: star.size,
-                            height: star.size,
-                            borderRadius: '50%',
-                            backgroundColor: '#f59e0b',
-                            boxShadow: '0 0 12px #f59e0b',
-                            opacity: star.opacity,
-                          }} />
-                        ))}
-
-                        {/* Top: Logo & URL */}
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px', zIndex: 10 }}>
-                          <span style={{ color: '#f59e0b', fontSize: '38px', fontWeight: '900', letterSpacing: '0.15em', fontFamily: 'Georgia, serif' }}>GIANTS WISDOM</span>
-                          <span style={{ color: '#475569', fontSize: '24px', letterSpacing: '0.05em' }}>giantswisdom.com</span>
-                        </div>
-
-                        {/* Divider 1 */}
-                        <div style={{ width: '100%', height: '2px', background: 'linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent)', zIndex: 10 }} />
-
-                        {/* Middle: Giant's circular image (300px) */}
-                        <div style={{ display: 'flex', justifyContent: 'center', zIndex: 10 }}>
-                          <div style={{ 
-                            width: '300px', 
-                            height: '300px', 
-                            borderRadius: '50%', 
-                            overflow: 'hidden', 
-                            border: '6px solid #f59e0b',
-                            boxShadow: '0 0 40px rgba(245, 158, 11, 0.25)' 
-                          }}>
-                            <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
-                          </div>
-                        </div>
-
-                        {/* Middle: DNA label & Type */}
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', textAlign: 'center', zIndex: 10 }}>
-                          <span style={{ color: '#f59e0b', fontSize: '22px', letterSpacing: '0.3em', fontWeight: 'bold' }}>
-                            {locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : 'MY HERITAGE DNA'}
-                          </span>
-                          <h2 style={{ color: '#FEF3C7', fontSize: '54px', fontWeight: '800', fontFamily: 'Georgia, serif', lineHeight: '1.2', margin: '10px 0' }}>
-                            {dna ? archetypes[dna]?.name[activeLocale] : ''}
-                          </h2>
-                          <p style={{ color: '#94A3B8', fontSize: '32px', fontWeight: '500' }}>
-                            {tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}
-                          </p>
-                        </div>
-
-                        {/* Divider 2 */}
-                        <div style={{ width: '100%', height: '2px', background: 'linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent)', zIndex: 10 }} />
-
-                        {/* Middle: Italic Quote */}
-                        <div style={{ padding: '0 20px', textAlign: 'center', zIndex: 10 }}>
-                          <p style={{ 
-                            color: '#E2E8F0', 
-                            fontSize: '32px', 
-                            fontStyle: 'italic', 
-                            fontFamily: 'Georgia, serif', 
-                            lineHeight: '1.6', 
-                            wordBreak: 'keep-all',
-                          }}>
-                            &ldquo;{tg.quote}&rdquo;
-                          </p>
-                        </div>
-
-                        {/* Divider 3 */}
-                        <div style={{ width: '100%', height: '2px', background: 'linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent)', zIndex: 10 }} />
-
-                        {/* Bottom: CTA */}
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px', textAlign: 'center', zIndex: 10 }}>
-                          <span style={{ color: '#94A3B8', fontSize: '24px', letterSpacing: '0.1em' }}>
-                            {locale === 'ko' ? '나와 닮은 위인은?' : locale === 'de' ? 'Welcher Riese ähnelt dir?' : 'Who is your soul giant?'}
-                          </span>
-                          <span style={{ color: '#f59e0b', fontSize: '36px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            {locale === 'ko' ? '지금 테스트하기' : locale === 'de' ? 'Jetzt testen' : 'Test Now'} <span style={{ fontSize: '30px' }}>→</span>
-                          </span>
-                          <a href={`/${locale}/dna`} className="text-amber-500 hover:underline break-all block truncate w-40 sm:w-auto">
-                            giantswisdom.com/dna
-                          </a>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                ) : (
-                  /* Square card — captured by html2canvas */
-                  <div
-                    ref={shareCardRef}
-                    style={{
-                      background: 'linear-gradient(135deg, #0B0F1A 0%, #111827 100%)',
-                      border: '1px solid rgba(245,158,11,0.3)',
-                      borderRadius: '20px',
-                      padding: '28px 24px',
-                      maxWidth: '360px',
-                      margin: '0 auto',
-                      textAlign: 'center',
-                    }}
-                  >
-                    <div style={{ width: '72px', height: '72px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 14px', border: '2px solid rgba(245,158,11,0.5)' }}>
-                      <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
-                    </div>
-                    <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : locale === 'pt' ? 'MEU DNA DE HERANÇA' : 'My Heritage DNA'}</p>
-                    <p style={{ color: '#FEF3C7', fontSize: '18px', fontWeight: '700', marginBottom: '4px', fontFamily: 'Georgia, serif' }}>
-                      {dna ? archetypes[dna]?.name[activeLocale] : ''}
-                    </p>
-                    <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}</p>
-                    <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 0', marginBottom: '18px' }}>
-                      <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: 'keep-all' }}>
-                        &ldquo;{(tg.quote || '').slice(0, 70)}{(tg.quote || '').length > 70 ? '...' : ''}&rdquo;
-                      </p>
-                    </div>
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
-                      <span style={{ color: '#F59E0B', fontWeight: '700', fontSize: '13px' }}>Giants Wisdom</span>
-                      <span style={{ color: '#475569', fontSize: '11px' }}>giantswisdom.com</span>
-                    </div>
-                  </div>
-                )}
-
-                {/* Share Buttons */}
-                <div className="space-y-3 max-w-[360px] mx-auto">
-                  {/* Save as Image */}
-                  <button
-                    onClick={handleSaveImage}
-                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm font-bold text-foreground transition-all active:scale-95 min-h-[48px]"
-                  >
-                    <Download className="w-4 h-4" />
-                    {locale === 'ko' ? '이미지로 저장' : 'Save as Image'}
-                  </button>
-
-                  {/* Kakao & Copy Link */}
-                  <div className="grid grid-cols-2 gap-3">
+                  {/* Card Type Toggle */}
+                  <div className="flex justify-center gap-3 mb-4">
                     <button
-                      onClick={shareToKakao}
-                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#FEE500] hover:bg-[#FEE500]/90 text-[#191919] text-sm font-bold transition-all active:scale-95 min-h-[48px] cursor-pointer"
-                    >
-                      <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                        <path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.557 1.707 4.8 4.27 6.007-.188.688-.68 2.48-.778 2.875-.158.625.228.618.48.45 1.97-1.312 2.72-1.848 3.823-2.583.4.056.802.088 1.205.088 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/>
-                      </svg>
-                      {locale === 'ko' ? '카카오톡' : 'Kakao Share'}
-                    </button>
-
-                    <button
-                      onClick={handleCopyLink}
-                      className={`flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold transition-all active:scale-95 min-h-[48px] border cursor-pointer ${
-                        copied 
-                          ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' 
-                          : 'bg-white/5 hover:bg-white/10 border-white/10 text-foreground'
+                      onClick={() => setShareCardType('story')}
+                      className={`flex-1 max-w-[170px] min-h-[44px] px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
+                        shareCardType === 'story'
+                          ? 'bg-amber-500 text-slate-950 border-amber-500 shadow-md shadow-amber-500/20'
+                          : 'bg-slate-950/60 text-slate-400 border-amber-500/20 hover:bg-slate-800 hover:text-slate-200'
                       }`}
                     >
-                      <Link2 className="w-4 h-4" />
-                      {copied 
-                        ? (locale === 'ko' ? '복사됨! ✓' : 'Copied! ✓') 
-                        : (locale === 'ko' ? '링크 복사' : 'Copy Link')
-                      }
+                      <span>📱</span>
+                      <span>{locale === 'ko' ? '스토리형 (9:16)' : 'Story (9:16)'}</span>
+                    </button>
+                    <button
+                      onClick={() => setShareCardType('square')}
+                      className={`flex-1 max-w-[170px] min-h-[44px] px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border cursor-pointer ${
+                        shareCardType === 'square'
+                          ? 'bg-amber-500 text-slate-950 border-amber-500 shadow-md shadow-amber-500/20'
+                          : 'bg-slate-950/60 text-slate-400 border-amber-500/20 hover:bg-slate-800 hover:text-slate-200'
+                      }`}
+                    >
+                      <span>⬜</span>
+                      <span>{locale === 'ko' ? '정방형 (1:1)' : 'Square (1:1)'}</span>
                     </button>
                   </div>
 
-                  {/* X (Twitter) & Facebook */}
-                  <div className="grid grid-cols-2 gap-3">
-                    <button
-                      onClick={handleTwitterShare}
-                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-black hover:bg-[#1a1a1a] border border-[#222222] text-sm font-bold text-white transition-all active:scale-95 min-h-[48px] cursor-pointer"
+                  {/* Share Cards */}
+                  {shareCardType === 'story' ? (
+                    /* Story card container & preview scale wrapper */
+                    <div 
+                      ref={containerRef} 
+                      className="w-full max-w-[340px] aspect-[9/16] relative overflow-hidden mx-auto rounded-3xl border border-amber-500/30 bg-[#020617] shadow-2xl"
+                      style={{ height: `${340 * 16 / 9}px` }}
                     >
-                      <svg className="w-4 h-4 fill-white" viewBox="0 0 24 24">
-                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                      </svg>
-                      {locale === 'ko' ? 'X 공유' : 'Share on X'}
+                      <div 
+                        ref={storyCardRef}
+                        style={{ 
+                          transform: `scale(${cardScale})`, 
+                          transformOrigin: 'top left', 
+                          width: '1080px', 
+                          height: '1920px',
+                          position: 'absolute',
+                          top: 0,
+                          left: 0,
+                        }}
+                      >
+                        {/* Background Ambient and Stars */}
+                        <div style={{
+                          position: 'absolute',
+                          inset: 0,
+                          background: 'linear-gradient(to bottom, #020617 0%, #0f172a 100%)',
+                          overflow: 'hidden',
+                          display: 'flex',
+                          flexDirection: 'column',
+                          justifyContent: 'space-between',
+                          padding: '120px 80px',
+                          color: '#ffffff',
+                          fontFamily: 'sans-serif',
+                        }}>
+                          {/* Gradient Ambient Blob */}
+                          <div style={{
+                            position: 'absolute',
+                            top: '30%',
+                            left: '50%',
+                            transform: 'translate(-50%, -50%)',
+                            width: '800px',
+                            height: '800px',
+                            borderRadius: '50%',
+                            background: 'radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, transparent 70%)',
+                            pointerEvents: 'none',
+                          }} />
+                          
+                          {/* Delicate Particle Stars */}
+                          {[
+                            { top: '15%', left: '20%', size: '8px', opacity: 0.4 },
+                            { top: '25%', left: '80%', size: '10px', opacity: 0.6 },
+                            { top: '45%', left: '15%', size: '6px', opacity: 0.3 },
+                            { top: '60%', left: '85%', size: '12px', opacity: 0.5 },
+                            { top: '75%', left: '25%', size: '8px', opacity: 0.4 },
+                            { top: '85%', left: '70%', size: '10px', opacity: 0.5 },
+                          ].map((star, idx) => (
+                            <div key={idx} style={{
+                              position: 'absolute',
+                              top: star.top,
+                              left: star.left,
+                              width: star.size,
+                              height: star.size,
+                              borderRadius: '50%',
+                              backgroundColor: '#f59e0b',
+                              boxShadow: '0 0 12px #f59e0b',
+                              opacity: star.opacity,
+                            }} />
+                          ))}
+
+                          {/* Top: Logo & URL */}
+                          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px', zIndex: 10 }}>
+                            <span style={{ color: '#f59e0b', fontSize: '38px', fontWeight: '900', letterSpacing: '0.15em', fontFamily: 'Georgia, serif' }}>GIANTS WISDOM</span>
+                            <span style={{ color: '#475569', fontSize: '24px', letterSpacing: '0.05em' }}>giantswisdom.com</span>
+                          </div>
+
+                          {/* Divider 1 */}
+                          <div style={{ width: '100%', height: '2px', background: 'linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent)', zIndex: 10 }} />
+
+                          {/* Middle: Giant's circular image (300px) */}
+                          <div style={{ display: 'flex', justifyContent: 'center', zIndex: 10 }}>
+                            <div style={{ 
+                              width: '300px', 
+                              height: '300px', 
+                              borderRadius: '50%', 
+                              overflow: 'hidden', 
+                              border: '6px solid #f59e0b',
+                              boxShadow: '0 0 40px rgba(245, 158, 11, 0.25)' 
+                            }}>
+                              <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
+                            </div>
+                          </div>
+
+                          {/* Middle: DNA label & Type */}
+                          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', textAlign: 'center', zIndex: 10 }}>
+                            <span style={{ color: '#f59e0b', fontSize: '22px', letterSpacing: '0.3em', fontWeight: 'bold' }}>
+                              {locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : 'MY HERITAGE DNA'}
+                            </span>
+                            <h2 style={{ color: '#FEF3C7', fontSize: '54px', fontWeight: '800', fontFamily: 'Georgia, serif', lineHeight: '1.2', margin: '10px 0' }}>
+                              {dna ? archetypes[dna]?.name[activeLocale] : ''}
+                            </h2>
+                            <p style={{ color: '#94A3B8', fontSize: '32px', fontWeight: '500' }}>
+                              {tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}
+                            </p>
+                          </div>
+
+                          {/* Divider 2 */}
+                          <div style={{ width: '100%', height: '2px', background: 'linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent)', zIndex: 10 }} />
+
+                          {/* Middle: Italic Quote */}
+                          <div style={{ padding: '0 20px', textAlign: 'center', zIndex: 10 }}>
+                            <p style={{ 
+                              color: '#E2E8F0', 
+                              fontSize: '32px', 
+                              fontStyle: 'italic', 
+                              fontFamily: 'Georgia, serif', 
+                              lineHeight: '1.6', 
+                              wordBreak: 'keep-all',
+                            }}>
+                              &ldquo;{tg.quote}&rdquo;
+                            </p>
+                          </div>
+
+                          {/* Divider 3 */}
+                          <div style={{ width: '100%', height: '2px', background: 'linear-gradient(to right, transparent, rgba(245, 158, 11, 0.3), transparent)', zIndex: 10 }} />
+
+                          {/* Bottom: CTA */}
+                          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px', textAlign: 'center', zIndex: 10 }}>
+                            <span style={{ color: '#94A3B8', fontSize: '24px', letterSpacing: '0.1em' }}>
+                              {locale === 'ko' ? '나와 닮은 위인은?' : locale === 'de' ? 'Welcher Riese ähnelt dir?' : 'Who is your soul giant?'}
+                            </span>
+                            <span style={{ color: '#f59e0b', fontSize: '36px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                              {locale === 'ko' ? '지금 테스트하기' : locale === 'de' ? 'Jetzt testen' : 'Test Now'} <span style={{ fontSize: '30px' }}>→</span>
+                            </span>
+                            <a href={`/${locale}/dna`} className="text-amber-500 hover:underline break-all block truncate w-40 sm:w-auto">
+                              giantswisdom.com/dna
+                            </a>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  ) : (
+                    /* Square card — captured by html2canvas */
+                    <div
+                      ref={shareCardRef}
+                      style={{
+                        background: 'linear-gradient(135deg, #0B0F1A 0%, #111827 100%)',
+                        border: '1px solid rgba(245,158,11,0.3)',
+                        borderRadius: '20px',
+                        padding: '28px 24px',
+                        maxWidth: '360px',
+                        margin: '0 auto',
+                        textAlign: 'center',
+                      }}
+                    >
+                      <div style={{ width: '72px', height: '72px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 14px', border: '2px solid rgba(245,158,11,0.5)' }}>
+                        <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
+                      </div>
+                      <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: 'uppercase', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : locale === 'pt' ? 'MEU DNA DE HERANÇA' : 'My Heritage DNA'}</p>
+                      <p style={{ color: '#FEF3C7', fontSize: '18px', fontWeight: '700', marginBottom: '4px', fontFamily: 'Georgia, serif' }}>
+                        {dna ? archetypes[dna]?.name[activeLocale] : ''}
+                      </p>
+                      <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}</p>
+                      <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 0', marginBottom: '18px' }}>
+                        <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: 'keep-all' }}>
+                          &ldquo;{(tg.quote || '').slice(0, 70)}{(tg.quote || '').length > 70 ? '...' : ''}&rdquo;
+                        </p>
+                      </div>
+                      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+                        <span style={{ color: '#F59E0B', fontWeight: '700', fontSize: '13px' }}>Giants Wisdom</span>
+                        <span style={{ color: '#475569', fontSize: '11px' }}>giantswisdom.com</span>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Share Buttons */}
+                  <div className="max-w-[360px] mx-auto w-full space-y-2.5">
+                    {/* Save as Image */}
+                    <button
+                      onClick={handleSaveImage}
+                      className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-slate-800/90 hover:bg-slate-700 border border-amber-500/20 text-sm font-bold text-slate-200 hover:text-white transition-all active:scale-95 min-h-[46px] cursor-pointer shadow-md"
+                    >
+                      <Download className="w-4 h-4 text-amber-400" />
+                      {locale === 'ko' ? '이미지로 저장' : 'Save as Image'}
                     </button>
 
+                    {/* 2x2 Grid for Social Sharing */}
+                    <div className="grid grid-cols-2 gap-2.5">
+                      {/* Kakao */}
+                      <button
+                        onClick={shareToKakao}
+                        className="flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-[#FEE500]/90 hover:bg-[#FEE500] text-[#191919] text-xs sm:text-sm font-bold transition-all active:scale-95 min-h-[44px] cursor-pointer shadow-md"
+                      >
+                        <svg className="w-4 h-4 fill-current shrink-0" viewBox="0 0 24 24">
+                          <path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.557 1.707 4.8 4.27 6.007-.188.688-.68 2.48-.778 2.875-.158.625.228.618.48.45 1.97-1.312 2.72-1.848 3.823-2.583.4.056.802.088 1.205.088 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/>
+                        </svg>
+                        <span>{locale === 'ko' ? '카카오톡' : 'Kakao'}</span>
+                      </button>
+
+                      {/* Copy Link */}
+                      <button
+                        onClick={handleCopyLink}
+                        className={`flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl text-xs sm:text-sm font-bold transition-all active:scale-95 min-h-[44px] border cursor-pointer shadow-md ${
+                          copied 
+                            ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/40' 
+                            : 'bg-slate-800/90 hover:bg-slate-700 border-amber-500/20 text-slate-200'
+                        }`}
+                      >
+                        <Link2 className="w-4 h-4 text-amber-400 shrink-0" />
+                        <span>{copied 
+                          ? (locale === 'ko' ? '복사됨! ✓' : 'Copied! ✓') 
+                          : (locale === 'ko' ? '링크 복사' : 'Copy Link')
+                        }</span>
+                      </button>
+
+                      {/* X (Twitter) */}
+                      <button
+                        onClick={handleTwitterShare}
+                        className="flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-slate-950 hover:bg-slate-900 border border-slate-700/60 text-xs sm:text-sm font-bold text-slate-200 transition-all active:scale-95 min-h-[44px] cursor-pointer shadow-md"
+                      >
+                        <svg className="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24">
+                          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                        <span>{locale === 'ko' ? 'X 공유' : 'X'}</span>
+                      </button>
+
+                      {/* Facebook */}
+                      <button
+                        onClick={handleFacebookShare}
+                        className="flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-[#1877F2]/20 hover:bg-[#1877F2]/30 border border-[#1877F2]/40 text-blue-300 text-xs sm:text-sm font-bold transition-all active:scale-95 min-h-[44px] cursor-pointer shadow-md"
+                      >
+                        <svg className="w-3.5 h-3.5 fill-[#1877F2] shrink-0" viewBox="0 0 24 24">
+                          <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
+                        </svg>
+                        <span>Facebook</span>
+                      </button>
+                    </div>
+
+                    {/* Native Share */}
                     <button
-                      onClick={handleFacebookShare}
-                      className="flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#1877F2] hover:bg-[#1877F2]/90 text-white text-sm font-bold transition-all active:scale-95 min-h-[48px] cursor-pointer"
+                      onClick={handleNativeShare}
+                      className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-xs sm:text-sm font-bold text-amber-400 transition-all active:scale-95 min-h-[44px] cursor-pointer shadow-md"
                     >
-                      <svg className="w-4 h-4 fill-white" viewBox="0 0 24 24">
-                        <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
-                      </svg>
-                      {locale === 'ko' ? 'Facebook 공유' : 'Share on Facebook'}
+                      <Share2 className="w-4 h-4" />
+                      {locale === 'ko' ? '더 많은 옵션으로 공유하기' : 'More Share Options'}
                     </button>
                   </div>
-
-                  {/* Native Share */}
-                  <button
-                    onClick={handleNativeShare}
-                    className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/20 text-sm font-bold text-amber-400 transition-all active:scale-95 min-h-[48px] cursor-pointer"
-                  >
-                    <Share2 className="w-4 h-4" />
-                    {locale === 'ko' ? '공유하기' : 'Share'}
-                  </button>
                 </div>
               </div>
             </m.div>

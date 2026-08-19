@@ -27,9 +27,7 @@ import GiantAvatar from '@/components/GiantAvatar'
 import { buildHreflang } from '@/lib/locales'
 import { BlogCTA } from '@/components/blog-cta'
 
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
-export const fetchCache = 'force-no-store'
+export const revalidate = 604800; // 7 days: cache static blog posts
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>

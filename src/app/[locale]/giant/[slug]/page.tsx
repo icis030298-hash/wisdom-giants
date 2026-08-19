@@ -14,7 +14,7 @@ import incompleteGiants from '@/config/incomplete-giants.json';
 import { Link } from "@/i18n/routing";
 import { Suspense } from 'react';
 
-export const revalidate = 3600;
+export const revalidate = 604800; // 7 days: cache static pages to prevent crawler ISR write bursts
 
 const incompleteGiantsSet = new Set(incompleteGiants);
 

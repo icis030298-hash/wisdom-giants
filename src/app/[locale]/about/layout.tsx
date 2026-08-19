@@ -3,9 +3,7 @@ import { giantsData } from "@/data/giants";
 import type { Metadata } from 'next'
 import { buildHreflang } from '@/lib/locales'
 
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
-export const fetchCache = 'force-no-store'
+export const revalidate = 604800; // 7 days: cache static about layout
 
 
 export async function generateMetadata({
