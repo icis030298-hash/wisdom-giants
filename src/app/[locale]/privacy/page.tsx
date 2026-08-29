@@ -43,7 +43,7 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
         <div className="space-y-12">
           <section>
             <h2 className="rd-doc-h2 pb-2 mb-4 rd-hairline-bottom">{t('summaryTitle')}</h2>
-            <p className="rd-body-lg">{t('summaryDesc')}</p>
+            <p className="rd-body-lg whitespace-pre-wrap">{t('summaryDesc')}</p>
           </section>
 
           <section className="space-y-8">
@@ -60,17 +60,27 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
 
           <section>
             <h2 className="rd-doc-h2 pb-2 mb-4 rd-hairline-bottom">{t('adsenseTitle')}</h2>
-            <p className="rd-body-lg">{t('adsenseDesc')}</p>
+            <p className="rd-body-lg whitespace-pre-wrap">{t('adsenseDesc')}</p>
           </section>
 
           <section>
             <h2 className="rd-doc-h2 pb-2 mb-4 rd-hairline-bottom">{t('retentionTitle')}</h2>
-            <p className="rd-body-lg">{t('retentionDesc')}</p>
+            <p className="rd-body-lg whitespace-pre-wrap">{t('retentionDesc')}</p>
+          </section>
+
+          <section>
+            <h2 className="rd-doc-h2 pb-2 mb-4 rd-hairline-bottom">{t('transferTitle')}</h2>
+            <p className="rd-body-lg whitespace-pre-wrap">{t('transferDesc')}</p>
+          </section>
+
+          <section>
+            <h2 className="rd-doc-h2 pb-2 mb-4 rd-hairline-bottom">{t('childrenTitle')}</h2>
+            <p className="rd-body-lg whitespace-pre-wrap">{t('childrenDesc')}</p>
           </section>
 
           <section>
             <h2 className="rd-doc-h2 pb-2 mb-4 rd-hairline-bottom">{t('rightsTitle')}</h2>
-            <p className="rd-body-lg">{t('rightsDesc')}</p>
+            <p className="rd-body-lg whitespace-pre-wrap">{t('rightsDesc')}</p>
           </section>
         </div>
       </div>
