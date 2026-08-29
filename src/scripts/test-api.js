@@ -6,14 +6,14 @@ const envLocalPath = path.join(__dirname, '..', '..', '.env.local');
 let apiKey = '';
 if (fs.existsSync(envLocalPath)) {
   const content = fs.readFileSync(envLocalPath, 'utf8');
-  const match = content.match(/NEXT_PUBLIC_GEMINI_API_KEY\s*=\s*(.+)/);
+  const match = content.match(/GEMINI_API_KEY\s*=\s*(.+)/);
   if (match) {
     apiKey = match[1].trim();
   }
 }
 
 if (!apiKey) {
-  console.error("Error: NEXT_PUBLIC_GEMINI_API_KEY not found in .env.local");
+  console.error("Error: GEMINI_API_KEY not found in .env.local");
   process.exit(1);
 }
 
@@ -24,7 +24,7 @@ const requestData = JSON.stringify({
 
 const options = {
   hostname: 'generativelanguage.googleapis.com',
-  path: `/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${apiKey}`,
+  path: `/v1beta/models/gemini-3.5-flash-lite:generateContent?key=${apiKey}`,
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',

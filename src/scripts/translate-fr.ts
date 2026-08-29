@@ -6,7 +6,7 @@ import * as path from "path";
 dotenv.config({ path: ".env.local" });
 dotenv.config();
 
-const API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY || process.env.GEMINI_API_KEY;
+const API_KEY = process.env.GEMINI_API_KEY;
 if (!API_KEY) {
   console.error("No Gemini API key found in env variables.");
   process.exit(1);

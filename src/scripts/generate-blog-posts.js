@@ -11,7 +11,7 @@ if (!apiKey) {
     if (match) {
       apiKey = match[1].trim();
     } else {
-      match = content.match(/NEXT_PUBLIC_GEMINI_API_KEY\s*=\s*(.+)/);
+      match = content.match(/GEMINI_API_KEY\s*=\s*(.+)/);
       if (match) {
         apiKey = match[1].trim();
       }
@@ -20,7 +20,7 @@ if (!apiKey) {
 }
 
 if (!apiKey) {
-  console.error("Error: GEMINI_API_KEY or NEXT_PUBLIC_GEMINI_API_KEY not found.");
+  console.error("Error: GEMINI_API_KEY or GEMINI_API_KEY not found.");
   process.exit(1);
 }
 

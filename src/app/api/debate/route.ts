@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
+import { GEMINI_MODELS } from "@/lib/models";
 import { giantsData } from "@/data/giants";
 import { respondInLanguage } from "@/lib/response-language";
 import { apiError } from "@/lib/api-errors";
@@ -12,7 +13,7 @@ export async function POST(req: Request) {
     const { giants, topic, history, currentSpeaker, locale, userMessage } = await req.json();
     reqLocale = locale;
 
-    // Shared 20/min provider pool: refuse here, with a Retry-After, rather
+    // Shared provider pool: refuse here, with a Retry-After, rather
     // than letting the provider return its own 429 with no guidance.
     const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)), "debate");
     if (!rl.ok) {
@@ -139,11 +140,7 @@ ${userMessage ? `\n=== 관객(사용자)의 개입 ===\n사용자가 토론에 �
 `;
 
     // Vertex AI models fallback
-    const modelsToTry = [
-      "gemini-2.0-flash",
-      "gemini-2.5-flash-lite",
-      "gemini-2.5-flash"
-    ];
+    const modelsToTry = GEMINI_MODELS;
     let lastError = null;
     let textResult = "";
 
@@ -191,4 +188,3 @@ ${userMessage ? `\n=== 관객(사용자)의 개입 ===\n사용자가 토론에 �
     }, { status: 500 });
   }
 }
-

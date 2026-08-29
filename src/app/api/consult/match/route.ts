@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
+import { GEMINI_MODELS } from "@/lib/models";
 
 // Master list of available giant slugs - must match exactly
 const AVAILABLE_GIANTS = [
@@ -43,7 +44,7 @@ export async function POST(req: NextRequest) {
     }
 
     const vAI = getVertexAIInstance();
-    const modelsToTry = ['gemini-2.5-flash', 'gemini-2.0-flash'];
+    const modelsToTry = GEMINI_MODELS;
     let responseText = "";
     let lastError = null;
 

@@ -1,6 +1,7 @@
 'use server';
 
 import { getVertexAIInstance } from './vertexai';
+import { GEMINI_MODELS } from './models';
 import { deepPersonas } from '@/data/personas/personas';
 import { giantPersonas } from '@/data/giant-personas';
 import { giantsData } from '@/data/giants';
@@ -514,13 +515,8 @@ O usuário fez uma pergunta profunda (mais de 30 caracteres).
     sysPrompt += `\n\n${customIntro}`;
   }
 
-
   // Try Gemini models for stability and speed
-  const modelsToTry = [
-    'gemini-2.0-flash',
-    'gemini-2.5-flash-lite',
-    'gemini-2.5-flash',
-  ];
+  const modelsToTry = GEMINI_MODELS;
   
   const vAI = getVertexAIInstance();
   let lastError = null;

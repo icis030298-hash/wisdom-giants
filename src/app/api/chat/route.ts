@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
+import { GEMINI_MODELS } from "@/lib/models";
 import { respondInLanguage } from "@/lib/response-language";
 import { apiError } from "@/lib/api-errors";
 import { checkRateLimit, clientIdFrom } from "@/lib/rate-limit";
@@ -12,9 +13,6 @@ import fs from "fs";
 import path from "path";
 
 export async function POST(req: Request) {
-  // Hoisted so the catch below can still answer in the caller's language; the
-  // moment a request fails is the worst one to hand someone a script they
-  // cannot read.
   let reqLocale: string | undefined;
   try {
     const { prompt, giantName, persona, messages, locale, slug, problemId, customText } = await req.json();
@@ -393,11 +391,7 @@ ${customPersonaText}${customNeverDoes}`;
       systemPrompt += `\n\n${customIntro}`;
     }
 
-    const modelsToTry = [
-      "gemini-2.0-flash",
-      "gemini-2.5-flash",
-      "gemini-2.5-flash-lite"
-    ];
+    const modelsToTry = GEMINI_MODELS;
     let text = "";
     let lastError = null;
 

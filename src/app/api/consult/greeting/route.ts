@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
+import { GEMINI_MODELS } from "@/lib/models";
 import { giantPersonas } from "@/data/giant-personas";
 import { deepPersonas } from "@/data/personas/personas";
 import { respondInLanguage } from "@/lib/response-language";
@@ -90,7 +91,7 @@ ${signatureRules}
 
 오직 위인의 목소리로 된 **첫 문장 하나**만 텍스트로 출력해 주십시오. 마크다운 장식이나 설명 없이 출력하십시오.`;
 
-    const modelsToTry = ['gemini-2.0-flash'];
+    const modelsToTry = GEMINI_MODELS;
     let greetingText = "";
     let lastError = null;
 

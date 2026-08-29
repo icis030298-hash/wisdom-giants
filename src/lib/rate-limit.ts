@@ -1,4 +1,11 @@
 /**
+ * [2026-08 Update - Gemini Paid Tier 2 Transition]
+ * The project has transitioned to Gemini Paid Tier 2 (Standard Pay-as-you-go).
+ * Standard Tier allows 1,000+ RPM (Requests Per Minute) with pay-per-token billing.
+ * The GLOBAL limit is now set to 900 (90% of the 1,000 RPM base ceiling) to act as a
+ * safeguard against runaway infinite loops/cost explosions while allowing high-throughput user traffic.
+ * Historical measurement context below is preserved for reference.
+ *
  * Sharing a very small pool of model calls between the people using the site.
  *
  * The provider ceiling is 20 requests per minute across every user, on the
@@ -66,7 +73,7 @@ const PER_CLIENT: Record<Kind, number> = {
 export type Kind = 'chat' | 'debate'
 
 /** Just under the provider's 20, so we refuse before they do. */
-const GLOBAL = 18
+const GLOBAL = 900
 
 type Bucket = { count: number; resetAt: number }
 

@@ -13,7 +13,7 @@ if (!apiKey) {
     if (match) {
       apiKey = match[1].trim();
     } else {
-      match = content.match(/NEXT_PUBLIC_GEMINI_API_KEY\s*=\s*(.+)/);
+      match = content.match(/GEMINI_API_KEY\s*=\s*(.+)/);
       if (match) {
         apiKey = match[1].trim();
       }
@@ -22,7 +22,7 @@ if (!apiKey) {
 }
 
 if (!apiKey) {
-  console.error("Error: GEMINI_API_KEY or NEXT_PUBLIC_GEMINI_API_KEY not found.");
+  console.error("Error: GEMINI_API_KEY or GEMINI_API_KEY not found.");
   process.exit(1);
 }
 
@@ -76,7 +76,7 @@ function callGemini(prompt) {
 
     const options = {
       hostname: 'generativelanguage.googleapis.com',
-      path: `/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${apiKey}`,
+      path: `/v1beta/models/gemini-3.5-flash-lite:generateContent?key=${apiKey}`,
       method: 'POST',
       timeout: 120000,
       headers: {

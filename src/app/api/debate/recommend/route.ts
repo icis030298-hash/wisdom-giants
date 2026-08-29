@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { getVertexAIInstance } from "@/lib/vertexai";
+import { GEMINI_MODELS } from "@/lib/models";
 import { giantsData } from "@/data/giants";
 import { responseLanguage } from "@/lib/response-language";
 import { apiError } from "@/lib/api-errors";
@@ -12,7 +13,7 @@ export async function POST(req: Request) {
     const { topic, locale } = await req.json();
     reqLocale = locale;
 
-    // Shared 20/min provider pool: refuse here, with a Retry-After, rather
+    // Shared provider pool: refuse here, with a Retry-After, rather
     // than letting the provider return its own 429 with no guidance.
     const rl = checkRateLimit(clientIdFrom(new Headers(req.headers)), "debate");
     if (!rl.ok) {
@@ -65,11 +66,7 @@ Instructions:
 `;
 
     const vAI = getVertexAIInstance();
-    const modelsToTry = [
-      "gemini-2.0-flash",
-      "gemini-2.5-flash-lite",
-      "gemini-2.5-flash"
-    ];
+    const modelsToTry = GEMINI_MODELS;
     let lastError = null;
     let textResult = "";
 

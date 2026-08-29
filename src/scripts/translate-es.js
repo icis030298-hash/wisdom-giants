@@ -7,14 +7,14 @@ const envLocalPath = path.join(__dirname, '..', '..', '.env.local');
 let apiKey = '';
 if (fs.existsSync(envLocalPath)) {
   const content = fs.readFileSync(envLocalPath, 'utf8');
-  const match = content.match(/NEXT_PUBLIC_GEMINI_API_KEY\s*=\s*(.+)/);
+  const match = content.match(/GEMINI_API_KEY\s*=\s*(.+)/);
   if (match) {
     apiKey = match[1].trim();
   }
 }
 
 if (!apiKey) {
-  console.error("Error: NEXT_PUBLIC_GEMINI_API_KEY not found in .env.local");
+  console.error("Error: GEMINI_API_KEY not found in .env.local");
   process.exit(1);
 }
 
