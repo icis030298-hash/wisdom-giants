@@ -68,7 +68,7 @@ export async function POST(req: Request) {
 
   // The daily quota is the business rule; this is the burst guard for the
   // shared Gemini pool, keyed by user rather than IP because we know who it is.
-  const rl = checkRateLimit(`u:${user.id}`);
+  const rl = checkRateLimit(`u:${user.id}`, 'app');
   if (!rl.ok) {
     return jsonError(429, 'RATE_LIMITED', { retryAfter: rl.retryAfter }, { 'Retry-After': String(rl.retryAfter) });
   }

@@ -64,13 +64,20 @@ const WINDOW_MS = 60_000
  * user touching anything — four giants over three rounds is twelve calls — so
  * the chat allowance would cut a debate off in its first round. It gets its own
  * ceiling sized to one full debate.
+ *
+ * The app ('app') is keyed by user id, not IP, and has a hard daily quota of
+ * its own (5 free + ad bonuses, 200 subscribed), so this is only a burst guard
+ * for the shared provider pool. Four a minute would refuse a free user's fifth
+ * message when they type quickly; ten leaves room for that without letting
+ * one account drain the pool.
  */
 const PER_CLIENT: Record<Kind, number> = {
   chat: 4,
   debate: 14,
+  app: 10,
 }
 
-export type Kind = 'chat' | 'debate'
+export type Kind = 'chat' | 'debate' | 'app'
 
 /** Just under the provider's 20, so we refuse before they do. */
 const GLOBAL = 900

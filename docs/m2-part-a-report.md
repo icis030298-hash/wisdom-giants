@@ -6,7 +6,7 @@
 
 | 항목 | 파일 | 상태 |
 |---|---|---|
-| Supabase 스키마 | `supabase/migrations/20260829000000_app_quota.sql` | 작성 완료 · **미적용** (아래 블로커) |
+| Supabase 스키마 | `supabase/migrations/20260829000000_app_quota.sql` | 완료 · 대시보드 SQL Editor로 적용됨(2026-08-29) |
 | 인증·서비스롤·KST·쿼터 공용 모듈 | `src/lib/app-api/{supabase,quota,kst,responses,giant-name}.ts` | 완료 |
 | `POST /api/app/chat` (SSE) | `src/app/api/app/chat/route.ts` | 완료 |
 | `POST /api/app/ad-bonus` | `src/app/api/app/ad-bonus/route.ts` | 완료 (SSV는 TODO 주석) |
@@ -39,9 +39,9 @@
 | 프롬프트 분리 후 텍스트 동일성 | ✅ 이동한 520줄 전부 verbatim 일치 |
 | `tsc --noEmit` | ✅ 29건 → 29건(기존 오류 동일, 신규 0) |
 | 쿼터 산식(5/5+1/5+2/구독 200) · KST 자정 경계 | ✅ 단위 검증 |
-| **5건 소진 후 402 · ad-bonus 3회째 409 · 계정 삭제 실동작** | ⛔ **DB 미연결로 실행 불가** (아래) |
+| **5건 소진 후 402 · ad-bonus 3회째 409 · 계정 삭제 실동작** | ✅ 프로젝트 복원 후 E2E 36/36 통과 (아래 2차 검증) |
 
-## ⛔ 블로커: Supabase 프로젝트 호스트가 존재하지 않음
+## (해결됨) 1차 검증 당시 블로커: Supabase 프로젝트 일시정지 — 같은 날 복원, 키 동일
 
 `.env.local`의 `NEXT_PUBLIC_SUPABASE_URL`(`yrqageqpxzltprtuvnpl.supabase.co`)이 **DNS에서 Non-existent domain**입니다(로컬 리졸버·8.8.8.8 모두). Google API 등 다른 호스트는 정상 해석되므로 네트워크 문제가 아니라 **프로젝트가 삭제됐거나(무료 플랜 장기 일시정지 후 삭제 포함) 레퍼런스가 잘못된 것**입니다.
 
@@ -50,6 +50,26 @@
 2. 웹의 `middleware.ts`가 매 페이지 요청마다 이 호스트로 `getUser()`를 호출하고 있는데 조용히 실패 중(에러를 반환할 뿐 throw는 안 함). 웹은 사실상 Supabase 없이 돌고 있었음.
 
 적용 방법(프로젝트가 살아나면): 대시보드 SQL Editor에 `supabase/migrations/20260829000000_app_quota.sql` 붙여넣기, 또는 `npx supabase link --project-ref <ref>` 후 `npx supabase db push`. 마이그레이션은 `if not exists`/`drop … if exists`로 재실행 안전.
+
+## 2차 검증 — 프로젝트 복원 후 E2E (36/36 통과)
+
+실제 Supabase 사용자를 만들어 로컬 dev 서버(3111)에 대해 순서대로 실행. 테스트 사용자는 종료 시 삭제(잔존 0명 확인).
+
+| 단계 | 결과 |
+|---|---|
+| 가입 시 profiles 행 자동 생성(트리거) | ✅ |
+| 신규 quota = 5/5, 보너스 2 | ✅ |
+| 채팅 5건 SSE 스트리밍, done 프레임의 remaining 4→0 | ✅ |
+| 6번째 → 402 `{remaining:0, adBonusLeft:2}` | ✅ |
+| ad-bonus #1 → 1/6, 채팅 → 0 · ad-bonus #2 → 1/7, 채팅 → 0 · **ad-bonus #3 → 409** · 8번째 채팅 → 402(adBonusLeft 0) | ✅ |
+| daily_usage 행 = chat 7 / bonus 2 (원자적 증가 정확) | ✅ |
+| 웹훅 INITIAL_PURCHASE → 구독 200/193 · 구독자 채팅 OK · 구독자 ad-bonus는 no-op · CANCELLATION 후에도 만료 전까지 유지 · EXPIRATION → 무료 복귀 · 구독자 200건 상한 → 402 | ✅ |
+| RLS: 본인 행 읽기 OK · 본인도 update 불가 · RPC 직접 호출 permission denied · 익명/타 사용자는 0행 | ✅ |
+| account-delete → ok · 기존 토큰 401 · auth.users 및 3개 테이블 행 전부 삭제 | ✅ |
+
+**SSE 실측**(gemini-3.5-flash-lite, 로컬 dev): 첫 토큰까지 0.8~1.4s, 전체 1.5~5.1s(답변 46~1,307자, 4~35 프레임). 스트리밍이라 체감은 첫 토큰 시간.
+
+**1차 실행에서 잡힌 버그 1건(수정 완료)**: 웹용 버스트 가드(분당 4건/클라이언트)가 앱 사용자의 5번째 메시지를 429로 막았음. 앱은 일일 쿼터가 따로 있으므로 `rate-limit.ts`에 `app` 종류(분당 10건/사용자)를 추가하고 `/api/app/chat`이 이를 사용. 웹 `chat`/`debate` 허용치는 그대로.
 
 ## 보고 사항
 
@@ -85,6 +105,6 @@
 - 참고: 출력 단가가 2.5-flash-lite($0.40)의 6배. 단위경제가 빡빡해지면 폴백 순서를 바꾸는 것이 가장 큰 레버.
 
 ## 다음 단계
-1. (대표) Supabase 프로젝트 확인/재생성 → 키 3종 교체 → 마이그레이션 적용
-2. (웹 세션) DB 연결 후 미검증 3항목(402/409/계정 삭제) 실행 + SSE 스트림 실측
-3. (앱 세션) 계약 문서에 추가된 400/404/429 코드 처리 반영 후 E2E
+1. (앱 세션) 계약서에 추가된 400/404/429 코드 처리 반영 → 실기기 E2E(온보딩→로그인→5건→광고→페이월)
+2. (대표) Vercel 프로덕션 env에 `REVENUECAT_WEBHOOK_SECRET` 추가(값은 `.env.local`과 동일) · Supabase Site URL을 `https://www.giantswisdom.com`으로 · Google/Apple provider 활성화
+3. (대표) RevenueCat 웹훅 URL 등록 후 대시보드 "Send test event"로 200 확인
