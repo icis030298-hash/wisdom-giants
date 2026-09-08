@@ -1,10 +1,12 @@
 /**
- * [2026-08 Update - Gemini Paid Tier 2 Transition]
- * The project has transitioned to Gemini Paid Tier 2 (Standard Pay-as-you-go).
- * Standard Tier allows 1,000+ RPM (Requests Per Minute) with pay-per-token billing.
- * The GLOBAL limit is now set to 900 (90% of the 1,000 RPM base ceiling) to act as a
- * safeguard against runaway infinite loops/cost explosions while allowing high-throughput user traffic.
- * Historical measurement context below is preserved for reference.
+ * [2026-09-08 Correction]
+ * A comment here claimed the project had moved to Gemini Paid Tier 2 and set
+ * GLOBAL to 900. That was never true: the AdSense re-review audit of
+ * 2026-09-08 measured the provider still on the FREE tier (20 requests/day
+ * per model), so a global cap of 900/min protected nothing. GLOBAL is back
+ * to 18 — just under the provider's per-minute ceiling — until billing is
+ * actually connected in AI Studio and verified against the console, not a
+ * comment. When that happens, raise GLOBAL deliberately and date the change.
  *
  * Sharing a very small pool of model calls between the people using the site.
  *
@@ -80,7 +82,7 @@ const PER_CLIENT: Record<Kind, number> = {
 export type Kind = 'chat' | 'debate' | 'app'
 
 /** Just under the provider's 20, so we refuse before they do. */
-const GLOBAL = 900
+const GLOBAL = 18
 
 type Bucket = { count: number; resetAt: number }
 
