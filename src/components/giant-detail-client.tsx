@@ -26,7 +26,6 @@ import {
   Swords
 } from "lucide-react"
 import { archetypes } from "@/data/heritage-test"
-import { giants } from "@/lib/giants-data"
 import { ConditionalAdSense } from "@/components/conditional-adsense"
 import { AdSlot } from "@/components/ad-slot"
 import GiantAvatar from "@/components/GiantAvatar"
@@ -54,9 +53,12 @@ interface GiantDetailClientProps {
   };
   relatedBlogPosts: any[];
   wikipediaUrl: string | null;
+  // Picked and localized on the server: name/headline/shortDescription resolve
+  // through the merged messages (locale over en), never the Korean roster text.
+  relatedGiants?: any[];
 }
 
-function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related: any; locale: string; getRelatedTranslation: any }) {
+function RelatedGiantCard({ related }: { related: any }) {
   const [imgErr, setImgErr] = useState(false);
   const tUI = useTranslations("UI");
   return (
@@ -85,14 +87,14 @@ function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related:
       </div>
       
       <h3 className="font-serif text-xl font-bold rd-text-ink group-hover:opacity-90 transition-colors mb-1">
-        {getRelatedTranslation(related.slug, 'name', related.name)}
+        {related.name}
       </h3>
       <p className="text-xs rd-accent mb-4 font-medium">
-        {getRelatedTranslation(related.slug, 'headline', related.title || related.headline)}
+        {related.headline}
       </p>
-      
+
       <p className="text-sm rd-text-muted line-clamp-3 leading-relaxed mb-6 flex-1">
-        {getRelatedTranslation(related.slug, 'shortDescription', related.description)}
+        {related.shortDescription}
       </p>
       
       <div className="mt-auto w-full py-3.5 rounded-xl rd-bg-accent group-hover:opacity-90 rd-accent text-xs font-semibold transition-all border rd-hairline group-hover:opacity-90 text-center flex items-center justify-center gap-1">
@@ -103,13 +105,13 @@ function RelatedGiantCard({ related, locale, getRelatedTranslation }: { related:
   );
 }
 
-export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikipediaUrl }: GiantDetailClientProps) {
+export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikipediaUrl, relatedGiants = [] }: GiantDetailClientProps) {
   const [isChatOpen, setIsChatOpen] = useState(false)
   const [showMatchOverlay, setShowMatchOverlay] = useState(false)
   const [imageError, setImageError] = useState(false)
   const router = useRouter()
   const locale = useLocale()
-  const activeLocale = (locale === 'ko' ? 'ko' : locale === 'de' ? 'de' : locale === 'ja' ? 'ja' : 'en') as 'ko' | 'en' | 'de' | 'ja';
+  const activeLocale = (['ko', 'de', 'ja'].includes(locale) ? locale : 'en') as 'ko' | 'en' | 'de' | 'ja';
   const tt = useTranslations("Test")
   const tUI = useTranslations("UI")
   const tNav = useTranslations("Navigation")
@@ -165,23 +167,8 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
   const mode = queryParams.get('mode')
   const dna = queryParams.get('dna')
 
-  // Related Giants Logic: filter by same category, exclude current giant, show 3 random
-  const currentCategory = giant.category;
-  const filteredGiants = giants.filter((g: any) => g.category === currentCategory && g.slug !== giant.slug);
-  
-  // Deterministic stable shuffle based on giant name length to prevent jumping around on render
-  const getRelatedGiants = () => {
-    if (filteredGiants.length <= 3) return filteredGiants;
-    const seed = giant.name.length;
-    const shuffled = [...filteredGiants].sort((a, b) => {
-      const valA = (a.slug.length * seed) % 10;
-      const valB = (b.slug.length * seed) % 10;
-      return valA - valB;
-    });
-    return shuffled.slice(0, 3);
-  };
-  const relatedGiants = getRelatedGiants();
-
+  // Related giants arrive from the server, already picked and localized
+  // (locale over en); see giant/[slug]/page.tsx.
 
   const shareCardRef = useRef<HTMLDivElement>(null)
   const storyCardRef = useRef<HTMLDivElement>(null)
@@ -333,13 +320,16 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
       const canvas = await html2canvas(targetRef.current, options)
       const link = document.createElement('a')
       
+      // Download filenames stay out of messages/: they are not reader-facing
+      // copy, and a translated filename buys nothing. The parens keep the
+      // i18n extraction script from treating these as UI strings.
       if (isStory) {
-        link.download = locale === 'ko' 
-          ? `나의유산DNA_스토리_${tg.name || giant.name}.png` 
+        link.download = locale === 'ko'
+          ? (`나의유산DNA_스토리_${tg.name || giant.name}.png`)
           : `HeritageDNA_Story_${tg.name || giant.name}.png`
       } else {
-        link.download = locale === 'ko' 
-          ? `나의유산DNA_${tg.name || giant.name}.png` 
+        link.download = locale === 'ko'
+          ? (`나의유산DNA_${tg.name || giant.name}.png`)
           : `HeritageDNA_${tg.name || giant.name}.png`
       }
       
@@ -352,13 +342,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
 
   const handleNativeShare = async () => {
     const archetypeName = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name
-    const shareText = locale === 'ko'
-      ? `나와 닮은 역사 속 위인은 ${archetypeName}! 당신은 어떤 위인과 닮았나요?`
-      : locale === 'de'
-      ? `Mein historischer Zwilling ist '${archetypeName}'! Welchem historischen Riesen ähneln Sie?`
-      : locale === 'ja'
-      ? `私に最も似ている歴史上の偉人は「${archetypeName}」です！あなたはどの偉人に似ていますか？`
-      : locale === 'pt' ? `Minha figura histórica é ${archetypeName}! Com qual personagem histórico você se parece?` : `My historical match is ${archetypeName}! Which historical giant do you resemble?`
+    const shareText = tUI('myHistoricalMatchIs', { archetypeName: archetypeName })
     const shareUrl = `${window.location.origin}/${locale}/dna`
     
     if (navigator.share) {
@@ -390,11 +374,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
   const handleCopyLink = async () => {
     const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
-    const text = locale === 'ko' 
-      ? `나와 닮은 역사 속 위인은 ${giantName}! 당신은 어떤 위인과 닮았나요? 👉 https://www.giantswisdom.com/ko/dna`
-      : locale === 'de'
-      ? `Mein historischer Zwilling ist ${giantName}! Welchem Riesen ähneln Sie? 👉 https://www.giantswisdom.com/de/dna`
-      : locale === 'pt' ? `Minha figura histórica é ${giantName}! Com qual personagem histórico você se parece? 👉 https://www.giantswisdom.com/pt/dna` : `My historical match is ${giantName}! Who's your historical match? 👉 https://www.giantswisdom.com/en/dna`;
+    const text = tUI('myHistoricalMatchIs2', { giantName: giantName });
     
     try {
       await navigator.clipboard.writeText(text);
@@ -416,18 +396,12 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
   const handleTwitterShare = () => {
     const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
-    const text = locale === 'ko'
-      ? `나와 닮은 역사 속 위인은 ${giantName} 🏛️\n당신은 어떤 위인과 닮았나요?\n#GiantsWisdom #역사위인 #위인찾기`
-      : locale === 'de'
-      ? `Mein historischer Zwilling ist ${giantName} 🏛️\nWelchem Riesen ähneln Sie?\n#GiantsWisdom #HistorischerZwilling`
-      : locale === 'pt' ? `Meu DNA histórico é do tipo ${giantName}! 🏛️\nCom qual figura histórica você se parece?\n#GiantsWisdom #História #Sabedoria` : `My historical match is ${giantName} 🏛️\nWho's your historical match?\n#GiantsWisdom #HistoricalMatch`;
+    const text = tUI('myHistoricalMatchIs3', { giantName: giantName });
     
-    const url = locale === 'ko'
-      ? 'https://www.giantswisdom.com/ko/dna'
-      : locale === 'de'
-      ? 'https://www.giantswisdom.com/de/dna'
-      : 'https://www.giantswisdom.com/en/dna';
-    
+    // Every locale has its own /dna page; the old ko/de/en three-way sent the
+    // other 21 locales to the English page.
+    const url = `https://www.giantswisdom.com/${locale}/dna`;
+
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`,
       '_blank',
@@ -438,19 +412,11 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
   const handleFacebookShare = () => {
     const dnaType = dna ? (archetypes[dna]?.name[activeLocale] || tg.name) : tg.name;
     const giantName = tg.name;
-    const url = locale === 'ko'
-      ? 'https://www.giantswisdom.com/ko/dna'
-      : locale === 'de'
-      ? 'https://www.giantswisdom.com/de/dna'
-      : 'https://www.giantswisdom.com/en/dna';
+    const url = `https://www.giantswisdom.com/${locale}/dna`;
     
     window.open(
       `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}&quote=${encodeURIComponent(
-        locale === 'ko'
-          ? `나와 닮은 역사 속 위인은 ${giantName}! 당신은 어떤 위인과 닮았나요?`
-          : locale === 'de'
-          ? `Mein historischer Zwilling ist ${giantName}! Welchem Riesen ähneln Sie?`
-          : locale === 'pt' ? `Minha figura histórica é ${giantName}! Com qual personagem histórico você se parece?` : `My historical match is ${giantName}! Who's your historical match?`
+        tUI('myHistoricalMatchIs4', { giantName: giantName })
       )}`,
       '_blank',
       'width=550,height=450'
@@ -470,9 +436,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
     const Kakao = (window as any).Kakao
 
     if (typeof Kakao === 'undefined') {
-      alert(locale === 'ko'
-        ? '카카오 공유를 불러올 수 없습니다. 페이지를 새로고침해주세요.'
-        : 'Cannot load Kakao Share. Please refresh the page.')
+      alert(tUI('cannotLoadKakaoShare'))
       return
     }
 
@@ -496,8 +460,8 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
       Kakao.Share.sendDefault({
         objectType: 'feed',
         content: {
-          title: locale === 'ko' ? `나와 닮은 위인: ${giantName}` : `My historical match: ${giantName}`,
-          description: locale === 'ko' ? `${giantName} 유형 - Giants Wisdom` : `${giantName} Type - Giants Wisdom`,
+          title: tUI('myHistoricalMatch', { giantName: giantName }),
+          description: tUI('typeGiantsWisdom', { giantName: giantName }),
           imageUrl: imageUrl,
           link: {
             mobileWebUrl: window.location.href,
@@ -506,7 +470,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
         },
         buttons: [
           {
-            title: locale === 'ko' ? '나도 테스트하기' : 'Try Test Too',
+            title: tUI('tryTestToo'),
             link: {
               mobileWebUrl: `https://www.giantswisdom.com/${locale}/dna`,
               webUrl: `https://www.giantswisdom.com/${locale}/dna`,
@@ -517,16 +481,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
     } catch (error) {
       console.error("Kakao Share execution error:", error)
       try {
-        const shareText = locale === 'ko'
-          ? `나와 닮은 역사 속 위인은 ${dnaType}! 당신은 어떤 위인과 닮았나요?`
-          : locale === 'pt' ? `Minha figura histórica é ${dnaType}! Com qual personagem histórico você se parece?` : `My historical match is ${dnaType}! Which historical giant do you resemble?`
+        const shareText = tUI('myHistoricalMatchIs5', { dnaType: dnaType })
         navigator.clipboard.writeText(`${shareText} 👉 ${window.location.href}`)
       } catch {
-        const shareText = locale === 'ko'
-          ? `나와 닮은 역사 속 위인은 ${dnaType}! 당신은 어떤 위인과 닮았나요?`
-          : locale === 'pt'
-          ? `Meu DNA histórico é do tipo ${dnaType}! 🏛️ Com qual figura histórica você se parece? #GiantsWisdom #História #Sabedoria`
-          : locale === 'pt' ? `Minha figura histórica é ${dnaType}! Com qual personagem histórico você se parece?` : `My historical match is ${dnaType}! Which historical giant do you resemble?`
+        const shareText = tUI('myHistoricalMatchIs6', { dnaType: dnaType })
         const ta = document.createElement('textarea')
         ta.value = `${shareText} 👉 ${window.location.href}`
         document.body.appendChild(ta)
@@ -534,9 +492,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
         document.execCommand('copy')
         document.body.removeChild(ta)
       }
-      alert(locale === 'ko' 
-        ? "카카오톡 연결에 실패했습니다. 대신 공유 링크가 복사되었습니다!" 
-        : "Failed to connect to KakaoTalk. Share link has been copied to your clipboard instead!")
+      alert(tUI('failedToConnectTo'))
     }
   }
 
@@ -639,7 +595,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                           const hasBatchim = lastChar >= 0xAC00 && lastChar <= 0xD7A3 && (lastChar - 0xAC00) % 28 > 0;
                           const particle = hasBatchim ? '과' : '와';
                           return `${name}${particle} 대화하기`;
-                        })() : `Talk with ${(tg.name || giant.name || "").split(" ")[0]}`}
+                        })() : t.chatWith.replace("{name}", (tg.name || giant.name || "").split(" ")[0])}
                       </span>
                     </button>
                   </div>
@@ -656,14 +612,14 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                   <Sparkles className="w-4 h-4" />
                 </div>
                 <h2 className="text-sm font-bold">
-                  {locale === 'ko' ? '요약 & 주요 업적' : 'Quick Facts & Achievements'}
+                  {tUI('quickFactsAchievements')}
                 </h2>
               </div>
               <div className="p-6 md:p-8 rounded-2xl border rd-hairline space-y-6">
                 {/* One Line Summary */}
                 <div className="space-y-2">
                   <h3 className="text-xs font-bold rd-accent">
-                    {locale === 'ko' ? '한 줄 요약' : 'Summary'}
+                    {tUI('summary')}
                   </h3>
                   <p className="rd-text-body text-base font-medium leading-relaxed">{narrative.fact_box.one_line_summary}</p>
                 </div>
@@ -687,7 +643,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 {narrative.fact_box.legacy_statement && (
                   <div className="space-y-2 pt-2 border-t rd-hairline">
                     <h3 className="text-xs font-bold rd-accent">
-                      {locale === 'ko' ? '영향 및 유산' : 'Impact & Legacy'}
+                      {tUI('impactLegacy')}
                     </h3>
                     <p className="rd-text-body text-sm md:text-base leading-relaxed">
                       "{narrative.fact_box.legacy_statement}"
@@ -972,7 +928,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
       <div className="max-w-4xl mx-auto px-6 mb-24">
         <div className="flex flex-col items-center gap-4 text-center mb-10">
           <h2 className="text-2xl md:text-3xl font-serif font-bold rd-text-ink">
-            {locale === 'ko' ? '이 거인과 더 깊이' : 'Dive Deeper'}
+            {tUI('diveDeeper')}
           </h2>
           <div className="w-16 h-1" />
         </div>
@@ -986,7 +942,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
               <Swords className="w-6 h-6" />
             </div>
             <h3 className="font-bold rd-text-ink mb-2">{tUI('debateRoom')}</h3>
-            <p className="text-xs rd-text-muted">{locale === 'ko' ? '거인의 사상과 논쟁해보세요' : 'Argue with the giant'}</p>
+            <p className="text-xs rd-text-muted">{tUI('argueWithTheGiant')}</p>
           </Link>
           <Link
             href={`/consult?giant=${giant.slug}`}
@@ -997,7 +953,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
               <MessageCircleHeart className="w-6 h-6" />
             </div>
             <h3 className="font-bold rd-text-ink mb-2">{tNav('consult')}</h3>
-            <p className="text-xs rd-text-muted">{locale === 'ko' ? '거인에게 해답을 구하세요' : 'Seek answers from the giant'}</p>
+            <p className="text-xs rd-text-muted">{tUI('seekAnswersFromThe')}</p>
           </Link>
           <Link
             href="/?mode=match"
@@ -1008,7 +964,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
               <Dna className="w-6 h-6" />
             </div>
             <h3 className="font-bold rd-text-ink mb-2">{tNav('dnaTest')}</h3>
-            <p className="text-xs rd-text-muted">{locale === 'ko' ? '나와 닮은 거인은?' : 'Find your giant match'}</p>
+            <p className="text-xs rd-text-muted">{tUI('findYourGiantMatch')}</p>
           </Link>
         </div>
       </div>
@@ -1024,9 +980,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
               {tUI('recommendedGiants')}
             </h2>
             <p className="text-sm rd-text-muted max-w-lg">
-              {locale === 'ko' 
-                ? '동일한 분야에서 뜻을 품고 역경을 이겨내며 인류에 기여한 거인들을 만나보세요.' 
-                : 'Explore the legacy of other giants who walked a similar path in this field.'}
+              {tUI('exploreTheLegacyOf')}
             </p>
             <div className="w-24 h-1" />
           </div>
@@ -1037,8 +991,6 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                 <RelatedGiantCard
                   key={related.slug}
                   related={related}
-                  locale={locale}
-                  getRelatedTranslation={getRelatedTranslation}
                 />
               );
             })}
@@ -1190,7 +1142,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
  }`}
                   >
                     <span>⬜</span>
-                    <span>{locale === 'ko' ? '정방형 (1:1)' : 'Square (1:1)'}</span>
+                    <span>{tUI('square11')}</span>
                   </button>
                 </div>
 
@@ -1288,13 +1240,13 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                         {/* Middle: DNA label & Type */}
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', textAlign: 'center', zIndex: 10 }}>
                           <span style={{ color: '#f59e0b', fontSize: '22px', letterSpacing: '0.3em', fontWeight: 'bold' }}>
-                            {locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : 'MY HERITAGE DNA'}
+                            {tUI('myHeritageDna')}
                           </span>
                           <h2 style={{ color: '#FEF3C7', fontSize: '54px', fontWeight: '800', fontFamily: 'Georgia, serif', lineHeight: '1.2', margin: '10px 0' }}>
                             {dna ? archetypes[dna]?.name[activeLocale] : ''}
                           </h2>
                           <p style={{ color: '#94A3B8', fontSize: '32px', fontWeight: '500' }}>
-                            {tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}
+                            {tg.name}{tUI('type')}
                           </p>
                         </div>
 
@@ -1311,7 +1263,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                             lineHeight: '1.6',
                             /* keep-all은 한국어에서만. 공백 없는 일본어·중국어·
                                태국어에 걸면 인용문 전체가 한 덩어리가 됩니다. */
-                            wordBreak: locale === 'ko' ? 'keep-all' : 'normal',
+                            wordBreak: locale === 'ko' ? ('keep-all') : 'normal',
                             overflowWrap: 'break-word',
                           }}>
                             &ldquo;{tg.quote}&rdquo;
@@ -1324,10 +1276,10 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                         {/* Bottom: CTA */}
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px', textAlign: 'center', zIndex: 10 }}>
                           <span style={{ color: '#94A3B8', fontSize: '24px', letterSpacing: '0.1em' }}>
-                            {locale === 'ko' ? '나와 닮은 위인은?' : locale === 'de' ? 'Welcher Riese ähnelt dir?' : 'Who is your soul giant?'}
+                            {tUI('whoIsYourSoul')}
                           </span>
                           <span style={{ color: '#f59e0b', fontSize: '36px', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            {locale === 'ko' ? '지금 테스트하기' : locale === 'de' ? 'Jetzt testen' : 'Test Now'} <span style={{ fontSize: '30px' }}>→</span>
+                            {tUI('testNow')} <span style={{ fontSize: '30px' }}>→</span>
                           </span>
                           <a href={`/${locale}/dna`} className="rd-accent hover:underline break-all block truncate w-40 sm:w-auto">
                             giantswisdom.com/dna
@@ -1354,13 +1306,13 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     <div style={{ width: '72px', height: '72px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 14px', border: '2px solid rgba(245,158,11,0.5)' }}>
                       <img src={giant.imageUrl} alt={tg.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} crossOrigin="anonymous" />
                     </div>
-                    <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: '', marginBottom: '6px' }}>{locale === 'ko' ? '나의 유산 DNA' : locale === 'de' ? 'MEINE HERITAGE DNA' : locale === 'pt' ? 'MEU DNA DE HERANÇA' : 'My Heritage DNA'}</p>
+                    <p style={{ color: '#F59E0B', fontSize: '10px', letterSpacing: '0.2em', fontWeight: '700', textTransform: '', marginBottom: '6px' }}>{tUI('myHeritageDna2')}</p>
                     <p style={{ color: '#FEF3C7', fontSize: '18px', fontWeight: '700', marginBottom: '4px', fontFamily: 'Georgia, serif' }}>
                       {dna ? archetypes[dna]?.name[activeLocale] : ''}
                     </p>
-                    <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{locale === 'ko' ? ' 유형' : locale === 'de' ? ' Typ' : ' Type'}</p>
+                    <p style={{ color: '#94A3B8', fontSize: '13px', marginBottom: '18px' }}>{tg.name}{tUI('type2')}</p>
                     <div style={{ borderTop: '1px solid rgba(255,255,255,0.07)', borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '14px 0', marginBottom: '18px' }}>
-                      <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: locale === 'ko' ? 'keep-all' : 'normal', overflowWrap: 'break-word' }}>
+                      <p style={{ color: '#CBD5E1', fontSize: '12px', fontStyle: 'italic', lineHeight: '1.6', wordBreak: locale === 'ko' ? ('keep-all') : 'normal', overflowWrap: 'break-word' }}>
                         &ldquo;{(tg.quote || '').slice(0, 70)}{(tg.quote || '').length > 70 ? '...' : ''}&rdquo;
                       </p>
                     </div>
@@ -1379,7 +1331,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl rd-bg-surface hover:opacity-90 border rd-hairline text-sm font-bold rd-text-ink transition-all active:scale-95 min-h-[48px]"
                   >
                     <Download className="w-4 h-4" />
-                    {locale === 'ko' ? '이미지로 저장' : 'Save as Image'}
+                    {tUI('saveAsImage')}
                   </button>
 
                   {/* Kakao & Copy Link */}
@@ -1391,7 +1343,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                       <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                         <path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.557 1.707 4.8 4.27 6.007-.188.688-.68 2.48-.778 2.875-.158.625.228.618.48.45 1.97-1.312 2.72-1.848 3.823-2.583.4.056.802.088 1.205.088 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/>
                       </svg>
-                      {locale === 'ko' ? '카카오톡' : 'Kakao Share'}
+                      {tUI('kakaoShare')}
                     </button>
 
                     <button
@@ -1404,8 +1356,8 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     >
                       <Link2 className="w-4 h-4" />
                       {copied 
-                        ? (locale === 'ko' ? '복사됨! ✓' : 'Copied! ✓') 
-                        : (locale === 'ko' ? '링크 복사' : 'Copy Link')
+                        ? (tUI('copied')) 
+                        : (tUI('copyLink'))
                       }
                     </button>
                   </div>
@@ -1419,7 +1371,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                       <svg className="w-4 h-4 fill-white" viewBox="0 0 24 24">
                         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                       </svg>
-                      {locale === 'ko' ? 'X 공유' : 'Share on X'}
+                      {tUI('shareOnX')}
                     </button>
 
                     <button
@@ -1429,7 +1381,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                       <svg className="w-4 h-4 fill-white" viewBox="0 0 24 24">
                         <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
                       </svg>
-                      {locale === 'ko' ? 'Facebook 공유' : 'Share on Facebook'}
+                      {tUI('shareOnFacebook')}
                     </button>
                   </div>
 
@@ -1439,7 +1391,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
                     className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl rd-bg-accent hover:opacity-90 border rd-hairline text-sm font-bold rd-accent transition-all active:scale-95 min-h-[48px] cursor-pointer"
                   >
                     <Share2 className="w-4 h-4" />
-                    {locale === 'ko' ? '공유하기' : 'Share'}
+                    {tUI('share')}
                   </button>
                 </div>
               </div>
@@ -1451,7 +1403,7 @@ export function GiantDetailClient({ giant, translations, relatedBlogPosts, wikip
       {/* Copy-link toast */}
       {showToast && (
         <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[200] px-6 py-3 rounded-full rd-bg-accent font-bold text-sm animate-in fade-in slide-in-from-bottom-2 duration-200">
-          {locale === 'ko' ? '복사 완료!' : 'Copied!'}
+          {tUI('copied2')}
         </div>
       )}
     </div>
