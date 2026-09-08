@@ -668,6 +668,10 @@ export default async function BlogPostDetailPage({ params }: Props) {
   const talkToGiantsTitle = tBlogLink("title")
   const talkNow = tBlogLink("talkNow")
 
+  // The author-box strings existed in messages/*.json (BlogAuthorBox) for
+  // every locale, but nothing rendered them — 115 posts carried no byline.
+  const tAuthor = await getTranslations({ locale, namespace: "BlogAuthorBox" })
+
   const relatedGiantsSlugs = post.relatedGiants || (post.giantSlug ? [post.giantSlug] : [])
   const relatedGiants = relatedGiantsSlugs
     .map(slug => giants.find(g => g.slug === slug))
@@ -870,6 +874,30 @@ export default async function BlogPostDetailPage({ params }: Props) {
             them for colour. */}
         <div>
           {parseMarkdown(translation.content)}
+        </div>
+
+        {/* Author box */}
+        <div
+          className="mt-12 p-5 flex flex-col gap-1"
+          style={{
+            background: "var(--rd-surface)",
+            border: "1px solid var(--rd-border)",
+            borderRadius: "var(--rd-card-radius)",
+          }}
+        >
+          <p className="rd-caption">{tAuthor("authorLabel")}</p>
+          <p
+            className="rd-text-ink"
+            style={{ fontSize: "var(--rd-card-name-size)", fontWeight: "var(--rd-card-name-weight)" }}
+          >
+            {tAuthor("authorName")}
+          </p>
+          <p className="rd-text-body" style={{ fontSize: "var(--rd-card-intro-size)" }}>
+            {tAuthor("authorDescription")}
+          </p>
+          <p className="rd-caption mt-1">
+            {tAuthor("publishedLabel")} · {publishedDisplay}
+          </p>
         </div>
 
         {/* In-Article Ad — after body */}

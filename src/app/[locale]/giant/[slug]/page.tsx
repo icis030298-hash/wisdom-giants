@@ -279,6 +279,7 @@ export default async function GiantDetailPage({ params }: Props) {
 
   const messages = await getMessages({ locale });
   const tUI = await getTranslations({ locale, namespace: 'UI' });
+  const tAuthor = await getTranslations({ locale, namespace: 'BlogAuthorBox' });
 
   // Find standardized narrative data
   let narrative: any = null;
@@ -359,6 +360,29 @@ export default async function GiantDetailPage({ params }: Props) {
     // Era for the sidebar, from the same source the cards use.
     eraLabel: eraLabel(summaryEra) || giantTranslation.era || giant.era || null
   };
+
+  // Related giants are picked here, not in the client, so their card text can
+  // resolve through the merged messages (locale over en). The client used to
+  // fall back to giants.ts strings, which are all Korean — that is how Korean
+  // names ended up on Thai pages whenever a translation lookup missed.
+  const relatedPool = giants.filter(g => g.category === giant.category && g.slug !== giant.slug);
+  const relatedSeed = giant.name.length;
+  const relatedGiants = (relatedPool.length <= 3
+    ? relatedPool
+    : [...relatedPool].sort((a, b) =>
+        ((a.slug.length * relatedSeed) % 10) - ((b.slug.length * relatedSeed) % 10)
+      ).slice(0, 3)
+  ).map(g => {
+    const tr = (messages.Giants as any)?.[g.slug] || {};
+    return {
+      slug: g.slug,
+      imageUrl: g.imageUrl,
+      category: g.category,
+      name: tr.name || g.name,
+      headline: tr.headline || g.title,
+      shortDescription: tr.shortDescription || g.description,
+    };
+  });
 
   const BASE_URL = 'https://www.giantswisdom.com';
   const categoryTopics: Record<string, string[]> = {
@@ -560,10 +584,20 @@ export default async function GiantDetailPage({ params }: Props) {
         <GiantDetailClient
           giant={giant}
           translations={translations}
+          relatedGiants={relatedGiants}
           relatedBlogPosts={blogPosts.filter(post => post.relatedGiants?.includes(giant.slug))}
           wikipediaUrl={((wikipediaLinks as any)[giant.slug]?.[locale] || (wikipediaLinks as any)[giant.slug]?.['en'] || null)}
         />
       </Suspense>
+
+      {/* Editorial attribution — the BlogAuthorBox strings already exist in
+          all 24 locales, so no new translations are needed here. */}
+      <p
+        className="text-center pb-10"
+        style={{ color: "var(--rd-text-muted)", fontSize: "var(--rd-caption-size)" }}
+      >
+        {tAuthor("authorLabel")} · {tAuthor("authorName")}
+      </p>
     </>
   );
 }

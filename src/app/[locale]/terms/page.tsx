@@ -64,6 +64,11 @@ export default async function TermsPage({ params }: { params: Promise<{ locale: 
           </section>
 
           <section>
+            <h2 className="rd-doc-h2 pb-2 mb-4 rd-hairline-bottom">{t('subscriptionTitle')}</h2>
+            <p className="rd-body-lg whitespace-pre-wrap">{t('subscriptionDesc')}</p>
+          </section>
+
+          <section>
             <h2 className="rd-doc-h2 pb-2 mb-4 rd-hairline-bottom">{t('disputeTitle')}</h2>
             <p className="rd-body-lg whitespace-pre-wrap">{t('disputeDesc')}</p>
           </section>

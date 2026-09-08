@@ -1,60 +1,32 @@
-"use client"
-
-import { useParams } from 'next/navigation'
-
+// Route-transition fallback. This used to be a fixed inset-0 z-50 overlay with
+// a "Summoning Timeless Wisdom..." headline — a full screen the reader hit on
+// every navigation, for seconds on any ISR miss, and in English for the 20
+// locales the text was never translated into. A 3px bar at the top of the
+// viewport covers nothing, needs no words, and so needs no translations.
 export default function Loading() {
-  const params = useParams()
-  const locale = params?.locale as string || 'en'
-
-  let loadingText = 'Summoning Timeless Wisdom...'
-  if (locale === 'ja') {
-    loadingText = '時を超えた知恵を呼び覚ます...'
-  } else if (locale === 'ko') {
-    loadingText = '시대를 초월한 지혜를 불러오는 중...'
-  } else if (locale === 'de') {
-    loadingText = 'Erwecke zeitlose Weisheit...'
-  }
-  // This screen sits between every cream page and the next, so anything dark
-  // here flashes black on each navigation. That flash is what "the loading
-  // screen is still the old one" referred to. The two amber blur circles are
-  // gone: on cream they read as smudges rather than glow.
   return (
-    <div
-      className="fixed inset-0 z-50 flex flex-col items-center justify-center"
-      style={{ background: "var(--rd-bg-base)" }}
-    >
-      <div className="relative w-16 h-16 mb-8">
+    <>
+      <style>{`
+        @keyframes rd-loading-slide {
+          0% { transform: translateX(-100%); }
+          50% { transform: translateX(60%); }
+          100% { transform: translateX(100%); }
+        }
+      `}</style>
+      <div
+        role="progressbar"
+        aria-label="Loading"
+        className="fixed top-0 left-0 right-0 z-50 overflow-hidden"
+        style={{ height: "3px", background: "var(--rd-divider-faint)" }}
+      >
         <div
-          className="absolute inset-0 rounded-full"
-          style={{ border: "3px solid var(--rd-divider-faint)" }}
-        />
-        <div
-          className="absolute inset-0 rounded-full animate-spin"
+          className="h-full w-1/2"
           style={{
-            border: "3px solid var(--rd-accent-brown)",
-            borderTopColor: "transparent",
+            background: "var(--rd-accent-brown)",
+            animation: "rd-loading-slide 1.2s ease-in-out infinite",
           }}
         />
       </div>
-
-      <div className="text-center space-y-3">
-        <h2
-          className="font-serif"
-          style={{
-            color: "var(--rd-text-ink)",
-            fontSize: "var(--rd-h1-size)",
-            fontWeight: "var(--rd-h1-weight)",
-            letterSpacing: "var(--rd-h1-tracking)",
-            lineHeight: "var(--rd-h1-leading)",
-          }}
-        >
-          Giants Wisdom
-        </h2>
-        {/* No uppercase, no wide tracking: this string is translated. */}
-        <p className="rd-caption">
-          {loadingText}
-        </p>
-      </div>
-    </div>
+    </>
   )
 }

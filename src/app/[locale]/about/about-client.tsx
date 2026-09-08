@@ -1,12 +1,18 @@
 "use client"
 
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import { aboutTranslations } from "@/data/about-translations"
 import { Navigation } from "@/components/navigation"
 
 export function AboutPageClient({ locale: propLocale }: { locale?: string }) {
   const currentLocale = propLocale || useLocale() || 'ko'
   const t = aboutTranslations[currentLocale] || aboutTranslations['en'] || aboutTranslations['ko']
+  // The editorial-policy strings sat in messages/*.json (AboutEditorialPolicy)
+  // for every locale without a single component reading them — the page showed
+  // no editorial policy at all.
+  const tPolicy = useTranslations("AboutEditorialPolicy")
+  const principles = (tPolicy.raw("principles") as
+    { icon: string; title: string; description: string }[] | undefined) || []
 
   return (
     <div className="min-h-screen">
@@ -44,6 +50,30 @@ export function AboutPageClient({ locale: propLocale }: { locale?: string }) {
           <p className="rd-body-lg">{t.p5}</p>
 
           <p className="rd-body-lg pt-2">{t.p6}</p>
+
+          {principles.length > 0 && (
+            <section className="pt-10">
+              <h2 className="rd-doc-h2">{tPolicy("sectionTitle")}</h2>
+              <p className="rd-body-lg mt-2">{tPolicy("sectionSubtitle")}</p>
+              <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {principles.map((p) => (
+                  <li
+                    key={p.title}
+                    className="p-4 rounded-xl border rd-hairline"
+                    style={{ background: "var(--rd-surface)" }}
+                  >
+                    <p className="font-bold rd-text-ink">
+                      <span className="me-2" aria-hidden="true">{p.icon}</span>
+                      {p.title}
+                    </p>
+                    <p className="mt-1 rd-text-body" style={{ fontSize: "var(--rd-card-intro-size)" }}>
+                      {p.description}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           {/* text-end rather than text-right so the signature stays on the
               trailing edge in Arabic and Hebrew too. */}

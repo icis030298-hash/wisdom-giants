@@ -1,28 +1,16 @@
 export const LOCALE_STATUS = {
-  ko: { index: true },
-  en: { index: true },
-  de: { index: true },
-  es: { index: true },
-  ja: { index: true },
-  fr: { index: true },
-  it: { index: true },
-  pt: { index: true },
-  ar: { index: true },
-  zh: { index: true },
-  nl: { index: true },
-  ru: { index: true },
-  hi: { index: true },
-  id: { index: true },
-  pl: { index: true },
-  sw: { index: true },
-  th: { index: true },
-  tr: { index: true },
-  uk: { index: true },
-  vi: { index: true },
-  el: { index: true },
-  fa: { index: true },
-  he: { index: true },
-  ha: { index: true },
+  ko: { index: true },  en: { index: true },
+  ja: { index: true },  zh: { index: true },
+  de: { index: true },  fr: { index: true },
+  // 아래 18개: 사용자에게는 보이되 검색 색인 제외.
+  // 사유: 구글 스팸 정책 "scaled content abuse" — 자동 번역 대량 페이지.
+  // 품질 검증 후 하나씩 다시 열 것. (2026-09-08 애드센스 재심사 대비)
+  es: { index: false }, it: { index: false }, pt: { index: false },
+  ar: { index: false }, nl: { index: false }, ru: { index: false },
+  hi: { index: false }, id: { index: false }, pl: { index: false },
+  sw: { index: false }, th: { index: false }, tr: { index: false },
+  uk: { index: false }, vi: { index: false }, el: { index: false },
+  fa: { index: false }, he: { index: false }, ha: { index: false },
 } as const;
 
 export type Locale = keyof typeof LOCALE_STATUS;
